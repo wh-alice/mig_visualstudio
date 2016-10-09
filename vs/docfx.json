@@ -26,6 +26,7 @@
       }
     ],
     "overwrite": [],
+	"xref": ["msdn.4.5.2.zip"],
     "externalReference": [],
     "globalMetadata": {},
     "fileMetadata": {},
