@@ -1,7 +1,7 @@
 ---
 title: "&#39;&lt;member&gt;&#39; conflicts with the reserved member by this name that is implicitly declared in all enums"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/10/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na

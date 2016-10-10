@@ -125,7 +125,7 @@ Create manual test cases to check that each of the deliverables meet your users'
   
  Add, edit and rename your shared parameter sets from the parameters tab. View the test cases that reference them in the test cases pane.  
   
- ![From the test hub, choose Parameters](../dv_TeamTestALM/media/managesharedparameters.png "ManageSharedParameters")  
+ ![From the test hub, choose Parameters](../dv_TeamTestALM_NotInTOC/media/managesharedparameters.png "ManageSharedParameters")  
   
  Each shared parameter set is a work item. From the **Properties** tab, you can view or make changes to this work item. For example, you can assign owners and track changes.  
   
@@ -135,13 +135,13 @@ Create manual test cases to check that each of the deliverables meet your users'
   
  **A:** Select the tests that you want to reassign. Then choose the tester who you want to run the tests.  
   
- ![Reassign tests to another tester](../dv_TeamTestALM/media/createtestsreassigntests.png "CreateTestsReassignTests")  
+ ![Reassign tests to another tester](../dv_TeamTestALM_NotInTOC/media/createtestsreassigntests.png "CreateTestsReassignTests")  
   
  **Q: How can I find out if a test case has been added to other test suites?**  
   
  **A:** Select a test case, then choose to view the test suites details. The associated test suites pane shows you any test suite for any test plan that contains this test case. This includes all team projects. Click the test suite to view it. Hover over the test suite in the pane to view the team project and the test plan for that test suite.  
   
- ![Tests tab; click details pane icon](../dv_TeamTestALM/media/testtabassociatedtestsuites.png "TestTabAssociatedTestSuites")  
+ ![Tests tab; click details pane icon](../dv_TeamTestALM_NotInTOC/media/testtabassociatedtestsuites.png "TestTabAssociatedTestSuites")  
   
  **Q: What happens when I delete a test case from a requirement-based test suite?**  
   

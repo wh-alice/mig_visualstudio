@@ -1,7 +1,7 @@
 ---
 title: "&#39;&lt;name&gt;&#39; is ambiguous in the application objects &#39;&lt;list&gt;&#39;"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/10/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na

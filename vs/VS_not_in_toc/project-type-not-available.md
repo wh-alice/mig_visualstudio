@@ -38,7 +38,7 @@ This dialog box appears with the error "The project \<project> cannot be opened 
   
 ## Workaround  
   
--   This dialog box appears because a product or product version required to open the specified file was not found. It is common for this error to occur when attempting to open a project file that cannot be opened with the installed version of [!INCLUDE[vsprvs](../dv_TeamTestALM/includes/vsprvs_md.md)]. For example, attempting to open a [!INCLUDE[csprcs](../VS_debugger/includes/csprcs_md.md)] project file with [!INCLUDE[vbprvbxprlong](../Token/vbprvbxprlong_md.md)] will open this dialog box.  
+-   This dialog box appears because a product or product version required to open the specified file was not found. It is common for this error to occur when attempting to open a project file that cannot be opened with the installed version of [!INCLUDE[vsprvs](../dv_TeamTestALM/includes/vsprvs_md.md)]. For example, attempting to open a [!INCLUDE[csprcs](../VS_debugger/includes/csprcs_md.md)] project file with [!INCLUDE[vbprvbxprlong](../VS_not_in_toc/includes/vbprvbxprlong_md.md)] will open this dialog box.  
   
 #### To work around this error  
   

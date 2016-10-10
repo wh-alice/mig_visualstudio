@@ -59,7 +59,7 @@ To test your app using different platforms and configurations, set up separate e
   
 4.  Add another machine group to define the environment for running your tests.  
   
-     ![Enter test environment details](../dv_TeamTestALM_NotInTOC/media/vsotestenvironmentdetails.png "VSOTestEnvironmentDetails")  
+     ![Enter test environment details](../dv_TeamTestALM/media/vsotestenvironmentdetails.png "VSOTestEnvironmentDetails")  
   
 5.  Now [set up automated tests for your builds](../dv_TeamTestALM/set-up-continuous-testing-for-builds.md).  
   

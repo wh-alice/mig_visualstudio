@@ -1,7 +1,7 @@
 ---
 title: "Application Page, Project Designer (Visual Basic)"
 ms.custom: na
-ms.date: "10/08/2016"
+ms.date: "10/10/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "Project Designer, Application page"
   - "Application page in Project Designer"
 ms.assetid: 8cec9fea-cd92-47ff-88dd-7c928f0b4a74
-caps.latest.revision: 60
+caps.latest.revision: 61
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -224,6 +224,6 @@ translation.priority.mt:
     </sections>
   </section>
   <relatedTopics>
-    \<link xlink:href="0ad4926f-636e-41f8-a5b1-faf9d9b0a254">Managing Application Properties</link>
+    
 \<link xlink:href="2d4d8fd0-e881-4829-976f-0d1a9221dec0">Writing Code in Office Solutions</link></relatedTopics>
 </developerUIReferenceDocument>

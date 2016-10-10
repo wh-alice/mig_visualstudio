@@ -88,20 +88,20 @@ Create test plans to track manual testing for sprints or milestones. That way yo
   
  From the Test hub in the web portal, select a test plan or test suite and then open it.  
   
- ![From the Test Hub, click Open Test Plan](../dv_TeamTestALM/media/opentestplanwit.png "OpenTestPlanWIT")  
+ ![From the Test Hub, click Open Test Plan](../dv_TeamTestALM_NotInTOC/media/opentestplanwit.png "OpenTestPlanWIT")  
   
  In the work item form, you can view and change any custom fields, status, summary, details, attachments, and links for your test plan or your test suite.  
   
  In MTM, open a test plan to edit the fields. The Properties tab now displays the work item form. Run settings have been moved into a new tab.  
   
- ![Select test plan and choose the Properties tab](../dv_TeamTestALM/media/opentestplanwitmtm.png "OpenTestPlanWITMTM")  
+ ![Select test plan and choose the Properties tab](../dv_TeamTestALM_NotInTOC/media/opentestplanwitmtm.png "OpenTestPlanWITMTM")  
   
  For test suites, open the test suite from the context menu to view and change fields for the work item.  
   
 ###  <a name="OpeningTestPlanTestSuite_QA_AuditTrail"></a> Q: Can I get an audit trail for test plans and test suites?  
  **A:** Yes, work item history tracks changes to test plans and test suites. For example, adding tests to a test suite or changing configurations are tracked. In the work item form, under **History**, choose **ALL CHANGES** to view the audit trail.  
   
- ![View audit trial in test plans and test suites](../dv_TeamTestALM/media/mtm_testplanwit_audittrail.png "MTM_TestPlanWIT_AuditTrail")  
+ ![View audit trial in test plans and test suites](../dv_TeamTestALM_NotInTOC/media/mtm_testplanwit_audittrail.png "MTM_TestPlanWIT_AuditTrail")  
   
 ### Q: What is a static test suite?  
  **A:** A static test suite can contain a combination of test cases and test suites as children. Add a static test suite from the Test Plan tab with the context menu or the plus icon on the toolbar. Simply choose the test cases that you want to add to this static test suite, or add another test suite.  
@@ -109,7 +109,7 @@ Create test plans to track manual testing for sprints or milestones. That way yo
 ### Q: Can I group my requirement-based test suites together?  
  **A:** Yes, you can create a static test suite to do this. Drag test suites to group them in a static test plan.  
   
- ![Use static test suites like folders](../dv_TeamTestALM/media/plantestsaddstaticsuites.png "PlanTestsAddStaticSuites")  
+ ![Use static test suites like folders](../dv_TeamTestALM_NotInTOC/media/plantestsaddstaticsuites.png "PlanTestsAddStaticSuites")  
   
 ### Q: What are query-based test suites?  
  **A:** Use a query to group together test cases that have a particular characteristic - for example, all the tests that have Priority=1. The suite will automatically include every test case that is returned by the query that you define.  
@@ -117,7 +117,7 @@ Create test plans to track manual testing for sprints or milestones. That way yo
 ### Q: Can I create an offline version of the test plan for easy review?  
  **A:** Yes, you can export test plans, test suites and test cases using the web portal. You can select the detail that you want in the report. You can then email or print this report for review.  
   
- ![Choose a test suite, right&#45;click and choose Export](../dv_TeamTestALM/media/exporttestplantohtml.png "ExportTestPlanToHTML")  
+ ![Choose a test suite, right&#45;click and choose Export](../dv_TeamTestALM_NotInTOC/media/exporttestplantohtml.png "ExportTestPlanToHTML")  
   
  Change the test case fields in the report by adding or removing columns from the list view of the test suite.  
   

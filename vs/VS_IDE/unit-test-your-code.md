@@ -1,7 +1,7 @@
 ---
 title: "Unit Test Your Code"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/10/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -33,7 +33,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Unit Test Your Code
-Unit tests give developers and testers a quick way to look for logic errors in the methods of classes in [!INCLUDE[csharp_current_short](../VS_IDE/includes/csharp_current_short_md.md)], [!INCLUDE[vb_current_short](../VS_debugger/includes/vb_current_short_md.md)], and [!INCLUDE[cpp_current_short](../Token/cpp_current_short_md.md)] projects.  
+Unit tests give developers and testers a quick way to look for logic errors in the methods of classes in [!INCLUDE[csharp_current_short](../VS_IDE/includes/csharp_current_short_md.md)], [!INCLUDE[vb_current_short](../VS_debugger/includes/vb_current_short_md.md)], and [!INCLUDE[cpp_current_short](../VS_IDE/includes/cpp_current_short_md.md)] projects.  
   
  The unit test tools include:  
   

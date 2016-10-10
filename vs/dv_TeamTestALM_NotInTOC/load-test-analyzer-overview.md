@@ -1,7 +1,7 @@
 ---
 title: "Load Test Analyzer Overview"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/10/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -438,7 +438,7 @@ Collapsing Mode
   
  In scrolling mode, the x-axis origin of the graph scrolls forward as the test advances in such a way that the most recent 100 sampling intervals can be seen on the graph. As soon as the 100 data point limit is reached, the graph automatically scrolls forward by 10 sampling intervals.  
   
- ![Graphs using scrolling mode](../dv_TeamTestALM/media/load_scrollingmode.png "Load_ScrollingMode")  
+ ![Graphs using scrolling mode](../dv_TeamTestALM_NotInTOC/media/load_scrollingmode.png "Load_ScrollingMode")  
 Scrolling Mode  
   
  The range of the x-axis of a scrolling graph remains fixed at 100 times the sampling interval, compared to an always-increasing range of the x-axis of a collapsing graph. The updates to a scrolling graph remain fixed at the sampling interval, compared to collapsing graphs, whose updates occur at increasing intervals as the test progresses (a multiple of the sampling interval).  
@@ -507,7 +507,7 @@ Graphing Area
   
  **Copy to Clipboard**  
   
- Also available on the graph area pop-up menu is a **Copy** operation. The copy command copies a snapshot of the graph and legend to the clipboard in HTML format, which can then be pasted into a report and e-mail by using [!INCLUDE[offoutlook](../dv_TeamTestALM_NotInTOC/includes/offoutlook_md.md)].  
+ Also available on the graph area pop-up menu is a **Copy** operation. The copy command copies a snapshot of the graph and legend to the clipboard in HTML format, which can then be pasted into a report and e-mail by using [!INCLUDE[offoutlook](../dv_TeamTestALM/includes/offoutlook_md.md)].  
   
 ####  <a name="GraphsViewPlotOptions"></a> Plot Options Dialog Box  
  The **Plot Options** dialog box enables you to change the color and line style of a plotted counter. You can also fix the range at a specific value or set the range to be automatically adjusted based on the sampled data.  
@@ -607,19 +607,19 @@ Tables View in Load Test Analyzer
  Some load test tables can contain additional columns, which include percentile data and response times broken into groups that are based on network emulation. By default, this data is not collected. To collect this data, in the Load Test Editor, under the **Run Settings** node, select the specific run setting node to change. In the **Properties** window, for the **Timing Details Storage** property, select **StatisticsOnly** or **AllIndividualDetails**. For more information, see [Considerations for Including Timing Details to Collect Percentile Data](#TimingDetails).  
   
 ###  <a name="TestsTable"></a> Tests Table  
- ![Tests table](../dv_TeamTestALM/media/ltest_teststable.png "LTest_TestsTable")  
+ ![Tests table](../dv_TeamTestALM_NotInTOC/media/ltest_teststable.png "LTest_TestsTable")  
   
  The **Tests** table displays information for the individual Web performance and unit tests that are run during a load test. The table lists tests by test and scenario, because one test can be included in many scenarios. The **Tests** table also includes the number of times the tests were run, the number of times the tests passed or failed, how many tests occurred per second, and the amount of time that was required to run the tests..  
   
 ###  <a name="AgentsTable"></a> Agents Table  
  The **Agents** table is displayed only when your load test uses a test controller and test agents. For more information, see [Distributing Load Test Runs Across Multiple Test Machines Using Test Controllers and Test Agents](../dv_TeamTestALM/distributing-load-test-runs-across-multiple-test-machines-using-test-controllers-and-test-agents.md).  
   
- ![Agents table](../dv_TeamTestALM/media/ltest_table.png "LTest_Table")  
+ ![Agents table](../dv_TeamTestALM_NotInTOC/media/ltest_table.png "LTest_Table")  
   
  The **Agents** table displays a list of the agents that were used during the load test run. The **Agents** table includes the number of requests that the agent tested and, of those requests, how many failed. Additionally, the **Agents** table includes the number of tests in the load tests test mix that the agent tested and, of those, how many failed.  
   
 ###  <a name="ErrorsTable"></a> Errors Table  
- ![Errors table](../dv_TeamTestALM/media/ltest_errorstable.png "LTest_ErrorsTable")  
+ ![Errors table](../dv_TeamTestALM_NotInTOC/media/ltest_errorstable.png "LTest_ErrorsTable")  
   
  In the **Errors** table, the **Count** column may be displayed as a link, as shown earlier. To further analyze error information, an error link can be selected by opening the **Load Tests Errors** dialog box. All errors that are related to the selected counter will be displayed. The Error links appear in the following tables:  
   
@@ -644,12 +644,12 @@ Error Stack Trace Dialog
   
  The **Details** column in the **Load Test Errors** dialog box might have **Test log** links that can help you isolate errors in the load test. For example, choosing a Web Performance test request error will open the results for the Web Performance test and highlight the request error.  
   
- ![Web request error from link](../dv_TeamTestALM_NotInTOC/media/ltest_reqerror.png "LTest_ReqError")  
+ ![Web request error from link](../dv_TeamTestALM/media/ltest_reqerror.png "LTest_ReqError")  
   
 ###  <a name="PagesTable"></a> Pages Table  
  Additional statistics are available in the **Pages** table when you view a post-run result.  
   
- ![Pages table](../dv_TeamTestALM/media/ltest_pagestable.png "LTest_PagesTable")  
+ ![Pages table](../dv_TeamTestALM_NotInTOC/media/ltest_pagestable.png "LTest_PagesTable")  
   
  A load test run setting contains the property Timing Details Storage, which can be set to Statistics Only or All Individual Details. Choosing one of these values causes the load test to store results for every page execution, in addition to the typical averaging of page execution times over a sampling interval.  
   
@@ -658,7 +658,7 @@ Error Stack Trace Dialog
  For more information, see [How to: View Web Page Response](../dv_TeamTestALM/how-to--view-web-page-response-time-in-a-load-test-using-the-load-test-analyzer.md).  
   
 ###  <a name="RequestsTable"></a> Requests Table  
- ![Tables View requests table](../dv_TeamTestALM/media/ltest_reqtable.png "LTest_ReqTable")  
+ ![Tables View requests table](../dv_TeamTestALM_NotInTOC/media/ltest_reqtable.png "LTest_ReqTable")  
   
  The **Requests** table displays details for individual requests issued during a load test. This includes all HTTP requests, and dependent requests such as images. The **Requests** table lists requests by test and scenario, because one request can be included in many tests and scenarios.  
   
@@ -670,7 +670,7 @@ Error Stack Trace Dialog
  The **SQL Trace** table displays the results of SQL tracing. This table is available only after a load test has completed, and only if SQL tracing was used during the test. For more information, see [The SQL Trace Data Table](../dv_TeamTestALM/analyzing-load-test-results-and-errors-in-the-tables-view-of-the-load-test-analyzer.md#AnalyzingLoadTestResultsErrorsTablesViewViewingTheSQLTraceDataTable).  
   
 ###  <a name="TestDetailsTable"></a> Test Details Table  
- ![Details table](../dv_TeamTestALM/media/ltest_testdetails.png "LTest_TestDetails")  
+ ![Details table](../dv_TeamTestALM_NotInTOC/media/ltest_testdetails.png "LTest_TestDetails")  
   
  The **Test Details** table displays details for the tests included in the test mix for the load test. The details include the name of the test, the scenario that the test was in, the time that the test started, the length of time that it took the test to run, and the test outcome indicating if the test passed or failed. If the test failed, a link is present in the **Details** column. You can choose the link which will take you to the Web Performance Test Editor with the failed request highlighted.  
   
@@ -680,7 +680,7 @@ Error Stack Trace Dialog
  The **Thresholds** table displays a list of threshold rule violations that occurred during the load test run. For more information, see [Analyzing Threshold Rule Violations](../dv_TeamTestALM/analyzing-threshold-rule-violations-in-load-tests-using-the-load-test-analyzer.md).  
   
 ###  <a name="TransactionsTable"></a> Transactions Table  
- ![Transactions table](../dv_TeamTestALM/media/ltest_transactions.png "LTest_Transactions")  
+ ![Transactions table](../dv_TeamTestALM_NotInTOC/media/ltest_transactions.png "LTest_Transactions")  
   
  The **Transactions** table displays a list of transactions that occurred during a load test run. For more information, see [How to: Add a Transaction to a Web Performance Test](../Topic/How%20to:%20Add%20a%20Transaction%20to%20a%20Web%20Performance%20Test.md).  
   
@@ -802,7 +802,7 @@ Error Stack Trace Dialog
 |-------------------------------------------|-----------------------|  
 |![Topic applies](../dv_TeamTestALM/media/doesapply.gif "DoesApply")|![Topic does not apply](../dv_TeamTestALM/media/doesnotapply.gif "DoesNotApply")|  
   
- ![Details view](../dv_TeamTestALM/media/ltest_detailsview.png "LTest_DetailsView")  
+ ![Details view](../dv_TeamTestALM_NotInTOC/media/ltest_detailsview.png "LTest_DetailsView")  
 Details View in Load Test Analyzer  
   
  The Details view displays the Virtual User Activity Chart, which is used to visually analyze what the individual virtual users did during the load test. Virtual User Activity Chart lets you see patterns of user activity, load patterns, correlate failed or slow tests, and see requests with other virtual user activity. The Virtual User Activity Chart can also help you determine spikes in CPU usage, drops in requests per second, and what tests or pages were running during the spikes and drops.  

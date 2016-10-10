@@ -36,7 +36,7 @@ translation.priority.mt:
   
  This error occurs when a name is passed into the \<xref:Microsoft.Build.Tasks.ResolveAssemblyReference.FullTargetFrameworkSubsetNames*> property, but a subset with that name cannot be found.  
   
- The [!INCLUDE[net_client_v35_long](../Token/net_client_v35_long_md.md)] is a subset of the full [!INCLUDE[dnprdnshort](../VS_debugger/includes/dnprdnshort_md.md)] 3.5 run-time library. For more information about the [!INCLUDE[net_client_v35_long](../Token/net_client_v35_long_md.md)], see [.NET Framework Client Profile](../Topic/.NET%20Framework%20Client%20Profile.md).  
+ The [!INCLUDE[net_client_v35_long](../VS_not_in_toc/includes/net_client_v35_long_md.md)] is a subset of the full [!INCLUDE[dnprdnshort](../VS_debugger/includes/dnprdnshort_md.md)] 3.5 run-time library. For more information about the [!INCLUDE[net_client_v35_long](../VS_not_in_toc/includes/net_client_v35_long_md.md)], see [.NET Framework Client Profile](../Topic/.NET%20Framework%20Client%20Profile.md).  
   
  Procedures  
   

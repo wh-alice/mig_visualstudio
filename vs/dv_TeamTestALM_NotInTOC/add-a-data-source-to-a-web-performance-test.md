@@ -68,13 +68,13 @@ Bind data to provide different values to the same test, for example, to provide 
   
 7.  Add data to the fields.  
   
-     ![Add data to the fields](../dv_TeamTestALM/media/web_test_databinding_sql_addnewfieldsadddata.png "Web_Test_DataBinding_SQL_AddNewFieldsAddData")  
+     ![Add data to the fields](../dv_TeamTestALM_NotInTOC/media/web_test_databinding_sql_addnewfieldsadddata.png "Web_Test_DataBinding_SQL_AddNewFieldsAddData")  
   
 ##  <a name="AddingDataBindingWebTest_AddSQLData"></a> Add the data source  
   
 1.  Add a data source.  
   
-     ![Add data source to web performance test](../dv_TeamTestALM/media/web_test_databinding_sql_adddatasource.png "Web_Test_DataBinding_SQL_AddDataSource")  
+     ![Add data source to web performance test](../dv_TeamTestALM_NotInTOC/media/web_test_databinding_sql_adddatasource.png "Web_Test_DataBinding_SQL_AddDataSource")  
   
 2.  Choose the type of data source and name it.  
   
@@ -82,7 +82,7 @@ Bind data to provide different values to the same test, for example, to provide 
   
 3.  Create a connection.  
   
-     ![Choose new connection](../dv_TeamTestALM_NotInTOC/media/web_test_databinding_sql_adddatasourcedialogconnectionnew.png "Web_Test_DataBinding_SQL_AddDataSourceDialogConnectionNew")  
+     ![Choose new connection](../dv_TeamTestALM/media/web_test_databinding_sql_adddatasourcedialogconnectionnew.png "Web_Test_DataBinding_SQL_AddDataSourceDialogConnectionNew")  
   
      Enter the connection details.  
   
@@ -106,7 +106,7 @@ Bind data to provide different values to the same test, for example, to provide 
   
 2.  Open the Local.testsettings file in Solution Explorer and select the one run per data source row option.  
   
-     ![Edit the test settings file](../dv_TeamTestALM_NotInTOC/media/web_test_databinding_sql_testsettings.png "Web_Test_DataBinding_SQL_TestSettings")  
+     ![Edit the test settings file](../dv_TeamTestALM/media/web_test_databinding_sql_testsettings.png "Web_Test_DataBinding_SQL_TestSettings")  
   
 3.  Save the web performance test.  
   
@@ -118,7 +118,7 @@ Bind data to provide different values to the same test, for example, to provide 
   
      The two runs are displayed for each data row. Run 1 sends a request for the page Red.aspx, and Run 2 sends a request for the page Blue.aspx.  
   
-     ![Test run results](../dv_TeamTestALM/media/web_test_databinding_sql_runresults.png "Web_Test_DataBinding_SQL_RunResults")  
+     ![Test run results](../dv_TeamTestALM_NotInTOC/media/web_test_databinding_sql_runresults.png "Web_Test_DataBinding_SQL_RunResults")  
   
      When you bind to a data source, you could violate the default response URL rule. In this case, the error in Run 2 is caused by the rule which expects the Red.aspx page from the original test recording, but the data binding now directs it to the Blue.aspx page.  
   
@@ -128,7 +128,7 @@ Bind data to provide different values to the same test, for example, to provide 
   
      The web performance test now passes using data binding.  
   
-     ![Test passes using data binding](../dv_TeamTestALM_NotInTOC/media/web_test_databinding_sql_deleteresponseurlrunresults.png "Web_Test_DataBinding_SQL_DeleteResponseURLRunResults")  
+     ![Test passes using data binding](../dv_TeamTestALM/media/web_test_databinding_sql_deleteresponseurlrunresults.png "Web_Test_DataBinding_SQL_DeleteResponseURLRunResults")  
   
 ## Q & A  
   
@@ -168,7 +168,7 @@ Bind data to provide different values to the same test, for example, to provide 
   
 4.  Use the steps in [Binding the SQL data](#AddingDataBindingWebTest_BindSQLData), but choose CSV file as your data source.  
   
-     ![Enter a name and choose CSV file](../dv_TeamTestALM_NotInTOC/media/web_test_databinding_adddatasourcedialog.png "Web_Test_DataBinding_AddDataSourceDialog")  
+     ![Enter a name and choose CSV file](../dv_TeamTestALM/media/web_test_databinding_adddatasourcedialog.png "Web_Test_DataBinding_AddDataSourceDialog")  
   
 ###  <a name="AddingDataBindingWebTest_QA_CSVFileNoHeaders"></a> Q: What if my existing CSV file does not contain column headers?  
  **A:** If you can’t add column headers, you can use a schema description file to treat the CSV file as a database.  
@@ -187,7 +187,7 @@ Bind data to provide different values to the same test, for example, to provide 
   
 3.  Add a data source to the test.  
   
-     ![Add data source to web performance test](../dv_TeamTestALM/media/web_test_databinding_sql_adddatasource.png "Web_Test_DataBinding_SQL_AddDataSource")  
+     ![Add data source to web performance test](../dv_TeamTestALM_NotInTOC/media/web_test_databinding_sql_adddatasource.png "Web_Test_DataBinding_SQL_AddDataSource")  
   
 4.  If you’re using a schema.ini file, choose Database (not CSV file) as the data source and name it.  
   
@@ -195,11 +195,11 @@ Bind data to provide different values to the same test, for example, to provide 
   
 5.  Create a new connection.  
   
-     ![Choose new connection](../dv_TeamTestALM_NotInTOC/media/web_test_databinding_sql_adddatasourcedialogconnectionnew.png "Web_Test_DataBinding_SQL_AddDataSourceDialogConnectionNew")  
+     ![Choose new connection](../dv_TeamTestALM/media/web_test_databinding_sql_adddatasourcedialogconnectionnew.png "Web_Test_DataBinding_SQL_AddDataSourceDialogConnectionNew")  
   
 6.  Select the .NET Framework Data Provider for OLE DB.  
   
-     ![Select the .NET framework OLE DB data provider](../dv_TeamTestALM_NotInTOC/media/web_test_databinding_adddatasourcecolortext2.png "Web_Test_DataBinding_AddDataSourceColorText2")  
+     ![Select the .NET framework OLE DB data provider](../dv_TeamTestALM/media/web_test_databinding_adddatasourcecolortext2.png "Web_Test_DataBinding_AddDataSourceColorText2")  
   
 7.  Choose Advanced.  
   
@@ -251,7 +251,7 @@ Bind data to provide different values to the same test, for example, to provide 
   
 4.  Use the steps in [Binding the SQL data](#AddingDataBindingWebTest_BindSQLData), but choose XML file as your data source.  
   
-     ![Enter a name and choose XML file](../dv_TeamTestALM/media/web_test_databinding_adddatasourcedialogxml.png "Web_Test_DataBinding_AddDataSourceDialogXML")  
+     ![Enter a name and choose XML file](../dv_TeamTestALM_NotInTOC/media/web_test_databinding_adddatasourcedialogxml.png "Web_Test_DataBinding_AddDataSourceDialogXML")  
   
 ###  <a name="AddingDataBindingWebTest_QA_WebServiceRequest"></a> Q: Can I add data binding to a web service request that uses SOAP?  
  **A:** Yes, you must change the SOAP XML manually.  

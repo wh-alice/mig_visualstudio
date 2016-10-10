@@ -1,7 +1,7 @@
 ---
 title: "MSBuild Reserved and Well-Known Properties"
 ms.custom: na
-ms.date: "10/07/2016"
+ms.date: "10/10/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -18,7 +18,7 @@ dev_langs:
 helpviewer_keywords: 
   - "MSBuild, reserved properties"
 ms.assetid: 99333e61-83c9-4804-84e3-eda297c2478d
-caps.latest.revision: 26
+caps.latest.revision: 27
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -411,6 +411,6 @@ translation.priority.ht:
   </section>
   <relatedTopics>
 \<link xlink:href="093395e1-70da-4f74-b34d-046c5e2b32e8">MSBuild Reference</link>
-\<link xlink:href="962912ac-8931-49bf-a88c-0200b6e37362">MSBuild Properties</link>
+
 </relatedTopics>
 </developerReferenceWithoutSyntaxDocument>

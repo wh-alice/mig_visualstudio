@@ -180,7 +180,7 @@ translation.priority.mt:
   
      Also note that there are many more items in `items._data` object than you would expect.  
   
-10. At the prompt, type `Data.items.push` and press Enter. The console window shows a visualizer for the `push` function, which is implemented in a [!INCLUDE[winjs_long](../Token/winjs_long_md.md)] project file. In this app, we are using `push` to add the correct items. With a little investigation using IntelliSense, we find out that we should be using `setAt` to replace the default images.  
+10. At the prompt, type `Data.items.push` and press Enter. The console window shows a visualizer for the `push` function, which is implemented in a [!INCLUDE[winjs_long](../VS_debugger/includes/winjs_long_md.md)] project file. In this app, we are using `push` to add the correct items. With a little investigation using IntelliSense, we find out that we should be using `setAt` to replace the default images.  
   
 11. To fix this problem interactively without stopping the debugging session, open default.js and select this code from the `updateImages` function:  
   

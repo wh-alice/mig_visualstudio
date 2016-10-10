@@ -45,10 +45,10 @@ translation.priority.ht:
 |Rule type|Information.|  
   
 ## Cause  
- You are trying to profile an application that uses the [!INCLUDE[net_v11_long](../Token/net_v11_long_md.md)] that is not supported by the Profiling Tools.  
+ You are trying to profile an application that uses the [!INCLUDE[net_v11_long](../VS_IDE/includes/net_v11_long_md.md)] that is not supported by the Profiling Tools.  
   
 ## Rule Description  
- This warning occurs because the profiling tools will be unable to resolve symbols for the managed code running in the application. The profiling tools cannot resolve managed code symbols for applications that are running the [!INCLUDE[net_v11_long](../Token/net_v11_long_md.md)].  
+ This warning occurs because the profiling tools will be unable to resolve symbols for the managed code running in the application. The profiling tools cannot resolve managed code symbols for applications that are running the [!INCLUDE[net_v11_long](../VS_IDE/includes/net_v11_long_md.md)].  
   
 ## How to Fix Violations  
  None.

@@ -1,7 +1,7 @@
 ---
 title: "How to: Reference the Name or Location of the Project File"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/10/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "reserved properties"
   - "project files, referencing"
 ms.assetid: c8fcc594-5d37-4e2e-b070-4d9c012043b5
-caps.latest.revision: 9
+caps.latest.revision: 10
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -99,7 +99,7 @@ translation.priority.ht:
     </comments>
   </codeExample>
   <relatedTopics>
-\<link xlink:href="e39f13f7-1e1d-4435-95ca-0c222bca071c">MSBuild</link>
+
 \<link xlink:href="99333e61-83c9-4804-84e3-eda297c2478d">MSBuild Reserved Properties</link>
 </relatedTopics>
 </developerHowToDocument>

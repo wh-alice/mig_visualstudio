@@ -1,7 +1,7 @@
 ---
 title: "CA2000: Dispose objects before losing scope"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/10/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na

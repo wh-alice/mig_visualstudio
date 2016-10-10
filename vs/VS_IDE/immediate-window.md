@@ -1,7 +1,7 @@
 ---
 title: "Immediate Window"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/10/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -86,7 +86,7 @@ The **Immediate** window is used to debug and evaluate expressions, execute stat
   
  If the function or subroutine contains a breakpoint, [!INCLUDE[vsprvs](../dv_TeamTestALM/includes/vsprvs_md.md)] will break execution at the appropriate point. You can then use the debugger windows to examine your program state. For more information see [Walkthrough: Debugging at Design Time](../VS_debugger/walkthrough--debugging-at-design-time.md).  
   
- You cannot use design time expression evaluation in project types that require starting up an execution environment, including [!INCLUDE[trprVSTOshort](../Token/trprVSTOshort_md.md)] projects, Web projects, Smart Device projects, and SQL projects.  
+ You cannot use design time expression evaluation in project types that require starting up an execution environment, including [!INCLUDE[trprVSTOshort](../VS_IDE/includes/trprvstoshort_md.md)] projects, Web projects, Smart Device projects, and SQL projects.  
   
 ### Design Time Expression Evaluation in Multi-Project Solutions  
  When establishing the context for design time expression evaluation, [!INCLUDE[vsprvs](../dv_TeamTestALM/includes/vsprvs_md.md)] references the currently selected project in Solution Explorer. If no project is selected in Solution Explorer, [!INCLUDE[vsprvs](../dv_TeamTestALM/includes/vsprvs_md.md)] attempts to evaluate the function against the startup project. If the function cannot be evaluated in the current context, you will receive an error message. If you are attempting to evaluate a function in a project that is not the startup project for the solution and you receive an error, try selecting the project in Solution Explorer and attempt the evaluation again.  

@@ -121,7 +121,7 @@ Because the Start Page can access Visual Studio commands, and opens whenever Vis
 -   If the user uninstalls your extension, restore the previous registry value.  
   
 ### Windows Presentation Framework (WPF)  
- Your XAML markup should follow WPF best practices. For information about [!INCLUDE[TLA#tla_winclient](../Token/TLA%23tla_winclient_md.md)] and [!INCLUDE[TLA#tla_netframewk](../VS_IDE/includes/tlasharptla_netframewk_md.md)] best practices for application development, see the following topics, as appropriate.  
+ Your XAML markup should follow WPF best practices. For information about [!INCLUDE[TLA#tla_winclient](../VS_IDE/includes/tlasharptla_winclient_md.md)] and [!INCLUDE[TLA#tla_netframewk](../VS_IDE/includes/tlasharptla_netframewk_md.md)] best practices for application development, see the following topics, as appropriate.  
   
 |Area|Topic|  
 |----------|-----------|  

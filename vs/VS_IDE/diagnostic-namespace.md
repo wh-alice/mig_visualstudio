@@ -1,7 +1,7 @@
 ---
 title: "diagnostic Namespace"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/10/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -14,7 +14,7 @@ f1_keywords:
 helpviewer_keywords: 
   - "Concurrency::diagnostic namespace"
 ms.assetid: ad786b19-7c4c-46ee-bfb6-c4752b373a09
-caps.latest.revision: 3
+caps.latest.revision: 4
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -74,7 +74,7 @@ translation.priority.mt:
               <tr>
                 <TD>
                   <para>
-                    \<link xlink:href="527826a8-2590-43ad-b907-7bc0b7288e92">span Class</link>
+                    span Class
                   </para>
                 </TD>
                 <TD>

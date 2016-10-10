@@ -89,7 +89,7 @@ IntelliSense helps you write code faster and with fewer errors by providing info
   
 -   The \<xref:System.Web.UI.ScriptManager> and \<xref:System.Web.UI.ScriptManagerProxy> controls, if the Web application is an AJAX-enabled ASP.NET application.  
   
--   The [!INCLUDE[atlaslib_current_ext](../Token/atlaslib_current_ext_md.md)], if you are working in an AJAX-enabled ASP.NET Web application.  
+-   The [!INCLUDE[atlaslib_current_ext](../VS_IDE/includes/atlaslib_current_ext_md.md)], if you are working in an AJAX-enabled ASP.NET Web application.  
   
     > [!NOTE]
     >  IntelliSense is not supported for script that is in event-handler attributes on HTML elements, or that is defined in `href` attributes.  
@@ -270,7 +270,7 @@ IntelliSense helps you write code faster and with fewer errors by providing info
  IntelliSense is not available when one .aspx file references another .aspx file.  
   
 ###  <a name="ASPNet"></a> ASP.NET AJAX Objects  
- ASP.NET AJAX also supports JavaScript IntelliSense. ASP.NET AJAX includes a client framework that extends the standard types that are available in ECMAScript (JavaScript). To enable JavaScript IntelliSense to provide details about ASP.NET AJAX objects, XML documentation comments have been added throughout the [!INCLUDE[atlaslib_current_ext](../Token/atlaslib_current_ext_md.md)]. These XML documentation comments are displayed when you use types and members that are contained in the ASP.NET AJAX Library.  
+ ASP.NET AJAX also supports JavaScript IntelliSense. ASP.NET AJAX includes a client framework that extends the standard types that are available in ECMAScript (JavaScript). To enable JavaScript IntelliSense to provide details about ASP.NET AJAX objects, XML documentation comments have been added throughout the [!INCLUDE[atlaslib_current_ext](../VS_IDE/includes/atlaslib_current_ext_md.md)]. These XML documentation comments are displayed when you use types and members that are contained in the ASP.NET AJAX Library.  
   
 > [!NOTE]
 >  Private members are not displayed by JavaScript IntelliSense. Private members are denoted in ASP.NET AJAX as members that begin with an underscore (_).  

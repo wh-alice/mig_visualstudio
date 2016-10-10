@@ -1,7 +1,7 @@
 ---
 title: "Property Element (MSBuild)"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/10/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "<Property> Element [MSBuild]"
   - "Property Element [MSBuild]"
 ms.assetid: 69ab08ab-3e76-41dd-a01b-49aa1d2e0cac
-caps.latest.revision: 14
+caps.latest.revision: 15
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -118,7 +118,7 @@ translation.priority.ht:
   </textValue>
   <remarks>
     <content>
-      <para>Property names are limited to ASCII chars only. Property values are referenced in the project by placing the property name between "<codeInline>$(</codeInline>" and "<codeInline>)</codeInline>". For example, <codeInline>$(builddir)\classes</codeInline> would resolve to "build\classes", if the <codeInline>builddir</codeInline> property had the value <codeInline>build</codeInline>. For more information on properties, see \<link xlink:href="962912ac-8931-49bf-a88c-0200b6e37362">MSBuild Properties</link>.</para>
+      <para>Property names are limited to ASCII chars only. Property values are referenced in the project by placing the property name between "<codeInline>$(</codeInline>" and "<codeInline>)</codeInline>". For example, <codeInline>$(builddir)\classes</codeInline> would resolve to "build\classes", if the <codeInline>builddir</codeInline> property had the value <codeInline>build</codeInline>. For more information on properties, see MSBuild Properties.</para>
     </content>
   </remarks>
   <codeExample>
@@ -136,7 +136,7 @@ translation.priority.ht:
     </comments>
   </codeExample>
   <relatedTopics>
-\<link xlink:href="962912ac-8931-49bf-a88c-0200b6e37362">MSBuild Properties</link>
+
 \<link xlink:href="d9a68146-1f43-4621-ac78-2c8c3f400936">MSBuild File Format</link>
 </relatedTopics>
 </developerXmlReference>

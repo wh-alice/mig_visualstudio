@@ -1,7 +1,7 @@
 ---
 title: "MSBuild Error MSB1006"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/10/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -14,7 +14,7 @@ f1_keywords:
 helpviewer_keywords: 
   - "MSB1006"
 ms.assetid: 6d97d164-66f1-47bf-9cd9-7422a6c0dbb3
-caps.latest.revision: 9
+caps.latest.revision: 10
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -53,7 +53,6 @@ translation.priority.mt:
     </steps>
   </procedure>
   <relatedTopics>
-\<link xlink:href="962912ac-8931-49bf-a88c-0200b6e37362">MSBuild Properties</link>
 \<link xlink:href="edaa65ec-ab8a-42a1-84cb-d76d5b2f4584">MSBuild Command Line Reference</link>
 </relatedTopics>
 </developerErrorMessageDocument>

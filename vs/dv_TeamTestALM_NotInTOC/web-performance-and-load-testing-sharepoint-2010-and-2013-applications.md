@@ -163,11 +163,11 @@ You can use web performance and load tests on your SharePoint applications to ve
   
          The [Dynamic Parameter](../Topic/How%20to:%20Promote%20Dynamic%20Parameters%20to%20Web%20Performance%20Test%20Parameters.md) detection dialog box appears. It indicates detection progress. This should only take a short while to complete.  
   
-         ![Dyanmic parameter detection](../dv_TeamTestALM/media/webloadtestsharepoint_step6.png "WebLoadTestSharePoint_Step6")  
+         ![Dyanmic parameter detection](../dv_TeamTestALM_NotInTOC/media/webloadtestsharepoint_step6.png "WebLoadTestSharePoint_Step6")  
   
          Visual Studio will return you to the Web Performance Test Editor where your newly created web performance test is displayed.  
   
-         ![Web Performance Test Editor](../dv_TeamTestALM/media/webloadtestsharepoint_step7.png "WebLoadTestSharePoint_Step7")  
+         ![Web Performance Test Editor](../dv_TeamTestALM_NotInTOC/media/webloadtestsharepoint_step7.png "WebLoadTestSharePoint_Step7")  
   
 5.  To confirm that the test is running correctly, first browse the SharePoint site to view the existing list items:  
   
@@ -175,7 +175,7 @@ You can use web performance and load tests on your SharePoint applications to ve
   
 6.  Go back to Visual Studio. Choose the **Run test** button on the Web Performance Test Editor. Your test runs, performing your recorded actions to add a new item to the task list in SharePoint.  
   
-     ![Run web performance test](../dv_TeamTestALM_NotInTOC/media/webloadtestsharepoint_step8.png "WebLoadTestSharePoint_Step8")  
+     ![Run web performance test](../dv_TeamTestALM/media/webloadtestsharepoint_step8.png "WebLoadTestSharePoint_Step8")  
   
 7.  Choose refresh on the browser window with your SharePoint site and you should now see a new task item added to the list.  
   
@@ -263,7 +263,7 @@ You can use web performance and load tests on your SharePoint applications to ve
   
 2.  Expand **Web Performance Test Tools**, and then expand **Web Test** and choose **SharePoint**.  
   
- ![Visual Studio options for web tests on SharePoint](../dv_TeamTestALM/media/webloadtestsharepoint_vsoptions.png "WebLoadTestSharePoint_VSOptions")  
+ ![Visual Studio options for web tests on SharePoint](../dv_TeamTestALM_NotInTOC/media/webloadtestsharepoint_vsoptions.png "WebLoadTestSharePoint_VSOptions")  
   
  By opening the Visual Studio options dialog box, you can configure the following options for web performance tests on SharePoint applications:  
   
@@ -299,7 +299,7 @@ You can use web performance and load tests on your SharePoint applications to ve
 ##  <a name="PerfStressTestSharePointLoadTests"></a> Stress testing your SharePoint applications using load tests  
  After creating web performance tests for your SharePoint application, you can create load tests to test your applications performance and stress abilities. A load test is created by using the New Load Test Wizard. When using the wizard, you can configure how you want to test your SharePoint application’s performance and stress abilities.  
   
- ![Creating a load test with the wizard](../dv_TeamTestALM/media/ltest_loadwizard.png "LTest_LoadWizard")  
+ ![Creating a load test with the wizard](../dv_TeamTestALM_NotInTOC/media/ltest_loadwizard.png "LTest_LoadWizard")  
   
  In **Solution Explorer**, Open the context menu for the Web performance and load test project node, choose **Add**, and then choose **Load Test**.  
   

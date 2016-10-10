@@ -288,7 +288,7 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
 >  You can double-click an Artifact to open the diagram or document to which it links.  
   
 ### Linking use cases to work items  
- If your project uses [!INCLUDE[vstsTfsRosarioLong](../Token/vstsTfsRosarioLong_md.md)] and you have [!INCLUDE[esprtfc](../dv_TeamTestALM/includes/esprtfc_md.md)], you can link each use case to a work item in [!INCLUDE[esprfound](../dv_TeamTestALM/includes/esprfound_md.md)]. To learn how to make these links, see [Link model elements and work items](../VS_IDE/link-model-elements-and-work-items.md).  
+ If your project uses [!INCLUDE[vstsTfsRosarioLong](../VS_IDE/includes/vststfsrosariolong_md.md)] and you have [!INCLUDE[esprtfc](../dv_TeamTestALM/includes/esprtfc_md.md)], you can link each use case to a work item in [!INCLUDE[esprfound](../dv_TeamTestALM/includes/esprfound_md.md)]. To learn how to make these links, see [Link model elements and work items](../VS_IDE/link-model-elements-and-work-items.md).  
   
  This enables you to:  
   

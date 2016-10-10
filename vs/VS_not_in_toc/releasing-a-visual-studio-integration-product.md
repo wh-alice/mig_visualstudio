@@ -46,4 +46,4 @@ The topics in this section show you how to release your Visual Studio integratio
   
 ## Related Sections  
  [Customizing for Testing By Using the Visual Studio SDK](assetId:///9cf7a840-dd66-4b00-90f7-e00e40370a69)  
- Describes how to use the [!INCLUDE[esprtest](../Token/esprtest_md.md)] suite to create, manage, edit, and run tests, and also obtain and store test results.
+ Describes how to use the [!INCLUDE[esprtest](../VS_not_in_toc/includes/esprtest_md.md)] suite to create, manage, edit, and run tests, and also obtain and store test results.

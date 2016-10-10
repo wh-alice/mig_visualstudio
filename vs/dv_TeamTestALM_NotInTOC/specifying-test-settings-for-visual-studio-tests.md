@@ -113,7 +113,7 @@ When you run tests from Visual Studio or in the [build service](../Topic/Run%20t
   
 -   ![Prerequsite](../dv_TeamTestALM/media/prereq.png "Prereq") There are separate commands for selecting the test settings for web performance tests and for other types of tests. Web performance tests always require a test settings file. Unit tests and coded UI tests do not require a test settings file.  
   
--   ![Caution icon](../dv_TeamTestALM_NotInTOC/media/caution.gif "caution") **Warning** We don’t recommend that you apply test settings to a Visual Studio unit test project unless you specifically want the settings that it offers.  If you apply test settings, an older test framework is used to run the tests, and you will lose the performance and resilience benefits of the new framework.  
+-   ![Caution icon](../dv_TeamTestALM/media/caution.gif "caution") **Warning** We don’t recommend that you apply test settings to a Visual Studio unit test project unless you specifically want the settings that it offers.  If you apply test settings, an older test framework is used to run the tests, and you will lose the performance and resilience benefits of the new framework.  
   
      If you use a test settings file and later decide that you don’t want it, you can cancel it on the **TEST** menu by choosing **Test Settings**.  
   
@@ -151,7 +151,7 @@ When you run tests from Visual Studio or in the [build service](../Topic/Run%20t
 ##  <a name="VSTestSettingsRoles"></a> Test Settings: Roles  
  On the Roles page, you can either configure the test to run on your local machine or to run remotely:  
   
- ![Select local execution](../dv_TeamTestALM_NotInTOC/media/vsautomatedtestaddtestsetting5.png "VSAutomatedTestAddTestSetting5")  
+ ![Select local execution](../dv_TeamTestALM/media/vsautomatedtestaddtestsetting5.png "VSAutomatedTestAddTestSetting5")  
   
 -   **Local execution** is the default. It means that the tests and the application run on your Visual Studio machine, or on the build server after you have checked in the code. Proceed to [Data and Diagnostics](#VSTestSettingsDataandDiagnostics).  
   

@@ -1,7 +1,7 @@
 ---
 title: "Validate code with layer diagrams"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/10/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -20,7 +20,7 @@ helpviewer_keywords:
   - "MSBuild, layer diagrams"
   - "MSBuild, validating code"
 ms.assetid: 70cbe55d-4b33-4355-b0a7-88c770a6f75c
-caps.latest.revision: 79
+caps.latest.revision: 80
 ms.author: "ahomer"
 manager: "kamrani"
 translation.priority.ht: 
@@ -209,7 +209,7 @@ translation.priority.ht:
                   <code>msbuild /p:ValidateArchitecture=true</code>
                 </listItem>
               </list>
-              <para>Any errors that occur will be listed. For more information about <token>vstecmsbuild</token>, see \<link xlink:href="e39f13f7-1e1d-4435-95ca-0c222bca071c">MSBuild</link> and \<link xlink:href="76577f6c-7669-44ad-a840-363e37a04d34">MSBuild Task</link>. </para>
+              <para>Any errors that occur will be listed. For more information about <token>vstecmsbuild</token>, see MSBuild and \<link xlink:href="76577f6c-7669-44ad-a840-363e37a04d34">MSBuild Task</link>. </para>
             </content>
           </step>
         </steps>

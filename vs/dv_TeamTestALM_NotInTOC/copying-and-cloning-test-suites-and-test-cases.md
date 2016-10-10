@@ -121,7 +121,7 @@ There are several ways to duplicate test suites and test cases when you are [pla
  ![Source test plan](../dv_TeamTestALM/media/mtr_clonesourcetestplan.png "MTR_CloneSourceTestPlan")  
 Source Test Plan  
   
- ![Destination test plan](../dv_TeamTestALM/media/mtr_clonedestinationtestplan.png "MTR_CloneDestinationTestPlan")  
+ ![Destination test plan](../dv_TeamTestALM_NotInTOC/media/mtr_clonedestinationtestplan.png "MTR_CloneDestinationTestPlan")  
 Destination Test Plan  
   
 ####  <a name="tcm"></a> Clone test suites from the command line  

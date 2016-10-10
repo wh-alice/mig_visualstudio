@@ -1,7 +1,7 @@
 ---
 title: "How to: Add New Property Sheets to C++ Projects"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/10/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na

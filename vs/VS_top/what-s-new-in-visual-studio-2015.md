@@ -40,7 +40,7 @@ Welcome to Visual Studio 2015, an integrated suite of developer productivity too
  To find out more about the many improvements and new features in Visual Studio ALM, see [What's new for Application Lifecycle Management in Visual Studio 2015](assetId:///54b98a53-6083-4303-869a-8063d8fae938).  
   
 ## A new setup experience  
- [!INCLUDE[downloadvs](../Token/downloadvs_md.md)]  
+ [!INCLUDE[downloadvs](../VS_debugger/includes/downloadvs_md.md)]  
   
  The Visual Studio 2015 setup experience has been componentized so that you only have to install the parts that you need. This makes installation faster for many common scenarios involving .NET or Web development. If you do other types of development, such as cross-platform mobile development, or you work in C++ or F#, choose **Custom** installation and then choose the components and optional third-party SDKs that you require. You can also install any of the custom components later. For example, if you choose Basic installation, and then attempt to create a new C++ project, you will be prompted to download the C++ development tools.  
   
@@ -88,9 +88,9 @@ Welcome to Visual Studio 2015, an integrated suite of developer productivity too
  Visual Studio 2015 continues to support classic desktop and Windows Store development. As Windows evolves, Visual Studio will evolve along with it.  In Visual Studio 2015, the libraries and languages for .NET as well as C++ have made significant advances that are applicable to all versions of Windows.  
   
 #### The .NET Framework  
- The Microsoft [!INCLUDE[net_v46](../Token/net_v46_md.md)] offers about 150 new APIs and 50 updated APIs to enable more scenarios. For example, more collections now implement \<xref:System.Collections.Generic.IReadOnlyCollection`1> making them easier to use. In addition, ASP.NET 5, mentioned previously, offers a lean .NET platform for building modern cloud-based apps.  
+ The Microsoft [!INCLUDE[net_v46](../VS_top/includes/net_v46_md.md)] offers about 150 new APIs and 50 updated APIs to enable more scenarios. For example, more collections now implement \<xref:System.Collections.Generic.IReadOnlyCollection`1> making them easier to use. In addition, ASP.NET 5, mentioned previously, offers a lean .NET platform for building modern cloud-based apps.  
   
- Windows Store apps written in C# that target the .NET Framework can now take advantage of .NET Native, which compiles apps to native code rather than IL, and [!INCLUDE[net_v46](../Token/net_v46_md.md)] also adds RyuJIT, a 64-bit Just-In-Time (JIT) compiler.  
+ Windows Store apps written in C# that target the .NET Framework can now take advantage of .NET Native, which compiles apps to native code rather than IL, and [!INCLUDE[net_v46](../VS_top/includes/net_v46_md.md)] also adds RyuJIT, a 64-bit Just-In-Time (JIT) compiler.  
   
  The new C# and VB compilers ("Roslyn") significantly speed up compile times and provide comprehensive code analysis APIs. Visual Studio 2015 takes advantage of Roslyn to provide more refactorings including inline rename, analyzers, and quick fixes.  
   

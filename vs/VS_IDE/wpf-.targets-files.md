@@ -38,7 +38,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # WPF .Targets Files
-[!INCLUDE[TLA#tla_winclient](../Token/TLA%23tla_winclient_md.md)] extends the [!INCLUDE[TLA#tla_msbuild](../VS_IDE/includes/tlasharptla_msbuild_md.md)] by adding a set of [!INCLUDE[TLA2#tla_wpf](../Token/TLA2%23tla_wpf_md.md)]-specific tasks that are combined into a special .targets file, **Microsoft.WinFX.targets**. This file combines the set of [!INCLUDE[TLA2#tla_msbuild](../VS_IDE/includes/tla2sharptla_msbuild_md.md)] tasks that are required to build an [!INCLUDE[TLA2#tla_msbuild](../VS_IDE/includes/tla2sharptla_msbuild_md.md)] project in [!INCLUDE[TLA#tla_winclient](../Token/TLA%23tla_winclient_md.md)].  
+[!INCLUDE[TLA#tla_winclient](../VS_IDE/includes/tlasharptla_winclient_md.md)] extends the [!INCLUDE[TLA#tla_msbuild](../VS_IDE/includes/tlasharptla_msbuild_md.md)] by adding a set of [!INCLUDE[TLA2#tla_wpf](../VS_IDE/includes/tla2sharptla_wpf_md.md)]-specific tasks that are combined into a special .targets file, **Microsoft.WinFX.targets**. This file combines the set of [!INCLUDE[TLA2#tla_msbuild](../VS_IDE/includes/tla2sharptla_msbuild_md.md)] tasks that are required to build an [!INCLUDE[TLA2#tla_msbuild](../VS_IDE/includes/tla2sharptla_msbuild_md.md)] project in [!INCLUDE[TLA#tla_winclient](../VS_IDE/includes/tlasharptla_winclient_md.md)].  
   
 ## See Also  
  [.Targets Files](../VS_IDE/msbuild-.targets-files.md)   

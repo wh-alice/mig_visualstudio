@@ -1,7 +1,7 @@
 ---
 title: "How to: Specify an Application Icon (Visual Basic, C#)"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/10/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "application properties [Visual Studio], icons"
   - "application icons [Visual Studio]"
 ms.assetid: ad8e14ed-adc2-45b6-a0be-818b16d5616f
-caps.latest.revision: 15
+caps.latest.revision: 16
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -73,6 +73,6 @@ translation.priority.ht:
   <relatedTopics>
     \<link xlink:href="8cec9fea-cd92-47ff-88dd-7c928f0b4a74">Application Page, Project Designer (Visual Basic)</link>
 \<link xlink:href="f13701a8-4e2e-4474-9d60-bb43decbe0c1">Application Page, Project Designer (C#)</link>
-\<link xlink:href="0ad4926f-636e-41f8-a5b1-faf9d9b0a254">Managing Application Properties</link>
+
 \<legacyLink xlink:href="7b77bc06-3952-4799-b029-def3f8f7f88d">How to: Add or Remove Resources</legacyLink></relatedTopics>
 </developerHowToDocument>

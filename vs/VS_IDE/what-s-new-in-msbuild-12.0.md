@@ -1,7 +1,7 @@
 ---
 title: "What&#39;s New in MSBuild 12.0"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/10/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -10,7 +10,7 @@ ms.technology:
 ms.tgt_pltfrm: na
 ms.topic: "article"
 ms.assetid: 9976a6ad-c052-4017-b848-35b5ae4a2f66
-caps.latest.revision: 20
+caps.latest.revision: 21
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -80,6 +80,6 @@ translation.priority.ht:
     </content>
   </section>
   <relatedTopics>
-    \<link xlink:href="e39f13f7-1e1d-4435-95ca-0c222bca071c">MSBuild</link>
+    
   </relatedTopics>
 </developerConceptualDocument>

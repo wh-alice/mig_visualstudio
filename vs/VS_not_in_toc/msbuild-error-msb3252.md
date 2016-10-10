@@ -36,13 +36,13 @@ translation.priority.mt:
 # MSBuild Error MSB3252
 **MSB3252: The project has a reference to assembly \<name>. This assembly is not part of the .NET Framework Client Profile.  By not having this reference there may be compile or runtime errors.**  
   
- A call was made to a member in an assembly, or dependent assembly, that is not part of the [!INCLUDE[net_client_v35_long](../Token/net_client_v35_long_md.md)]. Therefore, the call cannot be resolved and the application cannot be compiled.  
+ A call was made to a member in an assembly, or dependent assembly, that is not part of the [!INCLUDE[net_client_v35_long](../VS_not_in_toc/includes/net_client_v35_long_md.md)]. Therefore, the call cannot be resolved and the application cannot be compiled.  
   
- For more information about the [!INCLUDE[net_client_v35_long](../Token/net_client_v35_long_md.md)], see [.NET Framework Client Profile](../Topic/.NET%20Framework%20Client%20Profile.md).  
+ For more information about the [!INCLUDE[net_client_v35_long](../VS_not_in_toc/includes/net_client_v35_long_md.md)], see [.NET Framework Client Profile](../Topic/.NET%20Framework%20Client%20Profile.md).  
   
 ### To correct this error  
   
--   Either remove the specified assembly reference from your project, or target the full [!INCLUDE[dnprdnshort](../VS_debugger/includes/dnprdnshort_md.md)] instead of the [!INCLUDE[net_client_v35_long](../Token/net_client_v35_long_md.md)] subset library. For information about how to target the full [!INCLUDE[dnprdnshort](../VS_debugger/includes/dnprdnshort_md.md)], see [How to: Target a Version of the .NET Framework](../VS_IDE/how-to--target-a-version-of-the-.net-framework.md).  
+-   Either remove the specified assembly reference from your project, or target the full [!INCLUDE[dnprdnshort](../VS_debugger/includes/dnprdnshort_md.md)] instead of the [!INCLUDE[net_client_v35_long](../VS_not_in_toc/includes/net_client_v35_long_md.md)] subset library. For information about how to target the full [!INCLUDE[dnprdnshort](../VS_debugger/includes/dnprdnshort_md.md)], see [How to: Target a Version of the .NET Framework](../VS_IDE/how-to--target-a-version-of-the-.net-framework.md).  
   
 ## See Also  
  [Target Framework and Target Platform](../VS_IDE/msbuild-target-framework-and-target-platform.md)   

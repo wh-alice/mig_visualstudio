@@ -1,7 +1,7 @@
 ---
 title: "span::span Constructor"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/10/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -14,7 +14,7 @@ f1_keywords:
 helpviewer_keywords: 
   - "Concurrency::diagnostic::span constructor"
 ms.assetid: 8b5578aa-5e5c-4ac7-87c7-ce87c4246e2c
-caps.latest.revision: 2
+caps.latest.revision: 3
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -104,6 +104,6 @@ span(
     </content>
   </requirements>
   <relatedTopics>
-    \<link xlink:href="527826a8-2590-43ad-b907-7bc0b7288e92">span Class</link>
+    
   </relatedTopics>
 </developerReferenceWithSyntaxDocument>

@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Customizing the insert, update, and delete behavior of entity classes"
 ms.custom: na
-ms.date: "10/07/2016"
+ms.date: "10/10/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na

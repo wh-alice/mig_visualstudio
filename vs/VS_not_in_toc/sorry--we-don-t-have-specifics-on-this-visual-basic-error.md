@@ -1,7 +1,7 @@
 ---
 title: "Sorry, we don&#39;t have specifics on this Visual Basic error"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/10/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na

@@ -34,15 +34,15 @@ translation.priority.mt:
 # MSBuild Error MSB3254
 **MSB3254: The file \<name> will be ignored because it cannot be read. This file was either passed in to InstalledAssemblySubsetTables or was found by searching the \<name> folder in the TargetFrameworkDirectories.**  
   
- This error occurs when the [!INCLUDE[net_client_v35_long](../Token/net_client_v35_long_md.md)] XML file, client.xml, cannot be read. The file is unreadable because of corruption, locking, or some other problem.  
+ This error occurs when the [!INCLUDE[net_client_v35_long](../VS_not_in_toc/includes/net_client_v35_long_md.md)] XML file, client.xml, cannot be read. The file is unreadable because of corruption, locking, or some other problem.  
   
- The [!INCLUDE[net_client_v35_long](../Token/net_client_v35_long_md.md)] is a subset of the full [!INCLUDE[dnprdnshort](../VS_debugger/includes/dnprdnshort_md.md)] 3.5 run-time library. For more information about the [!INCLUDE[net_client_v35_long](../Token/net_client_v35_long_md.md)], see [.NET Framework Client Profile](../Topic/.NET%20Framework%20Client%20Profile.md).  
+ The [!INCLUDE[net_client_v35_long](../VS_not_in_toc/includes/net_client_v35_long_md.md)] is a subset of the full [!INCLUDE[dnprdnshort](../VS_debugger/includes/dnprdnshort_md.md)] 3.5 run-time library. For more information about the [!INCLUDE[net_client_v35_long](../VS_not_in_toc/includes/net_client_v35_long_md.md)], see [.NET Framework Client Profile](../Topic/.NET%20Framework%20Client%20Profile.md).  
   
  Procedures  
   
 ### To correct this error  
   
--   Ensure that you have full permissions and full access to the file, or reinstall the [!INCLUDE[net_client_v35_long](../Token/net_client_v35_long_md.md)] redistributable run-time library to replace the corrupted file.  
+-   Ensure that you have full permissions and full access to the file, or reinstall the [!INCLUDE[net_client_v35_long](../VS_not_in_toc/includes/net_client_v35_long_md.md)] redistributable run-time library to replace the corrupted file.  
   
 ## See Also  
  [Project Element (MSBuild)](../VS_IDE/project-element--msbuild-.md)   

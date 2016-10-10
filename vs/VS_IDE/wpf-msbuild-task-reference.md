@@ -49,7 +49,7 @@ The Windows Presentation Foundation (WPF) build process extends Microsoft build 
  Generates an assembly if at least one [!INCLUDE[TLA#tla_xaml](../VS_IDE/includes/tlasharptla_xaml_md.md)] page in a project references a type that is declared locally in that project. The generated assembly is removed after the build process is completed, or if the build process fails.  
   
  [GetWinFXPath](../VS_IDE/getwinfxpath-task.md)  
- Returns the directory of the current [!INCLUDE[TLA#tla_winfx](../Token/TLA%23tla_winfx_md.md)] runtime.  
+ Returns the directory of the current [!INCLUDE[TLA#tla_winfx](../VS_IDE/includes/tlasharptla_winfx_md.md)] runtime.  
   
  [MarkupCompilePass1](../VS_IDE/markupcompilepass1-task.md)  
  Converts non-localizable [!INCLUDE[TLA#tla_xaml](../VS_IDE/includes/tlasharptla_xaml_md.md)] project files to compiled binary format.  
@@ -67,7 +67,7 @@ The Windows Presentation Foundation (WPF) build process extends Microsoft build 
  Checks, updates, or removes unique identifiers (UIDs), in order to localize all [!INCLUDE[TLA#tla_xaml](../VS_IDE/includes/tlasharptla_xaml_md.md)] elements that are included in the source [!INCLUDE[TLA2#tla_xaml](../VS_IDE/includes/tla2sharptla_xaml_md.md)] files.  
   
  [UpdateManifestForBrowserApplication](../VS_IDE/updatemanifestforbrowserapplication-task.md)  
- Adds the **\<hostInBrowser />** element to the application manifest (*projectname*.exe.manifest) when a [!INCLUDE[TLA#tla_xbap](../Token/TLA%23tla_xbap_md.md)] project is built.  
+ Adds the **\<hostInBrowser />** element to the application manifest (*projectname*.exe.manifest) when a [!INCLUDE[TLA#tla_xbap](../VS_IDE/includes/tlasharptla_xbap_md.md)] project is built.  
   
 ## See Also  
  [MSBuild](assetId:///7c49aba1-ee6c-47d8-9de1-6f29a906e20b)

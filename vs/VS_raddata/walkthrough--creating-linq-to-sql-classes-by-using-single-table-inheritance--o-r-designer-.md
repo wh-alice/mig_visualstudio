@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Creating LINQ to SQL Classes by Using Single-Table Inheritance (O-R Designer)"
 ms.custom: na
-ms.date: "10/07/2016"
+ms.date: "10/10/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na

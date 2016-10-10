@@ -49,7 +49,7 @@ The \<xref:Microsoft.Build.Tasks.Windows.MergeLocalizationDirectives> task merge
 |`OutputFile`|Required **String** output parameter.<br /><br /> Specifies the output path of the compiled localization-directives assembly.|  
   
 ## Remarks  
- You can add localization attributes and comments to [!INCLUDE[TLA#tla_xaml](../VS_IDE/includes/tlasharptla_xaml_md.md)] content. With [!INCLUDE[TLA#tla_wpf](../Token/TLA%23tla_wpf_md.md)] localization support, you can strip out localization attributes and comments, and put them in a .loc file that is separate from the generated assembly. You can do this by using the **LocalizationPropertyStorage** attribute. For more information about localization attributes and comments, and **LocalizationPropertyStorage**, see [Localization Attributes and Comments](../Topic/Localization%20Attributes%20and%20Comments.md).  
+ You can add localization attributes and comments to [!INCLUDE[TLA#tla_xaml](../VS_IDE/includes/tlasharptla_xaml_md.md)] content. With [!INCLUDE[TLA#tla_wpf](../VS_IDE/includes/tlasharptla_wpf_md.md)] localization support, you can strip out localization attributes and comments, and put them in a .loc file that is separate from the generated assembly. You can do this by using the **LocalizationPropertyStorage** attribute. For more information about localization attributes and comments, and **LocalizationPropertyStorage**, see [Localization Attributes and Comments](../Topic/Localization%20Attributes%20and%20Comments.md).  
   
 ## Example  
  The following example merges the localization comments of several [!INCLUDE[TLA2#tla_xaml](../VS_IDE/includes/tla2sharptla_xaml_md.md)] binary format files into a single .loc file.  

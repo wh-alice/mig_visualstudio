@@ -102,7 +102,7 @@ translation.priority.ht:
   
  ![Search and filter the code analysis window](../VS_IDE/media/ca_searchfilter.png "CA_SearchFilter")  
   
- In [!INCLUDE[vs_dev11_expwin_long](../Token/vs_dev11_expwin_long_md.md)], all code analysis warnings have the severity level of Warning.  
+ In [!INCLUDE[vs_dev11_expwin_long](../VS_IDE/includes/vs_dev11_expwin_long_md.md)], all code analysis warnings have the severity level of Warning.  
   
 ##  <a name="BKMK_Warnings"></a> Visual Basic and C# code analysis warnings  
  Code analysis raises the following warnings:  

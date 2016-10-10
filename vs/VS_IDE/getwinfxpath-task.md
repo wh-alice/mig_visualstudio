@@ -39,21 +39,21 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # GetWinFXPath Task
-The \<xref:Microsoft.Build.Tasks.Windows.GetWinFXPath> task returns the directory of the current [!INCLUDE[TLA#tla_winfx](../Token/TLA%23tla_winfx_md.md)] runtime.  
+The \<xref:Microsoft.Build.Tasks.Windows.GetWinFXPath> task returns the directory of the current [!INCLUDE[TLA#tla_winfx](../VS_IDE/includes/tlasharptla_winfx_md.md)] runtime.  
   
 ## Task Parameters  
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|`WinFXPath`|Optional **String** output parameter.<br /><br /> Specifies the real path to the [!INCLUDE[TLA2#tla_winfx](../Token/TLA2%23tla_winfx_md.md)] runtime.|  
-|`WinFXNativePath`|Required **String** parameter.<br /><br /> Specifies the path to the native [!INCLUDE[TLA2#tla_titlewinfx](../Token/TLA2%23tla_titlewinfx_md.md)] runtime.|  
-|`WinFXWowPath`|Required **String** parameter.<br /><br /> Specifies the path to the [!INCLUDE[TLA#tla_winfx](../Token/TLA%23tla_winfx_md.md)] assemblies in the 32-bit **Windows on Windows** module on 64-bit systems.|  
+|`WinFXPath`|Optional **String** output parameter.<br /><br /> Specifies the real path to the [!INCLUDE[TLA2#tla_winfx](../VS_IDE/includes/tla2sharptla_winfx_md.md)] runtime.|  
+|`WinFXNativePath`|Required **String** parameter.<br /><br /> Specifies the path to the native [!INCLUDE[TLA2#tla_titlewinfx](../VS_IDE/includes/tla2sharptla_titlewinfx_md.md)] runtime.|  
+|`WinFXWowPath`|Required **String** parameter.<br /><br /> Specifies the path to the [!INCLUDE[TLA#tla_winfx](../VS_IDE/includes/tlasharptla_winfx_md.md)] assemblies in the 32-bit **Windows on Windows** module on 64-bit systems.|  
   
 ## Remarks  
  If the \<xref:Microsoft.Build.Tasks.Windows.GetWinFXPath> task is executing on a 64-bit processor, the **WinFXPath** parameter is set to the path that is stored in the **WinFXWowPath** parameter; otherwise, the **WinFXPath** parameter is set to the path that is stored in the **WinFXNativePath** parameter.  
   
 ## Example  
- The following example shows how to use the **GetWinFXPath** task to detect the native path to the [!INCLUDE[TLA2#tla_titlewinfx](../Token/TLA2%23tla_titlewinfx_md.md)] runtime.  
+ The following example shows how to use the **GetWinFXPath** task to detect the native path to the [!INCLUDE[TLA2#tla_titlewinfx](../VS_IDE/includes/tla2sharptla_titlewinfx_md.md)] runtime.  
   
 ```  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  

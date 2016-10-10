@@ -1,7 +1,7 @@
 ---
 title: "MSBuild Tasks"
 ms.custom: na
-ms.date: "10/07/2016"
+ms.date: "10/10/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "tasks"
   - "MSBuild, tasks"
 ms.assetid: 5d3cc4a7-e5db-4f73-b707-8b6882fddcf8
-caps.latest.revision: 15
+caps.latest.revision: 16
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -85,7 +85,7 @@ translation.priority.ht:
   </section>
   <relatedTopics>
 \<link xlink:href="083b8ba3-e4ad-45af-bb5d-3bc81d406131">MSBuild Concepts</link>
-\<link xlink:href="e39f13f7-1e1d-4435-95ca-0c222bca071c">MSBuild</link>
+
 \<link xlink:href="3ebc5f87-8f00-46fc-82a1-228f35a6823b">How To: Write a Task</link>
 \<link xlink:href="e72e6506-4a11-4edf-ae8d-cfb5a3b9d8a0">Inline Tasks</link>
 </relatedTopics>

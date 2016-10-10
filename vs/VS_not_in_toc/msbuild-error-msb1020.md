@@ -1,7 +1,7 @@
 ---
 title: "MSBuild Error MSB1020"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/10/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -14,7 +14,7 @@ f1_keywords:
 helpviewer_keywords: 
   - "MSB1020"
 ms.assetid: 75fcb139-0c45-4bf1-a176-60bfb9d1baa4
-caps.latest.revision: 9
+caps.latest.revision: 10
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -65,6 +65,6 @@ translation.priority.mt:
   <relatedTopics>
 \<link xlink:href="edaa65ec-ab8a-42a1-84cb-d76d5b2f4584">MSBuild Command Line Reference</link>
 \<link xlink:href="fa34810d-185a-4d22-92bd-9852915e5f1d">How To: Write a Logger</link>
-\<link xlink:href="e39f13f7-1e1d-4435-95ca-0c222bca071c">MSBuild</link>
+
 </relatedTopics>
 </developerErrorMessageDocument>

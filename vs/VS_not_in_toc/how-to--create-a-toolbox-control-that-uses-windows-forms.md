@@ -33,7 +33,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # How to: Create a Toolbox Control That Uses Windows Forms
-The Windows Forms Toolbox Control template that is included in the [!INCLUDE[vssdk_dev11_long](../Token/vssdk_dev11_long_md.md)] lets you create Windows Forms controls that are automatically added to the **Toolbox** when the extension is installed. This topic shows how to use the template to create a **Toolbox** control that you can distribute to other users..  
+The Windows Forms Toolbox Control template that is included in the [!INCLUDE[vssdk_dev11_long](../VS_not_in_toc/includes/vssdk_dev11_long_md.md)] lets you create Windows Forms controls that are automatically added to the **Toolbox** when the extension is installed. This topic shows how to use the template to create a **Toolbox** control that you can distribute to other users..  
   
 > [!NOTE]
 >  To find out how to download the Visual Studio SDK, see [Visual Studio Extensibility Developer Center](http://go.microsoft.com/fwlink/?linkid=121964) on the MSDN Web site.  

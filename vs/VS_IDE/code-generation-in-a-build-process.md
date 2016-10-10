@@ -1,7 +1,7 @@
 ---
 title: "Code Generation in a Build Process"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/10/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -11,7 +11,7 @@ helpviewer_keywords:
   - "text templates, build tasks"
   - "text templates, transforming by using msbuild"
 ms.assetid: 4da43429-2a11-4d7e-b2e0-9e4af7033b5a
-caps.latest.revision: 25
+caps.latest.revision: 26
 ms.author: "awills"
 manager: "kamrani"
 translation.priority.ht: 
@@ -234,7 +234,7 @@ $(IncludeFolders);$(MSBuildProjectDirectory)\Include;AnotherFolder;And\Another&l
   <section address="parameters">
     <title>Pass build context data into the templates</title>
     <content>
-      <para>You can set parameter values in the project file. For example, you can pass \<legacyLink xlink:href="962912ac-8931-49bf-a88c-0200b6e37362">build properties</legacyLink> and \<legacyLink xlink:href="7f9e4469-8865-4b59-aab3-3ff26bd36e77">environment variables</legacyLink>:</para>
+      <para>You can set parameter values in the project file. For example, you can pass "build"" properties and \<legacyLink xlink:href="7f9e4469-8865-4b59-aab3-3ff26bd36e77">environment variables</legacyLink>:</para>
       <code language="xml">&lt;ItemGroup&gt;
   &lt;T4ParameterValues Include="ProjectFolder"&gt;
     &lt;Value&gt;$(ProjectDir)&lt;/Value&gt;

@@ -173,11 +173,11 @@ Some websites use dynamic parameters to process some of their web requests. A dy
   
      The extraction rule is added to the first request for Querystring.aspx.  
   
-     ![Extraction rule added to request](../dv_TeamTestALM_NotInTOC/media/web_test_dynamicparameter_autoextractionrule.png "Web_Test_DynamicParameter_AutoExtractionRule")  
+     ![Extraction rule added to request](../dv_TeamTestALM/media/web_test_dynamicparameter_autoextractionrule.png "Web_Test_DynamicParameter_AutoExtractionRule")  
   
      Expand the second request in the request tree for ASPQuery.aspx and notice that the CustomQueryString's value has been bound to the extraction rule.  
   
-     ![CustomQueryString bound to extraction rule](../dv_TeamTestALM_NotInTOC/media/web_test_dynamicparameter_autoextractionrule2.png "Web_Test_DynamicParameter_AutoExtractionRule2")  
+     ![CustomQueryString bound to extraction rule](../dv_TeamTestALM/media/web_test_dynamicparameter_autoextractionrule2.png "Web_Test_DynamicParameter_AutoExtractionRule2")  
   
 8.  Save the test.  
   
@@ -185,15 +185,15 @@ Some websites use dynamic parameters to process some of their web requests. A dy
   
 1.  Run the test.  
   
-     ![Run the web performance test](../dv_TeamTestALM_NotInTOC/media/web_test_dynamicparameter_runtest.png "Web_Test_DynamicParameter_RunTest")  
+     ![Run the web performance test](../dv_TeamTestALM/media/web_test_dynamicparameter_runtest.png "Web_Test_DynamicParameter_RunTest")  
   
 2.  The fourth request for the JScriptQuery.aspx page fails. Go to the web test.  
   
-     ![Dynamic parameter error in test results](../dv_TeamTestALM_NotInTOC/media/web_test_dynamicparameter_runresults.png "Web_Test_DynamicParameter_RunResults")  
+     ![Dynamic parameter error in test results](../dv_TeamTestALM/media/web_test_dynamicparameter_runresults.png "Web_Test_DynamicParameter_RunResults")  
   
      The JScriptQuery.aspx request node is highlighted in the editor. Expand the node and notice that the "1v0yhyiyr0raa2w4j4pwf5zl" portion of the CustomQueryString appears to be dynamic.  
   
-     ![Suspected dynamic parameter in CustomQueryString](../dv_TeamTestALM_NotInTOC/media/web_test_dynamicparameter_runresults2.png "Web_Test_DynamicParameter_RunResults2")  
+     ![Suspected dynamic parameter in CustomQueryString](../dv_TeamTestALM/media/web_test_dynamicparameter_runresults2.png "Web_Test_DynamicParameter_RunResults2")  
   
 3.  Return to the Web Performance Test Results Viewer and select the JScriptQuery.aspx page that failed. Then, choose the request tab, verify that the show raw data check box is cleared, scroll down and choose quick find on the CustomQueryString.  
   
@@ -217,7 +217,7 @@ Some websites use dynamic parameters to process some of their web requests. A dy
   
 5.  Use quick find on HiddenFieldSessionID, clearing the search up check box and selecting current request.  
   
-     ![Use quick find on HiddenFieldSession](../dv_TeamTestALM_NotInTOC/media/web_test_dynamicparameter_runresultsquckfindhiddensession.png "Web_Test_DynamicParameter_RunResultsQuckFindHiddenSession")  
+     ![Use quick find on HiddenFieldSession](../dv_TeamTestALM/media/web_test_dynamicparameter_runresultsquckfindhiddensession.png "Web_Test_DynamicParameter_RunResultsQuckFindHiddenSession")  
   
      Notice that the value returned is not the same string as in the original web performance test recording. For this test run, the value returned is "5w4v3yrse4wa4axrafykqksq" and in the original recording, the value is "1v0yhyiyr0raa2w4j4pwf5zl". Because the value does not match that of the original recording, the error is generated.  
   
@@ -237,11 +237,11 @@ Some websites use dynamic parameters to process some of their web requests. A dy
   
      If the dialog box informs us that matches were found for the extracted text to bind the parameter to, choose yes.  
   
-     ![Extraction rule created](../dv_TeamTestALM_NotInTOC/media/web_test_dynamicparameter_addextractiondialog.png "Web_Test_DynamicParameter_AddExtractionDialog")  
+     ![Extraction rule created](../dv_TeamTestALM/media/web_test_dynamicparameter_addextractiondialog.png "Web_Test_DynamicParameter_AddExtractionDialog")  
   
 8.  Choose find next. The first match is the one that we need to change, which is the parameter for CustomQueryString in for the JScriptQuery page.  
   
-     ![Find and replace the text for the parameter](../dv_TeamTestALM/media/web_test_dynamicparameter_addextractionfindreplace.png "Web_Test_DynamicParameter_AddExtractionFindReplace")  
+     ![Find and replace the text for the parameter](../dv_TeamTestALM_NotInTOC/media/web_test_dynamicparameter_addextractionfindreplace.png "Web_Test_DynamicParameter_AddExtractionFindReplace")  
   
 9. Choose replace.  
   
@@ -249,11 +249,11 @@ Some websites use dynamic parameters to process some of their web requests. A dy
   
      The QueryString parameter under the JScriptQuery.aspx request is updated by using the new context parameter:  CustomQueryString=jScriptQueryString___{{Param0}}.  
   
-     ![Parameter applied to querystring](../dv_TeamTestALM/media/web_test_dynamicparameter_addextractionfindreplace3.png "Web_Test_DynamicParameter_AddExtractionFindReplace3")  
+     ![Parameter applied to querystring](../dv_TeamTestALM_NotInTOC/media/web_test_dynamicparameter_addextractionfindreplace3.png "Web_Test_DynamicParameter_AddExtractionFindReplace3")  
   
 10. Close the find and replace dialog. Notice the similar structure of in the request tree between the detected dynamic parameter and the non-detected dynamic parameter that you correlated.  
   
-     ![Detected and correlated dynamic parameters](../dv_TeamTestALM/media/web_test_dynamicparameter_conclusion.png "Web_Test_DynamicParameter_Conclusion")  
+     ![Detected and correlated dynamic parameters](../dv_TeamTestALM_NotInTOC/media/web_test_dynamicparameter_conclusion.png "Web_Test_DynamicParameter_Conclusion")  
   
 11. Run the test. It now runs without failure.  
   

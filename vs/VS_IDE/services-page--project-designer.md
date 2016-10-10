@@ -34,7 +34,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Services Page, Project Designer
-Client application services provide simplified access to [!INCLUDE[ajax_current_short](../Token/ajax_current_short_md.md)] login, roles, and profile services from Windows Forms and Windows Presentation Foundation (WPF) applications. You can use the **Services** page of the **Project Designer** to enable and configure client application services for your project.  
+Client application services provide simplified access to [!INCLUDE[ajax_current_short](../VS_IDE/includes/ajax_current_short_md.md)] login, roles, and profile services from Windows Forms and Windows Presentation Foundation (WPF) applications. You can use the **Services** page of the **Project Designer** to enable and configure client application services for your project.  
   
  With client application services, you can use a centralized server to authenticate users, determine each user's assigned role or roles, and store per-user application settings that you can share across the network. For more information, see [Client Application Services](../Topic/Client%20Application%20Services.md).  
   

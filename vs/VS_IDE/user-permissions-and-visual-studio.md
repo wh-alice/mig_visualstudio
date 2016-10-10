@@ -64,7 +64,7 @@ For reasons of security you should run Visual Studio as a normal user whenever p
 ## Running Visual Studio as an Administrator  
  You can launch Visual Studio with administrative permissions each time you start the IDE, or you can modify the application shortcut to always run with administrative permissions. For more information, see Windows Help.  
   
-#### To run Visual Studio with administrative permissions on [!INCLUDE[win8](../dv_TeamTestALM/includes/win8_md.md)], [!INCLUDE[win81](../VS_debugger/includes/win81_md.md)], [!INCLUDE[winserver8](../VS_debugger/includes/winserver8_md.md)], or [!INCLUDE[winblue_server_2](../Token/winblue_server_2_md.md)]  
+#### To run Visual Studio with administrative permissions on [!INCLUDE[win8](../dv_TeamTestALM/includes/win8_md.md)], [!INCLUDE[win81](../VS_debugger/includes/win81_md.md)], [!INCLUDE[winserver8](../VS_debugger/includes/winserver8_md.md)], or [!INCLUDE[winblue_server_2](../VS_IDE/includes/winblue_server_2_md.md)]  
   
 1.  On the **Start** screen, type **Visual Studio**. You should see the version or versions of Visual Studio you have installed.  
   

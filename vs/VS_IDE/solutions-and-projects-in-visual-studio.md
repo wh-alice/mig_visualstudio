@@ -1,7 +1,7 @@
 ---
 title: "Solutions and Projects in Visual Studio"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/10/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -51,7 +51,7 @@ helpviewer_keywords:
   - "projects [Visual Studio], setting up"
   - "miscellaneous files"
 ms.assetid: aeaf56cb-c2dd-47f6-b012-23b84b7a7254
-caps.latest.revision: 32
+caps.latest.revision: 33
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -125,7 +125,7 @@ translation.priority.mt:
           </para>
         </listItem>
         <listItem>
-          <para> \<link xlink:href="0ad4926f-636e-41f8-a5b1-faf9d9b0a254">Application Properties</link></para>
+          <para> Application Properties</para>
         </listItem>
         <listItem>
           <para>

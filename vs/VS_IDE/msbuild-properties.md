@@ -1,7 +1,7 @@
 ---
 title: "MSBuild Properties"
 ms.custom: na
-ms.date: "10/07/2016"
+ms.date: "10/10/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -12,7 +12,7 @@ ms.topic: "article"
 helpviewer_keywords: 
   - "MSBuild, properties"
 ms.assetid: 962912ac-8931-49bf-a88c-0200b6e37362
-caps.latest.revision: 28
+caps.latest.revision: 29
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -145,7 +145,7 @@ translation.priority.ht:
   </section>
   <relatedTopics>
     \<link xlink:href="083b8ba3-e4ad-45af-bb5d-3bc81d406131">MSBuild Concepts</link>
-\<link xlink:href="e39f13f7-1e1d-4435-95ca-0c222bca071c">MSBuild</link>
+
 \<link xlink:href="7f9e4469-8865-4b59-aab3-3ff26bd36e77">How To: Use Environment Variables in a Build</link>
 \<link xlink:href="c8fcc594-5d37-4e2e-b070-4d9c012043b5">How To: Reference the Name or Location of the Project File</link>
 \<link xlink:href="d14f1212-ddd9-434f-b138-f840011b0fb2">How to: Build the Same Source Files with Different Options</link>

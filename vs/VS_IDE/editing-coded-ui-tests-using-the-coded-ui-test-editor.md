@@ -132,7 +132,7 @@ Edit control properties
  *What else should I know?*  
  **Important issues**  
   
--   ![Caution icon](../dv_TeamTestALM_NotInTOC/media/caution.gif "caution") **Warning:** If you split a method, you must modify any code that calls the existing method to also call the new method you are about to create if you still want those UI actions included. When you split a method, a Microsoft Visual Studio dialog box is displayed. It warns you that you must modify any code that calls the existing method to also call the new method you are about to create. Choose **Yes**.  
+-   ![Caution icon](../dv_TeamTestALM/media/caution.gif "caution") **Warning:** If you split a method, you must modify any code that calls the existing method to also call the new method you are about to create if you still want those UI actions included. When you split a method, a Microsoft Visual Studio dialog box is displayed. It warns you that you must modify any code that calls the existing method to also call the new method you are about to create. Choose **Yes**.  
   
  **Tips**  
   
@@ -156,7 +156,7 @@ Edit control properties
  *What else should I know?*  
  **Important issues**  
   
--   ![Caution icon](../dv_TeamTestALM_NotInTOC/media/caution.gif "caution") **Warning:** Once you have moved a method, you can no longer edit it using the Coded UI Test Editor. You must add your custom code and maintain it using the Code Editor. When you move a method, a Microsoft Visual Studio dialog box is displayed. It warns you that the method will be moved from the UIMap.uitest file to the UIMap.cs or UIMap.vb file and that you will no longer be able to edit the method using the Coded UI Test Editor. Choose **Yes**.  
+-   ![Caution icon](../dv_TeamTestALM/media/caution.gif "caution") **Warning:** Once you have moved a method, you can no longer edit it using the Coded UI Test Editor. You must add your custom code and maintain it using the Code Editor. When you move a method, a Microsoft Visual Studio dialog box is displayed. It warns you that the method will be moved from the UIMap.uitest file to the UIMap.cs or UIMap.vb file and that you will no longer be able to edit the method using the Coded UI Test Editor. Choose **Yes**.  
   
  **Tips**  
   
@@ -174,7 +174,7 @@ Edit control properties
  *What else should I know?*  
  **Important issues**  
   
--   ![Caution icon](../dv_TeamTestALM_NotInTOC/media/caution.gif "caution") **Warning:** Before you locate a UI control, verify that the application associated with the test is running.  
+-   ![Caution icon](../dv_TeamTestALM/media/caution.gif "caution") **Warning:** Before you locate a UI control, verify that the application associated with the test is running.  
   
  **Tips**  
   
@@ -192,7 +192,7 @@ Edit control properties
  *What else should I know?*  
  **Important issues**  
   
--   ![Caution icon](../dv_TeamTestALM_NotInTOC/media/caution.gif "caution") **Warning:** Prior to locating the UI controls, verify that the application associated with the test is running.  
+-   ![Caution icon](../dv_TeamTestALM/media/caution.gif "caution") **Warning:** Prior to locating the UI controls, verify that the application associated with the test is running.  
   
 ##  <a name="CodedUITestEditor_InsertDelay"></a> Inserting a delay before a UI action  
  Sometimes, you might want to make the test wait for certain events to occur, such as a window to appear, the progress bar to disappear, and so on. Using the Coded UI Test Editor, you can accomplish this by inserting a delay before a UI action. You can specify how many seconds you want the delay to be.  
