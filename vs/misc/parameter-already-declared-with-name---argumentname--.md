@@ -45,4 +45,4 @@ A procedure declaration defines two arguments with the same name. All argument n
   
 ## See Also  
  [Procedure Parameters and Arguments](../Topic/Procedure%20Parameters%20and%20Arguments%20\(Visual%20Basic\).md)   
- [NOTINBUILD: Resolving a Reference When Multiple Variables Have the Same Name](assetId:///9601e39f-1911-44e1-ace5-3f6e090408b9)
+ [NOTINBUILD: Resolving a Reference When Multiple Variables Have the Same Name](http://msdn.microsoft.com/9601e39f-1911-44e1-ace5-3f6e090408b9)

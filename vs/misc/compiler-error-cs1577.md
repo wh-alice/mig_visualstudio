@@ -38,7 +38,7 @@ translation.priority.mt:
 # Compiler Error CS1577
 Assembly generation failed —reason  
   
- The assembly-generation part of the compilation failed after the C# compiler successfully compiled the source code. See the errors documentation for the ALink utility ([Al.exe Tool Errors and Warnings](assetId:///7f125d49-0a03-47a6-9ba9-d61a679a7d4b)) for more information.  
+ The assembly-generation part of the compilation failed after the C# compiler successfully compiled the source code. See the errors documentation for the ALink utility ([Al.exe Tool Errors and Warnings](http://msdn.microsoft.com/7f125d49-0a03-47a6-9ba9-d61a679a7d4b)) for more information.  
   
 ## See Also  
  [Al.exe (Assembly Linker)](../Topic/Al.exe%20\(Assembly%20Linker\).md)

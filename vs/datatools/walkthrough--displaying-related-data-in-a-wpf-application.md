@@ -60,7 +60,7 @@ In this walkthrough, you will create a WPF application that displays data from d
   
 -   Entity Data Models and the ADO.NET Entity Framework. For more information, see [Entity Framework Overview](../Topic/Entity%20Framework%20Overview.md).  
   
--   Working with the WPF Designer. For more information, see [WPF and Silverlight Designer Overview](assetId:///570b7a5c-0c86-4326-a371-c9b63378fc62).  
+-   Working with the WPF Designer. For more information, see [WPF and Silverlight Designer Overview](http://msdn.microsoft.com/570b7a5c-0c86-4326-a371-c9b63378fc62).  
   
 -   WPF data binding. For more information, see [Data Binding Overview](../Topic/Data%20Binding%20Overview.md).  
   

@@ -52,4 +52,4 @@ A procedure or property overrides a procedure or property with an access level t
 ## See Also  
  [Access Levels in Visual Basic](../Topic/Access%20Levels%20in%20Visual%20Basic.md)   
  [Overrides](../Topic/Overrides%20\(Visual%20Basic\).md)   
- [NOT IN BUILD: Overriding Properties and Methods](assetId:///2167e8f5-1225-4b13-9ebd-02591ba90213)
+ [NOT IN BUILD: Overriding Properties and Methods](http://msdn.microsoft.com/2167e8f5-1225-4b13-9ebd-02591ba90213)

@@ -48,5 +48,5 @@ translation.priority.mt:
 ## See Also  
  [Throw Statement](../Topic/Throw%20Statement%20\(Visual%20Basic\).md)   
  [Try...Catch...Finally Statement](../Topic/Try...Catch...Finally%20Statement%20\(Visual%20Basic\).md)   
- [Exception Class in Visual Basic](assetId:///9aac396f-34ca-4afb-8e6c-e523cb690ba9)   
- [Exception and Error Handling in Visual Basic](assetId:///3e351e73-cf23-40ab-8b60-05794160529e)
+ [Exception Class in Visual Basic](http://msdn.microsoft.com/9aac396f-34ca-4afb-8e6c-e523cb690ba9)   
+ [Exception and Error Handling in Visual Basic](http://msdn.microsoft.com/3e351e73-cf23-40ab-8b60-05794160529e)

@@ -59,7 +59,7 @@ The **Import/Export Settings** command on the **Tools** menu of the integrated d
  Provides a detailed description of how to implement support for retrieving configuration data by using the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] settings mechanism for Managed Package Framework based VSPackages.  
   
 ## Related Sections  
- [Working with Settings](assetId:///4c0a56ab-6091-4ebc-9dc7-52c40846bacb)  
+ [Working with Settings](http://msdn.microsoft.com/4c0a56ab-6091-4ebc-9dc7-52c40846bacb)  
  Describes how to manage the export/import sections of the IDE.  
   
  [Options Pages](../misc/options-pages.md)  

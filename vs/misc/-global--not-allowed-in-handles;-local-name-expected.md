@@ -44,6 +44,6 @@ A `Handles` clause must refer to a local event. The `Global` keyword provides ac
 -   Change the `Handles` clause to refer to a local instance of the event instead of the global instance.  
   
 ## See Also  
- [Global - delete](assetId:///18c8ba14-40f6-4978-8096-6a5852324635)   
+ [Global - delete](http://msdn.microsoft.com/18c8ba14-40f6-4978-8096-6a5852324635)   
  [Handles](../Topic/Handles%20Clause%20\(Visual%20Basic\).md)   
  [Events](../Topic/Events%20\(Visual%20Basic\).md)

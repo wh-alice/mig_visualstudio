@@ -47,7 +47,7 @@ In the Visual Studio debugger, a new object is being created, but it cannot be a
   
 ## See Also  
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)   
- [How to: Start Execution](assetId:///b0fe0ce5-900e-421f-a4c6-aa44ddae453c)   
- [How to: Stop Debugging or Stop Execution](assetId:///03c68f95-aa96-481b-990e-467e065453a5)   
- [Code Stepping Overview](assetId:///8791dac9-64d1-4bb9-b59e-8d59af1833f9)   
+ [How to: Start Execution](http://msdn.microsoft.com/b0fe0ce5-900e-421f-a4c6-aa44ddae453c)   
+ [How to: Stop Debugging or Stop Execution](http://msdn.microsoft.com/03c68f95-aa96-481b-990e-467e065453a5)   
+ [Code Stepping Overview](http://msdn.microsoft.com/8791dac9-64d1-4bb9-b59e-8d59af1833f9)   
  [Expressions in Visual Basic](../Topic/Expressions%20in%20Visual%20Basic.md)

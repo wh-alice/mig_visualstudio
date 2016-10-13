@@ -46,5 +46,5 @@ Reference required to module '<`modulename`>' containing the definition for even
 -   Include the name of the unreferenced module in your project references.  
   
 ## See Also  
- [NIB: Referencing Namespaces and Components](assetId:///568fa759-796b-44cd-bf5e-1cf8de6e38fd)   
+ [NIB: Referencing Namespaces and Components](http://msdn.microsoft.com/568fa759-796b-44cd-bf5e-1cf8de6e38fd)   
  [Troubleshooting Broken References](../ide/troubleshooting-broken-references.md)

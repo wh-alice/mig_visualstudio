@@ -39,5 +39,5 @@ The structure you are attempting to write to a file contains an unsupported type
 -   Check the structure to determine where the unsupported type occurs, and then change it to a valid type.  
   
 ## See Also  
- [My.Computer.FileSystem.WriteAllBytes Method](assetId:///b1a24dc1-eac8-4e22-8ffa-cc3bacbaf826)   
+ [My.Computer.FileSystem.WriteAllBytes Method](http://msdn.microsoft.com/b1a24dc1-eac8-4e22-8ffa-cc3bacbaf826)   
  [Error Types](../Topic/Error%20Types%20\(Visual%20Basic\).md)

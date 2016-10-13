@@ -50,7 +50,7 @@ Construct makes an indirect reference to project '\<projectname>', which contain
 -   Determine which project defines the cited type, and add a project reference to it.  
   
 ## See Also  
- [NIB: Referencing Namespaces and Components](assetId:///568fa759-796b-44cd-bf5e-1cf8de6e38fd)   
+ [NIB: Referencing Namespaces and Components](http://msdn.microsoft.com/568fa759-796b-44cd-bf5e-1cf8de6e38fd)   
  [Managing references in a project](../ide/managing-references-in-a-project.md)   
- [NIB: Managing References](assetId:///910912ce-0dc9-4569-9274-32c44a20cb2c)   
- [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](assetId:///3bd75d61-f00c-47c0-86a2-dd1f20e231c9)
+ [NIB: Managing References](http://msdn.microsoft.com/910912ce-0dc9-4569-9274-32c44a20cb2c)   
+ [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](http://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)

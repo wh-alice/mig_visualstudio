@@ -48,7 +48,7 @@ The steps in this walkthrough show you how to debug an [!INCLUDE[vstecasp](../co
 > [!NOTE]
 >  To complete this walkthrough, you must have Administrator privileges on the server computer. By default, the [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] process, aspnet_wp.exe or w3wp.exe, runs as an [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] process. To debug [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)], you must have Administrator privileges on the computer where [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] runs it. For more information, see [System Requirements](../debugger/asp.net-debugging--system-requirements.md).  
   
- The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](assetId:///22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+ The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ### To create the Web Form  
   
@@ -110,7 +110,7 @@ The steps in this walkthrough show you how to debug an [!INCLUDE[vstecasp](../co
     textBox1.Text = "Button was clicked!";  
     ```  
   
-     A red dot appears and the text on the line is highlighted in red. The red dot represents a breakpoint. When you run the application under the debugger, the debugger will break execution at that location when the code is hit. You can then view the state of your application and debug it. For more information, see [Breakpoints](assetId:///fe4eedc1-71aa-4928-962f-0912c334d583).  
+     A red dot appears and the text on the line is highlighted in red. The red dot represents a breakpoint. When you run the application under the debugger, the debugger will break execution at that location when the code is hit. You can then view the state of your application and debug it. For more information, see [Breakpoints](http://msdn.microsoft.com/fe4eedc1-71aa-4928-962f-0912c334d583).  
   
 2.  On the **Debug** menu, click **Start Debugging**.  
   

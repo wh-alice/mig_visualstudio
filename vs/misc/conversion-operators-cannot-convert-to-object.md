@@ -52,4 +52,4 @@ A conversion operator is declared with a return type of the [Object Data Type](.
  [Operator Statement](../Topic/Operator%20Statement.md)   
  [How to: Define an Operator](../Topic/How%20to:%20Define%20an%20Operator%20\(Visual%20Basic\).md)   
  [How to: Define a Conversion Operator](../Topic/How%20to:%20Define%20a%20Conversion%20Operator%20\(Visual%20Basic\).md)   
- [Object as the Universal Data Type (Visual Basic)](assetId:///5315bf21-2b22-45ab-98cd-5631dffbcb2f)
+ [Object as the Universal Data Type (Visual Basic)](http://msdn.microsoft.com/5315bf21-2b22-45ab-98cd-5631dffbcb2f)

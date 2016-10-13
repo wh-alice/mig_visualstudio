@@ -44,4 +44,4 @@ You have declared an interface method a second time, duplicating it.
 -   Remove the duplicated declaration.  
   
 ## See Also  
- [NOT IN BUILD: Interface Implementation Examples in Visual Basic](assetId:///50bf2a30-73b6-4126-a921-075fd6eec278)
+ [NOT IN BUILD: Interface Implementation Examples in Visual Basic](http://msdn.microsoft.com/50bf2a30-73b6-4126-a921-075fd6eec278)

@@ -47,6 +47,6 @@ Structure methods cannot use the `Handles` keyword to handle events.
   
 ## See Also  
  [Structures and Classes](../Topic/Structures%20and%20Classes%20\(Visual%20Basic\).md)   
- [NOT IN BUILD: Classes: Blueprints for Objects](assetId:///2c86373d-0333-4616-a7d8-4790c4e89f7b)   
+ [NOT IN BUILD: Classes: Blueprints for Objects](http://msdn.microsoft.com/2c86373d-0333-4616-a7d8-4790c4e89f7b)   
  [Events](../Topic/Events%20\(Visual%20Basic\).md)   
- [NOT IN BUILD:AddHandler and RemoveHandler](assetId:///a7a24bd2-519a-46fe-8a2c-2b9df2ca28ef)
+ [NOT IN BUILD:AddHandler and RemoveHandler](http://msdn.microsoft.com/a7a24bd2-519a-46fe-8a2c-2b9df2ca28ef)

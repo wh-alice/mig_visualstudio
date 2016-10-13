@@ -44,5 +44,5 @@ translation.priority.mt:
 -   Remove `Loop` statements from the debugging code.  
   
 ## See Also  
- [Loop - delete](assetId:///707e1afe-71d1-4ebd-83fd-3fa6a8e38e57)   
+ [Loop - delete](http://msdn.microsoft.com/707e1afe-71d1-4ebd-83fd-3fa6a8e38e57)   
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)

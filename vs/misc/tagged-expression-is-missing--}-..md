@@ -43,5 +43,5 @@ This error generally occurs when an opening brace (`{`) has been specified but t
   
 ## See Also  
  [Using Regular Expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md)   
- [NIB: Find and Replace, Quick Find](assetId:///dad03582-4931-4893-83ba-84b37f5b1600)   
+ [NIB: Find and Replace, Quick Find](http://msdn.microsoft.com/dad03582-4931-4893-83ba-84b37f5b1600)   
  [Find in Files](../ide/find-in-files.md)

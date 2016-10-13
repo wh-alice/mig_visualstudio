@@ -45,4 +45,4 @@ The `Object` data type replaces `Variant`.
   
 ## See Also  
  [Object Data Type](../Topic/Object%20Data%20Type.md)   
- [Data Type Changes in Visual Basic](assetId:///0aca9f54-7231-49a5-ab26-a68ca79d08f3)
+ [Data Type Changes in Visual Basic](http://msdn.microsoft.com/0aca9f54-7231-49a5-ab26-a68ca79d08f3)

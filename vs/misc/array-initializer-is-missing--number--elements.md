@@ -46,5 +46,5 @@ You have not supplied enough elements in the initializer for your array.
 -   Use `ReDim` to change the size of the array.  
   
 ## See Also  
- [NOTINBUILD Overview of Arrays in Visual Basic](assetId:///ca50e2f2-b4d2-4c57-9169-9abbcc3392d8)   
- [NOTINBUILD Jagged Arrays in Visual Basic](assetId:///05c12439-ee8f-4fef-ba75-b35402b67ab9)
+ [NOTINBUILD Overview of Arrays in Visual Basic](http://msdn.microsoft.com/ca50e2f2-b4d2-4c57-9169-9abbcc3392d8)   
+ [NOTINBUILD Jagged Arrays in Visual Basic](http://msdn.microsoft.com/05c12439-ee8f-4fef-ba75-b35402b67ab9)

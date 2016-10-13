@@ -78,4 +78,4 @@ translation.priority.mt:
 ## See Also  
  \<xref:System.DBNull>   
  [Nothing](../Topic/Nothing%20\(Visual%20Basic\).md)   
- [Programming Element Support Changes Summary](assetId:///0483590a-6309-449c-a2fa-effa26a03b95)
+ [Programming Element Support Changes Summary](http://msdn.microsoft.com/0483590a-6309-449c-a2fa-effa26a03b95)

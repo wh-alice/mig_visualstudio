@@ -44,4 +44,4 @@ The name of a type member conflicts with another implicitly created member.
 -   Rename the explicitly declared member to remove the naming conflict.  
   
 ## See Also  
- [NotInBuild:Declaration Statements in Visual Basic](assetId:///81f3c398-f45c-4d95-80bf-aa39d1a0fb30)
+ [NotInBuild:Declaration Statements in Visual Basic](http://msdn.microsoft.com/81f3c398-f45c-4d95-80bf-aa39d1a0fb30)

@@ -91,7 +91,7 @@ To appear in the **About** dialog box and the splash screen, VSPackages must imp
   
 1.  Add the bitmaps and icons to the project as project resources.  
   
-     For more information, see [NOT IN BUILD: Adding and Editing Resources (Visual C#)](assetId:///95f15d03-bed0-410c-8d1f-dece5199ba1e).  
+     For more information, see [NOT IN BUILD: Adding and Editing Resources (Visual C#)](http://msdn.microsoft.com/95f15d03-bed0-410c-8d1f-dece5199ba1e).  
   
 2.  Close the resource editor and reopen the .resx file in an XML or text editor.  
   

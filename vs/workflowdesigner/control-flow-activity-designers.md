@@ -33,7 +33,7 @@ translation.priority.ht:
  [DoWhile](../workflowdesigner/dowhile-activity-designer.md)  
  Executes the activity contained in its body at least once, until a specified condition evaluates to **true**.  
   
- [ForEach\<T>](assetId:///a680cddd-2760-497a-b27b-c023fcbc6f33)  
+ [ForEach\<T>](http://msdn.microsoft.com/a680cddd-2760-497a-b27b-c023fcbc6f33)  
  Executes the activity contained in its body for each item in a specified collection.  
   
  [If](../workflowdesigner/if-activity-designer.md)  
@@ -54,7 +54,7 @@ translation.priority.ht:
  [Sequence](../workflowdesigner/sequence-activity-designer.md)  
  Contains an ordered collection of child activities that it executes in order.  
   
- [Switch\<T>](assetId:///ce1aa634-c4db-4475-a1c8-a88478a57212)  
+ [Switch\<T>](http://msdn.microsoft.com/ce1aa634-c4db-4475-a1c8-a88478a57212)  
  Evaluates a specified expression and executes the activity from a collection of activities whose associated key matches the value obtained from the evaluation.  
   
  [While](../workflowdesigner/while-activity-designer.md)  

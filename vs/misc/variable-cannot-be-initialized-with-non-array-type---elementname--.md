@@ -57,4 +57,4 @@ A variable that is declared as an array must be initialized with an array value.
     ```  
   
 ## See Also  
- [NOTINBUILD  an Array Variable](assetId:///c2da78bd-6928-46ba-805f-44f819dfaf93)
+ [NOTINBUILD  an Array Variable](http://msdn.microsoft.com/c2da78bd-6928-46ba-805f-44f819dfaf93)

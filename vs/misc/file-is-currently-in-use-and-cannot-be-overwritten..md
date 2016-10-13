@@ -43,5 +43,5 @@ The current file cannot be saved. This error generally occurs when you attempt t
      Rename the file and then save it.  
   
 ## See Also  
- [NIB: Save File As Dialog Box](assetId:///22380a20-2858-4391-b2f2-80c6bce64f14)   
+ [NIB: Save File As Dialog Box](http://msdn.microsoft.com/22380a20-2858-4391-b2f2-80c6bce64f14)   
  [Solutions and Projects](../ide/solutions-and-projects-in-visual-studio.md)

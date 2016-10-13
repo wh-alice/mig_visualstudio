@@ -39,5 +39,5 @@ A path name contains one or more characters that are not valid.
 -   Remove the character from the path name.  
   
 ## See Also  
- [My.Application.Info.DirectoryPath Property](assetId:///660586b9-638e-42a7-ae21-5eee34a3fccf)   
+ [My.Application.Info.DirectoryPath Property](http://msdn.microsoft.com/660586b9-638e-42a7-ae21-5eee34a3fccf)   
  [How to: Parse File Paths](../Topic/How%20to:%20Parse%20File%20Paths%20in%20Visual%20Basic.md)

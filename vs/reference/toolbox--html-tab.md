@@ -41,9 +41,9 @@ The **HTML** tab of the Toolbox provides components that are useful on Web pages
   
 ## Tasks  
   
--   [How to: Manage the Toolbox Window](assetId:///a022c3fe-298c-4a59-a48f-b050da90ebc2)  
+-   [How to: Manage the Toolbox Window](http://msdn.microsoft.com/a022c3fe-298c-4a59-a48f-b050da90ebc2)  
   
--   [How to: Manipulate Toolbox Tabs](assetId:///21285050-cadd-455a-b1f5-a2289a89c4db)  
+-   [How to: Manipulate Toolbox Tabs](http://msdn.microsoft.com/21285050-cadd-455a-b1f5-a2289a89c4db)  
   
 ## UI Elements  
  The following tools are available by default on the HTML tab.  
@@ -51,7 +51,7 @@ The **HTML** tab of the Toolbox provides components that are useful on Web pages
  **Pointer**  
  ![ASP.NET Mobile Designer HTMLpage Pointer](../reference/media/vxpointer.gif "vxPointer")  
   
- This tool is selected by default when any Toolbox tab opens. It cannot be deleted. The pointer enables you to drag objects onto the Design view surface, resize them, and reposition them on the page or form. For more information, see [How to: Manage the Toolbox Window](assetId:///a022c3fe-298c-4a59-a48f-b050da90ebc2) and [How to: Manipulate Toolbox Tabs](assetId:///21285050-cadd-455a-b1f5-a2289a89c4db).  
+ This tool is selected by default when any Toolbox tab opens. It cannot be deleted. The pointer enables you to drag objects onto the Design view surface, resize them, and reposition them on the page or form. For more information, see [How to: Manage the Toolbox Window](http://msdn.microsoft.com/a022c3fe-298c-4a59-a48f-b050da90ebc2) and [How to: Manipulate Toolbox Tabs](http://msdn.microsoft.com/21285050-cadd-455a-b1f5-a2289a89c4db).  
   
  **Input (Button)**  
  ![HTML web page button](../reference/media/vxbutton.gif "vxButton")  
@@ -64,7 +64,7 @@ The **HTML** tab of the Toolbox provides components that are useful on Web pages
 <input id="Button1" type="button" value="Button" name="Button1">  
 ```  
   
- For more information, see [HTML Input Controls](../Topic/HTML%20Input%20Controls.md), [HtmlInputButton Server Control Declarative Syntax](assetId:///99ccf7fb-7e2a-4ba1-bcd9-981b619a16aa), [NIB: How to: Create Scripts and Edit Event Handlers](assetId:///69d71d13-c68b-4ecd-869b-a42edf6d1f6d), [Button Web Server Controls Content Map](../Topic/Button%20Web%20Server%20Controls%20Content%20Map.md), \<xref:System.Web.UI.HtmlControls.HtmlInputButton>, \<xref:System.Web.UI.HtmlControls.HtmlButton>, and \<xref:System.Web.UI.WebControls.Button>.  
+ For more information, see [HTML Input Controls](../Topic/HTML%20Input%20Controls.md), [HtmlInputButton Server Control Declarative Syntax](http://msdn.microsoft.com/99ccf7fb-7e2a-4ba1-bcd9-981b619a16aa), [NIB: How to: Create Scripts and Edit Event Handlers](http://msdn.microsoft.com/69d71d13-c68b-4ecd-869b-a42edf6d1f6d), [Button Web Server Controls Content Map](../Topic/Button%20Web%20Server%20Controls%20Content%20Map.md), \<xref:System.Web.UI.HtmlControls.HtmlInputButton>, \<xref:System.Web.UI.HtmlControls.HtmlButton>, and \<xref:System.Web.UI.WebControls.Button>.  
   
  **Input (Reset)**  
  ![HTMLpageResetButton screenshot](../reference/media/vxreset.gif "vxReset")  
@@ -77,7 +77,7 @@ The **HTML** tab of the Toolbox provides components that are useful on Web pages
 <input id="Reset1" type="reset" value="Reset" name="Reset1">  
 ```  
   
- For more information, see [HTML Input Controls](../Topic/HTML%20Input%20Controls.md), [HtmlInputReset Server Control Declarative Syntax](assetId:///cfc1f1fb-d33a-464d-9bb5-204e66174979), \<xref:System.Web.UI.HtmlControls.HtmlInputButton>, and \<xref:System.Web.UI.WebControls.Button>.  
+ For more information, see [HTML Input Controls](../Topic/HTML%20Input%20Controls.md), [HtmlInputReset Server Control Declarative Syntax](http://msdn.microsoft.com/cfc1f1fb-d33a-464d-9bb5-204e66174979), \<xref:System.Web.UI.HtmlControls.HtmlInputButton>, and \<xref:System.Web.UI.WebControls.Button>.  
   
  **Input (Submit)**  
  ![HTMLpageToolbarSubmitButton screenshot](../reference/media/vxsubmit.gif "vxSubmit")  
@@ -90,7 +90,7 @@ The **HTML** tab of the Toolbox provides components that are useful on Web pages
 <input id="Submit1" type="submit" value="Submit" name="Submit1">  
 ```  
   
- For more information, see [HTML Input Controls](../Topic/HTML%20Input%20Controls.md), [HtmlInputSubmit Server Control Declarative Syntax](assetId:///eef2a157-f184-4ce9-b256-d1eacc7930f2), \<xref:System.Web.UI.HtmlControls.HtmlInputButton>, and \<xref:System.Web.UI.WebControls.Button>.  
+ For more information, see [HTML Input Controls](../Topic/HTML%20Input%20Controls.md), [HtmlInputSubmit Server Control Declarative Syntax](http://msdn.microsoft.com/eef2a157-f184-4ce9-b256-d1eacc7930f2), \<xref:System.Web.UI.HtmlControls.HtmlInputButton>, and \<xref:System.Web.UI.WebControls.Button>.  
   
  **Input (Text)**  
  ![HTMLpageToolbarTextField screenshot](../reference/media/vxtextfield.gif "vxTextfield")  
@@ -103,7 +103,7 @@ The **HTML** tab of the Toolbox provides components that are useful on Web pages
 <input id="Text1" TYPE="text" value="Text Field" name="Text1">  
 ```  
   
- For more information, see [HTML Input Controls](../Topic/HTML%20Input%20Controls.md), [HtmlInputText Server Control Declarative Syntax](assetId:///87060d90-a11c-434d-9fc9-b03a8487041e), [TextBox Web Server Control Overview](../Topic/TextBox%20Web%20Server%20Control%20Overview.md), \<xref:System.Web.UI.HtmlControls.HtmlInputText>, and \<xref:System.Web.UI.WebControls.TextBox>.  
+ For more information, see [HTML Input Controls](../Topic/HTML%20Input%20Controls.md), [HtmlInputText Server Control Declarative Syntax](http://msdn.microsoft.com/87060d90-a11c-434d-9fc9-b03a8487041e), [TextBox Web Server Control Overview](../Topic/TextBox%20Web%20Server%20Control%20Overview.md), \<xref:System.Web.UI.HtmlControls.HtmlInputText>, and \<xref:System.Web.UI.WebControls.TextBox>.  
   
 > [!IMPORTANT]
 >  It is recommended that you validate all user input. For more information, see [Validating User Input in ASP.NET Web Pages](../Topic/Validating%20User%20Input%20in%20ASP.NET%20Web%20Pages.md).  
@@ -119,7 +119,7 @@ The **HTML** tab of the Toolbox provides components that are useful on Web pages
 <input id="File1" type="file" name="File1">  
 ```  
   
- For more information, see [HTML Input Controls](../Topic/HTML%20Input%20Controls.md), [HtmlInputFile Server Control Declarative Syntax](assetId:///a817b4a0-056f-4c17-a696-b9fdcde43db6), and \<xref:System.Web.UI.HtmlControls.HtmlInputFile>.  
+ For more information, see [HTML Input Controls](../Topic/HTML%20Input%20Controls.md), [HtmlInputFile Server Control Declarative Syntax](http://msdn.microsoft.com/a817b4a0-056f-4c17-a696-b9fdcde43db6), and \<xref:System.Web.UI.HtmlControls.HtmlInputFile>.  
   
 > [!IMPORTANT]
 >  It is recommended that you validate all user input. For more information, see [Validating User Input in ASP.NET Web Pages](../Topic/Validating%20User%20Input%20in%20ASP.NET%20Web%20Pages.md).  
@@ -135,7 +135,7 @@ The **HTML** tab of the Toolbox provides components that are useful on Web pages
 <input id="Password1" type="password" name="Password1">  
 ```  
   
- For more information, see [HTML Input Controls](../Topic/HTML%20Input%20Controls.md), [HtmlInputPassword Server Control Declarative Syntax](assetId:///df703dd0-1624-4e5a-a547-c97f2f331b9f), [How to: Set a TextBox Web Server Control for Password Entry](../Topic/How%20to:%20Set%20a%20TextBox%20Web%20Server%20Control%20for%20Password%20Entry.md), and [Walkthrough: Validating User Input in a Web Forms Page](../Topic/Walkthrough:%20Validating%20User%20Input%20in%20a%20Web%20Forms%20Page.md).  
+ For more information, see [HTML Input Controls](../Topic/HTML%20Input%20Controls.md), [HtmlInputPassword Server Control Declarative Syntax](http://msdn.microsoft.com/df703dd0-1624-4e5a-a547-c97f2f331b9f), [How to: Set a TextBox Web Server Control for Password Entry](../Topic/How%20to:%20Set%20a%20TextBox%20Web%20Server%20Control%20for%20Password%20Entry.md), and [Walkthrough: Validating User Input in a Web Forms Page](../Topic/Walkthrough:%20Validating%20User%20Input%20in%20a%20Web%20Forms%20Page.md).  
   
 > [!IMPORTANT]
 >  If your application transmits user names and passwords, you should configure your Web site to use Secure Sockets Layer (SSL) to encrypt the transmission. For more information, see "Securing Connections with SSL" in the [IIS Operations Guide](http://go.microsoft.com/fwlink/?linkid=47856). Additionally, it is recommended that you validate all user input. For more information, see [Validating User Input in ASP.NET Web Pages](../Topic/Validating%20User%20Input%20in%20ASP.NET%20Web%20Pages.md).  
@@ -151,7 +151,7 @@ The **HTML** tab of the Toolbox provides components that are useful on Web pages
 <input id="Checkbox1" type="checkbox" name="Checkbox1">   
 ```  
   
- For more information, see [HTML Input Controls](../Topic/HTML%20Input%20Controls.md), [HtmlInputCheckBox Server Control Declarative Syntax](assetId:///4a509586-89d8-4ccf-a0b8-b9160ce6e4a6), [CheckBox and CheckBoxList Web Server Controls Overview](../Topic/CheckBox%20and%20CheckBoxList%20Web%20Server%20Controls%20Overview.md), \<xref:System.Web.UI.HtmlControls.HtmlInputCheckBox>, and \<xref:System.Web.UI.WebControls.CheckBox>.  
+ For more information, see [HTML Input Controls](../Topic/HTML%20Input%20Controls.md), [HtmlInputCheckBox Server Control Declarative Syntax](http://msdn.microsoft.com/4a509586-89d8-4ccf-a0b8-b9160ce6e4a6), [CheckBox and CheckBoxList Web Server Controls Overview](../Topic/CheckBox%20and%20CheckBoxList%20Web%20Server%20Controls%20Overview.md), \<xref:System.Web.UI.HtmlControls.HtmlInputCheckBox>, and \<xref:System.Web.UI.WebControls.CheckBox>.  
   
  **Input (Radio)**  
  ![VisualStudioHTMLpageRadioButton screenshot](../reference/media/vxradio.gif "vxRadio")  
@@ -164,7 +164,7 @@ The **HTML** tab of the Toolbox provides components that are useful on Web pages
 <input id="Radio1" type="radio" name="Radio1">  
 ```  
   
- For more information, see [HTML Input Controls](../Topic/HTML%20Input%20Controls.md), [HtmlInputRadioButton Server Control Declarative Syntax](assetId:///6e60ff63-cc57-46ef-bf96-e829e204ba33), [RadioButton and RadioButtonList Web Server Controls Overview](../Topic/RadioButton%20and%20RadioButtonList%20Web%20Server%20Controls%20Overview.md), \<xref:System.Web.UI.HtmlControls.HtmlInputRadioButton>, and \<xref:System.Web.UI.WebControls.RadioButton>.  
+ For more information, see [HTML Input Controls](../Topic/HTML%20Input%20Controls.md), [HtmlInputRadioButton Server Control Declarative Syntax](http://msdn.microsoft.com/6e60ff63-cc57-46ef-bf96-e829e204ba33), [RadioButton and RadioButtonList Web Server Controls Overview](../Topic/RadioButton%20and%20RadioButtonList%20Web%20Server%20Controls%20Overview.md), \<xref:System.Web.UI.HtmlControls.HtmlInputRadioButton>, and \<xref:System.Web.UI.WebControls.RadioButton>.  
   
  **Input (Hidden)**  
  ![HTML page Hidden Item](../reference/media/vxhidden.gif "vxhidden")  
@@ -177,7 +177,7 @@ The **HTML** tab of the Toolbox provides components that are useful on Web pages
 <input id="Hidden1" type="hidden" name="Hidden1">   
 ```  
   
- For more information, see [HTML Input Controls](../Topic/HTML%20Input%20Controls.md), [HtmlInputHidden Server Control Declarative Syntax](assetId:///4194e44d-1d74-4bfc-9cc7-743a2e1ea5f9), and \<xref:System.Web.UI.HtmlControls.HtmlInputHidden>.  
+ For more information, see [HTML Input Controls](../Topic/HTML%20Input%20Controls.md), [HtmlInputHidden Server Control Declarative Syntax](http://msdn.microsoft.com/4194e44d-1d74-4bfc-9cc7-743a2e1ea5f9), and \<xref:System.Web.UI.HtmlControls.HtmlInputHidden>.  
   
  **Textarea**  
  ![HTMLpage Toolbar Text Area](../reference/media/vxtextarea.gif "vxTextarea")  
@@ -190,7 +190,7 @@ The **HTML** tab of the Toolbox provides components that are useful on Web pages
 <textarea id=" textarea 1 name=" textarea 1" rows=2 cols=20></textarea>   
 ```  
   
- For more information, see [HtmlTextArea Server Control Declarative Syntax](assetId:///5a103ffa-235b-4452-ba2b-a4fb8ba8cb87), \<xref:System.Web.UI.HtmlControls.HtmlTextArea>, and \<xref:System.Web.UI.WebControls.TextBox>.  
+ For more information, see [HtmlTextArea Server Control Declarative Syntax](http://msdn.microsoft.com/5a103ffa-235b-4452-ba2b-a4fb8ba8cb87), \<xref:System.Web.UI.HtmlControls.HtmlTextArea>, and \<xref:System.Web.UI.WebControls.TextBox>.  
   
 > [!IMPORTANT]
 >  It is recommended that you validate all user input. For more information, see [Validating User Input in ASP.NET Web Pages](../Topic/Validating%20User%20Input%20in%20ASP.NET%20Web%20Pages.md).  
@@ -206,7 +206,7 @@ The **HTML** tab of the Toolbox provides components that are useful on Web pages
 <table cellspacing="1" width="75%" border=1> <tr><td></td></tr></table>   
 ```  
   
- For more information, see [HtmlTable Server Control Declarative Syntax](assetId:///625b06d8-0f69-4112-a1d4-8ef2a9fbcda9), [Table, TableRow, and TableCell Web Server Control Overview](../Topic/Table,%20TableRow,%20and%20TableCell%20Web%20Server%20Control%20Overview.md), \<xref:System.Web.UI.HtmlControls.HtmlTable>, and \<xref:System.Web.UI.WebControls.Table>.  
+ For more information, see [HtmlTable Server Control Declarative Syntax](http://msdn.microsoft.com/625b06d8-0f69-4112-a1d4-8ef2a9fbcda9), [Table, TableRow, and TableCell Web Server Control Overview](../Topic/Table,%20TableRow,%20and%20TableCell%20Web%20Server%20Control%20Overview.md), \<xref:System.Web.UI.HtmlControls.HtmlTable>, and \<xref:System.Web.UI.WebControls.Table>.  
   
  **Image**  
  ![HTML page Image Item](../reference/media/vximage.gif "vxImage")  
@@ -219,7 +219,7 @@ The **HTML** tab of the Toolbox provides components that are useful on Web pages
 <img alt="" src="">  
 ```  
   
- For more information, see [HtmlImage Server Control Declarative Syntax](assetId:///528430e8-ced1-47d1-8db2-942e734a61f6), [Image Web Server Control Overview](../Topic/Image%20Web%20Server%20Control%20Overview.md), \<xref:System.Web.UI.HtmlControls.HtmlImage>, \<xref:System.Web.UI.HtmlControls.HtmlInputImage>, and \<xref:System.Web.UI.WebControls.Image>.  
+ For more information, see [HtmlImage Server Control Declarative Syntax](http://msdn.microsoft.com/528430e8-ced1-47d1-8db2-942e734a61f6), [Image Web Server Control Overview](../Topic/Image%20Web%20Server%20Control%20Overview.md), \<xref:System.Web.UI.HtmlControls.HtmlImage>, \<xref:System.Web.UI.HtmlControls.HtmlInputImage>, and \<xref:System.Web.UI.WebControls.Image>.  
   
  **Select**  
  ![HTML page Toolbox Dropdown](../reference/media/vxdropdown.gif "vxDropdown")  
@@ -234,7 +234,7 @@ The **HTML** tab of the Toolbox provides components that are useful on Web pages
   
  You can create a multi-line `select` element by increasing the value of the size property.  
   
- For more information, see [HtmlSelect Server Control Declarative Syntax](assetId:///ee93bdec-b343-441a-a8ff-56ffcafe9ae5), [NIB: How to: Create Scripts and Edit Event Handlers](assetId:///69d71d13-c68b-4ecd-869b-a42edf6d1f6d), [DropDownList Web Server Control Overview](../Topic/DropDownList%20Web%20Server%20Control%20Overview.md), [ListBox Web Server Control Overview](../Topic/ListBox%20Web%20Server%20Control%20Overview.md), \<xref:System.Web.UI.HtmlControls.HtmlSelect>, and \<xref:System.Web.UI.WebControls.DropDownList>.  
+ For more information, see [HtmlSelect Server Control Declarative Syntax](http://msdn.microsoft.com/ee93bdec-b343-441a-a8ff-56ffcafe9ae5), [NIB: How to: Create Scripts and Edit Event Handlers](http://msdn.microsoft.com/69d71d13-c68b-4ecd-869b-a42edf6d1f6d), [DropDownList Web Server Control Overview](../Topic/DropDownList%20Web%20Server%20Control%20Overview.md), [ListBox Web Server Control Overview](../Topic/ListBox%20Web%20Server%20Control%20Overview.md), \<xref:System.Web.UI.HtmlControls.HtmlSelect>, and \<xref:System.Web.UI.WebControls.DropDownList>.  
   
  **Horizontal Rule**  
  ![HTML page Horizontal Rule Item](../reference/media/vxhorizontal.gif "vxHorizontal")  

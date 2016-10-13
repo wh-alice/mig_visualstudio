@@ -63,5 +63,5 @@ translation.priority.mt:
   
 ## See Also  
  \<xref:System.Runtime.InteropServices.ClassInterfaceAttribute?displayProperty=fullName>   
- [Introducing the Class Interface](assetId:///733c0dd2-12e5-46e6-8de1-39d5b25df024)   
+ [Introducing the Class Interface](http://msdn.microsoft.com/733c0dd2-12e5-46e6-8de1-39d5b25df024)   
  [Interoperating with Unmanaged Code](../Topic/Interoperating%20with%20Unmanaged%20Code.md)

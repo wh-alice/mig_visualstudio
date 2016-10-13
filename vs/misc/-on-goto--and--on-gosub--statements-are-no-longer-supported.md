@@ -46,4 +46,4 @@ It is no longer valid to use the value of a variable or expression with the `GoT
 ## See Also  
  [On Error Statement](../Topic/On%20Error%20Statement%20\(Visual%20Basic\).md)   
  [If...Then...Else Statement](../Topic/If...Then...Else%20Statement%20\(Visual%20Basic\).md)   
- [Case (Visual Basic)](assetId:///a14efce6-5057-4b7d-8afd-056dd4abdcee)
+ [Case (Visual Basic)](http://msdn.microsoft.com/a14efce6-5057-4b7d-8afd-056dd4abdcee)

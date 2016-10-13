@@ -44,5 +44,5 @@ This error generally occurs when a file contains characters that can only be sav
 3.  In the **Advanced Save Options** dialog box, choose the encoding appropriate for your file.  
   
 ## See Also  
- [NIB: Save File As Dialog Box](assetId:///22380a20-2858-4391-b2f2-80c6bce64f14)   
- [NIB:How to: Manage Files By Using Encoding](assetId:///ab3a74da-5c8f-4680-8882-f1def4909e82)
+ [NIB: Save File As Dialog Box](http://msdn.microsoft.com/22380a20-2858-4391-b2f2-80c6bce64f14)   
+ [NIB:How to: Manage Files By Using Encoding](http://msdn.microsoft.com/ab3a74da-5c8f-4680-8882-f1def4909e82)

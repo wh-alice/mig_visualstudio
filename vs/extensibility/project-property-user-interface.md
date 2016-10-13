@@ -70,4 +70,4 @@ A project subtype can use the items in the project **Property Pages** dialog box
   
 ## See Also  
  \<xref:EnvDTE.IFilterProperties>   
- [Property Pages Dialog Box](assetId:///4a3d34ac-ed03-45e8-ae60-a0e1aad300e4)
+ [Property Pages Dialog Box](http://msdn.microsoft.com/4a3d34ac-ed03-45e8-ae60-a0e1aad300e4)

@@ -60,6 +60,6 @@ The parameter for the `Set` property procedure has a different type from the pro
     ```  
   
 ## See Also  
- [NOT IN BUILD: How to: Add Fields and Properties to a Class](assetId:///ae53f61b-3abc-413e-8931-703c5f5e8fc2)   
+ [NOT IN BUILD: How to: Add Fields and Properties to a Class](http://msdn.microsoft.com/ae53f61b-3abc-413e-8931-703c5f5e8fc2)   
  [Property Procedures](../Topic/Property%20Procedures%20\(Visual%20Basic\).md)   
- [NOT IN BUILD: Properties and Property Procedures](assetId:///23e2a1ec-7e9d-4109-8940-c703d981077b)
+ [NOT IN BUILD: Properties and Property Procedures](http://msdn.microsoft.com/23e2a1ec-7e9d-4109-8940-c703d981077b)

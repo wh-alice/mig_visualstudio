@@ -46,5 +46,5 @@ The project system has determined that a particular dependency (dependency1) of 
   
 ## See Also  
  [Troubleshooting Broken References](../ide/troubleshooting-broken-references.md)   
- [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](assetId:///3bd75d61-f00c-47c0-86a2-dd1f20e231c9)   
- [Assemblies in the Common Language Runtime](assetId:///33a0bc6a-6bb3-44c7-ada7-4a046e8c0945)
+ [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](http://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)   
+ [Assemblies in the Common Language Runtime](http://msdn.microsoft.com/33a0bc6a-6bb3-44c7-ada7-4a046e8c0945)

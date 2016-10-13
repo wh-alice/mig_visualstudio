@@ -59,4 +59,4 @@ Dim person = New With {.Name ="Mike Nash", .Age = 27}
  [Anonymous Types](../Topic/Anonymous%20Types%20\(Visual%20Basic\).md)   
  [Object Initializers: Named and Anonymous Types](../Topic/Object%20Initializers:%20Named%20and%20Anonymous%20Types%20\(Visual%20Basic\).md)   
  [New Operator](../Topic/New%20Operator%20\(Visual%20Basic\).md)   
- [NotInBuild:Declaration Statements in Visual Basic](assetId:///81f3c398-f45c-4d95-80bf-aa39d1a0fb30)
+ [NotInBuild:Declaration Statements in Visual Basic](http://msdn.microsoft.com/81f3c398-f45c-4d95-80bf-aa39d1a0fb30)

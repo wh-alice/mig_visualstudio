@@ -42,7 +42,7 @@ A CLS-compliant literal must have a value specified in field initialization meta
   
  Make sure that the field literal has exactly the same type as the literal (or underlying type, if the literal is an enum).  
   
- For more information CLS compliance checking, see [CLS Compliant Assemblies](assetId:///3320b57e-ea55-4697-a17d-f509a36a3c93).  
+ For more information CLS compliance checking, see [CLS Compliant Assemblies](http://msdn.microsoft.com/3320b57e-ea55-4697-a17d-f509a36a3c93).  
   
  The following declaration (using MSIL assembly language) shows what could cause CLS01303:  
   

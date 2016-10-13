@@ -48,6 +48,6 @@ translation.priority.mt:
 -   Declare a `Sub` procedure named `Finalize` to terminate a class. `Sub Finalize` is called when the garbage collector detects that there are no more active references to the instance.  
   
 ## See Also  
- [Classes for Visual Basic 6.0 Users](assetId:///d625222c-cd32-4c8d-b25c-ea71729b88b7)   
- [NOT IN BUILD: Using Constructors and Destructors](assetId:///548eebe1-86c4-4377-b2f5-447cb8be3d90)   
- [NOT IN BUILD: How to: Implement the Dispose Finalize Pattern (Visual Basic)](assetId:///adf7a232-4ebb-485d-8626-8d64421eb0c4)
+ [Classes for Visual Basic 6.0 Users](http://msdn.microsoft.com/d625222c-cd32-4c8d-b25c-ea71729b88b7)   
+ [NOT IN BUILD: Using Constructors and Destructors](http://msdn.microsoft.com/548eebe1-86c4-4377-b2f5-447cb8be3d90)   
+ [NOT IN BUILD: How to: Implement the Dispose Finalize Pattern (Visual Basic)](http://msdn.microsoft.com/adf7a232-4ebb-485d-8626-8d64421eb0c4)

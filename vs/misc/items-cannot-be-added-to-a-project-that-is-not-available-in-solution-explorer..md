@@ -40,5 +40,5 @@ This error generally occurs when a project that has been specified is not open i
 1.  Add the specified project to the current solution or open the solution containing the specified project.  
   
 ## See Also  
- [Solution Explorer](assetId:///ca0ad8e7-eda8-40d4-a76e-2a6864b16e00)   
+ [Solution Explorer](http://msdn.microsoft.com/ca0ad8e7-eda8-40d4-a76e-2a6864b16e00)   
  [Solutions and Projects](../ide/solutions-and-projects-in-visual-studio.md)

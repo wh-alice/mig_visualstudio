@@ -45,4 +45,4 @@ To install the [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] on y
   
 ## See Also  
  [Add-In Security](../Topic/Add-In%20Security.md)   
- [DDEX Security](assetId:///44a52a70-5c98-450e-993d-4a3b32f69ba8)
+ [DDEX Security](http://msdn.microsoft.com/44a52a70-5c98-450e-993d-4a3b32f69ba8)

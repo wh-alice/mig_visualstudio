@@ -50,6 +50,6 @@ A custom event declaration must have `AddHandler` or `RemoveHandler` declaration
   
 ## See Also  
  [Event Statement](../Topic/Event%20Statement.md)   
- [AddHandler - delete](assetId:///fc464cf8-582c-48a6-a9c2-185c4c3d5ff8)   
- [RemoveHandler - delete](assetId:///35c17f61-6e22-4b87-b6e1-3ed0c27a88a0)   
+ [AddHandler - delete](http://msdn.microsoft.com/fc464cf8-582c-48a6-a9c2-185c4c3d5ff8)   
+ [RemoveHandler - delete](http://msdn.microsoft.com/35c17f61-6e22-4b87-b6e1-3ed0c27a88a0)   
  [Events](../Topic/Events%20\(Visual%20Basic\).md)

@@ -36,7 +36,7 @@ This sample code is provided for use in the following walkthroughs:
   
 -   [Walkthrough: Creating and Running Unit Tests for Managed Code](../codequality/walkthrough--creating-and-running-unit-tests-for-managed-code.md). This walkthrough leads you through the steps to create and customize unit tests, run them, and examine the test results.  
   
--   [Walkthrough: Run tests and view code coverage](assetId:///d4aab8e2-2140-4975-b4e3-41ef3fa944c8). This walkthrough illustrates  how to view code coverage data, which shows the proportion of your project's code that is being tested.  
+-   [Walkthrough: Run tests and view code coverage](http://msdn.microsoft.com/d4aab8e2-2140-4975-b4e3-41ef3fa944c8). This walkthrough illustrates  how to view code coverage data, which shows the proportion of your project's code that is being tested.  
   
 -   [Walkthrough: using the command-line test utility](../Topic/Walkthrough:%20using%20the%20command-line%20test%20utility.md). In this walkthrough, you use the MSTest.exe command-line utility to run tests and view results.  
   
@@ -144,5 +144,5 @@ namespace BankAccountNS
   
 ## See Also  
  [Walkthrough: Creating and Running Unit Tests for Managed Code](../codequality/walkthrough--creating-and-running-unit-tests-for-managed-code.md)   
- [Walkthrough: Run tests and view code coverage](assetId:///d4aab8e2-2140-4975-b4e3-41ef3fa944c8)   
+ [Walkthrough: Run tests and view code coverage](http://msdn.microsoft.com/d4aab8e2-2140-4975-b4e3-41ef3fa944c8)   
  [Walkthrough: using the command-line test utility](../Topic/Walkthrough:%20using%20the%20command-line%20test%20utility.md)

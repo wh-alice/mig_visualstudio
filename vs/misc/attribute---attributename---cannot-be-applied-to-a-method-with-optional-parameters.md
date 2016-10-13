@@ -49,4 +49,4 @@ The attribute can only be used with methods that use required arguments or no ar
   
 ## See Also  
  \<xref:System.AttributeUsageAttribute>   
- [NOT IN BUILD: Attributes in Visual Basic](assetId:///620bfc0e-4582-4c8b-8432-ebc5c3dccc22)
+ [NOT IN BUILD: Attributes in Visual Basic](http://msdn.microsoft.com/620bfc0e-4582-4c8b-8432-ebc5c3dccc22)

@@ -39,4 +39,4 @@ There was a general failure of the project system to read a .resx file as part o
  This warning will not cause the build to fail. However, the .resx file for which this error is displayed will not be included as an assembly manifest resource in the project.  
   
 ## See Also  
- [File Types and File Extensions in Visual Basic and Visual C#](assetId:///f793852c-da06-4d52-a826-65f635844772)
+ [File Types and File Extensions in Visual Basic and Visual C#](http://msdn.microsoft.com/f793852c-da06-4d52-a826-65f635844772)

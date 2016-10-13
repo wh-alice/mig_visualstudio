@@ -44,5 +44,5 @@ One of the properties of the `My.Computer.Mouse` object was called, but the comp
   
 ## See Also  
  [My.Computer.Mouse Object](../Topic/My.Computer.Mouse%20Object.md)   
- [Exception and Error Handling in Visual Basic](assetId:///3e351e73-cf23-40ab-8b60-05794160529e)   
+ [Exception and Error Handling in Visual Basic](http://msdn.microsoft.com/3e351e73-cf23-40ab-8b60-05794160529e)   
  [Try...Catch...Finally Statement](../Topic/Try...Catch...Finally%20Statement%20\(Visual%20Basic\).md)

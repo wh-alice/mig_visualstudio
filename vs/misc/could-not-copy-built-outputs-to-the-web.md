@@ -47,4 +47,4 @@ The project system could not copy one or more build output files (for example, t
 2.  If a file is locked, then restart the Web server in order to release [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)]'s lock on the affected file(s).  
   
 ## See Also  
- [PDB Files](assetId:///1761c84e-8c2c-4632-9649-b5f99964ed3f)
+ [PDB Files](http://msdn.microsoft.com/1761c84e-8c2c-4632-9649-b5f99964ed3f)

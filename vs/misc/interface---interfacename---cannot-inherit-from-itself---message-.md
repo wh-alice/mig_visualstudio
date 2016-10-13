@@ -52,5 +52,5 @@ An [Inherits Statement](../Topic/Inherits%20Statement.md) in an interface defini
 3.  Examine the cited message for suggestions.  
   
 ## See Also  
- [NOT IN BUILD: Inheritance in Visual Basic](assetId:///e5e6e240-ed31-4657-820c-079b7c79313c)   
+ [NOT IN BUILD: Inheritance in Visual Basic](http://msdn.microsoft.com/e5e6e240-ed31-4657-820c-079b7c79313c)   
  [Interfaces](../Topic/Interfaces%20\(Visual%20Basic\).md)

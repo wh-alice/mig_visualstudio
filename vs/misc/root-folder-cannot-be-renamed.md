@@ -37,8 +37,8 @@ An attempt has been made to rename the root directory. This may be a result of a
 -   Check the file path to make sure that it is correct.  
   
 ## See Also  
- [My.Computer.FileSystem.RenameDirectory Method](assetId:///14700cb3-9d29-46e2-af8d-61970d7e251b)   
- [My.Computer.FileSystem.RenameFile Method](assetId:///00ad6fbd-924e-4a49-af32-d505fe69ea32)   
+ [My.Computer.FileSystem.RenameDirectory Method](http://msdn.microsoft.com/14700cb3-9d29-46e2-af8d-61970d7e251b)   
+ [My.Computer.FileSystem.RenameFile Method](http://msdn.microsoft.com/00ad6fbd-924e-4a49-af32-d505fe69ea32)   
  [Creating, Deleting, and Moving Files and Directories](../Topic/Creating,%20Deleting,%20and%20Moving%20Files%20and%20Directories%20in%20Visual%20Basic.md)   
- [How to: Rename a Directory in Visual Basic](assetId:///780c7afc-a03c-4b01-865a-510fe331b1cc)   
- [How to: Move a Directory in Visual Basic](assetId:///0f26d1ef-c0a0-4445-8eb0-9b7d0490411c)
+ [How to: Rename a Directory in Visual Basic](http://msdn.microsoft.com/780c7afc-a03c-4b01-865a-510fe331b1cc)   
+ [How to: Move a Directory in Visual Basic](http://msdn.microsoft.com/0f26d1ef-c0a0-4445-8eb0-9b7d0490411c)

@@ -56,4 +56,4 @@ class Sample
 ```  
   
 ## See Also  
- [NIB - Strings (C# Programming Guide)](assetId:///1a32b1c9-0d99-468a-9734-e3a47f2e897a)
+ [NIB - Strings (C# Programming Guide)](http://msdn.microsoft.com/1a32b1c9-0d99-468a-9734-e3a47f2e897a)

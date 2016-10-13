@@ -105,4 +105,4 @@ foreach(SomeType x in SomeDictionary.Values) { }
   
 ## See Also  
  [Attributes](../Topic/Attributes1.md)   
- [NIB: Events and Delegates](assetId:///d98fd58b-fa4f-4598-8378-addf4355a115)
+ [NIB: Events and Delegates](http://msdn.microsoft.com/d98fd58b-fa4f-4598-8378-addf4355a115)

@@ -38,4 +38,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Initialization Order of Bases and Members
-This content has moved to [(NOTINBUILD) Initializing Bases and Members](assetId:///2f71377e-2b6b-49da-9a26-18e9b40226a1).
+This content has moved to [(NOTINBUILD) Initializing Bases and Members](http://msdn.microsoft.com/2f71377e-2b6b-49da-9a26-18e9b40226a1).

@@ -51,7 +51,7 @@ This section describes how to set up [!INCLUDE[vsprvs](../codequality/includes/v
  [Prerequistes for Remote Debugging Web Applications](../debugger/prerequistes-for-remote-debugging-web-applications.md)  
  Lists prerequisites for debugging a Web application on a remote server.  
   
- [How to: Configure IIS on Windows Server 2003](assetId:///23d557c5-ffcb-4fb2-be7c-5901d5f72ea1)  
+ [How to: Configure IIS on Windows Server 2003](http://msdn.microsoft.com/23d557c5-ffcb-4fb2-be7c-5901d5f72ea1)  
  Discusses special configuration steps needed for debugging system requirements for debugging [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] on [!INCLUDE[WinXPSvr](../debugger/includes/winxpsvr_md.md)].  
   
  [How to: Debug a Self-Hosted WCF Service](../debugger/how-to--debug-a-self-hosted-wcf-service.md)  

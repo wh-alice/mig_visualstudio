@@ -40,7 +40,7 @@ The add and remove methods for an event shall each take one parameter whose type
   
  The add and remove methods for an event shall each take one parameter whose type defines the type of the event and that shall be derived from System.Delegate.  
   
- For more information CLS compliance checking, see [CLS Compliant Assemblies](assetId:///3320b57e-ea55-4697-a17d-f509a36a3c93).  
+ For more information CLS compliance checking, see [CLS Compliant Assemblies](http://msdn.microsoft.com/3320b57e-ea55-4697-a17d-f509a36a3c93).  
   
  The following function declaration (using MSIL assembly language) shows what could cause CLS03202:  
   

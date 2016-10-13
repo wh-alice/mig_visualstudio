@@ -76,4 +76,4 @@ End Sub
   
 ## See Also  
  [Relaxed Delegate Conversion](../Topic/Relaxed%20Delegate%20Conversion%20\(Visual%20Basic\).md)   
- [NOT IN BUILD: Delegates and the AddressOf Operator](assetId:///7b2ed932-8598-4355-b2f7-5cedb23ee86f)
+ [NOT IN BUILD: Delegates and the AddressOf Operator](http://msdn.microsoft.com/7b2ed932-8598-4355-b2f7-5cedb23ee86f)

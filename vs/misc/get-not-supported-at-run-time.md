@@ -41,4 +41,4 @@ You tried to read a property at run time that is only accessible at design time.
 2.  Remove the reference to the property.  
   
 ## See Also  
- [NIB How to: Modify Project Properties and Configuration Settings](assetId:///e7184bc5-2f2b-4b4f-aa9a-3ecfcbc48b67)
+ [NIB How to: Modify Project Properties and Configuration Settings](http://msdn.microsoft.com/e7184bc5-2f2b-4b4f-aa9a-3ecfcbc48b67)

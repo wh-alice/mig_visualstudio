@@ -40,4 +40,4 @@ An argument has a value that is equal to or less than zero.
   
 ## See Also  
  [Passing Arguments by Value and by Reference](../Topic/Passing%20Arguments%20by%20Value%20and%20by%20Reference%20\(Visual%20Basic\).md)   
- [Parameter Passing Mechanism for Visual Basic 6.0 Users](assetId:///0fa2b0dc-aa1c-4797-bbd6-aa13c611cab2)
+ [Parameter Passing Mechanism for Visual Basic 6.0 Users](http://msdn.microsoft.com/0fa2b0dc-aa1c-4797-bbd6-aa13c611cab2)

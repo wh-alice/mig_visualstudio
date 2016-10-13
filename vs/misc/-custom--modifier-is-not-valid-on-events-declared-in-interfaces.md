@@ -51,7 +51,7 @@ A custom event cannot be declared in an interface because a custom event must pr
  [!code[VbVbalrEventError#3](../misc/codesnippet/VisualBasic/-custom--modifier-is-not-valid-on-events-declared-in-interfaces_1.vb)]  
   
 ## See Also  
- [Custom - delete](assetId:///dc62be07-c896-4866-a533-982a661d143f)   
+ [Custom - delete](http://msdn.microsoft.com/dc62be07-c896-4866-a533-982a661d143f)   
  [Event Statement](../Topic/Event%20Statement.md)   
  [Delegate Statement](../Topic/Delegate%20Statement.md)   
  [Class Statement](../Topic/Class%20Statement%20\(Visual%20Basic\).md)   

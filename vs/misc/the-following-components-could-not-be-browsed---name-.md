@@ -40,5 +40,5 @@ This error generally occurs when you attempt to add a file type that does not su
 1.  Remove the unsupported file type from the Selected components list and select a different file.  
   
 ## See Also  
- [Object Browser](assetId:///f89acfc5-1152-413d-9f56-3dc16e3f0470)   
- [Edit Custom Component Set Dialog Box](assetId:///dc995bd7-afbf-4389-ba1c-f377b677ded7)
+ [Object Browser](http://msdn.microsoft.com/f89acfc5-1152-413d-9f56-3dc16e3f0470)   
+ [Edit Custom Component Set Dialog Box](http://msdn.microsoft.com/dc995bd7-afbf-4389-ba1c-f377b677ded7)

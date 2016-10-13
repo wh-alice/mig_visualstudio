@@ -47,5 +47,5 @@ The **Add Correlation Initializers** dialog box is used in [!INCLUDE[wfd1](../wo
  The **Receive** activity designer can be dragged from the **Toolbox** and dropped on to the [!INCLUDE[wfd2](../workflowdesigner/includes/wfd2_md.md)] surface wherever activities are usually placed. This creates a \<xref:System.ServiceModel.Activities.Receive> activity with a default \<xref:System.Activities.Activity.DisplayName*> of Receive. Select the **Receive** activity designer and click the ellipsis button next to the (Collection) text for the **CorrelationInitializers** property in the property grid for the **Add Correlation Initializers** dialog box to appear.  
   
 ## See Also  
- [Add Correlation Dialog Box](assetId:///9e41a149-e8ab-41b1-8886-ea06a63041b6)   
+ [Add Correlation Dialog Box](http://msdn.microsoft.com/9e41a149-e8ab-41b1-8886-ea06a63041b6)   
  [Initialize Correlation Dialog Box](../workflowdesigner/initialize-correlation-dialog-box.md)

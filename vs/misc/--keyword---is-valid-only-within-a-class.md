@@ -46,6 +46,6 @@ A keyword related to classes, such as `Me` or `MyClass`, is used outside of a cl
 -   If the code using the keyword does not apply to classes, remove the invalid keyword.  
   
 ## See Also  
- [Me](assetId:///a65973c7-cf06-4547-9b25-9fba885525c2)   
- [MyClass - delete](assetId:///5db36f9b-f796-4b6a-ba34-cac1fde6eb62)   
+ [Me](http://msdn.microsoft.com/a65973c7-cf06-4547-9b25-9fba885525c2)   
+ [MyClass - delete](http://msdn.microsoft.com/5db36f9b-f796-4b6a-ba34-cac1fde6eb62)   
  [Class Statement](../Topic/Class%20Statement%20\(Visual%20Basic\).md)

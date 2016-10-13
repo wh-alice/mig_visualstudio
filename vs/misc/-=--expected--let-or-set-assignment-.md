@@ -33,6 +33,6 @@ A `Let` or `Set` assignment statement does not include an equal sign (`=`).
 -   Use a standard assignment statement, including an equal sign (`=`) and a value to be assigned to the variable or property.  
   
 ## See Also  
- [Programming Element Support Changes Summary](assetId:///0483590a-6309-449c-a2fa-effa26a03b95)   
+ [Programming Element Support Changes Summary](http://msdn.microsoft.com/0483590a-6309-449c-a2fa-effa26a03b95)   
  [Value Types and Reference Types](../Topic/Value%20Types%20and%20Reference%20Types.md)   
- [NotInBuild:Assignment Statements](assetId:///eb4f91e9-fbbf-45ca-b21d-e8ae069de4f9)
+ [NotInBuild:Assignment Statements](http://msdn.microsoft.com/eb4f91e9-fbbf-45ca-b21d-e8ae069de4f9)

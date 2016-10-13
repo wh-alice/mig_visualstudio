@@ -43,4 +43,4 @@ Scanning the hierarchy for .resx files failed.
      This error will cause a build to fail.  
   
 ## See Also  
- [File Types and File Extensions in Visual Basic and Visual C#](assetId:///f793852c-da06-4d52-a826-65f635844772)
+ [File Types and File Extensions in Visual Basic and Visual C#](http://msdn.microsoft.com/f793852c-da06-4d52-a826-65f635844772)

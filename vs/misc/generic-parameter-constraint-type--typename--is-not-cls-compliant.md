@@ -65,4 +65,4 @@ A generic type is marked as `<CLSCompliant(True)>`, but a constraint on one of i
   
 ## See Also  
  [Generic Types in Visual Basic](../Topic/Generic%20Types%20in%20Visual%20Basic%20\(Visual%20Basic\).md)   
- [\<PAVE OVER> Writing CLS-Compliant Code](assetId:///4c705105-69a2-4e5e-b24e-0633bc32c7f3)
+ [\<PAVE OVER> Writing CLS-Compliant Code](http://msdn.microsoft.com/4c705105-69a2-4e5e-b24e-0633bc32c7f3)

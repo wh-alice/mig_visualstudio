@@ -44,4 +44,4 @@ A procedure or property declaration attempts to override an inherited element of
 -   Remove the `Shared` keyword from the inherited element, or remove the overriding declaration.  
   
 ## See Also  
- [NOT IN BUILD: Overriding Properties and Methods](assetId:///2167e8f5-1225-4b13-9ebd-02591ba90213)
+ [NOT IN BUILD: Overriding Properties and Methods](http://msdn.microsoft.com/2167e8f5-1225-4b13-9ebd-02591ba90213)

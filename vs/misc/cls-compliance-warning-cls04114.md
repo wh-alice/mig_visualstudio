@@ -40,7 +40,7 @@ Attributes shall be of type 'System::Attribute', or inherit from it
   
  In order to be CLS compliant, a custom attribute must inherit from System::Attribute.  An attribute that did not inherit from System::Attribute was applied to a delegate.  
   
- For more information Common Language Subset (CLS) compliance checking, see [CLS Compliant Assemblies](assetId:///3320b57e-ea55-4697-a17d-f509a36a3c93).  
+ For more information Common Language Subset (CLS) compliance checking, see [CLS Compliant Assemblies](http://msdn.microsoft.com/3320b57e-ea55-4697-a17d-f509a36a3c93).  
   
  The following declaration (using MSIL assembly language) shows what could cause CLS04100:  
   

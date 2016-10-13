@@ -48,10 +48,10 @@ What is code quality? Correctness, maintainability, and even elegance are all in
 |[Measuring Complexity and Maintainability of Managed Code](../codequality/measuring-complexity-and-maintainability-of-managed-code.md)|Code metrics is a set of software measures that provide developers better insight into the code they are developing. The metrics include a maintainability index for functions and classes, cyclomatic complexity of functions, the inheritance depth of classes, and the amount of coupling among classes.|  
 |[Finding Duplicate Code by using Code Clone Detection](../codequality/finding-duplicate-code-by-using-code-clone-detection.md)|The code clone tool searches for duplicate or highly similar code in Visual C# and Visual Basic projects throughout your Visual Studio solution. You can often refactor the code to eliminate the duplication for a more maintainable solution.|  
 |[PreEmptive Analytics for Team Foundation Server](http://msdn.microsoft.com/library/hh973124.aspx)|PreEmptive Analytics for TFS CE helps you to integrate feedback-driven development processes into your development workflow. Your applications automatically send back exception report data to the PreEmptive Analytics service as errors occur during their execution. The service then creates or updates work items in Microsoft Team Foundation Server based on rules and thresholds you define.|  
-|[PreEmptive Dotfuscator and Analytics CE](assetId:///25d195d4-9f76-4dcc-9fbb-eeb9bdca9a3f)|PreEmptive Dotfuscator is a.NET obfuscator and compactor that helps protect programs against reverse engineering while making them smaller and more efficient.|  
+|[PreEmptive Dotfuscator and Analytics CE](http://msdn.microsoft.com/25d195d4-9f76-4dcc-9fbb-eeb9bdca9a3f)|PreEmptive Dotfuscator is a.NET obfuscator and compactor that helps protect programs against reverse engineering while making them smaller and more efficient.|  
   
 ## Related Scenarios  
- [Adopting Visual Studio and Team Foundation Server for Application Lifecycle Management](assetId:///7ae9182f-4762-4bd3-b238-39ce987932e5)  
+ [Adopting Visual Studio and Team Foundation Server for Application Lifecycle Management](http://msdn.microsoft.com/7ae9182f-4762-4bd3-b238-39ce987932e5)  
  If you are unfamiliar with Visual Studio Team Foundation, you can learn more about how you can use it in a team development environment to improve productivity and reduce risks that are associated with application development.  
   
  [Analyzing and Modeling Architecture](../modeling/analyze-and-model-your-architecture.md)  

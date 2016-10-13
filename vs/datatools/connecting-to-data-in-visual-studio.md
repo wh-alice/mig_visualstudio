@@ -64,7 +64,7 @@ translation.priority.ht:
  [Connecting to a Data Source](../Topic/Connecting%20to%20a%20Data%20Source%20in%20ADO.NET.md)  
  Describes the [!INCLUDE[vstecado](../datatools/includes/vstecado_md.md)] connection object and how to use it to connect to a data source.  
   
- [ADO.NET Entity Data Model  Tools](assetId:///91076853-0881-421b-837a-f582f36be527)  
+ [ADO.NET Entity Data Model  Tools](http://msdn.microsoft.com/91076853-0881-421b-837a-f582f36be527)  
  Describes how to use the Entity Data Model Tools, which are provided by the Entity Framework, to create applications.  
   
  [Data Binding (Silverlight)](http://go.microsoft.com/fwlink/?LinkId=166342)  

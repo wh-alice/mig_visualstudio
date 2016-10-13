@@ -272,4 +272,4 @@ The [LINQ to SQL Tools in Visual Studio](../datatools/linq-to-sql-tools-in-visua
  [LINQ to SQL Queries](../Topic/LINQ%20to%20SQL%20Queries.md)   
  [DataContext Methods (O/R Designer)](../datatools/datacontext-methods--o-r-designer-.md)   
  [How to: Assign stored procedures to perform updates, inserts, and deletes (O/R Designer)](../datatools/how-to--assign-stored-procedures-to-perform-updates--inserts--and-deletes--o-r-designer-.md)   
- [PAVE What's New for Data Application Development in Visual Studio 2012](assetId:///3d50d68f-5f44-4915-842f-6d42fce793f1)
+ [PAVE What's New for Data Application Development in Visual Studio 2012](http://msdn.microsoft.com/3d50d68f-5f44-4915-842f-6d42fce793f1)

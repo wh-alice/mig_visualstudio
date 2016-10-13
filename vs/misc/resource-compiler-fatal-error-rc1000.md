@@ -38,4 +38,4 @@ translation.priority.mt:
 # Resource Compiler Fatal Error RC1000
 UNKNOWN FATAL ERROR  
   
- Note the circumstances of the error and try to isolate the problem and create a reproducible test case before contacting Microsoft Product Support Services. For more information, see [Getting Help from Microsoft Product Support Services (Microsoft Document Explorer Help)](assetId:///74c7b279-eba3-43ea-8d82-398d8a427c5b).
+ Note the circumstances of the error and try to isolate the problem and create a reproducible test case before contacting Microsoft Product Support Services. For more information, see [Getting Help from Microsoft Product Support Services (Microsoft Document Explorer Help)](http://msdn.microsoft.com/74c7b279-eba3-43ea-8d82-398d8a427c5b).

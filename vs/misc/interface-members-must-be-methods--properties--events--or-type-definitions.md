@@ -44,4 +44,4 @@ Only nested types, methods, properties, and events may be members of an interfac
 -   Make sure the item is a method, property, event, or a nested type, such as an enumeration.  
   
 ## See Also  
- [NOT IN BUILD: Interface Definition](assetId:///7840a52c-9c38-42c4-adbc-e2c02e9dc204)
+ [NOT IN BUILD: Interface Definition](http://msdn.microsoft.com/7840a52c-9c38-42c4-adbc-e2c02e9dc204)

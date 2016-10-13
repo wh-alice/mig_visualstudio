@@ -39,4 +39,4 @@ The text you specified was not found.
 1.  Check that the specified text is spelled correctly.  
   
 ## See Also  
- [How to: Search Interactively](assetId:///e9fdbfab-bd59-401a-92d3-7ce1652b243c)
+ [How to: Search Interactively](http://msdn.microsoft.com/e9fdbfab-bd59-401a-92d3-7ce1652b243c)

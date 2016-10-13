@@ -72,7 +72,7 @@ translation.priority.ht:
  [Microsoft.VisualStudio.XmlEditor](http://go.microsoft.com/fwlink/?LinkID=165699)  
  Exposes the [XML Editor](http://go.microsoft.com/fwlink/?LinkId=228249) parse tree through [System.Xml.Linq](http://go.microsoft.com/fwlink/?LinkId=228250) for any XML documents.  
   
- [XML Standards Reference](assetId:///79c78508-c9d0-423a-a00f-672e855de401)  
+ [XML Standards Reference](http://msdn.microsoft.com/79c78508-c9d0-423a-a00f-672e855de401)  
  Provides information about XML technologies, including XML, Document Type Definition (DTD), XML Schema definition language (XSD), and XSLT.  
   
  \<xref:System.Xml?displayProperty=fullName>  
@@ -85,10 +85,10 @@ translation.priority.ht:
  [XML Document Object Model (DOM)](../Topic/XML%20Document%20Object%20Model%20\(DOM\).md)  
  Describes how the \<xref:System.Xml.XmlDocument> and its associated classes comply with the W3C Document Object Model (Core) Level 1 and Level 2 namespace support specifications.  
   
- [Reading XML with the XmlReader](assetId:///3029834c-a27e-4331-b7aa-711924062182)  
+ [Reading XML with the XmlReader](http://msdn.microsoft.com/3029834c-a27e-4331-b7aa-711924062182)  
  Describes how the \<xref:System.Xml.XmlReader> provides noncached, forward only, read-only access to XML data over an XML stream.  
   
- [Writing XML with the XmlWriter](assetId:///ea41f72c-e1d3-4e0a-ab0f-f0eb1c27ab86)  
+ [Writing XML with the XmlWriter](http://msdn.microsoft.com/ea41f72c-e1d3-4e0a-ab0f-f0eb1c27ab86)  
  Describes how the \<xref:System.Xml.XmlWriter> provides noncached, forward only, way of generating XML streams and helps you build XML documents that comply with the W3C standard.  
   
  [XSLT Transformations](../Topic/XSLT%20Transformations.md)  

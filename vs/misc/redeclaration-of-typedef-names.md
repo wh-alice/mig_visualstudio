@@ -35,4 +35,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Redeclaration of typedef Names
-This content has moved to [(NOTINBUILD)typedef Specifier](assetId:///cc96cf26-ba93-4179-951e-695d1f5fdcf1).
+This content has moved to [(NOTINBUILD)typedef Specifier](http://msdn.microsoft.com/cc96cf26-ba93-4179-951e-695d1f5fdcf1).

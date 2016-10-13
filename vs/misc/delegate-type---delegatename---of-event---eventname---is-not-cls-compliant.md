@@ -52,4 +52,4 @@ An [Event Statement](../Topic/Event%20Statement.md) uses a delegate to specify i
 -   If you do not have control over the definition of the delegate or cannot mark it as compliant, remove the \<xref:System.CLSCompliantAttribute> from the `Event` statement or mark it as `<CLSCompliant(False)>`.  
   
 ## See Also  
- [\<PAVE OVER> Writing CLS-Compliant Code](assetId:///4c705105-69a2-4e5e-b24e-0633bc32c7f3)
+ [\<PAVE OVER> Writing CLS-Compliant Code](http://msdn.microsoft.com/4c705105-69a2-4e5e-b24e-0633bc32c7f3)

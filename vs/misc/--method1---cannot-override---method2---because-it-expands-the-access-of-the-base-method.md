@@ -44,6 +44,6 @@ A procedure specifies `Overrides` but declares an accessibility less restrictive
 -   Remove the `Overrides` keyword, or change the accessibility to be at least as restrictive as that of the base class method.  
   
 ## See Also  
- [NOT IN BUILD: Overriding Properties and Methods](assetId:///2167e8f5-1225-4b13-9ebd-02591ba90213)   
+ [NOT IN BUILD: Overriding Properties and Methods](http://msdn.microsoft.com/2167e8f5-1225-4b13-9ebd-02591ba90213)   
  [Access Levels in Visual Basic](../Topic/Access%20Levels%20in%20Visual%20Basic.md)   
  [Shadowing in Visual Basic](../Topic/Shadowing%20in%20Visual%20Basic.md)

@@ -37,7 +37,7 @@ translation.priority.mt:
 The **Configure Service Reference** dialog box enables you to configure the behavior of [!INCLUDE[vsindigo](../datatools/includes/vsindigo_md.md)] services.  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose Import and Export Settings on the Tools menu. For more information, see [Customizing Development Settings in Visual Studio](assetId:///22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose Import and Export Settings on the Tools menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
  To access the **Configure Service Reference** dialog box, right-click a service reference in **Solution Explorer** and choose **Configure Service Reference**. You can also access the dialog box by clicking the **Advanced** button in the **Add Service Reference Dialog Box**.  
   
@@ -96,7 +96,7 @@ The **Configure Service Reference** dialog box enables you to configure the beha
  Contains a list of referenced assemblies for the project or Web site. When **Reuse types in specified referenced assemblies** is selected, individual assemblies can be selected or cleared.  
   
  **Add Web Reference**  
- Displays the [NIB: Add Web Reference Dialog Box](assetId:///bdf05776-c591-40af-bfd7-e1e2aa1e87b5).  
+ Displays the [NIB: Add Web Reference Dialog Box](http://msdn.microsoft.com/bdf05776-c591-40af-bfd7-e1e2aa1e87b5).  
   
 > [!NOTE]
 >  This option should be used only for projects that target version 2.0 of the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)].  

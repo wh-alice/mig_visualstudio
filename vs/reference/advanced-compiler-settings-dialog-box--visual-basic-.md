@@ -42,7 +42,7 @@ Use the **AdvancedCompiler Settings** dialog box of the **Project Designer** to 
   
 2.  On the **Project** menu, click **Properties**. When the **Project Designer** appears, click the **Compile** tab.  
   
-3.  On the [Compile Page, Project Designer (Visual Basic)](../reference/compile-page--project-designer--visual-basic-.md), select the **Configuration** and **Platform**. In simplified build configurations, the **Configuration** and **Platform** lists are not displayed. For more information, see [Debug and Release Project Configurations](assetId:///0440b300-0614-4511-901a-105b771b236e).  
+3.  On the [Compile Page, Project Designer (Visual Basic)](../reference/compile-page--project-designer--visual-basic-.md), select the **Configuration** and **Platform**. In simplified build configurations, the **Configuration** and **Platform** lists are not displayed. For more information, see [Debug and Release Project Configurations](http://msdn.microsoft.com/0440b300-0614-4511-901a-105b771b236e).  
   
 4.  Click **Advanced Compile Options**.  
   

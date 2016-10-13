@@ -60,6 +60,6 @@ This error generally occurs when you attempt to add an item for which the Toolbo
 2.  Drag or paste selected text from a Visual Studio editor onto the Toolbox.  
   
 ## See Also  
- [Choose Toolbox Items Dialog Box (Visual Studio)](assetId:///bd07835f-18a8-433e-bccc-7141f65263bb)   
- [How to: Manipulate Toolbox Tabs](assetId:///21285050-cadd-455a-b1f5-a2289a89c4db)   
+ [Choose Toolbox Items Dialog Box (Visual Studio)](http://msdn.microsoft.com/bd07835f-18a8-433e-bccc-7141f65263bb)   
+ [How to: Manipulate Toolbox Tabs](http://msdn.microsoft.com/21285050-cadd-455a-b1f5-a2289a89c4db)   
  [Toolbox](../reference/toolbox.md)

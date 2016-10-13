@@ -48,7 +48,7 @@ The C/C++ Code Analysis tool provides information to developers about possible d
  To make it natural for developers to use the analysis tool, it is fully integrated within the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] IDE. During the build process, any warnings generated for the source code appear in the Error List. You can navigate to source code that caused the warning, and you can view additional information about the cause and possible solutions of the issue.  
   
 ## #pragma Support  
- Developers can use the `#pragma` directive to treat warnings as errors; enable or disable warnings, and suppress warnings for individual lines of code. For more information, see [How to: Enable and Disable Code Analysis for Specific C/C++ Warnings](assetId:///910b8518-71f1-4b2e-b012-70647795642a).  
+ Developers can use the `#pragma` directive to treat warnings as errors; enable or disable warnings, and suppress warnings for individual lines of code. For more information, see [How to: Enable and Disable Code Analysis for Specific C/C++ Warnings](http://msdn.microsoft.com/910b8518-71f1-4b2e-b012-70647795642a).  
   
 ## Annotation Support  
  Annotations improve the accuracy of the code analysis. Annotations provide additional information about pre- and post- conditions on function parameters and return types. For more information, see [How to: Specify Additional Code Information by Using __analysis_assume](../codequality/how-to--specify-additional-code-information-by-using-__analysis_assume.md)  

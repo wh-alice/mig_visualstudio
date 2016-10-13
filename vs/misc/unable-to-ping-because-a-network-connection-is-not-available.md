@@ -39,7 +39,7 @@ The operation cannot be performed because no network connection is available.
 -   Connect to the network and reattempt the operation.  
   
 ## See Also  
- [My.Computer.Network.Ping Method](assetId:///5f1eff72-3882-44a4-8234-ac21daac464c)   
- [My.Computer.Network.IsAvailable Property](assetId:///29f9361e-8c62-4d2e-a4f0-44b2dc43b9aa)   
- [Network Operations in the .NET Framework with Visual Basic](assetId:///c5379021-44ef-4d6a-acf5-e951fdcab6b2)   
+ [My.Computer.Network.Ping Method](http://msdn.microsoft.com/5f1eff72-3882-44a4-8234-ac21daac464c)   
+ [My.Computer.Network.IsAvailable Property](http://msdn.microsoft.com/29f9361e-8c62-4d2e-a4f0-44b2dc43b9aa)   
+ [Network Operations in the .NET Framework with Visual Basic](http://msdn.microsoft.com/c5379021-44ef-4d6a-acf5-e951fdcab6b2)   
  [My.Computer.Network Object](../Topic/My.Computer.Network%20Object.md)

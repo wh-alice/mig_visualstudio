@@ -142,7 +142,7 @@ This walkthrough illustrates how a managed VSPackage can use reflection to autom
   
     2.  In the **Add New Item** dialog box, change the name to `Control1.vb` for [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] or `Control1.cs` for [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)].  
   
-         For more information about how to add new items to a project, see [NIB:How to: Add New Project Items](assetId:///63d3e16b-de6e-4bb5-a0e3-ecec762201ce).  
+         For more information about how to add new items to a project, see [NIB:How to: Add New Project Items](http://msdn.microsoft.com/63d3e16b-de6e-4bb5-a0e3-ecec762201ce).  
   
      The new control opens in Design view.  
   

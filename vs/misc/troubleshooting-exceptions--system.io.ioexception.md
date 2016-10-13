@@ -56,4 +56,4 @@ A \<xref:System.IO.IOException> is thrown when an I/O error, such as failing to 
 ## See Also  
  \<xref:System.IO.IOException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)   
- [NOTINBUILD How to: Create CLR Console Applications](assetId:///b8af4197-e65f-4b17-b18e-b9e92965d026)
+ [NOTINBUILD How to: Create CLR Console Applications](http://msdn.microsoft.com/b8af4197-e65f-4b17-b18e-b9e92965d026)

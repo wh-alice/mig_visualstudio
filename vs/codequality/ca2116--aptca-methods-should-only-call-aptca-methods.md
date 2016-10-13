@@ -59,7 +59,7 @@ translation.priority.ht:
  A partially trusted caller `X` can call method `M1`, causing `M1` to call `M2`. Because `M2` does not have the APTCA attribute, its immediate caller (`M1`) must satisfy a link demand for full trust; `M1` has full trust and therefore satisfies this check. The security risk is because `X` does not participate in satisfying the link demand that protects `M2` from untrusted callers. Therefore, methods with the APTCA attribute must not call methods that do not have the attribute.  
   
 ## How to Fix Violations  
- If the APCTA attribute is required, use a demand to protect the method that calls into the full trust assembly. The exact permissions you demand will depend on the functionality exposed by your method. If it is possible, protect the method with a demand for full trust to ensure that the underlying functionality is not exposed to partially trusted callers. If this is not possible, select a set of permissions that effectively protects the exposed functionality. For more information about demands, see [Demands](assetId:///e5283e28-2366-4519-b27d-ef5c1ddc1f48).  
+ If the APCTA attribute is required, use a demand to protect the method that calls into the full trust assembly. The exact permissions you demand will depend on the functionality exposed by your method. If it is possible, protect the method with a demand for full trust to ensure that the underlying functionality is not exposed to partially trusted callers. If this is not possible, select a set of permissions that effectively protects the exposed functionality. For more information about demands, see [Demands](http://msdn.microsoft.com/e5283e28-2366-4519-b27d-ef5c1ddc1f48).  
   
 ## When to Suppress Warnings  
  To safely suppress a warning from this rule, you must ensure that the functionality exposed by your method does not directly or indirectly allow callers to access sensitive information, operations, or resources that can be used in a destructive manner.  
@@ -88,8 +88,8 @@ translation.priority.ht:
   
 ## See Also  
  [Secure Coding Guidelines](../Topic/Secure%20Coding%20Guidelines.md)   
- [.NET Framework Assemblies Callable by Partially Trusted Code](assetId:///a417fcd4-d3ca-4884-a308-3a1a080eac8d)   
+ [.NET Framework Assemblies Callable by Partially Trusted Code](http://msdn.microsoft.com/a417fcd4-d3ca-4884-a308-3a1a080eac8d)   
  [Using Libraries from Partially Trusted Code](../Topic/Using%20Libraries%20from%20Partially%20Trusted%20Code.md)   
- [Demands](assetId:///e5283e28-2366-4519-b27d-ef5c1ddc1f48)   
+ [Demands](http://msdn.microsoft.com/e5283e28-2366-4519-b27d-ef5c1ddc1f48)   
  [Link Demands](../Topic/Link%20Demands.md)   
  [Data and Modeling](../Topic/Data%20and%20Modeling%20in%20the%20.NET%20Framework.md)

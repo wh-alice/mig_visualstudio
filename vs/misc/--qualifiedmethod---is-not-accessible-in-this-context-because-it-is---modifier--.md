@@ -44,7 +44,7 @@ You have attempted to access a method that is not accessible in this context due
 -   Remove the modifier.  
   
 ## See Also  
- [NOT IN BUILD: Considerations for Choosing Access Levels for Methods](assetId:///8b696461-2191-4cea-bb64-5fa3449da2ff)   
+ [NOT IN BUILD: Considerations for Choosing Access Levels for Methods](http://msdn.microsoft.com/8b696461-2191-4cea-bb64-5fa3449da2ff)   
  [Private](../Topic/Private%20\(Visual%20Basic\).md)   
  [Protected](../Topic/Protected%20\(Visual%20Basic\).md)   
  [Friend](../Topic/Friend%20\(Visual%20Basic\).md)

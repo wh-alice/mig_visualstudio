@@ -46,4 +46,4 @@ The `System.STAThreadAttribute` and `System.MTAThreadAttribute` attributes are m
 ## See Also  
  \<xref:System.STAThreadAttribute>   
  \<xref:System.MTAThreadAttribute>   
- [NOT IN BUILD: Attributes in Visual Basic](assetId:///620bfc0e-4582-4c8b-8432-ebc5c3dccc22)
+ [NOT IN BUILD: Attributes in Visual Basic](http://msdn.microsoft.com/620bfc0e-4582-4c8b-8432-ebc5c3dccc22)

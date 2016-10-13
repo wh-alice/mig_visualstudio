@@ -39,5 +39,5 @@ This error generally occurs when no items have been selected in Solution Explore
 1.  Select only one item in Solution Explorer.  
   
 ## See Also  
- [Solution Explorer](assetId:///ca0ad8e7-eda8-40d4-a76e-2a6864b16e00)   
+ [Solution Explorer](http://msdn.microsoft.com/ca0ad8e7-eda8-40d4-a76e-2a6864b16e00)   
  [Solutions and Projects](../ide/solutions-and-projects-in-visual-studio.md)

@@ -45,4 +45,4 @@ An attempt was made to use a class that is not derived from `System.Attribute`.
   
 ## See Also  
  \<xref:System.AttributeUsageAttribute>   
- [NOT IN BUILD: Custom Attributes in Visual Basic](assetId:///d72d8a5c-8f64-4614-b15b-cad66845d047)
+ [NOT IN BUILD: Custom Attributes in Visual Basic](http://msdn.microsoft.com/d72d8a5c-8f64-4614-b15b-cad66845d047)

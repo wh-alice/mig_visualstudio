@@ -199,7 +199,7 @@ int x = Convert.ToInt32(TestContext.DataRow["FirstNumber"]);
  \<xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext?displayProperty=fullName>   
  \<xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.DataRow*?displayProperty=fullName>   
  \<xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert?displayProperty=fullName>   
- [How to: Create and Run a Unit Test](assetId:///5e0f43cf-5e51-48e2-9c98-0eb9324bdc48)   
+ [How to: Create and Run a Unit Test](http://msdn.microsoft.com/5e0f43cf-5e51-48e2-9c98-0eb9324bdc48)   
  [Unit Test Your Code](../codequality/unit-test-your-code.md)   
  [Run unit tests with Test Explorer](../codequality/run-unit-tests-with-test-explorer.md)   
  [Writing Unit Tests for the .NET Framework with the Microsoft Unit Test Framework for Managed Code](../codequality/writing-unit-tests-for-the-.net-framework-with-the-microsoft-unit-test-framework-for-managed-code.md)

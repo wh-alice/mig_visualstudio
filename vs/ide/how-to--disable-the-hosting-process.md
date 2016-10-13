@@ -57,4 +57,4 @@ Calls to certain APIs can be affected when the hosting process is enabled. In th
 ## See Also  
  [Debugging and the Hosting Process](../debugger/debugging-and-the-hosting-process.md)   
  [Hosting Process (vshost.exe)](../ide/hosting-process--vshost.exe-.md)   
- [Builds During Application Development](assetId:///c9497d62-3b7b-4449-88e8-cf27acc9efe6)
+ [Builds During Application Development](http://msdn.microsoft.com/c9497d62-3b7b-4449-88e8-cf27acc9efe6)

@@ -40,5 +40,5 @@ The specified `For...Next` control values have different types, and therefore ar
   
 ## See Also  
  [Navigating through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md)   
- [Debugging Changes in Visual Basic .NET](assetId:///0e82bb0d-8bb2-4fe8-87d1-75f24c7cfd75)   
+ [Debugging Changes in Visual Basic .NET](http://msdn.microsoft.com/0e82bb0d-8bb2-4fe8-87d1-75f24c7cfd75)   
  [For...Next Statement](../Topic/For...Next%20Statement%20\(Visual%20Basic\).md)

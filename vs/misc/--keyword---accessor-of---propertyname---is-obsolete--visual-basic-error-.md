@@ -48,6 +48,6 @@ A statement attempts to read or write a property for which the corresponding pro
 2.  Avoid accessing the property in the way (reading or writing) that generated this message.  
   
 ## See Also  
- [NOT IN BUILD: Attributes Used in Visual Basic](assetId:///22231318-8a40-49af-9245-e0aab723563b)   
- [NOT IN BUILD: Application of Attributes](assetId:///2b1703ed-4437-49b3-bc0b-568094324f47)   
+ [NOT IN BUILD: Attributes Used in Visual Basic](http://msdn.microsoft.com/22231318-8a40-49af-9245-e0aab723563b)   
+ [NOT IN BUILD: Application of Attributes](http://msdn.microsoft.com/2b1703ed-4437-49b3-bc0b-568094324f47)   
  [Property Procedures](../Topic/Property%20Procedures%20\(Visual%20Basic\).md)

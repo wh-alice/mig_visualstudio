@@ -44,4 +44,4 @@ You have attempted to override a method with another method that differs by its 
 -   Check the return types of the two methods and change them as necessary to match.  
   
 ## See Also  
- [NOT IN BUILD: Overriding Properties and Methods](assetId:///2167e8f5-1225-4b13-9ebd-02591ba90213)
+ [NOT IN BUILD: Overriding Properties and Methods](http://msdn.microsoft.com/2167e8f5-1225-4b13-9ebd-02591ba90213)

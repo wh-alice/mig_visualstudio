@@ -47,4 +47,4 @@ A `Const` statement does not properly initialize a constant, or an array declara
   
 ## See Also  
  [Const Statement](../Topic/Const%20Statement%20\(Visual%20Basic\).md)   
- [NOTINBUILD  an Array Variable](assetId:///c2da78bd-6928-46ba-805f-44f819dfaf93)
+ [NOTINBUILD  an Array Variable](http://msdn.microsoft.com/c2da78bd-6928-46ba-805f-44f819dfaf93)

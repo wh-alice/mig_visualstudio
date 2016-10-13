@@ -44,5 +44,5 @@ You declared a constant without assigning it a value.
 -   Assign a value to the constant.  
   
 ## See Also  
- [NOTINBUILD Constants Overview](assetId:///5c7f57fb-48b2-4a2f-afee-79d8e3adf15b)   
+ [NOTINBUILD Constants Overview](http://msdn.microsoft.com/5c7f57fb-48b2-4a2f-afee-79d8e3adf15b)   
  [Constants and Enumerations](../Topic/Constants%20and%20Enumerations%20\(Visual%20Basic\).md)

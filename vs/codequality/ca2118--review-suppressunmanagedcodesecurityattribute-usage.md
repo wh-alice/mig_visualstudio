@@ -84,6 +84,6 @@ translation.priority.ht:
 ## See Also  
  \<xref:System.Security.SuppressUnmanagedCodeSecurityAttribute?displayProperty=fullName>   
  [Secure Coding Guidelines](../Topic/Secure%20Coding%20Guidelines.md)   
- [Security Optimizations](assetId:///cf255069-d85d-4de3-914a-e4625215a7c0)   
+ [Security Optimizations](http://msdn.microsoft.com/cf255069-d85d-4de3-914a-e4625215a7c0)   
  [Data and Modeling](../Topic/Data%20and%20Modeling%20in%20the%20.NET%20Framework.md)   
  [Link Demands](../Topic/Link%20Demands.md)

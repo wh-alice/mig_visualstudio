@@ -40,5 +40,5 @@ This error generally occurs when a search is attempted without entering a string
 1.  Type the correct text in the **Find what** box and choose **Find** again.  
   
 ## See Also  
- [NIB: How to: Search for Objects, Definitions, and References (Symbols)](assetId:///c6aaff64-7604-4873-abec-96d69a56e1c7)   
- [Find Symbol](assetId:///63e93d9c-784f-418d-a76a-723da5ff5d96)
+ [NIB: How to: Search for Objects, Definitions, and References (Symbols)](http://msdn.microsoft.com/c6aaff64-7604-4873-abec-96d69a56e1c7)   
+ [Find Symbol](http://msdn.microsoft.com/63e93d9c-784f-418d-a76a-723da5ff5d96)

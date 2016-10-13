@@ -359,5 +359,5 @@ HRESULT ImportSettings_KeyBindings(IVsSettingsReader *pSettings, UserSettings
 ## See Also  
  [Support for User Settings](../extensibility/support-for-user-settings.md)   
  [Extending User Settings and Options](../extensibility/extending-user-settings-and-options.md)   
- [Customizing Development Settings in Visual Studio](assetId:///22c4debb-4e31-47a8-8f19-16f328d7dcd3)   
+ [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)   
  [How to: Use Interop Assemblies to Import Settings](../misc/how-to--use-interop-assemblies-to-import-settings.md)

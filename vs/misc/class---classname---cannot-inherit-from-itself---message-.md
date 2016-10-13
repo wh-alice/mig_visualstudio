@@ -52,5 +52,5 @@ An [Inherits Statement](../Topic/Inherits%20Statement.md) in a class definition 
 3.  Examine the cited message for suggestions.  
   
 ## See Also  
- [NOT IN BUILD: Inheritance in Visual Basic](assetId:///e5e6e240-ed31-4657-820c-079b7c79313c)   
- [NOT IN BUILD: Understanding Classes](assetId:///cc2355a2-cb98-4353-9440-736585aec46c)
+ [NOT IN BUILD: Inheritance in Visual Basic](http://msdn.microsoft.com/e5e6e240-ed31-4657-820c-079b7c79313c)   
+ [NOT IN BUILD: Understanding Classes](http://msdn.microsoft.com/cc2355a2-cb98-4353-9440-736585aec46c)

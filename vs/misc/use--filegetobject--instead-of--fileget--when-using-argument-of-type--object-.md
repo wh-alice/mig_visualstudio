@@ -41,5 +41,5 @@ The `FileGet` method includes an argument of type `Object`. `FileGetObject` shou
 2.  Cast the `Object` argument to a more specific type.  
   
 ## See Also  
- [NOT IN BUILD: FileGetObject Function](assetId:///3eda786b-d1ee-4b44-9dd7-0ea6bff072c0)   
+ [NOT IN BUILD: FileGetObject Function](http://msdn.microsoft.com/3eda786b-d1ee-4b44-9dd7-0ea6bff072c0)   
  [My.Computer.FileSystem Object](../Topic/My.Computer.FileSystem%20Object.md)

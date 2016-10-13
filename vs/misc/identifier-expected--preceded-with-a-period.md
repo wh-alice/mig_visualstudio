@@ -54,5 +54,5 @@ A value from which a property name cannot be inferred has been included in the i
   
 ## See Also  
  [Object Initializers: Named and Anonymous Types](../Topic/Object%20Initializers:%20Named%20and%20Anonymous%20Types%20\(Visual%20Basic\).md)   
- [How to: Declare an Instance of an Anonymous Type (Visual Basic)](assetId:///119f616c-9bcd-4731-ac00-4285be5959f7)   
+ [How to: Declare an Instance of an Anonymous Type (Visual Basic)](http://msdn.microsoft.com/119f616c-9bcd-4731-ac00-4285be5959f7)   
  [How to: Infer Property Names and Types in Anonymous Type Declarations](../Topic/How%20to:%20Infer%20Property%20Names%20and%20Types%20in%20Anonymous%20Type%20Declarations%20\(Visual%20Basic\).md)

@@ -40,7 +40,7 @@ Accessibility shall not be changed when overriding inherited methods
   
  Make sure that the overriding method has the same visibility as the method that it overrides.  Accessibility shall not be changed when overriding inherited methods, except when overriding a method inherited from a different assembly with accessibility Family-or-Assembly. In this case the override shall have accessibility of Family.  
   
- For more information CLS compliance checking, see [CLS Compliant Assemblies](assetId:///3320b57e-ea55-4697-a17d-f509a36a3c93).  
+ For more information CLS compliance checking, see [CLS Compliant Assemblies](http://msdn.microsoft.com/3320b57e-ea55-4697-a17d-f509a36a3c93).  
   
  The following sample generates CLS01011:  
   

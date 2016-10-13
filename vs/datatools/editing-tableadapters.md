@@ -92,7 +92,7 @@ Sometimes you might want to change the schema of the adapter's table. To do this
  Saving connection strings in the application configuration file simplifies the process of maintaining your application if the database connection changes. In the event of a change in the database connection, you can edit the connection string in the application configuration file. That way, you do not have to edit the source code and recompile your application. For information on editing a connection string in the application configuration file, see [How to: Save and Edit Connection Strings](../Topic/How%20to:%20Save%20and%20Edit%20Connection%20Strings.md).  
   
 > [!IMPORTANT]
->  Information is stored in the application configuration file as plain text. To reduce the possibility of unauthorized access to sensitive information, you may want to encrypt your data. For more information, see [Encrypting and Decrypting Data](assetId:///22812ae8-e082-4eb1-a29b-21b6ee00c6b5).  
+>  Information is stored in the application configuration file as plain text. To reduce the possibility of unauthorized access to sensitive information, you may want to encrypt your data. For more information, see [Encrypting and Decrypting Data](http://msdn.microsoft.com/22812ae8-e082-4eb1-a29b-21b6ee00c6b5).  
   
 ## Use SQL Statements  
  This section explains how to complete the **TableAdapter Query Configuration Wizard** when selecting the **Use SQL statements** option.  

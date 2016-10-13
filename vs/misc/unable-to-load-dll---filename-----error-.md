@@ -44,5 +44,5 @@ A DLL referenced by this project could not be loaded.
 1.  Verify that the file is in the specified location, and is not locked by another application.  
   
 ## See Also  
- [File Types and File Extensions in Visual Basic and Visual C#](assetId:///f793852c-da06-4d52-a826-65f635844772)   
+ [File Types and File Extensions in Visual Basic and Visual C#](http://msdn.microsoft.com/f793852c-da06-4d52-a826-65f635844772)   
  [Managing references in a project](../ide/managing-references-in-a-project.md)

@@ -44,5 +44,5 @@ The `Me` keyword always refers to the specific instance of a class where the cod
 -   Remove the statement that assigns a value to `Me`.  
   
 ## See Also  
- [Me](assetId:///a65973c7-cf06-4547-9b25-9fba885525c2)   
+ [Me](http://msdn.microsoft.com/a65973c7-cf06-4547-9b25-9fba885525c2)   
  [Object Variable Assignment](../Topic/Object%20Variable%20Assignment%20\(Visual%20Basic\).md)

@@ -44,6 +44,6 @@ An attempt was made to use default property syntax with a structure that has no 
 -   Use standard property syntax to access the structure's properties.  
   
 ## See Also  
- [Default Property Changes in Visual Basic](assetId:///9b8cfad7-40ac-4b83-affb-1ff781755a4c)   
+ [Default Property Changes in Visual Basic](http://msdn.microsoft.com/9b8cfad7-40ac-4b83-affb-1ff781755a4c)   
  [Structures and Other Programming Elements](../Topic/Structures%20and%20Other%20Programming%20Elements%20\(Visual%20Basic\).md)   
- [NOT IN BUILD: Default Properties](assetId:///a70f2a27-8176-4858-935e-f25afdd43ab5)
+ [NOT IN BUILD: Default Properties](http://msdn.microsoft.com/a70f2a27-8176-4858-935e-f25afdd43ab5)

@@ -51,4 +51,4 @@ The project system could not copy temporary files to the output directory. Compi
 -   Verify that you do not have the same project (or projects) open in another instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
   
 ## See Also  
- [NIB: How to: Set the Copy Local Property of a Reference](assetId:///dfe2ba13-f27f-4356-a481-ea67d5acacbd)
+ [NIB: How to: Set the Copy Local Property of a Reference](http://msdn.microsoft.com/dfe2ba13-f27f-4356-a481-ea67d5acacbd)

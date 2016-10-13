@@ -664,5 +664,5 @@ public:
   
 ## See Also  
  [Unit Test Your Code](../codequality/unit-test-your-code.md)   
- [Unit testing native code with Test Explorer](assetId:///8a09d6d8-3613-49d8-9ffe-11375ac4736c)   
+ [Unit testing native code with Test Explorer](http://msdn.microsoft.com/8a09d6d8-3613-49d8-9ffe-11375ac4736c)   
  [Adding unit tests to existing C++ applications](../codequality/unit-testing-existing-c---applications-with-test-explorer.md)

@@ -131,7 +131,7 @@ In Visual Studio, you can create applications that connect to data in virtually 
  [Installing database systems, tools, and samples](../datatools/installing-database-systems--tools--and-samples.md)  
  Discusses how to obtain database products and the Visual Studio extensions or drivers that support them, and where to find sample databases for experimentation and learning purposes.  
   
- [Visual Studio data tools for .NET](assetId:///6b145922-2f00-47db-befc-bf351b4809a1)  
+ [Visual Studio data tools for .NET](http://msdn.microsoft.com/6b145922-2f00-47db-befc-bf351b4809a1)  
  Describes how to use Visual Studio tool windows to connect to data sources, create datasets or Entity Framework models, and bind the data to user interface controls.  
   
 ## Related topics  

@@ -40,7 +40,7 @@ All types appearing in a signature shall be CLS-compliant
   
  If a type is CLS compliant, then all constructors in the type, unless marked not CLS compliant, must have CLS compliant type parameters.  
   
- For more information CLS compliance checking, see [CLS Compliant Assemblies](assetId:///3320b57e-ea55-4697-a17d-f509a36a3c93).  
+ For more information CLS compliance checking, see [CLS Compliant Assemblies](http://msdn.microsoft.com/3320b57e-ea55-4697-a17d-f509a36a3c93).  
   
 ## Example  
  The following sample generates CLS01101:  

@@ -46,6 +46,6 @@ The name of a type member conflicts with the name of a member implicitly declare
 -   Modify the name of the member.  
   
 ## See Also  
- [NotInBuild:Declaration Statements in Visual Basic](assetId:///81f3c398-f45c-4d95-80bf-aa39d1a0fb30)   
+ [NotInBuild:Declaration Statements in Visual Basic](http://msdn.microsoft.com/81f3c398-f45c-4d95-80bf-aa39d1a0fb30)   
  [Enumerations Overview](../Topic/Enumerations%20Overview%20\(Visual%20Basic\).md)   
  [Declared Element Names](../Topic/Declared%20Element%20Names%20\(Visual%20Basic\).md)

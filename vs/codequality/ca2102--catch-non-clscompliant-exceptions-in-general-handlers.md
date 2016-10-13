@@ -95,5 +95,5 @@ csc /r:ThrowNonClsCompliantException.dll CatchNonClsCompliantException.cs
 ## See Also  
  [Exceptions and Exception Handling](../Topic/Exceptions%20and%20Exception%20Handling%20\(C%23%20Programming%20Guide\).md)   
  [Ilasm.exe (IL Assembler)](../Topic/Ilasm.exe%20\(IL%20Assembler\).md)   
- [Overriding Security Checks](assetId:///4acdeff5-fc05-41bf-8505-7387cdbfca28)   
+ [Overriding Security Checks](http://msdn.microsoft.com/4acdeff5-fc05-41bf-8505-7387cdbfca28)   
  [Language Independence and Language-Independent Components](../Topic/Language%20Independence%20and%20Language-Independent%20Components.md)

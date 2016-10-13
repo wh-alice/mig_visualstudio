@@ -44,4 +44,4 @@ An internal error occurred during expression evaluation.
 -   Restart [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
   
 ## See Also  
- [PAVE Product Support](assetId:///77e75b8b-817d-45bf-9c38-458930d873b4)
+ [PAVE Product Support](http://msdn.microsoft.com/77e75b8b-817d-45bf-9c38-458930d873b4)

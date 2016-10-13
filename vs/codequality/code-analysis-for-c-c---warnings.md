@@ -42,6 +42,6 @@ translation.priority.ht:
 This section lists C/C++ Code Analysis warnings. For information about Code Analysis, see [/analyze (Code Analysis)](../Topic/-analyze%20\(Code%20Analysis\).md) and [Quick Start: Code Analysis for C/C++](../codequality/quick-start--code-analysis-for-c-c--.md).  
   
 ## See Also  
- [Guidelines for Writing Secure Code](assetId:///9892fd19-45cd-44b6-9fa8-10f1b5cb6ea4)   
+ [Guidelines for Writing Secure Code](http://msdn.microsoft.com/9892fd19-45cd-44b6-9fa8-10f1b5cb6ea4)   
  [Analyzing C/C++ Code Quality by Using Code Analysis](../codequality/analyzing-c-c---code-quality-by-using-code-analysis.md)   
  [Using SAL Annotations to Reduce C/C++ Code Defects](../codequality/using-sal-annotations-to-reduce-c-c---code-defects.md)

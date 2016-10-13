@@ -33,7 +33,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: Microsoft.VisualStudio.Tools.Applications.Runtime.NonCacheableTypeException
-The exception that is thrown when an attempt is made to cache a type, but the type is not a \<xref:System.Data.DataSet>, \<xref:System.Data.DataTable>, or a type that meets the requirements specified in [Caching Data](assetId:///e60dc731-2cb0-4de6-a861-0f0d131d780a).  
+The exception that is thrown when an attempt is made to cache a type, but the type is not a \<xref:System.Data.DataSet>, \<xref:System.Data.DataTable>, or a type that meets the requirements specified in [Caching Data](http://msdn.microsoft.com/e60dc731-2cb0-4de6-a861-0f0d131d780a).  
   
 ## See Also  
  \<xref:Microsoft.VisualStudio.Tools.Applications.Runtime.NonCacheableTypeException>   

@@ -70,7 +70,7 @@ translation.priority.mt:
   
 -   Disable DTD processing if you are dealing with untrusted sources by setting the \<xref:System.Xml.XmlReaderSettings.ProhibitDtd*> property to **true** .  
   
--   XmlTextReader class has a full trust inheritance demand. See [Inheritance Demands](assetId:///28b9adbb-8f08-4f10-b856-dbf59eb932d9) for more information    .  
+-   XmlTextReader class has a full trust inheritance demand. See [Inheritance Demands](http://msdn.microsoft.com/28b9adbb-8f08-4f10-b856-dbf59eb932d9) for more information    .  
   
  .NET 4 and later  
   

@@ -44,4 +44,4 @@ Conflicting overriding specifications occur in an element declaration. The overr
 -   Choose one overriding specifier and remove the other keywords from the declaration.  
   
 ## See Also  
- [NOT IN BUILD: Overriding Properties and Methods](assetId:///2167e8f5-1225-4b13-9ebd-02591ba90213)
+ [NOT IN BUILD: Overriding Properties and Methods](http://msdn.microsoft.com/2167e8f5-1225-4b13-9ebd-02591ba90213)

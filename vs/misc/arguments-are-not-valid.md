@@ -42,4 +42,4 @@ Arguments that are not valid are being passed to a function or subroutine.
   
 ## See Also  
  [Passing Arguments by Value and by Reference](../Topic/Passing%20Arguments%20by%20Value%20and%20by%20Reference%20\(Visual%20Basic\).md)   
- [Parameter Passing Mechanism Changes in Visual Basic](assetId:///0fa2b0dc-aa1c-4797-bbd6-aa13c611cab2)
+ [Parameter Passing Mechanism Changes in Visual Basic](http://msdn.microsoft.com/0fa2b0dc-aa1c-4797-bbd6-aa13c611cab2)

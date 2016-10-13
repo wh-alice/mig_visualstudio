@@ -105,9 +105,9 @@ Because the Start Page can access Visual Studio commands, and opens whenever Vis
 #### VSIX  
  These practices apply to VSIX deployment:  
   
--   Use the [GettingStartedGuide](assetId:///261bb1fd-abae-4ed6-80a8-90d5fc3bb8c6) element in the VSIX manifest to point to instructions about how to set the default Start Page.  
+-   Use the [GettingStartedGuide](http://msdn.microsoft.com/261bb1fd-abae-4ed6-80a8-90d5fc3bb8c6) element in the VSIX manifest to point to instructions about how to set the default Start Page.  
   
--   Use the [Name](assetId:///d99d38d1-060b-401a-9b9f-ede2c6213a11) element and [Description](assetId:///24ddc57e-e991-4a43-b0c9-0e76da293e99) element of the VSIX manifest to clearly identify the extension as a Start Page and describe its purpose.  
+-   Use the [Name](http://msdn.microsoft.com/d99d38d1-060b-401a-9b9f-ede2c6213a11) element and [Description](http://msdn.microsoft.com/24ddc57e-e991-4a43-b0c9-0e76da293e99) element of the VSIX manifest to clearly identify the extension as a Start Page and describe its purpose.  
   
 -   Verify that your VSIX manifest does not contain absolute paths.  
   

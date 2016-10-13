@@ -59,4 +59,4 @@ The project system could not create a project directory.
      The build process will fail if this error occurs.  
   
 ## See Also  
- [NIB How to: Modify Project Properties and Configuration Settings](assetId:///e7184bc5-2f2b-4b4f-aa9a-3ecfcbc48b67)
+ [NIB How to: Modify Project Properties and Configuration Settings](http://msdn.microsoft.com/e7184bc5-2f2b-4b4f-aa9a-3ecfcbc48b67)

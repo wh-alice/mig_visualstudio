@@ -37,7 +37,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Web Control Library (Managed Code)
-The Web Control Library project template creates a DLL. Because the class library is a DLL, you cannot run it directly. You must create a [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] page that embeds the control. For more information, see [Web Control Library Template](assetId:///00666b07-71d2-4ace-a13c-cc130a3ce372).  
+The Web Control Library project template creates a DLL. Because the class library is a DLL, you cannot run it directly. You must create a [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] page that embeds the control. For more information, see [Web Control Library Template](http://msdn.microsoft.com/00666b07-71d2-4ace-a13c-cc130a3ce372).  
   
 ### To debug a Web Control Library (Method 1)  
   

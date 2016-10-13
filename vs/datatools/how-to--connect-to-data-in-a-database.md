@@ -93,7 +93,7 @@ You can use Visual Studio to connect your application to a database. After creat
   
 1.  Open an existing project in Visual Studio, or create a new project.  
   
-2.  Follow the steps in the **Entity Data Model Wizard** to connect to a database and specify the contents of the model. For more information, see [How to: Create a New .edmx File](assetId:///beb8189e-e51c-4051-839c-9902c224abf2).  
+2.  Follow the steps in the **Entity Data Model Wizard** to connect to a database and specify the contents of the model. For more information, see [How to: Create a New .edmx File](http://msdn.microsoft.com/beb8189e-e51c-4051-839c-9902c224abf2).  
   
 3.  After you complete the **Entity Data Model Wizard**, the Entity Data Model you created opens in the Entity Data Model Designer, and the data objects are now available in the **Data Sources** window.  
   

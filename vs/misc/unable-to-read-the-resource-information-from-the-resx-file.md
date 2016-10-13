@@ -41,4 +41,4 @@ The project system could not read a .resx file.
  This error will cause the build process to fail.  
   
 ## See Also  
- [File Types and File Extensions in Visual Basic and Visual C#](assetId:///f793852c-da06-4d52-a826-65f635844772)
+ [File Types and File Extensions in Visual Basic and Visual C#](http://msdn.microsoft.com/f793852c-da06-4d52-a826-65f635844772)

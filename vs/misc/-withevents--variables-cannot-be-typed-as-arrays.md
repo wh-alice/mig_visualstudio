@@ -45,4 +45,4 @@ You have attempted to declare an array using `WithEvents`. You can declare as ma
   
 ## See Also  
  [Dim Statement](../Topic/Dim%20Statement%20\(Visual%20Basic\).md)   
- [NOT IN BUILD:WithEvents and the Handles Clause](assetId:///072b9cf6-6298-46f1-849e-4edc1631564c)
+ [NOT IN BUILD:WithEvents and the Handles Clause](http://msdn.microsoft.com/072b9cf6-6298-46f1-849e-4edc1631564c)

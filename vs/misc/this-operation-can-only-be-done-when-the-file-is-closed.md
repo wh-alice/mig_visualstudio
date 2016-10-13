@@ -39,4 +39,4 @@ When a file is open, an attempt has been made to perform an operation that can o
 ## See Also  
  \<xref:System.Security.Permissions.FileIOPermission>   
  \<xref:Microsoft.VisualBasic.FileSystem.FileClose*>   
- [How to: Get Information About a File in Visual Basic](assetId:///ca0720ec-f40e-4c11-9748-0ce1685c78f0)
+ [How to: Get Information About a File in Visual Basic](http://msdn.microsoft.com/ca0720ec-f40e-4c11-9748-0ce1685c78f0)

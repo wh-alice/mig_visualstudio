@@ -46,7 +46,7 @@ translation.priority.ht:
  A public or protected type in an assembly with the \<xref:System.Security.AllowPartiallyTrustedCallersAttribute?displayProperty=fullName> attribute inherits from a type declared in an assembly that does not have the attribute.  
   
 ## Rule Description  
- By default, public or protected types in assemblies with strong names are implicitly protected by an [Inheritance Demands](assetId:///28b9adbb-8f08-4f10-b856-dbf59eb932d9) for full trust. Strong-named assemblies marked with the \<xref:System.Security.AllowPartiallyTrustedCallersAttribute> (APTCA) attribute do not have this protection. The attribute disables the inheritance demand. This makes exposed types declared in the assembly inheritable by types that do not have full trust.  
+ By default, public or protected types in assemblies with strong names are implicitly protected by an [Inheritance Demands](http://msdn.microsoft.com/28b9adbb-8f08-4f10-b856-dbf59eb932d9) for full trust. Strong-named assemblies marked with the \<xref:System.Security.AllowPartiallyTrustedCallersAttribute> (APTCA) attribute do not have this protection. The attribute disables the inheritance demand. This makes exposed types declared in the assembly inheritable by types that do not have full trust.  
   
  When the APTCA attribute is present on a fully trusted assembly, and a type in the assembly inherits from a type that does not allow partially trusted callers, a security exploit is possible. If two types `T1` and `T2` meet the following conditions, malicious callers can use the type `T1` to bypass the implicit full trust inheritance demand that protects `T2`:  
   
@@ -95,6 +95,6 @@ translation.priority.ht:
   
 ## See Also  
  [Secure Coding Guidelines](../Topic/Secure%20Coding%20Guidelines.md)   
- [.NET Framework Assemblies Callable by Partially Trusted Code](assetId:///a417fcd4-d3ca-4884-a308-3a1a080eac8d)   
+ [.NET Framework Assemblies Callable by Partially Trusted Code](http://msdn.microsoft.com/a417fcd4-d3ca-4884-a308-3a1a080eac8d)   
  [Using Libraries from Partially Trusted Code](../Topic/Using%20Libraries%20from%20Partially%20Trusted%20Code.md)   
- [Inheritance Demands](assetId:///28b9adbb-8f08-4f10-b856-dbf59eb932d9)
+ [Inheritance Demands](http://msdn.microsoft.com/28b9adbb-8f08-4f10-b856-dbf59eb932d9)

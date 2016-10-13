@@ -44,4 +44,4 @@ Your array initializer contains too many elements.
 -   Use `ReDim` to change the size of the array.  
   
 ## See Also  
- [NOTINBUILD Overview of Arrays in Visual Basic](assetId:///ca50e2f2-b4d2-4c57-9169-9abbcc3392d8)
+ [NOTINBUILD Overview of Arrays in Visual Basic](http://msdn.microsoft.com/ca50e2f2-b4d2-4c57-9169-9abbcc3392d8)

@@ -42,7 +42,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Nested Type Names
-This content has moved [(NOTINBUILD)Simple Type Names](assetId:///333f45cb-2c72-4d81-8e59-e346b05f55e3).  
+This content has moved [(NOTINBUILD)Simple Type Names](http://msdn.microsoft.com/333f45cb-2c72-4d81-8e59-e346b05f55e3).  
   
 ## Syntax  
   

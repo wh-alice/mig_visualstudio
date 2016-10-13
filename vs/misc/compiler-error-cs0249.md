@@ -40,7 +40,7 @@ Do not override object.Finalize. Instead, provide a destructor.
   
  Use destructor syntax to specify instructions to execute when your object is destroyed.  
   
- For more information, see [Destructor Syntax in C# and C++](assetId:///d7901491-7e89-4b6f-8270-0635aa6581b5).  
+ For more information, see [Destructor Syntax in C# and C++](http://msdn.microsoft.com/d7901491-7e89-4b6f-8270-0635aa6581b5).  
   
  The following sample generates CS0249:  
   

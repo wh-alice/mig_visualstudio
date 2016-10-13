@@ -44,5 +44,5 @@ Resume statements can only be used in source code.
 -   Remove `Resume` statements from the debugging code.  
   
 ## See Also  
- [Resume - delete](assetId:///fc82a786-a342-49d0-82a3-63f33e28f00f)   
+ [Resume - delete](http://msdn.microsoft.com/fc82a786-a342-49d0-82a3-63f33e28f00f)   
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)

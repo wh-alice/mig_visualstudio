@@ -50,4 +50,4 @@ The directory where the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnsho
 4.  If the error persists after reinstallation, notify Microsoft Product Support Services.  
   
 ## See Also  
- [PAVEOVER Product Support and Accessibility](assetId:///14e1d293-7b6d-40a6-bf3e-a92f8ee6c88c)
+ [PAVEOVER Product Support and Accessibility](http://msdn.microsoft.com/14e1d293-7b6d-40a6-bf3e-a92f8ee6c88c)

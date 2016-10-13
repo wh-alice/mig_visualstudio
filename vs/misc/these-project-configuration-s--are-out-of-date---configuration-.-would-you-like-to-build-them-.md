@@ -47,12 +47,12 @@ You are editing a Visual Studio project or have selected a project in Solution E
 |**Cancel**|The current operation is stopped. No project is built, started, or debugged.|  
   
 ## See Also  
- [Configuration Manager Dialog Box](assetId:///fa182dca-282e-4ae5-bf37-e155344ca18b)   
+ [Configuration Manager Dialog Box](http://msdn.microsoft.com/fa182dca-282e-4ae5-bf37-e155344ca18b)   
  [How to: Create Solution and Project Build Configurations](../Topic/How%20to:%20Create%20Solution%20and%20Project%20Build%20Configurations.md)   
  [How to: Create and Remove Project Dependencies](../ide/how-to--create-and-remove-project-dependencies.md)   
- [Project Dependencies Dialog Box](assetId:///d66e48c3-3722-40dd-99b4-53d93cac128e)   
- [Project Dependencies, Common Properties, Solution Property Pages Dialog Box](assetId:///2ba638fc-719c-4a79-b166-3455a4374e31)   
+ [Project Dependencies Dialog Box](http://msdn.microsoft.com/d66e48c3-3722-40dd-99b4-53d93cac128e)   
+ [Project Dependencies, Common Properties, Solution Property Pages Dialog Box](http://msdn.microsoft.com/2ba638fc-719c-4a79-b166-3455a4374e31)   
  [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)   
  [Understanding Build Configurations](../ide/understanding-build-configurations.md)   
- [NIB:Projects as Containers](assetId:///87d40f63-f487-4767-8963-64beec27ba1b)   
- [NIB:Item Management in Projects](assetId:///762e606b-7f44-4b66-97a1-e30a703654a0)
+ [NIB:Projects as Containers](http://msdn.microsoft.com/87d40f63-f487-4767-8963-64beec27ba1b)   
+ [NIB:Item Management in Projects](http://msdn.microsoft.com/762e606b-7f44-4b66-97a1-e30a703654a0)

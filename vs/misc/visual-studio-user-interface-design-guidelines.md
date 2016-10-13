@@ -35,4 +35,4 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Visual Studio User Interface Design Guidelines
-This content has been removed. For more information, see [User Experience Guidelines for Visual Studio](assetId:///baa3b2d5-82b2-4492-b5e7-b5ae91381ef5).
+This content has been removed. For more information, see [User Experience Guidelines for Visual Studio](http://msdn.microsoft.com/baa3b2d5-82b2-4492-b5e7-b5ae91381ef5).

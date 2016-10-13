@@ -49,4 +49,4 @@ A persisted value for a `Boolean` property is not one of the following:
      The affected property's value will be set to false.  
   
 ## See Also  
- [NIB: Project Properties (Visual Studio)](assetId:///eb4c97ed-f667-4850-98d0-6e2a4d21bbca)
+ [NIB: Project Properties (Visual Studio)](http://msdn.microsoft.com/eb4c97ed-f667-4850-98d0-6e2a4d21bbca)

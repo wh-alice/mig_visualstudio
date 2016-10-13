@@ -42,5 +42,5 @@ This error generally occurs when a search string includes two or more regular ex
 ## See Also  
  [Finding and Replacing Text](../ide/finding-and-replacing-text.md)   
  [Using Regular Expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md)   
- [Wildcards (Visual Studio)](assetId:///9745c56f-0b73-44e1-b393-c17e39670c26)   
+ [Wildcards (Visual Studio)](http://msdn.microsoft.com/9745c56f-0b73-44e1-b393-c17e39670c26)   
  [Find in Files](../ide/find-in-files.md)

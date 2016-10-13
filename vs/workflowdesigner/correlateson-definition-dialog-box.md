@@ -46,5 +46,5 @@ The **CorrelatesOn** dialog box is used in [!INCLUDE[wfd1](../workflowdesigner/i
 ## See Also  
  \<xref:System.ServiceModel.Activities.Receive>   
  [Add CorrelationInitializers Dialog Box](../workflowdesigner/add-correlationinitializers-dialog-box.md)   
- [Add Correlation Dialog Box](assetId:///9e41a149-e8ab-41b1-8886-ea06a63041b6)   
+ [Add Correlation Dialog Box](http://msdn.microsoft.com/9e41a149-e8ab-41b1-8886-ea06a63041b6)   
  [Initialize Correlation Dialog Box](../workflowdesigner/initialize-correlation-dialog-box.md)

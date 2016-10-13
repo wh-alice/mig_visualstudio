@@ -66,7 +66,7 @@ translation.priority.ht:
  In some situations, it’s convenient to create a connection object without the assistance of any data design tools. For information on creating connections programmatically, see [Connecting to a Data Source](../Topic/Connecting%20to%20a%20Data%20Source%20in%20ADO.NET.md).  
   
 > [!NOTE]
->  For information on connecting web applications to data, see [ASP.NET Data Access Content Map](assetId:///f9219396-a0fa-481f-894d-e3d9c67d64f2).  
+>  For information on connecting web applications to data, see [ASP.NET Data Access Content Map](http://msdn.microsoft.com/f9219396-a0fa-481f-894d-e3d9c67d64f2).  
   
 ## Walkthroughs for Connecting Windows Forms Applications to Data  
  The following walkthroughs provide procedures related to connecting to data in Windows Forms applications:  
@@ -116,11 +116,11 @@ translation.priority.ht:
 ## Design-Time Connections in Server Explorer/Database Explorer  
  **Server Explorer/Database Explorer** provides a way for you to create design-time connections to data sources. This permits you to browse available data sources; display information about the tables, columns, and other elements they contain; and edit and create database elements.  
   
- Your application does not directly use the connections available in **Server Explorer/Database Explorer**. These connections are used by [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] for working with your database at design time. For more information, see [Visual Database Tools](assetId:///6b145922-2f00-47db-befc-bf351b4809a1).  
+ Your application does not directly use the connections available in **Server Explorer/Database Explorer**. These connections are used by [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] for working with your database at design time. For more information, see [Visual Database Tools](http://msdn.microsoft.com/6b145922-2f00-47db-befc-bf351b4809a1).  
   
  For example, at design time you might use **Server Explorer/Database Explorer** to create a connection to a database. Later, when designing a form, you can browse the database, select columns from a table, and drag them onto the [Dataset Designer](../datatools/creating-and-editing-typed-datasets.md). This creates a [TableAdapter](../datatools/tableadapter-overview.md) in your dataset. It also creates a new connection object, which is part of the newly created TableAdapter.  
   
- Information about design-time connections is stored on your local computer independently of a specific project or solution. Therefore, once you have established a design-time connection while working in an application, it appears in **Server Explorer/Database Explorer** whenever you work in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], as long as the server to which the connection points is available. For more information, see [How to: Connect to a Database from Server Explorer](assetId:///7c1c3067-0d77-471b-872b-639f9f50db74).  
+ Information about design-time connections is stored on your local computer independently of a specific project or solution. Therefore, once you have established a design-time connection while working in an application, it appears in **Server Explorer/Database Explorer** whenever you work in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], as long as the server to which the connection points is available. For more information, see [How to: Connect to a Database from Server Explorer](http://msdn.microsoft.com/7c1c3067-0d77-471b-872b-639f9f50db74).  
   
  [!INCLUDE[SQLObjectExplorer](../datatools/includes/sqlobjectexplorer_md.md)]  
   
@@ -128,7 +128,7 @@ translation.priority.ht:
  [Connecting to Data in Visual Studio](../datatools/connecting-to-data-in-visual-studio.md)   
  [How to: Connect to Data in a Database](../datatools/how-to--connect-to-data-in-a-database.md)   
  [Walkthrough: Connecting to Data in a Database (Windows Forms)](../Topic/Walkthrough:%20Connecting%20to%20Data%20in%20a%20Database%20\(Windows%20Forms\).md)   
- [ASP.NET Data Access Content Map](assetId:///f9219396-a0fa-481f-894d-e3d9c67d64f2)   
+ [ASP.NET Data Access Content Map](http://msdn.microsoft.com/f9219396-a0fa-481f-894d-e3d9c67d64f2)   
  [Preparing Your Application to Receive Data](../Topic/Preparing%20Your%20Application%20to%20Receive%20Data.md)   
  [Fetching Data into Your Application](../datatools/fetching-data-into-your-application.md)   
  [Bind controls to data in Visual Studio](../datatools/bind-controls-to-data-in-visual-studio.md)   

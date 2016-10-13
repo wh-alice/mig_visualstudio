@@ -39,4 +39,4 @@ Visual Studio requires Windows NT 4.0, build 1381 with Service Pack 3, or Window
 1.  Upgrade your current version of Windows NT or Windows to the versions listed above.  
   
 ## See Also  
- [Visual Studio Hardware Requirements](assetId:///e99a42ad-f8d6-4f93-b78b-855648f6aed3)
+ [Visual Studio Hardware Requirements](http://msdn.microsoft.com/e99a42ad-f8d6-4f93-b78b-855648f6aed3)

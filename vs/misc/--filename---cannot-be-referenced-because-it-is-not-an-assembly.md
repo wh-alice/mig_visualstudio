@@ -47,4 +47,4 @@ A reference was made to a file that is not a .NET assembly.
   
 ## See Also  
  [Managing references in a project](../ide/managing-references-in-a-project.md)   
- [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](assetId:///3bd75d61-f00c-47c0-86a2-dd1f20e231c9)
+ [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](http://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)

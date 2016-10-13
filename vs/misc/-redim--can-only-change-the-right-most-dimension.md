@@ -39,8 +39,8 @@ A `ReDim` statement attempted to use the `Preserve` keyword to change a dimensio
 -   Remove the `Preserve` keyword.  
   
 ## See Also  
- [NOTINBUILD Overview of Arrays in Visual Basic](assetId:///ca50e2f2-b4d2-4c57-9169-9abbcc3392d8)   
- [NOTINBUILD Multidimensional Arrays in Visual Basic](assetId:///d92cad25-07e2-4d79-8ea4-ab269700f5de)   
+ [NOTINBUILD Overview of Arrays in Visual Basic](http://msdn.microsoft.com/ca50e2f2-b4d2-4c57-9169-9abbcc3392d8)   
+ [NOTINBUILD Multidimensional Arrays in Visual Basic](http://msdn.microsoft.com/d92cad25-07e2-4d79-8ea4-ab269700f5de)   
  [ReDim Statement](../Topic/ReDim%20Statement%20\(Visual%20Basic\).md)   
  [Dim Statement](../Topic/Dim%20Statement%20\(Visual%20Basic\).md)   
- [Preserve - delete](assetId:///91badeab-b4e0-48b6-92c9-9f0c8f995d81)
+ [Preserve - delete](http://msdn.microsoft.com/91badeab-b4e0-48b6-92c9-9f0c8f995d81)

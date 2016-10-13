@@ -44,5 +44,5 @@ A procedure or property declaration attempts to override an inherited element of
 -   Change the accessibility of the overriding element to match that of the inherited element.  
   
 ## See Also  
- [NOT IN BUILD: Overriding Properties and Methods](assetId:///2167e8f5-1225-4b13-9ebd-02591ba90213)   
+ [NOT IN BUILD: Overriding Properties and Methods](http://msdn.microsoft.com/2167e8f5-1225-4b13-9ebd-02591ba90213)   
  [Access Levels in Visual Basic](../Topic/Access%20Levels%20in%20Visual%20Basic.md)

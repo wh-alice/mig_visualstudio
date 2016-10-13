@@ -39,4 +39,4 @@ A specified path does not exist, perhaps due to an error combining strings.
 ## See Also  
  [How to: Parse File Paths](../Topic/How%20to:%20Parse%20File%20Paths%20in%20Visual%20Basic.md)   
  [Conversions Between Strings and Other Types](../Topic/Conversions%20Between%20Strings%20and%20Other%20Types%20\(Visual%20Basic\).md)   
- [Parsing Strings in Visual Basic](assetId:///927a4b26-5388-458c-85d8-aaf0851457e3)
+ [Parsing Strings in Visual Basic](http://msdn.microsoft.com/927a4b26-5388-458c-85d8-aaf0851457e3)

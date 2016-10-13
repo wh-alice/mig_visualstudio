@@ -46,5 +46,5 @@ The conditional compilation expression refers to a non-intrinsic type, but only 
 -   Replace the non-intrinsic type with an intrinsic type.  
   
 ## See Also  
- [NOTINBUILD Conditional Compilation (Visual Basic)](assetId:///ad1e35e0-935e-4a35-a2ae-738bcf2a9240)   
+ [NOTINBUILD Conditional Compilation (Visual Basic)](http://msdn.microsoft.com/ad1e35e0-935e-4a35-a2ae-738bcf2a9240)   
  [Data Types Summary](../Topic/Data%20Types%20Summary%20\(Visual%20Basic\).md)

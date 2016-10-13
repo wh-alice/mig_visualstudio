@@ -44,6 +44,6 @@ You have attempted to use a loop control variable that is not a valid type. At t
 -   Check the type of the loop control variable and change it to a valid one.  
   
 ## See Also  
- [For (Visual Basic)](assetId:///c470a263-9b49-4308-8fd6-8592b84a7980)   
+ [For (Visual Basic)](http://msdn.microsoft.com/c470a263-9b49-4308-8fd6-8592b84a7980)   
  [Do...Loop Statement](../Topic/Do...Loop%20Statement%20\(Visual%20Basic\).md)   
  [For...Next Statement](../Topic/For...Next%20Statement%20\(Visual%20Basic\).md)

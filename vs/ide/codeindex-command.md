@@ -135,5 +135,5 @@ TFSConfig CodeIndex /destroyCodeIndex /collectionName:"Fabrikam Web Site"
 ```  
   
 ## See Also  
- [Managing server configuration with TFSConfig](assetId:///94424190-3b6b-4f33-a6b6-5807f4225b62)   
- [Command-line tools for TFS](assetId:///be8c997a-b97b-4e59-97f5-04db0a601a6c)
+ [Managing server configuration with TFSConfig](http://msdn.microsoft.com/94424190-3b6b-4f33-a6b6-5807f4225b62)   
+ [Command-line tools for TFS](http://msdn.microsoft.com/be8c997a-b97b-4e59-97f5-04db0a601a6c)

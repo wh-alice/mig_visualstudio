@@ -41,5 +41,5 @@ The `NPer` function, which returns a `Double` specifying the number of periods f
 -   Check previous operations on variables in the expression, especially those passed into the procedure as arguments from other procedures.  
   
 ## See Also  
- [NOT IN BUILD: NPer Function](assetId:///56567d16-29f7-4928-b05f-b4cd56d4fd42)   
+ [NOT IN BUILD: NPer Function](http://msdn.microsoft.com/56567d16-29f7-4928-b05f-b4cd56d4fd42)   
  [Passing Arguments by Value and by Reference](../Topic/Passing%20Arguments%20by%20Value%20and%20by%20Reference%20\(Visual%20Basic\).md)

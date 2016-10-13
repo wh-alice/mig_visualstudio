@@ -46,4 +46,4 @@ The conditional compilation expression generates a nonspecific syntax error.
 2.  If you cannot identify the cause of the error, gather information about the circumstances and notify Microsoft Product Support Services.  
   
 ## See Also  
- [NOTINBUILD Conditional Compilation (Visual Basic)](assetId:///ad1e35e0-935e-4a35-a2ae-738bcf2a9240)
+ [NOTINBUILD Conditional Compilation (Visual Basic)](http://msdn.microsoft.com/ad1e35e0-935e-4a35-a2ae-738bcf2a9240)

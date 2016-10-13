@@ -44,5 +44,5 @@ The constructor for the attribute being used is `Private`, and cannot be used.
 1.  If you see this error with a custom attribute that you developed, change its `Sub``New` constructor's access modifier to `Public`.  
   
 ## See Also  
- [NOT IN BUILD: Attributes in Visual Basic](assetId:///620bfc0e-4582-4c8b-8432-ebc5c3dccc22)   
+ [NOT IN BUILD: Attributes in Visual Basic](http://msdn.microsoft.com/620bfc0e-4582-4c8b-8432-ebc5c3dccc22)   
  [Object Lifetime: How Objects Are Created and Destroyed](../Topic/Object%20Lifetime:%20How%20Objects%20Are%20Created%20and%20Destroyed%20\(Visual%20Basic\).md)

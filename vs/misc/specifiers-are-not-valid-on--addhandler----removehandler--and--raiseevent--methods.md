@@ -45,8 +45,8 @@ The `AddHandler`, `RemoveHandler`, and `RaiseEvent` method declarations cannot b
   
 ## See Also  
  [Event Statement](../Topic/Event%20Statement.md)   
- [AddHandler - delete](assetId:///fc464cf8-582c-48a6-a9c2-185c4c3d5ff8)   
- [RemoveHandler - delete](assetId:///35c17f61-6e22-4b87-b6e1-3ed0c27a88a0)   
- [RaiseEvent - delete](assetId:///7f765da0-5491-40b6-9ed5-24c98f9daad9)   
- [NIB Keywords (Visual Basic)](assetId:///3a6fda51-6ade-4862-a407-1c305c3906ec)   
+ [AddHandler - delete](http://msdn.microsoft.com/fc464cf8-582c-48a6-a9c2-185c4c3d5ff8)   
+ [RemoveHandler - delete](http://msdn.microsoft.com/35c17f61-6e22-4b87-b6e1-3ed0c27a88a0)   
+ [RaiseEvent - delete](http://msdn.microsoft.com/7f765da0-5491-40b6-9ed5-24c98f9daad9)   
+ [NIB Keywords (Visual Basic)](http://msdn.microsoft.com/3a6fda51-6ade-4862-a407-1c305c3906ec)   
  [Events](../Topic/Events%20\(Visual%20Basic\).md)

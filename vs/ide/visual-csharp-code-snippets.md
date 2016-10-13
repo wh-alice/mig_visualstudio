@@ -89,7 +89,7 @@ ropfull|Creates a property declaration with get and set accessors.|Inside a clas
 ## See Also  
  [Code Snippet Functions](../ide/code-snippet-functions.md)   
  [Code Snippets](../ide/code-snippets.md)   
- [How to: Create a New Snippet with Replacements](assetId:///8d56d43c-097a-475b-aa85-cae1554b6338)   
+ [How to: Create a New Snippet with Replacements](http://msdn.microsoft.com/8d56d43c-097a-475b-aa85-cae1554b6338)   
  [Template Parameters](../ide/template-parameters.md)   
  [How to: Use Surround-with Code Snippets](../ide/how-to--use-surround-with-code-snippets.md)   
  [How to: Restore C# Refactoring Snippets](../ide/how-to--restore-csharp-refactoring-snippets.md)

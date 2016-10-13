@@ -57,5 +57,5 @@ The \<xref:System.Runtime.InteropServices.DefaultCharSetAttribute?displayPropert
 ## See Also  
  \<xref:System.Runtime.InteropServices.DefaultCharSetAttribute>   
  \<xref:System.Runtime.InteropServices.CharSet>   
- [NOT IN BUILD: Attributes in Visual Basic](assetId:///620bfc0e-4582-4c8b-8432-ebc5c3dccc22)   
+ [NOT IN BUILD: Attributes in Visual Basic](http://msdn.microsoft.com/620bfc0e-4582-4c8b-8432-ebc5c3dccc22)   
  [Declare Statement](../Topic/Declare%20Statement.md)

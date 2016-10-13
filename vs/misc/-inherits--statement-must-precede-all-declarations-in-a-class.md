@@ -45,4 +45,4 @@ The `Inherits` statements must be at the beginning of class definitions.
   
 ## See Also  
  [Inherits Statement](../Topic/Inherits%20Statement.md)   
- [NOT IN BUILD: Inheritance in Visual Basic](assetId:///e5e6e240-ed31-4657-820c-079b7c79313c)
+ [NOT IN BUILD: Inheritance in Visual Basic](http://msdn.microsoft.com/e5e6e240-ed31-4657-820c-079b7c79313c)

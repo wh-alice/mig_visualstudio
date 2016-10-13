@@ -61,7 +61,7 @@ End Namespace
 ```  
   
 ## See Also  
- [NOT IN BUILD: Application of Attributes](assetId:///2b1703ed-4437-49b3-bc0b-568094324f47)   
+ [NOT IN BUILD: Application of Attributes](http://msdn.microsoft.com/2b1703ed-4437-49b3-bc0b-568094324f47)   
  [Extension Methods](../Topic/Extension%20Methods%20\(Visual%20Basic\).md)   
  [Module \<keyword>](../Topic/Module%20%3Ckeyword%3E%20\(Visual%20Basic\).md)   
  [Module Statement](../Topic/Module%20Statement.md)

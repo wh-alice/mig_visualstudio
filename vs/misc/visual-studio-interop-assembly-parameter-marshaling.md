@@ -137,7 +137,7 @@ else
  Managed methods that call interfaces of this type should pull the first element out of the [out] array. This element can be treated as if it were a `retval` return value from the corresponding COM interface.  
   
 ## See Also  
- [Interop Marshaling](assetId:///a95fdb76-7c0d-409e-a77e-0349b1ea1490)   
+ [Interop Marshaling](http://msdn.microsoft.com/a95fdb76-7c0d-409e-a77e-0349b1ea1490)   
  [Interop Marshaling](../Topic/Interop%20Marshaling.md)   
  [Troubleshooting Interoperability](../Topic/Troubleshooting%20Interoperability%20\(Visual%20Basic\).md)   
  [Managed VSPackages](../misc/managed-vspackages.md)

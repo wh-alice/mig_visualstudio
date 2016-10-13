@@ -48,5 +48,5 @@ A class or interface includes an [Inherits Statement](../Topic/Inherits%20Statem
 -   If the base type must be represented by a generic type parameter, no other type can inherit from it. Remove the [Inherits Statement](../Topic/Inherits%20Statement.md).  
   
 ## See Also  
- [NOT IN BUILD: Inheritance in Visual Basic](assetId:///e5e6e240-ed31-4657-820c-079b7c79313c)   
+ [NOT IN BUILD: Inheritance in Visual Basic](http://msdn.microsoft.com/e5e6e240-ed31-4657-820c-079b7c79313c)   
  [Generic Types in Visual Basic](../Topic/Generic%20Types%20in%20Visual%20Basic%20\(Visual%20Basic\).md)

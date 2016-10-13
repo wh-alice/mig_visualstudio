@@ -39,5 +39,5 @@ This error generally occurs when a file name is entered which is actually a char
 1.  Enter a different file name.  
   
 ## See Also  
- [NIB: Save File As Dialog Box](assetId:///22380a20-2858-4391-b2f2-80c6bce64f14)   
+ [NIB: Save File As Dialog Box](http://msdn.microsoft.com/22380a20-2858-4391-b2f2-80c6bce64f14)   
  [Solutions and Projects](../ide/solutions-and-projects-in-visual-studio.md)

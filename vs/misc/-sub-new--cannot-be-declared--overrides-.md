@@ -44,5 +44,5 @@ A constructor indicates that it overrides an inherited constructor. Constructors
 -   Remove the `Overrides` keyword from the `Sub` declaration.  
   
 ## See Also  
- [NOT IN BUILD: Overriding Properties and Methods](assetId:///2167e8f5-1225-4b13-9ebd-02591ba90213)   
- [NOT IN BUILD: Using Constructors and Destructors](assetId:///548eebe1-86c4-4377-b2f5-447cb8be3d90)
+ [NOT IN BUILD: Overriding Properties and Methods](http://msdn.microsoft.com/2167e8f5-1225-4b13-9ebd-02591ba90213)   
+ [NOT IN BUILD: Using Constructors and Destructors](http://msdn.microsoft.com/548eebe1-86c4-4377-b2f5-447cb8be3d90)

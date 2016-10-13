@@ -46,4 +46,4 @@ A circular constructor call occurs. A constructor makes a call to `Me.New()` or 
 -   If there are no accessible overloads, remove the call to `Me.New()` or `MyClass.New()`.  
   
 ## See Also  
- [NOT IN BUILD: Using Constructors and Destructors](assetId:///548eebe1-86c4-4377-b2f5-447cb8be3d90)
+ [NOT IN BUILD: Using Constructors and Destructors](http://msdn.microsoft.com/548eebe1-86c4-4377-b2f5-447cb8be3d90)

@@ -45,4 +45,4 @@ You have used a type character, such as `$`, when explicitly specifying a type.
   
 ## See Also  
  [Type Characters](../Topic/Type%20Characters%20\(Visual%20Basic\).md)   
- [Implicit and Explicit Declaration (Visual Basic)](assetId:///7260dafd-c1d5-46fc-98bf-2ea0fb94996c)
+ [Implicit and Explicit Declaration (Visual Basic)](http://msdn.microsoft.com/7260dafd-c1d5-46fc-98bf-2ea0fb94996c)

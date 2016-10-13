@@ -48,5 +48,5 @@ devenv.exe /InstallVSTemplates
 ## Remarks  
   
 ## See Also  
- [NIB: Visual Studio Templates](assetId:///141fccaa-d68f-4155-822b-27f35dd94041)   
+ [NIB: Visual Studio Templates](http://msdn.microsoft.com/141fccaa-d68f-4155-822b-27f35dd94041)   
  [Devenv Command Line Switches](../reference/devenv-command-line-switches.md)

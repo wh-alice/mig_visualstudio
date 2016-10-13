@@ -48,4 +48,4 @@ A file that has been read from the .vbproj or .csproj file cannot be added to th
   
 ## See Also  
  [Project Files](../Topic/Project%20Files.md)   
- [NIB:Item Management in Projects](assetId:///762e606b-7f44-4b66-97a1-e30a703654a0)
+ [NIB:Item Management in Projects](http://msdn.microsoft.com/762e606b-7f44-4b66-97a1-e30a703654a0)

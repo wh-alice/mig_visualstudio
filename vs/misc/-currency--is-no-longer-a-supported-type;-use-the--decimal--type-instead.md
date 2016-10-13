@@ -45,4 +45,4 @@ The `Currency` data type has been replaced by the `Decimal` data type.
   
 ## See Also  
  [Decimal Data Type](../Topic/Decimal%20Data%20Type%20\(Visual%20Basic\).md)   
- [Data Type Changes in Visual Basic](assetId:///0aca9f54-7231-49a5-ab26-a68ca79d08f3)
+ [Data Type Changes in Visual Basic](http://msdn.microsoft.com/0aca9f54-7231-49a5-ab26-a68ca79d08f3)

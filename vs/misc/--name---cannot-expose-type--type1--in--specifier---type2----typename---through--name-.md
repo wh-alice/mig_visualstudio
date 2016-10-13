@@ -44,4 +44,4 @@ You have attempted to expose a private type outside the public class `MyClass`.
 -   Declare the type `Public`.  
   
 ## See Also  
- [MyClass - delete](assetId:///5db36f9b-f796-4b6a-ba34-cac1fde6eb62)
+ [MyClass - delete](http://msdn.microsoft.com/5db36f9b-f796-4b6a-ba34-cac1fde6eb62)

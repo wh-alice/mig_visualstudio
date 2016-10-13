@@ -58,5 +58,5 @@ A type parameter with a `Structure` constraint is used as the constraint for ano
 ## See Also  
  [Generic Types in Visual Basic](../Topic/Generic%20Types%20in%20Visual%20Basic%20\(Visual%20Basic\).md)   
  [Type List](../Topic/Type%20List%20\(Visual%20Basic\).md)   
- [Structure (Visual Basic)](assetId:///263ce115-ac36-4c05-8cb7-0e0eead5c6d0)   
+ [Structure (Visual Basic)](http://msdn.microsoft.com/263ce115-ac36-4c05-8cb7-0e0eead5c6d0)   
  [Value Types and Reference Types](../Topic/Value%20Types%20and%20Reference%20Types.md)

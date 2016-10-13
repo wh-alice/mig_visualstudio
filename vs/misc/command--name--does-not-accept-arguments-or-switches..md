@@ -40,6 +40,6 @@ This error generally occurs when a switch or argument has been entered with a co
 1.  Re-enter the command and arguments or enter a new command.  
   
 ## See Also  
- [PAVE Visual Studio Commands and Switches](assetId:///262ad510-8ba0-4b39-a9cf-4fb8f891e63c)   
+ [PAVE Visual Studio Commands and Switches](http://msdn.microsoft.com/262ad510-8ba0-4b39-a9cf-4fb8f891e63c)   
  [Command Window](../reference/command-window.md)   
  [Visual Studio Commands](../reference/visual-studio-commands.md)

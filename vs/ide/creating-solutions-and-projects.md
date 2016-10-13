@@ -42,7 +42,7 @@ translation.priority.mt:
 Projects are the logical containers for everything that's needed to build your application. When you create a project by choosing **File &#124; New &#124; Project** from the main menu, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] creates a solution to contain it. You can then add more new or existing projects to the solution if necessary. You can create projects from existing code files and you can create temporary projects (.NET only) that will be deleted when you are done with them.  
   
 > [!NOTE]
->  The descriptions in this topic are based on the Visual Studio Community edition. The dialog boxes and menu commands you see might differ from those described here, depending on your settings or Visual Studio edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](assetId:///22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The descriptions in this topic are based on the Visual Studio Community edition. The dialog boxes and menu commands you see might differ from those described here, depending on your settings or Visual Studio edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## Create a project from an installed project template  
  **File &#124; New &#124; Project** from the main menu to bring up the New Project dialog. In the left pane under **Intalled &#124; Templates** chose the programming language and platform or technology, then choose from the available templates in the middle pane.  
@@ -106,4 +106,4 @@ Projects are the logical containers for everything that's needed to build your a
   
 ## See Also  
  [Solutions and Projects](../ide/solutions-and-projects-in-visual-studio.md)   
- [NIB How to: Create Multi-Project Solutions](assetId:///02ecd6dd-0114-46fe-b335-ba9c5e3020d6)
+ [NIB How to: Create Multi-Project Solutions](http://msdn.microsoft.com/02ecd6dd-0114-46fe-b335-ba9c5e3020d6)

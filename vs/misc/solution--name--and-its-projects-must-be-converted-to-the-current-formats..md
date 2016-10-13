@@ -55,5 +55,5 @@ You have opened a solution that was created in a previous version of Visual Stud
  If you are part of a development team, everyone who is working on a solution should have the same version of Visual Studio installed on their local machines. To ensure that solutions and projects remain accessible, communicate regularly with your team.  
   
 ## See Also  
- [Project Dependencies Dialog Box](assetId:///d66e48c3-3722-40dd-99b4-53d93cac128e)   
+ [Project Dependencies Dialog Box](http://msdn.microsoft.com/d66e48c3-3722-40dd-99b4-53d93cac128e)   
  [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)

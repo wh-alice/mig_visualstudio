@@ -32,7 +32,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Renaming Project Hierarchy Nodes (C++)
-You can rename a project folder hierarchy node by using the HierUtil7 project framework for unmanaged C++. For more information, see [HierUtil7 Sample](assetId:///29c15184-a70c-4813-86c2-fb1d47442d11).  
+You can rename a project folder hierarchy node by using the HierUtil7 project framework for unmanaged C++. For more information, see [HierUtil7 Sample](http://msdn.microsoft.com/29c15184-a70c-4813-86c2-fb1d47442d11).  
   
 ## Expanding the Hierarchy node  
   

@@ -47,7 +47,7 @@ IDiaTable : IEnumUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[IDiaTable::get__NewEnum](../debugger/idiatable--get__newenum.md)|Retrieves the [IEnumVARIANT Interface](assetId:///139e3c93-faef-4003-9079-e0e94494db3e) version of this enumerator.|  
+|[IDiaTable::get__NewEnum](../debugger/idiatable--get__newenum.md)|Retrieves the [IEnumVARIANT Interface](http://msdn.microsoft.com/139e3c93-faef-4003-9079-e0e94494db3e) version of this enumerator.|  
 |[IDiaTable::get_name](../debugger/idiatable--get_name.md)|Retrieves the name of the table.|  
 |[IDiaTable::get_Count](../debugger/idiatable--get_count.md)|Retrieves the number of items in the table.|  
 |[IDiaTable::Item](../debugger/idiatable--item.md)|Retrieves a reference to a particular entry index.|  

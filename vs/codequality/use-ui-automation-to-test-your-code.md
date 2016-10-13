@@ -459,9 +459,9 @@ Mouse.Hover(uIItem1Text, new Point(87, 9));
   
 -   [How to: Run Tests from Microsoft Visual Studio](../Topic/How%20to:%20Run%20Tests%20from%20Microsoft%20Visual%20Studio.md)  
   
--   [Running Automated Tests in Microsoft Test Manager](assetId:///0632f265-63fe-4859-a413-9bb934c66835)  
+-   [Running Automated Tests in Microsoft Test Manager](http://msdn.microsoft.com/0632f265-63fe-4859-a413-9bb934c66835)  
   
--   [How to: Configure and Run Scheduled Tests After Building Your Application](assetId:///32acfeb1-b1aa-4afb-8cfe-cc209e6183fd)  
+-   [How to: Configure and Run Scheduled Tests After Building Your Application](http://msdn.microsoft.com/32acfeb1-b1aa-4afb-8cfe-cc209e6183fd)  
   
 -   [Run tests in your build process](../Topic/Run%20tests%20in%20your%20build%20process.md)  
   
@@ -477,7 +477,7 @@ Mouse.Hover(uIItem1Text, new Point(87, 9));
   
 -   [Extending Coded UI Tests and Action Recordings to Support Microsoft Excel](../codequality/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md)  
   
- Coded UI Tests are often used to automate manual tests. For additional guidance, see [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 5: Automating System Tests](http://go.microsoft.com/fwlink/?LinkID=255196). For more information about manual tests, see [&#91;retired&#93; Creating Manual Test Cases Using Microsoft Test Manager](../Topic/Creating%20Manual%20Test%20Cases%20Using%20Microsoft%20Test%20Manager.md). For more information about automated system tests, see [Creating Automated Tests Using Microsoft Test Manager](assetId:///7b5075ee-ddfe-411d-b1d4-94283550a5d0).  
+ Coded UI Tests are often used to automate manual tests. For additional guidance, see [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 5: Automating System Tests](http://go.microsoft.com/fwlink/?LinkID=255196). For more information about manual tests, see [&#91;retired&#93; Creating Manual Test Cases Using Microsoft Test Manager](../Topic/Creating%20Manual%20Test%20Cases%20Using%20Microsoft%20Test%20Manager.md). For more information about automated system tests, see [Creating Automated Tests Using Microsoft Test Manager](http://msdn.microsoft.com/7b5075ee-ddfe-411d-b1d4-94283550a5d0).  
   
 ## External Resources  
   

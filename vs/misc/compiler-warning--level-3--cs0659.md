@@ -46,7 +46,7 @@ translation.priority.mt:
   
 -   [Equality Operators](../Topic/Equality%20Operators.md)  
   
--   [NIB: Implementing the Equals Method](assetId:///30f28aaf-8b9e-46cd-a746-58a12473af2c)  
+-   [NIB: Implementing the Equals Method](http://msdn.microsoft.com/30f28aaf-8b9e-46cd-a746-58a12473af2c)  
   
 -   \<xref:System.Object.GetHashCode*>  
   

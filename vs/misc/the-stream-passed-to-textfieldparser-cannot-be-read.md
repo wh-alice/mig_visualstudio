@@ -40,6 +40,6 @@ The [TextFieldParser Object](../Topic/TextFieldParser%20Object.md) cannot read t
   
 ## See Also  
  [How to: Read From Text Files with Multiple Formats](../Topic/How%20to:%20Read%20From%20Text%20Files%20with%20Multiple%20Formats%20in%20Visual%20Basic.md)   
- [My.Computer.FileSystem.OpenTextFieldParser Method](assetId:///e5869f85-c078-485f-8323-8dc716494546)   
+ [My.Computer.FileSystem.OpenTextFieldParser Method](http://msdn.microsoft.com/e5869f85-c078-485f-8323-8dc716494546)   
  [Parsing Text Files with the TextFieldParser Object](../Topic/Parsing%20Text%20Files%20with%20the%20TextFieldParser%20Object%20\(Visual%20Basic\).md)   
  [TextFieldParser Object](../Topic/TextFieldParser%20Object.md)

@@ -46,4 +46,4 @@ The common language runtime does not accept the attribute in the current context
 2.  Examine the error message and take appropriate action.  
   
 ## See Also  
- [NOT IN BUILD: How to: Define Your Own Attributes](assetId:///039609c4-ec43-4f44-945f-aa3b5b535c6a)
+ [NOT IN BUILD: How to: Define Your Own Attributes](http://msdn.microsoft.com/039609c4-ec43-4f44-945f-aa3b5b535c6a)

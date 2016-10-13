@@ -50,4 +50,4 @@ The object being used has the value `Nothing`, but a usable value is expected. `
   
 ## See Also  
  [Nothing](../Topic/Nothing%20\(Visual%20Basic\).md)   
- [NOT IN BUILD: IsNothing Function](assetId:///5b2a4626-e6a9-49d1-b9b1-fcc6a1302319)
+ [NOT IN BUILD: IsNothing Function](http://msdn.microsoft.com/5b2a4626-e6a9-49d1-b9b1-fcc6a1302319)

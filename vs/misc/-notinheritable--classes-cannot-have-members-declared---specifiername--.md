@@ -47,4 +47,4 @@ Override modifiers cannot be used with `NotInheritable` classes because their me
  [Overridable](../Topic/Overridable%20\(Visual%20Basic\).md)   
  [NotOverridable](../Topic/NotOverridable%20\(Visual%20Basic\).md)   
  [MustOverride](../Topic/MustOverride%20\(Visual%20Basic\).md)   
- [NOT IN BUILD: Overriding Properties and Methods](assetId:///2167e8f5-1225-4b13-9ebd-02591ba90213)
+ [NOT IN BUILD: Overriding Properties and Methods](http://msdn.microsoft.com/2167e8f5-1225-4b13-9ebd-02591ba90213)

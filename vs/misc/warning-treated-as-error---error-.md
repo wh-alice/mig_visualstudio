@@ -47,5 +47,5 @@ A warning was encountered when running an assembly compiled with the **Treat War
   
 ## See Also  
  [/warnaserror (Visual Basic)](../Topic/-warnaserror%20\(Visual%20Basic\).md)   
- [Property Pages Build Page](assetId:///1e499ee7-5bd6-44ca-a048-82c357fafaa7)   
- [Build, Configuration Properties, Deployment Project Properties Dialog Box](assetId:///45cf8bf4-56aa-4f2d-bdef-908c7010d7fc)
+ [Property Pages Build Page](http://msdn.microsoft.com/1e499ee7-5bd6-44ca-a048-82c357fafaa7)   
+ [Build, Configuration Properties, Deployment Project Properties Dialog Box](http://msdn.microsoft.com/45cf8bf4-56aa-4f2d-bdef-908c7010d7fc)

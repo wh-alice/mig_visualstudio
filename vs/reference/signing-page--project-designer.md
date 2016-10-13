@@ -76,7 +76,7 @@ Use the **Signing** page of the **Project Designer** to sign the application and
   
 ## Assembly Signing  
  **Sign the assembly** check box  
- Select this check box to sign the assembly and create a strongly named key file. For more information about signing the assembly by using the **Project Designer**, see [How to: Sign an Assembly (Visual Studio)](assetId:///f468a7d3-234c-4353-924d-8e0ae5896564).  
+ Select this check box to sign the assembly and create a strongly named key file. For more information about signing the assembly by using the **Project Designer**, see [How to: Sign an Assembly (Visual Studio)](http://msdn.microsoft.com/f468a7d3-234c-4353-924d-8e0ae5896564).  
   
  This option uses the Al.exe tool provided by the [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)] to sign the assembly. For more information about Al.exe, see [How to: Sign an Assembly with a Strong Name](../Topic/How%20to:%20Sign%20an%20Assembly%20with%20a%20Strong%20Name.md).  
   
@@ -101,8 +101,8 @@ Use the **Signing** page of the **Project Designer** to sign the application and
 ## See Also  
  [Project Properties Reference](../reference/project-properties-reference.md)   
  [Managing Assembly and Manifest Signing](../ide/managing-assembly-and-manifest-signing.md)   
- [Strong-Name Signing for Managed Applications](assetId:///5fef3490-c519-4363-94fd-8b1ad260dab5)   
+ [Strong-Name Signing for Managed Applications](http://msdn.microsoft.com/5fef3490-c519-4363-94fd-8b1ad260dab5)   
  [How to: Sign Application and Deployment Manifests](../ide/how-to--sign-application-and-deployment-manifests.md)   
- [How to: Sign an Assembly (Visual Studio)](assetId:///f468a7d3-234c-4353-924d-8e0ae5896564)   
+ [How to: Sign an Assembly (Visual Studio)](http://msdn.microsoft.com/f468a7d3-234c-4353-924d-8e0ae5896564)   
  [How to: Sign an Assembly with a Strong Name](../Topic/How%20to:%20Sign%20an%20Assembly%20with%20a%20Strong%20Name.md)   
  [Strong-Named Assemblies](../Topic/Strong-Named%20Assemblies.md)

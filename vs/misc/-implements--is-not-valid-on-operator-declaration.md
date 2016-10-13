@@ -37,7 +37,7 @@ translation.priority.mt:
 # &#39;Implements&#39; is not valid on operator declaration
 An [Operator Statement](../Topic/Operator%20Statement.md) specifies the [Implements](../Topic/Implements%20Clause%20\(Visual%20Basic\).md) keyword.  
   
- Only a `Function` or `Sub` procedure, a property, or an event can implement an interface member. For more information on implementation, see [NOT IN BUILD: Interface Implementation Examples in Visual Basic](assetId:///50bf2a30-73b6-4126-a921-075fd6eec278).  
+ Only a `Function` or `Sub` procedure, a property, or an event can implement an interface member. For more information on implementation, see [NOT IN BUILD: Interface Implementation Examples in Visual Basic](http://msdn.microsoft.com/50bf2a30-73b6-4126-a921-075fd6eec278).  
   
  An `Operator` procedure requires both the `Public` and `Shared` keywords, and a conversion operator requires either the `Widening` or the `Narrowing` keyword. For more information, see [Operator Procedures](../Topic/Operator%20Procedures%20\(Visual%20Basic\).md).  
   

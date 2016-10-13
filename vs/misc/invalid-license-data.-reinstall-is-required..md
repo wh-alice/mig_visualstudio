@@ -39,4 +39,4 @@ This error generally occurs when the license key information found in the regist
 1.  Reinstall the product.  
   
 ## See Also  
- [Installing Visual Studio](assetId:///6f9e6098-53c5-4edd-a25c-c1901715a503)
+ [Installing Visual Studio](http://msdn.microsoft.com/6f9e6098-53c5-4edd-a25c-c1901715a503)

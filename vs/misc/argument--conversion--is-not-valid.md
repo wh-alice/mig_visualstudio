@@ -39,4 +39,4 @@ A value for the `VbStrConv` enumeration is not valid, possibly because it is les
 1.  Ensure that the value is greater than or equal to zero.  
   
 ## See Also  
- [NOTINBUILD VbStrConv Enumeration](assetId:///59f83dd9-6361-47df-a836-02ba9d4cb936)
+ [NOTINBUILD VbStrConv Enumeration](http://msdn.microsoft.com/59f83dd9-6361-47df-a836-02ba9d4cb936)

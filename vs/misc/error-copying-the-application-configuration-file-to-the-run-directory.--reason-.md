@@ -47,4 +47,4 @@ The project system cannot copy an app.config file to the directory from which th
  You may also want to make sure that there is not another copy of the application running.  
   
 ## See Also  
- [NIB How to: Modify Project Properties and Configuration Settings](assetId:///e7184bc5-2f2b-4b4f-aa9a-3ecfcbc48b67)
+ [NIB How to: Modify Project Properties and Configuration Settings](http://msdn.microsoft.com/e7184bc5-2f2b-4b4f-aa9a-3ecfcbc48b67)

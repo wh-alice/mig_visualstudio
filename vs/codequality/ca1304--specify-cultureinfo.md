@@ -89,4 +89,4 @@ translation.priority.mt:
  [CA1305: Specify IFormatProvider](../codequality/ca1305--specify-iformatprovider.md)  
   
 ## See Also  
- [NIB: Using the CultureInfo Class](assetId:///d4329e34-64c3-4d1e-8c73-5b0ee626ba7a)
+ [NIB: Using the CultureInfo Class](http://msdn.microsoft.com/d4329e34-64c3-4d1e-8c73-5b0ee626ba7a)

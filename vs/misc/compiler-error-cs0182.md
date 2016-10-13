@@ -50,7 +50,7 @@ An attribute argument must be a constant expression, typeof expression or array 
   
 -   [decimal](../Topic/decimal%20\(C%23%20Reference\).md)  
   
- For more information, see [NOT IN BUILD: Global Attributes (C# Programming Guide)](assetId:///7c6c41f8-f0d5-4345-8987-3d91f9bae136).  
+ For more information, see [NOT IN BUILD: Global Attributes (C# Programming Guide)](http://msdn.microsoft.com/7c6c41f8-f0d5-4345-8987-3d91f9bae136).  
   
 ## Example  
  The following sample generates CS0182:  

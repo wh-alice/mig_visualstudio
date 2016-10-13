@@ -38,7 +38,7 @@ translation.priority.mt:
 # Compiler Error CS0243
 The Conditional attribute is not valid on 'method' because it is an override method  
   
- The [Conditional](assetId:///e1c4913b-74d0-421a-8a6d-c14b3f0e68fb) attribute is not allowed on a method that is marked with the [override](../Topic/override%20\(C%23%20Reference\).md) keyword. For more information, see [Knowing When to Use Override and New Keywords](../Topic/Knowing%20When%20to%20Use%20Override%20and%20New%20Keywords%20\(C%23%20Programming%20Guide\).md).  
+ The [Conditional](http://msdn.microsoft.com/e1c4913b-74d0-421a-8a6d-c14b3f0e68fb) attribute is not allowed on a method that is marked with the [override](../Topic/override%20\(C%23%20Reference\).md) keyword. For more information, see [Knowing When to Use Override and New Keywords](../Topic/Knowing%20When%20to%20Use%20Override%20and%20New%20Keywords%20\(C%23%20Programming%20Guide\).md).  
   
  The compiler never binds to override methods; it only binds to the base method and the common language runtime calls the override, as appropriate.  
   

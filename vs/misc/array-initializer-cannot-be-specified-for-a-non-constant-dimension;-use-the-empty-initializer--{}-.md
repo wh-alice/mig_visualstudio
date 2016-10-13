@@ -64,6 +64,6 @@ Next i
   
 ## See Also  
  [For Each...Next Statement](../Topic/For%20Each...Next%20Statement%20\(Visual%20Basic\).md)   
- [NOTINBUILD Overview of Arrays in Visual Basic](assetId:///ca50e2f2-b4d2-4c57-9169-9abbcc3392d8)   
+ [NOTINBUILD Overview of Arrays in Visual Basic](http://msdn.microsoft.com/ca50e2f2-b4d2-4c57-9169-9abbcc3392d8)   
  [How to: Initialize an Array Variable in Visual Basic](../Topic/How%20to:%20Initialize%20an%20Array%20Variable%20in%20Visual%20Basic.md)   
- [NOTINBUILD How to: Initialize a Multidimensional Array](assetId:///502dcf8b-d86c-46f1-ad7d-3ce809645774)
+ [NOTINBUILD How to: Initialize a Multidimensional Array](http://msdn.microsoft.com/502dcf8b-d86c-46f1-ad7d-3ce809645774)

@@ -47,4 +47,4 @@ You attempted to place an `#ExternalSource` directive within another `#ExternalS
   
 ## See Also  
  [#ExternalSource Directive](../Topic/%23ExternalSource%20Directive.md)   
- [NOTINBUILD Conditional Compilation (Visual Basic)](assetId:///ad1e35e0-935e-4a35-a2ae-738bcf2a9240)
+ [NOTINBUILD Conditional Compilation (Visual Basic)](http://msdn.microsoft.com/ad1e35e0-935e-4a35-a2ae-738bcf2a9240)

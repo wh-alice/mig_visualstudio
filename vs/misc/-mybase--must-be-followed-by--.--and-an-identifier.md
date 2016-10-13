@@ -46,5 +46,5 @@ translation.priority.mt:
 -   If you do not intend member access, declare and initialize an instance of the base class, or remove the reference to `MyBase`.  
   
 ## See Also  
- [MyBase - delete](assetId:///52491d06-6451-4f6f-9aa6-8fab59bbc2b9)   
+ [MyBase - delete](http://msdn.microsoft.com/52491d06-6451-4f6f-9aa6-8fab59bbc2b9)   
  [Inheritance Basics](../Topic/Inheritance%20Basics%20\(Visual%20Basic\).md)

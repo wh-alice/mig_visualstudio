@@ -47,4 +47,4 @@ You attempted to override a delegate on the base class name that was declared wi
   
 ## See Also  
  [Declare Statement](../Topic/Declare%20Statement.md)   
- [NOT IN BUILD: Overriding Properties and Methods](assetId:///2167e8f5-1225-4b13-9ebd-02591ba90213)
+ [NOT IN BUILD: Overriding Properties and Methods](http://msdn.microsoft.com/2167e8f5-1225-4b13-9ebd-02591ba90213)

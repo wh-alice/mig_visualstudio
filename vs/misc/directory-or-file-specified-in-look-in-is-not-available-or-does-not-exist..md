@@ -45,5 +45,5 @@ This error generally occurs when the path or file name specified in the Browse l
   
 ## See Also  
  [Finding and Replacing Text](../ide/finding-and-replacing-text.md)   
- [Choose Search Folders](assetId:///85af6458-dcde-4a84-9ea4-f5cc6550dc80)   
+ [Choose Search Folders](http://msdn.microsoft.com/85af6458-dcde-4a84-9ea4-f5cc6550dc80)   
  [Find in Files](../ide/find-in-files.md)

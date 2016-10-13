@@ -48,5 +48,5 @@ An `End Property` statement appears in your code with no matching `Property` dec
 -   Move the `End Property` to the appropriate place in the code.  
   
 ## See Also  
- [NOT IN BUILD: Properties and Property Procedures](assetId:///23e2a1ec-7e9d-4109-8940-c703d981077b)   
+ [NOT IN BUILD: Properties and Property Procedures](http://msdn.microsoft.com/23e2a1ec-7e9d-4109-8940-c703d981077b)   
  [End \<keyword> Statement](../Topic/End%20%3Ckeyword%3E%20Statement%20\(Visual%20Basic\).md)

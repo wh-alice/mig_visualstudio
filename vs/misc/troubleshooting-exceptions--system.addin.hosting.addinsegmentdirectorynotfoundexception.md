@@ -36,7 +36,7 @@ translation.priority.mt:
 The \<xref:System.AddIn.Hosting.AddInSegmentDirectoryNotFoundException> exception is thrown when a segment directory is missing from the pipeline directory structure.  
   
 ## Remarks  
- When an add-in is activated, its pipeline to the host is constructed. The add-in system requires that pipeline segments be placed in a specified directory structure with specified directory names, as described in [Pipeline Development Requirements](assetId:///ef9fa986-e80b-43e1-868b-247f4c1d9da5).  
+ When an add-in is activated, its pipeline to the host is constructed. The add-in system requires that pipeline segments be placed in a specified directory structure with specified directory names, as described in [Pipeline Development Requirements](http://msdn.microsoft.com/ef9fa986-e80b-43e1-868b-247f4c1d9da5).  
   
 ## See Also  
  \<xref:System.AddIn.Hosting.AddInSegmentDirectoryNotFoundException>   

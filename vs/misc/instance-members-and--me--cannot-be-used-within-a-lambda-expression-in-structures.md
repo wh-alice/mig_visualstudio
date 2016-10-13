@@ -69,5 +69,5 @@ End Structure
   
 ## See Also  
  [Lambda Expressions](../Topic/Lambda%20Expressions%20\(Visual%20Basic\).md)   
- [Me](assetId:///a65973c7-cf06-4547-9b25-9fba885525c2)   
+ [Me](http://msdn.microsoft.com/a65973c7-cf06-4547-9b25-9fba885525c2)   
  [Structure Statement](../Topic/Structure%20Statement.md)

@@ -40,7 +40,7 @@ The methods that implement an event shall be marked SpecialName in the metadata
   
  A method that implements an event was not marked with **specialname** in the metadata.  
   
- For more information CLS compliance checking, see [CLS Compliant Assemblies](assetId:///3320b57e-ea55-4697-a17d-f509a36a3c93).  
+ For more information CLS compliance checking, see [CLS Compliant Assemblies](http://msdn.microsoft.com/3320b57e-ea55-4697-a17d-f509a36a3c93).  
   
  The following function declaration (using MSIL assembly language) shows what could cause CLS02902:  
   

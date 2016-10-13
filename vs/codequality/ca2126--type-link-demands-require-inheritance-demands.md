@@ -72,6 +72,6 @@ translation.priority.ht:
   
 ## See Also  
  [Secure Coding Guidelines](../Topic/Secure%20Coding%20Guidelines.md)   
- [Inheritance Demands](assetId:///28b9adbb-8f08-4f10-b856-dbf59eb932d9)   
+ [Inheritance Demands](http://msdn.microsoft.com/28b9adbb-8f08-4f10-b856-dbf59eb932d9)   
  [Link Demands](../Topic/Link%20Demands.md)   
- [Demands](assetId:///e5283e28-2366-4519-b27d-ef5c1ddc1f48)
+ [Demands](http://msdn.microsoft.com/e5283e28-2366-4519-b27d-ef5c1ddc1f48)

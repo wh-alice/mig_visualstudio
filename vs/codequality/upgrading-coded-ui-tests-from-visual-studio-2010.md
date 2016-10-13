@@ -37,7 +37,7 @@ Test Projects containing coded UI tests that were created in [!INCLUDE[vs_dev10_
 -   Visual Studio Enterprise  
   
 > [!NOTE]
->  Visual Studio includes more than one test project type. If you create a new coded UI test, it will be created in a coded UI test project type. For more information, see [Upgrading Tests from Earlier Versions of Visual Studio](assetId:///e9c8b7f6-bd72-448e-8edb-d090dcc5cf52).  
+>  Visual Studio includes more than one test project type. If you create a new coded UI test, it will be created in a coded UI test project type. For more information, see [Upgrading Tests from Earlier Versions of Visual Studio](http://msdn.microsoft.com/e9c8b7f6-bd72-448e-8edb-d090dcc5cf52).  
   
 > [!WARNING]
 >  [!INCLUDE[vs_dev10_long](../codequality/includes/vs_dev10_long_md.md)] test projects that contain coded UI tests must be rebuilt when you open the test project in [!INCLUDE[vs_dev11_long](../codequality/includes/vs_dev11_long_md.md)] or [!INCLUDE[vs_dev10_long](../codequality/includes/vs_dev10_long_md.md)] side-by-side with [!INCLUDE[vs_dev11_long](../codequality/includes/vs_dev11_long_md.md)].  
@@ -77,7 +77,7 @@ Test Projects containing coded UI tests that were created in [!INCLUDE[vs_dev10_
   
 ## See Also  
  [Porting, Migrating, and Upgrading Visual Studio Projects](../porting/porting--migrating--and-upgrading-visual-studio-projects.md)   
- [Upgrading Tests from Earlier Versions of Visual Studio](assetId:///e9c8b7f6-bd72-448e-8edb-d090dcc5cf52)   
+ [Upgrading Tests from Earlier Versions of Visual Studio](http://msdn.microsoft.com/e9c8b7f6-bd72-448e-8edb-d090dcc5cf52)   
  [Use UI Automation To Test Your Code](../codequality/use-ui-automation-to-test-your-code.md)   
  [Generating a Coded UI Test from an Existing Action Recording](../Topic/Generating%20a%20Coded%20UI%20Test%20from%20an%20Existing%20Action%20Recording.md)   
  [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../codequality/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)

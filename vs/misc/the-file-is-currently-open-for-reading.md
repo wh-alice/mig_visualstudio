@@ -38,6 +38,6 @@ An attempt has been made to access a file that is currently open for reading.
   
 ## See Also  
  \<xref:System.Security.Permissions.FileIOPermission>   
- [How to: Get Information About a File in Visual Basic](assetId:///ca0720ec-f40e-4c11-9748-0ce1685c78f0)   
+ [How to: Get Information About a File in Visual Basic](http://msdn.microsoft.com/ca0720ec-f40e-4c11-9748-0ce1685c78f0)   
  [How to: Read from Text Files](../Topic/How%20to:%20Read%20From%20Text%20Files%20in%20Visual%20Basic.md)   
  [How to: Read From Binary Files](../Topic/How%20to:%20Read%20From%20Binary%20Files%20in%20Visual%20Basic.md)

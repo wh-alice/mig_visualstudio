@@ -46,5 +46,5 @@ An attempt was made to assign a value to a constant declared in an attribute.
 -   If you are using custom attributes that you developed, redefine the member in the attribute as a field.  
   
 ## See Also  
- [NOT IN BUILD: Attributes in Visual Basic](assetId:///620bfc0e-4582-4c8b-8432-ebc5c3dccc22)   
+ [NOT IN BUILD: Attributes in Visual Basic](http://msdn.microsoft.com/620bfc0e-4582-4c8b-8432-ebc5c3dccc22)   
  [Constants and Enumerations](../Topic/Constants%20and%20Enumerations%20\(Visual%20Basic\).md)

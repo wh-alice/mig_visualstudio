@@ -45,4 +45,4 @@ The key file specified for this project could not be opened.
   
 ## See Also  
  [Sn.exe (Strong Name Tool)](../Topic/Sn.exe%20\(Strong%20Name%20Tool\).md)   
- [NOT IN BUILD: Global Attributes in Visual Basic](assetId:///253a32d8-1531-4504-b687-088554ab71d2)
+ [NOT IN BUILD: Global Attributes in Visual Basic](http://msdn.microsoft.com/253a32d8-1531-4504-b687-088554ab71d2)

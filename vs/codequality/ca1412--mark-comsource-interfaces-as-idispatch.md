@@ -65,5 +65,5 @@ translation.priority.mt:
  [CA1408: Do not use AutoDual ClassInterfaceType](../codequality/ca1408--do-not-use-autodual-classinterfacetype.md)  
   
 ## See Also  
- [How to: Raise Events Handled by a COM Sink](assetId:///7c9944b2-e951-4c3e-a0a1-59b2ae37d7fd)   
+ [How to: Raise Events Handled by a COM Sink](http://msdn.microsoft.com/7c9944b2-e951-4c3e-a0a1-59b2ae37d7fd)   
  [Interoperating with Unmanaged Code](../Topic/Interoperating%20with%20Unmanaged%20Code.md)

@@ -62,7 +62,7 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
 -   Datasets and TableAdapters. For more information, see [Dataset tools in Visual Studio](../datatools/dataset-tools-in-visual-studio.md) and [TableAdapter Overview](../datatools/tableadapter-overview.md).  
   
--   Working with the WPF Designer. For more information, see [WPF and Silverlight Designer Overview](assetId:///570b7a5c-0c86-4326-a371-c9b63378fc62).  
+-   Working with the WPF Designer. For more information, see [WPF and Silverlight Designer Overview](http://msdn.microsoft.com/570b7a5c-0c86-4326-a371-c9b63378fc62).  
   
 -   WPF data binding. For more information, see [Data Binding Overview](../Topic/Data%20Binding%20Overview.md).  
   
@@ -269,5 +269,5 @@ In this walkthrough, you will create a WPF application that contains data-bound 
  [Bind WPF controls to data in Visual Studio](../datatools/bind-wpf-controls-to-data-in-visual-studio1.md)   
  [Bind WPF controls to data in Visual Studio](../datatools/bind-wpf-controls-to-data-in-visual-studio2.md)   
  [Dataset tools in Visual Studio](../datatools/dataset-tools-in-visual-studio.md)   
- [WPF and Silverlight Designer Overview](assetId:///570b7a5c-0c86-4326-a371-c9b63378fc62)   
+ [WPF and Silverlight Designer Overview](http://msdn.microsoft.com/570b7a5c-0c86-4326-a371-c9b63378fc62)   
  [Data Binding Overview](../Topic/Data%20Binding%20Overview.md)

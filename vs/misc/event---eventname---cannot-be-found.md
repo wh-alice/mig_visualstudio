@@ -44,4 +44,4 @@ You attempted to handle an event that the compiler cannot locate.
 -   Make sure the event name is correctly spelled.  
   
 ## See Also  
- [NOT IN BUILD:Events and Event Handlers](assetId:///95074a0d-1cbc-4221-a95a-964185c7f962)
+ [NOT IN BUILD:Events and Event Handlers](http://msdn.microsoft.com/95074a0d-1cbc-4221-a95a-964185c7f962)

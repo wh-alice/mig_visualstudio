@@ -44,5 +44,5 @@ You have failed to supply a default property for a class.
 -   Specify a property as the default property by starting its declaration with the `Default` keyword.  
   
 ## See Also  
- [Default Property Changes in Visual Basic](assetId:///9b8cfad7-40ac-4b83-affb-1ff781755a4c)   
+ [Default Property Changes in Visual Basic](http://msdn.microsoft.com/9b8cfad7-40ac-4b83-affb-1ff781755a4c)   
  [Default](../Topic/Default%20\(Visual%20Basic\).md)

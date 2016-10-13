@@ -44,4 +44,4 @@ An invalid conditional compilation option is specified for the project.
 1.  Verify the conditional compilation constants used with this project.  
   
 ## See Also  
- [NOTINBUILD Conditional Compilation (Visual Basic)](assetId:///ad1e35e0-935e-4a35-a2ae-738bcf2a9240)
+ [NOTINBUILD Conditional Compilation (Visual Basic)](http://msdn.microsoft.com/ad1e35e0-935e-4a35-a2ae-738bcf2a9240)

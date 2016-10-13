@@ -40,4 +40,4 @@ This error generally occurs when a name has not been entered for the Toolbox tab
 1.  Enter a name for the Toolbox tab.  
   
 ## See Also  
- [How to: Manipulate Toolbox Tabs](assetId:///21285050-cadd-455a-b1f5-a2289a89c4db)
+ [How to: Manipulate Toolbox Tabs](http://msdn.microsoft.com/21285050-cadd-455a-b1f5-a2289a89c4db)

@@ -46,5 +46,5 @@ A `Catch` block within the code is never reached.
 -   Remove the extraneous `Catch` block.  
   
 ## See Also  
- [How to: Test Code with a Try…Catch Block in Visual Basic](assetId:///8368e205-ed73-4185-a247-af84fb4fafa9)   
+ [How to: Test Code with a Try…Catch Block in Visual Basic](http://msdn.microsoft.com/8368e205-ed73-4185-a247-af84fb4fafa9)   
  [Try...Catch...Finally Statement](../Topic/Try...Catch...Finally%20Statement%20\(Visual%20Basic\).md)

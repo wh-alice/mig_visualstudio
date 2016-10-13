@@ -45,4 +45,4 @@ You have attempted to use the `New` keyword to implement an interface method, wh
   
 ## See Also  
  [Implements Statement](../Topic/Implements%20Statement.md)   
- [NOT IN BUILD: Interfaces Overview](assetId:///f96bb470-c1b8-4c73-89bc-6f536b798da1)
+ [NOT IN BUILD: Interfaces Overview](http://msdn.microsoft.com/f96bb470-c1b8-4c73-89bc-6f536b798da1)

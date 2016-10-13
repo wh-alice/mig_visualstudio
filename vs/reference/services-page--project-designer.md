@@ -83,4 +83,4 @@ Client application services provide simplified access to [!INCLUDE[ajax_current_
  [How to: Configure Client Application Services](../Topic/How%20to:%20Configure%20Client%20Application%20Services.md)   
  [Compile Page, Project Designer (Visual Basic)](../reference/compile-page--project-designer--visual-basic-.md)   
  [Build Page, Project Designer (C#)](../reference/build-page--project-designer--csharp-.md)   
- [Introduction to the Project Designer](assetId:///898dd854-c98d-430c-ba1b-a913ce3c73d7)
+ [Introduction to the Project Designer](http://msdn.microsoft.com/898dd854-c98d-430c-ba1b-a913ce3c73d7)

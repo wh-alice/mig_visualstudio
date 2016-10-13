@@ -100,7 +100,7 @@ When developing data applications, it is usually best to use a local copy of a d
 > [!NOTE]
 >  The **Copy to Output Directory** property doesn’t apply to web or C++ projects.  
   
- The database file in your root project folder is changed only when you edit the database schema or data by using **Server Explorer**/**Database Explorer** or other [Visual Database Tools](assetId:///6b145922-2f00-47db-befc-bf351b4809a1).  
+ The database file in your root project folder is changed only when you edit the database schema or data by using **Server Explorer**/**Database Explorer** or other [Visual Database Tools](http://msdn.microsoft.com/6b145922-2f00-47db-befc-bf351b4809a1).  
   
  As you change data during application development, you’re changing the database in the **bin** folder. For example, when you choose the F5 key to debug your application, you’re connected to the database in that folder.  
   

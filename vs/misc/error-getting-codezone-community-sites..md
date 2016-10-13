@@ -45,4 +45,4 @@ This error occurs when a connection to the online Web service cannot be found. T
 2.  Try accessing the Online page again.  
   
 ## See Also  
- [Online, Help, Environment, Options Dialog Box](assetId:///f02bd51c-37df-4f3f-9ad2-292ab4250c0a)
+ [Online, Help, Environment, Options Dialog Box](http://msdn.microsoft.com/f02bd51c-37df-4f3f-9ad2-292ab4250c0a)

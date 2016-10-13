@@ -44,4 +44,4 @@ You have attempted to declare a `Sub New` with a modifier, such as `Overrides`, 
 -   Remove the modifier.  
   
 ## See Also  
- [NOT IN BUILD: Using Constructors and Destructors](assetId:///548eebe1-86c4-4377-b2f5-447cb8be3d90)
+ [NOT IN BUILD: Using Constructors and Destructors](http://msdn.microsoft.com/548eebe1-86c4-4377-b2f5-447cb8be3d90)

@@ -76,4 +76,4 @@ translation.priority.ht:
 ## See Also  
  \<xref:System.Security.CodeAccessPermission.Demand*?displayProperty=fullName>   
  \<xref:System.EventArgs?displayProperty=fullName>   
- [Security Demands](assetId:///324c14f8-54ff-494d-9fd1-bfd20962c8ba)
+ [Security Demands](http://msdn.microsoft.com/324c14f8-54ff-494d-9fd1-bfd20962c8ba)

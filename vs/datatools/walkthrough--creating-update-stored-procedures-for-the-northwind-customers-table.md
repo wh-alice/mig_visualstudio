@@ -81,7 +81,7 @@ Some Help topics in the [!INCLUDE[vs_current_short](../codequality/includes/vs_c
      The data connection is added to **Server Explorer**/**Database Explorer**.  
   
 ## Creating the Stored Procedures  
- Create the stored procedures by running the provided SQL script against the Northwind database by using the [Visual Database Tools](assetId:///6b145922-2f00-47db-befc-bf351b4809a1) available in **Server Explorer**/**Database Explorer**.  
+ Create the stored procedures by running the provided SQL script against the Northwind database by using the [Visual Database Tools](http://msdn.microsoft.com/6b145922-2f00-47db-befc-bf351b4809a1) available in **Server Explorer**/**Database Explorer**.  
   
 #### To create the stored procedures by using a SQL script  
   

@@ -35,7 +35,7 @@ The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] automation model pr
   
  Typically, pages in the **Options** dialog box can be accessed by using the automation model, whether the pages are provided by the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE) or by a VSPackage. However, there are some exceptions, as follows:  
   
--   The settings of the **Dynamic Help** page cannot be accessed programmatically. The **Dynamic Help** feature can be controlled by using the automation model, but control must be accomplished directly in code. For more information, see [How to: Control the Dynamic Help Window](assetId:///7f5777aa-c270-4058-a175-8ce8a4ed25eb).  
+-   The settings of the **Dynamic Help** page cannot be accessed programmatically. The **Dynamic Help** feature can be controlled by using the automation model, but control must be accomplished directly in code. For more information, see [How to: Control the Dynamic Help Window](http://msdn.microsoft.com/7f5777aa-c270-4058-a175-8ce8a4ed25eb).  
   
 -   Control of the **Fonts and Color** page settings is provided through its own API, not through the automation model. For more information, see [Using Fonts and Colors](../extensibility/using-fonts-and-colors.md).  
   

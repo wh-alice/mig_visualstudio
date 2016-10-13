@@ -47,7 +47,7 @@ IDiaEnumSectionContribs : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[IDiaEnumSectionContribs::get__NewEnum](../debugger/idiaenumsectioncontribs--get__newenum.md)|Retrieves the [IEnumVARIANT Interface](assetId:///139e3c93-faef-4003-9079-e0e94494db3e) version of this enumerator.|  
+|[IDiaEnumSectionContribs::get__NewEnum](../debugger/idiaenumsectioncontribs--get__newenum.md)|Retrieves the [IEnumVARIANT Interface](http://msdn.microsoft.com/139e3c93-faef-4003-9079-e0e94494db3e) version of this enumerator.|  
 |[IDiaEnumSectionContribs::get_Count](../debugger/idiaenumsectioncontribs--get_count.md)|Retrieves the number of section contributions.|  
 |[IDiaEnumSectionContribs::Item](../debugger/idiaenumsectioncontribs--item.md)|Retrieves section contributions by means of an index.|  
 |[IDiaEnumSectionContribs::Next](../debugger/idiaenumsectioncontribs--next.md)|Retrieves a specified number of section contributions in the enumeration sequence.|  

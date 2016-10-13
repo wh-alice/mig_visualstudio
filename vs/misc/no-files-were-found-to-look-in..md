@@ -50,4 +50,4 @@ This error generally occurs when a file name or directory has been specified in 
 ## See Also  
  [Finding and Replacing Text](../ide/finding-and-replacing-text.md)   
  [Find in Files](../ide/find-in-files.md)   
- [Choose Search Folders](assetId:///85af6458-dcde-4a84-9ea4-f5cc6550dc80)
+ [Choose Search Folders](http://msdn.microsoft.com/85af6458-dcde-4a84-9ea4-f5cc6550dc80)

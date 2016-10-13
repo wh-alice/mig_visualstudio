@@ -43,7 +43,7 @@ A \<xref:System.Security.VerificationException> exception is thrown when the sec
   
 ## Associated Tips  
  Make sure your application is not loading two conflicting versions of a class library.  
- As part of the verification process, MSIL (Microsoft intermediate language) is checked for type safety to ensure that objects are safely isolated from each other and are therefore safe from accidental or malicious corruption. For more information, see [Type Safety and Security](assetId:///095cd1f6-d8db-4c0e-bce2-83ccb34dd5dc).  
+ As part of the verification process, MSIL (Microsoft intermediate language) is checked for type safety to ensure that objects are safely isolated from each other and are therefore safe from accidental or malicious corruption. For more information, see [Type Safety and Security](http://msdn.microsoft.com/095cd1f6-d8db-4c0e-bce2-83ccb34dd5dc).  
   
 ## See Also  
  \<xref:System.Security.VerificationException>   

@@ -80,5 +80,5 @@ The interaction between managed code and COM can cause problems when HRESULT ret
  [Managed VSPackages](../misc/managed-vspackages.md)   
  [Interoperating with Unmanaged Code](../Topic/Interoperating%20with%20Unmanaged%20Code.md)   
  [How to: Map HRESULTs and Exceptions](../Topic/How%20to:%20Map%20HRESULTs%20and%20Exceptions.md)   
- [Building COM Components for Interoperation](assetId:///7a2c657a-cfef-40f0-bed3-7c2c0ac4abdf)   
+ [Building COM Components for Interoperation](http://msdn.microsoft.com/7a2c657a-cfef-40f0-bed3-7c2c0ac4abdf)   
  [Managed VSPackages](../misc/managed-vspackages.md)

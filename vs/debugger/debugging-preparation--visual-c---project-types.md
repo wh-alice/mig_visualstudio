@@ -110,7 +110,7 @@ This section describes how to debug the basic project types created by the [!INC
  [In this topic](../debugger/debugging-preparation--visual-c---project-types.md#BKMK_In_this_topic)  
   
 ##  <a name="BKMK_Windows_Forms_Applications___NET_"></a> Windows Forms applications (.NET)  
- The **Windows Forms Application (.NET)** template creates a [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)] Windows Forms application. For more information, see [How to: Create a Windows Application Project](assetId:///b2f93fed-c635-4705-8d0e-cf079a264efa).  
+ The **Windows Forms Application (.NET)** template creates a [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)] Windows Forms application. For more information, see [How to: Create a Windows Application Project](http://msdn.microsoft.com/b2f93fed-c635-4705-8d0e-cf079a264efa).  
   
  Debugging this type of application in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] is similar to that in managed Windows Forms applications.  
   
@@ -127,4 +127,4 @@ This section describes how to debug the basic project types created by the [!INC
  [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-c---debug-configuration.md)   
  [Attaching to a Running Program or Multiple Programs](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)   
  [Debug and Release Configurations](../debugger/how-to--set-debug-and-release-configurations.md)   
- [How to: Create a Windows Application Project](assetId:///b2f93fed-c635-4705-8d0e-cf079a264efa)
+ [How to: Create a Windows Application Project](http://msdn.microsoft.com/b2f93fed-c635-4705-8d0e-cf079a264efa)

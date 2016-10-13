@@ -58,4 +58,4 @@ You can evaluate the pre-release version of Visual Studio for 14 days without re
  [Signing in to Visual Studio](../ide/signing-in-to-visual-studio.md)   
  [How to: Locate the Visual Studio Product Key](../install/how-to--locate-the-visual-studio-product-key.md)   
  [Locate or Change the Product Key for Team Foundation Server](../Topic/Locate%20or%20Change%20the%20Product%20Key%20for%20Team%20Foundation%20Server.md)   
- [Customizing Development Settings in Visual Studio](assetId:///22c4debb-4e31-47a8-8f19-16f328d7dcd3)
+ [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)

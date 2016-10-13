@@ -83,7 +83,7 @@ caps.latest.revision: 5
   
 |||||  
 |-|-|-|-|  
-|[What’s new in Visual Studio 2015](../Topic/What's%20New%20in%20Visual%20Studio%202015.md)|[What's New for Visual C#](../Topic/What's%20New%20for%20Visual%20C%23.md)|[What’s new for .NET Framework 4.6](../Topic/What's%20New%20in%20the%20.NET%20Framework.md)|[What’s new for ALM](assetId:///54b98a53-6083-4303-869a-8063d8fae938)|  
+|[What’s new in Visual Studio 2015](../Topic/What's%20New%20in%20Visual%20Studio%202015.md)|[What's New for Visual C#](../Topic/What's%20New%20for%20Visual%20C%23.md)|[What’s new for .NET Framework 4.6](../Topic/What's%20New%20in%20the%20.NET%20Framework.md)|[What’s new for ALM](http://msdn.microsoft.com/54b98a53-6083-4303-869a-8063d8fae938)|  
 |[What’s new for C++](../Topic/What's%20New%20for%20Visual%20C++%20in%20Visual%20Studio%202015.md)|[What's New for Visual Basic](../Topic/What's%20New%20for%20Visual%20Basic.md)|[What’s new for JavaScript](../Topic/What's%20New%20in%20JavaScript.md)||  
 |[Python](../Topic/Getting%20Started%20with%20Python.md)||||  
   

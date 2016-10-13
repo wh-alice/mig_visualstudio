@@ -40,7 +40,7 @@ Literal static fields of an enum shall have the type of the enum itself
   
  Make sure that literal static fields of an enum have type of the enum itself.  
   
- For more information CLS compliance checking, see [CLS Compliant Assemblies](assetId:///3320b57e-ea55-4697-a17d-f509a36a3c93).  
+ For more information CLS compliance checking, see [CLS Compliant Assemblies](http://msdn.microsoft.com/3320b57e-ea55-4697-a17d-f509a36a3c93).  
   
  The following declaration (using MSIL assembly language) shows what could cause CLS00911:  
   

@@ -38,4 +38,4 @@ There is a bad installation of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_
 -   Reinstall [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
   
 ## See Also  
- [File Types and File Extensions in Visual Basic and Visual C#](assetId:///f793852c-da06-4d52-a826-65f635844772)
+ [File Types and File Extensions in Visual Basic and Visual C#](http://msdn.microsoft.com/f793852c-da06-4d52-a826-65f635844772)

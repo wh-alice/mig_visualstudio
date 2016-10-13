@@ -70,4 +70,4 @@ VSPackages must advise [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] 
   
 ## See Also  
  [Windows Installer](http://msdn.microsoft.com/library/cc185688\(VS.85\).aspx)   
- [Managed Package Registration](assetId:///f69e0ea3-6a92-4639-8ca9-4c9c210e58a1)
+ [Managed Package Registration](http://msdn.microsoft.com/f69e0ea3-6a92-4639-8ca9-4c9c210e58a1)

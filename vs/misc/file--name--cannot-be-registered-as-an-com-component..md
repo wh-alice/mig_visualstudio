@@ -47,4 +47,4 @@ The file cannot be added to the project's references. This error occurs when a f
     >  The product that installed the file may not be Visual Studio.  
   
 ## See Also  
- [Edit Custom Component Set Dialog Box](assetId:///dc995bd7-afbf-4389-ba1c-f377b677ded7)
+ [Edit Custom Component Set Dialog Box](http://msdn.microsoft.com/dc995bd7-afbf-4389-ba1c-f377b677ded7)

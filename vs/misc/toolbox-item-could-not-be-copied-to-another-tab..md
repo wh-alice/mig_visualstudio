@@ -44,5 +44,5 @@ This error generally occurs when the item is corrupted or the machine has run ou
 2.  Select a different item to move.  
   
 ## See Also  
- [How to: Manipulate Toolbox Tabs](assetId:///21285050-cadd-455a-b1f5-a2289a89c4db)   
+ [How to: Manipulate Toolbox Tabs](http://msdn.microsoft.com/21285050-cadd-455a-b1f5-a2289a89c4db)   
  [Toolbox](../reference/toolbox.md)

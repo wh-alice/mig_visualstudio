@@ -56,4 +56,4 @@ The project system cannot find a node corresponding to a file.
      The affected files will be added to the project, however, the dependency will not be preserved.  
   
 ## See Also  
- [NIB: Project Properties (Visual Studio)](assetId:///eb4c97ed-f667-4850-98d0-6e2a4d21bbca)
+ [NIB: Project Properties (Visual Studio)](http://msdn.microsoft.com/eb4c97ed-f667-4850-98d0-6e2a4d21bbca)

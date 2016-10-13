@@ -50,4 +50,4 @@ translation.priority.mt:
 ## See Also  
  [Arrays Summary](../Topic/Arrays%20Summary%20\(Visual%20Basic\).md)   
  [ReDim Statement](../Topic/ReDim%20Statement%20\(Visual%20Basic\).md)   
- [ReDim Statement Changes in Visual Basic](assetId:///b4da14db-ff23-490f-b3c6-d7ae1b649532)
+ [ReDim Statement Changes in Visual Basic](http://msdn.microsoft.com/b4da14db-ff23-490f-b3c6-d7ae1b649532)

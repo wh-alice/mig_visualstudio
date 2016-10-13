@@ -68,5 +68,5 @@ greeting.Print()
   
 ## See Also  
  [Extension Methods](../Topic/Extension%20Methods%20\(Visual%20Basic\).md)   
- [How to: Define Optional Parameters for a Procedure (Visual Basic)](assetId:///0b32b312-0da0-489b-96ad-7dcb1f1f8f88)   
+ [How to: Define Optional Parameters for a Procedure (Visual Basic)](http://msdn.microsoft.com/0b32b312-0da0-489b-96ad-7dcb1f1f8f88)   
  [Optional Parameters](../Topic/Optional%20Parameters%20\(Visual%20Basic\).md)

@@ -45,4 +45,4 @@ A constant occurs in a context that assigns a value to it. Only writable variabl
   
 ## See Also  
  [Constants and Enumerations](../Topic/Constants%20and%20Enumerations%20in%20Visual%20Basic.md)   
- [NotInBuild:Assignment Statements](assetId:///eb4f91e9-fbbf-45ca-b21d-e8ae069de4f9)
+ [NotInBuild:Assignment Statements](http://msdn.microsoft.com/eb4f91e9-fbbf-45ca-b21d-e8ae069de4f9)

@@ -42,7 +42,7 @@ The underlying type of an enum shall be a built-in CLS integer type
   
  For more information about CLR enums, see [enum class](../Topic/enum%20class%20%20\(C++%20Component%20Extensions\).md).  
   
- For more information CLS compliance checking, see [CLS Compliant Assemblies](assetId:///3320b57e-ea55-4697-a17d-f509a36a3c93).  
+ For more information CLS compliance checking, see [CLS Compliant Assemblies](http://msdn.microsoft.com/3320b57e-ea55-4697-a17d-f509a36a3c93).  
   
  The following sample generates CLS00711:  
   

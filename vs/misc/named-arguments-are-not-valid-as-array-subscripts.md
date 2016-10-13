@@ -44,5 +44,5 @@ An array index is specified using the syntax for passing a procedure argument by
 -   Use an ordinary variable or constant expression as the array index, for example `Array(10)`.  
   
 ## See Also  
- [NOTINBUILD Overview of Arrays in Visual Basic](assetId:///ca50e2f2-b4d2-4c57-9169-9abbcc3392d8)   
+ [NOTINBUILD Overview of Arrays in Visual Basic](http://msdn.microsoft.com/ca50e2f2-b4d2-4c57-9169-9abbcc3392d8)   
  [Passing Arguments by Position and by Name](../Topic/Passing%20Arguments%20by%20Position%20and%20by%20Name%20\(Visual%20Basic\).md)

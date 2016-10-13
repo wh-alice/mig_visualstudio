@@ -45,5 +45,5 @@ You have not supplied an argument for a required parameter.
   
 ## See Also  
  [Procedure Parameters and Arguments](../Topic/Procedure%20Parameters%20and%20Arguments%20\(Visual%20Basic\).md)   
- [NOT IN BUILD: Class Methods](assetId:///326214bb-6367-48e7-bb24-714844791400)   
+ [NOT IN BUILD: Class Methods](http://msdn.microsoft.com/326214bb-6367-48e7-bb24-714844791400)   
  [Troubleshooting Procedures](../Topic/Troubleshooting%20Procedures%20\(Visual%20Basic\).md)

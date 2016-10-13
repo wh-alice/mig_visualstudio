@@ -70,4 +70,4 @@ Solution platform names cannot contain the following characters:
 1.  Enter a solution platform name that does not contain the characters listed above.  
   
 ## See Also  
- [New Solution Platform Dialog Box](assetId:///d424f02c-29f0-41bb-9338-d705d09fc6e2)
+ [New Solution Platform Dialog Box](http://msdn.microsoft.com/d424f02c-29f0-41bb-9338-d705d09fc6e2)

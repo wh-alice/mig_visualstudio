@@ -49,5 +49,5 @@ Dim client As New Customer { .Name = "Microsoft" }
   
 ## See Also  
  [Object Initializers: Named and Anonymous Types](../Topic/Object%20Initializers:%20Named%20and%20Anonymous%20Types%20\(Visual%20Basic\).md)   
- [NOT IN BUILD: Properties and Property Procedures](assetId:///23e2a1ec-7e9d-4109-8940-c703d981077b)   
- [NOT IN BUILD: Property Procedures vs. Fields](assetId:///da1c05c1-87c7-40fa-b92c-e9c7e4d170f7)
+ [NOT IN BUILD: Properties and Property Procedures](http://msdn.microsoft.com/23e2a1ec-7e9d-4109-8940-c703d981077b)   
+ [NOT IN BUILD: Property Procedures vs. Fields](http://msdn.microsoft.com/da1c05c1-87c7-40fa-b92c-e9c7e4d170f7)

@@ -43,7 +43,7 @@ Keywords are predefined, reserved identifiers that have special meanings. They c
   
 ### To define your own Visual C++ keywords  
   
-1.  Use the Visual Studio [Code and Text Editor](assetId:///508e1f18-99d5-48ad-b5ad-d011b21c6ab1) or Notepad.exe to create a text-only file named `usertype.dat`.  
+1.  Use the Visual Studio [Code and Text Editor](http://msdn.microsoft.com/508e1f18-99d5-48ad-b5ad-d011b21c6ab1) or Notepad.exe to create a text-only file named `usertype.dat`.  
   
 2.  In `usertype.dat`, type each user-defined keyword on a separate line.  
   

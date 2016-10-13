@@ -30,7 +30,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Tips and Tricks for Visual Studio
-You can navigate in [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md)] more easily by using the shortcuts in this topic. For more general information, see [\<PAVEOVER> Keyboard Shortcuts in Visual Studio](assetId:///2e15e27f-296b-4e9c-91e6-d91ea0110a67). For information about how to optimize Visual Studio for accessibility, see [Accessibility Tips and Tricks](../reference/accessibility-tips-and-tricks.md).  
+You can navigate in [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md)] more easily by using the shortcuts in this topic. For more general information, see [\<PAVEOVER> Keyboard Shortcuts in Visual Studio](http://msdn.microsoft.com/2e15e27f-296b-4e9c-91e6-d91ea0110a67). For information about how to optimize Visual Studio for accessibility, see [Accessibility Tips and Tricks](../reference/accessibility-tips-and-tricks.md).  
   
 -   [Window Management](../ide/tips-and-tricks-for-visual-studio.md#BKMK_WindowMgmt)  
   
@@ -148,7 +148,7 @@ You can navigate in [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md
 |Immediate Window Print Value|?varname|  
   
 ##  <a name="BKMK_ALM"></a> Application Lifecycle Management  
- See [Keyboard shortcuts: Visual Studio Online, TFS web portal, and Team Explorer](assetId:///35ea128b-7565-4ee3-8266-b9f0d32aecf4).  
+ See [Keyboard shortcuts: Visual Studio Online, TFS web portal, and Team Explorer](http://msdn.microsoft.com/35ea128b-7565-4ee3-8266-b9f0d32aecf4).  
   
 ## See Also  
  [Visual Studio Blog](http://blogs.msdn.com/b/visualstudio)   

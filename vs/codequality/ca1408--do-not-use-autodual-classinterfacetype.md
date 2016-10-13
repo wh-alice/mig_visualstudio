@@ -69,6 +69,6 @@ translation.priority.mt:
  [CA1412: Mark ComSource Interfaces as IDispatch](../codequality/ca1412--mark-comsource-interfaces-as-idispatch.md)  
   
 ## See Also  
- [Introducing the Class Interface](assetId:///733c0dd2-12e5-46e6-8de1-39d5b25df024)   
+ [Introducing the Class Interface](http://msdn.microsoft.com/733c0dd2-12e5-46e6-8de1-39d5b25df024)   
  [Qualifying .NET Types for Interoperation](../Topic/Qualifying%20.NET%20Types%20for%20Interoperation.md)   
  [Interoperating with Unmanaged Code](../Topic/Interoperating%20with%20Unmanaged%20Code.md)

@@ -46,5 +46,5 @@ A keyword related to class instances, such as `Me` or `MyBase`, is used inside a
 -   If the code using the keyword applies to the module, remove the invalid keyword.  
   
 ## See Also  
- [Me](assetId:///a65973c7-cf06-4547-9b25-9fba885525c2)   
- [MyBase - delete](assetId:///52491d06-6451-4f6f-9aa6-8fab59bbc2b9)
+ [Me](http://msdn.microsoft.com/a65973c7-cf06-4547-9b25-9fba885525c2)   
+ [MyBase - delete](http://msdn.microsoft.com/52491d06-6451-4f6f-9aa6-8fab59bbc2b9)

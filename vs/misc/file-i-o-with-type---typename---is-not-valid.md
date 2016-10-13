@@ -40,4 +40,4 @@ You are attempting to write an unsupported type to a file.
   
 ## See Also  
  [My.Computer.FileSystem Object](../Topic/My.Computer.FileSystem%20Object.md)   
- [My.Computer.FileSystem.WriteAllBytes Method](assetId:///b1a24dc1-eac8-4e22-8ffa-cc3bacbaf826)
+ [My.Computer.FileSystem.WriteAllBytes Method](http://msdn.microsoft.com/b1a24dc1-eac8-4e22-8ffa-cc3bacbaf826)

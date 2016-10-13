@@ -58,6 +58,6 @@ This error appears in the Add Web Reference dialog box if you are developing on 
 9. From the **File** menu, choose **Exit** and then re-open Visual Studio.  
   
 ## See Also  
- [NIB: Add Web Reference Dialog Box](assetId:///bdf05776-c591-40af-bfd7-e1e2aa1e87b5)   
- [NIB: How to: Add and Remove Web References](assetId:///a7ddaa5d-4672-405b-91b3-39de65d7e3a2)   
- [Programming the Web with XML Web Services](assetId:///2d651a26-73df-4b39-85fa-7913a7d6bee4)
+ [NIB: Add Web Reference Dialog Box](http://msdn.microsoft.com/bdf05776-c591-40af-bfd7-e1e2aa1e87b5)   
+ [NIB: How to: Add and Remove Web References](http://msdn.microsoft.com/a7ddaa5d-4672-405b-91b3-39de65d7e3a2)   
+ [Programming the Web with XML Web Services](http://msdn.microsoft.com/2d651a26-73df-4b39-85fa-7913a7d6bee4)

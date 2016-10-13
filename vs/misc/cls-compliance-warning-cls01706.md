@@ -40,7 +40,7 @@ Unmanaged pointer types are not CLS-compliant
   
  A CLS-compliant function signature cannot contain an unmanaged pointer type.  
   
- For more information Common Language Subset (CLS) compliance checking, see [CLS Compliant Assemblies](assetId:///3320b57e-ea55-4697-a17d-f509a36a3c93).  
+ For more information Common Language Subset (CLS) compliance checking, see [CLS Compliant Assemblies](http://msdn.microsoft.com/3320b57e-ea55-4697-a17d-f509a36a3c93).  
   
  The following sample generates CLS01706:  
   

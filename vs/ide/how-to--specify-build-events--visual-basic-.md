@@ -175,7 +175,7 @@ Build events in Visual Basic can be used to run scripts, macros, or other action
     ```  
   
 ## See Also  
- [Managing Compilation Properties](assetId:///94308881-f10f-4caf-a729-f1028e596a2c)   
+ [Managing Compilation Properties](http://msdn.microsoft.com/94308881-f10f-4caf-a729-f1028e596a2c)   
  [Compile Page, Project Designer (Visual Basic)](../reference/compile-page--project-designer--visual-basic-.md)   
  [Publish Page, Project Designer](../reference/publish-page--project-designer.md)   
  [Pre-build Event/Post-build Event Command Line Dialog Box](../reference/pre-build-event-post-build-event-command-line-dialog-box.md)   

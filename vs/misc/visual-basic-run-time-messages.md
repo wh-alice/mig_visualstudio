@@ -574,5 +574,5 @@ This section contains the [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md
  [You must specify a path that is under the current folder or one of its sub-folders](../misc/you-must-specify-a-path-that-is-under-the-current-folder-or-one-of-its-sub-folders.md)  
   
 ## See Also  
- [NOTINBUILD How to: Get Information about Visual Basic Run-Time Errors](assetId:///22a7d0a6-b7d7-4c5d-971c-52ff0583c656)   
+ [NOTINBUILD How to: Get Information about Visual Basic Run-Time Errors](http://msdn.microsoft.com/22a7d0a6-b7d7-4c5d-971c-52ff0583c656)   
  [Error Messages](../Topic/Error%20Messages%20\(Visual%20Basic\).md)

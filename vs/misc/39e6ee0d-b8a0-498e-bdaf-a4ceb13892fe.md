@@ -47,4 +47,4 @@ A constructor is declared with the `Overloads` keyword.
   
 ## See Also  
  [Overloads](../Topic/Overloads%20\(Visual%20Basic\).md)   
- [NOT IN BUILD: Using Constructors and Destructors](assetId:///548eebe1-86c4-4377-b2f5-447cb8be3d90)
+ [NOT IN BUILD: Using Constructors and Destructors](http://msdn.microsoft.com/548eebe1-86c4-4377-b2f5-447cb8be3d90)

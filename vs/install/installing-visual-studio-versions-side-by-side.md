@@ -62,7 +62,7 @@ You can install this version of Visual Studio on a computer that already has an 
     |Visual C#|[Application Page, Project Designer (C#)](../reference/application-page--project-designer--csharp-.md)|  
     |Visual F#|[Configuring Projects](../Topic/Configuring%20Projects%20\(F%23\).md)|  
     |C++|[How to: Modify the Target Framework and Platform Toolset](../Topic/How%20to:%20Modify%20the%20Target%20Framework%20and%20Platform%20Toolset.md)|  
-    |[!INCLUDE[jsprjscript](../debugger/includes/jsprjscript_md.md)]|[Running a JScript Application on a Previous Version of the Common Language Runtime](assetId:///bbea51b5-ac03-4e6c-b9a6-f487ef63eda5)|  
+    |[!INCLUDE[jsprjscript](../debugger/includes/jsprjscript_md.md)]|[Running a JScript Application on a Previous Version of the Common Language Runtime](http://msdn.microsoft.com/bbea51b5-ac03-4e6c-b9a6-f487ef63eda5)|  
   
 ## See Also  
  [Installing Visual Studio 2015](../install/installing-visual-studio-2015.md)   
@@ -70,4 +70,4 @@ You can install this version of Visual Studio on a computer that already has an 
  [Version Compatibility](../Topic/Version%20Compatibility%20in%20the%20.NET%20Framework.md)   
  [Installing Multiple Language Versions of Visual Studio](../install/installing-multiple-language-versions-of-visual-studio.md)   
  [Building C/C++ Isolated Applications and Side-by-side Assemblies](../Topic/Building%20C-C++%20Isolated%20Applications%20and%20Side-by-side%20Assemblies.md)   
- [Customizing Development Settings in Visual Studio](assetId:///22c4debb-4e31-47a8-8f19-16f328d7dcd3)
+ [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)

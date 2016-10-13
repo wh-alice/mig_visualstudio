@@ -48,6 +48,6 @@ An import alias is defined with an [Of](../Topic/Of%20Clause%20\(Visual%20Basic\
 ## See Also  
  [Imports Statement (.NET Namespace and Type)](../Topic/Imports%20Statement%20\(.NET%20Namespace%20and%20Type\).md)   
  [References and the Imports Statement](../Topic/References%20and%20the%20Imports%20Statement%20\(Visual%20Basic\).md)   
- [NOTINBUILD: Resolving a Reference When Multiple Variables Have the Same Name](assetId:///9601e39f-1911-44e1-ace5-3f6e090408b9)   
+ [NOTINBUILD: Resolving a Reference When Multiple Variables Have the Same Name](http://msdn.microsoft.com/9601e39f-1911-44e1-ace5-3f6e090408b9)   
  [Generic Types in Visual Basic](../Topic/Generic%20Types%20in%20Visual%20Basic%20\(Visual%20Basic\).md)   
  [Type List](../Topic/Type%20List%20\(Visual%20Basic\).md)

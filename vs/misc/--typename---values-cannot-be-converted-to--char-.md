@@ -46,6 +46,6 @@ translation.priority.mt:
 -   Use the `ChrW` function to convert a numeric value to a Unicode character, or first convert the value to `String` and then to `Char`.  
   
 ## See Also  
- [NOT IN BUILD: Chr, ChrW Functions](assetId:///37f3c707-8a6f-4c51-9b02-9e634c4299ab)   
+ [NOT IN BUILD: Chr, ChrW Functions](http://msdn.microsoft.com/37f3c707-8a6f-4c51-9b02-9e634c4299ab)   
  [Implicit and Explicit Conversions](../Topic/Implicit%20and%20Explicit%20Conversions%20\(Visual%20Basic\).md)   
  [Char Data Type](../Topic/Char%20Data%20Type%20\(Visual%20Basic\).md)

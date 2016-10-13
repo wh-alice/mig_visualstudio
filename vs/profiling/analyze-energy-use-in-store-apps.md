@@ -159,7 +159,7 @@ if (performance && performance.mark) {
   
 ##  <a name="BKMK_Other_resources"></a> Other resources  
   
--   The **Connection state and cost management** sections for [C#/VB/C++ and XAML](assetId:///0ee0b706-8432-4d49-9801-306ed90764e1) and [JavaScript and HTML](assetId:///372afa6a-1c7c-4657-967d-03a77cd8e933) in the Windows Dev Center describe the Windows APIs that provide network connectivity information that your app can use to minimize the cost of network traffic.  
+-   The **Connection state and cost management** sections for [C#/VB/C++ and XAML](http://msdn.microsoft.com/0ee0b706-8432-4d49-9801-306ed90764e1) and [JavaScript and HTML](http://msdn.microsoft.com/372afa6a-1c7c-4657-967d-03a77cd8e933) in the Windows Dev Center describe the Windows APIs that provide network connectivity information that your app can use to minimize the cost of network traffic.  
   
      The Visual Studio simulator for Windows Store apps enables you to simulate data connection properties of the network information APIs. See [Run Windows Store apps in the simulator](../debugger/run-windows-store-apps-in-the-simulator.md)  
   

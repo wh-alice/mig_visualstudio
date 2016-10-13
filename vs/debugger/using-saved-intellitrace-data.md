@@ -269,7 +269,7 @@ Go to specific points in your application's execution when you start debugging f
 |----------------|-------------------|  
 |**Module Name**|Module file name|  
 |**Module Path**|Disk location where the module was loaded|  
-|**Module ID**|Unique identifier of the module that is version-specific and contributes to the matching symbol (PDB) files. See [Finding symbol (.pdb) files and source files](assetId:///05384c85-d264-4e18-abaa-aa482ab25470).|  
+|**Module ID**|Unique identifier of the module that is version-specific and contributes to the matching symbol (PDB) files. See [Finding symbol (.pdb) files and source files](http://msdn.microsoft.com/05384c85-d264-4e18-abaa-aa482ab25470).|  
   
 ### Where can I get more information?  
  [Using the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md)  

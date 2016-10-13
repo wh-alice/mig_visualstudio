@@ -50,5 +50,5 @@ A class, structure, or interface declares a default property with the [Default](
 ## See Also  
  \<xref:System.Reflection.DefaultMemberAttribute>   
  [Default](../Topic/Default%20\(Visual%20Basic\).md)   
- [NOT IN BUILD: Default Properties](assetId:///a70f2a27-8176-4858-935e-f25afdd43ab5)   
+ [NOT IN BUILD: Default Properties](http://msdn.microsoft.com/a70f2a27-8176-4858-935e-f25afdd43ab5)   
  [How to: Declare and Call a Default Property in Visual Basic](../Topic/How%20to:%20Declare%20and%20Call%20a%20Default%20Property%20in%20Visual%20Basic.md)
