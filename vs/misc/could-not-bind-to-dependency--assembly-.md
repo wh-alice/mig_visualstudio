@@ -1,7 +1,7 @@
 ---
 title: "Could not bind to dependency &#39;assembly&#39;"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -43,9 +43,9 @@ One of your project's references itself contains an assembly reference (dependen
   
  **To correct this error**  
   
--   Modify the order in which your project searches directories, looking for references. See [NIB: Reference Paths Dialog Box (Visual Basic)](http://msdn.microsoft.com/8e549b39-7256-456a-8fd7-089b23facf9c) for more information.  
+-   Modify the order in which your project searches directories, looking for references. See [NIB: Reference Paths Dialog Box (Visual Basic)](http://msdn.microsoft.com/en-us/8e549b39-7256-456a-8fd7-089b23facf9c) for more information.  
   
 ## See Also  
  [Troubleshooting Broken References](../ide/troubleshooting-broken-references.md)   
- [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](http://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)   
- [Assemblies in the Common Language Runtime](http://msdn.microsoft.com/33a0bc6a-6bb3-44c7-ada7-4a046e8c0945)
+ [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](http://msdn.microsoft.com/en-us/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)   
+ [Assemblies in the Common Language Runtime](http://msdn.microsoft.com/en-us/33a0bc6a-6bb3-44c7-ada7-4a046e8c0945)

@@ -1,7 +1,7 @@
 ---
 title: "Implemented type must be an interface"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -48,4 +48,4 @@ An `Implements` statement does not specify an interface. A class can implement o
 ## See Also  
  [Implements Statement](../Topic/Implements%20Statement.md)   
  [Inherits Statement](../Topic/Inherits%20Statement.md)   
- [NOT IN BUILD: Inheritance in Visual Basic](http://msdn.microsoft.com/e5e6e240-ed31-4657-820c-079b7c79313c)
+ [NOT IN BUILD: Inheritance in Visual Basic](http://msdn.microsoft.com/en-us/e5e6e240-ed31-4657-820c-079b7c79313c)

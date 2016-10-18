@@ -1,7 +1,7 @@
 ---
 title: "&#39;&lt;qualifiedmethod&gt;&#39; is not accessible in this context because it is &#39;&lt;modifier&gt;&#39;"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,7 +44,7 @@ You have attempted to access a method that is not accessible in this context due
 -   Remove the modifier.  
   
 ## See Also  
- [NOT IN BUILD: Considerations for Choosing Access Levels for Methods](http://msdn.microsoft.com/8b696461-2191-4cea-bb64-5fa3449da2ff)   
+ [NOT IN BUILD: Considerations for Choosing Access Levels for Methods](http://msdn.microsoft.com/en-us/8b696461-2191-4cea-bb64-5fa3449da2ff)   
  [Private](../Topic/Private%20\(Visual%20Basic\).md)   
  [Protected](../Topic/Protected%20\(Visual%20Basic\).md)   
  [Friend](../Topic/Friend%20\(Visual%20Basic\).md)

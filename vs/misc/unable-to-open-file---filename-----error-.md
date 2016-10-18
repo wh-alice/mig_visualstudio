@@ -1,7 +1,7 @@
 ---
 title: "Unable to open file &#39;&lt;filename&gt;&#39;: &lt;error&gt;"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,4 +44,4 @@ There was an error opening a file in this project.
 1.  Verify that the file exists, and is not damaged or locked by another application.  
   
 ## See Also  
- [File Types and File Extensions in Visual Basic and Visual C#](http://msdn.microsoft.com/f793852c-da06-4d52-a826-65f635844772)
+ [File Types and File Extensions in Visual Basic and Visual C#](http://msdn.microsoft.com/en-us/f793852c-da06-4d52-a826-65f635844772)

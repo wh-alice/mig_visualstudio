@@ -1,7 +1,7 @@
 ---
 title: "Parallel Extension Internals for the .NET Framework"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -35,25 +35,25 @@ This section describes the internal types, methods, and fields of classes that h
   
 ## In This Section  
  [Task Class](../extensibility/task-class---internal-members.md)  
- Describes the internal data members of the \<xref:System.Threading.Tasks.Task?displayProperty=fullName> class.  
+ Describes the internal data members of the <xref:System.Threading.Tasks.Task?displayProperty=fullName> class.  
   
  [TaskScheduler Class](../extensibility/taskscheduler-class---internal-members.md)  
- Describes the internal data members of the \<xref:System.Threading.Tasks.TaskScheduler?displayProperty=fullName> class.  
+ Describes the internal data members of the <xref:System.Threading.Tasks.TaskScheduler?displayProperty=fullName> class.  
   
  [ContingentProperties Class](../extensibility/contingentproperties-class---internal-members.md)  
  Describes the internal data members of the `System.Threading.Tasks.ContingentProperties` class.  
   
  [AsyncTaskMethodBuilder Structure](../extensibility/asynctaskmethodbuilder-structure---internal-members.md)  
- Describes the internal members of the \<xref:System.Runtime.CompilerServices.AsyncTaskMethodBuilder> structure.  
+ Describes the internal members of the <xref:System.Runtime.CompilerServices.AsyncTaskMethodBuilder> structure.  
   
  [AsyncTaskMethodBuilder\<TResult> Structure](../extensibility/asynctaskmethodbuilder-tresult--structure---internal-members.md)  
- Describes the internal members of the \<xref:System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1> structure.  
+ Describes the internal members of the <xref:System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1> structure.  
   
  [AsyncVoidMethodBuilder Structure](../extensibility/asyncvoidmethodbuilder-structure---internal-members.md)  
- Describes the internal members of the \<xref:System.Runtime.CompilerServices.AsyncVoidMethodBuilder> structure.  
+ Describes the internal members of the <xref:System.Runtime.CompilerServices.AsyncVoidMethodBuilder> structure.  
   
 ## See Also  
- \<xref:System.Threading.Tasks.Task?displayProperty=fullName>   
- \<xref:System.Threading.Tasks.TaskScheduler?displayProperty=fullName>   
+ <xref:System.Threading.Tasks.Task?displayProperty=fullName>   
+ <xref:System.Threading.Tasks.TaskScheduler?displayProperty=fullName>   
  [Visual Studio Debugger Extensibility](../extensibility/visual-studio-debugger-extensibility.md)   
  [Parallel Programming](../Topic/Parallel%20Programming%20in%20the%20.NET%20Framework.md)

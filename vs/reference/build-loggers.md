@@ -1,7 +1,7 @@
 ---
 title: "Build Loggers"
 ms.custom: na
-ms.date: "10/07/2016"
+ms.date: "10/17/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -33,28 +33,28 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Build Loggers
-Loggers provide a way for you to customize the output of your build and display messages, errors, or warnings in response to specific build events. Each logger is implemented as a .NET class that implements the \<xref:Microsoft.Build.Framework.ILogger> interface, which is defined in the Microsoft.Build.Framework.dll assembly.  
+Loggers provide a way for you to customize the output of your build and display messages, errors, or warnings in response to specific build events. Each logger is implemented as a .NET class that implements the <xref:Microsoft.Build.Framework.ILogger> interface, which is defined in the Microsoft.Build.Framework.dll assembly.  
   
  There are two approaches you can use when implementing a logger:  
   
--   Implement the \<xref:Microsoft.Build.Framework.ILogger> interface directly.  
+-   Implement the <xref:Microsoft.Build.Framework.ILogger> interface directly.  
   
--   Derive your class from the helper class, \<xref:Microsoft.Build.Utilities.Logger>, which is defined in the Microsoft.Build.Utilities.dll assembly. \<xref:Microsoft.Build.Utilities.Logger> implements \<xref:Microsoft.Build.Framework.ILogger> and provides default implementations of some \<xref:Microsoft.Build.Framework.ILogger> members.  
+-   Derive your class from the helper class, <xref:Microsoft.Build.Utilities.Logger>, which is defined in the Microsoft.Build.Utilities.dll assembly. <xref:Microsoft.Build.Utilities.Logger> implements <xref:Microsoft.Build.Framework.ILogger> and provides default implementations of some <xref:Microsoft.Build.Framework.ILogger> members.  
   
- This topic will explain how to write a simple logger that derives from \<xref:Microsoft.Build.Utilities.Logger>, and displays messages on the console in response to certain build events.  
+ This topic will explain how to write a simple logger that derives from <xref:Microsoft.Build.Utilities.Logger>, and displays messages on the console in response to certain build events.  
   
 ## Registering for Events  
- The purpose of a logger is to gather information on build progress as it is reported by the build engine, and then report that information in a useful way. All loggers must override the \<xref:Microsoft.Build.Utilities.Logger.Initialize*> method, which is where the logger registers for events. In this example, the logger registers for the \<xref:Microsoft.Build.Framework.IEventSource.TargetStarted>, \<xref:Microsoft.Build.Framework.IEventSource.ProjectStarted>, and \<xref:Microsoft.Build.Framework.IEventSource.ProjectFinished> events.  
+ The purpose of a logger is to gather information on build progress as it is reported by the build engine, and then report that information in a useful way. All loggers must override the <xref:Microsoft.Build.Utilities.Logger.Initialize*> method, which is where the logger registers for events. In this example, the logger registers for the <xref:Microsoft.Build.Framework.IEventSource.TargetStarted>, <xref:Microsoft.Build.Framework.IEventSource.ProjectStarted>, and <xref:Microsoft.Build.Framework.IEventSource.ProjectFinished> events.  
   
  [!code[msbuild_SimpleConsoleLogger#2](../reference/codesnippet/CSharp/build-loggers_1.cs)]  
   
 ## Responding to Events  
- Now that the logger is registered for specific events, it needs to handle those events when they occur. For the \<xref:Microsoft.Build.Framework.IEventSource.ProjectStarted>, and \<xref:Microsoft.Build.Framework.IEventSource.ProjectFinished> events, the logger simply writes a short phrase and the name of the project file involved in the event. All messages from the logger are written to the console window.  
+ Now that the logger is registered for specific events, it needs to handle those events when they occur. For the <xref:Microsoft.Build.Framework.IEventSource.ProjectStarted>, and <xref:Microsoft.Build.Framework.IEventSource.ProjectFinished> events, the logger simply writes a short phrase and the name of the project file involved in the event. All messages from the logger are written to the console window.  
   
  [!code[msbuild_SimpleConsoleLogger#3](../reference/codesnippet/CSharp/build-loggers_2.cs)]  
   
 ## Responding to Logger Verbosity Values  
- In some cases, you may want to only log information from an event if the MSBuild.exe **/verbosity** switch contains a certain value. In this example, the \<xref:Microsoft.Build.Framework.IEventSource.TargetStarted> event handler only logs a message if the \<xref:Microsoft.Build.Utilities.Logger.Verbosity*> property, which is set by the **/verbosity** switch, is equal to \<xref:Microsoft.Build.Framework.LoggerVerbosity>`Detailed`.  
+ In some cases, you may want to only log information from an event if the MSBuild.exe **/verbosity** switch contains a certain value. In this example, the <xref:Microsoft.Build.Framework.IEventSource.TargetStarted> event handler only logs a message if the <xref:Microsoft.Build.Utilities.Logger.Verbosity*> property, which is set by the **/verbosity** switch, is equal to <xref:Microsoft.Build.Framework.LoggerVerbosity>`Detailed`.  
   
  [!code[msbuild_SimpleConsoleLogger#4](../reference/codesnippet/CSharp/build-loggers_3.cs)]  
   

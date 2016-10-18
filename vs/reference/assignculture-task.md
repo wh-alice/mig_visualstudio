@@ -1,7 +1,7 @@
 ---
 title: "AssignCulture Task"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -46,14 +46,14 @@ This task accepts a list of items that may contain a valid .NET culture identifi
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|`AssignedFiles`|Optional \<xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Contains the list of items received in the `Files` parameter, with a `Culture` metadata entry added to each item.<br /><br /> If the incoming item from the `Files` parameter already contains a `Culture` metadata entry, the original metadata entry is used.<br /><br /> The task only assigns a `Culture` metadata entry if the file name contains a valid culture identifier. The culture identifier must be between the last two dots in the filename.|  
-|`AssignedFilesWithCulture`|Optional \<xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Contains the subset of the items from the `AssignedFiles` parameter that have a `Culture` metadata entry.|  
-|`AssignedFilesWithNoCulture`|Optional \<xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Contains the subset of the items from the `AssignedFiles` parameter that do not have a `Culture` metadata entry.|  
-|`CultureNeutralAssignedFiles`|Optional \<xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Contains the same list of items that is produced in the `AssignedFiles` parameter, except with the culture removed from the file name.<br /><br /> The task only removes the culture from the file name if it is a valid culture identifier.|  
-|`Files`|Required \<xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the list of files with embedded culture names to assign a culture to.|  
+|`AssignedFiles`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Contains the list of items received in the `Files` parameter, with a `Culture` metadata entry added to each item.<br /><br /> If the incoming item from the `Files` parameter already contains a `Culture` metadata entry, the original metadata entry is used.<br /><br /> The task only assigns a `Culture` metadata entry if the file name contains a valid culture identifier. The culture identifier must be between the last two dots in the filename.|  
+|`AssignedFilesWithCulture`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Contains the subset of the items from the `AssignedFiles` parameter that have a `Culture` metadata entry.|  
+|`AssignedFilesWithNoCulture`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Contains the subset of the items from the `AssignedFiles` parameter that do not have a `Culture` metadata entry.|  
+|`CultureNeutralAssignedFiles`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Contains the same list of items that is produced in the `AssignedFiles` parameter, except with the culture removed from the file name.<br /><br /> The task only removes the culture from the file name if it is a valid culture identifier.|  
+|`Files`|Required <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the list of files with embedded culture names to assign a culture to.|  
   
 ## Remarks  
- In addition to the parameters listed above, this task inherits parameters from the \<xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the \<xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../reference/taskextension-base-class.md).  
+ In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../reference/taskextension-base-class.md).  
   
 ## Example  
  The following example executes the `AssignCulture` task with the `ResourceFiles` item collection.  

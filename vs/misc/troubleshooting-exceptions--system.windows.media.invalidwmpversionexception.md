@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.Windows.Media.InvalidWmpVersionException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -35,8 +35,8 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.Windows.Media.InvalidWmpVersionException
-An \<xref:System.Windows.Media.InvalidWmpVersionException> exception is thrown when the installed Microsoft Windows Media Player version is not supported.  
+An <xref:System.Windows.Media.InvalidWmpVersionException> exception is thrown when the installed Microsoft Windows Media Player version is not supported.  
   
 ## See Also  
- \<xref:System.Windows.Media.InvalidWmpVersionException>   
+ <xref:System.Windows.Media.InvalidWmpVersionException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

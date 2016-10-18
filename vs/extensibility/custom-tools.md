@@ -1,7 +1,7 @@
 ---
 title: "Custom Tools"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -41,7 +41,7 @@ translation.priority.mt:
   
 ## In This Section  
  [Implementing Single-File Generators](../extensibility/implementing-single-file-generators.md)  
- Describes how to use the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsSingleFileGenerator> interface to implement a custom tool.  
+ Describes how to use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSingleFileGenerator> interface to implement a custom tool.  
   
  [Determining the Default Namespace of a Project](../misc/determining-the-default-namespace-of-a-project.md)  
  Describes how to determine the correct namespace based on the language being used.  
@@ -56,13 +56,13 @@ translation.priority.mt:
  Shows how to persist a project item property, such as the author of a source file, in the project file.  
   
 ## Reference  
- \<xref:Microsoft.VisualStudio.Shell.Interop.IVsSingleFileGenerator>  
- Provides details about the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsSingleFileGenerator>, which transforms a single input file into a single output file that can be compiled or added to a project.  
+ <xref:Microsoft.VisualStudio.Shell.Interop.IVsSingleFileGenerator>  
+ Provides details about the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSingleFileGenerator>, which transforms a single input file into a single output file that can be compiled or added to a project.  
   
- \<xref:EnvDTE.ProjectItem>  
+ <xref:EnvDTE.ProjectItem>  
  Explains the `ProjectItem` interface, which represents an item in a project.  
   
- \<xref:Microsoft.VisualStudio.Shell.Interop.IVsSingleFileGenerator.DefaultExtension*>  
+ <xref:Microsoft.VisualStudio.Shell.Interop.IVsSingleFileGenerator.DefaultExtension*>  
  Provides details about the `DefaultExtension` method, which retrieves the file name extension that is given to the output file name.  
   
 ## Related Sections  

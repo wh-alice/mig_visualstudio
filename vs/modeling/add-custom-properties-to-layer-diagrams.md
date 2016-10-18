@@ -1,7 +1,7 @@
 ---
 title: "Add custom properties to layer diagrams"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -32,7 +32,7 @@ translation.priority.ht:
 When you write extension code for layer diagrams, you can store values with any element on a layer diagram. The values will persist when the diagram is saved and re-opened. You can also have these properties appear in the **Properties** window so that users can see and edit them. For example, you could let users specify a regular expression for each layer, and write validation code to verify that the names of classes in each layer conform to the pattern specified by the user.  
   
 ## Properties not visible to the user  
- If you just want your code to attach values to any element in a layer diagram, you don’t need to define a MEF component. There is a dictionary named `Properties` in \<xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer.ILayerElement>. Simply add marshalable values to the dictionary of any layer element. They will be saved as part of the layer diagram. For more information, see [Navigate and update layer models in program code](../modeling/navigate-and-update-layer-models-in-program-code.md).  
+ If you just want your code to attach values to any element in a layer diagram, you don’t need to define a MEF component. There is a dictionary named `Properties` in <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer.ILayerElement>. Simply add marshalable values to the dictionary of any layer element. They will be saved as part of the layer diagram. For more information, see [Navigate and update layer models in program code](../modeling/navigate-and-update-layer-models-in-program-code.md).  
   
 ## Properties that the user can edit  
  **Initial preparation**  
@@ -72,7 +72,7 @@ public class MyProperty
 }  
 ```  
   
- You can define properties on \<xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer.ILayerElement> or any of its derived classes, which include:  
+ You can define properties on <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer.ILayerElement> or any of its derived classes, which include:  
   
 -   `ILayerModel` - the model  
   

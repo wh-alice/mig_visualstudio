@@ -1,7 +1,7 @@
 ---
 title: "Mixed Mode Debugging Is Only Supported when Using Microsoft .NET Framework 2.0 or 3.0"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -64,7 +64,7 @@ Versions of the Microsoft .NET Framework earlier than 2.0 do not provide support
   
 ### To correct this error  
   
--   See [Setting Up SQL Debugging](http://msdn.microsoft.com/3db09e68-edcc-42de-9c22-4e97cfd55ab3).  
+-   See [Setting Up SQL Debugging](http://msdn.microsoft.com/en-us/3db09e68-edcc-42de-9c22-4e97cfd55ab3).  
   
 ## See Also  
  [Debug 64-Bit Applications](../debugger/debug-64-bit-applications.md)

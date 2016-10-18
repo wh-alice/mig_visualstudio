@@ -1,7 +1,7 @@
 ---
 title: "Value (XAttribute Dynamic Property)"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -41,18 +41,18 @@ attrib.Value
 ```  
   
 ## Property Value/Return Value  
- A \<xref:System.String> containing the value of this attribute.  
+ A <xref:System.String> containing the value of this attribute.  
   
 ## Exceptions  
   
 |Exception type|Condition|  
 |--------------------|---------------|  
-|\<xref:System.ArgumentNullException>|When setting, the `value` is `null`.|  
+|<xref:System.ArgumentNullException>|When setting, the `value` is `null`.|  
   
 ## Remarks  
- This property is equivalent to the \<xref:System.Xml.Linq.XAttribute.Value*> property of the \<xref:System.Xml.Linq.XAttribute?displayProperty=fullName> class, but this dynamic property also supports change notifications.  
+ This property is equivalent to the <xref:System.Xml.Linq.XAttribute.Value*> property of the <xref:System.Xml.Linq.XAttribute?displayProperty=fullName> class, but this dynamic property also supports change notifications.  
   
 ## See Also  
- \<xref:System.Xml.Linq.XAttribute.Value*?displayProperty=fullName>   
+ <xref:System.Xml.Linq.XAttribute.Value*?displayProperty=fullName>   
  [XAttribute Class Dynamic Properties](../designers/xattribute-class-dynamic-properties.md)   
  [Attribute](../designers/attribute--xelement-dynamic-property-.md)

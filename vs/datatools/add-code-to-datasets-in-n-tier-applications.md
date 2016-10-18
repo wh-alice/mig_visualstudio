@@ -1,7 +1,7 @@
 ---
 title: "Add code to datasets in n-tier applications"
 ms.custom: na
-ms.date: "10/07/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -45,7 +45,7 @@ You can extend the functionality of a dataset by creating a partial class file f
 >  When you separate datasets and `TableAdapter`s (by setting the **DataSet Project** property), existing partial dataset classes in the project won't be moved automatically. Existing dataset partial classes must be moved manually to the dataset project.  
   
 > [!NOTE]
->  When validation code needs to be added, the [Creating and Editing Typed Datasets](../datatools/creating-and-editing-typed-datasets.md)provides functionality for generating \<xref:System.Data.DataTable.ColumnChanging> and \<xref:System.Data.DataTable.RowChanging> event handlers. For more information, see [Add validation to an n-tier dataset](../datatools/add-validation-to-an-n-tier-dataset.md).  
+>  When validation code needs to be added, the [Creating and Editing Typed Datasets](../datatools/creating-and-editing-typed-datasets.md)provides functionality for generating <xref:System.Data.DataTable.ColumnChanging> and <xref:System.Data.DataTable.RowChanging> event handlers. For more information, see [Add validation to an n-tier dataset](../datatools/add-validation-to-an-n-tier-dataset.md).  
   
 ### To add code to datasets in n-tier applications  
   

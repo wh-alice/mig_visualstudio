@@ -1,7 +1,7 @@
 ---
 title: "Inside the Core Editor"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -49,10 +49,10 @@ The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] core editor is a se
   
 ## In This Section  
  [Instantiating the Core Editor By Using the Legacy API](../extensibility/instantiating-the-core-editor-by-using-the-legacy-api.md)  
- Provides step-by-step instructions about how to use \<xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory.CreateEditorInstance*> to create an instance of the core editor.  
+ Provides step-by-step instructions about how to use <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory.CreateEditorInstance*> to create an instance of the core editor.  
   
  [Accessing the Text Buffer by Using the Legacy API](../extensibility/accessing-the-text-buffer-by-using-the-legacy-api.md)  
- Discusses the text buffer's role in the core editor, explains the associated systems that are used to access the buffer, and provides a list of the interfaces implemented by the text buffer object, \<xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer>.  
+ Discusses the text buffer's role in the core editor, explains the associated systems that are used to access the buffer, and provides a list of the interfaces implemented by the text buffer object, <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer>.  
   
  [Text Buffer Events in the Legacy API](../extensibility/text-buffer-events-in-the-legacy-api.md)  
  Provides a list of the interfaces that are used for notification of text buffer events.  
@@ -64,7 +64,7 @@ The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] core editor is a se
  Discusses how the text manager is used to share global preference information with the core editor components and how to receive notification of text manager events.  
   
  [Accessing theText View by Using the Legacy API](../extensibility/accessing-thetext-view-by-using-the-legacy-api.md)  
- Describes the text view's role in the core editor and lists the interfaces implemented by the \<xref:Microsoft.VisualStudio.TextManager.Interop.VsTextView> object.  
+ Describes the text view's role in the core editor and lists the interfaces implemented by the <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextView> object.  
   
  [Customizing Code Windows by Using the Legacy API](../extensibility/customizing-code-windows-by-using-the-legacy-api.md)  
  Provides information about how a code window is used to enclose the text view, discusses how the code window manager is used to provide decorations to the code window, and provides notification of new views.  

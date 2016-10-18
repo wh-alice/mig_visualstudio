@@ -1,7 +1,7 @@
 ---
 title: "&#39;Variant&#39; is no longer a supported type; use the &#39;Object&#39; type instead"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -45,4 +45,4 @@ The `Object` data type replaces `Variant`.
   
 ## See Also  
  [Object Data Type](../Topic/Object%20Data%20Type.md)   
- [Data Type Changes in Visual Basic](http://msdn.microsoft.com/0aca9f54-7231-49a5-ab26-a68ca79d08f3)
+ [Data Type Changes in Visual Basic](http://msdn.microsoft.com/en-us/0aca9f54-7231-49a5-ab26-a68ca79d08f3)

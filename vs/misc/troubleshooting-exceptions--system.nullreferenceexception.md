@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.NullReferenceException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/17/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,7 +37,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.NullReferenceException
-A \<xref:System.NullReferenceException> occurs  when you try to use a method or property of a *reference type* ([C#](../Topic/Reference%20Types%20\(C%23%20Reference\).md), [Visual Basic](../Topic/Value%20Types%20and%20Reference%20Types.md)) whose value is `null`. For example, you may have tried to use an object without first using the [new](../Topic/new%20\(C%23%20Reference\).md) keyword ([New](../Topic/New%20Operator%20\(Visual%20Basic\).md) in Visual Basic), or tried to use an object whose value was set to [null](../Topic/null%20\(C%23%20Reference\).md) ([Nothing](../Topic/Nothing%20\(Visual%20Basic\).md) in Visual Basic).  
+A <xref:System.NullReferenceException> occurs  when you try to use a method or property of a *reference type* ([C#](../Topic/Reference%20Types%20\(C%23%20Reference\).md), [Visual Basic](../Topic/Value%20Types%20and%20Reference%20Types.md)) whose value is `null`. For example, you may have tried to use an object without first using the [new](../Topic/new%20\(C%23%20Reference\).md) keyword ([New](../Topic/New%20Operator%20\(Visual%20Basic\).md) in Visual Basic), or tried to use an object whose value was set to [null](../Topic/null%20\(C%23%20Reference\).md) ([Nothing](../Topic/Nothing%20\(Visual%20Basic\).md) in Visual Basic).  
   
 ##  <a name="BKMK_Contents"></a> Sections in this article  
  [Classes used in this article](#BKMK_Classes_used_in_the_examples)  

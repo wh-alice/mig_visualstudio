@@ -1,7 +1,7 @@
 ---
 title: "Name &#39;&lt;name&gt;&#39; is either not declared or not in the current scope"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -45,7 +45,7 @@ A LINQ query refers to a programming element, but the compiler cannot find an el
   
 2.  Verify that the programming element is in scope. If the referring statement is outside the region declaring the programming element, you might have to qualify the element name. For more information, see [Scope in Visual Basic](../Topic/Scope%20in%20Visual%20Basic.md).  
   
-3.  Ensure that you have the member access operator (`.`) between an object and its member. For example, if you have a \<xref:System.Windows.Forms.TextBox> control named `TextBox1`, to access its \<xref:System.Windows.Forms.TextBoxBase.Text*> property you should type `TextBox1.Text`. If instead you type `TextBox1Text`, you have created a different name.  
+3.  Ensure that you have the member access operator (`.`) between an object and its member. For example, if you have a <xref:System.Windows.Forms.TextBox> control named `TextBox1`, to access its <xref:System.Windows.Forms.TextBoxBase.Text*> property you should type `TextBox1.Text`. If instead you type `TextBox1Text`, you have created a different name.  
   
 ## See Also  
  [Introduction to LINQ in Visual Basic](../Topic/Introduction%20to%20LINQ%20in%20Visual%20Basic.md)   

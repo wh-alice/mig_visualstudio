@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.Data.DBConcurrencyException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,6 +37,6 @@ translation.priority.mt:
 The exception that is thrown by the `DataAdapter` during the update operation if the number of rows affected equals zero.  
   
 ## See Also  
- \<xref:System.Data.DBConcurrencyException>   
+ <xref:System.Data.DBConcurrencyException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)   
  [DataAdapters and DataReaders](../Topic/DataAdapters%20and%20DataReaders.md)

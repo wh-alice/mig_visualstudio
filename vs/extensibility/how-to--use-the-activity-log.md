@@ -1,7 +1,7 @@
 ---
 title: "How to: Use the Activity Log"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,7 +39,7 @@ VSPackages can write messages to the activity log. This feature is especially us
   
 ### To write an entry to the activity log  
   
-1.  Insert this code in the \<xref:Microsoft.VisualStudio.Shell.Package.Initialize*> method or in any other method except the VSPackage constructor:  
+1.  Insert this code in the <xref:Microsoft.VisualStudio.Shell.Package.Initialize*> method or in any other method except the VSPackage constructor:  
   
     ```c#  
     IVsActivityLog log = GetService(typeof(SVsActivityLog)) as IVsActivityLog;  
@@ -51,7 +51,7 @@ VSPackages can write messages to the activity log. This feature is especially us
         "Called for: {0}", this.ToString()));  
     ```  
   
-     This code gets the \<xref:Microsoft.VisualStudio.Shell.Interop.SVsActivityLog> service and casts it to an \<xref:Microsoft.VisualStudio.Shell.Interop.IVsActivityLog> interface. \<xref:Microsoft.VisualStudio.Shell.Interop.IVsActivityLog.LogEntry*> writes an informational entry into the activity log using the current cultural context.  
+     This code gets the <xref:Microsoft.VisualStudio.Shell.Interop.SVsActivityLog> service and casts it to an <xref:Microsoft.VisualStudio.Shell.Interop.IVsActivityLog> interface. <xref:Microsoft.VisualStudio.Shell.Interop.IVsActivityLog.LogEntry*> writes an informational entry into the activity log using the current cultural context.  
   
 2.  When the VSPackage is loaded (usually when a command is invoked or a window is opened), the text is written to the activity log.  
   
@@ -71,7 +71,7 @@ VSPackages can write messages to the activity log. This feature is especially us
  You should obtain the activity log just before writing to it. Do not cache or save the activity log for future use.  
   
 ## See Also  
- \<xref:Microsoft.VisualStudio.Shell.Interop.IVsActivityLog>   
- \<xref:Microsoft.VisualStudio.Shell.Interop.__ACTIVITYLOG_ENTRYTYPE>   
+ <xref:Microsoft.VisualStudio.Shell.Interop.IVsActivityLog>   
+ <xref:Microsoft.VisualStudio.Shell.Interop.__ACTIVITYLOG_ENTRYTYPE>   
  [Troubleshooting VSPackages](../extensibility/troubleshooting-vspackages.md)   
  [VSPackages](../extensibility/vspackages.md)

@@ -1,7 +1,7 @@
 ---
 title: "COM Interop Wrapper Error"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -51,7 +51,7 @@ This message box is displayed when the project system could not create a COM int
 >  COM interop wrappers are sometimes referred to as "primary interop assemblies." These terms are synonymous  
   
 ## See Also  
- [Component Model Namespaces in Visual Studio](http://msdn.microsoft.com/705d0add-0707-44ba-a6de-637381d9c937)   
+ [Component Model Namespaces in Visual Studio](http://msdn.microsoft.com/en-us/705d0add-0707-44ba-a6de-637381d9c937)   
  [Component Authoring](../Topic/Component%20Authoring.md)   
  [COM Interop](../Topic/COM%20Interop%20\(Visual%20Basic\).md)   
  [Common Language Runtime](../Topic/Common%20Language%20Runtime%20\(CLR\).md)   

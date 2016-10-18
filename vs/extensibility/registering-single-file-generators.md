@@ -1,7 +1,7 @@
 ---
 title: "Registering Single File Generators"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -57,7 +57,7 @@ To make a custom tool available in [!INCLUDE[vsprvs](../codequality/includes/vsp
   
     -   CLSID  
   
-         Required. Specifies the identifier of the class library of the COM component that implements \<xref:Microsoft.VisualStudio.Shell.Interop.IVsSingleFileGenerator>.  
+         Required. Specifies the identifier of the class library of the COM component that implements <xref:Microsoft.VisualStudio.Shell.Interop.IVsSingleFileGenerator>.  
   
     -   GeneratesDesignTimeSource  
   
@@ -86,8 +86,8 @@ To make a custom tool available in [!INCLUDE[vsprvs](../codequality/includes/vsp
     ```  
   
 ## See Also  
- \<xref:Microsoft.VisualStudio.Shell.Interop.IVsSingleFileGenerator>   
+ <xref:Microsoft.VisualStudio.Shell.Interop.IVsSingleFileGenerator>   
  [Implementing Single-File Generators](../extensibility/implementing-single-file-generators.md)   
  [Determining the Default Namespace of a Project](../misc/determining-the-default-namespace-of-a-project.md)   
  [Exposing Types to Visual Designers](../extensibility/exposing-types-to-visual-designers.md)   
- [Introduction to the BuildManager Object](http://msdn.microsoft.com/50080ec2-c1c9-412c-98ef-18d7f895e7fa)
+ [Introduction to the BuildManager Object](http://msdn.microsoft.com/en-us/50080ec2-c1c9-412c-98ef-18d7f895e7fa)

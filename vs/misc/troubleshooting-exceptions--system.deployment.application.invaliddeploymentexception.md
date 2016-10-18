@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.Deployment.Application.InvalidDeploymentException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,7 +37,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.Deployment.Application.InvalidDeploymentException
-An \<xref:System.Deployment.Application.InvalidDeploymentException> exception is thrown when the application or its application and deployment manifests are not valid.  
+An <xref:System.Deployment.Application.InvalidDeploymentException> exception is thrown when the application or its application and deployment manifests are not valid.  
   
 ## Associated Tips  
  **Make sure the manifests for this application are valid.**  
@@ -47,7 +47,7 @@ An \<xref:System.Deployment.Application.InvalidDeploymentException> exception is
  Use ClickOnce to publish Windows applications to a Web server or network file share for simplified installation. For more information, see [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md).  
   
 ## See Also  
- \<xref:System.Deployment.Application.InvalidDeploymentException>   
+ <xref:System.Deployment.Application.InvalidDeploymentException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)   
  [Troubleshooting ClickOnce Deployments](../deployment/troubleshooting-clickonce-deployments.md)   
  [ClickOnce Deployment for Windows Forms](../Topic/ClickOnce%20Deployment%20for%20Windows%20Forms.md)

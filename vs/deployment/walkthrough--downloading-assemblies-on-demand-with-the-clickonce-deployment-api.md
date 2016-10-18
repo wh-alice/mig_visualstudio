@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Downloading Assemblies on Demand with the ClickOnce Deployment API"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,7 +37,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Walkthrough: Downloading Assemblies on Demand with the ClickOnce Deployment API
-By default, all of the assemblies included in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application are downloaded when the application is first run. However, you may have parts of your application that are used by a small set of your users. In this case, you want to download an assembly only when you create one of its types. The following walkthrough demonstrates how to mark certain assemblies in your application as "optional", and how to download them by using classes in the \<xref:System.Deployment.Application> namespace when the common language runtime (CLR) demands them.  
+By default, all of the assemblies included in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application are downloaded when the application is first run. However, you may have parts of your application that are used by a small set of your users. In this case, you want to download an assembly only when you create one of its types. The following walkthrough demonstrates how to mark certain assemblies in your application as "optional", and how to download them by using classes in the <xref:System.Deployment.Application> namespace when the common language runtime (CLR) demands them.  
   
 > [!NOTE]
 >  Your application will have to run in full trust to use this procedure.  
@@ -93,7 +93,7 @@ By default, all of the assemblies included in a [!INCLUDE[ndptecclick](../deploy
      [!code[ClickOnceOnDemandCmdLine#1](../deployment/codesnippet/CSharp/walkthrough--downloading-assemblies-on-demand-with-the-clickonce-deployment-api_2.cs)]
 [!code[ClickOnceOnDemandCmdLine#1](../deployment/codesnippet/VisualBasic/walkthrough--downloading-assemblies-on-demand-with-the-clickonce-deployment-api_2.vb)]  
   
-10. In the code, locate the call to \<xref:System.Reflection.Assembly.LoadFile*>.  
+10. In the code, locate the call to <xref:System.Reflection.Assembly.LoadFile*>.  
   
 11. Set`PublicKeyToken` to the value that you retrieved earlier.  
   
@@ -137,7 +137,7 @@ By default, all of the assemblies included in a [!INCLUDE[ndptecclick](../deploy
     http://www.adatum.com/ClickOnceOnDemand/ClickOnceOnDemand.application  
     ```  
   
-3.  When your main form appears, press the \<xref:System.Windows.Forms.Button>. You should see a string in a message box window that reads "Hello, World!".  
+3.  When your main form appears, press the <xref:System.Windows.Forms.Button>. You should see a string in a message box window that reads "Hello, World!".  
   
 ## See Also  
- \<xref:System.Deployment.Application.ApplicationDeployment>
+ <xref:System.Deployment.Application.ApplicationDeployment>

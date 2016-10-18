@@ -1,7 +1,7 @@
 ---
 title: "How to: Debug ASP.NET-Based Workflows (Legacy)"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/13/2016"
 ms.prod: ".net-framework-4.6"
 ms.reviewer: na
 ms.suite: na

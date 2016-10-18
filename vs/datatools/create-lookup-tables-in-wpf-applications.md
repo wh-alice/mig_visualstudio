@@ -1,7 +1,7 @@
 ---
 title: "Create lookup tables in WPF applications"
 ms.custom: na
-ms.date: "10/07/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -84,14 +84,14 @@ The term *lookup table* (sometimes called a *lookup binding*) describes a contro
         > [!NOTE]
         >  If the **ListBox** or **ListView** control does not appear in the list, you can add these controls to the list. For information, see [Set the control to be created when dragging from the Data Sources window](../datatools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md).  
   
-    -   Any custom control that derives from \<xref:System.Windows.Controls.Primitives.Selector>.  
+    -   Any custom control that derives from <xref:System.Windows.Controls.Primitives.Selector>.  
   
         > [!NOTE]
         >  For information about how to add custom controls to the list of controls you can select for items in the **Data Sources** window, see [Add custom controls to the Data Sources window](../datatools/add-custom-controls-to-the-data-sources-window.md).  
   
 8.  Drag the child node from the **Data Sources** window onto a container in the WPF designer. (In the preceding example, the child node is the **Orders** node.)  
   
-     Visual Studio generates XAML that creates new data-bound controls for each of the items that you drag. The XAML also adds a new \<xref:System.Windows.Data.CollectionViewSource> for the child table or object to the resources of the drop target. For some data sources, Visual Studio also generates code to load data into the table or object. For more information, see [Bind WPF controls to data in Visual Studio](../datatools/bind-wpf-controls-to-data-in-visual-studio1.md).  
+     Visual Studio generates XAML that creates new data-bound controls for each of the items that you drag. The XAML also adds a new <xref:System.Windows.Data.CollectionViewSource> for the child table or object to the resources of the drop target. For some data sources, Visual Studio also generates code to load data into the table or object. For more information, see [Bind WPF controls to data in Visual Studio](../datatools/bind-wpf-controls-to-data-in-visual-studio1.md).  
   
 9. Drag the parent node from the **Data Sources** window onto the lookup binding control that you created earlier. (In the preceding example, the parent node is the **Customers** node).  
   
@@ -99,10 +99,10 @@ The term *lookup table* (sometimes called a *lookup binding*) describes a contro
   
     |Property|Explanation of setting|  
     |--------------|----------------------------|  
-    |\<xref:System.Windows.Controls.ItemsControl.ItemsSource*>|This property specifies the collection or binding that is used to get the data that is displayed in the control. Visual Studio sets this property to the \<xref:System.Windows.Data.CollectionViewSource> for the parent data you dragged to the control.|  
-    |\<xref:System.Windows.Controls.ItemsControl.DisplayMemberPath*>|This property specifies the path of the data item that is displayed in the control. Visual Studio sets this property to the first column or property in the parent data, after the primary key, that has a string data type.<br /><br /> If you want to display a different column or property in the parent data, change this property to the path of a different property.|  
-    |\<xref:System.Windows.Controls.Primitives.Selector.SelectedValue*>|Visual Studio binds this property to the column or property of the child data that you dragged to the designer. This is the foreign key to the parent data.|  
-    |\<xref:System.Windows.Controls.Primitives.Selector.SelectedValuePath*>|Visual Studio sets this property to the path of the column or property of the child data that is the foreign key to the parent data.|  
+    |<xref:System.Windows.Controls.ItemsControl.ItemsSource*>|This property specifies the collection or binding that is used to get the data that is displayed in the control. Visual Studio sets this property to the <xref:System.Windows.Data.CollectionViewSource> for the parent data you dragged to the control.|  
+    |<xref:System.Windows.Controls.ItemsControl.DisplayMemberPath*>|This property specifies the path of the data item that is displayed in the control. Visual Studio sets this property to the first column or property in the parent data, after the primary key, that has a string data type.<br /><br /> If you want to display a different column or property in the parent data, change this property to the path of a different property.|  
+    |<xref:System.Windows.Controls.Primitives.Selector.SelectedValue*>|Visual Studio binds this property to the column or property of the child data that you dragged to the designer. This is the foreign key to the parent data.|  
+    |<xref:System.Windows.Controls.Primitives.Selector.SelectedValuePath*>|Visual Studio sets this property to the path of the column or property of the child data that is the foreign key to the parent data.|  
   
 ## See Also  
  [Bind WPF controls to data in Visual Studio](../datatools/bind-wpf-controls-to-data-in-visual-studio1.md)   

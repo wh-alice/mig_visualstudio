@@ -1,7 +1,7 @@
 ---
 title: "How to: Register a Library with the Object Manager"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -41,11 +41,11 @@ Symbols-browsing tools, such as **Class View**, **Object Browser**, **Call Brows
   
  Typically, you register a library when a VSPackage loads. However, it can be done at another time as needed. You unregister the library when the VSPackage shuts down.  
   
- To register a library, use the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2.RegisterLibrary*> method. In the case of managed code library, use the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2.RegisterSimpleLibrary*> method.  
+ To register a library, use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2.RegisterLibrary*> method. In the case of managed code library, use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2.RegisterSimpleLibrary*> method.  
   
- To unregister a library, use the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2.UnregisterLibrary*> method.  
+ To unregister a library, use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2.UnregisterLibrary*> method.  
   
- To obtain a reference to the object manager, \<xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2>, pass the \<xref:Microsoft.VisualStudio.Shell.Interop.SVsObjectManager> service ID to `GetService` method.  
+ To obtain a reference to the object manager, <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2>, pass the <xref:Microsoft.VisualStudio.Shell.Interop.SVsObjectManager> service ID to `GetService` method.  
   
 ## Registering and unregistering a Library with the Object Manager  
   
@@ -68,7 +68,7 @@ Symbols-browsing tools, such as **Class View**, **Object Browser**, **Call Brows
   
     ```  
   
-2.  Obtain a reference to an object of the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2> type and call the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2.RegisterSimpleLibrary*> method.  
+2.  Obtain a reference to an object of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2> type and call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2.RegisterSimpleLibrary*> method.  
   
     ```vb#  
     Private Sub RegisterLibrary()  
@@ -124,7 +124,7 @@ Symbols-browsing tools, such as **Class View**, **Object Browser**, **Call Brows
   
 #### To unregister a library with the object manager  
   
-1.  Obtain a reference to an object of the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2> type and call the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2.UnregisterLibrary*> method.  
+1.  Obtain a reference to an object of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2> type and call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2.UnregisterLibrary*> method.  
   
     ```vb#  
     Private Sub UnregisterLibrary()  

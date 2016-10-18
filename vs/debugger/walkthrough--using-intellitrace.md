@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Using IntelliTrace"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -47,7 +47,7 @@ You can use IntelliTrace to collect information about specific events or categor
     using System.IO;  
     ```  
   
-3.  Create a \<xref:System.IO.FileStream> in the Main method, read from it, close it, and delete the file. Add another line just to have a place to set a breakpoint:  
+3.  Create a <xref:System.IO.FileStream> in the Main method, read from it, close it, and delete the file. Add another line just to have a place to set a breakpoint:  
   
     ```c#  
     static void Main(string[] args)  

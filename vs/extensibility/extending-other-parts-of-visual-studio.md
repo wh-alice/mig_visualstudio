@@ -1,7 +1,7 @@
 ---
 title: "Extending Other Parts of Visual Studio"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na

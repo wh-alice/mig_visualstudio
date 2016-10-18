@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Calling into the Visual Studio SDK By Using Automation"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -80,7 +80,7 @@ This walkthrough illustrates how to create a Visual Studio add-in that consumes 
      [!code[VSSDKAddin#2](../misc/codesnippet/CSharp/walkthrough--calling-into-the-visual-studio-sdk-by-using-automation_2.cs)]
 [!code[VSSDKAddin#2](../misc/codesnippet/VisualBasic/walkthrough--calling-into-the-visual-studio-sdk-by-using-automation_2.vb)]  
   
-     This code casts the current application object (type `DTE2`) into an `IOleServiceProvider`, then calls `QueryService` to obtain the \<xref:Microsoft.VisualStudio.Shell.Interop.SVsUIShell> service. This service provides an \<xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell> interface. The \<xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.ShowMessageBox*> method displays a message box when the add-in runs.  
+     This code casts the current application object (type `DTE2`) into an `IOleServiceProvider`, then calls `QueryService` to obtain the <xref:Microsoft.VisualStudio.Shell.Interop.SVsUIShell> service. This service provides an <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell> interface. The <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.ShowMessageBox*> method displays a message box when the add-in runs.  
   
 4.  Build and start the Addin project in debug mode by pressing F5.  
   

@@ -1,7 +1,7 @@
 ---
 title: "All parameters must be explicitly typed if any are"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,4 +44,4 @@ You have mixed different types of type declarations in a function.
 -   Make sure all parameters are explicitly typed.  
   
 ## See Also  
- \<xref:System.Type>
+ <xref:System.Type>

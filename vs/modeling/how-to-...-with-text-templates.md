@@ -1,7 +1,7 @@
 ---
 title: "How to ... with Text Templates"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -45,7 +45,7 @@ Text templates in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] provi
   
 -   Add a runtime text template to your project. This template creates a class in your code, which you can instantiate and use to generate text. You can pass data to it in the constructor parameters. For more information, see [Run-Time Text Generation with T4 Text Templates](../modeling/run-time-text-generation-with-t4-text-templates.md).  
   
--   If you want to generate from templates that are available only at run time, you can use standard text templates. If you are writing a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] extension, you can invoke the text templating service. For more information, see [Invoking Text Transformation in a VS Extension](../modeling/invoking-text-transformation-in-a-vs-extension.md). In other contexts, you can use the text templating engine. For more information, see \<xref:Microsoft.VisualStudio.TextTemplating.Engine?displayProperty=fullName>.  
+-   If you want to generate from templates that are available only at run time, you can use standard text templates. If you are writing a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] extension, you can invoke the text templating service. For more information, see [Invoking Text Transformation in a VS Extension](../modeling/invoking-text-transformation-in-a-vs-extension.md). In other contexts, you can use the text templating engine. For more information, see <xref:Microsoft.VisualStudio.TextTemplating.Engine?displayProperty=fullName>.  
   
      Use the \<#@parameter#> directive to pass parameters to these templates. For more information, see [T4 Parameter Directive](../modeling/t4-parameter-directive.md).  
   

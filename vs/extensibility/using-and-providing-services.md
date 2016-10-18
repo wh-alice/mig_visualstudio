@@ -1,7 +1,7 @@
 ---
 title: "Using and Providing Services"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -33,17 +33,17 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Using and Providing Services
-A service is a contract between two VSPackages. One VSPackage offers a specific set of interfaces for another VSPackage to consume. For example, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] offers the \<xref:Microsoft.VisualStudio.Shell.Interop.SVsActivityLog> service to any VSPackage it loads. This service provides the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsActivityLog> interface, which can be used to write to the activity log. For more information, see [How to: Use the Activity Log](../extensibility/how-to--use-the-activity-log.md).  
+A service is a contract between two VSPackages. One VSPackage offers a specific set of interfaces for another VSPackage to consume. For example, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] offers the <xref:Microsoft.VisualStudio.Shell.Interop.SVsActivityLog> service to any VSPackage it loads. This service provides the <xref:Microsoft.VisualStudio.Shell.Interop.IVsActivityLog> interface, which can be used to write to the activity log. For more information, see [How to: Use the Activity Log](../extensibility/how-to--use-the-activity-log.md).  
   
- VSPackages can offer services of their own by using the \<xref:Microsoft.VisualStudio.Shell.Interop.IProfferService> interface..  
+ VSPackages can offer services of their own by using the <xref:Microsoft.VisualStudio.Shell.Interop.IProfferService> interface..  
   
  Visual Studio offers important services, such as the following:  
   
 |IDE service|Description|  
 |-----------------|-----------------|  
-|\<xref:Microsoft.VisualStudio.Shell.Interop.SVsShell>|Provides access to IDE services dealing with basic functionality, VSPackages, and the registry.|  
-|\<xref:Microsoft.VisualStudio.Shell.Interop.SVsUIShell>|Provides basic windowing and UI-related functionality in the IDE, such as the ability to create tools and document windows.|  
-|\<xref:Microsoft.VisualStudio.Shell.Interop.SVsSolution>|Provides basic solution-related functionality, such as the ability to enumerate projects, create new projects, and monitor project changes.|  
+|<xref:Microsoft.VisualStudio.Shell.Interop.SVsShell>|Provides access to IDE services dealing with basic functionality, VSPackages, and the registry.|  
+|<xref:Microsoft.VisualStudio.Shell.Interop.SVsUIShell>|Provides basic windowing and UI-related functionality in the IDE, such as the ability to create tools and document windows.|  
+|<xref:Microsoft.VisualStudio.Shell.Interop.SVsSolution>|Provides basic solution-related functionality, such as the ability to enumerate projects, create new projects, and monitor project changes.|  
   
 ## In This Section  
  [Service Essentials](../extensibility/service-essentials.md)  

@@ -1,7 +1,7 @@
 ---
 title: "NumberOfChars must be greater than zero"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -40,7 +40,7 @@ When using the `PeekChars` method of the `TextFieldParser` object, you must supp
   
 ## See Also  
  [How to: Read From Text Files with Multiple Formats](../Topic/How%20to:%20Read%20From%20Text%20Files%20with%20Multiple%20Formats%20in%20Visual%20Basic.md)   
- [My.Computer.FileSystem.OpenTextFieldParser Method](http://msdn.microsoft.com/e5869f85-c078-485f-8323-8dc716494546)   
- [TextFieldParser.PeekChars Method](http://msdn.microsoft.com/4a180d26-d46d-4cc1-9af7-d23abe27c89b)   
+ [My.Computer.FileSystem.OpenTextFieldParser Method](http://msdn.microsoft.com/en-us/e5869f85-c078-485f-8323-8dc716494546)   
+ [TextFieldParser.PeekChars Method](http://msdn.microsoft.com/en-us/4a180d26-d46d-4cc1-9af7-d23abe27c89b)   
  [Parsing Text Files with the TextFieldParser Object](../Topic/Parsing%20Text%20Files%20with%20the%20TextFieldParser%20Object%20\(Visual%20Basic\).md)   
  [TextFieldParser Object](../Topic/TextFieldParser%20Object.md)

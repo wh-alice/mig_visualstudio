@@ -1,7 +1,7 @@
 ---
 title: "Custom Parameters"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -48,14 +48,14 @@ Param="PREPROCESS_FUNCTION = CanAddATLSupport"
 Param="PROJECT_TYPE = CSPROJ"  
 ```  
   
- The author of the .vsz file adds the values of the parameters. When a user selects **New Project** or **Add New Item** on the File menu or by right-clicking a project in **Solution Explorer**, the IDE collects these values into an array of strings. The IDE then calls the project's \<xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3.AddItem*> method with the \<xref:Microsoft.VisualStudio.Shell.Interop.VSADDITEMOPERATION> flag set, and the project calls the \<xref:EnvDTE.IVsExtensibility.RunWizardFile*> method that is responsible for running the wizard and returning the result.  
+ The author of the .vsz file adds the values of the parameters. When a user selects **New Project** or **Add New Item** on the File menu or by right-clicking a project in **Solution Explorer**, the IDE collects these values into an array of strings. The IDE then calls the project's <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3.AddItem*> method with the <xref:Microsoft.VisualStudio.Shell.Interop.VSADDITEMOPERATION> flag set, and the project calls the <xref:EnvDTE.IVsExtensibility.RunWizardFile*> method that is responsible for running the wizard and returning the result.  
   
  The wizard is responsible for parsing the array of strings and acting on the strings appropriately. In this manner, by implementing custom parameters you can create one wizard that performs a variety of functions. In other words, one wizard could have three different .vsz files. Each file passes different sets of custom parameters to control the behavior of the wizard in various situations.  
   
  For more information, see [Wizard (.Vsz) File](../extensibility/wizard--.vsz--file.md).  
   
 ## See Also  
- \<xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3>   
+ <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3>   
  [Context Parameters](../extensibility/context-parameters.md)   
  [Wizards](../extensibility/wizards.md)   
  [Wizard (.Vsz) File](../extensibility/wizard--.vsz--file.md)

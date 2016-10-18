@@ -1,7 +1,7 @@
 ---
 title: "&#39;#End ExternalSource&#39; must be preceded by a matching &#39;#ExternalSource&#39;"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -47,4 +47,4 @@ The `#ExternalSource` directive references outside code, enabling the compiler t
   
 ## See Also  
  [#ExternalSource Directive](../Topic/%23ExternalSource%20Directive.md)   
- [NOTINBUILD Conditional Compilation (Visual Basic)](http://msdn.microsoft.com/ad1e35e0-935e-4a35-a2ae-738bcf2a9240)
+ [NOTINBUILD Conditional Compilation (Visual Basic)](http://msdn.microsoft.com/en-us/ad1e35e0-935e-4a35-a2ae-738bcf2a9240)

@@ -1,7 +1,7 @@
 ---
 title: "&#39;Let&#39; and &#39;Set&#39; assignment statements are no longer supported"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -47,4 +47,4 @@ translation.priority.mt:
   
 ## See Also  
  [Property Statement](../Topic/Property%20Statement.md)   
- [Property Changes in Visual Basic](http://msdn.microsoft.com/1c138efa-9bc2-44d7-80a0-f3a7c2510264)
+ [Property Changes in Visual Basic](http://msdn.microsoft.com/en-us/1c138efa-9bc2-44d7-80a0-f3a7c2510264)

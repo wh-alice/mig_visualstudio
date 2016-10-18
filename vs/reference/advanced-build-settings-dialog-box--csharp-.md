@@ -1,7 +1,7 @@
 ---
 title: "Advanced Build Settings Dialog Box (C#)"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -58,7 +58,7 @@ Use the **AdvancedBuild Settings** dialog box of the **Project Designer** to spe
  Specifies whether an integer arithmetic statement that is not in the scope of the [checked](../Topic/checked%20\(C%23%20Reference\).md) or [unchecked](../Topic/unchecked%20\(C%23%20Reference\).md) keywords and that results in a value outside the range of the data type will cause a run-time exception.For more information, see [/checked (C# Compiler Options)](../Topic/-checked%20\(C%23%20Compiler%20Options\).md).  
   
  **Do not reference mscorlib.dll**  
- Specifies whether mscorlib.dll will be imported into your program, defining the entire \<xref:System> namespace. Check this box if you want to define or create your own \<xref:System> namespace and objects. For more information, see [/nostdlib (C# Compiler Options)](../Topic/-nostdlib%20\(C%23%20Compiler%20Options\).md).  
+ Specifies whether mscorlib.dll will be imported into your program, defining the entire <xref:System> namespace. Check this box if you want to define or create your own <xref:System> namespace and objects. For more information, see [/nostdlib (C# Compiler Options)](../Topic/-nostdlib%20\(C%23%20Compiler%20Options\).md).  
   
 ## Output  
  The following options enable you to specify advanced output options.  

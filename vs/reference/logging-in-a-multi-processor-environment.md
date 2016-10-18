@@ -1,7 +1,7 @@
 ---
 title: "Logging in a Multi-Processor Environment"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,7 +44,7 @@ The ability of MSBuild to use multiple processors can greatly decrease project b
   
  When a build occurs, the secondary loggers route their event traffic to the central loggers. Because events originate at several secondary nodes, the data arrives at the central node simultaneously but interleaved. To resolve event-to-project and event-to-target references, the event arguments include additional build event context information.  
   
- Although only \<xref:Microsoft.Build.Framework.ILogger> is required to be implemented by the central logger, we recommend that you also implement \<xref:Microsoft.Build.Framework.INodeLogger> if you want the central logger to initialize with the number of nodes that are participating in the build. The following overload of the \<xref:Microsoft.Build.Framework.ILogger.Initialize*> method is invoked when the engine initializes the logger:  
+ Although only <xref:Microsoft.Build.Framework.ILogger> is required to be implemented by the central logger, we recommend that you also implement <xref:Microsoft.Build.Framework.INodeLogger> if you want the central logger to initialize with the number of nodes that are participating in the build. The following overload of the <xref:Microsoft.Build.Framework.ILogger.Initialize*> method is invoked when the engine initializes the logger:  
   
 ```  
 public interface INodeLogger: ILogger  
@@ -58,7 +58,7 @@ public interface INodeLogger: ILogger
   
  To reduce this problem, MSBuild also enables a "distributed logging model" that extends the central logging model by letting you create forwarding loggers. A forwarding logger is attached to a secondary node and receives incoming build events from that node. The forwarding logger is just like a regular logger except that it can filter the events and then forward only the desired ones to the central node. This reduces the message traffic at the central node and therefore enables better performance.  
   
- You can create a forwarding logger by implementing the \<xref:Microsoft.Build.Framework.IForwardingLogger> interface, which derives from \<xref:Microsoft.Build.Framework.ILogger>. The interface is defined as:  
+ You can create a forwarding logger by implementing the <xref:Microsoft.Build.Framework.IForwardingLogger> interface, which derives from <xref:Microsoft.Build.Framework.ILogger>. The interface is defined as:  
   
 ```  
 public interface IForwardingLogger: INodeLogger  
@@ -68,7 +68,7 @@ public interface IForwardingLogger: INodeLogger
 }  
 ```  
   
- To forward events in a forwarding logger, call the \<xref:Microsoft.Build.Framework.IEventRedirector.ForwardEvent*> method of the \<xref:Microsoft.Build.Framework.IEventRedirector> interface. Pass the appropriate \<xref:Microsoft.Build.Framework.BuildEventArgs>, or a derivative, as the parameter.  
+ To forward events in a forwarding logger, call the <xref:Microsoft.Build.Framework.IEventRedirector.ForwardEvent*> method of the <xref:Microsoft.Build.Framework.IEventRedirector> interface. Pass the appropriate <xref:Microsoft.Build.Framework.BuildEventArgs>, or a derivative, as the parameter.  
   
  For more information, see [Creating Forwarding Loggers](../reference/creating-forwarding-loggers.md).  
   

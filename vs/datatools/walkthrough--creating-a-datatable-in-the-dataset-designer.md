@@ -38,7 +38,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Walkthrough: Creating a DataTable in the Dataset Designer
-This walkthrough explains how to create a \<xref:System.Data.DataTable> (without a TableAdapter) using the **Dataset Designer**. For information on creating data tables that include TableAdapters, see [Create and configure TableAdapters](../datatools/create-and-configure-tableadapters.md).  
+This walkthrough explains how to create a <xref:System.Data.DataTable> (without a TableAdapter) using the **Dataset Designer**. For information on creating data tables that include TableAdapters, see [Create and configure TableAdapters](../datatools/create-and-configure-tableadapters.md).  
   
  Tasks illustrated in this walkthrough include:  
   
@@ -101,15 +101,15 @@ This walkthrough explains how to create a \<xref:System.Data.DataTable> (without
   
 2.  Name the column `SongID`.  
   
-3.  In the **Properties** window, set the \<xref:System.Data.DataColumn.DataType*> property to \<xref:System.Int16?displayProperty=fullName>.  
+3.  In the **Properties** window, set the <xref:System.Data.DataColumn.DataType*> property to <xref:System.Int16?displayProperty=fullName>.  
   
 4.  Repeat this process and add the following columns:  
   
-     `SongTitle`: \<xref:System.String?displayProperty=fullName>  
+     `SongTitle`: <xref:System.String?displayProperty=fullName>  
   
-     `Artist`: \<xref:System.String?displayProperty=fullName>  
+     `Artist`: <xref:System.String?displayProperty=fullName>  
   
-     `Genre`: \<xref:System.String?displayProperty=fullName>  
+     `Genre`: <xref:System.String?displayProperty=fullName>  
   
 ## Setting the Primary Key for the Table  
  All data tables should have a primary key. A primary key uniquely identifies a specific record in a data table.  

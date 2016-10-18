@@ -1,7 +1,7 @@
 ---
 title: "How to: View, Save, and Configure Build Log Files"
 ms.custom: na
-ms.date: "10/12/2016"
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -61,7 +61,7 @@ After you build a project in the Visual Studio IDE, you can view information abo
     |Detailed|Displays a summary of the build; errors, warnings, and messages that are categorized as highly important; all of the steps of the build; and messages that are categorized as of normal importance.|  
     |Diagnostic|Displays all data that's available for the build. You can use this level of detail to help debug issues with custom build scripts and other build issues.|  
   
-     For more information, see [Options Dialog Box,  Projects and Solutions, Build and Run](../reference/options-dialog-box---projects-and-solutions--build-and-run.md) and \<xref:Microsoft.Build.Framework.LoggerVerbosity>.  
+     For more information, see [Options Dialog Box,  Projects and Solutions, Build and Run](../reference/options-dialog-box---projects-and-solutions--build-and-run.md) and <xref:Microsoft.Build.Framework.LoggerVerbosity>.  
   
     > [!IMPORTANT]
     >  You must rebuild the project for your changes to take effect in the **Output** window (all projects) and the *ProjectName*.txt file (C++ projects only).  

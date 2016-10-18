@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Code Access Security Exceptions"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -45,7 +45,7 @@ Permissions control what your code is allowed to do and not do. At the time an a
   
  The permissions your code is given are determined by the location from which the application was launched (for example, the Internet, intranet, or the local computer) and the security settings on the computer on which the application is running. Since these settings can differ from computer to computer, you cannot always anticipate whether or not the code will receive sufficient permissions.  
   
- Requesting permissions ensures that your code will execute if the security policy on the local computer allows it. If you do not request the necessary permissions, you run the risk of your code not executing. For more information on Code Access permissions and requesting them, see [Code Access Permissions](http://msdn.microsoft.com/e5ae402f-6dda-4732-bbe8-77296630f675) or [NIB: Requesting Permissions](http://msdn.microsoft.com/0447c49d-8cba-45e4-862c-ff0b59bebdc2). For more information on `Try...Catch` blocks, see [Try...Catch...Finally Statement](../Topic/Try...Catch...Finally%20Statement%20\(Visual%20Basic\).md).  
+ Requesting permissions ensures that your code will execute if the security policy on the local computer allows it. If you do not request the necessary permissions, you run the risk of your code not executing. For more information on Code Access permissions and requesting them, see [Code Access Permissions](http://msdn.microsoft.com/en-us/e5ae402f-6dda-4732-bbe8-77296630f675) or [NIB: Requesting Permissions](http://msdn.microsoft.com/en-us/0447c49d-8cba-45e4-862c-ff0b59bebdc2). For more information on `Try...Catch` blocks, see [Try...Catch...Finally Statement](../Topic/Try...Catch...Finally%20Statement%20\(Visual%20Basic\).md).  
   
  [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications can request additional permissions, if needed, using the Security Page in the Application Designer. For more information, see [How to: Set Custom Permissions for a ClickOnce Application](../deployment/how-to--set-custom-permissions-for-a-clickonce-application.md).  
   
@@ -83,6 +83,6 @@ End Try
 ```  
   
 ## See Also  
- [Code Access Permissions](http://msdn.microsoft.com/e5ae402f-6dda-4732-bbe8-77296630f675)   
- [NIB: Requesting Permissions](http://msdn.microsoft.com/0447c49d-8cba-45e4-862c-ff0b59bebdc2)   
+ [Code Access Permissions](http://msdn.microsoft.com/en-us/e5ae402f-6dda-4732-bbe8-77296630f675)   
+ [NIB: Requesting Permissions](http://msdn.microsoft.com/en-us/0447c49d-8cba-45e4-862c-ff0b59bebdc2)   
  [Code Access Security Basics](../Topic/Code%20Access%20Security%20Basics.md)

@@ -1,7 +1,7 @@
 ---
 title: "Construct makes an indirect reference to assembly &#39;&lt;assemblyname&gt;&#39;, which contains &#39;&lt;typename&gt;&#39;"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -46,6 +46,6 @@ Construct makes an indirect reference to assembly '\<assemblyname>', which conta
 -   In your project properties, add a reference to the file that contains the assembly that defines the type you are using.  
   
 ## See Also  
- [NOTINBUILD: Resolving a Reference When Multiple Variables Have the Same Name](http://msdn.microsoft.com/9601e39f-1911-44e1-ace5-3f6e090408b9)   
- [NIB How to: Modify Project Properties and Configuration Settings](http://msdn.microsoft.com/e7184bc5-2f2b-4b4f-aa9a-3ecfcbc48b67)   
- [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](http://msdn.microsoft.com/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)
+ [NOTINBUILD: Resolving a Reference When Multiple Variables Have the Same Name](http://msdn.microsoft.com/en-us/9601e39f-1911-44e1-ace5-3f6e090408b9)   
+ [NIB How to: Modify Project Properties and Configuration Settings](http://msdn.microsoft.com/en-us/e7184bc5-2f2b-4b4f-aa9a-3ecfcbc48b67)   
+ [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](http://msdn.microsoft.com/en-us/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)

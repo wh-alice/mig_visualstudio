@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio data tools for C++"
 ms.custom: na
-ms.date: "10/07/2016"
+ms.date: "10/14/2016"
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na

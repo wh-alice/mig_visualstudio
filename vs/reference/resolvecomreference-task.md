@@ -1,7 +1,7 @@
 ---
 title: "ResolveComReference Task"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -53,15 +53,15 @@ Takes a list of one or more type library names or .tlb files and resolves those 
 |`KeyContainer`|Optional `String` parameter.<br /><br /> Specifies a container that holds a public/private<br /><br /> key pair.|  
 |`KeyFile`|Optional `String` parameter.<br /><br /> Specifies an item that contains a public/private<br /><br /> key pair.|  
 |`NoClassMembers`|Optional `Boolean`parameter.|  
-|`ResolvedAssemblyReferences`|Optional \<xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Specifies the resolved assembly references.|  
-|`ResolvedFiles`|Optional \<xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Specifies the fully qualified files on disk that correspond to the physical locations of the type libraries that were provided as input to this task.|  
-|`ResolvedModules`|Optional \<xref:Microsoft.Build.Framework.ITaskItem>`[]`parameter.|  
+|`ResolvedAssemblyReferences`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Specifies the resolved assembly references.|  
+|`ResolvedFiles`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Specifies the fully qualified files on disk that correspond to the physical locations of the type libraries that were provided as input to this task.|  
+|`ResolvedModules`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]`parameter.|  
 |`SdkToolsPath`|Optional [String](assetId:///String?qualifyHint=False&autoUpgrade=True) parameter.<br /><br /> If `ExecuteAsTool` is `true`, this parameter must be set to the SDK tools path for the framework version being targeted.|  
 |`StateFile`|Optional assetId:///String?qualifyHint=False&autoUpgrade=True parameter.<br /><br /> Specifies the cache file for COM component timestamps. If not present, every run will regenerate all the wrappers.|  
 |`TargetFrameworkVersion`|Optional assetId:///String?qualifyHint=False&autoUpgrade=True parameter.<br /><br /> Specifies the project target framework version.<br /><br /> The default is `String.Empty`. which means there is no filtering for a reference based on the target framework.|  
-|`TargetProcessorArchitecture`|Optional assetId:///String?qualifyHint=False&autoUpgrade=True parameter.<br /><br /> Specifies the preferred target processor architecture. Passed to the tlbimp.exe /machine flag after translation.<br /><br /> The parameter value should be a member of \<xref:Microsoft.Build.Utilities.ProcessorArchitecture>.|  
-|`TypeLibFiles`|Optional \<xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the type library file path to COM references. Items included in this parameter may contain item metadata. For more information, see the section "TypeLibFiles Item Metadata" below.|  
-|`TypeLibNames`|Optional \<xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the type library names to resolve. Items included in this parameter must contain some item metadata. For more information, see the section "TypeLibNames Item Metadata" below.|  
+|`TargetProcessorArchitecture`|Optional assetId:///String?qualifyHint=False&autoUpgrade=True parameter.<br /><br /> Specifies the preferred target processor architecture. Passed to the tlbimp.exe /machine flag after translation.<br /><br /> The parameter value should be a member of <xref:Microsoft.Build.Utilities.ProcessorArchitecture>.|  
+|`TypeLibFiles`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the type library file path to COM references. Items included in this parameter may contain item metadata. For more information, see the section "TypeLibFiles Item Metadata" below.|  
+|`TypeLibNames`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the type library names to resolve. Items included in this parameter must contain some item metadata. For more information, see the section "TypeLibNames Item Metadata" below.|  
 |`WrapperOutputDirectory`|Optional `String` parameter.<br /><br /> The location on disk where the generated interop assembly is placed. If this item metadata is not specified, the task uses the absolute path of the directory where the project file is located.|  
   
 ## Remarks  
@@ -88,7 +88,7 @@ Takes a list of one or more type library names or .tlb files and resolves those 
 >  The more information that you provide to uniquely identify a type library, the greater the possibility that the task will resolve to the correct file on disk.  
   
 ## Remarks  
- In addition to the parameters listed above, this task inherits parameters from the \<xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [Task Base Class](../reference/task-base-class.md).  
+ In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [Task Base Class](../reference/task-base-class.md).  
   
 ## See Also  
  [Tasks](../reference/msbuild-tasks.md)   

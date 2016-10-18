@@ -1,7 +1,7 @@
 ---
 title: "How to: Change Fonts and Colors in the Editor"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,7 +44,7 @@ You can change the default font face, adjust the font size, and change the foreg
 -   **Item foreground**, **Item background**, and **Bold** options can be set for each type of text element. For example, if you change colors and select **Bold** for **Comment** and **Bookmarks**, other types of text elements will be unaffected.  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in **Help** depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The dialog boxes and menu commands you see might differ from those described in **Help** depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ### To change the default font face, size, and colors  
   

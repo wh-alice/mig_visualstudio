@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Creating an N-Tier Data Application"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -369,7 +369,7 @@ translation.priority.ht:
  Because the service returns data from the Customers and Orders tables, the default value for maxReceivedMessageSize is not large enough to hold the data and must be increased. For this walkthrough, you will change the value to 6553600. You will change the value on the client, and this will automatically update the service reference.  
   
 > [!NOTE]
->  The lower default size is intended to limit exposure to denial of service (DoS) attacks. For more information, see \<xref:System.ServiceModel.WSHttpBindingBase.MaxReceivedMessageSize*>.  
+>  The lower default size is intended to limit exposure to denial of service (DoS) attacks. For more information, see <xref:System.ServiceModel.WSHttpBindingBase.MaxReceivedMessageSize*>.  
   
 #### To increase the maxReceivedMessageSize value  
   

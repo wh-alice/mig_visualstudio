@@ -1,7 +1,7 @@
 ---
 title: "Creating Options Pages By Using Interop Assemblies"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -46,11 +46,11 @@ Managed VSPackages can use the COM-based interop assemblies of the [!INCLUDE[vsi
 ## Making Tools Options Pages Available to the IDE  
  In addition to implementing a user control, VSPackages must make that control available to the IDE.  
   
- This is done through the implementation of the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetPropertyPage*> method, which returns a \<xref:Microsoft.VisualStudio.Shell.Interop.VSPROPSHEETPAGE> structure based on the GUID passed.  
+ This is done through the implementation of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetPropertyPage*> method, which returns a <xref:Microsoft.VisualStudio.Shell.Interop.VSPROPSHEETPAGE> structure based on the GUID passed.  
   
- The IDE uses the \<xref:Microsoft.VisualStudio.Shell.Interop.VSPROPSHEETPAGE> structure to set the characteristics of a **Properties** page.  
+ The IDE uses the <xref:Microsoft.VisualStudio.Shell.Interop.VSPROPSHEETPAGE> structure to set the characteristics of a **Properties** page.  
   
- The settings contained in its `dwFlags` member determine the exact interpretation of the other members of \<xref:Microsoft.VisualStudio.Shell.Interop.VSPROPSHEETPAGE>. The structure typically provides:  
+ The settings contained in its `dwFlags` member determine the exact interpretation of the other members of <xref:Microsoft.VisualStudio.Shell.Interop.VSPROPSHEETPAGE>. The structure typically provides:  
   
 -   A handle to the instance from which to load an icon or string resource.  
   

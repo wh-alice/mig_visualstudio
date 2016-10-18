@@ -1,7 +1,7 @@
 ---
 title: "Locale ID &#39;&lt;name&gt;&#39; is not supported on this system"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,5 +39,5 @@ You are attempting to use `VbStrConv`, but your system does not support the spec
 1.  Upgrade the machine to support the locale, or run the application on a machine that supports the specified locale.  
   
 ## See Also  
- \<xref:System.Globalization>   
+ <xref:System.Globalization>   
  [Introduction to International Applications Based on the .NET Framework](../ide/introduction-to-international-applications-based-on-the-.net-framework.md)

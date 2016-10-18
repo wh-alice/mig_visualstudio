@@ -1,7 +1,7 @@
 ---
 title: "Selection and Currency in the IDE"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -64,9 +64,9 @@ The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated developm
   
  The IDE tracks currency differently for each of these window types.  
   
- The most common project-type window is the solution explorer, which the IDE controls. A project-type window tracks the global hierarchy and ItemID of the global selection context, and the window relies on the user's selection to determine the current hierarchy. For project-type windows, the environment provides the global service \<xref:Microsoft.VisualStudio.Shell.Interop.SVsShellMonitorSelection>, through which VSPackages can monitor the current values for open elements. Property browsing in the environment is driven by this global service.  
+ The most common project-type window is the solution explorer, which the IDE controls. A project-type window tracks the global hierarchy and ItemID of the global selection context, and the window relies on the user's selection to determine the current hierarchy. For project-type windows, the environment provides the global service <xref:Microsoft.VisualStudio.Shell.Interop.SVsShellMonitorSelection>, through which VSPackages can monitor the current values for open elements. Property browsing in the environment is driven by this global service.  
   
- Frame windows, on the other hand, use the DocObject within the frame window to push the SelectionContext value (the hierarchy/ItemID/SelectionContainer trio). . Frame windows use the service \<xref:Microsoft.VisualStudio.Shell.Interop.SVsShellMonitorSelection> for this purpose. The DocObject can push only values for the selection container, leaving the local values for hierarchy and ItemID unchanged, as is typical for MDI child documents.  
+ Frame windows, on the other hand, use the DocObject within the frame window to push the SelectionContext value (the hierarchy/ItemID/SelectionContainer trio). . Frame windows use the service <xref:Microsoft.VisualStudio.Shell.Interop.SVsShellMonitorSelection> for this purpose. The DocObject can push only values for the selection container, leaving the local values for hierarchy and ItemID unchanged, as is typical for MDI child documents.  
   
 ### Events and Currency  
  Two types of events might occur that affect the environment's notion of currency:  

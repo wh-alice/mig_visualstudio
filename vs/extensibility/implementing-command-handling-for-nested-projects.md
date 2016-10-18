@@ -1,7 +1,7 @@
 ---
 title: "Implementing Command Handling for Nested Projects"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -31,7 +31,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Implementing Command Handling for Nested Projects
-The IDE can pass commands that are passed through the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy> and the \<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interfaces to nested projects, or parent projects can filter or override the commands.  
+The IDE can pass commands that are passed through the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy> and the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interfaces to nested projects, or parent projects can filter or override the commands.  
   
 > [!NOTE]
 >  Only commands ordinarily handled by the parent project can be filtered. Commands such as **Build** and **Deploy** that are handled by the IDE cannot be filtered.  
@@ -44,11 +44,11 @@ The IDE can pass commands that are passed through the \<xref:Microsoft.VisualStu
   
 1.  When the user selects a nested project or a node in a nested project:  
   
-    1.  The IDE calls the \<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus*> method.  
+    1.  The IDE calls the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus*> method.  
   
      — or —  
   
-    1.  If the command originated in a hierarchy window, such as a shortcut menu command in Solution Explorer, the IDE calls the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy.QueryStatusCommand*> method on the project's parent.  
+    1.  If the command originated in a hierarchy window, such as a shortcut menu command in Solution Explorer, the IDE calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy.QueryStatusCommand*> method on the project's parent.  
   
 2.  The parent project can examine parameters to be passed to `QueryStatus`, such as `pguidCmdGroup` and `prgCmds`, to determine whether the parent project should filter the commands. If the parent project is implemented to filter commands, it should set:  
   
@@ -65,6 +65,6 @@ The IDE can pass commands that are passed through the \<xref:Microsoft.VisualStu
      The parent project does not have to route the command to the child project. The IDE performs this task..  
   
 ## See Also  
- \<xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy>   
+ <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy>   
  [Commands, Menus, and Toolbars](../extensibility/commands--menus--and-toolbars.md)   
  [Nesting Projects](../extensibility/nesting-projects.md)

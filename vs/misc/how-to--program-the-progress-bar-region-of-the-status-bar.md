@@ -1,7 +1,7 @@
 ---
 title: "How to: Program the Progress Bar Region of the Status Bar"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,11 +37,11 @@ The Progress Bar region of the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_
   
 ### To use the Progress Bar region of the Visual Studio status bar  
   
-1.  Obtain an instance of the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbar> interface, which is made available through the \<xref:Microsoft.VisualStudio.Shell.Interop.SVsStatusbar> service.  
+1.  Obtain an instance of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbar> interface, which is made available through the <xref:Microsoft.VisualStudio.Shell.Interop.SVsStatusbar> service.  
   
-2.  Initialize the progress bar to starting values by calling the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbar.Progress*> method.  
+2.  Initialize the progress bar to starting values by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbar.Progress*> method.  
   
-3.  Update the progress bar as your operation proceeds by using the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbar.Progress*> method to set new values.  
+3.  Update the progress bar as your operation proceeds by using the <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbar.Progress*> method to set new values.  
   
 ## Example  
  This example demonstrates how to initialize and update the progress bar.  
@@ -51,13 +51,13 @@ The Progress Bar region of the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_
   
  In the example, the code:  
   
--   Obtains an instance of the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbar> interface from the \<xref:Microsoft.VisualStudio.Shell.Interop.SVsStatusbar> service.  
+-   Obtains an instance of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbar> interface from the <xref:Microsoft.VisualStudio.Shell.Interop.SVsStatusbar> service.  
   
--   Initializes the progress bar to given starting values by calling the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbar.Progress*> method.  
+-   Initializes the progress bar to given starting values by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbar.Progress*> method.  
   
--   Simulates an operation by iterating through a `for` loop and updating the progress bar values by using the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbar.Progress*> method.  
+-   Simulates an operation by iterating through a `for` loop and updating the progress bar values by using the <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbar.Progress*> method.  
   
--   Clears the progress bar by using the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbar.Clear*> method.  
+-   Clears the progress bar by using the <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbar.Clear*> method.  
   
 ## See Also  
  [Extending the Status Bar](../extensibility/extending-the-status-bar.md)   

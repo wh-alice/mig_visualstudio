@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.Threading.ThreadAbortException"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -33,8 +33,8 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.Threading.ThreadAbortException
-The exception that is thrown when a call is made to the \<xref:System.Threading.Thread.Abort*> method.  
+The exception that is thrown when a call is made to the <xref:System.Threading.Thread.Abort*> method.  
   
 ## See Also  
- \<xref:System.Threading.ThreadAbortException>   
+ <xref:System.Threading.ThreadAbortException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

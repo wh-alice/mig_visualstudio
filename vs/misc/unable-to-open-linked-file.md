@@ -1,7 +1,7 @@
 ---
 title: "Unable to Open Linked File"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -43,4 +43,4 @@ A file was added to the project as a linked file. However, when you opened the p
 -   Put the file back in the location where the project system expects to find it.  
   
 ## See Also  
- [NIB:Item Management in Projects](http://msdn.microsoft.com/762e606b-7f44-4b66-97a1-e30a703654a0)
+ [NIB:Item Management in Projects](http://msdn.microsoft.com/en-us/762e606b-7f44-4b66-97a1-e30a703654a0)

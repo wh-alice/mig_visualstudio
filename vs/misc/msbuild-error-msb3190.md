@@ -1,7 +1,7 @@
 ---
 title: "MSBuild Error MSB3190"
 ms.custom: na
-ms.date: "10/12/2016"
+ms.date: "10/17/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -41,7 +41,7 @@ translation.priority.mt:
  ClickOnce does not accept the execution levels `requireAdministrator` or `highestAvailable`. If you specify one of these levels, you will receive this error. ClickOnce requires `asInvoker`, but it will also accept no `<requestedExecutionLevel>` node, which specifies file/registry virtualization (meaning that no manifest is generated; this is done for backward compatibility).  
   
 > [!NOTE]
->  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ### To correct this error  
   

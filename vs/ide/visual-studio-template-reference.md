@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio Template Reference"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -41,8 +41,8 @@ The following links provide reference information about the different aspects of
  [Template Parameters](../ide/template-parameters.md)  
  Describes the parameters available for project and item templates.  
   
- \<xref:Microsoft.VisualStudio.TemplateWizard>  
- Describes the \<xref:Microsoft.VisualStudio.TemplateWizard.IWizard> interface and related types.  
+ <xref:Microsoft.VisualStudio.TemplateWizard>  
+ Describes the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> interface and related types.  
   
 ## Related Sections  
  [How to: Create Project Templates](../ide/how-to--create-project-templates.md)  

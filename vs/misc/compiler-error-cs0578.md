@@ -1,7 +1,7 @@
 ---
 title: "Compiler Error CS0578"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -168,10 +168,10 @@ translation.priority.mt:
 # Compiler Error CS0578
 The Conditional attribute is not valid on 'function' because its return type is not void  
   
- \<xref:System.Diagnostics.ConditionalAttribute> cannot be applied to a method that has a return type other than `void`. The reason for this is that any other return type for a method may be needed by another part of your program.  
+ <xref:System.Diagnostics.ConditionalAttribute> cannot be applied to a method that has a return type other than `void`. The reason for this is that any other return type for a method may be needed by another part of your program.  
   
 ## Example  
- The following sample generates CS0578. To resolve this error, you must either delete \<xref:System.Diagnostics.ConditionalAttribute>, or you must change the return value of the method to `void`.  
+ The following sample generates CS0578. To resolve this error, you must either delete <xref:System.Diagnostics.ConditionalAttribute>, or you must change the return value of the method to `void`.  
   
 ```  
 // CS0578.cs  

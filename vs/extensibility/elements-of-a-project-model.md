@@ -1,7 +1,7 @@
 ---
 title: "Elements of a Project Model"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -45,18 +45,18 @@ The interfaces and implementations of all projects in [!INCLUDE[vsprvs](../codeq
   
 -   Each project must have a template file or wizard to initialize the new project file when a user creates a new project through the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] UI. For example, the [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)] templates initialize what eventually become .vcproj files.  
   
- The following illustration shows the primary interfaces, services, and objects that compose a typical project implementation. You can use the application helper, HierUtil7, to create the underlying objects and other programming boilerplate. For more information about the HierUtil7 application helper, see [Not in Build: Using HierUtil7 Project Classes to Implement a Project Type (C++)](http://msdn.microsoft.com/a5c16a09-94a2-46ef-87b5-35b815e2f346).  
+ The following illustration shows the primary interfaces, services, and objects that compose a typical project implementation. You can use the application helper, HierUtil7, to create the underlying objects and other programming boilerplate. For more information about the HierUtil7 application helper, see [Not in Build: Using HierUtil7 Project Classes to Implement a Project Type (C++)](http://msdn.microsoft.com/en-us/a5c16a09-94a2-46ef-87b5-35b815e2f346).  
   
  ![Visual Studio Project Model graphic](../extensibility/media/vsprojectmodel.gif "vsProjectModel")  
 Project model  
   
  For more information about the interfaces and services listed in the previous diagram, and other optional interfaces not included in the diagram, see [Project Model Core Components](../extensibility/project-model-core-components.md).  
   
- Projects can support commands and therefore must implement the \<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface to participate in command routing through the command context GUIDs.  
+ Projects can support commands and therefore must implement the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface to participate in command routing through the command context GUIDs.  
   
 ## See Also  
  [Checklist: Creating New Project Types](../extensibility/checklist--creating-new-project-types.md)   
- [Not in Build: Using HierUtil7 Project Classes to Implement a Project Type (C++)](http://msdn.microsoft.com/a5c16a09-94a2-46ef-87b5-35b815e2f346)   
+ [Not in Build: Using HierUtil7 Project Classes to Implement a Project Type (C++)](http://msdn.microsoft.com/en-us/a5c16a09-94a2-46ef-87b5-35b815e2f346)   
  [Project Model Core Components](../extensibility/project-model-core-components.md)   
  [Creating Project Instances By Using Project Factories](../extensibility/creating-project-instances-by-using-project-factories.md)   
  [How to: Get a Service](../extensibility/how-to--get-a-service.md)   

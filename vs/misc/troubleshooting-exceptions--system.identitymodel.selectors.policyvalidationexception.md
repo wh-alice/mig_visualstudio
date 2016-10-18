@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.IdentityModel.Selectors.PolicyValidationException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -33,7 +33,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.IdentityModel.Selectors.PolicyValidationException
-A \<xref:System.IdentityModel.Selectors.PolicyValidationException> exception is thrown when the policy supplied by the recipient cannot be validated. For more information about policy requirements, see [A Technical Reference for the Information Card Profile V1.0](http://go.microsoft.com/fwlink/?LinkID=102401).  
+A <xref:System.IdentityModel.Selectors.PolicyValidationException> exception is thrown when the policy supplied by the recipient cannot be validated. For more information about policy requirements, see [A Technical Reference for the Information Card Profile V1.0](http://go.microsoft.com/fwlink/?LinkID=102401).  
   
  Any invalid policy content can cause this failure. Common problems with policy content include the following:  
   
@@ -46,5 +46,5 @@ A \<xref:System.IdentityModel.Selectors.PolicyValidationException> exception is 
 -   No claims specified in the policy (at least one non-optional claim must be specified)  
   
 ## See Also  
- \<xref:System.IdentityModel.Selectors.PolicyValidationException>   
+ <xref:System.IdentityModel.Selectors.PolicyValidationException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

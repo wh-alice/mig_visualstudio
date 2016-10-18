@@ -1,7 +1,7 @@
 ---
 title: "Code Access Security for ClickOnce Applications"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -70,7 +70,7 @@ ClickOnce applications are based on the .NET Framework and are subject to code a
   
  As a starting point for configuring permissions, you can select a security zone from the **Zone** list on the **Security** page. If your application will potentially be deployed from more than one zone, select the zone with the least permissions. For more information, see [How to: Set a Security Zone for a ClickOnce Application](../deployment/how-to--set-a-security-zone-for-a-clickonce-application.md).  
   
- The properties that can be set vary by permission set; not all permission sets have configurable properties. For more information about the full list of permissions that your application can request, see \<xref:System.Security.Permissions>. For more information about how to set permissions for a custom zone, see [How to: Set Custom Permissions for a ClickOnce Application](../deployment/how-to--set-custom-permissions-for-a-clickonce-application.md).  
+ The properties that can be set vary by permission set; not all permission sets have configurable properties. For more information about the full list of permissions that your application can request, see <xref:System.Security.Permissions>. For more information about how to set permissions for a custom zone, see [How to: Set Custom Permissions for a ClickOnce Application](../deployment/how-to--set-custom-permissions-for-a-clickonce-application.md).  
   
 ## Debugging an Application That Has Restricted Permissions  
  As a developer, you most likely run your development computer with Full Trust permissions. Therefore, you do not see the same security exceptions when you debug the application that users may see when they run it with restricted permissions.  

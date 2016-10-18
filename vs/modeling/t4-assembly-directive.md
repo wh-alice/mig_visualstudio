@@ -1,7 +1,7 @@
 ---
 title: "T4 Assembly Directive"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -43,7 +43,7 @@ In a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] design-time text t
   
  The assembly name should be one of the following:  
   
--   The strong name of an assembly in the GAC, such as `System.Xml.dll`. You can also use the long form, such as `name="System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"`. For more information, see \<xref:System.Reflection.AssemblyName>.  
+-   The strong name of an assembly in the GAC, such as `System.Xml.dll`. You can also use the long form, such as `name="System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"`. For more information, see <xref:System.Reflection.AssemblyName>.  
   
 -   The absolute path of the assembly  
   

@@ -1,7 +1,7 @@
 ---
 title: "Conversion operators cannot convert from Object"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -52,4 +52,4 @@ A conversion operator is declared with a parameter of the [Object Data Type](../
  [Operator Statement](../Topic/Operator%20Statement.md)   
  [How to: Define an Operator](../Topic/How%20to:%20Define%20an%20Operator%20\(Visual%20Basic\).md)   
  [How to: Define a Conversion Operator](../Topic/How%20to:%20Define%20a%20Conversion%20Operator%20\(Visual%20Basic\).md)   
- [Object as the Universal Data Type (Visual Basic)](http://msdn.microsoft.com/5315bf21-2b22-45ab-98cd-5631dffbcb2f)
+ [Object as the Universal Data Type (Visual Basic)](http://msdn.microsoft.com/en-us/5315bf21-2b22-45ab-98cd-5631dffbcb2f)

@@ -1,7 +1,7 @@
 ---
 title: "What&#39;s new for design in Visual Studio"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -41,7 +41,7 @@ This release of Visual Studio includes the following improvements to help you be
   
  In the final (RTM) release, we made the shortcut menus for code elements and links much easier to use by grouping commands into sections related to selecting, editing, managing groups, and changing the layout of group contents. Notice also that test projects are displayed in a different style from other projects, and that we updated the icons for elements on the map to more appropriate versions.  
   
- ![Show selected items on a new code map](../modeling/media/codemapsshowonnewmap.png "CodeMapsShowOnNewMap")  
+ ![Show selected items on a new code map](../ide/media/codemapsshowonnewmap.png "CodeMapsShowOnNewMap")  
   
  Other improvements include:  
   

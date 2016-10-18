@@ -1,7 +1,7 @@
 ---
 title: "Redeclaration of typedef Names"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -35,4 +35,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Redeclaration of typedef Names
-This content has moved to [(NOTINBUILD)typedef Specifier](http://msdn.microsoft.com/cc96cf26-ba93-4179-951e-695d1f5fdcf1).
+This content has moved to [(NOTINBUILD)typedef Specifier](http://msdn.microsoft.com/en-us/cc96cf26-ba93-4179-951e-695d1f5fdcf1).

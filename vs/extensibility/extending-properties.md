@@ -1,7 +1,7 @@
 ---
 title: "Extending Properties"
 ms.custom: na
-ms.date: "10/12/2016"
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -33,7 +33,7 @@ translation.priority.mt:
 # Extending Properties
 The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] **Properties** window is a universal property browser for COM and COM+ components and supports all [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] products. The **Properties** window works with `ITypeInfo` type information and COM+ metadata to list the design-time properties for the currently selected object in any other window in the integrated development environment (IDE).  
   
- The **Properties** window, which can be opened by pressing F4 on the keyboard, or selecting **Properties Window** on the **View** menu, is used to view and edit configuration-independent, design-time properties and events of selected objects. Configuration-dependent properties, associated with solutions and projects, are displayed on [Property Pages](../extensibility/property-pages.md). For more information, see [NIB:Project Properties](http://msdn.microsoft.com/fb126574-24ad-4c96-9b2b-6e1f3879ba50), [Managing Configuration Options](../extensibility/managing-configuration-options.md), and [NIB:Item Management in Projects](http://msdn.microsoft.com/762e606b-7f44-4b66-97a1-e30a703654a0).  
+ The **Properties** window, which can be opened by pressing F4 on the keyboard, or selecting **Properties Window** on the **View** menu, is used to view and edit configuration-independent, design-time properties and events of selected objects. Configuration-dependent properties, associated with solutions and projects, are displayed on [Property Pages](../extensibility/property-pages.md). For more information, see [NIB:Project Properties](http://msdn.microsoft.com/en-us/fb126574-24ad-4c96-9b2b-6e1f3879ba50), [Managing Configuration Options](../extensibility/managing-configuration-options.md), and [NIB:Item Management in Projects](http://msdn.microsoft.com/en-us/762e606b-7f44-4b66-97a1-e30a703654a0).  
   
  ![Properties Window Overview](../extensibility/media/vspropertieswindow.png "vsPropertiesWindow")  
 Properties window  
@@ -63,7 +63,7 @@ Properties window
  Describes selection tracking for the **Properties** window.  
   
  [Hiding Properties That Have Child Properties](../misc/hiding-properties-that-have-child-properties.md)  
- Explains how to hide properties that have child properties by implementing the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsPerPropertyBrowsing> interface.  
+ Explains how to hide properties that have child properties by implementing the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPerPropertyBrowsing> interface.  
   
  [Providing a Custom Properties Window](../misc/providing-a-custom-properties-window.md)  
  Details the steps for providing your own property browser.  
@@ -84,16 +84,16 @@ Properties window
  [HTML Document Properties, Properties Window](../Topic/HTML%20Document%20Properties,%20Properties%20Window.md)  
  Provides instructions for editing an HTML document directly from the Properties window, and provides a table detailing the fields in an HTML document in the Properties window.  
   
- [IDispatch](http://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5)  
+ [IDispatch](http://msdn.microsoft.com/en-us/ebbff4bc-36b2-4861-9efa-ffa45e013eb5)  
  Describes the `IDispatch` interface, which was first designed to support automation, providing a late-bound mechanism to access and retrieve information about the methods and properties of an object.  
   
- [NIB: Introduction to Dynamic Properties (Visual Studio)](http://msdn.microsoft.com/f5102027-1431-4195-ae40-9b991de46d3a)  
+ [NIB: Introduction to Dynamic Properties (Visual Studio)](http://msdn.microsoft.com/en-us/f5102027-1431-4195-ae40-9b991de46d3a)  
  Provides an overview of dynamic properties that let you configure your application so that property values are stored in an external configuration file instead of the application's compiled code.  
   
- [NIB:Projects as Containers](http://msdn.microsoft.com/87d40f63-f487-4767-8963-64beec27ba1b)  
+ [NIB:Projects as Containers](http://msdn.microsoft.com/en-us/87d40f63-f487-4767-8963-64beec27ba1b)  
  Describes the role of the project as a container in a solution to logically manage, build, and debug the items that make up your application.  
   
- [NIB:Project Properties](http://msdn.microsoft.com/fb126574-24ad-4c96-9b2b-6e1f3879ba50)  
+ [NIB:Project Properties](http://msdn.microsoft.com/en-us/fb126574-24ad-4c96-9b2b-6e1f3879ba50)  
  Describes how the project manages settings that let you control properties that apply to the whole project and also properties that are limited to certain build configurations of the project.  
   
  [Solutions and Projects](../ide/solutions-and-projects-in-visual-studio.md)  

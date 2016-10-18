@@ -1,7 +1,7 @@
 ---
 title: "Designing DataTables"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -46,30 +46,30 @@ translation.priority.ht:
  The following topics explain how to create data tables, add them to typed datasets using the **Dataset Designer**, and create and edit the data columns (**DataColumn**) that define them.  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## In This Section  
  [How to: Create Data Tables](../datatools/how-to--create-data-tables.md)  
- Provides the steps to create a new \<xref:System.Data.DataTable> with the **Dataset Designer**.  
+ Provides the steps to create a new <xref:System.Data.DataTable> with the **Dataset Designer**.  
   
  [How to: Add Columns to a DataTable](../Topic/How%20to:%20Add%20Columns%20to%20a%20DataTable.md)  
- Provides the steps to create a new \<xref:System.Data.DataColumn> in an existing \<xref:System.Data.DataTable>.  
+ Provides the steps to create a new <xref:System.Data.DataColumn> in an existing <xref:System.Data.DataTable>.  
   
  [Walkthrough: Creating a DataTable in the Dataset Designer](../datatools/walkthrough--creating-a-datatable-in-the-dataset-designer.md)  
- Provides step-by-step instructions for creating a \<xref:System.Data.DataTable> and defining the \<xref:System.Data.DataColumn>s that make up its structure.  
+ Provides step-by-step instructions for creating a <xref:System.Data.DataTable> and defining the <xref:System.Data.DataColumn>s that make up its structure.  
   
 ## Reference  
- \<xref:System.Data.DataSet>  
+ <xref:System.Data.DataSet>  
  Represents an in-memory cache of data.  
   
- \<xref:System.Data.DataTable>  
+ <xref:System.Data.DataTable>  
  Represents one table of in-memory data.  
   
- \<xref:System.Data.DataColumn>  
- Represents the schema of a column in a \<xref:System.Data.DataTable>.  
+ <xref:System.Data.DataColumn>  
+ Represents the schema of a column in a <xref:System.Data.DataTable>.  
   
- \<xref:System.Data.DataRelation>  
- Represents a parent/child relationship between two \<xref:System.Data.DataTable> objects.  
+ <xref:System.Data.DataRelation>  
+ Represents a parent/child relationship between two <xref:System.Data.DataTable> objects.  
   
 ## Related Sections  
  [DataTables](../Topic/DataTables.md)  

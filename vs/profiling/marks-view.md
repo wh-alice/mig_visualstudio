@@ -1,7 +1,7 @@
 ---
 title: "Marks View"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -61,4 +61,4 @@ The Marks view displays sampling and ETW events that were inserted into the appl
  [<PAVE_OVER> How to: Configure Profiling Marks](../Topic/%3CPAVE_OVER%3E%20How%20to:%20Configure%20Profiling%20Marks.md)   
  [<PAVE_OVER> How to: Insert Marks in a Profiler Data File](../Topic/%3CPAVE_OVER%3E%20How%20to:%20Insert%20Marks%20in%20a%20Profiler%20Data%20File.md)   
  [How to: Collect Windows Counter Data](../profiling/how-to--collect-windows-counter-data.md)   
- [&#91;NIB&#93; Data Collection Control Window](http://msdn.microsoft.com/98d740d8-459f-4605-bf04-fb17aafaaa8f)
+ [&#91;NIB&#93; Data Collection Control Window](http://msdn.microsoft.com/en-us/98d740d8-459f-4605-bf04-fb17aafaaa8f)

@@ -1,7 +1,7 @@
 ---
 title: "Licenses processor error-warning: &lt;reason&gt;"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,4 +44,4 @@ An error or warning message is displayed if a tool returns an error or a warning
      An error means that the binary file has not been generated, and that the build process will fail. Warnings are for informational purposes only.  
   
 ## See Also  
- [File Types and File Extensions in Visual Basic and Visual C#](http://msdn.microsoft.com/f793852c-da06-4d52-a826-65f635844772)
+ [File Types and File Extensions in Visual Basic and Visual C#](http://msdn.microsoft.com/en-us/f793852c-da06-4d52-a826-65f635844772)

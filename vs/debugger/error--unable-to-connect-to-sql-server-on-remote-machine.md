@@ -1,7 +1,7 @@
 ---
 title: "Error: Unable to connect to SQL Server on remote machine"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/17/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,4 +44,4 @@ Unable to connect to SQL Server on remote machine *name*. Access denied. Verify 
 -   See [Remote Debugging](../debugger/remote-debugging.md).  
   
 ## See Also  
- [Debugging SQL](http://msdn.microsoft.com/f27c17e6-1d90-49f2-9fc0-d02e6a27f109)
+ [Debugging SQL](http://msdn.microsoft.com/en-us/f27c17e6-1d90-49f2-9fc0-d02e6a27f109)

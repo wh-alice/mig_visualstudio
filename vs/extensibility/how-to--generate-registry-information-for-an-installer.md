@@ -1,7 +1,7 @@
 ---
 title: "How to: Generate Registry Information for an Installer"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -194,5 +194,5 @@ The RegPkg.exe utility can be used to generate a registration manifest for a man
     ```  
   
 ## See Also  
- [Registering VSPackages](http://msdn.microsoft.com/31e6050f-1457-4849-944a-a3c36b76f3dd)   
+ [Registering VSPackages](http://msdn.microsoft.com/en-us/31e6050f-1457-4849-944a-a3c36b76f3dd)   
  [VSPackages](../extensibility/vspackages.md)

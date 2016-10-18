@@ -1,7 +1,7 @@
 ---
 title: "AppliesTo Element (Visual Studio Templates)"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -29,11 +29,11 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # AppliesTo Element (Visual Studio Templates)
-Specifies an optional expression to match one or more capabilities. (see \<xref:Microsoft.VisualStudio.Shell.Interop.VsProjectCapabilityExpressionMatcher>). Capabilities are exposed by project types via the hierarchy as a property \<xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID5>. In this way, the template can be shared by multiple project types that have common applicable capabilities.  
+Specifies an optional expression to match one or more capabilities. (see <xref:Microsoft.VisualStudio.Shell.Interop.VsProjectCapabilityExpressionMatcher>). Capabilities are exposed by project types via the hierarchy as a property <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID5>. In this way, the template can be shared by multiple project types that have common applicable capabilities.  
   
  This element is optional. There can be a maximum of one instance in a template file. This element only enables an item template to opt-in as applicable, based on the capabilities of the currently selected active project. It cannot be used to make an item template not applicable. If `AppliesTo` is absent or the expression does not successfully opt in, then `TemplateID` or `TemplateGroupID` is used to make the template applicable, as with previous versions of the product.  
   
- Introduced in Visual Studio 2013 Update 2. To reference the correct version, see [Referencing Assemblies Delivered in the Visual Studio 2013 SDK Update 2](http://msdn.microsoft.com/42b65c3e-e42b-4c39-98c8-bea285f25ffb).  
+ Introduced in Visual Studio 2013 Update 2. To reference the correct version, see [Referencing Assemblies Delivered in the Visual Studio 2013 SDK Update 2](http://msdn.microsoft.com/en-us/42b65c3e-e42b-4c39-98c8-bea285f25ffb).  
   
  \<VSTemplate>  
  \<TemplateData>  

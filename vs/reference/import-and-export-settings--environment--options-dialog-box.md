@@ -1,7 +1,7 @@
 ---
 title: "Import and Export Settings, Environment, Options Dialog Box"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -31,7 +31,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Import and Export Settings, Environment, Options Dialog Box
-Use this page to specify where your user settings file is saved and whether to use a team settings file. For more information about settings, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+Use this page to specify where your user settings file is saved and whether to use a team settings file. For more information about settings, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## See Also  
  [Environment Options Dialog Box](../reference/environment-options-dialog-box.md)

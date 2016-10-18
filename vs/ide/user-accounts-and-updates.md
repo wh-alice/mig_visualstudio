@@ -1,7 +1,7 @@
 ---
 title: "User Accounts and Updates"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -42,4 +42,4 @@ Visual Studio itself is a connected environment. By signing-in you enable access
 |[Notifications](../ide/visual-studio-notifications.md)|Describes how Visual Studio notifies you when components such as SDKs, or Visual Studio itself, have an update available.|  
   
 ## See Also  
- [Visual Studio IDE](../Topic/Visual%20Studio%20IDE.md)
+ [Visual Studio IDE](../ide/visual-studio-ide.md)

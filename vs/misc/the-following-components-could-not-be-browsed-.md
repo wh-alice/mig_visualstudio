@@ -1,7 +1,7 @@
 ---
 title: "The following components could not be browsed:"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -84,5 +84,5 @@ This message box can list multiple errors related to the Object Browser and Comp
 2.  If you cannot find vstlbinf.dll on your machine, reinstall this product.  
   
 ## See Also  
- [Object Browser](http://msdn.microsoft.com/f89acfc5-1152-413d-9f56-3dc16e3f0470)   
- [Edit Custom Component Set Dialog Box](http://msdn.microsoft.com/dc995bd7-afbf-4389-ba1c-f377b677ded7)
+ [Object Browser](http://msdn.microsoft.com/en-us/f89acfc5-1152-413d-9f56-3dc16e3f0470)   
+ [Edit Custom Component Set Dialog Box](http://msdn.microsoft.com/en-us/dc995bd7-afbf-4389-ba1c-f377b677ded7)

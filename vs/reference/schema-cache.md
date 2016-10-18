@@ -1,7 +1,7 @@
 ---
 title: "Schema Cache"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -40,7 +40,7 @@ The XML Editor provides a schema cache located in the %InstallRoot%\Xml\Schemas 
 |catalog.xsd|Schema for XML editor schema catalog files. For information about schema catalogs, see below.|  
 |DotNetConfig.xsd|Schema for Web.Config files, "http://schemas.microsoft.com/.NETConfiguration/v2.0".|  
 |msbuild.xsd|Schema for the MSBuild make files, "http://schemas.microsoft.com/developer/msbuild/2003".|  
-|msdata.xsd|Schema for the XSD annotations added by the \<xref:System.Data.DataSet> class, "urn:schemas-microsoft-com:xml-msdata".|  
+|msdata.xsd|Schema for the XSD annotations added by the <xref:System.Data.DataSet> class, "urn:schemas-microsoft-com:xml-msdata".|  
 |msxsl.xsd|Schema for Microsoft XSLT script block extensions, urn:schemas-microsoft-com:xslt.|  
 |SnippetFormat.xsd|Schema for the code snippet XML files. For examples, see %InstallDir%\VC#\Expansions.|  
 |Soap1.1.xsd|Schema for Simple Object Access Protocol (SOAP) 1.1, http://schemas.xmlsoap.org/soap/envelope/.|  

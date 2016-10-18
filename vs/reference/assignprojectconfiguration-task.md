@@ -1,7 +1,7 @@
 ---
 title: "AssignProjectConfiguration Task"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -50,11 +50,11 @@ This task accepts a list configuration strings and assigns them to specified pro
 |`ShouldUnsetParentConfigurationAndPlatform`|Optional `bool` output parameter.<br /><br /> Contains a flag indicating if the parent configuration and platform should be unset.|  
 |`OutputType`|Optional `string` output parameter.<br /><br /> Contains the output type for the project.|  
 |`ResolveConfigurationPlatformUsingMappings`|Optional `bool` output parameter.<br /><br /> Contains a flag indicating if the build should use the default mappings to resolve the configuration and platform of the passed in project references.|  
-|`AssignedProjects`|Optional \<xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Contains the list of resolved reference paths.|  
-|`UnassignedProjects`|Optional \<xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Contains the list of project reference items that could not be resolved using the pre-resolved list of outputs.|  
+|`AssignedProjects`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Contains the list of resolved reference paths.|  
+|`UnassignedProjects`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Contains the list of project reference items that could not be resolved using the pre-resolved list of outputs.|  
   
 ## Remarks  
- In addition to the parameters listed above, this task inherits parameters from the \<xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the \<xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../reference/taskextension-base-class.md).  
+ In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../reference/taskextension-base-class.md).  
   
 ## See Also  
  [Tasks](../reference/msbuild-tasks.md)   

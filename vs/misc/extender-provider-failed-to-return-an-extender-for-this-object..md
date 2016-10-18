@@ -1,7 +1,7 @@
 ---
 title: "Extender Provider failed to return an Extender for this object."
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,5 +39,5 @@ No Extender could be returned.
 1.  Verify that your implementation of IExtenderProvider::CanExtend() and IExtenderProvider::GetExtender() succeeded in returning a valid Extender Object.  
   
 ## See Also  
- \<xref:EnvDTE.IExtenderProvider>   
- \<xref:EnvDTE.ObjectExtenders>
+ <xref:EnvDTE.IExtenderProvider>   
+ <xref:EnvDTE.ObjectExtenders>

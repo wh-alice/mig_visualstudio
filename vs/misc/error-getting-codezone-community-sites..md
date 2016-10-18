@@ -1,7 +1,7 @@
 ---
 title: "Error getting Codezone Community sites."
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -45,4 +45,4 @@ This error occurs when a connection to the online Web service cannot be found. T
 2.  Try accessing the Online page again.  
   
 ## See Also  
- [Online, Help, Environment, Options Dialog Box](http://msdn.microsoft.com/f02bd51c-37df-4f3f-9ad2-292ab4250c0a)
+ [Online, Help, Environment, Options Dialog Box](http://msdn.microsoft.com/en-us/f02bd51c-37df-4f3f-9ad2-292ab4250c0a)

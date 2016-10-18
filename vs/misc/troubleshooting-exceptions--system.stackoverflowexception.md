@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.StackOverflowException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,7 +37,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.StackOverflowException
-A \<xref:System.StackOverflowException> exception is thrown when the execution stack overflows by having too many nested method calls.  
+A <xref:System.StackOverflowException> exception is thrown when the execution stack overflows by having too many nested method calls.  
   
 ## Associated Tips  
  Make sure you do not have an infinite loop or infinite recursion.  
@@ -49,6 +49,6 @@ A \<xref:System.StackOverflowException> exception is thrown when the execution s
  An application that hosts the CLR can change the default behavior and specify that the CLR unload the application domain where the exception occurs, but lets the process continue. For more information, see [ICLRPolicyManager Interface](../Topic/ICLRPolicyManager%20Interface.md).  
   
 ## See Also  
- \<xref:System.StackOverflowException>   
+ <xref:System.StackOverflowException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)   
  [Loop Structures](../Topic/Loop%20Structures%20\(Visual%20Basic\).md)

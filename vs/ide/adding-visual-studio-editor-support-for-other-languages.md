@@ -1,7 +1,7 @@
 ---
 title: "Adding Visual Studio editor support for other languages"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na

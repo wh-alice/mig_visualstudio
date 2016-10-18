@@ -1,7 +1,7 @@
 ---
 title: "Code Snippet Functions"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -33,7 +33,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Code Snippet Functions
-There are three functions available to use with [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] code snippets. Functions are specified in the [Function](http://msdn.microsoft.com/572c5549-5821-4e15-8ecd-0fa86c1c65df) element of the code snippet. For information on creating code snippets, see [Code Snippets](../ide/code-snippets.md).  
+There are three functions available to use with [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] code snippets. Functions are specified in the [Function](http://msdn.microsoft.com/en-us/572c5549-5821-4e15-8ecd-0fa86c1c65df) element of the code snippet. For information on creating code snippets, see [Code Snippets](../ide/code-snippets.md).  
   
 ## Functions  
  The following table describes the functions available for use with the `Function` element in code snippets.  
@@ -132,7 +132,7 @@ There are three functions available to use with [!INCLUDE[csprcs](../datatools/i
 ```  
   
 ## Example  
- This example shows how to use the `SimpleTypeName` function. When this snippet is inserted into a code file, the `$SystemConsole$` literal will be replaced with the simplest form of the \<xref:System.Console> type in the context in which the snippet was invoked.  
+ This example shows how to use the `SimpleTypeName` function. When this snippet is inserted into a code file, the `$SystemConsole$` literal will be replaced with the simplest form of the <xref:System.Console> type in the context in which the snippet was invoked.  
   
 ```  
 <CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">  
@@ -164,5 +164,5 @@ There are three functions available to use with [!INCLUDE[csprcs](../datatools/i
 ```  
   
 ## See Also  
- [Function Element (Intellisense Code Snippets)](http://msdn.microsoft.com/572c5549-5821-4e15-8ecd-0fa86c1c65df)   
+ [Function Element (Intellisense Code Snippets)](http://msdn.microsoft.com/en-us/572c5549-5821-4e15-8ecd-0fa86c1c65df)   
  [Code Snippets Schema Reference](../ide/code-snippets-schema-reference.md)

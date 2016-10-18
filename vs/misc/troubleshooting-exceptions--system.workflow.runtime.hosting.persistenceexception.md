@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.Workflow.Runtime.Hosting.PersistenceException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -35,15 +35,15 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.Workflow.Runtime.Hosting.PersistenceException
-A \<xref:System.Workflow.Runtime.Hosting.PersistenceException> exception is thrown when the persistence service cannot fulfill a request.  
+A <xref:System.Workflow.Runtime.Hosting.PersistenceException> exception is thrown when the persistence service cannot fulfill a request.  
   
 ## Remarks  
- The \<xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService> throws a \<xref:System.Workflow.Runtime.Hosting.PersistenceException> if it cannot complete a request to commit either a completed scope or the workflow instance state to its database.  
+ The <xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService> throws a <xref:System.Workflow.Runtime.Hosting.PersistenceException> if it cannot complete a request to commit either a completed scope or the workflow instance state to its database.  
   
- If you implement a persistence service by deriving from the \<xref:System.Workflow.Runtime.Hosting.WorkflowPersistenceService> class or the \<xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService> class, you can throw the \<xref:System.Workflow.Runtime.Hosting.PersistenceException> with an appropriate message to indicate any error condition encountered by your service that prevents it from fulfilling a request made by the workflow runtime engine.  
+ If you implement a persistence service by deriving from the <xref:System.Workflow.Runtime.Hosting.WorkflowPersistenceService> class or the <xref:System.Workflow.Runtime.Hosting.SqlWorkflowPersistenceService> class, you can throw the <xref:System.Workflow.Runtime.Hosting.PersistenceException> with an appropriate message to indicate any error condition encountered by your service that prevents it from fulfilling a request made by the workflow runtime engine.  
   
- See \<xref:System.Workflow.Runtime.Hosting.WorkflowPersistenceService> for more information.  
+ See <xref:System.Workflow.Runtime.Hosting.WorkflowPersistenceService> for more information.  
   
 ## See Also  
- \<xref:System.Workflow.Runtime.Hosting.PersistenceException>   
+ <xref:System.Workflow.Runtime.Hosting.PersistenceException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

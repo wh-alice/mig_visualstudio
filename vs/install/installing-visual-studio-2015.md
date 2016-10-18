@@ -57,7 +57,7 @@ This page includes detailed information to help you with installing Visual Studi
 ##  <a name="custom"></a> Default vs. Custom Setup  
  When you install Visual Studio 2015, you can  include or exclude components that you'd use on a daily basis. This means that a Default installation will often be smaller and install faster than a Custom installation. It also means that many components that were installed by default in previous versions now are considered Custom components that you must explicitly select in this version.  
   
- ![Visual Studio 2015 Setup Dialog](../install/media/vs2015_setup_screen.png "VS2015_Setup_screen")  
+ ![Visual Studio 2015 Setup Dialog](../ide/media/vs2015_setup_screen.png "VS2015_Setup_screen")  
   
  Custom components include Visual C++, Visual F#, SQL Server Data Tools, Cross-platform mobile tools and SDKs, and third-party SDKs and extensions. You can install any of the custom components at a later time if you don't select them during the initial setup.  
   

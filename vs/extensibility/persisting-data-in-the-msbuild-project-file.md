@@ -1,7 +1,7 @@
 ---
 title: "Persisting Data in the MSBuild Project File"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -33,7 +33,7 @@ translation.priority.mt:
 # Persisting Data in the MSBuild Project File
 A project subtype may need to persist subtype-specific data into the project file for later use. A project subtype uses project file persistence to meet the following requirements:  
   
-1.  Persist data used as part of building the project. (For more information on the Microsoft Build Engine, see [MSBuild](http://msdn.microsoft.com/7c49aba1-ee6c-47d8-9de1-6f29a906e20b).) Build-related information can either:  
+1.  Persist data used as part of building the project. (For more information on the Microsoft Build Engine, see [MSBuild](http://msdn.microsoft.com/en-us/7c49aba1-ee6c-47d8-9de1-6f29a906e20b).) Build-related information can either:  
   
     1.  Configuration-independent data. That is, data stored in MSBuild elements with blank or missing conditions.  
   
@@ -52,30 +52,30 @@ A project subtype may need to persist subtype-specific data into the project fil
 ## Persisting Build-Related Information  
  Persistence of data useful for building a project is handled through MSBuild. The MSBuild system maintains a master table of build-related information. Project subtypes are responsible for accessing this data to get and set property values. Project subtypes can also augment the build-related data table by adding additional properties to be persisted and by removing properties so they are not persisted.  
   
- To modify the MSBuild data, a project subtype is responsible for retrieving the MSBuild property object from the base project system through \<xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage>. \<xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage> is an interface implemented on the core project system and the aggregating project subtype queries for it by running `QueryInterface`.  
+ To modify the MSBuild data, a project subtype is responsible for retrieving the MSBuild property object from the base project system through <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage>. <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage> is an interface implemented on the core project system and the aggregating project subtype queries for it by running `QueryInterface`.  
   
- The following procedure outlines the steps for removing a property using \<xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage>.  
+ The following procedure outlines the steps for removing a property using <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage>.  
   
 #### To remove a property from an MSBuild project file  
   
-1.  Call `QueryInterface` on \<xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage> of the project subtype.  
+1.  Call `QueryInterface` on <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage> of the project subtype.  
   
-2.  Call \<xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.RemoveProperty*> with `pszPropName` set to the property you want to remove.  
+2.  Call <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.RemoveProperty*> with `pszPropName` set to the property you want to remove.  
   
 ### Persisting Non-Build Related Information  
- Persistence of data in project files that does not matter to build is handled through \<xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment>.  
+ Persistence of data in project files that does not matter to build is handled through <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment>.  
   
- You can implement \<xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment> on the main `project subtype aggregator` object, the `project subtype project configuration` object, or both.  
+ You can implement <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment> on the main `project subtype aggregator` object, the `project subtype project configuration` object, or both.  
   
  The following points outline the main concepts regarding the persistence of non-build related information.  
   
 -   The base project calls on the main project subtype (that is, the outermost project subtype) aggregator object to load and save configuration independent data, and it calls on the project subtype project configuration objects to load or save configuration dependent data.  
   
--   The base project calls the methods of \<xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment> multiple times for each level of project subtype aggregation, and passes the GUID for each level.  
+-   The base project calls the methods of <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment> multiple times for each level of project subtype aggregation, and passes the GUID for each level.  
   
 -   The base project passes or receives an XML fragment that is dedicated to a particular project subtype and uses this mechanism as a way of persisting state between the aggregation levels.  
   
--   The base project calls the outermost project subtype's \<xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment>implementation passing in a GUID. If the GUID belongs to the outermost project subtype, it handles the call itself; otherwise it delegates the call to an inner project subtype, and so on, until the project subtype that the GUID corresponds to is found.  
+-   The base project calls the outermost project subtype's <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment>implementation passing in a GUID. If the GUID belongs to the outermost project subtype, it handles the call itself; otherwise it delegates the call to an inner project subtype, and so on, until the project subtype that the GUID corresponds to is found.  
   
 -   A project subtype can also modify the XML fragment before or after it delegates the call to an inner project subtype. The following example shows an excerpt from a project file, where a name of a file that contains properties specific to a project subtype, is passed to that project subtype.  
   

@@ -1,7 +1,7 @@
 ---
 title: "How to: Configure inheritance by using the O-R Designer"
 ms.custom: na
-ms.date: "10/11/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -50,7 +50,7 @@ The [!INCLUDE[vs_ordesigner_long](../datatools/includes/vs_ordesigner_long_md.md
 5.  In each class, delete any object properties that you do not want to appear and that are not used for associations. You will receive an error if you attempt to delete object properties used for associations: [The property \<property name> cannot be deleted because it is participating in the association \<association name>](../datatools/389873cc-92dd-48da-bfca-0f6c8e0ae3c2.md).  
   
     > [!NOTE]
-    >  Because a derived class inherits the properties defined in its base class, the same columns cannot be defined in each class. (Columns are implemented as properties.) You can enable the creation of columns in the derived class by setting the Inheritance Modifier on the property in the base class. For more information, see [NOT IN BUILD: Overriding Properties and Methods](http://msdn.microsoft.com/2167e8f5-1225-4b13-9ebd-02591ba90213).  
+    >  Because a derived class inherits the properties defined in its base class, the same columns cannot be defined in each class. (Columns are implemented as properties.) You can enable the creation of columns in the derived class by setting the Inheritance Modifier on the property in the base class. For more information, see [NOT IN BUILD: Overriding Properties and Methods](http://msdn.microsoft.com/en-us/2167e8f5-1225-4b13-9ebd-02591ba90213).  
   
 6.  Select the inheritance line in the [!INCLUDE[vs_ordesigner_short](../datatools/includes/vs_ordesigner_short_md.md)].  
   
@@ -65,9 +65,9 @@ The [!INCLUDE[vs_ordesigner_long](../datatools/includes/vs_ordesigner_long_md.md
 ## See Also  
  [LINQ to SQL Tools in Visual Studio](../datatools/linq-to-sql-tools-in-visual-studio2.md)   
  [Walkthrough: Creating LINQ to SQL Classes (O-R Designer)](../Topic/Walkthrough:%20Creating%20LINQ%20to%20SQL%20Classes%20\(O-R%20Designer\).md)   
- [PAVE What's New for Data Application Development in Visual Studio 2012](http://msdn.microsoft.com/3d50d68f-5f44-4915-842f-6d42fce793f1)   
+ [PAVE What's New for Data Application Development in Visual Studio 2012](http://msdn.microsoft.com/en-us/3d50d68f-5f44-4915-842f-6d42fce793f1)   
  [Accessing data in Visual Studio](../datatools/accessing-data-in-visual-studio.md)   
  [LINQ to SQL](../Topic/LINQ%20to%20SQL.md)   
  [Walkthrough: Creating LINQ to SQL Classes by Using Single-Table Inheritance (O/R Designer)](../datatools/walkthrough--creating-linq-to-sql-classes-by-using-single-table-inheritance--o-r-designer-.md)   
- [NOT IN BUILD: Inheritance in Visual Basic](http://msdn.microsoft.com/e5e6e240-ed31-4657-820c-079b7c79313c)   
+ [NOT IN BUILD: Inheritance in Visual Basic](http://msdn.microsoft.com/en-us/e5e6e240-ed31-4657-820c-079b7c79313c)   
  [Inheritance](../Topic/Inheritance%20\(C%23%20Programming%20Guide\).md)

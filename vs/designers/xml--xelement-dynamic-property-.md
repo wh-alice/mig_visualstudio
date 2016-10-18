@@ -1,7 +1,7 @@
 ---
 title: "Xml (XElement Dynamic Property)"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -40,10 +40,10 @@ elem.Xml
 ```  
   
 ## Property Value/Return Value  
- A \<xref:System.String> that represents the unformatted XML content of the element.  
+ A <xref:System.String> that represents the unformatted XML content of the element.  
   
 ## Remarks  
- This property is equivalent to the \<xref:System.Xml.Linq.XNode.ToString(System.Xml.Linq.SaveOptions)> method of the \<xref:System.Xml.Linq.XNode?displayProperty=fullName> class, with the `SaveOptions` parameter set to \<xref:System.Xml.Linq.SaveOptions>.  
+ This property is equivalent to the <xref:System.Xml.Linq.XNode.ToString(System.Xml.Linq.SaveOptions)> method of the <xref:System.Xml.Linq.XNode?displayProperty=fullName> class, with the `SaveOptions` parameter set to <xref:System.Xml.Linq.SaveOptions>.  
   
 ## See Also  
  [XElement Class Dynamic Properties](../designers/xelement-class-dynamic-properties.md)   

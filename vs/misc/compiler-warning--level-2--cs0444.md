@@ -1,7 +1,7 @@
 ---
 title: "Compiler Warning (level 2) CS0444"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -38,7 +38,7 @@ translation.priority.mt:
 # Compiler Warning (level 2) CS0444
 Predefined type 'type name 1' was not found in 'System namespace 1' but was found in 'System namespace 2'  
   
- A predefined object such as \<xref:System.Int32> was not found where the compiler expected to find it, but instead found it in 'System namespace 2'.  
+ A predefined object such as <xref:System.Int32> was not found where the compiler expected to find it, but instead found it in 'System namespace 2'.  
   
  The error could indicate that the .NET Framework is installed incorrectly. To fix this, reinstall the .NET Framework.  
   

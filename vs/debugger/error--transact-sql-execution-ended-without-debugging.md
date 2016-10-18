@@ -1,7 +1,7 @@
 ---
 title: "Error: Transact-SQL execution ended without debugging"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/17/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -53,14 +53,14 @@ This error occurs when you are trying to debug a Transact-SQL or SQLCLR procedur
   
  To correct this error, you might need to:  
   
--   Verify your permissions settings. For more information, see [How to: Set SQL Server Permissions for Debugging](http://msdn.microsoft.com/84e088d0-0409-41d4-841b-f5d4b0fda414).  
+-   Verify your permissions settings. For more information, see [How to: Set SQL Server Permissions for Debugging](http://msdn.microsoft.com/en-us/84e088d0-0409-41d4-841b-f5d4b0fda414).  
   
 -   Make sure SQL debugging if set up correctly.  
   
 -   Consult with your network or database administrator.  
   
 ## See Also  
- [Setting Up SQL Debugging](http://msdn.microsoft.com/3db09e68-edcc-42de-9c22-4e97cfd55ab3)   
- [How to: Set SQL Server Permissions for Debugging](http://msdn.microsoft.com/84e088d0-0409-41d4-841b-f5d4b0fda414)   
+ [Setting Up SQL Debugging](http://msdn.microsoft.com/en-us/3db09e68-edcc-42de-9c22-4e97cfd55ab3)   
+ [How to: Set SQL Server Permissions for Debugging](http://msdn.microsoft.com/en-us/84e088d0-0409-41d4-841b-f5d4b0fda414)   
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)   
  [Remote Debugging](../debugger/remote-debugging.md)

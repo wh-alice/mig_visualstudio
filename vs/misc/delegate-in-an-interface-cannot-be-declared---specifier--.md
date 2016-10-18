@@ -1,7 +1,7 @@
 ---
 title: "Delegate in an interface cannot be declared &#39;&lt;specifier&gt;&#39;"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -45,4 +45,4 @@ An invalid modifier was specified with a delegate declared in an interface.
   
 ## See Also  
  [Interfaces](../Topic/Interfaces%20\(Visual%20Basic\).md)   
- [NOT IN BUILD: Interfaces Overview](http://msdn.microsoft.com/f96bb470-c1b8-4c73-89bc-6f536b798da1)
+ [NOT IN BUILD: Interfaces Overview](http://msdn.microsoft.com/en-us/f96bb470-c1b8-4c73-89bc-6f536b798da1)

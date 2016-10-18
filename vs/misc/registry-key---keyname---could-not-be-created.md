@@ -1,7 +1,7 @@
 ---
 title: "Registry key &#39;&lt;keyname&gt;&#39; could not be created"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -40,4 +40,4 @@ The specified registry key could not be created, possibly because of insufficien
   
 ## See Also  
  [Registry Summary](../Topic/Registry%20Summary%20\(Visual%20Basic\).md)   
- [Registry Access Changes in Visual Basic .NET](http://msdn.microsoft.com/b58f7687-f4db-448a-a865-07f62fd16fb2)
+ [Registry Access Changes in Visual Basic .NET](http://msdn.microsoft.com/en-us/b58f7687-f4db-448a-a865-07f62fd16fb2)

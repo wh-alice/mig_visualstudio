@@ -1,7 +1,7 @@
 ---
 title: "&#39;&lt;methodname&gt;&#39; cannot be implemented more than once"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -46,4 +46,4 @@ You have attempted to implement a method that has already been implemented.
 2.  If the method is redundant, remove the extra declaration.  
   
 ## See Also  
- [NOT IN BUILD:How to: Perform Actions with Methods](http://msdn.microsoft.com/c5729e29-1042-44e8-904d-7b24e0d50b01)
+ [NOT IN BUILD:How to: Perform Actions with Methods](http://msdn.microsoft.com/en-us/c5729e29-1042-44e8-904d-7b24e0d50b01)

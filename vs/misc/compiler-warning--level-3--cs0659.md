@@ -1,7 +1,7 @@
 ---
 title: "Compiler Warning (level 3) CS0659"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -42,13 +42,13 @@ translation.priority.mt:
   
  For more information, see  
   
--   \<xref:System.Collections.Hashtable>.  
+-   <xref:System.Collections.Hashtable>.  
   
 -   [Equality Operators](../Topic/Equality%20Operators.md)  
   
--   [NIB: Implementing the Equals Method](http://msdn.microsoft.com/30f28aaf-8b9e-46cd-a746-58a12473af2c)  
+-   [NIB: Implementing the Equals Method](http://msdn.microsoft.com/en-us/30f28aaf-8b9e-46cd-a746-58a12473af2c)  
   
--   \<xref:System.Object.GetHashCode*>  
+-   <xref:System.Object.GetHashCode*>  
   
  The following sample generates CS0659:  
   

@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.MissingMethodException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,7 +37,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.MissingMethodException
-A \<xref:System.MissingMethodException> exception is thrown when there is an attempt to dynamically access a method that does not exist.  
+A <xref:System.MissingMethodException> exception is thrown when there is an attempt to dynamically access a method that does not exist.  
   
 ## Associated Tips  
  **If a method in a class library has been removed or renamed, recompile any assemblies that reference that method.**  
@@ -47,6 +47,6 @@ A \<xref:System.MissingMethodException> exception is thrown when there is an att
  If you are calling an unmanaged function, this exception is thrown if the CLR cannot find the module or function.  
   
 ## See Also  
- \<xref:System.MissingMethodException>   
+ <xref:System.MissingMethodException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)   
  [Troubleshooting Interoperability](../Topic/Troubleshooting%20Interoperability%20\(Visual%20Basic\).md)

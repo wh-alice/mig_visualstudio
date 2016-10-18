@@ -1,7 +1,7 @@
 ---
 title: "&#39;Assembly&#39; or &#39;Module&#39; expected"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -50,5 +50,5 @@ A global attribute is specified without indicating whether it applies to the ent
 ## See Also  
  [Assembly](../Topic/Assembly%20\(Visual%20Basic\).md)   
  [Module \<keyword>](../Topic/Module%20%3Ckeyword%3E%20\(Visual%20Basic\).md)   
- [NOT IN BUILD: Application of Attributes](http://msdn.microsoft.com/2b1703ed-4437-49b3-bc0b-568094324f47)   
- [NOT IN BUILD: Global Attributes in Visual Basic](http://msdn.microsoft.com/253a32d8-1531-4504-b687-088554ab71d2)
+ [NOT IN BUILD: Application of Attributes](http://msdn.microsoft.com/en-us/2b1703ed-4437-49b3-bc0b-568094324f47)   
+ [NOT IN BUILD: Global Attributes in Visual Basic](http://msdn.microsoft.com/en-us/253a32d8-1531-4504-b687-088554ab71d2)

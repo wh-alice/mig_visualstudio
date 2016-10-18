@@ -1,7 +1,7 @@
 ---
 title: "Collection index must be in the range 1 to the size of the collection"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,4 +39,4 @@ The supplied index value falls outside the valid range, which is 1 to the size o
 1.  Change the supplied value to a valid one.  
   
 ## See Also  
- [Controls Collection Changes in Visual Basic .NET](http://msdn.microsoft.com/8eb5b458-8b39-4d79-9c97-2b29c527afa5)
+ [Controls Collection Changes in Visual Basic .NET](http://msdn.microsoft.com/en-us/8eb5b458-8b39-4d79-9c97-2b29c527afa5)

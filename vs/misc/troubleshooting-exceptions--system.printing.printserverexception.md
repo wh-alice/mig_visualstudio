@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.Printing.PrintServerException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -33,8 +33,8 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.Printing.PrintServerException
-A \<xref:System.Printing.PrintServerException> exception occurs when an error condition prevents the accessing or creation of a \<xref:System.Printing.PrintServer>.  
+A <xref:System.Printing.PrintServerException> exception occurs when an error condition prevents the accessing or creation of a <xref:System.Printing.PrintServer>.  
   
 ## See Also  
- \<xref:System.Printing.PrintServerException>   
+ <xref:System.Printing.PrintServerException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

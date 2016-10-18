@@ -1,7 +1,7 @@
 ---
 title: "TASK_STATE_FAULTED Field"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -33,7 +33,7 @@ translation.priority.mt:
 # TASK_STATE_FAULTED Field
 The task completed due to an unhandled exception.  
   
- **Namespace:** \<xref:System.Threading.Tasks?displayProperty=fullName>  
+ **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>  
   
  **Assembly:** mscorlib (in mscorlib.dll)  
   
@@ -46,7 +46,7 @@ The task completed due to an unhandled exception.
 ```  
   
 ## Remarks  
- If the [m_stateFlags](../extensibility/m_stateflags-field.md) field contains this value, the \<xref:System.Threading.Tasks.Task.Status*> property returns \<xref:System.Threading.Tasks.TaskStatus?displayProperty=fullName>.  
+ If the [m_stateFlags](../extensibility/m_stateflags-field.md) field contains this value, the <xref:System.Threading.Tasks.Task.Status*> property returns <xref:System.Threading.Tasks.TaskStatus?displayProperty=fullName>.  
   
 ## See Also  
  [Task Class](../extensibility/task-class---internal-members.md)

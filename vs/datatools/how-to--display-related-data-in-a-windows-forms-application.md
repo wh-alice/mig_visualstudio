@@ -53,7 +53,7 @@ Creating data-bound controls that display related records
   
 ### To create controls that display related records  
   
-1.  Open your form in the [Windows Forms Designer](http://msdn.microsoft.com/3c3d61f8-f36c-4d41-b9c3-398376fabb15).  
+1.  Open your form in the [Windows Forms Designer](http://msdn.microsoft.com/en-us/3c3d61f8-f36c-4d41-b9c3-398376fabb15).  
   
 2.  Open the **Data Sources** window. For more information, see [How to: Open the data sources window](../datatools/how-to--open-the-data-sources-window.md).  
   

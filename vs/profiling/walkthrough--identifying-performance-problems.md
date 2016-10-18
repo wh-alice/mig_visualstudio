@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Identifying Performance Problems"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -100,9 +100,9 @@ This walkthrough demonstrates how to profile an application to identify performa
   
 2.  The **Function Details** view contains two windows. The cost distribution window provides a graphical view of the work done by the function, the work done by the functions that it called, and the contribution of functions that called the function to the number of instances that were sampled. You can change the function that is the focus of the view by clicking a function name. For example, you can click PeopleNS.People.GetPeople to make GetPeople the selected function.  
   
-     The **Function Code View** window shows you the source code for the function if it is available and highlights the most expensive lines in the selected function. When GetNames is selected, you can see that this function reads a string from the application resources and then uses a \<xref:System.IO.StringReader> to add each line in the string to an \<xref:System.Collections.ArrayList>. There is no obvious way to optimize this function.  
+     The **Function Code View** window shows you the source code for the function if it is available and highlights the most expensive lines in the selected function. When GetNames is selected, you can see that this function reads a string from the application resources and then uses a <xref:System.IO.StringReader> to add each line in the string to an <xref:System.Collections.ArrayList>. There is no obvious way to optimize this function.  
   
-3.  Because PeopleNS.People.GetPeople is the only caller of GetNames, click GetPeople in the cost distribution window to examine its code. This method returns an \<xref:System.Collections.ArrayList> of PersonInformationNS.PersonInformation objects from the names of people and companies produced by GetNames. However, GetNames is called twice every time that a PersonInformation object is created. You can see that the method can be easily optimized by creating the lists only once at the start of the method and indexing into those lists during the PersonInformation creation loop.  
+3.  Because PeopleNS.People.GetPeople is the only caller of GetNames, click GetPeople in the cost distribution window to examine its code. This method returns an <xref:System.Collections.ArrayList> of PersonInformationNS.PersonInformation objects from the names of people and companies produced by GetNames. However, GetNames is called twice every time that a PersonInformation object is created. You can see that the method can be easily optimized by creating the lists only once at the start of the method and indexing into those lists during the PersonInformation creation loop.  
   
 4.  An alternative version of GetPeople is provided with the sample application code and you can call the optimized function by adding a conditional compilation symbol to the build properties. In the Solution Explorer window, right-click the People project and then click **Properties**. Click **Build** on the property page menu and then type **OPTIMIZED_GETPEOPLE** in the Conditional compilation symbol text box. The optimized version of GetPeople replaces the original method in the next build.  
   
@@ -147,13 +147,13 @@ This walkthrough demonstrates how to profile an application to identify performa
   
 1.  The timeline graph of the **Summary** view of the report shows the CPU utilization of the program over the duration of the profiling run. The export data operation should be the large peak or plateau on the right side of the graph. We can filter the performance session to display and analyze only the data that was collected in the export operation. Click to the left of the point on the graph where the export data operation begins. Click again to the right side of the operation. Then click **Filter by Selection** in the list of links to the right of the timeline.  
   
-     The **Hot Path** tree show that the \<xref:System.String.Concat*> method that is called by PeopleTrax.Form1.ExportData method consumes a large percentage of the time. Because **System.String.Concat** is also at the top of the **Functions With Most Individual Work** list, reducing the time spent in the function is a likely point of optimization.  
+     The **Hot Path** tree show that the <xref:System.String.Concat*> method that is called by PeopleTrax.Form1.ExportData method consumes a large percentage of the time. Because **System.String.Concat** is also at the top of the **Functions With Most Individual Work** list, reducing the time spent in the function is a likely point of optimization.  
   
 2.  Double-click **System.String.Concat** in either of the summary tables to see more information in the Function Details view.  
   
 3.  You can see that the PeopleTrax.Form1.ExportData is the only method that calls Concat. Click **PeopleTrax.Form1.ExportData** in the **Calling Functions** list to select the method is as the target of the Function Details view.  
   
-4.  Examine the method in the Function Code View window. Notice that there are no literal calls to **System.String.Concat**. Instead, there are several uses of the += operand, which the compiler replaces with calls to **System.String.Concat**. Any modifications to a string in the .NET Framework cause a new string to be allocated. The .NET Framework includes a \<xref:System.Text.StringBuilder> class that is optimized for string concatenation  
+4.  Examine the method in the Function Code View window. Notice that there are no literal calls to **System.String.Concat**. Instead, there are several uses of the += operand, which the compiler replaces with calls to **System.String.Concat**. Any modifications to a string in the .NET Framework cause a new string to be allocated. The .NET Framework includes a <xref:System.Text.StringBuilder> class that is optimized for string concatenation  
   
 5.  To replace this problem area with optimized code, add OPTIMIZED_EXPORTDATA as a conditional compilation symbol to the PeopleTrax project.  
   

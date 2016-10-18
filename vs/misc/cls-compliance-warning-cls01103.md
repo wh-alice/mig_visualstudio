@@ -1,7 +1,7 @@
 ---
 title: "CLS Compliance Warning CLS01103"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -40,7 +40,7 @@ All types appearing in a signature shall be CLS-compliant
   
  If a type is CLS compliant, then all fields, unless marked not CLS compliant, must be of CLS compliant types.  
   
- For more information CLS compliance checking, see [CLS Compliant Assemblies](http://msdn.microsoft.com/3320b57e-ea55-4697-a17d-f509a36a3c93).  
+ For more information CLS compliance checking, see [CLS Compliant Assemblies](http://msdn.microsoft.com/en-us/3320b57e-ea55-4697-a17d-f509a36a3c93).  
   
 ```  
 // CLS01103.cpp  

@@ -1,7 +1,7 @@
 ---
 title: "Path or drive is not valid."
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -41,4 +41,4 @@ This error generally occurs when the Browse box in the Look In dialog box is emp
   
 ## See Also  
  [Finding and Replacing Text](../ide/finding-and-replacing-text.md)   
- [Choose Search Folders](http://msdn.microsoft.com/85af6458-dcde-4a84-9ea4-f5cc6550dc80)
+ [Choose Search Folders](http://msdn.microsoft.com/en-us/85af6458-dcde-4a84-9ea4-f5cc6550dc80)

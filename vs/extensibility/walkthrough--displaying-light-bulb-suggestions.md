@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Displaying Light Bulb Suggestions"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -85,7 +85,7 @@ Light bulbs are icons used in the Visual Studio editor that expand to display a 
   
 ## Implementing the Light Bulb Source Provider  
   
-1.  In the LightBulbTest.cs class file, delete the LightBulbTest class. Add a class named **TestSuggestedActionsSourceProvider** that implements \<xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSourceProvider>. Export it with a Name of **Test Suggested Actions** and a \<xref:Microsoft.VisualStudio.Utilities.ContentTypeAttribute> of "text".  
+1.  In the LightBulbTest.cs class file, delete the LightBulbTest class. Add a class named **TestSuggestedActionsSourceProvider** that implements <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSourceProvider>. Export it with a Name of **Test Suggested Actions** and a <xref:Microsoft.VisualStudio.Utilities.ContentTypeAttribute> of "text".  
   
     ```c#  
     [Export(typeof(ISuggestedActionsSourceProvider))]  
@@ -94,14 +94,14 @@ Light bulbs are icons used in the Visual Studio editor that expand to display a 
     internal class TestSuggestedActionsSourceProvider : ISuggestedActionsSourceProvider  
     ```  
   
-2.  Inside the source provider class, import the \<xref:Microsoft.VisualStudio.Text.Operations.ITextStructureNavigatorSelectorService> and add it as a property.  
+2.  Inside the source provider class, import the <xref:Microsoft.VisualStudio.Text.Operations.ITextStructureNavigatorSelectorService> and add it as a property.  
   
     ```c#  
     [Import(typeof(ITextStructureNavigatorSelectorService))]  
     internal ITextStructureNavigatorSelectorService NavigatorService { get; set; }  
     ```  
   
-3.  Implement the \<xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSourceProvider.CreateSuggestedActionsSource*> method to return an \<xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSource> object. We will discuss the source in the next section.  
+3.  Implement the <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSourceProvider.CreateSuggestedActionsSource*> method to return an <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSource> object. We will discuss the source in the next section.  
   
     ```c#  
     public ISuggestedActionsSource CreateSuggestedActionsSource(ITextView textView, ITextBuffer textBuffer)  
@@ -117,7 +117,7 @@ Light bulbs are icons used in the Visual Studio editor that expand to display a 
 ## Implementing the ISuggestedActionSource  
  The suggested action source is responsible for collecting the set of suggested actions and adding them in the right context. In this case the context is the current word and the suggested actions are **UpperCaseSuggestedAction** and **LowerCaseSuggestedAction**, which we will discuss in the following section.  
   
-1.  Add a class **TestSuggestedActionsSource** that implements \<xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSource>.  
+1.  Add a class **TestSuggestedActionsSource** that implements <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSource>.  
   
     ```c#  
     internal class TestSuggestedActionsSource : ISuggestedActionsSource  
@@ -142,7 +142,7 @@ Light bulbs are icons used in the Visual Studio editor that expand to display a 
     }  
     ```  
   
-4.  Add a private method that returns the word that is currently under the cursor. The following method looks at the current location of the cursor and asks the text structure navigator for the extent of the word. If the cursor is on a word, the \<xref:Microsoft.VisualStudio.Text.Operations.TextExtent> is returned in the out parameter; otherwise the `out` parameter is `null` and the method returns `false`.  
+4.  Add a private method that returns the word that is currently under the cursor. The following method looks at the current location of the cursor and asks the text structure navigator for the extent of the word. If the cursor is on a word, the <xref:Microsoft.VisualStudio.Text.Operations.TextExtent> is returned in the out parameter; otherwise the `out` parameter is `null` and the method returns `false`.  
   
     ```c#  
     private bool TryGetWordUnderCaret(out TextExtent wordExtent)  
@@ -167,9 +167,9 @@ Light bulbs are icons used in the Visual Studio editor that expand to display a 
     }  
     ```  
   
-5.  Implement the \<xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSource.HasSuggestedActionsAsync*> method. The editor calls this method to find out whether to display the light bulb. This call is made quite often, for example whenever the cursor moves from one line to another, or when the mouse hovers over an error squiggle. It is asynchronous in order to allow other UI operations to carry on while this method is working. In most cases this method needs to perform some parsing and analysis of the current line, so the processing may take some time.  
+5.  Implement the <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSource.HasSuggestedActionsAsync*> method. The editor calls this method to find out whether to display the light bulb. This call is made quite often, for example whenever the cursor moves from one line to another, or when the mouse hovers over an error squiggle. It is asynchronous in order to allow other UI operations to carry on while this method is working. In most cases this method needs to perform some parsing and analysis of the current line, so the processing may take some time.  
   
-     In our implementation it asynchronously gets the \<xref:Microsoft.VisualStudio.Text.Operations.TextExtent> and determines whether the extent is significant, i.e., whether it has some text other than whitespace.  
+     In our implementation it asynchronously gets the <xref:Microsoft.VisualStudio.Text.Operations.TextExtent> and determines whether the extent is significant, i.e., whether it has some text other than whitespace.  
   
     ```c#  
     public Task<bool> HasSuggestedActionsAsync(ISuggestedActionCategorySet requestedActionCategories, SnapshotSpan range, CancellationToken cancellationToken)  
@@ -187,7 +187,7 @@ Light bulbs are icons used in the Visual Studio editor that expand to display a 
     }  
     ```  
   
-6.  Implement the \<xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSource.GetSuggestedActions*> method, which returns an array of \<xref:Microsoft.VisualStudio.Language.Intellisense.SuggestedActionSet> objects that contain the different \<xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedAction> objects. This method is called when the light bulb is expanded.  
+6.  Implement the <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedActionsSource.GetSuggestedActions*> method, which returns an array of <xref:Microsoft.VisualStudio.Language.Intellisense.SuggestedActionSet> objects that contain the different <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedAction> objects. This method is called when the light bulb is expanded.  
   
     > [!WARNING]
     >  You should make sure that the implementations of `HasSuggestedActionsAsync()` and `GetSuggestedActions()` are consistent; that is, if `HasSuggestedActionsAsync()` returns `true`, then `GetSuggestedActions()` should have some actions to display. In many cases `HasSuggestedActionsAsync()` is called just before `GetSuggestedActions()`, but this is not always the case. For example, if the user invokes the light bulb actions by pressing (CTRL + .) only `GetSuggestedActions()` is called.  
@@ -232,14 +232,14 @@ Light bulbs are icons used in the Visual Studio editor that expand to display a 
   
 1.  In the project, add a reference to Microsoft.VisualStudio.Imaging.Interop.14.0.DesignTime.dll and set **Copy Local** to `False`.  
   
-2.  Create two classes, the first named `UpperCaseSuggestedAction` and the second named `LowerCaseSuggestedAction`. Both classes implement \<xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedAction>.  
+2.  Create two classes, the first named `UpperCaseSuggestedAction` and the second named `LowerCaseSuggestedAction`. Both classes implement <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedAction>.  
   
     ```c#  
     internal class UpperCaseSuggestedAction : ISuggestedAction   
     internal class LowerCaseSuggestedAction : ISuggestedAction  
     ```  
   
-     Both classes are alike except that one calls \<xref:System.String.ToUpper*> and the other calls \<xref:System.String.ToLower*>. The following steps cover only the uppercase action class, but you must implement both classes. Use the steps for implementing the uppercase action as a pattern for implementing the lowercase action.  
+     Both classes are alike except that one calls <xref:System.String.ToUpper*> and the other calls <xref:System.String.ToLower*>. The following steps cover only the uppercase action class, but you must implement both classes. Use the steps for implementing the uppercase action as a pattern for implementing the lowercase action.  
   
 3.  Add the following using statements for these classes:  
   
@@ -273,7 +273,7 @@ Light bulbs are icons used in the Visual Studio editor that expand to display a 
     }  
     ```  
   
-6.  Implement the \<xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedAction.GetPreviewAsync*> method so that it displays the action preview.  
+6.  Implement the <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedAction.GetPreviewAsync*> method so that it displays the action preview.  
   
     ```c#  
     public Task<object> GetPreviewAsync(CancellationToken cancellationToken)  
@@ -285,7 +285,7 @@ Light bulbs are icons used in the Visual Studio editor that expand to display a 
     }  
     ```  
   
-7.  Implement the \<xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedAction.GetActionSetsAsync*> method so that it returns an empty \<xref:Microsoft.VisualStudio.Language.Intellisense.SuggestedActionSet> enumeration.  
+7.  Implement the <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedAction.GetActionSetsAsync*> method so that it returns an empty <xref:Microsoft.VisualStudio.Language.Intellisense.SuggestedActionSet> enumeration.  
   
     ```c#  
     public Task<IEnumerable<SuggestedActionSet>> GetActionSetsAsync(CancellationToken cancellationToken)  
@@ -329,7 +329,7 @@ Light bulbs are icons used in the Visual Studio editor that expand to display a 
     }  
     ```  
   
-9. Implement the \<xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedAction.Invoke*> method by replacing the text in the span with its uppercase equivalent.  
+9. Implement the <xref:Microsoft.VisualStudio.Language.Intellisense.ISuggestedAction.Invoke*> method by replacing the text in the span with its uppercase equivalent.  
   
     ```c#  
     public void Invoke(CancellationToken cancellationToken)  
@@ -356,7 +356,7 @@ Light bulbs are icons used in the Visual Studio editor that expand to display a 
     }  
     ```  
   
-11. Don’t forget to do the same thing for `LowerCaseSuggestedAction` changing the display text to “Convert ‘{0}’ to lower case” and the call \<xref:System.String.ToUpper*> to \<xref:System.String.ToLower*>.  
+11. Don’t forget to do the same thing for `LowerCaseSuggestedAction` changing the display text to “Convert ‘{0}’ to lower case” and the call <xref:System.String.ToUpper*> to <xref:System.String.ToLower*>.  
   
 ## Building and Testing the Code  
  To test this code, build the LightBulbTest solution and run it in the Experimental instance.  

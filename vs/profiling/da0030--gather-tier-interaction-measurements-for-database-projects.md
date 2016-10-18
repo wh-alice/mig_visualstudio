@@ -1,7 +1,7 @@
 ---
 title: "DA0030: Gather Tier Interaction measurements for database projects"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -43,10 +43,10 @@ translation.priority.mt:
 |Rule type|Information|  
   
 ## Cause  
- Calls to \<xref:System.Data> methods are a significant proportion of the profiling data and you have not collected tier interaction data in the profiling run. Consider profiling again and adding tier interaction data.  
+ Calls to <xref:System.Data> methods are a significant proportion of the profiling data and you have not collected tier interaction data in the profiling run. Consider profiling again and adding tier interaction data.  
   
 ## Rule Description  
- This rule fires whenever there is significant activity in functions that reside in the System.Data namespaces, including \<xref:System.Data.Linq>\<xref:System.Data.Linq>.  
+ This rule fires whenever there is significant activity in functions that reside in the System.Data namespaces, including <xref:System.Data.Linq><xref:System.Data.Linq>.  
   
  Multi-tiered applications use layered services for their presentation and data layers. Often the data layer is a separate process running a database management system such as Microsoft Sql Server. The data layer might even be running on a separate machine from the rest of the application. Sampling profiles provide little insight into functions and services running out-of-process or remotely.  
   

@@ -1,7 +1,7 @@
 ---
 title: "&#39;&lt;typename&gt;&#39; is a generic type and requires type arguments"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na

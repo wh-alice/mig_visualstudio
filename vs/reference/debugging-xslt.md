@@ -1,7 +1,7 @@
 ---
 title: "Debugging XSLT"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -66,5 +66,5 @@ You can use the Visual Studio debugger to debug XSLT. The debugger supports sett
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)  
  Introduces the Visual Studio debugger.  
   
- [XSLT Reference](http://msdn.microsoft.com/678bcd68-cbbb-4be5-9dd2-40f94488a1cf)  
+ [XSLT Reference](http://msdn.microsoft.com/en-us/678bcd68-cbbb-4be5-9dd2-40f94488a1cf)  
  Provides reference material for XSLT elements and functions.

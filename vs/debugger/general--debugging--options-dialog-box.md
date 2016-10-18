@@ -1,7 +1,7 @@
 ---
 title: "General, Debugging, Options Dialog Box"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -56,7 +56,7 @@ The**Tools / Options / Debugging / General** page lets you set the following opt
   
  1\) When native code calls managed code by using COM Interop and the managed code throws an exception. See [Introduction to COM Interop](../Topic/Introduction%20to%20COM%20Interop%20\(Visual%20Basic\).md).  
   
- 2\) When managed code running in application domain 1 calls managed code in application domain 2, and the code in application domain 2 throws an exception. See [Programming with Application Domains](http://msdn.microsoft.com/bd36055b-56bd-43eb-b4d8-820c37172131).  
+ 2\) When managed code running in application domain 1 calls managed code in application domain 2, and the code in application domain 2 throws an exception. See [Programming with Application Domains](http://msdn.microsoft.com/en-us/bd36055b-56bd-43eb-b4d8-820c37172131).  
   
  3\) When code calls a function by using reflection, and the function throws an exception. See [Reflection](../Topic/Reflection%20in%20the%20.NET%20Framework.md).  
   

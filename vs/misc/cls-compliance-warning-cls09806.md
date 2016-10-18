@@ -1,7 +1,7 @@
 ---
 title: "CLS Compliance Warning CLS09806"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -40,7 +40,7 @@ Generic methods are not CLS-compliant
   
  A generic method is not CLS compliant.  
   
- For more information Common Language Subset (CLS) compliance checking, see [CLS Compliant Assemblies](http://msdn.microsoft.com/3320b57e-ea55-4697-a17d-f509a36a3c93).  
+ For more information Common Language Subset (CLS) compliance checking, see [CLS Compliant Assemblies](http://msdn.microsoft.com/en-us/3320b57e-ea55-4697-a17d-f509a36a3c93).  
   
  The following sample generates CLS09806:  
   

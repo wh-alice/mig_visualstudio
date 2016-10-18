@@ -1,7 +1,7 @@
 ---
 title: "&#39;&lt;propertyname&gt;&#39; cannot be exposed to COM as a property &#39;Let&#39;"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -48,10 +48,10 @@ translation.priority.mt:
 -   Consider informing potential Visual Basic 6.0 users of this class that they cannot use this property with the `Let` statement.  
   
 ## See Also  
- [Default Property Changes in Visual Basic](http://msdn.microsoft.com/9b8cfad7-40ac-4b83-affb-1ff781755a4c)   
+ [Default Property Changes in Visual Basic](http://msdn.microsoft.com/en-us/9b8cfad7-40ac-4b83-affb-1ff781755a4c)   
  [Property Statement](../Topic/Property%20Statement.md)   
  [Public](../Topic/Public%20\(Visual%20Basic\).md)   
  [Object Data Type](../Topic/Object%20Data%20Type.md)   
- [NOT IN BUILD: Attributes Used in Visual Basic](http://msdn.microsoft.com/22231318-8a40-49af-9245-e0aab723563b)   
- [NOT IN BUILD: Application of Attributes](http://msdn.microsoft.com/2b1703ed-4437-49b3-bc0b-568094324f47)   
- [ComClassAttribute Class](http://msdn.microsoft.com/5c2f0835-9210-47dc-bc59-5c1769953574)
+ [NOT IN BUILD: Attributes Used in Visual Basic](http://msdn.microsoft.com/en-us/22231318-8a40-49af-9245-e0aab723563b)   
+ [NOT IN BUILD: Application of Attributes](http://msdn.microsoft.com/en-us/2b1703ed-4437-49b3-bc0b-568094324f47)   
+ [ComClassAttribute Class](http://msdn.microsoft.com/en-us/5c2f0835-9210-47dc-bc59-5c1769953574)

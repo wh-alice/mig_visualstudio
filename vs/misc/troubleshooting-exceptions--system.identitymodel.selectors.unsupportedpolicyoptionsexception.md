@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.IdentityModel.Selectors.UnsupportedPolicyOptionsException"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -33,7 +33,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.IdentityModel.Selectors.UnsupportedPolicyOptionsException
-An \<xref:System.IdentityModel.Selectors.UnsupportedPolicyOptionsException> exception indicates that a policy was provided to the system that includes options that are not supported. Restrictions that can cause these failures include the following:  
+An <xref:System.IdentityModel.Selectors.UnsupportedPolicyOptionsException> exception indicates that a policy was provided to the system that includes options that are not supported. Restrictions that can cause these failures include the following:  
   
  A recipient has requested a token from the local security token service by specifying http://schemas.xmlsoap.org/ws/2005/05/identity/issuer/self as the issuer of the token. However, one of the requirements specified in the policy is not supported by the CardSpace local security token service. For more information, see [A Technical Reference for the Information Card Profile V1.0](http://go.microsoft.com/fwlink/?LinkId=102401). Examples of unsupported options include the following:  
   
@@ -74,5 +74,5 @@ An \<xref:System.IdentityModel.Selectors.UnsupportedPolicyOptionsException> exce
 -   For Asymmetric key types, a key size is not 2048.  
   
 ## See Also  
- \<xref:System.IdentityModel.Selectors.UnsupportedPolicyOptionsException>   
+ <xref:System.IdentityModel.Selectors.UnsupportedPolicyOptionsException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

@@ -1,7 +1,7 @@
 ---
 title: "Compiler Warning (level 2) CS3019"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -38,7 +38,7 @@ translation.priority.mt:
 # Compiler Warning (level 2) CS3019
 CLS compliance checking will not be performed on 'type' because it is not visible from outside this assembly.  
   
- This warning occurs when a type or a member that has the \<xref:System.CLSCompliantAttribute> attribute is not visible from another assembly. To resolve this error, remove the attribute on any classes or members that are not visible from the other assembly, or make the type or members visible. For more information on CLS Compliance, see [\<PAVE OVER> Writing CLS-Compliant Code](http://msdn.microsoft.com/4c705105-69a2-4e5e-b24e-0633bc32c7f3).  
+ This warning occurs when a type or a member that has the <xref:System.CLSCompliantAttribute> attribute is not visible from another assembly. To resolve this error, remove the attribute on any classes or members that are not visible from the other assembly, or make the type or members visible. For more information on CLS Compliance, see [\<PAVE OVER> Writing CLS-Compliant Code](http://msdn.microsoft.com/en-us/4c705105-69a2-4e5e-b24e-0633bc32c7f3).  
   
 ## Example  
  The following sample generates CS3019:  

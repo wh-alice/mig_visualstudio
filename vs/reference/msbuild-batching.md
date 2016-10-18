@@ -1,7 +1,7 @@
 ---
 title: "MSBuild Batching"
 ms.custom: na
-ms.date: "10/07/2016"
+ms.date: "10/17/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -102,7 +102,7 @@ translation.priority.ht:
   
  `$([System.IO.Path]::Combine($(RootPath),%(Compile.Identity)))`  
   
- uses \<xref:System.IO.Path.Combine*> to combine a root folder path with a Compile item path.  
+ uses <xref:System.IO.Path.Combine*> to combine a root folder path with a Compile item path.  
   
  Property functions may not appear within metadata values.  For example,  
   

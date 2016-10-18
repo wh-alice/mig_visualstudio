@@ -1,7 +1,7 @@
 ---
 title: "At least one file is missing the &#39;attribute&#39; attribute"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,4 +44,4 @@ A file node that has been read from the .vbproj or .csproj file is missing certa
   
 ## See Also  
  [Project Files](../Topic/Project%20Files.md)   
- [NIB: Project Properties (Visual Studio)](http://msdn.microsoft.com/eb4c97ed-f667-4850-98d0-6e2a4d21bbca)
+ [NIB: Project Properties (Visual Studio)](http://msdn.microsoft.com/en-us/eb4c97ed-f667-4850-98d0-6e2a4d21bbca)

@@ -1,7 +1,7 @@
 ---
 title: "Processing Text Templates by using a Custom Host"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -43,7 +43,7 @@ The *text template transformation* process takes a *text template* file as the i
  If your application uses a set of templates that are fixed at compile time, it is easier to use Preprocessed Text Templates. You can also use that approach if your application will run on a machine on which [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] is not installed. For more information, see [Run-Time Text Generation with T4 Text Templates](../modeling/run-time-text-generation-with-t4-text-templates.md).  
   
 ## Executing a Text Template in Your Application  
- To execute a text template, you call the ProcessTemplate method of \<xref:Microsoft.VisualStudio.TextTemplating.Engine?displayProperty=fullName>:  
+ To execute a text template, you call the ProcessTemplate method of <xref:Microsoft.VisualStudio.TextTemplating.Engine?displayProperty=fullName>:  
   
 ```  
 using Microsoft.VisualStudio.TextTemplating;  
@@ -54,18 +54,18 @@ string output = engine.ProcessTemplate(templateString, host);
   
  Your application must find and provide the template, and must deal with the output.  
   
- In the `host` parameter, you must provide a class that implements \<xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost>. This is called back by the Engine.  
+ In the `host` parameter, you must provide a class that implements <xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost>. This is called back by the Engine.  
   
  The host must be able to log errors, resolve references to assembly and include files, provide an Application Domain in which the template can execute, and call the appropriate processor for each directive.  
   
- \<xref:Microsoft.VisualStudio.TextTemplating.Engine?displayProperty=fullName> is defined in **Microsoft.VisualStudio.TextTemplating.\*.0.dll**, and \<xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost> is defined in **Microsoft.VisualStudio.TextTemplating.Interfaces.\*.0.dll**.  
+ <xref:Microsoft.VisualStudio.TextTemplating.Engine?displayProperty=fullName> is defined in **Microsoft.VisualStudio.TextTemplating.\*.0.dll**, and <xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost> is defined in **Microsoft.VisualStudio.TextTemplating.Interfaces.\*.0.dll**.  
   
 ## In This Section  
  [Walkthrough: Creating a Custom Text Template Host](../modeling/walkthrough--creating-a-custom-text-template-host.md)  
  Shows you how to create a custom text template host that makes the text template functionality available outside [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
   
 ## Reference  
- \<xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost>  
+ <xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost>  
   
 ## Related Sections  
  [The Text Template Transformation Process](../modeling/the-text-template-transformation-process.md)  

@@ -1,7 +1,7 @@
 ---
 title: "Registering a Legacy Language Service1"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -36,15 +36,15 @@ In the managed package framework (MPF), the language service is proffered by a V
 ## Register the Language Service by Using Attributes  
  The following attributes are used to register a language service.  
   
--   \<xref:Microsoft.VisualStudio.Shell.ProvideServiceAttribute>  
+-   <xref:Microsoft.VisualStudio.Shell.ProvideServiceAttribute>  
   
--   \<xref:Microsoft.VisualStudio.Shell.ProvideLanguageServiceAttribute>  
+-   <xref:Microsoft.VisualStudio.Shell.ProvideLanguageServiceAttribute>  
   
--   \<xref:Microsoft.VisualStudio.Shell.ProvideLanguageExtensionAttribute>  
+-   <xref:Microsoft.VisualStudio.Shell.ProvideLanguageExtensionAttribute>  
   
--   \<xref:Microsoft.VisualStudio.Shell.ProvideLanguageCodeExpansionAttribute>  
+-   <xref:Microsoft.VisualStudio.Shell.ProvideLanguageCodeExpansionAttribute>  
   
--   \<xref:Microsoft.VisualStudio.Shell.ProvideLanguageEditorOptionPageAttribute>  
+-   <xref:Microsoft.VisualStudio.Shell.ProvideLanguageEditorOptionPageAttribute>  
   
  These attributes are explained below  
   
@@ -68,7 +68,7 @@ namespace TestLanguagePackage
 ```  
   
 ### ProvideLanguageServiceAttribute  
- This attribute registers your language service specifically as a language service. It allows you to set options that specify the features that your language service offers. The example shows a subset of the options a language service can provide. For the full set of language service options, see \<xref:Microsoft.VisualStudio.Shell.ProvideLanguageServiceAttribute>.  
+ This attribute registers your language service specifically as a language service. It allows you to set options that specify the features that your language service offers. The example shows a subset of the options a language service can provide. For the full set of language service options, see <xref:Microsoft.VisualStudio.Shell.ProvideLanguageServiceAttribute>.  
   
 ### Example  
   
@@ -173,7 +173,7 @@ namespace TestLanguagePackage
 ```  
   
 ## Proffer the Language Service at Runtime  
- When your language package is loaded, you must tell [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] that your language service is ready. You do this by proffering the service. This is done in the \<xref:Microsoft.VisualStudio.Shell.Package.Initialize*> method. In addition, you need to start a timer that calls your language service during idle periods so background parsing can be accomplished. This idle timer is also used to update document properties if you have implemented any through the \<xref:Microsoft.VisualStudio.Package.DocumentProperties> class. In order to support a timer, your package must implement the \<xref:Microsoft.VisualStudio.OLE.Interop.IOleComponent> interface (only the \<xref:Microsoft.VisualStudio.OLE.Interop.IOleComponent.FDoIdle*> method needs to be fully implemented; the remaining methods can return default values).  
+ When your language package is loaded, you must tell [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] that your language service is ready. You do this by proffering the service. This is done in the <xref:Microsoft.VisualStudio.Shell.Package.Initialize*> method. In addition, you need to start a timer that calls your language service during idle periods so background parsing can be accomplished. This idle timer is also used to update document properties if you have implemented any through the <xref:Microsoft.VisualStudio.Package.DocumentProperties> class. In order to support a timer, your package must implement the <xref:Microsoft.VisualStudio.OLE.Interop.IOleComponent> interface (only the <xref:Microsoft.VisualStudio.OLE.Interop.IOleComponent.FDoIdle*> method needs to be fully implemented; the remaining methods can return default values).  
   
 ### Example  
  This example shows a typical approach to proffering a service and supplying an idle timer.  

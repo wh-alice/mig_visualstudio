@@ -1,7 +1,7 @@
 ---
 title: "Customizing Project and Item Templates"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -61,4 +61,4 @@ After project and item templates have been created, you still have the ability t
   
  [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)  
   
- \<xref:Microsoft.VisualStudio.TemplateWizard.IWizard>
+ <xref:Microsoft.VisualStudio.TemplateWizard.IWizard>

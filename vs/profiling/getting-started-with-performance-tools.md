@@ -1,7 +1,7 @@
 ---
 title: "Getting Started with Performance Tools"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na

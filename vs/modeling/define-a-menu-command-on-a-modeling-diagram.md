@@ -1,7 +1,7 @@
 ---
 title: "Define a menu command on a modeling diagram"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -176,7 +176,7 @@ In Visual Studio, you can define additional menu items on the shortcut menus of 
          **Project** = *Your class library project*  
   
 ##  <a name="Implementing"></a> Implementing the Menu Command  
- The menu command class implements the required methods for \<xref:Microsoft.VisualStudio.Modeling.ExtensionEnablement.ICommandExtension>.  
+ The menu command class implements the required methods for <xref:Microsoft.VisualStudio.Modeling.ExtensionEnablement.ICommandExtension>.  
   
 |||  
 |-|-|  
@@ -211,7 +211,7 @@ foreach (IElement element in modelStore.AllInstances<IUseCase>()) {...}
   
  The API also allows you to change the properties of elements, delete elements and relationships, and create new elements and relationships.  
   
- By default, each change that you make in your Execute method will be performed in a separate transaction. The user will be able to undo each change separately. If you want to group the changes into a single transaction, use a \<xref:Microsoft.VisualStudio.Modeling.ExtensionEnablement.ILinkedUndoTransaction> as described in [Link UML model updates by using transactions](../modeling/link-uml-model-updates-by-using-transactions.md).  
+ By default, each change that you make in your Execute method will be performed in a separate transaction. The user will be able to undo each change separately. If you want to group the changes into a single transaction, use a <xref:Microsoft.VisualStudio.Modeling.ExtensionEnablement.ILinkedUndoTransaction> as described in [Link UML model updates by using transactions](../modeling/link-uml-model-updates-by-using-transactions.md).  
   
 ### Use the UI Thread for Updates  
  In some cases it can be useful to make updates to the model from a background thread. For example, if your command loads data from a slow resource, you can perform the loading in a brackground thread so that the user can see the changes while they are in progress, and cancel the operation if it is necessary.  

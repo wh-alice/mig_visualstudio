@@ -1,7 +1,7 @@
 ---
 title: "IDebugField::GetExtendedInfo"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -72,7 +72,7 @@ int GetExtendedInfo(
  If successful, returns `S_OK`; otherwise, returns an error code.  
   
 ## Remarks  
- Currently, this method returns only the type or value of a constant. The caller must free the buffer returned in `prgBuffer` by calling COM's `CoTaskMemFree` function (C++) or \<xref:System.Runtime.InteropServices.Marshal.FreeCoTaskMem*> (C#).  
+ Currently, this method returns only the type or value of a constant. The caller must free the buffer returned in `prgBuffer` by calling COM's `CoTaskMemFree` function (C++) or <xref:System.Runtime.InteropServices.Marshal.FreeCoTaskMem*> (C#).  
   
 ## See Also  
  [IDebugField](../extensibility/idebugfield.md)

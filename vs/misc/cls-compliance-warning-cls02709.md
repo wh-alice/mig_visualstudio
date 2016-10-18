@@ -1,7 +1,7 @@
 ---
 title: "CLS Compliance Warning CLS02709"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -42,7 +42,7 @@ Type used in a property declaration was not CLS compliant
   
  For more information about properties, see [property](../Topic/property%20%20\(C++%20Component%20Extensions\).md).  
   
- For more information CLS compliance checking, see [CLS Compliant Assemblies](http://msdn.microsoft.com/3320b57e-ea55-4697-a17d-f509a36a3c93).  
+ For more information CLS compliance checking, see [CLS Compliant Assemblies](http://msdn.microsoft.com/en-us/3320b57e-ea55-4697-a17d-f509a36a3c93).  
   
  The following sample generates CLS02709:  
   

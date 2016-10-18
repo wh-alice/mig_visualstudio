@@ -1,7 +1,7 @@
 ---
 title: "GenerateBootstrapper Task"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -76,7 +76,7 @@ Provides an automated way to detect, download, and install an application and it
   
 -   `BootstrapperItems`  
   
-     Optional \<xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.  
+     Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.  
   
      Specifies the products to build into the bootstrapper. The items passed to this parameter should have the following syntax:  
   
@@ -162,7 +162,7 @@ Provides an automated way to detect, download, and install an application and it
      If `true`, the bootstrapper performs XSD validation on the specified input bootstrapper items. The default value of this parameter is `false`.  
   
 ## Remarks  
- In addition to the parameters listed above, this task inherits parameters from the \<xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the \<xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../reference/taskextension-base-class.md).  
+ In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../reference/taskextension-base-class.md).  
   
 ## Example  
  The following example uses the `GenerateBootstrapper` task to install an application that must have the [!INCLUDE[dnprdnlong](../codequality/includes/dnprdnlong_md.md)] installed as a prerequisite.  

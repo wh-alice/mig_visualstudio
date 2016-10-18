@@ -1,7 +1,7 @@
 ---
 title: "&#39;Global&#39; must be followed by &#39;.&#39; and an identifier"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -35,7 +35,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # &#39;Global&#39; must be followed by &#39;.&#39; and an identifier
-The [Global - delete](http://msdn.microsoft.com/18c8ba14-40f6-4978-8096-6a5852324635) keyword appears in a context other than accessing a namespace.  
+The [Global - delete](http://msdn.microsoft.com/en-us/18c8ba14-40f6-4978-8096-6a5852324635) keyword appears in a context other than accessing a namespace.  
   
  The purpose of `Global` is to allow your code to access a root-level namespace from inside a namespace structure that has blocked the root-level namespace.  
   
@@ -52,4 +52,4 @@ The [Global - delete](http://msdn.microsoft.com/18c8ba14-40f6-4978-8096-6a585232
 -   If you do not want to access a root-level namespace, remove the `Global` keyword.  
   
 ## See Also  
- [Global - delete](http://msdn.microsoft.com/18c8ba14-40f6-4978-8096-6a5852324635)
+ [Global - delete](http://msdn.microsoft.com/en-us/18c8ba14-40f6-4978-8096-6a5852324635)

@@ -1,7 +1,7 @@
 ---
 title: "Loop statements are not valid in the Immediate window"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,5 +44,5 @@ translation.priority.mt:
 -   Remove `Loop` statements from the debugging code.  
   
 ## See Also  
- [Loop - delete](http://msdn.microsoft.com/707e1afe-71d1-4ebd-83fd-3fa6a8e38e57)   
+ [Loop - delete](http://msdn.microsoft.com/en-us/707e1afe-71d1-4ebd-83fd-3fa6a8e38e57)   
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)

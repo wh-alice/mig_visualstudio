@@ -1,7 +1,7 @@
 ---
 title: "Array initializer has too few dimensions"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -46,5 +46,5 @@ You have not supplied enough dimensions in the initializer for your array.
 -   Supply the missing argument or arguments.  
   
 ## See Also  
- [NOTINBUILD Overview of Arrays in Visual Basic](http://msdn.microsoft.com/ca50e2f2-b4d2-4c57-9169-9abbcc3392d8)   
- [NOTINBUILD Multidimensional Arrays in Visual Basic](http://msdn.microsoft.com/d92cad25-07e2-4d79-8ea4-ab269700f5de)
+ [NOTINBUILD Overview of Arrays in Visual Basic](http://msdn.microsoft.com/en-us/ca50e2f2-b4d2-4c57-9169-9abbcc3392d8)   
+ [NOTINBUILD Multidimensional Arrays in Visual Basic](http://msdn.microsoft.com/en-us/d92cad25-07e2-4d79-8ea4-ab269700f5de)

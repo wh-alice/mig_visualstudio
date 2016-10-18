@@ -1,7 +1,7 @@
 ---
 title: "Deploying a Custom Directive Processor"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -33,7 +33,7 @@ To use a custom directive processor in [!INCLUDE[vsprvs](../codequality/includes
   
  The alternative methods are:  
   
--   [Visual Studio Extension (VSIX)](http://msdn.microsoft.com/64ff1452-f7d5-42d9-98b8-76f769f76832). This provides a way to install and uninstall the directive processor both on your own computer and on other computers. Typically, you might package other features in the same VSIX.  
+-   [Visual Studio Extension (VSIX)](http://msdn.microsoft.com/en-us/64ff1452-f7d5-42d9-98b8-76f769f76832). This provides a way to install and uninstall the directive processor both on your own computer and on other computers. Typically, you might package other features in the same VSIX.  
   
 -   [VSPackage](../extensibility/vspackages.md). If you are defining a VSPackage that contains other features in addition to the directive processor, there is a convenient method of registering the directive processor.  
   
@@ -42,7 +42,7 @@ To use a custom directive processor in [!INCLUDE[vsprvs](../codequality/includes
  You need to use one of these methods only if you want to transform your text template in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] or [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)]. If you use a custom host in your own application, your custom host is responsible for finding the directive processors for each directive.  
   
 ## Deploying a Directive Processor in a VSIX  
- You can add a custom directive processor to a [Visual Studio Extension (VSIX)](http://msdn.microsoft.com/64ff1452-f7d5-42d9-98b8-76f769f76832).  
+ You can add a custom directive processor to a [Visual Studio Extension (VSIX)](http://msdn.microsoft.com/en-us/64ff1452-f7d5-42d9-98b8-76f769f76832).  
   
  You need to make sure that the following two items are contained in the .vsix file:  
   
@@ -109,7 +109,7 @@ To use a custom directive processor in [!INCLUDE[vsprvs](../codequality/includes
   
 6.  Add your custom directive processor class to the project.  
   
-     This is a public class that should implement \<xref:Microsoft.VisualStudio.TextTemplating.DirectiveProcessor> or \<xref:Microsoft.VisualStudio.TextTemplating.RequiresProvidesDirectiveProcessor>.  
+     This is a public class that should implement <xref:Microsoft.VisualStudio.TextTemplating.DirectiveProcessor> or <xref:Microsoft.VisualStudio.TextTemplating.RequiresProvidesDirectiveProcessor>.  
   
 #### To install the Custom Directive Processor  
   

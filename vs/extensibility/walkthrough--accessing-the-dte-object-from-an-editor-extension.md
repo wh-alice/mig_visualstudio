@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Accessing the DTE Object from an Editor Extension"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -31,7 +31,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Walkthrough: Accessing the DTE Object from an Editor Extension
-In VSPackages, you can get the DTE object by calling the \<xref:Microsoft.VisualStudio.Shell.Package.GetService*> method with the type of the DTE object. In Managed Extensibility Framework (MEF) extensions, you can import \<xref:Microsoft.VisualStudio.Shell.SVsServiceProvider> and then call the \<xref:Microsoft.VisualStudio.Shell.ServiceProvider.GetService*> method with a type of \<xref:EnvDTE.DTE>.  
+In VSPackages, you can get the DTE object by calling the <xref:Microsoft.VisualStudio.Shell.Package.GetService*> method with the type of the DTE object. In Managed Extensibility Framework (MEF) extensions, you can import <xref:Microsoft.VisualStudio.Shell.SVsServiceProvider> and then call the <xref:Microsoft.VisualStudio.Shell.ServiceProvider.GetService*> method with a type of <xref:EnvDTE.DTE>.  
   
 ## Prerequisites  
  To follow this walkthrough, you must install the Visual Studio SDK. For more information, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).  
@@ -59,7 +59,7 @@ In VSPackages, you can get the DTE object by calling the \<xref:Microsoft.Visual
   
     ```  
   
-4.  In the `GetDTEProvider` class, import a \<xref:Microsoft.VisualStudio.Shell.SVsServiceProvider>.  
+4.  In the `GetDTEProvider` class, import a <xref:Microsoft.VisualStudio.Shell.SVsServiceProvider>.  
   
     ```c#  
     [Import]  
@@ -74,7 +74,7 @@ In VSPackages, you can get the DTE object by calling the \<xref:Microsoft.Visual
   
     ```  
   
-6.  If you have to use the \<xref:EnvDTE80.DTE2> interface, you can cast the DTE object to it.  
+6.  If you have to use the <xref:EnvDTE80.DTE2> interface, you can cast the DTE object to it.  
   
 ## See Also  
  [Language Service and Editor Extension Points](../extensibility/language-service-and-editor-extension-points.md)

@@ -1,7 +1,7 @@
 ---
 title: "Add custom architecture validation to layer diagrams"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -175,7 +175,7 @@ In Visual Studio, users can validate the source code in a project against a laye
   
  Validation methods should not change the layer model or the code that is being validated.  
   
- The graph model is defined in \<xref:Microsoft.VisualStudio.GraphModel>. Its principal classes are \<xref:Microsoft.VisualStudio.GraphModel.GraphNode> and \<xref:Microsoft.VisualStudio.GraphModel.GraphLink>.  
+ The graph model is defined in <xref:Microsoft.VisualStudio.GraphModel>. Its principal classes are <xref:Microsoft.VisualStudio.GraphModel.GraphNode> and <xref:Microsoft.VisualStudio.GraphModel.GraphLink>.  
   
  Each Node and each Link has one or more Categories which specify the type of element or relationship that it represents. The nodes of a typical graph have the following categories:  
   

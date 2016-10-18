@@ -31,7 +31,7 @@ This topic describes how to invoke a [!INCLUDE[indigo1](../workflowdesigner/incl
   
  After dragging a **SendActivity** activity from the toolbox to the workflow design surface, you must import an existing contract and determine which operation will be invoked from that **SendActivity** activity. You select your contract and its operations through the [Choose Operation Dialog Box (Legacy)](../workflowdesigner/choose-operation-dialog-box--legacy-.md).  
   
- Also, if you are using a configuration file with your service, you will need to specify a \<xref:System.Workflow.Activities.ChannelToken>. The \<xref:System.Workflow.Activities.ChannelToken> identifies the endpoint configuration your send activity is going to use to connect to the workflow service.  
+ Also, if you are using a configuration file with your service, you will need to specify a <xref:System.Workflow.Activities.ChannelToken>. The <xref:System.Workflow.Activities.ChannelToken> identifies the endpoint configuration your send activity is going to use to connect to the workflow service.  
   
 ### To invoke a WCF contract operation from a SendActivity activity  
   
@@ -49,11 +49,11 @@ This topic describes how to invoke a [!INCLUDE[indigo1](../workflowdesigner/incl
   
 ### To specify a channel token  
   
-1.  Select the \<xref:System.Workflow.Activities.SendActivity> activity in the designer.  
+1.  Select the <xref:System.Workflow.Activities.SendActivity> activity in the designer.  
   
-2.  In the **Properties** pane, specify a name for the \<xref:System.Workflow.Activities.ChannelToken>. This name uniquely identifies the channel token.  
+2.  In the **Properties** pane, specify a name for the <xref:System.Workflow.Activities.ChannelToken>. This name uniquely identifies the channel token.  
   
-3.  Expand the channel token node and specify a name for the client endpoint you are going to use in the \<xref:System.Workflow.Activities.ChannelToken.EndpointName*> field. The endpoint configuration of the same name in the configuration file will be used to configure the channel.  
+3.  Expand the channel token node and specify a name for the client endpoint you are going to use in the <xref:System.Workflow.Activities.ChannelToken.EndpointName*> field. The endpoint configuration of the same name in the configuration file will be used to configure the channel.  
   
 4.  Create the endpoint configuration in your configuration file, if it does not exist already. For more information about configuring your client, see [WCF Client Overview](../Topic/WCF%20Client%20Overview.md).  
   

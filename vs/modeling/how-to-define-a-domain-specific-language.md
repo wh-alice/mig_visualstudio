@@ -1,7 +1,7 @@
 ---
 title: "How to Define a Domain-Specific Language"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -213,7 +213,7 @@ To define a domain-specific language (DSL), you create a [!INCLUDE[vsprvs](../co
   
 ##### To test the new Domain Classes  
   
-1.  **Click Transform All Templates** in the toolbar of Solution Explorer, to generate the DSL designer code. You can automate this step. For more information, see [How to Automate Transform All Templates](http://msdn.microsoft.com/b63cfe20-fe5e-47cc-9506-59b29bca768a).  
+1.  **Click Transform All Templates** in the toolbar of Solution Explorer, to generate the DSL designer code. You can automate this step. For more information, see [How to Automate Transform All Templates](http://msdn.microsoft.com/en-us/b63cfe20-fe5e-47cc-9506-59b29bca768a).  
   
 2.  **Build and run the DSL.** Press F5 or CTRL+F5 to run a new instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] in experimental mode. In the experimental instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], open or create a file that has the file name extension of your DSL.  
   

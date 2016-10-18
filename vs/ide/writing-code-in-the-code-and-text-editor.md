@@ -1,7 +1,7 @@
 ---
 title: "Writing Code in the Code and Text Editor"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -215,4 +215,4 @@ The Visual Studio editor provides many features that make it easier for you to w
 -   [Find code changes and other history](../ide/find-code-changes-and-other-history-with-codelens.md)  
   
 ## See Also  
- [Visual Studio IDE](../Topic/Visual%20Studio%20IDE.md)
+ [Visual Studio IDE](../ide/visual-studio-ide.md)

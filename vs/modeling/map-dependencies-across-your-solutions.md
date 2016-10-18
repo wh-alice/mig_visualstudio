@@ -1,7 +1,7 @@
 ---
 title: "Map dependencies across your solutions"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -180,7 +180,7 @@ When you want to understand dependencies across your code, visualize them by cre
   
 10. Another way to focus in on a complex solution map is to generate a new map containing selected items from an existing map. Hold **CTRL** while selecting the items you want to focus on, open the shortcut menu, and choose **New Graph from Selection**.  
   
-     ![Show selected items on a new code map](../modeling/media/codemapsshowonnewmap.png "CodeMapsShowOnNewMap")  
+     ![Show selected items on a new code map](../ide/media/codemapsshowonnewmap.png "CodeMapsShowOnNewMap")  
   
 11. The containing context is carried over to the new map. Hide Solution Folders and any other containers you don’t want to see using the **Filters** pane.  
   

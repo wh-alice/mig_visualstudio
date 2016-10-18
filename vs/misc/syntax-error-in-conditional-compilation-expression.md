@@ -1,7 +1,7 @@
 ---
 title: "Syntax error in conditional compilation expression"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -46,4 +46,4 @@ The conditional compilation expression generates a nonspecific syntax error.
 2.  If you cannot identify the cause of the error, gather information about the circumstances and notify Microsoft Product Support Services.  
   
 ## See Also  
- [NOTINBUILD Conditional Compilation (Visual Basic)](http://msdn.microsoft.com/ad1e35e0-935e-4a35-a2ae-738bcf2a9240)
+ [NOTINBUILD Conditional Compilation (Visual Basic)](http://msdn.microsoft.com/en-us/ad1e35e0-935e-4a35-a2ae-738bcf2a9240)

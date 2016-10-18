@@ -1,7 +1,7 @@
 ---
 title: "Introduction to International Applications Based on the .NET Framework"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -48,7 +48,7 @@ translation.priority.ht:
 # Introduction to International Applications Based on the .NET Framework
 In [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], there are two parts to creating a world-ready application: globalization, the process of designing applications that can adapt to different cultures, and localization, the process of translating resources for a specific culture. For general information on designing applications for an international audience, see [Best Practices for Developing World-Ready Applications](../Topic/Best%20Practices%20for%20Developing%20World-Ready%20Applications.md).  
   
- The [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] localization model consists of a main assembly that contains both the application code and the fallback resources — strings, images, and other objects for the language in which the application is originally developed. Each localized application will have satellite assemblies, or assemblies which contain only the localized resources. Because the main assembly always contains the fallback resources, if a resource is not found in the localized satellite assembly, the \<xref:System.Resources.ResourceManager> will attempt to load it in a hierarchical manner, eventually falling back to the resource in the main assembly. The resource fallback system is explained in greater detail in [Hierarchical Organization of Resources for Localization](../ide/hierarchical-organization-of-resources-for-localization.md).  
+ The [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] localization model consists of a main assembly that contains both the application code and the fallback resources — strings, images, and other objects for the language in which the application is originally developed. Each localized application will have satellite assemblies, or assemblies which contain only the localized resources. Because the main assembly always contains the fallback resources, if a resource is not found in the localized satellite assembly, the <xref:System.Resources.ResourceManager> will attempt to load it in a hierarchical manner, eventually falling back to the resource in the main assembly. The resource fallback system is explained in greater detail in [Hierarchical Organization of Resources for Localization](../ide/hierarchical-organization-of-resources-for-localization.md).  
   
  One localization resource you should consider using is the glossary for all Microsoft localized products. This CSV file contains over 12,000 English terms plus the translations of the terms in up to 59 different languages. The glossary is available for download on the [Microsoft Terminology Translations](http://go.microsoft.com/fwlink/?LinkId=128146) Web page.  
   
@@ -56,10 +56,10 @@ In [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], there are two parts
   
  The project system for both Windows Forms and Web Forms allows you to build resource files using an Assembly Resource File template, access the resources, and build your project. Satellite assemblies will be created along with the main assembly.  
   
- When a localized application executes, its appearance is determined by two culture values. (A *culture* is a set of user preference information related to the user's language, environment, and cultural conventions.) The UI culture setting determines which resources will be loaded. The UI culture is set as `UICulture` in Web.config files and page directives, and \<xref:System.Globalization.CultureInfo.CurrentUICulture*> in Visual Basic or Visual C# code. The culture setting determines formatting of values such as dates, numbers, currency, and so on. The culture is set as `Culture` in Web.config files and page directives, \<xref:System.Globalization.CultureInfo.CurrentCulture*> in Visual Basic or Visual C# code.  
+ When a localized application executes, its appearance is determined by two culture values. (A *culture* is a set of user preference information related to the user's language, environment, and cultural conventions.) The UI culture setting determines which resources will be loaded. The UI culture is set as `UICulture` in Web.config files and page directives, and <xref:System.Globalization.CultureInfo.CurrentUICulture*> in Visual Basic or Visual C# code. The culture setting determines formatting of values such as dates, numbers, currency, and so on. The culture is set as `Culture` in Web.config files and page directives, <xref:System.Globalization.CultureInfo.CurrentCulture*> in Visual Basic or Visual C# code.  
   
 ## See Also  
- \<xref:System.Globalization>   
- \<xref:System.Resources>   
+ <xref:System.Globalization>   
+ <xref:System.Resources>   
  [Globalizing and Localizing Applications](../ide/globalizing-and-localizing-applications.md)   
  [Security and Localized Satellite Assemblies](../ide/security-and-localized-satellite-assemblies.md)

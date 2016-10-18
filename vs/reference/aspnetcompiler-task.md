@@ -1,7 +1,7 @@
 ---
 title: "AspNetCompiler Task"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -62,7 +62,7 @@ The `AspNetCompiler` task wraps aspnet_compiler.exe, a utility to precompile [!I
 |`VirtualPath`|Optional `String` parameter.<br /><br /> The virtual path of the application to be compiled. If `PhysicalPath` specified, the physical path is used to locate the application. Otherwise, the IIS metabase is used, and the application is assumed to be in the default site. This parameter corresponds to the **-v** switch on aspnet_compiler.exe.|  
   
 ## Remarks  
- In addition to the parameters listed above, this task inherits parameters from the \<xref:Microsoft.Build.Tasks.ToolTaskExtension> class, which itself inherits from the \<xref:Microsoft.Build.Utilities.ToolTask> class. For a list of these additional parameters and their descriptions, see [ToolTaskExtension Base Class](../reference/tooltaskextension-base-class.md).  
+ In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.ToolTask> class. For a list of these additional parameters and their descriptions, see [ToolTaskExtension Base Class](../reference/tooltaskextension-base-class.md).  
   
 ## Example  
  The following code example uses the `AspNetCompiler` task to precompile an [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] application.  

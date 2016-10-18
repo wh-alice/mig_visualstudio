@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.OutOfMemoryException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,7 +37,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.OutOfMemoryException
-An \<xref:System.OutOfMemoryException> exception is thrown when an attempt to allocate memory fails.  
+An <xref:System.OutOfMemoryException> exception is thrown when an attempt to allocate memory fails.  
   
 ## Associated Tips  
  **If you are creating an array, make sure the size is correct.**  
@@ -66,5 +66,5 @@ An \<xref:System.OutOfMemoryException> exception is thrown when an attempt to al
  This exception may be thrown with an additional message, "Not enough storage is available to complete this operation," when invoking a method on a COM object that returns a user-defined type that contains a safe array (an array of non-fixed size). This is because the .NET Framework cannot marshal a structure field with a safe array type.  
   
 ## See Also  
- \<xref:System.OutOfMemoryException>   
+ <xref:System.OutOfMemoryException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

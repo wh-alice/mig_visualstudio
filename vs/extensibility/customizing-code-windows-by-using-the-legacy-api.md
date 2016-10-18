@@ -1,7 +1,7 @@
 ---
 title: "Customizing Code Windows by Using the Legacy API"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -35,12 +35,12 @@ A code window is a document window object that supports one or more text views. 
   
  Code windows are controlled by language services, and each language service can provide its own code window manager. This enables the language service to add its own adornments to the code window, such as squiggles, colorization, and more. For more information about how to create a core window, see [Instantiating the Core Editor By Using the Legacy API](../extensibility/instantiating-the-core-editor-by-using-the-legacy-api.md).  
   
- A code window is an \<xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame> object that has a text view and any adornments sited in the object. When you create the code window during your instantiation of the core editor, your language service can attach an \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindowManager> to the code window, as is shown in the following illustration.  
+ A code window is an <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame> object that has a text view and any adornments sited in the object. When you create the code window during your instantiation of the core editor, your language service can attach an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindowManager> to the code window, as is shown in the following illustration.  
   
  ![CodeWindow graphic](../extensibility/media/vscodewindow.gif "vscodewindow")  
 Code window  
   
- The language service implements the code window manager and is responsible for managing adornments, such as a drop-down bar. The code window calls the \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindowManager.AddAdornments*> method during code window initialization. When this call is made, the language service can add a drop-down bar or a button bar (\<xref:Microsoft.VisualStudio.TextManager.Interop.IVsButtonBarClient>) to the code window.  
+ The language service implements the code window manager and is responsible for managing adornments, such as a drop-down bar. The code window calls the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindowManager.AddAdornments*> method during code window initialization. When this call is made, the language service can add a drop-down bar or a button bar (<xref:Microsoft.VisualStudio.TextManager.Interop.IVsButtonBarClient>) to the code window.  
   
 ## In This Section  
  `Customizing Code Windows by Using the Legacy API`  
@@ -53,9 +53,9 @@ Code window
  Explains how to attach a document view to a document data object.  
   
 ## See Also  
- \<xref:Microsoft.VisualStudio.TextManager.Interop.VsCodeWindow>   
- \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView>   
- \<xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer>   
- \<xref:Microsoft.VisualStudio.TextManager.Interop.VsTextView>   
+ <xref:Microsoft.VisualStudio.TextManager.Interop.VsCodeWindow>   
+ <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView>   
+ <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer>   
+ <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextView>   
  [Instantiating the Core Editor By Using the Legacy API](../extensibility/instantiating-the-core-editor-by-using-the-legacy-api.md)   
  [Accessing theText View by Using the Legacy API](../extensibility/accessing-thetext-view-by-using-the-legacy-api.md)

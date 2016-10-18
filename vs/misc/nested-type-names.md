@@ -1,7 +1,7 @@
 ---
 title: "Nested Type Names"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -42,7 +42,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Nested Type Names
-This content has moved [(NOTINBUILD)Simple Type Names](http://msdn.microsoft.com/333f45cb-2c72-4d81-8e59-e346b05f55e3).  
+This content has moved [(NOTINBUILD)Simple Type Names](http://msdn.microsoft.com/en-us/333f45cb-2c72-4d81-8e59-e346b05f55e3).  
   
 ## Syntax  
   

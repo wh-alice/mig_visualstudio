@@ -1,7 +1,7 @@
 ---
 title: "How to: Set Debug and Release Configurations"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -81,4 +81,4 @@ Visual Studio projects have separate release and debug configurations for your p
  [Project Settings for  C# Debug Configurations](../debugger/project-settings-for--csharp-debug-configurations.md)   
  [Project Settings for a Visual Basic Debug Configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md)   
  [How to: Create and Edit Configurations](../ide/how-to--create-and-edit-configurations.md)   
- [Debug and Release Project Configurations](http://msdn.microsoft.com/0440b300-0614-4511-901a-105b771b236e)
+ [Debug and Release Project Configurations](http://msdn.microsoft.com/en-us/0440b300-0614-4511-901a-105b771b236e)

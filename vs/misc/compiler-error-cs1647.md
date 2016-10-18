@@ -1,7 +1,7 @@
 ---
 title: "Compiler Error CS1647"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -38,4 +38,4 @@ translation.priority.mt:
 # Compiler Error CS1647
 An expression is too long or complex to compile near 'code'  
   
- There was a stack overflow in the compiler processing your code. To resolve this error, simplify your code. If your code is valid, contact [Product Support](http://msdn.microsoft.com/77e75b8b-817d-45bf-9c38-458930d873b4).
+ There was a stack overflow in the compiler processing your code. To resolve this error, simplify your code. If your code is valid, contact [Product Support](http://msdn.microsoft.com/en-us/77e75b8b-817d-45bf-9c38-458930d873b4).

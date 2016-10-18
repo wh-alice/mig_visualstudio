@@ -1,7 +1,7 @@
 ---
 title: "Options Page, Fonts and Colors Node Properties"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -50,7 +50,7 @@ This document describes font and color properties for a tool window that is regi
 |Property Item Name|Value|Description|  
 |------------------------|-----------|-----------------|  
 |FontFamily|Get/Set (String)|The font name to use, such as "Courier New."|  
-|FontCharacterSet|Get/Set (\<xref:EnvDTE.vsFontCharSet>)|A \<xref:EnvDTE.vsFontCharSet> value, specifying the type of character set to use, such as Hebrew or Russian.|  
+|FontCharacterSet|Get/Set (<xref:EnvDTE.vsFontCharSet>)|A <xref:EnvDTE.vsFontCharSet> value, specifying the type of character set to use, such as Hebrew or Russian.|  
 |FontSize|Get/Set (Short)|The size of font to use, in points. For example, 10 or 12.|  
   
 ## See Also  

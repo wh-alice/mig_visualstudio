@@ -1,7 +1,7 @@
 ---
 title: "CreateCSharpManifestResourceName Task"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,7 +44,7 @@ Creates a [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)]-style manifest 
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|`ManifestResourceNames`|\<xref:Microsoft.Build.Framework.ITaskItem> `[]` output read-only parameter.<br /><br /> The resulting manifest names.|  
+|`ManifestResourceNames`|<xref:Microsoft.Build.Framework.ITaskItem> `[]` output read-only parameter.<br /><br /> The resulting manifest names.|  
 |`ResourceFiles`|Required `String` parameter.<br /><br /> The name of the resource file from which to create the [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] manifest name.|  
 |`RootNamespace`|Optional `String` parameter.<br /><br /> The root namespace of the resource file, typically taken from the project file. May be `null`.|  
 |`PrependCultureAsDirectory`|Optional `Boolean` parameter.<br /><br /> If `true`, the culture name is added as a directory name just before the manifest resource name. Default value is `true`.|  
@@ -53,7 +53,7 @@ Creates a [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)]-style manifest 
 ## Remarks  
  The [CreateVisualBasicManifestResourceName Task](../reference/createvisualbasicmanifestresourcename-task.md) determines the appropriate manifest resource name to assign to a given .resx or other resource file. The task provides a logical name to a resource file, and then attaches it to an output parameter as metadata.  
   
- In addition to the parameters listed above, this task inherits parameters from the \<xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the \<xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../reference/taskextension-base-class.md).  
+ In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../reference/taskextension-base-class.md).  
   
 ## See Also  
  [Tasks](../reference/msbuild-tasks.md)   

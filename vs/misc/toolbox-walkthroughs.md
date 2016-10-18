@@ -1,7 +1,7 @@
 ---
 title: "Toolbox Walkthroughs"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -42,10 +42,10 @@ This section contains several examples illustrating basic methods for adding and
  Shows how to create a control and add it to the Toolbox by using the Windows Forms Toolbox Control template.  
   
  [Walkthrough: Autoloading Toolbox Items](../misc/walkthrough--autoloading-toolbox-items.md)  
- Illustrates how a managed VSPackage can use reflection to automatically load all the \<xref:System.Drawing.Design.ToolboxItem> items provided by its own assembly.  
+ Illustrates how a managed VSPackage can use reflection to automatically load all the <xref:System.Drawing.Design.ToolboxItem> items provided by its own assembly.  
   
  [Walkthrough: Customizing Toolbox Item Configuration Dynamically](../misc/walkthrough--customizing-toolbox-item-configuration-dynamically.md)  
- Illustrates how a managed VSPackage can supply dynamic configuration support for the \<xref:System.Drawing.Design.ToolboxItem> objects.  
+ Illustrates how a managed VSPackage can supply dynamic configuration support for the <xref:System.Drawing.Design.ToolboxItem> objects.  
   
 ## Related Sections  
  [Extending the Toolbox](../misc/extending-the-toolbox.md)  

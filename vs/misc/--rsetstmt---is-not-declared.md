@@ -1,7 +1,7 @@
 ---
 title: "&#39;&lt;rsetstmt&gt;&#39; is not declared"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,7 +37,7 @@ translation.priority.mt:
 # &#39;&lt;rsetstmt&gt;&#39; is not declared
 '\<rsetstmt>' is not declared. RSet statements are no longer supported; use Microsoft.VisualBasic.RSet instead.  
   
- Several functions that were intrinsic to [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] in previous versions have been moved to the \<xref:Microsoft.VisualBasic?displayProperty=fullName> namespace. This makes their functionality more generally available to all programming languages.  
+ Several functions that were intrinsic to [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] in previous versions have been moved to the <xref:Microsoft.VisualBasic?displayProperty=fullName> namespace. This makes their functionality more generally available to all programming languages.  
   
  **Error ID:** BC30821  
   
@@ -46,5 +46,5 @@ translation.priority.mt:
 -   Use the `RSet` function in the `Microsoft.VisualBasic` namespace instead.  
   
 ## See Also  
- [NOT IN BUILD: RSet Function](http://msdn.microsoft.com/534514e5-dee9-4dfd-993b-da09731eece5)   
- [Programming Element Support Changes Summary](http://msdn.microsoft.com/0483590a-6309-449c-a2fa-effa26a03b95)
+ [NOT IN BUILD: RSet Function](http://msdn.microsoft.com/en-us/534514e5-dee9-4dfd-993b-da09731eece5)   
+ [Programming Element Support Changes Summary](http://msdn.microsoft.com/en-us/0483590a-6309-449c-a2fa-effa26a03b95)

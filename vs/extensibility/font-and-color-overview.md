@@ -1,7 +1,7 @@
 ---
 title: "Font and Color Overview"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -67,7 +67,7 @@ This topic discusses text font and color settings in the [!INCLUDE[vsprvs](../co
   
      Only one **Category** supports this mechanism, namely, the **Text Editor**.  
   
--   A more general alternative supports all other **Categories** and user interface components other than the source editor when displaying text. For more information, see \<xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaultsProvider>.  
+-   A more general alternative supports all other **Categories** and user interface components other than the source editor when displaying text. For more information, see <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaultsProvider>.  
   
 ## Core Editor Text Settings  
  Font and color settings for the core editor of a language service object are governed by the **Text EditorCategory** found in the **Show settings for** drop-down box of the **Fonts and Colors** property page.  
@@ -76,11 +76,11 @@ This topic discusses text font and color settings in the [!INCLUDE[vsprvs](../co
   
 -   A simplified technique for managing the fonts and colors of display items.  
   
-     For more information, see \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsProvideColorableItems> and \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorableItem>.  
+     For more information, see <xref:Microsoft.VisualStudio.TextManager.Interop.IVsProvideColorableItems> and <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorableItem>.  
   
 -   A well-defined and optimized colorization mechanism.  
   
-     For more information, see \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer>.  
+     For more information, see <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer>.  
   
 -   The ability to both use built-in display items from the **Text EditorCategory** and to extend them.  
   

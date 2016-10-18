@@ -1,7 +1,7 @@
 ---
 title: "Registering a Legacy Language Service2"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -100,7 +100,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0Exp\
 |----------|----------|-----------|-----------------|  
 |(Default)|REG_SZ|ResID|The localized display name of this option page. The name can be literal text, or #`nnn`, where `nnn` is a string resource ID in the satellite DLL of the specified VSPackage.|  
 |Package|REG_SZ|*GUID*|The GUID of the VSPackage that implements this options page.|  
-|Page|REG_SZ|*GUID*|The GUID of the property page to request from the VSPackage by calling the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetPropertyPage*> method. If this registry entry is not present, the registry key describes a node, not a page.|  
+|Page|REG_SZ|*GUID*|The GUID of the property page to request from the VSPackage by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetPropertyPage*> method. If this registry entry is not present, the registry key describes a node, not a page.|  
   
 ### Example  
   
@@ -218,7 +218,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\9.0\
 ## Registry Entries for Managed Package Framework Language Service Options  
  The following registry entries are specific to the managed package framework (MPF) language service classes. These registry entries indicate support in the language service for various IntelliSense features and for other advanced editing features.  
   
- These registry entries are accessed through the \<xref:Microsoft.VisualStudio.Package.LanguagePreferences> class.  
+ These registry entries are accessed through the <xref:Microsoft.VisualStudio.Package.LanguagePreferences> class.  
   
 |Name|Type|Range|Description|  
 |----------|----------|-----------|-----------------|  

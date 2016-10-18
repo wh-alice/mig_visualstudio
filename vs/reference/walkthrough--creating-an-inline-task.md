@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Creating an Inline Task"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -32,7 +32,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Walkthrough: Creating an Inline Task
-MSBuild tasks are typically created by compiling a class that implements the \<xref:Microsoft.Build.Framework.ITask> interface. Starting with the .NET Framework version 4, you can create tasks inline in the project file. You do not have to create a separate assembly to host the task. For more information, see [Inline Tasks](../reference/msbuild-inline-tasks.md).  
+MSBuild tasks are typically created by compiling a class that implements the <xref:Microsoft.Build.Framework.ITask> interface. Starting with the .NET Framework version 4, you can create tasks inline in the project file. You do not have to create a separate assembly to host the task. For more information, see [Inline Tasks](../reference/msbuild-inline-tasks.md).  
   
  This walkthrough shows how to create and run these inline tasks:  
   

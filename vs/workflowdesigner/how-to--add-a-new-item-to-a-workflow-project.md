@@ -1,7 +1,7 @@
 ---
 title: "How to: Add a New Item to a Workflow Project"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/13/2016"
 ms.prod: ".net-framework-4.6"
 ms.reviewer: na
 ms.suite: na
@@ -35,7 +35,7 @@ After you have created a workflow project, you can add workflow activities, desi
 |----------|-----------------|  
 |Activity|An activity to be composed of other activities. Selecting this item adds the same XAML file to the project as you would obtain when selecting the **Activity Library** template for a new project. [!INCLUDE[crabout](../codequality/includes/crabout_md.md)] on this procedure, see [How to: Create an Activity Library](../workflowdesigner/how-to--create-an-activity-library.md).|  
 |Activity Designer|A designer to customize the design-time experience of an activity. Selecting this item adds the same files to the project as you would obtain when selecting the **Activity Designer Library** template for a new project. [!INCLUDE[crabout](../codequality/includes/crabout_md.md)] on this procedure, see [How to: Create an Activity Designer Library](../workflowdesigner/how-to--create-an-activity-designer-library.md).|  
-|Code Activity|An activity with execution logic written in code. A source code file with an override of the \<xref:System.Activities.CodeActivity.Execute*> method is already generated for you.|  
+|Code Activity|An activity with execution logic written in code. A source code file with an override of the <xref:System.Activities.CodeActivity.Execute*> method is already generated for you.|  
 |WCF Workflow Service|A [!INCLUDE[indigo2](../workflowdesigner/includes/indigo2_md.md)] service built using workflow activities. Selecting this item adds the same files to the project as you would obtain when selecting the **WCF Workflow Service Application** template for a new project. [!INCLUDE[crabout](../codequality/includes/crabout_md.md)] on this procedure, see [How to: Create a WCF Workflow Service Application](../workflowdesigner/how-to--create-a-wcf-workflow-service-application.md).|  
   
 ### To add a new item to a workflow project  

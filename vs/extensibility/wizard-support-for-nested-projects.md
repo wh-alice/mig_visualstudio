@@ -1,7 +1,7 @@
 ---
 title: "Wizard Support for Nested Projects"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -42,5 +42,5 @@ The IDE runs two wizards that the parent project for nested projects can impleme
  For more information about wizards, see [Wizard (.Vsz) File](../extensibility/wizard--.vsz--file.md), [Context Parameters](../extensibility/context-parameters.md) and [Registering Project and Item Templates](../extensibility/registering-project-and-item-templates.md).  
   
 ## See Also  
- \<xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy>   
+ <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy>   
  [Nesting Projects](../extensibility/nesting-projects.md)

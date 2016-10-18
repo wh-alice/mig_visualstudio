@@ -1,7 +1,7 @@
 ---
 title: "&#39;MyBase&#39; cannot be used with method &#39;&lt;methodname&gt;&#39; because it is declared &#39;MustOverride&#39;"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,5 +44,5 @@ You have attempted to use `MyBase` with a method that has been declared `MustOve
 -   Remove the `MustOverride` declaration.  
   
 ## See Also  
- [MyBase - delete](http://msdn.microsoft.com/52491d06-6451-4f6f-9aa6-8fab59bbc2b9)   
+ [MyBase - delete](http://msdn.microsoft.com/en-us/52491d06-6451-4f6f-9aa6-8fab59bbc2b9)   
  [MustOverride](../Topic/MustOverride%20\(Visual%20Basic\).md)

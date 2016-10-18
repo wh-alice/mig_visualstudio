@@ -1,7 +1,7 @@
 ---
 title: "Attribute &#39;&lt;attributename&gt;&#39; cannot be applied to a method with optional parameters"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -48,5 +48,5 @@ The attribute can only be used with methods that use required arguments or no ar
 3.  Define a custom attribute that can be used in this context.  
   
 ## See Also  
- \<xref:System.AttributeUsageAttribute>   
- [NOT IN BUILD: Attributes in Visual Basic](http://msdn.microsoft.com/620bfc0e-4582-4c8b-8432-ebc5c3dccc22)
+ <xref:System.AttributeUsageAttribute>   
+ [NOT IN BUILD: Attributes in Visual Basic](http://msdn.microsoft.com/en-us/620bfc0e-4582-4c8b-8432-ebc5c3dccc22)

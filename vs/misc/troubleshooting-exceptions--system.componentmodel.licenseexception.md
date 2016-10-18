@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.ComponentModel.LicenseException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -36,6 +36,6 @@ translation.priority.mt:
 The exception that is thrown when a component cannot be granted a valid license.  
   
 ## See Also  
- \<xref:System.ComponentModel.LicenseException>   
+ <xref:System.ComponentModel.LicenseException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)   
  [How to: License Components and Controls](../Topic/How%20to:%20License%20Components%20and%20Controls.md)

@@ -1,7 +1,7 @@
 ---
 title: "Security Page, Project Designer"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -81,8 +81,8 @@ The **Security** page of the **Project Designer** is used to configure code acce
  Opens the [Advanced Security Settings Dialog Box](../reference/advanced-security-settings-dialog-box.md), which is used to configure settings for debugging the application with restricted permissions. These settings are checked during debugging, and permission exceptions indicate that your application may need more permissions than defined in a zone.  
   
 ## See Also  
- \<xref:System.Security.Permissions.WebBrowserPermission>   
- \<xref:System.Security.Permissions.MediaPermission>   
+ <xref:System.Security.Permissions.WebBrowserPermission>   
+ <xref:System.Security.Permissions.MediaPermission>   
  [Code Access Security for ClickOnce Applications](../deployment/code-access-security-for-clickonce-applications.md)   
  [How to: Enable ClickOnce Security Settings](../deployment/how-to--enable-clickonce-security-settings.md)   
  [How to: Set a Security Zone for a ClickOnce Application](../deployment/how-to--set-a-security-zone-for-a-clickonce-application.md)   

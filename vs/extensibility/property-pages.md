@@ -1,7 +1,7 @@
 ---
 title: "Property Pages"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -47,7 +47,7 @@ Users can view and change project configuration-dependent and -independent prope
  ![Visual Basic Property Pages](../extensibility/media/vsvbproppages.gif "vsVBPropPages")  
 Project Property Pages dialog box with field format and tree structure  
   
- The tree structure in the Property Pages dialog box is not built using \<xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy>. The environment, based on the level name passed to it by the \<xref:Microsoft.VisualStudio.OLE.Interop.ISpecifyPropertyPages> and the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsPropertyPage> interfaces, builds it.  
+ The tree structure in the Property Pages dialog box is not built using <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy>. The environment, based on the level name passed to it by the <xref:Microsoft.VisualStudio.OLE.Interop.ISpecifyPropertyPages> and the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPropertyPage> interfaces, builds it.  
   
  There are only two top-level categories available on [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Property pages:  
   
@@ -82,7 +82,7 @@ Property Pages dialog box with properties grid
   
      You can specify a project or projects from the solution's property page that will be started when the user presses F5 or selects Run from the Build menu. This works in a manner similar to the old active project in the sense that its name is displayed in Solution Explorer with bold font.  
   
-     You can retrieve the startup project as a property in the automation model by calling `DTE.Solution.SolutionBuild.StartupProjects`. In a VSPackage, you call the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionBuildManager2.get_StartupProject*> or the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionBuildManager2.get_StartupProject*> methods. `IVsSolutionBuildManager` is available as a service by `QueryService` on SID_SVsSolutionBuildManager. For more information, see [Project Configuration Object](../extensibility/project-configuration-object.md) and [Solution Configuration](../extensibility/solution-configuration.md).  
+     You can retrieve the startup project as a property in the automation model by calling `DTE.Solution.SolutionBuild.StartupProjects`. In a VSPackage, you call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionBuildManager2.get_StartupProject*> or the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionBuildManager2.get_StartupProject*> methods. `IVsSolutionBuildManager` is available as a service by `QueryService` on SID_SVsSolutionBuildManager. For more information, see [Project Configuration Object](../extensibility/project-configuration-object.md) and [Solution Configuration](../extensibility/solution-configuration.md).  
   
 -   Active solution build configuration  
   
@@ -90,10 +90,10 @@ Property Pages dialog box with properties grid
   
 -   Project currently selected  
   
-     Implement the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.GetCurrentSelection*> method to retrieve the project hierarchy and project item or items selected. From DTE, you would use the `SelectedItems.SelectedItem.Project` and `SelectedItems.SelectedItem.ProjectItem` methods. There is sample code under those headings in the core [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] documents.  
+     Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.GetCurrentSelection*> method to retrieve the project hierarchy and project item or items selected. From DTE, you would use the `SelectedItems.SelectedItem.Project` and `SelectedItems.SelectedItem.ProjectItem` methods. There is sample code under those headings in the core [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] documents.  
   
 ## See Also  
- \<xref:Microsoft.VisualStudio.Shell.Interop.IVsPropertyPage>   
+ <xref:Microsoft.VisualStudio.Shell.Interop.IVsPropertyPage>   
  [Managing Configuration Options](../extensibility/managing-configuration-options.md)   
  [Project Configuration Object](../extensibility/project-configuration-object.md)   
  [Solution Configuration](../extensibility/solution-configuration.md)

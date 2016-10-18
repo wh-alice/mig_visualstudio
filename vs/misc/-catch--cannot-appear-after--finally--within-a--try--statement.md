@@ -1,7 +1,7 @@
 ---
 title: "&#39;Catch&#39; cannot appear after &#39;Finally&#39; within a &#39;Try&#39; statement"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -45,4 +45,4 @@ A `Catch` statement appears in the code after the `Finally` ending a `Try` state
   
 ## See Also  
  [Try...Catch...Finally Statement](../Topic/Try...Catch...Finally%20Statement%20\(Visual%20Basic\).md)   
- [Structured Exception Handling Overview for Visual Basic](http://msdn.microsoft.com/bb81af80-a735-4873-9711-6151a48e418a)
+ [Structured Exception Handling Overview for Visual Basic](http://msdn.microsoft.com/en-us/bb81af80-a735-4873-9711-6151a48e418a)

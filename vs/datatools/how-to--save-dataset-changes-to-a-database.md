@@ -39,7 +39,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Save Dataset Changes to a Database
-After the data in your dataset has been modified and validated, you probably want to send the updated data back to a database. In order to send the modified data to a database, you call the `Update` method of a [TableAdapter](../datatools/tableadapter-overview.md) or data adapter. The adapter's `Update` method updates a single data table and executes the correct command (INSERT, UPDATE, or DELETE) based on the \<xref:System.Data.DataRow.RowState*> of each data row in the table.  
+After the data in your dataset has been modified and validated, you probably want to send the updated data back to a database. In order to send the modified data to a database, you call the `Update` method of a [TableAdapter](../datatools/tableadapter-overview.md) or data adapter. The adapter's `Update` method updates a single data table and executes the correct command (INSERT, UPDATE, or DELETE) based on the <xref:System.Data.DataRow.RowState*> of each data row in the table.  
   
  When saving data in related tables, Visual Studio provides a TableAdapterManager component that assists in performing saves in the proper order based on the foreign-key constraints defined in the database. For more information, see [Hierarchical Update Overview](../Topic/Hierarchical%20Update%20Overview.md).  
   
@@ -52,7 +52,7 @@ After the data in your dataset has been modified and validated, you probably wan
   
 2.  If an exception is caught, locate the data row that caused the error. For more information, see [How to: Locate Rows that Have Errors](../Topic/How%20to:%20Locate%20Rows%20that%20Have%20Errors.md).  
   
-3.  Reconcile the problem in the data row (programmatically if possible, or by presenting the invalid row to the user for modification), and then reattempt the update (\<xref:System.Data.DataRow.HasErrors*> property, \<xref:System.Data.DataTable.GetErrors*> method).  
+3.  Reconcile the problem in the data row (programmatically if possible, or by presenting the invalid row to the user for modification), and then reattempt the update (<xref:System.Data.DataRow.HasErrors*> property, <xref:System.Data.DataTable.GetErrors*> method).  
   
 ## Saving Data to a Database  
  Call the `Update` method of a TableAdapter or data adapter, passing the name of the data table that contains the values to be written to the database. For more information on saving data from a single data table back to a database, see [Walkthrough: Saving Data to a Database (Single Table)](../Topic/Walkthrough:%20Saving%20Data%20to%20a%20Database%20\(Single%20Table\).md).  
@@ -72,7 +72,7 @@ After the data in your dataset has been modified and validated, you probably wan
 [!code[VbRaddataSaving#26](../datatools/codesnippet/CSharp/how-to--save-dataset-changes-to-a-database_2.cs)]  
   
 ## Updating Two Related Tables in a Dataset  
- When updating related tables in a dataset, it is important to update in the proper sequence to reduce the chance of violating referential integrity constraints. The order of command execution will also follow the indices of the \<xref:System.Data.DataRowCollection> in the dataset. To prevent data integrity errors from being raised, the best practice is to update the database in the following sequence:  
+ When updating related tables in a dataset, it is important to update in the proper sequence to reduce the chance of violating referential integrity constraints. The order of command execution will also follow the indices of the <xref:System.Data.DataRowCollection> in the dataset. To prevent data integrity errors from being raised, the best practice is to update the database in the following sequence:  
   
 1.  Child table: delete records.  
   
@@ -86,7 +86,7 @@ After the data in your dataset has been modified and validated, you probably wan
   
 #### To update two related tables using a TableAdapter  
   
-1.  Create three temporary \<xref:System.Data.DataTable>s to hold the differing records.  
+1.  Create three temporary <xref:System.Data.DataTable>s to hold the differing records.  
   
 2.  Call the `Update` method for each subset of rows from within a `try`/`catch` block. If update errors occur, the suggested course of action is to branch off and resolve them.  
   
@@ -101,7 +101,7 @@ After the data in your dataset has been modified and validated, you probably wan
   
 -   Call the `Update` method of each data adapter.  
   
-     The following example shows how to update a data source with a dataset that contains related tables. In order to follow the above sequence, three temporary \<xref:System.Data.DataTable>s will be created to hold the differing records. Then the `Update` method will be called for each subset of rows from within a `try`/`catch` block. If update errors occur, the suggested course of action is to branch off and resolve them. Then the dataset commits the changes. Finally, dispose of the temporary data tables to release the resources.  
+     The following example shows how to update a data source with a dataset that contains related tables. In order to follow the above sequence, three temporary <xref:System.Data.DataTable>s will be created to hold the differing records. Then the `Update` method will be called for each subset of rows from within a `try`/`catch` block. If update errors occur, the suggested course of action is to branch off and resolve them. Then the dataset commits the changes. Finally, dispose of the temporary data tables to release the resources.  
   
      [!code[VbRaddataSaving#28](../datatools/codesnippet/VisualBasic/how-to--save-dataset-changes-to-a-database_4.vb)]
 [!code[VbRaddataSaving#28](../datatools/codesnippet/CSharp/how-to--save-dataset-changes-to-a-database_4.cs)]  

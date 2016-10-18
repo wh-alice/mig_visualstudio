@@ -1,7 +1,7 @@
 ---
 title: "Unable to find entry point &#39;&lt;name&gt;&#39; in DLL &#39;&lt;filename&gt;&#39;: &lt;error&gt;"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na

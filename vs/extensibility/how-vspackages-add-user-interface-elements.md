@@ -1,7 +1,7 @@
 ---
 title: "How VSPackages Add User Interface Elements"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -223,7 +223,7 @@ priority="0x0100" type="Menu">
 ##### Visibility Constraints  
  A visibility constraint is set as a [VisibilityItem Element](../extensibility/visibilityitem-element.md) in the `VisibilityConstraints` section. A visibility constraint defines specific UI contexts in which the target item is visible. A menu or command that is included in this section is visible only when one of the defined contexts is active. If a menu or command is not referenced in this section, it is always visible by default. This section does not apply to groups.  
   
- `VisibilityItem` elements must have three attributes, as follows: the `guid` and `id` of the target UI element, and `context`. The `context` attribute specifies when the target item will be visible, and takes any valid UI context as its value. The UI context constants for Visual Studio are members of the \<xref:Microsoft.VisualStudio.VSConstants> class. Every `VisibilityItem` element can take only one context value. To apply a second context, create a second `VisibilityItem` element that points to the same item, as shown in the following example.  
+ `VisibilityItem` elements must have three attributes, as follows: the `guid` and `id` of the target UI element, and `context`. The `context` attribute specifies when the target item will be visible, and takes any valid UI context as its value. The UI context constants for Visual Studio are members of the <xref:Microsoft.VisualStudio.VSConstants> class. Every `VisibilityItem` element can take only one context value. To apply a second context, create a second `VisibilityItem` element that points to the same item, as shown in the following example.  
   
 ```xml  
 <VisibilityConstraints>  
@@ -290,7 +290,7 @@ priority="0x0100" type="Menu">
   
 -   The command is not invisible because of a context entry in the [VisibilityConstraints Element](../extensibility/visibilityconstraints-element.md) section.  
   
--   VSPackage code that implements the \<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface displays and enables your command. No interface code intercepted it and acted on it.  
+-   VSPackage code that implements the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface displays and enables your command. No interface code intercepted it and acted on it.  
   
 -   When a user clicks your command, it becomes subject to the procedure that is outlined in [Routing Algorithm](../extensibility/command-routing-algorithm.md).  
   
@@ -302,7 +302,7 @@ priority="0x0100" type="Menu">
   
 -   [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] offers many UI elements that appear differently depending on placement.  
   
--   A UI element that is defined by using the `DefaultInvisible` flag will not be displayed in the IDE unless it is either displayed by its VSPackage implementation of the \<xref:EnvDTE.IDTCommandTarget.QueryStatus*> method, or associated with a particular UI context in the `VisibilityConstraints` section.  
+-   A UI element that is defined by using the `DefaultInvisible` flag will not be displayed in the IDE unless it is either displayed by its VSPackage implementation of the <xref:EnvDTE.IDTCommandTarget.QueryStatus*> method, or associated with a particular UI context in the `VisibilityConstraints` section.  
   
 -   Even a successfully positioned command may not be displayed. This is because the IDE automatically hides or displays some commands, depending on interfaces that the VSPackage has (or has not) implemented. For example, a VSPackage's implementation of some build interfaces causes build-related menu items to be automatically shown.  
   

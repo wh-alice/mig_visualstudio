@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: Microsoft.Office.Tools.InvalidRangeException"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,7 +37,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: Microsoft.Office.Tools.InvalidRangeException
-An \<xref:Microsoft.Office.Tools.InvalidRangeException> exception is thrown when you programmatically create a view control with a range that spans multiple areas.  
+An <xref:Microsoft.Office.Tools.InvalidRangeException> exception is thrown when you programmatically create a view control with a range that spans multiple areas.  
   
 ## Associated Tips  
  Ensure that the area covered by the range does not overlap another range.  
@@ -47,5 +47,5 @@ An \<xref:Microsoft.Office.Tools.InvalidRangeException> exception is thrown when
  -   Ensure when you programmatically create a view control that you include only a single area; that is, all the cells are together.  
   
 ## See Also  
- \<xref:Microsoft.Office.Tools.InvalidRangeException>   
+ <xref:Microsoft.Office.Tools.InvalidRangeException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

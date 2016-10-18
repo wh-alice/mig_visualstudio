@@ -1,7 +1,7 @@
 ---
 title: "Service Essentials"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -68,7 +68,7 @@ A service is a contract between two VSPackages. One VSPackage provides a specifi
   
 -   VSPackages can be service providers for the objects they create. For example, a form might send a request for a color service to its frame, which might pass the request to [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
   
--   Managed objects that are deeply nested, or not sited at all, may call \<xref:Microsoft.VisualStudio.Shell.Package.GetGlobalService*> for direct access to global services. For more information, see [How to: Use GetGlobalService](../misc/how-to--use-getglobalservice.md).  
+-   Managed objects that are deeply nested, or not sited at all, may call <xref:Microsoft.VisualStudio.Shell.Package.GetGlobalService*> for direct access to global services. For more information, see [How to: Use GetGlobalService](../misc/how-to--use-getglobalservice.md).  
   
 ## See Also  
  [List of Available Services](../extensibility/list-of-available-services.md)   

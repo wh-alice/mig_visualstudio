@@ -1,7 +1,7 @@
 ---
 title: "Working with Domain-Specific Language Solutions"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -43,5 +43,5 @@ A domain-specific language (DSL) is created using a [!INCLUDE[vsprvs](../codequa
  [How to: Extend the Domain-Specific Language Designer](../modeling/how-to--extend-the-domain-specific-language-designer.md)  
  You can customize the DSL Designer with menu commands.  
   
- [How to Automate Transform All Templates](http://msdn.microsoft.com/b63cfe20-fe5e-47cc-9506-59b29bca768a)  
+ [How to Automate Transform All Templates](http://msdn.microsoft.com/en-us/b63cfe20-fe5e-47cc-9506-59b29bca768a)  
  To avoid clicking Transform All Templates, you can make it an automatic part of the build.

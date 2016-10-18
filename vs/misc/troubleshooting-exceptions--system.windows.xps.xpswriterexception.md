@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.Windows.Xps.XpsWriterException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -35,11 +35,11 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.Windows.Xps.XpsWriterException
-An \<xref:System.Windows.Xps.XpsWriterException> exception is thrown when a method of either an \<xref:System.Windows.Xps.XpsDocumentWriter> or a \<xref:System.Windows.Xps.VisualsToXpsDocument> object is called that is incompatible with the current state of the object.  
+An <xref:System.Windows.Xps.XpsWriterException> exception is thrown when a method of either an <xref:System.Windows.Xps.XpsDocumentWriter> or a <xref:System.Windows.Xps.VisualsToXpsDocument> object is called that is incompatible with the current state of the object.  
   
 ## Remarks  
  For example, this exception is thrown if the `CancelAsync` method of either object type is called when the object is not performing an asynchronous write operation.  
   
 ## See Also  
- \<xref:System.Windows.Xps.XpsWriterException>   
+ <xref:System.Windows.Xps.XpsWriterException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

@@ -1,7 +1,7 @@
 ---
 title: "&#39;Inherits&#39; can appear only once within a &#39;Class&#39; statement and can only specify one class"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na

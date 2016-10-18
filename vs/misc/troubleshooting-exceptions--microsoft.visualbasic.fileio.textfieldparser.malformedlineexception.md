@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: Microsoft.VisualBasic.FileIO.TextFieldParser.MalformedLineException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,7 +37,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: Microsoft.VisualBasic.FileIO.TextFieldParser.MalformedLineException
-A \<xref:Microsoft.VisualBasic.FileIO.MalformedLineException> exception is thrown when a \<xref:Microsoft.VisualBasic.FileIO.TextFieldParser> cannot parse a row using the specified format.  
+A <xref:Microsoft.VisualBasic.FileIO.MalformedLineException> exception is thrown when a <xref:Microsoft.VisualBasic.FileIO.TextFieldParser> cannot parse a row using the specified format.  
   
  The `Error Line` property of the exception object contains the text of the line causing the error.  
   
@@ -46,7 +46,7 @@ A \<xref:Microsoft.VisualBasic.FileIO.MalformedLineException> exception is throw
  The `TextFieldType` (delimited or fixed-width) must match the format of the file. If the `TextFieldType` is `FixedWidth`, check that the `FieldWidths` property has been set correctly. If the `TextFieldType` is `Delimited`, check that the `Delimiters` property has been set correctly.  
   
 ## See Also  
- \<xref:Microsoft.VisualBasic.FileIO.MalformedLineException>   
+ <xref:Microsoft.VisualBasic.FileIO.MalformedLineException>   
  [Parsing Text Files with the TextFieldParser Object](../Topic/Parsing%20Text%20Files%20with%20the%20TextFieldParser%20Object%20\(Visual%20Basic\).md)   
  [How to: Read From Comma-Delimited Text Files](../Topic/How%20to:%20Read%20From%20Comma-Delimited%20Text%20Files%20in%20Visual%20Basic.md)   
  [How to: Read From Fixed-width Text Files](../Topic/How%20to:%20Read%20From%20Fixed-width%20Text%20Files%20in%20Visual%20Basic.md)

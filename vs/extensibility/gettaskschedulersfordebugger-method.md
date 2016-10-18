@@ -1,7 +1,7 @@
 ---
 title: "GetTaskSchedulersForDebugger Method"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -31,9 +31,9 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # GetTaskSchedulersForDebugger Method
-Retrieves an array of all \<xref:System.Threading.Tasks.TaskScheduler> objects that are currently active.  
+Retrieves an array of all <xref:System.Threading.Tasks.TaskScheduler> objects that are currently active.  
   
- **Namespace:** \<xref:System.Threading.Tasks?displayProperty=fullName>  
+ **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>  
   
  **Assembly:** mscorlib (in mscorlib.dll)  
   
@@ -46,10 +46,10 @@ Retrieves an array of all \<xref:System.Threading.Tasks.TaskScheduler> objects t
 ```  
   
 ## Return Value  
- An array of all \<xref:System.Threading.Tasks.TaskScheduler> objects that are currently active in this \<xref:System.AppDomain>.  
+ An array of all <xref:System.Threading.Tasks.TaskScheduler> objects that are currently active in this <xref:System.AppDomain>.  
   
 ## Remarks  
- This method is not thread safe and should not be used concurrently with other instances of \<xref:System.Threading.Tasks.TaskScheduler>. It should be called from a debugger only when the debugger has suspended all other threads.  
+ This method is not thread safe and should not be used concurrently with other instances of <xref:System.Threading.Tasks.TaskScheduler>. It should be called from a debugger only when the debugger has suspended all other threads.  
   
 ## See Also  
  [TaskScheduler Class](../extensibility/taskscheduler-class---internal-members.md)

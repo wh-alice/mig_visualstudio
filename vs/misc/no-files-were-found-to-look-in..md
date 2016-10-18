@@ -1,7 +1,7 @@
 ---
 title: "No files were found to look in."
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -50,4 +50,4 @@ This error generally occurs when a file name or directory has been specified in 
 ## See Also  
  [Finding and Replacing Text](../ide/finding-and-replacing-text.md)   
  [Find in Files](../ide/find-in-files.md)   
- [Choose Search Folders](http://msdn.microsoft.com/85af6458-dcde-4a84-9ea4-f5cc6550dc80)
+ [Choose Search Folders](http://msdn.microsoft.com/en-us/85af6458-dcde-4a84-9ea4-f5cc6550dc80)

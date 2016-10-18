@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Customizing Toolbox Item Configuration Dynamically"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -31,7 +31,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Walkthrough: Customizing Toolbox Item Configuration Dynamically
-This walkthrough shows how a managed VSPackage can supply dynamic configuration support for the \<xref:System.Drawing.Design.ToolboxItem> objects.  
+This walkthrough shows how a managed VSPackage can supply dynamic configuration support for the <xref:System.Drawing.Design.ToolboxItem> objects.  
   
 > [!NOTE]
 >  The simplest way to add custom controls to the Toolbox is to use the Toolbox Control templates that are included in the Visual Studio SDK. This topic relates to advanced Toolbox development.  
@@ -40,25 +40,25 @@ This walkthrough shows how a managed VSPackage can supply dynamic configuration 
   
  This walkthrough guides you through the following steps:  
   
-1.  Add and correctly register all **Toolbox** controls in the VSPackage objects by using the \<xref:System.ComponentModel.ToolboxItemAttribute> and \<xref:System.Drawing.ToolboxBitmapAttribute> classes.  
+1.  Add and correctly register all **Toolbox** controls in the VSPackage objects by using the <xref:System.ComponentModel.ToolboxItemAttribute> and <xref:System.Drawing.ToolboxBitmapAttribute> classes.  
   
 2.  Create the following two controls and add icons for each of them to the **Toolbox**:  
   
-    -   One control that declares an associated default \<xref:System.Drawing.Design.ToolboxItem>.  
+    -   One control that declares an associated default <xref:System.Drawing.Design.ToolboxItem>.  
   
-    -   One control that declares an associated custom **Toolbox** item that is derived from the \<xref:System.Drawing.Design.ToolboxItem> class.  
+    -   One control that declares an associated custom **Toolbox** item that is derived from the <xref:System.Drawing.Design.ToolboxItem> class.  
   
-3.  Write an implementation of \<xref:Microsoft.VisualStudio.Shell.IConfigureToolboxItem>, and register it by doing the following things:  
+3.  Write an implementation of <xref:Microsoft.VisualStudio.Shell.IConfigureToolboxItem>, and register it by doing the following things:  
   
-    1.  Defining a filter class that derives from the \<xref:Microsoft.VisualStudio.Shell.IConfigureToolboxItem> class and specifies the \<xref:System.Drawing.Design.ToolboxItem> instances that this implementation will act on.  
+    1.  Defining a filter class that derives from the <xref:Microsoft.VisualStudio.Shell.IConfigureToolboxItem> class and specifies the <xref:System.Drawing.Design.ToolboxItem> instances that this implementation will act on.  
   
-    2.  Applying a \<xref:Microsoft.VisualStudio.Shell.ProvideToolboxItemConfigurationAttribute>, which references the filter class, to the class that implements the \<xref:Microsoft.VisualStudio.Shell.Package> class for the VSPackage.  
+    2.  Applying a <xref:Microsoft.VisualStudio.Shell.ProvideToolboxItemConfigurationAttribute>, which references the filter class, to the class that implements the <xref:Microsoft.VisualStudio.Shell.Package> class for the VSPackage.  
   
-4.  Register the VSPackage as a provider of \<xref:System.Drawing.Design.ToolboxItem> objects by applying the \<xref:Microsoft.VisualStudio.Shell.ProvideToolboxItemsAttribute> to the class that implements the \<xref:Microsoft.VisualStudio.Shell.Package> class for the VSPackage.  
+4.  Register the VSPackage as a provider of <xref:System.Drawing.Design.ToolboxItem> objects by applying the <xref:Microsoft.VisualStudio.Shell.ProvideToolboxItemsAttribute> to the class that implements the <xref:Microsoft.VisualStudio.Shell.Package> class for the VSPackage.  
   
-5.  At package load time, use reflection to generate a list of all \<xref:System.Drawing.Design.ToolboxItem> objects that the VSPackage provides.  
+5.  At package load time, use reflection to generate a list of all <xref:System.Drawing.Design.ToolboxItem> objects that the VSPackage provides.  
   
-6.  Create a handler for the \<xref:Microsoft.VisualStudio.Shell.Package.ToolboxInitialized> and \<xref:Microsoft.VisualStudio.Shell.Package.ToolboxUpgraded> events. Doing this guarantees that the VSPackage's \<xref:System.Drawing.Design.ToolboxItem> objects are correctly loaded.  
+6.  Create a handler for the <xref:Microsoft.VisualStudio.Shell.Package.ToolboxInitialized> and <xref:Microsoft.VisualStudio.Shell.Package.ToolboxUpgraded> events. Doing this guarantees that the VSPackage's <xref:System.Drawing.Design.ToolboxItem> objects are correctly loaded.  
   
 7.  Implement a command on the VSPackage to force re-initialization of the **Toolbox**.  
   
@@ -97,7 +97,7 @@ This walkthrough shows how a managed VSPackage can supply dynamic configuration 
   
     -   System.Windows.Forms  
   
-4.  Add a reference to the \<xref:System.Drawing.Design?displayProperty=fullName> .NET Framework component.  
+4.  Add a reference to the <xref:System.Drawing.Design?displayProperty=fullName> .NET Framework component.  
   
  If you follow this walkthrough for more than one language, you must update the project to disambiguate the generated assemblies.  
   
@@ -140,20 +140,20 @@ This walkthrough shows how a managed VSPackage can supply dynamic configuration 
 3.  Close the experimental version of [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)].  
   
 ## Creating Toolbox Controls  
- In this section, you create and register a user control, `Control1`, that declares an associated default **Toolbox** item. You also create and register a second user control, `Control2`, and an associated custom **Toolbox** item, `Control2_ToolboxItem`, that is derived from the \<xref:System.Drawing.Design.ToolboxItem> class. For more information about how to author Windows Forms controls and \<xref:System.Drawing.Design.ToolboxItem> classes, see [Developing Windows Forms Controls at Design Time](../Topic/Developing%20Windows%20Forms%20Controls%20at%20Design%20Time.md).  
+ In this section, you create and register a user control, `Control1`, that declares an associated default **Toolbox** item. You also create and register a second user control, `Control2`, and an associated custom **Toolbox** item, `Control2_ToolboxItem`, that is derived from the <xref:System.Drawing.Design.ToolboxItem> class. For more information about how to author Windows Forms controls and <xref:System.Drawing.Design.ToolboxItem> classes, see [Developing Windows Forms Controls at Design Time](../Topic/Developing%20Windows%20Forms%20Controls%20at%20Design%20Time.md).  
   
 #### To create default and custom toolbox items  
   
 1.  Use the instructions in [Walkthrough: Autoloading Toolbox Items](../misc/walkthrough--autoloading-toolbox-items.md) to create a default **Toolbox** item and a custom **Toolbox** item, as follows.  
   
-    1.  Complete the procedure, "To create a **Toolbox** control that will be used with a default ToolboxItem." Update the \<xref:System.ComponentModel.DescriptionAttribute> to reference this project.  
+    1.  Complete the procedure, "To create a **Toolbox** control that will be used with a default ToolboxItem." Update the <xref:System.ComponentModel.DescriptionAttribute> to reference this project.  
   
          The resulting code for the `Control1` class should resemble the following code.  
   
          [!code[DynamicToolboxMembers#01](../misc/codesnippet/CSharp/walkthrough--customizing-toolbox-item-configuration-dynamically_1.cs)]
 [!code[DynamicToolboxMembers#01](../misc/codesnippet/VisualBasic/walkthrough--customizing-toolbox-item-configuration-dynamically_1.vb)]  
   
-    2.  Complete the procedure, "To create a **Toolbox** control for using a custom ToolboxItem-derived class." Update the \<xref:System.ComponentModel.DescriptionAttribute> to reference this project.  
+    2.  Complete the procedure, "To create a **Toolbox** control for using a custom ToolboxItem-derived class." Update the <xref:System.ComponentModel.DescriptionAttribute> to reference this project.  
   
          The resulting code for the `Control2` and `Control2_ToolboxItem` classes should resemble the following code.  
   
@@ -163,7 +163,7 @@ This walkthrough shows how a managed VSPackage can supply dynamic configuration 
 2.  Save the files.  
   
 ## Embedding Bitmap Icons  
- The \<xref:System.Drawing.ToolboxBitmapAttribute> attribute that is applied to each control specifies which icon to associate with that control. Create the bitmaps for both controls, and name them as follows:  
+ The <xref:System.Drawing.ToolboxBitmapAttribute> attribute that is applied to each control specifies which icon to associate with that control. Create the bitmaps for both controls, and name them as follows:  
   
 -   `Control1.bmp`, for the `Control1` class.  
   
@@ -192,10 +192,10 @@ This walkthrough shows how a managed VSPackage can supply dynamic configuration 
 5.  Save all open files.  
   
 ## Adding a Dynamic Toolbox Configuration Provider  
- In this section, you create and register a class that implements the \<xref:Microsoft.VisualStudio.Shell.IConfigureToolboxItem> interface. This class is instantiated and used by the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE) to configure **Toolbox** controls.  
+ In this section, you create and register a class that implements the <xref:Microsoft.VisualStudio.Shell.IConfigureToolboxItem> interface. This class is instantiated and used by the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE) to configure **Toolbox** controls.  
   
 > [!NOTE]
->  Because the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] environment instantiates an instance of the implementation of \<xref:Microsoft.VisualStudio.Shell.IConfigureToolboxItem>, do not implement the \<xref:Microsoft.VisualStudio.Shell.IConfigureToolboxItem> interface on the class that implements \<xref:Microsoft.VisualStudio.Shell.Package> for a VSPackage.  
+>  Because the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] environment instantiates an instance of the implementation of <xref:Microsoft.VisualStudio.Shell.IConfigureToolboxItem>, do not implement the <xref:Microsoft.VisualStudio.Shell.IConfigureToolboxItem> interface on the class that implements <xref:Microsoft.VisualStudio.Shell.Package> for a VSPackage.  
   
 #### To create and register a toolbox control configuration object  
   
@@ -206,28 +206,28 @@ This walkthrough shows how a managed VSPackage can supply dynamic configuration 
      [!code[DynamicToolboxMembers#03](../misc/codesnippet/CSharp/walkthrough--customizing-toolbox-item-configuration-dynamically_3.cs)]
 [!code[DynamicToolboxMembers#03](../misc/codesnippet/VisualBasic/walkthrough--customizing-toolbox-item-configuration-dynamically_3.vb)]  
   
-3.  Ensure that the `ToolboxConfig` class is `public` and implements the \<xref:Microsoft.VisualStudio.Shell.IConfigureToolboxItem> interface.  
+3.  Ensure that the `ToolboxConfig` class is `public` and implements the <xref:Microsoft.VisualStudio.Shell.IConfigureToolboxItem> interface.  
   
-4.  Apply a \<xref:System.Runtime.InteropServices.GuidAttribute> and a \<xref:Microsoft.VisualStudio.Shell.ProvideAssemblyFilterAttribute> to the `ToolboxConfig` class`.`  
+4.  Apply a <xref:System.Runtime.InteropServices.GuidAttribute> and a <xref:Microsoft.VisualStudio.Shell.ProvideAssemblyFilterAttribute> to the `ToolboxConfig` class`.`  
   
     -   For [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)], use an assembly name of `"ItemConfigurationVB, Version=*, Culture=*, PublicKeyToken=*"`.  
   
     -   For [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)], use an assembly name of `"ItemConfigurationCS, Version=*, Culture=*, PublicKeyToken=*"`.  
   
-     Doing this restricts the `ToolboxConfig` class to working on \<xref:System.Drawing.Design.ToolboxItem> objects that are provided by the assembly that contains the current VSPackage.  
+     Doing this restricts the `ToolboxConfig` class to working on <xref:System.Drawing.Design.ToolboxItem> objects that are provided by the assembly that contains the current VSPackage.  
   
      [!code[DynamicToolboxMembers#04](../misc/codesnippet/CSharp/walkthrough--customizing-toolbox-item-configuration-dynamically_4.cs)]
 [!code[DynamicToolboxMembers#04](../misc/codesnippet/VisualBasic/walkthrough--customizing-toolbox-item-configuration-dynamically_4.vb)]  
   
      You can generate a GUID by clicking **Create GUID** on the **Tools** menu. Select **the format with square braces**, click **Copy**, and then paste the GUID in your code. change the keyword `GUID` to `Guid`.  
   
-5.  Implement the \<xref:Microsoft.VisualStudio.Shell.IConfigureToolboxItem.ConfigureToolboxItem*> method of the \<xref:Microsoft.VisualStudio.Shell.IConfigureToolboxItem> interface so that the method only acts on the two \<xref:System.Drawing.Design.ToolboxItem> classes, `Control1` and `Control2`.  
+5.  Implement the <xref:Microsoft.VisualStudio.Shell.IConfigureToolboxItem.ConfigureToolboxItem*> method of the <xref:Microsoft.VisualStudio.Shell.IConfigureToolboxItem> interface so that the method only acts on the two <xref:System.Drawing.Design.ToolboxItem> classes, `Control1` and `Control2`.  
   
-     The implementation of \<xref:Microsoft.VisualStudio.Shell.IConfigureToolboxItem.ConfigureToolboxItem*> applies instances of \<xref:System.ComponentModel.ToolboxItemFilterAttribute> to the two \<xref:System.Drawing.Design.ToolboxItem> objects so that:  
+     The implementation of <xref:Microsoft.VisualStudio.Shell.IConfigureToolboxItem.ConfigureToolboxItem*> applies instances of <xref:System.ComponentModel.ToolboxItemFilterAttribute> to the two <xref:System.Drawing.Design.ToolboxItem> objects so that:  
   
-    -   The \<xref:System.Drawing.Design.ToolboxItem> that is implemented by `Control1` is only available in the **Toolbox** for designers that handle \<xref:System.Windows.Forms.UserControl> objects.  
+    -   The <xref:System.Drawing.Design.ToolboxItem> that is implemented by `Control1` is only available in the **Toolbox** for designers that handle <xref:System.Windows.Forms.UserControl> objects.  
   
-    -   The \<xref:System.Drawing.Design.ToolboxItem> that is implemented by `Control2` is not available in the **Toolbox** for designers that handle \<xref:System.Windows.Forms.UserControl> objects.  
+    -   The <xref:System.Drawing.Design.ToolboxItem> that is implemented by `Control2` is not available in the **Toolbox** for designers that handle <xref:System.Windows.Forms.UserControl> objects.  
   
      [!code[DynamicToolboxMembers#05](../misc/codesnippet/CSharp/walkthrough--customizing-toolbox-item-configuration-dynamically_5.cs)]
 [!code[DynamicToolboxMembers#05](../misc/codesnippet/VisualBasic/walkthrough--customizing-toolbox-item-configuration-dynamically_5.vb)]  
@@ -239,34 +239,34 @@ This walkthrough shows how a managed VSPackage can supply dynamic configuration 
   
 -   Register the class that provides the dynamic **Toolbox** control configuration for the VSPackage.  
   
--   Use the \<xref:System.Drawing.Design.ToolboxService> to load all the \<xref:System.Drawing.Design.ToolboxItem> objects that are provided by the VSPackage assembly.  
+-   Use the <xref:System.Drawing.Design.ToolboxService> to load all the <xref:System.Drawing.Design.ToolboxItem> objects that are provided by the VSPackage assembly.  
   
--   Handle \<xref:Microsoft.VisualStudio.Shell.Package.ToolboxInitialized> and \<xref:Microsoft.VisualStudio.Shell.Package.ToolboxUpgraded> events.  
+-   Handle <xref:Microsoft.VisualStudio.Shell.Package.ToolboxInitialized> and <xref:Microsoft.VisualStudio.Shell.Package.ToolboxUpgraded> events.  
   
 #### To modify the Package implementation for a Toolbox item provider on the VSPackage  
   
 1.  Open the ItemConfigurationPackage class in the code editor.  
   
-2.  Modify the declaration of the `ItemConfigurationPackage` class, which is the implementation of the \<xref:Microsoft.VisualStudio.Shell.Package> class in the solution.  
+2.  Modify the declaration of the `ItemConfigurationPackage` class, which is the implementation of the <xref:Microsoft.VisualStudio.Shell.Package> class in the solution.  
   
     1.  Add the following namespace statements to the file.  
   
          [!code[DynamicToolboxMembers#06](../misc/codesnippet/VisualBasic/walkthrough--customizing-toolbox-item-configuration-dynamically_6.vb)]
 [!code[DynamicToolboxMembers#06](../misc/codesnippet/CSharp/walkthrough--customizing-toolbox-item-configuration-dynamically_6.cs)]  
   
-    2.  To register the VSPackage as providing **Toolbox** items, apply a \<xref:Microsoft.VisualStudio.Shell.ProvideToolboxItemsAttribute> to the package. To register the `ToolboxConfig` class as providing a **Toolbox** control dynamic configuration, apply a \<xref:Microsoft.VisualStudio.Shell.ProvideToolboxItemConfigurationAttribute> to the package.  
+    2.  To register the VSPackage as providing **Toolbox** items, apply a <xref:Microsoft.VisualStudio.Shell.ProvideToolboxItemsAttribute> to the package. To register the `ToolboxConfig` class as providing a **Toolbox** control dynamic configuration, apply a <xref:Microsoft.VisualStudio.Shell.ProvideToolboxItemConfigurationAttribute> to the package.  
   
          [!code[DynamicToolboxMembers#07](../misc/codesnippet/VisualBasic/walkthrough--customizing-toolbox-item-configuration-dynamically_7.vb)]
 [!code[DynamicToolboxMembers#07](../misc/codesnippet/CSharp/walkthrough--customizing-toolbox-item-configuration-dynamically_7.cs)]  
   
         > [!NOTE]
-        >  The only argument of \<xref:Microsoft.VisualStudio.Shell.ProvideToolboxItemsAttribute> is the version of \<xref:System.Drawing.Design.ToolboxItem> that is provided by the VSPackage. By changing this value, you force the IDE to load the VSPackage even if it has an earlier cached version of \<xref:System.Drawing.Design.ToolboxItem>.  
+        >  The only argument of <xref:Microsoft.VisualStudio.Shell.ProvideToolboxItemsAttribute> is the version of <xref:System.Drawing.Design.ToolboxItem> that is provided by the VSPackage. By changing this value, you force the IDE to load the VSPackage even if it has an earlier cached version of <xref:System.Drawing.Design.ToolboxItem>.  
   
     3.  Create two new `private` fields in the `ItemConfiguration` class, as follows:  
   
-         An \<xref:System.Collections.ArrayList> member, named `ToolboxItemList`, to hold a list of the \<xref:System.Drawing.Design.ToolboxItem> objects that the `ItemConfiguration` class manages.  
+         An <xref:System.Collections.ArrayList> member, named `ToolboxItemList`, to hold a list of the <xref:System.Drawing.Design.ToolboxItem> objects that the `ItemConfiguration` class manages.  
   
-         A \<xref:System.String>, named `CategoryTab`, that contains the **Toolbox** tab that is used to hold the \<xref:System.Drawing.Design.ToolboxItem> objects that the `ItemConfiguration` class manages.  
+         A <xref:System.String>, named `CategoryTab`, that contains the **Toolbox** tab that is used to hold the <xref:System.Drawing.Design.ToolboxItem> objects that the `ItemConfiguration` class manages.  
   
          [!code[DynamicToolboxMembers#08](../misc/codesnippet/VisualBasic/walkthrough--customizing-toolbox-item-configuration-dynamically_8.vb)]
 [!code[DynamicToolboxMembers#08](../misc/codesnippet/CSharp/walkthrough--customizing-toolbox-item-configuration-dynamically_8.cs)]  
@@ -276,24 +276,24 @@ This walkthrough shows how a managed VSPackage can supply dynamic configuration 
      [!code[DynamicToolboxMembers#09](../misc/codesnippet/VisualBasic/walkthrough--customizing-toolbox-item-configuration-dynamically_9.vb)]
 [!code[DynamicToolboxMembers#09](../misc/codesnippet/CSharp/walkthrough--customizing-toolbox-item-configuration-dynamically_9.cs)]  
   
-3.  Define an `OnRefreshToolbox` method to handle the \<xref:Microsoft.VisualStudio.Shell.Package.ToolboxInitialized> and \<xref:Microsoft.VisualStudio.Shell.Package.ToolboxUpgraded> events.  
+3.  Define an `OnRefreshToolbox` method to handle the <xref:Microsoft.VisualStudio.Shell.Package.ToolboxInitialized> and <xref:Microsoft.VisualStudio.Shell.Package.ToolboxUpgraded> events.  
   
-     The `OnRefreshToolbox` method uses the list of \<xref:System.Drawing.Design.ToolboxItem> objects that is contained in the `ToolboxItemList` field and does the following things:  
+     The `OnRefreshToolbox` method uses the list of <xref:System.Drawing.Design.ToolboxItem> objects that is contained in the `ToolboxItemList` field and does the following things:  
   
-    -   Removes all \<xref:System.Drawing.Design.ToolboxItem> objects from the **Toolbox** tab that is defined by the `CategoryTab` field.  
+    -   Removes all <xref:System.Drawing.Design.ToolboxItem> objects from the **Toolbox** tab that is defined by the `CategoryTab` field.  
   
-    -   Adds to the **Toolbox** tab new instances of all \<xref:System.Drawing.Design.ToolboxItem> objects that are listed in the `ToolboxItemList` field.  
+    -   Adds to the **Toolbox** tab new instances of all <xref:System.Drawing.Design.ToolboxItem> objects that are listed in the `ToolboxItemList` field.  
   
     -   Sets the **Toolbox** tab as the active tab.  
   
      [!code[DynamicToolboxMembers#10](../misc/codesnippet/VisualBasic/walkthrough--customizing-toolbox-item-configuration-dynamically_10.vb)]
 [!code[DynamicToolboxMembers#10](../misc/codesnippet/CSharp/walkthrough--customizing-toolbox-item-configuration-dynamically_10.cs)]  
   
-4.  For [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)], in the constructor, register the `OnRefreshToolbox` method as the event hander for the \<xref:Microsoft.VisualStudio.Shell.Package.ToolboxInitialized> and \<xref:Microsoft.VisualStudio.Shell.Package.ToolboxUpgraded> events.  
+4.  For [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)], in the constructor, register the `OnRefreshToolbox` method as the event hander for the <xref:Microsoft.VisualStudio.Shell.Package.ToolboxInitialized> and <xref:Microsoft.VisualStudio.Shell.Package.ToolboxUpgraded> events.  
   
      [!code[DynamicToolboxMembers#11](../misc/codesnippet/CSharp/walkthrough--customizing-toolbox-item-configuration-dynamically_11.cs)]  
   
-5.  Modify the `Initialize` method in `ItemConfigurationPackage` to fill the `ToolboxItemList` field by calling the \<xref:System.Drawing.Design.ToolboxService.GetToolboxItems*> method of the \<xref:System.Drawing.Design.ToolboxService?displayProperty=fullName> class. The **Toolbox** service gets all the **Toolbox** item classes that are defined in the currently executing assembly. The `ToolboxItemList` field is used by the **Toolbox** event handlers to load the **Toolbox** items.  
+5.  Modify the `Initialize` method in `ItemConfigurationPackage` to fill the `ToolboxItemList` field by calling the <xref:System.Drawing.Design.ToolboxService.GetToolboxItems*> method of the <xref:System.Drawing.Design.ToolboxService?displayProperty=fullName> class. The **Toolbox** service gets all the **Toolbox** item classes that are defined in the currently executing assembly. The `ToolboxItemList` field is used by the **Toolbox** event handlers to load the **Toolbox** items.  
   
      Add the following code at the end of the `Initialize` method.  
   
@@ -301,7 +301,7 @@ This walkthrough shows how a managed VSPackage can supply dynamic configuration 
 [!code[DynamicToolboxMembers#12](../misc/codesnippet/CSharp/walkthrough--customizing-toolbox-item-configuration-dynamically_12.cs)]  
   
     > [!NOTE]
-    >  As an exercise, one could develop a mechanism for testing the version of the VSPackage or the items, and only update if the VSPackage version has changed or if the version of the \<xref:System.Drawing.Design.ToolboxItem> has changed.  
+    >  As an exercise, one could develop a mechanism for testing the version of the VSPackage or the items, and only update if the VSPackage version has changed or if the version of the <xref:System.Drawing.Design.ToolboxItem> has changed.  
   
 ## Initializing the Toolbox  
   
@@ -331,7 +331,7 @@ This walkthrough shows how a managed VSPackage can supply dynamic configuration 
   
 4.  Create a new [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] or [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] Windows Forms application.  
   
-     A \<xref:System.Windows.Forms.Form>-based designer appears.  
+     A <xref:System.Windows.Forms.Form>-based designer appears.  
   
 5.  Add a user control to the project.  
   
@@ -354,9 +354,9 @@ This walkthrough shows how a managed VSPackage can supply dynamic configuration 
      When the application runs, click each control on the form to get the associated message box.  
   
 ## Analysis of the Implementation  
- Because the `assemblyFilter` parameter is present in the \<xref:Microsoft.VisualStudio.Shell.ProvideAssemblyFilterAttribute> class constructor, only \<xref:System.Drawing.Design.ToolboxItem> objects in the assembly produced in this walkthrough are acted on by the \<xref:Microsoft.VisualStudio.Shell.IConfigureToolboxItem.ConfigureToolboxItem*> method of the `ToolboxConfg` class.  
+ Because the `assemblyFilter` parameter is present in the <xref:Microsoft.VisualStudio.Shell.ProvideAssemblyFilterAttribute> class constructor, only <xref:System.Drawing.Design.ToolboxItem> objects in the assembly produced in this walkthrough are acted on by the <xref:Microsoft.VisualStudio.Shell.IConfigureToolboxItem.ConfigureToolboxItem*> method of the `ToolboxConfg` class.  
   
- Therefore, whenever the **ItemConfiguration Walkthrough**category is active on the **Toolbox**, the \<xref:Microsoft.VisualStudio.Shell.IConfigureToolboxItem.ConfigureToolboxItem*> method of the `ToolboxConfg` class is called, and \<xref:System.ComponentModel.ToolboxItemFilterAttribute> instances are applied on the \<xref:System.Drawing.Design.ToolboxItem> objects that are implemented by `Control1` and `Control2`.  
+ Therefore, whenever the **ItemConfiguration Walkthrough**category is active on the **Toolbox**, the <xref:Microsoft.VisualStudio.Shell.IConfigureToolboxItem.ConfigureToolboxItem*> method of the `ToolboxConfg` class is called, and <xref:System.ComponentModel.ToolboxItemFilterAttribute> instances are applied on the <xref:System.Drawing.Design.ToolboxItem> objects that are implemented by `Control1` and `Control2`.  
   
 ## See Also  
  [Extending the Toolbox](../misc/extending-the-toolbox.md)   

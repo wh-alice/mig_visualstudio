@@ -1,7 +1,7 @@
 ---
 title: "How to: Implement Error Markers"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -41,7 +41,7 @@ Error markers (or red wavy underlines) are the most difficult of the text editor
   
 2.  Create a marker of the type `MARKER_CODESENSE_ERROR`. For more information, see [How to: Add Standard Text Markers](../extensibility/how-to--add-standard-text-markers.md).  
   
-3.  After that, pass in an \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient> interface pointer.  
+3.  After that, pass in an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient> interface pointer.  
   
  This process also allows you to create tip text or a special context menu over a given marker. For more information, see [How to: Add Standard Text Markers](../extensibility/how-to--add-standard-text-markers.md).  
   
@@ -49,9 +49,9 @@ Error markers (or red wavy underlines) are the most difficult of the text editor
   
 -   A parser.  
   
--   A task provider (that is, an implementation of \<xref:Microsoft.VisualStudio.Shell.Interop.IVsTaskProvider2>) that maintains a record of changes in line information in order to identify the lines to be re-parsed.  
+-   A task provider (that is, an implementation of <xref:Microsoft.VisualStudio.Shell.Interop.IVsTaskProvider2>) that maintains a record of changes in line information in order to identify the lines to be re-parsed.  
   
--   A text view filter that captures caret change events from the view using the \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextViewEvents.OnChangeCaretLine*>) method.  
+-   A text view filter that captures caret change events from the view using the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextViewEvents.OnChangeCaretLine*>) method.  
   
  The parser, task provider, and filter provide the infrastructure necessary to make error markers possible. The following steps provide the process for displaying error markers.  
   

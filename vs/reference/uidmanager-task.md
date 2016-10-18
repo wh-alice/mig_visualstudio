@@ -1,7 +1,7 @@
 ---
 title: "UidManager Task"
 ms.custom: na
-ms.date: "10/07/2016"
+ms.date: "10/17/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -40,7 +40,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # UidManager Task
-The \<xref:Microsoft.Build.Tasks.Windows.UidManager> task checks, updates, or removes unique identifiers (UIDs), in order to localize all [!INCLUDE[TLA#tla_xaml](../reference/includes/tlasharptla_xaml_md.md)] elements that are included in the source [!INCLUDE[TLA2#tla_xaml](../reference/includes/tla2sharptla_xaml_md.md)] files.  
+The <xref:Microsoft.Build.Tasks.Windows.UidManager> task checks, updates, or removes unique identifiers (UIDs), in order to localize all [!INCLUDE[TLA#tla_xaml](../reference/includes/tlasharptla_xaml_md.md)] elements that are included in the source [!INCLUDE[TLA2#tla_xaml](../reference/includes/tla2sharptla_xaml_md.md)] files.  
   
 ## Task Parameters  
   
@@ -51,7 +51,7 @@ The \<xref:Microsoft.Build.Tasks.Windows.UidManager> task checks, updates, or re
 |`Task`|Required **String** parameter.<br /><br /> Specifies the UID management task that you want to perform. Valid options are **Check**, **Update**, or **Remove**.|  
   
 ## Example  
- The following example uses the \<xref:Microsoft.Build.Tasks.Windows.UidManager> task to check that the specified source [!INCLUDE[TLA2#tla_xaml](../reference/includes/tla2sharptla_xaml_md.md)] files contain [!INCLUDE[TLA2#tla_xaml](../reference/includes/tla2sharptla_xaml_md.md)] elements that have appropriate UIDs.  
+ The following example uses the <xref:Microsoft.Build.Tasks.Windows.UidManager> task to check that the specified source [!INCLUDE[TLA2#tla_xaml](../reference/includes/tla2sharptla_xaml_md.md)] files contain [!INCLUDE[TLA2#tla_xaml](../reference/includes/tla2sharptla_xaml_md.md)] elements that have appropriate UIDs.  
   
 ```  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  

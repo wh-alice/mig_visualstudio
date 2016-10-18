@@ -1,7 +1,7 @@
 ---
 title: "FindUnderPath Task"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -46,14 +46,14 @@ Determines which items in the specified item collection have paths that are in o
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|`Files`|Optional \<xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the files whose paths should be compared with the path specified by the `Path` parameter.|  
-|`InPath`|Optional \<xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Contains the items that were found under the specified path.|  
-|`OutOfPath`|Optional \<xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Contains the items that were not found under the specified path.|  
-|`Path`|Required \<xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br /> Specifies the folder path to use as the reference.|  
+|`Files`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the files whose paths should be compared with the path specified by the `Path` parameter.|  
+|`InPath`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Contains the items that were found under the specified path.|  
+|`OutOfPath`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Contains the items that were not found under the specified path.|  
+|`Path`|Required <xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br /> Specifies the folder path to use as the reference.|  
 |`UpdateToAbsolutePaths`|Optional `Boolean` parameter.<br /><br /> If true, the paths of the output items are updated to be absolute paths.|  
   
 ## Remarks  
- In addition to the parameters listed above, this task inherits parameters from the \<xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the \<xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../reference/taskextension-base-class.md).  
+ In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../reference/taskextension-base-class.md).  
   
 ## Example  
  The following example uses the `FindUnderPath` task to determine if the files contained in the `MyFiles` item have paths that exist under the path specified by the `SearchPath` property. After the task completes, the `FilesNotFoundInPath` item contains the `File1.txt` file, and the `FilesFoundInPath` item contains the `File2.txt` file.  

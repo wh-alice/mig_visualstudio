@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.Transactions.TransactionInDoubtException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,5 +39,5 @@ The exception that is thrown when an operation is attempted on a transaction tha
  A transaction is in doubt when an enrolled resource manager cannot be contacted.  
   
 ## See Also  
- \<xref:System.Transactions.TransactionInDoubtException>   
+ <xref:System.Transactions.TransactionInDoubtException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

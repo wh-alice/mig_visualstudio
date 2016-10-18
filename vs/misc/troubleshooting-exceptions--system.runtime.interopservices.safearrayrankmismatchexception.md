@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.Runtime.InteropServices.SafeArrayRankMismatchException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,14 +39,14 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.Runtime.InteropServices.SafeArrayRankMismatchException
-A \<xref:System.Runtime.InteropServices.SafeArrayRankMismatchException> exception is thrown when the rank of an incoming SAFEARRAY does not match the rank specified in the managed signature.  
+A <xref:System.Runtime.InteropServices.SafeArrayRankMismatchException> exception is thrown when the rank of an incoming SAFEARRAY does not match the rank specified in the managed signature.  
   
 ## Associated Tips  
  **Make sure your array has the required number of dimensions.**  
  Because the rank and bounds of a safe array cannot be determined from the type library, the rank is assumed to equal 1, and the lower bound is assumed to equal 0. The rank and bounds must be defined in the managed signature produced by the [Tlbimp.exe (Type Library Importer)](../Topic/Tlbimp.exe%20\(Type%20Library%20Importer\).md).  
   
 ## See Also  
- \<xref:System.Runtime.InteropServices.SafeArrayRankMismatchException>   
+ <xref:System.Runtime.InteropServices.SafeArrayRankMismatchException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)   
  [Default Marshaling for Arrays](../Topic/Default%20Marshaling%20for%20Arrays.md)   
  [Arrays](../Topic/Arrays%20in%20Visual%20Basic.md)

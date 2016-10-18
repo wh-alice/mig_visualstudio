@@ -1,7 +1,7 @@
 ---
 title: "Friend declaration &lt;declaration&gt; is invalid and cannot be resolved"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -42,5 +42,5 @@ translation.priority.mt:
 1.  
   
 ## See Also  
- \<xref:System.Reflection.AssemblyName>   
- [NOT IN BUILD: Friend Assemblies (Visual Basic)](http://msdn.microsoft.com/80e7a33a-ca91-450b-a00e-c5a7986e228c)
+ <xref:System.Reflection.AssemblyName>   
+ [NOT IN BUILD: Friend Assemblies (Visual Basic)](http://msdn.microsoft.com/en-us/80e7a33a-ca91-450b-a00e-c5a7986e228c)

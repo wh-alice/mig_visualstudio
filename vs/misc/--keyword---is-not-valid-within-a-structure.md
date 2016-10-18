@@ -1,7 +1,7 @@
 ---
 title: "&#39;&lt;keyword&gt;&#39; is not valid within a structure"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,7 +44,7 @@ Structures are value types, not reference types. A structure is not an instance 
 -   Change the structure to a class, or remove the keyword from the procedure.  
   
 ## See Also  
- [Me](http://msdn.microsoft.com/a65973c7-cf06-4547-9b25-9fba885525c2)   
- [MyClass - delete](http://msdn.microsoft.com/5db36f9b-f796-4b6a-ba34-cac1fde6eb62)   
- [MyBase - delete](http://msdn.microsoft.com/52491d06-6451-4f6f-9aa6-8fab59bbc2b9)   
+ [Me](http://msdn.microsoft.com/en-us/a65973c7-cf06-4547-9b25-9fba885525c2)   
+ [MyClass - delete](http://msdn.microsoft.com/en-us/5db36f9b-f796-4b6a-ba34-cac1fde6eb62)   
+ [MyBase - delete](http://msdn.microsoft.com/en-us/52491d06-6451-4f6f-9aa6-8fab59bbc2b9)   
  [Inheritance Basics](../Topic/Inheritance%20Basics%20\(Visual%20Basic\).md)

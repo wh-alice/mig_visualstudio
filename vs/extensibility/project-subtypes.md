@@ -1,7 +1,7 @@
 ---
 title: "Project Subtypes"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -48,7 +48,7 @@ Project subtypes let you customize or flavor the behavior of the project systems
  Provides detailed descriptions of the features and methods most frequently extended by using project subtypes.  
   
  [Persisting Data in the MSBuild Project File](../extensibility/persisting-data-in-the-msbuild-project-file.md)  
- Describes how to persist data in a project file and how to use \<xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment> to maintain the data in the project file across the project subtype aggregation levels.  
+ Describes how to persist data in a project file and how to use <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment> to maintain the data in the project file across the project subtype aggregation levels.  
   
  [Project Property User Interface](../extensibility/project-property-user-interface.md)  
  Describes how project subtypes can modify the project **Property Pages** dialog box.  
@@ -63,7 +63,7 @@ Project subtypes let you customize or flavor the behavior of the project systems
  Explains how a project subtype can save and retrieve subtype-specific data in the project file by using the Managed Package Framework (MPF).  
   
  [Handling Specialized Deployment](../extensibility/handling-specialized-deployment.md)  
- Explains how project subtypes can supply specialized deployment behavior by implementing the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployableProjectCfg> interface.  
+ Explains how project subtypes can supply specialized deployment behavior by implementing the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployableProjectCfg> interface.  
   
  [Adding and Removing Property Pages](../extensibility/adding-and-removing-property-pages.md)  
  Describes adding and removing property pages in Project Designer.  

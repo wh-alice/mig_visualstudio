@@ -1,7 +1,7 @@
 ---
 title: "The referenced component &#39;component&#39; could not be found. &lt;reason&gt;"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -33,7 +33,7 @@ translation.priority.ht:
 # The referenced component &#39;component&#39; could not be found. &lt;reason&gt;
 The project system could not resolve a particular reference. Double-clicking this Task List item will set focus to Solution Explorer and select the reference that could not be resolved.  
   
- Edit the [ReferencePaths](http://msdn.microsoft.com/8e549b39-7256-456a-8fd7-089b23facf9c) property such that appropriate directories are included in the path.  
+ Edit the [ReferencePaths](http://msdn.microsoft.com/en-us/8e549b39-7256-456a-8fd7-089b23facf9c) property such that appropriate directories are included in the path.  
   
  This error can occur if you move a project to another computer. The `ReferencePath` property is stored as an absolute path. If reference R1 resides in c:\R\R1.dll on computer A, the .vbproj.user or .csproj.user file will store c:\R as part of the `ReferencePath` property. If, however, on computer B, R1 resides in d:\R\R1.dll, the project system will not be able to find R1 because d:\R is not on the reference path.  
   

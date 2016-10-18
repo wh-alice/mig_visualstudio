@@ -1,7 +1,7 @@
 ---
 title: "Unable to create a .NET Runtime interface: &lt;error&gt;"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -48,4 +48,4 @@ There was an internal compiler error creating an interface, or a method call on 
 3.  If the error persists after reinstallation, notify Microsoft Product Support Services.  
   
 ## See Also  
- [PAVEOVER Product Support and Accessibility](http://msdn.microsoft.com/14e1d293-7b6d-40a6-bf3e-a92f8ee6c88c)
+ [PAVEOVER Product Support and Accessibility](http://msdn.microsoft.com/en-us/14e1d293-7b6d-40a6-bf3e-a92f8ee6c88c)

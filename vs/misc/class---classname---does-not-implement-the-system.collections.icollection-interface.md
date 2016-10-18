@@ -1,7 +1,7 @@
 ---
 title: "Class &#39;&lt;classname&gt;&#39; does not implement the System.Collections.ICollection interface"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,4 +39,4 @@ The class does not implement the `System.Collections.ICollection` interface, whi
 1.  Reinstall [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
   
 ## See Also  
- \<xref:System.Collections.ICollection>
+ <xref:System.Collections.ICollection>

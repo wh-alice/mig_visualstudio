@@ -1,7 +1,7 @@
 ---
 title: "How to: Display Line Numbers in the Editor"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -38,7 +38,7 @@ translation.priority.mt:
 You can display or hide line numbering in your code.  
   
 > [!NOTE]
->  Depending on your active settings, the dialog boxes and menu commands that appear might differ from the ones that are described here. To change your settings, open **Tools / Import and Export Settings**. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  Depending on your active settings, the dialog boxes and menu commands that appear might differ from the ones that are described here. To change your settings, open **Tools / Import and Export Settings**. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## Display Line Numbers in Code  
  Line numbers aren't added to your code; they're just for reference. If you want line numbers to print, in the **Print** dialog box, select the **Include line numbers** check box.  

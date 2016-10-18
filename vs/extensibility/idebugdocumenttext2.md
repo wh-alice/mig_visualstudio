@@ -1,7 +1,7 @@
 ---
 title: "IDebugDocumentText2"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -56,7 +56,7 @@ IDebugDocumentText2 : IDebugDocument2
 |[GetText](../extensibility/idebugdocumenttext2--gettext.md)|Retrieves the text from the specified position in the document.|  
   
 ## Remarks  
- An object that implements this interface must also implement the \<xref:System.Runtime.InteropServices.ComTypes.IConnectionPointContainer> interface, which supplies the \<xref:System.Runtime.InteropServices.ComTypes.IConnectionPoint> interface for an [IDebugDocumentTextEvents2](../extensibility/idebugdocumenttextevents2.md) object.  
+ An object that implements this interface must also implement the <xref:System.Runtime.InteropServices.ComTypes.IConnectionPointContainer> interface, which supplies the <xref:System.Runtime.InteropServices.ComTypes.IConnectionPoint> interface for an [IDebugDocumentTextEvents2](../extensibility/idebugdocumenttextevents2.md) object.  
   
 ## Requirements  
  Header: msdbg.h  

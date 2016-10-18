@@ -1,7 +1,7 @@
 ---
 title: "L2DBForm.xaml Source Code"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -33,39 +33,39 @@ translation.priority.mt:
 This topic contains and describes the XAML source file for the [WPF Data Binding Using LINQ to XML Example](../designers/wpf-data-binding-using-linq-to-xml-example.md), L2DBForm.xaml.  
   
 ## Overall UI Structure  
- As is typical for a WPF project, this file contains one parent element, a \<xref:System.Windows.Window> XML element associated with the derived class `L2XDBFrom` in the `LinqToXmlDataBinding` namespace.  
+ As is typical for a WPF project, this file contains one parent element, a <xref:System.Windows.Window> XML element associated with the derived class `L2XDBFrom` in the `LinqToXmlDataBinding` namespace.  
   
- The client area is contained within a \<xref:System.Windows.Controls.StackPanel> that is given a light blue background. This panel contains four \<xref:System.Windows.Controls.DockPanel> UI sections separated by \<xref:System.Windows.Controls.Separator> bars. The purpose of these sections is described in the **Remarks** in the [previous topic](../designers/walkthrough--linqtoxmldatabinding-example.md).  
+ The client area is contained within a <xref:System.Windows.Controls.StackPanel> that is given a light blue background. This panel contains four <xref:System.Windows.Controls.DockPanel> UI sections separated by <xref:System.Windows.Controls.Separator> bars. The purpose of these sections is described in the **Remarks** in the [previous topic](../designers/walkthrough--linqtoxmldatabinding-example.md).  
   
- Each section contains a label that identifies it. In the first two sections, this label is rotated 90 degrees through the use of a \<xref:System.Windows.FrameworkElement.LayoutTransform*>. The remainder of the section contains UI elements appropriate to the purpose of that section: text blocks, text boxes, buttons, and so on. Sometimes a child \<xref:System.Windows.Controls.StackPanel> is used to align these child controls.  
+ Each section contains a label that identifies it. In the first two sections, this label is rotated 90 degrees through the use of a <xref:System.Windows.FrameworkElement.LayoutTransform*>. The remainder of the section contains UI elements appropriate to the purpose of that section: text blocks, text boxes, buttons, and so on. Sometimes a child <xref:System.Windows.Controls.StackPanel> is used to align these child controls.  
   
 ## Window Resource Section  
  The opening `<Window.Resources>` tag on line 9 indicates the start of the window resource section. It ends with the closing tag on line 35.  
   
- The `<ObjectDataProvider>` tag, which spans lines 11 through 25, declares a \<xref:System.Windows.Data.ObjectDataProvider>, named `LoadedBooks`, that uses an \<xref:System.Xml.Linq.XElement> as the source. This \<xref:System.Xml.Linq.XElement> is initialized by parsing an embedded XML document (a `CDATA` element). Notice that white space is preserved when declaring the embedded XML document and also when it is parsed. This was done because the \<xref:System.Windows.Controls.TextBlock> control, which is used to display the raw XML, has no special XML formatting capabilities.  
+ The `<ObjectDataProvider>` tag, which spans lines 11 through 25, declares a <xref:System.Windows.Data.ObjectDataProvider>, named `LoadedBooks`, that uses an <xref:System.Xml.Linq.XElement> as the source. This <xref:System.Xml.Linq.XElement> is initialized by parsing an embedded XML document (a `CDATA` element). Notice that white space is preserved when declaring the embedded XML document and also when it is parsed. This was done because the <xref:System.Windows.Controls.TextBlock> control, which is used to display the raw XML, has no special XML formatting capabilities.  
   
- Lastly, a \<xref:System.Windows.DataTemplate> named `BookTemplate` is defined on lines 28 through 34. This template will be used to display the entries in the **Book List** UI section. It uses data binding and LINQ to XML dynamic properties to retrieve the book ID and book name through the following assignments:  
+ Lastly, a <xref:System.Windows.DataTemplate> named `BookTemplate` is defined on lines 28 through 34. This template will be used to display the entries in the **Book List** UI section. It uses data binding and LINQ to XML dynamic properties to retrieve the book ID and book name through the following assignments:  
   
 ```  
 Text="{Binding Path=Attribute[id].Value}"Text="{Binding Path=Value}"  
 ```  
   
 ## Data Binding Code  
- In addition to the \<xref:System.Windows.DataTemplate> element, data binding is used in a number of other places in this file.  
+ In addition to the <xref:System.Windows.DataTemplate> element, data binding is used in a number of other places in this file.  
   
- In the opening `<StackPanel>` tag on line 38, the \<xref:System.Windows.FrameworkElement.DataContext*> property of this panel is set to the `LoadedBooks` data provider.  
+ In the opening `<StackPanel>` tag on line 38, the <xref:System.Windows.FrameworkElement.DataContext*> property of this panel is set to the `LoadedBooks` data provider.  
   
 ```  
 DataContext="{Binding Source={StaticResource LoadedBooks}}  
 ```  
   
- This makes it possible (on line 46) for the \<xref:System.Windows.Controls.TextBlock> named `tbRawXml` to display the raw XML by binding to this data provider's `Xml` property:  
+ This makes it possible (on line 46) for the <xref:System.Windows.Controls.TextBlock> named `tbRawXml` to display the raw XML by binding to this data provider's `Xml` property:  
   
 ```  
 Text="{Binding Path=Xml}"   
 ```  
   
- The \<xref:System.Windows.Controls.ListBox> in the **Book List** UI section, on lines 58 through 62, sets the template for its display items to the `BookTemplate` defined in the window resource section:  
+ The <xref:System.Windows.Controls.ListBox> in the **Book List** UI section, on lines 58 through 62, sets the template for its display items to the `BookTemplate` defined in the window resource section:  
   
 ```  
 ItemTemplate ="{StaticResource BookTemplate}"   
@@ -79,7 +79,7 @@ ItemTemplate ="{StaticResource BookTemplate}"
 </ListBox.ItemsSource>  
 ```  
   
- The third UI section, **Edit Selected Book**, first binds the \<xref:System.Windows.FrameworkElement.DataContext*> of the parent \<xref:System.Windows.Controls.StackPanel> to the currently selected item in from the **Book List** UI section (line 82):  
+ The third UI section, **Edit Selected Book**, first binds the <xref:System.Windows.FrameworkElement.DataContext*> of the parent <xref:System.Windows.Controls.StackPanel> to the currently selected item in from the **Book List** UI section (line 82):  
   
 ```  
 DataContext="{Binding ElementName=lbBooks, Path=SelectedItem}"  

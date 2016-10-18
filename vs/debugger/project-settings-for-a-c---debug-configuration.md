@@ -1,7 +1,7 @@
 ---
 title: "Project Settings for a C++ Debug Configuration"
 ms.custom: na
-ms.date: "10/07/2016"
+ms.date: "10/17/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -189,7 +189,7 @@ You can change the project settings for a C or Visual C++ debug configuration in
 |**Map Exports** ([/MAPINFO:EXPORTS](../Topic/-MAPINFO%20\(Include%20Information%20in%20Mapfile\).md))|Includes exported functions in the map file. Default setting is No. For more information, see [/MAPINFO (Include Information in Mapfile)](../Topic/-MAPINFO%20\(Include%20Information%20in%20Mapfile\).md).|  
 |**Debuggable Assembly** ([/ASSEMBLYDEBUG](../Topic/-MAPINFO%20\(Include%20Information%20in%20Mapfile\).md))|Specifies settings for the Linker /ASSEMBLYDEBUG option. Possible values are as follows:<br /><br /> -   **No debuggable attribute emitted**.<br />-   **Runtime tracking and disable optimizations (/ASSEMBLYDEBUG)**. This is the default setting,<br />-   **No runtime tracking and enable optimizations(/ASSEMBLYDEBUG:DISABLE)**.<br />-   **\<inherit from parent or project defaults>**.<br />-   For more information, see [/ASSEMBLYDEBUG (Add DebuggableAttribute)](../Topic/-ASSEMBLYDEBUG%20\(Add%20DebuggableAttribute\).md).|  
   
- You can change these settings in the Configuration Properties folder (Debug category) programmatically by using the Microsoft.VisualStudio.VCProjectEngine.VCDebugSettings interface. For more information, see \<xref:Microsoft.VisualStudio.VCProjectEngine.VCDebugSettings>.  
+ You can change these settings in the Configuration Properties folder (Debug category) programmatically by using the Microsoft.VisualStudio.VCProjectEngine.VCDebugSettings interface. For more information, see <xref:Microsoft.VisualStudio.VCProjectEngine.VCDebugSettings>.  
   
 ## See Also  
  [Debugging Native Code](../debugger/debugging-native-code.md)   

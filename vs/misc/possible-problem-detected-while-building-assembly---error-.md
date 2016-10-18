@@ -1,7 +1,7 @@
 ---
 title: "Possible problem detected while building assembly: &lt;error&gt;"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -52,4 +52,4 @@ The ALink tool, called by the [!INCLUDE[vbprvb](../codequality/includes/vbprvb_m
 4.  If the error persists after reinstallation, gather information about the circumstances and notify Microsoft Product Support Services.  
   
 ## See Also  
- [PAVEOVER Product Support and Accessibility](http://msdn.microsoft.com/14e1d293-7b6d-40a6-bf3e-a92f8ee6c88c)
+ [PAVEOVER Product Support and Accessibility](http://msdn.microsoft.com/en-us/14e1d293-7b6d-40a6-bf3e-a92f8ee6c88c)

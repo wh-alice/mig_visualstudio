@@ -1,7 +1,7 @@
 ---
 title: "Customizing Element Tools"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -32,7 +32,7 @@ In some DSL Definitions, you represent a single concept as a group of elements. 
  You can also override what happens when the tool is dragged onto the diagram or an element.  
   
 ## Customizing the Content of an Element Tool  
- Each element tool stores an instance of an \<xref:Microsoft.VisualStudio.Modeling.ElementGroupPrototype> (EGP), which contains a serialized version of one or more model elements and links. By default, the EGP of an element tool contains one instance of the class that you specify for the tool. You can change this by overriding *YourLanguage*`ToolboxHelper.CreateElementToolPrototype`. This method is called when the DSL package is loaded.  
+ Each element tool stores an instance of an <xref:Microsoft.VisualStudio.Modeling.ElementGroupPrototype> (EGP), which contains a serialized version of one or more model elements and links. By default, the EGP of an element tool contains one instance of the class that you specify for the tool. You can change this by overriding *YourLanguage*`ToolboxHelper.CreateElementToolPrototype`. This method is called when the DSL package is loaded.  
   
  A parameter of the method is the ID of the class that you specified in the DSL Definition. When the method is called with the class that you are interested in, you can add extra elements into the EGP.  
   

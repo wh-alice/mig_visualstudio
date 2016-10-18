@@ -1,7 +1,7 @@
 ---
 title: "&#39;NotInheritable&#39; classes cannot have members declared &#39;&lt;specifiername&gt;&#39;"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -47,4 +47,4 @@ Override modifiers cannot be used with `NotInheritable` classes because their me
  [Overridable](../Topic/Overridable%20\(Visual%20Basic\).md)   
  [NotOverridable](../Topic/NotOverridable%20\(Visual%20Basic\).md)   
  [MustOverride](../Topic/MustOverride%20\(Visual%20Basic\).md)   
- [NOT IN BUILD: Overriding Properties and Methods](http://msdn.microsoft.com/2167e8f5-1225-4b13-9ebd-02591ba90213)
+ [NOT IN BUILD: Overriding Properties and Methods](http://msdn.microsoft.com/en-us/2167e8f5-1225-4b13-9ebd-02591ba90213)

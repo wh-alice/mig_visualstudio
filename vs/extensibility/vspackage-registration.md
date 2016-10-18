@@ -1,7 +1,7 @@
 ---
 title: "VSPackage Registration"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -70,4 +70,4 @@ VSPackages must advise [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] 
   
 ## See Also  
  [Windows Installer](http://msdn.microsoft.com/library/cc185688\(VS.85\).aspx)   
- [Managed Package Registration](http://msdn.microsoft.com/f69e0ea3-6a92-4639-8ca9-4c9c210e58a1)
+ [Managed Package Registration](http://msdn.microsoft.com/en-us/f69e0ea3-6a92-4639-8ca9-4c9c210e58a1)

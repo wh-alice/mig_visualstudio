@@ -1,7 +1,7 @@
 ---
 title: "How to: Upgrade from a Trial Edition of Visual Studio"
 ms.custom: na
-ms.date: "10/12/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -58,4 +58,4 @@ You can evaluate the pre-release version of Visual Studio for 14 days without re
  [Signing in to Visual Studio](../ide/signing-in-to-visual-studio.md)   
  [How to: Locate the Visual Studio Product Key](../install/how-to--locate-the-visual-studio-product-key.md)   
  [Locate or Change the Product Key for Team Foundation Server](../Topic/Locate%20or%20Change%20the%20Product%20Key%20for%20Team%20Foundation%20Server.md)   
- [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)
+ [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)

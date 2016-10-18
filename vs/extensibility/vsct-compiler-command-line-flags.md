@@ -1,7 +1,7 @@
 ---
 title: "VSCT Compiler Command-Line Flags"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -71,11 +71,11 @@ Syntax: vsct <infile> [<outfile>] [-S[symbols file]] [-D<preprocessor-define>]*
 |------------|-----------------|  
 |-D|Specify any additional defined symbols.|  
 |-I|Indicate the additional include paths that should be used when resolving file references.|  
-|-L|Specify the \<xref:System.Globalization.CultureInfo> culture name, for example "en-US".|  
+|-L|Specify the <xref:System.Globalization.CultureInfo> culture name, for example "en-US".|  
 |-E|Emit C# objects in the specified namespace for command items, followed by [C&#124;H&#124;N]:*filename*where C = C#, H = C++ header, N = namespace. The namespace is required for C#.|  
 |-v|Verbose output.|  
   
- The -L switch instructs the compiler to select a group of strings to produce the binary .cto file that corresponds to the given \<xref:System.Globalization.CultureInfo> culture name. The specified culture name should match the Language attribute of one or more [Strings Element](../extensibility/strings-element.md) in the .vsct file. If a Strings element has no Language attribute, it is inherited from the containing [CommandTable Element](../extensibility/commandtable-element.md).  
+ The -L switch instructs the compiler to select a group of strings to produce the binary .cto file that corresponds to the given <xref:System.Globalization.CultureInfo> culture name. The specified culture name should match the Language attribute of one or more [Strings Element](../extensibility/strings-element.md) in the .vsct file. If a Strings element has no Language attribute, it is inherited from the containing [CommandTable Element](../extensibility/commandtable-element.md).  
   
  A .vsct file may have multiple Strings elements, and each may have a different Language attribute. Globalization is achieved by running the VSCT compiler multiple times and changing the -L switch for each culture name.  
   

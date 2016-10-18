@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.Data.MissingPrimaryKeyException"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -36,5 +36,5 @@ translation.priority.mt:
 The exception that is thrown when attempting to access a row in a table that has no primary key.  
   
 ## See Also  
- \<xref:System.Data.MissingPrimaryKeyException>   
+ <xref:System.Data.MissingPrimaryKeyException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

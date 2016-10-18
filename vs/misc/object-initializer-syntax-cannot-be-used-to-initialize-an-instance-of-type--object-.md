@@ -1,7 +1,7 @@
 ---
 title: "Object initializer syntax cannot be used to initialize an instance of type &#39;Object&#39;"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na

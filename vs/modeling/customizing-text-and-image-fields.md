@@ -1,7 +1,7 @@
 ---
 title: "Customizing Text and Image Fields"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -183,9 +183,9 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
 ```  
   
 ## Style sets  
- The preceding example shows how you can change the text field to any font that is available. However, a preferable method is to change it to one of a set of styles that is associated with the shape or with the application. To do this, you override \<xref:Microsoft.VisualStudio.Modeling.Diagrams.TextField.GetFontId*> or GetTextBrushId().  
+ The preceding example shows how you can change the text field to any font that is available. However, a preferable method is to change it to one of a set of styles that is associated with the shape or with the application. To do this, you override <xref:Microsoft.VisualStudio.Modeling.Diagrams.TextField.GetFontId*> or GetTextBrushId().  
   
- Alternatively, consider changing the style set of your shape by overriding \<xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement.InitializeResources*>. This has the effect of changing the fonts and brushes for all of the shape fields.  
+ Alternatively, consider changing the style set of your shape by overriding <xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement.InitializeResources*>. This has the effect of changing the fonts and brushes for all of the shape fields.  
   
 ## Customizing Image Fields  
  When you define an image decorator in a shape, and when you define an image shape, the area in which the shape is displayed is managed by an ImageField. For examples of the initialization of ImageFields and other ShapeFields, inspect Dsl\GeneratedCode\Shapes.cs in your DSL solution.  

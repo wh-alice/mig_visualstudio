@@ -1,7 +1,7 @@
 ---
 title: "&#39;Wend&#39; statements are no longer supported; use &#39;End While&#39; statements instead"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na

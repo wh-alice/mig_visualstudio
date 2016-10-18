@@ -1,7 +1,7 @@
 ---
 title: "&#39;Class_Initialize&#39; event is no longer supported"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -48,6 +48,6 @@ translation.priority.mt:
 -   Declare one or more `Sub` procedures named `New` to initialize a class. `Sub New` is called when a class instance is newly created.  
   
 ## See Also  
- [Class_Initialize Changes in Visual Basic](http://msdn.microsoft.com/2cd023cf-2869-4836-b08d-43822294beeb)   
- [Classes for Visual Basic 6.0 Users](http://msdn.microsoft.com/d625222c-cd32-4c8d-b25c-ea71729b88b7)   
- [NOT IN BUILD: Using Constructors and Destructors](http://msdn.microsoft.com/548eebe1-86c4-4377-b2f5-447cb8be3d90)
+ [Class_Initialize Changes in Visual Basic](http://msdn.microsoft.com/en-us/2cd023cf-2869-4836-b08d-43822294beeb)   
+ [Classes for Visual Basic 6.0 Users](http://msdn.microsoft.com/en-us/d625222c-cd32-4c8d-b25c-ea71729b88b7)   
+ [NOT IN BUILD: Using Constructors and Destructors](http://msdn.microsoft.com/en-us/548eebe1-86c4-4377-b2f5-447cb8be3d90)

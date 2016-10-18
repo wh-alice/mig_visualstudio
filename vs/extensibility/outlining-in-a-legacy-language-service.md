@@ -1,7 +1,7 @@
 ---
 title: "Outlining in a Legacy Language Service"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -43,21 +43,21 @@ Outlining makes it possible to collapse a complex program into an overview or ou
 ## Enabling Support for Outlining  
  The `AutoOutlining` registry entry is set to 1 to enable automatic outlining. Automatic outlining sets up a parse of the whole source when a file is loaded or changed in order to identify hidden regions and show the outlining glyphs. Outlining can also be controlled manually by the user.  
   
- The value of the `AutoOutlining` registry entry can be obtained through the \<xref:Microsoft.VisualStudio.Package.LanguagePreferences.AutoOutlining*> property on the \<xref:Microsoft.VisualStudio.Package.LanguagePreferences> class. The `AutoOutlining` registry entry can be initialized with a named parameter to the \<xref:Microsoft.VisualStudio.Shell.ProvideLanguageServiceAttribute> attribute (see [Registering a Legacy Language Service](../extensibility/registering-a-legacy-language-service1.md) for details).  
+ The value of the `AutoOutlining` registry entry can be obtained through the <xref:Microsoft.VisualStudio.Package.LanguagePreferences.AutoOutlining*> property on the <xref:Microsoft.VisualStudio.Package.LanguagePreferences> class. The `AutoOutlining` registry entry can be initialized with a named parameter to the <xref:Microsoft.VisualStudio.Shell.ProvideLanguageServiceAttribute> attribute (see [Registering a Legacy Language Service](../extensibility/registering-a-legacy-language-service1.md) for details).  
   
 ## The Hidden Region  
  To provide outlining, your language service must support hidden regions. These are spans of text that can be expanded or collapsed. Hidden regions can be delimited by standard language symbols, such as curly braces, or by custom symbols. For example, C# has a `#region`/`#endregion` pair that delimits a hidden region.  
   
- Hidden regions are managed by a hidden region manager, which is exposed as the \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsHiddenTextSession> interface.  
+ Hidden regions are managed by a hidden region manager, which is exposed as the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsHiddenTextSession> interface.  
   
- Outlining uses hidden regions the \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsHiddenRegion> interface and contain the span of the hidden region, the current visible state, and the banner to be shown when the span is collapsed.  
+ Outlining uses hidden regions the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsHiddenRegion> interface and contain the span of the hidden region, the current visible state, and the banner to be shown when the span is collapsed.  
   
- The language service parser uses the \<xref:Microsoft.VisualStudio.Package.AuthoringSink.AddHiddenRegion*> method to add a new hidden region with the default behavior for hidden regions, while the \<xref:Microsoft.VisualStudio.Package.AuthoringSink.AddHiddenRegion*> method allows you to customize the appearance and behavior of the outline. Once hidden regions are given to the hidden region session, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] manages the hidden regions for the language service.  
+ The language service parser uses the <xref:Microsoft.VisualStudio.Package.AuthoringSink.AddHiddenRegion*> method to add a new hidden region with the default behavior for hidden regions, while the <xref:Microsoft.VisualStudio.Package.AuthoringSink.AddHiddenRegion*> method allows you to customize the appearance and behavior of the outline. Once hidden regions are given to the hidden region session, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] manages the hidden regions for the language service.  
   
- If you need to determine when the hidden region session is destroyed, a hidden region is changed, or you need to make sure a particular hidden region is visible; you must derive a class from the \<xref:Microsoft.VisualStudio.Package.Source> class and override the appropriate methods, \<xref:Microsoft.VisualStudio.Package.Source.OnBeforeSessionEnd*>, \<xref:Microsoft.VisualStudio.Package.Source.OnHiddenRegionChange*>, and \<xref:Microsoft.VisualStudio.Package.Source.MakeBaseSpanVisible*>, respectively.  
+ If you need to determine when the hidden region session is destroyed, a hidden region is changed, or you need to make sure a particular hidden region is visible; you must derive a class from the <xref:Microsoft.VisualStudio.Package.Source> class and override the appropriate methods, <xref:Microsoft.VisualStudio.Package.Source.OnBeforeSessionEnd*>, <xref:Microsoft.VisualStudio.Package.Source.OnHiddenRegionChange*>, and <xref:Microsoft.VisualStudio.Package.Source.MakeBaseSpanVisible*>, respectively.  
   
 ### Example  
- Here is a simplified example of creating hidden regions for all pairs of curly braces. It is assumed that the language provides brace matching, and that the braces to be matched include at least the curly braces ({ and }). This approach is for illustrative purposes only. A full implementation would have a complete handling of cases in \<xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource*>. This example also shows how to set the \<xref:Microsoft.VisualStudio.Package.LanguagePreferences.AutoOutlining*> preference to `true` temporarily. An alternative is to specify the `AutoOutlining` named parameter in the `ProvideLanguageServiceAttribute` attribute in your language package.  
+ Here is a simplified example of creating hidden regions for all pairs of curly braces. It is assumed that the language provides brace matching, and that the braces to be matched include at least the curly braces ({ and }). This approach is for illustrative purposes only. A full implementation would have a complete handling of cases in <xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource*>. This example also shows how to set the <xref:Microsoft.VisualStudio.Package.LanguagePreferences.AutoOutlining*> preference to `true` temporarily. An alternative is to specify the `AutoOutlining` named parameter in the `ProvideLanguageServiceAttribute` attribute in your language package.  
   
  This example assumes C# rules for comments, strings, and literals.  
   

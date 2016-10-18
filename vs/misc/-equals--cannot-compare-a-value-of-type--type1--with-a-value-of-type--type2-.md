@@ -1,7 +1,7 @@
 ---
 title: "&#39;Equals&#39; cannot compare a value of type &lt;type1&gt; with a value of type &lt;type2&gt;"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -45,7 +45,7 @@ An `Equals` operator in a `Join` or `Group Join` clause has attempted to compare
   
     -   Use the `CType` function to convert one or more of the values to a specific type.  
   
-    -   Use the \<xref:System.Convert> class or conversion methods to convert one or more of the values to a common, immutable type.  
+    -   Use the <xref:System.Convert> class or conversion methods to convert one or more of the values to a common, immutable type.  
   
     -   Convert the values to strings by using the `ToString` method.  
   

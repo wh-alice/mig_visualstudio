@@ -1,7 +1,7 @@
 ---
 title: "&#39;Structure&#39; constraint and a specific class type constraint cannot be combined"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -35,7 +35,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # &#39;Structure&#39; constraint and a specific class type constraint cannot be combined
-A constraint list includes both the [Structure (Visual Basic)](http://msdn.microsoft.com/263ce115-ac36-4c05-8cb7-0e0eead5c6d0) constraint and the name of a defined class.  
+A constraint list includes both the [Structure (Visual Basic)](http://msdn.microsoft.com/en-us/263ce115-ac36-4c05-8cb7-0e0eead5c6d0) constraint and the name of a defined class.  
   
  A constraint list imposes requirements on the type argument passed to the type parameter. You can specify the following requirements in any combination:  
   

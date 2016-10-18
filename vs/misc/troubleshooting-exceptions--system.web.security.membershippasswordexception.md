@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.Web.Security.MembershipPasswordException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -38,5 +38,5 @@ translation.priority.mt:
 The exception that is thrown when a password cannot be retrieved from the password store.  
   
 ## See Also  
- \<xref:System.Web.Security.MembershipPasswordException>   
+ <xref:System.Web.Security.MembershipPasswordException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

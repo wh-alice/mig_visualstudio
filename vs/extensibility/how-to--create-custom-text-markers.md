@@ -1,7 +1,7 @@
 ---
 title: "How to: Create Custom Text Markers"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -68,7 +68,7 @@ If you want to create a custom text marker to emphasize or organize code, you mu
   
     -   `Default` is an optional entry of type REG_SZ. When set, the value of the entry is a string containing some useful identifying information, for example "Custom Text Marker".  
   
-    -   `Service` is an entry of type REG_SZ containing the GUID string of the service that provides the custom text marker by proffering \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerTypeProvider>. The format is {XXXXXX XXXX XXXX XXXX XXXXXXXXX}.  
+    -   `Service` is an entry of type REG_SZ containing the GUID string of the service that provides the custom text marker by proffering <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerTypeProvider>. The format is {XXXXXX XXXX XXXX XXXX XXXXXXXXX}.  
   
     -   `DisplayName` is an entry of type REG_SZ containing the resource ID of the name of the custom text marker. The format is #YYYY.  
   
@@ -76,7 +76,7 @@ If you want to create a custom text marker to emphasize or organize code, you mu
   
 ### To create a custom text marker  
   
-1.  Implement the \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsPackageDefinedTextMarkerType> interface.  
+1.  Implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsPackageDefinedTextMarkerType> interface.  
   
      Your implementation of this interface defines the behavior and appearance of your custom marker type.  
   
@@ -86,19 +86,19 @@ If you want to create a custom text marker to emphasize or organize code, you mu
   
     2.  A user selects the **Reset Defaults** button under the **Fonts and Colors** property page in the **Environment** folder, located on the left pane of the **Options** dialog box obtained from the **Tools** menu of the IDE.  
   
-2.  Implement the \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerTypeProvider.GetTextMarkerType*> method, specifying which `IVsPackageDefinedTextMarkerType` implementation should be returned based on the marker type GUID specified in the method call.  
+2.  Implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerTypeProvider.GetTextMarkerType*> method, specifying which `IVsPackageDefinedTextMarkerType` implementation should be returned based on the marker type GUID specified in the method call.  
   
      The environment calls this method the first time your custom marker type is created, and specifies a GUID identifying the custom marker type.  
   
 ### To proffer your marker type as a service  
   
-1.  Call the \<xref:Microsoft.VisualStudio.OLE.Interop.IOleComponentManager.QueryService*> method for \<xref:Microsoft.VisualStudio.Shell.Interop.SProfferService>.  
+1.  Call the <xref:Microsoft.VisualStudio.OLE.Interop.IOleComponentManager.QueryService*> method for <xref:Microsoft.VisualStudio.Shell.Interop.SProfferService>.  
   
-     A pointer to \<xref:Microsoft.VisualStudio.Shell.Interop.IProfferService> is returned.  
+     A pointer to <xref:Microsoft.VisualStudio.Shell.Interop.IProfferService> is returned.  
   
-2.  Call the \<xref:Microsoft.VisualStudio.Shell.Interop.IProfferService.ProfferService*> method, specifying the GUID identifying your custom marker type service and providing a pointer to your implementation of the \<xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider> interface. Your \<xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider> implementation should return a pointer to your implementation of \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerTypeProvider> interface.  
+2.  Call the <xref:Microsoft.VisualStudio.Shell.Interop.IProfferService.ProfferService*> method, specifying the GUID identifying your custom marker type service and providing a pointer to your implementation of the <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider> interface. Your <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider> implementation should return a pointer to your implementation of <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerTypeProvider> interface.  
   
-     A unique cookie identifying that your service is returned. You can later use this cookie to revoke your custom marker type service by calling the \<xref:Microsoft.VisualStudio.Shell.Interop.IProfferService.RevokeService*> method of the \<xref:Microsoft.VisualStudio.Shell.Interop.IProfferService> interface specifying this cookie value.  
+     A unique cookie identifying that your service is returned. You can later use this cookie to revoke your custom marker type service by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IProfferService.RevokeService*> method of the <xref:Microsoft.VisualStudio.Shell.Interop.IProfferService> interface specifying this cookie value.  
   
 ## See Also  
  [Using Text Markers with the Legacy API](../extensibility/using-text-markers-with-the-legacy-api.md)   

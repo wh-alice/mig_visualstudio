@@ -1,7 +1,7 @@
 ---
 title: "AsyncVoidMethodBuilder.ObjectIdForDebugger Property"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -33,7 +33,7 @@ translation.priority.mt:
 # AsyncVoidMethodBuilder.ObjectIdForDebugger Property
 Gets an object that may be used to uniquely identify this builder to the debugger.  
   
- **Namespace:** \<xref:System.Runtime.CompilerServices?displayProperty=fullName>  
+ **Namespace:** <xref:System.Runtime.CompilerServices?displayProperty=fullName>  
   
  **Assembly:** mscorlib (in mscorlib.dll)  
   
@@ -46,5 +46,5 @@ private object ObjectIdForDebugger
 ```  
   
 ## See Also  
- \<xref:System.Runtime.CompilerServices.AsyncVoidMethodBuilder>   
+ <xref:System.Runtime.CompilerServices.AsyncVoidMethodBuilder>   
  [Parallel Extension Internals for the .NET Framework](../extensibility/parallel-extension-internals-for-the-.net-framework.md)

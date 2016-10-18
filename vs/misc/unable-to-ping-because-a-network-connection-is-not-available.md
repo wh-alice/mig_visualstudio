@@ -1,7 +1,7 @@
 ---
 title: "Unable to ping because a network connection is not available"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,7 +39,7 @@ The operation cannot be performed because no network connection is available.
 -   Connect to the network and reattempt the operation.  
   
 ## See Also  
- [My.Computer.Network.Ping Method](http://msdn.microsoft.com/5f1eff72-3882-44a4-8234-ac21daac464c)   
- [My.Computer.Network.IsAvailable Property](http://msdn.microsoft.com/29f9361e-8c62-4d2e-a4f0-44b2dc43b9aa)   
- [Network Operations in the .NET Framework with Visual Basic](http://msdn.microsoft.com/c5379021-44ef-4d6a-acf5-e951fdcab6b2)   
+ [My.Computer.Network.Ping Method](http://msdn.microsoft.com/en-us/5f1eff72-3882-44a4-8234-ac21daac464c)   
+ [My.Computer.Network.IsAvailable Property](http://msdn.microsoft.com/en-us/29f9361e-8c62-4d2e-a4f0-44b2dc43b9aa)   
+ [Network Operations in the .NET Framework with Visual Basic](http://msdn.microsoft.com/en-us/c5379021-44ef-4d6a-acf5-e951fdcab6b2)   
  [My.Computer.Network Object](../Topic/My.Computer.Network%20Object.md)

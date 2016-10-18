@@ -1,7 +1,7 @@
 ---
 title: "How to: Migrate a Domain-Specific Language to a New Version"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -72,7 +72,7 @@ You can migrate projects that define and use domain-specific language to [!INCLU
     2.  Click the **Transform All Templates** button in the header of Solution Explorer.  
   
         > [!NOTE]
-        >  You can make this step unnecessary. For more information, see [How to Automate Transform All Templates](http://msdn.microsoft.com/b63cfe20-fe5e-47cc-9506-59b29bca768a).  
+        >  You can make this step unnecessary. For more information, see [How to Automate Transform All Templates](http://msdn.microsoft.com/en-us/b63cfe20-fe5e-47cc-9506-59b29bca768a).  
   
 6.  Update your custom code in the converted projects.  
   

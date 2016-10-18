@@ -1,7 +1,7 @@
 ---
 title: "Loop control variable of type &#39;&lt;typename&gt;&#39; does not implement the &#39;System.IComparable&#39; interface"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,4 +39,4 @@ A variable is of a type that does not implement the `System.IComparable` interfa
 1.  Ensure that the variable is a value type.  
   
 ## See Also  
- \<xref:System.IComparable>
+ <xref:System.IComparable>

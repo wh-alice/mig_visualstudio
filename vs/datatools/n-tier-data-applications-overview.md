@@ -47,12 +47,12 @@ translation.priority.ht:
   
 -   The [LINQ to SQL Tools in Visual Studio](../datatools/linq-to-sql-tools-in-visual-studio2.md) provides settings to generate the DataContext and data classes into separate namespaces. This enables logical separation of the data access and data entity tiers.  
   
--   [LINQ to SQL](../Topic/LINQ%20to%20SQL.md) provides the \<xref:System.Data.Linq.Table`1.Attach*> method that enables you to bring together the DataContext from different tiers in an application. For more information, see [N-Tier and Remote Applications with LINQ to SQL](../Topic/N-Tier%20and%20Remote%20Applications%20with%20LINQ%20to%20SQL.md).  
+-   [LINQ to SQL](../Topic/LINQ%20to%20SQL.md) provides the <xref:System.Data.Linq.Table`1.Attach*> method that enables you to bring together the DataContext from different tiers in an application. For more information, see [N-Tier and Remote Applications with LINQ to SQL](../Topic/N-Tier%20and%20Remote%20Applications%20with%20LINQ%20to%20SQL.md).  
   
 ## Presentation Tier  
  The *presentation tier* is the tier in which users interact with an application. It often contains additional application logic also. Typical presentation tier components include the following:  
   
--   Data binding components, such as the \<xref:System.Windows.Forms.BindingSource> and \<xref:System.Windows.Forms.BindingNavigator>.  
+-   Data binding components, such as the <xref:System.Windows.Forms.BindingSource> and <xref:System.Windows.Forms.BindingNavigator>.  
   
 -   Object representations of data, such as [LINQ to SQL](../Topic/LINQ%20to%20SQL.md) entity classes for use in the presentation tier.  
   
@@ -100,7 +100,7 @@ Data tier
  [N-Tier and Remote Applications with LINQ to SQL](../Topic/N-Tier%20and%20Remote%20Applications%20with%20LINQ%20to%20SQL.md)  
   
 ## See Also  
- \<xref:System.Data.Linq.ITable.Attach*>   
+ <xref:System.Data.Linq.ITable.Attach*>   
  [Walkthrough: Creating an N-Tier Data Application](../datatools/walkthrough--creating-an-n-tier-data-application.md)   
  [Hierarchical update](../datatools/hierarchical-update.md)   
  [Dataset tools in Visual Studio](../datatools/dataset-tools-in-visual-studio.md)   

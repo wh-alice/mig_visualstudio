@@ -1,7 +1,7 @@
 ---
 title: "Removal of Source Control Information from .Proj and .Sln Files"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na

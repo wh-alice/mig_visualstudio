@@ -1,7 +1,7 @@
 ---
 title: "SetNotificationForWaitCompletion Method"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -33,7 +33,7 @@ translation.priority.mt:
 # SetNotificationForWaitCompletion Method
 Sets or clears the TASK_STATE_WAIT_COMPLETION_NOTIFICATION state bit.  
   
- **Namespace:** \<xref:System.Threading.Tasks?displayProperty=fullName>  
+ **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>  
   
  **Assembly:** mscorlib (in mscorlib.dll)  
   

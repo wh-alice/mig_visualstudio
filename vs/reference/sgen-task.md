@@ -1,7 +1,7 @@
 ---
 title: "SGen Task"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -54,7 +54,7 @@ Creates an XML serialization assembly for types in the specified assembly. This 
 |`Platform`|Optional `String` parameter.<br /><br /> Gets or Sets the Compiler Platform used to generate the output assembly. This parameter can have a value of `x86`, `x64`, or `anycpu`. Default is `anycpu`.|  
 |`References`|Optional `String[]` parameter.<br /><br /> Specifies the assemblies that are referenced by the types requiring XML serialization.|  
 |`SdkToolsPath`|Optional `String` parameter.<br /><br /> Specifies the path to the SDK tools, such as resgen.exe.|  
-|`SerializationAssembly`|Optional \<xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Contains the generated serialization assembly.|  
+|`SerializationAssembly`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Contains the generated serialization assembly.|  
 |`SerializationAssemblyName`|Optional `String` parameter.<br /><br /> Specifies the name of the generated serialization assembly.|  
 |`ShouldGenerateSerializer`|Required `Boolean` parameter.<br /><br /> If `true`, the SGen task should generate a serialization assembly.|  
 |`Timeout`|Optional `Int32` parameter.<br /><br /> Specifies the amount of time, in milliseconds, after which the task executable is terminated. The default value is `Int.MaxValue`, indicating that there is no time out period.|  
@@ -63,7 +63,7 @@ Creates an XML serialization assembly for types in the specified assembly. This 
 |`UseProxyTypes`|Required `Boolean` parameter.<br /><br /> If `true`, the SGen task generates serialization code only for the XML Web service proxy types.|  
   
 ## Remarks  
- In addition to the parameters listed above, this task inherits parameters from the \<xref:Microsoft.Build.Tasks.ToolTaskExtension> class, which itself inherits from the \<xref:Microsoft.Build.Utilities.ToolTask> class. For a list of these additional parameters and their descriptions, see [ToolTaskExtension Base Class](../reference/tooltaskextension-base-class.md).  
+ In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.ToolTask> class. For a list of these additional parameters and their descriptions, see [ToolTaskExtension Base Class](../reference/tooltaskextension-base-class.md).  
   
 ## See Also  
  [Task Reference](../reference/msbuild-task-reference.md)   

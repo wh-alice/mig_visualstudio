@@ -1,7 +1,7 @@
 ---
 title: "Resources in VSPackages"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -53,12 +53,12 @@ You can embed localized resources in native satellite UI DLLs, managed satellite
   
  Resources in a managed package are selected by resource ID. An exception is the CTO file, which must be named CTMENU. The CTO file must appear in the resource table as a `byte[]`. All other resource items are identified by type.  
   
- You can use the \<xref:Microsoft.VisualStudio.Shell.PackageRegistrationAttribute> attribute to indicate to [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] that managed resources are available.  
+ You can use the <xref:Microsoft.VisualStudio.Shell.PackageRegistrationAttribute> attribute to indicate to [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] that managed resources are available.  
   
  [!code[VSSDKResources#1](../extensibility/codesnippet/CSharp/resources-in-vspackages_1.cs)]
 [!code[VSSDKResources#1](../extensibility/codesnippet/VisualBasic/resources-in-vspackages_1.vb)]  
   
- Setting \<xref:Microsoft.VisualStudio.Shell.PackageRegistrationAttribute> in this manner indicates that [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] should ignore unmanaged satellite DLLs when it searches for resources, for example, by using \<xref:Microsoft.VisualStudio.Shell.Interop.IVsShell.LoadPackageString*>. If [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] encounters two or more resources that have the same resource ID, it uses the first resource it finds.  
+ Setting <xref:Microsoft.VisualStudio.Shell.PackageRegistrationAttribute> in this manner indicates that [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] should ignore unmanaged satellite DLLs when it searches for resources, for example, by using <xref:Microsoft.VisualStudio.Shell.Interop.IVsShell.LoadPackageString*>. If [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] encounters two or more resources that have the same resource ID, it uses the first resource it finds.  
   
 ## Example  
  The following example is a managed representation of a tool window icon.  

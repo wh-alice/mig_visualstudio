@@ -1,7 +1,7 @@
 ---
 title: "Specified registry path does not start with a valid hive name"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -52,5 +52,5 @@ The specified registry path does not begin with a valid hive name. Valid hive na
   
 ## See Also  
  [Manipulating Strings](../Topic/Manipulating%20Strings%20in%20the%20.NET%20Framework.md)   
- [Common Registry Tasks (Visual Basic)](http://msdn.microsoft.com/0bde9f77-b38b-4c76-bac2-ff6cda3087c4)   
+ [Common Registry Tasks (Visual Basic)](http://msdn.microsoft.com/en-us/0bde9f77-b38b-4c76-bac2-ff6cda3087c4)   
  [My.Computer.Registry Object](../Topic/My.Computer.Registry%20Object.md)

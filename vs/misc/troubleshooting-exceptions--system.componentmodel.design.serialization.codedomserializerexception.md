@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.ComponentModel.Design.Serialization.CodeDomSerializerException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,6 +39,6 @@ The exception that is thrown when the CodeDOM serializer encounters an error.
  This exception allows the serializer to return information about the location and type of the error.  
   
 ## See Also  
- \<xref:System.ComponentModel.Design.Serialization.CodeDomSerializerException>   
+ <xref:System.ComponentModel.Design.Serialization.CodeDomSerializerException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)   
- [CodeDOM Quick Reference](http://msdn.microsoft.com/c77b8bfd-0a32-4e36-b59a-4f687f32c524)
+ [CodeDOM Quick Reference](http://msdn.microsoft.com/en-us/c77b8bfd-0a32-4e36-b59a-4f687f32c524)

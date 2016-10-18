@@ -1,7 +1,7 @@
 ---
 title: "Compiler Error CS0739"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -38,11 +38,11 @@ translation.priority.mt:
 # Compiler Error CS0739
 'type name' duplicate TypeForwardedToAttribute.  
   
- An assembly can have no more than one \<xref:System.Runtime.CompilerServices.TypeForwardedToAttribute> to an external type.  
+ An assembly can have no more than one <xref:System.Runtime.CompilerServices.TypeForwardedToAttribute> to an external type.  
   
 ### To correct this error  
   
-1.  Locate and remove the duplicate \<xref:System.Runtime.CompilerServices.TypeForwardedToAttribute>.  
+1.  Locate and remove the duplicate <xref:System.Runtime.CompilerServices.TypeForwardedToAttribute>.  
   
 ## Example  
  The following code generates CS0739:  
@@ -66,4 +66,4 @@ namespace cs0739
 ```  
   
 ## See Also  
- \<xref:System.Runtime.CompilerServices.TypeForwardedToAttribute>
+ <xref:System.Runtime.CompilerServices.TypeForwardedToAttribute>

@@ -1,7 +1,7 @@
 ---
 title: "Inside the Visual Studio SDK"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -36,7 +36,7 @@ translation.priority.mt:
 This section provides in-depth information about Visual Studio extensions, including Visual Studio architecture, components, services, schemas, utilities, and the like.  
   
 ## Extensibility Architecture  
- The following illustration shows the Visual Studio extensibility architecture. VSPackages provide application functionality, which is shared across the IDE as services. The standard IDE also offers a broad range of services, such as \<xref:Microsoft.VisualStudio.Shell.Interop.SVsUIShell>, which provide access to the IDE windowing functionality.  
+ The following illustration shows the Visual Studio extensibility architecture. VSPackages provide application functionality, which is shared across the IDE as services. The standard IDE also offers a broad range of services, such as <xref:Microsoft.VisualStudio.Shell.Interop.SVsUIShell>, which provide access to the IDE windowing functionality.  
   
  ![Environment Architecture graphic](../extensibility/media/environment.gif "environment")  
 Generalized view of the Visual Studio architecture  
@@ -55,7 +55,7 @@ Generalized view of the Visual Studio architecture
   
  When you extend Visual Studio, you can create commands and register them with the Visual Studio shell. You can specify how these commands will appear in the IDE, for example, on a menu or toolbar. Typically a custom command appears on the **Tools** menu, and a command for displaying a tool window would appear on the **Other Windows** submenu of the **View** menu.  
   
- When you create a command, you must also create an event handler for it. The event handler determines when the command is visible or enabled, lets you modify its text, and guarantees that the command responds appropriately when it is activated. In most instances, the IDE handles commands by using the \<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface. Commands in Visual Studio are handled starting with the innermost command context, based on the local selection, and proceeding to the outermost context, based on the global selection. Commands added to the main menu are immediately available for scripting.  
+ When you create a command, you must also create an event handler for it. The event handler determines when the command is visible or enabled, lets you modify its text, and guarantees that the command responds appropriately when it is activated. In most instances, the IDE handles commands by using the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface. Commands in Visual Studio are handled starting with the innermost command context, based on the local selection, and proceeding to the outermost context, based on the global selection. Commands added to the main menu are immediately available for scripting.  
   
  For more information, see [Commands, Menus, and Toolbars](../extensibility/commands--menus--and-toolbars.md).  
   

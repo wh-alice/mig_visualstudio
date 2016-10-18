@@ -1,7 +1,7 @@
 ---
 title: "Type parameters or types constructed with type parameters are not allowed in attribute arguments"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -60,7 +60,7 @@ An attribute is applied using an argument that is either a type parameter or is 
 -   Reconstruct the arguments supplied to the attribute so that they do not include any type parameters or any type constructed from a type parameter.  
   
 ## See Also  
- \<xref:System.Attribute>   
- [NOT IN BUILD: Attributes Overview in Visual Basic](http://msdn.microsoft.com/0d0cff64-892d-4f57-83bd-bef388553d4f)   
+ <xref:System.Attribute>   
+ [NOT IN BUILD: Attributes Overview in Visual Basic](http://msdn.microsoft.com/en-us/0d0cff64-892d-4f57-83bd-bef388553d4f)   
  [Generic Types in Visual Basic](../Topic/Generic%20Types%20in%20Visual%20Basic%20\(Visual%20Basic\).md)   
  [Type List](../Topic/Type%20List%20\(Visual%20Basic\).md)

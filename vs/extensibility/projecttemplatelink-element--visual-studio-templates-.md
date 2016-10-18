@@ -1,7 +1,7 @@
 ---
 title: "ProjectTemplateLink Element (Visual Studio Templates)"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -64,7 +64,7 @@ Specifies the path to the .vstemplate file of one project in a multi-project tem
 |Attribute|Description|  
 |---------------|-----------------|  
 |`ProjectName`|Optional attribute.<br /><br /> Specifies the name for each individual project in a multi-project template. The **New Project** dialog box cannot assign names to individual projects.|  
-|`CopyParameters`|Enables all the variables in the main group template to be copied to each of the linked templates.<br /><br /> The parameters in the linked templates have a prefix `"$ext_*$"`. For example, if in the parent group template the parameter `$projectname$` has a value **ExampleProject1**, when the linked template gets its turn to be executed, it acquires a parameter `$ext_projectname$`, which is a copy of the `$projectname$` parameter from the parent group template.<br /><br /> This enables linked templates to share some common parameters, which may be conveniently created only in the parent group template.<br /><br /> This attribute is optional, and it automatically defaults to `false` when it is not included.<br /><br /> Introduced in Visual Studio 2013 Update 2. To reference the correct product version, see [Referencing Assemblies Delivered in the Visual Studio 2013 SDK Update 2](http://msdn.microsoft.com/42b65c3e-e42b-4c39-98c8-bea285f25ffb).|  
+|`CopyParameters`|Enables all the variables in the main group template to be copied to each of the linked templates.<br /><br /> The parameters in the linked templates have a prefix `"$ext_*$"`. For example, if in the parent group template the parameter `$projectname$` has a value **ExampleProject1**, when the linked template gets its turn to be executed, it acquires a parameter `$ext_projectname$`, which is a copy of the `$projectname$` parameter from the parent group template.<br /><br /> This enables linked templates to share some common parameters, which may be conveniently created only in the parent group template.<br /><br /> This attribute is optional, and it automatically defaults to `false` when it is not included.<br /><br /> Introduced in Visual Studio 2013 Update 2. To reference the correct product version, see [Referencing Assemblies Delivered in the Visual Studio 2013 SDK Update 2](http://msdn.microsoft.com/en-us/42b65c3e-e42b-4c39-98c8-bea285f25ffb).|  
   
 ### Child Elements  
  None.  

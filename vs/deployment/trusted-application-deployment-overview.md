@@ -1,7 +1,7 @@
 ---
 title: "Trusted Application Deployment Overview"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -89,7 +89,7 @@ This topic provides an overview of how to deploy [!INCLUDE[ndptecclick](../deplo
   
  If you are not deploying your application in a managed desktop environment, you have the following options for adding a certificate to the trusted publisher store:  
   
--   The \<xref:System.Security.Cryptography?displayProperty=fullName> namespace.  
+-   The <xref:System.Security.Cryptography?displayProperty=fullName> namespace.  
   
 -   CertMgr.exe, which is a component of Internet Explorer and therefore exists on Windows 98 and all later versions. For more information, see [Certmgr.exe (Certificate Manager Tool)](../Topic/Certmgr.exe%20\(Certificate%20Manager%20Tool\).md).  
   

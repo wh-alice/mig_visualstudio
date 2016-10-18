@@ -1,7 +1,7 @@
 ---
 title: "Local variable cannot have the same name as the function containing it"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,5 +44,5 @@ A `Dim` statement specifies a variable with the same name as the `Function` proc
 -   Remove the variable declaration, or change the name of the variable.  
   
 ## See Also  
- [NOTINBUILD: Resolving a Reference When Multiple Variables Have the Same Name](http://msdn.microsoft.com/9601e39f-1911-44e1-ace5-3f6e090408b9)   
+ [NOTINBUILD: Resolving a Reference When Multiple Variables Have the Same Name](http://msdn.microsoft.com/en-us/9601e39f-1911-44e1-ace5-3f6e090408b9)   
  [Function Procedures](../Topic/Function%20Procedures%20\(Visual%20Basic\).md)

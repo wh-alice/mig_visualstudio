@@ -1,7 +1,7 @@
 ---
 title: "How to: Build and Run the LinqToXmlDataBinding Example"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -31,7 +31,7 @@ translation.priority.ht:
 # How to: Build and Run the LinqToXmlDataBinding Example
 This topic shows how to create and build the LinqToXmlDataBinding Visual Studio project, and how to run the resulting LinqToXmlDataBinding Windows Presentation Foundation (WPF) example program.  
   
- For more information about using Visual Studio to create projects, see [Application Development in Visual Studio](http://msdn.microsoft.com/97490c1b-a247-41fb-8f2c-bc4c201eff68).  
+ For more information about using Visual Studio to create projects, see [Application Development in Visual Studio](http://msdn.microsoft.com/en-us/97490c1b-a247-41fb-8f2c-bc4c201eff68).  
   
 ## Creating and Populating the Project  
   
@@ -70,23 +70,23 @@ This topic shows how to create and build the LinqToXmlDataBinding Visual Studio 
   
 1.  Run LinqToXmlDataBinding by pressing **F5** (**Start Debugging**) or **Ctrl+F5** (**Start Without Debugging**). A program window with the title **WPF Data Binding using LINQ to XML** should be displayed.  
   
-2.  Notice the top section of the UI, which displays the raw **XML** that represents the book list. It is displayed using a WPF \<xref:System.Windows.Controls.TextBlock> control, which does not enable interaction through the mouse or keyboard.  
+2.  Notice the top section of the UI, which displays the raw **XML** that represents the book list. It is displayed using a WPF <xref:System.Windows.Controls.TextBlock> control, which does not enable interaction through the mouse or keyboard.  
   
-3.  The second vertical section, labeled **Book List**, displays the books as a plain text ordered list. It uses a \<xref:System.Windows.Controls.ListBox> control that enables selection though the mouse or keyboard.  
+3.  The second vertical section, labeled **Book List**, displays the books as a plain text ordered list. It uses a <xref:System.Windows.Controls.ListBox> control that enables selection though the mouse or keyboard.  
   
 #### To add and delete books from the list  
   
 1.  To delete an existing book from the list, select it in the **Book List** section, then click the **Remove Selected Book** button. Notice that the book entry has been removed from both the book and the raw XML source listings.  
   
-2.  To add a new book to the list, enter values into the **ID** and **Value**\<xref:System.Windows.Controls.TextBox> controls in the last section, **Add New Book**, then click the **Add Book** button. Note that the book is appended to the list in both the book and XML listings. This program does not validate input values.  
+2.  To add a new book to the list, enter values into the **ID** and **Value**<xref:System.Windows.Controls.TextBox> controls in the last section, **Add New Book**, then click the **Add Book** button. Note that the book is appended to the list in both the book and XML listings. This program does not validate input values.  
   
 #### To edit an existing book entry  
   
 1.  Select the book entry in the second **Book List** section. Its current values should be displayed in the third section, **Edit Selected Book**.  
   
-2.  Edit the values using the keyboard. As soon as either \<xref:System.Windows.Controls.TextBox> control looses focus, changes are automatically propagated to the XML source and book listings.  
+2.  Edit the values using the keyboard. As soon as either <xref:System.Windows.Controls.TextBox> control looses focus, changes are automatically propagated to the XML source and book listings.  
   
 ## See Also  
  [WPF Data Binding Using LINQ to XML Example](../designers/wpf-data-binding-using-linq-to-xml-example.md)   
  [Walkthrough: LinqToXmlDataBinding Example](../designers/walkthrough--linqtoxmldatabinding-example.md)   
- [Application Development in Visual Studio](http://msdn.microsoft.com/97490c1b-a247-41fb-8f2c-bc4c201eff68)
+ [Application Development in Visual Studio](http://msdn.microsoft.com/en-us/97490c1b-a247-41fb-8f2c-bc4c201eff68)

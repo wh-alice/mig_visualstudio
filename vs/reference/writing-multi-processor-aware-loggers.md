@@ -1,7 +1,7 @@
 ---
 title: "Writing Multi-Processor-Aware Loggers"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -52,7 +52,7 @@ The ability of [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md
   
  When a build occurs, the secondary nodes route their build events to the central node. The central node routes all its events, and also those of the secondary nodes, to one or more of the attached central loggers. The loggers then create log files that are based on the incoming data.  
   
- Although only \<xref:Microsoft.Build.Framework.ILogger> is required to be implemented by the central logger, we recommend that you also implement \<xref:Microsoft.Build.Framework.INodeLogger> so that the central logger initializes with the number of nodes that are participating in the build. The following overload of the \<xref:Microsoft.Build.Framework.ILogger.Initialize*> method invokes when the engine initializes the logger.  
+ Although only <xref:Microsoft.Build.Framework.ILogger> is required to be implemented by the central logger, we recommend that you also implement <xref:Microsoft.Build.Framework.INodeLogger> so that the central logger initializes with the number of nodes that are participating in the build. The following overload of the <xref:Microsoft.Build.Framework.ILogger.Initialize*> method invokes when the engine initializes the logger.  
   
 ```  
 public interface INodeLogger: ILogger  
@@ -61,7 +61,7 @@ public interface INodeLogger: ILogger
 }  
 ```  
   
- Any pre-existing \<xref:Microsoft.Build.Framework.ILogger>-based loggers can act as central loggers and can attach to the build. However, central loggers written without explicit support for multi-processor logging scenarios and out-of-order events may break a build or produce meaningless output.  
+ Any pre-existing <xref:Microsoft.Build.Framework.ILogger>-based loggers can act as central loggers and can attach to the build. However, central loggers written without explicit support for multi-processor logging scenarios and out-of-order events may break a build or produce meaningless output.  
   
 ### Distributed Logging Model  
  In the central logging model, too much incoming message traffic can overwhelm the central node, for example, when many projects build at the same time. This can stress system resources and decrease build performance. To ease this problem, [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] supports a distributed logging model.  
@@ -75,7 +75,7 @@ public interface INodeLogger: ILogger
   
  There are two ways to use distributed logging, as follows:  
   
--   Customize the pre-fabricated forwarding logger named \<xref:Microsoft.Build.BuildEngine.ConfigurableForwardingLogger>.  
+-   Customize the pre-fabricated forwarding logger named <xref:Microsoft.Build.BuildEngine.ConfigurableForwardingLogger>.  
   
 -   Write your own custom forwarding logger.  
   

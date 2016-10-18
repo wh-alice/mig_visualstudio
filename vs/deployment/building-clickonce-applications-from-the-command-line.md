@@ -1,7 +1,7 @@
 ---
 title: "Building ClickOnce Applications from the Command Line"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -178,8 +178,8 @@ msbuild /target:publish /property:BootstrapperEnabled=false
 |`UpdateURL`|Optional. Set this URL option if the update location is different than the `InstallURL`. For example, you could set the `PublishURL` to an FTP path and set the `UpdateURL` to a Web URL.|  
   
 ## See Also  
- \<xref:Microsoft.Build.Tasks.GenerateBootstrapper>   
- \<xref:Microsoft.Build.Tasks.GenerateApplicationManifest>   
- \<xref:Microsoft.Build.Tasks.GenerateDeploymentManifest>   
+ <xref:Microsoft.Build.Tasks.GenerateBootstrapper>   
+ <xref:Microsoft.Build.Tasks.GenerateApplicationManifest>   
+ <xref:Microsoft.Build.Tasks.GenerateDeploymentManifest>   
  [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)   
  [Walkthrough: Manually Deploying a ClickOnce Application](../deployment/walkthrough--manually-deploying-a-clickonce-application.md)

@@ -1,7 +1,7 @@
 ---
 title: "Product Release Essentials"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -58,4 +58,4 @@ A pleasant and robust setup experience forms a lasting impression in your users�
 |Learn about supporting multiple versions of your [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integration product.|-   [Choosing Between Shared and Versioned VSPackages](../extensibility/choosing-between-shared-and-versioned-vspackages.md)<br />-   [Registering File Name Extensions for Side-By-Side Deployments](../extensibility/registering-file-name-extensions-for-side-by-side-deployments.md)<br />-   [Detecting System Requirements](../extensibility/detecting-system-requirements.md)<br />-   [Commands That Must Be Run After Installation](../extensibility/commands-that-must-be-run-after-installation.md)|  
   
 ## Testing Your Visual Studio Integration Product  
- The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Integration Test (VSIT) suite is a series of tests that verifies that a VSPackage correctly integrates into [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. VSIT does not test a VSPackage’s functionality, but helps ensure that a VSPackage does not adversely affect other [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] functionality. For more information, see [Visual Studio Integration Tests](http://msdn.microsoft.com/8d741735-7d93-46c2-ab93-01da7a0e016d).
+ The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Integration Test (VSIT) suite is a series of tests that verifies that a VSPackage correctly integrates into [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. VSIT does not test a VSPackage’s functionality, but helps ensure that a VSPackage does not adversely affect other [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] functionality. For more information, see [Visual Studio Integration Tests](http://msdn.microsoft.com/en-us/8d741735-7d93-46c2-ab93-01da7a0e016d).

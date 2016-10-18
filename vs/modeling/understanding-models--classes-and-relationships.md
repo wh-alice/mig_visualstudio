@@ -1,7 +1,7 @@
 ---
 title: "Understanding Models, Classes and Relationships"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -148,4 +148,4 @@ A domain-specific language (DSL) is defined by its DSL Definition file, together
   
 ## See Also  
  [Domain Relationships in the Generated API](../misc/domain-relationships-in-the-generated-api.md)   
- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+ [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/en-us/ca5e84cb-a315-465c-be24-76aa3df276aa)

@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.IdentityModel.Selectors.ServiceBusyException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -33,10 +33,10 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.IdentityModel.Selectors.ServiceBusyException
-A \<xref:System.IdentityModel.Selectors.ServiceBusyException> exception is thrown to indicate that the CardSpace service is busy processing other requests. CardSpace does not queue requests, and can service only one request at a time.  
+A <xref:System.IdentityModel.Selectors.ServiceBusyException> exception is thrown to indicate that the CardSpace service is busy processing other requests. CardSpace does not queue requests, and can service only one request at a time.  
   
  Determine whether another instance of CardSpace is running. If there is another instance running, end it by stopping the icardagt.exe process from Task Manager.  
   
 ## See Also  
- \<xref:System.IdentityModel.Selectors.ServiceBusyException>   
+ <xref:System.IdentityModel.Selectors.ServiceBusyException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

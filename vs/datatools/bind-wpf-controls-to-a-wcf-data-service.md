@@ -1,7 +1,7 @@
 ---
 title: "Bind WPF controls to a WCF data service"
 ms.custom: na
-ms.date: "10/11/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -68,7 +68,7 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
 -   Entity Data Models and the ADO.NET Entity Framework. For more information, see [Entity Framework Overview](../Topic/Entity%20Framework%20Overview.md).  
   
--   Working with the WPF designer. For more information, see [WPF and Silverlight Designer Overview](http://msdn.microsoft.com/570b7a5c-0c86-4326-a371-c9b63378fc62).  
+-   Working with the WPF designer. For more information, see [WPF and Silverlight Designer Overview](http://msdn.microsoft.com/en-us/570b7a5c-0c86-4326-a371-c9b63378fc62).  
   
 -   WPF data binding. For more information, see [Data Binding Overview](../Topic/Data%20Binding%20Overview.md).  
   
@@ -247,7 +247,7 @@ In this walkthrough, you will create a WPF application that contains data-bound 
     -   **Sales Order Number**  
   
 ## Load the data from the service  
- Use the service proxy object to load sales data from the service. Then assign the returned data to the data source for the \<xref:System.Windows.Data.CollectionViewSource> in the WPF window.  
+ Use the service proxy object to load sales data from the service. Then assign the returned data to the data source for the <xref:System.Windows.Data.CollectionViewSource> in the WPF window.  
   
 #### To load the data from the service  
   
@@ -265,7 +265,7 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
 1.  In the designer, double-click the **<** button on the window surface.  
   
-     Visual Studio opens the code-behind file, and creates a new `backButton_Click` event handler for the \<xref:System.Windows.Controls.Primitives.ButtonBase.Click> event.  
+     Visual Studio opens the code-behind file, and creates a new `backButton_Click` event handler for the <xref:System.Windows.Controls.Primitives.ButtonBase.Click> event.  
   
 2.  Add the following code to the generated `backButton_Click` event handler:  
   
@@ -274,7 +274,7 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
 3.  Return to the designer, and double-click the **>** button.  
   
-     Visual Studio opens the code-behind file, and creates a new `nextButton_Click` event handler for the \<xref:System.Windows.Controls.Primitives.ButtonBase.Click> event.  
+     Visual Studio opens the code-behind file, and creates a new `nextButton_Click` event handler for the <xref:System.Windows.Controls.Primitives.ButtonBase.Click> event.  
   
 4.  Add the following code to the generated `nextButton_Click` event handler:  
   
@@ -288,7 +288,7 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
 1.  In the designer, double-click the **Save Changes** button.  
   
-     Visual Studio opens the code-behind file, and creates a new `saveButton_Click` event handler for the \<xref:System.Windows.Controls.Primitives.ButtonBase.Click> event.  
+     Visual Studio opens the code-behind file, and creates a new `saveButton_Click` event handler for the <xref:System.Windows.Controls.Primitives.ButtonBase.Click> event.  
   
 2.  Add the following code to the `saveButton_Click` event handler.  
   
@@ -337,5 +337,5 @@ In this walkthrough, you will create a WPF application that contains data-bound 
  [Bind WPF controls to a dataset](../datatools/bind-wpf-controls-to-a-dataset.md)   
  [Overview](../Topic/WCF%20Data%20Services%20Overview.md)   
  [Entity Framework Overview](../Topic/Entity%20Framework%20Overview.md)   
- [WPF and Silverlight Designer Overview](http://msdn.microsoft.com/570b7a5c-0c86-4326-a371-c9b63378fc62)   
+ [WPF and Silverlight Designer Overview](http://msdn.microsoft.com/en-us/570b7a5c-0c86-4326-a371-c9b63378fc62)   
  [Data Binding Overview](../Topic/Data%20Binding%20Overview.md)

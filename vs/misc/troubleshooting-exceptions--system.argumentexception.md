@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.ArgumentException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -33,7 +33,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.ArgumentException
-An \<xref:System.ArgumentException> exception is thrown when at least one of the arguments provided to a method does not meet the specifications of the parameters of the method.  
+An <xref:System.ArgumentException> exception is thrown when at least one of the arguments provided to a method does not meet the specifications of the parameters of the method.  
   
  In the following example, the exception is thrown when the argument sent to method `DivideByTwo` is not an even number.  
   
@@ -78,10 +78,10 @@ Module Module1
 End Module  
 ```  
   
- All instances of the `ArgumentException` class should include information that specifies which argument is not valid, and what the range of acceptable values is. If a more precise exception, such as \<xref:System.ArgumentNullException> or \<xref:System.ArgumentOutOfRangeException>, accurately describes the situation, it should be used instead of `ArgumentException`.  
+ All instances of the `ArgumentException` class should include information that specifies which argument is not valid, and what the range of acceptable values is. If a more precise exception, such as <xref:System.ArgumentNullException> or <xref:System.ArgumentOutOfRangeException>, accurately describes the situation, it should be used instead of `ArgumentException`.  
   
- For more information about this exception, including examples in other languages, see \<xref:System.ArgumentException>. For a list of additional constructors, see \<xref:System.ArgumentException.#ctor*>.  
+ For more information about this exception, including examples in other languages, see <xref:System.ArgumentException>. For a list of additional constructors, see <xref:System.ArgumentException.#ctor*>.  
   
 ## See Also  
- \<xref:System.ArgumentException>   
+ <xref:System.ArgumentException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

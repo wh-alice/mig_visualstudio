@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.Windows.Media.Animation.AnimationException"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -35,11 +35,11 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.Windows.Media.Animation.AnimationException
-An \<xref:System.Windows.Media.Animation.AnimationException> exception is thrown when an error occurs while a property is being animated.  
+An <xref:System.Windows.Media.Animation.AnimationException> exception is thrown when an error occurs while a property is being animated.  
   
 ## Remarks  
- This class is not used for timing-related errors, such as creating an animation with a negative \<xref:System.Windows.Media.Animation.Timeline.Duration*> or invalid \<xref:System.Windows.Media.Animation.Timeline.AccelerationRatio*> and \<xref:System.Windows.Media.Animation.Timeline.DecelerationRatio*> settings.  
+ This class is not used for timing-related errors, such as creating an animation with a negative <xref:System.Windows.Media.Animation.Timeline.Duration*> or invalid <xref:System.Windows.Media.Animation.Timeline.AccelerationRatio*> and <xref:System.Windows.Media.Animation.Timeline.DecelerationRatio*> settings.  
   
 ## See Also  
- \<xref:System.Windows.Media.Animation.AnimationException>   
+ <xref:System.Windows.Media.Animation.AnimationException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

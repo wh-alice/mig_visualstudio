@@ -1,7 +1,7 @@
 ---
 title: "&#39;GoTo &lt;labelname&gt;&#39; is not valid because &#39;&lt;labelname&gt;&#39; is inside a &#39;For&#39; or &#39;For Each&#39; statement that does not contain this statement"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -45,4 +45,4 @@ translation.priority.mt:
   
 ## See Also  
  [GoTo Statement](../Topic/GoTo%20Statement.md)   
- [For (Visual Basic)](http://msdn.microsoft.com/c470a263-9b49-4308-8fd6-8592b84a7980)
+ [For (Visual Basic)](http://msdn.microsoft.com/en-us/c470a263-9b49-4308-8fd6-8592b84a7980)

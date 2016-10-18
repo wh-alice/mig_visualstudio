@@ -1,7 +1,7 @@
 ---
 title: "Define a gesture handler on a modeling diagram"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -277,7 +277,7 @@ In Visual Studio, you can define commands that are performed when the user doubl
 ##  <a name="Implementing"></a> Implementing the Gesture Handler  
   
 ### The Gesture Handler Methods  
- The gesture handler class implements and exports \<xref:Microsoft.VisualStudio.Modeling.Diagrams.ExtensionEnablement.IGestureExtension>. The methods you need to define are as follows:  
+ The gesture handler class implements and exports <xref:Microsoft.VisualStudio.Modeling.Diagrams.ExtensionEnablement.IGestureExtension>. The methods you need to define are as follows:  
   
 |||  
 |-|-|  

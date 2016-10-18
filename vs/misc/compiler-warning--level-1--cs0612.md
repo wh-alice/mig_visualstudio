@@ -1,7 +1,7 @@
 ---
 title: "Compiler Warning (level 1) CS0612"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -38,7 +38,7 @@ translation.priority.mt:
 # Compiler Warning (level 1) CS0612
 'member' is obsolete  
   
- The class designer marked a member with the [Obsolete](http://msdn.microsoft.com/05e99cd0-bda6-4f79-a890-1ca093b4b488) attribute. This means that the member might not be supported in a future version of the class.  
+ The class designer marked a member with the [Obsolete](http://msdn.microsoft.com/en-us/05e99cd0-bda6-4f79-a890-1ca093b4b488) attribute. This means that the member might not be supported in a future version of the class.  
   
  The following sample shows how accessing an obsolete member generates CS0612:  
   

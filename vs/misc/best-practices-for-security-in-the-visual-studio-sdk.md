@@ -1,7 +1,7 @@
 ---
 title: "Best Practices for Security in the Visual Studio SDK"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -76,5 +76,5 @@ You need to understand security for VSPackage extensions so that you can create 
   
 ## See Also  
  [Best Practices for Security in VSPackages](../extensibility/best-practices-for-security-in-vspackages.md)   
- [Resources for Creating Secure Applications](http://msdn.microsoft.com/0ebf5f69-76f2-498a-a2df-83cf3443e132)   
+ [Resources for Creating Secure Applications](http://msdn.microsoft.com/en-us/0ebf5f69-76f2-498a-a2df-83cf3443e132)   
  [Key Security Concepts](../Topic/Key%20Security%20Concepts.md)

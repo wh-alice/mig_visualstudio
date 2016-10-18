@@ -1,7 +1,7 @@
 ---
 title: "How to: Serialize Symbol Information"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -50,4 +50,4 @@ You can serialize symbols that you must have to analyze your application. Symbol
 ## See Also  
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)   
  [How to: Reference Windows Symbol Information](../profiling/how-to--reference-windows-symbol-information.md)   
- [How to: Save Analyzed Report Files](http://msdn.microsoft.com/0340ddde-caf4-48ac-8af3-d15dcdade556)
+ [How to: Save Analyzed Report Files](http://msdn.microsoft.com/en-us/0340ddde-caf4-48ac-8af3-d15dcdade556)

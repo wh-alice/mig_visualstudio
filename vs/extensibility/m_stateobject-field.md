@@ -1,7 +1,7 @@
 ---
 title: "m_stateObject Field"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -33,7 +33,7 @@ translation.priority.mt:
 # m_stateObject Field
 An object that represents data that the action will use.  
   
- **Namespace:** \<xref:System.Threading.Tasks?displayProperty=fullName>  
+ **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>  
   
  **Assembly:** mscorlib (in mscorlib.dll)  
   
@@ -46,7 +46,7 @@ An object that represents data that the action will use.
 ```  
   
 ## Remarks  
- This is the `state` parameter in the \<xref:System.Threading.Tasks.Task.#ctor*> constructor. It is also the backing field for the \<xref:System.Threading.Tasks.Task.AsyncState*?displayProperty=fullName> property.  
+ This is the `state` parameter in the <xref:System.Threading.Tasks.Task.#ctor*> constructor. It is also the backing field for the <xref:System.Threading.Tasks.Task.AsyncState*?displayProperty=fullName> property.  
   
 ## See Also  
  [Task Class](../extensibility/task-class---internal-members.md)

@@ -1,7 +1,7 @@
 ---
 title: "Obtaining Build Logs with MSBuild"
 ms.custom: na
-ms.date: "10/07/2016"
+ms.date: "10/17/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -83,12 +83,12 @@ msbuild MyProject.proj /t:go /fl1 /fl2 /fl3 /flp2:logfile=JustErrors.log;errorso
  For more information, see [Command-Line Reference](../reference/msbuild-command-line-reference.md).  
   
 ## Using a custom logger  
- You can write your own logger by authoring a managed type that implements the \<xref:Microsoft.Build.Framework.ILogger> interface. You might use a custom logger, for instance, to send build errors in email, log them to a database, or log them to an XML file. For more information, see [Build Loggers](../reference/build-loggers.md).  
+ You can write your own logger by authoring a managed type that implements the <xref:Microsoft.Build.Framework.ILogger> interface. You might use a custom logger, for instance, to send build errors in email, log them to a database, or log them to an XML file. For more information, see [Build Loggers](../reference/build-loggers.md).  
   
  In the MSBuild command line, you specify the custom logger by using the **/logger** switch. You can also use the **/noconsolelogger** switch to disable the default console logger.  
   
 ## See Also  
- \<xref:Microsoft.Build.Framework.LoggerVerbosity>   
+ <xref:Microsoft.Build.Framework.LoggerVerbosity>   
  [Build Loggers](../reference/build-loggers.md)   
  [Logging in a Multi-Processor Environment](../reference/logging-in-a-multi-processor-environment.md)   
  [Creating Forwarding Loggers](../reference/creating-forwarding-loggers.md)   

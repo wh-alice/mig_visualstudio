@@ -1,7 +1,7 @@
 ---
 title: "IDiaEnumTables"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -47,7 +47,7 @@ IDiaEnumTables : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[IDiaEnumTables::get__NewEnum](../debugger/idiaenumtables--get__newenum.md)|Retrieves the [IEnumVARIANT Interface](http://msdn.microsoft.com/139e3c93-faef-4003-9079-e0e94494db3e) version of this enumerator.|  
+|[IDiaEnumTables::get__NewEnum](../debugger/idiaenumtables--get__newenum.md)|Retrieves the [IEnumVARIANT Interface](http://msdn.microsoft.com/en-us/139e3c93-faef-4003-9079-e0e94494db3e) version of this enumerator.|  
 |[IDiaEnumTables::get_Count](../debugger/idiaenumtables--get_count.md)|Retrieves the number of tables.|  
 |[IDiaEnumTables::Item](../debugger/idiaenumtables--item.md)|Retrieves a table by means of an index or a name.|  
 |[IDiaEnumTables::Next](../debugger/idiaenumtables--next.md)|Retrieves a specified number of tables in the enumeration sequence.|  

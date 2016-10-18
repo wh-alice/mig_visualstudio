@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.Workflow.Activities.WorkflowAuthorizationException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -35,8 +35,8 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.Workflow.Activities.WorkflowAuthorizationException
-A \<xref:System.Workflow.Activities.WorkflowAuthorizationException> exception is thrown when role validation fails because of a specified identity that is not contained in the \<xref:System.Workflow.Activities.WorkflowRoleCollection>.  
+A <xref:System.Workflow.Activities.WorkflowAuthorizationException> exception is thrown when role validation fails because of a specified identity that is not contained in the <xref:System.Workflow.Activities.WorkflowRoleCollection>.  
   
 ## See Also  
- \<xref:System.Workflow.Activities.WorkflowAuthorizationException>   
+ <xref:System.Workflow.Activities.WorkflowAuthorizationException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

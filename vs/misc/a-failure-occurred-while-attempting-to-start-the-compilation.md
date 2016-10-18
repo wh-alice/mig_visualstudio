@@ -1,7 +1,7 @@
 ---
 title: "A failure occurred while attempting to start the compilation"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -40,4 +40,4 @@ An unknown error has been encountered while issuing the **Start Build** request 
      This error will cause the build process to fail.  
   
 ## See Also  
- [NIB: Project Properties (Visual Studio)](http://msdn.microsoft.com/eb4c97ed-f667-4850-98d0-6e2a4d21bbca)
+ [NIB: Project Properties (Visual Studio)](http://msdn.microsoft.com/en-us/eb4c97ed-f667-4850-98d0-6e2a4d21bbca)

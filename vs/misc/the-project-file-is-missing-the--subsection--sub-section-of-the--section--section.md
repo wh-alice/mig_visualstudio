@@ -1,7 +1,7 @@
 ---
 title: "The project file is missing the &#39;subsection&#39; sub-section of the &#39;section&#39; section"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -43,4 +43,4 @@ The SubSection (subsection) is Include and section (section) is Files.
      If you get this error, the project will open, but no files will be added to the project.  
   
 ## See Also  
- [NIB: Project Properties (Visual Studio)](http://msdn.microsoft.com/eb4c97ed-f667-4850-98d0-6e2a4d21bbca)
+ [NIB: Project Properties (Visual Studio)](http://msdn.microsoft.com/en-us/eb4c97ed-f667-4850-98d0-6e2a4d21bbca)

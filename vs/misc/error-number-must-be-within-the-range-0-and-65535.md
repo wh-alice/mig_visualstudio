@@ -1,7 +1,7 @@
 ---
 title: "Error number must be within the range 0 and 65535"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,5 +39,5 @@ An error number falls outside the allowable of between 0 and 65535.
 -   Ensure that the number falls within the valid range.  
   
 ## See Also  
- [NOTINBUILD Err Object (Visual Basic)](http://msdn.microsoft.com/d6f42bdc-4f5f-4a5f-a9db-f5b530be8f1c)   
- [Number Property (Err Object)](http://msdn.microsoft.com/3b1991c4-b349-4ed0-a6ad-b5e2003c9028)
+ [NOTINBUILD Err Object (Visual Basic)](http://msdn.microsoft.com/en-us/d6f42bdc-4f5f-4a5f-a9db-f5b530be8f1c)   
+ [Number Property (Err Object)](http://msdn.microsoft.com/en-us/3b1991c4-b349-4ed0-a6ad-b5e2003c9028)

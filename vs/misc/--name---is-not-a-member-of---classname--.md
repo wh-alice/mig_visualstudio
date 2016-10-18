@@ -1,7 +1,7 @@
 ---
 title: "&#39;&lt;name&gt;&#39; is not a member of &#39;&lt;classname&gt;&#39;"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -46,4 +46,4 @@ The member you have provided is not a member of the class.
 2.  Use an actual member of the class.  
   
 ## See Also  
- [NOT IN BUILD: Class Methods](http://msdn.microsoft.com/326214bb-6367-48e7-bb24-714844791400)
+ [NOT IN BUILD: Class Methods](http://msdn.microsoft.com/en-us/326214bb-6367-48e7-bb24-714844791400)

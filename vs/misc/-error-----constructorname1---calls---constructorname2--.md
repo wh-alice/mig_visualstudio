@@ -1,7 +1,7 @@
 ---
 title: "&lt;error&gt;: &#39;&lt;constructorname1&gt;&#39; calls &#39;&lt;constructorname2&gt;&#39;"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -46,4 +46,4 @@ A circular constructor call occurs. A constructor makes a call to `Me.New()` or 
 -   If there are no accessible overloads, remove the call to `Me.New()` or `MyClass.New()`.  
   
 ## See Also  
- [NOT IN BUILD: Using Constructors and Destructors](http://msdn.microsoft.com/548eebe1-86c4-4377-b2f5-447cb8be3d90)
+ [NOT IN BUILD: Using Constructors and Destructors](http://msdn.microsoft.com/en-us/548eebe1-86c4-4377-b2f5-447cb8be3d90)

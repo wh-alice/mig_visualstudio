@@ -33,28 +33,28 @@ Messaging activity designers are used to create and configure messaging activiti
   
 |Message Activity|Description|  
 |----------------------|-----------------|  
-|[CorrelationScope](../workflowdesigner/correlationscope-activity-designer.md)|Creates and configures a \<xref:System.ServiceModel.Activities.CorrelationScope> activity that provides implicit management of child messaging activities with a \<xref:System.ServiceModel.Activities.CorrelationHandle> object.|  
-|[InitializeCorrelation](../workflowdesigner/initializecorrelation-activity-designer.md)|Creates and configures an \<xref:System.ServiceModel.Activities.InitializeCorrelation> activity that is used to initialize correlation without sending or receiving a message.|  
-|[Receive](../workflowdesigner/receive-activity-designer.md)|Creates and configures a \<xref:System.ServiceModel.Activities.Receive> activity that receives a message from a service.|  
-|[ReceiveAndSendReply](../workflowdesigner/receiveandsendreply-template-designer.md)|Creates a pre-configured pair of \<xref:System.ServiceModel.Activities.Send> and \<xref:System.ServiceModel.Activities.ReceiveReply> activities within a \<xref:System.Activities.Statements.Sequence> activity.|  
-|[Send](../workflowdesigner/send-activity-designer.md)|Creates and configures a \<xref:System.ServiceModel.Activities.Send> activity that sends a message to a service.|  
-|[SendAndReceiveReply](../workflowdesigner/sendandreceivereply-template-designer.md)|Creates a pre-configured pair of \<xref:System.ServiceModel.Activities.Receive> and \<xref:System.ServiceModel.Activities.SendReply> activities within a \<xref:System.Activities.Statements.Sequence> activity.|  
-|[TransactedReceiveScope](../workflowdesigner/transactedreceivescope-activity-designer.md)|Creates and configures a \<xref:System.ServiceModel.Activities.TransactedReceiveScope> activity which enables the flow of transactions into a workflow.|  
+|[CorrelationScope](../workflowdesigner/correlationscope-activity-designer.md)|Creates and configures a <xref:System.ServiceModel.Activities.CorrelationScope> activity that provides implicit management of child messaging activities with a <xref:System.ServiceModel.Activities.CorrelationHandle> object.|  
+|[InitializeCorrelation](../workflowdesigner/initializecorrelation-activity-designer.md)|Creates and configures an <xref:System.ServiceModel.Activities.InitializeCorrelation> activity that is used to initialize correlation without sending or receiving a message.|  
+|[Receive](../workflowdesigner/receive-activity-designer.md)|Creates and configures a <xref:System.ServiceModel.Activities.Receive> activity that receives a message from a service.|  
+|[ReceiveAndSendReply](../workflowdesigner/receiveandsendreply-template-designer.md)|Creates a pre-configured pair of <xref:System.ServiceModel.Activities.Send> and <xref:System.ServiceModel.Activities.ReceiveReply> activities within a <xref:System.Activities.Statements.Sequence> activity.|  
+|[Send](../workflowdesigner/send-activity-designer.md)|Creates and configures a <xref:System.ServiceModel.Activities.Send> activity that sends a message to a service.|  
+|[SendAndReceiveReply](../workflowdesigner/sendandreceivereply-template-designer.md)|Creates a pre-configured pair of <xref:System.ServiceModel.Activities.Receive> and <xref:System.ServiceModel.Activities.SendReply> activities within a <xref:System.Activities.Statements.Sequence> activity.|  
+|[TransactedReceiveScope](../workflowdesigner/transactedreceivescope-activity-designer.md)|Creates and configures a <xref:System.ServiceModel.Activities.TransactedReceiveScope> activity which enables the flow of transactions into a workflow.|  
   
 ## Reference  
- \<xref:System.Activities.Activity>  
+ <xref:System.Activities.Activity>  
   
- \<xref:System.ServiceModel.Activities.CorrelationScope>  
+ <xref:System.ServiceModel.Activities.CorrelationScope>  
   
- \<xref:System.ServiceModel.Activities.Receive>  
+ <xref:System.ServiceModel.Activities.Receive>  
   
- \<xref:System.ServiceModel.Activities.Send>  
+ <xref:System.ServiceModel.Activities.Send>  
   
- \<xref:System.ServiceModel.Activities.ReceiveReply>  
+ <xref:System.ServiceModel.Activities.ReceiveReply>  
   
- \<xref:System.ServiceModel.Activities.SendReply>  
+ <xref:System.ServiceModel.Activities.SendReply>  
   
- \<xref:System.ServiceModel.Activities.TransactedReceiveScope>  
+ <xref:System.ServiceModel.Activities.TransactedReceiveScope>  
   
 ## Related Sections  
  For other types of activity designers, see the following topics.  

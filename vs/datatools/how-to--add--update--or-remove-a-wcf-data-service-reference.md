@@ -1,7 +1,7 @@
 ---
 title: "How to: Add, Update, or Remove a WCF Data Service Reference"
 ms.custom: na
-ms.date: "10/11/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na

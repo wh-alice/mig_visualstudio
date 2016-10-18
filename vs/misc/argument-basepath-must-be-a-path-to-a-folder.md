@@ -1,7 +1,7 @@
 ---
 title: "Argument BasePath must be a path to a folder"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,7 +37,7 @@ The argument `BasePath` must consist of a path to a folder. You may be parsing a
 -   Check the value you are supplying for `BasePath` to make sure it is a valid path to a folder.  
   
 ## See Also  
- \<xref:System.CodeDom.Compiler.TempFileCollection.BasePath*>   
- \<xref:System.Resources.ResXResourceWriter.BasePath*>   
- \<xref:System.Resources.ResXResourceReader.BasePath*>   
+ <xref:System.CodeDom.Compiler.TempFileCollection.BasePath*>   
+ <xref:System.Resources.ResXResourceWriter.BasePath*>   
+ <xref:System.Resources.ResXResourceReader.BasePath*>   
  [How to: Parse File Paths](../Topic/How%20to:%20Parse%20File%20Paths%20in%20Visual%20Basic.md)

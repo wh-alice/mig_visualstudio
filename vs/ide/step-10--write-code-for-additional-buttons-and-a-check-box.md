@@ -1,7 +1,7 @@
 ---
 title: "Step 10: Write Code for Additional Buttons and a Check Box"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na

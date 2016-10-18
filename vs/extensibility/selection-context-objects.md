@@ -1,7 +1,7 @@
 ---
 title: "Selection Context Objects"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -34,11 +34,11 @@ translation.priority.mt:
 # Selection Context Objects
 The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE) uses a global selection context object to determine what should be displayed in the IDE. Each window in the IDE can have its own selection context object pushed to the global selection context. The IDE updates the global selection context with values from a window when that window has the focus. For more information, see [Feedback to the User](../extensibility/feedback-to-the-user.md).  
   
- Each window frame or site in the IDE has a service called \<xref:Microsoft.VisualStudio.Shell.Interop.STrackSelection>. The object created by your VSPackage that is sited in the window frame must call the `QueryService` method to get a pointer to the \<xref:Microsoft.VisualStudio.Shell.Interop.ITrackSelection> interface.  
+ Each window frame or site in the IDE has a service called <xref:Microsoft.VisualStudio.Shell.Interop.STrackSelection>. The object created by your VSPackage that is sited in the window frame must call the `QueryService` method to get a pointer to the <xref:Microsoft.VisualStudio.Shell.Interop.ITrackSelection> interface.  
   
  Frame windows can keep portions of their selection context information from being propagated to the global selection context when they are started. This ability is useful for tool windows that may have to start with an empty selection.  
   
- Modifying the global selection context triggers events that VSPackages can monitor. VSPackages can perform the following tasks by implementing `IVsTrackSelectionEx` and \<xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection> interfaces:  
+ Modifying the global selection context triggers events that VSPackages can monitor. VSPackages can perform the following tasks by implementing `IVsTrackSelectionEx` and <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection> interfaces:  
   
 -   Update the currently active file in a hierarchy.  
   
@@ -53,8 +53,8 @@ The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated developm
 3.  The VSPackage acts on the events it receives by performing activities such as updating a hierarchy, reactivating a tool, or other similar tasks.  
   
 ## See Also  
- \<xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackSelectionEx>   
- \<xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection>   
+ <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackSelectionEx>   
+ <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection>   
  [Hierarchies in Visual Studio](../extensibility/hierarchies-in-visual-studio.md)   
  [Selection and Currency in the IDE](../extensibility/selection-and-currency-in-the-ide.md)   
  [Project Types](../extensibility/project-types.md)

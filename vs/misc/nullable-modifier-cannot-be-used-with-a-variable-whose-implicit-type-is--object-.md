@@ -1,7 +1,7 @@
 ---
 title: "Nullable modifier cannot be used with a variable whose implicit type is &#39;Object&#39;"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -41,9 +41,9 @@ A variable declaration includes the nullable type modifier (?), but does not spe
   
 ### To correct this error  
   
--   Specify a type when declaring the nullable variable. The type cannot be \<xref:System.Object>.  
+-   Specify a type when declaring the nullable variable. The type cannot be <xref:System.Object>.  
   
--   Assign a value when declaring the nullable variable. The type of the nullable variable will be inferred from the assigned value. The type of the value cannot be \<xref:System.Object>.  
+-   Assign a value when declaring the nullable variable. The type of the nullable variable will be inferred from the assigned value. The type of the value cannot be <xref:System.Object>.  
   
 ## See Also  
  [Nullable Value Types](../Topic/Nullable%20Value%20Types%20\(Visual%20Basic\).md)

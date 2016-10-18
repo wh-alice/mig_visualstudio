@@ -1,7 +1,7 @@
 ---
 title: "Developing Applications with the Workflow Designer"
 ms.custom: na
-ms.date: "10/06/2016"
+ms.date: "10/13/2016"
 ms.prod: ".net-framework-4.6"
 ms.reviewer: na
 ms.suite: na
@@ -53,7 +53,7 @@ The [!INCLUDE[wfd1](../workflowdesigner/includes/wfd1_md.md)] is a visual design
   
 -   Rehosting the [!INCLUDE[wfd2](../workflowdesigner/includes/wfd2_md.md)] outside of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] is greatly simplified compared to previous versions, now requiring only a few lines of code.  
   
--   The new \<xref:System.Activities.Statements.Flowchart> activity and its [Flowchart](../workflowdesigner/flowchart-activity-designer.md) allow you to visualize your program flow using the familiar flowchart modeling style.  
+-   The new <xref:System.Activities.Statements.Flowchart> activity and its [Flowchart](../workflowdesigner/flowchart-activity-designer.md) allow you to visualize your program flow using the familiar flowchart modeling style.  
   
 -   The messaging activities have been enhanced, allowing you to write fully-declarative (no code) [!INCLUDE[indigo1](../workflowdesigner/includes/indigo1_md.md)] services.  
   

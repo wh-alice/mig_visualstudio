@@ -1,7 +1,7 @@
 ---
 title: "Integrating Models by using Visual Studio Modelbus"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -55,7 +55,7 @@ translation.priority.mt:
   
 5.  If you want to access the DSL from a text template, you must modify AdapterManager.tt in the new project. Omit this step if you want to access the DSL from other code such as commands and event handlers. For more information, see [Using Visual Studio ModelBus in a Text Template](../modeling/using-visual-studio-modelbus-in-a-text-template.md).  
   
-    1.  Change the base class of AdapterManagerBase to \<xref:Microsoft.VisualStudio.TextTemplating.Modeling.VsTextTemplatingModelingAdapterManager>.  
+    1.  Change the base class of AdapterManagerBase to <xref:Microsoft.VisualStudio.TextTemplating.Modeling.VsTextTemplatingModelingAdapterManager>.  
   
     2.  Near the end of the file, insert this additional attribute in front of class AdapterManager:  
   

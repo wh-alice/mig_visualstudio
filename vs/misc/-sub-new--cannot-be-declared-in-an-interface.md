@@ -1,7 +1,7 @@
 ---
 title: "&#39;Sub New&#39; cannot be declared in an interface"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,4 +44,4 @@ You have attempted to declare `Sub New` within an interface. Because it is a con
 -   Remove the `Sub New` or move it to a more appropriate place in your code.  
   
 ## See Also  
- [NOT IN BUILD: Using Constructors and Destructors](http://msdn.microsoft.com/548eebe1-86c4-4377-b2f5-447cb8be3d90)
+ [NOT IN BUILD: Using Constructors and Destructors](http://msdn.microsoft.com/en-us/548eebe1-86c4-4377-b2f5-447cb8be3d90)

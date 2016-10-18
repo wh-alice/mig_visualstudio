@@ -1,7 +1,7 @@
 ---
 title: "Descendants (XElement Dynamic Property)"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -38,10 +38,10 @@ elem.Descendants[{namespaceName}localName]
 ```  
   
 ## Property Value/Return Value  
- An indexer of the type `IEnumerable<XElement> Item(String expandedName)`. This indexer takes the expanded name of the specified descendant elements and returns the matching child elements in an \<xref:System.Collections.IEnumerable>`<`\<xref:System.Xml.Linq.XElement>`>` collection.  
+ An indexer of the type `IEnumerable<XElement> Item(String expandedName)`. This indexer takes the expanded name of the specified descendant elements and returns the matching child elements in an <xref:System.Collections.IEnumerable>`<`<xref:System.Xml.Linq.XElement>`>` collection.  
   
 ## Remarks  
- This property is equivalent to the \<xref:System.Xml.Linq.XContainer.Descendants(System.Xml.Linq.XName)?displayProperty=fullName> method of the \<xref:System.Xml.Linq.XContainer> class.  
+ This property is equivalent to the <xref:System.Xml.Linq.XContainer.Descendants(System.Xml.Linq.XName)?displayProperty=fullName> method of the <xref:System.Xml.Linq.XContainer> class.  
   
  The elements in the returned collection are in XML source document order.  
   

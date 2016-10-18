@@ -1,7 +1,7 @@
 ---
 title: "Lambda expression cannot be converted to &#39;&lt;typename&gt;&#39; because &#39;&lt;typename&gt;&#39; is not a delegate type"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -35,7 +35,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Lambda expression cannot be converted to &#39;&lt;typename&gt;&#39; because &#39;&lt;typename&gt;&#39; is not a delegate type
-Lambda expressions can be used where delegates are valid. They can be converted to compatible delegate types, but not to any other type. For example, you can define a delegate type and assign a lambda expression to it, or send a lambda expression as the argument to a \<xref:System.Func`1> parameter. These examples are shown in the following code.  
+Lambda expressions can be used where delegates are valid. They can be converted to compatible delegate types, but not to any other type. For example, you can define a delegate type and assign a lambda expression to it, or send a lambda expression as the argument to a <xref:System.Func`1> parameter. These examples are shown in the following code.  
   
 ```vb#  
 Module Module1  

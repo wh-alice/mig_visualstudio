@@ -1,7 +1,7 @@
 ---
 title: "Automation for Configuration and SelectedItem Objects"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -35,14 +35,14 @@ translation.priority.mt:
 You can automate the build and selected item processes in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
   
 ## Automation for Builds  
- Build or configuration has an automation model that is provided when you implement \<xref:Microsoft.VisualStudio.Shell.Interop.IVsCfgProvider>. For more information, see [Understanding Build Configurations](../ide/understanding-build-configurations.md).  
+ Build or configuration has an automation model that is provided when you implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsCfgProvider>. For more information, see [Understanding Build Configurations](../ide/understanding-build-configurations.md).  
   
  If you create a VSPackage and want to control configuration options, you must use the automation model.  
   
 ## Automation for SelectedItem  
- You do not have to provide an implementation for the `SelectedItem` object because Visual Studio contains a standard implementation. However, you can implement the `SelectedItem` object if you prefer. You must implement an object that contains the `SelectedItem` interface and return a response to a call to the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetPropertyPage*> method with VSITEMID set to \<xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID>.  
+ You do not have to provide an implementation for the `SelectedItem` object because Visual Studio contains a standard implementation. However, you can implement the `SelectedItem` object if you prefer. You must implement an object that contains the `SelectedItem` interface and return a response to a call to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetPropertyPage*> method with VSITEMID set to <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID>.  
   
 ## See Also  
- \<xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetPropertyPage*>   
+ <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetPropertyPage*>   
  [Contributing to the Automation Model](../extensibility/contributing-to-the-automation-model.md)   
  [Understanding Build Configurations](../ide/understanding-build-configurations.md)

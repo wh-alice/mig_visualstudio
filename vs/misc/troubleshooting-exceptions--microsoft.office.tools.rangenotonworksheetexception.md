@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: Microsoft.Office.Tools.RangeNotOnWorksheetException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,12 +37,12 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: Microsoft.Office.Tools.RangeNotOnWorksheetException
-A \<xref:Microsoft.Office.Tools.RangeNotOnWorksheetException> exception is thrown when a view control is created programmatically with a range that is not from the worksheet that corresponds to the controls collection.  
+A <xref:Microsoft.Office.Tools.RangeNotOnWorksheetException> exception is thrown when a view control is created programmatically with a range that is not from the worksheet that corresponds to the controls collection.  
   
 ## Associated Tips  
  Make sure that the range you specify corresponds to the correct worksheet.  
  This exception is thrown when a view control is created programmatically with a range that is not from the worksheet that corresponds to the controls collection.  
   
 ## See Also  
- \<xref:Microsoft.Office.Tools.RangeNotOnWorksheetException>   
+ <xref:Microsoft.Office.Tools.RangeNotOnWorksheetException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

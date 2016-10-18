@@ -1,7 +1,7 @@
 ---
 title: "ClickOnce Unmanaged API Reference"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -93,4 +93,4 @@ translation.priority.ht:
  If successful, returns S_OK; otherwise, returns an HRESULT that represents the failure. If a managed exception occurs, returns 0x80020009 (DISP_E_EXCEPTION).  
   
 ## See Also  
- \<xref:System.Deployment.Application.DeploymentServiceCom.CleanOnlineAppCache*>
+ <xref:System.Deployment.Application.DeploymentServiceCom.CleanOnlineAppCache*>

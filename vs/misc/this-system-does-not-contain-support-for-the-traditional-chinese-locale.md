@@ -1,7 +1,7 @@
 ---
 title: "This system does not contain support for the Traditional Chinese locale"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,6 +39,6 @@ You attempted to use the `VbStrConv.TraditionalChinese` enumeration member, but 
 1.  Upgrade the machine to support the Traditional Chinese locale, or run the application on a machine that supports the locale.  
   
 ## See Also  
- \<xref:System.Globalization>   
- [NOTINBUILD VbStrConv Enumeration](http://msdn.microsoft.com/59f83dd9-6361-47df-a836-02ba9d4cb936)   
+ <xref:System.Globalization>   
+ [NOTINBUILD VbStrConv Enumeration](http://msdn.microsoft.com/en-us/59f83dd9-6361-47df-a836-02ba9d4cb936)   
  [Introduction to International Applications Based on the .NET Framework](../ide/introduction-to-international-applications-based-on-the-.net-framework.md)

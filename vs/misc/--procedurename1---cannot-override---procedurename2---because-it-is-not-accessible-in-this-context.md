@@ -1,7 +1,7 @@
 ---
 title: "&#39;&lt;procedurename1&gt;&#39; cannot override &#39;&lt;procedurename2&gt;&#39; because it is not accessible in this context"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -52,4 +52,4 @@ A procedure or property overrides a procedure or property with an access level t
 ## See Also  
  [Access Levels in Visual Basic](../Topic/Access%20Levels%20in%20Visual%20Basic.md)   
  [Overrides](../Topic/Overrides%20\(Visual%20Basic\).md)   
- [NOT IN BUILD: Overriding Properties and Methods](http://msdn.microsoft.com/2167e8f5-1225-4b13-9ebd-02591ba90213)
+ [NOT IN BUILD: Overriding Properties and Methods](http://msdn.microsoft.com/en-us/2167e8f5-1225-4b13-9ebd-02591ba90213)

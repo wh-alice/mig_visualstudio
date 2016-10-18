@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting IntelliSense in C++ Projects"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -62,5 +62,5 @@ IntelliSense can stop working under certain conditions. Use the following steps 
 -   IntelliSense is not fully supported when you reference a header file multiple times by using the `#include` directive, and the meaning of that header file changes because of various macro states that are defined through the `#define` directive. In other words, when you include a header file several times and the header usage changes under different macro states, IntelliSense does not always work.  
   
 ## See Also  
- [Troubleshooting IntelliSense](http://msdn.microsoft.com/c1b3adb9-0d48-4770-a51e-392ed818c484)   
+ [Troubleshooting IntelliSense](http://msdn.microsoft.com/en-us/c1b3adb9-0d48-4770-a51e-392ed818c484)   
  [How to: Organize Project Output Files for Builds](../Topic/How%20to:%20Organize%20Project%20Output%20Files%20for%20Builds.md)

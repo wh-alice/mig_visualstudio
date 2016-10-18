@@ -1,7 +1,7 @@
 ---
 title: "Creating a Custom Start Page"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -53,7 +53,7 @@ If you cannot create a custom Start Page by using the Start Page project templat
   
      These namespaces let you access Visual Studio commands, controls, and UI settings. For more information, see [Adding Visual Studio Commands to a Start Page](../extensibility/adding-visual-studio-commands-to-a-start-page.md).  
   
-     The following example shows the markup in the .xaml file for a blank Start Page. Any custom content should go in the inner \<xref:System.Windows.Controls.Grid> element.  
+     The following example shows the markup in the .xaml file for a blank Start Page. Any custom content should go in the inner <xref:System.Windows.Controls.Grid> element.  
   
     ```vb  
     <UserControl  

@@ -1,7 +1,7 @@
 ---
 title: "Property or field &#39;&lt;name&gt;&#39; does not have a valid attribute type"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,5 +44,5 @@ You might be using an attribute constructor that that does not accept a valid at
 1.  Check the usage of this attribute.  
   
 ## See Also  
- \<xref:System.AttributeUsageAttribute>   
- [NOT IN BUILD: Attributes in Visual Basic](http://msdn.microsoft.com/620bfc0e-4582-4c8b-8432-ebc5c3dccc22)
+ <xref:System.AttributeUsageAttribute>   
+ [NOT IN BUILD: Attributes in Visual Basic](http://msdn.microsoft.com/en-us/620bfc0e-4582-4c8b-8432-ebc5c3dccc22)

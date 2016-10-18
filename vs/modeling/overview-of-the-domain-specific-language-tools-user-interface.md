@@ -1,7 +1,7 @@
 ---
 title: "Overview of the Domain-Specific Language Tools User Interface"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -46,5 +46,5 @@ When you first open a Domain-Specific Language Tools (DSL Tools) solution in [!I
   
 ## See Also  
  [Overview of Domain-Specific Language Tools](../modeling/overview-of-domain-specific-language-tools.md)   
- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)   
+ [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/en-us/ca5e84cb-a315-465c-be24-76aa3df276aa)   
  [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md)

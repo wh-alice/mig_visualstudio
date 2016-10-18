@@ -1,7 +1,7 @@
 ---
 title: "XML comment tag &#39;&lt;tag&gt;&#39; is not permitted on a &#39;&lt;element&gt;&#39; language element"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na

@@ -1,7 +1,7 @@
 ---
 title: "&#39;&lt;constructor&gt;&#39; in designer-generated type &#39;&lt;type&gt;&#39; should call InitializeComponent method"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -46,5 +46,5 @@ A constructor in a designer-generated type does not call the type's `InitializeC
 -   Add a call to the `InitializeComponent` method in the constructor.  
   
 ## See Also  
- \<xref:Microsoft.VisualBasic.CompilerServices.DesignerGeneratedAttribute>   
- [NOT IN BUILD: Using Constructors and Destructors](http://msdn.microsoft.com/548eebe1-86c4-4377-b2f5-447cb8be3d90)
+ <xref:Microsoft.VisualBasic.CompilerServices.DesignerGeneratedAttribute>   
+ [NOT IN BUILD: Using Constructors and Destructors](http://msdn.microsoft.com/en-us/548eebe1-86c4-4377-b2f5-447cb8be3d90)

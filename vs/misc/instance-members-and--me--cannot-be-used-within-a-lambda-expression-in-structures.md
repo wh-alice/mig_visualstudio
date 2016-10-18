@@ -1,7 +1,7 @@
 ---
 title: "Instance members and &#39;Me&#39; cannot be used within a lambda expression in structures"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -69,5 +69,5 @@ End Structure
   
 ## See Also  
  [Lambda Expressions](../Topic/Lambda%20Expressions%20\(Visual%20Basic\).md)   
- [Me](http://msdn.microsoft.com/a65973c7-cf06-4547-9b25-9fba885525c2)   
+ [Me](http://msdn.microsoft.com/en-us/a65973c7-cf06-4547-9b25-9fba885525c2)   
  [Structure Statement](../Topic/Structure%20Statement.md)

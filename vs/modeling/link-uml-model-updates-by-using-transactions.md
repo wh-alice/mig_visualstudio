@@ -1,7 +1,7 @@
 ---
 title: "Link UML model updates by using transactions"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -42,7 +42,7 @@ When you define an extension to the UML designers in Visual Studio, you can grou
   
  **Microsoft.VisualStudio.Modeling.Sdk.[version].dll**  
   
- Inside your class, declare an imported property that has type \<xref:Microsoft.VisualStudio.Modeling.ExtensionEnablement.ILinkedUndoContext>:  
+ Inside your class, declare an imported property that has type <xref:Microsoft.VisualStudio.Modeling.ExtensionEnablement.ILinkedUndoContext>:  
   
  `using Microsoft.VisualStudio.Modeling.ExtensionEnablement;`  
   

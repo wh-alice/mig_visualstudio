@@ -1,7 +1,7 @@
 ---
 title: "Visual C# IntelliSense"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -51,7 +51,7 @@ Visual C# IntelliSense is available when coding in the editor, and while you deb
  The Completion List in C# is also smart enough to filter out irrelevant tokens and pre-select a token based on context. For more information, see [Filtered Completion Lists in C#](../misc/filtered-completion-lists-in-csharp.md) and [Pre-selected Completion List Items in C#](../misc/pre-selected-completion-list-items-in-csharp.md).  
   
 ###  <a name="CodeSnippets"></a> Code Snippets in Completion Lists  
- In Visual C#, the completion list includes code snippets to help you easily insert predefined bodies of code into your program. Code snippets appear in the completion list as the snippet's [Shortcut Element (Intellisense Code Snippets)](http://msdn.microsoft.com/052cc97a-5c70-42f8-b398-4c3adf670cfa).  For more information about code snippets that are available in Visual C# by default, see [Visual C# Code Snippets](../ide/visual-csharp-code-snippets.md).  
+ In Visual C#, the completion list includes code snippets to help you easily insert predefined bodies of code into your program. Code snippets appear in the completion list as the snippet's [Shortcut Element (Intellisense Code Snippets)](http://msdn.microsoft.com/en-us/052cc97a-5c70-42f8-b398-4c3adf670cfa).  For more information about code snippets that are available in Visual C# by default, see [Visual C# Code Snippets](../ide/visual-csharp-code-snippets.md).  
   
 ###  <a name="Keywords"></a> Language Keywords in Completion Lists  
  In Visual C#, the completion list also includes language keywords. For more information about C# language keywords, see [C# Keywords](../Topic/C%23%20Keywords.md).  
@@ -60,7 +60,7 @@ Visual C# IntelliSense is available when coding in the editor, and while you deb
  In Visual C#, the completion list includes Extension Methods that are in scope.  
   
 > [!NOTE]
->  The completion list does not display all extension methods for \<xref:System.String> objects.  
+>  The completion list does not display all extension methods for <xref:System.String> objects.  
   
  Extension methods use a different icon than instance methods. For a listing of list icons, see [Class View and Object Browser Icons](../ide/class-view-and-object-browser-icons.md). When an instance method and extension method with the same name are both in scope, the completion list displays the extension method icon.  
   
@@ -71,7 +71,7 @@ Visual C# IntelliSense is available when coding in the editor, and while you deb
   
 -   **Interfaces and base classes.** IntelliSense automatically removes items from the interface and base class completion lists, in both class declaration base and interface lists and constraint lists. For example, enums do not appear in the completion list for base classes, because enums cannot be used for base classes. The completion list of base classes only contains interfaces and namespaces. If you select an item in the list and then type a comma, IntelliSense removes base classes from the completion list because Visual C# does not support multiple inheritance. The same behavior occurs for constraint clauses also.  
   
--   **Attributes**: When you apply an attribute to a type, the completion list is filtered so that the list only contains those types that descend from the namespaces that contain those types, such as \<xref:System.Attribute>.  
+-   **Attributes**: When you apply an attribute to a type, the completion list is filtered so that the list only contains those types that descend from the namespaces that contain those types, such as <xref:System.Attribute>.  
   
 -   `as` and `is` operators.  
   
@@ -168,4 +168,4 @@ Visual C# IntelliSense is available when coding in the editor, and while you deb
  The following task shows how IntelliSense automatically hooks up an event handler named `button1_Click` to an event field named `button1.Click`.  
   
 ## See Also  
- [Visual Studio IDE](../Topic/Visual%20Studio%20IDE.md)
+ [Visual Studio IDE](../ide/visual-studio-ide.md)

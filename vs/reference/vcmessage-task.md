@@ -1,7 +1,7 @@
 ---
 title: "VCMessage Task"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -43,7 +43,7 @@ translation.priority.ht:
 Logs warning and error messages during a build.  
   
 ## Remarks  
- This task helps implement MSBuild for Visual C++ and is not intended to be called by the user. For more information, see \<xref:Microsoft.Build.Utilities.TaskLoggingHelper>.  
+ This task helps implement MSBuild for Visual C++ and is not intended to be called by the user. For more information, see <xref:Microsoft.Build.Utilities.TaskLoggingHelper>.  
   
 ## Parameters  
  The following table describes the parameters of the **VCMessage** task.  

@@ -1,7 +1,7 @@
 ---
 title: "Creating Custom Editors and Designers"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -57,7 +57,7 @@ The Visual Studio integrated development environment (IDE) can host different ty
 ##### External Editors  
  External editors are editors that are not integrated into Visual Studio, such as Microsoft Word, Notepad, or Microsoft FrontPage. You might call such an editor if, for example, you are passing text to it from your VSPackage. External editors register themselves and can be used outside Visual Studio. When you call an external editor, and it can be embedded in a host window, then it appears in a window in the IDE. If not, then the IDE creates a separate window for it.  
   
- The \<xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3.IsDocumentInProject*> method sets the document priority by using the \<xref:Microsoft.VisualStudio.Shell.Interop.VSDOCUMENTPRIORITY> enumeration. If the `DP_External` value is specified, the file can be opened by an external editor.  
+ The <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3.IsDocumentInProject*> method sets the document priority by using the <xref:Microsoft.VisualStudio.Shell.Interop.VSDOCUMENTPRIORITY> enumeration. If the `DP_External` value is specified, the file can be opened by an external editor.  
   
 ## Editor Design Decisions  
  The following design questions will help you to choose the type of editor best suited to your application:  
@@ -76,11 +76,11 @@ The Visual Studio integrated development environment (IDE) can host different ty
   
      If your editor needs to support multiple views, the document data and document view objects for the editor must be separate objects. For more information, see [Supporting Multiple Document Views](../extensibility/supporting-multiple-document-views.md).  
   
-     If your editor supports multiple views, do you plan to use the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] core editor's text buffer implementation (\<xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer> object) for your document data object? That is, do you want to support your editor view side-by-side with the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] core editor? The ability to do this is the basis of the forms designer..  
+     If your editor supports multiple views, do you plan to use the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] core editor's text buffer implementation (<xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer> object) for your document data object? That is, do you want to support your editor view side-by-side with the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] core editor? The ability to do this is the basis of the forms designer..  
   
 -   If you need to host an external editor , can the editor be embedded inside [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]?  
   
-     If it can be embedded, you should create a host window for the external editor and then call the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3.IsDocumentInProject*> method and set the \<xref:Microsoft.VisualStudio.Shell.Interop.VSDOCUMENTPRIORITY> enumeration value to `DP_External`. If the editor cannot be embedded, the IDE will automatically create a separate window for it.  
+     If it can be embedded, you should create a host window for the external editor and then call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3.IsDocumentInProject*> method and set the <xref:Microsoft.VisualStudio.Shell.Interop.VSDOCUMENTPRIORITY> enumeration value to `DP_External`. If the editor cannot be embedded, the IDE will automatically create a separate window for it.  
   
 ## In This Section  
  [Walkthrough: Creating a Custom Editor](../extensibility/walkthrough--creating-a-custom-editor.md)  
@@ -112,4 +112,4 @@ The Visual Studio integrated development environment (IDE) can host different ty
  Explains how to create UI elements that match the rest of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
   
 ## See Also  
- \<xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory>
+ <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory>

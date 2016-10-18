@@ -1,7 +1,7 @@
 ---
 title: "T4 Output Directive"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -84,4 +84,4 @@ In [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] text templates, the 
   
  `0` (System default)  
   
- In general, you can use the WebName string or the CodePage number of any of the encodings returned by \<xref:System.Text.Encoding.GetEncodings*?displayProperty=fullName>.
+ In general, you can use the WebName string or the CodePage number of any of the encodings returned by <xref:System.Text.Encoding.GetEncodings*?displayProperty=fullName>.

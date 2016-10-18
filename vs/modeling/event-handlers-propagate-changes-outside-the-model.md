@@ -1,7 +1,7 @@
 ---
 title: "Event Handlers Propagate Changes Outside the Model"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -22,7 +22,7 @@ In Visualization and Modeling SDK, you can define store event handlers to propag
   
 ### To define a store event  
   
-1.  Choose the type of event that you want to monitor. For a full list, look at the properties of \<xref:Microsoft.VisualStudio.Modeling.EventManagerDirectory>. Each property corresponds to a type of event. The most frequently used event types are:  
+1.  Choose the type of event that you want to monitor. For a full list, look at the properties of <xref:Microsoft.VisualStudio.Modeling.EventManagerDirectory>. Each property corresponds to a type of event. The most frequently used event types are:  
   
     -   `ElementAdded` – triggered when a model element, relationship link, shape or connector is created.  
   

@@ -1,7 +1,7 @@
 ---
 title: "&lt;type1&gt; &#39;&lt;typename&gt;&#39; and &lt;type2&gt; &#39;&lt;typename&gt;&#39; conflict in &lt;namespace&gt; &#39;&lt;namespacename&gt;&#39;"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -46,4 +46,4 @@ Two declared elements, such as a class and a module, have the same name in the s
 -   Change the name of one of the elements.  
   
 ## See Also  
- [NOTINBUILD: Resolving a Reference When Multiple Variables Have the Same Name](http://msdn.microsoft.com/9601e39f-1911-44e1-ace5-3f6e090408b9)
+ [NOTINBUILD: Resolving a Reference When Multiple Variables Have the Same Name](http://msdn.microsoft.com/en-us/9601e39f-1911-44e1-ace5-3f6e090408b9)

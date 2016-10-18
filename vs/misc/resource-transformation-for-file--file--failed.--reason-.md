@@ -1,7 +1,7 @@
 ---
 title: "Resource transformation for file &#39;file&#39; failed. &lt;reason&gt;"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -62,5 +62,5 @@ The resources processor used to transform .resx files into binary .resources fil
 3.  Locate the original key values, and then manually delete them from the data list. For example, you have a button named "Button1". You modify the name of this button to "BUTTON1". The key values for both "Button1" and "BUTTON1" are in Form1.resx. Remove all the entries of "Button1", and then rebuild the project.  
   
 ## See Also  
- [Resources in .Resx File Format](http://msdn.microsoft.com/0c476133-87e4-47e8-b0ef-4b88f4ef3dc5)   
- [File Types and File Extensions in Visual Basic and Visual C#](http://msdn.microsoft.com/f793852c-da06-4d52-a826-65f635844772)
+ [Resources in .Resx File Format](http://msdn.microsoft.com/en-us/0c476133-87e4-47e8-b0ef-4b88f4ef3dc5)   
+ [File Types and File Extensions in Visual Basic and Visual C#](http://msdn.microsoft.com/en-us/f793852c-da06-4d52-a826-65f635844772)

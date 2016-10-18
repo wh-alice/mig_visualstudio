@@ -1,7 +1,7 @@
 ---
 title: "Web Site Support Attributes"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -64,7 +64,7 @@ translation.priority.mt:
 [ProvideIntellisenseProvider(typeof(PythonIntellisenseProvider), "IronPythonCodeProvider", "Iron Python", ".py", "IronPython;Python", "IronPython")]public class PythonPackage : Package, IOleComponent  
 ```  
   
- specifies that an instance of PythonIntellisenseProvider, which implements \<xref:Microsoft.VisualStudio.Shell.Interop.IVsIntellisenseProject>, should be created on demand to provide language services.  
+ specifies that an instance of PythonIntellisenseProvider, which implements <xref:Microsoft.VisualStudio.Shell.Interop.IVsIntellisenseProject>, should be created on demand to provide language services.  
   
  The IVsIntellisenseProject implementation handles references and calls the language compiler when a Web page with code is requested but is not cached.  
   

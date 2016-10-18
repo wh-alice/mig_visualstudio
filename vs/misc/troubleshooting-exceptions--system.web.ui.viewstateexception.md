@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.Web.UI.ViewStateException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -38,6 +38,6 @@ translation.priority.mt:
 The exception that is thrown when the view state cannot be loaded or validated.  
   
 ## See Also  
- \<xref:System.Web.UI.ViewStateException>   
+ <xref:System.Web.UI.ViewStateException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)   
  [ASP.NET View State Overview](../Topic/ASP.NET%20View%20State%20Overview.md)

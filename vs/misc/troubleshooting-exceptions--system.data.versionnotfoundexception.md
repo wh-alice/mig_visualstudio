@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.Data.VersionNotFoundException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -33,9 +33,9 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.Data.VersionNotFoundException
-The exception that is thrown when attempting to return a version of a \<xref:System.Data.DataRow> that has been deleted.  
+The exception that is thrown when attempting to return a version of a <xref:System.Data.DataRow> that has been deleted.  
   
 ## See Also  
- \<xref:System.Data.VersionNotFoundException>   
+ <xref:System.Data.VersionNotFoundException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)   
  [How to: Get Specific Versions of a DataRow](../datatools/how-to--get-specific-versions-of-a-datarow.md)

@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Saving User Settings on a Start Page"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -31,7 +31,7 @@ translation.priority.mt:
 # Walkthrough: Saving User Settings on a Start Page
 You can persist user settings for your start page. By following this walkthrough, you can create a control that saves a setting to the registry when the user clicks a button, and then retrieves that setting every time the Start Page loads. Because the Start Page project template includes a customizable user control, and the default Start Page XAML calls that control, you do not have to modify the Start Page itself.  
   
- The settings store that is instantiated in this walkthrough is an instance of the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsWritableSettingsStore> interface, which reads and writes to the following registry location when it is called: HKCU\Software\Microsoft\VisualStudio\14.0\\*CollectionName*  
+ The settings store that is instantiated in this walkthrough is an instance of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWritableSettingsStore> interface, which reads and writes to the following registry location when it is called: HKCU\Software\Microsoft\VisualStudio\14.0\\*CollectionName*  
   
  When it is running in the experimental instance of Visual Studio, the settings store reads and writes to HKCU\Software\Microsoft\VisualStudio\14.0Exp\\*CollectionName.*  
   
@@ -62,7 +62,7 @@ You can persist user settings for your start page. By following this walkthrough
   
 3.  Open MyControl.xaml.  
   
-4.  From the XAML pane, in the top-level \<xref:System.Windows.Controls.UserControl> element definition, add the following event declaration after the namespace declarations.  
+4.  From the XAML pane, in the top-level <xref:System.Windows.Controls.UserControl> element definition, add the following event declaration after the namespace declarations.  
   
     ```  
     Loaded="OnLoaded"  
@@ -70,13 +70,13 @@ You can persist user settings for your start page. By following this walkthrough
   
 5.  In the design pane, click the main area of the control, and then press DELETE.  
   
-     This removes the \<xref:System.Windows.Controls.Border> element and everything in it, and leaves only the top-level \<xref:System.Windows.Controls.Grid> element.  
+     This removes the <xref:System.Windows.Controls.Border> element and everything in it, and leaves only the top-level <xref:System.Windows.Controls.Grid> element.  
   
-6.  From the **Toolbox**, drag a \<xref:System.Windows.Controls.StackPanel> control to the grid.  
+6.  From the **Toolbox**, drag a <xref:System.Windows.Controls.StackPanel> control to the grid.  
   
-7.  Now drag a \<xref:System.Windows.Controls.TextBlock>, a \<xref:System.Windows.Controls.TextBox>, and a Button to the \<xref:System.Windows.Controls.StackPanel>.  
+7.  Now drag a <xref:System.Windows.Controls.TextBlock>, a <xref:System.Windows.Controls.TextBox>, and a Button to the <xref:System.Windows.Controls.StackPanel>.  
   
-8.  Add an **x:Name** attribute for the \<xref:System.Windows.Controls.TextBox>, and a `Click` event for the \<xref:System.Windows.Controls.Button>, as shown in the following example.  
+8.  Add an **x:Name** attribute for the <xref:System.Windows.Controls.TextBox>, and a `Click` event for the <xref:System.Windows.Controls.Button>, as shown in the following example.  
   
     ```xml  
     <StackPanel Width="300" HorizontalAlignment="Center" VerticalAlignment="Center">  
@@ -90,7 +90,7 @@ You can persist user settings for your start page. By following this walkthrough
   
 #### To implement the user control  
   
-1.  In the XAML pane, right-click the `Click` attribute of the \<xref:System.Windows.Controls.Button> element, and then click **Navigate to Event Handler**.  
+1.  In the XAML pane, right-click the `Click` attribute of the <xref:System.Windows.Controls.Button> element, and then click **Navigate to Event Handler**.  
   
      This opens MyControl.xaml.cs, and creates a stub handler for the `Button_Click` event.  
   
@@ -130,7 +130,7 @@ You can persist user settings for your start page. By following this walkthrough
     }  
     ```  
   
-     This property first gets a reference to the \<xref:EnvDTE80.DTE2> interface, which contains the Automation object model, from the \<xref:System.Windows.FrameworkElement.DataContext*> of the user control, and then uses the DTE to get an instance of the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsSettingsManager> interface. Then it uses that instance to return the current user settings.  
+     This property first gets a reference to the <xref:EnvDTE80.DTE2> interface, which contains the Automation object model, from the <xref:System.Windows.FrameworkElement.DataContext*> of the user control, and then uses the DTE to get an instance of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSettingsManager> interface. Then it uses that instance to return the current user settings.  
   
 4.  Fill in the `Button_Click` event as follows.  
   
@@ -210,9 +210,9 @@ You can persist user settings for your start page. By following this walkthrough
 12. The word "Cat" should be displayed in the text box.  
   
 ## Next Steps  
- You can modify this user control to save and retrieve any number of custom settings by using different values from different event handlers to get and set the `SettingsStore` property. As long as you use a different `propertyName` parameter for each call to \<xref:Microsoft.VisualStudio.Shell.Interop.IVsWritableSettingsStore.SetString*>, the values will not overwrite one another in the registry.  
+ You can modify this user control to save and retrieve any number of custom settings by using different values from different event handlers to get and set the `SettingsStore` property. As long as you use a different `propertyName` parameter for each call to <xref:Microsoft.VisualStudio.Shell.Interop.IVsWritableSettingsStore.SetString*>, the values will not overwrite one another in the registry.  
   
 ## See Also  
- \<xref:EnvDTE80.DTE2?displayProperty=fullName>   
+ <xref:EnvDTE80.DTE2?displayProperty=fullName>   
  [Creating Your Own Start Page](../misc/creating-your-own-start-page.md)   
  [Adding Visual Studio Commands to a Start Page](../extensibility/adding-visual-studio-commands-to-a-start-page.md)

@@ -1,7 +1,7 @@
 ---
 title: "Only one of &#39;NotOverridable&#39;, &#39;MustOverride&#39;, or &#39;Overridable&#39; can be specified"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,4 +44,4 @@ Conflicting overriding specifications occur in an element declaration. The overr
 -   Choose one overriding specifier and remove the other keywords from the declaration.  
   
 ## See Also  
- [NOT IN BUILD: Overriding Properties and Methods](http://msdn.microsoft.com/2167e8f5-1225-4b13-9ebd-02591ba90213)
+ [NOT IN BUILD: Overriding Properties and Methods](http://msdn.microsoft.com/en-us/2167e8f5-1225-4b13-9ebd-02591ba90213)

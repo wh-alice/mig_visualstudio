@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio requires Windows 2000 or above."
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,4 +39,4 @@ Visual Studio requires Windows NT 4.0, build 1381 with Service Pack 3, or Window
 1.  Upgrade your current version of Windows NT or Windows to the versions listed above.  
   
 ## See Also  
- [Visual Studio Hardware Requirements](http://msdn.microsoft.com/e99a42ad-f8d6-4f93-b78b-855648f6aed3)
+ [Visual Studio Hardware Requirements](http://msdn.microsoft.com/en-us/e99a42ad-f8d6-4f93-b78b-855648f6aed3)

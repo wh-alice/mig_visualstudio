@@ -1,7 +1,7 @@
 ---
 title: "&lt;deployment&gt; Element (ClickOnce Deployment)"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -116,7 +116,7 @@ Identifies the attributes used for the deployment of updates and exposure to the
 ## Remarks  
  You can configure your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application to scan for updates on startup, scan for updates after startup, or never check for updates. To scan for updates on startup, ensure that the `beforeApplicationStartup` element exists under the `update` element. To scan for updates after startup, ensure that the `expiration` element exists under the `update` element, and that update intervals are provided.  
   
- To disable checking for updates, remove the `subscription` element. When you specify in the deployment manifest to never scan for updates, you can still manually check for updates by using the \<xref:System.Deployment.Application.ApplicationDeployment.CheckForUpdate*> method.  
+ To disable checking for updates, remove the `subscription` element. When you specify in the deployment manifest to never scan for updates, you can still manually check for updates by using the <xref:System.Deployment.Application.ApplicationDeployment.CheckForUpdate*> method.  
   
  For more information on how deploymentProvider relates to updates, see [Choosing a ClickOnce Update Strategy](../deployment/choosing-a-clickonce-update-strategy.md).  
   

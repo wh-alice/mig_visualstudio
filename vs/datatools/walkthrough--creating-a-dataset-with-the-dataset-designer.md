@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Creating a Dataset with the Dataset Designer"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -135,7 +135,7 @@ In this walkthrough you will create a dataset using the **Dataset Designer**. It
   
 -   Add more queries to the TableAdapters. For more information, see [How to: Create TableAdapter Queries](../datatools/how-to--create-tableadapter-queries.md).  
   
--   Add validation logic to the \<xref:System.Data.DataTable.ColumnChanging> or \<xref:System.Data.DataTable.RowChanging> events of the data tables in the dataset. For more information, see [Validate data in datasets](../datatools/validate-data-in-datasets.md).  
+-   Add validation logic to the <xref:System.Data.DataTable.ColumnChanging> or <xref:System.Data.DataTable.RowChanging> events of the data tables in the dataset. For more information, see [Validate data in datasets](../datatools/validate-data-in-datasets.md).  
   
 ## See Also  
  [Data Walkthroughs](../Topic/Data%20Walkthroughs.md)   

@@ -1,7 +1,7 @@
 ---
 title: "Type or &#39;New&#39; expected"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -51,7 +51,7 @@ A type parameter in the declaration of a generic type introduces a constraint li
   
 ## See Also  
  [Generic Types in Visual Basic](../Topic/Generic%20Types%20in%20Visual%20Basic%20\(Visual%20Basic\).md)   
- [Class (Visual Basic)](http://msdn.microsoft.com/0777c6e6-46bc-451b-ad70-57b49d4ef4f7)   
- [Structure (Visual Basic)](http://msdn.microsoft.com/263ce115-ac36-4c05-8cb7-0e0eead5c6d0)   
+ [Class (Visual Basic)](http://msdn.microsoft.com/en-us/0777c6e6-46bc-451b-ad70-57b49d4ef4f7)   
+ [Structure (Visual Basic)](http://msdn.microsoft.com/en-us/263ce115-ac36-4c05-8cb7-0e0eead5c6d0)   
  [New Operator](../Topic/New%20Operator%20\(Visual%20Basic\).md)   
  [Type List](../Topic/Type%20List%20\(Visual%20Basic\).md)

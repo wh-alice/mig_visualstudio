@@ -1,7 +1,7 @@
 ---
 title: "Using the Parallel Stacks Window"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/17/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -38,7 +38,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Using the Parallel Stacks Window
-The **Parallel Stacks** window is useful when you are debugging multithreaded applications. Its **Threads View** shows call stack information for all the threads in your application. It lets you navigate between threads and stack frames on those threads. In managed code, the **Tasks View** shows call stacks of \<xref:System.Threading.Tasks.Task?displayProperty=fullName> objects. In native code, the **Tasks View** shows call stacks of [task groups](../Topic/Task%20Parallelism%20\(Concurrency%20Runtime\).md), [parallel algorithms](../Topic/Parallel%20Algorithms.md), [asynchronous agents](../Topic/Asynchronous%20Agents.md), and [lightweight tasks](../Topic/Task%20Scheduler%20\(Concurrency%20Runtime\).md).  
+The **Parallel Stacks** window is useful when you are debugging multithreaded applications. Its **Threads View** shows call stack information for all the threads in your application. It lets you navigate between threads and stack frames on those threads. In managed code, the **Tasks View** shows call stacks of <xref:System.Threading.Tasks.Task?displayProperty=fullName> objects. In native code, the **Tasks View** shows call stacks of [task groups](../Topic/Task%20Parallelism%20\(Concurrency%20Runtime\).md), [parallel algorithms](../Topic/Parallel%20Algorithms.md), [asynchronous agents](../Topic/Asynchronous%20Agents.md), and [lightweight tasks](../Topic/Task%20Scheduler%20\(Concurrency%20Runtime\).md).  
   
 ## Threads View  
  The following illustration shows one thread that went from Main to A to B and then to some external code. Two other threads started from some external code and then went to A, but one of the threads continued to B and then to some external code, and the other thread continued to C and then to some AnonymousMethod.  
@@ -102,7 +102,7 @@ The **Parallel Stacks** window is useful when you are debugging multithreaded ap
 |Symbol Settings|Displays the corresponding dialog box.|  
   
 ## Tasks View  
- If your application is using \<xref:System.Threading.Tasks.Task?displayProperty=fullName> objects (managed code) or `task_handle` objects (native code) to express parallelism, you can use the combo box in the Parallel Stacks window toolbar to switch to *Tasks View*. Tasks View shows call stacks of tasks instead of threads. Tasks View differs from Threads View as follows:  
+ If your application is using <xref:System.Threading.Tasks.Task?displayProperty=fullName> objects (managed code) or `task_handle` objects (native code) to express parallelism, you can use the combo box in the Parallel Stacks window toolbar to switch to *Tasks View*. Tasks View shows call stacks of tasks instead of threads. Tasks View differs from Threads View as follows:  
   
 -   Call stacks of threads that are not running tasks are not shown.  
   

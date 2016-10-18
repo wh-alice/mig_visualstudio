@@ -1,7 +1,7 @@
 ---
 title: "&#39;WithEvents&#39; variable does not raise any instance events that are accessible to &#39;&lt;containername&gt;&#39;"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,4 +44,4 @@ The object you are referencing does not raise accessible events.
 1.  Modify the access modifiers for the event or choose an event that is accessible in the current context.  
   
 ## See Also  
- [NOT IN BUILD:Events and Event Handlers](http://msdn.microsoft.com/95074a0d-1cbc-4221-a95a-964185c7f962)
+ [NOT IN BUILD:Events and Event Handlers](http://msdn.microsoft.com/en-us/95074a0d-1cbc-4221-a95a-964185c7f962)

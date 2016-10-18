@@ -1,7 +1,7 @@
 ---
 title: "&#39;&lt;typename&gt;&#39; cannot be used as an attribute because it is declared &#39;MustInherit&#39;"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,5 +44,5 @@ Custom attribute classes cannot be declared as `MustInherit`.
 -   Remove the `MustInherit` modifier from custom attributes.  
   
 ## See Also  
- \<xref:System.AttributeUsageAttribute>   
- [NOT IN BUILD: Custom Attributes in Visual Basic](http://msdn.microsoft.com/d72d8a5c-8f64-4614-b15b-cad66845d047)
+ <xref:System.AttributeUsageAttribute>   
+ [NOT IN BUILD: Custom Attributes in Visual Basic](http://msdn.microsoft.com/en-us/d72d8a5c-8f64-4614-b15b-cad66845d047)

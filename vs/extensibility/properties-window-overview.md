@@ -1,7 +1,7 @@
 ---
 title: "Properties Window Overview"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -48,16 +48,16 @@ The **Properties** window is used to display properties for objects selected in 
   
 |Interface Name|Description|  
 |--------------------|-----------------|  
-|\<xref:Microsoft.VisualStudio.Shell.Interop.ICategorizeProperties>|Provides a list of categories to the **Properties** window and maps each property to a category.|  
-|[IDispatch Interface](http://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5)|Exposes an object's methods and properties to programming tools and other applications that support automation.|  
-|\<xref:Microsoft.VisualStudio.Shell.Interop.IProvidePropertyBuilder>|Provides ellipsis (...) buttons called *builders* that open modal dialog windows implemented by the object itself. Used when a value is not easily typed by the user in a text field. For example, it might be used to open a color picker that determines the RGB value for you.|  
-|\<xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer>|Provides access to objects used to update information displayed in the **Properties** window. \<xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer> is implemented by VSPackages for each window that contains selectable objects with related properties to be displayed.|  
-|\<xref:Microsoft.VisualStudio.OLE.Interop.ITypeInfo>|Provides information about the type of an object such as methods of an interface and fields of a structure.|  
-|\<xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection>|Enables VSPackages to receive notification of selection events and to retrieve information about the current project hierarchy, item, element value, and command UI context.|  
-|\<xref:Microsoft.VisualStudio.Shell.Interop.IVsMultiItemSelect>|Provides the environment with access to multiple selections.|  
-|\<xref:Microsoft.VisualStudio.Shell.Interop.IVsPerPropertyBrowsing>|Used to provide localized names on some properties displayed in the **Properties** window.|  
-|\<xref:Microsoft.VisualStudio.Shell.Interop.IVsSelectionEvents>|Notifies registered VSPackages of changes to the current selection, element value, or command UI context.|  
-|\<xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackSelectionEx>|Notifies the environment of a change in the current selection and provides access to hierarchy and item information relating to the new selection.|  
+|<xref:Microsoft.VisualStudio.Shell.Interop.ICategorizeProperties>|Provides a list of categories to the **Properties** window and maps each property to a category.|  
+|[IDispatch Interface](http://msdn.microsoft.com/en-us/ebbff4bc-36b2-4861-9efa-ffa45e013eb5)|Exposes an object's methods and properties to programming tools and other applications that support automation.|  
+|<xref:Microsoft.VisualStudio.Shell.Interop.IProvidePropertyBuilder>|Provides ellipsis (...) buttons called *builders* that open modal dialog windows implemented by the object itself. Used when a value is not easily typed by the user in a text field. For example, it might be used to open a color picker that determines the RGB value for you.|  
+|<xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer>|Provides access to objects used to update information displayed in the **Properties** window. <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer> is implemented by VSPackages for each window that contains selectable objects with related properties to be displayed.|  
+|<xref:Microsoft.VisualStudio.OLE.Interop.ITypeInfo>|Provides information about the type of an object such as methods of an interface and fields of a structure.|  
+|<xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection>|Enables VSPackages to receive notification of selection events and to retrieve information about the current project hierarchy, item, element value, and command UI context.|  
+|<xref:Microsoft.VisualStudio.Shell.Interop.IVsMultiItemSelect>|Provides the environment with access to multiple selections.|  
+|<xref:Microsoft.VisualStudio.Shell.Interop.IVsPerPropertyBrowsing>|Used to provide localized names on some properties displayed in the **Properties** window.|  
+|<xref:Microsoft.VisualStudio.Shell.Interop.IVsSelectionEvents>|Notifies registered VSPackages of changes to the current selection, element value, or command UI context.|  
+|<xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackSelectionEx>|Notifies the environment of a change in the current selection and provides access to hierarchy and item information relating to the new selection.|  
   
  For further information on `IDispatch`, see the MSDN library.  
   

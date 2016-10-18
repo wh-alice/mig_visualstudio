@@ -31,10 +31,10 @@ Runtime activity designers are used to persist and terminate workflow activities
   
 ## In This Section  
  [Persist](../workflowdesigner/persist-activity-designer.md)  
- Used to create and configure a \<xref:System.Activities.Statements.Persist> activity.  
+ Used to create and configure a <xref:System.Activities.Statements.Persist> activity.  
   
  [TerminateWorkflow](../workflowdesigner/terminateworkflow-activity-designer.md)  
- Used to create and configure a \<xref:System.Activities.Statements.TerminateWorkflow> activity.  
+ Used to create and configure a <xref:System.Activities.Statements.TerminateWorkflow> activity.  
   
 ## Reference  
   

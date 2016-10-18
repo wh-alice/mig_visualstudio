@@ -1,7 +1,7 @@
 ---
 title: "Pass data between forms"
 ms.custom: na
-ms.date: "10/07/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -106,13 +106,13 @@ This walkthrough provides step-by-step instructions for passing data from one fo
      The **NorthwindDataSet** is added to your project, and the **Customers** and **Orders** tables appear in the **Data Sources** window.  
   
 ## Create the first form (Form1)  
- You can create a data-bound grid (a \<xref:System.Windows.Forms.DataGridView> control), by dragging the **Customers** node from the **Data Sources** window onto the form.  
+ You can create a data-bound grid (a <xref:System.Windows.Forms.DataGridView> control), by dragging the **Customers** node from the **Data Sources** window onto the form.  
   
 #### To create a data-bound grid on the form  
   
 -   Drag the main **Customers** node from the **Data Sources** window onto **Form1**.  
   
-     A \<xref:System.Windows.Forms.DataGridView> and a tool strip (\<xref:System.Windows.Forms.BindingNavigator>) for navigating records appear on **Form1**. A [NorthwindDataSet](../datatools/dataset-tools-in-visual-studio.md), [CustomersTableAdapter](../datatools/tableadapter-overview.md), \<xref:System.Windows.Forms.BindingSource>, and \<xref:System.Windows.Forms.BindingNavigator> appear in the component tray.  
+     A <xref:System.Windows.Forms.DataGridView> and a tool strip (<xref:System.Windows.Forms.BindingNavigator>) for navigating records appear on **Form1**. A [NorthwindDataSet](../datatools/dataset-tools-in-visual-studio.md), [CustomersTableAdapter](../datatools/tableadapter-overview.md), <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray.  
   
 ## Create the second form (Form2)  
   
@@ -124,7 +124,7 @@ This walkthrough provides step-by-step instructions for passing data from one fo
   
 3.  Drag the main **Orders** node from the **Data Sources** window onto **Form2**.  
   
-     A \<xref:System.Windows.Forms.DataGridView> and a tool strip (\<xref:System.Windows.Forms.BindingNavigator>) for navigating records appear on **Form2**. A [NorthwindDataSet](../datatools/dataset-tools-in-visual-studio.md), [CustomersTableAdapter](../datatools/tableadapter-overview.md), \<xref:System.Windows.Forms.BindingSource>, and \<xref:System.Windows.Forms.BindingNavigator> appear in the component tray.  
+     A <xref:System.Windows.Forms.DataGridView> and a tool strip (<xref:System.Windows.Forms.BindingNavigator>) for navigating records appear on **Form2**. A [NorthwindDataSet](../datatools/dataset-tools-in-visual-studio.md), [CustomersTableAdapter](../datatools/tableadapter-overview.md), <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray.  
   
 4.  Delete the **OrdersBindingNavigator** from the component tray.  
   

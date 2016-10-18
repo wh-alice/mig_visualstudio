@@ -1,7 +1,7 @@
 ---
 title: "Dataset tools in Visual Studio"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -98,7 +98,7 @@ translation.priority.mt:
   
     -   [Save data back to the database](../datatools/save-data-back-to-the-database.md)  
   
--   Query and search the data in the dataset. For more information, see [Query datasets](../datatools/query-datasets.md). [!INCLUDE[linq_dataset](../datatools/includes/linq_dataset_md.md)] enables [LINQ (Language-Integrated Query)](../Topic/LINQ%20\(Language-Integrated%20Query\).md) over data in a \<xref:System.Data.DataSet> object. For more information, see [LINQ to DataSet](../Topic/LINQ%20to%20DataSet.md).  
+-   Query and search the data in the dataset. For more information, see [Query datasets](../datatools/query-datasets.md). [!INCLUDE[linq_dataset](../datatools/includes/linq_dataset_md.md)] enables [LINQ (Language-Integrated Query)](../Topic/LINQ%20\(Language-Integrated%20Query\).md) over data in a <xref:System.Data.DataSet> object. For more information, see [LINQ to DataSet](../Topic/LINQ%20to%20DataSet.md).  
   
 -   Use the **Data Sources** window to bind user-interface controls to the dataset or its individual columns, and to specify which columns are user-editable. For more information, see [Bind controls to data in Visual Studio](../datatools/bind-controls-to-data-in-visual-studio.md).  
   

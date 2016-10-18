@@ -1,7 +1,7 @@
 ---
 title: "How to: Support Outlining in a Legacy Language Service"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,16 +44,16 @@ Outlining is used to expand or collapse different regions of text. The way outli
   
 ### To support outlining  
   
-1.  Implement \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsOutliningCapableLanguage> on your language service object.  
+1.  Implement <xref:Microsoft.VisualStudio.TextManager.Interop.IVsOutliningCapableLanguage> on your language service object.  
   
-2.  Call \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsOutliningSession.AddOutlineRegions*> on the current outlining session object to add new outline regions.  
+2.  Call <xref:Microsoft.VisualStudio.TextManager.Interop.IVsOutliningSession.AddOutlineRegions*> on the current outlining session object to add new outline regions.  
   
 ## Robust Programming  
- When a user selects **Collapse To Definitions** on the **Outlining** menu, the IDE calls \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsOutliningCapableLanguage.CollapseToDefinitions*> on your language service.  
+ When a user selects **Collapse To Definitions** on the **Outlining** menu, the IDE calls <xref:Microsoft.VisualStudio.TextManager.Interop.IVsOutliningCapableLanguage.CollapseToDefinitions*> on your language service.  
   
- When this method is called, the IDE passes in an \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextLines> pointer (a pointer to a text buffer) and an \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsOutliningSession> (a pointer to the current outlining session).  
+ When this method is called, the IDE passes in an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextLines> pointer (a pointer to a text buffer) and an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsOutliningSession> (a pointer to the current outlining session).  
   
- You can call the \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsOutliningSession.AddOutlineRegions*> method for multiple outline regions by specifying these regions in the `rgOutlnReg` parameter. The `rgOutlnReg` parameter is a \<xref:Microsoft.VisualStudio.TextManager.Interop.NewOutlineRegion> structure. This process lets you to specify different characteristics of the hidden region, such as whether a particular region is expanded or collapsed.  
+ You can call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsOutliningSession.AddOutlineRegions*> method for multiple outline regions by specifying these regions in the `rgOutlnReg` parameter. The `rgOutlnReg` parameter is a <xref:Microsoft.VisualStudio.TextManager.Interop.NewOutlineRegion> structure. This process lets you to specify different characteristics of the hidden region, such as whether a particular region is expanded or collapsed.  
   
 > [!NOTE]
 >  Be careful about hiding new-line characters. Hidden text should extend from the start of the first line to the last character of the last line in a section, leaving the final new-line character visible.  

@@ -1,7 +1,7 @@
 ---
 title: "Configure Service Reference Dialog Box"
 ms.custom: na
-ms.date: "10/11/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,7 +37,7 @@ translation.priority.mt:
 The **Configure Service Reference** dialog box enables you to configure the behavior of [!INCLUDE[vsindigo](../datatools/includes/vsindigo_md.md)] services.  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose Import and Export Settings on the Tools menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose Import and Export Settings on the Tools menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
  To access the **Configure Service Reference** dialog box, right-click a service reference in **Solution Explorer** and choose **Configure Service Reference**. You can also access the dialog box by clicking the **Advanced** button in the **Add Service Reference Dialog Box**.  
   
@@ -78,10 +78,10 @@ The **Configure Service Reference** dialog box enables you to configure the beha
  Determines whether message contract types will be generated for a WCF client. For more information about message contracts, see [Using Message Contracts](../Topic/Using%20Message%20Contracts.md).  
   
  **Collection type**  
- Specifies the list collection type for a WCF client. The default type is \<xref:System.Array>.  
+ Specifies the list collection type for a WCF client. The default type is <xref:System.Array>.  
   
  **Dictionary collection type**  
- Specifies the dictionary collection type for a WCF client. The default type is \<xref:System.Collections.Generic.Dictionary`2>.  
+ Specifies the dictionary collection type for a WCF client. The default type is <xref:System.Collections.Generic.Dictionary`2>.  
   
  **Reuse types in referenced assemblies**  
  Determines whether a WCF client will try to reuse that already exist in referenced assemblies instead of generating new types when a service is added or updated. By default, this option is checked.  
@@ -96,7 +96,7 @@ The **Configure Service Reference** dialog box enables you to configure the beha
  Contains a list of referenced assemblies for the project or Web site. When **Reuse types in specified referenced assemblies** is selected, individual assemblies can be selected or cleared.  
   
  **Add Web Reference**  
- Displays the [NIB: Add Web Reference Dialog Box](http://msdn.microsoft.com/bdf05776-c591-40af-bfd7-e1e2aa1e87b5).  
+ Displays the [NIB: Add Web Reference Dialog Box](http://msdn.microsoft.com/en-us/bdf05776-c591-40af-bfd7-e1e2aa1e87b5).  
   
 > [!NOTE]
 >  This option should be used only for projects that target version 2.0 of the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)].  

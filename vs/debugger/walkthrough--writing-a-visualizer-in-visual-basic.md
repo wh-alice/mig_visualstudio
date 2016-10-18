@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Writing a Visualizer in Visual Basic"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -40,7 +40,7 @@ translation.priority.ht:
 This walkthrough shows how to write a simple visualizer by using [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)]. The visualizer you will create in this walkthrough displays the contents of a string using a Windows Forms message box. This simple string visualizer is a basic example to show how you can create visualizers for other data types more applicable to your projects.  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition. To change your settings, go to the **Tools** menu and choose **Import and Export** . For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition. To change your settings, go to the **Tools** menu and choose **Import and Export** . For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
  Visualizer code must be placed in a DLL that will be read by the debugger. The first step is to create a class library project for the DLL.  
   
@@ -111,7 +111,7 @@ This walkthrough shows how to write a simple visualizer by using [!INCLUDE[vbprv
         End Sub  
     ```  
   
- The `Show` method contains the code that actually creates the visualizer dialog box, or other user interface, and displays the information that has been passed to the visualizer from the debugger. You must add the code that creates the dialog box and displays the information. In this walkthrough, you will do this using a Windows Forms message box. First, you must add a reference and `Imports` statement for \<xref:System.Windows.Forms>.  
+ The `Show` method contains the code that actually creates the visualizer dialog box, or other user interface, and displays the information that has been passed to the visualizer from the debugger. You must add the code that creates the dialog box and displays the information. In this walkthrough, you will do this using a Windows Forms message box. First, you must add a reference and `Imports` statement for <xref:System.Windows.Forms>.  
   
 #### To add System.Windows.Forms  
   

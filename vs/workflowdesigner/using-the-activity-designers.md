@@ -64,7 +64,7 @@ The [!INCLUDE[wfd1](../workflowdesigner/includes/wfd1_md.md)] includes a number 
  Activity designers used to interoperate between [!INCLUDE[vstecwinfx](../workflowdesigner/includes/vstecwinfx_md.md)]/[!INCLUDE[netfx35_short](../workflowdesigner/includes/netfx35_short_md.md)] and [!INCLUDE[netfx40_short](../workflowdesigner/includes/netfx40_short_md.md)] workflows.  
   
 ## Reference  
- \<xref:System.Activities.Presentation.Toolbox.ToolboxCategory>  
+ <xref:System.Activities.Presentation.Toolbox.ToolboxCategory>  
   
 ## Related Sections  
  [Using the Workflow Designer](../workflowdesigner/using-the-workflow-designer.md)  

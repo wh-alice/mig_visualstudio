@@ -1,7 +1,7 @@
 ---
 title: "AssignTargetPath Task"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -42,11 +42,11 @@ This task accepts a list files and adds `<TargetPath>` attributes if they are no
 |Parameter|Description|  
 |---------------|-----------------|  
 |`RootFolder`|Optional `string` input parameter.<br /><br /> Contains the path to the folder that contains the target links.|  
-|`Files`|Optional \<xref:Microsoft.Build.Framework.ITaskItem>`[]` input parameter.<br /><br /> Contains the incoming list of files.|  
-|`AssignedFiles`|Optional<br /><br /> \<xref:Microsoft.Build.Framework.ITaskItem> `[]` output parameter.<br /><br /> Contains the resulting list of files.|  
+|`Files`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` input parameter.<br /><br /> Contains the incoming list of files.|  
+|`AssignedFiles`|Optional<br /><br /> <xref:Microsoft.Build.Framework.ITaskItem> `[]` output parameter.<br /><br /> Contains the resulting list of files.|  
   
 ## Remarks  
- In addition to the parameters listed above, this task inherits parameters from the \<xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the \<xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../reference/taskextension-base-class.md).  
+ In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../reference/taskextension-base-class.md).  
   
 ## Example  
  The following example executes the `AssignTargetPath` task to configure a project.  

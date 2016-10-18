@@ -1,7 +1,7 @@
 ---
 title: "Value (XElement Dynamic Property)"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -38,12 +38,12 @@ elem.Value
 ```  
   
 ## Property Value/Return Value  
- A \<xref:System.String> that represents the concatenated contents of the element.  
+ A <xref:System.String> that represents the concatenated contents of the element.  
   
 ## Remarks  
- This property is equivalent to the \<xref:System.Xml.Linq.XElement.Value*> property of the \<xref:System.Xml.Linq.XElement?displayProperty=fullName> class, but this dynamic property also supports change notifications.  
+ This property is equivalent to the <xref:System.Xml.Linq.XElement.Value*> property of the <xref:System.Xml.Linq.XElement?displayProperty=fullName> class, but this dynamic property also supports change notifications.  
   
 ## See Also  
- \<xref:System.Xml.Linq.XElement.Value*?displayProperty=fullName>   
+ <xref:System.Xml.Linq.XElement.Value*?displayProperty=fullName>   
  [XElement Class Dynamic Properties](../designers/xelement-class-dynamic-properties.md)   
  [Xml](../designers/xml--xelement-dynamic-property-.md)

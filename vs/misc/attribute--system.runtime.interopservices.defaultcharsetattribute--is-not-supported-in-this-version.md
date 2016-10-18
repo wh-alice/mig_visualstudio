@@ -1,7 +1,7 @@
 ---
 title: "Attribute &#39;System.Runtime.InteropServices.DefaultCharSetAttribute&#39; is not supported in this version"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -35,7 +35,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Attribute &#39;System.Runtime.InteropServices.DefaultCharSetAttribute&#39; is not supported in this version
-The \<xref:System.Runtime.InteropServices.DefaultCharSetAttribute?displayProperty=fullName> attribute allows you to specify the character set to be used in marshaled strings. Its value takes a member of the \<xref:System.Runtime.InteropServices.CharSet?displayProperty=fullName> enumeration.  
+The <xref:System.Runtime.InteropServices.DefaultCharSetAttribute?displayProperty=fullName> attribute allows you to specify the character set to be used in marshaled strings. Its value takes a member of the <xref:System.Runtime.InteropServices.CharSet?displayProperty=fullName> enumeration.  
   
  The current version of [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] does not support this attribute. Support is possible in future versions.  
   
@@ -55,7 +55,7 @@ The \<xref:System.Runtime.InteropServices.DefaultCharSetAttribute?displayPropert
      If you do not specify the character set in the `Declare` statement, it defaults to ANSI.  
   
 ## See Also  
- \<xref:System.Runtime.InteropServices.DefaultCharSetAttribute>   
- \<xref:System.Runtime.InteropServices.CharSet>   
- [NOT IN BUILD: Attributes in Visual Basic](http://msdn.microsoft.com/620bfc0e-4582-4c8b-8432-ebc5c3dccc22)   
+ <xref:System.Runtime.InteropServices.DefaultCharSetAttribute>   
+ <xref:System.Runtime.InteropServices.CharSet>   
+ [NOT IN BUILD: Attributes in Visual Basic](http://msdn.microsoft.com/en-us/620bfc0e-4582-4c8b-8432-ebc5c3dccc22)   
  [Declare Statement](../Topic/Declare%20Statement.md)

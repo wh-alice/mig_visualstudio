@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.DuplicateWaitObjectException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,15 +37,15 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.DuplicateWaitObjectException
-A \<xref:System.DuplicateWaitObjectException> exception is thrown if the array of \<xref:System.Threading.WaitHandle> objects passed to \<xref:System.Threading.WaitHandle.WaitAll*> or \<xref:System.Threading.WaitHandle.WaitAny*> contains any duplicate operating system handles.  
+A <xref:System.DuplicateWaitObjectException> exception is thrown if the array of <xref:System.Threading.WaitHandle> objects passed to <xref:System.Threading.WaitHandle.WaitAll*> or <xref:System.Threading.WaitHandle.WaitAny*> contains any duplicate operating system handles.  
   
 ## Associated Tips  
  **Make sure the WaitHandle objects passed to WaitAll or WaitAny are unique.**  
- A \<xref:System.Threading.WaitHandle> array cannot contain multiple references to the same object.  
+ A <xref:System.Threading.WaitHandle> array cannot contain multiple references to the same object.  
   
 ### Remarks  
- The Common Language Runtime (CLR) provides a thread-synchronization mechanism based on synchronization objects waiting for execution in an array of \<xref:System.Threading.WaitHandle> objects.  
+ The Common Language Runtime (CLR) provides a thread-synchronization mechanism based on synchronization objects waiting for execution in an array of <xref:System.Threading.WaitHandle> objects.  
   
 ## See Also  
- \<xref:System.DuplicateWaitObjectException>   
+ <xref:System.DuplicateWaitObjectException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

@@ -1,7 +1,7 @@
 ---
 title: "IDiaEnumLineNumbers"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -47,7 +47,7 @@ IDiaEnumLineNumbers : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[IDiaEnumLineNumbers::get__NewEnum](../debugger/idiaenumlinenumbers--get__newenum.md)|Retrieves the [IEnumVARIANT Interface](http://msdn.microsoft.com/139e3c93-faef-4003-9079-e0e94494db3e) version of this enumerator.|  
+|[IDiaEnumLineNumbers::get__NewEnum](../debugger/idiaenumlinenumbers--get__newenum.md)|Retrieves the [IEnumVARIANT Interface](http://msdn.microsoft.com/en-us/139e3c93-faef-4003-9079-e0e94494db3e) version of this enumerator.|  
 |[IDiaEnumLineNumbers::get_Count](../debugger/idiaenumlinenumbers--get_count.md)|Retrieves the number of line numbers.|  
 |[IDiaEnumLineNumbers::Item](../debugger/idiaenumlinenumbers--item.md)|Retrieves a line number by means of an index.|  
 |[IDiaEnumLineNumbers::Next](../debugger/idiaenumlinenumbers--next.md)|Retrieves a specified number of line numbers in the enumeration sequence.|  

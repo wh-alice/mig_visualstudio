@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.OperationCanceledException"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -32,12 +32,12 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.OperationCanceledException
-An \<xref:System.OperationCanceledException> is thrown when an operation is made with the \<xref:Microsoft.VisualBasic.FileIO.UICancelOption> set to `ThrowException` and the operation is cancelled.  
+An <xref:System.OperationCanceledException> is thrown when an operation is made with the <xref:Microsoft.VisualBasic.FileIO.UICancelOption> set to `ThrowException` and the operation is cancelled.  
   
 ## Associated Tips  
- If you would prefer that this exception not be thrown, set \<xref:System.OperationCanceledException> to `DoNothing`.  
- \<xref:Microsoft.VisualBasic.FileIO.UICancelOption> has a default value of `ThrowException`. If you do not wish this exception to be thrown when the user cancels the operation, set the enumeration value to `DoNothing`.  
+ If you would prefer that this exception not be thrown, set <xref:System.OperationCanceledException> to `DoNothing`.  
+ <xref:Microsoft.VisualBasic.FileIO.UICancelOption> has a default value of `ThrowException`. If you do not wish this exception to be thrown when the user cancels the operation, set the enumeration value to `DoNothing`.  
   
 ## See Also  
- \<xref:System.OperationCanceledException>   
+ <xref:System.OperationCanceledException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

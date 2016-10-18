@@ -1,7 +1,7 @@
 ---
 title: "Intercepting Legacy Language Service Commands"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -35,9 +35,9 @@ translation.priority.mt:
 With [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], you can have the language service intercept commands that the text view would otherwise handle. This is useful for language-specific behavior that the text view does not manage. You can intercept these commands by adding one or more command filters to the text view from your language service.  
   
 ## Getting and Routing the Command  
- A command filter is an \<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> object that monitors certain character sequences or key commands. You can associate more than one command filter with a single text view. Each text view maintains a chain of command filters. After you create a new command filter, you add the filter to the chain for the appropriate text view.  
+ A command filter is an <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> object that monitors certain character sequences or key commands. You can associate more than one command filter with a single text view. Each text view maintains a chain of command filters. After you create a new command filter, you add the filter to the chain for the appropriate text view.  
   
- Call the \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.AddCommandFilter*> method on the \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> to add your command filter to the chain. When you call \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.AddCommandFilter*>, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] returns another command filter to which you can pass the commands that your command filter does not handle.  
+ Call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.AddCommandFilter*> method on the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> to add your command filter to the chain. When you call <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.AddCommandFilter*>, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] returns another command filter to which you can pass the commands that your command filter does not handle.  
   
  You have the following options for command handling:  
   

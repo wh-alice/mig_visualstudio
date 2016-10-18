@@ -1,7 +1,7 @@
 ---
 title: "How to: Execute a Stored Procedure that Returns No Value"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,7 +39,7 @@ translation.priority.ht:
 # How to: Execute a Stored Procedure that Returns No Value
 To execute a stored procedure that returns no value, you can run a TableAdapter query that is configured to run a stored procedure (for example, `CustomersTableAdapter.UpdateTableData(CustomersDataTable)`).  
   
- If your application does not use TableAdapters, call the `ExecuteNonQuery` method on a command object, setting its `CommandType` property to \<xref:System.Data.CommandType>. ("Command object" refers to the specific command for the [.NET Framework Data Provider](../Topic/.NET%20Framework%20Data%20Providers.md) your application is using. For example, if your application is using the .NET Framework Data Provider for SQL Server, then the command object would be \<xref:System.Data.SqlClient.SqlCommand>.)  
+ If your application does not use TableAdapters, call the `ExecuteNonQuery` method on a command object, setting its `CommandType` property to <xref:System.Data.CommandType>. ("Command object" refers to the specific command for the [.NET Framework Data Provider](../Topic/.NET%20Framework%20Data%20Providers.md) your application is using. For example, if your application is using the .NET Framework Data Provider for SQL Server, then the command object would be <xref:System.Data.SqlClient.SqlCommand>.)  
   
  The following examples show how to execute stored procedures that return no value from a database using either TableAdapters or command objects. For more information on querying with TableAdapters and commands, see [Fill datasets by using TableAdapters](../datatools/fill-datasets-by-using-tableadapters.md).  
   
@@ -80,7 +80,7 @@ To execute a stored procedure that returns no value, you can run a TableAdapter 
   
          -or-  
   
-    -   To create an instance in code, replace the following code with the names of your \<xref:System.Data.DataSet> and TableAdapter.  
+    -   To create an instance in code, replace the following code with the names of your <xref:System.Data.DataSet> and TableAdapter.  
   
          `Dim tableAdapter As New DataSetTableAdapters.TableAdapter`  
   
@@ -101,13 +101,13 @@ To execute a stored procedure that returns no value, you can run a TableAdapter 
 ## Executing Stored Procedures that Return No Value Using a Command Object  
  The following example shows how to create a command and execute a stored procedure that returns no value. For information on setting and getting parameter values for a command, see [How to: Set and Get Parameters for Command Objects](../Topic/How%20to:%20Set%20and%20Get%20Parameters%20for%20Command%20Objects.md).  
   
- This example uses the \<xref:System.Data.SqlClient.SqlCommand> object and requires:  
+ This example uses the <xref:System.Data.SqlClient.SqlCommand> object and requires:  
   
--   References to the \<xref:System>, \<xref:System.Data>, and \<xref:System.Xml> namespaces.  
+-   References to the <xref:System>, <xref:System.Data>, and <xref:System.Xml> namespaces.  
   
 #### To execute a stored procedure that returns no value using a DataCommand  
   
--   Add the following code to a method that you want to execute the stored procedure from. Call the `ExecuteNonQuery` method of a command to return no value (for example, \<xref:System.Data.SqlClient.SqlCommand.ExecuteNonQuery*>).  
+-   Add the following code to a method that you want to execute the stored procedure from. Call the `ExecuteNonQuery` method of a command to return no value (for example, <xref:System.Data.SqlClient.SqlCommand.ExecuteNonQuery*>).  
   
      [!code[VbRaddataFillingAndExecuting#15](../datatools/codesnippet/CSharp/how-to--execute-a-stored-procedure-that-returns-no-value_2.cs)]
 [!code[VbRaddataFillingAndExecuting#15](../datatools/codesnippet/VisualBasic/how-to--execute-a-stored-procedure-that-returns-no-value_2.vb)]  
@@ -116,10 +116,10 @@ To execute a stored procedure that returns no value, you can run a TableAdapter 
  The application requires permission to access the database and execute the SQL statement.  
   
 ## See Also  
- \<xref:System.Data.SqlClient.SqlCommand.ExecuteNonQuery*?displayProperty=fullName>   
- \<xref:System.Data.OleDb.OleDbCommand.ExecuteNonQuery*?displayProperty=fullName>   
- \<xref:System.Data.Odbc.OdbcCommand.ExecuteNonQuery*?displayProperty=fullName>   
- \<xref:System.Data.OracleClient.OracleCommand.ExecuteNonQuery*?displayProperty=fullName>   
+ <xref:System.Data.SqlClient.SqlCommand.ExecuteNonQuery*?displayProperty=fullName>   
+ <xref:System.Data.OleDb.OleDbCommand.ExecuteNonQuery*?displayProperty=fullName>   
+ <xref:System.Data.Odbc.OdbcCommand.ExecuteNonQuery*?displayProperty=fullName>   
+ <xref:System.Data.OracleClient.OracleCommand.ExecuteNonQuery*?displayProperty=fullName>   
  [How to: Create TableAdapter Queries](../datatools/how-to--create-tableadapter-queries.md)   
  [How to: Edit TableAdapter Queries](../datatools/how-to--edit-tableadapter-queries.md)   
  [How to: Fill a dataset with data](../datatools/how-to--fill-a-dataset-with-data.md)   

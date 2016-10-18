@@ -1,7 +1,7 @@
 ---
 title: "Attribute &#39;&lt;attributename&gt;&#39; cannot be applied to a module"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,5 +44,5 @@ You attempted to apply an attribute to a module whose `AttributeUsageAttribute` 
 1.  Check the attribute declaration and specify `AttributeTargets.Module`or`AttributeTargets.All`.  
   
 ## See Also  
- \<xref:System.AttributeUsageAttribute>   
- \<xref:System.AttributeTargets>
+ <xref:System.AttributeUsageAttribute>   
+ <xref:System.AttributeTargets>

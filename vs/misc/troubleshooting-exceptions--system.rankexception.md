@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.RankException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,7 +37,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.RankException
-A \<xref:System.RankException> exception is thrown when an array with the wrong number of dimensions is passed to a method.  
+A <xref:System.RankException> exception is thrown when an array with the wrong number of dimensions is passed to a method.  
   
 ## Associated Tips  
  **Make sure your array has the required number of dimensions.**  
@@ -49,6 +49,6 @@ A \<xref:System.RankException> exception is thrown when an array with the wrong 
  Since array subscripts start at 0, the lowest available subscript for every dimension is always 0.  
   
 ## See Also  
- \<xref:System.RankException>   
+ <xref:System.RankException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)   
  [Arrays](../Topic/Arrays%20in%20Visual%20Basic.md)

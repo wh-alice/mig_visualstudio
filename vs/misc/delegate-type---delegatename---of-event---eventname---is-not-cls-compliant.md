@@ -1,7 +1,7 @@
 ---
 title: "Delegate type &#39;&lt;delegatename&gt;&#39; of event &#39;&lt;eventname&gt;&#39; is not CLS-compliant"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,9 +37,9 @@ translation.priority.mt:
 # Delegate type &#39;&lt;delegatename&gt;&#39; of event &#39;&lt;eventname&gt;&#39; is not CLS-compliant
 An [Event Statement](../Topic/Event%20Statement.md) uses a delegate to specify its signature, but the [Delegate Statement](../Topic/Delegate%20Statement.md) is marked as `<CLSCompliant(False)>` or is not marked.  
   
- When you apply the \<xref:System.CLSCompliantAttribute> attribute to a programming element, you set the attribute's `isCompliant` parameter to either `True` or `False` to indicate compliance or noncompliance. There is no default for this parameter, and you must supply a value.  
+ When you apply the <xref:System.CLSCompliantAttribute> attribute to a programming element, you set the attribute's `isCompliant` parameter to either `True` or `False` to indicate compliance or noncompliance. There is no default for this parameter, and you must supply a value.  
   
- If you do not apply \<xref:System.CLSCompliantAttribute> to an element, it is considered to be noncompliant.  
+ If you do not apply <xref:System.CLSCompliantAttribute> to an element, it is considered to be noncompliant.  
   
  By default, this message is a warning. For information on hiding warnings or treating warnings as errors, see [Configuring Warnings in Visual Basic](../ide/configuring-warnings-in-visual-basic.md).  
   
@@ -47,9 +47,9 @@ An [Event Statement](../Topic/Event%20Statement.md) uses a delegate to specify i
   
 ### To correct this error  
   
--   If you require CLS compliance and have control over the definition of the delegate, apply \<xref:System.CLSCompliantAttribute> to its declaration to mark it as `<CLSCompliant(True)>`.  
+-   If you require CLS compliance and have control over the definition of the delegate, apply <xref:System.CLSCompliantAttribute> to its declaration to mark it as `<CLSCompliant(True)>`.  
   
--   If you do not have control over the definition of the delegate or cannot mark it as compliant, remove the \<xref:System.CLSCompliantAttribute> from the `Event` statement or mark it as `<CLSCompliant(False)>`.  
+-   If you do not have control over the definition of the delegate or cannot mark it as compliant, remove the <xref:System.CLSCompliantAttribute> from the `Event` statement or mark it as `<CLSCompliant(False)>`.  
   
 ## See Also  
- [\<PAVE OVER> Writing CLS-Compliant Code](http://msdn.microsoft.com/4c705105-69a2-4e5e-b24e-0633bc32c7f3)
+ [\<PAVE OVER> Writing CLS-Compliant Code](http://msdn.microsoft.com/en-us/4c705105-69a2-4e5e-b24e-0633bc32c7f3)

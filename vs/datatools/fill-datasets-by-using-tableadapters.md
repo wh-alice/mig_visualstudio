@@ -1,7 +1,7 @@
 ---
 title: "Fill datasets by using TableAdapters"
 ms.custom: na
-ms.date: "10/07/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -62,13 +62,13 @@ A TableAdapter component  fills a dataset with data from the database, based on 
   
  ![Data flow in a client application](../datatools/media/clientdatadiagram.gif "ClientDataDiagram")  
   
- While TableAdapters are designed with the **Dataset Designer**, the TableAdapter classes are not generated as nested classes of  \<xref:System.Data.DataSet>. They are located in separate namespaces that are specific to each dataset. For example, if you have a dataset named `NorthwindDataSet`, the TableAdapters that are associated with  \<xref:System.Data.DataTable>s in the `NorthwindDataSet` would be in the `NorthwindDataSetTableAdapters` namespace. To access a particular TableAdapter programmatically, you must declare a new instance of the TableAdapter. For example:  
+ While TableAdapters are designed with the **Dataset Designer**, the TableAdapter classes are not generated as nested classes of  <xref:System.Data.DataSet>. They are located in separate namespaces that are specific to each dataset. For example, if you have a dataset named `NorthwindDataSet`, the TableAdapters that are associated with  <xref:System.Data.DataTable>s in the `NorthwindDataSet` would be in the `NorthwindDataSetTableAdapters` namespace. To access a particular TableAdapter programmatically, you must declare a new instance of the TableAdapter. For example:  
   
  [!code[VbRaddataTableAdapters#7](../datatools/codesnippet/CSharp/fill-datasets-by-using-tableadapters_1.cs)]
 [!code[VbRaddataTableAdapters#7](../datatools/codesnippet/VisualBasic/fill-datasets-by-using-tableadapters_1.vb)]  
   
 ## Associated DataTable schema  
- When you create a TableAdapter, you use the initial query or stored procedure  to define the schema of the TableAdapter's associated \<xref:System.Data.DataTable>. You run this initial query or stored procedure by calling the TableAdapter's `Fill` method (which fills the TableAdapter's associated \<xref:System.Data.DataTable>). Any changes that are made to the TableAdapter's main query are reflected in the schema of the associated data table. For example, removing a column from the main query also removes the column from the associated data table. If any additional queries on the TableAdapter use SQL statements that return columns that are not in the main query,  the designer attempts to synchronize the column changes between the main query and the additional queries. For more information, see [How to: Edit TableAdapters](../Topic/How%20to:%20Edit%20TableAdapters.md).  
+ When you create a TableAdapter, you use the initial query or stored procedure  to define the schema of the TableAdapter's associated <xref:System.Data.DataTable>. You run this initial query or stored procedure by calling the TableAdapter's `Fill` method (which fills the TableAdapter's associated <xref:System.Data.DataTable>). Any changes that are made to the TableAdapter's main query are reflected in the schema of the associated data table. For example, removing a column from the main query also removes the column from the associated data table. If any additional queries on the TableAdapter use SQL statements that return columns that are not in the main query,  the designer attempts to synchronize the column changes between the main query and the additional queries. For more information, see [How to: Edit TableAdapters](../Topic/How%20to:%20Edit%20TableAdapters.md).  
   
 ## TableAdapter update commands  
  The update functionality of a TableAdapter is dependent on how much information is available in the main query  in the TableAdapter Wizard. For example, TableAdapters that are configured to fetch values from multiple tables (JOINs), scalar values, views, or the results of aggregate functions are not initially created with the ability to send updates back to the underlying database. However, you can configure the INSERT, UPDATE, and DELETE commands manually in the **Properties** window.  
@@ -86,7 +86,7 @@ A TableAdapter component  fills a dataset with data from the database, based on 
  By default, every time you run a query to fill a TableAdapter's data table, the existing data is cleared, and only the results of the query are loaded into the table. Set the TableAdapter's `ClearBeforeFill` property to `false` if you want to add or merge the data that's returned from a query to the existing data in a data table. Regardless of whether you clear the data, you need to explicitly send updates back to the database, if you want to persist them. So remember to save any changes  to the data in the table before running another query that fills the table. For more information, see [Update data by using a TableAdapter](../datatools/update-data-by-using-a-tableadapter.md).  
   
 ## TableAdapter inheritance  
- TableAdapters extend the functionality of standard data adapters by encapsulating a configured \<xref:System.Data.Common.DataAdapter> class?qualifyHint=False&autoUpgrade=True. By default, the TableAdapter inherits from the \<xref:System.ComponentModel.Component> class and can't be cast to the \<xref:System.Data.Common.DataAdapter> class. Casting a TableAdapter to the \<xref:System.Data.Common.DataAdapter> class results in a \<xref:System.InvalidCastException> error?qualifyHint=False&autoUpgrade=True. To change the base class of a TableAdapter, you can type a class that derives from \<xref:System.ComponentModel.Component> in the **Base Class** property of the TableAdapter in the **Dataset Designer**.  
+ TableAdapters extend the functionality of standard data adapters by encapsulating a configured <xref:System.Data.Common.DataAdapter> class?qualifyHint=False&autoUpgrade=True. By default, the TableAdapter inherits from the <xref:System.ComponentModel.Component> class and can't be cast to the <xref:System.Data.Common.DataAdapter> class. Casting a TableAdapter to the <xref:System.Data.Common.DataAdapter> class results in a <xref:System.InvalidCastException> error?qualifyHint=False&autoUpgrade=True. To change the base class of a TableAdapter, you can type a class that derives from <xref:System.ComponentModel.Component> in the **Base Class** property of the TableAdapter in the **Dataset Designer**.  
   
 ## TableAdapter methods and properties  
  The TableAdapter class is not part of the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)]. This means you can't look it up in the documentation or the **Object Browser**. It's created at design time when you use one of the wizards mentioned earlier. The name that's assigned to a TableAdapter when you create it is based on the name of the table you are working with. For example, when you create a TableAdapter based on a table in a database named `Orders`, the TableAdapter is named `OrdersTableAdapter`. The class name of the TableAdapter can be changed using the **Name** property in the **Dataset Designer**.  
@@ -97,14 +97,14 @@ A TableAdapter component  fills a dataset with data from the database, based on 
 |------------|-----------------|  
 |`TableAdapter.Fill`|Populates the TableAdapter's associated data table with the results of the TableAdapter's SELECT command.|  
 |`TableAdapter.Update`|Sends changes back to the database and returns an integer that represents the number of rows affected by the update. For more information, see [Update data by using a TableAdapter](../datatools/update-data-by-using-a-tableadapter.md).|  
-|`TableAdapter.GetData`|Returns a new \<xref:System.Data.DataTable> that's filled with data.|  
+|`TableAdapter.GetData`|Returns a new <xref:System.Data.DataTable> that's filled with data.|  
 |`TableAdapter.Insert`|Creates a new row in the data table. For more information, see [Insert new records into a database](../datatools/insert-new-records-into-a-database.md).|  
 |`TableAdapter.ClearBeforeFill`|Determines whether a data table is emptied before you call one of the `Fill` methods.|  
   
 ## TableAdapter update method  
  TableAdapters use data commands to read to and write from the database. The TableAdapter's initial `Fill` (main) query is used as the basis for creating the schema of the associated data table, as well as the `InsertCommand`, `UpdateCommand`, and `DeleteCommand` commands that are associated with the `TableAdapter.Update` method. Calling a TableAdapter's `Update` method runs the statements that were created when the TableAdapter was originally configured,  not one of the additional queries that was added with the **TableAdapter Query Configuration Wizard**.  
   
- When you use a TableAdapter, it effectively performs the same operations with the commands that you typically would perform. For example, when you call the adapter's `Fill` method, the adapter runs the data command in its `SelectCommand` property and uses a data reader (for example, \<xref:System.Data.SqlClient.SqlDataReader>) to load the result set into the data table. Similarly, when you call the adapter's `Update` method, it runs the appropriate command (in the `UpdateCommand`, `InsertCommand`, and `DeleteCommand` properties) for each changed record in the data table.  
+ When you use a TableAdapter, it effectively performs the same operations with the commands that you typically would perform. For example, when you call the adapter's `Fill` method, the adapter runs the data command in its `SelectCommand` property and uses a data reader (for example, <xref:System.Data.SqlClient.SqlDataReader>) to load the result set into the data table. Similarly, when you call the adapter's `Update` method, it runs the appropriate command (in the `UpdateCommand`, `InsertCommand`, and `DeleteCommand` properties) for each changed record in the data table.  
   
 > [!NOTE]
 >  If there is enough information in the main query, the `InsertCommand`, `UpdateCommand`, and `DeleteCommand` commands are created by default when the TableAdapter is generated. If the TableAdapter's main query is more than a single table SELECT statement, it's possible the designer won't be able to generate  `InsertCommand`, `UpdateCommand`, and `DeleteCommand`. If these commands are not generated, you might receive an error when running the `TableAdapter.Update` method.  
@@ -118,7 +118,7 @@ A TableAdapter component  fills a dataset with data from the database, based on 
  TableAdapters support nullable types `Nullable(Of T)` and `T?`. For more information about nullable types in Visual Basic, see [Nullable Value Types](../Topic/Nullable%20Value%20Types%20\(Visual%20Basic\).md). For more information about nullable types in C#, see [Using Nullable Types](../Topic/Using%20Nullable%20Types%20\(C%23%20Programming%20Guide\).md).  
   
 ## Security  
- When you use data commands with a `CommandType` property set to \<xref:System.Data.CommandType>, carefully check information that is sent from a client before passing it to your database. Malicious users might try to send (inject) modified or additional SQL statements in an effort to gain unauthorized access or damage the database. Before you transfer user input to a database, always verify that the information is valid. A best practice is to always use parameterized queries or stored procedures when possible.  
+ When you use data commands with a `CommandType` property set to <xref:System.Data.CommandType>, carefully check information that is sent from a client before passing it to your database. Malicious users might try to send (inject) modified or additional SQL statements in an effort to gain unauthorized access or damage the database. Before you transfer user input to a database, always verify that the information is valid. A best practice is to always use parameterized queries or stored procedures when possible.  
   
 ## See Also  
  [Dataset tools in Visual Studio](../datatools/dataset-tools-in-visual-studio.md)

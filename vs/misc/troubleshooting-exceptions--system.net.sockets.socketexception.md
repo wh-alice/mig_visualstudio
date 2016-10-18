@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.Net.Sockets.SocketException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,13 +37,13 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.Net.Sockets.SocketException
-A \<xref:System.Net.Sockets.SocketException> exception is thrown by the \<xref:System.Net.Sockets.Socket> and \<xref:System.Net.Dns> classes when an error occurs with the network.  
+A <xref:System.Net.Sockets.SocketException> exception is thrown by the <xref:System.Net.Sockets.Socket> and <xref:System.Net.Dns> classes when an error occurs with the network.  
   
 ## Associated Tips  
  **Check the Errorcode property to determine why the socket error occurred.**  
- The default constructor for the \<xref:System.Net.Sockets.SocketException> class sets the \<xref:System.Net.Sockets.SocketException.ErrorCode*> property to the last operating-system socket error that occurred.  
+ The default constructor for the <xref:System.Net.Sockets.SocketException> class sets the <xref:System.Net.Sockets.SocketException.ErrorCode*> property to the last operating-system socket error that occurred.  
   
 ## See Also  
- \<xref:System.Net.Sockets.SocketException>   
+ <xref:System.Net.Sockets.SocketException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)   
  [Using Secure Sockets Layer](../Topic/Using%20Secure%20Sockets%20Layer.md)

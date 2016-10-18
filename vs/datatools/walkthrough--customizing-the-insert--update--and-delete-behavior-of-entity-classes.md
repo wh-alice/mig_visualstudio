@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Customizing the insert, update, and delete behavior of entity classes"
 ms.custom: na
-ms.date: "10/11/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -45,11 +45,11 @@ The [LINQ to SQL Tools in Visual Studio](../datatools/linq-to-sql-tools-in-visua
   
 -   Create an object data source that references the LINQ to SQL Customer class.  
   
--   Create a Windows Form that contains a \<xref:System.Windows.Forms.DataGridView> that is bound to the Customer class.  
+-   Create a Windows Form that contains a <xref:System.Windows.Forms.DataGridView> that is bound to the Customer class.  
   
 -   Implement save functionality for the form.  
   
--   Create \<xref:System.Data.Linq.DataContext> methods by adding stored procedures to the [!INCLUDE[vs_ordesigner_short](../datatools/includes/vs_ordesigner_short_md.md)].  
+-   Create <xref:System.Data.Linq.DataContext> methods by adding stored procedures to the [!INCLUDE[vs_ordesigner_short](../datatools/includes/vs_ordesigner_short_md.md)].  
   
 -   Configure the Customer class to use stored procedures to perform Inserts, Updates, and Deletes.  
   
@@ -186,7 +186,7 @@ The [LINQ to SQL Tools in Visual Studio](../datatools/linq-to-sql-tools-in-visua
   
 3.  Drag all three stored procedures onto the [!INCLUDE[vs_ordesigner_short](../datatools/includes/vs_ordesigner_short_md.md)].  
   
-     The stored procedures are added to the methods pane as \<xref:System.Data.Linq.DataContext> methods. For more information, see [DataContext Methods (O/R Designer)](../datatools/datacontext-methods--o-r-designer-.md).  
+     The stored procedures are added to the methods pane as <xref:System.Data.Linq.DataContext> methods. For more information, see [DataContext Methods (O/R Designer)](../datatools/datacontext-methods--o-r-designer-.md).  
   
 4.  Select the **Customer** entity class in the [!INCLUDE[vs_ordesigner_short](../datatools/includes/vs_ordesigner_short_md.md)].  
   
@@ -229,7 +229,7 @@ The [LINQ to SQL Tools in Visual Studio](../datatools/linq-to-sql-tools-in-visua
 19. Click **OK**.  
   
 > [!NOTE]
->  Although it is not an issue for this particular walkthrough, it is worth noting that [!INCLUDE[vbtecdlinq](../datatools/includes/vbtecdlinq_md.md)] handles database-generated values automatically for identity (auto-increment), rowguidcol (database-generated GUID), and timestamp columns during Inserts and Updates. Database-generated values in other column types will unexpectedly result in a null value. To return the database-generated values, you should manually set \<xref:System.Data.Linq.Mapping.ColumnAttribute.IsDbGenerated*> to `true` and \<xref:System.Data.Linq.Mapping.ColumnAttribute.AutoSync*> to one of the following: \<xref:System.Data.Linq.Mapping.AutoSync>, \<xref:System.Data.Linq.Mapping.AutoSync>, or \<xref:System.Data.Linq.Mapping.AutoSync>.  
+>  Although it is not an issue for this particular walkthrough, it is worth noting that [!INCLUDE[vbtecdlinq](../datatools/includes/vbtecdlinq_md.md)] handles database-generated values automatically for identity (auto-increment), rowguidcol (database-generated GUID), and timestamp columns during Inserts and Updates. Database-generated values in other column types will unexpectedly result in a null value. To return the database-generated values, you should manually set <xref:System.Data.Linq.Mapping.ColumnAttribute.IsDbGenerated*> to `true` and <xref:System.Data.Linq.Mapping.ColumnAttribute.AutoSync*> to one of the following: <xref:System.Data.Linq.Mapping.AutoSync>, <xref:System.Data.Linq.Mapping.AutoSync>, or <xref:System.Data.Linq.Mapping.AutoSync>.  
   
 ## Testing the Application  
  Run the application again to verify that the **UpdateCustomers** stored procedure correctly updates the customer record in the database.  
@@ -272,4 +272,4 @@ The [LINQ to SQL Tools in Visual Studio](../datatools/linq-to-sql-tools-in-visua
  [LINQ to SQL Queries](../Topic/LINQ%20to%20SQL%20Queries.md)   
  [DataContext Methods (O/R Designer)](../datatools/datacontext-methods--o-r-designer-.md)   
  [How to: Assign stored procedures to perform updates, inserts, and deletes (O/R Designer)](../datatools/how-to--assign-stored-procedures-to-perform-updates--inserts--and-deletes--o-r-designer-.md)   
- [PAVE What's New for Data Application Development in Visual Studio 2012](http://msdn.microsoft.com/3d50d68f-5f44-4915-842f-6d42fce793f1)
+ [PAVE What's New for Data Application Development in Visual Studio 2012](http://msdn.microsoft.com/en-us/3d50d68f-5f44-4915-842f-6d42fce793f1)

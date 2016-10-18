@@ -1,7 +1,7 @@
 ---
 title: "&#39;Throw&#39; operand must derive from &#39;System.Exception&#39;"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -50,5 +50,5 @@ The argument supplied to `Throw` must either be an instance of `System.Exception
 ## See Also  
  [Throw Statement](../Topic/Throw%20Statement%20\(Visual%20Basic\).md)   
  [Try...Catch...Finally Statement](../Topic/Try...Catch...Finally%20Statement%20\(Visual%20Basic\).md)   
- [Exception Class in Visual Basic](http://msdn.microsoft.com/9aac396f-34ca-4afb-8e6c-e523cb690ba9)   
- [Exception and Error Handling in Visual Basic](http://msdn.microsoft.com/3e351e73-cf23-40ab-8b60-05794160529e)
+ [Exception Class in Visual Basic](http://msdn.microsoft.com/en-us/9aac396f-34ca-4afb-8e6c-e523cb690ba9)   
+ [Exception and Error Handling in Visual Basic](http://msdn.microsoft.com/en-us/3e351e73-cf23-40ab-8b60-05794160529e)

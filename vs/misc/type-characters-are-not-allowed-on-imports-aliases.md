@@ -1,7 +1,7 @@
 ---
 title: "Type characters are not allowed on Imports aliases"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -49,4 +49,4 @@ An import alias in an `Imports` statement contains at least one identifier type 
  [Type Characters](../Topic/Type%20Characters%20\(Visual%20Basic\).md)   
  [Declared Element Names](../Topic/Declared%20Element%20Names%20\(Visual%20Basic\).md)   
  [Imports Statement (.NET Namespace and Type)](../Topic/Imports%20Statement%20\(.NET%20Namespace%20and%20Type\).md)   
- [NOTINBUILD: Resolving a Reference When Multiple Variables Have the Same Name](http://msdn.microsoft.com/9601e39f-1911-44e1-ace5-3f6e090408b9)
+ [NOTINBUILD: Resolving a Reference When Multiple Variables Have the Same Name](http://msdn.microsoft.com/en-us/9601e39f-1911-44e1-ace5-3f6e090408b9)

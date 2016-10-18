@@ -1,7 +1,7 @@
 ---
 title: "Define a work item link handler"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -304,7 +304,7 @@ element.AddReference(ReferenceConstants.WorkItem, linkString, true);
  For more information about References, see [Attach reference strings to UML model elements](../modeling/attach-reference-strings-to-uml-model-elements.md).  
   
 ## See Also  
- \<xref:Microsoft.TeamFoundation.WorkItemTracking.Client.WorkItemStore?displayProperty=fullName>   
+ <xref:Microsoft.TeamFoundation.WorkItemTracking.Client.WorkItemStore?displayProperty=fullName>   
  [Link model elements and work items](../modeling/link-model-elements-and-work-items.md)   
  [Attach reference strings to UML model elements](../modeling/attach-reference-strings-to-uml-model-elements.md)   
  [Define and install a modeling extension](../modeling/define-and-install-a-modeling-extension.md)   

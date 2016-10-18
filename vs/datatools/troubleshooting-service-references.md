@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Service References"
 ms.custom: na
-ms.date: "10/11/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,7 +39,7 @@ translation.priority.mt:
 This topic lists common issues that may occur when you are working with [!INCLUDE[vsindigo](../datatools/includes/vsindigo_md.md)] or [!INCLUDE[ssAstoria](../datatools/includes/ssastoria_md.md)] references in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
   
 ## Error Returning Data from a Service  
- When you return a `DataSet` or `DataTable` from a service, you may receive a "The maximum size quota for incoming messages has been exceeded" exception. By default, the `MaxReceivedMessageSize` property for some bindings is set to a relatively small value to limit exposure to denial-of-service attacks. You can increase this value to prevent the exception. For more information, see \<xref:System.ServiceModel.BasicHttpBinding.MaxReceivedMessageSize*>.  
+ When you return a `DataSet` or `DataTable` from a service, you may receive a "The maximum size quota for incoming messages has been exceeded" exception. By default, the `MaxReceivedMessageSize` property for some bindings is set to a relatively small value to limit exposure to denial-of-service attacks. You can increase this value to prevent the exception. For more information, see <xref:System.ServiceModel.BasicHttpBinding.MaxReceivedMessageSize*>.  
   
  To fix this error:  
   
@@ -71,7 +71,7 @@ This topic lists common issues that may occur when you are working with [!INCLUD
 ## Access Level for Generated Classes Setting Has No Effect  
  Setting the **Access level for generated classes** option in the **Configure Service References** dialog box to **Internal** or **Friend** may not always work. Even though the option appears to be set in the dialog box, the resulting support classes will be generated with an access level of `Public`.  
   
- This is a known limitation of certain types, such as those serialized using the \<xref:System.Xml.Serialization.XmlSerializer>.  
+ This is a known limitation of certain types, such as those serialized using the <xref:System.Xml.Serialization.XmlSerializer>.  
   
 ## Error Debugging Service Code  
  When you step into the code for a WCF service from client code, you may receive an error related to missing symbols. This can occur when a service that was part of your solution was moved or removed from the solution.  
@@ -88,7 +88,7 @@ This topic lists common issues that may occur when you are working with [!INCLUD
   
 3.  Make sure that the **Show advanced build configurations** check box is selected, and then click **OK**.  
   
-4.  Load the WCF service project. For more information, see [NIB How to: Create Multi-Project Solutions](http://msdn.microsoft.com/02ecd6dd-0114-46fe-b335-ba9c5e3020d6).  
+4.  Load the WCF service project. For more information, see [NIB How to: Create Multi-Project Solutions](http://msdn.microsoft.com/en-us/02ecd6dd-0114-46fe-b335-ba9c5e3020d6).  
   
 5.  In the **Configuration Manager** dialog box, set the **Active solution configuration** to **Debug**. For more information, see [How to: Create and Edit Configurations](../ide/how-to--create-and-edit-configurations.md).  
   

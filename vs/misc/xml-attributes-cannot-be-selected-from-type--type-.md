@@ -1,7 +1,7 @@
 ---
 title: "XML attributes cannot be selected from type &#39;type&#39;"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -35,7 +35,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # XML attributes cannot be selected from type &#39;type&#39;
-An XML attribute has been referenced for an object that is not of type \<xref:System.Xml.Linq.XElement> or `IEnumerable(Of XElement)`. For more information, see [XML Attribute Axis Property](../Topic/XML%20Attribute%20Axis%20Property%20\(Visual%20Basic\).md).  
+An XML attribute has been referenced for an object that is not of type <xref:System.Xml.Linq.XElement> or `IEnumerable(Of XElement)`. For more information, see [XML Attribute Axis Property](../Topic/XML%20Attribute%20Axis%20Property%20\(Visual%20Basic\).md).  
   
 ```vb#  
 ' Generates an error.  
@@ -46,7 +46,7 @@ Dim var = "sample text".@attr
   
 ### To correct this error  
   
--   Ensure that the object of which you are referencing an attribute is strongly typed as \<xref:System.Xml.Linq.XElement> or `IEnumerable(Of XElement)`. Following is an example:  
+-   Ensure that the object of which you are referencing an attribute is strongly typed as <xref:System.Xml.Linq.XElement> or `IEnumerable(Of XElement)`. Following is an example:  
   
     ```vb#  
     Dim elem As XElement = <root attr="value"/>  

@@ -1,7 +1,7 @@
 ---
 title: "How to: Read from and Write to the Feedback Region of the Status Bar"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,13 +37,13 @@ The Feedback region of the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.m
   
 ### To use the Feedback region of the Visual Studio Status bar  
   
-1.  Obtain an instance of the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbar> interface, which is made available through the \<xref:Microsoft.VisualStudio.Shell.Interop.SVsStatusbar> service.  
+1.  Obtain an instance of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbar> interface, which is made available through the <xref:Microsoft.VisualStudio.Shell.Interop.SVsStatusbar> service.  
   
-2.  Determine whether the status bar is frozen by calling the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbar.IsFrozen*> method of the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbar> instance.  
+2.  Determine whether the status bar is frozen by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbar.IsFrozen*> method of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbar> instance.  
   
-3.  Set the text of the Feedback region by calling the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbar.SetText*> method and passing in a text string.  
+3.  Set the text of the Feedback region by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbar.SetText*> method and passing in a text string.  
   
-4.  Read the text of the Feedback region by calling the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbar.GetText*> method.  
+4.  Read the text of the Feedback region by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbar.GetText*> method.  
   
 ## Example  
  This example demonstrates how to write text to and read text from the Feedback region.  
@@ -53,17 +53,17 @@ The Feedback region of the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.m
   
  In the above example, the code does the following things:  
   
--   Obtains an instance of the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbar> interface from the \<xref:Microsoft.VisualStudio.Shell.Interop.SVsStatusbar> service.  
+-   Obtains an instance of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbar> interface from the <xref:Microsoft.VisualStudio.Shell.Interop.SVsStatusbar> service.  
   
--   Checks to see if the status bar is frozen by calling the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbar.IsFrozen*> method.  
+-   Checks to see if the status bar is frozen by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbar.IsFrozen*> method.  
   
--   Inhibits further updates to the status bar by calling the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbar.FreezeOutput*> method.  
+-   Inhibits further updates to the status bar by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbar.FreezeOutput*> method.  
   
--   Reads the text from the status bar by calling the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbar.GetText*> method and displays it in a message box.  
+-   Reads the text from the status bar by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbar.GetText*> method and displays it in a message box.  
   
--   Allows updates to the status bar by calling \<xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbar.FreezeOutput*> and passing 0 in the parameter.  
+-   Allows updates to the status bar by calling <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbar.FreezeOutput*> and passing 0 in the parameter.  
   
--   Clears the contents of the status bar by calling the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbar.Clear*> method.  
+-   Clears the contents of the status bar by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbar.Clear*> method.  
   
 ## See Also  
  [Extending the Status Bar](../extensibility/extending-the-status-bar.md)   

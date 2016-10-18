@@ -1,7 +1,7 @@
 ---
 title: "Anonymous type initializers are not valid in debug windows"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -45,5 +45,5 @@ An anonymous type initializer has been entered in the **Watch** or **Immediate**
   
 ## See Also  
  [Anonymous Types](../Topic/Anonymous%20Types%20\(Visual%20Basic\).md)   
- [Closer Look: What If... Testing Code in the Immediate Window](http://msdn.microsoft.com/3613a627-09a4-44e1-9cc2-f2a29f4e0744)   
+ [Closer Look: What If... Testing Code in the Immediate Window](http://msdn.microsoft.com/en-us/3613a627-09a4-44e1-9cc2-f2a29f4e0744)   
  [Debugging Your Visual Basic Application](../Topic/Debugging%20Your%20Visual%20Basic%20Application.md)

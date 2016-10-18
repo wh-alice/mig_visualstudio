@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.Net.HttpListenerException"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -32,20 +32,20 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.Net.HttpListenerException
-An \<xref:System.Net.HttpListenerException> is thrown when an error occurs processing a Hypertext Transfer Protocol request.  
+An <xref:System.Net.HttpListenerException> is thrown when an error occurs processing a Hypertext Transfer Protocol request.  
   
 ## Associated Tips  
  Make sure you are not attempting to register a URI prefix that is already registered.  
  If the URI prefix is already registered, this exception will occur.  
   
  Make sure your HTTP request is valid.  
- This exception is thrown by the \<xref:System.Net.HttpListener> class and its associated classes when an error occurs during the initialization of the \<xref:System.Net.HttpListener> or while creating or sending a response to an HTTP request.  
+ This exception is thrown by the <xref:System.Net.HttpListener> class and its associated classes when an error occurs during the initialization of the <xref:System.Net.HttpListener> or while creating or sending a response to an HTTP request.  
   
  If you are using the `HttpListenerPrefixCollection.Add` method, make sure the `uriPrefix` has not been already added.  
- This exception will be thrown if another \<xref:System.Net.HttpListener> has already added the prefix `uriPrefix`.  
+ This exception will be thrown if another <xref:System.Net.HttpListener> has already added the prefix `uriPrefix`.  
   
 ## See Also  
- \<xref:System.Net.HttpListenerException>   
- \<xref:System.Net.HttpListener>   
- \<xref:System.Net.HttpListenerPrefixCollection>   
+ <xref:System.Net.HttpListenerException>   
+ <xref:System.Net.HttpListener>   
+ <xref:System.Net.HttpListenerPrefixCollection>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

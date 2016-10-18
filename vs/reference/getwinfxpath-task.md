@@ -1,7 +1,7 @@
 ---
 title: "GetWinFXPath Task"
 ms.custom: na
-ms.date: "10/07/2016"
+ms.date: "10/17/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,7 +39,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # GetWinFXPath Task
-The \<xref:Microsoft.Build.Tasks.Windows.GetWinFXPath> task returns the directory of the current [!INCLUDE[TLA#tla_winfx](../reference/includes/tlasharptla_winfx_md.md)] runtime.  
+The <xref:Microsoft.Build.Tasks.Windows.GetWinFXPath> task returns the directory of the current [!INCLUDE[TLA#tla_winfx](../reference/includes/tlasharptla_winfx_md.md)] runtime.  
   
 ## Task Parameters  
   
@@ -50,7 +50,7 @@ The \<xref:Microsoft.Build.Tasks.Windows.GetWinFXPath> task returns the director
 |`WinFXWowPath`|Required **String** parameter.<br /><br /> Specifies the path to the [!INCLUDE[TLA#tla_winfx](../reference/includes/tlasharptla_winfx_md.md)] assemblies in the 32-bit **Windows on Windows** module on 64-bit systems.|  
   
 ## Remarks  
- If the \<xref:Microsoft.Build.Tasks.Windows.GetWinFXPath> task is executing on a 64-bit processor, the **WinFXPath** parameter is set to the path that is stored in the **WinFXWowPath** parameter; otherwise, the **WinFXPath** parameter is set to the path that is stored in the **WinFXNativePath** parameter.  
+ If the <xref:Microsoft.Build.Tasks.Windows.GetWinFXPath> task is executing on a 64-bit processor, the **WinFXPath** parameter is set to the path that is stored in the **WinFXWowPath** parameter; otherwise, the **WinFXPath** parameter is set to the path that is stored in the **WinFXNativePath** parameter.  
   
 ## Example  
  The following example shows how to use the **GetWinFXPath** task to detect the native path to the [!INCLUDE[TLA2#tla_titlewinfx](../reference/includes/tla2sharptla_titlewinfx_md.md)] runtime.  

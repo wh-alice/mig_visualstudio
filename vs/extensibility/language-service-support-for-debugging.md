@@ -1,7 +1,7 @@
 ---
 title: "Language Service Support for Debugging"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -32,7 +32,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Language Service Support for Debugging
-A language service can provide features that support a debugger through the \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageDebugInfo> interface. These features include validating breakpoints and supplying a list of expressions to the **Autos** window.  
+A language service can provide features that support a debugger through the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageDebugInfo> interface. These features include validating breakpoints and supplying a list of expressions to the **Autos** window.  
   
  However, you need to have an expression evaluator to debug your language. The expression evaluator is responsible for evaluating expressions to produce values while debugging. For information about implementing CLR expression evaluators, please see:  
   

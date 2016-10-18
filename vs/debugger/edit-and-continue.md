@@ -1,7 +1,7 @@
 ---
 title: "Edit and Continue"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -47,13 +47,13 @@ Edit and Continue is a time-saving feature that enables you to make changes to y
   
  This section includes the following topics:  
   
- [How to: Apply Code Changes Explicitly](http://msdn.microsoft.com/89c4fce9-a3ef-432d-a840-67840b1c4be8)  
+ [How to: Apply Code Changes Explicitly](http://msdn.microsoft.com/en-us/89c4fce9-a3ef-432d-a840-67840b1c4be8)  
   
  [How to: Enable and Disable Edit and Continue](../debugger/how-to--enable-and-disable-edit-and-continue.md)  
   
  [How to: Stop Code Changes](../debugger/how-to--stop-code-changes.md)  
   
- [Point of Execution](http://msdn.microsoft.com/dd9855a7-b536-4e76-821f-27017829b996)  
+ [Point of Execution](http://msdn.microsoft.com/en-us/dd9855a7-b536-4e76-821f-27017829b996)  
   
  [Edit and Continue (Visual C++)](../debugger/edit-and-continue--visual-c---.md)  
   

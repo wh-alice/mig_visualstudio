@@ -1,7 +1,7 @@
 ---
 title: "&#39;prefix&#39; is an XML prefix and cannot be used as an expression"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -43,7 +43,7 @@ translation.priority.mt:
   
 ### To correct this error  
   
--   If you have to refer to part of the imported XML namespace, use the `GetXmlNamespace` operator to retrieve an \<xref:System.Xml.Linq.XNamespace> object. Use that object instead of the XML namespace prefix.  
+-   If you have to refer to part of the imported XML namespace, use the `GetXmlNamespace` operator to retrieve an <xref:System.Xml.Linq.XNamespace> object. Use that object instead of the XML namespace prefix.  
   
 -   If you are using the XML namespace prefix to qualify an XML literal, ensure that you are using appropriate syntax for the XML literal.  
   

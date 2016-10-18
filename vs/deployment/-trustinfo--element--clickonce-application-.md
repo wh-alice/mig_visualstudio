@@ -1,7 +1,7 @@
 ---
 title: "&lt;trustInfo&gt; Element (ClickOnce Application)"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -128,7 +128,7 @@ Describes the minimum security permissions required for the application to run o
       Unrestricted="true" />  
     ```  
   
-     In this example, the declaration for \<xref:System.Security.Permissions.EnvironmentPermission> restricts the application to reading only the environment variable USERNAME, whereas the declaration for \<xref:System.Security.Permissions.FileDialogPermission> gives the application unrestricted use of all \<xref:System.Windows.Forms.FileDialog> classes.  
+     In this example, the declaration for <xref:System.Security.Permissions.EnvironmentPermission> restricts the application to reading only the environment variable USERNAME, whereas the declaration for <xref:System.Security.Permissions.FileDialogPermission> gives the application unrestricted use of all <xref:System.Windows.Forms.FileDialog> classes.  
   
 ## defaultAssemblyRequest  
  Optional. Identifies the set of permissions granted to all assemblies. This element is a child of the `applicationRequestMinimum` element and has the following attribute.  

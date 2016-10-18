@@ -1,7 +1,7 @@
 ---
 title: "Item cannot be added to the Toolbox."
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -60,6 +60,6 @@ This error generally occurs when you attempt to add an item for which the Toolbo
 2.  Drag or paste selected text from a Visual Studio editor onto the Toolbox.  
   
 ## See Also  
- [Choose Toolbox Items Dialog Box (Visual Studio)](http://msdn.microsoft.com/bd07835f-18a8-433e-bccc-7141f65263bb)   
- [How to: Manipulate Toolbox Tabs](http://msdn.microsoft.com/21285050-cadd-455a-b1f5-a2289a89c4db)   
+ [Choose Toolbox Items Dialog Box (Visual Studio)](http://msdn.microsoft.com/en-us/bd07835f-18a8-433e-bccc-7141f65263bb)   
+ [How to: Manipulate Toolbox Tabs](http://msdn.microsoft.com/en-us/21285050-cadd-455a-b1f5-a2289a89c4db)   
  [Toolbox](../reference/toolbox.md)

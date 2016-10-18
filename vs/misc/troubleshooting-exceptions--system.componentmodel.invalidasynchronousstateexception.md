@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.ComponentModel.InvalidAsynchronousStateException"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -36,5 +36,5 @@ translation.priority.mt:
 This exception is thrown if the thread on which you are running is no longer valid or has developed an unrecoverable problem.  
   
 ## See Also  
- \<xref:System.ComponentModel.InvalidAsynchronousStateException>   
+ <xref:System.ComponentModel.InvalidAsynchronousStateException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

@@ -1,7 +1,7 @@
 ---
 title: "&#39;WithEvents&#39; variables cannot be typed as arrays"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -45,4 +45,4 @@ You have attempted to declare an array using `WithEvents`. You can declare as ma
   
 ## See Also  
  [Dim Statement](../Topic/Dim%20Statement%20\(Visual%20Basic\).md)   
- [NOT IN BUILD:WithEvents and the Handles Clause](http://msdn.microsoft.com/072b9cf6-6298-46f1-849e-4edc1631564c)
+ [NOT IN BUILD:WithEvents and the Handles Clause](http://msdn.microsoft.com/en-us/072b9cf6-6298-46f1-849e-4edc1631564c)

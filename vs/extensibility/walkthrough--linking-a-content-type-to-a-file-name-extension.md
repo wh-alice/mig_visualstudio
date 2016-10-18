@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Linking a Content Type to a File Name Extension"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -70,7 +70,7 @@ You can define your own content type and link a file name extension to it by usi
     {. . .}  
     ```  
   
-5.  In this class, export a \<xref:Microsoft.VisualStudio.Utilities.ContentTypeDefinition> named "hid" and declare its base definition to be "text".  
+5.  In this class, export a <xref:Microsoft.VisualStudio.Utilities.ContentTypeDefinition> named "hid" and declare its base definition to be "text".  
   
     ```c#  
     internal static class FileAndContentTypeDefinitions  
@@ -84,7 +84,7 @@ You can define your own content type and link a file name extension to it by usi
   
 ## Linking a File Name Extension to a Content Type  
   
--   To map this content type to a file name extension, export a \<xref:Microsoft.VisualStudio.Utilities.FileExtensionToContentTypeDefinition> that has the extension ".hid" and the content type "hid".  
+-   To map this content type to a file name extension, export a <xref:Microsoft.VisualStudio.Utilities.FileExtensionToContentTypeDefinition> that has the extension ".hid" and the content type "hid".  
   
     ```c#  
     internal static class FileAndContentTypeDefinitions  
@@ -107,7 +107,7 @@ You can define your own content type and link a file name extension to it by usi
   
 2.  Add the class you defined in this procedure.  
   
-3.  When you export the extension class, add a \<xref:Microsoft.VisualStudio.Utilities.ContentTypeAttribute> of type "hid" to it.  
+3.  When you export the extension class, add a <xref:Microsoft.VisualStudio.Utilities.ContentTypeAttribute> of type "hid" to it.  
   
     ```c#  
     [Export]  

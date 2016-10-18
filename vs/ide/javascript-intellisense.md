@@ -1,7 +1,7 @@
 ---
 title: "JavaScript IntelliSense"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -87,7 +87,7 @@ IntelliSense helps you write code faster and with fewer errors by providing info
   
 -   References to XML Web services.  
   
--   The \<xref:System.Web.UI.ScriptManager> and \<xref:System.Web.UI.ScriptManagerProxy> controls, if the Web application is an AJAX-enabled ASP.NET application.  
+-   The <xref:System.Web.UI.ScriptManager> and <xref:System.Web.UI.ScriptManagerProxy> controls, if the Web application is an AJAX-enabled ASP.NET application.  
   
 -   The [!INCLUDE[atlaslib_current_ext](../ide/includes/atlaslib_current_ext_md.md)], if you are working in an AJAX-enabled ASP.NET Web application.  
   
@@ -155,9 +155,9 @@ IntelliSense helps you write code faster and with fewer errors by providing info
 </script>  
 ```  
   
- If you are working with an ASP.NET AJAX-enabled Web page, you can reference script files by using the \<xref:System.Web.UI.ScriptReference> object of the \<xref:System.Web.UI.ScriptManager> control.  
+ If you are working with an ASP.NET AJAX-enabled Web page, you can reference script files by using the <xref:System.Web.UI.ScriptReference> object of the <xref:System.Web.UI.ScriptManager> control.  
   
- The following example shows markup that uses a \<xref:System.Web.UI.ScriptReference> object in a \<xref:System.Web.UI.ScriptManager> control to reference a script file.  
+ The following example shows markup that uses a <xref:System.Web.UI.ScriptReference> object in a <xref:System.Web.UI.ScriptManager> control to reference a script file.  
   
 ```html  
 <asp:ScriptManager ID="ScriptManager1" runat="server">  
@@ -294,5 +294,5 @@ IntelliSense helps you write code faster and with fewer errors by providing info
  [Statement Completion for Identifiers](../ide/statement-completion-for-identifiers.md)   
  [XML Documentation Comments](../ide/xml-documentation-comments--javascript-.md)   
  [About the DHTML Object Model](http://go.microsoft.com/fwlink/?LinkID=92344)   
- [List Members](http://msdn.microsoft.com/1b9cc469-9cd4-4d42-9999-1f9479635ff8)   
+ [List Members](http://msdn.microsoft.com/en-us/1b9cc469-9cd4-4d42-9999-1f9479635ff8)   
  [SRC Attribute &#124; src Property](http://go.microsoft.com/fwlink/?LinkId=92345)

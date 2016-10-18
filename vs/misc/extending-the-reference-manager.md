@@ -1,7 +1,7 @@
 ---
 title: "Extending the Reference Manager"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -33,15 +33,15 @@ You can add references to your project by using the Reference Manager in a Visua
   
  You typically configure the Reference Manager by using a collection of ProviderContexts from the following providers:  
   
--   \<xref:Microsoft.VisualStudio.Shell.Interop.IVsAssemblyReferenceProviderContext>  
+-   <xref:Microsoft.VisualStudio.Shell.Interop.IVsAssemblyReferenceProviderContext>  
   
--   \<xref:Microsoft.VisualStudio.Shell.Interop.IVsComReferenceProviderContext>  
+-   <xref:Microsoft.VisualStudio.Shell.Interop.IVsComReferenceProviderContext>  
   
--   \<xref:Microsoft.VisualStudio.Shell.Interop.IVsFileReferenceProviderContext>  
+-   <xref:Microsoft.VisualStudio.Shell.Interop.IVsFileReferenceProviderContext>  
   
--   \<xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectReferenceProviderContext>  
+-   <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectReferenceProviderContext>  
   
--   \<xref:Microsoft.VisualStudio.Shell.Interop.IVsPlatformReferenceProviderContext>  
+-   <xref:Microsoft.VisualStudio.Shell.Interop.IVsPlatformReferenceProviderContext>  
   
  A client component displays the Reference Manager by calling the ShowReferenceManager method on the Visual Studio service that's named SVsReferenceManager. A collection of IVsReferenceProviderContext classes is passed into this method as an argument. These contexts determine which tabs appear along the left side of the Reference Manager dialog box. Each provider contains all of the information necessary for the dialog box to populate and display the necessary data for you to add a reference to your project.  
   

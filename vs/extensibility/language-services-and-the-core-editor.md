@@ -1,7 +1,7 @@
 ---
 title: "Language Services and the Core Editor"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -46,14 +46,14 @@ Editors in Visual Studio are frequently associated with a language service. Amon
  ![Language Service Model graphic](../extensibility/media/vslanguageservicemodel.gif "vsLanguageServiceModel")  
 Core editor and language service objects  
   
- The document data object for the core editor is called a text buffer and is represented by the \<xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer> object. The document view object is called a text view and is represented by the \<xref:Microsoft.VisualStudio.TextManager.Interop.VsCodeWindow> object. These two objects work together through the language service to provide a unified view of the core editor. Information from the text buffer and the text view displays in a document window called a code window. The code window document is managed by a code window manager.  
+ The document data object for the core editor is called a text buffer and is represented by the <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer> object. The document view object is called a text view and is represented by the <xref:Microsoft.VisualStudio.TextManager.Interop.VsCodeWindow> object. These two objects work together through the language service to provide a unified view of the core editor. Information from the text buffer and the text view displays in a document window called a code window. The code window document is managed by a code window manager.  
   
 ## See Also  
- \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo>   
- \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer>   
- \<xref:Microsoft.VisualStudio.TextManager.Interop.VsTextView>   
- \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindowManager>   
- \<xref:Microsoft.VisualStudio.TextManager.Interop.VsCodeWindow>   
+ <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo>   
+ <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer>   
+ <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextView>   
+ <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindowManager>   
+ <xref:Microsoft.VisualStudio.TextManager.Interop.VsCodeWindow>   
  [Providing a Language Service Context by Using the Legacy API](../extensibility/providing-a-language-service-context-by-using-the-legacy-api.md)   
  [IntelliSense Hosting](../extensibility/intellisense-hosting.md)   
  [Contained Languages](../extensibility/contained-languages.md)   

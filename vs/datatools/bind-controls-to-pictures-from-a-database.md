@@ -1,7 +1,7 @@
 ---
 title: "Bind controls to pictures from a database"
 ms.custom: na
-ms.date: "10/07/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -42,7 +42,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Bind controls to pictures from a database
-You can use the **Data Sources** window to bind an image in a database to a control in your application. For example, you can bind an image to an \<xref:System.Windows.Controls.Image> control in a WPF application, or to a \<xref:System.Windows.Forms.PictureBox> control in a Windows Forms application.  
+You can use the **Data Sources** window to bind an image in a database to a control in your application. For example, you can bind an image to an <xref:System.Windows.Controls.Image> control in a WPF application, or to a <xref:System.Windows.Forms.PictureBox> control in a Windows Forms application.  
   
  Pictures in a database are typically stored as byte arrays. Items in the **Data Sources** window that are stored as byte arrays have their control type set to **None** by default, because byte arrays can contain anything from a simple array of bytes to the executable file of a large application. To create a data-bound control for a byte array item in the **Data Sources** window that represents an image, you must select the control to create.  
   

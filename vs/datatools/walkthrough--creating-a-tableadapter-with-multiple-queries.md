@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Creating a TableAdapter with Multiple Queries"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -170,9 +170,9 @@ In this walkthrough, you will create a TableAdapter in a dataset using the [Data
   
 ### To add functionality to your application  
   
--   Add a \<xref:System.Windows.Forms.TextBox> control and \<xref:System.Windows.Forms.Button> control and pass the value in the text box to the query. (`CustomersTableAdapter.FillByCity(NorthwindDataSet.Customers, TextBox1.Text)`).  
+-   Add a <xref:System.Windows.Forms.TextBox> control and <xref:System.Windows.Forms.Button> control and pass the value in the text box to the query. (`CustomersTableAdapter.FillByCity(NorthwindDataSet.Customers, TextBox1.Text)`).  
   
--   Add validation logic to the \<xref:System.Data.DataTable.ColumnChanging> or \<xref:System.Data.DataTable.RowChanging> event of the data tables in the dataset. For more information, see [Validate data in datasets](../datatools/validate-data-in-datasets.md).  
+-   Add validation logic to the <xref:System.Data.DataTable.ColumnChanging> or <xref:System.Data.DataTable.RowChanging> event of the data tables in the dataset. For more information, see [Validate data in datasets](../datatools/validate-data-in-datasets.md).  
   
 ## See Also  
  [TableAdapter Overview](../datatools/tableadapter-overview.md)   

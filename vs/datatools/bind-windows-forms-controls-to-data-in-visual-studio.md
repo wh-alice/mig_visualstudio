@@ -1,7 +1,7 @@
 ---
 title: "Bind Windows Forms controls to data in Visual Studio"
 ms.custom: na
-ms.date: "10/07/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -67,11 +67,11 @@ You can display data to users of your application by binding data to Windows For
 -   [Pass data between forms](../datatools/pass-data-between-forms.md)  
   
 ## BindingSource component  
- The \<xref:System.Windows.Forms.BindingSource> component serves two purposes. First, it provides a layer of abstraction when binding the controls on your form to data. Controls on the form are bound to the \<xref:System.Windows.Forms.BindingSource> component (instead of being bound directly to a data source).  
+ The <xref:System.Windows.Forms.BindingSource> component serves two purposes. First, it provides a layer of abstraction when binding the controls on your form to data. Controls on the form are bound to the <xref:System.Windows.Forms.BindingSource> component (instead of being bound directly to a data source).  
   
- Second, it can manage a collection of objects. Adding a type to the \<xref:System.Windows.Forms.BindingSource> creates a list of that type.  
+ Second, it can manage a collection of objects. Adding a type to the <xref:System.Windows.Forms.BindingSource> creates a list of that type.  
   
- For more information about the \<xref:System.Windows.Forms.BindingSource> component, see:  
+ For more information about the <xref:System.Windows.Forms.BindingSource> component, see:  
   
 -   [BindingSource Component](../Topic/BindingSource%20Component.md)  
   
@@ -83,7 +83,7 @@ You can display data to users of your application by binding data to Windows For
  This component provides a user interface for navigating through data displayed by a Windows application. For more information, see [BindingNavigator Control](../Topic/BindingNavigator%20Control%20\(Windows%20Forms\).md).  
   
 ## DataGridView control  
- To display and edit tabular data from many different kinds of data sources, use the \<xref:System.Windows.Forms.DataGridView> control. You can bind data to a \<xref:System.Windows.Forms.DataGridView> by using the \<xref:System.Windows.Forms.DataGridView.DataSource*> property. For more information, see [DataGridView Control Overview](../Topic/DataGridView%20Control%20Overview%20\(Windows%20Forms\).md).  
+ To display and edit tabular data from many different kinds of data sources, use the <xref:System.Windows.Forms.DataGridView> control. You can bind data to a <xref:System.Windows.Forms.DataGridView> by using the <xref:System.Windows.Forms.DataGridView.DataSource*> property. For more information, see [DataGridView Control Overview](../Topic/DataGridView%20Control%20Overview%20\(Windows%20Forms\).md).  
   
 ## See Also  
  [Bind controls to data in Visual Studio](../datatools/bind-controls-to-data-in-visual-studio.md)

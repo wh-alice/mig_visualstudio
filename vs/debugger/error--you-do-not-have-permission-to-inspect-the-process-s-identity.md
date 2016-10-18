@@ -1,7 +1,7 @@
 ---
 title: "Error: You do not have permission to inspect the process&#39;s identity"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na

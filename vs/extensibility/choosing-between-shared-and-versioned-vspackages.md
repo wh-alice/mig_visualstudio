@@ -1,7 +1,7 @@
 ---
 title: "Choosing Between Shared and Versioned VSPackages"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -48,7 +48,7 @@ Different versions of Visual Studio can coexist on the same computer. VSPackages
   
     -   Program your VSPackage to adapt to the version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] in which it is running. Then, if queries for newer services fail, your VSPackage can offer other services that are supported in older versions of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
   
--   Register your VSPackage appropriately. For more information, see [VSPackage Registration](../extensibility/vspackage-registration.md) and [Managed VSPackage Registration](http://msdn.microsoft.com/f69e0ea3-6a92-4639-8ca9-4c9c210e58a1).  
+-   Register your VSPackage appropriately. For more information, see [VSPackage Registration](../extensibility/vspackage-registration.md) and [Managed VSPackage Registration](http://msdn.microsoft.com/en-us/f69e0ea3-6a92-4639-8ca9-4c9c210e58a1).  
   
 -   Register file extensions appropriately. For more information, see [Registering File Name Extensions for Side-By-Side Deployments](../extensibility/registering-file-name-extensions-for-side-by-side-deployments.md).  
   

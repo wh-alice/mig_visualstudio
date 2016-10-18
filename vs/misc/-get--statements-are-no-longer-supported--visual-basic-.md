@@ -1,7 +1,7 @@
 ---
 title: "&#39;Get&#39; statements are no longer supported (Visual Basic)"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -41,9 +41,9 @@ translation.priority.mt:
   
 ### To correct this error  
   
--   Perform file operations with functions defined in the \<xref:System.IO> namespace.  
+-   Perform file operations with functions defined in the <xref:System.IO> namespace.  
   
 ## See Also  
- \<xref:System.IO>   
+ <xref:System.IO>   
  [Get Statement](../Topic/Get%20Statement.md)   
  [File Access with Visual Basic](../Topic/File%20Access%20with%20Visual%20Basic.md)

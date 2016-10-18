@@ -1,7 +1,7 @@
 ---
 title: "DA0001: Use StringBuilder for concatenations"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,10 +44,10 @@ translation.priority.mt:
 |Message type|Warning|  
   
 ## Cause  
- Calls to System.String.Concat are a significant proportion of the profiling data. Consider using the \<xref:System.Text.StringBuilder> class to construct strings from multiple segments.  
+ Calls to System.String.Concat are a significant proportion of the profiling data. Consider using the <xref:System.Text.StringBuilder> class to construct strings from multiple segments.  
   
 ## Rule Description  
- A \<xref:System.String> object is immutable. Therefore, any modification to the string creates a new string object and the garbage collection of the original. This behavior is the same whether you call String.Concat explicitly or use the string concatenation operators such as + or +=.. Program performance can decrease if the these methods are frequently called, such as when characters are added to a string in a tight loop.  
+ A <xref:System.String> object is immutable. Therefore, any modification to the string creates a new string object and the garbage collection of the original. This behavior is the same whether you call String.Concat explicitly or use the string concatenation operators such as + or +=.. Program performance can decrease if the these methods are frequently called, such as when characters are added to a string in a tight loop.  
   
  The StringBuilder class is a mutable object, and, unlike System.String, most of the methods on StringBuilder that modify an instance of this class return a reference to that same instance. You can insert characters or append text to a StringBuilder instance, and remove or replace characters in the instance without the need for allocating a new instance and deleting the original instance.  
   

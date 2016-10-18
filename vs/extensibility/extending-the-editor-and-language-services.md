@@ -1,7 +1,7 @@
 ---
 title: "Extending the Editor and Language Services"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -69,36 +69,36 @@ You can add language service features (such as IntelliSense) to your own editor,
 ## Reference  
  The Visual Studio editor includes the following namespaces.  
   
- \<xref:Microsoft.VisualStudio.Language.Intellisense>  
+ <xref:Microsoft.VisualStudio.Language.Intellisense>  
   
- \<xref:Microsoft.VisualStudio.Language.StandardClassification>  
+ <xref:Microsoft.VisualStudio.Language.StandardClassification>  
   
- \<xref:Microsoft.VisualStudio.Editor>  
+ <xref:Microsoft.VisualStudio.Editor>  
   
- \<xref:Microsoft.VisualStudio.Text>  
+ <xref:Microsoft.VisualStudio.Text>  
   
- \<xref:Microsoft.VisualStudio.Text.Adornments>  
+ <xref:Microsoft.VisualStudio.Text.Adornments>  
   
- \<xref:Microsoft.VisualStudio.Text.Classification>  
+ <xref:Microsoft.VisualStudio.Text.Classification>  
   
- \<xref:Microsoft.VisualStudio.Text.Differencing>  
+ <xref:Microsoft.VisualStudio.Text.Differencing>  
   
- \<xref:Microsoft.VisualStudio.Text.Document>  
+ <xref:Microsoft.VisualStudio.Text.Document>  
   
- \<xref:Microsoft.VisualStudio.Text.Editor>  
+ <xref:Microsoft.VisualStudio.Text.Editor>  
   
- \<xref:Microsoft.VisualStudio.Text.Editor.OptionsExtensionMethods>  
+ <xref:Microsoft.VisualStudio.Text.Editor.OptionsExtensionMethods>  
   
- \<xref:Microsoft.VisualStudio.Text.Formatting>  
+ <xref:Microsoft.VisualStudio.Text.Formatting>  
   
- \<xref:Microsoft.VisualStudio.Text.IncrementalSearch>  
+ <xref:Microsoft.VisualStudio.Text.IncrementalSearch>  
   
- \<xref:Microsoft.VisualStudio.Text.Operations>  
+ <xref:Microsoft.VisualStudio.Text.Operations>  
   
- \<xref:Microsoft.VisualStudio.Text.Outlining>  
+ <xref:Microsoft.VisualStudio.Text.Outlining>  
   
- \<xref:Microsoft.VisualStudio.Text.Projection>  
+ <xref:Microsoft.VisualStudio.Text.Projection>  
   
- \<xref:Microsoft.VisualStudio.Text.Tagging>  
+ <xref:Microsoft.VisualStudio.Text.Tagging>  
   
- \<xref:Microsoft.VisualStudio.Utilities>
+ <xref:Microsoft.VisualStudio.Utilities>

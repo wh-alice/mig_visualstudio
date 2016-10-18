@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.Data.InvalidExpressionException"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,12 +37,12 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.Data.InvalidExpressionException
-An \<xref:System.Data.InvalidExpressionException> exception is thrown when there is an attempt to add a \<xref:System.Data.DataColumn> containing an invalid \<xref:System.Data.DataColumn.Expression*> to a \<xref:System.Data.DataColumnCollection>.  
+An <xref:System.Data.InvalidExpressionException> exception is thrown when there is an attempt to add a <xref:System.Data.DataColumn> containing an invalid <xref:System.Data.DataColumn.Expression*> to a <xref:System.Data.DataColumnCollection>.  
   
 ## Associated Tips  
  **Check the syntax of your expression.**  
- The \<xref:System.Data.DataColumn.Expression*> property is used to calculate the value of a column or to create an aggregate column.  
+ The <xref:System.Data.DataColumn.Expression*> property is used to calculate the value of a column or to create an aggregate column.  
   
 ## See Also  
- \<xref:System.Data.InvalidExpressionException>   
+ <xref:System.Data.InvalidExpressionException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

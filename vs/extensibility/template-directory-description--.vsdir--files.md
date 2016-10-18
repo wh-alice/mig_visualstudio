@@ -1,7 +1,7 @@
 ---
 title: "Template Directory Description (.Vsdir) Files"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -58,7 +58,7 @@ SourceFile.cpp|{E59935A1-6156-11d1-87A6-00A0C91E2A46}|#122|110|#123|0|0|0|#124
 |Description|The localized description of the template file or wizard. This field can be a string or a resource identifier of the form "#ResID". This string appears in the **New Project** or **Add New Item** dialog box when the item is selected.|  
 |DLLPath or {clsidPackage}|Used to load an icon for the template file or wizard. The icon is loaded as a resource out of a .dll or .exe file by using the IconResourceId. This .dll or .exe file can be identified either by using a full path or by using a GUID of a VSPackage. The implementation DLL of the VSPackage is used to load the icon (not the satellite DLL).|  
 |IconResourceId|The resource identifier in the DLL or VSPackage implementation DLL that determines the icon to display.|  
-|Flags (\<xref:Microsoft.VisualStudio.Shell.Interop.__VSDIRFLAGS>)|Used to disable or enable the **Name** and **Location** fields on the **Add New Item** dialog box. The value of the **Flags** field is the decimal equivalent of the combination of required bit flags.<br /><br /> When a user selects an item on the **New** tab, the project determines whether the Name field and the Location field are shown when the **Add New Item** dialog box is first displayed. An item, through a .vsdir file, can control only whether the fields are enabled versus disabled when the item is selected.|  
+|Flags (<xref:Microsoft.VisualStudio.Shell.Interop.__VSDIRFLAGS>)|Used to disable or enable the **Name** and **Location** fields on the **Add New Item** dialog box. The value of the **Flags** field is the decimal equivalent of the combination of required bit flags.<br /><br /> When a user selects an item on the **New** tab, the project determines whether the Name field and the Location field are shown when the **Add New Item** dialog box is first displayed. An item, through a .vsdir file, can control only whether the fields are enabled versus disabled when the item is selected.|  
 |SuggestedBaseName|Represents the default name for the file, wizard, or template. This field is either a string or a resource identifier of the form "#ResID". The IDE uses this value to provide a default name for the item. This base value is appended with an integer value to make the name unique, such as MyFile21.asp.<br /><br /> In the previous list, Description, DLLPath, IconResourceId, Flags, and SuggestedBaseNumber apply only to template and wizard files. These fields do not apply to folders. This fact is illustrated in the code in the BscPrjProjectItems file in the \<EnvSDK>\BscPrj\BscPrj\BscPrjProjectItems registry key. This file contains three records (one for each folder) with four fields for each record: RelPathName, {clsidPackage}, LocalizedName, and SortPriority.<br /><br /> `General&#124;{E59935A1-6156-11d1-87A6-00A0C91E2A46}&#124;#110&#124;100`<br /><br /> `Source_Files&#124;{E59935A1-6156-11d1-87A6-00A0C91E2A46}&#124;#111&#124;110`<br /><br /> `Env&#124;{E59935A1-6156-11d1-87A6-00A0C91E2A46}&#124;#112&#124;120`|  
   
  When you create a wizard file, you should also consider the following issues.  

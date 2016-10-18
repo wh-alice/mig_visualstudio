@@ -1,7 +1,7 @@
 ---
 title: "&#39;MyClass&#39; cannot be used outside of a class"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,5 +44,5 @@ You have used the `MyClass` keyword outside a class structure.
 -   Move the `MyClass` declaration into your class structure.  
   
 ## See Also  
- [MyClass - delete](http://msdn.microsoft.com/5db36f9b-f796-4b6a-ba34-cac1fde6eb62)   
- [NOT IN BUILD: Overriding Properties and Methods](http://msdn.microsoft.com/2167e8f5-1225-4b13-9ebd-02591ba90213)
+ [MyClass - delete](http://msdn.microsoft.com/en-us/5db36f9b-f796-4b6a-ba34-cac1fde6eb62)   
+ [NOT IN BUILD: Overriding Properties and Methods](http://msdn.microsoft.com/en-us/2167e8f5-1225-4b13-9ebd-02591ba90213)

@@ -1,7 +1,7 @@
 ---
 title: "Argument &#39;&lt;argumentname&gt;&#39; is Nothing or empty"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,6 +39,6 @@ An argument name is not valid because it is initialized to `Nothing` or is empty
 -   Add a valid argument name.  
   
 ## See Also  
- [My.Application.Info.DirectoryPath Property](http://msdn.microsoft.com/660586b9-638e-42a7-ae21-5eee34a3fccf)   
+ [My.Application.Info.DirectoryPath Property](http://msdn.microsoft.com/en-us/660586b9-638e-42a7-ae21-5eee34a3fccf)   
  [How to: Parse File Paths](../Topic/How%20to:%20Parse%20File%20Paths%20in%20Visual%20Basic.md)   
  [Nothing](../Topic/Nothing%20\(Visual%20Basic\).md)

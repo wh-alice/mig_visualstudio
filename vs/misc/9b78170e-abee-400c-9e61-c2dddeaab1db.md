@@ -1,7 +1,7 @@
 ---
 title: "UnregisterExtenderProvider() cannot be used to unregister an Extender Provider that was not registered through RegisterExtenderProvider()."
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -35,6 +35,6 @@ translation.priority.mt:
 Registry-based providers do not need to be registered and unregistered explicitly.  
   
 ## See Also  
- \<xref:EnvDTE.ObjectExtenders.RegisterExtenderProvider*>   
- \<xref:EnvDTE.ObjectExtenders.UnregisterExtenderProvider*>   
- \<xref:EnvDTE.ObjectExtenders>
+ <xref:EnvDTE.ObjectExtenders.RegisterExtenderProvider*>   
+ <xref:EnvDTE.ObjectExtenders.UnregisterExtenderProvider*>   
+ <xref:EnvDTE.ObjectExtenders>

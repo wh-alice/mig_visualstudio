@@ -1,7 +1,7 @@
 ---
 title: "Unable to delete file &lt;name&gt;. The file may be in use by another application or marked read-only."
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na

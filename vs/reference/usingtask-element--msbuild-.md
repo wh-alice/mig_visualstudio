@@ -1,7 +1,7 @@
 ---
 title: "UsingTask Element (MSBuild)"
 ms.custom: na
-ms.date: "10/12/2016"
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -60,8 +60,8 @@ Maps the task that is referenced in a [Task](../reference/task-element--msbuild-
   
 |Attribute|Description|  
 |---------------|-----------------|  
-|`AssemblyName`|Either the `AssemblyName` attribute or the `AssemblyFile` attribute is required.<br /><br /> The name of the assembly to load. The `AssemblyName` attribute accepts strong-named assemblies, although strong-naming is not required. Using this attribute is equivalent to loading an assembly by using the \<xref:System.Reflection.Assembly.Load*> method in .NET.<br /><br /> You cannot use this attribute if the `AssemblyFile` attribute is used.|  
-|`AssemblyFile`|Either the `AssemblyName` or the `AssemblyFile` attribute is required.<br /><br /> The file path of the assembly. This attribute accepts full paths or relative paths. Relative paths are relative to the directory of the project file or targets file where the `UsingTask` element is declared. Using this attribute is equivalent to loading an assembly by using the \<xref:System.Reflection.Assembly.LoadFrom*> method in .NET.<br /><br /> You cannot use this attribute if the `AssemblyName` attribute is used.|  
+|`AssemblyName`|Either the `AssemblyName` attribute or the `AssemblyFile` attribute is required.<br /><br /> The name of the assembly to load. The `AssemblyName` attribute accepts strong-named assemblies, although strong-naming is not required. Using this attribute is equivalent to loading an assembly by using the <xref:System.Reflection.Assembly.Load*> method in .NET.<br /><br /> You cannot use this attribute if the `AssemblyFile` attribute is used.|  
+|`AssemblyFile`|Either the `AssemblyName` or the `AssemblyFile` attribute is required.<br /><br /> The file path of the assembly. This attribute accepts full paths or relative paths. Relative paths are relative to the directory of the project file or targets file where the `UsingTask` element is declared. Using this attribute is equivalent to loading an assembly by using the <xref:System.Reflection.Assembly.LoadFrom*> method in .NET.<br /><br /> You cannot use this attribute if the `AssemblyName` attribute is used.|  
 |`TaskFactory`|Optional attribute.<br /><br /> Specifies the class in the assembly that is responsible for generating instances of the specified `Task` name.  The user may also specify a `TaskBody` as a child element that the task factory receives and uses to generate the task. The contents of the `TaskBody` are specific to the task factory.|  
 |`TaskName`|Required attribute.<br /><br /> The name of the task to reference from an assembly. If ambiguities are possible, this attribute should always specify full namespaces. If there are ambiguities, MSBuild chooses an arbitrary match, which could produce unexpected results.|  
 |`Condition`|Optional attribute.<br /><br /> The condition to evaluate. For more information, see [Conditions](../reference/msbuild-conditions.md).|  

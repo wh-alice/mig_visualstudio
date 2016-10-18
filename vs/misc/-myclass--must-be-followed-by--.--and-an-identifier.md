@@ -1,7 +1,7 @@
 ---
 title: "&#39;MyClass&#39; must be followed by &#39;.&#39; and an identifier"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -46,7 +46,7 @@ translation.priority.mt:
 2.  If you do not intend to access a class member, use the `Me` keyword.  
   
 ## See Also  
- [MyClass - delete](http://msdn.microsoft.com/5db36f9b-f796-4b6a-ba34-cac1fde6eb62)   
- [Me](http://msdn.microsoft.com/a65973c7-cf06-4547-9b25-9fba885525c2)   
+ [MyClass - delete](http://msdn.microsoft.com/en-us/5db36f9b-f796-4b6a-ba34-cac1fde6eb62)   
+ [Me](http://msdn.microsoft.com/en-us/a65973c7-cf06-4547-9b25-9fba885525c2)   
  [NotOverridable](../Topic/NotOverridable%20\(Visual%20Basic\).md)   
  [Inheritance Basics](../Topic/Inheritance%20Basics%20\(Visual%20Basic\).md)

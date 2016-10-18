@@ -1,7 +1,7 @@
 ---
 title: "The default assembly reference &#39;&lt;reference&gt;&#39; has already been automatically added; ignored"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,4 +44,4 @@ An attempt has been made to add the default assembly reference, but the assembly
 -   Remove the superfluous code.  
   
 ## See Also  
- [NOT IN BUILD: Assemblies](http://msdn.microsoft.com/6c5c7b30-fa78-4f40-b908-120d0743b0e6)
+ [NOT IN BUILD: Assemblies](http://msdn.microsoft.com/en-us/6c5c7b30-fa78-4f40-b908-120d0743b0e6)

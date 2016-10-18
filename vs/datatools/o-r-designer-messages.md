@@ -63,7 +63,7 @@ This topic lists the messages that you can encounter when you work with the O/R 
  [You have selected a database object from an unsupported database provider](../datatools/you-have-selected-a-database-object-from-an-unsupported-database-provider.md)  
   
 ## Reference  
- \<xref:System.Data.Linq>  
+ <xref:System.Data.Linq>  
   
 ## Related Sections  
  [LINQ to SQL Tools in Visual Studio](../datatools/linq-to-sql-tools-in-visual-studio2.md)  

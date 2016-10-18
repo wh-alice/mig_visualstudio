@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.ServiceModel.Security.MessageSecurityException"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -33,7 +33,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.ServiceModel.Security.MessageSecurityException
-A \<xref:System.ServiceModel.Security.MessageSecurityException> exception is thrown when [!INCLUDE[vsindigo](../datatools/includes/vsindigo_md.md)] determines that a message is not correctly secured or has been tampered with. The error occurs most frequently when the following conditions are all true:  
+A <xref:System.ServiceModel.Security.MessageSecurityException> exception is thrown when [!INCLUDE[vsindigo](../datatools/includes/vsindigo_md.md)] determines that a message is not correctly secured or has been tampered with. The error occurs most frequently when the following conditions are all true:  
   
 -   You use a WCF Service Reference over a remote connection such as Remote Desktop Connection or Terminal Services to communicate with a WCF service (.svc) in a Web site or Web application project.  
   
@@ -98,5 +98,5 @@ A \<xref:System.ServiceModel.Security.MessageSecurityException> exception is thr
 3.  Click **OK**.  
   
 ## See Also  
- \<xref:System.ServiceModel.Security.MessageSecurityException>   
+ <xref:System.ServiceModel.Security.MessageSecurityException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

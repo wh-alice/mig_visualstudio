@@ -1,7 +1,7 @@
 ---
 title: "ClickOnce Security and Deployment"
 ms.custom: na
-ms.date: "10/07/2016"
+ms.date: "10/17/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -113,7 +113,7 @@ translation.priority.ht:
 |[GenerateApplicationManifest Task](../reference/generateapplicationmanifest-task.md)|Generates the application manifest.<br /><br /> Can be run from MSBuild. For more information, see [MSBuild Reference](../reference/msbuild-reference.md).|  
 |[GenerateDeploymentManifest Task](../reference/generatedeploymentmanifest-task.md)|Generates the deployment manifest.<br /><br /> Can be run from MSBuild. For more information, see [MSBuild Reference](../reference/msbuild-reference.md).|  
 |[SignFile Task](../reference/signfile-task.md)|Signs the application and deployment manifests.<br /><br /> Can be run from MSBuild. For more information, see [MSBuild Reference](../reference/msbuild-reference.md).|  
-|\<xref:Microsoft.Build.Tasks.Deployment.ManifestUtilities>|Develop your own application to generate the application and deployment manifests.|  
+|<xref:Microsoft.Build.Tasks.Deployment.ManifestUtilities>|Develop your own application to generate the application and deployment manifests.|  
   
  The following table shows the .NET Framework version required to support ClickOnce applications in these browsers.  
   

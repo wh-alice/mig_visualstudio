@@ -1,7 +1,7 @@
 ---
 title: "The value of &lt;argumentname&gt; must be greater than or equal to 1000"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -32,15 +32,15 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # The value of &lt;argumentname&gt; must be greater than or equal to 1000
-The value of the \<xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.MaxFileSize*> property must be greater than or equal to 1000.  
+The value of the <xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.MaxFileSize*> property must be greater than or equal to 1000.  
   
- The \<xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.MaxFileSize*> property specifies the maximum number of bytes allowed in a log file before a new log file is created.  
+ The <xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.MaxFileSize*> property specifies the maximum number of bytes allowed in a log file before a new log file is created.  
   
 ### To correct this error  
   
--   Set the \<xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.MaxFileSize*> property to a number greater than or equal to 1000.  
+-   Set the <xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.MaxFileSize*> property to a number greater than or equal to 1000.  
   
 ## See Also  
- \<xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.MaxFileSize*>   
+ <xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.MaxFileSize*>   
  [My.Application.Log Object](../Topic/My.Application.Log%20Object.md)   
  [My.Log Object](../Topic/My.Log%20Object.md)

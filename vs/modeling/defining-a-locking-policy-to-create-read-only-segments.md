@@ -1,7 +1,7 @@
 ---
 title: "Defining a Locking Policy to Create Read-Only Segments"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -43,7 +43,7 @@ element.SetLocks(Locks.Delete | Locks.Property);
   
  You can set a lock without using a transaction. The lock database is not part of the store. If you set a lock in response to a change of a value in the store, for example in OnValueChanged, you should allow changes that are part of an Undo operation.  
   
- These methods are extension methods that are defined in the \<xref:Microsoft.VisualStudio.Modeling.Immutability> namespace.  
+ These methods are extension methods that are defined in the <xref:Microsoft.VisualStudio.Modeling.Immutability> namespace.  
   
 ### Locks on partitions and stores  
  Locks can also be applied to partitions and the store. A lock that is set on a partition applies to all the elements in the partition. Therefore, for example, the following statement will prevent all the elements in a partition from being deleted, irrespective of the states of their own locks. Nevertheless, other locks such as `Locks.Property` could still be set on individual elements:  
@@ -96,12 +96,12 @@ partition.SetLocks(Locks.Delete);
   
  To define a locking policy, you have to:  
   
--   Create a class that implements \<xref:Microsoft.VisualStudio.Modeling.Immutability.ILockingPolicy>.  
+-   Create a class that implements <xref:Microsoft.VisualStudio.Modeling.Immutability.ILockingPolicy>.  
   
 -   Add this class to the services that are available through the DocData of your DSL.  
   
 ### To define a locking policy  
- \<xref:Microsoft.VisualStudio.Modeling.Immutability.ILockingPolicy> has the following definition:  
+ <xref:Microsoft.VisualStudio.Modeling.Immutability.ILockingPolicy> has the following definition:  
   
 ```  
 public interface ILockingPolicy  

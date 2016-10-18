@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Using a Shell Command with an Editor Extension"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -86,7 +86,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
 8.  In the CommentAdornmentTest project, set the project to produce an assembly. In the **Solution Explorer**, select the project and look in the **Properties** window for the **Copy Build Output to OutputDirectory** property, and set it to **true**.  
   
 ## Defining a Comment Adornment  
- The comment adornment itself consists of an \<xref:Microsoft.VisualStudio.Text.ITrackingSpan> that tracks the selected text, and some strings that represent the author and the description of the text.  
+ The comment adornment itself consists of an <xref:Microsoft.VisualStudio.Text.ITrackingSpan> that tracks the selected text, and some strings that represent the author and the description of the text.  
   
 #### To define a comment adornment  
   
@@ -124,7 +124,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
     internal class CommentAdornment  
     ```  
   
-5.  Add three fields to the `CommentAdornment` class for the \<xref:Microsoft.VisualStudio.Text.ITrackingSpan>, the author, and the description.  
+5.  Add three fields to the `CommentAdornment` class for the <xref:Microsoft.VisualStudio.Text.ITrackingSpan>, the author, and the description.  
   
     ```c#  
     public readonly ITrackingSpan Span;  
@@ -144,7 +144,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
     ```  
   
 ## Creating a Visual Element for the Adornment  
- You must also define a visual element for your adornment. For this walkthrough, define a control that inherits from the Windows Presentation Foundation (WPF) class \<xref:System.Windows.Controls.Canvas>.  
+ You must also define a visual element for your adornment. For this walkthrough, define a control that inherits from the Windows Presentation Foundation (WPF) class <xref:System.Windows.Controls.Canvas>.  
   
 1.  Create a class in the CommentAdornmentTest project, and name it `CommentBlock`.  
   
@@ -162,7 +162,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
     using Microsoft.VisualStudio.Utilities;  
     ```  
   
-3.  Make the `CommentBlock` class inherit from \<xref:System.Windows.Controls.Canvas>.  
+3.  Make the `CommentBlock` class inherit from <xref:System.Windows.Controls.Canvas>.  
   
     ```c#  
     internal class CommentBlock : Canvas  
@@ -248,7 +248,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
     }  
     ```  
   
-6.  Also implement an \<xref:System.Windows.Controls.Panel.OnRender*> event handler that draws the adornment.  
+6.  Also implement an <xref:System.Windows.Controls.Panel.OnRender*> event handler that draws the adornment.  
   
     ```c#  
     protected override void OnRender(DrawingContext dc)  
@@ -268,7 +268,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
     ```  
   
 ## Adding an IWpfTextViewCreationListener  
- The \<xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewCreationListener> is a MEF component part that you can use to listen to view creation events.  
+ The <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewCreationListener> is a MEF component part that you can use to listen to view creation events.  
   
 1.  Add a class file to the CommentAdornmentTest project and name it `Connector`.  
   
@@ -280,12 +280,12 @@ From a VSPackage, you can add features such as menu commands to the editor. This
     using Microsoft.VisualStudio.Utilities;  
     ```  
   
-3.  Declare a class that implements \<xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewCreationListener>, and export it with a \<xref:Microsoft.VisualStudio.Utilities.ContentTypeAttribute> of "text" and a \<xref:Microsoft.VisualStudio.Text.Editor.TextViewRoleAttribute> of \<xref:Microsoft.VisualStudio.Text.Editor.PredefinedTextViewRoles.Document>. The content type attribute specifies the kind of content to which the component applies. The text type is the base type for all non-binary file types. Therefore, almost every text view that is created will be of this type. The text view role attribute specifies the kind of text view to which the component applies. Document text view roles generally show text that is composed of lines and is stored in a file.  
+3.  Declare a class that implements <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewCreationListener>, and export it with a <xref:Microsoft.VisualStudio.Utilities.ContentTypeAttribute> of "text" and a <xref:Microsoft.VisualStudio.Text.Editor.TextViewRoleAttribute> of <xref:Microsoft.VisualStudio.Text.Editor.PredefinedTextViewRoles.Document>. The content type attribute specifies the kind of content to which the component applies. The text type is the base type for all non-binary file types. Therefore, almost every text view that is created will be of this type. The text view role attribute specifies the kind of text view to which the component applies. Document text view roles generally show text that is composed of lines and is stored in a file.  
   
      [!code[VSSDKMenuCommandTest#11](../extensibility/codesnippet/VisualBasic/walkthrough--using-a-shell-command-with-an-editor-extension_1.vb)]
 [!code[VSSDKMenuCommandTest#11](../extensibility/codesnippet/CSharp/walkthrough--using-a-shell-command-with-an-editor-extension_1.cs)]  
   
-4.  Implement the \<xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewCreationListener.TextViewCreated*> method so that it calls the static `Create()` event of the `CommentAdornmentManager`.  
+4.  Implement the <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewCreationListener.TextViewCreated*> method so that it calls the static `Create()` event of the `CommentAdornmentManager`.  
   
     ```c#  
     public void TextViewCreated(IWpfTextView textView)  
@@ -321,7 +321,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
 #### To define an adornment layer  
   
-1.  In the `Connector` class, declare a public field of type \<xref:Microsoft.VisualStudio.Text.Editor.AdornmentLayerDefinition>, and export it with a \<xref:Microsoft.VisualStudio.Utilities.NameAttribute> that specifies a unique name for the adornment layer and an \<xref:Microsoft.VisualStudio.Utilities.OrderAttribute> that defines the Z-order relationship of this adornment layer to the other text view layers (text, caret, and selection).  
+1.  In the `Connector` class, declare a public field of type <xref:Microsoft.VisualStudio.Text.Editor.AdornmentLayerDefinition>, and export it with a <xref:Microsoft.VisualStudio.Utilities.NameAttribute> that specifies a unique name for the adornment layer and an <xref:Microsoft.VisualStudio.Utilities.OrderAttribute> that defines the Z-order relationship of this adornment layer to the other text view layers (text, caret, and selection).  
   
     ```c#  
     [Export(typeof(AdornmentLayerDefinition))]  
@@ -332,7 +332,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
     ```  
   
 ## Providing Comment Adornments  
- When you define an adornment, also implement a comment adornment provider and a comment adornment manager. The comment adornment provider keeps a list of comment adornments, listens to \<xref:Microsoft.VisualStudio.Text.ITextBuffer.Changed> events on the underlying text buffer, and deletes comment adornments when the underlying text is deleted.  
+ When you define an adornment, also implement a comment adornment provider and a comment adornment manager. The comment adornment provider keeps a list of comment adornments, listens to <xref:Microsoft.VisualStudio.Text.ITextBuffer.Changed> events on the underlying text buffer, and deletes comment adornments when the underlying text is deleted.  
   
 1.  Add a new class file to the CommentAdornmentTest project and name it `CommentAdornmentProvider`.  
   
@@ -362,7 +362,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
     ```  
   
-5.  Add a constructor for `CommentAdornmentProvider`. This constructor should have private access because the provider is instantiated by the `Create()` method. The constructor adds the `OnBufferChanged` event handler to the \<xref:Microsoft.VisualStudio.Text.ITextBuffer.Changed> event.  
+5.  Add a constructor for `CommentAdornmentProvider`. This constructor should have private access because the provider is instantiated by the `Create()` method. The constructor adds the `OnBufferChanged` event handler to the <xref:Microsoft.VisualStudio.Text.ITextBuffer.Changed> event.  
   
     ```c#  
     private CommentAdornmentProvider(ITextBuffer buffer)  
@@ -517,7 +517,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
     ```  
   
 ## Managing Comment Adornments  
- The comment adornment manager creates the adornment and adds it to the adornment layer. It listens to the \<xref:Microsoft.VisualStudio.Text.Editor.ITextView.LayoutChanged> and \<xref:Microsoft.VisualStudio.Text.Editor.ITextView.Closed> events so that it can move or delete the adornment. It also listens to the `CommentsChanged` event that is fired by the comment adornment provider when comments are added or removed.  
+ The comment adornment manager creates the adornment and adds it to the adornment layer. It listens to the <xref:Microsoft.VisualStudio.Text.Editor.ITextView.LayoutChanged> and <xref:Microsoft.VisualStudio.Text.Editor.ITextView.Closed> events so that it can move or delete the adornment. It also listens to the `CommentsChanged` event that is fired by the comment adornment provider when comments are added or removed.  
   
 1.  Add a class file to the CommentAdornmentTest project and name it `CommentAdornmentManager`.  
   
@@ -548,7 +548,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
     private readonly CommentAdornmentProvider provider;  
     ```  
   
-5.  Add a constructor that subscribes the manager to the \<xref:Microsoft.VisualStudio.Text.Editor.ITextView.LayoutChanged> and \<xref:Microsoft.VisualStudio.Text.Editor.ITextView.Closed> events, and also to the `CommentsChanged` event. The constructor is private because the manager is instantiated by the static `Create()` method.  
+5.  Add a constructor that subscribes the manager to the <xref:Microsoft.VisualStudio.Text.Editor.ITextView.LayoutChanged> and <xref:Microsoft.VisualStudio.Text.Editor.ITextView.Closed> events, and also to the `CommentsChanged` event. The constructor is private because the manager is instantiated by the static `Create()` method.  
   
     ```c#  
     private CommentAdornmentManager(IWpfTextView view)  
@@ -588,7 +588,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
     }  
     ```  
   
-8.  Add the \<xref:Microsoft.VisualStudio.Text.Editor.ITextView.Closed> handler.  
+8.  Add the <xref:Microsoft.VisualStudio.Text.Editor.ITextView.Closed> handler.  
   
     ```c#  
     private void OnClosed(object sender, EventArgs e)  
@@ -599,7 +599,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
     }  
     ```  
   
-9. Add the \<xref:Microsoft.VisualStudio.Text.Editor.ITextView.LayoutChanged> handler.  
+9. Add the <xref:Microsoft.VisualStudio.Text.Editor.ITextView.LayoutChanged> handler.  
   
     ```c#  
     private void OnLayoutChanged(object sender, TextViewLayoutChangedEventArgs e)  
@@ -675,7 +675,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
     }  
     ```  
   
-5.  If this text view is an instance of an editor text view, you can cast it to the \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsUserData> interface and then get the \<xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewHost> and its associated \<xref:Microsoft.VisualStudio.Text.Editor.IWpfTextView>. Use the \<xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewHost> to call the `Connector.Execute()` method, which gets the comment adornment provider and adds the adornment. The command handler should now look like this:  
+5.  If this text view is an instance of an editor text view, you can cast it to the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsUserData> interface and then get the <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewHost> and its associated <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextView>. Use the <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewHost> to call the `Connector.Execute()` method, which gets the comment adornment provider and adds the adornment. The command handler should now look like this:  
   
     ```c#  
     private void AddAdornmentHandler(object sender, EventArgs e)  

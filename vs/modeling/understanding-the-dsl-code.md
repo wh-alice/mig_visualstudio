@@ -1,7 +1,7 @@
 ---
 title: "Understanding the DSL Code"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -94,15 +94,15 @@ A Domain-Specific Language (DSL) solution generates an API that you can use to r
   
  `Connectors.cs`  
   
- Contains the classes for the connectors, which are the diagram elements that typically represent reference relationships. Each class is generated from one connector in the DSL Definition. Every connector class is derived from \<xref:Microsoft.VisualStudio.Modeling.Diagrams.BinaryLinkShape>  
+ Contains the classes for the connectors, which are the diagram elements that typically represent reference relationships. Each class is generated from one connector in the DSL Definition. Every connector class is derived from <xref:Microsoft.VisualStudio.Modeling.Diagrams.BinaryLinkShape>  
   
  To make the color and some other style features variable at run time, right-click the class on the DSL Definition diagram and point to **Add Exposed**.  
   
- To make additional style features variable at run time, see for example \<xref:Microsoft.VisualStudio.Modeling.Diagrams.TextField> and \<xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement>.  
+ To make additional style features variable at run time, see for example <xref:Microsoft.VisualStudio.Modeling.Diagrams.TextField> and <xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement>.  
   
  `Diagram.cs`  
   
- Contains the class that defines the diagram. It is derived from \<xref:Microsoft.VisualStudio.Modeling.Diagrams.Diagram>.  
+ Contains the class that defines the diagram. It is derived from <xref:Microsoft.VisualStudio.Modeling.Diagrams.Diagram>.  
   
  To make the color and some other style features variable at run time, right-click the class on the DSL Definition diagram and point to **Add Exposed**.  
   
@@ -116,7 +116,7 @@ A Domain-Specific Language (DSL) solution generates an API that you can use to r
   
  `DomainClasses.cs`  
   
- Implementations of domain classes that you have defined, including abstract classes and the model root class. They are derived from \<xref:Microsoft.VisualStudio.Modeling.ModelElement>.  
+ Implementations of domain classes that you have defined, including abstract classes and the model root class. They are derived from <xref:Microsoft.VisualStudio.Modeling.ModelElement>.  
   
  Each domain class contains:  
   
@@ -138,7 +138,7 @@ A Domain-Specific Language (DSL) solution generates an API that you can use to r
   
  `DomainModel.cs`  
   
- The class that represents the domain model. It is derived from \<xref:Microsoft.VisualStudio.Modeling.DomainModel>.  
+ The class that represents the domain model. It is derived from <xref:Microsoft.VisualStudio.Modeling.DomainModel>.  
   
 > [!NOTE]
 >  This is not the same as the root class of the model.  
@@ -153,7 +153,7 @@ A Domain-Specific Language (DSL) solution generates an API that you can use to r
   
  `DomainRelationships.cs`  
   
- Each link between two elements in a model is represented by an instance of a domain relationship class. All relationship classes are derived from \<xref:Microsoft.VisualStudio.Modeling.ElementLink>, which in turn is derived from \<xref:Microsoft.VisualStudio.Modeling.ModelElement>. Because it is a ModelElement, an instance of a relationship can have properties and can be the source or target of a relationship.  
+ Each link between two elements in a model is represented by an instance of a domain relationship class. All relationship classes are derived from <xref:Microsoft.VisualStudio.Modeling.ElementLink>, which in turn is derived from <xref:Microsoft.VisualStudio.Modeling.ModelElement>. Because it is a ModelElement, an instance of a relationship can have properties and can be the source or target of a relationship.  
   
  `HelpKeywordHelper.cs`  
   
@@ -183,13 +183,13 @@ A Domain-Specific Language (DSL) solution generates an API that you can use to r
   
  `Shapes.cs`  
   
- A class for every shape class in the DSL Definition. Shapes are derived from \<xref:Microsoft.VisualStudio.Modeling.Diagrams.NodeShape>. For more information, see [Customizing File Storage and XML Serialization](../modeling/customizing-file-storage-and-xml-serialization.md).  
+ A class for every shape class in the DSL Definition. Shapes are derived from <xref:Microsoft.VisualStudio.Modeling.Diagrams.NodeShape>. For more information, see [Customizing File Storage and XML Serialization](../modeling/customizing-file-storage-and-xml-serialization.md).  
   
  To override the generated methods with your own methods in a partial class, set **Generates Double Derived** for the connector in the DSL Definition. To replace a constructor with your own code, set **Has Custom Constructor**.  
   
  To make the color and some other style features variable at run time, right-click the class on the DSL Definition diagram and point to **Add Exposed**.  
   
- To make additional style features variable at run time, see for example \<xref:Microsoft.VisualStudio.Modeling.Diagrams.TextField> and \<xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement>  
+ To make additional style features variable at run time, see for example <xref:Microsoft.VisualStudio.Modeling.Diagrams.TextField> and <xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement>  
   
  `ToolboxHelper.cs`  
   

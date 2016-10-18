@@ -1,7 +1,7 @@
 ---
 title: "Compiler Warning (level 1) CS0657"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -38,7 +38,7 @@ translation.priority.mt:
 # Compiler Warning (level 1) CS0657
 'attribute modifier' is not a valid attribute location for this declaration. Valid attribute locations for this declaration are 'locations'. All attributes in this block will be ignored.  
   
- The compiler found an attribute modifier in an invalid location. See [Attribute Targets](http://msdn.microsoft.com/59a261f0-1cfb-4aa5-b610-6b735389882c) for more information.  
+ The compiler found an attribute modifier in an invalid location. See [Attribute Targets](http://msdn.microsoft.com/en-us/59a261f0-1cfb-4aa5-b610-6b735389882c) for more information.  
   
  The following sample generates CS0657:  
   

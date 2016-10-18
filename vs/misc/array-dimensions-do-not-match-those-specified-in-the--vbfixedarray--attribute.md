@@ -1,7 +1,7 @@
 ---
 title: "Array dimensions do not match those specified in the &#39;VBFixedArray&#39; attribute"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,6 +39,6 @@ Your array's dimensions do not match the dimensions you have specified in the `V
 -   Make the array dimensions in the array `Dim` statement match the dimensions specified by the `VBFixedArray` attribute.  
   
 ## See Also  
- [NOTINBUILD Overview of Arrays in Visual Basic](http://msdn.microsoft.com/ca50e2f2-b4d2-4c57-9169-9abbcc3392d8)   
+ [NOTINBUILD Overview of Arrays in Visual Basic](http://msdn.microsoft.com/en-us/ca50e2f2-b4d2-4c57-9169-9abbcc3392d8)   
  [ReDim Statement](../Topic/ReDim%20Statement%20\(Visual%20Basic\).md)   
- [VBFixedArrayAttribute Class](http://msdn.microsoft.com/7b7e9ef6-2854-4114-892e-e7ae45dd0b49)
+ [VBFixedArrayAttribute Class](http://msdn.microsoft.com/en-us/7b7e9ef6-2854-4114-892e-e7ae45dd0b49)

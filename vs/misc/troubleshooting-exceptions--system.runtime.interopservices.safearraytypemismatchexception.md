@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.Runtime.InteropServices.SafeArrayTypeMismatchException"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -36,5 +36,5 @@ translation.priority.mt:
 The exception that is thrown when the type of the incoming `SAFEARRAY` does not match the type specified in the managed signature.  
   
 ## See Also  
- \<xref:System.Runtime.InteropServices.SafeArrayTypeMismatchException>   
+ <xref:System.Runtime.InteropServices.SafeArrayTypeMismatchException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

@@ -1,7 +1,7 @@
 ---
 title: "Invoking Text Transformation in a VS Extension"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -27,7 +27,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Invoking Text Transformation in a VS Extension
-If you are writing a [Visual Studio extension](../Topic/Developing%20Visual%20Studio%20Extensions.md) such as a menu command or [domain-specific language](../modeling/modeling-sdk-for-visual-studio---domain-specific-languages.md), you can use the text templating service to transform text templates. Get the \<xref:Microsoft.VisualStudio.TextTemplating.VSHost.STextTemplating> service and cast it to \<xref:Microsoft.VisualStudio.TextTemplating.VSHost.ITextTemplating>.  
+If you are writing a [Visual Studio extension](../Topic/Developing%20Visual%20Studio%20Extensions.md) such as a menu command or [domain-specific language](../modeling/modeling-sdk-for-visual-studio---domain-specific-languages.md), you can use the text templating service to transform text templates. Get the <xref:Microsoft.VisualStudio.TextTemplating.VSHost.STextTemplating> service and cast it to <xref:Microsoft.VisualStudio.TextTemplating.VSHost.ITextTemplating>.  
   
 ## Getting the text templating service  
   
@@ -49,9 +49,9 @@ string result = t4.ProcessTemplate(filePath, System.IO.File.ReadAllText(filePath
 ## Passing parameters to the template  
  You can pass parameters into the template. Inside the template, you can get the parameter values by using the `<#@parameter#>` directive.  
   
- For the type of a parameter, you must use a type that is serializable or that can be marshaled. That is, the type must be declared with \<xref:System.SerializableAttribute>, or it must be derived from \<xref:System.MarshalByRefObject>. This restriction is necessary because the text template is executed in a separate AppDomain. All built-in types such as **System.String** and **System.Int32** are serializable.  
+ For the type of a parameter, you must use a type that is serializable or that can be marshaled. That is, the type must be declared with <xref:System.SerializableAttribute>, or it must be derived from <xref:System.MarshalByRefObject>. This restriction is necessary because the text template is executed in a separate AppDomain. All built-in types such as **System.String** and **System.Int32** are serializable.  
   
- To pass parameter values, the calling code can place values either in the `Session` dictionary, or in the \<xref:System.Runtime.Remoting.Messaging.CallContext>.  
+ To pass parameter values, the calling code can place values either in the `Session` dictionary, or in the <xref:System.Runtime.Remoting.Messaging.CallContext>.  
   
  The following example uses both methods to transform a short test template:  
   
@@ -88,7 +88,7 @@ string result = t4.ProcessTemplate("",
 ```  
   
 ## Error Reporting and the Output Directive  
- Any errors that arise during processing will be displayed in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] error window. In addition, you can be notified of errors by specifying a callback that implements \<xref:Microsoft.VisualStudio.TextTemplating.VSHost.ITextTemplatingCallback>.  
+ Any errors that arise during processing will be displayed in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] error window. In addition, you can be notified of errors by specifying a callback that implements <xref:Microsoft.VisualStudio.TextTemplating.VSHost.ITextTemplatingCallback>.  
   
  If you want to write the result string to a file, you might want to know what file extension and encoding have been specified in the `<#@output#>` directive in the template. This information will also be passed to your callback. For more information, see [T4 Output Directive](../modeling/t4-output-directive.md).  
   
@@ -145,7 +145,7 @@ Sample text.
  The compiler warning will appear in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] error window, and it will also generate a call to `ErrorCallback`.  
   
 ## Reference parameters  
- You can pass values out of a text template by using a parameter class that is derived from \<xref:System.MarshalByRefObject>.  
+ You can pass values out of a text template by using a parameter class that is derived from <xref:System.MarshalByRefObject>.  
   
 ## Related Topics  
  To generate text from a preprocessed text template:  
@@ -155,4 +155,4 @@ Sample text.
  Define a custom host. For more information, see [Processing Text Templates by using a Custom Host](../modeling/processing-text-templates-by-using-a-custom-host.md).  
   
  To generate source code that can later be compiled and executed:  
- Call the `t4.PreprocessTemplate()` method of \<xref:Microsoft.VisualStudio.TextTemplating.VSHost.ITextTemplating>.
+ Call the `t4.PreprocessTemplate()` method of <xref:Microsoft.VisualStudio.TextTemplating.VSHost.ITextTemplating>.

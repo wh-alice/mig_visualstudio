@@ -33,7 +33,7 @@ translation.priority.ht:
  [DoWhile](../workflowdesigner/dowhile-activity-designer.md)  
  Executes the activity contained in its body at least once, until a specified condition evaluates to **true**.  
   
- [ForEach\<T>](http://msdn.microsoft.com/a680cddd-2760-497a-b27b-c023fcbc6f33)  
+ [ForEach\<T>](http://msdn.microsoft.com/en-us/a680cddd-2760-497a-b27b-c023fcbc6f33)  
  Executes the activity contained in its body for each item in a specified collection.  
   
  [If](../workflowdesigner/if-activity-designer.md)  
@@ -49,21 +49,21 @@ translation.priority.ht:
  Executes one of several branches in response to some event that provides event-based flow control.  
   
  [PickBranch](../workflowdesigner/pickbranch-activity-designer.md)  
- Provides a potential path of execution within a \<xref:System.Activities.Statements.Pick> activity.  
+ Provides a potential path of execution within a <xref:System.Activities.Statements.Pick> activity.  
   
  [Sequence](../workflowdesigner/sequence-activity-designer.md)  
  Contains an ordered collection of child activities that it executes in order.  
   
- [Switch\<T>](http://msdn.microsoft.com/ce1aa634-c4db-4475-a1c8-a88478a57212)  
+ [Switch\<T>](http://msdn.microsoft.com/en-us/ce1aa634-c4db-4475-a1c8-a88478a57212)  
  Evaluates a specified expression and executes the activity from a collection of activities whose associated key matches the value obtained from the evaluation.  
   
  [While](../workflowdesigner/while-activity-designer.md)  
  Executes the activity contained in its body while a specified condition evaluates to **true**.  
   
 ## Reference  
- \<xref:System.Activities.Activity>  
+ <xref:System.Activities.Activity>  
   
- \<xref:System.Activities.Statements.DoWhile>  
+ <xref:System.Activities.Statements.DoWhile>  
   
  <xref:System.Activities.Statements.ForEach`1>  
   
@@ -73,15 +73,15 @@ translation.priority.ht:
   
  <xref:System.Activities.Statements.ParallelForEach`1>  
   
- \<xref:System.Activities.Statements.Pick>  
+ <xref:System.Activities.Statements.Pick>  
   
- \<xref:System.Activities.Statements.PickBranch>  
+ <xref:System.Activities.Statements.PickBranch>  
   
- \<xref:System.Activities.Statements.Sequence>  
+ <xref:System.Activities.Statements.Sequence>  
   
- \<xref:System.Activities.Statements.Switch`1>  
+ <xref:System.Activities.Statements.Switch`1>  
   
- \<xref:System.Activities.Statements.While>  
+ <xref:System.Activities.Statements.While>  
   
 ## Related Sections  
  For other types of activity designers, see the following topics.  

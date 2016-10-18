@@ -1,7 +1,7 @@
 ---
 title: "Item Functions"
 ms.custom: na
-ms.date: "10/11/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -34,7 +34,7 @@ translation.priority.ht:
 Starting with MSBuild 4.0, code in tasks and targets can call item functions to get information about the items in the project. These functions simplify getting Distinct() items and are faster than looping through the items.  
   
 ## String Item Functions  
- You can use string methods and properties in the .NET Framework to operate on any item value. For \<xref:System.String> methods, specify the method name. For \<xref:System.String> properties, specify the property name after "get_".  
+ You can use string methods and properties in the .NET Framework to operate on any item value. For <xref:System.String> methods, specify the method name. For <xref:System.String> properties, specify the property name after "get_".  
   
  For items that have multiple strings, the string method or property runs on each string.  
   

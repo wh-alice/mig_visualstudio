@@ -1,7 +1,7 @@
 ---
 title: "Extend the functionality of a TableAdapter"
 ms.custom: na
-ms.date: "10/07/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,7 +44,7 @@ You can extend the functionality of a TableAdapter by adding code to the TableAd
  Partial classes allow code for a specific class to be divided among multiple physical files. For more information, see [Partial](../Topic/Partial%20\(Visual%20Basic\).md) or [partial (Type)](../Topic/partial%20\(Type\)%20\(C%23%20Reference\).md).  
   
 ## Locate TableAdapters in code  
- While TableAdapters are designed with the **Dataset Designer**, the TableAdapter classes that are generated are not  nested classes of \<xref:System.Data.DataSet>. TableAdapters are located in a namespace based on the name of the TableAdapter's associated dataset. For example, if your application contains a dataset named `HRDataSet`, the TableAdapters would be located in the `HRDataSetTableAdapters` namespace. (The naming convention follows this pattern: *DatasetName* + `TableAdapters`).  
+ While TableAdapters are designed with the **Dataset Designer**, the TableAdapter classes that are generated are not  nested classes of <xref:System.Data.DataSet>. TableAdapters are located in a namespace based on the name of the TableAdapter's associated dataset. For example, if your application contains a dataset named `HRDataSet`, the TableAdapters would be located in the `HRDataSetTableAdapters` namespace. (The naming convention follows this pattern: *DatasetName* + `TableAdapters`).  
   
  The following example assumes a TableAdapter named `CustomersTableAdapter`is in a project with `NorthwindDataSet`.  
   

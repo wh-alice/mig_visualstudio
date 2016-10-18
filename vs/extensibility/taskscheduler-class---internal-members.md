@@ -1,7 +1,7 @@
 ---
 title: "TaskScheduler Class - Internal Members"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -32,9 +32,9 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # TaskScheduler Class - Internal Members
-This topic describes the internal members of the \<xref:System.Threading.Tasks.TaskScheduler?displayProperty=fullName> class that help you implement a custom debugger. For general information about this class, see the \<xref:System.Threading.Tasks.TaskScheduler> reference topic.  
+This topic describes the internal members of the <xref:System.Threading.Tasks.TaskScheduler?displayProperty=fullName> class that help you implement a custom debugger. For general information about this class, see the <xref:System.Threading.Tasks.TaskScheduler> reference topic.  
   
- **Namespace:** \<xref:System.Threading.Tasks?displayProperty=fullName>  
+ **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>  
   
  **Assembly:** mscorlib (in mscorlib.dll)  
   
@@ -54,10 +54,10 @@ This topic describes the internal members of the \<xref:System.Threading.Tasks.T
 |Name|Description|  
 |----------|-----------------|  
 |[GetScheduledTasksForDebugger](../extensibility/getscheduledtasksfordebugger-method.md)|Retrieves an array of all scheduled tasks.|  
-|[GetTaskSchedulersForDebugger](../extensibility/gettaskschedulersfordebugger-method.md)|Retrieves an array of all \<xref:System.Threading.Tasks.TaskScheduler> objects that are currently active.|  
+|[GetTaskSchedulersForDebugger](../extensibility/gettaskschedulersfordebugger-method.md)|Retrieves an array of all <xref:System.Threading.Tasks.TaskScheduler> objects that are currently active.|  
   
 ## Remarks  
   
 ## See Also  
- \<xref:System.Threading.Tasks.TaskScheduler?displayProperty=fullName>   
+ <xref:System.Threading.Tasks.TaskScheduler?displayProperty=fullName>   
  [Parallel Extension Internals for the .NET Framework](../extensibility/parallel-extension-internals-for-the-.net-framework.md)

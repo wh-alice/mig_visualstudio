@@ -1,7 +1,7 @@
 ---
 title: "Variable &#39;&lt;variablename&gt;&#39; is used before it has been assigned a value (Visual Basic Error)"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -35,7 +35,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Variable &#39;&lt;variablename&gt;&#39; is used before it has been assigned a value (Visual Basic Error)
-A variable is being used before it has been assigned a value, resulting in a \<xref:System.NullReferenceException>.  
+A variable is being used before it has been assigned a value, resulting in a <xref:System.NullReferenceException>.  
   
  **Error ID:** BC42109  
   

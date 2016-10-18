@@ -1,7 +1,7 @@
 ---
 title: "&#39;ReadOnly&#39; attribute property &#39;&lt;propertyfield&gt;&#39; cannot be the target of an assignment"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -47,4 +47,4 @@ An attempt was made to assign a value to a `ReadOnly` property in an attribute.
   
 ## See Also  
  [Shared](../Topic/Shared%20\(Visual%20Basic\).md)   
- [NOT IN BUILD: Attributes in Visual Basic](http://msdn.microsoft.com/620bfc0e-4582-4c8b-8432-ebc5c3dccc22)
+ [NOT IN BUILD: Attributes in Visual Basic](http://msdn.microsoft.com/en-us/620bfc0e-4582-4c8b-8432-ebc5c3dccc22)

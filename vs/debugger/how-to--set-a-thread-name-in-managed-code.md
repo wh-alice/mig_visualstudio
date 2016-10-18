@@ -1,7 +1,7 @@
 ---
 title: "How to: Set a Thread Name in Managed Code"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -41,7 +41,7 @@ translation.priority.ht:
 # How to: Set a Thread Name in Managed Code
 Thread naming is possible in any edition of Visual Studio. Thread naming is useful for keeping track of threads in the **Threads** window. Because the **Threads** window is not available in the Visual Studio Express editions, thread naming has little utility in Express editions.  
   
- To set a thread name in managed code, use the \<xref:System.Threading.Thread.Name*> property.  
+ To set a thread name in managed code, use the <xref:System.Threading.Thread.Name*> property.  
   
 ## Example  
   

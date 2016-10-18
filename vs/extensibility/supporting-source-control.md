@@ -1,7 +1,7 @@
 ---
 title: "Supporting Source Control"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -50,19 +50,19 @@ translation.priority.mt:
  Describes how to register a project when a user adds it to a source-control system.  
   
 ## Reference  
- \<xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2>  
+ <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2>  
  Indicates to the environment or source control package that a file is about to be changed in memory or saved.  
   
- \<xref:Microsoft.VisualStudio.Shell.Interop.IVsSccManager2>  
+ <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccManager2>  
  Allows projects and hierarchies to register themselves with source control and obtain information about source control status.  
   
- \<xref:Microsoft.VisualStudio.Shell.Interop.IVsSccProject2>  
+ <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccProject2>  
  Implemented in a project system to provide source control for project files and project items.  
   
- \<xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocuments2>  
+ <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocuments2>  
  Used by projects to query the environment for permission to add, remove, or rename a file or directory in a solution.  
   
- \<xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocumentsEvents2>  
+ <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocumentsEvents2>  
  Notifies clients of changes that were made to project files or directories.  
   
 ## Related Sections  

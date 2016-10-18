@@ -1,7 +1,7 @@
 ---
 title: "&lt;type&gt; &#39;&lt;typename&gt;&#39; shadows an overridable method in the base class"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -52,7 +52,7 @@ translation.priority.mt:
 -   If you do not intend either overriding or shadowing, change the name of the element being declared.  
   
 ## See Also  
- [NOT IN BUILD: Overriding Properties and Methods](http://msdn.microsoft.com/2167e8f5-1225-4b13-9ebd-02591ba90213)   
+ [NOT IN BUILD: Overriding Properties and Methods](http://msdn.microsoft.com/en-us/2167e8f5-1225-4b13-9ebd-02591ba90213)   
  [Shadowing in Visual Basic](../Topic/Shadowing%20in%20Visual%20Basic.md)   
  [Overrides](../Topic/Overrides%20\(Visual%20Basic\).md)   
  [Shadows](../Topic/Shadows%20\(Visual%20Basic\).md)

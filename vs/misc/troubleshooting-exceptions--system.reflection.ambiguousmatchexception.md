@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.Reflection.AmbiguousMatchException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -36,8 +36,8 @@ translation.priority.mt:
 The exception that is thrown when binding to a method results in more than one method matching the binding criteria.  
   
 ## Remarks  
- An \<xref:System.Reflection.AmbiguousMatchException> is thrown if the application calls upon a class, and it cannot determine which class or overloaded class to use. The binding attempts to locate the proper class to use, determined by the number of parameters and the type of parameters. If multiple acceptable classes are located, this exception is thrown.  
+ An <xref:System.Reflection.AmbiguousMatchException> is thrown if the application calls upon a class, and it cannot determine which class or overloaded class to use. The binding attempts to locate the proper class to use, determined by the number of parameters and the type of parameters. If multiple acceptable classes are located, this exception is thrown.  
   
 ## See Also  
- \<xref:System.Reflection.AmbiguousMatchException>   
+ <xref:System.Reflection.AmbiguousMatchException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

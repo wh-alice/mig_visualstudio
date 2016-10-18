@@ -1,7 +1,7 @@
 ---
 title: "The value of &lt;argumentname&gt; must be a positive number"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -32,15 +32,15 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # The value of &lt;argumentname&gt; must be a positive number
-The value of the \<xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.ReserveDiskSpace*> property must be greater than zero.  
+The value of the <xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.ReserveDiskSpace*> property must be greater than zero.  
   
- The \<xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.ReserveDiskSpace*> property specifies the amount of free disk space, in bytes, necessary before messages can be written to the log file  
+ The <xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.ReserveDiskSpace*> property specifies the amount of free disk space, in bytes, necessary before messages can be written to the log file  
   
 ### To correct this error  
   
--   Set the \<xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.ReserveDiskSpace*> property to a positive number.  
+-   Set the <xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.ReserveDiskSpace*> property to a positive number.  
   
 ## See Also  
- \<xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.ReserveDiskSpace*>   
+ <xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.ReserveDiskSpace*>   
  [My.Application.Log Object](../Topic/My.Application.Log%20Object.md)   
  [My.Log Object](../Topic/My.Log%20Object.md)

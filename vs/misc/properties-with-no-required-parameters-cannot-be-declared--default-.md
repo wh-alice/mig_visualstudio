@@ -1,7 +1,7 @@
 ---
 title: "Properties with no required parameters cannot be declared &#39;Default&#39;"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -46,4 +46,4 @@ A property was specified without required parameters but with the `Default` modi
 -   Remove the `Default` modifier from the property definition.  
   
 ## See Also  
- [NOT IN BUILD: Default Properties](http://msdn.microsoft.com/a70f2a27-8176-4858-935e-f25afdd43ab5)
+ [NOT IN BUILD: Default Properties](http://msdn.microsoft.com/en-us/a70f2a27-8176-4858-935e-f25afdd43ab5)

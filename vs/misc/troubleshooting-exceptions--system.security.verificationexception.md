@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.Security.VerificationException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,13 +39,13 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.Security.VerificationException
-A \<xref:System.Security.VerificationException> exception is thrown when the security policy requires code to be type-safe and the verification process is unable to verify that the code is type-safe.  
+A <xref:System.Security.VerificationException> exception is thrown when the security policy requires code to be type-safe and the verification process is unable to verify that the code is type-safe.  
   
 ## Associated Tips  
  Make sure your application is not loading two conflicting versions of a class library.  
- As part of the verification process, MSIL (Microsoft intermediate language) is checked for type safety to ensure that objects are safely isolated from each other and are therefore safe from accidental or malicious corruption. For more information, see [Type Safety and Security](http://msdn.microsoft.com/095cd1f6-d8db-4c0e-bce2-83ccb34dd5dc).  
+ As part of the verification process, MSIL (Microsoft intermediate language) is checked for type safety to ensure that objects are safely isolated from each other and are therefore safe from accidental or malicious corruption. For more information, see [Type Safety and Security](http://msdn.microsoft.com/en-us/095cd1f6-d8db-4c0e-bce2-83ccb34dd5dc).  
   
 ## See Also  
- \<xref:System.Security.VerificationException>   
- \<xref:System.Security.Permissions.SecurityPermissionAttribute.SkipVerification*>   
+ <xref:System.Security.VerificationException>   
+ <xref:System.Security.Permissions.SecurityPermissionAttribute.SkipVerification*>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

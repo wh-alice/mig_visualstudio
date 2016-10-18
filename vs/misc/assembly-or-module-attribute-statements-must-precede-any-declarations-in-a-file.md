@@ -1,7 +1,7 @@
 ---
 title: "Assembly or Module attribute statements must precede any declarations in a file"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,5 +44,5 @@ Global attributes must be declared at the top of a source file, after `Option` a
 1.  Place global attributes, such as `<Module:>` and `<Assembly:>` at the top of your source file.  
   
 ## See Also  
- [NOT IN BUILD: Attributes in Visual Basic](http://msdn.microsoft.com/620bfc0e-4582-4c8b-8432-ebc5c3dccc22)   
- [NOT IN BUILD: Global Attributes in Visual Basic](http://msdn.microsoft.com/253a32d8-1531-4504-b687-088554ab71d2)
+ [NOT IN BUILD: Attributes in Visual Basic](http://msdn.microsoft.com/en-us/620bfc0e-4582-4c8b-8432-ebc5c3dccc22)   
+ [NOT IN BUILD: Global Attributes in Visual Basic](http://msdn.microsoft.com/en-us/253a32d8-1531-4504-b687-088554ab71d2)

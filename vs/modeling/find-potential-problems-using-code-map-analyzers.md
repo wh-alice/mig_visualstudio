@@ -1,7 +1,7 @@
 ---
 title: "Find potential problems using code map analyzers"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na

@@ -1,7 +1,7 @@
 ---
 title: "API Reference for IntelliTrace Extensibility"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,7 +37,7 @@ By using the information in this section, you can use IntelliTrace extensibility
 ## In This Section  
  This IntelliTrace extensibility APIs are contained in one namespace  
   
--   \<xref:Microsoft.VisualStudio.IntelliTrace>  
+-   <xref:Microsoft.VisualStudio.IntelliTrace>  
   
 ## Related Sections  
  [IntelliTrace](../debugger/intellitrace.md)  

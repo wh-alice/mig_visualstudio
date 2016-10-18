@@ -1,7 +1,7 @@
 ---
 title: "Work with datasets in n-tier applications"
 ms.custom: na
-ms.date: "10/07/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -70,9 +70,9 @@ translation.priority.mt:
  Provides step-by-step instructions for adding validation to the application that was created in the n-tier data application walkthrough.  
   
 ## Reference  
- \<xref:System.Data.DataSet>  
+ <xref:System.Data.DataSet>  
   
- \<xref:System.Data.TypedTableBase`1>  
+ <xref:System.Data.TypedTableBase`1>  
   
 ## Related Sections  
  [N-Tier Data Applications Overview](../datatools/n-tier-data-applications-overview.md)  

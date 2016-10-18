@@ -1,7 +1,7 @@
 ---
 title: "CallTarget Task"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -45,7 +45,7 @@ Invokes the specified targets within the project file.
 |Parameter|Description|  
 |---------------|-----------------|  
 |`RunEachTargetSeparately`|Optional `Boolean` output parameter.<br /><br /> If `true`, the [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] engine is called once per target. If `false`, the [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] engine is called once to build all targets. The default value is `false`.|  
-|`TargetOutputs`|Optional \<xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Contains the outputs of all built targets.|  
+|`TargetOutputs`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Contains the outputs of all built targets.|  
 |`Targets`|Optional `String[]` parameter.<br /><br /> Specifies the target or targets to build.|  
 |`UseResultsCache`|Optional `Boolean` parameter.<br /><br /> If `true`, the cached result is returned if present.<br /><br /> **Note** When an MSBuild task is run, its output is cached in a scope (ProjectFileName, GlobalProperties)[TargetNames] as a list of build items.|  
   
@@ -54,7 +54,7 @@ Invokes the specified targets within the project file.
   
  If you want to build the default targets, use the [MSBuild Task](../reference/msbuild-task.md) and set the `Projects` parameter equal to `$(MSBuildProjectFile)`.  
   
- In addition to the parameters listed above, this task inherits parameters from the \<xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the \<xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../reference/taskextension-base-class.md).  
+ In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../reference/taskextension-base-class.md).  
   
 ## Example  
  The following example calls `TargetA` from inside `CallOtherTargets`.  

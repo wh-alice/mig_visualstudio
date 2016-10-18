@@ -1,7 +1,7 @@
 ---
 title: "&#39;System.Runtime.InteropServices.DllImportAttribute&#39; cannot be applied to instance methods"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -35,9 +35,9 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # &#39;System.Runtime.InteropServices.DllImportAttribute&#39; cannot be applied to instance methods
-A nonshared procedure is declared with the \<xref:System.Runtime.InteropServices.DllImportAttribute>.  
+A nonshared procedure is declared with the <xref:System.Runtime.InteropServices.DllImportAttribute>.  
   
- The common language runtime (CLR) recognizes this attribute and its \<xref:System.Runtime.InteropServices._Assembly.EntryPoint*> property as designating a replacement procedure defined in an unmanaged dynamic-link library (DLL) outside the .NET Framework. When code calls the procedure to which the \<xref:System.Runtime.InteropServices.DllImportAttribute> is applied, the common language runtime calls the designated unmanaged procedure instead.  
+ The common language runtime (CLR) recognizes this attribute and its <xref:System.Runtime.InteropServices._Assembly.EntryPoint*> property as designating a replacement procedure defined in an unmanaged dynamic-link library (DLL) outside the .NET Framework. When code calls the procedure to which the <xref:System.Runtime.InteropServices.DllImportAttribute> is applied, the common language runtime calls the designated unmanaged procedure instead.  
   
  Because unmanaged platforms outside the .NET Framework do not support nonshared procedures the same way the .NET Framework does, you cannot interoperate with them using nonshared procedures.  
   
@@ -47,8 +47,8 @@ A nonshared procedure is declared with the \<xref:System.Runtime.InteropServices
   
 -   If the procedure does not need to apply individually to each instance of its class or structure, then declare it as `Shared`.  
   
--   If the procedure cannot be `Shared`, then remove the \<xref:System.Runtime.InteropServices.DllImportAttribute> from the declaration of this procedure.  
+-   If the procedure cannot be `Shared`, then remove the <xref:System.Runtime.InteropServices.DllImportAttribute> from the declaration of this procedure.  
   
 ## See Also  
- \<xref:System.Runtime.InteropServices.DllImportAttribute>   
+ <xref:System.Runtime.InteropServices.DllImportAttribute>   
  [Shared](../Topic/Shared%20\(Visual%20Basic\).md)

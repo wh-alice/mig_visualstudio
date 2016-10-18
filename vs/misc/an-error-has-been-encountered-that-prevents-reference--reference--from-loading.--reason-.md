@@ -1,7 +1,7 @@
 ---
 title: "An error has been encountered that prevents reference &#39;reference&#39; from loading. &lt;reason&gt;"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -47,4 +47,4 @@ A fatal error has been encountered when removing a reference from the project fi
      Any reference for which this diagnostic is displayed will not be loaded into the project.  
   
 ## See Also  
- [NIB: Project Properties (Visual Studio)](http://msdn.microsoft.com/eb4c97ed-f667-4850-98d0-6e2a4d21bbca)
+ [NIB: Project Properties (Visual Studio)](http://msdn.microsoft.com/en-us/eb4c97ed-f667-4850-98d0-6e2a4d21bbca)

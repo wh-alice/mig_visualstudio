@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.Workflow.ComponentModel.WorkflowTerminatedException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -35,8 +35,8 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.Workflow.ComponentModel.WorkflowTerminatedException
-A \<xref:System.Workflow.ComponentModel.WorkflowTerminatedException> is raised when a workflow is terminated. This class cannot be inherited.  
+A <xref:System.Workflow.ComponentModel.WorkflowTerminatedException> is raised when a workflow is terminated. This class cannot be inherited.  
   
 ## See Also  
- \<xref:System.Workflow.ComponentModel.WorkflowTerminatedException>   
+ <xref:System.Workflow.ComponentModel.WorkflowTerminatedException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

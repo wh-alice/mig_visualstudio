@@ -1,7 +1,7 @@
 ---
 title: "GUIDs and Constants in the Visual Studio SDK"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -32,14 +32,14 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # GUIDs and Constants in the Visual Studio SDK
-The \<xref:Microsoft.VisualStudio.VSConstants> class provides access to a selection of environment GUIDs and constants.  
+The <xref:Microsoft.VisualStudio.VSConstants> class provides access to a selection of environment GUIDs and constants.  
   
 ## In This Section  
  [IDE GUIDs](../extensibility/ide-guids.md)  
- Lists GUIDs provided by \<xref:Microsoft.VisualStudio.VSConstants>.  
+ Lists GUIDs provided by <xref:Microsoft.VisualStudio.VSConstants>.  
   
  [IDE Constants](../extensibility/ide-constants.md)  
- Lists SDK constants provided by \<xref:Microsoft.VisualStudio.VSConstants>.  
+ Lists SDK constants provided by <xref:Microsoft.VisualStudio.VSConstants>.  
   
 ## Related Sections  
  [COM Constants in Managed Code](../extensibility/com-constants-in-managed-code.md)  

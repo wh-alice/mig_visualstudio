@@ -1,7 +1,7 @@
 ---
 title: "&#39;Catch&#39; block never reached, because &#39;&lt;name1&gt;&#39; inherits from &#39;&lt;name2&gt;&#39;"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -46,5 +46,5 @@ A `Catch` block within the code is never reached.
 -   Remove the extraneous `Catch` block.  
   
 ## See Also  
- [How to: Test Code with a Try…Catch Block in Visual Basic](http://msdn.microsoft.com/8368e205-ed73-4185-a247-af84fb4fafa9)   
+ [How to: Test Code with a Try…Catch Block in Visual Basic](http://msdn.microsoft.com/en-us/8368e205-ed73-4185-a247-af84fb4fafa9)   
  [Try...Catch...Finally Statement](../Topic/Try...Catch...Finally%20Statement%20\(Visual%20Basic\).md)

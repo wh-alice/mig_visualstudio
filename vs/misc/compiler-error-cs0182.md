@@ -1,7 +1,7 @@
 ---
 title: "Compiler Error CS0182"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -50,7 +50,7 @@ An attribute argument must be a constant expression, typeof expression or array 
   
 -   [decimal](../Topic/decimal%20\(C%23%20Reference\).md)  
   
- For more information, see [NOT IN BUILD: Global Attributes (C# Programming Guide)](http://msdn.microsoft.com/7c6c41f8-f0d5-4345-8987-3d91f9bae136).  
+ For more information, see [NOT IN BUILD: Global Attributes (C# Programming Guide)](http://msdn.microsoft.com/en-us/7c6c41f8-f0d5-4345-8987-3d91f9bae136).  
   
 ## Example  
  The following sample generates CS0182:  

@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.Threading.AbandonedMutexException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,7 +39,7 @@ The exception that is thrown when one thread is waiting on a Mutex object, and a
  An abandoned Mutex typically indicates a serious error in the code. When a thread exits without releasing the Mutex, the data structures protected by the Mutex might not be in a consistent state. The next thread to request ownership of the Mutex can handle this exception and proceed if the integrity of the data structures can be verified.  
   
 ## See Also  
- \<xref:System.Threading.AbandonedMutexException>   
- \<xref:System.Threading.Mutex>   
+ <xref:System.Threading.AbandonedMutexException>   
+ <xref:System.Threading.Mutex>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)   
  [Threading](../Topic/Threading%20\(C%23%20and%20Visual%20Basic\).md)

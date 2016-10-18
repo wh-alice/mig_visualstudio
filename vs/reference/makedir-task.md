@@ -1,7 +1,7 @@
 ---
 title: "MakeDir Task"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -46,11 +46,11 @@ Creates directories and, if necessary, any parent directories.
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|`Directories`|Required \<xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> The set of directories to create.|  
-|`DirectoriesCreated`|Optional \<xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> The directories that are created by this task. If some directories could not be created, this may not contain all of the items that were passed into the `Directories` parameter.|  
+|`Directories`|Required <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> The set of directories to create.|  
+|`DirectoriesCreated`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> The directories that are created by this task. If some directories could not be created, this may not contain all of the items that were passed into the `Directories` parameter.|  
   
 ## Remarks  
- In addition to the parameters listed above, this task inherits parameters from the \<xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the \<xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../reference/taskextension-base-class.md).  
+ In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../reference/taskextension-base-class.md).  
   
 ## Example  
  The following code example uses the `MakeDir` task to create the directory specified by the `OutputDirectory` property.  

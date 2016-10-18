@@ -1,7 +1,7 @@
 ---
 title: "How to: Add a Command to the Shortcut Menu"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -127,7 +127,7 @@ You can add menu commands to your domain-specific language (DSL) so that your us
     -   `My Context Menu Command`  
   
 ##  <a name="version"></a> Update the Package Version in Package.tt  
- Whenever you add or change a command, update the `version` parameter of the \<xref:Microsoft.VisualStudio.Shell.ProvideMenuResourceAttribute> that is applied to the package class before you release the new version of your domain-specific language.  
+ Whenever you add or change a command, update the `version` parameter of the <xref:Microsoft.VisualStudio.Shell.ProvideMenuResourceAttribute> that is applied to the package class before you release the new version of your domain-specific language.  
   
  Because the package class is defined in a generated file, update the attribute in the text template file that generates the Package.cs file.  
   
@@ -144,7 +144,7 @@ You can add menu commands to your domain-specific language (DSL) so that your us
 ##  <a name="CommandSet"></a> Define the Behavior of the Command  
  Your DSL already has some commands that are implemented in a partial class that is declared in DslPackage\GeneratedCode\CommandSet.cs. To add new commands, you must extend this class by creating a new file that contains a partial declaration of the same class. The name of the class is usually *\<YourDslName>*`CommandSet`. It is useful to begin by verifying the name of the class and inspecting its contents.  
   
- The command set class is derived from \<xref:Microsoft.VisualStudio.Modeling.Shell.CommandSet>.  
+ The command set class is derived from <xref:Microsoft.VisualStudio.Modeling.Shell.CommandSet>.  
   
 #### To extend the CommandSet class  
   

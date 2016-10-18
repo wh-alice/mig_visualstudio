@@ -1,7 +1,7 @@
 ---
 title: "Adding a Tracking Property to a Domain-Specific Language Definition"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,7 +37,7 @@ This walkthrough shows how to add a tracking property to a domain model.
   
  For example, in the Domain-Specific Language Tools (DSL Tools), the Display Name property of a domain class has a default value that is calculated by using the name of the domain class, but a user can change the value at design time or reset it to the calculated value.  
   
- In this walkthrough, you create a domain-specific language (DSL) that has a Namespace tracking property that has a default value based on the Default Namespace property of the model. For more information about tracking properties, see [Defining Tracking Properties](http://msdn.microsoft.com/0538b0e4-6221-4e7d-911a-b92cd622f0be).  
+ In this walkthrough, you create a domain-specific language (DSL) that has a Namespace tracking property that has a default value based on the Default Namespace property of the model. For more information about tracking properties, see [Defining Tracking Properties](http://msdn.microsoft.com/en-us/0538b0e4-6221-4e7d-911a-b92cd622f0be).  
   
 -   The DSL Tools support tracking property descriptors. However, the DSL designer cannot be used to add a tracking property to a language. Therefore, you must add custom code to define and implement the tracking property.  
   
@@ -768,8 +768,8 @@ This walkthrough shows how to add a tracking property to a domain model.
  If you plan to use more than one tracking property, or implement tracking properties in more than one DSL, you can create a text template to generate the common code for supporting each tracking property. For more information about text templates, see [Code Generation and T4 Text Templates](../modeling/code-generation-and-t4-text-templates.md).  
   
 ## See Also  
- \<xref:Microsoft.VisualStudio.Modeling.Design.TrackingPropertyDescriptor>   
- \<xref:Microsoft.VisualStudio.Modeling.Design.ElementTypeDescriptor>   
+ <xref:Microsoft.VisualStudio.Modeling.Design.TrackingPropertyDescriptor>   
+ <xref:Microsoft.VisualStudio.Modeling.Design.ElementTypeDescriptor>   
  [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)   
  [How to: Create a Domain-Specific Language Solution](../modeling/how-to--create-a-domain-specific-language-solution.md)   
  [Walkthrough: Customizing the Domain-Specific Language Definition](../misc/walkthrough--customizing-the-domain-specific-language-definition.md)

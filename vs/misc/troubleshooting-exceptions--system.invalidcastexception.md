@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.InvalidCastException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,11 +37,11 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.InvalidCastException
-An \<xref:System.InvalidCastException> exception is thrown when a failure occurs during an explicit reference conversion. Reference conversions are conversions from one reference type to another. While they may change the type of the reference, they never change the type or value of the conversion's target. Casting objects from one type to another is a frequent cause for this exception.  
+An <xref:System.InvalidCastException> exception is thrown when a failure occurs during an explicit reference conversion. Reference conversions are conversions from one reference type to another. While they may change the type of the reference, they never change the type or value of the conversion's target. Casting objects from one type to another is a frequent cause for this exception.  
   
 ## Associated Tips  
  **Check source types against destination types to make sure the conversion is valid.**  
- For information on conversions supported by the system, see \<xref:System.Convert>.  
+ For information on conversions supported by the system, see <xref:System.Convert>.  
   
 ## Remarks  
  For an explicit reference conversion to be successful, the source value must be Null (`Nothing` in Visual Basic), or the object type referenced by the source argument must be convertible to the destination type by an implicit reference conversion.  
@@ -55,7 +55,7 @@ An \<xref:System.InvalidCastException> exception is thrown when a failure occurs
  `Call UserControl11_MyCustomEvent(UserControl11(0), New UserControl1.MyCustomEventEventArgs(5))`  
   
 ## See Also  
- \<xref:System.InvalidCastException>   
+ <xref:System.InvalidCastException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)   
  [How to: Convert an Object to Another Type in Visual Basic](../Topic/How%20to:%20Convert%20an%20Object%20to%20Another%20Type%20in%20Visual%20Basic.md)   
  [Converting Strings to .NET Framework Data Types](../Topic/Converting%20Strings%20to%20.NET%20Framework%20Data%20Types.md)   

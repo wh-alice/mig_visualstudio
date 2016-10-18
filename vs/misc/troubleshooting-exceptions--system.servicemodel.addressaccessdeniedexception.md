@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.ServiceModel.AddressAccessDeniedException"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -35,8 +35,8 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.ServiceModel.AddressAccessDeniedException
-An \<xref:System.ServiceModel.AddressAccessDeniedException> exception is thrown when access to an address is denied.  
+An <xref:System.ServiceModel.AddressAccessDeniedException> exception is thrown when access to an address is denied.  
   
 ## See Also  
- \<xref:System.ServiceModel.AddressAccessDeniedException>   
+ <xref:System.ServiceModel.AddressAccessDeniedException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

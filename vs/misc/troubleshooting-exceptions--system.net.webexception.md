@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.Net.WebException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,20 +37,20 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.Net.WebException
-A \<xref:System.Net.WebException> exception is thrown when an error occurs while accessing the network through a pluggable protocol.  
+A <xref:System.Net.WebException> exception is thrown when an error occurs while accessing the network through a pluggable protocol.  
   
 ## Associated Tips  
  **Check the Response property of the exception to determine why the request failed.**  
- When a \<xref:System.Net.WebException> exception is thrown by a descendent of the \<xref:System.Net.WebRequest> class, the \<xref:System.Net.WebException.Response*> property provides the Internet response to the application.  
+ When a <xref:System.Net.WebException> exception is thrown by a descendent of the <xref:System.Net.WebRequest> class, the <xref:System.Net.WebException.Response*> property provides the Internet response to the application.  
   
  **Check the Status property of the exception to determine why the request failed.**  
- The \<xref:System.Net.WebException.Status*> property of the exception provides status information for the error. For more information, see \<xref:System.Net.WebExceptionStatus>.  
+ The <xref:System.Net.WebException.Status*> property of the exception provides status information for the error. For more information, see <xref:System.Net.WebExceptionStatus>.  
   
  **If you are timing out when stepping into an XML Web Service, set the timeout value for the XML Web Service call to infinite.**  
  For more information, see [Error: Timeout While Debugging Web Services](../debugger/error--timeout-while-debugging-web-services.md).  
   
 ## See Also  
- \<xref:System.Net.WebException>   
+ <xref:System.Net.WebException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)   
  [How to: Send Data Using the WebRequest Class](../Topic/How%20to:%20Send%20Data%20Using%20the%20WebRequest%20Class.md)   
  [How to: Request Data Using the WebRequest Class](../Topic/How%20to:%20Request%20Data%20Using%20the%20WebRequest%20Class.md)   

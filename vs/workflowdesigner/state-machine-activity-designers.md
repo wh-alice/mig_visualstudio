@@ -43,13 +43,13 @@ translation.priority.ht:
  Represents the transition between two states.  
   
 ## Reference  
- \<xref:System.Activities.Statements.StateMachine>  
+ <xref:System.Activities.Statements.StateMachine>  
   
- \<xref:System.Activities.Statements.State>  
+ <xref:System.Activities.Statements.State>  
   
- \<xref:System.Activities.Core.Presentation.FinalState>  
+ <xref:System.Activities.Core.Presentation.FinalState>  
   
- \<xref:System.Activities.Statements.Transition>  
+ <xref:System.Activities.Statements.Transition>  
   
 ## Related Sections  
  For other types of activity designers, see the following topics.  

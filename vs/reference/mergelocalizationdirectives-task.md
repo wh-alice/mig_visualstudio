@@ -1,7 +1,7 @@
 ---
 title: "MergeLocalizationDirectives Task"
 ms.custom: na
-ms.date: "10/07/2016"
+ms.date: "10/17/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,7 +39,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # MergeLocalizationDirectives Task
-The \<xref:Microsoft.Build.Tasks.Windows.MergeLocalizationDirectives> task merges the localization attributes and comments of one or more [!INCLUDE[TLA2#tla_xaml](../reference/includes/tla2sharptla_xaml_md.md)] binary format files into a single file for the whole assembly.  
+The <xref:Microsoft.Build.Tasks.Windows.MergeLocalizationDirectives> task merges the localization attributes and comments of one or more [!INCLUDE[TLA2#tla_xaml](../reference/includes/tla2sharptla_xaml_md.md)] binary format files into a single file for the whole assembly.  
   
 ## Task Parameters  
   

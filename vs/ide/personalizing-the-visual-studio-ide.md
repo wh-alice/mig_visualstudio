@@ -1,7 +1,7 @@
 ---
 title: "Personalizing the Visual Studio IDE"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -58,4 +58,4 @@ This section describes how to personalize Visual Studio in various ways to best 
  Due to popular demand, you can change the main menu casing between **Title Case** and **ALL CAPS** by typing `environment` in **QuickLaunch** and choosing **Environment &#124; General**.  
   
 ## See Also  
- [Visual Studio IDE](../Topic/Visual%20Studio%20IDE.md)
+ [Visual Studio IDE](../ide/visual-studio-ide.md)

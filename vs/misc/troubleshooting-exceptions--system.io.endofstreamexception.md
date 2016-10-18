@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.IO.EndOfStreamException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,14 +37,14 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.IO.EndOfStreamException
-An \<xref:System.IO.EndOfStreamException> exception is thrown when there is an attempt to read past the end of a stream.  
+An <xref:System.IO.EndOfStreamException> exception is thrown when there is an attempt to read past the end of a stream.  
   
 ## Associated Tips  
  **Check whether the end of the file has been reached before reading.**  
- Use the \<xref:System.IO.StreamReader.Peek*> method to check the end of the file before reading from the stream.  
+ Use the <xref:System.IO.StreamReader.Peek*> method to check the end of the file before reading from the stream.  
   
 ## See Also  
- \<xref:System.IO.EndOfStreamException>   
+ <xref:System.IO.EndOfStreamException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)   
  [How to: Read and Write to a Newly Created Data File](../Topic/How%20to:%20Read%20and%20Write%20to%20a%20Newly%20Created%20Data%20File.md)   
  [How to: Open and Append to a Log File](../Topic/How%20to:%20Open%20and%20Append%20to%20a%20Log%20File.md)

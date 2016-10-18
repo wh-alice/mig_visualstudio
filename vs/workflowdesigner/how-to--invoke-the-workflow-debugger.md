@@ -44,7 +44,7 @@ Generally, you debug workflows just like you debug programs written in other Vis
   
 -   **Step Out:** You can step out of an activity using **Shift-F11**. Stepping out of an activity runs the current activity and all its sibling activities to completion. The debugger then breaks on the current activity's parent. When stepping out from a code handler, the debugger breaks on the activity with which the handler is associated.  
   
--   **Step Over**: You can step over an activity using **F10**. When stepping over a composite activity, the debugger breaks on the first executable child of the composite activity. When stepping over a non-composite, such as an \<xref:System.Activities.Statements.Assign> activity, the debugger executes the activity and its associated handlers and breaks on the next activity. If the activity that is executed is the last child activity in a composite activity, then, after execution, the debugger breaks on the parent activity.  
+-   **Step Over**: You can step over an activity using **F10**. When stepping over a composite activity, the debugger breaks on the first executable child of the composite activity. When stepping over a non-composite, such as an <xref:System.Activities.Statements.Assign> activity, the debugger executes the activity and its associated handlers and breaks on the next activity. If the activity that is executed is the last child activity in a composite activity, then, after execution, the debugger breaks on the parent activity.  
   
 ### Debugging with F5  
   

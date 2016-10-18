@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.Runtime.Serialization.InvalidDataContractException"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -35,8 +35,8 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.Runtime.Serialization.InvalidDataContractException
-An \<xref:System.Runtime.Serialization.InvalidDataContractException> exception is thrown when the \<xref:System.Runtime.Serialization.DataContractSerializer> or \<xref:System.Runtime.Serialization.NetDataContractSerializer> encounters an invalid data contract during serialization and deserialization.  
+An <xref:System.Runtime.Serialization.InvalidDataContractException> exception is thrown when the <xref:System.Runtime.Serialization.DataContractSerializer> or <xref:System.Runtime.Serialization.NetDataContractSerializer> encounters an invalid data contract during serialization and deserialization.  
   
 ## See Also  
- \<xref:System.Runtime.Serialization.InvalidDataContractException>   
+ <xref:System.Runtime.Serialization.InvalidDataContractException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

@@ -31,7 +31,7 @@ The Migration activity designers are used to call workflow 3.0/3.5 activities fr
   
 ## In This Section  
  [Interop](../workflowdesigner/interop-activity-designer.md)  
- Used to create and configure a \<xref:System.Activities.Statements.Interop> activity.  
+ Used to create and configure a <xref:System.Activities.Statements.Interop> activity.  
   
 ## Reference  
   

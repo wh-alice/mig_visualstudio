@@ -1,7 +1,7 @@
 ---
 title: "Creating Your Own Start Page"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -70,7 +70,7 @@ You can create a custom Start Page either by using the Start Page Project Templa
   
 2.  Open StartPage.xaml.  
   
-3.  Remove all of the page content, leaving only the outer xml elements and the containing grid \<xref:System.Windows.Controls.Grid> element, so that your .xaml file resembles the following example.  
+3.  Remove all of the page content, leaving only the outer xml elements and the containing grid <xref:System.Windows.Controls.Grid> element, so that your .xaml file resembles the following example.  
   
      [!code[BlankStartPage#01](../misc/codesnippet/Xaml/creating-your-own-start-page_1.xaml)]  
   

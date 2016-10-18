@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio Shell"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -45,7 +45,7 @@ The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] shell is the primar
   
 -   Loading VSPackages at appropriate times. Delay-loading a VSPackage is necessary to improving performance of the shell.  
   
--   Managing certain shared services, such as \<xref:Microsoft.VisualStudio.Shell.Interop.SVsShell>, which provides basic shell functionality, and \<xref:Microsoft.VisualStudio.Shell.Interop.SVsUIShell>, which supplies basic windowing functionality.  
+-   Managing certain shared services, such as <xref:Microsoft.VisualStudio.Shell.Interop.SVsShell>, which provides basic shell functionality, and <xref:Microsoft.VisualStudio.Shell.Interop.SVsUIShell>, which supplies basic windowing functionality.  
   
 -   Managing the solution (.sln) files. Solutions contain groups of related projects, similar to workspace (.dsw) files in Visual C++ 6.0.  
   
@@ -53,7 +53,7 @@ The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] shell is the primar
   
     -   The current project  
   
-    -   The current project item or ItemID the current \<xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy>  
+    -   The current project item or ItemID the current <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy>  
   
     -   The current selection for the **Properties** window or `SelectionContainer`  
   
@@ -92,8 +92,8 @@ The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] shell is the primar
 -   **Toolbox**  
   
 ## See Also  
- \<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>   
- \<xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy>   
- \<xref:Microsoft.VisualStudio.Shell.Interop.SVsShell>   
- \<xref:Microsoft.VisualStudio.Shell.Interop.SVsUIShell>   
+ <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>   
+ <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy>   
+ <xref:Microsoft.VisualStudio.Shell.Interop.SVsShell>   
+ <xref:Microsoft.VisualStudio.Shell.Interop.SVsUIShell>   
  [VSPackages](../extensibility/vspackages.md)

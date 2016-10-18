@@ -1,7 +1,7 @@
 ---
 title: "&#39;Inherits&#39; statement must precede all declarations in a class"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -45,4 +45,4 @@ The `Inherits` statements must be at the beginning of class definitions.
   
 ## See Also  
  [Inherits Statement](../Topic/Inherits%20Statement.md)   
- [NOT IN BUILD: Inheritance in Visual Basic](http://msdn.microsoft.com/e5e6e240-ed31-4657-820c-079b7c79313c)
+ [NOT IN BUILD: Inheritance in Visual Basic](http://msdn.microsoft.com/en-us/e5e6e240-ed31-4657-820c-079b7c79313c)

@@ -1,7 +1,7 @@
 ---
 title: "Compiler Warning (level 1) CS1720"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,7 +44,7 @@ Expression will always cause a System.NullReferenceException because the default
 default(T).ToString()  
 ```  
   
- Since `T` is a reference type, its default value is null, and so attempting to apply the \<xref:System.Object.ToString*> method to it will throw a \<xref:System.NullReferenceException>.  
+ Since `T` is a reference type, its default value is null, and so attempting to apply the <xref:System.Object.ToString*> method to it will throw a <xref:System.NullReferenceException>.  
   
 ## Example  
  The class reference constraint on type `T` ensures that `T` is a reference type.  

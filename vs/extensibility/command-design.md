@@ -1,7 +1,7 @@
 ---
 title: "Command Design"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,7 +39,7 @@ When you add a command to a VSPackage, you must specify where it is to appear, w
   
  Visual Studio merges all the .vsct files it finds so that it can display the commands. Because these files are distinct from the VSPackage binary, Visual Studio does not have to load the package to find the commands. For more information, see [How VSPackages Add User Interface Elements](../extensibility/how-vspackages-add-user-interface-elements.md).  
   
- Visual Studio uses the \<xref:Microsoft.VisualStudio.Shell.ProvideMenuResourceAttribute> registration attribute to define menu resources and commands. For more information, see [Implementation](../extensibility/command-implementation.md).  
+ Visual Studio uses the <xref:Microsoft.VisualStudio.Shell.ProvideMenuResourceAttribute> registration attribute to define menu resources and commands. For more information, see [Implementation](../extensibility/command-implementation.md).  
   
  Commands can be changed at run time in a number of different ways. They can be displayed or hidden, enabled or disabled. They can display different text or icons, or contain different values. A great deal of customization may be performed before Visual Studio loads your VSPackage. For more information, see [How VSPackages Add User Interface Elements](../extensibility/how-vspackages-add-user-interface-elements.md).  
   
@@ -69,7 +69,7 @@ When you add a command to a VSPackage, you must specify where it is to appear, w
   
  The environment routes commands sequentially from the innermost (local) command context, which is based on current selection, to the outermost (global) context. The first context that is able to execute the command is the one that handles it. For more information, see [Routing Algorithm](../extensibility/command-routing-algorithm.md).  
   
- In most instances, the environment handles commands by using the \<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface. Because the command routing scheme enables many different objects to handle commands, \<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> can be implemented by any number of objects; these include Microsoft ActiveX controls, window view implementations, document objects, project hierarchies, and VSPackage objects themselves (for global commands). In some specialized cases, for example, routing commands in a hierarchy, the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> interface must be implemented.  
+ In most instances, the environment handles commands by using the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface. Because the command routing scheme enables many different objects to handle commands, <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> can be implemented by any number of objects; these include Microsoft ActiveX controls, window view implementations, document objects, project hierarchies, and VSPackage objects themselves (for global commands). In some specialized cases, for example, routing commands in a hierarchy, the <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> interface must be implemented.  
   
 ## Related Topics  
   

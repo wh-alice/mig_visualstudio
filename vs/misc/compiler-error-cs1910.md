@@ -1,7 +1,7 @@
 ---
 title: "Compiler Error CS1910"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -38,7 +38,7 @@ translation.priority.mt:
 # Compiler Error CS1910
 Argument of type 'type' is not applicable for the DefaultValue attribute  
   
- For parameters whose type is object, the argument of the \<xref:System.Runtime.InteropServices.DefaultParameterValueAttribute> must be `null`, an integral type, a floating point, `bool`, `string`, `enum`, or `char`. The argument can not be of type \<xref:System.Type> or any array type.  
+ For parameters whose type is object, the argument of the <xref:System.Runtime.InteropServices.DefaultParameterValueAttribute> must be `null`, an integral type, a floating point, `bool`, `string`, `enum`, or `char`. The argument can not be of type <xref:System.Type> or any array type.  
   
 ## Example  
  The following sample generates CS1910.  

@@ -1,7 +1,7 @@
 ---
 title: "Type &#39;&lt;typename&gt;&#39; is imported from different versions of assembly &#39;&lt;assemblyname&gt;&#39;"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na

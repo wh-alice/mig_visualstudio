@@ -1,7 +1,7 @@
 ---
 title: "Add code to TableAdapters in n-tier applications"
 ms.custom: na
-ms.date: "10/11/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -46,7 +46,7 @@ You can extend the functionality of a `TableAdapter` by creating a partial class
 >  When you separate datasets and `TableAdapter`s (by setting the **DataSet Project** property), existing partial dataset classes in the project will not be moved automatically. Existing dataset partial classes must be moved manually to the dataset project.  
   
 > [!NOTE]
->  The [Creating and Editing Typed Datasets](../datatools/creating-and-editing-typed-datasets.md) provides functionality for generating \<xref:System.Data.DataTable.ColumnChanging> and \<xref:System.Data.DataTable.RowChanging> event handlers when validation is needed. For more information, see [Add validation to an n-tier dataset](../datatools/add-validation-to-an-n-tier-dataset.md).  
+>  The [Creating and Editing Typed Datasets](../datatools/creating-and-editing-typed-datasets.md) provides functionality for generating <xref:System.Data.DataTable.ColumnChanging> and <xref:System.Data.DataTable.RowChanging> event handlers when validation is needed. For more information, see [Add validation to an n-tier dataset](../datatools/add-validation-to-an-n-tier-dataset.md).  
   
  [!INCLUDE[note_settings_general](../datatools/includes/note_settings_general_md.md)]  
   

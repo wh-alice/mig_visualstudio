@@ -1,7 +1,7 @@
 ---
 title: "&lt;entryPoint&gt; Element (ClickOnce Application)"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -101,12 +101,12 @@ Identifies the assembly that should be executed when this [!INCLUDE[ndptecclick]
 <customUX xmlns="urn:schemas-microsoft-com:clickonce.v1" />  
 ```  
   
- An application that includes the customUX element must provide a custom installer that uses the \<xref:System.Deployment.Application.InPlaceHostingManager> class to perform install operations. An application with this element cannot be installed by double-clicking its manifest or setup.exe prerequisite bootstrapper. The custom installer can create Start menu entries, shortcuts, and Add or Remove Programs entries. If the custom installer does not create an Add or Remove Programs entry, it must store the subscription identifier provided by the \<xref:System.Deployment.Application.GetManifestCompletedEventArgs.SubscriptionIdentity*> property and enable the user to uninstall the application later by calling the \<xref:System.Deployment.Application.InPlaceHostingManager.UninstallCustomUXApplication*> method. For more information, see [Walkthrough: Creating a Custom Installer for a ClickOnce Application](../deployment/walkthrough--creating-a-custom-installer-for-a-clickonce-application.md).  
+ An application that includes the customUX element must provide a custom installer that uses the <xref:System.Deployment.Application.InPlaceHostingManager> class to perform install operations. An application with this element cannot be installed by double-clicking its manifest or setup.exe prerequisite bootstrapper. The custom installer can create Start menu entries, shortcuts, and Add or Remove Programs entries. If the custom installer does not create an Add or Remove Programs entry, it must store the subscription identifier provided by the <xref:System.Deployment.Application.GetManifestCompletedEventArgs.SubscriptionIdentity*> property and enable the user to uninstall the application later by calling the <xref:System.Deployment.Application.InPlaceHostingManager.UninstallCustomUXApplication*> method. For more information, see [Walkthrough: Creating a Custom Installer for a ClickOnce Application](../deployment/walkthrough--creating-a-custom-installer-for-a-clickonce-application.md).  
   
 ## Remarks  
  This element identifies the assembly and entry point for the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application.  
   
- You cannot use `commandLine` to pass parameters into your application at run time. You can access query string parameters for a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment from the application's \<xref:System.AppDomain>. For more information, see [How to: Retrieve Query String Information in an Online ClickOnce Application](../deployment/how-to--retrieve-query-string-information-in-an-online-clickonce-application.md).  
+ You cannot use `commandLine` to pass parameters into your application at run time. You can access query string parameters for a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment from the application's <xref:System.AppDomain>. For more information, see [How to: Retrieve Query String Information in an Online ClickOnce Application](../deployment/how-to--retrieve-query-string-information-in-an-online-clickonce-application.md).  
   
 ## Example  
  The following code example illustrates an `entryPoint` element in an application manifest for a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application. This code example is part of a larger example provided for the [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md) topic.  

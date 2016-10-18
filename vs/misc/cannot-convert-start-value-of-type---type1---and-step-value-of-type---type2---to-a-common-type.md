@@ -1,7 +1,7 @@
 ---
 title: "Cannot convert start value of type &#39;&lt;type1&gt;&#39; and step value of type &#39;&lt;type2&gt;&#39; to a common type"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -40,5 +40,5 @@ The specified `For...Next` control values have different types, and therefore ar
   
 ## See Also  
  [Navigating through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md)   
- [Debugging Changes in Visual Basic .NET](http://msdn.microsoft.com/0e82bb0d-8bb2-4fe8-87d1-75f24c7cfd75)   
+ [Debugging Changes in Visual Basic .NET](http://msdn.microsoft.com/en-us/0e82bb0d-8bb2-4fe8-87d1-75f24c7cfd75)   
  [For...Next Statement](../Topic/For...Next%20Statement%20\(Visual%20Basic\).md)

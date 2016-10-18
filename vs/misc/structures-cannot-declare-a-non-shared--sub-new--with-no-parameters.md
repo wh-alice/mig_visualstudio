@@ -1,7 +1,7 @@
 ---
 title: "Structures cannot declare a non-shared &#39;Sub New&#39; with no parameters"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na

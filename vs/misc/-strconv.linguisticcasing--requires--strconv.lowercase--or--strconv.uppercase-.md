@@ -1,7 +1,7 @@
 ---
 title: "&#39;StrConv.LinguisticCasing&#39; requires &#39;StrConv.LowerCase&#39; or &#39;StrConv.UpperCase&#39;"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,5 +39,5 @@ You have attempted to use `StrConv.LinguisticCasing`, which is only valid in com
 1.  Use `StrConv.LowerCase` or `StrConv.UpperCase` in conjunction with `StrConv.LinguisticCasing`.  
   
 ## See Also  
- [NOT IN BUILD: StrConv Function](http://msdn.microsoft.com/31ceb44b-005b-455f-b344-9dd06efbf660)   
- [StrConv Constant Changes in Visual Basic .NET](http://msdn.microsoft.com/7a8c2781-2716-40dd-90c1-96c1548516e2)
+ [NOT IN BUILD: StrConv Function](http://msdn.microsoft.com/en-us/31ceb44b-005b-455f-b344-9dd06efbf660)   
+ [StrConv Constant Changes in Visual Basic .NET](http://msdn.microsoft.com/en-us/7a8c2781-2716-40dd-90c1-96c1548516e2)

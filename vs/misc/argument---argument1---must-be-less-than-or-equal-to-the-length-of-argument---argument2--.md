@@ -1,7 +1,7 @@
 ---
 title: "Argument &#39;&lt;argument1&gt;&#39; must be less than or equal to the length of argument &#39;&lt;argument2&gt;&#39;"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -42,4 +42,4 @@ An argument's length exceeds the allowable limit, which is determined by the sec
   
 ## See Also  
  [Passing Arguments by Value and by Reference](../Topic/Passing%20Arguments%20by%20Value%20and%20by%20Reference%20\(Visual%20Basic\).md)   
- [Parameter Passing Mechanism for Visual Basic 6.0 Users](http://msdn.microsoft.com/0fa2b0dc-aa1c-4797-bbd6-aa13c611cab2)
+ [Parameter Passing Mechanism for Visual Basic 6.0 Users](http://msdn.microsoft.com/en-us/0fa2b0dc-aa1c-4797-bbd6-aa13c611cab2)

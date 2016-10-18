@@ -1,7 +1,7 @@
 ---
 title: "Run unit tests on UML extensions"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -175,9 +175,9 @@ namespace UnitTests
   
  Notice the following points:  
   
--   \<xref:Microsoft.VSSDK.Tools.VsIdeTesting.VsIdeTestHostContext?displayProperty=fullName> provides access to the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] API \<xref:EnvDTE.DTE?displayProperty=fullName>, and also to the DTE service provider.  
+-   <xref:Microsoft.VSSDK.Tools.VsIdeTesting.VsIdeTestHostContext?displayProperty=fullName> provides access to the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] API <xref:EnvDTE.DTE?displayProperty=fullName>, and also to the DTE service provider.  
   
--   If an instance of \<xref:EnvDTE.Project?displayProperty=fullName> represents a modeling project, then you can cast it to and from \<xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.IModelingProject>.  
+-   If an instance of <xref:EnvDTE.Project?displayProperty=fullName> represents a modeling project, then you can cast it to and from <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.IModelingProject>.  
   
 ##  <a name="Opening"></a> Opening a Model Diagram  
  For each test or class of tests, you typically want to work with an open diagram. The following example uses the `[ClassInitialize]` attribute, which executes this method before other methods in this test class. Again, don’t forget that you also need the attribute [HostType("VS IDE")] on each test method:  
@@ -395,6 +395,6 @@ Assert.AreEqual("hello", testInstance.privateField1_Accessor);
  This is the way that we recommend least. Older versions of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] provided a utility that automatically created an accessor method for each private method. Although this is convenient, our experience suggests that it tends to result in unit tests that are very strongly coupled to the internal structure of the application that they are testing. This results in extra work when the requirements or architecture change, because the tests have to be changed along with the implementation. Also, any erroneous assumptions in the design of the implementation are also built into the tests, so that the tests do not find errors.  
   
 ## See Also  
- [Anatomy of a Unit Test](http://msdn.microsoft.com/a03d1ee7-9999-4e7c-85df-7d9073976144)   
+ [Anatomy of a Unit Test](http://msdn.microsoft.com/en-us/a03d1ee7-9999-4e7c-85df-7d9073976144)   
  [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md)   
  [UML – Rapid Entry by using Text](http://code.msdn.microsoft.com/UML-Rapid-Entry-using-Text-0813ad8a)

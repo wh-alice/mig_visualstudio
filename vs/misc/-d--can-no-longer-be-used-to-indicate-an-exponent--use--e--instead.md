@@ -1,7 +1,7 @@
 ---
 title: "&#39;D&#39; can no longer be used to indicate an exponent, use &#39;E&#39; instead"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na

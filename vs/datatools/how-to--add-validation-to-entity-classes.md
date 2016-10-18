@@ -1,7 +1,7 @@
 ---
 title: "How to: Add validation to entity classes"
 ms.custom: na
-ms.date: "10/11/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -87,7 +87,7 @@ translation.priority.mt:
  In addition to checking values during changes, you can also validate data when an attempt is made to update a complete entity class. Validation during an attempted update enables you to compare values in multiple columns if business rules require this. The following procedure shows how to validate when an attempt is made to update a complete entity class.  
   
 > [!NOTE]
->  Validation code for updates to complete entity classes is executed in the partial \<xref:System.Data.Linq.DataContext> class (instead of in the partial class of a specific entity class).  
+>  Validation code for updates to complete entity classes is executed in the partial <xref:System.Data.Linq.DataContext> class (instead of in the partial class of a specific entity class).  
   
 #### To validate data during an update to an entity class  
   

@@ -1,7 +1,7 @@
 ---
 title: "Update a UML model from a background thread"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -31,7 +31,7 @@ It can sometimes be useful to make changes to a model in a background thread. Fo
   
  However, you must be aware that the UML store is not thread safe. The following precautions are important:  
   
--   Every update to a model or diagram must be made in the user interface (UI) thread. The background thread must use \<xref:System.Windows.Forms.Control.Invoke*> or `Dispatcher.`\<xref:System.Windows.Threading.Dispatcher.Invoke*> to have the UI thread perform the actual updates.  
+-   Every update to a model or diagram must be made in the user interface (UI) thread. The background thread must use <xref:System.Windows.Forms.Control.Invoke*> or `Dispatcher.`<xref:System.Windows.Threading.Dispatcher.Invoke*> to have the UI thread perform the actual updates.  
   
 -   If you group a series of changes into a single transaction, we recommend that you prevent the user from editing the model while the transaction is in progress. Otherwise, any edits made by the user will become part of the same transaction. You can prevent the user from making changes by showing a modal dialog box. If you want, you can provide a Cancel button in the dialog box. The user can see the changes as they happen.  
   

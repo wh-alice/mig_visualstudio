@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Using a Shortcut Key with an Editor Extension"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -59,7 +59,7 @@ this.layer = view.GetAdornmentLayer("PurpleCornerBox");
 ```  
   
 ## Defining the Command Filter  
- The command filter is an implementation of \<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>, which handles the command by instantiating the adornment.  
+ The command filter is an implementation of <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>, which handles the command by instantiating the adornment.  
   
 1.  Add a class file and name it `KeyBindingCommandFilter`.  
   
@@ -74,7 +74,7 @@ this.layer = view.GetAdornmentLayer("PurpleCornerBox");
   
     ```  
   
-3.  The class named KeyBindingCommandFilter should inherit from \<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>.  
+3.  The class named KeyBindingCommandFilter should inherit from <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>.  
   
     ```c#  
     internal class KeyBindingCommandFilter : IOleCommandTarget  
@@ -133,7 +133,7 @@ this.layer = view.GetAdornmentLayer("PurpleCornerBox");
     ```  
   
 ## Adding the Command Filter  
- The adornment provider must add a command filter to the text view. In this example, the provider implements \<xref:Microsoft.VisualStudio.Editor.IVsTextViewCreationListener> to listen to text view creation events. This adornment provider also exports the adornment layer, which defines the Z-order of the adornment.  
+ The adornment provider must add a command filter to the text view. In this example, the provider implements <xref:Microsoft.VisualStudio.Editor.IVsTextViewCreationListener> to listen to text view creation events. This adornment provider also exports the adornment layer, which defines the Z-order of the adornment.  
   
 1.  In the KeyBindingTestTextViewCreationListener file, add the following using statements:  
   
@@ -159,7 +159,7 @@ this.layer = view.GetAdornmentLayer("PurpleCornerBox");
     public AdornmentLayerDefinition editorAdornmentLayer;  
     ```  
   
-3.  To get the text view adapter, you must import the \<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService>.  
+3.  To get the text view adapter, you must import the <xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService>.  
   
     ```c#  
     [Import(typeof(IVsEditorAdaptersFactoryService))]  
@@ -167,7 +167,7 @@ this.layer = view.GetAdornmentLayer("PurpleCornerBox");
   
     ```  
   
-4.  Change the \<xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewCreationListener.TextViewCreated*> method so that it adds the `KeyBindingCommandFilter`.  
+4.  Change the <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewCreationListener.TextViewCreated*> method so that it adds the `KeyBindingCommandFilter`.  
   
     ```c#  
     public void TextViewCreated(IWpfTextView textView)  

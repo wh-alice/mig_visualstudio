@@ -1,7 +1,7 @@
 ---
 title: "Scenario: Change your design using visualization and modeling"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -370,7 +370,7 @@ Make sure that your software system meets users' needs by using the visualizatio
   
  See:  
   
--   [Testing the application](../Topic/Test%20apps%20early%20and%20often.md)  
+-   [Testing the application](../test/test-apps-early-and-often.md)  
   
 -   [Validate your system during development](../modeling/validate-your-system-during-development.md)  
   
@@ -899,6 +899,6 @@ Make sure that your software system meets users' needs by using the visualizatio
  [Visualize code](../modeling/visualize-code.md)   
  [Create models for your app](../modeling/create-models-for-your-app.md)   
  [Use models in your development process](../modeling/use-models-in-your-development-process.md)   
- [Use models in Agile development](http://msdn.microsoft.com/592ac27c-3d3e-454a-9c38-b76658ed137f)   
+ [Use models in Agile development](http://msdn.microsoft.com/en-us/592ac27c-3d3e-454a-9c38-b76658ed137f)   
  [Validate your system during development](../modeling/validate-your-system-during-development.md)   
  [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md)

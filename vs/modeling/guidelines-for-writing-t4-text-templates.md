@@ -1,7 +1,7 @@
 ---
 title: "Guidelines for Writing T4 Text Templates"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -67,7 +67,7 @@ These general guidelines might be helpful if you are generating program code or 
  Consider moving large blocks of code into a separate assembly.  
  If you have large code blocks and class feature blocks, it might be useful to move some of this code into methods that you compile in a separate project. You can use the `<#@ assembly #>` directive to access the code in the template. For more information, see [T4 Assembly Directive](../modeling/t4-assembly-directive.md).  
   
- You can put the methods in an abstract class that the template can inherit. The abstract class must inherit from \<xref:Microsoft.VisualStudio.TextTemplating.TextTransformation?displayProperty=fullName>. For more information, see [T4 Template Directive](../modeling/t4-template-directive.md).  
+ You can put the methods in an abstract class that the template can inherit. The abstract class must inherit from <xref:Microsoft.VisualStudio.TextTemplating.TextTransformation?displayProperty=fullName>. For more information, see [T4 Template Directive](../modeling/t4-template-directive.md).  
   
  Generate code, not configuration files  
  One method of writing a variable application is to write generic program code that accepts a configuration file. An application written in this manner is very flexible, and can be reconfigured when the business requirements change, without rebuilding the application. However, a drawback of this approach is that the application will perform less well than a more specific application. Also, its program code will be more difficult to read and maintain, partly because it has always to deal with the most generic types.  

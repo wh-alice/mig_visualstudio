@@ -1,7 +1,7 @@
 ---
 title: "How to: Provide an Asynchronous Visual Studio Service"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -26,7 +26,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # How to: Provide an Asynchronous Visual Studio Service
-If you want to obtain a service without blocking the UI thread, you should create an asynchronous service and load the package on a background thread. For this purpose you can use an \<xref:Microsoft.VisualStudio.Shell.AsyncPackage> rather than a \<xref:Microsoft.VisualStudio.Shell.Package>, and add the service with the asynchronous package’s special asynchronous methods  
+If you want to obtain a service without blocking the UI thread, you should create an asynchronous service and load the package on a background thread. For this purpose you can use an <xref:Microsoft.VisualStudio.Shell.AsyncPackage> rather than a <xref:Microsoft.VisualStudio.Shell.Package>, and add the service with the asynchronous package’s special asynchronous methods  
   
  For information about providing synchronous Visual Studio services, see [How to: Provide a Service](../extensibility/how-to--provide-a-service.md).  
   
@@ -93,11 +93,11 @@ If you want to obtain a service without blocking the UI thread, you should creat
     ```  
   
 ## Registering a Service  
- To register a service, add the \<xref:Microsoft.VisualStudio.Shell.ProvideServiceAttribute> to the package that provides the service. There are two differences from registering a synchronous service:  
+ To register a service, add the <xref:Microsoft.VisualStudio.Shell.ProvideServiceAttribute> to the package that provides the service. There are two differences from registering a synchronous service:  
   
--   If you are autoloading the package, you must add the \<xref:Microsoft.VisualStudio.Shell.PackageAutoLoadFlags> BackgroundLoad value to the attribute. For more information about autoloading VSPackages, see [Loading VSPackages](../extensibility/loading-vspackages.md).  
+-   If you are autoloading the package, you must add the <xref:Microsoft.VisualStudio.Shell.PackageAutoLoadFlags> BackgroundLoad value to the attribute. For more information about autoloading VSPackages, see [Loading VSPackages](../extensibility/loading-vspackages.md).  
   
--   You must add the **AllowsBackgroundLoading = true** field to the \<xref:Microsoft.VisualStudio.Shell.PackageRegistrationAttribute>. For more information about the PackageRegistrationAttribute, see [Registering and Unregistering VSPackages](../extensibility/registering-and-unregistering-vspackages.md).  
+-   You must add the **AllowsBackgroundLoading = true** field to the <xref:Microsoft.VisualStudio.Shell.PackageRegistrationAttribute>. For more information about the PackageRegistrationAttribute, see [Registering and Unregistering VSPackages](../extensibility/registering-and-unregistering-vspackages.md).  
   
  Here is an example of an AsyncPackage with an asynchronous service registration::  
   
@@ -175,7 +175,7 @@ public sealed class TestAsyncPackage : AsyncPackage
     TestAsyncCommand.Initialize(this);  
     ```  
   
-     Move this line to the `InitializeAsync()` method in the AsyncPackageForService.cs file. Since this is in an asynchronous initialization, you must switch to the main thread before you initialize the command using \<xref:Microsoft.VisualStudio.Threading.JoinableTaskFactory.SwitchToMainThreadAsync*>. It should now look like this:  
+     Move this line to the `InitializeAsync()` method in the AsyncPackageForService.cs file. Since this is in an asynchronous initialization, you must switch to the main thread before you initialize the command using <xref:Microsoft.VisualStudio.Threading.JoinableTaskFactory.SwitchToMainThreadAsync*>. It should now look like this:  
   
     ```c#  
   

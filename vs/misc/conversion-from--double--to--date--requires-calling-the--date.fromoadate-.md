@@ -1,7 +1,7 @@
 ---
 title: "Conversion from &#39;Double&#39; to &#39;Date&#39; requires calling the &#39;Date.FromOADate&#39;"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -35,13 +35,13 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Conversion from &#39;Double&#39; to &#39;Date&#39; requires calling the &#39;Date.FromOADate&#39;
-You have attempted to cast a `Date` value to a `Double` value, which cannot be done without using the \<xref:System.DateTime.FromOADate*?displayProperty=fullName> method.  
+You have attempted to cast a `Date` value to a `Double` value, which cannot be done without using the <xref:System.DateTime.FromOADate*?displayProperty=fullName> method.  
   
  **Error ID:** BC30533  
   
 ### To correct this error  
   
--   Use the \<xref:System.DateTime.FromOADate*> method to convert the value.  
+-   Use the <xref:System.DateTime.FromOADate*> method to convert the value.  
   
 ## See Also  
  [Type Conversions in Visual Basic](../Topic/Type%20Conversions%20in%20Visual%20Basic.md)

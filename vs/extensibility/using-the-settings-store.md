@@ -1,7 +1,7 @@
 ---
 title: "Using the Settings Store"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -65,7 +65,7 @@ There are two kinds of settings stores:
     SettingsStore configurationSettingsStore = settingsManager.GetReadOnlySettingsStore(SettingsScope.Configuration);  
     ```  
   
-     The \<xref:Microsoft.VisualStudio.Shell.Settings.ShellSettingsManager> is a managed helper class over the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsSettingsManager> service.  
+     The <xref:Microsoft.VisualStudio.Shell.Settings.ShellSettingsManager> is a managed helper class over the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSettingsManager> service.  
   
 3.  Now find out whether Windows Phone Tools are installed. The code should look like this:  
   

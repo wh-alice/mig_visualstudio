@@ -1,7 +1,7 @@
 ---
 title: "Server and Client Configuration Issues in ClickOnce Deployments"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -52,7 +52,7 @@ If you use Internet Information Services (IIS) on Windows Server, and your deplo
   
 -   .deploy  
   
- However, you can disable this option by clearing the **Use ".deploy" file extension** option on the [Publish Options Dialog Box](http://msdn.microsoft.com/fd9baa1b-7311-4f9e-8ffb-ae50cf110592), in which case you must configure the Web server to unblock all file extensions used in the application.  
+ However, you can disable this option by clearing the **Use ".deploy" file extension** option on the [Publish Options Dialog Box](http://msdn.microsoft.com/en-us/fd9baa1b-7311-4f9e-8ffb-ae50cf110592), in which case you must configure the Web server to unblock all file extensions used in the application.  
   
  You will have to configure .manifest, .application, and .deploy, for example, if you are using IIS where you have not installed the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)], or if you are using another Web server (for example, Apache).  
   

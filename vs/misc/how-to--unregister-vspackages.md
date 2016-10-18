@@ -1,7 +1,7 @@
 ---
 title: "How to: Unregister VSPackages"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -51,4 +51,4 @@ By default, when you build VSPackages, they are registered to the experimental r
  The RegPkg tool reads the registration attributes that can be embedded in a managed VSPackage. The **/unregister** switch instructs RegPkg to remove the information from the registry.  
   
 ## See Also  
- [Visual Studio Integration Samples](http://msdn.microsoft.com/b5dbf078-3af2-4fed-a1ea-171e4ee73a43)
+ [Visual Studio Integration Samples](http://msdn.microsoft.com/en-us/b5dbf078-3af2-4fed-a1ea-171e4ee73a43)

@@ -1,7 +1,7 @@
 ---
 title: "IDE-Defined Commands for Extending Project Systems"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -49,12 +49,12 @@ When you want to extend project systems, you can use commands and command groups
   
 |Shortcut menu|Description|  
 |-------------------|-----------------|  
-|\<xref:Microsoft.VisualStudio.Shell.VsMenus.IDM_VS_CTXT_PROJNODE>|Applies when the project node is selected.|  
-|\<xref:Microsoft.VisualStudio.Shell.VsMenus.IDM_VS_CTXT_ITEMNODE>|Applies when a file is selected.|  
-|\<xref:Microsoft.VisualStudio.Shell.VsMenus.IDM_VS_CTXT_FOLDERNODE>|Applies when a folder is selected.|  
+|<xref:Microsoft.VisualStudio.Shell.VsMenus.IDM_VS_CTXT_PROJNODE>|Applies when the project node is selected.|  
+|<xref:Microsoft.VisualStudio.Shell.VsMenus.IDM_VS_CTXT_ITEMNODE>|Applies when a file is selected.|  
+|<xref:Microsoft.VisualStudio.Shell.VsMenus.IDM_VS_CTXT_FOLDERNODE>|Applies when a folder is selected.|  
 |IDM_VS_CTXT_WEBREFFOLDER|Applies when the Web Reference folder is selected.|  
-|\<xref:Microsoft.VisualStudio.Shell.VsMenus.IDM_VS_CTXT_REFERENCEROOT>|Applies when the references root node called "References" is selected.|  
-|\<xref:Microsoft.VisualStudio.Shell.VsMenus.IDM_VS_CTXT_REFERENCE>|Applies when reference nodes are selected; these include assembly, COM, and project references only. Does not include Web references.|  
+|<xref:Microsoft.VisualStudio.Shell.VsMenus.IDM_VS_CTXT_REFERENCEROOT>|Applies when the references root node called "References" is selected.|  
+|<xref:Microsoft.VisualStudio.Shell.VsMenus.IDM_VS_CTXT_REFERENCE>|Applies when reference nodes are selected; these include assembly, COM, and project references only. Does not include Web references.|  
   
  The following table shows the shortcut menus that apply when the selection in the **Solution Explorer** spans multiple hierarchies,  
   
@@ -67,7 +67,7 @@ When you want to extend project systems, you can use commands and command groups
 |IDM_VS_CTXT_XPROJ_MULTIITEM|Applies when the current selection contains project items from multiple projects in the solution, or when items of different types are selected in the same project.|  
   
 ## Command Groups  
- The following table shows the command groups that you can use when you extend projects, and that you can access through the \<xref:Microsoft.VisualStudio.Shell.VsMenus.IDM_VS_CTXT_PROJNODE> shortcut menu.  
+ The following table shows the command groups that you can use when you extend projects, and that you can access through the <xref:Microsoft.VisualStudio.Shell.VsMenus.IDM_VS_CTXT_PROJNODE> shortcut menu.  
   
 |Command group|Description|  
 |-------------------|-----------------|  

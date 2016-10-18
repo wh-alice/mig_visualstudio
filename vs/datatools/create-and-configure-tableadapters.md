@@ -1,7 +1,7 @@
 ---
 title: "Create and configure TableAdapters"
 ms.custom: na
-ms.date: "10/11/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,7 +39,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Create and configure TableAdapters
-TableAdapters provide communication between your application and a database. They connect to the database, run queries or stored procedures, and either return a new data table or fill an existing \<xref:System.Data.DataTable> with the returned data. TableAdapters can also send updated data from your application back to the database.  
+TableAdapters provide communication between your application and a database. They connect to the database, run queries or stored procedures, and either return a new data table or fill an existing <xref:System.Data.DataTable> with the returned data. TableAdapters can also send updated data from your application back to the database.  
   
  TableAdapters are created for you when you perform one of the following actions:  
   
@@ -86,7 +86,7 @@ TableAdapters provide communication between your application and a database. The
   
 1.  Open your dataset in the **Dataset Designer**.  
   
-2.  If you are creating a new query, drag a **Query** object from the **DataSet** tab of the **Toolbox** onto a \<xref:System.Data.DataTable>, or select **Add Query** from the TableAdapter's shortcut menu. You can also drag a **Query** object onto an empty area of the **Dataset Designer**, which creates a TableAdapter without an associated \<xref:System.Data.DataTable>. These queries can only return single (scalar) values, or run UPDATE, INSERT, or DELETE commands against the database.  
+2.  If you are creating a new query, drag a **Query** object from the **DataSet** tab of the **Toolbox** onto a <xref:System.Data.DataTable>, or select **Add Query** from the TableAdapter's shortcut menu. You can also drag a **Query** object onto an empty area of the **Dataset Designer**, which creates a TableAdapter without an associated <xref:System.Data.DataTable>. These queries can only return single (scalar) values, or run UPDATE, INSERT, or DELETE commands against the database.  
   
 3.  On the **Choose Your Data Connection** screen, select or create the connection that the query will use.  
   
@@ -106,7 +106,7 @@ TableAdapters provide communication between your application and a database. The
 -   If you are editing an existing TableAdapter query, right-click the query, and then choose **Configure** from the shortcut menu.  
   
     > [!NOTE]
-    >  Right-clicking the main query of a TableAdapter reconfigures the TableAdapter and \<xref:System.Data.DataTable> schema. Right-clicking an additional query on a TableAdapter, however,  configures the selected query only. The **TableAdapter Configuration Wizard** reconfigures the TableAdapter definition, while the TableAdapter Query Configuration Wizard reconfigures the selected query only.  
+    >  Right-clicking the main query of a TableAdapter reconfigures the TableAdapter and <xref:System.Data.DataTable> schema. Right-clicking an additional query on a TableAdapter, however,  configures the selected query only. The **TableAdapter Configuration Wizard** reconfigures the TableAdapter definition, while the TableAdapter Query Configuration Wizard reconfigures the selected query only.  
   
 #### To add a global  query to a TableAdapter  
   

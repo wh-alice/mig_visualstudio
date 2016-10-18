@@ -1,7 +1,7 @@
 ---
 title: "ClickOnce Deployment Samples and Walkthroughs"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -47,9 +47,9 @@ This section contains sample applications, example code, and step-by-step walkth
 |Topic|Description|  
 |-----------|-----------------|  
 |[Deploying a ClickOnce Application Manually](../deployment/walkthrough--manually-deploying-a-clickonce-application.md)|Explains how to use .NET Framework utilities to deploy your ClickOnce application.|  
-|[Downloading Assemblies on Demand with the ClickOnce Deployment API](../deployment/walkthrough--downloading-assemblies-on-demand-with-the-clickonce-deployment-api.md)|Demonstrates how to mark certain assemblies in your application as "optional," and how to download them using classes in the \<xref:System.Deployment.Application> namespace.|  
+|[Downloading Assemblies on Demand with the ClickOnce Deployment API](../deployment/walkthrough--downloading-assemblies-on-demand-with-the-clickonce-deployment-api.md)|Demonstrates how to mark certain assemblies in your application as "optional," and how to download them using classes in the <xref:System.Deployment.Application> namespace.|  
 |[Downloading Assemblies On Demand with the ClickOnce Deployment API Using the Designer](../deployment/walkthrough--downloading-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer.md)|Explains how to download application assemblies only when they are first used by the application.|  
   
 ## See Also  
- [Visual Studio Walkthroughs](http://msdn.microsoft.com/f5399a1f-2d3d-42fb-b989-134ccda2159f)   
+ [Visual Studio Walkthroughs](http://msdn.microsoft.com/en-us/f5399a1f-2d3d-42fb-b989-134ccda2159f)   
  [Visual Studio Samples](../ide/visual-studio-samples.md)

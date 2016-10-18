@@ -1,7 +1,7 @@
 ---
 title: "MSBuild Error MSB1005"
 ms.custom: na
-ms.date: "10/11/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -14,7 +14,7 @@ f1_keywords:
 helpviewer_keywords: 
   - "MSB1005"
 ms.assetid: cf4e8503-46fb-4c1e-a1ca-aa344276ebb0
-caps.latest.revision: 11
+caps.latest.revision: 12
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -34,26 +34,13 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # MSBuild Error MSB1005
-\<?xml version="1.0" encoding="utf-8"?>
-\<developerErrorMessageDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ddue.schemas.microsoft.com/authoring/2003/5 http://clixdevr3.blob.core.windows.net/ddueschema/developer.xsd">
-  <introduction>
-    <para>
-      <ui>Specify a property and its value.</ui>
-    </para>
-    <para>A property name and value must be specified for the <system>/property</system> switch.</para>
-  </introduction>
-  <procedure>
-    <title>To correct this error</title>
-    <steps class="ordered">
-      <step>
-        <content>
-          <para>Specify a property name and value using the format <codeInline>/property:&lt;name&gt;=&lt;value&gt;</codeInline>. You can use either a comma or a semicolon to separate a list of properties, for example, <codeInline>/property:WarningLevel=2;OutputDir=bin\Debug</codeInline> or <codeInline>/property:WarningLevel=2,OutputDir=bin\Debug</codeInline>. Alternatively, you can repeat the switch, for example, <codeInline>/p:WarningLevel=2 /p:OutputDir=bin\Debug</codeInline></para>
-        </content>
-      </step>
-    </steps>
-  </procedure>
-  <relatedTopics>
-\<link xlink:href="edaa65ec-ab8a-42a1-84cb-d76d5b2f4584">MSBuild Command Line Reference</link>
-
-</relatedTopics>
-</developerErrorMessageDocument>
+**Specify a property and its value.**  
+  
+ A property name and value must be specified for the **/property** switch.  
+  
+### To correct this error  
+  
+1.  Specify a property name and value using the format `/property:<name>=<value>`. You can use either a comma or a semicolon to separate a list of properties, for example, `/property:WarningLevel=2;OutputDir=bin\Debug` or `/property:WarningLevel=2,OutputDir=bin\Debug`. Alternatively, you can repeat the switch, for example, `/p:WarningLevel=2 /p:OutputDir=bin\Debug`  
+  
+## See Also  
+ [Command-Line Reference](../reference/msbuild-command-line-reference.md)

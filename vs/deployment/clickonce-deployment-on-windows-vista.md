@@ -1,7 +1,7 @@
 ---
 title: "ClickOnce Deployment on Windows Vista"
 ms.custom: na
-ms.date: "10/12/2016"
+ms.date: "10/17/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -62,6 +62,6 @@ Building applications in Visual Studio for User Account Control (UAC) on Windows
   
 ## See Also  
  [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)   
- [User Permissions and Visual Studio](http://msdn.microsoft.com/d5c55084-1e7b-4b61-b478-137db01c0fc0)   
+ [User Permissions and Visual Studio](http://msdn.microsoft.com/en-us/d5c55084-1e7b-4b61-b478-137db01c0fc0)   
  [Application Page, Project Designer (C#)](../reference/application-page--project-designer--csharp-.md)   
  [Application Page, Project Designer (Visual Basic)](../reference/application-page--project-designer--visual-basic-.md)

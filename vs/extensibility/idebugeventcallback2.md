@@ -1,7 +1,7 @@
 ---
 title: "IDebugEventCallback2"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -57,7 +57,7 @@ IDebugEventCallback2 : IUnknown
 ## Remarks  
  Although [EvaluateSync](../extensibility/idebugexpression2--evaluatesync.md) and [EvaluateAsync](../extensibility/idebugexpression2--evaluateasync.md) specify that they take an `IDebugEventCallback2` interface, this is not the case, and the interface pointer will always be a null value. Instead, the debug engine must use the `IDebugEventCallback2` interface received in the call to [Attach](../extensibility/idebugprogram2--attach.md), [Attach](../extensibility/idebugengine2--attach.md), or [LaunchSuspended](../extensibility/idebugenginelaunch2--launchsuspended.md).  
   
- If a package implements [IDebugEventCallback](../extensibility/idebugeventcallback2.md) in managed code, it is strongly advised that \<xref:System.Runtime.InteropServices.Marshal.ReleaseComObject*> be invoked on the various interfaces that are passed to [Event](../extensibility/idebugeventcallback2--event.md).  
+ If a package implements [IDebugEventCallback](../extensibility/idebugeventcallback2.md) in managed code, it is strongly advised that <xref:System.Runtime.InteropServices.Marshal.ReleaseComObject*> be invoked on the various interfaces that are passed to [Event](../extensibility/idebugeventcallback2--event.md).  
   
 ## Requirements  
  Header: msdbg.h  

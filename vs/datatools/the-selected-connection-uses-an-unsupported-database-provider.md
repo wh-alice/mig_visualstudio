@@ -1,7 +1,7 @@
 ---
 title: "The selected connection uses an unsupported database provider"
 ms.custom: na
-ms.date: "10/11/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,7 +37,7 @@ This message appears when you drag items that do not use the .NET Framework Data
 -   Add only items from data connections that use the .NET Framework Data Provider for SQL Server to the [!INCLUDE[vs_ordesigner_short](../datatools/includes/vs_ordesigner_short_md.md)].  
   
 ## See Also  
- \<xref:System.Data.SqlClient>   
+ <xref:System.Data.SqlClient>   
  [Connecting to Data in Visual Studio](../datatools/connecting-to-data-in-visual-studio.md)   
  [.NET Framework Data Providers](../Topic/.NET%20Framework%20Data%20Providers.md)   
  [Walkthrough: Creating LINQ to SQL Classes (O-R Designer)](../Topic/Walkthrough:%20Creating%20LINQ%20to%20SQL%20Classes%20\(O-R%20Designer\).md)   

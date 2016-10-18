@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: Microsoft.Office.Tools.CannotRemoveControlException"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,12 +37,12 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: Microsoft.Office.Tools.CannotRemoveControlException
-A \<xref:Microsoft.Office.Tools.CannotRemoveControlException> exception is thrown when an attempt is made to programmatically remove a control that was not added programmatically.  
+A <xref:Microsoft.Office.Tools.CannotRemoveControlException> exception is thrown when an attempt is made to programmatically remove a control that was not added programmatically.  
   
 ## Associated Tips  
  You can only remove a control programmatically if it was added programmatically.  
  -   You can only remove a control programmatically if it was added programmatically. If the control was added to the document at design time instead of at run time, it cannot be removed.  
   
 ## See Also  
- \<xref:Microsoft.Office.Tools.CannotRemoveControlException>   
+ <xref:Microsoft.Office.Tools.CannotRemoveControlException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

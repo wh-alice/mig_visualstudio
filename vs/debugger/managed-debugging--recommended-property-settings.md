@@ -1,7 +1,7 @@
 ---
 title: "Managed Debugging: Recommended Property Settings"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -59,8 +59,8 @@ Certain properties should be set the same way for all managed debugging scenario
 |-----------------------|-----------------|  
 |**Enable optimizations**|Set to false for the reasons specified in the **Optimize code** option in the preceding table.|  
 |**Generate debugging information**|Select this check box to cause the /DEBUG flag to be set when compiling, which will generate information needed to facilitate debugging.|  
-|**Define DEBUG constant**|Select this check box to define the `DEBUG` constant, which enables your application to use the \<xref:System.Diagnostics.Debug> class.|  
-|**Define TRACE constant**|Select this check box to define the `TRACE` constant, which enables your application to use the \<xref:System.Diagnostics.Trace> class.|  
+|**Define DEBUG constant**|Select this check box to define the `DEBUG` constant, which enables your application to use the <xref:System.Diagnostics.Debug> class.|  
+|**Define TRACE constant**|Select this check box to define the `TRACE` constant, which enables your application to use the <xref:System.Diagnostics.Trace> class.|  
   
 ## See Also  
  [Debugging Managed Code](../debugger/debugging-managed-code.md)   

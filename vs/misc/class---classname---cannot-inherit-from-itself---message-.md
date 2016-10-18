@@ -1,7 +1,7 @@
 ---
 title: "Class &#39;&lt;classname&gt;&#39; cannot inherit from itself: &lt;message&gt;"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -52,5 +52,5 @@ An [Inherits Statement](../Topic/Inherits%20Statement.md) in a class definition 
 3.  Examine the cited message for suggestions.  
   
 ## See Also  
- [NOT IN BUILD: Inheritance in Visual Basic](http://msdn.microsoft.com/e5e6e240-ed31-4657-820c-079b7c79313c)   
- [NOT IN BUILD: Understanding Classes](http://msdn.microsoft.com/cc2355a2-cb98-4353-9440-736585aec46c)
+ [NOT IN BUILD: Inheritance in Visual Basic](http://msdn.microsoft.com/en-us/e5e6e240-ed31-4657-820c-079b7c79313c)   
+ [NOT IN BUILD: Understanding Classes](http://msdn.microsoft.com/en-us/cc2355a2-cb98-4353-9440-736585aec46c)

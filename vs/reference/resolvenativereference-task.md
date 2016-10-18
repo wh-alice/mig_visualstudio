@@ -1,7 +1,7 @@
 ---
 title: "ResolveNativeReference Task"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,7 +39,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # ResolveNativeReference Task
-Resolves native references. Implements the \<xref:Microsoft.Build.Tasks.ResolveNativeReference> class. This class supports the .NET Framework infrastructure which is not intended to be used directly from your code.  
+Resolves native references. Implements the <xref:Microsoft.Build.Tasks.ResolveNativeReference> class. This class supports the .NET Framework infrastructure which is not intended to be used directly from your code.  
   
 ## Task Parameters  
  The following table describes the parameters of the `ResolveNativeReference` task.  
@@ -47,16 +47,16 @@ Resolves native references. Implements the \<xref:Microsoft.Build.Tasks.ResolveN
 |Parameter|Description|  
 |---------------|-----------------|  
 |`AdditionalSearchPaths`|Required [String](assetId:///String?qualifyHint=False&autoUpgrade=True)`[]` parameter.<br /><br /> Gets or sets the search paths for resolving assembly identities of native references.|  
-|`ContainedComComponents`|Optional \<xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Gets or sets the COM components of the native assembly.|  
-|`ContainedLooseEtcFiles`|Optional \<xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Gets or sets the loose Etc files listed in the native manifest.|  
-|`ContainedLooseTlbFiles`|Optional \<xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Gets or sets the loose .tlb files of the native assembly.|  
-|`ContainedPrerequisiteAssemblies`|Optional \<xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Gets or sets the assemblies that must be present before the manifest can be used.|  
-|`ContainedTypeLibraries`|Optional \<xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Gets or sets the type libraries of the native assembly.|  
-|`ContainingReferenceFiles`|Optional \<xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Gets or sets the reference files.|  
-|`NativeReferences`|Required \<xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Gets or sets the Win32 native assembly references.|  
+|`ContainedComComponents`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Gets or sets the COM components of the native assembly.|  
+|`ContainedLooseEtcFiles`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Gets or sets the loose Etc files listed in the native manifest.|  
+|`ContainedLooseTlbFiles`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Gets or sets the loose .tlb files of the native assembly.|  
+|`ContainedPrerequisiteAssemblies`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Gets or sets the assemblies that must be present before the manifest can be used.|  
+|`ContainedTypeLibraries`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Gets or sets the type libraries of the native assembly.|  
+|`ContainingReferenceFiles`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Gets or sets the reference files.|  
+|`NativeReferences`|Required <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Gets or sets the Win32 native assembly references.|  
   
 ## Remarks  
- In addition to the parameters listed above, this task inherits parameters from the \<xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the \<xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../reference/taskextension-base-class.md).  
+ In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../reference/taskextension-base-class.md).  
   
 ## See Also  
  [Tasks](../reference/msbuild-tasks.md)   

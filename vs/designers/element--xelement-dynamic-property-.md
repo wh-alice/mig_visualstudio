@@ -1,7 +1,7 @@
 ---
 title: "Element (XElement Dynamic Property)"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -41,12 +41,12 @@ elem.Element[{namespaceName}localName]
 ```  
   
 ## Property Value/Return Value  
- An indexer of the type `XElement Item(String expandedName)`. This indexer takes an expanded name parameter and returns the corresponding \<xref:System.Xml.Linq.XElement>, or `null` if there is no element with the specified name.  
+ An indexer of the type `XElement Item(String expandedName)`. This indexer takes an expanded name parameter and returns the corresponding <xref:System.Xml.Linq.XElement>, or `null` if there is no element with the specified name.  
   
 ## Remarks  
- This property is equivalent to \<xref:System.Xml.Linq.XContainer.Element*> method of the \<xref:System.Xml.Linq.XContainer?displayProperty=fullName> class.  
+ This property is equivalent to <xref:System.Xml.Linq.XContainer.Element*> method of the <xref:System.Xml.Linq.XContainer?displayProperty=fullName> class.  
   
 ## See Also  
- \<xref:System.Xml.Linq.XContainer.Element*?displayProperty=fullName>   
+ <xref:System.Xml.Linq.XContainer.Element*?displayProperty=fullName>   
  [XElement Class Dynamic Properties](../designers/xelement-class-dynamic-properties.md)   
  [Elements](../designers/elements--xelement-dynamic-property-.md)

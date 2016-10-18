@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Connecting to Data in a Local Database File (Windows Forms)"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -100,7 +100,7 @@ You can quickly and easily display data from a local database file in your appli
   
 1.  Move the main **Customers** node from the **Data Sources** window onto **Form1**.  
   
-     A \<xref:System.Windows.Forms.DataGridView> and a tool strip (\<xref:System.Windows.Forms.BindingNavigator>) for navigating records appear on the form. A [SampleDatabaseDataSet](../datatools/dataset-tools-in-visual-studio.md), [CustomersTableAdapter](../datatools/tableadapter-overview.md), \<xref:System.Windows.Forms.BindingSource>, and \<xref:System.Windows.Forms.BindingNavigator> appear in the component tray.  
+     A <xref:System.Windows.Forms.DataGridView> and a tool strip (<xref:System.Windows.Forms.BindingNavigator>) for navigating records appear on the form. A [SampleDatabaseDataSet](../datatools/dataset-tools-in-visual-studio.md), [CustomersTableAdapter](../datatools/tableadapter-overview.md), <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray.  
   
 2.  To run the application and show the data that you added in the previous walkthrough, choose the F5 key.  
   
@@ -109,7 +109,7 @@ You can quickly and easily display data from a local database file in your appli
 4.  Delete the record that you just created by choosing it and then choosing the red delete icon (![Delete button in Windows Form](../datatools/media/deleterecord.png "DeleteRecord")).  
   
 ## Next Steps  
- You can create or modify objects in the dataset if you open the data source in the [Creating and Editing Typed Datasets](../datatools/creating-and-editing-typed-datasets.md). You can also add validation logic to the \<xref:System.Data.DataTable.ColumnChanging> or \<xref:System.Data.DataTable.RowChanging> events of the data tables in the dataset. See [Validate data in datasets](../datatools/validate-data-in-datasets.md).  
+ You can create or modify objects in the dataset if you open the data source in the [Creating and Editing Typed Datasets](../datatools/creating-and-editing-typed-datasets.md). You can also add validation logic to the <xref:System.Data.DataTable.ColumnChanging> or <xref:System.Data.DataTable.RowChanging> events of the data tables in the dataset. See [Validate data in datasets](../datatools/validate-data-in-datasets.md).  
   
 ## See Also  
  [Local Data Overview](../datatools/local-data-overview.md)   

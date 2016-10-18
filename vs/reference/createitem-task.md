@@ -1,7 +1,7 @@
 ---
 title: "CreateItem Task"
 ms.custom: na
-ms.date: "10/11/2016"
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -50,12 +50,12 @@ Populates item collections with the input items. This allows items to be copied 
 |Parameter|Description|  
 |---------------|-----------------|  
 |`AdditionalMetadata`|Optional `String` array parameter.<br /><br /> Specifies additional metadata to attach to the output items.  Specify the metadata name and value for the item with the following syntax:<br /><br /> *MetadataName* `=` *MetadataValue*<br /><br /> Multiple metadata name/value pairs should be separated with a semicolon. If either the name or the value contains a semicolon or any other special characters, they must be escaped. For more information, see [How to: Escape Special Characters in MSBuild](../reference/how-to--escape-special-characters-in-msbuild.md).|  
-|`Exclude`|Optional \<xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Specifies the items to exclude from the output item collection. This parameter can contain wildcard specifications. For more information, see [Items](../reference/msbuild-items.md) and [How to: Exclude Files from the Build](../reference/how-to--exclude-files-from-the-build.md).|  
-|`Include`|Required \<xref:Microsoft.Build.Framework.ITaskItem>`[]`parameter.<br /><br /> Specifies the items to include in the output item collection. This parameter can contain wildcard specifications.|  
+|`Exclude`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Specifies the items to exclude from the output item collection. This parameter can contain wildcard specifications. For more information, see [Items](../reference/msbuild-items.md) and [How to: Exclude Files from the Build](../reference/how-to--exclude-files-from-the-build.md).|  
+|`Include`|Required <xref:Microsoft.Build.Framework.ITaskItem>`[]`parameter.<br /><br /> Specifies the items to include in the output item collection. This parameter can contain wildcard specifications.|  
 |`PreserveExistingMetadata`|Optional `Boolean` parameter.<br /><br /> If `True`, only apply the additional metadata if they do not already exist.|  
   
 ## Remarks  
- In addition to the parameters listed above, this task inherits parameters from the \<xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the \<xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../reference/taskextension-base-class.md).  
+ In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../reference/taskextension-base-class.md).  
   
 ## Example  
  The following code example creates a new item collection named `MySourceItemsWithMetadata` from the item collection `MySourceItems`. The `CreateItem` task populates the new item collection with the items in the `MySourceItems` item. It then adds an additional metadata entry named `MyMetadata` with a value of `Hello` to each item in the new collection.  

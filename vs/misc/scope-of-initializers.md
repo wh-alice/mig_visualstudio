@@ -1,7 +1,7 @@
 ---
 title: "Scope of Initializers"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -35,4 +35,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Scope of Initializers
-This content has moved to  [(NOTINBUILD) Initializing Bases and Members](http://msdn.microsoft.com/2f71377e-2b6b-49da-9a26-18e9b40226a1)
+This content has moved to  [(NOTINBUILD) Initializing Bases and Members](http://msdn.microsoft.com/en-us/2f71377e-2b6b-49da-9a26-18e9b40226a1)

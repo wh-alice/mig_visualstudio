@@ -1,7 +1,7 @@
 ---
 title: "Argument not specified for parameter &#39;&lt;parametername&gt;&#39; of &#39;&lt;methodname&gt;&#39;"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -45,5 +45,5 @@ You have not supplied an argument for a required parameter.
   
 ## See Also  
  [Procedure Parameters and Arguments](../Topic/Procedure%20Parameters%20and%20Arguments%20\(Visual%20Basic\).md)   
- [NOT IN BUILD: Class Methods](http://msdn.microsoft.com/326214bb-6367-48e7-bb24-714844791400)   
+ [NOT IN BUILD: Class Methods](http://msdn.microsoft.com/en-us/326214bb-6367-48e7-bb24-714844791400)   
  [Troubleshooting Procedures](../Topic/Troubleshooting%20Procedures%20\(Visual%20Basic\).md)

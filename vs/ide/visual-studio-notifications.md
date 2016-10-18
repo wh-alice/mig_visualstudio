@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio Notifications"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,4 +44,4 @@ Visual Studio has a notification system which alerts you to various events:
  ![Visual Studio notification icon](../ide/media/vs2015_notificationicon.png "vs2015_NotificationIcon")  
   
 ## See Also  
- [Visual Studio IDE](../Topic/Visual%20Studio%20IDE.md)
+ [Visual Studio IDE](../ide/visual-studio-ide.md)

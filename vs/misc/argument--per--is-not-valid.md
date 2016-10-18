@@ -1,7 +1,7 @@
 ---
 title: "Argument &#39;Per&#39; is not valid"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,6 +39,6 @@ An argument supplied for `Per`, which must be a `Double` specifying payment peri
 -   Ensure that the argument falls within the valid range.  
   
 ## See Also  
- [NOT IN BUILD: IPmt Function](http://msdn.microsoft.com/c0cce8e3-c661-4ed5-be52-70fe6e0e1b28)   
- [NOT IN BUILD: PPmt Function](http://msdn.microsoft.com/9b20cd53-c9d6-4916-9e84-0eb84667a921)   
+ [NOT IN BUILD: IPmt Function](http://msdn.microsoft.com/en-us/c0cce8e3-c661-4ed5-be52-70fe6e0e1b28)   
+ [NOT IN BUILD: PPmt Function](http://msdn.microsoft.com/en-us/9b20cd53-c9d6-4916-9e84-0eb84667a921)   
  [Passing Arguments by Value and by Reference](../Topic/Passing%20Arguments%20by%20Value%20and%20by%20Reference%20\(Visual%20Basic\).md)

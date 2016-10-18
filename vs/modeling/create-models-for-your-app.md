@@ -1,7 +1,7 @@
 ---
 title: "Create models for your app"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -101,7 +101,7 @@ Modeling diagrams help you understand, clarify, and communicate ideas about your
 |[Model user requirements](../modeling/model-user-requirements.md)|Use models to clarify and communicate the users' needs.|  
 |[Model your app's architecture](../modeling/model-your-app-s-architecture.md)|Use models to describe the overall structure and behavior of your system and to make sure that it meets the users' needs.|  
 |[Validate your system during development](../modeling/validate-your-system-during-development.md)|Make sure that your software stays consistent with your users' needs and the overall architecture of your system.|  
-|[Use models in your development process](../modeling/use-models-in-your-development-process.md)<br /><br /> [Use models in Agile development](http://msdn.microsoft.com/592ac27c-3d3e-454a-9c38-b76658ed137f)|Use models to help you understand and change your system during its development.|  
+|[Use models in your development process](../modeling/use-models-in-your-development-process.md)<br /><br /> [Use models in Agile development](http://msdn.microsoft.com/en-us/592ac27c-3d3e-454a-9c38-b76658ed137f)|Use models to help you understand and change your system during its development.|  
 |[Structure your modeling solution](../modeling/structure-your-modeling-solution.md)|Organize models in a large or medium project.|  
   
 ## External Resources  

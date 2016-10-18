@@ -1,7 +1,7 @@
 ---
 title: "&#39;(&#39; unexpected"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -49,5 +49,5 @@ translation.priority.mt:
   
 ## See Also  
  [Generic Types in Visual Basic](../Topic/Generic%20Types%20in%20Visual%20Basic%20\(Visual%20Basic\).md)   
- [NIB Collections in Visual Basic](http://msdn.microsoft.com/8b2b7845-2251-4573-8dd3-c9f9c0a66a21)   
- [Managing Groups of Objects in Visual Basic](http://msdn.microsoft.com/50be4910-4732-4d5f-a18a-055a162e9037)
+ [NIB Collections in Visual Basic](http://msdn.microsoft.com/en-us/8b2b7845-2251-4573-8dd3-c9f9c0a66a21)   
+ [Managing Groups of Objects in Visual Basic](http://msdn.microsoft.com/en-us/50be4910-4732-4d5f-a18a-055a162e9037)

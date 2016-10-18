@@ -1,7 +1,7 @@
 ---
 title: "Create a Windows Forms user control that supports lookup data binding"
 ms.custom: na
-ms.date: "10/07/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,7 +37,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Create a Windows Forms user control that supports lookup data binding
-When displaying data on Windows Forms, you can choose existing controls from the **Toolbox**, or you can author custom controls if your application requires functionality not available in the standard controls. This walkthrough shows how to create a control that implements the \<xref:System.ComponentModel.LookupBindingPropertiesAttribute>. Controls that implement the \<xref:System.ComponentModel.LookupBindingPropertiesAttribute> can contain three properties that can be bound to data. Such controls are similar to a \<xref:System.Windows.Forms.ComboBox>.  
+When displaying data on Windows Forms, you can choose existing controls from the **Toolbox**, or you can author custom controls if your application requires functionality not available in the standard controls. This walkthrough shows how to create a control that implements the <xref:System.ComponentModel.LookupBindingPropertiesAttribute>. Controls that implement the <xref:System.ComponentModel.LookupBindingPropertiesAttribute> can contain three properties that can be bound to data. Such controls are similar to a <xref:System.Windows.Forms.ComboBox>.  
   
  For more information on control authoring, see [Developing Windows Forms Controls at Design Time](../Topic/Developing%20Windows%20Forms%20Controls%20at%20Design%20Time.md).  
   
@@ -45,9 +45,9 @@ When displaying data on Windows Forms, you can choose existing controls from the
   
 |Data-binding attribute usage|  
 |-----------------------------------|  
-|Implement the \<xref:System.ComponentModel.DefaultBindingPropertyAttribute> on simple controls, like a \<xref:System.Windows.Forms.TextBox>, that display a single column (or property) of data. For more information, see [Create a Windows Forms user control that supports simple data binding](../datatools/create-a-windows-forms-user-control-that-supports-simple-data-binding.md).|  
-|Implement the \<xref:System.ComponentModel.ComplexBindingPropertiesAttribute> on controls, like a \<xref:System.Windows.Forms.DataGridView>, that display lists (or tables) of data. For more information, see [Create a Windows Forms user control that supports complex data binding](../datatools/create-a-windows-forms-user-control-that-supports-complex-data-binding.md).|  
-|Implement the \<xref:System.ComponentModel.LookupBindingPropertiesAttribute> on controls, like a \<xref:System.Windows.Forms.ComboBox>, that display lists (or tables) of data, but also need to present a single column or property. (This process is described in this walkthrough page.)|  
+|Implement the <xref:System.ComponentModel.DefaultBindingPropertyAttribute> on simple controls, like a <xref:System.Windows.Forms.TextBox>, that display a single column (or property) of data. For more information, see [Create a Windows Forms user control that supports simple data binding](../datatools/create-a-windows-forms-user-control-that-supports-simple-data-binding.md).|  
+|Implement the <xref:System.ComponentModel.ComplexBindingPropertiesAttribute> on controls, like a <xref:System.Windows.Forms.DataGridView>, that display lists (or tables) of data. For more information, see [Create a Windows Forms user control that supports complex data binding](../datatools/create-a-windows-forms-user-control-that-supports-complex-data-binding.md).|  
+|Implement the <xref:System.ComponentModel.LookupBindingPropertiesAttribute> on controls, like a <xref:System.Windows.Forms.ComboBox>, that display lists (or tables) of data, but also need to present a single column or property. (This process is described in this walkthrough page.)|  
   
  This walkthrough creates a lookup control that binds to data from two tables. This example uses the `Customers` and `Orders` tables from the Northwind sample database. The lookup control will be bound to the `CustomerID` field from the `Orders` table. It will use this value to look up the `CompanyName` from the `Customers` table.  
   
@@ -100,10 +100,10 @@ When displaying data on Windows Forms, you can choose existing controls from the
   
 #### To design the LookupBox control  
   
--   Drag a \<xref:System.Windows.Forms.ComboBox> from the **Toolbox** onto the user control's design surface.  
+-   Drag a <xref:System.Windows.Forms.ComboBox> from the **Toolbox** onto the user control's design surface.  
   
 ## Add the required data-binding attribute  
- For lookup controls that support data binding, you can implement the \<xref:System.ComponentModel.LookupBindingPropertiesAttribute>.  
+ For lookup controls that support data binding, you can implement the <xref:System.ComponentModel.LookupBindingPropertiesAttribute>.  
   
 #### To implement the LookupBindingProperties attribute  
   

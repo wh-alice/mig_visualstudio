@@ -1,7 +1,7 @@
 ---
 title: "Environment Options Dialog Box"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -35,7 +35,7 @@ translation.priority.ht:
 You can use the pages in the **Environment** folder in the **Options** dialog box to set how certain elements of the integrated development environment (IDE) display and behave. You can access the Environment pages by, on the menu bar, choosing **Tools**, **Options**, and then selecting **Environment**.  
   
 > [!NOTE]
->  The dialog boxes and menu commands that appear on your computer might differ from those that are described in Help, depending on your active settings and the edition of Visual Studio that you are using. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The dialog boxes and menu commands that appear on your computer might differ from those that are described in Help, depending on your active settings and the edition of Visual Studio that you are using. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 |For information about how to|See|  
 |----------------------------------|---------|  

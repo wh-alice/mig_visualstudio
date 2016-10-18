@@ -1,7 +1,7 @@
 ---
 title: "Registering a Project Type"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -95,7 +95,7 @@ When you create a new project type, you must create registry entries that enable
 |Name|Type|Data|Description|  
 |----------|----------|----------|-----------------|  
 |`@` (Default)|REG_SZ|`FigPrj Project VSPackage`|Localizable name of this registered VSPackage (project type).|  
-|`InprocServer32`|REG_SZ|`%MODULE%`|Path of the project type DLL. The IDE loads this DLL and passes the VSPackage CLSID to `DllGetClassObject` to get \<xref:Microsoft.VisualStudio.OLE.Interop.IClassFactory> to construct the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage> object.|  
+|`InprocServer32`|REG_SZ|`%MODULE%`|Path of the project type DLL. The IDE loads this DLL and passes the VSPackage CLSID to `DllGetClassObject` to get <xref:Microsoft.VisualStudio.OLE.Interop.IClassFactory> to construct the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage> object.|  
 |`CompanyName`|REG_SZ|`Microsoft`|Name of the company that developed the project type.|  
 |`ProductName`|REG_SZ|`Figure Project Sample`|Name for the project type.|  
 |`ProductVersion`|REG_SZ|`9.0`|Version number of the project type release.|  

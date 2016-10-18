@@ -1,7 +1,7 @@
 ---
 title: "Method &#39;&lt;methodname&gt;&#39; does not have a signature compatible with delegate &lt;&#39;delegatename&#39;&gt;"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -76,4 +76,4 @@ End Sub
   
 ## See Also  
  [Relaxed Delegate Conversion](../Topic/Relaxed%20Delegate%20Conversion%20\(Visual%20Basic\).md)   
- [NOT IN BUILD: Delegates and the AddressOf Operator](http://msdn.microsoft.com/7b2ed932-8598-4355-b2f7-5cedb23ee86f)
+ [NOT IN BUILD: Delegates and the AddressOf Operator](http://msdn.microsoft.com/en-us/7b2ed932-8598-4355-b2f7-5cedb23ee86f)

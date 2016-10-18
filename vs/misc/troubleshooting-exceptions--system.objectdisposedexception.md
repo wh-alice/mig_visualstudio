@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.ObjectDisposedException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,12 +37,12 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.ObjectDisposedException
-An \<xref:System.ObjectDisposedException> exception is thrown when an operation is attempted on a disposed object, such as a closed stream or registry key.  
+An <xref:System.ObjectDisposedException> exception is thrown when an operation is attempted on a disposed object, such as a closed stream or registry key.  
   
 ## Associated Tips  
  **Make sure you have not released a resource before attempting to use it.**  
  For example, if attempting to manipulate a stream, make sure it has not been previously closed.  
   
 ## See Also  
- \<xref:System.ObjectDisposedException>   
+ <xref:System.ObjectDisposedException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

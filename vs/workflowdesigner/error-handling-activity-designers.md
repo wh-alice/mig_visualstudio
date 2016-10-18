@@ -31,13 +31,13 @@ The Error Handling activity designers are used to manage error handling in [!INC
   
 ## In This Section  
  [Rethrow](../workflowdesigner/rethrow-activity-designer.md)  
- Used to create and configure a \<xref:System.Activities.Statements.Rethrow> activity.  
+ Used to create and configure a <xref:System.Activities.Statements.Rethrow> activity.  
   
  [Throw](../workflowdesigner/throw-activity-designer.md)  
- Used to create and configure a \<xref:System.Activities.Statements.Throw> activity.  
+ Used to create and configure a <xref:System.Activities.Statements.Throw> activity.  
   
  [TryCatch](../workflowdesigner/trycatch-activity-designer.md)  
- Used to create and configure a \<xref:System.Activities.Statements.TryCatch> activity.  
+ Used to create and configure a <xref:System.Activities.Statements.TryCatch> activity.  
   
 ## Reference  
   

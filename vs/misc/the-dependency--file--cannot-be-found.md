@@ -1,7 +1,7 @@
 ---
 title: "The dependency &#39;file&#39; cannot be found"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -47,4 +47,4 @@ One of your project's references itself contains a reference (dependency) that c
  You can see your project's references in Solution Explorer, in the **References** node.  
   
 ## See Also  
- [NIB: Reference Paths Dialog Box (Visual Basic)](http://msdn.microsoft.com/8e549b39-7256-456a-8fd7-089b23facf9c)
+ [NIB: Reference Paths Dialog Box (Visual Basic)](http://msdn.microsoft.com/en-us/8e549b39-7256-456a-8fd7-089b23facf9c)

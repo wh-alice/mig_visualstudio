@@ -1,7 +1,7 @@
 ---
 title: "Navigate the UML model"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -34,7 +34,7 @@ This topic introduces the main types of the UML model.
 ## The Model Elements, Model, and Model Store  
  The types defined in the assembly **Microsoft.VisualStudio.Uml.Interfaces.dll** correspond to the types defined in the [UML Specification, version 2.1.2](http://www.omg.org/spec/UML/2.1.2/Superstructure/PDF/).  
   
- Types in the UML Specification are realized as interfaces in Visual Studio. The letter 'I' is prepended to the name of each type. For example: \<xref:Microsoft.VisualStudio.Uml.Classes.IElement>, \<xref:Microsoft.VisualStudio.Uml.Classes.IClass>, \<xref:Microsoft.VisualStudio.Uml.Interactions.IInteraction>, \<xref:Microsoft.VisualStudio.Uml.Classes.IOperation>.  
+ Types in the UML Specification are realized as interfaces in Visual Studio. The letter 'I' is prepended to the name of each type. For example: <xref:Microsoft.VisualStudio.Uml.Classes.IElement>, <xref:Microsoft.VisualStudio.Uml.Classes.IClass>, <xref:Microsoft.VisualStudio.Uml.Interactions.IInteraction>, <xref:Microsoft.VisualStudio.Uml.Classes.IOperation>.  
   
  All the types except IElement inherit properties from one or more supertypes.  
   
@@ -58,11 +58,11 @@ This topic introduces the main types of the UML model.
  For more information about traversing relationships, see [Navigate relationships with the UML API](../modeling/navigate-relationships-with-the-uml-api.md).  
   
 ### The Ownership Tree  
- A model contains a tree of \<xref:Microsoft.VisualStudio.Uml.Classes.IElement> objects. Every element has properties `OwnedElements` and `Owner`.  
+ A model contains a tree of <xref:Microsoft.VisualStudio.Uml.Classes.IElement> objects. Every element has properties `OwnedElements` and `Owner`.  
   
- In most cases, the targets of the `Owner` and `OwnedElements` properties are also referenced by other properties that have more specific names. For example, every UML operation is owned by a UML class. Therefore \<xref:Microsoft.VisualStudio.Uml.Classes.IOperation> has a property named \<xref:Microsoft.VisualStudio.Uml.Classes.IOperation.Class*>, and in every \<xref:Microsoft.VisualStudio.Uml.Classes.IOperation> object, `Class == Owner`.  
+ In most cases, the targets of the `Owner` and `OwnedElements` properties are also referenced by other properties that have more specific names. For example, every UML operation is owned by a UML class. Therefore <xref:Microsoft.VisualStudio.Uml.Classes.IOperation> has a property named <xref:Microsoft.VisualStudio.Uml.Classes.IOperation.Class*>, and in every <xref:Microsoft.VisualStudio.Uml.Classes.IOperation> object, `Class == Owner`.  
   
- The topmost element of the tree, which has no Owner, is a \<xref:Microsoft.VisualStudio.Uml.AuxiliaryConstructs.IModel>. The IModel is contained within a \<xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Uml.IModelStore>, in which it is the \<xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Uml.IModelStore.Root*>.  
+ The topmost element of the tree, which has no Owner, is a <xref:Microsoft.VisualStudio.Uml.AuxiliaryConstructs.IModel>. The IModel is contained within a <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Uml.IModelStore>, in which it is the <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Uml.IModelStore.Root*>.  
   
  Every model element is created with an Owner. For more information, see [Create elements and relationships in UML models](../modeling/create-elements-and-relationships-in-uml-models.md).  
   

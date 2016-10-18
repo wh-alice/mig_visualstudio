@@ -42,19 +42,19 @@ translation.priority.ht:
 You can use the `TableAdapter.Update` method to update (edit) records in a database. The `TableAdapter.Update` method provides several overloads that perform different operations depending on the parameters passed in. It is important to understand the results of calling these different method signatures.  
   
 > [!NOTE]
->  If your application does not use TableAdapters, then you can use command objects to update records in your database (for example, \<xref:System.Data.SqlClient.SqlCommand.ExecuteNonQuery*>). For more information on updating data with command objects, see "Update Records using Command Objects" below.  
+>  If your application does not use TableAdapters, then you can use command objects to update records in your database (for example, <xref:System.Data.SqlClient.SqlCommand.ExecuteNonQuery*>). For more information on updating data with command objects, see "Update Records using Command Objects" below.  
   
  The following table describes the behavior of the various `TableAdapter.Update` methods:  
   
 |Method|Description|  
 |------------|-----------------|  
-|`TableAdapter.Update(DataTable)`|Attempts to save all changes in the \<xref:System.Data.DataTable> to the database. (This includes removing any rows deleted from the table, adding rows inserted to the table, and updating any rows in the table that have changed.)|  
-|`TableAdapter.Update(DataSet)`|Although the parameter takes a dataset, the TableAdapter attempts to save all changes in the TableAdapter's associated \<xref:System.Data.DataTable> to the database. (This includes removing any rows deleted from the table, adding rows inserted in the table, and updating any rows in the table that have changed.) **Note:**  A TableAdapter's associated \<xref:System.Data.DataTable> is the \<xref:System.Data.DataTable> created when the TableAdapter was originally configured.|  
-|`TableAdapter.Update(DataRow)`|Attempts to save changes in the indicated \<xref:System.Data.DataRow> to the database.|  
-|`TableAdapter.Update(DataRows())`|Attempts to save changes in any row in the array of \<xref:System.Data.DataRow>s to the database.|  
+|`TableAdapter.Update(DataTable)`|Attempts to save all changes in the <xref:System.Data.DataTable> to the database. (This includes removing any rows deleted from the table, adding rows inserted to the table, and updating any rows in the table that have changed.)|  
+|`TableAdapter.Update(DataSet)`|Although the parameter takes a dataset, the TableAdapter attempts to save all changes in the TableAdapter's associated <xref:System.Data.DataTable> to the database. (This includes removing any rows deleted from the table, adding rows inserted in the table, and updating any rows in the table that have changed.) **Note:**  A TableAdapter's associated <xref:System.Data.DataTable> is the <xref:System.Data.DataTable> created when the TableAdapter was originally configured.|  
+|`TableAdapter.Update(DataRow)`|Attempts to save changes in the indicated <xref:System.Data.DataRow> to the database.|  
+|`TableAdapter.Update(DataRows())`|Attempts to save changes in any row in the array of <xref:System.Data.DataRow>s to the database.|  
 |`TableAdapter.Update("new column values", "original column values")`|Attempts to save changes in a single row that is identified by the original column values.|  
   
- You typically use the `TableAdapter.Update` method that takes a \<xref:System.Data.DataSet>, \<xref:System.Data.DataTable>, or \<xref:System.Data.DataRow>(s) when your application uses datasets exclusively to store data.  
+ You typically use the `TableAdapter.Update` method that takes a <xref:System.Data.DataSet>, <xref:System.Data.DataTable>, or <xref:System.Data.DataRow>(s) when your application uses datasets exclusively to store data.  
   
  You typically use the `TableAdapter.Update` method that takes column values when your application uses objects to store data.  
   
@@ -63,15 +63,15 @@ You can use the `TableAdapter.Update` method to update (edit) records in a datab
 ## Update Existing Records Using TableAdapters  
  TableAdapters provide different ways to update records in a database depending on the requirements of your application.  
   
- If your application uses datasets to store data, then you can simply update the records in the desired \<xref:System.Data.DataTable> and then call the `TableAdapter.Update` method and pass in either the \<xref:System.Data.DataSet>, \<xref:System.Data.DataTable>, \<xref:System.Data.DataRow>, or array of \<xref:System.Data.DataRow>s. The table above describes the different `Update` methods.  
+ If your application uses datasets to store data, then you can simply update the records in the desired <xref:System.Data.DataTable> and then call the `TableAdapter.Update` method and pass in either the <xref:System.Data.DataSet>, <xref:System.Data.DataTable>, <xref:System.Data.DataRow>, or array of <xref:System.Data.DataRow>s. The table above describes the different `Update` methods.  
   
 #### To update records in a database with the TableAdapter.Update method that takes DataSet, DataTable, DataRow, or DataRows()  
   
-1.  Edit records in the desired \<xref:System.Data.DataTable> by directly editing the \<xref:System.Data.DataRow> in the \<xref:System.Data.DataTable>. For more information, see [How to: Edit Rows in a DataTable](../Topic/How%20to:%20Edit%20Rows%20in%20a%20DataTable.md).  
+1.  Edit records in the desired <xref:System.Data.DataTable> by directly editing the <xref:System.Data.DataRow> in the <xref:System.Data.DataTable>. For more information, see [How to: Edit Rows in a DataTable](../Topic/How%20to:%20Edit%20Rows%20in%20a%20DataTable.md).  
   
-2.  After the rows are edited in the \<xref:System.Data.DataTable>, call the `TableAdapter.Update` method. You can control the amount of data to update by passing in either an entire \<xref:System.Data.DataSet>, a \<xref:System.Data.DataTable>, an array of \<xref:System.Data.DataRow>s, or a single \<xref:System.Data.DataRow>.  
+2.  After the rows are edited in the <xref:System.Data.DataTable>, call the `TableAdapter.Update` method. You can control the amount of data to update by passing in either an entire <xref:System.Data.DataSet>, a <xref:System.Data.DataTable>, an array of <xref:System.Data.DataRow>s, or a single <xref:System.Data.DataRow>.  
   
-     The following code shows how to edit a record in a \<xref:System.Data.DataTable> and then call the `TableAdapter.Update` method to save the changes to the database. (This example uses the Northwind database Region table.)  
+     The following code shows how to edit a record in a <xref:System.Data.DataTable> and then call the `TableAdapter.Update` method to save the changes to the database. (This example uses the Northwind database Region table.)  
   
      [!code[VbRaddataSaving#17](../datatools/codesnippet/VisualBasic/how-to--update-records-in-a-database_1.vb)]
 [!code[VbRaddataSaving#17](../datatools/codesnippet/CSharp/how-to--update-records-in-a-database_1.cs)]  

@@ -1,7 +1,7 @@
 ---
 title: "An invalid cookie was passed to UnregisterExtenderProvider()."
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,5 +39,5 @@ You have specified a cookie that is no longer valid.
 1.  Return the same cookie value that you got back from calling RegisterExtenderProvider().  
   
 ## See Also  
- \<xref:EnvDTE.ObjectExtenders.RegisterExtenderProvider*>   
- \<xref:EnvDTE.ObjectExtenders>
+ <xref:EnvDTE.ObjectExtenders.RegisterExtenderProvider*>   
+ <xref:EnvDTE.ObjectExtenders>

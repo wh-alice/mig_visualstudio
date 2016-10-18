@@ -1,7 +1,7 @@
 ---
 title: "How to: Use Transactions to Update the Model"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -15,7 +15,7 @@ manager: "kamrani"
 # How to: Use Transactions to Update the Model
 Transactions make sure that changes that were made to the store are treated as a group. Changes that are grouped can be committed or rolled back as a single unit.  
   
- Whenever your program code modifies, adds, or deletes any element in the Store in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Visualization and Modeling SDK, it must do so inside a transaction. There must be an active instance of \<xref:Microsoft.VisualStudio.Modeling.Transaction> associated with the Store when the change happens. This applies to all model elements, relationships, shapes, diagrams, and their properties.  
+ Whenever your program code modifies, adds, or deletes any element in the Store in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Visualization and Modeling SDK, it must do so inside a transaction. There must be an active instance of <xref:Microsoft.VisualStudio.Modeling.Transaction> associated with the Store when the change happens. This applies to all model elements, relationships, shapes, diagrams, and their properties.  
   
  The transaction mechanism helps you avoid inconsistent states. If an error occurs during a transaction, all the changes are rolled back. If the user performs an Undo command, each recent transaction is treated as a single step. The user cannot undo parts of a recent change, unless you explicitly put them in separate transactions.  
   
@@ -48,7 +48,7 @@ catch (Exception ex)
   
  If an exception that prevents the final `Commit()` occurs during the changes, the Store will be reset to its previous state. This helps you make sure that errors do not leave the model in an inconsistent state.  
   
- You can make any number of changes inside one transaction. You can open new transactions inside an active transaction. The nested transactions must commit or roll back before the containing transaction ends. For more information, see the example for the \<xref:Microsoft.VisualStudio.Modeling.Transaction.TransactionDepth*> property.  
+ You can make any number of changes inside one transaction. You can open new transactions inside an active transaction. The nested transactions must commit or roll back before the containing transaction ends. For more information, see the example for the <xref:Microsoft.VisualStudio.Modeling.Transaction.TransactionDepth*> property.  
   
  To make your changes permanent, you should `Commit` the transaction before it is disposed. If an exception occurs that is not caught inside the transaction, the Store will be reset to its state before the changes.  
   

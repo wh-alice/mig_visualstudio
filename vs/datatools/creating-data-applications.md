@@ -1,7 +1,7 @@
 ---
 title: "Creating Data Applications"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -60,7 +60,7 @@ The Data Cycle
 ## Connecting to Data  
  To bring data into your application (and send changes back to the data source), some kind of two-way communication needs to be established. This two-way communication is typically handled by objects in your data model.  
   
- For example, a `TableAdapter` connects applications that use datasets to a database, and \<xref:System.Data.Objects.ObjectContext> connects entities in the Entity Framework to a database. [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] provides several tools to assist in creating connections that can be used by your application. For more information on connecting your application to data, see [Connecting to Data in Visual Studio](../datatools/connecting-to-data-in-visual-studio.md).  
+ For example, a `TableAdapter` connects applications that use datasets to a database, and <xref:System.Data.Objects.ObjectContext> connects entities in the Entity Framework to a database. [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] provides several tools to assist in creating connections that can be used by your application. For more information on connecting your application to data, see [Connecting to Data in Visual Studio](../datatools/connecting-to-data-in-visual-studio.md).  
   
  To learn how to use datasets to connect your application to data in a database, see [Walkthrough: Connecting to Data in a Database (Windows Forms)](../Topic/Walkthrough:%20Connecting%20to%20Data%20in%20a%20Database%20\(Windows%20Forms\).md).  
   
@@ -113,7 +113,7 @@ The Data Cycle
  To learn how to add validation to a dataset that is separated into an n-tier application, see [Add validation to an n-tier dataset](../datatools/add-validation-to-an-n-tier-dataset.md).  
   
 ## Saving Data  
- After making changes in your application (and validating those changes), you typically want to send the changes back to the database. Applications that store data in datasets typically use a TableAdapterManager to save data. For more information, see [TableAdapterManager Overview](../Topic/TableAdapterManager%20Overview.md). Entity Framework applications use the \<xref:System.Data.Objects.ObjectContext.SaveChanges*> method to save data.  
+ After making changes in your application (and validating those changes), you typically want to send the changes back to the database. Applications that store data in datasets typically use a TableAdapterManager to save data. For more information, see [TableAdapterManager Overview](../Topic/TableAdapterManager%20Overview.md). Entity Framework applications use the <xref:System.Data.Objects.ObjectContext.SaveChanges*> method to save data.  
   
  For more information on sending updated data back to a database, see [Saving Data](../datatools/saving-data.md).  
   

@@ -1,7 +1,7 @@
 ---
 title: "Publishing ClickOnce Applications"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -108,8 +108,8 @@ When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
 |[Walkthrough: Downloading Satellite Assemblies on Demand with the ClickOnce Deployment API](../deployment/walkthrough--downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api.md)|Describes how to mark your satellite assemblies as optional, and download only the assembly a client machine needs for its current culture settings.|  
 |[Walkthrough: Manually Deploying a ClickOnce Application](../deployment/walkthrough--manually-deploying-a-clickonce-application.md)|Explains how to use .NET Framework utilities to deploy your ClickOnce application.|  
 |[Walkthrough: Manually Deploying a ClickOnce Application that Does Not Require Re-Signing and that Preserves Branding Information](../deployment/c21822fb-d4ee-42e4-b72d-41ee9786efe5.md)|Explains how to use .NET Framework utilities to deploy your ClickOnce application without re-signing the manifests.|  
-|[NIB: How to: Optimize an Application for a Specific CPU Type](http://msdn.microsoft.com/294a75d2-4279-4b72-8298-2bea05be907a)|Explains how to publish for a 64-bit processor by changing the **Target CPU** or **Platform target** property in your project.|  
-|[Walkthrough: Enabling a ClickOnce Application to Run on Multiple .NET Framework Versions](http://msdn.microsoft.com/7f4383af-ed87-4853-b4d4-02a3967a5fd9)|Explains how to enable a ClickOnce application to install and run on multiple versions of the NET Framework.|  
+|[NIB: How to: Optimize an Application for a Specific CPU Type](http://msdn.microsoft.com/en-us/294a75d2-4279-4b72-8298-2bea05be907a)|Explains how to publish for a 64-bit processor by changing the **Target CPU** or **Platform target** property in your project.|  
+|[Walkthrough: Enabling a ClickOnce Application to Run on Multiple .NET Framework Versions](http://msdn.microsoft.com/en-us/7f4383af-ed87-4853-b4d4-02a3967a5fd9)|Explains how to enable a ClickOnce application to install and run on multiple versions of the NET Framework.|  
 |[Walkthrough: Creating a Custom Installer for a ClickOnce Application](../deployment/walkthrough--creating-a-custom-installer-for-a-clickonce-application.md)|Explains how to create a custom installer to install a ClickOnce application.|  
 |[How to: Publish a WPF Application with Visual Styles Enabled](../deployment/how-to--publish-a-wpf-application-with-visual-styles-enabled.md)|Provides step-by-step instructions to resolve an error that appears when you attempt to publish a WPF application that has visual styles enabled.|  
   

@@ -1,7 +1,7 @@
 ---
 title: "File I-O with type &#39;&lt;typename&gt;&#39; is not valid"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -40,4 +40,4 @@ You are attempting to write an unsupported type to a file.
   
 ## See Also  
  [My.Computer.FileSystem Object](../Topic/My.Computer.FileSystem%20Object.md)   
- [My.Computer.FileSystem.WriteAllBytes Method](http://msdn.microsoft.com/b1a24dc1-eac8-4e22-8ffa-cc3bacbaf826)
+ [My.Computer.FileSystem.WriteAllBytes Method](http://msdn.microsoft.com/en-us/b1a24dc1-eac8-4e22-8ffa-cc3bacbaf826)

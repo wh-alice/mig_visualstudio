@@ -1,7 +1,7 @@
 ---
 title: "Document Data and Document View in Custom Editors"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -36,18 +36,18 @@ A custom editor consists of two parts: a document data object and a document vie
 ## Document Data Object  
  A document data object is a data representation of text in the text buffer. It is a COM object that stores document text and other information, handles document persistence, and enables multiple views of its data. For more information, see  
   
- \<xref:EnvDTE80.Window2.DocumentData*> and [Document Windows](../extensibility/document-windows.md).  
+ <xref:EnvDTE80.Window2.DocumentData*> and [Document Windows](../extensibility/document-windows.md).  
   
- Custom editors and designers can opt to use the \<xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer> object or their own custom buffer. \<xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer> follows the simplified embedding model for a standard editor, supports multiple views, and provides event interfaces that are used to manage multiple views.  
+ Custom editors and designers can opt to use the <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer> object or their own custom buffer. <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer> follows the simplified embedding model for a standard editor, supports multiple views, and provides event interfaces that are used to manage multiple views.  
   
 ## Document View Object  
- A window that displays code and other text is known as a document view or view. When you create an editor, you can choose either a single view, in which text is displayed in a single window, or a multiple view, in which text is displayed in more than one window. Your choice depends on your application. For example, if you need side-by-side editing, you would choose multiple view. Each view is associated with an entry in the integrated development environment's (IDE) running document table (RDT). View windows belong to a project or an \<xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> object.  
+ A window that displays code and other text is known as a document view or view. When you create an editor, you can choose either a single view, in which text is displayed in a single window, or a multiple view, in which text is displayed in more than one window. Your choice depends on your application. For example, if you need side-by-side editing, you would choose multiple view. Each view is associated with an entry in the integrated development environment's (IDE) running document table (RDT). View windows belong to a project or an <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> object.  
   
  If your editor supports multiple views of a document data object, then your document data and document view objects must be separate. Otherwise, they can be grouped together. For more information, see [Supporting Multiple Document Views](../extensibility/supporting-multiple-document-views.md).  
   
  The IDE notifies views about events (for example, when a solution containing a document is closed) by matching an item identifier (ItemID) for each entry in the running document table. For more information on this, see [Running Document Table](../extensibility/running-document-table.md).  
   
- There are two options for creating a view for a custom editor. One is the in-place activation model, where the view is hosted in a window using either an ActiveX control or a document data object. The second is the simplified embedding model, where the view is hosted by [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and \<xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowPane> is implemented to handle window commands. For information about the in-place activation model, see [In-Place Activation](../misc/in-place-activation.md). For information about the simplified embedding model, see [Simplified Embedding](../extensibility/simplified-embedding.md).  
+ There are two options for creating a view for a custom editor. One is the in-place activation model, where the view is hosted in a window using either an ActiveX control or a document data object. The second is the simplified embedding model, where the view is hosted by [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowPane> is implemented to handle window commands. For information about the in-place activation model, see [In-Place Activation](../misc/in-place-activation.md). For information about the simplified embedding model, see [Simplified Embedding](../extensibility/simplified-embedding.md).  
   
 ## See Also  
  [Supporting Multiple Document Views](../extensibility/supporting-multiple-document-views.md)   

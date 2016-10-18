@@ -1,7 +1,7 @@
 ---
 title: "What&#39;s New in Source Control"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -45,7 +45,7 @@ In [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] you can provide 
   
 1.  Create a VSPackage that proffers a private source control service.  
   
-2.  Implement the interfaces in the source control-related services that are proffered by [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] (for example, the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2> and the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsSccProvider> interface).  
+2.  Implement the interfaces in the source control-related services that are proffered by [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] (for example, the <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2> and the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccProvider> interface).  
   
 3.  Register your source control VSPackage.  
   
@@ -53,12 +53,12 @@ In [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] you can provide 
   
 5.  All source control-related events are passed to your source control VSackage when it is active and must be handled by your VSPackage.  
   
-6.  Your source control VSPackage must listen to events such as those implementing the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEvents3> interface as well as Track Project Document (TPD) events (as implemented by the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocuments2> interface) and take necessary action.  
+6.  Your source control VSPackage must listen to events such as those implementing the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEvents3> interface as well as Track Project Document (TPD) events (as implemented by the <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocuments2> interface) and take necessary action.  
   
 ## See Also  
- \<xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2>   
- \<xref:Microsoft.VisualStudio.Shell.Interop.IVsSccProvider>   
- \<xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEvents3>   
- \<xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocuments2>   
+ <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2>   
+ <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccProvider>   
+ <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEvents3>   
+ <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackProjectDocuments2>   
  [Overview](../extensibility/source-control-integration-overview.md)   
  [Creating a Source Control VSPackage](../extensibility/creating-a-source-control-vspackage.md)

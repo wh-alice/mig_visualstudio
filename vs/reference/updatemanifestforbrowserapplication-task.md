@@ -1,7 +1,7 @@
 ---
 title: "UpdateManifestForBrowserApplication Task"
 ms.custom: na
-ms.date: "10/07/2016"
+ms.date: "10/17/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,7 +39,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # UpdateManifestForBrowserApplication Task
-The \<xref:Microsoft.Build.Tasks.Windows.UpdateManifestForBrowserApplication> task is run to add the **\<hostInBrowser />** element to the application manifest (*projectname*.exe.manifest) when a [!INCLUDE[TLA#tla_xbap](../reference/includes/tlasharptla_xbap_md.md)] project is built.  
+The <xref:Microsoft.Build.Tasks.Windows.UpdateManifestForBrowserApplication> task is run to add the **\<hostInBrowser />** element to the application manifest (*projectname*.exe.manifest) when a [!INCLUDE[TLA#tla_xbap](../reference/includes/tlasharptla_xbap_md.md)] project is built.  
   
 ## Task Parameters  
   
@@ -67,7 +67,7 @@ The \<xref:Microsoft.Build.Tasks.Windows.UpdateManifestForBrowserApplication> ta
 />  
 ```  
   
- The \<xref:Microsoft.Build.Tasks.Windows.UpdateManifestForBrowserApplication> task is run when an [!INCLUDE[TLA2#tla_xbap](../Token/TLA2%23tla_xbap_md.md)] project is built in order to add the `<hostInBrowser />` element.  
+ The <xref:Microsoft.Build.Tasks.Windows.UpdateManifestForBrowserApplication> task is run when an [!INCLUDE[TLA2#tla_xbap](../Token/TLA2%23tla_xbap_md.md)] project is built in order to add the `<hostInBrowser />` element.  
   
 ## Example  
  The following example shows how to ensure that the `<hostInBrowser />` element is included in an application manifest file.  

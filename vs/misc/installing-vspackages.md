@@ -1,7 +1,7 @@
 ---
 title: "Installing VSPackages"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -42,10 +42,10 @@ This section discusses how to build and install VSPackages and how to support us
  Describes how to release your VSPackages as an installable product.  
   
 ## Related Sections  
- [Customizing for Testing By Using the Visual Studio SDK](http://msdn.microsoft.com/9cf7a840-dd66-4b00-90f7-e00e40370a69)  
+ [Customizing for Testing By Using the Visual Studio SDK](http://msdn.microsoft.com/en-us/9cf7a840-dd66-4b00-90f7-e00e40370a69)  
  Describes how you can extend [!INCLUDE[vsprvstte](../Token/vsprvstte_md.md)] to support new types of tests.  
   
- [Visual Studio Integration Tests](http://msdn.microsoft.com/8d741735-7d93-46c2-ab93-01da7a0e016d)  
+ [Visual Studio Integration Tests](http://msdn.microsoft.com/en-us/8d741735-7d93-46c2-ab93-01da7a0e016d)  
  Provides a set of tests to help make sure that VSPackages correctly integrate into [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
   
  [Releasing a Product](../misc/releasing-a-visual-studio-integration-product.md)  

@@ -1,7 +1,7 @@
 ---
 title: "Internal error (Visual Basic)"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -40,4 +40,4 @@ An internal malfunction has occurred in [!INCLUDE[vbprvb](../codequality/include
   
 ## See Also  
  [On Error Statement](../Topic/On%20Error%20Statement%20\(Visual%20Basic\).md)   
- [Raise Method (Err Object)](http://msdn.microsoft.com/80ffe307-57f1-4ef5-92d7-8ae7b6ec3f42)
+ [Raise Method (Err Object)](http://msdn.microsoft.com/en-us/80ffe307-57f1-4ef5-92d7-8ae7b6ec3f42)

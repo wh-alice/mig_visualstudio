@@ -29,18 +29,18 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Initialize Correlation Dialog Box
-The **Initialize Correlation** dialog box is used in [!INCLUDE[wfd1](../workflowdesigner/includes/wfd1_md.md)] to edit the \<xref:System.ServiceModel.Activities.InitializeCorrelation.CorrelationData*> property of an \<xref:System.ServiceModel.Activities.InitializeCorrelation> activity. [!INCLUDE[crdefault](../codequality/includes/crdefault_md.md)] the [InitializeCorrelation](../workflowdesigner/initializecorrelation-activity-designer.md) topic.  
+The **Initialize Correlation** dialog box is used in [!INCLUDE[wfd1](../workflowdesigner/includes/wfd1_md.md)] to edit the <xref:System.ServiceModel.Activities.InitializeCorrelation.CorrelationData*> property of an <xref:System.ServiceModel.Activities.InitializeCorrelation> activity. [!INCLUDE[crdefault](../codequality/includes/crdefault_md.md)] the [InitializeCorrelation](../workflowdesigner/initializecorrelation-activity-designer.md) topic.  
   
  The following table describes the user interface (UI) elements of the **Initialize Correlation** dialog box.  
   
 |UI Element|Description|  
 |----------------|-----------------|  
-|**Correlation**|The \<xref:System.ServiceModel.Activities.CorrelationHandle> of the correlation to initialize.|  
-|**Initialize On**|A key/value pair that contains the data to initialize. This corresponds to the \<xref:System.ServiceModel.Activities.InitializeCorrelation.CorrelationData*> property. An example of a valid key/value pair would be a key named “OrderID” paired with a variable named OrderID.|  
+|**Correlation**|The <xref:System.ServiceModel.Activities.CorrelationHandle> of the correlation to initialize.|  
+|**Initialize On**|A key/value pair that contains the data to initialize. This corresponds to the <xref:System.ServiceModel.Activities.InitializeCorrelation.CorrelationData*> property. An example of a valid key/value pair would be a key named “OrderID” paired with a variable named OrderID.|  
   
 ## To launch the Initialize Correlation dialog box  
   
--   Click **View** on the **InitializeCorrelation** activity designer or select an \<xref:System.ServiceModel.Activities.InitializeCorrelation> activity in [!INCLUDE[wfd2](../workflowdesigner/includes/wfd2_md.md)] and then click the ellipsis button next to the \<xref:System.ServiceModel.Activities.InitializeCorrelation.CorrelationData*> property in the property grid.  
+-   Click **View** on the **InitializeCorrelation** activity designer or select an <xref:System.ServiceModel.Activities.InitializeCorrelation> activity in [!INCLUDE[wfd2](../workflowdesigner/includes/wfd2_md.md)] and then click the ellipsis button next to the <xref:System.ServiceModel.Activities.InitializeCorrelation.CorrelationData*> property in the property grid.  
   
 ## See Also  
  [InitializeCorrelation](../workflowdesigner/initializecorrelation-activity-designer.md)

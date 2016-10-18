@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.Drawing.Printing.InvalidPrinterException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,16 +37,16 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.Drawing.Printing.InvalidPrinterException
-An \<xref:System.Drawing.Printing.InvalidPrinterException> exception is thrown when an attempt is made to access a printer using invalid printer settings.  
+An <xref:System.Drawing.Printing.InvalidPrinterException> exception is thrown when an attempt is made to access a printer using invalid printer settings.  
   
 ## Associated Tips  
  **Make sure that the printer exists.**  
- The most common cause of invalid printer settings is referencing a nonexistent printer. For more information, see \<xref:System.Drawing.Printing>.  
+ The most common cause of invalid printer settings is referencing a nonexistent printer. For more information, see <xref:System.Drawing.Printing>.  
   
  **Make sure a default printer has been installed.**  
- If no printer has been specified, make sure a default printer has been installed. For more information, see \<xref:System.Drawing.Printing.PrintDocument.PrinterSettings*>  
+ If no printer has been specified, make sure a default printer has been installed. For more information, see <xref:System.Drawing.Printing.PrintDocument.PrinterSettings*>  
   
 ## See Also  
- \<xref:System.Drawing.Printing.InvalidPrinterException>   
- \<xref:System.Drawing.Printing.PrinterSettings>   
+ <xref:System.Drawing.Printing.InvalidPrinterException>   
+ <xref:System.Drawing.Printing.PrinterSettings>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

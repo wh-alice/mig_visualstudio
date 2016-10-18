@@ -1,7 +1,7 @@
 ---
 title: "Extending JavaScript IntelliSense"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -129,7 +129,7 @@ intellisense.addEventListener('statementcompletion', function (event) {
   
 -   `kind`. Read/write when used in the `items` collection; otherwise, read-only. Returns a string that represents the type of completion item. The possible values are method, field, property, parameter, variable, and reserved.  
   
--   `glyph`. Read/write when used in the `items` collection; otherwise, read-only. Returns a string that represents an icon that's displayed in the completion list. The possible values for `glyph` use the following format: vs:*glyphType*, where *glyphType* corresponds to the language-independent members in the \<xref:Microsoft.VisualStudio.Language.Intellisense.StandardGlyphGroup> enumeration. For example, `vs:GlyphGroupMethod` is one possible value for `glyph`. When `glyph` is not set, the `kind` property determines the default icon.  
+-   `glyph`. Read/write when used in the `items` collection; otherwise, read-only. Returns a string that represents an icon that's displayed in the completion list. The possible values for `glyph` use the following format: vs:*glyphType*, where *glyphType* corresponds to the language-independent members in the <xref:Microsoft.VisualStudio.Language.Intellisense.StandardGlyphGroup> enumeration. For example, `vs:GlyphGroupMethod` is one possible value for `glyph`. When `glyph` is not set, the `kind` property determines the default icon.  
   
 -   `parentObject`. Read-only. Returns the parent object.  
   
@@ -415,7 +415,7 @@ intellisense.addEventListener('statementcompletion', function (event) {
 ###  <a name="Icons"></a> Changing the IntelliSense icons  
  The following procedure shows how to change the icons displayed by IntelliSense by default. This might be useful when you provide IntelliSense information about library-specific concepts such as namespaces, classes, interfaces, and enumerations.  
   
- For available icon values, see \<xref:Microsoft.VisualStudio.Language.Intellisense.StandardGlyphGroup>.  
+ For available icon values, see <xref:Microsoft.VisualStudio.Language.Intellisense.StandardGlyphGroup>.  
   
  For this example to work, you need the following JavaScript files in your project:  
   

@@ -1,7 +1,7 @@
 ---
 title: "How to: Start Debugging XSLT"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -47,14 +47,14 @@ The XSLT debugger can be used to debug an XSLT style sheet or an XSLT applicatio
 2.  Select **Debug XSL** from the **XML** menu.  
   
 ## XSLT from Other Languages  
- You can also step into XSLT while debugging an application. When you press F11 on an \<xref:System.Xml.Xsl.XslCompiledTransform.Transform*?displayProperty=fullName> call, the debugger can step into the XSLT code.  
+ You can also step into XSLT while debugging an application. When you press F11 on an <xref:System.Xml.Xsl.XslCompiledTransform.Transform*?displayProperty=fullName> call, the debugger can step into the XSLT code.  
   
 > [!NOTE]
->  Stepping into XSLT from the \<xref:System.Xml.Xsl.XslTransform> class is not supported. The \<xref:System.Xml.Xsl.XslCompiledTransform> class is the only XSLT processor that supports stepping into XSLT while debugging.  
+>  Stepping into XSLT from the <xref:System.Xml.Xsl.XslTransform> class is not supported. The <xref:System.Xml.Xsl.XslCompiledTransform> class is the only XSLT processor that supports stepping into XSLT while debugging.  
   
 #### To start debugging an XSLT application  
   
-1.  When instantiating the \<xref:System.Xml.Xsl.XslCompiledTransform> object, set the `enableDebug` parameter to `true` in your code.  
+1.  When instantiating the <xref:System.Xml.Xsl.XslCompiledTransform> object, set the `enableDebug` parameter to `true` in your code.  
   
      This tells the XSLT processor to create debug information when the code is compiled.  
   
@@ -99,4 +99,4 @@ namespace ConsoleApplication
   
 ## See Also  
  [Walkthrough: Debug an XSLT Style Sheet](../reference/walkthrough--debug-an-xslt-style-sheet.md)   
- [Code Stepping Overview](http://msdn.microsoft.com/8791dac9-64d1-4bb9-b59e-8d59af1833f9)
+ [Code Stepping Overview](http://msdn.microsoft.com/en-us/8791dac9-64d1-4bb9-b59e-8d59af1833f9)

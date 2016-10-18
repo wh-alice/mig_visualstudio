@@ -1,7 +1,7 @@
 ---
 title: "State Persistence and the Visual Studio IDE"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -40,7 +40,7 @@ The **Import/Export Settings** command on the **Tools** menu of the integrated d
  A GUID uniquely identifies each settings category and is defined in its own registry entry, referred to as a *Custom Settings Point*.  
   
 > [!NOTE]
->  The standard implementations of the **ToolsOptions** pages, the **Toolbox**, and the `Microsoft.VisualStudio.Shell.DialogPage` automatically provide support for persistence. The settings API can override the default mechanism. For more information, see [Extending the Toolbox](../misc/extending-the-toolbox.md), [Options Pages](../misc/options-pages.md), and \<xref:Microsoft.VisualStudio.Shell.DialogPage>.  
+>  The standard implementations of the **ToolsOptions** pages, the **Toolbox**, and the `Microsoft.VisualStudio.Shell.DialogPage` automatically provide support for persistence. The settings API can override the default mechanism. For more information, see [Extending the Toolbox](../misc/extending-the-toolbox.md), [Options Pages](../misc/options-pages.md), and <xref:Microsoft.VisualStudio.Shell.DialogPage>.  
   
 ## In This Section  
  [Support for User Settings](../extensibility/support-for-user-settings.md)  
@@ -59,7 +59,7 @@ The **Import/Export Settings** command on the **Tools** menu of the integrated d
  Provides a detailed description of how to implement support for retrieving configuration data by using the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] settings mechanism for Managed Package Framework based VSPackages.  
   
 ## Related Sections  
- [Working with Settings](http://msdn.microsoft.com/4c0a56ab-6091-4ebc-9dc7-52c40846bacb)  
+ [Working with Settings](http://msdn.microsoft.com/en-us/4c0a56ab-6091-4ebc-9dc7-52c40846bacb)  
  Describes how to manage the export/import sections of the IDE.  
   
  [Options Pages](../misc/options-pages.md)  

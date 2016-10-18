@@ -1,7 +1,7 @@
 ---
 title: "MSBuild Task Reference"
 ms.custom: na
-ms.date: "10/12/2016"
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -47,13 +47,13 @@ Tasks provide the code that runs during the build process. The tasks in the foll
   
 ## In This Section  
  [Task Base Class](../reference/task-base-class.md)  
- Adds several parameters to the tasks that derive from the \<xref:Microsoft.Build.Utilities.Task> class.  
+ Adds several parameters to the tasks that derive from the <xref:Microsoft.Build.Utilities.Task> class.  
   
  [TaskExtension Base Class](../reference/taskextension-base-class.md)  
- Adds several parameters to the tasks that derive from the \<xref:Microsoft.Build.Tasks.TaskExtension> class.  
+ Adds several parameters to the tasks that derive from the <xref:Microsoft.Build.Tasks.TaskExtension> class.  
   
  [ToolTaskExtension Base Class](../reference/tooltaskextension-base-class.md)  
- Adds several parameters to the tasks that derive from the \<xref:Microsoft.Build.Tasks.ToolTaskExtension> class.  
+ Adds several parameters to the tasks that derive from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class.  
   
  [AL (Assembly Linker) Task](../reference/al--assembly-linker--task.md)  
  Creates an assembly with a manifest from one or more files that are either modules or resource files.  

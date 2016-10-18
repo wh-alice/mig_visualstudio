@@ -1,7 +1,7 @@
 ---
 title: "Constant expression is required"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -47,4 +47,4 @@ A `Const` statement does not properly initialize a constant, or an array declara
   
 ## See Also  
  [Const Statement](../Topic/Const%20Statement%20\(Visual%20Basic\).md)   
- [NOTINBUILD  an Array Variable](http://msdn.microsoft.com/c2da78bd-6928-46ba-805f-44f819dfaf93)
+ [NOTINBUILD  an Array Variable](http://msdn.microsoft.com/en-us/c2da78bd-6928-46ba-805f-44f819dfaf93)

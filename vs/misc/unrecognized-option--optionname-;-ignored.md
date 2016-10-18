@@ -1,7 +1,7 @@
 ---
 title: "Unrecognized option &lt;optionname&gt;; ignored"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,4 +44,4 @@ An option has been specified that is not valid from the command line.
 -   Check specified options to find the one that is not valid.  
   
 ## See Also  
- [NOT IN BUILD: Switch Function](http://msdn.microsoft.com/8320196c-ad40-49d5-a9b8-d1af5dab652f)
+ [NOT IN BUILD: Switch Function](http://msdn.microsoft.com/en-us/8320196c-ad40-49d5-a9b8-d1af5dab652f)

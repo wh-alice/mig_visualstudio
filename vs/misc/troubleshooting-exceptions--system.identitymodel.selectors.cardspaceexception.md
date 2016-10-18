@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.IdentityModel.Selectors.CardSpaceException"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -33,11 +33,11 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.IdentityModel.Selectors.CardSpaceException
-A \<xref:System.IdentityModel.Selectors.CardSpaceException> exception is thrown when one or more exceptions have occurred at the CardSpace service level. The cause of the error is in the event log.  
+A <xref:System.IdentityModel.Selectors.CardSpaceException> exception is thrown when one or more exceptions have occurred at the CardSpace service level. The cause of the error is in the event log.  
   
 ## Remarks  
  Conditions that cause this exception include the occurrence of an error while a store or ledger is loading.  
   
 ## See Also  
- \<xref:System.IdentityModel.Selectors.CardSpaceException>   
+ <xref:System.IdentityModel.Selectors.CardSpaceException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

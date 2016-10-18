@@ -1,7 +1,7 @@
 ---
 title: "Constant cannot be the target of an assignment"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -45,4 +45,4 @@ A constant occurs in a context that assigns a value to it. Only writable variabl
   
 ## See Also  
  [Constants and Enumerations](../Topic/Constants%20and%20Enumerations%20in%20Visual%20Basic.md)   
- [NotInBuild:Assignment Statements](http://msdn.microsoft.com/eb4f91e9-fbbf-45ca-b21d-e8ae069de4f9)
+ [NotInBuild:Assignment Statements](http://msdn.microsoft.com/en-us/eb4f91e9-fbbf-45ca-b21d-e8ae069de4f9)

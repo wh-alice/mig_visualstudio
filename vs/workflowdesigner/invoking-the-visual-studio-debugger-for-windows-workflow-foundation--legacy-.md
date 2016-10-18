@@ -1,7 +1,7 @@
 ---
 title: "Invoking the Visual Studio Debugger for Windows Workflow Foundation (Legacy)"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: ".net-framework-4.6"
 ms.reviewer: na
 ms.suite: na
@@ -63,7 +63,7 @@ This topic describes how use the [!INCLUDE[vsprvs](../codequality/includes/vsprv
   
  To set a startup project in Solution Explorer, right-click the project name and select **Set as StartUp Project**. To set the path to the host in the **Start external program** property, double-click the workflow project’s **Properties** node in Solution Explorer and select the **Debug** tab. Under **Start Action**, select **Start external program** and enter the path to the .exe file that is hosting the workflow you want to debug.  
   
- If the host application is set as the startup project, only the Visual Studio debugger is invoked for debugging; the [!INCLUDE[vs_current_long](../misc/includes/vs_current_long_md.md)] Debugger for Windows Workflow Foundation is not invoked. If the Visual Studio debugger is used, only C# or Visual Basic code breakpoints are hit; breakpoints set in the workflow designer are not hit. For example, a breakpoint that you set on a \<xref:System.Workflow.Activities.ParallelActivity> activity in the designer is hit if the [!INCLUDE[vs_current_long](../misc/includes/vs_current_long_md.md)] Debugger for Windows Workflow Foundation is used, but not when you use the Visual Studio debugger.  
+ If the host application is set as the startup project, only the Visual Studio debugger is invoked for debugging; the [!INCLUDE[vs_current_long](../misc/includes/vs_current_long_md.md)] Debugger for Windows Workflow Foundation is not invoked. If the Visual Studio debugger is used, only C# or Visual Basic code breakpoints are hit; breakpoints set in the workflow designer are not hit. For example, a breakpoint that you set on a <xref:System.Workflow.Activities.ParallelActivity> activity in the designer is hit if the [!INCLUDE[vs_current_long](../misc/includes/vs_current_long_md.md)] Debugger for Windows Workflow Foundation is used, but not when you use the Visual Studio debugger.  
   
 ## See Also  
  [How to: Set Breakpoints in Workflows (Legacy)](../workflowdesigner/how-to--set-breakpoints-in-workflows--legacy-.md)   

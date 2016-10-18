@@ -1,7 +1,7 @@
 ---
 title: "&#39;Resume&#39; statements are not valid in the Immediate window"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,5 +44,5 @@ Resume statements can only be used in source code.
 -   Remove `Resume` statements from the debugging code.  
   
 ## See Also  
- [Resume - delete](http://msdn.microsoft.com/fc82a786-a342-49d0-82a3-63f33e28f00f)   
+ [Resume - delete](http://msdn.microsoft.com/en-us/fc82a786-a342-49d0-82a3-63f33e28f00f)   
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)

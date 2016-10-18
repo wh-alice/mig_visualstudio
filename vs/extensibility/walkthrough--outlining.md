@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Outlining"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -47,7 +47,7 @@ You can implement language-based features such as outlining by defining the kind
 3.  Delete the existing class files.  
   
 ## Implementing an Outlining Tagger  
- Outlining regions are marked by a kind of tag (\<xref:Microsoft.VisualStudio.Text.Tagging.OutliningRegionTag>). This tag provides the standard outlining behavior. The outlined region can be expanded or collapsed. The outlined region is marked by a PLUS SIGN if it is collapsed or a MINUS SIGN if it is expanded, and the expanded region is demarcated by a vertical line.  
+ Outlining regions are marked by a kind of tag (<xref:Microsoft.VisualStudio.Text.Tagging.OutliningRegionTag>). This tag provides the standard outlining behavior. The outlined region can be expanded or collapsed. The outlined region is marked by a PLUS SIGN if it is collapsed or a MINUS SIGN if it is expanded, and the expanded region is demarcated by a vertical line.  
   
  The following steps show how to define a tagger that creates outlining regions for all the regions that are delimited by "[" and "]".  
   
@@ -75,7 +75,7 @@ You can implement language-based features such as outlining by defining the kind
      [!code[VSSDKOutlineRegionTest#4](../extensibility/codesnippet/CSharp/walkthrough--outlining_4.cs)]
 [!code[VSSDKOutlineRegionTest#4](../extensibility/codesnippet/VisualBasic/walkthrough--outlining_4.vb)]  
   
-6.  Implement the <xref:Microsoft.VisualStudio.Text.Tagging.ITagger`1.GetTags*> method, which instantiates the tag spans. This example assumes that the spans in the \<xref:Microsoft.VisualStudio.Text.NormalizedSpanCollection> passed in to the method are contiguous, although this may not always be the case. This method instantiates a new tag span for each of the outlining regions.  
+6.  Implement the <xref:Microsoft.VisualStudio.Text.Tagging.ITagger`1.GetTags*> method, which instantiates the tag spans. This example assumes that the spans in the <xref:Microsoft.VisualStudio.Text.NormalizedSpanCollection> passed in to the method are contiguous, although this may not always be the case. This method instantiates a new tag span for each of the outlining regions.  
   
      [!code[VSSDKOutlineRegionTest#5](../extensibility/codesnippet/CSharp/walkthrough--outlining_5.cs)]
 [!code[VSSDKOutlineRegionTest#5](../extensibility/codesnippet/VisualBasic/walkthrough--outlining_5.vb)]  
@@ -85,7 +85,7 @@ You can implement language-based features such as outlining by defining the kind
      [!code[VSSDKOutlineRegionTest#6](../extensibility/codesnippet/CSharp/walkthrough--outlining_6.cs)]
 [!code[VSSDKOutlineRegionTest#6](../extensibility/codesnippet/VisualBasic/walkthrough--outlining_6.vb)]  
   
-8.  Add a `BufferChanged` event handler that responds to \<xref:Microsoft.VisualStudio.Text.ITextBuffer.Changed> events by parsing the text buffer.  
+8.  Add a `BufferChanged` event handler that responds to <xref:Microsoft.VisualStudio.Text.ITextBuffer.Changed> events by parsing the text buffer.  
   
      [!code[VSSDKOutlineRegionTest#7](../extensibility/codesnippet/CSharp/walkthrough--outlining_7.cs)]
 [!code[VSSDKOutlineRegionTest#7](../extensibility/codesnippet/VisualBasic/walkthrough--outlining_7.vb)]  
@@ -115,12 +115,12 @@ You can implement language-based features such as outlining by defining the kind
   
 #### To implement a tagger provider  
   
-1.  Create a class named `OutliningTaggerProvider` that implements \<xref:Microsoft.VisualStudio.Text.Tagging.ITaggerProvider>, and export it with the ContentType and TagType attributes.  
+1.  Create a class named `OutliningTaggerProvider` that implements <xref:Microsoft.VisualStudio.Text.Tagging.ITaggerProvider>, and export it with the ContentType and TagType attributes.  
   
      [!code[VSSDKOutlineRegionTest#12](../extensibility/codesnippet/CSharp/walkthrough--outlining_12.cs)]
 [!code[VSSDKOutlineRegionTest#12](../extensibility/codesnippet/VisualBasic/walkthrough--outlining_12.vb)]  
   
-2.  Implement the \<xref:Microsoft.VisualStudio.Text.Tagging.ITaggerProvider.CreateTagger*> method by adding an `OutliningTagger` to the properties of the buffer.  
+2.  Implement the <xref:Microsoft.VisualStudio.Text.Tagging.ITaggerProvider.CreateTagger*> method by adding an `OutliningTagger` to the properties of the buffer.  
   
      [!code[VSSDKOutlineRegionTest#13](../extensibility/codesnippet/CSharp/walkthrough--outlining_13.cs)]
 [!code[VSSDKOutlineRegionTest#13](../extensibility/codesnippet/VisualBasic/walkthrough--outlining_13.vb)]  

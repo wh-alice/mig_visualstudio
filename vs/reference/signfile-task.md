@@ -1,7 +1,7 @@
 ---
 title: "SignFile Task"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -52,12 +52,12 @@ Signs the specified file using the specified certificate.
 |Parameter|Description|  
 |---------------|-----------------|  
 |`CertificateThumbprint`|Required `String` parameter.<br /><br /> Specifies the certificate to use for signing. This certificate must be in the current user's personal store.|  
-|`SigningTarget`|Required \<xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br /> Specifies the files to sign with the certificate.|  
+|`SigningTarget`|Required <xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br /> Specifies the files to sign with the certificate.|  
 |`TimestampUrl`|Optional `String` parameter.<br /><br /> Specifies the URL of a time stamping server.|  
 |`TargetFrameworkVersion`|The version of the .NET Framework that is used for the target.|  
   
 ## Remarks  
- In addition to the parameters listed above, this task inherits parameters from the \<xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [Task Base Class](../reference/task-base-class.md).  
+ In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [Task Base Class](../reference/task-base-class.md).  
   
 ## Example  
  The following example uses the `SignFile` task to sign the files specified in the `FilesToSign` item collection with the certificate specified by the `Certificate` property.  
@@ -80,7 +80,7 @@ Signs the specified file using the specified certificate.
 ```  
   
 > [!NOTE]
->  The certificate thumbprint is the SHA-1 hash of the certificate. For more information, see [Obtain the SHA-1 Hash of a Trusted Root CA Certificate](http://msdn.microsoft.com/dd641990-9a88-4228-a245-017797131a87).  
+>  The certificate thumbprint is the SHA-1 hash of the certificate. For more information, see [Obtain the SHA-1 Hash of a Trusted Root CA Certificate](http://msdn.microsoft.com/en-us/dd641990-9a88-4228-a245-017797131a87).  
   
 ## Example  
  The following example uses the `Exec` task to sign the files specified in the `FilesToSign` item collection with the certificate specified by the `Certificate` property. You can use this to sign Windows Installer files during the build process.  

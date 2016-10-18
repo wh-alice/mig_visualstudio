@@ -1,7 +1,7 @@
 ---
 title: "&#39;System.Void&#39; can only be used in a GetType expression"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -35,20 +35,20 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # &#39;System.Void&#39; can only be used in a GetType expression
-An expression in an assignment statement or a declaration uses \<xref:System.Void> as the type of a variable, procedure parameter, function return, or type argument.  
+An expression in an assignment statement or a declaration uses <xref:System.Void> as the type of a variable, procedure parameter, function return, or type argument.  
   
- The \<xref:System.Void> structure is a specialized type used internally by the .NET Framework and particularly by Visual C# and Visual C++. It represents a return value type for a method that does not return a value. Visual Basic uses a `Sub` procedure when a value is not returned and a `Function` procedure when a value is returned.  
+ The <xref:System.Void> structure is a specialized type used internally by the .NET Framework and particularly by Visual C# and Visual C++. It represents a return value type for a method that does not return a value. Visual Basic uses a `Sub` procedure when a value is not returned and a `Function` procedure when a value is returned.  
   
- You can test a reference variable with the [GetType Operator](../Topic/GetType%20Operator%20\(Visual%20Basic\).md) operator to see if its run-time type is \<xref:System.Void>, but you cannot use \<xref:System.Void> in any other context.  
+ You can test a reference variable with the [GetType Operator](../Topic/GetType%20Operator%20\(Visual%20Basic\).md) operator to see if its run-time type is <xref:System.Void>, but you cannot use <xref:System.Void> in any other context.  
   
  **Error ID:** BC31422  
   
 ### To correct this error  
   
-1.  If you want to compare the run-time type of a variable to \<xref:System.Void>, use the `GetType` operator.  
+1.  If you want to compare the run-time type of a variable to <xref:System.Void>, use the `GetType` operator.  
   
-2.  Unless you have a particular reason to compare a run-time type to \<xref:System.Void>, remove the reference to it altogether.  
+2.  Unless you have a particular reason to compare a run-time type to <xref:System.Void>, remove the reference to it altogether.  
   
 ## See Also  
- \<xref:System.Void>   
+ <xref:System.Void>   
  [GetType Operator](../Topic/GetType%20Operator%20\(Visual%20Basic\).md)

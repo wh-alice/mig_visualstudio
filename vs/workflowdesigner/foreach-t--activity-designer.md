@@ -1,7 +1,7 @@
 ---
 title: "ForEach&lt;T&gt; Activity Designer"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/13/2016"
 ms.prod: ".net-framework-4.6"
 ms.reviewer: na
 ms.suite: na
@@ -36,7 +36,7 @@ The <xref:System.Activities.Statements.ForEach`1> activity executes the activity
   
 |Property Name|Required|Usage|  
 |-------------------|--------------|-----------|  
-|\<xref:System.Activities.Activity.DisplayName*>|False|The friendly name of the <xref:System.Activities.Statements.ForEach`1> activity. The default is ForEach<Int32\>. Although the <xref:System.Activities.Activity.DisplayName*> value is not strictly required, it is a best practice to use one.|  
+|<xref:System.Activities.Activity.DisplayName*>|False|The friendly name of the <xref:System.Activities.Statements.ForEach`1> activity. The default is ForEach<Int32\>. Although the <xref:System.Activities.Activity.DisplayName*> value is not strictly required, it is a best practice to use one.|  
 |<xref:System.Activities.Statements.ForEach`1.Values*>|True|The collection of items to iterate over. To set the <xref:System.Activities.Statements.ForEach`1.Values*>, type a [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] expression in the **Values** box on the **ForEach<T\>** activity designer or in the property grid.|  
 |*TypeArgument*|True|The type of the items in the <xref:System.Activities.Statements.ForEach`1.Values*> collection specified by the generic parameter *T*. By default, *TypeArgument* is set to **Int32**. To change the type, change the value of the *TypeArgument* combo box in the property grid.|  
   

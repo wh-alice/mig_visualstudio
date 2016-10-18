@@ -1,7 +1,7 @@
 ---
 title: "How to: Manage Updates for a ClickOnce Application"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,7 +44,7 @@ translation.priority.ht:
   
  You can configure the application to check for updates automatically before the application starts, or at set intervals after the application starts. In addition you can specify a minimum required version; that is, an update is installed if the user's version is lower than the required version.  
   
- You can configure the application to check for updates programmatically based on an event such as a user request. The procedure "To check for updates programmatically" in this topic shows how you would write code that uses the \<xref:System.Deployment.Application.ApplicationDeployment> class to check for updates based on an event.  
+ You can configure the application to check for updates programmatically based on an event such as a user request. The procedure "To check for updates programmatically" in this topic shows how you would write code that uses the <xref:System.Deployment.Application.ApplicationDeployment> class to check for updates based on an event.  
   
  You can also deploy your application from one location and update it from another. See the procedure "To specify a different update location."  
   
@@ -119,8 +119,8 @@ translation.priority.ht:
 7.  Build your application.  
   
 ## See Also  
- \<xref:System.Deployment.Application.ApplicationDeployment>   
- [Application Updates Dialog Box](http://msdn.microsoft.com/8eca8743-8e68-4d04-bfd5-4dc0a9b2934f)   
+ <xref:System.Deployment.Application.ApplicationDeployment>   
+ [Application Updates Dialog Box](http://msdn.microsoft.com/en-us/8eca8743-8e68-4d04-bfd5-4dc0a9b2934f)   
  [Choosing a ClickOnce Update Strategy](../deployment/choosing-a-clickonce-update-strategy.md)   
  [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)   
  [How to: Publish a ClickOnce Application using the Publish Wizard](../deployment/how-to--publish-a-clickonce-application-using-the-publish-wizard.md)   

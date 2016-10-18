@@ -1,7 +1,7 @@
 ---
 title: "Non-CLS-compliant &#39;MustOverride&#39; member is not allowed in a CLS-compliant &lt;classname&gt;"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,9 +39,9 @@ A class is marked as `<CLSCompliant(True)>`, but it contains a `MustOverride` pr
   
  When a class is compliant with the [Language Independence and Language-Independent Components](../Topic/Language%20Independence%20and%20Language-Independent%20Components.md) (CLS), an application that uses that class accesses only the members that are also marked as `<CLSCompliant(True)>` and ignores the members that are not. However, the application cannot ignore a `MustOverride` property or procedure, because it must access that property or procedure to override it.  
   
- When you apply the \<xref:System.CLSCompliantAttribute> to a programming element, you set the attribute's `isCompliant` parameter to either `True` or `False` to indicate compliance or noncompliance. There is no default for this parameter, and you must supply a value.  
+ When you apply the <xref:System.CLSCompliantAttribute> to a programming element, you set the attribute's `isCompliant` parameter to either `True` or `False` to indicate compliance or noncompliance. There is no default for this parameter, and you must supply a value.  
   
- If you do not apply the \<xref:System.CLSCompliantAttribute> to an element, it is considered to be noncompliant.  
+ If you do not apply the <xref:System.CLSCompliantAttribute> to an element, it is considered to be noncompliant.  
   
  By default, this message is a warning. For information on hiding warnings or treating warnings as errors, see [Configuring Warnings in Visual Basic](../ide/configuring-warnings-in-visual-basic.md).  
   
@@ -53,8 +53,8 @@ A class is marked as `<CLSCompliant(True)>`, but it contains a `MustOverride` pr
   
 -   If you require CLS compliance and do not have control over the class source code, or if it does not qualify to be compliant, define this member within a different class.  
   
--   If you require that this member remain noncompliant, remove the `MustOverride` keyword from its definition, remove the \<xref:System.CLSCompliantAttribute> from the class definition, or mark the class as `<CLSCompliant(False)>`.  
+-   If you require that this member remain noncompliant, remove the `MustOverride` keyword from its definition, remove the <xref:System.CLSCompliantAttribute> from the class definition, or mark the class as `<CLSCompliant(False)>`.  
   
 ## See Also  
  [MustOverride](../Topic/MustOverride%20\(Visual%20Basic\).md)   
- [\<PAVE OVER> Writing CLS-Compliant Code](http://msdn.microsoft.com/4c705105-69a2-4e5e-b24e-0633bc32c7f3)
+ [\<PAVE OVER> Writing CLS-Compliant Code](http://msdn.microsoft.com/en-us/4c705105-69a2-4e5e-b24e-0633bc32c7f3)

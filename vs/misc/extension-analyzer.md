@@ -1,7 +1,7 @@
 ---
 title: "Extension Analyzer"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -57,7 +57,7 @@ The **Extension Analyzer** captures and logs most common extension load failures
   
 -   Dependency issues. An extension may have been deployed in such a way that dependent assemblies cannot be found.  
   
--   Exceptions. When a VSPackage is loaded, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] calls its \<xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.SetSite*> method. If this method throws an exception, then the VSPackage load fails. The best way to isolate this issue is to step through the SetSite code.  
+-   Exceptions. When a VSPackage is loaded, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] calls its <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.SetSite*> method. If this method throws an exception, then the VSPackage load fails. The best way to isolate this issue is to step through the SetSite code.  
   
 -   Improper registration. Verify that the extension is signed appropriately and that the VSPackage is registered by using the correct public key.  
   

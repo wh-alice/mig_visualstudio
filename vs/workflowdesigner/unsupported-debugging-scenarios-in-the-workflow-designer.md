@@ -39,7 +39,7 @@ The Workflow Designer in [!INCLUDE[netfx40_short](../workflowdesigner/includes/n
   
 -   Workflows created in earlier versions of [!INCLUDE[wf](../workflowdesigner/includes/wf_md.md)] cannot be debugged in the [!INCLUDE[netfx40_short](../workflowdesigner/includes/netfx40_short_md.md)] designer.  
   
--   Breakpoints cannot be defined on links between activities or \<xref:System.Activities.Statements.Flowchart> nodes.  
+-   Breakpoints cannot be defined on links between activities or <xref:System.Activities.Statements.Flowchart> nodes.  
   
 -   The clipboard is not available during debugging.  
   

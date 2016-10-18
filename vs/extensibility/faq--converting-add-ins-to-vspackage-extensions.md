@@ -1,7 +1,7 @@
 ---
 title: "FAQ: Converting Add-ins to VSPackage Extensions"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -35,7 +35,7 @@ Add-ins are now deprecated. To make a new Visual Studio extension, you need to c
 >  Starting in Visual Studio 2015, for C# and Visual Basic projects, you can use the VSIX project and add item templates for menu commands, tool windows, and VSPackages. For more information, see [What's New in the Visual Studio 2015 SDK](../extensibility/what-s-new-in-the-visual-studio-2015-sdk.md).  
   
 > [!IMPORTANT]
->  In many cases you can simply transfer your add-in code to a VSIX project with a VSPackage project item. You can get the DTE automation object by calling \<xref:Microsoft.VisualStudio.Shell.Package.GetService*> in the \<xref:Microsoft.VisualStudio.Shell.Package.Initialize*> method.  
+>  In many cases you can simply transfer your add-in code to a VSIX project with a VSPackage project item. You can get the DTE automation object by calling <xref:Microsoft.VisualStudio.Shell.Package.GetService*> in the <xref:Microsoft.VisualStudio.Shell.Package.Initialize*> method.  
 >   
 >  `DTE2 dte = (DTE2)GetService(typeof(DTE));`  
 >   
@@ -87,7 +87,7 @@ Add-ins are now deprecated. To make a new Visual Studio extension, you need to c
     using EnvDTE80;  
     ```  
   
-4.  Find the `MenuItemCallback` method. Add a call to \<xref:Microsoft.VisualStudio.Shell.Package.GetService*> to get the \<xref:EnvDTE80.DTE2> object:  
+4.  Find the `MenuItemCallback` method. Add a call to <xref:Microsoft.VisualStudio.Shell.Package.GetService*> to get the <xref:EnvDTE80.DTE2> object:  
   
     ```c#  
     DTE2 dte = (DTE2)GetService(typeof(DTE));  
@@ -133,14 +133,14 @@ Add-ins are now deprecated. To make a new Visual Studio extension, you need to c
   
 5.  In the experimental instance, open a project. The VSPackage should load, and your breakpoint should be hit.  
   
- You can specify other contexts in which to load your VSPackage by using the fields of \<xref:Microsoft.VisualStudio.Shell.Interop.UIContextGuids80>. For more information, see [Loading VSPackages](../extensibility/loading-vspackages.md).  
+ You can specify other contexts in which to load your VSPackage by using the fields of <xref:Microsoft.VisualStudio.Shell.Interop.UIContextGuids80>. For more information, see [Loading VSPackages](../extensibility/loading-vspackages.md).  
   
 ## How can I get the DTE object?  
  If your add-in doesn't display UI—for example, menu commands, toolbar buttons, or tool windows—you may be able to use your code as-is as long as you get the DTE automation object from the VSPackage. Here's how:  
   
 #### To get the DTE object from a VSPackage  
   
-1.  In a VSIX project with a Visual Studio Package item template, look for the *\<project name>*Package.cs file. This is the class that derives from \<xref:Microsoft.VisualStudio.Shell.Package>; it can help you interact with Visual Studio. In this case, you use its \<xref:Microsoft.VisualStudio.Shell.Package.GetService*> to get the \<xref:EnvDTE80.DTE2> object.  
+1.  In a VSIX project with a Visual Studio Package item template, look for the *\<project name>*Package.cs file. This is the class that derives from <xref:Microsoft.VisualStudio.Shell.Package>; it can help you interact with Visual Studio. In this case, you use its <xref:Microsoft.VisualStudio.Shell.Package.GetService*> to get the <xref:EnvDTE80.DTE2> object.  
   
 2.  Add these `using` statements:  
   
@@ -149,13 +149,13 @@ Add-ins are now deprecated. To make a new Visual Studio extension, you need to c
     using EnvDTE80;  
     ```  
   
-3.  Find the `Initialize` method. This method handles the command you specified in the package wizard. Add a call to \<xref:Microsoft.VisualStudio.Shell.Package.GetService*> to get the DTE object:  
+3.  Find the `Initialize` method. This method handles the command you specified in the package wizard. Add a call to <xref:Microsoft.VisualStudio.Shell.Package.GetService*> to get the DTE object:  
   
     ```c#  
     DTE dte = (DTE)GetService(typeof(DTE));  
     ```  
   
- After you have the \<xref:EnvDTE.DTE> automation object, you can add the rest of your add-in code to the project. If you need the \<xref:EnvDTE80.DTE2> object, you can do the same thing.  
+ After you have the <xref:EnvDTE.DTE> automation object, you can add the rest of your add-in code to the project. If you need the <xref:EnvDTE80.DTE2> object, you can do the same thing.  
   
 ## How do I change menu commands and toolbar buttons in my add-in to the VSPackage style?  
  VSPackage extensions use the .vsct file to create most of the menu commands, toolbars, toolbar buttons, and other UI. The **Custom Command** project item template gives you the option to create a command on the **Tools** menu. For more information, see [Creating an Extension with a Menu Command](../extensibility/creating-an-extension-with-a-menu-command.md).  
@@ -181,7 +181,7 @@ Add-ins are now deprecated. To make a new Visual Studio extension, you need to c
     using EnvDTE80;  
     ```  
   
-4.  Find the `MenuItemCallback` method. Add a call to \<xref:Microsoft.VisualStudio.Shell.Package.GetService*> to get the \<xref:EnvDTE80.DTE2> object:  
+4.  Find the `MenuItemCallback` method. Add a call to <xref:Microsoft.VisualStudio.Shell.Package.GetService*> to get the <xref:EnvDTE80.DTE2> object:  
   
     ```c#  
     DTE2 dte = (DTE2)GetService(typeof(DTE));  
@@ -229,7 +229,7 @@ Add-ins are now deprecated. To make a new Visual Studio extension, you need to c
     using EnvDTE80;  
     ```  
   
-4.  Find the `MenuItemCallback` method. Add a call to \<xref:Microsoft.VisualStudio.Shell.Package.GetService*> to get the \<xref:EnvDTE80.DTE2> object:  
+4.  Find the `MenuItemCallback` method. Add a call to <xref:Microsoft.VisualStudio.Shell.Package.GetService*> to get the <xref:EnvDTE80.DTE2> object:  
   
     ```c#  
     DTE2 dte = (DTE2)GetService(typeof(DTE));  

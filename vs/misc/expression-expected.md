@@ -1,7 +1,7 @@
 ---
 title: "Expression expected"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -45,4 +45,4 @@ An operator such as `+` or `=` requires an expression for its right operand, but
   
 ## See Also  
  [Operators and Expressions](../Topic/Operators%20and%20Expressions%20in%20Visual%20Basic.md)   
- [NotInBuild:Assignment Statements](http://msdn.microsoft.com/eb4f91e9-fbbf-45ca-b21d-e8ae069de4f9)
+ [NotInBuild:Assignment Statements](http://msdn.microsoft.com/en-us/eb4f91e9-fbbf-45ca-b21d-e8ae069de4f9)

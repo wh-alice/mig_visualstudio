@@ -27,20 +27,20 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Primitives Activity Designers
-Primitives activity designers are used to create and configure various activities in the \<xref:System.Activities.Statement> namespace such as Assign and Delay. The topics contained in this section provide guidance on how to use the [!INCLUDE[wfd2](../workflowdesigner/includes/wfd2_md.md)] activity and template designers.  
+Primitives activity designers are used to create and configure various activities in the <xref:System.Activities.Statement> namespace such as Assign and Delay. The topics contained in this section provide guidance on how to use the [!INCLUDE[wfd2](../workflowdesigner/includes/wfd2_md.md)] activity and template designers.  
   
 ## In This Section  
  [Assign](../workflowdesigner/assign-activity-designer.md)  
- Used to create and configure an \<xref:System.Activities.Statements.Assign> activity.  
+ Used to create and configure an <xref:System.Activities.Statements.Assign> activity.  
   
  [Delay](../workflowdesigner/delay-activity-designer.md)  
- Used to create and configure a \<xref:System.Activities.Statements.Delay> activity.  
+ Used to create and configure a <xref:System.Activities.Statements.Delay> activity.  
   
  [InvokeMethod](../workflowdesigner/invokemethod-activity-designer.md)  
- Used to create and configure an \<xref:System.Activities.Statements.InvokeMethod> activity.  
+ Used to create and configure an <xref:System.Activities.Statements.InvokeMethod> activity.  
   
  [WriteLine](../workflowdesigner/writeline-activity-designer.md)  
- Used to create and configure a \<xref:System.Activities.Statements.WriteLine> activity.  
+ Used to create and configure a <xref:System.Activities.Statements.WriteLine> activity.  
   
 ## Reference  
   

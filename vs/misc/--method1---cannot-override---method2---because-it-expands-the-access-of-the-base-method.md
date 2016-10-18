@@ -1,7 +1,7 @@
 ---
 title: "&#39;&lt;method1&gt;&#39; cannot override &#39;&lt;method2&gt;&#39; because it expands the access of the base method"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,6 +44,6 @@ A procedure specifies `Overrides` but declares an accessibility less restrictive
 -   Remove the `Overrides` keyword, or change the accessibility to be at least as restrictive as that of the base class method.  
   
 ## See Also  
- [NOT IN BUILD: Overriding Properties and Methods](http://msdn.microsoft.com/2167e8f5-1225-4b13-9ebd-02591ba90213)   
+ [NOT IN BUILD: Overriding Properties and Methods](http://msdn.microsoft.com/en-us/2167e8f5-1225-4b13-9ebd-02591ba90213)   
  [Access Levels in Visual Basic](../Topic/Access%20Levels%20in%20Visual%20Basic.md)   
  [Shadowing in Visual Basic](../Topic/Shadowing%20in%20Visual%20Basic.md)

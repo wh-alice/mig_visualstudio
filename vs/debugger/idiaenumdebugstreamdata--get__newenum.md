@@ -1,7 +1,7 @@
 ---
 title: "IDiaEnumDebugStreamData::get__NewEnum"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -34,7 +34,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # IDiaEnumDebugStreamData::get__NewEnum
-Retrieves the \<xref:System.Runtime.InteropServices.ComTypes.IEnumVARIANT> version of this enumerator.  
+Retrieves the <xref:System.Runtime.InteropServices.ComTypes.IEnumVARIANT> version of this enumerator.  
   
 ## Syntax  
   
@@ -46,7 +46,7 @@ HRESULT get__NewEnum ( 
   
 #### Parameters  
  pRetVal  
- [out] Returns the `IUnknown` interface that represents the \<xref:System.Runtime.InteropServices.ComTypes.IEnumVARIANT> version of this enumerator.  
+ [out] Returns the `IUnknown` interface that represents the <xref:System.Runtime.InteropServices.ComTypes.IEnumVARIANT> version of this enumerator.  
   
 ## Return Value  
  If successful, returns `S_OK`; otherwise, returns an error code.  

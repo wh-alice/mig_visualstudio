@@ -1,7 +1,7 @@
 ---
 title: "Stop Debugging In Progress Dialog Box"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -52,4 +52,4 @@ This dialog box appears when the debugger is trying to stop a debugging session,
   
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   
- [Detaching Programs](http://msdn.microsoft.com/f2c756c2-8079-474b-94c2-01c19a141a01)
+ [Detaching Programs](http://msdn.microsoft.com/en-us/f2c756c2-8079-474b-94c2-01c19a141a01)

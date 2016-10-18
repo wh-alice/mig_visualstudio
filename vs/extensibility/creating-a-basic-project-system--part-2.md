@@ -1,7 +1,7 @@
 ---
 title: "Creating a Basic Project System, Part 2"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -53,7 +53,7 @@ The first walkthrough in this series, [Creating a Basic Project System, Part 1](
 >  The steps in this walkthrough are based on a C# project. However, except for specifics such as file name extensions and code, you can use the same steps for a Visual Basic project.  
   
 ## Creating a Visual Studio Template  
- [Creating a Basic Project System, Part 1](../extensibility/creating-a-basic-project-system--part-1.md) shows how to create a basic project template and add it to the project system. It also shows how to register this template with Visual Studio by using the \<xref:Microsoft.VisualStudio.Shell.ProvideProjectFactoryAttribute> attribute, which writes the full path of the \Templates\Projects\SimpleProject\ folder in the system registry.  
+ [Creating a Basic Project System, Part 1](../extensibility/creating-a-basic-project-system--part-1.md) shows how to create a basic project template and add it to the project system. It also shows how to register this template with Visual Studio by using the <xref:Microsoft.VisualStudio.Shell.ProvideProjectFactoryAttribute> attribute, which writes the full path of the \Templates\Projects\SimpleProject\ folder in the system registry.  
   
  By using a Visual Studio template (.vstemplate file) instead of a basic project template, you can control how the template appears in the **New Project** dialog box and how template parameters are substituted.  A .vstemplate file is an XML file that describes how source files are to be included when a project is created by using the project system template. The project system itself is built by collecting the .vstemplate file and the source files in a .zip file, and deployed by copying the .zip file to a location that is known to Visual Studio. This process is explained in more detail later in this walkthrough.  
   
@@ -292,7 +292,7 @@ ZipProjects:
   
 -   $safeprojectname$ is the name provided by a user in the **New Project** dialog box, modified to remove all unsafe characters and spaces.  
   
- For a complete list of template parameters, see [Template Parameters](../ide/template-parameters.md).  If you want to create your own custom template parameter, see [NIB: How to: Pass Custom Parameters to Templates](http://msdn.microsoft.com/5bc2ad11-84c7-4683-a276-e5e00d85d8fb).  
+ For a complete list of template parameters, see [Template Parameters](../ide/template-parameters.md).  If you want to create your own custom template parameter, see [NIB: How to: Pass Custom Parameters to Templates](http://msdn.microsoft.com/en-us/5bc2ad11-84c7-4683-a276-e5e00d85d8fb).  
   
 #### To substitute project template parameters  
   

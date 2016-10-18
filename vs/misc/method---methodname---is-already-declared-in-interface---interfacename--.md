@@ -1,7 +1,7 @@
 ---
 title: "Method &#39;&lt;methodname&gt;&#39; is already declared in interface &#39;&lt;interfacename&gt;&#39;"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,4 +44,4 @@ You have declared an interface method a second time, duplicating it.
 -   Remove the duplicated declaration.  
   
 ## See Also  
- [NOT IN BUILD: Interface Implementation Examples in Visual Basic](http://msdn.microsoft.com/50bf2a30-73b6-4126-a921-075fd6eec278)
+ [NOT IN BUILD: Interface Implementation Examples in Visual Basic](http://msdn.microsoft.com/en-us/50bf2a30-73b6-4126-a921-075fd6eec278)

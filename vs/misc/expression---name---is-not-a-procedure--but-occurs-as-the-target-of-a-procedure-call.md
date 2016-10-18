@@ -1,7 +1,7 @@
 ---
 title: "Expression &#39;&lt;name&gt;&#39; is not a procedure, but occurs as the target of a procedure call"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na

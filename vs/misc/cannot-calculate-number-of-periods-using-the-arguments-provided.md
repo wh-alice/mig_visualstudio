@@ -1,7 +1,7 @@
 ---
 title: "Cannot calculate number of periods using the arguments provided"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,4 +39,4 @@ A call to the `NPer`function does not contain all of the required arguments.
 -   Ensure that the `Rate`, `Prnt` and `PV` values are included in the function call.  
   
 ## See Also  
- [NOT IN BUILD: NPer Function](http://msdn.microsoft.com/56567d16-29f7-4928-b05f-b4cd56d4fd42)
+ [NOT IN BUILD: NPer Function](http://msdn.microsoft.com/en-us/56567d16-29f7-4928-b05f-b4cd56d4fd42)

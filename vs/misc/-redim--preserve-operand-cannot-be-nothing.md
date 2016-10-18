@@ -1,7 +1,7 @@
 ---
 title: "&#39;ReDim&#39; Preserve operand cannot be Nothing"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,8 +37,8 @@ A `ReDim` statement attempts to use the `Preserve` keyword to change a dimension
 -   Change the `Preserve` operand to a valid value.  
   
 ## See Also  
- [NOTINBUILD Overview of Arrays in Visual Basic](http://msdn.microsoft.com/ca50e2f2-b4d2-4c57-9169-9abbcc3392d8)   
- [NOTINBUILD Multidimensional Arrays in Visual Basic](http://msdn.microsoft.com/d92cad25-07e2-4d79-8ea4-ab269700f5de)   
+ [NOTINBUILD Overview of Arrays in Visual Basic](http://msdn.microsoft.com/en-us/ca50e2f2-b4d2-4c57-9169-9abbcc3392d8)   
+ [NOTINBUILD Multidimensional Arrays in Visual Basic](http://msdn.microsoft.com/en-us/d92cad25-07e2-4d79-8ea4-ab269700f5de)   
  [ReDim Statement](../Topic/ReDim%20Statement%20\(Visual%20Basic\).md)   
  [Dim Statement](../Topic/Dim%20Statement%20\(Visual%20Basic\).md)   
- [Preserve - delete](http://msdn.microsoft.com/91badeab-b4e0-48b6-92c9-9f0c8f995d81)
+ [Preserve - delete](http://msdn.microsoft.com/en-us/91badeab-b4e0-48b6-92c9-9f0c8f995d81)

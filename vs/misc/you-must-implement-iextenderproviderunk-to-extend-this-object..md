@@ -1,7 +1,7 @@
 ---
 title: "You must implement IExtenderProviderUnk to extend this object."
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,6 +39,6 @@ The Extendee Object is based on IUnknown rather than the IDispatch interface.
 1.  Have the Extender Provider implement IExtenderProviderUnk instead of IExtenderProvider.  
   
 ## See Also  
- \<xref:EnvDTE.IExtenderProviderUnk>   
- \<xref:EnvDTE.IExtenderProvider>   
- \<xref:EnvDTE.ObjectExtenders>
+ <xref:EnvDTE.IExtenderProviderUnk>   
+ <xref:EnvDTE.IExtenderProvider>   
+ <xref:EnvDTE.ObjectExtenders>

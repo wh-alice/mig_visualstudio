@@ -38,20 +38,20 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # How to: Get Specific Versions of a DataRow
-When changes are made to data rows, the dataset retains both the original (\<xref:System.Data.DataRowVersion>) and new (\<xref:System.Data.DataRowVersion>) versions of the row. For example, before calling the `AcceptChanges` method, your application can access the different versions of a record (as defined in the \<xref:System.Data.DataRowVersion> enumeration) and process the changes accordingly.  
+When changes are made to data rows, the dataset retains both the original (<xref:System.Data.DataRowVersion>) and new (<xref:System.Data.DataRowVersion>) versions of the row. For example, before calling the `AcceptChanges` method, your application can access the different versions of a record (as defined in the <xref:System.Data.DataRowVersion> enumeration) and process the changes accordingly.  
   
 > [!NOTE]
 >  Different versions of a row exist only after it has been edited and before it has had the `AcceptChanges` method called. After the `AcceptChanges` method has been called, the current and original versions are the same.  
   
- Passing the \<xref:System.Data.DataRowVersion> value along with the column index (or column name as a string) returns the value from that column's particular row version. The changed column is identified during the \<xref:System.Data.DataTable.ColumnChanging> and \<xref:System.Data.DataTable.ColumnChanged> events, so that is a good time to inspect the differing row versions for validation purposes. However, if you have temporarily suspended constraints, those events will not be raised and you will need to programmatically identify which columns have changed. You can do this by iterating through the \<xref:System.Data.DataTable.Columns*> collection and comparing the different \<xref:System.Data.DataRowVersion> values.  
+ Passing the <xref:System.Data.DataRowVersion> value along with the column index (or column name as a string) returns the value from that column's particular row version. The changed column is identified during the <xref:System.Data.DataTable.ColumnChanging> and <xref:System.Data.DataTable.ColumnChanged> events, so that is a good time to inspect the differing row versions for validation purposes. However, if you have temporarily suspended constraints, those events will not be raised and you will need to programmatically identify which columns have changed. You can do this by iterating through the <xref:System.Data.DataTable.Columns*> collection and comparing the different <xref:System.Data.DataRowVersion> values.  
   
 ## Accessing the Original Version of a DataRow  
   
 #### To get the original version of a record  
   
--   Access the value of a column passing in the \<xref:System.Data.DataRowVersion> of the row you want to return.  
+-   Access the value of a column passing in the <xref:System.Data.DataRowVersion> of the row you want to return.  
   
-     The following example shows how you can use a \<xref:System.Data.DataRowVersion> value to get the original value of a `CompanyName` field in a \<xref:System.Data.DataRow>:  
+     The following example shows how you can use a <xref:System.Data.DataRowVersion> value to get the original value of a `CompanyName` field in a <xref:System.Data.DataRow>:  
   
      [!code[VbRaddataEditing#21](../datatools/codesnippet/CSharp/how-to--get-specific-versions-of-a-datarow_1.cs)]
 [!code[VbRaddataEditing#21](../datatools/codesnippet/VisualBasic/how-to--get-specific-versions-of-a-datarow_1.vb)]  
@@ -62,7 +62,7 @@ When changes are made to data rows, the dataset retains both the original (\<xre
   
 -   Access the value of a column and add a parameter to the index indicating which version of a row you want to return.  
   
-     The following example shows how you can use a \<xref:System.Data.DataRowVersion> value to get the current value of a `CompanyName` field in a \<xref:System.Data.DataRow>:  
+     The following example shows how you can use a <xref:System.Data.DataRowVersion> value to get the current value of a `CompanyName` field in a <xref:System.Data.DataRow>:  
   
      [!code[VbRaddataEditing#22](../datatools/codesnippet/CSharp/how-to--get-specific-versions-of-a-datarow_2.cs)]
 [!code[VbRaddataEditing#22](../datatools/codesnippet/VisualBasic/how-to--get-specific-versions-of-a-datarow_2.vb)]  

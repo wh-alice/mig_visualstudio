@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.DivideByZeroException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,13 +37,13 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.DivideByZeroException
-A \<xref:System.DivideByZeroException> exception is thrown when there is an attempt to divide an integer or decimal value by zero.  
+A <xref:System.DivideByZeroException> exception is thrown when there is an attempt to divide an integer or decimal value by zero.  
   
 ## Associated Tips  
  **Make sure the value of the denominator is not zero before you perform a division operation.**  
  Dividing a floating-point value by zero results in either positive infinity, negative infinity, or Not a Number (NaN), according to the rules of IEEE arithmetic. Floating-point operations never throw an exception.  
   
 ## See Also  
- \<xref:System.DivideByZeroException>   
+ <xref:System.DivideByZeroException>   
  [Arithmetic Operators in Visual Basic](../Topic/Arithmetic%20Operators%20in%20Visual%20Basic.md)   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

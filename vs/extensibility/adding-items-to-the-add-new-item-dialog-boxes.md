@@ -1,7 +1,7 @@
 ---
 title: "Adding Items to the Add New Item Dialog Boxes"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -71,9 +71,9 @@ The process for adding items to the **Add New Item** dialog box starts with the 
   
  The sort priority in the code segment determines where this template directory will be created in the tree relative to other elements of the tree node. For the **Add New Item** dialog box, the sort priority is all that you must include so that your items will be displayed in the correct location in the dialog box.  
   
- You can also implement the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsFilterAddProjectItemDlg2> interface to filter what is displayed in the **Add New Item** dialog box. By implementing this interface, you can set up one template directory on disk that contains, for example, 50 template and wizard files. In that way, you can have different project types with 20 files that belong to one project type, the other 30 files that belong to another project type, and all the files available in a general type of project. In this manner, depending on which project template is created, you can display a different set of template files.  
+ You can also implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFilterAddProjectItemDlg2> interface to filter what is displayed in the **Add New Item** dialog box. By implementing this interface, you can set up one template directory on disk that contains, for example, 50 template and wizard files. In that way, you can have different project types with 20 files that belong to one project type, the other 30 files that belong to another project type, and all the files available in a general type of project. In this manner, depending on which project template is created, you can display a different set of template files.  
   
- For example, in a Visual Basic project, you might have Web projects and client projects. Web forms are not useful items to add to a client project, and windows forms are not useful items to add to a Web server project. Therefore, you can create one template directory that contains all the files for both types of project. Then by implementing \<xref:Microsoft.VisualStudio.Shell.Interop.IVsFilterAddProjectItemDlg2>, you can hide items that should not be displayed based on the type of project or project settings in the project.  
+ For example, in a Visual Basic project, you might have Web projects and client projects. Web forms are not useful items to add to a client project, and windows forms are not useful items to add to a Web server project. Therefore, you can create one template directory that contains all the files for both types of project. Then by implementing <xref:Microsoft.VisualStudio.Shell.Interop.IVsFilterAddProjectItemDlg2>, you can hide items that should not be displayed based on the type of project or project settings in the project.  
   
 ## Filtering Project Items  
  `IVsFilterAddProjectItemDlg2` provides for filtering of elements in the tree (left pane) and project files (right pane) in the following ways:  
@@ -89,7 +89,7 @@ The process for adding items to the **Add New Item** dialog box starts with the 
  If you implement this filter functionality, you do not have to map a table of every item that should be hidden. You can simply classify items into types and put the classifications in the .vsdir file or files. Then you can hide any of the items that have a specific classification by implementing the interface. In this way, you can make the items in the **Add New Item** dialog box dynamic based on the state within the project.  
   
 ## See Also  
- \<xref:Microsoft.VisualStudio.Shell.Interop.IVsFilterAddProjectItemDlg2>   
+ <xref:Microsoft.VisualStudio.Shell.Interop.IVsFilterAddProjectItemDlg2>   
  [Registering Project and Item Templates](../extensibility/registering-project-and-item-templates.md)   
  [CATIDs for Objects That Are Typically Used to Extend Projects](../extensibility/catids-for-objects-that-are-typically-used-to-extend-projects.md)   
  [Adding Project and Project Item Templates](../extensibility/adding-project-and-project-item-templates.md)   

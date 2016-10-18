@@ -1,7 +1,7 @@
 ---
 title: "Compiler Error CS1599"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -38,7 +38,7 @@ translation.priority.mt:
 # Compiler Error CS1599
 Method or delegate cannot return type 'type'  
   
- Some types in the .NET Framework class library, for example, \<xref:System.TypedReference>, \<xref:System.RuntimeArgumentHandle> and \<xref:System.ArgIterator> cannot be used as return types because they can potentially be used to perform unsafe operations.  
+ Some types in the .NET Framework class library, for example, <xref:System.TypedReference>, <xref:System.RuntimeArgumentHandle> and <xref:System.ArgIterator> cannot be used as return types because they can potentially be used to perform unsafe operations.  
   
  The following sample generates CS1599:  
   

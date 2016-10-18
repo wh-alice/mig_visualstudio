@@ -1,7 +1,7 @@
 ---
 title: "Expression is not a method"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,5 +44,5 @@ The target of your method call is not a method.
 -   Make sure you did not mistype the method name.  
   
 ## See Also  
- [NOT IN BUILD: Properties vs. Methods](http://msdn.microsoft.com/8822c325-a360-402d-98f5-7a9b4a1b13bf)   
- [NOT IN BUILD: Class Methods](http://msdn.microsoft.com/326214bb-6367-48e7-bb24-714844791400)
+ [NOT IN BUILD: Properties vs. Methods](http://msdn.microsoft.com/en-us/8822c325-a360-402d-98f5-7a9b4a1b13bf)   
+ [NOT IN BUILD: Class Methods](http://msdn.microsoft.com/en-us/326214bb-6367-48e7-bb24-714844791400)

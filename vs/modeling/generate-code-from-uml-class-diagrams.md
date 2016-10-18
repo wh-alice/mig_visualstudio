@@ -1,7 +1,7 @@
 ---
 title: "Generate code from UML class diagrams"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -204,21 +204,21 @@ To generate Visual C# .NET code from UML class diagrams in Visual Studio, use th
   
  In the template, `this` belongs to a temporary class that has the following properties:  
   
--   `Element` = the UML \<xref:Microsoft.VisualStudio.Uml.Classes.IElement> to which the template is being applied.  
+-   `Element` = the UML <xref:Microsoft.VisualStudio.Uml.Classes.IElement> to which the template is being applied.  
   
--   `Errors`: \<xref:System.CodeDom.Compiler.CompilerErrorCollection>  
+-   `Errors`: <xref:System.CodeDom.Compiler.CompilerErrorCollection>  
   
--   `Host`: \<xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost>  
+-   `Host`: <xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost>  
   
--   `ModelBus`: \<xref:Microsoft.VisualStudio.Modeling.Integration.ModelBus>. For more information, see [Integrate UML models with other models and tools](../modeling/integrate-uml-models-with-other-models-and-tools.md).  
+-   `ModelBus`: <xref:Microsoft.VisualStudio.Modeling.Integration.ModelBus>. For more information, see [Integrate UML models with other models and tools](../modeling/integrate-uml-models-with-other-models-and-tools.md).  
   
 -   `ProfileName` = "C#Profile"  
   
--   `ServiceProvider`: \<xref:System.IServiceProvider>  
+-   `ServiceProvider`: <xref:System.IServiceProvider>  
   
--   `Session`: \<xref:Microsoft.VisualStudio.TextTemplating.TextTemplatingSession>.  
+-   `Session`: <xref:Microsoft.VisualStudio.TextTemplating.TextTemplatingSession>.  
   
--   `Store`: \<xref:Microsoft.VisualStudio.Modeling.Store>. This is the Visualization and Modeling SDK Store on which the UML ModelStore is implemented. To obtain the UML \<xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Uml.IModelStore>, use `this.Element.GetModelStore()`.  
+-   `Store`: <xref:Microsoft.VisualStudio.Modeling.Store>. This is the Visualization and Modeling SDK Store on which the UML ModelStore is implemented. To obtain the UML <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Uml.IModelStore>, use `this.Element.GetModelStore()`.  
   
  You might find the following points helpful while you write a text template. This information is described in detail in [Code Generation and T4 Text Templates](../modeling/code-generation-and-t4-text-templates.md).  
   

@@ -1,7 +1,7 @@
 ---
 title: "DA0007: Avoid using exceptions for control flow"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na

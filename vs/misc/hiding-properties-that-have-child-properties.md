@@ -1,7 +1,7 @@
 ---
 title: "Hiding Properties That Have Child Properties"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -42,9 +42,9 @@ You would want to hide properties that have child properties:
   
 ### To hide properties that have child properties  
   
-1.  Set the `pfDisplay` parameter in \<xref:Microsoft.VisualStudio.Shell.Interop.IVsPerPropertyBrowsing.DisplayChildProperties*> to `FALSE`.  
+1.  Set the `pfDisplay` parameter in <xref:Microsoft.VisualStudio.Shell.Interop.IVsPerPropertyBrowsing.DisplayChildProperties*> to `FALSE`.  
   
-2.  Set the `pfHide` parameter in \<xref:Microsoft.VisualStudio.Shell.Interop.IVsPerPropertyBrowsing.HideProperty*> to `TRUE`.  
+2.  Set the `pfHide` parameter in <xref:Microsoft.VisualStudio.Shell.Interop.IVsPerPropertyBrowsing.HideProperty*> to `TRUE`.  
   
 ## See Also  
  [Properties Display Grid](../extensibility/properties-display-grid.md)

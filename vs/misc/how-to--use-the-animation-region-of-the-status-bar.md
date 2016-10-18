@@ -1,7 +1,7 @@
 ---
 title: "How to: Use the Animation Region of the Status Bar"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,11 +37,11 @@ The Animation region of the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.
   
 ### To use the Animation region of the Visual Studio status bar  
   
-1.  Obtain an instance of the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbar> interface, which is made available through the \<xref:Microsoft.VisualStudio.Shell.Interop.SVsStatusbar> service.  
+1.  Obtain an instance of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbar> interface, which is made available through the <xref:Microsoft.VisualStudio.Shell.Interop.SVsStatusbar> service.  
   
-2.  Start the animation by calling the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbar.Animation*> method of the status bar. Pass in 1 as the value of the first parameter, and a reference to an animated icon as the value of the second parameter.  
+2.  Start the animation by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbar.Animation*> method of the status bar. Pass in 1 as the value of the first parameter, and a reference to an animated icon as the value of the second parameter.  
   
-3.  Stop the animation by calling the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbar.Animation*> method of the status bar. Pass in 0 as the value of the first parameter, and a reference to the animated icon as the value of the second parameter.  
+3.  Stop the animation by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbar.Animation*> method of the status bar. Pass in 0 as the value of the first parameter, and a reference to the animated icon as the value of the second parameter.  
   
 ## Example  
  This example demonstrates how to run a built-in animation in the Animation region.  

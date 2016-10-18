@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Creating a Core Editor and Registering an Editor File Type"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -47,7 +47,7 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
   
 ### To create the VSPackage  
   
--   Start [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and create a [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] VSPackage named `MyPackage`, as outlined in [Walkthrough: Creating a Menu Command VSPackage](http://msdn.microsoft.com/d699c149-5d1e-47ff-94c7-e1222af02c32).  
+-   Start [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and create a [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] VSPackage named `MyPackage`, as outlined in [Walkthrough: Creating a Menu Command VSPackage](http://msdn.microsoft.com/en-us/d699c149-5d1e-47ff-94c7-e1222af02c32).  
   
 ### To add the editor factory  
   
@@ -109,7 +109,7 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
   
     ```  
   
-6.  Add a public class constructor that takes one parameter of type \<xref:Microsoft.VisualStudio.Shell.Package>:  
+6.  Add a public class constructor that takes one parameter of type <xref:Microsoft.VisualStudio.Shell.Package>:  
   
     ```vb#  
     Public Sub New(ByVal parentPackage As Package)  
@@ -124,7 +124,7 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
     }  
     ```  
   
-7.  Modify the `EditorFactory` class declaration to derive from the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory> interface.  
+7.  Modify the `EditorFactory` class declaration to derive from the <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory> interface.  
   
     ```vb#  
     Class EditorFactory Implements IVsEditorFacto  
@@ -135,9 +135,9 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
   
     ```  
   
-8.  Right-click \<xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory>, click **Implement Interface**, and then click **Implement Interface Explicitly**.  
+8.  Right-click <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory>, click **Implement Interface**, and then click **Implement Interface Explicitly**.  
   
-     This adds the four methods that must be implemented in the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory> interface.  
+     This adds the four methods that must be implemented in the <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory> interface.  
   
 9. Replace the contents of the `IVsEditorFactory.Close` method with the following code.  
   
@@ -358,7 +358,7 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
           ".myext", 32, NameResourceID = 101)]   
     ```  
   
-     The \<xref:Microsoft.VisualStudio.Shell.ProvideEditorExtensionAttribute> attribute associates the .myext file extension with your editor factory so that any time a file that has that extension is loaded, your editor factory is invoked.  
+     The <xref:Microsoft.VisualStudio.Shell.ProvideEditorExtensionAttribute> attribute associates the .myext file extension with your editor factory so that any time a file that has that extension is loaded, your editor factory is invoked.  
   
 6.  Add a private variable to the `MyPackage` class, just before the constructor, and give it the type `EditorFactory`.  
   

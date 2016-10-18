@@ -1,7 +1,7 @@
 ---
 title: "&#39;&lt;typename&gt;&#39; has the same name as another type exposed in a &#39;My&#39; group"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -56,7 +56,7 @@ translation.priority.mt:
      Avoid naming any class or structure with the same name as an existing one.  
   
 ## See Also  
- \<xref:System.Windows.Forms.Form>   
- \<xref:Microsoft.VisualBasic.MyGroupCollectionAttribute>   
- [NOTINBUILD: Resolving a Reference When Multiple Variables Have the Same Name](http://msdn.microsoft.com/9601e39f-1911-44e1-ace5-3f6e090408b9)   
+ <xref:System.Windows.Forms.Form>   
+ <xref:Microsoft.VisualBasic.MyGroupCollectionAttribute>   
+ [NOTINBUILD: Resolving a Reference When Multiple Variables Have the Same Name](http://msdn.microsoft.com/en-us/9601e39f-1911-44e1-ace5-3f6e090408b9)   
  [My.Forms Object](../Topic/My.Forms%20Object.md)

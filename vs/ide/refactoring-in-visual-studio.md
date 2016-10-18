@@ -1,7 +1,7 @@
 ---
 title: "Refactoring in Visual Studio"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -54,5 +54,5 @@ Refactoring is the process of modifying code in order to make it easier to maint
  Refactoring support for F# is provided in [Visual F# Power Tools](https://visualstudiogallery.msdn.microsoft.com/136b942e-9f2c-4c0b-8bac-86d774189cff), a third-party Visual Studio extension.  
   
 ## See Also  
- [Visual Studio IDE](../Topic/Visual%20Studio%20IDE.md)   
+ [Visual Studio IDE](../ide/visual-studio-ide.md)   
  [Writing Code in the Code and Text Editor](../ide/writing-code-in-the-code-and-text-editor.md)

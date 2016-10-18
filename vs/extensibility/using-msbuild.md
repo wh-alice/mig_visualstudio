@@ -1,7 +1,7 @@
 ---
 title: "Using MSBuild"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/17/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -57,11 +57,11 @@ MSBuild supplies a well-defined, extensible XML format for creating project file
   
 |Class|Implementation|  
 |-----------|--------------------|  
-|`Microsoft.VisualStudio.Package.ProjectNode`|\<xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3><br /><br /> \<xref:Microsoft.VisualStudio.Shell.Interop.IVsCfgProvider2><br /><br /> \<xref:Microsoft.VisualStudio.Shell.Interop.IPersistFileFormat><br /><br /> \<xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEvents>|  
-|`Microsoft.VisualStudio.Package.ProjectFactory`|\<xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFactory>|  
-|`Microsoft.VisualStudio.Package.HierarchyNode`|\<xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy>|  
-|`Microsoft.VisualStudio.Package.ProjectConfig`|\<xref:Microsoft.VisualStudio.Shell.Interop.IVsCfg><br /><br /> \<xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectCfg><br /><br /> \<xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildableProjectCfg><br /><br /> \<xref:Microsoft.VisualStudio.Shell.Interop.IVsDebuggableProjectCfg>|  
-|`Microsoft.VisualStudio.Package.SettingsPage`|\<xref:Microsoft.VisualStudio.OLE.Interop.IPropertyPageSite>|  
+|`Microsoft.VisualStudio.Package.ProjectNode`|<xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3><br /><br /> <xref:Microsoft.VisualStudio.Shell.Interop.IVsCfgProvider2><br /><br /> <xref:Microsoft.VisualStudio.Shell.Interop.IPersistFileFormat><br /><br /> <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEvents>|  
+|`Microsoft.VisualStudio.Package.ProjectFactory`|<xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFactory>|  
+|`Microsoft.VisualStudio.Package.HierarchyNode`|<xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy>|  
+|`Microsoft.VisualStudio.Package.ProjectConfig`|<xref:Microsoft.VisualStudio.Shell.Interop.IVsCfg><br /><br /> <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectCfg><br /><br /> <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildableProjectCfg><br /><br /> <xref:Microsoft.VisualStudio.Shell.Interop.IVsDebuggableProjectCfg>|  
+|`Microsoft.VisualStudio.Package.SettingsPage`|<xref:Microsoft.VisualStudio.OLE.Interop.IPropertyPageSite>|  
   
  `Microsoft.VisualStudio.Package.ProjectElement` class is a wrapper for MSBuild items.  
   
@@ -70,5 +70,5 @@ MSBuild supplies a well-defined, extensible XML format for creating project file
   
 ## See Also  
  [MSBuild Reference](../reference/msbuild-reference.md)   
- [MSBuild](http://msdn.microsoft.com/7c49aba1-ee6c-47d8-9de1-6f29a906e20b)   
+ [MSBuild](http://msdn.microsoft.com/en-us/7c49aba1-ee6c-47d8-9de1-6f29a906e20b)   
  [Custom Tools](../extensibility/custom-tools.md)

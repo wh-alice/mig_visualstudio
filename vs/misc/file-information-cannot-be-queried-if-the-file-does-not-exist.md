@@ -1,7 +1,7 @@
 ---
 title: "File information cannot be queried if the file does not exist"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -30,7 +30,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # File information cannot be queried if the file does not exist
-An attempt has been made to query a \<xref:System.IO.FileInfo> object for information about a file that does not exist. Usually this is due to a mistake made when supplying the file name.  
+An attempt has been made to query a <xref:System.IO.FileInfo> object for information about a file that does not exist. Usually this is due to a mistake made when supplying the file name.  
   
 ### To correct this error  
   
@@ -38,5 +38,5 @@ An attempt has been made to query a \<xref:System.IO.FileInfo> object for inform
   
 ## See Also  
  [My.Computer.FileSystem Object](../Topic/My.Computer.FileSystem%20Object.md)   
- [How to: Get Information About a File in Visual Basic](http://msdn.microsoft.com/ca0720ec-f40e-4c11-9748-0ce1685c78f0)   
+ [How to: Get Information About a File in Visual Basic](http://msdn.microsoft.com/en-us/ca0720ec-f40e-4c11-9748-0ce1685c78f0)   
  [How to: Parse File Paths](../Topic/How%20to:%20Parse%20File%20Paths%20in%20Visual%20Basic.md)

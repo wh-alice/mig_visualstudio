@@ -1,7 +1,7 @@
 ---
 title: "VSCodeWindowManager Object"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -40,7 +40,7 @@ The language service implements the code window manager and is responsible for m
   
 |Interface|Description|  
 |---------------|-----------------|  
-|\<xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindowManager>|Allows adornments (such as drop-down bars) to be added to or removed from a code window.|  
+|<xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindowManager>|Allows adornments (such as drop-down bars) to be added to or removed from a code window.|  
   
 ## See Also  
  [Customizing Code Windows by Using the Legacy API](../extensibility/customizing-code-windows-by-using-the-legacy-api.md)

@@ -1,7 +1,7 @@
 ---
 title: "ResolveManifestFiles Task"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,23 +44,23 @@ Resolves the following items in the build process to files for manifest generati
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|`DeploymentManifestEntryPoint`|Optional \<xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br /> Specifies the name of the deployment manifest.|  
-|`EntryPoint`|Optional \<xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br /> Specifies the managed assembly or ClickOnce manifest reference that is the entry point to the manifest.|  
-|`ExtraFiles`|Optional \<xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the extra files.|  
-|`ManagedAssemblies`|Optional \<xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the managed assemblies.|  
-|`NativeAssemblies`|Optional \<xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the native assemblies.|  
-|`OutputAssemblies`|Optional \<xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Specifies the generated assemblies.|  
-|`OutputDeploymentManifestEntryPoint`|Optional \<xref:Microsoft.Build.Framework.ITaskItem> output parameter.<br /><br /> Specifies the output deployment manifest entry point.|  
-|`OutputEntryPoint`|Optional \<xref:Microsoft.Build.Framework.ITaskItem> output parameter.<br /><br /> Specifies the output entry point.|  
-|`OutputFiles`|Optional \<xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Specifies the output files.|  
-|`PublishFiles`|Optional \<xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the publish files.|  
-|`SatelliteAssemblies`|Optional \<xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the satellite assemblies.|  
+|`DeploymentManifestEntryPoint`|Optional <xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br /> Specifies the name of the deployment manifest.|  
+|`EntryPoint`|Optional <xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br /> Specifies the managed assembly or ClickOnce manifest reference that is the entry point to the manifest.|  
+|`ExtraFiles`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the extra files.|  
+|`ManagedAssemblies`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the managed assemblies.|  
+|`NativeAssemblies`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the native assemblies.|  
+|`OutputAssemblies`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Specifies the generated assemblies.|  
+|`OutputDeploymentManifestEntryPoint`|Optional <xref:Microsoft.Build.Framework.ITaskItem> output parameter.<br /><br /> Specifies the output deployment manifest entry point.|  
+|`OutputEntryPoint`|Optional <xref:Microsoft.Build.Framework.ITaskItem> output parameter.<br /><br /> Specifies the output entry point.|  
+|`OutputFiles`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Specifies the output files.|  
+|`PublishFiles`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the publish files.|  
+|`SatelliteAssemblies`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the satellite assemblies.|  
 |`SigningManifests`|Optional `Boolean` parameter.<br /><br /> If `true`, the manifests are signed.|  
 |`TargetCulture`|Optional `String` parameter.<br /><br /> Specifies the target culture for satellite assemblies.|  
 |`TargetFrameworkVersion`|Optional `String` parameter.<br /><br /> Specifies the target .NET Framework version.|  
   
 ## Remarks  
- In addition to having the parameters that are listed in the table, this task inherits parameters from the \<xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the \<xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../reference/taskextension-base-class.md).  
+ In addition to having the parameters that are listed in the table, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../reference/taskextension-base-class.md).  
   
 ## See Also  
  [Tasks](../reference/msbuild-tasks.md)   

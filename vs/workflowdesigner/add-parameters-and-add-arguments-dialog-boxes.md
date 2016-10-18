@@ -29,7 +29,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Add Parameters and Add Arguments Dialog Boxes
-The following table describes the user interface (UI) elements of the **Add Parameters** dialog box used by the \<xref:System.Activities.Statements.InvokeMethod> designer.  
+The following table describes the user interface (UI) elements of the **Add Parameters** dialog box used by the <xref:System.Activities.Statements.InvokeMethod> designer.  
   
 |||  
 |-|-|  
@@ -37,7 +37,7 @@ The following table describes the user interface (UI) elements of the **Add Para
 |**Type**|The type name of the new parameter.|  
 |**Value**|A VB expression that is used to assign a default value to the new parameter|  
   
- The following table describes the user interface (UI) elements of the **Add Arguments** dialog box used by the \<xref:System.Activities.Statements.InvokeDelegate> designer.  
+ The following table describes the user interface (UI) elements of the **Add Arguments** dialog box used by the <xref:System.Activities.Statements.InvokeDelegate> designer.  
   
 |||  
 |-|-|  

@@ -1,7 +1,7 @@
 ---
 title: "IDiaEnumSegments"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -47,7 +47,7 @@ IDiaEnumSegments : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[IDiaEnumSegments::get__NewEnum](../debugger/idiaenumsegments--get__newenum.md)|Retrieves the [IEnumVARIANT Interface](http://msdn.microsoft.com/139e3c93-faef-4003-9079-e0e94494db3e) version of this enumerator.|  
+|[IDiaEnumSegments::get__NewEnum](../debugger/idiaenumsegments--get__newenum.md)|Retrieves the [IEnumVARIANT Interface](http://msdn.microsoft.com/en-us/139e3c93-faef-4003-9079-e0e94494db3e) version of this enumerator.|  
 |[IDiaEnumSegments::get_Count](../debugger/idiaenumsegments--get_count.md)|Retrieves the number of segments.|  
 |[IDiaEnumSegments::Item](../debugger/idiaenumsegments--item.md)|Retrieves a segment by means of an index.|  
 |[IDiaEnumSegments::Next](../debugger/idiaenumsegments--next.md)|Retrieves a specified number of segments in the enumeration sequence.|  

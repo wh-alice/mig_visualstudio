@@ -1,7 +1,7 @@
 ---
 title: "Profiling and Windows Vista Security"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -59,4 +59,4 @@ Depending on the [!INCLUDE[wiprlhext](../debugger/includes/wiprlhext_md.md)] Use
 ## See Also  
  [Overviews](../profiling/overviews--performance-tools-.md)   
  [VSPerfCmd](../profiling/vsperfcmd.md)   
- [How to: Attach to a Running Process](http://msdn.microsoft.com/636d0a52-4bfd-48d2-89ad-d7b9ca4dc4f4)
+ [How to: Attach to a Running Process](http://msdn.microsoft.com/en-us/636d0a52-4bfd-48d2-89ad-d7b9ca4dc4f4)

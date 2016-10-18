@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.IndexOutOfRangeException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,7 +37,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.IndexOutOfRangeException
-An \<xref:System.IndexOutOfRangeException> exception is thrown when an attempt is made to access an element of an array or collection with an index that is outside the bounds of the array or less than zero.  
+An <xref:System.IndexOutOfRangeException> exception is thrown when an attempt is made to access an element of an array or collection with an index that is outside the bounds of the array or less than zero.  
   
 ## Associated Tips  
  **Make sure that the maximum index on a list is less than the list size**  
@@ -47,7 +47,7 @@ An \<xref:System.IndexOutOfRangeException> exception is thrown when an attempt i
  This exception will be thrown if the index is less than zero.  
   
  **Make sure data column names are correct.**  
- This exception may be thrown if the data column name being supplied to the \<xref:System.Data.DataView.Sort*?displayProperty=fullName> property is not valid. For more information, see the \<xref:System.Data.DataView> class.  
+ This exception may be thrown if the data column name being supplied to the <xref:System.Data.DataView.Sort*?displayProperty=fullName> property is not valid. For more information, see the <xref:System.Data.DataView> class.  
   
 ## Example  
   
@@ -91,6 +91,6 @@ End Module
 ```  
   
 ## See Also  
- \<xref:System.IndexOutOfRangeException>   
+ <xref:System.IndexOutOfRangeException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)   
  [Arrays](../Topic/Arrays%20in%20Visual%20Basic.md)

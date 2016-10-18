@@ -1,7 +1,7 @@
 ---
 title: "Project Persistence"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -45,15 +45,15 @@ Persistence is a key design consideration for your project. Most projects use pr
 ## Commit Models  
  After deciding where the project items are located, you must choose the appropriate commit model. For example, in a file-based model with local files, each project can be saved autonomously. In a repository model, you can save several items in one transaction. For more information, see [Project Type Design Decisions](../extensibility/project-type-design-decisions.md).  
   
- To determine file name extensions, projects implement the \<xref:Microsoft.VisualStudio.Shell.Interop.IPersistFileFormat> interface, which provides information enabling the client of an object to implement the **Save As** dialog box—that is, to fill in the **Save As Type** drop-down list and manage the initial file name extension.  
+ To determine file name extensions, projects implement the <xref:Microsoft.VisualStudio.Shell.Interop.IPersistFileFormat> interface, which provides information enabling the client of an object to implement the **Save As** dialog box—that is, to fill in the **Save As Type** drop-down list and manage the initial file name extension.  
   
  The IDE calls the `IPersistFileFormat` interface on the project to indicate that the project should persist its project items as appropriate. Therefore, the object owns all aspects of its file and format. This includes the name of the format of the object.  
   
  In the case where items are not files, `IPersistFileFormat` is still how non-file-based items are persisted. Project files, such as .vbp files for [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] projects or .vcproj files for [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)] projects, must also be persisted.  
   
- For save actions, the IDE examines the running document table (RDT) and the hierarchy passes the commands to the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistHierarchyItem> and the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistHierarchyItem2> interfaces. The \<xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistHierarchyItem.IsItemDirty*> method is implemented to determine whether the item has been modified. If the item has, the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistHierarchyItem.SaveItem*> method is implemented to save the modified item.  
+ For save actions, the IDE examines the running document table (RDT) and the hierarchy passes the commands to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistHierarchyItem> and the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistHierarchyItem2> interfaces. The <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistHierarchyItem.IsItemDirty*> method is implemented to determine whether the item has been modified. If the item has, the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistHierarchyItem.SaveItem*> method is implemented to save the modified item.  
   
- The methods on the `IVsPersistHierarchyItem2` interface are used to determine whether an item can be reloaded and, if the item can be, to reload it. Additionally, the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistHierarchyItem2.IgnoreItemFileChanges*> method can be implemented to cause changed items to be discarded without being saved.  
+ The methods on the `IVsPersistHierarchyItem2` interface are used to determine whether an item can be reloaded and, if the item can be, to reload it. Additionally, the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistHierarchyItem2.IgnoreItemFileChanges*> method can be implemented to cause changed items to be discarded without being saved.  
   
 ## See Also  
  [Checklist: Creating New Project Types](../extensibility/checklist--creating-new-project-types.md)   

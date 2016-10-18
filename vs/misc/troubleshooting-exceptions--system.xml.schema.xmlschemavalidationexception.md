@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.Xml.Schema.XmlSchemaValidationException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -38,5 +38,5 @@ translation.priority.mt:
 The exception that is thrown when XML Schema definition language (XSD) schema validation errors or warnings are encountered in an XML document being validated.  
   
 ## See Also  
- \<xref:System.Xml.Schema.XmlSchemaValidationException>   
+ <xref:System.Xml.Schema.XmlSchemaValidationException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

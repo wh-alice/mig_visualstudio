@@ -1,7 +1,7 @@
 ---
 title: "MSBuild Error MSB3185"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -45,8 +45,8 @@ translation.priority.mt:
 -   If using the GenerateDeploymentManifest task, make sure that you specify valid entry points in your manifests. For a deployment manifest, a valid entry point is an application manifest.  
   
 ## See Also  
- \<xref:Microsoft.Build.Tasks.Deployment.ManifestUtilities.ApplicationManifest.HostInBrowser*>   
- \<xref:Microsoft.Build.Tasks.GenerateApplicationManifest.TargetFrameworkVersion*>   
+ <xref:Microsoft.Build.Tasks.Deployment.ManifestUtilities.ApplicationManifest.HostInBrowser*>   
+ <xref:Microsoft.Build.Tasks.GenerateApplicationManifest.TargetFrameworkVersion*>   
  [Publish Page, Project Designer](../reference/publish-page--project-designer.md)   
  [\<PackageFiles> Element](../deployment/-packagefiles--element--bootstrapper-.md)   
  [MSBuild Error MSB3116](../misc/msbuild-error-msb3116.md)   

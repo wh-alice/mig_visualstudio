@@ -1,7 +1,7 @@
 ---
 title: "T4 Parameter Directive"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -35,9 +35,9 @@ In a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] text template, the
 <#@ parameter type="Full.TypeName" name="ParameterName" #>  
 ```  
   
- The `parameter` directive declares properties in your template code that are initialized from values passed in from the external context. You can set these values if you write code that invokes text transformation. The values can be passed either in the `Session` dictionary, or in \<xref:System.Runtime.Remoting.Messaging.CallContext>.  
+ The `parameter` directive declares properties in your template code that are initialized from values passed in from the external context. You can set these values if you write code that invokes text transformation. The values can be passed either in the `Session` dictionary, or in <xref:System.Runtime.Remoting.Messaging.CallContext>.  
   
- You can declare parameters of any remotable type. That is, the type must be declared with \<xref:System.SerializableAttribute>, or it must derive from \<xref:System.MarshalByRefObject>. This allows parameter values to be passed into the AppDomain in which the template is processed.  
+ You can declare parameters of any remotable type. That is, the type must be declared with <xref:System.SerializableAttribute>, or it must derive from <xref:System.MarshalByRefObject>. This allows parameter values to be passed into the AppDomain in which the template is processed.  
   
  For example, you could write a text template with the following content:  
   
@@ -72,7 +72,7 @@ string result = t4.ProcessTemplate("MyTemplateFile.t4",
 ```  
   
 ## Passing values in the Call Context  
- You can alternatively pass values as logical data in \<xref:System.Runtime.Remoting.Messaging.CallContext>.  
+ You can alternatively pass values as logical data in <xref:System.Runtime.Remoting.Messaging.CallContext>.  
   
  The following example passes values by using both methods:  
   

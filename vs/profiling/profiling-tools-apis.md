@@ -1,7 +1,7 @@
 ---
 title: "Profiling Tools APIs"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -35,7 +35,7 @@ You can insert managed or native methods of the APIs of the [!INCLUDE[vsprvs](..
  [Visual Studio Profiler API Reference (Native)](../profiling/visual-studio-profiler-api-reference--native-.md)  
  Describes the C++ Profiling Tools methods.  
   
- \<xref:Microsoft.VisualStudio.Profiler>  
+ <xref:Microsoft.VisualStudio.Profiler>  
  Describes the .NET Profiling Tools methods.  
   
  [Walkthrough: Using Profiler APIs](../profiling/walkthrough--using-profiler-apis.md)  

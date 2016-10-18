@@ -1,7 +1,7 @@
 ---
 title: "Advanced Compiler Settings Dialog Box (Visual Basic)"
 ms.custom: na
-ms.date: "10/11/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -42,7 +42,7 @@ Use the **AdvancedCompiler Settings** dialog box of the **Project Designer** to 
   
 2.  On the **Project** menu, click **Properties**. When the **Project Designer** appears, click the **Compile** tab.  
   
-3.  On the [Compile Page, Project Designer (Visual Basic)](../reference/compile-page--project-designer--visual-basic-.md), select the **Configuration** and **Platform**. In simplified build configurations, the **Configuration** and **Platform** lists are not displayed. For more information, see [Debug and Release Project Configurations](http://msdn.microsoft.com/0440b300-0614-4511-901a-105b771b236e).  
+3.  On the [Compile Page, Project Designer (Visual Basic)](../reference/compile-page--project-designer--visual-basic-.md), select the **Configuration** and **Platform**. In simplified build configurations, the **Configuration** and **Platform** lists are not displayed. For more information, see [Debug and Release Project Configurations](http://msdn.microsoft.com/en-us/0440b300-0614-4511-901a-105b771b236e).  
   
 4.  Click **Advanced Compile Options**.  
   
@@ -54,7 +54,7 @@ Use the **AdvancedCompiler Settings** dialog box of the **Project Designer** to 
  **Remove integer overflow checks**  
  By default, this check box is cleared to enable integer overflow checking. Select this check box to remove integer overflow checking. If you select this check box, integer calculations might be faster. However, if you remove overflow checking and data type capacities overflow, incorrect results might be stored without an error being raised.  
   
- If overflow conditions are checked and an integer operation overflows, an \<xref:System.OverflowException> exception is thrown. If overflow conditions are not checked, integer operation overflows do not throw an exception.  
+ If overflow conditions are checked and an integer operation overflows, an <xref:System.OverflowException> exception is thrown. If overflow conditions are not checked, integer operation overflows do not throw an exception.  
   
  **Enable optimizations**  
  By default, this check box is cleared to disable compiler optimizations. Select this check box to enable compiler optimizations. Compiler optimizations make your output file smaller, faster, and more efficient. However, because optimizations cause code rearrangement in the output file, compiler optimizations can make debugging difficult.  
@@ -79,7 +79,7 @@ Use the **AdvancedCompiler Settings** dialog box of the **Project Designer** to 
   
 ## Other Settings  
  **Generate serialization assemblies**  
- This setting specifies whether the compiler will create XML serialization assemblies. Serialization assemblies can improve the startup performance of \<xref:System.Xml.Serialization.XmlSerializer> if you have used that class to serialize types in your code. By default, this option is set to **Auto**, which specifies that serialization assemblies be generated only if you have used \<xref:System.Xml.Serialization.XmlSerializer> to encode types in your code to XML. **Off** specifies that serialization assemblies never be generated, regardless of whether your code uses \<xref:System.Xml.Serialization.XmlSerializer>. **On** specifies that serialization assemblies always be generated. Serialization assemblies are named `TypeName`.XmlSerializers.dll.  
+ This setting specifies whether the compiler will create XML serialization assemblies. Serialization assemblies can improve the startup performance of <xref:System.Xml.Serialization.XmlSerializer> if you have used that class to serialize types in your code. By default, this option is set to **Auto**, which specifies that serialization assemblies be generated only if you have used <xref:System.Xml.Serialization.XmlSerializer> to encode types in your code to XML. **Off** specifies that serialization assemblies never be generated, regardless of whether your code uses <xref:System.Xml.Serialization.XmlSerializer>. **On** specifies that serialization assemblies always be generated. Serialization assemblies are named `TypeName`.XmlSerializers.dll.  
   
 ## See Also  
  [Compile Page, Project Designer (Visual Basic)](../reference/compile-page--project-designer--visual-basic-.md)

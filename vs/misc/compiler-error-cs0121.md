@@ -1,7 +1,7 @@
 ---
 title: "Compiler Error CS0121"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -16,7 +16,7 @@ dev_langs:
 helpviewer_keywords: 
   - "CS0121"
 ms.assetid: 316cb77e-a500-4129-ae1b-e68b9188fd3e
-caps.latest.revision: 7
+caps.latest.revision: 8
 ms.author: "billchi"
 manager: "douge"
 ---
@@ -62,7 +62,7 @@ public class C
 ```  
   
 ## Example  
- The following example produces CS0121 in [!INCLUDE[vs_current_ext]()] but not in Visual Studio 2005:  
+ The following example produces CS0121 in the current version of Visual Studio, but not in Visual Studio 2005:  
   
 ```  
 //CS0121_2.cs  

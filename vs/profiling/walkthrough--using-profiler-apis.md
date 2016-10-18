@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Using Profiler APIs"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,7 +44,7 @@ The walkthrough uses a C# application to demonstrate how to use the [!INCLUDE[vs
   
  For native code, the Visual Studio profiler APIs are in VSPerf.dll. The header file, VSPerf.h, and the import library, VSPerf.lib, are located in the Microsoft Visual Studio 9\Team Tools\Performance Tools directory.  
   
- For managed code, the profiler APIs are in the Microsoft.VisualStudio.Profiler.dll. This DLL is found in the Microsoft Visual Studio 9\Team Tools\Performance Tools directory. For more information, see \<xref:Microsoft.VisualStudio.Profiler>.  
+ For managed code, the profiler APIs are in the Microsoft.VisualStudio.Profiler.dll. This DLL is found in the Microsoft Visual Studio 9\Team Tools\Performance Tools directory. For more information, see <xref:Microsoft.VisualStudio.Profiler>.  
   
 ## Prerequisites  
  This walkthrough assumes your choice of development environment is configured to support debugging and sampling. The following topics provide an overview of these prerequisites:  
@@ -172,7 +172,7 @@ DataCollection.CurrentId);
      A .csv file is created in the current directory with the resulting performance data.  
   
 ## See Also  
- \<xref:Microsoft.VisualStudio.Profiler>   
+ <xref:Microsoft.VisualStudio.Profiler>   
  [Visual Studio Profiler API Reference (Native)](../profiling/visual-studio-profiler-api-reference--native-.md)   
  [Getting Started](../profiling/getting-started-with-performance-tools.md)   
  [Profiling from the Command-Line](../profiling/using-the-profiling-tools-from-the-command-line.md)

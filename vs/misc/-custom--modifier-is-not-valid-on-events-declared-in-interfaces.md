@@ -1,7 +1,7 @@
 ---
 title: "&#39;Custom&#39; modifier is not valid on events declared in interfaces"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -51,7 +51,7 @@ A custom event cannot be declared in an interface because a custom event must pr
  [!code[VbVbalrEventError#3](../misc/codesnippet/VisualBasic/-custom--modifier-is-not-valid-on-events-declared-in-interfaces_1.vb)]  
   
 ## See Also  
- [Custom - delete](http://msdn.microsoft.com/dc62be07-c896-4866-a533-982a661d143f)   
+ [Custom - delete](http://msdn.microsoft.com/en-us/dc62be07-c896-4866-a533-982a661d143f)   
  [Event Statement](../Topic/Event%20Statement.md)   
  [Delegate Statement](../Topic/Delegate%20Statement.md)   
  [Class Statement](../Topic/Class%20Statement%20\(Visual%20Basic\).md)   

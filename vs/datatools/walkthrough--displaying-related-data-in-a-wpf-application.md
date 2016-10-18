@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Displaying Related Data in a WPF Application"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,7 +37,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Walkthrough: Displaying Related Data in a WPF Application
-In this walkthrough, you will create a WPF application that displays data from database tables that have a parent/child relationship. The data is encapsulated in entities in an Entity Data Model. The parent entity contains overview information for a set of orders. Each property of this entity is bound to a different control in the application. The child entity contains details for each order. This set of data is bound to a \<xref:System.Windows.Controls.DataGrid> control.  
+In this walkthrough, you will create a WPF application that displays data from database tables that have a parent/child relationship. The data is encapsulated in entities in an Entity Data Model. The parent entity contains overview information for a set of orders. Each property of this entity is bound to a different control in the application. The child entity contains details for each order. This set of data is bound to a <xref:System.Windows.Controls.DataGrid> control.  
   
  This walkthrough illustrates the following tasks:  
   
@@ -45,7 +45,7 @@ In this walkthrough, you will create a WPF application that displays data from d
   
 -   Creating a set of data-bound controls that display overview information for a set of orders. You create the controls by dragging a parent entity from the **Data Sources** window to **the WPF Designer**.  
   
--   Creating a \<xref:System.Windows.Controls.DataGrid> control that displays related details for each selected order. You create the controls by dragging a child entity from the **Data Sources** window to a window in **the WPF designer**.  
+-   Creating a <xref:System.Windows.Controls.DataGrid> control that displays related details for each selected order. You create the controls by dragging a child entity from the **Data Sources** window to a window in **the WPF designer**.  
   
      [!INCLUDE[note_settings_general](../datatools/includes/note_settings_general_md.md)]  
   
@@ -60,7 +60,7 @@ In this walkthrough, you will create a WPF application that displays data from d
   
 -   Entity Data Models and the ADO.NET Entity Framework. For more information, see [Entity Framework Overview](../Topic/Entity%20Framework%20Overview.md).  
   
--   Working with the WPF Designer. For more information, see [WPF and Silverlight Designer Overview](http://msdn.microsoft.com/570b7a5c-0c86-4326-a371-c9b63378fc62).  
+-   Working with the WPF Designer. For more information, see [WPF and Silverlight Designer Overview](http://msdn.microsoft.com/en-us/570b7a5c-0c86-4326-a371-c9b63378fc62).  
   
 -   WPF data binding. For more information, see [Data Binding Overview](../Topic/Data%20Binding%20Overview.md).  
   
@@ -75,7 +75,7 @@ In this walkthrough, you will create a WPF application that displays data from d
   
 3.  Expand **Visual C#** or **Visual Basic**, and then select **Windows**.  
   
-4.  Make sure that **.NET Framework 4** is selected in the combo box at the top of the dialog box. The \<xref:System.Windows.Controls.DataGrid> control that you use in this walkthrough is available only in the .NET Framework 4.  
+4.  Make sure that **.NET Framework 4** is selected in the combo box at the top of the dialog box. The <xref:System.Windows.Controls.DataGrid> control that you use in this walkthrough is available only in the .NET Framework 4.  
   
 5.  Select the **WPF Application** project template.  
   
@@ -168,7 +168,7 @@ In this walkthrough, you will create a WPF application that displays data from d
 9. In the **Properties** window, select the check box next to the **IsReadOnly** property.  
   
 ## Creating a DataGrid that Displays the Order Details  
- Create a \<xref:System.Windows.Controls.DataGrid> control that displays order details by dragging the `SalesOrderDetails` entity from the **Data Sources** window to the WPF designer.  
+ Create a <xref:System.Windows.Controls.DataGrid> control that displays order details by dragging the `SalesOrderDetails` entity from the **Data Sources** window to the WPF designer.  
   
 #### To create a DataGrid that displays the order details  
   
@@ -189,11 +189,11 @@ In this walkthrough, you will create a WPF application that displays data from d
   
     -   **ModifiedDate**  
   
-     This action prevents Visual Studio from including this data in the \<xref:System.Windows.Controls.DataGrid> control you create in the next step. For this walkthrough, it is assumed that the end user does not need to see this data.  
+     This action prevents Visual Studio from including this data in the <xref:System.Windows.Controls.DataGrid> control you create in the next step. For this walkthrough, it is assumed that the end user does not need to see this data.  
   
 4.  From the **Data Sources** window, drag the child **SalesOrderDetails** node to the window in **the WPF Designer**.  
   
-     Visual Studio generates XAML to define a new data-bound \<xref:System.Windows.Controls.DataGrid> control, and the control appears in the designer. Visual Studio also updates the generated `GetSalesOrderHeadersQuery` method in the code-behind file to include the data in the **SalesOrderDetails** entity.  
+     Visual Studio generates XAML to define a new data-bound <xref:System.Windows.Controls.DataGrid> control, and the control appears in the designer. Visual Studio also updates the generated `GetSalesOrderHeadersQuery` method in the code-behind file to include the data in the **SalesOrderDetails** entity.  
   
 ## Testing the Application  
  Build and run the application to verify that it displays the order records.  
@@ -206,7 +206,7 @@ In this walkthrough, you will create a WPF application that displays data from d
   
     -   The **Sales Order ID** combo box displays **71774**. This is the first order ID in the entity.  
   
-    -   For each order you select in the **Sales Order ID** combo box, detailed order information is displayed in the \<xref:System.Windows.Controls.DataGrid>.  
+    -   For each order you select in the **Sales Order ID** combo box, detailed order information is displayed in the <xref:System.Windows.Controls.DataGrid>.  
   
 2.  Close the application.  
   

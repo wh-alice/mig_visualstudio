@@ -1,7 +1,7 @@
 ---
 title: "MSBuild Reserved and Well-Known Properties"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/17/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -17,7 +17,7 @@ dev_langs:
 helpviewer_keywords: 
   - "MSBuild, reserved properties"
 ms.assetid: 99333e61-83c9-4804-84e3-eda297c2478d
-caps.latest.revision: 27
+caps.latest.revision: 28
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -36,380 +36,38 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # MSBuild Reserved and Well-Known Properties
-\<?xml version="1.0" encoding="utf-8"?>
-\<developerReferenceWithoutSyntaxDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ddue.schemas.microsoft.com/authoring/2003/5 http://dduestorage.blob.core.windows.net/ddueschema/developer.xsd">
-  <introduction>
-    <para>
-      <token>vstecmsbuild</token> provides a set of predefined properties that store information about the project file and the <token>vstecmsbuild</token> binaries. These properties are evaluated in the same manner as other <token>vstecmsbuild</token> properties. For example, to use the <unmanagedCodeEntityReference>MSBuildProjectFile</unmanagedCodeEntityReference> property, you type <codeInline>$(MSBuildProjectFile)</codeInline>.</para>
-    <para>MSBuild uses the values in the following table to predefine reserved and well-known properties. Reserved properties cannot be overridden, but well-known properties can be overridden by using identically named environment properties, global properties, or properties that are declared in the project file.</para>
-  </introduction>
-  <section>
-    <title>Reserved and Well-Known Properties</title>
-    <content>
-      <para>The following table describes the <token>vstecmsbuild</token> predefined properties.</para>
-      \<table xmlns:caps="http://schemas.microsoft.com/build/caps/2013/11">
-        <thead>
-          <tr>
-            <TD>
-              <para>Property</para>
-            </TD>
-            <TD>
-              <para>Description</para>
-            </TD>
-            <TD>
-              <para>Reserved or Well-Known</para>
-            </TD>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <TD>
-              <para>
-                <unmanagedCodeEntityReference>MSBuildBinPath</unmanagedCodeEntityReference>
-              </para>
-            </TD>
-            <TD>
-              <para>The absolute path of the folder where the <token>vstecmsbuild</token> binaries that are currently being used are located (for example, C:\Windows\Microsoft.Net\Framework\<placeholder>versionNumber</placeholder>). This property is useful if you have to refer to files in the <token>vstecmsbuild</token> directory.</para>
-              <para>Do not include the final backslash on this property.</para>
-            </TD>
-            <TD>
-              <para>Reserved</para>
-            </TD>
-          </tr>
-          <tr>
-            <TD>
-              <para>
-                <unmanagedCodeEntityReference>MSBuildExtensionsPath</unmanagedCodeEntityReference>
-              </para>
-            </TD>
-            <TD>
-              <para>Introduced in the .NET Framework 4: there is no difference between the default values of <unmanagedCodeEntityReference>MSBuildExtensionsPath</unmanagedCodeEntityReference> and <unmanagedCodeEntityReference>MSBuildExtensionsPath32</unmanagedCodeEntityReference>. You can set the environment variable <unmanagedCodeEntityReference>MSBUILDLEGACYEXTENSIONSPATH</unmanagedCodeEntityReference> to a non-null value to enable the behavior of the default value of <unmanagedCodeEntityReference>MSBuildExtensionsPath</unmanagedCodeEntityReference> in earlier versions.</para>
-              <para>In the .NET Framework 3.5 and earlier, the default value of <unmanagedCodeEntityReference>MSBuildExtensionsPath</unmanagedCodeEntityReference> points to the path of the MSBuild subfolder under the \Program Files\ or \Program Files (x86) folder, depending on the bitness of the current process. For example, for a 32-bit process on a 64-bit machine, this property points to the \Program Files (x86) folder. For a 64-bit process on a 64-bit machine, this property points to the \Program Files folder.</para>
-              <para>Do not include the final backslash on this property.</para>
-              <para>This location is a useful place to put custom target files. For example, your target files could be installed at \Program Files\MSBuild\MyFiles\Northwind.targets and then imported in project files by using this XML code:</para>
-              <para>
-                <codeInline>&lt;Import Project="$(MSBuildExtensionsPath)\MyFiles\Northwind.targets"/&gt;</codeInline>
-              </para>
-            </TD>
-            <TD>
-              <para>Well-Known</para>
-            </TD>
-          </tr>
-          <tr>
-            <TD>
-              <para>
-                <unmanagedCodeEntityReference>MSBuildExtensionsPath32</unmanagedCodeEntityReference>
-              </para>
-            </TD>
-            <TD>
-              <para>The path of the <token>vstecmsbuild</token> subfolder under the \Program Files or \Program Files (x86) folder. This path always points to the 32-bit \Program Files folder on a 32-bit machine and \Program Files (x86) on a 64-bit machine. See also <unmanagedCodeEntityReference>MSBuildExtensionsPath</unmanagedCodeEntityReference> and <unmanagedCodeEntityReference>MSBuildExtensionsPath64</unmanagedCodeEntityReference>.</para>
-              <para>Do not include the final backslash on this property.</para>
-            </TD>
-            <TD>
-              <para>Well-Known</para>
-            </TD>
-          </tr>
-          <tr>
-            <TD>
-              <para>
-                <unmanagedCodeEntityReference>MSBuildExtensionsPath64</unmanagedCodeEntityReference>
-              </para>
-            </TD>
-            <TD>
-              <para>The path of the <token>vstecmsbuild</token> subfolder under the \Program Files folder. For a 64-bit machine, this path always points to the \Program Files folder. For a 32-bit machine, this path is blank. See also <unmanagedCodeEntityReference>MSBuildExtensionsPath</unmanagedCodeEntityReference> and <unmanagedCodeEntityReference>MSBuildExtensionsPath32</unmanagedCodeEntityReference>.</para>
-              <para>Do not include the final backslash on this property.</para>
-            </TD>
-            <TD>
-              <para>Well-Known</para>
-            </TD>
-          </tr>
-          <tr>
-            <TD>
-              <para>
-                <unmanagedCodeEntityReference>MSBuildLastTaskResult</unmanagedCodeEntityReference>
-              </para>
-            </TD>
-            <TD>
-              <para>
-                <languageKeyword>true</languageKeyword> if the previous task completed without any errors (even if there were warnings), or <languageKeyword>false</languageKeyword> if the previous task had errors. Typically, when an error occurs in a task, the error is the last thing that happens in that project. Therefore, the value of this property is never <languageKeyword>false</languageKeyword>, except in these scenarios:</para>
-         
-           
-                  <para> - When the <languageKeyword>ContinueOnError</languageKeyword> attribute of the \<link xlink:href="d82e2485-e5f0-4936-a357-745bacccc299">Task Element (MSBuild)</link> is set to <languageKeyword>WarnAndContinue</languageKeyword> (or <languageKeyword>true</languageKeyword>) or <languageKeyword>ErrorAndContinue</languageKeyword>.</para>
-           
-                  <para> - When the <unmanagedCodeEntityReference>Target</unmanagedCodeEntityReference> has an \<link xlink:href="765767d3-ecb7-4cd9-ba1e-d9468964dddc">OnError Element (MSBuild)</link> as a child element.</para>
-        
-            </TD>
-            <TD>
-              <para>Reserved</para>
-            </TD>
-          </tr>
-          <tr>
-            <TD>
-              <para>
-                <unmanagedCodeEntityReference>MSBuildNodeCount</unmanagedCodeEntityReference>
-              </para>
-            </TD>
-            <TD>
-              <para>The maximum number of concurrent processes that are used when building. This is the value that you specified for <system>/maxcpucount</system> on the command line. If you specified <system>/maxcpucount</system> without specifying a value, then <unmanagedCodeEntityReference>MSBuildNodeCount</unmanagedCodeEntityReference> specifies the number of processors in the computer. For more information, see \<link xlink:href="edaa65ec-ab8a-42a1-84cb-d76d5b2f4584">MSBuild Command-Line Reference</link> and \<link xlink:href="c8c9aadc-33ad-4aa1-b07d-b879e9eabda0">Building Multiple Projects in Parallel with MSBuild</link>.</para>
-            </TD>
-            <TD>
-              <para>Reserved</para>
-            </TD>
-          </tr>
-          <tr>
-            <TD>
-              <para>
-                <unmanagedCodeEntityReference>MSBuildProgramFiles32</unmanagedCodeEntityReference>
-              </para>
-            </TD>
-            <TD>
-              <para>The location of the 32-bit program folder; for example, <codeInline>C:\Program Files (x86)</codeInline>.</para>
-              <para>Do not include the final backslash on this property.</para>
-            </TD>
-            <TD>
-              <para>Reserved</para>
-            </TD>
-          </tr>
-          <tr>
-            <TD>
-              <para>
-                <unmanagedCodeEntityReference>MSBuildProjectDefaultTargets</unmanagedCodeEntityReference>
-              </para>
-            </TD>
-            <TD>
-              <para>The complete list of targets that are specified in the <unmanagedCodeEntityReference>DefaultTargets</unmanagedCodeEntityReference> attribute of the <unmanagedCodeEntityReference>Project</unmanagedCodeEntityReference> element. For example, the following <unmanagedCodeEntityReference>Project</unmanagedCodeEntityReference> element would have an <unmanagedCodeEntityReference>MSBuildDefaultTargets</unmanagedCodeEntityReference> property value of <codeInline>A;B;C</codeInline>:  </para>
-              <para>
-                <codeInline>&lt;Project DefaultTargets="A;B;C" &gt;</codeInline>
-              </para>
-            </TD>
-            <TD>
-              <para>Reserved</para>
-            </TD>
-          </tr>
-          <tr>
-            <TD>
-              <para>
-                <unmanagedCodeEntityReference>MSBuildProjectDirectory</unmanagedCodeEntityReference>
-              </para>
-            </TD>
-            <TD>
-              <para>The absolute path of the directory where the project file is located, for example <codeInline>C:\MyCompany\MyProduct</codeInline>.</para>
-              <para>Do not include the final backslash on this property.</para>
-            </TD>
-            <TD>
-              <para>Reserved</para>
-            </TD>
-          </tr>
-          <tr>
-            <TD>
-              <para>
-                <unmanagedCodeEntityReference>MSBuildProjectDirectoryNoRoot</unmanagedCodeEntityReference>
-              </para>
-            </TD>
-            <TD>
-              <para>The value of the <unmanagedCodeEntityReference>MSBuildProjectDirectory</unmanagedCodeEntityReference> property, excluding the root drive.</para>
-              <para>Do not include the final backslash on this property.</para>
-            </TD>
-            <TD>
-              <para>Reserved</para>
-            </TD>
-          </tr>
-          <tr>
-            <TD>
-              <para>
-                <unmanagedCodeEntityReference>MSBuildProjectExtension</unmanagedCodeEntityReference>
-              </para>
-            </TD>
-            <TD>
-              <para>The file name extension of the project file, including the period; for example, .proj.</para>
-            </TD>
-            <TD>
-              <para>Reserved</para>
-            </TD>
-          </tr>
-          <tr>
-            <TD>
-              <para>
-                <unmanagedCodeEntityReference>MSBuildProjectFile</unmanagedCodeEntityReference>
-              </para>
-            </TD>
-            <TD>
-              <para>The complete file name of the project file, including the file name extension; for example, MyApp.proj.</para>
-            </TD>
-            <TD>
-              <para>Reserved</para>
-            </TD>
-          </tr>
-          <tr>
-            <TD>
-              <para>
-                <unmanagedCodeEntityReference>MSBuildProjectFullPath</unmanagedCodeEntityReference>
-              </para>
-            </TD>
-            <TD>
-              <para>The absolute path and complete file name of the project file, including the file name extension; for example, C:\MyCompany\MyProduct\MyApp.proj.</para>
-            </TD>
-            <TD>
-              <para>Reserved</para>
-            </TD>
-          </tr>
-          <tr>
-            <TD>
-              <para>
-                <unmanagedCodeEntityReference>MSBuildProjectName</unmanagedCodeEntityReference>
-              </para>
-            </TD>
-            <TD>
-              <para>The file name of the project file without the file name extension; for example, MyApp.</para>
-            </TD>
-            <TD>
-              <para>Reserved</para>
-            </TD>
-          </tr>
-          <tr>
-            <TD>
-              <para>
-                <unmanagedCodeEntityReference>MSBuildStartupDirectory</unmanagedCodeEntityReference>
-              </para>
-            </TD>
-            <TD>
-              <para>The absolute path of the folder where <token>vstecmsbuild</token> is called. By using this property, you can build everything below a specific point in a project tree without creating dirs.proj files in every directory. Instead, you have just one project—for example, c:\traversal.proj, as shown here:</para>
-              <para><codeInline>&lt;Project ...&gt;
-    &lt;ItemGroup&gt;
-        &lt;ProjectFiles  
-           Include="$
-           (MSBuildStartupDirectory)
-           **\*.csproj"/&gt;
-    &lt;/ItemGroup&gt;
-    &lt;Target Name="build"&gt;
-        &lt;MSBuild    
-        Projects="@(ProjectFiles)"/&gt;
-    &lt;/Target&gt;
-&lt;/Project&gt;</codeInline></para>
-              <para>To build at any point in the tree, type:</para>
-              <para><codeInline>msbuild c:\traversal.proj</codeInline></para>
-              <para>Do not include the final backslash on this property.</para>
-            </TD>
-            <TD>
-              <para>Reserved</para>
-            </TD>
-          </tr>
-          <tr>
-            <TD>
-              <para>
-                <unmanagedCodeEntityReference>MSBuildThisFile</unmanagedCodeEntityReference>
-              </para>
-            </TD>
-            <TD>
-              <para>The file name and file extension portion of <unmanagedCodeEntityReference>MSBuildThisFileFullPath</unmanagedCodeEntityReference>.</para>
-            </TD>
-            <TD>
-              <para>Reserved</para>
-            </TD>
-          </tr>
-          <tr>
-            <TD>
-              <para>
-                <unmanagedCodeEntityReference>MSBuildThisFileDirectory</unmanagedCodeEntityReference>
-              </para>
-            </TD>
-            <TD>
-              <para>The directory portion of <unmanagedCodeEntityReference>MSBuildThisFileFullPath</unmanagedCodeEntityReference>.</para>
-              <para>Include the final backslash in the path.</para>
-            </TD>
-            <TD>
-              <para>Reserved</para>
-            </TD>
-          </tr>
-          <tr>
-            <TD>
-              <para>
-                <unmanagedCodeEntityReference>MSBuildThisFileDirectoryNoRoot</unmanagedCodeEntityReference>
-              </para>
-            </TD>
-            <TD>
-              <para>The directory portion of <unmanagedCodeEntityReference>MSBuildThisFileFullPath</unmanagedCodeEntityReference>, excluding the root drive.</para>
-              <para>Include the final backslash in the path.</para>
-            </TD>
-            <TD>
-              <para>Reserved</para>
-            </TD>
-          </tr>
-          <tr>
-            <TD>
-              <para>
-                <unmanagedCodeEntityReference>MSBuildThisFileExtension</unmanagedCodeEntityReference>
-              </para>
-            </TD>
-            <TD>
-              <para>The file name extension portion of <unmanagedCodeEntityReference>MSBuildThisFileFullPath</unmanagedCodeEntityReference>.</para>
-            </TD>
-            <TD>
-              <para>Reserved</para>
-            </TD>
-          </tr>
-          <tr>
-            <TD>
-              <para>
-                <unmanagedCodeEntityReference>MSBuildThisFileFullPath</unmanagedCodeEntityReference>
-              </para>
-            </TD>
-            <TD>
-              <para>The absolute path of the project or targets file that contains the target that is running.</para>
-              <para>Tip: You can specify a relative path in a targets file that's relative to the targets file and not relative to the original project file.</para>
-            </TD>
-            <TD>
-              <para>Reserved</para>
-            </TD>
-          </tr>
-          <tr>
-            <TD>
-              <para>
-                <unmanagedCodeEntityReference>MSBuildThisFileName</unmanagedCodeEntityReference>
-              </para>
-            </TD>
-            <TD>
-              <para>The file name portion of <unmanagedCodeEntityReference>MSBuildThisFileFullPath</unmanagedCodeEntityReference>, without the file name extension.</para>
-            </TD>
-            <TD>
-              <para>Reserved</para>
-            </TD>
-          </tr>
-          <tr>
-            <TD>
-              <para>
-                <unmanagedCodeEntityReference>MSBuildToolsPath</unmanagedCodeEntityReference>
-              </para>
-            </TD>
-            <TD>
-              <para>The installation path of the <token>vstecmsbuild</token> version that's associated with the value of <unmanagedCodeEntityReference>MSBuildToolsVersion</unmanagedCodeEntityReference>.</para>
-              <para>Do not include the final backslash in the path.</para>
-              <para>This property cannot be overridden.</para>
-            </TD>
-            <TD>
-              <para>Reserved</para>
-            </TD>
-          </tr>
-          <tr>
-            <TD>
-              <para>
-                <unmanagedCodeEntityReference>MSBuildToolsVersion</unmanagedCodeEntityReference>
-              </para>
-            </TD>
-            <TD>
-              <para>The version of the <token>vstecmsbuild</token> Toolset that is used to build the project.</para>
-              <para>Note: An <token>vstecmsbuild</token> Toolset consists of tasks, targets, and tools that are used to build an application. The tools include compilers such as csc.exe and vbc.exe. For more information, see \<link xlink:href="40040ee7-4620-4043-a6d8-ccba921421d1">MSBuild Toolset (ToolsVersion)</link>, and \<link xlink:href="15a048c8-5ad3-448e-b6e9-e3c5d7147ed2">Standard and Custom Toolset Configurations</link>.</para>
-            </TD>
-            <TD>
-              <para>Reserved</para>
-            </TD>
-          </tr>
-        </tbody>
-      </table>
-    </content>
-  </section>
-  <relatedTopics>
-\<link xlink:href="093395e1-70da-4f74-b34d-046c5e2b32e8">MSBuild Reference</link>
-
-</relatedTopics>
-</developerReferenceWithoutSyntaxDocument>
+[!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] provides a set of predefined properties that store information about the project file and the [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] binaries. These properties are evaluated in the same manner as other [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] properties. For example, to use the `MSBuildProjectFile` property, you type `$(MSBuildProjectFile)`.  
+  
+ MSBuild uses the values in the following table to predefine reserved and well-known properties. Reserved properties cannot be overridden, but well-known properties can be overridden by using identically named environment properties, global properties, or properties that are declared in the project file.  
+  
+## Reserved and Well-Known Properties  
+ The following table describes the [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] predefined properties.  
+  
+|Property|Description|Reserved or Well-Known|  
+|--------------|-----------------|-----------------------------|  
+|`MSBuildBinPath`|The absolute path of the folder where the [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] binaries that are currently being used are located (for example, C:\Windows\Microsoft.Net\Framework\\*versionNumber*). This property is useful if you have to refer to files in the [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] directory.<br /><br /> Do not include the final backslash on this property.|Reserved|  
+|`MSBuildExtensionsPath`|Introduced in the .NET Framework 4: there is no difference between the default values of `MSBuildExtensionsPath` and `MSBuildExtensionsPath32`. You can set the environment variable `MSBUILDLEGACYEXTENSIONSPATH` to a non-null value to enable the behavior of the default value of `MSBuildExtensionsPath` in earlier versions.<br /><br /> In the .NET Framework 3.5 and earlier, the default value of `MSBuildExtensionsPath` points to the path of the MSBuild subfolder under the \Program Files\ or \Program Files (x86) folder, depending on the bitness of the current process. For example, for a 32-bit process on a 64-bit machine, this property points to the \Program Files (x86) folder. For a 64-bit process on a 64-bit machine, this property points to the \Program Files folder.<br /><br /> Do not include the final backslash on this property.<br /><br /> This location is a useful place to put custom target files. For example, your target files could be installed at \Program Files\MSBuild\MyFiles\Northwind.targets and then imported in project files by using this XML code:<br /><br /> `<Import Project="$(MSBuildExtensionsPath)\MyFiles\Northwind.targets"/>`|Well-Known|  
+|`MSBuildExtensionsPath32`|The path of the [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] subfolder under the \Program Files or \Program Files (x86) folder. This path always points to the 32-bit \Program Files folder on a 32-bit machine and \Program Files (x86) on a 64-bit machine. See also `MSBuildExtensionsPath` and `MSBuildExtensionsPath64`.<br /><br /> Do not include the final backslash on this property.|Well-Known|  
+`MSBuildExtensionsPath64`|The path of the [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] subfolder under the \Program Files folder. For a 64-bit machine, this path always points to the \Program Files folder. For a 32-bit machine, this path is blank. See also `MSBuildExtensionsPath` and `MSBuildExtensionsPath32`.<br /><br /> Do not include the final backslash on this property.|Well-Known|  
+|`MSBuildLastTaskResult`|`true` if the previous task completed without any errors (even if there were warnings), or `false` if the previous task had errors. Typically, when an error occurs in a task, the error is the last thing that happens in that project. Therefore, the value of this property is never `false`, except in these scenarios:<br /><br /> - When the `ContinueOnError` attribute of the [Task Element (MSBuild)](../reference/task-element--msbuild-.md) is set to `WarnAndContinue` (or `true`) or `ErrorAndContinue`.<br /><br /> - When the `Target` has an [OnError Element (MSBuild)](../reference/onerror-element--msbuild-.md) as a child element.|Reserved|  
+|`MSBuildNodeCount`|The maximum number of concurrent processes that are used when building. This is the value that you specified for **/maxcpucount** on the command line. If you specified **/maxcpucount** without specifying a value, then `MSBuildNodeCount` specifies the number of processors in the computer. For more information, see [Command-Line Reference](../reference/msbuild-command-line-reference.md) and [Building Multiple Projects in Parallel](../reference/building-multiple-projects-in-parallel-with-msbuild.md).|Reserved|  
+|`MSBuildProgramFiles32`|The location of the 32-bit program folder; for example, `C:\Program Files (x86)`.<br /><br /> Do not include the final backslash on this property.|Reserved|  
+|`MSBuildProjectDefaultTargets`|The complete list of targets that are specified in the `DefaultTargets` attribute of the `Project` element. For example, the following `Project` element would have an `MSBuildDefaultTargets` property value of `A;B;C`:<br /><br /> `<Project DefaultTargets="A;B;C" >`|Reserved|  
+|`MSBuildProjectDirectory`|The absolute path of the directory where the project file is located, for example `C:\MyCompany\MyProduct`.<br /><br /> Do not include the final backslash on this property.|Reserved|  
+|`MSBuildProjectDirectoryNoRoot`|The value of the `MSBuildProjectDirectory` property, excluding the root drive.<br /><br /> Do not include the final backslash on this property.|Reserved|  
+|`MSBuildProjectExtension`|The file name extension of the project file, including the period; for example, .proj.|Reserved|  
+|`MSBuildProjectFile`|The complete file name of the project file, including the file name extension; for example, MyApp.proj.|Reserved|  
+|`MSBuildProjectFullPath`|The absolute path and complete file name of the project file, including the file name extension; for example, C:\MyCompany\MyProduct\MyApp.proj.|Reserved|  
+|`MSBuildProjectName`|The file name of the project file without the file name extension; for example, MyApp.|Reserved|  
+|`MSBuildStartupDirectory`|The absolute path of the folder where [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] is called. By using this property, you can build everything below a specific point in a project tree without creating dirs.proj files in every directory. Instead, you have just one project—for example, c:\traversal.proj, as shown here:<br /><br /> `<Project ...>     <ItemGroup>         <ProjectFiles              Include="$            (MSBuildStartupDirectory)            **\*.csproj"/>     </ItemGroup>     <Target Name="build">         <MSBuild             Projects="@(ProjectFiles)"/>     </Target> </Project>`<br /><br /> To build at any point in the tree, type:<br /><br /> `msbuild c:\traversal.proj`<br /><br /> Do not include the final backslash on this property.|Reserved|  
+|`MSBuildThisFile`|The file name and file extension portion of `MSBuildThisFileFullPath`.|Reserved|  
+|`MSBuildThisFileDirectory`|The directory portion of `MSBuildThisFileFullPath`.<br /><br /> Include the final backslash in the path.|Reserved|  
+|`MSBuildThisFileDirectoryNoRoot`|The directory portion of `MSBuildThisFileFullPath`, excluding the root drive.<br /><br /> Include the final backslash in the path.|Reserved|  
+|`MSBuildThisFileExtension`|The file name extension portion of `MSBuildThisFileFullPath`.|Reserved|  
+|`MSBuildThisFileFullPath`|The absolute path of the project or targets file that contains the target that is running.<br /><br /> Tip: You can specify a relative path in a targets file that's relative to the targets file and not relative to the original project file.|Reserved|  
+|`MSBuildThisFileName`|The file name portion of `MSBuildThisFileFullPath`, without the file name extension.|Reserved|  
+|`MSBuildToolsPath`|The installation path of the [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] version that's associated with the value of `MSBuildToolsVersion`.<br /><br /> Do not include the final backslash in the path.<br /><br /> This property cannot be overridden.|Reserved|  
+|`MSBuildToolsVersion`|The version of the [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] Toolset that is used to build the project.<br /><br /> Note: An [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] Toolset consists of tasks, targets, and tools that are used to build an application. The tools include compilers such as csc.exe and vbc.exe. For more information, see [Toolset (ToolsVersion)](../reference/msbuild-toolset--toolsversion-.md), and [Standard and Custom Toolset Configurations](../reference/standard-and-custom-toolset-configurations.md).|Reserved|  
+  
+## See Also  
+ [MSBuild Reference](../reference/msbuild-reference.md)

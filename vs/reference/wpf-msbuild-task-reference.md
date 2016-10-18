@@ -1,7 +1,7 @@
 ---
 title: "WPF MSBuild Task Reference"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -70,4 +70,4 @@ The Windows Presentation Foundation (WPF) build process extends Microsoft build 
  Adds the **\<hostInBrowser />** element to the application manifest (*projectname*.exe.manifest) when a [!INCLUDE[TLA#tla_xbap](../reference/includes/tlasharptla_xbap_md.md)] project is built.  
   
 ## See Also  
- [MSBuild](http://msdn.microsoft.com/7c49aba1-ee6c-47d8-9de1-6f29a906e20b)
+ [MSBuild](http://msdn.microsoft.com/en-us/7c49aba1-ee6c-47d8-9de1-6f29a906e20b)

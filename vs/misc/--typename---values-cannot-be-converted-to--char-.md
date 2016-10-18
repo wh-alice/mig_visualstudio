@@ -1,7 +1,7 @@
 ---
 title: "&#39;&lt;typename&gt;&#39; values cannot be converted to &#39;Char&#39;"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -46,6 +46,6 @@ translation.priority.mt:
 -   Use the `ChrW` function to convert a numeric value to a Unicode character, or first convert the value to `String` and then to `Char`.  
   
 ## See Also  
- [NOT IN BUILD: Chr, ChrW Functions](http://msdn.microsoft.com/37f3c707-8a6f-4c51-9b02-9e634c4299ab)   
+ [NOT IN BUILD: Chr, ChrW Functions](http://msdn.microsoft.com/en-us/37f3c707-8a6f-4c51-9b02-9e634c4299ab)   
  [Implicit and Explicit Conversions](../Topic/Implicit%20and%20Explicit%20Conversions%20\(Visual%20Basic\).md)   
  [Char Data Type](../Topic/Char%20Data%20Type%20\(Visual%20Basic\).md)

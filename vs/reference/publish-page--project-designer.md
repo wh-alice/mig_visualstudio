@@ -1,7 +1,7 @@
 ---
 title: "Publish Page, Project Designer"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -61,19 +61,19 @@ The **Publish** page of the **Project Designer** is used to configure properties
  For WPF Web Browser Applications, the **The application is available offline as well** option is disabled, because such applications are available only online.  
   
  **Application Files**  
- Opens the [Application Files Dialog Box](http://msdn.microsoft.com/b06dff3a-b87a-4caf-996b-7a4acf8137a8), which is used to specify how and where individual files are installed.  
+ Opens the [Application Files Dialog Box](http://msdn.microsoft.com/en-us/b06dff3a-b87a-4caf-996b-7a4acf8137a8), which is used to specify how and where individual files are installed.  
   
  **Prerequisites**  
  Opens the [Prerequisites Dialog Box](../reference/prerequisites-dialog-box.md), which is used to specify prerequisite components, such as the .NET Framework, to be installed together with the application.  
   
  **Updates**  
- Opens the [Application Updates Dialog Box](http://msdn.microsoft.com/8eca8743-8e68-4d04-bfd5-4dc0a9b2934f), which is used to specify update behavior for the application. Not available when **The application is available online only** is selected.  
+ Opens the [Application Updates Dialog Box](http://msdn.microsoft.com/en-us/8eca8743-8e68-4d04-bfd5-4dc0a9b2934f), which is used to specify update behavior for the application. Not available when **The application is available online only** is selected.  
   
  **Options**  
- Opens the [Publish Options Dialog Box](http://msdn.microsoft.com/fd9baa1b-7311-4f9e-8ffb-ae50cf110592), which is used to specify additional advanced publishing options.  
+ Opens the [Publish Options Dialog Box](http://msdn.microsoft.com/en-us/fd9baa1b-7311-4f9e-8ffb-ae50cf110592), which is used to specify additional advanced publishing options.  
   
  **Publish Version**  
- Sets the publish version number for the application; when the version number is changed, the application is published as an update. Each part of the publish version (**Major**, **Minor**, **Build**, **Revision**) can have a maximum value of 65355 (\<xref:System.UInt16.MaxValue>), the maximum allowed by \<xref:System.Version>.  
+ Sets the publish version number for the application; when the version number is changed, the application is published as an update. Each part of the publish version (**Major**, **Minor**, **Build**, **Revision**) can have a maximum value of 65355 (<xref:System.UInt16.MaxValue>), the maximum allowed by <xref:System.Version>.  
   
  When you install more than one version of an application by using ClickOnce, the installation moves earlier versions of the application into a folder named Archive, in the publish location that you specify. Archiving earlier versions in this manner keeps the installation directory clear of folders from the earlier version.  
   
@@ -81,7 +81,7 @@ The **Publish** page of the **Project Designer** is used to configure properties
  Optional. When this option is selected (the default), the **Revision** part of the publish version number is incremented by one every time that the application is published. This causes the application to be published as an update.  
   
  **Publish Wizard**  
- Opens the [Publish Wizard](http://msdn.microsoft.com/fc6abebd-13d6-48e4-a567-fbc52dad0872). Completing the Publish Wizard has the same effect as running the **Publish** command on the **Build** menu.  
+ Opens the [Publish Wizard](http://msdn.microsoft.com/en-us/fc6abebd-13d6-48e4-a567-fbc52dad0872). Completing the Publish Wizard has the same effect as running the **Publish** command on the **Build** menu.  
   
  **Publish Now**  
  Publishes the application using the current settings. Equivalent to the **Finish** button in the **PublishWizard**.  

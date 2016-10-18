@@ -1,7 +1,7 @@
 ---
 title: "&#39;New&#39; cannot be used on a type parameter that does not have a &#39;New&#39; constraint"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na

@@ -1,7 +1,7 @@
 ---
 title: "Read XML data into a dataset"
 ms.custom: na
-ms.date: "10/07/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -42,7 +42,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Read XML data into a dataset
-ADO.NET provides simple methods for working with XML data. In this walkthrough, you  create a Windows application that  loads XML data into a dataset. The dataset is then displayed in a \<xref:System.Windows.Forms.DataGridView> control. Finally, an XML schema based on the contents of the XML file is displayed in a text box.  
+ADO.NET provides simple methods for working with XML data. In this walkthrough, you  create a Windows application that  loads XML data into a dataset. The dataset is then displayed in a <xref:System.Windows.Forms.DataGridView> control. Finally, an XML schema based on the contents of the XML file is displayed in a text box.  
   
  This walkthrough consists of five main steps:  
   
@@ -52,12 +52,12 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
   
 3.  Creating the user interface  
   
-4.  Creating the dataset, reading the XML file, and displaying it in a \<xref:System.Windows.Forms.DataGridView> control  
+4.  Creating the dataset, reading the XML file, and displaying it in a <xref:System.Windows.Forms.DataGridView> control  
   
-5.  Adding code to display the XML schema based on the XML file in a \<xref:System.Windows.Forms.TextBox> control  
+5.  Adding code to display the XML schema based on the XML file in a <xref:System.Windows.Forms.TextBox> control  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or the edition you're using. To change your settings, on the  **Tools** menu, select**Import and Export Settings**. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or the edition you're using. To change your settings, on the  **Tools** menu, select**Import and Export Settings**. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## Create a new project  
  In this step, you  create a Visual Basic or Visual C# project that  contains this walkthrough.  
@@ -150,15 +150,15 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
 ## Create the user interface  
  The user interface for this application consists of the following:  
   
--   A \<xref:System.Windows.Forms.DataGridView> control that displays the contents of the XML file as data.  
+-   A <xref:System.Windows.Forms.DataGridView> control that displays the contents of the XML file as data.  
   
--   A \<xref:System.Windows.Forms.TextBox> control that displays the XML schema for the XML file.  
+-   A <xref:System.Windows.Forms.TextBox> control that displays the XML schema for the XML file.  
   
--   Two \<xref:System.Windows.Forms.Button> controls.  
+-   Two <xref:System.Windows.Forms.Button> controls.  
   
-    -   One button reads the XML file into the dataset and displays it in the \<xref:System.Windows.Forms.DataGridView> control.  
+    -   One button reads the XML file into the dataset and displays it in the <xref:System.Windows.Forms.DataGridView> control.  
   
-    -   A second button extracts the schema from the dataset, and through a \<xref:System.IO.StringWriter,> displays it in the \<xref:System.Windows.Forms.TextBox> control.  
+    -   A second button extracts the schema from the dataset, and through a <xref:System.IO.StringWriter,> displays it in the <xref:System.Windows.Forms.TextBox> control.  
   
 #### To add controls to the form  
   
@@ -166,11 +166,11 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
   
 2.  From the **Toolbox**, drag the following controls onto the form:  
   
-    -   One \<xref:System.Windows.Forms.DataGridView> control  
+    -   One <xref:System.Windows.Forms.DataGridView> control  
   
-    -   One \<xref:System.Windows.Forms.TextBox> control  
+    -   One <xref:System.Windows.Forms.TextBox> control  
   
-    -   Two \<xref:System.Windows.Forms.Button> controls  
+    -   Two <xref:System.Windows.Forms.Button> controls  
   
 3.  Set the following properties:  
   
@@ -196,10 +196,10 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
   
      **DataSet1** is added to the component tray.  
   
-4.  In the **Properties** window, set the **Name** and \<xref:System.Data.DataSet.DataSetName*> properties for`AuthorsDataSet`.  
+4.  In the **Properties** window, set the **Name** and <xref:System.Data.DataSet.DataSetName*> properties for`AuthorsDataSet`.  
   
 ## Create the event handler to read the XML file into the dataset  
- The **Read XML** button reads the XML file into the dataset. It then sets properties on the \<xref:System.Windows.Forms.DataGridView> control that bind it to the dataset.  
+ The **Read XML** button reads the XML file into the dataset. It then sets properties on the <xref:System.Windows.Forms.DataGridView> control that bind it to the dataset.  
   
 #### To add code to the ReadXmlButton_Click event handler  
   
@@ -217,7 +217,7 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
 4.  In the `ReadXMLButton_Click` event handler code, change the `filepath =` entry to the correct path.  
   
 ## Create the event handler to display the schema in the textbox  
- The **Show Schema** button creates a \<xref:System.IO.StringWriter> object that's filled with the schema and is displayed in the \<xref:System.Windows.Forms.TextBox>control.  
+ The **Show Schema** button creates a <xref:System.IO.StringWriter> object that's filled with the schema and is displayed in the <xref:System.Windows.Forms.TextBox>control.  
   
 #### To add code to the ShowSchemaButton_Click event handler  
   
@@ -250,7 +250,7 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
 ## Next Steps  
  This walkthrough teaches you the basics of reading an XML file into a dataset, as well as creating a schema based on the contents of the XML file. Here are some tasks that you might do next:  
   
--   Edit the data in the dataset and write it back out as XML. For more information, see \<xref:System.Data.DataSet.WriteXml*>.  
+-   Edit the data in the dataset and write it back out as XML. For more information, see <xref:System.Data.DataSet.WriteXml*>.  
   
 -   Edit the data in the dataset and write it out to a database. For more information, see [Saving Data](../datatools/saving-data.md).  
   

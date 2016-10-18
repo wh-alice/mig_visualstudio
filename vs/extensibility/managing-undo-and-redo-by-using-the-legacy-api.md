@@ -1,7 +1,7 @@
 ---
 title: "Managing Undo and Redo by Using the Legacy API"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,7 +44,7 @@ Editors must support undo operations that let users reverse their recent changes
  Incorporates linked undo management into your editor.  
   
 ## Reference  
- \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsChangeTrackingUndoManager>  
+ <xref:Microsoft.VisualStudio.TextManager.Interop.IVsChangeTrackingUndoManager>  
  Provides undo management for an editor that supports multiple views.  
   
 ## Related Sections

@@ -1,7 +1,7 @@
 ---
 title: "Menus and Commands for Visual Studio"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -242,7 +242,7 @@ translation.priority.mt:
   
 #### When naming commands:  
   
--   Construct text so that it is easily localizable. For more about localizing text, see [World Readiness for Visual Studio](http://msdn.microsoft.com/1cc35051-8126-441f-bea9-059245a47b1d).  
+-   Construct text so that it is easily localizable. For more about localizing text, see [World Readiness for Visual Studio](http://msdn.microsoft.com/en-us/1cc35051-8126-441f-bea9-059245a47b1d).  
   
 -   Be concise. Commands should use no more than three words.  
   

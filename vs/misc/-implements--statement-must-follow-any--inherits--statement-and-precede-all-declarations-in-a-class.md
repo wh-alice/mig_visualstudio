@@ -1,7 +1,7 @@
 ---
 title: "&#39;Implements&#39; statement must follow any &#39;Inherits&#39; statement and precede all declarations in a class"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na

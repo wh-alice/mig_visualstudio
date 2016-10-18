@@ -1,7 +1,7 @@
 ---
 title: "Cannot convert &#39;type1&#39; to &#39;type2&#39;"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -43,10 +43,10 @@ Cannot convert 'type1' to 'type2'. You can use the 'Value' property to get the s
   
 ### To correct this error  
   
--   Use the `Value` property of the XML literal to reference its value as a `String`. Use the `CType` function, another type conversion function, or the \<xref:System.Convert> class to cast the value as the specified type.  
+-   Use the `Value` property of the XML literal to reference its value as a `String`. Use the `CType` function, another type conversion function, or the <xref:System.Convert> class to cast the value as the specified type.  
   
 ## See Also  
- \<xref:System.Convert>   
+ <xref:System.Convert>   
  [Accessing XML in Visual Basic](../Topic/Accessing%20XML%20in%20Visual%20Basic.md)   
  [Type Conversion Functions](../Topic/Type%20Conversion%20Functions%20\(Visual%20Basic\).md)   
  [XML Literals](../Topic/XML%20Literals%20\(Visual%20Basic\).md)   

@@ -1,7 +1,7 @@
 ---
 title: "Assembly &#39;&lt;assemblyname&gt;&#39; cannot be created because its path is longer than 259 characters"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,4 +44,4 @@ The path for this assembly exceeds the maximum length of 259 characters.
 -   Create a shorter path by using shorter names or selecting a shallower file hierarchy.  
   
 ## See Also  
- [NOT IN BUILD: Assemblies](http://msdn.microsoft.com/6c5c7b30-fa78-4f40-b908-120d0743b0e6)
+ [NOT IN BUILD: Assemblies](http://msdn.microsoft.com/en-us/6c5c7b30-fa78-4f40-b908-120d0743b0e6)

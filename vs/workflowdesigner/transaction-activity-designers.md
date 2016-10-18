@@ -31,19 +31,19 @@ Transaction activity designers are used to create and configure transactional ac
   
 ## In This Section  
  [CancellationScope](../workflowdesigner/cancellationscope-activity-designer.md)  
- Used to create and configure a \<xref:System.Activities.Statements.CancellationScope> activity.  
+ Used to create and configure a <xref:System.Activities.Statements.CancellationScope> activity.  
   
  [CompensableActivity](../workflowdesigner/compensableactivity-activity-designer.md)  
- Used to create and configure a \<xref:System.Activities.Statements.CompensableActivity> activity.  
+ Used to create and configure a <xref:System.Activities.Statements.CompensableActivity> activity.  
   
  [Compensate](../workflowdesigner/compensate-activity-designer.md)  
- Used to create and configure a \<xref:System.Activities.Statements.Compensate> activity.  
+ Used to create and configure a <xref:System.Activities.Statements.Compensate> activity.  
   
  [Confirm](../workflowdesigner/confirm-activity-designer.md)  
- Used to create and configure a \<xref:System.Activities.Statements.Confirm> activity.  
+ Used to create and configure a <xref:System.Activities.Statements.Confirm> activity.  
   
  [TransactionScope](../workflowdesigner/transactionscope-activity-designer.md)  
- Used to create and configure a \<xref:System.Activities.Statements.TransactionScope> activity.  
+ Used to create and configure a <xref:System.Activities.Statements.TransactionScope> activity.  
   
 ## Reference  
   

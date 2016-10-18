@@ -1,7 +1,7 @@
 ---
 title: "Create and configure datasets in Visual Studio"
 ms.custom: na
-ms.date: "10/07/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -38,7 +38,7 @@ translation.priority.mt:
 # Create and configure datasets in Visual Studio
 A *dataset* is a set of objects that store data from a database in memory and support change tracking to enable create, read, update and delete (CRUD) operations on that data without the need to be always connected to the database. Datasets were designed for simple *forms over data* business applications. For new applications, consider using Entity Framework to store and model data in memory. To work with datasets, you should have a basic knowledge of database concepts.  
   
- You create a typed \<xref:System.Data.DataSet> class in Visual Studio at design time by using the **Data Source Configuration Wizard**. For information on creating datasets programmatically, see [Creating a DataSet](../Topic/Creating%20a%20DataSet.md).  
+ You create a typed <xref:System.Data.DataSet> class in Visual Studio at design time by using the **Data Source Configuration Wizard**. For information on creating datasets programmatically, see [Creating a DataSet](../Topic/Creating%20a%20DataSet.md).  
   
 ## Create a new dataset by using the Data Source Configuration Wizard  
   
@@ -97,7 +97,7 @@ A *dataset* is a set of objects that store data from a database in memory and su
   
 1.  Open your dataset in the **Dataset Designer**.  
   
-2.  Drag a \<xref:System.Data.DataTable> class from the **DataSet** tab of the **Toolbox** onto the **Dataset Designer**.  
+2.  Drag a <xref:System.Data.DataTable> class from the **DataSet** tab of the **Toolbox** onto the **Dataset Designer**.  
   
 3.  Add columns to define your data table. For more information, see [How to: Add Columns to a DataTable](../Topic/How%20to:%20Add%20Columns%20to%20a%20DataTable.md).  
   

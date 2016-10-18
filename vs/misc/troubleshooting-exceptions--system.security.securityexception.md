@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.Security.SecurityException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -40,16 +40,16 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.Security.SecurityException
-A \<xref:System.Security.SecurityException> exception is thrown when a security error is detected.  
+A <xref:System.Security.SecurityException> exception is thrown when a security error is detected.  
   
 ## Associated Tips  
  Adjust the permission level of the assembly via the property page.  
- For more information, see \<xref:Microsoft.VisualStudio.VCProjectEngine.VCConfiguration.SqlPermissionLevel*>.  
+ For more information, see <xref:Microsoft.VisualStudio.VCProjectEngine.VCConfiguration.SqlPermissionLevel*>.  
   
  Store application data in isolated storage.  
  Isolated storage is a data storage that provides isolation and safety by defining standardized ways of associating code with saved data. For more information, [Isolated Storage](../Topic/Isolated%20Storage.md).  
   
- If using \<xref:System.Windows.Forms.OpenFileDialog> , use the \<xref:System.Windows.Forms.OpenFileDialog.OpenFile*> method to open or save a file.  
+ If using <xref:System.Windows.Forms.OpenFileDialog> , use the <xref:System.Windows.Forms.OpenFileDialog.OpenFile*> method to open or save a file.  
  This allows the application to perform in a partial-trust situation.  
   
  Make sure the application is reading and writing to existing event logs on the local computer.  
@@ -59,10 +59,10 @@ A \<xref:System.Security.SecurityException> exception is thrown when a security 
  An equivalent API may exist in the Framework. For more information, see [Troubleshooting Interoperability](../Topic/Troubleshooting%20Interoperability%20\(Visual%20Basic\).md).  
   
  Use safe windows.  
- The \<xref:System.Security.Permissions.UIPermissionWindow> enumeration specifies the type of windows that code is allowed to use.  
+ The <xref:System.Security.Permissions.UIPermissionWindow> enumeration specifies the type of windows that code is allowed to use.  
   
- Allow users to print through the \<xref:System.Windows.Forms.PrintDialog> component.  
- This allows the application to perform in a partial-trust situation. For more information, see \<xref:System.Windows.Forms.PrintDialog>.  
+ Allow users to print through the <xref:System.Windows.Forms.PrintDialog> component.  
+ This allows the application to perform in a partial-trust situation. For more information, see <xref:System.Windows.Forms.PrintDialog>.  
   
  Print to the default printer.  
  This allows the application to perform in a partial-trust situation. You may be trying to access a printer to which you do not have rights.  
@@ -77,5 +77,5 @@ A \<xref:System.Security.SecurityException> exception is thrown when a security 
  For more information, see [Caspol.exe (Code Access Security Policy Tool)](../Topic/Caspol.exe%20\(Code%20Access%20Security%20Policy%20Tool\).md).  
   
 ## See Also  
- \<xref:System.Security.SecurityException>   
+ <xref:System.Security.SecurityException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

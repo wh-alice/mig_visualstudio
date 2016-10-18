@@ -1,7 +1,7 @@
 ---
 title: "The file &#39;&lt;filename&gt;&#39; is not a text file"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -46,5 +46,5 @@ The specified file cannot be written to because it is a binary file.
 ## See Also  
  [Writing to Files](../Topic/Writing%20to%20Files%20in%20Visual%20Basic.md)   
  [How to: Parse File Paths](../Topic/How%20to:%20Parse%20File%20Paths%20in%20Visual%20Basic.md)   
- [My.Computer.FileSystem.WriteAllText Method](http://msdn.microsoft.com/f507460c-87d9-4504-b74f-3ff825c7d5c4)   
- [My.Computer.FileSystem.WriteAllBytes Method](http://msdn.microsoft.com/b1a24dc1-eac8-4e22-8ffa-cc3bacbaf826)
+ [My.Computer.FileSystem.WriteAllText Method](http://msdn.microsoft.com/en-us/f507460c-87d9-4504-b74f-3ff825c7d5c4)   
+ [My.Computer.FileSystem.WriteAllBytes Method](http://msdn.microsoft.com/en-us/b1a24dc1-eac8-4e22-8ffa-cc3bacbaf826)

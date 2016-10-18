@@ -1,7 +1,7 @@
 ---
 title: "Could not generate the binary licenses file. The output file &#39;file&#39; could not be opened. &lt;reason&gt;"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na

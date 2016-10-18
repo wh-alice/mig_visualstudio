@@ -1,7 +1,7 @@
 ---
 title: "How to: Create TableAdapter Queries"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -68,7 +68,7 @@ TableAdapter queries are SQL statements or stored procedures that your applicati
 4.  Complete the wizard; the query is added to the TableAdapter.  
   
 ## Create a Query Directly on a Form in Your Windows Application  
- If you have an instance of a TableAdapter on your form you can add a query using the [Search Criteria Builder Dialog Box](../Topic/Search%20Criteria%20Builder%20Dialog%20Box.md), which adds a \<xref:System.Windows.Forms.ToolStrip> control to the form that accepts any input parameters required by the query, as well as a button to run the query.  
+ If you have an instance of a TableAdapter on your form you can add a query using the [Search Criteria Builder Dialog Box](../Topic/Search%20Criteria%20Builder%20Dialog%20Box.md), which adds a <xref:System.Windows.Forms.ToolStrip> control to the form that accepts any input parameters required by the query, as well as a button to run the query.  
   
 #### To add a query to a TableAdapter using the Search Criteria dialog box  
   

@@ -1,7 +1,7 @@
 ---
 title: "Type constraint &#39;&lt;expression&gt;&#39; is not a class or interface"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -55,10 +55,10 @@ A constraint list includes an expression that does not represent a valid constra
   
 -   If the expression does not qualify for the preceding list of requirements, remove it from the constraint list.  
   
--   If the expression refers to an interface or class, verify that the compiler has access to that interface or class. You might need to qualify its name, and you might need to add a reference to your project. For more information, see "References to Projects" in [NOTINBUILD: Resolving a Reference When Multiple Variables Have the Same Name](http://msdn.microsoft.com/9601e39f-1911-44e1-ace5-3f6e090408b9).  
+-   If the expression refers to an interface or class, verify that the compiler has access to that interface or class. You might need to qualify its name, and you might need to add a reference to your project. For more information, see "References to Projects" in [NOTINBUILD: Resolving a Reference When Multiple Variables Have the Same Name](http://msdn.microsoft.com/en-us/9601e39f-1911-44e1-ace5-3f6e090408b9).  
   
 ## See Also  
  [Generic Types in Visual Basic](../Topic/Generic%20Types%20in%20Visual%20Basic%20\(Visual%20Basic\).md)   
  [Value Types and Reference Types](../Topic/Value%20Types%20and%20Reference%20Types.md)   
- [NOTINBUILD  How to: Qualify a Declared Element Name](http://msdn.microsoft.com/6bd112f5-df6f-42b8-9427-a9225bfcbaab)   
- [How to: Add and Remove Project References](http://msdn.microsoft.com/f51b784d-0bc8-4c19-a898-e560d5ed696b)
+ [NOTINBUILD  How to: Qualify a Declared Element Name](http://msdn.microsoft.com/en-us/6bd112f5-df6f-42b8-9427-a9225bfcbaab)   
+ [How to: Add and Remove Project References](http://msdn.microsoft.com/en-us/f51b784d-0bc8-4c19-a898-e560d5ed696b)

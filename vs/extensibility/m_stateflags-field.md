@@ -1,7 +1,7 @@
 ---
 title: "m_stateFlags Field"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -31,9 +31,9 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # m_stateFlags Field
-Stores information about the current state of the \<xref:System.Threading.Tasks.Task> object.  
+Stores information about the current state of the <xref:System.Threading.Tasks.Task> object.  
   
- **Namespace:** \<xref:System.Threading.Tasks?displayProperty=fullName>  
+ **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>  
   
  **Assembly:** mscorlib (in mscorlib.dll)  
   
@@ -46,7 +46,7 @@ Stores information about the current state of the \<xref:System.Threading.Tasks.
 ```  
   
 ## Remarks  
- You typically use the \<xref:System.Threading.Tasks.Task.Status*?displayProperty=fullName> property to access this value.  
+ You typically use the <xref:System.Threading.Tasks.Task.Status*?displayProperty=fullName> property to access this value.  
   
  This member can be any combination of the following values:  
   

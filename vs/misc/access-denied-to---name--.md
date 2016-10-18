@@ -1,7 +1,7 @@
 ---
 title: "Access denied to &#39;&lt;name&gt;&#39;"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,4 +37,4 @@ A device, file, or disk is not accessible because your computer's security permi
 1.  Ensure that you have the necessary permissions.  
   
 ## See Also  
- [Security Permissions](http://msdn.microsoft.com/b03757b4-e926-4196-b738-3733ced2bda0)
+ [Security Permissions](http://msdn.microsoft.com/en-us/b03757b4-e926-4196-b738-3733ced2bda0)

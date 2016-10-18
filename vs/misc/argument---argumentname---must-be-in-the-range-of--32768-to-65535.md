@@ -1,7 +1,7 @@
 ---
 title: "Argument &#39;&lt;argumentname&gt;&#39; must be in the range of -32768 to 65535"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -42,4 +42,4 @@ An argument's value falls outside the allowable range of -32,768 to 65,535.
   
 ## See Also  
  [Passing Arguments by Value and by Reference](../Topic/Passing%20Arguments%20by%20Value%20and%20by%20Reference%20\(Visual%20Basic\).md)   
- [Parameter Passing Mechanism for Visual Basic 6.0 Users](http://msdn.microsoft.com/0fa2b0dc-aa1c-4797-bbd6-aa13c611cab2)
+ [Parameter Passing Mechanism for Visual Basic 6.0 Users](http://msdn.microsoft.com/en-us/0fa2b0dc-aa1c-4797-bbd6-aa13c611cab2)

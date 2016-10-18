@@ -1,7 +1,7 @@
 ---
 title: "Compiler Error CS1608"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -38,4 +38,4 @@ translation.priority.mt:
 # Compiler Error CS1608
 The Required attribute is not permitted on C# types  
   
- \<xref:System.Runtime.CompilerServices.RequiredAttributeAttribute> is not allowed on types defined in C# code.
+ <xref:System.Runtime.CompilerServices.RequiredAttributeAttribute> is not allowed on types defined in C# code.

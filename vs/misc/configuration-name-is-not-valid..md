@@ -1,7 +1,7 @@
 ---
 title: "Configuration name is not valid."
 ms.custom: na
-ms.date: "10/12/2016"
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na

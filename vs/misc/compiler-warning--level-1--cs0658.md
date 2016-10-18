@@ -1,7 +1,7 @@
 ---
 title: "Compiler Warning (level 1) CS0658"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -38,7 +38,7 @@ translation.priority.mt:
 # Compiler Warning (level 1) CS0658
 'attribute modifier' is not a recognized attribute location. All attributes in this block will be ignored.  
   
- An invalid attribute modifier was specified. See [Attribute Targets](http://msdn.microsoft.com/59a261f0-1cfb-4aa5-b610-6b735389882c) for more information.  
+ An invalid attribute modifier was specified. See [Attribute Targets](http://msdn.microsoft.com/en-us/59a261f0-1cfb-4aa5-b610-6b735389882c) for more information.  
   
  The following sample generates CS0658:  
   

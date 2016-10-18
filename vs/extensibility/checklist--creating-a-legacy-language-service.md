@@ -1,7 +1,7 @@
 ---
 title: "Checklist: Creating a Legacy Language Service"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -36,89 +36,89 @@ The following checklist summarizes the basic steps you must take in order to cre
   
 ## Steps for Creating a Language Service  
   
-1.  Implement the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage> interface.  
+1.  Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage> interface.  
   
-    -   In your VSPackage, implement the \<xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider> interface to provide the language service.  
+    -   In your VSPackage, implement the <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider> interface to provide the language service.  
   
-    -   Make your language service available to the integrated development environment (IDE) in your \<xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.SetSite*> implementation.  
+    -   Make your language service available to the integrated development environment (IDE) in your <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.SetSite*> implementation.  
   
-2.  Implement the \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo> interface in the main language service class.  
+2.  Implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo> interface in the main language service class.  
   
-     The \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo> interface is the starting point of interaction between the core editor and the language service.  
+     The <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo> interface is the starting point of interaction between the core editor and the language service.  
   
 ### Optional Features  
  The following features are optional and can be implemented in any order. These features increase the functionality of your language service.  
   
 -   Syntax coloring  
   
-     Implement the \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer> interface. Your implementation of this interface should the parser information to return the appropriate color information.  
+     Implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer> interface. Your implementation of this interface should the parser information to return the appropriate color information.  
   
-     The \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo.GetColorizer*> method returns the \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer> interface. A separate colorizer instance is created for each text buffer, so you should implement the \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer> interface separately. For more information, see [Syntax Coloring in a Legacy Language Service](../extensibility/syntax-coloring-in-a-legacy-language-service.md).  
+     The <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo.GetColorizer*> method returns the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer> interface. A separate colorizer instance is created for each text buffer, so you should implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer> interface separately. For more information, see [Syntax Coloring in a Legacy Language Service](../extensibility/syntax-coloring-in-a-legacy-language-service.md).  
   
 -   Code window  
   
-     Implement the \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindowManager> interface to enable the language service to receive notification of when a new code window is created.  
+     Implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindowManager> interface to enable the language service to receive notification of when a new code window is created.  
   
-     The \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo.GetCodeWindowManager*> method returns the \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindowManager> interface. The language service can then add special UI to the code window in \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindowManager.AddAdornments*>. The language service can also do any special processing, such as adding a text view filter in \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindowManager.OnNewView*>.  
+     The <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo.GetCodeWindowManager*> method returns the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindowManager> interface. The language service can then add special UI to the code window in <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindowManager.AddAdornments*>. The language service can also do any special processing, such as adding a text view filter in <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindowManager.OnNewView*>.  
   
 -   Text view filter  
   
      To provide IntelliSense statement completion in a language service, you must intercept some of the commands that the text view would otherwise handle. To intercept these commands, complete the following steps:  
   
-    -   Implement \<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> to participate in the command chain and handle editor commands.  
+    -   Implement <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> to participate in the command chain and handle editor commands.  
   
-    -   Call the \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.AddCommandFilter*> method and pass in your \<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> implementation.  
+    -   Call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.AddCommandFilter*> method and pass in your <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> implementation.  
   
-    -   Call the \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.RemoveCommandFilter*> method when you detach from the view so that these commands are no longer passed to you.  
+    -   Call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.RemoveCommandFilter*> method when you detach from the view so that these commands are no longer passed to you.  
   
      Commands that must be handled depend on the services that are provided. For more information, see [Important Commands for Language Service Filters](../extensibility/important-commands-for-language-service-filters.md).  
   
     > [!NOTE]
-    >  The \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextViewFilter> interface must be implemented on the same object as the \<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface.  
+    >  The <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextViewFilter> interface must be implemented on the same object as the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface.  
   
 -   Statement completion  
   
-     Implement the \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsCompletionSet> interface.  
+     Implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCompletionSet> interface.  
   
-     Support the statement completion command (that is, \<xref:Microsoft.VisualStudio.VSConstants.VSStd2KCmdID>) and call the \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.UpdateCompletionStatus*> method in the \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> interface, passing the \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsCompletionSet> interface. For more information, see [Statement Completion in a Legacy Language Service](../extensibility/statement-completion-in-a-legacy-language-service.md).  
+     Support the statement completion command (that is, <xref:Microsoft.VisualStudio.VSConstants.VSStd2KCmdID>) and call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.UpdateCompletionStatus*> method in the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> interface, passing the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCompletionSet> interface. For more information, see [Statement Completion in a Legacy Language Service](../extensibility/statement-completion-in-a-legacy-language-service.md).  
   
 -   Method tips  
   
-     Implement the \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsMethodData> interface to provide data for the method tip window.  
+     Implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsMethodData> interface to provide data for the method tip window.  
   
      Install the text view filter to handle commands appropriately, so that you know when to show a method data tip window. For more information, see [Parameter Info in a Legacy Language Service](../extensibility/parameter-info-in-a-legacy-language-service1.md).  
   
 -   Error markers  
   
-     Implement the \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient> interface.  
+     Implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient> interface.  
   
-     Create the error marker objects that implement the \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient> interface and call the \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextLines.CreateLineMarker*> method, passing the \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient> interface of the error marker object.  
+     Create the error marker objects that implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient> interface and call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextLines.CreateLineMarker*> method, passing the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient> interface of the error marker object.  
   
      Typically each error marker manages an item in the task list window.  
   
 -   Task List items  
   
-     Implement a task item class providing the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsTaskItem> interface.  
+     Implement a task item class providing the <xref:Microsoft.VisualStudio.Shell.Interop.IVsTaskItem> interface.  
   
-     Implement a task provider class providing the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsTaskProvider> interface and the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsTaskProvider2> interface.  
+     Implement a task provider class providing the <xref:Microsoft.VisualStudio.Shell.Interop.IVsTaskProvider> interface and the <xref:Microsoft.VisualStudio.Shell.Interop.IVsTaskProvider2> interface.  
   
-     Implement a task enumerator class providing the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsEnumTaskItems> interface.  
+     Implement a task enumerator class providing the <xref:Microsoft.VisualStudio.Shell.Interop.IVsEnumTaskItems> interface.  
   
-     Register the task provider with the task list's \<xref:Microsoft.VisualStudio.Shell.Interop.IVsTaskList.RegisterTaskProvider*> method.  
+     Register the task provider with the task list's <xref:Microsoft.VisualStudio.Shell.Interop.IVsTaskList.RegisterTaskProvider*> method.  
   
-     Obtain the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsTaskList> interface by calling the language service's service provider with the service GUID \<xref:Microsoft.VisualStudio.Shell.Interop.SVsTaskList>.  
+     Obtain the <xref:Microsoft.VisualStudio.Shell.Interop.IVsTaskList> interface by calling the language service's service provider with the service GUID <xref:Microsoft.VisualStudio.Shell.Interop.SVsTaskList>.  
   
-     Create task item objects and call the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsTaskList.RefreshTasks*> method in the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsTaskList> interface when there are new or updated tasks.  
+     Create task item objects and call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsTaskList.RefreshTasks*> method in the <xref:Microsoft.VisualStudio.Shell.Interop.IVsTaskList> interface when there are new or updated tasks.  
   
 -   Comment task items  
   
-     Use the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsCommentTaskInfo> interface and the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsEnumCommentTaskTokens> interface to obtain the comment task tokens.  
+     Use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsCommentTaskInfo> interface and the <xref:Microsoft.VisualStudio.Shell.Interop.IVsEnumCommentTaskTokens> interface to obtain the comment task tokens.  
   
-     Obtain an \<xref:Microsoft.VisualStudio.Shell.Interop.IVsCommentTaskInfo> interface from the \<xref:Microsoft.VisualStudio.Shell.Interop.SVsTaskList> service.  
+     Obtain an <xref:Microsoft.VisualStudio.Shell.Interop.IVsCommentTaskInfo> interface from the <xref:Microsoft.VisualStudio.Shell.Interop.SVsTaskList> service.  
   
-     Obtain the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsEnumCommentTaskTokens> interface from the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsCommentTaskInfo.EnumTokens*> method.  
+     Obtain the <xref:Microsoft.VisualStudio.Shell.Interop.IVsEnumCommentTaskTokens> interface from the <xref:Microsoft.VisualStudio.Shell.Interop.IVsCommentTaskInfo.EnumTokens*> method.  
   
-     Implement the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsTaskListEvents> interface to listen for changes in the token list.  
+     Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsTaskListEvents> interface to listen for changes in the token list.  
   
 -   Outlining  
   
@@ -132,9 +132,9 @@ The following checklist summarizes the basic steps you must take in order to cre
   
      Provide context to the editor in one of the following ways:  
   
-    -   Provide context for text markers by implementing the \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerContextProvider> interface.  
+    -   Provide context for text markers by implementing the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerContextProvider> interface.  
   
- Provide all user context by implementing the \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageContextProvider> interface.  
+ Provide all user context by implementing the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageContextProvider> interface.  
   
 ## See Also  
  [Developing a Legacy Language Service](../extensibility/developing-a-legacy-language-service.md)   

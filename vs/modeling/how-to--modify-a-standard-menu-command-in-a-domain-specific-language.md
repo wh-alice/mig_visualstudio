@@ -1,7 +1,7 @@
 ---
 title: "How to: Modify a Standard Menu Command in a Domain-Specific Language"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -16,7 +16,7 @@ ms.author: "awills"
 manager: "kamrani"
 ---
 # How to: Modify a Standard Menu Command in a Domain-Specific Language
-You can modify the behavior of some of the standard commands that are defined automatically in your DSL. For example, you could modify **Cut** so that it excludes sensitive information. To do this, you override methods in a command set class. These classes are defined in the CommandSet.cs file, in the DslPackage project, and are derived from \<xref:Microsoft.VisualStudio.Modeling.Shell.CommandSet>.  
+You can modify the behavior of some of the standard commands that are defined automatically in your DSL. For example, you could modify **Cut** so that it excludes sensitive information. To do this, you override methods in a command set class. These classes are defined in the CommandSet.cs file, in the DslPackage project, and are derived from <xref:Microsoft.VisualStudio.Modeling.Shell.CommandSet>.  
   
  In summary, to modify a command:  
   
@@ -145,7 +145,7 @@ protected override void ProcessOnMenuDeleteCommand()
  For more information about how to navigate from element to element and about how to create objects and links, see [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md).  
   
 ## See Also  
- \<xref:System.ComponentModel.Design.MenuCommand>   
+ <xref:System.ComponentModel.Design.MenuCommand>   
  [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)   
  [How to: Add a Command to the Shortcut Menu](../modeling/how-to--add-a-command-to-the-shortcut-menu.md)   
  [Walkthrough: Getting Information from a Selected Link](../misc/walkthrough--getting-information-from-a-selected-link.md)   

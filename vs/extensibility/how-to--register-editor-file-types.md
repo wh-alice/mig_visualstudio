@@ -1,7 +1,7 @@
 ---
 title: "How to: Register Editor File Types"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,7 +37,7 @@ The easiest way to register editor file types is by using the registration attri
   
 #### To register editor file types using MPF classes  
   
-1.  Provide the \<xref:Microsoft.VisualStudio.Shell.ProvideEditorExtensionAttribute> class with the appropriate parameters for your editor in the class of your VSPackage.  
+1.  Provide the <xref:Microsoft.VisualStudio.Shell.ProvideEditorExtensionAttribute> class with the appropriate parameters for your editor in the class of your VSPackage.  
   
     ```  
     [Microsoft.VisualStudio.Shell.ProvideEditorExtensionAttribute(typeof(EditorFactory), ".Sample", 32,   
@@ -48,15 +48,15 @@ The easiest way to register editor file types is by using the registration attri
   
      Where ".Sample" is the extension that is registered for this editor, and "32" is its priority level.  
   
-     The `projectGuid` is the GUID for miscellaneous file types, defined in \<xref:Microsoft.VisualStudio.VSConstants.CLSID_MiscellaneousFilesProject>. The miscellaneous file type is provided, so that the resulting file is not going to be a part of the build process.  
+     The `projectGuid` is the GUID for miscellaneous file types, defined in <xref:Microsoft.VisualStudio.VSConstants.CLSID_MiscellaneousFilesProject>. The miscellaneous file type is provided, so that the resulting file is not going to be a part of the build process.  
   
      `TemplateDir` represents the folder that contains the template files that are included with the managed basic editor sample.  
   
      `NameResourceID` is defined in the Resources.h file of the BasicEditorUI project, and identifies the editor as "My Editor".  
   
-2.  Override the \<xref:Microsoft.VisualStudio.Shell.Package.Initialize*> method.  
+2.  Override the <xref:Microsoft.VisualStudio.Shell.Package.Initialize*> method.  
   
-     In your implementation of the \<xref:Microsoft.VisualStudio.Shell.Package.Initialize*> method, call the \<xref:Microsoft.VisualStudio.Shell.Package.RegisterEditorFactory*> method and pass the instance of your editor factory as demonstrated below.  
+     In your implementation of the <xref:Microsoft.VisualStudio.Shell.Package.Initialize*> method, call the <xref:Microsoft.VisualStudio.Shell.Package.RegisterEditorFactory*> method and pass the instance of your editor factory as demonstrated below.  
   
     ```  
     protected override void Initialize()  
@@ -74,7 +74,7 @@ The easiest way to register editor file types is by using the registration attri
   
 3.  Unregister the editor factories.  
   
-     Editor factories are automatically unregistered when the VSPackage is disposed. If the editor factory object implements the \<xref:System.IDisposable> interface, its `Dispose` method is called after the factory has been unregistered with [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+     Editor factories are automatically unregistered when the VSPackage is disposed. If the editor factory object implements the <xref:System.IDisposable> interface, its `Dispose` method is called after the factory has been unregistered with [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
   
 ## Registration Using a Registry Script  
  Registering editor factories and file types in native [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)] is done using a registry script to write to the windows registry, as illustrated by the following.  
@@ -107,7 +107,7 @@ The easiest way to register editor file types is by using the registration attri
   
 3.  Register the editor factory.  
   
-     The editor factory is registered in the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsRegisterEditors.RegisterEditor*> implementation.  
+     The editor factory is registered in the <xref:Microsoft.VisualStudio.Shell.Interop.IVsRegisterEditors.RegisterEditor*> implementation.  
   
     ```  
     // create editor factory.  

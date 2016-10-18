@@ -1,7 +1,7 @@
 ---
 title: "File &lt;name&gt; cannot be registered as an COM component."
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -47,4 +47,4 @@ The file cannot be added to the project's references. This error occurs when a f
     >  The product that installed the file may not be Visual Studio.  
   
 ## See Also  
- [Edit Custom Component Set Dialog Box](http://msdn.microsoft.com/dc995bd7-afbf-4389-ba1c-f377b677ded7)
+ [Edit Custom Component Set Dialog Box](http://msdn.microsoft.com/en-us/dc995bd7-afbf-4389-ba1c-f377b677ded7)

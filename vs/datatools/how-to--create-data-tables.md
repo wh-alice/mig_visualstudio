@@ -1,7 +1,7 @@
 ---
 title: "How to: Create Data Tables"
 ms.custom: na
-ms.date: "10/11/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -40,9 +40,9 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # How to: Create Data Tables
-Data can be stored in memory in \<xref:System.Data.DataTable> objects. (Datasets are made up of \<xref:System.Data.DataTable> objects.) You typically create new data tables with TableAdapters using the [TableAdapter Configuration Wizard](../Topic/TableAdapter%20Configuration%20Wizard.md) or by dragging database objects from **Server Explorer** onto the **Dataset Designer**.  
+Data can be stored in memory in <xref:System.Data.DataTable> objects. (Datasets are made up of <xref:System.Data.DataTable> objects.) You typically create new data tables with TableAdapters using the [TableAdapter Configuration Wizard](../Topic/TableAdapter%20Configuration%20Wizard.md) or by dragging database objects from **Server Explorer** onto the **Dataset Designer**.  
   
- Data tables are created as a byproduct when you create new TableAdapters in the [Data Source Configuration Wizard](../datatools/media/data-source-configuration-wizard.png) as well, but they can also be created independently. You create a standalone data table by dragging a \<xref:System.Data.DataTable> object from the **DataSet** tab of the **Toolbox** onto the **Dataset Designer**.  
+ Data tables are created as a byproduct when you create new TableAdapters in the [Data Source Configuration Wizard](../datatools/media/data-source-configuration-wizard.png) as well, but they can also be created independently. You create a standalone data table by dragging a <xref:System.Data.DataTable> object from the **DataSet** tab of the **Toolbox** onto the **Dataset Designer**.  
   
 > [!NOTE]
 >  To create data tables programmatically, see [Creating a DataTable](../Topic/Creating%20a%20DataTable.md).  
@@ -75,12 +75,12 @@ Data can be stored in memory in \<xref:System.Data.DataTable> objects. (Datasets
   
 1.  Open your dataset in the **Dataset Designer**.  
   
-2.  Drag a \<xref:System.Data.DataTable> from the **DataSet** tab of the **Toolbox** onto the **Dataset Designer**.  
+2.  Drag a <xref:System.Data.DataTable> from the **DataSet** tab of the **Toolbox** onto the **Dataset Designer**.  
   
 3.  Add columns to define your data table. For more information, see [How to: Add Columns to a DataTable](../Topic/How%20to:%20Add%20Columns%20to%20a%20DataTable.md).  
   
 ## See Also  
- \<xref:System.Data.DataTable>   
+ <xref:System.Data.DataTable>   
  [Data Walkthroughs](../Topic/Data%20Walkthroughs.md)   
  [Walkthrough: Displaying Data on a Windows Form](../datatools/walkthrough--displaying-data-on-a-windows-form.md)   
  [TableAdapter Overview](../datatools/tableadapter-overview.md)   

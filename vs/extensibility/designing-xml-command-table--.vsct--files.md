@@ -1,7 +1,7 @@
 ---
 title: "Designing XML Command Table (.Vsct) Files"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -121,7 +121,7 @@ An XML command table (.vsct) file describes the layout and appearance of command
   
 -   Reusing commands, groups, or submenus requires the use of a new directive to create a new instance of the object with its own `GUID:ID` pair.  
   
--   Each `GUID:ID` pair must be unique. Reusing a command that has, for example, been placed on a menu, a toolbar, or on a context menu, is handled by the \<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface.  
+-   Each `GUID:ID` pair must be unique. Reusing a command that has, for example, been placed on a menu, a toolbar, or on a context menu, is handled by the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface.  
   
 -   Commands and submenus can also be assigned to multiple groups, and groups can be assigned to multiple menus using the [Commands Element](../extensibility/commands-element.md).  
   

@@ -1,7 +1,7 @@
 ---
 title: "GetScheduledTasksForDebugger Method"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -33,7 +33,7 @@ translation.priority.mt:
 # GetScheduledTasksForDebugger Method
 Retrieves an array of all scheduled tasks.  
   
- **Namespace:** \<xref:System.Threading.Tasks?displayProperty=fullName>  
+ **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>  
   
  **Assembly:** mscorlib (in mscorlib.dll)  
   
@@ -49,7 +49,7 @@ Retrieves an array of all scheduled tasks.
  An array of all scheduled tasks. Each task is executing or has finished executing.  
   
 ## Remarks  
- This method is not thread safe and should not be used concurrently with other instances of \<xref:System.Threading.Tasks.TaskScheduler> It should be called from a debugger only when the debugger has suspended all other threads.  
+ This method is not thread safe and should not be used concurrently with other instances of <xref:System.Threading.Tasks.TaskScheduler> It should be called from a debugger only when the debugger has suspended all other threads.  
   
 ## See Also  
  [TaskScheduler Class](../extensibility/taskscheduler-class---internal-members.md)

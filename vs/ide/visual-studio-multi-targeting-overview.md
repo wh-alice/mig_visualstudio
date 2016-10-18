@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio Multi-Targeting Overview"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -81,7 +81,7 @@ In this version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], you
 > [!NOTE]
 >  A .NET Framework client profile is a subset of the .NET Framework that provides a limited set of libraries and features. For more information about client profiles, see [.NET Framework Client Profile](../Topic/.NET%20Framework%20Client%20Profile.md).  
   
- The **Add Reference** dialog box disables system assemblies that do not pertain to the target [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] version so that they cannot be added to a project inadvertently. (System assemblies are .dll files that are included in a [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] version.) References that belong to a framework version that is later than the targeted version will not resolve, and controls that depend on such a reference cannot be added. If you want to enable such a reference, reset the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] target of the project to one that includes the reference.  For more information, see [Introduction to the Project Designer](http://msdn.microsoft.com/898dd854-c98d-430c-ba1b-a913ce3c73d7).  
+ The **Add Reference** dialog box disables system assemblies that do not pertain to the target [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] version so that they cannot be added to a project inadvertently. (System assemblies are .dll files that are included in a [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] version.) References that belong to a framework version that is later than the targeted version will not resolve, and controls that depend on such a reference cannot be added. If you want to enable such a reference, reset the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] target of the project to one that includes the reference.  For more information, see [Introduction to the Project Designer](http://msdn.microsoft.com/en-us/898dd854-c98d-430c-ba1b-a913ce3c73d7).  
   
  For more information about assembly references, see [Resolving Assemblies at Design Time](../reference/resolving-assemblies-at-design-time.md).  
   

@@ -1,7 +1,7 @@
 ---
 title: "Building and Cleaning Projects and Solutions in Visual Studio"
 ms.custom: na
-ms.date: "10/12/2016"
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -47,7 +47,7 @@ translation.priority.mt:
 By using the procedures in this topic, you can build, rebuild, or clean all or some of the projects or project items in a solution. For a step-by-step tutorial, see [Walkthrough: Building an Application](../ide/walkthrough--building-an-application.md).  
   
 > [!NOTE]
->  The UI in your edition of Visual Studio might differ from what this topic describes, depending on your active settings. To change your settings, open the **Tools** menu, and then choose **Import and Export Settings**. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The UI in your edition of Visual Studio might differ from what this topic describes, depending on your active settings. To change your settings, open the **Tools** menu, and then choose **Import and Export Settings**. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ### To build, rebuild, or clean an entire solution  
   
@@ -125,7 +125,7 @@ By using the procedures in this topic, you can build, rebuild, or clean all or s
  [Obtaining Build Logs](../reference/obtaining-build-logs-with-msbuild.md)   
  [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)   
  [Understanding Build Configurations](../ide/understanding-build-configurations.md)   
- [Debug and Release Project Configurations](http://msdn.microsoft.com/0440b300-0614-4511-901a-105b771b236e)   
+ [Debug and Release Project Configurations](http://msdn.microsoft.com/en-us/0440b300-0614-4511-901a-105b771b236e)   
  [C/C++ Building Reference](../Topic/C-C++%20Building%20Reference.md)   
  [Devenv Command Line Switches](../reference/devenv-command-line-switches.md)   
  [Solutions and Projects](../ide/solutions-and-projects-in-visual-studio.md)

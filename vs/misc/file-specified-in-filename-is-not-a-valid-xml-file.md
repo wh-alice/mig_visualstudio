@@ -1,7 +1,7 @@
 ---
 title: "File specified in FileName is not a valid XML file"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,5 +44,5 @@ The file name that you supplied is not a valid XML file. To specify the allowed 
 -   If the XML file has an associated XML Schema, check that the elements appear in the defined structure and that the content of the individual elements conforms to the declared data types specified in the schema.  
   
 ## See Also  
- \<xref:System.Xml>   
+ <xref:System.Xml>   
  [How to: Parse File Paths](../Topic/How%20to:%20Parse%20File%20Paths%20in%20Visual%20Basic.md)

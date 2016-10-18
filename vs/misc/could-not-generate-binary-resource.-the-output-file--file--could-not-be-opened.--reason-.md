@@ -1,7 +1,7 @@
 ---
 title: "Could not generate binary resource. The output file &#39;file&#39; could not be opened. &lt;reason&gt;"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -43,4 +43,4 @@ An outdated copy of the .resources file could not be deleted by the project syst
      This error will cause the build process to fail.  
   
 ## See Also  
- [File Types and File Extensions in Visual Basic and Visual C#](http://msdn.microsoft.com/f793852c-da06-4d52-a826-65f635844772)
+ [File Types and File Extensions in Visual Basic and Visual C#](http://msdn.microsoft.com/en-us/f793852c-da06-4d52-a826-65f635844772)

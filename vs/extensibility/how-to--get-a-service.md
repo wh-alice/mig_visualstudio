@@ -1,7 +1,7 @@
 ---
 title: "How to: Get a Service"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -33,9 +33,9 @@ translation.priority.mt:
 # How to: Get a Service
 You often need to get Visual Studio services to access different features. In general, a Visual Studio service provides one or more interfaces that you can use. You can get most services from a VSPackage.  
   
- Any VSPackage that derives from \<xref:Microsoft.VisualStudio.Shell.Package> and that has been correctly sited can ask for any global service. Because the Package class implements \<xref:System.IServiceProvider>, any VSPackage that derives from Package is also a service provider.  
+ Any VSPackage that derives from <xref:Microsoft.VisualStudio.Shell.Package> and that has been correctly sited can ask for any global service. Because the Package class implements <xref:System.IServiceProvider>, any VSPackage that derives from Package is also a service provider.  
   
- When Visual Studio loads a \<xref:Microsoft.VisualStudio.Shell.Package>, it passes an \<xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider> object to the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.SetSite*> method during initialization. This is called *siting* the VSPackage. The Package class wraps this service provider and provides the \<xref:Microsoft.VisualStudio.Shell.Package.GetService*> method for getting services.  
+ When Visual Studio loads a <xref:Microsoft.VisualStudio.Shell.Package>, it passes an <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider> object to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.SetSite*> method during initialization. This is called *siting* the VSPackage. The Package class wraps this service provider and provides the <xref:Microsoft.VisualStudio.Shell.Package.GetService*> method for getting services.  
   
 ## Getting a service from an initialized VSPackage  
   
@@ -52,7 +52,7 @@ You often need to get Visual Studio services to access different features. In ge
   
     ```  
   
-     This code gets an SVsActivityLog service and casts it to an \<xref:Microsoft.VisualStudio.Shell.Interop.IVsActivityLog> interface, which can be used to write to the activity log. For an example, see [How to: Use the Activity Log](../extensibility/how-to--use-the-activity-log.md).  
+     This code gets an SVsActivityLog service and casts it to an <xref:Microsoft.VisualStudio.Shell.Interop.IVsActivityLog> interface, which can be used to write to the activity log. For an example, see [How to: Use the Activity Log](../extensibility/how-to--use-the-activity-log.md).  
   
 4.  Build the project and start debugging. The experimental instance appears.  
   
@@ -61,7 +61,7 @@ You often need to get Visual Studio services to access different features. In ge
 ## Getting a service from a tool window or control container  
  Sometimes you may need to get a service from a tool window or control container that has not been sited, or else has been sited with a service provider that does not know about the service you want. For example, you might want to write to the activity log from within a control.  
   
- The static \<xref:Microsoft.VisualStudio.Shell.Package.GetGlobalService*> method relies on a cached service provider that is initialized the first time any VSPackage derived from \<xref:Microsoft.VisualStudio.Shell.Package> is sited.  
+ The static <xref:Microsoft.VisualStudio.Shell.Package.GetGlobalService*> method relies on a cached service provider that is initialized the first time any VSPackage derived from <xref:Microsoft.VisualStudio.Shell.Package> is sited.  
   
  Because the VSPackage constructor is called before the VSPackage is sited, global services are typically unavailable from within the VSPackage constructor. See [How to: Troubleshoot Services](../extensibility/how-to--troubleshoot-services.md) for a workaround.  
   
@@ -73,9 +73,9 @@ if (log == null) return;
 ```  
   
 ## Getting a service from the DTE object  
- You can also get services from \<xref:EnvDTE.DTEClass> object. However, you must get the DTE object as a service from a VSPackage or by calling the static \<xref:Microsoft.VisualStudio.Shell.Package.GetGlobalService*> method.  
+ You can also get services from <xref:EnvDTE.DTEClass> object. However, you must get the DTE object as a service from a VSPackage or by calling the static <xref:Microsoft.VisualStudio.Shell.Package.GetGlobalService*> method.  
   
- The DTE object implements \<xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider>, which you can use to query for a service by using \<xref:Microsoft.VisualStudio.Shell.ServiceProvider.GetService*>.  
+ The DTE object implements <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider>, which you can use to query for a service by using <xref:Microsoft.VisualStudio.Shell.ServiceProvider.GetService*>.  
   
  Here’s how to get a service from the DTE object.  
   

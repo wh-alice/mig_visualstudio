@@ -1,7 +1,7 @@
 ---
 title: "Command Availability"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -49,16 +49,16 @@ The Visual Studio context determines which commands are available. The context c
   
 -   **Active window** The last active document window sets the user interface (UI) context for key bindings. However, a tool window that has a key-binding table that resembles the internal Web browser could also set the UI context. For multi-tabbed document windows such as the HTML editor, every tab has a different command context GUID. After a tool window is registered, it is always available on the **View** menu.  
   
--   **UI Context** UI contexts are identified by the values of the \<xref:Microsoft.VisualStudio.VSConstants.UICONTEXT> class, for example, \<xref:Microsoft.VisualStudio.VSConstants.UICONTEXT_SolutionBuilding> when the solution is being built, or \<xref:Microsoft.VisualStudio.VSConstants.UICONTEXT_Debugging> when the debugger is active. Multiple UI contexts can be active at the same time.  
+-   **UI Context** UI contexts are identified by the values of the <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT> class, for example, <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT_SolutionBuilding> when the solution is being built, or <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT_Debugging> when the debugger is active. Multiple UI contexts can be active at the same time.  
   
 ## Defining Custom Context GUIDs  
  If an appropriate command context GUID is not already defined, you can define one in your VSPackage and then program it to be active or inactive as required to control the visibility of your commands.  
   
-1.  Register context GUIDs by calling the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.GetCmdUIContextCookie*> method.  
+1.  Register context GUIDs by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.GetCmdUIContextCookie*> method.  
   
-2.  Get the state of a context GUID by calling the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.IsCmdUIContextActive*> method.  
+2.  Get the state of a context GUID by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.IsCmdUIContextActive*> method.  
   
-3.  Turn context GUIDs on and off by calling the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.SetCmdUIContext*> method.  
+3.  Turn context GUIDs on and off by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.SetCmdUIContext*> method.  
   
     > [!CAUTION]
     >  Make sure that your VSPackage does not affect any existing context GUIDs because other VSPackages may depend on them.  

@@ -1,7 +1,7 @@
 ---
 title: "Starting a Build from within the IDE"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -31,7 +31,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Starting a Build from within the IDE
-Custom project systems must use \<xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildManagerAccessor> to start builds. This topic describes the reasons for this and outlines the procedure.  
+Custom project systems must use <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildManagerAccessor> to start builds. This topic describes the reasons for this and outlines the procedure.  
   
 ## Parallel Builds and Threads  
  [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] allows parallel builds which requires mediation for access to common resources. Project systems can run builds asynchronously, but such systems must not call build functions from within call backs is provided to the build manager.  

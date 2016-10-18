@@ -1,7 +1,7 @@
 ---
 title: "Creating a Basic Project System, Part 1"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -188,7 +188,7 @@ In Visual Studio, projects are the containers that developers use to organize so
  SimpleProject.myproj  
   
 ## Creating a Basic Project Factory  
- You must tell Visual Studio the location of your project template folder. To do this, add an attribute to the VSPackage class that implements the project factory so that the template location is written to the system registry when the VSPackage is built. Start by creating a basic project factory that is identified by a project factory GUID. Use the \<xref:Microsoft.VisualStudio.Shell.ProvideProjectFactoryAttribute> attribute to connect the project factory to the SimpleProjectPackage class.  
+ You must tell Visual Studio the location of your project template folder. To do this, add an attribute to the VSPackage class that implements the project factory so that the template location is written to the system registry when the VSPackage is built. Start by creating a basic project factory that is identified by a project factory GUID. Use the <xref:Microsoft.VisualStudio.Shell.ProvideProjectFactoryAttribute> attribute to connect the project factory to the SimpleProjectPackage class.  
   
 #### To create a basic project factory  
   
@@ -235,7 +235,7 @@ In Visual Studio, projects are the containers that developers use to organize so
   
 #### To register the project template  
   
-1.  In SimpleProjectPackage.cs, add a \<xref:Microsoft.VisualStudio.Shell.ProvideProjectFactoryAttribute> attribute to the SimpleProjectPackage class, as follows.  
+1.  In SimpleProjectPackage.cs, add a <xref:Microsoft.VisualStudio.Shell.ProvideProjectFactoryAttribute> attribute to the SimpleProjectPackage class, as follows.  
   
     ```  
     [ProvideProjectFactory(    typeof(SimpleProjectFactory),     "Simple Project",   
@@ -531,7 +531,7 @@ In Visual Studio, projects are the containers that developers use to organize so
     }  
     ```  
   
- During static construction, `SimpleProjectNode` retrieves the project node bitmap from the assembly manifest resources and caches it in a private field for later use. Notice the syntax of the \<xref:System.Reflection.Assembly.GetManifestResourceStream*> image path. To see the names of the manifest resources embedded in an assembly, use the \<xref:System.Reflection.Assembly.GetManifestResourceNames*> method. When this method is applied to the `SimpleProject` assembly, the results should be as follows:  
+ During static construction, `SimpleProjectNode` retrieves the project node bitmap from the assembly manifest resources and caches it in a private field for later use. Notice the syntax of the <xref:System.Reflection.Assembly.GetManifestResourceStream*> image path. To see the names of the manifest resources embedded in an assembly, use the <xref:System.Reflection.Assembly.GetManifestResourceNames*> method. When this method is applied to the `SimpleProject` assembly, the results should be as follows:  
   
 -   SimpleProject.Resources.resources  
   

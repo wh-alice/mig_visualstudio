@@ -1,7 +1,7 @@
 ---
 title: "MSBuild Concepts"
 ms.custom: na
-ms.date: "10/11/2016"
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -12,7 +12,7 @@ ms.topic: "article"
 helpviewer_keywords: 
   - "MSBuild, concepts"
 ms.assetid: 083b8ba3-e4ad-45af-bb5d-3bc81d406131
-caps.latest.revision: 11
+caps.latest.revision: 13
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -31,130 +31,19 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # MSBuild Concepts
-\<?xml version="1.0" encoding="utf-8"?>
-\<developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ddue.schemas.microsoft.com/authoring/2003/5 http://clixdevr3.blob.core.windows.net/ddueschema/developer.xsd">
-  <introduction>
-    <para>
-      <token>vstecmsbuild</token> provides a basic XML schema that you can use to control how the build platform builds software. To specify the components in the build and how they are to be built, use these four parts of MSBuild: properties, items, tasks, and targets.</para>
-  </introduction>
-  <section>
-    <title>Related Topics</title>
-    <content>
-      \<table xmlns:caps="http://schemas.microsoft.com/build/caps/2013/11">
-        <thead>
-          <tr>
-            <TD>
-              <para>Title</para>
-            </TD>
-            <TD>
-              <para>Description</para>
-            </TD>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <TD>
-              <para>
-                MSBuild Properties
-              </para>
-            </TD>
-            <TD>
-              <para>Introduces properties and property collections. Properties are key/value pairs that you can use to configure builds.</para>
-            </TD>
-          </tr>
-          <tr>
-            <TD>
-              <para>
-                \<link xlink:href="d762eff4-c92a-4b5f-a944-1ca30aa22319">MSBuild Items</link>
-              </para>
-            </TD>
-            <TD>
-              <para>Describes the general concepts behind the <token>vstecmsbuild</token> file format and how the pieces fit together.</para>
-            </TD>
-          </tr>
-          <tr>
-            <TD>
-              <para>
-                \<link xlink:href="8060b4d2-e4a9-48cf-a437-852649ceb417">MSBuild Targets</link>
-              </para>
-            </TD>
-            <TD>
-              <para>Explains how to group tasks together in a particular order and enable sections of the build process to be called on the command line.</para>
-            </TD>
-          </tr>
-          <tr>
-            <TD>
-              <para>
-                \<link xlink:href="5d3cc4a7-e5db-4f73-b707-8b6882fddcf8">MSBuild Tasks</link>
-              </para>
-            </TD>
-            <TD>
-              <para>Shows how to create a unit of executable code that can be used by <token>vstecmsbuild</token> to perform atomic build operations.</para>
-            </TD>
-          </tr>
-          <tr>
-            <TD>
-              <para>
-                \<link xlink:href="b9da45ae-d6a6-4399-8628-397deed31486">Comparing Properties and Items</link>
-              </para>
-            </TD>
-            <TD>
-              <para>Compares MSBuild properties and items. Both are used to pass information to tasks, evaluate conditions, and store values that can be referenced throughout the project file.</para>
-            </TD>
-          </tr>
-          <tr>
-            <TD>
-              <para>
-                \<link xlink:href="545e6a59-1093-4514-935e-78679a46fb3c">MSBuild Special Characters</link>
-              </para>
-            </TD>
-            <TD>
-              <para>Explains how to escape some characters that <token>vstecmsbuild</token> reserves for special use in specific contexts.</para>
-            </TD>
-          </tr>
-          <tr>
-            <TD>
-              <para>
-                \<link xlink:href="e3acff7c-cb4e-4ae1-8be2-a871bcff847b">Tutorial: How to Create a Project File from Scratch</link>
-              </para>
-            </TD>
-            <TD>
-              <para>Shows how to create a basic project file incrementally, by using only a text editor.</para>
-            </TD>
-          </tr>
-          <tr>
-            <TD>
-              <para>
-                \<link xlink:href="b8a8b866-bb07-4abf-b9ec-0b40d281c310">Tutorial: How to Use MSBuild</link>
-              </para>
-            </TD>
-            <TD>
-              <para>Introduces the building blocks of MSBuild and shows how to write, manipulate, and debug MSBuild projects without closing the Visual Studio integrated development environment (IDE).</para>
-            </TD>
-          </tr>
-          <tr>
-            <TD>
-              <para>
-                \<link xlink:href="093395e1-70da-4f74-b34d-046c5e2b32e8">MSBuild Reference</link>
-              </para>
-            </TD>
-            <TD>
-              <para>Links to documents that contain reference information.</para>
-            </TD>
-          </tr>
-          <tr>
-            <TD>
-              <para>
-               "MSBuild"
-              </para>
-            </TD>
-            <TD>
-              <para>Presents an overview of the XML schema for a project file and shows how it controls processes that builds software.</para>
-            </TD>
-          </tr>
-        </tbody>
-      </table>
-    </content>
-  </section>
-  <relatedTopics />
-</developerConceptualDocument>
+[!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] provides a basic XML schema that you can use to control how the build platform builds software. To specify the components in the build and how they are to be built, use these four parts of MSBuild: properties, items, tasks, and targets.  
+  
+## Related Topics  
+  
+|Title|Description|  
+|-----------|-----------------|  
+|[MSBuild Properties](https://www.microsoftonedoc.com/#/organizations/e6f6a65cf14f462597b64ac058dbe1d0/projects/3fedad16-eaf1-41a6-8f96-0c1949c68f32/containers/a3daf831-1c5f-4bbe-964d-503870caf874/tocpaths/ee3538c5-0d7d-4c18-a1d7-edf460cd1c8a/locales/en-US)|Introduces properties and property collections. Properties are key/value pairs that you can use to configure builds.|  
+|[Items](../reference/msbuild-items.md)|Describes the general concepts behind the [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] file format and how the pieces fit together.|  
+|[Targets](../reference/msbuild-targets.md)|Explains how to group tasks together in a particular order and enable sections of the build process to be called on the command line.|  
+|[Tasks](../reference/msbuild-tasks.md)|Shows how to create a unit of executable code that can be used by [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] to perform atomic build operations.|  
+|[Comparing Properties and Items](../reference/comparing-properties-and-items.md)|Compares MSBuild properties and items. Both are used to pass information to tasks, evaluate conditions, and store values that can be referenced throughout the project file.|  
+|[MSBuild Special Characters](../reference/msbuild-special-characters.md)|Explains how to escape some characters that [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] reserves for special use in specific contexts.|  
+|[Walkthrough: Creating an MSBuild Project File from Scratch](../reference/walkthrough--creating-an-msbuild-project-file-from-scratch.md)|Shows how to create a basic project file incrementally, by using only a text editor.|  
+|[Walkthrough: Using MSBuild](../reference/walkthrough--using-msbuild.md)|Introduces the building blocks of MSBuild and shows how to write, manipulate, and debug MSBuild projects without closing the Visual Studio integrated development environment (IDE).|  
+|[MSBuild Reference](../reference/msbuild-reference.md)|Links to documents that contain reference information.|  
+|[MSBuild](https://www.microsoftonedoc.com/#/organizations/e6f6a65cf14f462597b64ac058dbe1d0/projects/3fedad16-eaf1-41a6-8f96-0c1949c68f32/containers/a3daf831-1c5f-4bbe-964d-503870caf874/tocpaths/d920ff78-3d00-482b-80a5-743ae3c8ab10/locales/en-US)|Presents an overview of the XML schema for a project file and shows how it controls processes that builds software.|

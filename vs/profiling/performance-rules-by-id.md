@@ -1,7 +1,7 @@
 ---
 title: "Performance Rules by ID"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -31,7 +31,7 @@ translation.priority.ht:
 # Performance Rules by ID
 |Warning|Description|  
 |-------------|-----------------|  
-|[DA0001: Use StringBuilder for concatenations](../profiling/da0001--use-stringbuilder-for-concatenations.md)|Calls to System.String.Concat are a significant proportion of the profiling data. Consider using the \<xref:System.Text.StringBuilder> class to construct strings from multiple segments.|  
+|[DA0001: Use StringBuilder for concatenations](../profiling/da0001--use-stringbuilder-for-concatenations.md)|Calls to System.String.Concat are a significant proportion of the profiling data. Consider using the <xref:System.Text.StringBuilder> class to construct strings from multiple segments.|  
 |[DA0002: VSPerfCorProf.dll is missing](../profiling/da0002--vsperfcorprof.dll-is-missing.md)|The profiler could not find VSPerfCorProf.dll during the profiling run. This warning occurs when command-line tools for the collection of profiler data are used without using the VSPerfCLREnv.cmd tool to initialize the necessary environment variables.|  
 |[DA0003: Many kernel samples](../profiling/da0003--many-kernel-samples.md)|A significant proportion of the call stack samples collected for the application were executing in kernel mode. Consider profiling your application by using a different profiling method.|  
 |[DA0004: High processor usage](../profiling/da0004--high-processor-usage.md)|Processor (CPU) utilization was significantly high in profiling data that was collected using the instrumentation method. Consider using the sampling profiling method when profiling a CPU bound application.|  
@@ -39,7 +39,7 @@ translation.priority.ht:
 |[DA0006: Override Equals() for value types](../profiling/da0006--override-equals---for-value-types.md)|Calls to the Equals method or the equality operators of a public value type are a significant proportion of the profiling data. Consider implementing a more efficient method.|  
 |[DA0007: Avoid using exceptions for control flow](../profiling/da0007--avoid-using-exceptions-for-control-flow.md)|A high rate of .NET Framework exception handlers were called in the profiling data. Consider using other control flow logic to reduce the number of exceptions that are thrown.|  
 |[DA0008: Few samples collected](../profiling/da0008--few-samples-collected.md)|Only a few samples were collected in the profiling run. Consider a longer run or faster sampling rate for more significant results.|  
-|[DA0009: High % time in JIT](http://msdn.microsoft.com/b60c1767-515c-41d9-81c2-c70d0b7024fd)|A significant percentage of application execution time was spent in the Just In Time (JIT) compiler.|  
+|[DA0009: High % time in JIT](http://msdn.microsoft.com/en-us/b60c1767-515c-41d9-81c2-c70d0b7024fd)|A significant percentage of application execution time was spent in the Just In Time (JIT) compiler.|  
 |[DA0010: Expensive GetHashCode](../profiling/da0010--expensive-gethashcode.md)|Calls to the GetHashCode method of the type are a significant proportion of the profiling data or the method allocates memory.|  
 |[DA0011: Expensive CompareTo](../profiling/da0011--expensive-compareto.md)|The CompareTo method of the type is expensive or allocates memory.|  
 |[DA0012: Significant amount of Reflection](../profiling/da0012--significant-amount-of-reflection.md)|Calls to the System.Reflection methods such as InvokeMember and GetMember or to Type methods such as MemberInvoke are a significant proportion of the profiling data. When you can, consider replacing these methods with early binding to the methods of dependent assemblies.|  
@@ -53,7 +53,7 @@ translation.priority.ht:
 |[DA0024: Excessive GC CPU Time](../profiling/da0024--excessive-gc-cpu-time.md)|System performance data that was collected during profiling indicates that the amount of time spent in garbage collection is excessively high compared with the total application processing time.|  
 |[DA0026: Excessive kernel CPU time processing](../profiling/da0026--excessive-kernel-cpu-time-processing.md)|The proportion CPU time that was executed in kernel mode exceeded the amount of time spent in user mode. Consider profiling again and sampling the number of system calls (syscalls) to determine the cause of the high kernel mode execution times.|  
 |[DA0029: Unsupported CLR Version](../profiling/da0029--unsupported-clr-version.md)|You are trying to profile an application that uses the .NET Framework version 1.1 that is not supported by the Profiling Tools.|  
-|[DA0030: Gather Tier Interaction measurements for database projects](../profiling/da0030--gather-tier-interaction-measurements-for-database-projects.md)|Calls to \<xref:System.Data> methods are a significant proportion of the profiling data and you have not collected tier interaction data in the profiling run. Consider profiling again and adding tier interaction data.|  
+|[DA0030: Gather Tier Interaction measurements for database projects](../profiling/da0030--gather-tier-interaction-measurements-for-database-projects.md)|Calls to <xref:System.Data> methods are a significant proportion of the profiling data and you have not collected tier interaction data in the profiling run. Consider profiling again and adding tier interaction data.|  
 |[DA0038: High Rate of Lock contentions](../profiling/da0038--high-rate-of-lock-contentions.md)|System performance data that is collected with the profiling data indicates that a significantly high rate of lock contentions occurred during application execution. Consider profiling again using the concurrency profiling method to find the cause of the contentions.|  
 |[DA0039: Very High Rate of Lock contentions](../profiling/da0039--very-high-rate-of-lock-contentions.md)|System performance data that is collected with the profiling data indicates that an excessively high rate of lock contentions occurred during application execution. Consider profiling again using the concurrency profiling method to find the cause of the contention.|  
 |[DA0501: Average CPU consumption by the Process being profiled.](../profiling/da0501--average-cpu-consumption-by-the-process-being-profiled..md)|This message reports the percentage of time that a processor was busy executing instructions from the application. The reported value is the average over all the measurement intervals in which the process being profiled was active. The value of value can be greater than 100% on a machine with more than one processor.|  

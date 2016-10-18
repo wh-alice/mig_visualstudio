@@ -1,7 +1,7 @@
 ---
 title: "Unable to open response file &#39;&lt;filename&gt;&#39;"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -46,5 +46,5 @@ The file you are attempting to access is unavailable.
 -   Check your permissions on the file.  
   
 ## See Also  
- \<xref:System.Security.Permissions.FileIOPermission>   
+ <xref:System.Security.Permissions.FileIOPermission>   
  [Error Types](../Topic/Error%20Types%20\(Visual%20Basic\).md)

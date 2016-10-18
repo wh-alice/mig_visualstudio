@@ -1,7 +1,7 @@
 ---
 title: "The targeted version of the .NET Compact Framework does not support latebinding"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -48,5 +48,5 @@ The version of the .NET Compact Framework you are working with does not support 
 3.  Avoid using dictionary member access expressions with object variables.  
   
 ## See Also  
- [NotInBuild:Objects in Visual Basic](http://msdn.microsoft.com/85bd757a-a19e-45e1-af89-d68765f5ee3c)   
+ [NotInBuild:Objects in Visual Basic](http://msdn.microsoft.com/en-us/85bd757a-a19e-45e1-af89-d68765f5ee3c)   
  [Special Characters in Code](../Topic/Special%20Characters%20in%20Code%20\(Visual%20Basic\).md)

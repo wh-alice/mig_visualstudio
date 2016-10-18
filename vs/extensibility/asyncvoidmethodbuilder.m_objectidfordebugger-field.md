@@ -1,7 +1,7 @@
 ---
 title: "AsyncVoidMethodBuilder.m_objectIdForDebugger Field"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -33,7 +33,7 @@ translation.priority.mt:
 # AsyncVoidMethodBuilder.m_objectIdForDebugger Field
 Represents the lazily initialized object used by the debugger to uniquely identify this builder.  
   
- **Namespace:** \<xref:System.Runtime.CompilerServices?displayProperty=fullName>  
+ **Namespace:** <xref:System.Runtime.CompilerServices?displayProperty=fullName>  
   
  **Assembly:** mscorlib (in mscorlib.dll)  
   
@@ -46,5 +46,5 @@ Represents the lazily initialized object used by the debugger to uniquely identi
 ```  
   
 ## See Also  
- \<xref:System.Runtime.CompilerServices.AsyncVoidMethodBuilder>   
+ <xref:System.Runtime.CompilerServices.AsyncVoidMethodBuilder>   
  [Parallel Extension Internals for the .NET Framework](../extensibility/parallel-extension-internals-for-the-.net-framework.md)

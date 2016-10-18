@@ -1,7 +1,7 @@
 ---
 title: "Specifiers and attributes are not valid on this statement"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,5 +44,5 @@ A declaration that cannot be modified, such as `Inherits`, contains one or more 
 -   Remove the attribute or keyword from the declaration.  
   
 ## See Also  
- [NIB Keywords (Visual Basic)](http://msdn.microsoft.com/3a6fda51-6ade-4862-a407-1c305c3906ec)   
- [NOT IN BUILD: Attributes in Visual Basic](http://msdn.microsoft.com/620bfc0e-4582-4c8b-8432-ebc5c3dccc22)
+ [NIB Keywords (Visual Basic)](http://msdn.microsoft.com/en-us/3a6fda51-6ade-4862-a407-1c305c3906ec)   
+ [NOT IN BUILD: Attributes in Visual Basic](http://msdn.microsoft.com/en-us/620bfc0e-4582-4c8b-8432-ebc5c3dccc22)

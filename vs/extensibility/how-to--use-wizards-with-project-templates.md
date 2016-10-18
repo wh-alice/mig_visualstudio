@@ -1,7 +1,7 @@
 ---
 title: "How to: Use Wizards with Project Templates"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -36,11 +36,11 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # How to: Use Wizards with Project Templates
-Visual Studio provides the \<xref:Microsoft.VisualStudio.TemplateWizard.IWizard> interface that, when implemented, enables you to run custom code when a user creates a project from a template.  
+Visual Studio provides the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> interface that, when implemented, enables you to run custom code when a user creates a project from a template.  
   
  Project template customization can be used to display custom UI that collects user input to customize the template, add additional files to the template, or any other action allowed on a project.  
   
- The \<xref:Microsoft.VisualStudio.TemplateWizard.IWizard> interface methods are called at various times while the project is being created, starting as soon as a user clicks **OK** on the **New Project** dialog box. Each method of the interface is named to describe the point at which it is called. For example, Visual Studio calls \<xref:Microsoft.VisualStudio.TemplateWizard.IWizard.RunStarted*> immediately when it starts to create the project, making it a good location to write custom code to collect user input.  
+ The <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> interface methods are called at various times while the project is being created, starting as soon as a user clicks **OK** on the **New Project** dialog box. Each method of the interface is named to describe the point at which it is called. For example, Visual Studio calls <xref:Microsoft.VisualStudio.TemplateWizard.IWizard.RunStarted*> immediately when it starts to create the project, making it a good location to write custom code to collect user input.  
   
 ## Creating a Project Template Project with a VSIX Project  
  You start creating a custom template with the project template project., which is part of the Visual Studio SDK. In this procedure we will use a C# project template project, but there is also a Visual Basic project template project. Then you add a VSIX project to the solution that contains the project template project.  
@@ -156,11 +156,11 @@ Visual Studio provides the \<xref:Microsoft.VisualStudio.TemplateWizard.IWizard>
   
      The **UserInputForm** referenced in this code will be implemented later.  
   
-     The `WizardImplementation` class contains method implementations for every member of \<xref:Microsoft.VisualStudio.TemplateWizard.IWizard>. In this example, only the \<xref:Microsoft.VisualStudio.TemplateWizard.IWizard.RunStarted*> method performs a task. All other methods either do nothing or return `true`.  
+     The `WizardImplementation` class contains method implementations for every member of <xref:Microsoft.VisualStudio.TemplateWizard.IWizard>. In this example, only the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard.RunStarted*> method performs a task. All other methods either do nothing or return `true`.  
   
-     The \<xref:Microsoft.VisualStudio.TemplateWizard.IWizard.RunStarted*> method accepts four parameters:  
+     The <xref:Microsoft.VisualStudio.TemplateWizard.IWizard.RunStarted*> method accepts four parameters:  
   
-    -   An \<xref:System.Object> parameter that can be cast to the root \<xref:EnvDTE._DTE> object, to enable you to customize the project.  
+    -   An <xref:System.Object> parameter that can be cast to the root <xref:EnvDTE._DTE> object, to enable you to customize the project.  
   
     -   A <xref:System.Collections.Generic.Dictionary`2> parameter that contains a collection of all pre-defined parameters in the template. For more information on template parameters, see [Template Parameters](../ide/template-parameters.md).  
   
@@ -321,6 +321,6 @@ namespace $safeprojectname$
      Notice that `$custommessage$` has been replaced with the text entered in the wizard user input form.  
   
 ## See Also  
- \<xref:Microsoft.VisualStudio.TemplateWizard.IWizard>   
+ <xref:Microsoft.VisualStudio.TemplateWizard.IWizard>   
  [Customizing Templates](../ide/customizing-project-and-item-templates.md)   
  [WizardExtension Element (Visual Studio Templates)](../extensibility/wizardextension-element--visual-studio-templates-.md)

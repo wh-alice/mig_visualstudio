@@ -1,7 +1,7 @@
 ---
 title: "Commands and Menus That Use Interop Assemblies"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -40,7 +40,7 @@ A VSPackage that implements menu and toolbar commands by using interop assemblie
   
 -   Adhere to the rules (contract) for handling commands.  
   
--   Explicitly implement command handling by using either the \<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> or \<xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy> interface.  
+-   Explicitly implement command handling by using either the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> or <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy> interface.  
   
  The following describes how to do these tasks.  
   

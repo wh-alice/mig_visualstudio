@@ -1,7 +1,7 @@
 ---
 title: "How to: Execute a Stored Procedure that Returns a Single Value"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -41,7 +41,7 @@ translation.priority.ht:
 # How to: Execute a Stored Procedure that Returns a Single Value
 To execute a stored procedure that returns a single value, you can run TableAdapter query that is configured to run a stored procedure (for example, `CustomersTableAdapter.CustomerCount()`).  
   
- If your application does not use TableAdapters, call the `ExecuteScalar` method on a command object, setting its `CommandType` property to \<xref:System.Data.CommandType>. ("Command object" refers to the specific command for the [.NET Framework Data Provider](../Topic/.NET%20Framework%20Data%20Providers.md) your application is using. For example, if your application is using the .NET Framework Data Provider for SQL Server, the command object would be \<xref:System.Data.SqlClient.SqlCommand>.)  
+ If your application does not use TableAdapters, call the `ExecuteScalar` method on a command object, setting its `CommandType` property to <xref:System.Data.CommandType>. ("Command object" refers to the specific command for the [.NET Framework Data Provider](../Topic/.NET%20Framework%20Data%20Providers.md) your application is using. For example, if your application is using the .NET Framework Data Provider for SQL Server, the command object would be <xref:System.Data.SqlClient.SqlCommand>.)  
   
  The following examples show how to execute stored procedures that return single values from a database using either TableAdapters or command objects. For more information on querying with TableAdapters and commands, see [Fill datasets by using TableAdapters](../datatools/fill-datasets-by-using-tableadapters.md).  
   
@@ -82,7 +82,7 @@ To execute a stored procedure that returns a single value, you can run TableAdap
   
          -or-  
   
-    -   To create an instance in code, replace the following code with the names of your \<xref:System.Data.DataSet> and TableAdapter.  
+    -   To create an instance in code, replace the following code with the names of your <xref:System.Data.DataSet> and TableAdapter.  
   
          `Dim tableAdapter As New DataSetTableAdapters.TableAdapter`  
   
@@ -103,9 +103,9 @@ To execute a stored procedure that returns a single value, you can run TableAdap
 ## Executing Stored Procedures that Return Single Values Using a Command Object  
  The following example shows how to create a command and execute a stored procedure that returns a single value. For information on setting and getting parameter values for a command, see [How to: Set and Get Parameters for Command Objects](../Topic/How%20to:%20Set%20and%20Get%20Parameters%20for%20Command%20Objects.md).  
   
- This example uses the \<xref:System.Data.SqlClient.SqlCommand> object and requires:  
+ This example uses the <xref:System.Data.SqlClient.SqlCommand> object and requires:  
   
--   References to the \<xref:System>, \<xref:System.Data>, and \<xref:System.Xml> namespaces.  
+-   References to the <xref:System>, <xref:System.Data>, and <xref:System.Xml> namespaces.  
   
 -   A data connection named `SqlConnection1`.  
   
@@ -113,16 +113,16 @@ To execute a stored procedure that returns a single value, you can run TableAdap
   
 #### To execute a stored procedure that returns a single value using a DataCommand  
   
--   Add the following code to a method that you want to execute the code from. You return single values by calling the `ExecuteScalar` method of a command (for example, \<xref:System.Data.SqlClient.SqlCommand.ExecuteScalar*>). The data is returned in an `object`.  
+-   Add the following code to a method that you want to execute the code from. You return single values by calling the `ExecuteScalar` method of a command (for example, <xref:System.Data.SqlClient.SqlCommand.ExecuteScalar*>). The data is returned in an `object`.  
   
      [!code[VbRaddataFillingAndExecuting#14](../datatools/codesnippet/CSharp/how-to--execute-a-stored-procedure-that-returns-a-single-value_2.cs)]
 [!code[VbRaddataFillingAndExecuting#14](../datatools/codesnippet/VisualBasic/how-to--execute-a-stored-procedure-that-returns-a-single-value_2.vb)]  
   
 ## See Also  
- \<xref:System.Data.SqlClient.SqlCommand.ExecuteScalar*?displayProperty=fullName>   
- \<xref:System.Data.OleDb.OleDbCommand.ExecuteScalar*?displayProperty=fullName>   
- \<xref:System.Data.Odbc.OdbcCommand.ExecuteScalar*?displayProperty=fullName>   
- \<xref:System.Data.OracleClient.OracleCommand.ExecuteScalar*?displayProperty=fullName>   
+ <xref:System.Data.SqlClient.SqlCommand.ExecuteScalar*?displayProperty=fullName>   
+ <xref:System.Data.OleDb.OleDbCommand.ExecuteScalar*?displayProperty=fullName>   
+ <xref:System.Data.Odbc.OdbcCommand.ExecuteScalar*?displayProperty=fullName>   
+ <xref:System.Data.OracleClient.OracleCommand.ExecuteScalar*?displayProperty=fullName>   
  [How to: Create TableAdapter Queries](../datatools/how-to--create-tableadapter-queries.md)   
  [How to: Edit TableAdapter Queries](../datatools/how-to--edit-tableadapter-queries.md)   
  [How to: Fill a dataset with data](../datatools/how-to--fill-a-dataset-with-data.md)   

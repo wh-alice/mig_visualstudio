@@ -1,7 +1,7 @@
 ---
 title: "GenerateTemporaryTargetAssembly Task"
 ms.custom: na
-ms.date: "10/07/2016"
+ms.date: "10/17/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,7 +39,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # GenerateTemporaryTargetAssembly Task
-The \<xref:Microsoft.Build.Tasks.Windows.GenerateTemporaryTargetAssembly> task generates an assembly if at least one [!INCLUDE[TLA#tla_xaml](../reference/includes/tlasharptla_xaml_md.md)] page in a project references a type that is declared locally in that project. The generated assembly is removed after the build process is completed, or if the build process fails.  
+The <xref:Microsoft.Build.Tasks.Windows.GenerateTemporaryTargetAssembly> task generates an assembly if at least one [!INCLUDE[TLA#tla_xaml](../reference/includes/tlasharptla_xaml_md.md)] page in a project references a type that is declared locally in that project. The generated assembly is removed after the build process is completed, or if the build process fails.  
   
 ## Task Parameters  
   

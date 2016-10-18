@@ -1,7 +1,7 @@
 ---
 title: "How to: Define and consume activity delegates in the Workflow Designer"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: ".net-framework-4.6"
 ms.reviewer: na
 ms.suite: na
@@ -27,7 +27,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Define and consume activity delegates in the Workflow Designer
-[!INCLUDE[net_v45](../ide/includes/net_v45_md.md)] includes a new out-of-box designer for the \<xref:System.Activities.Statements.InvokeDelegate> activity. This designer can be used to assign delegates to the activity that derive from \<xref:System.Activities.ActivityDelegate>, such as \<xref:System.Activities.ActivityAction> or \<xref:System.Activities.ActivityFunc`1>.  
+[!INCLUDE[net_v45](../ide/includes/net_v45_md.md)] includes a new out-of-box designer for the <xref:System.Activities.Statements.InvokeDelegate> activity. This designer can be used to assign delegates to the activity that derive from <xref:System.Activities.ActivityDelegate>, such as <xref:System.Activities.ActivityAction> or <xref:System.Activities.ActivityFunc`1>.  
   
 ### Define an activity delegate  
   
@@ -49,27 +49,27 @@ translation.priority.ht:
   
 9. In the type browser, enter **ActivityAction** in the **Type Name** field. Select **ActivityAction\<T>** in the tree view. Select **Object** in the dropdown that appears to assign the type **ActivityAction\<Object>** to the argument.  
   
-10. Drag a \<xref:System.Activities.Statements.While> activity from the **Control Flow** section of the toolbox to the designer surface.  
+10. Drag a <xref:System.Activities.Statements.While> activity from the **Control Flow** section of the toolbox to the designer surface.  
   
-11. Select the \<xref:System.Activities.Statements.While> activity, and select the **Variables** tab.  
+11. Select the <xref:System.Activities.Statements.While> activity, and select the **Variables** tab.  
   
 12. Select **Create Variable**. Name the new variable **Index**.  
   
 13. In the **Variable type** column, select **Int32**. Leave the **Scope** as **While**, and the **Default** column blank.  
   
-14. Set the **Condition** property of the \<xref:System.Activities.Statements.While> activity to **index < Items.Length;**.  
+14. Set the **Condition** property of the <xref:System.Activities.Statements.While> activity to **index < Items.Length;**.  
   
-15. Drag an \<xref:System.Activities.Statements.InvokeDelegate> activity from the **Primitives** section of the toolbox to the **Body** of the \<xref:System.Activities.Statements.While> activity.  
+15. Drag an <xref:System.Activities.Statements.InvokeDelegate> activity from the **Primitives** section of the toolbox to the **Body** of the <xref:System.Activities.Statements.While> activity.  
   
 16. Select **Body** in the delegate drop-down.  
   
-17. In the **Properties** grid for the \<xref:System.Activities.Statements.InvokeDelegate> activity, click the **…** button in the **Delegate Arguments** property.  
+17. In the **Properties** grid for the <xref:System.Activities.Statements.InvokeDelegate> activity, click the **…** button in the **Delegate Arguments** property.  
   
 18. In the **Value** column of the argument named **Argument**, enter **Items[Index]**. Click **Ok** to close the **DelegateArguments** dialog.  
   
-19. Drag an \<xref:System.Activities.Statements.Assign> activity onto the horizontal line underneath the \<xref:System.Activities.Statements.InvokeDelegate> activity. The  \<xref:System.Activities.Statements.Assign> activity will be created, and a \<xref:System.Activities.Statements.Sequence> activity will be created automatically to contain the two activities in the **Body** section of the **MyForEach** activity. The sequence is needed since the **Body** section can only contain a single activity. Automatically creating a new \<xref:System.Activities.Statements.Sequence> activity is a new feature of [!INCLUDE[net_v45](../ide/includes/net_v45_md.md)].  
+19. Drag an <xref:System.Activities.Statements.Assign> activity onto the horizontal line underneath the <xref:System.Activities.Statements.InvokeDelegate> activity. The  <xref:System.Activities.Statements.Assign> activity will be created, and a <xref:System.Activities.Statements.Sequence> activity will be created automatically to contain the two activities in the **Body** section of the **MyForEach** activity. The sequence is needed since the **Body** section can only contain a single activity. Automatically creating a new <xref:System.Activities.Statements.Sequence> activity is a new feature of [!INCLUDE[net_v45](../ide/includes/net_v45_md.md)].  
   
-20. Set the **To** property of the \<xref:System.Activities.Statements.Assign> activity to **index**. Set the **Value** property of the **Assign** activity to **index+1**.  
+20. Set the **To** property of the <xref:System.Activities.Statements.Assign> activity to **index**. Set the **Value** property of the **Assign** activity to **index+1**.  
   
  The custom **MyForEach** activity will now invoke an arbitrary activity once for each value passed into it through the **Items** collection, with the values in the collection as inputs for the activity.  
   
@@ -83,9 +83,9 @@ translation.priority.ht:
   
 4.  Set the **Items** property of the **MyForEach** activity to **new Object[] {1, "abc"}**.  
   
-5.  Drag a \<xref:System.Activities.Statements.WriteLine> activity from the **Primitives** section of the toolbox to the **Delegate:Body** section of the **MyForEach** activity.  
+5.  Drag a <xref:System.Activities.Statements.WriteLine> activity from the **Primitives** section of the toolbox to the **Delegate:Body** section of the **MyForEach** activity.  
   
-6.  Set the **Text** property of the \<xref:System.Activities.Statements.WriteLine> activity to **Argument.ToString()**.  
+6.  Set the **Text** property of the <xref:System.Activities.Statements.WriteLine> activity to **Argument.ToString()**.  
   
  When the workflow is executed, the console will show the following:  
   

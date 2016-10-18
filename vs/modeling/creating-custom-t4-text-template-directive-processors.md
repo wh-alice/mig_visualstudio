@@ -1,7 +1,7 @@
 ---
 title: "Creating Custom T4 Text Template Directive Processors"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -31,9 +31,9 @@ translation.priority.ht:
 # Creating Custom T4 Text Template Directive Processors
 The *text template transformation process* takes a *text template* file as the input and produces a text file as the output. The *text template transformation engine* controls the process, and the engine interacts with a text template transformation host and one or more text template *directive processors* to complete the process. For more information, see [The Text Template Transformation Process](../modeling/the-text-template-transformation-process.md).  
   
- To create a custom directive processor, you create a class that inherits from either \<xref:Microsoft.VisualStudio.TextTemplating.DirectiveProcessor> or \<xref:Microsoft.VisualStudio.TextTemplating.RequiresProvidesDirectiveProcessor>.  
+ To create a custom directive processor, you create a class that inherits from either <xref:Microsoft.VisualStudio.TextTemplating.DirectiveProcessor> or <xref:Microsoft.VisualStudio.TextTemplating.RequiresProvidesDirectiveProcessor>.  
   
- The difference between these two is that \<xref:Microsoft.VisualStudio.TextTemplating.DirectiveProcessor> implements the minimum interface that is necessary to get parameters from the user and to generate the code that produces the template output file. \<xref:Microsoft.VisualStudio.TextTemplating.RequiresProvidesDirectiveProcessor> implements the requires/provides design pattern. \<xref:Microsoft.VisualStudio.TextTemplating.RequiresProvidesDirectiveProcessor> handles two special parameters, `requires` and `provides`.  For example, a custom directive processor might accept a file name from the user, open and read the file, and then store the text of the file in a variable that is named `fileText`. A subclass of the \<xref:Microsoft.VisualStudio.TextTemplating.RequiresProvidesDirectiveProcessor> class might take a file name from the user as the value of the `requires` parameter, and the name of the variable in which to store the text as the value of the `provides` parameter. This processor would open and read the file and then store the text of the file in the specified variable.  
+ The difference between these two is that <xref:Microsoft.VisualStudio.TextTemplating.DirectiveProcessor> implements the minimum interface that is necessary to get parameters from the user and to generate the code that produces the template output file. <xref:Microsoft.VisualStudio.TextTemplating.RequiresProvidesDirectiveProcessor> implements the requires/provides design pattern. <xref:Microsoft.VisualStudio.TextTemplating.RequiresProvidesDirectiveProcessor> handles two special parameters, `requires` and `provides`.  For example, a custom directive processor might accept a file name from the user, open and read the file, and then store the text of the file in a variable that is named `fileText`. A subclass of the <xref:Microsoft.VisualStudio.TextTemplating.RequiresProvidesDirectiveProcessor> class might take a file name from the user as the value of the `requires` parameter, and the name of the variable in which to store the text as the value of the `provides` parameter. This processor would open and read the file and then store the text of the file in the specified variable.  
   
  Before you call a custom directive processor from a text template in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], you must register it.  
   
@@ -55,7 +55,7 @@ The *text template transformation process* takes a *text template* file as the i
 -   A directive processor to open and read a file that accepts the name of the file as a parameter.  
   
 ### Principal parts of a custom directive processor  
- To develop a directive processor, you must create a class that inherits from either \<xref:Microsoft.VisualStudio.TextTemplating.DirectiveProcessor> or \<xref:Microsoft.VisualStudio.TextTemplating.RequiresProvidesDirectiveProcessor>.  
+ To develop a directive processor, you must create a class that inherits from either <xref:Microsoft.VisualStudio.TextTemplating.DirectiveProcessor> or <xref:Microsoft.VisualStudio.TextTemplating.RequiresProvidesDirectiveProcessor>.  
   
  The most important `DirectiveProcessor` methods that you must implement are as follows.  
   

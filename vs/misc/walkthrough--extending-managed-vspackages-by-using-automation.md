@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Extending Managed VSPackages By Using Automation"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -85,7 +85,7 @@ This walkthrough illustrates how to use automation to create a managed VSPackage
      [!code[VSSDKAuto#2](../misc/codesnippet/CSharp/walkthrough--extending-managed-vspackages-by-using-automation_2.cs)]
 [!code[VSSDKAuto#2](../misc/codesnippet/VisualBasic/walkthrough--extending-managed-vspackages-by-using-automation_2.vb)]  
   
- This code calls \<xref:Microsoft.VisualStudio.Shell.Package.GetService*> to obtain a \<xref:EnvDTE.DTE> automation object that represents the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] IDE. The automation code in `MenuItemCallback` creates a new pane in the **Output** window named **Test**. The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] name and version is then written to the new **Output** pane.  
+ This code calls <xref:Microsoft.VisualStudio.Shell.Package.GetService*> to obtain a <xref:EnvDTE.DTE> automation object that represents the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] IDE. The automation code in `MenuItemCallback` creates a new pane in the **Output** window named **Test**. The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] name and version is then written to the new **Output** pane.  
   
 1.  Build and start the Auto project in debug mode by pressing F5.  
   

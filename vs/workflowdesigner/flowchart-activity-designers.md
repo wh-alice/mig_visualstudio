@@ -38,13 +38,13 @@ translation.priority.ht:
  Provides branching for the flow of control based on match criterion when more than two alternative branches are required.  
   
 ## Reference  
- \<xref:System.Activities.Activity>  
+ <xref:System.Activities.Activity>  
   
- \<xref:System.Activities.Statements.Flowchart>  
+ <xref:System.Activities.Statements.Flowchart>  
   
- \<xref:System.Activities.Statements.FlowDecision>  
+ <xref:System.Activities.Statements.FlowDecision>  
   
- \<xref:System.Activities.Statements.FlowSwitch`1>  
+ <xref:System.Activities.Statements.FlowSwitch`1>  
   
 ## Related Sections  
  For other types of activity designers, see the following topics.  

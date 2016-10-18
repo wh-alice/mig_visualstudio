@@ -1,7 +1,7 @@
 ---
 title: "Generic methods cannot use &#39;Handles&#39; clause"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -49,4 +49,4 @@ A generic `Sub` procedure includes a [Handles](../Topic/Handles%20Clause%20\(Vis
   
 ## See Also  
  [Generic Types in Visual Basic](../Topic/Generic%20Types%20in%20Visual%20Basic%20\(Visual%20Basic\).md)   
- [NOT IN BUILD:Events and Event Handlers](http://msdn.microsoft.com/95074a0d-1cbc-4221-a95a-964185c7f962)
+ [NOT IN BUILD:Events and Event Handlers](http://msdn.microsoft.com/en-us/95074a0d-1cbc-4221-a95a-964185c7f962)

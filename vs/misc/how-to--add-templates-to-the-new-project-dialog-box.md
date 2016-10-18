@@ -1,7 +1,7 @@
 ---
 title: "How to: Add Templates to the New Project Dialog Box"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -33,7 +33,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # How to: Add Templates to the New Project Dialog Box
-A number of predefined project templates are installed during [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] installation. For a complete list of predefined project templates, see [NIB Creating Projects from Templates](http://msdn.microsoft.com/7c36d86a-6b79-4480-8228-0f925f1204b2). In addition to default project templates you can create custom or subtype-specific project templates. For example, the **Smart Device** subtype provides its own templates for [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] and [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] projects. For instructions on how to create a custom template, see [How to: Create Project Templates](../ide/how-to--create-project-templates.md).  
+A number of predefined project templates are installed during [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] installation. For a complete list of predefined project templates, see [NIB Creating Projects from Templates](http://msdn.microsoft.com/en-us/7c36d86a-6b79-4480-8228-0f925f1204b2). In addition to default project templates you can create custom or subtype-specific project templates. For example, the **Smart Device** subtype provides its own templates for [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] and [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] projects. For instructions on how to create a custom template, see [How to: Create Project Templates](../ide/how-to--create-project-templates.md).  
   
 ## Adding a Template to the New Project Dialog Box  
   
@@ -47,5 +47,5 @@ A number of predefined project templates are installed during [!INCLUDE[vsprvs](
   
 ## See Also  
  [Project Subtypes](d235b47b-cf11-4d47-a63f-e33d9d16105d2044a030-0795-4940-bd65-a6e44de98a0f)   
- [NIB: Visual Studio Templates](http://msdn.microsoft.com/141fccaa-d68f-4155-822b-27f35dd94041)   
+ [NIB: Visual Studio Templates](http://msdn.microsoft.com/en-us/141fccaa-d68f-4155-822b-27f35dd94041)   
  [Contributing to the Add New Item Dialog Box](../extensibility/contributing-to-the-add-new-item-dialog-box.md)

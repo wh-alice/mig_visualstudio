@@ -1,7 +1,7 @@
 ---
 title: "Extending the Properties, Task List, Output, and Options Windows"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -108,7 +108,7 @@ You can access any tool window in Visual Studio. This walkthrough shows how to i
 ## Create an Options Page  
  You can provide a page in the **Options** dialog box so that users can change settings for the tool window. Creating an Options page requires both a class that describes the options and an entry in the TodoListPackage.cs or TodoListPackage.vb file.  
   
-1.  Add a class named `ToolsOptions.cs`. Make the ToolsOptions class inherit from \<xref:Microsoft.VisualStudio.Shell.DialogPage>.  
+1.  Add a class named `ToolsOptions.cs`. Make the ToolsOptions class inherit from <xref:Microsoft.VisualStudio.Shell.DialogPage>.  
   
     ```c#  
     class ToolsOptions : DialogPage  
@@ -138,7 +138,7 @@ You can access any tool window in Visual Studio. This walkthrough shows how to i
   
 #### Make the Options page available to users  
   
-1.  In TodoWindowPackage.cs, add a \<xref:Microsoft.VisualStudio.Shell.ProvideOptionPageAttribute> to the TodoWindowPackage class:  
+1.  In TodoWindowPackage.cs, add a <xref:Microsoft.VisualStudio.Shell.ProvideOptionPageAttribute> to the TodoWindowPackage class:  
   
     ```c#  
     [ProvideOptionPage(typeof(ToolsOptions), "ToDo", "General", 101, 106, true)]  
@@ -287,7 +287,7 @@ You can access any tool window in Visual Studio. This walkthrough shows how to i
   
 2.  In the Design view select the ListBox control. In the **Properties** window click the **Event handlers** button and find the SelectionChanged event. Fill in the text box with **listBox_SelectionChanged**. Doing this adds a stub for a SelectionChanged handler and assigns it to the event.  
   
-3.  Implement the TrackSelection() method. Since you will need to get the \<xref:Microsoft.VisualStudio.Shell.Interop.SVsUIShell>\<xref:Microsoft.VisualStudio.Shell.Interop.STrackSelection> services, you need make the \<xref:Microsoft.VisualStudio.Shell.WindowPane.GetService*> accessible by the TodoWindowControl. Add the following method to the TodoWindow class:  
+3.  Implement the TrackSelection() method. Since you will need to get the <xref:Microsoft.VisualStudio.Shell.Interop.SVsUIShell><xref:Microsoft.VisualStudio.Shell.Interop.STrackSelection> services, you need make the <xref:Microsoft.VisualStudio.Shell.WindowPane.GetService*> accessible by the TodoWindowControl. Add the following method to the TodoWindow class:  
   
     ```  
     internal object GetVsService(Type service)  
@@ -314,7 +314,7 @@ You can access any tool window in Visual Studio. This walkthrough shows how to i
     }  
     ```  
   
-6.  Now, fill in the TrackSelection function, which will provide integration with the **Properties** window. This function is called when the user adds an item to the ListBox or clicks an item in the ListBox. It adds the contents of the ListBox to a SelectionContainer and passes the SelectionContainer to the **Properties** window’s \<xref:Microsoft.VisualStudio.Shell.Interop.ITrackSelection.OnSelectChange*> event handler. The TrackSelection service tracks selected objects in the user interface (UI) and displays their properties  
+6.  Now, fill in the TrackSelection function, which will provide integration with the **Properties** window. This function is called when the user adds an item to the ListBox or clicks an item in the ListBox. It adds the contents of the ListBox to a SelectionContainer and passes the SelectionContainer to the **Properties** window’s <xref:Microsoft.VisualStudio.Shell.Interop.ITrackSelection.OnSelectChange*> event handler. The TrackSelection service tracks selected objects in the user interface (UI) and displays their properties  
   
     ```c#  
     private SelectionContainer mySelContainer;  
@@ -416,7 +416,7 @@ You can access any tool window in Visual Studio. This walkthrough shows how to i
     }  
     ```  
   
-2.  In order to add items to the Task List, you need a to add a nested class to the TodoWindowControl class. The nested class needs to derive from \<xref:Microsoft.VisualStudio.Shell.TaskProvider>. Add the following code to the end of the TodoWindowControl class.  
+2.  In order to add items to the Task List, you need a to add a nested class to the TodoWindowControl class. The nested class needs to derive from <xref:Microsoft.VisualStudio.Shell.TaskProvider>. Add the following code to the end of the TodoWindowControl class.  
   
     ```c#  
     [Guid("72de1eAD-a00c-4f57-bff7-57edb162d0be")]  

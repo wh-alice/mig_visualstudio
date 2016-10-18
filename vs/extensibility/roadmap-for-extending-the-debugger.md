@@ -1,7 +1,7 @@
 ---
 title: "Roadmap for Extending the Debugger"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -56,7 +56,7 @@ This documentation provides guide and reference information for extending the [!
   
      [Creating a Custom Debug Engine](../extensibility/creating-a-custom-debug-engine.md)  
   
-     [Tutorial: Building a Debug Engine Using ATL COM](http://msdn.microsoft.com/9097b71e-1fe7-48f7-bc00-009e25940c24)  
+     [Tutorial: Building a Debug Engine Using ATL COM](http://msdn.microsoft.com/en-us/9097b71e-1fe7-48f7-bc00-009e25940c24)  
   
      [Implementing a Port Supplier](../extensibility/implementing-a-port-supplier.md)  
   

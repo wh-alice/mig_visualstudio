@@ -100,7 +100,7 @@ One of the most common scenarios in application development is to display data o
      The **NorthwindDataSet** is added to your project and the **Customers** table appears in the **Data Sources** window.  
   
 ## Setting the Controls to be Created  
- For this walkthrough the data will be in a **Details** layout where data is displayed in individual controls. (The alternative approach is the default **Grid** layout where the data is displayed in a \<xref:System.Windows.Forms.DataGridView> control.)  
+ For this walkthrough the data will be in a **Details** layout where data is displayed in individual controls. (The alternative approach is the default **Grid** layout where the data is displayed in a <xref:System.Windows.Forms.DataGridView> control.)  
   
 #### To set the drop type for the items in the Data Sources window  
   
@@ -117,7 +117,7 @@ One of the most common scenarios in application development is to display data o
   
 -   Drag the main **Customers** node from the **Data Sources** window onto the form.  
   
-     Data-bound controls with descriptive labels appear on the form, along with a tool strip (\<xref:System.Windows.Forms.BindingNavigator>) for navigating records. A [NorthwindDataSet](../datatools/dataset-tools-in-visual-studio.md), [CustomersTableAdapter](../datatools/tableadapter-overview.md), \<xref:System.Windows.Forms.BindingSource>, and \<xref:System.Windows.Forms.BindingNavigator> appear in the component tray.  
+     Data-bound controls with descriptive labels appear on the form, along with a tool strip (<xref:System.Windows.Forms.BindingNavigator>) for navigating records. A [NorthwindDataSet](../datatools/dataset-tools-in-visual-studio.md), [CustomersTableAdapter](../datatools/tableadapter-overview.md), <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray.  
   
 ## Testing the Application  
   
@@ -125,7 +125,7 @@ One of the most common scenarios in application development is to display data o
   
 -   Press F5.  
   
--   Navigate records using the \<xref:System.Windows.Forms.BindingNavigator> control.  
+-   Navigate records using the <xref:System.Windows.Forms.BindingNavigator> control.  
   
 ## Next Steps  
  Depending on your application requirements, there are several steps you may want to perform after creating a data-bound Windows Form. Some enhancements you could make to this walkthrough include:  

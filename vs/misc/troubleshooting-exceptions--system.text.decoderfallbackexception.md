@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.Text.DecoderFallbackException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -38,5 +38,5 @@ translation.priority.mt:
 The exception that is thrown when a decoder fallback operation fails.  
   
 ## See Also  
- \<xref:System.Text.DecoderFallbackException>   
+ <xref:System.Text.DecoderFallbackException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

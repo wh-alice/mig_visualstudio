@@ -1,7 +1,7 @@
 ---
 title: "Late binding operations cannot be converted to an expression tree"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -56,4 +56,4 @@ End Module
   
 ## See Also  
  [Early and Late Binding](../Topic/Early%20and%20Late%20Binding%20\(Visual%20Basic\).md)   
- [NOT IN BUILD: Expression Trees in LINQ](http://msdn.microsoft.com/1a2e8e74-4bbc-45ab-9a46-2b6cfce3bcb2)
+ [NOT IN BUILD: Expression Trees in LINQ](http://msdn.microsoft.com/en-us/1a2e8e74-4bbc-45ab-9a46-2b6cfce3bcb2)

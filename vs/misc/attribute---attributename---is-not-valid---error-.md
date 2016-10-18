@@ -1,7 +1,7 @@
 ---
 title: "Attribute &#39;&lt;attributename&gt;&#39; is not valid: &lt;error&gt;"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -46,4 +46,4 @@ The common language runtime does not accept the attribute in the current context
 2.  Examine the error message and take appropriate action.  
   
 ## See Also  
- [NOT IN BUILD: How to: Define Your Own Attributes](http://msdn.microsoft.com/039609c4-ec43-4f44-945f-aa3b5b535c6a)
+ [NOT IN BUILD: How to: Define Your Own Attributes](http://msdn.microsoft.com/en-us/039609c4-ec43-4f44-945f-aa3b5b535c6a)

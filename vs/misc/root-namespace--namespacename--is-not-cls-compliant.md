@@ -1,7 +1,7 @@
 ---
 title: "Root namespace &lt;namespacename&gt; is not CLS-compliant"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,9 +39,9 @@ An assembly is marked as `<CLSCompliant(True)>`, but the root namespace name beg
   
  A programming element can contain one or more underscores, but to be compliant with the [Language Independence and Language-Independent Components](../Topic/Language%20Independence%20and%20Language-Independent%20Components.md) (CLS), it must not begin with an underscore. See [Declared Element Names](../Topic/Declared%20Element%20Names%20\(Visual%20Basic\).md).  
   
- When you apply the \<xref:System.CLSCompliantAttribute> to a programming element, you set the attribute's `isCompliant` parameter to either `True` or `False` to indicate compliance or noncompliance. There is no default for this parameter, and you must supply a value.  
+ When you apply the <xref:System.CLSCompliantAttribute> to a programming element, you set the attribute's `isCompliant` parameter to either `True` or `False` to indicate compliance or noncompliance. There is no default for this parameter, and you must supply a value.  
   
- If you do not apply the \<xref:System.CLSCompliantAttribute> to an element, it is considered to be noncompliant.  
+ If you do not apply the <xref:System.CLSCompliantAttribute> to an element, it is considered to be noncompliant.  
   
  By default, this message is a warning. For information on hiding warnings or treating warnings as errors, see [Configuring Warnings in Visual Basic](../ide/configuring-warnings-in-visual-basic.md).  
   
@@ -51,13 +51,13 @@ An assembly is marked as `<CLSCompliant(True)>`, but the root namespace name beg
   
 -   If you require CLS compliance, change the root namespace name so that it does not begin with an underscore.  
   
--   If you require that the root namespace name remain unchanged, then remove the \<xref:System.CLSCompliantAttribute> from the assembly or mark it as `<CLSCompliant(False)>`.  
+-   If you require that the root namespace name remain unchanged, then remove the <xref:System.CLSCompliantAttribute> from the assembly or mark it as `<CLSCompliant(False)>`.  
   
 ## See Also  
  [Namespace Statement](../Topic/Namespace%20Statement.md)   
  [Namespaces in Visual Basic](../Topic/Namespaces%20in%20Visual%20Basic.md)   
  [/rootnamespace](../Topic/-rootnamespace.md)   
- [NIB: How to: Change the Namespace for an Application (Visual Basic)](http://msdn.microsoft.com/029d85c0-e173-4f7a-afba-a29f3aaf6ebf)   
+ [NIB: How to: Change the Namespace for an Application (Visual Basic)](http://msdn.microsoft.com/en-us/029d85c0-e173-4f7a-afba-a29f3aaf6ebf)   
  [Declared Element Names](../Topic/Declared%20Element%20Names%20\(Visual%20Basic\).md)   
  [Visual Basic Naming Conventions](../Topic/Visual%20Basic%20Naming%20Conventions.md)   
- [\<PAVE OVER> Writing CLS-Compliant Code](http://msdn.microsoft.com/4c705105-69a2-4e5e-b24e-0633bc32c7f3)
+ [\<PAVE OVER> Writing CLS-Compliant Code](http://msdn.microsoft.com/en-us/4c705105-69a2-4e5e-b24e-0633bc32c7f3)

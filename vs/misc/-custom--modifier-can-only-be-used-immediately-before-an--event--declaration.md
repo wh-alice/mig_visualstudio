@@ -1,7 +1,7 @@
 ---
 title: "&#39;Custom&#39; modifier can only be used immediately before an &#39;Event&#39; declaration"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -48,6 +48,6 @@ The `Custom` keyword must precede only the `Event` keyword in a custom event dec
 -   Remove the `Custom` keyword.  
   
 ## See Also  
- [Custom - delete](http://msdn.microsoft.com/dc62be07-c896-4866-a533-982a661d143f)   
+ [Custom - delete](http://msdn.microsoft.com/en-us/dc62be07-c896-4866-a533-982a661d143f)   
  [Event Statement](../Topic/Event%20Statement.md)   
  [Events](../Topic/Events%20\(Visual%20Basic\).md)

@@ -1,7 +1,7 @@
 ---
 title: "File &#39;&lt;filename&gt;&#39; cannot be deleted because it is open"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,6 +39,6 @@ A deletion is being attempted on an open file.
 -   Close the file before deleting it.  
   
 ## See Also  
- [NOT IN BUILD: FileClose Function](http://msdn.microsoft.com/f307b39f-a996-4ff6-ab13-e0b05ea5ab91)   
- [My.Computer.FileSystem.DeleteFile Method](http://msdn.microsoft.com/07637b38-bd99-49b1-8cc0-dc37cdb14dba)   
+ [NOT IN BUILD: FileClose Function](http://msdn.microsoft.com/en-us/f307b39f-a996-4ff6-ab13-e0b05ea5ab91)   
+ [My.Computer.FileSystem.DeleteFile Method](http://msdn.microsoft.com/en-us/07637b38-bd99-49b1-8cc0-dc37cdb14dba)   
  [My.Computer.FileSystem Object](../Topic/My.Computer.FileSystem%20Object.md)

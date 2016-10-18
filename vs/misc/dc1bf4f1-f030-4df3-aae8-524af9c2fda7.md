@@ -1,7 +1,7 @@
 ---
 title: "&#39;Microsoft.VisualBasic.ComClassAttribute&#39; and &#39;&lt;attribute&gt;&#39; cannot both be applied to the same class"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,6 +44,6 @@ A `COMClassAttribute` attribute block is used in conjunction with an attribute t
 -   Remove either the `COMClassAttribute` attribute block or the attribute that does not apply to COM.  
   
 ## See Also  
- [NOT IN BUILD: Attributes Used in Visual Basic](http://msdn.microsoft.com/22231318-8a40-49af-9245-e0aab723563b)   
- [NOT IN BUILD: Application of Attributes](http://msdn.microsoft.com/2b1703ed-4437-49b3-bc0b-568094324f47)   
- [ComClassAttribute Class](http://msdn.microsoft.com/5c2f0835-9210-47dc-bc59-5c1769953574)
+ [NOT IN BUILD: Attributes Used in Visual Basic](http://msdn.microsoft.com/en-us/22231318-8a40-49af-9245-e0aab723563b)   
+ [NOT IN BUILD: Application of Attributes](http://msdn.microsoft.com/en-us/2b1703ed-4437-49b3-bc0b-568094324f47)   
+ [ComClassAttribute Class](http://msdn.microsoft.com/en-us/5c2f0835-9210-47dc-bc59-5c1769953574)

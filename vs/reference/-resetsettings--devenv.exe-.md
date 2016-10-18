@@ -1,7 +1,7 @@
 ---
 title: "-ResetSettings (devenv.exe)"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -60,5 +60,5 @@ Devenv.exe /ResetSettings "C:\My Files\MySettings.vssettings"
 ```  
   
 ## See Also  
- [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3)   
+ [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3)   
  [Devenv Command Line Switches](../reference/devenv-command-line-switches.md)

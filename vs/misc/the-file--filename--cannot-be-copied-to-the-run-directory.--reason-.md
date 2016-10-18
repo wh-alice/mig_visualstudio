@@ -1,7 +1,7 @@
 ---
 title: "The file &#39;filename&#39; cannot be copied to the run directory. &lt;reason&gt;"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -57,4 +57,4 @@ This error is displayed when:
      The situation will not prevent the project from building. However, it may prevent the project from running correctly, because this warning indicates that a private copy of a referenced assembly could not be updated correctly. Although the project may appear to run, you may get a type load exceptions or other unexpected behavior when executing certain code paths.  
   
 ## See Also  
- [NIB: How to: Set the Copy Local Property of a Reference](http://msdn.microsoft.com/dfe2ba13-f27f-4356-a481-ea67d5acacbd)
+ [NIB: How to: Set the Copy Local Property of a Reference](http://msdn.microsoft.com/en-us/dfe2ba13-f27f-4356-a481-ea67d5acacbd)

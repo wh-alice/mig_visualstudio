@@ -1,7 +1,7 @@
 ---
 title: "Unable to open key file &#39;&lt;filename&gt;&#39;: &lt;error&gt;"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -45,4 +45,4 @@ The key file specified for this project could not be opened.
   
 ## See Also  
  [Sn.exe (Strong Name Tool)](../Topic/Sn.exe%20\(Strong%20Name%20Tool\).md)   
- [NOT IN BUILD: Global Attributes in Visual Basic](http://msdn.microsoft.com/253a32d8-1531-4504-b687-088554ab71d2)
+ [NOT IN BUILD: Global Attributes in Visual Basic](http://msdn.microsoft.com/en-us/253a32d8-1531-4504-b687-088554ab71d2)

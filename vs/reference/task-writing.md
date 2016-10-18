@@ -1,7 +1,7 @@
 ---
 title: "Task Writing"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -36,13 +36,13 @@ translation.priority.ht:
 Tasks provide the code that runs during the build process. Tasks are contained in targets. A library of typical tasks is included with [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)], and you can also create your own tasks. For more information about the library of tasks that are included with [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)], see [Task Reference](../reference/msbuild-task-reference.md).  
   
 ## Tasks  
- Examples of tasks include [Copy](../reference/copy-task.md), which copies one or more files, [MakeDir](../reference/makedir-task.md), which creates a directory, and [Csc](../reference/csc-task.md), which compiles [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] source code files. Each task is implemented as a .NET class that implements the \<xref:Microsoft.Build.Framework.ITask> interface, which is defined in the Microsoft.Build.Framework.dll assembly.  
+ Examples of tasks include [Copy](../reference/copy-task.md), which copies one or more files, [MakeDir](../reference/makedir-task.md), which creates a directory, and [Csc](../reference/csc-task.md), which compiles [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] source code files. Each task is implemented as a .NET class that implements the <xref:Microsoft.Build.Framework.ITask> interface, which is defined in the Microsoft.Build.Framework.dll assembly.  
   
  There are two approaches you can use when implementing a task:  
   
--   Implement the \<xref:Microsoft.Build.Framework.ITask> interface directly.  
+-   Implement the <xref:Microsoft.Build.Framework.ITask> interface directly.  
   
--   Derive your class from the helper class, \<xref:Microsoft.Build.Utilities.Task>, which is defined in the Microsoft.Build.Utilities.dll assembly. Task implements ITask and provides default implementations of some ITask members. Additionally, logging is easier.  
+-   Derive your class from the helper class, <xref:Microsoft.Build.Utilities.Task>, which is defined in the Microsoft.Build.Utilities.dll assembly. Task implements ITask and provides default implementations of some ITask members. Additionally, logging is easier.  
   
  In both cases, you must add to your class a method named `Execute`, which is the method that is called when the task runs. This method takes no parameters and returns a `Boolean` value: `true` if the task succeeded or `false` if it failed. The following example shows a task that performs no action and returns `true`.  
   
@@ -118,7 +118,7 @@ namespace MyTasks
 >  You can see a list of the tasks that are supplied with [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] by viewing the contents of Microsoft.Common.Tasks.  
   
 ## Raising Events from a Task  
- If your task derives from the \<xref:Microsoft.Build.Utilities.Task> helper class, you can use any of the following helper methods on the \<xref:Microsoft.Build.Utilities.Task> class to raise events that will be caught and displayed by any registered loggers:  
+ If your task derives from the <xref:Microsoft.Build.Utilities.Task> helper class, you can use any of the following helper methods on the <xref:Microsoft.Build.Utilities.Task> class to raise events that will be caught and displayed by any registered loggers:  
   
 ```  
 public override bool Execute()  
@@ -130,7 +130,7 @@ public override bool Execute()
 }  
 ```  
   
- If your task implements \<xref:Microsoft.Build.Framework.ITask> directly, you can still raise such events but you must use the IBuildEngine interface. The following example shows a task that implements ITask and raises a custom event:  
+ If your task implements <xref:Microsoft.Build.Framework.ITask> directly, you can still raise such events but you must use the IBuildEngine interface. The following example shows a task that implements ITask and raises a custom event:  
   
 ```  
 public class SimpleTask : ITask  
@@ -168,12 +168,12 @@ public string RequiredProperty
 }  
 ```  
   
- The `[Required]` attribute is defined by \<xref:Microsoft.Build.Framework.RequiredAttribute> in the \<xref:Microsoft.Build.Framework> namespace.  
+ The `[Required]` attribute is defined by <xref:Microsoft.Build.Framework.RequiredAttribute> in the <xref:Microsoft.Build.Framework> namespace.  
   
 ## Example  
   
 ### Description  
- This following [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] class demonstrates a task deriving from the \<xref:Microsoft.Build.Utilities.Task> helper class. This task returns `true`, indicating that it succeeded.  
+ This following [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] class demonstrates a task deriving from the <xref:Microsoft.Build.Utilities.Task> helper class. This task returns `true`, indicating that it succeeded.  
   
 ### Code  
   
@@ -197,7 +197,7 @@ namespace SimpleTask1
 ## Example  
   
 ### Description  
- This following [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] class demonstrates a task implementing the \<xref:Microsoft.Build.Framework.ITask> interface. This task returns `true`, indicating that it succeeded.  
+ This following [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] class demonstrates a task implementing the <xref:Microsoft.Build.Framework.ITask> interface. This task returns `true`, indicating that it succeeded.  
   
 ### Code  
   
@@ -255,7 +255,7 @@ namespace SimpleTask2
 ## Example  
   
 ### Description  
- This [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] class demonstrates a task that derives from the \<xref:Microsoft.Build.Utilities.Task> helper class. It has a required string property, and raises an event that is displayed by all registered loggers.  
+ This [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] class demonstrates a task that derives from the <xref:Microsoft.Build.Utilities.Task> helper class. It has a required string property, and raises an event that is displayed by all registered loggers.  
   
 ### Code  
  [!code[msbuild_SimpleTask3#1](../reference/codesnippet/CSharp/task-writing_1.cs)]  

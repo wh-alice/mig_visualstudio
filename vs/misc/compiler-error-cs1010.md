@@ -1,7 +1,7 @@
 ---
 title: "Compiler Error CS1010"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -56,4 +56,4 @@ class Sample
 ```  
   
 ## See Also  
- [NIB - Strings (C# Programming Guide)](http://msdn.microsoft.com/1a32b1c9-0d99-468a-9734-e3a47f2e897a)
+ [NIB - Strings (C# Programming Guide)](http://msdn.microsoft.com/en-us/1a32b1c9-0d99-468a-9734-e3a47f2e897a)

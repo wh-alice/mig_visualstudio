@@ -1,7 +1,7 @@
 ---
 title: "Welcome to Visual Studio 2015 (2)"
 ms.custom: na
-ms.date: "10/12/2016"
+ms.date: "10/18/2016"
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -19,7 +19,7 @@ caps.latest.revision: 5
   
  Download [Visual Studio Community](http://go.microsoft.com/fwlink/?LinkId=517106) for free to start coding right away. If you want to do cross-platform development, make sure that you install the optional packages. (You can get more features with [other editions of Visual Studio](http://www.visualstudio.com/products/compare-visual-studio-products-vs).)  
   
- Jump right in, create a new project, and start writing code. Choose the type of app you want to create. Or you can [take a tour](../Topic/Visual%20Studio%20IDE.md) of the Visual Studio IDE to get familiar with the tools.  
+ Jump right in, create a new project, and start writing code. Choose the type of app you want to create. Or you can [take a tour](../ide/visual-studio-ide.md) of the Visual Studio IDE to get familiar with the tools.  
   
  And don’t forget to explore our [code gallery](https://code.msdn.microsoft.com/) to find samples to help you write your app more quickly!  
   
@@ -83,19 +83,19 @@ caps.latest.revision: 5
   
 |||||  
 |-|-|-|-|  
-|[What’s new in Visual Studio 2015](../Topic/What's%20New%20in%20Visual%20Studio%202015.md)|[What's New for Visual C#](../Topic/What's%20New%20for%20Visual%20C%23.md)|[What’s new for .NET Framework 4.6](../Topic/What's%20New%20in%20the%20.NET%20Framework.md)|[What’s new for ALM](http://msdn.microsoft.com/54b98a53-6083-4303-869a-8063d8fae938)|  
+|[What’s new in Visual Studio 2015](../ide/what-s-new-in-visual-studio-2015.md)|[What's New for Visual C#](../Topic/What's%20New%20for%20Visual%20C%23.md)|[What’s new for .NET Framework 4.6](../Topic/What's%20New%20in%20the%20.NET%20Framework.md)|[What’s new for ALM](http://msdn.microsoft.com/en-us/54b98a53-6083-4303-869a-8063d8fae938)|  
 |[What’s new for C++](../Topic/What's%20New%20for%20Visual%20C++%20in%20Visual%20Studio%202015.md)|[What's New for Visual Basic](../Topic/What's%20New%20for%20Visual%20Basic.md)|[What’s new for JavaScript](../Topic/What's%20New%20in%20JavaScript.md)||  
 |[Python](../Topic/Getting%20Started%20with%20Python.md)||||  
   
 ## In this section  
   
-1.  [What's New in Visual Studio 2015](../Topic/What's%20New%20in%20Visual%20Studio%202015.md)  
+1.  [What's New in Visual Studio 2015](../ide/what-s-new-in-visual-studio-2015.md)  
   
 2.  [Installing Visual Studio 2015](../install/installing-visual-studio-2015.md)  
   
 3.  [Porting, Migrating, and Upgrading Visual Studio Projects](../porting/porting--migrating--and-upgrading-visual-studio-projects.md)  
   
-4.  [Visual Studio IDE](../Topic/Visual%20Studio%20IDE.md)  
+4.  [Visual Studio IDE](../ide/visual-studio-ide.md)  
   
 5.  [Extensibility in Visual Studio](../extensibility/extensibility-in-visual-studio.md)  
   

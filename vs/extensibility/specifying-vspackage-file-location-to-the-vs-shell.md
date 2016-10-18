@@ -1,7 +1,7 @@
 ---
 title: "Specifying VSPackage File Location to the VS Shell"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -36,7 +36,7 @@ translation.priority.mt:
   
 |Method|Description|  
 |------------|-----------------|  
-|Use the CodeBase registry key.|The CodeBase key can be used to direct [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] to load the VSPackage assembly from any fully qualified file path. The value of the key should be the file path to the DLL. This is the best way to have [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] load your package assembly. This technique is sometimes referred to as the "CodeBase/private installation directory technique." During registration the value of the codebase is passed to the registration attribute classes through an instance of the \<xref:Microsoft.VisualStudio.Shell.RegistrationAttribute.RegistrationContext> type.|  
+|Use the CodeBase registry key.|The CodeBase key can be used to direct [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] to load the VSPackage assembly from any fully qualified file path. The value of the key should be the file path to the DLL. This is the best way to have [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] load your package assembly. This technique is sometimes referred to as the "CodeBase/private installation directory technique." During registration the value of the codebase is passed to the registration attribute classes through an instance of the <xref:Microsoft.VisualStudio.Shell.RegistrationAttribute.RegistrationContext> type.|  
 |Place the DLL into the **PrivateAssemblies** directory.|Place the assembly in the **PrivateAssemblies** subdirectory of the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] directory. Assemblies located in **PrivateAssemblies** are automatically detected, but are not visible in the **Add References** dialog box. The difference between **PrivateAssemblies** and **PublicAssemblies** is that assemblies in **PublicAssemblies** are enumerated in the **Add References** dialog box. If you chose not to use the "CodeBase/private installation directory" technique, then you should install into the **PrivateAssemblies** directory.|  
 |Use a strong-named assembly and the Assembly registry key.|The Assembly key can be used to explicitly direct [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] to load a strong named VSPackage assembly. The value of the key should be the strong name of the assembly.|  
 |Place the DLL into the **PublicAssemblies** directory.|Finally, the assembly can also be placed into the **PublicAssemblies** subdirectory. Assemblies located in **PublicAssemblies** are automatically detected, and will also appear in the **Add References** dialog box in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].<br /><br /> VSPackage assemblies should only be placed in the **PublicAssemblies** directory if they contain managed components that are intended to be reused by other VSPackage developers. The majority of assemblies do not meet this criterion.|  

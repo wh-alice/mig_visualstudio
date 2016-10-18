@@ -1,7 +1,7 @@
 ---
 title: "MSBuild Error MSB3255"
 ms.custom: na
-ms.date: "10/11/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -34,7 +34,7 @@ translation.priority.mt:
 # MSBuild Error MSB3255
 **MSB3255: Could not find any Target Framework Subset files in the Target Framework Directories or at the locations specified in the InstalledAssemblySubsetTables.**  
   
- This error occurs when a name is passed into the \<xref:Microsoft.Build.Tasks.ResolveAssemblyReference.FullTargetFrameworkSubsetNames*> property, but a subset with that name cannot be found.  
+ This error occurs when a name is passed into the <xref:Microsoft.Build.Tasks.ResolveAssemblyReference.FullTargetFrameworkSubsetNames*> property, but a subset with that name cannot be found.  
   
  The [!INCLUDE[net_client_v35_long](../misc/includes/net_client_v35_long_md.md)] is a subset of the full [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] 3.5 run-time library. For more information about the [!INCLUDE[net_client_v35_long](../misc/includes/net_client_v35_long_md.md)], see [.NET Framework Client Profile](../Topic/.NET%20Framework%20Client%20Profile.md).  
   
@@ -42,7 +42,7 @@ translation.priority.mt:
   
 ### To correct this error  
   
--   Put a copy of the subset file in the target framework folder or in one of the locations specified in \<xref:Microsoft.Build.Tasks.ResolveAssemblyReference.InstalledAssemblySubsetTables*>.  
+-   Put a copy of the subset file in the target framework folder or in one of the locations specified in <xref:Microsoft.Build.Tasks.ResolveAssemblyReference.InstalledAssemblySubsetTables*>.  
   
 ## See Also  
  [Project Element (MSBuild)](../reference/project-element--msbuild-.md)   

@@ -1,7 +1,7 @@
 ---
 title: "WPF MSBuild Reference"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -46,20 +46,20 @@ Windows Presentation Foundation (WPF) extends Microsoft build engine (MSBuild) w
  [Task Reference](../reference/wpf-msbuild-task-reference.md)  
  Lists the available WPF build tasks.  
   
- \<xref:Microsoft.Build.Tasks>  
+ <xref:Microsoft.Build.Tasks>  
  A build task assembly.  
   
- \<xref:Microsoft.Build.Tasks.Deployment.Bootstrapper>  
+ <xref:Microsoft.Build.Tasks.Deployment.Bootstrapper>  
  A build task deployment bootstrapper assembly.  
   
- \<xref:Microsoft.Build.Tasks.Deployment.ManifestUtilities>  
+ <xref:Microsoft.Build.Tasks.Deployment.ManifestUtilities>  
  A build task deployment manifest utility assembly.  
   
- \<xref:Microsoft.Build.Tasks.Hosting>  
+ <xref:Microsoft.Build.Tasks.Hosting>  
  A build task hosting assembly.  
   
- \<xref:Microsoft.Build.Tasks.Windows>  
+ <xref:Microsoft.Build.Tasks.Windows>  
  A build task windows assembly.  
   
 ## See Also  
- [MSBuild](http://msdn.microsoft.com/7c49aba1-ee6c-47d8-9de1-6f29a906e20b)
+ [MSBuild](http://msdn.microsoft.com/en-us/7c49aba1-ee6c-47d8-9de1-6f29a906e20b)

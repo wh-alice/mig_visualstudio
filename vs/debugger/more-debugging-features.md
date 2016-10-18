@@ -1,7 +1,7 @@
 ---
 title: "More Debugging Features"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -15,7 +15,7 @@ dev_langs:
   - "CSharp"
   - "C++"
 ms.assetid: a41166d7-e03e-42ef-862e-dd025ef600b6
-caps.latest.revision: 6
+caps.latest.revision: 12
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -53,13 +53,13 @@ This section contains additional features that you can use with the Visual Studi
  Discusses Just-In-Time debugging, which can start the debugger automatically when a program crashes while running outside of Visual Studio.  
   
  [Walkthrough: Debugging at Design Time](../debugger/walkthrough--debugging-at-design-time.md)  
- Shows how to use the Visual Studio Immediate window to execute a function or subroutine while your application is not running.  
+ Shows how to use the Visual Studio Immediate window to execute a function or subroutine while your application is not running. 
   
  [Edit and Continue](../debugger/edit-and-continue.md)  
  Describes Edit and Continue, a tool that enables you to change your source code while your program is in break mode and apply those changes without having to end the debug session and build your program again, and provides instructions on enabling or disabling this feature.  
   
- [Using Dump Files](../debugger/using-dump-files.md)  
- Describes dump files, including instructions on saving and opening. Dump files contain a snapshot of your program's state at some point in time, usually after a crash. If you test your program on a machine that does not have source files or PDBs installed, you can save a dump file when a crash occurs and use the dump file to debug the crash on the build machine that has the source files and PDBs.  
+ [Using Dump Files](../debugger/using-dump-files.md)
+ Describes dump files, including instructions on saving and opening. Dump files contain a snapshot of your program's state at some point in time, usually after a crash. If you test your program on a machine that does not have source files or PDBs installed, you can save a dump file when a crash occurs and use the dump file to debug the crash on the build machine that has the source files and PDBs. 
   
  [How to: Restore Hidden Debugger Commands](../debugger/how-to--restore-hidden-debugger-commands.md)  
  Describes how to make debugger commands visible that have been hidden by IDE default settings.

@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.Runtime.Serialization.SerializationException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -38,5 +38,5 @@ translation.priority.mt:
 The exception that is thrown if an error occurs during serialization or deserialization.  
   
 ## See Also  
- \<xref:System.Runtime.Serialization.SerializationException>   
+ <xref:System.Runtime.Serialization.SerializationException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

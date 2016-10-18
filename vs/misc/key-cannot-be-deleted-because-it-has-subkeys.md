@@ -1,7 +1,7 @@
 ---
 title: "Key cannot be deleted because it has subkeys"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,7 +37,7 @@ The key cannot be deleted because it has subkeys.
 -   Determine and delete the specified key's subkeys before attempting this operation.  
   
 ## See Also  
- \<xref:Microsoft.Win32.RegistryKey.DeleteSubKey*>   
+ <xref:Microsoft.Win32.RegistryKey.DeleteSubKey*>   
  [How to: Delete a Registry Key](../Topic/How%20to:%20Delete%20a%20Registry%20Key%20in%20Visual%20Basic.md)   
- [Reading from and Writing to the Registry Using My (Visual Basic)](http://msdn.microsoft.com/1309ad05-5bef-401f-970a-2f6455873b79)   
- [Troubleshooting: Manipulating the Registry (Visual Basic)](http://msdn.microsoft.com/6ca24f55-3697-4017-b687-9de45858af4c)
+ [Reading from and Writing to the Registry Using My (Visual Basic)](http://msdn.microsoft.com/en-us/1309ad05-5bef-401f-970a-2f6455873b79)   
+ [Troubleshooting: Manipulating the Registry (Visual Basic)](http://msdn.microsoft.com/en-us/6ca24f55-3697-4017-b687-9de45858af4c)

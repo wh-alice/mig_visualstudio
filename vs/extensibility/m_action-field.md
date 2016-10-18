@@ -1,7 +1,7 @@
 ---
 title: "m_action Field"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -31,9 +31,9 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # m_action Field
-The delegate that represents the code to execute in the \<xref:System.Threading.Tasks.Task> object.  
+The delegate that represents the code to execute in the <xref:System.Threading.Tasks.Task> object.  
   
- **Namespace:** \<xref:System.Threading.Tasks?displayProperty=fullName>  
+ **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>  
   
  **Assembly:** mscorlib (in mscorlib.dll)  
   
@@ -46,7 +46,7 @@ The delegate that represents the code to execute in the \<xref:System.Threading.
 ```  
   
 ## Remarks  
- This is the `action` parameter in the \<xref:System.Threading.Tasks.Task.#ctor*> constructor.  
+ This is the `action` parameter in the <xref:System.Threading.Tasks.Task.#ctor*> constructor.  
   
 ## See Also  
  [Task Class](../extensibility/task-class---internal-members.md)

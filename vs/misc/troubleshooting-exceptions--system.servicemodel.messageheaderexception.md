@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.ServiceModel.MessageHeaderException"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -33,8 +33,8 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.ServiceModel.MessageHeaderException
-A \<xref:System.ServiceModel.MessageHeaderException> exception is thrown when the expectations regarding headers of a SOAP message are not satisfied when the message is processed.  
+A <xref:System.ServiceModel.MessageHeaderException> exception is thrown when the expectations regarding headers of a SOAP message are not satisfied when the message is processed.  
   
 ## See Also  
- \<xref:System.ServiceModel.MessageHeaderException>   
+ <xref:System.ServiceModel.MessageHeaderException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

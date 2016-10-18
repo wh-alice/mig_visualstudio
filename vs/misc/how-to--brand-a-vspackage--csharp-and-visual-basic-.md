@@ -1,7 +1,7 @@
 ---
 title: "How to: Brand a VSPackage (C# and Visual Basic)"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -33,7 +33,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # How to: Brand a VSPackage (C# and Visual Basic)
-To appear in the **About** dialog box and the splash screen, VSPackages must implement the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsInstalledProduct> interface. This provides the following information to [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]:  
+To appear in the **About** dialog box and the splash screen, VSPackages must implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsInstalledProduct> interface. This provides the following information to [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]:  
   
 -   Name  
   
@@ -47,16 +47,16 @@ To appear in the **About** dialog box and the splash screen, VSPackages must imp
   
 ### To implement the IVsInstalledProduct interface  
   
-1.  Add the \<xref:Microsoft.VisualStudio.Shell.InstalledProductRegistrationAttribute> attribute to the class that implements the VSPackage. This class must derive from both \<xref:Microsoft.VisualStudio.Shell.Package> and \<xref:Microsoft.VisualStudio.Shell.Interop.IVsInstalledProduct>.  
+1.  Add the <xref:Microsoft.VisualStudio.Shell.InstalledProductRegistrationAttribute> attribute to the class that implements the VSPackage. This class must derive from both <xref:Microsoft.VisualStudio.Shell.Package> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsInstalledProduct>.  
   
      [!code[VSSDKPackageSplashHelpAboutLoadKey#1](../misc/codesnippet/CSharp/how-to--brand-a-vspackage--csharp-and-visual-basic-_1.cs)]
 [!code[VSSDKPackageSplashHelpAboutLoadKey#1](../misc/codesnippet/VisualBasic/how-to--brand-a-vspackage--csharp-and-visual-basic-_1.vb)]  
   
-     The first argument, \<xref:Microsoft.VisualStudio.Shell.InstalledProductRegistrationAttribute.UseInterface*>, of the \<xref:Microsoft.VisualStudio.Shell.InstalledProductRegistrationAttribute> attribute tells [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] to use \<xref:Microsoft.VisualStudio.Shell.Interop.IVsInstalledProduct> to obtain product information, instead of the InstalledProducts registry key. The remaining arguments select string resources to display the product name, details, and ID, respectively. However, because the first argument is `true`, the remaining arguments are `null`.  
+     The first argument, <xref:Microsoft.VisualStudio.Shell.InstalledProductRegistrationAttribute.UseInterface*>, of the <xref:Microsoft.VisualStudio.Shell.InstalledProductRegistrationAttribute> attribute tells [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] to use <xref:Microsoft.VisualStudio.Shell.Interop.IVsInstalledProduct> to obtain product information, instead of the InstalledProducts registry key. The remaining arguments select string resources to display the product name, details, and ID, respectively. However, because the first argument is `true`, the remaining arguments are `null`.  
   
-2.  Right-click \<xref:Microsoft.VisualStudio.Shell.Interop.IVsInstalledProduct>, point to **Implement Interface**, and then click **Implement Interface**.  
+2.  Right-click <xref:Microsoft.VisualStudio.Shell.Interop.IVsInstalledProduct>, point to **Implement Interface**, and then click **Implement Interface**.  
   
-3.  Implement \<xref:Microsoft.VisualStudio.Shell.Interop.IVsInstalledProduct> by using the following code.  
+3.  Implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsInstalledProduct> by using the following code.  
   
      [!code[VSSDKPackageSplashHelpAboutLoadKey#2](../misc/codesnippet/CSharp/how-to--brand-a-vspackage--csharp-and-visual-basic-_2.cs)]
 [!code[VSSDKPackageSplashHelpAboutLoadKey#2](../misc/codesnippet/VisualBasic/how-to--brand-a-vspackage--csharp-and-visual-basic-_2.vb)]  
@@ -91,7 +91,7 @@ To appear in the **About** dialog box and the splash screen, VSPackages must imp
   
 1.  Add the bitmaps and icons to the project as project resources.  
   
-     For more information, see [NOT IN BUILD: Adding and Editing Resources (Visual C#)](http://msdn.microsoft.com/95f15d03-bed0-410c-8d1f-dece5199ba1e).  
+     For more information, see [NOT IN BUILD: Adding and Editing Resources (Visual C#)](http://msdn.microsoft.com/en-us/95f15d03-bed0-410c-8d1f-dece5199ba1e).  
   
 2.  Close the resource editor and reopen the .resx file in an XML or text editor.  
   

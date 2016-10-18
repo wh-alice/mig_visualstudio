@@ -1,7 +1,7 @@
 ---
 title: "Options Page, Environment Node Properties"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -45,7 +45,7 @@ This document describes the pages (or properties collections) that are associate
 |Animations|Get/Set (Boolean)|Determines whether the integrated development environment (IDE) uses animation in the status bar.|  
 |AnimationSpeed|Get/Set (Short)||  
 |AutoAdjustExperience|Get/Set (Boolean)|Automatically adjusts the visual experience depending on the client performance.|  
-|RichClientExperienceOptions|Get/Set (Enum)|Enables rich client visual experience with values in \<xref:EnvDTE100.vsRichClientExperienceOptions>.|  
+|RichClientExperienceOptions|Get/Set (Enum)|Enables rich client visual experience with values in <xref:EnvDTE100.vsRichClientExperienceOptions>.|  
 |CloseButtonActiveTabOnly|Get/Set (Boolean)|Determines whether the **Close** button is shown only on the active tab.|  
 |AutohidePinActiveTabOnly|Get/Set (Boolean)|Determines whether the **Auto Hide** button affects only the active tab.|  
   
@@ -66,14 +66,14 @@ This document describes the pages (or properties collections) that are associate
 |ReuseSavedActiveDocWindow|Get/Set (Boolean)|Determines whether opening a new file reuses the current document window if the current document is saved. `false` means always open a new document window for each document opened.|  
 |DetectFileChangesOutsideIDE|Get/Set (Boolean)|Determines whether the environment automatically reloads files opened in the IDE when the operating system notifies the IDE that the files have been modified on disk.|  
 |AutoloadExternalChanges|Get/Set (Boolean)|Determines whether detected external modifications to open documents automatically reload the modified file if the open document is not modified. If the open document is modified and this property is `true`, then the IDE prompts as if this property were `false`.|  
-|InitializeOpenFileFromCurrentDocument|Get/Set (Boolean)|Determines whether the \<xref:EnvDTE.DTEClass.OpenFile*> command seeds the directory and file name from the last active document, or from the last place you opened a file.|  
+|InitializeOpenFileFromCurrentDocument|Get/Set (Boolean)|Determines whether the <xref:EnvDTE.DTEClass.OpenFile*> command seeds the directory and file name from the last active document, or from the last place you opened a file.|  
 |MiscFilesProjectSavesLastNItems|Get/Set (Short)|Determines how many files the Miscellaneous Files project records. As a result, you can see what you most recently had open as a miscellaneous file on disk when you next use the IDE.|  
 |ShowMiscFilesProject|Get/Set (Boolean)|Determines whether the Miscellaneous Files project is shown.|  
 |CheckForConsisentLineEndings|Get/Set (Boolean)|Checks for consistent line endings on file load.|  
 |SaveDocsAsUnicodeWhenDataLoss|Get/Set (Boolean)|Saves documents as Unicode when data cannot be saved in codepage.|  
 |DontShowGlobalUndoChangeLossDialog|Get/Set (Boolean)|Displays a warning when global undo will modify other edited files.|  
 |AllowEditingReadOnlyFiles|Get/Set (Boolean)|Allows editing of read-only files, but give a warning when there is an attempt to save them.|  
-|DocumentDockPreference|Get/Set (Enum)|\<xref:EnvDTE100.vsDocumentDockPreferenceOptions>. Position in the tab well in which to insert opened document.|  
+|DocumentDockPreference|Get/Set (Enum)|<xref:EnvDTE100.vsDocumentDockPreferenceOptions>. Position in the tab well in which to insert opened document.|  
   
 ## Extension Manager  
  `DTE.Properties("Environment", "ExtensionManager")`  
@@ -145,7 +145,7 @@ This document describes the pages (or properties collections) that are associate
   
 |Property Item Name|Value|Description|  
 |------------------------|-----------|-----------------|  
-|OnStartUp|Get/Set (Enum)|Action to take at startup, from \<xref:EnvDTE.vsStartUp>, with values 0 through 5:<br /><br /> -   0: Open Home Page<br />-   1: Load last loaded solution<br />-   2: Show **Open Project** dialog box<br />-   3: Show **New Project** dialog box<br />-   4: Show empty environment<br />-   5: Show Start Page|  
+|OnStartUp|Get/Set (Enum)|Action to take at startup, from <xref:EnvDTE.vsStartUp>, with values 0 through 5:<br /><br /> -   0: Open Home Page<br />-   1: Load last loaded solution<br />-   2: Show **Open Project** dialog box<br />-   3: Show **New Project** dialog box<br />-   4: Show empty environment<br />-   5: Show Start Page|  
 |StartPageRSSUrl|Get/Set (String)|URL for the RSS feed that is used at startup.|  
 |StartPageRefreshDownloadedContent|Get/Set (Boolean)|Refreshes the Start Page after every passage of the interval specified in StartPageRefreshInterval.|  
 |StartPageRefreshInterval|Get/Set (Short)|Interval in minutes to refresh the Start Page.|  
@@ -158,7 +158,7 @@ This document describes the pages (or properties collections) that are associate
 |ConfirmTaskDeletion|Get/Set (Boolean)|Specifies whether a confirmation box displays when deleting tasks from the **Task List**.|  
 |WarnOnAddingHiddenItem|Get/Set (Boolean)|Specifies whether you are warned when adding a user task that will not be shown.|  
 |DontShowFilePaths|Get/Set (Boolean)|Specifies whether to show full file paths in the Task List.|  
-|CommentTokens|SafeArray|Returns a SafeArray of comment token values. Each has the fields, `Name` (string) and `Priority` (\<xref:EnvDTE.vsTaskPriority>, High, Medium, or Low).|  
+|CommentTokens|SafeArray|Returns a SafeArray of comment token values. Each has the fields, `Name` (string) and `Priority` (<xref:EnvDTE.vsTaskPriority>, High, Medium, or Low).|  
   
 ## Web Browser  
  `DTE.Properties("Environment", "WebBrowser")`  
@@ -167,7 +167,7 @@ This document describes the pages (or properties collections) that are associate
 |------------------------|-----------|-----------------|  
 |HomePage|Get/Set (String)|Represents the home page URL.|  
 |SearchPage|Get/Set (String)|Represents the search page URL.|  
-|ViewSourceIn|Get/Set (Enum)|\<xref:EnvDTE.vsBrowserViewSource> (Source, Design, External).|  
+|ViewSourceIn|Get/Set (Enum)|<xref:EnvDTE.vsBrowserViewSource> (Source, Design, External).|  
 |ViewSourceExternalProgram|Get/Set (String)|The path of the external source viewer.|  
   
 ## See Also  

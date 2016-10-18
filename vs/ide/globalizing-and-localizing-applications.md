@@ -1,7 +1,7 @@
 ---
 title: "Globalizing and Localizing Applications"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -63,8 +63,8 @@ If you plan on distributing your application to an international audience, you'l
  [Class Library Overview](../Topic/.NET%20Framework%20Class%20Library%20Overview.md)  
  Introduces the classes, interfaces, and value types that expedite and optimize the development process and provide access to system functionality.  
   
- \<xref:System.Globalization>  
+ <xref:System.Globalization>  
  Points out the classes in this namespace, which define culture-related information, including the language, the country/region, the calendars in use, the format patterns for dates, currency and numbers, and the sort order for strings.  
   
- \<xref:System.Resources>  
+ <xref:System.Resources>  
  Points out the classes and interfaces in this namespace, which allows developers to create, store, and manage various culture-specific resources used in an application.

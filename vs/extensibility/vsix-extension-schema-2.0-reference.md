@@ -1,7 +1,7 @@
 ---
 title: "VSIX Extension Schema 2.0 Reference"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -51,7 +51,7 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
   
 -   `<Assets>` - This section contains all of the assets contained within this package. Without this section, this package won’t surface any content.  
   
--   `<AnyElement>*` - The manifest schema is flexible enough to allow any other elements. Any child elements not recognized by the manifest loader are exposed in the Extension Manager API as extra XmlElement objects. Using these child elements, VSIX extensions can define additional data in the manifest file that code running in Visual Studio can access at runtime. See \<xref:Microsoft.VisualStudio.ExtensionManager.IExtension.AdditionalElements*> and \<xref:Microsoft.VisualStudio.ExtensionManager.IExtension.LocalizedAdditionalElements*>.  
+-   `<AnyElement>*` - The manifest schema is flexible enough to allow any other elements. Any child elements not recognized by the manifest loader are exposed in the Extension Manager API as extra XmlElement objects. Using these child elements, VSIX extensions can define additional data in the manifest file that code running in Visual Studio can access at runtime. See <xref:Microsoft.VisualStudio.ExtensionManager.IExtension.AdditionalElements*> and <xref:Microsoft.VisualStudio.ExtensionManager.IExtension.LocalizedAdditionalElements*>.  
   
 ### Metadata Element  
  This section is the metadata about the package, its identity, and advertising information. `<Metadata>` contains the following elements:  

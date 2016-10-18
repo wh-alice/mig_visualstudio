@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.Web.Caching.DatabaseNotEnabledForNotificationException"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -33,8 +33,8 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.Web.Caching.DatabaseNotEnabledForNotificationException
-The exception that is thrown when a Microsoft SQL Server database is not enabled to support dependencies associated with the \<xref:System.Web.Caching.SqlCacheDependency> class.  
+The exception that is thrown when a Microsoft SQL Server database is not enabled to support dependencies associated with the <xref:System.Web.Caching.SqlCacheDependency> class.  
   
 ## See Also  
- \<xref:System.Web.Caching.DatabaseNotEnabledForNotificationException>   
+ <xref:System.Web.Caching.DatabaseNotEnabledForNotificationException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

@@ -1,7 +1,7 @@
 ---
 title: "&#39;System.Runtime.InteropServices.DllImportAttribute&#39; cannot be applied to a &#39;Get&#39; or &#39;Set&#39;"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,5 +44,5 @@ The `DllImportAttribute` attribute was applied to a `Get` or `Set` property proc
 1.  Remove `DllImportAttribute` from `Get` and `Set` property procedures.  
   
 ## See Also  
- \<xref:System.Runtime.InteropServices.DllImportAttribute>   
+ <xref:System.Runtime.InteropServices.DllImportAttribute>   
  [Property Procedures](../Topic/Property%20Procedures%20\(Visual%20Basic\).md)

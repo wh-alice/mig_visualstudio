@@ -1,7 +1,7 @@
 ---
 title: "The parent file, &#39;file1&#39;, for file &#39;file2&#39; cannot be found in the project file"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -56,4 +56,4 @@ The project system cannot find a node corresponding to a file.
      The affected files will be added to the project, however, the dependency will not be preserved.  
   
 ## See Also  
- [NIB: Project Properties (Visual Studio)](http://msdn.microsoft.com/eb4c97ed-f667-4850-98d0-6e2a4d21bbca)
+ [NIB: Project Properties (Visual Studio)](http://msdn.microsoft.com/en-us/eb4c97ed-f667-4850-98d0-6e2a4d21bbca)

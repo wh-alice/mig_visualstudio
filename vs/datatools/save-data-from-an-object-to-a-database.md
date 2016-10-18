@@ -1,7 +1,7 @@
 ---
 title: "Save data from an object to a database"
 ms.custom: na
-ms.date: "10/07/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -41,7 +41,7 @@ You can save data in objects to a database by passing the values from your objec
   
  To save data from a collection of objects, loop through the collection of objects (for example, a for-next loop), and send the values for each object to the database by using one of the TableAdapter's DBDirect methods.  
   
- By default, DBDirect methods are created on a TableAdapter that can be run directly against the database. These methods can be called directly and don't require \<xref:System.Data.DataSet> or \<xref:System.Data.DataTable> objects to reconcile changes in order to send updates to a database.  
+ By default, DBDirect methods are created on a TableAdapter that can be run directly against the database. These methods can be called directly and don't require <xref:System.Data.DataSet> or <xref:System.Data.DataTable> objects to reconcile changes in order to send updates to a database.  
   
 > [!NOTE]
 >  When you're configuring a TableAdapter, the main query must provide enough information  for the DBDirect methods to be created. For example, if a TableAdapter is configured to query data from a table that does not have a primary key column defined, it does not generate DBDirect methods.  
@@ -49,7 +49,7 @@ You can save data in objects to a database by passing the values from your objec
 |TableAdapter DBDirect method|Description|  
 |----------------------------------|-----------------|  
 |`TableAdapter.Insert`|Adds new records to a database and enables you to pass in individual column values as method parameters.|  
-|`TableAdapter.Update`|Updates existing records in a database. The `Update` method takes original and new column values as method parameters. The original values are used to locate the original record, and the new values are used to update that record.<br /><br /> The `TableAdapter.Update` method is also used to reconcile changes in a dataset back to the database by taking a \<xref:System.Data.DataSet>, \<xref:System.Data.DataTable>, \<xref:System.Data.DataRow>, or an array of \<xref:System.Data.DataRow>s as method parameters.|  
+|`TableAdapter.Update`|Updates existing records in a database. The `Update` method takes original and new column values as method parameters. The original values are used to locate the original record, and the new values are used to update that record.<br /><br /> The `TableAdapter.Update` method is also used to reconcile changes in a dataset back to the database by taking a <xref:System.Data.DataSet>, <xref:System.Data.DataTable>, <xref:System.Data.DataRow>, or an array of <xref:System.Data.DataRow>s as method parameters.|  
 |`TableAdapter.Delete`|Deletes existing records from the database based on the original column values passed in as method parameters.|  
   
 ### To save new records from an object to a database  

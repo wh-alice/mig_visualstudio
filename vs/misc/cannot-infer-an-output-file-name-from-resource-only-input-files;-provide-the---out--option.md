@@ -1,7 +1,7 @@
 ---
 title: "Cannot infer an output file name from resource only input files; provide the &#39;-out&#39; option"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na

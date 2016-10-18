@@ -1,7 +1,7 @@
 ---
 title: "An invalid name was specified for the event log"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -43,4 +43,4 @@ An invalid name was specified for the event log. Usually this is a result of inv
 ## See Also  
  [How to: Parse File Paths](../Topic/How%20to:%20Parse%20File%20Paths%20in%20Visual%20Basic.md)   
  [How to: Rename a File](../Topic/How%20to:%20Rename%20a%20File%20in%20Visual%20Basic.md)   
- [How to: Create and Remove Custom Event Logs](http://msdn.microsoft.com/af9b7da0-80c7-46ac-b7f7-897063ddd503)
+ [How to: Create and Remove Custom Event Logs](http://msdn.microsoft.com/en-us/af9b7da0-80c7-46ac-b7f7-897063ddd503)

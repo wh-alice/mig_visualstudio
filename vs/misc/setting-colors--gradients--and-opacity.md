@@ -1,7 +1,7 @@
 ---
 title: "Setting Colors, Gradients, and Opacity"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -36,13 +36,13 @@ All of the user interface (UI) elements in Visual Studio are created in Windows 
  Windows Forms UI and native-code UI are still supported for backward compatibility. For information about how to set colors and gradients in non-WPF extensions, see the [!INCLUDE[vs_orcas_long](../codequality/includes/vs_orcas_long_md.md)] documentation.  
   
 ## Setting Colors, Gradients, and Opacity  
- You can set change the appearance of most XAML elements by setting their `Background`, `Foreground`, `Opacity`, or other visual attributes. These attributes correspond to properties that take a \<xref:System.Windows.Media.Brush?displayProperty=fullName> as a value.  
+ You can set change the appearance of most XAML elements by setting their `Background`, `Foreground`, `Opacity`, or other visual attributes. These attributes correspond to properties that take a <xref:System.Windows.Media.Brush?displayProperty=fullName> as a value.  
   
 #### To set background colors, gradients, and opacity in a tool window  
   
 1.  Open MyControl.xaml.  
   
-2.  In the **XAML** pane, in the top level \<xref:System.Windows.Controls.UserControl> element, type `background=`.  
+2.  In the **XAML** pane, in the top level <xref:System.Windows.Controls.UserControl> element, type `background=`.  
   
      IntelliSense displays a list of colors for the BackGround attribute.  
   
@@ -77,7 +77,7 @@ All of the user interface (UI) elements in Visual Studio are created in Windows 
      The background in the designer returns to neutral, and the `BackGround` attribute is set to `"{x:Null}"`.  
   
 ## Querying System Values  
- You can query system values by using the \<xref:Microsoft.VisualStudio.Shell.VsBrushes?displayProperty=fullName> class properties, which refer to brushes that are set in other parts of Visual Studio.  
+ You can query system values by using the <xref:Microsoft.VisualStudio.Shell.VsBrushes?displayProperty=fullName> class properties, which refer to brushes that are set in other parts of Visual Studio.  
   
 #### To set colors, gradients, and opacity by querying system values  
   

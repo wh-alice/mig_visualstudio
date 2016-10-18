@@ -1,7 +1,7 @@
 ---
 title: "How to: Access the Built-in Fonts and Color Scheme"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -33,7 +33,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # How to: Access the Built-in Fonts and Color Scheme
-The Visual Studio integrated development environment (IDE) has a scheme of fonts and colors that is associated with the editor window. You can access this scheme through the \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> interface.  
+The Visual Studio integrated development environment (IDE) has a scheme of fonts and colors that is associated with the editor window. You can access this scheme through the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> interface.  
   
  To use the built-in fonts and colors scheme, a VSPackage must:  
   
@@ -52,7 +52,7 @@ The Visual Studio integrated development environment (IDE) has a scheme of fonts
      This GUID is used to uniquely identify a category**.** This category reuses the IDE's default fonts and colors specification.  
   
     > [!NOTE]
-    >  When retrieving font and color data with the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorEvents> or other interfaces, VSPackages use this GUID to reference built-in information.  
+    >  When retrieving font and color data with the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorEvents> or other interfaces, VSPackages use this GUID to reference built-in information.  
   
 2.  The category's name must be added to a string table inside the VSPackage's resources (.rc) file, so that it can be localized as needed when displayed in the IDE.  
   
@@ -73,7 +73,7 @@ The Visual Studio integrated development environment (IDE) has a scheme of fonts
     |Category|REG_SZ|GUID|An arbitrary GUID that identifies a category that contains the stock font and color scheme.|  
     |Package|REG_SZ|GUID|{F5E7E71D-1401-11D1-883B-0000F87579D2}<br /><br /> This GUID is used by all VSPackages that use the default font and color configurations.|  
     |NameID|REG_DWORD|ID|The resource ID of a localizable category name in the VSPackage.|  
-    |ToolWindowPackage|REG_SZ|GUID|The GUID of the VSPackage implementing the \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> interface.|  
+    |ToolWindowPackage|REG_SZ|GUID|The GUID of the VSPackage implementing the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> interface.|  
   
 3.  
   
@@ -81,9 +81,9 @@ The Visual Studio integrated development environment (IDE) has a scheme of fonts
   
 1.  Create an instance of the `T:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyCategoryContainer` interface as part of the window's implementation and initialization.  
   
-2.  Call the \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyCategoryContainer.GetPropertyCategory*> method to obtain an instance of the `T:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyContainer` interface corresponding to the current \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> instance.  
+2.  Call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyCategoryContainer.GetPropertyCategory*> method to obtain an instance of the `T:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyContainer` interface corresponding to the current <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> instance.  
   
-3.  Call \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyContainer.SetProperty*> twice.  
+3.  Call <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextEditorPropertyContainer.SetProperty*> twice.  
   
     -   Call once with `VSEDITPROPID_ViewGeneral_ColorCategory`as an argument.  
   

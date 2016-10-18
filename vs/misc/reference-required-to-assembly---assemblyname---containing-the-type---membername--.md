@@ -1,7 +1,7 @@
 ---
 title: "Reference required to assembly &#39;&lt;assemblyname&gt;&#39; containing the type &#39;&lt;membername&gt;&#39;"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na

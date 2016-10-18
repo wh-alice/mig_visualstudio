@@ -1,7 +1,7 @@
 ---
 title: "A DCOM error occurred trying to contact the remote computer. Access is denied."
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/17/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na

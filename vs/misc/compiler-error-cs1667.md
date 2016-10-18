@@ -1,7 +1,7 @@
 ---
 title: "Compiler Error CS1667"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -38,7 +38,7 @@ translation.priority.mt:
 # Compiler Error CS1667
 Attribute 'attribute' is not valid on property or event accessors. It is valid on 'declaration type' declarations only.  
   
- This error occurs if you use an attribute on a property or event accessor, when it should be on the property or event itself. This error could occur with the attributes \<xref:System.CLSCompliantAttribute>, \<xref:System.Diagnostics.ConditionalAttribute>, and \<xref:System.ObsoleteAttribute>.  
+ This error occurs if you use an attribute on a property or event accessor, when it should be on the property or event itself. This error could occur with the attributes <xref:System.CLSCompliantAttribute>, <xref:System.Diagnostics.ConditionalAttribute>, and <xref:System.ObsoleteAttribute>.  
   
 ## Example  
  The following sample generates CS1670:  

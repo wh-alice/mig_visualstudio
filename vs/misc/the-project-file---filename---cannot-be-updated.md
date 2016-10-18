@@ -1,7 +1,7 @@
 ---
 title: "The project file &#39;&lt;filename&gt;&#39; cannot be updated"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,4 +44,4 @@ You are attempting to open a project created in an earlier version of [!INCLUDE[
  If the file is under source code control and is locked by another user, wait until the file is available and check it out locally.  
   
 ## See Also  
- [NIB: Project Properties (Visual Studio)](http://msdn.microsoft.com/eb4c97ed-f667-4850-98d0-6e2a4d21bbca)
+ [NIB: Project Properties (Visual Studio)](http://msdn.microsoft.com/en-us/eb4c97ed-f667-4850-98d0-6e2a4d21bbca)

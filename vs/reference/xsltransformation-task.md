@@ -1,7 +1,7 @@
 ---
 title: "XslTransformation Task"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,16 +44,16 @@ Transforms an XML input by using an XSLT or compiled XSLT and outputs to an outp
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|`OutputPaths`|Required \<xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the output files for the XML transformation.|  
+|`OutputPaths`|Required <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the output files for the XML transformation.|  
 |`Parameters`|Optional `String` parameter.<br /><br /> Specifies the parameters to the XSLT Input document.|  
 |`XmlContent`|Optional `String` parameter.<br /><br /> Specifies the XML input as a string.|  
-|`XmlInputPaths`|Optional \<xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the XML input files.|  
-|`XslCompiledDllPath`|Optional \<xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br /> Specifies the compiled XSLT.|  
+|`XmlInputPaths`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the XML input files.|  
+|`XslCompiledDllPath`|Optional <xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br /> Specifies the compiled XSLT.|  
 |`XslContent`|Optional `String` parameter.<br /><br /> Specifies the XSLT input as a string.|  
-|`XslInputPath`|Optional \<xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br /> Specifies the XSLT input file.|  
+|`XslInputPath`|Optional <xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br /> Specifies the XSLT input file.|  
   
 ## Remarks  
- In addition to having the parameters that are listed in the table, this task inherits parameters from the \<xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the \<xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../reference/taskextension-base-class.md).  
+ In addition to having the parameters that are listed in the table, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../reference/taskextension-base-class.md).  
   
 ## See Also  
  [Tasks](../reference/msbuild-tasks.md)   

@@ -1,7 +1,7 @@
 ---
 title: "IDiaDataSource::loadDataFromIStream"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -46,7 +46,7 @@ HRESULT loadDataFromIStream ( 
   
 #### Parameters  
  pIStream  
- [in] An \<xref:IStream> object representing the data stream to use.  
+ [in] An <xref:IStream> object representing the data stream to use.  
   
 ## Return Value  
  If successful, returns `S_OK`; otherwise, returns an error code. The following table shows the possible return values for this method.  
@@ -58,7 +58,7 @@ HRESULT loadDataFromIStream ( 
 |E_UNEXPECTED|Data source has already been prepared.|  
   
 ## Remarks  
- This method allows the debug data for an executable to be obtained from memory through an \<xref:IStream> object.  
+ This method allows the debug data for an executable to be obtained from memory through an <xref:IStream> object.  
   
  To load a .pdb file without validation, use the [IDiaDataSource::loadDataFromPdb](../debugger/idiadatasource--loaddatafrompdb.md) method.  
   

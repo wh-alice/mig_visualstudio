@@ -1,7 +1,7 @@
 ---
 title: "Customizing Tools and the Toolbox"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -100,7 +100,7 @@ Editor
 -   Write code to customize the tool so that it can create groups of elements. The tool is initialized by methods in ToolboxHelper.cs that you can override. For more information, see [Creating Groups of Elements from a Tool](#groups).  
   
 ##  <a name="groups"></a> Creating Groups of Elements from a Tool  
- Each element tool contains a prototype of the elements that it should create. By default, each element tool creates a single element, but it is also possible to create a group of related objects with one tool. To do this, you initialize the tool with an \<xref:Microsoft.VisualStudio.Modeling.ElementGroupPrototype> that contains the related items.  
+ Each element tool contains a prototype of the elements that it should create. By default, each element tool creates a single element, but it is also possible to create a group of related objects with one tool. To do this, you initialize the tool with an <xref:Microsoft.VisualStudio.Modeling.ElementGroupPrototype> that contains the related items.  
   
  The following example is taken from a DSL in which there is a type Transistor. Each Transistor has three named Terminals. The element tool for Transistors stores a prototype containing four model elements and three relationship links. When the user drags the tool onto the diagram, the prototype is instantiated and linked to the model root.  
   

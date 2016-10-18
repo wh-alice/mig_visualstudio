@@ -1,7 +1,7 @@
 ---
 title: "Operator &#39;&lt;operatorsymbol&gt;&#39; doesn&#39;t return a value on all code paths"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na

@@ -1,7 +1,7 @@
 ---
 title: "Calculated and Custom Storage Properties"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -96,7 +96,7 @@ All domain properties in a domain-specific language (DSL) can be displayed to th
 ##  <a name="setters"></a> Transactions and Custom Setters  
  In the Set method of Custom Storage property, you do not have to open a transaction, because the method is usually called inside an active transaction.  
   
- However, the Set method might also be called if the user invokes Undo or Redo, or if a transaction is being rolled back. When \<xref:Microsoft.VisualStudio.Modeling.Store.InUndoRedoOrRollback*> is true, your Set method should behave as follows:  
+ However, the Set method might also be called if the user invokes Undo or Redo, or if a transaction is being rolled back. When <xref:Microsoft.VisualStudio.Modeling.Store.InUndoRedoOrRollback*> is true, your Set method should behave as follows:  
   
 -   It should not make changes in the store, such as assigning values to other domain properties. The undo manager will set their values.  
   

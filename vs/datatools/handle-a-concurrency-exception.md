@@ -1,7 +1,7 @@
 ---
 title: "Handle a concurrency exception"
 ms.custom: na
-ms.date: "10/07/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -40,7 +40,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Handle a concurrency exception
-Concurrency exceptions (\<xref:System.Data.DBConcurrencyException>) are raised when two users attempt to change the same data in a database at the same time. In this walkthrough, you create a Windows application that illustrates how to catch a \<xref:System.Data.DBConcurrencyException>, locate the row that caused the error, and learn a strategy for how to handle it.  
+Concurrency exceptions (<xref:System.Data.DBConcurrencyException>) are raised when two users attempt to change the same data in a database at the same time. In this walkthrough, you create a Windows application that illustrates how to catch a <xref:System.Data.DBConcurrencyException>, locate the row that caused the error, and learn a strategy for how to handle it.  
   
  This walkthrough takes you through the following process:  
   
@@ -48,11 +48,11 @@ Concurrency exceptions (\<xref:System.Data.DBConcurrencyException>) are raised w
   
 2.  Create a new dataset based on the Northwind `Customers` table.  
   
-3.  Create a form with a \<xref:System.Windows.Forms.DataGridView> to display the data.  
+3.  Create a form with a <xref:System.Windows.Forms.DataGridView> to display the data.  
   
 4.  Fill a dataset with data from the `Customers` table in the Northwind database.  
   
-5.  Use the [Visual Database Tools](http://msdn.microsoft.com/6b145922-2f00-47db-befc-bf351b4809a1) in Visual Studio to directly access the `Customers` data table and change a record.  
+5.  Use the [Visual Database Tools](http://msdn.microsoft.com/en-us/6b145922-2f00-47db-befc-bf351b4809a1) in Visual Studio to directly access the `Customers` data table and change a record.  
   
 6.  Change the same record to a different value, update the dataset, and attempt to write the changes to the database, which results in a concurrency error being raised.  
   
@@ -64,7 +64,7 @@ Concurrency exceptions (\<xref:System.Data.DBConcurrencyException>) are raised w
 -   Access to the Northwind sample database with permission to perform updates. For more information, see [How to: Install Sample Databases](../datatools/how-to--install-sample-databases.md).  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or the edition that you're using. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or the edition that you're using. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## Create a new project  
  You begin your walkthrough by creating a new Windows application.  
@@ -104,7 +104,7 @@ Concurrency exceptions (\<xref:System.Data.DBConcurrencyException>) are raised w
 6.  Select**Finish** to add the dataset to the project.  
   
 ## Create a data-bound DataGridView control  
- In this section, you create a \<xref:System.Windows.Forms.DataGridView> by dragging the **Customers** item from the **Data Sources** window onto your Windows Form.  
+ In this section, you create a <xref:System.Windows.Forms.DataGridView> by dragging the **Customers** item from the **Data Sources** window onto your Windows Form.  
   
 #### To create a DataGridView control that is bound to the Customers table  
   
@@ -116,7 +116,7 @@ Concurrency exceptions (\<xref:System.Data.DBConcurrencyException>) are raised w
   
 4.  Drag the table onto an empty area of your form.  
   
-     A \<xref:System.Windows.Forms.DataGridView> control named `CustomersDataGridView` and a \<xref:System.Windows.Forms.BindingNavigator> named `CustomersBindingNavigator` are added to the form that's bound to the \<xref:System.Windows.Forms.BindingSource>.This, is in, is turn bound to the `Customers` table in the `NorthwindDataSet`.  
+     A <xref:System.Windows.Forms.DataGridView> control named `CustomersDataGridView` and a <xref:System.Windows.Forms.BindingNavigator> named `CustomersBindingNavigator` are added to the form that's bound to the <xref:System.Windows.Forms.BindingSource>.This, is in, is turn bound to the `Customers` table in the `NorthwindDataSet`.  
   
 ## Test the form  
  You can now test the form to make sure it behaves as expected up to this point.  
@@ -125,7 +125,7 @@ Concurrency exceptions (\<xref:System.Data.DBConcurrencyException>) are raised w
   
 1.  Select**F5** to run the application  
   
-     The form appears with a \<xref:System.Windows.Forms.DataGridView> control on it that's filled with data from the `Customers` table.  
+     The form appears with a <xref:System.Windows.Forms.DataGridView> control on it that's filled with data from the `Customers` table.  
   
 2.  On the **Debug** menu, select**Stop Debugging**.  
   
@@ -155,7 +155,7 @@ Concurrency exceptions (\<xref:System.Data.DBConcurrencyException>) are raised w
 ### Addcode to handle the concurrency exception  
  When you attempt to perform an update and an exception gets raised, you generally want to do something with the information that's provided by the raised exception.  
   
- In this section, you add code that  attempts to update the database.You also handle any \<xref:System.Data.DBConcurrencyException> that might get raised, as well as any other exceptions.  
+ In this section, you add code that  attempts to update the database.You also handle any <xref:System.Data.DBConcurrencyException> that might get raised, as well as any other exceptions.  
   
 > [!NOTE]
 >  The `CreateMessage` and `ProcessDialogResults` methods will be added later in this walkthrough.  
@@ -183,7 +183,7 @@ Concurrency exceptions (\<xref:System.Data.DBConcurrencyException>) are raised w
 [!code[VbRaddataConcurrency#4](../datatools/codesnippet/VisualBasic/handle-a-concurrency-exception_3.vb)]  
   
 ### Process the user's response  
- You  also need code to process the user's response to the message box. The options are either to overwrite the current record in the database with the proposed change, or abandon the local changes and refresh the data table with the record that's currently in the database. If the user chooses yes, the \<xref:System.Data.DataTable.Merge*> method is called with the *preserveChanges* argument set to `true`. This causes the update attempt to be successful, because the original version of the record now matches the record in the database.  
+ You  also need code to process the user's response to the message box. The options are either to overwrite the current record in the database with the proposed change, or abandon the local changes and refresh the data table with the record that's currently in the database. If the user chooses yes, the <xref:System.Data.DataTable.Merge*> method is called with the *preserveChanges* argument set to `true`. This causes the update attempt to be successful, because the original version of the record now matches the record in the database.  
   
 ##### To process the user input from the message box  
   

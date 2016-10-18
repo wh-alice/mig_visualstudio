@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.ServiceModel.FaultException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -33,8 +33,8 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.ServiceModel.FaultException
-A \<xref:System.ServiceModel.FaultException> exception occurs when there has been a SOAP fault.  
+A <xref:System.ServiceModel.FaultException> exception occurs when there has been a SOAP fault.  
   
 ## See Also  
- \<xref:System.ServiceModel.FaultException>   
+ <xref:System.ServiceModel.FaultException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

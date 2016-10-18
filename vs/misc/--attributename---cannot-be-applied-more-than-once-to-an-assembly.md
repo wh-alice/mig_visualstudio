@@ -1,7 +1,7 @@
 ---
 title: "&#39;&lt;attributename&gt;&#39; cannot be applied more than once to an assembly"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -46,5 +46,5 @@ The specified attribute can only be applied once to an attribute.
 2.  If you are using a custom attribute you developed, modify `AttributeUsageAttribute` and set the `AllowMultiple` property to `True`.  
   
 ## See Also  
- \<xref:System.AttributeUsageAttribute>   
- \<xref:System.AttributeUsageAttribute.AllowMultiple*?displayProperty=fullName>
+ <xref:System.AttributeUsageAttribute>   
+ <xref:System.AttributeUsageAttribute.AllowMultiple*?displayProperty=fullName>

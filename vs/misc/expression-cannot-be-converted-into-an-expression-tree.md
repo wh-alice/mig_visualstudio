@@ -1,7 +1,7 @@
 ---
 title: "Expression cannot be converted into an expression tree"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -40,5 +40,5 @@ Most expressions can be converted into expression trees, but some cannot. This e
  **Error ID:** BC36534  
   
 ## See Also  
- [NOT IN BUILD: Expression Trees in LINQ](http://msdn.microsoft.com/1a2e8e74-4bbc-45ab-9a46-2b6cfce3bcb2)   
+ [NOT IN BUILD: Expression Trees in LINQ](http://msdn.microsoft.com/en-us/1a2e8e74-4bbc-45ab-9a46-2b6cfce3bcb2)   
  [How to: Use Expression Trees to Build Dynamic Queries](../Topic/How%20to:%20Use%20Expression%20Trees%20to%20Build%20Dynamic%20Queries%20\(C%23%20and%20Visual%20Basic\).md)

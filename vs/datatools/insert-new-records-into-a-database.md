@@ -1,7 +1,7 @@
 ---
 title: "Insert new records into a database"
 ms.custom: na
-ms.date: "10/07/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -41,7 +41,7 @@ translation.priority.mt:
 # Insert new records into a database
 To insert new records into a database, you can use the `TableAdapter.Update` method, or one of the TableAdapter's DBDirect methods (specifically the `TableAdapter.Insert` method). For more information, see [TableAdapter Overview](../datatools/tableadapter-overview.md).  
   
- If your application doesn't use TableAdapters, you can use command objects (for example,  \<xref:System.Data.SqlClient.SqlCommand>) to  insert new records in your database .  
+ If your application doesn't use TableAdapters, you can use command objects (for example,  <xref:System.Data.SqlClient.SqlCommand>) to  insert new records in your database .  
   
  If your application uses datasets to store data, use the `TableAdapter.Update` method. The `Update` method sends all changes (updates, inserts, and deletes) to the database.  
   
@@ -52,15 +52,15 @@ To insert new records into a database, you can use the `TableAdapter.Update` met
 ## Insert new records by using TableAdapters  
  TableAdapters provide different ways to insert new records into a database, depending on the requirements of your application.  
   
- If your application uses datasets to store data, then you can simply add new records to the desired \<xref:System.Data.DataTable> in the dataset, and then call the `TableAdapter.Update` method. The `TableAdapter.Update` method sends any changes in the \<xref:System.Data.DataTable> to the database (including modified and deleted records).  
+ If your application uses datasets to store data, then you can simply add new records to the desired <xref:System.Data.DataTable> in the dataset, and then call the `TableAdapter.Update` method. The `TableAdapter.Update` method sends any changes in the <xref:System.Data.DataTable> to the database (including modified and deleted records).  
   
 #### To insert new records into a database by using the TableAdapter.Update method  
   
-1.  Add new records to the desired \<xref:System.Data.DataTable> by creating a new \<xref:System.Data.DataRow> and adding it to the \<xref:System.Data.DataTable.Rows*> collection. For more information, see [How to: Add Rows to a DataTable](../Topic/How%20to:%20Add%20Rows%20to%20a%20DataTable.md).  
+1.  Add new records to the desired <xref:System.Data.DataTable> by creating a new <xref:System.Data.DataRow> and adding it to the <xref:System.Data.DataTable.Rows*> collection. For more information, see [How to: Add Rows to a DataTable](../Topic/How%20to:%20Add%20Rows%20to%20a%20DataTable.md).  
   
-2.  After the new rows are added to the \<xref:System.Data.DataTable>, call the `TableAdapter.Update` method. You can control the amount of data to update by passing in either an entire \<xref:System.Data.DataSet>, a \<xref:System.Data.DataTable>, an array of \<xref:System.Data.DataRow>s, or a single \<xref:System.Data.DataRow>.  
+2.  After the new rows are added to the <xref:System.Data.DataTable>, call the `TableAdapter.Update` method. You can control the amount of data to update by passing in either an entire <xref:System.Data.DataSet>, a <xref:System.Data.DataTable>, an array of <xref:System.Data.DataRow>s, or a single <xref:System.Data.DataRow>.  
   
-     The following code shows how to add a new record to a \<xref:System.Data.DataTable> and then call the `TableAdapter.Update` method to save the new row to the database. (This example uses the `Region` table in the Northwind database.)  
+     The following code shows how to add a new record to a <xref:System.Data.DataTable> and then call the `TableAdapter.Update` method to save the new row to the database. (This example uses the `Region` table in the Northwind database.)  
   
      [!code[VbRaddataSaving#14](../datatools/codesnippet/VisualBasic/insert-new-records-into-a-database_1.vb)]
 [!code[VbRaddataSaving#14](../datatools/codesnippet/CSharp/insert-new-records-into-a-database_1.cs)]  

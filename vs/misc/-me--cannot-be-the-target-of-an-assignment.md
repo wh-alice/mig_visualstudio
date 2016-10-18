@@ -1,7 +1,7 @@
 ---
 title: "&#39;Me&#39; cannot be the target of an assignment"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,5 +44,5 @@ The `Me` keyword always refers to the specific instance of a class where the cod
 -   Remove the statement that assigns a value to `Me`.  
   
 ## See Also  
- [Me](http://msdn.microsoft.com/a65973c7-cf06-4547-9b25-9fba885525c2)   
+ [Me](http://msdn.microsoft.com/en-us/a65973c7-cf06-4547-9b25-9fba885525c2)   
  [Object Variable Assignment](../Topic/Object%20Variable%20Assignment%20\(Visual%20Basic\).md)

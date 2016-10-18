@@ -1,7 +1,7 @@
 ---
 title: "Using saved IntelliTrace data"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -50,7 +50,7 @@ Go to specific points in your application's execution when you start debugging f
     |**Source**|**See**|  
     |----------------|-------------|  
     |An IntelliTrace session in Visual Studio Enterprise (but not Professional or Community editions)|[IntelliTrace Features](../debugger/intellitrace-features.md)|  
-    |A test session in Microsoft Test Manager. This attaches an .iTrace file to a Team Foundation Server work item.|[Collect more diagnostic data in manual tests](../Topic/Collect%20more%20diagnostic%20data%20in%20manual%20tests.md)|  
+    |A test session in Microsoft Test Manager. This attaches an .iTrace file to a Team Foundation Server work item.|[Collect more diagnostic data in manual tests](../test/collect-more-diagnostic-data-in-manual-tests.md)|  
     |Microsoft Monitoring Agent, either alone or with System Center 2012 R2 Operations Manager, for ASP.NET web apps and SharePoint applications running in deployment|-   [Diagnose problems after deployment](../debugger/diagnose-problems-after-deployment.md)<br />-   [What's New for System Center 2012 R2 Operations Manager](http://technet.microsoft.com/library/dn249700.aspx)|  
   
 ##  <a name="GetStarted"></a> What do you want to do?  
@@ -269,14 +269,14 @@ Go to specific points in your application's execution when you start debugging f
 |----------------|-------------------|  
 |**Module Name**|Module file name|  
 |**Module Path**|Disk location where the module was loaded|  
-|**Module ID**|Unique identifier of the module that is version-specific and contributes to the matching symbol (PDB) files. See [Finding symbol (.pdb) files and source files](http://msdn.microsoft.com/05384c85-d264-4e18-abaa-aa482ab25470).|  
+|**Module ID**|Unique identifier of the module that is version-specific and contributes to the matching symbol (PDB) files. See [Finding symbol (.pdb) files and source files](http://msdn.microsoft.com/en-us/05384c85-d264-4e18-abaa-aa482ab25470).|  
   
 ### Where can I get more information?  
  [Using the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md)  
   
  [IntelliTrace Features](../debugger/intellitrace-features.md)  
   
- [Collect more diagnostic data in manual tests](../Topic/Collect%20more%20diagnostic%20data%20in%20manual%20tests.md)  
+ [Collect more diagnostic data in manual tests](../test/collect-more-diagnostic-data-in-manual-tests.md)  
   
  [IntelliTrace](../debugger/intellitrace.md)  
   

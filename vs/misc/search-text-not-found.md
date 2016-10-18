@@ -1,7 +1,7 @@
 ---
 title: "Search text not found"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,4 +39,4 @@ The text you specified was not found.
 1.  Check that the specified text is spelled correctly.  
   
 ## See Also  
- [How to: Search Interactively](http://msdn.microsoft.com/e9fdbfab-bd59-401a-92d3-7ce1652b243c)
+ [How to: Search Interactively](http://msdn.microsoft.com/en-us/e9fdbfab-bd59-401a-92d3-7ce1652b243c)

@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Creating a WPF Toolbox Control"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -58,17 +58,17 @@ The WPF Toolbox Control template that is included in the Visual Studio SDK lets 
      This creates a solution that contains a user control, an attribute to place the control in the **Toolbox**, and a VSIX manifest for deployment. The **Name** box sets the name of the solution and the name of the namespace, but it does not set the name of the control as it appears in the **Toolbox**. You will set that later in the walkthrough.  
   
 ### Building a User Interface for the Control  
- The `Counter` control requires three child controls: Two \<xref:System.Windows.Controls.Label> controls to display the text and the current count, and a \<xref:System.Windows.Controls.Button> control to reset the count to 0. No other child controls are required, because hosting applications will increment the counter programmatically.  
+ The `Counter` control requires three child controls: Two <xref:System.Windows.Controls.Label> controls to display the text and the current count, and a <xref:System.Windows.Controls.Button> control to reset the count to 0. No other child controls are required, because hosting applications will increment the counter programmatically.  
   
 ##### To build the user interface  
   
 1.  In **Solution Explorer**, double-click ToolboxControl.cs to open it in the designer.  
   
-     The designer shows a \<xref:System.Windows.Controls.Grid> control that contains a \<xref:System.Windows.Controls.Button> control.  
+     The designer shows a <xref:System.Windows.Controls.Grid> control that contains a <xref:System.Windows.Controls.Button> control.  
   
-2.  Select the \<xref:System.Windows.Controls.Grid> control and then click the blue bars that appear on the top and left sides of the grid to divide it into two rows and two columns.  
+2.  Select the <xref:System.Windows.Controls.Grid> control and then click the blue bars that appear on the top and left sides of the grid to divide it into two rows and two columns.  
   
-3.  From the **Toolbox**, drag a \<xref:System.Windows.Controls.Label> control to each of the cells in the top row of the grid.  
+3.  From the **Toolbox**, drag a <xref:System.Windows.Controls.Label> control to each of the cells in the top row of the grid.  
   
      At this point, you could set the layout of the control by arranging the elements on the grid. Instead, you can edit the Extensible Application Markup Language (XAML) directly so that the control will resize dynamically to fit the text.  
   
@@ -93,15 +93,15 @@ The WPF Toolbox Control template that is included in the Visual Studio SDK lets 
   
 1.  Double-click the button to open the code window.  
   
-2.  At the top of the file, add a `using` directive for the \<xref:System.ComponentModel> namespace.  
+2.  At the top of the file, add a `using` directive for the <xref:System.ComponentModel> namespace.  
   
 3.  After the generated class, create a public class to define the data context.  
   
      [!code[ToolboxControlWPF#01](../misc/codesnippet/CSharp/walkthrough--creating-a-wpf-toolbox-control_2.cs)]  
   
-     This class implements the \<xref:System.ComponentModel.INotifyPropertyChanged> interface, which enables the XAML elements to bind to defined properties.  
+     This class implements the <xref:System.ComponentModel.INotifyPropertyChanged> interface, which enables the XAML elements to bind to defined properties.  
   
-4.  Right-click the \<xref:System.ComponentModel.INotifyPropertyChanged> interface declaration, click **Implement Interface**, and then click **Implement Interface** again.  
+4.  Right-click the <xref:System.ComponentModel.INotifyPropertyChanged> interface declaration, click **Implement Interface**, and then click **Implement Interface** again.  
   
      Visual Studio declares a `PropertyChanged` event.  
   
@@ -164,7 +164,7 @@ The WPF Toolbox Control template that is included in the Visual Studio SDK lets 
   
 4.  From the **General** section of the **Toolbox**, drag a **Counter** control to your form, and then select it.  
   
-     The `Text` and `ShowReset` properties should be displayed in the **Properties** window, together with the other properties inherited from \<xref:System.Windows.Controls.UserControl>. The `Count` property should not be displayed because it is read-only.  
+     The `Text` and `ShowReset` properties should be displayed in the **Properties** window, together with the other properties inherited from <xref:System.Windows.Controls.UserControl>. The `Count` property should not be displayed because it is read-only.  
   
 5.  Change the value of the `Text` property.  
   
@@ -174,7 +174,7 @@ The WPF Toolbox Control template that is included in the Visual Studio SDK lets 
   
      The `Reset` button on the control should disappear and then re-appear.  
   
-7.  Drag a \<xref:System.Windows.Controls.Button> control to the form, set its `Content`attribute to `Test`, and then double-click the button to open its click handler in code view.  
+7.  Drag a <xref:System.Windows.Controls.Button> control to the form, set its `Content`attribute to `Test`, and then double-click the button to open its click handler in code view.  
   
 8.  Implement the click handler to call the `Increment` method of the control.  
   
@@ -209,5 +209,5 @@ The WPF Toolbox Control template that is included in the Visual Studio SDK lets 
  [Extending the Toolbox](../misc/extending-the-toolbox.md)   
  [Creating a Windows Forms Toolbox Control](../extensibility/creating-a-windows-forms-toolbox-control.md)   
  [Extending Other Parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)   
- [Working with Controls in the WPF Designer](http://msdn.microsoft.com/c6235492-b10d-4c3c-ba67-6b6a545faee1)   
+ [Working with Controls in the WPF Designer](http://msdn.microsoft.com/en-us/c6235492-b10d-4c3c-ba67-6b6a545faee1)   
  [Control Authoring Overview](../Topic/Control%20Authoring%20Overview.md)

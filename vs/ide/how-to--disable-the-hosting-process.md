@@ -1,7 +1,7 @@
 ---
 title: "How to: Disable the Hosting Process"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -57,4 +57,4 @@ Calls to certain APIs can be affected when the hosting process is enabled. In th
 ## See Also  
  [Debugging and the Hosting Process](../debugger/debugging-and-the-hosting-process.md)   
  [Hosting Process (vshost.exe)](../ide/hosting-process--vshost.exe-.md)   
- [Builds During Application Development](http://msdn.microsoft.com/c9497d62-3b7b-4449-88e8-cf27acc9efe6)
+ [Builds During Application Development](http://msdn.microsoft.com/en-us/c9497d62-3b7b-4449-88e8-cf27acc9efe6)

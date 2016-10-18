@@ -1,7 +1,7 @@
 ---
 title: "You have selected a database object from an unsupported database provider"
 ms.custom: na
-ms.date: "10/11/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -28,7 +28,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # You have selected a database object from an unsupported database provider
-The [!INCLUDE[vs_ordesigner_long](../datatools/includes/vs_ordesigner_long_md.md)] ([!INCLUDE[vs_ordesigner_short](../datatools/includes/vs_ordesigner_short_md.md)]) supports only the .NET Framework Data Provider for SQL Server (\<xref:System.Data.SqlClient>). Although you can click **OK** and continue to work with objects from unsupported database providers, you may experience unexpected behavior at run time.  
+The [!INCLUDE[vs_ordesigner_long](../datatools/includes/vs_ordesigner_long_md.md)] ([!INCLUDE[vs_ordesigner_short](../datatools/includes/vs_ordesigner_short_md.md)]) supports only the .NET Framework Data Provider for SQL Server (<xref:System.Data.SqlClient>). Although you can click **OK** and continue to work with objects from unsupported database providers, you may experience unexpected behavior at run time.  
   
 > [!NOTE]
 >  Only data connections that use the .NET Framework Data Provider for SQL Server are supported.  

@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Creating a Legacy Language Service"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -87,7 +87,7 @@ Using the managed package framework (MPF) language classes to implement a langua
   
      [!CODE [CreatingALanguageService(ManagedPackageFramework)#1](../CodeSnippet/VS_Snippets_VSSDK/creatingalanguageservice(managedpackageframework)#1)]  
   
-7.  Modify the `MyLanguageService` class to derive from the \<xref:Microsoft.VisualStudio.Package.LanguageService> class:  
+7.  Modify the `MyLanguageService` class to derive from the <xref:Microsoft.VisualStudio.Package.LanguageService> class:  
   
      [!CODE [CreatingALanguageService(ManagedPackageFramework)#2](../CodeSnippet/VS_Snippets_VSSDK/creatingalanguageservice(managedpackageframework)#2)]  
   
@@ -128,7 +128,7 @@ Using the managed package framework (MPF) language classes to implement a langua
   
 5.  Add a class constructor that takes at least the same parameters as the base class's constructor and pass the constructor parameters on to the base class constructor.  
   
-     For example, the constructor for a class derived from the \<xref:Microsoft.VisualStudio.Package.Source> class might look like the following:  
+     For example, the constructor for a class derived from the <xref:Microsoft.VisualStudio.Package.Source> class might look like the following:  
   
      [!CODE [CreatingALanguageService(ManagedPackageFramework)#5](../CodeSnippet/VS_Snippets_VSSDK/creatingalanguageservice(managedpackageframework)#5)]  
   

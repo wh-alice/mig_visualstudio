@@ -1,7 +1,7 @@
 ---
 title: "How to: Test and Debug a Visualizer"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -46,7 +46,7 @@ Once you have written a visualizer, you need to debug and test it.
   
 ### To create a visualizer development host  
   
-1.  In your debugger-side class, include a static method that creates a \<xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerDevelopmentHost> object and calls its show method:  
+1.  In your debugger-side class, include a static method that creates a <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerDevelopmentHost> object and calls its show method:  
   
     ```  
     public static void TestShowVisualizer(object objectToVisualize)  

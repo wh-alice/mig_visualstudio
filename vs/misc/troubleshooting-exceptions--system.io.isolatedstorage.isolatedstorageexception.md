@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.IO.IsolatedStorage.IsolatedStorageException"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -36,6 +36,6 @@ translation.priority.mt:
 The exception that is thrown when an operation in isolated storage fails.  
   
 ## See Also  
- \<xref:System.IO.IsolatedStorage.IsolatedStorageException>   
+ <xref:System.IO.IsolatedStorage.IsolatedStorageException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)   
  [Isolated Storage](../Topic/Isolated%20Storage.md)

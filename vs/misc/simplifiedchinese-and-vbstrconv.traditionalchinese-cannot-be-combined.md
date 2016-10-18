@@ -1,7 +1,7 @@
 ---
 title: "SimplifiedChinese and VbStrConv.TraditionalChinese cannot be combined"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,6 +39,6 @@ Your application is attempting to combine the `VbStrConv` enumeration members `S
 -   Remove either `VbStrConv.SimplifiedChinese` or `VbStrConv.TraditionalChinese`.  
   
 ## See Also  
- \<xref:System.Globalization>   
- [NOTINBUILD VbStrConv Enumeration](http://msdn.microsoft.com/59f83dd9-6361-47df-a836-02ba9d4cb936)   
+ <xref:System.Globalization>   
+ [NOTINBUILD VbStrConv Enumeration](http://msdn.microsoft.com/en-us/59f83dd9-6361-47df-a836-02ba9d4cb936)   
  [Introduction to International Applications Based on the .NET Framework](../ide/introduction-to-international-applications-based-on-the-.net-framework.md)

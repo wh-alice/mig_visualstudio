@@ -1,7 +1,7 @@
 ---
 title: "How to: Create LINQ to SQL classes mapped to tables and views (O-R Designer)"
 ms.custom: na
-ms.date: "10/11/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -28,13 +28,13 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # How to: Create LINQ to SQL classes mapped to tables and views (O/R Designer)
-[!INCLUDE[vbtecdlinq](../datatools/includes/vbtecdlinq_md.md)] classes that are mapped to database tables and views are called *entity classes*. The entity class maps to a record, whereas the individual properties of an entity class map to the individual columns that make up a record. Create entity classes that are based on database tables or views by dragging tables or views from **Server Explorer**/**Database Explorer** onto the [LINQ to SQL Tools in Visual Studio](../datatools/linq-to-sql-tools-in-visual-studio2.md). The [!INCLUDE[vs_ordesigner_short](../datatools/includes/vs_ordesigner_short_md.md)] generates the classes and applies the specific [!INCLUDE[vbtecdlinq](../datatools/includes/vbtecdlinq_md.md)] attributes to enable [!INCLUDE[vbtecdlinq](../datatools/includes/vbtecdlinq_md.md)] functionality (the data communication and editing capabilities of the \<xref:System.Data.Linq.DataContext>). For detailed information about [!INCLUDE[vbtecdlinq](../datatools/includes/vbtecdlinq_md.md)] classes, see [The LINQ to SQL Object Model](../Topic/The%20LINQ%20to%20SQL%20Object%20Model.md).  
+[!INCLUDE[vbtecdlinq](../datatools/includes/vbtecdlinq_md.md)] classes that are mapped to database tables and views are called *entity classes*. The entity class maps to a record, whereas the individual properties of an entity class map to the individual columns that make up a record. Create entity classes that are based on database tables or views by dragging tables or views from **Server Explorer**/**Database Explorer** onto the [LINQ to SQL Tools in Visual Studio](../datatools/linq-to-sql-tools-in-visual-studio2.md). The [!INCLUDE[vs_ordesigner_short](../datatools/includes/vs_ordesigner_short_md.md)] generates the classes and applies the specific [!INCLUDE[vbtecdlinq](../datatools/includes/vbtecdlinq_md.md)] attributes to enable [!INCLUDE[vbtecdlinq](../datatools/includes/vbtecdlinq_md.md)] functionality (the data communication and editing capabilities of the <xref:System.Data.Linq.DataContext>). For detailed information about [!INCLUDE[vbtecdlinq](../datatools/includes/vbtecdlinq_md.md)] classes, see [The LINQ to SQL Object Model](../Topic/The%20LINQ%20to%20SQL%20Object%20Model.md).  
   
 > [!NOTE]
 >  The [!INCLUDE[vs_ordesigner_short](../datatools/includes/vs_ordesigner_short_md.md)] is a simple object relational mapper because it supports only 1:1 mapping relationships. In other words, an entity class can have only a 1:1 mapping relationship with a database table or view. Complex mapping, such as mapping an entity class to multiple tables, is not supported. However, you can map an entity class to a view that joins multiple related tables.  
   
 ## Create LINQ to SQL Classes That Are Mapped to Database Tables or Views  
- Dragging tables or views from **Server Explorer**/**Database Explorer** onto the [!INCLUDE[vs_ordesigner_short](../datatools/includes/vs_ordesigner_short_md.md)] creates entity classes in addition to the \<xref:System.Data.Linq.DataContext> methods that are used for performing updates.  
+ Dragging tables or views from **Server Explorer**/**Database Explorer** onto the [!INCLUDE[vs_ordesigner_short](../datatools/includes/vs_ordesigner_short_md.md)] creates entity classes in addition to the <xref:System.Data.Linq.DataContext> methods that are used for performing updates.  
   
  By default, the [!INCLUDE[vbtecdlinq](../datatools/includes/vbtecdlinq_md.md)] runtime creates logic to save changes from an updatable entity class back to the database. This logic is based on the schema of the table (the column definitions and primary key information). If you do not want this behavior, you can configure an entity class to use stored procedures to perform Inserts, Updates, and Deletes instead of using the default [!INCLUDE[vbtecdlinq](../datatools/includes/vbtecdlinq_md.md)] runtime behavior. For more information, see [How to: Assign stored procedures to perform updates, inserts, and deletes (O/R Designer)](../datatools/how-to--assign-stored-procedures-to-perform-updates--inserts--and-deletes--o-r-designer-.md).  
   

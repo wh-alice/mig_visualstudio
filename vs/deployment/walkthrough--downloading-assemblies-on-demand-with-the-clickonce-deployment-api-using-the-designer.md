@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Downloading Assemblies on Demand with the ClickOnce Deployment API Using the Designer"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,13 +39,13 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Walkthrough: Downloading Assemblies on Demand with the ClickOnce Deployment API Using the Designer
-By default, all the assemblies included in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application are downloaded when the application is first run. However, there might be parts of your application that are used by a small set of the users. In this case, you want to download an assembly only when you create one of its types. The following walkthrough demonstrates how to mark certain assemblies in your application as "optional", and how to download them by using classes in the \<xref:System.Deployment.Application> namespace when the common language runtime demands them.  
+By default, all the assemblies included in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application are downloaded when the application is first run. However, there might be parts of your application that are used by a small set of the users. In this case, you want to download an assembly only when you create one of its types. The following walkthrough demonstrates how to mark certain assemblies in your application as "optional", and how to download them by using classes in the <xref:System.Deployment.Application> namespace when the common language runtime demands them.  
   
 > [!NOTE]
 >  Your application will have to run in full trust to use this procedure.  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, click **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, click **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## Creating the Projects  
   
@@ -61,7 +61,7 @@ By default, all the assemblies included in a [!INCLUDE[ndptecclick](../deploymen
      [!code[ClickOnceLibrary#1](../deployment/codesnippet/VisualBasic/walkthrough--downloading-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer_1.vb)]
 [!code[ClickOnceLibrary#1](../deployment/codesnippet/CSharp/walkthrough--downloading-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer_1.cs)]  
   
-3.  Select the Windows Forms project in **Solution Explorer**. Add a reference to the \<xref:System.Deployment.Application> assembly and a project reference to the `ClickOnceLibrary` project.  
+3.  Select the Windows Forms project in **Solution Explorer**. Add a reference to the <xref:System.Deployment.Application> assembly and a project reference to the `ClickOnceLibrary` project.  
   
     > [!NOTE]
     >  In Visual Basic, we recommend that you modify the project properties to change the root namespace for this project to `Microsoft.Samples.ClickOnceOnDemand` or to a namespace of your choice. For simplicity, the two projects in this walkthrough are located in the same namespace.  
@@ -71,12 +71,12 @@ By default, all the assemblies included in a [!INCLUDE[ndptecclick](../deploymen
      [!code[ClickOnceOnDemand#1](../deployment/codesnippet/CSharp/walkthrough--downloading-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer_2.cs)]
 [!code[ClickOnceOnDemand#1](../deployment/codesnippet/VisualBasic/walkthrough--downloading-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer_2.vb)]  
   
-5.  Add the following code to download this assembly on demand. This code shows how to map a set of assemblies to a group name using a generic \<xref:System.Collections.DictionaryBase.Dictionary*> class. Because we are only downloading a single assembly in this walkthrough, there is only one assembly in our group. In a real application, you would likely want to download all assemblies related to a single feature in your application at the same time. The mapping table enables you to do this easily by associating all the DLLs that belong to a feature with a download group name.  
+5.  Add the following code to download this assembly on demand. This code shows how to map a set of assemblies to a group name using a generic <xref:System.Collections.DictionaryBase.Dictionary*> class. Because we are only downloading a single assembly in this walkthrough, there is only one assembly in our group. In a real application, you would likely want to download all assemblies related to a single feature in your application at the same time. The mapping table enables you to do this easily by associating all the DLLs that belong to a feature with a download group name.  
   
      [!code[ClickOnceOnDemand#2](../deployment/codesnippet/CSharp/walkthrough--downloading-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer_3.cs)]
 [!code[ClickOnceOnDemand#2](../deployment/codesnippet/VisualBasic/walkthrough--downloading-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer_3.vb)]  
   
-6.  On the **View** menu, click **Toolbox**. Drag a \<xref:System.Windows.Forms.Button> from the **Toolbox** onto the form. Double-click the button and add the following code to the \<xref:System.Windows.Forms.Control.Click> event handler.  
+6.  On the **View** menu, click **Toolbox**. Drag a <xref:System.Windows.Forms.Button> from the **Toolbox** onto the form. Double-click the button and add the following code to the <xref:System.Windows.Forms.Control.Click> event handler.  
   
      [!code[ClickOnceOnDemand#3](../deployment/codesnippet/CSharp/walkthrough--downloading-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer_4.cs)]
 [!code[ClickOnceOnDemand#3](../deployment/codesnippet/VisualBasic/walkthrough--downloading-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer_4.vb)]  
@@ -109,7 +109,7 @@ By default, all the assemblies included in a [!INCLUDE[ndptecclick](../deploymen
   
 1.  Start your application deployed with [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)].  
   
-2.  When your main form appears, press the \<xref:System.Windows.Forms.Button>. You should see a string in a message box window that reads, "Hello, World!"  
+2.  When your main form appears, press the <xref:System.Windows.Forms.Button>. You should see a string in a message box window that reads, "Hello, World!"  
   
 ## See Also  
- \<xref:System.Deployment.Application.ApplicationDeployment>
+ <xref:System.Deployment.Application.ApplicationDeployment>

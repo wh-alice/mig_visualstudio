@@ -1,7 +1,7 @@
 ---
 title: "&#39;&lt;mathfunction1&gt;&#39; is not declared"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,14 +37,14 @@ translation.priority.mt:
 # &#39;&lt;mathfunction1&gt;&#39; is not declared
 '\<mathfunction1>' is not declared. Function has moved to the System.Math class and is now called '\<mathfunction2>'.  
   
- Several functions that were intrinsic to [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] in previous versions have been moved to the \<xref:System.Math?displayProperty=fullName> namespace. This makes their functionality more generally available to all programming languages.  
+ Several functions that were intrinsic to [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] in previous versions have been moved to the <xref:System.Math?displayProperty=fullName> namespace. This makes their functionality more generally available to all programming languages.  
   
  **Error ID:** BC30819  
   
 ### To correct this error  
   
--   Use the methods declared in \<xref:System.Math?displayProperty=fullName>.  
+-   Use the methods declared in <xref:System.Math?displayProperty=fullName>.  
   
 ## See Also  
- \<xref:System.Math>   
- [Programming Element Support Changes Summary](http://msdn.microsoft.com/0483590a-6309-449c-a2fa-effa26a03b95)
+ <xref:System.Math>   
+ [Programming Element Support Changes Summary](http://msdn.microsoft.com/en-us/0483590a-6309-449c-a2fa-effa26a03b95)

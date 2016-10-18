@@ -1,7 +1,7 @@
 ---
 title: "Creating Applications in Bi-directional Languages"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -89,7 +89,7 @@ You can use Visual Studio to create applications that correctly display text in 
 -   Code and literal text. In the code editor (which is also the text editor), you can use Arabic or Hebrew to name classes, functions, variables, properties, string literals, attributes, and so on. However, the editor does not support right-to-left reading order; text always starts at the left margin.  
   
     > [!TIP]
-    >  It is recommended that you place string literals in resource files instead of hard-coding them into your programs. For more information, see [Walkthrough: Localizing Windows Forms](http://msdn.microsoft.com/9a96220d-a19b-4de0-9f48-01e5d82679e5).  
+    >  It is recommended that you place string literals in resource files instead of hard-coding them into your programs. For more information, see [Walkthrough: Localizing Windows Forms](http://msdn.microsoft.com/en-us/9a96220d-a19b-4de0-9f48-01e5d82679e5).  
   
     > [!NOTE]
     >  You must be consistent in how you refer to objects named in these languages. For example, if you use Kashida in naming an Arabic variable, you must always use Kashida when referring to that variable, or errors will result.  

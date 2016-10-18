@@ -1,7 +1,7 @@
 ---
 title: "Type character &#39;&lt;character&gt;&#39; cannot be used in a declaration with an explicit type"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -45,4 +45,4 @@ You have used a type character, such as `$`, when explicitly specifying a type.
   
 ## See Also  
  [Type Characters](../Topic/Type%20Characters%20\(Visual%20Basic\).md)   
- [Implicit and Explicit Declaration (Visual Basic)](http://msdn.microsoft.com/7260dafd-c1d5-46fc-98bf-2ea0fb94996c)
+ [Implicit and Explicit Declaration (Visual Basic)](http://msdn.microsoft.com/en-us/7260dafd-c1d5-46fc-98bf-2ea0fb94996c)

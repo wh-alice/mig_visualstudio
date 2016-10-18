@@ -1,7 +1,7 @@
 ---
 title: "Managing Application Settings (.NET)"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -40,7 +40,7 @@ Application settings enable you to store application information dynamically. Se
   
  Each application setting must have a unique name. The name can be any combination of letters, numbers, or an underscore that does not start with a number, and it cannot contain spaces. The name can be changed through the `Name` property.  
   
- Application settings can be stored as any data type that can be serialized to XML or has a `TypeConverter` that implements `ToString`/`FromString`. The most common types are `String`, `Integer`, and `Boolean`, but you can also store values as \<xref:System.Drawing.Color>, \<xref:System.Object>, or as a connection string.  
+ Application settings can be stored as any data type that can be serialized to XML or has a `TypeConverter` that implements `ToString`/`FromString`. The most common types are `String`, `Integer`, and `Boolean`, but you can also store values as <xref:System.Drawing.Color>, <xref:System.Object>, or as a connection string.  
   
  Application settings also contain a value. The value is set with the **Value** property and must match the data type of the setting.  
   
@@ -81,7 +81,7 @@ Application settings enable you to store application information dynamically. Se
  The Settings Designer first searches for the Settings.settings file that the project system creates; this is the default file that the Project Designer displays in the **Settings** tab. Settings.settings is located in the My Project folder for [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] projects and in the Properties folder for [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] projects. The Project Designer then searches for other settings files in the project's root folder. Therefore, you should put your custom settings file there. If you add a .settings file elsewhere in your project, the Project Designer will not be able to locate it.  
   
 ## Accessing or Changing Application Settings at Run Time in Visual Basic  
- In [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] projects, you can access application settings at run time by using the `My.Settings` object. On the **Settings** page, click the **View code** button to view the Settings.vb file. Settings.vb defines the `Settings` class, which enables you to handle these events on the settings class: \<xref:System.Configuration.ApplicationSettingsBase.SettingChanging>, \<xref:System.Configuration.ApplicationSettingsBase.PropertyChanged>, \<xref:System.Configuration.ApplicationSettingsBase.SettingsLoaded>, and \<xref:System.Configuration.ApplicationSettingsBase.SettingsSaving>. Notice that the `Settings` class in Settings.vb is a partial class that displays only the user-owned code, not the whole generated class. For more information about accessing application settings by using the `My.Settings` object, see [Accessing Application Settings](../Topic/Accessing%20Application%20Settings%20\(Visual%20Basic\).md).  
+ In [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] projects, you can access application settings at run time by using the `My.Settings` object. On the **Settings** page, click the **View code** button to view the Settings.vb file. Settings.vb defines the `Settings` class, which enables you to handle these events on the settings class: <xref:System.Configuration.ApplicationSettingsBase.SettingChanging>, <xref:System.Configuration.ApplicationSettingsBase.PropertyChanged>, <xref:System.Configuration.ApplicationSettingsBase.SettingsLoaded>, and <xref:System.Configuration.ApplicationSettingsBase.SettingsSaving>. Notice that the `Settings` class in Settings.vb is a partial class that displays only the user-owned code, not the whole generated class. For more information about accessing application settings by using the `My.Settings` object, see [Accessing Application Settings](../Topic/Accessing%20Application%20Settings%20\(Visual%20Basic\).md).  
   
  The values of any user-scoped settings that the user changes at run time (for example, the position of a form) are stored in a user.config file. Notice that the default values are still saved in app.config.  
   

@@ -1,7 +1,7 @@
 ---
 title: "How Can I Find Out Who Is Passing a Wrong Parameter Value?"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -66,5 +66,5 @@ translation.priority.ht:
   
 ## See Also  
  [Debugging Native Code FAQs](../debugger/debugging-native-code-faqs.md)   
- [Breakpoints](http://msdn.microsoft.com/fe4eedc1-71aa-4928-962f-0912c334d583)   
+ [Breakpoints](http://msdn.microsoft.com/en-us/fe4eedc1-71aa-4928-962f-0912c334d583)   
  [Debugging Native Code](../debugger/debugging-native-code.md)

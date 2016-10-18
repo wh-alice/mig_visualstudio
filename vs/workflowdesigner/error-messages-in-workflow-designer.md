@@ -1,7 +1,7 @@
 ---
 title: "Error Messages in Workflow Designer"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: ".net-framework-4.6"
 ms.reviewer: na
 ms.suite: na
@@ -44,7 +44,7 @@ This topic describes the types of error messages that can be encountered when wo
   
 4.  There are errors in the XAML file that cause the workflow to fail to load.  
   
- Invalid expressions and unsatisfied validation constraints do not cause the workflow to fail to build. Building your workflow succeeds, but an \<xref:System.Activities.InvalidWorkflowException> is thrown at runtime. If there are errors in the XAML file, the build fails.  
+ Invalid expressions and unsatisfied validation constraints do not cause the workflow to fail to build. Building your workflow succeeds, but an <xref:System.Activities.InvalidWorkflowException> is thrown at runtime. If there are errors in the XAML file, the build fails.  
   
  Inside [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], when a workflow is loaded, its errors are displayed in the **Error List**. To navigate to the activity that is the source of the error, double-click the error in the **Error List**.  
   

@@ -1,7 +1,7 @@
 ---
 title: "Variable cannot be initialized with non-array type &#39;&lt;elementname&gt;&#39;"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -57,4 +57,4 @@ A variable that is declared as an array must be initialized with an array value.
     ```  
   
 ## See Also  
- [NOTINBUILD  an Array Variable](http://msdn.microsoft.com/c2da78bd-6928-46ba-805f-44f819dfaf93)
+ [NOTINBUILD  an Array Variable](http://msdn.microsoft.com/en-us/c2da78bd-6928-46ba-805f-44f819dfaf93)

@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.ArgumentOutOfRangeException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,7 +37,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.ArgumentOutOfRangeException
-An \<xref:System.ArgumentOutOfRangeException> is thrown when a method is invoked and at least one of the arguments passed to the method is not a null reference (`Nothing` in Visual Basic) and does not contain a valid value.  
+An <xref:System.ArgumentOutOfRangeException> is thrown when a method is invoked and at least one of the arguments passed to the method is not a null reference (`Nothing` in Visual Basic) and does not contain a valid value.  
   
 ## Associated Tips  
  **Make sure all arguments to this method have valid values as defined by the invoked method.**  
@@ -50,5 +50,5 @@ An \<xref:System.ArgumentOutOfRangeException> is thrown when a method is invoked
  This exception may be thrown if `startIndex` is equal to the index value of the last item of the associated list. To work around this, pass 0 as the `startIndex` parameter or use the one-argument `FindString` or `FindStringExact` method. For more information, see [CComboBox::FindString](../Topic/CComboBox::FindString.md) or [CListBox::FindString](../Topic/CListBox::FindString.md).  
   
 ## See Also  
- \<xref:System.ArgumentOutOfRangeException>   
+ <xref:System.ArgumentOutOfRangeException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

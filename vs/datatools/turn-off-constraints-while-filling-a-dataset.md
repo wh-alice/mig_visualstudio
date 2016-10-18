@@ -1,7 +1,7 @@
 ---
 title: "Turn off constraints while filling a dataset"
 ms.custom: na
-ms.date: "10/07/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,10 +44,10 @@ translation.priority.mt:
 # Turn off constraints while filling a dataset
 If a dataset contains constraints (such as foreign-key constraints),theycan raise errors  related to the order of operations that are performed against the dataset. For example, loading child records before loadingrelated parent records can violate a constraint and cause an error. As soon as you load a child record, the constraint checks for the related parent record and raises an error.  
   
- If there were no mechanism to allow temporary constraint suspension, an error would be raised every time you tried to load a record into the child table. Another way to suspend all constraints in a dataset is with the \<xref:System.Data.DataRow.BeginEdit*>, and \<xref:System.Data.DataRow.EndEdit*> properties.  
+ If there were no mechanism to allow temporary constraint suspension, an error would be raised every time you tried to load a record into the child table. Another way to suspend all constraints in a dataset is with the <xref:System.Data.DataRow.BeginEdit*>, and <xref:System.Data.DataRow.EndEdit*> properties.  
   
 > [!NOTE]
->  Validation events (for example, \<xref:System.Data.DataTable.ColumnChanging> and\<xref:System.Data.DataTable.RowChanging>) will not be raised when constraints are turned off.  
+>  Validation events (for example, <xref:System.Data.DataTable.ColumnChanging> and<xref:System.Data.DataTable.RowChanging>) will not be raised when constraints are turned off.  
   
 ### To suspend update constraints programmatically  
   
@@ -60,7 +60,7 @@ If a dataset contains constraints (such as foreign-key constraints),theycan rais
   
 1.  Open your dataset in the [Creating and Editing Typed Datasets](../datatools/creating-and-editing-typed-datasets.md). For more information, see [How to: Open a Dataset in the Dataset Designer](../Topic/How%20to:%20Open%20a%20Dataset%20in%20the%20Dataset%20Designer.md).  
   
-2.  In the **Properties** window, set the \<xref:System.Data.DataSet.EnforceConstraints*> property to `false`.  
+2.  In the **Properties** window, set the <xref:System.Data.DataSet.EnforceConstraints*> property to `false`.  
   
 ## See Also  
  [Fill datasets by using TableAdapters](../datatools/fill-datasets-by-using-tableadapters.md)   

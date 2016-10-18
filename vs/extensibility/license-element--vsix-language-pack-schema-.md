@@ -1,7 +1,7 @@
 ---
 title: "License Element (VSIX Language Pack Schema)"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -76,4 +76,4 @@ Optional. The path of a localized version of the license file for the extension.
 ## See Also  
  [VSX Language Pack Schema Reference](../extensibility/vsx-language-pack-schema-reference.md)   
  [Localizing VSIX Packages](../extensibility/localizing-vsix-packages.md)   
- [VSIX Extension Schema 1.0 Reference](http://msdn.microsoft.com/76e410ec-b1fb-4652-ac98-4a4c52e09a2b)
+ [VSIX Extension Schema 1.0 Reference](http://msdn.microsoft.com/en-us/76e410ec-b1fb-4652-ac98-4a4c52e09a2b)

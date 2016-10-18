@@ -1,7 +1,7 @@
 ---
 title: "&#39;=&#39; expected (Declaration)"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,7 +44,7 @@ A `Mid` statement or a `#Const` compilation directive does not include an assign
 -   Add an equal sign (`=`) and a value to be assigned to the string or the compilation constant.  
   
 ## See Also  
- [NotInBuild:Declaration Statements in Visual Basic](http://msdn.microsoft.com/81f3c398-f45c-4d95-80bf-aa39d1a0fb30)   
+ [NotInBuild:Declaration Statements in Visual Basic](http://msdn.microsoft.com/en-us/81f3c398-f45c-4d95-80bf-aa39d1a0fb30)   
  [Mid Statement](../Topic/Mid%20Statement.md)   
  [#Const Directive](../Topic/%23Const%20Directive.md)   
- [NotInBuild:Assignment Statements](http://msdn.microsoft.com/eb4f91e9-fbbf-45ca-b21d-e8ae069de4f9)
+ [NotInBuild:Assignment Statements](http://msdn.microsoft.com/en-us/eb4f91e9-fbbf-45ca-b21d-e8ae069de4f9)

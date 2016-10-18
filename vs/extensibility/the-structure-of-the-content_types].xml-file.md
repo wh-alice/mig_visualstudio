@@ -1,7 +1,7 @@
 ---
 title: "The Structure of the Content_types].xml File"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -114,5 +114,5 @@ Contains information about the kinds of content in a VSIX package. Visual Studio
   
 ## See Also  
  [Anatomy of a VSIX Package](../extensibility/anatomy-of-a-vsix-package.md)   
- [VSIX Extension Schema 1.0 Reference](http://msdn.microsoft.com/76e410ec-b1fb-4652-ac98-4a4c52e09a2b)   
+ [VSIX Extension Schema 1.0 Reference](http://msdn.microsoft.com/en-us/76e410ec-b1fb-4652-ac98-4a4c52e09a2b)   
  [OPC: A New Standard For Packaging Your Data](http://go.microsoft.com/fwlink/?LinkID=148207)

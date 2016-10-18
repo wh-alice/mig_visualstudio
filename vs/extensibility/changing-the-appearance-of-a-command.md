@@ -1,7 +1,7 @@
 ---
 title: "Changing the Appearance of a Command"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,9 +39,9 @@ You can provide feedback to your user by changing the appearance of a command. F
   
 -   Specify the appropriate flags in the command definition in the command table file.  
   
--   Use the \<xref:Microsoft.VisualStudio.Shell.OleMenuCommandService> service.  
+-   Use the <xref:Microsoft.VisualStudio.Shell.OleMenuCommandService> service.  
   
--   Implement the \<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface and modify the raw command objects.  
+-   Implement the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface and modify the raw command objects.  
   
  The following steps show how to find and update the appearance of a command by using the Managed Package Framework (MPF).  
   
@@ -72,7 +72,7 @@ You can provide feedback to your user by changing the appearance of a command. F
     }  
     ```  
   
-5.  Obtain the command that you want to update from the \<xref:Microsoft.VisualStudio.Shell.OleMenuCommandService> object and then set the appropriate properties on the command object. For example, the following method makes the specified command from a VSPackage command set available or unavailable. The following code makes the menu item named `New Text` unavailable after it has been clicked.  
+5.  Obtain the command that you want to update from the <xref:Microsoft.VisualStudio.Shell.OleMenuCommandService> object and then set the appropriate properties on the command object. For example, the following method makes the specified command from a VSPackage command set available or unavailable. The following code makes the menu item named `New Text` unavailable after it has been clicked.  
   
     ```c#  
     public bool ChangeMyCommand(int cmdID, bool enableCmd)  

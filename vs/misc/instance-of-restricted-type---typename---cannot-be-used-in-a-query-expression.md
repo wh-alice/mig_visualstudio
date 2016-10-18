@@ -1,7 +1,7 @@
 ---
 title: "Instance of restricted type &#39;&lt;typename&gt;&#39; cannot be used in a query expression"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -35,7 +35,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Instance of restricted type &#39;&lt;typename&gt;&#39; cannot be used in a query expression
-Instances of restricted types, such as \<xref:System.ArgIterator>, \<xref:System.RuntimeArgumentHandle>, and \<xref:System.TypedReference>, cannot be used in a lambda expression or a query expression.  
+Instances of restricted types, such as <xref:System.ArgIterator>, <xref:System.RuntimeArgumentHandle>, and <xref:System.TypedReference>, cannot be used in a lambda expression or a query expression.  
   
  **Error ID:** BC36598  
   

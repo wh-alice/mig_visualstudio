@@ -1,7 +1,7 @@
 ---
 title: "Arrays of type &#39;System.Void&#39; are not allowed in this expression"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -35,11 +35,11 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Arrays of type &#39;System.Void&#39; are not allowed in this expression
-An expression in an assignment statement or a declaration specifies an array of type \<xref:System.Void>.  
+An expression in an assignment statement or a declaration specifies an array of type <xref:System.Void>.  
   
- The \<xref:System.Void> structure is a specialized type used internally by the .NET Framework and particularly by Visual C# and Visual C++. It represents a return value type for a method that does not return a value. Visual Basic uses a `Sub` procedure when a value is not returned and a `Function` procedure when a value is returned.  
+ The <xref:System.Void> structure is a specialized type used internally by the .NET Framework and particularly by Visual C# and Visual C++. It represents a return value type for a method that does not return a value. Visual Basic uses a `Sub` procedure when a value is not returned and a `Function` procedure when a value is returned.  
   
- Arrays of type \<xref:System.Void> are not meaningful and are not allowed in any context.  
+ Arrays of type <xref:System.Void> are not meaningful and are not allowed in any context.  
   
  **Error ID:** BC31428  
   
@@ -47,7 +47,7 @@ An expression in an assignment statement or a declaration specifies an array of 
   
 1.  Remove the parentheses that designate an array.  
   
-2.  Unless you have a particular reason to compare a run-time type to \<xref:System.Void>, remove the reference to it altogether.  
+2.  Unless you have a particular reason to compare a run-time type to <xref:System.Void>, remove the reference to it altogether.  
   
 ## See Also  
- \<xref:System.Void>
+ <xref:System.Void>

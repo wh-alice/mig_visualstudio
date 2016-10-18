@@ -1,7 +1,7 @@
 ---
 title: "Compiler Error CS1908"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -38,7 +38,7 @@ translation.priority.mt:
 # Compiler Error CS1908
 The type of the argument to the DefaultValue attribute must match the parameter type  
   
- This error is generated when you use the wrong argument for the \<xref:System.ComponentModel.DefaultValueAttribute> attribute value. Use a value that matches the parameter type.  
+ This error is generated when you use the wrong argument for the <xref:System.ComponentModel.DefaultValueAttribute> attribute value. Use a value that matches the parameter type.  
   
 ## Example  
  The following sample generates CS1908.  

@@ -1,7 +1,7 @@
 ---
 title: "How to: Support Toolbox Drag-and-Drop Functionality"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -40,23 +40,23 @@ translation.priority.mt:
   
  VSPackages must implement drag-and-drop support if they are to use **Toolbox** controls on document views, such as editors or designers.  
   
- By default, all [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] objects derived from \<xref:System.Windows.Forms.Control?displayProperty=fullName> automatically and transparently provide support for consuming **Toolbox** controls, and the procedures described below are unnecessary. The basic functionality can be extended by creating a designer.  
+ By default, all [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] objects derived from <xref:System.Windows.Forms.Control?displayProperty=fullName> automatically and transparently provide support for consuming **Toolbox** controls, and the procedures described below are unnecessary. The basic functionality can be extended by creating a designer.  
   
  For more information, see [Windows Forms Overview](../Topic/Windows%20Forms%20Overview.md) and [Extending Design-Time Support](../Topic/Extending%20Design-Time%20Support.md).  
   
 ### To implement basic drag-and-drop functionality  
   
-1.  Provide drag-and-drop support by implementing \<xref:Microsoft.VisualStudio.OLE.Interop.IDropTarget> on a view object. This provides the view with OLE drag-and-drop functionality and serialization of the control.  
+1.  Provide drag-and-drop support by implementing <xref:Microsoft.VisualStudio.OLE.Interop.IDropTarget> on a view object. This provides the view with OLE drag-and-drop functionality and serialization of the control.  
   
      For more information on implementing drag-and-drop functionality, see [Drag and Drop (OLE)](../Topic/Drag%20and%20Drop%20\(OLE\).md).  
   
      Drops can either be Clipboard items or controls being dropped on a designer. For information on standard Clipboard formats supported by the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] **Toolbox**, see [Extending the Toolbox](../misc/extending-the-toolbox.md).  
   
-2.  Provide a basic implementation of the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxUser> interface on a document view.  
+2.  Provide a basic implementation of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxUser> interface on a document view.  
   
-     When a user attempts to drag a toolbox control to a view, the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] shell queries the view's VSPackage to see if it implements the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxUser> interface.  
+     When a user attempts to drag a toolbox control to a view, the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] shell queries the view's VSPackage to see if it implements the <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxUser> interface.  
   
-    1.  Implement \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxUser.IsSupported*> to return \<xref:Microsoft.VisualStudio.VSConstants.S_OK> for those **Toolbox** formats the drop target supports. The example below checks to see if the data object is in custom Clipboard format (`CF_CUSTOM_FORMAT`) and whether the object is an ActiveX control.  
+    1.  Implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxUser.IsSupported*> to return <xref:Microsoft.VisualStudio.VSConstants.S_OK> for those **Toolbox** formats the drop target supports. The example below checks to see if the data object is in custom Clipboard format (`CF_CUSTOM_FORMAT`) and whether the object is an ActiveX control.  
   
         ```cpp#  
         STDMETHODIMP CustTbxUser::IsSupported(IDataObject* pDO)  
@@ -112,23 +112,23 @@ translation.priority.mt:
   
          The IDE checks for this information when a view's window first loads, and for every activation of a view's window following a reset of the **Toolbox** by a user through the IDE's **CustomizeToolbox** dialog box. Typically, the **Toolbox** does not display unsupported **Toolbox** items.  
   
-         Users can set an option to display all Toolbox pages at all times. In this case, the environment does not query the editor for \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxUser.IsSupported*>.  
+         Users can set an option to display all Toolbox pages at all times. In this case, the environment does not query the editor for <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxUser.IsSupported*>.  
   
-    2.  After an \<xref:Microsoft.VisualStudio.OLE.Interop.IDropTarget> implementation (such as the one described above) successfully handles a dropped component, the view object must notify the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] environment of this by calling \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2.DataUsed*>  
+    2.  After an <xref:Microsoft.VisualStudio.OLE.Interop.IDropTarget> implementation (such as the one described above) successfully handles a dropped component, the view object must notify the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] environment of this by calling <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2.DataUsed*>  
   
-     If desired, a VSPackage can extend its drag-and-drop support by extending its \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxUser> implementation.  
+     If desired, a VSPackage can extend its drag-and-drop support by extending its <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxUser> implementation.  
   
-3.  An \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxUser> implementation can support the dragging of **Toolbox** items to a window by selection rather than mouse action. That is, dragging an item when a user either double-clicks on a **Toolbox** item or single-clicks and then presses ENTER. To do this:  
+3.  An <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxUser> implementation can support the dragging of **Toolbox** items to a window by selection rather than mouse action. That is, dragging an item when a user either double-clicks on a **Toolbox** item or single-clicks and then presses ENTER. To do this:  
   
-    1.  Implement the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxUser.ItemPicked*> method.  
+    1.  Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxUser.ItemPicked*> method.  
   
          This method, called by the IDE is selected through a click, or by pressing ENTER.  
   
          The method should insert the **Toolbox** item into the target window.  
   
-    2.  If you do not wish to support implementation by selection, the method should return \<xref:Microsoft.VisualStudio.VSConstants.S_FALSE>.  
+    2.  If you do not wish to support implementation by selection, the method should return <xref:Microsoft.VisualStudio.VSConstants.S_FALSE>.  
   
-         In the example below, the implementation of the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxUser.ItemPicked*> method checks if the object selected is supported, and if so deserializes it into the code:  
+         In the example below, the implementation of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxUser.ItemPicked*> method checks if the object selected is supported, and if so deserializes it into the code:  
   
         ```cpp#  
         STDMETHODIMP CustTbxUser::ItemPicked(IDataObject* pDataObject)  
@@ -151,21 +151,21 @@ translation.priority.mt:
   
 4.  Carry out the following steps to ensure that proper focus is maintained for your application:  
   
-    1.  If your editor window implements two different panes, not two different views, then call the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2.UpdateToolboxUI*> method when you switch pane activations within your editor window. Only you know when activation changes occur within your window.  
+    1.  If your editor window implements two different panes, not two different views, then call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2.UpdateToolboxUI*> method when you switch pane activations within your editor window. Only you know when activation changes occur within your window.  
   
-    2.  To properly activate the window and to ensure that command routing is updated properly, you must call the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame.Show*> method on the component. This action must be taken when you are setting focus to a component window, such as an editor, created or modified by a drag-and-drop operation involving the toolbox.  
+    2.  To properly activate the window and to ensure that command routing is updated properly, you must call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame.Show*> method on the component. This action must be taken when you are setting focus to a component window, such as an editor, created or modified by a drag-and-drop operation involving the toolbox.  
   
- A VSPackage may need to intervene in a drag operation and modify the dropped item through the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxActiveUserHook> interface.  
+ A VSPackage may need to intervene in a drag operation and modify the dropped item through the <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxActiveUserHook> interface.  
   
  For instance, rather than adding a new **Toolbox** control explicitly to the **Toolbox**, a VSPackage might intercept a standard **Toolbox** as it is dropped and replace it with a custom implementation.  
   
 ### To dynamically modify toolbox controls  
   
-1.  Implement the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxActiveUserHook> method.  
+1.  Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxActiveUserHook> method.  
   
-     Whenever a **Toolbox** item is selected or dropped, the **Toolbox** queries the drop target to see if it supports the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxActiveUserHook> interface, and if it does calls the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxActiveUserHook.InterceptDataObject*> method.  
+     Whenever a **Toolbox** item is selected or dropped, the **Toolbox** queries the drop target to see if it supports the <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxActiveUserHook> interface, and if it does calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxActiveUserHook.InterceptDataObject*> method.  
   
-2.  The \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxActiveUserHook.InterceptDataObject*> method must return a new \<xref:Microsoft.VisualStudio.OLE.Interop.IDataObject> object to be used rather than the original \<xref:Microsoft.VisualStudio.OLE.Interop.IDataObject>.  
+2.  The <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxActiveUserHook.InterceptDataObject*> method must return a new <xref:Microsoft.VisualStudio.OLE.Interop.IDataObject> object to be used rather than the original <xref:Microsoft.VisualStudio.OLE.Interop.IDataObject>.  
   
      If the drop target does not need to override the data object, it should return its input.  
   
@@ -175,19 +175,19 @@ translation.priority.mt:
   
 1.  Implement a handler for the `CMDIDPasteNextTBXCBItem` command using:  
   
-    -   \<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> for interop-assembly-based VSPackages.  
+    -   <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> for interop-assembly-based VSPackages.  
   
-    -   \<xref:Microsoft.VisualStudio.Shell.OleMenuCommandService> for Managed Package Framework–based VSPackages. \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxClipboardCycler> interface.  
+    -   <xref:Microsoft.VisualStudio.Shell.OleMenuCommandService> for Managed Package Framework–based VSPackages. <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxClipboardCycler> interface.  
   
-2.  In the command handler, implement the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxClipboardCycler.AreDataObjectsAvailable*> method to determine whether there are any Clipboard objects to cycle through.  
+2.  In the command handler, implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxClipboardCycler.AreDataObjectsAvailable*> method to determine whether there are any Clipboard objects to cycle through.  
   
     1.  If there are no items on the Toolbox Clipboard, then the environment checks the system Clipboard to see if there are any items on it.  
   
     2.  If there are items on the system Clipboard, but not on the Toolbox Clipboard, then the Clipboard ring is populated with system items.  
   
-    3.  To select the next item in the list, the implementation calls the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxClipboardCycler.GetAndSelectNextDataObject*> method.  
+    3.  To select the next item in the list, the implementation calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxClipboardCycler.GetAndSelectNextDataObject*> method.  
   
-    4.  To return to the beginning of the Clipboard cycle, call the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxClipboardCycler.BeginCycle*> method.  
+    4.  To return to the beginning of the Clipboard cycle, call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxClipboardCycler.BeginCycle*> method.  
   
 ## See Also  
  [Extending the Toolbox](../misc/extending-the-toolbox.md)   

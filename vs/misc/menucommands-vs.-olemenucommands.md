@@ -1,7 +1,7 @@
 ---
 title: "MenuCommands Vs. OleMenuCommands"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -33,9 +33,9 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # MenuCommands Vs. OleMenuCommands
-You can create menu commands by deriving either from \<xref:System.ComponentModel.Design.MenuCommand> or from \<xref:Microsoft.VisualStudio.Shell.OleMenuCommand> object, and impementling the appropriate event handlers. In the majority of cases you can use \<xref:System.ComponentModel.Design.MenuCommand>, as the VSPackage project template does, but occasionally you may need to use \<xref:Microsoft.VisualStudio.Shell.OleMenuCommand>.  
+You can create menu commands by deriving either from <xref:System.ComponentModel.Design.MenuCommand> or from <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> object, and impementling the appropriate event handlers. In the majority of cases you can use <xref:System.ComponentModel.Design.MenuCommand>, as the VSPackage project template does, but occasionally you may need to use <xref:Microsoft.VisualStudio.Shell.OleMenuCommand>.  
   
- The commands that a VSPackage makes available to the IDE must be visible and enabled before a user can use them. When commands are created in a .vsct file by using the Visual Studio Package project template, they are visible and enabled by default. Setting some command flags, such as `DynamicItemStart`, can change the default behavior. The visibility, enabled status, and other properties of a command can also be changed in code at run time by accessing the \<xref:Microsoft.VisualStudio.Shell.OleMenuCommand> object that is associated with the command.  
+ The commands that a VSPackage makes available to the IDE must be visible and enabled before a user can use them. When commands are created in a .vsct file by using the Visual Studio Package project template, they are visible and enabled by default. Setting some command flags, such as `DynamicItemStart`, can change the default behavior. The visibility, enabled status, and other properties of a command can also be changed in code at run time by accessing the <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> object that is associated with the command.  
   
 ## Prerequisites  
  To follow this walkthrough, you must install the Visual Studio SDK. For more information, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).  
@@ -107,37 +107,37 @@ You can create menu commands by deriving either from \<xref:System.ComponentMode
  At this point, the command will be visible in the IDE, but will have no functionality. If the command was created by the package template, by default it will have a click handler that displays a message.  
   
 ## Handling the New Command  
- Most commands in managed code can be handled by the Managed Package Framework (MPF) by associating the command with a \<xref:System.ComponentModel.Design.MenuCommand> object or \<xref:Microsoft.VisualStudio.Shell.OleMenuCommand> object and implementing its event handlers.  
+ Most commands in managed code can be handled by the Managed Package Framework (MPF) by associating the command with a <xref:System.ComponentModel.Design.MenuCommand> object or <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> object and implementing its event handlers.  
   
- For code that uses the \<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface directly for command handling, you must implement the \<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface and its methods. The two most important methods are \<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus*> and \<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.Exec*>.  
+ For code that uses the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface directly for command handling, you must implement the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface and its methods. The two most important methods are <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus*> and <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.Exec*>.  
   
-1.  Get the \<xref:Microsoft.VisualStudio.Shell.OleMenuCommandService> instance, as shown in the following example.  
+1.  Get the <xref:Microsoft.VisualStudio.Shell.OleMenuCommandService> instance, as shown in the following example.  
   
      [!code[ButtonGroup#21](../misc/codesnippet/CSharp/menucommands-vs.-olemenucommands_5.cs)]  
   
-2.  Create a \<xref:System.ComponentModel.Design.CommandID> object that has as its parameters the GUID and ID of the command to handle, as shown in the following example.  
+2.  Create a <xref:System.ComponentModel.Design.CommandID> object that has as its parameters the GUID and ID of the command to handle, as shown in the following example.  
   
      [!code[ButtonGroup#22](../misc/codesnippet/CSharp/menucommands-vs.-olemenucommands_6.cs)]  
   
      The Visual Studio Package template provides two collections, `GuidList` and `PkgCmdIDList`, to hold the GUIDs and IDs of commands. These are populated automatically for commands that are added by the template, but for commands that you add manually, you must also add the ID entry to the `PkgCmdIdList` class.  
   
-     Alternatively, you can populate the \<xref:System.ComponentModel.Design.CommandID> object by using the raw string value of the GUID and the integer value of the ID.  
+     Alternatively, you can populate the <xref:System.ComponentModel.Design.CommandID> object by using the raw string value of the GUID and the integer value of the ID.  
   
-3.  Instantiate either a \<xref:System.ComponentModel.Design.MenuCommand> or \<xref:Microsoft.VisualStudio.Shell.OleMenuCommand> object that specifies the method that handles the command together with the \<xref:System.ComponentModel.Design.CommandID>, as shown in the following example.  
+3.  Instantiate either a <xref:System.ComponentModel.Design.MenuCommand> or <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> object that specifies the method that handles the command together with the <xref:System.ComponentModel.Design.CommandID>, as shown in the following example.  
   
      [!code[ButtonGroup#23](../misc/codesnippet/CSharp/menucommands-vs.-olemenucommands_7.cs)]  
   
-     The \<xref:System.ComponentModel.Design.MenuCommand> is appropriate for static commands. Dynamic menu item displays require QueryStatus event handlers. The \<xref:Microsoft.VisualStudio.Shell.OleMenuCommand> adds the \<xref:Microsoft.VisualStudio.Shell.OleMenuCommand.BeforeQueryStatus> event, which occurs when the host menu of the command is opened, and some other properties, such as \<xref:Microsoft.VisualStudio.Shell.OleMenuCommand.Text*>.  
+     The <xref:System.ComponentModel.Design.MenuCommand> is appropriate for static commands. Dynamic menu item displays require QueryStatus event handlers. The <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> adds the <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.BeforeQueryStatus> event, which occurs when the host menu of the command is opened, and some other properties, such as <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.Text*>.  
   
-     Commands created by the package template are passed by default to a \<xref:Microsoft.VisualStudio.Shell.OleMenuCommand> object in the `Initialize()` method of the package class.  
+     Commands created by the package template are passed by default to a <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> object in the `Initialize()` method of the package class.  
   
-4.  The \<xref:System.ComponentModel.Design.MenuCommand> is appropriate for static commands. Dynamic menu item displays require QueryStatus event handlers. The \<xref:Microsoft.VisualStudio.Shell.OleMenuCommand> adds the \<xref:Microsoft.VisualStudio.Shell.OleMenuCommand.BeforeQueryStatus> event, which occurs when the host menu of the command is opened, and some other properties, such as \<xref:Microsoft.VisualStudio.Shell.OleMenuCommand.Text*>.  
+4.  The <xref:System.ComponentModel.Design.MenuCommand> is appropriate for static commands. Dynamic menu item displays require QueryStatus event handlers. The <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> adds the <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.BeforeQueryStatus> event, which occurs when the host menu of the command is opened, and some other properties, such as <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.Text*>.  
   
-     Commands created by the package template are passed by default to a \<xref:Microsoft.VisualStudio.Shell.OleMenuCommand> object in the `Initialize()` method of the package class. The Visual Studio wizard implements the `Initialize` method by using `MenuCommand`. For dynamic menu item displays, you must change this to `OleMenuCommand`, as is shown in the next step. Furthermore, to change the menu item text, you must add a TextChanges command flag to the menu command button in the .vsct file, as is shown in the following example  
+     Commands created by the package template are passed by default to a <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> object in the `Initialize()` method of the package class. The Visual Studio wizard implements the `Initialize` method by using `MenuCommand`. For dynamic menu item displays, you must change this to `OleMenuCommand`, as is shown in the next step. Furthermore, to change the menu item text, you must add a TextChanges command flag to the menu command button in the .vsct file, as is shown in the following example  
   
      [!CODE [MenuText#02](../CodeSnippet/VS_Snippets_VSSDK/menutext#02)]  
   
-5.  Pass the new menu command to the \<xref:System.ComponentModel.Design.IMenuCommandService.AddCommand*> method in the \<xref:System.ComponentModel.Design.IMenuCommandService> interface. This is accomplished by default for commands created by the package template, as shown in the following example  
+5.  Pass the new menu command to the <xref:System.ComponentModel.Design.IMenuCommandService.AddCommand*> method in the <xref:System.ComponentModel.Design.IMenuCommandService> interface. This is accomplished by default for commands created by the package template, as shown in the following example  
   
      [!code[ButtonGroup#24](../misc/codesnippet/CSharp/menucommands-vs.-olemenucommands_9.cs)]  
   
@@ -145,44 +145,44 @@ You can create menu commands by deriving either from \<xref:System.ComponentMode
   
 #### To implement QueryStatus  
   
-1.  The QueryStatus event occurs before a command is displayed. This enables properties of that command to be set in the event handler before it reaches the user. Only commands that are added as \<xref:Microsoft.VisualStudio.Shell.OleMenuCommand> objects can access this method.  
+1.  The QueryStatus event occurs before a command is displayed. This enables properties of that command to be set in the event handler before it reaches the user. Only commands that are added as <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> objects can access this method.  
   
-     Add an `EventHandler` object to the \<xref:Microsoft.VisualStudio.Shell.OleMenuCommand.BeforeQueryStatus> event in the \<xref:Microsoft.VisualStudio.Shell.OleMenuCommand> object that is created to handle the command, as shown in the following example  (`menuItem` is the \<xref:Microsoft.VisualStudio.Shell.OleMenuCommand> instance).  
+     Add an `EventHandler` object to the <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.BeforeQueryStatus> event in the <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> object that is created to handle the command, as shown in the following example  (`menuItem` is the <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> instance).  
   
      [!code[MenuText#14](../extensibility/codesnippet/CSharp/menucommands-vs.-olemenucommands_10.cs)]
 [!code[MenuText#14](../extensibility/codesnippet/VisualBasic/menucommands-vs.-olemenucommands_10.vb)]  
   
      The `EventHandler` object is given the name of a method that is called when the status of the menu command is queried.  
   
-2.  Implement the query status handler method for the command. The `object` `sender` parameter can be cast to an \<xref:Microsoft.VisualStudio.Shell.OleMenuCommand> object, which is used to set the various attributes of the menu command, including the text. The following table shows the properties on the \<xref:System.ComponentModel.Design.MenuCommand> class (which the MPF class \<xref:Microsoft.VisualStudio.Shell.OleMenuCommand> derives from) that correspond to the \<xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF> flags.  
+2.  Implement the query status handler method for the command. The `object` `sender` parameter can be cast to an <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> object, which is used to set the various attributes of the menu command, including the text. The following table shows the properties on the <xref:System.ComponentModel.Design.MenuCommand> class (which the MPF class <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> derives from) that correspond to the <xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF> flags.  
   
     |MenuCommand Property|OLECMDF flag|  
     |--------------------------|------------------|  
-    |\<xref:System.ComponentModel.Design.MenuCommand.Checked*> = `true`|\<xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF>|  
-    |\<xref:System.ComponentModel.Design.MenuCommand.Visible*> = `false`|\<xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF>|  
-    |\<xref:System.ComponentModel.Design.MenuCommand.Enabled*> = `true`|\<xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF>|  
+    |<xref:System.ComponentModel.Design.MenuCommand.Checked*> = `true`|<xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF>|  
+    |<xref:System.ComponentModel.Design.MenuCommand.Visible*> = `false`|<xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF>|  
+    |<xref:System.ComponentModel.Design.MenuCommand.Enabled*> = `true`|<xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF>|  
   
-     To change the text of a menu command, use the \<xref:Microsoft.VisualStudio.Shell.OleMenuCommand.Text*> property on the \<xref:Microsoft.VisualStudio.Shell.OleMenuCommand> object, as shown in the following example.  
+     To change the text of a menu command, use the <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.Text*> property on the <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> object, as shown in the following example.  
   
      [!code[MenuText#11](../extensibility/codesnippet/CSharp/menucommands-vs.-olemenucommands_11.cs)]
 [!code[MenuText#11](../extensibility/codesnippet/VisualBasic/menucommands-vs.-olemenucommands_11.vb)]  
   
- The MPF automatically handles the case of unsupported or unknown groups. Unless a command has been added to the \<xref:Microsoft.VisualStudio.Shell.OleMenuCommandService> by using the \<xref:System.ComponentModel.Design.IMenuCommandService.AddCommand*> method, the command is not supported.  
+ The MPF automatically handles the case of unsupported or unknown groups. Unless a command has been added to the <xref:Microsoft.VisualStudio.Shell.OleMenuCommandService> by using the <xref:System.ComponentModel.Design.IMenuCommandService.AddCommand*> method, the command is not supported.  
   
 ### Handling Commands By Using the IOleCommandTarget Interface  
- For code that uses the \<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface directly, the VSPackage must implement both the \<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus*> and \<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.Exec*> methods of the \<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface. If the VSPackage implements a project hierarchy, the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy.QueryStatusCommand*> and \<xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy.ExecCommand*> methods of the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy> interface should be implemented instead.  
+ For code that uses the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface directly, the VSPackage must implement both the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus*> and <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.Exec*> methods of the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface. If the VSPackage implements a project hierarchy, the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy.QueryStatusCommand*> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy.ExecCommand*> methods of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy> interface should be implemented instead.  
   
- Both the \<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus*> and \<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.Exec*> methods are designed to receive a single command set `GUID` and an array of command IDs as input. We recommend that VSPackages fully support this concept of multiple IDs in one call. However, as long as a VSPackage is not called from other VSPackages, you can assume that the command array contains only one command ID because the \<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus*> and \<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.Exec*> methods are executed in a well-defined order. For more information about routing, see [Command Routing in VSPackages](../extensibility/command-routing-in-vspackages.md).  
+ Both the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus*> and <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.Exec*> methods are designed to receive a single command set `GUID` and an array of command IDs as input. We recommend that VSPackages fully support this concept of multiple IDs in one call. However, as long as a VSPackage is not called from other VSPackages, you can assume that the command array contains only one command ID because the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus*> and <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.Exec*> methods are executed in a well-defined order. For more information about routing, see [Command Routing in VSPackages](../extensibility/command-routing-in-vspackages.md).  
   
- For code that uses the \<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface directly for command handling, you must implement the \<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus*> method in the VSPackage as follows to handle commands.  
+ For code that uses the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface directly for command handling, you must implement the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus*> method in the VSPackage as follows to handle commands.  
   
 ##### To implement the QueryStatus method  
   
-1.  Return \<xref:Microsoft.VisualStudio.VSConstants.S_OK> for valid commands.  
+1.  Return <xref:Microsoft.VisualStudio.VSConstants.S_OK> for valid commands.  
   
 2.  Set the `cmdf` element of the `prgCmds` parameter.  
   
-     The value of the `cmdf` element is the logical union of values from the \<xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF> enumeration, combined by using the logical OR (`|`) operator.  
+     The value of the `cmdf` element is the logical union of values from the <xref:Microsoft.VisualStudio.OLE.Interop.OLECMDF> enumeration, combined by using the logical OR (`|`) operator.  
   
      Use the appropriate enumeration, based on the status of the command:  
   
@@ -210,13 +210,13 @@ You can create menu commands by deriving either from \<xref:System.ComponentMode
   
     -   If the command uses the `TEXTCHANGES` flag, set the `rgwz` element of the `pCmdText` parameter to the new text of the command and set the `cwActual` element of the `pCmdText` parameter to the size of the command string.  
   
-     For error conditions, the \<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus*> method must handle the following error cases:  
+     For error conditions, the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus*> method must handle the following error cases:  
   
     -   If the GUID is unknown or not supported, return `OLECMDERR_E_UNKNOWNGROUP`.  
   
     -   If the GUID is known but the command ID is unknown or not supported, return `OLECMDERR_E_NOTSUPPORTED`.  
   
- The VSPackage implementation of the \<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.Exec*> method must also return specific error codes, depending on whether the command is supported and whether the command was handled successfully.  
+ The VSPackage implementation of the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.Exec*> method must also return specific error codes, depending on whether the command is supported and whether the command was handled successfully.  
   
 ##### To implement the Exec method  
   
@@ -224,7 +224,7 @@ You can create menu commands by deriving either from \<xref:System.ComponentMode
   
 -   If the `GUID` is known but the command ID is unknown, return `OLECMDERR_E_NOTSUPPORTED`.  
   
--   If the `GUID` and command ID match the GUID:ID pair that is used by the command in the .vsct file, execute the code that is associated with the command and return \<xref:Microsoft.VisualStudio.VSConstants.S_OK>.  
+-   If the `GUID` and command ID match the GUID:ID pair that is used by the command in the .vsct file, execute the code that is associated with the command and return <xref:Microsoft.VisualStudio.VSConstants.S_OK>.  
   
 ## See Also  
  [VSCT XML Schema Reference](../extensibility/vsct-xml-schema-reference.md)   

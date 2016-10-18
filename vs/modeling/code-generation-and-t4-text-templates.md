@@ -1,7 +1,7 @@
 ---
 title: "Code Generation and T4 Text Templates"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na

@@ -1,7 +1,7 @@
 ---
 title: "IDiaEnumInjectedSources"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -47,7 +47,7 @@ IDiaEnumInjectedSources : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[IDiaEnumInjectedSources::get__NewEnum](../debugger/idiaenuminjectedsources--get__newenum.md)|Retrieves the [IEnumVARIANT Interface](http://msdn.microsoft.com/139e3c93-faef-4003-9079-e0e94494db3e) version of this enumerator.|  
+|[IDiaEnumInjectedSources::get__NewEnum](../debugger/idiaenuminjectedsources--get__newenum.md)|Retrieves the [IEnumVARIANT Interface](http://msdn.microsoft.com/en-us/139e3c93-faef-4003-9079-e0e94494db3e) version of this enumerator.|  
 |[IDiaEnumInjectedSources::get_Count](../debugger/idiaenuminjectedsources--get_count.md)|Retrieves the number of injected sources.|  
 |[IDiaEnumInjectedSources::Item](../debugger/idiaenuminjectedsources--item.md)|Retrieves an injected source by means of an index.|  
 |[IDiaEnumInjectedSources::Next](../debugger/idiaenuminjectedsources--next.md)|Retrieves a specified number of injected sources in the enumeration sequence.|  

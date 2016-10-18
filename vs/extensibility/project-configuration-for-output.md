@@ -1,7 +1,7 @@
 ---
 title: "Project Configuration for Output"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -33,7 +33,7 @@ translation.priority.mt:
 # Project Configuration for Output
 Every configuration can support a set of build processes that produce output items such as executable or resource files. These output items are private to the user and can be placed in groups that link related types of output such as executable files (.exe, .dll, .lib) and source files (.idl, .h files).  
   
- Output items can be made available through the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsOutput2> methods and enumerated with the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsEnumOutputs> methods. When you want to group output items, your project should also implement the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsOutputGroup> interface.  
+ Output items can be made available through the <xref:Microsoft.VisualStudio.Shell.Interop.IVsOutput2> methods and enumerated with the <xref:Microsoft.VisualStudio.Shell.Interop.IVsEnumOutputs> methods. When you want to group output items, your project should also implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsOutputGroup> interface.  
   
  The construct developed by implementing `IVsOutputGroup` allows projects to group outputs according to usage. For instance, a DLL might be grouped with its program database (PDB).  
   
@@ -49,11 +49,11 @@ Every configuration can support a set of build processes that produce output ite
  ![Output Groups graphic](../extensibility/media/vsoutputgroups.gif "vsOutputGroups")  
 Output groups  
   
- The primary use of the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectCfg> interface is to provide access to build, deploy and debug management objects and allow projects the freedom to group outputs. For more information on the use of this interface, see [Project Configuration Object](../extensibility/project-configuration-object.md).  
+ The primary use of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectCfg> interface is to provide access to build, deploy and debug management objects and allow projects the freedom to group outputs. For more information on the use of this interface, see [Project Configuration Object](../extensibility/project-configuration-object.md).  
   
  In the previous diagram, Group Built has a key output across configurations (either bD.exe or b.exe) so the user can create a shortcut to Built and know that the shortcut will work regardless of the configuration deployed. Group Source does not have a key output, so the user cannot create a shortcut to it. If the Debug Group Built has a key output, but the Retail Group Built does not, that would be an incorrect implementation. It follows, then, that if any configuration has a group that contains no outputs, and, as a result, no key file, then other configurations with that group that do contain outputs cannot have key files. The installer editors assume that canonical names and display names of groups, plus the existence of a key file, do not change based in configurations.  
   
- Note that if a project has an `IVsOutputGroup` that it does not want to package or deploy, it is sufficient to not put that output in a group. The output can still be enumerated normally by implementing the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectCfg.EnumOutputs*> method that returns all of a configuration's outputs regardless of grouping.  
+ Note that if a project has an `IVsOutputGroup` that it does not want to package or deploy, it is sufficient to not put that output in a group. The output can still be enumerated normally by implementing the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectCfg.EnumOutputs*> method that returns all of a configuration's outputs regardless of grouping.  
   
  For more information, see the implementation of `IVsOutputGroup` in the Custom Project sample at [MPF for Projects](http://mpfproj12.codeplex.com).  
   

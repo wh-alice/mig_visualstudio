@@ -1,7 +1,7 @@
 ---
 title: "Class &#39;&lt;classname&gt;&#39; has no accessible &#39;Sub New&#39; and cannot be inherited"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,7 +39,7 @@ A class uses an [Inherits Statement](../Topic/Inherits%20Statement.md) to specif
   
  This can happen if the intended base class has no constructors or if it has constructors with access levels that prevent access from another class.  
   
- When you inherit a class, your constructor should call the base class constructor using [MyBase - delete](http://msdn.microsoft.com/52491d06-6451-4f6f-9aa6-8fab59bbc2b9). If you do not make this call, or if you do not even write an explicit constructor, Visual Basic generates an implicit constructor that calls `MyBase.New()`.  
+ When you inherit a class, your constructor should call the base class constructor using [MyBase - delete](http://msdn.microsoft.com/en-us/52491d06-6451-4f6f-9aa6-8fab59bbc2b9). If you do not make this call, or if you do not even write an explicit constructor, Visual Basic generates an implicit constructor that calls `MyBase.New()`.  
   
  **Error ID:** BC31399  
   
@@ -52,6 +52,6 @@ A class uses an [Inherits Statement](../Topic/Inherits%20Statement.md) to specif
 ## See Also  
  [Inherits Statement](../Topic/Inherits%20Statement.md)   
  [Inheritance Basics](../Topic/Inheritance%20Basics%20\(Visual%20Basic\).md)   
- [MyBase - delete](http://msdn.microsoft.com/52491d06-6451-4f6f-9aa6-8fab59bbc2b9)   
+ [MyBase - delete](http://msdn.microsoft.com/en-us/52491d06-6451-4f6f-9aa6-8fab59bbc2b9)   
  [New Operator](../Topic/New%20Operator%20\(Visual%20Basic\).md)   
  [Access Levels in Visual Basic](../Topic/Access%20Levels%20in%20Visual%20Basic.md)

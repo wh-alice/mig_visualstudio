@@ -1,7 +1,7 @@
 ---
 title: "Partial method &#39;&lt;methodname&gt;&#39; cannot use the &#39;Implements&#39; keyword"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -45,4 +45,4 @@ A partial method definition cannot implement an interface or interface member.
   
 ## See Also  
  [Partial Methods](../Topic/Partial%20Methods%20\(Visual%20Basic\).md)   
- [NOT IN BUILD: Implements Keyword and Implements Statement](http://msdn.microsoft.com/b96560f7-6413-480f-a1e2-f80253bab5be)
+ [NOT IN BUILD: Implements Keyword and Implements Statement](http://msdn.microsoft.com/en-us/b96560f7-6413-480f-a1e2-f80253bab5be)

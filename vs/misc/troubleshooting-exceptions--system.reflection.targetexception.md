@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.Reflection.TargetException"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -36,8 +36,8 @@ translation.priority.mt:
 The exception that is thrown when an attempt is made to invoke an invalid target.  
   
 ## Remarks  
- A \<xref:System.Reflection.TargetException> is thrown when an attempt is made to invoke a non-static method on a null object. This may occur because the caller does not have access to the member, or because the target does not define the member, or similar circumstances.  
+ A <xref:System.Reflection.TargetException> is thrown when an attempt is made to invoke a non-static method on a null object. This may occur because the caller does not have access to the member, or because the target does not define the member, or similar circumstances.  
   
 ## See Also  
- \<xref:System.Reflection.TargetException>   
+ <xref:System.Reflection.TargetException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

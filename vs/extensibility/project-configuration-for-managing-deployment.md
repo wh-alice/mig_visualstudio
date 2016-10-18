@@ -1,7 +1,7 @@
 ---
 title: "Project Configuration for Managing Deployment"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,11 +44,11 @@ Deployment is the act of physically moving the output items from a build process
   
  The Remote Deploy Wizard asks you for the type of application (Windows or Web), the project output groups to include, any additional files you want to include, and the remote computer you want to deploy to. The last page of the wizard displays a summary of the selected options.  
   
- Projects that are the subject of a deployment process produce output items that must be moved to an alternate environment. These output items are described as parameters for the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectCfg2> interface, whose primary purpose if to allow projects to group outputs. For more information relating to the implementation of `IVsProjectCfg2`, see [Project Configuration for Output](../extensibility/project-configuration-for-output.md).  
+ Projects that are the subject of a deployment process produce output items that must be moved to an alternate environment. These output items are described as parameters for the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectCfg2> interface, whose primary purpose if to allow projects to group outputs. For more information relating to the implementation of `IVsProjectCfg2`, see [Project Configuration for Output](../extensibility/project-configuration-for-output.md).  
   
- Deployment projects, which manage the deployment process, enable the Deploy command and respond when this command is selected. Deployment projects implement the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployableProjectCfg> interface to perform the deployment and make calls to the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployStatusCallback> interface to report deploy status events.  
+ Deployment projects, which manage the deployment process, enable the Deploy command and respond when this command is selected. Deployment projects implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployableProjectCfg> interface to perform the deployment and make calls to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployStatusCallback> interface to report deploy status events.  
   
- Configurations can specify dependencies that affect their build or deployment operations. Build or deploy dependencies are projects that must either be built or deployed before or after the configurations themselves are built or deployed. Build dependencies between projects are described with the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildDependency> interface and deploy dependencies with the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployDependency> interface. For more information, see [Project Configuration for Building](../extensibility/project-configuration-for-building.md).  
+ Configurations can specify dependencies that affect their build or deployment operations. Build or deploy dependencies are projects that must either be built or deployed before or after the configurations themselves are built or deployed. Build dependencies between projects are described with the <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildDependency> interface and deploy dependencies with the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployDependency> interface. For more information, see [Project Configuration for Building](../extensibility/project-configuration-for-building.md).  
   
 ## See Also  
  [Managing Configuration Options](../extensibility/managing-configuration-options.md)   

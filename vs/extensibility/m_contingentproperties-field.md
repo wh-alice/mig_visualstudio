@@ -1,7 +1,7 @@
 ---
 title: "m_contingentProperties Field"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -31,9 +31,9 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # m_contingentProperties Field
-Stores additional properties of the \<xref:System.Threading.Tasks.Task> object.  
+Stores additional properties of the <xref:System.Threading.Tasks.Task> object.  
   
- **Namespace:** \<xref:System.Threading.Tasks?displayProperty=fullName>  
+ **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>  
   
  **Assembly:** mscorlib (in mscorlib.dll)  
   

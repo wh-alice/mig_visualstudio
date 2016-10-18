@@ -1,7 +1,7 @@
 ---
 title: "Import of type &#39;&lt;typename&gt;&#39; from assembly or module &#39;&lt;name&gt;&#39; failed"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na

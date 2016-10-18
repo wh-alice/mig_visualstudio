@@ -1,7 +1,7 @@
 ---
 title: "Assembly Information Dialog Box"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/17/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,37 +39,37 @@ The **Assembly Information** dialog box is used to specify the values of the [!I
   
 ## UIElement List  
  **Title**  
- Specifies a title for the assembly manifest. Corresponds to \<xref:System.Reflection.AssemblyTitleAttribute>.  
+ Specifies a title for the assembly manifest. Corresponds to <xref:System.Reflection.AssemblyTitleAttribute>.  
   
  **Description**  
- Specifies an optional description for the assembly manifest. Corresponds to \<xref:System.Reflection.AssemblyDescriptionAttribute>.  
+ Specifies an optional description for the assembly manifest. Corresponds to <xref:System.Reflection.AssemblyDescriptionAttribute>.  
   
  **Company**  
- Specifies a company name for the assembly manifest. Corresponds to \<xref:System.Reflection.AssemblyCompanyAttribute>.  
+ Specifies a company name for the assembly manifest. Corresponds to <xref:System.Reflection.AssemblyCompanyAttribute>.  
   
  **Product**  
- Specifies a product name for the assembly manifest. Corresponds to \<xref:System.Reflection.AssemblyProductAttribute>.  
+ Specifies a product name for the assembly manifest. Corresponds to <xref:System.Reflection.AssemblyProductAttribute>.  
   
  **Copyright**  
- Specifies a copyright notice for the assembly manifest. Corresponds to \<xref:System.Reflection.AssemblyCopyrightAttribute>.  
+ Specifies a copyright notice for the assembly manifest. Corresponds to <xref:System.Reflection.AssemblyCopyrightAttribute>.  
   
  **Trademark**  
- Specifies a trademark for the assembly manifest. Corresponds to \<xref:System.Reflection.AssemblyTrademarkAttribute>.  
+ Specifies a trademark for the assembly manifest. Corresponds to <xref:System.Reflection.AssemblyTrademarkAttribute>.  
   
  **Assembly Version**  
- Specifies the version of the assembly. Corresponds to \<xref:System.Reflection.AssemblyVersionAttribute>.  
+ Specifies the version of the assembly. Corresponds to <xref:System.Reflection.AssemblyVersionAttribute>.  
   
  **File Version**  
- Specifies a version number that instructs the compiler to use a specific version for the Win32 file version resource. Corresponds to \<xref:System.Reflection.AssemblyFileVersionAttribute>.  
+ Specifies a version number that instructs the compiler to use a specific version for the Win32 file version resource. Corresponds to <xref:System.Reflection.AssemblyFileVersionAttribute>.  
   
  **GUID**  
- A unique GUID that identifies the assembly. When you create a project, Visual Studio generates a GUID for the assembly. Corresponds to \<xref:System.Guid>.  
+ A unique GUID that identifies the assembly. When you create a project, Visual Studio generates a GUID for the assembly. Corresponds to <xref:System.Guid>.  
   
  **Neutral Language**  
- Specifies which culture the assembly supports. Corresponds to \<xref:System.Resources.NeutralResourcesLanguageAttribute>. The default is **(None)**.  
+ Specifies which culture the assembly supports. Corresponds to <xref:System.Resources.NeutralResourcesLanguageAttribute>. The default is **(None)**.  
   
  **Make assembly COM-Visible**  
- Specifies whether types in the assembly will be available to COM. Corresponds to \<xref:System.Runtime.InteropServices.ComVisibleAttribute>.  
+ Specifies whether types in the assembly will be available to COM. Corresponds to <xref:System.Runtime.InteropServices.ComVisibleAttribute>.  
   
 ## See Also  
  [Application Page, Project Designer (Visual Basic)](../reference/application-page--project-designer--visual-basic-.md)   

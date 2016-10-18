@@ -1,7 +1,7 @@
 ---
 title: "Bind WPF controls to a dataset"
 ms.custom: na
-ms.date: "10/11/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -62,7 +62,7 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
 -   Datasets and TableAdapters. For more information, see [Dataset tools in Visual Studio](../datatools/dataset-tools-in-visual-studio.md) and [TableAdapter Overview](../datatools/tableadapter-overview.md).  
   
--   Working with the WPF Designer. For more information, see [WPF and Silverlight Designer Overview](http://msdn.microsoft.com/570b7a5c-0c86-4326-a371-c9b63378fc62).  
+-   Working with the WPF Designer. For more information, see [WPF and Silverlight Designer Overview](http://msdn.microsoft.com/en-us/570b7a5c-0c86-4326-a371-c9b63378fc62).  
   
 -   WPF data binding. For more information, see [Data Binding Overview](../Topic/Data%20Binding%20Overview.md).  
   
@@ -201,7 +201,7 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
 1.  In the designer, double-click the **<** button on the window surface.  
   
-     Visual Studio opens the code-behind file, and creates a new `backButton_Click` event handler for the \<xref:System.Windows.Controls.Primitives.ButtonBase.Click> event.  
+     Visual Studio opens the code-behind file, and creates a new `backButton_Click` event handler for the <xref:System.Windows.Controls.Primitives.ButtonBase.Click> event.  
   
 2.  Modify the `Window_Loaded` event handler, so the `ProductViewSource`, `AdventureWorksLTDataSet`, and `AdventureWorksLTDataSetProductTableAdapter` are outside of the method and accessible to the entire form. Declare only these to be global to the form, and assign them within the `Window_Loaded` event handler similar to the following:  
   
@@ -227,7 +227,7 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
 1.  In the designer, double-click the **Save changes** button.  
   
-     Visual Studio opens the code-behind file, and creates a new `saveButton_Click` event handler for the \<xref:System.Windows.Controls.Primitives.ButtonBase.Click> event.  
+     Visual Studio opens the code-behind file, and creates a new `saveButton_Click` event handler for the <xref:System.Windows.Controls.Primitives.ButtonBase.Click> event.  
   
 2.  Add the following code to the `saveButton_Click` event handler:  
   
@@ -269,5 +269,5 @@ In this walkthrough, you will create a WPF application that contains data-bound 
  [Bind WPF controls to data in Visual Studio](../datatools/bind-wpf-controls-to-data-in-visual-studio1.md)   
  [Bind WPF controls to data in Visual Studio](../datatools/bind-wpf-controls-to-data-in-visual-studio2.md)   
  [Dataset tools in Visual Studio](../datatools/dataset-tools-in-visual-studio.md)   
- [WPF and Silverlight Designer Overview](http://msdn.microsoft.com/570b7a5c-0c86-4326-a371-c9b63378fc62)   
+ [WPF and Silverlight Designer Overview](http://msdn.microsoft.com/en-us/570b7a5c-0c86-4326-a371-c9b63378fc62)   
  [Data Binding Overview](../Topic/Data%20Binding%20Overview.md)

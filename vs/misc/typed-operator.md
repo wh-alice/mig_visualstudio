@@ -1,7 +1,7 @@
 ---
 title: "typed operator"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,6 +37,6 @@ translation.priority.mt:
 # typed operator
 The `typeid` operator is supported in both ISO C++ and in C++ Component Extensions. For more information, see:  
   
- [typeid (ISO C++)](http://msdn.microsoft.com/3dbe7b36-124e-49ba-8570-ec3cc92b2595)  
+ [typeid (ISO C++)](http://msdn.microsoft.com/en-us/3dbe7b36-124e-49ba-8570-ec3cc92b2595)  
   
  [typeid](../Topic/typeid%20%20\(C++%20Component%20Extensions\).md)

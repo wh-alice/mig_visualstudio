@@ -1,7 +1,7 @@
 ---
 title: "MSBuild Inline Tasks"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -31,7 +31,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # MSBuild Inline Tasks
-MSBuild tasks are typically created by compiling a class that implements the \<xref:Microsoft.Build.Framework.ITask> interface. For more information, see [Tasks](../reference/msbuild-tasks.md).  
+MSBuild tasks are typically created by compiling a class that implements the <xref:Microsoft.Build.Framework.ITask> interface. For more information, see [Tasks](../reference/msbuild-tasks.md).  
   
  Starting in .NET Framework version 4, you can create tasks inline in the project file. You do not have to create a separate assembly to host the task. This makes it easier to keep track of source code and easier to deploy the task. The source code is integrated into the script.  
   
@@ -86,9 +86,9 @@ MSBuild tasks are typically created by compiling a class that implements the \<x
   
  The `Type` attribute specifies the type of code that is found in the `Code` element.  
   
--   If the value of `Type` is `Class`, then the `Code` element contains code for a class that derives from the \<xref:Microsoft.Build.Framework.ITask> interface.  
+-   If the value of `Type` is `Class`, then the `Code` element contains code for a class that derives from the <xref:Microsoft.Build.Framework.ITask> interface.  
   
--   If the value of `Type` is `Method`, then the code defines an override of the `Execute` method of the \<xref:Microsoft.Build.Framework.ITask> interface.  
+-   If the value of `Type` is `Method`, then the code defines an override of the `Execute` method of the <xref:Microsoft.Build.Framework.ITask> interface.  
   
 -   If the value of `Type` is `Fragment`, then the code defines the contents of the `Execute` method, but not the signature or the `return` statement.  
   

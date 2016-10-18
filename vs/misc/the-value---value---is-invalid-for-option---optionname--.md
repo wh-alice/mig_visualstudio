@@ -1,7 +1,7 @@
 ---
 title: "the value &#39;&lt;value&gt;&#39; is invalid for option &#39;&lt;optionname&gt;&#39;"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,4 +44,4 @@ A value was supplied for a command line option that was not valid.
 1.  Check values to find the one that is not valid.  
   
 ## See Also  
- [NOT IN BUILD: Switch Function](http://msdn.microsoft.com/8320196c-ad40-49d5-a9b8-d1af5dab652f)
+ [NOT IN BUILD: Switch Function](http://msdn.microsoft.com/en-us/8320196c-ad40-49d5-a9b8-d1af5dab652f)

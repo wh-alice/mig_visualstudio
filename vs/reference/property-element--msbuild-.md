@@ -1,7 +1,7 @@
 ---
 title: "Property Element (MSBuild)"
 ms.custom: na
-ms.date: "10/12/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "<Property> Element [MSBuild]"
   - "Property Element [MSBuild]"
 ms.assetid: 69ab08ab-3e76-41dd-a01b-49aa1d2e0cac
-caps.latest.revision: 15
+caps.latest.revision: 16
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -37,106 +37,54 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Property Element (MSBuild)
-\<?xml version="1.0" encoding="utf-8"?>
-\<developerXmlReference xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ddue.schemas.microsoft.com/authoring/2003/5 http://clixdevr3.blob.core.windows.net/ddueschema/developer.xsd">
-  <introduction>
-    <para>Contains a user defined property name and value. Every property used in an <token>vstecmsbuild</token> project must be specified as a child of a <unmanagedCodeEntityReference>PropertyGroup</unmanagedCodeEntityReference> element.</para>
-  </introduction>
-  <schemaHierarchy>
-    \<link xlink:href="">&lt;Project&gt;</link>
-    \<link xlink:href="">    &lt;PropertyGroup&gt;</link>
-  </schemaHierarchy>
-  <syntaxSection>
-    <legacySyntax>&lt;<parameterReference>Property </parameterReference>Condition="'String A' == 'String B'"&gt;
-    Property Value
-&lt;/<parameterReference>Property</parameterReference>&gt;</legacySyntax>
-  </syntaxSection>
-  <attributesandElements>
-    <para>The following sections describe attributes, child elements, and parent elements.</para>
-    <attributes>
-      \<table xmlns:caps="http://schemas.microsoft.com/build/caps/2013/11">
-        <thead>
-          <tr>
-            <TD>
-              <para>Attribute</para>
-            </TD>
-            <TD>
-              <para>Description</para>
-            </TD>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <TD>
-              <para>
-                <unmanagedCodeEntityReference>Condition</unmanagedCodeEntityReference>
-              </para>
-            </TD>
-            <TD>
-              <para>Optional attribute.</para>
-              <para>Condition to be evaluated. For more information, see \<link xlink:href="9d7aa308-b667-48ed-b4c9-a61e49eb0a85">MSBuild Conditions</link>.</para>
-            </TD>
-          </tr>
-        </tbody>
-      </table>
-    </attributes>
-    <childElement>
-      <para>None.</para>
-    </childElement>
-    <parentElement>
-      \<table xmlns:caps="http://schemas.microsoft.com/build/caps/2013/11">
-        <thead>
-          <tr>
-            <TD>
-              <para>Element</para>
-            </TD>
-            <TD>
-              <para>Description</para>
-            </TD>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <TD>
-              <para>
-                \<legacyLink xlink:href="ff1e6c68-b9a1-4263-a1ce-dc3b829a64d4">PropertyGroup</legacyLink>
-              </para>
-            </TD>
-            <TD>
-              <para>Grouping element for properties.</para>
-            </TD>
-          </tr>
-        </tbody>
-      </table>
-    </parentElement>
-  </attributesandElements>
-  <textValue>
-    <content>
-      <para>A text value is optional.</para>
-      <para>This text specifies the property value and may contain XML.</para>
-    </content>
-  </textValue>
-  <remarks>
-    <content>
-      <para>Property names are limited to ASCII chars only. Property values are referenced in the project by placing the property name between "<codeInline>$(</codeInline>" and "<codeInline>)</codeInline>". For example, <codeInline>$(builddir)\classes</codeInline> would resolve to "build\classes", if the <codeInline>builddir</codeInline> property had the value <codeInline>build</codeInline>. For more information on properties, see MSBuild Properties.</para>
-    </content>
-  </remarks>
-  <codeExample>
-    <description>
-      <content>
-        <para>The following code sets the <codeInline>Optimization</codeInline> property to <codeInline>false</codeInline> and the <codeInline>DefaultVersion</codeInline> property to <codeInline>1.0</codeInline> if the <codeInline>Version</codeInline> property is empty.</para>
-      </content>
-    </description>
-    <code>&lt;PropertyGroup&gt;
-    &lt;Optimization&gt;false&lt;/Optimization&gt;
-    &lt;DefaultVersion Condition="'$(Version)' == ''" &gt;1.0&lt;/DefaultVersion&gt;
-&lt;/PropertyGroup&gt;</code>
-    <comments>
-      <content />
-    </comments>
-  </codeExample>
-  <relatedTopics>
-
-\<link xlink:href="d9a68146-1f43-4621-ac78-2c8c3f400936">MSBuild File Format</link>
-</relatedTopics>
-</developerXmlReference>
+Contains a user defined property name and value. Every property used in an [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] project must be specified as a child of a `PropertyGroup` element.  
+  
+ \<Project>  
+ \<PropertyGroup>  
+  
+## Syntax  
+  
+```  
+<Property Condition="'String A' == 'String B'">  
+    Property Value  
+</Property>  
+```  
+  
+## Attributes and Elements  
+ The following sections describe attributes, child elements, and parent elements.  
+  
+### Attributes  
+  
+|Attribute|Description|  
+|---------------|-----------------|  
+|`Condition`|Optional attribute.<br /><br /> Condition to be evaluated. For more information, see [Conditions](../reference/msbuild-conditions.md).|  
+  
+### Child Elements  
+ None.  
+  
+### Parent Elements  
+  
+|Element|Description|  
+|-------------|-----------------|  
+|[PropertyGroup](../reference/propertygroup-element--msbuild-.md)|Grouping element for properties.|  
+  
+## Text Value  
+ A text value is optional.  
+  
+ This text specifies the property value and may contain XML.  
+  
+## Remarks  
+ Property names are limited to ASCII chars only. Property values are referenced in the project by placing the property name between "`$(`" and "`)`". For example, `$(builddir)\classes` would resolve to "build\classes", if the `builddir` property had the value `build`. For more information on properties, see MSBuild Properties.  
+  
+## Example  
+ The following code sets the `Optimization` property to `false` and the `DefaultVersion` property to `1.0` if the `Version` property is empty.  
+  
+```  
+<PropertyGroup>  
+    <Optimization>false</Optimization>  
+    <DefaultVersion Condition="'$(Version)' == ''" >1.0</DefaultVersion>  
+</PropertyGroup>  
+```  
+  
+## See Also  
+ [Project File Schema Reference](../reference/msbuild-project-file-schema-reference.md)

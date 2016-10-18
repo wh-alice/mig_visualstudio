@@ -1,7 +1,7 @@
 ---
 title: "&#39;Using&#39; operand of type &#39;&lt;typename&gt;&#39; must implement System.IDisposable"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -35,17 +35,17 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # &#39;Using&#39; operand of type &#39;&lt;typename&gt;&#39; must implement System.IDisposable
-A `Using` statement specifies a resource of a type that does not implement the \<xref:System.IDisposable> interface.  
+A `Using` statement specifies a resource of a type that does not implement the <xref:System.IDisposable> interface.  
   
- The purpose of a `Using` block is to guarantee the disposal of a system resource when exiting the block. To satisfy this purpose, the resource must expose the \<xref:System.IDisposable.Dispose*> method implemented from \<xref:System.IDisposable>.  
+ The purpose of a `Using` block is to guarantee the disposal of a system resource when exiting the block. To satisfy this purpose, the resource must expose the <xref:System.IDisposable.Dispose*> method implemented from <xref:System.IDisposable>.  
   
  **Error ID:** BC36010  
   
 ### To correct this error  
   
--   Remove the resource from the resource list of the `Using` statement, or replace it with a resource that implements \<xref:System.IDisposable>.  
+-   Remove the resource from the resource list of the `Using` statement, or replace it with a resource that implements <xref:System.IDisposable>.  
   
 ## See Also  
- \<xref:System.IDisposable>   
+ <xref:System.IDisposable>   
  [Using Statement](../Topic/Using%20Statement%20\(Visual%20Basic\).md)   
  [How to: Dispose of a System Resource](../Topic/How%20to:%20Dispose%20of%20a%20System%20Resource%20\(Visual%20Basic\).md)

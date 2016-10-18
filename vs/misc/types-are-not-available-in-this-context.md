@@ -1,7 +1,7 @@
 ---
 title: "Types are not available in this context"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -45,4 +45,4 @@ You attempted to reference a type within an `#If` directive.
   
 ## See Also  
  [#If...Then...#Else Directives](../Topic/%23If...Then...%23Else%20Directives.md)   
- [NOTINBUILD Conditional Compilation (Visual Basic)](http://msdn.microsoft.com/ad1e35e0-935e-4a35-a2ae-738bcf2a9240)
+ [NOTINBUILD Conditional Compilation (Visual Basic)](http://msdn.microsoft.com/en-us/ad1e35e0-935e-4a35-a2ae-738bcf2a9240)

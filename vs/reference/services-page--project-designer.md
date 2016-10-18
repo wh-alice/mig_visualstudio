@@ -1,7 +1,7 @@
 ---
 title: "Services Page, Project Designer"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -66,7 +66,7 @@ Client application services provide simplified access to [!INCLUDE[ajax_current_
  Used only with forms authentication. Specifies the location of the authentication service.  
   
  **Optional: Credentials provider**  
- Used only with forms authentication. Indicates the \<xref:System.Web.ClientServices.Providers.IClientFormsAuthenticationCredentialsProvider> implementation that the authentication service will use to display a login dialog box when your application calls the `static`\<xref:System.Web.Security.Membership.ValidateUser*?displayProperty=fullName> method and passes empty strings or `null` for the parameters. If you leave this box blank, you must pass a valid user name and password to the \<xref:System.Web.Security.Membership.ValidateUser*?displayProperty=fullName> method. You must specify the credentials provider as an assembly-qualified type name. For more information, see \<xref:System.Type.AssemblyQualifiedName*?displayProperty=fullName> and [Assembly Names](../Topic/Assembly%20Names.md). In its simplest form, an assembly-qualified type name looks similar to the following example: `MyNamespace.MyLoginClass, MyAssembly`  
+ Used only with forms authentication. Indicates the <xref:System.Web.ClientServices.Providers.IClientFormsAuthenticationCredentialsProvider> implementation that the authentication service will use to display a login dialog box when your application calls the `static`<xref:System.Web.Security.Membership.ValidateUser*?displayProperty=fullName> method and passes empty strings or `null` for the parameters. If you leave this box blank, you must pass a valid user name and password to the <xref:System.Web.Security.Membership.ValidateUser*?displayProperty=fullName> method. You must specify the credentials provider as an assembly-qualified type name. For more information, see <xref:System.Type.AssemblyQualifiedName*?displayProperty=fullName> and [Assembly Names](../Topic/Assembly%20Names.md). In its simplest form, an assembly-qualified type name looks similar to the following example: `MyNamespace.MyLoginClass, MyAssembly`  
   
  **Roles service location**  
  Specifies the location of the roles service.  
@@ -83,4 +83,4 @@ Client application services provide simplified access to [!INCLUDE[ajax_current_
  [How to: Configure Client Application Services](../Topic/How%20to:%20Configure%20Client%20Application%20Services.md)   
  [Compile Page, Project Designer (Visual Basic)](../reference/compile-page--project-designer--visual-basic-.md)   
  [Build Page, Project Designer (C#)](../reference/build-page--project-designer--csharp-.md)   
- [Introduction to the Project Designer](http://msdn.microsoft.com/898dd854-c98d-430c-ba1b-a913ce3c73d7)
+ [Introduction to the Project Designer](http://msdn.microsoft.com/en-us/898dd854-c98d-430c-ba1b-a913ce3c73d7)

@@ -1,7 +1,7 @@
 ---
 title: "&#39;SyncLock&#39; operand cannot be of type &#39;&lt;typename&gt;&#39; because &#39;&lt;typename&gt;&#39; is not a reference type"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -45,4 +45,4 @@ The `SyncLock` statement allows statements to be synchronized on a single expres
   
 ## See Also  
  [SyncLock Statement](../Topic/SyncLock%20Statement.md)   
- [NOT IN BUILD: Multithreading in Visual Basic](http://msdn.microsoft.com/c731a50c-09c1-4468-9646-54c86b75d269)
+ [NOT IN BUILD: Multithreading in Visual Basic](http://msdn.microsoft.com/en-us/c731a50c-09c1-4468-9646-54c86b75d269)

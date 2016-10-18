@@ -1,7 +1,7 @@
 ---
 title: "Properties of Domain Properties"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -34,7 +34,7 @@ A *domain property* is a feature of a model element that can hold a value. For e
 |--------------|-----------------|-------------------|  
 |**Description**|The description that is used to document the user interface (UI) of the generated designer.|\<none>|  
 |**Display Name**|The name that will be displayed in the generated designer for this domain property. It can contain spaces and punctuation, for example "Song Title".|\<none>|  
-|**Element Name Provider**|This is applicable only if you have set `Is Element Name` to `true`. You can write code that provides a name for a new element of a domain class, overriding the default behavior.<br /><br /> In a code file in the DSL project, create a class that is derived from \<xref:Microsoft.VisualStudio.Modeling.ElementNameProvider>.<br /><br /> Then in DSL Explorer, right-click the root of the DSL, and click Add External Type. Enter the name of your class.<br /><br /> Select this domain property again, and select the name of the class in the drop-down list.|\<none>|  
+|**Element Name Provider**|This is applicable only if you have set `Is Element Name` to `true`. You can write code that provides a name for a new element of a domain class, overriding the default behavior.<br /><br /> In a code file in the DSL project, create a class that is derived from <xref:Microsoft.VisualStudio.Modeling.ElementNameProvider>.<br /><br /> Then in DSL Explorer, right-click the root of the DSL, and click Add External Type. Enter the name of your class.<br /><br /> Select this domain property again, and select the name of the class in the drop-down list.|\<none>|  
 |**Getter Access Modifier**|The level of access of the domain class (`public` or `internal`). This controls the scope in which program code can access the property.|`public`|  
 |**Help Keyword**|The optional keyword that is used to index F1 help for this domain property.|\<none>|  
 |**Is Browsable**|If `True`, the domain property is displayed to the user in the properties window when models of this DSL are open.<br /><br /> If `False`, the domain property is hidden in the UI.<br /><br /> If you want to make the domain property visible but read-only, set **Is UI Read Only**.|`True`|  
@@ -47,4 +47,4 @@ A *domain property* is a feature of a model element that can hold a value. For e
 |**Type**|The type of property. To add to the list of available types, right-click the root of the DSL in DSL explorer, and click **Add External Type**.|`String`|  
   
 ## See Also  
- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+ [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/en-us/ca5e84cb-a315-465c-be24-76aa3df276aa)

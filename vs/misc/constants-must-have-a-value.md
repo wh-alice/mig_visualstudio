@@ -1,7 +1,7 @@
 ---
 title: "Constants must have a value"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,5 +44,5 @@ You declared a constant without assigning it a value.
 -   Assign a value to the constant.  
   
 ## See Also  
- [NOTINBUILD Constants Overview](http://msdn.microsoft.com/5c7f57fb-48b2-4a2f-afee-79d8e3adf15b)   
+ [NOTINBUILD Constants Overview](http://msdn.microsoft.com/en-us/5c7f57fb-48b2-4a2f-afee-79d8e3adf15b)   
  [Constants and Enumerations](../Topic/Constants%20and%20Enumerations%20\(Visual%20Basic\).md)

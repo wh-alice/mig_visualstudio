@@ -54,7 +54,7 @@ Sometimes you might want to change the schema of the adapter's table. To do this
   
 1.  Open your dataset in the **Dataset Designer**.  
   
-2.  If you are creating a new query, drag a **Query** object from the **DataSet** tab of the **Toolbox** onto a \<xref:System.Data.DataTable>, or select **Add Query** from the TableAdapter's shortcut menu. You can also drag a **Query** object onto an empty area of the **Dataset Designer**, which creates a TableAdapter without an associated \<xref:System.Data.DataTable>. These queries are limited to returning single values (scalar), or executing UPDATE, INSERT, or DELETE commands against the database. For more information, see [How to: Add Global Queries to a TableAdapter](../datatools/how-to--add-global-queries-to-a-tableadapter.md).  
+2.  If you are creating a new query, drag a **Query** object from the **DataSet** tab of the **Toolbox** onto a <xref:System.Data.DataTable>, or select **Add Query** from the TableAdapter's shortcut menu. You can also drag a **Query** object onto an empty area of the **Dataset Designer**, which creates a TableAdapter without an associated <xref:System.Data.DataTable>. These queries are limited to returning single values (scalar), or executing UPDATE, INSERT, or DELETE commands against the database. For more information, see [How to: Add Global Queries to a TableAdapter](../datatools/how-to--add-global-queries-to-a-tableadapter.md).  
   
 3.  On the **Choose Your Data Connection** page select or create the connection the query will use.  
   
@@ -74,7 +74,7 @@ Sometimes you might want to change the schema of the adapter's table. To do this
 -   If you are editing an existing TableAdapter query, right-click the query, and choose **Configure** from the shortcut menu.  
   
     > [!NOTE]
-    >  Right-clicking the main query of a TableAdapter reconfigures the TableAdapter and \<xref:System.Data.DataTable> schema, whereas right-clicking an additional query on a TableAdapter only configures the selected query. The **TableAdapter Configuration Wizard** reconfigures the TableAdapter definition; the **TableAdapter Query Configuration Wizard** reconfigures only the selected query.  
+    >  Right-clicking the main query of a TableAdapter reconfigures the TableAdapter and <xref:System.Data.DataTable> schema, whereas right-clicking an additional query on a TableAdapter only configures the selected query. The **TableAdapter Configuration Wizard** reconfigures the TableAdapter definition; the **TableAdapter Query Configuration Wizard** reconfigures only the selected query.  
   
 ## Running the Wizard  
  Drag queries onto the **Dataset Designer**, or configure existing queries (any query listed below the first query).  
@@ -92,7 +92,7 @@ Sometimes you might want to change the schema of the adapter's table. To do this
  Saving connection strings in the application configuration file simplifies the process of maintaining your application if the database connection changes. In the event of a change in the database connection, you can edit the connection string in the application configuration file. That way, you do not have to edit the source code and recompile your application. For information on editing a connection string in the application configuration file, see [How to: Save and Edit Connection Strings](../Topic/How%20to:%20Save%20and%20Edit%20Connection%20Strings.md).  
   
 > [!IMPORTANT]
->  Information is stored in the application configuration file as plain text. To reduce the possibility of unauthorized access to sensitive information, you may want to encrypt your data. For more information, see [Encrypting and Decrypting Data](http://msdn.microsoft.com/22812ae8-e082-4eb1-a29b-21b6ee00c6b5).  
+>  Information is stored in the application configuration file as plain text. To reduce the possibility of unauthorized access to sensitive information, you may want to encrypt your data. For more information, see [Encrypting and Decrypting Data](http://msdn.microsoft.com/en-us/22812ae8-e082-4eb1-a29b-21b6ee00c6b5).  
   
 ## Use SQL Statements  
  This section explains how to complete the **TableAdapter Query Configuration Wizard** when selecting the **Use SQL statements** option.  

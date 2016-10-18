@@ -1,7 +1,7 @@
 ---
 title: "Edit UML sequence diagrams by using the UML API"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -31,7 +31,7 @@ translation.priority.ht:
 # Edit UML sequence diagrams by using the UML API
 An interaction is a sequence of messages between a set of lifelines. An interaction is displayed on a UML sequence diagram.  
   
- For full details of the API, see \<xref:Microsoft.VisualStudio.Uml.Interactions?displayProperty=fullName>.  
+ For full details of the API, see <xref:Microsoft.VisualStudio.Uml.Interactions?displayProperty=fullName>.  
   
  For a more general introduction to writing commands and gesture handlers for UML diagrams, see [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md).  
   
@@ -255,7 +255,7 @@ cf.CreateInteractionOperand(cf.Operands.Last(), true);
  Most other problems are caused by insertion points being misaligned, so that new messages or fragments would have to cross over others. The symptoms can be that no change is performed, or an exception is thrown. The exception might not be thrown until the `UpdateShapePositions()` or `Layout()` operation is performed.  
   
 ## See Also  
- \<xref:Microsoft.VisualStudio.Uml.Interactions?displayProperty=fullName>   
+ <xref:Microsoft.VisualStudio.Uml.Interactions?displayProperty=fullName>   
  [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md)   
  [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md)   
  [Define a custom modeling toolbox item](../modeling/define-a-custom-modeling-toolbox-item.md)   

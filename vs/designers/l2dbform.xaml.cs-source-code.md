@@ -1,7 +1,7 @@
 ---
 title: "L2DBForm.xaml.cs Source Code"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -47,7 +47,7 @@ This topic contains the contents and description of the C# source code in the fi
   
 -   The first conditional statement is used for input validation.  
   
--   The second statement creates a new \<xref:System.Xml.Linq.XElement> from the string values the user entered in the **Add New Book** user interface (UI) section.  
+-   The second statement creates a new <xref:System.Xml.Linq.XElement> from the string values the user entered in the **Add New Book** user interface (UI) section.  
   
 -   The last statement adds this new book element to the data provider in L2DBForm.xaml. Consequently, dynamic data binding will automatically update the UI with this new item; no extra user-supplied code is required.  
   

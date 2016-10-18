@@ -1,7 +1,7 @@
 ---
 title: "Project Context"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,7 +37,7 @@ When the user adds or works with projects and project items, the IDE uses the no
   
  Some projects provide a very rich context. For example, the project manages a project-scoped, programmatic namespace or project-scoped database connection for data binding. The user can frequently open files or database connections directly by using a particular project object, such as a project item displayed in Solution Explorer.  
   
- At other times, the project context of an item is not explicitly specified. For example, the context of an item is not available when the user opens a file by selecting the **Open Existing File** command on the **File** menu, when the debugger operates on a file, or when the user clicks the **Find In Files** command in the **Find and Replace** dialog box. To handle these situations, the IDE calls \<xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument> to manage the process of finding the best project to open a document.  
+ At other times, the project context of an item is not explicitly specified. For example, the context of an item is not available when the user opens a file by selecting the **Open Existing File** command on the **File** menu, when the debugger operates on a file, or when the user clicks the **Find In Files** command in the **Find and Replace** dialog box. To handle these situations, the IDE calls <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument> to manage the process of finding the best project to open a document.  
   
 ## See Also  
  [Project Priority](../extensibility/project-priority.md)   

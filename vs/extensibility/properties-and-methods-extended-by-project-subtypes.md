@@ -1,7 +1,7 @@
 ---
 title: "Properties and Methods Extended by Project Subtypes"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,14 +39,14 @@ A project subtype has a lot of power to influence the behavior of the project be
   
 |Methods Overridden by Aggregation|Project Subtype|  
 |---------------------------------------|---------------------|  
-|From \<xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy>:<br /><br /> \<xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.GetProperty*><br /><br /> \<xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.SetProperty*><br /><br /> \<xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.GetGuidProperty*><br /><br /> \<xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.SetGuidProperty*>|Enables a project subtype to<br /><br /> -   Change caption and icon of project node.<br />-   Completely override project `Browse` object.<br />-   Control whether project can be renamed.<br />-   Control sort order.<br />-   Control user context for dynamic help.|  
-|From \<xref:Microsoft.VisualStudio.Shell.Interop.IVsProject>:<br /><br /> \<xref:Microsoft.VisualStudio.Shell.Interop.IVsProject.GetItemContext*>|Enables a project subtype to control what contextual services are provided to designers and editors.|  
-|From \<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>:<br /><br /> \<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus*><br /><br /> \<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.Exec*><br /><br /> \<xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy.QueryStatusCommand*><br /><br /> \<xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy.ExecCommand*>|Enables a project subtype to<br /><br /> -   Participate in the command routing for project commands.<br />-   Add, remove, or disable both project ambient commands and Solution Explorer active commands.|  
-|\<xref:Microsoft.VisualStudio.Shell.Interop.IVsFilterAddProjectItemDlg2>|Enables the project subtype to filter what the user sees in the **Add New Item** dialog box.|  
-|\<xref:Microsoft.VisualStudio.Shell.Interop.IVsSingleFileGeneratorFactory>|Enables a project subtype to<br /><br /> -   Determine the default generator given a file extension.<br />-   Map a human readable generator name to a COM object.|  
+|From <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy>:<br /><br /> <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.GetProperty*><br /><br /> <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.SetProperty*><br /><br /> <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.GetGuidProperty*><br /><br /> <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.SetGuidProperty*>|Enables a project subtype to<br /><br /> -   Change caption and icon of project node.<br />-   Completely override project `Browse` object.<br />-   Control whether project can be renamed.<br />-   Control sort order.<br />-   Control user context for dynamic help.|  
+|From <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject>:<br /><br /> <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject.GetItemContext*>|Enables a project subtype to control what contextual services are provided to designers and editors.|  
+|From <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>:<br /><br /> <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus*><br /><br /> <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.Exec*><br /><br /> <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy.QueryStatusCommand*><br /><br /> <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy.ExecCommand*>|Enables a project subtype to<br /><br /> -   Participate in the command routing for project commands.<br />-   Add, remove, or disable both project ambient commands and Solution Explorer active commands.|  
+|<xref:Microsoft.VisualStudio.Shell.Interop.IVsFilterAddProjectItemDlg2>|Enables the project subtype to filter what the user sees in the **Add New Item** dialog box.|  
+|<xref:Microsoft.VisualStudio.Shell.Interop.IVsSingleFileGeneratorFactory>|Enables a project subtype to<br /><br /> -   Determine the default generator given a file extension.<br />-   Map a human readable generator name to a COM object.|  
   
 ## Properties Used by Project Subtypes  
- The environment and base project system can use the properties from \<xref:Microsoft.VisualStudio.Shell.Interop.__VSSPROPID> and \<xref:Microsoft.VisualStudio.Shell.Interop.__VSSPROPID2> enumerations detailed in the following table to enable a project subtype to control various features of the project system.  
+ The environment and base project system can use the properties from <xref:Microsoft.VisualStudio.Shell.Interop.__VSSPROPID> and <xref:Microsoft.VisualStudio.Shell.Interop.__VSSPROPID2> enumerations detailed in the following table to enable a project subtype to control various features of the project system.  
   
 |VSHPROPID property|Project Subtype|  
 |------------------------|---------------------|  
@@ -54,12 +54,12 @@ A project subtype has a lot of power to influence the behavior of the project be
 |`PropertyPagesCLSIDList`|Allows a project subtype to add or remove configuration-independent property pages.|  
 |`CfgPropertyPagesCLSIDList`|Allows a project subtype to add or remove configuration-dependent property pages.|  
 |`ExtObjectCATID`|Allows a project subtype to provide an Automation Extender for the project or project item objects by knowing the Extender CATID. For example, a project subtype can provide a custom `Project.Extender("<subtype>")` object.|  
-|`BrowseObjectCATID`|Allows a project subtype to provide an Automation Extender for the `Browse` object by knowing the Extender CATID. For example, a project subtype can add extra properties to the \<xref:EnvDTE.Project.Properties*> collection.|  
-|`CfgBrowseObjectCATID`|Allows a project subtype to provide an Automation Extender for the project configuration browse object. For example, a project subtype can add extra properties to the \<xref:EnvDTE.Configuration.Properties*> collection.|  
+|`BrowseObjectCATID`|Allows a project subtype to provide an Automation Extender for the `Browse` object by knowing the Extender CATID. For example, a project subtype can add extra properties to the <xref:EnvDTE.Project.Properties*> collection.|  
+|`CfgBrowseObjectCATID`|Allows a project subtype to provide an Automation Extender for the project configuration browse object. For example, a project subtype can add extra properties to the <xref:EnvDTE.Configuration.Properties*> collection.|  
 |`CfgExtObjectCATID`|Allows a project subtype to provide an Automation Extender for the configuration object.|  
 |`DefaultPlatformName`|Allows a project subtype to determine the platform name for the project's configuration objects.|  
   
- The base project provides a default implementation of the above properties. The base project gets these by calling `QueryInterface` for \<xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> on the outermost project subtype, thus allowing the project subtype to override the implementation of the properties.  
+ The base project provides a default implementation of the above properties. The base project gets these by calling `QueryInterface` for <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> on the outermost project subtype, thus allowing the project subtype to override the implementation of the properties.  
   
 ## See Also  
  [Project Subtypes Design](../extensibility/project-subtypes-design.md)

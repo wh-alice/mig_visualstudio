@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.Runtime.InteropServices.InvalidOleVariantTypeException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -38,5 +38,5 @@ translation.priority.mt:
 The exception that is thrown by the marshaler when it encounters an argument of a variant type that cannot be marshaled to managed code.  
   
 ## See Also  
- \<xref:System.Runtime.InteropServices.InvalidOleVariantTypeException>   
+ <xref:System.Runtime.InteropServices.InvalidOleVariantTypeException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

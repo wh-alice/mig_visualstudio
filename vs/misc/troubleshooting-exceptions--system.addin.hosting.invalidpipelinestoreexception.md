@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.AddIn.Hosting.InvalidPipelineStoreException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -33,13 +33,13 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.AddIn.Hosting.InvalidPipelineStoreException
-The \<xref:System.AddIn.Hosting.InvalidPipelineStoreException> exception is thrown when a directory is not found and the user does not have permission to access the pipeline root path or an add-in path.  
+The <xref:System.AddIn.Hosting.InvalidPipelineStoreException> exception is thrown when a directory is not found and the user does not have permission to access the pipeline root path or an add-in path.  
   
 ## Remarks  
- Unlike \<xref:System.IO.DirectoryNotFoundException>, this exception does not provide any path information. This prevents a malicious user from deliberately specifying erroneous paths and using the information returned by the exception to determine actual paths.  
+ Unlike <xref:System.IO.DirectoryNotFoundException>, this exception does not provide any path information. This prevents a malicious user from deliberately specifying erroneous paths and using the information returned by the exception to determine actual paths.  
   
- The exception is thrown by the following discovery methods that build and update the store of add-in and pipeline information: \<xref:System.AddIn.Hosting.AddInStore.FindAddIns*>,\<xref:System.AddIn.Hosting.AddInStore.Rebuild*>, \<xref:System.AddIn.Hosting.AddInStore.RebuildAddIns*>, \<xref:System.AddIn.Hosting.AddInStore.Update*>, and \<xref:System.AddIn.Hosting.AddInStore.UpdateAddIns*>.  
+ The exception is thrown by the following discovery methods that build and update the store of add-in and pipeline information: <xref:System.AddIn.Hosting.AddInStore.FindAddIns*>,<xref:System.AddIn.Hosting.AddInStore.Rebuild*>, <xref:System.AddIn.Hosting.AddInStore.RebuildAddIns*>, <xref:System.AddIn.Hosting.AddInStore.Update*>, and <xref:System.AddIn.Hosting.AddInStore.UpdateAddIns*>.  
   
 ## See Also  
- \<xref:System.AddIn.Hosting.InvalidPipelineStoreException>   
+ <xref:System.AddIn.Hosting.InvalidPipelineStoreException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

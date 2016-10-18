@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Manually Deploying a ClickOnce Application"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -190,7 +190,7 @@ If you cannot use Visual Studio to deploy your [!INCLUDE[ndptecclick](../deploym
   
 20. If you added the .deploy extension in a previous step, also select **Use .deploy file name extension** here.  
   
-21. Select the **Update Options** tab, and specify how often you would like this application to update. If your application uses \<xref:System.Deployment.Application.UpdateCheckInfo> to check for updates itself, clear the **This application should check for updates** check box.  
+21. Select the **Update Options** tab, and specify how often you would like this application to update. If your application uses <xref:System.Deployment.Application.UpdateCheckInfo> to check for updates itself, clear the **This application should check for updates** check box.  
   
 22. Select the **Application Reference** tab and then click the **Select Manifest** button. An open dialog box appears.  
   

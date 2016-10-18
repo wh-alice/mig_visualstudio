@@ -1,7 +1,7 @@
 ---
 title: "Illegal call expression or index expression"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -52,7 +52,7 @@ A value in parentheses follows an expression that is not a procedure, property, 
 ## See Also  
  [How to: Call a Procedure That Returns a Value](../Topic/How%20to:%20Call%20a%20Procedure%20That%20Returns%20a%20Value%20\(Visual%20Basic\).md)   
  [How to: Call a Procedure that Does Not Return a Value](../Topic/How%20to:%20Call%20a%20Procedure%20that%20Does%20Not%20Return%20a%20Value%20\(Visual%20Basic\).md)   
- [NOTINBUILD How to: Put a Value into an Array](http://msdn.microsoft.com/6dddc79c-cf60-41c2-b572-8bfa49b4fe7e)   
- [NOTINBUILD How to: Get a Value from an Array](http://msdn.microsoft.com/202a6468-8ccb-4864-bd8b-eab3b42d4288)   
+ [NOTINBUILD How to: Put a Value into an Array](http://msdn.microsoft.com/en-us/6dddc79c-cf60-41c2-b572-8bfa49b4fe7e)   
+ [NOTINBUILD How to: Get a Value from an Array](http://msdn.microsoft.com/en-us/202a6468-8ccb-4864-bd8b-eab3b42d4288)   
  [How to: Put a Value in a Property](../Topic/How%20to:%20Put%20a%20Value%20in%20a%20Property%20\(Visual%20Basic\).md)   
  [How to: Get a Value from a Property](../Topic/How%20to:%20Get%20a%20Value%20from%20a%20Property%20\(Visual%20Basic\).md)

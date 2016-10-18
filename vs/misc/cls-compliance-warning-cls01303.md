@@ -1,7 +1,7 @@
 ---
 title: "CLS Compliance Warning CLS01303"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -42,7 +42,7 @@ A CLS-compliant literal must have a value specified in field initialization meta
   
  Make sure that the field literal has exactly the same type as the literal (or underlying type, if the literal is an enum).  
   
- For more information CLS compliance checking, see [CLS Compliant Assemblies](http://msdn.microsoft.com/3320b57e-ea55-4697-a17d-f509a36a3c93).  
+ For more information CLS compliance checking, see [CLS Compliant Assemblies](http://msdn.microsoft.com/en-us/3320b57e-ea55-4697-a17d-f509a36a3c93).  
   
  The following declaration (using MSIL assembly language) shows what could cause CLS01303:  
   

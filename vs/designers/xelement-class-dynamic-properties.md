@@ -1,7 +1,7 @@
 ---
 title: "XElement Class Dynamic Properties"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -29,7 +29,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # XElement Class Dynamic Properties
-This section describes the dynamic properties of the \<xref:System.Xml.Linq.XElemen?displayProperty=fullName>[t](assetId:///t?qualifyHint=False&autoUpgrade=True) class.  
+This section describes the dynamic properties of the <xref:System.Xml.Linq.XElemen?displayProperty=fullName>[t](assetId:///t?qualifyHint=False&autoUpgrade=True) class.  
   
 ## In This Section  
   
@@ -43,6 +43,6 @@ This section describes the dynamic properties of the \<xref:System.Xml.Linq.XEle
 |[Xml](../designers/xml--xelement-dynamic-property-.md)|Gets the unformatted XML representation of an element.|  
   
 ## See Also  
- \<xref:System.Xml.Linq.XElement?displayProperty=fullName>   
+ <xref:System.Xml.Linq.XElement?displayProperty=fullName>   
  [LINQ to XML Dynamic Properties](../designers/linq-to-xml-dynamic-properties.md)   
  [XAttribute Class Dynamic Properties](../designers/xattribute-class-dynamic-properties.md)

@@ -1,7 +1,7 @@
 ---
 title: "Dump File Summary Extensibility API"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,7 +39,7 @@ Using the extensibility APIs in this section, you can extend the .Exe Project Sy
 ## In This Section  
  The APIs for extending the **Dump Summary** page and the .Exe Project System are available in the following namespace:  
   
- \<xref:Microsoft.VisualStudio.Debugger.VsDebugPresentationExtension>  
+ <xref:Microsoft.VisualStudio.Debugger.VsDebugPresentationExtension>  
   
 ## See Also  
  [Using Dump Files](../debugger/using-dump-files.md)

@@ -1,7 +1,7 @@
 ---
 title: "Compiler Error CS0619"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -38,7 +38,7 @@ translation.priority.mt:
 # Compiler Error CS0619
 'member' is obsolete: 'text'  
   
- A class member was marked with the [Obsolete](http://msdn.microsoft.com/05e99cd0-bda6-4f79-a890-1ca093b4b488) attribute, such that an error will be issued when the class member is referenced.  
+ A class member was marked with the [Obsolete](http://msdn.microsoft.com/en-us/05e99cd0-bda6-4f79-a890-1ca093b4b488) attribute, such that an error will be issued when the class member is referenced.  
   
  The following sample generates CS0619:  
   

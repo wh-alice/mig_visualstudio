@@ -135,7 +135,7 @@ You can connect to an Access database (either an .mdf file or an .accdb file) by
   
 -   Open the data source in the [Dataset Designer](../datatools/creating-and-editing-typed-datasets.md) to add or edit the objects that make up the dataset.  
   
--   Add validation logic to the \<xref:System.Data.DataTable.ColumnChanging> or \<xref:System.Data.DataTable.RowChanging> event of the data tables in the dataset (see [Validate data in datasets](../datatools/validate-data-in-datasets.md)).  
+-   Add validation logic to the <xref:System.Data.DataTable.ColumnChanging> or <xref:System.Data.DataTable.RowChanging> event of the data tables in the dataset (see [Validate data in datasets](../datatools/validate-data-in-datasets.md)).  
   
 ## See Also  
  [Connecting to Data in Visual Studio](../datatools/connecting-to-data-in-visual-studio.md)   

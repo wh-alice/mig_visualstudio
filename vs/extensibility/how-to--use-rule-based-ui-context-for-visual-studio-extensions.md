@@ -1,7 +1,7 @@
 ---
 title: "How to: Use Rule-based UI Context for Visual Studio Extensions"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -25,7 +25,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # How to: Use Rule-based UI Context for Visual Studio Extensions
-Visual Studio allows loading of VSPackages when certain well-known \<xref:Microsoft.VisualStudio.Shell.UIContext>s are activated. However, these UI Contexts are not very fine grained, leaving extension authors no choice but to pick an available UI Context that activates before the point they really wanted the VSPackage to load. For a list of well-known UI contexts, see \<xref:Microsoft.VisualStudio.Shell.KnownUIContexts>.  
+Visual Studio allows loading of VSPackages when certain well-known <xref:Microsoft.VisualStudio.Shell.UIContext>s are activated. However, these UI Contexts are not very fine grained, leaving extension authors no choice but to pick an available UI Context that activates before the point they really wanted the VSPackage to load. For a list of well-known UI contexts, see <xref:Microsoft.VisualStudio.Shell.KnownUIContexts>.  
   
  Loading packages can have a performance impact and loading them sooner than they are needed is not the best practice. Visual Studio 2015 introduced the concept of Rules-based UI Contexts, a mechanism that allows extension authors to define the precise conditions under which a UI Context is activated and associated VSPackages loaded.  
   
@@ -43,9 +43,9 @@ Visual Studio allows loading of VSPackages when certain well-known \<xref:Micros
  The mechanism may be used by any Visual Studio extension.  
   
 ## Create a Rule-based UI Context  
- Suppose you have an extension called TestPackage, which offers a menu command which applies only to files with “.config” extension. Before VS2015, the best option was to load TestPackage when \<xref:Microsoft.VisualStudio.Shell.KnownUIContexts.SolutionExistsAndFullyLoadedContext*> UI Context was activated. This is not efficient, since the loaded solution may not even contain a .config file. Let us see how rules-based UI Context can be used to activate a UI Context only when a file with .config extension is selected, and load TestPackage when that UI Context is activated.  
+ Suppose you have an extension called TestPackage, which offers a menu command which applies only to files with “.config” extension. Before VS2015, the best option was to load TestPackage when <xref:Microsoft.VisualStudio.Shell.KnownUIContexts.SolutionExistsAndFullyLoadedContext*> UI Context was activated. This is not efficient, since the loaded solution may not even contain a .config file. Let us see how rules-based UI Context can be used to activate a UI Context only when a file with .config extension is selected, and load TestPackage when that UI Context is activated.  
   
-1.  Define a new UIContext GUID and add to the VSPackage class \<xref:Microsoft.VisualStudio.Shell.ProvideAutoLoadAttribute> and \<xref:Microsoft.VisualStudio.Shell.ProvideUIContextRuleAttribute>.  
+1.  Define a new UIContext GUID and add to the VSPackage class <xref:Microsoft.VisualStudio.Shell.ProvideAutoLoadAttribute> and <xref:Microsoft.VisualStudio.Shell.ProvideUIContextRuleAttribute>.  
   
      For example, let’s assume a new UIContext “UIContextGuid” is to be added. The GUID created (you can create a GUID by clicking on Tools -> create guid) is “8B40D5E2-5626-42AE-99EF-3DD1EFF46E7B”. You then add the following inside your package class:  
   
@@ -92,7 +92,7 @@ Visual Studio allows loading of VSPackages when certain well-known \<xref:Micros
   
  Next, let's use a debugger to confirm that the package loads only when we expect it to. To debug TestPackage:  
   
-1.  Set a breakpoint in the \<xref:Microsoft.VisualStudio.Shell.Package.Initialize*> method.  
+1.  Set a breakpoint in the <xref:Microsoft.VisualStudio.Shell.Package.Initialize*> method.  
   
 2.  Build the TestPackage and start debugging.  
   
@@ -150,11 +150,11 @@ Visual Studio allows loading of VSPackages when certain well-known \<xref:Micros
 ## Compatibility with cross-version extension  
  Rule based UI Contexts is a new feature in Visual Studio 2015 and would not be ported to earlier versions. This creates a problem with extensions/packages that target multiple versions of Visual Studio which would have to be auto-loaded in Visual Studio 2013 and earlier, but can benefit from rule based UI Contexts to prevent being auto-loaded in Visual Studio 2015.  
   
- In order to support such packages, AutoLoadPackages entries in the registry can now provide a flag in its value field to indicate that the entry should be skipped in Visual Studio 2015 and above. This can be done by adding a flags option to \<xref:Microsoft.VisualStudio.Shell.PackageAutoLoadFlags>. VSPackages can now add **SkipWhenUIContextRulesActive** option to their \<xref:Microsoft.VisualStudio.Shell.ProvideAutoLoadAttribute> attribute to indicate the entry should be ignored in Visual Studio 2015 and above.  
+ In order to support such packages, AutoLoadPackages entries in the registry can now provide a flag in its value field to indicate that the entry should be skipped in Visual Studio 2015 and above. This can be done by adding a flags option to <xref:Microsoft.VisualStudio.Shell.PackageAutoLoadFlags>. VSPackages can now add **SkipWhenUIContextRulesActive** option to their <xref:Microsoft.VisualStudio.Shell.ProvideAutoLoadAttribute> attribute to indicate the entry should be ignored in Visual Studio 2015 and above.  
   
 ## Extensible UI Context Rules  
  Sometimes, packages cannot use static UI Context rules. For example, suppose you have a package supporting extensibility such that the command state is based on editor types that are supported by imported MEF providers. The command is enabled if there is an extension supporting the current edit type. In such cases the package itself cannot use a static UI Context rule, since the terms would change depending on which MEF extensions are available.  
   
  In order to support such packages, rule based UI Contexts support a hardcoded expression “*” that indicates all the terms below it will be joined with OR. This allows for the master package to define a known rule based UI Context and tie its command state to this context. Afterwards any MEF extension targeted for the master package can add its terms for editors it supports without impacting other terms or the master expression.  
   
- The constructor \<xref:Microsoft.VisualStudio.Shell.ProvideExtensibleUIContextRuleAttribute.#ctor*> documentation shows the syntax for extensible UI Context rules.
+ The constructor <xref:Microsoft.VisualStudio.Shell.ProvideExtensibleUIContextRuleAttribute.#ctor*> documentation shows the syntax for extensible UI Context rules.

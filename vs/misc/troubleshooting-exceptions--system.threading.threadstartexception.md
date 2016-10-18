@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.Threading.ThreadStartException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -38,5 +38,5 @@ translation.priority.mt:
 The exception that is thrown when a failure occurs in a managed thread after the underlying operating system thread has been started, but before the thread is ready to execute user code.  
   
 ## See Also  
- \<xref:System.Threading.ThreadStartException>   
+ <xref:System.Threading.ThreadStartException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

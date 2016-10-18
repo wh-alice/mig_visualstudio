@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.AccessViolationException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -33,7 +33,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.AccessViolationException
-An \<xref:System.AccessViolationException> is thrown when there is an attempt to read from or write to protected memory.  
+An <xref:System.AccessViolationException> is thrown when there is an attempt to read from or write to protected memory.  
   
 ## Associated Tips  
  Make sure that the memory that you are attempting to access has been allocated.  
@@ -45,11 +45,11 @@ An \<xref:System.AccessViolationException> is thrown when there is an attempt to
 ### Remarks  
  An access violation occurs in unmanaged or unsafe code when it attempts to read or write to memory that has not been allocated, or to which it does not have access. Not all reads or writes through bad pointers lead to access violations, so an access violation usually indicates that several reads or writes have occurred through bad pointers, and that memory might be corrupted.  
   
- In managed code, all references are either valid or null. Any operation that attempts to reference a null reference in verifiable code throws \<xref:System.NullReferenceException>.  
+ In managed code, all references are either valid or null. Any operation that attempts to reference a null reference in verifiable code throws <xref:System.NullReferenceException>.  
   
- An access violation that occurs in unsafe managed code can be expressed as either a \<xref:System.NullReferenceException> or a \<xref:System.AccessViolationException>, depending on the platform.  
+ An access violation that occurs in unsafe managed code can be expressed as either a <xref:System.NullReferenceException> or a <xref:System.AccessViolationException>, depending on the platform.  
   
- Access violations in unmanaged code that bubble up to managed code are always wrapped in an \<xref:System.AccessViolationException>.  
+ Access violations in unmanaged code that bubble up to managed code are always wrapped in an <xref:System.AccessViolationException>.  
   
 ## See Also  
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)   

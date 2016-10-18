@@ -1,7 +1,7 @@
 ---
 title: "Filtering the AddItem Dialog Box for Nested Projects"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -34,7 +34,7 @@ translation.priority.mt:
 # Filtering the AddItem Dialog Box for Nested Projects
 When you display an **AddItem** dialog box for a nested project, the parent project can control what items are displayed in the dialog box.  
   
- The \<xref:Microsoft.VisualStudio.Shell.Interop.IVsFilterAddProjectItemDlg2> interface lets you filter the nodes that will be in an **AddItem** dialog box. When the child project displays the **AddItem** dialog box, the parent can implement the `IVsFilterAddProjectItemDlg` interface and filter items that would otherwise be displayed in the child's project.  
+ The <xref:Microsoft.VisualStudio.Shell.Interop.IVsFilterAddProjectItemDlg2> interface lets you filter the nodes that will be in an **AddItem** dialog box. When the child project displays the **AddItem** dialog box, the parent can implement the `IVsFilterAddProjectItemDlg` interface and filter items that would otherwise be displayed in the child's project.  
   
  When projects are grouped by function under specific parent projects, you can implement `IVsFilterAddProjectItemDlg` when the user selects **Add Project Item** on the shortcut menu in a nested project. Implementing `IvsFilterAddProjectItemDlg displays` only project items or files specific to that group. Project items for other groups are filtered out of the dialog box, even if they are stored in the same directory.  
   
@@ -43,7 +43,7 @@ When you display an **AddItem** dialog box for a nested project, the parent proj
  The `IVsFilterAddProjectItemDlg` interface can also implement filtering by category. For more information, see [Adding Items to the Add New Item Dialog Boxes](../extensibility/adding-items-to-the-add-new-item-dialog-boxes.md) and [Registering Project and Item Templates](../extensibility/registering-project-and-item-templates.md).  
   
 ## See Also  
- \<xref:Microsoft.VisualStudio.Shell.Interop.IVsFilterAddProjectItemDlg2>   
+ <xref:Microsoft.VisualStudio.Shell.Interop.IVsFilterAddProjectItemDlg2>   
  [Adding Items to the Add New Item Dialog Boxes](../extensibility/adding-items-to-the-add-new-item-dialog-boxes.md)   
  [Registering Project and Item Templates](../extensibility/registering-project-and-item-templates.md)   
  [Nesting Projects](../extensibility/nesting-projects.md)

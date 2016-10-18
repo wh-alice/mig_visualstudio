@@ -1,7 +1,7 @@
 ---
 title: "File information cannot be queried while open for writing"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,6 +37,6 @@ An attempt was made to obtain information about a file that is currently open fo
 -   Close the file and attempt the operation again.  
   
 ## See Also  
- \<xref:System.IO.FileInfo>   
- \<xref:System.Security.Permissions.FileIOPermission>   
- [How to: Get Information About a File in Visual Basic](http://msdn.microsoft.com/ca0720ec-f40e-4c11-9748-0ce1685c78f0)
+ <xref:System.IO.FileInfo>   
+ <xref:System.Security.Permissions.FileIOPermission>   
+ [How to: Get Information About a File in Visual Basic](http://msdn.microsoft.com/en-us/ca0720ec-f40e-4c11-9748-0ce1685c78f0)

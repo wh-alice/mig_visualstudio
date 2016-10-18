@@ -1,7 +1,7 @@
 ---
 title: "Constant &#39;&lt;constantname&gt;&#39; cannot depend on its own value"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,4 +44,4 @@ You created a circular dependency in your code, where a constant depends on its 
 1.  Check your code to see where the constant is being evaluated, and modify it accordingly.  
   
 ## See Also  
- [NOTINBUILD Constants Overview](http://msdn.microsoft.com/5c7f57fb-48b2-4a2f-afee-79d8e3adf15b)
+ [NOTINBUILD Constants Overview](http://msdn.microsoft.com/en-us/5c7f57fb-48b2-4a2f-afee-79d8e3adf15b)

@@ -1,7 +1,7 @@
 ---
 title: "Adding Visual Studio Commands to a Start Page"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,7 +37,7 @@ When you create a custom start page, you can add Visual Studio commands to it. T
  For more information about commands in XAML, see [Commanding Overview](../Topic/Commanding%20Overview.md)  
   
 ## Adding Commands from the Command Well  
- The start page created in [Creating a Custom Start Page](../extensibility/creating-a-custom-start-page.md) added the \<xref:Microsoft.VisualStudio.PlatformUI?displayProperty=fullName> and \<xref:Microsoft.VisualStudio.Shell?displayProperty=fullName> namespaces, as follows.  
+ The start page created in [Creating a Custom Start Page](../extensibility/creating-a-custom-start-page.md) added the <xref:Microsoft.VisualStudio.PlatformUI?displayProperty=fullName> and <xref:Microsoft.VisualStudio.Shell?displayProperty=fullName> namespaces, as follows.  
   
 ```  
 xmlns:vs="clr-namespace:Microsoft.VisualStudio.PlatformUI;assembly=Microsoft.VisualStudio.Shell.14.0"  
@@ -50,7 +50,7 @@ xmlns:vsfx="clr-namespace:Microsoft.VisualStudio.Shell;assembly=Microsoft.Visual
 xmlns:vscom="clr-namespace:Microsoft.VisualStudio.Shell;assembly=Microsoft.VisualStudio.Shell.Immutable.11.0"  
 ```  
   
- You can use the `vscom:` alias to bind Visual Studio commands to XAML controls on the page by setting the \<xref:System.Windows.Controls.Primitives.ButtonBase.Command*> property of the control to `vscom:VSCommands.ExecuteCommand`. You can then set the \<xref:System.Windows.Controls.Primitives.ButtonBase.CommandParameter*> property to the name of the command to execute, as shown in the following example.  
+ You can use the `vscom:` alias to bind Visual Studio commands to XAML controls on the page by setting the <xref:System.Windows.Controls.Primitives.ButtonBase.Command*> property of the control to `vscom:VSCommands.ExecuteCommand`. You can then set the <xref:System.Windows.Controls.Primitives.ButtonBase.CommandParameter*> property to the name of the command to execute, as shown in the following example.  
   
 ```xml  
 <Button Name="btnNewProj" Content="New Project"   
@@ -105,7 +105,7 @@ xmlns:vscom="clr-namespace:Microsoft.VisualStudio.Shell;assembly=Microsoft.Visua
 ## Adding Commands with the DTE object  
  You can access the DTE object from a Start Page, both in markup and in code.  
   
- In markup, you can access it by using the [Binding Markup Extension](../Topic/Binding%20Markup%20Extension.md) syntax to call the \<xref:EnvDTE.DTE> object. You can use this approach to bind to simple properties such as those that return collections, but you cannot bind to methods or services. The following example shows a \<xref:System.Windows.Controls.TextBlock> control that binds to the \<xref:EnvDTE._DTE.Name*> property, and a \<xref:System.Windows.Controls.ListBox> control that enumerates the \<xref:EnvDTE.Window.Caption*> properties of the collection that is returned by the \<xref:EnvDTE._DTE.Windows*> property.  
+ In markup, you can access it by using the [Binding Markup Extension](../Topic/Binding%20Markup%20Extension.md) syntax to call the <xref:EnvDTE.DTE> object. You can use this approach to bind to simple properties such as those that return collections, but you cannot bind to methods or services. The following example shows a <xref:System.Windows.Controls.TextBlock> control that binds to the <xref:EnvDTE._DTE.Name*> property, and a <xref:System.Windows.Controls.ListBox> control that enumerates the <xref:EnvDTE.Window.Caption*> properties of the collection that is returned by the <xref:EnvDTE._DTE.Windows*> property.  
   
 ```xml  
 <TextBlock Text="{Binding Path=DTE.Name}" FontSize="12" HorizontalAlignment="Center"/>  

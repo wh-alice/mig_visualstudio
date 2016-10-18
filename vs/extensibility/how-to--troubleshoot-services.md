@@ -1,7 +1,7 @@
 ---
 title: "How to: Troubleshoot Services"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -41,7 +41,7 @@ There are several common problems that can occur when you try to get a service:
   
 -   The wrong service provider is used.  
   
- If the requested service cannot be obtained, the call to \<xref:Microsoft.VisualStudio.Shell.Package.GetService*> returns null. You should always test for null after requesting a service:  
+ If the requested service cannot be obtained, the call to <xref:Microsoft.VisualStudio.Shell.Package.GetService*> returns null. You should always test for null after requesting a service:  
   
 ```c#  
 IVsActivityLog log =   
@@ -63,21 +63,21 @@ if (log == null) return;
   
      In the example above, version number is the version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], such as 12.0 or 14.0, the key {F5E7E71D-1401-11d1-883B-0000F87579D2} is the service identifier (SID) of the service, SVsTextManager, and the default value {F5E7E720-1401-11d1-883B-0000F87579D2} is the package GUID of the text manager VSPackage, which provides the service.  
   
-2.  Use the service type and not the interface type when you call GetService. When requesting a service from [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], \<xref:Microsoft.VisualStudio.Shell.Package> extracts the GUID from the type. A service will not be found if the following conditions exist:  
+2.  Use the service type and not the interface type when you call GetService. When requesting a service from [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], <xref:Microsoft.VisualStudio.Shell.Package> extracts the GUID from the type. A service will not be found if the following conditions exist:  
   
     1.  An interface type is passed to GetService instead of the service type.  
   
     2.  No GUID is explicitly assigned to the interface. Therefore, the system creates a default GUID for an object as needed.  
   
-3.  Be sure the VSPackage requesting the service has been sited. [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] sites a VSPackage after constructing it and before calling \<xref:Microsoft.VisualStudio.Shell.Package.Initialize*>.  
+3.  Be sure the VSPackage requesting the service has been sited. [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] sites a VSPackage after constructing it and before calling <xref:Microsoft.VisualStudio.Shell.Package.Initialize*>.  
   
      If you have code in a VSPackage constructor that needs a service, move it to the Initialize method.  
   
 4.  Be sure that you are using the correct service provider.  
   
-     Not all service providers are alike. The service provider that [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] passes to a tool window differs from the one it passes to a VSPackage. The tool window service provider knows about \<xref:Microsoft.VisualStudio.Shell.Interop.STrackSelection>, but does not know about \<xref:Microsoft.VisualStudio.Shell.Interop.SVsRunningDocumentTable>. You can call \<xref:Microsoft.VisualStudio.Shell.Package.GetGlobalService*> to get a VSPackage service provider from within a tool window.  
+     Not all service providers are alike. The service provider that [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] passes to a tool window differs from the one it passes to a VSPackage. The tool window service provider knows about <xref:Microsoft.VisualStudio.Shell.Interop.STrackSelection>, but does not know about <xref:Microsoft.VisualStudio.Shell.Interop.SVsRunningDocumentTable>. You can call <xref:Microsoft.VisualStudio.Shell.Package.GetGlobalService*> to get a VSPackage service provider from within a tool window.  
   
-     If a tool window hosts a user control or any other control container, the container will be sited by the Windows component model and will not have access to any [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] services. You can call \<xref:Microsoft.VisualStudio.Shell.Package.GetGlobalService*> to get a VSPackage service provider from within a control container.  
+     If a tool window hosts a user control or any other control container, the container will be sited by the Windows component model and will not have access to any [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] services. You can call <xref:Microsoft.VisualStudio.Shell.Package.GetGlobalService*> to get a VSPackage service provider from within a control container.  
   
 ## See Also  
  [List of Available Services](../extensibility/list-of-available-services.md)   

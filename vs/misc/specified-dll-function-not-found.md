@@ -1,7 +1,7 @@
 ---
 title: "Specified DLL function not found"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -42,4 +42,4 @@ The dynamic-link library (DLL) in a user library reference was found, but the DL
   
 ## See Also  
  [Error Types](../Topic/Error%20Types%20\(Visual%20Basic\).md)   
- [PAVEOVER Product Support and Accessibility](http://msdn.microsoft.com/14e1d293-7b6d-40a6-bf3e-a92f8ee6c88c)
+ [PAVEOVER Product Support and Accessibility](http://msdn.microsoft.com/en-us/14e1d293-7b6d-40a6-bf3e-a92f8ee6c88c)

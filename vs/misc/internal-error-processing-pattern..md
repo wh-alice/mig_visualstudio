@@ -1,7 +1,7 @@
 ---
 title: "Internal error processing pattern."
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -42,4 +42,4 @@ This error generally occurs when a regular expression has been included in a sea
 ## See Also  
  [Finding and Replacing Text](../ide/finding-and-replacing-text.md)   
  [Using Regular Expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md)   
- [Wildcards (Visual Studio)](http://msdn.microsoft.com/9745c56f-0b73-44e1-b393-c17e39670c26)
+ [Wildcards (Visual Studio)](http://msdn.microsoft.com/en-us/9745c56f-0b73-44e1-b393-c17e39670c26)

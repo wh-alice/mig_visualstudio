@@ -1,7 +1,7 @@
 ---
 title: "Localizing Applications"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -45,10 +45,10 @@ translation.priority.ht:
  Discusses signing satellite assemblies with public-private key pairs.  
   
  [Version Numbers for Main and Localized Satellite Assemblies](../ide/version-numbers-for-main-and-localized-satellite-assemblies.md)  
- Introduces the \<xref:System.Resources.SatelliteContractVersionAttribute> class, which determines which satellite assemblies work with an application's main assembly.  
+ Introduces the <xref:System.Resources.SatelliteContractVersionAttribute> class, which determines which satellite assemblies work with an application's main assembly.  
   
  [Neutral Resources Languages for Localization](../ide/neutral-resources-languages-for-localization.md)  
- Introduces the \<xref:System.Resources.NeutralResourcesLanguageAttribute> class, which specifies the culture of the resources included in an application's main assembly.  
+ Introduces the <xref:System.Resources.NeutralResourcesLanguageAttribute> class, which specifies the culture of the resources included in an application's main assembly.  
   
 ## Related Sections  
  [Introduction to International Applications Based on the .NET Framework](../ide/introduction-to-international-applications-based-on-the-.net-framework.md)  

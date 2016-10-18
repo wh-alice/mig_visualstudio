@@ -1,7 +1,7 @@
 ---
 title: "Save data to a database (multiple tables)"
 ms.custom: na
-ms.date: "10/07/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -43,7 +43,7 @@ One of the most common scenarios in application development is to display data o
  You can save data in your application back to the database by calling the `Update` method of a TableAdapter. When you drag tables from the **Data Sources** window onto a form, the code that's required to save data is automatically added.Any additional tables that are added to a form require the manual addition of this code. This walkthrough shows how to add code to save updates from more than one table.  
   
 > [!NOTE]
->  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or the edition that you're using. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+>  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or the edition that you're using. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
  Tasks illustrated in this walkthrough include:  
   
@@ -107,7 +107,7 @@ One of the most common scenarios in application development is to display data o
      The **NorthwindDataSet** is added to your project, and the tables appear in the **Data Sources** window.  
   
 ## Set the controls to be created  
- For this walkthrough, the data in the `Customers` table is in a **Details** layout where data is displayed in individual controls. The data from the `Orders` table is in a **Grid** layout that's displayed in a \<xref:System.Windows.Forms.DataGridView> control.  
+ For this walkthrough, the data in the `Customers` table is in a **Details** layout where data is displayed in individual controls. The data from the `Orders` table is in a **Grid** layout that's displayed in a <xref:System.Windows.Forms.DataGridView> control.  
   
 #### To set the drop type for the items in the Data Sources window  
   
@@ -122,26 +122,26 @@ One of the most common scenarios in application development is to display data o
   
 1.  Drag the main **Customers** node from the **Data Sources** window onto **Form1**.  
   
-     Data-bound controls with descriptive labels appear on the form, along with a tool strip (\<xref:System.Windows.Forms.BindingNavigator>) for navigating records. A [NorthwindDataSet](../datatools/dataset-tools-in-visual-studio.md), [CustomersTableAdapter](../datatools/tableadapter-overview.md), \<xref:System.Windows.Forms.BindingSource>, and \<xref:System.Windows.Forms.BindingNavigator> appear in the component tray.  
+     Data-bound controls with descriptive labels appear on the form, along with a tool strip (<xref:System.Windows.Forms.BindingNavigator>) for navigating records. A [NorthwindDataSet](../datatools/dataset-tools-in-visual-studio.md), [CustomersTableAdapter](../datatools/tableadapter-overview.md), <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray.  
   
 2.  Drag the related **Orders** node from the **Data Sources** window onto **Form1**.  
   
     > [!NOTE]
     >  The related **Orders** node is located below the **Fax** column and is a child node of the **Customers** node.  
   
-     A \<xref:System.Windows.Forms.DataGridView> control and a tool strip (\<xref:System.Windows.Forms.BindingNavigator>) for navigating records appear on the form. An [OrdersTableAdapter](../datatools/tableadapter-overview.md) and \<xref:System.Windows.Forms.BindingSource> appear in the component tray.  
+     A <xref:System.Windows.Forms.DataGridView> control and a tool strip (<xref:System.Windows.Forms.BindingNavigator>) for navigating records appear on the form. An [OrdersTableAdapter](../datatools/tableadapter-overview.md) and <xref:System.Windows.Forms.BindingSource> appear in the component tray.  
   
 ## Addcode to update the database  
- You can update the database by calling the `Update` methods of the **Customers** and **Orders** TableAdapters. By default, an event handler for the**Save** button of the\<xref:System.Windows.Forms.BindingNavigator> is added to the form's code to send updates to the database. This procedure modifies the code to send updates in the correct order.This eliminates the possibility of raising referential integrity errors. The code also implements error handling by wrapping the update call in a try-catch block. You can modify the code to suit the needs of your application.  
+ You can update the database by calling the `Update` methods of the **Customers** and **Orders** TableAdapters. By default, an event handler for the**Save** button of the<xref:System.Windows.Forms.BindingNavigator> is added to the form's code to send updates to the database. This procedure modifies the code to send updates in the correct order.This eliminates the possibility of raising referential integrity errors. The code also implements error handling by wrapping the update call in a try-catch block. You can modify the code to suit the needs of your application.  
   
 > [!NOTE]
 >  For clarity, this walkthrough does not use a transaction.However, if you're updating two or more related tables, include all the update logic within a transaction. A transaction is a process that assures that all related changes to a database are successful before any changes are committed. For more information, see [Transactions and Concurrency](../Topic/Transactions%20and%20Concurrency.md).  
   
 #### To add update logic to the application  
   
-1.  Select the **Save** button on the \<xref:System.Windows.Forms.BindingNavigator>.This opens the Code Editor to the `bindingNavigatorSaveItem_Click` event handler.  
+1.  Select the **Save** button on the <xref:System.Windows.Forms.BindingNavigator>.This opens the Code Editor to the `bindingNavigatorSaveItem_Click` event handler.  
   
-2.  Replace the code in the event handler to call the `Update` methods of the related TableAdapters. The following code first creates three temporary data tables to hold the updated information for each \<xref:System.Data.DataRowState> (\<xref:System.Data.DataRowState>, \<xref:System.Data.DataRowState>, and \<xref:System.Data.DataRowState>). Then updates are run in the correct order. The code should look like the following:  
+2.  Replace the code in the event handler to call the `Update` methods of the related TableAdapters. The following code first creates three temporary data tables to hold the updated information for each <xref:System.Data.DataRowState> (<xref:System.Data.DataRowState>, <xref:System.Data.DataRowState>, and <xref:System.Data.DataRowState>). Then updates are run in the correct order. The code should look like the following:  
   
      [!code[VbRaddataSaving#10](../datatools/codesnippet/VisualBasic/save-data-to-a-database--multiple-tables-_1.vb)]
 [!code[VbRaddataSaving#10](../datatools/codesnippet/CSharp/save-data-to-a-database--multiple-tables-_1.cs)]  

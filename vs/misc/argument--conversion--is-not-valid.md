@@ -1,7 +1,7 @@
 ---
 title: "Argument &#39;Conversion&#39; is not valid"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,4 +39,4 @@ A value for the `VbStrConv` enumeration is not valid, possibly because it is les
 1.  Ensure that the value is greater than or equal to zero.  
   
 ## See Also  
- [NOTINBUILD VbStrConv Enumeration](http://msdn.microsoft.com/59f83dd9-6361-47df-a836-02ba9d4cb936)
+ [NOTINBUILD VbStrConv Enumeration](http://msdn.microsoft.com/en-us/59f83dd9-6361-47df-a836-02ba9d4cb936)

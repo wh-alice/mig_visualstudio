@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.Runtime.InteropServices.MarshalDirectiveException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -33,9 +33,9 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.Runtime.InteropServices.MarshalDirectiveException
-The exception that is thrown by the marshaler when it encounters a \<xref:System.Runtime.InteropServices.MarshalAsAttribute> it does not support.  
+The exception that is thrown by the marshaler when it encounters a <xref:System.Runtime.InteropServices.MarshalAsAttribute> it does not support.  
   
 ## See Also  
- \<xref:System.Runtime.InteropServices.MarshalDirectiveException>   
+ <xref:System.Runtime.InteropServices.MarshalDirectiveException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)   
- [Using the MarshalAsAttribute](http://msdn.microsoft.com/c13e741c-3ebb-4b36-9dbb-f2abbfe154f0)
+ [Using the MarshalAsAttribute](http://msdn.microsoft.com/en-us/c13e741c-3ebb-4b36-9dbb-f2abbfe154f0)

@@ -1,7 +1,7 @@
 ---
 title: "CLS Compliance Warning CLS03302"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -42,7 +42,7 @@ Events shall adhere to a specific naming pattern
   
  The **specialname** attribute shall be ignored in appropriate name comparisons and shall adhere to identifier rules.  
   
- For more information CLS compliance checking, see [CLS Compliant Assemblies](http://msdn.microsoft.com/3320b57e-ea55-4697-a17d-f509a36a3c93).  
+ For more information CLS compliance checking, see [CLS Compliant Assemblies](http://msdn.microsoft.com/en-us/3320b57e-ea55-4697-a17d-f509a36a3c93).  
   
  The following function declaration (using MSIL assembly language) shows what could cause CLS03302:  
   

@@ -1,7 +1,7 @@
 ---
 title: "&#39;&lt;typename&gt;&#39; cannot be used as an attribute because it is not a class"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,4 +44,4 @@ An attempt was made to use a type that is not a class as an attribute.
 1.  Define custom attributes as classes that derive from `System.Attribute`.  
   
 ## See Also  
- [NOT IN BUILD: Attributes in Visual Basic](http://msdn.microsoft.com/620bfc0e-4582-4c8b-8432-ebc5c3dccc22)
+ [NOT IN BUILD: Attributes in Visual Basic](http://msdn.microsoft.com/en-us/620bfc0e-4582-4c8b-8432-ebc5c3dccc22)

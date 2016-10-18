@@ -1,7 +1,7 @@
 ---
 title: "File name &lt;name&gt; cannot contain character device names."
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,5 +39,5 @@ This error generally occurs when a file name is entered which is actually a char
 1.  Enter a different file name.  
   
 ## See Also  
- [NIB: Save File As Dialog Box](http://msdn.microsoft.com/22380a20-2858-4391-b2f2-80c6bce64f14)   
+ [NIB: Save File As Dialog Box](http://msdn.microsoft.com/en-us/22380a20-2858-4391-b2f2-80c6bce64f14)   
  [Solutions and Projects](../ide/solutions-and-projects-in-visual-studio.md)

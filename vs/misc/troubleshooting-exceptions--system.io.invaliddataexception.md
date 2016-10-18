@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.IO.InvalidDataException"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -36,5 +36,5 @@ translation.priority.mt:
 The exception that is thrown when a compressed data stream is in a format that is not valid.  
   
 ## See Also  
- \<xref:System.IO.InvalidDataException>   
+ <xref:System.IO.InvalidDataException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

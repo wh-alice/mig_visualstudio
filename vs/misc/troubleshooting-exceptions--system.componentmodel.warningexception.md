@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.ComponentModel.WarningException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,5 +39,5 @@ Specifies an exception that is handled as a warning rather than an error.
  If this exception is not caught, it is presented to the user as a warning message.  
   
 ## See Also  
- \<xref:System.ComponentModel.WarningException>   
+ <xref:System.ComponentModel.WarningException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

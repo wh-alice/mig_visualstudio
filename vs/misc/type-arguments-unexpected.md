@@ -1,7 +1,7 @@
 ---
 title: "Type arguments unexpected"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -68,7 +68,7 @@ Public Sub testSub(Of t)() Implements testInterface.testSub
   
 ## See Also  
  [Implements](../Topic/Implements%20Clause%20\(Visual%20Basic\).md)   
- [NOT IN BUILD: Implements Keyword and Implements Statement](http://msdn.microsoft.com/b96560f7-6413-480f-a1e2-f80253bab5be)   
+ [NOT IN BUILD: Implements Keyword and Implements Statement](http://msdn.microsoft.com/en-us/b96560f7-6413-480f-a1e2-f80253bab5be)   
  [Generic Types in Visual Basic](../Topic/Generic%20Types%20in%20Visual%20Basic%20\(Visual%20Basic\).md)   
  [Generic Procedures in Visual Basic](../Topic/Generic%20Procedures%20in%20Visual%20Basic.md)   
  [Type List](../Topic/Type%20List%20\(Visual%20Basic\).md)

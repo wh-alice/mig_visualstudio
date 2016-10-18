@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.Workflow.Activities.Rules.RuleSetValidationException"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -35,8 +35,8 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.Workflow.Activities.Rules.RuleSetValidationException
-A \<xref:System.Workflow.Activities.Rules.RuleSetValidationException> exception is thrown when processing cannot continue because a rule set cannot be validated. The exception is thrown by the \<xref:System.Workflow.Activities.Rules.RuleEngine> constructor if the \<xref:System.Workflow.Activities.Rules.RuleSet> that is used has validation errors.  
+A <xref:System.Workflow.Activities.Rules.RuleSetValidationException> exception is thrown when processing cannot continue because a rule set cannot be validated. The exception is thrown by the <xref:System.Workflow.Activities.Rules.RuleEngine> constructor if the <xref:System.Workflow.Activities.Rules.RuleSet> that is used has validation errors.  
   
 ## See Also  
- \<xref:System.Workflow.Activities.Rules.RuleSetValidationException>   
+ <xref:System.Workflow.Activities.Rules.RuleSetValidationException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

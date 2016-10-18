@@ -1,7 +1,7 @@
 ---
 title: "Additional Resources for MSBuild"
 ms.custom: na
-ms.date: "10/07/2016"
+ms.date: "10/17/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -17,7 +17,7 @@ dev_langs:
 helpviewer_keywords: 
   - "MSBuild, additional resources"
 ms.assetid: 3206dc09-daa4-43c4-8073-731a82e36a89
-caps.latest.revision: 13
+caps.latest.revision: 15
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -36,54 +36,21 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Additional Resources for MSBuild
-\<?xml version="1.0" encoding="utf-8"?>
-\<developerReferenceWithoutSyntaxDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ddue.schemas.microsoft.com/authoring/2003/5 http://clixdevr3.blob.core.windows.net/ddueschema/developer.xsd">
-  <introduction>
-    <para>The following Web sites and forums can help you find answers to common questions when working with <token>vstecmsbuild</token>.</para>
-  </introduction>
-  <section>
-    <title>Microsoft Resources</title>
-    <content />
-    <sections>
-      <section>
-        <title>On the Web</title>
-        <content>
-          <definitionTable>
-            <definedTerm>
-              <externalLink>
-                <linkText>MSBuild Channel 9 Web Site</linkText>
-                <linkUri>http://go.microsoft.com/fwlink/?LinkId=243092</linkUri>
-              </externalLink>
-            </definedTerm>
-            <definition>
-              <para>Contains information about <token>vstecmsbuild</token> and links to other <token>vstecmsbuild</token> sites on the Web.</para>
-            </definition>
-            <definedTerm>
-              <externalLink>
-                <linkText>MSBuild Team Blog</linkText>
-                <linkUri>http://go.microsoft.com/fwlink/?LinkId=65846</linkUri>
-              </externalLink>
-            </definedTerm>
-            <definition>
-              <para>Contains information, links, and updates written by the <token>vstecmsbuild</token> product team.</para>
-            </definition>
-            <definedTerm>
-              <externalLink>
-                <linkText>Visual Studio MSBuild Forum</linkText>
-                <linkUri>http://go.microsoft.com/fwlink/?LinkId=48931</linkUri>
-              </externalLink>
-            </definedTerm>
-            <definition>
-              <para>A community forum dedicated to <token>vstecmsbuild</token>.</para>
-            </definition>
-          </definitionTable>
-        </content>
-      </section>
-    </sections>
-  </section>
-  <relatedTopics>
-
-\<link xlink:href="083b8ba3-e4ad-45af-bb5d-3bc81d406131">MSBuild Concepts</link>
-\<link xlink:href="093395e1-70da-4f74-b34d-046c5e2b32e8">MSBuild Reference</link>
-</relatedTopics>
-</developerReferenceWithoutSyntaxDocument>
+The following Web sites and forums can help you find answers to common questions when working with [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)].  
+  
+## Microsoft Resources  
+  
+### On the Web  
+ [MSBuild Channel 9 Web Site](http://go.microsoft.com/fwlink/?LinkId=243092)  
+ Contains information about [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] and links to other [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] sites on the Web.  
+  
+ [MSBuild Team Blog](http://go.microsoft.com/fwlink/?LinkId=65846)  
+ Contains information, links, and updates written by the [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] product team.  
+  
+ [Visual Studio MSBuild Forum](http://go.microsoft.com/fwlink/?LinkId=48931)  
+ A community forum dedicated to [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)].  
+  
+## See Also  
+ [MSBuild](../reference/msbuild1.md)   
+ [MSBuild Concepts](../reference/msbuild-concepts.md)   
+ [MSBuild Reference](../reference/msbuild-reference.md)

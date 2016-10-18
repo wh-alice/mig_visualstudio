@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.Runtime.InteropServices.ExternalException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -38,5 +38,5 @@ translation.priority.mt:
 The base exception type for all COM interop exceptions and structured exception handling (SEH) exceptions.  
   
 ## See Also  
- \<xref:System.Runtime.InteropServices.ExternalException>   
+ <xref:System.Runtime.InteropServices.ExternalException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Creating a View Adornment, Commands, and Settings (Column Guides)"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -508,7 +508,7 @@ namespace ColumnGuides
 }  
 ```  
   
- Instances of this class hold onto the associated \<xref:Microsoft.VisualStudio.Text.Editor.IWpfTextView> and a list of `Line` objects drawn on the view.  
+ Instances of this class hold onto the associated <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextView> and a list of `Line` objects drawn on the view.  
   
  The constructor (called from `ColumnGuideAdornmentTextViewCreationListener` when Visual Studio creates new views) creates the column guide `Line` objects.  The constructor also adds handlers for the `SettingsChanged` event (defined in `GuidesSettingsManager`) and the view events `LayoutChanged` and `Closed`.  
   
@@ -1223,7 +1223,7 @@ private int GetApplicableColumn(EventArgs e)
   
 ```  
   
- `GetCurrentEditorColumn` has to dig a little to get an \<xref:Microsoft.VisualStudio.Text.Editor.IWpfTextView> view of the code.  If you trace through `GetActiveTextView`, `GetActiveView`, and `GetTextViewFromVsTextView`, you can see how to do that.  The following is the relevant code abstracted, starting with the current selection, then getting the selection’s frame, then getting the frame’s DocView as an \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView>, then getting an \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsUserData> from the IVsTextView, then getting a view host, and finally the IWpfTextView:  
+ `GetCurrentEditorColumn` has to dig a little to get an <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextView> view of the code.  If you trace through `GetActiveTextView`, `GetActiveView`, and `GetTextViewFromVsTextView`, you can see how to do that.  The following is the relevant code abstracted, starting with the current selection, then getting the selection’s frame, then getting the frame’s DocView as an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView>, then getting an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsUserData> from the IVsTextView, then getting a view host, and finally the IWpfTextView:  
   
 ```c#  
    IVsMonitorSelection selection =  

@@ -1,7 +1,7 @@
 ---
 title: "&#39;Case&#39; cannot follow a &#39;Case Else&#39; in the same &#39;Select&#39; statement"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na

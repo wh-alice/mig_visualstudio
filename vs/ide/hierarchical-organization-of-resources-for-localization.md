@@ -1,7 +1,7 @@
 ---
 title: "Hierarchical Organization of Resources for Localization"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -64,5 +64,5 @@ In Visual Studio, localized resources (data such as strings and images appropria
  [Security and Localized Satellite Assemblies](../ide/security-and-localized-satellite-assemblies.md)   
  [Localizing Applications](../ide/localizing-applications.md)   
  [Globalizing and Localizing Applications](../ide/globalizing-and-localizing-applications.md)   
- [How to: Set the Culture and UI Culture for Windows Forms Globalization](http://msdn.microsoft.com/694e049f-0b91-474a-9789-d35124f248f0)   
+ [How to: Set the Culture and UI Culture for Windows Forms Globalization](http://msdn.microsoft.com/en-us/694e049f-0b91-474a-9789-d35124f248f0)   
  [How to: Set the Culture and UI Culture for ASP.NET Web Page Globalization](../Topic/How%20to:%20Set%20the%20Culture%20and%20UI%20Culture%20for%20ASP.NET%20Web%20Page%20Globalization.md)

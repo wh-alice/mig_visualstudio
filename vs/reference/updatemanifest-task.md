@@ -1,7 +1,7 @@
 ---
 title: "UpdateManifest Task"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,13 +44,13 @@ Updates selected properties in a manifest and resigns.
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|`ApplicationManifest`|Required \<xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br /> Specifies the application manifest.|  
+|`ApplicationManifest`|Required <xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br /> Specifies the application manifest.|  
 |`ApplicationPath`|Required `String` parameter.<br /><br /> Specifies the path of the application manifest.|  
-|`InputManifest`|Required \<xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br /> Specifies the manifest to update.|  
-|`OutputManifest`|Optional \<xref:Microsoft.Build.Framework.ITaskItem> output parameter.<br /><br /> Specifies the manifest that contains updated properties.|  
+|`InputManifest`|Required <xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br /> Specifies the manifest to update.|  
+|`OutputManifest`|Optional <xref:Microsoft.Build.Framework.ITaskItem> output parameter.<br /><br /> Specifies the manifest that contains updated properties.|  
   
 ## Remarks  
- In addition to having the parameters that are listed in the table, this task inherits parameters from the \<xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [Task Base Class](../reference/task-base-class.md).  
+ In addition to having the parameters that are listed in the table, this task inherits parameters from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [Task Base Class](../reference/task-base-class.md).  
   
 ## See Also  
  [Tasks](../reference/msbuild-tasks.md)   

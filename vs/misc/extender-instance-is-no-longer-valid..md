@@ -1,7 +1,7 @@
 ---
 title: "Extender instance is no longer valid."
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -43,5 +43,5 @@ The Extender instance could not be created successfully or was destroyed.
      Get the Extender instance again by calling DTE.ObjectExtenders.GetExtender().  
   
 ## See Also  
- \<xref:EnvDTE.ObjectExtenders>   
- \<xref:EnvDTE.ObjectExtenders.GetExtender*>
+ <xref:EnvDTE.ObjectExtenders>   
+ <xref:EnvDTE.ObjectExtenders.GetExtender*>

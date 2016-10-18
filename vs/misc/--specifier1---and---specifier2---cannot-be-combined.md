@@ -1,7 +1,7 @@
 ---
 title: "&#39;&lt;specifier1&gt;&#39; and &#39;&lt;specifier2&gt;&#39; cannot be combined"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na

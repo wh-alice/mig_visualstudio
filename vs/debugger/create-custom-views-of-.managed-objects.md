@@ -1,7 +1,7 @@
 ---
 title: "Create custom views of .managed objects"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/17/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -47,7 +47,7 @@ translation.priority.ht:
 You can customize the way Visual Studio displays data types in debugger variable windows.  
   
 ## Attributes  
- In C# and Visual Basic, you can add expansions for custom data using \<xref:System.Diagnostics.DebuggerTypeProxyAttribute>, \<xref:System.Diagnostics.DebuggerDisplayAttribute>, and \<xref:System.Diagnostics.DebuggerBrowsableAttribute>.  
+ In C# and Visual Basic, you can add expansions for custom data using <xref:System.Diagnostics.DebuggerTypeProxyAttribute>, <xref:System.Diagnostics.DebuggerDisplayAttribute>, and <xref:System.Diagnostics.DebuggerBrowsableAttribute>.  
   
  In [!INCLUDE[dnprdnlong](../codequality/includes/dnprdnlong_md.md)] code, Visual Basic does not support the DebuggerBrowsable attribute. This limitation is removed in more recent versions of the .NET Framework.  
   
@@ -60,7 +60,7 @@ You can customize the way Visual Studio displays data types in debugger variable
 > [!CAUTION]
 >  The structure of this file and the syntax of autoexp rules might change from one release of Visual Studio to the next.  
   
- Native type views can also be customized by writing an expression evaluator add-in. For more information, see [EEAddIn Sample: Debugging Expression Evaluator Add-In](http://msdn.microsoft.com/d4f6b068-c812-45bc-9ec0-7e0363c4bb9e).  
+ Native type views can also be customized by writing an expression evaluator add-in. For more information, see [EEAddIn Sample: Debugging Expression Evaluator Add-In](http://msdn.microsoft.com/en-us/d4f6b068-c812-45bc-9ec0-7e0363c4bb9e).  
   
 ## See Also  
  [Using DebuggerTypeProxy Attribute](../debugger/using-debuggertypeproxy-attribute.md)   

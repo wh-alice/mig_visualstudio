@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.Data.ConstraintException"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,11 +37,11 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.Data.ConstraintException
-A \<xref:System.Data.ConstraintException> exception is thrown when an action is attempted that violates a constraint.  
+A <xref:System.Data.ConstraintException> exception is thrown when an action is attempted that violates a constraint.  
   
 ## Associated Tips  
  **Relax or turn off constraints in your DataSets**.  
- You can use the \<xref:System.Data.DataSet.EnforceConstraints*> property to temporarily turn off constraints while filling tables in a \<xref:System.Data.DataSet> object.  
+ You can use the <xref:System.Data.DataSet.EnforceConstraints*> property to temporarily turn off constraints while filling tables in a <xref:System.Data.DataSet> object.  
   
  **Make sure you are not trying to assign a value to a primary key field where the primary key already exists in the data table.**  
  If the primary key exists, this exception is thrown.  
@@ -50,5 +50,5 @@ A \<xref:System.Data.ConstraintException> exception is thrown when an action is 
  If there is data in the dataset when you load it, this exception may be thrown.  
   
 ## See Also  
- \<xref:System.Data.ConstraintException>   
+ <xref:System.Data.ConstraintException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

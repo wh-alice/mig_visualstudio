@@ -1,7 +1,7 @@
 ---
 title: "MSBuild Toolset (ToolsVersion)"
 ms.custom: na
-ms.date: "10/11/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -79,7 +79,7 @@ MSBuild uses a Toolset of tasks, targets, and tools to build an application. Typ
   
 -   By using Toolset properties  
   
--   By using \<xref:Microsoft.Build.Utilities.ToolLocationHelper> methods  
+-   By using <xref:Microsoft.Build.Utilities.ToolLocationHelper> methods  
   
  Toolset properties specify the paths of the tools. MSBuild uses the value of the `ToolsVersion` attribute in the project file to locate the corresponding registry key, and then uses the information in the registry key to set the Toolset properties. For example, if `ToolsVersion` has the value `12.0`, then MSBuild sets the Toolset properties according to this registry key: HKLM\Software\Microsoft\MSBuild\ToolsVersions\12.0.  
   
@@ -91,17 +91,17 @@ MSBuild uses a Toolset of tasks, targets, and tools to build an application. Typ
   
 -   `SDK35ToolsPath` specifies the path of additional managed tools for MSBuild 3.5.  
   
- Alternately, you can determine the Toolset programmatically by calling the methods of the \<xref:Microsoft.Build.Utilities.ToolLocationHelper> class. The class includes these methods:  
+ Alternately, you can determine the Toolset programmatically by calling the methods of the <xref:Microsoft.Build.Utilities.ToolLocationHelper> class. The class includes these methods:  
   
--   \<xref:Microsoft.Build.Utilities.ToolLocationHelper.GetPathToDotNetFramework*> returns the path of the .NET Framework folder.  
+-   <xref:Microsoft.Build.Utilities.ToolLocationHelper.GetPathToDotNetFramework*> returns the path of the .NET Framework folder.  
   
--   \<xref:Microsoft.Build.Utilities.ToolLocationHelper.GetPathToDotNetFrameworkFile*> returns the path of a file in the .NET Framework folder.  
+-   <xref:Microsoft.Build.Utilities.ToolLocationHelper.GetPathToDotNetFrameworkFile*> returns the path of a file in the .NET Framework folder.  
   
--   \<xref:Microsoft.Build.Utilities.ToolLocationHelper.GetPathToDotNetFrameworkSdk*> returns the path of the managed tools folder.  
+-   <xref:Microsoft.Build.Utilities.ToolLocationHelper.GetPathToDotNetFrameworkSdk*> returns the path of the managed tools folder.  
   
--   \<xref:Microsoft.Build.Utilities.ToolLocationHelper.GetPathToDotNetFrameworkSdkFile*> returns the path of a file, which is typically located in the managed tools folder.  
+-   <xref:Microsoft.Build.Utilities.ToolLocationHelper.GetPathToDotNetFrameworkSdkFile*> returns the path of a file, which is typically located in the managed tools folder.  
   
--   \<xref:Microsoft.Build.Utilities.ToolLocationHelper.GetPathToBuildTools*> returns the path of the build tools.  
+-   <xref:Microsoft.Build.Utilities.ToolLocationHelper.GetPathToBuildTools*> returns the path of the build tools.  
   
 ### Sub-toolsets  
  As described earlier in this topic, MSBuild uses a registry key to specify the path of the basic tools. If the key has a subkey, MSBuild uses it to specify the path of a sub-toolset that contains additional tools. In this case, the Toolset is defined by combining the property definitions that are defined in both keys.  

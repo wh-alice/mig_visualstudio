@@ -1,7 +1,7 @@
 ---
 title: "&#39;Line&#39; statements are no longer supported (Smart Device-Visual Basic Compiler Error)"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -35,17 +35,17 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # &#39;Line&#39; statements are no longer supported (Smart Device/Visual Basic Compiler Error)
-The `Line` statement is no longer supported. File I/O functionality is normally available as \<xref:Microsoft.VisualBasic.FileSystem.LineInput*?displayProperty=fullName>, but the targeted version of the .NET Compact Framework does not support it.  
+The `Line` statement is no longer supported. File I/O functionality is normally available as <xref:Microsoft.VisualBasic.FileSystem.LineInput*?displayProperty=fullName>, but the targeted version of the .NET Compact Framework does not support it.  
   
  **Error ID:** BC30768  
   
 ### To correct this error  
   
--   If performing file access, use the functions defined in the \<xref:System.IO> namespace.  
+-   If performing file access, use the functions defined in the <xref:System.IO> namespace.  
   
--   If performing graphics, use \<xref:System.Drawing.Graphics.DrawLine*?displayProperty=fullName>.  
+-   If performing graphics, use <xref:System.Drawing.Graphics.DrawLine*?displayProperty=fullName>.  
   
 ## See Also  
- \<xref:System.IO>   
- \<xref:System.Drawing>   
+ <xref:System.IO>   
+ <xref:System.Drawing>   
  [File Access with Visual Basic](../Topic/File%20Access%20with%20Visual%20Basic.md)

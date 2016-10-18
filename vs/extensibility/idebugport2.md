@@ -1,7 +1,7 @@
 ---
 title: "IDebugPort2"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,7 +44,7 @@ IDebugPort2 : IUnknown
 ## Notes for Implementers  
  A custom port supplier implements this interface to represent a debug port on a machine.  
   
- If the port supports sending port events, it must also implement the \<xref:System.Runtime.InteropServices.ComTypes.IConnectionPointContainer> interface to support an \<xref:System.Runtime.InteropServices.ComTypes.IConnectionPoint> interface that in turn provides the [IDebugPortEvents2](../extensibility/idebugportevents2.md) interface.  
+ If the port supports sending port events, it must also implement the <xref:System.Runtime.InteropServices.ComTypes.IConnectionPointContainer> interface to support an <xref:System.Runtime.InteropServices.ComTypes.IConnectionPoint> interface that in turn provides the [IDebugPortEvents2](../extensibility/idebugportevents2.md) interface.  
   
 ## Notes for Callers  
  Calls to [GetPort](../extensibility/idebugportsupplier2--getport.md) or [AddPort](../extensibility/idebugportsupplier2--addport.md) return this interface, representing the requested port.  

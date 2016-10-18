@@ -1,7 +1,7 @@
 ---
 title: "Attributes cannot be applied to parameters of lambda expressions"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -53,6 +53,6 @@ End Sub
 -   Remove the attribute, or consider revising your code by changing the lambda expression to a regular function.  
   
 ## See Also  
- \<xref:System.Runtime.InteropServices.InAttribute>   
+ <xref:System.Runtime.InteropServices.InAttribute>   
  [Lambda Expressions](../Topic/Lambda%20Expressions%20\(Visual%20Basic\).md)   
- [NOT IN BUILD: Attributes in Visual Basic](http://msdn.microsoft.com/620bfc0e-4582-4c8b-8432-ebc5c3dccc22)
+ [NOT IN BUILD: Attributes in Visual Basic](http://msdn.microsoft.com/en-us/620bfc0e-4582-4c8b-8432-ebc5c3dccc22)

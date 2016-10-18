@@ -1,7 +1,7 @@
 ---
 title: "Create a Windows Form to search data"
 ms.custom: na
-ms.date: "10/07/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -115,14 +115,14 @@ A common application scenario is to display selected data on a form. For example
   
 2.  Drag the **Customers** node from the **Data Sources** window to your form.  
   
-     A \<xref:System.Windows.Forms.DataGridView> and a tool strip (\<xref:System.Windows.Forms.BindingNavigator>) for navigating records appear on the form. A [NorthwindDataSet](../datatools/dataset-tools-in-visual-studio.md), [CustomersTableAdapter](../datatools/tableadapter-overview.md), \<xref:System.Windows.Forms.BindingSource>, and \<xref:System.Windows.Forms.BindingNavigator> appear in the component tray.  
+     A <xref:System.Windows.Forms.DataGridView> and a tool strip (<xref:System.Windows.Forms.BindingNavigator>) for navigating records appear on the form. A [NorthwindDataSet](../datatools/dataset-tools-in-visual-studio.md), [CustomersTableAdapter](../datatools/tableadapter-overview.md), <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray.  
   
 ## Addparameterization (search functionality) to the query  
  You can add a WHERE clause to the original query using the **Search Criteria Builder** dialog box.  
   
 #### To create a parameterized query and controls to enter the parameters  
   
-1.  Select the \<xref:System.Windows.Forms.DataGridView> control, and then choose **Add Query** on the **Data** menu.  
+1.  Select the <xref:System.Windows.Forms.DataGridView> control, and then choose **Add Query** on the **Data** menu.  
   
 2.  Type `FillByCity` in the **New query name** area on the **Search Criteria Builder** dialog box.  
   

@@ -1,7 +1,7 @@
 ---
 title: "Build Page, Project Designer (C#)"
 ms.custom: na
-ms.date: "10/11/2016"
+ms.date: "10/17/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,7 +44,7 @@ Use the **Build** page of the **Project Designer** to specify the project's buil
  The following options enable you to select the configuration and platform to display or modify.  
   
 > [!NOTE]
->  With simplified build configurations, the project system determines whether to build a debug or release version. Therefore, these options are not displayed. For more information, see [Debug and Release Project Configurations](http://msdn.microsoft.com/0440b300-0614-4511-901a-105b771b236e).  
+>  With simplified build configurations, the project system determines whether to build a debug or release version. Therefore, these options are not displayed. For more information, see [Debug and Release Project Configurations](http://msdn.microsoft.com/en-us/0440b300-0614-4511-901a-105b771b236e).  
   
  **Configuration**  
  Specifies which configuration settings to display or modify. The settings can be **Active (Debug)** (this is the default), **Debug**, **Release**, or **All Configurations**.  
@@ -113,9 +113,9 @@ Use the **Build** page of the **Project Designer** to specify the project's buil
  The following settings are used to configure the output options for the build process.  
   
  **Output path**  
- Specifies the location of the output files for this project's configuration. Enter the path of the build output in this box, or choose the **Browse** button to specify a path. Note that the path is relative; if you enter an absolute path, it will be saved as relative. The default path is bin\Debug or bin\Release\\. For more information, see [Debug and Release Project Configurations](http://msdn.microsoft.com/0440b300-0614-4511-901a-105b771b236e).  
+ Specifies the location of the output files for this project's configuration. Enter the path of the build output in this box, or choose the **Browse** button to specify a path. Note that the path is relative; if you enter an absolute path, it will be saved as relative. The default path is bin\Debug or bin\Release\\. For more information, see [Debug and Release Project Configurations](http://msdn.microsoft.com/en-us/0440b300-0614-4511-901a-105b771b236e).  
   
- With simplified build configurations, the project system determines whether to build a debug or release version. The **Build** command from the **Debug** menu (F5) will put the build in the debug location regardless of the **Output path** you specify. However, the **Build** command from the **Build** menu puts it in the location you specify. For more information, see [Debug and Release Project Configurations](http://msdn.microsoft.com/0440b300-0614-4511-901a-105b771b236e).  
+ With simplified build configurations, the project system determines whether to build a debug or release version. The **Build** command from the **Debug** menu (F5) will put the build in the debug location regardless of the **Output path** you specify. However, the **Build** command from the **Build** menu puts it in the location you specify. For more information, see [Debug and Release Project Configurations](http://msdn.microsoft.com/en-us/0440b300-0614-4511-901a-105b771b236e).  
   
  **XML documentation file**  
  Specifies the name of a file into which documentation comments will be processed. For more information, see [/doc (C# Compiler Options)](../Topic/-doc%20\(C%23%20Compiler%20Options\).md).  
@@ -124,7 +124,7 @@ Use the **Build** page of the **Project Designer** to specify the project's buil
  Indicates that your managed application will expose a COM object (a COM callable wrapper) that allows a COM object to interact with your managed application. The **Output type** property in the [Application page](../reference/application-page--project-designer--visual-basic-.md) of the **Project Designer** for this application must be set to **Class Library** in order for the **Register for COM interop** property to be available. For an example class that you might include in your [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] application and expose as a COM object, see [Example COM Class](../Topic/Example%20COM%20Class%20\(C%23%20Programming%20Guide\).md).  
   
  **Generate serialization assembly**  
- Specifies whether the compiler will use the XML Serializer Generator Tool (Sgen.exe) to create XML serialization assemblies. Serialization assemblies can improve the startup performance of \<xref:System.Xml.Serialization.XmlSerializer> if you have used that class to serialize types in your code. By default, this option is set to **Auto**, which specifies that serialization assemblies be generated only if you have used \<xref:System.Xml.Serialization.XmlSerializer> to encode types in your code to XML. **Off** specifies that serialization assemblies never be generated, regardless of whether your code uses \<xref:System.Xml.Serialization.XmlSerializer>. **On** specifies that serialization assemblies always be generated. Serialization assemblies are named `TypeName`.XmlSerializers.dll. For more information, see [XML Serializer Generator Tool (Sgen.exe)](../Topic/XML%20Serializer%20Generator%20Tool%20\(Sgen.exe\).md).  
+ Specifies whether the compiler will use the XML Serializer Generator Tool (Sgen.exe) to create XML serialization assemblies. Serialization assemblies can improve the startup performance of <xref:System.Xml.Serialization.XmlSerializer> if you have used that class to serialize types in your code. By default, this option is set to **Auto**, which specifies that serialization assemblies be generated only if you have used <xref:System.Xml.Serialization.XmlSerializer> to encode types in your code to XML. **Off** specifies that serialization assemblies never be generated, regardless of whether your code uses <xref:System.Xml.Serialization.XmlSerializer>. **On** specifies that serialization assemblies always be generated. Serialization assemblies are named `TypeName`.XmlSerializers.dll. For more information, see [XML Serializer Generator Tool (Sgen.exe)](../Topic/XML%20Serializer%20Generator%20Tool%20\(Sgen.exe\).md).  
   
  **Advanced**  
  Click to display the [Advanced Build Settings Dialog Box (C#)](../reference/advanced-build-settings-dialog-box--csharp-.md) dialog box.  

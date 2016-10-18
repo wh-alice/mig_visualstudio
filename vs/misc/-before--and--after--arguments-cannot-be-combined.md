@@ -1,7 +1,7 @@
 ---
 title: "&#39;Before&#39; and &#39;After&#39; arguments cannot be combined"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,4 +39,4 @@ An argument list includes both the `Before` and `After` arguments, which are mut
 1.  Remove either the `Before` or `After` argument.  
   
 ## See Also  
- \<xref:System.Xml.XmlNodeOrder>
+ <xref:System.Xml.XmlNodeOrder>

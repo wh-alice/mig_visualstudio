@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Creating a WCF Data Service with WPF and Entity Framework"
 ms.custom: na
-ms.date: "10/11/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -195,7 +195,7 @@ This walkthrough demonstrates how to create a simple [!INCLUDE[ss_data_service](
   
 2.  In the **Form1.vb** or **Form1.cs** form designer, open the shortcut menu and choose **Paste**.  
   
-     A \<xref:System.Windows.Forms.DataGridView> control, a \<xref:System.Windows.Forms.BindingSource> component, and a \<xref:System.Windows.Forms.BindingNavigator> component are added to the form.  
+     A <xref:System.Windows.Forms.DataGridView> control, a <xref:System.Windows.Forms.BindingSource> component, and a <xref:System.Windows.Forms.BindingNavigator> component are added to the form.  
   
 3.  Choose the **CustomersDataGridView** control, and then in the **Properties** window set the **Dock** property to **Fill**.  
   
@@ -247,9 +247,9 @@ This walkthrough demonstrates how to create a simple [!INCLUDE[ss_data_service](
   
 1.  In **Solution Explorer**, open the shortcut menu for the **Form1.vb** or **Form1.cs** node and choose **Open**.  
   
-2.  Add a \<xref:System.Windows.Forms.TextBox> control and a \<xref:System.Windows.Forms.Button> control from the **Toolbox** to the form.  
+2.  Add a <xref:System.Windows.Forms.TextBox> control and a <xref:System.Windows.Forms.Button> control from the **Toolbox** to the form.  
   
-3.  Open the shortcut menu for the \<xref:System.Windows.Forms.Button> control, and choose **View Code**, and then add the following code in the `Button1_Click` event handler:  
+3.  Open the shortcut menu for the <xref:System.Windows.Forms.Button> control, and choose **View Code**, and then add the following code in the `Button1_Click` event handler:  
   
     ```vb  
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click  

@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.DirectoryServices.Protocols.TlsOperationException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -33,8 +33,8 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.DirectoryServices.Protocols.TlsOperationException
-The exception that is thrown by the \<xref:System.DirectoryServices.Protocols.LdapSessionOptions.StartTransportLayerSecurity*> method if the request fails.  
+The exception that is thrown by the <xref:System.DirectoryServices.Protocols.LdapSessionOptions.StartTransportLayerSecurity*> method if the request fails.  
   
 ## See Also  
- \<xref:System.DirectoryServices.Protocols.TlsOperationException>   
+ <xref:System.DirectoryServices.Protocols.TlsOperationException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

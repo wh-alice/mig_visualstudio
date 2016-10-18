@@ -1,7 +1,7 @@
 ---
 title: "&#39;MyBase&#39; must be followed by &#39;.&#39; and an identifier"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -46,5 +46,5 @@ translation.priority.mt:
 -   If you do not intend member access, declare and initialize an instance of the base class, or remove the reference to `MyBase`.  
   
 ## See Also  
- [MyBase - delete](http://msdn.microsoft.com/52491d06-6451-4f6f-9aa6-8fab59bbc2b9)   
+ [MyBase - delete](http://msdn.microsoft.com/en-us/52491d06-6451-4f6f-9aa6-8fab59bbc2b9)   
  [Inheritance Basics](../Topic/Inheritance%20Basics%20\(Visual%20Basic\).md)

@@ -1,7 +1,7 @@
 ---
 title: "Compiler Error CS0250"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -40,7 +40,7 @@ Do not directly call your base class Finalize method. It is called automatically
   
  A program cannot attempt to force cleanup of base class resources.  
   
- See [Finalize Methods and Destructors](http://msdn.microsoft.com/fd376774-1643-499b-869e-9546a3aeea70) for more information.  
+ See [Finalize Methods and Destructors](http://msdn.microsoft.com/en-us/fd376774-1643-499b-869e-9546a3aeea70) for more information.  
   
  The following sample generates CS0250  
   

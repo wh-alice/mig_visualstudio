@@ -1,7 +1,7 @@
 ---
 title: "Stop request is pending"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -49,7 +49,7 @@ In the Visual Studio debugger, an expression specifies a procedure call, but the
   
 ## See Also  
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)   
- [How to: Start Execution](http://msdn.microsoft.com/b0fe0ce5-900e-421f-a4c6-aa44ddae453c)   
- [How to: Stop Debugging or Stop Execution](http://msdn.microsoft.com/03c68f95-aa96-481b-990e-467e065453a5)   
- [Code Stepping Overview](http://msdn.microsoft.com/8791dac9-64d1-4bb9-b59e-8d59af1833f9)   
+ [How to: Start Execution](http://msdn.microsoft.com/en-us/b0fe0ce5-900e-421f-a4c6-aa44ddae453c)   
+ [How to: Stop Debugging or Stop Execution](http://msdn.microsoft.com/en-us/03c68f95-aa96-481b-990e-467e065453a5)   
+ [Code Stepping Overview](http://msdn.microsoft.com/en-us/8791dac9-64d1-4bb9-b59e-8d59af1833f9)   
  [Expressions in Visual Basic](../Topic/Expressions%20in%20Visual%20Basic.md)

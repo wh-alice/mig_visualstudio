@@ -1,7 +1,7 @@
 ---
 title: "Attribute &#39;Conditional&#39; is only valid on &#39;Sub&#39; declarations"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -35,14 +35,14 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Attribute &#39;Conditional&#39; is only valid on &#39;Sub&#39; declarations
-The \<xref:System.Diagnostics.ConditionalAttribute> attribute has been applied to a method declaration other than a `Sub` procedure.  
+The <xref:System.Diagnostics.ConditionalAttribute> attribute has been applied to a method declaration other than a `Sub` procedure.  
   
  **Error ID:** BC41007  
   
 ### To correct this error  
   
-1.  Remove the \<xref:System.Diagnostics.ConditionalAttribute> from the invalid declaration.  
+1.  Remove the <xref:System.Diagnostics.ConditionalAttribute> from the invalid declaration.  
   
 ## See Also  
- \<xref:System.Diagnostics.ConditionalAttribute>   
+ <xref:System.Diagnostics.ConditionalAttribute>   
  [Sub Statement](../Topic/Sub%20Statement%20\(Visual%20Basic\).md)

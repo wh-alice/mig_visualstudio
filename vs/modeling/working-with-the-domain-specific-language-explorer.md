@@ -1,7 +1,7 @@
 ---
 title: "Working with the Domain-Specific Language Explorer"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -40,4 +40,4 @@ The **DSL Explorer** displays several kinds of information in a tree view. For m
 -   **Xml Serialization Behavior**. Serialization settings for the model. For more information about serialization, see [Customizing File Storage and XML Serialization](../modeling/customizing-file-storage-and-xml-serialization.md).  
   
 ## See Also  
- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+ [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/en-us/ca5e84cb-a315-465c-be24-76aa3df276aa)

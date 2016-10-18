@@ -1,7 +1,7 @@
 ---
 title: "&#39;Next&#39; statement names more variables than there are matching &#39;For&#39; statements"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na

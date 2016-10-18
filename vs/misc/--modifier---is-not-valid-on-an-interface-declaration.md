@@ -1,7 +1,7 @@
 ---
 title: "&#39;&lt;modifier&gt;&#39; is not valid on an Interface declaration"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,4 +44,4 @@ You have used a modifier that is not valid on an `Interface` declaration. The on
 -   Remove the modifier.  
   
 ## See Also  
- [NOT IN BUILD: Interface Definition](http://msdn.microsoft.com/7840a52c-9c38-42c4-adbc-e2c02e9dc204)
+ [NOT IN BUILD: Interface Definition](http://msdn.microsoft.com/en-us/7840a52c-9c38-42c4-adbc-e2c02e9dc204)

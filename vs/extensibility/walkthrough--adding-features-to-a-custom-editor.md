@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Adding Features to a Custom Editor"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -45,7 +45,7 @@ After you create a custom editor, you can add more features to it.
   
      For an example of multiple views, see [Supporting Multiple Document Views](../extensibility/supporting-multiple-document-views.md).  
   
-3.  Implement an editor factory by implementing the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory> interface.  
+3.  Implement an editor factory by implementing the <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory> interface.  
   
      For more information, see [Editor Factories](../extensibility/editor-factories.md).  
   
@@ -53,52 +53,52 @@ After you create a custom editor, you can add more features to it.
   
      A simplified embedding editor window hosts a standard document view, while an in-place activation editor window hosts an ActiveX control or other active object as its document view. For more information, see [Simplified Embedding](../extensibility/simplified-embedding.md) and [In-Place Activation](../misc/in-place-activation.md).  
   
-5.  Implement the \<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface to handle commands.  
+5.  Implement the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface to handle commands.  
   
 6.  Provide document persistence and response to external file changes by doing the following:  
   
-    1.  To persist the file, implement \<xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistDocData2> and \<xref:Microsoft.VisualStudio.Shell.Interop.IPersistFileFormat> on your editor's document data object.  
+    1.  To persist the file, implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistDocData2> and <xref:Microsoft.VisualStudio.Shell.Interop.IPersistFileFormat> on your editor's document data object.  
   
-    2.  To respond to external file changes, implement \<xref:Microsoft.VisualStudio.Shell.Interop.IVsFileChangeEx> and \<xref:Microsoft.VisualStudio.Shell.Interop.IVsDocDataFileChangeControl> on your editor's document data object.  
+    2.  To respond to external file changes, implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsFileChangeEx> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsDocDataFileChangeControl> on your editor's document data object.  
   
         > [!NOTE]
-        >  Call `QueryService` on \<xref:Microsoft.VisualStudio.Shell.Interop.SVsFileChangeEx> to obtain a pointer to `IVsFileChangeEx`.  
+        >  Call `QueryService` on <xref:Microsoft.VisualStudio.Shell.Interop.SVsFileChangeEx> to obtain a pointer to `IVsFileChangeEx`.  
   
 7.  Coordinate document edit events with source code control. To do this:  
   
-    1.  Obtain a pointer to `IVsQueryEditQuerySave2` by calling `QueryService` on \<xref:Microsoft.VisualStudio.Shell.Interop.SVsQueryEditQuerySave>.  
+    1.  Obtain a pointer to `IVsQueryEditQuerySave2` by calling `QueryService` on <xref:Microsoft.VisualStudio.Shell.Interop.SVsQueryEditQuerySave>.  
   
-    2.  When the first edit event occurs, call the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QueryEditFiles*> method.  
+    2.  When the first edit event occurs, call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QueryEditFiles*> method.  
   
          This prompts the user to check out the file if it is not already checked out. Be sure to handle a "file not checked out" condition to avert errors  
   
-    3.  Similarly, before saving the file, call the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QuerySaveFile*> method.  
+    3.  Similarly, before saving the file, call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QuerySaveFile*> method.  
   
          This method prompts the user to save the file if it has not been saved or if it has changed since the last save.  
   
 8.  Enable the **Properties** window to display properties for text selected in the editor. To do this:  
   
-    1.  Call \<xref:Microsoft.VisualStudio.Shell.Interop.ITrackSelection.OnSelectChange*> each time text selection changes, passing in your implementation of \<xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer>.  
+    1.  Call <xref:Microsoft.VisualStudio.Shell.Interop.ITrackSelection.OnSelectChange*> each time text selection changes, passing in your implementation of <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer>.  
   
-    2.  Call `QueryService` on \<xref:Microsoft.VisualStudio.Shell.Interop.STrackSelection> service to obtain a pointer to \<xref:Microsoft.VisualStudio.Shell.Interop.ITrackSelection>.  
+    2.  Call `QueryService` on <xref:Microsoft.VisualStudio.Shell.Interop.STrackSelection> service to obtain a pointer to <xref:Microsoft.VisualStudio.Shell.Interop.ITrackSelection>.  
   
 9. Enable users to drag and drop items between the editor and the **Toolbox**, or between external editors (like Microsoft Word) and the **Toolbox**. To do this:  
   
     1.  Implement `IDropTarget` on your editor to alert the IDE that your editor is a drop target.  
   
-    2.  Implement the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxUser> interface on the view so your editor can enable and disable items in the **Toolbox**.  
+    2.  Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxUser> interface on the view so your editor can enable and disable items in the **Toolbox**.  
   
-    3.  Implement \<xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.ResetDefaults*> and call `QueryService` on \<xref:Microsoft.VisualStudio.Shell.Interop.SVsToolbox> service to obtain a pointer to the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2> and \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox3> interfaces.  
+    3.  Implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.ResetDefaults*> and call `QueryService` on <xref:Microsoft.VisualStudio.Shell.Interop.SVsToolbox> service to obtain a pointer to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox3> interfaces.  
   
          This enables your VSPackage to add new items to the **Toolbox**.  
   
 10. Decide whether you want any other optional features for your editor.  
   
-    -   If you want your editor to support find and replace commands, implement \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget>.  
+    -   If you want your editor to support find and replace commands, implement <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget>.  
   
     -   If you want to use a document outline tool window in your editor, implement `IVsDocOutlineProvider`.  
   
-    -   If you want to use a status bar in your editor, implement \<xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbarUser> and call `QueryService` for \<xref:Microsoft.VisualStudio.Shell.Interop.SVsStatusbar> to obtain a pointer to `IVsStatusBar`.  
+    -   If you want to use a status bar in your editor, implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbarUser> and call `QueryService` for <xref:Microsoft.VisualStudio.Shell.Interop.SVsStatusbar> to obtain a pointer to `IVsStatusBar`.  
   
          For example, an editor can display line / column information, selection mode (stream / box), and insertion mode (insert / overstrike).  
   
@@ -136,28 +136,28 @@ After you create a custom editor, you can add more features to it.
   
 ## Robust Programming  
   
--   The editor instance is created when the IDE calls the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory.CreateEditorInstance*> method. If the editor supports multiple views, `CreateEditorInstance` creates both the document data and the document view objects. If the document data object is already open, a non-null `punkDocDataExisting` value is passed to `IVsEditorFactory::CreateEditorInstance`. Your editor factory implementation must determine whether an existing document data object is compatible by querying for appropriate interfaces on it. For more information, see [Supporting Multiple Document Views](../extensibility/supporting-multiple-document-views.md).  
+-   The editor instance is created when the IDE calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory.CreateEditorInstance*> method. If the editor supports multiple views, `CreateEditorInstance` creates both the document data and the document view objects. If the document data object is already open, a non-null `punkDocDataExisting` value is passed to `IVsEditorFactory::CreateEditorInstance`. Your editor factory implementation must determine whether an existing document data object is compatible by querying for appropriate interfaces on it. For more information, see [Supporting Multiple Document Views](../extensibility/supporting-multiple-document-views.md).  
   
--   If you use the simplified embedding approach, implement the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowPane> interface.  
+-   If you use the simplified embedding approach, implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowPane> interface.  
   
 -   If you decide to use in-place activation, implement the following interfaces:  
   
-     \<xref:Microsoft.VisualStudio.OLE.Interop.IOleObject>  
+     <xref:Microsoft.VisualStudio.OLE.Interop.IOleObject>  
   
-     \<xref:Microsoft.VisualStudio.OLE.Interop.IOleInPlaceActiveObject>  
+     <xref:Microsoft.VisualStudio.OLE.Interop.IOleInPlaceActiveObject>  
   
-     \<xref:Microsoft.VisualStudio.Shell.Interop.IOleInPlaceComponent>  
+     <xref:Microsoft.VisualStudio.Shell.Interop.IOleInPlaceComponent>  
   
     > [!NOTE]
     >  The `IOleInPlaceComponent` interface is used to avoid OLE 2 menu merging.  
   
-     Your `IOleCommandTarget` implementation handles commands such as **Cut**, **Copy**, and **Paste**. When implementing `IOleCommandTarget`, decide whether your editor requires its own .vsct file to define its own command menu structure or if it can implement standard commands defined by [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. Typically, editors use and extend the IDE's menus and define their own toolbars. However, it often is necessary for an editor to define its own specific commands in addition to using the IDE's standard command set. To do this, your editor must declare the standard commands it uses and then define any new commands, context menus, top-level menus and toolbars in a .vsct file. If you create an in-place activation editor, then implement \<xref:Microsoft.VisualStudio.Shell.Interop.IOleInPlaceComponent> and define the menus and toolbars for the editor in a .vsct file instead of using OLE 2 menu merging.  
+     Your `IOleCommandTarget` implementation handles commands such as **Cut**, **Copy**, and **Paste**. When implementing `IOleCommandTarget`, decide whether your editor requires its own .vsct file to define its own command menu structure or if it can implement standard commands defined by [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. Typically, editors use and extend the IDE's menus and define their own toolbars. However, it often is necessary for an editor to define its own specific commands in addition to using the IDE's standard command set. To do this, your editor must declare the standard commands it uses and then define any new commands, context menus, top-level menus and toolbars in a .vsct file. If you create an in-place activation editor, then implement <xref:Microsoft.VisualStudio.Shell.Interop.IOleInPlaceComponent> and define the menus and toolbars for the editor in a .vsct file instead of using OLE 2 menu merging.  
   
 -   To prevent menu command crowding in the UI, you should use the existing commands in the IDE before inventing new commands. Shared commands are defined in SharedCmdDef.vsct and ShellCmdDef.vsct. These files are installed by default in the VisualStudioIntegration\Common\Inc subdirectory of your [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] installation.  
   
 -   `ISelectionContainer` can express both single and multiple selections. Each selected object is implemented as an `IDispatch` object.  
   
--   The IDE implements `IOleUndoManager` as a service accessible from a \<xref:Microsoft.VisualStudio.Shell.Interop.ILocalRegistry2.CreateInstance*> or as an object that can be instantiated through \<xref:Microsoft.VisualStudio.Shell.Interop.ILocalRegistry2.CreateInstance*>. Your editor implements the `IOleUndoUnit` interface for each `Undo` action.  
+-   The IDE implements `IOleUndoManager` as a service accessible from a <xref:Microsoft.VisualStudio.Shell.Interop.ILocalRegistry2.CreateInstance*> or as an object that can be instantiated through <xref:Microsoft.VisualStudio.Shell.Interop.ILocalRegistry2.CreateInstance*>. Your editor implements the `IOleUndoUnit` interface for each `Undo` action.  
   
 -   There are two places a custom editor can expose automation objects:  
   

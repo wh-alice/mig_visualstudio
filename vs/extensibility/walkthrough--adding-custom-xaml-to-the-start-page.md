@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Adding Custom XAML to the Start Page"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -103,4 +103,4 @@ This walkthrough shows how to create a custom Visual Studio Start Page that cont
   
 ## See Also  
  [Customizing the Start Page](../ide/customizing-the-start-page-for-visual-studio.md)   
- [WPF Container Controls](http://msdn.microsoft.com/a0177167-d7db-4205-9607-8ae316952566)
+ [WPF Container Controls](http://msdn.microsoft.com/en-us/a0177167-d7db-4205-9607-8ae316952566)

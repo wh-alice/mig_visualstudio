@@ -1,7 +1,7 @@
 ---
 title: "Fully qualified names for types in namespaces cannot be longer than &lt;number&gt; characters"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,4 +44,4 @@ The fully qualified name of the type cannot be longer than the specified number 
 -   Shorten the name of the type.  
   
 ## See Also  
- [Type Checking in Visual Basic](http://msdn.microsoft.com/775c354e-b348-4d01-a9fe-a6d939e908d5)
+ [Type Checking in Visual Basic](http://msdn.microsoft.com/en-us/775c354e-b348-4d01-a9fe-a6d939e908d5)

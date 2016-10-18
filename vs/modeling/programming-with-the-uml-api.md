@@ -1,7 +1,7 @@
 ---
 title: "Programming with the UML API"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -62,19 +62,19 @@ The UML API of Visual Studio lets you write code to create, read, and update UML
 |Assembly|Namespaces|Provides access to:|  
 |--------------|----------------|-------------------------|  
 |Microsoft.VisualStudio.Uml.Interfaces|(All)|The UML types.|  
-|Microsoft.VisualStudio.ArchitectureTools.Extensibility|\<xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Uml>|[Creation methods](../modeling/create-elements-and-relationships-in-uml-models.md)|  
-||\<xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Presentation>|[Diagrams and Shapes](../modeling/display-a-uml-model-on-diagrams.md)|  
-||\<xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility>|[The modeling project](../modeling/read-a-uml-model-in-program-code.md)|  
-|Microsoft.VisualStudio.Modeling.Sdk.[version]|\<xref:Microsoft.VisualStudio.Modeling.ExtensionEnablement>|[Menu command extension](../modeling/define-a-menu-command-on-a-modeling-diagram.md).<br /><br /> [Linked Undo transactions](../modeling/link-uml-model-updates-by-using-transactions.md).|  
-||\<xref:Microsoft.VisualStudio.Modeling.Validation>|[Validation](../modeling/define-validation-constraints-for-uml-models.md)|  
+|Microsoft.VisualStudio.ArchitectureTools.Extensibility|<xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Uml>|[Creation methods](../modeling/create-elements-and-relationships-in-uml-models.md)|  
+||<xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Presentation>|[Diagrams and Shapes](../modeling/display-a-uml-model-on-diagrams.md)|  
+||<xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility>|[The modeling project](../modeling/read-a-uml-model-in-program-code.md)|  
+|Microsoft.VisualStudio.Modeling.Sdk.[version]|<xref:Microsoft.VisualStudio.Modeling.ExtensionEnablement>|[Menu command extension](../modeling/define-a-menu-command-on-a-modeling-diagram.md).<br /><br /> [Linked Undo transactions](../modeling/link-uml-model-updates-by-using-transactions.md).|  
+||<xref:Microsoft.VisualStudio.Modeling.Validation>|[Validation](../modeling/define-validation-constraints-for-uml-models.md)|  
 ||(other namespaces)|Recommended only for advanced use.|  
-|Microsoft.VisualStudio.Modeling.Sdk.Diagrams.[version]|\<xref:Microsoft.VisualStudio.Modeling.Diagrams.ExtensionEnablement>|[Gesture handlers](../modeling/define-a-gesture-handler-on-a-modeling-diagram.md).|  
+|Microsoft.VisualStudio.Modeling.Sdk.Diagrams.[version]|<xref:Microsoft.VisualStudio.Modeling.Diagrams.ExtensionEnablement>|[Gesture handlers](../modeling/define-a-gesture-handler-on-a-modeling-diagram.md).|  
 ||(other namespaces)|Recommended only for advanced use.|  
-|Microsoft.VisualStudio.TeamFoundation.WorkItemTracking|\<xref:Microsoft.VisualStudio.TeamFoundation.WorkItemTracking>|[Links to work items](../modeling/define-a-work-item-link-handler.md).|  
-|Microsoft.TeamFoundation.WorkItemTracking.Client|\<xref:Microsoft.TeamFoundation.WorkItemTracking.Client>|[Work items and their fields](../modeling/define-a-work-item-link-handler.md).|  
-|Microsoft.TeamFoundation.Client|\<xref:Microsoft.TeamFoundation.Client>|[Work items and their fields](../modeling/define-a-work-item-link-handler.md).|  
-|System.ComponentModel.Composition|\<xref:System.ComponentModel.Composition>|[Export and Import for MEF components](../modeling/define-and-install-a-modeling-extension.md)|  
-|System.Linq|\<xref:System.Linq>|[Easy manipulation of collections, especially when dealing with relationships](../modeling/navigate-relationships-with-the-uml-api.md).|  
+|Microsoft.VisualStudio.TeamFoundation.WorkItemTracking|<xref:Microsoft.VisualStudio.TeamFoundation.WorkItemTracking>|[Links to work items](../modeling/define-a-work-item-link-handler.md).|  
+|Microsoft.TeamFoundation.WorkItemTracking.Client|<xref:Microsoft.TeamFoundation.WorkItemTracking.Client>|[Work items and their fields](../modeling/define-a-work-item-link-handler.md).|  
+|Microsoft.TeamFoundation.Client|<xref:Microsoft.TeamFoundation.Client>|[Work items and their fields](../modeling/define-a-work-item-link-handler.md).|  
+|System.ComponentModel.Composition|<xref:System.ComponentModel.Composition>|[Export and Import for MEF components](../modeling/define-and-install-a-modeling-extension.md)|  
+|System.Linq|<xref:System.Linq>|[Easy manipulation of collections, especially when dealing with relationships](../modeling/navigate-relationships-with-the-uml-api.md).|  
   
 ## See Also  
  [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md)   

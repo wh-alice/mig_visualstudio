@@ -1,7 +1,7 @@
 ---
 title: "How to: Provide Custom Toolbox Items By Using Interop Assemblies"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -51,24 +51,24 @@ translation.priority.mt:
   
 -   A **Toolbox** item provided by VSPackage implemented in unmanaged code must either implement an `IDataObject` object or be an ActiveX control — from which the environment can obtain an `IDataObject` object.  
   
-     For more information about implementing the `IDataObject` object to support the **Toolbox**, see \<xref:System.Runtime.InteropServices.ComTypes.IDataObject>, \<xref:Microsoft.VisualStudio.Shell.Interop.TBXITEMINFO>, and \<xref:System.Runtime.InteropServices.ComTypes.FORMATETC>.  
+     For more information about implementing the `IDataObject` object to support the **Toolbox**, see <xref:System.Runtime.InteropServices.ComTypes.IDataObject>, <xref:Microsoft.VisualStudio.Shell.Interop.TBXITEMINFO>, and <xref:System.Runtime.InteropServices.ComTypes.FORMATETC>.  
   
 #### To add interop assembly-based controls to the Toolbox  
   
 1.  Obtain instances of :  
   
-    1.  \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2>, which supports adding controls and sections (tabs) to the **Toolbox** and controlling other aspects of the **Toolbox** configuration.  
+    1.  <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2>, which supports adding controls and sections (tabs) to the **Toolbox** and controlling other aspects of the **Toolbox** configuration.  
   
-    2.  \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox3>, which provides support for localization and [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] settings persistence.  
+    2.  <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox3>, which provides support for localization and [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] settings persistence.  
   
     > [!NOTE]
-    >  The \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2> interface inherits from the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox> interface. \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox3> does not derive from \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2> and does not implement its methods.  
+    >  The <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2> interface inherits from the <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox> interface. <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox3> does not derive from <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2> and does not implement its methods.  
   
-     \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox3> and \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2> are obtained by calling the \<xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider.QueryService*> method on the \<xref:Microsoft.VisualStudio.Shell.Interop.SVsToolbox> service by using the service ID of `SID_SVsToolbox`.  
+     <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox3> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2> are obtained by calling the <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider.QueryService*> method on the <xref:Microsoft.VisualStudio.Shell.Interop.SVsToolbox> service by using the service ID of `SID_SVsToolbox`.  
   
-     The interface ID `IID_IVSToolbox2` is used to obtain \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2>, and the interface ID `IID_IVSToolbox3` returns \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox3>.  
+     The interface ID `IID_IVSToolbox2` is used to obtain <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2>, and the interface ID `IID_IVSToolbox3` returns <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox3>.  
   
-     In the sample below, the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2> interface is obtained with a `QueryService` and the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox3> interface by calling `QueryInterface` on the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2> interface.  
+     In the sample below, the <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2> interface is obtained with a `QueryService` and the <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox3> interface by calling `QueryInterface` on the <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2> interface.  
   
     ```cpp  
     extern CComModule _Module;  
@@ -78,15 +78,15 @@ translation.priority.mt:
     hr = srpTbx2->QueryInterface( IID_IVsToolbox3, (void **)&srpTbx3)  
     ```  
   
-2.  Use instances of the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2> and the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox3> interfaces to add tabs (sections) and controls to the **Toolbox**.  
+2.  Use instances of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2> and the <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox3> interfaces to add tabs (sections) and controls to the **Toolbox**.  
   
-     In the sample below, a new tab is added with a localized name using the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2.AddTab*> method.  
+     In the sample below, a new tab is added with a localized name using the <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2.AddTab*> method.  
   
-     As this localized name is not invariant, a non-localized invariant name (in this case `L"HTML"`) is set by a call to the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox3.SetIDOfTab*> method.  
+     As this localized name is not invariant, a non-localized invariant name (in this case `L"HTML"`) is set by a call to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox3.SetIDOfTab*> method.  
   
      If the toolbox tab already exists, `AddTab2` returns E_FAIL, in which case it is assumed that the tab was properly added before an attempt is made to retrieve the invariant name.  
   
-     If a tab has been successfully added, then an \<xref:System.Runtime.InteropServices.ComTypes.IDataObject>-based control is added to the **Toolbox**; otherwise an error is returned.  
+     If a tab has been successfully added, then an <xref:System.Runtime.InteropServices.ComTypes.IDataObject>-based control is added to the **Toolbox**; otherwise an error is returned.  
   
     ```cpp  
     CComBSTR sbstrID;  
@@ -119,14 +119,14 @@ translation.priority.mt:
   
     1.  Register the Toolbox Clipboard formats that they do support. For more information, see [Registering Toolbox Support Features](../misc/registering-toolbox-support-features.md).  
   
-    2.  Create a class implementing the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxDataProvider> and \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxDataProvider2> interfaces.  
+    2.  Create a class implementing the <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxDataProvider> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxDataProvider2> interfaces.  
   
         > [!NOTE]
-        >  The \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxDataProvider> and \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxDataProvider2> interfaces should not be implemented on the same class that implements the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage> interface.  
+        >  The <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxDataProvider> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxDataProvider2> interfaces should not be implemented on the same class that implements the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage> interface.  
   
-    3.  Programmatically inform the Toolbox that a specific implementation of the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxDataProvider> and \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxDataProvider2> interfaces provides support for custom data formats with either of the equivalent methods—\<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxDataProviderRegistry.RegisterDataProvider*> or \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox.RegisterDataProvider*>.  
+    3.  Programmatically inform the Toolbox that a specific implementation of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxDataProvider> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxDataProvider2> interfaces provides support for custom data formats with either of the equivalent methods—<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxDataProviderRegistry.RegisterDataProvider*> or <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox.RegisterDataProvider*>.  
   
-         Calling the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox.RegisterDataProvider*> method is typically done in the implementation of the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.SetSite*> method or in the \<xref:Microsoft.VisualStudio.Shell.WindowPane.OnCreate*> handler method for when the VSPackage becomes active.  
+         Calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox.RegisterDataProvider*> method is typically done in the implementation of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.SetSite*> method or in the <xref:Microsoft.VisualStudio.Shell.WindowPane.OnCreate*> handler method for when the VSPackage becomes active.  
   
         ```cpp  
         CComPtr<IVsToolboxDataProviderRegistry> pTB;  

@@ -50,7 +50,7 @@ translation.priority.ht:
     > [!NOTE]
     >  If you want to add a workflow console application to an existing solution, open that solution in [!INCLUDE[vs2010](../codequality/includes/vs2010_md.md)], right click the solution in **Solution Explorer**, and select **Add**, then **New Project…** to open the **New Project** dialog box. Proceed as described above in this procedure.  
   
-8.  The project template creates a service definition as XAML. The [!INCLUDE[wfd1](../workflowdesigner/includes/wfd1_md.md)] opens to the design view with a \<xref:System.Activities.Statements.Sequence> activity that contains a set of \<xref:System.ServiceModel.Activities.Receive> and \<xref:System.ServiceModel.Activities.SendReply> activities.  
+8.  The project template creates a service definition as XAML. The [!INCLUDE[wfd1](../workflowdesigner/includes/wfd1_md.md)] opens to the design view with a <xref:System.Activities.Statements.Sequence> activity that contains a set of <xref:System.ServiceModel.Activities.Receive> and <xref:System.ServiceModel.Activities.SendReply> activities.  
   
 ## See Also  
  [How to: Create an Activity](../Topic/How%20to:%20Create%20an%20Activity.md)   

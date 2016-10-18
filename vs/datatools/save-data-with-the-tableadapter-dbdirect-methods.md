@@ -1,7 +1,7 @@
 ---
 title: "Save data with the TableAdapter DBDirect methods"
 ms.custom: na
-ms.date: "10/07/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -106,11 +106,11 @@ This walkthrough provides detailed instructions for running SQL statements direc
   
 -   Drag the main **Region** node from the **Data Sources** window onto the form.  
   
-     A \<xref:System.Windows.Forms.DataGridView> control and a tool strip (\<xref:System.Windows.Forms.BindingNavigator>) for navigating records appear on the form. A [NorthwindDataSet](../datatools/dataset-tools-in-visual-studio.md), [RegionTableAdapter](../datatools/tableadapter-overview.md), \<xref:System.Windows.Forms.BindingSource>, and \<xref:System.Windows.Forms.BindingNavigator> appear in the component tray.  
+     A <xref:System.Windows.Forms.DataGridView> control and a tool strip (<xref:System.Windows.Forms.BindingNavigator>) for navigating records appear on the form. A [NorthwindDataSet](../datatools/dataset-tools-in-visual-studio.md), [RegionTableAdapter](../datatools/tableadapter-overview.md), <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray.  
   
 #### To add buttons that will call the individual TableAdapter DbDirect methods  
   
-1.  Drag three \<xref:System.Windows.Forms.Button> controls from the **Toolbox** onto **Form1** (below the **RegionDataGridView**).  
+1.  Drag three <xref:System.Windows.Forms.Button> controls from the **Toolbox** onto **Form1** (below the **RegionDataGridView**).  
   
 2.  Set the following **Name** and **Text** properties on each button.  
   

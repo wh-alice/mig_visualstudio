@@ -1,7 +1,7 @@
 ---
 title: "IDebugPortEvents2"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -45,7 +45,7 @@ IDebugPortEvents2 : IUnknown
  Visual Studio typically implements this interface to receive notifications about program creation and destruction. A debug engine can also implement this interface to listen for such port events.  
   
 ## Notes for Callers  
- All [IDebugPort2](../extensibility/idebugport2.md) interfaces can be queried for an \<xref:System.Runtime.InteropServices.ComTypes.IConnectionPointContainer> interface. Then the \<xref:System.Runtime.InteropServices.ComTypes.IConnectionPointContainer.FindConnectionPoint*> method for `IDebugPortEvents2` is called in the \<xref:System.Runtime.InteropServices.ComTypes.IConnectionPointContainer> interface to get an \<xref:System.Runtime.InteropServices.ComTypes.IConnectionPoint> interface. Finally, the \<xref:System.Runtime.InteropServices.ComTypes.IConnectionPoint.Advise*> method in the \<xref:System.Runtime.InteropServices.ComTypes.IConnectionPoint> interface is called to send the events through the [Event](../extensibility/idebugportevents2--event.md) method.  
+ All [IDebugPort2](../extensibility/idebugport2.md) interfaces can be queried for an <xref:System.Runtime.InteropServices.ComTypes.IConnectionPointContainer> interface. Then the <xref:System.Runtime.InteropServices.ComTypes.IConnectionPointContainer.FindConnectionPoint*> method for `IDebugPortEvents2` is called in the <xref:System.Runtime.InteropServices.ComTypes.IConnectionPointContainer> interface to get an <xref:System.Runtime.InteropServices.ComTypes.IConnectionPoint> interface. Finally, the <xref:System.Runtime.InteropServices.ComTypes.IConnectionPoint.Advise*> method in the <xref:System.Runtime.InteropServices.ComTypes.IConnectionPoint> interface is called to send the events through the [Event](../extensibility/idebugportevents2--event.md) method.  
   
 ## Methods in Vtable Order  
  The following table shows the method of `IDebugPortEvents2`.  

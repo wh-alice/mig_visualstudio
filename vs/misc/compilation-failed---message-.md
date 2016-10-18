@@ -1,7 +1,7 @@
 ---
 title: "Compilation failed: &lt;message&gt;"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,4 +44,4 @@ Compilation failed due to the circumstances specified in the error message
 -   Check the error message to determine the precise cause of the failure.  
   
 ## See Also  
- [Compiling an Application](http://msdn.microsoft.com/842d4132-cdb3-4c0f-a25f-405322751018)
+ [Compiling an Application](http://msdn.microsoft.com/en-us/842d4132-cdb3-4c0f-a25f-405322751018)

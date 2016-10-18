@@ -1,7 +1,7 @@
 ---
 title: "BaseLogName cannot be Nothing or an empty String"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -32,15 +32,15 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # BaseLogName cannot be Nothing or an empty String
-The value of the \<xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.BaseFileName*> property cannot be `Nothing` or an empty string.  
+The value of the <xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.BaseFileName*> property cannot be `Nothing` or an empty string.  
   
- The \<xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.BaseFileName*> property specifies the base name for the log files.  
+ The <xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.BaseFileName*> property specifies the base name for the log files.  
   
 ### To correct this error  
   
--   Set the \<xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.BaseFileName*> property to a string that contains at least one character.  
+-   Set the <xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.BaseFileName*> property to a string that contains at least one character.  
   
 ## See Also  
- \<xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.BaseFileName*>   
+ <xref:Microsoft.VisualBasic.Logging.FileLogTraceListener.BaseFileName*>   
  [My.Application.Log Object](../Topic/My.Application.Log%20Object.md)   
  [My.Log Object](../Topic/My.Log%20Object.md)

@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.Reflection.CustomAttributeFormatException"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,5 +39,5 @@ The exception that is thrown when the binary format of a custom attribute is inv
  This may be a result of a bug in a tool used to create the data type throwing the error.  
   
 ## See Also  
- \<xref:System.Reflection.CustomAttributeFormatException>   
+ <xref:System.Reflection.CustomAttributeFormatException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

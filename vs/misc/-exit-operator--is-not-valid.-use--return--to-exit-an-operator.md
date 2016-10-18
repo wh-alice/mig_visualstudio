@@ -1,7 +1,7 @@
 ---
 title: "&#39;Exit Operator&#39; is not valid. Use &#39;Return&#39; to exit an Operator"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na

@@ -1,7 +1,7 @@
 ---
 title: "&#39;&lt;nullconstant&gt;&#39; is not declared"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -43,7 +43,7 @@ translation.priority.mt:
   
 ### To correct this error  
   
-1.  Use \<xref:System.DBNull> instead of `Null`. The following example demonstrates this.  
+1.  Use <xref:System.DBNull> instead of `Null`. The following example demonstrates this.  
   
     ```  
     Sub TestDBNull()  
@@ -76,6 +76,6 @@ translation.priority.mt:
     ```  
   
 ## See Also  
- \<xref:System.DBNull>   
+ <xref:System.DBNull>   
  [Nothing](../Topic/Nothing%20\(Visual%20Basic\).md)   
- [Programming Element Support Changes Summary](http://msdn.microsoft.com/0483590a-6309-449c-a2fa-effa26a03b95)
+ [Programming Element Support Changes Summary](http://msdn.microsoft.com/en-us/0483590a-6309-449c-a2fa-effa26a03b95)

@@ -1,7 +1,7 @@
 ---
 title: "How to: Implement the Find and Replace Mechanism"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -35,20 +35,20 @@ Visual Studio provides two ways of implementing Find/Replace. One way is to pass
   
 ### To implement Find/Replace  
   
-1.  Implement the \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget> interface on one of the objects returned by the frame properties \<xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID> or \<xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID>. If you are creating a custom editor, you should implement this interface as part of the custom editor class.  
+1.  Implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget> interface on one of the objects returned by the frame properties <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID> or <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID>. If you are creating a custom editor, you should implement this interface as part of the custom editor class.  
   
-2.  Use the \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget.GetCapabilities*> method to specify the options that your editor supports and to indicate whether it implements text image searching.  
+2.  Use the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget.GetCapabilities*> method to specify the options that your editor supports and to indicate whether it implements text image searching.  
   
-     If your editor supports text image searching, implement \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget.GetSearchImage*>.  
+     If your editor supports text image searching, implement <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget.GetSearchImage*>.  
   
-     Otherwise, implement \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget.Find*> and \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget.Replace*>.  
+     Otherwise, implement <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget.Find*> and <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget.Replace*>.  
   
-3.  If you implement the \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget.Find*> and \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget.Replace*> methods, you can simplify your searching tasks by calling the \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindHelper> interface.  
+3.  If you implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget.Find*> and <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget.Replace*> methods, you can simplify your searching tasks by calling the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindHelper> interface.  
   
 ## See Also  
- \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindHelper>   
- \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget>   
- \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget.Find*>   
- \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget.GetSearchImage*>   
- \<xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget.Replace*>   
- \<xref:Microsoft.VisualStudio.Shell.Interop.__VSPROPID>
+ <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindHelper>   
+ <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget>   
+ <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget.Find*>   
+ <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget.GetSearchImage*>   
+ <xref:Microsoft.VisualStudio.TextManager.Interop.IVsFindTarget.Replace*>   
+ <xref:Microsoft.VisualStudio.Shell.Interop.__VSPROPID>

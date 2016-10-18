@@ -1,7 +1,7 @@
 ---
 title: "The targeted version of the .NET Compact Framework does not support latebound overload resolution"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -45,4 +45,4 @@ The targeted version of the .NET Compact Framework does not support late-bound o
   
 ## See Also  
  [Overload Resolution](../Topic/Overload%20Resolution%20\(Visual%20Basic\).md)   
- [NotInBuild:Objects in Visual Basic](http://msdn.microsoft.com/85bd757a-a19e-45e1-af89-d68765f5ee3c)
+ [NotInBuild:Objects in Visual Basic](http://msdn.microsoft.com/en-us/85bd757a-a19e-45e1-af89-d68765f5ee3c)

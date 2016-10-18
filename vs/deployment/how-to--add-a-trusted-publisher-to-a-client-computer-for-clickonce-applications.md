@@ -1,7 +1,7 @@
 ---
 title: "How to: Add a Trusted Publisher to a Client Computer for ClickOnce Applications"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -44,7 +44,7 @@ With Trusted Application Deployment, you can configure client computers so that 
 > [!NOTE]
 >  You must add certificates this way on every client computer to which you plan to deploy a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application that requires elevated permissions. You add the certificates either manually or through an application you deploy to your clients. You only need to configure these computers once, after which you can deploy any number of [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications signed with the same certificate.  
   
- You may also add a certificate to a store programmatically using the \<xref:System.Security.Cryptography.X509Certificates.X509Store> class.  
+ You may also add a certificate to a store programmatically using the <xref:System.Security.Cryptography.X509Certificates.X509Store> class.  
   
  For an overview of Trusted Application Deployment, see [Trusted Application Deployment Overview](../deployment/trusted-application-deployment-overview.md).  
   

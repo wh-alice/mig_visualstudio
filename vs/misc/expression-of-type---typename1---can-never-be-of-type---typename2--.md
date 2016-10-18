@@ -1,7 +1,7 @@
 ---
 title: "Expression of type &#39;&lt;typename1&gt;&#39; can never be of type &#39;&lt;typename2&gt;&#39;"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -47,7 +47,7 @@ A `TypeOf`...`Is` expression tests an object reference variable to a data type t
   
  `End If`  
   
- Because \<xref:System.Windows.Forms.Form> and \<xref:System.Array> are totally unrelated types, the compiler can determine that the `TypeOf`...`Is` expression returns `False` for any value of `refVar`.  
+ Because <xref:System.Windows.Forms.Form> and <xref:System.Array> are totally unrelated types, the compiler can determine that the `TypeOf`...`Is` expression returns `False` for any value of `refVar`.  
   
  **Error ID:** BC31430  
   

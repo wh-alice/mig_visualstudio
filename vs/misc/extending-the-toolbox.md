@@ -1,7 +1,7 @@
 ---
 title: "Extending the Toolbox"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -51,7 +51,7 @@ The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] **Toolbox** provide
  Describes how a VSPackage can manage the content and appearance of the **Toolbox**.  
   
 ## Related Sections  
- [How to: Manage the Toolbox Window](http://msdn.microsoft.com/a022c3fe-298c-4a59-a48f-b050da90ebc2)  
+ [How to: Manage the Toolbox Window](http://msdn.microsoft.com/en-us/a022c3fe-298c-4a59-a48f-b050da90ebc2)  
  Describes how to work with the **Toolbox** in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE).  
   
  [How to: Control the Toolbox](../Topic/How%20to:%20Control%20the%20Toolbox.md)  

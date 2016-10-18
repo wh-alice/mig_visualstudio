@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.Deployment.Application.DeploymentException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -40,5 +40,5 @@ translation.priority.mt:
 Defines a base class for all deployment-related exceptions.  
   
 ## See Also  
- \<xref:System.Deployment.Application.DeploymentException>   
+ <xref:System.Deployment.Application.DeploymentException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

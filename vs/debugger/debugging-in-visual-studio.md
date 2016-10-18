@@ -1,7 +1,7 @@
 ---
 title: "Debugging in Visual Studio"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/17/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -65,4 +65,4 @@ The Visual Studio debugger helps you observe the run-time behavior of your progr
   
 ## See Also  
  [Profiling Tools](../profiling/profiling-tools.md)   
- [Visual Studio IDE](../Topic/Visual%20Studio%20IDE.md)
+ [Visual Studio IDE](../ide/visual-studio-ide.md)

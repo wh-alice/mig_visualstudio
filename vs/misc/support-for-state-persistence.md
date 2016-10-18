@@ -1,7 +1,7 @@
 ---
 title: "Support for State Persistence"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -38,22 +38,22 @@ translation.priority.mt:
  VSPackages typically rely on local storage, either in the system registry or in the application data folder for the current user or computer. Values that require a small amount of space for storage, such as integers and strings, are typically stored in the system registry. Values that require lots of space for storage, such as bitmaps, are saved in a file. The path of the file can itself be saved in the system registry. The persistence mechanism must have permission to access the local storage.  
   
 ## Support for Locating Local Storage  
- The \<xref:Microsoft.VisualStudio.Shell.Package> class provides support for locating state information in the system registry or application data folder for the current user or computer.  
+ The <xref:Microsoft.VisualStudio.Shell.Package> class provides support for locating state information in the system registry or application data folder for the current user or computer.  
   
- \<xref:Microsoft.VisualStudio.Shell.Package.ApplicationRegistryRoot*>  
+ <xref:Microsoft.VisualStudio.Shell.Package.ApplicationRegistryRoot*>  
  Returns the path of the local computer's registry root for [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], for example, HKEY_LOCAL_MACHINE\Software\Microsoft\VisualStudio\8.0Exp.  
   
- The local registry root is obtained from the \<xref:Microsoft.VisualStudio.Shell.Interop.SVsShell> service. If this is unavailable, it is obtained from the \<xref:Microsoft.VisualStudio.Shell.DefaultRegistryRootAttribute> attribute of the VSPackage.  
+ The local registry root is obtained from the <xref:Microsoft.VisualStudio.Shell.Interop.SVsShell> service. If this is unavailable, it is obtained from the <xref:Microsoft.VisualStudio.Shell.DefaultRegistryRootAttribute> attribute of the VSPackage.  
   
- \<xref:Microsoft.VisualStudio.Shell.Package.UserRegistryRoot*>  
+ <xref:Microsoft.VisualStudio.Shell.Package.UserRegistryRoot*>  
  Returns the path of the current user's (per computer) registry root for [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], for example, HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\8.0Exp.  
   
- The local registry root is obtained from the \<xref:Microsoft.VisualStudio.Shell.Interop.SVsShell> service. If this is unavailable, it is obtained from the DefaultLocalRegistryRoot attribute of the VSPackage.  
+ The local registry root is obtained from the <xref:Microsoft.VisualStudio.Shell.Interop.SVsShell> service. If this is unavailable, it is obtained from the DefaultLocalRegistryRoot attribute of the VSPackage.  
   
- \<xref:Microsoft.VisualStudio.Shell.Package.UserDataPath*>  
+ <xref:Microsoft.VisualStudio.Shell.Package.UserDataPath*>  
  Returns the path of the directory that serves as a common repository for [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] data for the current roaming user, for example, C:\Documents and Settings\\*YourAccountName*\Application Data\Microsoft\VisualStudio\8.0Exp.  
   
- \<xref:Microsoft.VisualStudio.Shell.Package.UserLocalDataPath*>  
+ <xref:Microsoft.VisualStudio.Shell.Package.UserLocalDataPath*>  
  Returns the path of the directory that serves as a common repository for [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] data for the current non-roaming user, for example, C:\Documents and Settings\\*YourAccountName*\Local Settings\Application Data\Microsoft\VisualStudio\8.0Exp.  
   
 ## See Also  

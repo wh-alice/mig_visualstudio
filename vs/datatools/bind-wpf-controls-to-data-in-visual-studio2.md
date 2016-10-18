@@ -1,7 +1,7 @@
 ---
 title: "Bind WPF controls to data in Visual Studio2"
 ms.custom: na
-ms.date: "10/11/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -63,7 +63,7 @@ You can create data-bound [!INCLUDE[TLA#tla_titlewinclient](../datatools/include
     -   [Binding data to existing controls in the designer](#existing).  
   
 ##  <a name="simple"></a> Create a control that is bound to a single field of data  
- After you add a data source to the **Data Sources** window, you can create a new data-bound control that displays a single field of data, such as a \<xref:System.Windows.Controls.ComboBox> or \<xref:System.Windows.Controls.TextBox>.  
+ After you add a data source to the **Data Sources** window, you can create a new data-bound control that displays a single field of data, such as a <xref:System.Windows.Controls.ComboBox> or <xref:System.Windows.Controls.TextBox>.  
   
 #### To create a control that is bound to a single field of data  
   
@@ -75,23 +75,23 @@ You can create data-bound [!INCLUDE[TLA#tla_titlewinclient](../datatools/include
   
 3.  Drag the item to a valid container in the designer. For more information about valid containers, see [Bind WPF controls to data in Visual Studio](../datatools/bind-wpf-controls-to-data-in-visual-studio1.md).  
   
-     [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] creates the new data-bound control and an appropriately titled \<xref:System.Windows.Controls.Label> in the container. [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] also generates [!INCLUDE[TLA#tla_titlexaml](../datatools/includes/tlasharptla_titlexaml_md.md)] and code to bind the control to the data. For more information, see [Bind WPF controls to data in Visual Studio](../datatools/bind-wpf-controls-to-data-in-visual-studio1.md).  
+     [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] creates the new data-bound control and an appropriately titled <xref:System.Windows.Controls.Label> in the container. [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] also generates [!INCLUDE[TLA#tla_titlexaml](../datatools/includes/tlasharptla_titlexaml_md.md)] and code to bind the control to the data. For more information, see [Bind WPF controls to data in Visual Studio](../datatools/bind-wpf-controls-to-data-in-visual-studio1.md).  
   
 ##  <a name="complex"></a> Create a control that is bound to multiple fields of data  
- After you add a data source to the **Data Sources** window, you can create a new data-bound control that displays multiple fields of data, such as a \<xref:System.Windows.Controls.DataGrid> or \<xref:System.Windows.Controls.ListView>.  
+ After you add a data source to the **Data Sources** window, you can create a new data-bound control that displays multiple fields of data, such as a <xref:System.Windows.Controls.DataGrid> or <xref:System.Windows.Controls.ListView>.  
   
 #### To create a control that is bound to multiple fields of data  
   
 1.  In the **Data Sources** window, select an item that represents a table or object. For a visual example, see [Data Sources Window](../Topic/Data%20Sources%20Window.md).  
   
-2.  Optionally, select the control to create. By default, each item in the **Data Sources** window that represents a data table or object is set to create a \<xref:System.Windows.Controls.DataGrid> (if your project targets .NET Framework 4) or \<xref:System.Windows.Controls.ListView> (for earlier versions of the .NET Framework).  
+2.  Optionally, select the control to create. By default, each item in the **Data Sources** window that represents a data table or object is set to create a <xref:System.Windows.Controls.DataGrid> (if your project targets .NET Framework 4) or <xref:System.Windows.Controls.ListView> (for earlier versions of the .NET Framework).  
   
      To select a different control, click the drop-down arrow next to the item and select a control. For more information, see [Set the control to be created when dragging from the Data Sources window](../datatools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md).  
   
     > [!NOTE]
     >  If you do not want to display a specific column or property, expand the item to display its children. Click the drop-down arrow next to the column or property that you do not want to display, and then click **None**.  
   
-3.  Drag the item to a valid container in the designer, such as a \<xref:System.Windows.Controls.Grid>. For more information about valid containers, see [Bind WPF controls to data in Visual Studio](../datatools/bind-wpf-controls-to-data-in-visual-studio1.md).  
+3.  Drag the item to a valid container in the designer, such as a <xref:System.Windows.Controls.Grid>. For more information about valid containers, see [Bind WPF controls to data in Visual Studio](../datatools/bind-wpf-controls-to-data-in-visual-studio1.md).  
   
      [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] creates the new data-bound control in the container. [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] also generates [!INCLUDE[TLA#tla_titlexaml](../datatools/includes/tlasharptla_titlexaml_md.md)] and code to bind the control to the data. For more information, see [Bind WPF controls to data in Visual Studio](../datatools/bind-wpf-controls-to-data-in-visual-studio1.md).  
   
@@ -107,9 +107,9 @@ You can create data-bound [!INCLUDE[TLA#tla_titlewinclient](../datatools/include
     > [!NOTE]
     >  If you do not want to display a specific column or property, expand the item to display its children. Click the drop-down arrow next to the column or property that you do not want to display, and then click **None**.  
   
-3.  Drag the item to a valid container in the designer, such as a \<xref:System.Windows.Controls.Grid>. For more information about valid containers, see [Bind WPF controls to data in Visual Studio](../datatools/bind-wpf-controls-to-data-in-visual-studio1.md).  
+3.  Drag the item to a valid container in the designer, such as a <xref:System.Windows.Controls.Grid>. For more information about valid containers, see [Bind WPF controls to data in Visual Studio](../datatools/bind-wpf-controls-to-data-in-visual-studio1.md).  
   
-     [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] creates the new data-bound controls in the container. Each control is bound to a different column or property, and each control is accompanied by an appropriately titled \<xref:System.Windows.Controls.Label> control. [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] also generates [!INCLUDE[TLA#tla_titlexaml](../datatools/includes/tlasharptla_titlexaml_md.md)] and code to bind the controls to the data. For more information, see [Bind WPF controls to data in Visual Studio](../datatools/bind-wpf-controls-to-data-in-visual-studio1.md).  
+     [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] creates the new data-bound controls in the container. Each control is bound to a different column or property, and each control is accompanied by an appropriately titled <xref:System.Windows.Controls.Label> control. [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] also generates [!INCLUDE[TLA#tla_titlexaml](../datatools/includes/tlasharptla_titlexaml_md.md)] and code to bind the controls to the data. For more information, see [Bind WPF controls to data in Visual Studio](../datatools/bind-wpf-controls-to-data-in-visual-studio1.md).  
   
 ##  <a name="existing"></a> Binddata to existing controls in the designer  
  After you add a data source to the **Data Sources** window, you can add a data binding to an existing control in the designer.  
@@ -118,9 +118,9 @@ You can create data-bound [!INCLUDE[TLA#tla_titlewinclient](../datatools/include
   
 1.  In the **Data Sources** window, use one of the following procedures:  
   
-    -   To add a data binding to an existing control that displays multiple fields of data, such as a \<xref:System.Windows.Controls.DataGrid> or \<xref:System.Windows.Controls.ListView>, select the item that represents the table or object that you want to bind to the control.  
+    -   To add a data binding to an existing control that displays multiple fields of data, such as a <xref:System.Windows.Controls.DataGrid> or <xref:System.Windows.Controls.ListView>, select the item that represents the table or object that you want to bind to the control.  
   
-    -   To add a data binding to an existing control that displays a single field of data, such as a \<xref:System.Windows.Controls.ComboBox> or \<xref:System.Windows.Controls.TextBox>, expand the item that represents the table or object that contains the data, and then select the item that represents the data that you want to bind to the control.  
+    -   To add a data binding to an existing control that displays a single field of data, such as a <xref:System.Windows.Controls.ComboBox> or <xref:System.Windows.Controls.TextBox>, expand the item that represents the table or object that contains the data, and then select the item that represents the data that you want to bind to the control.  
   
 2.  Drag the selected item from the **Data Sources** window onto an existing control in the designer. The control must be a valid drop target. For more information, see [Bind WPF controls to data in Visual Studio](../datatools/bind-wpf-controls-to-data-in-visual-studio1.md).  
   

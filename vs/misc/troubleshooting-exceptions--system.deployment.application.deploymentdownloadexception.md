@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.Deployment.Application.DeploymentDownloadException"
 ms.custom: na
-ms.date: "10/02/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -40,6 +40,6 @@ translation.priority.mt:
 The exception that is thrown when there is an error downloading ClickOnce manifests or the deployment's files to the client computer.  
   
 ## See Also  
- \<xref:System.Deployment.Application.DeploymentDownloadException>   
+ <xref:System.Deployment.Application.DeploymentDownloadException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)   
  [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)

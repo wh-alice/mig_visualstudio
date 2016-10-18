@@ -1,7 +1,7 @@
 ---
 title: "IDiaEnumDebugStreamData"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -47,7 +47,7 @@ IDiaEnumDebugStreamData : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[IDiaEnumDebugStreamData::get__NewEnum](../debugger/idiaenumdebugstreamdata--get__newenum.md)|Retrieves the [IEnumVARIANT Interface](http://msdn.microsoft.com/139e3c93-faef-4003-9079-e0e94494db3e) version of this enumerator.|  
+|[IDiaEnumDebugStreamData::get__NewEnum](../debugger/idiaenumdebugstreamdata--get__newenum.md)|Retrieves the [IEnumVARIANT Interface](http://msdn.microsoft.com/en-us/139e3c93-faef-4003-9079-e0e94494db3e) version of this enumerator.|  
 |[IDiaEnumDebugStreamData::get_Count](../debugger/idiaenumdebugstreamdata--get_count.md)|Retrieves the number of records in the debug data stream.|  
 |[IDiaEnumDebugStreamData::get_name](../debugger/idiaenumdebugstreamdata--get_name.md)|Retrieves the name of the debug data stream.|  
 |[IDiaEnumDebugStreamData::Item](../debugger/idiaenumdebugstreamdata--item.md)|Retrieves the specified record.|  

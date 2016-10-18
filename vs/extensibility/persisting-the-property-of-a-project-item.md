@@ -1,7 +1,7 @@
 ---
 title: "Persisting the Property of a Project Item"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -34,7 +34,7 @@ translation.priority.mt:
 # Persisting the Property of a Project Item
 You may want to persist a property you add to a project item, such as the author of a source file. You can do this by storing the property in the project file.  
   
- The first step to persist a property in a project file is to obtain the hierarchy of the project as an \<xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> interface. You can obtain this interface either by using Automation or by using \<xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection>. Once you obtain the interface, you can use it to determine which project item is currently selected. Once you have the project item ID, you can use \<xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.SetItemAttribute*> to add the property.  
+ The first step to persist a property in a project file is to obtain the hierarchy of the project as an <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> interface. You can obtain this interface either by using Automation or by using <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection>. Once you obtain the interface, you can use it to determine which project item is currently selected. Once you have the project item ID, you can use <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.SetItemAttribute*> to add the property.  
   
  In the following procedures, you persist the VsPkg.cs property `Author` with the value `Tom` in the project file.  
   
@@ -137,7 +137,7 @@ You may want to persist a property you add to a project item, such as the author
 3.  Use a breakpoint or otherwise determine that your VSPackage is loaded and that SetItemAttribute runs.  
   
     > [!NOTE]
-    >  You can autoload a VSPackage in the UI context \<xref:Microsoft.VisualStudio.VSConstants.UICONTEXT_SolutionExists>. For more information, see [Loading VSPackages](../extensibility/loading-vspackages.md).  
+    >  You can autoload a VSPackage in the UI context <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT_SolutionExists>. For more information, see [Loading VSPackages](../extensibility/loading-vspackages.md).  
   
 4.  Close [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and then open the project file in Notepad. You should see the \<Author> tag with the value Tom, as follows:  
   

@@ -1,7 +1,7 @@
 ---
 title: "ClickOnce Reference"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -57,7 +57,7 @@ The following pages describe the structure of the XML files used to represent Cl
  [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)  
  Provides detailed conceptual information about ClickOnce deployment.  
   
- \<xref:System.Deployment.Application>  
+ <xref:System.Deployment.Application>  
  Provides links to reference documentation of the public classes that support ClickOnce within managed code.  
   
  [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)  

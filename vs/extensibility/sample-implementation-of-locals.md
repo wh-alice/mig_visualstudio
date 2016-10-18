@@ -1,7 +1,7 @@
 ---
 title: "Sample Implementation of Locals"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -77,7 +77,7 @@ translation.priority.mt:
  [Evaluation Context](../extensibility/evaluation-context.md)  
  Provides the arguments that are passed when the DE calls the expression evaluator (EE).  
   
- [MyCEE Sample](http://msdn.microsoft.com/624a018b-9179-402f-9d48-3aec87b48f4f)  
+ [MyCEE Sample](http://msdn.microsoft.com/en-us/624a018b-9179-402f-9d48-3aec87b48f4f)  
  Demonstrates one implementation approach to creating an expression evaluator for the MyC language.  
   
 ## See Also  

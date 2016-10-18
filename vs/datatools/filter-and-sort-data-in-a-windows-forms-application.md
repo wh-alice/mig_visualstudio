@@ -1,7 +1,7 @@
 ---
 title: "Filter and sort data in a Windows Forms application"
 ms.custom: na
-ms.date: "10/07/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -41,23 +41,23 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Filter and sort data in a Windows Forms application
-You filter data by setting the \<xref:System.Windows.Forms.BindingSource.Filter*> property to a string expression that returns the desired records.  
+You filter data by setting the <xref:System.Windows.Forms.BindingSource.Filter*> property to a string expression that returns the desired records.  
   
- You sort data by setting the \<xref:System.Windows.Forms.BindingSource.Sort*> property to the column name you want to sort on; append `DESC` to sort in descending order, or append `ASC` to sort in ascending order.  
+ You sort data by setting the <xref:System.Windows.Forms.BindingSource.Sort*> property to the column name you want to sort on; append `DESC` to sort in descending order, or append `ASC` to sort in ascending order.  
   
 > [!NOTE]
->  If your application does not use \<xref:System.Windows.Forms.BindingSource> components, you can filter and sort data by using \<xref:System.Data.DataView> objects. For more information, see [DataViews](../Topic/DataViews.md).  
+>  If your application does not use <xref:System.Windows.Forms.BindingSource> components, you can filter and sort data by using <xref:System.Data.DataView> objects. For more information, see [DataViews](../Topic/DataViews.md).  
   
 ## To filter data by using a BindingSource component  
   
--   Set the \<xref:System.Windows.Forms.BindingSource.Filter*> property to the expression you want to return. For example, the following code returns customers with a `CompanyName` that starts with "B":  
+-   Set the <xref:System.Windows.Forms.BindingSource.Filter*> property to the expression you want to return. For example, the following code returns customers with a `CompanyName` that starts with "B":  
   
      [!code[VbRaddataDisplaying#6](../datatools/codesnippet/CSharp/filter-and-sort-data-in-a-windows-forms-application_1.cs)]
 [!code[VbRaddataDisplaying#6](../datatools/codesnippet/VisualBasic/filter-and-sort-data-in-a-windows-forms-application_1.vb)]  
   
 ## To sort data by using a BindingSource component  
   
--   Set the \<xref:System.Windows.Forms.BindingSource.Sort*> property to the column you want to sort on. For example, the following code sorts customers on the `CompanyName` column in descending order:  
+-   Set the <xref:System.Windows.Forms.BindingSource.Sort*> property to the column you want to sort on. For example, the following code sorts customers on the `CompanyName` column in descending order:  
   
      [!code[VbRaddataDisplaying#7](../datatools/codesnippet/CSharp/filter-and-sort-data-in-a-windows-forms-application_2.cs)]
 [!code[VbRaddataDisplaying#7](../datatools/codesnippet/VisualBasic/filter-and-sort-data-in-a-windows-forms-application_2.vb)]  

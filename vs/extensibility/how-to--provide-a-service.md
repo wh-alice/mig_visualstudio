@@ -1,7 +1,7 @@
 ---
 title: "How to: Provide a Service"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -33,12 +33,12 @@ translation.priority.mt:
 # How to: Provide a Service
 A VSPackage can provide services that other VSPackages can use. To provide a service, a VSPackage must register the service with Visual Studio and add the service.  
   
- The \<xref:Microsoft.VisualStudio.Shell.Package> class implements both \<xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider> and \<xref:System.ComponentModel.Design.IServiceContainer>. \<xref:System.ComponentModel.Design.IServiceContainer> contains callback methods that provide  services on demand.  
+ The <xref:Microsoft.VisualStudio.Shell.Package> class implements both <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider> and <xref:System.ComponentModel.Design.IServiceContainer>. <xref:System.ComponentModel.Design.IServiceContainer> contains callback methods that provide  services on demand.  
   
  For more information about services, see [Service Essentials](../extensibility/service-essentials.md) .  
   
 > [!NOTE]
->  When a VSPackage is about to be unloaded, Visual Studio waits until all requests for services that a VSPackage provides have been delivered. It does not allow new requests for these services. You should not explicitly call the \<xref:Microsoft.VisualStudio.Shell.Interop.IProfferService.RevokeService*> method to revoke a service when unloading.  
+>  When a VSPackage is about to be unloaded, Visual Studio waits until all requests for services that a VSPackage provides have been delivered. It does not allow new requests for these services. You should not explicitly call the <xref:Microsoft.VisualStudio.Shell.Interop.IProfferService.RevokeService*> method to revoke a service when unloading.  
   
 #### Implementing a service  
   
@@ -89,7 +89,7 @@ A VSPackage can provide services that other VSPackages can use. To provide a ser
   
 ### Registering a service  
   
-1.  To register a service, add the \<xref:Microsoft.VisualStudio.Shell.ProvideServiceAttribute> to the VSPackage that provides the service. Here is an example:  
+1.  To register a service, add the <xref:Microsoft.VisualStudio.Shell.ProvideServiceAttribute> to the VSPackage that provides the service. Here is an example:  
   
     ```c#  
     [ProvideService(typeof(SMyService))]  
@@ -102,11 +102,11 @@ A VSPackage can provide services that other VSPackages can use. To provide a ser
      This attribute registers `SMyService` with Visual Studio.  
   
     > [!NOTE]
-    >  To register a service that replaces another service with the same name, use the \<xref:Microsoft.VisualStudio.Shell.ProvideServiceOverrideAttribute>. Note that only one override of a service is allowed.  
+    >  To register a service that replaces another service with the same name, use the <xref:Microsoft.VisualStudio.Shell.ProvideServiceOverrideAttribute>. Note that only one override of a service is allowed.  
   
 ### Adding a Service  
   
-1.  1.  In the VSPackage initializer, add the service and add a callback method to create the services. Here is the change to make to the \<xref:Microsoft.VisualStudio.Shell.Package.Initialize*> method:  
+1.  1.  In the VSPackage initializer, add the service and add a callback method to create the services. Here is the change to make to the <xref:Microsoft.VisualStudio.Shell.Package.Initialize*> method:  
   
     ```c#  
     protected override void Initialize()  

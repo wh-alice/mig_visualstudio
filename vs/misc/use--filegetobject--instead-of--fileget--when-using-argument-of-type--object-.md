@@ -1,7 +1,7 @@
 ---
 title: "Use &#39;FileGetObject&#39; instead of &#39;FileGet&#39; when using argument of type &#39;Object&#39;"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -41,5 +41,5 @@ The `FileGet` method includes an argument of type `Object`. `FileGetObject` shou
 2.  Cast the `Object` argument to a more specific type.  
   
 ## See Also  
- [NOT IN BUILD: FileGetObject Function](http://msdn.microsoft.com/3eda786b-d1ee-4b44-9dd7-0ea6bff072c0)   
+ [NOT IN BUILD: FileGetObject Function](http://msdn.microsoft.com/en-us/3eda786b-d1ee-4b44-9dd7-0ea6bff072c0)   
  [My.Computer.FileSystem Object](../Topic/My.Computer.FileSystem%20Object.md)

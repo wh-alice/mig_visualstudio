@@ -1,7 +1,7 @@
 ---
 title: "Wizard Interface (IDTWizard)"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -32,9 +32,9 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Wizard Interface (IDTWizard)
-The integrated development environment (IDE) uses the \<xref:EnvDTE.IDTWizard> interface to communicate with wizards. Wizards must implement this interface in order to be installed in the IDE.  
+The integrated development environment (IDE) uses the <xref:EnvDTE.IDTWizard> interface to communicate with wizards. Wizards must implement this interface in order to be installed in the IDE.  
   
- The \<xref:EnvDTE.IDTWizard.Execute*> method is the only method associated with the \<xref:EnvDTE.IDTWizard> interface. Wizards implement this method and the IDE calls the method on the interface. The following example shows the signature of the method.  
+ The <xref:EnvDTE.IDTWizard.Execute*> method is the only method associated with the <xref:EnvDTE.IDTWizard> interface. Wizards implement this method and the IDE calls the method on the interface. The following example shows the signature of the method.  
   
 ```  
 /* IDTWizard Method */  
@@ -47,9 +47,9 @@ STDMETHOD(Execute)(THIS_
    );  
 ```  
   
- The start mechanism is similar for both the **New Project** and **Add New Item**wizards. To start either, you call the \<xref:EnvDTE.IDTWizard> interface defined in Dteinternal.h. The only difference is the set of context and custom parameters that are passed to the interface when the interface is called.  
+ The start mechanism is similar for both the **New Project** and **Add New Item**wizards. To start either, you call the <xref:EnvDTE.IDTWizard> interface defined in Dteinternal.h. The only difference is the set of context and custom parameters that are passed to the interface when the interface is called.  
   
- The following information describes the \<xref:EnvDTE.IDTWizard> interface that wizards must implement to work in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] IDE. The IDE calls the \<xref:EnvDTE.IDTWizard.Execute*> method on the wizard, passing it the following:  
+ The following information describes the <xref:EnvDTE.IDTWizard> interface that wizards must implement to work in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] IDE. The IDE calls the <xref:EnvDTE.IDTWizard.Execute*> method on the wizard, passing it the following:  
   
 -   The DTE object  
   

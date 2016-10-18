@@ -1,7 +1,7 @@
 ---
 title: "Customizing and Extending a Domain-Specific Language"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -41,7 +41,7 @@ Visual Studio Modeling and Visualization SDK (VMSDK) provides several levels at 
 |Different classes of model element look similar on the diagram, sharing properties such as initial height and width, color, tooltips.|Use inheritance between shapes or connector classes. Mappings between derived shapes and derived domain classes inherit the mapping details of the parents.<br /><br /> Or, map different domain classes to the same shape class.|  
 |A class of model element is displayed by different shapes contexts.|Map more than one shape class to the same domain class. When you build the solution, follow the error report and provide the requested code to decide what shape to use.|  
 |Shape color or other features such as font indicate current state.|See [Updating Shapes and Connectors to Reflect the Model](../modeling/updating-shapes-and-connectors-to-reflect-the-model.md).<br /><br /> Create a rule that updates the exposed properties. See [Rules Propagate Changes Within the Model](../modeling/rules-propagate-changes-within-the-model.md).<br /><br /> Or, use OnAssociatedPropertyChanged() to update non-exposed features such as link arrows or font.|  
-|Icon on shape changes to indicate state.|Set the visibility of the decorator mapping in the DSL Details window. Locate several image decorators on the same position. See  [Updating Shapes and Connectors to Reflect the Model](../modeling/updating-shapes-and-connectors-to-reflect-the-model.md).<br /><br /> Or, override `ImageField.GetDisplayImage()`. See example in \<xref:Microsoft.VisualStudio.Modeling.Diagrams.ImageField>.|  
+|Icon on shape changes to indicate state.|Set the visibility of the decorator mapping in the DSL Details window. Locate several image decorators on the same position. See  [Updating Shapes and Connectors to Reflect the Model](../modeling/updating-shapes-and-connectors-to-reflect-the-model.md).<br /><br /> Or, override `ImageField.GetDisplayImage()`. See example in <xref:Microsoft.VisualStudio.Modeling.Diagrams.ImageField>.|  
 |Set a background image on any shape|Override InitializeInstanceResources() to add an anchored ImageField. See [Customizing Presentation on the Diagram](../modeling/customizing-presentation-on-the-diagram.md).|  
 |Nest shapes to any depth|Set up a recursive embedding tree. Define BoundsRules to contain the shapes. See [Customizing Presentation on the Diagram](../modeling/customizing-presentation-on-the-diagram.md).|  
 |Attach connectors at fixed points on an element’s boundary.|Define embedded terminal elements, represented by small ports on the diagram. Use BoundsRules to fix the ports in place. See the Circuit Diagram sample at [Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=186128).|  

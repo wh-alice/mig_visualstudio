@@ -1,7 +1,7 @@
 ---
 title: "Windows Communication Foundation Services and WCF Data Services in Visual Studio"
 ms.custom: na
-ms.date: "10/11/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -61,10 +61,10 @@ Visual Studio provides tools for working with Windows Communication Foundation (
  [!INCLUDE[ssAstoria](../datatools/includes/ssastoria_md.md)] is an implementation of the Open Data (OData) Protocol standard.  WCF Data Services lets you expose tabular data as a set of REST APIs, allowing you to return data using standard HTTP verbs such as GET, POST, PUT or DELETE. On the server side, WCF Data Services are being superseded by [ASP.NET Web API](http://www.asp.net/web-api) for creating new OData services. The WCF Data Services client library continues to be a good choice for consuming OData services in a .NET application from Visual Studio (**Project &#124; Add Service Reference**) . For more information, see [WCF Data Services 4.5](http://go.microsoft.com/fwlink/?LinkID=119952).  
   
 ### WCF Programming Model  
- The WCF Programming model is based on communication between two entities: a WCF service and a WCF client. The programming model is encapsulated in the \<xref:System.ServiceModel> namespace in the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)].  
+ The WCF Programming model is based on communication between two entities: a WCF service and a WCF client. The programming model is encapsulated in the <xref:System.ServiceModel> namespace in the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)].  
   
 #### WCF Service  
- A WCF service is based on an interface that defines a contract between the service and the client. It is marked with a \<xref:System.ServiceModel.ServiceContractAttribute> attribute, as shown in the following code:  
+ A WCF service is based on an interface that defines a contract between the service and the client. It is marked with a <xref:System.ServiceModel.ServiceContractAttribute> attribute, as shown in the following code:  
   
  [!code[WCFWalkthrough#6](../datatools/codesnippet/CSharp/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio_1.cs)]
 [!code[WCFWalkthrough#6](../datatools/codesnippet/VisualBasic/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio_1.vb)]  
@@ -72,7 +72,7 @@ Visual Studio provides tools for working with Windows Communication Foundation (
  [!code[WCFWalkthrough#1](../datatools/codesnippet/CSharp/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio_2.cs)]
 [!code[WCFWalkthrough#1](../datatools/codesnippet/VisualBasic/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio_2.vb)]  
   
- You define functions or methods that are exposed by a WCF service by marking them with a \<xref:System.ServiceModel.OperationContractAttribute> attribute. In addition, you can expose serialized data by marking a composite type with a \<xref:System.Runtime.Serialization.DataContractAttribute> attribute. This enables data binding in a client.  
+ You define functions or methods that are exposed by a WCF service by marking them with a <xref:System.ServiceModel.OperationContractAttribute> attribute. In addition, you can expose serialized data by marking a composite type with a <xref:System.Runtime.Serialization.DataContractAttribute> attribute. This enables data binding in a client.  
   
  After an interface and its methods are defined, they are encapsulated in a class that implements the interface. A single WCF service class can implement multiple service contracts.  
   
@@ -200,7 +200,7 @@ Visual Studio provides tools for working with Windows Communication Foundation (
   
 5.  Click the type of control that you want to bind to.  
   
-6.  Drag the field onto a form. The control will be added to the form together with a \<xref:System.Windows.Forms.BindingSource> component and a \<xref:System.Windows.Forms.BindingNavigator> component.  
+6.  Drag the field onto a form. The control will be added to the form together with a <xref:System.Windows.Forms.BindingSource> component and a <xref:System.Windows.Forms.BindingNavigator> component.  
   
 7.  Repeat steps 4 though 6 for any other fields that you want to bind.  
   
@@ -214,7 +214,7 @@ Visual Studio provides tools for working with Windows Communication Foundation (
   
 4.  Click either **DataGridView** to display the data in a grid or **Details** to display the data in individual controls.  
   
-5.  Drag the node onto the form. The controls will be added to the form together with a \<xref:System.Windows.Forms.BindingSource> component and a \<xref:System.Windows.Forms.BindingNavigator> component.  
+5.  Drag the node onto the form. The controls will be added to the form together with a <xref:System.Windows.Forms.BindingSource> component and a <xref:System.Windows.Forms.BindingNavigator> component.  
   
 ## How to: Configure a Service to Reuse Existing Types  
  When a service reference is added to a project, any types defined in the service are generated in the local project. In many cases, this creates duplicate types when a service uses common [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] types or when types are defined in a shared library.  
@@ -255,9 +255,9 @@ Visual Studio provides tools for working with Windows Communication Foundation (
 |[Configure Service Reference Dialog Box](../datatools/configure-service-reference-dialog-box.md)|Describes the user interface elements of the **Configure Service Reference** dialog box.|  
   
 ## Reference  
- \<xref:System.ServiceModel>  
+ <xref:System.ServiceModel>  
   
- \<xref:System.Data.Services>  
+ <xref:System.Data.Services>  
   
 ## See Also  
  [Visual Studio data tools for .NET](../datatools/visual-studio-data-tools-for-.net.md)

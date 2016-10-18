@@ -1,7 +1,7 @@
 ---
 title: "Member Completion in a Legacy Language Service"
 ms.custom: na
-ms.date: "10/13/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -47,30 +47,30 @@ The IntelliSense Member Completion is a tool tip that displays a list of possibl
   
 -   Positioning the caret on an identifier or after a member completion character and selecting **List Members** from the **IntelliSense** menu.  
   
--   The \<xref:Microsoft.VisualStudio.Package.IScanner> scanner detects a member completion character and sets a token trigger of \<xref:Microsoft.VisualStudio.Package.TokenTriggers> for that character.  
+-   The <xref:Microsoft.VisualStudio.Package.IScanner> scanner detects a member completion character and sets a token trigger of <xref:Microsoft.VisualStudio.Package.TokenTriggers> for that character.  
   
  A member completion character indicates that a member of a class, structure, or enumeration is to follow. For example, in C# or Visual Basic the member completion character is a `.`, while  in C++ the character is either a `.` or a `->`. The trigger value is set when the member select character is scanned.  
   
 ### The IntelliSense Member List Command  
- The \<xref:Microsoft.VisualStudio.VSConstants.VSStd2KCmdID> command initiates a call to the \<xref:Microsoft.VisualStudio.Package.Source.Completion*> method on the \<xref:Microsoft.VisualStudio.Package.Source> class and the \<xref:Microsoft.VisualStudio.Package.Source.Completion*> method, in turn, calls the \<xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource*> method parser with the parse reason of \<xref:Microsoft.VisualStudio.Package.ParseReason>.  
+ The <xref:Microsoft.VisualStudio.VSConstants.VSStd2KCmdID> command initiates a call to the <xref:Microsoft.VisualStudio.Package.Source.Completion*> method on the <xref:Microsoft.VisualStudio.Package.Source> class and the <xref:Microsoft.VisualStudio.Package.Source.Completion*> method, in turn, calls the <xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource*> method parser with the parse reason of <xref:Microsoft.VisualStudio.Package.ParseReason>.  
   
  The parser determines the context of the current position as well as the token under or immediately before the current position. Based on this token, a list of declarations is presented. For example, in C#, if you position the caret on a class member and select **List Members**, you get a list of all members of the class. If you position the caret after a period that follows an object variable, you get a list of all members of the class that object represents. Note that if the caret is positioned on a member when the member list is shown, selecting a member from the list replaces the member the caret is on with the one in the list.  
   
 ### The Token Trigger  
- The \<xref:Microsoft.VisualStudio.Package.TokenTriggers> trigger initiates a call to the \<xref:Microsoft.VisualStudio.Package.Source.Completion*> method on the \<xref:Microsoft.VisualStudio.Package.Source> class and the \<xref:Microsoft.VisualStudio.Package.Source.Completion*> method, in turn, calls the parser with the parse reason of \<xref:Microsoft.VisualStudio.Package.ParseReason> (if the token trigger also included the \<xref:Microsoft.VisualStudio.Package.TokenTriggers> flag, the parse reason is \<xref:Microsoft.VisualStudio.Package.ParseReason> which combines member selection and brace highlighting).  
+ The <xref:Microsoft.VisualStudio.Package.TokenTriggers> trigger initiates a call to the <xref:Microsoft.VisualStudio.Package.Source.Completion*> method on the <xref:Microsoft.VisualStudio.Package.Source> class and the <xref:Microsoft.VisualStudio.Package.Source.Completion*> method, in turn, calls the parser with the parse reason of <xref:Microsoft.VisualStudio.Package.ParseReason> (if the token trigger also included the <xref:Microsoft.VisualStudio.Package.TokenTriggers> flag, the parse reason is <xref:Microsoft.VisualStudio.Package.ParseReason> which combines member selection and brace highlighting).  
   
- The parser determines the context of the current position as well as what has been typed before the member select character. From this information, the parser creates a list of all members of the requested scope. This list of declarations is stored in the \<xref:Microsoft.VisualStudio.Package.AuthoringScope> object that is returned from the \<xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource*> method. If any declarations are returned, the member completion tool tip is displayed. The tool tip is managed by an instance of the \<xref:Microsoft.VisualStudio.Package.CompletionSet> class.  
+ The parser determines the context of the current position as well as what has been typed before the member select character. From this information, the parser creates a list of all members of the requested scope. This list of declarations is stored in the <xref:Microsoft.VisualStudio.Package.AuthoringScope> object that is returned from the <xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource*> method. If any declarations are returned, the member completion tool tip is displayed. The tool tip is managed by an instance of the <xref:Microsoft.VisualStudio.Package.CompletionSet> class.  
   
 ## Enabling Support for Member Completion  
- You must have the `CodeSense` registry entry set to 1 to support any IntelliSense operation. This registry entry can be set with a named parameter passed to the \<xref:Microsoft.VisualStudio.Shell.ProvideLanguageServiceAttribute> user attribute associated with the language package. The language service classes read the value of this registry entry from the \<xref:Microsoft.VisualStudio.Package.LanguagePreferences.EnableCodeSense*> property on the \<xref:Microsoft.VisualStudio.Package.LanguagePreferences> class.  
+ You must have the `CodeSense` registry entry set to 1 to support any IntelliSense operation. This registry entry can be set with a named parameter passed to the <xref:Microsoft.VisualStudio.Shell.ProvideLanguageServiceAttribute> user attribute associated with the language package. The language service classes read the value of this registry entry from the <xref:Microsoft.VisualStudio.Package.LanguagePreferences.EnableCodeSense*> property on the <xref:Microsoft.VisualStudio.Package.LanguagePreferences> class.  
   
- If your scanner returns the token trigger of \<xref:Microsoft.VisualStudio.Package.TokenTriggers>, and your parser returns a list of declarations, then the member completion list is displayed.  
+ If your scanner returns the token trigger of <xref:Microsoft.VisualStudio.Package.TokenTriggers>, and your parser returns a list of declarations, then the member completion list is displayed.  
   
 ## Supporting Member Completion in the Scanner  
- The scanner must be able to detect a member completion character and set the token trigger of \<xref:Microsoft.VisualStudio.Package.TokenTriggers> when that character is parsed.  
+ The scanner must be able to detect a member completion character and set the token trigger of <xref:Microsoft.VisualStudio.Package.TokenTriggers> when that character is parsed.  
   
 ### Example  
- Here is a simplified example of detecting the member completion character and setting the appropriate \<xref:Microsoft.VisualStudio.Package.TokenTriggers> flag. This example is for illustrative purposes only. It assumes that your scanner contains a method `GetNextToken` that identifies and returns tokens from a line of text. The example code simply sets the trigger whenever it sees the right kind of character.  
+ Here is a simplified example of detecting the member completion character and setting the appropriate <xref:Microsoft.VisualStudio.Package.TokenTriggers> flag. This example is for illustrative purposes only. It assumes that your scanner contains a method `GetNextToken` that identifies and returns tokens from a line of text. The example code simply sets the trigger whenever it sees the right kind of character.  
   
 ```c#  
 using Microsoft.VisualStudio.Package;  
@@ -104,14 +104,14 @@ namespace TestLanguagePackage
 ```  
   
 ## Supporting Member Completion in the Parser  
- For member completion, the \<xref:Microsoft.VisualStudio.Package.Source> class calls the \<xref:Microsoft.VisualStudio.Package.AuthoringScope.GetDeclarations*> method. You must implement the list in a class that is derived from the \<xref:Microsoft.VisualStudio.Package.Declarations> class. See the \<xref:Microsoft.VisualStudio.Package.Declarations> class for details about the methods you must implement.  
+ For member completion, the <xref:Microsoft.VisualStudio.Package.Source> class calls the <xref:Microsoft.VisualStudio.Package.AuthoringScope.GetDeclarations*> method. You must implement the list in a class that is derived from the <xref:Microsoft.VisualStudio.Package.Declarations> class. See the <xref:Microsoft.VisualStudio.Package.Declarations> class for details about the methods you must implement.  
   
- The parser is called with \<xref:Microsoft.VisualStudio.Package.ParseReason> or \<xref:Microsoft.VisualStudio.Package.ParseReason> when a member select character is typed. The location given in the \<xref:Microsoft.VisualStudio.Package.ParseRequest> object is immediately after the member select character. The parser must collect the names of all members that can appear in a member list at that particular point in the source code. Then the parser must parse the current line to determine the scope the user wants associated with the member select character.  
+ The parser is called with <xref:Microsoft.VisualStudio.Package.ParseReason> or <xref:Microsoft.VisualStudio.Package.ParseReason> when a member select character is typed. The location given in the <xref:Microsoft.VisualStudio.Package.ParseRequest> object is immediately after the member select character. The parser must collect the names of all members that can appear in a member list at that particular point in the source code. Then the parser must parse the current line to determine the scope the user wants associated with the member select character.  
   
  This scope is based on the type of the identifier before the member select character. For example, in C#, given the member variable `languageService` that has a type of `LanguageService`, typing **languageService.** produces a list of all the members of the `LanguageService` class. Also in C#, typing **this.** produces a list of all the members of the class in the current scope.  
   
 ### Example  
- The following example shows one way to populate a \<xref:Microsoft.VisualStudio.Package.Declarations> list. This code assumes that the parser constructs a declaration and adds it to the list by calling an `AddDeclaration` method on the `TestAuthoringScope` class.  
+ The following example shows one way to populate a <xref:Microsoft.VisualStudio.Package.Declarations> list. This code assumes that the parser constructs a declaration and adds it to the list by calling an `AddDeclaration` method on the `TestAuthoringScope` class.  
   
 ```c#  
 using System.Collections;  

@@ -1,7 +1,7 @@
 ---
 title: "Automation Support for Options Pages"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -35,17 +35,17 @@ translation.priority.mt:
 VSPackages can provide custom **Options** dialog boxes to the **Tools** menu (Tools Options pages) in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and can make them available to the automation model.  
   
 ## Tools Options Pages  
- To create a **Tools Options** page, a VSPackage must provide a user control implementation returned to the environment through the VSPackage's implementation of the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetPropertyPage*> method, (or for managed-code the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetPropertyPage*> method).  
+ To create a **Tools Options** page, a VSPackage must provide a user control implementation returned to the environment through the VSPackage's implementation of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetPropertyPage*> method, (or for managed-code the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetPropertyPage*> method).  
   
  It is optional, but strongly encouraged, to allow access to this new page through the automation model. You can do this through the following steps:  
   
-1.  Extend the \<xref:EnvDTE._DTE.Properties*> object through the implementation of an IDispatch-derived object.  
+1.  Extend the <xref:EnvDTE._DTE.Properties*> object through the implementation of an IDispatch-derived object.  
   
-2.  Return an implementation of the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetAutomationObject*> method (or for managed code the \<xref:Microsoft.VisualStudio.Shell.Package.GetAutomationObject*> method) to the IDispatch-derived object.  
+2.  Return an implementation of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetAutomationObject*> method (or for managed code the <xref:Microsoft.VisualStudio.Shell.Package.GetAutomationObject*> method) to the IDispatch-derived object.  
   
-3.  When an automation consumer calls the \<xref:EnvDTE._DTE.Properties*> method on a custom **Option** property page, the environment uses the \<xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetAutomationObject*> method to obtain a custom **Tools Options** page's automation implementation.  
+3.  When an automation consumer calls the <xref:EnvDTE._DTE.Properties*> method on a custom **Option** property page, the environment uses the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetAutomationObject*> method to obtain a custom **Tools Options** page's automation implementation.  
   
-4.  The automation object of the VSPackage is then used to provide each \<xref:EnvDTE.Property> returned by \<xref:EnvDTE._DTE.Properties*>.  
+4.  The automation object of the VSPackage is then used to provide each <xref:EnvDTE.Property> returned by <xref:EnvDTE._DTE.Properties*>.  
   
  For a sample implementing a custom Tools Options page, see [VSSDK Samples](../misc/vssdk-samples.md).  
   

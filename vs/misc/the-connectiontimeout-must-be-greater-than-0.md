@@ -1,7 +1,7 @@
 ---
 title: "The ConnectionTimeout must be greater than 0"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -39,8 +39,8 @@ When uploading and downloading files with the [My.Computer.Network Object](../To
 -   Supply a `connectionTimeout` that is greater than `0`.  
   
 ## See Also  
- [My.Computer.Network.UploadFile Method](http://msdn.microsoft.com/5505ea3e-3dbd-460b-9f8f-62c84c0a4de6)   
- [My.Computer.Network.DownloadFile Method](http://msdn.microsoft.com/aeb7ed8f-1ac9-4242-ae57-9f35914eb329)   
+ [My.Computer.Network.UploadFile Method](http://msdn.microsoft.com/en-us/5505ea3e-3dbd-460b-9f8f-62c84c0a4de6)   
+ [My.Computer.Network.DownloadFile Method](http://msdn.microsoft.com/en-us/aeb7ed8f-1ac9-4242-ae57-9f35914eb329)   
  [How to: Upload a File](../Topic/How%20to:%20Upload%20a%20File%20in%20Visual%20Basic.md)   
  [How to: Download a File](../Topic/How%20to:%20Download%20a%20File%20in%20Visual%20Basic.md)   
- [Network Operations in the .NET Framework with Visual Basic](http://msdn.microsoft.com/c5379021-44ef-4d6a-acf5-e951fdcab6b2)
+ [Network Operations in the .NET Framework with Visual Basic](http://msdn.microsoft.com/en-us/c5379021-44ef-4d6a-acf5-e951fdcab6b2)

@@ -1,7 +1,7 @@
 ---
 title: "-InstallVSTemplates (devenv.exe)"
 ms.custom: na
-ms.date: "10/03/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -48,5 +48,5 @@ devenv.exe /InstallVSTemplates
 ## Remarks  
   
 ## See Also  
- [NIB: Visual Studio Templates](http://msdn.microsoft.com/141fccaa-d68f-4155-822b-27f35dd94041)   
+ [NIB: Visual Studio Templates](http://msdn.microsoft.com/en-us/141fccaa-d68f-4155-822b-27f35dd94041)   
  [Devenv Command Line Switches](../reference/devenv-command-line-switches.md)

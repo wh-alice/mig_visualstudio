@@ -1,7 +1,7 @@
 ---
 title: "Statement cannot appear within an event body"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -46,5 +46,5 @@ Statement cannot appear within an event body. End of event assumed.
 -   Add an `End Event` before the statement.  
   
 ## See Also  
- [Application Events Sample](http://msdn.microsoft.com/289a787f-b97e-43c8-a304-fe95e45f4a0d)   
+ [Application Events Sample](http://msdn.microsoft.com/en-us/289a787f-b97e-43c8-a304-fe95e45f4a0d)   
  [Event Statement](../Topic/Event%20Statement.md)

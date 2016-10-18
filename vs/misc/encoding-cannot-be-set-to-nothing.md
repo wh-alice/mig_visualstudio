@@ -1,7 +1,7 @@
 ---
 title: "Encoding cannot be set to Nothing"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -32,7 +32,7 @@ translation.priority.mt:
 # Encoding cannot be set to Nothing
 An attempt to read from or write to a file has failed because the parameter `encoding` has been set to `Nothing` but requires a valid value.  
   
- \<xref:System.Text.Encoding> is used to determine what encoding to use when writing to a file. The default is UTF-8.  
+ <xref:System.Text.Encoding> is used to determine what encoding to use when writing to a file. The default is UTF-8.  
   
 ### To correct this error  
   
@@ -42,5 +42,5 @@ An attempt to read from or write to a file has failed because the parameter `enc
  [File Encodings](../Topic/File%20Encodings%20\(Visual%20Basic\).md)   
  [Reading from Files](../Topic/Reading%20from%20Files%20in%20Visual%20Basic.md)   
  [Writing to Files](../Topic/Writing%20to%20Files%20in%20Visual%20Basic.md)   
- [My.Computer.FileSystem.ReadAllText Method](http://msdn.microsoft.com/3a7ac8be-fb1d-4087-bc65-167d6754d57f)   
- [My.Computer.FileSystem.WriteAllText Method](http://msdn.microsoft.com/f507460c-87d9-4504-b74f-3ff825c7d5c4)
+ [My.Computer.FileSystem.ReadAllText Method](http://msdn.microsoft.com/en-us/3a7ac8be-fb1d-4087-bc65-167d6754d57f)   
+ [My.Computer.FileSystem.WriteAllText Method](http://msdn.microsoft.com/en-us/f507460c-87d9-4504-b74f-3ff825c7d5c4)

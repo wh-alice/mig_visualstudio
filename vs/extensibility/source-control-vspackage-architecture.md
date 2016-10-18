@@ -1,7 +1,7 @@
 ---
 title: "Source Control VSPackage Architecture"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -56,10 +56,10 @@ A source-control package is a VSPackage that uses services that the [!INCLUDE[vs
   
  For a source-control package, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] does not supply source control code or an API for integration. Contrast this with the approach outlined in [Creating a Source Control Plug-in](../extensibility/creating-a-source-control-plug-in.md) where the source control plug-in has to implement a rigid set of functions and callbacks.  
   
- Like any VSPackage, a source-control package is a COM object that can be created by using `CoCreateInstance`. The VSPackage makes itself available to the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] IDE by implementing \<xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage>. When an instance has been created, a VSPackage receives a site pointer and an \<xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider> interface that provides the VSPackage access to the available services and interfaces in the IDE.  
+ Like any VSPackage, a source-control package is a COM object that can be created by using `CoCreateInstance`. The VSPackage makes itself available to the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] IDE by implementing <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage>. When an instance has been created, a VSPackage receives a site pointer and an <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider> interface that provides the VSPackage access to the available services and interfaces in the IDE.  
   
  Writing a VSPackage-based source-control package requires more advanced programming expertise than writing a Source Control Plug-in API-based plug-in.  
   
 ## See Also  
- \<xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage>   
+ <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage>   
  [Getting Started](../extensibility/getting-started-with-source-control-vspackages.md)

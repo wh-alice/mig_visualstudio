@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.ServiceModel.Persistence.InstanceNotFoundException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -33,12 +33,12 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.ServiceModel.Persistence.InstanceNotFoundException
-An \<xref:System.ServiceModel.Persistence.InstanceNotFoundException> exception is thrown under the following circumstances:  
+An <xref:System.ServiceModel.Persistence.InstanceNotFoundException> exception is thrown under the following circumstances:  
   
 -   An operation is performed on a durable service instance that has been marked for completion.  
   
--   A persistence provider created by a \<xref:System.ServiceModel.Persistence.SqlPersistenceProviderFactory> attempts to lock, unlock, or otherwise process state data that is not found in the database.  
+-   A persistence provider created by a <xref:System.ServiceModel.Persistence.SqlPersistenceProviderFactory> attempts to lock, unlock, or otherwise process state data that is not found in the database.  
   
 ## See Also  
- \<xref:System.ServiceModel.Persistence.InstanceNotFoundException>   
+ <xref:System.ServiceModel.Persistence.InstanceNotFoundException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

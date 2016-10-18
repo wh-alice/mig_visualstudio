@@ -1,7 +1,7 @@
 ---
 title: "How to: Use the Expression Editor"
 ms.custom: na
-ms.date: "10/10/2016"
+ms.date: "10/13/2016"
 ms.prod: ".net-framework-4.6"
 ms.reviewer: na
 ms.suite: na
@@ -48,14 +48,14 @@ The Expression Editor is a [!INCLUDE[wfd1](../workflowdesigner/includes/wfd1_md.
   
 1.  In [!INCLUDE[vs2010](../codequality/includes/vs2010_md.md)], open a new or existing workflow project.  
   
-2.  Add, for example, the \<xref:System.Activities.Statements.Assign> activity to your workflow.  
+2.  Add, for example, the <xref:System.Activities.Statements.Assign> activity to your workflow.  
   
     > [!NOTE]
-    >  Multiple workflow activities have expression editors. Expression TextBlocks also appear in the variable designer, argument designer, and the dynamic argument designer. The \<xref:System.Activities.Statements.Assign> activity is used as an example.  
+    >  Multiple workflow activities have expression editors. Expression TextBlocks also appear in the variable designer, argument designer, and the dynamic argument designer. The <xref:System.Activities.Statements.Assign> activity is used as an example.  
   
-3.  Click the left expression editor in the activity designer for the \<xref:System.Activities.Statements.Assign> activity.  
+3.  Click the left expression editor in the activity designer for the <xref:System.Activities.Statements.Assign> activity.  
   
-     The grey watermark strings **\<To>** and **\<Enter a VB Expression>** are the default text strings for expression editors in the \<xref:System.Activities.Statements.Assign> activity.  
+     The grey watermark strings **\<To>** and **\<Enter a VB Expression>** are the default text strings for expression editors in the <xref:System.Activities.Statements.Assign> activity.  
   
 4.  Enter your expression. If you enter a string, make sure to put quotation marks around the string. If you choose to bind the expression argument to a variable, leave the quotation marks off.  
   
@@ -64,4 +64,4 @@ The Expression Editor is a [!INCLUDE[wfd1](../workflowdesigner/includes/wfd1_md.
      An Alternative way to enter/edit an expression is to click the ellipsis next to the property name in the property grid. This will open the **Expression Editor** as dialog box.  
   
 ## See Also  
- \<xref:System.Activities.Presentation.View.ExpressionTextBox>
+ <xref:System.Activities.Presentation.View.ExpressionTextBox>

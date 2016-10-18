@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio Reference"
 ms.custom: na
-ms.date: "10/12/2016"
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -10,7 +10,7 @@ ms.technology:
 ms.tgt_pltfrm: na
 ms.topic: "article"
 ms.assetid: c4ddcffd-d5b7-4ce8-8775-14e649c34518
-caps.latest.revision: 33
+caps.latest.revision: 35
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -30,100 +30,45 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Visual Studio Reference
-\<?xml version="1.0" encoding="utf-8"?>
-\<developerOrientationDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ddue.schemas.microsoft.com/authoring/2003/5 http://dduestorage.blob.core.windows.net/ddueschema/developer.xsd">
-  <introduction>
-    <para>This section includes user interface reference, language equivalents, and other reference documents. </para>
-  </introduction>
-  <inThisSection>
-    <content>
-      <definitionTable>
-        <definedTerm>
-          \<link xlink:href="bc67652d-1001-4979-ba71-d57147d21928">General User Interface Elements (Visual Studio)</link>
-        </definedTerm>
-        <definition>
-          <para>Contains documents about dialog boxes and windows that are not described elsewhere in the table of contents. </para>
-        </definition>
-        <definedTerm>
-          \<link xlink:href="e12bc6ed-74fd-4bea-8d7c-89b99c20bad8">Devenv Command Line Switches</link>
-        </definedTerm>
-        <definition>
-          <para>Lists devenv command line switches.</para>
-        </definition>
-        <definedTerm>
-          \<link xlink:href="76ffa394-ee89-4629-aba9-1a62b72e6cc1">Visual Studio Commands</link>
-        </definedTerm>
-        <definition>
-          <para>Explains how to use Visual Studio commands from the Commands window.</para>
-        </definition>
-        <definedTerm>
-          \<link xlink:href="1fd5de47-2d61-4180-9539-c2c4bf9ab768">XML Tools in Visual Studio</link>
-        </definedTerm>
-        <definition>
-          <para>Contains documents about the XML tools in Visual Studio and provides links to more information.</para>
-        </definition>
-        <definedTerm>
-          \<link xlink:href="877a0fa3-4b6f-4056-b320-d8727793f708">Visual Studio for Applications Reference</link>
-        </definedTerm>
-        <definition>
-          <para>Contains reference documentation for interfaces that you can use to integrate .NET Framework script engines into applications.</para>
-        </definition>
-        <definedTerm>
-          "MSBuild"
-        </definedTerm>
-        <definition>
-          <para>Contains documents about how to use the Microsoft build platform, which is integrated into <token>vsprvs</token>.</para>
-        </definition>
-        <definedTerm>
-          \<link xlink:href="8f866eb5-a206-4c16-807e-96a0f2c0e645">Resources for Troubleshooting IDE Errors</link>
-        </definedTerm>
-        <definition>
-          <para>Contains links to resources to help you resolve IDE error messages</para>
-        </definition>
-        <definedTerm>
-          \<link xlink:href="e0846d4d-2ce1-48e3-b219-674ff070bf4e">Getting Help from Microsoft Support (Visual Studio)</link>
-        </definedTerm>
-        <definition>
-          <para>Contains information about how to locate customer support for Visual Studio.</para>
-        </definition>
-        <definedTerm>
-          \<link xlink:href="6bbcfc31-edbe-4143-a703-fde023efbb62">Accessibility for People with Disabilities</link>
-        </definedTerm>
-        <definition>
-          <para>Contains tips about how to change accessibility options.</para>
-        </definition>
-      </definitionTable>
-    </content>
-  </inThisSection>
-  <relatedSections>
-    <content>
-      <definitionTable>
-        <definedTerm>
-          \<link xlink:href="DF6E7C50-5F3E-4381-98ED-BA5C3E9FE228">Visual Basic and Visual C# Reference</link>
-        </definedTerm>
-        <definition>
-          <para>Contains <token>vbprvb</token> upgrading information and the <token>vbprvb</token> language and run-time reference.</para>
-        </definition>
-        <definedTerm>
-          \<link xlink:href="c26a6682-961a-43ef-ad33-2adc612f69ac">C++ Language and Standard Libraries</link>
-        </definedTerm>
-        <definition>
-          <para>Contains language reference documentation.</para>
-        </definition>
-        <definedTerm>
-          \<legacyLink xlink:href="2e47f004-963c-4661-b887-a14e4660aadd">JScript Reference</legacyLink>
-        </definedTerm>
-        <definition>
-          <para>Contains documents about the <token>jsprjscript</token> programming language. Includes properties, methods, objects, and functions, and other elements.</para>
-        </definition>
-        <definedTerm>
-          \<link xlink:href="8b202505-608b-4223-bbd9-2ace3d73e6cd">.NET Framework Reference Information</link>
-        </definedTerm>
-        <definition>
-          <para>Contains documents about the <token>dnprdnshort</token> class library, compiler and language reference, and also <token>vstecasp</token> syntax, XSD reference, and other topics.</para>
-        </definition>
-      </definitionTable>
-    </content>
-  </relatedSections>
-  <relatedTopics />
-</developerOrientationDocument>
+This section includes user interface reference, language equivalents, and other reference documents.  
+  
+## In This Section  
+ [General User Interface Elements (Visual Studio)](../reference/general-user-interface-elements--visual-studio-.md)  
+ Contains documents about dialog boxes and windows that are not described elsewhere in the table of contents.  
+  
+ [Devenv Command Line Switches](../reference/devenv-command-line-switches.md)  
+ Lists devenv command line switches.  
+  
+ [Visual Studio Commands](../reference/visual-studio-commands.md)  
+ Explains how to use Visual Studio commands from the Commands window.  
+  
+ [XML Tools in Visual Studio](../reference/xml-tools-in-visual-studio.md)  
+ Contains documents about the XML tools in Visual Studio and provides links to more information.  
+  
+ [Visual Studio for Applications Reference](../reference/visual-studio-for-applications-reference.md)  
+ Contains reference documentation for interfaces that you can use to integrate .NET Framework script engines into applications.  
+  
+ [MSBuild](../reference/msbuild1.md)  
+ Contains documents about how to use the Microsoft build platform, which is integrated into [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+  
+ [Resources for Troubleshooting IDE Errors](../reference/resources-for-troubleshooting-integrated-development-environment-errors.md)  
+ Contains links to resources to help you resolve IDE error messages  
+  
+ [Talk to Us](../Topic/Talk%20to%20Us.md)  
+ Contains information about how to locate customer support for Visual Studio.  
+  
+ [Accessibility for People with Disabilities](../reference/accessibility-for-people-with-disabilities.md)  
+ Contains tips about how to change accessibility options.  
+  
+## Related Sections  
+ [Visual Basic Reference](../Topic/Reference%20\(Visual%20Basic\).md)  
+ Contains [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] upgrading information and the [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] language and run-time reference.  
+  
+ [C/C++ Language and Standard Libraries](../Topic/C-C++%20Language%20and%20Standard%20Libraries.md)  
+ Contains language reference documentation.  
+  
+ [JScript Reference](http://msdn.microsoft.com/en-us/2e47f004-963c-4661-b887-a14e4660aadd)  
+ Contains documents about the [!INCLUDE[jsprjscript](../debugger/includes/jsprjscript_md.md)] programming language. Includes properties, methods, objects, and functions, and other elements.  
+  
+ [.NET Framework Reference Information](../Topic/.NET%20Framework%20Reference%20Information%20\(Visual%20Basic\).md)  
+ Contains documents about the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] class library, compiler and language reference, and also [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] syntax, XSD reference, and other topics.

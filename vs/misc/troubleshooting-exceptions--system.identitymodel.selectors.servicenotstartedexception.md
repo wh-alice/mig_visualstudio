@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.IdentityModel.Selectors.ServiceNotStartedException"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -33,12 +33,12 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.IdentityModel.Selectors.ServiceNotStartedException
-A \<xref:System.IdentityModel.Selectors.ServiceNotStartedException> exception is thrown when CardSpace has not been started on the user's computer. If CardSpace has attempted to start but has been unable to for any reason, this exception is thrown.  
+A <xref:System.IdentityModel.Selectors.ServiceNotStartedException> exception is thrown when CardSpace has not been started on the user's computer. If CardSpace has attempted to start but has been unable to for any reason, this exception is thrown.  
   
  Check that the CardSpace service is installed and enabled on the computer. Try to start the CardSpace service manually by using Microsoft Management Console (MMC).  
   
  CardSpace version 1 does not support FAT file systems. On FAT systems, CardSpace will not start and this exception will occur.  
   
 ## See Also  
- \<xref:System.IdentityModel.Selectors.ServiceNotStartedException>   
+ <xref:System.IdentityModel.Selectors.ServiceNotStartedException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)

@@ -1,7 +1,7 @@
 ---
 title: "The file is currently open for writing"
 ms.custom: na
-ms.date: "10/01/2016"
+ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -37,7 +37,7 @@ An attempt has been made to access a file that is currently open for writing.
 -   Close the file and attempt the operation again.  
   
 ## See Also  
- \<xref:System.Security.Permissions.FileIOPermission>   
- [How to: Get Information About a File in Visual Basic](http://msdn.microsoft.com/ca0720ec-f40e-4c11-9748-0ce1685c78f0)   
+ <xref:System.Security.Permissions.FileIOPermission>   
+ [How to: Get Information About a File in Visual Basic](http://msdn.microsoft.com/en-us/ca0720ec-f40e-4c11-9748-0ce1685c78f0)   
  [How to: Write Text to Files](../Topic/How%20to:%20Write%20Text%20to%20Files%20in%20Visual%20Basic.md)   
  [How to: Write to Binary Files](../Topic/How%20to:%20Write%20to%20Binary%20Files%20in%20Visual%20Basic.md)

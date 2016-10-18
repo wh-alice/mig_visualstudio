@@ -1,7 +1,7 @@
 ---
 title: "Customizing the Properties Window"
 ms.custom: na
-ms.date: "10/04/2016"
+ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -142,9 +142,9 @@ You can customize the appearance and behavior of the properties window in your d
   
  You can set the attribute on a property by using the **Custom Attribute** entry in the Properties window.  
   
- The type of `AnEditor` must be derived from the type specified in the second parameter. The second parameter should be either \<xref:System.Drawing.Design.UITypeEditor> or \<xref:System.ComponentModel.ComponentEditor>. For more information, see \<xref:System.ComponentModel.EditorAttribute>.  
+ The type of `AnEditor` must be derived from the type specified in the second parameter. The second parameter should be either <xref:System.Drawing.Design.UITypeEditor> or <xref:System.ComponentModel.ComponentEditor>. For more information, see <xref:System.ComponentModel.EditorAttribute>.  
   
- You can specify either your own editor, or an editor supplied in the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)], such as \<xref:System.Windows.Forms.Design.FileNameEditor> or \<xref:System.Drawing.Design.ImageEditor>. For example, use the following procedure to have a property in which the user can enter a file name.  
+ You can specify either your own editor, or an editor supplied in the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)], such as <xref:System.Windows.Forms.Design.FileNameEditor> or <xref:System.Drawing.Design.ImageEditor>. For example, use the following procedure to have a property in which the user can enter a file name.  
   
 ##### To define a file name domain property  
   
@@ -172,13 +172,13 @@ You can customize the appearance and behavior of the properties window in your d
 ### Defining your own property editor  
  You can define your own editor. You would do this to  allow the user either to edit a type that you have defined, or to edit a standard type in a special way. For example, you could allow the user to input a string that represents a formula.  
   
- You define an editor by writing a class that is derived from \<xref:System.Drawing.Design.UITypeEditor>. Your class must override:  
+ You define an editor by writing a class that is derived from <xref:System.Drawing.Design.UITypeEditor>. Your class must override:  
   
--   \<xref:System.Drawing.Design.UITypeEditor.EditValue*>, to interact with the user and update the property value.  
+-   <xref:System.Drawing.Design.UITypeEditor.EditValue*>, to interact with the user and update the property value.  
   
--   \<xref:System.Drawing.Design.UITypeEditor.GetEditStyle*>, to specify whether your editor will open a dialog or provide a drop-down menu.  
+-   <xref:System.Drawing.Design.UITypeEditor.GetEditStyle*>, to specify whether your editor will open a dialog or provide a drop-down menu.  
   
- You can also provide a graphical representation of the property’s value that will be displayed in the property grid. To do this, override `GetPaintValueSupported`, and `PaintValue`.  For more information, see \<xref:System.Drawing.Design.UITypeEditor>.  
+ You can also provide a graphical representation of the property’s value that will be displayed in the property grid. To do this, override `GetPaintValueSupported`, and `PaintValue`.  For more information, see <xref:System.Drawing.Design.UITypeEditor>.  
   
 > [!NOTE]
 >  Add the code in a separate code file in the **Dsl** project.  
@@ -207,7 +207,7 @@ internal class TextFileNameEditor : System.Windows.Forms.Design.FileNameEditor
   
 ```  
   
- For more information, see \<xref:System.Drawing.Design.UITypeEditor>.  
+ For more information, see <xref:System.Drawing.Design.UITypeEditor>.  
   
 ## Providing a drop-down list of values  
  You can provide a list of values for a user to choose from.  
@@ -223,7 +223,7 @@ internal class TextFileNameEditor : System.Windows.Forms.Design.FileNameEditor
   
 ```  
   
- Define a class that derives from \<xref:System.ComponentModel.TypeConverter>. Add the code in a separate file in the **Dsl** project. For example:  
+ Define a class that derives from <xref:System.ComponentModel.TypeConverter>. Add the code in a separate file in the **Dsl** project. For example:  
   
 ```c#  
 /// <summary>  

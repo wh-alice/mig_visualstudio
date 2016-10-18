@@ -1,7 +1,7 @@
 ---
 title: "MSBuild Error MSB2003"
 ms.custom: na
-ms.date: "10/07/2016"
+ms.date: "10/17/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: na
 ms.suite: na
@@ -14,7 +14,7 @@ f1_keywords:
 helpviewer_keywords: 
   - "MSB2003"
 ms.assetid: 2686117d-acc6-4222-93cd-2354cd3e1134
-caps.latest.revision: 12
+caps.latest.revision: 14
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -34,30 +34,15 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # MSBuild Error MSB2003
-\<?xml version="1.0" encoding="utf-8"?>
-\<developerErrorMessageDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ddue.schemas.microsoft.com/authoring/2003/5 http://clixdevr3.blob.core.windows.net/ddueschema/developer.xsd">
-  <introduction>
-    <para>
-      <ui>The file name of the old project must be specified.</ui>
-    </para>
-    <para>This project file does not exist in the expected location.</para>
-  </introduction>
-  <procedure>
-    <title>To correct this error</title>
-    <steps class="bullet">
-      <step>
-        <content>
-          <para>Check whether the project file has been moved.</para>
-        </content>
-      </step>
-      <step>
-        <content>
-          <para>Check whether the project file has been modified or corrupted. If it has been modified or corrupted, open the project in the version of <token>vsprvs</token> in which it was created, save it, and then attempt to convert it again.</para>
-        </content>
-      </step>
-    </steps>
-  </procedure>
-  <relatedTopics>
+**The file name of the old project must be specified.**  
+  
+ This project file does not exist in the expected location.  
+  
+### To correct this error  
+  
+-   Check whether the project file has been moved.  
+  
+-   Check whether the project file has been modified or corrupted. If it has been modified or corrupted, open the project in the version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] in which it was created, save it, and then attempt to convert it again.
 
-</relatedTopics>
-</developerErrorMessageDocument>
+## See Also
+[MSBuild](../reference/msbuild1.md)
