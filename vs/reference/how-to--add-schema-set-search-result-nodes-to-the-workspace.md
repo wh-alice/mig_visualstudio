@@ -1,13 +1,13 @@
 ---
 title: "How to: Add Schema Set Search Result Nodes to the Workspace"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ff33b3cc-4db9-4b4e-9378-b45ed5999b18
 caps.latest.revision: 3

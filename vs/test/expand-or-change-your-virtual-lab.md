@@ -1,11 +1,11 @@
 ---
 title: "Expand or change your virtual lab"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8d903c83-df24-4776-adf6-48bd2115d659
 caps.latest.revision: 44

@@ -1,11 +1,11 @@
 ---
 title: "How to: Add Activities to the Toolbox"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/02/2016"
 ms.prod: ".net-framework-4.6"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "reference"
 ms.assetid: b3a8a785-5928-457a-8a50-30267e29503d
 caps.latest.revision: 16

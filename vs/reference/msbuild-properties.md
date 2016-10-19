@@ -1,18 +1,18 @@
 ---
 title: "MSBuild Properties"
-ms.custom: na
-ms.date: "10/17/2016"
+ms.custom: ""
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "MSBuild, properties"
 ms.assetid: 962912ac-8931-49bf-a88c-0200b6e37362
-caps.latest.revision: 30
+caps.latest.revision: 31
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -150,7 +150,8 @@ msbuild.exe MyProj.proj /p:Configuration=DEBUG
 ```  
   
 ## See Also  
- [MSBuild Concepts](../reference/msbuild-concepts.md)   
+ [MSBuild Concepts](../reference/msbuild-concepts.md)  
+ [MSBuild](../reference/msbuild1.md) 
  [How to: Use Environment Variables in a Build](../reference/how-to--use-environment-variables-in-a-build.md)   
  [How to: Reference the Name or Location of the Project File](../reference/how-to--reference-the-name-or-location-of-the-project-file.md)   
  [How to: Build the Same Source Files with Different Options](../reference/how-to--build-the-same-source-files-with-different-options.md)   

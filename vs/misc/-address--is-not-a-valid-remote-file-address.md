@@ -1,13 +1,13 @@
 ---
 title: "&lt;address&gt; is not a valid remote file address"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2c312242-6c42-4754-a1f5-7e801a542604
 caps.latest.revision: 11

@@ -1,13 +1,13 @@
 ---
 title: "How to: Configure Targets and Tasks"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 92814100-392a-471d-96fd-e26f637d6cc2
 caps.latest.revision: 5

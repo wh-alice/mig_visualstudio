@@ -1,13 +1,13 @@
 ---
 title: "How to: Create Associations Between Types (Class Designer)"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.classdesigner.associationline"
@@ -67,4 +67,4 @@ Association lines in Class Designer show how classes in a diagram are related. A
      The name is updated in the **Class Details** window, on the association line, in the Properties window, and in code.  
   
 ## See Also  
- [How to: Change Between Member Notation and Association Notation (Class Designer)](../ide/how-to--change-between-member-notation-and-association-notation--class-designer-.md)
+ [How to: Change Between Member Notation and Association Notation (Class Designer)](../ide/65881c5a-d251-4a36-ad0d-73d088436092.md)

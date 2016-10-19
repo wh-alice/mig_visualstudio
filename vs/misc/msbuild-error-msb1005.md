@@ -1,20 +1,20 @@
 ---
 title: "MSBuild Error MSB1005"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "MSBuild.MissingPropertyError"
 helpviewer_keywords: 
   - "MSB1005"
 ms.assetid: cf4e8503-46fb-4c1e-a1ca-aa344276ebb0
-caps.latest.revision: 12
+caps.latest.revision: 13
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -44,3 +44,4 @@ translation.priority.mt:
   
 ## See Also  
  [Command-Line Reference](../reference/msbuild-command-line-reference.md)
+ [MSBuild Properties](../reference/msbuild-properties.md)

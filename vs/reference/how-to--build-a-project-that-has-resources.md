@@ -1,13 +1,13 @@
 ---
 title: "How to: Build a Project That Has Resources"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "resource files, compiling with MSBuild"
@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "projects [.NET Framework], building"
   - "MSBuild, building a project with resources"
 ms.assetid: d07ac73f-2c2d-4e9a-812a-6dcb632bafe2
-caps.latest.revision: 12
+caps.latest.revision: 13
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -90,6 +90,7 @@ If you are building localized versions of a project, all user interface elements
 ```  
   
 ## See Also  
+[MSBuild](../reference/msbuild1.md)
  [GenerateResource Task](../reference/generateresource-task.md)   
  [Csc Task](../reference/csc-task.md)   
  [Resgen.exe (Resource File Generator)](../Topic/Resgen.exe%20\(Resource%20File%20Generator\).md)

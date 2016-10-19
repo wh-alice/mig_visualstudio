@@ -1,11 +1,11 @@
 ---
 title: "How to: Create LINQ to SQL classes mapped to tables and views (O-R Designer)"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0fb78bbc-7a78-4ab4-b32f-85ece912e660
 caps.latest.revision: 3
@@ -36,7 +36,7 @@ translation.priority.mt:
 ## Create LINQ to SQL Classes That Are Mapped to Database Tables or Views  
  Dragging tables or views from **Server Explorer**/**Database Explorer** onto the [!INCLUDE[vs_ordesigner_short](../datatools/includes/vs_ordesigner_short_md.md)] creates entity classes in addition to the <xref:System.Data.Linq.DataContext> methods that are used for performing updates.  
   
- By default, the [!INCLUDE[vbtecdlinq](../datatools/includes/vbtecdlinq_md.md)] runtime creates logic to save changes from an updatable entity class back to the database. This logic is based on the schema of the table (the column definitions and primary key information). If you do not want this behavior, you can configure an entity class to use stored procedures to perform Inserts, Updates, and Deletes instead of using the default [!INCLUDE[vbtecdlinq](../datatools/includes/vbtecdlinq_md.md)] runtime behavior. For more information, see [How to: Assign stored procedures to perform updates, inserts, and deletes (O/R Designer)](../datatools/how-to--assign-stored-procedures-to-perform-updates--inserts--and-deletes--o-r-designer-.md).  
+ By default, the [!INCLUDE[vbtecdlinq](../datatools/includes/vbtecdlinq_md.md)] runtime creates logic to save changes from an updatable entity class back to the database. This logic is based on the schema of the table (the column definitions and primary key information). If you do not want this behavior, you can configure an entity class to use stored procedures to perform Inserts, Updates, and Deletes instead of using the default [!INCLUDE[vbtecdlinq](../datatools/includes/vbtecdlinq_md.md)] runtime behavior. For more information, see [How to: Assign stored procedures to perform updates, inserts, and deletes (O/R Designer)](../datatools/e88224ab-ff61-4a3a-b6b8-6f3694546cac.md).  
   
  [!INCLUDE[note_settings_general](../datatools/includes/note_settings_general_md.md)]  
   
@@ -74,8 +74,8 @@ translation.priority.mt:
  [LINQ to SQL Tools in Visual Studio](../datatools/linq-to-sql-tools-in-visual-studio2.md)   
  [Walkthrough: Creating LINQ to SQL Classes (O-R Designer)](../Topic/Walkthrough:%20Creating%20LINQ%20to%20SQL%20Classes%20\(O-R%20Designer\).md)   
  [DataContext Methods (O/R Designer)](../datatools/datacontext-methods--o-r-designer-.md)   
- [How to: Create DataContext methods mapped to stored procedures and functions (O/R Designer)](../datatools/how-to--create-datacontext-methods-mapped-to-stored-procedures-and-functions--o-r-designer-.md)   
+ [How to: Create DataContext methods mapped to stored procedures and functions (O/R Designer)](../datatools/e7ca32f1-50b3-48af-ad92-ceafd749296a.md)   
  [The LINQ to SQL Object Model](../Topic/The%20LINQ%20to%20SQL%20Object%20Model.md)   
- [Walkthrough: Customizing the insert, update, and delete behavior of entity classes](../datatools/walkthrough--customizing-the-insert--update--and-delete-behavior-of-entity-classes.md)   
+ [Walkthrough: Customizing the insert, update, and delete behavior of entity classes](../datatools/03ff1146-706e-4780-91cb-56a83df63eea.md)   
  [Walkthrough: Adding Validation to Entity Classes](../Topic/Walkthrough:%20Adding%20Validation%20to%20Entity%20Classes.md)   
- [How to: Create an association (relationship) between LINQ to SQL classes (O/R Designer)](../datatools/how-to--create-an-association--relationship--between-linq-to-sql-classes--o-r-designer-.md)
+ [How to: Create an association (relationship) between LINQ to SQL classes (O/R Designer)](../datatools/56133e65-81f3-44c3-bc28-ffdd0671a0d2.md)

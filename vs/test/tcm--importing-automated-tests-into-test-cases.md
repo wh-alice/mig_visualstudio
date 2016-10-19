@@ -1,11 +1,11 @@
 ---
 title: "tcm: Importing Automated Tests into Test Cases"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c8a9f269-b650-4d42-a6f8-d10896559d8d
 caps.latest.revision: 23
@@ -31,7 +31,7 @@ You can import automated tests, such as unit tests or coded UI tests, into your 
   
 -   **tcm testcase /import**  
   
- Each automated test that you select, based on the parameters provided, has a test case created for it. The automated test is automatically associated with that test case. You can add test cases to a static test suite by using this command, or you can add test cases to test suites after you have imported them. For more information about how to add test cases to test suites, see [Plan your tests](../test/planning-manual-tests-using-the-web-portal.md). You can also link these test cases to requirements, so that you can view the status of automated tests for the requirement. For more information about how to do this, see [Link Existing Test Cases to a Requirement](../test_notintoc/how-to--add-product-backlog-items--user-story--or-requirements-work-items-to-your-test-plan.md#LinkTestCasesToRequirements).  
+ Each automated test that you select, based on the parameters provided, has a test case created for it. The automated test is automatically associated with that test case. You can add test cases to a static test suite by using this command, or you can add test cases to test suites after you have imported them. For more information about how to add test cases to test suites, see [Plan your tests](../test/planning-manual-tests-using-the-web-portal.md). You can also link these test cases to requirements, so that you can view the status of automated tests for the requirement. For more information about how to do this, see [Link Existing Test Cases to a Requirement](../test_notintoc/01a0da36-4b92-49cc-b884-9d64b77a4344.md#LinkTestCasesToRequirements).  
   
  For more information about how to run automated tests from a test plan, see [Automate system tests](../test/automate-system-tests.md).  
   
@@ -104,4 +104,4 @@ tcm testcase /import /collection:http://<Team Foundation Server Name>:8080/tfs/<
   
 ## See Also  
  [Plan your tests](../test/planning-manual-tests-using-the-web-portal.md)   
- [Using tcm to import and run automated tests for a test plan from the command line](../test/using-tcm-to-import-and-run-automated-tests-for-a-test-plan-from-the-command-line.md)
+ [Using tcm to import and run automated tests for a test plan from the command line](../test/b45def12-0e67-4270-89ea-67c41bc188a7.md)

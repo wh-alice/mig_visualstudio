@@ -1,11 +1,11 @@
 ---
 title: "How to: Create an Activity Library"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/02/2016"
 ms.prod: ".net-framework-4.6"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "reference"
 ms.assetid: 1eeebe74-7303-4345-8a83-fe37a26bc84b
 caps.latest.revision: 12

@@ -1,11 +1,11 @@
 ---
 title: "SCVMM (virtual) environments"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 386f79b2-dfdd-46c3-b481-5d7a627175d3
 caps.latest.revision: 34

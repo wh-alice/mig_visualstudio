@@ -1,11 +1,11 @@
 ---
 title: "Walkthrough: Creating and Running a Load Test Containing Unit Tests"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/01/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "unit tests, in load tests"
@@ -166,5 +166,5 @@ In this walkthrough you create a load test that contains unit tests.
  [Specifying Virtual Network Types](../test/specifying-virtual-network-types-in-a-load-test-scenario.md)   
  [Editing Load Test Scenarios](../test/editing-load-test-scenarios-using-the-load-test-editor.md)   
  [Editing Load Patterns to Model Virtual User Activities](../test/editing-load-patterns-to-model-virtual-user-activities.md)   
- [Editing Text Mix Models to Specify the Probability of a Virtual User Running a Test](../test/editing-text-mix-models-to-specify-the-probability-of-a-virtual-user-running-a-test.md)   
+ [Editing Text Mix Models to Specify the Probability of a Virtual User Running a Test](../test/e3b7d952-9012-400a-8131-3444390a6066.md)   
  [Walkthrough: Using a Test Controller and Test Agents in a Load Test](../test/walkthrough--using-a-test-controller-and-test-agents-in-a-load-test.md)

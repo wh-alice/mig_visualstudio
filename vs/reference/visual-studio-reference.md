@@ -1,13 +1,13 @@
 ---
 title: "Visual Studio Reference"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c4ddcffd-d5b7-4ce8-8775-14e649c34518
 caps.latest.revision: 35
@@ -54,7 +54,7 @@ This section includes user interface reference, language equivalents, and other 
  [Resources for Troubleshooting IDE Errors](../reference/resources-for-troubleshooting-integrated-development-environment-errors.md)  
  Contains links to resources to help you resolve IDE error messages  
   
- [Talk to Us](../Topic/Talk%20to%20Us.md)  
+ [Talk to Us](../ide/talk-to-us.md)  
  Contains information about how to locate customer support for Visual Studio.  
   
  [Accessibility for People with Disabilities](../reference/accessibility-for-people-with-disabilities.md)  

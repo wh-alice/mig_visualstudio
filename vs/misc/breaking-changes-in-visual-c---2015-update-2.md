@@ -1,10 +1,10 @@
 ---
 title: "Breaking Changes in Visual C++ 2015 Update 2"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/13/2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5545ce3f-d8da-4007-88b7-8dba7dcd4d10
 caps.latest.revision: 8

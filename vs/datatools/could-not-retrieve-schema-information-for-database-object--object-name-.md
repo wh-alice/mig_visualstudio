@@ -1,11 +1,11 @@
 ---
 title: "Could not retrieve schema information for database object &lt;object name&gt;"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a1c8f833-c918-4a86-9679-d2a791f938a9
 caps.latest.revision: 3

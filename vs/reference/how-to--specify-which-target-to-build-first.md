@@ -1,20 +1,20 @@
 ---
 title: "How to: Specify Which Target to Build First"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "DefaultTargets attribute [MSBuild]"
   - "MSBuild, specifying the defalut target"
   - "MSBuild, DefaultTargets attribute"
 ms.assetid: a580ba5b-2919-42d2-ae38-1af991e0205a
-caps.latest.revision: 16
+caps.latest.revision: 17
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -84,6 +84,7 @@ A project file can contain one or more `Target` elements that define how the pro
   
      `msbuild <file name>.proj /t:Clean;Compile`  
   
-## See Also  
+## See Also
+  [MSBuild](../reference/msbuild1.md)  
  [Targets](../reference/msbuild-targets.md)   
  [How to: Clean a Build](../reference/how-to--clean-a-build.md)

@@ -1,11 +1,11 @@
 ---
 title: "Setting Up Test Controllers in Lab Environments"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/10/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f5113275-14f5-4a40-8e3a-50d347ddb83a
 caps.latest.revision: 42
@@ -38,7 +38,7 @@ This topic describes how to install and configure a test controller, and how to 
   
 -   If you are creating a network isolated environment, before you store the environment in your team project library, install test agents in the environment by running the "Microsoft Visual Studio Agents" CD or the downloaded ISO image.. However, you should not configure those test agents. For information about setting up a network isolated environment, see [Creating and using a network isolated environment](../test/creating-and-using-a-network-isolated-environment.md).  
   
--   If you’re creating a lab environment that contains any Windows XP machines, you must manually install test agents on the Windows XP machines, and then perform some extra steps. See [Configuring Lab Environments that Contain Windows XP or Windows Server 2003 Machines](../test/configuring-lab-environments-that-contain-windows-xp-or-windows-server-2003-machines.md).  
+-   If you’re creating a lab environment that contains any Windows XP machines, you must manually install test agents on the Windows XP machines, and then perform some extra steps. See [Configuring Lab Environments that Contain Windows XP or Windows Server 2003 Machines](../test/e646c59c-47e4-47a5-bf9f-67f375ad1915.md).  
   
  Use these sections to install and configure a test controller to use with a lab environment.  
   

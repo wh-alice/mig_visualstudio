@@ -1,13 +1,13 @@
 ---
 title: "How to: Use Graphics Diagnostics with an ARM Device"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 346fd3c0-9e92-4ab8-bb3b-1aa9000a2483
 caps.latest.revision: 9

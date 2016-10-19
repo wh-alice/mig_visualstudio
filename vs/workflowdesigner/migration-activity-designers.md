@@ -1,11 +1,11 @@
 ---
 title: "Migration Activity Designers"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/02/2016"
 ms.prod: ".net-framework-4.6"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "reference"
 ms.assetid: 7598e869-1da1-4721-b4bf-6cbe402be1a2
 caps.latest.revision: 5

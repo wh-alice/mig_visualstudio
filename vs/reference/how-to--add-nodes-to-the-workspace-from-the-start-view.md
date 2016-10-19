@@ -1,13 +1,13 @@
 ---
 title: "How to: Add Nodes to the Workspace from the Start View"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3fc7af94-dcb8-4226-a577-43f03664388b
 caps.latest.revision: 5

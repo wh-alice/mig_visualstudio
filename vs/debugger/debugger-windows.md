@@ -1,13 +1,13 @@
 ---
 title: "Debugger Windows"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/17/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "hero-article"
 ms.assetid: 4c6fe8f1-b015-4989-bb31-72ebac390026
 caps.latest.revision: 5
@@ -47,7 +47,7 @@ You can open most debugger windows while you are debugging your program. To see 
 |Auto|CTRL+ALT+V, A|[Variable Windows](../Topic/Variable%20Windows.md)|  
 |Locals|CTRL+ALT+V, L|[Variable Windows](../Topic/Variable%20Windows.md)|  
 |Immediate|CTRL+ALT+I|[Immediate Window](../reference/immediate-window.md)|  
-|Python Debug Interactive|SHIFT+ALT+I|[Getting Started with PTVS: Interactive Python](../Topic/Getting%20Started%20with%20PTVS:%20Interactive%20Python.md)|  
+|Python Debug Interactive|SHIFT+ALT+I|[Getting Started with PTVS: Interactive Python](../python/getting-started-with-ptvs--interactive-python.md)|  
 |JavaScript Console|CTRL+ALT+V, C|[QuickStart: Debug JavaScript](../debugger/quickstart--debug-javascript-using-the-console.md)|  
 |DOM Explorer|CTRL+ALT+V, D|[Debug layout using DOM Explorer](../debugger/debug-layout-using-dom-explorer.md)|  
 |Live Visual Tree|-|[Inspect XAML properties while debugging](../debugger/inspect-xaml-properties-while-debugging.md)|  

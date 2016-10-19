@@ -1,13 +1,13 @@
 ---
 title: "How to: Publish a WPF Application with Visual Styles Enabled"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-deployment"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 73b22b02-fc75-42aa-82d3-51fdcaf8e5c8
 caps.latest.revision: 3

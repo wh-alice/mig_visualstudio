@@ -1,13 +1,13 @@
 ---
 title: "Walkthrough: LinqToXmlDataBinding Example"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: aedf42e8-896c-48fa-88df-7f7c9536aa69
 caps.latest.revision: 2

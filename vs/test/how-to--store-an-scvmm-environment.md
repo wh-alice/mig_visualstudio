@@ -1,11 +1,11 @@
 ---
 title: "How to: Store an SCVMM Environment"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 52b9484b-0265-4774-abeb-e1c0cadf4e96
 caps.latest.revision: 11

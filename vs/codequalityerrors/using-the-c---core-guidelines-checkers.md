@@ -1,10 +1,10 @@
 ---
 title: "Using the C++ Core Guidelines checkers"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a2098fd9-8334-4e95-9b8d-bc3da689d9e3
 caps.latest.revision: 9

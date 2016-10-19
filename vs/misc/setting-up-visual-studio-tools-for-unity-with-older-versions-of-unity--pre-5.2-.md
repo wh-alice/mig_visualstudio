@@ -1,10 +1,10 @@
 ---
 title: "Setting Up Visual Studio Tools for Unity with Older Versions of Unity (Pre-5.2)"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/13/2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1ad11fe1-728d-4103-bf29-bb7a68999c3c
 caps.latest.revision: 3
@@ -14,7 +14,7 @@ ms.author: "mithom"
 In this section, you'll learn how to set up Visual Studio Tools for Unity with an older version of Unity (pre-5.2), and start using Visual Studio with your Unity project.  
   
 > [!IMPORTANT]
->  This document applies only to versions of Unity older than Unity 5.2 on Windows, which added built-in support for Visual Studio Tools for Unity when using Visual Studio as your code editor. Whenever this document refers to Unity, it refers only to versions prior to Unity 5.2 on Windows. For information on how to set up Visual Studio Tools for Unity with Unity 5.2 or higher, see [Getting Started](../Topic/Getting%20Started%20with%20Visual%20Studio%20Tools%20for%20Unity.md).  
+>  This document applies only to versions of Unity older than Unity 5.2 on Windows, which added built-in support for Visual Studio Tools for Unity when using Visual Studio as your code editor. Whenever this document refers to Unity, it refers only to versions prior to Unity 5.2 on Windows. For information on how to set up Visual Studio Tools for Unity with Unity 5.2 or higher, see [Getting Started](../crossplatform/getting-started-with-visual-studio-tools-for-unity.md).  
   
 ## Prerequisites  
  Before you can install and use Visual Studio Tools for Unity, you'll need to install these prerequisites:  
@@ -64,21 +64,21 @@ In this section, you'll learn how to set up Visual Studio Tools for Unity with a
 ### 2 - Configure Unity Editor to use Visual Studio Tools for Unity  
  If you're starting from an existing project or you didn't import the Visual Studio Tools Unity package when you created your Unity project, you need to import it now. In the Unity editor, on the main menu, choose **Assets, Import Package, Visual Studio 2013 Tools** (you should see an option for the version of Visual Studio you have installed).  
   
- ![Import the VSTU package into your Unity project.](../misc/media/vstu_configure_unity_import_vstu.png "vstu_configure_unity_import_vstu")  
+ ![Import the VSTU package into your Unity project.](../crossplatform/media/vstu_configure_unity_import_vstu.png "vstu_configure_unity_import_vstu")  
   
  After you've imported the package, make sure you've set a build target through the **Build Settings** page and that **Script Debugging** is enabled.  
   
- ![Configure the Unity build settings for debugging.](../misc/media/vstu_debugging_build_settings.png "vstu_debugging_build_settings")  
+ ![Configure the Unity build settings for debugging.](../crossplatform/media/vstu_debugging_build_settings.png "vstu_debugging_build_settings")  
   
 ### 3 - Launch Visual Studio from Unity Editor  
  The final step is to start Visual Studio from Unity. This creates a Visual Studio Solution for your project, and then opens it in Visual Studio. In the Unity Editor, on the main menu, choose **Visual Studio Tools, Open in Visual Studio**.  
   
- ![Open your unity project in Visual Studio.](../misc/media/vstu_configure_open_in_visual_studio.png "vstu_configure_open_in_visual_studio")  
+ ![Open your unity project in Visual Studio.](../crossplatform/media/vstu_configure_open_in_visual_studio.png "vstu_configure_open_in_visual_studio")  
   
  Now you can edit and debug your Unity game from Visual Studio.  
   
 ## Next steps  
- To learn how to work with and debug your Unity project in Visual Studio, see [Using Visual Studio Tools for Unity](../Topic/Using%20Visual%20Studio%20Tools%20for%20Unity.md).  
+ To learn how to work with and debug your Unity project in Visual Studio, see [Using Visual Studio Tools for Unity](../crossplatform/using-visual-studio-tools-for-unity.md).  
   
 ## See Also  
  [Unity Homepage](http://unity3d.com)

@@ -1,11 +1,11 @@
 ---
 title: "Creating an SCVMM Environment Using Stored Virtual Machines and Templates"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "virtual environment [Lab Management], create"
@@ -64,7 +64,7 @@ You can create an SCVMM environment using stored virtual machines and templates.
 ##  <a name="prereq"></a> Prerequisites  
   
 > [!WARNING]
->  To create a lab environment that contains virtual machines that are running Windows XP, perform the additional steps listed in [Configuring Lab Environments that Contain Windows XP or Windows Server 2003 Machines](../test/configuring-lab-environments-that-contain-windows-xp-or-windows-server-2003-machines.md).  
+>  To create a lab environment that contains virtual machines that are running Windows XP, perform the additional steps listed in [Configuring Lab Environments that Contain Windows XP or Windows Server 2003 Machines](../test/e646c59c-47e4-47a5-bf9f-67f375ad1915.md).  
   
  The following prerequisites must be complete before you create an SCVMM environment using stored virtual machines and templates:  
   

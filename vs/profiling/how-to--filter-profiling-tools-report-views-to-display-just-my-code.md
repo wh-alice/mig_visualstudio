@@ -1,13 +1,13 @@
 ---
 title: "How to: Filter Profiling Tools Report Views to Display Just My Code"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e45c7903-f945-495d-b43b-11cdd09052aa
 caps.latest.revision: 15

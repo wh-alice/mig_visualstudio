@@ -1,13 +1,13 @@
 ---
 title: "Sample XSD File: Purchase Order Schema"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f92b63b5-ec61-43b5-ae1e-63432a7a7e30
 caps.latest.revision: 4

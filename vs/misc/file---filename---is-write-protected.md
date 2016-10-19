@@ -1,13 +1,13 @@
 ---
 title: "File &#39;&lt;filename&gt;&#39; is write protected"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6e5105b1-a634-4cde-a753-5bf1ae85a55a
 caps.latest.revision: 7

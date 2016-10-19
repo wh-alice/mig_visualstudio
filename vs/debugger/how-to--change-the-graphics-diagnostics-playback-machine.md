@@ -1,13 +1,13 @@
 ---
 title: "How to: Change the Graphics Diagnostics Playback Machine"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1b9aa3ea-29a0-4e21-bc57-936f33537b5c
 caps.latest.revision: 11

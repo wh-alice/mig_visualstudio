@@ -1,11 +1,11 @@
 ---
 title: "How to: Use Breadcrumb Navigation"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/02/2016"
 ms.prod: ".net-framework-4.6"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "reference"
 ms.assetid: 4a688056-37dc-406a-9071-be2141e192fe
 caps.latest.revision: 5

@@ -1,11 +1,11 @@
 ---
 title: "tcm: Running Tests from a Test Plan Using the Command Line Utility"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 80bfd9e4-2959-4ee6-a3cb-0cff6e06605e
 caps.latest.revision: 32
@@ -177,4 +177,4 @@ tcm run /publish /suiteid:5 /configid:13 /resultowner:"<Name of new owner>" /res
   
 ## See Also  
  [tcm: Listing test plans, test suites, test configurations, and environments](../test/tcm--listing-test-plans--test-suites--test-configurations--and-environments.md)   
- [Using tcm to import and run automated tests for a test plan from the command line](../test/using-tcm-to-import-and-run-automated-tests-for-a-test-plan-from-the-command-line.md)
+ [Using tcm to import and run automated tests for a test plan from the command line](../test/b45def12-0e67-4270-89ea-67c41bc188a7.md)

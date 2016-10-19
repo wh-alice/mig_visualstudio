@@ -1,11 +1,11 @@
 ---
 title: "How to: Start an Exploratory Test Session in Microsoft Test Manager"
-ms.custom: na
+ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b5eeaad8-bed9-489a-8d6a-abcb3e35f322
 caps.latest.revision: 41

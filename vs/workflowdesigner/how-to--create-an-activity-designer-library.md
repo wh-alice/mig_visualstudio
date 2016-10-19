@@ -1,11 +1,11 @@
 ---
 title: "How to: Create an Activity Designer Library"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/02/2016"
 ms.prod: ".net-framework-4.6"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "reference"
 ms.assetid: 5b62e092-63b3-462d-9d77-fb112482f45d
 caps.latest.revision: 8

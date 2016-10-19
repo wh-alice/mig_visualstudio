@@ -1,11 +1,11 @@
 ---
 title: "Setting Up Machines and Collecting Diagnostic Information Using Test Settings"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/13/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "test settings"
@@ -145,10 +145,10 @@ You can use *Test settings* in [!INCLUDE[TCMext](../codequality/includes/tcmext_
  *What else should I know?*  
  **Notes**  
   
--   ![Prerequsite](../codequality/media/prereq.png "Prereq") You can [create custom diagnostic data adapters](../test/creating-a-diagnostic-data-adapter-to-collect-custom-data-or-affect-a-test-machine.md) to fulfill a specific testing requirement that is not included in the standard adapters.  
+-   ![Prerequsite](../codequality/media/prereq.png "Prereq") You can [create custom diagnostic data adapters](../test/b0b53fae-7007-4ad9-a604-21685937622f.md) to fulfill a specific testing requirement that is not included in the standard adapters.  
   
 ## Related Tasks  
- [Creating a Diagnostic Data Adapter to Collect Custom Data or Affect a Test Machine](../test/creating-a-diagnostic-data-adapter-to-collect-custom-data-or-affect-a-test-machine.md)  
+ [Creating a Diagnostic Data Adapter to Collect Custom Data or Affect a Test Machine](../test/b0b53fae-7007-4ad9-a604-21685937622f.md)  
   
  You can create and use a custom diagnostic data adapter to collect custom data, or perform tasks to impact a machine such as reduce available system memory, reduce available disk space, or allocate and hold other resources during a test.  
   

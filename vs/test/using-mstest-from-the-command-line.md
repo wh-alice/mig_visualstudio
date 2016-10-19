@@ -1,11 +1,11 @@
 ---
 title: "Using MSTest from the command line"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: da19a039-f142-4c4a-959e-70146d11a943
 caps.latest.revision: 7

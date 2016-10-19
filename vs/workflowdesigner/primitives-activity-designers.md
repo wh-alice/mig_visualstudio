@@ -1,11 +1,11 @@
 ---
 title: "Primitives Activity Designers"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/02/2016"
 ms.prod: ".net-framework-4.6"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "reference"
 ms.assetid: 0a2b613e-dc04-49a1-a787-caec2ec63b90
 caps.latest.revision: 7

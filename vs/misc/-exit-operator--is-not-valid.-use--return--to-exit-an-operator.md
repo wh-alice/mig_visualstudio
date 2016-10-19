@@ -1,13 +1,13 @@
 ---
 title: "&#39;Exit Operator&#39; is not valid. Use &#39;Return&#39; to exit an Operator"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bc33008"

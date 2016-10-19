@@ -1,13 +1,13 @@
 ---
 title: "How to: Select a Control Using the Keyboard  in Coded UI Tests"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3fd7b455-c14e-4115-acbc-eda1ad87a7b1
 caps.latest.revision: 8

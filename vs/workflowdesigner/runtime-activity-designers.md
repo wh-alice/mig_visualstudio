@@ -1,11 +1,11 @@
 ---
 title: "Runtime Activity Designers"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/02/2016"
 ms.prod: ".net-framework-4.6"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "reference"
 ms.assetid: be18aa36-7909-4dd6-a786-b46959675a58
 caps.latest.revision: 3

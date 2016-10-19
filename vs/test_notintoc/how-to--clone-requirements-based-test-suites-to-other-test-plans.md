@@ -1,11 +1,11 @@
 ---
 title: "How to: Clone Requirements-Based Test Suites to Other Test Plans"
-ms.custom: na
+ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8af1d3ec-5159-4348-9a16-18e8699947dd
 caps.latest.revision: 8

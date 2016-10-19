@@ -1,11 +1,11 @@
 ---
 title: "How to: Edit Control Properties Using the Coded UI Test Editor"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/01/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 03dd33e8-155b-41e4-a471-70511af5eb47
 caps.latest.revision: 28

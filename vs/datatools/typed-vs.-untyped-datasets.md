@@ -1,10 +1,10 @@
 ---
 title: "Typed vs. untyped datasets"
-ms.custom: na
-ms.date: "10/14/2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.custom: ""
+ms.date: "10/18/2016"
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c83ba0bb-5425-4d47-8891-6b4dbf937701
 caps.latest.revision: 5

@@ -1,13 +1,13 @@
 ---
 title: "Getting Started with Visual Studio Graphics Diagnostics"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 59131181-1caa-4b7f-be4b-e84709634edf
 caps.latest.revision: 6

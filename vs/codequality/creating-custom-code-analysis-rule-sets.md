@@ -1,13 +1,13 @@
 ---
 title: "Creating Custom Code Analysis Rule Sets"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-devops-test"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 88db3a0a-1b92-496d-9fae-b2bb980f5933
 caps.latest.revision: 12

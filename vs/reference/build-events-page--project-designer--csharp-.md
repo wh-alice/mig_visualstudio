@@ -1,13 +1,13 @@
 ---
 title: "Build Events Page, Project Designer (C#)"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "cs.ProjectPropertiesBuildEvents"

@@ -1,11 +1,11 @@
 ---
 title: "Working with a Conceptual Model (WCF Data Services)"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -62,5 +62,5 @@ When you use a conceptual model to describe the data in a database, you can quer
 |[How to: Define Entity Relationships](../Topic/How%20to:%20Define%20Entity%20Relationships%20\(WCF%20Data%20Services\).md)|Shows how to create or change relationships in a data service.|  
   
 ## See Also  
- [Windows Communication Foundation Services and WCF Data Services in Visual Studio](../datatools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md)   
+ [Windows Communication Foundation Services and WCF Data Services in Visual Studio](../datatools/d56f12cb-e139-4fec-b3e4-488383356642.md)   
  [Querying the Data Service](../Topic/Querying%20the%20Data%20Service%20\(WCF%20Data%20Services\).md)

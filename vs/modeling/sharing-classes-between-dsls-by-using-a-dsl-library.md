@@ -1,11 +1,11 @@
 ---
 title: "Sharing Classes between DSLs by using a DSL Library"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 509bd96b-3e66-47f4-8642-771421d0d0d5
 caps.latest.revision: 7

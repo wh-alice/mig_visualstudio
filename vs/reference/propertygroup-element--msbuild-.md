@@ -1,13 +1,13 @@
 ---
 title: "PropertyGroup Element (MSBuild)"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#PropertyGroup"
@@ -20,7 +20,7 @@ helpviewer_keywords:
   - "<PropertyGroup> element [MSBuild]"
   - "PropertyGroup element [MSBuild]"
 ms.assetid: ff1e6c68-b9a1-4263-a1ce-dc3b829a64d4
-caps.latest.revision: 20
+caps.latest.revision: 21
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -86,4 +86,5 @@ Contains a set of user-defined [Property](../reference/property-element--msbuild
 ```  
   
 ## See Also  
- [Project File Schema Reference](../reference/msbuild-project-file-schema-reference.md)
+ [Project File Schema Reference](../reference/msbuild-project-file-schema-reference.md)  
+ [MSBuild Properties](../reference/msbuild-properties.md)

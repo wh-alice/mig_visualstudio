@@ -1,13 +1,13 @@
 ---
 title: "Generate unit tests for your code with IntelliTest"
-ms.custom: na
+ms.custom: ""
 ms.date: "2015-10-05"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-devops-test"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.UnitTest.CreateIntelliTest"

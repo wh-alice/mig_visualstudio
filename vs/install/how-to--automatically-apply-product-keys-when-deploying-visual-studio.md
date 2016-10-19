@@ -1,13 +1,13 @@
 ---
 title: "How to: Automatically apply product keys when deploying Visual Studio"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-install"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d79260be-6234-4fd3-89b5-a9756b4a93c1
 caps.latest.revision: 9

@@ -1,13 +1,13 @@
 ---
 title: "Walkthrough: My First WPF Desktop Application2"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3c460fa9-2ea1-413f-ae54-54a1f2a499d1
 caps.latest.revision: 6
@@ -987,5 +987,5 @@ translation.priority.mt:
 -   [Documents in WPF](https://msdn.microsoft.com/en-us/library/ms748388\(v=vs.100\).aspx)  
   
 ## See Also  
- [Walkthrough: Create a WPF Desktop Application connected to an Azure Mobile Service](../designers/walkthrough--create-a-wpf-desktop-application-connected-to-an-azure-mobile-service.md)   
+ [Walkthrough: Create a WPF Desktop Application connected to an Azure Mobile Service](../designers/8d42620f-553b-4b04-a38b-f6b306d73a50.md)   
  [Create Modern Desktop Applications with Windows Presentation Foundation](../designers/create-modern-desktop-applications-with-windows-presentation-foundation.md)

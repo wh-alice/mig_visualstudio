@@ -1,11 +1,11 @@
 ---
 title: "Generate and run a coded web performance test"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Web performance tests, walkthroughs"
@@ -32,7 +32,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Generate and run a coded web performance test
-Web performance tests are [recorded by browsing through your web app](http://msdn.microsoft.com/en-us/bd0a82fd-cec0-4861-bc09-e1b0b2d258ef). The tests are included in [load tests](../test/editing-think-times-to-simulate-website-human-interaction-delays-in-load-tests-scenarios.md) to measure the performance of your web application under the stress of multiple users. A web performance test can be converted to a code-based script that you can edit and customize like any other source code.  For example, you can add looping and branching constructs.  
+Web performance tests are [recorded by browsing through your web app](http://msdn.microsoft.com/en-us/bd0a82fd-cec0-4861-bc09-e1b0b2d258ef). The tests are included in [load tests](../test/8e03bee5-ab7b-4b40-9497-9dbe91ccb90e.md) to measure the performance of your web application under the stress of multiple users. A web performance test can be converted to a code-based script that you can edit and customize like any other source code.  For example, you can add looping and branching constructs.  
   
 ## Generate a coded web performance test  
   

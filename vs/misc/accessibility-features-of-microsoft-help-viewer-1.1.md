@@ -1,13 +1,13 @@
 ---
 title: "Accessibility Features of Microsoft Help Viewer 1.1"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f3960818-011d-4e64-a497-4dfc9fae381c
 caps.latest.revision: 17

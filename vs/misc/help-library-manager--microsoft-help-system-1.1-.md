@@ -1,13 +1,13 @@
 ---
 title: "Help Library Manager (Microsoft Help System 1.1)"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7415ee68-6b71-45ca-9773-15e236aebc71
 caps.latest.revision: 21

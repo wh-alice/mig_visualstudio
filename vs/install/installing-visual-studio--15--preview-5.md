@@ -1,13 +1,13 @@
 ---
 title: "Installing Visual Studio &quot;15&quot; Preview 5"
-ms.custom: na
+ms.custom: ""
 ms.date: "2016-10-05"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-install"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 f1_keywords: 
   - "vs.about"
@@ -86,5 +86,5 @@ Welcome to a new way to install Visual Studio! In our newest version, we’ve ma
   
 ## See Also  
 * [Modifying Visual Studio "15" Preview 5](../install/modifying-visual-studio--15--preview-5.md)
-* [How to Report a Problem with Visual Studio "15" Preview 5](How%20to%20Report%20a%20Problem%20with%20Visual%20Studio%20%2215%22%20Preview%205.md)
+* [How to Report a Problem with Visual Studio "15" Preview 5](../ide/how-to-report-a-problem-with-visual-studio--15--preview-5.md)
  

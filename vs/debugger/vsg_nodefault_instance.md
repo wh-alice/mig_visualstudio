@@ -1,13 +1,13 @@
 ---
 title: "VSG_NODEFAULT_INSTANCE"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 19c95b0d-9a4d-441f-9ed7-3acb39e67521
 caps.latest.revision: 5

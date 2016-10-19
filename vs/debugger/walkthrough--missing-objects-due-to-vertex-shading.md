@@ -1,13 +1,13 @@
 ---
 title: "Walkthrough: Missing Objects Due to Vertex Shading"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e42b54a0-8092-455c-945b-9ecafb129d93
 caps.latest.revision: 9

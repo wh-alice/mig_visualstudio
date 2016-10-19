@@ -1,11 +1,11 @@
 ---
 title: "Visual Studio IDE"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 772b6cf4-cee5-42d0-bc18-b4eb07e22ff0
 caps.latest.revision: 35
@@ -40,7 +40,7 @@ Microsoft Visual Studio 2015 is a suite of tools for creating software, from the
   
 4.  games and graphics-intensive applications for a variety of Windows devices, including Xbox, using DirectX.  
   
- Visual Studio by default provides support for C#, C and C++, JavaScript, F#, and Visual Basic. Visual Studio works and integrates well with third-party applications like Unity through the [Visual Studio Tools for Unity](../Topic/Visual%20Studio%20Tools%20for%20Unity.md) extension and Apache Cordova through [Visual Studio Tools for Apache Cordova](../Topic/Get%20Started%20with%20Visual%20Studio%20Tools%20for%20Apache%20Cordova1.md). You can extend Visual Studio yourself by creating custom tools that perform specialized tasks.  
+ Visual Studio by default provides support for C#, C and C++, JavaScript, F#, and Visual Basic. Visual Studio works and integrates well with third-party applications like Unity through the [Visual Studio Tools for Unity](../crossplatform/visual-studio-tools-for-unity.md) extension and Apache Cordova through [Visual Studio Tools for Apache Cordova](../Topic/Get%20Started%20with%20Visual%20Studio%20Tools%20for%20Apache%20Cordova1.md). You can extend Visual Studio yourself by creating custom tools that perform specialized tasks.  
   
  If you’ve never used Visual Studio before, learn the basics with our [Get Started Developing with Visual Studio](../ide/get-started-developing-with-visual-studio.md) tutorials and walkthroughs.  
   
@@ -72,7 +72,7 @@ Microsoft Visual Studio 2015 is a suite of tools for creating software, from the
  MSDN is the Microsoft web site for technical documentation; you are reading this page on MSDN right now! In Visual Studio, you can press **F1** to go to the MSDN help page for the active window. You can also press **F1** in the code editor to go to the MSDN help page for the API or keyword at the current caret position. For example, in a C# file, place the caret somewhere in or just at the end of a `System.String` declaration, and press **F1** to go to the MSDN help page for <xref:System.String>.  
   
 ### Giving feedback  
- It's easy to give us feedback on Visual Studio whenever you like. Click the feedback icon in the title bar next to **QuickLaunch** and then click on **Report a Problem** or **Provide a Suggestion**. Pre-release editions of Visual Studio also have a **Rate this Product** option. We look at all these comments and use them to improve the product. For more information, see [Talk to Us](../Topic/Talk%20to%20Us.md).  
+ It's easy to give us feedback on Visual Studio whenever you like. Click the feedback icon in the title bar next to **QuickLaunch** and then click on **Report a Problem** or **Provide a Suggestion**. Pre-release editions of Visual Studio also have a **Rate this Product** option. We look at all these comments and use them to improve the product. For more information, see [Talk to Us](../ide/talk-to-us.md).  
   
 ### Personalizing the IDE  
  You can customize the window layout to fit your development style. You can dock, float or hide any window at any time, and you also can run the editor in full-screen mode. You can create and save multiple custom window layouts that show only the windows you need for specific contexts. For example, you can create a full-screen layout so that all you see is the code editor. And you can create different layouts for debugging and for team operations. For more information, see [Customizing window layouts](../ide/customizing-window-layouts-in-visual-studio.md).  
@@ -219,4 +219,4 @@ Microsoft Visual Studio 2015 is a suite of tools for creating software, from the
  [Editing Your Code](https://www.visualstudio.com/features/ide-vs)   
  [What's New in Visual Studio 2015](../ide/what-s-new-in-visual-studio-2015.md)   
  [Porting, Migrating, and Upgrading Visual Studio Projects](../porting/porting--migrating--and-upgrading-visual-studio-projects.md)   
- [Talk to Us](../Topic/Talk%20to%20Us.md)
+ [Talk to Us](../ide/talk-to-us.md)

@@ -1,13 +1,13 @@
 ---
 title: "Model Editor Examples"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: dd0f4155-b4f9-4f16-b0fd-3f4cd4c80d5a
 caps.latest.revision: 11

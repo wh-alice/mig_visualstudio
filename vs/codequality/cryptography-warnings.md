@@ -1,12 +1,12 @@
 ---
 title: "Cryptography Warnings"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-devops-test"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d96723ea-a293-488d-b9db-adb437e50cdd
 caps.latest.revision: 7

@@ -1,13 +1,13 @@
 ---
 title: "DataBits must be greater than 0"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b0e1d53f-ed19-47bf-b7ef-06479aa76338
 caps.latest.revision: 8

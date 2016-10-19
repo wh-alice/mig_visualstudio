@@ -1,11 +1,11 @@
 ---
 title: "How to: Attach a File during an Exploratory Test Session"
-ms.custom: na
+ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3af26d9b-9c5d-4817-835c-d82f8e615fc3
 caps.latest.revision: 24

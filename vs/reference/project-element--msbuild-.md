@@ -1,13 +1,13 @@
 ---
 title: "Project Element (MSBuild)"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#Project"
@@ -21,7 +21,7 @@ helpviewer_keywords:
   - "<Project> element [MSBuild]"
   - "Project element [MSBuild]"
 ms.assetid: d1cda56a-dbef-4109-9201-39e962e3f653
-caps.latest.revision: 29
+caps.latest.revision: 30
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -92,3 +92,4 @@ Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/includes/vs
  [How to: Specify Which Target to Build First](../reference/how-to--specify-which-target-to-build-first.md)   
  [Command-Line Reference](../reference/msbuild-command-line-reference.md)   
  [Project File Schema Reference](../reference/msbuild-project-file-schema-reference.md)
+ [MSBuild](../reference/msbuild1.md)

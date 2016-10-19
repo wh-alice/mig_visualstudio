@@ -1,11 +1,11 @@
 ---
 title: "How to: Set Breakpoints in Workflows (Legacy)"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/02/2016"
 ms.prod: ".net-framework-4.6"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "reference"
 helpviewer_keywords: 
   - "breakpoints, setting in workflows"

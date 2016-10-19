@@ -1,13 +1,13 @@
 ---
 title: "LocalizedDescription Element (VSIX Language Pack Schema)"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 766a1732-bbaf-4875-b276-feb42169633a
 caps.latest.revision: 8

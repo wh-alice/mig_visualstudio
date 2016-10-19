@@ -1,11 +1,11 @@
 ---
 title: "How to: Invoke a Windows Communication Foundation Contract Operation (Legacy)"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/02/2016"
 ms.prod: ".net-framework-4.6"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "reference"
 ms.assetid: a9058345-708f-4fcf-8739-2a43e5285b7a
 caps.latest.revision: 8
@@ -59,5 +59,5 @@ This topic describes how to invoke a [!INCLUDE[indigo1](../workflowdesigner/incl
   
 ## See Also  
  [Choose Operation Dialog Box (Legacy)](../workflowdesigner/choose-operation-dialog-box--legacy-.md)   
- [How to: Implement a WCF Contract Operation (Legacy)](../workflowdesigner/how-to--implement-a-windows-communication-foundation-contract-operation--legacy-.md)   
+ [How to: Implement a WCF Contract Operation (Legacy)](../workflowdesigner/d6aeb20e-fac8-4a9d-bd26-ae78bef96b41.md)   
  [Legacy Workflow Activities](../workflowdesigner/legacy-workflow-activities.md)

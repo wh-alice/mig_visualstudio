@@ -1,11 +1,11 @@
 ---
 title: "Data class inheritance (O-R Designer)"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: af32653c-f4e6-4217-8c5a-e32b322b4918
 caps.latest.revision: 3
@@ -49,10 +49,10 @@ Like other objects, [!INCLUDE[vbtecdlinq](../datatools/includes/vbtecdlinq_md.md
 |Topic|Description|  
 |-----------|-----------------|  
 |[How to: Configure inheritance by using the O/R Designer](../datatools/how-to--configure-inheritance-by-using-the-o-r-designer.md)|Describes how to configure entity classes that use single-table inheritance by using the [!INCLUDE[vs_ordesigner_short](../datatools/includes/vs_ordesigner_short_md.md)].|  
-|[Walkthrough: Creating LINQ to SQL Classes by Using Single-Table Inheritance (O/R Designer)](../datatools/walkthrough--creating-linq-to-sql-classes-by-using-single-table-inheritance--o-r-designer-.md)|Provides step-by-step instructions about how to configure entity classes that use single-table inheritance by using the [!INCLUDE[vs_ordesigner_short](../datatools/includes/vs_ordesigner_short_md.md)].|  
+|[Walkthrough: Creating LINQ to SQL Classes by Using Single-Table Inheritance (O/R Designer)](../datatools/63bc6328-e0df-4655-9ce3-5ff74dbf69a4.md)|Provides step-by-step instructions about how to configure entity classes that use single-table inheritance by using the [!INCLUDE[vs_ordesigner_short](../datatools/includes/vs_ordesigner_short_md.md)].|  
   
 ## See Also  
  [LINQ to SQL Tools in Visual Studio](../datatools/linq-to-sql-tools-in-visual-studio2.md)   
  [Walkthrough: Creating LINQ to SQL Classes (O-R Designer)](../Topic/Walkthrough:%20Creating%20LINQ%20to%20SQL%20Classes%20\(O-R%20Designer\).md)   
- [Walkthrough: Creating LINQ to SQL Classes by Using Single-Table Inheritance (O/R Designer)](../datatools/walkthrough--creating-linq-to-sql-classes-by-using-single-table-inheritance--o-r-designer-.md)   
+ [Walkthrough: Creating LINQ to SQL Classes by Using Single-Table Inheritance (O/R Designer)](../datatools/63bc6328-e0df-4655-9ce3-5ff74dbf69a4.md)   
  [Getting Started](../Topic/Getting%20Started.md)

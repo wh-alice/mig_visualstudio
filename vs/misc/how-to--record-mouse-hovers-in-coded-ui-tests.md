@@ -1,13 +1,13 @@
 ---
 title: "How to: Record Mouse Hovers in Coded UI Tests"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 139183e4-a312-41c1-b9cc-b430af5f73dc
 caps.latest.revision: 6

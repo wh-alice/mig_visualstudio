@@ -1,13 +1,13 @@
 ---
 title: "How to: Build the Same Source Files with Different Options"
-ms.custom: na
-ms.date: "10/17/2016"
+ms.custom: ""
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "source files, building with different options"
@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "project properties, modifying"
   - "Hello World example [Visual Studio]"
 ms.assetid: d14f1212-ddd9-434f-b138-f840011b0fb2
-caps.latest.revision: 18
+caps.latest.revision: 19
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -37,7 +37,7 @@ translation.priority.ht:
 When you build projects, you frequently compile the same components with different build options. For example, you can create a debug build with symbol information or a release build with no symbol information but with optimizations enabled. Or you can build a project to run on a specific platform, such as x86 or [!INCLUDE[vcprx64](../extensibility/includes/vcprx64_md.md)]. In all these cases, most of the build options stay the same; only a few options are changed to control the build configuration. With [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)], you use properties and conditions to create the different build configurations.  
   
 ## Using Properties to Modify Projects  
- The `Property` element defines a variable that is referenced several times in a project file, such as the location of a temporary directory, or to set the values for properties that are used in several configurations, such as a Debug build and a Release build. For more information about properties, see MSBuild Properties.  
+ The `Property` element defines a variable that is referenced several times in a project file, such as the location of a temporary directory, or to set the values for properties that are used in several configurations, such as a Debug build and a Release build. For more information about properties, see [MSBuild Properties](../reference/msbuild-properties.md).  
   
  You can use properties to change the configuration of your build without having to change the project file. The `Condition` attribute of the `Property` element and the `PropertyGroup` element allows you to change the value of properties. For more information about [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] conditions, see [Conditions](../reference/msbuild-conditions.md).  
   
@@ -196,6 +196,7 @@ ToolsVersion="4.0" TreatAsLocalProperty="Color">
 ```  
   
 ## See Also  
+[MSBuild](../reference/msbuild1.md)
  [MSBuild Concepts](../reference/msbuild-concepts.md)   
  [MSBuild Reference](../reference/msbuild-reference.md)   
  [Project Element (MSBuild)](../reference/project-element--msbuild-.md)

@@ -1,11 +1,11 @@
 ---
 title: "What&#39;s new for testing tools in 2015"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 31527496-7fe4-4e5f-822c-ab8f97aa8ae8
 caps.latest.revision: 16

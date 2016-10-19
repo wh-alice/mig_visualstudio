@@ -1,13 +1,13 @@
 ---
 title: "How to: Create and Edit an XSD Schema File"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 91b10cd7-c0cd-4e5a-a46b-4fed60dff542
 caps.latest.revision: 2

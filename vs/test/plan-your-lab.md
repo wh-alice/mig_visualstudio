@@ -1,11 +1,11 @@
 ---
 title: "Plan your lab"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f9c9b456-3bed-4957-8a43-e3a7d3eaf363
 caps.latest.revision: 29

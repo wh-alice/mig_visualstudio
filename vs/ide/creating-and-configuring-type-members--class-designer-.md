@@ -1,13 +1,13 @@
 ---
 title: "Creating and Configuring Type Members (Class Designer)"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.classdetails.method"
@@ -69,7 +69,7 @@ You can add these members to types on a class diagram and configure those member
   
 |Task|Supporting Content|  
 |----------|------------------------|  
-|**Get started:** Before you create and configure type members, you must open the Class Details window.|-   [Opening the Class Details Window](../ide/creating-and-configuring-type-members--class-designer-.md#OpenClassDetails)<br />-   [Class Details Usage Notes](../ide/creating-and-configuring-type-members--class-designer-.md#ClassDetailsUsageNotes)<br />-   [Display of Read-Only Information](../ide/creating-and-configuring-type-members--class-designer-.md#ReadOnlyInfo)<br />-   [Keyboard and Mouse Shortcuts in the Class Diagram and Class Details Window (Class Designer)](../ide/keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window--class-designer-.md)|  
+|**Get started:** Before you create and configure type members, you must open the Class Details window.|-   [Opening the Class Details Window](../ide/creating-and-configuring-type-members--class-designer-.md#OpenClassDetails)<br />-   [Class Details Usage Notes](../ide/creating-and-configuring-type-members--class-designer-.md#ClassDetailsUsageNotes)<br />-   [Display of Read-Only Information](../ide/creating-and-configuring-type-members--class-designer-.md#ReadOnlyInfo)<br />-   [Keyboard and Mouse Shortcuts in the Class Diagram and Class Details Window (Class Designer)](../ide/c12d8dac-9902-4fde-b721-2a8116da53b7.md)|  
 |**Create and modify type members:** You can create new members, modify members, and add parameters to a method by using the Class Details window.|-   [Creating Members](../ide/creating-and-configuring-type-members--class-designer-.md#CreateMembers)<br />-   [Modifying Type Members](../ide/creating-and-configuring-type-members--class-designer-.md#ModifyTypeMembers)<br />-   [Adding Parameters to Methods](../ide/creating-and-configuring-type-members--class-designer-.md#AddMethodParams)|  
   
 ##  <a name="OpenClassDetails"></a> Opening the Class Details Window  
@@ -138,7 +138,7 @@ You can add these members to types on a class diagram and configure those member
   
 4.  Optionally, specify other details about the member, such as its type.  
   
-     **Note:** You can also use keyboard shortcuts to create members. For more information, see [Keyboard and Mouse Shortcuts in the Class Diagram and Class Details Window (Class Designer)](../ide/keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window--class-designer-.md).  
+     **Note:** You can also use keyboard shortcuts to create members. For more information, see [Keyboard and Mouse Shortcuts in the Class Diagram and Class Details Window (Class Designer)](../ide/c12d8dac-9902-4fde-b721-2a8116da53b7.md).  
   
 ##  <a name="ModifyTypeMembers"></a> Modifying Type Members  
  Class Designer enables you to modify the members of types that are displayed on the diagram. You can modify the members of any type displayed on a class diagram that are not read-only. (See [Display of Read-Only Information (Class Designer)](http://msdn.microsoft.com/en-us/33e2d3a9-1668-4d10-ae56-fa09b3156e0a).) You modify type members by using in-place editing on the design surface, Properties window, and the Class Details window.  

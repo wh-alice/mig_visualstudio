@@ -1,11 +1,11 @@
 ---
 title: "How to: Create a Custom HTTP Body Editor for the Web Performance Test Editor"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Web performance tests, custom HTTP body editor"
@@ -349,4 +349,4 @@ private MessageEditorControl messageEditorControl
  [Coding a custom validation rule for a web performance test](../test/coding-a-custom-validation-rule-for-a-web-performance-test.md)   
  [How to: Create a Load Test Plug-In](../test/how-to--create-a-load-test-plug-in.md)   
  [How to: Create a Coded Web Performance Test](../test_notintoc/how-to--create-a-coded-web-performance-test.md)   
- [How to: Create a Visual Studio Add-In for the Web Performance Test Results Viewer](../test/how-to--create-a-visual-studio-add-in-for-the-web-performance-test-results-viewer.md)
+ [How to: Create a Visual Studio Add-In for the Web Performance Test Results Viewer](../test/1118c604-4b1b-4b21-a04e-45995b676fa8.md)

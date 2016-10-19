@@ -1,13 +1,13 @@
 ---
 title: "How to: Send Feedback About Visual Studio"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "VS.OptinFeedbackDialog"
@@ -35,4 +35,4 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Send Feedback About Visual Studio
-This content has been removed. For information, see [Talk to Us](../Topic/Talk%20to%20Us.md).
+This content has been removed. For information, see [Talk to Us](../ide/talk-to-us.md).

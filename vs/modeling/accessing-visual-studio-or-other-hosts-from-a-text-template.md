@@ -1,11 +1,11 @@
 ---
 title: "Accessing Visual Studio or other Hosts from a Text Template"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a68886da-7416-4785-8145-3796bb382cba
 caps.latest.revision: 5

@@ -1,11 +1,11 @@
 ---
 title: "The selected connection uses an unsupported database provider"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4d25dfa1-8fa4-4529-9b90-973bc2ec2993
 caps.latest.revision: 3

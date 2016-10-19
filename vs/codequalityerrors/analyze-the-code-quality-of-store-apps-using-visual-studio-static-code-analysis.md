@@ -1,13 +1,13 @@
 ---
 title: "Analyze the code quality of Store apps using Visual Studio static code analysis"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2341013d-a08b-49a7-b6fd-a7b6aaa797e0
 caps.latest.revision: 11
@@ -40,7 +40,7 @@ translation.priority.ht:
   
 |||  
 |-|-|  
-|[Analyze Visual Basic and C# code quality](../codequality/analyze-visual-basic-and-csharp-code-quality-in-store-apps-using-visual-studio-static-code-analysis.md)|Use code analysis in Visual Basic and C# projects.|  
+|[Analyze Visual Basic and C# code quality](../codequality/cab553fc-19a9-4cbf-858e-8200258ffe50.md)|Use code analysis in Visual Basic and C# projects.|  
 |[Analyze C++ code quality](../codequality/analyze-c---code-quality-of-store-apps-using-visual-studio-static-code-analysis.md)|Use code analysis in C++ projects.|  
   
 ## More code analysis info  

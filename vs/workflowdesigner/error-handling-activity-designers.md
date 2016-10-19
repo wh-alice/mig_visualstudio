@@ -1,11 +1,11 @@
 ---
 title: "Error Handling Activity Designers"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/02/2016"
 ms.prod: ".net-framework-4.6"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "reference"
 ms.assetid: 9679ca32-ad7f-4089-824e-fdb931e47a30
 caps.latest.revision: 4

@@ -1,13 +1,13 @@
 ---
 title: "&#39;ReDim&#39; Preserve operand cannot be Nothing"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b857f313-3fc2-4262-a577-88df1718b811
 caps.latest.revision: 8

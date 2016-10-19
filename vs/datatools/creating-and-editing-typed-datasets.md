@@ -1,11 +1,11 @@
 ---
 title: "Creating and Editing Typed Datasets"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/10/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "Designer_Microsoft.VSDesigner.DataSource.Designer.DataSourceRootDesigner"

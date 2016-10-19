@@ -1,13 +1,13 @@
 ---
 title: "How to: Locate the Visual Studio Product Key"
-ms.custom: na
+ms.custom: ""
 ms.date: "2016-09-01"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-install"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "product key, Visual Studio"

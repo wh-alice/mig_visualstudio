@@ -1,11 +1,11 @@
 ---
 title: "How to: Configure inheritance by using the O-R Designer"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e594af12-e777-434a-bc08-7dd2dac84cdc
 caps.latest.revision: 4
@@ -32,7 +32,7 @@ The [!INCLUDE[vs_ordesigner_long](../datatools/includes/vs_ordesigner_long_md.md
   
  For example, consider a Persons table that contains everyone employed by a company. Some people are employees and some people are managers. The Persons table contains a column named `EmployeeType` that has a value of 1 for managers and a value of 2 for employees; this is the discriminator column. In this scenario, you can create a subclass of employees and populate the class with only records that have an `EmployeeType` value of 2. You can also remove columns that do not apply from each of the classes.  
   
- Creating an object model that uses inheritance (and corresponds to relational data) can be somewhat confusing. The following procedure outlines the steps required for configuring inheritance with the O/R Designer. Following generic steps without referring to an existing table and columns might be difficult, so a walkthrough that uses data has been provided. For detailed step-by-step directions for configuring inheritance by using the [!INCLUDE[vs_ordesigner_short](../datatools/includes/vs_ordesigner_short_md.md)], see [Walkthrough: Creating LINQ to SQL Classes by Using Single-Table Inheritance (O/R Designer)](../datatools/walkthrough--creating-linq-to-sql-classes-by-using-single-table-inheritance--o-r-designer-.md).  
+ Creating an object model that uses inheritance (and corresponds to relational data) can be somewhat confusing. The following procedure outlines the steps required for configuring inheritance with the O/R Designer. Following generic steps without referring to an existing table and columns might be difficult, so a walkthrough that uses data has been provided. For detailed step-by-step directions for configuring inheritance by using the [!INCLUDE[vs_ordesigner_short](../datatools/includes/vs_ordesigner_short_md.md)], see [Walkthrough: Creating LINQ to SQL Classes by Using Single-Table Inheritance (O/R Designer)](../datatools/63bc6328-e0df-4655-9ce3-5ff74dbf69a4.md).  
   
 ### To create inherited data classes  
   
@@ -68,6 +68,6 @@ The [!INCLUDE[vs_ordesigner_long](../datatools/includes/vs_ordesigner_long_md.md
  [PAVE What's New for Data Application Development in Visual Studio 2012](http://msdn.microsoft.com/en-us/3d50d68f-5f44-4915-842f-6d42fce793f1)   
  [Accessing data in Visual Studio](../datatools/accessing-data-in-visual-studio.md)   
  [LINQ to SQL](../Topic/LINQ%20to%20SQL.md)   
- [Walkthrough: Creating LINQ to SQL Classes by Using Single-Table Inheritance (O/R Designer)](../datatools/walkthrough--creating-linq-to-sql-classes-by-using-single-table-inheritance--o-r-designer-.md)   
+ [Walkthrough: Creating LINQ to SQL Classes by Using Single-Table Inheritance (O/R Designer)](../datatools/63bc6328-e0df-4655-9ce3-5ff74dbf69a4.md)   
  [NOT IN BUILD: Inheritance in Visual Basic](http://msdn.microsoft.com/en-us/e5e6e240-ed31-4657-820c-079b7c79313c)   
  [Inheritance](../Topic/Inheritance%20\(C%23%20Programming%20Guide\).md)

@@ -1,13 +1,13 @@
 ---
 title: "Some files and folders caused exceptions during the operation"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b0471302-907c-42a6-a326-8d3d805ebe98
 caps.latest.revision: 8

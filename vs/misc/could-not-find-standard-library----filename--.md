@@ -1,13 +1,13 @@
 ---
 title: "Could not find standard library: &#39;&lt;filename&gt;&#39;"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbc40049"
@@ -58,4 +58,4 @@ translation.priority.mt:
 ## See Also  
  [Building from the Command Line](../Topic/Building%20from%20the%20Command%20Line%20\(Visual%20Basic\).md)   
  [How to: Invoke the Command-Line Compiler](../Topic/How%20to:%20Invoke%20the%20Command-Line%20Compiler%20\(Visual%20Basic\).md)   
- [Talk to Us](../Topic/Talk%20to%20Us.md)
+ [Talk to Us](../ide/talk-to-us.md)

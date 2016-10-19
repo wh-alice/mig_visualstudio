@@ -1,13 +1,13 @@
 ---
 title: "Security Warning Dialog Box (MSBuild Project File)"
-ms.custom: na
-ms.date: "10/17/2016"
+ms.custom: ""
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.projectfileinsecure"
@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "Security Warning dialog box [MSBuild project file]"
   - "MSBuild, security warning dialog box"
 ms.assetid: ea705296-ad5b-4e55-a75f-e421f35fe640
-caps.latest.revision: 12
+caps.latest.revision: 13
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -52,5 +52,6 @@ The **Security Warning** dialog box warns developers about security issues with 
 -   Network shares.  
   
 ## See Also  
+[MSBuild](../reference/msbuild1.md)  
  [MSBuild Reference](../reference/msbuild-reference.md)   
  [MSBuild Concepts](../reference/msbuild-concepts.md)

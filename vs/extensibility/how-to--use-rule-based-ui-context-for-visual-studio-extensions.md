@@ -1,13 +1,13 @@
 ---
 title: "How to: Use Rule-based UI Context for Visual Studio Extensions"
-ms.custom: na
-ms.date: "10/14/2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.custom: ""
+ms.date: "10/18/2016"
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8dd2cd1d-d8ba-49b9-870a-45acf3a3259d
-caps.latest.revision: 6
+caps.latest.revision: 7
 ms.author: "gregvanl"
 translation.priority.mt: 
   - "cs-cz"
@@ -146,6 +146,9 @@ Visual Studio allows loading of VSPackages when certain well-known <xref:Microso
 |ActiveEditorContentType:\<contentType>|The term will be true when the selected document is a text editor with the given content type.|  
 |ActiveProjectCapability:\<Expression>|The term is true when active project capabilities matches the provided expression. An expression can be something like VB &#124; CSharp|  
 |SolutionHasProjectCapability:\<Expression>|Similar to above but term is true when solution has any loaded project that matches to the expression.|  
+|SolutionHasProjectFlavor:\<projectTypeGuid>|The term will be true whenever a solution has project that is flavored (aggregated) and has a flavor matching the given project type GUID.|
+
+
   
 ## Compatibility with cross-version extension  
  Rule based UI Contexts is a new feature in Visual Studio 2015 and would not be ported to earlier versions. This creates a problem with extensions/packages that target multiple versions of Visual Studio which would have to be auto-loaded in Visual Studio 2013 and earlier, but can benefit from rule based UI Contexts to prevent being auto-loaded in Visual Studio 2015.  

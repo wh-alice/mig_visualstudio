@@ -1,13 +1,13 @@
 ---
 title: "WPF Data Binding with LINQ to XML"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 356c2cef-3468-495d-b4bd-f6b7f883446b
 caps.latest.revision: 2

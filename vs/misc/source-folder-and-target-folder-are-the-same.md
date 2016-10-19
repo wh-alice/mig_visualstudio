@@ -1,13 +1,13 @@
 ---
 title: "Source folder and target folder are the same"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d4e6f996-8bbe-45f2-b662-f26b4474f44d
 caps.latest.revision: 9

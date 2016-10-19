@@ -1,11 +1,11 @@
 ---
 title: "Cannot create an association &lt;association name&gt; - property listed twice"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/07/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3ced8bda-210e-4caf-9d8f-96cdbba19251
 caps.latest.revision: 2
@@ -45,6 +45,6 @@ Cannot create an association \<association name>. The same property is listed mo
   
 ## See Also  
  [LINQ to SQL Tools in Visual Studio](../Topic/LINQ%20to%20SQL%20Tools%20in%20Visual%20Studio1.md)   
- [How to: Create an association (relationship) between LINQ to SQL classes (O/R Designer)](../datatools/how-to--create-an-association--relationship--between-linq-to-sql-classes--o-r-designer-.md)   
+ [How to: Create an association (relationship) between LINQ to SQL classes (O/R Designer)](../datatools/56133e65-81f3-44c3-bc28-ffdd0671a0d2.md)   
  [Walkthrough: Creating LINQ to SQL Classes (O-R Designer)](../Topic/Walkthrough:%20Creating%20LINQ%20to%20SQL%20Classes%20\(O-R%20Designer\).md)   
  [LINQ to SQL](../Topic/LINQ%20to%20SQL.md)

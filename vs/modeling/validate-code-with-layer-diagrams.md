@@ -1,11 +1,11 @@
 ---
 title: "Validate code with layer diagrams"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "layer diagrams, validating"
@@ -20,7 +20,7 @@ helpviewer_keywords:
   - "MSBuild, layer diagrams"
   - "MSBuild, validating code"
 ms.assetid: 70cbe55d-4b33-4355-b0a7-88c770a6f75c
-caps.latest.revision: 81
+caps.latest.revision: 82
 ms.author: "ahomer"
 manager: "kamrani"
 translation.priority.ht: 
@@ -145,7 +145,7 @@ To make sure that code doesn't conflict with its design, validate your code with
         msbuild /p:ValidateArchitecture=true  
         ```  
   
-     Any errors that occur will be listed. For more information about [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)], see MSBuild and [MSBuild Task](../reference/msbuild-task.md).  
+     Any errors that occur will be listed. For more information about [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)], see [MSBuild](../reference/msbuild1.md) and [MSBuild Task](../reference/msbuild-task.md).  
   
  For more information about validation errors, see [Understand and resolve layer validation errors](#UnderstandingValidationErrors).  
   

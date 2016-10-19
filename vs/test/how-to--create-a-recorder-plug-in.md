@@ -1,11 +1,11 @@
 ---
 title: "How to: Create a Recorder Plug-In"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Web performance tests, recorder plug-in"
@@ -31,7 +31,7 @@ translation.priority.ht:
 # How to: Create a Recorder Plug-In
 The <xref:Microsoft.VisualStudio.TestTools.WebTesting.WebTestRecorderPlugin> lets you modify a recorded Web performance test. The modification occurs after you choose **Stop** in the Web performance test recorder toolbar but prior to the test being saved and presented in the Web Performance Test Editor.  
   
- The primary issue a recorder plug-in helps resolve is performing your own custom correlation on dynamic parameters. With the built-in correlation functionality, Web performance tests detect the dynamic parameters in the Web recording upon completion, or when you use the **Promote Dynamic Parameters to Web Test Parameters** on the Web Performance Test Editor toolbar. For more information, see [How to: Resolve Web Performance Test Playback Issues Caused by Dynamic Parameters](../test_notintoc/how-to--resolve-web-performance-test-playback-issues-caused-by-dynamic-parameters.md). However, the built in detection functionality does not always find all the dynamic parameters. For example, it does not find a session ID, which usually gets its value changed between 5 to 30 minutes. Therefore, you have to manually perform the correlation process. For more information, see [How to: Promote Dynamic Parameters to Web Performance Test Parameters](../test_notintoc/how-to--promote-dynamic-parameters-to-web-performance-test-parameters.md).  
+ The primary issue a recorder plug-in helps resolve is performing your own custom correlation on dynamic parameters. With the built-in correlation functionality, Web performance tests detect the dynamic parameters in the Web recording upon completion, or when you use the **Promote Dynamic Parameters to Web Test Parameters** on the Web Performance Test Editor toolbar. For more information, see [How to: Resolve Web Performance Test Playback Issues Caused by Dynamic Parameters](../test_notintoc/33408799-89c1-4e26-8b1b-a2311b471a06.md). However, the built in detection functionality does not always find all the dynamic parameters. For example, it does not find a session ID, which usually gets its value changed between 5 to 30 minutes. Therefore, you have to manually perform the correlation process. For more information, see [How to: Promote Dynamic Parameters to Web Performance Test Parameters](../test_notintoc/how-to--promote-dynamic-parameters-to-web-performance-test-parameters.md).  
   
  The <xref:Microsoft.VisualStudio.TestTools.WebTesting.WebTestRecorderPlugin> lets you write code for your own custom plug-in. This plug-in can perform correlation or modify the Web performance test in many ways prior to it being saved and presented in the Web Performance Test Editor. Therefore, if you determine that a specific dynamic variable has to be correlated for a lot of your recordings, you can automate the process.  
   

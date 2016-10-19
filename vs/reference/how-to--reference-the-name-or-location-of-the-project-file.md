@@ -1,13 +1,13 @@
 ---
 title: "How to: Reference the Name or Location of the Project File"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "locations, referencing"
@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "reserved properties"
   - "project files, referencing"
 ms.assetid: c8fcc594-5d37-4e2e-b070-4d9c012043b5
-caps.latest.revision: 11
+caps.latest.revision: 12
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -86,4 +86,5 @@ You can use the name or location of the project in the project file itself witho
 ```  
   
 ## See Also  
+[MSBuild](../reference/msbuild1.md)
  [MSBuild Reserved and Well-Known Properties](../reference/msbuild-reserved-and-well-known-properties.md)

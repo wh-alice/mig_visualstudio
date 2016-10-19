@@ -1,13 +1,13 @@
 ---
 title: "How to: Create a Coded UI Test"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7a51ffb9-10cd-4a71-9a1f-f7e16caa26aa
 caps.latest.revision: 83

@@ -1,11 +1,11 @@
 ---
 title: "How to: Define and consume activity delegates in the Workflow Designer"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/13/2016"
 ms.prod: ".net-framework-4.6"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "reference"
 ms.assetid: c68e42ad-3ec0-4c2d-b104-fe36c6d83b5e
 caps.latest.revision: 3

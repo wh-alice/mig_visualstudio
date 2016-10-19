@@ -1,12 +1,12 @@
 ---
 title: "CA5351 Do Not Use Broken Cryptographic Algorithms"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-devops-test"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 483f51b3-e186-4433-b48e-5ca24a9a9c94
 caps.latest.revision: 12

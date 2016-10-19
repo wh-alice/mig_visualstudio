@@ -1,12 +1,12 @@
 ---
 title: "CA2153: Avoid Handling Corrupted State Exceptions"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-devops-test"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 418cc9cb-68ad-47e9-a6c8-a48b9c35db45
 caps.latest.revision: 5

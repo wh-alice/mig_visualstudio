@@ -1,11 +1,11 @@
 ---
 title: "Automated build-deploy-test workflows"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 167271fb-20cd-4765-af5d-1284868bbc47
 caps.latest.revision: 29

@@ -1,13 +1,13 @@
 ---
 title: "Working with Class Diagrams (Class Designer)"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "class diagrams"
@@ -42,7 +42,7 @@ Class diagrams help you understand the class structure of projects others have w
   
  In addition to defining what each class diagram shows, you can also change the way that information is presented; for more information, see [How to: Customize Class Diagrams (Class Designer)](../ide/how-to--customize-class-diagrams--class-designer-.md).  
   
- After you have fine-tuned one or more class diagrams, you can copy them into Microsoft Office documents and print them, or export them as image files. For more information, see [How to: Copy Class Diagram Elements to a Microsoft Office Document (Class Designer)](../ide/how-to--copy-class-diagram-elements-to-a-microsoft-office-document--class-designer-.md), [How to: Print Class Diagrams (Class Designer)](../ide/how-to--print-class-diagrams--class-designer-.md) and [How to: Export Class Diagrams As Images (Class Designer)](../ide/how-to--export-class-diagrams-as-images--class-designer-.md).  
+ After you have fine-tuned one or more class diagrams, you can copy them into Microsoft Office documents and print them, or export them as image files. For more information, see [How to: Copy Class Diagram Elements to a Microsoft Office Document (Class Designer)](../ide/c43061ad-d258-46b1-be66-f97a312e86d5.md), [How to: Print Class Diagrams (Class Designer)](../ide/how-to--print-class-diagrams--class-designer-.md) and [How to: Export Class Diagrams As Images (Class Designer)](../ide/how-to--export-class-diagrams-as-images--class-designer-.md).  
   
 > [!NOTE]
 >  Class Designer does not track the location of your source files, so changing your project structure or moving source files in the project can cause Class Designer to lose track of the type, especially the source type of a typedef, base classes, or association types. You might get an error, like **Class Designer is unable to display this type**. If you do, drag the modified or relocated source code to the class diagram again to redisplay it.  
@@ -56,7 +56,7 @@ Class diagrams help you understand the class structure of projects others have w
   
  Provides information about how to customize class diagrams.  
   
- [How to: Copy Class Diagram Elements to a Microsoft Office Document (Class Designer)](../ide/how-to--copy-class-diagram-elements-to-a-microsoft-office-document--class-designer-.md)  
+ [How to: Copy Class Diagram Elements to a Microsoft Office Document (Class Designer)](../ide/c43061ad-d258-46b1-be66-f97a312e86d5.md)  
   
  Explains how to copy from a class diagram into an Office document.  
   

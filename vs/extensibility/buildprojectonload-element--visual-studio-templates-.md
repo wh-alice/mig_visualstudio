@@ -1,13 +1,13 @@
 ---
 title: "BuildProjectOnload Element (Visual Studio Templates)"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b07d3074-0fc9-45e1-baf5-da6bd4f3f1c0
 caps.latest.revision: 8

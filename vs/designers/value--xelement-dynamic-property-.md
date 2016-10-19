@@ -1,13 +1,13 @@
 ---
 title: "Value (XElement Dynamic Property)"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b30e770d-9646-4632-9738-cc9f51bb2343
 caps.latest.revision: 2

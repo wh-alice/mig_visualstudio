@@ -1,11 +1,11 @@
 ---
 title: "Create a build-deploy-test workflow for a standard environment"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f448c943-73e9-4265-98a2-ca11138e4948
 caps.latest.revision: 29

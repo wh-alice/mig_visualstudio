@@ -1,11 +1,11 @@
 ---
 title: "Prepare a Domain Controller Virtual Machine Using SCVMM"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c3a4929f-c2e4-4792-986d-4623ce1f4432
 caps.latest.revision: 11

@@ -1,13 +1,13 @@
 ---
 title: "What&#39;s New in the Visual Studio 2015 SDK"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c64aac80-a411-463f-b7bd-8b7607a52ece
 caps.latest.revision: 13

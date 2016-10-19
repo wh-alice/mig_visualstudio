@@ -1,13 +1,13 @@
 ---
 title: "Step 2: Run Your Program"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9a8fe90e-c97b-4e98-b6c8-0c6b3962c49d
 caps.latest.revision: 14

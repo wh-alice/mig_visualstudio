@@ -1,13 +1,13 @@
 ---
 title: "This operation can only be done when the File is closed"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 79fe95ae-4aff-469f-beda-d5a85c91d421
 caps.latest.revision: 9

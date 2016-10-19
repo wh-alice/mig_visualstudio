@@ -1,13 +1,13 @@
 ---
 title: "Walkthrough: Missing Objects Due to Device State"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1b0d2bbd-0729-4aa5-8308-70c5bf1468c5
 caps.latest.revision: 22

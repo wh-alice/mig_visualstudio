@@ -1,13 +1,13 @@
 ---
 title: "Collecting Additional Performance Data"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8c0ea5c6-74a4-4a23-89ca-8d589364079f
 caps.latest.revision: 12

@@ -1,13 +1,13 @@
 ---
 title: "Error: SQL Can&#39;t Find SSDEBUGPS"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/17/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.debug.error.sqlde_cant_find_ssdebugps"

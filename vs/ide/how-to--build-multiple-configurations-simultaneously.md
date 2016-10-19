@@ -1,13 +1,13 @@
 ---
 title: "How to: Build Multiple Configurations Simultaneously"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ba830937-3317-4674-8cc2-c0cd565603c5
 caps.latest.revision: 10

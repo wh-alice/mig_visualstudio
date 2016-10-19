@@ -1,11 +1,11 @@
 ---
 title: "How to: Create a hyperlink to view test results from an email"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 39d04ac8-0ed9-4b77-aaca-03975267d0be
 caps.latest.revision: 6

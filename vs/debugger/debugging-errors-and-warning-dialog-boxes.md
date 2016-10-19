@@ -1,13 +1,13 @@
 ---
 title: "Debugging Errors and Warning Dialog Boxes"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "VS.WebClient.AccessRequiredDialog"
@@ -65,9 +65,9 @@ Below are the errors and warning dialog boxes you may encounter while debugging 
   
  [Stale Code Warning Dialog Box](../debugger/stale-code-warning-dialog-box.md)  
   
- [Unable to Connect to the Machine](../debugger/error--unable-to-connect-to-the-machine--name-.-the-machine-cannot-be-found-on-the-network..md)  
+ [Unable to Connect to the Machine](../debugger/b584b5db-ef52-45ed-8561-1314da3cc5b8.md)  
   
- [Error: Debugging Isn't Possible Because a Kernel Debugger is Enabled on the System](../debugger/error--debugging-isn-t-possible-because-a-kernel-debugger-is-enabled-on-the-system.md)  
+ [Error: Debugging Isn't Possible Because a Kernel Debugger is Enabled on the System](../debugger/630a7abd-3303-4aaa-888a-6de3de14bc01.md)  
   
 ## Related Sections  
  [Debugging Script and Web: Errors and Troubleshooting](../debugger/debugging-web-applications--errors-and-troubleshooting.md)  

@@ -1,11 +1,11 @@
 ---
 title: "How to: Set Breakpoints in Workflows"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/02/2016"
 ms.prod: ".net-framework-4.6"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "reference"
 ms.assetid: e41b21c9-c061-4358-8e2f-eb5e412864a8
 caps.latest.revision: 10

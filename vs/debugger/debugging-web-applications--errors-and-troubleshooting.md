@@ -1,13 +1,13 @@
 ---
 title: "Debugging Web Applications: Errors and Troubleshooting"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "FSharp"
@@ -57,7 +57,7 @@ You may encounter the following errors when attempting to debug Web applications
   
 -   [Error: ASP.NET Not Installed](../debugger/error--asp.net-not-installed.md)  
   
--   [Error: Debugging Failed Because Integrated Windows Authentication Is Not Enabled](../debugger/error--debugging-failed-because-integrated-windows-authentication-is-not-enabled.md)  
+-   [Error: Debugging Failed Because Integrated Windows Authentication Is Not Enabled](../debugger/6027cd94-74cf-470f-b7ce-6f6b68bc56ba.md)  
   
 -   [Error: The web server is not configured correctly](../debugger/error--the-web-server-is-not-configured-correctly.md)  
   

@@ -1,11 +1,11 @@
 ---
 title: "Sample Project for Creating a Diagnostic Data Adapter"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Diagnostic Data Adapter [Visual Studio ALM]"
@@ -400,4 +400,4 @@ namespace MyCompany.DiagnosticDataAdapters.ConfigurationEditors
  [How to: Create a Diagnostic Data Adapter](../test/how-to--create-a-diagnostic-data-adapter.md)   
  [How to: Create a Custom Editor for Data for Your Diagnostic Data Adapter](../test/how-to--create-a-custom-editor-for-data-for-your-diagnostic-data-adapter.md)   
  [How to: Install a Custom Diagnostic Data Adapter](../test/how-to--install-a-custom-diagnostic-data-adapter.md)   
- [Creating a Diagnostic Data Adapter to Collect Custom Data or Affect a Test Machine](../test/creating-a-diagnostic-data-adapter-to-collect-custom-data-or-affect-a-test-machine.md)
+ [Creating a Diagnostic Data Adapter to Collect Custom Data or Affect a Test Machine](../test/b0b53fae-7007-4ad9-a604-21685937622f.md)

@@ -1,13 +1,13 @@
 ---
 title: "Globalization Rules rule set for managed code"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-devops-test"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3c4032ee-0805-4581-8c48-b1827cd6b213
 caps.latest.revision: 9

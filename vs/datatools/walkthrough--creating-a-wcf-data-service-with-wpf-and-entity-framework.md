@@ -1,11 +1,11 @@
 ---
 title: "Walkthrough: Creating a WCF Data Service with WPF and Entity Framework"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "data services in Visual Studio"
@@ -285,5 +285,5 @@ This walkthrough demonstrates how to create a simple [!INCLUDE[ss_data_service](
 6.  In the text box, enter **London**, and then choose the button. Only the customers from London are displayed.  
   
 ## See Also  
- [Windows Communication Foundation Services and WCF Data Services in Visual Studio](../datatools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md)   
+ [Windows Communication Foundation Services and WCF Data Services in Visual Studio](../datatools/d56f12cb-e139-4fec-b3e4-488383356642.md)   
  [How to: Add, Update, or Remove a WCF Data Service Reference](../datatools/how-to--add--update--or-remove-a-wcf-data-service-reference.md)

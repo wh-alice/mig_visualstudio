@@ -1,13 +1,13 @@
 ---
 title: "MSBuild .Targets Files"
-ms.custom: na
-ms.date: "10/17/2016"
+ms.custom: ""
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -18,7 +18,7 @@ helpviewer_keywords:
   - ".Targets files"
   - "MSBuild, .Targets files"
 ms.assetid: f6d98eb4-d2fa-49b7-8e3c-bae1ca3cf596
-caps.latest.revision: 15
+caps.latest.revision: 16
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -57,3 +57,4 @@ translation.priority.ht:
 ## See Also  
  [Import Element (MSBuild)](../reference/import-element--msbuild-.md)   
  [MSBuild Reference](../reference/msbuild-reference.md)
+ [MSBuild](../reference/msbuild1.md)

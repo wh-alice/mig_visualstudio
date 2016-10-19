@@ -1,13 +1,13 @@
 ---
 title: "How to: Upgrade from a Trial Edition of Visual Studio"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-install"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 717f11fe-be6c-4d6e-9006-e7e5220c02bb
 caps.latest.revision: 27

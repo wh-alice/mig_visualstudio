@@ -1,11 +1,11 @@
 ---
 title: "Using Environment Snapshots with SCVMM Environments"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f7e0f56b-1b37-4fde-abf4-e9b588c403e9
 caps.latest.revision: 17

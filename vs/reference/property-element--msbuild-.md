@@ -1,13 +1,13 @@
 ---
 title: "Property Element (MSBuild)"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "<Property> Element [MSBuild]"
   - "Property Element [MSBuild]"
 ms.assetid: 69ab08ab-3e76-41dd-a01b-49aa1d2e0cac
-caps.latest.revision: 16
+caps.latest.revision: 17
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -74,7 +74,7 @@ Contains a user defined property name and value. Every property used in an [!INC
  This text specifies the property value and may contain XML.  
   
 ## Remarks  
- Property names are limited to ASCII chars only. Property values are referenced in the project by placing the property name between "`$(`" and "`)`". For example, `$(builddir)\classes` would resolve to "build\classes", if the `builddir` property had the value `build`. For more information on properties, see MSBuild Properties.  
+ Property names are limited to ASCII chars only. Property values are referenced in the project by placing the property name between "`$(`" and "`)`". For example, `$(builddir)\classes` would resolve to "build\classes", if the `builddir` property had the value `build`. For more information on properties, see [MSBuild Properties](../reference/msbuild-properties.md).  
   
 ## Example  
  The following code sets the `Optimization` property to `false` and the `DefaultVersion` property to `1.0` if the `Version` property is empty.  
@@ -86,5 +86,6 @@ Contains a user defined property name and value. Every property used in an [!INC
 </PropertyGroup>  
 ```  
   
-## See Also  
+## See Also
+[MSBuild Properties](../reference/msbuild-properties.md)  
  [Project File Schema Reference](../reference/msbuild-project-file-schema-reference.md)

@@ -1,10 +1,10 @@
 ---
 title: "Image Service Tools"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2ddb0342-eb22-429a-bdf3-ccc2719a7ceb
 caps.latest.revision: 4

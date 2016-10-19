@@ -1,13 +1,13 @@
 ---
 title: "How to: Create a Basic Phong Shader"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c7c69da8-142b-4d3b-9be9-4be0d5970b25
 caps.latest.revision: 13

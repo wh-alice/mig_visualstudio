@@ -1,13 +1,13 @@
 ---
 title: "Create a unit test project"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-devops-test"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a608bfba-1a43-4a60-b73a-1fe53ef58098
 caps.latest.revision: 8
@@ -58,7 +58,7 @@ Unit tests often mirror the structure of the code under test. For example, a uni
   
  See one of the following sections:  
   
--   [Writing Unit Tests for the .NET Framework with the Microsoft Unit Test Framework for Managed Code](../codequality/writing-unit-tests-for-the-.net-framework-with-the-microsoft-unit-test-framework-for-managed-code.md)  
+-   [Writing Unit Tests for the .NET Framework with the Microsoft Unit Test Framework for Managed Code](../codequality/fbeba971-c468-4429-8017-0f12ab55638c.md)  
   
 -   [Writing Unit tests for C/C++ with the Microsoft Unit Testing Framework for C++](../codequality/writing-unit-tests-for-c-c---with-the-microsoft-unit-testing-framework-for-c--.md)  
   

@@ -1,11 +1,11 @@
 ---
 title: "How to: Specify the Timing Details Storage Property for a Load Test Run Setting"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "load tests, properties"
@@ -46,7 +46,7 @@ After you create your load test with the **New Load Test Wizard**, you can use t
 -   **All Individual Details:** Collects and stores individual timing data for each test, transaction, and page issued during the test.  
   
     > [!NOTE]
-    >  The **All Individual Details** option must be selected to enable virtual user data information in your load test results. For more information, see [Analyzing Virtual User Activity in the Details View](../test/analyzing-load-test-virtual-user-activity-in-the-details-view-of-the-load-test-analyzer.md).  
+    >  The **All Individual Details** option must be selected to enable virtual user data information in your load test results. For more information, see [Analyzing Virtual User Activity in the Details View](../test/63f4bd42-3cfb-4eee-af68-e8334976539e.md).  
   
 -   **None:** Does not collect any individual timing details. However, the average values are still available.  
   
@@ -56,7 +56,7 @@ After you create your load test with the **New Load Test Wizard**, you can use t
   
  If the **Timing Details Storage** property is enabled, then the time to execute each individual test, transaction, and page during the load test will be stored in the load test results repository. This allows for 90th and 95th percentile data to be shown in the Load Test Analyzer in the Tests, Transactions, and Pages tables.  
   
- If the **Timing Details Storage** property is enabled, by setting its value to either **StatisticsOnly** or **AllIndividualDetails**, all the individual tests, pages, and transactions are timed, and percentile data is calculated from the individual timing data. The difference is that with the **StatisticsOnly** option, after the percentile data has been calculated, the individual timing data is deleted from the repository. This reduces the amount of space that is required in the repository when timing details are used. However, you might want to process the timing detail data in other ways by using SQL tools, in which case the **AllIndividualDetails** option should be used so that the timing detail data is available for that processing. Additionally, if you set the property to **AllIndividualDetails**, then you can analyze the virtual user activity using the Virtual User Activity chart in the Load Test Analyzer after the load test completes running. For more information, see [Analyzing Virtual User Activity in the Details View](../test/analyzing-load-test-virtual-user-activity-in-the-details-view-of-the-load-test-analyzer.md).  
+ If the **Timing Details Storage** property is enabled, by setting its value to either **StatisticsOnly** or **AllIndividualDetails**, all the individual tests, pages, and transactions are timed, and percentile data is calculated from the individual timing data. The difference is that with the **StatisticsOnly** option, after the percentile data has been calculated, the individual timing data is deleted from the repository. This reduces the amount of space that is required in the repository when timing details are used. However, you might want to process the timing detail data in other ways by using SQL tools, in which case the **AllIndividualDetails** option should be used so that the timing detail data is available for that processing. Additionally, if you set the property to **AllIndividualDetails**, then you can analyze the virtual user activity using the Virtual User Activity chart in the Load Test Analyzer after the load test completes running. For more information, see [Analyzing Virtual User Activity in the Details View](../test/63f4bd42-3cfb-4eee-af68-e8334976539e.md).  
   
  The amount of space required in the load test results repository to store the timing details data can be very large, especially for longer running load tests. Also, the time to store this data in the load test results repository at the end of the load test is longer because this data is stored on the load test agents until the load test has finished executing, at which time the data is stored into the repository. The **Timing Details Storage** property is enabled by default. If this is an issue for your testing environment, you may wish to set the **Timing Details Storage** to **None**.  
   
@@ -82,5 +82,5 @@ After you create your load test with the **New Load Test Wizard**, you can use t
      After you have configured the **All Individual Details** setting for the **Timing Details Storage** property, you can run your load test and view the Virtual User Activity Chart. For more information, see [Running Load and Web Performance Tests](http://msdn.microsoft.com/en-us/a4fd686e-69ec-485d-a335-acf12348aa30) and [How to: Analyze What Virtual Users Are Doing During a Load Test](../test/8bda19b3-91c1-4daf-b6c7-09108bddadff.md).  
   
 ## See Also  
- [Analyzing Virtual User Activity in the Details View](../test/analyzing-load-test-virtual-user-activity-in-the-details-view-of-the-load-test-analyzer.md)   
+ [Analyzing Virtual User Activity in the Details View](../test/63f4bd42-3cfb-4eee-af68-e8334976539e.md)   
  [Walkthrough: Using the Virtual User Activity Chart to Isolate Issues](../test/walkthrough--using-the-virtual-user-activity-chart-to-isolate-issues.md)

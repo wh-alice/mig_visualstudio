@@ -1,11 +1,11 @@
 ---
 title: "Create virtual machines for manual testing"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: aa24ba47-75c7-432c-a86d-d330d25de7b6
 caps.latest.revision: 7

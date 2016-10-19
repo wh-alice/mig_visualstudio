@@ -1,13 +1,13 @@
 ---
 title: "How to: Modify the Pivot Point of a 3-D Model"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c20b4ec8-29f5-4ca5-bc39-d4548ca6f573
 caps.latest.revision: 14

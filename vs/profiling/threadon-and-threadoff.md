@@ -1,13 +1,13 @@
 ---
 title: "ThreadOn and ThreadOff"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5cd5a695-0a14-484a-8952-ed47e13d8e92
 caps.latest.revision: 8

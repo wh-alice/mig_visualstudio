@@ -1,13 +1,13 @@
 ---
 title: "What&#39;s New in the XML Editor"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: bd335a8d-6692-4a4c-9b5f-aa98f1fcaba3
 caps.latest.revision: 2

@@ -1,13 +1,13 @@
 ---
 title: "The file is currently open for writing"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 80b3c5e8-3a5c-4d60-b1ac-b7460f0b30b0
 caps.latest.revision: 9

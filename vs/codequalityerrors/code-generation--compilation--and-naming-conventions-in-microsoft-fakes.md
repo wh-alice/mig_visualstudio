@@ -1,13 +1,13 @@
 ---
 title: "Code generation, compilation, and naming conventions in Microsoft Fakes"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-devops-test"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 20221de4-2a9e-4787-b99a-b5855bb90872
 caps.latest.revision: 16

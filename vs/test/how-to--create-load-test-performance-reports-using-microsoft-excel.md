@@ -1,11 +1,11 @@
 ---
 title: "How to: Create Load Test Performance Reports Using Microsoft Excel"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "load tests, creating Excel reports"
@@ -69,7 +69,7 @@ You can generate Microsoft Excel load test reports that are based on two or more
  Excel reports can either be generated in the Load Test Analyzer, by using the **Create Excel Report** button in the toolbar, or from Excel by using the **Load Test Report** option in the **Load Test** tab of the Office ribbon.  
   
 > [!NOTE]
->  If you add comments to a load test, they will appear in the Excel report. For more information, see [How to: Add Comments while Analyzing a Completed Load Test](../test/how-to--add-comments-while-analyzing-a-completed-load-test-using-the-load-test-analyzer.md) and [How to: Add a Comment to a Running Load Test Using the Load Test Analyzer](../test_notintoc/how-to--add-a-comment-to-a-running-load-test-using-the-load-test-analyzer.md).  
+>  If you add comments to a load test, they will appear in the Excel report. For more information, see [How to: Add Comments while Analyzing a Completed Load Test](../test/e6b68940-4fb6-4bd6-bcde-f6477adc7af9.md) and [How to: Add a Comment to a Running Load Test Using the Load Test Analyzer](../test_notintoc/how-to--add-a-comment-to-a-running-load-test-using-the-load-test-analyzer.md).  
   
 ### To generate load test comparison reports using Excel  
   

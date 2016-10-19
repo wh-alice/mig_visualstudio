@@ -1,16 +1,16 @@
 ---
 title: "What&#39;s New in MSBuild 12.0"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9976a6ad-c052-4017-b848-35b5ae4a2f66
-caps.latest.revision: 22
+caps.latest.revision: 23
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -50,3 +50,6 @@ MSBuild is now installed as part of Visual Studio rather than as part of the .NE
 -   `MSBuildFrameworkToolsPath` is a new property that has a value of %windir%\Microsoft.NET\Framework\v4.0.30319 on 32-bit operating systems or %windir%\Microsoft.NET\Framework64\v4.0.30319 on 64-bit operating systems. This is a replacement for `MSBuildToolsPath` that can be used to point to the .NET Framework tools and utilities.  
   
 -   `MSBuildToolsPath` and `MSBuildFrameworkToolsPath` have 32-bit equivalents—`MSBuildToolsPath32` and `MSBuildFrameworkToolsPath32`—that always point to the 32-bit location, regardless of whether 32-bit or 64-bit MSBuild is being used.
+
+## See Also
+[MSBuild](../reference/msbuild1.md)

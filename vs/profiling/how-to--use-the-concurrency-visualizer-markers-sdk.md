@@ -1,13 +1,13 @@
 ---
 title: "How To: Use the Concurrency Visualizer Markers SDK"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/17/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 19a45032-f8a7-4137-890e-2ceeec938b8d
 caps.latest.revision: 9

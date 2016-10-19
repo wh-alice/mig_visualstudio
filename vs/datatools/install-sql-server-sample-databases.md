@@ -1,10 +1,10 @@
 ---
 title: "Install SQL Server sample databases"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/07/2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 38840167-c3f8-4cb3-8d15-8af04a0a20a1
 caps.latest.revision: 11

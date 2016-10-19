@@ -1,13 +1,13 @@
 ---
 title: "MSBuild Reserved and Well-Known Properties"
-ms.custom: na
-ms.date: "10/17/2016"
+ms.custom: ""
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -17,7 +17,7 @@ dev_langs:
 helpviewer_keywords: 
   - "MSBuild, reserved properties"
 ms.assetid: 99333e61-83c9-4804-84e3-eda297c2478d
-caps.latest.revision: 28
+caps.latest.revision: 29
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -71,3 +71,4 @@ translation.priority.ht:
   
 ## See Also  
  [MSBuild Reference](../reference/msbuild-reference.md)
+ [MSBuild Properties](../reference/msbuild-properties.md)

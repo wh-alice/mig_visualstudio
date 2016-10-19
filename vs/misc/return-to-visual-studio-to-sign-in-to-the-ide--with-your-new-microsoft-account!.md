@@ -1,10 +1,10 @@
 ---
 title: "Return to Visual Studio to sign in to the IDE  with your new Microsoft account!"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/13/2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4f53ba3d-eff6-44f3-8b91-3717bcf61387
 caps.latest.revision: 9

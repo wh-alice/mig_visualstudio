@@ -1,13 +1,13 @@
 ---
 title: "How to: Export a Texture that has Premultiplied Alpha"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 05348afa-f079-4f53-a05b-ecd91d13adab
 caps.latest.revision: 4

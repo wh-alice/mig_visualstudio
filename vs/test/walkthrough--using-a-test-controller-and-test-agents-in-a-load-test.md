@@ -1,11 +1,11 @@
 ---
 title: "Walkthrough: Using a Test Controller and Test Agents in a Load Test"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/10/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "test agent, using with load tests"
@@ -286,7 +286,7 @@ Here you'll learn how to create and run a load test that's distributed across se
      The information collect by the agent is displayed accordingly.  
   
 ## See Also  
- [Distributing Load Test Runs Across Multiple Test Machines Using Test Controllers and Test Agents](../test/distributing-load-test-runs-across-multiple-test-machines-using-test-controllers-and-test-agents.md)   
+ [Distributing Load Test Runs Across Multiple Test Machines Using Test Controllers and Test Agents](../test/6e67a587-8aad-48cc-a8c0-6d4b399f3731.md)   
  [How to: Create a Test Setting for a Distributed Load Test](../test/how-to--create-a-test-setting-for-a-distributed-load-test.md)   
  [Install and configure test agents](../test/install-and-configure-test-agents.md)   
  [Using Test Controllers and Test Agents with Load Tests](../test/using-test-controllers-and-test-agents-with-load-tests.md)   

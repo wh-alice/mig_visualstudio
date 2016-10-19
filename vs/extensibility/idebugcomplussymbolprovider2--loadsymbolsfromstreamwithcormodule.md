@@ -1,19 +1,19 @@
 ---
 title: "IDebugComPlusSymbolProvider2::LoadSymbolsFromStreamWithCorModule"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "IDebugComPlusSymbolProvider2::LoadSymbolsFromStreamWithCorModule"
   - "LoadSymbolsFromStreamWithCorModule"
 ms.assetid: f79b894f-52c4-43c2-9a68-c71536451f6c
-caps.latest.revision: 12
+caps.latest.revision: 13
 ms.author: "gregvanl"
 manager: "ghogen"
 translation.priority.mt: 
@@ -72,7 +72,7 @@ int LoadSymbolsFromStreamWithCorModule(
  [in] Object that contains the symbol metadata.  
   
  `pUnkCorDebugModule`  
- [in] Object that implements the ICorDebugModule Interface.  
+ [in] Object that implements the [ICorDebugModule Interface](ICorDebugModule%20Interface.xml).  
   
  `pStream`  
  [in] Data stream that contains the debug symbols to load.  

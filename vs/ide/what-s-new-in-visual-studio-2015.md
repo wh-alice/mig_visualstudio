@@ -1,11 +1,11 @@
 ---
 title: "What&#39;s New in Visual Studio 2015"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "VS.StartPage.WhatsNew"
@@ -59,7 +59,7 @@ Welcome to Visual Studio 2015, an integrated suite of developer productivity too
  And—of course—support for classic desktop applications is better than ever, with lots of improvements to languages, libraries, and tools.  
   
 ### Cross-platform mobile apps in C# with Xamarin for Visual Studio  
- Xamarin is a mobile framework that enables you to write code in C# that binds natively to iOS and Android APIs. Microsoft has partnered closely with Xamarin on their release of Xamarin for Visual Studio, an extension that enables you to develop for Android, iOS, and Windows Phone in a single solution with shared code. With Xamarin, you’ll use one  language and one code base with minimal deltas between the platforms.  Xamarin for Visual Studio is supported on Visual Studio 2010 and later. The starter edition of Xamarin is  is included in Visual Studio 2015. To get started, see [Build apps with native UI using Xamarin in Visual Studio](../Topic/Build%20apps%20with%20native%20UI%20using%20Xamarin%20in%20Visual%20Studio.md).  
+ Xamarin is a mobile framework that enables you to write code in C# that binds natively to iOS and Android APIs. Microsoft has partnered closely with Xamarin on their release of Xamarin for Visual Studio, an extension that enables you to develop for Android, iOS, and Windows Phone in a single solution with shared code. With Xamarin, you’ll use one  language and one code base with minimal deltas between the platforms.  Xamarin for Visual Studio is supported on Visual Studio 2010 and later. The starter edition of Xamarin is  is included in Visual Studio 2015. To get started, see [Build apps with native UI using Xamarin in Visual Studio](../crossplatform/build-apps-with-native-ui-using-xamarin-in-visual-studio.md).  
   
 ### Cross-platform mobile apps in HTML/JavaScript with Apache Cordova  
  Visual Studio Tools for Apache Cordova is the result of close collaboration between Microsoft and the open source Apache Cordova community. The tools enable cross-platform mobile development using HTML, CSS, and JavaScript (or Typescript). You can target Android, iOS, and Windows with a single code base and enjoy the richness of the Visual Studio IDE including JavaScript IntelliSense, the DOM Explorer, JavaScript Console, breakpoints, watches, locals, Just My Code, and more.  With Visual Studio Tools for Apache Cordova, your apps have access to native device capabilities on all platforms through plugins that provide a common JavaScript API. To get started, see [Get Started with Visual Studio Tools for Apache Cordova](../Topic/Get%20Started%20with%20Visual%20Studio%20Tools%20for%20Apache%20Cordova1.md).  
@@ -75,7 +75,7 @@ Welcome to Visual Studio 2015, an integrated suite of developer productivity too
 ### Universal Windows apps for any Windows 10 device  
  With the Universal Windows Platform and our one Windows core, you can run the same app on any Windows 10 device from phones to desktops. Create these Universal Windows apps with Visual Studio 2015 and the Universal Windows App Development tools.  
   
- ![Universal Windows Platform](../ide/media/uwp_coreextensions.png "UWP_CoreExtensions")  
+ ![Universal Windows Platform](../crossplatform/media/uwp_coreextensions.png "UWP_CoreExtensions")  
   
  Run your app on a Windows 10 phone, a Windows 10 desktop, or an Xbox. It’s the same app package! With the introduction of the Windows 10 single, unified core, one app package can run across all platforms. Several platforms have Extension SDKs that you can add to your app to take advantage of platform specific behaviors. For example, an extension SDK for mobile handles the back button being pressed on a Windows phone. If you reference an Extension SDK in your project, then just add runtime checks to test if that SDK is available on that platform. That’s how you can have the same app package for each platform!  
   
@@ -267,7 +267,7 @@ Welcome to Visual Studio 2015, an integrated suite of developer productivity too
 ### Send a frown  
  Hearing where we need to make improvements in the product helps us to manage our backlog by focusing first on the things that are most important to our customers. If there is something that’s bugging you, tell us about it by using the **Send a Frown** feature from directly within the IDE. We’ve made this a super simple process too:  
   
- Click the yellow smiley face on the title bar, then click **Send a Frown**. Tell us what you did not like then click the Send a frown button. For more information, see [Talk to Us](../Topic/Talk%20to%20Us.md).  
+ Click the yellow smiley face on the title bar, then click **Send a Frown**. Tell us what you did not like then click the Send a frown button. For more information, see [Talk to Us](../ide/talk-to-us.md).  
   
 ### Report crashes, hangs and performance issues  
  Sometimes, a quick note in a frown just isn’t enough to convey the full impact of something that you do not like. For the times when you have a hang, crash or performance issue, you can easily share repro steps, crash dumps and trace files by using the dialog that’s displayed after you send a frown.  
@@ -279,7 +279,7 @@ Welcome to Visual Studio 2015, an integrated suite of developer productivity too
   
 ## See Also  
  [Build cross-platform apps with Apache Cordova](../Topic/Build%20cross-platform%20apps%20with%20Visual%20Studio%20Tools%20for%20Apache%20Cordova.md)   
- [Build apps with native UI using Xamarin in Visual Studio](../Topic/Build%20apps%20with%20native%20UI%20using%20Xamarin%20in%20Visual%20Studio.md)   
+ [Build apps with native UI using Xamarin in Visual Studio](../crossplatform/build-apps-with-native-ui-using-xamarin-in-visual-studio.md)   
  [Build cross-platform mobile apps with Visual C++](../misc/build-cross-platform-mobile-apps-with-visual-c--.md)   
  [Generate unit tests for your code with IntelliTest](../codequality/generate-unit-tests-for-your-code-with-intellitest.md)   
  [Work with multiple user accounts](../ide/work-with-multiple-user-accounts.md)   

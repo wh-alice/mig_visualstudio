@@ -1,11 +1,11 @@
 ---
 title: "Cannot create an association &lt;association name&gt; - property types do not match"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 97ec5a04-6e23-45a2-9226-d77ead854392
 caps.latest.revision: 3
@@ -45,6 +45,6 @@ Cannot create an association \<association name> - property types do not match. 
 4.  Click **OK**.  
   
 ## See Also  
- [How to: Create an association (relationship) between LINQ to SQL classes (O/R Designer)](../datatools/how-to--create-an-association--relationship--between-linq-to-sql-classes--o-r-designer-.md)   
+ [How to: Create an association (relationship) between LINQ to SQL classes (O/R Designer)](../datatools/56133e65-81f3-44c3-bc28-ffdd0671a0d2.md)   
  [Walkthrough: Creating LINQ to SQL Classes (O-R Designer)](../Topic/Walkthrough:%20Creating%20LINQ%20to%20SQL%20Classes%20\(O-R%20Designer\).md)   
  [LINQ to SQL](../Topic/LINQ%20to%20SQL.md)

@@ -1,13 +1,13 @@
 ---
 title: "Walkthrough: Using XSLT IntelliSense"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 079d95ac-2eaf-4ae1-9cd3-2c81a961a942
 caps.latest.revision: 2

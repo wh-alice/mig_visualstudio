@@ -1,11 +1,11 @@
 ---
 title: "Run tests with your builds"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 64df1c22-c0e6-4ce5-af00-aa8b90c45375
 caps.latest.revision: 14

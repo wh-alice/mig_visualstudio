@@ -1,11 +1,11 @@
 ---
 title: "Managing Lab Environments and Virtual Machines"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "virtual environments [Lab Management], using"
@@ -75,7 +75,7 @@ You manage lab environments, physical machines, virtual machines, and templates 
 |Create a guest-based or host-based connection to the environment|-   [How to: Connect to machines in a Lab Environment](../test/how-to--connect-to-machines-in-a-lab-environment.md)|  
 |Start, pause, shut down, power off, and delete an SCVMM environment|-   [How to: Operate an SCVMM Environment](../test/how-to--operate-an-scvmm-environment.md)|  
 |Change properties of an SCVMM environment|-   [Viewing and Modifying Properties of an SCVMM Environment](../test/viewing-and-modifying-properties-of-an-scvmm-environment.md)|  
-|Change properties of a virtual machine or template in an SCVMM environment|-   [Viewing and Modifying Properties of a Virtual Machine or Template in an SCVMM Environment](../test/viewing-and-modifying-properties-of-a-virtual-machine-or-template-in-an-scvmm-environment.md)|  
+|Change properties of a virtual machine or template in an SCVMM environment|-   [Viewing and Modifying Properties of a Virtual Machine or Template in an SCVMM Environment](../test/99e76568-838c-4ecd-811c-068c9105a5b7.md)|  
 |Store a copy of a deployed virtual machine or template for use in another SCVMM environment|-   [How to: Store a Virtual Machine or Template](../test/how-to--store-a-virtual-machine-or-template.md)|  
 |Add virtual machines and templates from System Center Virtual Machine Manager to your Team Project Library|-   [How to: Import a Virtual Machine or Template from SCVMM](../test/how-to--import-a-virtual-machine-or-template-from-scvmm.md)|  
 |Store a copy of an SCVMM environment in your library so that you can run multiple instances|-   [How to: Store an SCVMM Environment](../test/how-to--store-an-scvmm-environment.md)|  

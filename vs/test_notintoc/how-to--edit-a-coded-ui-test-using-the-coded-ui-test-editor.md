@@ -1,11 +1,11 @@
 ---
 title: "How to: Edit a Coded UI Test Using the Coded UI Test Editor"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/01/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 59bb0186-6967-4179-823f-6e896b83fdf8
 caps.latest.revision: 14

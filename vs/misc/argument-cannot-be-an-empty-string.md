@@ -1,13 +1,13 @@
 ---
 title: "Argument cannot be an empty string"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 17dd3385-8655-44f6-bf36-3ef570afb1cb
 caps.latest.revision: 8

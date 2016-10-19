@@ -1,13 +1,13 @@
 ---
 title: "Localizing ClickOnce Applications"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-deployment"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -78,7 +78,7 @@ Localization is the process of making your application appropriate for a specifi
 ## Downloading Satellite Assemblies on Demand  
  If you decide to include all satellite assemblies in a single deployment, you can improve performance by using on-demand downloading, which enables you to mark assemblies as optional. The marked assemblies will not be downloaded when the application is installed or updated. You can install the assemblies when you need them by calling the <xref:System.Deployment.Application.ApplicationDeployment.DownloadFileGroup*> method on the <xref:System.Deployment.Application.ApplicationDeployment> class.  
   
- Downloading satellite assemblies on demand differs slightly from downloading other types of assemblies on demand. For more information and code examples on how to enable this scenario using the [!INCLUDE[winsdkshort](../debugger/includes/winsdkshort_md.md)] tools for [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)], see [Walkthrough: Downloading Satellite Assemblies on Demand with the ClickOnce Deployment API](../deployment/walkthrough--downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api.md).  
+ Downloading satellite assemblies on demand differs slightly from downloading other types of assemblies on demand. For more information and code examples on how to enable this scenario using the [!INCLUDE[winsdkshort](../debugger/includes/winsdkshort_md.md)] tools for [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)], see [Walkthrough: Downloading Satellite Assemblies on Demand with the ClickOnce Deployment API](../deployment/fdaa553f-a27e-44eb-a4e2-08c122105a87.md).  
   
  You can also enable this scenario in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  Also see [Walkthrough: Downloading Satellite Assemblies on Demand with the ClickOnce Deployment API Using the Designer](http://msdn.microsoft.com/library/ms366788\(v=vs.110\)) or [Walkthrough: Downloading Satellite Assemblies on Demand with the ClickOnce Deployment API Using the Designer](http://msdn.microsoft.com/library/ms366788\(v=vs.120\)).  
   

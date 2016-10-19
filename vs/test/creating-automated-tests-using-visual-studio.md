@@ -1,11 +1,11 @@
 ---
 title: "Creating Automated Tests Using Visual Studio"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a574d7fa-10bd-453a-8ce0-b899178aee5b
 caps.latest.revision: 7
@@ -48,5 +48,5 @@ Using Visual Studio, you can create, manage, and run unit tests, coded UI tests,
  In addition to coded UI tests, Visual Studio also includes unit tests. Unit tests are used primarily to verify an isolated unit of code for quality and functionality while you are developing an app. [!INCLUDE[crdefault](../codequality/includes/crdefault_md.md)][Unit Test Your Code](../codequality/unit-test-your-code.md).  
   
 ## See Also  
- [Create, manage, and run unit tests, coded UI tests, web performance tests, and load tests](../test/create--manage--and-run-unit-tests--coded-ui-tests--web-performance-tests--and-load-tests.md)   
+ [Create, manage, and run unit tests, coded UI tests, web performance tests, and load tests](../test/cafae094-de3c-4c31-8dba-f4991906ab16.md)   
  [Running Automated Tests Using Microsoft Visual Studio](../test/running-automated-tests-using-microsoft-visual-studio.md)

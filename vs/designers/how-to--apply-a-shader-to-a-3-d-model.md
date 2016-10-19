@@ -1,13 +1,13 @@
 ---
 title: "How to: Apply a Shader to a 3-D Model"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a3877bd6-abd8-4a9d-842c-6848b6c2f335
 caps.latest.revision: 15

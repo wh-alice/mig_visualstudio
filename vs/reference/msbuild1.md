@@ -1,19 +1,19 @@
 ---
 title: "MSBuild1"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "MSBuild, about MSBuild"
   - "MSBuild, overview"
 ms.assetid: e39f13f7-1e1d-4435-95ca-0c222bca071c
-caps.latest.revision: 58
+caps.latest.revision: 59
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -117,7 +117,7 @@ MSBuild.exe MyProj.proj /property:Configuration=Debug
   
  Properties can be referenced throughout the project file by using the syntax $(*PropertyName*). For example, you can reference the properties in the previous examples by using `$(BuildDir)` and `$(Configuration)`.  
   
- For more information about properties, see MSBuild Properties.  
+ For more information about properties, see [MSBuild Properties](../reference/msbuild-properties.md).  
   
 ###  <a name="BKMK_Items"></a> Items  
  Items are inputs into the build system and typically represent files. Items are grouped into item types, based on user-defined item names. These item types can be used as parameters for tasks, which use the individual items to perform the steps of the build process.  
@@ -207,7 +207,7 @@ MSBuild.exe MyProj.proj /property:Configuration=Debug
 |[Walkthrough: Using MSBuild](../reference/walkthrough--using-msbuild.md)|Introduces the building blocks of MSBuild and shows how to write, manipulate, and debug MSBuild projects without closing the Visual Studio IDE.|  
 |[MSBuild Concepts](../reference/msbuild-concepts.md)|Presents the four building blocks of MSBuild: properties, items, targets, and tasks.|  
 |[Items](../reference/msbuild-items.md)|Describes the general concepts behind the [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] file format and how the pieces fit together.|  
-|MSBuild Properties|Introduces properties and property collections. Properties are key/value pairs that can be used to configure builds.|  
+|[MSBuild Properties](../reference/msbuild-properties.md)|Introduces properties and property collections. Properties are key/value pairs that can be used to configure builds.|  
 |[Targets](../reference/msbuild-targets.md)|Explains how to group tasks together in a particular order and enable sections of the build process to be called on the command line.|  
 |[Tasks](../reference/msbuild-tasks.md)|Shows how to create a unit of executable code that can be used by [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] to perform atomic build operations.|  
 |[Conditions](../reference/msbuild-conditions.md)|Discusses how to use the `Condition` attribute in an MSBuild element.|  
@@ -219,5 +219,5 @@ MSBuild.exe MyProj.proj /property:Configuration=Debug
  [MSBuild Reference](../reference/msbuild-reference.md)  
  Links to topics that contain reference information.  
   
- [Glossary](../Topic/MSBuild%20Glossary.md)  
+ Glossary  
  Defines common MSBuild terms.

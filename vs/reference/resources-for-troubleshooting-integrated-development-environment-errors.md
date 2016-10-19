@@ -1,13 +1,13 @@
 ---
 title: "Resources for Troubleshooting Integrated Development Environment Errors"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "VS.Message.0x00005A89"
@@ -125,4 +125,4 @@ Not all error messages have a specific associated Help topic. If the information
  You can access forums, blogs, chats, and other resources on the [Microsoft Technical Communities](http://go.microsoft.com/fwlink/?LinkID=144922) Web site.  
   
 ## Product Support  
- If you still have questions after you try the other resources, you can contact Microsoft support services by visiting the [Microsoft Support](http://go.microsoft.com/fwlink/?linkid=1782) Web site. For information about product support available in your area, see [Talk to Us](../Topic/Talk%20to%20Us.md).
+ If you still have questions after you try the other resources, you can contact Microsoft support services by visiting the [Microsoft Support](http://go.microsoft.com/fwlink/?linkid=1782) Web site. For information about product support available in your area, see [Talk to Us](../ide/talk-to-us.md).

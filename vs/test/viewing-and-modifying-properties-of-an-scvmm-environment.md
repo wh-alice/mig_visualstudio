@@ -1,11 +1,11 @@
 ---
 title: "Viewing and Modifying Properties of an SCVMM Environment"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "virtual environments [Lab Management], changing"
@@ -225,5 +225,5 @@ You can change the properties or the composition of a SCVMM environment. The fol
  If you change a stored environment, when those changes finish successfully the environment returns to the Stored state. Similarly, an active environment returns to its original state after the changes are complete. If a stored environment was in the CreateFailed state, you must remove the CreateFailed virtual machine before you make any other changes to the environment.  
   
 ## See Also  
- [Viewing and Modifying Properties of a Virtual Machine or Template in an SCVMM Environment](../test/viewing-and-modifying-properties-of-a-virtual-machine-or-template-in-an-scvmm-environment.md)   
+ [Viewing and Modifying Properties of a Virtual Machine or Template in an SCVMM Environment](../test/99e76568-838c-4ecd-811c-068c9105a5b7.md)   
  [Managing Lab Environments and Virtual Machines](../test/managing-lab-environments-and-virtual-machines.md)

@@ -1,11 +1,11 @@
 ---
 title: "- How to: Create an Action Recording"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/01/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "action recording, creating"
@@ -127,7 +127,7 @@ In [!INCLUDE[mtrlong](../codequality/includes/mtrlong_md.md)], you have the opti
 ## See Also  
  [Reviewing Test Results in Microsoft Test Manager](http://msdn.microsoft.com/en-us/9fb3e429-78df-4fe2-89ed-0ad1db0738f4)   
  [- How to: Play Back an Action Recording](../test_notintoc/--how-to--play-back-an-action-recording.md)   
- [How to: Include Recordings of the Screen and Voice During Tests Using Test Settings](../test/how-to--include-recordings-of-the-screen-and-voice-during-tests-using-test-settings.md)   
+ [How to: Include Recordings of the Screen and Voice During Tests Using Test Settings](../test/2cefe8c2-430a-4cb4-bbe0-f3edb2e5bc03.md)   
  [-How to: Create an Action Recording for Shared Steps](../test_notintoc/-how-to--create-an-action-recording-for-shared-steps.md)   
  [Record and play back manual tests](../test/record-and-play-back-manual-tests.md)   
  [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../codequality/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)

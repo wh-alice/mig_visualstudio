@@ -1,11 +1,11 @@
 ---
 title: "How to: Create a Load Test Results Repository Using SQL"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.test.load.dialog.databasesetup"
@@ -39,7 +39,7 @@ Results of load tests are stored in a SQL database. The SQL database is called t
   
  One option is to create the database tables on a local server that is running SQL Express. You only have to run the scripts one time for your local Load Test Results Store to be the global setting for all load tests.  
   
- For a controller, setup creates a default local instance of SQL Express and the Load Test Results Store and configures it for use by the controller. For any setup that does not use a remote machine, the database is created on the first run of a load test. You need to configure a separate and different Results Store if you want to use a database on a more powerful SQL Server. You can later mine the data mined by additional users. For more information, see [Distributing Load Test Runs Across Multiple Test Machines Using Test Controllers and Test Agents](../test/distributing-load-test-runs-across-multiple-test-machines-using-test-controllers-and-test-agents.md).  
+ For a controller, setup creates a default local instance of SQL Express and the Load Test Results Store and configures it for use by the controller. For any setup that does not use a remote machine, the database is created on the first run of a load test. You need to configure a separate and different Results Store if you want to use a database on a more powerful SQL Server. You can later mine the data mined by additional users. For more information, see [Distributing Load Test Runs Across Multiple Test Machines Using Test Controllers and Test Agents](../test/6e67a587-8aad-48cc-a8c0-6d4b399f3731.md).  
   
  **Requirements**  
   
@@ -93,5 +93,5 @@ Results of load tests are stored in a SQL database. The SQL database is called t
 ## See Also  
  [Managing Load Test Results in the Load Test Results Repository](../test/managing-load-test-results-in-the-load-test-results-repository.md)   
  [How to: Select a Load Test Results Repository](../test/how-to--select-a-load-test-results-repository.md)   
- [Distributing Load Test Runs Across Multiple Test Machines Using Test Controllers and Test Agents](../test/distributing-load-test-runs-across-multiple-test-machines-using-test-controllers-and-test-agents.md)   
- [How to: Run a Load Test Using Test Controllers and Test Agents Specified in a Test Setting](../test_notintoc/how-to--run-a-load-test-using-test-controllers-and-test-agents-specified-in-a-test-setting.md)
+ [Distributing Load Test Runs Across Multiple Test Machines Using Test Controllers and Test Agents](../test/6e67a587-8aad-48cc-a8c0-6d4b399f3731.md)   
+ [How to: Run a Load Test Using Test Controllers and Test Agents Specified in a Test Setting](../test_notintoc/e08eb231-55b7-4d9c-9be5-4fe1051a12b7.md)

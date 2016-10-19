@@ -1,11 +1,11 @@
 ---
 title: "API Reference for T4 Text Templates"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 63279da9-69ac-49ad-ac7d-43957c45e0ce
 caps.latest.revision: 6

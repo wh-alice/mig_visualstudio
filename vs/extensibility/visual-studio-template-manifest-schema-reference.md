@@ -1,10 +1,10 @@
 ---
 title: "Visual Studio Template Manifest Schema Reference"
-ms.custom: na
-ms.date: "10/14/2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.custom: ""
+ms.date: "10/18/2016"
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: bc7d0a81-0df5-41a9-a912-1b30e5da1d13
 caps.latest.revision: 3

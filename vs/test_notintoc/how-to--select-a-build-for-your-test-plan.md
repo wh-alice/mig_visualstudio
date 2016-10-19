@@ -1,11 +1,11 @@
 ---
 title: "How to: Select a Build for Your Test Plan"
-ms.custom: na
+ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "test plans, selecting a build"

@@ -1,13 +1,13 @@
 ---
 title: "Using Different Web Browsers with Coded UI Tests"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-devops-test"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a859595f-6517-43f2-9d61-c706cb55a388
 caps.latest.revision: 23

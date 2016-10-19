@@ -1,13 +1,13 @@
 ---
 title: "What&#39;s New in the XSLT Debugger"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 07ddc47e-5941-41f8-bd44-d993c2d054ed
 caps.latest.revision: 2

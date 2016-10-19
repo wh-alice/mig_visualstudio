@@ -1,13 +1,13 @@
 ---
 title: "File&#39;s open mode wasn&#39;t set to a valid value"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 969541f6-9ff6-4804-ba61-0d17370060ef
 caps.latest.revision: 10

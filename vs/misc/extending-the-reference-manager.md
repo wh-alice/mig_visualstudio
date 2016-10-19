@@ -1,13 +1,13 @@
 ---
 title: "Extending the Reference Manager"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: fb43a2a0-be0f-4ef4-96e8-8fc940e9389e
 caps.latest.revision: 13

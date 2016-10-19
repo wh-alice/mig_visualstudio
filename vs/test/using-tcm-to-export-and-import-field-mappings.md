@@ -1,11 +1,11 @@
 ---
 title: "Using tcm to export and import field mappings"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a4174b29-58d0-42e6-9e57-56ea5053a326
 caps.latest.revision: 11

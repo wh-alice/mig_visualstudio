@@ -1,13 +1,13 @@
 ---
 title: "XML documentation parse error: &lt;error&gt;"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bc42304"
@@ -45,7 +45,7 @@ The following messages may appear with this error. See the individual topic for 
   
 -   [XML comment parameter must have a 'name' attribute](../misc/xml-comment-parameter-must-have-a--name--attribute.md)  
   
--   [XML comment has a tag with a 'cref' attribute '\<attribute>' that could not be resolved](../misc/xml-comment-has-a-tag-with-a--cref--attribute---attribute---that-could-not-be-resolved.md)  
+-   [XML comment has a tag with a 'cref' attribute '\<attribute>' that could not be resolved](../misc/c9f3cfa5-565f-48bf-8616-cfb25d24f89e.md)  
   
 -   [XML comment tag 'include' must have a '\<attribute>' attribute](../misc/xml-comment-tag--include--must-have-a---attribute---attribute.md)  
   

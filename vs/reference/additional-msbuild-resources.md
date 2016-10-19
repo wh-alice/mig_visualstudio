@@ -1,13 +1,13 @@
 ---
 title: "Additional MSBuild Resources"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "MSBuild.UnregisterAssembly.UnregisterTlbFileNotRegistered"
@@ -630,7 +630,7 @@ If you are trying to solve a problem and cannot find the information you need in
  You can access [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] community resources on the [Channel 9 MSBuild](http://channel9.msdn.com/) Web site.  
   
 ## Product Support  
- If you still have questions after you try the other resources, you can contact Microsoft support services by visiting the [Microsoft Help and Support](http://go.microsoft.com/fwlink/?linkid=1782) Web site. For information about product support available in your area, see [Talk to Us](../Topic/Talk%20to%20Us.md).  
+ If you still have questions after you try the other resources, you can contact Microsoft support services by visiting the [Microsoft Help and Support](http://go.microsoft.com/fwlink/?linkid=1782) Web site. For information about product support available in your area, see [Talk to Us](../ide/talk-to-us.md).  
   
 ## See Also  
  [Troubleshooting .NET Framework Targeting Errors](../reference/troubleshooting-.net-framework-targeting-errors.md)

@@ -1,10 +1,10 @@
 ---
 title: "Welcome to Visual Studio 2015 (2)"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/18/2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 08adad4f-3e46-4e63-b3e0-04f57ac744fc
 caps.latest.revision: 5
@@ -12,8 +12,8 @@ caps.latest.revision: 5
 # Welcome to Visual Studio 2015 (2)
 |||||  
 |-|-|-|-|  
-|![HomePageTools&#95;VS2015](../misc/media/homepagetools_vs2015.png "HomePageTools_VS2015")<br /><br /> **Tools**|![Devices](../misc/media/homedevices.png "HomeDevices")<br /><br /> **Devices**|![HomePageCloud&#95;vs2015](../misc/media/homepagecloud_vs2015.png "HomePageCloud_vs2015")<br /><br /> **Web**|![HomePageLanguages&#95;VS2015](../misc/media/homepagelanguages_vs2015.png "HomePageLanguages_VS2015")<br /><br /> **Languages**|  
-|[Designers](../designers/designing-user-interfaces.md), [editors](../ide/writing-code-in-the-code-and-text-editor.md), [Debuggers](../debugger/debugging-in-visual-studio.md),[profilers](../profiling/beginners-guide-to-performance-profiling.md) -- all packaged up in a single environment.|Tools for [Apache Cordova with Visual Studio](../Topic/Build%20cross-platform%20apps%20with%20Visual%20Studio%20Tools%20for%20Apache%20Cordova.md) and [Visual Studio Tools for Unity](../Topic/Visual%20Studio%20Tools%20for%20Unity.md) to reach even more platforms.|Extensive web support for [ASP.NET](http://www.asp.net/), Node.js, and [JavaScript](../Topic/JavaScript%20Language%20Reference.md).|Code in [C++](../Topic/Visual%20C++%20in%20Visual%20Studio%202015.md), [C#](../Topic/C%23.md), [VB](../Topic/Visual%20Basic.md), [JavaScript](../Topic/JavaScript%20Language%20Reference.md), [F#](../Topic/F%23%20Language%20Reference.md), [Python](http://pytools.codeplex.com/documentation), and Java.|  
+|![HomePageTools&#95;VS2015](../misc/media/homepagetools_vs2015.png "HomePageTools_VS2015")<br /><br /> **Tools**|![Devices](../crossplatform/media/homedevices.png "HomeDevices")<br /><br /> **Devices**|![HomePageCloud&#95;vs2015](../misc/media/homepagecloud_vs2015.png "HomePageCloud_vs2015")<br /><br /> **Web**|![HomePageLanguages&#95;VS2015](../misc/media/homepagelanguages_vs2015.png "HomePageLanguages_VS2015")<br /><br /> **Languages**|  
+|[Designers](../designers/designing-user-interfaces.md), [editors](../ide/writing-code-in-the-code-and-text-editor.md), [Debuggers](../debugger/debugging-in-visual-studio.md),[profilers](../profiling/beginners-guide-to-performance-profiling.md) -- all packaged up in a single environment.|Tools for [Apache Cordova with Visual Studio](../Topic/Build%20cross-platform%20apps%20with%20Visual%20Studio%20Tools%20for%20Apache%20Cordova.md) and [Visual Studio Tools for Unity](../crossplatform/visual-studio-tools-for-unity.md) to reach even more platforms.|Extensive web support for [ASP.NET](http://www.asp.net/), Node.js, and [JavaScript](../Topic/JavaScript%20Language%20Reference.md).|Code in [C++](../Topic/Visual%20C++%20in%20Visual%20Studio%202015.md), [C#](../Topic/C%23.md), [VB](../Topic/Visual%20Basic.md), [JavaScript](../Topic/JavaScript%20Language%20Reference.md), [F#](../Topic/F%23%20Language%20Reference.md), [Python](http://pytools.codeplex.com/documentation), and Java.|  
   
  Welcome to Visual Studio! We’ve got everything you need to create great apps for devices or desktop apps, for the web and in the cloud. Write code for iOS, Android, and Windows in one IDE. Get great IntelliSense, easy code navigation, fast builds, and quick deployment. Visual Studio increases your productivity and makes it easy to do your work alone or as part of a larger team.  
   
@@ -35,21 +35,21 @@ caps.latest.revision: 5
  Find [existing extensions for the VS IDE](https://visualstudiogallery.msdn.microsoft.com/) created by Microsoft developers as well as our development community.  
   
 ## Build apps for Android, iOS, and Windows  
- You can use Visual Studio to build apps for Android, iOS, and Windows devices. Learn more about it at [Cross-Platform Mobile Development](../Topic/Cross-Platform%20Mobile%20Development%20in%20Visual%20Studio.md).  
+ You can use Visual Studio to build apps for Android, iOS, and Windows devices. Learn more about it at [Cross-Platform Mobile Development](../crossplatform/cross-platform-mobile-development-in-visual-studio.md).  
   
  For information about Universal Windows Apps (UWP), see [Universal Windows Apps](https://dev.windows.com/en-us/windows-apps).  
   
  Choose the tools you need based on your app requirements and the language you want to use.  
   
-1.  [Xamarin for Visual Studio](../Topic/Build%20apps%20with%20native%20UI%20using%20Xamarin%20in%20Visual%20Studio.md): A common code base in C# for all devices  
+1.  [Xamarin for Visual Studio](../crossplatform/build-apps-with-native-ui-using-xamarin-in-visual-studio.md): A common code base in C# for all devices  
   
 2.  [Apache Cordova with Visual Studio](../Topic/Get%20Started%20with%20Visual%20Studio%20Tools%20for%20Apache%20Cordova1.md): A common code base for HTML, CSS, and JavaScript or Typescript  
   
-3.  [Visual Studio Tools for Unity](../Topic/Visual%20Studio%20Tools%20for%20Unity.md): 2D/3D game development in C#  
+3.  [Visual Studio Tools for Unity](../crossplatform/visual-studio-tools-for-unity.md): 2D/3D game development in C#  
   
-4.  [C++ for Cross-Platform Development](../Topic/Visual%20C++%20for%20Cross-Platform%20Mobile%20Development.md): Shared code libraries and apps in C++  
+4.  [C++ for Cross-Platform Development](../crossplatform/visual-c---for-cross-platform-mobile-development.md): Shared code libraries and apps in C++  
   
-5.  [Visual Studio Emulator for Android](../Topic/Visual%20Studio%20Emulator%20for%20Android.md): Visual Studio Emulator for Android: Debug and test your Android apps no matter the IDE  
+5.  [Visual Studio Emulator for Android](../crossplatform/visual-studio-emulator-for-android.md): Visual Studio Emulator for Android: Debug and test your Android apps no matter the IDE  
   
 ## Connect your apps to services  
  You can connect to these services out of the box (assuming that you have an account for each service):  
@@ -85,7 +85,7 @@ caps.latest.revision: 5
 |-|-|-|-|  
 |[What’s new in Visual Studio 2015](../ide/what-s-new-in-visual-studio-2015.md)|[What's New for Visual C#](../Topic/What's%20New%20for%20Visual%20C%23.md)|[What’s new for .NET Framework 4.6](../Topic/What's%20New%20in%20the%20.NET%20Framework.md)|[What’s new for ALM](http://msdn.microsoft.com/en-us/54b98a53-6083-4303-869a-8063d8fae938)|  
 |[What’s new for C++](../Topic/What's%20New%20for%20Visual%20C++%20in%20Visual%20Studio%202015.md)|[What's New for Visual Basic](../Topic/What's%20New%20for%20Visual%20Basic.md)|[What’s new for JavaScript](../Topic/What's%20New%20in%20JavaScript.md)||  
-|[Python](../Topic/Getting%20Started%20with%20Python.md)||||  
+|[Python](../python/getting-started-with-python.md)||||  
   
 ## In this section  
   
@@ -99,7 +99,7 @@ caps.latest.revision: 5
   
 5.  [Extensibility in Visual Studio](../extensibility/extensibility-in-visual-studio.md)  
   
-6.  [Cross-Platform Mobile Development](../Topic/Cross-Platform%20Mobile%20Development%20in%20Visual%20Studio.md)  
+6.  [Cross-Platform Mobile Development](../crossplatform/cross-platform-mobile-development-in-visual-studio.md)  
   
 7.  [C# and Visual Basic Shared Programming Concepts](../Topic/C%23%20and%20Visual%20Basic%20Shared%20Programming%20Concepts.md)  
   
@@ -107,7 +107,7 @@ caps.latest.revision: 5
   
 9. [JavaScript](../Topic/JavaScript%20in%20Visual%20Studio.md)  
   
-10. [Python](../Topic/Getting%20Started%20with%20Python.md)  
+10. [Python](../python/getting-started-with-python.md)  
   
 11. [Visual F#](../Topic/Visual%20F%23.md)  
   
@@ -115,4 +115,4 @@ caps.latest.revision: 5
   
 13. [DevOps and Application Lifecycle Management](../Topic/DevOps%20and%20Application%20Lifecycle%20Management.md)  
   
-14. [Talk to Us](../Topic/Talk%20to%20Us.md)
+14. [Talk to Us](../ide/talk-to-us.md)

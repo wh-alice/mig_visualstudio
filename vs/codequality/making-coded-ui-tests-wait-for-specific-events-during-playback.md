@@ -1,13 +1,13 @@
 ---
 title: "Making Coded UI Tests Wait For Specific Events During Playback"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-devops-test"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 41981ad6-673e-492e-b739-9863b14157b1
 caps.latest.revision: 24

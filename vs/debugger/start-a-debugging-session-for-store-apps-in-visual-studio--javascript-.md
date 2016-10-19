@@ -1,13 +1,13 @@
 ---
 title: "Start a debugging session for Store Apps in Visual Studio (JavaScript)"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.debug.installedapppackagelauncher"
@@ -43,7 +43,7 @@ translation.priority.mt:
  This topic describes how to start a debugging session for Windows Store apps written in JavaScript and HTML5. You can start debugging with a single keystroke, or you can configure the debugging session for specific scenarios and then choose the way to start the app.  
   
 > [!NOTE]
->  For apps written in XAML and Visual C#, Visual C++, or Visual Basic, see [Start a debug session (VB, C#, C++ and XAML)](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio--vb--csharp--c---and-xaml-.md)  
+>  For apps written in XAML and Visual C#, Visual C++, or Visual Basic, see [Start a debug session (VB, C#, C++ and XAML)](../debugger/66ec0e79-8261-4c19-a618-3fd1b3f71bbd.md)  
   
 ##  <a name="BKMK_In_this_topic"></a> In this topic  
  [In this topic](#BKMK_In_this_topic)  
@@ -179,12 +179,12 @@ translation.priority.mt:
   
  The app starts in debug mode. Execution continues until a breakpoint is reached, you manually suspend execution, an unhandled exception occurs, or the app ends.  
   
- . For more information about debugging background tasks, see [Trigger suspend, resume, and background events for Windows Store)](../debugger/how-to-trigger-suspend--resume--and-background-events-for-windows-store-apps-in-visual-studio.md).  
+ . For more information about debugging background tasks, see [Trigger suspend, resume, and background events for Windows Store)](../debugger/824ff3ca-fedf-4cf5-b3e2-ac8dc82d40ac.md).  
   
 ##  <a name="BKMK_Start_an_installed_app_in_the_debugger"></a> Start an installed app in the debugger  
  When you start debugging by using F5, Visual Studio builds and deploys the app, sets the app to run in debug mode, and then starts it. To start an app that is already installed on a device, use the Debug Installed App Package dialog box. This procedure is useful when you need to debug an app that was installed from the Windows store, or when you have the source files for the app, but you do not have a Visual Studio project for the app. For example, you might have a custom build system that does not use Visual Studio projects or solutions.  
   
- The app can be installed on the local device, or it can be on a remote device.  You can start the app immediately, or you can set it to run in the debugger when it is started by another process or method, such as from the Start menu or by an activation contract, You can also set the app to run in debug mode when you want to debug a background process without starting the app. For more information, see [Trigger suspend, resume, and background events for Windows Store)](../debugger/how-to-trigger-suspend--resume--and-background-events-for-windows-store-apps-in-visual-studio.md).  
+ The app can be installed on the local device, or it can be on a remote device.  You can start the app immediately, or you can set it to run in the debugger when it is started by another process or method, such as from the Start menu or by an activation contract, You can also set the app to run in debug mode when you want to debug a background process without starting the app. For more information, see [Trigger suspend, resume, and background events for Windows Store)](../debugger/824ff3ca-fedf-4cf5-b3e2-ac8dc82d40ac.md).  
   
  To set an installed app to run in debug mode, do this:  
   
@@ -272,5 +272,5 @@ translation.priority.mt:
 ## See Also  
  [Control execution in a debug session (JavaScript)](../debugger/60159535-61ec-466a-a4a6-115ec72a8af5.md)   
  [Quickstart: Debug HTML and CSS](../debugger/quickstart--debug-html-and-css.md)   
- [Trigger suspend, resume, and background events for Windows Store)](../debugger/how-to-trigger-suspend--resume--and-background-events-for-windows-store-apps-in-visual-studio.md)   
+ [Trigger suspend, resume, and background events for Windows Store)](../debugger/824ff3ca-fedf-4cf5-b3e2-ac8dc82d40ac.md)   
  [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md)

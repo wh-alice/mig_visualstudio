@@ -1,11 +1,11 @@
 ---
 title: "FinalState Activity Designer"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/02/2016"
 ms.prod: ".net-framework-4.6"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "reference"
 ms.assetid: aa186893-8775-40dd-981f-8593ead831d0
 caps.latest.revision: 5

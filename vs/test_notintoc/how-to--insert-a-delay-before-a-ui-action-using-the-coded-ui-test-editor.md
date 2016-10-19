@@ -1,11 +1,11 @@
 ---
 title: "How to: Insert a Delay Before a UI Action Using the Coded UI Test Editor"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/01/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 509f8ef7-e105-4049-b11b-d64549e055b0
 caps.latest.revision: 9

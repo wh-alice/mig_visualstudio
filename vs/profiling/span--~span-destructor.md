@@ -1,20 +1,20 @@
 ---
 title: "span::~span Destructor"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "cvmarkersobj/Concurrency::diagnostic::span::~span"
 helpviewer_keywords: 
   - "Concurrency::diagnostic::span::~span destructor"
 ms.assetid: 9ff61542-9be7-4e81-bfe5-5d2c6eb112c1
-caps.latest.revision: 4
+caps.latest.revision: 5
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -46,3 +46,6 @@ Destroys the `span` object and releases its resources.
  **Header:** cvmarkersobj.h  
   
  **Namespace:** Concurrency::diagnostic
+ 
+ ## See Also
+ [span Class](../profiling/span-class.md)

@@ -1,11 +1,11 @@
 ---
 title: "Properties of Domain Roles"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5a7bb18c-638e-45e8-9d79-9aa6a9e14b0e
 caps.latest.revision: 9

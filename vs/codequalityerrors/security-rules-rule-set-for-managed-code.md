@@ -1,13 +1,13 @@
 ---
 title: "Security Rules rule set for managed code"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-devops-test"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 564aeac6-03fa-41b0-b655-88179f0ab01b
 caps.latest.revision: 9
@@ -59,20 +59,20 @@ You should include the Microsoft Security Rules rule set to maximize the number 
 |[CA2126](../codequality/ca2126--type-link-demands-require-inheritance-demands.md)|Type link demands require inheritance demands|  
 |[CA2130](../codequality/ca2130--security-critical-constants-should-be-transparent.md)|Security critical constants should be transparent|  
 |[CA2131](../codequality/ca2131--security-critical-types-may-not-participate-in-type-equivalence.md)|Security critical types may not participate in type equivalence|  
-|[CA2132](../codequality/ca2132--default-constructors-must-be-at-least-as-critical-as-base-type-default-constructors.md)|Default constructors must be at least as critical as base type default constructors|  
+|[CA2132](../codequality/e758afa1-8bde-442a-8a0a-bd1ea7b0ce4d.md)|Default constructors must be at least as critical as base type default constructors|  
 |[CA2133](../codequality/ca2133--delegates-must-bind-to-methods-with-consistent-transparency.md)|Delegates must bind to methods with consistent transparency|  
 |[CA2134](../codequality/ca2134--methods-must-keep-consistent-transparency-when-overriding-base-methods.md)|Methods must keep consistent transparency when overriding base methods|  
 |[CA2135](../codequality/ca2135--level-2-assemblies-should-not-contain-linkdemands.md)|Level 2 assemblies should not contain LinkDemands|  
 |[CA2136](../codequality/ca2136--members-should-not-have-conflicting-transparency-annotations.md)|Members should not have conflicting transparency annotations|  
 |[CA2137](../codequality/ca2137--transparent-methods-must-contain-only-verifiable-il.md)|Transparent methods must contain only verifiable IL|  
-|[CA2138](../codequality/ca2138--transparent-methods-must-not-call-methods-with-the-suppressunmanagedcodesecurity-attribute.md)|Transparent methods must not call methods with the SuppressUnmanagedCodeSecurity attribute|  
-|[CA2139](../codequality/ca2139--transparent-methods-may-not-use-the-handleprocesscorruptingexceptions-attribute.md)|Transparent methods may not use the HandleProcessCorruptingExceptions attribute|  
+|[CA2138](../codequality/a14c4d32-f079-4f3a-956c-a1657cde0f66.md)|Transparent methods must not call methods with the SuppressUnmanagedCodeSecurity attribute|  
+|[CA2139](../codequality/45a0328a-add7-40f9-8934-dff59beb02b3.md)|Transparent methods may not use the HandleProcessCorruptingExceptions attribute|  
 |[CA2140](../codequality/ca2140--transparent-code-must-not-reference-security-critical-items.md)|Transparent code must not reference security critical items|  
 |[CA2141](../codequality/ca2141-transparent-methods-must-not-satisfy-linkdemands.md)|Transparent methods must not satisfy LinkDemands|  
 |[CA2142](../codequality/ca2142--transparent-code-should-not-be-protected-with-linkdemands.md)|Transparent code should not be protected with LinkDemands|  
 |[CA2143](../codequality/ca2143--transparent-methods-should-not-use-security-demands.md)|Transparent methods should not use security demands|  
 |[CA2144](../codequality/ca2144--transparent-code-should-not-load-assemblies-from-byte-arrays.md)|Transparent code should not load assemblies from byte arrays|  
-|[CA2145](../codequality/ca2145--transparent-methods-should-not-be-decorated-with-the-suppressunmanagedcodesecurityattribute.md)|Transparent methods should not be decorated with the SuppressUnmanagedCodeSecurityAttribute|  
+|[CA2145](../codequality/81970700-b438-4b3b-9239-16887e16f7b7.md)|Transparent methods should not be decorated with the SuppressUnmanagedCodeSecurityAttribute|  
 |[CA2146](../codequality/ca2146--types-must-be-at-least-as-critical-as-their-base-types-and-interfaces.md)|Types must be at least as critical as their base types and interfaces|  
 |[CA2147](../codequality/ca2147--transparent-methods-may-not-use-security-asserts.md)|Transparent methods may not use security asserts|  
 |[CA2149](../codequality/ca2149--transparent-methods-must-not-call-into-native-code.md)|Transparent methods must not call into native code|  

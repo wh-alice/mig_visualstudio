@@ -1,11 +1,11 @@
 ---
 title: "Add new data sources"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.datasource.datasourcefieldspicker"
@@ -88,7 +88,7 @@ In the context of .NET data tools in Visual Studio, the term *data source* refer
   
 -   WCF Data Services. For more information, see [Overview](../Topic/WCF%20Data%20Services%20Overview.md).  
   
--   WCF data services. For more information, see [Windows Communication Foundation Services and WCF Data Services in Visual Studio](../datatools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md).  
+-   WCF data services. For more information, see [Windows Communication Foundation Services and WCF Data Services in Visual Studio](../datatools/d56f12cb-e139-4fec-b3e4-488383356642.md).  
   
 -   Web services.  
   

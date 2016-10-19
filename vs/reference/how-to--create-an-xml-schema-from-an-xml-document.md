@@ -1,13 +1,13 @@
 ---
 title: "How to: Create an XML Schema from an XML Document"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1d6700a9-fd67-4794-8997-399589e99bec
 caps.latest.revision: 2

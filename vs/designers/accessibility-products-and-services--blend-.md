@@ -1,13 +1,13 @@
 ---
 title: "Accessibility products and services (Blend)"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ba8557f6-231a-4d8b-80dd-80397e87a17f
 caps.latest.revision: 9

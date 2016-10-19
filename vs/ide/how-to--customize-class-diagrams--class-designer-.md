@@ -1,13 +1,13 @@
 ---
 title: "How to: Customize Class Diagrams (Class Designer)"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "class diagrams, customizing"
@@ -159,6 +159,6 @@ You can change the way that class diagrams display information. You can customiz
   
 ## See Also  
  [Working with Class Diagrams (Class Designer)](../ide/working-with-class-diagrams--class-designer-.md)   
- [How to: Change Between Member Notation and Association Notation (Class Designer)](../ide/how-to--change-between-member-notation-and-association-notation--class-designer-.md)   
+ [How to: Change Between Member Notation and Association Notation (Class Designer)](../ide/65881c5a-d251-4a36-ad0d-73d088436092.md)   
  [How to: View Existing Types (Class Designer)](../ide/how-to--view-existing-types--class-designer-.md)   
  [Viewing Types and Relationships (Class Designer)](../ide/viewing-types-and-relationships--class-designer-.md)

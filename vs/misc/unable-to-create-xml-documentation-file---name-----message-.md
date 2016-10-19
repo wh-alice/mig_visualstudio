@@ -1,13 +1,13 @@
 ---
 title: "Unable to create XML documentation file &#39;&lt;name&gt;&#39;: &lt;message&gt;"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bc42311"
@@ -49,7 +49,7 @@ The XML documentation file cannot be created due to an error.
   
 -   [XML comment tag 'returns' is not permitted on a 'declare sub' language element](../misc/xml-comment-tag--returns--is-not-permitted-on-a--declare-sub--language-element.md).  
   
--   [XML documentation parse error: Start tag '\<tag>' doesn't have a matching end tag](../misc/xml-documentation-parse-error--start-tag---tag---doesn-t-have-a-matching-end-tag.md).  
+-   [XML documentation parse error: Start tag '\<tag>' doesn't have a matching end tag](../misc/45b68176-ebf6-43af-820e-6801aabb6c57.md).  
   
 -   [XML comment type parameter \<parameter> does not match a type parameter on the corresponding \<keyword> statement](../misc/53b5425d-2f73-4488-b90b-adb1835307c9.md).  
   

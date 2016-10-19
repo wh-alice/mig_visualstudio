@@ -1,13 +1,13 @@
 ---
 title: "Application Page, Project Designer (C#)"
-ms.custom: na
-ms.date: "10/15/2016"
+ms.custom: ""
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "cs.ProjectPropertiesApplicationWPF"
@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "Project Designer, Application page"
   - "Application page in Project Designer"
 ms.assetid: f13701a8-4e2e-4474-9d60-bb43decbe0c1
-caps.latest.revision: 55
+caps.latest.revision: 56
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -111,4 +111,5 @@ Use the **Application** page of the **Project Designer** to specify the project'
  Enter a path name or use the Browse button (**...**) to add a Win32 resource file to the project.  
   
 ## See Also  
+[Managing Application Properties](../ide/application-properties.md)  
  [Writing Code in Office Solutions](../Topic/Writing%20Code%20in%20Office%20Solutions.md)

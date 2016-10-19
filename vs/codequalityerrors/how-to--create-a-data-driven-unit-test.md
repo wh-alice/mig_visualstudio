@@ -1,13 +1,13 @@
 ---
 title: "How To: Create a Data-Driven Unit Test"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-devops-test"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.test.testresults.unittest.datadriven"
@@ -202,4 +202,4 @@ int x = Convert.ToInt32(TestContext.DataRow["FirstNumber"]);
  [How to: Create and Run a Unit Test](http://msdn.microsoft.com/en-us/5e0f43cf-5e51-48e2-9c98-0eb9324bdc48)   
  [Unit Test Your Code](../codequality/unit-test-your-code.md)   
  [Run unit tests with Test Explorer](../codequality/run-unit-tests-with-test-explorer.md)   
- [Writing Unit Tests for the .NET Framework with the Microsoft Unit Test Framework for Managed Code](../codequality/writing-unit-tests-for-the-.net-framework-with-the-microsoft-unit-test-framework-for-managed-code.md)
+ [Writing Unit Tests for the .NET Framework with the Microsoft Unit Test Framework for Managed Code](../codequality/fbeba971-c468-4429-8017-0f12ab55638c.md)

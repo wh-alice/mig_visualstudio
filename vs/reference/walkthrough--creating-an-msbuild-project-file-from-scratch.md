@@ -1,18 +1,18 @@
 ---
 title: "Walkthrough: Creating an MSBuild Project File from Scratch"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "MSBuild, tutorial"
 ms.assetid: e3acff7c-cb4e-4ae1-8be2-a871bcff847b
-caps.latest.revision: 19
+caps.latest.revision: 20
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -491,4 +491,5 @@ Programming languages that target the .NET Framework use MSBuild project files t
  Visual Studio can automatically do much of the work that is shown in this walkthrough. To learn how to use Visual Studio to create, edit, build, and test MSBuild project files, see [Walkthrough: Using MSBuild](../reference/walkthrough--using-msbuild.md).  
   
 ## See Also  
+[MSBuild Overview](../reference/msbuild1.md)  
  [MSBuild Reference](../reference/msbuild-reference.md)

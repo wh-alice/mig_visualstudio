@@ -1,10 +1,10 @@
 ---
 title: "Color Theming Tools"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 89ab5741-c664-4b45-8662-3dd01a5761be
 caps.latest.revision: 3

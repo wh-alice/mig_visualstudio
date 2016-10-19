@@ -1,13 +1,13 @@
 ---
 title: "Publishing ClickOnce Applications"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-deployment"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "Microsoft.VisualStudio.Publish.ClickOnceProvider.Dialog.Options"
@@ -90,7 +90,7 @@ When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
 |[How to: Change the Publish Language for a ClickOnce Application](../deployment/how-to--change-the-publish-language-for-a-clickonce-application.md)|Describes how to specify a language and culture to match the localized version.|  
 |[How to: Specify a Start Menu Name for a ClickOnce Application](../deployment/how-to--specify-a-start-menu-name-for-a-clickonce-application.md)|Describes how to change the display name for a ClickOnce application.|  
 |[How to: Specify a Link for Technical Support](../deployment/how-to--specify-a-link-for-technical-support.md)|Describes how to set the **Support URL** property, which identifies a Web page or file share where users can go to get information about the application.|  
-|[How to: Specify a Support URL for Individual Prerequisites in a ClickOnce Deployment](../deployment/how-to--specify-a-support-url-for-individual-prerequisites-in-a-clickonce-deployment.md)|Demonstrated how to manually alter an application manifest to include individual support URLs for each prerequisite.|  
+|[How to: Specify a Support URL for Individual Prerequisites in a ClickOnce Deployment](../deployment/590742c3-a286-4160-aa75-7a441bb2207b.md)|Demonstrated how to manually alter an application manifest to include individual support URLs for each prerequisite.|  
 |[How to: Specify a Publish Page for a ClickOnce Application](../deployment/how-to--specify-a-publish-page-for-a-clickonce-application.md)|Describes how to generate and publish a default Web page (publish.htm) along with the application|  
 |[How to: Customize the ClickOnce Default Web Page](../deployment/how-to--customize-the-default-web-page-for-a-clickonce-application.md)|Describes how to customize the Web page that is automatically generated and published along with the application.|  
 |[How to: Enable AutoStart for CD Installations](../deployment/how-to--enable-autostart-for-cd-installations.md)|Describes how to enable AutoStart so that the ClickOnce application is automatically launched when the media is inserted.|  
@@ -103,9 +103,9 @@ When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
 |[How to: Retrieve Query String Information in an Online ClickOnce Application](../deployment/how-to--retrieve-query-string-information-in-an-online-clickonce-application.md)|Demonstrates how to retrieve parameters passed in the URL used to run a ClickOnce application.|  
 |[How to: Disable URL Activation of ClickOnce Applications by Using the Designer](../deployment/how-to--disable-url-activation-of-clickonce-applications-by-using-the-designer.md)|Describes how to force users to start the application from the **Start** menu by using the designer.|  
 |[How to: Disable URL Activation of ClickOnce Applications](../deployment/how-to--disable-url-activation-of-clickonce-applications.md)|Describes how to force users to start the application from the **Start** menu.|  
-|[Walkthrough: Downloading Assemblies on Demand with the ClickOnce Deployment API Using the Designer](../deployment/walkthrough--downloading-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer.md)|Explains how to download application assemblies only when they are first used by the application using the designer.|  
+|[Walkthrough: Downloading Assemblies on Demand with the ClickOnce Deployment API Using the Designer](../deployment/59a0dd5f-1cab-4f2f-b780-0ab7399905d5.md)|Explains how to download application assemblies only when they are first used by the application using the designer.|  
 |[Walkthrough: Downloading Assemblies on Demand with the ClickOnce Deployment API](../deployment/walkthrough--downloading-assemblies-on-demand-with-the-clickonce-deployment-api.md)|Explains how to download application assemblies only when they are first used by the application.|  
-|[Walkthrough: Downloading Satellite Assemblies on Demand with the ClickOnce Deployment API](../deployment/walkthrough--downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api.md)|Describes how to mark your satellite assemblies as optional, and download only the assembly a client machine needs for its current culture settings.|  
+|[Walkthrough: Downloading Satellite Assemblies on Demand with the ClickOnce Deployment API](../deployment/fdaa553f-a27e-44eb-a4e2-08c122105a87.md)|Describes how to mark your satellite assemblies as optional, and download only the assembly a client machine needs for its current culture settings.|  
 |[Walkthrough: Manually Deploying a ClickOnce Application](../deployment/walkthrough--manually-deploying-a-clickonce-application.md)|Explains how to use .NET Framework utilities to deploy your ClickOnce application.|  
 |[Walkthrough: Manually Deploying a ClickOnce Application that Does Not Require Re-Signing and that Preserves Branding Information](../deployment/c21822fb-d4ee-42e4-b72d-41ee9786efe5.md)|Explains how to use .NET Framework utilities to deploy your ClickOnce application without re-signing the manifests.|  
 |[NIB: How to: Optimize an Application for a Specific CPU Type](http://msdn.microsoft.com/en-us/294a75d2-4279-4b72-8298-2bea05be907a)|Explains how to publish for a 64-bit processor by changing the **Target CPU** or **Platform target** property in your project.|  

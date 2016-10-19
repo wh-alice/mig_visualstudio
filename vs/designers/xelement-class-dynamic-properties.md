@@ -1,13 +1,13 @@
 ---
 title: "XElement Class Dynamic Properties"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a9795dba-2afc-45f7-9b53-c6c67a23c40b
 caps.latest.revision: 2

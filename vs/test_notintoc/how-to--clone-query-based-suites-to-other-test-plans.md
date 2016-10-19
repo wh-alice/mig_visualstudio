@@ -1,11 +1,11 @@
 ---
 title: "How to: Clone Query-Based Suites to Other Test Plans"
-ms.custom: na
+ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a7c17dfb-1ba2-4040-8d17-4cabc925b009
 caps.latest.revision: 10

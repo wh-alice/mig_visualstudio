@@ -1,13 +1,13 @@
 ---
 title: "Profiling Tools Usage Rules"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: afa7db3b-8c1d-473a-81ac-24ede112a17f
 caps.latest.revision: 9

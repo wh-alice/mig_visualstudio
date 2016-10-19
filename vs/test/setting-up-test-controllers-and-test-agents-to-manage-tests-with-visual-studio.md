@@ -1,11 +1,11 @@
 ---
 title: "Setting Up Test Controllers and Test Agents to Manage Tests with Visual Studio"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/13/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5bed0c00-cb8d-456c-a889-66cb55c0e2fc
 caps.latest.revision: 35
@@ -29,7 +29,7 @@ translation.priority.ht:
 # Setting Up Test Controllers and Test Agents to Manage Tests with Visual Studio
 This topic describes how to install and configure test controllers, if you're using Agents for Microsoft Visual Studio 2013, and test agents so you can manage tests in Visual Studio without using Microsoft Test Manager. If you want to set up test controllers for a lab environment using Microsoft Test Manager, see [Setting Up Test Controllers in Lab Environments](../test/setting-up-test-controllers-in-lab-environments.md).  
   
- After you set up your test controllers and test agents, you can assign roles to them in a test setting. You must do this if you are going to distribute tests to multiple machines using Visual Studio. For information about how to assign roles to test controllers and test agents, see [Assigning Roles to a Test Controller and Test Agent for Automated Testing in Visual Studio](../test/assigning-roles-to-a-test-controller-and-test-agent-for-automated-testing-in-visual-studio.md).  
+ After you set up your test controllers and test agents, you can assign roles to them in a test setting. You must do this if you are going to distribute tests to multiple machines using Visual Studio. For information about how to assign roles to test controllers and test agents, see [Assigning Roles to a Test Controller and Test Agent for Automated Testing in Visual Studio](../test/57ed43ae-4e67-4139-8aec-3e9fceb0a745.md).  
   
  These sections describe how to install and configure test controllers and test agents for testing in Visual Studio:  
   
@@ -292,7 +292,7 @@ This topic describes how to install and configure test controllers, if you're us
   
 ## See Also  
  [Install and configure test agents](../test/install-and-configure-test-agents.md)   
- [Assigning Roles to a Test Controller and Test Agent for Automated Testing in Visual Studio](../test/assigning-roles-to-a-test-controller-and-test-agent-for-automated-testing-in-visual-studio.md)   
+ [Assigning Roles to a Test Controller and Test Agent for Automated Testing in Visual Studio](../test/57ed43ae-4e67-4139-8aec-3e9fceb0a745.md)   
  [How to: Set Up Your Test Agent to Run Tests that Interact with the Desktop](../test/how-to--set-up-your-test-agent-to-run-tests-that-interact-with-the-desktop.md)   
  [Configuring Ports for Test Controllers and Test Agents](../test/configuring-ports-for-test-controllers-and-test-agents.md)   
  [How to: Specify Timeout Periods for Test Controllers and Test Agents](../test/how-to--specify-timeout-periods-for-test-controllers-and-test-agents.md)

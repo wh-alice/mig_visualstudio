@@ -1,13 +1,13 @@
 ---
 title: "Memory and Paging Performance Rules"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f37972b2-efe4-4a1c-a5d1-a246ccd76817
 caps.latest.revision: 8

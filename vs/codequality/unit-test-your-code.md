@@ -1,13 +1,13 @@
 ---
 title: "Unit Test Your Code"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-devops-test"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Visual Studio, unit tests"
@@ -56,7 +56,7 @@ Unit tests give developers and testers a quick way to look for logic errors in t
 |-----------|-----------------------|  
 |**Quick starts and walkthroughs:** Use the following topics to learn unit testing in Visual Studio from code examples.|-   [Walkthrough: Creating and Running Unit Tests for Managed Code](../codequality/walkthrough--creating-and-running-unit-tests-for-managed-code.md)<br />-   [Quick Start: Test Driven Development with Test Explorer](../codequality/quick-start--test-driven-development-with-test-explorer.md)<br />-   [Adding unit tests to existing C++ applications](../codequality/unit-testing-existing-c---applications-with-test-explorer.md)<br />-   [Unit testing native code with Test Explorer](http://msdn.microsoft.com/en-us/8a09d6d8-3613-49d8-9ffe-11375ac4736c)|  
 |**Unit testing with Test Explorer:** Learn how Test Explorer can help create more productive and efficient unit tests.|-   [Unit Test Basics](../codequality/unit-test-basics.md)<br />-   [Create a unit test project](../codequality/create-a-unit-test-project.md)<br />-   [Run unit tests with Test Explorer](../codequality/run-unit-tests-with-test-explorer.md)<br />-   [Install third-party unit test frameworks](../codequality/install-third-party-unit-test-frameworks.md)<br />-   [Upgrading Unit Tests from Visual Studio 2010](http://msdn.microsoft.com/en-us/9bb75856-f68a-4de2-a084-b08a947a1172)|  
-|**Unit testing managed code:**|-   [Writing Unit Tests for the .NET Framework with the Microsoft Unit Test Framework for Managed Code](../codequality/writing-unit-tests-for-the-.net-framework-with-the-microsoft-unit-test-framework-for-managed-code.md)|  
+|**Unit testing managed code:**|-   [Writing Unit Tests for the .NET Framework with the Microsoft Unit Test Framework for Managed Code](../codequality/fbeba971-c468-4429-8017-0f12ab55638c.md)|  
 |**Unit testing C++ code**|-   [Writing Unit tests for C/C++ with the Microsoft Unit Testing Framework for C++](../codequality/writing-unit-tests-for-c-c---with-the-microsoft-unit-testing-framework-for-c--.md)|  
 |**Isolating unit tests**|-   [Isolating Code Under Test with Microsoft Fakes](../codequality/isolating-code-under-test-with-microsoft-fakes.md)|  
 |**Use code coverage to identify what proportion of your project's code is being tested using unit tests:** Learn about the code coverage feature of [!INCLUDE[vsprvsts](../codequality/includes/vsprvsts_md.md)] testing tools.|-   [Using Code Coverage to Determine How Much Code is being Tested](../codequality/using-code-coverage-to-determine-how-much-code-is-being-tested.md)|  

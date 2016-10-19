@@ -1,13 +1,13 @@
 ---
 title: "VsgDbg::VsgDbg (Constructor)"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 670651e6-5e79-4845-b0c2-671beb7055a8
 caps.latest.revision: 4

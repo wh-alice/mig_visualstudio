@@ -1,13 +1,13 @@
 ---
 title: "Specifying the Path to Profiling Tools Command Line Tools"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7047bf18-5779-4f6e-872c-66e2fc47c969
 caps.latest.revision: 9

@@ -1,11 +1,11 @@
 ---
 title: "Creating a Windows Forms-Based Domain-Specific Language"
-ms.custom: na
-ms.date: "10/14/2016"
+ms.custom: ""
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 452318ff-8ecf-46d0-8ca0-4013d0cdafaf
 caps.latest.revision: 17

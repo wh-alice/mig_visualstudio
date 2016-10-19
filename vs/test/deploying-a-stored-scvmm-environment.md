@@ -1,11 +1,11 @@
 ---
 title: "Deploying a Stored SCVMM Environment"
-ms.custom: na
+ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7b15cafa-5dd4-40a3-822c-2ba0308000b9
 caps.latest.revision: 10

@@ -1,13 +1,13 @@
 ---
 title: "How to: Program Copy and Paste Behavior - redirect"
-ms.custom: na
-ms.date: "10/13/2016"
+ms.custom: ""
+ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 04445417-65c1-4938-9db3-79a40aa5d56d
 caps.latest.revision: 6
