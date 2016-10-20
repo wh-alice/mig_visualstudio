@@ -68,12 +68,12 @@ translation.priority.mt:
 ## Example  
  The following example contains a type that correctly implements <xref:System.IComparable>. Code comments identify the methods that satisfy various rules that are related to <xref:System.Object.Equals*> and the <xref:System.IComparable> interface.  
   
- [!code[FxCop.Design.IComparable#1](../code-quality/codesnippet/CSharp/ca1036--override-methods-on-comparable-types_1.cs)]  
+ [!CODE [FxCop.Design.IComparable#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Design.IComparable#1)]  
   
 ## Example  
  The following application tests the behavior of the <xref:System.IComparable> implementation that was shown earlier.  
   
- [!code[FxCop.Design.TestIComparable#1](../code-quality/codesnippet/CSharp/ca1036--override-methods-on-comparable-types_2.cs)]  
+ [!CODE [FxCop.Design.TestIComparable#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Design.TestIComparable#1)]  
   
 ## See Also  
  <xref:System.IComparable?displayProperty=fullName>   

@@ -60,9 +60,7 @@ translation.priority.mt:
 ## Example  
  The following example shows two enumerations that satisfy the rule and an enumeration, `BadTraceOptions`, that violates the rule.  
   
- [!code[FxCop.Design.EnumsZeroValue#1](../code-quality/codesnippet/CPP/ca1008--enums-should-have-zero-value_1.cpp)]
-[!code[FxCop.Design.EnumsZeroValue#1](../code-quality/codesnippet/CSharp/ca1008--enums-should-have-zero-value_1.cs)]
-[!code[FxCop.Design.EnumsZeroValue#1](../code-quality/codesnippet/VisualBasic/ca1008--enums-should-have-zero-value_1.vb)]  
+ [!CODE [FxCop.Design.EnumsZeroValue#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Design.EnumsZeroValue#1)]  
   
 ## Related Rules  
  [CA2217: Do not mark enums with FlagsAttribute](../code-quality/ca2217--do-not-mark-enums-with-flagsattribute.md)  

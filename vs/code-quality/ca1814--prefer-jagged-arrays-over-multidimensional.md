@@ -57,5 +57,4 @@ translation.priority.ht:
 ## Example  
  The following example shows declarations for jagged and multidimensional arrays.  
   
- [!code[FxCop.Performance.JaggedArrays#1](../code-quality/codesnippet/VisualBasic/ca1814--prefer-jagged-arrays-over-multidimensional_1.vb)]
-[!code[FxCop.Performance.JaggedArrays#1](../code-quality/codesnippet/CSharp/ca1814--prefer-jagged-arrays-over-multidimensional_1.cs)]
+ [!CODE [FxCop.Performance.JaggedArrays#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Performance.JaggedArrays#1)]

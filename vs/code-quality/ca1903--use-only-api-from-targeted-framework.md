@@ -69,12 +69,12 @@ translation.priority.ht:
 ## Example  
  The following example shows a class that uses the type DateTimeOffset that is only available in .NET 2.0 Service Pack 1. This example requires that .NET Framework 2.0 has been selected in the Target Framework drop-down list in the Project properties.  
   
- [!code[FxCop.Portability.UseOnlyApiFromTargetedFramework#1](../code-quality/codesnippet/CSharp/ca1903--use-only-api-from-targeted-framework_1.cs)]  
+ [!CODE [FxCop.Portability.UseOnlyApiFromTargetedFramework#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Portability.UseOnlyApiFromTargetedFramework#1)]  
   
 ## Example  
  The following example fixes the previously described violation by replacing usages of the DateTimeOffset type with the DateTime type.  
   
- [!code[FxCop.Portability.UseOnlyApiFromTargetedFramework2#1](../code-quality/codesnippet/CSharp/ca1903--use-only-api-from-targeted-framework_2.cs)]  
+ [!CODE [FxCop.Portability.UseOnlyApiFromTargetedFramework2#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Portability.UseOnlyApiFromTargetedFramework2#1)]  
   
 ## See Also  
  [Portability Warnings](../code-quality/portability-warnings.md)   

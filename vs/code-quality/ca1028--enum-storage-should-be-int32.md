@@ -60,8 +60,7 @@ translation.priority.ht:
  The following example shows two enumerations that do not use the recommended underlying data type.  
   
 ### Code  
- [!code[FxCop.Design.EnumIntegralType#1](../code-quality/codesnippet/VisualBasic/ca1028--enum-storage-should-be-int32_1.vb)]
-[!code[FxCop.Design.EnumIntegralType#1](../code-quality/codesnippet/CSharp/ca1028--enum-storage-should-be-int32_1.cs)]  
+ [!CODE [FxCop.Design.EnumIntegralType#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Design.EnumIntegralType#1)]  
   
 ## Example of How to Fix  
   
@@ -69,8 +68,7 @@ translation.priority.ht:
  The following example fixes the previous violation by changing the underlying data type to <xref:System.Int32>.  
   
 ### Code  
- [!code[FxCop.Design.EnumIntegralTypeFixed#1](../code-quality/codesnippet/CSharp/ca1028--enum-storage-should-be-int32_2.cs)]
-[!code[FxCop.Design.EnumIntegralTypeFixed#1](../code-quality/codesnippet/VisualBasic/ca1028--enum-storage-should-be-int32_2.vb)]  
+ [!CODE [FxCop.Design.EnumIntegralTypeFixed#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Design.EnumIntegralTypeFixed#1)]  
   
 ## Related Rules  
  [CA1008: Enums should have zero value](../code-quality/ca1008--enums-should-have-zero-value.md)  

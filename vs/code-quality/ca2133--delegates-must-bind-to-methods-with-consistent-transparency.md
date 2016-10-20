@@ -54,4 +54,4 @@ translation.priority.ht:
  Do not suppress a warning from this rule.  
   
 ### Code  
- [!code[FxCop.Security.CA2133.DelegatesMustBindWithConsistentTransparency#1](../code-quality/codesnippet/CSharp/ca2133--delegates-must-bind-to-methods-with-consistent-transparency_1.cs)]
+ [!CODE [FxCop.Security.CA2133.DelegatesMustBindWithConsistentTransparency#1](../CodeSnippet/VS_Snippets_CodeAnalysis/fxcop.security.ca2133.delegatesmustbindwithconsistenttransparency#1)]

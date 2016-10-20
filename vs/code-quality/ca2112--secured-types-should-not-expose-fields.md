@@ -59,17 +59,17 @@ translation.priority.ht:
   
  The following library code violates the rule.  
   
- [!code[FxCop.Security.LinkDemandOnField#1](../code-quality/codesnippet/CSharp/ca2112--secured-types-should-not-expose-fields_1.cs)]  
+ [!CODE [FxCop.Security.LinkDemandOnField#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Security.LinkDemandOnField#1)]  
   
 ## Example  
  The application cannot create an instance because of the link demand that protects the secured type. The following class enables the application to obtain an instance of the secured type.  
   
- [!code[FxCop.Security.LDOnFieldsDistributor#1](../code-quality/codesnippet/CSharp/ca2112--secured-types-should-not-expose-fields_2.cs)]  
+ [!CODE [FxCop.Security.LDOnFieldsDistributor#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Security.LDOnFieldsDistributor#1)]  
   
 ## Example  
  The following application illustrates how, without permission to access a secured type's methods, code can access its fields.  
   
- [!code[FxCop.Security.TestLinkDemandOnFields#1](../code-quality/codesnippet/CSharp/ca2112--secured-types-should-not-expose-fields_3.cs)]  
+ [!CODE [FxCop.Security.TestLinkDemandOnFields#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Security.TestLinkDemandOnFields#1)]  
   
  This example produces the following output.  
   

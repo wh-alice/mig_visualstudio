@@ -63,16 +63,12 @@ translation.priority.ht:
 ## Example  
  The following example shows two serializable types that violate the rule.  
   
- [!code[FxCop.Usage.ImplementISerializableCorrectly#1](../code-quality/codesnippet/CSharp/ca2240--implement-iserializable-correctly_1.cs)]
-[!code[FxCop.Usage.ImplementISerializableCorrectly#1](../code-quality/codesnippet/CPP/ca2240--implement-iserializable-correctly_1.cpp)]
-[!code[FxCop.Usage.ImplementISerializableCorrectly#1](../code-quality/codesnippet/VisualBasic/ca2240--implement-iserializable-correctly_1.vb)]  
+ [!CODE [FxCop.Usage.ImplementISerializableCorrectly#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Usage.ImplementISerializableCorrectly#1)]  
   
 ## Example  
  The following example fixes the two previous violations by providing an overrideable implementation of [ISerializable.GetObjectData](assetId:///ISerializable.GetObjectData?qualifyHint=False&autoUpgrade=False) on the Book class and by providing an implementation of assetId:///ISerializable.GetObjectData?qualifyHint=False&autoUpgrade=False on the Library class.  
   
- [!code[FxCop.Usage.ImplementISerializableCorrectly2#1](../code-quality/codesnippet/CPP/ca2240--implement-iserializable-correctly_2.cpp)]
-[!code[FxCop.Usage.ImplementISerializableCorrectly2#1](../code-quality/codesnippet/CSharp/ca2240--implement-iserializable-correctly_2.cs)]
-[!code[FxCop.Usage.ImplementISerializableCorrectly2#1](../code-quality/codesnippet/VisualBasic/ca2240--implement-iserializable-correctly_2.vb)]  
+ [!CODE [FxCop.Usage.ImplementISerializableCorrectly2#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Usage.ImplementISerializableCorrectly2#1)]  
   
 ## Related Rules  
  [CA2236: Call base class methods on ISerializable types](../code-quality/ca2236--call-base-class-methods-on-iserializable-types.md)  

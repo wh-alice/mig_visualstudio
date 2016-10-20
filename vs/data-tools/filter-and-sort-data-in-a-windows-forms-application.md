@@ -52,15 +52,13 @@ You filter data by setting the <xref:System.Windows.Forms.BindingSource.Filter*>
   
 -   Set the <xref:System.Windows.Forms.BindingSource.Filter*> property to the expression you want to return. For example, the following code returns customers with a `CompanyName` that starts with "B":  
   
-     [!code[VbRaddataDisplaying#6](../data-tools/codesnippet/CSharp/filter-and-sort-data-in-a-windows-forms-application_1.cs)]
-[!code[VbRaddataDisplaying#6](../data-tools/codesnippet/VisualBasic/filter-and-sort-data-in-a-windows-forms-application_1.vb)]  
+     [!CODE [VbRaddataDisplaying#6](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataDisplaying#6)]  
   
 ## To sort data by using a BindingSource component  
   
 -   Set the <xref:System.Windows.Forms.BindingSource.Sort*> property to the column you want to sort on. For example, the following code sorts customers on the `CompanyName` column in descending order:  
   
-     [!code[VbRaddataDisplaying#7](../data-tools/codesnippet/CSharp/filter-and-sort-data-in-a-windows-forms-application_2.cs)]
-[!code[VbRaddataDisplaying#7](../data-tools/codesnippet/VisualBasic/filter-and-sort-data-in-a-windows-forms-application_2.vb)]  
+     [!CODE [VbRaddataDisplaying#7](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataDisplaying#7)]  
   
 ## See Also  
  [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)

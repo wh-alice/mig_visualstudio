@@ -40,7 +40,7 @@ This example demonstrates the Windows `ReadFile` function by reading and display
  This capability is known as *declarative pinning*. With pinning, there is very little overhead unless a garbage collection occurs in the `fixed` block, which is an unlikely occurrence. However, pinning can lead to some undesirable side effects during the global garbage collection runs. The garbage collector's ability to compact memory is greatly limited by pinned buffers. Therefore, pinning should be avoided if at all possible.  
   
 ## Example  
- [!code[csProgGuidePointers#2](../misc/codesnippet/CSharp/how-to--use-the-windows-readfile-function--csharp-programming-guide-_1.cs)]  
+ [!CODE [csProgGuidePointers#2](../CodeSnippet/VS_Snippets_VBCSharp/csProgGuidePointers#2)]  
   
 ## See Also  
  [C# Programming Guide](../Topic/C%23%20Programming%20Guide.md)   

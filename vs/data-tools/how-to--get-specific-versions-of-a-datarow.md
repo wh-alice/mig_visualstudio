@@ -53,8 +53,7 @@ When changes are made to data rows, the dataset retains both the original (<xref
   
      The following example shows how you can use a <xref:System.Data.DataRowVersion> value to get the original value of a `CompanyName` field in a <xref:System.Data.DataRow>:  
   
-     [!code[VbRaddataEditing#21](../data-tools/codesnippet/CSharp/how-to--get-specific-versions-of-a-datarow_1.cs)]
-[!code[VbRaddataEditing#21](../data-tools/codesnippet/VisualBasic/how-to--get-specific-versions-of-a-datarow_1.vb)]  
+     [!CODE [VbRaddataEditing#21](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataEditing#21)]  
   
 ## Accessing the Current Version of a DataRow  
   
@@ -64,8 +63,7 @@ When changes are made to data rows, the dataset retains both the original (<xref
   
      The following example shows how you can use a <xref:System.Data.DataRowVersion> value to get the current value of a `CompanyName` field in a <xref:System.Data.DataRow>:  
   
-     [!code[VbRaddataEditing#22](../data-tools/codesnippet/CSharp/how-to--get-specific-versions-of-a-datarow_2.cs)]
-[!code[VbRaddataEditing#22](../data-tools/codesnippet/VisualBasic/how-to--get-specific-versions-of-a-datarow_2.vb)]  
+     [!CODE [VbRaddataEditing#22](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataEditing#22)]  
   
 ## See Also  
  [Editing Data in Your Application](../data-tools/editing-data-in-your-application.md)   

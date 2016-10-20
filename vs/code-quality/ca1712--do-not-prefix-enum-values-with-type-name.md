@@ -60,9 +60,7 @@ translation.priority.mt:
 ## Example  
  The following example shows an incorrectly named enumeration followed by the corrected version.  
   
- [!code[FxCop.Naming.EnumValues#1](../code-quality/codesnippet/CSharp/ca1712--do-not-prefix-enum-values-with-type-name_1.cs)]
-[!code[FxCop.Naming.EnumValues#1](../code-quality/codesnippet/CPP/ca1712--do-not-prefix-enum-values-with-type-name_1.cpp)]
-[!code[FxCop.Naming.EnumValues#1](../code-quality/codesnippet/VisualBasic/ca1712--do-not-prefix-enum-values-with-type-name_1.vb)]  
+ [!CODE [FxCop.Naming.EnumValues#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Naming.EnumValues#1)]  
   
 ## Related Rules  
  [CA1711: Identifiers should not have incorrect suffix](../code-quality/ca1711--identifiers-should-not-have-incorrect-suffix.md)  

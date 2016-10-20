@@ -54,8 +54,7 @@ Properties window showing Click event
   
 5.  Fill in the rest of the code, as follows:  
   
-     [!code[VbExpressTutorial4Step2_3_4#4](../ide/codesnippet/CSharp/step-4--add-a-click-event-handler-to-each-label_1.cs)]
-[!code[VbExpressTutorial4Step2_3_4#4](../ide/codesnippet/VisualBasic/step-4--add-a-click-event-handler-to-each-label_1.vb)]  
+     [!CODE [VbExpressTutorial4Step2_3_4#4](../CodeSnippet/VS_Snippets_VBCSharp/vbexpresstutorial4step2_3_4#4)]  
   
     > [!NOTE]
     >  If you copy and paste the `label_Click()` code block rather than entering the code manually, be sure to replace the existing `label_Click()` code. Otherwise, you'll end up with a duplicate code block.  

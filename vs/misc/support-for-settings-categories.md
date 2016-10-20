@@ -67,8 +67,7 @@ A settings category consists of a group of options that customize the integrated
 ### Settings Category Attribute  
  The <xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute> determines the mapping of categories to custom settings points in the **Import and Export Settings Wizard** by associating a category with the VSPackage that provides it. Consider the following code fragment:  
   
- [!code[VSSDKSupportForSettingsCategories#1](../misc/codesnippet/VisualBasic/support-for-settings-categories_1.vb)]
-[!code[VSSDKSupportForSettingsCategories#1](../misc/codesnippet/CSharp/support-for-settings-categories_1.cs)]  
+ [!CODE [VSSDKSupportForSettingsCategories#1](../CodeSnippet/VS_Snippets_VSSDK/vssdksupportforsettingscategories#1)]  
   
  Resource ID 106 maps to "My Category", 107 to "My Settings", and 108 to "Various Options". This declares that `MyPackage` provides the category, My Category_My Settings. The category is provided by the `OptionsPageGeneral` class, which must implement <xref:Microsoft.VisualStudio.Shell.IProfileManager>. The settings in that category are the public properties of the `OptionsPageGeneral` class.  
   

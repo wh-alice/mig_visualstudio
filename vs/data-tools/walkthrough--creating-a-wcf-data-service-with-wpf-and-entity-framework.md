@@ -123,13 +123,11 @@ This walkthrough demonstrates how to create a simple [!INCLUDE[ss_data_service](
   
 4.  In the **Code Editor**, locate the first `TODO:` comment and replace the code with the following:  
   
-     [!code[WCFDataServiceWalkthrough#1](../data-tools/codesnippet/VisualBasic/walkthrough--creating-a-wcf-data-service-with-wpf-and-entity-framework_1.vb)]
-[!code[WCFDataServiceWalkthrough#1](../data-tools/codesnippet/CSharp/walkthrough--creating-a-wcf-data-service-with-wpf-and-entity-framework_1.cs)]  
+     [!CODE [WCFDataServiceWalkthrough#1](../CodeSnippet/VS_Snippets_VBCSharp/wcfdataservicewalkthrough#1)]  
   
 5.  Replace the comments in the `InitializeService` event handler with the following code:  
   
-     [!code[WCFDataServiceWalkthrough#2](../data-tools/codesnippet/VisualBasic/walkthrough--creating-a-wcf-data-service-with-wpf-and-entity-framework_2.vb)]
-[!code[WCFDataServiceWalkthrough#2](../data-tools/codesnippet/CSharp/walkthrough--creating-a-wcf-data-service-with-wpf-and-entity-framework_2.cs)]  
+     [!CODE [WCFDataServiceWalkthrough#2](../CodeSnippet/VS_Snippets_VBCSharp/wcfdataservicewalkthrough#2)]  
   
 6.  On the menu bar, choose **Debug**, **Start Without Debugging** to run the service. A browser window opens and the XML schema for the service is displayed.  
   

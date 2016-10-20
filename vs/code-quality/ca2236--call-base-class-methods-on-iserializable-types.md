@@ -61,8 +61,7 @@ translation.priority.ht:
 ## Example  
  The following example shows a derived type that satisfies the rule by calling the serialization constructor and <xref:System.Runtime.Serialization.ISerializable.GetObjectData*> method of the base class.  
   
- [!code[FxCop.Usage.CallBaseISerializable#1](../code-quality/codesnippet/VisualBasic/ca2236--call-base-class-methods-on-iserializable-types_1.vb)]
-[!code[FxCop.Usage.CallBaseISerializable#1](../code-quality/codesnippet/CSharp/ca2236--call-base-class-methods-on-iserializable-types_1.cs)]  
+ [!CODE [FxCop.Usage.CallBaseISerializable#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Usage.CallBaseISerializable#1)]  
   
 ## Related Rules  
  [CA2240: Implement ISerializable correctly](../code-quality/ca2240--implement-iserializable-correctly.md)  

@@ -53,7 +53,7 @@ translation.priority.ht:
 ## Example  
  The following examples demonstrate an interface, a method, and a field that will cause this rule to fire.  
   
- [!code[FxCop.Security.CA2131.CriticalTypesMustNotParticipateInTypeEquivalence#1](../code-quality/codesnippet/CSharp/ca2131--security-critical-types-may-not-participate-in-type-equivalence_1.cs)]  
+ [!CODE [FxCop.Security.CA2131.CriticalTypesMustNotParticipateInTypeEquivalence#1](../CodeSnippet/VS_Snippets_CodeAnalysis/fxcop.security.ca2131.criticaltypesmustnotparticipateintypeequivalence#1)]  
   
 ## See Also  
  [Security-Transparent Code, Level 2](../Topic/Security-Transparent%20Code,%20Level%202.md)

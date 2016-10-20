@@ -63,7 +63,7 @@ translation.priority.ht:
 ## Example  
  The following example shows a type that satisfies the rule.  
   
- [!code[FxCop.Usage.ISerializableCtor#1](../code-quality/codesnippet/CSharp/ca2229--implement-serialization-constructors_1.cs)]  
+ [!CODE [FxCop.Usage.ISerializableCtor#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Usage.ISerializableCtor#1)]  
   
 ## Related Rules  
  [CA2237: Mark ISerializable types with SerializableAttribute](../code-quality/ca2237--mark-iserializable-types-with-serializableattribute.md)  

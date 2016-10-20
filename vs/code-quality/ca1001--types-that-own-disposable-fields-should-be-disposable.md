@@ -58,8 +58,7 @@ translation.priority.mt:
 ## Example  
  The following example shows a class that violates the rule and a class that satisfies the rule by implementing <xref:System.IDisposable>. The class does not implement a finalizer because the class does not directly own any unmanaged resources.  
   
- [!code[FxCop.Design.DisposableFields#1](../code-quality/codesnippet/VisualBasic/ca1001--types-that-own-disposable-fields-should-be-disposable_1.vb)]
-[!code[FxCop.Design.DisposableFields#1](../code-quality/codesnippet/CSharp/ca1001--types-that-own-disposable-fields-should-be-disposable_1.cs)]  
+ [!CODE [FxCop.Design.DisposableFields#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Design.DisposableFields#1)]  
   
 ## Related Rules  
  [CA2213: Disposable fields should be disposed](../code-quality/ca2213--disposable-fields-should-be-disposed.md)  

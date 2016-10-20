@@ -61,9 +61,7 @@ translation.priority.mt:
  The following example shows a type that violates the rule.  
   
 ### Code  
- [!code[FxCop.Design.StaticMembers#1](../code-quality/codesnippet/CSharp/ca1052--static-holder-types-should-be-sealed_1.cs)]
-[!code[FxCop.Design.StaticMembers#1](../code-quality/codesnippet/VisualBasic/ca1052--static-holder-types-should-be-sealed_1.vb)]
-[!code[FxCop.Design.StaticMembers#1](../code-quality/codesnippet/CPP/ca1052--static-holder-types-should-be-sealed_1.cpp)]  
+ [!CODE [FxCop.Design.StaticMembers#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Design.StaticMembers#1)]  
   
 ## Fix with the Static Modifier  
   
@@ -71,7 +69,7 @@ translation.priority.mt:
  The following example shows how to fix a violation of this rule by marking the type with the `static` modifier.  
   
 ### Code  
- [!code[FxCop.Design.StaticMembersFixed#1](../code-quality/codesnippet/CSharp/ca1052--static-holder-types-should-be-sealed_2.cs)]  
+ [!CODE [FxCop.Design.StaticMembersFixed#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Design.StaticMembersFixed#1)]  
   
 ## Related Rules  
  [CA1053: Static holder types should not have constructors](../code-quality/ca1053--static-holder-types-should-not-have-constructors.md)

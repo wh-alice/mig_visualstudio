@@ -57,5 +57,4 @@ translation.priority.ht:
 ## Example  
  The following example shows a method, `CatchAndRethrowExplicitly`, which violates the rule and a method, `CatchAndRethrowImplicitly`, which satisfies the rule.  
   
- [!code[FxCop.Usage.Rethrow#1](../code-quality/codesnippet/CSharp/ca2200--rethrow-to-preserve-stack-details_1.cs)]
-[!code[FxCop.Usage.Rethrow#1](../code-quality/codesnippet/VisualBasic/ca2200--rethrow-to-preserve-stack-details_1.vb)]
+ [!CODE [FxCop.Usage.Rethrow#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Usage.Rethrow#1)]

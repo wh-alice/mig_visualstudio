@@ -60,8 +60,7 @@ translation.priority.mt:
 ## Example  
  The following example shows a type that violates the rule and a type that satisfies the rule.  
   
- [!code[FxCop.Interoperability.AutoLayout#1](../code-quality/codesnippet/CSharp/ca1403--auto-layout-types-should-not-be-com-visible_1.cs)]
-[!code[FxCop.Interoperability.AutoLayout#1](../code-quality/codesnippet/VisualBasic/ca1403--auto-layout-types-should-not-be-com-visible_1.vb)]  
+ [!CODE [FxCop.Interoperability.AutoLayout#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Interoperability.AutoLayout#1)]  
   
 ## Related Rules  
  [CA1408: Do not use AutoDual ClassInterfaceType](../code-quality/ca1408--do-not-use-autodual-classinterfacetype.md)  

@@ -41,15 +41,13 @@ In the fourth part of this tutorial, you'll write a method, `CheckTheAnswer()`, 
   
      When this method is called, it adds the values of addend1 and addend2 and compares the result to the value in the sum `NumericUpDown` control. If the values are equal, the method returns a value of `true`. Otherwise, the method returns a value of `false`. Your code should look like the following.  
   
-     [!code[VbExpressTutorial3Step4#8](../ide/codesnippet/VisualBasic/step-4--add-the-checktheanswer---method_1.vb)]
-[!code[VbExpressTutorial3Step4#8](../ide/codesnippet/CSharp/step-4--add-the-checktheanswer---method_1.cs)]  
+     [!CODE [VbExpressTutorial3Step4#8](../CodeSnippet/VS_Snippets_VBCSharp/vbexpresstutorial3step4#8)]  
   
      Next, you'll check the answer by updating the code in the method for the timer's Tick event handler to call the new `CheckTheAnswer()` method.  
   
 2.  Add the following code to the `if else` statement.  
   
-     [!code[VbExpressTutorial3Step4#10](../ide/codesnippet/VisualBasic/step-4--add-the-checktheanswer---method_2.vb)]
-[!code[VbExpressTutorial3Step4#10](../ide/codesnippet/CSharp/step-4--add-the-checktheanswer---method_2.cs)]  
+     [!CODE [VbExpressTutorial3Step4#10](../CodeSnippet/VS_Snippets_VBCSharp/vbexpresstutorial3step4#10)]  
   
      If the answer is correct, `CheckTheAnswer()` returns `true`. The event handler stops the timer, shows a congratulatory message, and then makes the **Start** button available again. Otherwise, the quiz continues.  
   

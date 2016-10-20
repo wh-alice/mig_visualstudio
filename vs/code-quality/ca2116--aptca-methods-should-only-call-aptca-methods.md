@@ -67,17 +67,17 @@ translation.priority.ht:
 ## Example  
  The following example uses two assemblies and a test application to illustrate the security vulnerability detected by this rule. The first assembly does not have the APTCA attribute and should not be accessible to partially trusted callers (represented by `M2` in the previous discussion).  
   
- [!code[FxCop.Security.NoAptca#1](../code-quality/codesnippet/CSharp/ca2116--aptca-methods-should-only-call-aptca-methods_1.cs)]  
+ [!CODE [FxCop.Security.NoAptca#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Security.NoAptca#1)]  
   
 ## Example  
  The second assembly is fully trusted and allows partially trusted callers (represented by `M1` in the previous discussion).  
   
- [!code[FxCop.Security.YesAptca#1](../code-quality/codesnippet/CSharp/ca2116--aptca-methods-should-only-call-aptca-methods_2.cs)]  
+ [!CODE [FxCop.Security.YesAptca#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Security.YesAptca#1)]  
   
 ## Example  
  The test application (represented by `X` in the previous discussion) is partially trusted.  
   
- [!code[FxCop.Security.TestAptcaMethods#1](../code-quality/codesnippet/CSharp/ca2116--aptca-methods-should-only-call-aptca-methods_3.cs)]  
+ [!CODE [FxCop.Security.TestAptcaMethods#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Security.TestAptcaMethods#1)]  
   
  This example produces the following output.  
   

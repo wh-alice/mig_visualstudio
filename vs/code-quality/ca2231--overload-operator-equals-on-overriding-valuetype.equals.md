@@ -74,7 +74,7 @@ return left.Equals(right);
 ## Example  
  The following example defines a type that violates this rule.  
   
- [!code[FxCop.Usage.EqualsGetHashCode#1](../code-quality/codesnippet/CSharp/ca2231--overload-operator-equals-on-overriding-valuetype.equals_1.cs)]  
+ [!CODE [FxCop.Usage.EqualsGetHashCode#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Usage.EqualsGetHashCode#1)]  
   
 ## Related Rules  
  [CA1046: Do not overload operator equals on reference types](../code-quality/ca1046--do-not-overload-operator-equals-on-reference-types.md)  

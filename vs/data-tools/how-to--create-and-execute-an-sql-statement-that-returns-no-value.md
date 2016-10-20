@@ -96,8 +96,7 @@ To execute an SQL statement that returns no value, you can run a TableAdapter qu
   
      Queries that we think of as returning no value actually do return a value — an integer containing the number of rows affected by the query. The complete code to declare an instance of a TableAdapter and execute a query should look similar to the following:  
   
-     [!code[VbRaddataFillingAndExecuting#11](../data-tools/codesnippet/CSharp/how-to--create-and-execute-an-sql-statement-that-returns-no-value_1.cs)]
-[!code[VbRaddataFillingAndExecuting#11](../data-tools/codesnippet/VisualBasic/how-to--create-and-execute-an-sql-statement-that-returns-no-value_1.vb)]  
+     [!CODE [VbRaddataFillingAndExecuting#11](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataFillingAndExecuting#11)]  
   
 ## Executing SQL Statements that Return No Value Using a Command Object  
  The following example shows how to create a command and execute an SQL statement that returns no value. For information on setting and getting parameter values for a command, see [How to: Set and Get Parameters for Command Objects](../Topic/How%20to:%20Set%20and%20Get%20Parameters%20for%20Command%20Objects.md).  
@@ -114,8 +113,7 @@ To execute an SQL statement that returns no value, you can run a TableAdapter qu
   
 -   Add the following code to a method that you want to execute the SQL statement from. Call the `ExecuteNonQuery` method of a command to return no value (for example, <xref:System.Data.SqlClient.SqlCommand.ExecuteNonQuery*?displayProperty=fullName>).  
   
-     [!code[VbRaddataFillingAndExecuting#12](../data-tools/codesnippet/CSharp/how-to--create-and-execute-an-sql-statement-that-returns-no-value_2.cs)]
-[!code[VbRaddataFillingAndExecuting#12](../data-tools/codesnippet/VisualBasic/how-to--create-and-execute-an-sql-statement-that-returns-no-value_2.vb)]  
+     [!CODE [VbRaddataFillingAndExecuting#12](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataFillingAndExecuting#12)]  
   
 ## .NET Framework Security  
  The application requires permission to access the database and execute the SQL statement.  

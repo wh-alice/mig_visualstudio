@@ -59,12 +59,12 @@ translation.priority.mt:
 ## Example  
  The following example shows a type `TypeA` that implements <xref:System.IDisposable>.  
   
- [!code[FxCop.Usage.IDisposablePattern#1](../code-quality/codesnippet/CSharp/ca2215--dispose-methods-should-call-base-class-dispose_1.cs)]  
+ [!CODE [FxCop.Usage.IDisposablePattern#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Usage.IDisposablePattern#1)]  
   
 ## Example  
  The following example shows a type `TypeB` that inherits from type `TypeA` and correctly calls its <xref:System.IDisposable.Dispose*> method.  
   
- [!code[FxCop.Usage.IDisposableBaseCalled#1](../code-quality/codesnippet/VisualBasic/ca2215--dispose-methods-should-call-base-class-dispose_2.vb)]  
+ [!CODE [FxCop.Usage.IDisposableBaseCalled#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Usage.IDisposableBaseCalled#1)]  
   
 ## See Also  
  <xref:System.IDisposable?displayProperty=fullName>   

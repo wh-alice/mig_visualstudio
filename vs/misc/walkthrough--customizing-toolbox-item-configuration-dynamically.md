@@ -150,15 +150,13 @@ This walkthrough shows how a managed VSPackage can supply dynamic configuration 
   
          The resulting code for the `Control1` class should resemble the following code.  
   
-         [!code[DynamicToolboxMembers#01](../misc/codesnippet/CSharp/walkthrough--customizing-toolbox-item-configuration-dynamically_1.cs)]
-[!code[DynamicToolboxMembers#01](../misc/codesnippet/VisualBasic/walkthrough--customizing-toolbox-item-configuration-dynamically_1.vb)]  
+         [!CODE [DynamicToolboxMembers#01](../CodeSnippet/VS_Snippets_VSSDK/dynamictoolboxmembers#01)]  
   
     2.  Complete the procedure, "To create a **Toolbox** control for using a custom ToolboxItem-derived class." Update the <xref:System.ComponentModel.DescriptionAttribute> to reference this project.  
   
          The resulting code for the `Control2` and `Control2_ToolboxItem` classes should resemble the following code.  
   
-         [!code[DynamicToolboxMembers#02](../misc/codesnippet/VisualBasic/walkthrough--customizing-toolbox-item-configuration-dynamically_2.vb)]
-[!code[DynamicToolboxMembers#02](../misc/codesnippet/CSharp/walkthrough--customizing-toolbox-item-configuration-dynamically_2.cs)]  
+         [!CODE [DynamicToolboxMembers#02](../CodeSnippet/VS_Snippets_VSSDK/dynamictoolboxmembers#02)]  
   
 2.  Save the files.  
   
@@ -203,8 +201,7 @@ This walkthrough shows how a managed VSPackage can supply dynamic configuration 
   
 2.  Add the following namespace statements to the file.  
   
-     [!code[DynamicToolboxMembers#03](../misc/codesnippet/CSharp/walkthrough--customizing-toolbox-item-configuration-dynamically_3.cs)]
-[!code[DynamicToolboxMembers#03](../misc/codesnippet/VisualBasic/walkthrough--customizing-toolbox-item-configuration-dynamically_3.vb)]  
+     [!CODE [DynamicToolboxMembers#03](../CodeSnippet/VS_Snippets_VSSDK/dynamictoolboxmembers#03)]  
   
 3.  Ensure that the `ToolboxConfig` class is `public` and implements the <xref:Microsoft.VisualStudio.Shell.IConfigureToolboxItem> interface.  
   
@@ -216,8 +213,7 @@ This walkthrough shows how a managed VSPackage can supply dynamic configuration 
   
      Doing this restricts the `ToolboxConfig` class to working on <xref:System.Drawing.Design.ToolboxItem> objects that are provided by the assembly that contains the current VSPackage.  
   
-     [!code[DynamicToolboxMembers#04](../misc/codesnippet/CSharp/walkthrough--customizing-toolbox-item-configuration-dynamically_4.cs)]
-[!code[DynamicToolboxMembers#04](../misc/codesnippet/VisualBasic/walkthrough--customizing-toolbox-item-configuration-dynamically_4.vb)]  
+     [!CODE [DynamicToolboxMembers#04](../CodeSnippet/VS_Snippets_VSSDK/dynamictoolboxmembers#04)]  
   
      You can generate a GUID by clicking **Create GUID** on the **Tools** menu. Select **the format with square braces**, click **Copy**, and then paste the GUID in your code. change the keyword `GUID` to `Guid`.  
   
@@ -229,8 +225,7 @@ This walkthrough shows how a managed VSPackage can supply dynamic configuration 
   
     -   The <xref:System.Drawing.Design.ToolboxItem> that is implemented by `Control2` is not available in the **Toolbox** for designers that handle <xref:System.Windows.Forms.UserControl> objects.  
   
-     [!code[DynamicToolboxMembers#05](../misc/codesnippet/CSharp/walkthrough--customizing-toolbox-item-configuration-dynamically_5.cs)]
-[!code[DynamicToolboxMembers#05](../misc/codesnippet/VisualBasic/walkthrough--customizing-toolbox-item-configuration-dynamically_5.vb)]  
+     [!CODE [DynamicToolboxMembers#05](../CodeSnippet/VS_Snippets_VSSDK/dynamictoolboxmembers#05)]  
   
 ## Modifying the VSPackage Implementation  
  The default implementation of the VSPackage that is provided by the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Package template must be modified to do the following things:  
@@ -251,13 +246,11 @@ This walkthrough shows how a managed VSPackage can supply dynamic configuration 
   
     1.  Add the following namespace statements to the file.  
   
-         [!code[DynamicToolboxMembers#06](../misc/codesnippet/VisualBasic/walkthrough--customizing-toolbox-item-configuration-dynamically_6.vb)]
-[!code[DynamicToolboxMembers#06](../misc/codesnippet/CSharp/walkthrough--customizing-toolbox-item-configuration-dynamically_6.cs)]  
+         [!CODE [DynamicToolboxMembers#06](../CodeSnippet/VS_Snippets_VSSDK/dynamictoolboxmembers#06)]  
   
     2.  To register the VSPackage as providing **Toolbox** items, apply a <xref:Microsoft.VisualStudio.Shell.ProvideToolboxItemsAttribute> to the package. To register the `ToolboxConfig` class as providing a **Toolbox** control dynamic configuration, apply a <xref:Microsoft.VisualStudio.Shell.ProvideToolboxItemConfigurationAttribute> to the package.  
   
-         [!code[DynamicToolboxMembers#07](../misc/codesnippet/VisualBasic/walkthrough--customizing-toolbox-item-configuration-dynamically_7.vb)]
-[!code[DynamicToolboxMembers#07](../misc/codesnippet/CSharp/walkthrough--customizing-toolbox-item-configuration-dynamically_7.cs)]  
+         [!CODE [DynamicToolboxMembers#07](../CodeSnippet/VS_Snippets_VSSDK/dynamictoolboxmembers#07)]  
   
         > [!NOTE]
         >  The only argument of <xref:Microsoft.VisualStudio.Shell.ProvideToolboxItemsAttribute> is the version of <xref:System.Drawing.Design.ToolboxItem> that is provided by the VSPackage. By changing this value, you force the IDE to load the VSPackage even if it has an earlier cached version of <xref:System.Drawing.Design.ToolboxItem>.  
@@ -268,13 +261,11 @@ This walkthrough shows how a managed VSPackage can supply dynamic configuration 
   
          A <xref:System.String>, named `CategoryTab`, that contains the **Toolbox** tab that is used to hold the <xref:System.Drawing.Design.ToolboxItem> objects that the `ItemConfiguration` class manages.  
   
-         [!code[DynamicToolboxMembers#08](../misc/codesnippet/VisualBasic/walkthrough--customizing-toolbox-item-configuration-dynamically_8.vb)]
-[!code[DynamicToolboxMembers#08](../misc/codesnippet/CSharp/walkthrough--customizing-toolbox-item-configuration-dynamically_8.cs)]  
+         [!CODE [DynamicToolboxMembers#08](../CodeSnippet/VS_Snippets_VSSDK/dynamictoolboxmembers#08)]  
   
      The result of this modification resembles the following code:  
   
-     [!code[DynamicToolboxMembers#09](../misc/codesnippet/VisualBasic/walkthrough--customizing-toolbox-item-configuration-dynamically_9.vb)]
-[!code[DynamicToolboxMembers#09](../misc/codesnippet/CSharp/walkthrough--customizing-toolbox-item-configuration-dynamically_9.cs)]  
+     [!CODE [DynamicToolboxMembers#09](../CodeSnippet/VS_Snippets_VSSDK/dynamictoolboxmembers#09)]  
   
 3.  Define an `OnRefreshToolbox` method to handle the <xref:Microsoft.VisualStudio.Shell.Package.ToolboxInitialized> and <xref:Microsoft.VisualStudio.Shell.Package.ToolboxUpgraded> events.  
   
@@ -286,19 +277,17 @@ This walkthrough shows how a managed VSPackage can supply dynamic configuration 
   
     -   Sets the **Toolbox** tab as the active tab.  
   
-     [!code[DynamicToolboxMembers#10](../misc/codesnippet/VisualBasic/walkthrough--customizing-toolbox-item-configuration-dynamically_10.vb)]
-[!code[DynamicToolboxMembers#10](../misc/codesnippet/CSharp/walkthrough--customizing-toolbox-item-configuration-dynamically_10.cs)]  
+     [!CODE [DynamicToolboxMembers#10](../CodeSnippet/VS_Snippets_VSSDK/dynamictoolboxmembers#10)]  
   
 4.  For [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)], in the constructor, register the `OnRefreshToolbox` method as the event hander for the <xref:Microsoft.VisualStudio.Shell.Package.ToolboxInitialized> and <xref:Microsoft.VisualStudio.Shell.Package.ToolboxUpgraded> events.  
   
-     [!code[DynamicToolboxMembers#11](../misc/codesnippet/CSharp/walkthrough--customizing-toolbox-item-configuration-dynamically_11.cs)]  
+     [!CODE [DynamicToolboxMembers#11](../CodeSnippet/VS_Snippets_VSSDK/dynamictoolboxmembers#11)]  
   
 5.  Modify the `Initialize` method in `ItemConfigurationPackage` to fill the `ToolboxItemList` field by calling the <xref:System.Drawing.Design.ToolboxService.GetToolboxItems*> method of the <xref:System.Drawing.Design.ToolboxService?displayProperty=fullName> class. The **Toolbox** service gets all the **Toolbox** item classes that are defined in the currently executing assembly. The `ToolboxItemList` field is used by the **Toolbox** event handlers to load the **Toolbox** items.  
   
      Add the following code at the end of the `Initialize` method.  
   
-     [!code[DynamicToolboxMembers#12](../misc/codesnippet/VisualBasic/walkthrough--customizing-toolbox-item-configuration-dynamically_12.vb)]
-[!code[DynamicToolboxMembers#12](../misc/codesnippet/CSharp/walkthrough--customizing-toolbox-item-configuration-dynamically_12.cs)]  
+     [!CODE [DynamicToolboxMembers#12](../CodeSnippet/VS_Snippets_VSSDK/dynamictoolboxmembers#12)]  
   
     > [!NOTE]
     >  As an exercise, one could develop a mechanism for testing the version of the VSPackage or the items, and only update if the VSPackage version has changed or if the version of the <xref:System.Drawing.Design.ToolboxItem> has changed.  
@@ -311,8 +300,7 @@ This walkthrough shows how a managed VSPackage can supply dynamic configuration 
   
      Replace the existing implementation of the `MenuItemCallBack` method by using the following code:  
   
-     [!code[DynamicToolboxMembers#13](../misc/codesnippet/VisualBasic/walkthrough--customizing-toolbox-item-configuration-dynamically_13.vb)]
-[!code[DynamicToolboxMembers#13](../misc/codesnippet/CSharp/walkthrough--customizing-toolbox-item-configuration-dynamically_13.cs)]  
+     [!CODE [DynamicToolboxMembers#13](../CodeSnippet/VS_Snippets_VSSDK/dynamictoolboxmembers#13)]  
   
 ## Building and Running the Solution  
  You can exercise the product of this walkthrough by using an instance of Visual Studio that is running in the experimental hive.  

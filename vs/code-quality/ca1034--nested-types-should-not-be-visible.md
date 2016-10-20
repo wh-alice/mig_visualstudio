@@ -64,6 +64,4 @@ translation.priority.mt:
 ## Example  
  The following example shows a type that violates the rule.  
   
- [!code[FxCop.Design.NestedTypes#1](../code-quality/codesnippet/CPP/ca1034--nested-types-should-not-be-visible_1.cpp)]
-[!code[FxCop.Design.NestedTypes#1](../code-quality/codesnippet/CSharp/ca1034--nested-types-should-not-be-visible_1.cs)]
-[!code[FxCop.Design.NestedTypes#1](../code-quality/codesnippet/VisualBasic/ca1034--nested-types-should-not-be-visible_1.vb)]
+ [!CODE [FxCop.Design.NestedTypes#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Design.NestedTypes#1)]

@@ -57,12 +57,12 @@ translation.priority.ht:
 ## Example  
  The following example demonstrates the default behavior when comparing two references.  
   
- [!code[FxCop.Design.RefTypesNoEqualityOp#1](../code-quality/codesnippet/CSharp/ca1046--do-not-overload-operator-equals-on-reference-types_1.cs)]  
+ [!CODE [FxCop.Design.RefTypesNoEqualityOp#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Design.RefTypesNoEqualityOp#1)]  
   
 ## Example  
  The following application compares some references.  
   
- [!code[FxCop.Design.TestRefTypesNoEqualityOp#1](../code-quality/codesnippet/CSharp/ca1046--do-not-overload-operator-equals-on-reference-types_2.cs)]  
+ [!CODE [FxCop.Design.TestRefTypesNoEqualityOp#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Design.TestRefTypesNoEqualityOp#1)]  
   
  This example produces the following output.  
   

@@ -39,8 +39,7 @@ A service can be obtained from any program that has access to the [!INCLUDE[vspr
   
 1.  The following code creates a <xref:Microsoft.VisualStudio.Shell.ServiceProvider> from the DTE object and calls <xref:Microsoft.VisualStudio.Shell.ServiceProvider.GetService*> with the type of the <xref:Microsoft.VisualStudio.Shell.Interop.SVsActivityLog> service. The service is cast to the interface <xref:Microsoft.VisualStudio.Shell.Interop.IVsActivityLog>, which is used to write an entry in the activity log. For more information abou how to write to the activity log, see [How to: Use the Activity Log](../extensibility/how-to--use-the-activity-log.md).  
   
-     [!code[GetAServiceFromTheDTEObject#1](../misc/codesnippet/CSharp/how-to--get-a-service-from-the-dte-object_1.cs)]
-[!code[GetAServiceFromTheDTEObject#1](../misc/codesnippet/VisualBasic/how-to--get-a-service-from-the-dte-object_1.vb)]  
+     [!CODE [GetAServiceFromTheDTEObject#1](../CodeSnippet/VS_Snippets_VSSDK/getaservicefromthedteobject#1)]  
   
 ## See Also  
  [Using and Providing Services](../extensibility/using-and-providing-services.md)   

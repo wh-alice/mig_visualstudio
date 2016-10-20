@@ -129,4 +129,4 @@ namespace Microsoft.Samples
 ## Example  
  The following example contains several methods that should be converted to properties, and several that should not because they do not behave like fields.  
   
- [!code[FxCop.Design.MethodsProperties#1](../code-quality/codesnippet/CSharp/ca1024--use-properties-where-appropriate_1.cs)]
+ [!CODE [FxCop.Design.MethodsProperties#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Design.MethodsProperties#1)]

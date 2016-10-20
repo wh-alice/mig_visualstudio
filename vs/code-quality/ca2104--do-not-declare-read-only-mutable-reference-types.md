@@ -62,6 +62,4 @@ translation.priority.mt:
 ## Example  
  The following example shows a field declaration that causes a violation of this rule.  
   
- [!code[FxCop.Security.MutableReferenceTypes#1](../code-quality/codesnippet/CPP/ca2104--do-not-declare-read-only-mutable-reference-types_1.cpp)]
-[!code[FxCop.Security.MutableReferenceTypes#1](../code-quality/codesnippet/CSharp/ca2104--do-not-declare-read-only-mutable-reference-types_1.cs)]
-[!code[FxCop.Security.MutableReferenceTypes#1](../code-quality/codesnippet/VisualBasic/ca2104--do-not-declare-read-only-mutable-reference-types_1.vb)]
+ [!CODE [FxCop.Security.MutableReferenceTypes#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Security.MutableReferenceTypes#1)]

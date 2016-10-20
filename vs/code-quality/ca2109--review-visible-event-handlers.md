@@ -71,7 +71,7 @@ translation.priority.ht:
 ## Example  
  The following code shows an event-handling method that can be misused by malicious code.  
   
- [!code[FxCop.Security.EventSecLib#1](../code-quality/codesnippet/CSharp/ca2109--review-visible-event-handlers_1.cs)]  
+ [!CODE [FxCop.Security.EventSecLib#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Security.EventSecLib#1)]  
   
 ## See Also  
  <xref:System.Security.CodeAccessPermission.Demand*?displayProperty=fullName>   

@@ -58,7 +58,7 @@ translation.priority.mt:
 ## Example  
  The following example shows a type that violates the rule. No function that is named `DoSomethingUnmanaged` occurs in kernel32.dll.  
   
- [!code[FxCop.Interoperability.DLLExists#1](../code-quality/codesnippet/CSharp/ca1400--p-invoke-entry-points-should-exist_1.cs)]  
+ [!CODE [FxCop.Interoperability.DLLExists#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Interoperability.DLLExists#1)]  
   
 ## See Also  
  <xref:System.Runtime.InteropServices.DllImportAttribute?displayProperty=fullName>

@@ -48,7 +48,7 @@ A custom event cannot be declared in an interface because a custom event must pr
 ## Example  
  This example shows how to implement an event declared in an interface as a custom event.  
   
- [!code[VbVbalrEventError#3](../misc/codesnippet/VisualBasic/-custom--modifier-is-not-valid-on-events-declared-in-interfaces_1.vb)]  
+ [!CODE [VbVbalrEventError#3](../CodeSnippet/VS_Snippets_VBCSharp/VbVbalrEventError#3)]  
   
 ## See Also  
  [Custom - delete](http://msdn.microsoft.com/en-us/dc62be07-c896-4866-a533-982a661d143f)   

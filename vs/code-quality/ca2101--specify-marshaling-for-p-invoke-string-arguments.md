@@ -60,4 +60,4 @@ translation.priority.mt:
 ## Example  
  The following example shows a method that violates this rule, and then shows how to fix the violation.  
   
- [!code[FxCop.Security.PinvokeAnsiUnicode#1](../code-quality/codesnippet/CSharp/ca2101--specify-marshaling-for-p-invoke-string-arguments_1.cs)]
+ [!CODE [FxCop.Security.PinvokeAnsiUnicode#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Security.PinvokeAnsiUnicode#1)]

@@ -68,9 +68,7 @@ translation.priority.ht:
 ## Example  
  The following example shows a method that throws an exception when either of its two arguments are out of range. For the first argument, the exception constructor is passed a literal string, which violates this rule. For the second argument, the constructor is correctly passed a string retrieved through a <xref:System.Resources.ResourceManager>.  
   
- [!code[FxCop.Globalization.DoNotPassLiterals#1](../code-quality/codesnippet/CPP/ca1303--do-not-pass-literals-as-localized-parameters_1.cpp)]
-[!code[FxCop.Globalization.DoNotPassLiterals#1](../code-quality/codesnippet/VisualBasic/ca1303--do-not-pass-literals-as-localized-parameters_1.vb)]
-[!code[FxCop.Globalization.DoNotPassLiterals#1](../code-quality/codesnippet/CSharp/ca1303--do-not-pass-literals-as-localized-parameters_1.cs)]  
+ [!CODE [FxCop.Globalization.DoNotPassLiterals#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Globalization.DoNotPassLiterals#1)]  
   
 ## See Also  
  [Resources in Desktop Apps](../Topic/Resources%20in%20Desktop%20Apps.md)

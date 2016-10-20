@@ -81,7 +81,7 @@ translation.priority.ht:
 ## Example  
  In the following examples, a transparent method attempts to reference a security critical generic collection, a security critical field, and a security critical method.  
   
- [!code[FxCop.Security.CA2140.TransparentMethodsMustNotReferenceCriticalCode#1](../code-quality/codesnippet/CSharp/ca2140--transparent-code-must-not-reference-security-critical-items_1.cs)]  
+ [!CODE [FxCop.Security.CA2140.TransparentMethodsMustNotReferenceCriticalCode#1](../CodeSnippet/VS_Snippets_CodeAnalysis/fxcop.security.ca2140.transparentmethodsmustnotreferencecriticalcode#1)]  
   
 ## See Also  
  <xref:System.Security.SecurityTransparentAttribute>   

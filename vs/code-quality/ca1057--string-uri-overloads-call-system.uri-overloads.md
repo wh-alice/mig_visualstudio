@@ -58,9 +58,7 @@ translation.priority.mt:
 ## Example  
  The following example shows a correctly implemented string overload.  
   
- [!code[FxCop.Design.CallUriOverload#1](../code-quality/codesnippet/CSharp/ca1057--string-uri-overloads-call-system.uri-overloads_1.cs)]
-[!code[FxCop.Design.CallUriOverload#1](../code-quality/codesnippet/CPP/ca1057--string-uri-overloads-call-system.uri-overloads_1.cpp)]
-[!code[FxCop.Design.CallUriOverload#1](../code-quality/codesnippet/VisualBasic/ca1057--string-uri-overloads-call-system.uri-overloads_1.vb)]  
+ [!CODE [FxCop.Design.CallUriOverload#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Design.CallUriOverload#1)]  
   
 ## Related Rules  
  [CA2234: Pass System.Uri objects instead of strings](../code-quality/ca2234--pass-system.uri-objects-instead-of-strings.md)  

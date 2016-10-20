@@ -60,8 +60,7 @@ After the data in your dataset has been modified and validated, you can send the
   
 -   Enclose the TableAdapter's`Update` method in a `try`/`catch` block. The following example shows how to  update  the contents of the `Customers` table in `NorthwindDataSet` from within a `try`/`catch` block .  
   
-     [!code[VbRaddataSaving#9](../data-tools/codesnippet/CSharp/update-data-by-using-a-tableadapter_1.cs)]
-[!code[VbRaddataSaving#9](../data-tools/codesnippet/VisualBasic/update-data-by-using-a-tableadapter_1.vb)]  
+     [!CODE [VbRaddataSaving#9](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataSaving#9)]  
   
 ## See Also  
  [Save data back to the database](../data-tools/save-data-back-to-the-database.md)

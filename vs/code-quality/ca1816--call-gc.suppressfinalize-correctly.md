@@ -70,14 +70,12 @@ translation.priority.ht:
 ## Example  
  The following example shows a method that incorrectly calls <xref:System.GC.SuppressFinalize*?displayProperty=fullName>.  
   
- [!code[FxCop.Usage.CallGCSuppressFinalizeCorrectly#1](../code-quality/codesnippet/VisualBasic/ca1816--call-gc.suppressfinalize-correctly_1.vb)]
-[!code[FxCop.Usage.CallGCSuppressFinalizeCorrectly#1](../code-quality/codesnippet/CSharp/ca1816--call-gc.suppressfinalize-correctly_1.cs)]  
+ [!CODE [FxCop.Usage.CallGCSuppressFinalizeCorrectly#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Usage.CallGCSuppressFinalizeCorrectly#1)]  
   
 ## Example  
  The following example shows a method that correctly calls <xref:System.GC.SuppressFinalize*?displayProperty=fullName>.  
   
- [!code[FxCop.Usage.CallGCSuppressFinalizeCorrectly2#1](../code-quality/codesnippet/VisualBasic/ca1816--call-gc.suppressfinalize-correctly_2.vb)]
-[!code[FxCop.Usage.CallGCSuppressFinalizeCorrectly2#1](../code-quality/codesnippet/CSharp/ca1816--call-gc.suppressfinalize-correctly_2.cs)]  
+ [!CODE [FxCop.Usage.CallGCSuppressFinalizeCorrectly2#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Usage.CallGCSuppressFinalizeCorrectly2#1)]  
   
 ## Related Rules  
  [CA2215: Dispose methods should call base class dispose](../code-quality/ca2215--dispose-methods-should-call-base-class-dispose.md)  

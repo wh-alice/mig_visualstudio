@@ -59,12 +59,12 @@ translation.priority.ht:
   
  In the following example, the library demands write permission for a type and read permission for a method.  
   
- [!code[FxCop.Security.MethodLevelSecurity#1](../code-quality/codesnippet/CSharp/ca2114--method-security-should-be-a-superset-of-type_1.cs)]  
+ [!CODE [FxCop.Security.MethodLevelSecurity#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Security.MethodLevelSecurity#1)]  
   
 ## Example  
  The following application code demonstrates the vulnerability of the library by calling the method even though it does not meet the type-level security requirement.  
   
- [!code[FxCop.Security.TestMethodLevelSecurity#1](../code-quality/codesnippet/CSharp/ca2114--method-security-should-be-a-superset-of-type_2.cs)]  
+ [!CODE [FxCop.Security.TestMethodLevelSecurity#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Security.TestMethodLevelSecurity#1)]  
   
  This example produces the following output.  
   

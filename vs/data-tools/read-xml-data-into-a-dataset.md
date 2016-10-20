@@ -211,8 +211,7 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
   
 3.  Type the following code into the `ReadXmlButton_Click` event handler:  
   
-     [!code[VbRaddataFillingAndExecuting#2](../data-tools/codesnippet/CSharp/read-xml-data-into-a-dataset_1.cs)]
-[!code[VbRaddataFillingAndExecuting#2](../data-tools/codesnippet/VisualBasic/read-xml-data-into-a-dataset_1.vb)]  
+     [!CODE [VbRaddataFillingAndExecuting#2](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataFillingAndExecuting#2)]  
   
 4.  In the `ReadXMLButton_Click` event handler code, change the `filepath =` entry to the correct path.  
   
@@ -229,8 +228,7 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
   
 3.  Type the following code into the `ShowSchemaButton_Click` event handler.  
   
-     [!code[VbRaddataFillingAndExecuting#3](../data-tools/codesnippet/CSharp/read-xml-data-into-a-dataset_2.cs)]
-[!code[VbRaddataFillingAndExecuting#3](../data-tools/codesnippet/VisualBasic/read-xml-data-into-a-dataset_2.vb)]  
+     [!CODE [VbRaddataFillingAndExecuting#3](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataFillingAndExecuting#3)]  
   
 ## Test the form  
  You can now test the form to make sure it behaves as expected.  

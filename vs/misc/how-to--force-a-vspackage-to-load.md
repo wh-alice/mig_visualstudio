@@ -40,7 +40,7 @@ VSPackages are ordinarily loaded only when their accompanying functionality is r
   
 -   Insert this code into the <xref:Microsoft.VisualStudio.Shell.Package.Initialize*> method of the VSPackage that forces another VSPackage to load:  
   
-     [!code[ForceVSPackageLoad#01](../misc/codesnippet/CSharp/how-to--force-a-vspackage-to-load_1.cs)]  
+     [!CODE [ForceVSPackageLoad#01](../CodeSnippet/VS_Snippets_VSSDK/forcevspackageload#01)]  
   
      When the VSPackage is initialized, it will force `PackageToBeLoaded` to load.  
   

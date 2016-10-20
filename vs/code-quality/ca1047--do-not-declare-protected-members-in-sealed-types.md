@@ -60,5 +60,4 @@ translation.priority.mt:
 ## Example  
  The following example shows a type that violates this rule.  
   
- [!code[FxCop.Design.SealedNoProtected#1](../code-quality/codesnippet/VisualBasic/ca1047--do-not-declare-protected-members-in-sealed-types_1.vb)]
-[!code[FxCop.Design.SealedNoProtected#1](../code-quality/codesnippet/CSharp/ca1047--do-not-declare-protected-members-in-sealed-types_1.cs)]
+ [!CODE [FxCop.Design.SealedNoProtected#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Design.SealedNoProtected#1)]

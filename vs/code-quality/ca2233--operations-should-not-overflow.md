@@ -60,8 +60,7 @@ translation.priority.ht:
  A method in the following example manipulates an integer that violates this rule. [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] requires the **Remove** integer overflow option to be disabled for this to fire.  
   
 ### Code  
- [!code[FxCop.Usage.OperationOverflow#1](../code-quality/codesnippet/VisualBasic/ca2233--operations-should-not-overflow_1.vb)]
-[!code[FxCop.Usage.OperationOverflow#1](../code-quality/codesnippet/CSharp/ca2233--operations-should-not-overflow_1.cs)]  
+ [!CODE [FxCop.Usage.OperationOverflow#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Usage.OperationOverflow#1)]  
   
 ### Comments  
  If the method in this example is passed <xref:System.Int32.MinValue?displayProperty=fullName>, the operation would underflow. This causes the most significant bit of the result to be discarded. The following code shows how this occurs.  
@@ -99,8 +98,7 @@ End Sub
  The following example fixes the previous violation by validating the value of input.  
   
 ### Code  
- [!code[FxCop.Usage.OperationOverflowFixed#1](../code-quality/codesnippet/CSharp/ca2233--operations-should-not-overflow_2.cs)]
-[!code[FxCop.Usage.OperationOverflowFixed#1](../code-quality/codesnippet/VisualBasic/ca2233--operations-should-not-overflow_2.vb)]  
+ [!CODE [FxCop.Usage.OperationOverflowFixed#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Usage.OperationOverflowFixed#1)]  
   
 ## Fix with a Checked Block  
   
@@ -110,7 +108,7 @@ End Sub
  Note that checked blocks are not supported in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)].  
   
 ### Code  
- [!code[FxCop.Usage.OperationOverflowChecked#1](../code-quality/codesnippet/CSharp/ca2233--operations-should-not-overflow_3.cs)]  
+ [!CODE [FxCop.Usage.OperationOverflowChecked#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Usage.OperationOverflowChecked#1)]  
   
 ## Turn on Checked Arithmetic Overflow/Underflow  
  If you turn on checked arithmetic overflow/underflow in C#, it is equivalent to wrapping every integer operation in a checked block.  

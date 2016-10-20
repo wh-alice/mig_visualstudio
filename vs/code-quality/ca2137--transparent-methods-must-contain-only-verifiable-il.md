@@ -55,4 +55,4 @@ translation.priority.ht:
 ## Example  
  The method in this example uses unverifiable code and should be marked with the <xref:System.Security.SecurityCriticalAttribute> or <xref:System.Security.SecuritySafeCriticalAttribute> attribute.  
   
- [!code[FxCop.Security.CA2137.TransparentMethodsMustBeVerifiable#1](../code-quality/codesnippet/CSharp/ca2137--transparent-methods-must-contain-only-verifiable-il_1.cs)]
+ [!CODE [FxCop.Security.CA2137.TransparentMethodsMustBeVerifiable#1](../CodeSnippet/VS_Snippets_CodeAnalysis/fxcop.security.ca2137.transparentmethodsmustbeverifiable#1)]

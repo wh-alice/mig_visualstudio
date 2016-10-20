@@ -57,8 +57,7 @@ pServiceProvider->QueryService(SID_SDTE, IID__DTE, (LPVOID*)pDTE);
   
  To obtain a <xref:EnvDTE.DTE> object by using the Managed Package Framework (MPF), call the <xref:Microsoft.VisualStudio.Shell.Package.GetService*> method and provide a `serviceType` parameter of type <xref:Microsoft.VisualStudio.Shell.Interop.SDTE>.  
   
- [!code[UI_UserSettings_ToolsOptionPages#01](../extensibility/codesnippet/CSharp/using-options-pages_1.cs)]
-[!code[UI_UserSettings_ToolsOptionPages#01](../extensibility/codesnippet/VisualBasic/using-options-pages_1.vb)]  
+ [!CODE [UI_UserSettings_ToolsOptionPages#01](../CodeSnippet/VS_Snippets_VSSDK/ui_usersettings_toolsoptionpages#01)]  
   
  An **Options** page is specified by two identifiers. The first identifier is a string that indicates the folder that contains the **Options** page. The second identifier is a string that indicates the specific item in that folder. These are referred to as an **Options** page category and subcategory, or its topic and subtopic.  
   
@@ -77,8 +76,7 @@ hr = srpDTE->get_Properties("TextEditor", "Basic", &srpDTEPropertiesList);
   
  To obtain the properties by using the MPF, use the <xref:EnvDTE._DTE.Properties*> method.  
   
- [!code[UI_UserSettings_ToolsOptionPages#02](../extensibility/codesnippet/CSharp/using-options-pages_2.cs)]
-[!code[UI_UserSettings_ToolsOptionPages#02](../extensibility/codesnippet/VisualBasic/using-options-pages_2.vb)]  
+ [!CODE [UI_UserSettings_ToolsOptionPages#02](../CodeSnippet/VS_Snippets_VSSDK/ui_usersettings_toolsoptionpages#02)]  
   
  The <xref:EnvDTE.Properties.Item*> method returns individual settings from the <xref:EnvDTE.Properties> collection as a <xref:EnvDTE.Property> object.  
   
@@ -99,8 +97,7 @@ hr= srpProperty.set_Value(4);
   
  The following example demonstrates how to update the **Tab Size** setting by using the MPF.  
   
- [!code[UI_UserSettings_ToolsOptionPages#03](../extensibility/codesnippet/CSharp/using-options-pages_3.cs)]
-[!code[UI_UserSettings_ToolsOptionPages#03](../extensibility/codesnippet/VisualBasic/using-options-pages_3.vb)]  
+ [!CODE [UI_UserSettings_ToolsOptionPages#03](../CodeSnippet/VS_Snippets_VSSDK/ui_usersettings_toolsoptionpages#03)]  
   
  For more information, see [Controlling Options Settings](../Topic/Controlling%20Options%20Settings.md).  
   

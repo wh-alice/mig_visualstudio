@@ -78,13 +78,13 @@ translation.priority.ht:
  The following example shows a class (reference type) that violates this rule.  
   
 ### Code  
- [!code[FxCop.Usage.GetHashCodeErrorClass#1](../code-quality/codesnippet/CSharp/ca2218--override-gethashcode-on-overriding-equals_1.cs)]  
+ [!CODE [FxCop.Usage.GetHashCodeErrorClass#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Usage.GetHashCodeErrorClass#1)]  
   
 ### Comments  
  The following example fixes the violation by overriding <xref:System.Object.GetHashCode>.  
   
 ### Code  
- [!code[FxCop.Usage.GetHashCodeFixedClass#1](../code-quality/codesnippet/CSharp/ca2218--override-gethashcode-on-overriding-equals_2.cs)]  
+ [!CODE [FxCop.Usage.GetHashCodeFixedClass#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Usage.GetHashCodeFixedClass#1)]  
   
 ## Structure Example  
   
@@ -92,13 +92,13 @@ translation.priority.ht:
  The following example shows a structure (value type) that violates this rule.  
   
 ### Code  
- [!code[FxCop.Usage.GetHashCodeErrorStruct#1](../code-quality/codesnippet/CSharp/ca2218--override-gethashcode-on-overriding-equals_3.cs)]  
+ [!CODE [FxCop.Usage.GetHashCodeErrorStruct#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Usage.GetHashCodeErrorStruct#1)]  
   
 ### Comments  
  The following example fixes the violation by overriding <xref:System.Object.GetHashCode>.  
   
 ### Code  
- [!code[FxCop.Usage.GetHashCodeFixedStruct#1](../code-quality/codesnippet/CSharp/ca2218--override-gethashcode-on-overriding-equals_4.cs)]  
+ [!CODE [FxCop.Usage.GetHashCodeFixedStruct#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Usage.GetHashCodeFixedStruct#1)]  
   
 ## Related Rules  
  [CA1046: Do not overload operator equals on reference types](../code-quality/ca1046--do-not-overload-operator-equals-on-reference-types.md)  

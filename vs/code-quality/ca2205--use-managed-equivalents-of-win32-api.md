@@ -57,8 +57,7 @@ translation.priority.ht:
 ## Example  
  The following example shows a platform invoke method definition that violates the rule. In addition, the calls to the platform invoke method and the equivalent managed method are shown.  
   
- [!code[FxCop.Usage.ManagedEquivalents#1](../code-quality/codesnippet/CSharp/ca2205--use-managed-equivalents-of-win32-api_1.cs)]
-[!code[FxCop.Usage.ManagedEquivalents#1](../code-quality/codesnippet/VisualBasic/ca2205--use-managed-equivalents-of-win32-api_1.vb)]  
+ [!CODE [FxCop.Usage.ManagedEquivalents#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Usage.ManagedEquivalents#1)]  
   
 ## Related Rules  
  [CA1404: Call GetLastError immediately after P/Invoke](../code-quality/ca1404--call-getlasterror-immediately-after-p-invoke.md)  

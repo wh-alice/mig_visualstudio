@@ -115,8 +115,7 @@ When displaying data on forms in Windows applications, you can choose existing c
   
 2.  Replace the code in the `PhoneNumberBox` with the following:  
   
-     [!code[VbRaddataDisplaying#3](../data-tools/codesnippet/CSharp/create-a-windows-forms-user-control-that-supports-simple-data-binding_1.cs)]
-[!code[VbRaddataDisplaying#3](../data-tools/codesnippet/VisualBasic/create-a-windows-forms-user-control-that-supports-simple-data-binding_1.vb)]  
+     [!CODE [VbRaddataDisplaying#3](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataDisplaying#3)]  
   
 3.  From the **Build** menu, choose **Build Solution**.  
   

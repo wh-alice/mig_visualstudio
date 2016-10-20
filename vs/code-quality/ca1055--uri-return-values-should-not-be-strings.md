@@ -57,9 +57,7 @@ translation.priority.ht:
 ## Example  
  The following example shows a type, `ErrorProne`, that violates this rule, and a type, `SaferWay`, that satisfies the rule.  
   
- [!code[FxCop.Design.UriNotString#1](../code-quality/codesnippet/CSharp/ca1055--uri-return-values-should-not-be-strings_1.cs)]
-[!code[FxCop.Design.UriNotString#1](../code-quality/codesnippet/VisualBasic/ca1055--uri-return-values-should-not-be-strings_1.vb)]
-[!code[FxCop.Design.UriNotString#1](../code-quality/codesnippet/CPP/ca1055--uri-return-values-should-not-be-strings_1.cpp)]  
+ [!CODE [FxCop.Design.UriNotString#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Design.UriNotString#1)]  
   
 ## Related Rules  
  [CA1056: URI properties should not be strings](../code-quality/ca1056--uri-properties-should-not-be-strings.md)  

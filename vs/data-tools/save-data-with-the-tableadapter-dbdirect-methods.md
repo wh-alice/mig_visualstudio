@@ -126,8 +126,7 @@ This walkthrough provides detailed instructions for running SQL statements direc
   
 2.  Replace the `InsertButton_Click` event handler with the following code:  
   
-     [!code[VbRaddataSaving#1](../data-tools/codesnippet/VisualBasic/save-data-with-the-tableadapter-dbdirect-methods_1.vb)]
-[!code[VbRaddataSaving#1](../data-tools/codesnippet/CSharp/save-data-with-the-tableadapter-dbdirect-methods_1.cs)]  
+     [!CODE [VbRaddataSaving#1](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataSaving#1)]  
   
 #### To add code to update records in the database  
   
@@ -135,8 +134,7 @@ This walkthrough provides detailed instructions for running SQL statements direc
   
 2.  Replace the `UpdateButton_Click` event handler with the following code:  
   
-     [!code[VbRaddataSaving#2](../data-tools/codesnippet/VisualBasic/save-data-with-the-tableadapter-dbdirect-methods_2.vb)]
-[!code[VbRaddataSaving#2](../data-tools/codesnippet/CSharp/save-data-with-the-tableadapter-dbdirect-methods_2.cs)]  
+     [!CODE [VbRaddataSaving#2](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataSaving#2)]  
   
 #### To add code to delete records from the database  
   
@@ -144,8 +142,7 @@ This walkthrough provides detailed instructions for running SQL statements direc
   
 2.  Replace the `DeleteButton_Click` event handler with the following code:  
   
-     [!code[VbRaddataSaving#3](../data-tools/codesnippet/VisualBasic/save-data-with-the-tableadapter-dbdirect-methods_3.vb)]
-[!code[VbRaddataSaving#3](../data-tools/codesnippet/CSharp/save-data-with-the-tableadapter-dbdirect-methods_3.cs)]  
+     [!CODE [VbRaddataSaving#3](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataSaving#3)]  
   
 ## Run the application  
   

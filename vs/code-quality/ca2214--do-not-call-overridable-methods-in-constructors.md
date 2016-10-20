@@ -57,8 +57,7 @@ translation.priority.ht:
 ## Example  
  The following example demonstrates the effect of violating this rule. The test application creates an instance of `DerivedType`, which causes its base class (`BadlyConstructedType`) constructor to execute. `BadlyConstructedType`'s constructor incorrectly calls the virtual method `DoSomething`. As the output shows, `DerivedType.DoSomething()` executes, and does so before `DerivedType`'s constructor executes.  
   
- [!code[FxCop.Usage.CtorVirtual#1](../code-quality/codesnippet/CSharp/ca2214--do-not-call-overridable-methods-in-constructors_1.cs)]
-[!code[FxCop.Usage.CtorVirtual#1](../code-quality/codesnippet/VisualBasic/ca2214--do-not-call-overridable-methods-in-constructors_1.vb)]  
+ [!CODE [FxCop.Usage.CtorVirtual#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Usage.CtorVirtual#1)]  
   
  This example produces the following output.  
   

@@ -57,8 +57,7 @@ translation.priority.ht:
 ## Example  
  The following example shows a type with an optional field and de-serialization event handling methods.  
   
- [!code[FxCop.Usage.OptionalFields#1](../code-quality/codesnippet/CSharp/ca2239--provide-deserialization-methods-for-optional-fields_1.cs)]
-[!code[FxCop.Usage.OptionalFields#1](../code-quality/codesnippet/VisualBasic/ca2239--provide-deserialization-methods-for-optional-fields_1.vb)]  
+ [!CODE [FxCop.Usage.OptionalFields#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Usage.OptionalFields#1)]  
   
 ## Related Rules  
  [CA2236: Call base class methods on ISerializable types](../code-quality/ca2236--call-base-class-methods-on-iserializable-types.md)  

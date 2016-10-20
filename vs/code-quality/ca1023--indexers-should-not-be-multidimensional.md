@@ -57,9 +57,7 @@ translation.priority.ht:
 ## Example  
  The following example shows a type, `DayOfWeek03`, with a multi-dimensional indexer that violates the rule. The indexer can be seen as a type of conversion and therefore is more appropriately exposed as a method. The type is redesigned in `RedesignedDayOfWeek03` to satisfy the rule.  
   
- [!code[FxCop.Design.OneDimensionForIndexer#1](../code-quality/codesnippet/VisualBasic/ca1023--indexers-should-not-be-multidimensional_1.vb)]
-[!code[FxCop.Design.OneDimensionForIndexer#1](../code-quality/codesnippet/CPP/ca1023--indexers-should-not-be-multidimensional_1.cpp)]
-[!code[FxCop.Design.OneDimensionForIndexer#1](../code-quality/codesnippet/CSharp/ca1023--indexers-should-not-be-multidimensional_1.cs)]  
+ [!CODE [FxCop.Design.OneDimensionForIndexer#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Design.OneDimensionForIndexer#1)]  
   
 ## Related Rules  
  [CA1043: Use integral or string argument for indexers](../code-quality/ca1043--use-integral-or-string-argument-for-indexers.md)  

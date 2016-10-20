@@ -58,8 +58,7 @@ translation.priority.mt:
 ## Example  
  The following example shows two methods that violate the rule.  
   
- [!code[FxCop.Interoperability.ComRegistration2#1](../code-quality/codesnippet/CSharp/ca1411--com-registration-methods-should-not-be-visible_1.cs)]
-[!code[FxCop.Interoperability.ComRegistration2#1](../code-quality/codesnippet/VisualBasic/ca1411--com-registration-methods-should-not-be-visible_1.vb)]  
+ [!CODE [FxCop.Interoperability.ComRegistration2#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Interoperability.ComRegistration2#1)]  
   
 ## Related Rules  
  [CA1410: COM registration methods should be matched](../code-quality/ca1410--com-registration-methods-should-be-matched.md)  

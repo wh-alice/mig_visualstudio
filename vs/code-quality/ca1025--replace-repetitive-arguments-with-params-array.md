@@ -58,4 +58,4 @@ translation.priority.mt:
 ## Example  
  The following example shows a type that violates this rule.  
   
- [!code[FxCop.Design.RepeatArgs#1](../code-quality/codesnippet/CSharp/ca1025--replace-repetitive-arguments-with-params-array_1.cs)]
+ [!CODE [FxCop.Design.RepeatArgs#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Design.RepeatArgs#1)]

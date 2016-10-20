@@ -57,9 +57,7 @@ translation.priority.ht:
 ## Example  
  The following example shows a type that violates the rule.  
   
- [!code[FxCop.Security.TypesWithLinkDemands#1](../code-quality/codesnippet/CPP/ca2126--type-link-demands-require-inheritance-demands_1.cpp)]
-[!code[FxCop.Security.TypesWithLinkDemands#1](../code-quality/codesnippet/VisualBasic/ca2126--type-link-demands-require-inheritance-demands_1.vb)]
-[!code[FxCop.Security.TypesWithLinkDemands#1](../code-quality/codesnippet/CSharp/ca2126--type-link-demands-require-inheritance-demands_1.cs)]  
+ [!CODE [FxCop.Security.TypesWithLinkDemands#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Security.TypesWithLinkDemands#1)]  
   
 ## Related Rules  
  [CA2108: Review declarative security on value types](../code-quality/ca2108--review-declarative-security-on-value-types.md)  

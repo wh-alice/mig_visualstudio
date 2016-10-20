@@ -47,7 +47,7 @@ Operator '\<operatorname>' is not defined for types '\<typename1>' and '\<typena
   
 2.  Use the `Not` operator in conjunction with the `Is` operator to denote inequality. For example:  
   
-     [!code[VbVbalrOOP#89](../misc/codesnippet/VisualBasic/operator---operatorname---is-not-defined-for-types---typename1---and---typename2--_1.vb)]  
+     [!CODE [VbVbalrOOP#89](../CodeSnippet/VS_Snippets_VBCSharp/VbVbalrOOP#89)]  
   
 ## See Also  
  [Is Operator](../Topic/Is%20Operator%20\(Visual%20Basic\).md)   

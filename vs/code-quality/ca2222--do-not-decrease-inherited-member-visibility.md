@@ -57,5 +57,4 @@ translation.priority.ht:
 ## Example  
  The following example shows a type that violates this rule.  
   
- [!code[FxCop.Usage.InheritedPublic#1](../code-quality/codesnippet/VisualBasic/ca2222--do-not-decrease-inherited-member-visibility_1.vb)]
-[!code[FxCop.Usage.InheritedPublic#1](../code-quality/codesnippet/CSharp/ca2222--do-not-decrease-inherited-member-visibility_1.cs)]
+ [!CODE [FxCop.Usage.InheritedPublic#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Usage.InheritedPublic#1)]

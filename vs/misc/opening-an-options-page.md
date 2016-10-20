@@ -45,8 +45,7 @@ You can display an options page programmatically so that users of your package c
   
      The following example displays an options page named **HelloWorldOptions**.  
   
-     [!code[UI_UserSettings_ToolsOptionPages#5](../extensibility/codesnippet/CSharp/opening-an-options-page_1.cs)]
-[!code[UI_UserSettings_ToolsOptionPages#5](../extensibility/codesnippet/VisualBasic/opening-an-options-page_1.vb)]  
+     [!CODE [UI_UserSettings_ToolsOptionPages#5](../CodeSnippet/VS_Snippets_VSSDK/ui_usersettings_toolsoptionpages#5)]  
   
 ### To display an options page that is defined by Visual Studio  
   
@@ -60,5 +59,4 @@ You can display an options page programmatically so that users of your package c
   
      The following example displays the **General** tab of the **Text Editor** options page.  
   
-     [!code[UI_UserSettings_ToolsOptionPages#6](../extensibility/codesnippet/CSharp/opening-an-options-page_2.cs)]
-[!code[UI_UserSettings_ToolsOptionPages#6](../extensibility/codesnippet/VisualBasic/opening-an-options-page_2.vb)]
+     [!CODE [UI_UserSettings_ToolsOptionPages#6](../CodeSnippet/VS_Snippets_VSSDK/ui_usersettings_toolsoptionpages#6)]

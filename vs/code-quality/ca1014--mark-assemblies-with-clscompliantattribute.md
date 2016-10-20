@@ -60,9 +60,7 @@ translation.priority.mt:
 ## Example  
  The following example shows an assembly that has the <xref:System.CLSCompliantAttribute?displayProperty=fullName> attribute applied that declares it CLS-compliant.  
   
- [!code[FxCop.Design.AssembliesCls#1](../code-quality/codesnippet/CSharp/ca1014--mark-assemblies-with-clscompliantattribute_1.cs)]
-[!code[FxCop.Design.AssembliesCls#1](../code-quality/codesnippet/CPP/ca1014--mark-assemblies-with-clscompliantattribute_1.cpp)]
-[!code[FxCop.Design.AssembliesCls#1](../code-quality/codesnippet/VisualBasic/ca1014--mark-assemblies-with-clscompliantattribute_1.vb)]  
+ [!CODE [FxCop.Design.AssembliesCls#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Design.AssembliesCls#1)]  
   
 ## See Also  
  <xref:System.CLSCompliantAttribute?displayProperty=fullName>   

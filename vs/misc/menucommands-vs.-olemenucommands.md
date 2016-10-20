@@ -113,11 +113,11 @@ You can create menu commands by deriving either from <xref:System.ComponentModel
   
 1.  Get the <xref:Microsoft.VisualStudio.Shell.OleMenuCommandService> instance, as shown in the following example.  
   
-     [!code[ButtonGroup#21](../misc/codesnippet/CSharp/menucommands-vs.-olemenucommands_5.cs)]  
+     [!CODE [ButtonGroup#21](../CodeSnippet/VS_Snippets_VSSDK/buttongroup#21)]  
   
 2.  Create a <xref:System.ComponentModel.Design.CommandID> object that has as its parameters the GUID and ID of the command to handle, as shown in the following example.  
   
-     [!code[ButtonGroup#22](../misc/codesnippet/CSharp/menucommands-vs.-olemenucommands_6.cs)]  
+     [!CODE [ButtonGroup#22](../CodeSnippet/VS_Snippets_VSSDK/buttongroup#22)]  
   
      The Visual Studio Package template provides two collections, `GuidList` and `PkgCmdIDList`, to hold the GUIDs and IDs of commands. These are populated automatically for commands that are added by the template, but for commands that you add manually, you must also add the ID entry to the `PkgCmdIdList` class.  
   
@@ -125,7 +125,7 @@ You can create menu commands by deriving either from <xref:System.ComponentModel
   
 3.  Instantiate either a <xref:System.ComponentModel.Design.MenuCommand> or <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> object that specifies the method that handles the command together with the <xref:System.ComponentModel.Design.CommandID>, as shown in the following example.  
   
-     [!code[ButtonGroup#23](../misc/codesnippet/CSharp/menucommands-vs.-olemenucommands_7.cs)]  
+     [!CODE [ButtonGroup#23](../CodeSnippet/VS_Snippets_VSSDK/buttongroup#23)]  
   
      The <xref:System.ComponentModel.Design.MenuCommand> is appropriate for static commands. Dynamic menu item displays require QueryStatus event handlers. The <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> adds the <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.BeforeQueryStatus> event, which occurs when the host menu of the command is opened, and some other properties, such as <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.Text*>.  
   
@@ -139,7 +139,7 @@ You can create menu commands by deriving either from <xref:System.ComponentModel
   
 5.  Pass the new menu command to the <xref:System.ComponentModel.Design.IMenuCommandService.AddCommand*> method in the <xref:System.ComponentModel.Design.IMenuCommandService> interface. This is accomplished by default for commands created by the package template, as shown in the following example  
   
-     [!code[ButtonGroup#24](../misc/codesnippet/CSharp/menucommands-vs.-olemenucommands_9.cs)]  
+     [!CODE [ButtonGroup#24](../CodeSnippet/VS_Snippets_VSSDK/buttongroup#24)]  
   
 6.  Implement the method that handles the command.  
   
@@ -149,8 +149,7 @@ You can create menu commands by deriving either from <xref:System.ComponentModel
   
      Add an `EventHandler` object to the <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.BeforeQueryStatus> event in the <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> object that is created to handle the command, as shown in the following example  (`menuItem` is the <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> instance).  
   
-     [!code[MenuText#14](../extensibility/codesnippet/CSharp/menucommands-vs.-olemenucommands_10.cs)]
-[!code[MenuText#14](../extensibility/codesnippet/VisualBasic/menucommands-vs.-olemenucommands_10.vb)]  
+     [!CODE [MenuText#14](../CodeSnippet/VS_Snippets_VSSDK/menutext#14)]  
   
      The `EventHandler` object is given the name of a method that is called when the status of the menu command is queried.  
   
@@ -164,8 +163,7 @@ You can create menu commands by deriving either from <xref:System.ComponentModel
   
      To change the text of a menu command, use the <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.Text*> property on the <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> object, as shown in the following example.  
   
-     [!code[MenuText#11](../extensibility/codesnippet/CSharp/menucommands-vs.-olemenucommands_11.cs)]
-[!code[MenuText#11](../extensibility/codesnippet/VisualBasic/menucommands-vs.-olemenucommands_11.vb)]  
+     [!CODE [MenuText#11](../CodeSnippet/VS_Snippets_VSSDK/menutext#11)]  
   
  The MPF automatically handles the case of unsupported or unknown groups. Unless a command has been added to the <xref:Microsoft.VisualStudio.Shell.OleMenuCommandService> by using the <xref:System.ComponentModel.Design.IMenuCommandService.AddCommand*> method, the command is not supported.  
   

@@ -71,58 +71,47 @@ Smart tags are deprecated in favor of light bulbs. See [Walkthrough: Displaying 
   
 2.  Add the following imports:  
   
-     [!code[VSSDKSmartTagTest#1](../misc/codesnippet/CSharp/walkthrough--displaying-smarttags_1.cs)]
-[!code[VSSDKSmartTagTest#1](../misc/codesnippet/VisualBasic/walkthrough--displaying-smarttags_1.vb)]  
+     [!CODE [VSSDKSmartTagTest#1](../CodeSnippet/VS_Snippets_VSSDK/vssdksmarttagtest#1)]  
   
 3.  Add a class named `TestSmartTag` that inherits from <xref:Microsoft.VisualStudio.Language.Intellisense.SmartTag>.  
   
-     [!code[VSSDKSmartTagTest#2](../misc/codesnippet/CSharp/walkthrough--displaying-smarttags_2.cs)]
-[!code[VSSDKSmartTagTest#2](../misc/codesnippet/VisualBasic/walkthrough--displaying-smarttags_2.vb)]  
+     [!CODE [VSSDKSmartTagTest#2](../CodeSnippet/VS_Snippets_VSSDK/vssdksmarttagtest#2)]  
   
 4.  Add a constructor for this class that calls the base constructor with a <xref:Microsoft.VisualStudio.Language.Intellisense.SmartTagType> of <xref:Microsoft.VisualStudio.Language.Intellisense.SmartTagType>, which will cause a blue line to appear under the first character of a word. (If you use <xref:Microsoft.VisualStudio.Language.Intellisense.SmartTagType>, a red line will appear under the last character of the word.)  
   
-     [!code[VSSDKSmartTagTest#3](../misc/codesnippet/CSharp/walkthrough--displaying-smarttags_3.cs)]
-[!code[VSSDKSmartTagTest#3](../misc/codesnippet/VisualBasic/walkthrough--displaying-smarttags_3.vb)]  
+     [!CODE [VSSDKSmartTagTest#3](../CodeSnippet/VS_Snippets_VSSDK/vssdksmarttagtest#3)]  
   
 5.  Add a class named `TestSmartTagger` that inherits from <xref:Microsoft.VisualStudio.Text.Tagging.ITagger`1> of type `TestSmartTag`, and implements <xref:System.IDisposable>.  
   
-     [!code[VSSDKSmartTagTest#4](../misc/codesnippet/CSharp/walkthrough--displaying-smarttags_4.cs)]
-[!code[VSSDKSmartTagTest#4](../misc/codesnippet/VisualBasic/walkthrough--displaying-smarttags_4.vb)]  
+     [!CODE [VSSDKSmartTagTest#4](../CodeSnippet/VS_Snippets_VSSDK/vssdksmarttagtest#4)]  
   
 6.  Add the following private fields to the tagger class.  
   
-     [!code[VSSDKSmartTagTest#5](../misc/codesnippet/CSharp/walkthrough--displaying-smarttags_5.cs)]
-[!code[VSSDKSmartTagTest#5](../misc/codesnippet/VisualBasic/walkthrough--displaying-smarttags_5.vb)]  
+     [!CODE [VSSDKSmartTagTest#5](../CodeSnippet/VS_Snippets_VSSDK/vssdksmarttagtest#5)]  
   
 7.  Add a constructor that sets the private fields, and subscribes to the <xref:Microsoft.VisualStudio.Text.Editor.ITextView.LayoutChanged> event.  
   
-     [!code[VSSDKSmartTagTest#6](../misc/codesnippet/CSharp/walkthrough--displaying-smarttags_6.cs)]
-[!code[VSSDKSmartTagTest#6](../misc/codesnippet/VisualBasic/walkthrough--displaying-smarttags_6.vb)]  
+     [!CODE [VSSDKSmartTagTest#6](../CodeSnippet/VS_Snippets_VSSDK/vssdksmarttagtest#6)]  
   
 8.  Implement <xref:Microsoft.VisualStudio.Text.Tagging.ITagger`1.GetTags*> so that the tag is created for the current word. (This method also calls a private method `GetSmartTagActions` that is explained later.)  
   
-     [!code[VSSDKSmartTagTest#7](../misc/codesnippet/CSharp/walkthrough--displaying-smarttags_7.cs)]
-[!code[VSSDKSmartTagTest#7](../misc/codesnippet/VisualBasic/walkthrough--displaying-smarttags_7.vb)]  
+     [!CODE [VSSDKSmartTagTest#7](../CodeSnippet/VS_Snippets_VSSDK/vssdksmarttagtest#7)]  
   
 9. Add a `GetSmartTagActions` method to set up the smart tag actions. The actions themselves are implemented in later steps.  
   
-     [!code[VSSDKSmartTagTest#8](../misc/codesnippet/CSharp/walkthrough--displaying-smarttags_8.cs)]
-[!code[VSSDKSmartTagTest#8](../misc/codesnippet/VisualBasic/walkthrough--displaying-smarttags_8.vb)]  
+     [!CODE [VSSDKSmartTagTest#8](../CodeSnippet/VS_Snippets_VSSDK/vssdksmarttagtest#8)]  
   
 10. Declare the `SmartTagsChanged` event.  
   
-     [!code[VSSDKSmartTagTest#9](../misc/codesnippet/CSharp/walkthrough--displaying-smarttags_9.cs)]
-[!code[VSSDKSmartTagTest#9](../misc/codesnippet/VisualBasic/walkthrough--displaying-smarttags_9.vb)]  
+     [!CODE [VSSDKSmartTagTest#9](../CodeSnippet/VS_Snippets_VSSDK/vssdksmarttagtest#9)]  
   
 11. Implement the `OnLayoutChanged` event handler to raise the `TagsChanged` event, which causes <xref:Microsoft.VisualStudio.Text.Tagging.ITagger`1.GetTags*> to be called.  
   
-     [!code[VSSDKSmartTagTest#10](../misc/codesnippet/CSharp/walkthrough--displaying-smarttags_10.cs)]
-[!code[VSSDKSmartTagTest#10](../misc/codesnippet/VisualBasic/walkthrough--displaying-smarttags_10.vb)]  
+     [!CODE [VSSDKSmartTagTest#10](../CodeSnippet/VS_Snippets_VSSDK/vssdksmarttagtest#10)]  
   
 12. Implement the <xref:System.IDisposable.Dispose*> method so that it unsubscribes from the <xref:Microsoft.VisualStudio.Text.Editor.ITextView.LayoutChanged> event.  
   
-     [!code[VSSDKSmartTagTest#11](../misc/codesnippet/CSharp/walkthrough--displaying-smarttags_11.cs)]
-[!code[VSSDKSmartTagTest#11](../misc/codesnippet/VisualBasic/walkthrough--displaying-smarttags_11.vb)]  
+     [!CODE [VSSDKSmartTagTest#11](../CodeSnippet/VS_Snippets_VSSDK/vssdksmarttagtest#11)]  
   
 ## Implementing the Smart Tag Tagger Provider  
   
@@ -130,18 +119,15 @@ Smart tags are deprecated in favor of light bulbs. See [Walkthrough: Displaying 
   
 1.  Add a class named `TestSmartTagTaggerProvider` that inherits from <xref:Microsoft.VisualStudio.Text.Tagging.IViewTaggerProvider>. Export it with a <xref:Microsoft.VisualStudio.Utilities.ContentTypeAttribute> of "text", a <xref:Microsoft.VisualStudio.Utilities.OrderAttribute> of Before="default", and a <xref:Microsoft.VisualStudio.Text.Tagging.TagTypeAttribute> of <xref:Microsoft.VisualStudio.Language.Intellisense.SmartTag>.  
   
-     [!code[VSSDKSmartTagTest#12](../misc/codesnippet/CSharp/walkthrough--displaying-smarttags_12.cs)]
-[!code[VSSDKSmartTagTest#12](../misc/codesnippet/VisualBasic/walkthrough--displaying-smarttags_12.vb)]  
+     [!CODE [VSSDKSmartTagTest#12](../CodeSnippet/VS_Snippets_VSSDK/vssdksmarttagtest#12)]  
   
 2.  Import the <xref:Microsoft.VisualStudio.Text.Operations.ITextStructureNavigatorSelectorService> as a property.  
   
-     [!code[VSSDKSmartTagTest#13](../misc/codesnippet/CSharp/walkthrough--displaying-smarttags_13.cs)]
-[!code[VSSDKSmartTagTest#13](../misc/codesnippet/VisualBasic/walkthrough--displaying-smarttags_13.vb)]  
+     [!CODE [VSSDKSmartTagTest#13](../CodeSnippet/VS_Snippets_VSSDK/vssdksmarttagtest#13)]  
   
 3.  Implement the <xref:Microsoft.VisualStudio.Text.Tagging.IViewTaggerProvider.CreateTagger*> method.  
   
-     [!code[VSSDKSmartTagTest#14](../misc/codesnippet/CSharp/walkthrough--displaying-smarttags_14.cs)]
-[!code[VSSDKSmartTagTest#14](../misc/codesnippet/VisualBasic/walkthrough--displaying-smarttags_14.vb)]  
+     [!CODE [VSSDKSmartTagTest#14](../CodeSnippet/VS_Snippets_VSSDK/vssdksmarttagtest#14)]  
   
 ## Implementing Smart Tag Actions  
   
@@ -149,33 +135,27 @@ Smart tags are deprecated in favor of light bulbs. See [Walkthrough: Displaying 
   
 1.  Create two classes, the first named `UpperCaseSmartTagAction` and the second named `LowerCaseSmartTagAction`. Both classes implement <xref:Microsoft.VisualStudio.Language.Intellisense.ISmartTagAction>.  
   
-     [!code[VSSDKSmartTagTest#15](../misc/codesnippet/CSharp/walkthrough--displaying-smarttags_15.cs)]
-[!code[VSSDKSmartTagTest#15](../misc/codesnippet/VisualBasic/walkthrough--displaying-smarttags_15.vb)]  
+     [!CODE [VSSDKSmartTagTest#15](../CodeSnippet/VS_Snippets_VSSDK/vssdksmarttagtest#15)]  
   
-     [!code[VSSDKSmartTagTest#16](../misc/codesnippet/CSharp/walkthrough--displaying-smarttags_16.cs)]
-[!code[VSSDKSmartTagTest#16](../misc/codesnippet/VisualBasic/walkthrough--displaying-smarttags_16.vb)]  
+     [!CODE [VSSDKSmartTagTest#16](../CodeSnippet/VS_Snippets_VSSDK/vssdksmarttagtest#16)]  
   
  Both classes are alike except that one calls <xref:System.String.ToUpper*> and the other calls <xref:System.String.ToLower*>. The following steps cover only the uppercase action class, but you must implement both classes. Use the steps for implementing the uppercase action as a pattern for implementing the lowercase action.  
   
 1.  Declare a set of private fields.  
   
-     [!code[VSSDKSmartTagTest#17](../misc/codesnippet/CSharp/walkthrough--displaying-smarttags_17.cs)]
-[!code[VSSDKSmartTagTest#17](../misc/codesnippet/VisualBasic/walkthrough--displaying-smarttags_17.vb)]  
+     [!CODE [VSSDKSmartTagTest#17](../CodeSnippet/VS_Snippets_VSSDK/vssdksmarttagtest#17)]  
   
 2.  Add a constructor that sets the fields.  
   
-     [!code[VSSDKSmartTagTest#18](../misc/codesnippet/CSharp/walkthrough--displaying-smarttags_18.cs)]
-[!code[VSSDKSmartTagTest#18](../misc/codesnippet/VisualBasic/walkthrough--displaying-smarttags_18.vb)]  
+     [!CODE [VSSDKSmartTagTest#18](../CodeSnippet/VS_Snippets_VSSDK/vssdksmarttagtest#18)]  
   
 3.  Implement the properties as follows.  
   
-     [!code[VSSDKSmartTagTest#19](../misc/codesnippet/CSharp/walkthrough--displaying-smarttags_19.cs)]
-[!code[VSSDKSmartTagTest#19](../misc/codesnippet/VisualBasic/walkthrough--displaying-smarttags_19.vb)]  
+     [!CODE [VSSDKSmartTagTest#19](../CodeSnippet/VS_Snippets_VSSDK/vssdksmarttagtest#19)]  
   
 4.  Implement the <xref:Microsoft.VisualStudio.Language.Intellisense.ISmartTagAction.Invoke*> method by replacing the text in the span with its uppercase equivalent.  
   
-     [!code[VSSDKSmartTagTest#20](../misc/codesnippet/CSharp/walkthrough--displaying-smarttags_20.cs)]
-[!code[VSSDKSmartTagTest#20](../misc/codesnippet/VisualBasic/walkthrough--displaying-smarttags_20.vb)]  
+     [!CODE [VSSDKSmartTagTest#20](../CodeSnippet/VS_Snippets_VSSDK/vssdksmarttagtest#20)]  
   
 ## Building and Testing the Code  
  To test this code, build the SmartTagTest solution and run it in the experimental instance.  

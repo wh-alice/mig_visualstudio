@@ -72,7 +72,7 @@ You can create a custom Start Page either by using the Start Page Project Templa
   
 3.  Remove all of the page content, leaving only the outer xml elements and the containing grid <xref:System.Windows.Controls.Grid> element, so that your .xaml file resembles the following example.  
   
-     [!code[BlankStartPage#01](../misc/codesnippet/Xaml/creating-your-own-start-page_1.xaml)]  
+     [!CODE [BlankStartPage#01](../CodeSnippet/VS_Snippets_VSSDK/blankstartpage#01)]  
   
 4.  Remove any supporting files you do not intend to use.  
   

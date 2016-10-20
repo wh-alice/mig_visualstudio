@@ -49,8 +49,7 @@ Sometimes you may need to get a service from a tool window or control container 
   
 -   Insert this code in the constructor, tool window, or control container:  
   
-     [!code[UseGetGlobalService#1](../misc/codesnippet/VisualBasic/how-to--use-getglobalservice_1.vb)]
-[!code[UseGetGlobalService#1](../misc/codesnippet/CSharp/how-to--use-getglobalservice_1.cs)]  
+     [!CODE [UseGetGlobalService#1](../CodeSnippet/VS_Snippets_VSSDK/usegetglobalservice#1)]  
   
      This code obtains an SVsActivityLog service and casts it to an <xref:Microsoft.VisualStudio.Shell.Interop.IVsActivityLog> interface, which can be used to write to the activity log. For an example, see [How to: Use the Activity Log](../extensibility/how-to--use-the-activity-log.md).  
   

@@ -258,7 +258,7 @@ namespace SimpleTask2
  This [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] class demonstrates a task that derives from the <xref:Microsoft.Build.Utilities.Task> helper class. It has a required string property, and raises an event that is displayed by all registered loggers.  
   
 ### Code  
- [!code[msbuild_SimpleTask3#1](../reference/codesnippet/CSharp/task-writing_1.cs)]  
+ [!CODE [msbuild_SimpleTask3#1](../CodeSnippet/VS_Snippets_Misc/msbuild_SimpleTask3#1)]  
   
 ## Example  
   

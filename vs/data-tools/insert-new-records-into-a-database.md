@@ -62,8 +62,7 @@ To insert new records into a database, you can use the `TableAdapter.Update` met
   
      The following code shows how to add a new record to a <xref:System.Data.DataTable> and then call the `TableAdapter.Update` method to save the new row to the database. (This example uses the `Region` table in the Northwind database.)  
   
-     [!code[VbRaddataSaving#14](../data-tools/codesnippet/VisualBasic/insert-new-records-into-a-database_1.vb)]
-[!code[VbRaddataSaving#14](../data-tools/codesnippet/CSharp/insert-new-records-into-a-database_1.cs)]  
+     [!CODE [VbRaddataSaving#14](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataSaving#14)]  
   
  If your application uses objects to store  data, you can use the `TableAdapter.Insert` method to create new rows directly in the database. The `Insert` method accepts the individual values for each column as parameters. Calling the method inserts a new record into the database with the parameter values passed in.  
   
@@ -76,8 +75,7 @@ To insert new records into a database, you can use the `TableAdapter.Update` met
     > [!NOTE]
     >  If you do not have an instance available, instantiate the TableAdapter you want to use.  
   
-     [!code[VbRaddataSaving#15](../data-tools/codesnippet/VisualBasic/insert-new-records-into-a-database_2.vb)]
-[!code[VbRaddataSaving#15](../data-tools/codesnippet/CSharp/insert-new-records-into-a-database_2.cs)]  
+     [!CODE [VbRaddataSaving#15](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataSaving#15)]  
   
 ## Insert new records by using command objects  
  The following example inserts new records directly into a database using command objects. For more information about using command objects to run commands and stored procedures, see [Fetching Data into Your Application](../data-tools/fetching-data-into-your-application.md).  
@@ -88,8 +86,7 @@ To insert new records into a database, you can use the `TableAdapter.Update` met
   
 -   Create a new command object, and then set its `Connection`, `CommandType`, and `CommandText` properties.  
   
-     [!code[VbRaddataSaving#16](../data-tools/codesnippet/VisualBasic/insert-new-records-into-a-database_3.vb)]
-[!code[VbRaddataSaving#16](../data-tools/codesnippet/CSharp/insert-new-records-into-a-database_3.cs)]  
+     [!CODE [VbRaddataSaving#16](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataSaving#16)]  
   
 ## .NET Framework Security  
  You must have access to the database you are trying to connect to, as well as permission to perform inserts into the desired table.  

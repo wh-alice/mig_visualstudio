@@ -59,4 +59,4 @@ translation.priority.ht:
 ## Example  
  The following example shows a type that violates this rule.  
   
- [!code[FxCop.Design.SealedVirtual#1](../code-quality/codesnippet/CPP/ca1048--do-not-declare-virtual-members-in-sealed-types_1.cpp)]
+ [!CODE [FxCop.Design.SealedVirtual#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Design.SealedVirtual#1)]

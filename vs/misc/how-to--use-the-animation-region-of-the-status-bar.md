@@ -46,8 +46,7 @@ The Animation region of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md
 ## Example  
  This example demonstrates how to run a built-in animation in the Animation region.  
   
- [!code[VSSDKAnimationStatusBar#1](../misc/codesnippet/CSharp/how-to--use-the-animation-region-of-the-status-bar_1.cs)]
-[!code[VSSDKAnimationStatusBar#1](../misc/codesnippet/VisualBasic/how-to--use-the-animation-region-of-the-status-bar_1.vb)]  
+ [!CODE [VSSDKAnimationStatusBar#1](../CodeSnippet/VS_Snippets_VSSDK/vssdkanimationstatusbar#1)]  
   
 ## See Also  
  [Extending the Status Bar](../extensibility/extending-the-status-bar.md)   

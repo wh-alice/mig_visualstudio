@@ -83,9 +83,7 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
   
 5.  Paste the following code for your chosen language into the empty code file.  
   
- [!code[Debugger#1](../debugger/codesnippet/CSharp/walkthrough--debugging-a-parallel-application_1.cs)]
-[!code[Debugger#1](../debugger/codesnippet/CPP/walkthrough--debugging-a-parallel-application_1.cpp)]
-[!code[Debugger#1](../debugger/codesnippet/VisualBasic/walkthrough--debugging-a-parallel-application_1.vb)]  
+ [!CODE [Debugger#1](../CodeSnippet/VS_Snippets_Misc/debugger#1)]  
   
 1.  On the **File** menu, click **Save All**.  
   

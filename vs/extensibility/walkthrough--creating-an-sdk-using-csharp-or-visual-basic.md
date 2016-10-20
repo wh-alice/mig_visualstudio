@@ -52,8 +52,7 @@ In this walkthrough, you’ll learn how to create a simple Math Library SDK by u
   
 5.  Rename **Class1.cs** to **Arithmetic.cs** and update it to match the following code:  
   
-     [!code[CreatingAnSDKUsingWinRT#3](../extensibility/codesnippet/CSharp/walkthrough--creating-an-sdk-using-csharp-or-visual-basic_1.cs)]
-[!code[CreatingAnSDKUsingWinRT#3](../extensibility/codesnippet/VisualBasic/walkthrough--creating-an-sdk-using-csharp-or-visual-basic_1.vb)]  
+     [!CODE [CreatingAnSDKUsingWinRT#3](../CodeSnippet/VS_Snippets_VSSDK/creatingansdkusingwinrt#3)]  
   
 6.  In **Solution Explorer**, open the shortcut menu for the **Solution 'SimpleMath'** node, and then choose **Configuration Manager**.  
   
@@ -96,8 +95,7 @@ In this walkthrough, you’ll learn how to create a simple Math Library SDK by u
   
 12. Replace the contents of the file with the following XML:  
   
-     [!code[CreatingAnSDKUsingWinRT#1](../extensibility/codesnippet/XML/walkthrough--creating-an-sdk-using-csharp-or-visual-basic_3.xml)]
-[!code[CreatingAnSDKUsingWinRT#1](../extensibility/codesnippet/XML/walkthrough--creating-an-sdk-using-csharp-or-visual-basic_3.xml)]  
+     [!CODE [CreatingAnSDKUsingWinRT#1](../CodeSnippet/VS_Snippets_VSSDK/creatingansdkusingwinrt#1)]  
   
 13. In **Solution Explorer**, open the shortcut menu for the **SimpleMathVSIX** project, choose **Add**, and then choose **New Folder**.  
   
@@ -168,13 +166,11 @@ In this walkthrough, you’ll learn how to create a simple Math Library SDK by u
   
 10. In **Solution Explorer**, open MainPage.xaml, and replace its contents with the following XAML:  
   
-     [!code[CreatingAnSDKUsingWinRTDemoApp#1](../extensibility/codesnippet/Xaml/walkthrough--creating-an-sdk-using-csharp-or-visual-basic_4.xaml)]
-[!code[CreatingAnSDKUsingWinRTDemoApp#1](../extensibility/codesnippet/Xaml/walkthrough--creating-an-sdk-using-csharp-or-visual-basic_4.xaml)]  
+     [!CODE [CreatingAnSDKUsingWinRTDemoApp#1](../CodeSnippet/VS_Snippets_VSSDK/creatingansdkusingwinrtdemoapp#1)]  
   
 11. Update MainPage.xaml.cs to match the following code:  
   
-     [!code[CreatingAnSDKUsingWinRTDemoApp#2](../extensibility/codesnippet/CSharp/walkthrough--creating-an-sdk-using-csharp-or-visual-basic_5.cs)]
-[!code[CreatingAnSDKUsingWinRTDemoApp#2](../extensibility/codesnippet/VisualBasic/walkthrough--creating-an-sdk-using-csharp-or-visual-basic_5.vb)]  
+     [!CODE [CreatingAnSDKUsingWinRTDemoApp#2](../CodeSnippet/VS_Snippets_VSSDK/creatingansdkusingwinrtdemoapp#2)]  
   
 12. Choose the F5 key to run the app.  
   

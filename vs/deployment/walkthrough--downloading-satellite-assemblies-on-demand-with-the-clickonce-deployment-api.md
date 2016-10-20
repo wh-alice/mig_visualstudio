@@ -59,8 +59,7 @@ Windows Forms applications can be configured for multiple cultures through the u
   
 1.  Add the following code to your application to enable on-demand downloading of satellite assemblies.  
   
-     [!code[ClickOnce.SatelliteAssembliesSDK#1](../deployment/codesnippet/CSharp/walkthrough--downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api_1.cs)]
-[!code[ClickOnce.SatelliteAssembliesSDK#1](../deployment/codesnippet/VisualBasic/walkthrough--downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api_1.vb)]  
+     [!CODE [ClickOnce.SatelliteAssembliesSDK#1](../CodeSnippet/VS_Snippets_Winforms/ClickOnce.SatelliteAssembliesSDK#1)]  
   
 2.  Generate satellite assemblies for your application by using [Resgen.exe (Resource File Generator)](../Topic/Resgen.exe%20\(Resource%20File%20Generator\).md) or [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   

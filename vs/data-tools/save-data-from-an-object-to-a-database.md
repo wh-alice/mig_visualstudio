@@ -58,8 +58,7 @@ You can save data in objects to a database by passing the values from your objec
   
      The following example creates a new customer record in the `Customers` table by passing the values in the `currentCustomer` object to the `TableAdapter.Insert` method.  
   
-     [!code[VbRaddataSaving#23](../data-tools/codesnippet/CSharp/save-data-from-an-object-to-a-database_1.cs)]
-[!code[VbRaddataSaving#23](../data-tools/codesnippet/VisualBasic/save-data-from-an-object-to-a-database_1.vb)]  
+     [!CODE [VbRaddataSaving#23](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataSaving#23)]  
   
 ### To update existing records from an object to a database  
   
@@ -70,8 +69,7 @@ You can save data in objects to a database by passing the values from your objec
   
      The following example updates an existing record in the `Customers` table by passing the new and original values in the `Customer` object to the `TableAdapter.Update` method.  
   
-     [!code[VbRaddataSaving#24](../data-tools/codesnippet/CSharp/save-data-from-an-object-to-a-database_2.cs)]
-[!code[VbRaddataSaving#24](../data-tools/codesnippet/VisualBasic/save-data-from-an-object-to-a-database_2.vb)]  
+     [!CODE [VbRaddataSaving#24](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataSaving#24)]  
   
 ### To delete existing records from a database  
   
@@ -82,8 +80,7 @@ You can save data in objects to a database by passing the values from your objec
   
      The following example deletes a record from the `Customers` table by passing the original values in the `Customer` object to the `TableAdapter.Delete` method.  
   
-     [!code[VbRaddataSaving#25](../data-tools/codesnippet/CSharp/save-data-from-an-object-to-a-database_3.cs)]
-[!code[VbRaddataSaving#25](../data-tools/codesnippet/VisualBasic/save-data-from-an-object-to-a-database_3.vb)]  
+     [!CODE [VbRaddataSaving#25](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataSaving#25)]  
   
 ## .NET Framework Security  
  You must have permission to perform the selected INSERT, UPDATE, or DELETE on the table in the database.  

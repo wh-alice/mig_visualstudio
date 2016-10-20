@@ -55,8 +55,7 @@ TableAdapters are designer-generated components that connect to a database, exec
   
  While TableAdapters are designed with the **Dataset Designer**, the TableAdapter classes generated are not generated as nested classes of the <xref:System.Data.DataSet>. They are located in a separate namespace specific to each dataset. For example, if you have a dataset named `NorthwindDataSet`, the TableAdapters associated with the <xref:System.Data.DataTable>s in the `NorthwindDataSet` would be in the `NorthwindDataSetTableAdapters` namespace. To access a particular TableAdapter programmatically, you must declare a new instance of the TableAdapter. For example:  
   
- [!code[VbRaddataTableAdapters#7](../data-tools/codesnippet/CSharp/tableadapter-overview_1.cs)]
-[!code[VbRaddataTableAdapters#7](../data-tools/codesnippet/VisualBasic/tableadapter-overview_1.vb)]  
+ [!CODE [VbRaddataTableAdapters#7](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataTableAdapters#7)]  
   
 ## Associated DataTable Schema  
  When creating a TableAdapter, the initial query or stored procedure is used to define the schema of the TableAdapter's associated <xref:System.Data.DataTable>. You execute this initial query or stored procedure by calling the TableAdapter's `Fill` method (which fills the TableAdapter's associated <xref:System.Data.DataTable>). Any changes made to the TableAdapter's main query are reflected in the schema of the associated data table. For example, removing a column from the main query removes the column from the associated data table. If any additional queries on the TableAdapter use SQL statements returning columns that are not in the main query, then the designer will attempt to synchronize the column changes between the main query and any additional queries. For more information, see [How to: Edit TableAdapters](../Topic/How%20to:%20Edit%20TableAdapters.md).  

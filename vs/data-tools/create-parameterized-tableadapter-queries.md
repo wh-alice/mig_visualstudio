@@ -103,8 +103,7 @@ A parameterized query returns data that meets the conditions of a WHERE clause w
   
  If this were a query on a TableAdapter, you could query for all orders that have not been shipped with the following code:  
   
- [!code[VbRaddataTableAdapters#8](../data-tools/codesnippet/CSharp/create-parameterized-tableadapter-queries_1.cs)]
-[!code[VbRaddataTableAdapters#8](../data-tools/codesnippet/VisualBasic/create-parameterized-tableadapter-queries_1.vb)]  
+ [!CODE [VbRaddataTableAdapters#8](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataTableAdapters#8)]  
   
 #### To enable a query to accept null values  
   

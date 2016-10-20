@@ -57,9 +57,7 @@ translation.priority.ht:
 ## Example  
  The following example shows a method, `ErrorProne`, which violates the rule and a method, `SaferWay`, which correctly calls the <xref:System.Uri> overload.  
   
- [!code[FxCop.Usage.PassUri#1](../code-quality/codesnippet/VisualBasic/ca2234--pass-system.uri-objects-instead-of-strings_1.vb)]
-[!code[FxCop.Usage.PassUri#1](../code-quality/codesnippet/CPP/ca2234--pass-system.uri-objects-instead-of-strings_1.cpp)]
-[!code[FxCop.Usage.PassUri#1](../code-quality/codesnippet/CSharp/ca2234--pass-system.uri-objects-instead-of-strings_1.cs)]  
+ [!CODE [FxCop.Usage.PassUri#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Usage.PassUri#1)]  
   
 ## Related Rules  
  [CA1057: String URI overloads call System.Uri overloads](../code-quality/ca1057--string-uri-overloads-call-system.uri-overloads.md)  

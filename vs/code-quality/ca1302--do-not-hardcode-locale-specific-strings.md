@@ -60,8 +60,7 @@ translation.priority.mt:
 ## Example  
  The following example builds the path of the common application data folder, which generates three warnings from this rule. Next, the example retrieves the path by using the <xref:System.Environment.GetFolderPath*> method.  
   
- [!code[FxCop.Globalization.HardcodedLocaleStrings#1](../code-quality/codesnippet/CSharp/ca1302--do-not-hardcode-locale-specific-strings_1.cs)]
-[!code[FxCop.Globalization.HardcodedLocaleStrings#1](../code-quality/codesnippet/VisualBasic/ca1302--do-not-hardcode-locale-specific-strings_1.vb)]  
+ [!CODE [FxCop.Globalization.HardcodedLocaleStrings#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Globalization.HardcodedLocaleStrings#1)]  
   
 ## Related Rules  
  [CA1303: Do not pass literals as localized parameters](../code-quality/ca1303--do-not-pass-literals-as-localized-parameters.md)

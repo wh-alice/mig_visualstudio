@@ -59,6 +59,4 @@ translation.priority.ht:
 ## Example  
  The following example shows an empty interface.  
   
- [!code[FxCop.Design.InterfacesNotEmpty#1](../code-quality/codesnippet/CSharp/ca1040--avoid-empty-interfaces_1.cs)]
-[!code[FxCop.Design.InterfacesNotEmpty#1](../code-quality/codesnippet/CPP/ca1040--avoid-empty-interfaces_1.cpp)]
-[!code[FxCop.Design.InterfacesNotEmpty#1](../code-quality/codesnippet/VisualBasic/ca1040--avoid-empty-interfaces_1.vb)]
+ [!CODE [FxCop.Design.InterfacesNotEmpty#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Design.InterfacesNotEmpty#1)]

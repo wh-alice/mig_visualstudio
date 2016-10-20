@@ -58,8 +58,7 @@ translation.priority.mt:
 ## Example  
  The following example shows a type that violates the rule.  
   
- [!code[FxCop.Interoperability.ComBaseTypes#1](../code-quality/codesnippet/VisualBasic/ca1405--com-visible-type-base-types-should-be-com-visible_1.vb)]
-[!code[FxCop.Interoperability.ComBaseTypes#1](../code-quality/codesnippet/CSharp/ca1405--com-visible-type-base-types-should-be-com-visible_1.cs)]  
+ [!CODE [FxCop.Interoperability.ComBaseTypes#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Interoperability.ComBaseTypes#1)]  
   
 ## See Also  
  <xref:System.Runtime.InteropServices.ClassInterfaceAttribute?displayProperty=fullName>   

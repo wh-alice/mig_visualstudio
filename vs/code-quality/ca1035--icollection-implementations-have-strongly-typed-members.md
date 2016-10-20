@@ -61,7 +61,7 @@ translation.priority.ht:
 ## Example  
  The following example demonstrates the correct way to implement <xref:System.Collections.ICollection>.  
   
- [!code[FxCop.Design.ICollectionStrongTypes#1](../code-quality/codesnippet/CSharp/ca1035--icollection-implementations-have-strongly-typed-members_1.cs)]  
+ [!CODE [FxCop.Design.ICollectionStrongTypes#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Design.ICollectionStrongTypes#1)]  
   
 ## Related Rules  
  [CA1038: Enumerators should be strongly typed](../code-quality/ca1038--enumerators-should-be-strongly-typed.md)  

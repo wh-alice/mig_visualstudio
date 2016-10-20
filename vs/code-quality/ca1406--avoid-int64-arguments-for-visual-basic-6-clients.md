@@ -60,8 +60,7 @@ translation.priority.mt:
 ## Example  
  The following example shows a type that violates the rule.  
   
- [!code[FxCop.Interoperability.LongArgument#1](../code-quality/codesnippet/CSharp/ca1406--avoid-int64-arguments-for-visual-basic-6-clients_1.cs)]
-[!code[FxCop.Interoperability.LongArgument#1](../code-quality/codesnippet/VisualBasic/ca1406--avoid-int64-arguments-for-visual-basic-6-clients_1.vb)]  
+ [!CODE [FxCop.Interoperability.LongArgument#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Interoperability.LongArgument#1)]  
   
 ## Related Rules  
  [CA1413: Avoid non-public fields in COM visible value types](../code-quality/ca1413--avoid-non-public-fields-in-com-visible-value-types.md)  

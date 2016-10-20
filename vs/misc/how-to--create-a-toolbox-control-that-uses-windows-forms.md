@@ -72,7 +72,7 @@ The Windows Forms Toolbox Control template that is included in the [!INCLUDE[vss
   
      The following example shows the `ProvideToolboxControl` attribute and the adjusted class definition for a control named `Counter` in the `General` item group.  
   
-     [!code[ToolboxControlWinForms#07](../misc/codesnippet/CSharp/how-to--create-a-toolbox-control-that-uses-windows-forms_1.cs)]  
+     [!CODE [ToolboxControlWinForms#07](../CodeSnippet/VS_Snippets_VSSDK/toolboxcontrolwinforms#07)]  
   
 4.  Implement the properties, methods, and events for the control.  
   

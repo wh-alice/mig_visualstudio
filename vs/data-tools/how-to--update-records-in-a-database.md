@@ -73,8 +73,7 @@ You can use the `TableAdapter.Update` method to update (edit) records in a datab
   
      The following code shows how to edit a record in a <xref:System.Data.DataTable> and then call the `TableAdapter.Update` method to save the changes to the database. (This example uses the Northwind database Region table.)  
   
-     [!code[VbRaddataSaving#17](../data-tools/codesnippet/VisualBasic/how-to--update-records-in-a-database_1.vb)]
-[!code[VbRaddataSaving#17](../data-tools/codesnippet/CSharp/how-to--update-records-in-a-database_1.cs)]  
+     [!CODE [VbRaddataSaving#17](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataSaving#17)]  
   
  If your application uses objects to store the data in your application, you can use the TableAdapter's `DBDirect` methods to send data from your objects directly to the database. These methods allow you to pass individual values for each column as method parameters. Calling this method updates an existing record in the database with the column values passed into the method.  
   
@@ -87,8 +86,7 @@ You can use the `TableAdapter.Update` method to update (edit) records in a datab
     > [!NOTE]
     >  If you do not have an instance available, instantiate the TableAdapter you want to use.  
   
-     [!code[VbRaddataSaving#18](../data-tools/codesnippet/VisualBasic/how-to--update-records-in-a-database_2.vb)]
-[!code[VbRaddataSaving#18](../data-tools/codesnippet/CSharp/how-to--update-records-in-a-database_2.cs)]  
+     [!CODE [VbRaddataSaving#18](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataSaving#18)]  
   
 ## Update Records Using Command Objects  
  The following example updates existing records directly in a database using command objects. For more information on using command objects to execute commands and stored procedures, see [Fetching Data into Your Application](../data-tools/fetching-data-into-your-application.md).  
@@ -99,8 +97,7 @@ You can use the `TableAdapter.Update` method to update (edit) records in a datab
   
 -   Create a new command object; set its `Connection`, `CommandType`, and `CommandText` properties; and then open a connection and execute the command.  
   
-     [!code[VbRaddataSaving#19](../data-tools/codesnippet/VisualBasic/how-to--update-records-in-a-database_3.vb)]
-[!code[VbRaddataSaving#19](../data-tools/codesnippet/CSharp/how-to--update-records-in-a-database_3.cs)]  
+     [!CODE [VbRaddataSaving#19](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataSaving#19)]  
   
 ## .NET Framework Security  
  You must have access to the database you are trying to connect to, as well as permission to update records in the desired table.  

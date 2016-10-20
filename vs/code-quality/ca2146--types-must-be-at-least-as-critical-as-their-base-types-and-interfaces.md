@@ -51,4 +51,4 @@ translation.priority.ht:
  Do not suppress a warning from this rule.  
   
 ## Example  
- [!code[FxCop.Security.CA2146.TypesMustBeAtLeastAsCriticalAsBaseTypes#1](../code-quality/codesnippet/CSharp/ca2146--types-must-be-at-least-as-critical-as-their-base-types-and-interfaces_1.cs)]
+ [!CODE [FxCop.Security.CA2146.TypesMustBeAtLeastAsCriticalAsBaseTypes#1](../CodeSnippet/VS_Snippets_CodeAnalysis/fxcop.security.ca2146.typesmustbeatleastascriticalasbasetypes#1)]

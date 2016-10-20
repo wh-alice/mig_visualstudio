@@ -48,8 +48,7 @@ The Feedback region of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.
 ## Example  
  This example demonstrates how to write text to and read text from the Feedback region.  
   
- [!code[VSSDKFeedbackStatusBar#1](../misc/codesnippet/CSharp/how-to--read-from-and-write-to-the-feedback-region-of-the-status-bar_1.cs)]
-[!code[VSSDKFeedbackStatusBar#1](../misc/codesnippet/VisualBasic/how-to--read-from-and-write-to-the-feedback-region-of-the-status-bar_1.vb)]  
+ [!CODE [VSSDKFeedbackStatusBar#1](../CodeSnippet/VS_Snippets_VSSDK/vssdkfeedbackstatusbar#1)]  
   
  In the above example, the code does the following things:  
   

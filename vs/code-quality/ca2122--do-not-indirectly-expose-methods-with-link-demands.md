@@ -57,12 +57,12 @@ translation.priority.ht:
 ## Example  
  The following examples show a library that violates the rule, and an application that demonstrates the library's weakness. The sample library provides two methods that together violate the rule. The `EnvironmentSetting` method is secured by a link demand for unrestricted access to environment variables. The `DomainInformation` method makes no security demands of its callers before it calls `EnvironmentSetting`.  
   
- [!code[FxCop.Security.UnsecuredDoNotCall#1](../code-quality/codesnippet/CSharp/ca2122--do-not-indirectly-expose-methods-with-link-demands_1.cs)]  
+ [!CODE [FxCop.Security.UnsecuredDoNotCall#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Security.UnsecuredDoNotCall#1)]  
   
 ## Example  
  The following application calls the unsecured library member.  
   
- [!code[FxCop.Security.TestUnsecuredDoNot1#1](../code-quality/codesnippet/CSharp/ca2122--do-not-indirectly-expose-methods-with-link-demands_2.cs)]  
+ [!CODE [FxCop.Security.TestUnsecuredDoNot1#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Security.TestUnsecuredDoNot1#1)]  
   
  This example produces the following output.  
   

@@ -111,8 +111,7 @@ When displaying data on Windows Forms, you can choose existing controls from the
   
 2.  Replace the code in the `LookupBox` with the following:  
   
-     [!code[VbRaddataDisplaying#5](../data-tools/codesnippet/VisualBasic/create-a-windows-forms-user-control-that-supports-lookup-data-binding_1.vb)]
-[!code[VbRaddataDisplaying#5](../data-tools/codesnippet/CSharp/create-a-windows-forms-user-control-that-supports-lookup-data-binding_1.cs)]  
+     [!CODE [VbRaddataDisplaying#5](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataDisplaying#5)]  
   
 3.  From the **Build** menu, choose **Build Solution**.  
   

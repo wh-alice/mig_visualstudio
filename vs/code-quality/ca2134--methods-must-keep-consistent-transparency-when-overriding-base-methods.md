@@ -57,7 +57,7 @@ translation.priority.ht:
 ## Examples  
   
 ### Code  
- [!code[FxCop.Security.CA2134.MethodsMustOverrideWithConsistentTransparency#1](../code-quality/codesnippet/CSharp/ca2134--methods-must-keep-consistent-transparency-when-overriding-base-methods_1.cs)]  
+ [!CODE [FxCop.Security.CA2134.MethodsMustOverrideWithConsistentTransparency#1](../CodeSnippet/VS_Snippets_CodeAnalysis/fxcop.security.ca2134.methodsmustoverridewithconsistenttransparency#1)]  
   
 ## See Also  
  [Security-Transparent Code, Level 2](../Topic/Security-Transparent%20Code,%20Level%202.md)

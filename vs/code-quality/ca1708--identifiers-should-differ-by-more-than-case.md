@@ -59,7 +59,7 @@ translation.priority.ht:
 ## Example of a Violation  
  The following example demonstrates a violation of this rule.  
   
- [!code[FxCop.Naming.IdentifiersShouldDifferByMoreThanCase#1](../code-quality/codesnippet/CSharp/ca1708--identifiers-should-differ-by-more-than-case_1.cs)]  
+ [!CODE [FxCop.Naming.IdentifiersShouldDifferByMoreThanCase#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Naming.IdentifiersShouldDifferByMoreThanCase#1)]  
   
 ## Related Rules  
  [CA1709: Identifiers should be cased correctly](../code-quality/ca1709--identifiers-should-be-cased-correctly.md)

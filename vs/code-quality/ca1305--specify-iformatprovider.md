@@ -74,12 +74,12 @@ translation.priority.mt:
 ## Example  
  In the following example, `BadMethod` causes two violations of this rule. `GoodMethod` corrects the first violation by passing the invariant culture to <xref:System.String.Compare*>, and corrects the second violation by passing the current culture to <xref:System.String.ToLower*> because `string3` is displayed to the user.  
   
- [!code[FxCop.Globalization.CultureInfo#1](../code-quality/codesnippet/CSharp/ca1305--specify-iformatprovider_1.cs)]  
+ [!CODE [FxCop.Globalization.CultureInfo#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Globalization.CultureInfo#1)]  
   
 ## Example  
  The following example shows the effect of current culture on the default <xref:System.IFormatProvider> that is selected by the <xref:System.DateTime> type.  
   
- [!code[FxCop.Globalization.IFormatProvider#1](../code-quality/codesnippet/CSharp/ca1305--specify-iformatprovider_2.cs)]  
+ [!CODE [FxCop.Globalization.IFormatProvider#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Globalization.IFormatProvider#1)]  
   
  This example produces the following output.  
   

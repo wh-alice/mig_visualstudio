@@ -77,13 +77,11 @@ This walkthrough illustrates how to use automation to create a managed VSPackage
   
 3.  In the AutoPackage file, add the following namespace reference.  
   
-     [!code[VSSDKAuto#1](../misc/codesnippet/CSharp/walkthrough--extending-managed-vspackages-by-using-automation_1.cs)]
-[!code[VSSDKAuto#1](../misc/codesnippet/VisualBasic/walkthrough--extending-managed-vspackages-by-using-automation_1.vb)]  
+     [!CODE [VSSDKAuto#1](../CodeSnippet/VS_Snippets_VSSDK/vssdkauto#1)]  
   
 4.  In the AutoPackage file, replace the body of the `MenuItemCallback` method with the following lines:  
   
-     [!code[VSSDKAuto#2](../misc/codesnippet/CSharp/walkthrough--extending-managed-vspackages-by-using-automation_2.cs)]
-[!code[VSSDKAuto#2](../misc/codesnippet/VisualBasic/walkthrough--extending-managed-vspackages-by-using-automation_2.vb)]  
+     [!CODE [VSSDKAuto#2](../CodeSnippet/VS_Snippets_VSSDK/vssdkauto#2)]  
   
  This code calls <xref:Microsoft.VisualStudio.Shell.Package.GetService*> to obtain a <xref:EnvDTE.DTE> automation object that represents the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE. The automation code in `MenuItemCallback` creates a new pane in the **Output** window named **Test**. The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] name and version is then written to the new **Output** pane.  
   

@@ -49,8 +49,7 @@ As you make changes to records in a dataset by updating, inserting, and deleting
   
      The following example shows how to call the `AcceptChanges` method to commit changes in the `Customers` table after updating a data source:  
   
-     [!code[VbRaddataEditing#11](../data-tools/codesnippet/CSharp/how-to--commit-changes-in-a-dataset_1.cs)]
-[!code[VbRaddataEditing#11](../data-tools/codesnippet/VisualBasic/how-to--commit-changes-in-a-dataset_1.vb)]  
+     [!CODE [VbRaddataEditing#11](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataEditing#11)]  
   
 ## See Also  
  <xref:System.Data.DataSet.AcceptChanges*?displayProperty=fullName>   

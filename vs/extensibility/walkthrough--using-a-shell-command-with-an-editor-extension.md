@@ -282,8 +282,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
 3.  Declare a class that implements <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewCreationListener>, and export it with a <xref:Microsoft.VisualStudio.Utilities.ContentTypeAttribute> of "text" and a <xref:Microsoft.VisualStudio.Text.Editor.TextViewRoleAttribute> of <xref:Microsoft.VisualStudio.Text.Editor.PredefinedTextViewRoles.Document>. The content type attribute specifies the kind of content to which the component applies. The text type is the base type for all non-binary file types. Therefore, almost every text view that is created will be of this type. The text view role attribute specifies the kind of text view to which the component applies. Document text view roles generally show text that is composed of lines and is stored in a file.  
   
-     [!code[VSSDKMenuCommandTest#11](../extensibility/codesnippet/VisualBasic/walkthrough--using-a-shell-command-with-an-editor-extension_1.vb)]
-[!code[VSSDKMenuCommandTest#11](../extensibility/codesnippet/CSharp/walkthrough--using-a-shell-command-with-an-editor-extension_1.cs)]  
+     [!CODE [VSSDKMenuCommandTest#11](../CodeSnippet/VS_Snippets_VSSDK/vssdkmenucommandtest#11)]  
   
 4.  Implement the <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewCreationListener.TextViewCreated*> method so that it calls the static `Create()` event of the `CommentAdornmentManager`.  
   
@@ -421,8 +420,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
     ```  
   
-     [!code[VSSDKMenuCommandTest#21](../extensibility/codesnippet/CSharp/walkthrough--using-a-shell-command-with-an-editor-extension_2.cs)]
-[!code[VSSDKMenuCommandTest#21](../extensibility/codesnippet/VisualBasic/walkthrough--using-a-shell-command-with-an-editor-extension_2.vb)]  
+     [!CODE [VSSDKMenuCommandTest#21](../CodeSnippet/VS_Snippets_VSSDK/vssdkmenucommandtest#21)]  
   
 9. Add a declaration for a `CommentsChanged` event.  
   
@@ -632,8 +630,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
 10. Add the private method that draws the comment.  
   
-     [!code[VSSDKMenuCommandTest#35](../extensibility/codesnippet/CSharp/walkthrough--using-a-shell-command-with-an-editor-extension_3.cs)]
-[!code[VSSDKMenuCommandTest#35](../extensibility/codesnippet/VisualBasic/walkthrough--using-a-shell-command-with-an-editor-extension_3.vb)]  
+     [!CODE [VSSDKMenuCommandTest#35](../CodeSnippet/VS_Snippets_VSSDK/vssdkmenucommandtest#35)]  
   
 ## Using the Menu Command to Add the Comment Adornment  
  You can use the menu command to create a comment adornment by implementing the `MenuItemCallback` method of the VSPackage.  

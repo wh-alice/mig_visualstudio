@@ -60,4 +60,4 @@ translation.priority.ht:
 ## Example  
  The following example shows a type that violates this rule. Notice that there is no default constructor in the source code. When this code is compiled into an assembly, the C# compiler will insert a default constructor, which will violate this rule. To correct this, declare a private constructor.  
   
- [!code[FxCop.Design.StaticTypes#1](../code-quality/codesnippet/CSharp/ca1053--static-holder-types-should-not-have-constructors_1.cs)]
+ [!CODE [FxCop.Design.StaticTypes#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Design.StaticTypes#1)]

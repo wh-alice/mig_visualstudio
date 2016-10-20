@@ -61,8 +61,7 @@ translation.priority.mt:
  The following example shows a property that violates this rule.  
   
 ### Code  
- [!code[FxCop.Performance.PropertyArrayViolation#1](../code-quality/codesnippet/CSharp/ca1819--properties-should-not-return-arrays_1.cs)]
-[!code[FxCop.Performance.PropertyArrayViolation#1](../code-quality/codesnippet/VisualBasic/ca1819--properties-should-not-return-arrays_1.vb)]  
+ [!CODE [FxCop.Performance.PropertyArrayViolation#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Performance.PropertyArrayViolation#1)]  
   
 ### Comments  
  To fix a violation of this rule, either make the property a method or change the property to return a collection instead of an array.  
@@ -73,8 +72,7 @@ translation.priority.mt:
  The following example fixes the violation by changing the property to a method.  
   
 ### Code  
- [!code[FxCop.Performance.PropertyArrayFixedMethod#1](../code-quality/codesnippet/VisualBasic/ca1819--properties-should-not-return-arrays_2.vb)]
-[!code[FxCop.Performance.PropertyArrayFixedMethod#1](../code-quality/codesnippet/CSharp/ca1819--properties-should-not-return-arrays_2.cs)]  
+ [!CODE [FxCop.Performance.PropertyArrayFixedMethod#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Performance.PropertyArrayFixedMethod#1)]  
   
 ## Return a Collection Example  
   
@@ -84,8 +82,7 @@ translation.priority.mt:
  <xref:System.Collection.ObjectModel.ReadOnlyCollection?displayProperty=fullName>.  
   
 ### Code  
- [!code[FxCop.Performance.PropertyArrayFixedCollection#1](../code-quality/codesnippet/CSharp/ca1819--properties-should-not-return-arrays_3.cs)]
-[!code[FxCop.Performance.PropertyArrayFixedCollection#1](../code-quality/codesnippet/VisualBasic/ca1819--properties-should-not-return-arrays_3.vb)]  
+ [!CODE [FxCop.Performance.PropertyArrayFixedCollection#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Performance.PropertyArrayFixedCollection#1)]  
   
 ## Allowing Users to Modify a Property  
   
@@ -93,15 +90,13 @@ translation.priority.mt:
  You might want to allow the consumer of the class to modify a property. The following example shows a read/write property that violates this rule.  
   
 ### Code  
- [!code[FxCop.Performance.PropertyModifyViolation#1](../code-quality/codesnippet/CSharp/ca1819--properties-should-not-return-arrays_4.cs)]
-[!code[FxCop.Performance.PropertyModifyViolation#1](../code-quality/codesnippet/VisualBasic/ca1819--properties-should-not-return-arrays_4.vb)]  
+ [!CODE [FxCop.Performance.PropertyModifyViolation#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Performance.PropertyModifyViolation#1)]  
   
 ### Comments  
  The following example fixes the violation by changing the property to return a <xref:System.Collection.ObjectModel.Collection?displayProperty=fullName>.  
   
 ### Code  
- [!code[FxCop.Performance.PropertyModifyFixed#1](../code-quality/codesnippet/VisualBasic/ca1819--properties-should-not-return-arrays_5.vb)]
-[!code[FxCop.Performance.PropertyModifyFixed#1](../code-quality/codesnippet/CSharp/ca1819--properties-should-not-return-arrays_5.cs)]  
+ [!CODE [FxCop.Performance.PropertyModifyFixed#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Performance.PropertyModifyFixed#1)]  
   
 ## Related Rules  
  [CA1024: Use properties where appropriate](../code-quality/ca1024--use-properties-where-appropriate.md)

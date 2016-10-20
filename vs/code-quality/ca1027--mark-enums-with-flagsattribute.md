@@ -60,7 +60,7 @@ translation.priority.mt:
 ## Example  
  In the following example, `DaysEnumNeedsFlags` is an enumeration that meets the requirements for using <xref:System.FlagsAttribute>, but does not have it. The `ColorEnumShouldNotHaveFlag` enumeration does not have values that are powers of two, but incorrectly specifies <xref:System.FlagsAttribute>. This violates rule [CA2217: Do not mark enums with FlagsAttribute](../code-quality/ca2217--do-not-mark-enums-with-flagsattribute.md).  
   
- [!code[FxCop.Design.EnumFlags#1](../code-quality/codesnippet/CSharp/ca1027--mark-enums-with-flagsattribute_1.cs)]  
+ [!CODE [FxCop.Design.EnumFlags#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Design.EnumFlags#1)]  
   
 ## Related Rules  
  [CA2217: Do not mark enums with FlagsAttribute](../code-quality/ca2217--do-not-mark-enums-with-flagsattribute.md)  

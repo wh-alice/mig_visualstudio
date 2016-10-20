@@ -57,5 +57,4 @@ translation.priority.ht:
 ## Example  
  The following example shows a type that violates this rule.  
   
- [!code[FxCop.Usage.AvoidStaticNonConstants#1](../code-quality/codesnippet/VisualBasic/ca2211--non-constant-fields-should-not-be-visible_1.vb)]
-[!code[FxCop.Usage.AvoidStaticNonConstants#1](../code-quality/codesnippet/CSharp/ca2211--non-constant-fields-should-not-be-visible_1.cs)]
+ [!CODE [FxCop.Usage.AvoidStaticNonConstants#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Usage.AvoidStaticNonConstants#1)]

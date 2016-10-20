@@ -58,5 +58,4 @@ translation.priority.ht:
 ## Example  
  The following example shows two violations of the rule.  
   
- [!code[FxCop.Usage.FormattingArguments#1](../code-quality/codesnippet/VisualBasic/ca2241--provide-correct-arguments-to-formatting-methods_1.vb)]
-[!code[FxCop.Usage.FormattingArguments#1](../code-quality/codesnippet/CSharp/ca2241--provide-correct-arguments-to-formatting-methods_1.cs)]
+ [!CODE [FxCop.Usage.FormattingArguments#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Usage.FormattingArguments#1)]

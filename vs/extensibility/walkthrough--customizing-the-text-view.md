@@ -62,8 +62,7 @@ You can customize a text view by modifying any of the following properties in it
   
 2.  Add the following `using` directives:  
   
-     [!code[VSSDKViewPropertyTest#1](../extensibility/codesnippet/CSharp/walkthrough--customizing-the-text-view_1.cs)]
-[!code[VSSDKViewPropertyTest#1](../extensibility/codesnippet/VisualBasic/walkthrough--customizing-the-text-view_1.vb)]  
+     [!CODE [VSSDKViewPropertyTest#1](../CodeSnippet/VS_Snippets_VSSDK/vssdkviewpropertytest#1)]  
   
 3.  Declare a class named `TestViewCreationListener` that inherits from <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewCreationListener>. Export this class with the following attributes:  
   
@@ -71,20 +70,17 @@ You can customize a text view by modifying any of the following properties in it
   
     -   <xref:Microsoft.VisualStudio.Text.Editor.TextViewRoleAttribute> to specify the role of this listener.  
   
-     [!code[VSSDKViewPropertyTest#2](../extensibility/codesnippet/CSharp/walkthrough--customizing-the-text-view_2.cs)]
-[!code[VSSDKViewPropertyTest#2](../extensibility/codesnippet/VisualBasic/walkthrough--customizing-the-text-view_2.vb)]  
+     [!CODE [VSSDKViewPropertyTest#2](../CodeSnippet/VS_Snippets_VSSDK/vssdkviewpropertytest#2)]  
   
 4.  In this class, import the <xref:Microsoft.VisualStudio.Text.Classification.IEditorFormatMapService>.  
   
-     [!code[VSSDKViewPropertyTest#3](../extensibility/codesnippet/CSharp/walkthrough--customizing-the-text-view_3.cs)]
-[!code[VSSDKViewPropertyTest#3](../extensibility/codesnippet/VisualBasic/walkthrough--customizing-the-text-view_3.vb)]  
+     [!CODE [VSSDKViewPropertyTest#3](../CodeSnippet/VS_Snippets_VSSDK/vssdkviewpropertytest#3)]  
   
 ## Changing the View Properties  
   
 1.  Implement the <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewCreationListener.TextViewCreated*> method so that the view properties are changed when the view is opened. To make the change, first find the <xref:System.Windows.ResourceDictionary> that corresponds to the aspect of the view you want to find. Then change the appropriate property in the resource dictionary and set the properties. Batch the calls to the <xref:Microsoft.VisualStudio.Text.Classification.IEditorFormatMap.SetProperties*> method by calling the <xref:Microsoft.VisualStudio.Text.Classification.IEditorFormatMap.BeginBatchUpdate*> method before you set the properties and then the <xref:Microsoft.VisualStudio.Text.Classification.IEditorFormatMap.EndBatchUpdate*> after you set the properties.  
   
-     [!code[VSSDKViewPropertyTest#4](../extensibility/codesnippet/CSharp/walkthrough--customizing-the-text-view_4.cs)]
-[!code[VSSDKViewPropertyTest#4](../extensibility/codesnippet/VisualBasic/walkthrough--customizing-the-text-view_4.vb)]  
+     [!CODE [VSSDKViewPropertyTest#4](../CodeSnippet/VS_Snippets_VSSDK/vssdkviewpropertytest#4)]  
   
 ## Building and Testing the Code  
   

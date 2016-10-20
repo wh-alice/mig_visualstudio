@@ -65,8 +65,7 @@ translation.priority.mt:
  The following example shows two attributes that define a mandatory (positional) parameter. The first implementation of the attribute is incorrectly defined. The second implementation is correct.  
   
 ### Code  
- [!code[FxCop.Design.AttributeAccessors#1](../code-quality/codesnippet/CSharp/ca1019--define-accessors-for-attribute-arguments_1.cs)]
-[!code[FxCop.Design.AttributeAccessors#1](../code-quality/codesnippet/VisualBasic/ca1019--define-accessors-for-attribute-arguments_1.vb)]  
+ [!CODE [FxCop.Design.AttributeAccessors#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Design.AttributeAccessors#1)]  
   
 ## Positional and Named Arguments  
   
@@ -76,13 +75,13 @@ translation.priority.mt:
  The following example shows an implementation of an attribute that has both positional and named arguments.  
   
 ### Code  
- [!code[FxCop.Design.AttributeAccessorsNamed#1](../code-quality/codesnippet/CSharp/ca1019--define-accessors-for-attribute-arguments_2.cs)]  
+ [!CODE [FxCop.Design.AttributeAccessorsNamed#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Design.AttributeAccessorsNamed#1)]  
   
 ### Comments  
  The following example shows how to apply the custom attribute to two properties.  
   
 ### Code  
- [!code[FxCop.Design.AttributeAccessorsNamedApplied#1](../code-quality/codesnippet/CSharp/ca1019--define-accessors-for-attribute-arguments_3.cs)]  
+ [!CODE [FxCop.Design.AttributeAccessorsNamedApplied#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Design.AttributeAccessorsNamedApplied#1)]  
   
 ## Related Rules  
  [CA1813: Avoid unsealed attributes](../code-quality/ca1813--avoid-unsealed-attributes.md)  

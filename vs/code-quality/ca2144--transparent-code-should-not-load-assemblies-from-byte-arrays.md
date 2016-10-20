@@ -59,4 +59,4 @@ translation.priority.ht:
 ## Example  
  The rule fires on the following code because a transparent method loads an assembly from a byte array.  
   
- [!code[FxCop.Security.CA2144.TransparentMethodsShouldNotLoadAssembliesFromByteArrays#1](../code-quality/codesnippet/CSharp/ca2144--transparent-code-should-not-load-assemblies-from-byte-arrays_1.cs)]
+ [!CODE [FxCop.Security.CA2144.TransparentMethodsShouldNotLoadAssembliesFromByteArrays#1](../CodeSnippet/VS_Snippets_CodeAnalysis/fxcop.security.ca2144.transparentmethodsshouldnotloadassembliesfrombytearrays#1)]

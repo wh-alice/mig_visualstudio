@@ -57,12 +57,12 @@ translation.priority.ht:
 ## Example  
  The following example shows a library containing a value type that violates this rule. Note that the `StructureManager` type assumes that a caller that passes an instance of the value type has permission to create or access the instance.  
   
- [!code[FxCop.Security.DemandOnValueType#1](../code-quality/codesnippet/CSharp/ca2108--review-declarative-security-on-value-types_1.cs)]  
+ [!CODE [FxCop.Security.DemandOnValueType#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Security.DemandOnValueType#1)]  
   
 ## Example  
  The following application demonstrates the library's weakness.  
   
- [!code[FxCop.Security.TestDemandOnValueType#1](../code-quality/codesnippet/CSharp/ca2108--review-declarative-security-on-value-types_2.cs)]  
+ [!CODE [FxCop.Security.TestDemandOnValueType#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Security.TestDemandOnValueType#1)]  
   
  This example produces the following output.  
   

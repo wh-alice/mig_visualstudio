@@ -44,8 +44,7 @@ The Designer region of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.
 ## Example  
  This example demonstrates how to program the Designer region of the status bar.  
   
- [!code[VSSDKDesignerStatusBar#1](../misc/codesnippet/VisualBasic/how-to--program-the-designer-region-of-the-status-bar_1.vb)]
-[!code[VSSDKDesignerStatusBar#1](../misc/codesnippet/CSharp/how-to--program-the-designer-region-of-the-status-bar_1.cs)]  
+ [!CODE [VSSDKDesignerStatusBar#1](../CodeSnippet/VS_Snippets_VSSDK/vssdkdesignerstatusbar#1)]  
   
 ## See Also  
  [Extending the Status Bar](../extensibility/extending-the-status-bar.md)   

@@ -60,5 +60,4 @@ translation.priority.ht:
 ## Example  
  The following examples demonstrate the correct usage of <xref:System.STAThreadAttribute>.  
   
- [!code[FxCop.Usage.StaThread#1](../code-quality/codesnippet/CSharp/ca2232--mark-windows-forms-entry-points-with-stathread_1.cs)]
-[!code[FxCop.Usage.StaThread#1](../code-quality/codesnippet/VisualBasic/ca2232--mark-windows-forms-entry-points-with-stathread_1.vb)]
+ [!CODE [FxCop.Usage.StaThread#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Usage.StaThread#1)]

@@ -57,7 +57,7 @@ translation.priority.ht:
 ## Example  
  The following Visual Basic example shows a type `TypeB` that correctly calls the <xref:System.Object.Finalize*> method in its base class.  
   
- [!code[FxCop.Usage.IDisposableBaseCalled#1](../code-quality/codesnippet/VisualBasic/ca2220--finalizers-should-call-base-class-finalizer_1.vb)]  
+ [!CODE [FxCop.Usage.IDisposableBaseCalled#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Usage.IDisposableBaseCalled#1)]  
   
 ## See Also  
  [Dispose Pattern](../Topic/Dispose%20Pattern.md)

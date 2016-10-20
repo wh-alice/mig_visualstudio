@@ -148,7 +148,7 @@ translation.priority.mt:
   
  The following code example contains members with implements/overrides relationships.  
   
- [!code[CsUsingCsIDERefactor#1](../csharp/codesnippet/CSharp/rename-refactoring--csharp-_1.cs)]  
+ [!CODE [CsUsingCsIDERefactor#1](../CodeSnippet/VS_Snippets_VBCSharp/CsUsingCsIDERefactor#1)]  
   
  In the previous example, renaming `C.Method()` also renames `Ibase.Method()` because `C.Method()` implements `Ibase.Method()`. Next, the refactor engine recursively sees that `Ibase.Method()` is implemented by `Derived.Method()` and renames `Derived.Method()`. The refactor engine does not rename `Base.Method()`, because `Derived.Method()` does not override `Base.Method()`. The refactoring engine stops here unless you have **Rename overloads** checked in the **Rename** dialog box.  
   

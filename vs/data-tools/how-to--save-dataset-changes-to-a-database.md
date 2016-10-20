@@ -61,15 +61,13 @@ After the data in your dataset has been modified and validated, you probably wan
   
 -   Enclose the `TableAdapter.Update` method inside a `try`/`catch` block. The following example shows how to attempt an update with the contents of the `Customers` table in the `NorthwindDataSet`.  
   
-     [!code[VbRaddataSaving#9](../data-tools/codesnippet/CSharp/how-to--save-dataset-changes-to-a-database_1.cs)]
-[!code[VbRaddataSaving#9](../data-tools/codesnippet/VisualBasic/how-to--save-dataset-changes-to-a-database_1.vb)]  
+     [!CODE [VbRaddataSaving#9](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataSaving#9)]  
   
 #### To update a database with a dataset using a data adapter  
   
 -   Enclose the `DataAdapter.Update` method inside a `try`/`catch` block. The following example shows how to attempt an update to a data source with the contents of `Table1` in `DataSet1`.  
   
-     [!code[VbRaddataSaving#26](../data-tools/codesnippet/VisualBasic/how-to--save-dataset-changes-to-a-database_2.vb)]
-[!code[VbRaddataSaving#26](../data-tools/codesnippet/CSharp/how-to--save-dataset-changes-to-a-database_2.cs)]  
+     [!CODE [VbRaddataSaving#26](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataSaving#26)]  
   
 ## Updating Two Related Tables in a Dataset  
  When updating related tables in a dataset, it is important to update in the proper sequence to reduce the chance of violating referential integrity constraints. The order of command execution will also follow the indices of the <xref:System.Data.DataRowCollection> in the dataset. To prevent data integrity errors from being raised, the best practice is to update the database in the following sequence:  
@@ -94,8 +92,7 @@ After the data in your dataset has been modified and validated, you probably wan
   
 4.  Dispose of the temporary data tables to release the resources.  
   
-     [!code[VbRaddataSaving#27](../data-tools/codesnippet/VisualBasic/how-to--save-dataset-changes-to-a-database_3.vb)]
-[!code[VbRaddataSaving#27](../data-tools/codesnippet/CSharp/how-to--save-dataset-changes-to-a-database_3.cs)]  
+     [!CODE [VbRaddataSaving#27](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataSaving#27)]  
   
 #### To update two related tables using a Data Adapter  
   
@@ -103,8 +100,7 @@ After the data in your dataset has been modified and validated, you probably wan
   
      The following example shows how to update a data source with a dataset that contains related tables. In order to follow the above sequence, three temporary <xref:System.Data.DataTable>s will be created to hold the differing records. Then the `Update` method will be called for each subset of rows from within a `try`/`catch` block. If update errors occur, the suggested course of action is to branch off and resolve them. Then the dataset commits the changes. Finally, dispose of the temporary data tables to release the resources.  
   
-     [!code[VbRaddataSaving#28](../data-tools/codesnippet/VisualBasic/how-to--save-dataset-changes-to-a-database_4.vb)]
-[!code[VbRaddataSaving#28](../data-tools/codesnippet/CSharp/how-to--save-dataset-changes-to-a-database_4.cs)]  
+     [!CODE [VbRaddataSaving#28](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataSaving#28)]  
   
 ## See Also  
  [Data Walkthroughs](../Topic/Data%20Walkthroughs.md)   

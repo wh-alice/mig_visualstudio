@@ -48,15 +48,13 @@ The XML data in a dataset can be accessed by calling the available XML methods  
   
 -   The <xref:System.Data.DataSet.GetXml*> method returns a <xref:System.String>.This means that you declare a variable of type <xref:System.String> and assign it the results of the <xref:System.Data.DataSet.GetXml*> method.  
   
-     [!code[VbRaddataSaving#12](../data-tools/codesnippet/VisualBasic/save-a-dataset-as-xml_1.vb)]
-[!code[VbRaddataSaving#12](../data-tools/codesnippet/CSharp/save-a-dataset-as-xml_1.cs)]  
+     [!CODE [VbRaddataSaving#12](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataSaving#12)]  
   
 ### To save the data in a dataset as XML to a file  
   
 -   The <xref:System.Data.DataSet.WriteXml*> method has several overloads. The following code shows how to save the data to a file.Declare a variable and assign it a valid path to save the file to.  
   
-     [!code[VbRaddataSaving#13](../data-tools/codesnippet/VisualBasic/save-a-dataset-as-xml_2.vb)]
-[!code[VbRaddataSaving#13](../data-tools/codesnippet/CSharp/save-a-dataset-as-xml_2.cs)]  
+     [!CODE [VbRaddataSaving#13](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataSaving#13)]  
   
 ## See Also  
  [Save data back to the database](../data-tools/save-data-back-to-the-database.md)

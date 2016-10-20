@@ -78,12 +78,12 @@ return left.Equals(right);
 ## Example  
  The following example defines a type (`BadAddableType`) that violates this rule. This type should implement the equality operator to make any two instances that have the same field values test `true` for equality. The type `GoodAddableType` shows the corrected implementation. Note that this type also implements the inequality operator and overrides <xref:System.Object.Equals*> to satisfy other rules. A complete implementation would also implement <xref:System.Object.GetHashCode*>.  
   
- [!code[FxCop.Design.AddAndSubtract#1](../code-quality/codesnippet/CSharp/ca1013--overload-operator-equals-on-overloading-add-and-subtract_1.cs)]  
+ [!CODE [FxCop.Design.AddAndSubtract#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Design.AddAndSubtract#1)]  
   
 ## Example  
  The following example tests for equality by using instances of the types that were previously defined in this topic to illustrate the default and correct behavior for the equality operator.  
   
- [!code[FxCop.Design.TestAddAndSubtract#1](../code-quality/codesnippet/CSharp/ca1013--overload-operator-equals-on-overloading-add-and-subtract_2.cs)]  
+ [!CODE [FxCop.Design.TestAddAndSubtract#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Design.TestAddAndSubtract#1)]  
   
  This example produces the following output.  
   

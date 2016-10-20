@@ -68,12 +68,12 @@ translation.priority.mt:
   
  The example class library appears in the following example.  
   
- [!code[FxCop.Security.ArrayFieldsNotReadOnly#1](../code-quality/codesnippet/CSharp/ca2105--array-fields-should-not-be-read-only_1.cs)]  
+ [!CODE [FxCop.Security.ArrayFieldsNotReadOnly#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Security.ArrayFieldsNotReadOnly#1)]  
   
 ## Example  
  The following code uses the example class library to illustrate read-only array security issues.  
   
- [!code[FxCop.Security.TestArrayFieldsRead#1](../code-quality/codesnippet/CSharp/ca2105--array-fields-should-not-be-read-only_2.cs)]  
+ [!CODE [FxCop.Security.TestArrayFieldsRead#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Security.TestArrayFieldsRead#1)]  
   
  The output from this example is:  
   

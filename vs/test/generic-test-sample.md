@@ -41,7 +41,7 @@ The "EvenOdd" sample is a project that you can build into a simple program. You 
 ## Sample Code  
  The code for this sample is available here:  
   
- [!code[EvenOdd#1](../test/codesnippet/CSharp/generic-test-sample_1.cs)]  
+ [!CODE [EvenOdd#1](../CodeSnippet/VS_Snippets_CodeAnalysis/EvenOdd#1)]  
   
 ## Working with the Code  
  To work with this code, you first have to create a project for it in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Follow the steps in the "Prepare the Walkthrough" section in [Walkthrough: Creating and Running a Generic Test](../test/walkthrough--creating-and-running-a-generic-test.md).  

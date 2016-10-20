@@ -60,8 +60,7 @@ translation.priority.mt:
 ## Example  
  The following example shows a type that implements <xref:System.IDisposable> to clean up an unmanaged resource.  
   
- [!code[FxCop.Design.UnmanagedResources#1](../code-quality/codesnippet/CSharp/ca1049--types-that-own-native-resources-should-be-disposable_1.cs)]
-[!code[FxCop.Design.UnmanagedResources#1](../code-quality/codesnippet/VisualBasic/ca1049--types-that-own-native-resources-should-be-disposable_1.vb)]  
+ [!CODE [FxCop.Design.UnmanagedResources#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Design.UnmanagedResources#1)]  
   
 ## Related Rules  
  [CA2115: Call GC.KeepAlive when using native resources](../code-quality/ca2115--call-gc.keepalive-when-using-native-resources.md)  

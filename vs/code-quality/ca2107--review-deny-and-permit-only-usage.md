@@ -74,12 +74,12 @@ translation.priority.mt:
   
  The following library contains a class that has two methods that are identical except for the security demands that protect them.  
   
- [!code[FxCop.Security.PermitAndDeny#1](../code-quality/codesnippet/CSharp/ca2107--review-deny-and-permit-only-usage_1.cs)]  
+ [!CODE [FxCop.Security.PermitAndDeny#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Security.PermitAndDeny#1)]  
   
 ## Example  
  The following application demonstrates the effects of Deny on the secured methods from the library.  
   
- [!code[FxCop.Security.TestPermitAndDeny#1](../code-quality/codesnippet/CSharp/ca2107--review-deny-and-permit-only-usage_2.cs)]  
+ [!CODE [FxCop.Security.TestPermitAndDeny#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Security.TestPermitAndDeny#1)]  
   
  This example produces the following output.  
   

@@ -63,8 +63,7 @@ translation.priority.mt:
 ## Example  
  The following example contains a method and property that violate this rule.  
   
- [!code[FxCop.Naming.GetMethod#1](../code-quality/codesnippet/CSharp/ca1721--property-names-should-not-match-get-methods_1.cs)]
-[!code[FxCop.Naming.GetMethod#1](../code-quality/codesnippet/VisualBasic/ca1721--property-names-should-not-match-get-methods_1.vb)]  
+ [!CODE [FxCop.Naming.GetMethod#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Naming.GetMethod#1)]  
   
 ## Related Rules  
  [CA1024: Use properties where appropriate](../code-quality/ca1024--use-properties-where-appropriate.md)

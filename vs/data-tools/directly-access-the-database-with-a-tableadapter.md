@@ -59,8 +59,7 @@ In addition to the `InsertCommand`, `UpdateCommand`, and `DeleteCommand`, TableA
     > [!NOTE]
     >  If you do not have an instance available, instantiate the TableAdapter that you want to use.  
   
-     [!code[VbRaddataSaving#15](../data-tools/codesnippet/VisualBasic/directly-access-the-database-with-a-tableadapter_1.vb)]
-[!code[VbRaddataSaving#15](../data-tools/codesnippet/CSharp/directly-access-the-database-with-a-tableadapter_1.cs)]  
+     [!CODE [VbRaddataSaving#15](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataSaving#15)]  
   
 #### To update records directly in a database  
   
@@ -69,8 +68,7 @@ In addition to the `InsertCommand`, `UpdateCommand`, and `DeleteCommand`, TableA
     > [!NOTE]
     >  If you do not have an instance available, instantiate the TableAdapter that you want to use.  
   
-     [!code[VbRaddataSaving#18](../data-tools/codesnippet/VisualBasic/directly-access-the-database-with-a-tableadapter_2.vb)]
-[!code[VbRaddataSaving#18](../data-tools/codesnippet/CSharp/directly-access-the-database-with-a-tableadapter_2.cs)]  
+     [!CODE [VbRaddataSaving#18](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataSaving#18)]  
   
 #### To delete records directly from a database  
   
@@ -79,8 +77,7 @@ In addition to the `InsertCommand`, `UpdateCommand`, and `DeleteCommand`, TableA
     > [!NOTE]
     >  If you do not have an instance available, instantiate the TableAdapter that you want to use.  
   
-     [!code[VbRaddataSaving#21](../data-tools/codesnippet/VisualBasic/directly-access-the-database-with-a-tableadapter_3.vb)]
-[!code[VbRaddataSaving#21](../data-tools/codesnippet/CSharp/directly-access-the-database-with-a-tableadapter_3.cs)]  
+     [!CODE [VbRaddataSaving#21](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataSaving#21)]  
   
 ## See Also  
  [Fill datasets by using TableAdapters](../data-tools/fill-datasets-by-using-tableadapters.md)

@@ -69,17 +69,17 @@ translation.priority.ht:
 ## Example  
  The following example violates the rule.  
   
- [!code[FxCop.Security.TypesDoNotSuppress#1](../code-quality/codesnippet/CSharp/ca2118--review-suppressunmanagedcodesecurityattribute-usage_1.cs)]  
+ [!CODE [FxCop.Security.TypesDoNotSuppress#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Security.TypesDoNotSuppress#1)]  
   
 ## Example  
  In the following example, the `DoWork` method provides a publicly accessible code path to the platform invocation method `FormatHardDisk`.  
   
- [!code[FxCop.Security.PInvokeAndSuppress#1](../code-quality/codesnippet/CSharp/ca2118--review-suppressunmanagedcodesecurityattribute-usage_2.cs)]  
+ [!CODE [FxCop.Security.PInvokeAndSuppress#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Security.PInvokeAndSuppress#1)]  
   
 ## Example  
  In the following example, the public method `DoDangerousThing` causes a violation. To resolve the violation, `DoDangerousThing` should be made private, and access to it should be through a public method secured by a security demand, as illustrated by the `DoWork` method.  
   
- [!code[FxCop.Security.TypeInvokeAndSuppress#1](../code-quality/codesnippet/CSharp/ca2118--review-suppressunmanagedcodesecurityattribute-usage_3.cs)]  
+ [!CODE [FxCop.Security.TypeInvokeAndSuppress#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Security.TypeInvokeAndSuppress#1)]  
   
 ## See Also  
  <xref:System.Security.SuppressUnmanagedCodeSecurityAttribute?displayProperty=fullName>   

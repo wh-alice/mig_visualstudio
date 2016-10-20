@@ -96,7 +96,7 @@ You can persist user settings for your start page. By following this walkthrough
   
 2.  Add the following `using` statements to the top of the file.  
   
-     [!code[StartPageDTE#11](../extensibility/codesnippet/CSharp/walkthrough--saving-user-settings-on-a-start-page_1.cs)]  
+     [!CODE [StartPageDTE#11](../CodeSnippet/VS_Snippets_VSSDK/startpagedte#11)]  
   
 3.  Add a private `SettingsStore` property, as shown in the following example.  
   

@@ -61,7 +61,7 @@ translation.priority.ht:
 ## Example  
  The following example shows code for the AssemblyFileVersionAttribute that violates this rule.  
   
- [!code[FxCop.Usage.AttributeStringLiteralsShouldParseCorrectly#1](../code-quality/codesnippet/CSharp/ca2243--attribute-string-literals-should-parse-correctly_1.cs)]  
+ [!CODE [FxCop.Usage.AttributeStringLiteralsShouldParseCorrectly#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Usage.AttributeStringLiteralsShouldParseCorrectly#1)]  
   
  The rule is triggered by the following:  
   

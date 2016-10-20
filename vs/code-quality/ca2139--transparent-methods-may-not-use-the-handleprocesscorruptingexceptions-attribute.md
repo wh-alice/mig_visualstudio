@@ -53,4 +53,4 @@ translation.priority.ht:
 ## Example  
  In this example, a transparent method is marked with the <xref:System.Runtime.ExceptionServices.HandleProcessCorruptedStateExceptionsAttribute> attribute and will fail the rule. The method should also be marked with the <xref:System.Security.SecurityCriticalAttribute> or the <xref:System.Security.SecuritySafeCriticalAttribute> attribute.  
   
- [!code[FxCop.Security.CA2139.TransparentMethodsMustNotHandleProcessCorruptingExceptions#1](../code-quality/codesnippet/CSharp/ca2139--transparent-methods-may-not-use-the-handleprocesscorruptingexceptions-attribute_1.cs)]
+ [!CODE [FxCop.Security.CA2139.TransparentMethodsMustNotHandleProcessCorruptingExceptions#1](../CodeSnippet/VS_Snippets_CodeAnalysis/fxcop.security.ca2139.transparentmethodsmustnothandleprocesscorruptingexceptions#1)]

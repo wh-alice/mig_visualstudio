@@ -74,8 +74,7 @@ void SomeMethod_3(int valueOne, int valueTwo);
 ## Example  
  The following example shows an interface that violates the rule and an interface that satisfies the rule.  
   
- [!code[FxCop.Interoperability.OverloadsInterface#1](../code-quality/codesnippet/VisualBasic/ca1402--avoid-overloads-in-com-visible-interfaces_1.vb)]
-[!code[FxCop.Interoperability.OverloadsInterface#1](../code-quality/codesnippet/CSharp/ca1402--avoid-overloads-in-com-visible-interfaces_1.cs)]  
+ [!CODE [FxCop.Interoperability.OverloadsInterface#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Interoperability.OverloadsInterface#1)]  
   
 ## Related Rules  
  [CA1413: Avoid non-public fields in COM visible value types](../code-quality/ca1413--avoid-non-public-fields-in-com-visible-value-types.md)  

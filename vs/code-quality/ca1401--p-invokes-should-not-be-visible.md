@@ -58,5 +58,4 @@ translation.priority.mt:
 ## Example  
  The following example declares a method that violates this rule.  
   
- [!code[FxCop.Interoperability.DllImports#1](../code-quality/codesnippet/VisualBasic/ca1401--p-invokes-should-not-be-visible_1.vb)]
-[!code[FxCop.Interoperability.DllImports#1](../code-quality/codesnippet/CSharp/ca1401--p-invokes-should-not-be-visible_1.cs)]
+ [!CODE [FxCop.Interoperability.DllImports#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Interoperability.DllImports#1)]

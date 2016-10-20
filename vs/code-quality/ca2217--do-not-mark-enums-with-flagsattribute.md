@@ -57,16 +57,12 @@ translation.priority.ht:
 ## Example  
  The following example shows an enumeration, Color, that contains the value 3, which is neither a power of two, nor a combination of any of the defined values. The Color enumeration should not be marked with the <xref:System.FlagsAttribute>.  
   
- [!code[FxCop.Usage.EnumNoFlags#1](../code-quality/codesnippet/CPP/ca2217--do-not-mark-enums-with-flagsattribute_1.cpp)]
-[!code[FxCop.Usage.EnumNoFlags#1](../code-quality/codesnippet/CSharp/ca2217--do-not-mark-enums-with-flagsattribute_1.cs)]
-[!code[FxCop.Usage.EnumNoFlags#1](../code-quality/codesnippet/VisualBasic/ca2217--do-not-mark-enums-with-flagsattribute_1.vb)]  
+ [!CODE [FxCop.Usage.EnumNoFlags#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Usage.EnumNoFlags#1)]  
   
 ## Example  
  The following example shows an enumeration, Days, that meets the requirements for being marked with the System.FlagsAttribute.  
   
- [!code[FxCop.Usage.EnumNoFlags2#1](../code-quality/codesnippet/CPP/ca2217--do-not-mark-enums-with-flagsattribute_2.cpp)]
-[!code[FxCop.Usage.EnumNoFlags2#1](../code-quality/codesnippet/CSharp/ca2217--do-not-mark-enums-with-flagsattribute_2.cs)]
-[!code[FxCop.Usage.EnumNoFlags2#1](../code-quality/codesnippet/VisualBasic/ca2217--do-not-mark-enums-with-flagsattribute_2.vb)]  
+ [!CODE [FxCop.Usage.EnumNoFlags2#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Usage.EnumNoFlags2#1)]  
   
 ## Related Rules  
  [CA1027: Mark enums with FlagsAttribute](../code-quality/ca1027--mark-enums-with-flagsattribute.md)  

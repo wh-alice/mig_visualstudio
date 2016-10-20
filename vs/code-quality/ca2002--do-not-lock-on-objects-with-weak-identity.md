@@ -77,8 +77,7 @@ translation.priority.mt:
 ## Example  
  The following example shows some object locks that violate the rule.  
   
- [!code[FxCop.Reliability.LockWeakObjects#1](../code-quality/codesnippet/VisualBasic/ca2002--do-not-lock-on-objects-with-weak-identity_1.vb)]
-[!code[FxCop.Reliability.LockWeakObjects#1](../code-quality/codesnippet/CSharp/ca2002--do-not-lock-on-objects-with-weak-identity_1.cs)]  
+ [!CODE [FxCop.Reliability.LockWeakObjects#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Reliability.LockWeakObjects#1)]  
   
 ## See Also  
  <xref:System.Threading.Monitor>   

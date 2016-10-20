@@ -58,8 +58,7 @@ translation.priority.mt:
 ## Example  
  The following example shows a class where one of the interfaces violates the rule.  
   
- [!code[FxCop.Interoperability.MarkIDispatch#1](../code-quality/codesnippet/CSharp/ca1412--mark-comsource-interfaces-as-idispatch_1.cs)]
-[!code[FxCop.Interoperability.MarkIDispatch#1](../code-quality/codesnippet/VisualBasic/ca1412--mark-comsource-interfaces-as-idispatch_1.vb)]  
+ [!CODE [FxCop.Interoperability.MarkIDispatch#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Interoperability.MarkIDispatch#1)]  
   
 ## Related Rules  
  [CA1408: Do not use AutoDual ClassInterfaceType](../code-quality/ca1408--do-not-use-autodual-classinterfacetype.md)  
