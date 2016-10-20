@@ -1,7 +1,7 @@
 ---
-title: "Legacy Language Service Features1"
+title: "Legacy Language Service Features1 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,7 +31,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Legacy Language Service Features
-A managed package framework (MPF) language service can support one or more [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] features, such as syntax highlighting, IntelliSense, and breakpoint validation. Each feature can be implemented independent of the others but all require a parser and a scanner except for syntax highlighting, which requires only a scanner.  
+A managed package framework (MPF) language service can support one or more [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] features, such as syntax highlighting, IntelliSense, and breakpoint validation. Each feature can be implemented independent of the others but all require a parser and a scanner except for syntax highlighting, which requires only a scanner.  
   
 ## In This Section  
  [Brace Matching in a Legacy Language Service](../extensibility/brace-matching-in-a-legacy-language-service.md)  
@@ -84,7 +84,7 @@ A managed package framework (MPF) language service can support one or more [!INC
  Describes what is required to implement a language service by using the MPF.  
   
  [Registering a Legacy Language Service](../extensibility/registering-a-legacy-language-service1.md)  
- Describes the steps that are required to register an MPF-based language service with [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+ Describes the steps that are required to register an MPF-based language service with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
  [Using IntelliSense](../ide/using-intellisense.md)  
  Explains how IntelliSense makes language references easy to access.  

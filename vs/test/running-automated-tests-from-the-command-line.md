@@ -1,7 +1,7 @@
 ---
-title: "Running automated tests from the command line"
+title: "Running automated tests from the command line | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,11 +32,11 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Running automated tests from the command line
-[!INCLUDE[vs_dev11_long](../codequality/includes/vs_dev11_long_md.md)] includes the following command-line tools for testing purposes:  
+[!INCLUDE[vs_dev11_long](../code-quality/includes/vs_dev11_long_md.md)] includes the following command-line tools for testing purposes:  
   
--   **VSTest.Console.exe** You can use the VSTest.Console.exe program to run automated unit and coded UI tests from a command line. VSTest.Console.exe is optimized for performance and is used in place of MSTest.exe in [!INCLUDE[vs_dev11_long](../codequality/includes/vs_dev11_long_md.md)].  
+-   **VSTest.Console.exe** You can use the VSTest.Console.exe program to run automated unit and coded UI tests from a command line. VSTest.Console.exe is optimized for performance and is used in place of MSTest.exe in [!INCLUDE[vs_dev11_long](../code-quality/includes/vs_dev11_long_md.md)].  
   
--   **MSTest.exe** You can use the MSTest.exe program to run automated tests in a test assembly from a command line. MSTest is used for load tests and for compatibility with [!INCLUDE[vs2010](../codequality/includes/vs2010_md.md)] test projects. MSTest can also be used to view the test results from these test runs, save the results to disk, and save your results to [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)].  
+-   **MSTest.exe** You can use the MSTest.exe program to run automated tests in a test assembly from a command line. MSTest is used for load tests and for compatibility with [!INCLUDE[vs2010](../code-quality/includes/vs2010_md.md)] test projects. MSTest can also be used to view the test results from these test runs, save the results to disk, and save your results to [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)].  
   
 -   **TCM.exe** Tcm.exe is a command-line utility that lets you perform the following tasks:  
   
@@ -54,7 +54,7 @@ translation.priority.ht:
 |Tasks|Associated Topics|  
 |-----------|-----------------------|  
 |**Running Automated tests from the command line using VSTest.Console.exe:** You can run automated unit and coded UI tests from the command line.|-   [Using VSTest.console from the command line](../test/using-vstest.console-from-the-command-line.md)|  
-|**Running automated tests from the command line using mstest.exe:** You can run automated Web performance and load tests from the command line either locally or by using a test controller or test agents.<br /><br /> Using MSTest.exe, you can save and view the automated test results from your test runs from the command line to your [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)].<br /><br /> MStest can also be used to run tests created in a Visual Studio 2010 test project, or if you have manually added a .testsettings file to your [!INCLUDE[vs_dev11_long](../codequality/includes/vs_dev11_long_md.md)] test project type.|-   [Using MSTest from the command line](../test/using-mstest-from-the-command-line.md)|  
+|**Running automated tests from the command line using mstest.exe:** You can run automated Web performance and load tests from the command line either locally or by using a test controller or test agents.<br /><br /> Using MSTest.exe, you can save and view the automated test results from your test runs from the command line to your [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)].<br /><br /> MStest can also be used to run tests created in a Visual Studio 2010 test project, or if you have manually added a .testsettings file to your [!INCLUDE[vs_dev11_long](../code-quality/includes/vs_dev11_long_md.md)] test project type.|-   [Using MSTest from the command line](../test/using-mstest-from-the-command-line.md)|  
   
 ## See Also  
  [Running Automated Tests Using Microsoft Visual Studio](../test/running-automated-tests-using-microsoft-visual-studio.md)   

@@ -1,7 +1,7 @@
 ---
-title: "Model Editor"
+title: "Model Editor | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,7 +18,7 @@ ms.author: "mithom"
 manager: "ghogen"
 ---
 # Model Editor
-This document describes how to work with the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Model Editor to view, create, and modify 3-D models.  
+This document describes how to work with the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Model Editor to view, create, and modify 3-D models.  
   
  You can use the Model Editor to create basic 3-D models from scratch, or to view and modify more-complex 3-D models that were created by using full-featured 3-D modeling tools. The Model Editor supports several 3-D model formats that are used in DirectX app development.  
   
@@ -32,7 +32,7 @@ This document describes how to work with the [!INCLUDE[vsprvs](../codequality/in
 |OBJ|.obj|View, Edit (Modifications to OBJ files are saved by using the FBX format.)|  
   
 ## Getting started  
- This section describes how to add a 3-D model to your [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] project and provides the basic information you need to get started.  
+ This section describes how to add a 3-D model to your [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project and provides the basic information you need to get started.  
   
 #### To add a 3-D model to your project  
   
@@ -45,7 +45,7 @@ This document describes how to work with the [!INCLUDE[vsprvs](../codequality/in
 4.  Choose the **Add** button.  
   
 ### Axis orientation  
- [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] supports every orientation of the 3-D axis, and loads axis orientation information from model file formats that support it. If no axis orientation is specified, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] uses the right-handed coordinate system by default. The **axis indicator** shows the current axis orientation in the lower-right corner of the design surface. On the **axis indicator**, red represents the x-axis, green represents the y-axis, and blue represents the z-axis.  
+ [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] supports every orientation of the 3-D axis, and loads axis orientation information from model file formats that support it. If no axis orientation is specified, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] uses the right-handed coordinate system by default. The **axis indicator** shows the current axis orientation in the lower-right corner of the design surface. On the **axis indicator**, red represents the x-axis, green represents the y-axis, and blue represents the z-axis.  
   
 ### Beginning your 3-D model  
  In the Model Editor, each new object always begins as one of the basic 3-D shapes—or *primitives*—that are built into the Model Editor. To create new and unique objects you add a primitive to the scene and then change its shape by modifying its vertices. For complex shapes, you add additional vertices by using extrusion or subdivision and then modify them. For information about how to add a primitive object to your scene, see [Creating and importing 3-D objects](#Adding3DObjects). For information about how to add more vertices to an object, see [Modifying objects](#ModifyingObjects).  
@@ -56,7 +56,7 @@ This document describes how to work with the [!INCLUDE[vsprvs](../codequality/in
 ### Model Editor toolbars  
  The Model Editor toolbars contain commands that help you work with 3-D models.  
   
- Commands that affect the state of the Model Editor are located on the **Model Editor Mode** toolbar in the main [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] window. Modeling tools and scripted commands are located on the **Model Editor** toolbar on the Model Editor design surface.  
+ Commands that affect the state of the Model Editor are located on the **Model Editor Mode** toolbar in the main [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] window. Modeling tools and scripted commands are located on the **Model Editor** toolbar on the Model Editor design surface.  
   
  Here's the **Model Editor Mode** toolbar:  
   
@@ -79,7 +79,7 @@ This document describes how to work with the [!INCLUDE[vsprvs](../codequality/in
 |**View**|Sets the view orientation. Here are the available orientations:<br /><br /> **Front**<br /> Positions the view in front of the scene.<br /><br /> **Back**<br /> Positions the view behind the scene.<br /><br /> **Left**<br /> Positions the view to the left of the scene.<br /><br /> **Right**<br /> Positions the view to the right of the scene.<br /><br /> **Top**<br /> Positions the view above the scene.<br /><br /> **Bottom**<br /> Positions the view beneath the scene. **Note:**  This is the only way to change the view direction when **Orthographic** projection is enabled.|  
 |**Projection**|Sets the kind of projection that is used to draw the scene. Here are the available projections:<br /><br /> **Perspective**<br /> In perspective projection, objects that are farther away from the viewpoint appear smaller in size and ultimately converge to a point in the distance.<br /><br /> **Orthographic**<br /> In Orthographic projection, objects appear to be the same size, regardless of their distance from the viewpoint. No convergence is displayed. When **Orthographic** projection enabled, you can't use **Orbit** mode to position the view.|  
 |**Draw Style**|Sets how objects in the scene are rendered. Here are the available styles:<br /><br /> **Wire Frame**<br /> When enabled, objects are rendered as wireframes.<br /><br /> **Overdraw**<br /> When enabled, objects are rendered by using additive blending. You can use this to visualize how much overdraw is occurring in the scene.<br /><br /> **Flat Shaded**<br /> When enabled, objects are rendered by using a basic, flat shaded lighting model. You can use this to see the faces of an object more easily.<br /><br /> If none of these options are enabled, each object is rendered by using the material that's applied to it.|  
-|**Real-Time Rendering Mode**|When real-time rendering is enabled, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] redraws the design surface, even when no user action is performed. This mode is useful when you work with shaders that change over time.|  
+|**Real-Time Rendering Mode**|When real-time rendering is enabled, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] redraws the design surface, even when no user action is performed. This mode is useful when you work with shaders that change over time.|  
 |**Toggle Grid**|When this item is enabled, a grid is displayed. Otherwise, the grid is not displayed.|  
 |**Toolbox**|Alternately shows or hides the **Toolbox**.|  
 |**Document Outline**|Alternately shows or hides the **Document Outline** window.|  
@@ -305,6 +305,6 @@ This document describes how to work with the [!INCLUDE[vsprvs](../codequality/in
   
 |Title|Description|  
 |-----------|-----------------|  
-|[Working with 3-D Assets for Games and Apps](../designers/working-with-3-d-assets-for-games-and-apps.md)|Provides an overview of the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] tools that you can use to work with graphics assets such as textures and images, 3-D models, and shader effects.|  
-|[Image Editor](../designers/image-editor.md)|Describes how to use the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Image Editor to work with textures and images.|  
-|[Shader Designer](../designers/shader-designer.md)|Describes how to use the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Shader Designer to work with shaders.|
+|[Working with 3-D Assets for Games and Apps](../designers/working-with-3-d-assets-for-games-and-apps.md)|Provides an overview of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] tools that you can use to work with graphics assets such as textures and images, 3-D models, and shader effects.|  
+|[Image Editor](../designers/image-editor.md)|Describes how to use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Image Editor to work with textures and images.|  
+|[Shader Designer](../designers/shader-designer.md)|Describes how to use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Shader Designer to work with shaders.|

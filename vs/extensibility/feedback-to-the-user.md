@@ -1,7 +1,7 @@
 ---
-title: "Feedback to the User"
+title: "Feedback to the User | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,7 +34,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Feedback to the User
-In the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE), visual feedback regarding available functionality is based on the user's current selection and global selection context. The following table lists the functionality that is available in different selection contexts.  
+In the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE), visual feedback regarding available functionality is based on the user's current selection and global selection context. The following table lists the functionality that is available in different selection contexts.  
   
 |Selection context|Available functionality|  
 |-----------------------|-----------------------------|  

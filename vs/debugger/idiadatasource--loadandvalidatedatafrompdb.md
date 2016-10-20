@@ -1,7 +1,7 @@
 ---
-title: "IDiaDataSource::loadAndValidateDataFromPdb"
+title: "IDiaDataSource::loadAndValidateDataFromPdb | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -52,7 +52,7 @@ HRESULT loadAndValidateDataFromPdb ( 
  [in] The path to the .pdb file.  
   
  `pcsig70`  
- [in] The GUID signature to verify against the .pdb file signature. Only .pdb files in [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)] and later have GUID signatures.  
+ [in] The GUID signature to verify against the .pdb file signature. Only .pdb files in [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] and later have GUID signatures.  
   
  `sig`  
  [in] The 32-bit signature to verify against the .pdb file signature.  

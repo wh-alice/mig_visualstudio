@@ -1,7 +1,7 @@
 ---
-title: "VC++ Project Settings, Projects and Solutions, Options Dialog Box"
+title: "VC++ Project Settings, Projects and Solutions, Options Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -40,7 +40,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # VC++ Project Settings, Projects and Solutions, Options Dialog Box
-This dialog box lets you define [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)] project settings related to build logging and supporting file types.  
+This dialog box lets you define [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] project settings related to build logging and supporting file types.  
   
 ### To access this dialog box  
   
@@ -76,7 +76,7 @@ This dialog box lets you define [!INCLUDE[vcprvc](../codequality/includes/vcprvc
   
 ## Show Environment in Log  
  **Yes**  
- Lists environment variables in the build log file. This option specifies to echo all environment variables, during builds of [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)] projects, into the build log file.  
+ Lists environment variables in the build log file. This option specifies to echo all environment variables, during builds of [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] projects, into the build log file.  
   
  **No**  
  Exclude environment variables from the build log file.  

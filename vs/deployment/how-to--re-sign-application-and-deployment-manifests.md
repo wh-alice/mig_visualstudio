@@ -1,7 +1,7 @@
 ---
-title: "How to: Re-sign Application and Deployment Manifests"
+title: "How to: Re-sign Application and Deployment Manifests | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

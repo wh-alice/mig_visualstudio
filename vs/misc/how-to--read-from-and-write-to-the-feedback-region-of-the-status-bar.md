@@ -1,7 +1,7 @@
 ---
-title: "How to: Read from and Write to the Feedback Region of the Status Bar"
+title: "How to: Read from and Write to the Feedback Region of the Status Bar | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,7 +33,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # How to: Read from and Write to the Feedback Region of the Status Bar
-The Feedback region of the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] status bar displays text. You can set and retrieve text, display static text, and highlight the displayed text.  
+The Feedback region of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] status bar displays text. You can set and retrieve text, display static text, and highlight the displayed text.  
   
 ### To use the Feedback region of the Visual Studio Status bar  
   

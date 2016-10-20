@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio Reference"
+title: "Visual Studio Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
@@ -49,7 +49,7 @@ This section includes user interface reference, language equivalents, and other 
  Contains reference documentation for interfaces that you can use to integrate .NET Framework script engines into applications.  
   
  [MSBuild](../reference/msbuild1.md)  
- Contains documents about how to use the Microsoft build platform, which is integrated into [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+ Contains documents about how to use the Microsoft build platform, which is integrated into [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
  [Resources for Troubleshooting IDE Errors](../reference/resources-for-troubleshooting-integrated-development-environment-errors.md)  
  Contains links to resources to help you resolve IDE error messages  
@@ -62,7 +62,7 @@ This section includes user interface reference, language equivalents, and other 
   
 ## Related Sections  
  [Visual Basic Reference](../Topic/Reference%20\(Visual%20Basic\).md)  
- Contains [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] upgrading information and the [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] language and run-time reference.  
+ Contains [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] upgrading information and the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] language and run-time reference.  
   
  [C/C++ Language and Standard Libraries](../Topic/C-C++%20Language%20and%20Standard%20Libraries.md)  
  Contains language reference documentation.  
@@ -71,4 +71,4 @@ This section includes user interface reference, language equivalents, and other 
  Contains documents about the [!INCLUDE[jsprjscript](../debugger/includes/jsprjscript_md.md)] programming language. Includes properties, methods, objects, and functions, and other elements.  
   
  [.NET Framework Reference Information](../Topic/.NET%20Framework%20Reference%20Information%20\(Visual%20Basic\).md)  
- Contains documents about the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] class library, compiler and language reference, and also [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] syntax, XSD reference, and other topics.
+ Contains documents about the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] class library, compiler and language reference, and also [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] syntax, XSD reference, and other topics.

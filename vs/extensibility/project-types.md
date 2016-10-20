@@ -1,7 +1,7 @@
 ---
-title: "Project Types"
+title: "Project Types | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,7 +32,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Project Types
-[!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] includes several project types for languages such as [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] and [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)]. [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] also lets you create your own project types.  
+[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] includes several project types for languages such as [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] and [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] also lets you create your own project types.  
   
 ## In This Section  
  [Essentials](../extensibility/project-type-essentials.md)  
@@ -42,7 +42,7 @@ translation.priority.mt:
  Discusses the design of project types.  
   
  [Adding a Command to the Solution Explorer Toolbar](../extensibility/adding-a-command-to-the-solution-explorer-toolbar.md)  
- Details the steps that you must follow to add a button to the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] **Solution Explorer** toolbar.  
+ Details the steps that you must follow to add a button to the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] **Solution Explorer** toolbar.  
   
  [Adding Web Services to Project Systems](../misc/adding-web-services-to-project-systems.md)  
  Shows how to integrate Web services into your VSPackage project system.  
@@ -66,17 +66,17 @@ translation.priority.mt:
  Explains how your project types can support *nesting*, so that projects can be grouped together in **Solution Explorer**.  
   
  [Upgrading Projects](../extensibility/upgrading-projects.md)  
- Describes how your project type can participate in the Upgrade Wizard to upgrade project files from an earlier version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+ Describes how your project type can participate in the Upgrade Wizard to upgrade project files from an earlier version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
  [Architecture](../extensibility/project-types-architecture.md)  
  Provides detailed technical information about project types.  
   
 ## Related Sections  
  [Hierarchies and Selection](../extensibility/hierarchies-and-selection.md)  
- Provides an overview of how the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE) displays a project as a hierarchy.  
+ Provides an overview of how the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) displays a project as a hierarchy.  
   
  [Project Subtypes](../extensibility/project-subtypes.md)  
  Provides links to project subtype topics. Project subtypes enable extension of most kinds of project types, including your own.  
   
  [Projects](../extensibility/projects.md)  
- Describes how to extend the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] project system.
+ Describes how to extend the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project system.

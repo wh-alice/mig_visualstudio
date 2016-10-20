@@ -1,7 +1,7 @@
 ---
-title: "Performance Explorer"
+title: "Performance Explorer | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Performance Explorer
-The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Profiling Tools let developers measure, evaluate, and target performance-related issues in their code. These tools are fully integrated into the IDE to provide a seamless and approachable user experience.  
+The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools let developers measure, evaluate, and target performance-related issues in their code. These tools are fully integrated into the IDE to provide a seamless and approachable user experience.  
   
  Profiling an application is straightforward. You begin by creating a new performance session. In Visual Studio Team System Development Edition, you can use the Performance Session Wizard to create a new performance session. After a performance session ends, data gathered during profiling is saved in a .vsp file. You can view the .vsp file inside the IDE. There are several report views available to help visualize and detect performance issues from the data gathered.  
   

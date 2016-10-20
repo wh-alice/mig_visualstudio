@@ -1,7 +1,7 @@
 ---
-title: "Ports"
+title: "Ports | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -42,7 +42,7 @@ In terms of the debugger architecture, a **port**:
   
 -   Is represented by an [IDebugPort2](../extensibility/idebugport2.md) interface, which is created by passing an [IDebugPortRequest2](../extensibility/idebugportrequest2.md) argument to [AddPort](../extensibility/idebugportsupplier2--addport.md).  
   
- [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] supplies a default port that handles all Windows-based processes, native and managed. A custom port must be implemented for connections with external devices that are not Windows-based. To supply such custom ports, a custom port supplier also needs to be implemented.  
+ [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] supplies a default port that handles all Windows-based processes, native and managed. A custom port must be implemented for connections with external devices that are not Windows-based. To supply such custom ports, a custom port supplier also needs to be implemented.  
   
 ## See Also  
  [Servers](../extensibility/servers--visual-studio-sdk-.md)   

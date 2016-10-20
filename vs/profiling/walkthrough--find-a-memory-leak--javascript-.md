@@ -1,7 +1,7 @@
 ---
-title: "Walkthrough: Find a memory leak (JavaScript)"
+title: "Walkthrough: Find a memory leak (JavaScript) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -37,7 +37,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Walkthrough: Find a memory leak (JavaScript)
-![Applies to Windows and Windows Phone](../codequality/media/windows_and_phone_content.png "windows_and_phone_content")  
+![Applies to Windows and Windows Phone](../code-quality/media/windows_and_phone_content.png "windows_and_phone_content")  
   
  This walkthrough leads you through the process of identifying and fixing a simple memory issue by using the JavaScript memory analyzer. The JavaScript memory analyzer is available in Visual Studio for Windows Store apps built for Windows using JavaScript. In this scenario, you create an app that incorrectly retains DOM elements in memory instead of disposing of elements at the same rate in which they are created.  
   

@@ -1,7 +1,7 @@
 ---
-title: "How to: Create Item Templates"
+title: "How to: Create Item Templates | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,7 +36,7 @@ translation.priority.ht:
 # How to: Create Item Templates
 The steps in the [first procedure](../ide/how-to--create-item-templates.md#export_template) of this topic show you how to create an item template by using the **Export Template** wizard. If your template will consist of multiple files, see [How to: Create Multi-file Item Templates](../ide/how-to--create-multi-file-item-templates.md).  
   
- The wizard does a lot of work for you to create the basic template, but in many cases you will need to manually modify the .vstemplate file after you have exported the template. For example, if you want the item to appear in the **Add New Item** dialog for a [!INCLUDE[win8_appname_long](../codequality/includes/win8_appname_long_md.md)] app project, you’ll have to perform a few extra steps. The [second procedure](../ide/how-to--create-item-templates.md#modify_template) in this topic helps you accomplish that task.  
+ The wizard does a lot of work for you to create the basic template, but in many cases you will need to manually modify the .vstemplate file after you have exported the template. For example, if you want the item to appear in the **Add New Item** dialog for a [!INCLUDE[win8_appname_long](../code-quality/includes/win8_appname_long_md.md)] app project, you’ll have to perform a few extra steps. The [second procedure](../ide/how-to--create-item-templates.md#modify_template) in this topic helps you accomplish that task.  
   
  To specify that your template should only appear for only certain project sub-types, such as Office, Database or Web, see [this section](../ide/how-to--create-multi-file-item-templates.md#enable_templates).  
   
@@ -46,7 +46,7 @@ The steps in the [first procedure](../ide/how-to--create-item-templates.md#expor
   
 ### To add a custom project item template to the Add New Item dialog box  
   
-1.  Create or open a project in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+1.  Create or open a project in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 2.  Add an item to the project and modify it if you want to.  
   
@@ -108,7 +108,7 @@ The steps in the [first procedure](../ide/how-to--create-item-templates.md#expor
   
      If the **Copy File** dialog box appears, choose the **Copy and Replace** option.  
   
- You can now add an item based on this template to a [!INCLUDE[win8_appname_long](../codequality/includes/win8_appname_long_md.md)] project by using the **Add New Item** dialog box.  
+ You can now add an item based on this template to a [!INCLUDE[win8_appname_long](../code-quality/includes/win8_appname_long_md.md)] project by using the **Add New Item** dialog box.  
   
  For more information about parameter names, see [Template Parameters](../ide/template-parameters.md).  
   

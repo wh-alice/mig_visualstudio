@@ -1,7 +1,7 @@
 ---
-title: "Setting Up Test Controllers in Lab Environments"
+title: "Setting Up Test Controllers in Lab Environments | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/10/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -38,7 +38,7 @@ This topic describes how to install and configure a test controller, and how to 
   
 -   If you are creating a network isolated environment, before you store the environment in your team project library, install test agents in the environment by running the "Microsoft Visual Studio Agents" CD or the downloaded ISO image.. However, you should not configure those test agents. For information about setting up a network isolated environment, see [Creating and using a network isolated environment](../test/creating-and-using-a-network-isolated-environment.md).  
   
--   If you’re creating a lab environment that contains any Windows XP machines, you must manually install test agents on the Windows XP machines, and then perform some extra steps. See [Configuring Lab Environments that Contain Windows XP or Windows Server 2003 Machines](../test/e646c59c-47e4-47a5-bf9f-67f375ad1915.md).  
+-   If you’re creating a lab environment that contains any Windows XP machines, you must manually install test agents on the Windows XP machines, and then perform some extra steps. See [Configuring Lab Environments that Contain Windows XP or Windows Server 2003 Machines](../test/configuring-lab-environments-that-contain-windows-xp-or-windows-server-2003-machines.md).  
   
  Use these sections to install and configure a test controller to use with a lab environment.  
   
@@ -97,7 +97,7 @@ This topic describes how to install and configure a test controller, and how to 
   
  **Administering a Test Controller that is registered with an on-premise Team Foundation Server**  
   
- If your test controller is registered with a team project collection from and on-premise Team Foundation Server, you don’t have to add the user account for the test controller to these user groups to administer the test controller. If you are a member of the Project Collection Test Service Accounts or Project Collection Administrators group for your [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)], you can administer the test controller.  
+ If your test controller is registered with a team project collection from and on-premise Team Foundation Server, you don’t have to add the user account for the test controller to these user groups to administer the test controller. If you are a member of the Project Collection Test Service Accounts or Project Collection Administrators group for your [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)], you can administer the test controller.  
   
  **Administering a test controller that is registered with Foundation Service**  
   
@@ -144,7 +144,7 @@ This topic describes how to install and configure a test controller, and how to 
   
      For more information about load testing, see [Web performance and load tests in Visual Studio](../test_notintoc/web-performance-and-load-tests-in-visual-studio.md) and [Using Test Controllers and Test Agents with Load Tests](../test/using-test-controllers-and-test-agents-with-load-tests.md).  
   
-    1.  Type your [!INCLUDE[ssNoVersion](../datatools/includes/ssnoversion_md.md)] instance in **Create load test results database in the following SQL Server instance**.  
+    1.  Type your [!INCLUDE[ssNoVersion](../data-tools/includes/ssnoversion_md.md)] instance in **Create load test results database in the following SQL Server instance**.  
   
         > [!NOTE]
         >  If you don’t have SQL Server installed, you can use SQL Express. For more information about how to download and install SQL Express, visit the following [Microsoft Web site](http://go.microsoft.com/fwlink/?LinkId=178451). For more information about sizing considerations, see [Using Test Controllers and Test Agents with Load Tests](../test/using-test-controllers-and-test-agents-with-load-tests.md).  
@@ -163,10 +163,10 @@ This topic describes how to install and configure a test controller, and how to 
   
      The test controller runs as a Windows Service named **Visual Studio Test Controller**. You can start and stop the service and view its properties in the **Services** tool in **Administrative Tools**.  
   
-     You can configure and monitor your test controller and any registered test agents using the **Test Controller Manager** in the **Lab Center** for [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)].  
+     You can configure and monitor your test controller and any registered test agents using the **Test Controller Manager** in the **Lab Center** for [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)].  
   
 > [!NOTE]
->  When you install a test controller on a computer, the registry entry HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control on that computer is set. This value silently changes the Service Control Manager time-out from 30 seconds to 10 minutes to provide more time for the test controller to start to communicate with [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] services. For more information, see [A service does not start, and events 7000 and 7011 are logged in Windows Server 2003](http://go.microsoft.com/fwlink/?LinkId=167904).  
+>  When you install a test controller on a computer, the registry entry HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control on that computer is set. This value silently changes the Service Control Manager time-out from 30 seconds to 10 minutes to provide more time for the test controller to start to communicate with [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] services. For more information, see [A service does not start, and events 7000 and 7011 are logged in Windows Server 2003](http://go.microsoft.com/fwlink/?LinkId=167904).  
   
  If you install the test controller on a computer that runs an operating system with user account control (UAC) the registry key HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\system\ LocalAccountTokenFilterPolicy is set to a value of 1. This disables remote restrictions of UAC to allow remote authentication if a test agent is configured to use a local account. See [Description of User Account Control and Remote Restrictions](http://go.microsoft.com/fwlink/?LinkId=181060).  
   

@@ -1,7 +1,7 @@
 ---
-title: "MSI and VSIX Deployment of a DSL"
+title: "MSI and VSIX Deployment of a DSL | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,18 +18,18 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # MSI and VSIX Deployment of a DSL
-You can install a domain-specific language on your own computer or on other computers. [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] must already be installed on the target computer.  
+You can install a domain-specific language on your own computer or on other computers. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] must already be installed on the target computer.  
   
 ##  <a name="which"></a> Choosing between VSIX and MSI Deployment  
  There are two methods of deploying a domain-specific language:  
   
 |Method|Benefits|  
 |------------|--------------|  
-|VSX ([!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Extension)|Very easy to deploy: Copy and execute the **.vsix** file from the DslPackage project.<br /><br /> For more information see [Installing and Uninstalling a DSL by using the VSX](#Installing).|  
-|MSI (installer file)|-   Allows the user to open [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] by double-clicking a DSL file.<br />-   Associates an icon with the DSL file type in the target computer.<br />-   Associates an XSD (XML schema) with the DSL file type. This avoids warnings when the file is loaded into [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].<br /><br /> You must add a setup project to your solution to create an MSI.<br /><br /> For more information, see [Deploying a DSL by using an MSI file](#msi).|  
+|VSX ([!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Extension)|Very easy to deploy: Copy and execute the **.vsix** file from the DslPackage project.<br /><br /> For more information see [Installing and Uninstalling a DSL by using the VSX](#Installing).|  
+|MSI (installer file)|-   Allows the user to open [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] by double-clicking a DSL file.<br />-   Associates an icon with the DSL file type in the target computer.<br />-   Associates an XSD (XML schema) with the DSL file type. This avoids warnings when the file is loaded into [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].<br /><br /> You must add a setup project to your solution to create an MSI.<br /><br /> For more information, see [Deploying a DSL by using an MSI file](#msi).|  
   
 ##  <a name="Installing"></a> Installing and Uninstalling a DSL by using the VSX  
- When your DSL is installed by this method, the user can open a DSL file from within [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], but the file cannot be opened from Windows Explorer.  
+ When your DSL is installed by this method, the user can open a DSL file from within [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], but the file cannot be opened from Windows Explorer.  
   
 #### To install a DSL by using the VSX  
   
@@ -41,17 +41,17 @@ You can install a domain-specific language on your own computer or on other comp
   
 2.  Copy the **.vsix** file to the target computer on which you want to install the DSL. This can be your own computer or another one.  
   
-    -   The target computer must have one of the editions of [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)] that supports DSLs at run time. For more information, see [Supported Visual Studio Editions for Visualization & Modeling SDK](../modeling/supported-visual-studio-editions-for-visualization---modeling-sdk.md).  
+    -   The target computer must have one of the editions of [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] that supports DSLs at run time. For more information, see [Supported Visual Studio Editions for Visualization & Modeling SDK](../modeling/supported-visual-studio-editions-for-visualization---modeling-sdk.md).  
   
-    -   The target computer must have one of the editions of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] specified in **DslPackage\source.extensions.manifest**.  
+    -   The target computer must have one of the editions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] specified in **DslPackage\source.extensions.manifest**.  
   
 3.  On the target computer, double-click the **.vsix** file.  
   
      **Visual Studio Extension Installer** opens and installs the extension.  
   
-4.  Start or restart [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)].  
+4.  Start or restart [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)].  
   
-5.  To test the DSL, use [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] to create a new file that has the extension that you defined for your DSL.  
+5.  To test the DSL, use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to create a new file that has the extension that you defined for your DSL.  
   
 #### To uninstall a DSL that was installed by using VSX  
   
@@ -70,7 +70,7 @@ You can install a domain-specific language on your own computer or on other comp
   
  For more information about MSI files and other deployment options, see [Deploying Applications, Services, and Components](../deployment/deploying-applications--services--and-components.md).  
   
- To build an MSI, you add a Setup project to your [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] solution. The easiest method of creating a Setup project is to use the CreateMsiSetupProject.tt template, which you can download from the [VMSDK site](http://go.microsoft.com/fwlink/?LinkID=186128).  
+ To build an MSI, you add a Setup project to your [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution. The easiest method of creating a Setup project is to use the CreateMsiSetupProject.tt template, which you can download from the [VMSDK site](http://go.microsoft.com/fwlink/?LinkID=186128).  
   
 #### To Deploy a DSL in an MSI  
   
@@ -102,7 +102,7 @@ You can install a domain-specific language on your own computer or on other comp
   
 5.  Add **CreateMsiSetupProject.tt** to your Dsl project.  
   
-     [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] will create a file named **CreateMsiSetupProject.vdproj**.  
+     [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] will create a file named **CreateMsiSetupProject.vdproj**.  
   
 6.  In Windows Explorer, copy Dsl\\*.vdproj to a new folder named Setup.  
   
@@ -126,7 +126,7 @@ You can install a domain-specific language on your own computer or on other comp
   
     -   In Windows Explorer list view, the file appears with the icon and description that you defined.  
   
-    -   When you double-click the file, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] starts, and opens the DSL file in your DSL editor.  
+    -   When you double-click the file, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] starts, and opens the DSL file in your DSL editor.  
   
  If you prefer, you can create the Setup project manually, instead of using the text template. For a walkthrough that includes this procedure see Chapter 5 of the [Visualization and Modeling SDK Lab](http://go.microsoft.com/fwlink/?LinkId=208878).  
   

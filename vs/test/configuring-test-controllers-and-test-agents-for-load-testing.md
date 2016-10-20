@@ -1,5 +1,5 @@
 ---
-title: "Configuring Test Controllers and Test Agents for Load Testing"
+title: "Configuring Test Controllers and Test Agents for Load Testing | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -103,7 +103,7 @@ Visual Studio Enterprise can generate simulated load for your app by using physi
  After you have installed a test controller and one or more agents, you can specify whether to use a remote execution with the test controller in the test setting for your load tests. Additionally, you can specify the data and diagnostic adapters to use with the role that is associated with the agents in the test setting. For more information, see [How to: Create a Test Setting for a Distributed Load Test](../test/how-to--create-a-test-setting-for-a-distributed-load-test.md) and [Setting Up Machines and Collecting Diagnostic Information Using Test Settings](../test/setting-up-machines-and-collecting-diagnostic-information-using-test-settings.md).  
   
 ## See Also  
- [How to: Run a Load Test Using Test Controllers and Test Agents Specified in a Test Setting](../test_notintoc/e08eb231-55b7-4d9c-9be5-4fe1051a12b7.md)   
+ [How to: Run a Load Test Using Test Controllers and Test Agents Specified in a Test Setting](../test_notintoc/how-to--run-a-load-test-using-test-controllers-and-test-agents-specified-in-a-test-setting.md)   
  [How to: Run a Test Using Test Controllers and Test Agents](../test/how-to--run-a-test-using-test-controllers-and-test-agents.md)   
  [Web performance and load tests in Visual Studio](../test_notintoc/web-performance-and-load-tests-in-visual-studio.md)   
  [Running Load and Web Performance Tests](http://msdn.microsoft.com/en-us/a4fd686e-69ec-485d-a335-acf12348aa30)   

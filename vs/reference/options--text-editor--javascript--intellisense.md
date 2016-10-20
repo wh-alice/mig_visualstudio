@@ -1,7 +1,7 @@
 ---
-title: "Options, Text Editor, JavaScript, IntelliSense"
+title: "Options, Text Editor, JavaScript, IntelliSense | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ translation.priority.mt:
 # Options, Text Editor, JavaScript, IntelliSense
 Use the **IntelliSense** page of the **Options** dialog box to modify settings that affect the behavior of IntelliSense for JavaScript. You can access the **IntelliSense** page by choosing **Tools**, **Options** on the  menu bar, and then expanding **Text Editor**, **JavaScript**, **IntelliSense.**  
   
- [!INCLUDE[note_settings_general](../datatools/includes/note_settings_general_md.md)]  
+ [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
   
  The **IntelliSense** page contains the following sections:  
   
@@ -73,7 +73,7 @@ Use the **IntelliSense** page of the **Options** dialog box to modify settings t
   
  You can use pre-defined reference groups to specify that particular IntelliSense .js files are in scope for different JavaScript projects. Four reference groups are available:  
   
--   Implicit (Windows *version*), for [!INCLUDE[win8_appname_long](../codequality/includes/win8_appname_long_md.md)] apps using JavaScript. Files included in this group are in scope for every .js file opened in the Code Editor for for [!INCLUDE[win8_appname_long](../codequality/includes/win8_appname_long_md.md)] apps using JavaScript.  
+-   Implicit (Windows *version*), for [!INCLUDE[win8_appname_long](../code-quality/includes/win8_appname_long_md.md)] apps using JavaScript. Files included in this group are in scope for every .js file opened in the Code Editor for for [!INCLUDE[win8_appname_long](../code-quality/includes/win8_appname_long_md.md)] apps using JavaScript.  
   
 -   Implicit (Web), for HTML5 projects. Files included in this group are in scope for every .js file opened in the Code Editor for these project types.  
   

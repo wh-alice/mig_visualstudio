@@ -1,7 +1,7 @@
 ---
-title: "How to: Disable URL Activation of ClickOnce Applications by Using the Designer"
+title: "How to: Disable URL Activation of ClickOnce Applications by Using the Designer | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -41,7 +41,7 @@ Typically, a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] a
   
  This technique can be used only for [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications installed on the user's computer from a Web server. It cannot be used for online-only applications, which can be started only by using their URL. For more information about the difference between online-only and installed applications, see [Choosing a ClickOnce Deployment Strategy](../deployment/choosing-a-clickonce-deployment-strategy.md).  
   
- This procedure uses [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. You can also accomplish this task by using the [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)]. For more information, see [How to: Disable URL Activation of ClickOnce Applications](../deployment/how-to--disable-url-activation-of-clickonce-applications.md).  
+ This procedure uses [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. You can also accomplish this task by using the [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)]. For more information, see [How to: Disable URL Activation of ClickOnce Applications](../deployment/how-to--disable-url-activation-of-clickonce-applications.md).  
   
 ## Procedure  
   

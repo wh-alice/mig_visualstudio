@@ -1,7 +1,7 @@
 ---
-title: "Walkthrough: Creating a Multiple-Computer Build Environment"
+title: "Walkthrough: Creating a Multiple-Computer Build Environment | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -56,7 +56,7 @@ You can create a build environment within your organization by installing Visual
   
  The multiple-computer environment can't be used to build these kinds of apps:  
   
--   [!INCLUDE[win8_appname_long](../codequality/includes/win8_appname_long_md.md)] apps. To build [!INCLUDE[win8_appname_long](../codequality/includes/win8_appname_long_md.md)] apps, you must install Visual Studio on the build computer.  
+-   [!INCLUDE[win8_appname_long](../code-quality/includes/win8_appname_long_md.md)] apps. To build [!INCLUDE[win8_appname_long](../code-quality/includes/win8_appname_long_md.md)] apps, you must install Visual Studio on the build computer.  
   
 -   Desktop apps that target the .NET Framework 4 or earlier. To build these kinds of apps, you must install either Visual Studio or the .NET Reference Assemblies and Tools (from the Windows 7.1 SDK) on the build computer.  
   
@@ -347,7 +347,7 @@ You can create a build environment within your organization by installing Visual
     >  A reboot may be required for an assembly to fully install into the GAC.  
   
 ##  <a name="BuildingProjects"></a> Building projects  
- You can use Team Foundation Build to build [!INCLUDE[vs_dev11_long](../codequality/includes/vs_dev11_long_md.md)] projects and solutions, or you can build them on the command line. When you use Team Foundation Build to build projects, it invokes the MSBuild executable that corresponds to the system architecture.  On the command line, you can use either 32-bit MSBuild or 64-bit MSBuild, and you can choose the architecture of MSBuild by setting the PATH environment variable or by directly invoking the architecture-specific MSBuild executable.  
+ You can use Team Foundation Build to build [!INCLUDE[vs_dev11_long](../code-quality/includes/vs_dev11_long_md.md)] projects and solutions, or you can build them on the command line. When you use Team Foundation Build to build projects, it invokes the MSBuild executable that corresponds to the system architecture.  On the command line, you can use either 32-bit MSBuild or 64-bit MSBuild, and you can choose the architecture of MSBuild by setting the PATH environment variable or by directly invoking the architecture-specific MSBuild executable.  
   
  To use msbuild.exe at the command prompt, run the following command, in which *solution.sln* is a placeholder for the name of your solution.  
   
@@ -356,7 +356,7 @@ You can create a build environment within your organization by installing Visual
  For more information about how to use MSBuild on the command line, see [Command-Line Reference](../reference/msbuild-command-line-reference.md).  
   
 > [!NOTE]
->  To build [!INCLUDE[vs_dev11_long](../codequality/includes/vs_dev11_long_md.md)] projects, you must use the "v110" Platform Toolset. If you don't want to edit the [!INCLUDE[vs_dev11_long](../codequality/includes/vs_dev11_long_md.md)] project files, you can set the Platform Toolset by using this command-line argument:  
+>  To build [!INCLUDE[vs_dev11_long](../code-quality/includes/vs_dev11_long_md.md)] projects, you must use the "v110" Platform Toolset. If you don't want to edit the [!INCLUDE[vs_dev11_long](../code-quality/includes/vs_dev11_long_md.md)] project files, you can set the Platform Toolset by using this command-line argument:  
 >   
 >  **msbuild** *solution.sln* **/p:PlatformToolset=v110**  
   

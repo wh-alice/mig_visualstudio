@@ -1,7 +1,7 @@
 ---
-title: "Creating Solutions and Projects"
+title: "Creating Solutions and Projects | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -39,7 +39,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Creating Solutions and Projects
-Projects are the logical containers for everything that's needed to build your application. When you create a project by choosing **File &#124; New &#124; Project** from the main menu, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] creates a solution to contain it. You can then add more new or existing projects to the solution if necessary. You can create projects from existing code files and you can create temporary projects (.NET only) that will be deleted when you are done with them.  
+Projects are the logical containers for everything that's needed to build your application. When you create a project by choosing **File &#124; New &#124; Project** from the main menu, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] creates a solution to contain it. You can then add more new or existing projects to the solution if necessary. You can create projects from existing code files and you can create temporary projects (.NET only) that will be deleted when you are done with them.  
   
 > [!NOTE]
 >  The descriptions in this topic are based on the Visual Studio Community edition. The dialog boxes and menu commands you see might differ from those described here, depending on your settings or Visual Studio edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
@@ -91,7 +91,7 @@ Projects are the logical containers for everything that's needed to build your a
  After you create an empty solution, you can add new or existing projects or items to it by clicking **Add New Item** or **Add Existing Item** on the **Project** menu.  
   
 ### Deleting Solutions  
- You can delete a solution permanently, but not by using [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. Before you delete a solution, move any projects that you might want to use again in another solution. Then use File Explorer to delete the directory that contains the .sln and .suo solution files.  
+ You can delete a solution permanently, but not by using [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Before you delete a solution, move any projects that you might want to use again in another solution. Then use File Explorer to delete the directory that contains the .sln and .suo solution files.  
   
 > [!NOTE]
 >  The .suo file is a hidden file that is not displayed under default File Explorer settings.  

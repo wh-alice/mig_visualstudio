@@ -1,7 +1,7 @@
 ---
-title: "How to: Brand a VSPackage (C# and Visual Basic)"
+title: "How to: Brand a VSPackage (C# and Visual Basic) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,7 +33,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # How to: Brand a VSPackage (C# and Visual Basic)
-To appear in the **About** dialog box and the splash screen, VSPackages must implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsInstalledProduct> interface. This provides the following information to [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]:  
+To appear in the **About** dialog box and the splash screen, VSPackages must implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsInstalledProduct> interface. This provides the following information to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]:  
   
 -   Name  
   
@@ -52,7 +52,7 @@ To appear in the **About** dialog box and the splash screen, VSPackages must imp
      [!code[VSSDKPackageSplashHelpAboutLoadKey#1](../misc/codesnippet/CSharp/how-to--brand-a-vspackage--csharp-and-visual-basic-_1.cs)]
 [!code[VSSDKPackageSplashHelpAboutLoadKey#1](../misc/codesnippet/VisualBasic/how-to--brand-a-vspackage--csharp-and-visual-basic-_1.vb)]  
   
-     The first argument, <xref:Microsoft.VisualStudio.Shell.InstalledProductRegistrationAttribute.UseInterface*>, of the <xref:Microsoft.VisualStudio.Shell.InstalledProductRegistrationAttribute> attribute tells [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] to use <xref:Microsoft.VisualStudio.Shell.Interop.IVsInstalledProduct> to obtain product information, instead of the InstalledProducts registry key. The remaining arguments select string resources to display the product name, details, and ID, respectively. However, because the first argument is `true`, the remaining arguments are `null`.  
+     The first argument, <xref:Microsoft.VisualStudio.Shell.InstalledProductRegistrationAttribute.UseInterface*>, of the <xref:Microsoft.VisualStudio.Shell.InstalledProductRegistrationAttribute> attribute tells [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to use <xref:Microsoft.VisualStudio.Shell.Interop.IVsInstalledProduct> to obtain product information, instead of the InstalledProducts registry key. The remaining arguments select string resources to display the product name, details, and ID, respectively. However, because the first argument is `true`, the remaining arguments are `null`.  
   
 2.  Right-click <xref:Microsoft.VisualStudio.Shell.Interop.IVsInstalledProduct>, point to **Implement Interface**, and then click **Implement Interface**.  
   
@@ -61,7 +61,7 @@ To appear in the **About** dialog box and the splash screen, VSPackages must imp
      [!code[VSSDKPackageSplashHelpAboutLoadKey#2](../misc/codesnippet/CSharp/how-to--brand-a-vspackage--csharp-and-visual-basic-_2.cs)]
 [!code[VSSDKPackageSplashHelpAboutLoadKey#2](../misc/codesnippet/VisualBasic/how-to--brand-a-vspackage--csharp-and-visual-basic-_2.vb)]  
   
-     [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] calls these methods to obtain information for branding the VSPackage. The GetResourceString method is used to localize this information.  
+     [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] calls these methods to obtain information for branding the VSPackage. The GetResourceString method is used to localize this information.  
   
     > [!NOTE]
     >  Code comments are deleted for brevity. You can find them in [VSSDK Samples](../misc/vssdk-samples.md).  

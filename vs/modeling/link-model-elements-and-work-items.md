@@ -1,7 +1,7 @@
 ---
-title: "Link model elements and work items"
+title: "Link model elements and work items | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -177,9 +177,9 @@ Track tasks, test cases, bugs, requirements, issues, and other work related to y
   
 |**Issue**|**Possible cause**|**Resolution**|  
 |---------------|------------------------|--------------------|  
-|Can't find the model element that you want to link.|The element might be on a diagram in a modeling project that is in [!INCLUDE[esprscc](../codequality/includes/esprscc_md.md)]. You might not have a workspace that maps to the diagram.|Map your workspace to the modeling project and diagram. If you do not have a workspace, then you must create it.<br /><br /> The error message that appears for this issue contains the path that you can use to map your workspace.<br /><br /> See [Create and work with workspaces](../Topic/Create%20and%20work%20with%20workspaces.md).|  
+|Can't find the model element that you want to link.|The element might be on a diagram in a modeling project that is in [!INCLUDE[esprscc](../code-quality/includes/esprscc_md.md)]. You might not have a workspace that maps to the diagram.|Map your workspace to the modeling project and diagram. If you do not have a workspace, then you must create it.<br /><br /> The error message that appears for this issue contains the path that you can use to map your workspace.<br /><br /> See [Create and work with workspaces](../Topic/Create%20and%20work%20with%20workspaces.md).|  
 |Can't find the linked model element.|The linked element might be on a diagram that has been moved, renamed, or deleted.|1.  In the work item, delete the link to the model element.<br />2.  Create a new link from the work item to the model element.|  
-|The work item doesn't have the linked model elements that you expect.|A work item shows a linked layer element only if the link was created from the work item. If your team does not use [!INCLUDE[esprscc](../codequality/includes/esprscc_md.md)], the local path of the diagrams will be used to create the links. If the modeling project and its diagrams are in [!INCLUDE[esprscc](../codequality/includes/esprscc_md.md)], all team members who can access the project can view linked elements in work items.|Try refreshing the work item.|  
+|The work item doesn't have the linked model elements that you expect.|A work item shows a linked layer element only if the link was created from the work item. If your team does not use [!INCLUDE[esprscc](../code-quality/includes/esprscc_md.md)], the local path of the diagrams will be used to create the links. If the modeling project and its diagrams are in [!INCLUDE[esprscc](../code-quality/includes/esprscc_md.md)], all team members who can access the project can view linked elements in work items.|Try refreshing the work item.|  
 |Deleting a link to a model element from a work item doesn't delete the link from the model element to the work item.||Delete the link to the work item starting from the model element.|  
   
 ## See Also  

@@ -1,7 +1,7 @@
 ---
-title: "MSBuild1"
+title: "MSBuild1 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -178,7 +178,7 @@ MSBuild.exe MyProj.proj /property:Configuration=Debug
  You can log build errors, warnings, and messages to the console or another output device. For more information, see [Obtaining Build Logs](../reference/obtaining-build-logs-with-msbuild.md) and [Logging in MSBuild](../reference/logging-in-msbuild.md).  
   
 ##  <a name="BKMK_VisualStudio"></a> Using MSBuild in Visual Studio  
- [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] uses the [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] project file format to store build information about managed projects. Project settings that are added or changed by using the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] interface are reflected in the .*proj file that's generated for every project. [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] uses a hosted instance of [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] to build managed projects. This means that a managed project can be built in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] or at a command prompt (even if [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] isn't installed), and the results will be identical.  
+ [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] uses the [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] project file format to store build information about managed projects. Project settings that are added or changed by using the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] interface are reflected in the .*proj file that's generated for every project. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] uses a hosted instance of [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] to build managed projects. This means that a managed project can be built in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] or at a command prompt (even if [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] isn't installed), and the results will be identical.  
   
  For a tutorial about how to use MSBuild in Visual Studio, see [Walkthrough: Using MSBuild](../reference/walkthrough--using-msbuild.md).  
   

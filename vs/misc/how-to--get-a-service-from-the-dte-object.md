@@ -1,7 +1,7 @@
 ---
-title: "How to: Get a Service from the DTE Object"
+title: "How to: Get a Service from the DTE Object | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,7 +31,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # How to: Get a Service from the DTE Object
-A service can be obtained from any program that has access to the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Automation <xref:EnvDTE.DTEClass> object. For example, you can access the <xref:Microsoft.VisualStudio.Shell.Interop.SVsActivityLog> service from a wizard through the DTE object. You can use this service to write to the activity log. For more information, see [How to: Use the Activity Log](../extensibility/how-to--use-the-activity-log.md).  
+A service can be obtained from any program that has access to the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Automation <xref:EnvDTE.DTEClass> object. For example, you can access the <xref:Microsoft.VisualStudio.Shell.Interop.SVsActivityLog> service from a wizard through the DTE object. You can use this service to write to the activity log. For more information, see [How to: Use the Activity Log](../extensibility/how-to--use-the-activity-log.md).  
   
  The DTE object implements <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider>, which you can use to query for a service from managed code by using <xref:Microsoft.VisualStudio.Shell.ServiceProvider.GetService*>.  
   

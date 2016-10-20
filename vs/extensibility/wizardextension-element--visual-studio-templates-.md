@@ -1,7 +1,7 @@
 ---
-title: "WizardExtension Element (Visual Studio Templates)"
+title: "WizardExtension Element (Visual Studio Templates) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -72,7 +72,7 @@ Contains the registration elements for customizing the template wizard.
  `WizardExtension` is an optional child element of `VSTemplate`.  
   
 ## Example  
- The following example illustrates the metadata for the standard project template for a [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] Windows application.  
+ The following example illustrates the metadata for the standard project template for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] Windows application.  
   
 ```  
 <VSTemplate Version="3.0.0" Type="Item"  

@@ -1,7 +1,7 @@
 ---
-title: "How to: Create Custom Graphs in Load Test Results"
+title: "How to: Create Custom Graphs in Load Test Results | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""

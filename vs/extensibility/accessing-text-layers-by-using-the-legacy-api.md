@@ -1,7 +1,7 @@
 ---
-title: "Accessing Text Layers by Using the Legacy API"
+title: "Accessing Text Layers by Using the Legacy API | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,7 +36,7 @@ A text layer typically encapsulates some aspect of text layout. For example, a "
  A text layer resides between a buffer and a view, and it modifies the way the view sees the buffer's contents.  
   
 ## Text Layer Information  
- The following list describes how text layers work in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]:  
+ The following list describes how text layers work in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]:  
   
 -   The text in a text layer can be adorned with syntax coloring and markers.  
   

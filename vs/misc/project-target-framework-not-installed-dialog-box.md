@@ -1,7 +1,7 @@
 ---
-title: "Project Target Framework Not Installed Dialog Box"
+title: "Project Target Framework Not Installed Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -53,7 +53,7 @@ You have opened a project which targets a framework that is not installed on you
  If you opened a Visual C++ project, select one of the following options.  
   
  **Download the targeting pack for .NET Framework** *Version* **. The project will not change.**  
- Opens the Microsoft Download Center website, where you can download the version of the .NET Framework that you want. After the download finishes, your project is retargeted to that version. Your project is unloaded from the solution. After you download and install the desired framework, you must restart [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], and then reopen the project.  
+ Opens the Microsoft Download Center website, where you can download the version of the .NET Framework that you want. After the download finishes, your project is retargeted to that version. Your project is unloaded from the solution. After you download and install the desired framework, you must restart [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], and then reopen the project.  
   
  **Do not load the project.**  
  Leaves the project unloaded from the solution. You can later install the desired Framework and then reload the project.  

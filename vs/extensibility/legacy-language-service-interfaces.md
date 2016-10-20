@@ -1,7 +1,7 @@
 ---
-title: "Legacy Language Service Interfaces"
+title: "Legacy Language Service Interfaces | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,7 +34,7 @@ translation.priority.mt:
 # Legacy Language Service Interfaces
 For any particular programming language, there can be only one instance of a language service at a time. However, a single language service can serve more than one editor.  
   
- [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] does not associate a language service with any particular editor. Therefore, when you request a language service operation, you must identify the appropriate editor as a parameter.  
+ [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] does not associate a language service with any particular editor. Therefore, when you request a language service operation, you must identify the appropriate editor as a parameter.  
   
 ## Common Interfaces Associated with Language Services  
  The editor gets your language service by calling <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider.QueryService*> on the appropriate VSPackage. The service ID (SID) passed in this call identifies the language service being requested.  
@@ -52,7 +52,7 @@ For any particular programming language, there can be only one instance of a lan
  The <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo> interface must be implemented on all language services. It provides information about your language service, such as the localized name of the language, the file name extensions associated with the language service, and how to retrieve a colorizer.  
   
 ## Additional Language Service Interfaces  
- Other interfaces can be provided with your language service. [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] requests a separate instance of these interfaces for each instance of the text buffer. Therefore, you should implement each of these interfaces on its own object. The following table shows interfaces that require one instance per text buffer instance.  
+ Other interfaces can be provided with your language service. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] requests a separate instance of these interfaces for each instance of the text buffer. Therefore, you should implement each of these interfaces on its own object. The following table shows interfaces that require one instance per text buffer instance.  
   
 |Interface|Description|  
 |---------------|-----------------|  

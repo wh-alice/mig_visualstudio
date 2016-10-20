@@ -1,5 +1,5 @@
 ---
-title: "How to: Configure Network Emulation Using Test Settings in Visual Studio"
+title: "How to: Configure Network Emulation Using Test Settings in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -29,17 +29,17 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Configure Network Emulation Using Test Settings in Visual Studio
-You can configure the diagnostic data adapter to test your application under various network environments from [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] and Visual Studio. It can also be configured to test an artificial network load, or bottleneck, when you run your tests.  
+You can configure the diagnostic data adapter to test your application under various network environments from [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] and Visual Studio. It can also be configured to test an artificial network load, or bottleneck, when you run your tests.  
   
 > [!CAUTION]
 >  If you run your tests on a real network that is a slower type than the network you are emulating, the test will still run at the slower network speed. The emulation can only slow down the network environment, not speed it up.  
   
- The following procedure describes how to configure network emulation from the configuration editor. These steps apply to both the configuration editor in [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] and Visual Studio.  
+ The following procedure describes how to configure network emulation from the configuration editor. These steps apply to both the configuration editor in [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] and Visual Studio.  
   
 > [!NOTE]
->  The network emulation diagnostic data adapter is only applicable to Visual Studio test settings. It is not used for test settings in [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)].  
+>  The network emulation diagnostic data adapter is only applicable to Visual Studio test settings. It is not used for test settings in [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)].  
   
- An account that has administrator privileges must be used for network emulation. If you have selected network emulation for a local role that runs manual tests, you must start [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] by using administrator privileges. If you have selected network emulation for any other role, you must verify that the test agent on the machine for that role uses a user account that is a member of the administrators group. For more information about how to set up the account for your test agent, see [Install and configure test agents](../test/install-and-configure-test-agents.md).  
+ An account that has administrator privileges must be used for network emulation. If you have selected network emulation for a local role that runs manual tests, you must start [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] by using administrator privileges. If you have selected network emulation for any other role, you must verify that the test agent on the machine for that role uses a user account that is a member of the administrators group. For more information about how to set up the account for your test agent, see [Install and configure test agents](../test/install-and-configure-test-agents.md).  
   
 > [!NOTE]
 >  The Network Service account, which is the default account for the test agent, is not a member of the administrators group.  
@@ -107,7 +107,7 @@ You can configure the diagnostic data adapter to test your application under var
   
 4.  If you include the network emulation diagnostic data adapter in the test settings and you intend to use it on your local machine, then you must also bind the network emulation driver to one of your machine’s network adapters. The network emulation driver is required for the network emulation diagnostic data adapter to function. The network emulation driver is installed and bound to your adapter in two ways:  
   
-    -   **Network emulation driver installed with Microsoft Visual Studio Test Agent:** The Microsoft Visual Studio Test Agent can be used on both remote machines and your local machine. When you install a Visual Studio Test Agent, the installation process includes a configuration step that binds the network emulation driver to your network card. [!INCLUDE[crdefault](../codequality/includes/crdefault_md.md)][Install and configure test agents](../test/install-and-configure-test-agents.md).  
+    -   **Network emulation driver installed with Microsoft Visual Studio Test Agent:** The Microsoft Visual Studio Test Agent can be used on both remote machines and your local machine. When you install a Visual Studio Test Agent, the installation process includes a configuration step that binds the network emulation driver to your network card. [!INCLUDE[crdefault](../code-quality/includes/crdefault_md.md)][Install and configure test agents](../test/install-and-configure-test-agents.md).  
   
     -   **Network emulation driver installed with Microsoft Visual Studio Test Professional:** When you use network emulation for the first time, you are prompted to bind the network emulation driver to a network card.  
   

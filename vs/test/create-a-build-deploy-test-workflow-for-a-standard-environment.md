@@ -1,7 +1,7 @@
 ---
-title: "Create a build-deploy-test workflow for a standard environment"
+title: "Create a build-deploy-test workflow for a standard environment | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -30,7 +30,7 @@ translation.priority.ht:
 > [!NOTE]
 >  This topic applies to standard environments. If you want to complete this procedure using an SCVMM environment, see [Create a build-deploy-test workflow for an SCVMM environment](../test/create-a-build-deploy-test-workflow-for-an-scvmm-environment.md).  
   
- You can use a build-deploy-test workflow to automatically deploy an application to your standard environment and run automated tests on that application as part of the build process. Users can then access the application in their standard environment, or they can run manual tests or automated tests separate from the build process using [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)]. For an overview on build-deploy-test workflows, see [Setting Up Automated Build-Deploy-Test Workflows](../test/create-a-build-deploy-test-workflow-for-a-standard-environment.md).  
+ You can use a build-deploy-test workflow to automatically deploy an application to your standard environment and run automated tests on that application as part of the build process. Users can then access the application in their standard environment, or they can run manual tests or automated tests separate from the build process using [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)]. For an overview on build-deploy-test workflows, see [Setting Up Automated Build-Deploy-Test Workflows](../test/create-a-build-deploy-test-workflow-for-a-standard-environment.md).  
   
  **Requirements**  
   
@@ -191,7 +191,7 @@ translation.priority.ht:
   
 13. Choose **Save** to save your build definition.  
   
-     The created build definition appears in the **Builds** folder in [!INCLUDE[esprtfc](../codequality/includes/esprtfc_md.md)].  
+     The created build definition appears in the **Builds** folder in [!INCLUDE[esprtfc](../code-quality/includes/esprtfc_md.md)].  
   
 ##  <a name="RunWorkflow"></a> Run Your Workflow  
  You can run your workflow by running the build definition that contains your workflow.  
@@ -210,7 +210,7 @@ translation.priority.ht:
   
      You can see the status as the build progresses.  
   
-4.  (Optional) If you want to view the environment as the build progresses, open [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], locate the **Lab Center**, choose **Lab**, and then choose your environment in the list. You can view the progress of the build reflected in the image for your environment and in the environment details above this image, as follows:  
+4.  (Optional) If you want to view the environment as the build progresses, open [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], locate the **Lab Center**, choose **Lab**, and then choose your environment in the list. You can view the progress of the build reflected in the image for your environment and in the environment details above this image, as follows:  
   
     -   The status of the capabilities (a green arrow is displayed when a capability is ready).  
   
@@ -223,7 +223,7 @@ translation.priority.ht:
   
 #### To view the build results for your workflow  
   
-1.  From the **Builds** folder in [!INCLUDE[esprtfc](../codequality/includes/esprtfc_md.md)], right-click your build workflow definition and point to **View Builds**.  
+1.  From the **Builds** folder in [!INCLUDE[esprtfc](../code-quality/includes/esprtfc_md.md)], right-click your build workflow definition and point to **View Builds**.  
   
      The **Build Explorer** view is displayed.  
   

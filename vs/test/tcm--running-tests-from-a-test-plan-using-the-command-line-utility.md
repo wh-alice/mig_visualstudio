@@ -1,5 +1,5 @@
 ---
-title: "tcm: Running Tests from a Test Plan Using the Command Line Utility"
+title: "tcm: Running Tests from a Test Plan Using the Command Line Utility | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -27,7 +27,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # tcm: Running Tests from a Test Plan Using the Command Line Utility
-You can run automated tests that are part of a test plan from the command line. This lets you start a test run using a batch file so that you can schedule a run. You can also manage the test runs from the command line. If you want to export a test run so that a developer can view the test results using [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], you can use **tcm** to accomplish this. You can also publish test run results from a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] test run file (.trx) using **tcm**. You can specify which results from this test run file that you want to publish back to your test plan. You can use the following **tcm** commands to accomplish these tasks:  
+You can run automated tests that are part of a test plan from the command line. This lets you start a test run using a batch file so that you can schedule a run. You can also manage the test runs from the command line. If you want to export a test run so that a developer can view the test results using [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], you can use **tcm** to accomplish this. You can also publish test run results from a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] test run file (.trx) using **tcm**. You can specify which results from this test run file that you want to publish back to your test plan. You can use the following **tcm** commands to accomplish these tasks:  
   
 -   **tcm run /create**  
   
@@ -105,7 +105,7 @@ tcm run /publish /suiteid:id /configid:id /resultowner:owner /resultsfile:path /
 |**/buildverification**|Optional. Specifies that this test run contains build verification tests that check the basic functionality of your build.|  
 |**/include**|Optional. Specifies that all tests that are selected for the test run are included, even if the tests are not currently set to the Active state.|  
 |**/noprompt**|Optional. Specifies that the user is not prompted to confirm deletion of a test run.|  
-|**/login**:`username,[password]`|Optional. Specifies the name and password of a user who is logged on to the application-tier server for [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] and who has permissions to run the command. You would use this option if your Windows credentials do not have the appropriate permissions, or you are using basic authentication, or you are not connected to a domain.<br /><br /> To login to Visual Studio Team Services, you will also need to use **/allowalternatecredentials** listed below.|  
+|**/login**:`username,[password]`|Optional. Specifies the name and password of a user who is logged on to the application-tier server for [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] and who has permissions to run the command. You would use this option if your Windows credentials do not have the appropriate permissions, or you are using basic authentication, or you are not connected to a domain.<br /><br /> To login to Visual Studio Team Services, you will also need to use **/allowalternatecredentials** listed below.|  
 |**/allowalternatecredentials**|This flag must be specified in addition to the **/login** parameter when connecting to Visual Studio Team Services. (This flag is only available if you have Visual Studio 2013 Update 4 or greater.)|  
   
  You can add parameters for **/collection** and **/teamproject** to the **tcm.exe.config** XML file which is located in the same directory as **tcm.exe**: **\<Drive:>\Program Files\Microsoft Visual Studio \<version>\Common7\IDE**. If you add these to the file, you do not have to enter them on the command line each time you run a **tcm** command. You can add these keys and their values to the file, as follows, in the **appSettings** section:  
@@ -177,4 +177,4 @@ tcm run /publish /suiteid:5 /configid:13 /resultowner:"<Name of new owner>" /res
   
 ## See Also  
  [tcm: Listing test plans, test suites, test configurations, and environments](../test/tcm--listing-test-plans--test-suites--test-configurations--and-environments.md)   
- [Using tcm to import and run automated tests for a test plan from the command line](../test/b45def12-0e67-4270-89ea-67c41bc188a7.md)
+ [Using tcm to import and run automated tests for a test plan from the command line](../test/using-tcm-to-import-and-run-automated-tests-for-a-test-plan-from-the-command-line.md)

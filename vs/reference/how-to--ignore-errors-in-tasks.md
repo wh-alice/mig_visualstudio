@@ -1,7 +1,7 @@
 ---
-title: "How to: Ignore Errors in Tasks"
+title: "How to: Ignore Errors in Tasks | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "MSBuild, ignoring errors"
   - "ContinueOnError attribute [MSBuild]"
 ms.assetid: e2f1ca4f-787b-44bd-bc64-81a036025e96
-caps.latest.revision: 17
+caps.latest.revision: 18
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -74,6 +74,7 @@ Sometimes you want a build to be tolerant of faults in certain tasks. If those n
 </Project>  
 ```  
   
-## See Also  
+## See Also
+[MSBuild](../reference/msbuild1.md)  
  [Task Reference](../reference/msbuild-task-reference.md)   
  [Tasks](../reference/msbuild-tasks.md)

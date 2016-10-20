@@ -1,7 +1,7 @@
 ---
-title: "Walkthrough: Downloading Assemblies on Demand with the ClickOnce Deployment API"
+title: "Walkthrough: Downloading Assemblies on Demand with the ClickOnce Deployment API | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -55,7 +55,7 @@ By default, all of the assemblies included in a [!INCLUDE[ndptecclick](../deploy
   
 1.  Create a directory named ClickOnceOnDemand.  
   
-2.  Open the Windows SDK Command Prompt or the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Command Prompt.  
+2.  Open the Windows SDK Command Prompt or the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Command Prompt.  
   
 3.  Change to the ClickOnceOnDemand directory.  
   

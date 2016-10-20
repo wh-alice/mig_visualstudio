@@ -1,7 +1,7 @@
 ---
-title: "How to: Include Prerequisites with a ClickOnce Application"
+title: "How to: Include Prerequisites with a ClickOnce Application | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -40,7 +40,7 @@ Before you can distribute prerequisite software with a [!INCLUDE[ndptecclick](..
   
      By default, the path is C:\Program Files\Microsoft Visual Studio 14.0\SDK\Bootstrapper\Packages on a 32-bit system and C:\Program Files (x86)\Microsoft Visual Studio 14.0\SDK\Bootstrapper\Packages on a 64-bit system.  
   
-2.  Open the folder for the prerequisite that you want to add, and then open the language folder for your installed version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] (for example, **en** for English).  
+2.  Open the folder for the prerequisite that you want to add, and then open the language folder for your installed version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] (for example, **en** for English).  
   
 3.  In Notepad, open the **Package.xml** file.  
   

@@ -1,7 +1,7 @@
 ---
-title: "How to: Create Menus, SubMenus, and Shortcut Menus"
+title: "How to: Create Menus, SubMenus, and Shortcut Menus | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -39,7 +39,7 @@ To add a menu to the Visual Studio integrated development environment (IDE), a V
   
  In VSPackages, menus are defined in the [Menus](../extensibility/menus-element.md) section of a .vsct file. A .vsct file defines menus, toolbars, groups, and commands. A command is what a user clicks to perform a function. A group is a container for commands. A menu is a container for groups. To create a basic menu, you must create a menu, a command group, and at least one command.  
   
- There are three basic ways that a menu can appear in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]:  
+ There are three basic ways that a menu can appear in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]:  
   
 -   As a menu on the main menu bar.  
   

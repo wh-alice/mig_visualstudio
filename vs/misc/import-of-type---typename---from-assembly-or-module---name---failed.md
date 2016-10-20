@@ -1,7 +1,7 @@
 ---
-title: "Import of type &#39;&lt;typename&gt;&#39; from assembly or module &#39;&lt;name&gt;&#39; failed"
+title: "Import of type &#39;&lt;typename&gt;&#39; from assembly or module &#39;&lt;name&gt;&#39; failed | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

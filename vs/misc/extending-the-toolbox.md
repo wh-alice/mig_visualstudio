@@ -1,7 +1,7 @@
 ---
-title: "Extending the Toolbox"
+title: "Extending the Toolbox | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,9 +32,9 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Extending the Toolbox
-The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] **Toolbox** provides a collection of objects that provide functionality to editors and designers through the IDE's drag-and-drop mechanism.  
+The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] **Toolbox** provides a collection of objects that provide functionality to editors and designers through the IDE's drag-and-drop mechanism.  
   
- There are two basic ways in which a VSPackage works with the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] **Toolbox**:  
+ There are two basic ways in which a VSPackage works with the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] **Toolbox**:  
   
 -   A VSPackage can add new data items and controls to the **Toolbox**.  
   
@@ -52,10 +52,10 @@ The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] **Toolbox** provide
   
 ## Related Sections  
  [How to: Manage the Toolbox Window](http://msdn.microsoft.com/en-us/a022c3fe-298c-4a59-a48f-b050da90ebc2)  
- Describes how to work with the **Toolbox** in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE).  
+ Describes how to work with the **Toolbox** in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE).  
   
  [How to: Control the Toolbox](../Topic/How%20to:%20Control%20the%20Toolbox.md)  
  Describes how to manage the **Toolbox** using the automation programming model.  
   
  [Extending Other Parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)  
- Explains how to use [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] services to create UI elements that match the rest of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].
+ Explains how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] services to create UI elements that match the rest of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].

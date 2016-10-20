@@ -1,7 +1,7 @@
 ---
-title: "Could not find standard library: &#39;&lt;filename&gt;&#39;"
+title: "Could not find standard library: &#39;&lt;filename&gt;&#39; | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Could not find standard library: &#39;&lt;filename&gt;&#39;
-[!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] is unable to find or open one of the standard DLL libraries needed for compilation and linking.  
+[!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] is unable to find or open one of the standard DLL libraries needed for compilation and linking.  
   
  The unusable library is most likely to be either mscorlib.dll or microsoft.visualbasic.dll.  
   
@@ -45,13 +45,13 @@ translation.priority.mt:
   
 ### To correct this error  
   
-1.  Verify that the file cited in the error message is present on the hard disk from which you are running [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)]. Normally the standard libraries should reside in a subdirectory under \WINNT\Microsoft.NET\Framework or \WINDOWS\Microsoft.NET\Framework.  
+1.  Verify that the file cited in the error message is present on the hard disk from which you are running [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]. Normally the standard libraries should reside in a subdirectory under \WINNT\Microsoft.NET\Framework or \WINDOWS\Microsoft.NET\Framework.  
   
-2.  Verify that neither the file nor the directory has a setting or attribute that prevents read access by [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)].  
+2.  Verify that neither the file nor the directory has a setting or attribute that prevents read access by [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)].  
   
 3.  Verify that the file name and extension are spelled correctly. Capitalization is not a concern.  
   
-4.  If the file appears to be properly placed and accessible, it might be corrupted on the disk. Reinstall [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] if possible.  
+4.  If the file appears to be properly placed and accessible, it might be corrupted on the disk. Reinstall [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] if possible.  
   
 5.  Note the exact file name and extension and contact Microsoft Product Support Services.  
   

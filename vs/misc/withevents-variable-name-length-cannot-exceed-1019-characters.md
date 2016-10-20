@@ -1,7 +1,7 @@
 ---
-title: "WithEvents variable name length cannot exceed 1019 characters"
+title: "WithEvents variable name length cannot exceed 1019 characters | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

@@ -1,7 +1,7 @@
 ---
-title: "Source Control Integration Overview"
+title: "Source Control Integration Overview | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,12 +34,12 @@ translation.priority.mt:
 This section compares the two ways to integrate into Visual Studio source control; a source control Plug-in and a VSPackage that provides a source control solution and highlights the new source control features. Visual Studio allows for manual switching between source control VSPackages and source control plug-ins as well as automatic solution-based switching.  
   
 ## Source Control Integration  
- [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] supports two types of source control integration options. In all versions of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], you can still integrate a plug-in based on the Source Control Plug-in API (previously also referred to as the MSSCCI API), which provides basic source control functionality while using Visual Studio source control user interface (UI). A source control VSPackage, on the other hand, provides a new, deep-integration [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] path suitable for source control integration that demands a high level of sophistication and autonomy in its source control model.  
+ [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] supports two types of source control integration options. In all versions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], you can still integrate a plug-in based on the Source Control Plug-in API (previously also referred to as the MSSCCI API), which provides basic source control functionality while using Visual Studio source control user interface (UI). A source control VSPackage, on the other hand, provides a new, deep-integration [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] path suitable for source control integration that demands a high level of sophistication and autonomy in its source control model.  
   
  ![Source Control Overview](../extensibility/media/sourcectnrloverview.gif "SourceCtnrlOverview")  
   
 ## Source Control Plug-in  
- All versions of Visual Studio support the Source Control Plug-in API specification version 1.2 as an integration path. A source control plug-in implementer writes a DLL that implements the Source Control Plug-in API functions for source control integration and registration as described in [Creating a Source Control Plug-in](../extensibility/creating-a-source-control-plug-in.md). In this approach, the Integrated Development Environment (IDE) uses the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] UI for dialog boxes, such as check in, checkout, tools/options property pages, toolbars, and source control glyphs. Strict adherence to the Source Control Plug-in API insures an easy integration into Visual Studio and a trouble-free experience for the user. This means the source control plug-in must implement most of the functions and callbacks detailed in the API.  
+ All versions of Visual Studio support the Source Control Plug-in API specification version 1.2 as an integration path. A source control plug-in implementer writes a DLL that implements the Source Control Plug-in API functions for source control integration and registration as described in [Creating a Source Control Plug-in](../extensibility/creating-a-source-control-plug-in.md). In this approach, the Integrated Development Environment (IDE) uses the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] UI for dialog boxes, such as check in, checkout, tools/options property pages, toolbars, and source control glyphs. Strict adherence to the Source Control Plug-in API insures an easy integration into Visual Studio and a trouble-free experience for the user. This means the source control plug-in must implement most of the functions and callbacks detailed in the API.  
   
  To implement a source control plug-in using the Source Control Plug-in API, follow these steps:  
   

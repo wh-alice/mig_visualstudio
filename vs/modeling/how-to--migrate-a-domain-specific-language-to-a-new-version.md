@@ -1,7 +1,7 @@
 ---
-title: "How to: Migrate a Domain-Specific Language to a New Version"
+title: "How to: Migrate a Domain-Specific Language to a New Version | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,16 +13,16 @@ ms.author: "awills"
 manager: "kamrani"
 ---
 # How to: Migrate a Domain-Specific Language to a New Version
-You can migrate projects that define and use domain-specific language to [!INCLUDE[vs2010](../codequality/includes/vs2010_md.md)] from the version of [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] that was distributed with [!INCLUDE[vs_orcas_long](../codequality/includes/vs_orcas_long_md.md)].  
+You can migrate projects that define and use domain-specific language to [!INCLUDE[vs2010](../code-quality/includes/vs2010_md.md)] from the version of [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] that was distributed with [!INCLUDE[vs_orcas_long](../code-quality/includes/vs_orcas_long_md.md)].  
   
- A migration tool is provided as part of [!INCLUDE[vssdk_current_long](../misc/includes/vssdk_current_long_md.md)]. The tool converts [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] projects and solutions that use or define DSL Tools.  
+ A migration tool is provided as part of [!INCLUDE[vssdk_current_long](../misc/includes/vssdk_current_long_md.md)]. The tool converts [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] projects and solutions that use or define DSL Tools.  
   
- You must run the migration tool explicitly: it is not launched automatically when you open a solution in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. The tool and detailed guidance document can be found at this path:  
+ You must run the migration tool explicitly: it is not launched automatically when you open a solution in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. The tool and detailed guidance document can be found at this path:  
   
  **%Program Files%\Microsoft Visual Studio 2010 SDK\VisualStudioIntegration\Tools\DSLTools\DslProjectsMigrationTool.exe**  
   
 ## Before you Migrate your DSL Projects  
- The migration tool modifies [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] project files (**.csproj**) and solution files (**.sln**).  
+ The migration tool modifies [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project files (**.csproj**) and solution files (**.sln**).  
   
 #### To prepare projects for migration.  
   

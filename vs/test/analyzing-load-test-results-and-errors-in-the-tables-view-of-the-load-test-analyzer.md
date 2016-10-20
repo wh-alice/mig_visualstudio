@@ -1,11 +1,11 @@
 ---
-title: "Analyzing Load Test Results and Errors in the Tables View of the Load Test Analyzer"
-ms.custom: na
-ms.date: "10/03/2016"
+title: "Analyzing Load Test Results and Errors in the Tables View of the Load Test Analyzer | Microsoft Docs"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.test.load.monitor.pageresult"

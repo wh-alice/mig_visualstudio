@@ -1,7 +1,7 @@
 ---
-title: "Accessing Visual Studio or other Hosts from a Text Template"
+title: "Accessing Visual Studio or other Hosts from a Text Template | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -27,7 +27,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Accessing Visual Studio or other Hosts from a Text Template
-In a text template, you can use methods and properties exposed by the host that executes the template, such as [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+In a text template, you can use methods and properties exposed by the host that executes the template, such as [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
  This applies to regular text templates, not preprocessed text templates.  
   
@@ -51,7 +51,7 @@ Content of myFile is:
 ```  
   
 ### Displaying Error Messages  
- This example logs messages when you transform the template. If the host is [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], they are added to the error window.  
+ This example logs messages when you transform the template. If the host is [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], they are added to the error window.  
   
 ```c#  
 <#@ template hostspecific="true" language="C#" #>  
@@ -69,11 +69,11 @@ Content of myFile is:
 ```  
   
 ## Using the Visual Studio API  
- If you are executing a text template in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], you can use `this.Host` to access services provided by [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and any packages or extensions that are loaded.  
+ If you are executing a text template in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], you can use `this.Host` to access services provided by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and any packages or extensions that are loaded.  
   
  Set hostspecific="true" and cast `this.Host` to <xref:System.IServiceProvider>.  
   
- This example gets the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] API, <xref:EnvDTE.DTE>, as a service:  
+ This example gets the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] API, <xref:EnvDTE.DTE>, as a service:  
   
 ```c#  
 <#@ template hostspecific="true" language="C#" #>  

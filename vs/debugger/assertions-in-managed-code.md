@@ -1,7 +1,7 @@
 ---
-title: "Assertions in Managed Code"
+title: "Assertions in Managed Code | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -154,7 +154,7 @@ Debug.Assert ( temp != 0 );
  [In this topic](#BKMK_In_this_topic)  
   
 ##  <a name="BKMK_Trace_and_Debug_Requirements"></a> Trace and Debug Requirements  
- If you create your project using the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] wizards, the TRACE symbol is defined by default in both Release and Debug configurations. The DEBUG symbol is defined by default only in the Debug build.  
+ If you create your project using the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] wizards, the TRACE symbol is defined by default in both Release and Debug configurations. The DEBUG symbol is defined by default only in the Debug build.  
   
  Otherwise, for <xref:System.Diagnostics.Trace> methods to work, your program must have one of the following at the top of the source file:  
   

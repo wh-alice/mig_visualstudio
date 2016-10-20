@@ -1,7 +1,7 @@
 ---
-title: "Supporting Multiple Versions of Visual Studio"
+title: "Supporting Multiple Versions of Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -49,7 +49,7 @@ The term *side-by-side* means that you can install and maintain multiple version
      For more information, see [Installing VSPackages With Windows Installer](../extensibility/installing-vspackages-with-windows-installer.md) and also [Component Management](../extensibility/component-management.md).  
   
     > [!NOTE]
-    >  Installing a version of Visual Studio also installs a corresponding version of the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)]. For example, installing Visual Studio 2010 and Visual Studio 2012 on the same computer also installs versions 4.0 and 4.5 of the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)], respectively.  
+    >  Installing a version of Visual Studio also installs a corresponding version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]. For example, installing Visual Studio 2010 and Visual Studio 2012 on the same computer also installs versions 4.0 and 4.5 of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], respectively.  
   
 ## In This Section  
  [Choosing Between Shared and Versioned VSPackages](../extensibility/choosing-between-shared-and-versioned-vspackages.md)  

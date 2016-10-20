@@ -1,13 +1,13 @@
 ---
-title: "Keyboard and Mouse Shortcuts in the Class Diagram and Class Details Window (Class Designer)"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Keyboard and Mouse Shortcuts in the Class Diagram and Class Details Window (Class Designer) | Microsoft Docs"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.classdetails.window"

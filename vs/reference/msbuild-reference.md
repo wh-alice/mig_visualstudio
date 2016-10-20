@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Reference"
+title: "MSBuild Reference | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,7 +36,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # MSBuild Reference
-[!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] is the build system for [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. The following links lead to topics that contain [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] reference information.  
+[!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] is the build system for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. The following links lead to topics that contain [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] reference information.  
   
 ## In This Section  
  [Project File Schema Reference](../reference/msbuild-project-file-schema-reference.md)  

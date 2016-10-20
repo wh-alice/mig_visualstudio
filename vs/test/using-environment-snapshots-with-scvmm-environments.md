@@ -1,7 +1,7 @@
 ---
-title: "Using Environment Snapshots with SCVMM Environments"
+title: "Using Environment Snapshots with SCVMM Environments | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -81,7 +81,7 @@ translation.priority.ht:
   
 #### To create a snapshot  
   
-1.  In [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], connect to the environment. In the **Lab Center**, on the **Lab** tab, select the environment, and then choose **Connect**.  
+1.  In [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], connect to the environment. In the **Lab Center**, on the **Lab** tab, select the environment, and then choose **Connect**.  
   
 2.  In **Microsoft Environment Viewer**, choose the **Snapshots** tab.  
   
@@ -96,7 +96,7 @@ translation.priority.ht:
   
 #### To restore an SCVMM environment to a snapshot  
   
-1.  In [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], open the **Lab Center**, an then choose the **Lab** tab.  
+1.  In [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], open the **Lab Center**, an then choose the **Lab** tab.  
   
 2.  Choose the environment, and then choose **Connect**.  
   
@@ -110,11 +110,11 @@ translation.priority.ht:
 >  If the status of the environment changes to **Not Ready**, investigate any error messages. Certain settings are not fully restored by restoring a snapshot, because they are stored outside the virtual machines. For example, if you have changed the **Configure for UI Tests** setting since you took the snapshot, the change will not be undone by restoring the snapshot. You should **Open** the environment definition and restore the old setting manually. Alternatively, you can use **Repair** to change the restored environment to the new setting.  
   
 ##  <a name="SnapshotShare"></a> Sharing a Snapshot of an Environment  
- You can create a link to a snapshot of an environment that you can share with other people. The link (.lvr) file can be opened on any computer on which [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] is installed by any user who has permissions to operate an environment in the team project.  
+ You can create a link to a snapshot of an environment that you can share with other people. The link (.lvr) file can be opened on any computer on which [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] is installed by any user who has permissions to operate an environment in the team project.  
   
 #### To create a link to a SCVMM environment snapshot  
   
-1.  In [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], in the **Lab Center**, on the **Lab** tab, make sure that the environment is **Running**.  
+1.  In [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], in the **Lab Center**, on the **Lab** tab, make sure that the environment is **Running**.  
   
 2.  Choose the environment, and then choose **Connect**.  
   
@@ -150,7 +150,7 @@ translation.priority.ht:
   
 #### To store the environment in the Library  
   
-1.  In [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], in the **Lab Center**, on the **Lab** tab, make sure that the environment is **Stopped**.  
+1.  In [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], in the **Lab Center**, on the **Lab** tab, make sure that the environment is **Stopped**.  
   
 2.  Choose the environment that you want to save.  
   
@@ -167,7 +167,7 @@ translation.priority.ht:
   
 #### To delete a snapshot  
   
-1.  In [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], in the **Lab Center**, on the **Lab** tab, make sure that the environment is started.  
+1.  In [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], in the **Lab Center**, on the **Lab** tab, make sure that the environment is started.  
   
 2.  Choose the SCVMM environment, and then choose **Connect**.  
   

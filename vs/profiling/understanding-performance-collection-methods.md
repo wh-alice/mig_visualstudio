@@ -1,7 +1,7 @@
 ---
-title: "Understanding Performance Collection Methods"
+title: "Understanding Performance Collection Methods | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,7 +45,7 @@ The Visual Studio Profiling Tools provide five methods that you can use to colle
 |[Instrumentation](#instrumentation)|Collects detailed timing information about each function call.|  
 |[Concurrency](#concurrency)|Collects detailed information about multi-threaded applications.|  
 |[.NET memory](#net_memory)|Collects detailed information about .NET memory allocation and garbage collection.|  
-|[Tier interaction](#tier_interaction)|Collects information about synchronous ADO.NET function calls to a SqlServer database.<br /><br /> Tier interaction profiling can be collected using [!INCLUDE[vsUltLong](../codequality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../codequality/includes/vsprelong_md.md)], or [!INCLUDE[vs_pro_current_short](../profiling/includes/vs_pro_current_short_md.md)]. However, tier interaction profiling data can be viewed only in [!INCLUDE[vsPreLong](../codequality/includes/vsprelong_md.md)] or [!INCLUDE[vsUltLong](../codequality/includes/vsultlong_md.md)].|  
+|[Tier interaction](#tier_interaction)|Collects information about synchronous ADO.NET function calls to a SqlServer database.<br /><br /> Tier interaction profiling can be collected using [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)], or [!INCLUDE[vs_pro_current_short](../profiling/includes/vs_pro_current_short_md.md)]. However, tier interaction profiling data can be viewed only in [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)] or [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)].|  
   
  By using some of the profiling methods, you can also collect additional data, such as software and hardware performance counters. For more information, see [Collecting Additional Performance Data](../profiling/collecting-additional-performance-data.md).  
   
@@ -130,7 +130,7 @@ The Visual Studio Profiling Tools provide five methods that you can use to colle
  [.NET Memory Data Views](../profiling/.net-memory-data-views.md)  
   
 ##  <a name="tier_interaction"></a> Tier Interaction  
- Tier-interaction profiling adds information to a profiling data file about synchronous [!INCLUDE[vstecado](../datatools/includes/vstecado_md.md)] calls between an [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] page or other application and a [!INCLUDE[ssNoVersion](../datatools/includes/ssnoversion_md.md)] database. Data includes the number and time of calls, and the maximum and minimum times. Tier-interaction data can be added to profiling data that is collected with the sampling, instrumentation, .NET memory, or concurrency methods.  
+ Tier-interaction profiling adds information to a profiling data file about synchronous [!INCLUDE[vstecado](../data-tools/includes/vstecado_md.md)] calls between an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] page or other application and a [!INCLUDE[ssNoVersion](../data-tools/includes/ssnoversion_md.md)] database. Data includes the number and time of calls, and the maximum and minimum times. Tier-interaction data can be added to profiling data that is collected with the sampling, instrumentation, .NET memory, or concurrency methods.  
   
  ![Tier Interaction Profiling Data](../profiling/media/tierinteraction_profilingtools.png "TierInteraction_ProfilingTools")  
 Tier interaction data that is collected by Profiling Tools  

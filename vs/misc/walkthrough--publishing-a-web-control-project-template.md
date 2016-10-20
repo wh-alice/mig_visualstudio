@@ -1,7 +1,7 @@
 ---
-title: "Walkthrough: Publishing a Web Control Project Template"
+title: "Walkthrough: Publishing a Web Control Project Template | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -188,7 +188,7 @@ You can create a web control project template to use as the basis for other web 
   
 1.  To open an experimental instance of Visual Studio, start the experimental instance.  
   
-    1.  In [!INCLUDE[win7](../codequality/includes/win7_md.md)], use the **Start** menu (**Start/All Programs/Microsoft Visual Studio \<version> SDK/Tools/Start Experimental Instance of Microsoft Visual Studio \<version>**.  
+    1.  In [!INCLUDE[win7](../code-quality/includes/win7_md.md)], use the **Start** menu (**Start/All Programs/Microsoft Visual Studio \<version> SDK/Tools/Start Experimental Instance of Microsoft Visual Studio \<version>**.  
   
     2.  In [!INCLUDE[win81](../debugger/includes/win81_md.md)], on the **Start** screen, type **Start Experimental Instance of Microsoft Visual Studio \<version>**.  
   
@@ -306,7 +306,7 @@ You can create a web control project template to use as the basis for other web 
   
     ```  
   
-4.  Add the following references to the project. If there is more than one choice, select the reference that has a path to [!INCLUDE[vs_dev10_long](../codequality/includes/vs_dev10_long_md.md)].  
+4.  Add the following references to the project. If there is more than one choice, select the reference that has a path to [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)].  
   
     -   EnvDTE  
   

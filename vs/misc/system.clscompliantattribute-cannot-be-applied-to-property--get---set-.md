@@ -1,7 +1,7 @@
 ---
-title: "System.CLSCompliantAttribute cannot be applied to property &#39;Get&#39;-&#39;Set&#39;"
+title: "System.CLSCompliantAttribute cannot be applied to property &#39;Get&#39;-&#39;Set&#39; | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

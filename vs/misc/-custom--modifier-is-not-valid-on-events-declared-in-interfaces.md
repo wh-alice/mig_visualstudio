@@ -1,7 +1,7 @@
 ---
-title: "&#39;Custom&#39; modifier is not valid on events declared in interfaces"
+title: "&#39;Custom&#39; modifier is not valid on events declared in interfaces | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

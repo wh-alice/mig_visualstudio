@@ -1,5 +1,5 @@
 ---
-title: "Creating an SCVMM Environment Using Stored Virtual Machines and Templates"
+title: "Creating an SCVMM Environment Using Stored Virtual Machines and Templates | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -64,7 +64,7 @@ You can create an SCVMM environment using stored virtual machines and templates.
 ##  <a name="prereq"></a> Prerequisites  
   
 > [!WARNING]
->  To create a lab environment that contains virtual machines that are running Windows XP, perform the additional steps listed in [Configuring Lab Environments that Contain Windows XP or Windows Server 2003 Machines](../test/e646c59c-47e4-47a5-bf9f-67f375ad1915.md).  
+>  To create a lab environment that contains virtual machines that are running Windows XP, perform the additional steps listed in [Configuring Lab Environments that Contain Windows XP or Windows Server 2003 Machines](../test/configuring-lab-environments-that-contain-windows-xp-or-windows-server-2003-machines.md).  
   
  The following prerequisites must be complete before you create an SCVMM environment using stored virtual machines and templates:  
   
@@ -142,7 +142,7 @@ You can create an SCVMM environment using stored virtual machines and templates.
 |||  
 |-|-|  
 |**Test controller**|The name of the test controller machine for this environment.|  
-|**Configure environment to run UI tests**|Select this option if your tests include Coded UI Tests. For more information, see [Use UI Automation To Test Your Code](../codequality/use-ui-automation-to-test-your-code.md).<br /><br /> This option can be set only when the environment is running. To set it on a new environment: Finish the wizard. Wait until the environment’s status is **Ready**. Select the environment and then choose **Open** to return to the wizard.|  
+|**Configure environment to run UI tests**|Select this option if your tests include Coded UI Tests. For more information, see [Use UI Automation To Test Your Code](../code-quality/use-ui-automation-to-test-your-code.md).<br /><br /> This option can be set only when the environment is running. To set it on a new environment: Finish the wizard. Wait until the environment’s status is **Ready**. Select the environment and then choose **Open** to return to the wizard.|  
 |**Enable network isolation**|Network isolation enables you to deploy the same stored environment more than once, without name or IP address conflicts. For more information about the network isolation capability, see [Creating and using a network isolated environment](../test/creating-and-using-a-network-isolated-environment.md).|  
   
 ###  <a name="verify"></a> New Environment: Verification  

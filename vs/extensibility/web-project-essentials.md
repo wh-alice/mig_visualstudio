@@ -1,7 +1,7 @@
 ---
-title: "Web Project Essentials"
+title: "Web Project Essentials | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,7 +33,7 @@ translation.priority.mt:
 # Web Project Essentials
 Web projects create Web applications. You can use a Web project to create a Web application that has smart Web pages. A smart Web page has server-side code that renders the Web page on demand.  
   
- Using traditional programming languages, such as [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] or [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)], you can create smart Web pages to collect and process information from a user, store it in a database, and so on.  
+ Using traditional programming languages, such as [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] or [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)], you can create smart Web pages to collect and process information from a user, store it in a database, and so on.  
   
 -   The code-behind model associates dependent source code files with Web pages that have the file extension .aspx or .asmx. For example, hello.aspx might have the dependent source code file hello.aspx.cs.  
   

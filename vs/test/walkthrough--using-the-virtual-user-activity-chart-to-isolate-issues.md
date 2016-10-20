@@ -1,7 +1,7 @@
 ---
-title: "Walkthrough: Using the Virtual User Activity Chart to Isolate Issues"
+title: "Walkthrough: Using the Virtual User Activity Chart to Isolate Issues | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -44,7 +44,7 @@ In this walkthrough you will learn how to use the Virtual User Activity Chart to
   
 -   Use the Virtual User Activity Chart to analyze an error that occurred for a specific virtual user and view the problematic error type details.  
   
- For more information, see [Analyzing Virtual User Activity in the Details View](../test/63f4bd42-3cfb-4eee-af68-e8334976539e.md).  
+ For more information, see [Analyzing Virtual User Activity in the Details View](../test/analyzing-load-test-virtual-user-activity-in-the-details-view-of-the-load-test-analyzer.md).  
   
 ## Prerequisites  
   
@@ -130,8 +130,8 @@ In this walkthrough you will learn how to use the Virtual User Activity Chart to
      You can use various settings in both the **Details Legend** and **Filter results** panels to help in isolating performance issues, and errors in your load tests. Experiment with these settings and the **Zoom to time period** tool to see how the virtual user data is presented in the **Virtual User Activity Chart**.  
   
 ## See Also  
- [Analyzing Virtual User Activity in the Details View](../test/63f4bd42-3cfb-4eee-af68-e8334976539e.md)   
- [Distributing Load Test Runs Across Multiple Test Machines Using Test Controllers and Test Agents](../test/6e67a587-8aad-48cc-a8c0-6d4b399f3731.md)   
+ [Analyzing Virtual User Activity in the Details View](../test/analyzing-load-test-virtual-user-activity-in-the-details-view-of-the-load-test-analyzer.md)   
+ [Distributing Load Test Runs Across Multiple Test Machines Using Test Controllers and Test Agents](../test/distributing-load-test-runs-across-multiple-test-machines-using-test-controllers-and-test-agents.md)   
  [How to: Create a Test Setting for a Distributed Load Test](../test/how-to--create-a-test-setting-for-a-distributed-load-test.md)   
  [Install and configure test agents](../test/install-and-configure-test-agents.md)   
  [Using Test Controllers and Test Agents with Load Tests](../test/using-test-controllers-and-test-agents-with-load-tests.md)   

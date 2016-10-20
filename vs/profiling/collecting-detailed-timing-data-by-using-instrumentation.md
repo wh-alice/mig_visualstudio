@@ -1,7 +1,7 @@
 ---
-title: "Collecting Detailed Timing Data by Using Instrumentation"
+title: "Collecting Detailed Timing Data by Using Instrumentation | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,7 +33,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Collecting Detailed Timing Data by Using Instrumentation
-The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Profiling Tools instrumentation method injects profiling code into a copy of a module. The code records each entry, exit, and function call of the functions in the module during a profiling run. The instrumentation method is useful for gathering detailed timing information about a section of your code and for understanding the impact of input and output operations on application performance.  
+The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools instrumentation method injects profiling code into a copy of a module. The code records each entry, exit, and function call of the functions in the module during a profiling run. The instrumentation method is useful for gathering detailed timing information about a section of your code and for understanding the impact of input and output operations on application performance.  
   
  You can specify the instrumentation method by using one of the following procedures:  
   

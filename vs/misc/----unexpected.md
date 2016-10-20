@@ -1,7 +1,7 @@
 ---
-title: "&#39;(&#39; unexpected"
+title: "&#39;(&#39; unexpected | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -37,7 +37,7 @@ translation.priority.mt:
 # &#39;(&#39; unexpected
 '(' unexpected. Arrays of uninstantiated generic types are not allowed.  
   
- [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] cannot compile an array unless it is of a specific data type. You cannot use a data-type parameter of a generic type as the data type of an array.  
+ [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] cannot compile an array unless it is of a specific data type. You cannot use a data-type parameter of a generic type as the data type of an array.  
   
  **Error ID:** BC32095  
   

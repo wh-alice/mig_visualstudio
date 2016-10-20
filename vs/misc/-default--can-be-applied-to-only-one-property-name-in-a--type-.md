@@ -1,7 +1,7 @@
 ---
-title: "&#39;Default&#39; can be applied to only one property name in a &lt;type&gt;"
+title: "&#39;Default&#39; can be applied to only one property name in a &lt;type&gt; | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

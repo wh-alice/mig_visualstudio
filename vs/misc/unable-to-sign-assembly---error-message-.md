@@ -1,7 +1,7 @@
 ---
-title: "Unable to sign assembly: &lt;error message&gt;"
+title: "Unable to sign assembly: &lt;error message&gt; | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Unable to sign assembly: &lt;error message&gt;
-The [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] compiler calls the Assembly Linker (Al.exe, also known as Alink) to generate an assembly with a manifest. The linker has reported an error signing the assembly after it was created. This might be due to an invalid key.  
+The [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler calls the Assembly Linker (Al.exe, also known as Alink) to generate an assembly with a manifest. The linker has reported an error signing the assembly after it was created. This might be due to an invalid key.  
   
  **Error ID:** BC30146  
   

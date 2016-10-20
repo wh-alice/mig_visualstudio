@@ -1,7 +1,7 @@
 ---
-title: "Project Properties Reference"
+title: "Project Properties Reference | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -38,11 +38,11 @@ Learn more about how to configure and customize project properties.
   
 |Title|Description|  
 |-----------|-----------------|  
-|[Application Page, Project Designer (Visual Basic)](../reference/application-page--project-designer--visual-basic-.md)|Use this page to specify application settings and properties for a [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] project.|  
-|[Application Page, Project Designer (C#)](../reference/application-page--project-designer--csharp-.md)|Use this page to specify application settings and properties for a [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] project.|  
+|[Application Page, Project Designer (Visual Basic)](../reference/application-page--project-designer--visual-basic-.md)|Use this page to specify application settings and properties for a [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] project.|  
+|[Application Page, Project Designer (C#)](../reference/application-page--project-designer--csharp-.md)|Use this page to specify application settings and properties for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] project.|  
 |[Build Events Page, Project Designer (C#)](../reference/build-events-page--project-designer--csharp-.md)|Use this pane to specify build configuration instructions.|  
-|[Build Page, Project Designer (C#)](../reference/build-page--project-designer--csharp-.md)|Use this pane to specify build configuration properties for a [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] project.|  
-|[Compile Page, Project Designer (Visual Basic)](../reference/compile-page--project-designer--visual-basic-.md)|Use this page to specify compilation properties for [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] projects.|  
+|[Build Page, Project Designer (C#)](../reference/build-page--project-designer--csharp-.md)|Use this pane to specify build configuration properties for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] project.|  
+|[Compile Page, Project Designer (Visual Basic)](../reference/compile-page--project-designer--visual-basic-.md)|Use this page to specify compilation properties for [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] projects.|  
 |||  
 |[Debug Page, Project Designer](../reference/debug-page--project-designer.md)|Use this page to specify debugging properties for a project.|  
 |[Code Analysis, Project Designer](../reference/code-analysis--project-designer.md)|Use this page to configure the code analysis tool.|  

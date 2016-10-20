@@ -1,7 +1,7 @@
 ---
-title: "&#39;#End Region&#39; must be preceded by a matching &#39;#Region&#39;"
+title: "&#39;#End Region&#39; must be preceded by a matching &#39;#Region&#39; | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # &#39;#End Region&#39; must be preceded by a matching &#39;#Region&#39;
-With `#Region` you can specify a block of code to expand or collapse when using the outlining feature of the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Code Editor. The start and end of `#Region` statements must be in the same code block.  
+With `#Region` you can specify a block of code to expand or collapse when using the outlining feature of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Code Editor. The start and end of `#Region` statements must be in the same code block.  
   
  **Error ID:** BC30680  
   

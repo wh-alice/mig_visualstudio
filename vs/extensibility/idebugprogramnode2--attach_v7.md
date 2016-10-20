@@ -1,7 +1,7 @@
 ---
-title: "IDebugProgramNode2::Attach_V7"
+title: "IDebugProgramNode2::Attach_V7 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -70,7 +70,7 @@ int Attach_V7 ( 
 ## Remarks  
   
 > [!WARNING]
->  As of [!INCLUDE[vsprvslong](../codequality/includes/vsprvslong_md.md)], this method is no longer used and should always return `E_NOTIMPL`. See the [IDebugProgramNodeAttach2](../extensibility/idebugprogramnodeattach2.md) interface for an alternative approach if the program node needs to indicate it cannot be attached to or if the program node is simply setting the program `GUID`. Otherwise, implement the [Attach](../extensibility/idebugengine2--attach.md) method.  
+>  As of [!INCLUDE[vsprvslong](../code-quality/includes/vsprvslong_md.md)], this method is no longer used and should always return `E_NOTIMPL`. See the [IDebugProgramNodeAttach2](../extensibility/idebugprogramnodeattach2.md) interface for an alternative approach if the program node needs to indicate it cannot be attached to or if the program node is simply setting the program `GUID`. Otherwise, implement the [Attach](../extensibility/idebugengine2--attach.md) method.  
   
 ## Prior to Visual Studio 2005  
  This method needs to be implemented only if the DE runs in the address space of the program being debugged. Otherwise, this method should return `S_FALSE`.  

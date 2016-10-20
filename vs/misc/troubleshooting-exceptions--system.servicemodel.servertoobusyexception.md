@@ -1,7 +1,7 @@
 ---
-title: "Troubleshooting Exceptions: System.ServiceModel.ServerTooBusyException"
+title: "Troubleshooting Exceptions: System.ServiceModel.ServerTooBusyException | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,7 +36,7 @@ translation.priority.mt:
 A <xref:System.ServiceModel.ServerTooBusyException> exception is thrown when a server is too busy to accept a message.  
   
 ## Remarks  
- This exception derives from the <xref:System.ServiceModel.CommunicationException> that represents a class of recoverable errors that might be thrown during communication between endpoints. Robust client and service [!INCLUDE[vsindigo](../datatools/includes/vsindigo_md.md)] applications are expected to handle these exceptions. To prevent a handler for <xref:System.ServiceModel.CommunicationException> from catching the more specific <xref:System.ServiceModel.ServerTooBusyException>, catch this exception prior to handling <xref:System.ServiceModel.CommunicationException>.  
+ This exception derives from the <xref:System.ServiceModel.CommunicationException> that represents a class of recoverable errors that might be thrown during communication between endpoints. Robust client and service [!INCLUDE[vsindigo](../data-tools/includes/vsindigo_md.md)] applications are expected to handle these exceptions. To prevent a handler for <xref:System.ServiceModel.CommunicationException> from catching the more specific <xref:System.ServiceModel.ServerTooBusyException>, catch this exception prior to handling <xref:System.ServiceModel.CommunicationException>.  
   
 ## See Also  
  <xref:System.ServiceModel.ServerTooBusyException>   

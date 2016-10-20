@@ -1,7 +1,7 @@
 ---
-title: "A failure occurred writing to the licenses file"
+title: "A failure occurred writing to the licenses file | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,7 +32,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # A failure occurred writing to the licenses file
-The transformed file could not be written to by the project system. As part of preparing licenses, the project system will transform text .licx files into binary licenses files that are understood by the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] licensing system.  
+The transformed file could not be written to by the project system. As part of preparing licenses, the project system will transform text .licx files into binary licenses files that are understood by the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] licensing system.  
   
  Possible reasons for this error include no disk space left on the device or exceeding the MAX_PATH limit for file names.  
   

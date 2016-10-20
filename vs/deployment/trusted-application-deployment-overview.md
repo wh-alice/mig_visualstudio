@@ -1,7 +1,7 @@
 ---
-title: "Trusted Application Deployment Overview"
+title: "Trusted Application Deployment Overview | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -94,12 +94,12 @@ This topic provides an overview of how to deploy [!INCLUDE[ndptecclick](../deplo
 -   CertMgr.exe, which is a component of Internet Explorer and therefore exists on Windows 98 and all later versions. For more information, see [Certmgr.exe (Certificate Manager Tool)](../Topic/Certmgr.exe%20\(Certificate%20Manager%20Tool\).md).  
   
 ### Create a ClickOnce Application  
- A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application is a [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] client application combined with manifest files that describe the application and supply installation parameters. You can turn your program into a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application by using the **Publish** command in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. Alternatively, you can generate all the files required for [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment by using tools that are included with the [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)]. For detailed steps about [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment, see [Walkthrough: Manually Deploying a ClickOnce Application](../deployment/walkthrough--manually-deploying-a-clickonce-application.md).  
+ A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application is a [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] client application combined with manifest files that describe the application and supply installation parameters. You can turn your program into a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application by using the **Publish** command in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Alternatively, you can generate all the files required for [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment by using tools that are included with the [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)]. For detailed steps about [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment, see [Walkthrough: Manually Deploying a ClickOnce Application](../deployment/walkthrough--manually-deploying-a-clickonce-application.md).  
   
  Trusted Application Deployment is specific to [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)], and can only be used with [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications.  
   
 ### Sign the Deployment  
- After obtaining your certificate, you must use it to sign your deployment. If you are deploying your application by using the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Publish wizard, the wizard will automatically generate a test certificate for you if you have not specified a certificate yourself. You can also use the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Project Designer window, however, to supply a certificate provided by a CA.  Also see [How to: Publish a ClickOnce Application using the Publish Wizard](http://msdn.microsoft.com/library/31kztyey\(v=vs.110\)) or [How to: Publish a ClickOnce Application using the Publish Wizard](http://msdn.microsoft.com/library/31kztyey\(v=vs.110\)).  
+ After obtaining your certificate, you must use it to sign your deployment. If you are deploying your application by using the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Publish wizard, the wizard will automatically generate a test certificate for you if you have not specified a certificate yourself. You can also use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Project Designer window, however, to supply a certificate provided by a CA.  Also see [How to: Publish a ClickOnce Application using the Publish Wizard](http://msdn.microsoft.com/library/31kztyey\(v=vs.110\)) or [How to: Publish a ClickOnce Application using the Publish Wizard](http://msdn.microsoft.com/library/31kztyey\(v=vs.110\)).  
   
 > [!CAUTION]
 >  We do not recommend that the application be deployed with a test certificate.  

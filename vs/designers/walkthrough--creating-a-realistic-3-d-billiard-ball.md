@@ -1,7 +1,7 @@
 ---
-title: "Walkthrough: Creating a Realistic 3-D Billiard Ball"
+title: "Walkthrough: Creating a Realistic 3-D Billiard Ball | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,7 +15,7 @@ ms.author: "mithom"
 manager: "ghogen"
 ---
 # Walkthrough: Creating a Realistic 3-D Billiard Ball
-This walkthrough demonstrates how to create a realistic 3-D billiard ball by using the Shader Designer and Image Editor in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. The 3-D appearance of the billiard ball is achieved by combining several shader techniques with appropriate texture resources.  
+This walkthrough demonstrates how to create a realistic 3-D billiard ball by using the Shader Designer and Image Editor in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. The 3-D appearance of the billiard ball is achieved by combining several shader techniques with appropriate texture resources.  
   
  This document demonstrates these activities:  
   
@@ -32,9 +32,9 @@ This walkthrough demonstrates how to create a realistic 3-D billiard ball by usi
   
 -   A tool for assembling textures into a cube map, such as the DirectX Texture Tool that is included in the June 2010 DirectX SDK.  
   
--   Familiarity with the Image Editor in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+-   Familiarity with the Image Editor in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
--   Familiarity with the Shader Designer in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+-   Familiarity with the Shader Designer in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 ## Creating the basic appearance with shape and texture  
  In computer graphics, the most-basic elements of appearance are shape and color. In a computer simulation, it is common to use a 3-D model to represent the shape of a real-world object. Color detail is then applied to the surface of the model by using a texture map.  
@@ -47,7 +47,7 @@ This walkthrough demonstrates how to create a realistic 3-D billiard ball by usi
   
 -   On the Shader Designer toolbar, choose **Preview with sphere.**  
   
- In the next step, you'll create a shader program that applies a texture to the model, but first you have to create a texture that you can use. This walkthrough demonstrates how to create the texture by using the Image Editor, which is a part of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], but you can use any image editor that can save the texture in a suitable format.  
+ In the next step, you'll create a shader program that applies a texture to the model, but first you have to create a texture that you can use. This walkthrough demonstrates how to create the texture by using the Image Editor, which is a part of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], but you can use any image editor that can save the texture in a suitable format.  
   
  Make sure that the **Properties** window and the **Toolbox** are displayed.  
   

@@ -1,7 +1,7 @@
 ---
-title: "What&#39;s New in Source Control"
+title: "What&#39;s New in Source Control | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,17 +35,17 @@ translation.priority.mt:
 In [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] you can provide a deeply integrated source control solution by implementing a source control VSPackage. This section describes the features of source control VSPackages and provides an overview of the implementation steps.  
   
 ## The Source Control VSPackage  
- [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] supports two types of source control solutions. In all versions of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], you can still integrate a Source Control Plug-in API-based plug-in. You can also create a VSPackage for source control which provides a deep-integration, [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] path suitable for source control solutions that require a high level of sophistication and autonomy.  
+ [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] supports two types of source control solutions. In all versions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], you can still integrate a Source Control Plug-in API-based plug-in. You can also create a VSPackage for source control which provides a deep-integration, [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] path suitable for source control solutions that require a high level of sophistication and autonomy.  
   
- A VSPackage can add almost any kind of functionality to [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. A source control VSPackage provides a complete source control feature for [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], from the UI presented to the user to the back-end communication with the source control system.  
+ A VSPackage can add almost any kind of functionality to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. A source control VSPackage provides a complete source control feature for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], from the UI presented to the user to the back-end communication with the source control system.  
   
- Implementing a source control VSPackage requires an "all or nothing" strategy. The creator of a source control VSPackage must invest a significant amount of effort in implementing a number of source control interfaces and new UI elements (dialog boxes, menus, and toolbars) to cover the entire source control functionality, as well as interfaces required of any package to integrate successfully with [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+ Implementing a source control VSPackage requires an "all or nothing" strategy. The creator of a source control VSPackage must invest a significant amount of effort in implementing a number of source control interfaces and new UI elements (dialog boxes, menus, and toolbars) to cover the entire source control functionality, as well as interfaces required of any package to integrate successfully with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
  The following steps give a general overview of what is needed to implement a source control package. For details, see [Creating a Source Control VSPackage](../extensibility/creating-a-source-control-vspackage.md).  
   
 1.  Create a VSPackage that proffers a private source control service.  
   
-2.  Implement the interfaces in the source control-related services that are proffered by [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] (for example, the <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2> and the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccProvider> interface).  
+2.  Implement the interfaces in the source control-related services that are proffered by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] (for example, the <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2> and the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSccProvider> interface).  
   
 3.  Register your source control VSPackage.  
   

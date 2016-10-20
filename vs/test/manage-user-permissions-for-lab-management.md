@@ -1,7 +1,7 @@
 ---
-title: "Manage user permissions for Lab Management"
+title: "Manage user permissions for Lab Management | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -27,10 +27,10 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Manage user permissions for Lab Management
-You can control the level of access that various members of your team have to [!INCLUDE[vstsLabShort](../test/includes/vstslabshort_md.md)] resources by adding each member to security groups for each team project. By default, [!INCLUDE[esprfound](../codequality/includes/esprfound_md.md)] creates several groups for each project, and each group has its own set of permissions and rights for that project. If the default groups do not provide the appropriate permissions, you can create custom groups that have a specific combination of permissions. [!INCLUDE[crabout](../codequality/includes/crabout_md.md)] adding users to the default groups, see [Adding and Removing Users To and From Groups](../Topic/Adding%20and%20Removing%20Users%20To%20and%20From%20Groups.md). [!INCLUDE[crabout](../codequality/includes/crabout_md.md)] creating custom groups, see [Custom Groups in Team Foundation Server](../Topic/Custom%20Groups.md).  
+You can control the level of access that various members of your team have to [!INCLUDE[vstsLabShort](../test/includes/vstslabshort_md.md)] resources by adding each member to security groups for each team project. By default, [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)] creates several groups for each project, and each group has its own set of permissions and rights for that project. If the default groups do not provide the appropriate permissions, you can create custom groups that have a specific combination of permissions. [!INCLUDE[crabout](../code-quality/includes/crabout_md.md)] adding users to the default groups, see [Adding and Removing Users To and From Groups](../Topic/Adding%20and%20Removing%20Users%20To%20and%20From%20Groups.md). [!INCLUDE[crabout](../code-quality/includes/crabout_md.md)] creating custom groups, see [Custom Groups in Team Foundation Server](../Topic/Custom%20Groups.md).  
   
 ## Default Groups and Permissions  
- When you create a team project collection, [!INCLUDE[esprfound](../codequality/includes/esprfound_md.md)] automatically creates the following default collection-level groups:  
+ When you create a team project collection, [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)] automatically creates the following default collection-level groups:  
   
 -   Project Collection Administrators  
   
@@ -44,9 +44,9 @@ You can control the level of access that various members of your team have to [!
   
 -   Project Collection Test Service Accounts  
   
- Of these groups, the Project Collection Administrators and the Project Collection Build Service Accounts are given explicit permissions to access or control [!INCLUDE[vstsLabShort](../test/includes/vstslabshort_md.md)] resources. [!INCLUDE[crabout](../codequality/includes/crabout_md.md)] all the default collection-level groups, see [Default Groups in Team Foundation Server](../Topic/Default%20Groups.md).  
+ Of these groups, the Project Collection Administrators and the Project Collection Build Service Accounts are given explicit permissions to access or control [!INCLUDE[vstsLabShort](../test/includes/vstslabshort_md.md)] resources. [!INCLUDE[crabout](../code-quality/includes/crabout_md.md)] all the default collection-level groups, see [Default Groups in Team Foundation Server](../Topic/Default%20Groups.md).  
   
- Similarly, when you create a team project, [!INCLUDE[esprfound](../codequality/includes/esprfound_md.md)] automatically creates the following default project-level groups:  
+ Similarly, when you create a team project, [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)] automatically creates the following default project-level groups:  
   
 -   Project Administrators  
   
@@ -56,7 +56,7 @@ You can control the level of access that various members of your team have to [!
   
 -   Builders  
   
- Of these groups, the Project Administrators, Contributors, and Readers are given explicit permissions to access or control [!INCLUDE[vstsLabShort](../test/includes/vstslabshort_md.md)] resources. [!INCLUDE[crabout](../codequality/includes/crabout_md.md)] the permissions for all the default collection-level and project-level groups, see [Permission reference](../Topic/Permission%20reference%20for%20Team%20Foundation%20Server.md).  
+ Of these groups, the Project Administrators, Contributors, and Readers are given explicit permissions to access or control [!INCLUDE[vstsLabShort](../test/includes/vstslabshort_md.md)] resources. [!INCLUDE[crabout](../code-quality/includes/crabout_md.md)] the permissions for all the default collection-level and project-level groups, see [Permission reference](../Topic/Permission%20reference%20for%20Team%20Foundation%20Server.md).  
   
  The following table lists the specific [!INCLUDE[vstsLabShort](../test/includes/vstslabshort_md.md)] permissions that are assigned to users when you add the user to a default group. For many team projects, assigning users to either the Project Administrators group or the Contributors group is sufficient for the individual people to do their jobs.  
   
@@ -77,7 +77,7 @@ You can control the level of access that various members of your team have to [!
 |Manage Permissions|ManagePermissions|Modify the permissions for a [!INCLUDE[vstsLabShort](../test/includes/vstslabshort_md.md)] object. This permission is checked for the object whose permissions are being modified.|X|||||  
   
 ## Custom Groups and Permissions  
- If the permissions granted by the default [!INCLUDE[esprfound](../codequality/includes/esprfound_md.md)] security groups are too inclusive or exclusive, you can create new security groups that have different combinations of permissions. For example, your team might have some users who function as test leads and other users who function as just testers. The policies in your organization require that only test leads are authorized to create virtual machines and templates. Because adding a tester to the default Contributors group would automatically give the tester permission to create new virtual machines and templates, you might want to create a custom group named "Tester" that has just the permissions indicated in the following table. Similarly, your organization has some users who function as a team project administrator and other users who function as test lab administrators. The policies in your organization require that only team project administrators can manage user permissions. Because adding a lab administrator to the default Project Administrators group would automatically give the test lab administrator the ability to manage permissions, you may want to create a custom group named "Lab Administrators." The following table illustrates the specific permissions that might be given to the "Lab Administrators" group and three other custom groups that differ from the permissions in the default groups. For the steps to create custom groups, see [Custom Groups in Team Foundation Server](../Topic/Custom%20Groups.md).  
+ If the permissions granted by the default [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)] security groups are too inclusive or exclusive, you can create new security groups that have different combinations of permissions. For example, your team might have some users who function as test leads and other users who function as just testers. The policies in your organization require that only test leads are authorized to create virtual machines and templates. Because adding a tester to the default Contributors group would automatically give the tester permission to create new virtual machines and templates, you might want to create a custom group named "Tester" that has just the permissions indicated in the following table. Similarly, your organization has some users who function as a team project administrator and other users who function as test lab administrators. The policies in your organization require that only team project administrators can manage user permissions. Because adding a lab administrator to the default Project Administrators group would automatically give the test lab administrator the ability to manage permissions, you may want to create a custom group named "Lab Administrators." The following table illustrates the specific permissions that might be given to the "Lab Administrators" group and three other custom groups that differ from the permissions in the default groups. For the steps to create custom groups, see [Custom Groups in Team Foundation Server](../Topic/Custom%20Groups.md).  
   
 |Name of [!INCLUDE[vstsLabShort](../test/includes/vstslabshort_md.md)] permission|Custom group: Lab Administrator|Custom group: Test Lead|Custom group: Tester|Custom group: Developer|  
 |-------------------------------------------------------------------------------------|-------------------------------------|-----------------------------|--------------------------|-----------------------------|  

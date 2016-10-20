@@ -1,7 +1,7 @@
 ---
-title: "Sorry, we don&#39;t have specifics on this C# error"
+title: "Sorry, we don&#39;t have specifics on this C# error | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -907,16 +907,16 @@ translation.priority.ht:
 We’re sorry, but we don’t have any specific information about this error. You can search for the error number and message text to find information on the web. Or, you can ask other developers using one of these forums:  
   
  [Visual C# Language](http://go.microsoft.com/fwlink/?LinkId=146921)  
- Provides a forum for questions about and general discussions of the [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] language syntax and compiler.  
+ Provides a forum for questions about and general discussions of the [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] language syntax and compiler.  
   
  [Visual C# IDE](http://go.microsoft.com/fwlink/?LinkId=146922)  
- Provides a forum for questions about how to work in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] environment.  
+ Provides a forum for questions about how to work in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] environment.  
   
  [Visual C# General](http://go.microsoft.com/fwlink/?LinkId=146920)  
- Provides a forum for questions about and issues with [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] that are not discussed in other forums.  
+ Provides a forum for questions about and issues with [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] that are not discussed in other forums.  
   
  [StackOverflow](http://stackoverflow.com/questions/tagged/c%23)  
- Provides a forum for questions about and issues with [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)].  
+ Provides a forum for questions about and issues with [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)].  
   
  Also see:  
  [Additional Resources for Visual C# Programmers](../Topic/Additional%20Resources%20for%20Visual%20C%23%20Programmers.md)  

@@ -1,7 +1,7 @@
 ---
-title: "Debugging ClickOnce Applications That Use System.Deployment.Application"
+title: "Debugging ClickOnce Applications That Use System.Deployment.Application | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -38,7 +38,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Debugging ClickOnce Applications That Use System.Deployment.Application
-In [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)], [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment allows you to configure how an application is updated. However, if you need to use and customize advanced [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment features, you will need to access the deployment object model provided by <xref:System.Deployment.Application>. You can use the <xref:System.Deployment.Application> APIs for advanced tasks such as:  
+In [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)], [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment allows you to configure how an application is updated. However, if you need to use and customize advanced [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment features, you will need to access the deployment object model provided by <xref:System.Deployment.Application>. You can use the <xref:System.Deployment.Application> APIs for advanced tasks such as:  
   
 -   Creating an "Update Now" option in your application  
   
@@ -87,7 +87,7 @@ In [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)],
   
      For example, assume you are developing a Windows Forms application, and you have an event handler for this method with the update logic in it. To debug this, simply attach before the button is pressed, then set a breakpoint (make sure that you open the appropriate archived file and set the breakpoint there).  
   
- Use the <xref:System.Deployment.Application.ApplicationDeployment.IsNetworkDeployed*> property to invoke the <xref:System.Deployment.Application> APIs only when the application is deployed; the APIs should not be invoked during debugging in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+ Use the <xref:System.Deployment.Application.ApplicationDeployment.IsNetworkDeployed*> property to invoke the <xref:System.Deployment.Application> APIs only when the application is deployed; the APIs should not be invoked during debugging in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 ## See Also  
  <xref:System.Deployment.Application>

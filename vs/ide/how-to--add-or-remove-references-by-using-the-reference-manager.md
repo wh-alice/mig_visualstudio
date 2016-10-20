@@ -1,7 +1,7 @@
 ---
-title: "How to: Add or Remove References By Using the Reference Manager"
+title: "How to: Add or Remove References By Using the Reference Manager | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -68,7 +68,7 @@ You can use the **Reference Manager** dialog box to add and manage references to
   
  When you manually add a reference to any of the EnvDTE namespaces (EnvDTE, EnvDTE80, EnvDTE90, EnvDTE90a, or EnvDTE100), set the Embed Interop Types property of the reference to False in the Properties window. Setting this property to True can cause build issues because of certain EnvDTE properties that can’t be embedded.  
   
- All desktop projects contain an implicit reference to mscorlib. [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] projects contain an implicit reference to Microsoft.VisualBasic. In [!INCLUDE[vs_dev11_long](../codequality/includes/vs_dev11_long_md.md)], all projects contain an implicit reference to System.Core, even if it’s removed from the list of references.  
+ All desktop projects contain an implicit reference to mscorlib. [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] projects contain an implicit reference to Microsoft.VisualBasic. In [!INCLUDE[vs_dev11_long](../code-quality/includes/vs_dev11_long_md.md)], all projects contain an implicit reference to System.Core, even if it’s removed from the list of references.  
   
  If a project type doesn’t support Assemblies, the tab won’t appear in the **Reference Manager** dialog box.  
   
@@ -78,7 +78,7 @@ You can use the **Reference Manager** dialog box to add and manage references to
   
     -   Advertised assemblies are in the Full Framework and enumerated in the Framework list when your project targets a Profile of the targeted Framework. Advertised assemblies are grey to differentiate them from the assemblies that exist in the targeted Framework profile of the project. For example, if a project targets .NET Framework 4 Client, the Framework list shows advertised assemblies from .NET Framework 4. When a user adds an advertised assembly, the user is notified that, after the **Reference Manager** dialog box is closed, the project will be retargeted to the .NET Framework 4 and the advertised assembly will be added.  
   
-    -   Projects for [!INCLUDE[win8_appname_long](../codequality/includes/win8_appname_long_md.md)] apps contain references to all of the assemblies in the targeted [!INCLUDE[net_win8_profile](../ide/includes/net_win8_profile_md.md)] by default on project creation. In managed projects, a read-only node under the References folder in **Solution Explorer** indicates the reference to the entire Framework. Accordingly, the Framework tab won’t enumerate any of the assemblies from the Framework and instead display the following message: “All of the Framework assemblies are already referenced. Please use the Object Browser to explore the references in the Framework.” For desktop projects, the Framework tab enumerates assemblies from the targeted Framework, and the user must add the references that the application requires.  
+    -   Projects for [!INCLUDE[win8_appname_long](../code-quality/includes/win8_appname_long_md.md)] apps contain references to all of the assemblies in the targeted [!INCLUDE[net_win8_profile](../ide/includes/net_win8_profile_md.md)] by default on project creation. In managed projects, a read-only node under the References folder in **Solution Explorer** indicates the reference to the entire Framework. Accordingly, the Framework tab won’t enumerate any of the assemblies from the Framework and instead display the following message: “All of the Framework assemblies are already referenced. Please use the Object Browser to explore the references in the Framework.” For desktop projects, the Framework tab enumerates assemblies from the targeted Framework, and the user must add the references that the application requires.  
   
 2.  Extensions lists all assemblies that external vendors of components and controls have developed to extend the targeted Framework. Depending on the purpose of the user application, it might need these assemblies.  
   
@@ -96,13 +96,13 @@ You can use the **Reference Manager** dialog box to add and manage references to
   
          For example, if a project targets the .NET Framework 4 on a 32-bit machine, Extensions will enumerate assemblies that are registered under \Microsoft\\.NETFramework\v4.0\AssemblyFoldersEx\\, \Microsoft\\.NETFramework\v3.5\AssemblyFoldersEx\\, \Microsoft\\.NETFramework\v3.0\AssemblyFoldersEx\\, and \Microsoft\\.NETFramework\v2.0\AssemblyFoldersEx\\.  
   
- Some components in the list may not be shown, depending on the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] version of your project. This can occur under the following conditions:  
+ Some components in the list may not be shown, depending on the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] version of your project. This can occur under the following conditions:  
   
 -   A component that uses a recent version of the .NET Framework is incompatible with a project that targets an earlier version of the .NET Framework.  
   
      For information about how to change the target .NET Framework version for a project, see [How to: Target a Version of the .NET Framework](../ide/how-to--target-a-version-of-the-.net-framework.md).  
   
--   A component that uses [!INCLUDE[net_v40_short](../codequality/includes/net_v40_short_md.md)] is incompatible with a project that targets the [!INCLUDE[net_v45](../ide/includes/net_v45_md.md)].  
+-   A component that uses [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] is incompatible with a project that targets the [!INCLUDE[net_v45](../ide/includes/net_v45_md.md)].  
   
      When you create a new application, some projects target the [!INCLUDE[net_v45](../ide/includes/net_v45_md.md)] by default. For more information, see [.NET Framework Client Profile](../Topic/.NET%20Framework%20Client%20Profile.md).  
   
@@ -151,11 +151,11 @@ You can use the **Reference Manager** dialog box to add and manage references to
 ## Solution tab  
  The Solution tab lists all compatible projects within the current solution, in the Projects sub-tab.  
   
- A project can reference another project that targets a different version of the .NET Framework. For example, you could create a project that targets the [!INCLUDE[net_v40_short](../codequality/includes/net_v40_short_md.md)] but that references an assembly that’s been built for the .NET Framework 2. However, the .NET Framework 2 project can’t reference a [!INCLUDE[net_v40_short](../codequality/includes/net_v40_short_md.md)] project. For more information, see [Targeting a Specific .NET Framework Version](../ide/targeting-a-specific-.net-framework-version.md).  
+ A project can reference another project that targets a different version of the .NET Framework. For example, you could create a project that targets the [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] but that references an assembly that’s been built for the .NET Framework 2. However, the .NET Framework 2 project can’t reference a [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] project. For more information, see [Targeting a Specific .NET Framework Version](../ide/targeting-a-specific-.net-framework-version.md).  
   
- A project that targets the [!INCLUDE[net_v40_short](../codequality/includes/net_v40_short_md.md)] is incompatible with a project that targets the [!INCLUDE[net_client_v40_long](../deployment/includes/net_client_v40_long_md.md)].  
+ A project that targets the [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] is incompatible with a project that targets the [!INCLUDE[net_client_v40_long](../deployment/includes/net_client_v40_long_md.md)].  
   
- In [!INCLUDE[vs_dev11_long](../codequality/includes/vs_dev11_long_md.md)], a file reference instead of a project reference is created if one project targets the .NET Framework 4 and another project targets an earlier version.  
+ In [!INCLUDE[vs_dev11_long](../code-quality/includes/vs_dev11_long_md.md)], a file reference instead of a project reference is created if one project targets the .NET Framework 4 and another project targets an earlier version.  
   
  A project that targets the [!INCLUDE[net_win8_profile](../ide/includes/net_win8_profile_md.md)] can’t add a project reference to a project that targets the .NET Framework and vice versa.  
   
@@ -164,16 +164,16 @@ You can use the **Reference Manager** dialog box to add and manage references to
   
  You can generate a WinMD file in Visual Studio in two ways:  
   
--   **[!INCLUDE[win8_appname_long](../codequality/includes/win8_appname_long_md.md)] app managed projects**: [!INCLUDE[win8_appname_long](../codequality/includes/win8_appname_long_md.md)] app projects can output WinMD binaries by setting Project Properties &#124; Output Type = WinMD File. The WinMD filename must be the superset namespace of all the namespaces that exist within it. For example, if a project consists of namespaces A.B and A.B.C, the possible names for its outputted WinMD are A.winmd and A.B.winmd. If a user enters a Project Properties &#124; Assembly Name or Project Properties &#124; Namespace value that’s disjoint from the set of namespaces in the project or there is no superset namespace within a project, a build warning is generated: 'A.winmd' isn’t a valid .winmd file name for this assembly. All types within a Windows Metadata file must exist in a sub namespace of the file name. Types that don’t exist in a sub namespace of the file name won’t be able to be located at runtime. In this assembly, the smallest common namespace is 'CSWSClassLibrary1'. A desktop Visual Basic or Visual C# project can only consume WinMDs that are generated by using the [!INCLUDE[win8](../codequality/includes/win8_md.md)] SDKs, which are known as first-party WinMDs, and can’t generate WinMDs.  
+-   **[!INCLUDE[win8_appname_long](../code-quality/includes/win8_appname_long_md.md)] app managed projects**: [!INCLUDE[win8_appname_long](../code-quality/includes/win8_appname_long_md.md)] app projects can output WinMD binaries by setting Project Properties &#124; Output Type = WinMD File. The WinMD filename must be the superset namespace of all the namespaces that exist within it. For example, if a project consists of namespaces A.B and A.B.C, the possible names for its outputted WinMD are A.winmd and A.B.winmd. If a user enters a Project Properties &#124; Assembly Name or Project Properties &#124; Namespace value that’s disjoint from the set of namespaces in the project or there is no superset namespace within a project, a build warning is generated: 'A.winmd' isn’t a valid .winmd file name for this assembly. All types within a Windows Metadata file must exist in a sub namespace of the file name. Types that don’t exist in a sub namespace of the file name won’t be able to be located at runtime. In this assembly, the smallest common namespace is 'CSWSClassLibrary1'. A desktop Visual Basic or Visual C# project can only consume WinMDs that are generated by using the [!INCLUDE[win8](../code-quality/includes/win8_md.md)] SDKs, which are known as first-party WinMDs, and can’t generate WinMDs.  
   
--   **[!INCLUDE[win8_appname_long](../codequality/includes/win8_appname_long_md.md)] app native projects**: A native WinMD file consists of only metadata. Its implementation exists in a separate DLL file. One can produce native binaries by choosing the Windows Runtime Component project template in the **New Project** dialog box or by starting from a blank project and modifying the project properties to generate a WinMD file. If the project consists of disjoint namespaces, a build error will tell the user to combine their namespaces or run the MSMerge tool.  
+-   **[!INCLUDE[win8_appname_long](../code-quality/includes/win8_appname_long_md.md)] app native projects**: A native WinMD file consists of only metadata. Its implementation exists in a separate DLL file. One can produce native binaries by choosing the Windows Runtime Component project template in the **New Project** dialog box or by starting from a blank project and modifying the project properties to generate a WinMD file. If the project consists of disjoint namespaces, a build error will tell the user to combine their namespaces or run the MSMerge tool.  
   
  The Windows tab consists of two subgroups.  
   
 ### Core Subgroup  
  The Core subgroup lists all of the WinMDs (for Windows Runtime elements) in the SDK for the targeted version of Windows.  
   
- [!INCLUDE[win8_appname_long](../codequality/includes/win8_appname_long_md.md)] app projects contain references to all of the WinMDs in the [!INCLUDE[win8](../codequality/includes/win8_md.md)] SDK by default on project creation. In managed projects, a read-only node under the References folder in **Solution Explorer** indicates the reference to the entire [!INCLUDE[win8](../codequality/includes/win8_md.md)] SDK. Accordingly, the Core subgroup in the Reference Manager won’t enumerate any of the assemblies from the [!INCLUDE[win8](../codequality/includes/win8_md.md)] SDK and instead displays a message: “The Windows SDK is already referenced. Please use the Object Browser to explore the references in the Windows SDK.”  
+ [!INCLUDE[win8_appname_long](../code-quality/includes/win8_appname_long_md.md)] app projects contain references to all of the WinMDs in the [!INCLUDE[win8](../code-quality/includes/win8_md.md)] SDK by default on project creation. In managed projects, a read-only node under the References folder in **Solution Explorer** indicates the reference to the entire [!INCLUDE[win8](../code-quality/includes/win8_md.md)] SDK. Accordingly, the Core subgroup in the Reference Manager won’t enumerate any of the assemblies from the [!INCLUDE[win8](../code-quality/includes/win8_md.md)] SDK and instead displays a message: “The Windows SDK is already referenced. Please use the Object Browser to explore the references in the Windows SDK.”  
   
  In the desktop projects, the Core subgroup doesn’t appear by default. You can add the Windows Runtime by opening the shortcut menu for the project node, choosing **Unload Project**, adding the following snippet, and re-opening the project (on the project node, choose **Reload Project**). When you invoke the **Reference Manager** dialog box, the Core subgroup appears.  
   
@@ -186,7 +186,7 @@ You can use the **Reference Manager** dialog box to add and manage references to
  Make sure to select the **Windows** check box on this subgroup. You should then be able to use Windows Runtime elements. However, you'll also want to add System.Runtime, in which the Windows Runtime defines some standard classes and interfaces, such as IEnumerable, that are used throughout the Windows Runtime libraries. For information about how to add System.Runtime, see [Managed desktop apps and Windows Runtime](http://msdn.microsoft.com/library/windows/apps/jj856306.aspx#consuming_standard_windows_runtime_types).  
   
 ### Extensions Subgroup  
- Extensions lists the user SDKs that extend the targeted Windows platform. This tab appears for [!INCLUDE[win8_appname_long](../codequality/includes/win8_appname_long_md.md)] app projects only. Desktop projects won’t show this tab because they can consume only first-party .winmd files.  
+ Extensions lists the user SDKs that extend the targeted Windows platform. This tab appears for [!INCLUDE[win8_appname_long](../code-quality/includes/win8_appname_long_md.md)] app projects only. Desktop projects won’t show this tab because they can consume only first-party .winmd files.  
   
  An SDK is a collection of files that Visual Studio treats as a single component. In the Extensions tab, SDKs that apply to the project from which the **Reference Manager** dialog box was invoked are listed as single entries. When added to a project, all of the SDK content is consumed by Visual Studio such that the user doesn’t need to take any further actions to leverage the SDK contents in IntelliSense, toolbox, designers, Object Browser, build, deployment, debugging, and packaging. For information about how to display your SDK in the Extensions tab, see [Creating a Software Development Kit](../extensibility/creating-a-software-development-kit.md).  
   

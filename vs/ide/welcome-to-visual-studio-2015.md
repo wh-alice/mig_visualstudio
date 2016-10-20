@@ -1,7 +1,7 @@
 ---
-title: "Welcome to Visual Studio 2015"
+title: "Welcome to Visual Studio 2015 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -58,21 +58,21 @@ Welcome to Visual Studio! We’ve got everything you need to create great apps f
  Find [existing extensions for the VS IDE](https://visualstudiogallery.msdn.microsoft.com/) created by Microsoft developers as well as our development community.  
   
 ## Build apps for Android, iOS, and Windows  
- You can use Visual Studio to build apps for Android, iOS, and Windows devices. Learn more about it at [Cross-Platform Mobile Development](../crossplatform/cross-platform-mobile-development-in-visual-studio.md).  
+ You can use Visual Studio to build apps for Android, iOS, and Windows devices. Learn more about it at [Cross-Platform Mobile Development](../cross-platform/cross-platform-mobile-development-in-visual-studio.md).  
   
  For information about Universal Windows Apps (UWP), see [Universal Windows Apps](https://dev.windows.com/en-us/windows-apps).  
   
  Choose the tools you need based on your app requirements and the language you want to use.  
   
-1.  [Xamarin for Visual Studio](../crossplatform/build-apps-with-native-ui-using-xamarin-in-visual-studio.md): A common code base in C# for all devices  
+1.  [Xamarin for Visual Studio](../cross-platform/build-apps-with-native-ui-using-xamarin-in-visual-studio.md): A common code base in C# for all devices  
   
 2.  [Apache Cordova with Visual Studio](../Topic/Get%20Started%20with%20Visual%20Studio%20Tools%20for%20Apache%20Cordova1.md): A common code base for HTML, CSS, and JavaScript or Typescript  
   
-3.  [Visual Studio Tools for Unity](../crossplatform/visual-studio-tools-for-unity.md): 2D/3D game development in C#  
+3.  [Visual Studio Tools for Unity](../cross-platform/visual-studio-tools-for-unity.md): 2D/3D game development in C#  
   
-4.  [C++ for Cross-Platform Development](../crossplatform/visual-c---for-cross-platform-mobile-development.md): Shared code libraries and apps in C++  
+4.  [C++ for Cross-Platform Development](../cross-platform/visual-c---for-cross-platform-mobile-development.md): Shared code libraries and apps in C++  
   
-5.  [Visual Studio Emulator for Android](../crossplatform/visual-studio-emulator-for-android.md): Visual Studio Emulator for Android: Debug and test your Android apps no matter the IDE  
+5.  [Visual Studio Emulator for Android](../cross-platform/visual-studio-emulator-for-android.md): Visual Studio Emulator for Android: Debug and test your Android apps no matter the IDE  
   
 ## Connect your apps to services  
  You can connect to these services out of the box (assuming that you have an account for each service):  
@@ -95,9 +95,9 @@ Welcome to Visual Studio! We’ve got everything you need to create great apps f
  You can [build your app locally](../ide/compiling-and-building-in-visual-studio.md) and make sure that it works correctly. Then use the [debugging tools](../debugger/debugging-in-visual-studio.md) to fix any issues with your app. Or you can build projects on shared build servers or in the cloud. Automate your build process to build the code that the devs on your team have checked into version control. For example, you can build one or more projects nightly or every time that code is checked in.  
   
 ### Test your app  
- [Create unit tests](../codequality/unit-test-your-code.md) to improve the quality of your app. These tests can be run every time you check in, and as part of your build.  
+ [Create unit tests](../code-quality/unit-test-your-code.md) to improve the quality of your app. These tests can be run every time you check in, and as part of your build.  
   
- Plan, create and run manual and automated tests for your app. Test plans, suites, test cases and your test results are stored in the cloud with Visual Studio Team Services or on-premises with Team Foundation Server. Learn more about [testing the application](../codequality/improve-code-quality.md).  
+ Plan, create and run manual and automated tests for your app. Test plans, suites, test cases and your test results are stored in the cloud with Visual Studio Team Services or on-premises with Team Foundation Server. Learn more about [testing the application](../code-quality/improve-code-quality.md).  
   
 ### Deliver your team’s code faster  
  Remove barriers between members of your team and improve collaboration. Go further and automate the release of your app to each stage in your development all the way to production. Monitor your app's performance and availability when live. Collect real-time usage data about how your customers are actually using your app. See [DevOps and Application Lifecycle Management](../Topic/DevOps%20and%20Application%20Lifecycle%20Management.md) for more details.  
@@ -122,9 +122,9 @@ Welcome to Visual Studio! We’ve got everything you need to create great apps f
   
 -   [Extensibility in Visual Studio](../extensibility/extensibility-in-visual-studio.md)  
   
--   [Accessing data in Visual Studio](../datatools/accessing-data-in-visual-studio.md)  
+-   [Accessing data in Visual Studio](../data-tools/accessing-data-in-visual-studio.md)  
   
--   [Cross-Platform Mobile Development](../crossplatform/cross-platform-mobile-development-in-visual-studio.md)  
+-   [Cross-Platform Mobile Development](../cross-platform/cross-platform-mobile-development-in-visual-studio.md)  
   
 -   [C# and Visual Basic Shared Programming Concepts](../Topic/C%23%20and%20Visual%20Basic%20Shared%20Programming%20Concepts.md)  
   

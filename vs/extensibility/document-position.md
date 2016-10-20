@@ -1,7 +1,7 @@
 ---
-title: "Document Position"
+title: "Document Position | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,7 +31,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Document Position
-In [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] debugging, a **document position**:  
+In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugging, a **document position**:  
   
 -   Provides an abstraction of a position in a source file as known to the IDE. For most languages today, a document position can be thought of as a position in a source file.  
   

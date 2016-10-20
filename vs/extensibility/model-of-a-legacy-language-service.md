@@ -1,7 +1,7 @@
 ---
-title: "Model of a Legacy Language Service"
+title: "Model of a Legacy Language Service | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -47,7 +47,7 @@ A language service defines the elements and features for a specific language, an
  ![Language Service Model graphic](../extensibility/media/vslanguageservicemodel.gif "vsLanguageServiceModel")  
 Basic language service model  
   
- The document window hosts the *document view* of the editor, in this case the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] core editor. The document view and the text buffer are owned by the editor. These objects work with [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] through a specialized document window called a *code window*. The code window is contained in an <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame> object that is created and controlled by the IDE.  
+ The document window hosts the *document view* of the editor, in this case the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] core editor. The document view and the text buffer are owned by the editor. These objects work with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] through a specialized document window called a *code window*. The code window is contained in an <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame> object that is created and controlled by the IDE.  
   
  When a file with a given extension is loaded, the editor locates the language service associated with that extension and passes to it the code window by calling the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo.GetCodeWindowManager*> method. The language service returns a *code window manager*, which implements the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindowManager> interface.  
   
@@ -56,7 +56,7 @@ Basic language service model
 |Component|Object|Function|  
 |---------------|------------|--------------|  
 |Text buffer|<xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer>|A Unicode read/write text stream. It is possible for text to use other encodings.|  
-|Code window|<xref:Microsoft.VisualStudio.TextManager.Interop.VsCodeWindow>|A document window that contains one or more text views. When [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] is in multiple-document interface (MDI) mode, the code window is an MDI child.|  
+|Code window|<xref:Microsoft.VisualStudio.TextManager.Interop.VsCodeWindow>|A document window that contains one or more text views. When [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is in multiple-document interface (MDI) mode, the code window is an MDI child.|  
 |Text view|<xref:Microsoft.VisualStudio.TextManager.Interop.VsTextView>|A window that lets the user navigate and view text by using the keyboard and mouse. A text view appears to the user as an editor. You can use text views in ordinary editor windows, the Output window, and the Immediate window. Additionally, you can configure one or more text views within a code window.|  
 |Text manager|Managed by the <xref:Microsoft.VisualStudio.TextManager.Interop.SVsTextManager> service, from which you obtain an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextManager> pointer|A component that maintains common information shared by all the components described previously.|  
 |Language service|Implementation dependent; implements <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo>|An object that provides the editor with language-specific information such as syntax highlighting, statement completion, and brace matching.|  

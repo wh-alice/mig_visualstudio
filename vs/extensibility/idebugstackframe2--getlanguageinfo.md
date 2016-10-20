@@ -1,7 +1,7 @@
 ---
-title: "IDebugStackFrame2::GetLanguageInfo"
+title: "IDebugStackFrame2::GetLanguageInfo | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -56,7 +56,7 @@ int GetLanguageInfo ( 
  [out] Returns the name of the language that implements the method associated with this stack frame.  
   
  `pguidLanguage`  
- [out] Returns the `GUID` of the language. For the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] languages, for example, the following can be returned:  
+ [out] Returns the `GUID` of the language. For the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] languages, for example, the following can be returned:  
   
 -   `guidVBScriptLang`  
   

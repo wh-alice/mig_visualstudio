@@ -1,7 +1,7 @@
 ---
-title: "The file &#39;filename&#39; cannot be copied to the run directory. &lt;reason&gt;"
+title: "The file &#39;filename&#39; cannot be copied to the run directory. &lt;reason&gt; | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -40,7 +40,7 @@ This error is displayed when:
   
 -   Any other file that needed to be copied locally cannot be copied to the directory from which the project is being run.  
   
- Most commonly, the `reason` cited at the end of the error message will report that the file is in use by another process. It is likely that the file is locked by something else within [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+ Most commonly, the `reason` cited at the end of the error message will report that the file is in use by another process. It is likely that the file is locked by something else within [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
  There may be a problem associated with building projects into the same output directory. In this case, build the two projects to different directories. When building into different directories, the project system copies all dependent assemblies into a project's output directory.  
   

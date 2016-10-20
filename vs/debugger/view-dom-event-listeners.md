@@ -1,7 +1,7 @@
 ---
-title: "View DOM event listeners"
+title: "View DOM event listeners | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -38,7 +38,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # View DOM event listeners
-![Applies to Windows and Windows Phone](../codequality/media/windows_and_phone_content.png "windows_and_phone_content")  
+![Applies to Windows and Windows Phone](../code-quality/media/windows_and_phone_content.png "windows_and_phone_content")  
   
  The **Events** tab of DOM Explorer shows the events that are associated with a DOM element. Each top node in the **Events** tab represents an event that has active subscribers. The top node contains subnodes that represent the registered event listeners for the specific event. In addition to viewing the event listeners, you can use this tab to navigate to the location of the event listener in the JavaScript code. The information in this topic applies to Store apps using HTML and JavaScript.  
   

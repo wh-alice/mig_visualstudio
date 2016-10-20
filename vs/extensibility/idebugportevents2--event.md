@@ -1,7 +1,7 @@
 ---
-title: "IDebugPortEvents2::Event"
+title: "IDebugPortEvents2::Event | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -61,7 +61,7 @@ int Event(
   
 #### Parameters  
  `pMachine`  
- [in] An [IDebugCoreServer2](../extensibility/idebugcoreserver2.md) object that represents the debug server (there is one for every instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]) in which the event occurred.  
+ [in] An [IDebugCoreServer2](../extensibility/idebugcoreserver2.md) object that represents the debug server (there is one for every instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]) in which the event occurred.  
   
  `pPort`  
  [in] An [IDebugPort2](../extensibility/idebugport2.md) object that represents the port in which the event occurred.  

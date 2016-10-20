@@ -1,7 +1,7 @@
 ---
-title: "How to: Set a Custom Log File Location for ClickOnce Deployment Errors"
+title: "How to: Set a Custom Log File Location for ClickOnce Deployment Errors | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

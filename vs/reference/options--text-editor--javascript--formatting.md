@@ -1,7 +1,7 @@
 ---
-title: "Options, Text Editor, JavaScript, Formatting"
+title: "Options, Text Editor, JavaScript, Formatting | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ translation.priority.ht:
 # Options, Text Editor, JavaScript, Formatting
 Use the **Formatting** page of the **Options** dialog box to set options for formatting code in the Code Editor. To access this page, on the menu bar, choose **Tools**, **Options**, and then expand **Text Editor**, **JavaScript**, and **Formatting**.  
   
- [!INCLUDE[note_settings_general](../datatools/includes/note_settings_general_md.md)]  
+ [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
   
 ## Automatic Formatting  
  These options determine when formatting occurs in **Source** view.  

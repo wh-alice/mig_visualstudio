@@ -1,7 +1,7 @@
 ---
-title: "Troubleshooting Exceptions: System.NullReferenceException"
+title: "Troubleshooting Exceptions: System.NullReferenceException | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/17/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -95,7 +95,7 @@ End Class
   
 ```  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Sections in this article](#BKMK_Contents)  
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [Sections in this article](#BKMK_Contents)  
   
 ##  <a name="BKMK_Common_causes_of_NullReferenceExceptions"></a> Common causes of NullReferenceExceptions  
  Any reference type variable can be null. Local variables, the properties of a class, method parameters, and method return values can all contain a null reference. Calling methods or properties of these variables when they are null causes a NullReferenceException. Specific cases:  
@@ -141,9 +141,9 @@ Public Sub NullReferencFromUninitializedLocalVariable()
 End Sub  
 ```  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Common causes of NullReferenceExceptions](#BKMK_Common_causes_of_NullReferenceExceptions)  
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [Common causes of NullReferenceExceptions](#BKMK_Common_causes_of_NullReferenceExceptions)  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Sections in this article](#BKMK_Contents)  
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [Sections in this article](#BKMK_Contents)  
   
 ###  <a name="BKMK_A_property_or_field_is_null"></a> A property or field is null  
  The fields and properties of a class are automatically initialized to their [default value](../Topic/Data%20Member%20Default%20Values.md) when the class is created. The default value of a reference type is `null` (`Nothing` in Visual Basic) Calling member methods on a field or property of a parent class when the field or property value is null causes a NullReferenceException.  
@@ -166,9 +166,9 @@ Public Sub NullReferenceFromProperty()
 End Sub  
 ```  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Common causes of NullReferenceExceptions](#BKMK_Common_causes_of_NullReferenceExceptions)  
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [Common causes of NullReferenceExceptions](#BKMK_Common_causes_of_NullReferenceExceptions)  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Sections in this article](#BKMK_Contents)  
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [Sections in this article](#BKMK_Contents)  
   
 ###  <a name="BKMK_A_method_parameter_is_null"></a> A method parameter is null  
  A method parameter that is a reference type can be `null` (`Nothing` in Visual Basic). Calling member methods or properties on a parameter value that is null causes a NullReferenceException.  
@@ -200,9 +200,9 @@ Public Sub NullReferenceFromMethodParameter(engine As EngineInfo)
 End Sub  
 ```  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Common causes of NullReferenceExceptions](#BKMK_Common_causes_of_NullReferenceExceptions)  
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [Common causes of NullReferenceExceptions](#BKMK_Common_causes_of_NullReferenceExceptions)  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Sections in this article](#BKMK_Contents)  
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [Sections in this article](#BKMK_Contents)  
   
 ###  <a name="BKMK_The_return_value_of_a_method_is_null"></a> The return value of a method is null  
  A method that returns a reference type can return `null` (`Nothing` in Visual Basic). Calling methods or properties of the returned reference type causes a NullReferenceException when the reference is null.  
@@ -236,9 +236,9 @@ End Sub
   
 ```  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Common causes of NullReferenceExceptions](#BKMK_Common_causes_of_NullReferenceExceptions)  
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [Common causes of NullReferenceExceptions](#BKMK_Common_causes_of_NullReferenceExceptions)  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Sections in this article](#BKMK_Contents)  
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [Sections in this article](#BKMK_Contents)  
   
 ###  <a name="BKMK_An_object_in_a_collection_or_array_is_null"></a> An object in a collection or array is null  
  A list or array of reference types can contain an item that is null. Calling methods or properties of a list item that is null causes a NullReferenceException.  
@@ -288,9 +288,9 @@ Public Sub NullReferenceFromListItem()
 End Sub  
 ```  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Common causes of NullReferenceExceptions](#BKMK_Common_causes_of_NullReferenceExceptions)  
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [Common causes of NullReferenceExceptions](#BKMK_Common_causes_of_NullReferenceExceptions)  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Sections in this article](#BKMK_Contents)  
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [Sections in this article](#BKMK_Contents)  
   
 ###  <a name="BKMK_An_object_is_not_created_because_of_a_condition"></a> An object is not created because of a condition  
  If a reference type is initialized in a conditional block, the object is not created when the condition is false.  
@@ -334,9 +334,9 @@ Public Sub NullReferenceFromConditionalCreation()
 End Sub  
 ```  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Common causes of NullReferenceExceptions](#BKMK_Common_causes_of_NullReferenceExceptions)  
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [Common causes of NullReferenceExceptions](#BKMK_Common_causes_of_NullReferenceExceptions)  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Sections in this article](#BKMK_Contents)  
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [Sections in this article](#BKMK_Contents)  
   
 ### The property of an object passed to a method is set to null  
  When an object is passed as a parameter to a method by value (without use of the `ref` or `out` keyword in C# or the `ByRef` keyword in Visual Basic), the method can't change the memory location of the parameter—what the parameter points to—but it can change the properties of the object.  
@@ -371,9 +371,9 @@ Public Sub NullPropertyReferenceFromPassToMethod()
 End Sub  
 ```  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Common causes of NullReferenceExceptions](#BKMK_Common_causes_of_NullReferenceExceptions)  
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [Common causes of NullReferenceExceptions](#BKMK_Common_causes_of_NullReferenceExceptions)  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Sections in this article](#BKMK_Contents)  
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [Sections in this article](#BKMK_Contents)  
   
 ###  <a name="BKMK_An_object_passed_by_reference_to_a_method_is_set_to_null"></a> An object passed by reference to a method is set to null  
  When you pass a reference type as a parameter to a method by reference (using the `ref` or `out` keyword in C# or the `ByRef` keyword in Visual Basic), you can change the memory location that the parameter points to.  
@@ -414,9 +414,9 @@ End Sub
   
 ```  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Common causes of NullReferenceExceptions](#BKMK_Common_causes_of_NullReferenceExceptions)  
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [Common causes of NullReferenceExceptions](#BKMK_Common_causes_of_NullReferenceExceptions)  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Sections in this article](#BKMK_Contents)  
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [Sections in this article](#BKMK_Contents)  
   
 ##  <a name="BKMK_Find_the_source_of_a_null_reference_exception_during_development"></a> Finding the source of a null reference exception during development  
  [Use data tips, the Locals window, and watch windows to see variables values](#BKMK_Use_data_tips_the_Locals_window_and_watch_windows_to_see_variables_values)  
@@ -433,23 +433,23 @@ End Sub
   
 -   Use a [watch window](../debugger/watch-and-quickwatch-windows.md) to focus on how a variable changes as you step through the code.  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Finding the source of a null reference exception during development](#BKMK_Find_the_source_of_a_null_reference_exception_during_development)  
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [Finding the source of a null reference exception during development](#BKMK_Find_the_source_of_a_null_reference_exception_during_development)  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Sections in this article](#BKMK_Contents)  
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [Sections in this article](#BKMK_Contents)  
   
 ###  <a name="BKMK_Walk_the_call_stack_to_find_where_a_type_reference_is_not_initialized_or_set_to_null_"></a> Walk the call stack to find where a reference variable is not initialized or set to null  
  The Visual Studio [Call Stack window](../debugger/how-to--use-the-call-stack-window.md) displays a list of the names of methods that have not completed when the debugger stops at an exception or breakpoint. You can select a name in the **Call Stack** window and choose **Switch to frame** to change the execution context to the method and examine its variables.  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Finding the source of a null reference exception during development](#BKMK_Find_the_source_of_a_null_reference_exception_during_development)  
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [Finding the source of a null reference exception during development](#BKMK_Find_the_source_of_a_null_reference_exception_during_development)  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Sections in this article](#BKMK_Contents)  
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [Sections in this article](#BKMK_Contents)  
   
 ###  <a name="BKMK_Set_conditional_breakpoints_to_stop_debugging_when_an_object_is_null_Nothing_in_Visual_Basic_"></a> Set conditional breakpoints to stop debugging when an object is null (Nothing in Visual Basic)  
  You can set a [conditional breakpoint](http://msdn.microsoft.com/library/5557y8b4.aspx#BKMK_Specify_a_breakpoint_condition_using_a_code_expression) to break when a variable is null. Conditional breakpoints can be helpful when the null reference does not occur often—for example, when an item in a collection is null only intermittently. Another advantage of conditional breakpoints is that they enable you to debug an issue before you commit to a particular handling routine.  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Finding the source of a null reference exception during development](#BKMK_Find_the_source_of_a_null_reference_exception_during_development)  
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [Finding the source of a null reference exception during development](#BKMK_Find_the_source_of_a_null_reference_exception_during_development)  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Sections in this article](#BKMK_Contents)  
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [Sections in this article](#BKMK_Contents)  
   
 ##  <a name="BKMK_Avoid_NullReferenceExceptions"></a> Avoiding NullReferenceExceptions  
  [Use Debug.Assert to confirm an invariant](#BKMK_Use_Debug_Assert_to_confirm_an_invariant)  
@@ -506,9 +506,9 @@ Public Sub BadNewCallerOfMakeEngineFaster()
 End Sub  
 ```  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Avoiding NullReferenceExceptions](#BKMK_Avoid_NullReferenceExceptions)  
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [Avoiding NullReferenceExceptions](#BKMK_Avoid_NullReferenceExceptions)  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Sections in this article](#BKMK_Contents)  
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [Sections in this article](#BKMK_Contents)  
   
 ###  <a name="BKMK_Fully_initialize_reference_types"></a> Fully initialize reference types  
  To avoid many NullReferenceExceptions, fully initialize reference types as close to their creation as possible.  
@@ -641,9 +641,9 @@ Public Sub CheckForNullReferenceFromMethodReturnValue()
 End Sub  
 ```  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Handling NullReferenceExceptions in release code](#BKMK_Handle_NullReferenceExceptions_in_release_code)  
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [Handling NullReferenceExceptions in release code](#BKMK_Handle_NullReferenceExceptions_in_release_code)  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Sections in this article](#BKMK_Contents)  
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [Sections in this article](#BKMK_Contents)  
   
 ###  <a name="BKMK_Use_try_catch_finally_Try_Catch_Finally_in_Visual_Basic_to_handle_the_exception"></a> Use try-catch-finally (Try-Catch-Finally in Visual Basic) to handle the exception  
  Using the built-in exception handling constructs ([try, catch, finally](../Topic/Exception%20Handling%20Statements%20\(C%23%20Reference\).md) in C#, [Try, Catch, Finally](../Topic/Try...Catch...Finally%20Statement%20\(Visual%20Basic\).md) in Visual Basic) offers more options for dealing with NullReferenceExceptions than checking whether an object is not null.  
@@ -730,9 +730,9 @@ End Sub
   
 ```  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Handling NullReferenceExceptions in release code](#BKMK_Handle_NullReferenceExceptions_in_release_code)  
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [Handling NullReferenceExceptions in release code](#BKMK_Handle_NullReferenceExceptions_in_release_code)  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Sections in this article](#BKMK_Contents)  
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [Sections in this article](#BKMK_Contents)  
   
 ## Related articles  
  [Design Guidelines for Exceptions (.NET Framework Design Guidelines)](http://msdn.microsoft.com/library/ms229014)  
@@ -765,4 +765,4 @@ End Sub
   
  [Handling exceptions in network apps (XAML) (Windows)](http://msdn.microsoft.com/library/Dn263240)  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Sections in this article](#BKMK_Contents)
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [Sections in this article](#BKMK_Contents)

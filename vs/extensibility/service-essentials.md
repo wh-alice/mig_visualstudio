@@ -1,7 +1,7 @@
 ---
-title: "Service Essentials"
+title: "Service Essentials | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,11 +31,11 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Service Essentials
-A service is a contract between two VSPackages. One VSPackage provides a specific set of interfaces for another VSPackage to consume. [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] is itself a collection of VSPackages that provides services to other VSPackages.  
+A service is a contract between two VSPackages. One VSPackage provides a specific set of interfaces for another VSPackage to consume. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is itself a collection of VSPackages that provides services to other VSPackages.  
   
  For example, you can use the SVsActivityLog service to obtain an IVsActivityLog interface, which you can use to write to the activity log. For more information, see [How to: Use the Activity Log](../extensibility/how-to--use-the-activity-log.md).  
   
- [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] also provides some built-in services which are not registered. VSPackages can replace built-in or other services by providing a service override. Only one service override is permitted for any service.  
+ [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] also provides some built-in services which are not registered. VSPackages can replace built-in or other services by providing a service override. Only one service override is permitted for any service.  
   
  Services have no discoverability. Therefore, you must know the service identifier (SID) of a service that you want to consume, and you must know which interfaces it provides. The reference documentation for the service provides this information.  
   
@@ -49,7 +49,7 @@ A service is a contract between two VSPackages. One VSPackage provides a specifi
   
 -   Services, or service overrides, are loaded on demand, that is, the service provider is loaded when the service it provides is requested by another VSPackage.  
   
--   To support on-demand loading, a service provider registers its global services with [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. For more information, see [Registering Services](../misc/registering-services.md).  
+-   To support on-demand loading, a service provider registers its global services with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. For more information, see [Registering Services](../misc/registering-services.md).  
   
 -   After you obtain a service, use [QueryInterface](../Topic/QueryInterface.md) (unmanaged code) or casting (managed code) to get the desired interface, for example:  
   
@@ -64,9 +64,9 @@ A service is a contract between two VSPackages. One VSPackage provides a specifi
   
 -   Managed code refers to a service by its type, whereas unmanaged code refers to a service by its GUID.  
   
--   When [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] loads a VSPackage, it passes a service provider to the VSPackage to give the VSPackage access to global services. This is referred to as "siting" the VSPackage.  
+-   When [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] loads a VSPackage, it passes a service provider to the VSPackage to give the VSPackage access to global services. This is referred to as "siting" the VSPackage.  
   
--   VSPackages can be service providers for the objects they create. For example, a form might send a request for a color service to its frame, which might pass the request to [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+-   VSPackages can be service providers for the objects they create. For example, a form might send a request for a color service to its frame, which might pass the request to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 -   Managed objects that are deeply nested, or not sited at all, may call <xref:Microsoft.VisualStudio.Shell.Package.GetGlobalService*> for direct access to global services. For more information, see [How to: Use GetGlobalService](../misc/how-to--use-getglobalservice.md).  
   

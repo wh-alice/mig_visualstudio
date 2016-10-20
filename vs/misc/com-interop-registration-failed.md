@@ -1,7 +1,7 @@
 ---
-title: "COM Interop registration failed"
+title: "COM Interop registration failed | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -49,7 +49,7 @@ There is a failure in the registration of an assembly that exposes functionality
   
 -   Create some free disk space on your computer.  
   
--   If there is a file-locking issue, restart [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+-   If there is a file-locking issue, restart [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 -   Make sure that you are logged on as an Administrator or as a member of a group that has permission to access the registry.  
   

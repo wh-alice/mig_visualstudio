@@ -1,5 +1,5 @@
 ---
-title: "Using Command-Line Parameters to Install Visual Studio"
+title: "Using Command-Line Parameters to Install Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "2016-09-06"
 ms.prod: "visual-studio-dev14"
@@ -56,7 +56,7 @@ When you install Visual Studio from a command prompt, you can use the following 
 |**/qb**<br /><br /> **/passive**|Shows progress but doesn't wait for user input.|  
 |**/repair**|Repairs Visual Studio.|  
 |**/SuppressRefreshPrompt**|Prevents displaying the update available dialog in the installation wizard, thus, the installation wizard will auto-accept any required or recommended updated versions.|  
-|**/u**<br /><br /> **/Uninstall**|Uninstalls [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].|  
+|**/u**<br /><br /> **/Uninstall**|Uninstalls [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].|  
 |**/Uninstall /Force**<br /><br /> **/u /force**|Uninstalls Visual Studio and all features that are shared with other products. **Warning:**  If you use this parameter, other products that are installed on the same computer might stop functioning correctly.|  
   
 ## See Also  

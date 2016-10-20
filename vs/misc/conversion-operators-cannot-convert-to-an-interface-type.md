@@ -1,7 +1,7 @@
 ---
-title: "Conversion operators cannot convert to an interface type"
+title: "Conversion operators cannot convert to an interface type | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -37,7 +37,7 @@ translation.priority.mt:
 # Conversion operators cannot convert to an interface type
 A conversion operator is declared with an interface type as a return type.  
   
- At compile time, [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] considers a predefined conversion to exist from any reference type to any interface. Such a conversion might fail at run time, but the compiler cannot predict run-time results, so it allows any such conversion to compile.  
+ At compile time, [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] considers a predefined conversion to exist from any reference type to any interface. Such a conversion might fail at run time, but the compiler cannot predict run-time results, so it allows any such conversion to compile.  
   
  Because the compiler considers this conversion to be already defined, it does not allow you to redefine it.  
   

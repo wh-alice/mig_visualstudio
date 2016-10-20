@@ -1,7 +1,7 @@
 ---
-title: "Specifying Custom Build Events in Visual Studio"
+title: "Specifying Custom Build Events in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -54,7 +54,7 @@ By specifying a custom build event, you can automatically run commands before a 
   
 -   Enclose file paths in quotation marks.  
   
-     Example (for [!INCLUDE[win8](../codequality/includes/win8_md.md)]): "%ProgramFiles(x86)%\Microsoft SDKs\Windows\v8.0A\Bin\NETFX 4.0 Tools\gacutil.exe" -if "$(TargetPath)"  
+     Example (for [!INCLUDE[win8](../code-quality/includes/win8_md.md)]): "%ProgramFiles(x86)%\Microsoft SDKs\Windows\v8.0A\Bin\NETFX 4.0 Tools\gacutil.exe" -if "$(TargetPath)"  
   
 -   Separate multiple commands by using line breaks.  
   

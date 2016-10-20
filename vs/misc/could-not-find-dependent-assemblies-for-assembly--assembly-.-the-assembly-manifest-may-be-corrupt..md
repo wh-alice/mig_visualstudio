@@ -1,13 +1,13 @@
 ---
-title: "Could not find dependent assemblies for assembly &#39;assembly&#39;. The assembly manifest may be corrupt."
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Could not find dependent assemblies for assembly &#39;assembly&#39;. The assembly manifest may be corrupt. | Microsoft Docs"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.tasklisterror.cannotfinddependencies"
@@ -36,7 +36,7 @@ The project system was unable to read an assembly referenced by your project suc
   
  **To correct this error**  
   
--   Reinstall Visual Studio (if the assembly came with [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] or the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)]).  
+-   Reinstall Visual Studio (if the assembly came with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] or the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]).  
   
      \- or -  
   

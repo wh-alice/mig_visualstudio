@@ -1,7 +1,7 @@
 ---
-title: "Type &#39;&lt;typename&gt;&#39; cannot inherit from a type nested within it"
+title: "Type &#39;&lt;typename&gt;&#39; cannot inherit from a type nested within it | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -39,7 +39,7 @@ A class or interface definition includes an [Inherits Statement](../Topic/Inheri
   
  Inheritance must be linear, not circular. A type cannot inherit from a type that inherits from it.  
   
- A related restriction is that a type cannot inherit from a type that is not yet defined. Inheritance involves the ability to reuse members of the base class, which in turn requires that these members be defined. Therefore, [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] cannot compile code such as the following example.  
+ A related restriction is that a type cannot inherit from a type that is not yet defined. Inheritance involves the ability to reuse members of the base class, which in turn requires that these members be defined. Therefore, [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] cannot compile code such as the following example.  
   
 ```  
 Public Class outerClass  

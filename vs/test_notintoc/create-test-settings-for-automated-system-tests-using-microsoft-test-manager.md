@@ -1,5 +1,5 @@
 ---
-title: "Create Test Settings for Automated System Tests Using Microsoft Test Manager"
+title: "Create Test Settings for Automated System Tests Using Microsoft Test Manager | Microsoft Docs"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

@@ -1,7 +1,7 @@
 ---
-title: "Walkthrough: Creating a Core Editor and Registering an Editor File Type"
+title: "Walkthrough: Creating a Core Editor and Registering an Editor File Type | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,7 +31,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Walkthrough: Creating a Core Editor and Registering an Editor File Type
-This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] core editor when a file that has the .myext file name extension is loaded.  
+This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] core editor when a file that has the .myext file name extension is loaded.  
   
 ## Prerequisites  
  To follow this walkthrough, you must install the Visual Studio SDK. For more information, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).  
@@ -47,7 +47,7 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
   
 ### To create the VSPackage  
   
--   Start [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and create a [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] VSPackage named `MyPackage`, as outlined in [Walkthrough: Creating a Menu Command VSPackage](http://msdn.microsoft.com/en-us/d699c149-5d1e-47ff-94c7-e1222af02c32).  
+-   Start [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and create a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] VSPackage named `MyPackage`, as outlined in [Walkthrough: Creating a Menu Command VSPackage](http://msdn.microsoft.com/en-us/d699c149-5d1e-47ff-94c7-e1222af02c32).  
   
 ### To add the editor factory  
   
@@ -82,7 +82,7 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
   
 4.  Add a GUID to the `EditorFactory` class by adding the `Guid` attribute immediately before the class declaration.  
   
-     You can generate a new GUID by using the guidgen.exe program at the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] command prompt, or by clicking **Create GUID** on the **Tools** menu. The GUID used here is only an example; do not use it in your project.  
+     You can generate a new GUID by using the guidgen.exe program at the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] command prompt, or by clicking **Create GUID** on the **Tools** menu. The GUID used here is only an example; do not use it in your project.  
   
     ```vb#  
     <Guid("0eea3187-c5fa-48d4-aa72-b5eecd3b17b1")> _  
@@ -387,22 +387,22 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
   
 8.  Compile the program and make sure there are no errors.  
   
-     This step registers the editor factory in the experimental registry hive for [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. If you are prompted to override the resource.h file, click **OK**.  
+     This step registers the editor factory in the experimental registry hive for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. If you are prompted to override the resource.h file, click **OK**.  
   
 9. Create a sample file named TextFile1.myext.  
   
-10. Press **F5** to open an instance of the experimental [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+10. Press **F5** to open an instance of the experimental [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
-11. In the experimental [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], on the **File** menu, point to **Open** and then click **File**.  
+11. In the experimental [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], on the **File** menu, point to **Open** and then click **File**.  
   
 12. Find TextFile1.myext and then click **Open**.  
   
      The file should now be loaded.  
   
 ## Robust Programming  
- The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] core editor handles a wide range of text-based file types and works closely with language services to provide a rich set of features such as syntax highlighting, brace matching, and IntelliSense word-completion and member-completion lists. If you are working with text-based files, then you can use the core editor together with a custom language service that supports your specific file types.  
+ The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] core editor handles a wide range of text-based file types and works closely with language services to provide a rich set of features such as syntax highlighting, brace matching, and IntelliSense word-completion and member-completion lists. If you are working with text-based files, then you can use the core editor together with a custom language service that supports your specific file types.  
   
- A VSPackage can invoke the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] core editor by supplying an editor factory. This editor factory is used any time a file that is associated with it is loaded. If the file is part of a project, then the core editor is automatically invoked unless overridden by your VSPackage. However, if the file is loaded outside of a project, then the core editor must be explicitly invoked by your VSPackage.  
+ A VSPackage can invoke the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] core editor by supplying an editor factory. This editor factory is used any time a file that is associated with it is loaded. If the file is part of a project, then the core editor is automatically invoked unless overridden by your VSPackage. However, if the file is loaded outside of a project, then the core editor must be explicitly invoked by your VSPackage.  
   
  For more information about the core editor, see [Inside the Core Editor](../extensibility/inside-the-core-editor.md).  
   

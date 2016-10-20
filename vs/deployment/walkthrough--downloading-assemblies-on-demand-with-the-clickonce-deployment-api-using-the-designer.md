@@ -1,13 +1,13 @@
 ---
-title: "Walkthrough: Downloading Assemblies on Demand with the ClickOnce Deployment API Using the Designer"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Walkthrough: Downloading Assemblies on Demand with the ClickOnce Deployment API Using the Designer | Microsoft Docs"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-deployment"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "VB"
@@ -51,7 +51,7 @@ By default, all the assemblies included in a [!INCLUDE[ndptecclick](../deploymen
   
 #### To create a project that uses an on-demand assembly with Visual Studio  
   
-1.  Create a new Windows Forms project in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. On the **File** menu, point to **Add**, and then click **New Project**. Choose a **Class Library** project in the dialog box and name it `ClickOnceLibrary`.  
+1.  Create a new Windows Forms project in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. On the **File** menu, point to **Add**, and then click **New Project**. Choose a **Class Library** project in the dialog box and name it `ClickOnceLibrary`.  
   
     > [!NOTE]
     >  In Visual Basic, we recommend that you modify the project properties to change the root namespace for this project to `Microsoft.Samples.ClickOnceOnDemand` or to a namespace of your choice. For simplicity, the two projects in this walkthrough are in the same namespace.  

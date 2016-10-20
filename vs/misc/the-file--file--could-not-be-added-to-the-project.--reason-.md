@@ -1,7 +1,7 @@
 ---
-title: "The file &#39;file&#39; could not be added to the project. &lt;reason&gt;"
+title: "The file &#39;file&#39; could not be added to the project. &lt;reason&gt; | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -40,7 +40,7 @@ A file that has been read from the .vbproj or .csproj file cannot be added to th
   
 -   Item already exists. This occurs when a file is listed twice in the project file.  
   
--   Link already exists. The [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] and [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] project system has a limitation in that there can only be one link with the same name per project. This means, for example, that you cannot have a link to file.vb in both folder A and folder B of the project.  
+-   Link already exists. The [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] and [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] project system has a limitation in that there can only be one link with the same name per project. This means, for example, that you cannot have a link to file.vb in both folder A and folder B of the project.  
   
  This error is most likely caused by editing the project file by hand.  
   

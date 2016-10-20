@@ -1,7 +1,7 @@
 ---
-title: "Class &#39;&lt;classname&gt;&#39; could not be created: &lt;error&gt;"
+title: "Class &#39;&lt;classname&gt;&#39; could not be created: &lt;error&gt; | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Class &#39;&lt;classname&gt;&#39; could not be created: &lt;error&gt;
-A class initialization has failed. One possible cause is a corrupted [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] installation.  
+A class initialization has failed. One possible cause is a corrupted [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] installation.  
   
  **Error ID:** BC32400  
   
@@ -43,9 +43,9 @@ A class initialization has failed. One possible cause is a corrupted [!INCLUDE[d
   
 1.  Examine the quoted error message and take appropriate action.  
   
-2.  Reinstall the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] and recompile the program.  
+2.  Reinstall the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] and recompile the program.  
   
-3.  If the error recurs, reinstall the [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] compiler.  
+3.  If the error recurs, reinstall the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler.  
   
 4.  If the error persists after reinstallation, gather information about the circumstances and notify Microsoft Product Support Services.  
   

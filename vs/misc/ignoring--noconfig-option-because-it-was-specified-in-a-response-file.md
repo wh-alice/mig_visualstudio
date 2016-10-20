@@ -1,7 +1,7 @@
 ---
-title: "Ignoring -noconfig option because it was specified in a response file"
+title: "Ignoring -noconfig option because it was specified in a response file | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

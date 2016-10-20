@@ -1,5 +1,5 @@
 ---
-title: "How to: Preview Action Steps"
+title: "How to: Preview Action Steps | Microsoft Docs"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -37,7 +37,7 @@ Before you play back an action recording, you can preview the action steps withi
 -   Visual Studio Enterprise, [!INCLUDE[vstsTestEssLong](../test/includes/vststestesslong_md.md)]  
   
 ## Preview Action Steps When Loading a Test with an Action Recording  
- To preview action steps in an action recording, you must first load a test that contains an action recording into [!INCLUDE[mtrshort](../test_notintoc/includes/mtrshort_md.md)] from [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] or create one in the current test. For more information, see [- How to: Create an Action Recording](../test_notintoc/--how-to--create-an-action-recording.md) and [- How to: Play Back an Action Recording](../test_notintoc/--how-to--play-back-an-action-recording.md). This procedure shows how to load a test that has an existing action recording and then how to preview the action steps within the recording.  
+ To preview action steps in an action recording, you must first load a test that contains an action recording into [!INCLUDE[mtrshort](../test_notintoc/includes/mtrshort_md.md)] from [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] or create one in the current test. For more information, see [- How to: Create an Action Recording](../test_notintoc/--how-to--create-an-action-recording.md) and [- How to: Play Back an Action Recording](../test_notintoc/--how-to--play-back-an-action-recording.md). This procedure shows how to load a test that has an existing action recording and then how to preview the action steps within the recording.  
   
  **Load a test with an action recording**  
   
@@ -45,7 +45,7 @@ Before you play back an action recording, you can preview the action steps withi
   
 #### To load a test with an action recording into Test Runner  
   
-1.  Open [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)]. (Go to Start, All Programs, Microsoft Visual Studio, Microsoft Test Manager.)  
+1.  Open [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)]. (Go to Start, All Programs, Microsoft Visual Studio, Microsoft Test Manager.)  
   
 2.  Choose the down-arrow on the center group switcher and then choose **Testing Center**.  
   
@@ -70,7 +70,7 @@ Before you play back an action recording, you can preview the action steps withi
   
 #### To preview the action steps in a test with an action recording  
   
-1.  When you load a test from [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] into [!INCLUDE[mtrshort](../test_notintoc/includes/mtrshort_md.md)], you are prompted to **Start Test** with the option **Create action recording**. The **Create action recording** check box should be clear. Choose **Start Test**.  
+1.  When you load a test from [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] into [!INCLUDE[mtrshort](../test_notintoc/includes/mtrshort_md.md)], you are prompted to **Start Test** with the option **Create action recording**. The **Create action recording** check box should be clear. Choose **Start Test**.  
   
 2.  In the toolbar, choose the down-arrow next to **Play** and select **Preview**.  
   
@@ -79,7 +79,7 @@ Before you play back an action recording, you can preview the action steps withi
 3.  Scroll through the steps and expand the detailed actions to view detailed information about the steps in the action recording.  
   
 ## Preview Action Steps in a Previously Loaded Test  
- To preview action steps in an action recording, you must first load a test that contains an action recording into [!INCLUDE[mtrshort](../test_notintoc/includes/mtrshort_md.md)] from [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] or create one in the current test. For more information, see [- How to: Create an Action Recording](../test_notintoc/--how-to--create-an-action-recording.md) and [- How to: Play Back an Action Recording](../test_notintoc/--how-to--play-back-an-action-recording.md). This procedure assumes that you already have a test loaded which has an existing action recording, or a test that you have just added an action recording to.  
+ To preview action steps in an action recording, you must first load a test that contains an action recording into [!INCLUDE[mtrshort](../test_notintoc/includes/mtrshort_md.md)] from [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] or create one in the current test. For more information, see [- How to: Create an Action Recording](../test_notintoc/--how-to--create-an-action-recording.md) and [- How to: Play Back an Action Recording](../test_notintoc/--how-to--play-back-an-action-recording.md). This procedure assumes that you already have a test loaded which has an existing action recording, or a test that you have just added an action recording to.  
   
  **Preview action recording in a loaded test**  
   

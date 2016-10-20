@@ -1,7 +1,7 @@
 ---
-title: "Using TCM from the command line"
+title: "Using TCM from the command line | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -42,7 +42,7 @@ You can run test cases with associated automation from the command line using tc
   
 |Tasks|Associated Topics|  
 |-----------|-----------------------|  
-|Running test cases with associated automation from the command line using tcm.exe.|-   [Run automated tests from the command line using tcm](../test/run-automated-tests-from-the-command-line-using-tcm.md)<br />-   [Using tcm to import and run automated tests for a test plan from the command line](../test/b45def12-0e67-4270-89ea-67c41bc188a7.md)<br />-   [How to: Analyze Manual Test Runs Using Microsoft Test Manager](http://msdn.microsoft.com/en-us/8fd8b3d5-d71e-4a37-91a4-354ab00e32ed)<br />-   [Using tcm to export and import field mappings](../test/using-tcm-to-export-and-import-field-mappings.md)|  
+|Running test cases with associated automation from the command line using tcm.exe.|-   [Run automated tests from the command line using tcm](../test/run-automated-tests-from-the-command-line-using-tcm.md)<br />-   [Using tcm to import and run automated tests for a test plan from the command line](../test/using-tcm-to-import-and-run-automated-tests-for-a-test-plan-from-the-command-line.md)<br />-   [How to: Analyze Manual Test Runs Using Microsoft Test Manager](http://msdn.microsoft.com/en-us/8fd8b3d5-d71e-4a37-91a4-354ab00e32ed)<br />-   [Using tcm to export and import field mappings](../test/using-tcm-to-export-and-import-field-mappings.md)|  
   
 ## See Also  
  [Running automated tests from the command line](../test/running-automated-tests-from-the-command-line.md)   

@@ -1,7 +1,7 @@
 ---
-title: "VSPerfReport"
+title: "VSPerfReport | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,7 +36,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # VSPerfReport
-VSPerfReport command line tool is used to create reports using  [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Profiling Tools profiling data files. The default report format is a .csv file.  
+VSPerfReport command line tool is used to create reports using  [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools profiling data files. The default report format is a .csv file.  
   
  VSPerfReport uses the following syntax:  
   

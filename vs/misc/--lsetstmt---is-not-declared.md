@@ -1,7 +1,7 @@
 ---
-title: "&#39;&lt;lsetstmt&gt;&#39; is not declared"
+title: "&#39;&lt;lsetstmt&gt;&#39; is not declared | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -37,7 +37,7 @@ translation.priority.mt:
 # &#39;&lt;lsetstmt&gt;&#39; is not declared
 '\<lsetstmt>' is not declared. LSet statements are no longer supported; use Microsoft.VisualBasic.LSet instead.  
   
- Several functions that were intrinsic to [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] in previous versions have been moved to the <xref:Microsoft.VisualBasic?displayProperty=fullName> namespace. This makes their functionality more generally available to all programming languages.  
+ Several functions that were intrinsic to [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] in previous versions have been moved to the <xref:Microsoft.VisualBasic?displayProperty=fullName> namespace. This makes their functionality more generally available to all programming languages.  
   
  **Error ID:** BC30820  
   

@@ -1,7 +1,7 @@
 ---
-title: "Source Control Plug-ins"
+title: "Source Control Plug-ins | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,7 +31,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Source Control Plug-ins
-The Source Control Plug-in SDK reference section contains the complete interface specification that enables source control systems to be integrated with [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. It specifies the syntax and semantics of the various functions and data types that the source control plug-in must implement to interface with the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE).  
+The Source Control Plug-in SDK reference section contains the complete interface specification that enables source control systems to be integrated with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. It specifies the syntax and semantics of the various functions and data types that the source control plug-in must implement to interface with the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE).  
   
 ## In This Section  
  [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)  
@@ -78,7 +78,7 @@ The Source Control Plug-in SDK reference section contains the complete interface
  Describes testing procedures related to a source control plug-in.  
   
  [Creating a Source Control Plug-in](../extensibility/creating-a-source-control-plug-in.md)  
- Discusses how to create a source control plug-in that supplies source control functionality while you are using the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] source control user interface (UI).  
+ Discusses how to create a source control plug-in that supplies source control functionality while you are using the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] source control user interface (UI).  
   
  [Visual Studio SDK Reference](../extensibility/visual-studio-sdk-reference.md)  
  Presents a list of reference topics.

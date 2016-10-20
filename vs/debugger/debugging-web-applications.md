@@ -1,7 +1,7 @@
 ---
-title: "Debugging Web Applications"
+title: "Debugging Web Applications | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -43,26 +43,26 @@ This section explains how to debug several types of Web applications.
   
 ## In This Section  
  [How to: Debug Web Applications](../debugger/how-to--debug-web-applications.md)  
- Describes how to debug an [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] project still under development.  
+ Describes how to debug an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] project still under development.  
   
  [Debugging Deployed Web Applications](../debugger/debugging-deployed-web-applications.md)  
- Explains how to debug an already-deployed [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] Web application.  
+ Explains how to debug an already-deployed [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application.  
   
  [Client-Side Script Debugging](../debugger/client-side-script-debugging.md)  
- Discusses testing scripts and client-side scripts in [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] pages.  
+ Discusses testing scripts and client-side scripts in [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] pages.  
   
  [Walkthrough: Debugging a Web Form](../debugger/walkthrough--debugging-a-web-form.md)  
- Illustrates how to debug an [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] Web application.  
+ Illustrates how to debug an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application.  
   
  [How to: Debug ASP.NET Exceptions](../debugger/how-to--debug-asp.net-exceptions.md)  
- Explains how to deal with exceptions that occur while you debug [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] applications.  
+ Explains how to deal with exceptions that occur while you debug [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] applications.  
   
 ## Related Sections  
  [Preparing to Debug ASP.NET](../debugger/preparing-to-debug-asp.net.md)  
- Describes the steps that are required to enable debugging of [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] applications.  
+ Describes the steps that are required to enable debugging of [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] applications.  
   
  [Debugging Deployed Web Applications](../debugger/debugging-deployed-web-applications.md)  
- Explains how to debug an already-deployed [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] Web application.  
+ Explains how to debug an already-deployed [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application.  
   
 ## See Also  
  [Debugging Web Applications and Script](../debugger/debugging-web-applications-and-script.md)   

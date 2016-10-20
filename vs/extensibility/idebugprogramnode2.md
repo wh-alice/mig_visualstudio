@@ -1,7 +1,7 @@
 ---
-title: "IDebugProgramNode2"
+title: "IDebugProgramNode2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -42,7 +42,7 @@ IDebugProgramNode2 : IUnknown
 ```  
   
 ## Notes for Implementers  
- A debug engine (DE) or a custom port supplier implements this interface to represent a program that can be debugged. This interface is typically implemented on the same object that implements the [IDebugProgram2](../extensibility/idebugprogram2.md) interface. This interface is registered with [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] by calling [PublishProgramNode](../extensibility/idebugprogrampublisher2--publishprogramnode.md).  
+ A debug engine (DE) or a custom port supplier implements this interface to represent a program that can be debugged. This interface is typically implemented on the same object that implements the [IDebugProgram2](../extensibility/idebugprogram2.md) interface. This interface is registered with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] by calling [PublishProgramNode](../extensibility/idebugprogrampublisher2--publishprogramnode.md).  
   
 ## Notes for Callers  
  Call [GetProviderProgramNode](../extensibility/idebugprogramprovider2--getproviderprogramnode.md) to return this interface. A custom port supplier receives this interface through a call to [AddProgramNode](../extensibility/idebugportnotify2--addprogramnode.md). A DE receives this interface through a call to [Attach](../extensibility/idebugengine2--attach.md).  

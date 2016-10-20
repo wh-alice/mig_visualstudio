@@ -1,7 +1,7 @@
 ---
-title: "View data values in Data Tips  in the code editor"
+title: "View data values in Data Tips  in the code editor | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -43,7 +43,7 @@ translation.priority.ht:
 # View data values in Data Tips  in the code editor
 DataTips provide a convenient way to view information about variables in your program during debugging. DataTips work only in break mode and only with variables that are in the current scope of execution.  
   
- In [!INCLUDE[vs_dev10_long](../codequality/includes/vs_dev10_long_md.md)], DataTips can be pinned to a specific location in a source file, or they can float on top of all [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] windows.  
+ In [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)], DataTips can be pinned to a specific location in a source file, or they can float on top of all [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] windows.  
   
 ### To display a DataTip (in break mode only)  
   

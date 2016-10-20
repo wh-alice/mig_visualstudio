@@ -1,11 +1,11 @@
 ---
-title: "Assigning Roles to a Test Controller and Test Agent for Automated Testing in Visual Studio"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Assigning Roles to a Test Controller and Test Agent for Automated Testing in Visual Studio | Microsoft Docs"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "testing, walkthroughs, test controller and test agents"
@@ -35,7 +35,7 @@ translation.priority.ht:
 # Assigning Roles to a Test Controller and Test Agent for Automated Testing in Visual Studio
 This topic applies to:  
   
-|[!INCLUDE[vstsTestEssLong](../test/includes/vststestesslong_md.md)]|Visual Studio Enterprise|[!INCLUDE[vs_pro_current_short](../profiling/includes/vs_pro_current_short_md.md)]|[!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Express|  
+|[!INCLUDE[vstsTestEssLong](../test/includes/vststestesslong_md.md)]|Visual Studio Enterprise|[!INCLUDE[vs_pro_current_short](../profiling/includes/vs_pro_current_short_md.md)]|[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Express|  
 |---------------------------------------------------------------------|------------------------------|--------------------------------------------------------------------------|--------------------------------------------------------------------|  
 |![Topic applies](../test/media/doesapply.gif "DoesApply")|![Topic applies](../test/media/doesapply.gif "DoesApply")|![Topic applies](../test/media/doesapply.gif "DoesApply")|![Topic does not apply](../test/media/doesnotapply.gif "DoesNotApply")|  
   
@@ -128,7 +128,7 @@ This topic applies to:
   
      When the test controller processes unit tests and coded UI tests, the test controller divides the tests into groups of 100 and sends them to a test agent machine. For example, if you have 250 unit tests and three test agents, the first 100 unit tests will be sent to agent1, the next 100 unit tests will be sent to agent2 and the remaining 50 unit tests will be sent to agent3.  
   
-     For more information about how to create test settings to use in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], see [Specifying Test Settings for Visual Studio Tests](../test/specifying-test-settings-for-visual-studio-tests.md).  
+     For more information about how to create test settings to use in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], see [Specifying Test Settings for Visual Studio Tests](../test/specifying-test-settings-for-visual-studio-tests.md).  
   
 ## See Also  
  [Install and configure test agents](../test/install-and-configure-test-agents.md)   

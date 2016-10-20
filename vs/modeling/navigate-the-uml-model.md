@@ -1,7 +1,7 @@
 ---
-title: "Navigate the UML model"
+title: "Navigate the UML model | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -78,13 +78,13 @@ This topic introduces the main types of the UML model.
  For more information about shapes, see [Display a UML model on diagrams](../modeling/display-a-uml-model-on-diagrams.md).  
   
 ## Access to the Model in Extensions  
- In [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] extensions defined as MEF Components, you can declare properties that import information from the context in which the extension runs.  
+ In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] extensions defined as MEF Components, you can declare properties that import information from the context in which the extension runs.  
   
 |Attribute type|What this provides access to|More information|  
 |--------------------|----------------------------------|----------------------|  
 |Microsoft.VisualStudio.ArchitectureTools.Extensibility.Presentation<br /><br /> .IDiagramContext<br /><br /> (in Microsoft.VisualStudio.ArchitectureTools.Extensibility.dll)|The current focus diagram.|[Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md)|  
 |Microsoft.VisualStudio.Modeling.ExtensionEnablement<br /><br /> .ILinkedUndoContext<br /><br /> (in Microsoft.VisualStudio.Modeling.Sdk.[version].dll)|Allows you to group changes into transactions.|[Link UML model updates by using transactions](../modeling/link-uml-model-updates-by-using-transactions.md)|  
-|Microsoft.VisualStudio.Shell .SVsServiceProvider<br /><br /> (in Microsoft.VisualStudio.Shell.Immutable.[version].dll)|The host [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. From there you can access files, projects and other aspects.|[Open a UML model by using the Visual Studio API](../modeling/open-a-uml-model-by-using-the-visual-studio-api.md)|  
+|Microsoft.VisualStudio.Shell .SVsServiceProvider<br /><br /> (in Microsoft.VisualStudio.Shell.Immutable.[version].dll)|The host [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. From there you can access files, projects and other aspects.|[Open a UML model by using the Visual Studio API](../modeling/open-a-uml-model-by-using-the-visual-studio-api.md)|  
   
 ### To get the Context  
  Declare one or both of the following interfaces inside your extension class:  
@@ -130,11 +130,11 @@ foreach (IShape<IInterface> in
 ## Accessing another model or diagrams  
  You can:  
   
--   Use [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] model bus to create links between elements in different models. For more information, see [Integrate UML models with other models and tools](../modeling/integrate-uml-models-with-other-models-and-tools.md).  
+-   Use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] model bus to create links between elements in different models. For more information, see [Integrate UML models with other models and tools](../modeling/integrate-uml-models-with-other-models-and-tools.md).  
   
--   Load a modeling project and diagrams in read-only mode without making it visible in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] user interface. For more information, see [Read a UML model in program code](../modeling/read-a-uml-model-in-program-code.md).  
+-   Load a modeling project and diagrams in read-only mode without making it visible in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] user interface. For more information, see [Read a UML model in program code](../modeling/read-a-uml-model-in-program-code.md).  
   
--   Open a modeling project and its diagrams in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], and then access the contents. For more information, see [Open a UML model by using the Visual Studio API](../modeling/open-a-uml-model-by-using-the-visual-studio-api.md).  
+-   Open a modeling project and its diagrams in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], and then access the contents. For more information, see [Open a UML model by using the Visual Studio API](../modeling/open-a-uml-model-by-using-the-visual-studio-api.md).  
   
 ## See Also  
  [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md)   

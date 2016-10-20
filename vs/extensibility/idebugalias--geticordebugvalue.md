@@ -1,7 +1,7 @@
 ---
-title: "IDebugAlias::GetICorDebugValue"
+title: "IDebugAlias::GetICorDebugValue | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -57,7 +57,7 @@ int GetICorDebugValue(
  If successful, returns S_OK; otherwise, returns an error code.  
   
 ## Remarks  
- This method applies only to managed values (the `ICorDebugValue` is an interface available in the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] and is defined in the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] SDK in the cordebug.idl file).  
+ This method applies only to managed values (the `ICorDebugValue` is an interface available in the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] and is defined in the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] SDK in the cordebug.idl file).  
   
 ## See Also  
  [IDebugAlias](../extensibility/idebugalias.md)

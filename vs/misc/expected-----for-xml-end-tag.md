@@ -1,7 +1,7 @@
 ---
-title: "Expected &#39;-&#39; for XML end tag"
+title: "Expected &#39;-&#39; for XML end tag | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

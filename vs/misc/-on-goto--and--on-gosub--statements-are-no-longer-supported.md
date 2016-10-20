@@ -1,7 +1,7 @@
 ---
-title: "&#39;On GoTo&#39; and &#39;On GoSub&#39; statements are no longer supported"
+title: "&#39;On GoTo&#39; and &#39;On GoSub&#39; statements are no longer supported | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

@@ -1,7 +1,7 @@
 ---
-title: "How to: Submit a Bug Using Microsoft Visual Studio"
+title: "How to: Submit a Bug Using Microsoft Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -42,7 +42,7 @@ You can submit a bug using Visual Studio at any time during the software develop
   
 1.  To create a bug, you must first connect to your Team Foundation Server. On the **TEAM** menu, choose **Connect to Team Foundation Server**. Select the server from the list of servers.  
   
-     For more information about how to connect to [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)], see [How to: Connect to a Team Project in Team Foundation Server](http://msdn.microsoft.com/en-us/25b3fe4f-ee89-4b58-ba19-4c94a47636a6).  
+     For more information about how to connect to [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)], see [How to: Connect to a Team Project in Team Foundation Server](http://msdn.microsoft.com/en-us/25b3fe4f-ee89-4b58-ba19-4c94a47636a6).  
   
 2.  To connect to a specific team project, select the team project and then choose **Connect**.  
   

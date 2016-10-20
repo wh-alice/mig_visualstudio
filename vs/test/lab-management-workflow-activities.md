@@ -1,7 +1,7 @@
 ---
-title: "Lab management workflow activities"
+title: "Lab management workflow activities | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -27,7 +27,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Lab management workflow activities
-When you customize a Lab Management workflow template (LabDefaultTemplate.11.xaml), you can use one or more of the pre-defined Lab Management activities. You can also access objects that are created by the Lab Management wizard. This topic describes the [!INCLUDE[esprfound](../codequality/includes/esprfound_md.md)] Lab Management activities and objects that are available when you customize a workflow template to build, deploy, and test your application. For information about how to use these activities in a customized workflow, see [Customizing lab management workflow](../test/customizing-lab-management-workflow.md).  
+When you customize a Lab Management workflow template (LabDefaultTemplate.11.xaml), you can use one or more of the pre-defined Lab Management activities. You can also access objects that are created by the Lab Management wizard. This topic describes the [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)] Lab Management activities and objects that are available when you customize a workflow template to build, deploy, and test your application. For information about how to use these activities in a customized workflow, see [Customizing lab management workflow](../test/customizing-lab-management-workflow.md).  
   
  **Requirements**  
   
@@ -106,7 +106,7 @@ When you customize a Lab Management workflow template (LabDefaultTemplate.11.xam
  [Back to top](../test/lab-management-workflow-activities.md#BKMK_Top)  
   
 ###  <a name="BKMK_ExecuteRemoteTestRun"></a> ExecuteRemoteTestRun  
- Creates a test run on an environment and waits for it to finish. This is a long-running activity that waits until the test run finishes or time-out occurs. You can set the time-out using the **MaxWaitTime** property. This activity checks the test run status periodically to determine which test runs are finished. This interval is configurable using the **RefreshInterval** property. The **MaxConsecutiveFailuresToIgnoreDuringWaitForCompletion** property can be used to specify the number of consecutive times to ignore [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] errors while checking for the test run status.  
+ Creates a test run on an environment and waits for it to finish. This is a long-running activity that waits until the test run finishes or time-out occurs. You can set the time-out using the **MaxWaitTime** property. This activity checks the test run status periodically to determine which test runs are finished. This interval is configurable using the **RefreshInterval** property. The **MaxConsecutiveFailuresToIgnoreDuringWaitForCompletion** property can be used to specify the number of consecutive times to ignore [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] errors while checking for the test run status.  
   
  **Return value**  
   

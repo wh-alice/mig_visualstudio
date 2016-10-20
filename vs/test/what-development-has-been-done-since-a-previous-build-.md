@@ -1,7 +1,7 @@
 ---
-title: "What development has been done since a previous build?"
+title: "What development has been done since a previous build? | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -29,7 +29,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # What development has been done since a previous build?
-After you select the build for your test plan that you are currently using, you can select a different build to see which work items have been associated with any builds between the test plan build and this selected build. [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] shows the work items that have been associated with changesets checked in between any two builds, as shown in the following illustration. You can sort these work items by associated build or by the state of the work item.  
+After you select the build for your test plan that you are currently using, you can select a different build to see which work items have been associated with any builds between the test plan build and this selected build. [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] shows the work items that have been associated with changesets checked in between any two builds, as shown in the following illustration. You can sort these work items by associated build or by the state of the work item.  
   
  ![Select a Build To Use For Your Test Plan](../test/media/select_buildplan.png "Select_BuildPlan")  
   
@@ -42,7 +42,7 @@ After you select the build for your test plan that you are currently using, you 
   
 ### To determine changes between builds and use a new build for testing  
   
-1.  Open [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)]. (Go to Start, All Programs, Microsoft Visual Studio, Microsoft Test Manager.)  
+1.  Open [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)]. (Go to Start, All Programs, Microsoft Visual Studio, Microsoft Test Manager.)  
   
 2.  To check changes between builds, choose the down-arrow on the center group selector and then choose **Testing Center**.  
   

@@ -1,7 +1,7 @@
 ---
-title: "Editor Factories"
+title: "Editor Factories | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -56,7 +56,7 @@ An editor factory creates editor objects and puts them in a window frame, known 
 ## The Editor Factory Registration Process  
  The following process occurs when Visual Studio loads your editor using your editor factory:  
   
-1.  The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] project system calls <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenStandardEditor*>.  
+1.  The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project system calls <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenStandardEditor*>.  
   
 2.  This method returns the editor factory. Visual Studio delays loading the editor's package, however, until a project system actually needs the editor.  
   

@@ -1,5 +1,5 @@
 ---
-title: "Develop tests from a model"
+title: "Develop tests from a model | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -29,7 +29,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Develop tests from a model
-You can use requirements and architectural models to help you organize the tests of your system and its components. This practice helps ensure that you test the requirements that are important to the users and other stakeholders, and it helps you update the tests quickly when the requirements change. If you use [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], you can also maintain links between the models and the tests.  
+You can use requirements and architectural models to help you organize the tests of your system and its components. This practice helps ensure that you test the requirements that are important to the users and other stakeholders, and it helps you update the tests quickly when the requirements change. If you use [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], you can also maintain links between the models and the tests.  
   
  To see which versions of Visual Studio support these features, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
   
@@ -50,7 +50,7 @@ You can use requirements and architectural models to help you organize the tests
  You can create and maintain a relationship between system tests and a requirements model. To establish this relationship, you write tests that correspond to the main elements of the requirements model. Visual Studio helps you maintain that relationship by letting you create links between the tests and parts of the model. For more information about requirements models, see [Model user requirements](../modeling/model-user-requirements.md).  
   
 ### Write Tests for Each Use Case  
- If you use [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], you can create a group of tests for each use case that you defined in your requirements model. For example, if you have a use case Order a Meal, which includes Create Order and Add Item to Order, you can create tests for both the overall and the more detailed of these use cases. For more information about use cases, see [UML Use Case Diagrams: Guidelines](../modeling/uml-use-case-diagrams--guidelines.md).  
+ If you use [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], you can create a group of tests for each use case that you defined in your requirements model. For example, if you have a use case Order a Meal, which includes Create Order and Add Item to Order, you can create tests for both the overall and the more detailed of these use cases. For more information about use cases, see [UML Use Case Diagrams: Guidelines](../modeling/uml-use-case-diagrams--guidelines.md).  
   
  These guidelines might be helpful:  
   
@@ -73,7 +73,7 @@ You can use requirements and architectural models to help you organize the tests
   
 1.  In [!INCLUDE[TCMlong](../modeling/includes/tcmlong_md.md)], create a requirement and base a test suite on it. To learn how to do that, see [Testing the application](../test/test-apps-early-and-often.md).  
   
-     The requirement that you create is a work item in [!INCLUDE[vstsTfsShort](../modeling/includes/vststfsshort_md.md)]. It might be a User Story, Requirement, or Use Case work item, depending on the process template that your project uses with [!INCLUDE[esprfound](../codequality/includes/esprfound_md.md)]. For more information, see [Track work using Visual Studio Team Services or Team Foundation Server](../Topic/Track%20work%20using%20VSTS%20or%20TFS.md).  
+     The requirement that you create is a work item in [!INCLUDE[vstsTfsShort](../modeling/includes/vststfsshort_md.md)]. It might be a User Story, Requirement, or Use Case work item, depending on the process template that your project uses with [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)]. For more information, see [Track work using Visual Studio Team Services or Team Foundation Server](../Topic/Track%20work%20using%20VSTS%20or%20TFS.md).  
   
 2.  Link the requirement work item to one or more use cases in your model.  
   
@@ -174,7 +174,7 @@ Assert (countAfter == countBefore = 1);
   
 1.  In [!INCLUDE[TCMlong](../modeling/includes/tcmlong_md.md)], create a requirement and base a test suite on it. To learn how to do that, see [Testing the application](../test/test-apps-early-and-often.md).  
   
-     The requirement that you create is a work item in [!INCLUDE[vstsTfsShort](../modeling/includes/vststfsshort_md.md)]. It might be a User Story, Requirement, or Use Case work item, depending on the process template that your project uses with [!INCLUDE[esprfound](../codequality/includes/esprfound_md.md)]. For more information, see [Track work using Visual Studio Team Services or Team Foundation Server](../Topic/Track%20work%20using%20VSTS%20or%20TFS.md).  
+     The requirement that you create is a work item in [!INCLUDE[vstsTfsShort](../modeling/includes/vststfsshort_md.md)]. It might be a User Story, Requirement, or Use Case work item, depending on the process template that your project uses with [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)]. For more information, see [Track work using Visual Studio Team Services or Team Foundation Server](../Topic/Track%20work%20using%20VSTS%20or%20TFS.md).  
   
 2.  Link the requirement work item to one or more elements in your model.  
   

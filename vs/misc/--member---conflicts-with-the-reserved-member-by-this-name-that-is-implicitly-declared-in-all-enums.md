@@ -1,13 +1,13 @@
 ---
-title: "&#39;&lt;member&gt;&#39; conflicts with the reserved member by this name that is implicitly declared in all enums"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "&#39;&lt;member&gt;&#39; conflicts with the reserved member by this name that is implicitly declared in all enums | Microsoft Docs"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bc31420"
@@ -37,7 +37,7 @@ translation.priority.mt:
 # &#39;&lt;member&gt;&#39; conflicts with the reserved member by this name that is implicitly declared in all enums
 The name of a type member conflicts with the name of a member implicitly declared in all enumerations.  
   
- The [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] compiler creates implicit members corresponding to certain programming elements you declare. Enumerations implicitly declare the member `value__member`.  
+ The [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler creates implicit members corresponding to certain programming elements you declare. Enumerations implicitly declare the member `value__member`.  
   
  **Error ID:** BC31420  
   

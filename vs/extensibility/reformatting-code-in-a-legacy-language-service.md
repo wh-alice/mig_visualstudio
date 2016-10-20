@@ -1,7 +1,7 @@
 ---
-title: "Reformatting Code in a Legacy Language Service"
+title: "Reformatting Code in a Legacy Language Service | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,14 +32,14 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Reformatting Code in a Legacy Language Service
-In [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] source code can be reformatted by normalizing the use of indentations and whitespace. This can include inserting or removing spaces or tabs at the beginning of each line, adding new lines between lines, or replacing spaces with tabs or tabs with spaces.  
+In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] source code can be reformatted by normalizing the use of indentations and whitespace. This can include inserting or removing spaces or tabs at the beginning of each line, adding new lines between lines, or replacing spaces with tabs or tabs with spaces.  
   
 > [!NOTE]
 >  **Note** Inserting or deleting newline characters can affect markers such as breakpoints and bookmarks, but adding or removing spaces or tabs does not affect markers.  
   
  Users can start a reformatting operation by selecting **Format Selection** or **Format Document** from the **Advanced** menu on the **Edit** menu. A reformatting operation can also be triggered when a code snippet or a particular character is inserted. For example, when you type a closing brace in C#, everything between the matching open brace and the close brace is automatically indented to the proper level.  
   
- When [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] sends the **Format Selection** or **Format Document** command to the language service, the <xref:Microsoft.VisualStudio.Package.ViewFilter> class calls the <xref:Microsoft.VisualStudio.Package.Source.ReformatSpan*> method in the <xref:Microsoft.VisualStudio.Package.Source> class. To support formatting you must override the <xref:Microsoft.VisualStudio.Package.Source.ReformatSpan*> method and supply your own formatting code.  
+ When [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] sends the **Format Selection** or **Format Document** command to the language service, the <xref:Microsoft.VisualStudio.Package.ViewFilter> class calls the <xref:Microsoft.VisualStudio.Package.Source.ReformatSpan*> method in the <xref:Microsoft.VisualStudio.Package.Source> class. To support formatting you must override the <xref:Microsoft.VisualStudio.Package.Source.ReformatSpan*> method and supply your own formatting code.  
   
 ## Enabling Support for Reformatting  
  To support formatting, the `EnableFormatSelection` parameter of the <xref:Microsoft.VisualStudio.Shell.ProvideLanguageServiceAttribute> must be set to `true` when you register your VSPackage. This sets the <xref:Microsoft.VisualStudio.Package.LanguagePreferences.EnableFormatSelection*> property to `true`. The <xref:Microsoft.VisualStudio.Package.ViewFilter.CanReformat*> method returns the value of this property. If it returns true, the <xref:Microsoft.VisualStudio.Package.ViewFilter> class calls the <xref:Microsoft.VisualStudio.Package.Source.ReformatSpan*>.  

@@ -1,7 +1,7 @@
 ---
-title: "IDebugBreakpointChecksumRequest2"
+title: "IDebugBreakpointChecksumRequest2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -40,7 +40,7 @@ IDebugBreakpointChecksumRequest2 : IUnknown
 ```  
   
 ## Notes for Implementers  
- Implemented by the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Debug package and consumed by debug engines.  
+ Implemented by the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Debug package and consumed by debug engines.  
   
 ## Methods  
  The following table shows the methods of `IDebugBreakpointChecksumRequest2`.  

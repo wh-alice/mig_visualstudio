@@ -1,7 +1,7 @@
 ---
-title: "METADATA_ADDRESS_RETVAL"
+title: "METADATA_ADDRESS_RETVAL | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -60,7 +60,7 @@ public struct METADATA_ADDRESS_RETVAL {
  The ID of the method this return value is for.  
   
  dwCorType  
- The base type of return value. This is a value from the `CorElementType` enumeration defined in the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] SDK corhdr.h file.  
+ The base type of return value. This is a value from the `CorElementType` enumeration defined in the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] SDK corhdr.h file.  
   
  dwSigSize  
  The size of the return value signature (as stored in `rgSig`).  

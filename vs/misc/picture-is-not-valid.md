@@ -1,7 +1,7 @@
 ---
-title: "Picture is not valid"
+title: "Picture is not valid | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,7 +36,7 @@ You tried to assign a graphics format other than a bitmap, icon, or Windows meta
   
 ### To correct this error  
   
-1.  Ensure that the file you are trying to load into the `Picture` property is a valid graphics file supported by [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)].  
+1.  Ensure that the file you are trying to load into the `Picture` property is a valid graphics file supported by [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)].  
   
 ## See Also  
  [Graphics Changes in Visual Basic .NET](http://msdn.microsoft.com/en-us/24cd2d55-ebf1-42d6-b755-00e9001f1cb8)

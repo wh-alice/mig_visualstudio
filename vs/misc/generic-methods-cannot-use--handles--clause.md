@@ -1,7 +1,7 @@
 ---
-title: "Generic methods cannot use &#39;Handles&#39; clause"
+title: "Generic methods cannot use &#39;Handles&#39; clause | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -37,7 +37,7 @@ translation.priority.mt:
 # Generic methods cannot use &#39;Handles&#39; clause
 A generic `Sub` procedure includes a [Handles](../Topic/Handles%20Clause%20\(Visual%20Basic\).md) clause in its declaration.  
   
- A `Handles` clause specifies a list of events that the `Sub` procedure handles. To be an event handler, the `Sub` procedure must have the same signature as each event it is to handle. A generic procedure can be created more than once, with signatures that [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] cannot predict at compile time. Therefore, [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] cannot guarantee a signature that matches those of the events in the `Handles` clause.  
+ A `Handles` clause specifies a list of events that the `Sub` procedure handles. To be an event handler, the `Sub` procedure must have the same signature as each event it is to handle. A generic procedure can be created more than once, with signatures that [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] cannot predict at compile time. Therefore, [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] cannot guarantee a signature that matches those of the events in the `Handles` clause.  
   
  **Error ID:** BC32080  
   

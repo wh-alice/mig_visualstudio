@@ -1,7 +1,7 @@
 ---
-title: "&lt;InstallChecks&gt; Element (Bootstrapper)"
+title: "&lt;InstallChecks&gt; Element (Bootstrapper) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -157,7 +157,7 @@ The `InstallChecks` element supports starting a variety of tests against the loc
  While the elements underneath `InstallChecks` define the tests to run, they do not execute them. To execute the tests, you must create `Command` elements underneath the `Commands` element.  
   
 ## Example  
- The following code example demonstrates the `InstallChecks` element as it is used in the product file for the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)].  
+ The following code example demonstrates the `InstallChecks` element as it is used in the product file for the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)].  
   
 ```  
 <InstallChecks>  

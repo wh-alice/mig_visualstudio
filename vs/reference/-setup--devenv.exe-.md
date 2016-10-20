@@ -1,7 +1,7 @@
 ---
-title: "-Setup (devenv.exe)"
+title: "-Setup (devenv.exe) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,7 +34,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # /Setup (devenv.exe)
-Forces [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] to merge the resource metadata that describes menus, toolbars, and command groups, from all available VSPackages.  
+Forces [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to merge the resource metadata that describes menus, toolbars, and command groups, from all available VSPackages.  
   
 ## Syntax  
   
@@ -43,12 +43,12 @@ devenv /setup
 ```  
   
 ## Remarks  
- This switch takes no arguments. The `devenv /setup` command is typically given as the last step of the installation process. Use of the `/setup` switch does not start [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+ This switch takes no arguments. The `devenv /setup` command is typically given as the last step of the installation process. Use of the `/setup` switch does not start [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
  You must run `devenv` as an administrator in order to use the [/setup (devenv.exe)](../reference/-setup--devenv.exe-.md) and [/InstallVSTemplates (devenv.exe)](../reference/-installvstemplates--devenv.exe-.md) switches.  
   
 ## Example  
- This example shows the last step in the installation of a version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] that includes VSPackages.  
+ This example shows the last step in the installation of a version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] that includes VSPackages.  
   
 ```  
 devenv /setup  

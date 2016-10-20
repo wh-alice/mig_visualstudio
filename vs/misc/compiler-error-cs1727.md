@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1727"
+title: "Compiler Error CS1727 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -38,7 +38,7 @@ translation.priority.mt:
 # Compiler Error CS1727
 Cannot send error report automatically without authorization. Please visit '' to authorize sending error report.  
   
- The Web site listed in the error text explains how to enable automatic error reporting for [!INCLUDE[vsprvslong](../codequality/includes/vsprvslong_md.md)] command line tools.  
+ The Web site listed in the error text explains how to enable automatic error reporting for [!INCLUDE[vsprvslong](../code-quality/includes/vsprvslong_md.md)] command line tools.  
   
 ## Example  
  The following sample generates CS1727.  

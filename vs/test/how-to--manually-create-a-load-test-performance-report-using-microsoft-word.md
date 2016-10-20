@@ -1,7 +1,7 @@
 ---
-title: "How to: Manually Create a Load Test Performance Report Using Microsoft Word"
+title: "How to: Manually Create a Load Test Performance Report Using Microsoft Word | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,7 +36,7 @@ You can manually create [!INCLUDE[ofprword](../test/includes/ofprword_md.md)] lo
 >  You can also copy plain text from the tables view and screenshots from the details view to [!INCLUDE[ofprword](../test/includes/ofprword_md.md)], but it is not applied in HTML format and will require additional formatting and editing.  
   
 > [!TIP]
->  You can also generate organized [!INCLUDE[ofprexcel](../codequality/includes/ofprexcel_md.md)] reports automatically. [!INCLUDE[crdefault](../codequality/includes/crdefault_md.md)][How to: Create Load Test Performance Reports Using Microsoft Excel](../test/how-to--create-load-test-performance-reports-using-microsoft-excel.md).  
+>  You can also generate organized [!INCLUDE[ofprexcel](../code-quality/includes/ofprexcel_md.md)] reports automatically. [!INCLUDE[crdefault](../code-quality/includes/crdefault_md.md)][How to: Create Load Test Performance Reports Using Microsoft Excel](../test/how-to--create-load-test-performance-reports-using-microsoft-excel.md).  
   
  Before you copy and paste data from the Load Test Results by using the following procedures, you must first run your load test to collect the desired data:  
   
@@ -69,7 +69,7 @@ You can manually create [!INCLUDE[ofprword](../test/includes/ofprword_md.md)] lo
   
 1.  In the Load Test Results, if the graphs view is not currently displayed, choose **Graphs** in the toolbar.  
   
-2.  (Optional) Zoom in on the specific graph that you want to copy to your [!INCLUDE[ofprword](../test/includes/ofprword_md.md)] document, as shown in the following illustration. [!INCLUDE[crdefault](../codequality/includes/crdefault_md.md)][How to: Zoom in on a Region of the Graph](../test/how-to--zoom-in-on-a-region-of-the-graph-in-load-test-results.md).  
+2.  (Optional) Zoom in on the specific graph that you want to copy to your [!INCLUDE[ofprword](../test/includes/ofprword_md.md)] document, as shown in the following illustration. [!INCLUDE[crdefault](../code-quality/includes/crdefault_md.md)][How to: Zoom in on a Region of the Graph](../test/how-to--zoom-in-on-a-region-of-the-graph-in-load-test-results.md).  
   
      ![Graph view zoom control](../test/media/ltest_zoomcontrol.png "LTest_ZoomControl")  
 Graph using zoom control  

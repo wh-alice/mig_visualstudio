@@ -1,7 +1,7 @@
 ---
-title: "Read models and diagrams in other Visual Studio editions"
+title: "Read models and diagrams in other Visual Studio editions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,7 +36,7 @@ When you open a model in a version of Visual Studio that does not support model 
 ## Obtaining Access to a Model and Diagrams  
  To read a UML diagram or a layer diagram, you must first use Visual Studio to open the modeling project, and then open the diagram within it.  
   
- For this reason, if you want to read a UML diagram or layer diagram, you must also have access to the modeling project in which it was created. You can do this either by accessing the project from [!INCLUDE[esprscc](../codequality/includes/esprscc_md.md)], or by obtaining a copy of the project files.  
+ For this reason, if you want to read a UML diagram or layer diagram, you must also have access to the modeling project in which it was created. You can do this either by accessing the project from [!INCLUDE[esprscc](../code-quality/includes/esprscc_md.md)], or by obtaining a copy of the project files.  
   
 > [!NOTE]
 >  This does not apply to code maps and .NET class diagrams generated from code. Those diagrams can be viewed independently of a modeling project.  

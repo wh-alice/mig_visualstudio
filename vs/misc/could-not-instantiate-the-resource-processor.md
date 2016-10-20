@@ -1,7 +1,7 @@
 ---
-title: "Could not instantiate the resource processor"
+title: "Could not instantiate the resource processor | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,11 +31,11 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Could not instantiate the resource processor
-There is a bad installation of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+There is a bad installation of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
  **To correct this error**  
   
--   Reinstall [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+-   Reinstall [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 ## See Also  
  [File Types and File Extensions in Visual Basic and Visual C#](http://msdn.microsoft.com/en-us/f793852c-da06-4d52-a826-65f635844772)

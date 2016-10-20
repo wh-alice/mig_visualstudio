@@ -1,7 +1,7 @@
 ---
-title: "Unable to create Assembly Linker object: &lt;error message&gt;"
+title: "Unable to create Assembly Linker object: &lt;error message&gt; | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Unable to create Assembly Linker object: &lt;error message&gt;
-The [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] compiler calls the Assembly Linker (Al.exe, also known as Alink) to generate an assembly with a manifest. The linker reported an error creating its working object. This might be a problem generating a reference to a metadata file, or a failure to call an import file.  
+The [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler calls the Assembly Linker (Al.exe, also known as Alink) to generate an assembly with a manifest. The linker reported an error creating its working object. This might be a problem generating a reference to a metadata file, or a failure to call an import file.  
   
  **Error ID:** BC30141  
   

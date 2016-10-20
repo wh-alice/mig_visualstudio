@@ -1,7 +1,7 @@
 ---
-title: "Using Fonts and Colors"
+title: "Using Fonts and Colors | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -39,7 +39,7 @@ The [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] provides suppor
   
 ## In This Section  
  [Font and Color Overview](../extensibility/font-and-color-overview.md)  
- Discusses text font and color settings in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE). Also introduces the concepts of Categories and Display Items, and describes how VSPackages and the core editor use text attributes.  
+ Discusses text font and color settings in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE). Also introduces the concepts of Categories and Display Items, and describes how VSPackages and the core editor use text attributes.  
   
  [Getting Font and Color Information for Text Colorization](../extensibility/getting-font-and-color-information-for-text-colorization.md)  
  Provides guidelines for implementing text colorization in VSPackages that manage **Categories** other than **Text Editor**.  
@@ -72,17 +72,17 @@ The [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] provides suppor
  Notifies VSPackages that are using font and color information about changes in font and color settings.  
   
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorUtilities>  
- Provides tools for working with the input and output data that is used by the methods of the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] **Font and Color** mechanism.  
+ Provides tools for working with the input and output data that is used by the methods of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] **Font and Color** mechanism.  
   
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorCacheManager>  
  Controls the caching of font and color settings.  
   
 ## Related Sections  
  [Developing a Legacy Language Service](../extensibility/developing-a-legacy-language-service.md)  
- Discusses how VSPackages can use language services to customize the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] editor.  
+ Discusses how VSPackages can use language services to customize the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] editor.  
   
  [Syntax Coloring in Custom Editors](../extensibility/syntax-coloring-in-custom-editors.md)  
- Descries how the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] editor uses language services to implement syntax coloring.  
+ Descries how the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] editor uses language services to implement syntax coloring.  
   
  [Extending Other Parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)  
- Explains how to use [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] services to create UI elements that match the rest of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].
+ Explains how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] services to create UI elements that match the rest of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].

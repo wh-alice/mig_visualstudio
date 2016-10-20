@@ -1,7 +1,7 @@
 ---
-title: "Using the Automation Model"
+title: "Using the Automation Model | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -71,7 +71,7 @@ objMyObject = MyPrj.Object 'You call .Object to get to special Project
 objMyObject.MySpecialMethodOrProperty  
 ```  
   
- The following code lists the names of all of the properties in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] environment **General** option on the **Tools** menu:  
+ The following code lists the names of all of the properties in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] environment **General** option on the **Tools** menu:  
   
 ```vb#  
 dim objDTE  

@@ -1,7 +1,7 @@
 ---
-title: "How to: Support Toolbox Drag-and-Drop Functionality"
+title: "How to: Support Toolbox Drag-and-Drop Functionality | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -40,7 +40,7 @@ translation.priority.mt:
   
  VSPackages must implement drag-and-drop support if they are to use **Toolbox** controls on document views, such as editors or designers.  
   
- By default, all [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] objects derived from <xref:System.Windows.Forms.Control?displayProperty=fullName> automatically and transparently provide support for consuming **Toolbox** controls, and the procedures described below are unnecessary. The basic functionality can be extended by creating a designer.  
+ By default, all [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] objects derived from <xref:System.Windows.Forms.Control?displayProperty=fullName> automatically and transparently provide support for consuming **Toolbox** controls, and the procedures described below are unnecessary. The basic functionality can be extended by creating a designer.  
   
  For more information, see [Windows Forms Overview](../Topic/Windows%20Forms%20Overview.md) and [Extending Design-Time Support](../Topic/Extending%20Design-Time%20Support.md).  
   
@@ -50,11 +50,11 @@ translation.priority.mt:
   
      For more information on implementing drag-and-drop functionality, see [Drag and Drop (OLE)](../Topic/Drag%20and%20Drop%20\(OLE\).md).  
   
-     Drops can either be Clipboard items or controls being dropped on a designer. For information on standard Clipboard formats supported by the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] **Toolbox**, see [Extending the Toolbox](../misc/extending-the-toolbox.md).  
+     Drops can either be Clipboard items or controls being dropped on a designer. For information on standard Clipboard formats supported by the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] **Toolbox**, see [Extending the Toolbox](../misc/extending-the-toolbox.md).  
   
 2.  Provide a basic implementation of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxUser> interface on a document view.  
   
-     When a user attempts to drag a toolbox control to a view, the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] shell queries the view's VSPackage to see if it implements the <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxUser> interface.  
+     When a user attempts to drag a toolbox control to a view, the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] shell queries the view's VSPackage to see if it implements the <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxUser> interface.  
   
     1.  Implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxUser.IsSupported*> to return <xref:Microsoft.VisualStudio.VSConstants.S_OK> for those **Toolbox** formats the drop target supports. The example below checks to see if the data object is in custom Clipboard format (`CF_CUSTOM_FORMAT`) and whether the object is an ActiveX control.  
   
@@ -114,7 +114,7 @@ translation.priority.mt:
   
          Users can set an option to display all Toolbox pages at all times. In this case, the environment does not query the editor for <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxUser.IsSupported*>.  
   
-    2.  After an <xref:Microsoft.VisualStudio.OLE.Interop.IDropTarget> implementation (such as the one described above) successfully handles a dropped component, the view object must notify the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] environment of this by calling <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2.DataUsed*>  
+    2.  After an <xref:Microsoft.VisualStudio.OLE.Interop.IDropTarget> implementation (such as the one described above) successfully handles a dropped component, the view object must notify the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] environment of this by calling <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2.DataUsed*>  
   
      If desired, a VSPackage can extend its drag-and-drop support by extending its <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolboxUser> implementation.  
   

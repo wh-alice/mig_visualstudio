@@ -1,7 +1,7 @@
 ---
-title: "Designer Initialization and Metadata Configuration"
+title: "Designer Initialization and Metadata Configuration | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -37,7 +37,7 @@ Manipulation of the metadata and filter attributes associated with a designer or
  The [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] provides several mechanisms to facilitate the control of a designer's or designer component's initialization and the manipulation of its metadata by a VSPackage.  
   
 ## Initializing Metadata and Configuration Information  
- Because they are loaded on demand, VSPackages may not have been loaded by the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] environment prior to the instantiation of a designer. Therefore, VSPackages cannot use the standard mechanism for configuring a designer or designer component on creation, which is to handle a <xref:System.ComponentModel.Design.IDesignerEventService.DesignerCreated> event. Instead, a VSPackage implements an instance of the <xref:Microsoft.VisualStudio.Shell.Design.DesignSurfaceExtension> interface and  registers itself to provide customizations, referred to as design surface extensions.  
+ Because they are loaded on demand, VSPackages may not have been loaded by the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] environment prior to the instantiation of a designer. Therefore, VSPackages cannot use the standard mechanism for configuring a designer or designer component on creation, which is to handle a <xref:System.ComponentModel.Design.IDesignerEventService.DesignerCreated> event. Instead, a VSPackage implements an instance of the <xref:Microsoft.VisualStudio.Shell.Design.DesignSurfaceExtension> interface and  registers itself to provide customizations, referred to as design surface extensions.  
   
 ### Customizing Initialization  
  Customizing a designer, a component, or a designer surface, involves:  
@@ -46,7 +46,7 @@ Manipulation of the metadata and filter attributes associated with a designer or
   
      This is typically done through the <xref:System.Drawing.Design.UITypeEditor> or <xref:System.ComponentModel.TypeConverter> mechanisms.  
   
-     For example, when <xref:System.Windows.Forms>-based designers are initialized, the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] environment modifies the <xref:System.Drawing.Design.UITypeEditor> for <xref:System.Web.UI.WebControls.Image> objects used with the designer to use the resource manager to obtain bitmaps rather than the file system.  
+     For example, when <xref:System.Windows.Forms>-based designers are initialized, the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] environment modifies the <xref:System.Drawing.Design.UITypeEditor> for <xref:System.Web.UI.WebControls.Image> objects used with the designer to use the resource manager to obtain bitmaps rather than the file system.  
   
 2.  Integrating with the environment, for example, by subscribing to events or obtaining project configuration information. You can obtain project configuration information and subscribe to events by obtaining the <xref:System.ComponentModel.Design.ITypeResolutionService> interface.  
   
@@ -62,7 +62,7 @@ Manipulation of the metadata and filter attributes associated with a designer or
   
 2.  Register the class implementing <xref:Microsoft.VisualStudio.Shell.Design.DesignSurfaceExtension> as providing support for the VSPackage's designer extensions by applying instances of  <xref:Microsoft.VisualStudio.Shell.Design.DesignSurfaceExtensionAttribute>, <xref:Microsoft.VisualStudio.Shell.ProvideObjectAttribute> and <xref:Microsoft.VisualStudio.Shell.ProvideServiceAttribute> to the class providing the VSPackage's implementation of <xref:Microsoft.VisualStudio.Shell.Package>.  
   
- Whenever any designer or designer component is created, the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] environment:  
+ Whenever any designer or designer component is created, the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] environment:  
   
 1.  Accesses each registered design surface extension provider.  
   
@@ -72,7 +72,7 @@ Manipulation of the metadata and filter attributes associated with a designer or
   
  When implementing the <xref:Microsoft.VisualStudio.Shell.Design.DesignSurfaceExtension> object as a member of a VSPackage, it is important to understand that:  
   
-1.  The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] environment does not provide any control over what metadata or other configuration settings a particular `DesignSurfaceExtension` provider's modifies. It is possible for two or more `DesignSurfaceExtension` providers modifying the same designer feature in conflicting ways, with the final modification being definitive. It is indeterminate which modification is last applied.  
+1.  The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] environment does not provide any control over what metadata or other configuration settings a particular `DesignSurfaceExtension` provider's modifies. It is possible for two or more `DesignSurfaceExtension` providers modifying the same designer feature in conflicting ways, with the final modification being definitive. It is indeterminate which modification is last applied.  
   
 2.  It is possible to explicitly restrict an implementation of the <xref:Microsoft.VisualStudio.Shell.Design.DesignSurfaceExtension> object to specific designers, by applying instances of <xref:System.ComponentModel.ToolboxItemFilterAttribute> to that implementation. For more information on **Toolbox** item filtering, see the <xref:System.ComponentModel.ToolboxItemFilterAttribute> and <xref:System.ComponentModel.ToolboxItemFilterType>.  
   
@@ -91,7 +91,7 @@ Manipulation of the metadata and filter attributes associated with a designer or
   
  The `IsGlobal` property of the <xref:Microsoft.VisualStudio.Shell.Design.ProvideDesignerMetadataAttribute> instance applied to a VSPackage's implementation of <xref:Microsoft.VisualStudio.Shell.Package> determines this scope.  
   
- Applying the attribute to an implementation of <xref:Microsoft.VisualStudio.Shell.Package> with the <xref:Microsoft.VisualStudio.Shell.Design.ProvideDesignerMetadataAttribute.IsGlobal*> property of the <xref:Microsoft.VisualStudio.Shell.Design.ProvideDesignerMetadataAttribute> object set to `true`, as below, changes the browser for the entire [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] environment:  
+ Applying the attribute to an implementation of <xref:Microsoft.VisualStudio.Shell.Package> with the <xref:Microsoft.VisualStudio.Shell.Design.ProvideDesignerMetadataAttribute.IsGlobal*> property of the <xref:Microsoft.VisualStudio.Shell.Design.ProvideDesignerMetadataAttribute> object set to `true`, as below, changes the browser for the entire [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] environment:  
   
  `[ProvideDesignerMetadata(typeof(Color), typeof(CustomBrowser),`   `IsGlobal=true`  `)]`  
   

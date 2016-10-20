@@ -1,7 +1,7 @@
 ---
-title: "EncUnavailableReason"
+title: "EncUnavailableReason | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -85,7 +85,7 @@ public enum EncUnavailableReason {
  Edit and Continue is not available while processing 64-bit Windows code.  
   
 ## Remarks  
- This enumeration is for internal use only by [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. The [GetENCAvailableState](../extensibility/idebugprocess3--getencavailablestate.md) and [DisableENC](../extensibility/idebugprocess3--disableenc.md) methods as implemented by a custom port supplier should always return `E_NOTIMPL`.  
+ This enumeration is for internal use only by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. The [GetENCAvailableState](../extensibility/idebugprocess3--getencavailablestate.md) and [DisableENC](../extensibility/idebugprocess3--disableenc.md) methods as implemented by a custom port supplier should always return `E_NOTIMPL`.  
   
 ## Requirements  
  Header: msdbg.idl  

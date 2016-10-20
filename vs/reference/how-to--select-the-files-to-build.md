@@ -1,7 +1,7 @@
 ---
-title: "How to: Select the Files to Build"
+title: "How to: Select the Files to Build | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/17/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

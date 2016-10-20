@@ -1,13 +1,13 @@
 ---
-title: "At least one configuration was not loaded because it does not have a configuration name attribute"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "At least one configuration was not loaded because it does not have a configuration name attribute | Microsoft Docs"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.tasklisterror.projfile_nameless_config"

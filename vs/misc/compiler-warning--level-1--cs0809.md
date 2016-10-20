@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 1) CS0809"
+title: "Compiler Warning (level 1) CS0809 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -38,7 +38,7 @@ translation.priority.mt:
 # Compiler Warning (level 1) CS0809
 Obsolete member 'memberA' overrides non-obsolete member 'memberB'.  
   
- Typically, a member that is marked as obsolete should not override a member that is not marked as obsolete. This warning is generated in [!INCLUDE[vs_orcas_long](../codequality/includes/vs_orcas_long_md.md)] but not in [!INCLUDE[vsprvslong](../codequality/includes/vsprvslong_md.md)].  
+ Typically, a member that is marked as obsolete should not override a member that is not marked as obsolete. This warning is generated in [!INCLUDE[vs_orcas_long](../code-quality/includes/vs_orcas_long_md.md)] but not in [!INCLUDE[vsprvslong](../code-quality/includes/vsprvslong_md.md)].  
   
 ### To correct this error  
   

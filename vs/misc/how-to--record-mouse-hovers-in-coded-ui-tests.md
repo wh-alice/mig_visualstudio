@@ -1,7 +1,7 @@
 ---
-title: "How to: Record Mouse Hovers in Coded UI Tests"
+title: "How to: Record Mouse Hovers in Coded UI Tests | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -30,4 +30,4 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # How to: Record Mouse Hovers in Coded UI Tests
-The content of this topic has been consolidated with the parent page. See [Validating the properties of UI controls](../codequality/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITGenerateAssertions).
+The content of this topic has been consolidated with the parent page. See [Validating the properties of UI controls](../code-quality/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITGenerateAssertions).

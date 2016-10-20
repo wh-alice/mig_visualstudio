@@ -1,5 +1,5 @@
 ---
-title: "How to: Copy Test Suites from Another Test Plan"
+title: "How to: Copy Test Suites from Another Test Plan | Microsoft Docs"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

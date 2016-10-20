@@ -1,7 +1,7 @@
 ---
-title: "Walkthrough: Calling into the Visual Studio SDK By Using Automation"
+title: "Walkthrough: Calling into the Visual Studio SDK By Using Automation | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -44,7 +44,7 @@ This walkthrough illustrates how to create a Visual Studio add-in that consumes 
   
 3.  Create a new add-in project named `Addin`.  
   
-     In the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Add-In wizard, click **Next**.  
+     In the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Add-In wizard, click **Next**.  
   
 4.  On the **Select a Programming Language**  page, select **Create an Add-In using Visual C#** or **Create an Add-In using Visual Basic**.  
   
@@ -84,9 +84,9 @@ This walkthrough illustrates how to create a Visual Studio add-in that consumes 
   
 4.  Build and start the Addin project in debug mode by pressing F5.  
   
-     This starts another instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+     This starts another instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
-5.  In the new [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] instance, on the **Tools** menu, click **Addin**. The message box displays this:  
+5.  In the new [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] instance, on the **Tools** menu, click **Addin**. The message box displays this:  
   
     ```  
     MyAddin  

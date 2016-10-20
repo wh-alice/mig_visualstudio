@@ -1,7 +1,7 @@
 ---
-title: "&#39;&lt;method&gt;&#39; is not accessible in this context because it is &#39;&lt;modifier&gt;&#39;"
+title: "&#39;&lt;method&gt;&#39; is not accessible in this context because it is &#39;&lt;modifier&gt;&#39; | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # &#39;&lt;method&gt;&#39; is not accessible in this context because it is &#39;&lt;modifier&gt;&#39;
-You have attempted to access a method that is not accessible in this context because it has been declared `Private`. A possible cause for this error is that the [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] compiler imports all members of a class and is case-insensitive, so names differentiated only by casing may collide.  
+You have attempted to access a method that is not accessible in this context because it has been declared `Private`. A possible cause for this error is that the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler imports all members of a class and is case-insensitive, so names differentiated only by casing may collide.  
   
  **Error ID:** BC30389  
   

@@ -1,7 +1,7 @@
 ---
-title: "A failure occurred while attempting to start the compilation"
+title: "A failure occurred while attempting to start the compilation | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,11 +31,11 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # A failure occurred while attempting to start the compilation
-An unknown error has been encountered while issuing the **Start Build** request to the [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] or [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] compiler.  
+An unknown error has been encountered while issuing the **Start Build** request to the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] or [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] compiler.  
   
  **To correct this error**  
   
--   Restart [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+-   Restart [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
      This error will cause the build process to fail.  
   

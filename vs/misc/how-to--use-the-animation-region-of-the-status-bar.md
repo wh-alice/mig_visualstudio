@@ -1,7 +1,7 @@
 ---
-title: "How to: Use the Animation Region of the Status Bar"
+title: "How to: Use the Animation Region of the Status Bar | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,7 +33,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # How to: Use the Animation Region of the Status Bar
-The Animation region of the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] status bar displays a looping animation that indicates either a lengthy operation or an operation of indeterminate length (for example, building multiple projects in a solution).  
+The Animation region of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] status bar displays a looping animation that indicates either a lengthy operation or an operation of indeterminate length (for example, building multiple projects in a solution).  
   
 ### To use the Animation region of the Visual Studio status bar  
   

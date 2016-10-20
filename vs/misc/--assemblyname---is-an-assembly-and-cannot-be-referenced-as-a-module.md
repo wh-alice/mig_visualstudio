@@ -1,7 +1,7 @@
 ---
-title: "&#39;&lt;assemblyname&gt;&#39; is an assembly and cannot be referenced as a module"
+title: "&#39;&lt;assemblyname&gt;&#39; is an assembly and cannot be referenced as a module | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

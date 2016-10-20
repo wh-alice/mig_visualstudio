@@ -1,7 +1,7 @@
 ---
-title: "Enabling the Azure SDK"
+title: "Enabling the Azure SDK | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,7 +36,7 @@ The Azure SDK for .NET helps you create, configure, build, debug, run, and packa
   
  You can download the Azure SDK from the **New Project** dialog box.  
   
- [!INCLUDE[note_settings_general](../datatools/includes/note_settings_general_md.md)]  
+ [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
   
 ### To enable the Azure SDK  
   

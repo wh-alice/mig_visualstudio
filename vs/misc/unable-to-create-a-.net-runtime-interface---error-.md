@@ -1,7 +1,7 @@
 ---
-title: "Unable to create a .NET Runtime interface: &lt;error&gt;"
+title: "Unable to create a .NET Runtime interface: &lt;error&gt; | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -41,9 +41,9 @@ There was an internal compiler error creating an interface, or a method call on 
   
 ### To correct this error  
   
-1.  Save your work and restart [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+1.  Save your work and restart [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
-2.  If the error recurs, reinstall [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+2.  If the error recurs, reinstall [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 3.  If the error persists after reinstallation, notify Microsoft Product Support Services.  
   

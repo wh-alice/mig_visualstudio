@@ -1,7 +1,7 @@
 ---
-title: "&#39;&lt;mathfunction1&gt;&#39; is not declared"
+title: "&#39;&lt;mathfunction1&gt;&#39; is not declared | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -37,7 +37,7 @@ translation.priority.mt:
 # &#39;&lt;mathfunction1&gt;&#39; is not declared
 '\<mathfunction1>' is not declared. Function has moved to the System.Math class and is now called '\<mathfunction2>'.  
   
- Several functions that were intrinsic to [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] in previous versions have been moved to the <xref:System.Math?displayProperty=fullName> namespace. This makes their functionality more generally available to all programming languages.  
+ Several functions that were intrinsic to [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] in previous versions have been moved to the <xref:System.Math?displayProperty=fullName> namespace. This makes their functionality more generally available to all programming languages.  
   
  **Error ID:** BC30819  
   

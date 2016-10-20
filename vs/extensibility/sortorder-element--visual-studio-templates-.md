@@ -1,7 +1,7 @@
 ---
-title: "SortOrder Element (Visual Studio Templates)"
+title: "SortOrder Element (Visual Studio Templates) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -74,7 +74,7 @@ Specifies a value that is used to arrange the template, among other templates in
  Templates that have low sort order values appear in either the **New Project** or **New Add Item** dialog box before templates that have high sort order values.  
   
 ## Example  
- The following example illustrates the metadata for a standard [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] class template.  
+ The following example illustrates the metadata for a standard [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] class template.  
   
 ```  
 <VSTemplate Type="Item" Version="3.0.0"  
@@ -93,7 +93,7 @@ Specifies a value that is used to arrange the template, among other templates in
 </VSTemplate>  
 ```  
   
- In this example, the `SortOrder` element is relatively high. It is likely that other [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] item templates will have a `SortOrder` value lower than `290` and will appear before this template in the **New Item** dialog box.  
+ In this example, the `SortOrder` element is relatively high. It is likely that other [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] item templates will have a `SortOrder` value lower than `290` and will appear before this template in the **New Item** dialog box.  
   
 ## See Also  
  [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)   

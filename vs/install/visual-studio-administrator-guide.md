@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio Administrator Guide"
+title: "Visual Studio Administrator Guide | Microsoft Docs"
 ms.custom: ""
 ms.date: "2016-10-12"
 ms.prod: "visual-studio-dev14"
@@ -42,7 +42,7 @@ You can deploy Visual Studio on a network as long as each target computer meets 
  You can use detection subkeys in the registry to determine whether a Visual Studio product is already installed on a computer. You would use these detection keys in an automated deployment to determine whether it was necessary to proceed with an installation.  See [Detecting System Requirements](../extensibility/detecting-system-requirements.md).  
   
 ## Avoiding Reboots  
- You can reduce reboots by making sure that you meet the appropriate Visual Studio prerequisites before you deploy Visual Studio. For the .NET Framework, you might need to reboot computers that are running [!INCLUDE[win8](../codequality/includes/win8_md.md)] if you deploy Visual Studio 2015 on them without first installing the .NET Framework 4.6.  
+ You can reduce reboots by making sure that you meet the appropriate Visual Studio prerequisites before you deploy Visual Studio. For the .NET Framework, you might need to reboot computers that are running [!INCLUDE[win8](../code-quality/includes/win8_md.md)] if you deploy Visual Studio 2015 on them without first installing the .NET Framework 4.6.  
   
  For Windows and Android device emulation, you might need to reboot computers if you do not already have Windows feature Hyper-V turned on. For Web development, you may need to reboot computers if you do not already have the Windows feature Web Server turned on. For Office development, you may need to reboot computers if you do not already have Windows feature Windows Identify Foundation turned on. reboot computers if you do not already have the Windows feature Web Server turned on. For Office development, you may need to reboot computers if you do not already have Windows feature Windows Identify Foundation turned on. To learn more about how to automate the detection and installation of Windows features, see [Installing a server role on a server running a Server Core installation of Windows Server 2008 R2](https://technet.microsoft.com/library/ee441260(v=ws.10).aspx).  
   
@@ -77,8 +77,8 @@ You can deploy Visual Studio on a network as long as each target computer meets 
   
 |Topic|Description|  
 |-----------|-----------------|  
-|[How to: Install a Specific Release of Visual Studio](../install/how-to--install-a-specific-release-of-visual-studio.md)|Describes how to install specific configurations of the current version of  [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].|  
-|[How to: Create and Run an Unattended Installation of Visual Studio](../install/how-to--create-and-run-an-unattended-installation-of-visual-studio.md)|Describes how to install [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] in unattended mode.|  
+|[How to: Install a Specific Release of Visual Studio](../install/how-to--install-a-specific-release-of-visual-studio.md)|Describes how to install specific configurations of the current version of  [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].|  
+|[How to: Create and Run an Unattended Installation of Visual Studio](../install/how-to--create-and-run-an-unattended-installation-of-visual-studio.md)|Describes how to install [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] in unattended mode.|  
 |[How to: Automatically apply product keys when deploying Visual Studio](../install/how-to--automatically-apply-product-keys-when-deploying-visual-studio.md)|Describes how to apply product keys when deploying to multiple machines.|  
 |[Help Viewer Administrator Guide](../ide/help-viewer-administrator-guide.md)|Provides information about  how to manage local Help installations for network environments that either have or do not have internet access.|  
-|[Installing Visual Studio 2015](../install/installing-visual-studio-2015.md)|Provides instructions and  links to topics that describe how to install [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].|
+|[Installing Visual Studio 2015](../install/installing-visual-studio-2015.md)|Provides instructions and  links to topics that describe how to install [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].|

@@ -1,7 +1,7 @@
 ---
-title: "Viewing Data in the Debugger"
+title: "Viewing Data in the Debugger | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -44,13 +44,13 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Viewing Data in the Debugger
-The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] debugger provides a variety of tools for inspecting and modifying the state of your program. Most of these tools function only in break mode.  
+The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger provides a variety of tools for inspecting and modifying the state of your program. Most of these tools function only in break mode.  
   
 ## DataTips  
  DataTips are one of the most convenient tools for viewing information about the variables and objects in your program during debugging. When the debugger is in break mode, you can view the value of a variable within the current scope by placing the mouse pointer over the variable in a source window. For more information, see [View data values in Data Tips](../debugger/view-data-values-in-data-tips--in-the-code-editor.md).  
   
 ## Visualizers  
- Visualizers are a new component of the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] debugger that enable you to view the contents of an object or variable in a meaningful way. For example, you can use the HTML visualizer to view an HTML string as it would be interpreted and displayed in a browser. You can access visualizers from DataTips, the **Watch** window, the **Autos** window, the **Locals** window, or the **QuickWatch** dialog box. For more information, see [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md).  
+ Visualizers are a new component of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger that enable you to view the contents of an object or variable in a meaningful way. For example, you can use the HTML visualizer to view an HTML string as it would be interpreted and displayed in a browser. You can access visualizers from DataTips, the **Watch** window, the **Autos** window, the **Locals** window, or the **QuickWatch** dialog box. For more information, see [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md).  
   
 ## See Also  
  [Debugger Basics](../debugger/debugger-basics.md)   

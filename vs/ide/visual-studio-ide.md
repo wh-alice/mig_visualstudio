@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio IDE"
+title: "Visual Studio IDE | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
@@ -40,7 +40,7 @@ Microsoft Visual Studio 2015 is a suite of tools for creating software, from the
   
 4.  games and graphics-intensive applications for a variety of Windows devices, including Xbox, using DirectX.  
   
- Visual Studio by default provides support for C#, C and C++, JavaScript, F#, and Visual Basic. Visual Studio works and integrates well with third-party applications like Unity through the [Visual Studio Tools for Unity](../crossplatform/visual-studio-tools-for-unity.md) extension and Apache Cordova through [Visual Studio Tools for Apache Cordova](../Topic/Get%20Started%20with%20Visual%20Studio%20Tools%20for%20Apache%20Cordova1.md). You can extend Visual Studio yourself by creating custom tools that perform specialized tasks.  
+ Visual Studio by default provides support for C#, C and C++, JavaScript, F#, and Visual Basic. Visual Studio works and integrates well with third-party applications like Unity through the [Visual Studio Tools for Unity](../cross-platform/visual-studio-tools-for-unity.md) extension and Apache Cordova through [Visual Studio Tools for Apache Cordova](../Topic/Get%20Started%20with%20Visual%20Studio%20Tools%20for%20Apache%20Cordova1.md). You can extend Visual Studio yourself by creating custom tools that perform specialized tasks.  
   
  If you’ve never used Visual Studio before, learn the basics with our [Get Started Developing with Visual Studio](../ide/get-started-developing-with-visual-studio.md) tutorials and walkthroughs.  
   
@@ -170,12 +170,12 @@ Microsoft Visual Studio 2015 is a suite of tools for creating software, from the
  For more information, see [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md).  
   
 ## Testing your code  
- Visual Studio includes a unit test framework for managed code (.NET) and one for native C++. To create unit tests, simply add a Test Project to your solution, write your tests, and then run them from the Test Explorer window. For more information, see [Unit Test Your Code](../codequality/unit-test-your-code.md).  
+ Visual Studio includes a unit test framework for managed code (.NET) and one for native C++. To create unit tests, simply add a Test Project to your solution, write your tests, and then run them from the Test Explorer window. For more information, see [Unit Test Your Code](../code-quality/unit-test-your-code.md).  
   
- ![Unit Test Explorer](../codequality/media/ute_failedpassednotrunsummary.png "UTE_FailedPassedNotRunSummary")  
+ ![Unit Test Explorer](../code-quality/media/ute_failedpassednotrunsummary.png "UTE_FailedPassedNotRunSummary")  
   
 ## Analyzing code quality and performance  
- Visual Studio includes powerful tools for static and runtime analysis. The static analysis tools help you identify potential errors in design, globalization, interoperability, performance, security, and other categories. Performance testing, or profiling, involves measuring how your program runs. You access these tools from the **Analyze** menu. For more information, see [Improving Quality with Visual Studio Diagnostic Tools](../codequality/improve-code-quality.md).  
+ Visual Studio includes powerful tools for static and runtime analysis. The static analysis tools help you identify potential errors in design, globalization, interoperability, performance, security, and other categories. Performance testing, or profiling, involves measuring how your program runs. You access these tools from the **Analyze** menu. For more information, see [Improving Quality with Visual Studio Diagnostic Tools](../code-quality/improve-code-quality.md).  
   
 ## Connecting to cloud services and databases  
  The [Server Explorer](../Topic/Server%20Explorer.md) window in Visual Studio shows the resources in all the accounts managed under your personalization account (the one you logged in with), including SQL Server instances, Azure, Salesforce.com, Office 365, and websites.  
@@ -207,7 +207,7 @@ Microsoft Visual Studio 2015 is a suite of tools for creating software, from the
 |[How to: Move Around in the IDE](../ide/how-to--move-around-in-the-visual-studio-ide.md)|[Get Started Developing with Visual Studio](../ide/get-started-developing-with-visual-studio.md)|  
 |[Finding and Using Visual Studio Extensions](../ide/finding-and-using-visual-studio-extensions.md)|[Solutions and Projects](../ide/solutions-and-projects-in-visual-studio.md)|  
 |[Writing Code](../ide/writing-code-in-the-code-and-text-editor.md)|[Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)|  
-|[Profiling Tools](../profiling/profiling-tools.md)|[Improve Code Quality](../codequality/improve-code-quality.md)|  
+|[Profiling Tools](../profiling/profiling-tools.md)|[Improve Code Quality](../code-quality/improve-code-quality.md)|  
 |[Designing User Interfaces](../designers/designing-user-interfaces.md)|[Analyzing and Modeling Architecture](../modeling/analyze-and-model-your-architecture.md)|  
 |[Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)|[Deploying Applications, Services, and Components](../deployment/deploying-applications--services--and-components.md)|  
 |[Visual Studio IDE 64-Bit Support](../ide/visual-studio-ide-64-bit-support.md)|[Security](../ide/security-in-visual-studio.md)|  

@@ -1,7 +1,7 @@
 ---
-title: "DBG_ATTRIB_FLAGS"
+title: "DBG_ATTRIB_FLAGS | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -315,7 +315,7 @@ public const int DBG_ATTRIB_MULTI_CUSTOM_VIEWERS = 0x0001000000000000
   
  These flags are also used to filter children of an object, for example, when passed as an argument to [EnumChildren](../extensibility/idebugproperty2--enumchildren.md). The values may be combined with a bitwise `OR`.  
   
- The `DBG_ATTRIB_VALUE_CUSTOM_VIEWER` flag is an indication to [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] to obtain the [IDebugProperty3](../extensibility/idebugproperty3.md) interface from the [IDebugProperty2](../extensibility/idebugproperty2.md) interface and call [GetCustomViewerList](../extensibility/idebugproperty3--getcustomviewerlist.md) for a list of custom viewers.  
+ The `DBG_ATTRIB_VALUE_CUSTOM_VIEWER` flag is an indication to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to obtain the [IDebugProperty3](../extensibility/idebugproperty3.md) interface from the [IDebugProperty2](../extensibility/idebugproperty2.md) interface and call [GetCustomViewerList](../extensibility/idebugproperty3--getcustomviewerlist.md) for a list of custom viewers.  
   
 ## Requirements  
  Header: msdbg.h  

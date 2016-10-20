@@ -1,7 +1,7 @@
 ---
-title: "Debugging Preparation: Windows Services"
+title: "Debugging Preparation: Windows Services | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -39,7 +39,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Debugging Preparation: Windows Services
-A Windows service is a program that runs in the background under Microsoft Windows. Examples include the Telnet service and the Windows time service, which updates your computer's visible clock. A Windows service cannot be run from within [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]; it must run within the context of the Services Control Manager. For more information, see [Creating Windows Services](../Topic/How%20to:%20Create%20Windows%20Services.md), [Debugging Windows Service Applications](../Topic/How%20to:%20Debug%20Windows%20Service%20Applications.md), and [Windows Service Applications](../Topic/Developing%20Windows%20Service%20Applications.md).  
+A Windows service is a program that runs in the background under Microsoft Windows. Examples include the Telnet service and the Windows time service, which updates your computer's visible clock. A Windows service cannot be run from within [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]; it must run within the context of the Services Control Manager. For more information, see [Creating Windows Services](../Topic/How%20to:%20Create%20Windows%20Services.md), [Debugging Windows Service Applications](../Topic/How%20to:%20Debug%20Windows%20Service%20Applications.md), and [Windows Service Applications](../Topic/Developing%20Windows%20Service%20Applications.md).  
   
 ## See Also  
  [Debugging Managed Code](../debugger/debugging-managed-code.md)   

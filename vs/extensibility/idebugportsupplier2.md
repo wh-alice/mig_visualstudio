@@ -1,7 +1,7 @@
 ---
-title: "IDebugPortSupplier2"
+title: "IDebugPortSupplier2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -62,11 +62,11 @@ IDebugPortSupplier2 *GetPortSupplier(GUID *pPortSupplierGuid)
 }  
 ```  
   
- A call to [GetPortSupplier](../extensibility/idebugcoreserver2--getportsupplier.md) returns this interface, representing the current port supplier being used by [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+ A call to [GetPortSupplier](../extensibility/idebugcoreserver2--getportsupplier.md) returns this interface, representing the current port supplier being used by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
  [GetPortSupplier](../extensibility/idebugport2--getportsupplier.md) returns this interface, representing the port supplier that created the port.  
   
- [IEnumDebugPortSuppliers2](../extensibility/ienumdebugportsuppliers2.md) represents a list of `IDebugPortSupplier` interfaces (the `IEnumDebugPortSuppliers` interface is obtained from [EnumPortSuppliers](../extensibility/idebugcoreserver2--enumportsuppliers.md), representing all of the port suppliers registered with [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]).  
+ [IEnumDebugPortSuppliers2](../extensibility/ienumdebugportsuppliers2.md) represents a list of `IDebugPortSupplier` interfaces (the `IEnumDebugPortSuppliers` interface is obtained from [EnumPortSuppliers](../extensibility/idebugcoreserver2--enumportsuppliers.md), representing all of the port suppliers registered with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]).  
   
  A debug engine typically does not interact with a port supplier.  
   

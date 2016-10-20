@@ -1,7 +1,7 @@
 ---
-title: "ProjectItem Element (Visual Studio Item Templates)"
+title: "ProjectItem Element (Visual Studio Item Templates) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -64,7 +64,7 @@ Specifies a file that is included in the item template.
   
 |Attribute|Description|  
 |---------------|-----------------|  
-|`SubType`|Optional attribute.<br /><br /> Specifies the subtype of an item in a multi-file item template. This value is used to determine the editor that [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] will use to open the item.|  
+|`SubType`|Optional attribute.<br /><br /> Specifies the subtype of an item in a multi-file item template. This value is used to determine the editor that [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] will use to open the item.|  
 |`CustomTool`|Optional attribute.<br /><br /> Sets the CustomTool for the item in the Project file.|  
 |`ItemType`|Optional attribute.<br /><br /> Sets the ItemType for the item in the Project file.|  
 |`ReplaceParameters`|Optional attribute.<br /><br /> A Boolean value that specifies whether the item has parameter values that must be replaced when a project is created from the template. Default value is `false`.|  
@@ -96,7 +96,7 @@ Specifies a file that is included in the item template.
  When an item is created from this template, the file name will be based on the name the user entered in the **Add New Item** dialog box. This is useful when creating multi-file item templates. For more information, see [How to: Create Multi-file Item Templates](../ide/how-to--create-multi-file-item-templates.md) and [Template Parameters](../ide/template-parameters.md).  
   
 ## Example  
- The following example illustrates the metadata for the standard item template for a [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] class.  
+ The following example illustrates the metadata for the standard item template for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] class.  
   
 ```  
 <VSTemplate Type="Item" Version="3.0.0"  

@@ -1,7 +1,7 @@
 ---
-title: "How to: Debug an Executable Not Part of a Visual Studio Solution"
+title: "How to: Debug an Executable Not Part of a Visual Studio Solution | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -42,11 +42,11 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Debug an Executable Not Part of a Visual Studio Solution
-Sometimes, you may want to debug an executable that is not part of a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] project. It may be an executable you created outside of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] or an executable you received from someone else.  
+Sometimes, you may want to debug an executable that is not part of a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project. It may be an executable you created outside of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] or an executable you received from someone else.  
   
- The usual answer to this problem is to start the executable outside of Visual Studio and attach to it using the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] debugger. For more information, see[Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).  
+ The usual answer to this problem is to start the executable outside of Visual Studio and attach to it using the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger. For more information, see[Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).  
   
- Attaching to an application requires some manual steps, so it takes a few seconds. This slight delay means that attaching will not help if you are trying to debug a problem that occurs during startup. Also, if you are debugging a program that does not wait for user input and finishes quickly, you may not have time to attach to it. If you have [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)] installed, you can create an EXE project for such a program.  
+ Attaching to an application requires some manual steps, so it takes a few seconds. This slight delay means that attaching will not help if you are trying to debug a problem that occurs during startup. Also, if you are debugging a program that does not wait for user input and finishes quickly, you may not have time to attach to it. If you have [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] installed, you can create an EXE project for such a program.  
   
 ### To create an EXE project for an existing executable  
   
@@ -71,9 +71,9 @@ Sometimes, you may want to debug an executable that is not part of a [!INCLUDE[v
 5.  Start the executable by choosing an execution command, such as **Start**, from the **Debug** menu.  
   
     > [!NOTE]
-    >  Not all programming languages support EXE projects. Install [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)] if you need to use this feature.  
+    >  Not all programming languages support EXE projects. Install [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] if you need to use this feature.  
   
-     When you are debugging an executable without the source code, the available debugging features are limited, whether you attach to a running executable or add the executable to a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] solution. If the executable was built without debug information in a compatible format, available features are further limited. If you have the source code, the best approach is to import the source code into [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and create a debug build of the executable in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+     When you are debugging an executable without the source code, the available debugging features are limited, whether you attach to a running executable or add the executable to a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution. If the executable was built without debug information in a compatible format, available features are further limited. If you have the source code, the best approach is to import the source code into [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and create a debug build of the executable in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 ## See Also  
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)   

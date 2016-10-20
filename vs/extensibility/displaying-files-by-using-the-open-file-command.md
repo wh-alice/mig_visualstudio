@@ -1,7 +1,7 @@
 ---
-title: "Displaying Files By Using the Open File Command"
+title: "Displaying Files By Using the Open File Command | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,7 +33,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Displaying Files By Using the Open File Command
-The following steps describe how the IDE handles the **Open File** command, which is available on the **File** menu in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. The steps also describe how projects should respond to calls that originate from this command.  
+The following steps describe how the IDE handles the **Open File** command, which is available on the **File** menu in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. The steps also describe how projects should respond to calls that originate from this command.  
   
  When a user clicks the **Open File** command on the **File** menu, and selects a file from the **Open File** dialog box, the following process occurs.  
   

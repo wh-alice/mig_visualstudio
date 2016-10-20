@@ -1,7 +1,7 @@
 ---
-title: "-DebugExe (devenv.exe)"
+title: "-DebugExe (devenv.exe) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,7 +45,7 @@ Devenv /debugexe ExecutableFile
  `ExecutableFile`  
  Required. The path and file name of an .exe file.  
   
- If the .exe file is not found or does not exist, no warning or error is displayed and [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] starts normally.  
+ If the .exe file is not found or does not exist, no warning or error is displayed and [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] starts normally.  
   
 ## Remarks  
  Any strings following the `ExecutableFile` parameter are passed to that file as arguments.  

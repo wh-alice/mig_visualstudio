@@ -1,7 +1,7 @@
 ---
-title: "Providing a Custom Properties Window"
+title: "Providing a Custom Properties Window | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,7 +32,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Providing a Custom Properties Window
-It is possible to provide your own **Properties** window for a given project system, instead of extending the **Properties** window provided by the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE). The most-often encountered scenario is when you yourself implement the object sited in the window frame.  
+It is possible to provide your own **Properties** window for a given project system, instead of extending the **Properties** window provided by the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE). The most-often encountered scenario is when you yourself implement the object sited in the window frame.  
   
  In the event you do not implement the object sited in the window frame, but do still have access to it by some other means, there are a number of ways to access the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame> interface as listed in the last procedure on this page.  
   

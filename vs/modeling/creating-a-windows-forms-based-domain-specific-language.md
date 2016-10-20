@@ -1,7 +1,7 @@
 ---
-title: "Creating a Windows Forms-Based Domain-Specific Language"
+title: "Creating a Windows Forms-Based Domain-Specific Language | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,7 +13,7 @@ ms.author: "awills"
 manager: "kamrani"
 ---
 # Creating a Windows Forms-Based Domain-Specific Language
-You can use Windows Forms to display the state of a domain-specific language (DSL) model, instead of using a DSL diagram. This topic walks you through binding a Windows Form to a DSL, using the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Visualization and Modeling SDK.  
+You can use Windows Forms to display the state of a domain-specific language (DSL) model, instead of using a DSL diagram. This topic walks you through binding a Windows Form to a DSL, using the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Visualization and Modeling SDK.  
   
  ![DSL&#45;Wpf&#45;2](../modeling/media/dsl-wpf-2.png "DSL-Wpf-2")  
 A DSL instance, showing a Windows Form UI and the model explorer.  
@@ -46,7 +46,7 @@ A DSL instance, showing a Windows Form UI and the model explorer.
   
          Add some elements either in the form or the Explorer, and notice that they appear in the other display.  
   
- In the main instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], notice the following points about the DSL solution:  
+ In the main instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], notice the following points about the DSL solution:  
   
 -   `DslDefinition.dsl` contains no diagram elements. This is because you will not use DSL diagrams to view instance models of this DSL. Instead, you will bind a Windows Form to the model, and the elements on the form will display the model.  
   

@@ -1,7 +1,7 @@
 ---
-title: "Troubleshooting Exceptions: System.ServiceModel.ServiceActivationException"
+title: "Troubleshooting Exceptions: System.ServiceModel.ServiceActivationException | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,7 +36,7 @@ translation.priority.mt:
 A <xref:System.ServiceModel.ServiceActivationException> exception is thrown when a service fails to activate.  
   
 ## Remarks  
- This exception derives from <xref:System.ServiceModel.CommunicationException>, which represents a class of recoverable errors that may be thrown during communication between endpoints, and which [!INCLUDE[vsindigo](../datatools/includes/vsindigo_md.md)] robust client and service applications are expected to handle. To prevent the more generic <xref:System.ServiceModel.CommunicationException> handler from catching the more specific <xref:System.ServiceModel.ActionNotSupportedException>, catch this exception prior to handling <xref:System.ServiceModel.CommunicationException>.  
+ This exception derives from <xref:System.ServiceModel.CommunicationException>, which represents a class of recoverable errors that may be thrown during communication between endpoints, and which [!INCLUDE[vsindigo](../data-tools/includes/vsindigo_md.md)] robust client and service applications are expected to handle. To prevent the more generic <xref:System.ServiceModel.CommunicationException> handler from catching the more specific <xref:System.ServiceModel.ActionNotSupportedException>, catch this exception prior to handling <xref:System.ServiceModel.CommunicationException>.  
   
 ## See Also  
  <xref:System.ServiceModel.ServiceActivationException>   

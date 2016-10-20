@@ -1,7 +1,7 @@
 ---
-title: "Image Editor"
+title: "Image Editor | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,7 +18,7 @@ ms.author: "mithom"
 manager: "ghogen"
 ---
 # Image Editor
-This document describes how to work with the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Image Editor to view and modify texture and image resources.  
+This document describes how to work with the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Image Editor to view and modify texture and image resources.  
   
  You can use the Image Editor to work with the kinds of rich texture and image formats that are used in DirectX app development—this includes support for popular image file formats and color encodings, features such as alpha-channels and MIP-mapping, and many of the highly-compressed, hardware-accelerated texture formats that DirectX supports.  
   
@@ -36,7 +36,7 @@ This document describes how to work with the [!INCLUDE[vsprvs](../codequality/in
 |TGA (Targa)|.tga|  
   
 ## Getting started  
- This section describes how to add an image to your [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] project and configure it for your requirements.  
+ This section describes how to add an image to your [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project and configure it for your requirements.  
   
 #### To add an image to your project  
   
@@ -267,6 +267,6 @@ This document describes how to work with the [!INCLUDE[vsprvs](../codequality/in
   
 |Title|Description|  
 |-----------|-----------------|  
-|[Working with 3-D Assets for Games and Apps](../designers/working-with-3-d-assets-for-games-and-apps.md)|Provides an overview of the tools that you can use in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] to work with graphics assets such as textures and images, 3-D models, and shader effects.|  
-|[Model Editor](../designers/model-editor.md)|Describes how to use the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Model Editor to work with 3-D models.|  
-|[Shader Designer](../designers/shader-designer.md)|Describes how to use the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Shader Designer to work with shaders.|
+|[Working with 3-D Assets for Games and Apps](../designers/working-with-3-d-assets-for-games-and-apps.md)|Provides an overview of the tools that you can use in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to work with graphics assets such as textures and images, 3-D models, and shader effects.|  
+|[Model Editor](../designers/model-editor.md)|Describes how to use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Model Editor to work with 3-D models.|  
+|[Shader Designer](../designers/shader-designer.md)|Describes how to use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Shader Designer to work with shaders.|

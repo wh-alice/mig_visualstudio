@@ -1,7 +1,7 @@
 ---
-title: "How to: Print Class Diagrams (Class Designer)"
+title: "How to: Print Class Diagrams (Class Designer) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -43,5 +43,5 @@ You can print a class diagram using the print feature of Visual Studio.
      The entire class diagram will print. Note that you may need to adjust the settings in the Page Setup Dialog box in order to print at an appropriate size.  
   
 ## See Also  
- [How to: Copy Class Diagram Elements to a Microsoft Office Document (Class Designer)](../ide/c43061ad-d258-46b1-be66-f97a312e86d5.md)   
+ [How to: Copy Class Diagram Elements to a Microsoft Office Document (Class Designer)](../ide/how-to--copy-class-diagram-elements-to-a-microsoft-office-document--class-designer-.md)   
  [How to: Export Class Diagrams As Images (Class Designer)](../ide/how-to--export-class-diagrams-as-images--class-designer-.md)

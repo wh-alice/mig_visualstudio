@@ -1,5 +1,5 @@
 ---
-title: "- How to: Play Back an Action Recording"
+title: "- How to: Play Back an Action Recording | Microsoft Docs"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -44,7 +44,7 @@ After you create an *action recording*, you can play it back while you run a tes
  The following procedure describes how to play back an action recording, starting with how to load a test into Test Runner.  
   
 ## Replay an Action Recording from a Test Case in Microsoft Test Manager in Test Runner  
- To play an action recording, you must first load a test that contains an action recording into [!INCLUDE[mtrshort](../test_notintoc/includes/mtrshort_md.md)] from [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)]. For more information, see [- How to: Create an Action Recording](../test_notintoc/--how-to--create-an-action-recording.md).  
+ To play an action recording, you must first load a test that contains an action recording into [!INCLUDE[mtrshort](../test_notintoc/includes/mtrshort_md.md)] from [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)]. For more information, see [- How to: Create an Action Recording](../test_notintoc/--how-to--create-an-action-recording.md).  
   
  **Loading a test with an action recording**  
   
@@ -52,10 +52,10 @@ After you create an *action recording*, you can play it back while you run a tes
   
 #### To load a test into Test Runner  
   
-1.  Open [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)].  
+1.  Open [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)].  
   
     > [!NOTE]
-    >  To display the [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] window, choose Start, All Programs, Microsoft Visual Studio, Microsoft Test Manager.  
+    >  To display the [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] window, choose Start, All Programs, Microsoft Visual Studio, Microsoft Test Manager.  
   
 2.  On the center group switcher, choose the down-arrow and then choose **Testing Center**.  
   
@@ -80,7 +80,7 @@ After you create an *action recording*, you can play it back while you run a tes
   
 #### To replay an action recording from the test loaded from Microsoft Test Manager  
   
-1.  When you load a test from [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] into [!INCLUDE[mtrshort](../test_notintoc/includes/mtrshort_md.md)], you are prompted to **Start Test** with the option **Create action recording**. Leave **Create action recording** clear and choose **Start Test**.  
+1.  When you load a test from [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] into [!INCLUDE[mtrshort](../test_notintoc/includes/mtrshort_md.md)], you are prompted to **Start Test** with the option **Create action recording**. Leave **Create action recording** clear and choose **Start Test**.  
   
 2.  In the toolbar, choose the down-arrow next to **Play** and select **Play all**.  
   

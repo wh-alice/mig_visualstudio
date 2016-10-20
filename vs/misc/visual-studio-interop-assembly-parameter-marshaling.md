@@ -1,7 +1,7 @@
 ---
-title: "Visual Studio Interop Assembly Parameter Marshaling"
+title: "Visual Studio Interop Assembly Parameter Marshaling | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -42,20 +42,20 @@ VSPackages that are written in managed code might have to call or be called by u
   
  The reference documentation for each method contains three relevant sections:  
   
--   The [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)] COM function prototype.  
+-   The [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] COM function prototype.  
   
 -   The interop assembly method prototype.  
   
 -   A list of the COM parameters and a short description of each.  
   
 ##### Look for differences between the two prototypes  
- Most interoperability issues derive from mismatches between the definition of a particular type in a COM interface and the definition of the same type in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] interop assemblies. For example, consider the difference in the ability to pass a `null` value in an [out] parameter. You must look for differences between the two prototypes and consider their ramifications for the data being passed.  
+ Most interoperability issues derive from mismatches between the definition of a particular type in a COM interface and the definition of the same type in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] interop assemblies. For example, consider the difference in the ability to pass a `null` value in an [out] parameter. You must look for differences between the two prototypes and consider their ramifications for the data being passed.  
   
 ##### Read the parameter definitions  
- Read the parameter definitions. COM is less strict than the common language runtime (CLR) about mixing different types of data in a single parameter. The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] COM interfaces take full advantage of this flexibility. Any parameter that can pass or require a non-standard value or type of data, such as a constant value in a pointer parameter, should be described as such in the documentation.  
+ Read the parameter definitions. COM is less strict than the common language runtime (CLR) about mixing different types of data in a single parameter. The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] COM interfaces take full advantage of this flexibility. Any parameter that can pass or require a non-standard value or type of data, such as a constant value in a pointer parameter, should be described as such in the documentation.  
   
 ### IUnknown Objects Passed as Type void**  
- Look for [out] parameters that are defined as type `void **` in the COM interface, but that are defined as `[``iid_is``]` in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] interop assembly method prototype.  
+ Look for [out] parameters that are defined as type `void **` in the COM interface, but that are defined as `[``iid_is``]` in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] interop assembly method prototype.  
   
  Sometimes, a COM interface generates an `IUnknown` object, and the COM interface then passes it as type `void **`. These interfaces are especially important because if the variable is defined as [out] in the IDL, then the `IUnknown` object is reference-counted with the `AddRef` method. A memory leak occurs if the object is not handled correctly.  
   
@@ -106,20 +106,20 @@ else
 -   <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectCfg2.get_CfgType*>  
   
 ### Optional [out] Parameters  
- Look for parameters that are defined as an [out] data type (`int`, `object`, and so on) in the COM interface, but that are defined as arrays of the same data type in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] interop assembly method prototype.  
+ Look for parameters that are defined as an [out] data type (`int`, `object`, and so on) in the COM interface, but that are defined as arrays of the same data type in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] interop assembly method prototype.  
   
  Some COM interfaces, such as <xref:Microsoft.VisualStudio.Shell.Interop.IVsCfgProvider2.GetCfgs*>, treat [out] parameters as optional. If an object is not required, these COM interfaces return a `null` pointer as the value of that parameter instead of creating the [out] object. This is by design. For these interfaces, `null` pointers are assumed as part of the correct behavior of the VSPackage, and no error is returned.  
   
- Because the CLR does not allow the value of an [out] parameter to be `null`, part of the designed behavior of these interfaces is not directly available within managed code. The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] interop assembly methods for affected interfaces work around the issue by defining the relevant parameters as arrays because the CLR allows the passing of `null` arrays.  
+ Because the CLR does not allow the value of an [out] parameter to be `null`, part of the designed behavior of these interfaces is not directly available within managed code. The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] interop assembly methods for affected interfaces work around the issue by defining the relevant parameters as arrays because the CLR allows the passing of `null` arrays.  
   
  Managed implementations of these methods should put a `null` array into the parameter when there is nothing to be returned. Otherwise, create a one-element array of the correct type and put the return value in the array.  
   
  Managed methods that receive information from interfaces with optional [out] parameters receive the parameter as an array. Just examine the value of the first element of the array. If it is not `null`, treat the first element as if it were the original parameter.  
   
 ### Passing Constants in Pointer Parameters  
- Look for parameters that are defined as [in] pointers in the COM interface, but that are defined as a <xref:System.IntPtr> type in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] interop assembly method prototype.  
+ Look for parameters that are defined as [in] pointers in the COM interface, but that are defined as a <xref:System.IntPtr> type in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] interop assembly method prototype.  
   
- A similar issue occurs when a COM interface passes a special value, such as 0, -1, or –2, instead of an object pointer. Unlike [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)], the CLR does not allow constants to be cast as objects. Instead, the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] interop assembly defines the parameter as a <xref:System.IntPtr> type.  
+ A similar issue occurs when a COM interface passes a special value, such as 0, -1, or –2, instead of an object pointer. Unlike [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)], the CLR does not allow constants to be cast as objects. Instead, the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] interop assembly defines the parameter as a <xref:System.IntPtr> type.  
   
  Managed implementations of these methods should take advantage of the fact that the <xref:System.IntPtr> class has both `int` and `void *` constructors to create an <xref:System.IntPtr> from either an object or an integer constant, as appropriate.  
   
@@ -128,9 +128,9 @@ else
  For examples of this, see <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenStandardEditor*> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenSpecificEditor*>.  
   
 ### OLE Return Values Passed as [out] Parameters  
- Look for methods that have a `retval` return value in the COM interface, but that have an `int` return value and an additional [out] array parameter in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] interop assembly method prototype. It should be clear that these methods require special handling because the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] interop assembly method prototypes have one more parameter than the COM interface methods.  
+ Look for methods that have a `retval` return value in the COM interface, but that have an `int` return value and an additional [out] array parameter in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] interop assembly method prototype. It should be clear that these methods require special handling because the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] interop assembly method prototypes have one more parameter than the COM interface methods.  
   
- Many COM interfaces that deal with OLE activity send information about OLE status back to the calling program stored in the `retval` return value of the interface. Instead of using a return value, the corresponding [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] interop assembly methods send the information back to the calling program stored in an [out] array parameter.  
+ Many COM interfaces that deal with OLE activity send information about OLE status back to the calling program stored in the `retval` return value of the interface. Instead of using a return value, the corresponding [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] interop assembly methods send the information back to the calling program stored in an [out] array parameter.  
   
  Managed implementations of these methods should create a single-element array of the same type as the [out] parameter and put it in the parameter. The value of the array element should be the same as the appropriate COM `retval`.  
   

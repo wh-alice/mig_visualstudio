@@ -1,7 +1,7 @@
 ---
-title: "How to: Install a Custom Diagnostic Data Adapter"
+title: "How to: Install a Custom Diagnostic Data Adapter | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -58,11 +58,11 @@ If you have created a custom diagnostic data adapter, or you have been provided 
   
      For more information about how to configure your test settings to use an environment when you run your tests, see [Collect more diagnostic data](../test/collect-more-diagnostic-data-in-manual-tests.md) or [Create Test Settings for Automated System Tests Using Microsoft Test Manager](../test_notintoc/create-test-settings-for-automated-system-tests-using-microsoft-test-manager.md).  
   
-2.  To select your diagnostic data adapter for a test, you must first select an existing test settings or create a new one from [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] or Visual Studio and then select your diagnostic data adapter on the **Data and Diagnostics** tab of the selected test settings.  
+2.  To select your diagnostic data adapter for a test, you must first select an existing test settings or create a new one from [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] or Visual Studio and then select your diagnostic data adapter on the **Data and Diagnostics** tab of the selected test settings.  
   
 3.  If you have created and installed a diagnostic data adapter configuration editor, to configure your diagnostic data adapter for your test settings, choose **Configure** next to your adapter and make any changes. Then choose **Save**. For more information about how to create a configuration editor for your diagnostic data collector, see [How to: Create a Custom Editor for Data for Your Diagnostic Data Adapter](../test/how-to--create-a-custom-editor-for-data-for-your-diagnostic-data-adapter.md).  
   
-4.  If you are running your tests from [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], you can assign these test settings to your test plan before you run your tests or use the **Run with Options** command to assign test settings and override test settings. For more information about test settings, see [Setting Up Machines and Collecting Diagnostic Information Using Test Settings](../test/setting-up-machines-and-collecting-diagnostic-information-using-test-settings.md).  
+4.  If you are running your tests from [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], you can assign these test settings to your test plan before you run your tests or use the **Run with Options** command to assign test settings and override test settings. For more information about test settings, see [Setting Up Machines and Collecting Diagnostic Information Using Test Settings](../test/setting-up-machines-and-collecting-diagnostic-information-using-test-settings.md).  
   
      If you are running your tests from Visual Studio, you must set these test settings to be active. For more information about test settings, see [Setting Up Machines and Collecting Diagnostic Information Using Test Settings](../test/setting-up-machines-and-collecting-diagnostic-information-using-test-settings.md).  
   
@@ -72,6 +72,6 @@ If you have created a custom diagnostic data adapter, or you have been provided 
  [How to: Create a Diagnostic Data Adapter](../test/how-to--create-a-diagnostic-data-adapter.md)   
  [How to: Create a Custom Editor for Data for Your Diagnostic Data Adapter](../test/how-to--create-a-custom-editor-for-data-for-your-diagnostic-data-adapter.md)   
  [Sample Project for Creating a Diagnostic Data Adapter](../test/sample-project-for-creating-a-diagnostic-data-adapter.md)   
- [Creating a Diagnostic Data Adapter to Collect Custom Data or Affect a Test Machine](../test/b0b53fae-7007-4ad9-a604-21685937622f.md)   
+ [Creating a Diagnostic Data Adapter to Collect Custom Data or Affect a Test Machine](../test/creating-a-diagnostic-data-adapter-to-collect-custom-data-or-affect-a-test-machine.md)   
  [Setting Up Machines and Collecting Diagnostic Information Using Test Settings](../test/setting-up-machines-and-collecting-diagnostic-information-using-test-settings.md)   
  [Setting Up Machines and Collecting Diagnostic Information Using Test Settings](../test/setting-up-machines-and-collecting-diagnostic-information-using-test-settings.md)

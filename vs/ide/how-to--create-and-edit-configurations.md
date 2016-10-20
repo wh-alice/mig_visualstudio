@@ -1,7 +1,7 @@
 ---
-title: "How to: Create and Edit Configurations"
+title: "How to: Create and Edit Configurations | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -41,7 +41,7 @@ translation.priority.ht:
 # How to: Create and Edit Configurations
 You can create several build configurations for a solution. For example, you can configure a debug build that your testers can use to find and fix problems, and you can configure different kinds of builds that you can distribute to different customers.  
   
- [!INCLUDE[note_settings_general](../datatools/includes/note_settings_general_md.md)]  
+ [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
   
 ## Creating Build Configurations  
  You can use the **Configuration Manager** dialog box to select or modify existing build configurations, or you can create new ones.  

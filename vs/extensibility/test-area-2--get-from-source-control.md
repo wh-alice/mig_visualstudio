@@ -1,7 +1,7 @@
 ---
-title: "Test Area 2: Get From Source Control"
+title: "Test Area 2: Get From Source Control | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ translation.priority.mt:
 This test area covers test cases for retrieving items from the version store via the Get command. These test cases can be applied to both local and to Web projects.  
   
 ## Command Menu Access  
- The following [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment menu paths are used in the test cases.  
+ The following [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment menu paths are used in the test cases.  
   
 ##### Get Latest Version:  
   

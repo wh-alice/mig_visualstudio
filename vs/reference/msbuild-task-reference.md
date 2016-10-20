@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Task Reference"
+title: "MSBuild Task Reference | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,7 +36,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # MSBuild Task Reference
-Tasks provide the code that runs during the build process. The tasks in the following list are included with [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)]. When [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)] is installed, additional tasks are available that are used to build [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)] projects. For more information, see [Visual C++ Tasks](../reference/msbuild-tasks-specific-to-visual-c--.md).  
+Tasks provide the code that runs during the build process. The tasks in the following list are included with [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)]. When [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] is installed, additional tasks are available that are used to build [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] projects. For more information, see [Visual C++ Tasks](../reference/msbuild-tasks-specific-to-visual-c--.md).  
   
  In addition to the parameters listed in the topics in this section, each task also has the following parameters:  
   
@@ -83,7 +83,7 @@ Tasks provide the code that runs during the build process. The tasks in the foll
  Copies files to a new location.  
   
  [CreateCSharpManifestResourceName Task](../reference/createcsharpmanifestresourcename-task.md)  
- Creates a [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)]-style manifest name from a given .resx file name or other resource.  
+ Creates a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)]-style manifest name from a given .resx file name or other resource.  
   
  [CreateItem Task](../reference/createitem-task.md)  
  Populates item collections from the input items, allowing items to be copied from one list to another.  
@@ -92,7 +92,7 @@ Tasks provide the code that runs during the build process. The tasks in the foll
  Populates properties from the input values, allowing values to be copied from one property or string to another.  
   
  [CreateVisualBasicManifestResourceName Task](../reference/createvisualbasicmanifestresourcename-task.md)  
- Creates a [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)]-style manifest name from a given .resx file name or other resource.  
+ Creates a [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]-style manifest name from a given .resx file name or other resource.  
   
  [Csc Task](../reference/csc-task.md)  
  Invokes the Visual C# compiler to produce executables, dynamic-link libraries, or code modules.  
@@ -140,7 +140,7 @@ Tasks provide the code that runs during the build process. The tasks in the foll
  Retrieves the assembly identities from the specified files and outputs the identity information.  
   
  [GetFrameworkPath Task](../reference/getframeworkpath-task.md)  
- Retrieves the path to the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] assemblies.  
+ Retrieves the path to the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] assemblies.  
   
  [GetFrameworkSdkPath Task](../reference/getframeworksdkpath-task.md)  
  Retrieves the path to the [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)].  

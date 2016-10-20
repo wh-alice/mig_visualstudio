@@ -1,7 +1,7 @@
 ---
-title: "Attribute &#39;StructLayout&#39; can not be applied to a generic type"
+title: "Attribute &#39;StructLayout&#39; can not be applied to a generic type | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

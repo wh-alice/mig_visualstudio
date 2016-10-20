@@ -1,7 +1,7 @@
 ---
-title: "Shell Command"
+title: "Shell Command | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -39,7 +39,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Shell Command
-Launches executable programs from within [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+Launches executable programs from within [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 ## Syntax  
   

@@ -1,7 +1,7 @@
 ---
-title: "Error setting assembly manifest option: &lt;error message&gt;"
+title: "Error setting assembly manifest option: &lt;error message&gt; | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Error setting assembly manifest option: &lt;error message&gt;
-The [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] compiler calls the Assembly Linker (Al.exe, also known as Alink) to generate an assembly with a manifest. The linker reported an error finding a key file or key name with which to sign the assembly.  
+The [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler calls the Assembly Linker (Al.exe, also known as Alink) to generate an assembly with a manifest. The linker reported an error finding a key file or key name with which to sign the assembly.  
   
  **Error ID:** BC30139  
   

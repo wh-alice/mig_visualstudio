@@ -1,7 +1,7 @@
 ---
-title: "Division by zero (Visual Basic Run-Time Error)"
+title: "Division by zero (Visual Basic Run-Time Error) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

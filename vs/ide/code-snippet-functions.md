@@ -1,7 +1,7 @@
 ---
-title: "Code Snippet Functions"
+title: "Code Snippet Functions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,16 +33,16 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Code Snippet Functions
-There are three functions available to use with [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] code snippets. Functions are specified in the [Function](http://msdn.microsoft.com/en-us/572c5549-5821-4e15-8ecd-0fa86c1c65df) element of the code snippet. For information on creating code snippets, see [Code Snippets](../ide/code-snippets.md).  
+There are three functions available to use with [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] code snippets. Functions are specified in the [Function](http://msdn.microsoft.com/en-us/572c5549-5821-4e15-8ecd-0fa86c1c65df) element of the code snippet. For information on creating code snippets, see [Code Snippets](../ide/code-snippets.md).  
   
 ## Functions  
  The following table describes the functions available for use with the `Function` element in code snippets.  
   
 |Function|Description|Language|  
 |--------------|-----------------|--------------|  
-|`GenerateSwitchCases(` `EnumerationLiteral` `)`|Generates a switch statement and a set of case statements for the members of the enumeration specified by the `EnumerationLiteral` parameter. The `EnumerationLiteral` parameter must be either a reference to an enumeration literal or an enumeration type.|[!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)]|  
-|`ClassName()`|Returns the name of the class that contains the inserted snippet.|[!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)]|  
-|`SimpleTypeName(` `TypeName` `)`|Reduces the *TypeName* parameter to its simplest form in the context in which the snippet was invoked.|[!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)]|  
+|`GenerateSwitchCases(` `EnumerationLiteral` `)`|Generates a switch statement and a set of case statements for the members of the enumeration specified by the `EnumerationLiteral` parameter. The `EnumerationLiteral` parameter must be either a reference to an enumeration literal or an enumeration type.|[!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)]|  
+|`ClassName()`|Returns the name of the class that contains the inserted snippet.|[!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)]|  
+|`SimpleTypeName(` `TypeName` `)`|Reduces the *TypeName* parameter to its simplest form in the context in which the snippet was invoked.|[!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)]|  
   
 ## Example  
  The following example shows how to use the `GenerateSwitchCases` function. When this snippet is inserted and an enumeration is entered into the `$switch_on$` literal, the `$cases$` literal generates a `case` statement for every value in the enumeration.  

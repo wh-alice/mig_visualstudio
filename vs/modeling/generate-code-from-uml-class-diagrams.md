@@ -1,7 +1,7 @@
 ---
-title: "Generate code from UML class diagrams"
+title: "Generate code from UML class diagrams | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -177,7 +177,7 @@ To generate Visual C# .NET code from UML class diagrams in Visual Studio, use th
     |Name|A name for this binding. To override a binding inherited from a containing package or model, use the same name as the binding you want to override.|  
     |Overwrite|If true, any existing code is overwritten.|  
     |Target Name|The name of the file that is generated.<br /><br /> You can insert expressions into this string such as `{Name}` or `{Owner.Name}`. For example, you could write: `{Owner.Name}_{Name}`. The expression is evaluated on the model element. It can use properties of elements, but not methods. To find what properties can be used, look at the properties of types in **Microsoft.VisualStudio.Uml.\***. **Important:**  `{Name}` or `{Owner.Name}` can be used only in the **Target Name** property. To change the name of the generated class, you have to modify the template. For more information, see [Writing a Text Template](#writing).|  
-    |Project Path|Specifies the path to the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] project that will contain the transformation's output files. Use typed values to create a new project. Choose the ellipsis button (**[…]**) to select an existing project.<br /><br /> A new project will be created if it does not exist. It will be a C# class library project.<br /><br /> To do this, you must type the project directly. You can include environment variable macros such as %ProgramFiles% or %LocalAppData%.|  
+    |Project Path|Specifies the path to the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project that will contain the transformation's output files. Use typed values to create a new project. Choose the ellipsis button (**[…]**) to select an existing project.<br /><br /> A new project will be created if it does not exist. It will be a C# class library project.<br /><br /> To do this, you must type the project directly. You can include environment variable macros such as %ProgramFiles% or %LocalAppData%.|  
     |Target Directory|The folder in which the target file is generated. The path is relative to the project folder.<br /><br /> You can use the `{PackageStructure}` expression to insert a path that corresponds to the names of the containing packages. The default value is `\GeneratedCode\{PackageStructure}`. You can also include environment variables such as %TEMP% or %HomePath%. **Important:**  `{PackageStructure}` can be used only in the **Target Directory** property.|  
     |Template File Path|The template that will perform the transform.<br /><br /> You can either use the provided templates or create your own. You can find the provided templates in the following location:<br /><br /> …\Program Files\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Microsoft\Architecture Tools\Extensibility\Templates\Text\|  
   

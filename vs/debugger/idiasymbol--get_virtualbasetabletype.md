@@ -1,7 +1,7 @@
 ---
-title: "IDiaSymbol::get_virtualBaseTableType"
+title: "IDiaSymbol::get_virtualBaseTableType | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -57,7 +57,7 @@ HRESULT get_virtualBaseTableType(
 >  A return value of `S_FALSE` means the property is not available for the symbol.  
   
 ## Remarks  
- A virtual base table pointer (`vbtptr`) is a hidden pointer in a [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)] vtable that handles inheritance from virtual base classes. A `vbtptr` can have different sizes depending on the inherited classes.  
+ A virtual base table pointer (`vbtptr`) is a hidden pointer in a [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] vtable that handles inheritance from virtual base classes. A `vbtptr` can have different sizes depending on the inherited classes.  
   
  This method returns an [IDiaSymbol](../debugger/idiasymbol.md) object that can be used to determine the size of the vbtptr.  
   

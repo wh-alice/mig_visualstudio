@@ -1,7 +1,7 @@
 ---
-title: "Setting General Performance Session Options"
+title: "Setting General Performance Session Options | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,11 +31,11 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Setting General Performance Session Options
-You can set the collection method and profiling data naming conventions for a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Profiling Tools performance session on the **General** page of the properties dialog box for the performance session. To open this dialog box from **Performance Explorer**, right-click the performance session, and then click **Properties**.  
+You can set the collection method and profiling data naming conventions for a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools performance session on the **General** page of the properties dialog box for the performance session. To open this dialog box from **Performance Explorer**, right-click the performance session, and then click **Properties**.  
   
  **Requirements**  
   
--   [!INCLUDE[vsUltLong](../codequality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../codequality/includes/vsprelong_md.md)], [!INCLUDE[vsPro](../codequality/includes/vspro_md.md)]  
+-   [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)], [!INCLUDE[vsPro](../code-quality/includes/vspro_md.md)]  
   
 ## Choosing Data Collection Methods  
  You set the base collection method by selecting one of the options under **Profiling collection**. The options are described following in the following table:  

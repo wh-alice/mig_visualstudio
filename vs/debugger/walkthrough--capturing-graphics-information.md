@@ -1,7 +1,7 @@
 ---
-title: "Walkthrough: Capturing Graphics Information"
+title: "Walkthrough: Capturing Graphics Information | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -30,7 +30,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Walkthrough: Capturing Graphics Information
-This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Graphics Diagnostics to manually capture graphics information from a Direct3D app.  
+This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Graphics Diagnostics to manually capture graphics information from a Direct3D app.  
   
  This walkthrough illustrates these tasks:  
   
@@ -43,7 +43,7 @@ This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../codequality/in
   
 #### To enable the capture of graphics information after a project or solution is loaded  
   
-1.  In [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], load a project or solution file for the app that you want to capture graphics information from.  
+1.  In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], load a project or solution file for the app that you want to capture graphics information from.  
   
 2.  On the Graphics Diagnostics toolbar, choose **Start Diagnostics**.  
   

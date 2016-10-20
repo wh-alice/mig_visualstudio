@@ -1,7 +1,7 @@
 ---
-title: "Developing a Legacy Language Service"
+title: "Developing a Legacy Language Service | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -46,7 +46,7 @@ This section links to topics that help you create a legacy language service.
   
 ## In This Section  
  [Model of a Legacy Language Service](../extensibility/model-of-a-legacy-language-service.md)  
- Provides a model of a minimal language service for the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] core editor. You can use this model as a guide for creating your own language service.  
+ Provides a model of a minimal language service for the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] core editor. You can use this model as a guide for creating your own language service.  
   
  [Legacy Language Service Interfaces](../extensibility/legacy-language-service-interfaces.md)  
  Discusses the objects required to implement a language service and provides a listing of additional objects that you can use to provide syntax highlighting, method data, and other features.  
@@ -55,7 +55,7 @@ This section links to topics that help you create a legacy language service.
  Describes how to insert a command filter into your language service to intercept commands that the text view would otherwise handle.  
   
  [Registering a Legacy Language Service](../extensibility/registering-a-legacy-language-service2.md)  
- Provides information about how to register your language service by using [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+ Provides information about how to register your language service by using [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
  [Language Service Support for Debugging](../extensibility/language-service-support-for-debugging.md)  
  Describes how a language service can provide features to support a debugger.  

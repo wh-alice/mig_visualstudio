@@ -1,7 +1,7 @@
 ---
-title: "UML Use Case Diagrams: Reference"
+title: "UML Use Case Diagrams: Reference | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -69,7 +69,7 @@ In Visual Studio, a *use case diagram* summarizes who uses your application or s
 |7|**Inheritance**|Relates a specialized and a generalized element. The generalized element is at the arrowhead end.<br /><br /> A specialized use case inherits the goals and actors of its generalization, and may add more specific goals and steps for achieving them.<br /><br /> A specialized actor inherits the use cases, attributes and associations of its generalization, and may add more.|  
 |8|**Dependency**|Indicates that the design of the source depends on the design of the target.|  
 |9|**Comment**|Used to add general notes to the diagram.|  
-|10|**Artifact**|An artifact provides a link to another diagram or document. You can create it by dragging a file from Solution Explorer. It can be linked with a Dependency to any other element on the diagram. An artifact is typically used to link a use case to a sequence diagram, OneNote page, Word document or PowerPoint presentation that describes it in detail. The document can either be an item in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] solution, or a document in a shared location such as a SharePoint site.<br /><br /> -   **Hyperlink**. The URL or file path of the diagram or document.<br /><br /> Double-click an artifact to open the file or web page to which it links.|  
+|10|**Artifact**|An artifact provides a link to another diagram or document. You can create it by dragging a file from Solution Explorer. It can be linked with a Dependency to any other element on the diagram. An artifact is typically used to link a use case to a sequence diagram, OneNote page, Word document or PowerPoint presentation that describes it in detail. The document can either be an item in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution, or a document in a shared location such as a SharePoint site.<br /><br /> -   **Hyperlink**. The URL or file path of the diagram or document.<br /><br /> Double-click an artifact to open the file or web page to which it links.|  
 |11 (not shown)|**Packages**|Use cases, actors, and subsystems can be contained within packages. Package shapes do not appear on the diagram, but you can set the **LinkedPackage** property of the diagram. Elements that you subsequently create on the diagram are placed within the package. For more information, see [Define packages and namespaces](../modeling/define-packages-and-namespaces.md).|  
   
 ## See Also  

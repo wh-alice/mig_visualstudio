@@ -1,7 +1,7 @@
 ---
-title: "Debug a WebView control"
+title: "Debug a WebView control | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Debug a WebView control
-![Applies to Windows and Windows Phone](../codequality/media/windows_and_phone_content.png "windows_and_phone_content")  
+![Applies to Windows and Windows Phone](../code-quality/media/windows_and_phone_content.png "windows_and_phone_content")  
   
  To inspect and debug `WebView` controls in a Windows Runtime app, you can configure Visual Studio to attach the script debugger when you start your app. Starting with Visual Studio 2013 Update 2, you have two ways to interact with `WebView` controls using the debugger:  
   

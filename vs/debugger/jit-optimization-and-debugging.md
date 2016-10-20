@@ -1,7 +1,7 @@
 ---
-title: "JIT Optimization and Debugging"
+title: "JIT Optimization and Debugging | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -37,9 +37,9 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # JIT Optimization and Debugging
-When you debug a managed application, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] suppresses optimization of just-in-time (JIT) code by default. Suppressing JIT optimization means you are debugging non-optimized code. The code runs a bit slower because it is not optimized, but your debugging experience is much more thorough. Debugging optimized code is harder and recommended only if you encounter a bug that occurs in optimized code but cannot be reproduced in the non-optimized version.  
+When you debug a managed application, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] suppresses optimization of just-in-time (JIT) code by default. Suppressing JIT optimization means you are debugging non-optimized code. The code runs a bit slower because it is not optimized, but your debugging experience is much more thorough. Debugging optimized code is harder and recommended only if you encounter a bug that occurs in optimized code but cannot be reproduced in the non-optimized version.  
   
- JIT optimization is controlled in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] by the **Suppress JIT optimization on module load** option. You can find this option on the **General** page under the **Debugging** node in the **Options** dialog box.  
+ JIT optimization is controlled in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] by the **Suppress JIT optimization on module load** option. You can find this option on the **General** page under the **Debugging** node in the **Options** dialog box.  
   
  If you clear the **Suppress JIT optimization on module load** option, you can debug optimized JIT code, but your ability to debug may be limited because the optimized code does not match the source code. As a result, debugger windows such as the **Locals** and **Autos** window may not display as much information as they would if you were debugging non-optimized code.  
   

@@ -1,7 +1,7 @@
 ---
-title: "Automation Model Overview"
+title: "Automation Model Overview | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -42,7 +42,7 @@ Visual Studio automation objects
   
  For more information, see [Extending the Visual Studio Environment](../Topic/Extending%20the%20Visual%20Studio%20Environment.md).  
   
- The environment provides a model for different functional areas. For instance, there is a code model for various elements that you might find in code. There is a document model for various document elements. One area, the project area, is of particular interest to VSPackage providers. You will likely want your new project types to contribute to the automation model in much the same way as [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)] and [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] contribute to the automation model. That process is outlined in [Providing Automation for VSPackages](../extensibility/providing-automation-for-vspackages.md).  
+ The environment provides a model for different functional areas. For instance, there is a code model for various elements that you might find in code. There is a document model for various document elements. One area, the project area, is of particular interest to VSPackage providers. You will likely want your new project types to contribute to the automation model in much the same way as [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] and [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] contribute to the automation model. That process is outlined in [Providing Automation for VSPackages](../extensibility/providing-automation-for-vspackages.md).  
   
  Places where you can consider extending the automation model of the environment:  
   

@@ -1,7 +1,7 @@
 ---
-title: "Deploying Domain-Specific Language Solutions"
+title: "Deploying Domain-Specific Language Solutions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,7 +15,7 @@ ms.author: "awills"
 manager: "kamrani"
 ---
 # Deploying Domain-Specific Language Solutions
-You can install a domain-specific language on your own computer or on other computers. [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] must already be installed on the target computer.  
+You can install a domain-specific language on your own computer or on other computers. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] must already be installed on the target computer.  
   
 -   [MSI and VSIX Deployment of a DSL](../modeling/msi-and-vsix-deployment-of-a-dsl.md)  
   

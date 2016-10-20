@@ -1,7 +1,7 @@
 ---
-title: "Installing VSPackages"
+title: "Installing VSPackages | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,11 +32,11 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Installing VSPackages
-This section discusses how to build and install VSPackages and how to support users who are running multiple versions of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] at the same time.  
+This section discusses how to build and install VSPackages and how to support users who are running multiple versions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] at the same time.  
   
 ## In This Section  
  [Supporting Multiple Versions of Visual Studio](../extensibility/supporting-multiple-versions-of-visual-studio.md)  
- Describes issues related to multiple versions of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and your VSPackage during development and deployment to end users.  
+ Describes issues related to multiple versions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and your VSPackage during development and deployment to end users.  
   
  [Installing VSPackages With Windows Installer](../extensibility/installing-vspackages-with-windows-installer.md)  
  Describes how to release your VSPackages as an installable product.  
@@ -46,7 +46,7 @@ This section discusses how to build and install VSPackages and how to support us
  Describes how you can extend [!INCLUDE[vsprvstte](../Token/vsprvstte_md.md)] to support new types of tests.  
   
  [Visual Studio Integration Tests](http://msdn.microsoft.com/en-us/8d741735-7d93-46c2-ab93-01da7a0e016d)  
- Provides a set of tests to help make sure that VSPackages correctly integrate into [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+ Provides a set of tests to help make sure that VSPackages correctly integrate into [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
  [Releasing a Product](../misc/releasing-a-visual-studio-integration-product.md)  
- Shows how to release a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integration product.
+ Shows how to release a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integration product.

@@ -1,7 +1,7 @@
 ---
-title: "Options Dialog Box,  Projects and Solutions, Build and Run"
+title: "Options Dialog Box,  Projects and Solutions, Build and Run | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -47,7 +47,7 @@ In this dialog box, you can specify the maximum number of Visual C++ or Visual C
   
  **On Run, when projects are out of date**  
  > [!NOTE]
->  This list applies to [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)] projects only.  
+>  This list applies to [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] projects only.  
   
  By default, a message appears if a project configuration is out of date when you choose the F5 key or choose **Debug**, **Start** on the menu bar. You can specify whether to build the project anyway and whether the message appears. Use this option to specify whether the message appears and what the build behavior should be if the message doesn't appear.  
   
@@ -64,7 +64,7 @@ In this dialog box, you can specify the maximum number of Visual C++ or Visual C
  If build errors occur when you start a build from the **Build** menu, a message appears. You can specify whether to continue by starting the application and whether the message appears every time that build errors occur. Use this option to specify whether the message appears and what the behavior should be if the message doesn't appear.  
   
 > [!NOTE]
->  This option applies to [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)] projects only.  
+>  This option applies to [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] projects only.  
   
  **Prompt to launch**  
  Displays a message box every time that build errors occur.  

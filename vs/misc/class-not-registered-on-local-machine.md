@@ -1,7 +1,7 @@
 ---
-title: "Class not registered on local machine"
+title: "Class not registered on local machine | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,11 +32,11 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Class not registered on local machine
-This error is usually encountered as a result of a corrupted file. You may need to reinstall [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+This error is usually encountered as a result of a corrupted file. You may need to reinstall [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 ### To correct this error  
   
--   Reinstall [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+-   Reinstall [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 ## See Also  
  [Error Types](../Topic/Error%20Types%20\(Visual%20Basic\).md)   

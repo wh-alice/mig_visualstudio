@@ -1,7 +1,7 @@
 ---
-title: "Find-Command Box"
+title: "Find-Command Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ translation.priority.ht:
 # Find/Command Box
 You can search for text and run Visual Studio commands from the **Find/Command** box. The **Find/Command** box is still available as a toolbar control, but is no longer visible by default. You can display the **Find/Command** box by choosing **Add or Remove Buttons** on the **Standard** toolbar and then choosing **Find**.  
   
- To run a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] command, preface it with a greater than (>) sign.  
+ To run a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] command, preface it with a greater than (>) sign.  
   
  The **Find/Command** box retains the last 20 items entered and displays them in a drop-down list. You can navigate through the list by choosing the arrow keys.  
   
@@ -46,7 +46,7 @@ Find/Command Box
  By default, when you specify text in the **Find/Command** box and then choose the ENTER key, Visual Studio searches the current document or tool window using the options that are specified in the **Find in Files** dialog box. For more information, see [Finding and Replacing Text](../ide/finding-and-replacing-text.md).  
   
 ## Entering Commands  
- To use the **Find/Command** box to issue a single [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] command or alias rather than search for text, enter the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] command, prefaced with a greater than (>) symbol. For example:  
+ To use the **Find/Command** box to issue a single [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] command or alias rather than search for text, enter the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] command, prefaced with a greater than (>) symbol. For example:  
   
 ```  
 >File.NewFile c:\temp\MyFile /t:"General\Text File"  

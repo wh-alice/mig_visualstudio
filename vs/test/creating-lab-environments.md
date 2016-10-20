@@ -1,7 +1,7 @@
 ---
-title: "Creating Lab Environments"
+title: "Creating Lab Environments | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -29,7 +29,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Creating Lab Environments
-To create either standard lab environments or SCVMM lab environments, you use **Lab Center** in [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)]. For an introduction to lab environments, see [Using a Lab Environment for Your Application Lifecycle](../test/using-a-lab-environment-for-your-application-lifecycle.md).  
+To create either standard lab environments or SCVMM lab environments, you use **Lab Center** in [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)]. For an introduction to lab environments, see [Using a Lab Environment for Your Application Lifecycle](../test/using-a-lab-environment-for-your-application-lifecycle.md).  
   
  **Requirements**  
   
@@ -39,7 +39,7 @@ To create either standard lab environments or SCVMM lab environments, you use **
  Before you create lab environments, you might need to configure your lab management components. See [Test on a lab environment](../test/test-on-a-lab-environment.md).  
   
 > [!IMPORTANT]
->  To create a lab environment that can contain physical or virtual machines that are running Windows XP, perform the additional steps listed in [Configuring Lab Environments that Contain Windows XP or Windows Server 2003 Machines](../test/e646c59c-47e4-47a5-bf9f-67f375ad1915.md).  
+>  To create a lab environment that can contain physical or virtual machines that are running Windows XP, perform the additional steps listed in [Configuring Lab Environments that Contain Windows XP or Windows Server 2003 Machines](../test/configuring-lab-environments-that-contain-windows-xp-or-windows-server-2003-machines.md).  
   
 ##  <a name="thissection"></a> Creating a lab environment  
  To create a lab environment, open **Microsoft Test Manager**, choose **Lab Center**, and then choose the **Lab** tab. A list appears, showing the environments already deployed in your team project collection. Use this tab to create lab environments and manage those that are running. For information about managing lab environments and importing or creating stored virtual machines and templates, see [Managing Lab Environments and Virtual Machines](../test/managing-lab-environments-and-virtual-machines.md).  

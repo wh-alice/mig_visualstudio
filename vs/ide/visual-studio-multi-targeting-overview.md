@@ -1,7 +1,7 @@
 ---
-title: "Visual Studio Multi-Targeting Overview"
+title: "Visual Studio Multi-Targeting Overview | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,7 +34,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Visual Studio Multi-Targeting Overview
-In this version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], you can specify the version of the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] that is required for your application. Therefore, if you want to use this version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] to continue to develop a project that you started in an earlier version, you do not have to change the framework target. You could also create a solution that contains projects that target different versions of the framework. Framework targeting also helps guarantee that the application uses only functionality that is available in the specified version of the framework.  
+In this version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], you can specify the version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] that is required for your application. Therefore, if you want to use this version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to continue to develop a project that you started in an earlier version, you do not have to change the framework target. You could also create a solution that contains projects that target different versions of the framework. Framework targeting also helps guarantee that the application uses only functionality that is available in the specified version of the framework.  
   
 > [!TIP]
 >  You can also target applications for different platforms. For more information, see [Multitargeting](../reference/msbuild-multitargeting-overview.md)  
@@ -42,17 +42,17 @@ In this version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], you
 ## Framework Targeting Features  
  Framework targeting includes the following features:  
   
--   When you open a project that targets an earlier version of the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)], [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)] can automatically upgrade it or leave the target as is.  
+-   When you open a project that targets an earlier version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] can automatically upgrade it or leave the target as is.  
   
--   When you create a project, you can specify the version of the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] that you want to target.  
+-   When you create a project, you can specify the version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] that you want to target.  
   
--   You can change the version of the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] that an existing project targets.  
+-   You can change the version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] that an existing project targets.  
   
--   You can target a different version of the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] in each of several projects in the same solution.  
+-   You can target a different version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] in each of several projects in the same solution.  
   
--   When you change the version of the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] that a project targets, [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)] makes any required changes to references and configuration files.  
+-   When you change the version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] that a project targets, [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] makes any required changes to references and configuration files.  
   
- When you work on a project that targets an earlier version of the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)], Visual Studio dynamically changes the development environment, as follows:  
+ When you work on a project that targets an earlier version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], Visual Studio dynamically changes the development environment, as follows:  
   
 -   It filters items in the **New Project** dialog box, the **Add New Item** dialog box, the **Add New Reference** dialog box, and the **Add Service Reference** dialog box to omit choices that are not available in the targeted version.  
   
@@ -70,7 +70,7 @@ In this version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], you
 >  Framework targeting does not guarantee that your application will run correctly. You must test your application to make sure it runs against the targeted version. You cannot target framework versions that are earlier than the .NET Framework 2.0.  
   
 ## Selecting a Target Framework Version  
- When you create a project, select the target [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] version in the **New Project** dialog box. The list of available project templates is filtered based on the selection. In an existing project, you can change the target [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] version in the project properties dialog box. For more information, see [How to: Target a Version of the .NET Framework](../ide/how-to--target-a-version-of-the-.net-framework.md).  
+ When you create a project, select the target [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] version in the **New Project** dialog box. The list of available project templates is filtered based on the selection. In an existing project, you can change the target [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] version in the project properties dialog box. For more information, see [How to: Target a Version of the .NET Framework](../ide/how-to--target-a-version-of-the-.net-framework.md).  
   
 > [!NOTE]
 >  In Express editions of Visual Studio, you cannot set the target framework in the **New Project** dialog box.  
@@ -81,7 +81,7 @@ In this version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], you
 > [!NOTE]
 >  A .NET Framework client profile is a subset of the .NET Framework that provides a limited set of libraries and features. For more information about client profiles, see [.NET Framework Client Profile](../Topic/.NET%20Framework%20Client%20Profile.md).  
   
- The **Add Reference** dialog box disables system assemblies that do not pertain to the target [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] version so that they cannot be added to a project inadvertently. (System assemblies are .dll files that are included in a [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] version.) References that belong to a framework version that is later than the targeted version will not resolve, and controls that depend on such a reference cannot be added. If you want to enable such a reference, reset the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] target of the project to one that includes the reference.  For more information, see [Introduction to the Project Designer](http://msdn.microsoft.com/en-us/898dd854-c98d-430c-ba1b-a913ce3c73d7).  
+ The **Add Reference** dialog box disables system assemblies that do not pertain to the target [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] version so that they cannot be added to a project inadvertently. (System assemblies are .dll files that are included in a [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] version.) References that belong to a framework version that is later than the targeted version will not resolve, and controls that depend on such a reference cannot be added. If you want to enable such a reference, reset the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] target of the project to one that includes the reference.  For more information, see [Introduction to the Project Designer](http://msdn.microsoft.com/en-us/898dd854-c98d-430c-ba1b-a913ce3c73d7).  
   
  For more information about assembly references, see [Resolving Assemblies at Design Time](../reference/resolving-assemblies-at-design-time.md).  
   

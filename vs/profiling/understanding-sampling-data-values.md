@@ -1,7 +1,7 @@
 ---
-title: "Understanding Sampling Data Values"
+title: "Understanding Sampling Data Values | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,11 +33,11 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Understanding Sampling Data Values
-The *sampling* profiling method of the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Profiling Tools interrupts the computer processor at set intervals and collects the function call stack. A *call stack* is a dynamic structure that stores information about the functions that are executing on the processor.  
+The *sampling* profiling method of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools interrupts the computer processor at set intervals and collects the function call stack. A *call stack* is a dynamic structure that stores information about the functions that are executing on the processor.  
   
  **Requirements**  
   
--   [!INCLUDE[vsUltLong](../codequality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../codequality/includes/vsprelong_md.md)], [!INCLUDE[vsPro](../codequality/includes/vspro_md.md)]  
+-   [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)], [!INCLUDE[vsPro](../code-quality/includes/vspro_md.md)]  
   
  The profiler analysis determines whether the processor is executing code in the target process. If the processor is not executing code in the target process, the sample is discarded.  
   

@@ -1,7 +1,7 @@
 ---
-title: "&#39;&lt;namespace&gt;&#39; is not a valid name and cannot be used as the root namespace name"
+title: "&#39;&lt;namespace&gt;&#39; is not a valid name and cannot be used as the root namespace name | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

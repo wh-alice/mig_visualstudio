@@ -1,7 +1,7 @@
 ---
-title: "IDE Constants"
+title: "IDE Constants | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -64,30 +64,30 @@ The <xref:Microsoft.VisualStudio.VSConstants> class provides constants that are 
 |Value|Description|  
 |-----------|-----------------|  
 |<xref:Microsoft.VisualStudio.VSConstants.VS_E_BUSY>|A constant returned by interfaces to asynchronous behavior when the object in question in already busy|  
-|<xref:Microsoft.VisualStudio.VSConstants.VS_E_INCOMPATIBLEDOCDATA>|An error HRESULT that is specific to [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] for "Incompatible document data".|  
-|<xref:Microsoft.VisualStudio.VSConstants.VS_E_PACKAGENOTLOADED>|An error HRESULT that is specific to [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and that indicates "Package not loaded."|  
-|<xref:Microsoft.VisualStudio.VSConstants.VS_E_PROJECTALREADYEXISTS>|An error HRESULT that is specific to [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and that indicates that the "Project already exists."|  
-|<xref:Microsoft.VisualStudio.VSConstants.VS_E_PROJECTMIGRATIONFAILED>|An error HRESULT that is specific to [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and that indicates "Project configuration failed."|  
-|<xref:Microsoft.VisualStudio.VSConstants.VS_E_PROJECTNOTLOADED>|An error HRESULT that is specific to [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and that indicates "Project not loaded."|  
-|<xref:Microsoft.VisualStudio.VSConstants.VS_E_SOLUTIONALREADYOPEN>|An error HRESULT that is specific to [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and that indicates "Solution already open."|  
-|<xref:Microsoft.VisualStudio.VSConstants.VS_E_SOLUTIONNOTOPEN>|An error HRESULT that is specific to [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and that indicates "Solution not open."|  
+|<xref:Microsoft.VisualStudio.VSConstants.VS_E_INCOMPATIBLEDOCDATA>|An error HRESULT that is specific to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] for "Incompatible document data".|  
+|<xref:Microsoft.VisualStudio.VSConstants.VS_E_PACKAGENOTLOADED>|An error HRESULT that is specific to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and that indicates "Package not loaded."|  
+|<xref:Microsoft.VisualStudio.VSConstants.VS_E_PROJECTALREADYEXISTS>|An error HRESULT that is specific to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and that indicates that the "Project already exists."|  
+|<xref:Microsoft.VisualStudio.VSConstants.VS_E_PROJECTMIGRATIONFAILED>|An error HRESULT that is specific to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and that indicates "Project configuration failed."|  
+|<xref:Microsoft.VisualStudio.VSConstants.VS_E_PROJECTNOTLOADED>|An error HRESULT that is specific to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and that indicates "Project not loaded."|  
+|<xref:Microsoft.VisualStudio.VSConstants.VS_E_SOLUTIONALREADYOPEN>|An error HRESULT that is specific to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and that indicates "Solution already open."|  
+|<xref:Microsoft.VisualStudio.VSConstants.VS_E_SOLUTIONNOTOPEN>|An error HRESULT that is specific to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and that indicates "Solution not open."|  
 |<xref:Microsoft.VisualStudio.VSConstants.VS_E_SPECIFYING_OUTPUT_UNSUPPORTED>|Returned by build interfaces that have parameters for specifying an array from the <xref:Microsoft.VisualStudio.Shell.Interop.IVsOutput> interface, but the implementation can only apply the method to all outputs.|  
 |<xref:Microsoft.VisualStudio.VSConstants.VS_E_UNSUPPORTEDFORMAT>|The <xref:Microsoft.VisualStudio.Package.EditorFactory.CreateEditorInstance*> method returns this value if the document has a format that cannot be opened in the editor.|  
-|<xref:Microsoft.VisualStudio.VSConstants.VS_E_WIZARDBACKBUTTONPRESS>|An HRESULT value that indicates that the user hit the back button in a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] wizard.|  
+|<xref:Microsoft.VisualStudio.VSConstants.VS_E_WIZARDBACKBUTTONPRESS>|An HRESULT value that indicates that the user hit the back button in a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] wizard.|  
   
 ## Visual Studio Constants  
   
 |Value|Description|  
 |-----------|-----------------|  
-|<xref:Microsoft.VisualStudio.VSConstants.VS_S_PROJECTFORWARDED>|An error HRESULT that is specific to [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and that indicates "Project forwarded."|  
-|<xref:Microsoft.VisualStudio.VSConstants.VS_S_TBXMARKER>|A constant that is specific to [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] for a "Toolbox marker."|  
-|<xref:Microsoft.VisualStudio.VSConstants.VSM_ENTERMODAL>|A constant that is specific to [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] for broadcasting a notification message via the <xref:Microsoft.VisualStudio.Shell.Interop.IVsBroadcastMessageEvents.OnBroadcastMessage*> method which indicates the beginning of modality.|  
-|<xref:Microsoft.VisualStudio.VSConstants.VSM_EXITMODAL>|A constant that is specific to [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] for broadcasting a notification message via the <xref:Microsoft.VisualStudio.Shell.Interop.IVsBroadcastMessageEvents.OnBroadcastMessage*> method that indicates the end of modality.|  
-|<xref:Microsoft.VisualStudio.VSConstants.VSM_TOOLBARMETRICSCHANGE>|A constant that is specific to [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] for broadcasting a notification message via the <xref:Microsoft.VisualStudio.Shell.Interop.IVsBroadcastMessageEvents.OnBroadcastMessage*> method indicating that the command bar metrics have changed.|  
-|<xref:Microsoft.VisualStudio.VSConstants.VSCOOKIE_NIL>|A constant that is specific to [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] that indicates that a cookie has not been set.|  
-|<xref:Microsoft.VisualStudio.VSConstants.VSITEMID_NIL>|A [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] item identifier that represents the absence of a project item. This value is used when there is no current selection.|  
-|<xref:Microsoft.VisualStudio.VSConstants.VSITEMID_ROOT>|A [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] item identifier that represents the root of a project hierarchy and is used to identify the entire hierarchy, as opposed to a single item.|  
-|<xref:Microsoft.VisualStudio.VSConstants.VSITEMID_SELECTION>|A [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] item identifier that represents the currently selected item or items, which can include the root of the hierarchy.|  
+|<xref:Microsoft.VisualStudio.VSConstants.VS_S_PROJECTFORWARDED>|An error HRESULT that is specific to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and that indicates "Project forwarded."|  
+|<xref:Microsoft.VisualStudio.VSConstants.VS_S_TBXMARKER>|A constant that is specific to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] for a "Toolbox marker."|  
+|<xref:Microsoft.VisualStudio.VSConstants.VSM_ENTERMODAL>|A constant that is specific to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] for broadcasting a notification message via the <xref:Microsoft.VisualStudio.Shell.Interop.IVsBroadcastMessageEvents.OnBroadcastMessage*> method which indicates the beginning of modality.|  
+|<xref:Microsoft.VisualStudio.VSConstants.VSM_EXITMODAL>|A constant that is specific to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] for broadcasting a notification message via the <xref:Microsoft.VisualStudio.Shell.Interop.IVsBroadcastMessageEvents.OnBroadcastMessage*> method that indicates the end of modality.|  
+|<xref:Microsoft.VisualStudio.VSConstants.VSM_TOOLBARMETRICSCHANGE>|A constant that is specific to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] for broadcasting a notification message via the <xref:Microsoft.VisualStudio.Shell.Interop.IVsBroadcastMessageEvents.OnBroadcastMessage*> method indicating that the command bar metrics have changed.|  
+|<xref:Microsoft.VisualStudio.VSConstants.VSCOOKIE_NIL>|A constant that is specific to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] that indicates that a cookie has not been set.|  
+|<xref:Microsoft.VisualStudio.VSConstants.VSITEMID_NIL>|A [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] item identifier that represents the absence of a project item. This value is used when there is no current selection.|  
+|<xref:Microsoft.VisualStudio.VSConstants.VSITEMID_ROOT>|A [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] item identifier that represents the root of a project hierarchy and is used to identify the entire hierarchy, as opposed to a single item.|  
+|<xref:Microsoft.VisualStudio.VSConstants.VSITEMID_SELECTION>|A [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] item identifier that represents the currently selected item or items, which can include the root of the hierarchy.|  
   
 ## IVsSelectionEvents  
  Describes what component of the IDE has just been selected, in an <xref:Microsoft.VisualStudio.Shell.Interop.IVsSelectionEvents.OnElementValueChanged*> call, for example.  

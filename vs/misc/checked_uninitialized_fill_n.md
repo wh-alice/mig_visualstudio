@@ -1,7 +1,7 @@
 ---
-title: "checked_uninitialized_fill_n"
+title: "checked_uninitialized_fill_n | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

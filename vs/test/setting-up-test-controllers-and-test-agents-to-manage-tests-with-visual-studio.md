@@ -1,5 +1,5 @@
 ---
-title: "Setting Up Test Controllers and Test Agents to Manage Tests with Visual Studio"
+title: "Setting Up Test Controllers and Test Agents to Manage Tests with Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/13/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -29,7 +29,7 @@ translation.priority.ht:
 # Setting Up Test Controllers and Test Agents to Manage Tests with Visual Studio
 This topic describes how to install and configure test controllers, if you're using Agents for Microsoft Visual Studio 2013, and test agents so you can manage tests in Visual Studio without using Microsoft Test Manager. If you want to set up test controllers for a lab environment using Microsoft Test Manager, see [Setting Up Test Controllers in Lab Environments](../test/setting-up-test-controllers-in-lab-environments.md).  
   
- After you set up your test controllers and test agents, you can assign roles to them in a test setting. You must do this if you are going to distribute tests to multiple machines using Visual Studio. For information about how to assign roles to test controllers and test agents, see [Assigning Roles to a Test Controller and Test Agent for Automated Testing in Visual Studio](../test/57ed43ae-4e67-4139-8aec-3e9fceb0a745.md).  
+ After you set up your test controllers and test agents, you can assign roles to them in a test setting. You must do this if you are going to distribute tests to multiple machines using Visual Studio. For information about how to assign roles to test controllers and test agents, see [Assigning Roles to a Test Controller and Test Agent for Automated Testing in Visual Studio](../test/assigning-roles-to-a-test-controller-and-test-agent-for-automated-testing-in-visual-studio.md).  
   
  These sections describe how to install and configure test controllers and test agents for testing in Visual Studio:  
   
@@ -142,7 +142,7 @@ This topic describes how to install and configure test controllers, if you're us
   
 4.  (Optional) To configure your test controller for load testing, choose **Configure for load testing**.  
   
-    1.  Type your [!INCLUDE[ssNoVersion](../datatools/includes/ssnoversion_md.md)] instance in **Create load test results database in the following SQL Server instance**.  
+    1.  Type your [!INCLUDE[ssNoVersion](../data-tools/includes/ssnoversion_md.md)] instance in **Create load test results database in the following SQL Server instance**.  
   
         > [!NOTE]
         >  If you do not have SQL Server installed, you can use SQL Express. For more information about how to download and install SQL Express, visit the following [Microsoft Web site](http://go.microsoft.com/fwlink/?LinkId=178451). For more information about sizing considerations, see [Using Test Controllers and Test Agents with Load Tests](../test/using-test-controllers-and-test-agents-with-load-tests.md).  
@@ -158,7 +158,7 @@ This topic describes how to install and configure test controllers, if you're us
      The test controller runs as a Windows Service named **Visual Studio Test Controller**. You can start and stop the service and view its properties in the **Services** tool in **Administrative Tools**.  
   
 > [!NOTE]
->  When you install a test controller on a computer, the registry entry HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control on that computer is set. This value silently changes the Service Control Manager time-out from 30 seconds to 10 minutes to provide more time for the test controller to start to communicate with [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] services. For more information, see [A service does not start, and events 7000 and 7011 are logged in Windows Server 2003, Windows Server 2008, and Windows Server 2008 R2](http://go.microsoft.com/fwlink/?LinkId=167904).  
+>  When you install a test controller on a computer, the registry entry HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control on that computer is set. This value silently changes the Service Control Manager time-out from 30 seconds to 10 minutes to provide more time for the test controller to start to communicate with [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] services. For more information, see [A service does not start, and events 7000 and 7011 are logged in Windows Server 2003, Windows Server 2008, and Windows Server 2008 R2](http://go.microsoft.com/fwlink/?LinkId=167904).  
   
  If you install the test controller on a computer that runs an operating system with user account control (UAC) the registry key HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\system\ LocalAccountTokenFilterPolicy is set to a value of 1. This disables remote restrictions of UAC to allow remote authentication if a test agent is configured to use a local account. For more information, see [Description of User Account Control and Remote Restrictions](http://go.microsoft.com/fwlink/?LinkId=181060).  
   
@@ -292,7 +292,7 @@ This topic describes how to install and configure test controllers, if you're us
   
 ## See Also  
  [Install and configure test agents](../test/install-and-configure-test-agents.md)   
- [Assigning Roles to a Test Controller and Test Agent for Automated Testing in Visual Studio](../test/57ed43ae-4e67-4139-8aec-3e9fceb0a745.md)   
+ [Assigning Roles to a Test Controller and Test Agent for Automated Testing in Visual Studio](../test/assigning-roles-to-a-test-controller-and-test-agent-for-automated-testing-in-visual-studio.md)   
  [How to: Set Up Your Test Agent to Run Tests that Interact with the Desktop](../test/how-to--set-up-your-test-agent-to-run-tests-that-interact-with-the-desktop.md)   
  [Configuring Ports for Test Controllers and Test Agents](../test/configuring-ports-for-test-controllers-and-test-agents.md)   
  [How to: Specify Timeout Periods for Test Controllers and Test Agents](../test/how-to--specify-timeout-periods-for-test-controllers-and-test-agents.md)

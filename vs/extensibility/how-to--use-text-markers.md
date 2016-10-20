@@ -1,7 +1,7 @@
 ---
-title: "How to: Use Text Markers"
+title: "How to: Use Text Markers | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -63,7 +63,7 @@ Text markers can be applied to edit a <xref:Microsoft.VisualStudio.TextManager.I
   
      For more information on how to create a context menu see, [Context Menus](../extensibility/context-menus.md).  
   
-6.  The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] environment calls the methods of the supplied interfaces, such as the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient.GetTipText*> method, or the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient.ExecMarkerCommand*> method as needed.  
+6.  The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] environment calls the methods of the supplied interfaces, such as the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient.GetTipText*> method, or the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient.ExecMarkerCommand*> method as needed.  
   
 ## See Also  
  [Using Text Markers with the Legacy API](../extensibility/using-text-markers-with-the-legacy-api.md)   

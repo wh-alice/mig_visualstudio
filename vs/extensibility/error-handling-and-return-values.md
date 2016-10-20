@@ -1,7 +1,7 @@
 ---
-title: "Error Handling and Return Values"
+title: "Error Handling and Return Values | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -42,7 +42,7 @@ VSPackages and COM use the same architecture for errors. The `SetErrorInfo` and 
   
  All objects that are related to VSPackages and that are involved in extending the IDE, including editor factories, editors, hierarchies, and offered services, should support rich error information. While the IDE does not require these VSPackage objects to implement `ISupportErrorInfo`, it is always encouraged.  
   
- The IDE is responsible for reporting error information and displaying it to a user of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] whenever an `HRESULT` is propagated to the IDE. The IDE is also the mechanism for creating `ErrorInfo` objects.  
+ The IDE is responsible for reporting error information and displaying it to a user of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] whenever an `HRESULT` is propagated to the IDE. The IDE is also the mechanism for creating `ErrorInfo` objects.  
   
 ## General Guidelines  
  You can use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.SetErrorInfo*> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.ReportErrorInfo*> methods to set and report errors that are internal to your VSPackage implementation as well. However, as a general rule, follow these guidelines for handling error messages in your VSPackage:  
@@ -54,7 +54,7 @@ VSPackages and COM use the same architecture for errors. The `SetErrorInfo` and 
 -   Let the IDE display errors to users through the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.ReportErrorInfo*> method.  
   
 ## Error Information in the IDE  
- The following rules indicate how to handle error information in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] IDE:  
+ The following rules indicate how to handle error information in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE:  
   
 -   As a defensive strategy to guarantee that stale error info is not reported to users, functions that call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.ReportErrorInfo*> method should first call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.SetErrorInfo*> method. Pass in `null` to clear cached error messages before calling anything that might set new error information.  
   

@@ -1,13 +1,13 @@
 ---
-title: "Argument &#39;&lt;argumentname1&gt;&#39; must be less than or equal the length of argument &#39;&lt;argumentname2&gt;&#39;"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Argument &#39;&lt;argumentname1&gt;&#39; must be less than or equal the length of argument &#39;&lt;argumentname2&gt;&#39; | Microsoft Docs"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 55a2401f-a44d-4671-b35e-878f48594162
 caps.latest.revision: 6

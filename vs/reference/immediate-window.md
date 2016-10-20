@@ -1,7 +1,7 @@
 ---
-title: "Immediate Window"
+title: "Immediate Window | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -37,7 +37,7 @@ translation.priority.ht:
 # Immediate Window
 The **Immediate** window is used to debug and evaluate expressions, execute statements, print variable values, and so forth. It allows you to enter expressions to be evaluated or executed by the development language during debugging. To display the **Immediate** window, open a project for editing, then choose **Windows** from the **Debug** menu and select **Immediate**, or press CTRL+ALT+I.  
   
- You can use this window to issue individual [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] commands. The available commands include `EvaluateStatement`, which can be used to assign values to variables. The **Immediate** window also supports IntelliSense.  
+ You can use this window to issue individual [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] commands. The available commands include `EvaluateStatement`, which can be used to assign values to variables. The **Immediate** window also supports IntelliSense.  
   
 ## Displaying the Values of Variables  
  This window can be particularly useful while debugging an application. For example, to check the value of a variable `varA`, you can use the [Print Command](../reference/print-command.md):  
@@ -55,14 +55,14 @@ The **Immediate** window is used to debug and evaluate expressions, execute stat
  Both versions of this command will return the value of the variable `varA`.  
   
 > [!NOTE]
->  To issue a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] command in the **Immediate** window, you must preface the command with a greater than sign (>). To enter multiple commands, switch to the **Command** window.  
+>  To issue a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] command in the **Immediate** window, you must preface the command with a greater than sign (>). To enter multiple commands, switch to the **Command** window.  
   
 ## Design Time Expression Evaluation  
  You can use the **Immediate** window to execute a function or subroutine at design time.  
   
 #### To execute a function at design time  
   
-1.  Copy the following code into a [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] console application:  
+1.  Copy the following code into a [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] console application:  
   
     ```  
     Module Module1  
@@ -84,15 +84,15 @@ The **Immediate** window is used to debug and evaluate expressions, execute stat
   
      The **Immediate** window will run `MyFunction` and display `4`.  
   
- If the function or subroutine contains a breakpoint, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] will break execution at the appropriate point. You can then use the debugger windows to examine your program state. For more information see [Walkthrough: Debugging at Design Time](../debugger/walkthrough--debugging-at-design-time.md).  
+ If the function or subroutine contains a breakpoint, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] will break execution at the appropriate point. You can then use the debugger windows to examine your program state. For more information see [Walkthrough: Debugging at Design Time](../debugger/walkthrough--debugging-at-design-time.md).  
   
  You cannot use design time expression evaluation in project types that require starting up an execution environment, including [!INCLUDE[trprVSTOshort](../reference/includes/trprvstoshort_md.md)] projects, Web projects, Smart Device projects, and SQL projects.  
   
 ### Design Time Expression Evaluation in Multi-Project Solutions  
- When establishing the context for design time expression evaluation, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] references the currently selected project in Solution Explorer. If no project is selected in Solution Explorer, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] attempts to evaluate the function against the startup project. If the function cannot be evaluated in the current context, you will receive an error message. If you are attempting to evaluate a function in a project that is not the startup project for the solution and you receive an error, try selecting the project in Solution Explorer and attempt the evaluation again.  
+ When establishing the context for design time expression evaluation, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] references the currently selected project in Solution Explorer. If no project is selected in Solution Explorer, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] attempts to evaluate the function against the startup project. If the function cannot be evaluated in the current context, you will receive an error message. If you are attempting to evaluate a function in a project that is not the startup project for the solution and you receive an error, try selecting the project in Solution Explorer and attempt the evaluation again.  
   
 ## Entering Commands  
- You must enter the greater than sign (>) when issuing [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] commands in the **Immediate** window. Use the UP ARROW and DOWN ARROW keys to scroll through previously issued commands.  
+ You must enter the greater than sign (>) when issuing [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] commands in the **Immediate** window. Use the UP ARROW and DOWN ARROW keys to scroll through previously issued commands.  
   
 |Task|Solution|Example|  
 |----------|--------------|-------------|  

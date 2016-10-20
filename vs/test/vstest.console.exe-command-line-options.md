@@ -1,5 +1,5 @@
 ---
-title: "VSTest.Console.exe command-line options"
+title: "VSTest.Console.exe command-line options | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -39,7 +39,7 @@ VSTest.Console.exe is the command-line command that is used to run tests. You ca
  The following table lists all the options for VSTest.Console.exe and short descriptions of them. You can see a similar summary by typing **VSTest.Console/?** at a command line.  
   
 > [!NOTE]
->  The MSTest adapter in [!INCLUDE[vs_dev11_long](../codequality/includes/vs_dev11_long_md.md)] also works in legacy mode (equivalent of running tests with mstest.exe) for compatibility. In legacy mode, it cannot take advantage of new VS11 features TestCaseFilter. Adapter can switch to legacy mode when .testsettings file is specified, **forcelegacymode** is set to true in .runsettings file or using attributes like HostType.  
+>  The MSTest adapter in [!INCLUDE[vs_dev11_long](../code-quality/includes/vs_dev11_long_md.md)] also works in legacy mode (equivalent of running tests with mstest.exe) for compatibility. In legacy mode, it cannot take advantage of new VS11 features TestCaseFilter. Adapter can switch to legacy mode when .testsettings file is specified, **forcelegacymode** is set to true in .runsettings file or using attributes like HostType.  
   
 > [!NOTE]
 >  In order to run automated tests on an ARM architecture based machine, you must use VSTest.Console.exe.  
@@ -56,7 +56,7 @@ VSTest.Console.exe is the command-line command that is used to run tests. You ca
 |**/Platform:[** *platform type* **]**|Target platform architecture to be used for test execution.<br /><br /> Valid values are x86, x64 and ARM.|  
 |**/Framework: [** *framework version* **]**|Target .NET Framework version to be used for test execution.<br /><br /> Valid values are Framework35, Framework40 and Framework45.<br /><br /> Example: **/Framework:framework40**|  
 |**/TestCaseFilter:[** *expression* **]**|Run tests that match the given expression.<br /><br /> \<Expression> is of the format \<property>=\<value>[&#124;\<Expression>].<br /><br /> Example: **/TestCaseFilter:"Priority=1"**<br /><br /> Example: **/TestCaseFilter:"TestCategory=Nightly&#124;FullyQualifiedName=Namespace.ClassName.MethodName"** **Warning:**  The **/TestCaseFilter** command line option cannot be used with the **/Tests** command line option. <br /><br /> For information about creating and using expressions, see [Running selective unit tests using TestCaseFilter](https://blogs.msdn.microsoft.com/vikramagrawal/2012/07/23/running-selective-unit-tests-in-vs-2012-rc-using-testcasefilter/).|  
-|**/Logger:[** *uri/friendlyname* **]**|Specify a logger for test results.<br /><br /> Example: To log results into a Visual Studio Test Results File (TRX) use **/Logger:trx**.<br /><br /> Example: To publish test results to Team Foundation Server, use TfsPublisher:<br /><br /> **/logger:TfsPublisher;**<br /><br /> **Collection=\<team project url>;**<br /><br /> **BuildName=\<build name>;**<br /><br /> **TeamProject=\<team project name>;**<br /><br /> **[;Platform=\<Defaults to “Any CPU”>]**<br /><br /> **[;Flavor=\<Defaults to “Debug”>]**<br /><br /> **[;RunTitle=\<title>]** **Note:**  The TfsPublisher logger requires [!INCLUDE[vs_dev11_long](../codequality/includes/vs_dev11_long_md.md)] with [[Visual Studio 2012.1](http://go.microsoft.com/fwlink/?LinkID=267636)] or later.|  
+|**/Logger:[** *uri/friendlyname* **]**|Specify a logger for test results.<br /><br /> Example: To log results into a Visual Studio Test Results File (TRX) use **/Logger:trx**.<br /><br /> Example: To publish test results to Team Foundation Server, use TfsPublisher:<br /><br /> **/logger:TfsPublisher;**<br /><br /> **Collection=\<team project url>;**<br /><br /> **BuildName=\<build name>;**<br /><br /> **TeamProject=\<team project name>;**<br /><br /> **[;Platform=\<Defaults to “Any CPU”>]**<br /><br /> **[;Flavor=\<Defaults to “Debug”>]**<br /><br /> **[;RunTitle=\<title>]** **Note:**  The TfsPublisher logger requires [!INCLUDE[vs_dev11_long](../code-quality/includes/vs_dev11_long_md.md)] with [[Visual Studio 2012.1](http://go.microsoft.com/fwlink/?LinkID=267636)] or later.|  
 |**/ListTests:[** *file name* **]**|Lists discovered tests from the given test container.|  
 |**/ListDiscoverers**|Lists installed test discoverers.|  
 |**/ListExecutors**|Lists installed test executors.|  

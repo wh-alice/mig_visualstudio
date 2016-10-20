@@ -1,7 +1,7 @@
 ---
-title: "Debug layout using DOM Explorer"
+title: "Debug layout using DOM Explorer | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -39,9 +39,9 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Debug layout using DOM Explorer
-![Applies to Windows and Windows Phone](../codequality/media/windows_and_phone_content.png "windows_and_phone_content")  
+![Applies to Windows and Windows Phone](../code-quality/media/windows_and_phone_content.png "windows_and_phone_content")  
   
- The **Layout** tab of DOM Explorer shows the [CSS box model](http://go.microsoft.com/fwlink/?LinkID=238778) for the selected element in a [!INCLUDE[win8_appname_long](../codequality/includes/win8_appname_long_md.md)] app, Windows Phone Store app, or an app created using Visual Studio Tools for Apache Cordova. You can use this visual representation of the box model to identify and modify layout-related values that affect the appearance of elements.  
+ The **Layout** tab of DOM Explorer shows the [CSS box model](http://go.microsoft.com/fwlink/?LinkID=238778) for the selected element in a [!INCLUDE[win8_appname_long](../code-quality/includes/win8_appname_long_md.md)] app, Windows Phone Store app, or an app created using Visual Studio Tools for Apache Cordova. You can use this visual representation of the box model to identify and modify layout-related values that affect the appearance of elements.  
   
 > [!TIP]
 >  Changes you make in the **Layout** tab aren't permanent. You can make permanent changes to your source code, and then refresh your app by using the **Refresh Windows app** button (Windows Store and Windows Phone Store apps only) on the Debug toolbar. This way, you can avoid restarting the debugger.  

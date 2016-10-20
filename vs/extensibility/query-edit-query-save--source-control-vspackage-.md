@@ -1,7 +1,7 @@
 ---
-title: "Query Edit Query Save (Source Control VSPackage)"
+title: "Query Edit Query Save (Source Control VSPackage) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,7 +33,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Query Edit Query Save (Source Control VSPackage)
-[!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] editors can broadcast Query Edit Query Save (QEQS) events. [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Source Control Stub implements the QEQS service, so that it is the recipient of QEQS events. These events are then delegated to the currently active source control VSPackage. The active source control VSPackage implements the <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2> and its methods. The methods of the `IVsQueryEditQuerySave2` interface are typically called immediately before a document is edited for the first time and immediately before a document is saved.  
+[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] editors can broadcast Query Edit Query Save (QEQS) events. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Source Control Stub implements the QEQS service, so that it is the recipient of QEQS events. These events are then delegated to the currently active source control VSPackage. The active source control VSPackage implements the <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2> and its methods. The methods of the `IVsQueryEditQuerySave2` interface are typically called immediately before a document is edited for the first time and immediately before a document is saved.  
   
 ## QueryEditQuerySave Events  
  The source control VSPackage must handle the QEQS events by implementing the `IVsQueryEditQuerySave2` interface and the necessary methods. Below is a brief description of the two methods that the VSPackage must implement at a minimum. The actual implementation must be in accordance with the logic of the source control model.  

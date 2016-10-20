@@ -1,7 +1,7 @@
 ---
-title: "How to: Select a Load Test Results Repository"
+title: "How to: Select a Load Test Results Repository | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,13 +36,13 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Select a Load Test Results Repository
-You are not limited to a local results store. Frequently, load tests are run on a remote set of Agent computers. Agents, together with a controller, can generate more simulated load than any single computer. For more information, see [Distributing Load Test Runs Across Multiple Test Machines Using Test Controllers and Test Agents](../test/6e67a587-8aad-48cc-a8c0-6d4b399f3731.md).  
+You are not limited to a local results store. Frequently, load tests are run on a remote set of Agent computers. Agents, together with a controller, can generate more simulated load than any single computer. For more information, see [Distributing Load Test Runs Across Multiple Test Machines Using Test Controllers and Test Agents](../test/distributing-load-test-runs-across-multiple-test-machines-using-test-controllers-and-test-agents.md).  
   
  Test results from your agents or your local computer can be saved to any SQL server on which you have created a load test results store. In either case, you must identify where you want to store your load test results by using the Administer Test Controllers window.  
   
  For more information about how to set up the SQL tables, see [How to: Create a Load Test Results Repository Using SQL](../test/how-to--create-a-load-test-results-repository-using-sql.md)  
   
- For more information about agents, see [Distributing Load Test Runs Across Multiple Test Machines Using Test Controllers and Test Agents](../test/6e67a587-8aad-48cc-a8c0-6d4b399f3731.md).  
+ For more information about agents, see [Distributing Load Test Runs Across Multiple Test Machines Using Test Controllers and Test Agents](../test/distributing-load-test-runs-across-multiple-test-machines-using-test-controllers-and-test-agents.md).  
   
  **Requirements**  
   
@@ -62,7 +62,7 @@ Load test results store connection properties
 4.  In **Server Name**, type the name of the server where you have run the `LoadTest` scripts.  
   
     > [!TIP]
-    >  If you are using SQL Express on your local machine for the load test store, enter \<computername>\sqlexpress (for example, **MyComputer\sqlexpress**). [!INCLUDE[crdefault](../codequality/includes/crdefault_md.md)][How to: Create a Load Test Results Repository Using SQL](../test/how-to--create-a-load-test-results-repository-using-sql.md).  
+    >  If you are using SQL Express on your local machine for the load test store, enter \<computername>\sqlexpress (for example, **MyComputer\sqlexpress**). [!INCLUDE[crdefault](../code-quality/includes/crdefault_md.md)][How to: Create a Load Test Results Repository Using SQL](../test/how-to--create-a-load-test-results-repository-using-sql.md).  
   
 5.  Under **Log on to the server**, you can choose **Use Windows Authentication**. You can specify the username and password, but if you do, you have to select the option **Save my password**.  
   
@@ -75,5 +75,5 @@ Load test results store connection properties
 ## See Also  
  [Managing Load Test Results in the Load Test Results Repository](../test/managing-load-test-results-in-the-load-test-results-repository.md)   
  [How to: Create a Load Test Results Repository Using SQL](../test/how-to--create-a-load-test-results-repository-using-sql.md)   
- [Distributing Load Test Runs Across Multiple Test Machines Using Test Controllers and Test Agents](../test/6e67a587-8aad-48cc-a8c0-6d4b399f3731.md)   
- [How to: Run a Load Test Using Test Controllers and Test Agents Specified in a Test Setting](../test_notintoc/e08eb231-55b7-4d9c-9be5-4fe1051a12b7.md)
+ [Distributing Load Test Runs Across Multiple Test Machines Using Test Controllers and Test Agents](../test/distributing-load-test-runs-across-multiple-test-machines-using-test-controllers-and-test-agents.md)   
+ [How to: Run a Load Test Using Test Controllers and Test Agents Specified in a Test Setting](../test_notintoc/how-to--run-a-load-test-using-test-controllers-and-test-agents-specified-in-a-test-setting.md)

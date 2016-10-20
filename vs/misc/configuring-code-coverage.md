@@ -1,7 +1,7 @@
 ---
-title: "Configuring code coverage"
+title: "Configuring code coverage | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -38,6 +38,6 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Configuring code coverage
-The material in this group of topics has been consolidated into [Using Code Coverage to Determine How Much Code is being Tested](../codequality/using-code-coverage-to-determine-how-much-code-is-being-tested.md).  
+The material in this group of topics has been consolidated into [Using Code Coverage to Determine How Much Code is being Tested](../code-quality/using-code-coverage-to-determine-how-much-code-is-being-tested.md).  
   
 ## Related Sections

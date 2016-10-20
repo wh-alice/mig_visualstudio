@@ -1,7 +1,7 @@
 ---
-title: "&lt;address&gt; is not a valid remote file address"
+title: "&lt;address&gt; is not a valid remote file address | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

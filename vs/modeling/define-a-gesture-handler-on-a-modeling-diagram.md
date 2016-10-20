@@ -1,7 +1,7 @@
 ---
-title: "Define a gesture handler on a modeling diagram"
+title: "Define a gesture handler on a modeling diagram | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -63,7 +63,7 @@ In Visual Studio, you can define commands that are performed when the user doubl
   
 #### To create a separate class library (DLL) project for the gesture handler  
   
-1.  Create a Class Library project, either in a new [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] solution, or in an existing solution.  
+1.  Create a Class Library project, either in a new [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution, or in an existing solution.  
   
     1.  On the **File** menu, choose **New**, **Project**.  
   
@@ -246,17 +246,17 @@ In Visual Studio, you can define commands that are performed when the user doubl
   
 1.  Press **F5**, or on the **Debug** menu, click **Start Debugging**.  
   
-     An experimental instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] starts.  
+     An experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] starts.  
   
-     **Troubleshooting**: If a new [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] does not start:  
+     **Troubleshooting**: If a new [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] does not start:  
   
     -   If you have more than one project, make sure that the VSIX project is set as the Startup project of the solution.  
   
-    -   In Solution Explorer, on the shortcut menu of the startup or only project, choose Properties. In the project properties editor, choose the **Debug** tab. Make sure that the string in the **Start external program** field is the full pathname of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], typically:  
+    -   In Solution Explorer, on the shortcut menu of the startup or only project, choose Properties. In the project properties editor, choose the **Debug** tab. Make sure that the string in the **Start external program** field is the full pathname of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], typically:  
   
          `C:\Program Files\Microsoft Visual Studio [version]\Common7\IDE\devenv.exe`  
   
-2.  In the experimental [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], open or create a modeling project, and open or create a modeling diagram. Use a diagram that belongs to one of the types listed in the attributes of your gesture handler class.  
+2.  In the experimental [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], open or create a modeling project, and open or create a modeling diagram. Use a diagram that belongs to one of the types listed in the attributes of your gesture handler class.  
   
 3.  Double-click anywhere on the diagram. Your double-click handler should be called.  
   
@@ -326,7 +326,7 @@ In Visual Studio, you can define commands that are performed when the user doubl
     System.Windows.Forms.IDataObject data = eventArgs.Data;    
     ```  
   
-     You can drag elements of many different kinds onto a diagram, from different parts of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], or from the Windows desktop. Different types of element are encoded in different ways in `IDataObject`. To extract the elements from it, refer to the documentation for the appropriate type of object.  
+     You can drag elements of many different kinds onto a diagram, from different parts of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], or from the Windows desktop. Different types of element are encoded in different ways in `IDataObject`. To extract the elements from it, refer to the documentation for the appropriate type of object.  
   
      If your source object is a UML element dragged from UML Model Explorer or from another UML diagram, refer to [Get UML model elements from IDataObject](../modeling/get-uml-model-elements-from-idataobject.md).  
   
@@ -358,7 +358,7 @@ foreach (IElement element in modelStore.AllInstances<IUseCase>) {...}
  For more information, see [Navigate the UML model](../modeling/navigate-the-uml-model.md).  
   
 ##  <a name="Installing"></a> Installing and uninstalling an extension  
- You can install a [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)] extension both on your own computer and on other computers.  
+ You can install a [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] extension both on your own computer and on other computers.  
   
 #### To install an extension  
   
@@ -370,13 +370,13 @@ foreach (IElement element in modelStore.AllInstances<IUseCase>) {...}
   
 2.  Copy the **.vsix** file to the target computer on which you want to install the extension. This can be your own computer or another one.  
   
-     The target computer must have one of the editions of [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)] that you specified in **source.extension.vsixmanifest**.  
+     The target computer must have one of the editions of [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] that you specified in **source.extension.vsixmanifest**.  
   
 3.  On the target computer, open the **.vsix** file.  
   
      **Visual Studio Extension Installer** opens and installs the extension.  
   
-4.  Start or restart [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)].  
+4.  Start or restart [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)].  
   
 #### To uninstall an extension  
   

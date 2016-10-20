@@ -1,7 +1,7 @@
 ---
-title: "&#39;Currency&#39; is no longer a supported type; use the &#39;Decimal&#39; type instead"
+title: "&#39;Currency&#39; is no longer a supported type; use the &#39;Decimal&#39; type instead | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

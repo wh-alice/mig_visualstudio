@@ -1,7 +1,7 @@
 ---
-title: "Authoring a Windows Installer Package"
+title: "Authoring a Windows Installer Package | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -37,15 +37,15 @@ Data drives the Windows Installer model. Rather than writing a procedural script
 ## Database Entries  
  To install a VSPackage, a Windows Installer package must contain database entries to perform the following tasks:  
   
--   Search the system to locate the versions of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] your VSPackage supports (using Windows Installer tables that include AppSearch, CompLocator, RegLocator, DrLocator, and Signature).  
+-   Search the system to locate the versions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] your VSPackage supports (using Windows Installer tables that include AppSearch, CompLocator, RegLocator, DrLocator, and Signature).  
   
--   Cancel the installation if no supported version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] is installed or if another system requirement of the VSPackage is not met (using the LaunchCondition table).  
+-   Cancel the installation if no supported version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is installed or if another system requirement of the VSPackage is not met (using the LaunchCondition table).  
   
 -   Install the VSPackage and dependent files (using the directory, component, and file tables).  
   
 -   Add appropriate information for the VSPackage to the registry (using the Registry table).  
   
--   Integrate the VSPackage in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] by calling **devenv.exe /setup** (using the CustomAction table).  
+-   Integrate the VSPackage in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] by calling **devenv.exe /setup** (using the CustomAction table).  
   
  For more information, see [Windows Installer](http://msdn.microsoft.com/library/cc185688\(VS.85\).aspx).  
   
@@ -60,7 +60,7 @@ Data drives the Windows Installer model. Rather than writing a procedural script
   
      The Toolset builds Windows Installer packages from XML source files. The Toolset is a Microsoft open-source project. You can download the source code and executables from [http://sourceforge.net/projects/wix](http://sourceforge.net/projects/wix).  
   
- For commercial products that integrate into [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] by using the [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)], see [http://visualstudiogallery.com](http://visualstudiogallery.com/).  
+ For commercial products that integrate into [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] by using the [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)], see [http://visualstudiogallery.com](http://visualstudiogallery.com/).  
   
 ## See Also  
  [Installing VSPackages With Windows Installer](../extensibility/installing-vspackages-with-windows-installer.md)

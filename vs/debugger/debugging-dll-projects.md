@@ -1,7 +1,7 @@
 ---
-title: "Debugging DLL Projects"
+title: "Debugging DLL Projects | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -93,12 +93,12 @@ The following templates create DLLs:
  The calling application that calls your DLL can be written in managed code or native code. If your managed DLL is called by native code and you want to debug both, managed and native debuggers must both be enabled. You can select this in the **\<Project>Property Pages** dialog box or window. How you do this depends on whether you start debugging from the DLL project or the calling application project. For more information, see [How to: Debug in Mixed Mode](../debugger/how-to--debug-in-mixed-mode.md).  
   
 ##  <a name="vxtskdebuggingdllprojectschangingdefaultconfigurations"></a> Changing Default Configurations  
- When you create a console application project with the project template, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] automatically creates required settings for the Debug and Release configurations. If necessary, you can change those settings. For more information, see [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-c---debug-configuration.md), [Project Settings for  C# Debug Configurations](../debugger/project-settings-for--csharp-debug-configurations.md), [Project Settings for a Visual Basic Debug Configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md), and [How to: Set Debug and Release Configurations](../debugger/how-to--set-debug-and-release-configurations.md).  
+ When you create a console application project with the project template, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] automatically creates required settings for the Debug and Release configurations. If necessary, you can change those settings. For more information, see [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-c---debug-configuration.md), [Project Settings for  C# Debug Configurations](../debugger/project-settings-for--csharp-debug-configurations.md), [Project Settings for a Visual Basic Debug Configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md), and [How to: Set Debug and Release Configurations](../debugger/how-to--set-debug-and-release-configurations.md).  
   
 ##  <a name="vxtskdebuggingdllprojectswaystodebugthedll"></a> Ways to Debug the DLL  
  Each of the projects in this section creates a DLL. You cannot run a DLL directly; it must be called by an application, usually an EXE. For more information, see [Creating and Managing Visual C++ Projects](../Topic/Creating%20and%20Managing%20Visual%20C++%20Projects.md). The calling application might fit any one of the following criteria:  
   
--   An application built in another project in the same [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] solution that contains the class library.  
+-   An application built in another project in the same [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution that contains the class library.  
   
 -   An existing application already deployed on a test or production computer.  
   
@@ -115,12 +115,12 @@ The following templates create DLLs:
   
 -   You can debug it from the DLL project. For more information, see [How to: Debug from a DLL Project](../debugger/how-to--debug-from-a-dll-project.md).  
   
--   You can debug it from the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] **Immediate** window. In this case, the **Immediate** window plays the role of the application.  
+-   You can debug it from the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] **Immediate** window. In this case, the **Immediate** window plays the role of the application.  
   
  Before you start debugging the calling application, you will usually want to set a breakpoint in the class library. For more information, see [Breakpoints and Tracepoints](http://msdn.microsoft.com/en-us/fe4eedc1-71aa-4928-962f-0912c334d583). When the breakpoint is hit, you can step through the code, observing the action at each line, until you isolate the problem. For more information, see [Code Stepping Overview](http://msdn.microsoft.com/en-us/8791dac9-64d1-4bb9-b59e-8d59af1833f9).  
   
 ###  <a name="vxtskdebuggingdllprojectscontrolsonawebpage"></a> Controls on a Web Page  
- To debug a Web page control, create an [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] page that embeds it if such a page does not already exist. You then place breakpoints in the Web page code as well as the control code. You then invoke the Web page from [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+ To debug a Web page control, create an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] page that embeds it if such a page does not already exist. You then place breakpoints in the Web page code as well as the control code. You then invoke the Web page from [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
  Before you start debugging the calling application, you will usually want to set a breakpoint in the DLL. When the breakpoint is hit, you can step through the code, observing the action at each line, until you isolate the problem. For more information, see [Breakpoints and Tracepoints](http://msdn.microsoft.com/en-us/fe4eedc1-71aa-4928-962f-0912c334d583).  
   

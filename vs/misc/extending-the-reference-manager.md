@@ -1,7 +1,7 @@
 ---
-title: "Extending the Reference Manager"
+title: "Extending the Reference Manager | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -29,7 +29,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Extending the Reference Manager
-You can add references to your project by using the Reference Manager in a Visual Studio extension. Before the Reference Manager appears, your projects must configure it to show data from the correct locations. For example, a project that targets the [!INCLUDE[net_v40_short](../codequality/includes/net_v40_short_md.md)] must populate assemblies from a different folder than a project that targets the [!INCLUDE[net_v35_long](../misc/includes/net_v35_long_md.md)].  
+You can add references to your project by using the Reference Manager in a Visual Studio extension. Before the Reference Manager appears, your projects must configure it to show data from the correct locations. For example, a project that targets the [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] must populate assemblies from a different folder than a project that targets the [!INCLUDE[net_v35_long](../misc/includes/net_v35_long_md.md)].  
   
  You typically configure the Reference Manager by using a collection of ProviderContexts from the following providers:  
   

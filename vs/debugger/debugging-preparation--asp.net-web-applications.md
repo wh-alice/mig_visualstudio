@@ -1,7 +1,7 @@
 ---
-title: "Debugging Preparation: ASP.NET Web Applications"
+title: "Debugging Preparation: ASP.NET Web Applications | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -39,13 +39,13 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Debugging Preparation: ASP.NET Web Applications
-The [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)]Web site template creates a Web Form application. When you create a Web site using this template, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] creates the default settings for debugging. In the **Project Properties** dialog box, you can specify whether you want the Web page to be a startup page. When you start debugging an [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)]Web Site with these default settings, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] starts Internet Explorer and attaches the debugger to the [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] worker process (aspnet_wp.exe or w3wp.exe). For more information, see [System Requirements](../debugger/asp.net-debugging--system-requirements.md).  
+The [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)]Web site template creates a Web Form application. When you create a Web site using this template, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] creates the default settings for debugging. In the **Project Properties** dialog box, you can specify whether you want the Web page to be a startup page. When you start debugging an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)]Web Site with these default settings, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] starts Internet Explorer and attaches the debugger to the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] worker process (aspnet_wp.exe or w3wp.exe). For more information, see [System Requirements](../debugger/asp.net-debugging--system-requirements.md).  
   
 ### To create a Web Forms application  
   
 1.  On the **File** menu, choose **New Web Site**.  
   
-2.  In the **New Web Site** dialog box, select [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)]**Web Site**.  
+2.  In the **New Web Site** dialog box, select [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)]**Web Site**.  
   
 3.  Click **OK**.  
   
@@ -60,7 +60,7 @@ The [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)]Web site templat
      For more information, see [Stepping](http://msdn.microsoft.com/en-us/8791dac9-64d1-4bb9-b59e-8d59af1833f9) and [Debugging Web Applications and Script](../debugger/debugging-web-applications-and-script.md).  
   
 ## Changing Default Configurations  
- If you want to change the default debug and release configurations created by [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], you can do so. For more information, see [How to: Set Debug and Release Configurations](../debugger/how-to--set-debug-and-release-configurations.md).  
+ If you want to change the default debug and release configurations created by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], you can do so. For more information, see [How to: Set Debug and Release Configurations](../debugger/how-to--set-debug-and-release-configurations.md).  
   
 #### To change the default debug configuration  
   

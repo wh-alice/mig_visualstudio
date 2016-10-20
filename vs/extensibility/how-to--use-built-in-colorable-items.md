@@ -1,7 +1,7 @@
 ---
-title: "How to: Use Built-In Colorable Items"
+title: "How to: Use Built-In Colorable Items | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,7 +36,7 @@ Before you use the built-in colorable items, you must first signal to the integr
   
 ### To use built-in colorable items  
   
-1.  Under HKEY_LOCAL_MACHINE\VisualStudio\\*X.Y*\Languages\Language Services\\*Language Name*, where *X.Y* is a version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and *Language Name* is the name of your language, create a DWORD registry entry value called `RequestStockColors`.  
+1.  Under HKEY_LOCAL_MACHINE\VisualStudio\\*X.Y*\Languages\Language Services\\*Language Name*, where *X.Y* is a version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and *Language Name* is the name of your language, create a DWORD registry entry value called `RequestStockColors`.  
   
 2.  Set the `RequestStockColors` registry entry value to 1.  
   

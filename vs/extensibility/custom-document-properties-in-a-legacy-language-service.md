@@ -1,7 +1,7 @@
 ---
-title: "Custom Document Properties in a Legacy Language Service"
+title: "Custom Document Properties in a Legacy Language Service | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,7 +33,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Custom Document Properties in a Legacy Language Service
-Document properties can be displayed in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] **Properties** window. Programming languages generally do not have properties associated with individual source files. However, XML supports document properties that affect the encoding, schema, and stylesheet.  
+Document properties can be displayed in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] **Properties** window. Programming languages generally do not have properties associated with individual source files. However, XML supports document properties that affect the encoding, schema, and stylesheet.  
   
 ## Discussion  
  If your language needs custom document properties, you must derive a class from the <xref:Microsoft.VisualStudio.Package.DocumentProperties> class and implement the necessary properties on your derived class.  

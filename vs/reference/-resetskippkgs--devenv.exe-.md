@@ -1,7 +1,7 @@
 ---
-title: "-ResetSkipPkgs (devenv.exe)"
+title: "-ResetSkipPkgs (devenv.exe) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,7 +33,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # /ResetSkipPkgs (devenv.exe)
-Clears all options to skip loading added to VSPackages by users wishing to avoid loading problem VSPackages, then starts [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+Clears all options to skip loading added to VSPackages by users wishing to avoid loading problem VSPackages, then starts [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 ## Syntax  
   

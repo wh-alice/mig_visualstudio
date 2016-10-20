@@ -1,7 +1,7 @@
 ---
-title: "DefaultName Element (Visual Studio Templates)"
+title: "DefaultName Element (Visual Studio Templates) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -77,7 +77,7 @@ Specifies the name that the Visual Studio project system will generate for the p
  If you do not want the project system to generate the default name for the project or item, then set the [ProvideDefaultName](../extensibility/providedefaultname-element--visual-studio-templates-.md) element to `False`.  
   
 ## Example  
- The following example illustrates the metadata for the standard item template for a [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] class.  
+ The following example illustrates the metadata for the standard item template for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] class.  
   
 ```  
 <VSTemplate Type="Item" Version="3.0.0"  

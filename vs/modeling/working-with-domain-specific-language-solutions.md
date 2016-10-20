@@ -1,7 +1,7 @@
 ---
-title: "Working with Domain-Specific Language Solutions"
+title: "Working with Domain-Specific Language Solutions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,7 +13,7 @@ ms.author: "awills"
 manager: "kamrani"
 ---
 # Working with Domain-Specific Language Solutions
-A domain-specific language (DSL) is created using a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] solution. This section is about how to set up and customize the solution.  
+A domain-specific language (DSL) is created using a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution. This section is about how to set up and customize the solution.  
   
 ## In this Section  
  [About Domain-Specific Languages](../modeling/about-domain-specific-languages.md)  

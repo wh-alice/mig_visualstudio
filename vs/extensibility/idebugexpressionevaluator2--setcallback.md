@@ -1,7 +1,7 @@
 ---
-title: "IDebugExpressionEvaluator2::SetCallback"
+title: "IDebugExpressionEvaluator2::SetCallback | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -56,7 +56,7 @@ int SetCallback (
  If successful, returns `S_OK`; otherwise, returns an error code.  
   
 ## Remarks  
- This method provides an interface to the session debug manager that an expression evaluator can use to read metric settings. It is useful in remote debugging to read metrics on the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] computer.  
+ This method provides an interface to the session debug manager that an expression evaluator can use to read metric settings. It is useful in remote debugging to read metrics on the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] computer.  
   
 ## Example  
  The following examples shows how to implement this method for a **CEE** object that exposes the [IDebugSettingsCallback2](../extensibility/idebugsettingscallback2.md) interface.  

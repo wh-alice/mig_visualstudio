@@ -1,7 +1,7 @@
 ---
-title: "Properties declared &#39;WriteOnly&#39; cannot have a &#39;Get&#39;"
+title: "Properties declared &#39;WriteOnly&#39; cannot have a &#39;Get&#39; | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

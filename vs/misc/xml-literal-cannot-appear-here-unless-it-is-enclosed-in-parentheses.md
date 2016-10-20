@@ -1,7 +1,7 @@
 ---
-title: "XML literal cannot appear here unless it is enclosed in parentheses"
+title: "XML literal cannot appear here unless it is enclosed in parentheses | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # XML literal cannot appear here unless it is enclosed in parentheses
-An XML literal declaration is used in an expression in a location that is ambiguous to the [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] compiler. That is, the [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] compiler cannot determine whether the less-than character (<) is intended as a comparative operator or the start of an XML literal. The following code provides an example:  
+An XML literal declaration is used in an expression in a location that is ambiguous to the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler. That is, the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler cannot determine whether the less-than character (<) is intended as a comparative operator or the start of an XML literal. The following code provides an example:  
   
  [Visual Basic]  
   

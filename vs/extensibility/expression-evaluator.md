@@ -1,7 +1,7 @@
 ---
-title: "Expression Evaluator"
+title: "Expression Evaluator | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -51,7 +51,7 @@ Expression evaluators (EE) examine the syntax of a language to parse and evaluat
  When asynchronous expression evaluation is complete, an asynchronous event is sent by the DE through the session debug manager (SDM) to notify the IDE that expression evaluation is complete. When synchronous expression evaluation is complete, the result of the evaluation is returned from the call to the `IDebugExpression2::EvaluateSync` method.  
   
 ## Implementation Notes  
- The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] debug engines expect to talk with the expression evaluator using Common Language Runtime (CLR) interfaces. As a result, an expression evaluator that works with the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] debug engines must support the CLR (a complete list of all CLR debugging interfaces can be found in debugref.doc, which is part of the [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)]).  
+ The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debug engines expect to talk with the expression evaluator using Common Language Runtime (CLR) interfaces. As a result, an expression evaluator that works with the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debug engines must support the CLR (a complete list of all CLR debugging interfaces can be found in debugref.doc, which is part of the [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)]).  
   
 ## See Also  
  [Debugger Components](../extensibility/debugger-components.md)

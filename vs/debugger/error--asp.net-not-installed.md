@@ -1,7 +1,7 @@
 ---
-title: "Error: ASP.NET Not Installed"
+title: "Error: ASP.NET Not Installed | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -41,7 +41,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Error: ASP.NET Not Installed
-This error occurs when [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] is not installed correctly on the computer that you are trying to debug. This might mean that [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] was never installed or that [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] was installed first and IIS was installed later.  
+This error occurs when [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] is not installed correctly on the computer that you are trying to debug. This might mean that [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] was never installed or that [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] was installed first and IIS was installed later.  
   
 ### To reinstall ASP.NET  
   
@@ -54,7 +54,7 @@ This error occurs when [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.m
      where *version* represents the version number of the .NET Framework installed on your computer, such as v1.0.370. You can determine the framework version by looking in the `\WINDOWS\Microsoft.NET\Framework` directory.  
   
     > [!NOTE]
-    >  With Windows Server 2003, you can install [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] by using **Add or Remove Programs** in Control Panel.  
+    >  With Windows Server 2003, you can install [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] by using **Add or Remove Programs** in Control Panel.  
   
 ## See Also  
  [Debugging Web Applications: Errors and Troubleshooting](../debugger/debugging-web-applications--errors-and-troubleshooting.md)

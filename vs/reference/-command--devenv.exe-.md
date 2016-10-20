@@ -1,7 +1,7 @@
 ---
-title: "-Command (devenv.exe)"
+title: "-Command (devenv.exe) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,7 +32,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # /Command (devenv.exe)
-Executes the specified command after launching the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE).  
+Executes the specified command after launching the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE).  
   
 ## Syntax  
   
@@ -42,15 +42,15 @@ devenv /command CommandName
   
 ## Arguments  
  `CommandName`  
- Required. The complete name of a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] command or its alias, enclosed in double quotation marks. For more information about command and alias syntax, see [Visual Studio Commands](../reference/visual-studio-commands.md).  
+ Required. The complete name of a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] command or its alias, enclosed in double quotation marks. For more information about command and alias syntax, see [Visual Studio Commands](../reference/visual-studio-commands.md).  
   
 ## Remarks  
- After startup is complete, the IDE executes the named command. If you use this switch, the IDE does not display the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Start Page on startup.  
+ After startup is complete, the IDE executes the named command. If you use this switch, the IDE does not display the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Start Page on startup.  
   
  If an add-in exposes a command, you can use this switch to launch the add-in from the command line. For more information, see [How to: Control Add-Ins By Using the Add-In Manager](../Topic/How%20to:%20Control%20Add-Ins%20By%20Using%20the%20Add-In%20Manager.md).  
   
 ## Example  
- This example launches [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and automatically runs the macro Open Favorite Files.  
+ This example launches [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and automatically runs the macro Open Favorite Files.  
   
 ```  
 devenv /command "Macros.MyMacros.Module1.OpenFavoriteFiles"  

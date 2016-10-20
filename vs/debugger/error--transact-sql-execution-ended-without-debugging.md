@@ -1,7 +1,7 @@
 ---
-title: "Error: Transact-SQL execution ended without debugging"
+title: "Error: Transact-SQL execution ended without debugging | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -43,7 +43,7 @@ This error occurs when you are trying to debug a Transact-SQL or SQLCLR procedur
   
  There are two accounts involved:  
   
--   The application account is the user account that [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] is running as.  
+-   The application account is the user account that [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is running as.  
   
 -   The connection account is the identity used to make the connection to SQL Server. This is not necessarily the same as the identity that Visual Studio is running as if the connection is using SQL authentication.  
   

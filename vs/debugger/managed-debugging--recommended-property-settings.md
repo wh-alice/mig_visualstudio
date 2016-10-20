@@ -1,7 +1,7 @@
 ---
-title: "Managed Debugging: Recommended Property Settings"
+title: "Managed Debugging: Recommended Property Settings | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -41,7 +41,7 @@ Certain properties should be set the same way for all managed debugging scenario
   
  The following tables display recommended property settings.  
   
- Settings not listed here may vary among the different managed project types. For example, **Start Action** will be set differently in a Windows Forms project than in a [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] project.  
+ Settings not listed here may vary among the different managed project types. For example, **Start Action** will be set differently in a Windows Forms project than in a [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] project.  
   
 ### Configuration Properties on the Build (C#) or Compile (Visual Basic) tab  
   

@@ -1,7 +1,7 @@
 ---
-title: "&#39;&lt;name&gt;&#39; is already declared as a parameter of this method"
+title: "&#39;&lt;name&gt;&#39; is already declared as a parameter of this method | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

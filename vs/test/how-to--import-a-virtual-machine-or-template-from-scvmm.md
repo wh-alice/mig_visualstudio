@@ -1,7 +1,7 @@
 ---
-title: "How to: Import a Virtual Machine or Template from SCVMM"
+title: "How to: Import a Virtual Machine or Template from SCVMM | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -30,9 +30,9 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Import a Virtual Machine or Template from SCVMM
-Virtual machines and templates are the basic building blocks for creating SCVMM environments in [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)]. However, before you can create an SCVMM environment in [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], you must import the initial virtual machines and templates from the System Center Virtual Machine Manager (SCVMM) library into your team project. For more information about how to create the initial virtual machines and templates in SCVMM, see [Create and Store Virtual Machines and Templates Ready for Lab Management](../test/create-and-store-virtual-machines-and-templates-ready-for-lab-management.md).  
+Virtual machines and templates are the basic building blocks for creating SCVMM environments in [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)]. However, before you can create an SCVMM environment in [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], you must import the initial virtual machines and templates from the System Center Virtual Machine Manager (SCVMM) library into your team project. For more information about how to create the initial virtual machines and templates in SCVMM, see [Create and Store Virtual Machines and Templates Ready for Lab Management](../test/create-and-store-virtual-machines-and-templates-ready-for-lab-management.md).  
   
- When you import a virtual machine or a template from SCVMM, [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] does not create a new copy. Instead, [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] creates a reference to the original virtual machine or template stored in SCVMM.  
+ When you import a virtual machine or a template from SCVMM, [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] does not create a new copy. Instead, [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] creates a reference to the original virtual machine or template stored in SCVMM.  
   
  **Requirements**  
   
@@ -45,7 +45,7 @@ Virtual machines and templates are the basic building blocks for creating SCVMM 
   
 #### To import a virtual machine or a template into the team project  
   
-1.  Open [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)].  
+1.  Open [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)].  
   
      (Go to **Start**, **All Programs**, **Microsoft Visual Studio**, **Microsoft Test Manager**.  
   
@@ -59,16 +59,16 @@ Virtual machines and templates are the basic building blocks for creating SCVMM 
     >  Under **Machine Properties**, the option to edit **Hardware Profile** and **OS profile** information is not available in Microsoft Test Manager. To edit the properties, you must use the System Center Virtual Machine Manager console.  
   
     > [!NOTE]
-    >  When you import a template from SCVMM, the secured administrator password and product key in the template are removed. You must re-enter this information. If the operating system is [!INCLUDE[win7](../codequality/includes/win7_md.md)], [!INCLUDE[winsvr08](../test/includes/winsvr08_md.md)] and later, or [!INCLUDE[windowsver](../deployment/includes/windowsver_md.md)], leave the password field blank. If the operating system is [!INCLUDE[winxp](../codequality/includes/winxp_md.md)] or [!INCLUDE[winxpsvr](../debugger/includes/winxpsvr_md.md)], type an asterisk (*) to indicate a blank password.  
+    >  When you import a template from SCVMM, the secured administrator password and product key in the template are removed. You must re-enter this information. If the operating system is [!INCLUDE[win7](../code-quality/includes/win7_md.md)], [!INCLUDE[winsvr08](../test/includes/winsvr08_md.md)] and later, or [!INCLUDE[windowsver](../deployment/includes/windowsver_md.md)], leave the password field blank. If the operating system is [!INCLUDE[winxp](../code-quality/includes/winxp_md.md)] or [!INCLUDE[winxpsvr](../debugger/includes/winxpsvr_md.md)], type an asterisk (*) to indicate a blank password.  
   
 5.  On the **Summary** wizard page, review the information. Choose **Finish** to import the virtual machine or the template.  
   
- If you make any changes to the original virtual machine or a template in SCVMM after importing it, the changes are not automatically propagated to the imported virtual machine or template. You have to manually open and change the imported virtual machine or the template by using [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)].  
+ If you make any changes to the original virtual machine or a template in SCVMM after importing it, the changes are not automatically propagated to the imported virtual machine or template. You have to manually open and change the imported virtual machine or the template by using [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)].  
   
  An alternative way to add virtual machines and templates into a team project is by saving the virtual machines within an existing environment. For more information, see [How to: Store a Virtual Machine or Template](../test/how-to--store-a-virtual-machine-or-template.md).  
   
 ## Deleting a Virtual Machine or Template  
- If you delete an imported virtual machine or a template in [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], the underlying virtual machine or the template is not deleted in SCVMM. If you delete a stored virtual machine or template that was created from a virtual machine in a deployed environment, the stored virtual machine or template is deleted.  
+ If you delete an imported virtual machine or a template in [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], the underlying virtual machine or the template is not deleted in SCVMM. If you delete a stored virtual machine or template that was created from a virtual machine in a deployed environment, the stored virtual machine or template is deleted.  
   
 #### To delete a virtual machine or a template in Microsoft Test Manager  
   

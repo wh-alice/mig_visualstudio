@@ -1,7 +1,7 @@
 ---
-title: "Editor Options, Visual Studio Package Wizard"
+title: "Editor Options, Visual Studio Package Wizard | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -39,7 +39,7 @@ This step lets you define the file name extension that is associated with your e
  Type the name of your new editor. This name is used for the editor in the **Open With** dialog box.  
   
  **File Extension**  
- Define the file name extension that is associated with your editor. You can specify multiple extensions by typing a comma-delimited list. Your editor is the default [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] editor for files that have the file name extension you define.  
+ Define the file name extension that is associated with your editor. You can specify multiple extensions by typing a comma-delimited list. Your editor is the default [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] editor for files that have the file name extension you define.  
   
  **Default Filename**  
  Type the name will be used as a base for the default name for documents that your editor creates.  

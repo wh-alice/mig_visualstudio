@@ -1,7 +1,7 @@
 ---
-title: "Create custom code and plug-ins for web performance tests"
+title: "Create custom code and plug-ins for web performance tests | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -47,7 +47,7 @@ View the following topics to help with generating coded web performance tests, a
   
 -   [How to: Create a Custom HTTP Body Editor for the Web Performance Test Editor](../test/how-to--create-a-custom-http-body-editor-for-the-web-performance-test-editor.md)  
   
--   [How to: Create a Visual Studio Add-In for the Web Performance Test Results Viewer](../test/1118c604-4b1b-4b21-a04e-45995b676fa8.md)  
+-   [How to: Create a Visual Studio Add-In for the Web Performance Test Results Viewer](../test/how-to--create-a-visual-studio-add-in-for-the-web-performance-test-results-viewer.md)  
   
 ## See Also  
  [Performance test your app before release](../test/performance-test-your-app-before-release.md)

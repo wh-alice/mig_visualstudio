@@ -1,5 +1,5 @@
 ---
-title: "How to: Map Parameters to Application Fields in an Action Recording for a Test"
+title: "How to: Map Parameters to Application Fields in an Action Recording for a Test | Microsoft Docs"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -47,7 +47,7 @@ If you have a test with parameters, you can run multiple iterations of that test
   
 #### To load a test into Test Runner  
   
-1.  Open [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)]. (Go to Start, All Programs, Microsoft Visual Studio, Microsoft Test Manager.)  
+1.  Open [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)]. (Go to Start, All Programs, Microsoft Visual Studio, Microsoft Test Manager.)  
   
 2.  On the center group switcher, choose the down-arrow and then choose **Testing Center**.  
   
@@ -71,7 +71,7 @@ If you have a test with parameters, you can run multiple iterations of that test
   
 #### To map parameters to application fields  
   
-1.  In [!INCLUDE[mtrlong](../codequality/includes/mtrlong_md.md)], you are prompted to **Start Test** with the option to **Create action recording**. Select **Create action recording** and choose **Start Test**.  
+1.  In [!INCLUDE[mtrlong](../code-quality/includes/mtrlong_md.md)], you are prompted to **Start Test** with the option to **Create action recording**. Select **Create action recording** and choose **Start Test**.  
   
     > [!NOTE]
     >  If you have configured test settings to create an action log for the test being run, selecting the **Create action recording** option when you start a test will use the settings that you configured. If you did not configure the actions diagnostic data adapter in your test settings, then the default values are used to create your action recording. For more information, see [How to: Choose the applications that are recorded](../test_notintoc/how-to--choose-the-applications-that-are-recorded-in-a-manual-test.md).  

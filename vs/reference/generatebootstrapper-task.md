@@ -1,5 +1,5 @@
 ---
-title: "GenerateBootstrapper Task"
+title: "GenerateBootstrapper Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
@@ -165,7 +165,7 @@ Provides an automated way to detect, download, and install an application and it
  In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../reference/taskextension-base-class.md).  
   
 ## Example  
- The following example uses the `GenerateBootstrapper` task to install an application that must have the [!INCLUDE[dnprdnlong](../codequality/includes/dnprdnlong_md.md)] installed as a prerequisite.  
+ The following example uses the `GenerateBootstrapper` task to install an application that must have the [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)] installed as a prerequisite.  
   
 ```  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  

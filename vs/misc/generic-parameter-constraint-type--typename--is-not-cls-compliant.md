@@ -1,7 +1,7 @@
 ---
-title: "Generic parameter constraint type &lt;typename&gt; is not CLS-compliant"
+title: "Generic parameter constraint type &lt;typename&gt; is not CLS-compliant | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -39,7 +39,7 @@ A generic type is marked as `<CLSCompliant(True)>`, but a constraint on one of i
   
  For a type to be compliant with the [Language Independence and Language-Independent Components](../Topic/Language%20Independence%20and%20Language-Independent%20Components.md) (CLS), it must use only CLS-compliant types. This applies also to the constraints on the type parameters of a generic type.  
   
- The following [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] data types are not CLS-compliant:  
+ The following [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] data types are not CLS-compliant:  
   
 -   [SByte Data Type](../Topic/SByte%20Data%20Type%20\(Visual%20Basic\).md)  
   

@@ -1,7 +1,7 @@
 ---
-title: "State Persistence and the Visual Studio IDE"
+title: "State Persistence and the Visual Studio IDE | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # State Persistence and the Visual Studio IDE
-The **Import/Export Settings** command on the **Tools** menu of the integrated development environment (IDE) imports and exports customizations of the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] environment. The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] settings APIs in the [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] enable a VSPackage to define one or more settings categories (groups of state variables) to be persisted when a user chooses the **Import/Export Settings** command.  
+The **Import/Export Settings** command on the **Tools** menu of the integrated development environment (IDE) imports and exports customizations of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] environment. The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] settings APIs in the [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] enable a VSPackage to define one or more settings categories (groups of state variables) to be persisted when a user chooses the **Import/Export Settings** command.  
   
  A GUID uniquely identifies each settings category and is defined in its own registry entry, referred to as a *Custom Settings Point*.  
   
@@ -44,19 +44,19 @@ The **Import/Export Settings** command on the **Tools** menu of the integrated d
   
 ## In This Section  
  [Support for User Settings](../extensibility/support-for-user-settings.md)  
- Describes the registry settings (Custom Settings Point) and attributes used to specify a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] settings implementation used by a given VSPackage.  
+ Describes the registry settings (Custom Settings Point) and attributes used to specify a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] settings implementation used by a given VSPackage.  
   
  [How to: Export Settings By Using Interop Assemblies](../misc/how-to--export-settings-by-using-interop-assemblies.md)  
- Provides a detailed description of how to implement support for saving configuration data by using the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] settings mechanism for interop assembly based VSPackages.  
+ Provides a detailed description of how to implement support for saving configuration data by using the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] settings mechanism for interop assembly based VSPackages.  
   
  [How to: Use Interop Assemblies to Import Settings](../misc/how-to--use-interop-assemblies-to-import-settings.md)  
- Provides a detailed description of how to implement support for retrieving configuration data by using the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] settings mechanism for interop assembly based VSPackages.  
+ Provides a detailed description of how to implement support for retrieving configuration data by using the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] settings mechanism for interop assembly based VSPackages.  
   
  [Exporting Settings](../misc/exporting-settings.md)  
- Includes a detailed description of how to implement support for saving configuration data by using the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] settings mechanism for Managed Package Framework based VSPackages.  
+ Includes a detailed description of how to implement support for saving configuration data by using the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] settings mechanism for Managed Package Framework based VSPackages.  
   
  [Importing Settings](../misc/importing-settings.md)  
- Provides a detailed description of how to implement support for retrieving configuration data by using the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] settings mechanism for Managed Package Framework based VSPackages.  
+ Provides a detailed description of how to implement support for retrieving configuration data by using the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] settings mechanism for Managed Package Framework based VSPackages.  
   
 ## Related Sections  
  [Working with Settings](http://msdn.microsoft.com/en-us/4c0a56ab-6091-4ebc-9dc7-52c40846bacb)  

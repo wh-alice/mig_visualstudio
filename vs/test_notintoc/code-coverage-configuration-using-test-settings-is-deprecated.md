@@ -1,5 +1,5 @@
 ---
-title: "Code Coverage configuration using Test Settings is deprecated"
+title: "Code Coverage configuration using Test Settings is deprecated | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/01/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -32,8 +32,8 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Code Coverage configuration using Test Settings is deprecated
-If you used a .testsettings file in [!INCLUDE[vs2010](../codequality/includes/vs2010_md.md)], then it will still work in the current edition of Visual Studio. Code coverage analysis and other testing functions will be performed using the framework from Visual Studio 2010. However, we recommend that you remove the .testsettings file to take advantage of the enhanced testing features.  
+If you used a .testsettings file in [!INCLUDE[vs2010](../code-quality/includes/vs2010_md.md)], then it will still work in the current edition of Visual Studio. Code coverage analysis and other testing functions will be performed using the framework from Visual Studio 2010. However, we recommend that you remove the .testsettings file to take advantage of the enhanced testing features.  
   
  To configure code coverage, use a .runsettings file.  
   
- For more information, see [Using Code Coverage to Determine How Much Code is being Tested](../codequality/using-code-coverage-to-determine-how-much-code-is-being-tested.md) and [Compatibility of Test Settings with Visual Studio 2010](http://msdn.microsoft.com/en-us/c4f0f924-6a92-4fdb-a16b-6c3ef6f0acca).
+ For more information, see [Using Code Coverage to Determine How Much Code is being Tested](../code-quality/using-code-coverage-to-determine-how-much-code-is-being-tested.md) and [Compatibility of Test Settings with Visual Studio 2010](http://msdn.microsoft.com/en-us/c4f0f924-6a92-4fdb-a16b-6c3ef6f0acca).

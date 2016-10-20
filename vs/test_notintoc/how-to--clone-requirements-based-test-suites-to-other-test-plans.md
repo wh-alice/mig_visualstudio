@@ -1,7 +1,7 @@
 ---
-title: "How to: Clone Requirements-Based Test Suites to Other Test Plans"
+title: "How to: Clone Requirements-Based Test Suites to Other Test Plans | Microsoft Docs"
 ms.custom: ""
-ms.date: "09/28/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""

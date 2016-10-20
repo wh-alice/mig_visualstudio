@@ -1,7 +1,7 @@
 ---
-title: "Support for Settings Categories"
+title: "Support for Settings Categories | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,7 +32,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Support for Settings Categories
-A settings category consists of a group of options that customize the integrated development environment (IDE). For example, settings can control the layout of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] windows and the contents of menus. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+A settings category consists of a group of options that customize the integrated development environment (IDE). For example, settings can control the layout of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] windows and the contents of menus. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
  On the **Tools** menu click **Import and Export Settings** to start the **Import and Export Settings Wizard**. The wizard offers three choices: export, import, or reset your settings. Selecting export, for example, opens the **Choose Settings to Export** page of the wizard.  
   
@@ -52,7 +52,7 @@ A settings category consists of a group of options that customize the integrated
 ## Support for Settings Categories  
  The <xref:Microsoft.VisualStudio.Shell.Package> class provides support for creating categories. The <xref:Microsoft.VisualStudio.Shell.DialogPage> class implements a category. The default implementation of <xref:Microsoft.VisualStudio.Shell.DialogPage> offers its public properties to a user as a category. For more information, see [Creating a Settings Category](../extensibility/creating-a-settings-category.md).  
   
- The <xref:Microsoft.VisualStudio.Shell.DialogPage> class implements <xref:Microsoft.VisualStudio.Shell.IProfileManager>, which provides persistence for both options pages and user settings. The <xref:Microsoft.VisualStudio.Shell.IProfileManager.LoadSettingsFromXml*> and <xref:Microsoft.VisualStudio.Shell.IProfileManager.SaveSettingsToXml*> methods persist settings into a .vssettings file that [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] provides as an <xref:Microsoft.VisualStudio.Shell.Interop.IVsSettingsReader> or <xref:Microsoft.VisualStudio.Shell.Interop.IVsSettingsWriter>, respectively. The <xref:Microsoft.VisualStudio.Shell.IProfileManager.ResetSettings*> method resets settings to their default values.  
+ The <xref:Microsoft.VisualStudio.Shell.DialogPage> class implements <xref:Microsoft.VisualStudio.Shell.IProfileManager>, which provides persistence for both options pages and user settings. The <xref:Microsoft.VisualStudio.Shell.IProfileManager.LoadSettingsFromXml*> and <xref:Microsoft.VisualStudio.Shell.IProfileManager.SaveSettingsToXml*> methods persist settings into a .vssettings file that [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] provides as an <xref:Microsoft.VisualStudio.Shell.Interop.IVsSettingsReader> or <xref:Microsoft.VisualStudio.Shell.Interop.IVsSettingsWriter>, respectively. The <xref:Microsoft.VisualStudio.Shell.IProfileManager.ResetSettings*> method resets settings to their default values.  
   
  The <xref:Microsoft.VisualStudio.Shell.DialogPage> class provides an implementation of the <xref:Microsoft.VisualStudio.Shell.DialogPage.LoadSettingsFromXml*> method that reads name-value pairs from the xml feed, and uses reflection to discover public properties in the <xref:Microsoft.VisualStudio.Shell.DialogPage> derived class. Properties that have names that match the name-value pairs are given the corresponding values.  
   

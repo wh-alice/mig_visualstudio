@@ -1,7 +1,7 @@
 ---
-title: "How to: Run a Coded Web Performance Test"
+title: "How to: Run a Coded Web Performance Test | Microsoft Docs"
 ms.custom: ""
-ms.date: "09/28/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""

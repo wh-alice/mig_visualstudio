@@ -1,7 +1,7 @@
 ---
-title: "Code Analysis, Project Designer"
+title: "Code Analysis, Project Designer | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -74,6 +74,6 @@ Contains the code analysis tool that you can opt to run on your code. The tool r
  Enables or disables the usage rules. You can also expand this entry to enable or disable individual rules.  
   
 ## See Also  
- [Code Analysis for Managed Code Warnings](../codequality/code-analysis-for-managed-code-warnings.md)   
- [Code Analysis for Managed Code Overview](../codequality/code-analysis-for-managed-code-overview.md)   
- [Walkthrough: Analyzing Managed Code for Code Defects](../codequality/walkthrough--analyzing-managed-code-for-code-defects.md)
+ [Code Analysis for Managed Code Warnings](../code-quality/code-analysis-for-managed-code-warnings.md)   
+ [Code Analysis for Managed Code Overview](../code-quality/code-analysis-for-managed-code-overview.md)   
+ [Walkthrough: Analyzing Managed Code for Code Defects](../code-quality/walkthrough--analyzing-managed-code-for-code-defects.md)

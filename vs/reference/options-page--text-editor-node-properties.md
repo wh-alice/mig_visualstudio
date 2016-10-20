@@ -1,7 +1,7 @@
 ---
-title: "Options Page, Text Editor Node Properties"
+title: "Options Page, Text Editor Node Properties | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -56,7 +56,7 @@ This document describes some pages (or properties collections) that are associat
 ## Plain Text  
  `DTE.Properties("TextEditor", "PlainText")`  
   
- The `PlainText` editor options affect the editor settings when text files are edited. Each programming language and [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] package has its own specific **Text Editor** settings. For example, to view or change the [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] editor settings, use `DTE.Properties("TextEditor", "CSharp") or DTE.Properties("TextEditor", "CSharp-Specific")`. For the **SQL Script** editor settings, use `DTE.Properties("TextEditor", "SQL ")`.  
+ The `PlainText` editor options affect the editor settings when text files are edited. Each programming language and [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] package has its own specific **Text Editor** settings. For example, to view or change the [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] editor settings, use `DTE.Properties("TextEditor", "CSharp") or DTE.Properties("TextEditor", "CSharp-Specific")`. For the **SQL Script** editor settings, use `DTE.Properties("TextEditor", "SQL ")`.  
   
 |Property Item Name|Value|Description|  
 |------------------------|-----------|-----------------|  

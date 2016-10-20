@@ -1,7 +1,7 @@
 ---
-title: "How to: Manually Create Performance Sessions"
+title: "How to: Manually Create Performance Sessions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,7 +36,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # How to: Manually Create Performance Sessions
-You can manually create a performance session. You are not required to open a project in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] to do this. For more information, see [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md).  
+You can manually create a performance session. You are not required to open a project in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to do this. For more information, see [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md).  
   
 ### To manually create a performance session  
   

@@ -1,7 +1,7 @@
 ---
-title: "IDebugClassField::EnumInterfacesImplemented"
+title: "IDebugClassField::EnumInterfacesImplemented | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -57,7 +57,7 @@ int EnumInterfacesImplemented(
  If successful, returns S_OK or returns S_FALSE if there are no interfaces implemented on this class. Otherwise, returns an error code.  
   
 ## Remarks  
- Each element of the enumeration is an [IDebugClassField](../extensibility/idebugclassfield.md) object describing an interface. Note that unmanaged [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)] code does not use interfaces as a discrete entity so this method always returns a null value for unmanaged [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)] code.  
+ Each element of the enumeration is an [IDebugClassField](../extensibility/idebugclassfield.md) object describing an interface. Note that unmanaged [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] code does not use interfaces as a discrete entity so this method always returns a null value for unmanaged [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] code.  
   
 ## See Also  
  [IDebugClassField](../extensibility/idebugclassfield.md)   

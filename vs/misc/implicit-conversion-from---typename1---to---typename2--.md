@@ -1,7 +1,7 @@
 ---
-title: "Implicit conversion from &#39;&lt;typename1&gt;&#39; to &#39;&lt;typename2&gt;&#39;"
+title: "Implicit conversion from &#39;&lt;typename1&gt;&#39; to &#39;&lt;typename2&gt;&#39; | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -43,7 +43,7 @@ An expression or an assignment statement takes a value of one data type and conv
   
 ### To correct this error  
   
--   If possible, use values of the same data type, so [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] does not need to do any conversion.  
+-   If possible, use values of the same data type, so [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] does not need to do any conversion.  
   
 -   Use `CType` or one of the other conversion keywords so that the conversion is *explicit*.  
   

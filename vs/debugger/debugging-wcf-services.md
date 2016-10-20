@@ -1,7 +1,7 @@
 ---
-title: "Debugging WCF Services"
+title: "Debugging WCF Services | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,7 +45,7 @@ translation.priority.ht:
  Explains debugger support for stepping into a WCF Service.  
   
  [How to: Debug a Self-Hosted WCF Service](../debugger/how-to--debug-a-self-hosted-wcf-service.md)  
- Describes how to debug a WCF Service that runs outside IIS or the [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] Development server.  
+ Describes how to debug a WCF Service that runs outside IIS or the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Development server.  
   
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   

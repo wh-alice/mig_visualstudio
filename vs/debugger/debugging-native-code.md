@@ -1,7 +1,7 @@
 ---
-title: "Debugging Native Code"
+title: "Debugging Native Code | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -52,7 +52,7 @@ The section covers some common debugging problems and techniques for native appl
  Describes the Win32 `DebugBreak` function and provides a link to its reference topic in the Platform SDK. Also describes the `__debugbreak` intrinsic.  
   
  [C/C++ Assertions](../debugger/c-c---assertions.md)  
- Discusses assertion statements, how they work, the benefits of using them (catching logic errors, checking results of an operation, and testing error conditions), their interaction with `_DEBUG`, and the types of assertions supported in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+ Discusses assertion statements, how they work, the benefits of using them (catching logic errors, checking results of an operation, and testing error conditions), their interaction with `_DEBUG`, and the types of assertions supported in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
  [How to: Debug Inline Assembly Code](../debugger/how-to--debug-inline-assembly-code.md)  
  Provides short instructions on using the Disassembly window to view the assembly instructions and the Registers window to view register contents and provides links to topics regarding those windows.  

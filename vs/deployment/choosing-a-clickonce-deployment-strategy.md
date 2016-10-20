@@ -1,7 +1,7 @@
 ---
-title: "Choosing a ClickOnce Deployment Strategy"
+title: "Choosing a ClickOnce Deployment Strategy | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -54,7 +54,7 @@ There are three different strategies for deploying a [!INCLUDE[ndptecclick](../d
   
  If you deploy the application from the Web, you can pass arguments into the application when it is activated using a URL. For more information, see [How to: Retrieve Query String Information in an Online ClickOnce Application](../deployment/how-to--retrieve-query-string-information-in-an-online-clickonce-application.md). You cannot pass arguments into an application that is activated by using any of the other methods described in this document.  
   
- To enable this deployment strategy in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], click **From the Web** or **From a UNC path or file share** on the **How Installed** page of the Publish Wizard.  
+ To enable this deployment strategy in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], click **From the Web** or **From a UNC path or file share** on the **How Installed** page of the Publish Wizard.  
   
  This is the default deployment strategy.  
   
@@ -63,7 +63,7 @@ There are three different strategies for deploying a [!INCLUDE[ndptecclick](../d
   
  This strategy works best for applications that will be deployed to users without persistent network connectivity or with low-bandwidth connections. Because the application is installed from removable media, no network connection is necessary for installation; however, network connectivity is still required for application updates.  
   
- To enable this deployment strategy in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], click **From a CD-ROM or DVD-ROM** on the **How Installed** page of the Publish Wizard.  
+ To enable this deployment strategy in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], click **From a CD-ROM or DVD-ROM** on the **How Installed** page of the Publish Wizard.  
   
  To enable this deployment strategy manually, change the **deploymentProvider** tag in the deployment manifest. (In Visual Studio, this property is exposed as **Installation URL** on the **Publish** page of the Project Designer. In Mage.exe it is **Start Location**.)  
   
@@ -75,7 +75,7 @@ There are three different strategies for deploying a [!INCLUDE[ndptecclick](../d
   
  This strategy works best for applications that are used infrequently—for example, an employee-benefits tool that is typically run only one time each year.  
   
- To enable this deployment strategy in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], click **Do not install the application** on the **Install or Run From Web** page of the Publish Wizard.  
+ To enable this deployment strategy in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], click **Do not install the application** on the **Install or Run From Web** page of the Publish Wizard.  
   
  To enable this deployment strategy, manually, change the **install** tag in the deployment manifest. (Its value can be **true** or **false**. In Mage.exe, use the **Online Only** option in the **Application Type** list.)  
   

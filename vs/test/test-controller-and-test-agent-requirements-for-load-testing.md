@@ -1,7 +1,7 @@
 ---
-title: "Test Controller and Test Agent Requirements for Load Testing"
+title: "Test Controller and Test Agent Requirements for Load Testing | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -30,7 +30,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Test Controller and Test Agent Requirements for Load Testing
-Several test types including unit, web performance, load, and manual tests are integrated into Visual Studio. [!INCLUDE[vstsTestEssLong](../test/includes/vststestesslong_md.md)] enables [!INCLUDE[vsprvsts](../codequality/includes/vsprvsts_md.md)] users to run tests on remote computers using a test controller and one or more agents. See [Install and configure test agents](../test/install-and-configure-test-agents.md).  
+Several test types including unit, web performance, load, and manual tests are integrated into Visual Studio. [!INCLUDE[vstsTestEssLong](../test/includes/vststestesslong_md.md)] enables [!INCLUDE[vsprvsts](../code-quality/includes/vsprvsts_md.md)] users to run tests on remote computers using a test controller and one or more agents. See [Install and configure test agents](../test/install-and-configure-test-agents.md).  
   
 ## Hardware and Software Requirements  
  Both the test controller and test agent computers have specific hardware and software requirements. In addition, if you want to deploy the test controller and test agent computers across multiple languages, you must plan how to support those languages.  
@@ -47,7 +47,7 @@ Several test types including unit, web performance, load, and manual tests are i
 |N x 30 computers in the test environment. This includes agents and servers under test.|Test Controller|N 2.6 GHz processors|||  
   
 > [!NOTE]
->  The number of virtual users will vary widely from test to test. A key cause of this variance is variance in *think times*, or user delays. [!INCLUDE[crdefault](../codequality/includes/crdefault_md.md)][Editing Think Times to Simulate Website Human Interaction Delays](../test/8e03bee5-ab7b-4b40-9497-9dbe91ccb90e.md). In a load test, Web tests are generally more efficient and generate more load than unit tests. The numbers in the preceding table are valid for running Web tests with 3-5 second think times on a typical Web application.  
+>  The number of virtual users will vary widely from test to test. A key cause of this variance is variance in *think times*, or user delays. [!INCLUDE[crdefault](../code-quality/includes/crdefault_md.md)][Editing Think Times to Simulate Website Human Interaction Delays](../test/editing-think-times-to-simulate-website-human-interaction-delays-in-load-tests-scenarios.md). In a load test, Web tests are generally more efficient and generate more load than unit tests. The numbers in the preceding table are valid for running Web tests with 3-5 second think times on a typical Web application.  
   
  The guidelines presented here are provided as general guidance for hardware planning. Test performance will vary greatly based on the amount of test data and the number of test agents. For test agents, the CPU speed and memory available will limit the test load. Test controllers need greater resources, depending on the number of test agents and the amount of data involved in the tests.  
   
@@ -65,11 +65,11 @@ Several test types including unit, web performance, load, and manual tests are i
   
 -   Visual Studio Enterprise  
   
- You can also use test agents with [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] and [!INCLUDE[vstsLabLong](../test/includes/vstslablong_md.md)].  
+ You can also use test agents with [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] and [!INCLUDE[vstsLabLong](../test/includes/vstslablong_md.md)].  
   
  **Operating systems:**  
   
--   [!INCLUDE[win8](../codequality/includes/win8_md.md)]  
+-   [!INCLUDE[win8](../code-quality/includes/win8_md.md)]  
   
 -   Windows Server 2008 Release 2 or later versions  
   
@@ -86,7 +86,7 @@ Several test types including unit, web performance, load, and manual tests are i
  In addition to the required software listed here, you should consider whether you want to install additional management or security software, such as backup software or firewalls.  
   
 ### Language Requirements  
- To avoid confusion and simplify operation, a test controller and test agents should be configured to use the same language as the computer's operating system and that of [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)]. If the test agent and test controller are installed on different computers, they must be configured to use the same language. You can, however, install another language version of [!INCLUDE[vstsTestEssShort](../test/includes/vststestessshort_md.md)] on an English-language operating system, as long as that language matches that of the [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] deployment.  
+ To avoid confusion and simplify operation, a test controller and test agents should be configured to use the same language as the computer's operating system and that of [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)]. If the test agent and test controller are installed on different computers, they must be configured to use the same language. You can, however, install another language version of [!INCLUDE[vstsTestEssShort](../test/includes/vststestessshort_md.md)] on an English-language operating system, as long as that language matches that of the [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] deployment.  
   
 ## Monitoring Agent Resources  
  You can monitor agent machines to determine their resource needs by observing the **QTAgent\*.exe** processes that execute and scale during tests. The most common bottleneck on the QTAgent*.exe processes is CPU utilization. If the CPU utilization is consistently in the high nineties then it is an indication that the agent is being loaded heavily. The next common bottleneck is the memory usage. For demanding tests, monitoring these resources can help determine if you should increase the machines resources, or distribute your tests differently.  

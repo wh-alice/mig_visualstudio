@@ -1,7 +1,7 @@
 ---
-title: "Debug 64-Bit Applications"
+title: "Debug 64-Bit Applications | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/17/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

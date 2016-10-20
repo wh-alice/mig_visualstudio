@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Error MSB1006"
+title: "MSBuild Error MSB1006 | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"

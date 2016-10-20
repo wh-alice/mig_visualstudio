@@ -1,7 +1,7 @@
 ---
-title: "Finding Memory Leaks Using the CRT Library"
+title: "Finding Memory Leaks Using the CRT Library | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -54,7 +54,7 @@ translation.priority.mt:
 # Finding Memory Leaks Using the CRT Library
 Memory leaks, defined as the failure to correctly deallocate memory that was previously allocated, are among the most subtle and hard-to-detect bugs in C/C++ applications. A small memory leak might not be noticed at first, but over time, a progressive memory leak can cause symptoms that range from decreased performance to crashing when the application runs out of memory. Worse, a leaking application that uses up all available memory can cause another application to crash, creating confusion as to which application is responsible. Even seemingly harmless memory leaks might be symptomatic of other problems that should be corrected.  
   
- The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] debugger and C Run-Time (CRT) libraries provide you with the means for detecting and identifying memory leaks.  
+ The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger and C Run-Time (CRT) libraries provide you with the means for detecting and identifying memory leaks.  
   
 ## Enabling Memory Leak Detection  
  The primary tools for detecting memory leaks are the debugger and the C Run-Time Libraries (CRT) debug heap functions.  

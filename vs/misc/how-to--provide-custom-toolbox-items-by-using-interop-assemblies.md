@@ -1,7 +1,7 @@
 ---
-title: "How to: Provide Custom Toolbox Items By Using Interop Assemblies"
+title: "How to: Provide Custom Toolbox Items By Using Interop Assemblies | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,9 +36,9 @@ translation.priority.mt:
 >   
 >  For more information on creating toolbox controls by using the templates, see [How to: Create a Toolbox Control That Uses Windows Forms](../misc/how-to--create-a-toolbox-control-that-uses-windows-forms.md) and [Creating a WPF Toolbox Control](../extensibility/creating-a-wpf-toolbox-control.md).  
   
- A VSPackage based on an interop assembly can extend [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] **Toolbox** functionality by adding ActiveX controls.  
+ A VSPackage based on an interop assembly can extend [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] **Toolbox** functionality by adding ActiveX controls.  
   
- For a list of standard [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Toolbox Clipboard formats, see [Extending the Toolbox](../misc/extending-the-toolbox.md).  
+ For a list of standard [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Toolbox Clipboard formats, see [Extending the Toolbox](../misc/extending-the-toolbox.md).  
   
  For information on how a VSPackage manages the **Toolbox** using [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)], see [Managing the Toolbox](../misc/managing-the-toolbox.md).  
   
@@ -59,7 +59,7 @@ translation.priority.mt:
   
     1.  <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2>, which supports adding controls and sections (tabs) to the **Toolbox** and controlling other aspects of the **Toolbox** configuration.  
   
-    2.  <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox3>, which provides support for localization and [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] settings persistence.  
+    2.  <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox3>, which provides support for localization and [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] settings persistence.  
   
     > [!NOTE]
     >  The <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2> interface inherits from the <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox> interface. <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox3> does not derive from <xref:Microsoft.VisualStudio.Shell.Interop.IVsToolbox2> and does not implement its methods.  
@@ -105,7 +105,7 @@ translation.priority.mt:
     return hr;  
     ```  
   
- In addition to adding to the **Toolbox** itself, a VSPackage can be configured as a **Toolbox** data provider and can be used to extend the drag-and-drop support to the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] IDE. This allows arbitrary clipboard formats to be exposed to the **Toolbox** and editors.  
+ In addition to adding to the **Toolbox** itself, a VSPackage can be configured as a **Toolbox** data provider and can be used to extend the drag-and-drop support to the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE. This allows arbitrary clipboard formats to be exposed to the **Toolbox** and editors.  
   
 #### To configure VSPackage as a Toolbox Item Provider  
   
@@ -147,7 +147,7 @@ translation.priority.mt:
         }  
         ```  
   
- For a list of standard [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] **Toolbox** Clipboard formats, see [Extending the Toolbox](../misc/extending-the-toolbox.md).  
+ For a list of standard [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] **Toolbox** Clipboard formats, see [Extending the Toolbox](../misc/extending-the-toolbox.md).  
   
 ## See Also  
  [Extending the Toolbox](../misc/extending-the-toolbox.md)   

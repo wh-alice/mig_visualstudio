@@ -1,7 +1,7 @@
 ---
-title: "&#39;New&#39; cannot be used on a class that is declared &#39;MustInherit&#39;"
+title: "&#39;New&#39; cannot be used on a class that is declared &#39;MustInherit&#39; | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

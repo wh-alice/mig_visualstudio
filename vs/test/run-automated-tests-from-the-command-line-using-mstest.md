@@ -1,7 +1,7 @@
 ---
-title: "Run automated tests from the command line using MSTest"
+title: "Run automated tests from the command line using MSTest | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,11 +34,11 @@ You use the executable program MSTest.exe to run tests from the command line. Th
   
 ### To run tests from the command line  
   
-1.  Open a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] command prompt.  
+1.  Open a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] command prompt.  
   
      To do this, choose **Start**, point to **All Programs**, point to **Microsoft Visual Studio 2012**, point to **Visual Studio Tools**, and then choose **Developer Command Prompt**.  
   
-     By default, the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] command prompt opens to the following folder:  
+     By default, the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] command prompt opens to the following folder:  
   
      \<drive letter>:\Program Files\Microsoft Visual Studio 11.0\VC  
   
@@ -47,7 +47,7 @@ You use the executable program MSTest.exe to run tests from the command line. Th
   
 2.  Either change directory to your solution folder or, when you run the MSTest.exe program in step 3, specify a full or relative path to the metadata file or to the test container.  
   
-     To identify your solution folder, first identify the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Projects folder. To do this, choose **Options** on the **Tools** menu in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], and then choose **Projects and Solutions**. Under **Visual Studio projects location**, you see a path such as the following:  
+     To identify your solution folder, first identify the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Projects folder. To do this, choose **Options** on the **Tools** menu in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], and then choose **Projects and Solutions**. Under **Visual Studio projects location**, you see a path such as the following:  
   
      **\<drive letter>:\Documents and Settings\\<user name\>\My Documents\Visual Studio\Projects**  
   
@@ -77,7 +77,7 @@ You use the executable program MSTest.exe to run tests from the command line. Th
  **MSTest /testmetadata:Bank.vsmdi /testlist:balancetests**  
   
 > [!WARNING]
->  Test lists are no longer fully supported in [!INCLUDE[vs_dev11_long](../codequality/includes/vs_dev11_long_md.md)]:  
+>  Test lists are no longer fully supported in [!INCLUDE[vs_dev11_long](../code-quality/includes/vs_dev11_long_md.md)]:  
 >   
 >  -   You cannot create new test lists.  
 > -   You cannot run test list tests from within Visual Studio.  

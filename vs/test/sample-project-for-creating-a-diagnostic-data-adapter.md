@@ -1,7 +1,7 @@
 ---
-title: "Sample Project for Creating a Diagnostic Data Adapter"
+title: "Sample Project for Creating a Diagnostic Data Adapter | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -38,9 +38,9 @@ translation.priority.ht:
 ## Example  
  This sample demonstrates how to perform the following tasks:  
   
--   Apply attributes to make a class discoverable to [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] as a diagnostic data adapter.  
+-   Apply attributes to make a class discoverable to [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] as a diagnostic data adapter.  
   
--   Apply attributes to make a user control class discoverable to [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] as an editor to use to change the configuration for a diagnostic data adapter.  
+-   Apply attributes to make a user control class discoverable to [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] as an editor to use to change the configuration for a diagnostic data adapter.  
   
 -   Access default configuration data.  
   
@@ -390,7 +390,7 @@ namespace MyCompany.DiagnosticDataAdapters.ConfigurationEditors
   
 16. Create test settings that use this custom data diagnostic adapter. Configure the test settings to collect a file that exists.  
   
-     If you are running your tests from [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], you can assign these test settings to your test plan before you run your tests or use the Run with Options command to assign test settings and override test settings. For more information about test settings, see [Setting Up Machines and Collecting Diagnostic Information Using Test Settings](../test/setting-up-machines-and-collecting-diagnostic-information-using-test-settings.md).  
+     If you are running your tests from [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], you can assign these test settings to your test plan before you run your tests or use the Run with Options command to assign test settings and override test settings. For more information about test settings, see [Setting Up Machines and Collecting Diagnostic Information Using Test Settings](../test/setting-up-machines-and-collecting-diagnostic-information-using-test-settings.md).  
   
 17. Run your tests by using the test settings with your diagnostic data adapter selected.  
   
@@ -400,4 +400,4 @@ namespace MyCompany.DiagnosticDataAdapters.ConfigurationEditors
  [How to: Create a Diagnostic Data Adapter](../test/how-to--create-a-diagnostic-data-adapter.md)   
  [How to: Create a Custom Editor for Data for Your Diagnostic Data Adapter](../test/how-to--create-a-custom-editor-for-data-for-your-diagnostic-data-adapter.md)   
  [How to: Install a Custom Diagnostic Data Adapter](../test/how-to--install-a-custom-diagnostic-data-adapter.md)   
- [Creating a Diagnostic Data Adapter to Collect Custom Data or Affect a Test Machine](../test/b0b53fae-7007-4ad9-a604-21685937622f.md)
+ [Creating a Diagnostic Data Adapter to Collect Custom Data or Affect a Test Machine](../test/creating-a-diagnostic-data-adapter-to-collect-custom-data-or-affect-a-test-machine.md)

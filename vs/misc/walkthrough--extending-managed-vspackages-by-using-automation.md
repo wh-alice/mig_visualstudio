@@ -1,7 +1,7 @@
 ---
-title: "Walkthrough: Extending Managed VSPackages By Using Automation"
+title: "Walkthrough: Extending Managed VSPackages By Using Automation | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,7 +33,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Walkthrough: Extending Managed VSPackages By Using Automation
-This walkthrough illustrates how to use automation to create a managed VSPackage that manipulates the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE). You create a sample managed VSPackage and then use automation methods in the resulting VSPackage to display [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] properties in the **Output** window.  
+This walkthrough illustrates how to use automation to create a managed VSPackage that manipulates the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE). You create a sample managed VSPackage and then use automation methods in the resulting VSPackage to display [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] properties in the **Output** window.  
   
 ## Prerequisites  
  To follow this walkthrough, you must install the Visual Studio SDK. For more information, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).  
@@ -49,11 +49,11 @@ This walkthrough illustrates how to use automation to create a managed VSPackage
   
 ### To create a managed VSPackage  
   
-1.  Create a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Package project named `Auto`.  
+1.  Create a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Package project named `Auto`.  
   
      For more information about how to create a managed VSPackage, see [Walkthrough: Creating a Menu Command By Using the Visual Studio Package Template](../Topic/Walkthrough:%20Creating%20a%20Menu%20Command%20By%20Using%20the%20Visual%20Studio%20Package%20Template.md).  
   
-2.  On the **Select a Programming Language** page, set the language to [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)].  
+2.  On the **Select a Programming Language** page, set the language to [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)].  
   
 3.  Keep the default values in the **Basic VSPackage Information** page.  
   
@@ -85,16 +85,16 @@ This walkthrough illustrates how to use automation to create a managed VSPackage
      [!code[VSSDKAuto#2](../misc/codesnippet/CSharp/walkthrough--extending-managed-vspackages-by-using-automation_2.cs)]
 [!code[VSSDKAuto#2](../misc/codesnippet/VisualBasic/walkthrough--extending-managed-vspackages-by-using-automation_2.vb)]  
   
- This code calls <xref:Microsoft.VisualStudio.Shell.Package.GetService*> to obtain a <xref:EnvDTE.DTE> automation object that represents the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] IDE. The automation code in `MenuItemCallback` creates a new pane in the **Output** window named **Test**. The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] name and version is then written to the new **Output** pane.  
+ This code calls <xref:Microsoft.VisualStudio.Shell.Package.GetService*> to obtain a <xref:EnvDTE.DTE> automation object that represents the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE. The automation code in `MenuItemCallback` creates a new pane in the **Output** window named **Test**. The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] name and version is then written to the new **Output** pane.  
   
 1.  Build and start the Auto project in debug mode by pressing F5.  
   
-     This starts the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] experimental build ([!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Exp).  
+     This starts the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] experimental build ([!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Exp).  
   
     > [!NOTE]
-    >  Both versions of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] are open at this point.  
+    >  Both versions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] are open at this point.  
   
-2.  In [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Exp, on the **Tools** menu, click **Auto**.  
+2.  In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Exp, on the **Tools** menu, click **Auto**.  
   
      A new pane named **Test** opens in the **Output** window and displays the following:  
   
@@ -103,7 +103,7 @@ This walkthrough illustrates how to use automation to create a managed VSPackage
     Version is x.xx  
     ```  
   
-     Where x.xx is the latest [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] version number.  
+     Where x.xx is the latest [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] version number.  
   
      For more information about automation samples, see [Automation Samples for Visual Studio](http://www.microsoft.com/downloads/details.aspx?familyid=3ff9c915-30e5-430e-95b3-621dccd25150&displaylang=en).  
   

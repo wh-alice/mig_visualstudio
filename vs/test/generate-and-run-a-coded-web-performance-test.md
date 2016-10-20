@@ -1,5 +1,5 @@
 ---
-title: "Generate and run a coded web performance test"
+title: "Generate and run a coded web performance test | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -32,7 +32,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Generate and run a coded web performance test
-Web performance tests are [recorded by browsing through your web app](http://msdn.microsoft.com/en-us/bd0a82fd-cec0-4861-bc09-e1b0b2d258ef). The tests are included in [load tests](../test/8e03bee5-ab7b-4b40-9497-9dbe91ccb90e.md) to measure the performance of your web application under the stress of multiple users. A web performance test can be converted to a code-based script that you can edit and customize like any other source code.  For example, you can add looping and branching constructs.  
+Web performance tests are [recorded by browsing through your web app](http://msdn.microsoft.com/en-us/bd0a82fd-cec0-4861-bc09-e1b0b2d258ef). The tests are included in [load tests](../test/editing-think-times-to-simulate-website-human-interaction-delays-in-load-tests-scenarios.md) to measure the performance of your web application under the stress of multiple users. A web performance test can be converted to a code-based script that you can edit and customize like any other source code.  For example, you can add looping and branching constructs.  
   
 ## Generate a coded web performance test  
   
@@ -104,4 +104,4 @@ Web performance tests are [recorded by browsing through your web app](http://msd
  This can occur because you have a DataSourceAttribute defined for the test class, without a corresponding DataBindingAttribute. To resolve this error, add an appropriate DataBindingAttribute, delete it, or comment it out of the code.  
   
 ### Q: Should I add validation and extraction rules before or after I generate a coded test?  
- **A:** It is easier to validation rules and extraction rules before you generate the coded test; however, we recommend that you use [coded UI tests](../codequality/use-ui-automation-to-test-your-code.md) for validation purposes.
+ **A:** It is easier to validation rules and extraction rules before you generate the coded test; however, we recommend that you use [coded UI tests](../code-quality/use-ui-automation-to-test-your-code.md) for validation purposes.

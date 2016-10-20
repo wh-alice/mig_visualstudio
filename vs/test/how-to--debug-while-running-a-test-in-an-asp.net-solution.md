@@ -1,7 +1,7 @@
 ---
-title: "How to: Debug while Running a Test in an ASP.NET Solution"
+title: "How to: Debug while Running a Test in an ASP.NET Solution | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -116,9 +116,9 @@ You can debug both unit tests and Web tests that you are using to test ASP.NET W
   
 8.  As soon as the test starts to run, a dialog box appears. This dialog box indicates that the program has encountered a breakpoint.  
   
-9. Choose **Debug**, choose the instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] that has your solution loaded, and then choose **Yes**.  
+9. Choose **Debug**, choose the instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] that has your solution loaded, and then choose **Yes**.  
   
-     [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] will attach to the process, with execution paused at the System.Diagnostics.Debugger.Break() statement. You can choose **Continue** from the Debug menu or press F5 to allow execution to continue to your next breakpoint.  
+     [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] will attach to the process, with execution paused at the System.Diagnostics.Debugger.Break() statement. You can choose **Continue** from the Debug menu or press F5 to allow execution to continue to your next breakpoint.  
   
     > [!NOTE]
     >  Be sure remove the System.Diagnostics.Debugger.Break() statement when you have finished debugging. Otherwise, the breakpoint dialog box will appear every time that you run the test.  

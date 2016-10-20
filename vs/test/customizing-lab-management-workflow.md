@@ -1,7 +1,7 @@
 ---
-title: "Customizing lab management workflow"
+title: "Customizing lab management workflow | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -50,7 +50,7 @@ You can use the lab default template (LabDefaultTemplate) with lab environments 
   
 -   **Template** The template defines the sequence of activities or steps that are a part of the workflow. The template is based on Windows Workflow Foundation 4.0 and is stored as a .xaml file in Source Control. To load the template into the Workflow Editor, double-click the .xaml file. In the Editor, you will be able to see the various activities and sequences that determine the workflow. You can then use variables with different scopes, conditional logic, loops, and so on to program the template, just as you would with any other programming language. Windows Workflow Foundation enables you to customize the lab default template to suit your needs.  
   
--   **Activities** The activity is the building block of a workflow, and the lab default template uses many activities. You can find additional activities in the **Toolbox** under the heading **Team Foundation Lab Management Activities**. To use an activity in the workflow, drag it from the toolbox into the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Workflow Editor to appropriate location in the template. You can determine the input and output parameters by looking at the properties of the activity. For more information about each Lab Management activity, see [Lab management workflow activities](../test/lab-management-workflow-activities.md). If the activities that are included with the product are insufficient to meet your requirements, you can add new activities.  
+-   **Activities** The activity is the building block of a workflow, and the lab default template uses many activities. You can find additional activities in the **Toolbox** under the heading **Team Foundation Lab Management Activities**. To use an activity in the workflow, drag it from the toolbox into the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Workflow Editor to appropriate location in the template. You can determine the input and output parameters by looking at the properties of the activity. For more information about each Lab Management activity, see [Lab management workflow activities](../test/lab-management-workflow-activities.md). If the activities that are included with the product are insufficient to meet your requirements, you can add new activities.  
   
 -   **Arguments** You can create new input arguments for the inputs you need from the user, and pass these values to activities. Choose the **Arguments** tab at the bottom of the Workflow Editor window to see the existing arguments. If you create new arguments, they will appear in the **Build Process Parameters** section of the **Process** tab in the build definition.  
   
@@ -63,7 +63,7 @@ You can use the lab default template (LabDefaultTemplate) with lab environments 
   
 #### To prepare for customization  
   
-1.  In [!INCLUDE[esprtfc](../codequality/includes/esprtfc_md.md)], double-click the **Source Control** node for your team project.  
+1.  In [!INCLUDE[esprtfc](../code-quality/includes/esprtfc_md.md)], double-click the **Source Control** node for your team project.  
   
 2.  In **Source Control Explorer**, expand the Source Control tree and find the **$/<Project_Name>/BuildProcessTemplates** folder.  
   
@@ -112,7 +112,7 @@ You can use the lab default template (LabDefaultTemplate) with lab environments 
  You can now use the customized .xaml file to create new build definitions. The new in-argument **TestBinariesLocation** will appear in the **Misc** section of the **Process** tab in your build definition, and you can assign a value there.  
   
 ##  <a name="DeployRestart"></a> Customization to support application installers requiring a machine restart after deployment  
- The lab default template, does not restart the lab environment after you deploy the application. You might want to customize the template to support applications that might require a restart after they are deployed. If you deployed the application manually in a lab environment, you would restart only the machine the where the application was installed. [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Lab Management does not support operations on virtual machines in an environment. Consequently, to restart one machine requires that all machines in the lab environment be restarted.  
+ The lab default template, does not restart the lab environment after you deploy the application. You might want to customize the template to support applications that might require a restart after they are deployed. If you deployed the application manually in a lab environment, you would restart only the machine the where the application was installed. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Lab Management does not support operations on virtual machines in an environment. Consequently, to restart one machine requires that all machines in the lab environment be restarted.  
   
 > [!WARNING]
 >  Ensure that your deployment scripts never restart the machine. If this occurs, the build agent running the deployment script will lose connection with the build controller and the workflow might stop.  

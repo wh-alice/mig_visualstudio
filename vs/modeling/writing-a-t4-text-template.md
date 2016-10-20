@@ -1,7 +1,7 @@
 ---
-title: "Writing a T4 Text Template"
+title: "Writing a T4 Text Template | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -66,7 +66,7 @@ Hello
 ```  
   
 ## Control blocks  
- Control blocks are sections of program code that are used to transform the templates. The default language is C#, but to use [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)], you can write this directive at the beginning of the file:  
+ Control blocks are sections of program code that are used to transform the templates. The default language is C#, but to use [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)], you can write this directive at the beginning of the file:  
   
 ```  
 <#@ template language="VB" #>  
@@ -288,7 +288,7 @@ Content of MyFile.txt is:
 |----------|-----------|  
 |Writing a template.|[Guidelines for Writing T4 Text Templates](../modeling/guidelines-for-writing-t4-text-templates.md)|  
 |Generate text by using program code.|[Text Template Structure](../modeling/writing-a-t4-text-template.md)|  
-|Generate files in a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] solution.|[Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md)|  
-|Run text generation outside [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].|[Generating Files with the TextTransform Utility](../modeling/generating-files-with-the-texttransform-utility.md)|  
+|Generate files in a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution.|[Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md)|  
+|Run text generation outside [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].|[Generating Files with the TextTransform Utility](../modeling/generating-files-with-the-texttransform-utility.md)|  
 |Transform your data in the form of a domain-specific language.|[Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)|  
 |Write directive processors to transform your own data sources.|[Customizing T4 Text Transformation](../modeling/customizing-t4-text-transformation.md)|

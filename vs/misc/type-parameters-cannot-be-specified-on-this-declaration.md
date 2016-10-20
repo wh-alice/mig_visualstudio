@@ -1,7 +1,7 @@
 ---
-title: "Type parameters cannot be specified on this declaration"
+title: "Type parameters cannot be specified on this declaration | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

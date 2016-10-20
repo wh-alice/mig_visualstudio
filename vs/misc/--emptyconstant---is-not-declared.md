@@ -1,5 +1,5 @@
 ---
-title: "&#39;&lt;emptyconstant&gt;&#39; is not declared"
+title: "&#39;&lt;emptyconstant&gt;&#39; is not declared | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
@@ -24,7 +24,7 @@ manager: "douge"
   
  A declaration or assignment statement attempts to assign a value of `Empty` to a variable, constant, enumeration member, property, or function return.  
   
- Previous versions of [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] used the `Empty` keyword to represent uninitialized data storage. The current version of Visual Basic does not support `Empty`. An uninitialized variable holds the default value for its data type. For more information about default values, see "Default Values" in [Dim Statement](../Topic/Dim%20Statement%20\(Visual%20Basic\).md).  
+ Previous versions of [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] used the `Empty` keyword to represent uninitialized data storage. The current version of Visual Basic does not support `Empty`. An uninitialized variable holds the default value for its data type. For more information about default values, see "Default Values" in [Dim Statement](../Topic/Dim%20Statement%20\(Visual%20Basic\).md).  
   
  The [Nothing](../Topic/Nothing%20\(Visual%20Basic\).md) keyword represents the default value of any data type. You can use it instead of `Empty`.  
   

@@ -1,7 +1,7 @@
 ---
-title: "Adding Search to a Tool Window"
+title: "Adding Search to a Tool Window | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

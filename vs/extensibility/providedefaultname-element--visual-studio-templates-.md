@@ -1,7 +1,7 @@
 ---
-title: "ProvideDefaultName Element (Visual Studio Templates)"
+title: "ProvideDefaultName Element (Visual Studio Templates) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,7 +34,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # ProvideDefaultName Element (Visual Studio Templates)
-Specifies whether the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] project system will generate a default name for the template in the **Add New Item** or **New Project** dialog box.  
+Specifies whether the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project system will generate a default name for the template in the **Add New Item** or **New Project** dialog box.  
   
  \<VSTemplate>  
  \<TemplateData>  

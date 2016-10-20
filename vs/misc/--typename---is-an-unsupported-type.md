@@ -1,7 +1,7 @@
 ---
-title: "&#39;&lt;typename&gt;&#39; is an unsupported type"
+title: "&#39;&lt;typename&gt;&#39; is an unsupported type | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # &#39;&lt;typename&gt;&#39; is an unsupported type
-The type specified cannot be represented by [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+The type specified cannot be represented by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
  **Error ID:** BC30649  
   

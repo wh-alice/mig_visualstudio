@@ -1,7 +1,7 @@
 ---
-title: "Port Suppliers"
+title: "Port Suppliers | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -42,7 +42,7 @@ In terms of the debugger architecture, a **port supplier**:
   
 -   Is represented by an [IDebugPortSupplier2](../extensibility/idebugportsupplier2.md) interface, which is registered with Visual Studio through the registry. This interface can be obtained by calling [GetPortSupplier](../extensibility/idebugcoreserver2--getportsupplier.md).  
   
- [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] provides a default port supplier and a default port. If a custom port needs to be implemented, a custom port supplier also needs to be implemented to supply those custom ports.  
+ [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] provides a default port supplier and a default port. If a custom port needs to be implemented, a custom port supplier also needs to be implemented to supply those custom ports.  
   
 ## See Also  
  [Servers](../extensibility/servers--visual-studio-sdk-.md)   

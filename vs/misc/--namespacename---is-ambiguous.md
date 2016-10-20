@@ -1,7 +1,7 @@
 ---
-title: "&#39;&lt;namespacename&gt;&#39; is ambiguous"
+title: "&#39;&lt;namespacename&gt;&#39; is ambiguous | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # &#39;&lt;namespacename&gt;&#39; is ambiguous
-You have provided a name that is ambiguous and therefore conflicts with another name. The [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] compiler does not have any conflict-resolution rules; you must disambiguate names yourself.  
+You have provided a name that is ambiguous and therefore conflicts with another name. The [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler does not have any conflict-resolution rules; you must disambiguate names yourself.  
   
  **Error ID:** BC30554  
   

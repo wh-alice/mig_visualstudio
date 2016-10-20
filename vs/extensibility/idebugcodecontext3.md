@@ -1,7 +1,7 @@
 ---
-title: "IDebugCodeContext3"
+title: "IDebugCodeContext3 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -40,7 +40,7 @@ IDebugCodeContext3 : IDebugCodeContext2
 ```  
   
 ## Notes for Implementers  
- Implemented by debug engines and consumed by the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Debug package.  
+ Implemented by debug engines and consumed by the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Debug package.  
   
 ## Methods  
  In addition to the methods on the `IDebugCodeContext2` interface, this interface implements the following methods:  

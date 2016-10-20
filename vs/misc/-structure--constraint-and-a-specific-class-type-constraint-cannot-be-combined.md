@@ -1,7 +1,7 @@
 ---
-title: "&#39;Structure&#39; constraint and a specific class type constraint cannot be combined"
+title: "&#39;Structure&#39; constraint and a specific class type constraint cannot be combined | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

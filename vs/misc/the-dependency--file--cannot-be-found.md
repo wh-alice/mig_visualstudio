@@ -1,7 +1,7 @@
 ---
-title: "The dependency &#39;file&#39; cannot be found"
+title: "The dependency &#39;file&#39; cannot be found | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -40,7 +40,7 @@ One of your project's references itself contains a reference (dependency) that c
   
 1.  Locate the indicated assembly reference on disk and modify your Reference Path property.  
   
-2.  If you cannot locate the assembly file on disk, you may have to reinstall [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] or any third-party custom controls if the assembly's dependencies cannot be located on disk. Also, if you are enlisting in a source-controlled project, you may have to install any third-party controls that are required by that project.  
+2.  If you cannot locate the assembly file on disk, you may have to reinstall [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] or any third-party custom controls if the assembly's dependencies cannot be located on disk. Also, if you are enlisting in a source-controlled project, you may have to install any third-party controls that are required by that project.  
   
  This situation will not prevent the project from building. However, there may be a TypeLoadException when running the application. Also, the affected dependency will not be reported to Deployment process.  
   

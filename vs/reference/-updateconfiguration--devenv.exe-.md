@@ -1,7 +1,7 @@
 ---
-title: "-Updateconfiguration (devenv.exe)"
+title: "-Updateconfiguration (devenv.exe) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,7 +24,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # /Updateconfiguration (devenv.exe)
-Notifies [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] to merge the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] packages on the system and check the MEF cache for any changes.  
+Notifies [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to merge the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] packages on the system and check the MEF cache for any changes.  
   
 ## Syntax  
   
@@ -33,10 +33,10 @@ devenv /updateconfiguration
 ```  
   
 ## Remarks  
- [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] runs this command automatically when you install a VSIX package. You should run `devenv.exe /updateconfiguration` after patching your files so that [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] updates the MEF cache. This enables you to evaluate whether your fix is adequate.  
+ [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] runs this command automatically when you install a VSIX package. You should run `devenv.exe /updateconfiguration` after patching your files so that [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] updates the MEF cache. This enables you to evaluate whether your fix is adequate.  
   
 ## Example  
- The following command line causes [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] to merge the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] packages on the system and check the MEF cache for any changes.  
+ The following command line causes [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to merge the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] packages on the system and check the MEF cache for any changes.  
   
 ```  
 Devenv.exe /updateconfiguration  

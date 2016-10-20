@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Project File Schema Reference"
+title: "MSBuild Project File Schema Reference | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,7 +17,7 @@ dev_langs:
 helpviewer_keywords: 
   - "MSBuild, file schema"
 ms.assetid: d9a68146-1f43-4621-ac78-2c8c3f400936
-caps.latest.revision: 18
+caps.latest.revision: 19
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -70,4 +70,5 @@ Provides a table of all the [!INCLUDE[vstecmsbuild](../extensibility/includes/vs
 ## See Also  
  [Task Reference](../reference/msbuild-task-reference.md)   
  [Conditions](../reference/msbuild-conditions.md)   
- [MSBuild Reference](../reference/msbuild-reference.md)
+ [MSBuild Reference](../reference/msbuild-reference.md)  
+ [MSBuild](../reference/msbuild1.md)

@@ -1,7 +1,7 @@
 ---
-title: "Command Routing in VSPackages"
+title: "Command Routing in VSPackages | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,7 +32,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Command Routing in VSPackages
-A command is routed in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] based on the context in which it is executed. It is routed from the initial context outward to the global context.  
+A command is routed in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] based on the context in which it is executed. It is routed from the initial context outward to the global context.  
   
 ## In This Section  
  [Routing Algorithm](../extensibility/command-routing-algorithm.md)  

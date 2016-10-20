@@ -1,7 +1,7 @@
 ---
-title: "How to: Install the Stand-Alone Profiler"
+title: "How to: Install the Stand-Alone Profiler | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,19 +32,19 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Install the Stand-Alone Profiler
-[!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] provides a command line based stand-alone profiler that can be run without installing the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] IDE. This situation occurs when a computer does not or cannot have a development environment installed. For example, you should not install a development environment on a production Web server.  
+[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] provides a command line based stand-alone profiler that can be run without installing the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE. This situation occurs when a computer does not or cannot have a development environment installed. For example, you should not install a development environment on a production Web server.  
   
 > [!NOTE]
 >  When you are using the stand-alone profiler to collect performance data for ASP.NET Web site, the [VSPerfASPNetCmd](../profiling/vsperfaspnetcmd.md) line tool is recommended over [VSPerfCmd](../profiling/vsperfcmd.md) tool.  
   
 ### To install the stand-alone profiler  
   
-1.  Locate the stand-alone profile installer (vs_profiler.exe) on the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] installation media in the directory that includes the \Standalone Profiler path and run it.  
+1.  Locate the stand-alone profile installer (vs_profiler.exe) on the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] installation media in the directory that includes the \Standalone Profiler path and run it.  
   
 2.  Add the paths for vsintr.exe and msdis150.dll to the system path.  
   
     > [!NOTE]
-    >  In the default installation of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], vsinstr.exe and msdis150.dll are located in \Program Files\Visual Studio 10\Team Tools\Performance Tools.  
+    >  In the default installation of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], vsinstr.exe and msdis150.dll are located in \Program Files\Visual Studio 10\Team Tools\Performance Tools.  
   
 3.  At the command prompt, type **VSInstr**.  
   

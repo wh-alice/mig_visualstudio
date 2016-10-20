@@ -1,7 +1,7 @@
 ---
-title: "Domain Property Value Change Handlers"
+title: "Domain Property Value Change Handlers | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,7 +15,7 @@ ms.author: "awills"
 manager: "kamrani"
 ---
 # Domain Property Value Change Handlers
-In a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] domain-specific language, when the value of a domain property changes, the `OnValueChanging()` and `OnValueChanged()` methods are invoked in the domain property handler. To respond to the change, you can override these methods.  
+In a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] domain-specific language, when the value of a domain property changes, the `OnValueChanging()` and `OnValueChanged()` methods are invoked in the domain property handler. To respond to the change, you can override these methods.  
   
 ## Overriding the Property Handler methods  
  Each domain property of your domain-specific language is handled by a class that is nested inside its parent domain class. Its name follows the format *PropertyName*PropertyHandler. You can inspect this property handler class in the file **Dsl\Generated Code\DomainClasses.cs**. In the class, `OnValueChanging()` is called immediately before the value changes, and `OnValueChanged()` is called immediately after the value changes.  

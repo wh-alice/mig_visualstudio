@@ -1,7 +1,7 @@
 ---
-title: "Creating Custom Editors and Designers"
+title: "Creating Custom Editors and Designers | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -48,7 +48,7 @@ The Visual Studio integrated development environment (IDE) can host different ty
  For information about the Visual Studio core editor, see [Extending the Editor and Language Services](../extensibility/extending-the-editor-and-language-services.md).  
   
 ##### Custom Editors  
- A custom editor is one that is designed to work in specialized circumstances. For example, you might create an editor whose function is to read and write data to a specific repository, such as a Microsoft Exchange server. Choose a custom editor if you want an editor that works with your project type only or if you want an editor that has only a few specific commands. Note, however, that users will not be able to use a custom editor to edit standard [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] projects.  
+ A custom editor is one that is designed to work in specialized circumstances. For example, you might create an editor whose function is to read and write data to a specific repository, such as a Microsoft Exchange server. Choose a custom editor if you want an editor that works with your project type only or if you want an editor that has only a few specific commands. Note, however, that users will not be able to use a custom editor to edit standard [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] projects.  
   
  A custom editor can use an editor factory and add information about the editor to the registry. However, the project type associated with the custom editor can instantiate the custom editor in other ways.  
   
@@ -70,15 +70,15 @@ The Visual Studio integrated development environment (IDE) can host different ty
   
 -   Does your editor need to host ActiveX controls?  
   
-     If your editor hosts ActiveX controls, then implement an in-place activation editor, as outlined in [In-Place Activation](../misc/in-place-activation.md). If it does not host ActiveX controls, then either use a simplified embedding editor, or customize the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] default editor.  
+     If your editor hosts ActiveX controls, then implement an in-place activation editor, as outlined in [In-Place Activation](../misc/in-place-activation.md). If it does not host ActiveX controls, then either use a simplified embedding editor, or customize the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] default editor.  
   
 -   Will your editor support multiple views? You must support multiple views if you want views of your editor to be visible at the same time as the default editor.  
   
      If your editor needs to support multiple views, the document data and document view objects for the editor must be separate objects. For more information, see [Supporting Multiple Document Views](../extensibility/supporting-multiple-document-views.md).  
   
-     If your editor supports multiple views, do you plan to use the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] core editor's text buffer implementation (<xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer> object) for your document data object? That is, do you want to support your editor view side-by-side with the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] core editor? The ability to do this is the basis of the forms designer..  
+     If your editor supports multiple views, do you plan to use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] core editor's text buffer implementation (<xref:Microsoft.VisualStudio.TextManager.Interop.VsTextBuffer> object) for your document data object? That is, do you want to support your editor view side-by-side with the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] core editor? The ability to do this is the basis of the forms designer..  
   
--   If you need to host an external editor , can the editor be embedded inside [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]?  
+-   If you need to host an external editor , can the editor be embedded inside [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]?  
   
      If it can be embedded, you should create a host window for the external editor and then call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3.IsDocumentInProject*> method and set the <xref:Microsoft.VisualStudio.Shell.Interop.VSDOCUMENTPRIORITY> enumeration value to `DP_External`. If the editor cannot be embedded, the IDE will automatically create a separate window for it.  
   
@@ -109,7 +109,7 @@ The Visual Studio integrated development environment (IDE) can host different ty
  Explains how to implement a language service.  
   
  [Extending Other Parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)  
- Explains how to create UI elements that match the rest of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+ Explains how to create UI elements that match the rest of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 ## See Also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory>

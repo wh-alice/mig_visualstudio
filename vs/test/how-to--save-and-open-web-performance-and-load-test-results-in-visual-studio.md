@@ -1,7 +1,7 @@
 ---
-title: "How to: Save and Open Web Performance and Load Test Results in Visual Studio"
+title: "How to: Save and Open Web Performance and Load Test Results in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,7 +36,7 @@ translation.priority.ht:
 # How to: Save and Open Web Performance and Load Test Results in Visual Studio
 After you run a Web performance test or a load test in Visual Studio Enterprise, the results of the test that was executed in that run are saved automatically on your computer in a test run file. You can open any test runs that were saved, view results of recently run tests, or save copies of test runs to a different location. How many test runs are saved automatically depends on a setting in the Options dialog box.  
   
- This topic is about using Visual Studio to save and open Web performance test and load test results. For information about viewing automated test results in the Test Explorer, see [Run Tests from Test Explorer](../test/how-to--run-tests-from-microsoft-visual-studio.md#RunTestsFromUnitTestExplorer). For more information about how to save and open test results in [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], see [How to: View Manual Test Case Results Using Microsoft Test Manager](http://msdn.microsoft.com/en-us/400b59bc-1b8c-410d-b5c7-9965bcc4d5a8). [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] is included with Visual Studio Enterprise and Visual Studio Test Professional.  
+ This topic is about using Visual Studio to save and open Web performance test and load test results. For information about viewing automated test results in the Test Explorer, see [Run Tests from Test Explorer](../test/how-to--run-tests-from-microsoft-visual-studio.md#RunTestsFromUnitTestExplorer). For more information about how to save and open test results in [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], see [How to: View Manual Test Case Results Using Microsoft Test Manager](http://msdn.microsoft.com/en-us/400b59bc-1b8c-410d-b5c7-9965bcc4d5a8). [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] is included with Visual Studio Enterprise and Visual Studio Test Professional.  
   
  **Requirements**  
   

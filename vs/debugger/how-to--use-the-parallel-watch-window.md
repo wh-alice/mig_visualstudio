@@ -1,7 +1,7 @@
 ---
-title: "How to: Use the Parallel Watch Window"
+title: "How to: Use the Parallel Watch Window | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -51,7 +51,7 @@ In the Parallel Watch window, you can simultaneously display the values that one
   
 -   The **\<Add Watch>** column, in which you can enter expressions to watch.  
   
- [!INCLUDE[note_settings_general](../datatools/includes/note_settings_general_md.md)]  
+ [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
   
 ### To display the Parallel Watch window  
   

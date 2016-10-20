@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Target Framework and Target Platform"
+title: "MSBuild Target Framework and Target Platform | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,25 +32,25 @@ translation.priority.ht:
 A project can be built to run on a *target framework*, which is a particular version of the .NET Framework, and a *target platform*, which is a particular software architecture.  For example, you can target an application to run on the .NET Framework 2.0 on a 32-bit platform that is compatible with the 802x86 processor family (“x86”). The combination of target framework and target platform is known as the *target context*.  
   
 ## Target Framework and Profile  
- A target framework is the particular version of the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] that your project is built to run on. Specification of a target framework is required because it enables compiler features and assembly references that are exclusive to that version of the framework.  
+ A target framework is the particular version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] that your project is built to run on. Specification of a target framework is required because it enables compiler features and assembly references that are exclusive to that version of the framework.  
   
  Currently, the following versions of the .NET Framework are available for use:  
   
--   The [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] 2.0 (included in Visual Studio 2005)  
+-   The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 2.0 (included in Visual Studio 2005)  
   
--   The [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] 3.0 (included in [!INCLUDE[wiprlhext](../debugger/includes/wiprlhext_md.md)])  
+-   The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 3.0 (included in [!INCLUDE[wiprlhext](../debugger/includes/wiprlhext_md.md)])  
   
--   The [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] 3.5 (included in [!INCLUDE[vs_orcas_long](../codequality/includes/vs_orcas_long_md.md)])  
+-   The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 3.5 (included in [!INCLUDE[vs_orcas_long](../code-quality/includes/vs_orcas_long_md.md)])  
   
--   The [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] 4 (included in Visual Studio 2010)  
+-   The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 4 (included in Visual Studio 2010)  
   
--   The [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] 4.5 (included in [!INCLUDE[vs_dev11_long](../codequality/includes/vs_dev11_long_md.md)])  
+-   The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 4.5 (included in [!INCLUDE[vs_dev11_long](../code-quality/includes/vs_dev11_long_md.md)])  
   
--   The [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] 4.5.1 (included in [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md)])  
+-   The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 4.5.1 (included in [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md)])  
   
--   The [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] 4.5.2  
+-   The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 4.5.2  
   
--   The [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] 4.6 (included in [!INCLUDE[vs_dev14](../porting/includes/vs_dev14_md.md)])  
+-   The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 4.6 (included in [!INCLUDE[vs_dev14](../porting/includes/vs_dev14_md.md)])  
   
  The versions of the .NET Framework differ from one another in the list of assemblies that each makes available to reference. For example, you cannot build Windows Presentation Foundation (WPF) applications unless your project targets the .NET Framework version 3.0 or above.  
   

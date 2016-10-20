@@ -1,7 +1,7 @@
 ---
-title: "Extending Properties"
+title: "Extending Properties | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,7 +31,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Extending Properties
-The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] **Properties** window is a universal property browser for COM and COM+ components and supports all [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] products. The **Properties** window works with `ITypeInfo` type information and COM+ metadata to list the design-time properties for the currently selected object in any other window in the integrated development environment (IDE).  
+The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] **Properties** window is a universal property browser for COM and COM+ components and supports all [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] products. The **Properties** window works with `ITypeInfo` type information and COM+ metadata to list the design-time properties for the currently selected object in any other window in the integrated development environment (IDE).  
   
  The **Properties** window, which can be opened by pressing F4 on the keyboard, or selecting **Properties Window** on the **View** menu, is used to view and edit configuration-independent, design-time properties and events of selected objects. Configuration-dependent properties, associated with solutions and projects, are displayed on [Property Pages](../extensibility/property-pages.md). For more information, see [NIB:Project Properties](http://msdn.microsoft.com/en-us/fb126574-24ad-4c96-9b2b-6e1f3879ba50), [Managing Configuration Options](../extensibility/managing-configuration-options.md), and [NIB:Item Management in Projects](http://msdn.microsoft.com/en-us/762e606b-7f44-4b66-97a1-e30a703654a0).  
   
@@ -76,10 +76,10 @@ Properties window
   
 ## Related Sections  
  [Project Types](../extensibility/project-types.md)  
- Discusses projects as the building blocks of the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] IDE.  
+ Discusses projects as the building blocks of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE.  
   
  [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)  
- Describes how you can use the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Platform for continuously testing and debugging applications as you build them.  
+ Describes how you can use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Platform for continuously testing and debugging applications as you build them.  
   
  [HTML Document Properties, Properties Window](../Topic/HTML%20Document%20Properties,%20Properties%20Window.md)  
  Provides instructions for editing an HTML document directly from the Properties window, and provides a table detailing the fields in an HTML document in the Properties window.  
@@ -97,7 +97,7 @@ Properties window
  Describes how the project manages settings that let you control properties that apply to the whole project and also properties that are limited to certain build configurations of the project.  
   
  [Solutions and Projects](../ide/solutions-and-projects-in-visual-studio.md)  
- Explains how [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] efficiently manages the items such as references, data connections, folders, and files that are required by your development effort through solutions and projects.  
+ Explains how [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] efficiently manages the items such as references, data connections, folders, and files that are required by your development effort through solutions and projects.  
   
  [Extending Other Parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)  
- Explains how to use [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] services to create UI elements that match the rest of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].
+ Explains how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] services to create UI elements that match the rest of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].

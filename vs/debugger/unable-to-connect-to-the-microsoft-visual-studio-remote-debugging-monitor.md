@@ -1,7 +1,7 @@
 ---
-title: "Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor"
+title: "Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/17/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

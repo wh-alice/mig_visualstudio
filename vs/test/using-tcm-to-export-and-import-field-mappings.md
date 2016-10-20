@@ -1,5 +1,5 @@
 ---
-title: "Using tcm to export and import field mappings"
+title: "Using tcm to export and import field mappings | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -54,13 +54,13 @@ tcm fieldmapping /export /type: typeofmapping /mappingfile: path /collection:Col
 |**/mappingfile**: `path`|Specifies full path, including file name for export/import.<br /><br /> For import option, verify that the file exists and for export option, make sure the file does not exist.|  
 |**/collection**:`CollectionURL`|Specifies the URI of the team project collection. The format for the URI is as follows: **http**://*ServerName:Port/VirtualDirectoryName/CollectionName*<br /><br /> If no virtual directory is used, then the format for the URI is as follows:<br /><br /> **http**://*ServerName:Port/CollectionName*|  
 |**/teamproject**:`project`|The name of the team project that contains the test plan that you want to import your automated tests into.|  
-|**/login**:`username,[password]`|Optional. Specifies the name and password of a user who is logged on to the application-tier server for [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] and who has permissions to run the command. You would use this option if your Windows credentials do not have the appropriate permissions, or you are using basic authentication, or you are not connected to a domain.<br /><br /> To login to Visual Studio Team Services, you will also need to use /allowalternatecredentials listed below.|  
+|**/login**:`username,[password]`|Optional. Specifies the name and password of a user who is logged on to the application-tier server for [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] and who has permissions to run the command. You would use this option if your Windows credentials do not have the appropriate permissions, or you are using basic authentication, or you are not connected to a domain.<br /><br /> To login to Visual Studio Team Services, you will also need to use /allowalternatecredentials listed below.|  
 |**/allowalternatecredentials**|This flag must be specified in addition to the **/login** parameter when connecting to Visual Studio Team Services. (This flag is only available if you have Visual Studio 2013 Update 4 or greater.)|  
   
 ## Examples  
   
 ## Import and export XML fieldmapping file  
- The following examples assume that you have started a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] command prompt.  
+ The following examples assume that you have started a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] command prompt.  
   
  To do this, choose **Start**, point to **All Programs**, point to **Microsoft Visual Studio 2012**, point to **Visual Studio Tools**, and then choose **Developer Command Prompt**.  
   

@@ -1,7 +1,7 @@
 ---
-title: "Expression Evaluation Interfaces"
+title: "Expression Evaluation Interfaces | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,7 +34,7 @@ translation.priority.mt:
 > [!IMPORTANT]
 >  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
   
- The following are the Expression Evaluation Interfaces for the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Debugging SDK.  
+ The following are the Expression Evaluation Interfaces for the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Debugging SDK.  
   
 ## Discussion  
  These interfaces are used to evaluate expressions in a call stack during break mode. They are implemented only for common language run-time expression evaluators (EE).  

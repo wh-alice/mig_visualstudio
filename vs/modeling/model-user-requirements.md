@@ -1,7 +1,7 @@
 ---
-title: "Model user requirements"
+title: "Model user requirements | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -147,7 +147,7 @@ Visual Studio helps you understand, discuss, and communicate your users' needs b
 |Elements on a conceptual class diagram|[UML Class Diagrams: Reference](../modeling/uml-class-diagrams--reference.md)|  
 |How to develop code from conceptual classes|[Model your app's architecture](../modeling/model-your-app-s-architecture.md)|  
   
- In a conceptual class diagram, it is typically not useful to place arrows on the associations to represent navigability. This is because the diagram does not represent an implementation. The associations represent relationships between real-world objects. The following [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Extension make non-directional arrows the default: [Sample: UML Domain Modeling features](http://go.microsoft.com/fwlink/?LinkId=213849).  
+ In a conceptual class diagram, it is typically not useful to place arrows on the associations to represent navigability. This is because the diagram does not represent an implementation. The associations represent relationships between real-world objects. The following [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Extension make non-directional arrows the default: [Sample: UML Domain Modeling features](http://go.microsoft.com/fwlink/?LinkId=213849).  
   
 ##  <a name="BusinessRules"></a> Showing Business Rules  
  A business rule is a requirement that is not associated with a particular use case, and should be observed throughout the system.  

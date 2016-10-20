@@ -1,7 +1,7 @@
 ---
-title: "VSPackages"
+title: "VSPackages | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,7 +31,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # VSPackages
-VSPackages are software modules that extend the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE) by providing UI elements, services, projects, editors, and designers.  
+VSPackages are software modules that extend the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) by providing UI elements, services, projects, editors, and designers.  
   
 ## In This Section  
  [Specifying VSPackage File Location to the VS Shell](../extensibility/specifying-vspackage-file-location-to-the-vs-shell.md)  

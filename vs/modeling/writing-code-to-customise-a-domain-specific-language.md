@@ -1,7 +1,7 @@
 ---
-title: "Writing Code to Customise a Domain-Specific Language"
+title: "Writing Code to Customise a Domain-Specific Language | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""

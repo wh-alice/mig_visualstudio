@@ -1,7 +1,7 @@
 ---
-title: "How to: Change Fonts and Colors in the Editor"
+title: "How to: Change Fonts and Colors in the Editor | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -37,7 +37,7 @@ translation.priority.ht:
 # How to: Change Fonts and Colors in the Editor
 You can change the default font face, adjust the font size, and change the foreground and background colors for various text **Display items** in the Code Editor. When changing font settings keep in mind the following information:  
   
--   The settings for **Font** and **Size** are global for all text elements in all [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] editors.  
+-   The settings for **Font** and **Size** are global for all text elements in all [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] editors.  
   
 -   The names of fixed width fonts are listed in bold.  
   

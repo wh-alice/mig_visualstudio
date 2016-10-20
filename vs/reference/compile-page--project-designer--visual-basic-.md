@@ -1,7 +1,7 @@
 ---
-title: "Compile Page, Project Designer (Visual Basic)"
+title: "Compile Page, Project Designer (Visual Basic) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -44,7 +44,7 @@ Use the **Compile** page of the Project Designer to specify compilation instruct
   
  To access the **Compile** page, choose a project node (not the **Solution** node) in **Solution Explorer**. Then choose **Project**, **Properties** on the menu bar. When the Project Designer appears, click the **Compile** tab.  
   
- [!INCLUDE[note_settings_general](../datatools/includes/note_settings_general_md.md)]  
+ [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
   
 ## Configuration and Platform  
  The following settings enable you to select the configuration and platform to display or modify.  

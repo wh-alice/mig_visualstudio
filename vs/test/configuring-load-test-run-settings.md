@@ -1,5 +1,5 @@
 ---
-title: "Configuring Load Test Run Settings"
+title: "Configuring Load Test Run Settings | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -54,7 +54,7 @@ Load Test Run Settings
 |**Specify the timing details storage option:** You can specify how you want the details of the load test saved by configuring the **Timing Details Storage** property.|-   [How to: Specify the Timing Details Storage Property](../test/how-to--specify-the-timing-details-storage-property-for-a-load-test-run-setting.md)|  
 |**Specify the test resource retention period:** Speed up the test > fix > retest cycle by retaining the test resources for a specified period by setting the **Resources Retention Time** property.|-   [Retain the resources to speed up load testing](https://www.visualstudio.com/docs/test/performance-testing/getting-started/getting-started-with-performance-testing#retain-resources)|  
 |**Use context parameters:** You can use context parameters to parameterize a string. For example, if your load test contains a Web performance tests that uses a parameterized Web server, you can add a context parameter to the run settings that maps to a different server.|-   [How to: Add Context Parameters to a Run Setting](../test/how-to--add-context-parameters-to-a-load-test-run-setting.md)|  
-|**Configuring test logging properties:** You can configure how frequently data is written to the log that is associated with you load test run settings. This can be important when you are running a large or complex load test because the log could become several gigabytes. [!INCLUDE[crdefault](../codequality/includes/crdefault_md.md)][Considerations for Load Testing](http://msdn.microsoft.com/en-us/e2985d15-60a7-4177-93b4-f986c2936337).<br /><br /> You can also configure the log file to be automatically saved when your load test fails to help in debugging and analyzing your application.|-   [Modifying Load Test Logging Settings](../test/modifying-load-test-logging-settings.md)|  
+|**Configuring test logging properties:** You can configure how frequently data is written to the log that is associated with you load test run settings. This can be important when you are running a large or complex load test because the log could become several gigabytes. [!INCLUDE[crdefault](../code-quality/includes/crdefault_md.md)][Considerations for Load Testing](http://msdn.microsoft.com/en-us/e2985d15-60a7-4177-93b4-f986c2936337).<br /><br /> You can also configure the log file to be automatically saved when your load test fails to help in debugging and analyzing your application.|-   [Modifying Load Test Logging Settings](../test/modifying-load-test-logging-settings.md)|  
 |**Configuring SQL properties to collect SQL Server data:** You can use the SQL tracing tool in your load tests to help you monitor and improve the performance of your Web applications that use SQL Server to store data.|-   [Collecting SQL Trace Data to Monitor and Improve Performance in Load Tests](../test_notintoc/collecting-sql-trace-data-to-monitor-and-improve-performance-in-load-tests.md)|  
   
 ## External resources  

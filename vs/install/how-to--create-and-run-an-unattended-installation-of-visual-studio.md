@@ -1,5 +1,5 @@
 ---
-title: "How to: Create and Run an Unattended Installation of Visual Studio"
+title: "How to: Create and Run an Unattended Installation of Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "2016-09-06"
 ms.prod: "visual-studio-dev14"
@@ -33,10 +33,10 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # How to: Create and Run an Unattended Installation of Visual Studio
-You can run the installation application for [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] as an unattended (that is, customized silent) installation over an intranet instead of from media such as DVDs. This topic describes how to prepare [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] for this type of installation from a network share.  
+You can run the installation application for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] as an unattended (that is, customized silent) installation over an intranet instead of from media such as DVDs. This topic describes how to prepare [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] for this type of installation from a network share.  
   
 ## Creating a Network Image  
- First, create a network image of the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] media.  
+ First, create a network image of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] media.  
   
 #### To create a network image  
   
@@ -46,15 +46,15 @@ You can run the installation application for [!INCLUDE[vsprvs](../codequality/in
   
 3.  Share the IDEinstall folder on the network, and then set the appropriate security settings.  
   
-     The network path of the installation application for [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] resembles \\\\*ServerName*\IDEinstall\\*Product*.exe.  
+     The network path of the installation application for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] resembles \\\\*ServerName*\IDEinstall\\*Product*.exe.  
   
     > [!NOTE]
-    >  Installation may fail if any path and file name combination exceeds 260 characters. The maximum length of a path in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] is 221 characters.  The local path name should not exceed 70 characters, and the network path name should not exceed 39 characters.  
+    >  Installation may fail if any path and file name combination exceeds 260 characters. The maximum length of a path in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is 221 characters.  The local path name should not exceed 70 characters, and the network path name should not exceed 39 characters.  
   
      Installation may also fail if the folder names in the path include embedded spaces (for example, "\\\\*ServerName*\IDE install" or \\\\*ServerName*\Visual Studio\\).  
   
 ## Deploying Visual Studio in unattended mode  
- To deploy [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] in unattended mode, you must modify the AdminDeployment.xml file. To do this, you must first create the AdminDeployment.xml file by using the `/CreateAdminFile` *\<file location>* command-line parameter. Then, you can use this file to either push a deployment of Visual Studio to your network or pull it into an installation if you put that file in the *Drive*:\IDEinstall\packages directory. The AdminDeployment.xml file is not unique to an operating system, architecture, edition of Visual Studio, or operating-system language.  
+ To deploy [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] in unattended mode, you must modify the AdminDeployment.xml file. To do this, you must first create the AdminDeployment.xml file by using the `/CreateAdminFile` *\<file location>* command-line parameter. Then, you can use this file to either push a deployment of Visual Studio to your network or pull it into an installation if you put that file in the *Drive*:\IDEinstall\packages directory. The AdminDeployment.xml file is not unique to an operating system, architecture, edition of Visual Studio, or operating-system language.  
   
 > [!CAUTION]
 >  Sometimes, items listed as selected in the AdminDeployment.xml file do not get installed. To resolve this issue, place the items marked “Selected="yes"” at the **end** of the AdminDeployment.xml file.  
@@ -117,7 +117,7 @@ You can run the installation application for [!INCLUDE[vsprvs](../codequality/in
   
 -   Open **Control Panel**, and then choose **Programs and Features**.  
   
--   Choose [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], and then choose **Change**.  
+-   Choose [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], and then choose **Change**.  
   
 #### To change AdminDeployment settings on a client computer after Visual Studio has been installed  
   
@@ -176,7 +176,7 @@ You can run the installation application for [!INCLUDE[vsprvs](../codequality/in
         4.  The latest Update should appear on the Features page. Select the other features that you want to install, click **Next**, and then click **Update** to install both the update and the new features.  
   
 ## Registering the product  
- After installation is complete, you can register your copy of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] from within [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+ After installation is complete, you can register your copy of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] from within [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 #### To register  
   

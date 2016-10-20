@@ -1,5 +1,5 @@
 ---
-title: "Configure and administer Lab Management"
+title: "Configure and administer Lab Management | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -40,7 +40,7 @@ translation.priority.ht:
 |-----------|-----------------------|  
 |**Setting up Lab Management for the first time:** To use Lab Management to create standard environments, you need to set up a test controller. To use Lab Management to create SCVMM environments, you must first configure Hyper-V and SCVMM.|-   [Configure Lab Management for SCVMM environments](../test/configure-lab-management-for-scvmm-environments.md)|  
 |**Changing your Lab Management configuration:** You might want to add more host groups, change the library share that is used, modify the integration service account, or add build controllers or test controllers after you have configured [!INCLUDE[vstsLabShort](../test/includes/vstslabshort_md.md)] for the first time.|-   [Change Existing Lab Management Configurations](../test/change-existing-lab-management-configurations.md)|  
-|**Assigning users permissions to use Lab Management resources:** The default [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] security groups automatically give members certain permissions to use [!INCLUDE[vstsLabShort](../test/includes/vstslabshort_md.md)] resources. You might want to modify those permissions or assign permissions to custom groups or users.|-   [Manage user permissions for Lab Management](../test/manage-user-permissions-for-lab-management.md)|  
+|**Assigning users permissions to use Lab Management resources:** The default [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] security groups automatically give members certain permissions to use [!INCLUDE[vstsLabShort](../test/includes/vstslabshort_md.md)] resources. You might want to modify those permissions or assign permissions to custom groups or users.|-   [Manage user permissions for Lab Management](../test/manage-user-permissions-for-lab-management.md)|  
 |**Backing up and restoring your lab environments:** You can back up and restore your lab environments.|-   [Back up and restore TFS](../Topic/Back%20up%20and%20restore%20TFS.md)<br />-   [Restore Lab Management components](../Topic/Restore%20Lab%20Management%20components.md)|  
   
 ## Forums  

@@ -1,7 +1,7 @@
 ---
-title: "Persisting the Property of a Project Item"
+title: "Persisting the Property of a Project Item | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -130,7 +130,7 @@ You may want to persist a property you add to a project item, such as the author
   
 ### To verify that the property is persisted  
   
-1.  Start [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and then open or create a solution.  
+1.  Start [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and then open or create a solution.  
   
 2.  Select the project item VsPkg.cs in **Solution Explorer**.  
   
@@ -139,7 +139,7 @@ You may want to persist a property you add to a project item, such as the author
     > [!NOTE]
     >  You can autoload a VSPackage in the UI context <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT_SolutionExists>. For more information, see [Loading VSPackages](../extensibility/loading-vspackages.md).  
   
-4.  Close [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and then open the project file in Notepad. You should see the \<Author> tag with the value Tom, as follows:  
+4.  Close [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and then open the project file in Notepad. You should see the \<Author> tag with the value Tom, as follows:  
   
     ```  
     <Compile Include="VsPkg.cs">  

@@ -1,5 +1,5 @@
 ---
-title: "Plan application tests from a Microsoft Excel or Microsoft Word document"
+title: "Plan application tests from a Microsoft Excel or Microsoft Word document | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -33,7 +33,7 @@ translation.priority.ht:
   
 -   Visual Studio Enterprise, [!INCLUDE[vstsTestEssLong](../test/includes/vststestesslong_md.md)]  
   
- You can create manual test cases that have both action and validation test steps by using [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)]. You can test steps from an [!INCLUDE[ofprexcel](../codequality/includes/ofprexcel_md.md)] or [!INCLUDE[ofprword](../test/includes/ofprword_md.md)] document. For example, if you already have test steps in one of these types of documents, you can import the steps into a manual test case using [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)].  
+ You can create manual test cases that have both action and validation test steps by using [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)]. You can test steps from an [!INCLUDE[ofprexcel](../code-quality/includes/ofprexcel_md.md)] or [!INCLUDE[ofprword](../test/includes/ofprword_md.md)] document. For example, if you already have test steps in one of these types of documents, you can import the steps into a manual test case using [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)].  
   
  You can also share a set of common test steps between multiple test cases using *shared steps*. This simplifies maintenance of test steps if your application being tested changes.  
   
@@ -50,7 +50,7 @@ translation.priority.ht:
   
  ![Create a Manual Test Case](../test/media/create_testcase.png "Create_TestCase")  
   
- To add test steps by copying and pasting from [!INCLUDE[ofprexcel](../codequality/includes/ofprexcel_md.md)], [!INCLUDE[ofprword](../test/includes/ofprword_md.md)], or a text document, select the steps from your document. The formats for the documents that make it easy to copy the steps are shown in the following illustration.  
+ To add test steps by copying and pasting from [!INCLUDE[ofprexcel](../code-quality/includes/ofprexcel_md.md)], [!INCLUDE[ofprword](../test/includes/ofprword_md.md)], or a text document, select the steps from your document. The formats for the documents that make it easy to copy the steps are shown in the following illustration.  
   
  ![Add Test Steps From Microsoft Excel or Word](../test/media/addsteps_wordexcel.png "AddSteps_WordExcel")  
   
@@ -65,7 +65,7 @@ translation.priority.ht:
   
 ##  <a name="CreateTestCase"></a> Create a manual test case  
   
-1.  Open [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)]. (Go to Start, All Programs, Microsoft Visual Studio, Microsoft Test Manager.)  
+1.  Open [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)]. (Go to Start, All Programs, Microsoft Visual Studio, Microsoft Test Manager.)  
   
 2.  From the **Testing Center**, choose **Plan** and then choose **Contents**.  
   
@@ -110,7 +110,7 @@ translation.priority.ht:
 9. Choose **Area** to select the appropriate area in the team project for the test case.  
   
     > [!NOTE]
-    >  The areas are set up by your [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] administrator for the team project. You can use the area field to query for manual test cases.  
+    >  The areas are set up by your [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] administrator for the team project. You can use the area field to query for manual test cases.  
   
 10. Choose **Iteration** to select the iteration in your team project for this test case.  
   
@@ -124,13 +124,13 @@ translation.priority.ht:
     >  After the test case has been saved, the test case identifier is shown in the title of the editing pane.  
   
 ##  <a name="AddSteps"></a> Add action and validation test steps from Microsoft Excel or Word  
- You can copy and paste actions and expected results from [!INCLUDE[ofprexcel](../codequality/includes/ofprexcel_md.md)], [!INCLUDE[ofprword](../test/includes/ofprword_md.md)], or a text document. If you copy both actions and expected results from [!INCLUDE[ofprword](../test/includes/ofprword_md.md)] or a text document, then the lists of each pairing of an action with an expected result must be tab-delimited.  
+ You can copy and paste actions and expected results from [!INCLUDE[ofprexcel](../code-quality/includes/ofprexcel_md.md)], [!INCLUDE[ofprword](../test/includes/ofprword_md.md)], or a text document. If you copy both actions and expected results from [!INCLUDE[ofprword](../test/includes/ofprword_md.md)] or a text document, then the lists of each pairing of an action with an expected result must be tab-delimited.  
   
  You can also attach a file that provides more details, or a screen shot, to provide more information to the tester. You can edit your test steps after pasting the steps into the test case.  
   
 #### To add action and validation test steps from Microsoft Excel or Word  
   
-1.  Open [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)]. (Go to Start, All Programs, Microsoft Visual Studio, Microsoft Test Manager.)  
+1.  Open [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)]. (Go to Start, All Programs, Microsoft Visual Studio, Microsoft Test Manager.)  
   
 2.  From the **Testing Center**, choose **Plan** and then choose **Contents**.  
   

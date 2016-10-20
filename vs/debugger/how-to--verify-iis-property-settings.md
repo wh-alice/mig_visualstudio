@@ -1,7 +1,7 @@
 ---
-title: "How to: Verify IIS Property Settings"
+title: "How to: Verify IIS Property Settings | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -73,7 +73,7 @@ You can set the properties for a Web application using the IIS administration to
   
 5.  For an ATL Server application, verify that the DEBUG verb is associated with your ISAPI extension. For more information, see [How to: Associate DEBUG Verb with Extension](http://msdn.microsoft.com/en-us/50d261d3-4bd4-41c0-b44e-3591086f121e).  
   
-6.  For an [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] application, make sure the virtual folder for the application has an Application Name set in **Internet Information Services (IIS) Manager**, **Internet Services Manager** or **Internet Information Services**.  
+6.  For an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] application, make sure the virtual folder for the application has an Application Name set in **Internet Information Services (IIS) Manager**, **Internet Services Manager** or **Internet Information Services**.  
   
     1.  In the Web application **Properties** window, select the **Directory** tab, if the application is in a virtual directory, or the **Home Directory** tab, if the application is in a Web site.  
   
@@ -83,7 +83,7 @@ You can set the properties for a Web application using the IIS administration to
   
     4.  Click **OK** to close the **Properties** dialog box.  
   
-7.  For an [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] application, click the **ASP.NET** tab and verify that the correct version of [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] is specified.  
+7.  For an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] application, click the **ASP.NET** tab and verify that the correct version of [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] is specified.  
   
 8.  Click **OK** to close the **Properties** dialog box.  
   

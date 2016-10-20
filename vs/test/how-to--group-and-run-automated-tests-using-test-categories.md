@@ -1,7 +1,7 @@
 ---
-title: "How to: Group and Run Automated Tests Using Test Categories"
+title: "How to: Group and Run Automated Tests Using Test Categories | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -72,7 +72,7 @@ Test categories let you run groups of tests based on their assigned categories w
   
 2.  Either change the directory to the location in your solution folder where the test container is located, typically the test project's .dll file, or, when you run the MSTest.exe program in step 3, specify a full or relative path for the test container.  
   
-     To identify your solution folder, first identify the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] **Projects** folder. To do this, choose **Options** on the **Tools** menu in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], and then choose **Projects and Solutions**. Under **Visual Studio projects location**, you see a path such as the following:  
+     To identify your solution folder, first identify the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] **Projects** folder. To do this, choose **Options** on the **Tools** menu in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], and then choose **Projects and Solutions**. Under **Visual Studio projects location**, you see a path such as the following:  
   
      **\<drive letter>:\Documents and Settings\\<user name\>\My Documents\Visual Studio\Projects**  
   

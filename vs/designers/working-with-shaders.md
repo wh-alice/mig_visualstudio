@@ -1,7 +1,7 @@
 ---
-title: "Working with Shaders"
+title: "Working with Shaders | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,7 +15,7 @@ ms.author: "mithom"
 manager: "ghogen"
 ---
 # Working with Shaders
-You can use the graph-based Shader Designer in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] to design custom shader effects. You can use these shaders in your DirectX-based game or app.  
+You can use the graph-based Shader Designer in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to design custom shader effects. You can use these shaders in your DirectX-based game or app.  
   
 ## Shaders  
  A *shader* is a computer program that performs graphics calculations—for example, vertex transformations or pixel coloring—and typically runs on a graphics processing unit (GPU) instead of the CPU. Because most stages of the traditional, fixed-function graphics pipeline are now performed by shader programs, you can use them to create a pipeline that's specific to the needs of your app.  
@@ -33,6 +33,6 @@ You can use the graph-based Shader Designer in [!INCLUDE[vsprvs](../codequality/
   
 |Title|Description|  
 |-----------|-----------------|  
-|[Shader Designer](../designers/shader-designer.md)|Describes how to use the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Shader Designer to work with shaders.|  
+|[Shader Designer](../designers/shader-designer.md)|Describes how to use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Shader Designer to work with shaders.|  
 |[Shader Designer Nodes](../designers/shader-designer-nodes.md)|Discusses the kinds of Shader Designer nodes that you can use to achieve graphics effects.|  
 |[Shader Designer Examples](../designers/shader-designer-examples.md)|Provides links to topics that demonstrate how to use the Shader Designer to achieve common graphics effects.|

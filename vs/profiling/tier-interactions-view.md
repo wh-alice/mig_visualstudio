@@ -1,7 +1,7 @@
 ---
-title: "Tier Interactions View"
+title: "Tier Interactions View | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,15 +34,15 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Tier Interactions View
-Tier interaction profiling provides additional information about the execution times in functions of multitiered applications that communicate with databases through [!INCLUDE[vstecado](../datatools/includes/vstecado_md.md)]. Data is collected only for synchronous function calls.  
+Tier interaction profiling provides additional information about the execution times in functions of multitiered applications that communicate with databases through [!INCLUDE[vstecado](../data-tools/includes/vstecado_md.md)]. Data is collected only for synchronous function calls.  
   
  **Requirements**  
   
--   [!INCLUDE[vsUltLong](../codequality/includes/vsultlong_md.md)]  
+-   [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)]  
   
  The Interactions View displays tier interaction data in two panes:  
   
--   The master pane is a hierarchical tree. The top level row contains aggregated data for the database connections of an [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] page or a process. Child nodes contain aggregated data for the database connections of the parent.  
+-   The master pane is a hierarchical tree. The top level row contains aggregated data for the database connections of an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] page or a process. Child nodes contain aggregated data for the database connections of the parent.  
   
 -   When you click a database call node in the master pane, data for the instance of the database call is displayed in the details pane.  
   

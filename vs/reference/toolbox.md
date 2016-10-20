@@ -1,7 +1,7 @@
 ---
-title: "Toolbox"
+title: "Toolbox | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,7 +36,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Toolbox
-The **Toolbox** displays icons for controls and other items that you can add to [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] projects. To open the **Toolbox**, click **Toolbox** on the **View** menu. You can dock the **Toolbox**, and you can pin it open or set it to **Auto Hide**.  
+The **Toolbox** displays icons for controls and other items that you can add to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] projects. To open the **Toolbox**, click **Toolbox** on the **View** menu. You can dock the **Toolbox**, and you can pin it open or set it to **Auto Hide**.  
   
  **Toolbox** icons can be dragged to a design view or pasted in a code editor. Either action adds the fundamental code to create an instance of the **Toolbox** item in the active project file.  
   

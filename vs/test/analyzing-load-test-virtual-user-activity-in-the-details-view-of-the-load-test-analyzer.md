@@ -1,11 +1,11 @@
 ---
-title: "Analyzing Load Test Virtual User Activity in the Details View of the Load Test Analyzer"
-ms.custom: na
+title: "Analyzing Load Test Virtual User Activity in the Details View of the Load Test Analyzer | Microsoft Docs"
+ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.test.load.monitor.activitychart"

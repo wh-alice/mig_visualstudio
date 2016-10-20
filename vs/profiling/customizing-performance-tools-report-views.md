@@ -1,7 +1,7 @@
 ---
-title: "Customizing Performance Tools Report Views"
+title: "Customizing Performance Tools Report Views | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,7 +33,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Customizing Performance Tools Report Views
-This section covers how to customize reports that are generated with [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Profiling Tools.  
+This section covers how to customize reports that are generated with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools.  
   
 ## Common Tasks  
   

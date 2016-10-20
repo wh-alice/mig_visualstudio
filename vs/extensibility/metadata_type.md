@@ -1,7 +1,7 @@
 ---
-title: "METADATA_TYPE"
+title: "METADATA_TYPE | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -68,7 +68,7 @@ public struct METADATA_TYPE {
 ## Remarks  
  This structure appears as part of the union in the [TYPE_INFO](../extensibility/type_info.md) structure when the `dwKind` field of the `TYPE_INFO` structure is set to `TYPE_KIND_METADATA` (a value from the [dwTYPE_KIND](../extensibility/dwtype_kind.md) enumeration).  
   
- The `tokClass` value is a metadata token that uniquely identifies a type. For details on how to interpret the upper bits of the metadata token ID, see the `CorTokenType` enumeration in the corhdr.h file in the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] SDK.  
+ The `tokClass` value is a metadata token that uniquely identifies a type. For details on how to interpret the upper bits of the metadata token ID, see the `CorTokenType` enumeration in the corhdr.h file in the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] SDK.  
   
 ## Requirements  
  Header: sh.h  

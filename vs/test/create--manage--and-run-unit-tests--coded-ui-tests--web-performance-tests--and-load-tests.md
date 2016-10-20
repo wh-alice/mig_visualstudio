@@ -1,11 +1,11 @@
 ---
-title: "Create, manage, and run unit tests, coded UI tests, web performance tests, and load tests"
-ms.custom: na
-ms.date: "10/03/2016"
+title: "Create, manage, and run unit tests, coded UI tests, web performance tests, and load tests | Microsoft Docs"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: cafae094-de3c-4c31-8dba-f4991906ab16
 caps.latest.revision: 7
@@ -29,7 +29,7 @@ translation.priority.ht:
 # Create, manage, and run unit tests, coded UI tests, web performance tests, and load tests
 Create, manage, and run unit tests, coded UI tests, web performance tests, and load tests with Visual Studio Enterprise.  
   
- Unit tests and coded UI tests are generally used by developers, or by team members who use Visual Studio, to validate the quality of their code in an app. For example, you might run these tests prior to checking your code into [version control](../Topic/Use%20version%20control.md). See [Unit Test Your Code](../codequality/unit-test-your-code.md) and [Use UI Automation To Test Your Code](../codequality/use-ui-automation-to-test-your-code.md). However, team members involved in testing the application can also use these tests types for converting manual tests to automated tests and for isolating bugs that come out of integration testing from [Team Foundation builds](../Topic/Build%20the%20application.md).  
+ Unit tests and coded UI tests are generally used by developers, or by team members who use Visual Studio, to validate the quality of their code in an app. For example, you might run these tests prior to checking your code into [version control](../Topic/Use%20version%20control.md). See [Unit Test Your Code](../code-quality/unit-test-your-code.md) and [Use UI Automation To Test Your Code](../code-quality/use-ui-automation-to-test-your-code.md). However, team members involved in testing the application can also use these tests types for converting manual tests to automated tests and for isolating bugs that come out of integration testing from [Team Foundation builds](../Topic/Build%20the%20application.md).  
   
 ## Related Topics  
   

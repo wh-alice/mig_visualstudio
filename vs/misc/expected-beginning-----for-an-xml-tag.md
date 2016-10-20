@@ -1,7 +1,7 @@
 ---
-title: "Expected beginning &#39;&lt;&#39; for an XML tag"
+title: "Expected beginning &#39;&lt;&#39; for an XML tag | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

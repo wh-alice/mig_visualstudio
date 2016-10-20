@@ -1,7 +1,7 @@
 ---
-title: "Map dependencies across your solutions"
+title: "Map dependencies across your solutions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -319,8 +319,8 @@ When you want to understand dependencies across your code, visualize them by cre
 |**Issue**|**Possible cause**|**Resolution**|  
 |---------------|------------------------|--------------------|  
 |The code map failed to generate.|No projects in the solution were built successfully.|Fix the build errors that occurred and then regenerate the map.|  
-|[!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] becomes unresponsive when you try to generate a code map from the **Architecture** menu.|The program database (.pdb) file might be corrupted.<br /><br /> A .pdb file stores debugging information, such as type, method, and source file information.|Rebuild the solution and then try again.|  
-|Certain settings for the IntelliSense browsing database are disabled.|Certain IntelliSense settings might be disabled in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]**Options** dialog box.|Turn on the settings to enable them.<br /><br /> See [Options, Text Editor, C/C++, Advanced](../reference/options--text-editor--c-c----advanced.md).|  
+|[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] becomes unresponsive when you try to generate a code map from the **Architecture** menu.|The program database (.pdb) file might be corrupted.<br /><br /> A .pdb file stores debugging information, such as type, method, and source file information.|Rebuild the solution and then try again.|  
+|Certain settings for the IntelliSense browsing database are disabled.|Certain IntelliSense settings might be disabled in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]**Options** dialog box.|Turn on the settings to enable them.<br /><br /> See [Options, Text Editor, C/C++, Advanced](../reference/options--text-editor--c-c----advanced.md).|  
 |The message **Unknown Methods** appears on a method node.<br /><br /> This issue occurs because the name of the method cannot be resolved.|The binary file might not have a base relocation table.|Turn on the **/FIXED:NO** option in the linker.<br /><br /> See [/FIXED (Fixed Base Address)](../Topic/-FIXED%20\(Fixed%20Base%20Address\).md).|  
 ||The program database (.pdb) file might not be built.<br /><br /> A .pdb file stores debugging information, such as type, method, and source file information.|Turn on the **/DEBUG** option in the linker.<br /><br /> See [/DEBUG (Generate Debug Info)](../Topic/-DEBUG%20\(Generate%20Debug%20Info\).md).|  
 ||Cannot open or find the .pdb file in the expected locations.|Make sure that the .pdb file exists in the expected locations.|  

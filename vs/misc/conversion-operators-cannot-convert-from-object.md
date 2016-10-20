@@ -1,7 +1,7 @@
 ---
-title: "Conversion operators cannot convert from Object"
+title: "Conversion operators cannot convert from Object | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -37,7 +37,7 @@ translation.priority.mt:
 # Conversion operators cannot convert from Object
 A conversion operator is declared with a parameter of the [Object Data Type](../Topic/Object%20Data%20Type.md).  
   
- At compile time, [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] considers a predefined conversion to exist from any reference type to any type in its inheritance hierarchy, that is, any type from which it derives or which derives from it. `Object` is the universal data type in the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)], so every type derives from `Object`.  
+ At compile time, [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] considers a predefined conversion to exist from any reference type to any type in its inheritance hierarchy, that is, any type from which it derives or which derives from it. `Object` is the universal data type in the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], so every type derives from `Object`.  
   
  Because the compiler considers this conversion to be already defined, it does not allow you to redefine it.  
   

@@ -1,7 +1,7 @@
 ---
-title: "Validation in a Domain-Specific Language"
+title: "Validation in a Domain-Specific Language | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -249,7 +249,7 @@ if (!validator.Validate(store, ValidationCategories.Save))
 ## Running validation when a change occurs  
  If you want to make sure that the user is warned immediately if the model becomes invalid, you can define a store event that runs validation. For more information about store events, see [Event Handlers Propagate Changes Outside the Model](../modeling/event-handlers-propagate-changes-outside-the-model.md).  
   
- In addition to the validation code, add a custom code file to your **DslPackage** project, with content similar to the following example. This code uses the `ValidationController` that is attached to the document. This controller displays the validation errors in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] error list.  
+ In addition to the validation code, add a custom code file to your **DslPackage** project, with content similar to the following example. This code uses the `ValidationController` that is attached to the document. This controller displays the validation errors in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] error list.  
   
 ```c#  
 using System;  

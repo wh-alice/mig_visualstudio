@@ -1,5 +1,5 @@
 ---
-title: "How to: Choose the applications that are recorded in a manual test"
+title: "How to: Choose the applications that are recorded in a manual test | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/01/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -49,10 +49,10 @@ You can configure the action log diagnostic data adapter for your action log and
 -   Visual Studio Enterprise, [!INCLUDE[vstsTestEssLong](../test/includes/vststestesslong_md.md)]  
   
 > [!CAUTION]
->  When a user runs a test using [!INCLUDE[mtrlong](../codequality/includes/mtrlong_md.md)], the user can decide whether to create an action recording, override an existing action recording, or not when they start each test. If the action log diagnostic data adapter has not been selected in the test settings for the role that runs the tests, the default values are used when the action recording is created.  
+>  When a user runs a test using [!INCLUDE[mtrlong](../code-quality/includes/mtrlong_md.md)], the user can decide whether to create an action recording, override an existing action recording, or not when they start each test. If the action log diagnostic data adapter has not been selected in the test settings for the role that runs the tests, the default values are used when the action recording is created.  
   
 > [!NOTE]
->  In [!INCLUDE[vs_dev11_long](../codequality/includes/vs_dev11_long_md.md)], the ARM architecture is supported for action logs.  
+>  In [!INCLUDE[vs_dev11_long](../code-quality/includes/vs_dev11_long_md.md)], the ARM architecture is supported for action logs.  
   
  The following procedure describes how to configure your diagnostic data adapter from the configuration editor for action log and action recording. To create your tests settings, see [Collect more diagnostic data](../test/collect-more-diagnostic-data-in-manual-tests.md).  
   
@@ -60,7 +60,7 @@ You can configure the action log diagnostic data adapter for your action log and
 >  The action log and action recording can be collected only on a local computer when you run manual tests and cannot be collected for automated tests.  
   
 ## Configure recording of user interface actions for playback and as text  
- Before you follow the steps in this procedure, you must open your test settings for your test plan using [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)]. From the **Plan** view, select **Properties**. Select the test settings and then select the **Data and Diagnostics** page.  
+ Before you follow the steps in this procedure, you must open your test settings for your test plan using [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)]. From the **Plan** view, select **Properties**. Select the test settings and then select the **Data and Diagnostics** page.  
   
 #### To configure recording of user interface actions for playback and as text  
   

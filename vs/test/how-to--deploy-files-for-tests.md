@@ -1,5 +1,5 @@
 ---
-title: "How to: Deploy Files for Tests"
+title: "How to: Deploy Files for Tests | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -100,19 +100,19 @@ Before you run a test, the test and the application have to be copied to a locat
   
 3.  Consider running your unit tests directly in the build output directory, so that testing runs more rapidly. This is especially useful on the build server after you have checked in your tests.  
   
-     To do this, [add a *.runsettings file](../codequality/configure-unit-tests-by-using-a-.runsettings-file.md) to your solution, include `<DeploymentEnabled>False</DeploymentEnabled>`, and select the file in the **Test**, **Test Settings** menu. The same effect occurs in any test run in which DeploymentItemAttribute is not used at all.  
+     To do this, [add a *.runsettings file](../code-quality/configure-unit-tests-by-using-a-.runsettings-file.md) to your solution, include `<DeploymentEnabled>False</DeploymentEnabled>`, and select the file in the **Test**, **Test Settings** menu. The same effect occurs in any test run in which DeploymentItemAttribute is not used at all.  
   
      However, you cannot avoid using a deployment folder if you are using a [*.testsettings](../test/specifying-test-settings-for-visual-studio-tests.md) file, which is required for web and load tests, coded UI tests, and any test in which you deploy an application to remote machines.  
   
 ## What’s a *.runsettings file?  
- A file with any name and the filename extension '.runsettings'. It’s used to configure unit tests for some purposes. If you want to create one, copy the example from [Configure unit tests by using a .runsettings file](../codequality/configure-unit-tests-by-using-a-.runsettings-file.md). Put it in a solution folder and then make it active using the **Test>Test Settings** menu.  
+ A file with any name and the filename extension '.runsettings'. It’s used to configure unit tests for some purposes. If you want to create one, copy the example from [Configure unit tests by using a .runsettings file](../code-quality/configure-unit-tests-by-using-a-.runsettings-file.md). Put it in a solution folder and then make it active using the **Test>Test Settings** menu.  
   
 ## When should I use a *.testsettings file?  
  A [*.testsettings file](../test/specifying-test-settings-for-visual-studio-tests.md) (that is, a file with any name and the filename extension '.testsettings') is an older alternative to \*.runsettings. If you want to create one, use the menu item in the **Test>Test Settings** menu. Save the file in a solution folder, and make it active by using the **Test>Test Settings menu**.  
   
  Avoid using a [*.testsettings](../test/specifying-test-settings-for-visual-studio-tests.md) file if you can, because it makes the tests run more slowly and it is incompatible with third-party test frameworks. You don’t need it for plain unit tests. But you do need one in these cases:  
   
--   You are running [web performance and load tests](../test_notintoc/web-performance-and-load-tests-in-visual-studio.md) or [coded UI tests](../codequality/use-ui-automation-to-test-your-code.md)  
+-   You are running [web performance and load tests](../test_notintoc/web-performance-and-load-tests-in-visual-studio.md) or [coded UI tests](../code-quality/use-ui-automation-to-test-your-code.md)  
   
 -   You are [running tests of a distributed application on more than one machine](../test/how-to--run-a-test-using-test-controllers-and-test-agents.md)  
   

@@ -1,7 +1,7 @@
 ---
-title: "Using MSBuild"
+title: "Using MSBuild | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -38,7 +38,7 @@ MSBuild supplies a well-defined, extensible XML format for creating project file
  For an end-to-end sample of a language project system based on MSBuild, see the IronPython Sample Deep Dive in the[VSSDK Samples](../misc/vssdk-samples.md).  
   
 ## General MSBuild Considerations  
- MSBuild project files, for example, [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] .csproj and [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] .vbproj files, contain data that is used at build time, but also can contain data that is used at design time. Build-time data is stored using MSBuild primitives, including [Item Element (MSBuild)](../reference/item-element--msbuild-.md) and [Property Element (MSBuild)](../reference/property-element--msbuild-.md). Design-time data, which is data specific to the project type and any related project subtypes, is stored in free-form XML reserved for it.  
+ MSBuild project files, for example, [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] .csproj and [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] .vbproj files, contain data that is used at build time, but also can contain data that is used at design time. Build-time data is stored using MSBuild primitives, including [Item Element (MSBuild)](../reference/item-element--msbuild-.md) and [Property Element (MSBuild)](../reference/property-element--msbuild-.md). Design-time data, which is data specific to the project type and any related project subtypes, is stored in free-form XML reserved for it.  
   
  MSBuild does not have native support for configuration objects, but does provide conditional attributes for specifying configuration-specific data. For example:  
   
@@ -49,7 +49,7 @@ MSBuild supplies a well-defined, extensible XML format for creating project file
  For more information on conditional attributes, see [Conditional Constructs](../reference/msbuild-conditional-constructs.md).  
   
 ### Extending MSBuild for Your Project Type  
- MSBuild interfaces and APIs are subject to change in future versions of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. Therefore, it is prudent to use the managed package framework (MPF) classes because they provide shielding from changes.  
+ MSBuild interfaces and APIs are subject to change in future versions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Therefore, it is prudent to use the managed package framework (MPF) classes because they provide shielding from changes.  
   
  The Managed Package Framework for Projects (MPFProj) provides helper classes for creating and managing new project system. You can find the source code and compilation instructions at [MPF for Projects - Visual Studio 2013](http://mpfproj12.codeplex.com/).  
   

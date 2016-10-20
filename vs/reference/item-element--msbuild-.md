@@ -1,7 +1,7 @@
 ---
-title: "Item Element (MSBuild)"
+title: "Item Element (MSBuild) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "Item Element [MSBuild]"
   - "<Item> Element [MSBuild]"
 ms.assetid: dcef5f91-0613-4bfc-8ee9-d7004bb6d3a9
-caps.latest.revision: 30
+caps.latest.revision: 31
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -103,4 +103,5 @@ Contains a user-defined item and its metadata. Every item that is used in a [!IN
   
 ## See Also  
  [Items](../reference/msbuild-items.md)   
+ [MSBuild Properties](../reference/msbuild-properties.md)   
  [Project File Schema Reference](../reference/msbuild-project-file-schema-reference.md)

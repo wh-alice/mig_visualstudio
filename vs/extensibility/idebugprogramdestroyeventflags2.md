@@ -1,7 +1,7 @@
 ---
-title: "IDebugProgramDestroyEventFlags2"
+title: "IDebugProgramDestroyEventFlags2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,7 +31,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # IDebugProgramDestroyEventFlags2
-Enables a debug engine to override the default behavior of the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] UI when you end a debug session.  
+Enables a debug engine to override the default behavior of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] UI when you end a debug session.  
   
 ## Syntax  
   
@@ -50,7 +50,7 @@ IDebugProgramDestroyEventFlags2 : IUnknown
 |[GetFlags](../extensibility/idebugprogramdestroyeventflags2--getflags.md)|Retrieves the program destroy flags.|  
   
 ## Remarks  
- The default behavior of the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] UI is to go back to design mode after all programs have sent a program destroy event. This interface enables a debug engine to change that behavior.  
+ The default behavior of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] UI is to go back to design mode after all programs have sent a program destroy event. This interface enables a debug engine to change that behavior.  
   
 ## Requirements  
  Header: Msdbg.h  

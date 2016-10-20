@@ -1,7 +1,7 @@
 ---
-title: "Controlling the Visibility of an Icon or Decorator"
+title: "Controlling the Visibility of an Icon or Decorator | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""

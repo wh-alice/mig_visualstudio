@@ -1,7 +1,7 @@
 ---
-title: "Debugging ASP.NET and AJAX Applications"
+title: "Debugging ASP.NET and AJAX Applications | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -39,22 +39,22 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Debugging ASP.NET and AJAX Applications
-Debugging [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] Web applications is similar to debugging a Windows Form or any other Windows application because both kinds of applications involve controls and events. However, there are also basic differences between the two kinds of applications:  
+Debugging [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web applications is similar to debugging a Windows Form or any other Windows application because both kinds of applications involve controls and events. However, there are also basic differences between the two kinds of applications:  
   
 -   Keeping track of state is more complex in a Web application.  
   
--   In a Windows application, the code to be debugged is mostly in one location; in a Web application, the code can be on the client and on the server. While [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] code is all on the server, there might also be JavaScript or [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] code on the client.  
+-   In a Windows application, the code to be debugged is mostly in one location; in a Web application, the code can be on the client and on the server. While [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] code is all on the server, there might also be JavaScript or [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] code on the client.  
   
 ## In This Section  
  [Preparing to Debug ASP.NET](../debugger/preparing-to-debug-asp.net.md)  
- Describes the steps that are required to enable debugging of [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] applications.  
+ Describes the steps that are required to enable debugging of [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] applications.  
   
  [Debugging Web Applications](../debugger/debugging-web-applications.md)  
- Discusses how to debug a [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] application, including AJAX-enabled script applications.  
+ Discusses how to debug a [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] application, including AJAX-enabled script applications.  
   
 ## Related Sections  
  [Managing Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md)  
- Explains why Just My Code must be enabled for debugging [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] exceptions.  
+ Explains why Just My Code must be enabled for debugging [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] exceptions.  
   
  [Debugging and Tracing Ajax Applications Overview](../Topic/Debugging%20and%20Tracing%20Ajax%20Applications%20Overview.md)  
  Discusses some techniques and tools that can help you debug your AJAX code.  

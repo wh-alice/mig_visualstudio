@@ -1,7 +1,7 @@
 ---
-title: "How to: Exclude Files from the Build"
+title: "How to: Exclude Files from the Build | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

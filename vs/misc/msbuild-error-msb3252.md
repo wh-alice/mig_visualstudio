@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB3252"
+title: "MSBuild Error MSB3252 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -42,7 +42,7 @@ translation.priority.mt:
   
 ### To correct this error  
   
--   Either remove the specified assembly reference from your project, or target the full [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] instead of the [!INCLUDE[net_client_v35_long](../misc/includes/net_client_v35_long_md.md)] subset library. For information about how to target the full [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)], see [How to: Target a Version of the .NET Framework](../ide/how-to--target-a-version-of-the-.net-framework.md).  
+-   Either remove the specified assembly reference from your project, or target the full [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] instead of the [!INCLUDE[net_client_v35_long](../misc/includes/net_client_v35_long_md.md)] subset library. For information about how to target the full [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], see [How to: Target a Version of the .NET Framework](../ide/how-to--target-a-version-of-the-.net-framework.md).  
   
 ## See Also  
  [Target Framework and Target Platform](../reference/msbuild-target-framework-and-target-platform.md)   

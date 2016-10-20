@@ -1,7 +1,7 @@
 ---
-title: "Integrate UML models with other models and tools"
+title: "Integrate UML models with other models and tools | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -44,7 +44,7 @@ UML models can be integrated with other models and with domain-specific language
   
      The stereotype and its properties are visible to the user in the Properties window.  
   
-     To deploy this extension, you would package the profile definition and the extension code in a single [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Extension.  
+     To deploy this extension, you would package the profile definition and the extension code in a single [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Extension.  
   
      For more information, see [Define a profile to extend UML](../modeling/define-a-profile-to-extend-uml.md).  
   

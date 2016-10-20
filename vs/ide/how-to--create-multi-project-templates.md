@@ -1,7 +1,7 @@
 ---
-title: "How to: Create Multi-Project Templates"
+title: "How to: Create Multi-Project Templates | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -97,10 +97,10 @@ Multi-project templates act as containers for two or more projects. When a proje
   
 4.  Select the files and folders to include in your template, right-click the selection, click **Send To**, and then click **Compressed (zipped) Folder**. The files and folders are compressed into a .zip file.  
   
-5.  Put the .zip template file in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] project template directory. By default, this directory is \My Documents\Visual Studio *Version*\Templates\ProjectTemplates\\.  
+5.  Put the .zip template file in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project template directory. By default, this directory is \My Documents\Visual Studio *Version*\Templates\ProjectTemplates\\.  
   
 ## Example  
- This example shows a basic multi-project root .vstemplate file. In this example, the template contains two projects, `My Windows Application` and `My Class Library`. The `ProjectName` attribute on the `ProjectTemplateLink` element sets the name for [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] to assign this project. If the `ProjectName` attribute does not exist, the name of the .vstemplate file is used as the project name.  
+ This example shows a basic multi-project root .vstemplate file. In this example, the template contains two projects, `My Windows Application` and `My Class Library`. The `ProjectName` attribute on the `ProjectTemplateLink` element sets the name for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to assign this project. If the `ProjectName` attribute does not exist, the name of the .vstemplate file is used as the project name.  
   
 ```  
 <VSTemplate Version="2.0.0" Type="ProjectGroup"  

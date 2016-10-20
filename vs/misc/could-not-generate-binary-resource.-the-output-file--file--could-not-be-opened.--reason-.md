@@ -1,13 +1,13 @@
 ---
-title: "Could not generate binary resource. The output file &#39;file&#39; could not be opened. &lt;reason&gt;"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Could not generate binary resource. The output file &#39;file&#39; could not be opened. &lt;reason&gt; | Microsoft Docs"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.tasklisterror.resx_output_locked"
@@ -38,7 +38,7 @@ An outdated copy of the .resources file could not be deleted by the project syst
   
  **To correct this error**  
   
--   Restart [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+-   Restart [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
      This error will cause the build process to fail.  
   

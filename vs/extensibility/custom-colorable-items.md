@@ -1,7 +1,7 @@
 ---
-title: "Custom Colorable Items"
+title: "Custom Colorable Items | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -47,7 +47,7 @@ You can override the list of types for colorizing, such as keywords and comments
 >   
 >  To reset the cache, call `CreateExpInstance /Reset`. For more information about CreateExpInstance, see [CreateExpInstance Utility](../extensibility/createexpinstance-utility.md).  
   
- The first item in your list of colorable items is never referenced. The first item corresponds to a colorable item index of 0, and [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] always supplies the default text colors and attributes for that item. The easiest way of dealing with this unreferenced item is to supply a placeholder colorable item in your list as the first item.  
+ The first item in your list of colorable items is never referenced. The first item corresponds to a colorable item index of 0, and [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] always supplies the default text colors and attributes for that item. The easiest way of dealing with this unreferenced item is to supply a placeholder colorable item in your list as the first item.  
   
 ## Implementing Custom Colorable Items  
   
@@ -69,7 +69,7 @@ You can override the list of types for colorizing, such as keywords and comments
   
 8.  In your language service object, create a list that contains your <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorableItem> objects, one for each colorable item your parser or scanner can identify.  
   
-     You can access each item in the list by using the corresponding value from the custom colorable items enumeration. Use the enumeration values as an index into the list. The first item in the list is never accessed, because it corresponds to the default text style that [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] always handles itself. You can compensate for this by inserting a placeholder colorable item at the beginning of your list.  
+     You can access each item in the list by using the corresponding value from the custom colorable items enumeration. Use the enumeration values as an index into the list. The first item in the list is never accessed, because it corresponds to the default text style that [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] always handles itself. You can compensate for this by inserting a placeholder colorable item at the beginning of your list.  
   
 9. In your implementation of the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsProvideColorableItems.GetItemCount*> method, return the number of items in your custom colorable items list.  
   

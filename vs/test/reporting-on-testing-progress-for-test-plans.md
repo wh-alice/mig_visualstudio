@@ -1,7 +1,7 @@
 ---
-title: "Reporting on testing progress for test plans"
+title: "Reporting on testing progress for test plans | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -30,7 +30,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Reporting on testing progress for test plans
-You can track your progress for your test suites immediately after you run your tests from [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)]. You can view your progress in the **Run Tests** activity for each test suite individually. You can view the tests that have passed and failed. You can mark tests as blocked or reset tests to active when you are ready to run them again, as shown in the following illustration.  
+You can track your progress for your test suites immediately after you run your tests from [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)]. You can view your progress in the **Run Tests** activity for each test suite individually. You can view the tests that have passed and failed. You can mark tests as blocked or reset tests to active when you are ready to run them again, as shown in the following illustration.  
   
  ![View Test Results](../test/media/quickstart_testres.png "QuickStart_TestRes")  
   
@@ -43,22 +43,22 @@ You can track your progress for your test suites immediately after you run your 
   
  If you want to view the results for all the suites in the test plan rolled up for your overall status, you can see this in the **Properties** view of your test plan in **Test Plan Status**.  
   
- You can also track the progress of your testing efforts by creating your own reports or by using predefined test reports. The predefined reports are available only when your team uses [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] to create test plans and run tests. The data for the reports is automatically collected as you run tests and save test results.  
+ You can also track the progress of your testing efforts by creating your own reports or by using predefined test reports. The predefined reports are available only when your team uses [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] to create test plans and run tests. The data for the reports is automatically collected as you run tests and save test results.  
   
  The predefined reports are created in Excel and a subset of them is also created in Report Designer. If you create your own tests, you can use either Excel or Report Designer.  
   
 > [!NOTE]
->  When you use these predefined reports or create your own reports, there is a time delay between the time that you save the test results and the time that the data is available in the warehouse database or the analysis services database in [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)].  
+>  When you use these predefined reports or create your own reports, there is a time delay between the time that you save the test results and the time that the data is available in the warehouse database or the analysis services database in [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)].  
   
  You can access test reports in one of three different ways, depending on your preference:  
   
- **Test Dashboard** If your team uses a project portal, you can view the predefined reports on the Test Dashboard. You can access the project portal from the **Track** view in [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)]. For more information about the Test Dashboard, see [Test](../Topic/Test%20dashboard%20\(Agile%20and%20CMMI\).md).  
+ **Test Dashboard** If your team uses a project portal, you can view the predefined reports on the Test Dashboard. You can access the project portal from the **Track** view in [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)]. For more information about the Test Dashboard, see [Test](../Topic/Test%20dashboard%20\(Agile%20and%20CMMI\).md).  
   
  **Team Explorer** You can access Report Designer reports from the Reports folder for your team project, and you can access Excel reports from the Documents folder.  
   
- **The web portal** If you have access to the web portal, just as with [!INCLUDE[esprtfc](../codequality/includes/esprtfc_md.md)], you can access Report Designer reports from the Reports folder for your team project, and you can access Excel reports from the Documents folder.  
+ **The web portal** If you have access to the web portal, just as with [!INCLUDE[esprtfc](../code-quality/includes/esprtfc_md.md)], you can access Report Designer reports from the Reports folder for your team project, and you can access Excel reports from the Documents folder.  
   
- The following illustration shows how test points are created in your test plan based on your test cases and test configurations for each test suite. A *test point* is a pairing of a test case with a test configuration. When you run a set of test points, a test run is created that has a test result for each test point. These test runs are stored in [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)]. You can then use predefined reports to show your progress based on these test points, or you can create custom reports.  
+ The following illustration shows how test points are created in your test plan based on your test cases and test configurations for each test suite. A *test point* is a pairing of a test case with a test configuration. When you run a set of test points, a test run is created that has a test result for each test point. These test runs are stored in [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)]. You can then use predefined reports to show your progress based on these test points, or you can create custom reports.  
   
  ![Report on Testing Progress](../test/media/report_testingprog.png "Report_TestingProg")  
   

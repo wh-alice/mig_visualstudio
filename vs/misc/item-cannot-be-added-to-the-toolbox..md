@@ -1,7 +1,7 @@
 ---
-title: "Item cannot be added to the Toolbox."
+title: "Item cannot be added to the Toolbox. | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -38,7 +38,7 @@ This error generally occurs when you attempt to add an item for which the Toolbo
   
 -   Controls and .NET Framework components installed on your local machine.  
   
- **Note** Controls and components for [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] Web forms must have an [AspNetHostingPermission.Level Property](https://msdn.microsoft.com/en-us/library/system.web.aspnethostingpermission.level.aspx) of "Unlimited" to be displayed in the Toolbox.  
+ **Note** Controls and components for [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web forms must have an [AspNetHostingPermission.Level Property](https://msdn.microsoft.com/en-us/library/system.web.aspnethostingpermission.level.aspx) of "Unlimited" to be displayed in the Toolbox.  
   
 -   Selected text dragged or pasted from a Visual Studio editor, such as code snippets.  
   

@@ -1,7 +1,7 @@
 ---
-title: "How to: Register Editor File Types"
+title: "How to: Register Editor File Types | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,7 +31,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # How to: Register Editor File Types
-The easiest way to register editor file types is by using the registration attributes provided as a part of the [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] managed package framework (MPF) classes. If you are implementing your package in native [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)], you can also write a registry script that registers your editor and the associated extensions.  
+The easiest way to register editor file types is by using the registration attributes provided as a part of the [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] managed package framework (MPF) classes. If you are implementing your package in native [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)], you can also write a registry script that registers your editor and the associated extensions.  
   
 ## Registration Using MPF Classes  
   
@@ -74,10 +74,10 @@ The easiest way to register editor file types is by using the registration attri
   
 3.  Unregister the editor factories.  
   
-     Editor factories are automatically unregistered when the VSPackage is disposed. If the editor factory object implements the <xref:System.IDisposable> interface, its `Dispose` method is called after the factory has been unregistered with [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+     Editor factories are automatically unregistered when the VSPackage is disposed. If the editor factory object implements the <xref:System.IDisposable> interface, its `Dispose` method is called after the factory has been unregistered with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 ## Registration Using a Registry Script  
- Registering editor factories and file types in native [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)] is done using a registry script to write to the windows registry, as illustrated by the following.  
+ Registering editor factories and file types in native [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] is done using a registry script to write to the windows registry, as illustrated by the following.  
   
 #### To register editor file types using a registry script  
   

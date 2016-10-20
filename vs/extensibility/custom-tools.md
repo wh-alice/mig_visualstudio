@@ -1,7 +1,7 @@
 ---
-title: "Custom Tools"
+title: "Custom Tools | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,7 +33,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Custom Tools
-*Custom tools* let you associate a tool with an item in a project and run that tool whenever the file is saved. Certain custom tools, sometimes referred to as *single-file generators*, are frequently used to implement translators that generate code from data and vice versa. For example, single-file generators create [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] and [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] source code out of the .settings and .resx files. The generated source code provides strongly-typed access to the data in the .settings and .resx files. The [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] and [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] project types support custom tools; [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)] project types do not. Your own project types can also support custom tools.  
+*Custom tools* let you associate a tool with an item in a project and run that tool whenever the file is saved. Certain custom tools, sometimes referred to as *single-file generators*, are frequently used to implement translators that generate code from data and vice versa. For example, single-file generators create [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] and [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] source code out of the .settings and .resx files. The generated source code provides strongly-typed access to the data in the .settings and .resx files. The [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] and [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] project types support custom tools; [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] project types do not. Your own project types can also support custom tools.  
   
  Custom tools are registered components that implement the `IVsSingleFileGenerator` interface.  
   
@@ -67,4 +67,4 @@ translation.priority.mt:
   
 ## Related Sections  
  [Extending Projects](../extensibility/extending-projects.md)  
- Describes how to use [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] projects and solutions to organize code files and resource files, and how to implement source control.
+ Describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] projects and solutions to organize code files and resource files, and how to implement source control.

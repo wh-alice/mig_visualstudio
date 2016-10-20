@@ -1,7 +1,7 @@
 ---
-title: "How to: Store a Virtual Machine or Template"
+title: "How to: Store a Virtual Machine or Template | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -50,7 +50,7 @@ As you create, use, and store SCVMM environments, you might find it necessary or
   
 1.  **Snapshot the environment.** After you have stored the virtual machine, you will want to restore it to its current state. The most reliable way to do this is to take a snapshot. Alternatively, if there are a lot of machines in the environment, you might prefer to simply undo your changes after you have saved the machine.  
   
-    1.  In [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], choose **Lab Center**, **Lab**. Select the environment and then choose **Connect**.  
+    1.  In [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], choose **Lab Center**, **Lab**. Select the environment and then choose **Connect**.  
   
     2.  In the Environment Viewer, choose **Shut Down**. If the environment is Paused, you must start it first.  
   

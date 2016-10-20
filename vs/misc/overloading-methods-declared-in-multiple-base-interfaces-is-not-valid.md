@@ -1,7 +1,7 @@
 ---
-title: "Overloading methods declared in multiple base interfaces is not valid"
+title: "Overloading methods declared in multiple base interfaces is not valid | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

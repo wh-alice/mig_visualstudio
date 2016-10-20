@@ -1,7 +1,7 @@
 ---
-title: "Devenv Command Line Switches"
+title: "Devenv Command Line Switches | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -82,15 +82,15 @@ Devenv lets you set various options for the integrated development environment (
 |Command line switch|Description|  
 |-------------------------|-----------------|  
 |[/Command (devenv.exe)](../reference/-command--devenv.exe-.md)|Starts the IDE and executes the specified command.|  
-|[/DebugExe (devenv.exe)](../reference/-debugexe--devenv.exe-.md)|Loads a [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)] executable under the control of the debugger. This switch is not available for [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] or [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] executables. For more information, see [Automatically start a process in the debugger](../debugger/debug-multiple-processes.md#BKMK_Automatically_start_an_process_in_the_debugger).|  
+|[/DebugExe (devenv.exe)](../reference/-debugexe--devenv.exe-.md)|Loads a [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] executable under the control of the debugger. This switch is not available for [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] or [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] executables. For more information, see [Automatically start a process in the debugger](../debugger/debug-multiple-processes.md#BKMK_Automatically_start_an_process_in_the_debugger).|  
 |[/LCID (devenv.exe)](../reference/-lcid--devenv.exe-.md) or `/l`|Sets the default language for the IDE. If the specified language is not included in your installation of Visual Studio, this setting will be ignored.|  
-|[/Log (devenv.exe)](../reference/-log--devenv.exe-.md)|Starts [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and logs all activity to the log file.|  
+|[/Log (devenv.exe)](../reference/-log--devenv.exe-.md)|Starts [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and logs all activity to the log file.|  
 |[/Run (devenv.exe)](../reference/-run--devenv.exe-.md) or `/r`|Compiles and runs the specified solution.|  
 |[/Runexit (devenv.exe)](../reference/-runexit--devenv.exe-.md)|Compiles and runs the specified solution, minimizes the IDE when the solution is run, and closes the IDE after the solution has finished running.|  
-|[/UseEnv (devenv.exe)](../reference/-useenv--devenv.exe-.md)|Causes the IDE to use PATH, INCLUDE, and LIB environment variables for [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)] compilation instead of the settings specified in the VC++ Directories section of **Projects** options in the **Options** dialog box. For more information, see [Setting the Path and Environment Variables for Command-Line Builds](../Topic/Setting%20the%20Path%20and%20Environment%20Variables%20for%20Command-Line%20Builds.md)|  
+|[/UseEnv (devenv.exe)](../reference/-useenv--devenv.exe-.md)|Causes the IDE to use PATH, INCLUDE, and LIB environment variables for [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] compilation instead of the settings specified in the VC++ Directories section of **Projects** options in the **Options** dialog box. For more information, see [Setting the Path and Environment Variables for Command-Line Builds](../Topic/Setting%20the%20Path%20and%20Environment%20Variables%20for%20Command-Line%20Builds.md)|  
 |[/Edit (devenv.exe)](../reference/-edit--devenv.exe-.md)|Opens the specified files in a running instance of this application. If there are no running instances, it will start a new instance with a simplified window layout.|  
 |[/ResetAddin (devenv.exe)](../reference/-resetaddin--devenv.exe-.md)|Starts an instance of the Visual Studio IDE without loading the specified Add-in.|  
-|[/SafeMode (devenv.exe)](../reference/-safemode--devenv.exe-.md)|Starts [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] in safe mode, and loads only the default environment and services, and shipped versions of third-party packages.|  
+|[/SafeMode (devenv.exe)](../reference/-safemode--devenv.exe-.md)|Starts [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] in safe mode, and loads only the default environment and services, and shipped versions of third-party packages.|  
 |[/ResetSkipPkgs (devenv.exe)](../reference/-resetskippkgs--devenv.exe-.md)|Clears all SkipLoading tags that have been added to VSPackages by users who want to avoid loading problem VSPackages.|  
 |[/Setup (devenv.exe)](../reference/-setup--devenv.exe-.md)|Forces Visual Studio to merge resource metadata that describes menus, toolbars, and command groups, from all VSPackages available.|  
   
@@ -109,8 +109,8 @@ Devenv lets you set various options for the integrated development environment (
 |[/ProjectConfig (devenv.exe)](../reference/-projectconfig--devenv.exe-.md)|Specifies the project configuration to build or deploy. You can use this switch only if you have also supplied the /project switch.|  
 |[/Rebuild (devenv.exe)](../reference/-rebuild--devenv.exe-.md)|Cleans and then builds the specified solution or project according to the configuration of the specified solution.|  
 |[/ResetSettings (devenv.exe)](../reference/-resetsettings--devenv.exe-.md)|Restores Visual Studio default settings. Optionally resets the settings to the specified .vssettings file.|  
-|[/Updateconfiguration (devenv.exe)](../reference/-updateconfiguration--devenv.exe-.md)|Notifies [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] to merge the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] packages on the system and check the MEF cache for any changes.|  
-|[/Upgrade (devenv.exe)](../reference/-upgrade--devenv.exe-.md)|Upgrades the specified solution file and all its project files, or the specified project file, to the current [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] formats for these files.|  
+|[/Updateconfiguration (devenv.exe)](../reference/-updateconfiguration--devenv.exe-.md)|Notifies [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to merge the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] packages on the system and check the MEF cache for any changes.|  
+|[/Upgrade (devenv.exe)](../reference/-upgrade--devenv.exe-.md)|Upgrades the specified solution file and all its project files, or the specified project file, to the current [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] formats for these files.|  
   
 ## See Also  
  [General, Environment, Options Dialog Box](../reference/general--environment--options-dialog-box.md)

@@ -1,7 +1,7 @@
 ---
-title: "Instance of restricted type &#39;&lt;typename&gt;&#39; cannot be used in a query expression"
+title: "Instance of restricted type &#39;&lt;typename&gt;&#39; cannot be used in a query expression | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

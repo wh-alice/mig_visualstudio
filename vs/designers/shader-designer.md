@@ -1,5 +1,5 @@
 ---
-title: "Shader Designer"
+title: "Shader Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
@@ -33,7 +33,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Shader Designer
-This document describes how to work with the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Shader Designer to create, modify, and export custom visual effects that are known as *shaders*.  
+This document describes how to work with the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Shader Designer to create, modify, and export custom visual effects that are known as *shaders*.  
   
  You can use the Shader Designer to create custom visual effects for your game or app even if you don't know HLSL programming. To create a shader in the Shader Designer, you just lay it out as a graph; that is, you add to the design surface *nodes* that represent data and operations and then make connections between them to define how the operations process the data. At each operation node, a preview of the effect up to that point is provided so that you can visualize its result. Data flows through the nodes toward a final node that represents the output of the shader.  
   
@@ -48,7 +48,7 @@ This document describes how to work with the [!INCLUDE[vsprvs](../codequality/in
 |C++ header (HLSL bytecode array)|.h|Export|  
   
 ## Getting Started  
- This section describes how to add a DGSL shader to your [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] project and provides basic information to help you get started.  
+ This section describes how to add a DGSL shader to your [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project and provides basic information to help you get started.  
   
 #### To add a DGSL shader to your project  
   
@@ -69,7 +69,7 @@ This document describes how to work with the [!INCLUDE[vsprvs](../codequality/in
 ### Shader Designer toolbars  
  The Shader Designer toolbars contain commands that help you work with DGSL shader graphs.  
   
- Commands that affect the state of the Shader Designer are located on the **Shader Designer Mode** toolbar in the main [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] window. Design tools and commands are located on the **Shader Designer** toolbar on the Shader Designer design surface.  
+ Commands that affect the state of the Shader Designer are located on the **Shader Designer Mode** toolbar in the main [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] window. Design tools and commands are located on the **Shader Designer** toolbar on the Shader Designer design surface.  
   
  Here's the **Shader Designer Mode** toolbar:  
   
@@ -83,7 +83,7 @@ This document describes how to work with the [!INCLUDE[vsprvs](../codequality/in
 |**Pan**|Enables movement of a shader graph relative to the window frame. To pan, select a point on the design surface and move it around.<br /><br /> In **Select** mode, you can press and hold Ctrl to activate **Pan** mode temporarily.|  
 |**Zoom**|Enables the display of more or less shader-graph detail relative to the window frame. In **Zoom** mode, select a point on the design surface and then move it right or down to zoom in, or left or up to zoom out.<br /><br /> In **Select** mode, you can press and hold Ctrl to zoom in or out by using the mouse wheel.|  
 |**Zoom to Fit**|Displays the full shader graph in the window frame.|  
-|**Real-Time Rendering Mode**|When real-time rendering is enabled, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] redraws the design surface, even when no user action is performed. This mode is useful when you work with shaders that change over time.|  
+|**Real-Time Rendering Mode**|When real-time rendering is enabled, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] redraws the design surface, even when no user action is performed. This mode is useful when you work with shaders that change over time.|  
 |**Preview with sphere**|When enabled, a model of a sphere is used to preview the shader. Only one preview shape at a time can be enabled.|  
 |**Preview with cube**|When enabled, a model of a cube is used to preview the shader. Only one preview shape at a time can be enabled.|  
 |**Preview with Cylinder**|When enabled, a model of a cylinder is used to preview the shader. Only one preview shape at a time can be enabled.|  
@@ -196,6 +196,6 @@ This document describes how to work with the [!INCLUDE[vsprvs](../codequality/in
   
 |Title|Description|  
 |-----------|-----------------|  
-|[Working with 3-D Assets for Games and Apps](../designers/working-with-3-d-assets-for-games-and-apps.md)|Provides an overview of the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] tools that you can use to work with textures and images, 3-D models, and shader effects.|  
-|[Image Editor](../designers/image-editor.md)|Describes how to use the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Image Editor to work with textures and images.|  
-|[Model Editor](../designers/model-editor.md)|Describes how to use the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Model Editor to work with 3-D models.|
+|[Working with 3-D Assets for Games and Apps](../designers/working-with-3-d-assets-for-games-and-apps.md)|Provides an overview of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] tools that you can use to work with textures and images, 3-D models, and shader effects.|  
+|[Image Editor](../designers/image-editor.md)|Describes how to use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Image Editor to work with textures and images.|  
+|[Model Editor](../designers/model-editor.md)|Describes how to use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Model Editor to work with 3-D models.|

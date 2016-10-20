@@ -1,7 +1,7 @@
 ---
-title: "Initialization Sequence of Project Subtypes"
+title: "Initialization Sequence of Project Subtypes | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,7 +31,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Initialization Sequence of Project Subtypes
-The environment constructs a project by calling the base project factory implementation of <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFactory.CreateProject*>. The construction of a project subtype starts when the environment determines that the project type GUID list for a project file's extension is not empty. The project file extension and project GUID specify whether the project is a [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] or [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] project type. For example, the .vbproj extension and {F184B08F-C81C-45F6-A57F-5ABD9991F28F} identify a [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] project.  
+The environment constructs a project by calling the base project factory implementation of <xref:Microsoft.VisualStudio.Shell.Interop.IVsProjectFactory.CreateProject*>. The construction of a project subtype starts when the environment determines that the project type GUID list for a project file's extension is not empty. The project file extension and project GUID specify whether the project is a [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] or [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] project type. For example, the .vbproj extension and {F184B08F-C81C-45F6-A57F-5ABD9991F28F} identify a [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] project.  
   
 ## Environment's Initialization of Project Subtypes  
  The following procedure details the initialization sequence for a project system aggregated by multiple project subtypes.  

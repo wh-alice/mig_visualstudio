@@ -1,7 +1,7 @@
 ---
-title: "Debugger Project Settings"
+title: "Debugger Project Settings | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -61,7 +61,7 @@ Certain project settings also affect debugging. These settings determine such th
  Lists properties available in the **Property Pages** dialog box for web projects.  
   
  [Project Settings for a Visual Basic Debug Configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md)  
- Lists properties available in the **Property Pages** dialog box for [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] projects.  
+ Lists properties available in the **Property Pages** dialog box for [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] projects.  
   
 ## Related Sections  
  [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol--.pdb--and-source-files-in-the-visual-studio-debugger.md)  
@@ -71,7 +71,7 @@ Certain project settings also affect debugging. These settings determine such th
  Describes how to debug Windows Store apps. (Windows Dev Center)  
   
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)  
- Describes the debugger-related property settings, and the preparation needed in order to debug your program with the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] debugger.  
+ Describes the debugger-related property settings, and the preparation needed in order to debug your program with the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger.  
   
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)

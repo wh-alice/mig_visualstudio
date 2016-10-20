@@ -1,7 +1,7 @@
 ---
-title: "AspNetCompiler Task"
+title: "AspNetCompiler Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -39,7 +39,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # AspNetCompiler Task
-The `AspNetCompiler` task wraps aspnet_compiler.exe, a utility to precompile [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] applications.  
+The `AspNetCompiler` task wraps aspnet_compiler.exe, a utility to precompile [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] applications.  
   
 ## Task Parameters  
  The following table describes the parameters of the `AspNetCompiler` task.  
@@ -65,7 +65,7 @@ The `AspNetCompiler` task wraps aspnet_compiler.exe, a utility to precompile [!I
  In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.ToolTask> class. For a list of these additional parameters and their descriptions, see [ToolTaskExtension Base Class](../reference/tooltaskextension-base-class.md).  
   
 ## Example  
- The following code example uses the `AspNetCompiler` task to precompile an [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] application.  
+ The following code example uses the `AspNetCompiler` task to precompile an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] application.  
   
 ```  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  

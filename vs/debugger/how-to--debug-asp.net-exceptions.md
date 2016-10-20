@@ -1,7 +1,7 @@
 ---
-title: "How to: Debug ASP.NET Exceptions"
+title: "How to: Debug ASP.NET Exceptions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -38,13 +38,13 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Debug ASP.NET Exceptions
-Debugging exceptions is an important part of developing a robust [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] application. General information about how to debug exceptions is at [Managing Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md).  
+Debugging exceptions is an important part of developing a robust [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] application. General information about how to debug exceptions is at [Managing Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md).  
   
- To debug unhandled [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] exceptions, you must make sure that the debugger stops for them. The [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] runtime has a top-level exception handler. Therefore, the debugger never breaks on unhandled exceptions by default. To break into the debugger when an exception is thrown, you must select **Break when an exception is: Thrown** setting for that specific exception in the **Exceptions** dialog box.  
+ To debug unhandled [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] exceptions, you must make sure that the debugger stops for them. The [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] runtime has a top-level exception handler. Therefore, the debugger never breaks on unhandled exceptions by default. To break into the debugger when an exception is thrown, you must select **Break when an exception is: Thrown** setting for that specific exception in the **Exceptions** dialog box.  
   
  If you have enabled Just My Code, **Break when an exception is: Thrown** does not cause the debugger to break immediately if an exception is thrown in a .NET Framework method or other system code. Instead, execution continues until the debugger hits non-system code, then it breaks. As a result, you do not have to step through the system code when an exception occurs.  
   
- Just My Code gives you another option that can be even more useful: **Break when an exception is: User-unhandled**. If you choose this setting for an exception, the debugger will break execution in user code, but only if the exception is not caught and handled by the user code. This setting negates the effect of the top-level [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] exception handler, because that handler is in non-user code.  
+ Just My Code gives you another option that can be even more useful: **Break when an exception is: User-unhandled**. If you choose this setting for an exception, the debugger will break execution in user code, but only if the exception is not caught and handled by the user code. This setting negates the effect of the top-level [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] exception handler, because that handler is in non-user code.  
   
 ### To enable debugging of ASP.NET exceptions with Just My Code  
   

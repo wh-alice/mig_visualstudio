@@ -1,13 +1,13 @@
 ---
-title: "Type parameter &#39;&lt;typeparametername&gt;&#39; can only have one constraint that is a class"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Type parameter &#39;&lt;typeparametername&gt;&#39; can only have one constraint that is a class | Microsoft Docs"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bc32047"
@@ -37,7 +37,7 @@ translation.priority.mt:
 # Type parameter &#39;&lt;typeparametername&gt;&#39; can only have one constraint that is a class
 A constraint list includes more than one class.  
   
- A constraint list on a type parameter can accept any number of interfaces but at most one class. A type argument supplied for that type parameter must inherit from that class, and [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] does not support multiple inheritance.  
+ A constraint list on a type parameter can accept any number of interfaces but at most one class. A type argument supplied for that type parameter must inherit from that class, and [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] does not support multiple inheritance.  
   
  **Error ID:** BC32047  
   

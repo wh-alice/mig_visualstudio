@@ -1,7 +1,7 @@
 ---
-title: "Test Area 5: Change Source Control"
+title: "Test Area 5: Change Source Control | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -49,7 +49,7 @@ This source-control plug-in test area covers changing the source control via the
  Toggles connected or offline state of the controlled solution, which is covered in Area 3. For more information, see [Test Area 3: Check Out/Undo Checkout](../extensibility/test-area-3--check-out-undo-checkout.md).  
   
 ## Command Menu Access  
- The following [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment menu path is used in the test cases.  
+ The following [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment menu path is used in the test cases.  
   
  Change Source Control:**File**, **Source Control**, **Change Source Control**.  
   

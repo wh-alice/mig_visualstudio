@@ -1,7 +1,7 @@
 ---
-title: "Contributing to the Automation Model"
+title: "Contributing to the Automation Model | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,9 +33,9 @@ translation.priority.mt:
 # Contributing to the Automation Model
 Visual Studio provides a set of automation interfaces for customizing the environment. The automation model is the object model that enables end users to create Visual Studio add-ins and extensions.  
   
- In addition, it is appropriate for you, as a VSPackage developer, to contribute to the automation model; by doing this, you enable end users of your VSPackage to create add-ins and generally provide a consistent user model experience when they use your VSPackage in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+ In addition, it is appropriate for you, as a VSPackage developer, to contribute to the automation model; by doing this, you enable end users of your VSPackage to create add-ins and generally provide a consistent user model experience when they use your VSPackage in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
- To make the end-user experience consistent, you can follow a set of guidelines as you design your VSPackage so that the automation model for your VSPackage follows the ideas in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+ To make the end-user experience consistent, you can follow a set of guidelines as you design your VSPackage so that the automation model for your VSPackage follows the ideas in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 ## In This Section  
  [Automation Model Overview](../extensibility/automation-model-overview.md)  

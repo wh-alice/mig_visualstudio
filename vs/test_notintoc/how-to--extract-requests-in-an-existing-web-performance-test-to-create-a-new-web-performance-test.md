@@ -1,11 +1,11 @@
 ---
-title: "How to: Extract Requests in an Existing Web Performance Test to Create a New Web Performance Test"
-ms.custom: na
+title: "How to: Extract Requests in an Existing Web Performance Test to Create a New Web Performance Test | Microsoft Docs"
+ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.test.web.dialog.extracttest"

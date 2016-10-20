@@ -1,7 +1,7 @@
 ---
-title: "How to: Limit Instrumentation to Specific DLLs"
+title: "How to: Limit Instrumentation to Specific DLLs | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,11 +32,11 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # How to: Limit Instrumentation to Specific DLLs
-By using the instrumentation profiling method, you can limit the collection of profiling data to one or more DLLs in an application. To profile one or more DLLs in an application, you create a performance session that includes the .dll files as targets. You can specify the DLLs that you want to profile as projects in a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] solution or as independent binary files.  
+By using the instrumentation profiling method, you can limit the collection of profiling data to one or more DLLs in an application. To profile one or more DLLs in an application, you create a performance session that includes the .dll files as targets. You can specify the DLLs that you want to profile as projects in a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution or as independent binary files.  
   
 ### To limit instrumentation to specific DLLs in a Visual Studio solution  
   
-1.  Open the solution that contains the DLL in [!INCLUDE[vsPreLong](../codequality/includes/vsprelong_md.md)].  
+1.  Open the solution that contains the DLL in [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)].  
   
 2.  On the **Analyze** menu, select **Launch Performance Wizard**.  
   
@@ -56,7 +56,7 @@ By using the instrumentation profiling method, you can limit the collection of p
   
 ### To specify specific DLLs to profile as independent binaries  
   
-1.  Open [!INCLUDE[vsPreLong](../codequality/includes/vsprelong_md.md)].  
+1.  Open [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)].  
   
 2.  On the **Analyze** menu, select **Launch Performance Wizard**.  
   

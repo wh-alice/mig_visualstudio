@@ -1,5 +1,5 @@
 ---
-title: "Validate code with layer diagrams"
+title: "Validate code with layer diagrams | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -107,13 +107,13 @@ To make sure that code doesn't conflict with its design, validate your code with
 2.  To view the source of each error, double-click the error in the **Error List** window.  
   
     > [!NOTE]
-    >  [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] might show a code map instead of the source of the error. This occurs when either the code has a dependency on an assembly that is not specified by the layer diagram, or the code is missing a dependency that is specified by the layer diagram. Review the code map or the code to determine whether the dependency should exist. For more information about code maps, see [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md).  
+    >  [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] might show a code map instead of the source of the error. This occurs when either the code has a dependency on an assembly that is not specified by the layer diagram, or the code is missing a dependency that is specified by the layer diagram. Review the code map or the code to determine whether the dependency should exist. For more information about code maps, see [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md).  
   
 3.  To manage errors, see [Manage validation errors](#ManageErrors).  
   
 #### To validate code at the command prompt  
   
-1.  Open the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] command prompt.  
+1.  Open the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] command prompt.  
   
 2.  Choose one of the following:  
   
@@ -150,7 +150,7 @@ To make sure that code doesn't conflict with its design, validate your code with
  For more information about validation errors, see [Understand and resolve layer validation errors](#UnderstandingValidationErrors).  
   
 ###  <a name="ManageErrors"></a> Manage validation errors  
- During the development process, you might want to suppress some of the reported conflicts during validation. For example, you might want to suppress errors that you are already addressing or that are not relevant to your particular scenario. When you suppress an error, it is a good practice to log a work item in [!INCLUDE[esprfound](../codequality/includes/esprfound_md.md)].  
+ During the development process, you might want to suppress some of the reported conflicts during validation. For example, you might want to suppress errors that you are already addressing or that are not relevant to your particular scenario. When you suppress an error, it is a good practice to log a work item in [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)].  
   
 > [!WARNING]
 >  You must already be connected to TFS Source Code Control (SCC) to create or link to a work item. If you try to open a connection to a different TFS SCC, Visual Studio closes the current solution automatically. Ensure that you are already connected to the appropriate SCC before attempting to create or link to a work item. In later releases of Visual Studio, the menu commands are not available if you are not connected to an SCC.  
@@ -203,7 +203,7 @@ To make sure that code doesn't conflict with its design, validate your code with
   
      `/p:ValidateArchitecture=true`  
   
- For more information about validation errors, see [Understand and resolve layer validation errors](#UnderstandingValidationErrors). For more information about [!INCLUDE[esprbuild](../codequality/includes/esprbuild_md.md)], see:  
+ For more information about validation errors, see [Understand and resolve layer validation errors](#UnderstandingValidationErrors). For more information about [!INCLUDE[esprbuild](../code-quality/includes/esprbuild_md.md)], see:  
   
 -   [Build the application](../Topic/Build%20the%20application.md)  
   

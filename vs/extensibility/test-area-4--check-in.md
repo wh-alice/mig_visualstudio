@@ -1,7 +1,7 @@
 ---
-title: "Test Area 4: Check In"
+title: "Test Area 4: Check In | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ translation.priority.mt:
 This source-control plug-in test area covers sending updated items to the version store via the **Check In** command.  
   
 ## Command Menu Access  
- The following [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment menu paths are used in the test cases.  
+ The following [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment menu paths are used in the test cases.  
   
 ##### Check In:  
  **File**, **Source Control**, **Check In**.  

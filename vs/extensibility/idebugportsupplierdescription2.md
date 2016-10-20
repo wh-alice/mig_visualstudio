@@ -1,7 +1,7 @@
 ---
-title: "IDebugPortSupplierDescription2"
+title: "IDebugPortSupplierDescription2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,7 +31,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # IDebugPortSupplierDescription2
-Enables the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] UI to display text inside the **Transport Information** section of the **Attach to Process** dialog box.  
+Enables the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] UI to display text inside the **Transport Information** section of the **Attach to Process** dialog box.  
   
 ## Syntax  
   

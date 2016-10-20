@@ -1,7 +1,7 @@
 ---
-title: "Automate system tests"
+title: "Automate system tests | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -53,7 +53,7 @@ In each sprint, you’ll want to focus your [manual test](../test/planning-manua
 |||  
 |-|-|  
 |[Automate a test case](../test/automate-a-test-case-in-microsoft-test-manager.md)|Associate the test case with a test method, create a lab environment, and specify where the built test method can be found.<br /><br /> Run automated test cases from Microsoft Test Manager in the same way as manual test cases.|  
-|[Use UI Automation To Test Your Code](../codequality/use-ui-automation-to-test-your-code.md)|Create a test method that simulates user actions by recording your manual test.|  
+|[Use UI Automation To Test Your Code](../code-quality/use-ui-automation-to-test-your-code.md)|Create a test method that simulates user actions by recording your manual test.|  
 |[Automated build-deploy-test workflows](../test/automated-build-deploy-test-workflows.md)|As part of a server build, automatically deploy the code to a lab environment, run tests, and collect diagnostic data.|  
 |[Creating and using a network isolated environment](../test/creating-and-using-a-network-isolated-environment.md)|To allow you to run many tests of a system in parallel, you can define virtual lab environments that have the same internal addresses but are not visible to each other.|  
 |[How to run automated tests on multiple computers at the same time](../test/how-to-run-automated-tests-on-multiple-computers-at-the-same-time.md)||

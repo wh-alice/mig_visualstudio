@@ -1,7 +1,7 @@
 ---
-title: "Add commands and gestures to layer diagrams"
+title: "Add commands and gestures to layer diagrams | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -54,7 +54,7 @@ You can define context menu commands and gesture handlers on layer diagrams in V
   
 3.  To test the extension, press **CTRL+F5** or **F5**.  
   
-     An experimental instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] starts. In this instance, create a layer diagram. Your command or gesture extension should work in this diagram.  
+     An experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] starts. In this instance, create a layer diagram. Your command or gesture extension should work in this diagram.  
   
 4.  Close the experimental instance and modify the sample code. For more information, see [Navigate and update layer models in program code](../modeling/navigate-and-update-layer-models-in-program-code.md).  
   
@@ -64,7 +64,7 @@ You can define context menu commands and gesture handlers on layer diagrams in V
   
      [Defining a Gesture Handler](#gesture)  
   
-6.  To install the extension in the main instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], or on another computer, find the **.vsix** file in **bin\\\***. Copy it to the computer where you want to install it, and then double-click it. To uninstall it, use **Extensions and Updates** on the **Tools** menu.  
+6.  To install the extension in the main instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], or on another computer, find the **.vsix** file in **bin\\\***. Copy it to the computer where you want to install it, and then double-click it. To uninstall it, use **Extensions and Updates** on the **Tools** menu.  
   
 ## Adding a Command or Gesture to a separate VSIX  
  If you want to create one VSIX that contains commands, layer validators, and other extensions, we recommend that you create one project to define the VSIX, and separate projects for the handlers. For information about other types of modeling extension, see [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md).  
@@ -113,9 +113,9 @@ You can define context menu commands and gesture handlers on layer diagrams in V
   
      See also [Navigate and update layer models in program code](../modeling/navigate-and-update-layer-models-in-program-code.md).  
   
-2.  To test the feature, press CTRL+F5 or F5. An experimental instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] opens. In this instance, create or open a layer diagram.  
+2.  To test the feature, press CTRL+F5 or F5. An experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] opens. In this instance, create or open a layer diagram.  
   
-3.  To install the VSIX in the main instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], or on another computer, find the **.vsix** file in the **bin** directory of the VSIX project. Copy it to the computer where you want to install the VSIX. Double-click the VSIX file in Windows Explorer (File Explorer in Windows 8).  
+3.  To install the VSIX in the main instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], or on another computer, find the **.vsix** file in the **bin** directory of the VSIX project. Copy it to the computer where you want to install the VSIX. Double-click the VSIX file in Windows Explorer (File Explorer in Windows 8).  
   
      To uninstall it, use **Extensions and Updates** on the **Tools** menu.  
   

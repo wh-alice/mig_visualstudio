@@ -1,7 +1,7 @@
 ---
-title: "Collecting Additional Performance Data"
+title: "Collecting Additional Performance Data | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -29,7 +29,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Collecting Additional Performance Data
-In addition to the data that you collect by using a profiling method, [!INCLUDE[vsPreShort](../codequality/includes/vspreshort_md.md)] Profiling Tools enable you to record and view additional data.  
+In addition to the data that you collect by using a profiling method, [!INCLUDE[vsPreShort](../code-quality/includes/vspreshort_md.md)] Profiling Tools enable you to record and view additional data.  
   
 ## Common Tasks  
   

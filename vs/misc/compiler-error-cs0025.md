@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0025"
+title: "Compiler Error CS0025 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -40,4 +40,4 @@ Standard library file 'file' could not be found
   
  A file that is needed by the compiler was not found. Check that the path is correct and that the file exists.  
   
- If the file is a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] system file, you may need to repair your [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] installation, or reinstall it completely.
+ If the file is a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] system file, you may need to repair your [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] installation, or reinstall it completely.

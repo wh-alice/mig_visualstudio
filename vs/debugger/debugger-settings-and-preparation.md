@@ -1,7 +1,7 @@
 ---
-title: "Debugger Settings and Preparation"
+title: "Debugger Settings and Preparation | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -40,7 +40,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Debugger Settings and Preparation
-This section describes the debugger-related property settings, and the preparation needed in order to debug your program with the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] debugger. If you create your program in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] using the project templates, these settings are set correctly for you in the Debug configuration.  
+This section describes the debugger-related property settings, and the preparation needed in order to debug your program with the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger. If you create your program in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] using the project templates, these settings are set correctly for you in the Debug configuration.  
   
  For more information, see [How to: Set Debug and Release Configurations](../debugger/how-to--set-debug-and-release-configurations.md).  
   

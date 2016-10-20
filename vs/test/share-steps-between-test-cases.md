@@ -1,5 +1,5 @@
 ---
-title: "Share steps between test cases"
+title: "Share steps between test cases | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"

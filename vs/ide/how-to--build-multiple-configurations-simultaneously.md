@@ -1,7 +1,7 @@
 ---
-title: "How to: Build Multiple Configurations Simultaneously"
+title: "How to: Build Multiple Configurations Simultaneously | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,7 +31,7 @@ translation.priority.ht:
 # How to: Build Multiple Configurations Simultaneously
 You can build most types of projects with multiple, or even all, of their build configurations at the same time by using the **Batch Build** dialog box. However, you can't build the following types of projects in multiple build configurations at the same time:  
   
-1.  [!INCLUDE[win8_appname_long](../codequality/includes/win8_appname_long_md.md)] apps built for Windows using JavaScript.  
+1.  [!INCLUDE[win8_appname_long](../code-quality/includes/win8_appname_long_md.md)] apps built for Windows using JavaScript.  
   
 2.  All Visual Basic projects.  
   

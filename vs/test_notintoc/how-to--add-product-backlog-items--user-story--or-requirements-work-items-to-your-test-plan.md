@@ -1,11 +1,11 @@
 ---
-title: "How to: Add Product Backlog Items, User Story, or Requirements Work Items to Your Test Plan"
-ms.custom: na
+title: "How to: Add Product Backlog Items, User Story, or Requirements Work Items to Your Test Plan | Microsoft Docs"
+ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "test plans, adding requirements"

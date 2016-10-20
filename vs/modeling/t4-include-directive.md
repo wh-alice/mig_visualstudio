@@ -1,7 +1,7 @@
 ---
-title: "T4 Include Directive"
+title: "T4 Include Directive | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -27,7 +27,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # T4 Include Directive
-In a text template in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], you can include text from another file by using an `<#@include#>` directive. You can place `include` directives anywhere in a text template before the first class feature block `<#+ ... #>`. The included files can also contain `include` directives, and other directives. This allows you to share template code and boilerplate text between templates.  
+In a text template in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], you can include text from another file by using an `<#@include#>` directive. You can place `include` directives anywhere in a text template before the first class feature block `<#+ ... #>`. The included files can also contain `include` directives, and other directives. This allows you to share template code and boilerplate text between templates.  
   
 ## Using Include Directives  
   
@@ -37,7 +37,7 @@ In a text template in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], 
   
 -   `filePath` can be absolute, or relative to the current template file.  
   
-     In addition, specific [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] extensions can specify their own directories to search for include files. For example, when you have installed the Visualization and Modeling SDK (DSL Tools), the following folder is added to the include list: `Program Files\Microsoft Visual Studio 10.0\Common7\IDE\Extensions\Microsoft\DSL SDK\DSL Designer\11.0\TextTemplates`.  
+     In addition, specific [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] extensions can specify their own directories to search for include files. For example, when you have installed the Visualization and Modeling SDK (DSL Tools), the following folder is added to the include list: `Program Files\Microsoft Visual Studio 10.0\Common7\IDE\Extensions\Microsoft\DSL SDK\DSL Designer\11.0\TextTemplates`.  
   
      These additional include folders might depend on the file extension of the including file. For example, the DSL Tools include folder is only accessible to including files that have the file extension `.tt`  
   
@@ -49,7 +49,7 @@ In a text template in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], 
   
 -   The name of an included file does not have to use the extension `".tt"`.  
   
-     You might want to use another extension such as `".t4"` for included files. This is because, when you add a `.tt` file to a project, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] automatically sets its **Custom Tool** property to `TextTemplatingFileGenerator`. You do not usually want included files to be transformed individually.  
+     You might want to use another extension such as `".t4"` for included files. This is because, when you add a `.tt` file to a project, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] automatically sets its **Custom Tool** property to `TextTemplatingFileGenerator`. You do not usually want included files to be transformed individually.  
   
      On the other hand, you should be aware that in some cases, the file extension affects which additional folders will be searched for include files. This might be important when you have an included file that includes other files.  
   

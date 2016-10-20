@@ -1,7 +1,7 @@
 ---
-title: "Creating a Basic Project System, Part 2"
+title: "Creating a Basic Project System, Part 2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -57,7 +57,7 @@ The first walkthrough in this series, [Creating a Basic Project System, Part 1](
   
  By using a Visual Studio template (.vstemplate file) instead of a basic project template, you can control how the template appears in the **New Project** dialog box and how template parameters are substituted.  A .vstemplate file is an XML file that describes how source files are to be included when a project is created by using the project system template. The project system itself is built by collecting the .vstemplate file and the source files in a .zip file, and deployed by copying the .zip file to a location that is known to Visual Studio. This process is explained in more detail later in this walkthrough.  
   
-1.  In [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], open the SimpleProject solution that you created by following [Creating a Basic Project System, Part 1](../extensibility/creating-a-basic-project-system--part-1.md).  
+1.  In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], open the SimpleProject solution that you created by following [Creating a Basic Project System, Part 1](../extensibility/creating-a-basic-project-system--part-1.md).  
   
 2.  In the SimpleProjectPackage.cs file, find the the ProvideProjectFactory attribute. Replace the second parameter (the project name) with null, and the fourth parameter (the path to the project template folder) with ".\\\NullPath", as follows.  
   
@@ -197,7 +197,7 @@ ZipProjects:
   
 1.  Reset the Visual Studio SDK experimental instance.  
   
-     On [!INCLUDE[win7](../codequality/includes/win7_md.md)]: On the Start menu, find the **Microsoft Visual Studio/Microsoft Visual Studio SDK/Tools** folder, and then select **Reset the Microsoft Visual Studio Experimental instance**.  
+     On [!INCLUDE[win7](../code-quality/includes/win7_md.md)]: On the Start menu, find the **Microsoft Visual Studio/Microsoft Visual Studio SDK/Tools** folder, and then select **Reset the Microsoft Visual Studio Experimental instance**.  
   
      On later versions of Windows: On the Start screen, type **Reset the Microsoft Visual Studio \<version> Experimental Instance**.  
   

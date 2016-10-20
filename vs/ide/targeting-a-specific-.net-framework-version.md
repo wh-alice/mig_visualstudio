@@ -1,7 +1,7 @@
 ---
-title: "Targeting a Specific .NET Framework Version"
+title: "Targeting a Specific .NET Framework Version | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,24 +36,24 @@ translation.priority.ht:
 # Targeting a Specific .NET Framework Version
 In Visual Studio, you can specify the version or profile of the .NET Framework that you want your project to target. For an application to run on another computer, the Framework version that the application targets must be compatible with the Framework version that is installed on the computer.  
   
- This section contains topics that describe how to target specific versions of the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] in your projects.  
+ This section contains topics that describe how to target specific versions of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] in your projects.  
   
 ## In This Section  
  [Visual Studio Multi-Targeting Overview](../ide/visual-studio-multi-targeting-overview.md)  
  Provides an overview of the multi-targeting features in Visual Studio.  
   
  [How to: Target a Version of the .NET Framework](../ide/how-to--target-a-version-of-the-.net-framework.md)  
- Details how to specify a particular [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] for your Visual Basic, Visual C# or Visual F# project.  
+ Details how to specify a particular [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] for your Visual Basic, Visual C# or Visual F# project.  
   
 ## Related Sections  
  [.NET Framework Multi-Targeting for ASP.NET Web Projects](../Topic/.NET%20Framework%20Multi-Targeting%20for%20ASP.NET%20Web%20Projects.md)  
  Explains how to use this version of Visual Studio to develop Web applications that run under earlier versions of the .NET Framework.  
   
  [Application Page, Project Designer (C#)](../reference/application-page--project-designer--csharp-.md)  
- Describes the **Target Framework** control in the Project Designer for [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] projects.  
+ Describes the **Target Framework** control in the Project Designer for [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] projects.  
   
  [Application Page, Project Designer (Visual Basic)](../reference/application-page--project-designer--visual-basic-.md)  
- Describes the **Target Framework** control in the Project Designer for [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] projects.  
+ Describes the **Target Framework** control in the Project Designer for [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] projects.  
   
  [How to: Modify the Target Framework and Platform Toolset](../Topic/How%20to:%20Modify%20the%20Target%20Framework%20and%20Platform%20Toolset.md)  
  Describes how to change settings for Visual C++ projects to target different versions of the .NET Framework and to use different platform toolsets.

@@ -1,7 +1,7 @@
 ---
-title: "IDiaSymbol::get_samplerSlot"
+title: "IDiaSymbol::get_samplerSlot | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

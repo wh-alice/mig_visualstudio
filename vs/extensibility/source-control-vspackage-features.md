@@ -1,7 +1,7 @@
 ---
-title: "Source Control VSPackage Features"
+title: "Source Control VSPackage Features | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -48,4 +48,4 @@ This section describes the various features of a source control VSPackage. It ou
   
 ## Related Sections  
  [Creating a Source Control VSPackage](../extensibility/creating-a-source-control-vspackage.md)  
- Discusses how to create a source control VSPackage that not only supplies source control functionality but can be used to customize the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] source control UI.
+ Discusses how to create a source control VSPackage that not only supplies source control functionality but can be used to customize the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] source control UI.

@@ -1,7 +1,7 @@
 ---
-title: "Exposing Events in the Visual Studio SDK"
+title: "Exposing Events in the Visual Studio SDK | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,7 +32,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Exposing Events in the Visual Studio SDK
-[!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] lets you source events by using automation. We recommend that you source events for projects and project items.  
+[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] lets you source events by using automation. We recommend that you source events for projects and project items.  
   
  Events are retrieved by automation consumers from the <xref:EnvDTE.DTEClass.Events*> object or <xref:EnvDTE.DTEClass.GetObject*> ("EventObjectName"). The environment calls `IDispatch::Invoke` by using the `DISPATCH_METHOD` or `DISPATCH_PROPERTYGET` flags to return an event.  
   

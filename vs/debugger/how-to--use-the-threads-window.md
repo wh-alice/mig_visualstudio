@@ -1,7 +1,7 @@
 ---
-title: "How to: Use the Threads Window"
+title: "How to: Use the Threads Window | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -120,7 +120,7 @@ In the **Threads** window, you can examine and work with threads in the applicat
 -   In the toolbar at the top of the **Threads** window, click **Expand Groups** or **Collapse Groups**.  
   
 ## Searching for Specific Threads  
- In [!INCLUDE[vs_dev11_long](../codequality/includes/vs_dev11_long_md.md)], you can search for threads that match a specified string. When you search for threads in the **Threads** window, the window displays all threads that match the search string in any column. That information includes the thread location that appears at the top of the call stack in the **Location** column. By default, however, the full call stack is not searched.  
+ In [!INCLUDE[vs_dev11_long](../code-quality/includes/vs_dev11_long_md.md)], you can search for threads that match a specified string. When you search for threads in the **Threads** window, the window displays all threads that match the search string in any column. That information includes the thread location that appears at the top of the call stack in the **Location** column. By default, however, the full call stack is not searched.  
   
 #### To search for specific threads  
   

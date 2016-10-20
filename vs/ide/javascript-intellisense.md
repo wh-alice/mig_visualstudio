@@ -1,7 +1,7 @@
 ---
-title: "JavaScript IntelliSense"
+title: "JavaScript IntelliSense | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -70,7 +70,7 @@ IntelliSense helps you write code faster and with fewer errors by providing info
   
 -   [JavaScript Validation](#Validation)  
   
- For more information about the IntelliSense functionality of [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)], see [Using IntelliSense](../ide/using-intellisense.md).  
+ For more information about the IntelliSense functionality of [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)], see [Using IntelliSense](../ide/using-intellisense.md).  
   
 ##  <a name="DeterminingIntelliSenseContext"></a> Determining IntelliSense Context  
  JavaScript IntelliSense provides coding choices based on all script that is relevant to your current script context. This includes scripting elements in the current file. It also includes any code that is referenced directly or indirectly from your script, such as script file references, assembly script references, service references, and page-associated references.  
@@ -135,7 +135,7 @@ IntelliSense helps you write code faster and with fewer errors by providing info
  JavaScript IntelliSense provides programming references for intrinsic objects such as `Array`, `String`, `Math`, `Date`, and `Number`. For more information about intrinsic objects, see [Intrinsic Objects](../Topic/Intrinsic%20Objects%20\(JavaScript\).md).  
   
 ###  <a name="UserDefined"></a> User-defined Variables, Functions, and Objects  
- When you change a JavaScript file, [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)] scans opened and referenced documents to determine all available code resources. This includes the variables, functions, and objects that you have created. These resources are then available to JavaScript IntelliSense.  
+ When you change a JavaScript file, [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] scans opened and referenced documents to determine all available code resources. This includes the variables, functions, and objects that you have created. These resources are then available to JavaScript IntelliSense.  
   
  For more information about user-defined variables, functions, and objects, see [Creating Your Own Objects](http://go.microsoft.com/fwlink/?LinkId=108671) on the MSDN website.  
   
@@ -170,7 +170,7 @@ IntelliSense helps you write code faster and with fewer errors by providing info
  IntelliSense also supports script files that are embedded as resources in an assembly in ASP.NET AJAX Web applications. For more information about embedded script resources, see [Walkthrough: Embedding a JavaScript File as a Resource in an Assembly](../Topic/Walkthrough:%20Embedding%20a%20JavaScript%20File%20as%20a%20Resource%20in%20an%20Assembly.md).  
   
 ####  <a name="ReferenceDirectives"></a> Reference Directives  
- A `reference` directive enables [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)] to establish a relationship between the script you are currently editing and other scripts. The `reference` directive lets you include a script file in the scripting context of the current script file. This enables IntelliSense to reference externally defined functions, types, and fields as you code.  
+ A `reference` directive enables [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] to establish a relationship between the script you are currently editing and other scripts. The `reference` directive lets you include a script file in the scripting context of the current script file. This enables IntelliSense to reference externally defined functions, types, and fields as you code.  
   
  You create a `reference` directive in the form of an XML comment. The directive must be declared earlier in the file than any script. A `reference` directive can include a disk-based script reference, an assembly-based script reference, a service-based script reference, or a page-based script reference.  
   
@@ -232,7 +232,7 @@ IntelliSense helps you write code faster and with fewer errors by providing info
 ####  <a name="ReferenceGroups"></a> Reference Groups  
  You can use predefined reference groups to specify that particular IntelliSense .js files are in scope for different JavaScript projects. The following reference group types are available:  
   
--   Implicit (Windows), for [!INCLUDE[win8_appname_long](../codequality/includes/win8_appname_long_md.md)] apps using JavaScript. Files included in this group are in scope for every .js file opened in the Code Editor for the project of the specified type.  
+-   Implicit (Windows), for [!INCLUDE[win8_appname_long](../code-quality/includes/win8_appname_long_md.md)] apps using JavaScript. Files included in this group are in scope for every .js file opened in the Code Editor for the project of the specified type.  
   
 -   Implicit (Web), for HTML5 projects. Files included in this group are in scope for every .js file opened in the Code Editor for these project types.  
   
@@ -279,7 +279,7 @@ IntelliSense helps you write code faster and with fewer errors by providing info
  The JavaScript language service provides objects and functions that enable you to modify the IntelliSense experience for developers who use third-party libraries. These features are especially useful when the default language service isn't able to provide all the information that you want to provide to customers. For more information, see [Extending JavaScript IntelliSense](../ide/extending-javascript-intellisense.md).  
   
 ##  <a name="Validation"></a> JavaScript Validation  
- JavaScript scripting validation occurs constantly in the background. When [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)] detects syntax errors in the JavaScript code, feedback is provided in the following ways:  
+ JavaScript scripting validation occurs constantly in the background. When [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] detects syntax errors in the JavaScript code, feedback is provided in the following ways:  
   
 -   Underlined elements in the editor. Wavy red underlines indicate errors. If you hold the mouse pointer over the error, a tooltip displays the error description.  
   

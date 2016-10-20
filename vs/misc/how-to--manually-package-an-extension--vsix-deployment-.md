@@ -1,7 +1,7 @@
 ---
-title: "How to: Manually Package an Extension (VSIX Deployment)"
+title: "How to: Manually Package an Extension (VSIX Deployment) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -29,9 +29,9 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # How to: Manually Package an Extension (VSIX Deployment)
-You can create a VSIX package to wrap a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] extension for deployment. There are three ways to create the package:  
+You can create a VSIX package to wrap a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] extension for deployment. There are three ways to create the package:  
   
--   Create a VSIX package project by using one of the extensibility templates that are included in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] SDK. This is the easiest option for most scenarios.  
+-   Create a VSIX package project by using one of the extensibility templates that are included in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] SDK. This is the easiest option for most scenarios.  
   
 -   Wrap the output of your extension project in an empty [VSIX Project](../extensibility/vsix-project-template.md). We recommend this option for templates, unsupported assemblies, and custom types.  
   

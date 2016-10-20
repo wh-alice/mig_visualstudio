@@ -1,7 +1,7 @@
 ---
-title: "Security, Versioning, and Manifest Issues in ClickOnce Deployments"
+title: "Security, Versioning, and Manifest Issues in ClickOnce Deployments | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -51,7 +51,7 @@ There are a variety of issues with [!INCLUDE[ndptecclick](../deployment/includes
   
  Due to the risk of exposing applications to security elevation attacks, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications cannot request permission elevation if UAC is enabled for the client. Any [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application that attempts to set its `requestedExecutionLevel` attribute to `requireAdministrator` or `highestAvailable` will not install on [!INCLUDE[windowsver](../deployment/includes/windowsver_md.md)].  
   
- In some cases, your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application may attempt to run with administrator permissions because of installer detection logic on [!INCLUDE[windowsver](../deployment/includes/windowsver_md.md)]. In this case, you can set the `requestedExecutionLevel` attribute in the application manifest to `asInvoker`. This will cause the application itself to run without elevation. [!INCLUDE[vs_orcas_long](../codequality/includes/vs_orcas_long_md.md)] automatically adds this attribute to all application manifests.  
+ In some cases, your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application may attempt to run with administrator permissions because of installer detection logic on [!INCLUDE[windowsver](../deployment/includes/windowsver_md.md)]. In this case, you can set the `requestedExecutionLevel` attribute in the application manifest to `asInvoker`. This will cause the application itself to run without elevation. [!INCLUDE[vs_orcas_long](../code-quality/includes/vs_orcas_long_md.md)] automatically adds this attribute to all application manifests.  
   
  If you are developing an application that requires administrator permissions for the entire lifetime of the application, you should consider deploying the application by using Windows Installer (MSI) technology instead. For more information, see [Windows Installer Basics](../extensibility/windows-installer-basics.md).  
   
@@ -65,10 +65,10 @@ There are a variety of issues with [!INCLUDE[ndptecclick](../deployment/includes
   
  For example, say that you have a strong-named assembly in its own project with version 1.0.0.0. After compiling the assembly, you add it as a reference to the project that contains your main application. If you update the assembly, increment the version to 1.0.0.1, and try to deploy it without also recompiling the application, the application will not be able to load the assembly at run time.  
   
- This error can occur only if you are editing your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] manifests manually; you should not experience this error if you generate your deployment using [!INCLUDE[vsprvslong](../codequality/includes/vsprvslong_md.md)].  
+ This error can occur only if you are editing your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] manifests manually; you should not experience this error if you generate your deployment using [!INCLUDE[vsprvslong](../code-quality/includes/vsprvslong_md.md)].  
   
 ## Specifying Individual .NET Framework Assemblies in the Manifest  
- Your application will fail to load if you have manually edited a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment to reference an older version of a [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] assembly. For example, if you added a reference to the System.Net assembly for a version of the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] prior to the version specified in the manifest, then an error would occur. In general, you should not attempt to specify references to individual [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] assemblies, as the version of the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] against which your application runs is specified as a dependency in the application manifest.  
+ Your application will fail to load if you have manually edited a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment to reference an older version of a [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] assembly. For example, if you added a reference to the System.Net assembly for a version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] prior to the version specified in the manifest, then an error would occur. In general, you should not attempt to specify references to individual [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] assemblies, as the version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] against which your application runs is specified as a dependency in the application manifest.  
   
 ## Manifest Parsing Issues  
  The manifest files that are used by [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] are XML files, and they must be both well-formed and valid: they must obey the XML syntax rules and only use elements and attributes defined in the relevant XML schema.  

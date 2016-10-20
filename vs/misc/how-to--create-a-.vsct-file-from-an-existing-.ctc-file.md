@@ -1,7 +1,7 @@
 ---
-title: "How to: Create a .Vsct File from an Existing .Ctc File"
+title: "How to: Create a .Vsct File from an Existing .Ctc File | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,7 +31,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # How to: Create a .Vsct File from an Existing .Ctc File
-You can create an XML-based .vsct file from an existing command table .ctc source file. By doing this, you can take advantage of the new XML-based [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] command table (VSCT) compiler format.  
+You can create an XML-based .vsct file from an existing command table .ctc source file. By doing this, you can take advantage of the new XML-based [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] command table (VSCT) compiler format.  
   
 ### To create a .vsct file from a .ctc file  
   
@@ -43,7 +43,7 @@ You can create an XML-based .vsct file from an existing command table .ctc sourc
   
 4.  Place the files in the same directory.  
   
-5.  In the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Command Prompt window, navigate to the directory.  
+5.  In the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Command Prompt window, navigate to the directory.  
   
 6.  Type  
   

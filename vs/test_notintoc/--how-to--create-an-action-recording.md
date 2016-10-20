@@ -1,5 +1,5 @@
 ---
-title: "- How to: Create an Action Recording"
+title: "- How to: Create an Action Recording | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/01/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -30,7 +30,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # - How to: Create an Action Recording
-In [!INCLUDE[mtrlong](../codequality/includes/mtrlong_md.md)], you have the option of recording a manual test so that it can be played back later or reused in other tests. You do this by creating an *action recording*. An action recording is useful in manual tests that you need to run multiple times and for recycling common steps in different manual tests that contain shared steps. For more information, see [-How to: Create an Action Recording for Shared Steps](../test_notintoc/-how-to--create-an-action-recording-for-shared-steps.md).  
+In [!INCLUDE[mtrlong](../code-quality/includes/mtrlong_md.md)], you have the option of recording a manual test so that it can be played back later or reused in other tests. You do this by creating an *action recording*. An action recording is useful in manual tests that you need to run multiple times and for recycling common steps in different manual tests that contain shared steps. For more information, see [-How to: Create an Action Recording for Shared Steps](../test_notintoc/-how-to--create-an-action-recording-for-shared-steps.md).  
   
  After you create the action recording, you can invoke it during a test. When an action recording runs, it automatically plays back the steps that you recorded. For more information, see [- How to: Play Back an Action Recording](../test_notintoc/--how-to--play-back-an-action-recording.md).  
   
@@ -51,10 +51,10 @@ In [!INCLUDE[mtrlong](../codequality/includes/mtrlong_md.md)], you have the opti
   
 #### To load a test into Test Runner  
   
-1.  Open [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)].  
+1.  Open [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)].  
   
     > [!NOTE]
-    >  To display the [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] window, choose Start, All Programs, Microsoft Visual Studio, Microsoft Test Manager.  
+    >  To display the [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] window, choose Start, All Programs, Microsoft Visual Studio, Microsoft Test Manager.  
   
 2.  On the center group switcher, choose the down-arrow and then choose **Testing Center**.  
   
@@ -74,13 +74,13 @@ In [!INCLUDE[mtrlong](../codequality/includes/mtrlong_md.md)], you have the opti
     >  Select **Run with options** to specify a build to run the test on, or to override the test settings and environment settings for the test plan. For more information, see [How to: Override Settings in Your Test Plan for Test Runs](http://msdn.microsoft.com/en-us/832576d2-44bd-4237-8cde-612349a3ab50).  
   
 ## Record an Action Recording  
- You must first load the test that you want to record into [!INCLUDE[mtrlong](../codequality/includes/mtrlong_md.md)]. For more information, see the previous procedure, "Load a Test into Test Runner."  
+ You must first load the test that you want to record into [!INCLUDE[mtrlong](../code-quality/includes/mtrlong_md.md)]. For more information, see the previous procedure, "Load a Test into Test Runner."  
   
  ![Creating an action recording in Test Runner](../test_notintoc/media/how_actrecord.png "How_ActRecord")  
   
 #### To record an action recording  
   
-1.  Upon loading a test from [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] into [!INCLUDE[mtrshort](../test_notintoc/includes/mtrshort_md.md)], you are prompted to **Start Test** with the option **Create action recording**. Select **Create action recording** and click **Start Test**.  
+1.  Upon loading a test from [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] into [!INCLUDE[mtrshort](../test_notintoc/includes/mtrshort_md.md)], you are prompted to **Start Test** with the option **Create action recording**. Select **Create action recording** and click **Start Test**.  
   
     > [!NOTE]
     >  If the test contains an existing action recording, you are prompted with the option **Overwrite existing action recording**. Select this option to create a new recording that replaces the previous action recording, and then choose **Start Test**.  
@@ -103,7 +103,7 @@ In [!INCLUDE[mtrlong](../codequality/includes/mtrlong_md.md)], you have the opti
   
 3.  (Optional) Recorded actions can be deleted at any step while the test is running. To delete a recorded action, follow these steps:  
   
-    1.  Choose the up-arrow displayed in the bottom panel of [!INCLUDE[mtrlong](../codequality/includes/mtrlong_md.md)].  
+    1.  Choose the up-arrow displayed in the bottom panel of [!INCLUDE[mtrlong](../code-quality/includes/mtrlong_md.md)].  
   
     2.  All the actions which took place up to this step are displayed.  
   
@@ -113,9 +113,9 @@ In [!INCLUDE[mtrlong](../codequality/includes/mtrlong_md.md)], you have the opti
   
 5.  In the toolbar at the top of [!INCLUDE[mtrshort](../test_notintoc/includes/mtrshort_md.md)], choose one of the following options:  
   
-    -   Choose **Save and Close** to save your test results to the [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] and close [!INCLUDE[mtrshort](../test_notintoc/includes/mtrshort_md.md)].  
+    -   Choose **Save and Close** to save your test results to the [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] and close [!INCLUDE[mtrshort](../test_notintoc/includes/mtrshort_md.md)].  
   
-    -   Choose **Save** to save the test results to the [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)].  
+    -   Choose **Save** to save the test results to the [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)].  
   
     -   Choose **Close** to close [!INCLUDE[mtrshort](../test_notintoc/includes/mtrshort_md.md)] and not save the test results.  
   
@@ -127,7 +127,7 @@ In [!INCLUDE[mtrlong](../codequality/includes/mtrlong_md.md)], you have the opti
 ## See Also  
  [Reviewing Test Results in Microsoft Test Manager](http://msdn.microsoft.com/en-us/9fb3e429-78df-4fe2-89ed-0ad1db0738f4)   
  [- How to: Play Back an Action Recording](../test_notintoc/--how-to--play-back-an-action-recording.md)   
- [How to: Include Recordings of the Screen and Voice During Tests Using Test Settings](../test/2cefe8c2-430a-4cb4-bbe0-f3edb2e5bc03.md)   
+ [How to: Include Recordings of the Screen and Voice During Tests Using Test Settings](../test/how-to--include-recordings-of-the-screen-and-voice-during-tests-using-test-settings.md)   
  [-How to: Create an Action Recording for Shared Steps](../test_notintoc/-how-to--create-an-action-recording-for-shared-steps.md)   
  [Record and play back manual tests](../test/record-and-play-back-manual-tests.md)   
- [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../codequality/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
+ [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../code-quality/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)

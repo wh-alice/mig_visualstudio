@@ -1,7 +1,7 @@
 ---
-title: "How to: Create a hyperlink to view test results from an email"
+title: "How to: Create a hyperlink to view test results from an email | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -27,16 +27,16 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Create a hyperlink to view test results from an email
-If you are using [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] to run your tests, you might want to send out a status e-mail with a hyperlink to the latest test results. You can construct a hyperlink with a URL that contains the necessary information about your [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] and team project and the ID of your test run. This way, the test results can be accessed immediately. You will not have to search for them in [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)].  
+If you are using [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] to run your tests, you might want to send out a status e-mail with a hyperlink to the latest test results. You can construct a hyperlink with a URL that contains the necessary information about your [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] and team project and the ID of your test run. This way, the test results can be accessed immediately. You will not have to search for them in [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)].  
   
 > [!NOTE]
->  You must have [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] installed on the computer that you use to access this URL.  
+>  You must have [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] installed on the computer that you use to access this URL.  
   
 ### To Create a Hyperlink to View Test Results From an Email  
   
 1.  To create a hyperlink, you will need the following information about your team project:  
   
-    -   The name of your [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)]  
+    -   The name of your [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)]  
   
     -   The name of your team project collection  
   

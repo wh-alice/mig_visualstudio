@@ -1,7 +1,7 @@
 ---
-title: "Registering Services"
+title: "Registering Services | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,11 +31,11 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Registering Services
-To support on-demand loading, a service provider must register its global services with [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+To support on-demand loading, a service provider must register its global services with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
- During development, managed service providers register services and service overrides by adding attributes to the source code for packages, and then building the packages in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] IDE. This runs the RegPkg.exe utility on the resulting assembly, registering the package and preparing it for deployment. For more information, see [How to: Register a Service](../misc/how-to--register-a-service.md).  
+ During development, managed service providers register services and service overrides by adding attributes to the source code for packages, and then building the packages in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE. This runs the RegPkg.exe utility on the resulting assembly, registering the package and preparing it for deployment. For more information, see [How to: Register a Service](../misc/how-to--register-a-service.md).  
   
- Unmanaged service providers must register the services they provide with [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] in the services section or the service overrides section of the system registry. The following .reg file fragment shows how the service, SVsTextManager, might be registered:  
+ Unmanaged service providers must register the services they provide with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] in the services section or the service overrides section of the system registry. The following .reg file fragment shows how the service, SVsTextManager, might be registered:  
   
 ```  
 [HKEY_LOCAL_MACHINE\Software\Microsoft\VisualStudio\<version number>\Services\{F5E7E71D-1401-11d1-883B-0000F87579D2}]  
@@ -43,7 +43,7 @@ To support on-demand loading, a service provider must register its global servic
 "Name"="SVsTextManager"  
 ```  
   
- In the example above, version number is the version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], such as 7.1 or 8.0, the key {F5E7E71D-1401-11d1-883B-0000F87579D2} is the service identifier (SID) of the service, SVsTextManager, and the default value {F5E7E720-1401-11d1-883B-0000F87579D2} is the package GUID of the text manager VSPackage, which provides the service.  
+ In the example above, version number is the version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], such as 7.1 or 8.0, the key {F5E7E71D-1401-11d1-883B-0000F87579D2} is the service identifier (SID) of the service, SVsTextManager, and the default value {F5E7E720-1401-11d1-883B-0000F87579D2} is the package GUID of the text manager VSPackage, which provides the service.  
   
 ## Remote Services and Background Threads  
  Services that you provide are not automatically available remotely or to background threads. To make them available, you must build and register a type library.  

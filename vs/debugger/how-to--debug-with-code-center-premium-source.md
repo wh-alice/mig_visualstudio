@@ -1,7 +1,7 @@
 ---
-title: "How to: Debug with Code Center Premium Source"
+title: "How to: Debug with Code Center Premium Source | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -37,7 +37,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Debug with Code Center Premium Source
-With the [!INCLUDE[vs_dev11_long](../codequality/includes/vs_dev11_long_md.md)] debugger, you can debug secure shared source from Microsoft MSDN Code Center Premium.  
+With the [!INCLUDE[vs_dev11_long](../code-quality/includes/vs_dev11_long_md.md)] debugger, you can debug secure shared source from Microsoft MSDN Code Center Premium.  
   
  This topic explains how to set up and debug Code Center Premium source code in Visual Studio.  
   
@@ -80,11 +80,11 @@ With the [!INCLUDE[vs_dev11_long](../codequality/includes/vs_dev11_long_md.md)] 
   
 10. In the **Cache symbols from symbol servers in this directory** box, enter a location such as `C:\symbols` where Code Center Premium can cache the symbols. Caching symbols can significantly improve performance during debugging.  
   
-     If you experience difficulty debugging source code with [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] after you complete this procedure, check your cache location for previously cached and outdated symbol files. Remove the outdated symbol files.  
+     If you experience difficulty debugging source code with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] after you complete this procedure, check your cache location for previously cached and outdated symbol files. Remove the outdated symbol files.  
   
 11. Click **OK**.  
   
-12. Restart [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] to ensure that settings are persisted.  
+12. Restart [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to ensure that settings are persisted.  
   
 ### To debug your source code using Attach to Process  
   

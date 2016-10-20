@@ -1,13 +1,13 @@
 ---
-title: "Collecting Concurrency Data for Stand-Alone Applications by Using the Profiler Command Line"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Collecting Concurrency Data for Stand-Alone Applications by Using the Profiler Command Line | Microsoft Docs"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "concurrency profiling method"
@@ -33,7 +33,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Collecting Concurrency Data for Stand-Alone Applications by Using the Profiler Command Line
-The concurrency method of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Profiling Tools enables you to collect resource contention data and thread activity data that shows you CPU utilization, thread contention, thread migration, synchronization delays, areas of overlapped IO, and other system events.  
+The concurrency method of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools enables you to collect resource contention data and thread activity data that shows you CPU utilization, thread contention, thread migration, synchronization delays, areas of overlapped IO, and other system events.  
   
 ## Common Tasks  
   

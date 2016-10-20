@@ -1,7 +1,7 @@
 ---
-title: "How to: Raise Events Defined in a Different Assembly"
+title: "How to: Raise Events Defined in a Different Assembly | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

@@ -1,7 +1,7 @@
 ---
-title: "Property Pages, JavaScript"
+title: "Property Pages, JavaScript | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -41,7 +41,7 @@ The **Property Pages**provides access to project settings. You can use the pages
   
  To access the project properties, select a project node in **Solution Explorer**. On the **Project** menu, click **Properties**.  
   
- [!INCLUDE[note_settings_general](../datatools/includes/note_settings_general_md.md)]  
+ [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
   
  The following pages and options appear in the **Property Pages**.  
   
@@ -52,7 +52,7 @@ The **Property Pages**provides access to project settings. You can use the pages
  Specifies the configuration settings to display or modify. The settings are **Debug** (default), **Release**, **All Configurations**, or a user-defined configuration. For more information, see [Debug and Release Project Configurations](http://msdn.microsoft.com/en-us/0440b300-0614-4511-901a-105b771b236e).  
   
  **Platform**  
- Specifies the platform settings to display or modify. The settings are **Any CPU** (default for [!INCLUDE[win8_appname_long](../codequality/includes/win8_appname_long_md.md)] apps), **x64**, **ARM**, **x86**, or a user-defined platform. For more information, see [Debug and Release Project Configurations](http://msdn.microsoft.com/en-us/0440b300-0614-4511-901a-105b771b236e).  
+ Specifies the platform settings to display or modify. The settings are **Any CPU** (default for [!INCLUDE[win8_appname_long](../code-quality/includes/win8_appname_long_md.md)] apps), **x64**, **ARM**, **x86**, or a user-defined platform. For more information, see [Debug and Release Project Configurations](http://msdn.microsoft.com/en-us/0440b300-0614-4511-901a-105b771b236e).  
   
 ## General Page  
  Use the following options to set general properties of the project.  

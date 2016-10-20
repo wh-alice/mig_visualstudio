@@ -1,7 +1,7 @@
 ---
-title: "Resources in VSPackages"
+title: "Resources in VSPackages | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -53,12 +53,12 @@ You can embed localized resources in native satellite UI DLLs, managed satellite
   
  Resources in a managed package are selected by resource ID. An exception is the CTO file, which must be named CTMENU. The CTO file must appear in the resource table as a `byte[]`. All other resource items are identified by type.  
   
- You can use the <xref:Microsoft.VisualStudio.Shell.PackageRegistrationAttribute> attribute to indicate to [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] that managed resources are available.  
+ You can use the <xref:Microsoft.VisualStudio.Shell.PackageRegistrationAttribute> attribute to indicate to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] that managed resources are available.  
   
  [!code[VSSDKResources#1](../extensibility/codesnippet/CSharp/resources-in-vspackages_1.cs)]
 [!code[VSSDKResources#1](../extensibility/codesnippet/VisualBasic/resources-in-vspackages_1.vb)]  
   
- Setting <xref:Microsoft.VisualStudio.Shell.PackageRegistrationAttribute> in this manner indicates that [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] should ignore unmanaged satellite DLLs when it searches for resources, for example, by using <xref:Microsoft.VisualStudio.Shell.Interop.IVsShell.LoadPackageString*>. If [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] encounters two or more resources that have the same resource ID, it uses the first resource it finds.  
+ Setting <xref:Microsoft.VisualStudio.Shell.PackageRegistrationAttribute> in this manner indicates that [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] should ignore unmanaged satellite DLLs when it searches for resources, for example, by using <xref:Microsoft.VisualStudio.Shell.Interop.IVsShell.LoadPackageString*>. If [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] encounters two or more resources that have the same resource ID, it uses the first resource it finds.  
   
 ## Example  
  The following example is a managed representation of a tool window icon.  
@@ -94,9 +94,9 @@ type="System.Resources.ResXFileRef,System.Windows.Forms">
 ```  
   
 ## Implementation Notes  
- [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] delays loading of VSPackages whenever possible. A consequence of embedding a CTO file in a VSPackage is that [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] must load all such VSPackages in memory during Setup, which is when it builds a merged command table. Resources can be extracted from a VSPackage by examining the metadata without running code in the VSPackage. The VSPackage is not initialized at this time, so the performance loss is minimal.  
+ [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] delays loading of VSPackages whenever possible. A consequence of embedding a CTO file in a VSPackage is that [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] must load all such VSPackages in memory during Setup, which is when it builds a merged command table. Resources can be extracted from a VSPackage by examining the metadata without running code in the VSPackage. The VSPackage is not initialized at this time, so the performance loss is minimal.  
   
- When [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] requests a resource from a VSPackage after Setup, that package is likely to be already loaded and initialized, so the performance loss is minimal.  
+ When [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] requests a resource from a VSPackage after Setup, that package is likely to be already loaded and initialized, so the performance loss is minimal.  
   
 ## See Also  
  [Managed VSPackages](../misc/managed-vspackages.md)   

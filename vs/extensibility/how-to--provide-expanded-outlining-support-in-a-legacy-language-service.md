@@ -1,7 +1,7 @@
 ---
-title: "How to: Provide Expanded Outlining Support in a Legacy Language Service"
+title: "How to: Provide Expanded Outlining Support in a Legacy Language Service | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -53,7 +53,7 @@ There are two options for extending outlining support for your language beyond s
      This method allows you to specify the span of text to outline, whether existing outline regions are removed or preserved, and whether the outline region is expanded or collapsed by default.  
   
 ## Adding Client-controlled Outline Regions  
- Use this approach to implement client-controlled (or smart) outlining like that used by the [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] and [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] language services. A language service that manages its own outlining monitors the text buffer contents in order to destroy old outline regions when they becomes invalid and to create new outline regions as needed.  
+ Use this approach to implement client-controlled (or smart) outlining like that used by the [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] and [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] language services. A language service that manages its own outlining monitors the text buffer contents in order to destroy old outline regions when they becomes invalid and to create new outline regions as needed.  
   
 #### To implement a client-controlled outline region  
   

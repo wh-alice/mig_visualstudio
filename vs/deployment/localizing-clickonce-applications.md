@@ -1,7 +1,7 @@
 ---
-title: "Localizing ClickOnce Applications"
+title: "Localizing ClickOnce Applications | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -57,7 +57,7 @@ Localization is the process of making your application appropriate for a specifi
 ## Including All Satellite Assemblies in a Deployment  
  Instead of publishing multiple [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployments, you can publish a single [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment that contains all of the satellite assemblies.  
   
- This method is the default in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. To use this method in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], you do not have to do any additional work.  
+ This method is the default in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. To use this method in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], you do not have to do any additional work.  
   
  To use this method with MageUI.exe, you must set the culture for your application to **neutral** in MageUI.exe. Next, you must manually include all of the satellite assemblies in your deployment. In MageUI.exe, you can add the satellite assemblies by using the **Populate** button on the **Files** tab of your application manifest.  
   
@@ -69,7 +69,7 @@ Localization is the process of making your application appropriate for a specifi
 ## Generate One Deployment for Each Culture  
  In this deployment strategy, you generate multiple deployments. In each deployment, you include only the satellite assembly needed for a specific culture, and you mark the deployment as specific to that culture.  
   
- To use this method in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], set the **Publish Language** property on the **Publish** tab to the desired region. [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] will automatically include the satellite assembly required for the region you select, and will exclude all other satellite assemblies from the deployment.  
+ To use this method in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], set the **Publish Language** property on the **Publish** tab to the desired region. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] will automatically include the satellite assembly required for the region you select, and will exclude all other satellite assemblies from the deployment.  
   
  You can accomplish the same thing by using the MageUI.exe tool in the Microsoft [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)]. Use the **Populate** button on the **Files** tab of your application manifest to exclude all other satellite assemblies from the application directory, and then set the **Culture** field on the **Name** tab for your deployment manifest in MageUI.exe. These steps not only include the correct satellite assembly, but they also set the `language` attribute on the `assemblyIdentity` element in your deployment manifest to the corresponding culture.  
   
@@ -78,9 +78,9 @@ Localization is the process of making your application appropriate for a specifi
 ## Downloading Satellite Assemblies on Demand  
  If you decide to include all satellite assemblies in a single deployment, you can improve performance by using on-demand downloading, which enables you to mark assemblies as optional. The marked assemblies will not be downloaded when the application is installed or updated. You can install the assemblies when you need them by calling the <xref:System.Deployment.Application.ApplicationDeployment.DownloadFileGroup*> method on the <xref:System.Deployment.Application.ApplicationDeployment> class.  
   
- Downloading satellite assemblies on demand differs slightly from downloading other types of assemblies on demand. For more information and code examples on how to enable this scenario using the [!INCLUDE[winsdkshort](../debugger/includes/winsdkshort_md.md)] tools for [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)], see [Walkthrough: Downloading Satellite Assemblies on Demand with the ClickOnce Deployment API](../deployment/fdaa553f-a27e-44eb-a4e2-08c122105a87.md).  
+ Downloading satellite assemblies on demand differs slightly from downloading other types of assemblies on demand. For more information and code examples on how to enable this scenario using the [!INCLUDE[winsdkshort](../debugger/includes/winsdkshort_md.md)] tools for [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)], see [Walkthrough: Downloading Satellite Assemblies on Demand with the ClickOnce Deployment API](../deployment/walkthrough--downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api.md).  
   
- You can also enable this scenario in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  Also see [Walkthrough: Downloading Satellite Assemblies on Demand with the ClickOnce Deployment API Using the Designer](http://msdn.microsoft.com/library/ms366788\(v=vs.110\)) or [Walkthrough: Downloading Satellite Assemblies on Demand with the ClickOnce Deployment API Using the Designer](http://msdn.microsoft.com/library/ms366788\(v=vs.120\)).  
+ You can also enable this scenario in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  Also see [Walkthrough: Downloading Satellite Assemblies on Demand with the ClickOnce Deployment API Using the Designer](http://msdn.microsoft.com/library/ms366788\(v=vs.110\)) or [Walkthrough: Downloading Satellite Assemblies on Demand with the ClickOnce Deployment API Using the Designer](http://msdn.microsoft.com/library/ms366788\(v=vs.120\)).  
   
 ## Testing Localized ClickOnce Applications Before Deployment  
  A satellite assembly will be used for a Windows Forms application only if the <xref:System.Threading.Thread.CurrentUICulture*> property for the main thread of the application is set to the satellite assembly's culture. Customers in local markets will probably already be running a localized version of Windows with their culture set to the appropriate default.  

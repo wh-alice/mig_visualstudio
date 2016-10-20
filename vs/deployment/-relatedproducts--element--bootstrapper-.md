@@ -1,7 +1,7 @@
 ---
-title: "&lt;RelatedProducts&gt; Element (Bootstrapper)"
+title: "&lt;RelatedProducts&gt; Element (Bootstrapper) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -87,7 +87,7 @@ The `RelatedProducts` element defines other products that either depend upon or 
 |`Code`|The code name of the included product, as specified by the `ProductCode` attribute of the `Product` element. For more information, see [\<Product> Element](../deployment/-product--element--bootstrapper-.md).|  
   
 ## Example  
- The following code example specifies that the Microsoft Installer is installed with the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)], and therefore will not need a separate installation.  
+ The following code example specifies that the Microsoft Installer is installed with the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], and therefore will not need a separate installation.  
   
 ```  
 <RelatedProducts>  

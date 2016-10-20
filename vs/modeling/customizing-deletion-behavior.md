@@ -1,7 +1,7 @@
 ---
-title: "Customizing Deletion Behavior"
+title: "Customizing Deletion Behavior | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,7 +36,7 @@ Deleting an element usually causes related elements to be deleted also. All rela
   
 -   [Deletion Rules](#rules) – Use rules to propagate updates of any kind within the store, where one change might lead to others.  
   
--   [Deletion Events](#rules) – Use store events to propagate updates outside the store, for example to other [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] documents.  
+-   [Deletion Events](#rules) – Use store events to propagate updates outside the store, for example to other [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] documents.  
   
 -   [UnMerge](#unmerge) – use the UnMerge operation to undo the merge operation that attached a child element to its parent.  
   
@@ -207,7 +207,7 @@ partial class Artist
   
      For more information, see [Rules Propagate Changes Within the Model](../modeling/rules-propagate-changes-within-the-model.md).  
   
-2.  **Deleted** store event is invoked at the end of a transaction, and is called after an undo or redo. It can therefore be used to propagate deletions to objects outside the store such as files, database entries or other objects in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+2.  **Deleted** store event is invoked at the end of a transaction, and is called after an undo or redo. It can therefore be used to propagate deletions to objects outside the store such as files, database entries or other objects in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
      For more information, see [Event Handlers Propagate Changes Outside the Model](../modeling/event-handlers-propagate-changes-outside-the-model.md).  
   

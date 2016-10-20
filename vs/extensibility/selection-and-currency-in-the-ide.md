@@ -1,7 +1,7 @@
 ---
-title: "Selection and Currency in the IDE"
+title: "Selection and Currency in the IDE | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,14 +34,14 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Selection and Currency in the IDE
-The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE) maintains information about users' currently selected objects by using selection *context*. With selection context, VSPackages can take part in currency tracking in two ways:  
+The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) maintains information about users' currently selected objects by using selection *context*. With selection context, VSPackages can take part in currency tracking in two ways:  
   
 -   By propagating currency information about the VSPackages to the IDE.  
   
 -   By monitoring users' currently active selections within the IDE.  
   
 ## Selection Context  
- The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] IDE globally keeps track of IDE currency in its own global selection context object. The following table shows the elements that make up the selection context.  
+ The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE globally keeps track of IDE currency in its own global selection context object. The following table shows the elements that make up the selection context.  
   
 |Element|Description|  
 |-------------|-----------------|  
@@ -56,7 +56,7 @@ The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated developm
 -   A list of currently active element types.  
   
 ### Window Types and Selection  
- The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] IDE organizes windows into two general types:  
+ The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE organizes windows into two general types:  
   
 -   Hierarchy-type windows  
   

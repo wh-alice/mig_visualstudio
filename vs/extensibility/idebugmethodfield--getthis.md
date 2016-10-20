@@ -1,7 +1,7 @@
 ---
-title: "IDebugMethodField::GetThis"
+title: "IDebugMethodField::GetThis | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,7 +33,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # IDebugMethodField::GetThis
-Gets the `this` (`Me` in [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)]) pointer of the object containing the method.  
+Gets the `this` (`Me` in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]) pointer of the object containing the method.  
   
 ## Syntax  
   
@@ -57,7 +57,7 @@ int GetThis(
  If successful, returns S_OK; otherwise, returns an error code.  
   
 ## Remarks  
- In object-oriented languages, there is typically an implied pointer to the current instantiation of a class. This is known as `this` in C#/C++ and as `Me` in [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)].  
+ In object-oriented languages, there is typically an implied pointer to the current instantiation of a class. This is known as `this` in C#/C++ and as `Me` in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)].  
   
 ## See Also  
  [IDebugMethodField](../extensibility/idebugmethodfield.md)   

@@ -1,7 +1,7 @@
 ---
-title: "Visual Studio Extensibility Architecture"
+title: "Visual Studio Extensibility Architecture | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,10 +32,10 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Visual Studio Extensibility Architecture
-The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE) is a framework for hosting VSPackages and for making it easier to exchange shared services. An example of this is the way the IDE implements the user interface (UI). The IDE provides the container window and the default toolbars and menus. It also provides a rich COM infrastructure that makes the UI programmable. The complete command handling and routing scheme gives users an open framework that offers easy access to both existing and installed command sets.  
+The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) is a framework for hosting VSPackages and for making it easier to exchange shared services. An example of this is the way the IDE implements the user interface (UI). The IDE provides the container window and the default toolbars and menus. It also provides a rich COM infrastructure that makes the UI programmable. The complete command handling and routing scheme gives users an open framework that offers easy access to both existing and installed command sets.  
   
 ## Extensibility Architecture  
- The following illustration shows the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] extensibility architecture. Note that the concept of software application is absent. Instead, the IDE hosts software components, called VSPackages, that provide application functionality. This functionality, in turn, is shared across the IDE as services. VSPackages offer services that they and other VSPackages use. The standard IDE also offers a broad range of services, such as <xref:Microsoft.VisualStudio.Shell.Interop.SVsUIShell>, which provide access to the IDE windowing functionality.  
+ The following illustration shows the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] extensibility architecture. Note that the concept of software application is absent. Instead, the IDE hosts software components, called VSPackages, that provide application functionality. This functionality, in turn, is shared across the IDE as services. VSPackages offer services that they and other VSPackages use. The standard IDE also offers a broad range of services, such as <xref:Microsoft.VisualStudio.Shell.Interop.SVsUIShell>, which provide access to the IDE windowing functionality.  
   
  ![Environment Architecture graphic](../extensibility/media/environment.gif "environment")  
 Generalized view of the Visual Studio architecture  
@@ -50,9 +50,9 @@ Generalized view of the Visual Studio architecture
 |<xref:Microsoft.VisualStudio.Shell.Interop.SVsUIShell>|Provides basic windowing and UI-related functionality in the IDE, such as the ability to create tools and document windows.|  
 |<xref:Microsoft.VisualStudio.Shell.Interop.SVsSolution>|Provides basic solution-related functionality, such as the ability to enumerate projects, create new projects, and monitor project changes.|  
   
- Because of their tight integration through the interaction of shared services, the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] IDE and VSPackages are closely interdependent. However, despite their close interaction they have different responsibilities.  
+ Because of their tight integration through the interaction of shared services, the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE and VSPackages are closely interdependent. However, despite their close interaction they have different responsibilities.  
   
- The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] IDE is responsible for the following tasks:  
+ The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE is responsible for the following tasks:  
   
 -   Providing critical services for use by external VSPackages.  
   

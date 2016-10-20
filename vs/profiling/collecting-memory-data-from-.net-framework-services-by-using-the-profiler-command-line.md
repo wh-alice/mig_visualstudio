@@ -1,13 +1,13 @@
 ---
-title: "Collecting Memory Data from .NET Framework Services by Using the Profiler Command Line"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Collecting Memory Data from .NET Framework Services by Using the Profiler Command Line | Microsoft Docs"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b1361333-8a09-4a65-87a9-4ac94ceb2d9f
 caps.latest.revision: 13
@@ -30,7 +30,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Collecting Memory Data from .NET Framework Services by Using the Profiler Command Line
-This section describes the procedures and options for collecting memory allocation and object lifetime data for a [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] service using the sampling method from the command line.  
+This section describes the procedures and options for collecting memory allocation and object lifetime data for a [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] service using the sampling method from the command line.  
   
 ## Common Tasks  
   

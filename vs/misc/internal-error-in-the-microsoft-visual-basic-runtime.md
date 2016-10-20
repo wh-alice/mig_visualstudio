@@ -1,7 +1,7 @@
 ---
-title: "Internal error in the Microsoft Visual Basic runtime"
+title: "Internal error in the Microsoft Visual Basic runtime | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,7 +32,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Internal error in the Microsoft Visual Basic runtime
-An internal error has occurred in the Microsoft [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] runtime.  
+An internal error has occurred in the Microsoft [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] runtime.  
   
 ### To correct this error  
   

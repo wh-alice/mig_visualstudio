@@ -1,7 +1,7 @@
 ---
-title: "Keyboard shortcuts (HTML and JavaScript)"
+title: "Keyboard shortcuts (HTML and JavaScript) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Keyboard shortcuts (HTML and JavaScript)
-![Applies to Windows and Windows Phone](../codequality/media/windows_and_phone_content.png "windows_and_phone_content")  
+![Applies to Windows and Windows Phone](../code-quality/media/windows_and_phone_content.png "windows_and_phone_content")  
   
  Keyboard shortcuts in Visual Studio for debugging Store apps using HTML and JavaScript.  
   

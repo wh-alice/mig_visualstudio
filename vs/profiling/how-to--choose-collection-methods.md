@@ -1,7 +1,7 @@
 ---
-title: "How to: Choose Collection Methods"
+title: "How to: Choose Collection Methods | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,11 +34,11 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # How to: Choose Collection Methods
-The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Profiling Tools support three methods of collecting performance data: sampling, instrumentation, and concurrency. You can also use either the sampling or instrumentation method to collect .NET memory allocation and lifetime data.  
+The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools support three methods of collecting performance data: sampling, instrumentation, and concurrency. You can also use either the sampling or instrumentation method to collect .NET memory allocation and lifetime data.  
   
  **Requirements**  
   
--   [!INCLUDE[vsUltLong](../codequality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../codequality/includes/vsprelong_md.md)], [!INCLUDE[vsPro](../codequality/includes/vspro_md.md)]  
+-   [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)], [!INCLUDE[vsPro](../code-quality/includes/vspro_md.md)]  
   
  You can use the performance session **Method** property to specify the most appropriate collection method for your application. You can set the collection method from Performance Wizard, Performance Explorer, or from the property pages of a performance session. If you are using command-line tools, see [Profiling from the Command-Line](../profiling/using-the-profiling-tools-from-the-command-line.md) for more information.  
   
@@ -52,7 +52,7 @@ The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Profiling Tools sup
 |------------|-----------------|  
 |**CPU Sampling**|Collects application statistics that are useful for initial analysis and for analyzing CPU utilization issues.|  
 |**Instrumentation**|Collects detailed timing data that are useful for focused analysis and for analyzing input/output performance issues.|  
-|**.NET Memory Allocation**|Collects [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] memory allocation data by using the sampling profiling method.|  
+|**.NET Memory Allocation**|Collects [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] memory allocation data by using the sampling profiling method.|  
 |**Concurrency**|Collects numeric resource contention data.|  
   
 ## Performance Explorer  
@@ -93,7 +93,7 @@ The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Profiling Tools sup
   
 4.  Click **Sampling** or **Instrumentation**.  
   
-5.  Click **Collect .NET object allocation information** to collect the size and number of [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] object allocations.  
+5.  Click **Collect .NET object allocation information** to collect the size and number of [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] object allocations.  
   
 6.  (Optional) Click **Also collect .NET object lifetime information** to collect data about the garbage collection generations in which the object memory was reclaimed.  
   

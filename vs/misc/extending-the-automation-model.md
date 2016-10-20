@@ -1,7 +1,7 @@
 ---
-title: "Extending the Automation Model"
+title: "Extending the Automation Model | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,7 +31,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Extending the Automation Model
-This section discusses how the automation model and the VSPackage model represent a two-prong approach to extensibility in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] environment. Extensibility is the capacity to enhance and extend the functionality of the IDE. Automation, on the one hand, refers to user-created code and tools that automate tasks in the existing environment and programmatically drive the IDE. VSPackages, on the other hand, let you add new functionality to the environment.  
+This section discusses how the automation model and the VSPackage model represent a two-prong approach to extensibility in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] environment. Extensibility is the capacity to enhance and extend the functionality of the IDE. Automation, on the one hand, refers to user-created code and tools that automate tasks in the existing environment and programmatically drive the IDE. VSPackages, on the other hand, let you add new functionality to the environment.  
   
  It is possible to combine automation and VSPackages in an extensibility application. For an example, see [Walkthrough: Extending Managed VSPackages By Using Automation](../misc/walkthrough--extending-managed-vspackages-by-using-automation.md).  
   
@@ -46,4 +46,4 @@ This section discusses how the automation model and the VSPackage model represen
   
 ## Related Sections  
  [Visual Studio SDK and Automation](../Topic/Visual%20Studio%20SDK%20and%20Automation.md)  
- Discusses using automation, VSPackages, or a combination to create [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] extensibility applications.
+ Discusses using automation, VSPackages, or a combination to create [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] extensibility applications.

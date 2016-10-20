@@ -1,7 +1,7 @@
 ---
-title: "Assembly Information Dialog Box"
+title: "Assembly Information Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/17/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,7 +33,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Assembly Information Dialog Box
-The **Assembly Information** dialog box is used to specify the values of the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] global assembly attributes, which are stored in the AssemblyInfo file created automatically with your project. In **Solution Explorer**, the file is located in the **My Project** node in [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] (click **Show All files** to view it); it is located under **Properties** in [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)]. For more information about assembly attributes, see [Attributes](../Topic/Attributes%20\(C%23%20and%20Visual%20Basic\).md).  
+The **Assembly Information** dialog box is used to specify the values of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] global assembly attributes, which are stored in the AssemblyInfo file created automatically with your project. In **Solution Explorer**, the file is located in the **My Project** node in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] (click **Show All files** to view it); it is located under **Properties** in [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)]. For more information about assembly attributes, see [Attributes](../Topic/Attributes%20\(C%23%20and%20Visual%20Basic\).md).  
   
  To access this dialog box, select a project node in **Solution Explorer**, and then, on the **Project** menu, click **Properties**. When the **Project Designer** appears, click the **Application** tab. On the **Application** page, click the **Assembly Information** button.  
   

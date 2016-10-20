@@ -1,7 +1,7 @@
 ---
-title: "Creating ClickOnce Applications for Others to Deploy"
+title: "Creating ClickOnce Applications for Others to Deploy | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -111,6 +111,6 @@ Not all developers who are creating ClickOnce deployments plan to deploy the app
  The drawback of this method is that it requires the customer to install the .NET Framework SDK tools, and to have a developer or system administrator who is skilled at using them. Some customers may demand a solution that requires little or no technical effort on their part.  
   
 ## See Also  
- [Deploying ClickOnce Applications For Testing and Production Servers without Resigning](../deployment/1218a98d-1ad5-4eef-95dd-0e0b3c44168c.md)   
+ [Deploying ClickOnce Applications For Testing and Production Servers without Resigning](../deployment/deploying-clickonce-applications-for-testing-and-production-servers-without-resigning.md)   
  [Walkthrough: Manually Deploying a ClickOnce Application](../deployment/walkthrough--manually-deploying-a-clickonce-application.md)   
  [Walkthrough: Manually Deploying a ClickOnce Application that Does Not Require Re-Signing and that Preserves Branding Information](../deployment/c21822fb-d4ee-42e4-b72d-41ee9786efe5.md)

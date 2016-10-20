@@ -1,7 +1,7 @@
 ---
-title: "GetFrameworkPath Task"
+title: "GetFrameworkPath Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -39,7 +39,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # GetFrameworkPath Task
-Retrieves the path to the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] assemblies.  
+Retrieves the path to the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] assemblies.  
   
 ## Task Parameters  
  The following table describes the parameters of the `GetFrameworkPath` task.  
@@ -54,12 +54,12 @@ Retrieves the path to the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdns
 |`Path`|Optional `String` output parameter.<br /><br /> Contains the path to the latest framework assemblies, if any are available. Otherwise returns `null`.|  
   
 ## Remarks  
- If several versions of the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] are installed, this task returns the version that [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] is designed to run on.  
+ If several versions of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] are installed, this task returns the version that [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] is designed to run on.  
   
  In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../reference/taskextension-base-class.md).  
   
 ## Example  
- The following example uses the `GetFrameworkPath` task to store the path to the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] in the `FrameworkPath` property.  
+ The following example uses the `GetFrameworkPath` task to store the path to the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] in the `FrameworkPath` property.  
   
 ```  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  

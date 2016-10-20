@@ -1,7 +1,7 @@
 ---
-title: "Web Site Support"
+title: "Web Site Support | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ A Web site project system is a project system that creates Web projects. Web pro
   
  Web site project systems are created by adding templates and registration attributes to an existing project system. One of these attributes selects the IntelliSense provider for the language. The IntelliSense provider implementation handles references and calls the language compiler when a smart Web page that is not cached is requested.  
   
- The language compiler used to compile Web pages must be registered with [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)]. You can use the [\<compiler> Element](../Topic/%3Ccompiler%3E%20Element.md) in a Web.config file to register the compiler, as in the following example:  
+ The language compiler used to compile Web pages must be registered with [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)]. You can use the [\<compiler> Element](../Topic/%3Ccompiler%3E%20Element.md) in a Web.config file to register the compiler, as in the following example:  
   
 ```  
 <system.codedom>  <compilers>    <compiler language="py;IronPython" extension=".py"       type="IronPython.CodeDom.PythonProvider, IronPython,       Version=1.0.2391.18146, Culture=neutral,       PublicKeyToken=b03f5f7f11d50a3a" />  </compilers></system.codedom>  
@@ -46,7 +46,7 @@ A Web site project system is a project system that creates Web projects. Web pro
  Lists the templates that you can use to create new Web site projects and associated items.  
   
  [Web Site Support Attributes](../extensibility/web-site-support-attributes.md)  
- Presents the registration attributes that connect a Web site project to [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)].  
+ Presents the registration attributes that connect a Web site project to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)].  
   
 ## Related Sections  
  [Web Projects](../extensibility/web-projects.md)  

@@ -1,7 +1,7 @@
 ---
-title: "Enum &#39;&lt;enumname&gt;&#39; must contain at least one member"
+title: "Enum &#39;&lt;enumname&gt;&#39; must contain at least one member | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

@@ -1,7 +1,7 @@
 ---
-title: "T4 Parameter Directive"
+title: "T4 Parameter Directive | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -27,7 +27,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # T4 Parameter Directive
-In a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] text template, the `parameter` directive declares properties in your template code that are initialized from values passed in from the external context. You can set these values if you write code that invokes text transformation.  
+In a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] text template, the `parameter` directive declares properties in your template code that are initialized from values passed in from the external context. You can set these values if you write code that invokes text transformation.  
   
 ## Using the Parameter Directive  
   
@@ -53,7 +53,7 @@ Line <#= i #>
 ```  
   
 ## Passing parameter values to a template  
- If you are writing a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Extension such as a menu command or an event handler, you can process a template by using the text templating service:  
+ If you are writing a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Extension such as a menu command or an event handler, you can process a template by using the text templating service:  
   
 ```c#  
 // Get a service provider – how you do this depends on the context:  

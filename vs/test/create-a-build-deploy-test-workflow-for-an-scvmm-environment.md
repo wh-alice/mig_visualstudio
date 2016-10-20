@@ -1,7 +1,7 @@
 ---
-title: "Create a build-deploy-test workflow for an SCVMM environment"
+title: "Create a build-deploy-test workflow for an SCVMM environment | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ translation.priority.ht:
 > [!NOTE]
 >  This topic applies to SCVMM environments. If you want to complete this procedure using a standard environment, see [Create a build-deploy-test workflow for a standard environment](../test/create-a-build-deploy-test-workflow-for-a-standard-environment.md).  
   
- You can use a build, deploy, and test workflow to automatically deploy an application to your SCVMM environment and run automated tests as part of the build process. You can also configure your workflow to deploy a snapshot of your environment before your application is deployed, so your applications are deployed to a clean environment. In addition, you can configure your workflow to create a snapshot of your environment after your workflow is complete, so you can reproduce build or deployment failures. Users can then access the application in their lab environment, or they can run manual tests or automated tests separate from the build process using [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)]. For an overview on build-deploy-test workflows, see [Create a build-deploy-test workflow for a standard environment](../test/create-a-build-deploy-test-workflow-for-a-standard-environment.md).  
+ You can use a build, deploy, and test workflow to automatically deploy an application to your SCVMM environment and run automated tests as part of the build process. You can also configure your workflow to deploy a snapshot of your environment before your application is deployed, so your applications are deployed to a clean environment. In addition, you can configure your workflow to create a snapshot of your environment after your workflow is complete, so you can reproduce build or deployment failures. Users can then access the application in their lab environment, or they can run manual tests or automated tests separate from the build process using [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)]. For an overview on build-deploy-test workflows, see [Create a build-deploy-test workflow for a standard environment](../test/create-a-build-deploy-test-workflow-for-a-standard-environment.md).  
   
  **Requirements**  
   
@@ -212,7 +212,7 @@ translation.priority.ht:
   
 15. Choose **Save** to save your build definition.  
   
-     The created build definition appears in the **Builds** folder in [!INCLUDE[esprtfc](../codequality/includes/esprtfc_md.md)].  
+     The created build definition appears in the **Builds** folder in [!INCLUDE[esprtfc](../code-quality/includes/esprtfc_md.md)].  
   
 ###  <a name="QueueBuild"></a> Run your Workflow  
  You can run your workflow by running the build definition that contains your workflow.  
@@ -231,7 +231,7 @@ translation.priority.ht:
   
      You can see the status as the build progresses.  
   
-4.  (Optional) If you want to view the environment as the build progresses, open [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], locate the **Lab Center**, choose **Lab**, and then choose your SCVMM environment in the list. You can view the progress of the build and the details of your lab environment as follows:  
+4.  (Optional) If you want to view the environment as the build progresses, open [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], locate the **Lab Center**, choose **Lab**, and then choose your SCVMM environment in the list. You can view the progress of the build and the details of your lab environment as follows:  
   
     -   The snapshot is restored if you selected this option.  
   
@@ -250,7 +250,7 @@ translation.priority.ht:
   
 #### To connect to your lab environment from your build results  
   
-1.  From the **Builds** folder in [!INCLUDE[esprtfc](../codequality/includes/esprtfc_md.md)], open the shortcut menu for your workflow and choose **View Builds**.  
+1.  From the **Builds** folder in [!INCLUDE[esprtfc](../code-quality/includes/esprtfc_md.md)], open the shortcut menu for your workflow and choose **View Builds**.  
   
      The **Build Explorer** view is displayed.  
   

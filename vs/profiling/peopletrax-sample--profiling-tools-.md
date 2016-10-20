@@ -1,7 +1,7 @@
 ---
-title: "PeopleTrax Sample (Profiling Tools)"
+title: "PeopleTrax Sample (Profiling Tools) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,4 +34,4 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # PeopleTrax Sample (Profiling Tools)
-The PeopleTrax sample application is used for a number of step-by-step walkthroughs for the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Profiling Tools. You can download a .zip file containing the People Trax application code from the [MSDN Code Gallery](http://go.microsoft.com/fwlink/?LinkId=160299).
+The PeopleTrax sample application is used for a number of step-by-step walkthroughs for the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools. You can download a .zip file containing the People Trax application code from the [MSDN Code Gallery](http://go.microsoft.com/fwlink/?LinkId=160299).

@@ -1,7 +1,7 @@
 ---
-title: "IDebugClassField::GetDefaultIndexer"
+title: "IDebugClassField::GetDefaultIndexer | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -57,7 +57,7 @@ int GetDefaultIndexer(
  If successful, returns S_OK or returns S_FALSE if there is no default indexer. Otherwise, returns an error code.  
   
 ## Remarks  
- The default indexer of a class is the property that is marked as the `Default` property for array accesses. This is specific to [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)]. Here is an example of a default indexer declared in [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] and how it is used.  
+ The default indexer of a class is the property that is marked as the `Default` property for array accesses. This is specific to [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]. Here is an example of a default indexer declared in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] and how it is used.  
   
 ```vb#  
 Imports System.Collections;  

@@ -1,7 +1,7 @@
 ---
-title: "How to: Set IDE Accessibility Options"
+title: "How to: Set IDE Accessibility Options | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,15 +31,15 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Set IDE Accessibility Options
-[!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] contains features that make it easier for people who have low vision to read and for people who have limited dexterity to write. These features include changing the size and color of text in editors, changing the size of text and buttons on toolbars, and auto-completion for methods and parameters, to name a few.  
+[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] contains features that make it easier for people who have low vision to read and for people who have limited dexterity to write. These features include changing the size and color of text in editors, changing the size of text and buttons on toolbars, and auto-completion for methods and parameters, to name a few.  
   
- In addition, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] supports Dvorak keyboard layouts, which make the most frequently typed characters more accessible. You can also customize the default shortcut keys available with [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. For more information, see [Identifying and Customizing Keyboard Shortcuts](../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md).  
+ In addition, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] supports Dvorak keyboard layouts, which make the most frequently typed characters more accessible. You can also customize the default shortcut keys available with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. For more information, see [Identifying and Customizing Keyboard Shortcuts](../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md).  
   
 > [!NOTE]
 >  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## Editors, Dialogs, and Tool Windows  
- By default, dialog boxes and tool windows in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] use the same font size and colors as the operating system. The color settings for the frame of the IDE, dialog boxes, toolbars, and tool windows are based a color scheme: light or dark. You can change the current color theme in the [General, Environment, Options Dialog Box](../reference/general--environment--options-dialog-box.md).  
+ By default, dialog boxes and tool windows in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] use the same font size and colors as the operating system. The color settings for the frame of the IDE, dialog boxes, toolbars, and tool windows are based a color scheme: light or dark. You can change the current color theme in the [General, Environment, Options Dialog Box](../reference/general--environment--options-dialog-box.md).  
   
  You can also display pop-up windows in the Code view of the editor. These windows can prompt you with available members on the current object and the parameters to complete a function or statement. These windows can be helpful if you have difficulty typing. However, they interfere with focus in the code editor, which can be problematic for some users. You can turn off these windows by opening the Options dialog box and clearing **Auto list members** and **Parameter information** in the **Text Editor**, **All Languages**, **General** page in the **Options** dialog box. For more information, see [How to: Set General Editor Options](http://msdn.microsoft.com/en-us/704e4a7b-2162-4bed-8a47-f4f6ffec98c2).  
   
@@ -81,7 +81,7 @@ translation.priority.ht:
  You can also choose to change the default colors for text, margin indicators, white space, and code elements in the editor.  
   
 > [!NOTE]
->  To use high contrast colors for all application windows on your operating system, press Left **ALT+**Left **SHIFT+PRINT SCREEN**. If [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] is open, close and reopen [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] to fully implement high contrast colors.  
+>  To use high contrast colors for all application windows on your operating system, press Left **ALT+**Left **SHIFT+PRINT SCREEN**. If [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is open, close and reopen [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to fully implement high contrast colors.  
   
 ##### To change the color of items in the editor  
   

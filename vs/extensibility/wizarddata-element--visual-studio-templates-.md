@@ -1,7 +1,7 @@
 ---
-title: "WizardData Element (Visual Studio Templates)"
+title: "WizardData Element (Visual Studio Templates) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -74,7 +74,7 @@ Specifies custom XML
  The contents of the `WizardData` element are passed, unchanged, as a parameter inside the string dictionary of parameters in the `IWizard.RunStarted` method. The parameter is named $WizardData$.  
   
 ## Example  
- The following example illustrates the metadata for the standard project template for a [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] Windows application.  
+ The following example illustrates the metadata for the standard project template for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] Windows application.  
   
 ```  
 <VSTemplate Version="3.0.0" Type="Item"  

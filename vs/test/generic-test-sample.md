@@ -1,7 +1,7 @@
 ---
-title: "Generic Test Sample"
+title: "Generic Test Sample | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -44,7 +44,7 @@ The "EvenOdd" sample is a project that you can build into a simple program. You 
  [!code[EvenOdd#1](../test/codesnippet/CSharp/generic-test-sample_1.cs)]  
   
 ## Working with the Code  
- To work with this code, you first have to create a project for it in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. Follow the steps in the "Prepare the Walkthrough" section in [Walkthrough: Creating and Running a Generic Test](../test/walkthrough--creating-and-running-a-generic-test.md).  
+ To work with this code, you first have to create a project for it in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Follow the steps in the "Prepare the Walkthrough" section in [Walkthrough: Creating and Running a Generic Test](../test/walkthrough--creating-and-running-a-generic-test.md).  
   
 ## About the EvenOdd Sample Program  
  The EvenOdd sample is a Visual C# console application. It returns a value of either 1 or 0, depending on the argument you pass it:  

@@ -1,7 +1,7 @@
 ---
-title: "XML Tools in Visual Studio"
+title: "XML Tools in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -57,13 +57,13 @@ translation.priority.ht:
   
  XML is a subset of SGML that is optimized for delivery over the Web. It is defined by the World Wide Web Consortium (W3C). This standardization guarantees that structured data will be uniform and independent of applications or vendors.  
   
- XML is at the core of many features of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)]. The following topic list names the tools and features related to XML that are offered in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)].  
+ XML is at the core of many features of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]. The following topic list names the tools and features related to XML that are offered in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)].  
   
  For more information, see the [XML Developer Center](http://go.microsoft.com/fwlink/?LinkID=100176), which provides the latest documentation, technical information, downloads, newsgroups, and other resources for XML developers.  
   
 ## In This Section  
  [Working with XML Data](../reference/working-with-xml-data.md)  
- Discusses the role of XML in the way data is handled in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+ Discusses the role of XML in the way data is handled in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
  [Debugging XSLT](../reference/debugging-xslt.md)  
  Provides links to topics about using the Visual Studio debugger to debug XSLT.  

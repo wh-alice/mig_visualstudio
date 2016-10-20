@@ -1,7 +1,7 @@
 ---
-title: "&lt;Strings&gt; Element (Bootstrapper)"
+title: "&lt;Strings&gt; Element (Bootstrapper) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -65,7 +65,7 @@ Defines localized strings for product names, package names, and installation err
 |`Name`|Required. The name of the string.|  
   
 ## Example  
- The following code example specifies all of the English strings for the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] installer.  
+ The following code example specifies all of the English strings for the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] installer.  
   
 ```  
 <Strings>  

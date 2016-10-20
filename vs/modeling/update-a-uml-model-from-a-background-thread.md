@@ -1,7 +1,7 @@
 ---
-title: "Update a UML model from a background thread"
+title: "Update a UML model from a background thread | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -62,9 +62,9 @@ It can sometimes be useful to make changes to a model in a background thread. Fo
   
 5.  Build and run the project.  
   
-     A new instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] will start in experimental mode.  
+     A new instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] will start in experimental mode.  
   
-6.  Create or open a UML class diagram in the experimental instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+6.  Create or open a UML class diagram in the experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 7.  Right-click anywhere in the UML class diagram and then click **Add Several UML Classes**.  
   

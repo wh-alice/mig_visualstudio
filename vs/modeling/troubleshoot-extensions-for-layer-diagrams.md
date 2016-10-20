@@ -1,7 +1,7 @@
 ---
-title: "Troubleshoot extensions for layer diagrams"
+title: "Troubleshoot extensions for layer diagrams | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,17 +32,17 @@ translation.priority.ht:
 # Troubleshoot extensions for layer diagrams
 This topic addresses some problems that you might encounter when you create layer model extensions.  
   
-#### When I press F5 to debug my extension, my commands, gesture handlers, validation extensions, or custom properties do not appear on layer diagrams in the Experimental instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]  
+#### When I press F5 to debug my extension, my commands, gesture handlers, validation extensions, or custom properties do not appear on layer diagrams in the Experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]  
   
-1.  Open your extension solution in the Experimental instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], and on the **Build** menu, click **Rebuild Solution**.  
+1.  Open your extension solution in the Experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], and on the **Build** menu, click **Rebuild Solution**.  
   
-2.  Press **F5** or **CTRL+F5** to start the experimental instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. Open a layer diagram and test your extension.  
+2.  Press **F5** or **CTRL+F5** to start the experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Open a layer diagram and test your extension.  
   
  Continue with the next procedure if necessary.  
   
 #### An old version of my extension runs.  
   
-1.  Make sure that no experimental instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] is running.  
+1.  Make sure that no experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is running.  
   
 2.  Delete the following folder:  %LocalAppData%\Microsoft\VisualStudio\\[version]\ComponentModelCache  
   
@@ -53,7 +53,7 @@ This topic addresses some problems that you might encounter when you create laye
   
 #### An old version of my validation results appears, or my validation method is not called.  
   
-1.  In the experimental instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], on the **Build** menu, click **Clean Solution**. This clears the cached results of the previous validation analysis.  
+1.  In the experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], on the **Build** menu, click **Clean Solution**. This clears the cached results of the previous validation analysis.  
   
 2.  Make sure that the layers in your model are associated with code elements, and that there is at least one dependency link in the model. Validation is not invoked if there is nothing to validate.  
   

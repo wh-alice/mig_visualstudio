@@ -1,7 +1,7 @@
 ---
-title: "Toolbox, Data Tab"
+title: "Toolbox, Data Tab | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -43,19 +43,19 @@ Displays data objects you can add to a forms and components. The **Data** tab of
   
 |Name|Description|  
 |----------|-----------------|  
-|<xref:System.Data.DataSet>|Adds an instance of a typed or untyped dataset to the form or component. When you drag this object onto a designer, it displays a dialog box that allows you to select an existing typed dataset class or specify that you want to create a new, blank, untyped dataset. **Note:**  You do not use the <xref:System.Data.DataSet> object on the **Toolbox** to create a new typed dataset schema and class. For more information, see [Create and configure datasets](../datatools/create-and-configure-datasets-in-visual-studio.md).|  
+|<xref:System.Data.DataSet>|Adds an instance of a typed or untyped dataset to the form or component. When you drag this object onto a designer, it displays a dialog box that allows you to select an existing typed dataset class or specify that you want to create a new, blank, untyped dataset. **Note:**  You do not use the <xref:System.Data.DataSet> object on the **Toolbox** to create a new typed dataset schema and class. For more information, see [Create and configure datasets](../data-tools/create-and-configure-datasets-in-visual-studio.md).|  
 |<xref:System.Windows.Forms.DataGridView>|Provides a powerful and flexible way to display data in a tabular format.|  
 |<xref:System.Windows.Forms.BindingSource>|Simplifies the process of binding controls to an underlying data source.|  
 |<xref:System.Windows.Forms.BindingNavigator>|Represents the navigation and manipulation user interface (UI) for controls on a form that are bound to data.|  
   
 ## See Also  
  [Data Walkthroughs](../Topic/Data%20Walkthroughs.md)   
- [Bind Windows Forms controls to data in Visual Studio](../datatools/bind-windows-forms-controls-to-data-in-visual-studio.md)   
- [Overview of Data Applications in Visual Studio](../datatools/overview-of-data-applications-in-visual-studio.md)   
- [Connecting to Data in Visual Studio](../datatools/connecting-to-data-in-visual-studio.md)   
+ [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)   
+ [Overview of Data Applications in Visual Studio](../data-tools/overview-of-data-applications-in-visual-studio.md)   
+ [Connecting to Data in Visual Studio](../data-tools/connecting-to-data-in-visual-studio.md)   
  [Preparing Your Application to Receive Data](../Topic/Preparing%20Your%20Application%20to%20Receive%20Data.md)   
- [Fetching Data into Your Application](../datatools/fetching-data-into-your-application.md)   
- [Bind controls to data in Visual Studio](../datatools/bind-controls-to-data-in-visual-studio.md)   
- [Editing Data in Your Application](../datatools/editing-data-in-your-application.md)   
+ [Fetching Data into Your Application](../data-tools/fetching-data-into-your-application.md)   
+ [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)   
+ [Editing Data in Your Application](../data-tools/editing-data-in-your-application.md)   
  [Validating Data](../Topic/Validating%20Data.md)   
- [Saving Data](../datatools/saving-data.md)
+ [Saving Data](../data-tools/saving-data.md)

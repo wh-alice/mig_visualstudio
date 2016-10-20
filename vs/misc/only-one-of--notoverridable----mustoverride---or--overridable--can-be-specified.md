@@ -1,7 +1,7 @@
 ---
-title: "Only one of &#39;NotOverridable&#39;, &#39;MustOverride&#39;, or &#39;Overridable&#39; can be specified"
+title: "Only one of &#39;NotOverridable&#39;, &#39;MustOverride&#39;, or &#39;Overridable&#39; can be specified | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

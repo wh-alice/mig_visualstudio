@@ -1,7 +1,7 @@
 ---
-title: "Which tests should be run since a previous build?"
+title: "Which tests should be run since a previous build? | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -29,7 +29,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Which tests should be run since a previous build?
-You can use Microsoft Test Manager to help you determine which tests might have to be run, based on coding changes that were made to the application you are testing. To be able to use this functionality, you have to use [!INCLUDE[esprbuild](../codequality/includes/esprbuild_md.md)] to build your application and use Visual Studio for version control for your source code.  
+You can use Microsoft Test Manager to help you determine which tests might have to be run, based on coding changes that were made to the application you are testing. To be able to use this functionality, you have to use [!INCLUDE[esprbuild](../code-quality/includes/esprbuild_md.md)] to build your application and use Visual Studio for version control for your source code.  
   
  **Requirements**  
   
@@ -38,7 +38,7 @@ You can use Microsoft Test Manager to help you determine which tests might have 
 > [!NOTE]
 >  This functionality to determine which tests might have to be run, based on coding changes, is only supported for applications developed using managed code.  
   
- To find the recommended tests, you must first run your manual tests using [!INCLUDE[mtrlong](../codequality/includes/mtrlong_md.md)] or run your automated tests. When you run these tests, you have to use test settings that collect the *test impact data*. This test impact data contains information about which methods are called when you run your tests. These links between methods in your application and test cases are stored to determine which test cases should be recommended to run again based on changes to the methods.  
+ To find the recommended tests, you must first run your manual tests using [!INCLUDE[mtrlong](../code-quality/includes/mtrlong_md.md)] or run your automated tests. When you run these tests, you have to use test settings that collect the *test impact data*. This test impact data contains information about which methods are called when you run your tests. These links between methods in your application and test cases are stored to determine which test cases should be recommended to run again based on changes to the methods.  
   
  Test impact data is only collected when tests run and pass. This creates a baseline to gather valid data for which methods are used when the full test is run. When a test fails, only partial data of the methods that were used to run the test could be collected. This partial data would be inaccurate.  
   

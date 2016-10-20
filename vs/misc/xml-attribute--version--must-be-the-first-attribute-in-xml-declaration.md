@@ -1,7 +1,7 @@
 ---
-title: "XML attribute &#39;version&#39; must be the first attribute in XML declaration"
+title: "XML attribute &#39;version&#39; must be the first attribute in XML declaration | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

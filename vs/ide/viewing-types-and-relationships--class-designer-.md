@@ -1,7 +1,7 @@
 ---
-title: "Viewing Types and Relationships (Class Designer)"
+title: "Viewing Types and Relationships (Class Designer) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -51,7 +51,7 @@ Class Designer uses class diagrams to show you the details of types, for example
   
  Describes how to view the inheritance relationships between types.  
   
- [How to: Change Between Member Notation and Association Notation (Class Designer)](../ide/65881c5a-d251-4a36-ad0d-73d088436092.md)  
+ [How to: Change Between Member Notation and Association Notation (Class Designer)](../ide/how-to--change-between-member-notation-and-association-notation--class-designer-.md)  
   
  Describes how to switch between member notation and association notation.  
   

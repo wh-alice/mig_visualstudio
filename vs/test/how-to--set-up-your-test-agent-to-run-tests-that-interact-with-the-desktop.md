@@ -1,7 +1,7 @@
 ---
-title: "How to: Set Up Your Test Agent to Run Tests that Interact with the Desktop"
+title: "How to: Set Up Your Test Agent to Run Tests that Interact with the Desktop | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -29,10 +29,10 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Set Up Your Test Agent to Run Tests that Interact with the Desktop
-If you want to run automated tests that interact with the desktop, you must set up your agent to run as a process instead of a service. For example, if you want to run a coded UI test remotely using a test controller and test agent, or you want to run a test and capture a video recording when you run it, you must set up your agent to run as a process. When you assign agents to roles in your test settings using Visual Studio, or you assign agents to roles in your environment by using [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], you must change the set up for any agents assigned to roles that have to interact with the desktop. For more information about test settings, roles and environments, see [Setting Up Test Machines to Run Tests or Collect Data](../test/setting-up-test-machines-to-run-tests-or-collect-data.md).  
+If you want to run automated tests that interact with the desktop, you must set up your agent to run as a process instead of a service. For example, if you want to run a coded UI test remotely using a test controller and test agent, or you want to run a test and capture a video recording when you run it, you must set up your agent to run as a process. When you assign agents to roles in your test settings using Visual Studio, or you assign agents to roles in your environment by using [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], you must change the set up for any agents assigned to roles that have to interact with the desktop. For more information about test settings, roles and environments, see [Setting Up Test Machines to Run Tests or Collect Data](../test/setting-up-test-machines-to-run-tests-or-collect-data.md).  
   
 > [!WARNING]
->  If you use [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] to set up a lab environment, the test agent is installed by [!INCLUDE[TCMshort](../test/includes/tcmshort_md.md)]. You can specify in the environment creation wizard that you want to configure one of the roles to run coded UI tests. For more information, see [Creating Lab Environments](../test/creating-lab-environments.md).  
+>  If you use [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] to set up a lab environment, the test agent is installed by [!INCLUDE[TCMshort](../test/includes/tcmshort_md.md)]. You can specify in the environment creation wizard that you want to configure one of the roles to run coded UI tests. For more information, see [Creating Lab Environments](../test/creating-lab-environments.md).  
   
 > [!IMPORTANT]
 >  The computer that is running an agent on which you want to run coded UI tests cannot be locked or have an active screen saver.  
@@ -94,7 +94,7 @@ If you want to run automated tests that interact with the desktop, you must set 
     > [!NOTE]
     >  There is a notification area icon that runs on the computer for a test agent that is running as a process. It shows the status of the test agent. You can start, stop or restart the agent if it is running as a process using this tool. To start the test agent as a process if it is not running, choose **Start**, **All Programs**, **Microsoft Visual Studio**, **Microsoft Visual Studio Test Agent**.  
   
-     If the test controller for this test agent is registered with [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)], the status of a test agent that is running as an interactive process is displayed in the **Controllers** view in the **Lab Center** for [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)]. It is listed with a preceding asterisk symbol to denote that it is running as an interactive process. To restart this test agent you must use the tool that runs on the computer for the test agent and not the **Controllers** view.  
+     If the test controller for this test agent is registered with [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)], the status of a test agent that is running as an interactive process is displayed in the **Controllers** view in the **Lab Center** for [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)]. It is listed with a preceding asterisk symbol to denote that it is running as an interactive process. To restart this test agent you must use the tool that runs on the computer for the test agent and not the **Controllers** view.  
   
 ## See Also  
  [How to: Configure and Run Scheduled Tests After Building Your Application](http://msdn.microsoft.com/en-us/32acfeb1-b1aa-4afb-8cfe-cc209e6183fd)   

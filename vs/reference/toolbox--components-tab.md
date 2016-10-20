@@ -1,7 +1,7 @@
 ---
-title: "Toolbox, Components Tab"
+title: "Toolbox, Components Tab | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,7 +31,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Toolbox, Components Tab
-Displays components you can add to [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] and [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] designers. In addition to the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] components that are included with [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], such as the <xref:System.Messaging.MessageQueue> and <xref:System.Diagnostics.EventLog> components, you can add your own or third-party components to this tab. For more information, see [How to: Manipulate Toolbox Tabs](http://msdn.microsoft.com/en-us/21285050-cadd-455a-b1f5-a2289a89c4db).  
+Displays components you can add to [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] and [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] designers. In addition to the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] components that are included with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], such as the <xref:System.Messaging.MessageQueue> and <xref:System.Diagnostics.EventLog> components, you can add your own or third-party components to this tab. For more information, see [How to: Manipulate Toolbox Tabs](http://msdn.microsoft.com/en-us/21285050-cadd-455a-b1f5-a2289a89c4db).  
   
  To display this tab, from the **View** menu, select **Toolbox**. In the **Toolbox**, select the **Components** tab.  
   

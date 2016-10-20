@@ -1,7 +1,7 @@
 ---
-title: "Getting Started with Source Control VSPackages"
+title: "Getting Started with Source Control VSPackages | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,7 +32,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Getting Started with Source Control VSPackages
-A source-control VSPackage is a more advanced alternative to the source control plug-in. (See [Creating a Source Control Plug-in](../extensibility/creating-a-source-control-plug-in.md) for more information on source control plug-ins.) A source-control VSPackage enables complete control over the source control model, features, and user interface (UI), and it integrates into the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] environment as a VSPackage.  
+A source-control VSPackage is a more advanced alternative to the source control plug-in. (See [Creating a Source Control Plug-in](../extensibility/creating-a-source-control-plug-in.md) for more information on source control plug-ins.) A source-control VSPackage enables complete control over the source control model, features, and user interface (UI), and it integrates into the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] environment as a VSPackage.  
   
 ## In This Section  
  [Determining Whether to Implement a Source Control VSPackage](../extensibility/determining-whether-to-implement-a-source-control-vspackage.md)  
@@ -43,4 +43,4 @@ A source-control VSPackage is a more advanced alternative to the source control 
  Describes new features using VSPackages with source control.  
   
  [Creating a Source Control VSPackage](../extensibility/creating-a-source-control-vspackage.md)  
- Discusses how to create a source control VSPackage that not only supplies source control functionality but can be used to customize the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] source control UI.
+ Discusses how to create a source control VSPackage that not only supplies source control functionality but can be used to customize the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] source control UI.

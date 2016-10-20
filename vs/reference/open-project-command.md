@@ -1,7 +1,7 @@
 ---
-title: "Open Project Command"
+title: "Open Project Command | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -55,7 +55,7 @@ File.OpenProject filename
  This command is not available while debugging.  
   
 ## Example  
- This example opens the [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] project, Test1.  
+ This example opens the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] project, Test1.  
   
 ```  
 >File.OpenProject "C:\My Projects\Test1\Test1.vbproj"  

@@ -1,7 +1,7 @@
 ---
-title: "IDebugProgramNode2::GetHostMachineName_V7"
+title: "IDebugProgramNode2::GetHostMachineName_V7 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -60,7 +60,7 @@ int GetHostMachineName_V7 ( 
 ## Remarks  
   
 > [!WARNING]
->  As of [!INCLUDE[vsprvslong](../codequality/includes/vsprvslong_md.md)], this method is no longer used and should always return `E_NOTIMPL`.  
+>  As of [!INCLUDE[vsprvslong](../code-quality/includes/vsprvslong_md.md)], this method is no longer used and should always return `E_NOTIMPL`.  
   
 ## See Also  
  [IDebugProgramNode2](../extensibility/idebugprogramnode2.md)

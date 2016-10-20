@@ -1,7 +1,7 @@
 ---
-title: "Using Multiple Processors to Build Projects"
+title: "Using Multiple Processors to Build Projects | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -44,7 +44,7 @@ MSBuild can take advantage of systems that have multiple processors, or multiple
  In parallel builds, errors and exceptions can occur at different times than they do in a non-parallel build, and when one project does not build, the other project builds continue. [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] will not stop any project build that is building in parallel with the one that failed. Other projects continue to build until they either succeed or fail. However, if <xref:Microsoft.Build.Framework.IBuildEngine.ContinueOnError*> has been enabled, then no builds will stop even if an error occurs.  
   
 ## Visual C++ Project (.vcproj) and Solution (.sln) Files  
- Both [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)] projects (.vcproj) and solution (.sln) files can be passed to the [MSBuild Task](../reference/msbuild-task.md). For [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)] projects, VCWrapperProject is called, and then the internal [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] project is created. For [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)] solutions, a SolutionWrapperProject is created, and then the internal [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] project is created. In both cases, the resulting project is treated the same as any other [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] project.  
+ Both [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] projects (.vcproj) and solution (.sln) files can be passed to the [MSBuild Task](../reference/msbuild-task.md). For [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] projects, VCWrapperProject is called, and then the internal [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] project is created. For [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] solutions, a SolutionWrapperProject is created, and then the internal [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] project is created. In both cases, the resulting project is treated the same as any other [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] project.  
   
 ## Multi-Process Execution  
  Almost all build-related activities require the current directory to remain constant throughout the build process to prevent path-related errors. Therefore, projects cannot run on different threads in [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] because they would cause multiple directories to be created.  

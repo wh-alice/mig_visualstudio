@@ -1,7 +1,7 @@
 ---
-title: "-Upgrade (devenv.exe)"
+title: "-Upgrade (devenv.exe) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,7 +33,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # /Upgrade (devenv.exe)
-Updates the solution file and all of its project files, or the project file specified, to the current [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] formats for these files.  
+Updates the solution file and all of its project files, or the project file specified, to the current [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] formats for these files.  
   
 ## Syntax  
   
@@ -53,10 +53,10 @@ devenv SolutionFile | ProjectFile /upgrade
   
  Source-controlled solutions or projects must be checked out before they can be upgraded.  
   
- Using the `/upgrade` switch does not start [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. Results of the upgrade can be seen in the Upgrade Report for the development language of the solution or project. No error or usage info is returned. For more information on upgrading projects in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], see [How to: Troubleshoot Unsuccessful Visual Studio Project Upgrades](../porting/how-to--troubleshoot-unsuccessful-visual-studio-project-upgrades.md).  
+ Using the `/upgrade` switch does not start [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Results of the upgrade can be seen in the Upgrade Report for the development language of the solution or project. No error or usage info is returned. For more information on upgrading projects in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], see [How to: Troubleshoot Unsuccessful Visual Studio Project Upgrades](../porting/how-to--troubleshoot-unsuccessful-visual-studio-project-upgrades.md).  
   
 ## Example  
- This example upgrades a solution file named "MyProject.sln" in your default folder for [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] solutions.  
+ This example upgrades a solution file named "MyProject.sln" in your default folder for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solutions.  
   
 ```  
 devenv "MyProject.sln" /upgrade  

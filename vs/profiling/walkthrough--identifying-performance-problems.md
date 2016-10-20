@@ -1,7 +1,7 @@
 ---
-title: "Walkthrough: Identifying Performance Problems"
+title: "Walkthrough: Identifying Performance Problems | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -62,7 +62,7 @@ This walkthrough demonstrates how to profile an application to identify performa
   
 #### To profile an application by using the sampling method  
   
-1.  Open [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)] with Administrator privileges. Running as an administrator is required for profiling.  
+1.  Open [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] with Administrator privileges. Running as an administrator is required for profiling.  
   
 2.  Open the PeopleTrax solution.  
   
@@ -80,7 +80,7 @@ This walkthrough demonstrates how to profile an application to identify performa
   
 6.  In **Which application would you like to target for profiling**, select PeopleTrax, and then click **Next**.  
   
-     [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)] builds the project and starts to profile the application. The **PeopleTrax** application window appears.  
+     [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] builds the project and starts to profile the application. The **PeopleTrax** application window appears.  
   
 7.  Click **Get People**.  
   
@@ -90,7 +90,7 @@ This walkthrough demonstrates how to profile an application to identify performa
   
 9. Close Notepad, and then close **PeopleTrax** application.  
   
-     The profiler generates a profiling data (\*.vsp) file, lists the file name in the Reports section of the Performance Explorer window, and automatically loads the **Summary** view of the data file in the main window of [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)].  
+     The profiler generates a profiling data (\*.vsp) file, lists the file name in the Reports section of the Performance Explorer window, and automatically loads the **Summary** view of the data file in the main window of [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)].  
   
 #### To analyze sampled profiling results  
   
@@ -108,9 +108,9 @@ This walkthrough demonstrates how to profile an application to identify performa
   
 5.  Rerun the performance session. On the Performance Explorer toolbar, click **Launch with Profiling**. Click **Get People** and then click **Export Data**. Close the Notepad window that appears and then close the People Trax application.  
   
-     A new profiling data file is generated, and a **Summary** view for the new data appears in the [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)] main window.  
+     A new profiling data file is generated, and a **Summary** view for the new data appears in the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] main window.  
   
-6.  To compare the two profiling runs, select the two data files in the Performance Explorer, right-click the files, and then click **Compare Performance Reports**. A Comparison Report window appears in the [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)] main window. The **Delta** column shows the change in the performance value of functions from the earlier **Baseline** value to the later **Comparison** value. You can select the values to compare from the **Column** drop down list. Select **Inclusive Samples %**.  
+6.  To compare the two profiling runs, select the two data files in the Performance Explorer, right-click the files, and then click **Compare Performance Reports**. A Comparison Report window appears in the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] main window. The **Delta** column shows the change in the performance value of functions from the earlier **Baseline** value to the later **Comparison** value. You can select the values to compare from the **Column** drop down list. Select **Inclusive Samples %**.  
   
      Notice that the GetPeople and GetNames methods show considerable performance gains.  
   
@@ -141,7 +141,7 @@ This walkthrough demonstrates how to profile an application to identify performa
   
 6.  Close **Notepad**, and then close **PeopleTrax** application.  
   
-     [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)] generates a performance session report (*.vsp).  
+     [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] generates a performance session report (*.vsp).  
   
 #### To analyze instrumented profiling results  
   

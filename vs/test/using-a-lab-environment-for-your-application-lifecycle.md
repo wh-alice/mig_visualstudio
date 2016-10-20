@@ -1,5 +1,5 @@
 ---
-title: "Using a Lab Environment for Your Application Lifecycle"
+title: "Using a Lab Environment for Your Application Lifecycle | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -79,7 +79,7 @@ You can create and manage lab environments with the Lab Management features of M
   
 -   **Network isolation:** Network isolation allows you to simultaneously run multiple identical copies of an SCVMM environment without computer name conflicts.  
   
--   **Virtual machine templates:** A virtual machine template is a virtual machine that has had its name and other identifiers removed. When a VM template is deployed in an SCVMM environment, [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] generates new identifiers. This allows you deploy multiple copies of a virtual machine in the same environment, or multiple environments, and then run the virtual machines simultaneously.  
+-   **Virtual machine templates:** A virtual machine template is a virtual machine that has had its name and other identifiers removed. When a VM template is deployed in an SCVMM environment, [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] generates new identifiers. This allows you deploy multiple copies of a virtual machine in the same environment, or multiple environments, and then run the virtual machines simultaneously.  
   
 -   **Stored Virtual Machines:** A virtual machine that is stored in your Team Project library and includes unique identifiers.  
   

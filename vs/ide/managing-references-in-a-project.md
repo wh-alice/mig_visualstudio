@@ -1,7 +1,7 @@
 ---
-title: "Managing references in a project"
+title: "Managing references in a project | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -93,7 +93,7 @@ Before you write code against an external component or connected service, your p
 6.  Click the **Windows** tab and then the **Extensions** sub-tab, then uncheck the checkboxes for the old Extension SDKs and check the checkboxes for the new Extension SDKs. Click **OK**.  
   
 ## Adding a Reference at Design Time  
- When you make a reference to an assembly in your project, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] searches for the assembly in the following locations:  
+ When you make a reference to an assembly in your project, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] searches for the assembly in the following locations:  
   
 -   The current project directory. (You can find these assemblies by using the **Browse** tab.)  
   
@@ -107,12 +107,12 @@ Before you write code against an external component or connected service, your p
 ## References to Shared Components at Run Time  
  At run time, components must be either in the output path of the project or in the [Global Assembly Cache](../Topic/Global%20Assembly%20Cache.md) (GAC). If the project contains a reference to an object that is not in one of these locations, you must copy the reference to the output path of the project when you build the project. The <xref:Microsoft.VisualStudio.VCProjectEngine.VCProjectReference.CopyLocal*> property indicates whether this copy has to be made. If the value is **True**, the reference is copied to the project directory when you build the project. If the value is **False**, the reference is not copied.  
   
- If you deploy an application that contains a reference to a custom component that is registered in the GAC, the component will not be deployed with the application, regardless of the <xref:Microsoft.VisualStudio.VCProjectEngine.VCProjectReference.CopyLocal*> setting. In earlier versions of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], you could set the <xref:Microsoft.VisualStudio.VCProjectEngine.VCProjectReference.CopyLocal*> property on a reference to ensure that the assembly was deployed. Now, you must manually add the assembly to the \Bin folder. This puts all custom code under scrutiny, reducing the risk of publishing custom code with which you are not familiar.  
+ If you deploy an application that contains a reference to a custom component that is registered in the GAC, the component will not be deployed with the application, regardless of the <xref:Microsoft.VisualStudio.VCProjectEngine.VCProjectReference.CopyLocal*> setting. In earlier versions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], you could set the <xref:Microsoft.VisualStudio.VCProjectEngine.VCProjectReference.CopyLocal*> property on a reference to ensure that the assembly was deployed. Now, you must manually add the assembly to the \Bin folder. This puts all custom code under scrutiny, reducing the risk of publishing custom code with which you are not familiar.  
   
  By default, the <xref:Microsoft.VisualStudio.VCProjectEngine.VCProjectReference.CopyLocal*> property is set to **False** if the assembly or component is in the global assembly cache or is a framework component. Otherwise, the value is set to **True**. Project-to-project references are always set to **True**.  
   
 ## Referencing a Project or Assembly That Targets a Different Version of the .NET Framework  
- You can create applications that reference projects or assemblies that target a different version of the .NET Framework. For example, you could create an application that targets the [!INCLUDE[net_client_v40_long](../deployment/includes/net_client_v40_long_md.md)] that references an assembly that targets [!INCLUDE[dnprdnext](../ide/includes/dnprdnext_md.md)]. If you create a project that targets an earlier version of the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)], you cannot set a reference in that project to a project or assembly that targets the [!INCLUDE[net_client_v40_long](../deployment/includes/net_client_v40_long_md.md)] or .NET Framework version 4.  
+ You can create applications that reference projects or assemblies that target a different version of the .NET Framework. For example, you could create an application that targets the [!INCLUDE[net_client_v40_long](../deployment/includes/net_client_v40_long_md.md)] that references an assembly that targets [!INCLUDE[dnprdnext](../ide/includes/dnprdnext_md.md)]. If you create a project that targets an earlier version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], you cannot set a reference in that project to a project or assembly that targets the [!INCLUDE[net_client_v40_long](../deployment/includes/net_client_v40_long_md.md)] or .NET Framework version 4.  
   
  For more information, see [Targeting a Specific .NET Framework Version](../ide/targeting-a-specific-.net-framework-version.md).  
   

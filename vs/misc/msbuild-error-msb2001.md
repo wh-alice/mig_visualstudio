@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB2001"
+title: "MSBuild Error MSB2001 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,11 +35,11 @@ translation.priority.ht:
 # MSBuild Error MSB2001
 **Element \<{0}> does not contain the required attribute "{1}".**  
   
- The project being converted was either modified, corrupted, or not created by [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+ The project being converted was either modified, corrupted, or not created by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 ### To correct this error  
   
--   Check whether the project file has been modified or corrupted. If it has been modified or corrupted, open the project in the version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] in which it was created, save it, and then attempt to convert it again.  
+-   Check whether the project file has been modified or corrupted. If it has been modified or corrupted, open the project in the version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] in which it was created, save it, and then attempt to convert it again.  
   
 ## See Also  
  [Devenv Command Line Switches](../reference/devenv-command-line-switches.md)   

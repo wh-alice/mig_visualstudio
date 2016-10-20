@@ -1,7 +1,7 @@
 ---
-title: "Method arguments must be enclosed in parentheses"
+title: "Method arguments must be enclosed in parentheses | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Method arguments must be enclosed in parentheses
-The rules governing procedure calls are simpler in newer versions of [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)]. All arguments must be enclosed by parentheses.  
+The rules governing procedure calls are simpler in newer versions of [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]. All arguments must be enclosed by parentheses.  
   
  **Error ID:** BC30800  
   

@@ -1,7 +1,7 @@
 ---
-title: "What&#39;s new for testing tools in 2015"
+title: "What&#39;s new for testing tools in 2015 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -29,9 +29,9 @@ translation.priority.ht:
 # What&#39;s new for testing tools in 2015
 Visual Studio now includes features for testers in these areas:  
   
--   [Generate unit tests for your code](../codequality/generate-unit-tests-for-your-code-with-intellitest.md). Explore your .NET code to generate test data and a suite of unit tests. For every statement in the code, a test input is generated that will execute that statement.  
+-   [Generate unit tests for your code](../code-quality/generate-unit-tests-for-your-code-with-intellitest.md). Explore your .NET code to generate test data and a suite of unit tests. For every statement in the code, a test input is generated that will execute that statement.  
   
--   [Create unit tests for your code](../codequality/unit-test-basics.md). Create a unit test project and unit test stubs from your code.  
+-   [Create unit tests for your code](../code-quality/unit-test-basics.md). Create a unit test project and unit test stubs from your code.  
   
 -   [Run cloud-based load tests where your users are](https://msdn.microsoft.com/en-us/library/dn250793%28v=vs.140%29.aspx) when you use Visual Studio Online. This generates load in an Azure datacenter that's closer to your users, reducing latency and simulating local conditions.  
   

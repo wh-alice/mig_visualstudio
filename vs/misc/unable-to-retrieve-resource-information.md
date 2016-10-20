@@ -1,7 +1,7 @@
 ---
-title: "Unable to retrieve resource information"
+title: "Unable to retrieve resource information | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -38,7 +38,7 @@ Scanning the hierarchy for .resx files failed.
   
  **To correct this error**  
   
--   Restart [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. If this does not work, call Microsoft Product Support Services to report the issue.  
+-   Restart [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. If this does not work, call Microsoft Product Support Services to report the issue.  
   
      This error will cause a build to fail.  
   

@@ -1,7 +1,7 @@
 ---
-title: "Unable to remove the last generated output"
+title: "Unable to remove the last generated output | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -40,4 +40,4 @@ The last known generated output was not removed from the disk and/or from the pr
   
  **To correct this error**  
   
--   Close and restart [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].
+-   Close and restart [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].

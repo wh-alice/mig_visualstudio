@@ -1,7 +1,7 @@
 ---
-title: "Upgrading Projects"
+title: "Upgrading Projects | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,7 +33,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Upgrading Projects
-Changes to the project model from one version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] to the next may require that projects and solutions be upgraded so that they can run on the newer version. The [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] provides interfaces that can be used to implement upgrade support in your own projects.  
+Changes to the project model from one version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to the next may require that projects and solutions be upgraded so that they can run on the newer version. The [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] provides interfaces that can be used to implement upgrade support in your own projects.  
   
 ## Upgrade Strategies  
  To support an upgrade, your project system implementation must define and implement an upgrade strategy. In determining your strategy, you can choose to support side-by-side (SxS) backup, copy backup, or both.  
@@ -43,7 +43,7 @@ Changes to the project model from one version of [!INCLUDE[vsprvs](../codequalit
 -   Copy backup means that a project copies all project items to a user-provided backup location. The relevant files at the original project location are then upgraded.  
   
 ## How Upgrade Works  
- When a solution created in an earlier version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] is opened in a newer version, the IDE checks the solution file to determine if it needs to be upgraded. If upgrading is required, the **Upgrade Wizard** is automatically launched to walk the user through the upgrade process.  
+ When a solution created in an earlier version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is opened in a newer version, the IDE checks the solution file to determine if it needs to be upgraded. If upgrading is required, the **Upgrade Wizard** is automatically launched to walk the user through the upgrade process.  
   
  When a solution needs upgrading, it queries each project factory for its upgrade strategy. The strategy determines whether the project factory supports copy backup or SxS backup. The information is sent to the **Upgrade Wizard**, which collects the information required for the backup and presents the applicable options to the user.  
   

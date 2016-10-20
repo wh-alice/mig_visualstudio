@@ -1,7 +1,7 @@
 ---
-title: "API Reference for Modeling SDK for Visual Studio"
+title: "API Reference for Modeling SDK for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,9 +36,9 @@ The Visual Studio Visualization and Modeling SDK provides the platform on which 
 |<xref:Microsoft.VisualStudio.Modeling.Integration?displayProperty=fullName>|The Modelbus API, which helps you integrate different models.|  
 |<xref:Microsoft.VisualStudio.Modeling.Integration.Picker?displayProperty=fullName>|The dialog box that lets users navigate to models and elements to create Modelbus references.|  
 |<xref:Microsoft.VisualStudio.Modeling.Integration.Picker.Hosting?displayProperty=fullName>|The Picker service.|  
-|<xref:Microsoft.VisualStudio.Modeling.Integration.Shell?displayProperty=fullName>|Modelbus adapter framework for [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].|  
+|<xref:Microsoft.VisualStudio.Modeling.Integration.Shell?displayProperty=fullName>|Modelbus adapter framework for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].|  
 |<xref:Microsoft.VisualStudio.Modeling.Integration.Shell.Picker?displayProperty=fullName>|The Picker dialog box that lets users navigate to models and elements to create Modelbus references.|  
-|<xref:Microsoft.VisualStudio.Modeling.Shell?displayProperty=fullName>|The interface between DSLs and [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].|  
+|<xref:Microsoft.VisualStudio.Modeling.Shell?displayProperty=fullName>|The interface between DSLs and [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].|  
 |<xref:Microsoft.VisualStudio.Modeling.Shell.ExtensionEnablement?displayProperty=fullName>|Lets you define shortcut (context) menu commands.|  
 |<xref:Microsoft.VisualStudio.Modeling.Validation?displayProperty=fullName>|Lets you define validation constraints.|  
   

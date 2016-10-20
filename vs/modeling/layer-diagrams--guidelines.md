@@ -1,7 +1,7 @@
 ---
-title: "Layer Diagrams: Guidelines"
+title: "Layer Diagrams: Guidelines | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -37,7 +37,7 @@ Describe your app's architecture at a high level by creating *layer diagrams* in
  To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
   
 ## What is a layer diagram?  
- Like a traditional architecture diagram, a layer diagram identifies the major components or functional units of the design and their interdependencies. Each node on the diagram, called a *layer*, represents a logical group of namespaces, projects, or other artifacts. You can draw the dependencies that should exist in your design. Unlike a traditional architecture diagram, you can verify that the actual dependencies in the source code conform to the intended dependencies that you have specified. By making validation part of a regular build on [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)], you can ensure that the program code continues to adhere to the system's architecture through future changes. See [Layer Diagrams: Reference](../modeling/layer-diagrams--reference.md).  
+ Like a traditional architecture diagram, a layer diagram identifies the major components or functional units of the design and their interdependencies. Each node on the diagram, called a *layer*, represents a logical group of namespaces, projects, or other artifacts. You can draw the dependencies that should exist in your design. Unlike a traditional architecture diagram, you can verify that the actual dependencies in the source code conform to the intended dependencies that you have specified. By making validation part of a regular build on [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)], you can ensure that the program code continues to adhere to the system's architecture through future changes. See [Layer Diagrams: Reference](../modeling/layer-diagrams--reference.md).  
   
 ##  <a name="Update"></a> How to design or update your app with layer diagrams  
  The following steps provide an overview of how to use layer diagrams within the development process. Later sections in this topic describe more detail about each step. If you are developing a new design, omit the steps that refer to existing code.  
@@ -47,7 +47,7 @@ Describe your app's architecture at a high level by creating *layer diagrams* in
   
 1.  [Create a layer diagram](#Create) for the whole application, or for a layer within it.  
   
-2.  [Define layers to represent primary functional areas or components](#CreateLayers) of your application. Name these layers according to their function, for example, "Presentation" or "Services". If you have a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] solution, you can associate each layer with a collection of *artifacts*, such as projects, namespaces, files, and so on.  
+2.  [Define layers to represent primary functional areas or components](#CreateLayers) of your application. Name these layers according to their function, for example, "Presentation" or "Services". If you have a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution, you can associate each layer with a collection of *artifacts*, such as projects, namespaces, files, and so on.  
   
 3.  [Discover the existing dependencies](#Generate) between layers.  
   
@@ -145,7 +145,7 @@ Describe your app's architecture at a high level by creating *layer diagrams* in
     -   Select one or more layers or dependencies, right-click, and then click **Properties**. In the **Properties** window, edit the **Color** property.  
   
 ##  <a name="Validate"></a> Validate the code against the diagram  
- When you have edited the diagram, you can validate it against the code manually at any time or automatically every time that you run a local build or [!INCLUDE[esprbuild](../codequality/includes/esprbuild_md.md)].  
+ When you have edited the diagram, you can validate it against the code manually at any time or automatically every time that you run a local build or [!INCLUDE[esprbuild](../code-quality/includes/esprbuild_md.md)].  
   
  See:  
   
@@ -165,7 +165,7 @@ Describe your app's architecture at a high level by creating *layer diagrams* in
 > [!NOTE]
 >  As you develop or refactor the code, you might have new artifacts to link to the layer diagram. However, this might not be necessary, for example, when you have layers that represent existing namespaces, and the new code only adds more material to those namespaces.  
   
- During the development process, you might want to suppress some of the reported conflicts during validation. For example, you might want to suppress errors that you are already addressing or that are not relevant to your particular scenario. When you suppress an error, it is a good practice to log a work item in [!INCLUDE[esprfound](../codequality/includes/esprfound_md.md)]. To perform this task, see [Validate code with layer diagrams](../modeling/validate-code-with-layer-diagrams.md).  
+ During the development process, you might want to suppress some of the reported conflicts during validation. For example, you might want to suppress errors that you are already addressing or that are not relevant to your particular scenario. When you suppress an error, it is a good practice to log a work item in [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)]. To perform this task, see [Validate code with layer diagrams](../modeling/validate-code-with-layer-diagrams.md).  
   
 ##  <a name="BuildValidation"></a> Include layer validation in the build process  
  To ensure that future changes in the code conform to the layer diagrams, include layer validation to your solution's standard build process. Whenever other team members build the solution, any differences between the dependencies in the code and the layer diagram will be reported as build errors. For more information about including layer validation in the build process, see [Validate code with layer diagrams](../modeling/validate-code-with-layer-diagrams.md).  

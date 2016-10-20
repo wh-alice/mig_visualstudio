@@ -1,7 +1,7 @@
 ---
-title: "Sharing Classes between DSLs by using a DSL Library"
+title: "Sharing Classes between DSLs by using a DSL Library | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,7 +13,7 @@ ms.author: "awills"
 manager: "kamrani"
 ---
 # Sharing Classes between DSLs by using a DSL Library
-In the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Visualization and Modeling SDK, you can create an incomplete DSL Definition that you can import into another DSL. This lets you factor common parts of similar models.  
+In the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Visualization and Modeling SDK, you can create an incomplete DSL Definition that you can import into another DSL. This lets you factor common parts of similar models.  
   
 ## Creating and using DSL Libraries  
   

@@ -1,7 +1,7 @@
 ---
-title: "Expression is of type &#39;&lt;typename&gt;&#39;, which is not a collection type"
+title: "Expression is of type &#39;&lt;typename&gt;&#39;, which is not a collection type | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,13 +35,13 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Expression is of type &#39;&lt;typename&gt;&#39;, which is not a collection type
-The group variable specified in a `For Each` statement is not a collection object or an array, and its type does not implement the <xref:System.Collections.IEnumerable> interface. The type must either support the [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] collection design pattern or implement <xref:System.Collections.IEnumerable>.  
+The group variable specified in a `For Each` statement is not a collection object or an array, and its type does not implement the <xref:System.Collections.IEnumerable> interface. The type must either support the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] collection design pattern or implement <xref:System.Collections.IEnumerable>.  
   
  **Error ID:** BC32023  
   
 ### To correct this error  
   
--   Declare the group variable to be of a class type that either supports the [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] collection design or implements <xref:System.Collections.IEnumerable>.  
+-   Declare the group variable to be of a class type that either supports the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] collection design or implements <xref:System.Collections.IEnumerable>.  
   
 ## See Also  
  <xref:System.Collections.IEnumerable>   

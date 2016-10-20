@@ -1,13 +1,13 @@
 ---
-title: "Attribute &#39;System.Runtime.InteropServices.DefaultCharSetAttribute&#39; is not supported in this version"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Attribute &#39;System.Runtime.InteropServices.DefaultCharSetAttribute&#39; is not supported in this version | Microsoft Docs"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bc32510"
@@ -37,7 +37,7 @@ translation.priority.mt:
 # Attribute &#39;System.Runtime.InteropServices.DefaultCharSetAttribute&#39; is not supported in this version
 The <xref:System.Runtime.InteropServices.DefaultCharSetAttribute?displayProperty=fullName> attribute allows you to specify the character set to be used in marshaled strings. Its value takes a member of the <xref:System.Runtime.InteropServices.CharSet?displayProperty=fullName> enumeration.  
   
- The current version of [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] does not support this attribute. Support is possible in future versions.  
+ The current version of [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] does not support this attribute. Support is possible in future versions.  
   
  **Error ID:** BC32510  
   

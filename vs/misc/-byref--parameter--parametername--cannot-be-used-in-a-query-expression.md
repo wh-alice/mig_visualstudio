@@ -1,7 +1,7 @@
 ---
-title: "&#39;ByRef&#39; parameter &lt;parametername&gt; cannot be used in a query expression"
+title: "&#39;ByRef&#39; parameter &lt;parametername&gt; cannot be used in a query expression | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

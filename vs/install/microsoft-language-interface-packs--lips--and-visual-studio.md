@@ -1,7 +1,7 @@
 ---
-title: "Microsoft Language Interface Packs (LIPs) and Visual Studio"
+title: "Microsoft Language Interface Packs (LIPs) and Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -83,7 +83,7 @@ By using a Windows Language Interface Pack (LIP), you can install a language ver
   
 ##### To correctly display characters that are not included in the current code page  
   
-1.  Click **Start**, click **Control Panel**, and then open **Regional and Language Options** (or **Region** in [!INCLUDE[win8](../codequality/includes/win8_md.md)]).  
+1.  Click **Start**, click **Control Panel**, and then open **Regional and Language Options** (or **Region** in [!INCLUDE[win8](../code-quality/includes/win8_md.md)]).  
   
     > [!NOTE]
     >  You must be an administrator on the computer to follow these steps.  
@@ -95,7 +95,7 @@ By using a Windows Language Interface Pack (LIP), you can install a language ver
 4.  Click **OK**.  
   
 ## Changing the Language Used for the UI Text in Visual Studio  
- When you install multiple language versions of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] on the same computer, the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] UI defaults to **Same as Microsoft Windows**. This setting indicates that [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] will display the UI text in the language that is specified as the display language for the operating system.  
+ When you install multiple language versions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] on the same computer, the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] UI defaults to **Same as Microsoft Windows**. This setting indicates that [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] will display the UI text in the language that is specified as the display language for the operating system.  
   
 > [!NOTE]
 >  If Visual Studio is set to use **Same as Microsoft Windows**, and the matching Visual Studio language pack is not installed, Visual Studio will use the language of the first Visual Studio installation.  

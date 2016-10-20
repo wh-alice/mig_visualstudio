@@ -1,7 +1,7 @@
 ---
-title: "How to: Insert a Delay Before a UI Action Using the Coded UI Test Editor"
+title: "How to: Insert a Delay Before a UI Action Using the Coded UI Test Editor | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/01/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -27,4 +27,4 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Insert a Delay Before a UI Action Using the Coded UI Test Editor
-The content of this topic has been consolidated with the parent page. See [Editing Coded UI Tests Using the Coded UI Test Editor](../codequality/editing-coded-ui-tests-using-the-coded-ui-test-editor.md).
+The content of this topic has been consolidated with the parent page. See [Editing Coded UI Tests Using the Coded UI Test Editor](../code-quality/editing-coded-ui-tests-using-the-coded-ui-test-editor.md).

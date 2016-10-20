@@ -1,7 +1,7 @@
 ---
-title: "Internal error (Visual Basic)"
+title: "Internal error (Visual Basic) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,7 +32,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Internal error (Visual Basic)
-An internal malfunction has occurred in [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)].  
+An internal malfunction has occurred in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)].  
   
 ### To correct this error  
   

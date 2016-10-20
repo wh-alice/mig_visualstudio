@@ -1,7 +1,7 @@
 ---
-title: "Project Type Not Available"
+title: "Project Type Not Available | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -38,11 +38,11 @@ This dialog box appears with the error "The project \<project> cannot be opened 
   
 ## Workaround  
   
--   This dialog box appears because a product or product version required to open the specified file was not found. It is common for this error to occur when attempting to open a project file that cannot be opened with the installed version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. For example, attempting to open a [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] project file with [!INCLUDE[vbprvbxprlong](../misc/includes/vbprvbxprlong_md.md)] will open this dialog box.  
+-   This dialog box appears because a product or product version required to open the specified file was not found. It is common for this error to occur when attempting to open a project file that cannot be opened with the installed version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. For example, attempting to open a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] project file with [!INCLUDE[vbprvbxprlong](../misc/includes/vbprvbxprlong_md.md)] will open this dialog box.  
   
 #### To work around this error  
   
--   Install the correct version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+-   Install the correct version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 ## See Also  
  [Porting, Migrating, and Upgrading Visual Studio Projects](../porting/porting--migrating--and-upgrading-visual-studio-projects.md)   

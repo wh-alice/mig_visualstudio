@@ -1,7 +1,7 @@
 ---
-title: "Installation and Deployment Frequently Asked Questions"
+title: "Installation and Deployment Frequently Asked Questions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -40,9 +40,9 @@ This topic addresses questions from the [!INCLUDE[vsipsdk](../extensibility/incl
 -   [Determining the LCID of a Visual Studio Installation Programmatically](#DeterminingtheLCIDofaVisualStudioInstallationProgrammatically)  
   
 ##  <a name="DeterminingtheLCIDofaVisualStudioInstallationProgrammatically"></a> Determining the LCID of a Visual Studio Installation Programmatically  
- **Q:** Is there a way to programmatically determine the LCID of a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] installation?  
+ **Q:** Is there a way to programmatically determine the LCID of a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] installation?  
   
- **A:**  <xref:Microsoft.VisualStudio.Shell.Interop.IUIHostLocale2.GetUILocale*> or <xref:Microsoft.VisualStudio.Shell.Interop.IUIHostLocale.GetUILocale*>will return the LCID of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] currently in use.  
+ **A:**  <xref:Microsoft.VisualStudio.Shell.Interop.IUIHostLocale2.GetUILocale*> or <xref:Microsoft.VisualStudio.Shell.Interop.IUIHostLocale.GetUILocale*>will return the LCID of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] currently in use.  
   
 ## See Also  
  [Releasing a Product](../misc/releasing-a-visual-studio-integration-product.md)

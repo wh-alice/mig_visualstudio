@@ -1,13 +1,13 @@
 ---
-title: "Collecting Application Statistics for Services by Using the Profiler Sampling Method"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Collecting Application Statistics for Services by Using the Profiler Sampling Method | Microsoft Docs"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 07840ab2-3a92-4744-ac87-48b19e0ceecd
 caps.latest.revision: 14

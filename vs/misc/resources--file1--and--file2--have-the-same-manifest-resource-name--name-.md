@@ -1,7 +1,7 @@
 ---
-title: "Resources &#39;file1&#39; and &#39;file2&#39; have the same manifest resource name &#39;name&#39;"
+title: "Resources &#39;file1&#39; and &#39;file2&#39; have the same manifest resource name &#39;name&#39; | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,7 +34,7 @@ translation.priority.mt:
 # Resources &#39;file1&#39; and &#39;file2&#39; have the same manifest resource name &#39;name&#39;
 The project system computed identical assembly resource names for two files whose `BuildAction` property is set to `EmbeddedResource` and that have a neutral culture. The build process will fail if this error occurs. For more information about the `BuildAction` property, see [File Properties](http://msdn.microsoft.com/en-us/013c4aed-08d6-4dce-a124-ca807ca08959).  
   
- Because [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] has no concept of folder-based namespaces, resource files names of:  
+ Because [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] has no concept of folder-based namespaces, resource files names of:  
   
 -   Proj1\FolderA\MyProj.bmp  
   

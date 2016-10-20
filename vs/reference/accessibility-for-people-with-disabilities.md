@@ -1,7 +1,7 @@
 ---
-title: "Accessibility for People with Disabilities"
+title: "Accessibility for People with Disabilities | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,7 +33,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Accessibility for People with Disabilities
-Microsoft is committed to making its products and services easier for everyone to use. The following topics provide information about the features, products, and services that make Microsoft [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] more accessible for people with disabilities.  
+Microsoft is committed to making its products and services easier for everyone to use. The following topics provide information about the features, products, and services that make Microsoft [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] more accessible for people with disabilities.  
   
 -   [Accessibility Features of Visual Studio](../reference/accessibility-features-of-visual-studio.md)  
   

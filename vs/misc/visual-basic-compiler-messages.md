@@ -1,7 +1,7 @@
 ---
-title: "Visual Basic Compiler Messages"
+title: "Visual Basic Compiler Messages | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,4 +33,4 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Visual Basic Compiler Messages
-This section contains the [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] error messages that occur at compile time.
+This section contains the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] error messages that occur at compile time.

@@ -1,7 +1,7 @@
 ---
-title: "Visual Studio Debugger Glossary"
+title: "Visual Studio Debugger Glossary | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,7 +32,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Visual Studio Debugger Glossary
-The following are terms used in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Debugging SDK.  
+The following are terms used in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Debugging SDK.  
   
 ## Terms  
  bound breakpoint  

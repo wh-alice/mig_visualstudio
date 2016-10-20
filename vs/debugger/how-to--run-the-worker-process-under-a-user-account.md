@@ -1,5 +1,5 @@
 ---
-title: "How to: Run the Worker Process Under a User Account"
+title: "How to: Run the Worker Process Under a User Account | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
@@ -40,7 +40,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Run the Worker Process Under a User Account
-To set up your computer so that you can run the [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] worker process (aspnet_wp.exe or w3wp.exe) under a user account, follow these steps.  
+To set up your computer so that you can run the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] worker process (aspnet_wp.exe or w3wp.exe) under a user account, follow these steps.  
   
 ## Procedure  
   
@@ -76,7 +76,7 @@ To set up your computer so that you can run the [!INCLUDE[vstecasp](../codequali
     net start w3svc  
     ```  
   
-6.  Locate the Temporary [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] Files folder, which should be in the same path as the CONFIG folder. Right-click the Temporary [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] Files folder and choose **Properties** on the shortcut menu.  
+6.  Locate the Temporary [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Files folder, which should be in the same path as the CONFIG folder. Right-click the Temporary [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Files folder and choose **Properties** on the shortcut menu.  
   
 7.  In the **Temporary ASP.NET Files Properties** dialog box, click the **Security** tab.  
   

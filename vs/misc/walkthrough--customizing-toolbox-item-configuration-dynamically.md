@@ -1,7 +1,7 @@
 ---
-title: "Walkthrough: Customizing Toolbox Item Configuration Dynamically"
+title: "Walkthrough: Customizing Toolbox Item Configuration Dynamically | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -85,7 +85,7 @@ This walkthrough shows how a managed VSPackage can supply dynamic configuration 
   
      Name the command `Initialize ItemConfigurationVB` for Visual Basic or `Initialize ItemConfigurationCS` for Visual C#.  
   
-3.  For [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)], add the following namespaces to the imported namespaces list in the generated project:  
+3.  For [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)], add the following namespaces to the imported namespaces list in the generated project:  
   
     -   Company.ItemConfiguration  
   
@@ -103,7 +103,7 @@ This walkthrough shows how a managed VSPackage can supply dynamic configuration 
   
 #### To disambiguate Visual Basic and Visual C# VSPackages  
   
-1.  For [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)]:  
+1.  For [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]:  
   
     1.  Open the project properties, and select the **Application** tab.  
   
@@ -117,7 +117,7 @@ This walkthrough shows how a managed VSPackage can supply dynamic configuration 
   
          Add Company.ItemConfigurationVB.  
   
-2.  For [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)]:  
+2.  For [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)]:  
   
     1.  Open the project properties, and select the **Application** tab.  
   
@@ -137,7 +137,7 @@ This walkthrough shows how a managed VSPackage can supply dynamic configuration 
   
      Doing this opens a message box that contains text that indicates that the package's menu item handler was called.  
   
-3.  Close the experimental version of [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)].  
+3.  Close the experimental version of [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)].  
   
 ## Creating Toolbox Controls  
  In this section, you create and register a user control, `Control1`, that declares an associated default **Toolbox** item. You also create and register a second user control, `Control2`, and an associated custom **Toolbox** item, `Control2_ToolboxItem`, that is derived from the <xref:System.Drawing.Design.ToolboxItem> class. For more information about how to author Windows Forms controls and <xref:System.Drawing.Design.ToolboxItem> classes, see [Developing Windows Forms Controls at Design Time](../Topic/Developing%20Windows%20Forms%20Controls%20at%20Design%20Time.md).  
@@ -192,10 +192,10 @@ This walkthrough shows how a managed VSPackage can supply dynamic configuration 
 5.  Save all open files.  
   
 ## Adding a Dynamic Toolbox Configuration Provider  
- In this section, you create and register a class that implements the <xref:Microsoft.VisualStudio.Shell.IConfigureToolboxItem> interface. This class is instantiated and used by the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE) to configure **Toolbox** controls.  
+ In this section, you create and register a class that implements the <xref:Microsoft.VisualStudio.Shell.IConfigureToolboxItem> interface. This class is instantiated and used by the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) to configure **Toolbox** controls.  
   
 > [!NOTE]
->  Because the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] environment instantiates an instance of the implementation of <xref:Microsoft.VisualStudio.Shell.IConfigureToolboxItem>, do not implement the <xref:Microsoft.VisualStudio.Shell.IConfigureToolboxItem> interface on the class that implements <xref:Microsoft.VisualStudio.Shell.Package> for a VSPackage.  
+>  Because the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] environment instantiates an instance of the implementation of <xref:Microsoft.VisualStudio.Shell.IConfigureToolboxItem>, do not implement the <xref:Microsoft.VisualStudio.Shell.IConfigureToolboxItem> interface on the class that implements <xref:Microsoft.VisualStudio.Shell.Package> for a VSPackage.  
   
 #### To create and register a toolbox control configuration object  
   
@@ -210,9 +210,9 @@ This walkthrough shows how a managed VSPackage can supply dynamic configuration 
   
 4.  Apply a <xref:System.Runtime.InteropServices.GuidAttribute> and a <xref:Microsoft.VisualStudio.Shell.ProvideAssemblyFilterAttribute> to the `ToolboxConfig` class`.`  
   
-    -   For [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)], use an assembly name of `"ItemConfigurationVB, Version=*, Culture=*, PublicKeyToken=*"`.  
+    -   For [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)], use an assembly name of `"ItemConfigurationVB, Version=*, Culture=*, PublicKeyToken=*"`.  
   
-    -   For [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)], use an assembly name of `"ItemConfigurationCS, Version=*, Culture=*, PublicKeyToken=*"`.  
+    -   For [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)], use an assembly name of `"ItemConfigurationCS, Version=*, Culture=*, PublicKeyToken=*"`.  
   
      Doing this restricts the `ToolboxConfig` class to working on <xref:System.Drawing.Design.ToolboxItem> objects that are provided by the assembly that contains the current VSPackage.  
   
@@ -233,7 +233,7 @@ This walkthrough shows how a managed VSPackage can supply dynamic configuration 
 [!code[DynamicToolboxMembers#05](../misc/codesnippet/VisualBasic/walkthrough--customizing-toolbox-item-configuration-dynamically_5.vb)]  
   
 ## Modifying the VSPackage Implementation  
- The default implementation of the VSPackage that is provided by the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Package template must be modified to do the following things:  
+ The default implementation of the VSPackage that is provided by the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Package template must be modified to do the following things:  
   
 -   Register as a **Toolbox** item provider.  
   
@@ -289,7 +289,7 @@ This walkthrough shows how a managed VSPackage can supply dynamic configuration 
      [!code[DynamicToolboxMembers#10](../misc/codesnippet/VisualBasic/walkthrough--customizing-toolbox-item-configuration-dynamically_10.vb)]
 [!code[DynamicToolboxMembers#10](../misc/codesnippet/CSharp/walkthrough--customizing-toolbox-item-configuration-dynamically_10.cs)]  
   
-4.  For [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)], in the constructor, register the `OnRefreshToolbox` method as the event hander for the <xref:Microsoft.VisualStudio.Shell.Package.ToolboxInitialized> and <xref:Microsoft.VisualStudio.Shell.Package.ToolboxUpgraded> events.  
+4.  For [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)], in the constructor, register the `OnRefreshToolbox` method as the event hander for the <xref:Microsoft.VisualStudio.Shell.Package.ToolboxInitialized> and <xref:Microsoft.VisualStudio.Shell.Package.ToolboxUpgraded> events.  
   
      [!code[DynamicToolboxMembers#11](../misc/codesnippet/CSharp/walkthrough--customizing-toolbox-item-configuration-dynamically_11.cs)]  
   
@@ -321,7 +321,7 @@ This walkthrough shows how a managed VSPackage can supply dynamic configuration 
   
 1.  In Visual Studio, on the **Build** menu, click **Rebuild Solution**.  
   
-2.  Press F5 to start a second instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] in the experimental registry hive.  
+2.  Press F5 to start a second instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] in the experimental registry hive.  
   
      For more information about how to use the experimental hive, see [The Experimental Instance](../extensibility/the-experimental-instance.md).  
   
@@ -329,7 +329,7 @@ This walkthrough shows how a managed VSPackage can supply dynamic configuration 
   
      A command named **Initialize ItemConfiguration VB** or **Initialize ItemConfiguration CS** appears at the top of the menu, together with an icon that has the numeral 1.  
   
-4.  Create a new [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] or [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] Windows Forms application.  
+4.  Create a new [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] or [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] Windows Forms application.  
   
      A <xref:System.Windows.Forms.Form>-based designer appears.  
   

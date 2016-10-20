@@ -1,7 +1,7 @@
 ---
-title: "An embedded expression may not be used here"
+title: "An embedded expression may not be used here | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

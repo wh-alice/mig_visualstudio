@@ -1,7 +1,7 @@
 ---
-title: "How to: Brand a VSPackage (C++)"
+title: "How to: Brand a VSPackage (C++) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,7 +33,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # How to: Brand a VSPackage (C++)
-To appear in the **Help About** dialog box and the splash screen, VSPackages must implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsInstalledProduct> interface. Doing this provides the following information to [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]:  
+To appear in the **Help About** dialog box and the splash screen, VSPackages must implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsInstalledProduct> interface. Doing this provides the following information to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]:  
   
 -   Name  
   

@@ -1,7 +1,7 @@
 ---
-title: "Troubleshooting Exceptions: System.Data.InRowChangingEventException"
+title: "Troubleshooting Exceptions: System.Data.InRowChangingEventException | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -38,4 +38,4 @@ The exception that is thrown when calling the <xref:System.Data.DataRow.EndEdit*
 ## See Also  
  <xref:System.Data.InRowChangingEventException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)   
- [Editing Data in Your Application](../datatools/editing-data-in-your-application.md)
+ [Editing Data in Your Application](../data-tools/editing-data-in-your-application.md)

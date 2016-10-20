@@ -1,7 +1,7 @@
 ---
-title: "VSPackage Essentials"
+title: "VSPackage Essentials | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,9 +31,9 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # VSPackage Essentials
-VSPackages are software modules that make up and extend Visual Studio with UI elements, services, projects, editors, and designers. VSPackages are the central architectural unit of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] itself is written mostly as a collection of VSPackages.  
+VSPackages are software modules that make up and extend Visual Studio with UI elements, services, projects, editors, and designers. VSPackages are the central architectural unit of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] itself is written mostly as a collection of VSPackages.  
   
- To create a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] extensibility application, you first create a VSPackage. You can then add menu commands, tool windows, document windows, or other code to extend the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] IDE.  
+ To create a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] extensibility application, you first create a VSPackage. You can then add menu commands, tool windows, document windows, or other code to extend the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE.  
   
  To use VSPackages, you need to install the Visual Studio SDK. To follow this walkthrough, you must install the Visual Studio SDK. For more information, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).  
   

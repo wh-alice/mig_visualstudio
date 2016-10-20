@@ -1,7 +1,7 @@
 ---
-title: "Graphics Log Document"
+title: "Graphics Log Document | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -120,7 +120,7 @@ The Graphics Log document is the record of graphics events that occurred while y
   
 |Property|Description|  
 |--------------|-----------------|  
-|**Created by**|The name of the app that created the graphics log document. For example, if the capture session was initiated from [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] (manual capture) the value of this property is [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].|  
+|**Created by**|The name of the app that created the graphics log document. For example, if the capture session was initiated from [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] (manual capture) the value of this property is [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].|  
 |**Session Start Time**|The date and time that the capture session began.|  
 |**Size**|The size of the graphics log document.|  
   

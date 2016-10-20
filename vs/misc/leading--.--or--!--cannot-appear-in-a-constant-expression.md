@@ -1,7 +1,7 @@
 ---
-title: "Leading &#39;.&#39; or &#39;!&#39; cannot appear in a constant expression"
+title: "Leading &#39;.&#39; or &#39;!&#39; cannot appear in a constant expression | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

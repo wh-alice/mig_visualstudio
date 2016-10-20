@@ -1,7 +1,7 @@
 ---
-title: "Web performance and load testing SharePoint 2010 and 2013 applications"
+title: "Web performance and load testing SharePoint 2010 and 2013 applications | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -114,9 +114,9 @@ You can use web performance and load tests on your SharePoint applications to ve
  *What else should I know?*  
  **Notes**  
   
--   ![Prerequsite](../codequality/media/prereq.png "Prereq") Web performance tests for SharePoint applications are supported only with SharePoint 2010 and SharePoint 2013.  
+-   ![Prerequsite](../code-quality/media/prereq.png "Prereq") Web performance tests for SharePoint applications are supported only with SharePoint 2010 and SharePoint 2013.  
   
--   ![Prerequsite](../codequality/media/prereq.png "Prereq") [Coded web performance tests](../test_notintoc/how-to--create-a-coded-web-performance-test.md) are not supported for SharePoint applications.  
+-   ![Prerequsite](../code-quality/media/prereq.png "Prereq") [Coded web performance tests](../test_notintoc/how-to--create-a-coded-web-performance-test.md) are not supported for SharePoint applications.  
   
      A *coded Web performance test* is typically created by converting an existing, recorded Web performance test into a code. A coded Web performance test is a .NET class that generates a sequence of WebTestRequests. It can be programmed by using either C# or Visual Basic.  
   
@@ -373,7 +373,7 @@ You can use web performance and load tests on your SharePoint applications to ve
 ## See Also  
  [Web performance and load tests in Visual Studio](../test_notintoc/web-performance-and-load-tests-in-visual-studio.md)   
  [Create SharePoint Solutions](../Topic/Create%20SharePoint%20Solutions.md)   
- [Testing SharePoint 2010 Applications with Coded UI Tests](../codequality/testing-sharepoint-2010-applications-with-coded-ui-tests.md)   
+ [Testing SharePoint 2010 Applications with Coded UI Tests](../code-quality/testing-sharepoint-2010-applications-with-coded-ui-tests.md)   
  [Verifying and Debugging SharePoint Code](../Topic/Verifying%20and%20Debugging%20SharePoint%20Code.md)   
  [Building and Debugging SharePoint Solutions](../Topic/Building%20and%20Debugging%20SharePoint%20Solutions.md)   
  [Profiling the Performance of SharePoint Applications](../Topic/Profiling%20the%20Performance%20of%20SharePoint%20Applications.md)

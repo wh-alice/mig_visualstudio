@@ -1,7 +1,7 @@
 ---
-title: "Plan your lab"
+title: "Plan your lab | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -51,7 +51,7 @@ As you prepare for widespread use of Lab Management in your test lab, several qu
   
 -   **Set up everything on a single machine.** Only if you will use a single machine just for demonstration or proof of concept purposes should you set up all the components on a single machine.  
   
--   **Use the NetworkService account as the service account for [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] if your instance of [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] uses more than one server to run the logical application tier, and you will be using the Lab Management feature of Visual Studio** Using the NetworkService account requires more manual work later to maintain the physical host machines for virtual environments. This extra work is necessary because the NetworkService account for each new application-tier machine has to be added to the local Administrator group on each physical host machine. For example, if you run a virtual lab with 20 physical hosts and add or replace an application-tier machine, you would then have to update each of the 20 host machines with the name of the new application-tier machine and assign permissions. Instead of using the NetworkService account, use a standard domain user account and password for the TFSservice account. By doing this, the domain user account is added once at the initial configuration of the physical host and each subsequent application-tier machine uses the same account. For more information about the limitations of the NetworkService account, see [NetworkService Account](http://go.microsoft.com/fwlink/?LinkID=195387).  
+-   **Use the NetworkService account as the service account for [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] if your instance of [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] uses more than one server to run the logical application tier, and you will be using the Lab Management feature of Visual Studio** Using the NetworkService account requires more manual work later to maintain the physical host machines for virtual environments. This extra work is necessary because the NetworkService account for each new application-tier machine has to be added to the local Administrator group on each physical host machine. For example, if you run a virtual lab with 20 physical hosts and add or replace an application-tier machine, you would then have to update each of the 20 host machines with the name of the new application-tier machine and assign permissions. Instead of using the NetworkService account, use a standard domain user account and password for the TFSservice account. By doing this, the domain user account is added once at the initial configuration of the physical host and each subsequent application-tier machine uses the same account. For more information about the limitations of the NetworkService account, see [NetworkService Account](http://go.microsoft.com/fwlink/?LinkID=195387).  
   
 ### Planning for System Center Virtual Machine Manager  
  **Don’t**  
@@ -74,7 +74,7 @@ As you prepare for widespread use of Lab Management in your test lab, several qu
   
     -   Windows Server 2008 R2 operating system  
   
-     If you expect to have more than 50 VMs, increase these resources. If you plan to install SCVMM along with some other software on the same machine, give SCVMM server the amount of resources that were described earlier in this topic. However, be sure to determine the amount after you deduct the resource consumption of the other software. For instance, if you want to install SCVMM on the machine that is running [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)], add the requirements to those of [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)], and then ensure that the machine has enough capacity.  
+     If you expect to have more than 50 VMs, increase these resources. If you plan to install SCVMM along with some other software on the same machine, give SCVMM server the amount of resources that were described earlier in this topic. However, be sure to determine the amount after you deduct the resource consumption of the other software. For instance, if you want to install SCVMM on the machine that is running [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)], add the requirements to those of [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)], and then ensure that the machine has enough capacity.  
   
 -   **Provide the server that runs the library at least 200GB of free space on the hard disk drive.** In the default installation, make sure that the drive used by the library share has more than 200GB free space.  
   
@@ -82,18 +82,18 @@ As you prepare for widespread use of Lab Management in your test lab, several qu
   
 -   **Use a hard disk drive with sufficient speed for the library.** If you plan to use the library lightly, a hard disk with sufficient speed will be sufficient. If you plan to use the library moderately, use a RAID 5 disk configuration with 6 to 12 disks for better throughput. If you plan to use the library heavily, use multiple library servers. You can use direct-attached storage or SAN. When using SAN, create a LUN to be used solely for library machine.  
   
--   **Run [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] under a regular domain user account instead of the network service account.** This is required if you put [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] and SCVMM on the same machine.  
+-   **Run [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] under a regular domain user account instead of the network service account.** This is required if you put [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] and SCVMM on the same machine.  
   
 -   **If SCVMM is installed on a Hyper-V host, store the Hyper-V hosted virtual machines on a different hard disk drive than the SCVMM library.** For example, use C: from one disk for the library, and D: from another disk for Hyper-V virtual machines. SCVMM server, in this case, will be running in the primary OS in Hyper-V. This ensures that when the primary OS is loaded, all guest OS (VMs deployed in Hyper-V) will be impacted. To reduce this impact, configure the host reserves for that machine by adding the Hyper-V host reserves (described below) to the SCVMM machine requirements mentioned earlier. Host reserves can be configured using the SCVMM Administrator Console.  
   
--   **Provide line-of-sight network routing between SCVMM and [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)], hosts, and other library servers.**  
+-   **Provide line-of-sight network routing between SCVMM and [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)], hosts, and other library servers.**  
   
 -   **Update the SCVMM machine with all the latest Windows updates and ensure these updates get applied automatically.** If this is not feasible, you should plan to keep track of Windows and SCVMM updates, and apply them manually as they become available.  
   
 ### Planning for the Hyper-V hosts  
  **Don’t**  
   
--   **Install any additional software such as [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] on the physical host machine.** If you have sufficiently powerful hosts (exceeding the aggregate needs of the hypervisor and virtual machines), then you can have SCVMM or library server co-located on the host, as long as you also account for the resource constraints of those servers. For example, if you want to install SCVMM on a Hyper-V host machine, then add the host requirements, virtual machine requirements, and SCVMM requirements, and then ensure that the machine has enough capacity.  
+-   **Install any additional software such as [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] on the physical host machine.** If you have sufficiently powerful hosts (exceeding the aggregate needs of the hypervisor and virtual machines), then you can have SCVMM or library server co-located on the host, as long as you also account for the resource constraints of those servers. For example, if you want to install SCVMM on a Hyper-V host machine, then add the host requirements, virtual machine requirements, and SCVMM requirements, and then ensure that the machine has enough capacity.  
   
 -   **Use clustering with Hyper-V host servers.** Lab Management supports clustering in SCVMM environments.  
   
@@ -141,7 +141,7 @@ As you prepare for widespread use of Lab Management in your test lab, several qu
   
 -   For a Hyper-V host to be used as a library server as well, you must have multiple disks in the machine. You should use separate hard disks on the host for the virtual machines and for the library storage.  
   
--   **Provide the Hyper-V host with line-of-sight networking to [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)], SCVMM, and other library servers.**  
+-   **Provide the Hyper-V host with line-of-sight networking to [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)], SCVMM, and other library servers.**  
   
 -   **If the Hyper-V hosts are in different geographic locations, have a local library server for each location as well.**  
   
@@ -156,16 +156,16 @@ As you prepare for widespread use of Lab Management in your test lab, several qu
   
 -   **Use more than one build controller when building and deploying an application for testing.** The first controller is used by the build process and is not heavily utilized. The second controller is used to deploy the build to virtual machines and run tests; therefore, it can be heavily used if there are a large number of virtual machines in your lab. The second controller is also used to take snapshots of the environment.  
   
--   **Use test controllers in the same domain as [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)].** If esprtfs and a test controller are in a workgroup or untrusted domain, you must create a local user account with same user name and password on both machines, add this user on Team Foundation Server to the "[Project Collection]\Project Collection Test Service Accounts" security group, and then register the test controller with team project collection using this local account.  
+-   **Use test controllers in the same domain as [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)].** If esprtfs and a test controller are in a workgroup or untrusted domain, you must create a local user account with same user name and password on both machines, add this user on Team Foundation Server to the "[Project Collection]\Project Collection Test Service Accounts" security group, and then register the test controller with team project collection using this local account.  
   
 ## Planning for Topology  
  **Do**  
   
 -   **Use a gigabit network to connect the server where SCVMM is installed to the library servers and to the Hyper-V hosts.**  
   
--   **Establish a full, two-way trust relationship among the domains where [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)], the test controller, the build controller, SCVMM, and the physical host of the virtual machines are running.**  
+-   **Establish a full, two-way trust relationship among the domains where [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)], the test controller, the build controller, SCVMM, and the physical host of the virtual machines are running.**  
   
- There are several topologies you can use when setting up [!INCLUDE[vstsLabShort](../test/includes/vstslabshort_md.md)] for testing your application. The simplest topology for using [!INCLUDE[vstsLabShort](../test/includes/vstslabshort_md.md)] requires only two servers: install all [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] components on the same server and install all SCVMM 2008 components on an additional server. Alternatively, you might have complex networking topology requirements that restrict the networks in which [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)], SCVMM, Hyper-V hosts, and virtual machines running the application-under-test can be located. In another alternative, you might want to configure network load balancing for your [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)]. The following list suggests several possible dimensions for your topology and the variations within each dimension.  
+ There are several topologies you can use when setting up [!INCLUDE[vstsLabShort](../test/includes/vstslabshort_md.md)] for testing your application. The simplest topology for using [!INCLUDE[vstsLabShort](../test/includes/vstslabshort_md.md)] requires only two servers: install all [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] components on the same server and install all SCVMM 2008 components on an additional server. Alternatively, you might have complex networking topology requirements that restrict the networks in which [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)], SCVMM, Hyper-V hosts, and virtual machines running the application-under-test can be located. In another alternative, you might want to configure network load balancing for your [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)]. The following list suggests several possible dimensions for your topology and the variations within each dimension.  
   
  **Networking**  
   
@@ -208,28 +208,28 @@ As you prepare for widespread use of Lab Management in your test lab, several qu
  The following four sample topologies are examples of how you can set up combinations of the above dimensions according to your testing needs.  
   
 ### Sample Topology 1  
- The [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] logical application tier is run on several servers and those servers are controlled by a network load balancer. There is also a separate test network with firewall settings to control the test traffic into and out of the domain network. The following diagram illustrates topology 1.  
+ The [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] logical application tier is run on several servers and those servers are controlled by a network load balancer. There is also a separate test network with firewall settings to control the test traffic into and out of the domain network. The following diagram illustrates topology 1.  
   
  ![All machines joined to corporate network](../test/media/labtopology1.png "LabTopology1")  
   
  For instructions to set up this topology, see [Setting up various topologies to test with Visual Studio Lab Management – Part 1](http://go.microsoft.com/fwlink/?LinkId=194998).  
   
 ### Sample Topology 2  
- The [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] logical application tier and data tiers are run on several servers, but those servers are not controlled by a load balancer. There is also a separate test network with a SAN-based library and host. The following diagram illustrates topology 2.  
+ The [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] logical application tier and data tiers are run on several servers, but those servers are not controlled by a load balancer. There is also a separate test network with a SAN-based library and host. The following diagram illustrates topology 2.  
   
  ![Machines without load balancer but with SAN](../test/media/labtopology2.png "LabTopology2")  
   
  For instructions to set up this topology, see [Setting up various topologies to test with Visual Studio Lab Management – Part 2](http://go.microsoft.com/fwlink/?LinkId=195001).  
   
 ### Sample Topology 3  
- The [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] logical application tier is run on several servers and those servers are controlled by a network load balancer. There is also a separate test network. The applications being tested make calls to a database outside the virtual environment. The following diagram illustrates topology 3.  
+ The [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] logical application tier is run on several servers and those servers are controlled by a network load balancer. There is also a separate test network. The applications being tested make calls to a database outside the virtual environment. The following diagram illustrates topology 3.  
   
  ![Machines with database outside the environment](../test/media/labtopology3.png "LabTopology3")  
   
  For instructions to set up this topology, see [Setting up various topologies to test with Visual Studio Lab Management – Part 3](http://go.microsoft.com/fwlink/?LinkId=195002).  
   
 ### Sample Topology 4  
- The [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] logical application tier and data tiers are run on several servers and those servers are controlled by a network load balancer. The test network and environments are in a separate domain. The following diagram illustrates topology 4.  
+ The [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] logical application tier and data tiers are run on several servers and those servers are controlled by a network load balancer. The test network and environments are in a separate domain. The following diagram illustrates topology 4.  
   
  ![Machines inside two domains](../test/media/labtopology4.png "LabTopology4")  
   

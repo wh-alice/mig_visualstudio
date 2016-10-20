@@ -1,7 +1,7 @@
 ---
-title: "How to: Add Context Parameters to a Load Test Run Setting"
+title: "How to: Add Context Parameters to a Load Test Run Setting | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -30,7 +30,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Add Context Parameters to a Load Test Run Setting
-After you create your load test by using the **New Load Test Wizard**, you can use the **Load Test Editor** to change the scenarios properties to meet your testing needs and goals. [!INCLUDE[crdefault](../codequality/includes/crdefault_md.md)][Creating load tests](../test_notintoc/creating-load-tests.md).  
+After you create your load test by using the **New Load Test Wizard**, you can use the **Load Test Editor** to change the scenarios properties to meet your testing needs and goals. [!INCLUDE[crdefault](../code-quality/includes/crdefault_md.md)][Creating load tests](../test_notintoc/creating-load-tests.md).  
   
 > [!NOTE]
 >  For a full list of the run settings properties and their descriptions, see [Load Test Run Settings Properties](../test/load-test-run-settings-properties.md).  

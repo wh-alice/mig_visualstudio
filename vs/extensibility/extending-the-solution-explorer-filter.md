@@ -1,7 +1,7 @@
 ---
-title: "Extending the Solution Explorer Filter"
+title: "Extending the Solution Explorer Filter | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

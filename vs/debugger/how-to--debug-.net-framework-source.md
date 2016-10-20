@@ -1,7 +1,7 @@
 ---
-title: "How to: Debug .NET Framework Source"
+title: "How to: Debug .NET Framework Source | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,9 +36,9 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Debug .NET Framework Source
-The most recent version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] provides new features for [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] debugging. To debug [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] source, you must have access to debugging symbols for the code. You also need to enable stepping into [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] source.  
+The most recent version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] provides new features for [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] debugging. To debug [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] source, you must have access to debugging symbols for the code. You also need to enable stepping into [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] source.  
   
- You can enable [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] stepping and symbol downloading in the **Options** dialog box. When you enable symbol downloading, you can choose to download symbols immediately or just enable the option for later downloading. If you do not download the symbols immediately, symbols will be downloaded the next time that you start debugging your application. You also can do a manual download from the **Modules** window or the **Call Stack** window.  
+ You can enable [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] stepping and symbol downloading in the **Options** dialog box. When you enable symbol downloading, you can choose to download symbols immediately or just enable the option for later downloading. If you do not download the symbols immediately, symbols will be downloaded the next time that you start debugging your application. You also can do a manual download from the **Modules** window or the **Call Stack** window.  
   
 ### To enable .NET Framework source debugging  
   

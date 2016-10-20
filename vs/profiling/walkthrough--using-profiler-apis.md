@@ -1,7 +1,7 @@
 ---
-title: "Walkthrough: Using Profiler APIs"
+title: "Walkthrough: Using Profiler APIs | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,7 +32,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Walkthrough: Using Profiler APIs
-The walkthrough uses a C# application to demonstrate how to use the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Profiling Tools APIs. You will use the profiler APIs to limit the amount of data that is collected during instrumentation profiling.  
+The walkthrough uses a C# application to demonstrate how to use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools APIs. You will use the profiler APIs to limit the amount of data that is collected during instrumentation profiling.  
   
  The steps in this walkthrough generally apply to a C/C++ application. For each language, you will have to configure your build environment appropriately.  
   
@@ -129,7 +129,7 @@ DataCollection.CurrentId);
   
 #### To collect and view data in the Visual Studio IDE  
   
-1.  Open the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] IDE. On to the **Analyze** menu, point to **Profiler**, and then select **New Performance Session.**  
+1.  Open the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE. On to the **Analyze** menu, point to **Profiler**, and then select **New Performance Session.**  
   
 2.  Add your compiled binary to the **Targets** list in the **Performance Explorer** window. Right-click **Targets**, and then select **Add Target Binary**. Locate the binary in the **Add Target Binary** dialog box, and then click **Open**.  
   

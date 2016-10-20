@@ -1,7 +1,7 @@
 ---
-title: "Internal compiler error"
+title: "Internal compiler error | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -41,7 +41,7 @@ An internal error occurred during expression evaluation.
   
 ### To correct this error  
   
--   Restart [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+-   Restart [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 ## See Also  
  [PAVE Product Support](http://msdn.microsoft.com/en-us/77e75b8b-817d-45bf-9c38-458930d873b4)

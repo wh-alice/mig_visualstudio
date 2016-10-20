@@ -1,7 +1,7 @@
 ---
-title: "EnableLocationBrowseButton Element (Visual Studio Templates)"
+title: "EnableLocationBrowseButton Element (Visual Studio Templates) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -71,7 +71,7 @@ Specifies whether the **Browse** button is available in the **New Project** dial
  In the **New Project** dialog box, the **Location** text box specifies the directory where a new project is saved. The **Browse** button helps you modify this directory by displaying the **Project Location** dialog box, which enables you to easily navigate to a different directory that is available from your computer, and then choose it as the directory where the new project is saved.  
   
 ## Example  
- The following example illustrates the metadata for a [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] Windows application.  
+ The following example illustrates the metadata for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] Windows application.  
   
 ```  
 <VSTemplate Type="Project" Version="3.0.0"  

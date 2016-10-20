@@ -1,7 +1,7 @@
 ---
-title: "How to: Choose Sampling Events"
+title: "How to: Choose Sampling Events | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -40,7 +40,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # How to: Choose Sampling Events
-By default, the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Profiling Tools collects performance data at an interval that is specified as a number of processor cycles that are used by the profiled process. The default number of cycles in an interval is 10,000,000, which is approximately 0.01 seconds on a 1 GH computer. You can change the number of cycles in an interval, and you can change the sample event. The following sample events are available:  
+By default, the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools collects performance data at an interval that is specified as a number of processor cycles that are used by the profiled process. The default number of cycles in an interval is 10,000,000, which is approximately 0.01 seconds on a 1 GH computer. You can change the number of cycles in an interval, and you can change the sample event. The following sample events are available:  
   
 -   Clock cycles - for CPU-bound problems.  
   

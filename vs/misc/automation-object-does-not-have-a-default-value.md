@@ -1,7 +1,7 @@
 ---
-title: "Automation object does not have a default value"
+title: "Automation object does not have a default value | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,7 +32,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Automation object does not have a default value
-[!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] cannot determine the default member for the specified object.  
+[!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] cannot determine the default member for the specified object.  
   
 ### To correct the error  
   

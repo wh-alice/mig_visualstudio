@@ -1,5 +1,5 @@
 ---
-title: "Automate a test case in Microsoft Test Manager"
+title: "Automate a test case in Microsoft Test Manager | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -87,7 +87,7 @@ To automate a test case, link it to a coded test method. You can link any unit t
 ##  <a name="TestPlan"></a> Set Your Test Plan to Use Your Build  
  Provide the build location so that the test method can be found.  
   
-1.  In [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], choose **Testing Center**, **Plan**, **Properties**.  
+1.  In [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], choose **Testing Center**, **Plan**, **Properties**.  
   
 2.  Under **Builds**, set **Filter for builds**. You can set the [build definition and quality attribute](../Topic/Build%20the%20application.md) of the builds you want to choose from.  
   
@@ -101,7 +101,7 @@ To automate a test case, link it to a coded test method. You can link any unit t
  Specify the build definition in your test plan.  
   
 ##  <a name="AddEnvironment"></a> Create a Lab Environment and Settings to Run Your Tests  
- To run your automated tests tests using [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], you must use a lab environment. It must have roles for each of the client and server machines used in your tests. (If you’ve used lab environments for manual tests, notice that automated tests must have a machine for the client role.)  
+ To run your automated tests tests using [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], you must use a lab environment. It must have roles for each of the client and server machines used in your tests. (If you’ve used lab environments for manual tests, notice that automated tests must have a machine for the client role.)  
   
 1.  Create or choose either a [standard lab environment](../test/standard-lab-environments.md) or an [SCVMM lab environment](../test/scvmm--virtual--environments.md).  
   
@@ -140,7 +140,7 @@ To automate a test case, link it to a coded test method. You can link any unit t
   
 ##  <a name="ViewTest"></a> View and Update the Test Results  
   
-1.  In [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], choose **Testing Center**, **Test**, **Analyze Test Runs**.  
+1.  In [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], choose **Testing Center**, **Test**, **Analyze Test Runs**.  
   
 2.  Double-click a test run to open it and view the details. You can:  
   
@@ -156,7 +156,7 @@ To automate a test case, link it to a coded test method. You can link any unit t
   
 ## Q & A  
  **Q: Can I generate the test method from a manual run of the test case?**  
- **A:** Yes. [Use UI Automation To Test Your Code](../codequality/use-ui-automation-to-test-your-code.md)  
+ **A:** Yes. [Use UI Automation To Test Your Code](../code-quality/use-ui-automation-to-test-your-code.md)  
   
  **Q: Can I automate deploying the code to a lab environment?**  
  Yes. [Automated build-deploy-test workflows](../test/automated-build-deploy-test-workflows.md)  

@@ -1,7 +1,7 @@
 ---
-title: "Creating a Source Control VSPackage"
+title: "Creating a Source Control VSPackage | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,13 +32,13 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Creating a Source Control VSPackage
-This documentation includes links to the architecture overview of a source-control package integrated with [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], the API that is defined by the interfaces to be implemented and the services to be consumed, and a sample that illustrates a simple source control package implementation.  
+This documentation includes links to the architecture overview of a source-control package integrated with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], the API that is defined by the interfaces to be implemented and the services to be consumed, and a sample that illustrates a simple source control package implementation.  
   
- With a source control VSPackage, you can create a deep integration path for source control to integrate with [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. It enables the package to bypass the default source control UI hosted by [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], respond to source control requests from the project system, and interact with [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] components such as **Solution Explorer**. The [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] empowers [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] partners with a mechanism to create a VSPackage that can integrate with [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] using a service model.  
+ With a source control VSPackage, you can create a deep integration path for source control to integrate with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. It enables the package to bypass the default source control UI hosted by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], respond to source control requests from the project system, and interact with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] components such as **Solution Explorer**. The [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] empowers [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] partners with a mechanism to create a VSPackage that can integrate with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] using a service model.  
   
 ## In This Section  
  [Getting Started](../extensibility/getting-started-with-source-control-vspackages.md)  
- Discusses the source control package, which is a more advanced alternative to the source control plug-in for implementing source control features in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+ Discusses the source control package, which is a more advanced alternative to the source control plug-in for implementing source control features in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
  [Architecture](../extensibility/source-control-vspackage-architecture.md)  
  Presents a diagram and explains the components of a source control package.  
@@ -51,7 +51,7 @@ This documentation includes links to the architecture overview of a source-contr
   
 ## Related Sections  
  [Creating a Source Control Plug-in](../extensibility/creating-a-source-control-plug-in.md)  
- Discusses how to create a source control plug-in that supplies source control functionality in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] source control user interface (UI).  
+ Discusses how to create a source control plug-in that supplies source control functionality in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] source control user interface (UI).  
   
  [Source Control](../extensibility/source-control.md)  
- Discusses the options for implementing source control as an integrated feature of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].
+ Discusses the options for implementing source control as an integrated feature of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].

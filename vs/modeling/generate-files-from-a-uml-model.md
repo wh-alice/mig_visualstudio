@@ -1,7 +1,7 @@
 ---
-title: "Generate files from a UML model"
+title: "Generate files from a UML model | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,11 +33,11 @@ From a UML model, you can generate program code, schemas, documents, resources, 
   
  There are three principal scenarios:  
   
--   [Generating files from a menu command](#Command) or gesture. You define a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] command that is available on UML models.  
+-   [Generating files from a menu command](#Command) or gesture. You define a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] command that is available on UML models.  
   
 -   [Generating files from an application](#Application). You write an application that reads UML models and generates files.  
   
--   [Generating at design time](#Design). You use a model to define some of your application's functionality, and generate code, resources, and so on within your [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] solution.  
+-   [Generating at design time](#Design). You use a model to define some of your application's functionality, and generate code, resources, and so on within your [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution.  
   
  This topic ends with a discussion of [how to use text generation](#What). For more information, see [Code Generation and T4 Text Templates](../modeling/code-generation-and-t4-text-templates.md).  
   
@@ -55,7 +55,7 @@ From a UML model, you can generate program code, schemas, documents, resources, 
  The approach demonstrated in the following example is suitable for generating text from a single model, when you initiate the operation from one of the model diagrams. To process a model in a separate context, consider using [Visual Studio Modelbus](../modeling/integrate-uml-models-with-other-models-and-tools.md) to access the model and its elements.  
   
 ### Example  
- To run this example, create a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Extension (VSIX) project. The project name that is used in this example is `VdmGenerator`. In the **source.extension.vsixmanifest** file, click **Add Content** and set the type field to **MEF Component** and source path referencing the current project. For more information about how to set up this type of project, see [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md).  
+ To run this example, create a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Extension (VSIX) project. The project name that is used in this example is `VdmGenerator`. In the **source.extension.vsixmanifest** file, click **Add Content** and set the type field to **MEF Component** and source path referencing the current project. For more information about how to set up this type of project, see [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md).  
   
  Add to the project a C# file that contains the following code. This class defines a menu command that will appear on a UML class diagram.  
   
@@ -117,7 +117,7 @@ Type <#= classElement.Name #> ::
 #>  
 ```  
   
- The text template generates a C# partial class, which becomes part of your [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] project. In a separate file, add another partial declaration of the same class. This code provides the template with access to the UML model store:  
+ The text template generates a C# partial class, which becomes part of your [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project. In a separate file, add another partial declaration of the same class. This code provides the template with access to the UML model store:  
   
 ```  
 using Microsoft.VisualStudio.ArchitectureTools.Extensibility.Uml;  
@@ -132,7 +132,7 @@ namespace VdmGenerator
 }  
 ```  
   
- To test the project, press **F5**. A new instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] will start. In this instance, open or create a UML model that contains a class diagram. Add some classes to the diagram, and add some attributes to each class. Right-click in the diagram and then click the example command `Generate VDM`. The command creates the file `C:\Generated.txt`. Inspect this file. Its contents should resemble the following text, but it will list your own classes and attributes:  
+ To test the project, press **F5**. A new instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] will start. In this instance, open or create a UML model that contains a class diagram. Add some classes to the diagram, and add some attributes to each class. Right-click in the diagram and then click the example command `Generate VDM`. The command creates the file `C:\Generated.txt`. Inspect this file. Its contents should resemble the following text, but it will list your own classes and attributes:  
   
 ```  
 Type Class1 ::  
@@ -150,7 +150,7 @@ Type Class2 ::
 ##  <a name="Design"></a> Generating Files at Design Time  
  If your project has a standard method of interpreting UML as code, you can create text templates that let you generate code within your project from a UML model. Typically you would have a solution that contains the UML model project, and one or more projects for the application code. Each code project could contain several templates that generate program code, resources, and configuration files, based on the content of the model. The developer can run all the templates by clicking the **Transform All Templates** in the Solution Explorer toolbar. Program code is usually generated in the form of partial classes, to make it easy to integrate manually-written parts.  
   
- A [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] project of this kind can be distributed in the form of a template, so that every member of a team is able to create projects that generate code from a model in the same way. Typically, the template is part of an extension package that includes validation constraints on the model to ensure that the preconditions of the generation code are met.  
+ A [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project of this kind can be distributed in the form of a template, so that every member of a team is able to create projects that generate code from a model in the same way. Typically, the template is part of an extension package that includes validation constraints on the model to ensure that the preconditions of the generation code are met.  
   
 ### Outline procedure for generating files  
   

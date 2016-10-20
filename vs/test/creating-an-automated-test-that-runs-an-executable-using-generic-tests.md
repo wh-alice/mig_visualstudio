@@ -1,7 +1,7 @@
 ---
-title: "Creating an Automated Test That Runs an Executable Using Generic Tests"
+title: "Creating an Automated Test That Runs an Executable Using Generic Tests | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -66,7 +66,7 @@ You use generic tests to call external programs and tests. After you have done t
   
 |Key Tasks|-   Associated Topics|  
 |---------------|--------------------------|  
-|**Creating a generic test:** You can create a generic test by using the generic test template provided in Visual Studio and by specifying the program that you want to call. [!INCLUDE[crdefault](../codequality/includes/crdefault_md.md)][How to Create a Generic Test](../test/creating-an-automated-test-that-runs-an-executable-using-generic-tests.md#CreatingGenericTests_HowTo) in this topic.|-   [Walkthrough: Creating and Running a Generic Test](../test/walkthrough--creating-and-running-a-generic-test.md)|  
+|**Creating a generic test:** You can create a generic test by using the generic test template provided in Visual Studio and by specifying the program that you want to call. [!INCLUDE[crdefault](../code-quality/includes/crdefault_md.md)][How to Create a Generic Test](../test/creating-an-automated-test-that-runs-an-executable-using-generic-tests.md#CreatingGenericTests_HowTo) in this topic.|-   [Walkthrough: Creating and Running a Generic Test](../test/walkthrough--creating-and-running-a-generic-test.md)|  
 |**Using environment variables in generic tests:** You can use environment variables to represent paths to folders that contain files including your target executable and items to deploy.|-   [Using Environment Variables in Generic Tests](../test/using-environment-variables-in-generic-tests.md)|  
 |**Run generic tests:** You can run the generic tests that you have created from Unit Test Explorer, or by using test categories from the command line.|-   [Walkthrough: Creating and Running a Generic Test](../test/walkthrough--creating-and-running-a-generic-test.md)<br />-   [How to: Run Tests from Microsoft Visual Studio](../test/how-to--run-tests-from-microsoft-visual-studio.md)<br />-   [Running automated tests from the command line](../test/running-automated-tests-from-the-command-line.md)<br />-   [Defining Test Categories to Group Your Tests](../test/defining-test-categories-to-group-your-tests.md)|  
 |**Determining code coverage:** To know how much you are improving the quality of your code, you must determine how much of the code your generic tests are covering when you run them.|-   [Specifying Test Settings for Visual Studio Tests](../test/specifying-test-settings-for-visual-studio-tests.md)<br />-   [Code Coverage configuration using Test Settings is deprecated](../test_notintoc/code-coverage-configuration-using-test-settings-is-deprecated.md)|  
@@ -85,14 +85,14 @@ You use generic tests to call external programs and tests. After you have done t
   
 2.  Under **Specify an existing program (a test, test harness, or test adapter) to wrap as a generic test**, indicate the path and file name of the test, program, or third-party tool to wrap into a generic test.  
   
-3.  (Optional) Under **Command line arguments to pass to the generic test**, type one or more arguments to pass. Separate multiple arguments with spaces. [!INCLUDE[crdefault](../codequality/includes/crdefault_md.md)][Generic Test Command-Line Arguments](../test/creating-an-automated-test-that-runs-an-executable-using-generic-tests.md#CreatingGenericTests_CommandLineArgs) in this topic.  
+3.  (Optional) Under **Command line arguments to pass to the generic test**, type one or more arguments to pass. Separate multiple arguments with spaces. [!INCLUDE[crdefault](../code-quality/includes/crdefault_md.md)][Generic Test Command-Line Arguments](../test/creating-an-automated-test-that-runs-an-executable-using-generic-tests.md#CreatingGenericTests_CommandLineArgs) in this topic.  
   
 4.  (Optional) Under **Additional files to deploy with this generic test**, specify any files that the test must have to run correctly.  
   
     > [!NOTE]
     >  Before the test runs, the files that you specify in this step are copied to a deployment directory that is created by Visual Studio.  
   
-     [!INCLUDE[crdefault](../codequality/includes/crdefault_md.md)] [Deploying Files for Generic Tests](../test/creating-an-automated-test-that-runs-an-executable-using-generic-tests.md#CreatingGenericTests_DeployingFiles) in this topic.  
+     [!INCLUDE[crdefault](../code-quality/includes/crdefault_md.md)] [Deploying Files for Generic Tests](../test/creating-an-automated-test-that-runs-an-executable-using-generic-tests.md#CreatingGenericTests_DeployingFiles) in this topic.  
   
 5.  (Optional) Under **Working Directory**, specify a directory that the executable file is to use as a working directory as it runs.  
   
@@ -101,7 +101,7 @@ You use generic tests to call external programs and tests. After you have done t
 7.  Save the generic test.  
   
     > [!TIP]
-    >  You can create and use an XML based summary results file to provide detailed results for portions of you generic test. [!INCLUDE[crdefault](../codequality/includes/crdefault_md.md)][Using a Summary Results File with a Generic Test](../test/using-a-summary-results-file-with-a-generic-test.md).  
+    >  You can create and use an XML based summary results file to provide detailed results for portions of you generic test. [!INCLUDE[crdefault](../code-quality/includes/crdefault_md.md)][Using a Summary Results File with a Generic Test](../test/using-a-summary-results-file-with-a-generic-test.md).  
   
  The test is now ready to run; it will return a result of 0 or another number. The test engine interprets 0 as Passed and any other number as Failed.  
   

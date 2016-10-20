@@ -1,7 +1,7 @@
 ---
-title: "How to: Specify Debugger Settings"
+title: "How to: Specify Debugger Settings | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -43,7 +43,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Specify Debugger Settings
-In [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], you can specify various settings for debugger behavior, including how variables are displayed, whether certain warnings are presented, how breakpoints are set, and how breaking affects running programs. You specify debugger settings in the **Options** dialog box.  
+In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], you can specify various settings for debugger behavior, including how variables are displayed, whether certain warnings are presented, how breakpoints are set, and how breaking affects running programs. You specify debugger settings in the **Options** dialog box.  
   
 ### To set debugger options  
   

@@ -1,7 +1,7 @@
 ---
-title: "Supporting Source Control"
+title: "Supporting Source Control | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,7 +31,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Supporting Source Control
-[!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] supports file checkouts, check-ins, and other source control operations for your project or editor. As a source control client, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] is designed to interact with a source control package, such as [!INCLUDE[vsvss](../extensibility/includes/vsvss_md.md)], which provides archiving, versioning, and control facilities for a dynamically defined set of files.  
+[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] supports file checkouts, check-ins, and other source control operations for your project or editor. As a source control client, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is designed to interact with a source control package, such as [!INCLUDE[vsvss](../extensibility/includes/vsvss_md.md)], which provides archiving, versioning, and control facilities for a dynamically defined set of files.  
   
 ## In This Section  
  [Model for Source Control Packages](../extensibility/model-for-source-control-packages.md)  
@@ -67,4 +67,4 @@ translation.priority.mt:
   
 ## Related Sections  
  [Project Types](../extensibility/project-types.md)  
- Provides an overview of projects as the basic building blocks of the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE). Links are provided to additional topics that explain how projects control building and compiling code.
+ Provides an overview of projects as the basic building blocks of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE). Links are provided to additional topics that explain how projects control building and compiling code.

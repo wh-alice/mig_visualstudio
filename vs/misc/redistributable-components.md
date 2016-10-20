@@ -1,7 +1,7 @@
 ---
-title: "Redistributable Components"
+title: "Redistributable Components | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,9 +32,9 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Redistributable Components
-The [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] includes code that you can distribute to users according to the terms of the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] SDK license agreement. Such redistributable components include Windows Installer packages and merge modules that become part of your product's setup process, and source code that you compile into your VSPackages.  
+The [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] includes code that you can distribute to users according to the terms of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] SDK license agreement. Such redistributable components include Windows Installer packages and merge modules that become part of your product's setup process, and source code that you compile into your VSPackages.  
   
- The following table describes the redistributable components that are included in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] SDK. The components can be found in *Visual Studio SDK installation path*\VisualStudioIntegration\Redistributables\\.  
+ The following table describes the redistributable components that are included in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] SDK. The components can be found in *Visual Studio SDK installation path*\VisualStudioIntegration\Redistributables\\.  
   
 |File name|Description|  
 |---------------|-----------------|  

@@ -1,7 +1,7 @@
 ---
-title: "Deploying a Stored SCVMM Environment"
+title: "Deploying a Stored SCVMM Environment | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -37,7 +37,7 @@ You can store an SCVMM environment in your team projects library, and then creat
   
 ### To deploy a stored environment  
   
-1.  In [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], choose **Lab Center**, **Library**, **Environments**.  
+1.  In [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], choose **Lab Center**, **Library**, **Environments**.  
   
      The list of available environments is displayed. These environments have been previously defined by team members.  
   

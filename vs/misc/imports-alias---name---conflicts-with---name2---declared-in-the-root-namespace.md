@@ -1,7 +1,7 @@
 ---
-title: "Imports alias &#39;&lt;name&gt;&#39; conflicts with &#39;&lt;name2&gt;&#39; declared in the root namespace"
+title: "Imports alias &#39;&lt;name&gt;&#39; conflicts with &#39;&lt;name2&gt;&#39; declared in the root namespace | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

@@ -1,7 +1,7 @@
 ---
-title: "Inside the Visual Studio SDK"
+title: "Inside the Visual Studio SDK | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -99,7 +99,7 @@ Generalized view of the Visual Studio architecture
 ## Projects  
  In Visual Studio, projects are the containers that developers use to organize and build the source code and other resources. Projects let you organize, build, debug, and deploy source code, references to Web services and databases, and other resources. VSPackages can extend the Visual Studio project system by providing project types, project subtypes, and custom tools.  
   
- Projects may also be gathered into a solution, which is a grouping of one or more projects that work together to create an application. Project and status information that pertains to the solution is stored in two solution files, the text-based solution (.sln) file and the binary solution user option (.suo) file. These files are similar to the group (.vbg) files that were used in earlier versions of [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)], and the workspace (.dsw) and user options (.opt) files that were used in earlier versions of [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)].  
+ Projects may also be gathered into a solution, which is a grouping of one or more projects that work together to create an application. Project and status information that pertains to the solution is stored in two solution files, the text-based solution (.sln) file and the binary solution user option (.suo) file. These files are similar to the group (.vbg) files that were used in earlier versions of [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)], and the workspace (.dsw) and user options (.opt) files that were used in earlier versions of [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)].  
   
  For more information, see [Projects](../extensibility/projects.md) and [Solutions](../extensibility/solutions.md).  
   
@@ -109,7 +109,7 @@ Generalized view of the Visual Studio architecture
  Templates contain the project structure and basic files that are required to build a particular kind of application, control, library, or class. When you want to develop software that resembles one of the templates, create a project that is based on the template and then modify the files in that project.  
   
 > [!NOTE]
->  This template architecture is not supported for [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)] projects. For information about how to create [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)] project templates, see [Designing a Wizard](../Topic/Designing%20a%20Wizard.md).  
+>  This template architecture is not supported for [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] projects. For information about how to create [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] project templates, see [Designing a Wizard](../Topic/Designing%20a%20Wizard.md).  
   
  For more information, see [Adding Project and Project Item Templates](../extensibility/adding-project-and-project-item-templates.md).  
   

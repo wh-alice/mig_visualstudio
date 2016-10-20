@@ -1,7 +1,7 @@
 ---
-title: "IDebugNoSymbolsEvent2"
+title: "IDebugNoSymbolsEvent2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,7 +31,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # IDebugNoSymbolsEvent2
-Signals the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] debugger UI to warn the user that symbols could not be located for the launched executable.  
+Signals the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger UI to warn the user that symbols could not be located for the launched executable.  
   
 ## Syntax  
   
@@ -40,7 +40,7 @@ IDebugNoSymbolsEvent2 : IUnknown
 ```  
   
 ## Notes for Implementers  
- Implemented by debug engines and consumed by the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] debugger UI.  
+ Implemented by debug engines and consumed by the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger UI.  
   
 ## Requirements  
  Header: Msdbg.h  

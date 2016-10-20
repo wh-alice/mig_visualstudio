@@ -1,7 +1,7 @@
 ---
-title: "Graphics Diagnostics Examples"
+title: "Graphics Diagnostics Examples | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -29,7 +29,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Graphics Diagnostics Examples
-These examples show how to debug rendering problems in DirectX-based apps by using [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Graphics Diagnostics.  
+These examples show how to debug rendering problems in DirectX-based apps by using [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Graphics Diagnostics.  
   
 ## Capturing graphics information  
  Before you can use Graphics Diagnostics to diagnose rendering problems in your app, you have to capture graphics information from the app while it's running. Graphics information can be captured from an app that's running locally, or from an app that's running on a remote computer or other device. These walkthroughs demonstrate how you can capture graphics information from an app manually or programmatically:  

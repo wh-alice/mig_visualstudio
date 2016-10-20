@@ -1,7 +1,7 @@
 ---
-title: "Command Window"
+title: "Command Window | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -37,7 +37,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Command Window
-The **Command** window is used to execute commands or aliases directly in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE). You can execute both menu commands and commands that do not appear on any menu. To display the **Command** window, choose **Other Windows** from the **View** menu, and select **Command Window**.  
+The **Command** window is used to execute commands or aliases directly in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE). You can execute both menu commands and commands that do not appear on any menu. To display the **Command** window, choose **Other Windows** from the **View** menu, and select **Command Window**.  
   
 ## Displaying the Values of Variables  
  To check the value of a variable `varA`, use the [Print Command](../reference/print-command.md):  
@@ -97,7 +97,7 @@ The **Command** window is used to execute commands or aliases directly in the [!
  will assign to variable `varA` the value of variable `varB`.  
   
 ## Parameters, Switches, and Values  
- Some [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] commands commands have required and optional arguments, switches and values. Certain rules apply when dealing with such commands. The following is an example of a rich command to clarify the terminology.  
+ Some [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] commands commands have required and optional arguments, switches and values. Certain rules apply when dealing with such commands. The following is an example of a rich command to clarify the terminology.  
   
 ```  
 Edit.ReplaceInFiles /case /pattern:regex var[1-3]+ oldpar   

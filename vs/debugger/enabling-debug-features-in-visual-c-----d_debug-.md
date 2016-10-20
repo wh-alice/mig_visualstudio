@@ -1,7 +1,7 @@
 ---
-title: "Enabling Debug Features in Visual C++ (-D_DEBUG)"
+title: "Enabling Debug Features in Visual C++ (-D_DEBUG) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,7 +45,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Enabling Debug Features in Visual C++ (/D_DEBUG)
-In [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)], debugging features such as assertions are enabled when you compile your program with the symbol **_DEBUG** defined. You can define **_DEBUG** in one of two ways:  
+In [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)], debugging features such as assertions are enabled when you compile your program with the symbol **_DEBUG** defined. You can define **_DEBUG** in one of two ways:  
   
 -   Specify **#define _DEBUG** in your source code, or  
   

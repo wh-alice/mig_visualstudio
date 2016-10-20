@@ -1,7 +1,7 @@
 ---
-title: "How to: Program the Designer Region of the Status Bar"
+title: "How to: Program the Designer Region of the Status Bar | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,7 +33,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # How to: Program the Designer Region of the Status Bar
-The Designer region of the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] status bar displays information that pertains to editing, for example, the line number or column number of the cursor location.  
+The Designer region of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] status bar displays information that pertains to editing, for example, the line number or column number of the cursor location.  
   
 ### To program the Designer region of the Visual Studio status bar  
   

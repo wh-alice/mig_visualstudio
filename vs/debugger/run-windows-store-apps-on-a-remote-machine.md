@@ -1,7 +1,7 @@
 ---
-title: "Run Windows Store apps on a remote machine"
+title: "Run Windows Store apps on a remote machine | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -193,5 +193,5 @@ translation.priority.ht:
  Then choose **Start Debugging** on the **Debug** menu (Keyboard: F5). The project is recompiled, then deployed to and started on the remote device. The debugger suspends execution at breakpoints, and you can step into, over, and out of your code. Choose **Stop Debugging** to end your debug session and close the remote app. For more information, see [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md).  
   
 ## See Also  
- [Testing Store apps with Visual Studio](../codequality/testing-store-apps-with-visual-studio.md)   
+ [Testing Store apps with Visual Studio](../code-quality/testing-store-apps-with-visual-studio.md)   
  [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md)

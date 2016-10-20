@@ -1,7 +1,7 @@
 ---
-title: "Test Guide for Source Control Plug-ins"
+title: "Test Guide for Source Control Plug-ins | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,19 +35,19 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Test Guide for Source Control Plug-ins
-This section provides guidance for testing your source control plug-in with [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. An extensive overview of the most common testing areas, as well as some of the more intricate areas that may be problematic is provided. This overview is not meant to be an exhaustive list of test cases.  
+This section provides guidance for testing your source control plug-in with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. An extensive overview of the most common testing areas, as well as some of the more intricate areas that may be problematic is provided. This overview is not meant to be an exhaustive list of test cases.  
   
 > [!NOTE]
->  Some bug fixes and improvements to the latest [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] IDE may uncover problems with existing source control plug-ins that were previously not encountered while using previous versions of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. It is strongly recommended that you test your existing source control plug-in for the areas enumerated in this section, even if no changes have been made to the plug-in since the previous version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+>  Some bug fixes and improvements to the latest [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE may uncover problems with existing source control plug-ins that were previously not encountered while using previous versions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. It is strongly recommended that you test your existing source control plug-in for the areas enumerated in this section, even if no changes have been made to the plug-in since the previous version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 ## Common Preparation  
- A machine with [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and the target source control plug-in installed, is required. A second machine similarly configured can be used for some of the Open from Source Control tests.  
+ A machine with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and the target source control plug-in installed, is required. A second machine similarly configured can be used for some of the Open from Source Control tests.  
   
 ## Definition of Terms  
  For the purpose of this test guide, use the following term definitions:  
   
  Client project  
- Any project type available in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] that supports source control integration (for example, [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)], [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)], or [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)]).  
+ Any project type available in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] that supports source control integration (for example, [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)], [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)], or [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)]).  
   
  Web project  
  There are four types of Web projects: File System, Local IIS, Remote Sites, and FTP.  
@@ -56,7 +56,7 @@ This section provides guidance for testing your source control plug-in with [!IN
   
 -   Local IIS projects work with IIS that is installed on the same machine and are accessed with a URL pointing to the local machine.  
   
--   Remote Sites projects are also created under an IIS Services, but they are placed under source control on the IIS server machine and not from inside the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] IDE.  
+-   Remote Sites projects are also created under an IIS Services, but they are placed under source control on the IIS server machine and not from inside the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE.  
   
 -   FTP projects are accessed through a remote FTP server but they cannot be placed under source control.  
   

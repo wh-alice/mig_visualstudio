@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating and Running a Load Test Containing Unit Tests"
+title: "Walkthrough: Creating and Running a Load Test Containing Unit Tests | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/01/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -49,13 +49,13 @@ In this walkthrough you create a load test that contains unit tests.
   
 -   Visual Studio Enterprise  
   
--   Perform the steps in [Walkthrough: Creating and Running Unit Tests for Managed Code](../codequality/walkthrough--creating-and-running-unit-tests-for-managed-code.md) to create a simple C# class library that contains a Web performance and load test project with some unit tests in it.  
+-   Perform the steps in [Walkthrough: Creating and Running Unit Tests for Managed Code](../code-quality/walkthrough--creating-and-running-unit-tests-for-managed-code.md) to create a simple C# class library that contains a Web performance and load test project with some unit tests in it.  
   
 ## Create a Load Test Containing Unit Tests Using the New Load Test Wizard  
   
 #### To start the New Load Test Wizard  
   
-1.  Open the Bank solution that you created in [Walkthrough: Creating and Running Unit Tests for Managed Code](../codequality/walkthrough--creating-and-running-unit-tests-for-managed-code.md).  
+1.  Open the Bank solution that you created in [Walkthrough: Creating and Running Unit Tests for Managed Code](../code-quality/walkthrough--creating-and-running-unit-tests-for-managed-code.md).  
   
 2.  In **Solution Explorer**, open the shortcut menu for the Bank solution node, choose **Add**, and then choose **New Project**.  
   
@@ -79,7 +79,7 @@ In this walkthrough you create a load test that contains unit tests.
   
      A *scenario* is a grouping mechanism. It consists of a set of tests and the properties for running those tests under load.  
   
-2.  Set the **Time Profile Think** to `Use normal distribution centered on recorded think times`. Think times represent the time that a user would ponder a Web page before going on to the next page. [!INCLUDE[crdefault](../codequality/includes/crdefault_md.md)] [How to: Set Think Times to Simulate Human Pausing in a Web Performance Test](../test_notintoc/how-to--set-think-times-to-simulate-human-pausing-in-a-web-performance-test.md).  
+2.  Set the **Time Profile Think** to `Use normal distribution centered on recorded think times`. Think times represent the time that a user would ponder a Web page before going on to the next page. [!INCLUDE[crdefault](../code-quality/includes/crdefault_md.md)] [How to: Set Think Times to Simulate Human Pausing in a Web Performance Test](../test_notintoc/how-to--set-think-times-to-simulate-human-pausing-in-a-web-performance-test.md).  
   
 3.  Choose **Next** when you are finished.  
   
@@ -138,7 +138,7 @@ In this walkthrough you create a load test that contains unit tests.
   
 1.  Choose **Next**.  
   
-     [!INCLUDE[crabout](../codequality/includes/crabout_md.md)] the counter sets, see [Specifying the Counter Sets and Threshold Rules for Computers in a Load Test](../test/specifying-the-counter-sets-and-threshold-rules-for-computers-in-a-load-test.md) and [Create and run a load test](http://msdn.microsoft.com/en-us/7041cbcf-9ab1-4579-98ff-8f296aeaded4).  
+     [!INCLUDE[crabout](../code-quality/includes/crabout_md.md)] the counter sets, see [Specifying the Counter Sets and Threshold Rules for Computers in a Load Test](../test/specifying-the-counter-sets-and-threshold-rules-for-computers-in-a-load-test.md) and [Create and run a load test](http://msdn.microsoft.com/en-us/7041cbcf-9ab1-4579-98ff-8f296aeaded4).  
   
 #### To edit run setting for load test  
   
@@ -159,12 +159,12 @@ In this walkthrough you create a load test that contains unit tests.
   
 ## See Also  
  [Getting Started with Load and Web Performance Test Walkthroughs](http://msdn.microsoft.com/en-us/5d754a49-565c-4f1b-9e5f-ac40ae3fff27)   
- [Unit Test Your Code](../codequality/unit-test-your-code.md)   
+ [Unit Test Your Code](../code-quality/unit-test-your-code.md)   
  [Editing the Test Mix to Specify Which Tests to Include in a Load Test Scenario](../test/303e1d70-5d98-424a-b51e-e0898e16d3f8.md)   
  [Creating load tests](../test_notintoc/creating-load-tests.md)   
  [Step 4 - Specifying Run Settings in the New Load Test Wizard](../test_notintoc/creating-load-tests.md#CreatingLoadTestsUsingWizardStep4)   
  [Specifying Virtual Network Types](../test/specifying-virtual-network-types-in-a-load-test-scenario.md)   
  [Editing Load Test Scenarios](../test/editing-load-test-scenarios-using-the-load-test-editor.md)   
  [Editing Load Patterns to Model Virtual User Activities](../test/editing-load-patterns-to-model-virtual-user-activities.md)   
- [Editing Text Mix Models to Specify the Probability of a Virtual User Running a Test](../test/e3b7d952-9012-400a-8131-3444390a6066.md)   
+ [Editing Text Mix Models to Specify the Probability of a Virtual User Running a Test](../test/editing-text-mix-models-to-specify-the-probability-of-a-virtual-user-running-a-test.md)   
  [Walkthrough: Using a Test Controller and Test Agents in a Load Test](../test/walkthrough--using-a-test-controller-and-test-agents-in-a-load-test.md)

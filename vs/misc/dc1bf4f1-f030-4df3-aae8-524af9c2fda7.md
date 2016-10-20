@@ -1,7 +1,7 @@
 ---
-title: "&#39;Microsoft.VisualBasic.ComClassAttribute&#39; and &#39;&lt;attribute&gt;&#39; cannot both be applied to the same class"
+title: "&#39;Microsoft.VisualBasic.ComClassAttribute&#39; and &#39;&lt;attribute&gt;&#39; cannot both be applied to the same class | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # &#39;Microsoft.VisualBasic.ComClassAttribute&#39; and &#39;&lt;attribute&gt;&#39; cannot both be applied to the same class
-A `COMClassAttribute` attribute block is used in conjunction with an attribute that does not apply to COM objects. One possible cause is mixing [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] and COM attributes.  
+A `COMClassAttribute` attribute block is used in conjunction with an attribute that does not apply to COM objects. One possible cause is mixing [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] and COM attributes.  
   
  **Error ID:** BC32501  
   

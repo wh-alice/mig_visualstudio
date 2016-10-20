@@ -1,7 +1,7 @@
 ---
-title: "How to: Use the GPU Threads Window"
+title: "How to: Use the GPU Threads Window | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -61,7 +61,7 @@ In the GPU Threads window, you can examine and work with threads that are runnin
   
  The header of the table shows the tile and thread being displayed.  
   
- [!INCLUDE[note_settings_general](../datatools/includes/note_settings_general_md.md)]  
+ [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
   
 ### To display the GPU Threads window  
   

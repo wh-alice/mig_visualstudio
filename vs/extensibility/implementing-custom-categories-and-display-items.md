@@ -1,7 +1,7 @@
 ---
-title: "Implementing Custom Categories and Display Items"
+title: "Implementing Custom Categories and Display Items | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,7 +32,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Implementing Custom Categories and Display Items
-A VSPackage can provide control of the fonts and colors of its text to the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE) through custom categories and display items.  
+A VSPackage can provide control of the fonts and colors of its text to the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) through custom categories and display items.  
   
  Custom categories and display items are on the **Fonts and Colors** property page. To open the **Fonts and Colors** property page, on the **Tools** menu, click **Options**. Expand **Environment** and then click **Fonts and Colors**.  
   

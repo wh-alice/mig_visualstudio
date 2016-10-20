@@ -1,7 +1,7 @@
 ---
-title: "Sorry, we don&#39;t have specifics on this Visual Basic error"
+title: "Sorry, we don&#39;t have specifics on this Visual Basic error | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -3077,19 +3077,19 @@ translation.priority.mt:
 We’re sorry, but we don’t have any specific information about this error. You can search for the error number and message text to find information on the web. Or, you can ask other developers using one of these forums:  
   
  [Visual Basic Language](http://go.microsoft.com/fwlink/?LinkId=145963)  
- Provides a forum for questions about and general discussions of the [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] language syntax and compiler.  
+ Provides a forum for questions about and general discussions of the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] language syntax and compiler.  
   
  [Visual Basic Interop and Upgrade](http://go.microsoft.com/fwlink/?LinkId=145966)  
- Provides a forum for questions about and issues with upgrading to [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] and working with interoperability features.  
+ Provides a forum for questions about and issues with upgrading to [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] and working with interoperability features.  
   
  [Visual Basic IDE](http://go.microsoft.com/fwlink/?LinkId=145971)  
- Provides a forum for questions about how to work in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] environment.  
+ Provides a forum for questions about how to work in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] environment.  
   
  [Visual Basic General](http://go.microsoft.com/fwlink/?LinkId=145973)  
- Provides a forum for questions about and issues with [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] that are not discussed in other forums.  
+ Provides a forum for questions about and issues with [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] that are not discussed in other forums.  
   
  [StackOverflow](http://stackoverflow.com/questions/tagged/vb.net)  
- Provides a forum for questions about and issues with [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)].  
+ Provides a forum for questions about and issues with [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)].  
   
  Also see:  
  [Additional Resources for Visual Basic Programmers](../Topic/Additional%20Resources%20for%20Visual%20Basic%20Programmers.md)  

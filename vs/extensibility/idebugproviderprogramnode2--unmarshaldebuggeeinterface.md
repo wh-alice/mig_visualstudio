@@ -1,7 +1,7 @@
 ---
-title: "IDebugProviderProgramNode2::UnmarshalDebuggeeInterface"
+title: "IDebugProviderProgramNode2::UnmarshalDebuggeeInterface | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -62,7 +62,7 @@ int UnmarshalDebuggeeInterface(
  If successful, returns `S_OK`; otherwise, returns an error code.  
   
 ## Remarks  
- This method is used when the debug engine is running in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] process space and the program being debugged is running in its own process space.  
+ This method is used when the debug engine is running in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] process space and the program being debugged is running in its own process space.  
   
 ## See Also  
  [IDebugProviderProgramNode2](../extensibility/idebugproviderprogramnode2.md)

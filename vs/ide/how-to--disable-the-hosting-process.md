@@ -1,7 +1,7 @@
 ---
-title: "How to: Disable the Hosting Process"
+title: "How to: Disable the Hosting Process | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,7 +36,7 @@ Calls to certain APIs can be affected when the hosting process is enabled. In th
   
 ### To disable the hosting process  
   
-1.  Open an executable project in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. Projects that do not produce executables (for example, class library or service projects) do not have this option.  
+1.  Open an executable project in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Projects that do not produce executables (for example, class library or service projects) do not have this option.  
   
 2.  On the **Project** menu, click **Properties**.  
   
@@ -48,7 +48,7 @@ Calls to certain APIs can be affected when the hosting process is enabled. In th
   
  In general, when the hosting process is disabled:  
   
--   The time needed to begin debugging [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] applications increases.  
+-   The time needed to begin debugging [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] applications increases.  
   
 -   Design-time expression evaluation is unavailable.  
   

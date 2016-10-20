@@ -1,7 +1,7 @@
 ---
-title: "Setting Language-Specific Editor Options"
+title: "Setting Language-Specific Editor Options | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,11 +33,11 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Setting Language-Specific Editor Options
-[!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] offers a variety of Text Editor options that apply to specific programming languages.  
+[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] offers a variety of Text Editor options that apply to specific programming languages.  
   
 ## In This Section  
  [Options, Text Editor, Basic (Visual Basic)](../reference/options--text-editor--basic--visual-basic-.md)  
- Describes settings for end constructs, code reformatting, outlining, and error correction suggestions, among others, for [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] code.  
+ Describes settings for end constructs, code reformatting, outlining, and error correction suggestions, among others, for [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] code.  
   
  [Options, Text Editor, C/C++, Formatting](../reference/options--text-editor--c-c----formatting.md)  
  Describes outlining, indenting, Quick Info, and other settings for C and C++ code.  

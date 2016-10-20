@@ -1,7 +1,7 @@
 ---
-title: "IDebugEngineLaunch2::LaunchSuspended"
+title: "IDebugEngineLaunch2::LaunchSuspended | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -117,7 +117,7 @@ int LaunchSuspended(
  If successful, returns `S_OK`; otherwise, returns an error code.  
   
 ## Remarks  
- Normally, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] launches a program using the [LaunchSuspended](../extensibility/idebugportex2--launchsuspended.md) method and then attaches the debugger to the suspended program. However, there are circumstances in which the debug engine may need to launch a program (for example, if the debug engine is part of an interpreter and the program being debugged is an interpreted language), in which case [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] uses the `IDebugEngineLaunch2::LaunchSuspended` method.  
+ Normally, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] launches a program using the [LaunchSuspended](../extensibility/idebugportex2--launchsuspended.md) method and then attaches the debugger to the suspended program. However, there are circumstances in which the debug engine may need to launch a program (for example, if the debug engine is part of an interpreter and the program being debugged is an interpreted language), in which case [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] uses the `IDebugEngineLaunch2::LaunchSuspended` method.  
   
  The [ResumeProcess](../extensibility/idebugenginelaunch2--resumeprocess.md) method is called to start the process after the process has been successfully launched in a suspended state.  
   

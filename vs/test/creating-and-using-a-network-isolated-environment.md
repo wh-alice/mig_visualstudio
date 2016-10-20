@@ -1,7 +1,7 @@
 ---
-title: "Creating and using a network isolated environment"
+title: "Creating and using a network isolated environment | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -118,7 +118,7 @@ When you create an SCVMM environment, you can enable network isolation, which al
   
 -   On the **Advanced** tab of the **New Environment** wizard, choose the **Enable network isolation for this environment** check box.  
   
--   When you enable network isolation, [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] prompts you to designate one of the virtual machines in the environment as the domain controller. If you are using a private domain in your environment, select your domain controller virtual machine.  
+-   When you enable network isolation, [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] prompts you to designate one of the virtual machines in the environment as the domain controller. If you are using a private domain in your environment, select your domain controller virtual machine.  
   
  After you create your environment, connect to it, and then perform additional configuration tasks such as joining the machines to the private domain. Then, to enable you to run multiple copies of the environment, shut down the environment and store it in the team project library. You can run as many instances of the stored environment as needed.  
   
@@ -236,7 +236,7 @@ When you create an SCVMM environment, you can enable network isolation, which al
   
 ##### To obtain the external network aliases of a machine in a network-isolated environment  
   
-1.  In [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], open **Lab Center**, and then choose **Lab**.  
+1.  In [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], open **Lab Center**, and then choose **Lab**.  
   
 2.  Connect to the environment by using Environment Viewer.  
   

@@ -1,7 +1,7 @@
 ---
-title: "Collecting Thread and Process Concurrency Data"
+title: "Collecting Thread and Process Concurrency Data | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,11 +33,11 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Collecting Thread and Process Concurrency Data
-The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Profiling Tools concurrency profiling method enables you to collect resource contention data that includes information about every synchronization event that causes a function in the profiled application to wait for access to a resource.  
+The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools concurrency profiling method enables you to collect resource contention data that includes information about every synchronization event that causes a function in the profiled application to wait for access to a resource.  
   
  **Requirements**  
   
--   [!INCLUDE[vsUltLong](../codequality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../codequality/includes/vsprelong_md.md)], [!INCLUDE[vsPro](../codequality/includes/vspro_md.md)]  
+-   [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)], [!INCLUDE[vsPro](../code-quality/includes/vspro_md.md)]  
   
  You can specify the concurrency profiling method by using one of the following procedures:  
   

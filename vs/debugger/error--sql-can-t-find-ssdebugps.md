@@ -1,7 +1,7 @@
 ---
-title: "Error: SQL Can&#39;t Find SSDEBUGPS"
+title: "Error: SQL Can&#39;t Find SSDEBUGPS | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/17/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,7 +45,7 @@ SSDEBUGPS.dll is the SQL Server Debugging Host component.
   
  To rerun Remote Debugging setup, follow the instructions at [Remote Debugging](../debugger/remote-debugging.md).  
   
- If you can locate a copy of ssdebugps.dll, you can copy it onto the [!INCLUDE[sqprsqlong](../debugger/includes/sqprsqlong_md.md)] machine. If present, the file will be in the directory \Program Files\ Common Files\Microsoft Shared\SQL Debugging. You might find it on another [!INCLUDE[sqprsqlong](../debugger/includes/sqprsqlong_md.md)] machine, or on a machine that has [!INCLUDE[vsprvslong](../codequality/includes/vsprvslong_md.md)] installed.  
+ If you can locate a copy of ssdebugps.dll, you can copy it onto the [!INCLUDE[sqprsqlong](../debugger/includes/sqprsqlong_md.md)] machine. If present, the file will be in the directory \Program Files\ Common Files\Microsoft Shared\SQL Debugging. You might find it on another [!INCLUDE[sqprsqlong](../debugger/includes/sqprsqlong_md.md)] machine, or on a machine that has [!INCLUDE[vsprvslong](../code-quality/includes/vsprvslong_md.md)] installed.  
   
 ### To copy SSDEBUGPS.dll onto the SQL Server 2005 machine  
   

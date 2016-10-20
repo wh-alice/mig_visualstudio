@@ -1,7 +1,7 @@
 ---
-title: "Project Subtypes"
+title: "Project Subtypes | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,17 +32,17 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Project Subtypes
-Project subtypes let you customize or flavor the behavior of the project systems of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. Customizations include saving additional data in the project file, adding or filtering items in the **Add New Item** dialog box, controlling how assemblies are debugged and deployed, and extending the project **Property Pages** dialog box. VSPackages implement project subtypes using COM aggregation.  
+Project subtypes let you customize or flavor the behavior of the project systems of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Customizations include saving additional data in the project file, adding or filtering items in the **Add New Item** dialog box, controlling how assemblies are debugged and deployed, and extending the project **Property Pages** dialog box. VSPackages implement project subtypes using COM aggregation.  
   
 > [!NOTE]
->  The Visual C++ project system does not support project subtypes. [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] itself uses project subtypes to implement SQL Server and Smart Device projects.  
+>  The Visual C++ project system does not support project subtypes. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] itself uses project subtypes to implement SQL Server and Smart Device projects.  
   
 ## In This Section  
  [Project Subtypes Design](../extensibility/project-subtypes-design.md)  
  Describes the concept of project subtypes.  
   
  [Initialization Sequence of Project Subtypes](../extensibility/initialization-sequence-of-project-subtypes.md)  
- Describes the programmatic project subtype initialization sequence by [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] environment.  
+ Describes the programmatic project subtype initialization sequence by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] environment.  
   
  [Properties and Methods Extended by Project Subtypes](../extensibility/properties-and-methods-extended-by-project-subtypes.md)  
  Provides detailed descriptions of the features and methods most frequently extended by using project subtypes.  
@@ -70,4 +70,4 @@ Project subtypes let you customize or flavor the behavior of the project systems
   
 ## Related Sections  
  [Project Types](../extensibility/project-types.md)  
- Provides links to topics detailing [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] projects.
+ Provides links to topics detailing [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] projects.

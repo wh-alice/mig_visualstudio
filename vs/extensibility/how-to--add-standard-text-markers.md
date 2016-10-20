@@ -1,7 +1,7 @@
 ---
-title: "How to: Add Standard Text Markers"
+title: "How to: Add Standard Text Markers | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,7 +31,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # How to: Add Standard Text Markers
-Use the following procedure to create one of the default text marker types provided with the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] core editor.  
+Use the following procedure to create one of the default text marker types provided with the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] core editor.  
   
 ### To create a text marker  
   

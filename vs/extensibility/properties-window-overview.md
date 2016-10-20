@@ -1,7 +1,7 @@
 ---
-title: "Properties Window Overview"
+title: "Properties Window Overview | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,7 +31,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Properties Window Overview
-The **Properties** window is used to display properties for objects selected in the two main types of windows available in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE). These two types of windows are:  
+The **Properties** window is used to display properties for objects selected in the two main types of windows available in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE). These two types of windows are:  
   
 -   Tool windows such as Solution Explorer, Class View, and Object browser  
   

@@ -1,7 +1,7 @@
 ---
-title: "Walkthrough: Creating a Legacy Language Service"
+title: "Walkthrough: Creating a Legacy Language Service | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,7 +31,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Walkthrough: Creating a Legacy Language Service
-Using the managed package framework (MPF) language classes to implement a language service in [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] is straightforward. You need a VSPackage to host the language service, the language service itself, and a parser for your language.  
+Using the managed package framework (MPF) language classes to implement a language service in [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] is straightforward. You need a VSPackage to host the language service, the language service itself, and a parser for your language.  
   
 ## Prerequisites  
  To follow this walkthrough, you must install the Visual Studio SDK. For more information, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).  
@@ -55,7 +55,7 @@ Using the managed package framework (MPF) language classes to implement a langua
   
      You can use whatever name you want. These procedures detailed here assume MyLanguagePackage as the name.  
   
-3.  Select [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] as the language and the option to generate a new key file. Click **Next**.  
+3.  Select [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] as the language and the option to generate a new key file. Click **Next**.  
   
 4.  Enter the appropriate company and package information. Click **Next**.  
   

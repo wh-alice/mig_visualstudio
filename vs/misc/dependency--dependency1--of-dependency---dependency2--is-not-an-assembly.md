@@ -1,7 +1,7 @@
 ---
-title: "Dependency &#39;dependency1&#39; of dependency &#39; dependency2&#39; is not an assembly"
+title: "Dependency &#39;dependency1&#39; of dependency &#39; dependency2&#39; is not an assembly | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,7 +36,7 @@ The project system has determined that a particular dependency (dependency1) of 
   
  **To correct this error**  
   
--   Reinstall [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] (if the assembly came with [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] or the .NET Framework).  
+-   Reinstall [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] (if the assembly came with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] or the .NET Framework).  
   
      \- or -  
   

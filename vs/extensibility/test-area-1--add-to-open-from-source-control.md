@@ -1,7 +1,7 @@
 ---
-title: "Test Area 1: Add To-Open From Source Control"
+title: "Test Area 1: Add To-Open From Source Control | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ translation.priority.mt:
 This source-control plug-in test area covers placing solutions or projects under source control and retrieving them from source control.  
   
 ## Command Menu Access  
- The following [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment menu paths are used in the test cases:  
+ The following [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment menu paths are used in the test cases:  
   
 -   For [!INCLUDE[vsvss](../extensibility/includes/vsvss_md.md)], open from source control: **File**, **Open**, **Project**/**Solution**; look in the [!INCLUDE[vsvss](../extensibility/includes/vsvss_md.md)] location.  
   

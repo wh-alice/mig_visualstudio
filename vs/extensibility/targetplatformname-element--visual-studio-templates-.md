@@ -1,7 +1,7 @@
 ---
-title: "TargetPlatformName Element (Visual Studio Templates)"
+title: "TargetPlatformName Element (Visual Studio Templates) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -30,7 +30,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # TargetPlatformName Element (Visual Studio Templates)
-Specifies the platform that the project template targets. This element is used to specify that a project template is used to create [!INCLUDE[win8_appname_long](../codequality/includes/win8_appname_long_md.md)] apps.  
+Specifies the platform that the project template targets. This element is used to specify that a project template is used to create [!INCLUDE[win8_appname_long](../code-quality/includes/win8_appname_long_md.md)] apps.  
   
 ## Syntax  
   
@@ -65,7 +65,7 @@ Specifies the platform that the project template targets. This element is used t
  The text must be **Windows**.  
   
 ## Example  
- This example specifies that the project template targets [!INCLUDE[win8](../codequality/includes/win8_md.md)] or later.  
+ This example specifies that the project template targets [!INCLUDE[win8](../code-quality/includes/win8_md.md)] or later.  
   
 ```xml  
 <VSTemplate Type="Project" Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">   

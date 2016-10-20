@@ -1,7 +1,7 @@
 ---
-title: "Tier Interaction Views"
+title: "Tier Interaction Views | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,11 +32,11 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Tier Interaction Views
-Tier interaction profiling provides additional information about the execution times of functions in multi-tiered applications that communicate with databases through [!INCLUDE[vstecado](../datatools/includes/vstecado_md.md)]. Data is collected only for synchronous function calls. You can include tier interaction data in all profiling methods.  
+Tier interaction profiling provides additional information about the execution times of functions in multi-tiered applications that communicate with databases through [!INCLUDE[vstecado](../data-tools/includes/vstecado_md.md)]. Data is collected only for synchronous function calls. You can include tier interaction data in all profiling methods.  
   
  **Requirements**  
   
--   [!INCLUDE[vsUltLong](../codequality/includes/vsultlong_md.md)]  
+-   [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)]  
   
 ## In This Section  
  [Tier Interactions View](../profiling/tier-interactions-view.md)

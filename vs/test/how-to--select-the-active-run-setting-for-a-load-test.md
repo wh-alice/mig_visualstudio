@@ -1,7 +1,7 @@
 ---
-title: "How to: Select the Active Run Setting for a Load Test"
+title: "How to: Select the Active Run Setting for a Load Test | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""

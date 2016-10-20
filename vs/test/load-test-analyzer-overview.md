@@ -1,5 +1,5 @@
 ---
-title: "Load Test Analyzer Overview"
+title: "Load Test Analyzer Overview | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/13/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -58,7 +58,7 @@ You can use the *Load Test Analyzer* to help locate bottlenecks, identify errors
   
 -   **Number of computers that are under test**  
   
-     For more information, see [Distributing Load Test Runs Across Multiple Test Machines Using Test Controllers and Test Agents](../test/6e67a587-8aad-48cc-a8c0-6d4b399f3731.md).  
+     For more information, see [Distributing Load Test Runs Across Multiple Test Machines Using Test Controllers and Test Agents](../test/distributing-load-test-runs-across-multiple-test-machines-using-test-controllers-and-test-agents.md).  
   
 -   **Number of counters that are being collected**  
   
@@ -131,7 +131,7 @@ Overview Panel
 ##  <a name="AnalyzeComp"></a> Analyzing a Completed Test  
  After a load test has completed, the Load Test Analyzer appears as a new tabbed document that displays the load test summary. The Load Test Analyzer can also be docked or set to float by using the usual Visual Studio window manipulation techniques. The title of the window is the name of your load test and the time that the test was started, for example, LoadTest2 [1:15 PM].  
   
- The load test result for the completed load test contains performance counter samples and error information that were collected periodically from the computers under test. A large number of performance counter samples can be collected over the course of a load test run. The amount of performance data that is collected depends on the length of the test run, the sampling interval, the number of computers under test, the number of counters that are being collected, the data collectors that are configured, and the logging levels. For a large load test, the amount of performance data that is collected can easily be several gigabytes. For more information, see [Distributing Load Test Runs Across Multiple Test Machines Using Test Controllers and Test Agents](../test/6e67a587-8aad-48cc-a8c0-6d4b399f3731.md) and [Considerations for Load Testing](http://msdn.microsoft.com/en-us/e2985d15-60a7-4177-93b4-f986c2936337).  
+ The load test result for the completed load test contains performance counter samples and error information that were collected periodically from the computers under test. A large number of performance counter samples can be collected over the course of a load test run. The amount of performance data that is collected depends on the length of the test run, the sampling interval, the number of computers under test, the number of counters that are being collected, the data collectors that are configured, and the logging levels. For a large load test, the amount of performance data that is collected can easily be several gigabytes. For more information, see [Distributing Load Test Runs Across Multiple Test Machines Using Test Controllers and Test Agents](../test/distributing-load-test-runs-across-multiple-test-machines-using-test-controllers-and-test-agents.md) and [Considerations for Load Testing](http://msdn.microsoft.com/en-us/e2985d15-60a7-4177-93b4-f986c2936337).  
   
  The *test controller* spools all collected performance counter data to a database while the test is running. Additional data, such as timing details and error details, is loaded into the database when the test completes. The performance data for a completed test is loaded from the database and analyzed by the Load Test Analyzer. A completed test result that is loaded from a load test result database is called a *post-run load test result* or simply the *load test result*.  
   
@@ -205,7 +205,7 @@ Overview Panel
  ![Analysis dialog for adding load test notes](../test/media/ltest_ananotes.png "LTest_AnaNotes")  
 Adding notes to load test results  
   
- For more information, see [How to: Add a Comment to a Running Load Test Using the Load Test Analyzer](../test_notintoc/how-to--add-a-comment-to-a-running-load-test-using-the-load-test-analyzer.md) and [How to: Add Comments while Analyzing a Completed Load Test](../test/e6b68940-4fb6-4bd6-bcde-f6477adc7af9.md).  
+ For more information, see [How to: Add a Comment to a Running Load Test Using the Load Test Analyzer](../test_notintoc/how-to--add-a-comment-to-a-running-load-test-using-the-load-test-analyzer.md) and [How to: Add Comments while Analyzing a Completed Load Test](../test/how-to--add-comments-while-analyzing-a-completed-load-test-using-the-load-test-analyzer.md).  
   
 ##  <a name="Toolbar"></a> Load Test Analyzer Toolbar  
  ![Load Test Analyzer toolbar](../test/media/ltest_anatoolbar.png "LTest_AnaToolbar")  
@@ -245,7 +245,7 @@ Load Test Analyzer Toolbar
   
 15. [Export Graphs Data to Excel drop-down](#ExportExcel) exports the graph data either to Microsoft Excel or to a file by using the comma-separated values (.CSV) format.  
   
-16. [View Profiler Performance Report](#ProfilerReports) opens an [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] profiler report that is associated with the load test result to conduct further analysis.  
+16. [View Profiler Performance Report](#ProfilerReports) opens an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] profiler report that is associated with the load test result to conduct further analysis.  
   
 17. [View Data and Diagnostic Attachments](#DataAndDiagnosticAdapter) opens the **Choose Diagnostic Data Adapter Attachment** dialog box to select an adapter to analyze. For example, you can select an IntelliTrace adapter, choose **OK** and open the IntelliTrace summary for the test agent that was used in the load test.  
   
@@ -342,13 +342,13 @@ Summary view in Load Test Analyzer
  The slowest pages section contains the top five slowest pages in the load test. The URL and the average page load time are displayed for each page. The pages are listed in descending order. You can choose the URL of a page to open the **Pages** table and inspect more details for that page. For more information, see [How to: View Web Page Response](../test/how-to--view-web-page-response-time-in-a-load-test-using-the-load-test-analyzer.md).  
   
 ###  <a name="SlowestTests"></a> Key Statistic: Top Five Slowest Tests  
- The slowest tests section contains the top five slowest tests in the load test. The name of the test and the average test time are displayed for each test. The tests are listed in descending order. You can choose the name of a test to open the **Tests** table and inspect more details for that test. For more information, see [Analyzing Load Test Results and Errors in the Tables View](../test/0a84bda3-6051-45eb-9c7f-d57419e1f97d.md).  
+ The slowest tests section contains the top five slowest tests in the load test. The name of the test and the average test time are displayed for each test. The tests are listed in descending order. You can choose the name of a test to open the **Tests** table and inspect more details for that test. For more information, see [Analyzing Load Test Results and Errors in the Tables View](../test/analyzing-load-test-results-and-errors-in-the-tables-view-of-the-load-test-analyzer.md).  
   
 ###  <a name="SlowestQueries"></a> Key Statistic: Top Five Slowest SQL Operations  
- If SQL tracing is enabled in the load test, the slowest queries section contains the top five slowest queries in the load test. The name of the operation and the duration are displayed for each test. The duration is displayed in microseconds ([!INCLUDE[sqprsqlong](../debugger/includes/sqprsqlong_md.md)]) or milliseconds ([!INCLUDE[ss2k](../datatools/includes/ss2k_md.md)] and earlier versions). The tests are listed in descending order by duration. You can choose the name of an operation to open the **SQL Trace** table and inspect more details for that operation. For more information, see [The SQL Trace Data Table](../test/0a84bda3-6051-45eb-9c7f-d57419e1f97d.md#AnalyzingLoadTestResultsErrorsTablesViewViewingTheSQLTraceDataTable).  
+ If SQL tracing is enabled in the load test, the slowest queries section contains the top five slowest queries in the load test. The name of the operation and the duration are displayed for each test. The duration is displayed in microseconds ([!INCLUDE[sqprsqlong](../debugger/includes/sqprsqlong_md.md)]) or milliseconds ([!INCLUDE[ss2k](../data-tools/includes/ss2k_md.md)] and earlier versions). The tests are listed in descending order by duration. You can choose the name of an operation to open the **SQL Trace** table and inspect more details for that operation. For more information, see [The SQL Trace Data Table](../test/analyzing-load-test-results-and-errors-in-the-tables-view-of-the-load-test-analyzer.md#AnalyzingLoadTestResultsErrorsTablesViewViewingTheSQLTraceDataTable).  
   
 ###  <a name="TestResults"></a> Test Results  
- The test results section lists all tests and scenarios in the load test. It displays the name of the test, the scenario, the number of times it ran, the number of times it failed, and the average test time are displayed. You can choose the name of a test to open the **Tests** table and inspect more details for that test. For more information, see [Analyzing Load Test Results and Errors in the Tables View](../test/0a84bda3-6051-45eb-9c7f-d57419e1f97d.md).  
+ The test results section lists all tests and scenarios in the load test. It displays the name of the test, the scenario, the number of times it ran, the number of times it failed, and the average test time are displayed. You can choose the name of a test to open the **Tests** table and inspect more details for that test. For more information, see [Analyzing Load Test Results and Errors in the Tables View](../test/analyzing-load-test-results-and-errors-in-the-tables-view-of-the-load-test-analyzer.md).  
   
 > [!NOTE]
 >  You can collapse or expand this section by choosing the arrow to the left of the section title.  
@@ -369,7 +369,7 @@ Summary view in Load Test Analyzer
 > [!NOTE]
 >  You can collapse or expand this section by choosing the arrow to the left of the section title.  
   
- See [Analyzing Load Test Results and Errors in the Tables View](../test/0a84bda3-6051-45eb-9c7f-d57419e1f97d.md).  
+ See [Analyzing Load Test Results and Errors in the Tables View](../test/analyzing-load-test-results-and-errors-in-the-tables-view-of-the-load-test-analyzer.md).  
   
 ###  <a name="SystemUnderTest"></a> System Under Test Resources  
  The system under test resources section lists computers that compose the set of target computers for which load is being generated. This includes any computer from which you collect counter sets other than Agent or Controller. The computer name, percentage of processor time, and available memory are displayed. You can choose a computer name to open the **System under Test** graph and see the resource usage over time. For more information, see [Analyzing Load Test Results in the Graphs View](../test/analyzing-load-test-results-in-the-graphs-view-of-the-load-test-analyzer.md).  
@@ -580,7 +580,7 @@ Microsoft Excel with Exported Graph Data
  ![Tables view](../test/media/ltest_tablesview.png "LTest_TablesView")  
 Tables View in Load Test Analyzer  
   
- To display load test results as tables, choose **Tables** on the load test [toolbar](#toolbar). Each table is displayed in a panel with the table name displayed at the top in a drop-down list. To display a different table in the panel, choose a different table name from the list. Up to four horizontal table panels can be displayed at a time. You can switch between different panel layouts by using the **Panels drop-down**[toolbar](#toolbar) button. With the Tables view, load test performance counters can be viewed in tabular form. For more information, see [Analyzing Load Test Results and Errors in the Tables View](../test/0a84bda3-6051-45eb-9c7f-d57419e1f97d.md).  
+ To display load test results as tables, choose **Tables** on the load test [toolbar](#toolbar). Each table is displayed in a panel with the table name displayed at the top in a drop-down list. To display a different table in the panel, choose a different table name from the list. Up to four horizontal table panels can be displayed at a time. You can switch between different panel layouts by using the **Panels drop-down**[toolbar](#toolbar) button. With the Tables view, load test performance counters can be viewed in tabular form. For more information, see [Analyzing Load Test Results and Errors in the Tables View](../test/analyzing-load-test-results-and-errors-in-the-tables-view-of-the-load-test-analyzer.md).  
   
  The following tables may appear in the table view:  
   
@@ -612,7 +612,7 @@ Tables View in Load Test Analyzer
  The **Tests** table displays information for the individual Web performance and unit tests that are run during a load test. The table lists tests by test and scenario, because one test can be included in many scenarios. The **Tests** table also includes the number of times the tests were run, the number of times the tests passed or failed, how many tests occurred per second, and the amount of time that was required to run the tests..  
   
 ###  <a name="AgentsTable"></a> Agents Table  
- The **Agents** table is displayed only when your load test uses a test controller and test agents. For more information, see [Distributing Load Test Runs Across Multiple Test Machines Using Test Controllers and Test Agents](../test/6e67a587-8aad-48cc-a8c0-6d4b399f3731.md).  
+ The **Agents** table is displayed only when your load test uses a test controller and test agents. For more information, see [Distributing Load Test Runs Across Multiple Test Machines Using Test Controllers and Test Agents](../test/distributing-load-test-runs-across-multiple-test-machines-using-test-controllers-and-test-agents.md).  
   
  ![Agents table](../test/media/ltest_table.png "LTest_Table")  
   
@@ -667,7 +667,7 @@ Error Stack Trace Dialog
   
  ![SQL Trace table](../test/media/ltest_sqltracetable.png "LTest_SQLTraceTable")  
   
- The **SQL Trace** table displays the results of SQL tracing. This table is available only after a load test has completed, and only if SQL tracing was used during the test. For more information, see [The SQL Trace Data Table](../test/0a84bda3-6051-45eb-9c7f-d57419e1f97d.md#AnalyzingLoadTestResultsErrorsTablesViewViewingTheSQLTraceDataTable).  
+ The **SQL Trace** table displays the results of SQL tracing. This table is available only after a load test has completed, and only if SQL tracing was used during the test. For more information, see [The SQL Trace Data Table](../test/analyzing-load-test-results-and-errors-in-the-tables-view-of-the-load-test-analyzer.md#AnalyzingLoadTestResultsErrorsTablesViewViewingTheSQLTraceDataTable).  
   
 ###  <a name="TestDetailsTable"></a> Test Details Table  
  ![Details table](../test/media/ltest_testdetails.png "LTest_TestDetails")  
@@ -713,7 +713,7 @@ Error Stack Trace Dialog
   
          A scenario branch contains Web performance test nodes. The Web performance test nodes contain Pages, Requests, and Transaction nodes. Any leaf node in this structure is a performance counter that can be added to a graph.  
   
-    -   [Computers](#CounterPanelComputersIllustration) Contains all non-load test counter instances grouped by computer. The Computers branch contains a node for each computer that is associated with the load test controller specified in the Roles section of the currently selected test settings. For more information, see [Distributing Load Test Runs Across Multiple Test Machines Using Test Controllers and Test Agents](../test/6e67a587-8aad-48cc-a8c0-6d4b399f3731.md).  
+    -   [Computers](#CounterPanelComputersIllustration) Contains all non-load test counter instances grouped by computer. The Computers branch contains a node for each computer that is associated with the load test controller specified in the Roles section of the currently selected test settings. For more information, see [Distributing Load Test Runs Across Multiple Test Machines Using Test Controllers and Test Agents](../test/distributing-load-test-runs-across-multiple-test-machines-using-test-controllers-and-test-agents.md).  
   
          Each computer node contains a set of performance counter categories collected from that computer. Categories contain counters and counters contain performance counter instance names.  
   
@@ -790,7 +790,7 @@ Error Stack Trace Dialog
  There are two choices for enabling the **Timing Details Storage** property in the run settings properties named **StatisticsOnly** and **AllIndividualDetails**. With either option, all the individual tests, pages, and transactions are timed, and percentile data is calculated from the individual timing data. The difference is that with the **StatisticsOnly** option, as soon as the percentile data has been calculated, the individual timing data is deleted from the repository. This reduces the amount of space that is required in the repository when you use timing details. However, advanced users might want to process the timing detail data in other ways, by using SQL tools. If this is the case, the **AllIndividualDetails** option should be used so that the timing detail data is available for that processing. Additionally, if you set the property to **AllIndividualDetails**, then you can analyze the virtual user activity using the Virtual User Activity chart in the Load Test Analyzer after the load test completes running. For more information, see For more information, see [Details View](#DetailsView).  
   
 > [!NOTE]
->  In earlier versions of Visual Studio, including [!INCLUDE[vsprvsext](../test/includes/vsprvsext_md.md)] and [!INCLUDE[vs_orcas_long](../codequality/includes/vs_orcas_long_md.md)], the **All Individual Details** setting for the **Timing Details Storage** property was available. However, there are two important differences: First, the **All Individual Details** setting was not the default setting. Second, the only way to access this information was by using SQL queries.  
+>  In earlier versions of Visual Studio, including [!INCLUDE[vsprvsext](../test/includes/vsprvsext_md.md)] and [!INCLUDE[vs_orcas_long](../code-quality/includes/vs_orcas_long_md.md)], the **All Individual Details** setting for the **Timing Details Storage** property was available. However, there are two important differences: First, the **All Individual Details** setting was not the default setting. Second, the only way to access this information was by using SQL queries.  
   
  The amount of space that is required in the load test results repository to store the timing details data could be very large, especially for longer running load tests. Also, the time to store this data in the load test results repository at the end of the load test is longer because this data is stored on the load test agents until the load test has finished executing. When the load test finishes, the data is stored into the repository. By default, the **Timing Details Storage** property is enabled. If this is an issue for your testing environment, you might want to set the **Timing Details Storage** to **None**.  
   
@@ -846,14 +846,14 @@ IntelliTrace Summary for a load test
  For more information, see [Setting Up Machines and Collecting Diagnostic Information Using Test Settings](../test/setting-up-machines-and-collecting-diagnostic-information-using-test-settings.md) and [Using IntelliTrace](../debugger/intellitrace.md).  
   
 ##  <a name="ExcelReport"></a> Reporting Load Tests Results for Test Comparisons or Trend Analysis Using Microsoft Excel  
- You can generate [!INCLUDE[ofprexcel](../codequality/includes/ofprexcel_md.md)] load test reports that are based on two or more test results. Two types of load test reports are available:  
+ You can generate [!INCLUDE[ofprexcel](../code-quality/includes/ofprexcel_md.md)] load test reports that are based on two or more test results. Two types of load test reports are available:  
   
 -   **Run comparison** This creates a set of reports that compares the data from two load test results using tables and bar charts.  
   
 -   **Trend** You can generate trend analysis on two or more load test results. The results are displayed using line charts, but the data is available in pivot tables.  
   
 > [!TIP]
->  You can also manually create Microsoft Word reports by copying and pasting data from the summary view, graphs view and tables view. [!INCLUDE[crdefault](../codequality/includes/crdefault_md.md)][How to: Manually Create a Load Test Performance Report Using Microsoft Word](../test/how-to--manually-create-a-load-test-performance-report-using-microsoft-word.md).  
+>  You can also manually create Microsoft Word reports by copying and pasting data from the summary view, graphs view and tables view. [!INCLUDE[crdefault](../code-quality/includes/crdefault_md.md)][How to: Manually Create a Load Test Performance Report Using Microsoft Word](../test/how-to--manually-create-a-load-test-performance-report-using-microsoft-word.md).  
   
  Either report can be used to share performance data with stakeholders and explain whether the overall performance and health of the system is getting better or worse.  
   
@@ -861,7 +861,7 @@ IntelliTrace Summary for a load test
   
  Also, the spreadsheet file can be shared with stakeholders so that stakeholders do not have to connect to the database to see the report.  
   
- The following illustration is an example of a report that shows a correlation between a decline in transaction (Update Cart) speed and the degeneration of the (% Processor) counter. This points to a potential problem in the application code, instead of the database or network, and is a good candidate to diagnose by using the [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] Profiler.  
+ The following illustration is an example of a report that shows a correlation between a decline in transaction (Update Cart) speed and the degeneration of the (% Processor) counter. This points to a potential problem in the application code, instead of the database or network, and is a good candidate to diagnose by using the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Profiler.  
   
  ![Potential problem in the application code](../test/media/lt_excel.png "LT_Excel")  
   
@@ -896,7 +896,7 @@ IntelliTrace Summary for a load test
   
 -   Processor %Processor Time  
   
- The [!INCLUDE[ofprexcel](../codequality/includes/ofprexcel_md.md)] report is generated with the following tabs:  
+ The [!INCLUDE[ofprexcel](../code-quality/includes/ofprexcel_md.md)] report is generated with the following tabs:  
   
 -   **Table of Contents** - Displays the load test report name and provides a table of contents with links to the various tabs in the report.  
   
@@ -976,7 +976,7 @@ IntelliTrace Summary for a load test
 ###  <a name="Agents"></a> Do Not Overload the Test Agents  
  If a test agent machine has more than 75% CPU utilization or has less than 10% of physical memory available, add more agents to your load test to ensure that the agent machine does not become the bottleneck in your load test.  
   
- For more information, see [How to: Specify Test Agents to Use](../test/how-to--specify-test-agents-to-use-in-load-test-scenarios.md) and [Distributing Load Test Runs Across Multiple Test Machines Using Test Controllers and Test Agents](../test/6e67a587-8aad-48cc-a8c0-6d4b399f3731.md).  
+ For more information, see [How to: Specify Test Agents to Use](../test/how-to--specify-test-agents-to-use-in-load-test-scenarios.md) and [Distributing Load Test Runs Across Multiple Test Machines Using Test Controllers and Test Agents](../test/distributing-load-test-runs-across-multiple-test-machines-using-test-controllers-and-test-agents.md).  
   
 ## See Also  
  [Analyzing Load Test Results](../test/analyzing-load-test-results-using-the-load-test-analyzer.md)   

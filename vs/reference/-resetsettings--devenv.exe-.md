@@ -1,7 +1,7 @@
 ---
-title: "-ResetSettings (devenv.exe)"
+title: "-ResetSettings (devenv.exe) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,9 +33,9 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # /ResetSettings (devenv.exe)
-Restores [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] default settings and automatically launches the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] IDE. Optionally resets the settings to a specified .vssettings file.  
+Restores [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] default settings and automatically launches the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE. Optionally resets the settings to a specified .vssettings file.  
   
- The default settings are determined by the profile that was selected when [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] was first launched.  
+ The default settings are determined by the profile that was selected when [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] was first launched.  
   
 ## Syntax  
   
@@ -45,12 +45,12 @@ Devenv /ResetSettings SettingsFile
   
 ## Arguments  
  `SettingsFile`  
- The full path and name of the .vssettings file to apply to [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+ The full path and name of the .vssettings file to apply to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
  To restore the General Development Settings profile, use `General`.  
   
 ## Remarks  
- If no `SettingsFile` is specified, you will be prompted to select a default collection of settings the next time you start [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+ If no `SettingsFile` is specified, you will be prompted to select a default collection of settings the next time you start [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 ## Example  
  The following command line applies the settings stored in the file `MySettings.vssettings`.  

@@ -1,7 +1,7 @@
 ---
-title: "Test Area 7: Share"
+title: "Test Area 7: Share | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -47,7 +47,7 @@ This test area covers sharing items between locations via the **Share** command.
 -   If there is a Remote Site Web project.  
   
 ## Command Menu Access  
- The following [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment menu paths are used in the test cases.  
+ The following [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment menu paths are used in the test cases.  
   
  Share: **File**->**Source Control**->**Share**.  
   

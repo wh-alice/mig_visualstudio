@@ -1,7 +1,7 @@
 ---
-title: "DA0006: Override Equals() for value types"
+title: "DA0006: Override Equals() for value types | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -51,4 +51,4 @@ translation.priority.ht:
  For more information about how to override Equals and the equality operators, see [Guidelines for Implementing Equals and the Equality Operator (==)](http://go.microsoft.com/fwlink/?LinkId=177818).  
   
 ## How to Investigate a Warning  
- For an example of implementing the Equals and equality operators, see the code analysis rule [CA1815: Override equals and operator equals on value types](../codequality/ca1815--override-equals-and-operator-equals-on-value-types.md)
+ For an example of implementing the Equals and equality operators, see the code analysis rule [CA1815: Override equals and operator equals on value types](../code-quality/ca1815--override-equals-and-operator-equals-on-value-types.md)

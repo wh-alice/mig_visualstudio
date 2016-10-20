@@ -1,7 +1,7 @@
 ---
-title: "Walkthrough: Missing Objects Due to Device State"
+title: "Walkthrough: Missing Objects Due to Device State | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -30,7 +30,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Walkthrough: Missing Objects Due to Device State
-This walkthrough demonstrates how to use [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Graphics Diagnostics to investigate an object that is missing due to misconfigured device state.  
+This walkthrough demonstrates how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Graphics Diagnostics to investigate an object that is missing due to misconfigured device state.  
   
  This walkthrough demonstrates how to:  
   
@@ -56,7 +56,7 @@ This walkthrough demonstrates how to use [!INCLUDE[vsprvs](../codequality/includ
   
 #### To examine a frame in a graphics log  
   
-1.  In [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], load a graphics log that contains a frame that exhibits the missing model. A new Graphics Diagnostics tab appears in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. In the top part of this tab is the render target output of the selected frame. In the bottom part is the **Frame List**, which displays each captured frame as a thumbnail image.  
+1.  In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], load a graphics log that contains a frame that exhibits the missing model. A new Graphics Diagnostics tab appears in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. In the top part of this tab is the render target output of the selected frame. In the bottom part is the **Frame List**, which displays each captured frame as a thumbnail image.  
   
 2.  In the **Frame List**, select a frame that demonstrates that the model is not displayed. The render target is updated to reflect the selected frame. In this scenario, the graphics log tab looks like this:  
   
@@ -108,7 +108,7 @@ This walkthrough demonstrates how to use [!INCLUDE[vsprvs](../codequality/includ
   
 1.  Open the **Graphics Object Table** window. On the **Graphics Diagnostics** toolbar, choose **Object Table**.  
   
-2.  Locate the **D3D10 Device** object in the **Graphics Object Table**, and then open the **D3D10 Device** object. A new **d3d10 device** tab opens in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. To make this easier, you can sort the **Graphics Object Table** by **Type**:  
+2.  Locate the **D3D10 Device** object in the **Graphics Object Table**, and then open the **D3D10 Device** object. A new **d3d10 device** tab opens in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. To make this easier, you can sort the **Graphics Object Table** by **Type**:  
   
      ![Graphics Object Table and related device state](../debugger/media/vsg_walkthru1_objtable.png "vsg_walkthru1_objtable")  
   

@@ -1,7 +1,7 @@
 ---
-title: "Matching &#39;&lt;operatorsymbol1&gt;&#39; operator is required for &#39;&lt;operatorsymbol2&gt;&#39;"
+title: "Matching &#39;&lt;operatorsymbol1&gt;&#39; operator is required for &#39;&lt;operatorsymbol2&gt;&#39; | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -49,13 +49,13 @@ An operator is defined when its required matching operator is not defined.
   
  If you define any of these operators in a class or structure, you must also define its matching operator in the same class or structure.  
   
- Even if you do not use the matching operator explicitly, [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] might need to use it. For example, if you define a class or structure that you use as the counter variable in a [For...Next Statement](../Topic/For...Next%20Statement%20\(Visual%20Basic\).md), [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] requires both the `>=` and `<=` operators (as well as the `+` operator).  
+ Even if you do not use the matching operator explicitly, [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] might need to use it. For example, if you define a class or structure that you use as the counter variable in a [For...Next Statement](../Topic/For...Next%20Statement%20\(Visual%20Basic\).md), [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] requires both the `>=` and `<=` operators (as well as the `+` operator).  
   
  **Error ID:** BC33033  
   
 ### To correct this error  
   
--   Define the matching operator in the same class or structure. Make every effort to define it meaningfully, because [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] might use it in a situation you do not anticipate.  
+-   Define the matching operator in the same class or structure. Make every effort to define it meaningfully, because [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] might use it in a situation you do not anticipate.  
   
 ## See Also  
  [Operator Procedures](../Topic/Operator%20Procedures%20\(Visual%20Basic\).md)   

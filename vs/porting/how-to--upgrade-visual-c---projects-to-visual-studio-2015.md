@@ -1,7 +1,7 @@
 ---
-title: "How to: Upgrade Visual C++ Projects to Visual Studio 2015"
+title: "How to: Upgrade Visual C++ Projects to Visual Studio 2015 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,21 +32,21 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # How to: Upgrade Visual C++ Projects to Visual Studio 2015
-When you first open a Visual C++ project that was created in an earlier version of Visual Studio, you might be prompted to update the project. The message asks whether you want to upgrade to the most recent version of the Visual C++ compiler and libraries. The options for upgrading depend on the version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] that was used to create the project.  
+When you first open a Visual C++ project that was created in an earlier version of Visual Studio, you might be prompted to update the project. The message asks whether you want to upgrade to the most recent version of the Visual C++ compiler and libraries. The options for upgrading depend on the version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] that was used to create the project.  
   
- You can use [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md)] to open, edit, and build [!INCLUDE[win8](../codequality/includes/win8_md.md)] projects that were created in [!INCLUDE[vs_dev11_long](../codequality/includes/vs_dev11_long_md.md)], but to create a new [!INCLUDE[win8](../codequality/includes/win8_md.md)] project, you must use [!INCLUDE[vs_dev11_long](../codequality/includes/vs_dev11_long_md.md)]. (To create a [!INCLUDE[win81](../debugger/includes/win81_md.md)] project, you must use [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md)].)  
+ You can use [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md)] to open, edit, and build [!INCLUDE[win8](../code-quality/includes/win8_md.md)] projects that were created in [!INCLUDE[vs_dev11_long](../code-quality/includes/vs_dev11_long_md.md)], but to create a new [!INCLUDE[win8](../code-quality/includes/win8_md.md)] project, you must use [!INCLUDE[vs_dev11_long](../code-quality/includes/vs_dev11_long_md.md)]. (To create a [!INCLUDE[win81](../debugger/includes/win81_md.md)] project, you must use [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md)].)  
   
  To create a Windows 10 project, you must use [!INCLUDE[vs_dev14](../porting/includes/vs_dev14_md.md)].  
   
  If you aren't prompted to update the project, you may not have to do anything to upgrade the project.  
   
--   If the project (.vcproj) was created in a version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] that's older than [!INCLUDE[vs2010](../codequality/includes/vs2010_md.md)], you must update the project.  
+-   If the project (.vcproj) was created in a version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] that's older than [!INCLUDE[vs2010](../code-quality/includes/vs2010_md.md)], you must update the project.  
   
--   If the project (.vcxproj) was created in [!INCLUDE[vs_dev10_long](../codequality/includes/vs_dev10_long_md.md)],  [!INCLUDE[vs_dev11_long](../codequality/includes/vs_dev11_long_md.md)], or [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md)] you have two options:  
+-   If the project (.vcxproj) was created in [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)],  [!INCLUDE[vs_dev11_long](../code-quality/includes/vs_dev11_long_md.md)], or [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md)] you have two options:  
   
-    -   You can skip the update. [!INCLUDE[vs_dev14](../porting/includes/vs_dev14_md.md)] will load the project without making any changes if it has access to the Visual C++ tools in [!INCLUDE[vs_dev10_long](../codequality/includes/vs_dev10_long_md.md)] with SP1,  [!INCLUDE[vs_dev11_long](../codequality/includes/vs_dev11_long_md.md)], or [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md)]. You can provide this access by installing the version of Visual Studio that the project was created with on the same machine that has [!INCLUDE[vs_dev14](../porting/includes/vs_dev14_md.md)]. For more information, see [Installing Visual Studio Versions Side-by-Side](../install/installing-visual-studio-versions-side-by-side.md).  
+    -   You can skip the update. [!INCLUDE[vs_dev14](../porting/includes/vs_dev14_md.md)] will load the project without making any changes if it has access to the Visual C++ tools in [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)] with SP1,  [!INCLUDE[vs_dev11_long](../code-quality/includes/vs_dev11_long_md.md)], or [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md)]. You can provide this access by installing the version of Visual Studio that the project was created with on the same machine that has [!INCLUDE[vs_dev14](../porting/includes/vs_dev14_md.md)]. For more information, see [Installing Visual Studio Versions Side-by-Side](../install/installing-visual-studio-versions-side-by-side.md).  
   
-    -   You can update the project by allowing [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] to make the changes that are described later in this topic. If you have more than one Visual C++ project in your solution, you must update all of them.  
+    -   You can update the project by allowing [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to make the changes that are described later in this topic. If you have more than one Visual C++ project in your solution, you must update all of them.  
   
         > [!NOTE]
         >  If you decline the update when you're first prompted, you can update the project later by choosing **Update VC++ project** on the **Project** menu. If the command doesn't appear, then an update isn't required.  

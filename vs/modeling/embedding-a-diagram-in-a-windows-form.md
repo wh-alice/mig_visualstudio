@@ -1,7 +1,7 @@
 ---
-title: "Embedding a Diagram in a Windows Form"
+title: "Embedding a Diagram in a Windows Form | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -27,7 +27,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Embedding a Diagram in a Windows Form
-You can embed a DSL diagram in a Windows Control, which appears in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] window.  
+You can embed a DSL diagram in a Windows Control, which appears in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] window.  
   
 ## Embedding a Diagram  
   
@@ -157,7 +157,7 @@ You can embed a DSL diagram in a Windows Control, which appears in the [!INCLUDE
   
     ```  
   
-4.  To test the DSL, press F5 and in the experimental instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], open a sample model file.  
+4.  To test the DSL, press F5 and in the experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], open a sample model file.  
   
      Notice that the list box shows a list of the elements in the model, and that it is correct after any addition or deletion, and after Undo and Redo.  
   

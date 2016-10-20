@@ -1,7 +1,7 @@
 ---
-title: "ProjectSubType Element (Visual Studio Templates)"
+title: "ProjectSubType Element (Visual Studio Templates) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -77,12 +77,12 @@ Classifies the template into a subcategory of the value specified in the `Projec
   
  If a template contains a `ProjectType` element with a value of `Web`, the `ProjectSubType` element specifies the programming language of the template. This element can have the following values:  
   
--   `CSharp`: Specifies that the template creates a [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] Web project or item.  
+-   `CSharp`: Specifies that the template creates a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] Web project or item.  
   
--   `VisualBasic`: Specifies that the template creates a [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] Web project or item.  
+-   `VisualBasic`: Specifies that the template creates a [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] Web project or item.  
   
 ## Example  
- The following example shows the metadata for a project template for a [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] device application targeting the [!INCLUDE[Compact](../extensibility/includes/compact_md.md)] version 2.0.  
+ The following example shows the metadata for a project template for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] device application targeting the [!INCLUDE[Compact](../extensibility/includes/compact_md.md)] version 2.0.  
   
 ```  
 <VSTemplate Type="Project" Version="3.0.0"  

@@ -1,7 +1,7 @@
 ---
-title: "Expand or change your virtual lab"
+title: "Expand or change your virtual lab | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,7 +31,7 @@ As you use and become familiar with a virtual lab, you might want to either expa
   
 -   [Move Team Foundation Server from One Server to Another](#BKMK_MoveTeamFoundationServerfromOneServertoAnother)  
   
-     You might have to change or replace the server that is running the [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] application-tier.  
+     You might have to change or replace the server that is running the [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] application-tier.  
   
 -   [Move a Team Project Collection from One Team Foundation Server to Another](#BKMK_MoveaTeamProjectCollectionfromOneTeamFoundationServertoAnother)  
   
@@ -56,22 +56,22 @@ As you use and become familiar with a virtual lab, you might want to either expa
  Each of these changes requires some modification to the configuration of [!INCLUDE[vstsLabShort](../test/includes/vstslabshort_md.md)] resources.  
   
 ##  <a name="BKMK_MoveTeamFoundationServerfromOneServertoAnother"></a> Move Team Foundation Server from One Server to Another  
- If you move [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] from one server to another, or otherwise change the name of the server that is running [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)], you must update the [!INCLUDE[TLA2#tla_url](../test/includes/tla2sharptla_url_md.md)] that the [!INCLUDE[vstsLabShort](../test/includes/vstslabshort_md.md)] components use to communicate with [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)]. [!INCLUDE[crabout](../codequality/includes/crabout_md.md)] how to move [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)], see [Administer](../Topic/Administer%20Team%20Foundation%20Server.md).  
+ If you move [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] from one server to another, or otherwise change the name of the server that is running [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)], you must update the [!INCLUDE[TLA2#tla_url](../test/includes/tla2sharptla_url_md.md)] that the [!INCLUDE[vstsLabShort](../test/includes/vstslabshort_md.md)] components use to communicate with [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)]. [!INCLUDE[crabout](../code-quality/includes/crabout_md.md)] how to move [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)], see [Administer](../Topic/Administer%20Team%20Foundation%20Server.md).  
   
- After you have finished moving [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)], update the [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] URL in the following locations:  
+ After you have finished moving [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)], update the [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] URL in the following locations:  
   
--   On the machine that is running the [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] application-tier, the [!INCLUDE[TLA2#tla_url](../test/includes/tla2sharptla_url_md.md)] appears in the [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] Administration Console. In the Administration Console, go to the **Lab Management** node, click **Reconfigure Lab Management**, and then click the **Advanced** tab.  In the **Lab URL** text box, type the new server name.  
+-   On the machine that is running the [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] application-tier, the [!INCLUDE[TLA2#tla_url](../test/includes/tla2sharptla_url_md.md)] appears in the [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] Administration Console. In the Administration Console, go to the **Lab Management** node, click **Reconfigure Lab Management**, and then click the **Advanced** tab.  In the **Lab URL** text box, type the new server name.  
   
--   On machines where a build agent is installed, the [!INCLUDE[TLA2#tla_url](../test/includes/tla2sharptla_url_md.md)] is stored in the Hyper-V-managed registry hive. If the server that is running [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] is renamed, click **Repair Workflow Capability** for this environment. The setting will be updated automatically in all the virtual machines of this environment. Because .lvr files store the [!INCLUDE[TLA2#tla_url](../test/includes/tla2sharptla_url_md.md)] of [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] internally, you must modify the .lvr file manually to update the [!INCLUDE[TLA2#tla_xml](../test/includes/tla2sharptla_xml_md.md)].  
+-   On machines where a build agent is installed, the [!INCLUDE[TLA2#tla_url](../test/includes/tla2sharptla_url_md.md)] is stored in the Hyper-V-managed registry hive. If the server that is running [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] is renamed, click **Repair Workflow Capability** for this environment. The setting will be updated automatically in all the virtual machines of this environment. Because .lvr files store the [!INCLUDE[TLA2#tla_url](../test/includes/tla2sharptla_url_md.md)] of [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] internally, you must modify the .lvr file manually to update the [!INCLUDE[TLA2#tla_xml](../test/includes/tla2sharptla_xml_md.md)].  
   
     > [!NOTE]
-    >  You do not have to revert snapshots, because the URL is updated in the virtual machines by [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] after it reverts to a snapshot.  
+    >  You do not have to revert snapshots, because the URL is updated in the virtual machines by [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] after it reverts to a snapshot.  
   
 ##  <a name="BKMK_MoveaTeamProjectCollectionfromOneTeamFoundationServertoAnother"></a> Move a Team Project Collection from One Team Foundation Server to Another  
- If you started to explore [!INCLUDE[vstsLabShort](../test/includes/vstslabshort_md.md)] by using composed environments or by creating a small team project to pilot test [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)], you might want to migrate the lab assets to a different [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] instance later. Because [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] does not support merging one team project with another, you must move your lab resources manually. [!INCLUDE[crabout](../codequality/includes/crabout_md.md)] how to migrate source code, work items, and build definitions, see [Administer](../Topic/Administer%20Team%20Foundation%20Server.md).  
+ If you started to explore [!INCLUDE[vstsLabShort](../test/includes/vstslabshort_md.md)] by using composed environments or by creating a small team project to pilot test [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)], you might want to migrate the lab assets to a different [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] instance later. Because [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] does not support merging one team project with another, you must move your lab resources manually. [!INCLUDE[crabout](../code-quality/includes/crabout_md.md)] how to migrate source code, work items, and build definitions, see [Administer](../Topic/Administer%20Team%20Foundation%20Server.md).  
   
 > [!NOTE]
->  You can move virtual machines only within the same network location because they are already configured to use that network location. If you move a team project collection between instances of [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] that are located in different domains, you must move the project collection, un-configure [!INCLUDE[vstsLabShort](../test/includes/vstslabshort_md.md)] for that project collection, and then configure it from fresh using the settings of the new [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] instance and domain.  
+>  You can move virtual machines only within the same network location because they are already configured to use that network location. If you move a team project collection between instances of [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] that are located in different domains, you must move the project collection, un-configure [!INCLUDE[vstsLabShort](../test/includes/vstslabshort_md.md)] for that project collection, and then configure it from fresh using the settings of the new [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] instance and domain.  
   
  Because you are moving between domains, you cannot recover everything.  
   
@@ -79,9 +79,9 @@ As you use and become familiar with a virtual lab, you might want to either expa
   
 1.  Move the team project collection to a new application tier. For the steps see [Move a  team project collection](../Topic/Move%20a%20%20team%20project%20collection.md).  
   
-2.  Un-configure [!INCLUDE[vstsLabShort](../test/includes/vstslabshort_md.md)] for the team project collection after attaching the collection to the destination [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)]. For the steps to un-configure, see [TFSConfig Lab /Delete Command](http://msdn.microsoft.com/en-us/62c85c1d-4230-49f5-9572-ff2cf4c55666).  
+2.  Un-configure [!INCLUDE[vstsLabShort](../test/includes/vstslabshort_md.md)] for the team project collection after attaching the collection to the destination [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)]. For the steps to un-configure, see [TFSConfig Lab /Delete Command](http://msdn.microsoft.com/en-us/62c85c1d-4230-49f5-9572-ff2cf4c55666).  
   
-3.  Reconfigure Lab Management for the collection in the destination [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)]. For the steps to configure Lab Management, see [Configure Lab Management for SCVMM environments](../test/configure-lab-management-for-scvmm-environments.md).  
+3.  Reconfigure Lab Management for the collection in the destination [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)]. For the steps to configure Lab Management, see [Configure Lab Management for SCVMM environments](../test/configure-lab-management-for-scvmm-environments.md).  
   
 ##  <a name="BKMK_AddaNewLibraryServerandRetireanOldLibraryServer"></a> Add a New Library Server and Retire an Old Library Server  
  If you must expand the storage for System Center Virtual Machine Manager (SCVMM), you can add new library shares. You can also replace existing shares with shares on servers that have faster processors, more hard disks, or both. The process to add or remove library shares to the SCVMM used by [!INCLUDE[vstsLabShort](../test/includes/vstslabshort_md.md)] is as follows:  
@@ -101,11 +101,11 @@ As you use and become familiar with a virtual lab, you might want to either expa
   
 #### To prepare for the move  
   
-1.  Make sure that the new library server meets the system requirements for a SCVMM library server. [!INCLUDE[crabout](../codequality/includes/crabout_md.md)] the system requirements, see [System Requirements: VMM Library Server](http://go.microsoft.com/fwlink/?LinkId=182572).  
+1.  Make sure that the new library server meets the system requirements for a SCVMM library server. [!INCLUDE[crabout](../code-quality/includes/crabout_md.md)] the system requirements, see [System Requirements: VMM Library Server](http://go.microsoft.com/fwlink/?LinkId=182572).  
   
 2.  On the new server, add a new library share:  
   
-    1.  In [!INCLUDE[TLA#tla_mswin](../codequality/includes/tlasharptla_mswin_md.md)] Explorer, create a new folder that uses the name of the new library share.  
+    1.  In [!INCLUDE[TLA#tla_mswin](../code-quality/includes/tlasharptla_mswin_md.md)] Explorer, create a new folder that uses the name of the new library share.  
   
     2.  Share the new folder with the SCVMM server by adding VMM_MACHINE$ as a contributor to the list of users this folder is shared with.  
   
@@ -137,9 +137,9 @@ As you use and become familiar with a virtual lab, you might want to either expa
   
 3.  In **Microsoft Test Manager**, click **Library**. Point to the new **Library Share**, and re-import the templates. Repeat for each team project that is enabled for [!INCLUDE[vstsLabShort](../test/includes/vstslabshort_md.md)]. Make sure that the OS profile and the hardware profile that you define to the new instance of the template are the same as the one that you used for the old template.  
   
-4.  If you have environments in the library that are based on templates, you should update the environment definitions manually. In [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], click **Library**. Click **Environments** and then click each environment that used the templates. Remove the old template and add the new template.  
+4.  If you have environments in the library that are based on templates, you should update the environment definitions manually. In [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], click **Library**. Click **Environments** and then click each environment that used the templates. Remove the old template and add the new template.  
   
-5.  Delete the old templates from the library. In [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], click the **Lab Center**. Click the **Library** tab, and then click **VMs and Templates**.  
+5.  Delete the old templates from the library. In [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], click the **Lab Center**. Click the **Library** tab, and then click **VMs and Templates**.  
   
      You can distinguish between the old and the new templates by looking at the library share column. This does not delete the underlying template.  
   
@@ -169,7 +169,7 @@ As you use and become familiar with a virtual lab, you might want to either expa
   
 #### To move stored environments  
   
-1.  In [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], deploy the environment.  
+1.  In [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], deploy the environment.  
   
      You do not have to start the environment.  
   
@@ -193,7 +193,7 @@ As you use and become familiar with a virtual lab, you might want to either expa
   
 #### To remove the share  
   
-1.  Delete virtual machines and templates from the original library share: In [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], click **Lab Center**. Click **Library**, **Virtual Machines and Templates** and then delete the virtual machines in the library share that are still shown at located in the original library share.  
+1.  Delete virtual machines and templates from the original library share: In [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], click **Lab Center**. Click **Library**, **Virtual Machines and Templates** and then delete the virtual machines in the library share that are still shown at located in the original library share.  
   
      You can easily group the virtual machines by library share, by dragging the **Library Share** column header and dropping it above the header row.  
   
@@ -205,11 +205,11 @@ As you use and become familiar with a virtual lab, you might want to either expa
   
     2.  Run the command **TFSLabConfig DeleteTeamProjectLibraryShare**, to specify the project collection and project name, in addition to the library share name.  
   
-         [!INCLUDE[crabout](../codequality/includes/crabout_md.md)] the **TFSLabConfig DeleteTeamProjectLibraryShare** command, see [TFSLabConfig DeleteTeamProjectLibraryShare Command](http://msdn.microsoft.com/en-us/4388c79c-98e1-4337-b59c-f9688a599c13).  
+         [!INCLUDE[crabout](../code-quality/includes/crabout_md.md)] the **TFSLabConfig DeleteTeamProjectLibraryShare** command, see [TFSLabConfig DeleteTeamProjectLibraryShare Command](http://msdn.microsoft.com/en-us/4388c79c-98e1-4337-b59c-f9688a599c13).  
   
     3.  Repeat this step for each team project.  
   
-3.  In the [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] Administration Console, delete the original library share from the team project collections that it was associated with.  
+3.  In the [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] Administration Console, delete the original library share from the team project collections that it was associated with.  
   
 ##  <a name="BKMK_AddaNewHyper-VHostandRetireanOldHyper-VHost"></a> Add a New Hyper-V Host and Retire an Old Hyper-V Host  
   
@@ -229,7 +229,7 @@ As you use and become familiar with a virtual lab, you might want to either expa
   
 5.  Migrate environments that are not network-isolated:  
   
-    1.  In [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], click **Lab Center**. Click the **Lab** tab and then click **Environments**. Identify the environments that reside in the host group in which the source and destination hosts are.  
+    1.  In [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], click **Lab Center**. Click the **Lab** tab and then click **Environments**. Identify the environments that reside in the host group in which the source and destination hosts are.  
   
     2.  Open each environment and identify which of them have the Network Isolation capability off. The rest of this step applies only to those environments that are not network-isolated.  
   
@@ -241,7 +241,7 @@ As you use and become familiar with a virtual lab, you might want to either expa
   
 6.  Migrate environments that are network-isolated:  
   
-    1.  In [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], click **Lab Center**. Next, click the **Lab** tab and then click **Environments**. Identify the environments that reside in the host group where the source and destination hosts are.  
+    1.  In [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], click **Lab Center**. Next, click the **Lab** tab and then click **Environments**. Identify the environments that reside in the host group where the source and destination hosts are.  
   
     2.  Open each environment and identify which of them have the **Network isolation** capability on.  
   
@@ -255,7 +255,7 @@ As you use and become familiar with a virtual lab, you might want to either expa
   
     5.  Deploy the environment from the library back to the host group.  
   
-7.  In [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], pause and then resume each environment. This verifies that the environment was successfully migrated.  
+7.  In [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], pause and then resume each environment. This verifies that the environment was successfully migrated.  
   
 8.  In the SCVMM Administrators Console, click **Hosts**, click the name of the old host, and then click **Remove host**.  
   
@@ -266,13 +266,13 @@ As you use and become familiar with a virtual lab, you might want to either expa
   
 1.  Delete the lab objects from each team project collection.  
   
-    1.  On the [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] application tier, open a command prompt and type the following command **Tfsconfig.exe lab /delete /collectionName:***myCollection*. You must run **TFSConfig** from a server that is running the Team Foundation application tier. By default, **TFSConfig** is located in *Drive*:\Program Files\Microsoft Team Foundation Server 2010\Tools. For more information about the **TfsConfig Lab /Delete** command, see [TFSConfig Lab /Delete Command](http://msdn.microsoft.com/en-us/62c85c1d-4230-49f5-9572-ff2cf4c55666).  
+    1.  On the [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] application tier, open a command prompt and type the following command **Tfsconfig.exe lab /delete /collectionName:***myCollection*. You must run **TFSConfig** from a server that is running the Team Foundation application tier. By default, **TFSConfig** is located in *Drive*:\Program Files\Microsoft Team Foundation Server 2010\Tools. For more information about the **TfsConfig Lab /Delete** command, see [TFSConfig Lab /Delete Command](http://msdn.microsoft.com/en-us/62c85c1d-4230-49f5-9572-ff2cf4c55666).  
   
     2.  Repeat this command for each team project collection on the server.  
   
-2.  Enter the new name in  [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] Administration Console.  
+2.  Enter the new name in  [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] Administration Console.  
   
-    1.  In [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] Administration Console, click the **Lab Management** node.  
+    1.  In [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] Administration Console, click the **Lab Management** node.  
   
     2.  On the **Lab Management** page, click **Reconfigure Lab Management**.  
   
@@ -290,7 +290,7 @@ As you use and become familiar with a virtual lab, you might want to either expa
   
     1.  In the SCVMM Administrators Console, click **Administration** and then click **General**. In the **Actions** pane, click **Back up Virtual Machine Manager**.  
   
-    2.  In the **Virtual Machine Manager Backup** dialog box, type the path of a destination folder for the backup file. The folder must not be a root directory and must be accessed by [!INCLUDE[ssNoVersion](../datatools/includes/ssnoversion_md.md)].  
+    2.  In the **Virtual Machine Manager Backup** dialog box, type the path of a destination folder for the backup file. The folder must not be a root directory and must be accessed by [!INCLUDE[ssNoVersion](../data-tools/includes/ssnoversion_md.md)].  
   
     > [!NOTE]
     >  You can follow the status of the backup in **Jobs** view.  
@@ -299,25 +299,25 @@ As you use and become familiar with a virtual lab, you might want to either expa
   
 3.  Install SCVMM on the new server. Either point the wizard to the current SCVMM database or create a new database. For the steps to restore the backup, see [Backing Up and Restoring the VMM Database](http://go.microsoft.com/fwlink/?LinkID=150302).  
   
-4.  Update the SCVMM server name in [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)].  
+4.  Update the SCVMM server name in [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)].  
   
     1.  Open a command prompt and run the command: **Tfsconfig.exe lab /settings / scvmmservername:***my_new_scvmmservername* **/force**. You must run **TFSConfig** from a server that is running the Team Foundation application tier. By default, **TFSConfig** is located in *Drive*:\Program Files\Microsoft Team Foundation Server 2010\Tools. You must use the **/force** switch because the library server and host groups are already bound to a team project collection; changing the SCVMM is not allowed unless you use the **/force** option. For more information about the **TFSConfig Lab Settings** command, see [TFSConfig Lab /Settings Commands](http://msdn.microsoft.com/en-us/28149fd2-a111-40f6-968c-3b5a83d2f7bc).  
   
-    2.  In the [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] Administration Console, click the **Lab Management** node. Click **Reconfigure Lab Management** and then click **Test** near **VMM Server name**. This confirms that [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] can connect to the new SCVMM and has the correct permissions.  
+    2.  In the [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] Administration Console, click the **Lab Management** node. Click **Reconfigure Lab Management** and then click **Test** near **VMM Server name**. This confirms that [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] can connect to the new SCVMM and has the correct permissions.  
   
         1.  If the Team Foundation Server service account does not have the appropriate permissions on the specified SCVMM, a dialog box prompts you for a user name and a password.  
   
         2.  Type the name and the password of a user who is an existing member of the SCVMM Administrator role. The Team Foundation Server service account will be added to the SCVMM Administrator role.  
   
-    3.  In the [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] Administration Console, do the following for each team project collection.  
+    3.  In the [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] Administration Console, do the following for each team project collection.  
   
-        1.  Click the **Lab Management** tab and then click **Configure Host Groups**. Select all host groups, and then click **Verify**. This confirms that [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] and the new SCVMM can connect to the hosts and have the correct permissions.  
+        1.  Click the **Lab Management** tab and then click **Configure Host Groups**. Select all host groups, and then click **Verify**. This confirms that [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] and the new SCVMM can connect to the hosts and have the correct permissions.  
   
-        2.  Click , **Lab Management**, and then click **Configure Library shares**. Select all library shares and then click **Verify**. This confirms that [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] and the new SCVMM can connect to the library shares and have the correct permissions.  
+        2.  Click , **Lab Management**, and then click **Configure Library shares**. Select all library shares and then click **Verify**. This confirms that [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] and the new SCVMM can connect to the library shares and have the correct permissions.  
   
 5.  Confirm the move was successful:  
   
-    1.  In [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], click **Lab Center** and then **Environments**. Confirm that your existing environments appear in the list and that they are in the correct state.  
+    1.  In [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], click **Lab Center** and then **Environments**. Confirm that your existing environments appear in the list and that they are in the correct state.  
   
     2.  Click **Library** and then **VMs and Templates**. Confirm that all the existing virtual machines and templates appear in the list and that they do not display new errors.  
   
@@ -328,7 +328,7 @@ As you use and become familiar with a virtual lab, you might want to either expa
   
 1.  Locate the QTControllerConfig.[!INCLUDE[TLA2#tla_xml](../test/includes/tla2sharptla_xml_md.md)] file and make a backup copy.  
   
-     This file is usually located in your [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] installation in the Common7\\[!INCLUDE[TLA2#tla_ide](../misc/includes/tla2sharptla_ide_md.md)] folder.  
+     This file is usually located in your [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] installation in the Common7\\[!INCLUDE[TLA2#tla_ide](../misc/includes/tla2sharptla_ide_md.md)] folder.  
   
 2.  Rebuild the machine with the same name.  
   
@@ -342,7 +342,7 @@ As you use and become familiar with a virtual lab, you might want to either expa
   
 6.  Restart the machine.  
   
-7.  If you change the name of a machine where a test controller is installed and the testing capability is configured for an environment, you must update the name of the test controller in the environments using that test controller. You will use [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] to modify the environment:  
+7.  If you change the name of a machine where a test controller is installed and the testing capability is configured for an environment, you must update the name of the test controller in the environments using that test controller. You will use [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] to modify the environment:  
   
     1.  Stop the environment.  
   

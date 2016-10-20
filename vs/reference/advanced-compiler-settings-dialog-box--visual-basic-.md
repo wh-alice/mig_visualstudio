@@ -1,7 +1,7 @@
 ---
-title: "Advanced Compiler Settings Dialog Box (Visual Basic)"
+title: "Advanced Compiler Settings Dialog Box (Visual Basic) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -46,7 +46,7 @@ Use the **AdvancedCompiler Settings** dialog box of the **Project Designer** to 
   
 4.  Click **Advanced Compile Options**.  
   
- [!INCLUDE[note_settings_general](../datatools/includes/note_settings_general_md.md)]  
+ [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
   
 ## Optimizations  
  The following options specify optimizations that can in some cases make a program file smaller, make a program run faster, or speed up the build process.  

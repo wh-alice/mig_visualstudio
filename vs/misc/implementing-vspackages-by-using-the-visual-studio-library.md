@@ -1,5 +1,5 @@
 ---
-title: "Implementing VSPackages By Using the Visual Studio Library"
+title: "Implementing VSPackages By Using the Visual Studio Library | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -42,7 +42,7 @@ The `IVsPackageImpl` class in the Visual Studio Library provides a minimal imple
 -   <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetPropertyPage*>  
   
     > [!NOTE]
-    >  The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Package Template generates all the code discussed here. You can save time by using the template to generate a VSPackage for you.  
+    >  The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Package Template generates all the code discussed here. You can save time by using the template to generate a VSPackage for you.  
   
  Packages that are implemented by using the Visual Studio Library typically inherit a VSPackage class from ATL's [CComObjectRootEx Class](../Topic/CComObjectRootEx%20Class.md) and [CComCoClass Class](../Topic/CComCoClass%20Class.md) and Visual Studio Library's IVsPackageImpl. For example, following is the VSPackage class declaration from the Reference.Package sample:  
   

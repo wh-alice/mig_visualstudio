@@ -1,7 +1,7 @@
 ---
-title: "Expression Evaluation Context"
+title: "Expression Evaluation Context | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,7 +31,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Expression Evaluation Context
-In [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] debugging, an **expression evaluation context**:  
+In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugging, an **expression evaluation context**:  
   
 -   Represents a context for expression evaluation. Generally, an evaluation context corresponds to the lexical scope within which to evaluate variables, parameters, functions, and methods. For example, an expression evaluation context associated with a stack frame will provide the context for evaluating local variables, method parameters, and class members (if applicable).  
   

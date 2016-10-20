@@ -1,7 +1,7 @@
 ---
-title: "Registering Single File Generators"
+title: "Registering Single File Generators | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,13 +32,13 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Registering Single File Generators
-To make a custom tool available in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], you must register it so [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] can instantiate it and associates it with a particular project type.  
+To make a custom tool available in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], you must register it so [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] can instantiate it and associates it with a particular project type.  
   
 ### To register a custom tool  
   
-1.  Register the custom tool DLL either in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] local registry or in the system registry, under HKEY_CLASSES_ROOT.  
+1.  Register the custom tool DLL either in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] local registry or in the system registry, under HKEY_CLASSES_ROOT.  
   
-     For example, here's the registration information for the managed MSDataSetGenerator custom tool, which comes with [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]:  
+     For example, here's the registration information for the managed MSDataSetGenerator custom tool, which comes with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]:  
   
     ```  
     [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\14.0\CLSID\{E76D53CC-3D4F-40A2-BD4D-4F3419755476}]  
@@ -49,7 +49,7 @@ To make a custom tool available in [!INCLUDE[vsprvs](../codequality/includes/vsp
     "Assembly"="Microsoft.VSDesigner, Version=14.0.0.0, Culture=Neutral, PublicKeyToken=b03f5f7f11d50a3a"  
     ```  
   
-2.  Create a registry key in the desired [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] hive under Generators\\*GUID* where *GUID* is the GUID defined by the specific language's project system or service. The name of the key becomes the programmatic name of your custom tool. The custom tool key has the following values:  
+2.  Create a registry key in the desired [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] hive under Generators\\*GUID* where *GUID* is the GUID defined by the specific language's project system or service. The name of the key becomes the programmatic name of your custom tool. The custom tool key has the following values:  
   
     -   (Default)  
   

@@ -1,7 +1,7 @@
 ---
-title: "ProjectType Element (Visual Studio Templates)"
+title: "ProjectType Element (Visual Studio Templates) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -68,9 +68,9 @@ Categorizes the project template so that it appears under the specified group in
   
  This value specifies the type of project the template will create, and must contain one of the following values:  
   
--   `CSharp`: Specifies that the template creates a [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] project or item.  
+-   `CSharp`: Specifies that the template creates a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] project or item.  
   
--   `VisualBasic`: Specifies that the template creates a [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] project or item.  
+-   `VisualBasic`: Specifies that the template creates a [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] project or item.  
   
 -   `Web`: Specifies that the template creates a Web project or item. If the `ProjectType` element contains this value, the language of the project or item is defined in the [ProjectSubType Element (Visual Studio Templates)](../extensibility/projectsubtype-element--visual-studio-templates-.md).  
   
@@ -82,7 +82,7 @@ Categorizes the project template so that it appears under the specified group in
  A template subtype can be specified by using the [ProjectSubType](../extensibility/projectsubtype-element--visual-studio-templates-.md) element.  
   
 ## Example  
- The following example shows the metadata for a project template for a [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] application.  
+ The following example shows the metadata for a project template for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] application.  
   
 ```  
 <VSTemplate Type="Project" Version="3.0.0"  

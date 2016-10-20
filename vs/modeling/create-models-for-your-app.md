@@ -1,7 +1,7 @@
 ---
-title: "Create models for your app"
+title: "Create models for your app | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -91,7 +91,7 @@ Modeling diagrams help you understand, clarify, and communicate ideas about your
 |[Generate code from UML class diagrams](../modeling/generate-code-from-uml-class-diagrams.md)|**Generate C# code from class diagrams** to start your implementation.|  
 |[Customize your model with profiles and stereotypes](../modeling/customize-your-model-with-profiles-and-stereotypes.md)|**Customize model elements** using stereotypes, to extend the standard UML model elements for specific purposes.|  
 |[Link model elements and work items](../modeling/link-model-elements-and-work-items.md)|**Create links between model elements and work items** to help you track tasks, test cases, bugs, requirements, issues, or other kinds of work that are associated with specific parts of your model.|  
-|[Export diagrams as images](../modeling/export-diagrams-as-images.md)|**Save your model and diagrams** so that you can share them with other users, including those who do not use [!INCLUDE[vsUltShort](../codequality/includes/vsultshort_md.md)].|  
+|[Export diagrams as images](../modeling/export-diagrams-as-images.md)|**Save your model and diagrams** so that you can share them with other users, including those who do not use [!INCLUDE[vsUltShort](../code-quality/includes/vsultshort_md.md)].|  
   
 ## Related Tasks  
   

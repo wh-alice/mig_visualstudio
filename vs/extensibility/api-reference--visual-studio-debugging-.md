@@ -1,7 +1,7 @@
 ---
-title: "API Reference (Visual Studio Debugging)"
+title: "API Reference (Visual Studio Debugging) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -50,7 +50,7 @@ The reference section includes a conceptual overview of the API, a guide that sh
 |E_ACCESSDENIED|General access denied error.|0x80070005|  
   
 > [!NOTE]
->  When a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] debugging method returns `S_OK`, it is assumed that all out parameter pointers are valid, that is, no validation is conducted on out parameter pointers when `S_OK` is returned.  
+>  When a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugging method returns `S_OK`, it is assumed that all out parameter pointers are valid, that is, no validation is conducted on out parameter pointers when `S_OK` is returned.  
   
 > [!NOTE]
 >  Invalid or `NULL` [out] parameters may cause the IDE to crash.  

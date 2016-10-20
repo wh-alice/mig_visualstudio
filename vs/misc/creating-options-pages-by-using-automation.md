@@ -1,7 +1,7 @@
 ---
-title: "Creating Options Pages By Using Automation"
+title: "Creating Options Pages By Using Automation | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,9 +32,9 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Creating Options Pages By Using Automation
-Managed VSPackages can use automation to extend the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE) by adding **Options** pages to the **Tools** menu.  
+Managed VSPackages can use automation to extend the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) by adding **Options** pages to the **Tools** menu.  
   
- A **Tools Options** page is fundamentally a user control, and is coded in the same way as any other user control. Typically, you would use one of the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] IDE's designers to create the object and add user controls.  
+ A **Tools Options** page is fundamentally a user control, and is coded in the same way as any other user control. Typically, you would use one of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE's designers to create the object and add user controls.  
   
 > [!NOTE]
 >  **Tools Options** pages implemented as a dialog box, using a `DialogProc` to handle windows messages, must be modeless dialog boxes, and must not call the `EndDialog` function.  
@@ -56,9 +56,9 @@ Managed VSPackages can use automation to extend the [!INCLUDE[vsprvs](../codequa
   
 -   Under HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<Version>*\AutomationProperties  
   
-     where *\<Version>* is the version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] (such as 8.0) and *\<PackageGUID>* is the GUID of the VSPackage that implements the automation object.  
+     where *\<Version>* is the version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] (such as 8.0) and *\<PackageGUID>* is the GUID of the VSPackage that implements the automation object.  
   
- Depending on the configuration under the AutomationProperties registry entry, the state of a **Tools Options** page may be automatically saved and restored through the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] settings mechanism when a user selects the **Import/Export Settings** command on the **Tools** menu. For more information on saving **Tools Options** page settings, see [Registering Custom Options Pages](../misc/registering-custom-options-pages.md).  
+ Depending on the configuration under the AutomationProperties registry entry, the state of a **Tools Options** page may be automatically saved and restored through the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] settings mechanism when a user selects the **Import/Export Settings** command on the **Tools** menu. For more information on saving **Tools Options** page settings, see [Registering Custom Options Pages](../misc/registering-custom-options-pages.md).  
   
  An application might not use the automation model to implement support for a **Tools Options** page's properties and settings.  
   
@@ -74,7 +74,7 @@ Managed VSPackages can use automation to extend the [!INCLUDE[vsprvs](../codequa
   
 -   Handle the setting of **Tools Options** page properties.  
   
--   Manage persistence of **Tools Options** page state through the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] settings.  
+-   Manage persistence of **Tools Options** page state through the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] settings.  
   
 -   Provide an API, if desired, for other applications to use the **Tools Options** page.  
   

@@ -1,7 +1,7 @@
 ---
-title: "Troubleshooting Exceptions: System.Data.StrongTypingException"
+title: "Troubleshooting Exceptions: System.Data.StrongTypingException | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -42,4 +42,4 @@ A <xref:System.Data.StrongTypingException> occurs when the user accesses a <xref
  <xref:System.Data.DataTable.DataSet*>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)   
  [Try...Catch...Finally Statement](../Topic/Try...Catch...Finally%20Statement%20\(Visual%20Basic\).md)   
- [Dataset tools in Visual Studio](../datatools/dataset-tools-in-visual-studio.md)
+ [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md)

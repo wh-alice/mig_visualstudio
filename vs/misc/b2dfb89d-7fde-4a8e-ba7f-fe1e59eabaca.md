@@ -1,7 +1,7 @@
 ---
-title: "Reference required to assembly &#39;&lt;assemblyname&gt;&#39; containing the implemented interface &#39;&lt;interfacename&gt;&#39;"
+title: "Reference required to assembly &#39;&lt;assemblyname&gt;&#39; containing the implemented interface &#39;&lt;interfacename&gt;&#39; | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -37,7 +37,7 @@ translation.priority.mt:
 # Reference required to assembly &#39;&lt;assemblyname&gt;&#39; containing the implemented interface &#39;&lt;interfacename&gt;&#39;
 Reference required to assembly '\<assemblyname>' containing the implemented interface '\<interfacename>'. Add one to your project.  
   
- The interface is defined in a dynamic-link library (DLL) or assembly that is not directly referenced in your project. The [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] compiler requires a reference to avoid ambiguity in case the interface is defined in more than one DLL or assembly.  
+ The interface is defined in a dynamic-link library (DLL) or assembly that is not directly referenced in your project. The [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler requires a reference to avoid ambiguity in case the interface is defined in more than one DLL or assembly.  
   
  **Error ID:** BC30009  
   

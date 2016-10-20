@@ -1,7 +1,7 @@
 ---
-title: "Code Snippets Schema Reference"
+title: "Code Snippets Schema Reference | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,7 +34,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Code Snippets Schema Reference
-IntelliSense Code Snippets are pre-authored pieces of code that are ready to be inserted into your application with [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. You can increase productivity by providing code snippets that reduce the amount of time spent typing repetitive code or searching for samples. You can use the IntelliSense Code Snippet XML schema to create your own code snippets and add them to the code snippets that [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] already includes.  
+IntelliSense Code Snippets are pre-authored pieces of code that are ready to be inserted into your application with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. You can increase productivity by providing code snippets that reduce the amount of time spent typing repetitive code or searching for samples. You can use the IntelliSense Code Snippet XML schema to create your own code snippets and add them to the code snippets that [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] already includes.  
   
 ## IntelliSense Code Snippets Schema Elements  
   

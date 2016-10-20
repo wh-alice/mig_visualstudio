@@ -1,7 +1,7 @@
 ---
-title: "Important Commands for Language Service Filters"
+title: "Important Commands for Language Service Filters | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,7 +32,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Important Commands for Language Service Filters
-If you want to create a fully featured language service filter, consider handling the following commands. The full list of command identifiers is defined in the <xref:Microsoft.VisualStudio.VSConstants.VSStd2KCmdID> enumeration for managed code and the Stdidcmd.h header file for unmanaged [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)] code. You can find the Stdidcmd.h file in *Visual Studio SDK installation path*\VisualStudioIntegration\Common\Inc.  
+If you want to create a fully featured language service filter, consider handling the following commands. The full list of command identifiers is defined in the <xref:Microsoft.VisualStudio.VSConstants.VSStd2KCmdID> enumeration for managed code and the Stdidcmd.h header file for unmanaged [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] code. You can find the Stdidcmd.h file in *Visual Studio SDK installation path*\VisualStudioIntegration\Common\Inc.  
   
 ## Commands to Handle  
   

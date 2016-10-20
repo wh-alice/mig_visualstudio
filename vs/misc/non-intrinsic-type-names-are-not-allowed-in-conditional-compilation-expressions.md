@@ -1,7 +1,7 @@
 ---
-title: "Non-intrinsic type names are not allowed in conditional compilation expressions"
+title: "Non-intrinsic type names are not allowed in conditional compilation expressions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -37,7 +37,7 @@ translation.priority.mt:
 # Non-intrinsic type names are not allowed in conditional compilation expressions
 The conditional compilation expression refers to a non-intrinsic type, but only intrinsic types are allowed.  
   
- For more information about the intrinsic type in [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)], see [Data Types Summary](../Topic/Data%20Types%20Summary%20\(Visual%20Basic\).md).  
+ For more information about the intrinsic type in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)], see [Data Types Summary](../Topic/Data%20Types%20Summary%20\(Visual%20Basic\).md).  
   
  **Error ID:** BC31426  
   

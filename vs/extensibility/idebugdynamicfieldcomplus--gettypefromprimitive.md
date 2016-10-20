@@ -1,7 +1,7 @@
 ---
-title: "IDebugDynamicFieldCOMPlus::GetTypeFromPrimitive"
+title: "IDebugDynamicFieldCOMPlus::GetTypeFromPrimitive | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "IDebugDynamicFieldCOMPlus::GetTypeFromPrimitive"
   - "GetTypeFromPrimitive"
 ms.assetid: d7f51e2a-1b72-489c-b7b6-4af7b7e4d663
-caps.latest.revision: 9
+caps.latest.revision: 10
 ms.author: "gregvanl"
 manager: "ghogen"
 translation.priority.mt: 
@@ -52,7 +52,7 @@ int GetTypeFromPrimitive(
   
 #### Parameters  
  `dwCorElementType`  
- [in] Value from the CorElementType Enumeration that represents the primitive type.  
+ [in] Value from the [CorElementType Enumeration](CorElementType%20Enumeration.xml) that represents the primitive type.  
   
  `ppType`  
  [out] Returns the [IDebugField](../extensibility/idebugfield.md) that represents the type.  

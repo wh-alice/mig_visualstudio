@@ -1,7 +1,7 @@
 ---
-title: "CreateVisualBasicManifestResourceName Task"
+title: "CreateVisualBasicManifestResourceName Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -37,7 +37,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # CreateVisualBasicManifestResourceName Task
-Creates a [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)]-style manifest name from a given .resx file name or other resource.  
+Creates a [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]-style manifest name from a given .resx file name or other resource.  
   
 ## Parameters  
  The following table describes the parameters of the [CreateVisualBasicManifestResourceName Task](../reference/createvisualbasicmanifestresourcename-task.md).  
@@ -45,7 +45,7 @@ Creates a [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)]-style manifes
 |Parameter|Description|  
 |---------------|-----------------|  
 |`ManifestResourceNames`|<xref:Microsoft.Build.Framework.ITaskItem> `[]` output read-only parameter.<br /><br /> The resulting manifest names.|  
-|`ResourceFiles`|Required `String` parameter.<br /><br /> The name of the resource file from which to create the [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] manifest name.|  
+|`ResourceFiles`|Required `String` parameter.<br /><br /> The name of the resource file from which to create the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] manifest name.|  
 |`RootNamespace`|Optional `String` parameter.<br /><br /> The root namespace of the resource file, typically taken from the project file. May be `null`.|  
 |`PrependCultureAsDirectory`|Optional `Boolean` parameter.<br /><br /> If `true`, the culture name is added as a directory name just before the manifest resource name. Default value is `true`.|  
 |`ResourceFilesWithManifestResourceNames`|Optional read-only `String` output parameter.<br /><br /> Returns the name of the resource file that now includes the manifest resource name.|  

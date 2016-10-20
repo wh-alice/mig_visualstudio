@@ -1,7 +1,7 @@
 ---
-title: "Adding a Menu to the Visual Studio Menu Bar"
+title: "Adding a Menu to the Visual Studio Menu Bar | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -94,7 +94,7 @@ This walkthrough shows how to add a menu to the menu bar of the Visual Studio in
   
      This makes the group part of the new menu.  
   
-4.  Find the `Buttons` section. Notice that the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Package template has generated a `Button` element that has its parent set to `MyMenuGroup`. As a result, this command will appear on your menu.  
+4.  Find the `Buttons` section. Notice that the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Package template has generated a `Button` element that has its parent set to `MyMenuGroup`. As a result, this command will appear on your menu.  
   
 ## Building and Testing the Extension  
   

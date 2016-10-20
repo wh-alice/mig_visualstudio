@@ -1,7 +1,7 @@
 ---
-title: "IDebugEventCallback2"
+title: "IDebugEventCallback2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -42,7 +42,7 @@ IDebugEventCallback2 : IUnknown
 ```  
   
 ## Notes for Implementers  
- [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] implements this interface to receive events from a debug engine.  
+ [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] implements this interface to receive events from a debug engine.  
   
 ## Notes for Callers  
  A debug engine typically receives this interface when the SDM calls [Attach](../extensibility/idebugprogram2--attach.md), [Attach](../extensibility/idebugengine2--attach.md), or [LaunchSuspended](../extensibility/idebugenginelaunch2--launchsuspended.md). A debug engine sends events to the SDM by calling [Event](../extensibility/idebugeventcallback2--event.md).  

@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating an MSBuild Project File from Scratch"
+title: "Walkthrough: Creating an MSBuild Project File from Scratch | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
@@ -412,7 +412,7 @@ Programming languages that target the .NET Framework use MSBuild project files t
 ## Example  
   
 ### Description  
- The following example shows a project file that compiles a [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] application and logs a message that contains the output file name.  
+ The following example shows a project file that compiles a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] application and logs a message that contains the output file name.  
   
 ### Code  
   
@@ -452,7 +452,7 @@ Programming languages that target the .NET Framework use MSBuild project files t
 ## Example  
   
 ### Description  
- The following example shows a project file that compiles a [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] application and logs a message that contains the output file name.  
+ The following example shows a project file that compiles a [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] application and logs a message that contains the output file name.  
   
 ### Code  
   

@@ -1,7 +1,7 @@
 ---
-title: "Generic methods cannot be exposed to COM"
+title: "Generic methods cannot be exposed to COM | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Generic methods cannot be exposed to COM
-A [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] component containing one or more generic procedures is exported to a COM component.  
+A [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] component containing one or more generic procedures is exported to a COM component.  
   
  The Component Object Model (COM) does not support generic types, and it cannot interoperate with them.  
   
@@ -43,7 +43,7 @@ A [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] component c
   
 ### To correct this error  
   
--   Remove the generic procedure or procedures from the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] component, or do not use it for COM interop.  
+-   Remove the generic procedure or procedures from the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] component, or do not use it for COM interop.  
   
 ## See Also  
  [Generic Types in Visual Basic](../Topic/Generic%20Types%20in%20Visual%20Basic%20\(Visual%20Basic\).md)   

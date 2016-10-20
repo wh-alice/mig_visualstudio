@@ -1,7 +1,7 @@
 ---
-title: "Expression of type &#39;&lt;typename&gt;&#39; cannot be converted to &#39;Object&#39; or &#39;ValueType&#39;"
+title: "Expression of type &#39;&lt;typename&gt;&#39; cannot be converted to &#39;Object&#39; or &#39;ValueType&#39; | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -39,7 +39,7 @@ An expression evaluates to a type that cannot be boxed by the common language ru
   
  *Boxing* refers to the processing necessary to convert a type to `Object` or, on occasion, to <xref:System.ValueType>. The common language runtime cannot box certain types, for example <xref:System.ArgIterator> and <xref:System.TypedReference>.  
   
- If you have not used `CType` or `CObj` in the statement containing this expression, [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] has attempted an implicit conversion that causes this error.  
+ If you have not used `CType` or `CObj` in the statement containing this expression, [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] has attempted an implicit conversion that causes this error.  
   
  **Error ID:** BC31394  
   

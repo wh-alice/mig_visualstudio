@@ -1,7 +1,7 @@
 ---
-title: "Running Automated Tests Using Microsoft Visual Studio"
+title: "Running Automated Tests Using Microsoft Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,7 +31,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Running Automated Tests Using Microsoft Visual Studio
-To run your automated tests locally or use a test controller and test agents, use Visual Studio. Or, if you have to plan your test effort and run tests as part of a test plan, use [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], which is included with Visual Studio Enterprise and Visual Studio Test Professional. You can also create and run manual tests with [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)].  
+To run your automated tests locally or use a test controller and test agents, use Visual Studio. Or, if you have to plan your test effort and run tests as part of a test plan, use [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], which is included with Visual Studio Enterprise and Visual Studio Test Professional. You can also create and run manual tests with [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)].  
   
  See:  
   

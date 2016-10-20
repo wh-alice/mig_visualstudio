@@ -1,7 +1,7 @@
 ---
-title: "Folder Element (Visual Studio Project Templates)"
+title: "Folder Element (Visual Studio Project Templates) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -112,7 +112,7 @@ Specifies a folder that will be added to the project.
      `...`  
   
 ## Example  
- The following example illustrates the metadata for a project template for a [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] Windows application.  
+ The following example illustrates the metadata for a project template for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] Windows application.  
   
 ```  
 <VSTemplate Type="Project" Version="3.0.0"  

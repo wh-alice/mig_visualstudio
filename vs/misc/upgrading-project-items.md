@@ -1,7 +1,7 @@
 ---
-title: "Upgrading Project Items"
+title: "Upgrading Project Items | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -39,7 +39,7 @@ If you add or manage items inside project systems you do not implement, you may 
   
 ### To get the project upgrade notification  
   
-1.  Set the <xref:Microsoft.VisualStudio.Shell.Interop.UIContextGuids80.SolutionOrProjectUpgrading> flag (defined in vsshell80.idl) in your project item implementation. This causes your project item VSPackage to auto load when the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] shell determines that a project system is in the process of upgrading.  
+1.  Set the <xref:Microsoft.VisualStudio.Shell.Interop.UIContextGuids80.SolutionOrProjectUpgrading> flag (defined in vsshell80.idl) in your project item implementation. This causes your project item VSPackage to auto load when the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] shell determines that a project system is in the process of upgrading.  
   
 2.  Advise the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEventsProjectUpgrade> interface via the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolution2.AdviseSolutionEvents*> method.  
   

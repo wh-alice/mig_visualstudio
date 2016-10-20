@@ -1,7 +1,7 @@
 ---
-title: "Editing Load Test Using the Load Test Editor"
+title: "Editing Load Test Using the Load Test Editor | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -60,7 +60,7 @@ Load Test Editor Hierarchy
   
  Run settings are a set of properties that influence the way a load test runs. Run settings are organized by categories in the Properties window.  
   
- [Distributing Load Test Runs Across Multiple Test Machines Using Test Controllers and Test Agents](../test/6e67a587-8aad-48cc-a8c0-6d4b399f3731.md)  
+ [Distributing Load Test Runs Across Multiple Test Machines Using Test Controllers and Test Agents](../test/distributing-load-test-runs-across-multiple-test-machines-using-test-controllers-and-test-agents.md)  
   
  You can use a group of computers to generate simulated load for testing, and to run tests remotely and concurrently on several computers.  
   

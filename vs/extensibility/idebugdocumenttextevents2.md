@@ -1,7 +1,7 @@
 ---
-title: "IDebugDocumentTextEvents2"
+title: "IDebugDocumentTextEvents2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,7 +45,7 @@ IDebugDocumentTextEvents2 : IUnknown
  The DE implements this interface to support making changes to the source code. This interface is typically implemented on the same object that implements the [IDebugDocument2](../extensibility/idebugdocument2.md) interface.  
   
 ## Notes for Callers  
- [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] obtains this interface through a call to the <xref:System.Runtime.InteropServices.ComTypes.IConnectionPoint.Advise*> method. The <xref:System.Runtime.InteropServices.ComTypes.IConnectionPoint> interface is obtained from a call to the <xref:System.Runtime.InteropServices.ComTypes.IConnectionPointContainer.EnumConnectionPoints*> method. The <xref:System.Runtime.InteropServices.ComTypes.IConnectionPointContainer> interface is obtained by calling the [QueryInterface](../Topic/QueryInterface.md) method on an [IDebugDocument2](../extensibility/idebugdocument2.md) interface.  
+ [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] obtains this interface through a call to the <xref:System.Runtime.InteropServices.ComTypes.IConnectionPoint.Advise*> method. The <xref:System.Runtime.InteropServices.ComTypes.IConnectionPoint> interface is obtained from a call to the <xref:System.Runtime.InteropServices.ComTypes.IConnectionPointContainer.EnumConnectionPoints*> method. The <xref:System.Runtime.InteropServices.ComTypes.IConnectionPointContainer> interface is obtained by calling the [QueryInterface](../Topic/QueryInterface.md) method on an [IDebugDocument2](../extensibility/idebugdocument2.md) interface.  
   
 ## Methods in Vtable Order  
  The following table shows the methods of `IDebugDocumentTextEvents2`.  

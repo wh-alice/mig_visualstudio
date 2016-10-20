@@ -1,7 +1,7 @@
 ---
-title: "Method cannot have both a ParamArray and Optional parameters"
+title: "Method cannot have both a ParamArray and Optional parameters | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

@@ -1,7 +1,7 @@
 ---
-title: "Working with Classes and Other Types (Class Designer)"
+title: "Working with Classes and Other Types (Class Designer) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

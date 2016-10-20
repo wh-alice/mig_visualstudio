@@ -1,7 +1,7 @@
 ---
-title: "Walkthrough: Writing a Visualizer in Visual Basic"
+title: "Walkthrough: Writing a Visualizer in Visual Basic | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -37,7 +37,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Walkthrough: Writing a Visualizer in Visual Basic
-This walkthrough shows how to write a simple visualizer by using [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)]. The visualizer you will create in this walkthrough displays the contents of a string using a Windows Forms message box. This simple string visualizer is a basic example to show how you can create visualizers for other data types more applicable to your projects.  
+This walkthrough shows how to write a simple visualizer by using [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]. The visualizer you will create in this walkthrough displays the contents of a string using a Windows Forms message box. This simple string visualizer is a basic example to show how you can create visualizers for other data types more applicable to your projects.  
   
 > [!NOTE]
 >  The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition. To change your settings, go to the **Tools** menu and choose **Import and Export** . For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
@@ -67,7 +67,7 @@ This walkthrough shows how to write a simple visualizer by using [!INCLUDE[vbprv
 2.  Change the name from Class1.vb to something meaningful, such as DebuggerSide.vb.  
   
     > [!NOTE]
-    >  [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] automatically changes the class declaration in DebuggerSide.vb to match the new file name.  
+    >  [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] automatically changes the class declaration in DebuggerSide.vb to match the new file name.  
   
 3.  In **Solution Explorer**, right-click **My First Visualizer**, and on the shortcut menu, click **Add Reference**.  
   
@@ -156,7 +156,7 @@ This walkthrough shows how to write a simple visualizer by using [!INCLUDE[vbprv
 2.  On the **Build** menu, click **Build MyFirstVisualizer**. The project should build successfully. Correct any build errors before continuing.  
   
 ## Create a Test Harness  
- At this point, your first visualizer is finished. If you have followed the steps correctly, you can build the visualizer and install it into [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. Before you install a visualizer into [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], however, you should test it to make sure that it runs correctly. You will now create a test harness to run the visualizer without installing it into [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+ At this point, your first visualizer is finished. If you have followed the steps correctly, you can build the visualizer and install it into [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Before you install a visualizer into [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], however, you should test it to make sure that it runs correctly. You will now create a test harness to run the visualizer without installing it into [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 #### To add a test method to show the visualizer  
   
@@ -208,7 +208,7 @@ This walkthrough shows how to write a simple visualizer by using [!INCLUDE[vbprv
   
 2.  Edit the name from Module1.vb to something appropriate, such as **TestConsole.vb**.  
   
-     Notice that [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] automatically changes the class declaration in TestConsole.vb to match the new file name.  
+     Notice that [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] automatically changes the class declaration in TestConsole.vb to match the new file name.  
   
 3.  In TestConsole. vb, add the following `Imports` statement:  
   
@@ -235,7 +235,7 @@ This walkthrough shows how to write a simple visualizer by using [!INCLUDE[vbprv
   
  Congratulations. You have just built and tested your first visualizer.  
   
- If you want to use your visualizer in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] rather than just calling it from the test harness, you have to install it. For more information, see [How to: Install a Visualizer](../debugger/how-to--install-a-visualizer.md).  
+ If you want to use your visualizer in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] rather than just calling it from the test harness, you have to install it. For more information, see [How to: Install a Visualizer](../debugger/how-to--install-a-visualizer.md).  
   
 ## See Also  
  [Visualizer Architecture](../debugger/visualizer-architecture.md)   

@@ -1,7 +1,7 @@
 ---
-title: "How to: Create a Localized Bootstrapper Package"
+title: "How to: Create a Localized Bootstrapper Package | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -46,7 +46,7 @@ After you create a bootstrapper package, you can create localized versions of th
 > [!NOTE]
 >  If you are using a Setup project to deploy applications, you can localize your application by changing the **Localization** property.  
   
- [!INCLUDE[note_settings_general](../datatools/includes/note_settings_general_md.md)]  
+ [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
   
 ### To create a localized bootstrapper package  
   

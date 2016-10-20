@@ -1,11 +1,11 @@
 ---
-title: "Configuring Lab Environments that Contain Windows XP or Windows Server 2003 Machines"
-ms.custom: na
-ms.date: "10/03/2016"
+title: "Configuring Lab Environments that Contain Windows XP or Windows Server 2003 Machines | Microsoft Docs"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e646c59c-47e4-47a5-bf9f-67f375ad1915
 caps.latest.revision: 8

@@ -1,7 +1,7 @@
 ---
-title: "How to: Create a Diagnostic Data Adapter"
+title: "How to: Create a Diagnostic Data Adapter | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -29,7 +29,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Create a Diagnostic Data Adapter
-To create a *diagnostic data adapter*, you create a class library using Visual Studio, and then add the Diagnostic Data Adapter APIs provided by Visual Studio Enterprise to your class library. Send any information that you want as a stream or a file to the <xref:Microsoft.VisualStudio.TestTools.Execution.DataCollectionSink> provided by the framework, when handling the events that are raised during the test run. The streams or files sent to the <xref:Microsoft.VisualStudio.TestTools.Execution.DataCollectionSink> are stored as attachments to the test results when your test finishes. If you create a bug from these test results or when you use [!INCLUDE[mtrlong](../codequality/includes/mtrlong_md.md)], the files are also linked to the bug.  
+To create a *diagnostic data adapter*, you create a class library using Visual Studio, and then add the Diagnostic Data Adapter APIs provided by Visual Studio Enterprise to your class library. Send any information that you want as a stream or a file to the <xref:Microsoft.VisualStudio.TestTools.Execution.DataCollectionSink> provided by the framework, when handling the events that are raised during the test run. The streams or files sent to the <xref:Microsoft.VisualStudio.TestTools.Execution.DataCollectionSink> are stored as attachments to the test results when your test finishes. If you create a bug from these test results or when you use [!INCLUDE[mtrlong](../code-quality/includes/mtrlong_md.md)], the files are also linked to the bug.  
   
  You can create a diagnostic data adapter that affects the machine where your tests are run, or a machine that is part of the environment you are using to run your application under test. For example, collecting files on your test machine where the tests are run, or collecting files on the machine serving in the Web server role for your application.  
   
@@ -230,7 +230,7 @@ To create a *diagnostic data adapter*, you create a class library using Visual S
     }  
     ```  
   
-     These files are attached to the test results. If you create a bug from these test results or when you use [!INCLUDE[mtrlong](../codequality/includes/mtrlong_md.md)], the files are also attached to the bug.  
+     These files are attached to the test results. If you create a bug from these test results or when you use [!INCLUDE[mtrlong](../code-quality/includes/mtrlong_md.md)], the files are also attached to the bug.  
   
      If you want to use your own editor to collect data to use in your test settings, see [How to: Create a Custom Editor for Data for Your Diagnostic Data Adapter](../test/how-to--create-a-custom-editor-for-data-for-your-diagnostic-data-adapter.md).  
   
@@ -277,9 +277,9 @@ To create a *diagnostic data adapter*, you create a class library using Visual S
   
 14. For more information about how to configure your test settings to use an environment when you run your tests, see [Collect more diagnostic data](../test/collect-more-diagnostic-data-in-manual-tests.md) or [Create Test Settings for Automated System Tests Using Microsoft Test Manager](../test_notintoc/create-test-settings-for-automated-system-tests-using-microsoft-test-manager.md).  
   
-15. To select your diagnostic data adapter, you must first select an existing test settings or create a new one from [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] or Visual Studio. The adapter is displayed on the **Data and Diagnostics** tab of your test settings with the friendly name that you assigned to the class.  
+15. To select your diagnostic data adapter, you must first select an existing test settings or create a new one from [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] or Visual Studio. The adapter is displayed on the **Data and Diagnostics** tab of your test settings with the friendly name that you assigned to the class.  
   
-16. If you are running your tests from [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], you can assign these test settings to your test plan before you run your tests, or use the **Run with Options** command to assign test settings and override test settings. For more information about test settings, see [Setting Up Machines and Collecting Diagnostic Information Using Test Settings](../test/setting-up-machines-and-collecting-diagnostic-information-using-test-settings.md).  
+16. If you are running your tests from [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], you can assign these test settings to your test plan before you run your tests, or use the **Run with Options** command to assign test settings and override test settings. For more information about test settings, see [Setting Up Machines and Collecting Diagnostic Information Using Test Settings](../test/setting-up-machines-and-collecting-diagnostic-information-using-test-settings.md).  
   
      If you are running your tests from Visual Studio, you must set these test settings to be active. For more information about test settings, see [Specifying Test Settings for Visual Studio Tests](../test/specifying-test-settings-for-visual-studio-tests.md).  
   

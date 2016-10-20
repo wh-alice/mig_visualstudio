@@ -1,7 +1,7 @@
 ---
-title: "Implementing Syntax Coloring"
+title: "Implementing Syntax Coloring | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,9 +33,9 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Implementing Syntax Coloring
-When the language service provides syntax colorization, the parser converts a line of text into an array of colorable items and returns token types corresponding to these colorable items. The parser should return token types that belong to a list of colorable items. [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] displays each colorable item in the code window according to the attributes assigned by the colorizer object to the appropriate token type.  
+When the language service provides syntax colorization, the parser converts a line of text into an array of colorable items and returns token types corresponding to these colorable items. The parser should return token types that belong to a list of colorable items. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] displays each colorable item in the code window according to the attributes assigned by the colorizer object to the appropriate token type.  
   
- [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] does not specify a parser interface, and parser implementation is completely up to you. However, a default parser implementation is provided in the Visual Studio Language Package project. For managed code, the managed package framework (MPF) provides complete support for colorizing text.  
+ [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] does not specify a parser interface, and parser implementation is completely up to you. However, a default parser implementation is provided in the Visual Studio Language Package project. For managed code, the managed package framework (MPF) provides complete support for colorizing text.  
   
  Legacy language services are implemented as part of a VSPackage, but the newer way to implement language service features is to use MEF extensions. To find out more about the new way to implement syntax coloring, see [Walkthrough: Highlighting Text](../extensibility/walkthrough--highlighting-text.md).  
   

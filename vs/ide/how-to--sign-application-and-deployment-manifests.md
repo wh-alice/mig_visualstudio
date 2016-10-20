@@ -1,7 +1,7 @@
 ---
-title: "How to: Sign Application and Deployment Manifests"
+title: "How to: Sign Application and Deployment Manifests | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -47,7 +47,7 @@ If you want to publish an application by using ClickOnce deployment, the applica
  For information about creating key files, see [How to: Create a Public-Private Key Pair](../Topic/How%20to:%20Create%20a%20Public-Private%20Key%20Pair.md).  
   
 > [!NOTE]
->  [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] supports only Personal Information Exchange (PFX) key files that have the .pfx extension. However, you can select other types of certificates from the current user's Windows certificate store by clicking **Select from Store** on the **Signing** page of project properties.  
+>  [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] supports only Personal Information Exchange (PFX) key files that have the .pfx extension. However, you can select other types of certificates from the current user's Windows certificate store by clicking **Select from Store** on the **Signing** page of project properties.  
   
 ### To sign application and deployment manifests using a certificate  
   

@@ -1,5 +1,5 @@
 ---
-title: "Generating a Coded UI Test from an Existing Action Recording"
+title: "Generating a Coded UI Test from an Existing Action Recording | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -30,7 +30,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Generating a Coded UI Test from an Existing Action Recording
-You can automate manual system tests. [Generate a coded test from recording of a manual test run](#generate) created with [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], or [link the test case to an existing coded test](#linkToCode). You can run the automated test as part of a team build, and the results contribute to the reports of test cases in the same way as the manual test run.  
+You can automate manual system tests. [Generate a coded test from recording of a manual test run](#generate) created with [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], or [link the test case to an existing coded test](#linkToCode). You can run the automated test as part of a team build, and the results contribute to the reports of test cases in the same way as the manual test run.  
   
  **Requirements**  
   
@@ -113,15 +113,15 @@ public void CodedUITestMethod1()
  *What else should I know?*  
  **Notes**  
   
--   ![Prerequsite](../codequality/media/prereq.png "Prereq") If you are not currently connected to a team project on a Team Foundation Server, when you try to create a coded UI test from an action recording, the **Connect to Team Project** dialog box appears. You must connect to a team project in order to view the work items containing the action recordings. See [Connect from Visual Studio or Team Explorer](../Topic/Connect%20to%20team%20projects%20in%20Team%20Foundation%20Server.md#te).  
+-   ![Prerequsite](../code-quality/media/prereq.png "Prereq") If you are not currently connected to a team project on a Team Foundation Server, when you try to create a coded UI test from an action recording, the **Connect to Team Project** dialog box appears. You must connect to a team project in order to view the work items containing the action recordings. See [Connect from Visual Studio or Team Explorer](../Topic/Connect%20to%20team%20projects%20in%20Team%20Foundation%20Server.md#te).  
   
  **Tips**  
   
--   ![Tip](../codequality/media/tip.png "Tip") If you don’t have a coded UI test project in your solution, you can add one by choosing the **Add New Project** from the Solution Explorer shortcut menu. For more information, see [Creating Solutions and Projects](../ide/creating-solutions-and-projects.md).  
+-   ![Tip](../code-quality/media/tip.png "Tip") If you don’t have a coded UI test project in your solution, you can add one by choosing the **Add New Project** from the Solution Explorer shortcut menu. For more information, see [Creating Solutions and Projects](../ide/creating-solutions-and-projects.md).  
   
--   ![Tip](../codequality/media/tip.png "Tip") If necessary, you can modify the code in your action recordings, or use the Coded UI Test Editor. This provides the ability to do things such as add delays between actions, and split up your methods to further modularize your test. For more information, see [Automated Testing with Coded UI Tests](../test/automated-testing-with-coded-ui-tests.md) and [Editing Coded UI Tests Using the Coded UI Test Editor](../codequality/editing-coded-ui-tests-using-the-coded-ui-test-editor.md).  
+-   ![Tip](../code-quality/media/tip.png "Tip") If necessary, you can modify the code in your action recordings, or use the Coded UI Test Editor. This provides the ability to do things such as add delays between actions, and split up your methods to further modularize your test. For more information, see [Automated Testing with Coded UI Tests](../test/automated-testing-with-coded-ui-tests.md) and [Editing Coded UI Tests Using the Coded UI Test Editor](../code-quality/editing-coded-ui-tests-using-the-coded-ui-test-editor.md).  
   
--   ![Tip](../codequality/media/tip.png "Tip") For additional guidance, see [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 5: Automating System Tests](http://go.microsoft.com/fwlink/?LinkID=255196).  
+-   ![Tip](../code-quality/media/tip.png "Tip") For additional guidance, see [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 5: Automating System Tests](http://go.microsoft.com/fwlink/?LinkID=255196).  
   
 ##  <a name="LinktoCode"></a> Associating the test case to existing test code  
  If you have test code that fulfills the intention of the test case, then you can associate the test case to that test method. Typically, the test might be an end-to-end functional test. It does not have to be a coded UI test.  
@@ -129,7 +129,7 @@ public void CodedUITestMethod1()
 > [!WARNING]
 >  If you are automating a test case that already has manual test steps, make sure that the code performs an equivalent test to the manual steps. It should fail in any case in which the manual test would fail.  
   
- You can only associate the automated Visual Studio system test with your manual test case using [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. You cannot make this association using [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)]. If you have an existing test case that you want to use, you must first open the test case using [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], as shown in the next illustration.  
+ You can only associate the automated Visual Studio system test with your manual test case using [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. You cannot make this association using [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)]. If you have an existing test case that you want to use, you must first open the test case using [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], as shown in the next illustration.  
   
  ![Open Test Case Using Microsoft Visual Studio](../test/media/open_testcasevs.png "Open_TestCaseVS")  
   
@@ -143,15 +143,15 @@ public void CodedUITestMethod1()
   
 -   [Create a Lab Environment and Settings to Run Your Tests](../test/automate-a-test-case-in-microsoft-test-manager.md#AddEnvironment) After automating your manual tests, you can define additional diagnostic data to collect with your tests and specify an environment to run them in.  
   
--   [Run the Automated Test](../test/automate-a-test-case-in-microsoft-test-manager.md#RunTest) Run your automated manual tests from [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)].  
+-   [Run the Automated Test](../test/automate-a-test-case-in-microsoft-test-manager.md#RunTest) Run your automated manual tests from [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)].  
   
--   [Set Your Test Plan to Use Your Build](../test/automate-a-test-case-in-microsoft-test-manager.md#TestPlan) Specify specific builds for your automated manual tests to run against using [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)].  
+-   [Set Your Test Plan to Use Your Build](../test/automate-a-test-case-in-microsoft-test-manager.md#TestPlan) Specify specific builds for your automated manual tests to run against using [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)].  
   
 -   [View and Update the Test Results](../test/automate-a-test-case-in-microsoft-test-manager.md#ViewTest) Monitor your automated manual tests to verify app integrity.  
   
 ## See Also  
- [Use UI Automation To Test Your Code](../codequality/use-ui-automation-to-test-your-code.md)   
+ [Use UI Automation To Test Your Code](../code-quality/use-ui-automation-to-test-your-code.md)   
  [Automated Testing with Coded UI Tests](../test/automated-testing-with-coded-ui-tests.md)   
  [How to: Generate a Coded UI Test by Recording the Application Under Development](../misc/how-to--generate-a-coded-ui-test-by-recording-the-application-under-development.md)   
- [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../codequality/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)   
- [Upgrading Coded UI Tests from Visual Studio 2010](../codequality/upgrading-coded-ui-tests-from-visual-studio-2010.md)
+ [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../code-quality/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)   
+ [Upgrading Coded UI Tests from Visual Studio 2010](../code-quality/upgrading-coded-ui-tests-from-visual-studio-2010.md)

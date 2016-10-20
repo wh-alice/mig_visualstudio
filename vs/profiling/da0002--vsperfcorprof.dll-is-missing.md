@@ -1,7 +1,7 @@
 ---
-title: "DA0002: VSPerfCorProf.dll is missing"
+title: "DA0002: VSPerfCorProf.dll is missing | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -49,4 +49,4 @@ translation.priority.ht:
  Specific environment variables must be set before a profiling run for the profiler to resolve the symbols in .NET Framework binaries. This warning suggests that the VSPerfCLREnv.cmd tool was not run before the profiling data was collected. Symbols for managed binaries might not resolve. For more information about using the Profiling Tools from the command line, see [Profiling from the Command-Line](../profiling/using-the-profiling-tools-from-the-command-line.md)  
   
 ## How to Fix Violations  
- When you are profiling managed applications by using the command-line tools in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Profiling Tools, run the [VSPerfCLREnv](../profiling/vsperfclrenv.md) command-line tool before you start collecting data.
+ When you are profiling managed applications by using the command-line tools in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools, run the [VSPerfCLREnv](../profiling/vsperfclrenv.md) command-line tool before you start collecting data.

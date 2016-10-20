@@ -1,7 +1,7 @@
 ---
-title: "Attaching Directly to a Program"
+title: "Attaching Directly to a Program | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

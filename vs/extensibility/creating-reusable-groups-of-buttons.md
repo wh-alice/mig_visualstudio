@@ -1,7 +1,7 @@
 ---
-title: "Creating Reusable Groups of Buttons"
+title: "Creating Reusable Groups of Buttons | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -111,7 +111,7 @@ A command group is a collection of commands that always appear together on a men
     </CommandTable>  
     ```  
   
-     A command group can be included on more than one menu. The parent menu can be one that you created, one that is supplied by [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] (as described in ShellCmdDef.vsct or SharedCmdDef.vsct), or one that is defined in another VSPackage. The number of parenting layers is unlimited as long as the parent menu is eventually connected to [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] or to a shortcut menu that is displayed by a VSPackage.  
+     A command group can be included on more than one menu. The parent menu can be one that you created, one that is supplied by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] (as described in ShellCmdDef.vsct or SharedCmdDef.vsct), or one that is defined in another VSPackage. The number of parenting layers is unlimited as long as the parent menu is eventually connected to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] or to a shortcut menu that is displayed by a VSPackage.  
   
      The following example puts the group on the **Solution Explorer** toolbar, to the right of the other buttons.  
   

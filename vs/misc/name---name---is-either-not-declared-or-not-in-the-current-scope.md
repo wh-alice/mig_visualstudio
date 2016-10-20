@@ -1,7 +1,7 @@
 ---
-title: "Name &#39;&lt;name&gt;&#39; is either not declared or not in the current scope"
+title: "Name &#39;&lt;name&gt;&#39; is either not declared or not in the current scope | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -41,7 +41,7 @@ A LINQ query refers to a programming element, but the compiler cannot find an el
   
 ### To correct this error  
   
-1.  Check the spelling of the name in the referring statement. [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] is case-insensitive, but any other variation in the spelling constitutes a different name. Note that the underscore (`_`) is part of the name and therefore part of the spelling.  
+1.  Check the spelling of the name in the referring statement. [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] is case-insensitive, but any other variation in the spelling constitutes a different name. Note that the underscore (`_`) is part of the name and therefore part of the spelling.  
   
 2.  Verify that the programming element is in scope. If the referring statement is outside the region declaring the programming element, you might have to qualify the element name. For more information, see [Scope in Visual Basic](../Topic/Scope%20in%20Visual%20Basic.md).  
   

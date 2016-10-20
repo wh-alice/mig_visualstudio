@@ -1,7 +1,7 @@
 ---
-title: "Resources for Designing Accessible Applications"
+title: "Resources for Designing Accessible Applications | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -40,7 +40,7 @@ Use the following links to find information about technologies that support acce
   
 -   **Microsoft Active Accessibility** A COM-based technology that improves the way accessibility aids work with applications running on Microsoft Windows. It provides dynamic-link libraries that are incorporated into the operating system as well as a COM interface and application programming elements that provide reliable methods for exposing information about user interface elements. For more information, see [http://msdn.microsoft.com/library/windows/desktop/dd373592(v=vs.85).aspx](http://msdn.microsoft.com/library/windows/desktop/dd373592\(v=vs.85\).aspx).  
   
--   **Microsoft .NET Speech Technologies** The Microsoft .NET Speech SDK is a set of Microsoft [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] controls, a Microsoft Internet Explorer Speech add-in, sample applications and documentation that allows Web developers to create, debug and deploy speech-enabled [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] applications. The tools are integrated seamlessly into Microsoft Visual Studio, allowing developers to leverage the familiar development environment. For more information, see [http://msdn.microsoft.com/library/ms950383.aspx](http://msdn.microsoft.com/library/ms950383.aspx).  
+-   **Microsoft .NET Speech Technologies** The Microsoft .NET Speech SDK is a set of Microsoft [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] controls, a Microsoft Internet Explorer Speech add-in, sample applications and documentation that allows Web developers to create, debug and deploy speech-enabled [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] applications. The tools are integrated seamlessly into Microsoft Visual Studio, allowing developers to leverage the familiar development environment. For more information, see [http://msdn.microsoft.com/library/ms950383.aspx](http://msdn.microsoft.com/library/ms950383.aspx).  
   
 -   **Understanding SAMI 1.0** Microsoft Synchronized Accessible Media Interchange (SAMI) technology provides a way for developers to caption audio content for PC multimedia. For more information, see [http://msdn.microsoft.com/en-us/library/ms971327.aspx](http://msdn.microsoft.com/library/ms971327.aspx).  
   

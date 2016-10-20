@@ -1,7 +1,7 @@
 ---
-title: "&#39;Class_Initialize&#39; event is no longer supported"
+title: "&#39;Class_Initialize&#39; event is no longer supported | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -37,7 +37,7 @@ translation.priority.mt:
 # &#39;Class_Initialize&#39; event is no longer supported
 'Class_Initialize' event is no longer supported. Use 'Sub New' to initialize a class.  
   
- The `Class_Initialize` event of previous versions of [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] is replaced by class constructors.  
+ The `Class_Initialize` event of previous versions of [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] is replaced by class constructors.  
   
  By default, this message is a warning. For information on hiding warnings or treating warnings as errors, see [Configuring Warnings in Visual Basic](../ide/configuring-warnings-in-visual-basic.md).  
   

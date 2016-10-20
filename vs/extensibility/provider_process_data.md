@@ -1,7 +1,7 @@
 ---
-title: "PROVIDER_PROCESS_DATA"
+title: "PROVIDER_PROCESS_DATA | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -61,7 +61,7 @@ public struct PROVIDER_PROCESS_DATA {
  A [PROGRAM_NODE_ARRAY](../extensibility/program_node_array.md) structure that contains an array of program nodes.  
   
  fIsDebuggerPresent  
- Nonzero (`TRUE`) if the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] debugger is running, zero (`FALSE`) if it is not.  
+ Nonzero (`TRUE`) if the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger is running, zero (`FALSE`) if it is not.  
   
 ## Remarks  
  This structure is passed to the [GetProviderProcessData](../extensibility/idebugprogramprovider2--getproviderprocessdata.md) method where it is filled in.  

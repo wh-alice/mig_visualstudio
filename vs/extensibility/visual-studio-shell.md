@@ -1,7 +1,7 @@
 ---
-title: "Visual Studio Shell"
+title: "Visual Studio Shell | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,7 +32,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Visual Studio Shell
-The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] shell is the primary agent of integration in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. The shell provides necessary functionality to enable VSPackages to share common services. Because the architectural goal of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] is to vest primary functionality in the VSPackages, the shell is a framework to provide basic functionality and support cross-communication among its component VSPackages.  
+The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] shell is the primary agent of integration in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. The shell provides necessary functionality to enable VSPackages to share common services. Because the architectural goal of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is to vest primary functionality in the VSPackages, the shell is a framework to provide basic functionality and support cross-communication among its component VSPackages.  
   
 ## Shell Responsibilities  
  The shell has the following key responsibilities:  
@@ -63,7 +63,7 @@ The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] shell is the primar
   
     -   The User Context attributes that drive Dynamic Help  
   
- The shell also mediates communication among installed VSPackages and current services. It supports the core features of the shell and makes them available to all VSPackages integrated in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. These core features include the following items:  
+ The shell also mediates communication among installed VSPackages and current services. It supports the core features of the shell and makes them available to all VSPackages integrated in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. These core features include the following items:  
   
 -   **About** dialog box and splash screen  
   

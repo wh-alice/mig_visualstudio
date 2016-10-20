@@ -1,7 +1,7 @@
 ---
-title: "Best Practices for Security in the Visual Studio SDK"
+title: "Best Practices for Security in the Visual Studio SDK | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -66,11 +66,11 @@ You need to understand security for VSPackage extensions so that you can create 
 ## User Account Control (UAC) Issues  
  The User Account Control (UAC) feature has security implications that you should understand. It reduces the exposure of the operating system and applications to malicious attacks.  
   
-1.  For more information about UAC on [!INCLUDE[win7](../codequality/includes/win7_md.md)], see [What is User Account Control?](http://go.microsoft.com/fwlink/?linkid=159927).  
+1.  For more information about UAC on [!INCLUDE[win7](../code-quality/includes/win7_md.md)], see [What is User Account Control?](http://go.microsoft.com/fwlink/?linkid=159927).  
   
-2.  For more information about UAC on [!INCLUDE[win8](../codequality/includes/win8_md.md)], see [What are User Account Control settings?](http://windows.microsoft.com/windows-8/what-are-uac-settings).  
+2.  For more information about UAC on [!INCLUDE[win8](../code-quality/includes/win8_md.md)], see [What are User Account Control settings?](http://windows.microsoft.com/windows-8/what-are-uac-settings).  
   
- Before the advent of UAC, developers typically ran [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] under administrator permissions even when they were not required. You should do your development and testing of your extension as a normal user, so you can make sure it does not require elevated rights unnecessarily.  
+ Before the advent of UAC, developers typically ran [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] under administrator permissions even when they were not required. You should do your development and testing of your extension as a normal user, so you can make sure it does not require elevated rights unnecessarily.  
   
  Note that UAC also affects deployment. Installation packages must be correctly authored to support UAC. An incorrectly authored package typically causes "access denied" errors because the installer tries to use normal user rights to perform a task that requires elevated rights.  
   

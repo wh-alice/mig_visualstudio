@@ -1,7 +1,7 @@
 ---
-title: "Walkthrough: Command-Line Profiling Using Instrumentation"
+title: "Walkthrough: Command-Line Profiling Using Instrumentation | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,7 +34,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Walkthrough: Command-Line Profiling Using Instrumentation
-This walkthrough takes you through profiling a [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] stand-alone application to collect detailed timing and call count data by using the instrumentation method of the Profiling Tools. In this walkthrough, you will accomplish the following tasks:  
+This walkthrough takes you through profiling a [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] stand-alone application to collect detailed timing and call count data by using the instrumentation method of the Profiling Tools. In this walkthrough, you will accomplish the following tasks:  
   
 -   Use the [VSInstr](../profiling/vsinstr.md) command line tool to generate instrumented binaries.  
   
@@ -46,7 +46,7 @@ This walkthrough takes you through profiling a [!INCLUDE[dnprdnshort](../codequa
   
 ## Prerequisites  
   
--   [!INCLUDE[vsprvsts](../codequality/includes/vsprvsts_md.md)]  
+-   [!INCLUDE[vsprvsts](../code-quality/includes/vsprvsts_md.md)]  
   
 -   Intermediate understanding of C#  
   
@@ -132,7 +132,7 @@ This walkthrough takes you through profiling a [!INCLUDE[dnprdnshort](../codequa
     VSPerfReport Reports\Report.vsp /output:Reports /summary:all  
     ```  
   
-     You can analyze the generated reports in a spreadsheet program, or you can use the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] IDE to analyze the profiling data in the Report.vsp file. For more information, see [Analyzing Performance Tools Data](../profiling/analyzing-performance-tools-data.md).  
+     You can analyze the generated reports in a spreadsheet program, or you can use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE to analyze the profiling data in the Report.vsp file. For more information, see [Analyzing Performance Tools Data](../profiling/analyzing-performance-tools-data.md).  
   
 ## See Also  
  [Performance Session Overview](../profiling/performance-session-overview.md)   

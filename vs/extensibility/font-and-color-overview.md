@@ -1,7 +1,7 @@
 ---
-title: "Font and Color Overview"
+title: "Font and Color Overview | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,10 +32,10 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Font and Color Overview
-This topic discusses text font and color settings in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE). It also introduces the concepts of Categories and Display Items, and it describes how VSPackages and the core editor use text attributes.  
+This topic discusses text font and color settings in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE). It also introduces the concepts of Categories and Display Items, and it describes how VSPackages and the core editor use text attributes.  
   
 ## The Fonts and Colors Property Page  
- You can manage attributes of displayed text in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE) through the **Fonts and Colors** property page. To find the **Fonts and Colors** property page, on the **Tools** menu, click **Options**. Expand **Environment**, and then click **Fonts and Colors**.  
+ You can manage attributes of displayed text in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) through the **Fonts and Colors** property page. To find the **Fonts and Colors** property page, on the **Tools** menu, click **Options**. Expand **Environment**, and then click **Fonts and Colors**.  
   
 ## Categories and Display Items  
  Fonts and colors are organized into **Categories** and **Display Items**.  
@@ -63,7 +63,7 @@ This topic discusses text font and color settings in the [!INCLUDE[vsprvs](../co
   
  There are two ways to interact with font and color selections within the [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)].  
   
--   One way is referred to as *Syntax Coloring*. It is used by a VSPackage that customizes the existing [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] editor to implement a language service and create a source editor.  
+-   One way is referred to as *Syntax Coloring*. It is used by a VSPackage that customizes the existing [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] editor to implement a language service and create a source editor.  
   
      Only one **Category** supports this mechanism, namely, the **Text Editor**.  
   

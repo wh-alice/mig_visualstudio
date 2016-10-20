@@ -1,7 +1,7 @@
 ---
-title: "Advanced Toolbox Control Development"
+title: "Advanced Toolbox Control Development | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,10 +36,10 @@ translation.priority.mt:
 >   
 >  For more information on creating toolbox controls by using the templates, see [How to: Create a Toolbox Control That Uses Windows Forms](../misc/how-to--create-a-toolbox-control-that-uses-windows-forms.md) and [Creating a WPF Toolbox Control](../extensibility/creating-a-wpf-toolbox-control.md).  
   
- A VSPackage based on the Managed Package Framework can extend [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Toolbox functionality by adding controls, objects derived from <xref:System.Drawing.Design.ToolboxItem> objects. Each <xref:System.Drawing.Design.ToolboxItem> is implemented by an object derived from <xref:System.ComponentModel.Component>.  
+ A VSPackage based on the Managed Package Framework can extend [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Toolbox functionality by adding controls, objects derived from <xref:System.Drawing.Design.ToolboxItem> objects. Each <xref:System.Drawing.Design.ToolboxItem> is implemented by an object derived from <xref:System.ComponentModel.Component>.  
   
 ## Toolbox Item Provider VSPackage  
- A VSPackage based on the Managed Package Framework must register itself as a Toolbox control provider through [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] attributes and handle Toolbox-related events.  
+ A VSPackage based on the Managed Package Framework must register itself as a Toolbox control provider through [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] attributes and handle Toolbox-related events.  
   
 #### To configure a VSPackage as a Toolbox Item Provider  
   
@@ -71,14 +71,14 @@ translation.priority.mt:
     ```  
   
     > [!NOTE]
-    >  The constructor for <xref:Microsoft.VisualStudio.Shell.ProvideToolboxItemsAttribute> takes an integer version number as an argument. The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] environment uses this version number to determine if a VSPackage providing <xref:System.Drawing.Design.ToolboxItem> objects must be reloaded or if cached information can be used by the Toolbox. To guarantee reloading of a VSPackage when providing a <xref:System.Drawing.Design.ToolboxItem> that is under development, always increment this version number after any modification.  
+    >  The constructor for <xref:Microsoft.VisualStudio.Shell.ProvideToolboxItemsAttribute> takes an integer version number as an argument. The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] environment uses this version number to determine if a VSPackage providing <xref:System.Drawing.Design.ToolboxItem> objects must be reloaded or if cached information can be used by the Toolbox. To guarantee reloading of a VSPackage when providing a <xref:System.Drawing.Design.ToolboxItem> that is under development, always increment this version number after any modification.  
   
 2.  If the <xref:System.Drawing.Design.ToolboxItem> objects provide non-standard Toolbox Clipboard formats, an instance of <xref:Microsoft.VisualStudio.Shell.ProvideToolboxFormatAttribute> must be applied to the class implementing the <xref:Microsoft.VisualStudio.Shell.Package> object for each Clipboard format supported by the <xref:System.Drawing.Design.ToolboxItem> objects that the VSPackage provides.  
   
      For more information on supported Toolbox Clipboard formats, see [Extending the Toolbox](../misc/extending-the-toolbox.md).  
   
     > [!NOTE]
-    >  If a VSPackage indicates that it provides any <xref:System.Drawing.Design.ToolboxItem> objects with non-standard Clipboard formats, the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] environment assumes that only those formats indicated by the <xref:Microsoft.VisualStudio.Shell.ProvideToolboxFormatAttribute> instances applied to a VSPackage's <xref:Microsoft.VisualStudio.Shell.Package> class implementation are supported by the VSPackage. If a VSPackage needs to support the default Clipboard formats as well as a non-standard format, it must apply an instance of <xref:Microsoft.VisualStudio.Shell.ProvideToolboxFormatAttribute> for each default format as well as the non-standard format.  
+    >  If a VSPackage indicates that it provides any <xref:System.Drawing.Design.ToolboxItem> objects with non-standard Clipboard formats, the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] environment assumes that only those formats indicated by the <xref:Microsoft.VisualStudio.Shell.ProvideToolboxFormatAttribute> instances applied to a VSPackage's <xref:Microsoft.VisualStudio.Shell.Package> class implementation are supported by the VSPackage. If a VSPackage needs to support the default Clipboard formats as well as a non-standard format, it must apply an instance of <xref:Microsoft.VisualStudio.Shell.ProvideToolboxFormatAttribute> for each default format as well as the non-standard format.  
   
 3.  If the VSPackage provides the dynamic configuration of <xref:System.Drawing.Design.ToolboxItem>, it must:  
   
@@ -88,7 +88,7 @@ translation.priority.mt:
   
          An instance of the <xref:Microsoft.VisualStudio.Shell.ProvideAssemblyFilterAttribute> must be applied to the class implementing <xref:Microsoft.VisualStudio.Shell.IConfigureToolboxItem>, using a string containing a selection criteria (filter) as the argument to the <xref:Microsoft.VisualStudio.Shell.ProvideToolboxItemConfigurationAttribute> instance's constructor.  
   
- For information on how to notify the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] environment that a VSPackage provides Toolbox controls, see [Registering Toolbox Support Features](../misc/registering-toolbox-support-features.md).  
+ For information on how to notify the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] environment that a VSPackage provides Toolbox controls, see [Registering Toolbox Support Features](../misc/registering-toolbox-support-features.md).  
   
  For an example illustrating how one might implement <xref:Microsoft.VisualStudio.Shell.IConfigureToolboxItem> support, see [Walkthrough: Customizing Toolbox Item Configuration Dynamically](../misc/walkthrough--customizing-toolbox-item-configuration-dynamically.md).  
   
@@ -297,7 +297,7 @@ translation.priority.mt:
     ```  
   
 ## Using Reflection to Add Toolbox Controls  
- Applying attributes to the class implementing a toolbox control allows the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] environment or a [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] based application to use reflection to automatically detect and properly add controls to the **Toolbox**.  
+ Applying attributes to the class implementing a toolbox control allows the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] environment or a [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] based application to use reflection to automatically detect and properly add controls to the **Toolbox**.  
   
 #### To apply reflection and attributes to Toolbox controls  
   
@@ -313,7 +313,7 @@ translation.priority.mt:
   
     3.  Applying an instance of <xref:System.ComponentModel.ToolboxItemAttribute> constructed with the <xref:System.Type> of a custom object derived from <xref:System.Drawing.Design.ToolboxItem> makes the object available to the **Toolbox** through reflection and requires that the object be added to the Toolbox using this custom object derived from <xref:System.Drawing.Design.ToolboxItem>.  
   
-2.  Specify (to the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] environment's reflection mechanism) the bitmap to use for displaying the Toolbox control in the **Toolbox** by adding an instance of <xref:System.Drawing.ToolboxBitmapAttribute> to the Toolbox control implementation.  
+2.  Specify (to the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] environment's reflection mechanism) the bitmap to use for displaying the Toolbox control in the **Toolbox** by adding an instance of <xref:System.Drawing.ToolboxBitmapAttribute> to the Toolbox control implementation.  
   
 3.  If needed, apply instances of <xref:System.ComponentModel.ToolboxItemFilterAttribute> to <xref:System.Drawing.Design.ToolboxItem> objects to use reflection to statically mark them for use with objects that have a matching attribute.  
   
@@ -562,7 +562,7 @@ translation.priority.mt:
   
 3.  Register a VSPackage as providing a specific implementation of <xref:Microsoft.VisualStudio.Shell.IConfigureToolboxItem> by applying an instance of <xref:Microsoft.VisualStudio.Shell.ProvideToolboxItemConfigurationAttribute> to the VSPackage's implementation of <xref:Microsoft.VisualStudio.Shell.Package>.  
   
-     The example below would inform the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] environment that the package implemented by `Vsip.ItemConfiguration.ItemConfiguration` provides the class `Vsip.ItemConfiguration.ToolboxConfiguration` to support dynamic <xref:System.Drawing.Design.ToolboxItem>.  
+     The example below would inform the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] environment that the package implemented by `Vsip.ItemConfiguration.ItemConfiguration` provides the class `Vsip.ItemConfiguration.ToolboxConfiguration` to support dynamic <xref:System.Drawing.Design.ToolboxItem>.  
   
     ```vb#  
     <ProvideToolboxItemsAttribute(3)> _   
@@ -590,7 +590,7 @@ translation.priority.mt:
     ```  
   
 ## Custom Drag-and-Drop Support  
- In addition to being added to the **Toolbox** itself, <xref:System.Drawing.Design.ToolboxItem> objects and their implementations can be used to extend the drag-and-drop support in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] IDE. This can allow arbitrary Clipboard formats to be exposed to the **Toolbox** and in editors.  
+ In addition to being added to the **Toolbox** itself, <xref:System.Drawing.Design.ToolboxItem> objects and their implementations can be used to extend the drag-and-drop support in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE. This can allow arbitrary Clipboard formats to be exposed to the **Toolbox** and in editors.  
   
  VSPackages based on the Managed Package Framework must register as providing custom **Toolbox** item Clipboard formats, by applying an instance of <xref:Microsoft.VisualStudio.Shell.ProvideToolboxFormatAttribute> to the class implementing <xref:Microsoft.VisualStudio.Shell.Package>.  
   
@@ -604,7 +604,7 @@ translation.priority.mt:
   
      For an example implementation of a <xref:System.Drawing.Design.ToolboxItemCreatorCallback> delegate, see the <xref:System.Drawing.Design.ToolboxItem> and <xref:System.Drawing.Design.ToolboxItemCreatorCallback> reference pages.  
   
-2.  Make this implementation of the <xref:System.Drawing.Design.ToolboxItemCreatorCallback> delegate available to the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] **Toolbox** for a non-standard toolbox by calling <xref:System.Drawing.Design.IToolboxService.AddCreator*>.  
+2.  Make this implementation of the <xref:System.Drawing.Design.ToolboxItemCreatorCallback> delegate available to the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] **Toolbox** for a non-standard toolbox by calling <xref:System.Drawing.Design.IToolboxService.AddCreator*>.  
   
     ```vb#  
     <GuidAttribute("7D91995B-A799-485e-BFC7-C52545DFB5DD")> _   
@@ -651,7 +651,7 @@ translation.priority.mt:
  Describes how to implement drag-and-drop support on a document view.  
   
  [How to: Provide Custom Toolbox Items By Using Interop Assemblies](../misc/how-to--provide-custom-toolbox-items-by-using-interop-assemblies.md)  
- Describes adding new ActiveX controls and new items to the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] **Toolbox**. These new items can either have a standard Clipboard format or a custom format supported by the VSPackage.  
+ Describes adding new ActiveX controls and new items to the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] **Toolbox**. These new items can either have a standard Clipboard format or a custom format supported by the VSPackage.  
   
  [Registering Toolbox Support Features](../misc/registering-toolbox-support-features.md)  
  Describes how to register a VSPackage as a toolbox provider. Also talks about supporting or using other toolbox features.  

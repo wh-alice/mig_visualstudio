@@ -1,7 +1,7 @@
 ---
-title: "Troubleshooting Exceptions: System.Runtime.InteropServices.COMException"
+title: "Troubleshooting Exceptions: System.Runtime.InteropServices.COMException | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -46,12 +46,12 @@ A <xref:System.Runtime.InteropServices.COMException> exception is thrown when an
  When the runtime encounters an unfamiliar HRESULT, it throws a <xref:System.Runtime.InteropServices.COMException> exception, which includes a public `ErrorCode` property that contains the HRESULT returned by the call. If an error message is available to the runtime, the message is returned to the caller. However, if the COM component developer fails to include an error message, the runtime returns the eight-digit HRESULT in place of a message string. Having an HRESULT allows the caller to determine the cause of the exception. For more information, see [How to: Map HRESULTs and Exceptions](../Topic/How%20to:%20Map%20HRESULTs%20and%20Exceptions.md).  
   
  **Disable the hosting process.**  
- COM is used to communicate between [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and the hosting process. Because it is used before code runs, a call to `CoInitializeSecurity` causes this exception to be thrown.  
+ COM is used to communicate between [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and the hosting process. Because it is used before code runs, a call to `CoInitializeSecurity` causes this exception to be thrown.  
   
 ### Remarks  
  The common language runtime (CLR) transforms well-known HRESULTS to .NET exceptions, enabling COM objects to return meaningful error information to managed clients. The HRESULT to exception mapping also works in the other direction by returning specific HRESULTS to unmanaged clients.  
   
- When passing late-bound parameters to methods of Microsoft Office objects, a <xref:System.Runtime.InteropServices.COMException> exception may be thrown when the objects are COM objects. The late binder assumes that such method calls involve a `ByRef` parameter and that the property you pass has a `Set` accessor. If the property does not, the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] generates a <xref:System.MissingMethodException> exception (HRESULT CORE_E_MISSINGMETHOD). To work around this behavior, use early-bound objects or pass a variable instead of a property of the object.  
+ When passing late-bound parameters to methods of Microsoft Office objects, a <xref:System.Runtime.InteropServices.COMException> exception may be thrown when the objects are COM objects. The late binder assumes that such method calls involve a `ByRef` parameter and that the property you pass has a `Set` accessor. If the property does not, the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] generates a <xref:System.MissingMethodException> exception (HRESULT CORE_E_MISSINGMETHOD). To work around this behavior, use early-bound objects or pass a variable instead of a property of the object.  
   
 ## See Also  
  <xref:System.Runtime.InteropServices.COMException>   

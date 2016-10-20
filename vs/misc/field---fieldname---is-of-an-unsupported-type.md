@@ -1,7 +1,7 @@
 ---
-title: "Field &#39;&lt;fieldname&gt;&#39; is of an unsupported type"
+title: "Field &#39;&lt;fieldname&gt;&#39; is of an unsupported type | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Field &#39;&lt;fieldname&gt;&#39; is of an unsupported type
-A field is declared as a type that cannot be represented by [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+A field is declared as a type that cannot be represented by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
  **Error ID:** BC30656  
   

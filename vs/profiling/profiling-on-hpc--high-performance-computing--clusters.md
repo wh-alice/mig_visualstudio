@@ -1,7 +1,7 @@
 ---
-title: "Profiling on HPC (High Performance Computing) Clusters"
+title: "Profiling on HPC (High Performance Computing) Clusters | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -42,16 +42,16 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Profiling on HPC (High Performance Computing) Clusters
-You can profile on compute nodes of Microsoft Windows HPC clusters by using the sampling method of the [!INCLUDE[vsPreExt](../codequality/includes/vspreext_md.md)] or [!INCLUDE[vsUltExt](../profiling/includes/vsultext_md.md)] Profiling Tools. For more information about HPC see [Windows HPC](http://go.microsoft.com/fwlink/?LinkId=165393) on the Microsoft Web site.  
+You can profile on compute nodes of Microsoft Windows HPC clusters by using the sampling method of the [!INCLUDE[vsPreExt](../code-quality/includes/vspreext_md.md)] or [!INCLUDE[vsUltExt](../profiling/includes/vsultext_md.md)] Profiling Tools. For more information about HPC see [Windows HPC](http://go.microsoft.com/fwlink/?LinkId=165393) on the Microsoft Web site.  
   
 ## Prerequisites  
  To profile on a HPC compute node, you must do the following:  
   
--   Install Microsoft HPC Pack 2008 on the same computer as [!INCLUDE[vsPreLong](../codequality/includes/vsprelong_md.md)]. The computer does not have to be part of the HPC cluster. You can install the HPC Pack at the [Microsoft Download Center](http://go.microsoft.com/fwlink/?LinkID=177414).  
+-   Install Microsoft HPC Pack 2008 on the same computer as [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)]. The computer does not have to be part of the HPC cluster. You can install the HPC Pack at the [Microsoft Download Center](http://go.microsoft.com/fwlink/?LinkID=177414).  
   
--   Install the [!INCLUDE[net_v40_long](../codequality/includes/net_v40_long_md.md)] and the stand-alone version of the Profiling Tools on the HPC compute node. Install programs for both the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] and the stand alone profiler are available on the [!INCLUDE[vsPreShort](../codequality/includes/vspreshort_md.md)] installation media. **Note** You must restart the compute after you have installed [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] and before you install the Profiling Tools.  
+-   Install the [!INCLUDE[net_v40_long](../code-quality/includes/net_v40_long_md.md)] and the stand-alone version of the Profiling Tools on the HPC compute node. Install programs for both the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] and the stand alone profiler are available on the [!INCLUDE[vsPreShort](../code-quality/includes/vspreshort_md.md)] installation media. **Note** You must restart the compute after you have installed [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] and before you install the Profiling Tools.  
   
- To install the [!INCLUDE[net_v40_long](../codequality/includes/net_v40_long_md.md)] and the stand-alone Profiling Tools on an active HPC compute node and enable profiling on the cluster machine, follow these steps:  
+ To install the [!INCLUDE[net_v40_long](../code-quality/includes/net_v40_long_md.md)] and the stand-alone Profiling Tools on an active HPC compute node and enable profiling on the cluster machine, follow these steps:  
   
 1.  Open the command prompt window that is installed with the HPC pack.  
   
@@ -66,8 +66,8 @@ You can profile on compute nodes of Microsoft Windows HPC clusters by using the 
 |||  
 |-|-|  
 |*%HeadNode%*|Name of the head node for the cluster.|  
-|*%FxPath%*|Path to the [!INCLUDE[net_v40_long](../codequality/includes/net_v40_long_md.md)] installer. On the [!INCLUDE[vsPreShort](../codequality/includes/vspreshort_md.md)] installation media the path is: WCU\dotNetFramework\dotNetFx40_Full_x86_x64.exe|  
-|*%ProfilerPath%*|Path to the standalone version of the Profiling Tools installer. On the [!INCLUDE[vsPreShort](../codequality/includes/vspreshort_md.md)] installation media the path is: Standalone Profiler\x64\vs_profiler.exe|  
+|*%FxPath%*|Path to the [!INCLUDE[net_v40_long](../code-quality/includes/net_v40_long_md.md)] installer. On the [!INCLUDE[vsPreShort](../code-quality/includes/vspreshort_md.md)] installation media the path is: WCU\dotNetFramework\dotNetFx40_Full_x86_x64.exe|  
+|*%ProfilerPath%*|Path to the standalone version of the Profiling Tools installer. On the [!INCLUDE[vsPreShort](../code-quality/includes/vspreshort_md.md)] installation media the path is: Standalone Profiler\x64\vs_profiler.exe|  
   
 ## Profiling on an HPC Compute Node  
  You configure a profiling session by using the HPC Performance Wizard to specify the HPC cluster and target information. You can set additional options in the performance session property pages. The Profiling Tools automatically deploy the necessary target binaries and start the profiler and the HPC application.  
@@ -80,7 +80,7 @@ You can profile on compute nodes of Microsoft Windows HPC clusters by using the 
   
 3.  On the second page of the wizard, select the application that you want to profile.  
   
-    -   To profile a project that is currently open in [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)], select the **One or more available projects** option and then select the project name from the list.  
+    -   To profile a project that is currently open in [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)], select the **One or more available projects** option and then select the project name from the list.  
   
     -   To profile a binary that is not in an open project select **An executable (.EXE file)** option.  
   
@@ -150,7 +150,7 @@ You can profile on compute nodes of Microsoft Windows HPC clusters by using the 
   
 |Property|Description|  
 |--------------|-----------------|  
-|**Project name**|The name of the current [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)] project or solution.|  
+|**Project name**|The name of the current [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] project or solution.|  
 |**Clean up when profiler is stopped**|When true, removes the binaries that have been deployed to the execution directory. Files and directories created by the user program are not removed in this step. If the execution directory and deployment directory were created by the IDE, the IDE attempts to remove them but does not do so if they have files not deployed by the IDE.|  
 |**Additional files to deploy**|Specifies a semicolon separated list of any additional files to deploy on the compute node. You can click the ellipsis button (**...**) to select multiple files by using a dialog box.|  
 |**Mpiexec command**|Specifies the application that starts the MPI application. The default value is **mpiexec.exe**|  

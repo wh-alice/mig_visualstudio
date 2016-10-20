@@ -1,7 +1,7 @@
 ---
-title: "Installing VSPackages With Windows Installer"
+title: "Installing VSPackages With Windows Installer | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,22 +32,22 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Installing VSPackages With Windows Installer
-Integrating your VSPackage into [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] requires more than just copying files to a user's computer. Your VSPackage's installer must install the VSPackage and its dependent files, and register and integrate them into [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. Your VSPackage can take advantage of integration features such as displaying an icon on the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] splash screen and About dialog box.  
+Integrating your VSPackage into [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] requires more than just copying files to a user's computer. Your VSPackage's installer must install the VSPackage and its dependent files, and register and integrate them into [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Your VSPackage can take advantage of integration features such as displaying an icon on the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] splash screen and About dialog box.  
   
- Microsoft Windows Installer files are the recommended way to distribute your VSPackages. Easy-to-use Windows Installer packages can run on any Windows operating system supported by [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. For more information, see [Windows Installer](http://msdn.microsoft.com/en-us/121be21b-b916-43e2-8f10-8b080516d2a0).  
+ Microsoft Windows Installer files are the recommended way to distribute your VSPackages. Easy-to-use Windows Installer packages can run on any Windows operating system supported by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. For more information, see [Windows Installer](http://msdn.microsoft.com/en-us/121be21b-b916-43e2-8f10-8b080516d2a0).  
   
 ## In This Section  
  [Windows Installer Basics](../extensibility/windows-installer-basics.md)  
  Provides an overview of the Windows Installer.  
   
  [VSPackage Setup Scenarios](../extensibility/vspackage-setup-scenarios.md)  
- Discusses different ways you can support side-by-side installations of both your VSPackages and [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+ Discusses different ways you can support side-by-side installations of both your VSPackages and [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
  [Authoring a Windows Installer Package](../extensibility/authoring-a-windows-installer-package.md)  
- Provides an overview of the typical steps installers follow to correctly install and integrate VSPackages into [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+ Provides an overview of the typical steps installers follow to correctly install and integrate VSPackages into [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
  [Detecting System Requirements](../extensibility/detecting-system-requirements.md)  
- Describes how an installer can detect [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and its components and cancel setup if VSPackage requirements are not met.  
+ Describes how an installer can detect [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and its components and cancel setup if VSPackage requirements are not met.  
   
  [Component Management](../extensibility/component-management.md)  
  Discusses how to develop an installer that will maintain the integrity of previous product versions.  
@@ -65,11 +65,11 @@ Integrating your VSPackage into [!INCLUDE[vsprvs](../codequality/includes/vsprvs
  Explains how to use RegPkg.exe to generate a registration manifest for a managed VSPackage.  
   
  [Commands That Must Be Run After Installation](../extensibility/commands-that-must-be-run-after-installation.md)  
- Explains how to run post-installation commands to integrate VSPackages into [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+ Explains how to run post-installation commands to integrate VSPackages into [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
  [Uninstalling a VSPackage With Windows Installer](../extensibility/uninstalling-a-vspackage-with-windows-installer.md)  
  Describes the steps your installer must perform when users uninstall your VSPackage.  
   
 ## Related Sections  
  [Installing VSPackages](../misc/installing-vspackages.md)  
- Discusses how to build and install VSPackages and how to support users who are running multiple versions of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] at the same time.
+ Discusses how to build and install VSPackages and how to support users who are running multiple versions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] at the same time.

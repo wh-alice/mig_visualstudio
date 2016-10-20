@@ -1,7 +1,7 @@
 ---
-title: "VSPackage Branding"
+title: "VSPackage Branding | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,7 +31,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # VSPackage Branding
-VSPackages can display icons and textual information about products (together called logos) in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] splash screen and the **Help About** dialog box. For every product you add as a VSPackage, you can add one logo. The splash screen and **Help About** dialog box contain logos for the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] core products and other installed products.  
+VSPackages can display icons and textual information about products (together called logos) in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] splash screen and the **Help About** dialog box. For every product you add as a VSPackage, you can add one logo. The splash screen and **Help About** dialog box contain logos for the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] core products and other installed products.  
   
 ## In This Section  
  [Branding Overview](../misc/branding-overview.md)  

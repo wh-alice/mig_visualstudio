@@ -1,7 +1,7 @@
 ---
-title: "Adding Directories to the New Project Dialog Box"
+title: "Adding Directories to the New Project Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -37,7 +37,7 @@ When you create new project types, you also can register a new directory in the 
   
  The TemplatesDir value specifies the full path of the directory that contains the project templates. These files can be either .vsz files or typical template files to be cloned.  
   
- If you specify TemplatesLocalizedSubDir, it must be the resource ID of a string that names the subdirectory of TemplatesDir that holds localized templates. Because [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] loads the string resource from a satellite DLL if you have one, each satellite DLL can contain a different subdirectory name. The SortPriority value specifies a sorting priority.  
+ If you specify TemplatesLocalizedSubDir, it must be the resource ID of a string that names the subdirectory of TemplatesDir that holds localized templates. Because [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] loads the string resource from a satellite DLL if you have one, each satellite DLL can contain a different subdirectory name. The SortPriority value specifies a sorting priority.  
   
 ```  
 NoRemove NewProjectTemplates  

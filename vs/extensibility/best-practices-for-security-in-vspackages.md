@@ -1,7 +1,7 @@
 ---
-title: "Best Practices for Security in VSPackages"
+title: "Best Practices for Security in VSPackages | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,7 +33,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Best Practices for Security in VSPackages
-To install the [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] on your computer, you must be running in a context with administrative credentials. The basic unit of security and deployment of a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] application is the [VSPackages](../extensibility/vspackages.md). A VSPackage must be registered by using [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], which also requires administrative credentials.  
+To install the [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] on your computer, you must be running in a context with administrative credentials. The basic unit of security and deployment of a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] application is the [VSPackages](../extensibility/vspackages.md). A VSPackage must be registered by using [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], which also requires administrative credentials.  
   
  Administrators have full permissions to write to the registry and file system, and to run any code. You must have these permissions to develop, deploy, or install a VSPackage.  
   

@@ -1,7 +1,7 @@
 ---
-title: "MaxFrameworkVersion Element (Visual Studio Templates)"
+title: "MaxFrameworkVersion Element (Visual Studio Templates) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -67,7 +67,7 @@ Specifies the maximum version of the .NET Framework that is required by the temp
  `MaxFrameworkVersion` is an optional element. The element in the `TemplateData` section of the .vstemplate file acts as a filter for the **Templates** section of the **Add New Project** dialog box. Only templates whose .NET Framework requirements are less than `MaxFrameworkVersion` element values will be displayed, based on the value that is selected in the **Target Framework Version** box of the **Add New Project** dialog box. The `MaxFrameworkVersion` element should be omitted unless it is required, so as not to inadvertently cause templates from being displayed when they are used with newer versions of the .NET Framework.  
   
 ## Example  
- The following example illustrates the metadata for a standard [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] class template.  
+ The following example illustrates the metadata for a standard [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] class template.  
   
 ```  
 <VSTemplate Type="Item" Version="3.0.0"  

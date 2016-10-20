@@ -1,7 +1,7 @@
 ---
-title: "How to: Export Settings By Using Interop Assemblies"
+title: "How to: Export Settings By Using Interop Assemblies | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,14 +33,14 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # How to: Export Settings By Using Interop Assemblies
-A VSPackage may export settings from the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE). The IDE uses a VSPackage's implementation of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserSettings> interface. If the package also provides the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserSettingsQuery> interface, then the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserSettingsQuery> interface is used to determine how the VSPackage's configuration is to be saved.  
+A VSPackage may export settings from the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE). The IDE uses a VSPackage's implementation of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserSettings> interface. If the package also provides the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserSettingsQuery> interface, then the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserSettingsQuery> interface is used to determine how the VSPackage's configuration is to be saved.  
   
 > [!NOTE]
 >  The Managed Package Framework (MPF) provides a set of managed classes to facilitate the creation of Visual Studio extensions. To perform this task using the MPF, see [Exporting Settings](../misc/exporting-settings.md).  
   
 ### To implement settings export on a VSPackage  
   
-1.  Implement basic support for the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] settings mechanism.  
+1.  Implement basic support for the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] settings mechanism.  
   
     -   Register the VSPackage as supporting the settings mechanism by defining one or more Custom Settings Points.  
   
@@ -146,7 +146,7 @@ A VSPackage may export settings from the [!INCLUDE[vsprvs](../codequality/includ
          If the implementation can map data into one of the four supported formats, there is no restriction on how much or what type of data can be written.  
   
         > [!NOTE]
-        >  In addition to data explicitly written and transparent to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserSettings.ExportSettings*> implementation, the settings API also saves [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] version information. Saved settings can be compared against the version of the IDE that generated them during settings import.  
+        >  In addition to data explicitly written and transparent to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserSettings.ExportSettings*> implementation, the settings API also saves [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] version information. Saved settings can be compared against the version of the IDE that generated them during settings import.  
   
 ## Example  
  The following example demonstrates how to import and export settings data.  

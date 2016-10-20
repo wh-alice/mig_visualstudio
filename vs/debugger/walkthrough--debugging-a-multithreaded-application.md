@@ -1,7 +1,7 @@
 ---
-title: "Walkthrough: Debugging a Multithreaded Application"
+title: "Walkthrough: Debugging a Multithreaded Application | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -37,7 +37,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Walkthrough: Debugging a Multithreaded Application
-[!INCLUDE[vs_dev11_long](../codequality/includes/vs_dev11_long_md.md)] provides an improved **Threads** window and other user interface improvements to make it easier to debug multithreaded applications. This walkthrough takes only a few minutes, but completing it will familiarize you with the new interface features for debugging multithreaded applications.  
+[!INCLUDE[vs_dev11_long](../code-quality/includes/vs_dev11_long_md.md)] provides an improved **Threads** window and other user interface improvements to make it easier to debug multithreaded applications. This walkthrough takes only a few minutes, but completing it will familiarize you with the new interface features for debugging multithreaded applications.  
   
  To begin this walkthrough, you need a multithreaded application project. Follow the steps listed here to create that project.  
   
@@ -90,7 +90,7 @@ Console.WriteLine();
   
      Debugging starts, your console application starts to run, and then stops at the breakpoint.  
   
-3.  If the console application window has focus at this point, click in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] window to return focus to [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+3.  If the console application window has focus at this point, click in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] window to return focus to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 4.  In the source window, locate the line that contains the following code:  
   
@@ -123,7 +123,7 @@ Thread::Sleep(3000);
  ![Thread Marker](../debugger/media/threadmarker.gif "ThreadMarker")  
   
 ## Flagging and Unflagging Threads  
- In [!INCLUDE[vs_orcas_long](../codequality/includes/vs_orcas_long_md.md)], you can flag threads that you want to give special attention. Flagging threads is a good way to keep track of important threads and ignore threads you do not care about.  
+ In [!INCLUDE[vs_orcas_long](../code-quality/includes/vs_orcas_long_md.md)], you can flag threads that you want to give special attention. Flagging threads is a good way to keep track of important threads and ignore threads you do not care about.  
   
 #### To flag threads  
   
@@ -218,7 +218,7 @@ Thread::Sleep(3000);
   
 6.  Right-click the main thread and then click **Switch to Thread**.  
   
-     A warning dialog box appears. It tells you that [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] cannot display source code for the main thread.  
+     A warning dialog box appears. It tells you that [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] cannot display source code for the main thread.  
   
      Click **OK**.  
   

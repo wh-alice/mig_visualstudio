@@ -1,7 +1,7 @@
 ---
-title: "Customizing and Extending a Domain-Specific Language"
+title: "Customizing and Extending a Domain-Specific Language | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -47,7 +47,7 @@ Visual Studio Modeling and Visualization SDK (VMSDK) provides several levels at 
 |Attach connectors at fixed points on an element’s boundary.|Define embedded terminal elements, represented by small ports on the diagram. Use BoundsRules to fix the ports in place. See the Circuit Diagram sample at [Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=186128).|  
 |Text field displays a value derived from other values.|Map the text decorator to a Calculated or Custom Storage domain property. For more information, see [Calculated and Custom Storage Properties](../modeling/calculated-and-custom-storage-properties.md).|  
 |Propagate changes between model elements, or between shapes|See [Validation in a Domain-Specific Language](../modeling/validation-in-a-domain-specific-language.md).|  
-|Propagate changes to resources such as other [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] extensions outside the store.|See [Event Handlers Propagate Changes Outside the Model](../modeling/event-handlers-propagate-changes-outside-the-model.md).|  
+|Propagate changes to resources such as other [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] extensions outside the store.|See [Event Handlers Propagate Changes Outside the Model](../modeling/event-handlers-propagate-changes-outside-the-model.md).|  
 |Property window displays properties of a related element.|Set up Property Forwarding. See [Customizing the Properties Window](../modeling/customizing-the-properties-window.md).|  
 |Property categories|The properties window is divided into sections called categories. Set the **Category** of your domain properties. Properties with the same category name will appear in the same section. You can also set the **Category** of a relationship role.|  
 |Control user access to domain properties|Set **Is Browsable** false to prevent a domain property from appearing in the Properties window at run time. You can still map it to text decorators.<br /><br /> **Is UI Read Only** prevents users from changing a domain property.<br /><br /> Program access to the domain property is not affected.|  

@@ -1,5 +1,5 @@
 ---
-title: "How to: Add Comments in the Web Performance Test Editor"
+title: "How to: Add Comments in the Web Performance Test Editor | Microsoft Docs"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

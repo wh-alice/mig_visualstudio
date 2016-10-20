@@ -1,7 +1,7 @@
 ---
-title: "How to: Use UI Control Actions and Properties in Your Coded UI Tests"
+title: "How to: Use UI Control Actions and Properties in Your Coded UI Tests | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,4 +32,4 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # How to: Use UI Control Actions and Properties in Your Coded UI Tests
-The content of this topic has been consolidated with the parent page. See [Coding UI control actions and properties](../codequality/use-ui-automation-to-test-your-code.md#actions).
+The content of this topic has been consolidated with the parent page. See [Coding UI control actions and properties](../code-quality/use-ui-automation-to-test-your-code.md#actions).

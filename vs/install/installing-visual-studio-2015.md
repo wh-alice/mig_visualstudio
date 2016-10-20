@@ -1,5 +1,5 @@
 ---
-title: "Installing Visual Studio 2015"
+title: "Installing Visual Studio 2015 | Microsoft Docs"
 ms.custom: ""
 ms.date: "2016-10-12"
 ms.prod: "visual-studio-dev14"
@@ -79,7 +79,7 @@ This page includes detailed information to help you with installing Visual Studi
  You can install Visual Studio by using installation media (DVDs), by using your Visual Studio subscription service from the [My.VisualStudio.com](https://my.visualstudio.com/downloads?q=visual%20studio%20enterprise%202015) website, by downloading  a web installer from the [Visual Studio Downloads](http://go.microsoft.com/fwlink/?LinkId=517106) website, or by creating an offline installation layout (see the [Creating an Offline Installation of Visual Studio](../install/creating-an-offline-installation-of-visual-studio.md) topic for more details).  
   
 > [!IMPORTANT]
->  You need administrator credentials to install [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. However, you don't need them to use [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] after you install it.  
+>  You need administrator credentials to install [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. However, you don't need them to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] after you install it.  
   
  Your local administrator account must have the following privileges enabled to install everything in Visual Studio.  
   
@@ -92,7 +92,7 @@ This page includes detailed information to help you with installing Visual Studi
  For more information on this local administrator account requirement, see the Knowledge Base article, [SQL Server installation fails if the Setup account does not have certain user rights](https://support.microsoft.com/en-us/kb/2000257).  
   
 ###  <a name="BKMK_Media"></a> Using installation media  
- To install [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], in the root directory on the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] installation media, run the installation file for the edition you want:  
+ To install [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], in the root directory on the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] installation media, run the installation file for the edition you want:  
   
 |Edition|Installation File|  
 |-------------|-----------------------|  
@@ -107,10 +107,10 @@ This page includes detailed information to help you with installing Visual Studi
  Visit  the [My.VisualStudio.com](https://my.visualstudio.com/downloads?q=visual%20studio%20enterprise%202015) page, and select the edition of Visual Studio that you want.  
   
 ###  <a name="BKMK_Offline"></a> Creating an offline installation  layout  
- If you do not have the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] installation media, or you do not have a Visual Studio subscription,  or you do not want to install [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] by using the web installer, you can perform a "disconnected" installation by creating what is known as an offline installation layout. For more information, see the [Creating an Offline Installation of Visual Studio](../install/creating-an-offline-installation-of-visual-studio.md) topic.  
+ If you do not have the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] installation media, or you do not have a Visual Studio subscription,  or you do not want to install [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] by using the web installer, you can perform a "disconnected" installation by creating what is known as an offline installation layout. For more information, see the [Creating an Offline Installation of Visual Studio](../install/creating-an-offline-installation-of-visual-studio.md) topic.  
   
 ##  <a name="enterprise"></a> Deploying Visual Studio in an Enterprise  
- For information about how to deploy [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] over a network, see the [Visual Studio Administrator Guide](../install/visual-studio-administrator-guide.md).  
+ For information about how to deploy [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] over a network, see the [Visual Studio Administrator Guide](../install/visual-studio-administrator-guide.md).  
   
 ###  <a name="BKMK_Virtualized"></a> Installing Visual Studio in a virtualized environment  
  **Video Issues with Hyper-V**  
@@ -135,11 +135,11 @@ This page includes detailed information to help you with installing Visual Studi
 3.  Choose **Next**, and then follow the remaining instructions.  
   
 ##  <a name="helpContent"></a> Installing offline Help content  
- After you install [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], you can download additional Help content so that it will be available offline.  
+ After you install [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], you can download additional Help content so that it will be available offline.  
   
 #### To install or uninstall Help content  
   
-1.  On the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] menu bar, choose **Help**, **Add and Remove Help Content**.  
+1.  On the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] menu bar, choose **Help**, **Add and Remove Help Content**.  
   
 2.  On the **Manage Content** tab of the **Microsoft Help Viewer**, select the installation source for your Help content.  
   

@@ -1,7 +1,7 @@
 ---
-title: "Best Practices for Implementing a Source Control Plug-in"
+title: "Best Practices for Implementing a Source Control Plug-in | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,7 +33,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Best Practices for Implementing a Source Control Plug-in
-The following technical details can help you reliably implement a source control plug-in in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+The following technical details can help you reliably implement a source control plug-in in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 ## Memory Management Issues  
  In most cases, the integrated development environment (IDE), which is the caller, releases and allocates memory. The source control plug-in returns strings and other items in caller-allocated buffers. Exceptions are noted in descriptions of specific functions where they occur.  

@@ -1,7 +1,7 @@
 ---
-title: "Contained Languages"
+title: "Contained Languages | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,7 +31,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Contained Languages
-*Contained languages* are languages that are contained by other languages. For example, HTML in [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] pages may contain [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] or [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] scripts. A dual-language architecture is required for the .aspx file editor to provide IntelliSense, colorization, and other editing features for both the HTML and the scripting language.  
+*Contained languages* are languages that are contained by other languages. For example, HTML in [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] pages may contain [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] or [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] scripts. A dual-language architecture is required for the .aspx file editor to provide IntelliSense, colorization, and other editing features for both the HTML and the scripting language.  
   
 ## Implementation  
  The most important interface you need to implement for contained languages is the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsContainedLanguage> interface. This interface is implemented by any language that can be hosted inside a primary language. It gives access to the language service’s colorizer, text view filter, and primary language service ID. The <xref:Microsoft.VisualStudio.TextManager.Interop.IVsContainedLanguageFactory> enables you to create an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsContainedLanguage> interface. The following steps show you how to implement a contained language:  

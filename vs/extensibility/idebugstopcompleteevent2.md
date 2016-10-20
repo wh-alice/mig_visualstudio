@@ -1,7 +1,7 @@
 ---
-title: "IDebugStopCompleteEvent2"
+title: "IDebugStopCompleteEvent2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -40,7 +40,7 @@ IDebugStopCompleteEvent2 : IUnknown
 ```  
   
 ## Notes for Implementers  
- This is a new interface for [!INCLUDE[vsprvslong](../codequality/includes/vsprvslong_md.md)]. Prior releases did not support asynchronous stopping.  
+ This is a new interface for [!INCLUDE[vsprvslong](../code-quality/includes/vsprvslong_md.md)]. Prior releases did not support asynchronous stopping.  
   
  [Stop](../extensibility/idebugengineprogram2--stop.md) is called by the SDM in multi-process or multi-program scenarios. When one program sends a stopping event to the SDM, the SDM requests other programs to stop, too.  
   

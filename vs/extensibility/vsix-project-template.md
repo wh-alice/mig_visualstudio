@@ -1,7 +1,7 @@
 ---
-title: "VSIX Project Template"
+title: "VSIX Project Template | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -91,7 +91,7 @@ You can use the VSIX Project template to wrap one or more Visual Studio extensio
   
 8.  Build the solution.  
   
-     [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] builds a .vsix file that contains a VSIX manifest file, a [Content_Types].xml file, and all of the extension assets that you added to the project.  
+     [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] builds a .vsix file that contains a VSIX manifest file, a [Content_Types].xml file, and all of the extension assets that you added to the project.  
   
 ## See Also  
  [VSIX Extension Schema 2.0 Reference](../extensibility/vsix-extension-schema-2.0-reference.md)   

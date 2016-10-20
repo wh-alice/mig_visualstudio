@@ -1,7 +1,7 @@
 ---
-title: "&#39;Sub&#39; or &#39;Function&#39; expected"
+title: "&#39;Sub&#39; or &#39;Function&#39; expected | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

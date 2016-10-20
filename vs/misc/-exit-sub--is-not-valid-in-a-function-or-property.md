@@ -1,7 +1,7 @@
 ---
-title: "&#39;Exit Sub&#39; is not valid in a Function or Property"
+title: "&#39;Exit Sub&#39; is not valid in a Function or Property | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

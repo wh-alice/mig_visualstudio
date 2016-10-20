@@ -1,7 +1,7 @@
 ---
-title: "Walkthrough: Debugging a Parallel Application"
+title: "Walkthrough: Debugging a Parallel Application | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -75,7 +75,7 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
   
 1.  In Visual Studio, on the **File** menu, point to **New** and then click **Project**.  
   
-2.  In the **Installed Templates** pane, select either Visual C#, Visual Basic, or Visual C++. For the managed languages, ensure that [!INCLUDE[net_v40_short](../codequality/includes/net_v40_short_md.md)] is displayed in the framework box.  
+2.  In the **Installed Templates** pane, select either Visual C#, Visual Basic, or Visual C++. For the managed languages, ensure that [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] is displayed in the framework box.  
   
 3.  Select **Console Application** and then click **OK**. Remain in Debug configuration, which is the default.  
   

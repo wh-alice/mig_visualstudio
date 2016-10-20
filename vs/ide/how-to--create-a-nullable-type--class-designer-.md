@@ -1,7 +1,7 @@
 ---
-title: "How to: Create a Nullable Type (Class Designer)"
+title: "How to: Create a Nullable Type (Class Designer) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -48,7 +48,7 @@ Certain value types do not always have (or need) a defined value. This is common
   
  For more information about nullable types in Visual C#, see [Nullable Types](../Topic/Nullable%20Types%20\(C%23%20Programming%20Guide\).md). For more information about nullable types in Visual Basic, see [Nullable Value Types](../Topic/Nullable%20Value%20Types%20\(Visual%20Basic\).md).  
   
- [!INCLUDE[note_settings_general](../datatools/includes/note_settings_general_md.md)]  
+ [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
   
 ### To add a nullable type by using the Class Designer  
   

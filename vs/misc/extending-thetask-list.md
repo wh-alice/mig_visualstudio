@@ -1,7 +1,7 @@
 ---
-title: "Extending theTask List"
+title: "Extending theTask List | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,7 +31,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Extending theTask List
-The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] **Task List** lets users add custom programming tasks, view task comments that link to lines in the code, and create and view custom categories for task messages.  
+The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] **Task List** lets users add custom programming tasks, view task comments that link to lines in the code, and create and view custom categories for task messages.  
   
  Tasks are handled through a service named <xref:Microsoft.VisualStudio.Shell.Interop.SVsTaskList>, which implements <xref:Microsoft.VisualStudio.Shell.Interop.IVsTaskList> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsTaskList2>. To use basic **Task List** functionality, you must create a task provider by implementing <xref:Microsoft.VisualStudio.Shell.Interop.IVsTaskProvider>.  
   

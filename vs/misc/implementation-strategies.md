@@ -1,7 +1,7 @@
 ---
-title: "Implementation Strategies"
+title: "Implementation Strategies | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ You can extend Visual Studio with automation add-ins, VSPackages, Managed Extens
   
  VSPackages can be written in unmanaged or managed code. We recommend that you write new VSPackages in managed code by using the managed package framework (MPF). Almost anything that can be written in unmanaged code can be implemented more easily and securely in managed code. However, legacy applications written in unmanaged code will continue to run in Visual Studio.  
   
- Simple extensions can add tool windows or send information to Visual Studio UI elements, such as the status bar or output window. More complex applications can be written as Visual Studio hierarchies, such as the Server Explorer. Still more power can be obtained by implementing a project, editor, or designer. For example, [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] and [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] are themselves implemented as language services.  
+ Simple extensions can add tool windows or send information to Visual Studio UI elements, such as the status bar or output window. More complex applications can be written as Visual Studio hierarchies, such as the Server Explorer. Still more power can be obtained by implementing a project, editor, or designer. For example, [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] and [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] are themselves implemented as language services.  
   
 ## Related Sections  
  [Visual Studio SDK and Automation](../Topic/Visual%20Studio%20SDK%20and%20Automation.md)  

@@ -1,7 +1,7 @@
 ---
-title: "Defining a Locking Policy to Create Read-Only Segments"
+title: "Defining a Locking Policy to Create Read-Only Segments | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,14 +18,14 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Defining a Locking Policy to Create Read-Only Segments
-The Immutability API of the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Visualization and Modeling SDK allows a program to lock part or all of a domain-specific language (DSL) model so that it can be read but not changed. This read-only option could be used, for example, so that a user can ask colleagues to annotate and review a DSL model but can disallow them from changing the original.  
+The Immutability API of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Visualization and Modeling SDK allows a program to lock part or all of a domain-specific language (DSL) model so that it can be read but not changed. This read-only option could be used, for example, so that a user can ask colleagues to annotate and review a DSL model but can disallow them from changing the original.  
   
  In addition, as author of a DSL, you can define a *locking policy.* A locking policy defines which locks are permitted, not permitted, or mandatory. For example, when you publish a DSL, you can encourage third-party developers to extend it with new commands. But you could also use a locking policy to prevent them from altering the read-only status of specified parts of the model.  
   
 > [!NOTE]
 >  A locking policy can be circumvented by using reflection. It provides a clear boundary for third-party developers, but does not provide strong security.  
   
- More information and samples are available at the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] [Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkId=186128) Web site.  
+ More information and samples are available at the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] [Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkId=186128) Web site.  
   
 ## Setting and Getting Locks  
  You can set locks on the store, on a partition, or on an individual element. For example, this statement will prevent a model element from being deleted, and will also prevent its properties from being changed:  

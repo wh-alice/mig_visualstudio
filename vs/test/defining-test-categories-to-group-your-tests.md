@@ -1,7 +1,7 @@
 ---
-title: "Defining Test Categories to Group Your Tests"
+title: "Defining Test Categories to Group Your Tests | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -29,7 +29,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Defining Test Categories to Group Your Tests
-If you have created automated tests using Visual Studio you can manage these tests by categorizing them with *test categories*. When you run these automated tests using Visual Studio, [!INCLUDE[esprbuild](../codequality/includes/esprbuild_md.md)], or mstest.exe, you can use these test categories to easily select which tests you run. You add test categories as attributes to your test methods.  
+If you have created automated tests using Visual Studio you can manage these tests by categorizing them with *test categories*. When you run these automated tests using Visual Studio, [!INCLUDE[esprbuild](../code-quality/includes/esprbuild_md.md)], or mstest.exe, you can use these test categories to easily select which tests you run. You add test categories as attributes to your test methods.  
   
  **Requirements**  
   

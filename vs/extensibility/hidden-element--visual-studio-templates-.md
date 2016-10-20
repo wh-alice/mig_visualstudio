@@ -1,7 +1,7 @@
 ---
-title: "Hidden Element (Visual Studio Templates)"
+title: "Hidden Element (Visual Studio Templates) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -71,7 +71,7 @@ Specifies whether the template appears in either the **New Project** or **Add Ne
  If specified, no other child elements of the `TemplateData` element are required.  
   
 ## Example  
- The following example illustrates the metadata for a [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] template.  
+ The following example illustrates the metadata for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] template.  
   
 ```  
 <VSTemplate Type="Project" Version="3.0.0"  

@@ -1,7 +1,7 @@
 ---
-title: "How to: Use Interop Assemblies to Import Settings"
+title: "How to: Use Interop Assemblies to Import Settings | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,14 +33,14 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # How to: Use Interop Assemblies to Import Settings
-A VSPackage may import settings from the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE). The IDE uses a VSPackage's implementation of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserSettings> interface to determine how the VSPackage's configuration is to be retrieved.  
+A VSPackage may import settings from the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE). The IDE uses a VSPackage's implementation of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserSettings> interface to determine how the VSPackage's configuration is to be retrieved.  
   
 > [!NOTE]
 >  The Managed Package Framework (MPF) provides a set of managed classes to facilitate the creation of Visual Studio extensions. To perform this task using the MPF, see [Importing Settings](../misc/importing-settings.md).  
   
 ### To implement settings import on a VSPackage  
   
-1.  Implement basic support for the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] settings mechanism.  
+1.  Implement basic support for the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] settings mechanism.  
   
     -   Register the VSPackage as supporting the settings mechanism by defining one or more Custom Settings Points.  
   
@@ -101,7 +101,7 @@ A VSPackage may import settings from the [!INCLUDE[vsprvs](../codequality/includ
     2.  A VSPackage must use the supplied <xref:Microsoft.VisualStudio.Shell.Interop.IVsSettingsReader> interface to retrieve data to the settings file.  
   
         > [!NOTE]
-        >  If the settings information changes as a function of a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] version, a VSPackage's implementation of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserSettings.ImportSettings*> method must use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSettingsReader.ReadFileVersion*> method prior to reading data to check the IDE version.  
+        >  If the settings information changes as a function of a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] version, a VSPackage's implementation of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserSettings.ImportSettings*> method must use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSettingsReader.ReadFileVersion*> method prior to reading data to check the IDE version.  
   
          The interface provides methods for reading different data types from the settings file.  
   
@@ -136,7 +136,7 @@ A VSPackage may import settings from the [!INCLUDE[vsprvs](../codequality/includ
 > [!IMPORTANT]
 >  The settings information may become corrupt on disk, may contain version-specific settings, and could be used as a vehicle for malicious attack. The validity of each data item returned by the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSettingsReader> method should be validated.  
   
--   To verify support of the version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] used to produce the retrieved settings, call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSettingsReader.ReadFileVersion*> method to retrieve the version.  
+-   To verify support of the version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] used to produce the retrieved settings, call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSettingsReader.ReadFileVersion*> method to retrieve the version.  
   
 -   To cause the IDE to notify a user that an imported data element does not validate, a VSPackage calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSettingsReader.ReportError*> method.  
   

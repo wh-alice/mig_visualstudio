@@ -1,7 +1,7 @@
 ---
-title: "Contributing to the Add New Item Dialog Box"
+title: "Contributing to the Add New Item Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,7 +34,7 @@ translation.priority.mt:
 A project subtype can provide a complete new directory of items for the **Add New Item** dialog box by registering **Add Item** templates under the `Projects` registry subkey.  
   
 ## Registering Add New Item Templates  
- This section is located under **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0\Projects** in the registry. The registry entries below assume a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] project aggregated by a hypothetical project subtype. The entries for the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] project are listed below.  
+ This section is located under **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0\Projects** in the registry. The registry entries below assume a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project aggregated by a hypothetical project subtype. The entries for the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project are listed below.  
   
 ```  
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0\Projects\{F184B08F-C81C-45F6-A57F-5ABD9991F28F}]  
@@ -52,7 +52,7 @@ A project subtype can provide a complete new directory of items for the **Add Ne
   
  The environment automatically loads all of the `AddItemTemplates` data under the `Projects` registry subkey. This can include the data for base project implementations as well as the data for specific project subtype types. Each project subtype is identified by a project type `GUID`. The project subtype can specify that an alternate set of `Add Item` templates should be used for a particular flavored project instance by supporting the `VSHPROPID_ AddItemTemplatesGuid` enumeration from <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID2> in <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.GetProperty*> implementation to return the GUID value of the project subtype. If `VSHPROPID_AddItemTemplatesGuid` property is not specified, the base project GUID is used.  
   
- You can filter items in the **Add New Item** dialog box by implementing the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFilterAddProjectItemDlg> interface on the project subtype aggregator object. For example, a project subtype that implements a database project by aggregating a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] project, can filter the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] specific items from the **Add New Item** dialog box by implementing filtering, and in turn, can add database project specific items by supporting `VSHPROPID_ AddItemTemplatesGuid` in <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.GetProperty*>. For more information on filtering and adding items to the **Add New Item** dialog box, see [Adding Items to the Add New Item Dialog Boxes](../extensibility/adding-items-to-the-add-new-item-dialog-boxes.md).  
+ You can filter items in the **Add New Item** dialog box by implementing the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFilterAddProjectItemDlg> interface on the project subtype aggregator object. For example, a project subtype that implements a database project by aggregating a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project, can filter the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] specific items from the **Add New Item** dialog box by implementing filtering, and in turn, can add database project specific items by supporting `VSHPROPID_ AddItemTemplatesGuid` in <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.GetProperty*>. For more information on filtering and adding items to the **Add New Item** dialog box, see [Adding Items to the Add New Item Dialog Boxes](../extensibility/adding-items-to-the-add-new-item-dialog-boxes.md).  
   
 ## See Also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsFilterAddProjectItemDlg2>   

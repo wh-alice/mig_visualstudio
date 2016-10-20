@@ -1,7 +1,7 @@
 ---
-title: "Creating Options Pages By Using Interop Assemblies"
+title: "Creating Options Pages By Using Interop Assemblies | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,9 +32,9 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Creating Options Pages By Using Interop Assemblies
-Managed VSPackages can use the COM-based interop assemblies of the [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] to extend the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE) by adding **Options** pages to the **Tools** menu.  
+Managed VSPackages can use the COM-based interop assemblies of the [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] to extend the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) by adding **Options** pages to the **Tools** menu.  
   
- A **Tools Options** page is fundamentally a user control, and is coded in the same way as any other user control. Typically, you would use one of the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] IDE's designers to create the object and add user controls.  
+ A **Tools Options** page is fundamentally a user control, and is coded in the same way as any other user control. Typically, you would use one of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE's designers to create the object and add user controls.  
   
 > [!NOTE]
 >  A **Tools Options** page implemented as a dialog box, using a DialogProc to handle windows messages, must be a modeless dialog box, and must not call the EndDialog function.  
@@ -59,7 +59,7 @@ Managed VSPackages can use the COM-based interop assemblies of the [!INCLUDE[vsi
 -   A pointer to the DialogProc for the page.  
   
 ## Registering a Tools Options Page  
- You can register a **Tools Options** page by creating an entry in the following registry location: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<Version>*\ToolsOptionsPages, where *\<Version>* is the version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], such as 8.0.  
+ You can register a **Tools Options** page by creating an entry in the following registry location: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<Version>*\ToolsOptionsPages, where *\<Version>* is the version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], such as 8.0.  
   
  To register the page, you can either manually edit the registry or use a registry script (.rgs file). For more information, see [Creating Registrar Scripts](../Topic/Creating%20Registrar%20Scripts.md).  
   

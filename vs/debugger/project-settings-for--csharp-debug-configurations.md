@@ -1,7 +1,7 @@
 ---
-title: "Project Settings for  C# Debug Configurations"
+title: "Project Settings for  C# Debug Configurations | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -46,16 +46,16 @@ translation.priority.ht:
 You can change the project settings for a C# debug configuration in the **Property Pages** window, as discussed in [Debug and Release Configurations](../debugger/how-to--set-debug-and-release-configurations.md). The following tables show where to find debugger-related settings in the **Property Pages** window.  
   
 > [!WARNING]
->  This topic does not apply to Windows Store apps. See [Start a debug session (VB, C#, C++ and XAML)](../debugger/66ec0e79-8261-4c19-a618-3fd1b3f71bbd.md)  
+>  This topic does not apply to Windows Store apps. See [Start a debug session (VB, C#, C++ and XAML)](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio--vb--csharp--c---and-xaml-.md)  
   
 ##  <a name="BKMK_Debug_tab"></a> Debug tab  
   
 |**Setting**|**Description**|  
 |-----------------|---------------------|  
 |**Configuration**|Sets mode for compiling the application. Choose among **Active (Debug)**, **Debug**, **Release**, **All Configurations**.|  
-|**Start Action**|This group of controls specifies the action that will occur when you choose Start from the Debug menu.<br /><br /> -   **Start project** is the default and launches the startup project for debugging. For more information, see [Choosing the Startup Project](http://msdn.microsoft.com/en-us/222e3f32-a6fe-4941-bf37-6b2a921129fd).<br />-   **Start external program** enables you to start and attach to a program that is not part of a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] project. For more information, see [Attaching to a Running Program](http://msdn.microsoft.com/en-us/636d0a52-4bfd-48d2-89ad-d7b9ca4dc4f4).<br />-   **Start browser in URL** enables you to debug a Web application.|  
+|**Start Action**|This group of controls specifies the action that will occur when you choose Start from the Debug menu.<br /><br /> -   **Start project** is the default and launches the startup project for debugging. For more information, see [Choosing the Startup Project](http://msdn.microsoft.com/en-us/222e3f32-a6fe-4941-bf37-6b2a921129fd).<br />-   **Start external program** enables you to start and attach to a program that is not part of a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project. For more information, see [Attaching to a Running Program](http://msdn.microsoft.com/en-us/636d0a52-4bfd-48d2-89ad-d7b9ca4dc4f4).<br />-   **Start browser in URL** enables you to debug a Web application.|  
 |**Command line arguments**|Specifies command-line arguments for the program to be debugged. The command name is the program name specified in Start external program. If Start Action is set to Start URL, command-line arguments cannot be specified.|  
-|**Working directory**|Specifies the working directory of the program being debugged. In [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)], the working directory is the directory the application is launched from \bin\debug by default.|  
+|**Working directory**|Specifies the working directory of the program being debugged. In [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)], the working directory is the directory the application is launched from \bin\debug by default.|  
 |**Use remote machine**|The name of a remote machine where the application will run for debugging purposes or an [Msvsmon server name](../Topic/Start%20%20the%20Remote%20Debugging%20Monitor.md). The location of the EXE on the remote machine is specified by the Output Path property in the Configuration Properties folder, Build category. The location must be a shareable directory on the remote machine.|  
 |**Enable unmanaged code debugging**|Enables you to debug calls to native (unmanaged) Win32 code from your managed application.|  
 |**Enable SQL Server debugging**|Allows debugging of SQL Server database objects.|  

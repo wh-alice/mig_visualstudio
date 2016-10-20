@@ -1,7 +1,7 @@
 ---
-title: "Property Pages"
+title: "Property Pages | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -42,14 +42,14 @@ Users can view and change project configuration-dependent and -independent prope
   
  If properties are displayed for multiple objects and you change a value on a property page, all of the values for the objects are set to the new value even if they were initially different and the page was blank when an individual object's properties were displayed.  
   
- There are two general types of **ProjectProperty Pages** dialog boxes available in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. In the first, for Visual Basic projects, for example, the property pages are displayed using a field format, as shown in the following screenshot. In the second, shown later in this section, the property page hosts a properties grid similar to that found in the Properties Window.  
+ There are two general types of **ProjectProperty Pages** dialog boxes available in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. In the first, for Visual Basic projects, for example, the property pages are displayed using a field format, as shown in the following screenshot. In the second, shown later in this section, the property page hosts a properties grid similar to that found in the Properties Window.  
   
  ![Visual Basic Property Pages](../extensibility/media/vsvbproppages.gif "vsVBPropPages")  
 Project Property Pages dialog box with field format and tree structure  
   
  The tree structure in the Property Pages dialog box is not built using <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy>. The environment, based on the level name passed to it by the <xref:Microsoft.VisualStudio.OLE.Interop.ISpecifyPropertyPages> and the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPropertyPage> interfaces, builds it.  
   
- There are only two top-level categories available on [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Property pages:  
+ There are only two top-level categories available on [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Property pages:  
   
 -   Common Properties, which displays configuration-independent information for the selected object or objects. As a result, when one of the Common Properties subcategories is selected, the Configuration, Platform, and Configuration Manager options across the top of the dialog box are not available.  
   
@@ -74,7 +74,7 @@ Property Pages dialog box with properties grid
   
  The interfaces `IVSMDPropertyBrowser` and `IVSMDPropertyGrid` (declared in vsmanaged.h) are used to create and populate the properties grid within a dialog box or window.  
   
- The architecture of projects has changed considerably from past versions of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. In particular, the notion of which project is active has changed. In [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], there is no concept of an active project. In previous development environments, the active project was the project that build and deploy commands would default to regardless of the context. Now, the solution controls and arbitrates which build and deploy commands apply to which projects.  
+ The architecture of projects has changed considerably from past versions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. In particular, the notion of which project is active has changed. In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], there is no concept of an active project. In previous development environments, the active project was the project that build and deploy commands would default to regardless of the context. Now, the solution controls and arbitrates which build and deploy commands apply to which projects.  
   
  What was previously an active project is now captured in one of three different ways:  
   
@@ -86,11 +86,11 @@ Property Pages dialog box with properties grid
   
 -   Active solution build configuration  
   
-     [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] has an active solution configuration, available in the automation model by implementing `DTE.Solution.SolutionBuild.ActiveConfiguration`. A solution configuration is a collection that contains one project configuration for each project in the solution (each project can have multiple configurations, on multiple platforms, with dissimilar names). For more information relating to the solution's property pages, see [Solution Configuration](../extensibility/solution-configuration.md).  
+     [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] has an active solution configuration, available in the automation model by implementing `DTE.Solution.SolutionBuild.ActiveConfiguration`. A solution configuration is a collection that contains one project configuration for each project in the solution (each project can have multiple configurations, on multiple platforms, with dissimilar names). For more information relating to the solution's property pages, see [Solution Configuration](../extensibility/solution-configuration.md).  
   
 -   Project currently selected  
   
-     Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.GetCurrentSelection*> method to retrieve the project hierarchy and project item or items selected. From DTE, you would use the `SelectedItems.SelectedItem.Project` and `SelectedItems.SelectedItem.ProjectItem` methods. There is sample code under those headings in the core [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] documents.  
+     Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.GetCurrentSelection*> method to retrieve the project hierarchy and project item or items selected. From DTE, you would use the `SelectedItems.SelectedItem.Project` and `SelectedItems.SelectedItem.ProjectItem` methods. There is sample code under those headings in the core [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] documents.  
   
 ## See Also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsPropertyPage>   

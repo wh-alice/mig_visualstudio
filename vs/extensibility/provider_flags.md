@@ -1,7 +1,7 @@
 ---
-title: "PROVIDER_FLAGS"
+title: "PROVIDER_FLAGS | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -67,16 +67,16 @@ public enum enum_PROVIDER_FLAGS {
  No flags specified.  
   
  PFLAG_REMOTE_PORT  
- Caller wants a list of programs on a different machine than [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+ Caller wants a list of programs on a different machine than [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
  PFLAG_DEBUGGEE  
- The process is currently being debugged by this instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+ The process is currently being debugged by this instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
  PFLAG_ATTACH_TODEBUGGEE  
- [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] is attached to the program being debugged but did not launch it.  
+ [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is attached to the program being debugged but did not launch it.  
   
  PFLAG_REASON_WATCH  
- [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] is watching for events.  
+ [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is watching for events.  
   
  PFLAG_GET_PROGRAM_NODES  
  Caller wants the `ProgramNodes` field of the [PROVIDER_PROCESS_DATA](../extensibility/provider_process_data.md) structure.  

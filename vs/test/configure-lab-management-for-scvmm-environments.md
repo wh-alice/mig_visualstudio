@@ -1,5 +1,5 @@
 ---
-title: "Configure Lab Management for SCVMM environments"
+title: "Configure Lab Management for SCVMM environments | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/13/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -49,18 +49,18 @@ To create and manage System Center Virtual Machine Manager (SCVMM) environments,
 >  Any computers that you use as Library Servers (including the SCVMM machine that has a default library server) and as Hyper-V hosts should be on a gigabit network that is connected to a common network switch. The faster network speed will help improve performance when you deploy virtual machines to hosts and when you save virtual machines to the library from your host.  
   
 ## Prerequisites  
- The [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] administrator must set up and configure [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] before configuring [!INCLUDE[vstsLabShort](../test/includes/vstslabshort_md.md)]. For more information about how to set up and configure [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)], see the [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] Installation Guide. After the administrator has configured [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] and created a default team project collection, make sure that you have the following information:  
+ The [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] administrator must set up and configure [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] before configuring [!INCLUDE[vstsLabShort](../test/includes/vstslabshort_md.md)]. For more information about how to set up and configure [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)], see the [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] Installation Guide. After the administrator has configured [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] and created a default team project collection, make sure that you have the following information:  
   
--   *TfsMachine*: The name of the machine that is running [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)].  
+-   *TfsMachine*: The name of the machine that is running [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)].  
   
 -   *domain*: The Active Directory domain that is used by all machines.  
   
--   *tfssvc*: The account under which [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] is running.  
+-   *tfssvc*: The account under which [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] is running.  
   
     > [!NOTE]
     >  You must use a domain user account and password for the TFSservice account to set up an SCVMM environment for lab management.  
   
--   *domain*\\*tfsadmin*: The account for the [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] administrator.  
+-   *domain*\\*tfsadmin*: The account for the [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] administrator.  
   
 ## System requirements  
  The following table summarizes the minimum and recommended hardware and software requirements for the machines used with [!INCLUDE[vstsLabShort](../test/includes/vstslabshort_md.md)]. To make the requirements easier to understand, each role is broken out as if it were installed on a separate machine. For a simpler setup, you can run the *HyperVHost* machine, the *VmmMachine* and the *LibraryMachine* all on the same computer.  
@@ -70,8 +70,8 @@ To create and manage System Center Virtual Machine Manager (SCVMM) environments,
 |*HyperVHost*|64-bit with hardware virtualization enabled|Windows Server 2012 R2 operating system with Hyper-V 64-bit, Standard, Enterprise and Datacenter Editions<br /><br /> VMM Server 2012 R2 operating system with Hyper-V 64-bit, Standard, Enterprise and Datacenter Editions<br /><br /> Hyper-V Host and Library Server 2012 R2. The Hyper-V Host and Library servers can be running on Windows Server 2012 with VMM server running on 2012 R2.<br /><br /> [!INCLUDE[firstref_longhorn](../test/includes/firstref_longhorn_md.md)] R2 operating system with Hyper-V 64-bit, Standard, Enterprise, and Datacenter Editions<br /><br /> [!INCLUDE[firstref_longhorn](../test/includes/firstref_longhorn_md.md)] R2—Server Core installation, Standard, Enterprise, and Datacenter Editions<br /><br /> [!INCLUDE[firstref_longhorn](../test/includes/firstref_longhorn_md.md)] operating system with Hyper-V 64-bit, Standard, Enterprise, and Datacenter Editions with Service Pack 2<br /><br /> Hyper-V Server 2008 R2 operating system|4GB / 8GB|100 GB/ 200GB|  
 |*VmmMachine*|64-bit|Windows Server 2012 R2 operating system with Hyper-V 64-bit, Standard, Enterprise and Datacenter Editions<br /><br /> VMM Server 2012 R2 operating system with Hyper-V 64-bit, Standard, Enterprise and Datacenter Editions<br /><br /> Hyper-V Host and Library Server 2012 R2. The Hyper-V Host and Library servers can be running on Windows Server 2012 with VMM server running on 2012 R2.<br /><br /> [!INCLUDE[firstref_longhorn](../test/includes/firstref_longhorn_md.md)] R2 operating system 64-bit Standard, Enterprise, and Datacenter Editions<br /><br /> [!INCLUDE[firstref_longhorn](../test/includes/firstref_longhorn_md.md)] operating system Standard, Enterprise, and Datacenter Editions with Service Pack 2|2GB / 4GB|200GB|  
 |*LibraryMachine*|64-bit|Windows Server 2012 R2 operating system with Hyper-V 64-bit, Standard, Enterprise and Datacenter Editions<br /><br /> VMM Server 2012 R2 operating system with Hyper-V 64-bit, Standard, Enterprise and Datacenter Editions<br /><br /> Hyper-V Host and Library Server 2012 R2. The Hyper-V Host and Library servers can be running on Windows Server 2012 with VMM server running on 2012 R2.<br /><br /> [!INCLUDE[firstref_longhorn](../test/includes/firstref_longhorn_md.md)] R2 operating system 64-bit Standard, Enterprise, and Datacenter Editions|2GB / 4GB|200GB / 500GB|  
-|*TfsMachine*|32-bit x86<br /><br /> 64-bit [!INCLUDE[vcprx64](../extensibility/includes/vcprx64_md.md)]|All operating systems that are supported by [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] are supported by [!INCLUDE[vstsLabLong](../test/includes/vstslablong_md.md)], except Windows 8 clients and servers.|2 GB / 4GB|120GB / 230GB|  
-|*ControllerMachine*|32-bit x86<br /><br /> 64-bit [!INCLUDE[vcprx64](../extensibility/includes/vcprx64_md.md)]|All operating systems that are supported by [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] are supported by [!INCLUDE[vstsLabLong](../test/includes/vstslablong_md.md)], except any operating systems that are not joined to a domain.|2GB / 4GB|120GB / 230GB|  
+|*TfsMachine*|32-bit x86<br /><br /> 64-bit [!INCLUDE[vcprx64](../extensibility/includes/vcprx64_md.md)]|All operating systems that are supported by [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] are supported by [!INCLUDE[vstsLabLong](../test/includes/vstslablong_md.md)], except Windows 8 clients and servers.|2 GB / 4GB|120GB / 230GB|  
+|*ControllerMachine*|32-bit x86<br /><br /> 64-bit [!INCLUDE[vcprx64](../extensibility/includes/vcprx64_md.md)]|All operating systems that are supported by [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] are supported by [!INCLUDE[vstsLabLong](../test/includes/vstslablong_md.md)], except any operating systems that are not joined to a domain.|2GB / 4GB|120GB / 230GB|  
   
 ## Configuration procedures  
  The following table details the procedures that you must follow to complete the configuration for Hyper-V, SCVMM, and [!INCLUDE[vstsLabShort](../test/includes/vstslabshort_md.md)], and the permissions that are required. For a simple setup, the *HyperVHost* machine, the *VmmMachine* and the *LibraryMachine* can be the same machine.  
@@ -83,9 +83,9 @@ To create and manage System Center Virtual Machine Manager (SCVMM) environments,
 |-----------------|---------------|-------------|-------------------------------|--------------------------|--------------------|  
 |**1**|[Set Up And Configure Hyper-V Hosts](#HyperV)|Hyper-V lets you manage virtual machines and their resources.|*HyperVHost*|Administrator for the *HyperVHost*||  
 |**2**|[Install and configure SCVMM](#SCVMM)|SCVMM helps you manage your virtual machines and templates, and where and how you store them.|*VmmMachine* **Note:**  You can use a separate machine as the *LibraryMachine* to use for the library share to store the virtual machines.|Administrator for *VmmMachine*||  
-|**3**|[Configure Team Foundation Server to enable Lab Management](#ConfigureTFS)|You configure TFS to give you access to the virtual machines and templates that you have created.|*TfsMachine*|[!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] Administrator||  
-|**4**|[Verify the configuration using Microsoft Test Manager](../test/connect-microsoft-test-manager-to-your-team-project-and-test-plan.md)|Verify that you can connect to a team project and access the **Lab Center** by using [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)].|*DesktopClient*|Any user account that has been added to the computer||  
-|**5**|[Install test controller](#BuildTestControllers)|If you want to build and deploy your application by using [!INCLUDE[esprbuild](../codequality/includes/esprbuild_md.md)] and run tests, you will need build controllers and test controllers.|*TfsMachine* **Note:**  It is recommended that you use a separate machine as the *ControllerMachine* to install the test controller.|Team Project Collection Administrator||  
+|**3**|[Configure Team Foundation Server to enable Lab Management](#ConfigureTFS)|You configure TFS to give you access to the virtual machines and templates that you have created.|*TfsMachine*|[!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] Administrator||  
+|**4**|[Verify the configuration using Microsoft Test Manager](../test/connect-microsoft-test-manager-to-your-team-project-and-test-plan.md)|Verify that you can connect to a team project and access the **Lab Center** by using [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)].|*DesktopClient*|Any user account that has been added to the computer||  
+|**5**|[Install test controller](#BuildTestControllers)|If you want to build and deploy your application by using [!INCLUDE[esprbuild](../code-quality/includes/esprbuild_md.md)] and run tests, you will need build controllers and test controllers.|*TfsMachine* **Note:**  It is recommended that you use a separate machine as the *ControllerMachine* to install the test controller.|Team Project Collection Administrator||  
   
 ##  <a name="HyperV"></a> Set up and configure Hyper-V hosts  
  To set up Hyper-V, you can do one of the following:  
@@ -241,7 +241,7 @@ To create and manage System Center Virtual Machine Manager (SCVMM) environments,
     4.  On the **Summary** wizard page, choose **Finish**.  
   
         > [!NOTE]
-        >  It is recommended that you configure a separate host group for each team project collection. For example, if you plan to configure Lab Management in two project collections in [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)], you can create two host groups in System Center Virtual Machine Manager.  
+        >  It is recommended that you configure a separate host group for each team project collection. For example, if you plan to configure Lab Management in two project collections in [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)], you can create two host groups in System Center Virtual Machine Manager.  
   
 3.  (Optional) By default, SCVMM configures the machine on which it is installed to act as a library server. It also sets up a default library share on the machine. You can add more library servers or shares to improve the performance.  
   
@@ -323,7 +323,7 @@ To create and manage System Center Virtual Machine Manager (SCVMM) environments,
     3.  On the **Summary** wizard page, choose **Add Hosts**.  
   
         > [!NOTE]
-        >  We recommend that you configure a separate host group for each team project collection. For example, if you plan to configure Lab Management in two project collections in [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)], you can create two host groups in System Center Virtual Machine Manager.  
+        >  We recommend that you configure a separate host group for each team project collection. For example, if you plan to configure Lab Management in two project collections in [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)], you can create two host groups in System Center Virtual Machine Manager.  
   
 3.  (Optional) By default, SCVMM configures the machine on which it is installed to act as a library server. It also sets up a default library share on the machine. You can add more library servers or shares to improve the performance.  
   
@@ -349,7 +349,7 @@ To create and manage System Center Virtual Machine Manager (SCVMM) environments,
     5.  Repeat steps b through d for each host.  
   
 > [!IMPORTANT]
->  If you have two SCVMM servers that are both configured to be used by [!INCLUDE[vstsLabShort](../test/includes/vstslabshort_md.md)] with a specific [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)], then each SCVMM server must be configured to use a unique MAC range. To configure the MAC range, from the Virtual Machine Manager Administration Console, in the lower-left navigation window choose **Administration**, choose **Networking** and then open **Global Static MAC Address Range**. For more information about how to configure the MAC range, see the following [Microsoft Web site](http://go.microsoft.com/fwlink/?LinkId=182078).  
+>  If you have two SCVMM servers that are both configured to be used by [!INCLUDE[vstsLabShort](../test/includes/vstslabshort_md.md)] with a specific [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)], then each SCVMM server must be configured to use a unique MAC range. To configure the MAC range, from the Virtual Machine Manager Administration Console, in the lower-left navigation window choose **Administration**, choose **Networking** and then open **Global Static MAC Address Range**. For more information about how to configure the MAC range, see the following [Microsoft Web site](http://go.microsoft.com/fwlink/?LinkId=182078).  
   
 ##### To verify that SCVMM is installed correctly and is working  
   
@@ -383,7 +383,7 @@ To create and manage System Center Virtual Machine Manager (SCVMM) environments,
   
     1.  On the **Select Library Server** wizard page, choose one of the library shares.  
   
-    2.  On the **Select Path** wizard page, browse to the path for your library share that you plan to use for your team project collection on [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)].  
+    2.  On the **Select Path** wizard page, browse to the path for your library share that you plan to use for your team project collection on [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)].  
   
     3.  When you are finished, confirm that a virtual machine called **blank** appears in the **Library** pane in the SCVMM Administrator Console.  
   
@@ -410,7 +410,7 @@ To create and manage System Center Virtual Machine Manager (SCVMM) environments,
     3.  Choose **OK** to close the dialog box.  
   
 ##  <a name="ConfigureTFS"></a> Configure Lab Management for Team Foundation Server  
- To enable [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] to communicate with the SCVMM server, you must also install the SCVMM Administrator Console on your *TfsMachine* if this is a different computer from the computer that you are using as your *VmmMachine*.  
+ To enable [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] to communicate with the SCVMM server, you must also install the SCVMM Administrator Console on your *TfsMachine* if this is a different computer from the computer that you are using as your *VmmMachine*.  
   
 > [!NOTE]
 >  If your deployment of Team Foundation Server has more than one application-tier machine, install the console on every application tier in the deployment.  
@@ -448,7 +448,7 @@ To create and manage System Center Virtual Machine Manager (SCVMM) environments,
     2.  On the **Installation** wizard page, choose **Close**.  
   
 ### Configure Lab Management for Team Foundation Server  
- You must configure [!INCLUDE[vstsLabShort](../test/includes/vstslabshort_md.md)] in [!INCLUDE[vstsTfsShort](../modeling/includes/vststfsshort_md.md)]. This enables access to the virtual machines and templates that you create from [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)]. You can then use these virtual machines or templates to create SCVMM environments and store them in a library share. This requires you to select the SCVMM server to use with [!INCLUDE[vstsTfsShort](../modeling/includes/vststfsshort_md.md)].  
+ You must configure [!INCLUDE[vstsLabShort](../test/includes/vstslabshort_md.md)] in [!INCLUDE[vstsTfsShort](../modeling/includes/vststfsshort_md.md)]. This enables access to the virtual machines and templates that you create from [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)]. You can then use these virtual machines or templates to create SCVMM environments and store them in a library share. This requires you to select the SCVMM server to use with [!INCLUDE[vstsTfsShort](../modeling/includes/vststfsshort_md.md)].  
   
 ##### To configure Lab Management for Team Foundation Server  
   
@@ -506,7 +506,7 @@ To create and manage System Center Virtual Machine Manager (SCVMM) environments,
 ## Configure Lab Management for Each Team Project Collection  
  You must configure the host group and library share from SCVMM that you want to use with each team project collection. For example, you might decide to allocate one host group to each team project collection to evenly divide the virtual machine resources.  
   
- To use the workflow capability from a [!INCLUDE[esprbuild](../codequality/includes/esprbuild_md.md)] build definition to deploy your application, or run tests by using a test controller on your SCVMM environments, you must add a domain user account that will be used by test agents and build agents.  
+ To use the workflow capability from a [!INCLUDE[esprbuild](../code-quality/includes/esprbuild_md.md)] build definition to deploy your application, or run tests by using a test controller on your SCVMM environments, you must add a domain user account that will be used by test agents and build agents.  
   
 > [!NOTE]
 >  You must have a team project collection already created for this step of the configuration.  

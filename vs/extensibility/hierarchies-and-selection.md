@@ -1,7 +1,7 @@
 ---
-title: "Hierarchies and Selection"
+title: "Hierarchies and Selection | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,20 +33,20 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Hierarchies and Selection
-When you customize [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], you should understand how [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] handles hierarchies such as projects and how it uses selection context to determine what is displayed to the user. This section discusses the concepts of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] hierarchies and selection.  
+When you customize [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], you should understand how [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] handles hierarchies such as projects and how it uses selection context to determine what is displayed to the user. This section discusses the concepts of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] hierarchies and selection.  
   
 ## In This Section  
  [Hierarchies in Visual Studio](../extensibility/hierarchies-in-visual-studio.md)  
  Describes project hierarchies and the general concept of hierarchies.  
   
  [Selection and Currency in the IDE](../extensibility/selection-and-currency-in-the-ide.md)  
- Describes how the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE) maintains information about the user's currently active objects and lets VSPackages track currency.  
+ Describes how the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) maintains information about the user's currently active objects and lets VSPackages track currency.  
   
  [Selection Context Objects](../extensibility/selection-context-objects.md)  
  Discusses the model for how you can determine the user's selection context focus on a window.  
   
  [Feedback to the User](../extensibility/feedback-to-the-user.md)  
- Discusses how the available functionality in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] is based on the user's current selection context and overall IDE context.  
+ Discusses how the available functionality in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is based on the user's current selection context and overall IDE context.  
   
 ## Related Sections  
  [Architecture](../extensibility/project-types-architecture.md)  

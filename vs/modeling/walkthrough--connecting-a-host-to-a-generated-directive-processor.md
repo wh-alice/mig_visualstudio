@@ -1,7 +1,7 @@
 ---
-title: "Walkthrough: Connecting a Host to a Generated Directive Processor"
+title: "Walkthrough: Connecting a Host to a Generated Directive Processor | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -41,7 +41,7 @@ You can write your own host that processes text templates. A basic custom host i
   
 |||  
 |-|-|  
-|[!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]|[http://go.microsoft.com/fwlink/?LinkId=185579](http://go.microsoft.com/fwlink/?LinkId=185579)|  
+|[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]|[http://go.microsoft.com/fwlink/?LinkId=185579](http://go.microsoft.com/fwlink/?LinkId=185579)|  
 |[!INCLUDE[vssdk_current_short](../modeling/includes/vssdk_current_short_md.md)]|[http://go.microsoft.com/fwlink/?LinkId=185580](http://go.microsoft.com/fwlink/?LinkId=185580)|  
 |Visual Studio Visualization and Modeling SDK|[http://go.microsoft.com/fwlink/?LinkID=186128](http://go.microsoft.com/fwlink/?LinkID=186128)|  
   
@@ -71,13 +71,13 @@ You can write your own host that processes text templates. A basic custom host i
   
 3.  On the **Debug** menu, click **Start Debugging**.  
   
-     A second instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] opens.  
+     A second instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] opens.  
   
 4.  In the experimental build, in **Solution Explorer**, double-click the file **sample.min**.  
   
      The file opens in the designer. Notice that the model has two elements, ExampleElement1 and ExampleElement2, and a link between them.  
   
-5.  Close the second instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+5.  Close the second instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 6.  Save the solution, and then close the Domain-Specific Language Designer.  
   

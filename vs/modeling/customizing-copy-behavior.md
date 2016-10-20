@@ -1,7 +1,7 @@
 ---
-title: "Customizing Copy Behavior"
+title: "Customizing Copy Behavior | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,7 +13,7 @@ ms.author: "awills"
 manager: "kamrani"
 ---
 # Customizing Copy Behavior
-In a domain-specific language (DSL) created with the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Visualization and Modeling SDK, you can alter what happens when the user copies and pastes elements.  
+In a domain-specific language (DSL) created with the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Visualization and Modeling SDK, you can alter what happens when the user copies and pastes elements.  
   
 ## Standard Copy and Paste Behavior  
  To enable copying, set the **Enable Copy Paste** property of the **Editor** node in DSL Explorer.  

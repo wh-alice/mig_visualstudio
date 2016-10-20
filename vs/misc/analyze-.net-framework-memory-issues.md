@@ -1,7 +1,7 @@
 ---
-title: "Analyze .NET Framework memory issues"
+title: "Analyze .NET Framework memory issues | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -57,7 +57,7 @@ Find memory leaks and inefficient memory use in .NET Framework code by using the
   
  For each application, the GC maintains a tree of references that tracks the objects referenced by the application. The *reference tree* has a set of roots, which includes global and static objects, as well as associated thread stacks and dynamically instantiated objects. An object is rooted if the object has at least one parent object that holds a reference to it. The GC can reclaim the memory of an object only when no other object or variable in the application has a reference to it.  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
 ##  <a name="BKMK_Identify_a_memory_issue_in_an_app"></a> Identify a memory issue in an app  
  The most visible symptom of memory issues is the performance of your app, especially if the performance degrades over time. Degradation of the performance of other apps while your app is running might also indicate a memory issue. If you suspect a memory issue, use a tool like Task Manager or [Windows Performance Monitor](http://technet.microsoft.com/library/cc749249.aspx) to investigate further. For example, look for growth in the total size of memory that you cannot explain as a possible source of memory leaks:  
@@ -86,7 +86,7 @@ Find memory leaks and inefficient memory use in .NET Framework code by using the
   
  To analyze the growth in memory use of an app, collect two dump files from a single instance of the app.  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
 ##  <a name="BKMK_Analyze_memory_use"></a> Analyze memory use  
  [Filter the list of objects](#BKMK_Filter_the_list_of_objects) **&#124;** [Analyze memory data in from a single snapshot](#BKMK_Analyze_memory_data_in_from_a_single_snapshot) **&#124;** [Compare two memory snapshots](#BKMK_Compare_two_memory_snapshots)  
@@ -101,7 +101,7 @@ Find memory leaks and inefficient memory use in .NET Framework code by using the
   
  The memory analyzer starts a debug session to analyze the file and displays the results in the Heap View page:  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
 ###  <a name="BKMK_Filter_the_list_of_objects"></a> Filter the list of objects  
  By default, the memory analyzer filters the list of objects in a memory snapshot to show only the types and instances that are user code, and to show only those types whose total inclusive size exceed a threshold percentage of the total heap size. You can change these options in the **View Settings** list:  
@@ -113,14 +113,14 @@ Find memory leaks and inefficient memory use in .NET Framework code by using the
   
  You can also filter the type list by entering a string in the **Search** box. The list displays only those types whose names contain the string.  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
 ###  <a name="BKMK_Analyze_memory_data_in_from_a_single_snapshot"></a> Analyze memory data in from a single snapshot  
  Visual Studio starts a new debugging session to analyze the file, and displays the memory data in a Heap View window.  
   
  ![The Object Type list](../misc/media/dbg_mma_objecttypelist.png "DBG_MMA_ObjectTypeList")  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
 #### Object Type table  
  The top table lists the types of objects that are held in memory.  
@@ -194,7 +194,7 @@ Find memory leaks and inefficient memory use in .NET Framework code by using the
   
  A **Reference Count Diff** column is also added to the **Paths to Root** table.  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
 ## See Also  
  [VS ALM TFS Blog: Using Visual Studio 2013 to Diagnose .NET Memory Issues in Production](http://blogs.msdn.com/b/visualstudioalm/archive/2013/06/20/using-visual-studio-2013-to-diagnose-net-memory-issues-in-production.aspx)   

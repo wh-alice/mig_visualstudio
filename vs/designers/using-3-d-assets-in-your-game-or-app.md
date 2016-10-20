@@ -1,7 +1,7 @@
 ---
-title: "Using 3-D Assets in Your Game or App"
+title: "Using 3-D Assets in Your Game or App | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,12 +22,12 @@ ms.author: "mithom"
 manager: "ghogen"
 ---
 # Using 3-D Assets in Your Game or App
-This article describes how you can use [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] to process 3-D assets and include them in your builds.  
+This article describes how you can use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to process 3-D assets and include them in your builds.  
   
- After you use the tools in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] to create 3-D assets, the next step is to use them in your app. But before you can use them, your assets have to be transformed into a format that DirectX can understand. To help you transform your assets, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] provides build customizations for each kind of asset that it can produce. To include the assets in your build, all you have to do is configure your project to use the build customizations, add the assets to your project, and configure the assets to use the correct build customization. After that, you can load the assets into your app and use them by creating and filling DirectX resources just like you would in any other DirectX app.  
+ After you use the tools in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to create 3-D assets, the next step is to use them in your app. But before you can use them, your assets have to be transformed into a format that DirectX can understand. To help you transform your assets, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] provides build customizations for each kind of asset that it can produce. To include the assets in your build, all you have to do is configure your project to use the build customizations, add the assets to your project, and configure the assets to use the correct build customization. After that, you can load the assets into your app and use them by creating and filling DirectX resources just like you would in any other DirectX app.  
   
 ## Configuring your project  
- Before you can deploy your 3-D assets as part of your build, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] has to know about the kinds of assets that you want to deploy. [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] already knows about many common file types, but because only certain kinds of apps use 3-D assets, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] doesn't assume that a project will build these kinds of files. You can tell [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] that your app uses these kinds of assets by using the *build customizations*—files that tell [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] how to process different types of files in a useful way—that are provided for each asset type. Because these customizations are applied on a per-project basis, all you have to do is add the appropriate customizations to your project.  
+ Before you can deploy your 3-D assets as part of your build, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] has to know about the kinds of assets that you want to deploy. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] already knows about many common file types, but because only certain kinds of apps use 3-D assets, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] doesn't assume that a project will build these kinds of files. You can tell [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] that your app uses these kinds of assets by using the *build customizations*—files that tell [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] how to process different types of files in a useful way—that are provided for each asset type. Because these customizations are applied on a per-project basis, all you have to do is add the appropriate customizations to your project.  
   
 #### To add the build customizations to your project  
   
@@ -55,7 +55,7 @@ This article describes how you can use [!INCLUDE[vsprvs](../codequality/includes
 3.  Under **Configuration Properties**, choose **General**, and then in the property grid, under **General**, set the **Item Type** property to the appropriate content pipeline item type. For example, for an image or texture file, choose **Image Content Pipeline**.  
   
     > [!IMPORTANT]
-    >  By default, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] assumes that many kinds of image files should be categorized by using the **Image** item type that's built into [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. Therefore, you have to change the **Item Type** property of each image that you want to be processed by the image content pipeline. Other types of content pipeline source files for 3-D models and visual shader graphics default to the correct **Item Type**.  
+    >  By default, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] assumes that many kinds of image files should be categorized by using the **Image** item type that's built into [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Therefore, you have to change the **Item Type** property of each image that you want to be processed by the image content pipeline. Other types of content pipeline source files for 3-D models and visual shader graphics default to the correct **Item Type**.  
   
 4.  Choose the **OK** button.  
   

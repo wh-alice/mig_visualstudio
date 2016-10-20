@@ -1,5 +1,5 @@
 ---
-title: "How to: Run a Test Using Test Controllers and Test Agents"
+title: "How to: Run a Test Using Test Controllers and Test Agents | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -32,7 +32,7 @@ translation.priority.ht:
 # How to: Run a Test Using Test Controllers and Test Agents
 After you create a test and run the test and it passes, you might want to proceed with more exhaustive performance testing, or run the test remotely on a regular basis, by using a test controller and test agents. For more information, see [Setting Up Test Machines to Run Tests or Collect Data](../test/setting-up-test-machines-to-run-tests-or-collect-data.md).  
   
- This topic is about using Visual Studio. However, if you have to plan your testing effort and run your tests as part of a test plan, you can use [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)]. [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] is included with Visual Studio Enterprise and [!INCLUDE[vstsTestEssLong](../test/includes/vststestesslong_md.md)]. See [Defining a Test Plan](../test_notintoc/defining-a-test-plan.md).  
+ This topic is about using Visual Studio. However, if you have to plan your testing effort and run your tests as part of a test plan, you can use [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)]. [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] is included with Visual Studio Enterprise and [!INCLUDE[vstsTestEssLong](../test/includes/vststestesslong_md.md)]. See [Defining a Test Plan](../test_notintoc/defining-a-test-plan.md).  
   
  Your tests can be run from the following windows in Visual Studio:  
   
@@ -80,4 +80,4 @@ After you create a test and run the test and it passes, you might want to procee
   
 ## See Also  
  [How to: Run Tests from Microsoft Visual Studio](../test/how-to--run-tests-from-microsoft-visual-studio.md)   
- [How to: Run a Load Test Using Test Controllers and Test Agents Specified in a Test Setting](../test_notintoc/e08eb231-55b7-4d9c-9be5-4fe1051a12b7.md)
+ [How to: Run a Load Test Using Test Controllers and Test Agents Specified in a Test Setting](../test_notintoc/how-to--run-a-load-test-using-test-controllers-and-test-agents-specified-in-a-test-setting.md)

@@ -1,13 +1,13 @@
 ---
-title: "Walkthrough: Create a WPF Desktop Application connected to an Azure Mobile Service"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Walkthrough: Create a WPF Desktop Application connected to an Azure Mobile Service | Microsoft Docs"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8d42620f-553b-4b04-a38b-f6b306d73a50
 caps.latest.revision: 7

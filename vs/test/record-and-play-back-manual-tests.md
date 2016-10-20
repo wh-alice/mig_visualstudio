@@ -1,7 +1,7 @@
 ---
-title: "Record and play back manual tests"
+title: "Record and play back manual tests | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -42,7 +42,7 @@ Let [Microsoft Test Manager](../test/testing-your-application-using-microsoft-te
   
  Playback can also help when you want to run a test with [different data](../test/repeat-a-test-with-different-data.md), on [multiple configurations](../test/test-configurations--specifying-test-platforms.md), or where there are [shared steps](../test/share-steps-between-test-cases.md) that are the same in many test cases. It also speeds up regression testing—that is, tests that you run from one sprint to the next to make sure that everything is still working correctly.  
   
- You can record and play back tests in a wide range of desktop applications, and also web applications that you access through a supported browser. For a detailed list, see [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../codequality/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md).  
+ You can record and play back tests in a wide range of desktop applications, and also web applications that you access through a supported browser. For a detailed list, see [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../code-quality/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md).  
   
 ## Run Microsoft Test Manager on your client machine  
  To record and play back actions, you have to install Microsoft Test Manager on the machine on which you will run your tests. If you are testing a desktop application, install the latest version of the application and Microsoft Test Manager on the same machine. If you are testing a web-based application, install the application on a test server, and run Microsoft Test Manager on the machine where you will run your web browser.  
@@ -117,9 +117,9 @@ Let [Microsoft Test Manager](../test/testing-your-application-using-microsoft-te
  **Q: Some or all of my actions aren’t recorded, or the playback doesn’t work properly. Why?**  
  **A:**  Action recording works best for applications in which each user interface field has a unique ID, and for basic gestures such as keystrokes clicks or touches and menu choices. It might not work as well for gestures such as drawing, and doesn’t work for some applications and web browsers.  
   
- See [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../codequality/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md).  
+ See [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../code-quality/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md).  
   
- To learn how to develop your application so that it’s easier to record tests, see [Enable Coded UI Testing of Your Controls](../codequality/enable-coded-ui-testing-of-your-controls.md).  
+ To learn how to develop your application so that it’s easier to record tests, see [Enable Coded UI Testing of Your Controls](../code-quality/enable-coded-ui-testing-of-your-controls.md).  
   
  **Record/playback is cool. But can I completely automate a test, including verifying the results?**  
  Yes. [Automate system tests](../test/automate-system-tests.md)

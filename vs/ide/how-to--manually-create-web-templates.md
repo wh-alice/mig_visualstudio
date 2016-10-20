@@ -1,7 +1,7 @@
 ---
-title: "How to: Manually Create Web Templates"
+title: "How to: Manually Create Web Templates | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,7 +45,7 @@ Creating a Web template is different than creating other kinds of templates. Bec
   
 2.  Modify or delete the files in the project, or add new files to the project.  
   
-3.  Create an XML file and save it by using a .vstemplate file name extension, in the same directory as your project. Do not add it to the project in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+3.  Create an XML file and save it by using a .vstemplate file name extension, in the same directory as your project. Do not add it to the project in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 4.  Author the .vstemplate XML file to provide project template metadata. For more information, see the example in the following section.  
   
@@ -70,7 +70,7 @@ Creating a Web template is different than creating other kinds of templates. Bec
   
 7.  Select the files in your template (this includes the .vstemplate file), right-click the selection, click **Send To**, and then click **Compressed (zipped) Folder**. The files are compressed into a .zip file.  
   
-8.  Put the .zip template file in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] project template directory. By default, this directory is \My Documents\Visual Studio *Version*\My Exported Templates\\.  
+8.  Put the .zip template file in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project template directory. By default, this directory is \My Documents\Visual Studio *Version*\My Exported Templates\\.  
   
 ## Example  
  The following example shows a basic .vstemplate file for a Web project template.  

@@ -1,5 +1,5 @@
 ---
-title: "How to: Assign Who Will Run the Tests in a Test Plan"
+title: "How to: Assign Who Will Run the Tests in a Test Plan | Microsoft Docs"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -31,7 +31,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Assign Who Will Run the Tests in a Test Plan
-When you add test cases to a test plan using [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], the tester who is assigned to the test case is automatically assigned to run the pairings of test cases and configurations. This is the default setting. If you want a tester who is not assigned to the test case to run a particular pairing, you can select the test case and change the assigned tester as shown in the following illustration.  
+When you add test cases to a test plan using [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], the tester who is assigned to the test case is automatically assigned to run the pairings of test cases and configurations. This is the default setting. If you want a tester who is not assigned to the test case to run a particular pairing, you can select the test case and change the assigned tester as shown in the following illustration.  
   
  ![Assign Who Will Run Tests](../test_notintoc/media/assign_testplan.png "Assign_TestPlan")  
   
@@ -46,7 +46,7 @@ When you add test cases to a test plan using [!INCLUDE[TCMext](../codequality/in
   
 ### To assign a tester to run specific pairings of test cases and configurations  
   
-1.  Open [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)]. (Go to Start, All Programs, Microsoft Visual Studio, Microsoft Test Manager)  
+1.  Open [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)]. (Go to Start, All Programs, Microsoft Visual Studio, Microsoft Test Manager)  
   
 2.  From the **Testing Center**, choose **Plan** and then choose **Contents**.  
   

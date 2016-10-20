@@ -1,7 +1,7 @@
 ---
-title: "Overviews (Performance Tools)"
+title: "Overviews (Performance Tools) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -30,11 +30,11 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Overviews (Performance Tools)
-This section provides conceptual and terminology overviews for [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Profiling Tools, which you can use to measure the performance characteristics of an application under development.  
+This section provides conceptual and terminology overviews for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools, which you can use to measure the performance characteristics of an application under development.  
   
 ## In This Section  
  [Performance Session Overview](../profiling/performance-session-overview.md)  
- Learn the basics of performance profiling with the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Profiling Tools.  
+ Learn the basics of performance profiling with the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools.  
   
  [Performance Session Properties](../profiling/performance-session-properties.md)  
  Describes the properties that can be used to configure a performance session.  

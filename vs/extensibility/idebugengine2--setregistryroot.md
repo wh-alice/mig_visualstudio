@@ -1,7 +1,7 @@
 ---
-title: "IDebugEngine2::SetRegistryRoot"
+title: "IDebugEngine2::SetRegistryRoot | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -57,7 +57,7 @@ int SetRegistryRoot( 
  If successful, returns `S_OK`; otherwise, returns an error code.  
   
 ## Remarks  
- This method allows [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] to specify an alternate registry root that the DE should use to obtain registry settings; for example, "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0Exp".  
+ This method allows [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to specify an alternate registry root that the DE should use to obtain registry settings; for example, "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0Exp".  
   
 ## See Also  
  [IDebugEngine2](../extensibility/idebugengine2.md)

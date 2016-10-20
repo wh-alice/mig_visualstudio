@@ -1,7 +1,7 @@
 ---
-title: "How to run automated tests on multiple computers at the same time"
+title: "How to run automated tests on multiple computers at the same time | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -27,7 +27,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to run automated tests on multiple computers at the same time
-If you have many automated tests to run from your test plan using [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], you might want the automated tests in your test plan to run at the same time on multiple computers. This way the test run can take less time to complete. When you run automated tests from a test plan, the test controller for the environment that you use manages a set of test agents to run tests, as shown in the following illustration. To do this, you must set up your environment to include multiple machines for the role to run your tests, for example, a Client role. Additionally, you must use this environment in your test settings and then select the Client role to run the tests. This is shown in the following illustration where the Client role runs the tests. For more information about environments and test settings, see [Setting Up Test Machines to Run Tests or Collect Data](../test/setting-up-test-machines-to-run-tests-or-collect-data.md).  
+If you have many automated tests to run from your test plan using [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], you might want the automated tests in your test plan to run at the same time on multiple computers. This way the test run can take less time to complete. When you run automated tests from a test plan, the test controller for the environment that you use manages a set of test agents to run tests, as shown in the following illustration. To do this, you must set up your environment to include multiple machines for the role to run your tests, for example, a Client role. Additionally, you must use this environment in your test settings and then select the Client role to run the tests. This is shown in the following illustration where the Client role runs the tests. For more information about environments and test settings, see [Setting Up Test Machines to Run Tests or Collect Data](../test/setting-up-test-machines-to-run-tests-or-collect-data.md).  
   
  ![Test Controller and Test Agents](../test/media/testagent_concepts.png "TestAgent_Concepts")  
   

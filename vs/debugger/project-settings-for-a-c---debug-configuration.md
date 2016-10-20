@@ -1,7 +1,7 @@
 ---
-title: "Project Settings for a C++ Debug Configuration"
+title: "Project Settings for a C++ Debug Configuration | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/17/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -135,7 +135,7 @@ translation.priority.ht:
 You can change the project settings for a C or Visual C++ debug configuration in the **Property Pages** dialog box, as discussed in [How to: Set Debug and Release Configurations](../debugger/how-to--set-debug-and-release-configurations.md). The following tables show where to find debugger-related settings in the **Property Pages** dialog box.  
   
 > [!WARNING]
->  The debug project settings in the **Configuration Properties/Debugging** category for Windows Store apps and components that are written in C++ are different. See [Start a debug session (VB, C#, C++ and XAML)](../debugger/66ec0e79-8261-4c19-a618-3fd1b3f71bbd.md) in the Windows Development Center.  
+>  The debug project settings in the **Configuration Properties/Debugging** category for Windows Store apps and components that are written in C++ are different. See [Start a debug session (VB, C#, C++ and XAML)](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio--vb--csharp--c---and-xaml-.md) in the Windows Development Center.  
   
  Specify which debugger to use in the **Debugger to launch** list box. Your choice will affect which properties are visible.  
   
@@ -157,7 +157,7 @@ You can change the project settings for a C or Visual C++ debug configuration in
 |**Debugger Type**|Specifies the type of debugger to be used: **Native Only**, **Managed Only**, **GPU Only**, **Mixed**, **Auto** (default), or **Script**.<br /><br /> -   **Native Only** is for unmanaged C++ code.<br />-   **Managed Only** is for code that runs under the common language runtime (managed code).<br />-   **Mixed** invokes debuggers for both managed and unmanaged code.<br />-   **Auto** determines the debugger type based on compiler and EXE information.<br />-   **Script** invokes a debugger for scripts.<br />-   **GPU Only** is for C++ AMP code that runs on a GPU device or on the DirectX reference rasterizer. See [Debugging GPU Code](../debugger/debugging-gpu-code.md).|  
 |**Environment** (Local Windows Debugger)|Specifies environment variables for the program that you are debugging. Use standard environment variable syntax (for example, `PATH="%SystemRoot%\..."`). These variables override the system environment or are merged with the system environment, depending on the **Merge Environment** setting. When you click in the settings column, an "Edit…" appears. Click that link to edit environment variables.|  
 |**Merge Environment** (Local Windows Debugger)|Determines whether the variables that are specified in the **Environment** box will be merged with the environment that is defined by the operating system. Default setting is Yes.|  
-|**SQL Debugging** (all but MPI Cluster Debugger)|Enables debugging of SQL procedures from your [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)] application. Default setting is No.|  
+|**SQL Debugging** (all but MPI Cluster Debugger)|Enables debugging of SQL procedures from your [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] application. Default setting is No.|  
 |**Debugging Accelerator Type** (GPU debugging only)|Specifies the GPU device to use for debugging. Installing device drivers for compatible GPU devices will add additional options. The default setting is "GPU - Software Emulator."|  
 |**GPU Default Breakpoint Behavior** (GPU debugging only)|Specifies whether a breakpoint event should be raised for each thread in a SIMD warp. The default setting is to raise the breakpoint event only once per warp.|  
 |**Amp Default Accelerator** (GPU debugging only)|Specifies the default AMP accelerator when debugging GPU code. Choose **WARP software accelerator** to investigate if an issue is caused by the hardware or a driver instead of your code.|  

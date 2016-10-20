@@ -1,7 +1,7 @@
 ---
-title: "Managing Configuration Options"
+title: "Managing Configuration Options | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ When you create a new project type, you must manage project and solution configu
   
 ## In This Section  
  [Overview](../extensibility/configuration-options-overview.md)  
- Describes how projects in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] can support multiple configurations.  
+ Describes how projects in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] can support multiple configurations.  
   
  [Property Pages](../extensibility/property-pages.md)  
  Explains that users can view and change project configuration dependent properties and independent properties by using property pages.  
@@ -50,11 +50,11 @@ When you create a new project type, you must manage project and solution configu
  Explains how a list of solution configurations for a particular solution is managed by the **Solution Configurations** dialog box.  
   
  [Project Configuration for Managing Deployment](../extensibility/project-configuration-for-managing-deployment.md)  
- Defines the act of deployment and the two ways [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] supports projects that support deployment.  
+ Defines the act of deployment and the two ways [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] supports projects that support deployment.  
   
  [Project Configuration for Output](../extensibility/project-configuration-for-output.md)  
  Explains the build processes that every configuration can support and the interfaces and methods by which output items can be made available.  
   
 ## Related Sections  
  [Project Types](../extensibility/project-types.md)  
- Provides an overview of projects as the basic building blocks of the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE). Links are provided to additional topics that explain how projects control building and compiling code.
+ Provides an overview of projects as the basic building blocks of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE). Links are provided to additional topics that explain how projects control building and compiling code.

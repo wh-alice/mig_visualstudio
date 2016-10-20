@@ -1,7 +1,7 @@
 ---
-title: "Array dimensions do not match those specified in the &#39;VBFixedArray&#39; attribute"
+title: "Array dimensions do not match those specified in the &#39;VBFixedArray&#39; attribute | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

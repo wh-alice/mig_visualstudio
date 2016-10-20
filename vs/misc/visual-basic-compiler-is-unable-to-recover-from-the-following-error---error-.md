@@ -1,7 +1,7 @@
 ---
-title: "Visual Basic compiler is unable to recover from the following error: &lt;error&gt;"
+title: "Visual Basic compiler is unable to recover from the following error: &lt;error&gt; | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,19 +35,19 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Visual Basic compiler is unable to recover from the following error: &lt;error&gt;
-The [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] compiler is unable to recover from the following error: <`error`>.  
+The [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler is unable to recover from the following error: <`error`>.  
   
  Some IDE features have been disabled.  
   
- An internal error has occurred in the [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] compiler.  
+ An internal error has occurred in the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler.  
   
  **Error ID:** BC31021  
   
 ### To correct this error  
   
-1.  Save your work and restart [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+1.  Save your work and restart [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
-2.  If the error recurs, reinstall [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+2.  If the error recurs, reinstall [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 3.  If the error persists after reinstallation, notify Microsoft Product Support Services.  
   

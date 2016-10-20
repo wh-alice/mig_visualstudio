@@ -1,7 +1,7 @@
 ---
-title: "Understanding Models, Classes and Relationships"
+title: "Understanding Models, Classes and Relationships | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,7 +20,7 @@ A domain-specific language (DSL) is defined by its DSL Definition file, together
  This topic explains the central features of the DSL definition.  
   
 ## The DSL Definition  
- When you open `Dsl\DslDefinition.dsl`, your [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] window resembles the following picture.  
+ When you open `Dsl\DslDefinition.dsl`, your [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] window resembles the following picture.  
   
  ![dsl designer](../modeling/media/dsl_designer.png "dsl_designer")  
   

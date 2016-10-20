@@ -1,7 +1,7 @@
 ---
-title: "Command-Line test results"
+title: "Command-Line test results | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,10 +36,10 @@ You can use the executable program MSTest.exe to run tests from a command line. 
   
  **Results file:      D:\temp\test\TestProject3\TestProject3\TestResults\thisuser@ThisUser-32G 9_24_2012 1_27_37 PM.trx**  
   
- If you prefer, you can explicitly save test results to a file that you name. And if your [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] client session is connected to a [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)], you can publish results to the database for your team project collection. Both options are described in the following procedures.  
+ If you prefer, you can explicitly save test results to a file that you name. And if your [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] client session is connected to a [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)], you can publish results to the database for your team project collection. Both options are described in the following procedures.  
   
 > [!NOTE]
->  For information about publishing test data from [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], see [Command-Line options for publishing test results](../test/command-line-options-for-publishing-test-results.md).  
+>  For information about publishing test data from [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], see [Command-Line options for publishing test results](../test/command-line-options-for-publishing-test-results.md).  
   
 ### To save command-line test results to a specific file  
   
@@ -59,7 +59,7 @@ You can use the executable program MSTest.exe to run tests from a command line. 
 -   Using the MSTest program, run tests.  
   
     > [!NOTE]
-    >  You can publish test results to the database for the team project collection only if connected to a [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] and if you have [!INCLUDE[esprtfc](../codequality/includes/esprtfc_md.md)] installed. For information about how to connect to [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)], see [Connect to team projects](../Topic/Connect%20to%20team%20projects%20in%20Team%20Foundation%20Server.md).  
+    >  You can publish test results to the database for the team project collection only if connected to a [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] and if you have [!INCLUDE[esprtfc](../code-quality/includes/esprtfc_md.md)] installed. For information about how to connect to [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)], see [Connect to team projects](../Topic/Connect%20to%20team%20projects%20in%20Team%20Foundation%20Server.md).  
   
      Several command-line options pertain to publishing test results. You use them in combination, depending on which test results you want to publish. Five of these options are required: **/publish**, **/publishbuild**, **/teamproject**, **/platform**, and **/flavor**. One is optional**: /publishresultsfile**.  
   

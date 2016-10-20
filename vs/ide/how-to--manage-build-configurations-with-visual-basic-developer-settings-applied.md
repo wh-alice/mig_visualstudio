@@ -1,13 +1,13 @@
 ---
-title: "How to: Manage Build Configurations with Visual Basic Developer Settings Applied"
-ms.custom: na
-ms.date: "10/18/2016"
+title: "How to: Manage Build Configurations with Visual Basic Developer Settings Applied | Microsoft Docs"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "Visual Studio, building with Visual Basic settings"
@@ -37,10 +37,10 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Manage Build Configurations with Visual Basic Developer Settings Applied
-By default, all advanced build configuration options are hidden with [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] Developer settings applied. This topic explains how to manually enable these settings.  
+By default, all advanced build configuration options are hidden with [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] Developer settings applied. This topic explains how to manually enable these settings.  
   
 ## Enabling advanced build configurations  
- By default, the [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] Developer settings hide the option to open the **Configuration Manager** dialog box and the **Configuration** and **Platform** lists in the [Project Designer](http://msdn.microsoft.com/en-us/898dd854-c98d-430c-ba1b-a913ce3c73d7).  
+ By default, the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] Developer settings hide the option to open the **Configuration Manager** dialog box and the **Configuration** and **Platform** lists in the [Project Designer](http://msdn.microsoft.com/en-us/898dd854-c98d-430c-ba1b-a913ce3c73d7).  
   
 #### To enable advanced build configurations  
   

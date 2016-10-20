@@ -1,7 +1,7 @@
 ---
-title: "Import Element (MSBuild)"
+title: "Import Element (MSBuild) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -86,7 +86,7 @@ Imports the contents of one project file into another project file.
  The schema of an imported project is identical to that of a standard project. Although [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] may be able to build an imported project, it is unlikely because an imported project typically does not contain information about which properties to set or the order in which to run targets. The imported project depends on the project into which it is imported to provide that information.  
   
 > [!NOTE]
->  While conditional import statements work in command-line MSBuilds, they do not work with MSBuild in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE). Conditional imports are evaluated by using the configuration and platform values that are set when the project is loaded. If changes are subsequently made that require a reevaluation of the conditionals in the project file, for example, changing the platform, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] reevaluates the conditions on properties and items, but not on imports. Because the import conditional is not reevaluated, the import is skipped.  
+>  While conditional import statements work in command-line MSBuilds, they do not work with MSBuild in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE). Conditional imports are evaluated by using the configuration and platform values that are set when the project is loaded. If changes are subsequently made that require a reevaluation of the conditionals in the project file, for example, changing the platform, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] reevaluates the conditions on properties and items, but not on imports. Because the import conditional is not reevaluated, the import is skipped.  
 >   
 >  To work around this, put conditional imports in the .targets files or put code in a conditional block such as a [Choose Element (MSBuild)](../reference/choose-element--msbuild-.md) block.  
   

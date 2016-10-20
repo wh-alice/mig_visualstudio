@@ -1,7 +1,7 @@
 ---
-title: "Creating Project Types"
+title: "Creating Project Types | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,7 +32,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Creating Project Types
-You can extend [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] by creating a new project type. To create a new project type, you must understand several concepts and complete a number of steps. The following topics provide an overview of how to create project types.  
+You can extend [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] by creating a new project type. To create a new project type, you must understand several concepts and complete a number of steps. The following topics provide an overview of how to create project types.  
   
 ## In This Section  
  [Project Type Design Decisions](../extensibility/project-type-design-decisions.md)  
@@ -51,7 +51,7 @@ You can extend [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] by creat
  Discusses the use of `IPersistFileFormat` to persist both file and non-file-based project objects.  
   
  [Using MSBuild](../extensibility/using-msbuild.md)  
- Describes how your project type can use the [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] build engine to let users build from [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and at the command line.  
+ Describes how your project type can use the [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] build engine to let users build from [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and at the command line.  
   
 ## Related Sections  
  [Supporting Symbol-Browsing Tools](../extensibility/supporting-symbol-browsing-tools.md)  
@@ -64,10 +64,10 @@ You can extend [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] by creat
  Shows how to give your VSPackage its own unique identity and how to wrap your VSPackage DLLs and other information in a Windows Installer package (.MSI file) for deployment to your customers.  
   
  [Hierarchies in Visual Studio](../extensibility/hierarchies-in-visual-studio.md)  
- Describes how [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] views and addresses hierarchies.  
+ Describes how [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] views and addresses hierarchies.  
   
  [VSPackages](../extensibility/vspackages.md)  
- Provides an overview of a VSPackage, an installable COM object that extends the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] environment and discusses how to implement your own VSPackage.  
+ Provides an overview of a VSPackage, an installable COM object that extends the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] environment and discusses how to implement your own VSPackage.  
   
  [Project Types](../extensibility/project-types.md)  
  Discusses how to use projects to modify code, compile and build code, and run and debug code, and provides links to detailed topics about how to create project types.

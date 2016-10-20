@@ -1,7 +1,7 @@
 ---
-title: "Walkthrough: Debugging Rendering Errors Due to Shading"
+title: "Walkthrough: Debugging Rendering Errors Due to Shading | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -30,7 +30,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Walkthrough: Debugging Rendering Errors Due to Shading
-This walkthrough demonstrates how to use [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Graphics Diagnostics to investigate an object that is colored incorrectly due to a shader bug.  
+This walkthrough demonstrates how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Graphics Diagnostics to investigate an object that is colored incorrectly due to a shader bug.  
   
  This walkthrough demonstrates how to:  
   
@@ -52,7 +52,7 @@ This walkthrough demonstrates how to use [!INCLUDE[vsprvs](../codequality/includ
   
 #### To examine a frame in a graphics log  
   
-1.  In [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], load a graphics log that contains a frame that exhibits the missing model. A new graphics log document window appears in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. In the top part of this window is the render target output of the selected frame. In the bottom part is the **Frame List**, which displays each captured frame as a thumbnail image.  
+1.  In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], load a graphics log that contains a frame that exhibits the missing model. A new graphics log document window appears in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. In the top part of this window is the render target output of the selected frame. In the bottom part is the **Frame List**, which displays each captured frame as a thumbnail image.  
   
 2.  In the **Frame List**, select a frame in which the object does not have the correct appearance. The render target is updated to reflect the selected frame. In this scenario, the graphics log document window looks like this:  
   

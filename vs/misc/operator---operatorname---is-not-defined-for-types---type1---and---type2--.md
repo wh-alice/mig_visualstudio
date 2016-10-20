@@ -1,7 +1,7 @@
 ---
-title: "Operator &#39;&lt;operatorname&gt;&#39; is not defined for types &#39;&lt;type1&gt;&#39; and &#39;&lt;type2&gt;&#39;"
+title: "Operator &#39;&lt;operatorname&gt;&#39; is not defined for types &#39;&lt;type1&gt;&#39; and &#39;&lt;type2&gt;&#39; | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

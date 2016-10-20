@@ -1,7 +1,7 @@
 ---
-title: "T4 Assembly Directive"
+title: "T4 Assembly Directive | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -27,12 +27,12 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # T4 Assembly Directive
-In a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] design-time text template, the `assembly` directive loads an assembly so that your template code can use its types. The effect is similar to adding an assembly reference in a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] project.  
+In a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] design-time text template, the `assembly` directive loads an assembly so that your template code can use its types. The effect is similar to adding an assembly reference in a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project.  
   
  For a general overview of writing text templates, see [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md).  
   
 > [!NOTE]
->  You do not need the `assembly` directive in a run-time (preprocessed) text template. Instead, add the necessary assemblies to the **References** of your [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] project.  
+>  You do not need the `assembly` directive in a run-time (preprocessed) text template. Instead, add the necessary assemblies to the **References** of your [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project.  
   
 ## Using the Assembly Directive  
  The syntax of the directive is as follows:  
@@ -47,13 +47,13 @@ In a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] design-time text t
   
 -   The absolute path of the assembly  
   
- You can use the `$(variableName)` syntax to reference [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] variables such as `$(SolutionDir)`, and `%VariableName%` to reference environment variables. For example:  
+ You can use the `$(variableName)` syntax to reference [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] variables such as `$(SolutionDir)`, and `%VariableName%` to reference environment variables. For example:  
   
 ```  
 <#@ assembly name="$(SolutionDir)\MyProject\bin\Debug\SomeLibrary.Dll" #>  
 ```  
   
- The assembly directive has no effect in a preprocessed text template. Instead, include the necessary references in the **References** section of your [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] project. For more information, see [Run-Time Text Generation with T4 Text Templates](../modeling/run-time-text-generation-with-t4-text-templates.md).  
+ The assembly directive has no effect in a preprocessed text template. Instead, include the necessary references in the **References** section of your [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project. For more information, see [Run-Time Text Generation with T4 Text Templates](../modeling/run-time-text-generation-with-t4-text-templates.md).  
   
 ## Standard Assemblies  
  The following assemblies are loaded automatically, so that you do not need to write assembly directives for them:  

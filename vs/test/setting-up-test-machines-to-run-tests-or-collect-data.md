@@ -1,5 +1,5 @@
 ---
-title: "Setting Up Test Machines to Run Tests or Collect Data"
+title: "Setting Up Test Machines to Run Tests or Collect Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -31,11 +31,11 @@ translation.priority.ht:
 # Setting Up Test Machines to Run Tests or Collect Data
 Using Visual Studio, you can run your tests and also collect data and diagnostics when you run your tests. You use *test settings* to specify the data and diagnostics to collect. You can even select diagnostic data adapters that affect the way that your test machine performs. For example, you might want to create a video recording of your desktop while you run your test, or collect system information about your Web server. Or you might want to emulate a slow network to impose a bottleneck on the system.  
   
- To run tests remotely on multiple machines, or collect data and diagnostics remotely you must use a test controller and test agents. The test controller runs as a service and assigns tests to a test agent to run. In addition it can tell the test agent what data or diagnostics need to be collected. You can manage the test controller and agents by using Visual Studio, or if you register the test controller with [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)], then you can manage the controller and agents by using [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)].  
+ To run tests remotely on multiple machines, or collect data and diagnostics remotely you must use a test controller and test agents. The test controller runs as a service and assigns tests to a test agent to run. In addition it can tell the test agent what data or diagnostics need to be collected. You can manage the test controller and agents by using Visual Studio, or if you register the test controller with [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)], then you can manage the controller and agents by using [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)].  
   
  If you have a distributed application, you define a role for each computer to use to run tests or collect data. For example, if you have an application that consists of a Web server, a database server, and a desktop client, you would define one role for each of these. The desktop client can run the tests and collect data locally, and the other roles can collect any data that you require on the machine that you assign to that role.  You can also assign multiple machines to the same role.  
   
- If you are using [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], you create an *environment* for this set of roles. An environment is a collection of computers in which each computer has an assigned role.  
+ If you are using [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], you create an *environment* for this set of roles. An environment is a collection of computers in which each computer has an assigned role.  
   
  The following sections of this topic provide more information about the ways to run tests and collect data, based on the type of tests that you run and whether you want to use an environment:  
   
@@ -57,16 +57,16 @@ Using Visual Studio, you can run your tests and also collect data and diagnostic
  For more information about how to set up your test settings and environments for these situations, see [Collect more diagnostic data](../test/collect-more-diagnostic-data-in-manual-tests.md).  
   
 ##  <a name="AutomatedTests"></a> Automated Tests  
- You can run tests either by using [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] or by using Visual Studio.  
+ You can run tests either by using [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] or by using Visual Studio.  
   
- If you plan to run your automated tests by using [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], you must use a lab environment that contains a set of roles to run your tests from your test plan. You must create a test controller that is registered with your team project in [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)]. However, [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] will set up the test agent in each machine in the environment.  
+ If you plan to run your automated tests by using [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], you must use a lab environment that contains a set of roles to run your tests from your test plan. You must create a test controller that is registered with your team project in [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)]. However, [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] will set up the test agent in each machine in the environment.  
   
- If you plan to run automated tests by using Visual Studio, you can just run your automated tests on your local machine and use test settings to collect data locally. If you want to collect data or affect the test machine for specific parts of a multitier application, you can select a test controller and test agents and add roles to use in your test settings. You should not register the test controller with [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)]. However, you must set up a test agent in each machine on which you plan to initiate tests or collect test data.  
+ If you plan to run automated tests by using Visual Studio, you can just run your automated tests on your local machine and use test settings to collect data locally. If you want to collect data or affect the test machine for specific parts of a multitier application, you can select a test controller and test agents and add roles to use in your test settings. You should not register the test controller with [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)]. However, you must set up a test agent in each machine on which you plan to initiate tests or collect test data.  
   
  The following illustration shows a test controller and test agents that are installed on a machine for each role in an application under test and the tasks that the test agent can perform. The test controller manages the test agents that are registered to it.  
   
 > [!IMPORTANT]
->  If you want to use a test controller as part of an environment by using [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], you must register it with [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)], as shown in the following illustration. However, if you want to use a test controller from Visual Studio, do not register the test controller with [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)].  
+>  If you want to use a test controller as part of an environment by using [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], you must register it with [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)], as shown in the following illustration. However, if you want to use a test controller from Visual Studio, do not register the test controller with [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)].  
   
  ![Test Controller and Test Agents](../test/media/testagent_concepts.png "TestAgent_Concepts")  
   
@@ -74,9 +74,9 @@ Using Visual Studio, you can run your tests and also collect data and diagnostic
 >  The test agents and test controllers can be installed in different domains if your testing setup requires it.  
   
 ##  <a name="Environments"></a> Environments  
- If you use [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] to conduct your tests, you create lab environments on which to run the tests. There are two kinds of environments: standard and SCVMM environments. A standard environment can use physical computers or virtual machines, and the virtual machines can run on any virtualization framework. An SCVMM environment uses only virtual machines that are managed by System Center Virtual Machine Manager (SCVMM).  
+ If you use [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] to conduct your tests, you create lab environments on which to run the tests. There are two kinds of environments: standard and SCVMM environments. A standard environment can use physical computers or virtual machines, and the virtual machines can run on any virtualization framework. An SCVMM environment uses only virtual machines that are managed by System Center Virtual Machine Manager (SCVMM).  
   
- [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] can be used to set up both kinds of environment. In the case an SCVMM environment, you can stop and start environments, store environments in a library, and create multiple copies of them.  
+ [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] can be used to set up both kinds of environment. In the case an SCVMM environment, you can stop and start environments, store environments in a library, and create multiple copies of them.  
   
  In both cases, you assign roles to each machine in the environment. For example, typical roles are **Web Server** and **Desktop Client**. The role names are used by your test workflow to determine what software and tests to deploy on each machine.  
   

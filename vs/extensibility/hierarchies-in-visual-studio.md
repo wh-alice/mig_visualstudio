@@ -1,7 +1,7 @@
 ---
-title: "Hierarchies in Visual Studio"
+title: "Hierarchies in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,9 +32,9 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Hierarchies in Visual Studio
-The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE) displays a project as a *hierarchy*. In the IDE, a hierarchy is a tree of nodes, where each node has a set of associated properties. A *project hierarchy* is a container that holds the project's items, the items' relationships, and the items' associated properties and commands.  
+The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) displays a project as a *hierarchy*. In the IDE, a hierarchy is a tree of nodes, where each node has a set of associated properties. A *project hierarchy* is a container that holds the project's items, the items' relationships, and the items' associated properties and commands.  
   
- In [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], you manage project hierarchies by using the hierarchy interface, <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy>. The <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy> interface redirects commands you invoke from project items to the appropriate hierarchy window instead of the standard command handler.  
+ In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], you manage project hierarchies by using the hierarchy interface, <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy>. The <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy> interface redirects commands you invoke from project items to the appropriate hierarchy window instead of the standard command handler.  
   
 ## Project Hierarchies  
  Each project hierarchy contains items that you can view and edit. These items vary depending on project type. For example, a database project might contain stored procedures, database views, and database tables. A programming-language project, on the other hand, will likely include source files and resource files for bitmaps and dialog boxes. Hierarchies can be nested, which gives you some added flexibility when you create a project hierarchy.  

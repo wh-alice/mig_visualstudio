@@ -1,7 +1,7 @@
 ---
-title: "Determining the Default Namespace of a Project"
+title: "Determining the Default Namespace of a Project | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,9 +31,9 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Determining the Default Namespace of a Project
-For [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)], if the `CustomToolNamespace` property is set on the input file, then the value of `CustomToolNamespace` becomes the value of the default namespace parameter passed to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSingleFileGenerator.Generate*> method. Otherwise, the `wszDefaultNamespace` parameter passed to `Generate` is always equal to the root namespace. For more information on namespaces, see [Namespace Keywords](../Topic/Namespace%20Keywords%20\(C%23%20Reference\).md).  
+For [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)], if the `CustomToolNamespace` property is set on the input file, then the value of `CustomToolNamespace` becomes the value of the default namespace parameter passed to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSingleFileGenerator.Generate*> method. Otherwise, the `wszDefaultNamespace` parameter passed to `Generate` is always equal to the root namespace. For more information on namespaces, see [Namespace Keywords](../Topic/Namespace%20Keywords%20\(C%23%20Reference\).md).  
   
- [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] uses folder-based namespaces. That is, the namespace consists of the root namespace, plus names of any folders containing the custom tool. Each folder name is converted into a valid identifier, and periods separate all names. For example, if the input file is FolderA\FolderB\FolderC\MyInput.txt, and the root namespace is CL9, then the computed default namespace would be **CL9.FolderA.FolderB.FolderC**.  
+ [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] uses folder-based namespaces. That is, the namespace consists of the root namespace, plus names of any folders containing the custom tool. Each folder name is converted into a valid identifier, and periods separate all names. For example, if the input file is FolderA\FolderB\FolderC\MyInput.txt, and the root namespace is CL9, then the computed default namespace would be **CL9.FolderA.FolderB.FolderC**.  
   
  An exception to this rule occurs when the hierarchy chain contains a Web reference folder. For example, if:  
   

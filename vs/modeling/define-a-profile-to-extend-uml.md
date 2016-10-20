@@ -1,7 +1,7 @@
 ---
-title: "Define a profile to extend UML"
+title: "Define a profile to extend UML | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -49,7 +49,7 @@ You can define a *UML profile* to customize the standard model elements for spec
 > [!NOTE]
 >  If you apply the stereotypes of a profile in a model that you are editing, and then share the model with other people, they should install the same profile on their own computers. Otherwise, they will not be able to see the stereotypes that you have used.  
   
- A profile is often part of a larger [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)] extension. For example, you could define a command that translates some parts of a model to code. You could define a profile that users must apply to packages that they want to translate. You would distribute your new command together with the profile in a single [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)] extension.  
+ A profile is often part of a larger [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] extension. For example, you could define a command that translates some parts of a model to code. You could define a profile that users must apply to packages that they want to translate. You would distribute your new command together with the profile in a single [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] extension.  
   
  You can also define localized variants of a profile. Users loading your extension see the variant that is appropriate to their own culture.  
   
@@ -81,7 +81,7 @@ You can define a *UML profile* to customize the standard model elements for spec
   
     4.  If your profile defines additional properties for this stereotype, expand the stereotype property to see them.  
   
-6.  Send the extension file to other users of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] to install on their computers.  
+6.  Send the extension file to other users of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to install on their computers.  
   
 ##  <a name="AddProfile"></a> How to Add a Profile to a Visual Studio Extension  
  To install a profile, and to allow you to send it to other users, you must add the profile to a Visual Studio extension. For more information, see [Deploying Visual Studio Extensions](http://go.microsoft.com/fwlink/?LinkId=160780).  
@@ -129,7 +129,7 @@ You can define a *UML profile* to customize the standard model elements for spec
   
 8.  **To extract the VSIX for deployment**  
   
-    1.  In Windows Explorer, open the folder **.\bin\Debug** or **.\bin\Release** to find the **.vsix** file. This is a [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)] Extension file. It can be installed on your computer and sent to other Visual Studio users.  
+    1.  In Windows Explorer, open the folder **.\bin\Debug** or **.\bin\Release** to find the **.vsix** file. This is a [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] Extension file. It can be installed on your computer and sent to other Visual Studio users.  
   
     2.  To install the extension:  
   
@@ -208,7 +208,7 @@ You can define a *UML profile* to customize the standard model elements for spec
   
 4.  Add a copy of your default profile to the new directory. Do not change its file name.  
   
-     A sample [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)] Extension folder, before it is built or compressed into a `.vsix` file, would contain the following folders and files:  
+     A sample [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] Extension folder, before it is built or compressed into a `.vsix` file, would contain the following folders and files:  
   
      `extension.vsixmanifest`  
   
@@ -361,7 +361,7 @@ You can define a *UML profile* to customize the standard model elements for spec
   
     -   If the extension does not appear, see the next item.  
   
-5.  Rebuild the VSIX file and open it in Windows Explorer to re-install it. Restart [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+5.  Rebuild the VSIX file and open it in Windows Explorer to re-install it. Restart [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
  The extension does not appear in Extension Manager, but when you try to re-install it, the following message appears: **The extension is already installed to all applicable products.**  
  1.  Remove the extension file from a subfolder of *LocalAppData*\Microsoft\VisualStudio\\[version]\Extensions\  
@@ -370,7 +370,7 @@ You can define a *UML profile* to customize the standard model elements for spec
   
     -   *LocalAppData* is typically in C:\Users\\*userName*\AppData\Local\  
   
-2.  Restart [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+2.  Restart [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 ## See Also  
  [Add stereotypes to UML model elements](../modeling/add-stereotypes-to-uml-model-elements.md)   

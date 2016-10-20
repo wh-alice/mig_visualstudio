@@ -1,7 +1,7 @@
 ---
-title: "Walkthrough: Command-Line Profiling Using Sampling"
+title: "Walkthrough: Command-Line Profiling Using Sampling | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -46,9 +46,9 @@ This walkthrough demonstrates how to profile an application by using command-lin
   
 ## Prerequisites  
   
--   [!INCLUDE[vsPreLong](../codequality/includes/vsprelong_md.md)], [!INCLUDE[vsUltLong](../codequality/includes/vsultlong_md.md)], or [!INCLUDE[vsPro](../codequality/includes/vspro_md.md)]  
+-   [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)], [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)], or [!INCLUDE[vsPro](../code-quality/includes/vspro_md.md)]  
   
--   Intermediate understanding of [!INCLUDE[csharp_current_short](../codequality/includes/csharp_current_short_md.md)]  
+-   Intermediate understanding of [!INCLUDE[csharp_current_short](../code-quality/includes/csharp_current_short_md.md)]  
   
 -   Intermediate understanding of working with command line tools  
   
@@ -110,7 +110,7 @@ This walkthrough demonstrates how to profile an application by using command-lin
   
          — or —  
   
-    -   Generate a comma-separated value (.csv) file by using the command-line tool VSPerfReport.exe. To generate reports for use outside the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] IDE use the following command:  
+    -   Generate a comma-separated value (.csv) file by using the command-line tool VSPerfReport.exe. To generate reports for use outside the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE use the following command:  
   
         ```  
         VSPerfReport <dir> PeopleTraxReport.vsp /output:<dir> /summary:all  

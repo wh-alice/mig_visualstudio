@@ -1,7 +1,7 @@
 ---
-title: "Debugging Preparation: Visual C++ Project Types"
+title: "Debugging Preparation: Visual C++ Project Types | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -40,7 +40,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Debugging Preparation: Visual C++ Project Types
-This section describes how to debug the basic project types created by the [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)] project templates.  
+This section describes how to debug the basic project types created by the [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] project templates.  
   
  Note that those project types that create DLLs as their output have been grouped into [Debugging DLL Projects](../debugger/debugging-dll-projects.md) because of the common features they share.  
   
@@ -73,11 +73,11 @@ This section describes how to debug the basic project types created by the [!INC
  [In this topic](../debugger/debugging-preparation--visual-c---project-types.md#BKMK_In_this_topic)  
   
 ##  <a name="BKMK_Win32_Projects"></a> Win32 projects  
- Win32 applications are traditional Windows programs written in C or C++. Debugging this type of application in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] is straightforward.  
+ Win32 applications are traditional Windows programs written in C or C++. Debugging this type of application in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is straightforward.  
   
  Win32 applications include MFC applications and ATL projects. They use Windows APIs and may use MFC or ATL, but they do not use the common language runtime (CLR). They can, however, call managed code that uses the CLR.  
   
- The following procedure explains how to debug a Win32 project from within [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. Another way to debug a Win32 application is to start the application outside of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and attach to it. For more information, see [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).  
+ The following procedure explains how to debug a Win32 project from within [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Another way to debug a Win32 application is to start the application outside of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and attach to it. For more information, see [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).  
   
 ###  <a name="BKMK_To_debug_a_C_or_C___Win32_application"></a> To debug a C or C++ Win32 application  
   
@@ -110,15 +110,15 @@ This section describes how to debug the basic project types created by the [!INC
  [In this topic](../debugger/debugging-preparation--visual-c---project-types.md#BKMK_In_this_topic)  
   
 ##  <a name="BKMK_Windows_Forms_Applications___NET_"></a> Windows Forms applications (.NET)  
- The **Windows Forms Application (.NET)** template creates a [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)] Windows Forms application. For more information, see [How to: Create a Windows Application Project](http://msdn.microsoft.com/en-us/b2f93fed-c635-4705-8d0e-cf079a264efa).  
+ The **Windows Forms Application (.NET)** template creates a [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] Windows Forms application. For more information, see [How to: Create a Windows Application Project](http://msdn.microsoft.com/en-us/b2f93fed-c635-4705-8d0e-cf079a264efa).  
   
- Debugging this type of application in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] is similar to that in managed Windows Forms applications.  
+ Debugging this type of application in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is similar to that in managed Windows Forms applications.  
   
- When you create a Windows Forms project with the project template, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] automatically creates required settings for the Debug and Release configurations. If necessary, you can change these settings in the **\<project name> Property Pages** dialog box. For more information, see [Debug and Release Configurations](../debugger/how-to--set-debug-and-release-configurations.md).  
+ When you create a Windows Forms project with the project template, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] automatically creates required settings for the Debug and Release configurations. If necessary, you can change these settings in the **\<project name> Property Pages** dialog box. For more information, see [Debug and Release Configurations](../debugger/how-to--set-debug-and-release-configurations.md).  
   
  For more information, see [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-c---debug-configuration.md).  
   
- Another way to debug a Windows Forms application is to start the application outside of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and attach to it. For more information, see [Attaching to a Running Program or Multiple Programs](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).  
+ Another way to debug a Windows Forms application is to start the application outside of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and attach to it. For more information, see [Attaching to a Running Program or Multiple Programs](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).  
   
  [In this topic](../debugger/debugging-preparation--visual-c---project-types.md#BKMK_In_this_topic)  
   

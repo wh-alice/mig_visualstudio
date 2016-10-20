@@ -1,7 +1,7 @@
 ---
-title: "Project has been closed"
+title: "Project has been closed | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Project has been closed
-A code model access error has occurred inside the [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] compiler.  
+A code model access error has occurred inside the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler.  
   
  **Error ID:** BC32301  
   
@@ -43,7 +43,7 @@ A code model access error has occurred inside the [!INCLUDE[vbprvb](../codequali
   
 1.  Compile the program again to see if the error recurs.  
   
-2.  If the error recurs, reinstall the [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] compiler.  
+2.  If the error recurs, reinstall the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler.  
   
 3.  If the error persists after reinstallation, gather information about the circumstances and notify Microsoft Product Support Services.  
   

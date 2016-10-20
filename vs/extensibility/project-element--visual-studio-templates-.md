@@ -1,7 +1,7 @@
 ---
-title: "Project Element (Visual Studio Templates)"
+title: "Project Element (Visual Studio Templates) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -85,10 +85,10 @@ Specifies the files or directories to add to the project.
   
  `Project` elements can have [Folder](../extensibility/folder-element--visual-studio-project-templates-.md) children elements or [ProjectItem](../extensibility/projectitem-element--visual-studio-project-templates-.md) children elements, but not a mixture of both `Folder` and `ProjectItem` children elements.  
   
- [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] automatically renames the project file name based on the name entered by the user in the **New Project** dialog box. Use the `TargetFileName` attribute if you want to provide an alternate file name for project files created with the template.  
+ [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] automatically renames the project file name based on the name entered by the user in the **New Project** dialog box. Use the `TargetFileName` attribute if you want to provide an alternate file name for project files created with the template.  
   
 ## Example  
- The following example shows the metadata for a project template for a [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] application.  
+ The following example shows the metadata for a project template for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] application.  
   
 ```  
 <VSTemplate Type="Project" Version="3.0.0"  

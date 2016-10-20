@@ -1,7 +1,7 @@
 ---
-title: "Command-Line options for publishing test results"
+title: "Command-Line options for publishing test results | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ The following options are used to publish test results when you are using the MS
 ## Prerequisites  
  Visual Studio Enterprise  
   
- The database for the team project collection resides on a [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] computer. This means that you can publish test data only if you have [!INCLUDE[esprtfc](../codequality/includes/esprtfc_md.md)] installed and your [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] user session is connected to a [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] computer. For information about how to connect to [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)], see [Connect to team projects](../Topic/Connect%20to%20team%20projects%20in%20Team%20Foundation%20Server.md).  
+ The database for the team project collection resides on a [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] computer. This means that you can publish test data only if you have [!INCLUDE[esprtfc](../code-quality/includes/esprtfc_md.md)] installed and your [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] user session is connected to a [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] computer. For information about how to connect to [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)], see [Connect to team projects](../Topic/Connect%20to%20team%20projects%20in%20Team%20Foundation%20Server.md).  
   
 ## Options Required for Publishing Test Results  
  When you publish test results from the command line, you can either publish the results of a previously completed test run, or you can run tests and publish the new results that the run produces.  
@@ -48,22 +48,22 @@ The following options are used to publish test results when you are using the MS
 ##  <a name="publish"></a> /publish  
  **/publish:[** *server name*]  
   
- Use the **/publish** option to publish test data to the database for the team project collection associated with the project's [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)].  
+ Use the **/publish** option to publish test data to the database for the team project collection associated with the project's [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)].  
   
- When you use the **/publish** option, you must correctly specify the name of the [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)]. The correct format depends on whether the [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] has been registered on the client computer, as described here:  
+ When you use the **/publish** option, you must correctly specify the name of the [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)]. The correct format depends on whether the [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] has been registered on the client computer, as described here:  
   
--   If the [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] is not registered on the client computer, use the URI that identifies the [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)]. For example, **/publish:http://OurTFSMachine:8080/tfs/OurProjectCollection**.  
+-   If the [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] is not registered on the client computer, use the URI that identifies the [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)]. For example, **/publish:http://OurTFSMachine:8080/tfs/OurProjectCollection**.  
   
--   If the [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] computer is registered, you can use a shortened form, namely: **/publish:OurTFSMachine**.  
+-   If the [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] computer is registered, you can use a shortened form, namely: **/publish:OurTFSMachine**.  
   
 ##  <a name="publishbuild"></a> /publishbuild  
  **/publishbuild:[** *build name* **]**  
   
  To publish test data, you must specify the name of a build that has completed. To find the name of a build, follow these steps:  
   
-1.  Open [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and connect to a [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)]. For more information, see [Connect to team projects](../Topic/Connect%20to%20team%20projects%20in%20Team%20Foundation%20Server.md).  
+1.  Open [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and connect to a [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)]. For more information, see [Connect to team projects](../Topic/Connect%20to%20team%20projects%20in%20Team%20Foundation%20Server.md).  
   
-2.  Open [!INCLUDE[esprtfc](../codequality/includes/esprtfc_md.md)].  
+2.  Open [!INCLUDE[esprtfc](../code-quality/includes/esprtfc_md.md)].  
   
 3.  Open your team project and expand the team project node.  
   

@@ -1,7 +1,7 @@
 ---
-title: "Change Existing Lab Management Configurations"
+title: "Change Existing Lab Management Configurations | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -39,7 +39,7 @@ After you have configured [!INCLUDE[vstsLabShort](../test/includes/vstslabshort_
   
 |Tasks|Associated Topics|  
 |-----------|-----------------------|  
-|**Change the host groups for your team project collection:** You can add or remove host groups from your team project collection by using the Administration Console for [!INCLUDE[esprfound](../codequality/includes/esprfound_md.md)], or you can use the command-line utility TFSLabConfig.|-   [Change the Host Groups for Your Team Project Collections](../test/change-the-host-groups-for-your-team-project-collections.md)|  
+|**Change the host groups for your team project collection:** You can add or remove host groups from your team project collection by using the Administration Console for [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)], or you can use the command-line utility TFSLabConfig.|-   [Change the Host Groups for Your Team Project Collections](../test/change-the-host-groups-for-your-team-project-collections.md)|  
 |**Change the library shares for your team project collection:** You might want to add another library share to provide more storage for your virtual environments, templates, or virtual machines.|-   [Change the Library Share for Your Team Project Collections](../test/change-the-library-share-for-your-team-project-collections.md)|  
 |**Change the integration service account that provides communication between the agents and controllers:** We recommend that you change this user account regularly for security reasons.|-   [Setting Up Test Controllers in Lab Environments](../test/setting-up-test-controllers-in-lab-environments.md)|  
 |**Change Active Directory domain to which the SCVMM server belongs.**|-   [Join the SCVMM server to another domain](../test/join-the-scvmm-server-to-another-domain.md)|  

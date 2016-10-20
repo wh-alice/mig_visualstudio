@@ -1,7 +1,7 @@
 ---
-title: "Web Control Library (Managed Code)"
+title: "Web Control Library (Managed Code) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -37,15 +37,15 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Web Control Library (Managed Code)
-The Web Control Library project template creates a DLL. Because the class library is a DLL, you cannot run it directly. You must create a [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] page that embeds the control. For more information, see [Web Control Library Template](http://msdn.microsoft.com/en-us/00666b07-71d2-4ace-a13c-cc130a3ce372).  
+The Web Control Library project template creates a DLL. Because the class library is a DLL, you cannot run it directly. You must create a [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] page that embeds the control. For more information, see [Web Control Library Template](http://msdn.microsoft.com/en-us/00666b07-71d2-4ace-a13c-cc130a3ce372).  
   
 ### To debug a Web Control Library (Method 1)  
   
 1.  Open an existing Web Control Library project, or create a new one.  
   
-2.  Create a [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] page that embeds the control.  
+2.  Create a [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] page that embeds the control.  
   
-3.  In the Web site that is hosting the [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] test harness, create a subdirectory called `/Code`.  
+3.  In the Web site that is hosting the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] test harness, create a subdirectory called `/Code`.  
   
 4.  Copy the source code for the control into the `/Code` subdirectory.  
   

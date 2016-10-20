@@ -1,7 +1,7 @@
 ---
-title: "Syntax Coloring in a Legacy Language Service"
+title: "Syntax Coloring in a Legacy Language Service | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,7 +32,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Syntax Coloring in a Legacy Language Service
-[!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] uses a coloring service to identify elements of the language and display them with the specified colors in an editor.  
+[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] uses a coloring service to identify elements of the language and display them with the specified colors in an editor.  
   
 ## Colorizer Model  
  The language service implements the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer> interface, which is then used by editors. This implementation is a separate object from the language service, as shown in the following illustration.  
@@ -41,7 +41,7 @@ translation.priority.mt:
 Simple colorizer model  
   
 > [!NOTE]
->  The syntax coloring service is separate from the general [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] mechanism for colorizing text. For more information about the general [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] mechanism supporting colorizing, see [Using Fonts and Colors](../extensibility/using-fonts-and-colors.md).  
+>  The syntax coloring service is separate from the general [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] mechanism for colorizing text. For more information about the general [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] mechanism supporting colorizing, see [Using Fonts and Colors](../extensibility/using-fonts-and-colors.md).  
   
  Besides the colorizer, the language service can supply custom colorable items that are used by the editor by advertising that it supplies custom colorable items. You can do this by implementing the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsProvideColorableItems> interface on the same object that implements the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo> interface. It returns the number of custom colorable items when the editor calls the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsProvideColorableItems.GetItemCount*> method, and it returns an individual custom colorable item when the editor calls the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsProvideColorableItems.GetColorableItem*> method.  
   
@@ -73,7 +73,7 @@ Simple colorizer model
     3.  Use the colorization information returned by the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer.ColorizeLine*> method to display the selected text.  
   
 > [!NOTE]
->  In addition to using a language service colorizer, a VSPackage can also use the general-purpose [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] text coloring mechanism. For more information about this mechanism, see [Using Fonts and Colors](../extensibility/using-fonts-and-colors.md).  
+>  In addition to using a language service colorizer, a VSPackage can also use the general-purpose [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] text coloring mechanism. For more information about this mechanism, see [Using Fonts and Colors](../extensibility/using-fonts-and-colors.md).  
   
 ## In This Section  
  [Implementing Syntax Coloring](../extensibility/implementing-syntax-coloring.md)  

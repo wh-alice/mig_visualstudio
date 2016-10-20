@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Well-known Item Metadata"
+title: "MSBuild Well-known Item Metadata | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/17/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

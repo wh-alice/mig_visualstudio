@@ -1,7 +1,7 @@
 ---
-title: "Could not instantiate the licenses processor"
+title: "Could not instantiate the licenses processor | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -42,7 +42,7 @@ The tool used to transform .licx files into binary resources could not be instan
   
  **To correct this error**  
   
--   Reinstall [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+-   Reinstall [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 ## See Also  
  [How to: License Components and Controls](../Topic/How%20to:%20License%20Components%20and%20Controls.md)

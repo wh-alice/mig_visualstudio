@@ -1,7 +1,7 @@
 ---
-title: "How to: Analyze What Virtual Users Are Doing During a Load Test Using the Virtual User Activity Chart"
+title: "How to: Analyze What Virtual Users Are Doing During a Load Test Using the Virtual User Activity Chart | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -39,7 +39,7 @@ View the virtual user activity that's associated with your load test by using th
   
 ### To view the Virtual User Activity Chart in your load test results  
   
-1.  To view the virtual user data, you must first configure the **All Individual Details** setting for the **Timing Details Storage** property that is associated with your load test. Then run the load test. [!INCLUDE[crdefault](../codequality/includes/crdefault_md.md)] [How to: Configure Collecting Full Details to Enable the Virtual User Activity Chart](../test/cb22e43b-af4d-4e09-9389-3c3fa00786f7.md).  
+1.  To view the virtual user data, you must first configure the **All Individual Details** setting for the **Timing Details Storage** property that is associated with your load test. Then run the load test. [!INCLUDE[crdefault](../code-quality/includes/crdefault_md.md)] [How to: Configure Collecting Full Details to Enable the Virtual User Activity Chart](../test/cb22e43b-af4d-4e09-9389-3c3fa00786f7.md).  
   
 2.  After your load test runs, the test results summary page is displayed. Choose the **User Detail** button on the toolbar.  
   
@@ -113,11 +113,11 @@ View the virtual user activity that's associated with your load test by using th
     -   **Show results with errors** Displays results with errors that can assist in debugging.  
   
         > [!NOTE]
-        >  The list of error types that are listed under the **Show results with errors** node can be further investigated by choosing the Tables button in the Web Performance Test Results Viewer toolbar. [!INCLUDE[crdefault](../codequality/includes/crdefault_md.md)] [Analyzing Load Test Results and Errors in the Tables View](../test/0a84bda3-6051-45eb-9c7f-d57419e1f97d.md).  
+        >  The list of error types that are listed under the **Show results with errors** node can be further investigated by choosing the Tables button in the Web Performance Test Results Viewer toolbar. [!INCLUDE[crdefault](../code-quality/includes/crdefault_md.md)] [Analyzing Load Test Results and Errors in the Tables View](../test/analyzing-load-test-results-and-errors-in-the-tables-view-of-the-load-test-analyzer.md).  
   
      The Virtual User Activity Chart updates accordingly.  
   
 ## See Also  
- [Analyzing Virtual User Activity in the Details View](../test/63f4bd42-3cfb-4eee-af68-e8334976539e.md)   
+ [Analyzing Virtual User Activity in the Details View](../test/analyzing-load-test-virtual-user-activity-in-the-details-view-of-the-load-test-analyzer.md)   
  [Load Test Analyzer Overview](../test/load-test-analyzer-overview.md)   
  [Walkthrough: Using the Virtual User Activity Chart to Isolate Issues](../test/walkthrough--using-the-virtual-user-activity-chart-to-isolate-issues.md)

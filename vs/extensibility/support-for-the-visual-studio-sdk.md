@@ -1,7 +1,7 @@
 ---
-title: "Support for the Visual Studio SDK"
+title: "Support for the Visual Studio SDK | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -57,7 +57,7 @@ Several support options are available for customers who have questions about how
 ## Included Support  
   
 ### Visual Studio Product Support  
- Some support is included with the purchase of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] products. For more information, see [Visual Studio Support](http://msdn.microsoft.com/vstudio/cc136615.aspx). Microsoft maintains a dedicated support team to answer questions about [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] extensibility.  
+ Some support is included with the purchase of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] products. For more information, see [Visual Studio Support](http://msdn.microsoft.com/vstudio/cc136615.aspx). Microsoft maintains a dedicated support team to answer questions about [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] extensibility.  
   
 ### MSDN Subscription Support  
  MSDN subscription packages may also include some support. For more information, see [MSDN Subscriber Support](https://msdn.microsoft.com/subscriptions/aa718661.aspx).  

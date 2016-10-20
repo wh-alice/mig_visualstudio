@@ -1,5 +1,5 @@
 ---
-title: "MSTest.exe command-line options"
+title: "MSTest.exe command-line options | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -91,7 +91,7 @@ MSTest.exe is the command-line command that is used to run tests. This command h
   
  The test metadata file is created for your solution when you create test lists using the Test List Editor window. This file contains information about all the tests listed in the Test List Editor window. These are all the tests that exist in all test projects in your solution.  
   
- The test metadata file is an XML file that is created in the solution folder. This file is shown in Solution Explorer under the **Solution Items** node. A test metadata file has the extension .vsmdi, and is associated with the Test List Editor window. That is, if you double-click a .vsmdi file in Windows Explorer (or File Explorer), the file opens [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and its contents. All the tests in a solution's test projects are displayed in the Test List Editor window.  
+ The test metadata file is an XML file that is created in the solution folder. This file is shown in Solution Explorer under the **Solution Items** node. A test metadata file has the extension .vsmdi, and is associated with the Test List Editor window. That is, if you double-click a .vsmdi file in Windows Explorer (or File Explorer), the file opens [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and its contents. All the tests in a solution's test projects are displayed in the Test List Editor window.  
   
  You can change the test metadata file only by making changes that are reflected in the Test List Editor window, such as creating or deleting tests, or changing a test's properties.  
   

@@ -1,13 +1,13 @@
 ---
-title: "Reference required to assembly &#39;&lt;assemblyname&gt;&#39; containing the definition for event &#39;&lt;eventname&gt;&#39;"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Reference required to assembly &#39;&lt;assemblyname&gt;&#39; containing the definition for event &#39;&lt;eventname&gt;&#39; | Microsoft Docs"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbc30005"
@@ -37,7 +37,7 @@ translation.priority.mt:
 # Reference required to assembly &#39;&lt;assemblyname&gt;&#39; containing the definition for event &#39;&lt;eventname&gt;&#39;
 Reference required to assembly '<`assemblyname`>' containing the definition for event '<`eventname`>'. Add a reference to your project.  
   
- The event is defined in a dynamic-link library (DLL) or assembly that is not directly referenced in your project. The [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] compiler requires a reference to avoid ambiguity in case the event is defined in more than one DLL or assembly.  
+ The event is defined in a dynamic-link library (DLL) or assembly that is not directly referenced in your project. The [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler requires a reference to avoid ambiguity in case the event is defined in more than one DLL or assembly.  
   
  **Error ID:** BC30005  
   

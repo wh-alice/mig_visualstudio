@@ -1,7 +1,7 @@
 ---
-title: "How to: Create a Custom Editor for Data for Your Diagnostic Data Adapter"
+title: "How to: Create a Custom Editor for Data for Your Diagnostic Data Adapter | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -178,7 +178,7 @@ When you create a diagnostic data adapter, you might want to enable the user to 
     > [!NOTE]
     >  Although the configuration editor can be in a project and an assembly that is different from the diagnostic data adapter, they can also be in the same assembly.  
   
-10. To use your diagnostic data adapter in testing, you must select from the list of existing test settings or create a new one from [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] or Visual Studio and then select your diagnostic data adapter.  
+10. To use your diagnostic data adapter in testing, you must select from the list of existing test settings or create a new one from [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] or Visual Studio and then select your diagnostic data adapter.  
   
      The adapter is displayed on the **Data and Diagnostics** tab of your test settings with the friendly name that you assigned to the class.  
   
@@ -188,7 +188,7 @@ When you create a diagnostic data adapter, you might want to enable the user to 
   
 12. Edit the fields in your custom editor as required, and then choose **Save**.  
   
-13. If you are running your tests from [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], you can assign these test settings to your test plan before you run your tests, or use the **Run with Options** command to assign test settings and override test settings. For more information about test settings, see [Setting Up Machines and Collecting Diagnostic Information Using Test Settings](../test/setting-up-machines-and-collecting-diagnostic-information-using-test-settings.md).  
+13. If you are running your tests from [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], you can assign these test settings to your test plan before you run your tests, or use the **Run with Options** command to assign test settings and override test settings. For more information about test settings, see [Setting Up Machines and Collecting Diagnostic Information Using Test Settings](../test/setting-up-machines-and-collecting-diagnostic-information-using-test-settings.md).  
   
 14. Before you can use your new configuration editor with a diagnostic data adapter, you must apply the <xref:Microsoft.VisualStudio.TestTools.Execution.DataCollectorConfigurationEditorAttribute> to each diagnostic data adapter class that you want to use the editor, and recompile and reinstall them on the client computer. For more information about how to install diagnostic data adapters and configuration editors, see [How to: Install a Custom Diagnostic Data Adapter](../test/how-to--install-a-custom-diagnostic-data-adapter.md).  
   
@@ -202,6 +202,6 @@ When you create a diagnostic data adapter, you might want to enable the user to 
  <xref:Microsoft.VisualStudio.TestTools.Execution.IDataCollectorConfigurationEditor>   
  <xref:Microsoft.VisualStudio.TestTools.Execution.DataCollectorConfigurationEditorAttribute>   
  <xref:Microsoft.VisualStudio.TestTools.Execution.DataCollectorConfigurationEditorAttribute>   
- [Creating a Diagnostic Data Adapter to Collect Custom Data or Affect a Test Machine](../test/b0b53fae-7007-4ad9-a604-21685937622f.md)   
+ [Creating a Diagnostic Data Adapter to Collect Custom Data or Affect a Test Machine](../test/creating-a-diagnostic-data-adapter-to-collect-custom-data-or-affect-a-test-machine.md)   
  [Setting Up Machines and Collecting Diagnostic Information Using Test Settings](../test/setting-up-machines-and-collecting-diagnostic-information-using-test-settings.md)   
  [Sample Project for Creating a Diagnostic Data Adapter](../test/sample-project-for-creating-a-diagnostic-data-adapter.md)

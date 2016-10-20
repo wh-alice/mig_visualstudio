@@ -1,7 +1,7 @@
 ---
-title: "How to: Specify a .NET Framework Version For Debugging"
+title: "How to: Specify a .NET Framework Version For Debugging | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -37,9 +37,9 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Specify a .NET Framework Version For Debugging
-The [!INCLUDE[vs_dev11_long](../codequality/includes/vs_dev11_long_md.md)] debugger supports debugging older versions of the Microsoft [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] as well as the current version. If you start an application from Visual Studio, the debugger can always identify the correct version of the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] for the application you are debugging. If the application is already running and you use **Attach to**, the debugger may not always be able to identify an older version of the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)]. If this happens, you will get an error message that says,  
+The [!INCLUDE[vs_dev11_long](../code-quality/includes/vs_dev11_long_md.md)] debugger supports debugging older versions of the Microsoft [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] as well as the current version. If you start an application from Visual Studio, the debugger can always identify the correct version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] for the application you are debugging. If the application is already running and you use **Attach to**, the debugger may not always be able to identify an older version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]. If this happens, you will get an error message that says,  
   
- The debugger has made an incorrect assumption about the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] version your application is going to use.  
+ The debugger has made an incorrect assumption about the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] version your application is going to use.  
   
  In these rare cases, you can set a registry key to indicate to the debugger which version to use.  
   
@@ -71,7 +71,7 @@ The [!INCLUDE[vs_dev11_long](../codequality/includes/vs_dev11_long_md.md)] debug
   
 9. Close the **Registry Editor**.  
   
-     If you still get an error message when you start to debug, verify that you have entered the version number correctly in the registry. Also verify that you are using a version of the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] supported by Visual Studio. The debugger is compatible with the current .NET Framework version and previous versions, but may not be forward compatible with future versions.  
+     If you still get an error message when you start to debug, verify that you have entered the version number correctly in the registry. Also verify that you are using a version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] supported by Visual Studio. The debugger is compatible with the current .NET Framework version and previous versions, but may not be forward compatible with future versions.  
   
 ## See Also  
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)

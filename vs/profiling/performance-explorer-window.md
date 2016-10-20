@@ -1,7 +1,7 @@
 ---
-title: "Performance Explorer Window"
+title: "Performance Explorer Window | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,11 +35,11 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Performance Explorer Window
-The **Performance Explorer** window in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE) enables you to configure and start performance sessions by using the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Profiling Tools.  
+The **Performance Explorer** window in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) enables you to configure and start performance sessions by using the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools.  
   
  **Requirements**  
   
--   [!INCLUDE[vsUltLong](../codequality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../codequality/includes/vsprelong_md.md)], [!INCLUDE[vsPro](../codequality/includes/vspro_md.md)]  
+-   [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)], [!INCLUDE[vsPro](../code-quality/includes/vspro_md.md)]  
   
 ## Performance Explorer Toolbar  
  The following options are available on the **Performance Explorer** toolbar:  
@@ -61,7 +61,7 @@ The **Performance Explorer** window in the [!INCLUDE[vsprvs](../codequality/incl
   
 -   **Session Name** - The root of the tree control contains the name of the session. Right-click the session name to set the session properties or to start the target application and profiler.  
   
--   **Targets** - Displays the names of binaries that are to be profiled in the session. Right-click **Targets** to add or remove a binary, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] project, or Web site. Right-click a target name to set properties for the individual binary.  
+-   **Targets** - Displays the names of binaries that are to be profiled in the session. Right-click **Targets** to add or remove a binary, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project, or Web site. Right-click a target name to set properties for the individual binary.  
   
 -   **Reports** - Displays the names of profiler data files that are generated for the session. Right-click **Reports** to add an existing report or compare two profiler data files. Right-click a report name to open, remove, or export a profiler data file.  
   

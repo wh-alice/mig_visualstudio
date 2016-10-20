@@ -1,7 +1,7 @@
 ---
-title: "Scenario: Change your design using visualization and modeling"
+title: "Scenario: Change your design using visualization and modeling | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -296,7 +296,7 @@ Make sure that your software system meets users' needs by using the visualizatio
   
 |**Diagram**|**Describes**|  
 |-----------------|-------------------|  
-|*Layer diagram*<br /><br /> See:<br /><br /> -   [Create layer diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)<br />-   [Layer Diagrams: Reference](../modeling/layer-diagrams--reference.md)<br />-   [Layer Diagrams: Guidelines](../modeling/layer-diagrams--guidelines.md)<br />-   [Validate code with layer diagrams](../modeling/validate-code-with-layer-diagrams.md)|The logical architecture of the code.<br /><br /> A layer diagram organizes and maps the artifacts in a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] solution to abstract groups called *layers*. These layers identify the roles, tasks, or functions that these artifacts perform in the system.<br /><br /> Layer diagrams are useful for describing the intended design of the system and validating evolving code against that design.<br /><br /> To create layers, drag items from Solution Explorer, code maps, Class View, and Object Browser. To draw new layers, use the toolbox or right-click the diagram surface.<br /><br /> To view existing dependencies, right-click the layer diagram surface, and then click **Generate Dependencies**. To specify intended dependencies, draw new dependencies.|  
+|*Layer diagram*<br /><br /> See:<br /><br /> -   [Create layer diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)<br />-   [Layer Diagrams: Reference](../modeling/layer-diagrams--reference.md)<br />-   [Layer Diagrams: Guidelines](../modeling/layer-diagrams--guidelines.md)<br />-   [Validate code with layer diagrams](../modeling/validate-code-with-layer-diagrams.md)|The logical architecture of the code.<br /><br /> A layer diagram organizes and maps the artifacts in a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution to abstract groups called *layers*. These layers identify the roles, tasks, or functions that these artifacts perform in the system.<br /><br /> Layer diagrams are useful for describing the intended design of the system and validating evolving code against that design.<br /><br /> To create layers, drag items from Solution Explorer, code maps, Class View, and Object Browser. To draw new layers, use the toolbox or right-click the diagram surface.<br /><br /> To view existing dependencies, right-click the layer diagram surface, and then click **Generate Dependencies**. To specify intended dependencies, draw new dependencies.|  
   
  For example, the following layer diagram describes dependencies between layers and the number of artifacts that are associated with each layer:  
   

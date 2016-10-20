@@ -1,7 +1,7 @@
 ---
-title: "-SafeMode (devenv.exe)"
+title: "-SafeMode (devenv.exe) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,7 +33,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # /SafeMode (devenv.exe)
-Starts [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] in safe mode, loading only the default environment and services.  
+Starts [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] in safe mode, loading only the default environment and services.  
   
 ## Syntax  
   
@@ -42,10 +42,10 @@ devenv /SafeMode
 ```  
   
 ## Remarks  
- This switch prevents all third-party VSPackages from loading when [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] starts, thus ensuring stable execution.  
+ This switch prevents all third-party VSPackages from loading when [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] starts, thus ensuring stable execution.  
   
 ## Description  
- The following example starts [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] in safe mode.  
+ The following example starts [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] in safe mode.  
   
 ## Code  
   

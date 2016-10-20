@@ -1,7 +1,7 @@
 ---
-title: "Deploying a Custom Directive Processor"
+title: "Deploying a Custom Directive Processor | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -29,7 +29,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Deploying a Custom Directive Processor
-To use a custom directive processor in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] on any computer, you must register it by one of the methods described in this topic.  
+To use a custom directive processor in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] on any computer, you must register it by one of the methods described in this topic.  
   
  The alternative methods are:  
   
@@ -39,7 +39,7 @@ To use a custom directive processor in [!INCLUDE[vsprvs](../codequality/includes
   
 -   Set a registry key. In this method, you add a registry entry for the directive processor.  
   
- You need to use one of these methods only if you want to transform your text template in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] or [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)]. If you use a custom host in your own application, your custom host is responsible for finding the directive processors for each directive.  
+ You need to use one of these methods only if you want to transform your text template in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] or [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)]. If you use a custom host in your own application, your custom host is responsible for finding the directive processors for each directive.  
   
 ## Deploying a Directive Processor in a VSIX  
  You can add a custom directive processor to a [Visual Studio Extension (VSIX)](http://msdn.microsoft.com/en-us/64ff1452-f7d5-42d9-98b8-76f769f76832).  
@@ -56,7 +56,7 @@ To use a custom directive processor in [!INCLUDE[vsprvs](../codequality/includes
   
 #### To develop a custom directive processor in a VSIX project  
   
-1.  Create a VSIX project in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+1.  Create a VSIX project in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
     -   In the **New Project** dialog box, expand **Visual Basic** or **Visual C#**, then expand **Extensibility**. Click **VSIX Project**.  
   
@@ -117,15 +117,15 @@ To use a custom directive processor in [!INCLUDE[vsprvs](../codequality/includes
   
 2.  If you want to install the directive processor on another computer, copy the .vsix file to the other computer.  
   
-3.  Double-click the .vsix file. The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Extension Installer appears.  
+3.  Double-click the .vsix file. The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Extension Installer appears.  
   
-4.  Restart [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. You will now be able to run text templates that contain directives that refer to the custom directive processor. Each directive is of this form:  
+4.  Restart [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. You will now be able to run text templates that contain directives that refer to the custom directive processor. Each directive is of this form:  
   
      `<#@ CustomDirective Processor="CustomDirectiveProcessorName" parameter1="value1" … #>`  
   
 #### To uninstall or temporarily disable the custom directive processor  
   
-1.  In the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] **Tools** menu, click **Extension Manager**.  
+1.  In the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] **Tools** menu, click **Extension Manager**.  
   
 2.  Select the VSIX that contains the directive processor, and then click **Uninstall** or **Disable**.  
   
@@ -178,7 +178,7 @@ To use a custom directive processor in [!INCLUDE[vsprvs](../codequality/includes
   
      **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\\*.0\TextTemplating\DirectiveProcessors**  
   
-     If you want to install the directive processor in the experimental version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], insert "Exp" after "11.0".  
+     If you want to install the directive processor in the experimental version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], insert "Exp" after "11.0".  
   
 3.  Add a registry key that has the same name as the directive processor class.  
   

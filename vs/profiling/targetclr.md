@@ -1,7 +1,7 @@
 ---
-title: "TargetCLR"
+title: "TargetCLR | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,7 +31,7 @@ translation.priority.ht:
 # TargetCLR
 The **TargetCLR** option specifies the version of the common language run-time (CLR) to profile when more than one version of the CLR is loaded in an application.  
   
- By default, the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Profiling Tools target the first version of the CLR that is loaded by the application.  
+ By default, the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools target the first version of the CLR that is loaded by the application.  
   
 ## Syntax  
   

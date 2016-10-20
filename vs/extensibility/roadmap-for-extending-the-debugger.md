@@ -1,7 +1,7 @@
 ---
-title: "Roadmap for Extending the Debugger"
+title: "Roadmap for Extending the Debugger | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,15 +32,15 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Roadmap for Extending the Debugger
-This documentation provides guide and reference information for extending the [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)] debugger with the [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)].  
+This documentation provides guide and reference information for extending the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] debugger with the [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)].  
   
- [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] debugging documentation includes samples, a comprehensive reference, and several representative scenarios that demonstrate typical ways to customize the debugger.  
+ [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugging documentation includes samples, a comprehensive reference, and several representative scenarios that demonstrate typical ways to customize the debugger.  
   
  Your compiler and its output determine what you need to do to implement debugging in your product. If your compiler:  
   
--   Targets the Windows native operating system and writes a .PDB file, you can debug programs with the native code debug engine (DE), which is integrated into [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. You do not need to implement a DE or expression evaluator. The expression evaluator is written for the syntax of the C++ programming language.  
+-   Targets the Windows native operating system and writes a .PDB file, you can debug programs with the native code debug engine (DE), which is integrated into [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. You do not need to implement a DE or expression evaluator. The expression evaluator is written for the syntax of the C++ programming language.  
   
--   Produces Microsoft intermediate language (MSIL) output, you can debug programs with the managed code debug engine DE, which is also integrated into [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. Thus, you need only implement an expression evaluator. A sample expression evaluator is provided for you. For more information, see the following topics:  
+-   Produces Microsoft intermediate language (MSIL) output, you can debug programs with the managed code debug engine DE, which is also integrated into [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Thus, you need only implement an expression evaluator. A sample expression evaluator is provided for you. For more information, see the following topics:  
   
      [Expression Evaluation](../extensibility/expression-evaluation--visual-studio-debugging-sdk-.md)  
   

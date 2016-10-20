@@ -1,7 +1,7 @@
 ---
-title: "Debug Multithreaded Applications in Visual Studio"
+title: "Debug Multithreaded Applications in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/17/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -77,7 +77,7 @@ A thread is a sequence of instructions to which the operating system allocates p
  Give your thread a name that you view in the **Threads** window.  
   
  [Walkthrough: Debugging a Multithreaded Application](../debugger/walkthrough--debugging-a-multithreaded-application.md).  
- A guided tour of thread debugging features, with emphasis on features how to [!INCLUDE[vs_orcas_long](../codequality/includes/vs_orcas_long_md.md)].  
+ A guided tour of thread debugging features, with emphasis on features how to [!INCLUDE[vs_orcas_long](../code-quality/includes/vs_orcas_long_md.md)].  
   
  [How to: Debug On a High-Performance Cluster](../debugger/how-to--debug-on-a-high-performance-cluster.md)  
  Techniques for debugging an application that runs on a high-performance cluster.  
@@ -107,10 +107,10 @@ A thread is a sequence of instructions to which the operating system allocates p
 -   Tracepoints enable you to trace execution of your program without breaking. This can be useful for studying problems such as deadlocks.  
   
  [Threading](../Topic/Managed%20Threading.md)  
- Threading concepts in [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] programming, including example code.  
+ Threading concepts in [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] programming, including example code.  
   
  [Multithreading in Components](../Topic/Multithreading%20in%20Components.md)  
- How to use multithreading in [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] components.  
+ How to use multithreading in [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] components.  
   
  [Multithreading Support for Older Code (Visual C++)](../Topic/Multithreading%20Support%20for%20Older%20Code%20\(Visual%20C++\).md)  
  Threading concepts and example code for C++ programmers using MFC.  

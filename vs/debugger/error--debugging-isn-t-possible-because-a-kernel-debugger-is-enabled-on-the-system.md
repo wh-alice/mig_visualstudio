@@ -1,13 +1,13 @@
 ---
-title: "Error: Debugging Isn&#39;t Possible Because a Kernel Debugger is Enabled on the System"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "Error: Debugging Isn&#39;t Possible Because a Kernel Debugger is Enabled on the System | Microsoft Docs"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "vs-ide-debug"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.debug.error.kernel_dbg_enabled"
@@ -49,7 +49,7 @@ Debugging isn't possible because a kernel debugger is enabled on the system
   
  This message occurs when you try to debug managed code:  
   
--   on a [!INCLUDE[win7](../codequality/includes/win7_md.md)] or [!INCLUDE[wiprlhext](../debugger/includes/wiprlhext_md.md)]system that has been started in debug mode.  
+-   on a [!INCLUDE[win7](../code-quality/includes/win7_md.md)] or [!INCLUDE[wiprlhext](../debugger/includes/wiprlhext_md.md)]system that has been started in debug mode.  
   
 -   the application uses the CLR version CLR 2.0, 3.0, or 3.5.  
   
@@ -61,11 +61,11 @@ Debugging isn't possible because a kernel debugger is enabled on the system
   
      —or—  
   
--   Disable kernel debugging and debug in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+-   Disable kernel debugging and debug in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
      —or—  
   
--   Debug using the Kernel Debugger instead of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+-   Debug using the Kernel Debugger instead of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
      —or—  
   

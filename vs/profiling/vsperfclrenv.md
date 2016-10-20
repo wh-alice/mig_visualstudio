@@ -1,7 +1,7 @@
 ---
-title: "VSPerfCLREnv"
+title: "VSPerfCLREnv | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -50,7 +50,7 @@ VsPerfCLREnv [/option]
  **VSPerfCLREnv Options for Including Tier-Interaction Data**  
   
 > [!WARNING]
->  Tier interaction profiling can be collected using [!INCLUDE[vsUltLong](../codequality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../codequality/includes/vsprelong_md.md)], or [!INCLUDE[vs_pro_current_short](../profiling/includes/vs_pro_current_short_md.md)]. However, tier interaction profiling data can be viewed only in [!INCLUDE[vsUltLong](../codequality/includes/vsultlong_md.md)] and [!INCLUDE[vsPreLong](../codequality/includes/vsprelong_md.md)].  
+>  Tier interaction profiling can be collected using [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)], or [!INCLUDE[vs_pro_current_short](../profiling/includes/vs_pro_current_short_md.md)]. However, tier interaction profiling data can be viewed only in [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)] and [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)].  
   
  Tier interaction profiling provides additional information about ADO.NET queries in multi-tiered applications. Data is collected only for synchronous function calls. Interaction data can be added to any profiling run using any profiling method.  
   

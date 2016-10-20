@@ -1,7 +1,7 @@
 ---
-title: "Troubleshooting Exceptions: System.BadImageFormatException"
+title: "Troubleshooting Exceptions: System.BadImageFormatException | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -44,7 +44,7 @@ A <xref:System.BadImageFormatException> exception is thrown when the file image 
  If the **Platform target** property for your application project is set to `AnyCPU`, the compiled application can be run in either 64-bit or 32-bit mode. When it runs as a 64-bit application, the just-in-time (JIT) compiler produces 64-bit native code. If the application depends on a 32-bit managed or unmanaged component, that component will fail to load in 64-bit mode. To correct this problem, set the project's **Platform target** property to `x86` and recompile.  
   
  **Make sure that you are not using a component that was created with a different version of the .NET Framework.**  
- This exception is thrown when an application or component that was developed by using the [!INCLUDE[net_v10_short](../misc/includes/net_v10_short_md.md)] or the [!INCLUDE[net_v11_short](../misc/includes/net_v11_short_md.md)] attempts to load an assembly that was developed by using the [!INCLUDE[net_v20SP1_short](../misc/includes/net_v20sp1_short_md.md)] or later, or when an application that was developed by using the [!INCLUDE[net_v20SP1_short](../misc/includes/net_v20sp1_short_md.md)] or the [!INCLUDE[net_v35_short](../misc/includes/net_v35_short_md.md)] attempts to load an assembly that was developed by using the [!INCLUDE[net_v40_short](../codequality/includes/net_v40_short_md.md)]. The <xref:System.BadImageFormatException> exception may be reported as a compile-time error, or the exception may be thrown at run time. See the <xref:System.BadImageFormatException> class for an example.  
+ This exception is thrown when an application or component that was developed by using the [!INCLUDE[net_v10_short](../misc/includes/net_v10_short_md.md)] or the [!INCLUDE[net_v11_short](../misc/includes/net_v11_short_md.md)] attempts to load an assembly that was developed by using the [!INCLUDE[net_v20SP1_short](../misc/includes/net_v20sp1_short_md.md)] or later, or when an application that was developed by using the [!INCLUDE[net_v20SP1_short](../misc/includes/net_v20sp1_short_md.md)] or the [!INCLUDE[net_v35_short](../misc/includes/net_v35_short_md.md)] attempts to load an assembly that was developed by using the [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)]. The <xref:System.BadImageFormatException> exception may be reported as a compile-time error, or the exception may be thrown at run time. See the <xref:System.BadImageFormatException> class for an example.  
   
  **Make sure that the file image is a valid managed assembly or module.**  
  This exception is thrown when an unmanaged dynamic link library or executable is passed to the <xref:System.Reflection.Assembly.Load*> method for loading.  

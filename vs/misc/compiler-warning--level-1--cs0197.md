@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 1) CS0197"
+title: "Compiler Warning (level 1) CS0197 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

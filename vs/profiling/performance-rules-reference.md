@@ -1,7 +1,7 @@
 ---
-title: "Performance Rules Reference"
+title: "Performance Rules Reference | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -30,7 +30,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Performance Rules Reference
-The performance rules of the Profiling Tools provide additional warnings and information about the performance of your application. Performance rules analyze data in a profiling run that is collected from sources such as Windows and processor performance counters. Rule messages appear in the Error Output window of the [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)] integrated development environment. Messages are listed with one of the following rule levels:  
+The performance rules of the Profiling Tools provide additional warnings and information about the performance of your application. Performance rules analyze data in a profiling run that is collected from sources such as Windows and processor performance counters. Rule messages appear in the Error Output window of the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] integrated development environment. Messages are listed with one of the following rule levels:  
   
 |||  
 |-|-|  

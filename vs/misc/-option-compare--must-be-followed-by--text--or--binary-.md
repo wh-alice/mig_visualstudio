@@ -1,7 +1,7 @@
 ---
-title: "&#39;Option Compare&#39; must be followed by &#39;Text&#39; or &#39;Binary&#39;"
+title: "&#39;Option Compare&#39; must be followed by &#39;Text&#39; or &#39;Binary&#39; | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

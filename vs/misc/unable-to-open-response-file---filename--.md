@@ -1,7 +1,7 @@
 ---
-title: "Unable to open response file &#39;&lt;filename&gt;&#39;"
+title: "Unable to open response file &#39;&lt;filename&gt;&#39; | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

@@ -1,7 +1,7 @@
 ---
-title: "Walkthrough: Writing a Visualizer in C#"
+title: "Walkthrough: Writing a Visualizer in C# | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -65,7 +65,7 @@ This walkthrough shows how to write a simple visualizer by using C#. The visuali
 2.  Change the name from Class1.cs to something meaningful, such as DebuggerSide.cs.  
   
     > [!NOTE]
-    >  [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] automatically changes the class declaration in DebuggerSide.cs to match the new file name.  
+    >  [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] automatically changes the class declaration in DebuggerSide.cs to match the new file name.  
   
 3.  In **Solution Explorer**, right-click **References** and choose **Add Reference** on the shortcut menu.  
   
@@ -153,7 +153,7 @@ This walkthrough shows how to write a simple visualizer by using C#. The visuali
   
 2.  On the **Build** menu, choose **Build MyFirstVisualizer**. The project should build successfully. Correct any build errors before continuing.  
   
- At this point, your first visualizer is finished. If you have followed the steps correctly, you can build the visualizer and install it into [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. Before you install a visualizer into [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], however, you should test it to make sure that it runs correctly. You will now create a test harness to run the visualizer without installing it into [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+ At this point, your first visualizer is finished. If you have followed the steps correctly, you can build the visualizer and install it into [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Before you install a visualizer into [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], however, you should test it to make sure that it runs correctly. You will now create a test harness to run the visualizer without installing it into [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 #### To add a Test Method to show the visualizer  
   
@@ -205,7 +205,7 @@ This walkthrough shows how to write a simple visualizer by using C#. The visuali
   
 2.  Edit the name from Program.cs to something more meaningful, such as TestConsole.cs.  
   
-     **Note** [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] automatically changes the class declaration in TestConsole.cs to match the new file name.  
+     **Note** [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] automatically changes the class declaration in TestConsole.cs to match the new file name.  
   
 3.  In TestConsole.cs, add the following code to the `using` statements:  
   
@@ -232,7 +232,7 @@ This walkthrough shows how to write a simple visualizer by using C#. The visuali
   
  Congratulations. You have just built and tested your first visualizer.  
   
- If you want to use your visualizer in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] rather than just calling it from the test harness, you have to install it. For more information, see [How to: Install a Visualizer](../debugger/how-to--install-a-visualizer.md).  
+ If you want to use your visualizer in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] rather than just calling it from the test harness, you have to install it. For more information, see [How to: Install a Visualizer](../debugger/how-to--install-a-visualizer.md).  
   
 ## Using the Visualizer Item Template  
  So far, this walkthrough has shown you how to create a visualizer manually. This was done as a learning exercise. Now that you know how a simple visualizer works, there is an easier way to create one: using the visualizer item template.  

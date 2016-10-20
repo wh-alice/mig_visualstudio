@@ -1,7 +1,7 @@
 ---
-title: "How to: Create Project Templates"
+title: "How to: Create Project Templates | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -62,7 +62,7 @@ This procedure enables you to create a template using the **Export Template** wi
   
 9. Enter a template name and description.  
   
-10. Click **Finish**. Your project is exported into a .zip file and placed in the specified output location, and, if selected, imported into [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+10. Click **Finish**. Your project is exported into a .zip file and placed in the specified output location, and, if selected, imported into [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
      If you have the [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] installed, you can wrap the finished template in a .vsix file for deployment by using the **VSIX Project** template. For more information, see [Getting Started with the VSIX Project Template](../extensibility/getting-started-with-the-vsix-project-template.md).  
   

@@ -1,7 +1,7 @@
 ---
-title: "Visual Studio Debugger Extensibility"
+title: "Visual Studio Debugger Extensibility | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,9 +34,9 @@ translation.priority.mt:
 # Visual Studio Debugger Extensibility
 Visual Studio includes a fully interactive source code debugger, providing a powerful and easy-to-use tool for tracking down bugs in your program. The debugger has complete support Visual Basic, C#, C/C++, and JavaScript. However, with the [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)], that is available from the [Microsoft Download Center](http://go.microsoft.com/fwlink/?LinkId=214453),, other programming languages can be supported in the debugger with the same rich features.  
   
- The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] debugger is the common front end (that is, the user interface) to the debugging components that are, in turn, specific to the language being debugged. For new languages, all that is necessary for support by the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] debugger is to create the necessary back-end components, such as a debug engine (DE). That is where the [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] comes in.  
+ The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger is the common front end (that is, the user interface) to the debugging components that are, in turn, specific to the language being debugged. For new languages, all that is necessary for support by the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger is to create the necessary back-end components, such as a debug engine (DE). That is where the [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] comes in.  
   
- The [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] includes a complete reference to all [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] elements required to create a new DE. In addition, there are samples and tutorials that will help get you started.  
+ The [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] includes a complete reference to all [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] elements required to create a new DE. In addition, there are samples and tutorials that will help get you started.  
   
  For an end-to-end sample of a language project system with debugging support, see the [IronPython sample](http://msdn.microsoft.com/en-us/4c41695c-12c1-4670-b43b-d8d84c9e4089).  
   
@@ -44,7 +44,7 @@ Visual Studio includes a fully interactive source code debugger, providing a pow
   
 ## In This Section  
  [Getting Started](../extensibility/getting-started-with-debugger-extensibility.md)  
- Describes what [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Debugging offers and how to install the SDK.  
+ Describes what [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Debugging offers and how to install the SDK.  
   
  [Creating a Custom Debug Engine](../extensibility/creating-a-custom-debug-engine.md)  
  Documents the custom DE process, from preparing your program for a DE to detaching the DE.  
@@ -56,7 +56,7 @@ Visual Studio includes a fully interactive source code debugger, providing a pow
  Discusses how to implement your DE.  
   
  [Reference](../extensibility/reference--visual-studio-debugging-apis-.md)  
- Documents the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Debugging API.  
+ Documents the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Debugging API.  
   
  [Samples](../extensibility/visual-studio-debugging-samples.md)  
  Contains links to a common language runtime expression evaluator sample and a debug engine sample.

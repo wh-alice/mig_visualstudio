@@ -1,7 +1,7 @@
 ---
-title: "How to: Search for a Specific Work Item Using Microsoft Test Manager"
+title: "How to: Search for a Specific Work Item Using Microsoft Test Manager | Microsoft Docs"
 ms.custom: ""
-ms.date: "09/28/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -30,7 +30,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Search for a Specific Work Item Using Microsoft Test Manager
-You might want to search for a specific work item in your team project from [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)]. If you know the identifier for that work item, you can just open it without the requirement to open a specific activity.  
+You might want to search for a specific work item in your team project from [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)]. If you know the identifier for that work item, you can just open it without the requirement to open a specific activity.  
   
  **Requirements**  
   
@@ -40,10 +40,10 @@ You might want to search for a specific work item in your team project from [!IN
   
 #### To search for a specific work item using Microsoft Test Manager  
   
-1.  Open [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)].  
+1.  Open [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)].  
   
     > [!NOTE]
-    >  To display the [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] window, choose Start, All Programs, Microsoft Visual Studio, Microsoft Test Manager.  
+    >  To display the [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] window, choose Start, All Programs, Microsoft Visual Studio, Microsoft Test Manager.  
   
 2.  From any activity, press Ctrl-G.  
   

@@ -1,7 +1,7 @@
 ---
-title: "Inside the Core Editor"
+title: "Inside the Core Editor | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,7 +31,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Inside the Core Editor
-The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] core editor is a set of several components that let you modify and query textual information. If you have customized the core editor by using the legacy API, you may continue to use these customizations, which will be routed through editor adapters. It is recommended, however, that you adapt your customizations to the new editor API.  
+The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] core editor is a set of several components that let you modify and query textual information. If you have customized the core editor by using the legacy API, you may continue to use these customizations, which will be routed through editor adapters. It is recommended, however, that you adapt your customizations to the new editor API.  
   
  The following areas are some important aspects of the core editor:  
   

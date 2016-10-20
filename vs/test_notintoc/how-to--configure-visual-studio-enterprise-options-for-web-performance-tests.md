@@ -1,5 +1,5 @@
 ---
-title: "How to: Configure Visual Studio Enterprise Options for Web Performance Tests"
+title: "How to: Configure Visual Studio Enterprise Options for Web Performance Tests | Microsoft Docs"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

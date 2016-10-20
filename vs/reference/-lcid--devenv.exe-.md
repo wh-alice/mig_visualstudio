@@ -1,7 +1,7 @@
 ---
-title: "-LCID (devenv.exe)"
+title: "-LCID (devenv.exe) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -54,7 +54,7 @@ devenv {/LCID|/l} LocaleID
   
  If the specified language is not available on the user's system, the /LCID switch is ignored.  
   
- The following table lists the LCIDs of the languages supported by [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+ The following table lists the LCIDs of the languages supported by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 |Language|LCID|  
 |--------------|----------|  

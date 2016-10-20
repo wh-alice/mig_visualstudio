@@ -1,7 +1,7 @@
 ---
-title: "How to: Create Custom Text Markers"
+title: "How to: Create Custom Text Markers | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -49,7 +49,7 @@ If you want to create a custom text marker to emphasize or organize code, you mu
   
      *\<MarkerGUID>*is a `GUID` used to identify the marker being added  
   
-     *\<Version>* is the version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], for example 8.0  
+     *\<Version>* is the version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], for example 8.0  
   
      *\<PackageGUID>* is the GUID of the VSPackage implementing the automation object.  
   

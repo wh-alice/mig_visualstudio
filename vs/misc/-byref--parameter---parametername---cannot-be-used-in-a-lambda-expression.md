@@ -1,7 +1,7 @@
 ---
-title: "&#39;ByRef&#39; parameter &#39;&lt;parametername&gt;&#39; cannot be used in a lambda expression"
+title: "&#39;ByRef&#39; parameter &#39;&lt;parametername&gt;&#39; cannot be used in a lambda expression | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

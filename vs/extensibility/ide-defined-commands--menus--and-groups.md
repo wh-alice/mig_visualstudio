@@ -1,7 +1,7 @@
 ---
-title: "IDE-Defined Commands, Menus, and Groups"
+title: "IDE-Defined Commands, Menus, and Groups | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,7 +33,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # IDE-Defined Commands, Menus, and Groups
-Many menus, commands and command groups are already defined for use by the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] IDE. These commands are also available for your use when you extend [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+Many menus, commands and command groups are already defined for use by the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE. These commands are also available for your use when you extend [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 ## Finding Environment-Defined Commands  
  The environment commands are defined in a set of four .vsct files:  

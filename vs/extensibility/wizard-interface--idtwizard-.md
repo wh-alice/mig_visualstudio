@@ -1,7 +1,7 @@
 ---
-title: "Wizard Interface (IDTWizard)"
+title: "Wizard Interface (IDTWizard) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -49,7 +49,7 @@ STDMETHOD(Execute)(THIS_
   
  The start mechanism is similar for both the **New Project** and **Add New Item**wizards. To start either, you call the <xref:EnvDTE.IDTWizard> interface defined in Dteinternal.h. The only difference is the set of context and custom parameters that are passed to the interface when the interface is called.  
   
- The following information describes the <xref:EnvDTE.IDTWizard> interface that wizards must implement to work in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] IDE. The IDE calls the <xref:EnvDTE.IDTWizard.Execute*> method on the wizard, passing it the following:  
+ The following information describes the <xref:EnvDTE.IDTWizard> interface that wizards must implement to work in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE. The IDE calls the <xref:EnvDTE.IDTWizard.Execute*> method on the wizard, passing it the following:  
   
 -   The DTE object  
   

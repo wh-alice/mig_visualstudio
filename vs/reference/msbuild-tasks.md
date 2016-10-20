@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Tasks"
+title: "MSBuild Tasks | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
@@ -72,7 +72,7 @@ A build platform needs the ability to execute any number of actions during the b
 ```  
   
 ## Included Tasks  
- [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] ships with many tasks such as [Copy](../reference/copy-task.md), which copies files, [MakeDir](../reference/makedir-task.md), which creates directories, and [Csc](../reference/csc-task.md), which compiles [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] source code files. For a complete list of available tasks and usage information, see [Task Reference](../reference/msbuild-task-reference.md).  
+ [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] ships with many tasks such as [Copy](../reference/copy-task.md), which copies files, [MakeDir](../reference/makedir-task.md), which creates directories, and [Csc](../reference/csc-task.md), which compiles [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] source code files. For a complete list of available tasks and usage information, see [Task Reference](../reference/msbuild-task-reference.md).  
   
 ## Overridden Tasks  
  [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] looks for tasks in several locations. The first location is in files with the extension .OverrideTasks stored in the .NET Framework directories. Tasks in these files override any other tasks with the same names, including tasks in the project file. The second location is in files with the extension .Tasks in the .NET Framework directories. If the task is not found in either of these locations, the task in the project file is used.  

@@ -1,7 +1,7 @@
 ---
-title: "Define a work item link handler"
+title: "Define a work item link handler | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -95,7 +95,7 @@ You can create a Visual Studio Integration Extension that responds when the user
  If you cannot find one of these references under the **.Net** tab of the **Add Reference** dialog, use the Browse tab to find it in \Program Files\Microsoft Visual Studio [version]\Common7\IDE\PrivateAssemblies\\.  
   
 ### Import the Work Item Namespace  
- In your [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] project **References**, add references to the following assemblies:  
+ In your [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project **References**, add references to the following assemblies:  
   
 -   Microsoft.TeamFoundation.WorkItemTracking.Client.dll  
   
@@ -166,11 +166,11 @@ namespace WorkItems
   
 1.  Press **F5**, or on the **Debug** menu, choose **Start Debugging**.  
   
-     An experimental instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] starts.  
+     An experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] starts.  
   
-     **Troubleshooting**: If a new [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] does not start, ensure that the VSIX project is set as the Startup project of the solution.  
+     **Troubleshooting**: If a new [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] does not start, ensure that the VSIX project is set as the Startup project of the solution.  
   
-2.  In the experimental [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], open or create a modeling project, and open or create a modeling diagram.  
+2.  In the experimental [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], open or create a modeling project, and open or create a modeling diagram.  
   
 3.  Create a model element such as UML class, and set its name.  
   

@@ -1,11 +1,11 @@
 ---
-title: "Distributing Load Test Runs Across Multiple Test Machines Using Test Controllers and Test Agents"
-ms.custom: na
+title: "Distributing Load Test Runs Across Multiple Test Machines Using Test Controllers and Test Agents | Microsoft Docs"
+ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
+ms.reviewer: ""
+ms.suite: ""
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "load tests, test controllers"

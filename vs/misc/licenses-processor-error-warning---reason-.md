@@ -1,7 +1,7 @@
 ---
-title: "Licenses processor error-warning: &lt;reason&gt;"
+title: "Licenses processor error-warning: &lt;reason&gt; | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,9 +31,9 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Licenses processor error/warning: &lt;reason&gt;
-An error or warning message is displayed if a tool returns an error or a warning while processing a .licx file. As part of the build process, the project system transforms the Licenses.licx file (if present) into a binary file understood by the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] license manager. This transformation is done using in-process tools.  
+An error or warning message is displayed if a tool returns an error or a warning while processing a .licx file. As part of the build process, the project system transforms the Licenses.licx file (if present) into a binary file understood by the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] license manager. This transformation is done using in-process tools.  
   
- The most likely cause of such an error or warning is a bad .licx file. A .licx file can become corrupt if the file has been edited outside of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] or within [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] using a text editor.  
+ The most likely cause of such an error or warning is a bad .licx file. A .licx file can become corrupt if the file has been edited outside of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] or within [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] using a text editor.  
   
  These files are normally managed by the Windows Forms and Web Forms Designers.  
   

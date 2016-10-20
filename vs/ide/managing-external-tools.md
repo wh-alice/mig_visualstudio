@@ -1,7 +1,7 @@
 ---
-title: "Managing External Tools"
+title: "Managing External Tools | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -80,7 +80,7 @@ translation.priority.ht:
 You can call external tools from inside Visual Studio. A few default tools are available from the **Tools** menu, but you can add other executables of your own.  
   
 ## Tools Available on the Visual Studio Tools Menu  
- You can call the following tools from the **Tools** menu in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. You can also call them by name from the **Quick Launch** window. For example, to call GuidGen.exe, type **Create GUID**.  
+ You can call the following tools from the **Tools** menu in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. You can also call them by name from the **Quick Launch** window. For example, to call GuidGen.exe, type **Create GUID**.  
   
 1.  Create GUID: generates a GUID.  
   

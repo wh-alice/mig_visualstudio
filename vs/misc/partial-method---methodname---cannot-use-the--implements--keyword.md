@@ -1,7 +1,7 @@
 ---
-title: "Partial method &#39;&lt;methodname&gt;&#39; cannot use the &#39;Implements&#39; keyword"
+title: "Partial method &#39;&lt;methodname&gt;&#39; cannot use the &#39;Implements&#39; keyword | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

@@ -1,7 +1,7 @@
 ---
-title: "Unable to apply security attribute(s) to &#39;&lt;name&gt;&#39;: &lt;error&gt;"
+title: "Unable to apply security attribute(s) to &#39;&lt;name&gt;&#39;: &lt;error&gt; | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,9 +45,9 @@ There was an error when applying security attributes. This could be a result of 
   
 2.  Compile the program again to see if the error reoccurs.  
   
-3.  If the error continues, save your work and restart [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+3.  If the error continues, save your work and restart [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
-4.  If the error reoccurs, reinstall [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)].  
+4.  If the error reoccurs, reinstall [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)].  
   
 5.  If the error persists after reinstallation, notify Microsoft Product Support Services.  
   

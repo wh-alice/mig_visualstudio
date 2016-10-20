@@ -1,7 +1,7 @@
 ---
-title: "Reference (Programmatic Capture)"
+title: "Reference (Programmatic Capture) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -51,5 +51,5 @@ Graphics Diagnostics supports programmatic control over its capture features, th
   
 |Title|Description|  
 |-----------|-----------------|  
-|[Capturing Graphics Information](../debugger/capturing-graphics-information.md)|Shows how to capture graphics information from your DirectX-based app so that you can use [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Graphics Diagnostics tools to diagnose rendering problems.|  
+|[Capturing Graphics Information](../debugger/capturing-graphics-information.md)|Shows how to capture graphics information from your DirectX-based app so that you can use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Graphics Diagnostics tools to diagnose rendering problems.|  
 |[Overview](../debugger/overview-of-visual-studio-graphics-diagnostics.md)|Shows how Graphics Diagnostics can help you debug rendering errors in DirectX games and apps.|

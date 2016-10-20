@@ -1,7 +1,7 @@
 ---
-title: "Several Documents About the Properties Window Are Available"
+title: "Several Documents About the Properties Window Are Available | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,7 +31,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Several Documents About the Properties Window Are Available
-[!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Help contains the following documents about the **Properties** window but cannot determine which one best applies to your help request. Select the document that best corresponds to the task you are trying to accomplish.  
+[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Help contains the following documents about the **Properties** window but cannot determine which one best applies to your help request. Select the document that best corresponds to the task you are trying to accomplish.  
   
 |Title|Description|  
 |-----------|-----------------|  

@@ -1,7 +1,7 @@
 ---
-title: "How to: Test the Help About and Splash Screens"
+title: "How to: Test the Help About and Splash Screens | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,17 +33,17 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # How to: Test the Help About and Splash Screens
-After you implement **Help About** and splash screen support, you can test your implementation in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+After you implement **Help About** and splash screen support, you can test your implementation in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 ### To test the Help About dialog box  
   
-1.  From the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] command prompt, run devenv.exe with the **/setup** switch. To run in the experimental environment, type:  
+1.  From the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] command prompt, run devenv.exe with the **/setup** switch. To run in the experimental environment, type:  
   
      **devenv /rootsuffix Exp /setup**  
   
      **Note** You have to repeat this step only when you change the **Help About** screen information.  
   
-2.  Run [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] in the same registry root as was mentioned earlier, but without the **/setup** switch:  
+2.  Run [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] in the same registry root as was mentioned earlier, but without the **/setup** switch:  
   
      **devenv /rootsuffix Exp**  
   
@@ -63,7 +63,7 @@ After you implement **Help About** and splash screen support, you can test your 
   
      **Note** You have to repeat this step only when you change the splash screen information.  
   
-2.  Run [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] in the same registry root as was mentioned earlier, but with the **/splash** switch instead of the **/setup** switch.  
+2.  Run [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] in the same registry root as was mentioned earlier, but with the **/splash** switch instead of the **/setup** switch.  
   
      **devenv /rootsuffix Exp /splash**  
   

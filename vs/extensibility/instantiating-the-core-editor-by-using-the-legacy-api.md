@@ -1,7 +1,7 @@
 ---
-title: "Instantiating the Core Editor By Using the Legacy API"
+title: "Instantiating the Core Editor By Using the Legacy API | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

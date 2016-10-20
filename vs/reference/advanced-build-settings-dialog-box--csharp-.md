@@ -1,7 +1,7 @@
 ---
-title: "Advanced Build Settings Dialog Box (C#)"
+title: "Advanced Build Settings Dialog Box (C#) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,7 +33,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Advanced Build Settings Dialog Box (C#)
-Use the **AdvancedBuild Settings** dialog box of the **Project Designer** to specify the project's advanced build configuration properties. This dialog box applies to [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] projects only.  
+Use the **AdvancedBuild Settings** dialog box of the **Project Designer** to specify the project's advanced build configuration properties. This dialog box applies to [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] projects only.  
   
 ## General  
  The following options enable you to set general advanced settings.  
@@ -84,7 +84,7 @@ Use the **AdvancedBuild Settings** dialog box of the **Project Designer** to spe
  Specifies the size of sections in the output file. Valid values are **512**, **1024**, **2048**, **4096**, and **8192**. These values are measured in bytes. Each section will be aligned on a boundary that is a multiple of this value, affecting the size of the output file. For more information, see [/filealign (C# Compiler Options)](../Topic/-filealign%20\(C%23%20Compiler%20Options\).md).  
   
  **DLL Base Address**  
- Specifies the preferred base address at which to load a DLL. The default base address for a DLL is set by the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] common language runtime. For more information, see [/baseaddress (C# Compiler Options)](../Topic/-baseaddress%20\(C%23%20Compiler%20Options\).md).  
+ Specifies the preferred base address at which to load a DLL. The default base address for a DLL is set by the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] common language runtime. For more information, see [/baseaddress (C# Compiler Options)](../Topic/-baseaddress%20\(C%23%20Compiler%20Options\).md).  
   
 ## See Also  
  [C# Compiler Options](../Topic/C%23%20Compiler%20Options.md)   

@@ -1,7 +1,7 @@
 ---
-title: "How to: Manage Counter Sets Using the Load Test Editor"
+title: "How to: Manage Counter Sets Using the Load Test Editor | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,10 +34,10 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Manage Counter Sets Using the Load Test Editor
-When you create a load test with the **New Load Test Wizard**, you add an initial set of counters. These offer you a set of predefined counter sets for your load test. [!INCLUDE[crdefault](../codequality/includes/crdefault_md.md)] [Step 3 - Specifying Counter Sets in the New Load Test Wizard](../test_notintoc/creating-load-tests.md#CreatingLoadTestsUsingWizardStep3).  
+When you create a load test with the **New Load Test Wizard**, you add an initial set of counters. These offer you a set of predefined counter sets for your load test. [!INCLUDE[crdefault](../code-quality/includes/crdefault_md.md)] [Step 3 - Specifying Counter Sets in the New Load Test Wizard](../test_notintoc/creating-load-tests.md#CreatingLoadTestsUsingWizardStep3).  
   
 > [!NOTE]
->  If your load tests are distributed across remote machines, controller and agent counters are mapped to the controller and agent counter sets. [!INCLUDE[crabout](../codequality/includes/crabout_md.md)] how to use remote machines in your load test, see [Distributing Load Test Runs Across Multiple Test Machines Using Test Controllers and Test Agents](../test/6e67a587-8aad-48cc-a8c0-6d4b399f3731.md).  
+>  If your load tests are distributed across remote machines, controller and agent counters are mapped to the controller and agent counter sets. [!INCLUDE[crabout](../code-quality/includes/crabout_md.md)] how to use remote machines in your load test, see [Distributing Load Test Runs Across Multiple Test Machines Using Test Controllers and Test Agents](../test/distributing-load-test-runs-across-multiple-test-machines-using-test-controllers-and-test-agents.md).  
   
  **Requirements**  
   
@@ -75,6 +75,6 @@ When you create a load test with the **New Load Test Wizard**, you add an initia
 6.  Choose **OK**.  
   
 ## See Also  
- [Distributing Load Test Runs Across Multiple Test Machines Using Test Controllers and Test Agents](../test/6e67a587-8aad-48cc-a8c0-6d4b399f3731.md)   
+ [Distributing Load Test Runs Across Multiple Test Machines Using Test Controllers and Test Agents](../test/distributing-load-test-runs-across-multiple-test-machines-using-test-controllers-and-test-agents.md)   
  [Specifying the Counter Sets and Threshold Rules for Computers in a Load Test](../test/specifying-the-counter-sets-and-threshold-rules-for-computers-in-a-load-test.md)   
  [Configuring Load Test Run Settings](../test/configuring-load-test-run-settings.md)

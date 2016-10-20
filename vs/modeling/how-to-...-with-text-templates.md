@@ -1,7 +1,7 @@
 ---
-title: "How to ... with Text Templates"
+title: "How to ... with Text Templates | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -27,7 +27,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to ... with Text Templates
-Text templates in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] provide a useful way of generating text of any kind. You can use text templates to generate text at run time as part of your application and at design time to generate some of your project code. This topic summarizes the most frequently asked "How do I …?" questions.  
+Text templates in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] provide a useful way of generating text of any kind. You can use text templates to generate text at run time as part of your application and at design time to generate some of your project code. This topic summarizes the most frequently asked "How do I …?" questions.  
   
  In this topic, multiple answers that are preceded by bullets are alternative suggestions.  
   
@@ -45,19 +45,19 @@ Text templates in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] provi
   
 -   Add a runtime text template to your project. This template creates a class in your code, which you can instantiate and use to generate text. You can pass data to it in the constructor parameters. For more information, see [Run-Time Text Generation with T4 Text Templates](../modeling/run-time-text-generation-with-t4-text-templates.md).  
   
--   If you want to generate from templates that are available only at run time, you can use standard text templates. If you are writing a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] extension, you can invoke the text templating service. For more information, see [Invoking Text Transformation in a VS Extension](../modeling/invoking-text-transformation-in-a-vs-extension.md). In other contexts, you can use the text templating engine. For more information, see <xref:Microsoft.VisualStudio.TextTemplating.Engine?displayProperty=fullName>.  
+-   If you want to generate from templates that are available only at run time, you can use standard text templates. If you are writing a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] extension, you can invoke the text templating service. For more information, see [Invoking Text Transformation in a VS Extension](../modeling/invoking-text-transformation-in-a-vs-extension.md). In other contexts, you can use the text templating engine. For more information, see <xref:Microsoft.VisualStudio.TextTemplating.Engine?displayProperty=fullName>.  
   
      Use the \<#@parameter#> directive to pass parameters to these templates. For more information, see [T4 Parameter Directive](../modeling/t4-parameter-directive.md).  
   
 ### Read another project file from a template  
- To read a file from the same [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] project as the template:  
+ To read a file from the same [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project as the template:  
   
 -   Insert `hostSpecific="true"` into the `<#@template#>` directive.  
   
      In your code, use `this.Host.ResolvePath(filename)` to obtain the full path of the file.  
   
 ### Invoke methods from a template  
- If the methods already exist, for example, in standard [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] classes:  
+ If the methods already exist, for example, in standard [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] classes:  
   
 -   Use the \<#@assembly#> directive to load the assembly, and use \<#@import#> to set the namespace context. For more information, see [T4 Import Directive](../modeling/t4-import-directive.md).  
   
@@ -73,7 +73,7 @@ Text templates in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] provi
   
      Consider placing class features in a separate file which you can `<#@include#>` into one or more template files.  
   
--   Write the methods in a separate assembly (class library) and call them from your template. Use the `<#@assembly#>` directive to load the assembly, and `<#@import#>` to set the namespace context. Note that in order to rebuild the assembly while you are debugging it, you might have to stop and restart [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. For more information, see [T4 Text Template Directives](../modeling/t4-text-template-directives.md).  
+-   Write the methods in a separate assembly (class library) and call them from your template. Use the `<#@assembly#>` directive to load the assembly, and `<#@import#>` to set the namespace context. Note that in order to rebuild the assembly while you are debugging it, you might have to stop and restart [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. For more information, see [T4 Text Template Directives](../modeling/t4-text-template-directives.md).  
   
 ### Generate many files from one model schema  
  If you often generate files from models that have the same XML or database schema:  
@@ -94,8 +94,8 @@ Text templates in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] provi
   
      For more information, see [Create models for your app](../modeling/create-models-for-your-app.md) and [Generate files from a UML model](../modeling/generate-files-from-a-uml-model.md).  
   
-### Get data from [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]  
- To use services provided in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], by set the `hostSpecific` attribute and load the `EnvDTE` assembly. For example:  
+### Get data from [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]  
+ To use services provided in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], by set the `hostSpecific` attribute and load the `EnvDTE` assembly. For example:  
   
 ```c#  
 <#@ template hostspecific="true" language="C#" #>  
@@ -141,4 +141,4 @@ Number of projects in this VS solution:  <#= dte.Solution.Projects.Count #>
   
 ### What is "T4"?  
   
--   Another name for the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] text template capabilities described here. The previous version, which was not published, was an abbreviation for "Text Template Transformation".
+-   Another name for the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] text template capabilities described here. The previous version, which was not published, was an abbreviation for "Text Template Transformation".

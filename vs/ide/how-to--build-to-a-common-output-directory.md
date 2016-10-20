@@ -1,7 +1,7 @@
 ---
-title: "How to: Build to a Common Output Directory"
+title: "How to: Build to a Common Output Directory | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,7 +33,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Build to a Common Output Directory
-By default, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] builds each project in a solution in its own folder inside the solution. You can change the build output paths of your projects to force all outputs to be placed in the same folder.  
+By default, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] builds each project in a solution in its own folder inside the solution. You can change the build output paths of your projects to force all outputs to be placed in the same folder.  
   
 ### To place all solution outputs in a common directory  
   

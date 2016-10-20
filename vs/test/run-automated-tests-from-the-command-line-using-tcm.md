@@ -1,5 +1,5 @@
 ---
-title: "Run automated tests from the command line using tcm"
+title: "Run automated tests from the command line using tcm | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -31,7 +31,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Run automated tests from the command line using tcm
-You can run test cases with associated automation from the command line using tcm.exe instead of using the user interface provided by [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)]. This enables you to start runs automatically from a batch file. For example, you can then decide to schedule that batch file to run every time that a build is completed.  
+You can run test cases with associated automation from the command line using tcm.exe instead of using the user interface provided by [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)]. This enables you to start runs automatically from a batch file. For example, you can then decide to schedule that batch file to run every time that a build is completed.  
   
  To run these automated test cases so that the test results are part of your test plan, you must use a lab environment. When you start the run from the command line, use tcm.exe. You must specify both the test settings that contain the set of roles that you require to run your tests, and an environment that contains this set of roles. For more information about test settings and environments, see [Setting Up Test Machines to Run Tests or Collect Data](../test/setting-up-test-machines-to-run-tests-or-collect-data.md).  
   
@@ -60,9 +60,9 @@ You can run test cases with associated automation from the command line using tc
   
 |**Parameter**|**Description**|  
 |-------------------|---------------------|  
-|**/collection**:`CollectionURL`|Specifies the URI of the team project collection. The format for the URI is as follows: **http**://*ServerName:Port/VirtualDirectoryName/CollectionName*<br /><br /> If no virtual directory is used, then the format for the URI is as follows:<br /><br /> **http**://*ServerName:Port/CollectionName*<br /><br /> If you do not know the correct path, contact your [!INCLUDE[esprfound](../codequality/includes/esprfound_md.md)] system administrator.|  
+|**/collection**:`CollectionURL`|Specifies the URI of the team project collection. The format for the URI is as follows: **http**://*ServerName:Port/VirtualDirectoryName/CollectionName*<br /><br /> If no virtual directory is used, then the format for the URI is as follows:<br /><br /> **http**://*ServerName:Port/CollectionName*<br /><br /> If you do not know the correct path, contact your [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)] system administrator.|  
 |**/teamproject:** *TeamProjectName*|The team project that you want to use. This team project must be defined in the project collection specified by the **/collection** parameter.|  
-|**/login:** *UserName,Password*|Optional. Specifies the name and password of a user who is logged on to the application-tier server for [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] and who has permissions to run the command.<br /><br /> You would use this option if your Windows credentials do not have the appropriate permissions, or you are using basic authentication, or you are not connected to a domain.<br /><br /> To login to Visual Studio Team Services, you will also need to use **/allowalternatecredentials** listed below.|  
+|**/login:** *UserName,Password*|Optional. Specifies the name and password of a user who is logged on to the application-tier server for [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] and who has permissions to run the command.<br /><br /> You would use this option if your Windows credentials do not have the appropriate permissions, or you are using basic authentication, or you are not connected to a domain.<br /><br /> To login to Visual Studio Team Services, you will also need to use **/allowalternatecredentials** listed below.|  
 |**/allowalternatecredentials**|This flag must be specified in addition to the **/login** parameter when connecting to Visual Studio Team Services. (This flag is only available if you have Visual Studio 2013 Update 4 or greater.)|  
 |**/build**|Optional. Specifies the number of the build that will be associated with the test run. If the /buildDir option is not specified, the drop location of this build will be used to pick up test binaries.|  
 |**/buildDefinition**|Name of the build definition that the build belongs to.|  
@@ -76,7 +76,7 @@ You can run test cases with associated automation from the command line using tc
   
 ##### To list all the configurations in your team project  
   
-1.  Open a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] command prompt.  
+1.  Open a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] command prompt.  
   
      To do this, choose **Start**, point to **All Programs**, point to **Microsoft Visual Studio 2012**, point to **Visual Studio Tools**, and then choose **Developer Command Prompt**.  
   
@@ -103,7 +103,7 @@ You can run test cases with associated automation from the command line using tc
   
 ##### To list all the test plans in your team project  
   
-1.  Open a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] command prompt.  
+1.  Open a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] command prompt.  
   
      To do this, choose **Start**, point to **All Programs**, point to **Microsoft Visual Studio 2012**, point to **Visual Studio Tools**, and then choose **Developer Command Prompt**.  
   
@@ -141,7 +141,7 @@ You can run test cases with associated automation from the command line using tc
   
 ##### To list all the test environments for your team project  
   
-1.  Open a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] command prompt.  
+1.  Open a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] command prompt.  
   
      To do this, choose **Start**, point to **All Programs**, point to **Microsoft Visual Studio 2012**, point to **Visual Studio Tools**, and then choose **Developer Command Prompt**.  
   
@@ -165,7 +165,7 @@ You can run test cases with associated automation from the command line using tc
   
 ##### To list all the test suites in your test plan  
   
-1.  Open a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] command prompt.  
+1.  Open a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] command prompt.  
   
      To do this, choose **Start**, point to **All Programs**, point to **Microsoft Visual Studio 2012**, point to **Visual Studio Tools**, and then choose **Developer Command Prompt**.  
   
@@ -189,7 +189,7 @@ You can run test cases with associated automation from the command line using tc
   
 ##### To create a test run using a test point query  
   
-1.  Open a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] command prompt.  
+1.  Open a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] command prompt.  
   
      To do this, choose **Start**, point to **All Programs**, point to **Microsoft Visual Studio 2012**, point to **Visual Studio Tools**, and then choose **Developer Command Prompt**.  
   
@@ -219,7 +219,7 @@ You can run test cases with associated automation from the command line using tc
   
 ##### To create a test run for a test suite and a specific configuration  
   
-1.  Open a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] command prompt.  
+1.  Open a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] command prompt.  
   
      To do this, choose **Start**, point to **All Programs**, point to **Microsoft Visual Studio 2012**, point to **Visual Studio Tools**, and then choose **Developer Command Prompt**.  
   
@@ -250,10 +250,10 @@ You can run test cases with associated automation from the command line using tc
   
 #### To view and update the test results  
   
-1.  Open [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)].  
+1.  Open [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)].  
   
     > [!NOTE]
-    >  To display the [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] window, choose Start, and then choose All Programs. Point to Microsoft Visual Studio 2012 and then choose Microsoft Test Manager.  
+    >  To display the [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] window, choose Start, and then choose All Programs. Point to Microsoft Visual Studio 2012 and then choose Microsoft Test Manager.  
   
 2.  To view the test results, choose the down-arrow on the center group switcher and choose **Testing Center**.  
   

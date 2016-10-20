@@ -1,7 +1,7 @@
 ---
-title: "How to: Create a .Vsct File"
+title: "How to: Create a .Vsct File | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,7 +33,7 @@ translation.priority.mt:
 # How to: Create a .Vsct File
 There are several ways to create an XML-based Visual Studio Command Table configuration (.vsct) file.  
   
--   You can create a new VSPackage in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Package Template.  
+-   You can create a new VSPackage in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Package Template.  
   
 -   You can use the XML-based command table configuration compiler, Vsct.exe, to generate a file from an existing .ctc file.  
   
@@ -45,7 +45,7 @@ There are several ways to create an XML-based Visual Studio Command Table config
   
 ### To manually create a new .vsct file  
   
-1.  Start [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+1.  Start [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 2.  On the **File** menu, point to **New**, and then click **File**.  
   

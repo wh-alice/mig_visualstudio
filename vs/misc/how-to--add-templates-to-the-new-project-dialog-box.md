@@ -1,7 +1,7 @@
 ---
-title: "How to: Add Templates to the New Project Dialog Box"
+title: "How to: Add Templates to the New Project Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,7 +33,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # How to: Add Templates to the New Project Dialog Box
-A number of predefined project templates are installed during [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] installation. For a complete list of predefined project templates, see [NIB Creating Projects from Templates](http://msdn.microsoft.com/en-us/7c36d86a-6b79-4480-8228-0f925f1204b2). In addition to default project templates you can create custom or subtype-specific project templates. For example, the **Smart Device** subtype provides its own templates for [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] and [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] projects. For instructions on how to create a custom template, see [How to: Create Project Templates](../ide/how-to--create-project-templates.md).  
+A number of predefined project templates are installed during [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] installation. For a complete list of predefined project templates, see [NIB Creating Projects from Templates](http://msdn.microsoft.com/en-us/7c36d86a-6b79-4480-8228-0f925f1204b2). In addition to default project templates you can create custom or subtype-specific project templates. For example, the **Smart Device** subtype provides its own templates for [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] and [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] projects. For instructions on how to create a custom template, see [How to: Create Project Templates](../ide/how-to--create-project-templates.md).  
   
 ## Adding a Template to the New Project Dialog Box  
   

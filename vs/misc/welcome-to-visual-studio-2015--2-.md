@@ -1,5 +1,5 @@
 ---
-title: "Welcome to Visual Studio 2015 (2)"
+title: "Welcome to Visual Studio 2015 (2) | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.reviewer: ""
@@ -12,8 +12,8 @@ caps.latest.revision: 5
 # Welcome to Visual Studio 2015 (2)
 |||||  
 |-|-|-|-|  
-|![HomePageTools&#95;VS2015](../misc/media/homepagetools_vs2015.png "HomePageTools_VS2015")<br /><br /> **Tools**|![Devices](../crossplatform/media/homedevices.png "HomeDevices")<br /><br /> **Devices**|![HomePageCloud&#95;vs2015](../misc/media/homepagecloud_vs2015.png "HomePageCloud_vs2015")<br /><br /> **Web**|![HomePageLanguages&#95;VS2015](../misc/media/homepagelanguages_vs2015.png "HomePageLanguages_VS2015")<br /><br /> **Languages**|  
-|[Designers](../designers/designing-user-interfaces.md), [editors](../ide/writing-code-in-the-code-and-text-editor.md), [Debuggers](../debugger/debugging-in-visual-studio.md),[profilers](../profiling/beginners-guide-to-performance-profiling.md) -- all packaged up in a single environment.|Tools for [Apache Cordova with Visual Studio](../Topic/Build%20cross-platform%20apps%20with%20Visual%20Studio%20Tools%20for%20Apache%20Cordova.md) and [Visual Studio Tools for Unity](../crossplatform/visual-studio-tools-for-unity.md) to reach even more platforms.|Extensive web support for [ASP.NET](http://www.asp.net/), Node.js, and [JavaScript](../Topic/JavaScript%20Language%20Reference.md).|Code in [C++](../Topic/Visual%20C++%20in%20Visual%20Studio%202015.md), [C#](../Topic/C%23.md), [VB](../Topic/Visual%20Basic.md), [JavaScript](../Topic/JavaScript%20Language%20Reference.md), [F#](../Topic/F%23%20Language%20Reference.md), [Python](http://pytools.codeplex.com/documentation), and Java.|  
+|![HomePageTools&#95;VS2015](../misc/media/homepagetools_vs2015.png "HomePageTools_VS2015")<br /><br /> **Tools**|![Devices](../cross-platform/media/homedevices.png "HomeDevices")<br /><br /> **Devices**|![HomePageCloud&#95;vs2015](../misc/media/homepagecloud_vs2015.png "HomePageCloud_vs2015")<br /><br /> **Web**|![HomePageLanguages&#95;VS2015](../misc/media/homepagelanguages_vs2015.png "HomePageLanguages_VS2015")<br /><br /> **Languages**|  
+|[Designers](../designers/designing-user-interfaces.md), [editors](../ide/writing-code-in-the-code-and-text-editor.md), [Debuggers](../debugger/debugging-in-visual-studio.md),[profilers](../profiling/beginners-guide-to-performance-profiling.md) -- all packaged up in a single environment.|Tools for [Apache Cordova with Visual Studio](../Topic/Build%20cross-platform%20apps%20with%20Visual%20Studio%20Tools%20for%20Apache%20Cordova.md) and [Visual Studio Tools for Unity](../cross-platform/visual-studio-tools-for-unity.md) to reach even more platforms.|Extensive web support for [ASP.NET](http://www.asp.net/), Node.js, and [JavaScript](../Topic/JavaScript%20Language%20Reference.md).|Code in [C++](../Topic/Visual%20C++%20in%20Visual%20Studio%202015.md), [C#](../Topic/C%23.md), [VB](../Topic/Visual%20Basic.md), [JavaScript](../Topic/JavaScript%20Language%20Reference.md), [F#](../Topic/F%23%20Language%20Reference.md), [Python](http://pytools.codeplex.com/documentation), and Java.|  
   
  Welcome to Visual Studio! We’ve got everything you need to create great apps for devices or desktop apps, for the web and in the cloud. Write code for iOS, Android, and Windows in one IDE. Get great IntelliSense, easy code navigation, fast builds, and quick deployment. Visual Studio increases your productivity and makes it easy to do your work alone or as part of a larger team.  
   
@@ -35,21 +35,21 @@ caps.latest.revision: 5
  Find [existing extensions for the VS IDE](https://visualstudiogallery.msdn.microsoft.com/) created by Microsoft developers as well as our development community.  
   
 ## Build apps for Android, iOS, and Windows  
- You can use Visual Studio to build apps for Android, iOS, and Windows devices. Learn more about it at [Cross-Platform Mobile Development](../crossplatform/cross-platform-mobile-development-in-visual-studio.md).  
+ You can use Visual Studio to build apps for Android, iOS, and Windows devices. Learn more about it at [Cross-Platform Mobile Development](../cross-platform/cross-platform-mobile-development-in-visual-studio.md).  
   
  For information about Universal Windows Apps (UWP), see [Universal Windows Apps](https://dev.windows.com/en-us/windows-apps).  
   
  Choose the tools you need based on your app requirements and the language you want to use.  
   
-1.  [Xamarin for Visual Studio](../crossplatform/build-apps-with-native-ui-using-xamarin-in-visual-studio.md): A common code base in C# for all devices  
+1.  [Xamarin for Visual Studio](../cross-platform/build-apps-with-native-ui-using-xamarin-in-visual-studio.md): A common code base in C# for all devices  
   
 2.  [Apache Cordova with Visual Studio](../Topic/Get%20Started%20with%20Visual%20Studio%20Tools%20for%20Apache%20Cordova1.md): A common code base for HTML, CSS, and JavaScript or Typescript  
   
-3.  [Visual Studio Tools for Unity](../crossplatform/visual-studio-tools-for-unity.md): 2D/3D game development in C#  
+3.  [Visual Studio Tools for Unity](../cross-platform/visual-studio-tools-for-unity.md): 2D/3D game development in C#  
   
-4.  [C++ for Cross-Platform Development](../crossplatform/visual-c---for-cross-platform-mobile-development.md): Shared code libraries and apps in C++  
+4.  [C++ for Cross-Platform Development](../cross-platform/visual-c---for-cross-platform-mobile-development.md): Shared code libraries and apps in C++  
   
-5.  [Visual Studio Emulator for Android](../crossplatform/visual-studio-emulator-for-android.md): Visual Studio Emulator for Android: Debug and test your Android apps no matter the IDE  
+5.  [Visual Studio Emulator for Android](../cross-platform/visual-studio-emulator-for-android.md): Visual Studio Emulator for Android: Debug and test your Android apps no matter the IDE  
   
 ## Connect your apps to services  
  You can connect to these services out of the box (assuming that you have an account for each service):  
@@ -72,7 +72,7 @@ caps.latest.revision: 5
  You can [build your app locally](../ide/compiling-and-building-in-visual-studio.md) and make sure that it works correctly. Then use the [debugging tools](../debugger/debugging-in-visual-studio.md) to fix any issues with your app. Or you can build projects on shared build servers or in the cloud. Automate your build process to build the code that the devs on your team have checked into version control. For example, you can build one or more projects nightly or every time that code is checked in.  
   
 ### Test your app  
- [Create unit tests](../codequality/unit-test-your-code.md) to improve the quality of your app. These tests can be run every time you check in, and as part of your build.  
+ [Create unit tests](../code-quality/unit-test-your-code.md) to improve the quality of your app. These tests can be run every time you check in, and as part of your build.  
   
  Plan, create and run manual and automated tests for your app. Test plans, suites, test cases and your test results are stored in the cloud with Visual Studio Team Services or on-premises with Team Foundation Server. Learn more about [testing the application](Title%20Changed%20Date%20Checked%20Out%20By%20Project%20Name%20TOC%20Bucket%20Name).  
   
@@ -99,7 +99,7 @@ caps.latest.revision: 5
   
 5.  [Extensibility in Visual Studio](../extensibility/extensibility-in-visual-studio.md)  
   
-6.  [Cross-Platform Mobile Development](../crossplatform/cross-platform-mobile-development-in-visual-studio.md)  
+6.  [Cross-Platform Mobile Development](../cross-platform/cross-platform-mobile-development-in-visual-studio.md)  
   
 7.  [C# and Visual Basic Shared Programming Concepts](../Topic/C%23%20and%20Visual%20Basic%20Shared%20Programming%20Concepts.md)  
   

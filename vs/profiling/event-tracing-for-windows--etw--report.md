@@ -1,7 +1,7 @@
 ---
-title: "Event Tracing for Windows (ETW) Report"
+title: "Event Tracing for Windows (ETW) Report | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,12 +32,12 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Event Tracing for Windows (ETW) Report
-The Event Tracing for Windows (ETW) report lists the ETW events that were recorded in a performance session of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Profiling Tools. ETW data is collected in a binary (.etl) file.  
+The Event Tracing for Windows (ETW) report lists the ETW events that were recorded in a performance session of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools. ETW data is collected in a binary (.etl) file.  
   
 > [!NOTE]
->  You cannot display ETW reports in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] interface.  
+>  You cannot display ETW reports in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] interface.  
   
--   For information about how to collect ETW by using the Profiling Tools from [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] interface, see [How to: Collect Event Tracing for Windows (ETW) Data](../profiling/how-to--collect-event-tracing-for-windows--etw--data.md).  
+-   For information about how to collect ETW by using the Profiling Tools from [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] interface, see [How to: Collect Event Tracing for Windows (ETW) Data](../profiling/how-to--collect-event-tracing-for-windows--etw--data.md).  
   
 -   For information about how to collect ETW data by using the [VSPerfCmd](../profiling/vsperfcmd.md) command line tools, see [Events](../profiling/events--vsperfcmd-.md).  
   

@@ -1,7 +1,7 @@
 ---
-title: "Export UML diagrams to image files"
+title: "Export UML diagrams to image files | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -27,7 +27,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Export UML diagrams to image files
-You can export a UML document from [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] to an image that is under program control. For example, you might want to do this as part of automatic document generation.  
+You can export a UML document from [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to an image that is under program control. For example, you might want to do this as part of automatic document generation.  
   
  If you want to export a document to an image manually, you can copy and paste the shapes from a diagram into other programs such as Word. You can also print documents to XPS format. For more information, see [Export diagrams as images](../modeling/export-diagrams-as-images.md).  
   

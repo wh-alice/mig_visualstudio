@@ -1,7 +1,7 @@
 ---
-title: "Walkthrough: Adding Features to a Custom Editor"
+title: "Walkthrough: Adding Features to a Custom Editor | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -151,7 +151,7 @@ After you create a custom editor, you can add more features to it.
     > [!NOTE]
     >  The `IOleInPlaceComponent` interface is used to avoid OLE 2 menu merging.  
   
-     Your `IOleCommandTarget` implementation handles commands such as **Cut**, **Copy**, and **Paste**. When implementing `IOleCommandTarget`, decide whether your editor requires its own .vsct file to define its own command menu structure or if it can implement standard commands defined by [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. Typically, editors use and extend the IDE's menus and define their own toolbars. However, it often is necessary for an editor to define its own specific commands in addition to using the IDE's standard command set. To do this, your editor must declare the standard commands it uses and then define any new commands, context menus, top-level menus and toolbars in a .vsct file. If you create an in-place activation editor, then implement <xref:Microsoft.VisualStudio.Shell.Interop.IOleInPlaceComponent> and define the menus and toolbars for the editor in a .vsct file instead of using OLE 2 menu merging.  
+     Your `IOleCommandTarget` implementation handles commands such as **Cut**, **Copy**, and **Paste**. When implementing `IOleCommandTarget`, decide whether your editor requires its own .vsct file to define its own command menu structure or if it can implement standard commands defined by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Typically, editors use and extend the IDE's menus and define their own toolbars. However, it often is necessary for an editor to define its own specific commands in addition to using the IDE's standard command set. To do this, your editor must declare the standard commands it uses and then define any new commands, context menus, top-level menus and toolbars in a .vsct file. If you create an in-place activation editor, then implement <xref:Microsoft.VisualStudio.Shell.Interop.IOleInPlaceComponent> and define the menus and toolbars for the editor in a .vsct file instead of using OLE 2 menu merging.  
   
 -   To prevent menu command crowding in the UI, you should use the existing commands in the IDE before inventing new commands. Shared commands are defined in SharedCmdDef.vsct and ShellCmdDef.vsct. These files are installed by default in the VisualStudioIntegration\Common\Inc subdirectory of your [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] installation.  
   

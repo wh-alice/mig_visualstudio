@@ -1,7 +1,7 @@
 ---
-title: "Legacy Language Service Essentials"
+title: "Legacy Language Service Essentials | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -57,5 +57,5 @@ You must provide a language service to integrate a programming language into Vis
   
 |Feature|Description|  
 |-------------|-----------------|  
-|Expression evaluators|Supports the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] debugger by validating breakpoints and supplying a list of expressions to be displayed in the **Autos** debug window.<br /><br /> For more information, see [Language Service Support for Debugging](../extensibility/language-service-support-for-debugging.md).|  
+|Expression evaluators|Supports the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger by validating breakpoints and supplying a list of expressions to be displayed in the **Autos** debug window.<br /><br /> For more information, see [Language Service Support for Debugging](../extensibility/language-service-support-for-debugging.md).|  
 |Symbol-browsing tools|Supports **Object Browser**, **Class View**, **Call Browser**, and **Find Symbol Results**.|

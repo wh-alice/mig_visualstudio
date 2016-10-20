@@ -1,7 +1,7 @@
 ---
-title: "Quickstart: Debug HTML and CSS"
+title: "Quickstart: Debug HTML and CSS | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -42,9 +42,9 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Quickstart: Debug HTML and CSS
-![Applies to Windows and Windows Phone](../codequality/media/windows_and_phone_content.png "windows_and_phone_content")  
+![Applies to Windows and Windows Phone](../code-quality/media/windows_and_phone_content.png "windows_and_phone_content")  
   
- For JavaScript apps, Visual Studio provides a comprehensive debugging experience that includes features that are familiar to Internet Explorer and Visual Studio developers. These features are supported for [!INCLUDE[win8_appname_long](../codequality/includes/win8_appname_long_md.md)], Windows Phone Store apps, and for apps created using Visual Studio Tools for Apache Cordova  
+ For JavaScript apps, Visual Studio provides a comprehensive debugging experience that includes features that are familiar to Internet Explorer and Visual Studio developers. These features are supported for [!INCLUDE[win8_appname_long](../code-quality/includes/win8_appname_long_md.md)], Windows Phone Store apps, and for apps created using Visual Studio Tools for Apache Cordova  
   
  Using the interactive debugging model provided by the DOM inspection tools, you can view and modify the rendered HTML and CSS code. You can do all this without stopping and restarting the debugger.  
   
@@ -299,13 +299,13 @@ translation.priority.mt:
 ##  <a name="BrowserSupport"></a> Browser and Platform Support  
  The Visual Studio tools for JavaScript, the DOM Explorer, and the JavaScript Console window are supported on the following platforms:  
   
--   [!INCLUDE[win8_appname_long](../codequality/includes/win8_appname_long_md.md)] and Windows Phone Store apps using JavaScript and HTML  
+-   [!INCLUDE[win8_appname_long](../code-quality/includes/win8_appname_long_md.md)] and Windows Phone Store apps using JavaScript and HTML  
   
 -   Internet Explorer 11 running on [!INCLUDE[win81](../debugger/includes/win81_md.md)]  
   
--   Internet Explorer 10 running on [!INCLUDE[win8](../codequality/includes/win8_md.md)]  
+-   Internet Explorer 10 running on [!INCLUDE[win8](../code-quality/includes/win8_md.md)]  
   
- Go [here](http://go.microsoft.com/fwlink/?LinkID=232448) to download [!INCLUDE[win8](../codequality/includes/win8_md.md)] and Visual Studio.  
+ Go [here](http://go.microsoft.com/fwlink/?LinkID=232448) to download [!INCLUDE[win8](../code-quality/includes/win8_md.md)] and Visual Studio.  
   
 ## See Also  
  [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md)   

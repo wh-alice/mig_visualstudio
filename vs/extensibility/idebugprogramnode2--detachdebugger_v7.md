@@ -1,7 +1,7 @@
 ---
-title: "IDebugProgramNode2::DetachDebugger_V7"
+title: "IDebugProgramNode2::DetachDebugger_V7 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -54,7 +54,7 @@ int DetachDebugger_V7 ();
 ## Remarks  
   
 > [!WARNING]
->  As of [!INCLUDE[vsprvslong](../codequality/includes/vsprvslong_md.md)], this method is no longer used and should always return `E_NOTIMPL`.  
+>  As of [!INCLUDE[vsprvslong](../code-quality/includes/vsprvslong_md.md)], this method is no longer used and should always return `E_NOTIMPL`.  
   
  This method is called when the debugger unexpectedly quits. When this method is called, the DE should resume the program as though the user detached from it. No more debug events should be sent. The program should be in a state where it is attachable from another instance of the debugger.  
   

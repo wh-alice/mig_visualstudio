@@ -1,7 +1,7 @@
 ---
-title: "Importing Settings"
+title: "Importing Settings | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,16 +34,16 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Importing Settings
-The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE) uses the classes that implement the <xref:Microsoft.VisualStudio.Shell.IProfileManager> interface and are registered to support a VSPackage implementation. This implementation is used to retrieve the state of a VSPackage.  
+The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) uses the classes that implement the <xref:Microsoft.VisualStudio.Shell.IProfileManager> interface and are registered to support a VSPackage implementation. This implementation is used to retrieve the state of a VSPackage.  
   
- Because the IDE instantiates the class that implements the <xref:Microsoft.VisualStudio.Shell.IProfileManager> interface to support the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] settings, the <xref:Microsoft.VisualStudio.Shell.IProfileManager> interface should be implemented in an independent class.  
+ Because the IDE instantiates the class that implements the <xref:Microsoft.VisualStudio.Shell.IProfileManager> interface to support the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] settings, the <xref:Microsoft.VisualStudio.Shell.IProfileManager> interface should be implemented in an independent class.  
   
 > [!NOTE]
 >  Do not implement <xref:Microsoft.VisualStudio.Shell.IProfileManager> on the class that implements <xref:Microsoft.VisualStudio.Shell.Package>.  
   
 ### To implement Settings Export  
   
-1.  Declare the class that implements the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] settings.  
+1.  Declare the class that implements the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] settings.  
   
      Declare a class as implementing <xref:Microsoft.VisualStudio.Shell.IProfileManager> and provide it with a `GUID`.  
   
@@ -133,9 +133,9 @@ The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated developm
           }  
         ```  
   
-    -   Prior to actually retrieving stored settings, an implementation of the <xref:Microsoft.VisualStudio.Shell.IProfileManager.LoadSettingsFromXml*> method should use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSettingsReader.ReadFileVersion*> method to verify that version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] that exports the stored settings is supported.  
+    -   Prior to actually retrieving stored settings, an implementation of the <xref:Microsoft.VisualStudio.Shell.IProfileManager.LoadSettingsFromXml*> method should use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSettingsReader.ReadFileVersion*> method to verify that version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] that exports the stored settings is supported.  
   
-         In the case of the example below, the implementation checks to see if settings were produced by a version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] with a major version number of `m_supportVer`, and if not, signals an error.  
+         In the case of the example below, the implementation checks to see if settings were produced by a version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] with a major version number of `m_supportVer`, and if not, signals an error.  
   
         ```vb#  
         If pnMajor <> m_supportVer Then   
@@ -149,7 +149,7 @@ The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated developm
         }  
         ```  
   
-    -   The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] settings file supports random data access, so the order of read and writer settings operations is not important. In the example below, the order of writer operations in the implementation of the <xref:Microsoft.VisualStudio.Shell.IProfileManager.SaveSettingsToXml*> method is opposite of the read operations in the <xref:Microsoft.VisualStudio.Shell.IProfileManager.LoadSettingsFromXml*> method.  
+    -   The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] settings file supports random data access, so the order of read and writer settings operations is not important. In the example below, the order of writer operations in the implementation of the <xref:Microsoft.VisualStudio.Shell.IProfileManager.SaveSettingsToXml*> method is opposite of the read operations in the <xref:Microsoft.VisualStudio.Shell.IProfileManager.LoadSettingsFromXml*> method.  
   
     -   The value of the `pszSettingName` argument supplied to a method of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSettingsWriter> interface must uniquely identify each of data element saved within a settings category.  
   
@@ -226,7 +226,7 @@ The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated developm
     class MyPackage: Package   
     ```  
   
-     In this case, the attribute informs the IDE that the `MyPackageProfileManager` class provides a settings implementation to the `MyPackage` class. The Custom Settings Point in the registry is created under HKLM\Software\Microsoft\VisualStudio\\*\<Version>*\UserSettings\ CoreUI_MyPackage, where *\<Version>* is the version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], for example 8.0.  
+     In this case, the attribute informs the IDE that the `MyPackageProfileManager` class provides a settings implementation to the `MyPackage` class. The Custom Settings Point in the registry is created under HKLM\Software\Microsoft\VisualStudio\\*\<Version>*\UserSettings\ CoreUI_MyPackage, where *\<Version>* is the version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], for example 8.0.  
   
      For more information, see [Support for User Settings](../extensibility/support-for-user-settings.md) and <xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute>  
   

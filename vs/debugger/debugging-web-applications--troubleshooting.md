@@ -1,7 +1,7 @@
 ---
-title: "Debugging Web Applications: Troubleshooting"
+title: "Debugging Web Applications: Troubleshooting | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -49,4 +49,4 @@ This section contains common procedures that can be used to resolve errors.
  Explains troubleshooting and error resolution.  
   
  [Debugging Web Applications and Script](../debugger/debugging-web-applications-and-script.md)  
- Overview of debugging Web applications such as [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)], XML Web services, and ATL server projects.
+ Overview of debugging Web applications such as [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)], XML Web services, and ATL server projects.

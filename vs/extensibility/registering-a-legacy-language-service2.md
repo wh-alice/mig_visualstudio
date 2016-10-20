@@ -1,7 +1,7 @@
 ---
-title: "Registering a Legacy Language Service2"
+title: "Registering a Legacy Language Service2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,9 +33,9 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Registering a Legacy Language Service
-The following sections provide lists of registry entries for the various language service options available in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+The following sections provide lists of registry entries for the various language service options available in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
- In the following list of registry entries, *VS Reg Root* is equal to HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*X.Y*, where *X.Y* is the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] version number.  
+ In the following list of registry entries, *VS Reg Root* is equal to HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*X.Y*, where *X.Y* is the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] version number.  
   
 ## Registry Entries for Language Service Options  
  The *VS Reg Root*\Languages\Language Services\\*Language Name* key can contain the following values.  

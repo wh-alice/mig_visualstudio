@@ -1,7 +1,7 @@
 ---
-title: "How to: Create a Profiling Tools ETW Report"
+title: "How to: Create a Profiling Tools ETW Report | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -29,12 +29,12 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Create a Profiling Tools ETW Report
-The Event Tracing for Windows (ETW) report lists the ETW events that are recorded in a performance session of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Profiling Tools. ETW data is collected in a binary (.etl) file. For more information about this report, see [Event Tracing for Windows (ETW) Report](../profiling/event-tracing-for-windows--etw--report.md).  
+The Event Tracing for Windows (ETW) report lists the ETW events that are recorded in a performance session of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools. ETW data is collected in a binary (.etl) file. For more information about this report, see [Event Tracing for Windows (ETW) Report](../profiling/event-tracing-for-windows--etw--report.md).  
   
 > [!NOTE]
->  You cannot display ETW reports in the interface for [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+>  You cannot display ETW reports in the interface for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
--   For information about how to collect ETW data by using the interface for [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], see [How to: Collect Event Tracing for Windows (ETW) Data](../profiling/how-to--collect-event-tracing-for-windows--etw--data.md).  
+-   For information about how to collect ETW data by using the interface for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], see [How to: Collect Event Tracing for Windows (ETW) Data](../profiling/how-to--collect-event-tracing-for-windows--etw--data.md).  
   
 -   For information about how to collect ETW data from a command prompt, see [VSPerfCmd](../profiling/vsperfcmd.md) and [Events](../profiling/events--vsperfcmd-.md).  
   

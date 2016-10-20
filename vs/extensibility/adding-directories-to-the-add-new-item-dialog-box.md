@@ -1,7 +1,7 @@
 ---
-title: "Adding Directories to the Add New Item Dialog Box"
+title: "Adding Directories to the Add New Item Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -63,7 +63,7 @@ NoRemove Projects
  The SortPriority value specifies a sorting priority.  
   
 ## Adding Items to an Existing Project  
- You can also add items to an existing project. For example, for a [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] project, you can add items to the \<root>\Program Files\Microsoft Visual Studio \VC#\CSharpProjectItems\LocalProjectItems folder. In this case the `%GUID_Project%` is the GUID for a C# project ({FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}).  
+ You can also add items to an existing project. For example, for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] project, you can add items to the \<root>\Program Files\Microsoft Visual Studio \VC#\CSharpProjectItems\LocalProjectItems folder. In this case the `%GUID_Project%` is the GUID for a C# project ({FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}).  
   
  You can also extend an existing project by programming a project subtype. With a project subtype, you can extend a project without writing a new project type. For more information about project subtypes, see [Project Subtypes](../extensibility/project-subtypes.md).  
   

@@ -1,7 +1,7 @@
 ---
-title: "&#39;For&#39; loop control variable already in use by an enclosing &#39;For&#39; loop"
+title: "&#39;For&#39; loop control variable already in use by an enclosing &#39;For&#39; loop | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

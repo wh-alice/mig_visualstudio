@@ -1,7 +1,7 @@
 ---
-title: "VbStrConv.Wide and VbStrConv.Narrow are not applicable to the locale specified"
+title: "VbStrConv.Wide and VbStrConv.Narrow are not applicable to the locale specified | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB3256"
+title: "MSBuild Error MSB3256 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -42,7 +42,7 @@ translation.priority.mt:
   
 ### To correct this error  
   
--   Either provide a valid redist list named FrameworkList.xml, or target the full [!INCLUDE[net_v35_short](../misc/includes/net_v35_short_md.md)] redistributable library. For information about how to target the full [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)], see [How to: Target a Version of the .NET Framework](../ide/how-to--target-a-version-of-the-.net-framework.md).  
+-   Either provide a valid redist list named FrameworkList.xml, or target the full [!INCLUDE[net_v35_short](../misc/includes/net_v35_short_md.md)] redistributable library. For information about how to target the full [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], see [How to: Target a Version of the .NET Framework](../ide/how-to--target-a-version-of-the-.net-framework.md).  
   
 ## See Also  
  [Target Framework and Target Platform](../reference/msbuild-target-framework-and-target-platform.md)   

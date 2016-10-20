@@ -1,13 +1,13 @@
 ---
-title: "Troubleshooting Exceptions: System.Data.SqlServerCe.SqlCeInvalidDatabaseFormatException"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Troubleshooting Exceptions: System.Data.SqlServerCe.SqlCeInvalidDatabaseFormatException | Microsoft Docs"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "SqlCeInvalidDatabaseFormatException exception"
@@ -36,7 +36,7 @@ translation.priority.mt:
 A `System.Data.SqlServerCe.SqlCeInvalidDatabaseFormatException` exception occurs when SQL Server Compact opens a database file that was created in an earlier version of the product.  
   
 ## Remarks  
- You can update the database file by using [!INCLUDE[vs_orcas_long](../codequality/includes/vs_orcas_long_md.md)] or by using the API `System.Data.SqlServerCe.SqlCeEngine.Upgrade`.  
+ You can update the database file by using [!INCLUDE[vs_orcas_long](../code-quality/includes/vs_orcas_long_md.md)] or by using the API `System.Data.SqlServerCe.SqlCeEngine.Upgrade`.  
   
  For more information, see [SQL Server Compact 3.5 Class Library](http://go.microsoft.com/fwlink/?LinkID=102595).  
   

@@ -1,7 +1,7 @@
 ---
-title: "Edit and Continue (Visual Basic)"
+title: "Edit and Continue (Visual Basic) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -41,7 +41,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Edit and Continue (Visual Basic)
-Edit and Continue is a feature for [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] debugging that enables you to change your code while it is executing in Break mode. After code edits have been applied, you can resume code execution with the new edits in place and see the effect.  
+Edit and Continue is a feature for [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] debugging that enables you to change your code while it is executing in Break mode. After code edits have been applied, you can resume code execution with the new edits in place and see the effect.  
   
  You can use the Edit and Continue feature whenever you enter Break mode. In Break mode, the instruction pointer, a yellow arrowhead in the source window, points to the line that will be executed next, and will be located on an executable statement within a method or property body. You can make almost any kind of change to executable statements while in Break mode, and the change will be incorporated into the underlying project. While in Break mode, however, you are generally not allowed to change declaration statements, such as public methods, public fields, or class declarations.  
   
@@ -58,7 +58,7 @@ Edit and Continue is a feature for [!INCLUDE[vbprvb](../codequality/includes/vbp
  Explains how to apply code edits in Break mode.  
   
  [Unsupported Edits in Visual Basic Edit and Continue](../debugger/unsupported-edits-in-visual-basic-edit-and-continue.md)  
- Describes what types of edits cannot be performed in [!INCLUDE[vb_current_short](../codequality/includes/vb_current_short_md.md)] Edit and Continue.  
+ Describes what types of edits cannot be performed in [!INCLUDE[vb_current_short](../code-quality/includes/vb_current_short_md.md)] Edit and Continue.  
   
 ## Related Sections  
  [Edit and Continue](../debugger/edit-and-continue.md)  

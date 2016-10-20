@@ -1,5 +1,5 @@
 ---
-title: "How to: Select Different Test Configurations For a Test Plan or a Test Suite"
+title: "How to: Select Different Test Configurations For a Test Plan or a Test Suite | Microsoft Docs"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

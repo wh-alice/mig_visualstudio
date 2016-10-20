@@ -1,5 +1,5 @@
 ---
-title: "How to: Locate the Visual Studio Product Key"
+title: "How to: Locate the Visual Studio Product Key | Microsoft Docs"
 ms.custom: ""
 ms.date: "2016-09-01"
 ms.prod: "visual-studio-dev14"
@@ -33,7 +33,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # How to: Locate the Visual Studio Product Key
-You may want to locate the product key for [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] when you are working with customer support, upgrading from a trial version, or updating your own records.  
+You may want to locate the product key for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] when you are working with customer support, upgrading from a trial version, or updating your own records.  
   
 ### To find the product key for Visual Studio  
   

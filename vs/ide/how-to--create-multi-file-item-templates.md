@@ -1,7 +1,7 @@
 ---
-title: "How to: Create Multi-file Item Templates"
+title: "How to: Create Multi-file Item Templates | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -41,7 +41,7 @@ Item templates may only specify one item, but sometimes the item is made up of m
   
 -   A .resx file that contains the embedded resources for the form.  
   
- Multi-file item templates require parameters to ensure the correct file name extensions are used when the item is created in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. If you create an item template by using the **Export Template** wizard, these parameters are automatically generated, and no further editing is required. The following steps explain how to use parameters to ensure that the correct file name extensions are created.  
+ Multi-file item templates require parameters to ensure the correct file name extensions are used when the item is created in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. If you create an item template by using the **Export Template** wizard, these parameters are automatically generated, and no further editing is required. The following steps explain how to use parameters to ensure that the correct file name extensions are created.  
   
 ### To manually create a multi-file item template  
   
@@ -68,7 +68,7 @@ Item templates may only specify one item, but sometimes the item is made up of m
 4.  Put the .zip file in the user item template location. By default, the directory is \My Documents\Visual Studio *Version*\Templates\ItemTemplates\\. For more information, see [How to: Locate and Organize Templates](../ide/how-to--locate-and-organize-project-and-item-templates.md).  
   
 ## Example  
- The following example shows a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Windows Forms template. When an item is created based on this template, the names of the three files created will match the name entered in the **Add New Item** dialog box.  
+ The following example shows a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Windows Forms template. When an item is created based on this template, the names of the three files created will match the name entered in the **Add New Item** dialog box.  
   
 ```  
 <VSTemplate Version="2.0.0" Type="Item"  

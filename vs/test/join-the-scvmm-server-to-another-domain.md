@@ -1,7 +1,7 @@
 ---
-title: "Join the SCVMM server to another domain"
+title: "Join the SCVMM server to another domain | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -43,11 +43,11 @@ Occasionally, it might be necessary to change your [!INCLUDE[vstsTfsShort](../mo
   
     3.  Delete the host groups.  
   
-2.  Delete all lab artifacts from [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] Library Center:  
+2.  Delete all lab artifacts from [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] Library Center:  
   
      In the **Lab** tab, delete the environments. In the **Library** tab, delete the virtual machines and the environments.  
   
-     Because the hosts and library servers are no longer associated with SCVMM, removing these items from [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] does not delete the actual virtual machines and VHDs.  
+     Because the hosts and library servers are no longer associated with SCVMM, removing these items from [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] does not delete the actual virtual machines and VHDs.  
   
 3.  Unconfigure SCVMM from Team Foundation Server.  
   
@@ -89,6 +89,6 @@ Occasionally, it might be necessary to change your [!INCLUDE[vstsTfsShort](../mo
   
      For more information, see [How to: Import a Virtual Machine or Template from SCVMM](../test/how-to--import-a-virtual-machine-or-template-from-scvmm.md).  
   
-6.  Compose virtual machines into environments in [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)].  
+6.  Compose virtual machines into environments in [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)].  
   
      For more information, see [How to: Store an SCVMM Environment](../test/how-to--store-an-scvmm-environment.md).

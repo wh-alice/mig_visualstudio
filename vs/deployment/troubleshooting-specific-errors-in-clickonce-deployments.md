@@ -1,7 +1,7 @@
 ---
-title: "Troubleshooting Specific Errors in ClickOnce Deployments"
+title: "Troubleshooting Specific Errors in ClickOnce Deployments | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -49,7 +49,7 @@ This topic lists the following common errors that can occur when you deploy a [!
   
  First, make sure that the server is configured to associate the .application extension with content type "application/x-ms-application".  
   
- If the server is configured correctly, ensure that the [!INCLUDE[dnprdnlong](../codequality/includes/dnprdnlong_md.md)] is installed on your computer. If the [!INCLUDE[dnprdnlong](../codequality/includes/dnprdnlong_md.md)] is installed, and you are still seeing this problem, try uninstalling and reinstalling the [!INCLUDE[dnprdnlong](../codequality/includes/dnprdnlong_md.md)] to re-register the content type on the client.  
+ If the server is configured correctly, ensure that the [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)] is installed on your computer. If the [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)] is installed, and you are still seeing this problem, try uninstalling and reinstalling the [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)] to re-register the content type on the client.  
   
 #### Error message says, "Unable to retrieve application. Files missing in deployment" or "Application download has been interrupted, check for network errors and try again later"  
  This message indicates that one or more files being referenced by the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] manifests cannot be downloaded. The easiest way to debug this error is to try to download the URL that [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] says it cannot download. Here are some possible causes:  
@@ -72,7 +72,7 @@ This topic lists the following common errors that can occur when you deploy a [!
  For more information, see "Windows Server 2003: Locked-Down Content Types" in [Server and Client Configuration Issues in ClickOnce Deployments](../deployment/server-and-client-configuration-issues-in-clickonce-deployments.md).  
   
 #### Error message: "Application is improperly formatted;" Log file contains "XML signature is invalid"  
- Ensure that you updated the manifest file and signed it again. Republish your application by using [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] or use Mage to sign the application again.  
+ Ensure that you updated the manifest file and signed it again. Republish your application by using [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] or use Mage to sign the application again.  
   
 #### You updated your application on the server, but the client does not download the update  
  This problem might be solved by completing one of the following tasks:  

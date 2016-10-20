@@ -1,7 +1,7 @@
 ---
-title: "Using VSTest.console from the command line"
+title: "Using VSTest.console from the command line | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -27,7 +27,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Using VSTest.console from the command line
-Run either unit or coded UI tests from the command line with VSTest.Console.exe. It is optimized for performance and is used in place of MSTest.exe in [!INCLUDE[vs_dev11_long](../codequality/includes/vs_dev11_long_md.md)] or later versions.  
+Run either unit or coded UI tests from the command line with VSTest.Console.exe. It is optimized for performance and is used in place of MSTest.exe in [!INCLUDE[vs_dev11_long](../code-quality/includes/vs_dev11_long_md.md)] or later versions.  
   
  Specify multiple options in any order on the VSTest.Console.exe command line. These options are listed in the General Command Line Options table below.  
   
@@ -36,7 +36,7 @@ Run either unit or coded UI tests from the command line with VSTest.Console.exe.
  The following table lists all the options for VSTest.Console.exe and short descriptions of them. You can see a similar summary by typing **VSTest.Console/?** at a command line. VSTest.Console.exe is located here: **C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TestWindow**.  
   
 > [!NOTE]
->  The MSTest adapter in [!INCLUDE[vs_dev11_long](../codequality/includes/vs_dev11_long_md.md)] also works in legacy mode (equivalent of running tests with mstest.exe) for compatibility. In legacy mode, it cannot take advantage of new VS11 features TestCaseFilter. Adapter can switch to legacy mode when .testsettings file is specified, **forcelegacymode** is set to true in .runsettings file or using attributes like HostType.  
+>  The MSTest adapter in [!INCLUDE[vs_dev11_long](../code-quality/includes/vs_dev11_long_md.md)] also works in legacy mode (equivalent of running tests with mstest.exe) for compatibility. In legacy mode, it cannot take advantage of new VS11 features TestCaseFilter. Adapter can switch to legacy mode when .testsettings file is specified, **forcelegacymode** is set to true in .runsettings file or using attributes like HostType.  
   
 > [!NOTE]
 >  In order to run automated tests on an ARM architecture based machine, you must use VSTest.Console.exe.  
@@ -53,7 +53,7 @@ Run either unit or coded UI tests from the command line with VSTest.Console.exe.
 |**/Platform:[** *platform type* **]**|Target platform architecture to be used for test execution.<br /><br /> Valid values are x86, x64 and ARM.|  
 |**/Framework: [** *framework version* **]**|Target .NET Framework version to be used for test execution.<br /><br /> Valid values are Framework35, Framework40 and Framework45.<br /><br /> Example: **/Framework:framework40**|  
 |**/TestCaseFilter:[** *expression* **]**|Run tests that match the given expression.<br /><br /> \<Expression> is of the format \<property>=\<value>[&#124;\<Expression>].<br /><br /> Example: **/TestCaseFilter:"Priority=1"**<br /><br /> Example: **/TestCaseFilter:"TestCategory=Nightly&#124;FullyQualifiedName=Namespace.ClassName.MethodName"** **Warning:**  The **/TestCaseFilter** command line option cannot be used with the **/Tests** command line option.|  
-|**/Logger:[** *uri/friendlyname* **]**|Specify a logger for test results.<br /><br /> Example: To log results into a Visual Studio Test Results File (TRX) use **/Logger:trx**.<br /><br /> Example: To publish test results to Team Foundation Server, use TfsPublisher:<br /><br /> **/logger:TfsPublisher;**<br /><br /> **Collection=\<team project url>;**<br /><br /> **BuildName=\<build name>;**<br /><br /> **TeamProject=\<team project name>;**<br /><br /> **[;Platform=\<Defaults to “Any CPU”>]**<br /><br /> **[;Flavor=\<Defaults to “Debug”>]**<br /><br /> **[;RunTitle=\<title>]** **Note:**  The TfsPublisher logger requires [!INCLUDE[vs_dev11_long](../codequality/includes/vs_dev11_long_md.md)] with [[Visual Studio 2012.1](http://go.microsoft.com/fwlink/?LinkID=267636)] or later.|  
+|**/Logger:[** *uri/friendlyname* **]**|Specify a logger for test results.<br /><br /> Example: To log results into a Visual Studio Test Results File (TRX) use **/Logger:trx**.<br /><br /> Example: To publish test results to Team Foundation Server, use TfsPublisher:<br /><br /> **/logger:TfsPublisher;**<br /><br /> **Collection=\<team project url>;**<br /><br /> **BuildName=\<build name>;**<br /><br /> **TeamProject=\<team project name>;**<br /><br /> **[;Platform=\<Defaults to “Any CPU”>]**<br /><br /> **[;Flavor=\<Defaults to “Debug”>]**<br /><br /> **[;RunTitle=\<title>]** **Note:**  The TfsPublisher logger requires [!INCLUDE[vs_dev11_long](../code-quality/includes/vs_dev11_long_md.md)] with [[Visual Studio 2012.1](http://go.microsoft.com/fwlink/?LinkID=267636)] or later.|  
 |**/ListTests:[** *file name* **]**|Lists discovered tests from the given test container.|  
 |**/ListDiscoverers**|Lists installed test discoverers.|  
 |**/ListExecutors**|Lists installed test executors.|  

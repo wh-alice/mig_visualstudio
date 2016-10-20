@@ -1,7 +1,7 @@
 ---
-title: "Error: Mixed mode debugging for IA64 processes is unsupported"
+title: "Error: Mixed mode debugging for IA64 processes is unsupported | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,7 +36,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Error: Mixed mode debugging for IA64 processes is unsupported
-The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] debugger does not support debugging mixed native and managed code in an Itanium-based process.  
+The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger does not support debugging mixed native and managed code in an Itanium-based process.  
   
 ### To correct this error  
   

@@ -1,7 +1,7 @@
 ---
-title: "Registering Custom Options Pages"
+title: "Registering Custom Options Pages | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,12 +32,12 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Registering Custom Options Pages
-For a **Tools Options** page to be available to users and support automation, it must be properly registered with the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE).  
+For a **Tools Options** page to be available to users and support automation, it must be properly registered with the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE).  
   
  **Tools Options** pages based on the managed package framework are registered by applying an instance of <xref:Microsoft.VisualStudio.Shell.ProvideOptionPageAttribute> to the VSPackage providing the page. Automation support is indicated by setting the <xref:Microsoft.VisualStudio.Shell.ProvideOptionPageAttribute.SupportsAutomation*> property to `true`.  
   
 ## Tools Options Page Registration  
- Integrating a custom **Tools Options** page with [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] requires the creation of a registry entry in the following location: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<Version>*\ToolsOptionsPages, where *\<Version>* is the version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], for example 8.0.  
+ Integrating a custom **Tools Options** page with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] requires the creation of a registry entry in the following location: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<Version>*\ToolsOptionsPages, where *\<Version>* is the version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], for example 8.0.  
   
  The entry has a primary key with the category (`<PageCategory>`) of the **Tools Options** page, and a subkey containing the name of the page's subcategory (`<PageSubCategory>`).  
   
@@ -98,7 +98,7 @@ For a **Tools Options** page to be available to users and support automation, it
 > [!NOTE]
 >  Automation support in the managed package framework is provided by an object independent of the implementation of the VSPackage. If that object supports automation, this is registered through the <xref:Microsoft.VisualStudio.Shell.ProvideOptionPageAttribute.SupportsAutomation*> property of the <xref:Microsoft.VisualStudio.Shell.ProvideOptionPageAttribute> constructor.  
   
- The entry for registering a VSPackage as an automation provider is of the form HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<Version>*\Packages\\*\<PackageGUID>*\Automation, where *\<Version>* is the version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] (such as 8.0) and *\<PackageGUID>* is the GUID of the VSPackage implementing the automation object.  
+ The entry for registering a VSPackage as an automation provider is of the form HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<Version>*\Packages\\*\<PackageGUID>*\Automation, where *\<Version>* is the version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] (such as 8.0) and *\<PackageGUID>* is the GUID of the VSPackage implementing the automation object.  
   
 > [!NOTE]
 >  The root path of HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<Version>* can be overridden with an alternate root when the Visual Studio shell is initialized. For more information, see [Command-Line Switches](../extensibility/command-line-switches--visual-studio-sdk-.md).  
@@ -121,7 +121,7 @@ For a **Tools Options** page to be available to users and support automation, it
   
  If you use the managed package framework, use <xref:Microsoft.VisualStudio.Shell.ProvideOptionPageAttribute> to register a class as providing a **Tools Options** page and set the <xref:Microsoft.VisualStudio.Shell.ProvideOptionPageAttribute.SupportsAutomation*> property to `true` to indicate that the page supports automation.  
   
- The registry entry is found in HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<Version>*\AutomationProperties, where *\<Version>* is the version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], for example 8.0.  
+ The registry entry is found in HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<Version>*\AutomationProperties, where *\<Version>* is the version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], for example 8.0.  
   
 > [!NOTE]
 >  The root path of HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<Version>* can be overridden with an alternate root when the Visual Studio shell is initialized, for more information see, [Command-Line Switches](../extensibility/command-line-switches--visual-studio-sdk-.md).  
@@ -156,7 +156,7 @@ For a **Tools Options** page to be available to users and support automation, it
 |(Default)|REG_SZ|The subcategory name of the custom **Tools Options** page|The key's name, `<PageSubCategory`>, is the canonical non-localized name of the **Tools Options** page subcategory. **Note:**  If automation is supported, the canonical non-localized category and subcategory names are used to obtain a **Tools Options** page's <xref:EnvDTE.Properties> collection. For more information, see [Using Options Pages](../misc/using-options-pages.md). <br /><br /> The key can be empty, or it can contain the reference ID to the localized string in an implementation's satellite DLL.<br /><br /> For implementations based on the managed package framework, `<PageSubCategory>` is obtained from the `pageName` argument to the <xref:Microsoft.VisualStudio.Shell.ProvideOptionPageAttribute> constructor.|  
 |Package|REG_SZ|GUID|The GUID of the VSPackage implementing the custom **Tools Options** page.<br /><br /> Implementations based on the managed package framework using <xref:Microsoft.VisualStudio.Shell.ProvideOptionPageAttribute> use reflection to obtain this value.|  
 |Name|REG_SZ|Name of the **Tools Options** page properties collection|The `<PageCategory>.<PageSubCategory>` string used to refer to the **Tools Options** page. For more information, see [Using Options Pages](../misc/using-options-pages.md).<br /><br /> For implementations based on the managed package framework, the name is obtained from arguments to the <xref:Microsoft.VisualStudio.Shell.ProvideOptionPageAttribute> constructor and is of the form `categoryName.pageName`.|  
-|ProfileSave|DWORD|1/0|Optional.<br /><br /> This value indicates whether the **Tools Options** page settings are saved by the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] settings mechanism when a user clicks the **Import/Export Settings** command on the **Tools** menu.<br /><br /> If the key is present and its value is 1, then the **Tools Options** page is requesting settings support.<br /><br /> Implementations based on the managed package framework set this value if the <xref:Microsoft.VisualStudio.Shell.ProvideOptionPageAttribute> constructor is supplied with the <xref:Microsoft.VisualStudio.Shell.ProvideOptionPageAttribute.SupportsProfiles*> property set to `true`.|  
+|ProfileSave|DWORD|1/0|Optional.<br /><br /> This value indicates whether the **Tools Options** page settings are saved by the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] settings mechanism when a user clicks the **Import/Export Settings** command on the **Tools** menu.<br /><br /> If the key is present and its value is 1, then the **Tools Options** page is requesting settings support.<br /><br /> Implementations based on the managed package framework set this value if the <xref:Microsoft.VisualStudio.Shell.ProvideOptionPageAttribute> constructor is supplied with the <xref:Microsoft.VisualStudio.Shell.ProvideOptionPageAttribute.SupportsProfiles*> property set to `true`.|  
   
 ## See Also  
  [Creating Registrar Scripts](../Topic/Creating%20Registrar%20Scripts.md)   

@@ -1,7 +1,7 @@
 ---
-title: "Change the Library Share for Your Team Project Collections"
+title: "Change the Library Share for Your Team Project Collections | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -41,9 +41,9 @@ You can use the library shares in the System Center Virtual Machine Manager (SCV
  Using SCVMM, you can create multiple library shares on a single library server. The library shares enable you to allocate the disk space on your library server. If you do this you can allocate disk space for each team project collection. You can add multiple library shares to each team project collection. For example, you can add an extra library share from a different library server to a specific team project collection to provide more disk space for the environments, virtual machines, and templates for the teams that use that team project collection. If you are maximizing the network bandwidth to a specific library server for your team project collection, you may want to add a library share from another library server. Or, you might want to add a library share that has been added to a library server in a different physical location.  
   
 > [!NOTE]
->  For improved performance, it is better to locate library shares and host groups in the same physical location. For example, if you have a distributed team with half your team located in one country and the other half in another country, then it is more efficient to have library shares and host groups that are physically located in each of those countries and have the team members use the library shares that are located together in their country. You can change the library shares by using the Administration Console for [!INCLUDE[esprfound](../codequality/includes/esprfound_md.md)]. Or, you can use the command-line to accomplish the same task. For more information about the command-line utility TFSLabConfig, see [Configuring Lab Management with TFSLabConfig](http://msdn.microsoft.com/en-us/28da1061-5a31-4e8b-96a7-116dfed55632).  
+>  For improved performance, it is better to locate library shares and host groups in the same physical location. For example, if you have a distributed team with half your team located in one country and the other half in another country, then it is more efficient to have library shares and host groups that are physically located in each of those countries and have the team members use the library shares that are located together in their country. You can change the library shares by using the Administration Console for [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)]. Or, you can use the command-line to accomplish the same task. For more information about the command-line utility TFSLabConfig, see [Configuring Lab Management with TFSLabConfig](http://msdn.microsoft.com/en-us/28da1061-5a31-4e8b-96a7-116dfed55632).  
   
- Use the following procedure to change the library shares for your team project collection using the Administration Console for [!INCLUDE[esprfound](../codequality/includes/esprfound_md.md)]. For each library share that you add that is located on a different library server, you must also run the steps in the procedure to improve the reliability of WinRM. To expand your virtual lab, see [Expand or change your virtual lab](../test/expand-or-change-your-virtual-lab.md).  
+ Use the following procedure to change the library shares for your team project collection using the Administration Console for [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)]. For each library share that you add that is located on a different library server, you must also run the steps in the procedure to improve the reliability of WinRM. To expand your virtual lab, see [Expand or change your virtual lab](../test/expand-or-change-your-virtual-lab.md).  
   
 ### To add or remove library shares for a team project collection  
   
@@ -65,14 +65,14 @@ You can use the library shares in the System Center Virtual Machine Manager (SCV
     2.  To add the library share to each team project in the team project collection, select **Auto Provision** for the library share.  
   
         > [!NOTE]
-        >  If you select to auto provision the library share, [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] automatically adds the library share to all the team projects in this team project collection. For team projects that have not yet been created, the library share is added when the **New Team Project** wizard creates the project. For team projects that have already been created in this team project collection, the library share is added when these settings are saved. If you clear **Auto Provision** the library share will no longer be added to new team projects that you add to your team project collection.  
+        >  If you select to auto provision the library share, [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] automatically adds the library share to all the team projects in this team project collection. For team projects that have not yet been created, the library share is added when the **New Team Project** wizard creates the project. For team projects that have already been created in this team project collection, the library share is added when these settings are saved. If you clear **Auto Provision** the library share will no longer be added to new team projects that you add to your team project collection.  
   
 5.  To delete a library share, on the **Library Shares** tab, select the library share from the list, and then click **Delete**.  
   
     > [!IMPORTANT]
-    >  Before you can delete a library share from a team project collection, you must first remove all [!INCLUDE[vstsLabShort](../test/includes/vstslabshort_md.md)] environments, virtual machines and templates that are stored on this library share using [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)]. Then you must remove the association of this library share from each team project in that project collection by using the command-line utility TFSLabConfig. For more information about how to do this, see [TFSLabConfig DeleteTeamProjectLibraryShare Command](http://msdn.microsoft.com/en-us/4388c79c-98e1-4337-b59c-f9688a599c13).  
+    >  Before you can delete a library share from a team project collection, you must first remove all [!INCLUDE[vstsLabShort](../test/includes/vstslabshort_md.md)] environments, virtual machines and templates that are stored on this library share using [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)]. Then you must remove the association of this library share from each team project in that project collection by using the command-line utility TFSLabConfig. For more information about how to do this, see [TFSLabConfig DeleteTeamProjectLibraryShare Command](http://msdn.microsoft.com/en-us/4388c79c-98e1-4337-b59c-f9688a599c13).  
   
-6.  To confirm that [!INCLUDE[vstsTfsLong](../codequality/includes/vststfslong_md.md)] can connect to the library share, click **Verify**.  
+6.  To confirm that [!INCLUDE[vstsTfsLong](../code-quality/includes/vststfslong_md.md)] can connect to the library share, click **Verify**.  
   
 7.  Click **OK**.  
   

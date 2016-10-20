@@ -1,7 +1,7 @@
 ---
-title: "Run automated tests from a build-deploy-test workflow"
+title: "Run automated tests from a build-deploy-test workflow | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -92,7 +92,7 @@ translation.priority.ht:
   
      You can see the status as the build progresses.  
   
-4.  (Optional) If you want to view the lab environment as the build progresses, open [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], locate the **Lab Center**, choose **Lab**, and then choose your environment in the list.  
+4.  (Optional) If you want to view the lab environment as the build progresses, open [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], locate the **Lab Center**, choose **Lab**, and then choose your environment in the list.  
   
      If your build-deploy-test workflow is completed successfully, you’ll see a green check mark. If there are errors, you can choose **View Log** to see details.  
   
@@ -103,7 +103,7 @@ translation.priority.ht:
   
 #### To connect to the environment from your build results  
   
-1.  From the **Builds** folder in [!INCLUDE[esprtfc](../codequality/includes/esprtfc_md.md)], open the shortcut menu for your build definition that contains your workflow and point to **View Builds**.  
+1.  From the **Builds** folder in [!INCLUDE[esprtfc](../code-quality/includes/esprtfc_md.md)], open the shortcut menu for your build definition that contains your workflow and point to **View Builds**.  
   
      The **Build Explorer** view is displayed.  
   
@@ -132,13 +132,13 @@ translation.priority.ht:
      The Microsoft Environment Viewer is displayed and you are connected to the environment. You can now investigate any issues.  
   
 ##  <a name="ViewTestResults"></a> View and Analyze the Test Results for Your Build-Deploy-Test Workflow  
- You can view the test results summary in your build summary. However, you can also view and analyze the test results by using [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] because the results are stored as part of your test plan. This is shown in the next illustration. See [Reporting on testing progress for test plans](../test/reporting-on-testing-progress-for-test-plans.md).  
+ You can view the test results summary in your build summary. However, you can also view and analyze the test results by using [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] because the results are stored as part of your test plan. This is shown in the next illustration. See [Reporting on testing progress for test plans](../test/reporting-on-testing-progress-for-test-plans.md).  
   
  ![View the Test Results from Your Build Workflow](../test/media/teamlabviewresults.png "TeamLabViewResults")  
   
 #### To view and analyze the test results from Microsoft Test Manager  
   
-1.  Open [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)]. (Go to Start, All Programs, Microsoft Visual Studio, Microsoft Test Manager.)  
+1.  Open [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)]. (Go to Start, All Programs, Microsoft Visual Studio, Microsoft Test Manager.)  
   
 2.  To view the test results, choose the down-arrow on the center group switcher and then choose **Testing Center**.  
   

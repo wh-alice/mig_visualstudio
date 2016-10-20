@@ -1,7 +1,7 @@
 ---
-title: "Task Writing"
+title: "Task Writing | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,7 +36,7 @@ translation.priority.ht:
 Tasks provide the code that runs during the build process. Tasks are contained in targets. A library of typical tasks is included with [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)], and you can also create your own tasks. For more information about the library of tasks that are included with [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)], see [Task Reference](../reference/msbuild-task-reference.md).  
   
 ## Tasks  
- Examples of tasks include [Copy](../reference/copy-task.md), which copies one or more files, [MakeDir](../reference/makedir-task.md), which creates a directory, and [Csc](../reference/csc-task.md), which compiles [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] source code files. Each task is implemented as a .NET class that implements the <xref:Microsoft.Build.Framework.ITask> interface, which is defined in the Microsoft.Build.Framework.dll assembly.  
+ Examples of tasks include [Copy](../reference/copy-task.md), which copies one or more files, [MakeDir](../reference/makedir-task.md), which creates a directory, and [Csc](../reference/csc-task.md), which compiles [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] source code files. Each task is implemented as a .NET class that implements the <xref:Microsoft.Build.Framework.ITask> interface, which is defined in the Microsoft.Build.Framework.dll assembly.  
   
  There are two approaches you can use when implementing a task:  
   
@@ -173,7 +173,7 @@ public string RequiredProperty
 ## Example  
   
 ### Description  
- This following [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] class demonstrates a task deriving from the <xref:Microsoft.Build.Utilities.Task> helper class. This task returns `true`, indicating that it succeeded.  
+ This following [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] class demonstrates a task deriving from the <xref:Microsoft.Build.Utilities.Task> helper class. This task returns `true`, indicating that it succeeded.  
   
 ### Code  
   
@@ -197,7 +197,7 @@ namespace SimpleTask1
 ## Example  
   
 ### Description  
- This following [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] class demonstrates a task implementing the <xref:Microsoft.Build.Framework.ITask> interface. This task returns `true`, indicating that it succeeded.  
+ This following [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] class demonstrates a task implementing the <xref:Microsoft.Build.Framework.ITask> interface. This task returns `true`, indicating that it succeeded.  
   
 ### Code  
   
@@ -255,7 +255,7 @@ namespace SimpleTask2
 ## Example  
   
 ### Description  
- This [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] class demonstrates a task that derives from the <xref:Microsoft.Build.Utilities.Task> helper class. It has a required string property, and raises an event that is displayed by all registered loggers.  
+ This [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] class demonstrates a task that derives from the <xref:Microsoft.Build.Utilities.Task> helper class. It has a required string property, and raises an event that is displayed by all registered loggers.  
   
 ### Code  
  [!code[msbuild_SimpleTask3#1](../reference/codesnippet/CSharp/task-writing_1.cs)]  

@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB2008"
+title: "MSBuild Error MSB2008 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,13 +36,13 @@ translation.priority.mt:
 # MSBuild Error MSB2008
 **The Visual Studio project system cannot convert "{0}" projects. It can only be used to convert C# and VB client projects.**  
   
- Only valid [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] and [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] projects can be converted using [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)].  
+ Only valid [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] and [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] projects can be converted using [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)].  
   
 ### To correct this error  
   
--   If the project is a [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] or [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] project, check whether the project file has been modified or corrupted. If it has been modified or corrupted, open the project in the version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] in which it was created, save it, and then attempt to convert it again.  
+-   If the project is a [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] or [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] project, check whether the project file has been modified or corrupted. If it has been modified or corrupted, open the project in the version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] in which it was created, save it, and then attempt to convert it again.  
   
--   If the project is not a [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] or [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] project, use the appropriate tool to convert it.  
+-   If the project is not a [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] or [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] project, use the appropriate tool to convert it.  
   
 ## See Also  
  [Additional Resources](../reference/additional-msbuild-resources.md)

@@ -1,7 +1,7 @@
 ---
-title: "Standard and Custom Toolset Configurations"
+title: "Standard and Custom Toolset Configurations | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -70,7 +70,7 @@ An MSBuild Toolset contains references to tasks, targets, and tools that you can
 >  We recommend that you avoid changing these settings. Nevertheless, you can add your own settings and define computer-wide custom toolset definitions, as the next section describes.  
   
 ## Custom Toolset Definitions  
- When a standard Toolset does not fulfill your build requirements, you can create a custom Toolset. For example, you may have a build lab scenario in which you must have a separate system for building [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)] projects. By using a custom Toolset, you can assign custom values to the `ToolsVersion` attribute when you create projects or run MSBuild.exe. By doing this, you can also use the `$(MSBuildToolsPath)` property to import .targets files from that directory, as well as defining your own custom toolset properties that can be used for any project that uses that toolset.  
+ When a standard Toolset does not fulfill your build requirements, you can create a custom Toolset. For example, you may have a build lab scenario in which you must have a separate system for building [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] projects. By using a custom Toolset, you can assign custom values to the `ToolsVersion` attribute when you create projects or run MSBuild.exe. By doing this, you can also use the `$(MSBuildToolsPath)` property to import .targets files from that directory, as well as defining your own custom toolset properties that can be used for any project that uses that toolset.  
   
  Specify a custom Toolset in the configuration file for MSBuild.exe (or for the custom tool that hosts the MSBuild engine if that is what you are using). For example, the configuration file for MSBuild.exe could include the following Toolset definition if you wished to override the default behavior of ToolsVersion 12.0.  
   
@@ -98,7 +98,7 @@ An MSBuild Toolset contains references to tasks, targets, and tools that you can
 > [!NOTE]
 >  To be read correctly, `<configSections>` must be the first subsection in the `<configuration>` section.  
   
- `ToolsetConfigurationSection` is a custom configuration section that can be used by any MSBuild host for custom configuration. If you use a custom Toolset, a host does not have to do anything to initialize the build engine except provide the configuration file entries. By defining entries in the registry, you can specify computer-wide Toolsets that apply to MSBuild.exe, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], and all hosts of MSBuild.  
+ `ToolsetConfigurationSection` is a custom configuration section that can be used by any MSBuild host for custom configuration. If you use a custom Toolset, a host does not have to do anything to initialize the build engine except provide the configuration file entries. By defining entries in the registry, you can specify computer-wide Toolsets that apply to MSBuild.exe, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], and all hosts of MSBuild.  
   
 > [!NOTE]
 >  If a configuration file defines settings for a `ToolsVersion` that was already defined in the registry, the two definitions are not merged. The definition in the configuration file takes precedence and the settings in the registry for that `ToolsVersion` are ignored.  

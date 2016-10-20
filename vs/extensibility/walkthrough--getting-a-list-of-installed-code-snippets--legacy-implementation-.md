@@ -1,7 +1,7 @@
 ---
-title: "Walkthrough: Getting a List of Installed Code Snippets (Legacy Implementation)"
+title: "Walkthrough: Getting a List of Installed Code Snippets (Legacy Implementation) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -119,7 +119,7 @@ A code snippet is a piece of code that can be inserted into the source buffer ei
 1.  The following method shows how to call the `GetSnippets` method at the completion of a parsing operation. The <xref:Microsoft.VisualStudio.Package.LanguageService.OnParseComplete*> method is called after a parsing operation that was started with the reason <xref:Microsoft.VisualStudio.Package.ParseReason>.  
   
 > [!NOTE]
->  The `expansionsList` array listis cached for performance reasons. Changes to the snippets are not reflected in the list until the language service is stopped and reloaded (for example, by stopping and restarting [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]).  
+>  The `expansionsList` array listis cached for performance reasons. Changes to the snippets are not reflected in the list until the language service is stopped and reloaded (for example, by stopping and restarting [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]).  
   
 ```c#  
 class TestLanguageService : LanguageService  

@@ -1,7 +1,7 @@
 ---
-title: "Creating Custom T4 Text Template Directive Processors"
+title: "Creating Custom T4 Text Template Directive Processors | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ The *text template transformation process* takes a *text template* file as the i
   
  The difference between these two is that <xref:Microsoft.VisualStudio.TextTemplating.DirectiveProcessor> implements the minimum interface that is necessary to get parameters from the user and to generate the code that produces the template output file. <xref:Microsoft.VisualStudio.TextTemplating.RequiresProvidesDirectiveProcessor> implements the requires/provides design pattern. <xref:Microsoft.VisualStudio.TextTemplating.RequiresProvidesDirectiveProcessor> handles two special parameters, `requires` and `provides`.  For example, a custom directive processor might accept a file name from the user, open and read the file, and then store the text of the file in a variable that is named `fileText`. A subclass of the <xref:Microsoft.VisualStudio.TextTemplating.RequiresProvidesDirectiveProcessor> class might take a file name from the user as the value of the `requires` parameter, and the name of the variable in which to store the text as the value of the `provides` parameter. This processor would open and read the file and then store the text of the file in the specified variable.  
   
- Before you call a custom directive processor from a text template in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], you must register it.  
+ Before you call a custom directive processor from a text template in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], you must register it.  
   
  For more information about how to add the registry key, see [Deploying a Custom Directive Processor](../modeling/deploying-a-custom-directive-processor.md).  
   

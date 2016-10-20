@@ -1,7 +1,7 @@
 ---
-title: "Project Configuration for Managing Deployment"
+title: "Project Configuration for Managing Deployment | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,7 +34,7 @@ translation.priority.mt:
 # Project Configuration for Managing Deployment
 Deployment is the act of physically moving the output items from a build process to the expected location for debugging and installation. For example, a Web application might be built on a local machine and then placed on the server.  
   
- [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] supports two ways that projects can be involved in deployment:  
+ [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] supports two ways that projects can be involved in deployment:  
   
 -   As the subject of the deployment process.  
   

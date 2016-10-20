@@ -1,7 +1,7 @@
 ---
-title: "Keyboard shortcuts for Microsoft Test Manager"
+title: "Keyboard shortcuts for Microsoft Test Manager | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -29,7 +29,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Keyboard shortcuts for Microsoft Test Manager
-As you become more familiar with [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], you can take advantage of the keyboard shortcuts that are provided for you. These will help you navigate the user interface more quickly in the **Testing Center**, in the **Lab Center**, and when you run tests using [!INCLUDE[mtrlong](../codequality/includes/mtrlong_md.md)].  
+As you become more familiar with [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], you can take advantage of the keyboard shortcuts that are provided for you. These will help you navigate the user interface more quickly in the **Testing Center**, in the **Lab Center**, and when you run tests using [!INCLUDE[mtrlong](../code-quality/includes/mtrlong_md.md)].  
   
  **Requirements**  
   
@@ -61,7 +61,7 @@ As you become more familiar with [!INCLUDE[TCMext](../codequality/includes/tcmex
 |Help|F1|  
   
 ## Test Runner  
- When you run tests by using [!INCLUDE[mtrlong](../codequality/includes/mtrlong_md.md)], there are additional keyboard shortcuts, as shown in the following illustration. These are also listed in the table. The shortcuts to mark test steps can be used even when the input focus is on the application under test. The shortcuts let you to mark the test steps without changing the focus.  
+ When you run tests by using [!INCLUDE[mtrlong](../code-quality/includes/mtrlong_md.md)], there are additional keyboard shortcuts, as shown in the following illustration. These are also listed in the table. The shortcuts to mark test steps can be used even when the input focus is on the application under test. The shortcuts let you to mark the test steps without changing the focus.  
   
  ![Keyboard Shortcuts for Test Runner](../test/media/keyboard_mtr.png "Keyboard_MTR")  
   

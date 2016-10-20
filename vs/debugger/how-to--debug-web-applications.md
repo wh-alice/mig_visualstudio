@@ -1,7 +1,7 @@
 ---
-title: "How to: Debug Web Applications"
+title: "How to: Debug Web Applications | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -39,15 +39,15 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Debug Web Applications
-[!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] is the primary technology for developing Web applications in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] debugger provides powerful tools for debugging [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] Web applications locally or on a remote server. This topic describes how to debug a [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] project during development. For information about how to debug a [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] Web application already deployed on a production server, see [Debugging Deployed Web Applications](../debugger/debugging-deployed-web-applications.md).  
+[!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] is the primary technology for developing Web applications in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger provides powerful tools for debugging [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web applications locally or on a remote server. This topic describes how to debug a [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] project during development. For information about how to debug a [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application already deployed on a production server, see [Debugging Deployed Web Applications](../debugger/debugging-deployed-web-applications.md).  
   
- To debug a [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] application:  
+ To debug a [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] application:  
   
 -   You must have required permissions. For more information, see [System Requirements](../debugger/asp.net-debugging--system-requirements.md).  
   
--   [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] debugging must be enabled in **Project Properties**.  
+-   [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] debugging must be enabled in **Project Properties**.  
   
--   The configuration file of your application (Web.config) must be set to debug mode. Debug mode causes [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] to generate symbols for dynamically generated files and enables the debugger to attach to the [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] application. [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] sets this automatically when you start to debug, if you created your project from the Web projects template.  
+-   The configuration file of your application (Web.config) must be set to debug mode. Debug mode causes [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] to generate symbols for dynamically generated files and enables the debugger to attach to the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] application. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] sets this automatically when you start to debug, if you created your project from the Web projects template.  
   
 -   For more information, see [How to: Enable Debugging for ASP.NET Applications](../debugger/how-to--enable-debugging-for-asp.net-applications.md).  
   
@@ -55,7 +55,7 @@ translation.priority.ht:
   
 1.  On the **Debug** menu, click **Start** to begin debugging the Web application.  
   
-     [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] builds the Web application project, deploys the application if necessary, starts the ASP.NET Development Server if you are debugging locally, and attaches to the [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] worker process.  
+     [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] builds the Web application project, deploys the application if necessary, starts the ASP.NET Development Server if you are debugging locally, and attaches to the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] worker process.  
   
 2.  Use the Debugger to set and clear breakpoints, step, and perform other debugging operations, as you would for any application.  
   

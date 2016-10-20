@@ -1,7 +1,7 @@
 ---
-title: "Common MSBuild Project Items"
+title: "Common MSBuild Project Items | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,7 +36,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Common MSBuild Project Items
-In [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)], an item is a named reference to one or more files. Items contain metadata such as file names, paths, and version numbers. All project types in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] have several items in common. These items are defined in the file microsoft.build.commontypes.xsd.  
+In [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)], an item is a named reference to one or more files. Items contain metadata such as file names, paths, and version numbers. All project types in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] have several items in common. These items are defined in the file microsoft.build.commontypes.xsd.  
   
 ## Common Items  
  The following is a list of all the common project items.  
@@ -96,9 +96,9 @@ In [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)], an it
 |Item Name|Description|  
 |---------------|-----------------|  
 |DependentUpon|Optional string. Specifies the file this file depends on to compile correctly.|  
-|AutoGen|Optional boolean. Indicates whether the file was generated for the project by the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE).|  
+|AutoGen|Optional boolean. Indicates whether the file was generated for the project by the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE).|  
 |Link|Optional string. The notational path to be displayed when the file is physically located outside the influence of the project file.|  
-|Visible|Optional boolean. Indicates whether to display the file in **Solution Explorer** in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].|  
+|Visible|Optional boolean. Indicates whether to display the file in **Solution Explorer** in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].|  
 |CopyToOutputDirectory|Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1.  Never<br />2.  Always<br />3.  PreserveNewest|  
   
 ### EmbeddedResource  
@@ -111,7 +111,7 @@ In [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)], an it
 |LastGenOutput|Required string. The name of the file that was created by any file generator that ran on this item.|  
 |CustomToolNamespace|Required string. The namespace in which any file generator that runs on this item should create code.|  
 |Link|Optional string. The notational path is displayed if the file is physically located outside the influence of the project.|  
-|Visible|Optional boolean. Indicates whether to display the file in **Solution Explorer** in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].|  
+|Visible|Optional boolean. Indicates whether to display the file in **Solution Explorer** in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].|  
 |CopyToOutputDirectory|Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1.  Never<br />2.  Always<br />3.  PreserveNewest|  
 |LogicalName|Required string. The logical name of the embedded resource.|  
   
@@ -124,10 +124,10 @@ In [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)], an it
 |Generator|Required string. The name of any file generator that runs on this item.|  
 |LastGenOutput|Required string. The name of the file that was created by any file generator that was run on this item.|  
 |CustomToolNamespace|Required string. The namespace in which any file generator that runs on this item should create code.|  
-|Link|Optional boolean. Indicates whether to display the file in **Solution Explorer** in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].|  
+|Link|Optional boolean. Indicates whether to display the file in **Solution Explorer** in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].|  
 |PublishState|Required string. The publish state of the content, either:<br /><br /> -   Default<br />-   Included<br />-   Excluded<br />-   DataFile<br />-   Prerequisite|  
 |IsAssembly|Optional boolean. Specifies whether the file is an assembly.|  
-|Visible|Optional boolean. Indicates whether to display the file in **Solution Explorer** in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].|  
+|Visible|Optional boolean. Indicates whether to display the file in **Solution Explorer** in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].|  
 |CopyToOutputDirectory|Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1.  Never<br />2.  Always<br />3.  PreserveNewest|  
   
 ### None  
@@ -140,7 +140,7 @@ In [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)], an it
 |LastGenOutput|Required string. The name of the file that was created by any file generator that ran on this item.|  
 |CustomToolNamespace|Required string. The namespace in which any file generator that runs on this item should create code.|  
 |Link|Optional string. The notational path to be displayed if the file is physically located outside the influence of the project.|  
-|Visible|Optional boolean. Indicates whether to display the file in **Solution Explorer** in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].|  
+|Visible|Optional boolean. Indicates whether to display the file in **Solution Explorer** in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].|  
 |CopyToOutputDirectory|Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1.  Never<br />2.  Always<br />3.  PreserveNewest|  
   
 ### BaseApplicationManifest  
@@ -150,7 +150,7 @@ In [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)], an it
  Represents the FxCop project to import.  
   
 ### Import  
- Represents assemblies whose namespaces should be imported by the [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] compiler.  
+ Represents assemblies whose namespaces should be imported by the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler.  
   
 ## See Also  
  [Common MSBuild Project Properties](../reference/common-msbuild-project-properties.md)

@@ -1,7 +1,7 @@
 ---
-title: "Code Context"
+title: "Code Context | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,7 +31,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Code Context
-In [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] debugging, a **code context**:  
+In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugging, a **code context**:  
   
 -   Provides an abstraction of a position in code as known to the debug engine (DE). For most run-time architectures today, a code context can be thought of as an address in a program's instruction stream. For nontraditional languages, where code may not be represented by instructions, a code context may be represented by some other means.  
   

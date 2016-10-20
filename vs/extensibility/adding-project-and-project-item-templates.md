@@ -1,7 +1,7 @@
 ---
-title: "Adding Project and Project Item Templates"
+title: "Adding Project and Project Item Templates | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,7 +32,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Adding Project and Project Item Templates
-When you create your own project types, you must provide support for adding new projects and project items by using the standard [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE) dialog boxes. The following topics discuss different techniques for adding projects and project items.  
+When you create your own project types, you must provide support for adding new projects and project items by using the standard [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) dialog boxes. The following topics discuss different techniques for adding projects and project items.  
   
 ## In This Section  
  [Project Context](../extensibility/project-context.md)  
@@ -45,7 +45,7 @@ When you create your own project types, you must provide support for adding new 
  Provides information about the two types of editors that can be used to open files in a project and the role the project plays in determining which editor to use when a project item is opened.  
   
  [Registering Project and Item Templates](../extensibility/registering-project-and-item-templates.md)  
- Explains what occurs when a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] project is created.  
+ Explains what occurs when a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project is created.  
   
  [Adding Items to the Add New Item Dialog Boxes](../extensibility/adding-items-to-the-add-new-item-dialog-boxes.md)  
  Explains the process for adding items to the **Add New Item** dialog box.  
@@ -60,7 +60,7 @@ When you create your own project types, you must provide support for adding new 
  Lists different types of command items used for extending project systems.  
   
  [CATIDs for Objects That Are Typically Used to Extend Projects](../extensibility/catids-for-objects-that-are-typically-used-to-extend-projects.md)  
- Lists CATIDs for objects that are used to extend [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)], [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)], and [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] project systems.  
+ Lists CATIDs for objects that are used to extend [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)], [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)], and [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] project systems.  
   
 ## Related Sections  
  [How to: Open Project-Specific Editors](../extensibility/how-to--open-project-specific-editors.md)  
@@ -70,7 +70,7 @@ When you create your own project types, you must provide support for adding new 
  Provides step-by-step instructions for opening a standard editor.  
   
  [Project Subtypes](../extensibility/project-subtypes.md)  
- Provides links to project subtype conceptual topics. Project subtypes extend existing [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] and [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] projects.  
+ Provides links to project subtype conceptual topics. Project subtypes extend existing [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] and [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] projects.  
   
  [Project Types](../extensibility/project-types.md)  
  Provides links to additional topics that offer information about how to design new project types.

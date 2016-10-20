@@ -1,7 +1,7 @@
 ---
-title: "Client-Side Script Debugging"
+title: "Client-Side Script Debugging | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -47,9 +47,9 @@ The Visual Studio  debugger provides a comprehensive debugging environment for f
  In Visual Studio, you cannot directly debug server-side code, but you can set a breakpoint in a server-side file. Visual Studio automatically maps the breakpoint to a corresponding location in the client-side file and creates a mapped breakpoint in the client-side code.  
   
 ## Manually or Automatically Attaching to Script  
- To begin debugging script in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], the debugger must attach to the script you want to debug. This can happen manually or automatically.  
+ To begin debugging script in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], the debugger must attach to the script you want to debug. This can happen manually or automatically.  
   
- You can manually attach by using the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] debugger interface to choose a running script process you want to attach to. For more information, see [How to: Attach to Script](../debugger/how-to--attach-to-script.md).  
+ You can manually attach by using the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger interface to choose a running script process you want to attach to. For more information, see [How to: Attach to Script](../debugger/how-to--attach-to-script.md).  
   
  The debugger automatically attaches to script when one of the following things occurs:  
   

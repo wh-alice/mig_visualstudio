@@ -1,7 +1,7 @@
 ---
-title: "Getting Started with PTVS: Building a Website in Azure"
+title: "Getting Started with PTVS: Building a Website in Azure | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

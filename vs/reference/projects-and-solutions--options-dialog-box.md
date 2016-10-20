@@ -1,7 +1,7 @@
 ---
-title: "Projects and Solutions, Options Dialog Box"
+title: "Projects and Solutions, Options Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,7 +32,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Projects and Solutions, Options Dialog Box
-Sets the default path of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] project folders, and determines the default behavior of the **Output** window, **Task List**, and **Solution Explorer** as projects are developed and built. To access this dialog box, click **Tools / Options** expand **Projects and Solutions**, and click **General**.  
+Sets the default path of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project folders, and determines the default behavior of the **Output** window, **Task List**, and **Solution Explorer** as projects are developed and built. To access this dialog box, click **Tools / Options** expand **Projects and Solutions**, and click **General**.  
   
 > [!NOTE]
 >  The options available in dialog boxes, and the names and locations of menu commands you see, might differ from what is described in Help depending on your active settings or edition. This Help page was written with the **General Development settings** in mind. To view or change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
@@ -54,7 +54,7 @@ Sets the default path of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)
  When selected, **Solution Explorer** automatically opens and the active item is selected. The selected item changes as you work with different files in a project or solution, or different components in a designer. When this option is cleared, the selection in **Solution Explorer** does not change automatically. This option is enabled by default.  
   
  **Show advanced build configurations**  
- When selected, the build configuration options appear on the **Project Property Pages** dialog box and the **Solution Property Pages** dialog box. When cleared, the build configuration options do not appear on the **Project Property Pages** dialog box and the **Solution Property Pages** dialog box for [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] and [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] projects that contain one configuration or the two configurations debug and release. If a project has a user-defined configuration, the build configuration options are shown.  
+ When selected, the build configuration options appear on the **Project Property Pages** dialog box and the **Solution Property Pages** dialog box. When cleared, the build configuration options do not appear on the **Project Property Pages** dialog box and the **Solution Property Pages** dialog box for [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] and [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] projects that contain one configuration or the two configurations debug and release. If a project has a user-defined configuration, the build configuration options are shown.  
   
  When unselected, the commands on the **Build** menu, such as **Build Solution**, **Rebuild Solution**, and **Clean Solution**, are performed on the Release configuration and the commands on the **Debug** menu, such as **Start Debugging** and **Start Without Debugging**, are performed on the Debug configuration.  
   
@@ -71,7 +71,7 @@ Sets the default path of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)
  Automatically displays the Output Window in the IDE at the outset of solution builds. For more information, see [How to: Control the Output Window](../Topic/How%20to:%20Control%20the%20Output%20Window.md). This option is enabled by default.  
   
  **Prompt for symbolic renaming when renaming files**  
- When selected, displays a message box asking whether or not [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] should also rename all references in the project to the code element.  
+ When selected, displays a message box asking whether or not [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] should also rename all references in the project to the code element.  
   
 ## See Also  
  [Options Dialog Box,  Projects and Solutions, Build and Run](../reference/options-dialog-box---projects-and-solutions--build-and-run.md)

@@ -1,7 +1,7 @@
 ---
-title: "LocationField Element (Visual Studio Project Templates)"
+title: "LocationField Element (Visual Studio Project Templates) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -79,7 +79,7 @@ Specifies whether or not the **Location** text box in the **New Project** dialog
  The value specified in the `Location` element is only honored by the dialog box if the underlying project system supports it.  
   
 ## Example  
- The following example illustrates the metadata for a [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] template.  
+ The following example illustrates the metadata for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] template.  
   
 ```  
 <VSTemplate Type="Project" Version="3.0.0"  

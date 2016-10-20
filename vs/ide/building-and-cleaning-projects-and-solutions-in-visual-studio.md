@@ -1,7 +1,7 @@
 ---
-title: "Building and Cleaning Projects and Solutions in Visual Studio"
+title: "Building and Cleaning Projects and Solutions in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -94,7 +94,7 @@ By using the procedures in this topic, you can build, rebuild, or clean all or s
   
 ### To build only the selected Visual C++ project  
   
-1.  Choose a [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)] project, and then, on the menu bar, choose **Build**, **Project Only**, and one of the following commands:  
+1.  Choose a [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] project, and then, on the menu bar, choose **Build**, **Project Only**, and one of the following commands:  
   
     -   **Build Only** *ProjectName*  
   
@@ -104,7 +104,7 @@ By using the procedures in this topic, you can build, rebuild, or clean all or s
   
     -   **Link Only** *ProjectName*  
   
-     These commands apply only to the [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)] project that you chose, without building, rebuilding, cleaning, or linking any project dependencies or solution files. Depending on your version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], the **Project Only** submenu might contain more commands.  
+     These commands apply only to the [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] project that you chose, without building, rebuilding, cleaning, or linking any project dependencies or solution files. Depending on your version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], the **Project Only** submenu might contain more commands.  
   
 ### To compile multiple C++ project items  
   

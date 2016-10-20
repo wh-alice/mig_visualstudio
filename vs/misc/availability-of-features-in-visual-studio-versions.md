@@ -1,7 +1,7 @@
 ---
-title: "Availability of Features in Visual Studio Versions"
+title: "Availability of Features in Visual Studio Versions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -40,7 +40,7 @@ The following table shows whether certain features are supported in the listed v
   
 -   "No" means that the Visual Studio version does not include the feature.  
   
-||Visual Studio 2010<br /><br /> and<br /><br /> Visual Studio 2010 SP1|[!INCLUDE[vs_dev11_long](../codequality/includes/vs_dev11_long_md.md)]|[!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md)]|  
+||Visual Studio 2010<br /><br /> and<br /><br /> Visual Studio 2010 SP1|[!INCLUDE[vs_dev11_long](../code-quality/includes/vs_dev11_long_md.md)]|[!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md)]|  
 |-|-----------------------------------------------------------|-------------------------------------------------------------------|--------------------------------------------------------------|  
 |Supported .NET Framework versions|2.0, 3.0, 3.5 SP1, 4|2.0, 3.0, 3.5 SP1, 4, 4.5|2.0, 3.0, 3.5 SP1, 4, 4.5, 4.5.1|  
 |Local Web Server|Yes|Yes|Yes|  
@@ -88,7 +88,7 @@ The following table shows whether certain features are supported in the listed v
   
 4.  Visual Studio Tools for Office (VSTO) compatibility and Add-in functionality:  
   
-    ||Visual Studio 2010|[!INCLUDE[vs_dev11_long](../codequality/includes/vs_dev11_long_md.md)]|[!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md)]|  
+    ||Visual Studio 2010|[!INCLUDE[vs_dev11_long](../code-quality/includes/vs_dev11_long_md.md)]|[!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md)]|  
     |-|------------------------|-------------------------------------------------------------------|--------------------------------------------------------------|  
     |Document-level|Word 2007, Word 2010, Excel 2007, Excel 2010|Word 2010, Excel 2010|Word 2013, Excel 2013|  
     |Application-level|Word 2007, Word 2010, Excel 2007, Excel 2010, InfoPath 2007, InfoPath 2010, Outlook 2007, Outlook 2010, PowerPoint 2007, PowerPoint 2010, Visio 2007, Visio 2010, Project 2007, Project 2010|Word 2010, Excel 2010, InfoPath 2010, Outlook 2010, PowerPoint 2010, Visio 2010, Project 2010|Word 2013, Excel 2013, InfoPath 2013, Outlook 2013, PowerPoint 2013, Visio 2013, Project 2013|

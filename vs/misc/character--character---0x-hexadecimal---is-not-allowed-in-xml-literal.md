@@ -1,7 +1,7 @@
 ---
-title: "Character &#39;character&#39; (0x&lt;hexadecimal&gt;) is not allowed in XML literal"
+title: "Character &#39;character&#39; (0x&lt;hexadecimal&gt;) is not allowed in XML literal | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

@@ -1,5 +1,5 @@
 ---
-title: "Specifying Test Settings for Visual Studio Tests"
+title: "Specifying Test Settings for Visual Studio Tests | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -46,7 +46,7 @@ When you run tests from Visual Studio or in the [build service](../Topic/Run%20t
 > [!IMPORTANT]
 >  **.testsettings and .runsettings**  
 >   
->  If you’re familiar with testing in previous editions of Visual Studio, you’ll notice that a .testsettings file is no longer included in a unit test project. The newer test framework, introduced in Visual Studio 2012, can be configured using a [.runsettings](../codequality/configure-unit-tests-by-using-a-.runsettings-file.md) file.  
+>  If you’re familiar with testing in previous editions of Visual Studio, you’ll notice that a .testsettings file is no longer included in a unit test project. The newer test framework, introduced in Visual Studio 2012, can be configured using a [.runsettings](../code-quality/configure-unit-tests-by-using-a-.runsettings-file.md) file.  
 >   
 >  If you use a **.testsettings** file, the MSTest test framework will be used to run your tests. This runs more slowly and does not allow you to run tests from third-party test frameworks.  
 >   
@@ -54,7 +54,7 @@ When you run tests from Visual Studio or in the [build service](../Topic/Run%20t
 >   
 >  1.  Use the default configuration whenever you can.  
 > 2.  To make additional files available during a test, such as test data or configuration files, incorporate the files into your project and set the **Copy to Output** property. If that is not practical, deploy additional files or directories by using the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute> on test classes or methods.  
-> 3.  Use a [.runsettings](../codequality/configure-unit-tests-by-using-a-.runsettings-file.md) file if you want to configure certain aspects of your test run such as the deployment directory or code coverage analysis.  
+> 3.  Use a [.runsettings](../code-quality/configure-unit-tests-by-using-a-.runsettings-file.md) file if you want to configure certain aspects of your test run such as the deployment directory or code coverage analysis.  
 > 4.  Use a **.testsettings** file to configure diagnostic data collection and to control tests that are distributed over more than one machine.  
 >   
 >      You must use a **.testsettings** file in web performance and load tests and in coded UI tests.  
@@ -79,7 +79,7 @@ When you run tests from Visual Studio or in the [build service](../Topic/Run%20t
 -   Run web performance and load tests. If you have added a [web performance and load test](../test_notintoc/web-performance-and-load-tests-in-visual-studio.md) project to your solution, it will already contain a .testsettings file. You can simply edit that file.  
   
 > [!WARNING]
->  [Unit tests run more slowly if you use a test settings file](http://msdn.microsoft.com/en-us/9bb75856-f68a-4de2-a084-b08a947a1172). We recommend that you do not use a test settings file with unit tests. You can configure unit tests by using the [.runsettings](../codequality/configure-unit-tests-by-using-a-.runsettings-file.md) file instead. To deploy additional files, use <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute>.  
+>  [Unit tests run more slowly if you use a test settings file](http://msdn.microsoft.com/en-us/9bb75856-f68a-4de2-a084-b08a947a1172). We recommend that you do not use a test settings file with unit tests. You can configure unit tests by using the [.runsettings](../code-quality/configure-unit-tests-by-using-a-.runsettings-file.md) file instead. To deploy additional files, use <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute>.  
 >   
 >  But web performance and load tests always use a test settings file.  
   
@@ -109,23 +109,23 @@ When you run tests from Visual Studio or in the [build service](../Topic/Run%20t
  *What else should I know?*  
  **Notes**  
   
--   ![Prerequsite](../codequality/media/prereq.png "Prereq") Add test settings to the solution, not a project.  
+-   ![Prerequsite](../code-quality/media/prereq.png "Prereq") Add test settings to the solution, not a project.  
   
--   ![Prerequsite](../codequality/media/prereq.png "Prereq") There are separate commands for selecting the test settings for web performance tests and for other types of tests. Web performance tests always require a test settings file. Unit tests and coded UI tests do not require a test settings file.  
+-   ![Prerequsite](../code-quality/media/prereq.png "Prereq") There are separate commands for selecting the test settings for web performance tests and for other types of tests. Web performance tests always require a test settings file. Unit tests and coded UI tests do not require a test settings file.  
   
--   ![Caution icon](../codequality/media/caution.gif "caution") **Warning** We don’t recommend that you apply test settings to a Visual Studio unit test project unless you specifically want the settings that it offers.  If you apply test settings, an older test framework is used to run the tests, and you will lose the performance and resilience benefits of the new framework.  
+-   ![Caution icon](../code-quality/media/caution.gif "caution") **Warning** We don’t recommend that you apply test settings to a Visual Studio unit test project unless you specifically want the settings that it offers.  If you apply test settings, an older test framework is used to run the tests, and you will lose the performance and resilience benefits of the new framework.  
   
      If you use a test settings file and later decide that you don’t want it, you can cancel it on the **TEST** menu by choosing **Test Settings**.  
   
      This recommendation does not apply to Web Performance and Load Tests, which always have a settings file.  
   
--   ![Prerequsite](../codequality/media/prereq.png "Prereq") Test settings select and control *diagnostic data adapters*. There are several kinds of adapters that collect different kinds of information, and configure the environment in which the test runs.  
+-   ![Prerequsite](../code-quality/media/prereq.png "Prereq") Test settings select and control *diagnostic data adapters*. There are several kinds of adapters that collect different kinds of information, and configure the environment in which the test runs.  
   
--   ![Prerequsite](../codequality/media/prereq.png "Prereq") Test settings also select the *test* controller. You use a test controller if you want to run the application on more than one machine.  
+-   ![Prerequsite](../code-quality/media/prereq.png "Prereq") Test settings also select the *test* controller. You use a test controller if you want to run the application on more than one machine.  
   
--   ![Prerequsite](../codequality/media/prereq.png "Prereq") When you add a Web Performance and Load test project to a solution, a default Local.testsettings file is created. It is added automatically to the solution under the **Solution Items** folder. This runs your tests locally without diagnostic data adapters selected. You can add or edit a .testsettings file to specify diagnostic data adapters and test controllers.  
+-   ![Prerequsite](../code-quality/media/prereq.png "Prereq") When you add a Web Performance and Load test project to a solution, a default Local.testsettings file is created. It is added automatically to the solution under the **Solution Items** folder. This runs your tests locally without diagnostic data adapters selected. You can add or edit a .testsettings file to specify diagnostic data adapters and test controllers.  
   
--   ![Tip](../codequality/media/tip.png "Tip") For additional guidance, see [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 6: A Testing Toolbox](http://go.microsoft.com/fwlink/?LinkID=255203).  
+-   ![Tip](../code-quality/media/tip.png "Tip") For additional guidance, see [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 6: A Testing Toolbox](http://go.microsoft.com/fwlink/?LinkID=255203).  
   
 ##  <a name="EditTestSetting"></a> Editing test settings  
  You can configure various values for the test setting using the following pages in the **Test Settings** dialog box:  
@@ -201,7 +201,7 @@ When you run tests from Visual Studio or in the [build service](../Topic/Run%20t
      For example, you could create a client role named "Desktop Client" with an attribute of "Uses SQL" set to "True" and a server role named "SQL Server" with an attribute set to "RAM > 16GB". If you specify that the "Desktop Client" will run the tests by choosing **Set as role to run tests** in the **Roles** page, then the test controller will select machines with test agents that include the attribute of "Uses SQL" set to "True" to run the tests on. The test controller will also select SQL server machines with a test agents that include the attribute "RAM > 16GB" to collect only data that is defined by the data and diagnostic adapters included in the role. The "Desktop Client" tests agent can also collect data for the machines that it is run on but you have to select data and diagnostic adapters for that role, too.  
   
 > [!NOTE]
->  The table shows only the adapters that can be used with tests in Visual Studio. For additional information about diagnostic data adapters used in [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], see [Setting Up Machines and Collecting Diagnostic Information Using Test Settings](../test/setting-up-machines-and-collecting-diagnostic-information-using-test-settings.md).  
+>  The table shows only the adapters that can be used with tests in Visual Studio. For additional information about diagnostic data adapters used in [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], see [Setting Up Machines and Collecting Diagnostic Information Using Test Settings](../test/setting-up-machines-and-collecting-diagnostic-information-using-test-settings.md).  
   
  **Diagnostic Data Adapters for Automated Tests**  
   
@@ -209,13 +209,13 @@ When you run tests from Visual Studio or in the [build service](../Topic/Run%20t
 |-----------------------------|----------------------|  
 |**ASP.NET Client Proxy for IntelliTrace and Test Impact:** This proxy allows you to collect information about the http calls from a client to a Web server for the IntelliTrace and Test Impact diagnostic data adapters.|No configuration is required to collect this information.<br /><br /> [How to: Collect IntelliTrace Data to Help Debug Difficult Issues](../test/how-to--collect-intellitrace-data-to-help-debug-difficult-issues.md)<br /><br /> [How to: Collect Data to Check Which Tests Should be Run After Code Changes](../test_notintoc/how-to--collect-data-to-check-which-tests-should-be-run-after-code-changes.md)|  
 |**IntelliTrace :** You can configure the diagnostic data adapter for *IntelliTrace* to collect specific diagnostic trace information to help isolate bugs that are difficult to reproduce. This adapter creates an IntelliTrace file that has an extension of .iTrace that contains this information. When a test fails, you can create a bug. The IntelliTrace file that is saved with the test results is automatically linked to this bug. The data that is collected in the IntelliTrace file increases debugging productivity by reducing the time that is required to reproduce and diagnose an error in the code. From this IntelliTrace file the local session can be simulated on another computer, this reduces the possibility of a bug being non-reproducible.<br /><br /> For more information, see [Using IntelliTrace](../debugger/intellitrace.md).|[How to: Collect IntelliTrace Data to Help Debug Difficult Issues](../test/how-to--collect-intellitrace-data-to-help-debug-difficult-issues.md)|  
-|**ASP.NET profiler :** You can create a test setting that includes ASP.NET profiling, which collects performance data on ASP.NET Web applications. **Note:**  This diagnostic data adapter is for use only with load tests that use websites that require Visual Studio Enterprise.|[How to: Configure ASP.NET Profiler for Load Tests Using Test Settings](../test/6832fe39-04d5-4d94-8a18-3e2730bad423.md)<br /><br /> [How to: Create a Test Setting for a Distributed Load Test](../test/how-to--create-a-test-setting-for-a-distributed-load-test.md)|  
-|**Code coverage (Visual Studio 2010) :** You can create a test setting that includes code coverage information that is used to investigate how much of your code is covered by tests. **Note:**  This diagnostic data adapter is only applicable to Visual Studio test settings. It is not used for test settings in [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)]. **Note:**  This is for compatibility with [!INCLUDE[vs_dev10_long](../codequality/includes/vs_dev10_long_md.md)] only. <br /><br /> For more information about code coverage, see [Using Code Coverage to Determine How Much Code is being Tested](../codequality/using-code-coverage-to-determine-how-much-code-is-being-tested.md).|[Code Coverage configuration using Test Settings is deprecated](../test_notintoc/code-coverage-configuration-using-test-settings-is-deprecated.md)|  
+|**ASP.NET profiler :** You can create a test setting that includes ASP.NET profiling, which collects performance data on ASP.NET Web applications. **Note:**  This diagnostic data adapter is for use only with load tests that use websites that require Visual Studio Enterprise.|[How to: Configure ASP.NET Profiler for Load Tests Using Test Settings](../test/how-to--configure-asp.net-profiler-for-load-tests-using-test-settings-in-visual-studio.md)<br /><br /> [How to: Create a Test Setting for a Distributed Load Test](../test/how-to--create-a-test-setting-for-a-distributed-load-test.md)|  
+|**Code coverage (Visual Studio 2010) :** You can create a test setting that includes code coverage information that is used to investigate how much of your code is covered by tests. **Note:**  This diagnostic data adapter is only applicable to Visual Studio test settings. It is not used for test settings in [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)]. **Note:**  This is for compatibility with [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)] only. <br /><br /> For more information about code coverage, see [Using Code Coverage to Determine How Much Code is being Tested](../code-quality/using-code-coverage-to-determine-how-much-code-is-being-tested.md).|[Code Coverage configuration using Test Settings is deprecated](../test_notintoc/code-coverage-configuration-using-test-settings-is-deprecated.md)|  
 |**Event log :** You can configure a test setting to include event log collecting, which will be included in the test results.|[How to: Configure Event Log Collection Using Test Settings](http://msdn.microsoft.com/en-us/48d67891-6018-4549-83e3-213d5d824a02)|  
-|**Network emulation :** You can specify that you want to place an artificial network load on your test using a test setting. Network emulation affects the communication to and from the machine by emulating a particular network connection speed, such as dial-up. **Note:**  This diagnostic data adapter is only applicable to Visual Studio test settings. It is not used for test settings in [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)]. **Note:**  Network emulation cannot be used to increase the network connection speed.|[How to: Configure Network Emulation Using Test Settings](../test/how-to--configure-network-emulation-using-test-settings-in-visual-studio.md)|  
+|**Network emulation :** You can specify that you want to place an artificial network load on your test using a test setting. Network emulation affects the communication to and from the machine by emulating a particular network connection speed, such as dial-up. **Note:**  This diagnostic data adapter is only applicable to Visual Studio test settings. It is not used for test settings in [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)]. **Note:**  Network emulation cannot be used to increase the network connection speed.|[How to: Configure Network Emulation Using Test Settings](../test/how-to--configure-network-emulation-using-test-settings-in-visual-studio.md)|  
 |**System information :** A test setting can be set up to include the system information about the machine that the test is run on. The system information is specified in the test results by using a test setting.|No configuration is required to collect this information.|  
 |**Test impact :** You can collect information about which methods of your applications code were used when a test case was running. This information can be used together with changes to the application code made by developers to determine which tests were impacted by those development changes.|[How to: Collect Data to Check Which Tests Should be Run After Code Changes](../test_notintoc/how-to--collect-data-to-check-which-tests-should-be-run-after-code-changes.md)|  
-|**Video Recorder :** You can create a video recording of your desktop session when you run an automated test. This video recording can be useful to view the user actions for a coded UI test. The video recording can help other team members isolate application issues that are difficult to reproduce.|[How to: Include Recordings of the Screen and Voice During Tests Using Test Settings](../test/2cefe8c2-430a-4cb4-bbe0-f3edb2e5bc03.md)|  
+|**Video Recorder :** You can create a video recording of your desktop session when you run an automated test. This video recording can be useful to view the user actions for a coded UI test. The video recording can help other team members isolate application issues that are difficult to reproduce.|[How to: Include Recordings of the Screen and Voice During Tests Using Test Settings](../test/how-to--include-recordings-of-the-screen-and-voice-during-tests-using-test-settings.md)|  
   
 ##  <a name="VSTestSettingsDeployment"></a> Test Settings: Deployment  
   
@@ -298,9 +298,9 @@ When you run tests from Visual Studio or in the [build service](../Topic/Run%20t
   
      The **Additional folders to use when discovering tests** option is useful when you are either executing the tests remotely under Team Build or doing an automated run from Microsoft Test Manager. The paths provided here will be used for assembly resolution, but only during test discovery. These paths can contain environment variables. In cases where tests are being scheduled to execute remotely from a build drop and not all of the dependencies of the test assembly are in the same directory, these paths can be used to ensure that MSTest or the Test Controller can find enough of the dependent assemblies to discover the tests and schedule them to the remote machines for execution.  
   
-     For runs being scheduled from [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], there is an additional token—%BuildDrop%— that can be used to generically refer to the build drop location. This eliminates the need to create or update a Test Settings each time a new build is being tested. Unfortunately this token is not directly supported through Team Build. However, if the build drop location is set in an environment variable named BuildDrop from the build definition, it will have the same result.  
+     For runs being scheduled from [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], there is an additional token—%BuildDrop%— that can be used to generically refer to the build drop location. This eliminates the need to create or update a Test Settings each time a new build is being tested. Unfortunately this token is not directly supported through Team Build. However, if the build drop location is set in an environment variable named BuildDrop from the build definition, it will have the same result.  
   
-     For more information, see [Unit Test Your Code](../codequality/unit-test-your-code.md).  
+     For more information, see [Unit Test Your Code](../code-quality/unit-test-your-code.md).  
   
 ##  <a name="VSTestSettingsWebTest"></a> Test Settings: Web Test  
  **Required**: Visual Studio Enterprise  

@@ -1,7 +1,7 @@
 ---
-title: "Drop-down Bar"
+title: "Drop-down Bar | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,7 +34,7 @@ translation.priority.mt:
 The drop-down bar is provided at the top of the code window and contains two drop-down lists.  
   
 ## Drop-Down Bar Interfaces  
- In [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)], for example, the drop-down bar contains lists for [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)] Items and [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)] Items Member Functions, as shown in the following picture.  
+ In [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)], for example, the drop-down bar contains lists for [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] Items and [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] Items Member Functions, as shown in the following picture.  
   
  ![Drop&#45;down Bars](../extensibility/media/vsdropdown_bar.gif "vsDropdown_bar")  
 Drop-down bar  

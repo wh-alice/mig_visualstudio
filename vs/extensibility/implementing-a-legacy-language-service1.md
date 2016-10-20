@@ -1,7 +1,7 @@
 ---
-title: "Implementing a Legacy Language Service1"
+title: "Implementing a Legacy Language Service1 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -46,7 +46,7 @@ You can use classes in the managed package framework (MPF) to implement a legacy
  Describes what is required to implement a language service by using MPF.  
   
  [Registering a Legacy Language Service](../extensibility/registering-a-legacy-language-service1.md)  
- Describes the steps that are required to register an MPF-based language service with [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+ Describes the steps that are required to register an MPF-based language service with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
  [Legacy Language Service Parser and Scanner](../extensibility/legacy-language-service-parser-and-scanner.md)  
  Describes the two parsers that are required to implement all the features of a language service by using the MPF.  

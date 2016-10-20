@@ -1,7 +1,7 @@
 ---
-title: "Opening and Saving Project Items"
+title: "Opening and Saving Project Items | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,7 +33,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Opening and Saving Project Items
-When you add a new project type, you must manage the opening and saving of your projects files in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE). The following topics discuss the different approaches to opening and saving files.  
+When you add a new project type, you must manage the opening and saving of your projects files in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE). The following topics discuss the different approaches to opening and saving files.  
   
 ## In This Section  
  [Displaying Files By Using the Open File Command](../extensibility/displaying-files-by-using-the-open-file-command.md)  

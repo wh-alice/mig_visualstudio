@@ -1,7 +1,7 @@
 ---
-title: "Enumerations (Visual Studio Debugging)"
+title: "Enumerations (Visual Studio Debugging) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,7 +32,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Enumerations (Visual Studio Debugging)
-Following are enumerations for the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Debugging SDK.  
+Following are enumerations for the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Debugging SDK.  
   
  [AD_PROCESS_ID_TYPE](../extensibility/ad_process_id_type.md)  
  Specifies how to interpret a process ID in the [AD_PROCESS_ID](../extensibility/ad_process_id.md) structure.  

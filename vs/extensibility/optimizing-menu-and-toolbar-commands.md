@@ -1,7 +1,7 @@
 ---
-title: "Optimizing Menu and Toolbar Commands"
+title: "Optimizing Menu and Toolbar Commands | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,11 +35,11 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Optimizing Menu and Toolbar Commands
-The addition of VSPackages and their corresponding commands to [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] may cause a crowded UI. [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] provides ways to help minimize UI command confusion.  
+The addition of VSPackages and their corresponding commands to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] may cause a crowded UI. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] provides ways to help minimize UI command confusion.  
   
 ## In This Section  
  [Making Commands Available](../extensibility/making-commands-available.md)  
- Provides general guidelines for minimizing crowding of the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] UI when you add VSPackages.  
+ Provides general guidelines for minimizing crowding of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] UI when you add VSPackages.  
   
  [Placement Guidelines](../extensibility/command-placement-guidelines.md)  
  Provides specific guidelines for implementing a VSPackage according to the size of the command set.  

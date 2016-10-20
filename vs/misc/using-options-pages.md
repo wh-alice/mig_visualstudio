@@ -1,7 +1,7 @@
 ---
-title: "Using Options Pages"
+title: "Using Options Pages | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,9 +31,9 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Using Options Pages
-The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] automation model provides the <xref:EnvDTE.DTE> object to enable VSPackages to access the **Options** dialog box on the **Tools** menu.  
+The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] automation model provides the <xref:EnvDTE.DTE> object to enable VSPackages to access the **Options** dialog box on the **Tools** menu.  
   
- Typically, pages in the **Options** dialog box can be accessed by using the automation model, whether the pages are provided by the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE) or by a VSPackage. However, there are some exceptions, as follows:  
+ Typically, pages in the **Options** dialog box can be accessed by using the automation model, whether the pages are provided by the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) or by a VSPackage. However, there are some exceptions, as follows:  
   
 -   The settings of the **Dynamic Help** page cannot be accessed programmatically. The **Dynamic Help** feature can be controlled by using the automation model, but control must be accomplished directly in code. For more information, see [How to: Control the Dynamic Help Window](http://msdn.microsoft.com/en-us/7f5777aa-c270-4058-a175-8ce8a4ed25eb).  
   
@@ -41,7 +41,7 @@ The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] automation model pr
   
 -   Language-specific properties cannot be obtained through the automation model.  
   
- **Options** pages that do not support the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] automation model may not return an automation <xref:EnvDTE.Properties> collection when queried. If the collection is returned, not all features are present. For information about how to manage these features, see [DTE Properties Collections](../Topic/DTE%20Properties%20Collections.md).  
+ **Options** pages that do not support the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] automation model may not return an automation <xref:EnvDTE.Properties> collection when queried. If the collection is returned, not all features are present. For information about how to manage these features, see [DTE Properties Collections](../Topic/DTE%20Properties%20Collections.md).  
   
 ## Managing Options Pages  
  To manage **Options** pages, a VSPackage must get a <xref:EnvDTE.DTE> object from the automation model.  
@@ -65,7 +65,7 @@ pServiceProvider->QueryService(SID_SDTE, IID__DTE, (LPVOID*)pDTE);
  For example, the text editor settings for handling Basic code are on the navigation pane as the **Basic** member of the **Text Editor** folder. The identifier for the category is `TextEditor` and its subcategory is `Basic`, and the **Options** page itself is referred to as the `TextEditor.Basic` page.  
   
 > [!NOTE]
->  For localization and other reasons, the names displayed on **Options** pages may differ from the strings used as category and subcategory identifiers. You may have to use automation to query the IDE to obtain the correct identifiers, if they are not documented elsewhere. The registry location is HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<VS Version>*\AutomationProperties, where *\<VS Version>* is the version number of the release of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. For more information, see [Registering Custom Options Pages](../misc/registering-custom-options-pages.md).  
+>  For localization and other reasons, the names displayed on **Options** pages may differ from the strings used as category and subcategory identifiers. You may have to use automation to query the IDE to obtain the correct identifiers, if they are not documented elsewhere. The registry location is HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<VS Version>*\AutomationProperties, where *\<VS Version>* is the version number of the release of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. For more information, see [Registering Custom Options Pages](../misc/registering-custom-options-pages.md).  
   
  You can obtain the properties for the `TextEditor.Basic` page through the automation model by using the following example.  
   
@@ -105,11 +105,11 @@ hr= srpProperty.set_Value(4);
  For more information, see [Controlling Options Settings](../Topic/Controlling%20Options%20Settings.md).  
   
 ## Persisting Options Page Settings  
- The IDE implements state persistence of **Options** pages that fully support the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] automation model.  
+ The IDE implements state persistence of **Options** pages that fully support the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] automation model.  
   
  Settings on pages that are included in the IDE are automatically saved (or retrieved) when a user clicks the **Import/Export Settings** command on the **Tools** menu.  
   
- You can enable your custom **Options** page to use this automatic persistence support by adding the `ProfileSave` flag to the custom **Options** page registry entry under HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<VS Version>*\AutomationProperties, where *\<VS Version>* is the version number of the release of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. For more information, see [Registering Custom Options Pages](../misc/registering-custom-options-pages.md).  
+ You can enable your custom **Options** page to use this automatic persistence support by adding the `ProfileSave` flag to the custom **Options** page registry entry under HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<VS Version>*\AutomationProperties, where *\<VS Version>* is the version number of the release of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. For more information, see [Registering Custom Options Pages](../misc/registering-custom-options-pages.md).  
   
 ## See Also  
  [Creating Options Pages By Using Interop Assemblies](../misc/creating-options-pages-by-using-interop-assemblies.md)   

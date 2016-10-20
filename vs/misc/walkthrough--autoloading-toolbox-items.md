@@ -1,7 +1,7 @@
 ---
-title: "Walkthrough: Autoloading Toolbox Items"
+title: "Walkthrough: Autoloading Toolbox Items | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -83,13 +83,13 @@ This walkthrough illustrates how a managed VSPackage can use reflection to autom
   
 #### To disambiguate Visual Basic and Visual C# VSPackages  
   
-1.  For [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)]:  
+1.  For [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]:  
   
     -   In **Solution Explorer**, open the project properties, and select the **Application** tab.  
   
          Change the assembly name to `LoadToolboxMembersVB`, and change the default namespace to `Company.LoadToolboxMembersVB`.  
   
-2.  For [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)]:  
+2.  For [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)]:  
   
     1.  In **Solution Explorer**, open the project properties, and select the **Application** tab.  
   
@@ -129,7 +129,7 @@ This walkthrough illustrates how a managed VSPackage can use reflection to autom
   
      This opens a message box that contains text that indicates that the package's menu item handler was called.  
   
-3.  Close the experimental version of [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)].  
+3.  Close the experimental version of [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)].  
   
 ## Creating a Toolbox Control  
  In this section, you create and register a user control, `Control1`, that declares an associated default **Toolbox** item. For more information about how to author Windows Form controls and the <xref:System.Drawing.Design.ToolboxItem> class, see [Developing Windows Forms Controls at Design Time](../Topic/Developing%20Windows%20Forms%20Controls%20at%20Design%20Time.md).  
@@ -140,7 +140,7 @@ This walkthrough illustrates how a managed VSPackage can use reflection to autom
   
     1.  In **Solution Explorer**, right-click the **LoadToolboxMembers** project, point to **Add**, and then click **User Control**.  
   
-    2.  In the **Add New Item** dialog box, change the name to `Control1.vb` for [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] or `Control1.cs` for [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)].  
+    2.  In the **Add New Item** dialog box, change the name to `Control1.vb` for [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] or `Control1.cs` for [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)].  
   
          For more information about how to add new items to a project, see [NIB:How to: Add New Project Items](http://msdn.microsoft.com/en-us/63d3e16b-de6e-4bb5-a0e3-ecec762201ce).  
   
@@ -215,7 +215,7 @@ This walkthrough illustrates how a managed VSPackage can use reflection to autom
   
     4.  Repeat these steps for the second bitmap and name it `Control2.bmp`.  
   
-         Doing this opens each bitmap in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] bitmap editor.  
+         Doing this opens each bitmap in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] bitmap editor.  
   
 2.  Set the size of each icon to 16 x 16, as follows.  
   
@@ -223,7 +223,7 @@ This walkthrough illustrates how a managed VSPackage can use reflection to autom
   
     2.  In the **Properties** window, set **Height** and **Width** to 16.  
   
-3.  Use the bitmap editor in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] to create an image for each icon.  
+3.  Use the bitmap editor in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to create an image for each icon.  
   
 4.  In **Solution Explorer**, click each bitmap file, and then, in the **Properties** window, set the **Build Action** property to **Embedded Resource**.  
   
@@ -236,7 +236,7 @@ This walkthrough illustrates how a managed VSPackage can use reflection to autom
   
 -   Obtain a list of <xref:System.Drawing.Design.ToolboxItem> objects that the VSPackage supports.  
   
--   Load the <xref:System.Drawing.Design.ToolboxItem> object in the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] **Toolbox** when <xref:Microsoft.VisualStudio.Shell.Package.ToolboxInitialized> and <xref:Microsoft.VisualStudio.Shell.Package.ToolboxUpgraded> events are handled.  
+-   Load the <xref:System.Drawing.Design.ToolboxItem> object in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] **Toolbox** when <xref:Microsoft.VisualStudio.Shell.Package.ToolboxInitialized> and <xref:Microsoft.VisualStudio.Shell.Package.ToolboxUpgraded> events are handled.  
   
  The next procedure shows how to modify the package implementation.  
   
@@ -269,7 +269,7 @@ This walkthrough illustrates how a managed VSPackage can use reflection to autom
   
 3.  Expand the Package Members region to modify the `Initialize` method to do the following things:  
   
-    -   For [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)], subscribe to the <xref:Microsoft.VisualStudio.Shell.Package.ToolboxInitialized> and <xref:Microsoft.VisualStudio.Shell.Package.ToolboxUpgraded> events.  
+    -   For [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)], subscribe to the <xref:Microsoft.VisualStudio.Shell.Package.ToolboxInitialized> and <xref:Microsoft.VisualStudio.Shell.Package.ToolboxUpgraded> events.  
   
     -   Call the `CreateItemList` method to fill the <xref:System.Collections.ArrayList> object `ToolboxItemList`. The `ToolboxItemList` will contain a list of all the toolbox items that `LoadToolboxMembersPackage` manages.  
   
@@ -315,7 +315,7 @@ This walkthrough illustrates how a managed VSPackage can use reflection to autom
   
 1.  In Visual Studio, on the **Build** menu, click **Rebuild Solution**.  
   
-2.  Press F5 to start a second instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] in the experimental registry hive.  
+2.  Press F5 to start a second instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] in the experimental registry hive.  
   
      For more information about how to use the experimental hive, see [The Experimental Instance](../extensibility/the-experimental-instance.md).  
   
@@ -323,7 +323,7 @@ This walkthrough illustrates how a managed VSPackage can use reflection to autom
   
      A command named **Initialize LoadToolboxMembers VB** or **Initialize LoadToolboxMembers CS** should appear at the top of the menu, together with an icon that has the numeral 1.  
   
-4.  Create a new [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] or [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] Windows Forms application.  
+4.  Create a new [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] or [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] Windows Forms application.  
   
      A <xref:System.Windows.Forms.Form>-based designer should appear.  
   
@@ -370,7 +370,7 @@ This walkthrough illustrates how a managed VSPackage can use reflection to autom
 ### Registering a Toolbox Control Provider  
  Applying the <xref:Microsoft.VisualStudio.Shell.ProvideToolboxItemsAttribute> class to the class that implements <xref:Microsoft.VisualStudio.Shell.Package> affects the registry settings of the resulting VSPackage. For more information about the registry settings for a <xref:System.Drawing.Design.ToolboxItem> provider, see [Registering Toolbox Support Features](../misc/registering-toolbox-support-features.md).  
   
- The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] environment uses the version argument to the <xref:Microsoft.VisualStudio.Shell.ProvideToolboxItemsAttribute> constructor to manage the caching of VSPackages that provide items to the **Toolbox**. After a VSPackage has been loaded to provide **Toolbox** items, a cached version of the VSPackage is used until the registered version of the provider changes. Therefore, if you want to modify the product of this walkthrough after you build it, make sure to change the version argument of the <xref:Microsoft.VisualStudio.Shell.ProvideToolboxItemsAttribute> constructor that is applied to `AddToolboxItem`. For example, `[ProvideToolboxItems(1)]` should be changed to `[ProvideToolboxItems(2)]`. If the version is not changed, then the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] environment does not load any modifications that are made.  
+ The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] environment uses the version argument to the <xref:Microsoft.VisualStudio.Shell.ProvideToolboxItemsAttribute> constructor to manage the caching of VSPackages that provide items to the **Toolbox**. After a VSPackage has been loaded to provide **Toolbox** items, a cached version of the VSPackage is used until the registered version of the provider changes. Therefore, if you want to modify the product of this walkthrough after you build it, make sure to change the version argument of the <xref:Microsoft.VisualStudio.Shell.ProvideToolboxItemsAttribute> constructor that is applied to `AddToolboxItem`. For example, `[ProvideToolboxItems(1)]` should be changed to `[ProvideToolboxItems(2)]`. If the version is not changed, then the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] environment does not load any modifications that are made.  
   
  In this walkthrough, the VSPackage is configured to provide only **Toolbox** controls that support the default Clipboard format. For a list of default Clipboard formats, see [Extending the Toolbox](../misc/extending-the-toolbox.md). If you want to support other Clipboard formats, or decide not to support a default format, apply the attribute <xref:Microsoft.VisualStudio.Shell.ProvideToolboxFormatAttribute> to the `LoadToolboxMembersPackage` class. For more information about registering a **Toolbox** control provider, see [Advanced Toolbox Control Development](../misc/advanced-toolbox-control-development.md).  
   

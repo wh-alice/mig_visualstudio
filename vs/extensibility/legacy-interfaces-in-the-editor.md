@@ -1,7 +1,7 @@
 ---
-title: "Legacy Interfaces in the Editor"
+title: "Legacy Interfaces in the Editor | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -56,5 +56,5 @@ You can access the Visual Studio editor from legacy interfaces. The Visual Studi
 |[How to: Implement the Find and Replace Mechanism](../extensibility/how-to--implement-the-find-and-replace-mechanism.md)|Explains how to manage find and replace by using the legacy API.|  
 |[How to: Suppress File Change Notifications](../extensibility/how-to--suppress-file-change-notifications.md)|Explains how to suppress file change notifications by using the legacy API.|  
 |[Creating Custom Editors and Designers](../extensibility/creating-custom-editors-and-designers.md)|Explains how to create custom editors and designers.|  
-|[Developing a Legacy Language Service](../extensibility/developing-a-legacy-language-service.md)|Provides links to documents about features that provide customization capabilities to the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] core editor by adding support for a language service.|  
+|[Developing a Legacy Language Service](../extensibility/developing-a-legacy-language-service.md)|Provides links to documents about features that provide customization capabilities to the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] core editor by adding support for a language service.|  
 |[Using Fonts and Colors](../extensibility/using-fonts-and-colors.md)|Explains how to use fonts and colors with legacy interfaces.|

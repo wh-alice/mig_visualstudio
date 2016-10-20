@@ -1,7 +1,7 @@
 ---
-title: "Options Dialog Box, Projects and Solutions, Web Projects"
+title: "Options Dialog Box, Projects and Solutions, Web Projects | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,7 +31,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Options Dialog Box, Projects and Solutions, Web Projects
-Sets the Web server that Web projects will use for development within [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. To access this dialog box, click **Tools Options**. Expand **Projects and Solutions** and then click **Web Projects**.  
+Sets the Web server that Web projects will use for development within [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. To access this dialog box, click **Tools Options**. Expand **Projects and Solutions** and then click **Web Projects**.  
   
  By default, when you run a Web project in Visual Studio (for example, using F5 or Ctrl+F5), Visual Studio uses the Visual Studio Development Server. For more information, see [Web Servers in Visual Studio for ASP.NET Web Projects](http://msdn.microsoft.com/en-us/31d4f588-df59-4b7e-b9ea-e1f2dd204328).  
   

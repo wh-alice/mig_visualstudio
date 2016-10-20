@@ -1,7 +1,7 @@
 ---
-title: "How to: Update Existing Templates"
+title: "How to: Update Existing Templates | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,7 +36,7 @@ translation.priority.ht:
 After you create a template and compress the files into a .zip file, you may want to modify the template. You can do this by manually changing the files in the template, or by exporting a new template from a project that is based on the template.  
   
 ## Using the Export Template Wizard to Update an Existing Template  
- [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] provides an **Export Template** wizard that can be used to update an existing template.  
+ [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] provides an **Export Template** wizard that can be used to update an existing template.  
   
 #### To use Export Template to update an existing template  
   
@@ -44,14 +44,14 @@ After you create a template and compress the files into a .zip file, you may wan
   
 2.  Select the template that you want to update, enter a name and location for your temporary project, and click **OK**.  
   
-3.  Modify the project in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+3.  Modify the project in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 4.  On the **File** menu, click **Export Template**, and use the **Export Template** wizard to create a new template.  
   
 5.  After the updated template is compressed into a .zip file, delete the old template .zip file.  
   
 ## Manually Updating an Existing Template  
- You can update an existing template outside [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] by modifying the files in the compressed .zip file.  
+ You can update an existing template outside [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] by modifying the files in the compressed .zip file.  
   
 #### To manually update an existing template  
   

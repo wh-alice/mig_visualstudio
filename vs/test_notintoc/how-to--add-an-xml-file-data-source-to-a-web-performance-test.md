@@ -1,5 +1,5 @@
 ---
-title: "How to: Add an XML File Data Source to a Web Performance Test"
+title: "How to: Add an XML File Data Source to a Web Performance Test | Microsoft Docs"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

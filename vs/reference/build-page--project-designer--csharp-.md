@@ -1,7 +1,7 @@
 ---
-title: "Build Page, Project Designer (C#)"
+title: "Build Page, Project Designer (C#) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/17/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,11 +34,11 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Build Page, Project Designer (C#)
-Use the **Build** page of the **Project Designer** to specify the project's build configuration properties. This page applies to [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] projects only.  
+Use the **Build** page of the **Project Designer** to specify the project's build configuration properties. This page applies to [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] projects only.  
   
  To access the **Build** page, choose a project node (not the **Solution** node) in **Solution Explorer**. Then choose **Project**, **Properties** on the menu bar. When the Project Designer appears, click the **Build** tab.  
   
- [!INCLUDE[note_settings_general](../datatools/includes/note_settings_general_md.md)]  
+ [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
   
 ## Configuration and Platform  
  The following options enable you to select the configuration and platform to display or modify.  
@@ -121,7 +121,7 @@ Use the **Build** page of the **Project Designer** to specify the project's buil
  Specifies the name of a file into which documentation comments will be processed. For more information, see [/doc (C# Compiler Options)](../Topic/-doc%20\(C%23%20Compiler%20Options\).md).  
   
  **Register for COM interop**  
- Indicates that your managed application will expose a COM object (a COM callable wrapper) that allows a COM object to interact with your managed application. The **Output type** property in the [Application page](../reference/application-page--project-designer--visual-basic-.md) of the **Project Designer** for this application must be set to **Class Library** in order for the **Register for COM interop** property to be available. For an example class that you might include in your [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] application and expose as a COM object, see [Example COM Class](../Topic/Example%20COM%20Class%20\(C%23%20Programming%20Guide\).md).  
+ Indicates that your managed application will expose a COM object (a COM callable wrapper) that allows a COM object to interact with your managed application. The **Output type** property in the [Application page](../reference/application-page--project-designer--visual-basic-.md) of the **Project Designer** for this application must be set to **Class Library** in order for the **Register for COM interop** property to be available. For an example class that you might include in your [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] application and expose as a COM object, see [Example COM Class](../Topic/Example%20COM%20Class%20\(C%23%20Programming%20Guide\).md).  
   
  **Generate serialization assembly**  
  Specifies whether the compiler will use the XML Serializer Generator Tool (Sgen.exe) to create XML serialization assemblies. Serialization assemblies can improve the startup performance of <xref:System.Xml.Serialization.XmlSerializer> if you have used that class to serialize types in your code. By default, this option is set to **Auto**, which specifies that serialization assemblies be generated only if you have used <xref:System.Xml.Serialization.XmlSerializer> to encode types in your code to XML. **Off** specifies that serialization assemblies never be generated, regardless of whether your code uses <xref:System.Xml.Serialization.XmlSerializer>. **On** specifies that serialization assemblies always be generated. Serialization assemblies are named `TypeName`.XmlSerializers.dll. For more information, see [XML Serializer Generator Tool (Sgen.exe)](../Topic/XML%20Serializer%20Generator%20Tool%20\(Sgen.exe\).md).  

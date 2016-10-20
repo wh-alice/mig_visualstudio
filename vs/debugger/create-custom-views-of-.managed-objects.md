@@ -1,7 +1,7 @@
 ---
-title: "Create custom views of .managed objects"
+title: "Create custom views of .managed objects | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/17/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -49,7 +49,7 @@ You can customize the way Visual Studio displays data types in debugger variable
 ## Attributes  
  In C# and Visual Basic, you can add expansions for custom data using <xref:System.Diagnostics.DebuggerTypeProxyAttribute>, <xref:System.Diagnostics.DebuggerDisplayAttribute>, and <xref:System.Diagnostics.DebuggerBrowsableAttribute>.  
   
- In [!INCLUDE[dnprdnlong](../codequality/includes/dnprdnlong_md.md)] code, Visual Basic does not support the DebuggerBrowsable attribute. This limitation is removed in more recent versions of the .NET Framework.  
+ In [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)] code, Visual Basic does not support the DebuggerBrowsable attribute. This limitation is removed in more recent versions of the .NET Framework.  
   
 ## Visualizers  
  You can write a visualizer to display any managed data type. For more information, see [How to: Write a Visualizer](../debugger/how-to--write-a-visualizer.md).  

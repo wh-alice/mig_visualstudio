@@ -1,7 +1,7 @@
 ---
-title: "Unable to write the output of custom tool &#39;tool&#39; to file &#39;file&#39;. &lt;reason&gt;"
+title: "Unable to write the output of custom tool &#39;tool&#39; to file &#39;file&#39;. &lt;reason&gt; | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -38,6 +38,6 @@ The project system could not write the output of the custom tool to the specifie
   
  **To correct this error**  
   
--   Restart [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and rerun the custom tool by right-clicking the affected file and selecting **Run Custom Tool** from the shortcut menu.  
+-   Restart [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and rerun the custom tool by right-clicking the affected file and selecting **Run Custom Tool** from the shortcut menu.  
   
      The generated file is probably out-of-date, because the project system could not update it.

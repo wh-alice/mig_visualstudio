@@ -1,7 +1,7 @@
 ---
-title: "&lt;Package&gt; Element (Bootstrapper)"
+title: "&lt;Package&gt; Element (Bootstrapper) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -159,11 +159,11 @@ The `Package` element is the top-level XML element inside of a package file.
 |Attribute|Description|  
 |---------------|-----------------|  
 |`Culture`|Required. Defines the culture for this package, which determines the language to be used. This attribute is a key into the `Strings` element, which lists culture-specific strings for product names and error messages during the installation.|  
-|`Name`|Required. The name of the package displayed to the developer within a tool such as [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. This attribute is a key into the `Strings` element, which should contain a `String` element with the `Name` and `Culture` properties set to match the `Name` and `Culture` properties of `Package`.|  
+|`Name`|Required. The name of the package displayed to the developer within a tool such as [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. This attribute is a key into the `Strings` element, which should contain a `String` element with the `Name` and `Culture` properties set to match the `Name` and `Culture` properties of `Package`.|  
 |`LicenseAgreement`|Optional. Specifies the name of the file in the distribution package which contains the End-User License Agreement (EULA).  This file can be either plain text (.txt) or Rich Text Format. (.rtf)|  
   
 ## Example  
- The following code example shows a complete package file for redistributing the [!INCLUDE[dnprdnlong](../codequality/includes/dnprdnlong_md.md)].  
+ The following code example shows a complete package file for redistributing the [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)].  
   
 ```  
 <?xml version="1.0" encoding="utf-8" ?>  

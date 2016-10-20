@@ -1,7 +1,7 @@
 ---
-title: "Creating Options Pages"
+title: "Creating Options Pages | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,7 +32,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Creating Options Pages
-In the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] managed package framework, classes derived from <xref:Microsoft.VisualStudio.Shell.DialogPage> extend the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] IDE by adding **Options** pages under the **Tools** menu.  
+In the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] managed package framework, classes derived from <xref:Microsoft.VisualStudio.Shell.DialogPage> extend the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE by adding **Options** pages under the **Tools** menu.  
   
  An object implementing a given **Tools Option** page is associated with specific VSPackages by the <xref:Microsoft.VisualStudio.Shell.ProvideOptionPageAttribute> object.  
   

@@ -1,7 +1,7 @@
 ---
-title: "&#39;WithEvents&#39; variables must have an &#39;As&#39; clause"
+title: "&#39;WithEvents&#39; variables must have an &#39;As&#39; clause | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

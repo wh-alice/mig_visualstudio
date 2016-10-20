@@ -1,7 +1,7 @@
 ---
-title: "New File Command"
+title: "New File Command | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -52,7 +52,7 @@ File.NewFile [filename] [/t:templatename] [/editor:editorname]
   
  The /t:`templatename` argument syntax mirrors the information found in the New File Dialog Box. Enter the category name followed by a backslash (`\`) and the template name, and enclose the entire string in quotation marks.  
   
- For example, to create a new [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)] source file, you would enter the following for the /t:`templatename` argument.  
+ For example, to create a new [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] source file, you would enter the following for the /t:`templatename` argument.  
   
 ```  
 /t:"Visual C++\C++ File (.cpp)"  

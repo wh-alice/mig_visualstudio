@@ -1,7 +1,7 @@
 ---
-title: "&#39;Declare&#39; statements in a structure cannot be declared &#39;&lt;specifier&gt;&#39;"
+title: "&#39;Declare&#39; statements in a structure cannot be declared &#39;&lt;specifier&gt;&#39; | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

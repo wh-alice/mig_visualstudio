@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Missing Objects Due to Misconfigured Pipeline"
+title: "Walkthrough: Missing Objects Due to Misconfigured Pipeline | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
@@ -30,7 +30,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Walkthrough: Missing Objects Due to Misconfigured Pipeline
-This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Graphics Diagnostics tools to investigate an object that's missing due to an unset pixel shader.  
+This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Graphics Diagnostics tools to investigate an object that's missing due to an unset pixel shader.  
   
  This walkthrough illustrates these tasks:  
   
@@ -54,7 +54,7 @@ This walkthrough demonstrates how to use the [!INCLUDE[vsprvs](../codequality/in
   
 #### To examine a frame in a graphics log  
   
-1.  In [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], load a graphics log document that contains a frame that exhibits the missing object. A new graphics log tab appears in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. In the top part of this tab is the render target output of the selected frame. In the bottom part is the **Frame List**, which displays each captured frame as a thumbnail image.  
+1.  In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], load a graphics log document that contains a frame that exhibits the missing object. A new graphics log tab appears in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. In the top part of this tab is the render target output of the selected frame. In the bottom part is the **Frame List**, which displays each captured frame as a thumbnail image.  
   
 2.  In the **Frame List**, select a frame that demonstrates that the object is not displayed. The render target is updated to reflect the selected frame. In this scenario, the graphics log tab looks like this:  
   

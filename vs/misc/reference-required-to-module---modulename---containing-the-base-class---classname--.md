@@ -1,13 +1,13 @@
 ---
-title: "Reference required to module &#39;&lt;modulename&gt;&#39; containing the base class &#39;&lt;classname&gt;&#39;"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Reference required to module &#39;&lt;modulename&gt;&#39; containing the base class &#39;&lt;classname&gt;&#39; | Microsoft Docs"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbc30008"
@@ -37,7 +37,7 @@ translation.priority.mt:
 # Reference required to module &#39;&lt;modulename&gt;&#39; containing the base class &#39;&lt;classname&gt;&#39;
 Reference required to module '\<modulename>' containing the base class '\<classname>'. Add one to your project.  
   
- The class is defined in a module that is not directly referenced in your project. The [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] compiler requires a reference to avoid ambiguity in case the class is defined in more than one module.  
+ The class is defined in a module that is not directly referenced in your project. The [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler requires a reference to avoid ambiguity in case the class is defined in more than one module.  
   
  **Error ID:** BC30008  
   

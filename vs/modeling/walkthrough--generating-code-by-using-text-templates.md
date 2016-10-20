@@ -1,7 +1,7 @@
 ---
-title: "Walkthrough: Generating Code by using Text Templates"
+title: "Walkthrough: Generating Code by using Text Templates | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -39,7 +39,7 @@ Code generation allows you to produce program code that is strongly typed, and y
  In this example project, a template reads a sample XML file, and generates classes that correspond to each type of node. In the hand-written code, you can use these classes to navigate the XML file. You can also run your application on any other files that use the same node types. The purpose of the sample XML file is to provide examples of all the node types that you want your application to deal with.  
   
 > [!NOTE]
->  The application [xsd.exe](http://go.microsoft.com/fwlink/?LinkId=178765), which is included with [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], can generate strongly-typed classes from XML files. The template shown here is provided as an example.  
+>  The application [xsd.exe](http://go.microsoft.com/fwlink/?LinkId=178765), which is included with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], can generate strongly-typed classes from XML files. The template shown here is provided as an example.  
   
  Here is the sample file:  
   
@@ -155,7 +155,7 @@ namespace MyProject
   
 3.  In the file, in the template directive, change the `hostspecific` attribute to `true`.  
   
-     This change will enable the template code to gain access to the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] services.  
+     This change will enable the template code to gain access to the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] services.  
   
 4.  In the output directive, change the extension attribute to ".cs", so that the template generates a C# file. In a Visual Basic project, you would change it to ".vb".  
   
@@ -281,7 +281,7 @@ public partial class Song {}
  More details such as properties for the child nodes, attributes, and inner text can be added using the same approach.  
   
 ### Accessing the Visual Studio API  
- Setting the `hostspecific` attribute of the `<#@template#>` directive allows the template to obtain access to the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] API. The template can use this to obtain the location of the project files, to avoid using an absolute file path in the template code.  
+ Setting the `hostspecific` attribute of the `<#@template#>` directive allows the template to obtain access to the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] API. The template can use this to obtain the location of the project files, to avoid using an absolute file path in the template code.  
   
 ```  
 <#@ template debug="false" hostspecific="true" language="C#" #>  

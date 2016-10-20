@@ -1,7 +1,7 @@
 ---
-title: "Web Site Support Attributes"
+title: "Web Site Support Attributes | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,7 +31,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Web Site Support Attributes
-[!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Web site project can be extended to provide support for Web programming languages. The language must register itself with [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] so that project templates can appear in the **New Web Site** dialog box when the language is selected.  
+[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Web site project can be extended to provide support for Web programming languages. The language must register itself with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] so that project templates can appear in the **New Web Site** dialog box when the language is selected.  
   
  The IronPython Studio sample includes web site support. You can find it with the [VSSDK Samples](../misc/vssdk-samples.md). It includes the following attribute classes to register IronPython as a codebehind language for new Web projects.  
   

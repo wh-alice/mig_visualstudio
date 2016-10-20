@@ -1,7 +1,7 @@
 ---
-title: "Implementing the IVsPackage Interface"
+title: "Implementing the IVsPackage Interface | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,7 +32,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Implementing the IVsPackage Interface
-All VSPackages must implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage> interface. [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] calls the methods of <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage> to initialize and close VSPackages, to get associated property pages, and for other reasons. The <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage> interface is the gateway interface between [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and a VSPackage.  
+All VSPackages must implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage> interface. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] calls the methods of <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage> to initialize and close VSPackages, to get associated property pages, and for other reasons. The <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage> interface is the gateway interface between [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and a VSPackage.  
   
  You can write a managed VSPackage as a subclass of the <xref:Microsoft.VisualStudio.Shell.Package> class, which implements <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage> on your behalf. For more information, see [Managed VSPackages](../misc/managed-vspackages.md).  
   

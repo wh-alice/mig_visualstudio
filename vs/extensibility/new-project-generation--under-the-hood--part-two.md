@@ -1,5 +1,5 @@
 ---
-title: "New Project Generation: Under the Hood, Part Two"
+title: "New Project Generation: Under the Hood, Part Two | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
@@ -35,7 +35,7 @@ translation.priority.mt:
 In [New Project Generation: Under the Hood, Part One](../extensibility/new-project-generation--under-the-hood--part-one.md) we saw how the **New Project** dialog Box is populated. Let's assume you've selected a **Visual C# Windows Application**, filled out the **Name** and **Location** text boxes, and clicked OK.  
   
 ## Generating the Solution Files  
- Choosing an application template directs [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] to unzip and open the corresponding .vstemplate file, and to launch a template to interpret the XML commands in this file. These commands create projects and project items in the new or existing solution.  
+ Choosing an application template directs [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to unzip and open the corresponding .vstemplate file, and to launch a template to interpret the XML commands in this file. These commands create projects and project items in the new or existing solution.  
   
  The template unpacks source files, called item templates, from the same .zip folder that holds the .vstemplate file. The template copies these files to the new project, customizing them accordingly. For an overview of project and item templates, see [NIB: Visual Studio Templates](http://msdn.microsoft.com/en-us/141fccaa-d68f-4155-822b-27f35dd94041).  
   

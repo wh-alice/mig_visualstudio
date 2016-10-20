@@ -1,7 +1,7 @@
 ---
-title: "Elements of a Project Model"
+title: "Elements of a Project Model | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,7 +33,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Elements of a Project Model
-The interfaces and implementations of all projects in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] share a basic structure: the project model for your project type. In your project model, which is the VSPackage you are developing, you create objects that comply with your design decisions and work together with global functionality provided by the IDE. Although you control how a project item is persisted, for example, you do not control notification that a file must be persisted. When a user places the focus on an open project item and chooses **Save** on the **File** menu on the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] menu bar, your project type code must intercept the command from the IDE, persist the file, and send notification back to the IDE that the file is no longer changed.  
+The interfaces and implementations of all projects in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] share a basic structure: the project model for your project type. In your project model, which is the VSPackage you are developing, you create objects that comply with your design decisions and work together with global functionality provided by the IDE. Although you control how a project item is persisted, for example, you do not control notification that a file must be persisted. When a user places the focus on an open project item and chooses **Save** on the **File** menu on the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] menu bar, your project type code must intercept the command from the IDE, persist the file, and send notification back to the IDE that the file is no longer changed.  
   
  Your VSPackage interacts with the IDE through services that provide access to the IDE interfaces. For example, through particular services, you monitor and route commands and provide context information for selections made in the project. All the global IDE functionality needed for your VSPackage is provided by services. For more information about services, see [How to: Get a Service](../extensibility/how-to--get-a-service.md).  
   
@@ -43,7 +43,7 @@ The interfaces and implementations of all projects in [!INCLUDE[vsprvs](../codeq
   
 -   Project types and the attendant project factories are registered independently with GUIDs.  
   
--   Each project must have a template file or wizard to initialize the new project file when a user creates a new project through the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] UI. For example, the [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)] templates initialize what eventually become .vcproj files.  
+-   Each project must have a template file or wizard to initialize the new project file when a user creates a new project through the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] UI. For example, the [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] templates initialize what eventually become .vcproj files.  
   
  The following illustration shows the primary interfaces, services, and objects that compose a typical project implementation. You can use the application helper, HierUtil7, to create the underlying objects and other programming boilerplate. For more information about the HierUtil7 application helper, see [Not in Build: Using HierUtil7 Project Classes to Implement a Project Type (C++)](http://msdn.microsoft.com/en-us/a5c16a09-94a2-46ef-87b5-35b815e2f346).  
   

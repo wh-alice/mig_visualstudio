@@ -1,7 +1,7 @@
 ---
-title: "Troubleshooting RegPkg Package Registration"
+title: "Troubleshooting RegPkg Package Registration | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,10 +34,10 @@ translation.priority.mt:
 > [!NOTE]
 >  The preferred way to register packages in Visual Studio is by using .pkgdef files. This allows for extension deployment without having to access the system registry. Pkgdef files are created by using the [CreatePkgDef Utility](../extensibility/createpkgdef-utility.md).  
   
- To register a package by using RegPkg in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], you must use the version of RegPkg that is appropriate for your package.  
+ To register a package by using RegPkg in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], you must use the version of RegPkg that is appropriate for your package.  
   
 ## RegPkg Versions Related to Package Versions  
- There are two versions of RegPkg. One version is included in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. Use this version to register packages that have been built by using one of the following assemblies:  
+ There are two versions of RegPkg. One version is included in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Use this version to register packages that have been built by using one of the following assemblies:  
   
 1.  Microsoft.VisualStudioShell.9.0.dll  
   

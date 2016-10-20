@@ -1,13 +1,13 @@
 ---
-title: "&#39;&lt;procedurename&gt;&#39; has a return type that is not supported or parameter types that are not supported"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "&#39;&lt;procedurename&gt;&#39; has a return type that is not supported or parameter types that are not supported | Microsoft Docs"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bc30657"
@@ -35,7 +35,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # &#39;&lt;procedurename&gt;&#39; has a return type that is not supported or parameter types that are not supported
-A procedure is declared with parameters or a return type that cannot be represented by [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+A procedure is declared with parameters or a return type that cannot be represented by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
  **Error ID:** BC30657  
   

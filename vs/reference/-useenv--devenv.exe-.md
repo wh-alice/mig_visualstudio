@@ -1,7 +1,7 @@
 ---
-title: "-UseEnv (devenv.exe)"
+title: "-UseEnv (devenv.exe) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -40,7 +40,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # /UseEnv (devenv.exe)
-Starts [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and loads environmental variables into the **VC++ Directories** dialog box.  
+Starts [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and loads environmental variables into the **VC++ Directories** dialog box.  
   
 ## Syntax  
   
@@ -49,7 +49,7 @@ Devenv /useenv
 ```  
   
 ## Example  
- The following example starts [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and loads environment variables into the **VC++ Directories** dialog box.  
+ The following example starts [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and loads environment variables into the **VC++ Directories** dialog box.  
   
 ```  
 Devenv.exe /useenv  

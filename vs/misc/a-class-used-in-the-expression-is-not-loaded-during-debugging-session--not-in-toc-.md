@@ -1,13 +1,13 @@
 ---
-title: "A class used in the expression is not loaded during debugging session (Not in TOC)"
-ms.custom: na
-ms.date: "10/14/2016"
+title: "A class used in the expression is not loaded during debugging session (Not in TOC) | Microsoft Docs"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "bc30973"

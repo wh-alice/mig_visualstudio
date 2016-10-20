@@ -1,7 +1,7 @@
 ---
-title: "How to: Extend the Domain-Specific Language Designer"
+title: "How to: Extend the Domain-Specific Language Designer | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -75,19 +75,19 @@ You can make extensions to the designer that you use to edit DSL Definitions. Ty
      System.Windows.Forms  
   
 ## Testing and Deployment  
- To test any of the extensions in this topic, build and run the solution. An experimental instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] opens. In this instance, open a DSL solution. Edit the DslDefinition diagram. The extension behavior can be seen.  
+ To test any of the extensions in this topic, build and run the solution. An experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] opens. In this instance, open a DSL solution. Edit the DslDefinition diagram. The extension behavior can be seen.  
   
- To deploy the extensions to the main [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], and to other computers, follow these steps:  
+ To deploy the extensions to the main [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], and to other computers, follow these steps:  
   
 1.  Find the VSIX installation file, in your VSIX project in bin\\*\\\*.vsix  
   
 2.  Copy this file to the target computer, and then in Windows Explorer (or File Explorer), double-click it.  
   
-     The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Extension Manager opens to confirm that the extension has been installed.  
+     The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Extension Manager opens to confirm that the extension has been installed.  
   
  To uninstall the extension, follow these steps:  
   
-1.  in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], on the **Tools** menu, click **Extension Manager**.  
+1.  in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], on the **Tools** menu, click **Extension Manager**.  
   
 2.  Select the extension and delete it.  
   

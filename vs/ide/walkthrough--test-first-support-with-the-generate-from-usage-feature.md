@@ -1,7 +1,7 @@
 ---
-title: "Walkthrough: Test-First Support with the Generate From Usage Feature"
+title: "Walkthrough: Test-First Support with the Generate From Usage Feature | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,21 +35,21 @@ translation.priority.mt:
 # Walkthrough: Test-First Support with the Generate From Usage Feature
 This topic demonstrates how to use the [Generate From Usage](../misc/generate-from-usage.md) feature, which supports test-first development.  
   
- *Test-first development* is an approach to software design in which you first write unit tests based on product specifications, and then write the source code that is required to make the tests succeed. [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] supports test-first development by generating new types and members in the source code when you first reference them in your test cases, before they are defined.  
+ *Test-first development* is an approach to software design in which you first write unit tests based on product specifications, and then write the source code that is required to make the tests succeed. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] supports test-first development by generating new types and members in the source code when you first reference them in your test cases, before they are defined.  
   
- [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] generates the new types and members with minimal interruption to your workflow. You can create stubs for types, methods, properties, fields, or constructors without leaving your current location in code. When you open a dialog box to specify options for type generation, the focus returns immediately to the current open file when the dialog box closes.  
+ [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] generates the new types and members with minimal interruption to your workflow. You can create stubs for types, methods, properties, fields, or constructors without leaving your current location in code. When you open a dialog box to specify options for type generation, the focus returns immediately to the current open file when the dialog box closes.  
   
- The Generate From Usage feature can be used with test frameworks that integrate with [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. In this topic, the Microsoft Unit Testing Framework is demonstrated.  
+ The Generate From Usage feature can be used with test frameworks that integrate with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. In this topic, the Microsoft Unit Testing Framework is demonstrated.  
   
- [!INCLUDE[note_settings_general](../datatools/includes/note_settings_general_md.md)]  
+ [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
   
 ### To create a Windows Class Library project and a Test project  
   
-1.  In [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] or [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)], create a new Windows Class Library project. Name it `GFUDemo_VB` or `GFUDemo_CS`, depending on which language you are using.  
+1.  In [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] or [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)], create a new Windows Class Library project. Name it `GFUDemo_VB` or `GFUDemo_CS`, depending on which language you are using.  
   
 2.  In **Solution Explorer**, right-click the solution icon at the top, point to **Add**, and then click **New Project**. In the **New Project** dialog box, in the **Project Types** pane on the left, click **Test**.  
   
-3.  In the **Templates** pane, click **Unit Test Project** and accept the default name of UnitTestProject1. The following illustration shows the dialog box when it appears in [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)]. In [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)], the dialog box looks similar.  
+3.  In the **Templates** pane, click **Unit Test Project** and accept the default name of UnitTestProject1. The following illustration shows the dialog box when it appears in [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)]. In [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)], the dialog box looks similar.  
   
      ![New Test Project dialog](../ide/media/newproject_test.png "NewProject_Test")  
 New Project dialog box  
@@ -65,7 +65,7 @@ New Project dialog box
     > [!NOTE]
     >  IntelliSense now provides two alternatives for IntelliSense statement completion: *completion mode* and *suggestion mode*. Use suggestion mode for situations in which classes and members are used before they are defined. When an IntelliSense window is open, you can press CTRL+ALT+SPACEBAR to toggle between completion mode and suggestion mode. See [Using IntelliSense](../ide/using-intellisense.md) for more information. Suggestion mode will help when you are typing `Automobile` in the next step.  
   
-3.  Locate the `TestMethod1()` method and rename it to `DefaultAutomobileIsInitializedCorrectly()`. Inside this method, create a new instance of a class named `Automobile`, as shown in the following illustrations. A wavy underline appears, which indicates a compile-time error, and a smart tag appears under the type name. The exact location of the smart tag varies, depending on whether you are using [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] or [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)].  
+3.  Locate the `TestMethod1()` method and rename it to `DefaultAutomobileIsInitializedCorrectly()`. Inside this method, create a new instance of a class named `Automobile`, as shown in the following illustrations. A wavy underline appears, which indicates a compile-time error, and a smart tag appears under the type name. The exact location of the smart tag varies, depending on whether you are using [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] or [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)].  
   
      ![Smart Tag Underline in Visual Basic](../ide/media/genclass_underlinevb.png "GenClass_UnderlineVB")  
 Visual Basic  
@@ -83,7 +83,7 @@ Visual C#
   
 5.  Now you have two choices. You could click **Generate 'Class Automobile'** to create a new file in your test project and populate it with an empty class named `Automobile`. This is a quick way to create a new class in a new file that has default access modifiers in the current project. You can also click **Generate new type** to open the **Generate New Type** dialog box. This provides options that include putting the class in an existing file and adding the file to another project.  
   
-     Click **Generate new type** to open the **Generate New Type** dialog box, which is shown in the following illustration. In the **Project** list, click **GFUDemo_VB** or **GFUDemo_CS** to instruct [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] to add the file to the source code project instead of the test project.  
+     Click **Generate new type** to open the **Generate New Type** dialog box, which is shown in the following illustration. In the **Project** list, click **GFUDemo_VB** or **GFUDemo_CS** to instruct [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to add the file to the source code project instead of the test project.  
   
      ![Generate New Type dialog box](../ide/media/genotherdialog.png "GenOtherDialog")  
 Generate New Type dialog box  
@@ -133,7 +133,7 @@ Navigate To window
      [!code[VbTDDWalkthrough#2](../ide/codesnippet/CSharp/walkthrough--test-first-support-with-the-generate-from-usage-feature_2.cs)]
 [!code[VbTDDWalkthrough#2](../ide/codesnippet/VisualBasic/walkthrough--test-first-support-with-the-generate-from-usage-feature_2.vb)]  
   
-2.  Click the smart tag under the new class constructor and then click **Generate constructor stub**. In the `Automobile` class file, notice that the new constructor has examined the names of the local variables that are used in the constructor call, found properties that have the same names in the `Automobile` class, and supplied code in the constructor body to store the argument values in the `Model` and `TopSpeed` properties. (In [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)], the `_model` and `_topSpeed` fields in the new constructor are the implicitly defined backing fields for the `Model` and `TopSpeed` properties.)  
+2.  Click the smart tag under the new class constructor and then click **Generate constructor stub**. In the `Automobile` class file, notice that the new constructor has examined the names of the local variables that are used in the constructor call, found properties that have the same names in the `Automobile` class, and supplied code in the constructor body to store the argument values in the `Model` and `TopSpeed` properties. (In [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)], the `_model` and `_topSpeed` fields in the new constructor are the implicitly defined backing fields for the `Model` and `TopSpeed` properties.)  
   
 3.  After you generate the new constructor, a wavy underline appears under the call to the default constructor in `DefaultAutomobileIsInitializedCorrectly`. The error message states that the `Automobile` class has no constructor that takes zero arguments. To generate an explicit default constructor that does not have parameters, click the smart tag and then click **Generate constructor stub**.  
   
@@ -187,4 +187,4 @@ Test Results window
  [Generate From Usage](../misc/generate-from-usage.md)   
  [Writing Code](../ide/writing-code-in-the-code-and-text-editor.md)   
  [Using IntelliSense](../ide/using-intellisense.md)   
- [Unit Test Your Code](../codequality/unit-test-your-code.md)
+ [Unit Test Your Code](../code-quality/unit-test-your-code.md)

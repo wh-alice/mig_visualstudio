@@ -1,7 +1,7 @@
 ---
-title: "- How to: Use Find and Replace in a Web Performance Test"
+title: "- How to: Use Find and Replace in a Web Performance Test | Microsoft Docs"
 ms.custom: ""
-ms.date: "09/28/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,7 +34,7 @@ translation.priority.ht:
 # - How to: Use Find and Replace in a Web Performance Test
 You can quickly find and replace text in the Web requests of a Web performance test by using the Web Performance Test Editor.  
   
- You can create a context parameter to easily replace all instances of a string in the Web test with the context parameter by using **Find and Replace in Request**. For example, if you want to parameterize the site portion of `http://servername/``sitename``/sitepage` you could create a context parameter for `sitename` called `{{newsitename}}` and use **Find and Replace in Request** to replace all the instances in the Web performance test of `sitename` with `newsitename`. [!INCLUDE[crdefault](../codequality/includes/crdefault_md.md)] [How to: Use Context Parameters in a Web Performance Test](../test_notintoc/how-to--use-context-parameters-in-a-web-performance-test.md).  
+ You can create a context parameter to easily replace all instances of a string in the Web test with the context parameter by using **Find and Replace in Request**. For example, if you want to parameterize the site portion of `http://servername/``sitename``/sitepage` you could create a context parameter for `sitename` called `{{newsitename}}` and use **Find and Replace in Request** to replace all the instances in the Web performance test of `sitename` with `newsitename`. [!INCLUDE[crdefault](../code-quality/includes/crdefault_md.md)] [How to: Use Context Parameters in a Web Performance Test](../test_notintoc/how-to--use-context-parameters-in-a-web-performance-test.md).  
   
 > [!NOTE]
 >  You cannot use CTRL+F for find and replace functionality in a Web performance test. CTRL+F opens the Visual Studio **Find and Replace** dialog box. In a Web performance test, you must use the **Find and Replace in Request** in the shortcut menu of a node.  

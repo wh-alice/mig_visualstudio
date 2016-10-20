@@ -1,13 +1,13 @@
 ---
-title: "Project property &#39;property&#39; is set to an invalid value and will be defaulted to FALSE. &lt;reason&gt;"
-ms.custom: na
-ms.date: "10/13/2016"
+title: "Project property &#39;property&#39; is set to an invalid value and will be defaulted to FALSE. &lt;reason&gt; | Microsoft Docs"
+ms.custom: ""
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
-ms.reviewer: na
-ms.suite: na
+ms.reviewer: ""
+ms.suite: ""
 ms.technology: 
   - "devlang-csharp"
-ms.tgt_pltfrm: na
+ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vs.tasklisterror.projfile_bogus_data"

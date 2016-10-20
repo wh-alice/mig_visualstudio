@@ -1,7 +1,7 @@
 ---
-title: "UML Use Case Diagrams: Guidelines"
+title: "UML Use Case Diagrams: Guidelines | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -288,7 +288,7 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
 >  You can double-click an Artifact to open the diagram or document to which it links.  
   
 ### Linking use cases to work items  
- If your project uses [!INCLUDE[vstsTfsRosarioLong](../modeling/includes/vststfsrosariolong_md.md)] and you have [!INCLUDE[esprtfc](../codequality/includes/esprtfc_md.md)], you can link each use case to a work item in [!INCLUDE[esprfound](../codequality/includes/esprfound_md.md)]. To learn how to make these links, see [Link model elements and work items](../modeling/link-model-elements-and-work-items.md).  
+ If your project uses [!INCLUDE[vstsTfsRosarioLong](../modeling/includes/vststfsrosariolong_md.md)] and you have [!INCLUDE[esprtfc](../code-quality/includes/esprtfc_md.md)], you can link each use case to a work item in [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)]. To learn how to make these links, see [Link model elements and work items](../modeling/link-model-elements-and-work-items.md).  
   
  This enables you to:  
   

@@ -1,7 +1,7 @@
 ---
-title: "Project Types Architecture"
+title: "Project Types Architecture | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,7 +31,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Project Types Architecture
-This section contains detailed information about the architecture of project types in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+This section contains detailed information about the architecture of project types in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 ## In This Section  
  [Elements of a Project Model](../extensibility/elements-of-a-project-model.md)  
@@ -41,14 +41,14 @@ This section contains detailed information about the architecture of project typ
  Describes the interfaces project types both must implement and optionally can implement to provide additional functionality.  
   
  [When to Create Project Types](../extensibility/when-to-create-project-types.md)  
- Helps you decide when you must create a project type and when you can use another [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] extensibility feature such as VSPackages and editors to achieve the same goal.  
+ Helps you decide when you must create a project type and when you can use another [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] extensibility feature such as VSPackages and editors to achieve the same goal.  
   
  [Hierarchies and Selection](../extensibility/hierarchies-and-selection.md)  
- Describes how [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] uses hierarchies and selection context to provide a consistent and simplified user experience.  
+ Describes how [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] uses hierarchies and selection context to provide a consistent and simplified user experience.  
   
 ## Related Sections  
  [Project Subtypes](../extensibility/project-subtypes.md)  
- Explains how project subtypes let you customize the behavior of the project systems of [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] and [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)].  
+ Explains how project subtypes let you customize the behavior of the project systems of [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] and [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)].  
   
  [Project Types](../extensibility/project-types.md)  
- Provides an overview of projects as the basic building blocks of the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE). Links are provided to additional topics that explain how projects control building and compiling code.
+ Provides an overview of projects as the basic building blocks of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE). Links are provided to additional topics that explain how projects control building and compiling code.

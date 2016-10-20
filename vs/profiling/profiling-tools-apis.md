@@ -1,7 +1,7 @@
 ---
-title: "Profiling Tools APIs"
+title: "Profiling Tools APIs | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -29,7 +29,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Profiling Tools APIs
-You can insert managed or native methods of the APIs of the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Profiling Tools to control data collection in a profiling run. This section describes the methods of the APIs and describes how to use them.  
+You can insert managed or native methods of the APIs of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools to control data collection in a profiling run. This section describes the methods of the APIs and describes how to use them.  
   
 ## In This Section  
  [Visual Studio Profiler API Reference (Native)](../profiling/visual-studio-profiler-api-reference--native-.md)  

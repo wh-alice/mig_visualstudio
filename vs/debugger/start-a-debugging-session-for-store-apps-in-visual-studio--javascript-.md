@@ -1,7 +1,7 @@
 ---
-title: "Start a debugging session for Store Apps in Visual Studio (JavaScript)"
+title: "Start a debugging session for Store Apps in Visual Studio (JavaScript) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -38,12 +38,12 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Start a debugging session for Store Apps in Visual Studio (JavaScript)
-![Applies to Windows and Windows Phone](../codequality/media/windows_and_phone_content.png "windows_and_phone_content")  
+![Applies to Windows and Windows Phone](../code-quality/media/windows_and_phone_content.png "windows_and_phone_content")  
   
  This topic describes how to start a debugging session for Windows Store apps written in JavaScript and HTML5. You can start debugging with a single keystroke, or you can configure the debugging session for specific scenarios and then choose the way to start the app.  
   
 > [!NOTE]
->  For apps written in XAML and Visual C#, Visual C++, or Visual Basic, see [Start a debug session (VB, C#, C++ and XAML)](../debugger/66ec0e79-8261-4c19-a618-3fd1b3f71bbd.md)  
+>  For apps written in XAML and Visual C#, Visual C++, or Visual Basic, see [Start a debug session (VB, C#, C++ and XAML)](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio--vb--csharp--c---and-xaml-.md)  
   
 ##  <a name="BKMK_In_this_topic"></a> In this topic  
  [In this topic](#BKMK_In_this_topic)  
@@ -116,7 +116,7 @@ translation.priority.mt:
 |||  
 |-|-|  
 |**Local Machine**|Debug the app in the current session on your local machine. See [Run Windows Store apps on the local machine](../debugger/run-windows-store-apps-on-the-local-machine.md).|  
-|**Simulator**|Debug the app in the Visual Studio simulator for [!INCLUDE[win8_appname_long](../codequality/includes/win8_appname_long_md.md)] apps. The simulator is a Desktop window that enables you to debug device functionality—such as touch gestures and device rotation—that are not available on the local machine. See [Run Windows Store apps in the simulator](../debugger/run-windows-store-apps-in-the-simulator.md).|  
+|**Simulator**|Debug the app in the Visual Studio simulator for [!INCLUDE[win8_appname_long](../code-quality/includes/win8_appname_long_md.md)] apps. The simulator is a Desktop window that enables you to debug device functionality—such as touch gestures and device rotation—that are not available on the local machine. See [Run Windows Store apps in the simulator](../debugger/run-windows-store-apps-in-the-simulator.md).|  
 |**Remote Machine**|Debug the app on a device that is connected to the local machine over an intranet or directly connected by using an Ethernet cable. To debug remotely, the Visual Studio Remote Tools must be installed and running on the remote device. See [Run Windows Store apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md).|  
   
  If you choose **Remote Machine**, specify the name or IP address of the remote machine in one of these ways:  
@@ -179,12 +179,12 @@ translation.priority.mt:
   
  The app starts in debug mode. Execution continues until a breakpoint is reached, you manually suspend execution, an unhandled exception occurs, or the app ends.  
   
- . For more information about debugging background tasks, see [Trigger suspend, resume, and background events for Windows Store)](../debugger/824ff3ca-fedf-4cf5-b3e2-ac8dc82d40ac.md).  
+ . For more information about debugging background tasks, see [Trigger suspend, resume, and background events for Windows Store)](../debugger/how-to-trigger-suspend--resume--and-background-events-for-windows-store-apps-in-visual-studio.md).  
   
 ##  <a name="BKMK_Start_an_installed_app_in_the_debugger"></a> Start an installed app in the debugger  
  When you start debugging by using F5, Visual Studio builds and deploys the app, sets the app to run in debug mode, and then starts it. To start an app that is already installed on a device, use the Debug Installed App Package dialog box. This procedure is useful when you need to debug an app that was installed from the Windows store, or when you have the source files for the app, but you do not have a Visual Studio project for the app. For example, you might have a custom build system that does not use Visual Studio projects or solutions.  
   
- The app can be installed on the local device, or it can be on a remote device.  You can start the app immediately, or you can set it to run in the debugger when it is started by another process or method, such as from the Start menu or by an activation contract, You can also set the app to run in debug mode when you want to debug a background process without starting the app. For more information, see [Trigger suspend, resume, and background events for Windows Store)](../debugger/824ff3ca-fedf-4cf5-b3e2-ac8dc82d40ac.md).  
+ The app can be installed on the local device, or it can be on a remote device.  You can start the app immediately, or you can set it to run in the debugger when it is started by another process or method, such as from the Start menu or by an activation contract, You can also set the app to run in debug mode when you want to debug a background process without starting the app. For more information, see [Trigger suspend, resume, and background events for Windows Store)](../debugger/how-to-trigger-suspend--resume--and-background-events-for-windows-store-apps-in-visual-studio.md).  
   
  To set an installed app to run in debug mode, do this:  
   
@@ -198,7 +198,7 @@ translation.priority.mt:
     |||  
     |-|-|  
     |**Local Machine**|Debug the app in the current session on your local machine. See [Run Windows Store apps on the local machine](../debugger/run-windows-store-apps-on-the-local-machine.md).|  
-    |**Simulator**|Debug the app in the Visual Studio simulator for [!INCLUDE[win8_appname_long](../codequality/includes/win8_appname_long_md.md)] apps. The simulator is a Desktop window that enables you to debug device functionality—such as touch gestures and device rotation—that are not available on the local machine. See [Run Windows Store apps in the simulator](../debugger/run-windows-store-apps-in-the-simulator.md).|  
+    |**Simulator**|Debug the app in the Visual Studio simulator for [!INCLUDE[win8_appname_long](../code-quality/includes/win8_appname_long_md.md)] apps. The simulator is a Desktop window that enables you to debug device functionality—such as touch gestures and device rotation—that are not available on the local machine. See [Run Windows Store apps in the simulator](../debugger/run-windows-store-apps-in-the-simulator.md).|  
     |**Remote Machine**|Debug the app on a device that is connected to the local machine over an intranet or directly connected by using an Ethernet cable. To debug remotely, the Visual Studio Remote Tools must be installed and running on the remote device. See [Run Windows Store apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md).|  
   
 3.  Choose the app from the **Installed App Packages** list.  
@@ -210,7 +210,7 @@ translation.priority.mt:
  When you click **Start**, the app is launched or is set to run in debug mode.  
   
 ##  <a name="BKMK_Attach_the_debugger_to_a_running_app_"></a> Attach the debugger to a running app  
- To attach the debugger to a [!INCLUDE[win8_appname_long](../codequality/includes/win8_appname_long_md.md)] app, you must use the Debuggable Package Manager to set the app to run in debug mode. The Debuggable Package Manager is installed with the Visual Studio Remote Tools.  
+ To attach the debugger to a [!INCLUDE[win8_appname_long](../code-quality/includes/win8_appname_long_md.md)] app, you must use the Debuggable Package Manager to set the app to run in debug mode. The Debuggable Package Manager is installed with the Visual Studio Remote Tools.  
   
  Attaching the debugger to an app is useful when you need to debug an already-installed app, such as an app that was installed from the Windows store. Attaching is required when you have the source files for the app, but you do not have a Visual Studio project for the app. For example, you might have a custom build system that does not use Visual Studio projects or solutions.  
   
@@ -272,5 +272,5 @@ translation.priority.mt:
 ## See Also  
  [Control execution in a debug session (JavaScript)](../debugger/60159535-61ec-466a-a4a6-115ec72a8af5.md)   
  [Quickstart: Debug HTML and CSS](../debugger/quickstart--debug-html-and-css.md)   
- [Trigger suspend, resume, and background events for Windows Store)](../debugger/824ff3ca-fedf-4cf5-b3e2-ac8dc82d40ac.md)   
+ [Trigger suspend, resume, and background events for Windows Store)](../debugger/how-to-trigger-suspend--resume--and-background-events-for-windows-store-apps-in-visual-studio.md)   
  [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md)

@@ -1,7 +1,7 @@
 ---
-title: "Threads View (Parallel Performance)"
+title: "Threads View (Parallel Performance) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -44,7 +44,7 @@ Threads View is the most detailed and feature-rich view in the Concurrency Visua
   
 -   A thread makes a blocking I/O request.  
   
- Threads View assigns a category to each context switch when a thread has stopped executing. The categories are shown in the legend in the lower-left part of the view. The Concurrency Visualizer categorizes context-switch events by searching the call stack of the thread for well-known blocking APIs. If there is no call stack match, the wait reason that's provided by [!INCLUDE[TLA#tla_mswin](../codequality/includes/tlasharptla_mswin_md.md)] is used. However, the [!INCLUDE[TLA#tla_mswin](../codequality/includes/tlasharptla_mswin_md.md)] category may be based on an implementation detail and may not reflect the intent of the user. For example, [!INCLUDE[TLA#tla_mswin](../codequality/includes/tlasharptla_mswin_md.md)] reports the wait reason for blocking on a native slim reader-writer lock as I/O instead of synchronization. In most cases, you can identify the root cause of a blocking event by examining the call stacks that correspond to context-switch events.  
+ Threads View assigns a category to each context switch when a thread has stopped executing. The categories are shown in the legend in the lower-left part of the view. The Concurrency Visualizer categorizes context-switch events by searching the call stack of the thread for well-known blocking APIs. If there is no call stack match, the wait reason that's provided by [!INCLUDE[TLA#tla_mswin](../code-quality/includes/tlasharptla_mswin_md.md)] is used. However, the [!INCLUDE[TLA#tla_mswin](../code-quality/includes/tlasharptla_mswin_md.md)] category may be based on an implementation detail and may not reflect the intent of the user. For example, [!INCLUDE[TLA#tla_mswin](../code-quality/includes/tlasharptla_mswin_md.md)] reports the wait reason for blocking on a native slim reader-writer lock as I/O instead of synchronization. In most cases, you can identify the root cause of a blocking event by examining the call stacks that correspond to context-switch events.  
   
  The Threads View also shows dependencies between threads. For example, if you identify a thread that's blocked on a synchronization object, you can look for the thread that unblocked it, and you can examine the activity on the call stack for that thread at the point when it unblocked the other one.  
   

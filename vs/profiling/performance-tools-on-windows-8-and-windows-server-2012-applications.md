@@ -1,7 +1,7 @@
 ---
-title: "Performance Tools on Windows 8 and Windows Server 2012 applications"
+title: "Performance Tools on Windows 8 and Windows Server 2012 applications | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -131,7 +131,7 @@ Enhanced security features in Windows 8 and Windows Server 2012 required signifi
   
  **Visual Studio editions**  
   
- Tier interaction profiling data can be collected using [!INCLUDE[vsUltLong](../codequality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../codequality/includes/vsprelong_md.md)], or [!INCLUDE[vs_pro_current_short](../profiling/includes/vs_pro_current_short_md.md)]. However, tier interaction profiling data can be viewed only in [!INCLUDE[vsUltLong](../codequality/includes/vsultlong_md.md)] and [!INCLUDE[vsPreLong](../codequality/includes/vsprelong_md.md)].  
+ Tier interaction profiling data can be collected using [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)], or [!INCLUDE[vs_pro_current_short](../profiling/includes/vs_pro_current_short_md.md)]. However, tier interaction profiling data can be viewed only in [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)] and [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)].  
   
  **Windows 8 and Windows Server 2012**  
   
@@ -153,7 +153,7 @@ Enhanced security features in Windows 8 and Windows Server 2012 required signifi
   
  **TIP reports**  
   
- Tier interaction data can only be viewed in the [!INCLUDE[vsUltLong](../codequality/includes/vsultlong_md.md)] or [!INCLUDE[vsPreLong](../codequality/includes/vsprelong_md.md)] IDE. File based tier interaction reports through [VSPerfReport](../profiling/vsperfreport.md) are not available.  
+ Tier interaction data can only be viewed in the [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)] or [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)] IDE. File based tier interaction reports through [VSPerfReport](../profiling/vsperfreport.md) are not available.  
   
 ## See Also  
  [Performance Explorer](../profiling/performance-explorer.md)   

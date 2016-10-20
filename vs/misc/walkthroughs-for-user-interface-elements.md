@@ -1,7 +1,7 @@
 ---
-title: "Walkthroughs for User Interface Elements"
+title: "Walkthroughs for User Interface Elements | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,7 +33,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Walkthroughs for User Interface Elements
-You can add menus and toolbars to many different user interface (UI) elements of your VSPackage or the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE). The walkthroughs in this section lead you through the most common scenarios.  
+You can add menus and toolbars to many different user interface (UI) elements of your VSPackage or the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE). The walkthroughs in this section lead you through the most common scenarios.  
   
 ## In This Section  
  [Adding a Menu to the Visual Studio Menu Bar](../extensibility/adding-a-menu-to-the-visual-studio-menu-bar.md)  
@@ -46,7 +46,7 @@ You can add menus and toolbars to many different user interface (UI) elements of
  Demonstrates how to support a dynamic menu list in a submenu that is the basis of a Most Recently Used (MRU) menu.  
   
  [Adding a Toolbar](../extensibility/adding-a-toolbar.md)  
- Demonstrates how to add a toolbar to the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] IDE.  
+ Demonstrates how to add a toolbar to the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE.  
   
  [Adding a Toolbar to a Tool Window](../extensibility/adding-a-toolbar-to-a-tool-window.md)  
  Demonstrates how to add a toolbar to a tool window.  

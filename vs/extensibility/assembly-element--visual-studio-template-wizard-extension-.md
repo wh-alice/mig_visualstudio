@@ -1,7 +1,7 @@
 ---
-title: "Assembly Element (Visual Studio Template Wizard Extension)"
+title: "Assembly Element (Visual Studio Template Wizard Extension) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -70,7 +70,7 @@ Specifies the name or strong name of the assembly that implements the `IWizard` 
  `Assembly` is a required child element of `WizardExtension`.  
   
 ## Example  
- The following example illustrates the metadata for the standard project template for a [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] Windows application.  
+ The following example illustrates the metadata for the standard project template for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] Windows application.  
   
 ```  
 <VSTemplate Version="3.0.0" Type="Item"  

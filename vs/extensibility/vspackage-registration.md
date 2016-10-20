@@ -1,7 +1,7 @@
 ---
-title: "VSPackage Registration"
+title: "VSPackage Registration | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,14 +32,14 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # VSPackage Registration
-VSPackages must advise [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] that they are installed and should be loaded. This process is accomplished by writing information in the registry. That is a typical job of an installer.  
+VSPackages must advise [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] that they are installed and should be loaded. This process is accomplished by writing information in the registry. That is a typical job of an installer.  
   
 > [!NOTE]
 >  It is an accepted practice during VSPackage development to use self-registration. However, [!INCLUDE[vsipprvsip](../extensibility/includes/vsipprvsip_md.md)] partners cannot ship their products using self-registration as part of setup.  
   
  Registry entries in a Windows Installer package are generally made in the Registry table. You can also register file extensions in the Registry table. However, Windows Installer provides built-in support through the programmatic identifier (ProgId), class, extension, and verb tables. For more information, see [Database Tables](http://msdn.microsoft.com/library/aa368259\(VS.85\).aspx).  
   
- Be sure that your registry entries are associated with the component that is appropriate for your chosen side-by-side strategy. For example, registry entries for a shared file should be associated with that file's Windows Installer component. Likewise, registry entries for a version-specific file should be associated with that file's component. Otherwise, installing or uninstalling your VSPackage for one version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] could break your VSPackage in other versions. For more information, see [Supporting Multiple Versions of Visual Studio](../extensibility/supporting-multiple-versions-of-visual-studio.md)  
+ Be sure that your registry entries are associated with the component that is appropriate for your chosen side-by-side strategy. For example, registry entries for a shared file should be associated with that file's Windows Installer component. Likewise, registry entries for a version-specific file should be associated with that file's component. Otherwise, installing or uninstalling your VSPackage for one version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] could break your VSPackage in other versions. For more information, see [Supporting Multiple Versions of Visual Studio](../extensibility/supporting-multiple-versions-of-visual-studio.md)  
   
 > [!NOTE]
 >  The easiest way to manage registration is to use the same data in the same files for both developer registration and install-time registration. For example, some installer-development tools can consume file in .reg-format at build time. If developers maintain .reg files for their own day-to-day development and debugging, those same files can be included in the installer automatically. If you cannot automatically share registration data, you must ensure that the installer's copy of the registration data is current.  
@@ -60,7 +60,7 @@ VSPackages must advise [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] 
   
 -   Correctly supporting installation, uninstallation, installation rollback, and uninstallation rollback requires you to author four custom actions for every managed VSPackage that self-registers by calling RegPkg.  
   
--   Your approach to side-by-side support might require that you author four custom actions that invoke RegSvr32 or RegPkg for every supported version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+-   Your approach to side-by-side support might require that you author four custom actions that invoke RegSvr32 or RegPkg for every supported version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 -   An installation with self-registered modules cannot be safely rolled back because there is no way of telling if the self-registered keys are used by another feature or application.  
   

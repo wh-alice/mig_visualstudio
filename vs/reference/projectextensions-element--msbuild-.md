@@ -1,7 +1,7 @@
 ---
-title: "ProjectExtensions Element (MSBuild)"
+title: "ProjectExtensions Element (MSBuild) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,7 +20,7 @@ helpviewer_keywords:
   - "<ProjectExtensions> element [MSBuild]"
   - "ProjectExtensions element [MSBuild]"
 ms.assetid: f95f312f-ff92-41eb-9469-ad99e236a307
-caps.latest.revision: 17
+caps.latest.revision: 18
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -86,4 +86,5 @@ Allows [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] pr
 ```  
   
 ## See Also  
- [Project File Schema Reference](../reference/msbuild-project-file-schema-reference.md)
+ [Project File Schema Reference](../reference/msbuild-project-file-schema-reference.md)  
+ [MSBuild](../reference/msbuild1.md)

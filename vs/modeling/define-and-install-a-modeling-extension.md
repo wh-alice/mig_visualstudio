@@ -1,7 +1,7 @@
 ---
-title: "Define and install a modeling extension"
+title: "Define and install a modeling extension | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -41,7 +41,7 @@ In Visual Studio, you can define extensions to modeling diagrams. In this manner
 ## Creating a Modeling Extension Solution  
  To define a modeling extension, you must create a solution containing these projects:  
   
--   A [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Integration Extension (VSIX) project. This generates a file that acts as an installer for the components of your extension.  
+-   A [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Integration Extension (VSIX) project. This generates a file that acts as an installer for the components of your extension.  
   
 -   A class library project, required for components that include program code.  
   
@@ -106,9 +106,9 @@ In Visual Studio, you can define extensions to modeling diagrams. In this manner
   
 #### To run an extension during its development  
   
-1.  In the [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)] **Debug** menu, choose **Start Debugging**.  
+1.  In the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] **Debug** menu, choose **Start Debugging**.  
   
-     The project builds, and a new instance of [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)] starts in Experimental mode.  
+     The project builds, and a new instance of [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] starts in Experimental mode.  
   
     -   Alternatively you can choose **Start Without Debugging**. This reduces the time taken to start the program.  
   

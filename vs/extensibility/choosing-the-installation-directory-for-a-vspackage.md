@@ -1,7 +1,7 @@
 ---
-title: "Choosing the Installation Directory for a VSPackage"
+title: "Choosing the Installation Directory for a VSPackage | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -58,7 +58,7 @@ A VSPackage and its supporting files must be on a user's file system. The locati
 ## Satellite DLLs  
  By convention, VSPackage satellite DLLs — which contain resources for a particular locale — are located in subdirectories of the VSPackage directory. The subdirectories correspond to locale ID (LCID) values.  
   
- [Managing VSPackages](../extensibility/managing-vspackages.md) indicates that registry entries control where [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] actually looks for a VSPackage's satellite DLL. However, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] tries to load a satellite DLL in a subdirectory named for an LCID value, in the following order:  
+ [Managing VSPackages](../extensibility/managing-vspackages.md) indicates that registry entries control where [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] actually looks for a VSPackage's satellite DLL. However, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] tries to load a satellite DLL in a subdirectory named for an LCID value, in the following order:  
   
 1.  Default LCID (VS LCID for example \1033 for English)  
   
@@ -70,7 +70,7 @@ A VSPackage and its supporting files must be on a user's file system. The locati
   
 5.  U.S. English (.\1033 or .\0x409).  
   
- If your VSPackage DLL includes resources and the SatelliteDll\DllName registry entry points to it, [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] attempts to load them in the above order.  
+ If your VSPackage DLL includes resources and the SatelliteDll\DllName registry entry points to it, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] attempts to load them in the above order.  
   
 ## See Also  
  [Choosing Between Shared and Versioned VSPackages](../extensibility/choosing-between-shared-and-versioned-vspackages.md)   

@@ -1,7 +1,7 @@
 ---
-title: "Troubleshooting Exceptions: System.InvalidOperationException"
+title: "Troubleshooting Exceptions: System.InvalidOperationException | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -146,7 +146,7 @@ private void DoSomeWork(int msOfWork, List<string> tbLinesList)
 }  
 ```  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [In this article](#BKMK_In_this_article) ![In this section](../misc/media/pcs_backtotopmid.png "PCS_BackToTopMid") [A method running on a non-UI thread updates the UI](#BKMK_A_method_running_on_a_non_UI_thread_updates_the_UI)  
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [In this article](#BKMK_In_this_article) ![In this section](../misc/media/pcs_backtotopmid.png "PCS_BackToTopMid") [A method running on a non-UI thread updates the UI](#BKMK_A_method_running_on_a_non_UI_thread_updates_the_UI)  
   
 ###  <a name="BKMK_Avoiding_InvalidOperationExceptions_on_non_UI_threads"></a> Avoiding InvalidOperationExceptions on non-UI threads  
  Windows UI frameworks implement a *dispatcher* pattern that includes a method to check whether a call to a member of a UI element is being executed on the UI thread, and other methods to schedule the call on the UI thread.  
@@ -246,7 +246,7 @@ private void DoSomeWork(int msOfWork)
 }  
 ```  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [In this article](#BKMK_In_this_article) ![In this section](../misc/media/pcs_backtotopmid.png "PCS_BackToTopMid") [A method running on a non-UI thread updates the UI](#BKMK_A_method_running_on_a_non_UI_thread_updates_the_UI)  
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [In this article](#BKMK_In_this_article) ![In this section](../misc/media/pcs_backtotopmid.png "PCS_BackToTopMid") [A method running on a non-UI thread updates the UI](#BKMK_A_method_running_on_a_non_UI_thread_updates_the_UI)  
   
 ##  <a name="BKMK_A_statement_in_a_foreach_For_Each_in_Visual_Basic_block_changes_the_collection_it_is_iterating"></a> A statement in a foreach (For Each in Visual Basic) block changes the collection it is iterating  
  [Causing an InvalidOperationException with foreach](#BKMK_Causing_an_InvalidOperationException_with_foreach)  **&#124;**  [Avoiding InvalidOperationExceptions in loops](#BKMK_Avoiding_InvalidOperationExceptions_in_loops)  
@@ -261,7 +261,7 @@ private void DoSomeWork(int msOfWork)
 -   Additional information: Collection was modified; enumeration operation may not execute.  
   
 <CodeContentPlaceHolder>5</CodeContentPlaceHolder>  
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [In this article](#BKMK_In_this_article) ![In this section](../misc/media/pcs_backtotopmid.png "PCS_BackToTopMid") [A statement in a foreach (For Each in Visual Basic) block changes the collection it is iterating](#BKMK_A_statement_in_a_foreach_For_Each_in_Visual_Basic_block_changes_the_collection_it_is_iterating)  
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [In this article](#BKMK_In_this_article) ![In this section](../misc/media/pcs_backtotopmid.png "PCS_BackToTopMid") [A statement in a foreach (For Each in Visual Basic) block changes the collection it is iterating](#BKMK_A_statement_in_a_foreach_For_Each_in_Visual_Basic_block_changes_the_collection_it_is_iterating)  
   
 ###  <a name="BKMK_Avoiding_InvalidOperationExceptions_in_loops"></a> Avoiding InvalidOperationExceptions in loops  
   
@@ -272,7 +272,7 @@ private void DoSomeWork(int msOfWork)
  If your situation requires you to add or remove elements to a list as you iterate a collection, use a [for](../Topic/for%20\(C%23%20Reference\).md) ([For](../Topic/For...Next%20Statement%20\(Visual%20Basic\).md) in Visual Basic) loop:  
   
 <CodeContentPlaceHolder>7</CodeContentPlaceHolder>  
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [In this article](#BKMK_In_this_article) ![In this section](../misc/media/pcs_backtotopmid.png "PCS_BackToTopMid") [A statement in a foreach (For Each in Visual Basic) block changes the collection it is iterating](#BKMK_A_statement_in_a_foreach_For_Each_in_Visual_Basic_block_changes_the_collection_it_is_iterating)  
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [In this article](#BKMK_In_this_article) ![In this section](../misc/media/pcs_backtotopmid.png "PCS_BackToTopMid") [A statement in a foreach (For Each in Visual Basic) block changes the collection it is iterating](#BKMK_A_statement_in_a_foreach_For_Each_in_Visual_Basic_block_changes_the_collection_it_is_iterating)  
   
 ##  <a name="BKMK_A_Nullable_T_that_is_null_is_cast_to_T"></a> A Nullable<T\> that is null is cast to T  
  [Causing an InvalidOperationException with an invalid cast](#BKMK_Causing_an_InvalidOperationException_with_an_invalid_cast)  **&#124;**  [Avoiding InvalidOperationException from a bad cast](#BKMK_Avoiding_InvalidOperationException_from_a_bad_cast)  
@@ -303,7 +303,7 @@ private void MapQueryResults()
   
 ```  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [In this article](#BKMK_In_this_article) ![In this section](../misc/media/pcs_backtotopmid.png "PCS_BackToTopMid") [A Nullable&lt;T&gt; that is null is cast to T](#BKMK_A_Nullable_T_that_is_null_is_cast_to_T)  
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [In this article](#BKMK_In_this_article) ![In this section](../misc/media/pcs_backtotopmid.png "PCS_BackToTopMid") [A Nullable&lt;T&gt; that is null is cast to T](#BKMK_A_Nullable_T_that_is_null_is_cast_to_T)  
   
 ###  <a name="BKMK_Avoiding_InvalidOperationException_from_a_bad_cast"></a> Avoiding InvalidOperationException from a bad cast  
  To avoid <xref:System.InvalidOperationException>:  
@@ -360,7 +360,7 @@ private void MapQueryResults()
   
 ```  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [In this article](#BKMK_In_this_article) ![In this section](../misc/media/pcs_backtotopmid.png "PCS_BackToTopMid") [A Nullable&lt;T&gt; that is null is cast to T](#BKMK_A_Nullable_T_that_is_null_is_cast_to_T)  
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [In this article](#BKMK_In_this_article) ![In this section](../misc/media/pcs_backtotopmid.png "PCS_BackToTopMid") [A Nullable&lt;T&gt; that is null is cast to T](#BKMK_A_Nullable_T_that_is_null_is_cast_to_T)  
   
 ##  <a name="BKMK_A_System_Linq_Enumerable_method_is_called_on_an_empty_collection"></a> A System.Linq.Enumerable method is called on an empty collection  
  The <xref:System.Linq.Enumerable> methods <xref:System.Linq.Enumerable.Aggregate*>, <xref:System.Linq.Enumerable.Average*>, <xref:System.Linq.Enumerable.Last*>, <xref:System.Linq.Enumerable.Max*>, <xref:System.Linq.Enumerable.Min*>, <xref:System.Linq.Enumerable.First*>, <xref:System.Linq.Enumerable.Single*>, and <xref:System.Linq.Enumerable.SingleOrDefault*> perform operations on a sequence and return a single result.  
@@ -423,7 +423,7 @@ private void FindAverageOfNumbersGreaterThan4()
   
 ```  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [In this article](#BKMK_In_this_article) ![In this section](../misc/media/pcs_backtotopmid.png "PCS_BackToTopMid") [A System.Linq.Enumerable method is called on an empty collection](#BKMK_A_System_Linq_Enumerable_method_is_called_on_an_empty_collection)  
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [In this article](#BKMK_In_this_article) ![In this section](../misc/media/pcs_backtotopmid.png "PCS_BackToTopMid") [A System.Linq.Enumerable method is called on an empty collection](#BKMK_A_System_Linq_Enumerable_method_is_called_on_an_empty_collection)  
   
 ###  <a name="BKMK_First_and_FirstOrDefault_methods"></a> First and FirstOrDefault methods  
  <xref:System.Linq.Enumerable.First*> returns the first item in a sequence or throws an <xref:System.InvalidOperationException> if the sequence is empty.  You can call the <xref:System.Linq.Enumerable.FirstOrDefault*> method instead of <xref:System.Linq.Enumerable.First*> to return a specified or default value instead of throwing the exception.  
@@ -484,7 +484,7 @@ private void FindANumbersGreaterThan4()
   
 ```  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [In this article](#BKMK_In_this_article) ![In this section](../misc/media/pcs_backtotopmid.png "PCS_BackToTopMid") [A System.Linq.Enumerable method is called on an empty collection](#BKMK_A_System_Linq_Enumerable_method_is_called_on_an_empty_collection)  
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [In this article](#BKMK_In_this_article) ![In this section](../misc/media/pcs_backtotopmid.png "PCS_BackToTopMid") [A System.Linq.Enumerable method is called on an empty collection](#BKMK_A_System_Linq_Enumerable_method_is_called_on_an_empty_collection)  
   
 ###  <a name="BKMK_Single_and_SingleOrDefault_methods"></a> Single and SingleOrDefault methods  
  The <xref:System.Linq.Enumerable.Single*?displayProperty=fullName> methods return the only element of a sequence, or the only element of a sequence that meets a specified test.  
@@ -600,7 +600,7 @@ private void FindTheOnlyNumberGreaterThan2()
   
 ```  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [In this article](#BKMK_In_this_article) ![In this section](../misc/media/pcs_backtotopmid.png "PCS_BackToTopMid") [A System.Linq.Enumerable method is called on an empty collection](#BKMK_A_System_Linq_Enumerable_method_is_called_on_an_empty_collection)  
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [In this article](#BKMK_In_this_article) ![In this section](../misc/media/pcs_backtotopmid.png "PCS_BackToTopMid") [A System.Linq.Enumerable method is called on an empty collection](#BKMK_A_System_Linq_Enumerable_method_is_called_on_an_empty_collection)  
   
 ##  <a name="BKMK_Related_articles"></a> Related articles  
  [Design Guidelines for Exceptions (.NET Framework Design Guidelines)](http://msdn.microsoft.com/library/ms229014)  
@@ -633,4 +633,4 @@ private void FindTheOnlyNumberGreaterThan2()
   
  [Handling exceptions in network apps (XAML) (Windows)](http://msdn.microsoft.com/library/Dn263240)  
   
- ![Back to top](../codequality/media/pcs_backtotop.png "PCS_BackToTop") [In this article](#BKMK_In_this_article)
+ ![Back to top](../code-quality/media/pcs_backtotop.png "PCS_BackToTop") [In this article](#BKMK_In_this_article)

@@ -1,7 +1,7 @@
 ---
-title: "How to: Restore C# Refactoring Snippets"
+title: "How to: Restore C# Refactoring Snippets | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -68,5 +68,5 @@ C# refactoring operations rely on code snippets found in the following directory
   
 ## See Also  
  [Visual C# Code Snippets](../ide/visual-csharp-code-snippets.md)   
- [Refactoring (C#)](../Topic/Refactoring%20\(C%23\).md)   
+ [Refactoring (C#)](../csharp/refactoring--csharp-.md)   
  [Code Snippets](../ide/code-snippets.md)

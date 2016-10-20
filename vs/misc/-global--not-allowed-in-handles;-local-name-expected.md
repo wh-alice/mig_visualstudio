@@ -1,7 +1,7 @@
 ---
-title: "&#39;Global&#39; not allowed in handles; local name expected"
+title: "&#39;Global&#39; not allowed in handles; local name expected | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

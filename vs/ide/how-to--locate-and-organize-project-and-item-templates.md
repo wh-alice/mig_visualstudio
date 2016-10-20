@@ -1,7 +1,7 @@
 ---
-title: "How to: Locate and Organize Project and Item Templates"
+title: "How to: Locate and Organize Project and Item Templates | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -48,7 +48,7 @@ Template files must be placed in a location that Visual Studio recognizes so tha
   
 -   \\*VisualStudioInstallationDirectory*\Common7\IDE\ProjectTemplates\\*Language*\\*Locale\\*  
   
- For example, the following directory contains the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] project templates for English:  
+ For example, the following directory contains the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project templates for English:  
   
  C:\\*VisualStudioInstallationDirectory*\Common7\IDE\ItemTemplates\VisualBasic\1033\  
   
@@ -59,7 +59,7 @@ Template files must be placed in a location that Visual Studio recognizes so tha
   
 -   \My Documents\Visual Studio *Version*\Templates\ItemTemplates\\*Language*\  
   
- For example, the following directory contains custom [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] project templates:  
+ For example, the following directory contains custom [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] project templates:  
   
  C:\Documents and Settings\UserName\My Documents\\<Visual Studio version\>\Templates\ProjectTemplates\Visual C#\  
   
@@ -78,41 +78,41 @@ Template files must be placed in a location that Visual Studio recognizes so tha
   
 ##### To create new installed project template categories  
   
-1.  Create a folder in the language folder of the installed template directory. For example, to create an Office category for [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] project templates you would create the following directory:  
+1.  Create a folder in the language folder of the installed template directory. For example, to create an Office category for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project templates you would create the following directory:  
   
      \\*VisualStudioInstallationDirectory*\Common7\IDE\ProjectTemplates\VisualBasic\1033\Office\  
   
 2.  Place all the templates for this category in the new folder.  
   
-3.  Close all instances of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+3.  Close all instances of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 4.  On the **Start** menu, click **Run**, type **cmd**, and click **OK**.  
   
 5.  At the command prompt, locate the directory that contains devenv.exe, and type **devenv /installvstemplates**.  
   
-6.  Run [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+6.  Run [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 7.  On the **File** menu, click **New**, and then click **Project**.  
   
-8.  Verify that the Office category appears in the **New Project** dialog box, in the **Project types** pane, under [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)].  
+8.  Verify that the Office category appears in the **New Project** dialog box, in the **Project types** pane, under [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)].  
   
  You can also group a subset of the project item templates into a custom folder.  
   
 ##### To create new installed item template categories  
   
-1.  Create a folder in the language folder of the installed template directory. For example, to create a Web category for [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] item templates you would create the following directory:  
+1.  Create a folder in the language folder of the installed template directory. For example, to create a Web category for [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] item templates you would create the following directory:  
   
      \\*VisualStudioInstallationDirectory*\Common7\IDE\ItemTemplates\CSharp\1033\Web\  
   
 2.  Place all templates for this category in the new folder.  
   
-3.  Close all instances of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+3.  Close all instances of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 4.  On the **Start** menu, click **Run**, type **cmd**, and click **OK**.  
   
 5.  At the command prompt, locate the directory that contains devenv.exe, and type **devenv /setup**.  
   
-6.  Run [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+6.  Run [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 7.  Create a project or open an existing project.  
   
@@ -125,7 +125,7 @@ Template files must be placed in a location that Visual Studio recognizes so tha
   
 ##### To create new custom project template categories  
   
-1.  Create a folder in the language folder in the custom project template directory. For example, to create a HelloWorld category for [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] templates, you would create the following directory:  
+1.  Create a folder in the language folder in the custom project template directory. For example, to create a HelloWorld category for [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] templates, you would create the following directory:  
   
      \My Documents\\<Visual Studio version\>\Templates\ProjectTemplates\CSharp\HelloWorld\  
   
@@ -133,13 +133,13 @@ Template files must be placed in a location that Visual Studio recognizes so tha
   
 3.  On the **File** menu, click **New**, and then click **Project**.  
   
-4.  Verify that the HelloWorld category appears in the **New Project** dialog box, in the **Project types** pane, under [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)].  
+4.  Verify that the HelloWorld category appears in the **New Project** dialog box, in the **Project types** pane, under [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)].  
   
  You can also group a subset of the custom item templates into a custom folder.  
   
 ##### To create new custom item template categories  
   
-1.  Create a folder in the language folder in the custom item template directory. For example, to create a HelloWorld category for [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] templates you would create the following directory:  
+1.  Create a folder in the language folder in the custom item template directory. For example, to create a HelloWorld category for [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] templates you would create the following directory:  
   
      \My Documents\\<Visual Studio version\>\Templates\ItemTemplates\CSharp\HelloWorld\  
   
@@ -160,7 +160,7 @@ Template files must be placed in a location that Visual Studio recognizes so tha
   
 2.  Extract the .zip file.  
   
-3.  Open the .vstemplate file in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+3.  Open the .vstemplate file in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 4.  In the `TemplateData` element, add a `NumberOfParentCategoriesToRollUp` element. For example, the following code makes the template visible in the parent category, but no higher.  
   

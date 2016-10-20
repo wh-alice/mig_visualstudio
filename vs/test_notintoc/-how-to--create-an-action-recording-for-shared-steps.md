@@ -1,5 +1,5 @@
 ---
-title: "-How to: Create an Action Recording for Shared Steps"
+title: "-How to: Create an Action Recording for Shared Steps | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/01/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -32,7 +32,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # -How to: Create an Action Recording for Shared Steps
-While you run a manual test using [!INCLUDE[mtrlong](../codequality/includes/mtrlong_md.md)], you might have a test that includes *shared steps*. Shared steps contain a set of common steps that are used in several different tests. For example, several tests may have the identical steps in the application for entering customer address information or logon credentials. Using shared steps saves time and effort when you create a test. For more information, see [Share steps between test cases](../test/share-steps-between-test-cases.md) and [Share steps between test cases](../test/share-steps-between-test-cases.md).  
+While you run a manual test using [!INCLUDE[mtrlong](../code-quality/includes/mtrlong_md.md)], you might have a test that includes *shared steps*. Shared steps contain a set of common steps that are used in several different tests. For example, several tests may have the identical steps in the application for entering customer address information or logon credentials. Using shared steps saves time and effort when you create a test. For more information, see [Share steps between test cases](../test/share-steps-between-test-cases.md) and [Share steps between test cases](../test/share-steps-between-test-cases.md).  
   
  To reduce the time impact of testing, you can create an action recording that is specific to shared steps. By doing this, you will not have to repeatedly enter identical information numerous times, such as the user logon information, or address information.  
   
@@ -47,7 +47,7 @@ While you run a manual test using [!INCLUDE[mtrlong](../codequality/includes/mtr
   
 -   In [!INCLUDE[mtrshort](../test_notintoc/includes/mtrshort_md.md)] while you are running a test that includes shared steps.  
   
--   In [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] while you organize and manage your shared steps.  
+-   In [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] while you organize and manage your shared steps.  
   
 ## Load a Test into Test Runner  
  First, you must load a test that contains the shared steps into [!INCLUDE[mtrshort](../test_notintoc/includes/mtrshort_md.md)]. Then you can create an action recording for shared steps while you run the test. The shared steps can be run automatically when the shared steps are included in this test and other tests.  
@@ -56,7 +56,7 @@ While you run a manual test using [!INCLUDE[mtrlong](../codequality/includes/mtr
   
 #### To load a test with shared steps into Test Runner  
   
-1.  Open [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)]. (Go to Start, All Programs, Microsoft Visual Studio, Microsoft Test Manager.)  
+1.  Open [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)]. (Go to Start, All Programs, Microsoft Visual Studio, Microsoft Test Manager.)  
   
 2.  On the center group switcher, choose the down-arrow and then choose **Testing Center**.  
   
@@ -70,19 +70,19 @@ While you run a manual test using [!INCLUDE[mtrlong](../codequality/includes/mtr
   
 6.  In the right side pane, choose the test case that contains shared steps and then choose **Run**.  
   
-     [!INCLUDE[mtrlong](../codequality/includes/mtrlong_md.md)] opens.  
+     [!INCLUDE[mtrlong](../code-quality/includes/mtrlong_md.md)] opens.  
   
     > [!NOTE]
     >  Select **Run with options** to specify a build to run the test on, or to override the test settings and environment settings for the test plan.  
   
 ## Record an Action Recording on a Shared Step Set in Test Runner  
- First you must load a test that contains shared steps for which you want to create an action recording into [!INCLUDE[mtrlong](../codequality/includes/mtrlong_md.md)]. For more information, see the previous procedure titled "To load a test with shared steps into Test Runner."  
+ First you must load a test that contains shared steps for which you want to create an action recording into [!INCLUDE[mtrlong](../code-quality/includes/mtrlong_md.md)]. For more information, see the previous procedure titled "To load a test with shared steps into Test Runner."  
   
  ![Create an action recording on shared steps](../test_notintoc/media/howto_actionrecord.png "HowTo_ActionRecord")  
   
 #### To create an action recording for shared steps in Test Runner  
   
-1.  Upon loading a test from [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] into [!INCLUDE[mtrshort](../test_notintoc/includes/mtrshort_md.md)], you are prompted to **Start Test** with the option **Create action recording**. Select **Create action recording** and choose **Start Test**.  
+1.  Upon loading a test from [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] into [!INCLUDE[mtrshort](../test_notintoc/includes/mtrshort_md.md)], you are prompted to **Start Test** with the option **Create action recording**. Select **Create action recording** and choose **Start Test**.  
   
     > [!NOTE]
     >  If the test contains an existing action recording, you are prompted with the option **Overwrite existing action recording**. Select this option to create a new recording that replaces the previous action recording, and then choose **Start Test**.  
@@ -118,9 +118,9 @@ While you run a manual test using [!INCLUDE[mtrlong](../codequality/includes/mtr
   
 8.  In the toolbar at the top of [!INCLUDE[mtrshort](../test_notintoc/includes/mtrshort_md.md)], choose one of the following options:  
   
-    -   Choose **Save and Close** to save your test results to the [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] and close [!INCLUDE[mtrshort](../test_notintoc/includes/mtrshort_md.md)].  
+    -   Choose **Save and Close** to save your test results to the [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] and close [!INCLUDE[mtrshort](../test_notintoc/includes/mtrshort_md.md)].  
   
-    -   Choose **Save** to save the test results to the [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)].  
+    -   Choose **Save** to save the test results to the [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)].  
   
     -   Choose **Close** to close [!INCLUDE[mtrshort](../test_notintoc/includes/mtrshort_md.md)] and not save the test results.  
   
@@ -130,16 +130,16 @@ While you run a manual test using [!INCLUDE[mtrlong](../codequality/includes/mtr
     >  The action recording can now be replayed when you run this test case in the future. For more information, see [- How to: Play Back an Action Recording](../test_notintoc/--how-to--play-back-an-action-recording.md).  
   
 ## Creating an Action Recording for Shared Steps in Microsoft Test Manager  
- You can create an action recording for a shared step in [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] that will automatically run when the shared step is included in test cases.  
+ You can create an action recording for a shared step in [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] that will automatically run when the shared step is included in test cases.  
   
  ![Create shared step action recording](../test_notintoc/media/howto_actionrecb.png "HowTo_ActionRecB")  
   
 #### To create an action recording for shared steps in Microsoft Test Manager  
   
-1.  Open [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)].  
+1.  Open [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)].  
   
     > [!NOTE]
-    >  To display the [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] window, choose Start, and then choose All Programs. Point to Microsoft [!INCLUDE[vs_dev11_long](../codequality/includes/vs_dev11_long_md.md)] and then choose Microsoft Test Manager.  
+    >  To display the [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] window, choose Start, and then choose All Programs. Point to Microsoft [!INCLUDE[vs_dev11_long](../code-quality/includes/vs_dev11_long_md.md)] and then choose Microsoft Test Manager.  
   
 2.  On the center group switcher, choose the down-arrow and then choose **Testing Center**.  
   
@@ -166,9 +166,9 @@ While you run a manual test using [!INCLUDE[mtrlong](../codequality/includes/mtr
   
 10. In the toolbar at the top of [!INCLUDE[mtrshort](../test_notintoc/includes/mtrshort_md.md)], choose one of the following options:  
   
-    -   Choose **Save and Close** to save your test results to the [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] and close [!INCLUDE[mtrshort](../test_notintoc/includes/mtrshort_md.md)].  
+    -   Choose **Save and Close** to save your test results to the [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] and close [!INCLUDE[mtrshort](../test_notintoc/includes/mtrshort_md.md)].  
   
-    -   Choose **Save** to save the test results to the [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)].  
+    -   Choose **Save** to save the test results to the [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)].  
   
     -   Choose **Close** to close [!INCLUDE[mtrshort](../test_notintoc/includes/mtrshort_md.md)] and not save the test results.  
   
@@ -176,6 +176,6 @@ While you run a manual test using [!INCLUDE[mtrlong](../codequality/includes/mtr
   
 ## See Also  
  [- How to: Play Back an Action Recording](../test_notintoc/--how-to--play-back-an-action-recording.md)   
- [How to: Include Recordings of the Screen and Voice During Tests Using Test Settings](../test/2cefe8c2-430a-4cb4-bbe0-f3edb2e5bc03.md)   
+ [How to: Include Recordings of the Screen and Voice During Tests Using Test Settings](../test/how-to--include-recordings-of-the-screen-and-voice-during-tests-using-test-settings.md)   
  [How to: Create an Action Recording for Shared Steps](../test_notintoc/-how-to--create-an-action-recording-for-shared-steps.md)   
  [Record and play back manual tests](../test/record-and-play-back-manual-tests.md)

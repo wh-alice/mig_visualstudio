@@ -1,7 +1,7 @@
 ---
-title: "Adding a Command to the Solution Explorer Toolbar"
+title: "Adding a Command to the Solution Explorer Toolbar | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -127,7 +127,7 @@ This walkthrough shows how to add a button to the **Solution Explorer** toolbar.
   
 5.  On the **File** menu, click **Close Solution**. The button disappears from the toolbar.  
   
- The visibility of the button is controlled by [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] until the VSPackage is loaded. After the VSPackage is loaded, the visibility of the button is controlled by the VSPackage.  For more information, see [MenuCommands Vs. OleMenuCommands](../misc/menucommands-vs.-olemenucommands.md).  
+ The visibility of the button is controlled by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] until the VSPackage is loaded. After the VSPackage is loaded, the visibility of the button is controlled by the VSPackage.  For more information, see [MenuCommands Vs. OleMenuCommands](../misc/menucommands-vs.-olemenucommands.md).  
   
 ## See Also  
  [Commands, Menus, and Toolbars](../extensibility/commands--menus--and-toolbars.md)

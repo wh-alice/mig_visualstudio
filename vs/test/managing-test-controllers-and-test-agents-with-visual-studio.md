@@ -1,5 +1,5 @@
 ---
-title: "Managing Test Controllers and Test Agents with Visual Studio"
+title: "Managing Test Controllers and Test Agents with Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/13/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -37,7 +37,7 @@ If you want to use Visual Studio to run tests remotely, distribute tests across 
   
  If you are running load tests, you don’t have to use your resources and set up your own machines to create this load. You can use cloud-based load testing to provide virtual machines in the cloud that generate the load of many users accessing your web site at the same time. All you need is a [Visual Studio Team Services account](http://go.microsoft.com/fwlink/?LinkId=307137). Learn more about this [cloud-based load testing service](http://go.microsoft.com/fwlink/?LinkID=317257).  
   
- If you use [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] to run tests in lab environments, you manage test controllers and their agents by using the **Test Controller Manager** in the **Lab Center** for [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)]. This topic is applicable only if you use Visual Studio to run tests.  
+ If you use [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] to run tests in lab environments, you manage test controllers and their agents by using the **Test Controller Manager** in the **Lab Center** for [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)]. This topic is applicable only if you use Visual Studio to run tests.  
   
  For information about how to install and configure test agents and test controllers to run tests in Visual Studio, see [Setting Up Test Controllers and Test Agents to Manage Tests with Visual Studio](../test/setting-up-test-controllers-and-test-agents-to-manage-tests-with-visual-studio.md).  
   
@@ -127,7 +127,7 @@ If you want to use Visual Studio to run tests remotely, distribute tests across 
 4.  To save your changes, choose **Apply Settings**. Close the **Configuration summary** dialog box, and then close the Test Agent Configuration Tool.  
   
 5.  > [!CAUTION]
-    >  If the agent is currently configured to run on another test controller, you must remove the test agent from that controller. If the test controller is registered with a team project, you can remove the test agent using the **Test Controller Manager** in the **Lab Center** for [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)]. Otherwise, to remove the test agent, on the **Test** menu in Visual Studio, choose **Manage Test Controllers**.  
+    >  If the agent is currently configured to run on another test controller, you must remove the test agent from that controller. If the test controller is registered with a team project, you can remove the test agent using the **Test Controller Manager** in the **Lab Center** for [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)]. Otherwise, to remove the test agent, on the **Test** menu in Visual Studio, choose **Manage Test Controllers**.  
   
 ##  <a name="RemoveAgent"></a> Removing a Test Agent from a Test Controller  
  A test agent must be set to the offline state before it can be removed.  
@@ -151,7 +151,7 @@ If you want to use Visual Studio to run tests remotely, distribute tests across 
   
 2.  If the test controller is registered with a team project, follow these steps.  
   
-    1.  Open [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)]. (Go to Start, All Programs, Microsoft Visual Studio, Microsoft Test Manager.)  
+    1.  Open [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)]. (Go to Start, All Programs, Microsoft Visual Studio, Microsoft Test Manager.)  
   
     1.  Choose **Lab Center**, **Controllers**.  
   
@@ -187,7 +187,7 @@ If you want to use Visual Studio to run tests remotely, distribute tests across 
   
 1.  If the test agent is registered to a test controller that is registered with a team project, follow these steps:  
   
-    1.  In [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], choose **Lab Center**, **Controllers**.  
+    1.  In [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], choose **Lab Center**, **Controllers**.  
   
 2.  If the test agent is registered to a test controller that is not registered with a team project, follow these steps:  
   
@@ -199,7 +199,7 @@ If you want to use Visual Studio to run tests remotely, distribute tests across 
   
 4.  (Optional) In the **Test Agents** pane, select the test agent computer for which you want to change the properties.  
   
-5.  If you are using [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], choose **Configure**.  
+5.  If you are using [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], choose **Configure**.  
   
      -or-  
   
@@ -223,7 +223,7 @@ If you want to use Visual Studio to run tests remotely, distribute tests across 
 ##  <a name="ChangeController"></a> Configuring a Test Controller  
  To configure a test controller, you must use the **Team Test Controller Configuration Tool**. When you configure your test controller, you can register your test controller with a different team project collection, or unregister your test controller from a team project collection.  
   
- If you want to register your test controller with your [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] project collection, the account that you use for the test controller service must be a member of the Project Collection Test Service Accounts group for the Team Project Collection, or the account that you use to run the test controller configuration tool must be a Project Collection Administrator.  
+ If you want to register your test controller with your [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] project collection, the account that you use for the test controller service must be a member of the Project Collection Test Service Accounts group for the Team Project Collection, or the account that you use to run the test controller configuration tool must be a Project Collection Administrator.  
   
 > [!NOTE]
 >  If you unregister a test controller from a team project collection that has existing environments in a team project collection, the environments are still maintained if you moved that team project collection and re-register the test controller to that moved team project collection.  
@@ -239,14 +239,14 @@ If you want to use Visual Studio to run tests remotely, distribute tests across 
     > [!NOTE]
     >  Null passwords are not supported for user accounts.  
   
-3.  (Optional) If you want to use this test controller with a lab environment by using [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], you must register the controller with a team project collection for the team project that contains your environments. Select **Register with Team Project Collection**. To find your team project collection, choose **Browse** or you can type the name in **Register the test controller with the following Team Project Collection**. Make sure that you enter the full path. For example, **http://***\<server name>***:8080/tfs/DefaultCollection**.  
+3.  (Optional) If you want to use this test controller with a lab environment by using [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], you must register the controller with a team project collection for the team project that contains your environments. Select **Register with Team Project Collection**. To find your team project collection, choose **Browse** or you can type the name in **Register the test controller with the following Team Project Collection**. Make sure that you enter the full path. For example, **http://***\<server name>***:8080/tfs/DefaultCollection**.  
   
     > [!NOTE]
     >  For more information about environments, see [Setting Up Test Machines to Run Tests or Collect Data](../test/setting-up-test-machines-to-run-tests-or-collect-data.md).  
   
 4.  (Optional) If you do not want to use your test controller with a lab environment, but only to run tests from Visual Studio, clear **Register with Team Project Collection**.  
   
-5.  (Optional) To configure your test controller for load testing, select **Configure for load testing**. Then type your [!INCLUDE[ssNoVersion](../datatools/includes/ssnoversion_md.md)] instance in **Create load test results database in the following SQL Server instance**.  
+5.  (Optional) To configure your test controller for load testing, select **Configure for load testing**. Then type your [!INCLUDE[ssNoVersion](../data-tools/includes/ssnoversion_md.md)] instance in **Create load test results database in the following SQL Server instance**.  
   
      For more information about load testing, see [Web performance and load tests in Visual Studio](../test_notintoc/web-performance-and-load-tests-in-visual-studio.md) and [Using Test Controllers and Test Agents with Load Tests](../test/using-test-controllers-and-test-agents-with-load-tests.md).  
   
@@ -262,7 +262,7 @@ If you want to use Visual Studio to run tests remotely, distribute tests across 
   
  **Running Tests Using Microsoft Test Manager**  
   
- If you run your tests using [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], to use a test controller you must create an environment. When you run your tests, you select one of the following choices:  
+ If you run your tests using [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], to use a test controller you must create an environment. When you run your tests, you select one of the following choices:  
   
 -   Run: This runs your tests using the environment specified in your test plan.  
   
@@ -274,7 +274,7 @@ If you want to use Visual Studio to run tests remotely, distribute tests across 
   
 #### To determine the test controller for your environment  
   
-1.  Open [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)]. (Go to Start, All Programs, Microsoft Visual Studio, Microsoft Test Manager.)  
+1.  Open [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)]. (Go to Start, All Programs, Microsoft Visual Studio, Microsoft Test Manager.)  
   
 2.  Choose **Lab Center**, **Lab**.  
   

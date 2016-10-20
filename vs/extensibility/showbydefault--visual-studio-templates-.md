@@ -1,7 +1,7 @@
 ---
-title: "ShowByDefault (Visual Studio Templates)"
+title: "ShowByDefault (Visual Studio Templates) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -70,7 +70,7 @@ If `false`, specifies that the template will only be displayed under the specifi
  `ShowByDefault` is an optional element. The default value is `true`.  
   
 ## Example  
- The following example illustrates the metadata for a [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] template.  
+ The following example illustrates the metadata for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] template.  
   
 ```  
 <VSTemplate Type="Project" Version="3.0.0"  

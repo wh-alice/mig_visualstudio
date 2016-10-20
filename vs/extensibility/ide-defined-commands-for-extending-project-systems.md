@@ -1,7 +1,7 @@
 ---
-title: "IDE-Defined Commands for Extending Project Systems"
+title: "IDE-Defined Commands for Extending Project Systems | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,7 +32,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # IDE-Defined Commands for Extending Project Systems
-When you want to extend project systems, you can use commands and command groups provided by the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] IDE.  
+When you want to extend project systems, you can use commands and command groups provided by the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE.  
   
  The following sections list command items that are especially useful for extending project systems.  
   

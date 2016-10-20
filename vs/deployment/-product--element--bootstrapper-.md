@@ -1,7 +1,7 @@
 ---
-title: "&lt;Product&gt; Element (Bootstrapper)"
+title: "&lt;Product&gt; Element (Bootstrapper) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -158,7 +158,7 @@ ProductCode
 |`ProductCode`|A unique identifier for the product.|  
   
 ## Example  
- The following code example shows a complete product file for installing the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)].  
+ The following code example shows a complete product file for installing the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)].  
   
 ```  
 <?xml version="1.0" encoding="utf-8" ?>  

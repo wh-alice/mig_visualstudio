@@ -1,7 +1,7 @@
 ---
-title: "Adding a Tracking Property to a Domain-Specific Language Definition"
+title: "Adding a Tracking Property to a Domain-Specific Language Definition | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -58,7 +58,7 @@ This walkthrough shows how to add a tracking property to a domain model.
   
 |||  
 |-|-|  
-|[!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]|[http://go.microsoft.com/fwlink/?LinkID=185579](http://go.microsoft.com/fwlink/?LinkID=185579)|  
+|[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]|[http://go.microsoft.com/fwlink/?LinkID=185579](http://go.microsoft.com/fwlink/?LinkID=185579)|  
 |[!INCLUDE[vssdk_current_short](../modeling/includes/vssdk_current_short_md.md)]|[http://go.microsoft.com/fwlink/?LinkID=185580](http://go.microsoft.com/fwlink/?LinkID=185580)|  
 |[!INCLUDE[dsl](../modeling/includes/dsl_md.md)]|[http://go.microsoft.com/fwlink/?LinkID=185581](http://go.microsoft.com/fwlink/?LinkID=185581)|  
   
@@ -726,7 +726,7 @@ This walkthrough shows how to add a tracking property to a domain model.
     ```  
   
 ## Testing the Language  
- The next step is to build and run the DSL designer in a new instance of [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)] so that you can verify that the tracking property is working correctly.  
+ The next step is to build and run the DSL designer in a new instance of [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] so that you can verify that the tracking property is working correctly.  
   
 #### To exercise the language  
   
@@ -734,7 +734,7 @@ This walkthrough shows how to add a tracking property to a domain model.
   
 2.  On the **Debug** menu, click **Start Debugging**.  
   
-     The experimental build of [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)] opens the **Debugging** solution, which contains an empty test file.  
+     The experimental build of [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] opens the **Debugging** solution, which contains an empty test file.  
   
 3.  In **Solution Explorer**, double-click the Test.trackingPropertyDsl file to open it in the designer, and then click the design surface.  
   

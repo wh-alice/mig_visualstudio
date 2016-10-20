@@ -1,7 +1,7 @@
 ---
-title: "How to: Create a Basic Texture"
+title: "How to: Create a Basic Texture | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -81,7 +81,7 @@ This document demonstrates how to use the Image Editor to create a basic texture
 11. Using the **Ellipse** tool, draw a circle from pixel coordinate `(3, 3)` to pixel coordinate `(508, 508)`. To draw the circle more easily, you can press and hold the Shift key while you draw.  
   
     > [!NOTE]
-    >  The pixel coordinates of the current pointer location are displayed on the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] status bar.  
+    >  The pixel coordinates of the current pointer location are displayed on the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] status bar.  
   
 12. Change the background color. Set **R** to `44`, **G** to `165`, **B** to `211`, and **A** to `255`.  
   

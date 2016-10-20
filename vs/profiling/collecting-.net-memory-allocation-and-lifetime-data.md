@@ -1,7 +1,7 @@
 ---
-title: "Collecting .NET Memory Allocation and Lifetime Data"
+title: "Collecting .NET Memory Allocation and Lifetime Data | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,7 +33,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Collecting .NET Memory Allocation and Lifetime Data
-[!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Profiling Tools support the collection of .NET memory allocation and object lifetime data, which helps you detect memory-related performance issues in your application.  
+[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools support the collection of .NET memory allocation and object lifetime data, which helps you detect memory-related performance issues in your application.  
   
 -   Data about .NET memory allocation includes the size and number of .NET Framework memory objects that were allocated.  
   
@@ -41,7 +41,7 @@ translation.priority.mt:
   
  **Requirements**  
   
--   [!INCLUDE[vsUltLong](../codequality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../codequality/includes/vsprelong_md.md)], [!INCLUDE[vsPro](../codequality/includes/vspro_md.md)]  
+-   [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)], [!INCLUDE[vsPro](../code-quality/includes/vspro_md.md)]  
   
 > [!NOTE]
 >  Enhanced security features in Windows 8 and Windows Server 2012 required significant changes in the way the Visual Studio profiler collects data on these platforms. Windows Store apps also require new collection techniques. See [Performance Tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md).  

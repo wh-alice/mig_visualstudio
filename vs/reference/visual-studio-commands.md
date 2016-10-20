@@ -1,7 +1,7 @@
 ---
-title: "Visual Studio Commands"
+title: "Visual Studio Commands | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -81,7 +81,7 @@ Visual Studio commands allow you to invoke a command from the **Command** window
 |[Set Current Stack Frame](../reference/set-current-stack-frame-command.md)|Allows you to view a particular stack frame.|  
 |[Set Current Thread](../reference/set-current-thread-command.md)|Allows you to view a particular thread.|  
 |[Set Radix](../reference/set-radix-command.md)|Determines the number of bytes to view.|  
-|[Shell](../reference/shell-command.md)|Launches programs from within [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] as though the command has been executed from the command prompt.|  
+|[Shell](../reference/shell-command.md)|Launches programs from within [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] as though the command has been executed from the command prompt.|  
 |[ShowWebBrowser Command](../reference/showwebbrowser-command.md)|Displays the URL you specify in a Web browser window either within the integrated development environment (IDE) or external to the IDE.|  
 |[Start](../reference/start-command.md)|Begins the debug process and allows you to specify how errors are handled.|  
 |[Path](../reference/symbol-path-command.md)|Sets the list of directories for the debugger to search for symbols.|  

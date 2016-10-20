@@ -1,7 +1,7 @@
 ---
-title: "How to: Configure Projects to Target Platforms"
+title: "How to: Configure Projects to Target Platforms | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -38,10 +38,10 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Configure Projects to Target Platforms
-[!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] enables you to set up your applications to target different platforms, including 64-bit platforms. For more information on 64-bit platform support in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], see [64-bit Applications](../Topic/64-bit%20Applications.md).  
+[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] enables you to set up your applications to target different platforms, including 64-bit platforms. For more information on 64-bit platform support in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], see [64-bit Applications](../Topic/64-bit%20Applications.md).  
   
 ## Targeting Platforms with the Configuration Manager  
- The **Configuration Manager** provides a way for you to quickly add a new platform to target with your project. If you select one of the platforms included with [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], the properties for your project are modified to build your project for the selected platform.  
+ The **Configuration Manager** provides a way for you to quickly add a new platform to target with your project. If you select one of the platforms included with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], the properties for your project are modified to build your project for the selected platform.  
   
 #### To configure a project to target a 64-bit platform  
   
@@ -67,11 +67,11 @@ translation.priority.ht:
   
  Performing this task varies based on the programming language you are using. See the following links for more information:  
   
--   For [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] projects, see [/platform (Visual Basic)](../Topic/-platform%20\(Visual%20Basic\).md).  
+-   For [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] projects, see [/platform (Visual Basic)](../Topic/-platform%20\(Visual%20Basic\).md).  
   
--   For [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] projects, see [Build Page, Project Designer (C#)](../reference/build-page--project-designer--csharp-.md).  
+-   For [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] projects, see [Build Page, Project Designer (C#)](../reference/build-page--project-designer--csharp-.md).  
   
--   For [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)] projects, see [/clr (Common Language Runtime Compilation)](../Topic/-clr%20\(Common%20Language%20Runtime%20Compilation\).md).  
+-   For [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] projects, see [/clr (Common Language Runtime Compilation)](../Topic/-clr%20\(Common%20Language%20Runtime%20Compilation\).md).  
   
 ## See Also  
  [Understanding Build Platforms](../ide/understanding-build-platforms.md)   

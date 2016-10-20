@@ -1,7 +1,7 @@
 ---
-title: "The project file &#39;&lt;filename&gt;&#39; cannot be updated"
+title: "The project file &#39;&lt;filename&gt;&#39; cannot be updated | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,7 +31,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # The project file &#39;&lt;filename&gt;&#39; cannot be updated
-You are attempting to open a project created in an earlier version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. The project must be updated to the current format, but it cannot be updated because either the specified project file (.vbproj) is marked as read-only or the file is under source control and is currently locked by another user.  
+You are attempting to open a project created in an earlier version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. The project must be updated to the current format, but it cannot be updated because either the specified project file (.vbproj) is marked as read-only or the file is under source control and is currently locked by another user.  
   
 ### To correct this error  
   

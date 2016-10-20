@@ -1,7 +1,7 @@
 ---
-title: "When to Create Project Types"
+title: "When to Create Project Types | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,10 +31,10 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # When to Create Project Types
-Creating a new project type provides a basis for customizing [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] for your users. However, creating a new project type is not required for all [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] customizations. The following guidelines should help you determine whether a new project type is required for your scenario.  
+Creating a new project type provides a basis for customizing [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] for your users. However, creating a new project type is not required for all [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] customizations. The following guidelines should help you determine whether a new project type is required for your scenario.  
   
 ## Create a New Project Type  
- You must create a project type if you want to customize [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] to act in one or more of the following ways:  
+ You must create a project type if you want to customize [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to act in one or more of the following ways:  
   
 -   Participate in build, deploy, configurations, and source control.  
   
@@ -47,7 +47,7 @@ Creating a new project type provides a basis for customizing [!INCLUDE[vsprvs](.
 -   Support project nesting.  
   
 ## Extend an Existing Project Type  
- You might want to create a new project type that can use [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] in the following ways to modify or extend the behavior of an existing project type, for example, modifying the build process for [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)] projects:  
+ You might want to create a new project type that can use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] in the following ways to modify or extend the behavior of an existing project type, for example, modifying the build process for [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] projects:  
   
 -   Work with multiple files as a single unit.  
   
@@ -68,7 +68,7 @@ Creating a new project type provides a basis for customizing [!INCLUDE[vsprvs](.
 |Exposing properties in the Properties window|All objects can expose properties.|  
   
 ## Create a Project Subtype  
- You can use project subtypes to extend a managed project type without having to create a new project type. Project subtypes use COM aggregation to extend managed projects written in Microsoft [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] or [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)]. With COM aggregation, you can reuse much of the managed project system implementation and  still customize for a particular scenario through aggregation and the use of supporting interfaces. For more information about project subtypes, see [Project Subtypes](../extensibility/project-subtypes.md).  
+ You can use project subtypes to extend a managed project type without having to create a new project type. Project subtypes use COM aggregation to extend managed projects written in Microsoft [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] or [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)]. With COM aggregation, you can reuse much of the managed project system implementation and  still customize for a particular scenario through aggregation and the use of supporting interfaces. For more information about project subtypes, see [Project Subtypes](../extensibility/project-subtypes.md).  
   
 ## See Also  
  [Document Windows and Editors](http://msdn.microsoft.com/en-us/603625e1-62b6-413a-bc44-089346e166bc)   

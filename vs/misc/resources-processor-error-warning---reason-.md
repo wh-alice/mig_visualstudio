@@ -1,5 +1,5 @@
 ---
-title: "Resources processor error-warning: &lt;reason&gt;"
+title: "Resources processor error-warning: &lt;reason&gt; | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"
@@ -31,7 +31,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Resources processor error/warning: &lt;reason&gt;
-An error or warning message is displayed if a tool returns an error or a warning while processing a .resx file. As part of the build process, the project system transforms each .resx file into a binary file understood by the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] resource manager. This transformation is done using in-process tools.  
+An error or warning message is displayed if a tool returns an error or a warning while processing a .resx file. As part of the build process, the project system transforms each .resx file into a binary file understood by the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] resource manager. This transformation is done using in-process tools.  
   
  The most likely cause of such an error or warning is a bad .resx file. A .resx file can become corrupt if the file has been edited outside of Visual Studio or within Visual Studio using a text editor.  
   

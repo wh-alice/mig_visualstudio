@@ -1,7 +1,7 @@
 ---
-title: "Debugging Web Applications and Script"
+title: "Debugging Web Applications and Script | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -48,7 +48,7 @@ Table legend:
   
 ## In This Section  
  [Debugging ASP.NET and AJAX Applications](../debugger/debugging-asp.net-and-ajax-applications.md)  
- Provides prerequisites and instructions for how to debug a [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] application during development or after deployment.  
+ Provides prerequisites and instructions for how to debug a [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] application during development or after deployment.  
   
  [Debugging Web Applications: Errors and Troubleshooting](../debugger/debugging-web-applications--errors-and-troubleshooting.md)  
  Lists errors that you might experience while you debug Web applications and suggests fixes.  
@@ -58,10 +58,10 @@ Table legend:
   
 ## Related Sections  
  [ASP.NET Web Applications](../debugger/debugging-preparation--asp.net-web-applications.md)  
- Describes the default project settings and behavior of [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] Web application projects, steps for debugging, and changing the default Debug configuration.  
+ Describes the default project settings and behavior of [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application projects, steps for debugging, and changing the default Debug configuration.  
   
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)  
- Provides links to the larger sections of the debugging documentation. Information includes the following: what's new in the debugger, settings and preparation, breakpoints, handling exceptions, edit and continue, debugging managed code, debugging [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)] projects, debugging COM and ActiveX, debugging DLLs, debugging SQL, and the user interface references.  
+ Provides links to the larger sections of the debugging documentation. Information includes the following: what's new in the debugger, settings and preparation, breakpoints, handling exceptions, edit and continue, debugging managed code, debugging [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] projects, debugging COM and ActiveX, debugging DLLs, debugging SQL, and the user interface references.  
   
  [Prerequistes for Remote Debugging Web Applications](../debugger/prerequistes-for-remote-debugging-web-applications.md)  
  Describes setup requirements for remote debugging of ASP.NET Web applications.  

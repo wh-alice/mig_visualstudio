@@ -1,7 +1,7 @@
 ---
-title: "How to: Configure Projects to Target Multiple Platforms"
+title: "How to: Configure Projects to Target Multiple Platforms | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,7 +32,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Configure Projects to Target Multiple Platforms
-[!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] provides a way for a solution to target several different CPU architectures, or platforms, at once. The properties to set these are accessed through the **Configuration Manager** dialog box.  
+[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] provides a way for a solution to target several different CPU architectures, or platforms, at once. The properties to set these are accessed through the **Configuration Manager** dialog box.  
   
 ## Targeting a Platform  
  The **Configuration Manager** dialog box allows you to create and set solution-level and project-level configurations and platforms. Each combination of solution-level configurations and targets can have a unique set of properties associated with it, allowing you to easily switch between, for example, a Release configuration that targets an [!INCLUDE[vcprx64](../extensibility/includes/vcprx64_md.md)] platform, a Release configuration that targets an x86 platform, and a Debug configuration that targets an x86 platform.  
@@ -41,7 +41,7 @@ translation.priority.ht:
   
 1.  On the **Build** menu, click **Configuration Manager**.  
   
-2.  In the **Active solution platform box**, select the platform you want your solution to target, or select **\<New>** to create a new platform. [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] will compile your application to target the platform that is set as the active platform in the **Configuration Manager** dialog box.  
+2.  In the **Active solution platform box**, select the platform you want your solution to target, or select **\<New>** to create a new platform. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] will compile your application to target the platform that is set as the active platform in the **Configuration Manager** dialog box.  
   
 ## Removing a Platform  
  If you realize that you have no need for a platform, you can remove it using the Configuration Manager dialog box. This will remove all solution and project settings that you configured for that combination of configuration and target.  

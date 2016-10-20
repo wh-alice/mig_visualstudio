@@ -1,7 +1,7 @@
 ---
-title: "Starting a Build from within the IDE"
+title: "Starting a Build from within the IDE | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,7 +34,7 @@ translation.priority.ht:
 Custom project systems must use <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildManagerAccessor> to start builds. This topic describes the reasons for this and outlines the procedure.  
   
 ## Parallel Builds and Threads  
- [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] allows parallel builds which requires mediation for access to common resources. Project systems can run builds asynchronously, but such systems must not call build functions from within call backs is provided to the build manager.  
+ [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] allows parallel builds which requires mediation for access to common resources. Project systems can run builds asynchronously, but such systems must not call build functions from within call backs is provided to the build manager.  
   
  If the project system modifies environment variables, it must set the NodeAffinity of the build to OutOfProc. This means that you cannot use host objects, since they require the in-proc node.  
   

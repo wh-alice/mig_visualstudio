@@ -1,5 +1,5 @@
 ---
-title: "tcm: Listing test plans, test suites, test configurations, and environments"
+title: "tcm: Listing test plans, test suites, test configurations, and environments | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -65,7 +65,7 @@ tcm testenvironments /list /collection:CollectionURL /teamproject:project [/logi
 |**/planid**:`id`|Specifies that only the test suites in this test plan will be listed.|  
 |**/collection**:`CollectionURL`|Specifies the URI of the team project collection. The format for the URI is as follows: **http**://*ServerName:Port/VirtualDirectoryName/CollectionName*<br /><br /> If no virtual directory is used, then the format for the URI is as follows:<br /><br /> **http**://*ServerName:Port/CollectionName*|  
 |**/teamproject**:`project`|The name of the team project that contains the test plan that you want to import your automated tests into.|  
-|**/login**:`username,[password]`|Optional. Specifies the name and password of a user who is logged on to the application-tier server for [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] and who has permissions to run the command. You would use this option if your Windows credentials do not have the appropriate permissions, or you are using basic authentication, or you are not connected to a domain.<br /><br /> To login to Visual Studio Team Services, you will also need to use **/allowalternatecredentials** listed below.|  
+|**/login**:`username,[password]`|Optional. Specifies the name and password of a user who is logged on to the application-tier server for [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] and who has permissions to run the command. You would use this option if your Windows credentials do not have the appropriate permissions, or you are using basic authentication, or you are not connected to a domain.<br /><br /> To login to Visual Studio Team Services, you will also need to use **/allowalternatecredentials** listed below.|  
 |**/allowalternatecredentials**|This flag must be specified in addition to the **/login** parameter when connecting to Visual Studio Team Services. (This flag is only available if you have Visual Studio 2013 Update 4 or greater.)|  
   
  You can add parameters for **/collection** and **/teamproject** to the **tcm.exe.config** XML file which is located in the same directory as **tcm.exe**: **\<Drive:>\Program Files\Microsoft Visual Studio 11.0\Common7\IDE**. If you add these to the file, you do not need to have them on the command line each time you run a **tcm** command. You can add these keys and their values to the file, as follows, in the **appSettings** section:  
@@ -82,7 +82,7 @@ tcm testenvironments /list /collection:CollectionURL /teamproject:project [/logi
 ## Examples  
   
 ## List Test Items  
- The following examples assume that you have started a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] command prompt.  
+ The following examples assume that you have started a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] command prompt.  
   
  To do this, choose **Start**, point to **All Programs**, point to **Microsoft Visual Studio 2012**, point to **Visual Studio Tools**, and then choose **Developer Command Prompt**.  
   
@@ -111,4 +111,4 @@ tcm suites /list /planid:3 /collection:http://<Team Foundation Server Name>:8080
   
 ## See Also  
  [tcm: Running Tests from a Test Plan Using the Command Line Utility](../test/tcm--running-tests-from-a-test-plan-using-the-command-line-utility.md)   
- [Using tcm to import and run automated tests for a test plan from the command line](../test/b45def12-0e67-4270-89ea-67c41bc188a7.md)
+ [Using tcm to import and run automated tests for a test plan from the command line](../test/using-tcm-to-import-and-run-automated-tests-for-a-test-plan-from-the-command-line.md)

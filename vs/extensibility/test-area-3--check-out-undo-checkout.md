@@ -1,7 +1,7 @@
 ---
-title: "Test Area 3: Check Out-Undo Checkout"
+title: "Test Area 3: Check Out-Undo Checkout | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -41,7 +41,7 @@ This source-control plug-in test area covers editing and reverting items from th
  **Undo Checkout**: Marks an item in the version store as checked in, reverts local copy to state before the check out (depending on options).  
   
 ## Command Menu Access  
- The following [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment menu paths are used in the test cases.  
+ The following [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment menu paths are used in the test cases.  
   
 ##### Check Out:  
   

@@ -1,7 +1,7 @@
 ---
-title: "Setting a Background Image on a Diagram"
+title: "Setting a Background Image on a Diagram | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,7 +13,7 @@ ms.author: "awills"
 manager: "kamrani"
 ---
 # Setting a Background Image on a Diagram
-In [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Visualization and Modeling SDK, you can set the background image for a generated designer by using custom code.  
+In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Visualization and Modeling SDK, you can set the background image for a generated designer by using custom code.  
   
 ## Setting the background image  
   

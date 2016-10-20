@@ -1,7 +1,7 @@
 ---
-title: "Analyze CPU Usage in a Windows Universal App"
+title: "Analyze CPU Usage in a Windows Universal App | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,7 +36,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Analyze CPU Usage in a Windows Universal App
-![Applies to Windows and Windows Phone](../codequality/media/windows_and_phone_content.png "windows_and_phone_content")  
+![Applies to Windows and Windows Phone](../code-quality/media/windows_and_phone_content.png "windows_and_phone_content")  
   
  When you need to investigate performance issues in your app, a good place to start is understanding how it uses the CPU. The **CPU Usage** tool shows you where the CPU is spending time executing code. To focus on specific scenarios, CPU Usage can be run with the [XAML UI Responsiveness](../Topic/Analyze%20UI%20responsiveness%20in%20Store%20apps%20\(XAML\).md) tool, the [Energy Consumption](../profiling/analyze-energy-use-in-store-apps.md) tool, or both tools in a single diagnostic session.  
   

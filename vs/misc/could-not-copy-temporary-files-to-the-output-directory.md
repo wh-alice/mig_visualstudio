@@ -1,7 +1,7 @@
 ---
-title: "Could not copy temporary files to the output directory"
+title: "Could not copy temporary files to the output directory | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -48,7 +48,7 @@ The project system could not copy temporary files to the output directory. Compi
   
 -   Verify that you do not have the Object Browser window open.  
   
--   Verify that you do not have the same project (or projects) open in another instance of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+-   Verify that you do not have the same project (or projects) open in another instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 ## See Also  
  [NIB: How to: Set the Copy Local Property of a Reference](http://msdn.microsoft.com/en-us/dfe2ba13-f27f-4356-a481-ea67d5acacbd)

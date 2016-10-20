@@ -1,7 +1,7 @@
 ---
-title: "Implicit variable &#39;&lt;variablename&gt;&#39; is invalid because of &#39;&lt;message&gt;&#39;"
+title: "Implicit variable &#39;&lt;variablename&gt;&#39; is invalid because of &#39;&lt;message&gt;&#39; | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

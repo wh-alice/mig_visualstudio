@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Items"
+title: "MSBuild Items | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/17/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -12,7 +12,7 @@ ms.topic: "article"
 helpviewer_keywords: 
   - "MSBuild, Items"
 ms.assetid: d762eff4-c92a-4b5f-a944-1ca30aa22319
-caps.latest.revision: 34
+caps.latest.revision: 35
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -365,7 +365,8 @@ Output:
 ```  
   
 ## See Also  
- [MSBuild Concepts](../reference/msbuild-concepts.md)   
+ [MSBuild Concepts](../reference/msbuild-concepts.md)  
+ [MSBuild](../reference/msbuild1.md)   
  [How to: Select the Files to Build](../reference/how-to--select-the-files-to-build.md)   
  [How to: Exclude Files from the Build](../reference/how-to--exclude-files-from-the-build.md)   
  [How to: Display an Item List Separated with Commas](../reference/how-to--display-an-item-list-separated-with-commas.md)   

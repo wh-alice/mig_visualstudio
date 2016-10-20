@@ -1,7 +1,7 @@
 ---
-title: "Exporting Settings"
+title: "Exporting Settings | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,7 +34,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Exporting Settings
-The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE) uses classes that implement the <xref:Microsoft.VisualStudio.Shell.IProfileManager> interface and classes that are registered as supporting a given VSPackage implementation to save the state of a VSPackage.  
+The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) uses classes that implement the <xref:Microsoft.VisualStudio.Shell.IProfileManager> interface and classes that are registered as supporting a given VSPackage implementation to save the state of a VSPackage.  
   
  Because the IDE instantiates the class that implements the <xref:Microsoft.VisualStudio.Shell.IProfileManager> interface to support the settings, <xref:Microsoft.VisualStudio.Shell.IProfileManager> should be implemented in an independent class.  
   
@@ -43,7 +43,7 @@ The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated developm
   
 ### To implement the export of settings  
   
-1.  Declare the class that implements the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] settings.  
+1.  Declare the class that implements the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] settings.  
   
      Declare a class as implementing the <xref:Microsoft.VisualStudio.Shell.IProfileManager> interface and provide it with a GUID.  
   
@@ -135,7 +135,7 @@ The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated developm
   
      Implementation details are as follows:  
   
-    -   In addition to data explicitly written and transparent to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserSettings.ExportSettings*> method implementation, the settings API also saves [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] version information. Therefore, saved settings can be compared against the version of the IDE that generated them during settings importation.  
+    -   In addition to data explicitly written and transparent to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserSettings.ExportSettings*> method implementation, the settings API also saves [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] version information. Therefore, saved settings can be compared against the version of the IDE that generated them during settings importation.  
   
     -   The value of the `pszSettingName` argument supplied to a method of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSettingsWriter> interface must uniquely identify each data element saved in a settings category.  
   
@@ -167,7 +167,7 @@ The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated developm
     class MyPackage: Package   
     ```  
   
-     In this case, the attribute informs the IDE that the `MyPackageProfileManager` class provides a settings implementation to the `MyPackage` class. The Custom Settings Point in the registry is created under HKLM\Software\Microsoft\VisualStudio\\*Version*\UserSettings\ CoreUI_MyPackage, where *Version* is the version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], for example, 10.0.  
+     In this case, the attribute informs the IDE that the `MyPackageProfileManager` class provides a settings implementation to the `MyPackage` class. The Custom Settings Point in the registry is created under HKLM\Software\Microsoft\VisualStudio\\*Version*\UserSettings\ CoreUI_MyPackage, where *Version* is the version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], for example, 10.0.  
   
      For more information, see [Support for User Settings](../extensibility/support-for-user-settings.md) and <xref:Microsoft.VisualStudio.Shell.ProvideProfileAttribute>.  
   

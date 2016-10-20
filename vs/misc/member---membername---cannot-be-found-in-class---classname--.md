@@ -1,7 +1,7 @@
 ---
-title: "Member &#39;&lt;membername&gt;&#39; cannot be found in class &#39;&lt;classname&gt;&#39;"
+title: "Member &#39;&lt;membername&gt;&#39; cannot be found in class &#39;&lt;classname&gt;&#39; | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,9 +45,9 @@ Member '\<membername>' cannot be found in class '\<classname>'. This condition i
   
 1.  Compile the program again to see if the error recurs.  
   
-2.  If the error recurs, save your work and restart [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+2.  If the error recurs, save your work and restart [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
-3.  If the error persists, reinstall [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)].  
+3.  If the error persists, reinstall [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)].  
   
 4.  If the error persists after reinstallation, notify Microsoft Product Support Services.  
   

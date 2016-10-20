@@ -1,7 +1,7 @@
 ---
-title: "GenerateTemporaryTargetAssembly Task"
+title: "GenerateTemporaryTargetAssembly Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/17/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,7 +45,7 @@ The <xref:Microsoft.Build.Tasks.Windows.GenerateTemporaryTargetAssembly> task ge
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|`AssemblyName`|Required **String** parameter.<br /><br /> Specifies the short name of the assembly that is generated for a project and is also the name of the target assembly that is temporarily generated. For example, if a project generates a [!INCLUDE[TLA#tla_mswin](../codequality/includes/tlasharptla_mswin_md.md)] executable whose name is **WinExeAssembly.exe**, the **AssemblyName** parameter has a value of **WinExeAssembly**.|  
+|`AssemblyName`|Required **String** parameter.<br /><br /> Specifies the short name of the assembly that is generated for a project and is also the name of the target assembly that is temporarily generated. For example, if a project generates a [!INCLUDE[TLA#tla_mswin](../code-quality/includes/tlasharptla_mswin_md.md)] executable whose name is **WinExeAssembly.exe**, the **AssemblyName** parameter has a value of **WinExeAssembly**.|  
 |`CompileTargetName`|Required **String** parameter.<br /><br /> Specifies the name of the [!INCLUDE[TLA#tla_msbuild](../reference/includes/tlasharptla_msbuild_md.md)] target that is used to generate assemblies from source code files. The typical value for **CompileTargetName** is **CoreCompile**.|  
 |`CompileTypeName`|Required **String** parameter.<br /><br /> Specifies the type of compilation that is performed by the target that is specified by the **CompileTargetName** parameter. For the **CoreCompile** target, this value is **Compile**.|  
 |`CurrentProject`|Required **String** parameter.<br /><br /> Specifies the full path of the [!INCLUDE[TLA2#tla_msbuild](../reference/includes/tla2sharptla_msbuild_md.md)] project file for the project that requires a temporary target assembly.|  

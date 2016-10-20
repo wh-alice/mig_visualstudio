@@ -1,7 +1,7 @@
 ---
-title: "&#39;Get&#39; statements are no longer supported"
+title: "&#39;Get&#39; statements are no longer supported | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -43,7 +43,7 @@ translation.priority.mt:
   
 ### To correct this error  
   
-1.  Perform file operations using the members of `System.IO`, `FileSystemObject`, and [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] run-time functions.  
+1.  Perform file operations using the members of `System.IO`, `FileSystemObject`, and [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] run-time functions.  
   
 ## See Also  
  [Processing Drives, Directories, and Files](../Topic/Processing%20Drives,%20Directories,%20and%20Files%20\(Visual%20Basic\).md)   

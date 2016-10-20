@@ -1,7 +1,7 @@
 ---
-title: "Guidance for Creating and Managing SCVMM Environments"
+title: "Guidance for Creating and Managing SCVMM Environments | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -70,7 +70,7 @@ To create or manage an SCVMM environment, you need to know which approach to cho
 ###  <a name="storedvm"></a> Using stored virtual machines and templates  
  You can create a new SCVMM environment by choosing virtual machines and virtual machine templates that are stored in your Lab Management library. Each virtual machine stored in your Lab Management library has its own machine name and other identifiers. When you add a stored virtual machine to a lab environment, the name and identifiers are not changed to avoid name conflicts.  
   
- A virtual machine template is similar to a stored virtual machine, except that the template does not contain a machine name or any other unique identifier. When you add a template to your environment, [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] creates a new virtual machine based on that template. To avoid name conflicts, you must then create a unique identity for each of those virtual machines before you add them to the environment. However, you can use [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] to auto-generate the identity of each virtual machine. We recommend that you use templates instead of stored virtual machines unless you need to deploy a virtual machine that includes specific unique identifiers.  
+ A virtual machine template is similar to a stored virtual machine, except that the template does not contain a machine name or any other unique identifier. When you add a template to your environment, [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] creates a new virtual machine based on that template. To avoid name conflicts, you must then create a unique identity for each of those virtual machines before you add them to the environment. However, you can use [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] to auto-generate the identity of each virtual machine. We recommend that you use templates instead of stored virtual machines unless you need to deploy a virtual machine that includes specific unique identifiers.  
   
  ![Creating an environment from templates and  VMs](../test/media/lmguide_vmtemplate.png "LMGuide_VMTemplate")  
   

@@ -1,7 +1,7 @@
 ---
-title: "Walkthrough: using the command-line test utility"
+title: "Walkthrough: using the command-line test utility | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,15 +34,15 @@ This walkthrough shows you how to run unit tests from a command-line prompt and 
   
 ## Prerequisites  
   
--   In the walkthrough entitled, [Walkthrough: Creating and Running Unit Tests for Managed Code](../codequality/walkthrough--creating-and-running-unit-tests-for-managed-code.md) perform the following procedures: "Prepare the Walkthrough", "Create a Unit Test," and "Run a Unit Test and Fix Your Code".  
+-   In the walkthrough entitled, [Walkthrough: Creating and Running Unit Tests for Managed Code](../code-quality/walkthrough--creating-and-running-unit-tests-for-managed-code.md) perform the following procedures: "Prepare the Walkthrough", "Create a Unit Test," and "Run a Unit Test and Fix Your Code".  
   
--   The Woodgrove Bank project. See [Sample Project for Creating Unit Tests](../codequality/sample-project-for-creating-unit-tests.md).  
+-   The Woodgrove Bank project. See [Sample Project for Creating Unit Tests](../code-quality/sample-project-for-creating-unit-tests.md).  
   
 ## Use the Command-line Test Utility  
   
 #### To use the command-line test utility  
   
-1.  Open a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] command prompt.  
+1.  Open a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] command prompt.  
   
      To do this, choose **Start**, point to **All Programs**, point to **Microsoft Visual Studio 2012**, point to **Visual Studio Tools**, and then choose **Developer Command Prompt**.  
   
@@ -106,7 +106,7 @@ This walkthrough shows you how to run unit tests from a command-line prompt and 
      **Test Settings: Default Test Settings**  
   
     > [!NOTE]
-    >  If you complete the procedure, "Create and Run a Unit Test for a Private Method" in [Walkthrough: Creating and Running Unit Tests for Managed Code](../codequality/walkthrough--creating-and-running-unit-tests-for-managed-code.md), this command will also show results for the GetAccountTestType unit test.  
+    >  If you complete the procedure, "Create and Run a Unit Test for a Private Method" in [Walkthrough: Creating and Running Unit Tests for Managed Code](../code-quality/walkthrough--creating-and-running-unit-tests-for-managed-code.md), this command will also show results for the GetAccountTestType unit test.  
   
 5.  Run the tests again and save test results to a specified file.  
   
@@ -114,7 +114,7 @@ This walkthrough shows you how to run unit tests from a command-line prompt and 
   
      **MSTest /testcontainer:TestProject1.dll /resultsfile:testResults1.trx**  
   
-     This command runs all three tests and returns the same results as in the previous step. It also creates a file that is named testResults1.trx, and writes test results to that file, formatted for viewing in an XML viewer such as Microsoft Internet Explorer or Microsoft [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. If testResults1.trx already exists, MSTest.exe will not run and will show an error stating that a file with that name already exists.  
+     This command runs all three tests and returns the same results as in the previous step. It also creates a file that is named testResults1.trx, and writes test results to that file, formatted for viewing in an XML viewer such as Microsoft Internet Explorer or Microsoft [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. If testResults1.trx already exists, MSTest.exe will not run and will show an error stating that a file with that name already exists.  
   
     > [!NOTE]
     >  For more information about the full range of options you can use with the MSTest command, see [MSTest.exe command-line options](../test/mstest.exe-command-line-options.md).  
@@ -136,4 +136,4 @@ This walkthrough shows you how to run unit tests from a command-line prompt and 
 ## See Also  
  [Run automated tests from the command line using MSTest](../test/run-automated-tests-from-the-command-line-using-mstest.md)   
  [MSTest.exe command-line options](../test/mstest.exe-command-line-options.md)   
- [Walkthrough: Creating and Running Unit Tests for Managed Code](../codequality/walkthrough--creating-and-running-unit-tests-for-managed-code.md)
+ [Walkthrough: Creating and Running Unit Tests for Managed Code](../code-quality/walkthrough--creating-and-running-unit-tests-for-managed-code.md)

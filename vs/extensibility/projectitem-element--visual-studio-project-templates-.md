@@ -1,7 +1,7 @@
 ---
-title: "ProjectItem Element (Visual Studio Project Templates)"
+title: "ProjectItem Element (Visual Studio Project Templates) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -68,7 +68,7 @@ Specifies a file that is included in the project template.
 |---------------|-----------------|  
 |`TargetFileName`|Optional attribute.<br /><br /> Specifies the name and path of the project item when a project is created from the template. This attribute is useful for creating a directory structure different from the directory structure in the template .zip file, or for using parameter replacement to create an item name.|  
 |`ReplaceParameters`|Optional attribute.<br /><br /> A Boolean value that specifies whether the item has parameter values that must be replaced when a project is created from the template. Default value is `false`.|  
-|`OpenInEditor`|Optional attribute.<br /><br /> A Boolean value that specifies whether the item should be opened in its respective editor in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] when a project is created from the template.<br /><br /> The `OpenInWebBrowser` and `OpenInHelpBrowser` attributes are ignored on an item with an `OpenInEditor` value of `true`.<br /><br /> The default value is `false`.|  
+|`OpenInEditor`|Optional attribute.<br /><br /> A Boolean value that specifies whether the item should be opened in its respective editor in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] when a project is created from the template.<br /><br /> The `OpenInWebBrowser` and `OpenInHelpBrowser` attributes are ignored on an item with an `OpenInEditor` value of `true`.<br /><br /> The default value is `false`.|  
 |`OpenInWebBrowser`|Optional attribute.<br /><br /> A Boolean value that specifies whether the item should be opened the Web browser when a project is created from the template.<br /><br /> Only HTML files and text files that are local to the project can be opened in the Web browser. External URLs cannot be opened with this attribute.<br /><br /> The default value is `false`.|  
 |`OpenInHelpBrowser`|Optional attribute.<br /><br /> A Boolean value that specifies whether the item should be opened in the Help viewer when a project is created from the template.<br /><br /> Only HTML files and text files that are local to the project can be opened in the Help browser. External URLs cannot be opened with this attribute.<br /><br /> The default value is `false`.|  
 |`OpenOrder`|Optional attribute.<br /><br /> Specifies a numeric value that represents the order that items will be opened in their respective editors. All values must be multiples of 10. Items with higher `OpenOrder` values are opened first.|  
@@ -108,7 +108,7 @@ Specifies a file that is included in the project template.
     <ProjectItem TargetFileName="$safeprojectname$.vb">MyFile.vb</ProjectItem>  
     ```  
   
-2.  Open the project file (.vbproj for a [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] project) in a text editor or [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)].  
+2.  Open the project file (.vbproj for a [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] project) in a text editor or [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 3.  Locate the line in the project file that looks similar to the following XML:  
   
@@ -125,7 +125,7 @@ Specifies a file that is included in the project template.
      When a project is created from this template, the file name will be based on the name the user entered in the **New Project** dialog box, with all unsafe characters and spaces removed. For more information, see [Template Parameters](../ide/template-parameters.md).  
   
 ## Example  
- The following example shows the metadata for a project template for a [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] application.  
+ The following example shows the metadata for a project template for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] application.  
   
 ```  
 <VSTemplate Type="Project" Version="3.0.0"  

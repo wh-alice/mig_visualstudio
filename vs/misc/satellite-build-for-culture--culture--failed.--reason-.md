@@ -1,7 +1,7 @@
 ---
-title: "Satellite build for culture &#39;culture&#39; failed. &lt;reason&gt;"
+title: "Satellite build for culture &#39;culture&#39; failed. &lt;reason&gt; | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -41,7 +41,7 @@ A satellite assembly for a particular culture could not be built. This error wil
   
  **To correct this error**  
   
--   Reinstall [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] or just the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)].  
+-   Reinstall [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] or just the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)].  
   
 -   When \<reason> is reported as "The assembly linker could not be launched. The file exists," empty the Temp folder in which the files are generated (for example, C:\Documents and Settings\\<user\>\Local Settings\Temp).  
   

@@ -1,7 +1,7 @@
 ---
-title: "PROCESS_INFO_FLAGS"
+title: "PROCESS_INFO_FLAGS | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -61,13 +61,13 @@ enum enum_PROCESS_INFO_FLAGS { 
  Indicates that the process is a system process.  
   
  PIFLAG_DEBUGGER_ATTACHED  
- Indicates that the process is being debugged by a debugger. It may be a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] debugger, or it may be some other debugger, for example, WinDbg.  
+ Indicates that the process is being debugged by a debugger. It may be a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger, or it may be some other debugger, for example, WinDbg.  
   
  PIFLAG_PROCESS_STOPPED  
- Indicates the process is stopped. Valid only if `PIFLAG_DEBUGGER_ATTACHED` is also specified. Available in [!INCLUDE[vsprvslong](../codequality/includes/vsprvslong_md.md)] and later.  
+ Indicates the process is stopped. Valid only if `PIFLAG_DEBUGGER_ATTACHED` is also specified. Available in [!INCLUDE[vsprvslong](../code-quality/includes/vsprvslong_md.md)] and later.  
   
  PIFLAG_PROCESS_RUNNING  
- Indicates the process is running. Valid only if `PIFLAG_DEBUGGER_ATTACHED` is also specified. Available in [!INCLUDE[vsprvslong](../codequality/includes/vsprvslong_md.md)] and later.  
+ Indicates the process is running. Valid only if `PIFLAG_DEBUGGER_ATTACHED` is also specified. Available in [!INCLUDE[vsprvslong](../code-quality/includes/vsprvslong_md.md)] and later.  
   
 ## Remarks  
  Used for the `Flags` member of the [PROCESS_INFO](../extensibility/process_info.md) structure.  

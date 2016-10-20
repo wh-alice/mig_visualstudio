@@ -1,5 +1,5 @@
 ---
-title: "Debugging Windows Store and Windows Universal apps"
+title: "Debugging Windows Store and Windows Universal apps | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
@@ -49,4 +49,4 @@ The Visual Studio debugger provides complete support for debugging Windows Store
 |[Prefetch content for Windows Store apps](../debugger/prefetch-content-for-windows-store-apps.md)|Analyze the effect of the ContentPrefetcher class on Windows Store apps.|  
   
 ## See Also  
- [Analyze code quality using static code analysis](../codequality/analyze-the-code-quality-of-store-apps-using-visual-studio-static-code-analysis.md)
+ [Analyze code quality using static code analysis](../code-quality/analyze-the-code-quality-of-store-apps-using-visual-studio-static-code-analysis.md)

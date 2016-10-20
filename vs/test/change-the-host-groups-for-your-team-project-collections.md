@@ -1,7 +1,7 @@
 ---
-title: "Change the Host Groups for Your Team Project Collections"
+title: "Change the Host Groups for Your Team Project Collections | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,12 +45,12 @@ You can use the host groups in System Center Virtual Machine Manager as a conven
 > [!NOTE]
 >  To configure [!INCLUDE[vstsLabShort](../test/includes/vstslabshort_md.md)] for the first time, see [Configure Lab Management for SCVMM environments](../test/configure-lab-management-for-scvmm-environments.md).  
   
- You can change the host groups for a team project collection using the Administration Console for [!INCLUDE[esprfound](../codequality/includes/esprfound_md.md)]. Or, you can use the command-line to accomplish the same task. For more information about the command-line utility TFSLabConfig, see [Configuring Lab Management with TFSLabConfig](http://msdn.microsoft.com/en-us/28da1061-5a31-4e8b-96a7-116dfed55632).  
+ You can change the host groups for a team project collection using the Administration Console for [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)]. Or, you can use the command-line to accomplish the same task. For more information about the command-line utility TFSLabConfig, see [Configuring Lab Management with TFSLabConfig](http://msdn.microsoft.com/en-us/28da1061-5a31-4e8b-96a7-116dfed55632).  
   
 > [!NOTE]
 >  If you want to assign a host group that you have created using SCVMM to a specific team project that you have added to your team project collection, you must use the command-line utility to accomplish this task. You cannot use the administration console to assign host groups to specific team projects. For more information, see [TFSLabConfig CreateTeamProjectHostGroup Command](http://msdn.microsoft.com/en-us/1462f1da-77e9-468f-bd68-6a4f6c7dd386).  
   
- Use the following procedure to change the host groups for your team project collection by using the Administration Console for [!INCLUDE[esprfound](../codequality/includes/esprfound_md.md)]. For each host in a host group that you add, you must also run the steps in the procedure to improve the reliability of WinRM. To expand your virtual lab, see [Expand or change your virtual lab](../test/expand-or-change-your-virtual-lab.md).  
+ Use the following procedure to change the host groups for your team project collection by using the Administration Console for [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)]. For each host in a host group that you add, you must also run the steps in the procedure to improve the reliability of WinRM. To expand your virtual lab, see [Expand or change your virtual lab](../test/expand-or-change-your-virtual-lab.md).  
   
 ### To add or remove host groups for your team project collection  
   
@@ -69,12 +69,12 @@ You can use the host groups in System Center Virtual Machine Manager as a conven
     2.  To add the host group to each team project in the team project collection, select **Auto Provision** for the host group.  
   
         > [!NOTE]
-        >  If you select to auto provision the host group, [!INCLUDE[esprtfs](../codequality/includes/esprtfs_md.md)] automatically adds the host group to all the team projects in this team project collection. For team projects that have not yet been created, the host group is added when the **New Team Project** wizard creates the project. For team projects that have already been created in this team project collection, the host group is added when these settings are saved. If you clear **Auto Provision** the host group will no longer be added to new team projects that you add to your team project collection.  
+        >  If you select to auto provision the host group, [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] automatically adds the host group to all the team projects in this team project collection. For team projects that have not yet been created, the host group is added when the **New Team Project** wizard creates the project. For team projects that have already been created in this team project collection, the host group is added when these settings are saved. If you clear **Auto Provision** the host group will no longer be added to new team projects that you add to your team project collection.  
   
 5.  To delete a host group from your team project collection, on the **Host Groups** tab, select the host group from the list, and click **Delete**.  
   
     > [!IMPORTANT]
-    >  Before you can delete a host group from a team project collection, you must first remove all [!INCLUDE[vstsLabShort](../test/includes/vstslabshort_md.md)] environments that are in this host group using [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)]. Then you must remove the association of this host group from each team project in that project collection using the command line utility TFSLabConfig. For more information about how to do this, see [TFSLabConfig DeleteTeamProjectHostGroup Command](http://msdn.microsoft.com/en-us/45377b79-9e7b-483f-869e-77424f09097b).  
+    >  Before you can delete a host group from a team project collection, you must first remove all [!INCLUDE[vstsLabShort](../test/includes/vstslabshort_md.md)] environments that are in this host group using [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)]. Then you must remove the association of this host group from each team project in that project collection using the command line utility TFSLabConfig. For more information about how to do this, see [TFSLabConfig DeleteTeamProjectHostGroup Command](http://msdn.microsoft.com/en-us/45377b79-9e7b-483f-869e-77424f09097b).  
   
 6.  Click **OK**.  
   

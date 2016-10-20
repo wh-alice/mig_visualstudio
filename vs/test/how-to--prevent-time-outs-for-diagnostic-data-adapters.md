@@ -1,7 +1,7 @@
 ---
-title: "How to: Prevent Time-Outs for Diagnostic Data Adapters"
+title: "How to: Prevent Time-Outs for Diagnostic Data Adapters | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,15 +33,15 @@ If you are using diagnostic data adapters in your test settings, a time-out can 
   
 -   The test controller service is not running on the test controller computer. You might have to restart the service. For more information about how to determine your test controller and manage test controllers, see [Managing Test Controllers and Test Agents with Visual Studio](../test/managing-test-controllers-and-test-agents-with-visual-studio.md).  
   
--   If you collect data on a remote computer, the firewall might block [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)]. The computer that runs [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] must accept incoming connections from the test controller. A time-out occurs when [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] does not receive a message from the controller because it is blocked by the firewall. You must check your firewall settings on the computer that runs [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)]. For more information about firewall settings, see the following [Microsoft Web site](http://go.microsoft.com/fwlink/?LinkId=184980).  
+-   If you collect data on a remote computer, the firewall might block [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)]. The computer that runs [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] must accept incoming connections from the test controller. A time-out occurs when [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] does not receive a message from the controller because it is blocked by the firewall. You must check your firewall settings on the computer that runs [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)]. For more information about firewall settings, see the following [Microsoft Web site](http://go.microsoft.com/fwlink/?LinkId=184980).  
   
--   The test controller cannot resolve the name of the computer that runs [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)]. This might occur if DNS provides the wrong address for this computer. You might have to contact the network administrator to resolve this issue.  
+-   The test controller cannot resolve the name of the computer that runs [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)]. This might occur if DNS provides the wrong address for this computer. You might have to contact the network administrator to resolve this issue.  
   
  When you run a long test that must collect a lot of data, you might find that the collection of this data times out. You can use the following procedure to resolve this issue.  
   
- You can increase the time-out by updating the configuration file for [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] or the configuration file for the test agent that is timing out.  
+ You can increase the time-out by updating the configuration file for [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] or the configuration file for the test agent that is timing out.  
   
- For [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] the configuration file is called **mtm.exe.config**. It is located in the following directory: **%ProgramFiles%\Microsoft Visual Studio 12.0\Common7\IDE**.  
+ For [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] the configuration file is called **mtm.exe.config**. It is located in the following directory: **%ProgramFiles%\Microsoft Visual Studio 12.0\Common7\IDE**.  
   
  To update a test agent, you must update the following configuration files on the test agent computer. All these files are located on the test agent computer in the same directory: **%ProgramFiles%\Microsoft Visual Studio 12.0\Common7\IDE**.  
   
@@ -70,7 +70,7 @@ If you are using diagnostic data adapters in your test settings, a time-out can 
   
 3.  Right-click the file and point to **Open With**. Select an editor.  
   
-     The file is displayed in the editor. There are many settings stored in this file. Most of these settings can be changed using [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)]. However, the time-out settings must be changed manually as described in the following steps.  
+     The file is displayed in the editor. There are many settings stored in this file. Most of these settings can be changed using [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)]. However, the time-out settings must be changed manually as described in the following steps.  
   
 4.  You must modify the test execution settings section to increase the time-out values. This section has the following format:  
   

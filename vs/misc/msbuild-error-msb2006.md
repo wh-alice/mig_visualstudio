@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB2006"
+title: "MSBuild Error MSB2006 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -42,7 +42,7 @@ translation.priority.mt:
   
 -   Check the spelling of the element name.  
   
--   Check whether the project file has been modified or corrupted. If it has been modified or corrupted, open the project in the version of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] in which it was created, save it, and then attempt to convert it again.  
+-   Check whether the project file has been modified or corrupted. If it has been modified or corrupted, open the project in the version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] in which it was created, save it, and then attempt to convert it again.  
   
 ## See Also  
  [Project File Schema Reference](../reference/msbuild-project-file-schema-reference.md)   

@@ -1,7 +1,7 @@
 ---
-title: "Conversion operators must be declared either &#39;Widening&#39; or &#39;Narrowing&#39;"
+title: "Conversion operators must be declared either &#39;Widening&#39; or &#39;Narrowing&#39; | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

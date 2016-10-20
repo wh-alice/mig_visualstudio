@@ -1,5 +1,5 @@
 ---
-title: "How to: Run Tests from Microsoft Visual Studio"
+title: "How to: Run Tests from Microsoft Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -45,11 +45,11 @@ You can run automated tests from either Visual Studio or a command prompt. Autom
 > [!NOTE]
 >  When you run one or more tests in Visual Studio, if the test contents are new or have been changed but not saved, they are automatically saved before the test is run. Similarly, if the code of a unit test has been edited but the project that contains the test has not been re-built, Visual Studio builds the project before you run the test.  
   
- You can also use [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] to plan your testing effort and run your tests as part of a test plan. [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)] is included with Visual Studio Enterprise and Visual Studio Test Professional. To find out how to use [!INCLUDE[TCMext](../codequality/includes/tcmext_md.md)], see [Defining a Test Plan](../test_notintoc/defining-a-test-plan.md).  
+ You can also use [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] to plan your testing effort and run your tests as part of a test plan. [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] is included with Visual Studio Enterprise and Visual Studio Test Professional. To find out how to use [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)], see [Defining a Test Plan](../test_notintoc/defining-a-test-plan.md).  
   
  **Running Automated Tests in Visual Studio**  
   
- [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] provides different ways to run tests. You can choose the way that best suits your current needs:  
+ [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] provides different ways to run tests. You can choose the way that best suits your current needs:  
   
 -   [Run Tests From Test Explorer](#RunTestsFromUnitTestExplorer). You can run automated tests including unit, coded UI, ordered, and generic in your solution from Test Explorer. Test Explorer easily lets you run and monitor the status of all the automated tests in your solution.  
   
@@ -85,7 +85,7 @@ You can run automated tests from either Visual Studio or a command prompt. Autom
   
 #### To run tests from source code files in your solution, by using the keyboard  
   
-1.  In [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], open a source code file anywhere in your solution.  
+1.  In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], open a source code file anywhere in your solution.  
   
 2.  You can use the following keyboard shortcuts to run tests from that file.  
   
@@ -102,13 +102,13 @@ You can run automated tests from either Visual Studio or a command prompt. Autom
   
 #### To run tests from your test code files, by using the keyboard  
   
-1.  In [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], open the source-code file that contains your test methods.  
+1.  In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], open the source-code file that contains your test methods.  
   
 2.  Place the cursor in the file and press Ctrl + R, then press C.  
   
 #### To run tests from your test code files by using the mouse  
   
-1.  In [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)], open the source-code file that contains your test methods.  
+1.  In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], open the source-code file that contains your test methods.  
   
 2.  Right-click in a test method, in a test class, or outside the scope of a test class, and then choose **Run Tests**.  
   
@@ -118,4 +118,4 @@ You can run automated tests from either Visual Studio or a command prompt. Autom
  [Running automated tests from the command line](../test/running-automated-tests-from-the-command-line.md)   
  [How to: Rerun a Test](http://msdn.microsoft.com/en-us/575548c4-3a35-4b1c-b418-ecace4936593)   
  [How to: Debug while a Test is Running](../test/how-to--debug-while-a-test-is-running.md)   
- [Run unit tests with Test Explorer](../codequality/run-unit-tests-with-test-explorer.md)
+ [Run unit tests with Test Explorer](../code-quality/run-unit-tests-with-test-explorer.md)

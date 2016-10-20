@@ -1,7 +1,7 @@
 ---
-title: "Options Pages"
+title: "Options Pages | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,7 +36,7 @@ This content has been removed. For information about extending Tools Options pag
   
 ## In This Section  
  [Using Options Pages](../misc/using-options-pages.md)  
- Provides an overview of how a VSPackage can use the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] automation model to manage the state of **Tools Options** pages.  
+ Provides an overview of how a VSPackage can use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] automation model to manage the state of **Tools Options** pages.  
   
  [Creating Options Pages By Using Interop Assemblies](../misc/creating-options-pages-by-using-interop-assemblies.md)  
  Explains how an application can create and manage new **Tools Options** pages by using interop assemblies.  

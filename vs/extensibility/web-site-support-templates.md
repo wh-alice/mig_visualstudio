@@ -1,7 +1,7 @@
 ---
-title: "Web Site Support Templates"
+title: "Web Site Support Templates | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,13 +31,13 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Web Site Support Templates
-[!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Web site project and item templates provide reusable and customizable Web site project and item stubs that accelerate the development process by removing the need to create new Web site projects and items from scratch. For more information on [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] templates, see [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md).  
+[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Web site project and item templates provide reusable and customizable Web site project and item stubs that accelerate the development process by removing the need to create new Web site projects and items from scratch. For more information on [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] templates, see [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md).  
   
 ## Project Template Folder  
  Web project template templates typically are installed on [*Visual Studio Installation Path*]\Common7\IDE\ProjectTemplates\Web\\, each in a subfolder that is named after the web programming language.  
   
 ## Project File  
- The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] integrated development environment (IDE) requires a project file extension as a way to map a template to the correct project type. Because Web projects do not have a project file, the dummy project file extension .webproj is registered to support this.  
+ The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) requires a project file extension as a way to map a template to the correct project type. Because Web projects do not have a project file, the dummy project file extension .webproj is registered to support this.  
   
  Optionally, a language name string can be added to the template to enable the Web project system to set the language default in the **Add New Item** dialog box for items based on the template. The string must be the first line of the file and must match both the name registered under AddItemLanguageName in the Intellisense engine registration and the name registered under Project Subtype(VsTemplate). For more information, see [Web Site Support Attributes](../extensibility/web-site-support-attributes.md).  
   

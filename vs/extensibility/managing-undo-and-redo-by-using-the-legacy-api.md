@@ -1,7 +1,7 @@
 ---
-title: "Managing Undo and Redo by Using the Legacy API"
+title: "Managing Undo and Redo by Using the Legacy API | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,7 +31,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Managing Undo and Redo by Using the Legacy API
-Editors must support undo operations that let users reverse their recent changes when they modify code. Most editors implemented under [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] and the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] can have undo support automatically provided by the integrated development environment (IDE).  
+Editors must support undo operations that let users reverse their recent changes when they modify code. Most editors implemented under [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] can have undo support automatically provided by the integrated development environment (IDE).  
   
 ## In This Section  
  [How to: Implement Undo Management](../extensibility/how-to--implement-undo-management.md)  

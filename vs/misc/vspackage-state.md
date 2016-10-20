@@ -1,7 +1,7 @@
 ---
-title: "VSPackage State"
+title: "VSPackage State | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,7 +33,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # VSPackage State
-Many factors determine the set of persisted values, or state, of a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] application.  
+Many factors determine the set of persisted values, or state, of a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] application.  
   
 -   Projects have project and configuration properties.  
   
@@ -45,7 +45,7 @@ Many factors determine the set of persisted values, or state, of a [!INCLUDE[vsp
   
 -   Objects that an application creates can have properties of their own.  
   
- Here are some of the ways that a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] application state can be managed:  
+ Here are some of the ways that a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] application state can be managed:  
   
 -   Through the project and solution property pages.  
   
@@ -73,7 +73,7 @@ Many factors determine the set of persisted values, or state, of a [!INCLUDE[vsp
  Discusses user settings and how they are created and persisted.  
   
  [Creating a Settings Category](../extensibility/creating-a-settings-category.md)  
- Explains how to create a [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] settings category and use it to save values to and restore values from a settings file.  
+ Explains how to create a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] settings category and use it to save values to and restore values from a settings file.  
   
  [Extending Properties and the Property Window](../extensibility/extending-properties-and-the-property-window.md)  
  Explains how to display and change the value of an object in the **Properties** window.  

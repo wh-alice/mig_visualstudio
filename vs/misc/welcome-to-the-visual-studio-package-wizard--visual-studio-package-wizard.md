@@ -1,7 +1,7 @@
 ---
-title: "Welcome to the Visual Studio Package Wizard, Visual Studio Package Wizard"
+title: "Welcome to the Visual Studio Package Wizard, Visual Studio Package Wizard | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,7 +33,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Welcome to the Visual Studio Package Wizard, Visual Studio Package Wizard
-The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Package Template creates a basic implementation of a VSPackage that you can expand later. You can also use the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Package Template to add optional components to a VSPackage.  
+The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Package Template creates a basic implementation of a VSPackage that you can expand later. You can also use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Package Template to add optional components to a VSPackage.  
   
  **Cancel**  
  Cancels the creation of the VSPackage.  

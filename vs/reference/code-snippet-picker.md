@@ -1,7 +1,7 @@
 ---
-title: "Code Snippet Picker"
+title: "Code Snippet Picker | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,15 +35,15 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Code Snippet Picker
-The [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Code Editor provides a **Code Snippet Picker** that allows you, in a few mouse clicks, to insert ready-made blocks of code into the active document.  
+The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Code Editor provides a **Code Snippet Picker** that allows you, in a few mouse clicks, to insert ready-made blocks of code into the active document.  
   
  The procedure to display the **Code Snippet Picker** varies according to the language you are using.  
   
--   [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] - Right-click at the desired location in the Code Editor to display the Shortcut menu, and select **Insert Snippet**.  
+-   [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] - Right-click at the desired location in the Code Editor to display the Shortcut menu, and select **Insert Snippet**.  
   
--   [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] - Right-click at the desired location in the Code Editor to display the Shortcut menu, and click **Insert Snippet** or **Surround With**.  
+-   [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] - Right-click at the desired location in the Code Editor to display the Shortcut menu, and click **Insert Snippet** or **Surround With**.  
   
--   [!INCLUDE[vcprvc](../codequality/includes/vcprvc_md.md)] - The **Code Snippet Picker** is not available.  
+-   [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] - The **Code Snippet Picker** is not available.  
   
 -   Visual F# - The **Code Snippet Picker** is not available.  
   

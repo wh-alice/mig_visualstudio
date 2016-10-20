@@ -1,7 +1,7 @@
 ---
-title: "Visualizing and Viewing Data"
+title: "Visualizing and Viewing Data | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,7 +34,7 @@ translation.priority.mt:
 # Visualizing and Viewing Data
 Type visualizers and custom viewers present data in a way that is quickly meaningful to a developer. The expression evaluator (EE) can support third-party type visualizers as well as supply its own custom viewers.  
   
- [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] determines how many type visualizers and custom viewers are associated with the object's type by calling the [GetCustomViewerCount](../extensibility/idebugproperty3--getcustomviewercount.md) method. If there is at least one type visualizer or custom viewer available, Visual Studio calls the [GetCustomViewerList](../extensibility/idebugproperty3--getcustomviewerlist.md) method to retrieve a list of those visualizers and viewers (actually, a list of `CLSID`s that implement the visualizers and viewers) and presents them to the user.  
+ [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] determines how many type visualizers and custom viewers are associated with the object's type by calling the [GetCustomViewerCount](../extensibility/idebugproperty3--getcustomviewercount.md) method. If there is at least one type visualizer or custom viewer available, Visual Studio calls the [GetCustomViewerList](../extensibility/idebugproperty3--getcustomviewerlist.md) method to retrieve a list of those visualizers and viewers (actually, a list of `CLSID`s that implement the visualizers and viewers) and presents them to the user.  
   
 ## Supporting Type Visualizers  
  There are a number of interfaces that the EE must implement to support type visualizers. These interfaces can be broken down into two broad categories: those that list the type visualizers and those that access the property data.  

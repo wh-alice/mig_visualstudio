@@ -1,7 +1,7 @@
 ---
-title: "Registering Toolbox Support Features"
+title: "Registering Toolbox Support Features | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,9 +35,9 @@ VSPackages must update the registry if they extend the default set of **Toolbox*
   
 -   Using automatic toolbox tab selection of a particular toolbox category or tab when a particular designer or editor is active.  
   
--   Providing any <xref:System.Drawing.Design.ToolboxItem> objects to be loaded by the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] environment.  
+-   Providing any <xref:System.Drawing.Design.ToolboxItem> objects to be loaded by the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] environment.  
   
-     These items are loaded by the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] environment whenever the **Toolbox** is reset, either by a user through the IDE, or programmatically through the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.ResetDefaults*> method. Resetting of the **Toolbox** generates a <xref:Microsoft.VisualStudio.Shell.Package.ToolboxInitialized> event under the Managed Package Framework.  
+     These items are loaded by the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] environment whenever the **Toolbox** is reset, either by a user through the IDE, or programmatically through the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.ResetDefaults*> method. Resetting of the **Toolbox** generates a <xref:Microsoft.VisualStudio.Shell.Package.ToolboxInitialized> event under the Managed Package Framework.  
   
     > [!NOTE]
     >  VSPackages developed under the Managed Package Framework use <xref:Microsoft.VisualStudio.Shell.ProvideToolboxItemsAttribute> applied to their implementation of the <xref:Microsoft.VisualStudio.Shell.Package> object to register this support.  
@@ -87,12 +87,12 @@ VSPackages must update the registry if they extend the default set of **Toolbox*
   
 |Name|Type|Data|Description|  
 |----------|----------|----------|-----------------|  
-|`Default Items`|REG_DWORD|Can be any DWORD value. Starting with 1. The value is incremented if you update your VSPackage to supply more or different items.|The value of `Default Items` must be greater than or equal to 1 to add <xref:System.Drawing.Design.ToolboxItem> objects to the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] **Toolbox**.<br /><br /> Changing the value of `Default Items` will cause the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] IDE to load the most recent instance of a VSPackage providing <xref:System.Drawing.Design.ToolboxItem> objects, rather than using any cached values.<br /><br /> In the Managed Package Framework, `Default Items` is set by the value used in the constructor for the <xref:Microsoft.VisualStudio.Shell.ProvideToolboxItemsAttribute> instance applied to the VSPackage providing <xref:System.Drawing.Design.ToolboxItem> objects.|  
+|`Default Items`|REG_DWORD|Can be any DWORD value. Starting with 1. The value is incremented if you update your VSPackage to supply more or different items.|The value of `Default Items` must be greater than or equal to 1 to add <xref:System.Drawing.Design.ToolboxItem> objects to the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] **Toolbox**.<br /><br /> Changing the value of `Default Items` will cause the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE to load the most recent instance of a VSPackage providing <xref:System.Drawing.Design.ToolboxItem> objects, rather than using any cached values.<br /><br /> In the Managed Package Framework, `Default Items` is set by the value used in the constructor for the <xref:Microsoft.VisualStudio.Shell.ProvideToolboxItemsAttribute> instance applied to the VSPackage providing <xref:System.Drawing.Design.ToolboxItem> objects.|  
   
 ## Registering Support for a Non-Standard Format  
  Registration of supported Clipboard formats that a <xref:System.Drawing.Design.ToolboxItem> provider VSPackage supports is optional.  
   
- If a <xref:System.Drawing.Design.ToolboxItem> provider VSPackage does not register any special Clipboard formats, it must support the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] standard formats. For more information on the standard **Toolbox** Clipboard formats, see [Extending the Toolbox](../misc/extending-the-toolbox.md).  
+ If a <xref:System.Drawing.Design.ToolboxItem> provider VSPackage does not register any special Clipboard formats, it must support the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] standard formats. For more information on the standard **Toolbox** Clipboard formats, see [Extending the Toolbox](../misc/extending-the-toolbox.md).  
   
  If a VSPackage does provide support for non-standard formats, it must register those formats under the VSPackage's **Toolbox** registration key HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<Version>*\Packages\\*\<Package GUID*>\Toolbox, by adding a string entry named `Formats`.  
   
@@ -106,7 +106,7 @@ VSPackages must update the registry if they extend the default set of **Toolbox*
 ## Registering Support for Dynamic Toolbox-Item Configuration  
  If a VSPackage provides an implementation of <xref:Microsoft.VisualStudio.Shell.IConfigureToolboxItem> it must add registry settings under HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<Version>*\CLSID. and HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<Version>*\ToolboxItemConfiguration.  
   
- The registry data under HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<Version>*\CLSID contains the information the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] environment requires to invoke the implementation of <xref:Microsoft.VisualStudio.Shell.IConfigureToolboxItem>.  
+ The registry data under HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<Version>*\CLSID contains the information the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] environment requires to invoke the implementation of <xref:Microsoft.VisualStudio.Shell.IConfigureToolboxItem>.  
   
  The HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<Version>*\ToolboxItemConfiguration data is used to select or filter which <xref:System.Drawing.Design.ToolboxItem> objects the implementation of <xref:Microsoft.VisualStudio.Shell.IConfigureToolboxItem> configures on the basis of the assemblies that contain them.  
   

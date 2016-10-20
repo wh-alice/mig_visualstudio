@@ -1,7 +1,7 @@
 ---
-title: "Interfaces (Visual Studio Debugging)"
+title: "Interfaces (Visual Studio Debugging) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,7 +45,7 @@ Methods are listed alphabetically under each interface in the table of contents 
   
 ## Related Sections  
  [API Reference](../extensibility/api-reference--visual-studio-debugging-.md)  
- Contains documentation for the interfaces, enumerators, and structures of the [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Debugging SDK.  
+ Contains documentation for the interfaces, enumerators, and structures of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Debugging SDK.  
   
 ## See Also  
  [API Reference](../extensibility/api-reference--visual-studio-debugging-.md)

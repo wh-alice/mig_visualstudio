@@ -1,7 +1,7 @@
 ---
-title: "File is not a valid .NET Framework or COM component"
+title: "File is not a valid .NET Framework or COM component | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,7 +31,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # File is not a valid .NET Framework or COM component
-You are attempting to view a file in the Object Browser that does not contain a valid object. Only [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] and COM components can be viewed in the Object Browser.  
+You are attempting to view a file in the Object Browser that does not contain a valid object. Only [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] and COM components can be viewed in the Object Browser.  
   
 ### To correct this error  
   

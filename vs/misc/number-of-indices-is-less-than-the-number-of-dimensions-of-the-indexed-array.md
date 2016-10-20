@@ -1,7 +1,7 @@
 ---
-title: "Number of indices is less than the number of dimensions of the indexed array"
+title: "Number of indices is less than the number of dimensions of the indexed array | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

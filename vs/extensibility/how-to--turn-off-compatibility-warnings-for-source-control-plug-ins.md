@@ -1,7 +1,7 @@
 ---
-title: "How to: Turn Off Compatibility Warnings for Source Control Plug-ins"
+title: "How to: Turn Off Compatibility Warnings for Source Control Plug-ins | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,7 +32,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # How to: Turn Off Compatibility Warnings for Source Control Plug-ins
-A user may see several compatibility warnings when employing source control in [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. The warnings presented depend on the capabilities of the source control plug-in and can be disabled as detailed here.  
+A user may see several compatibility warnings when employing source control in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. The warnings presented depend on the capabilities of the source control plug-in and can be disabled as detailed here.  
   
 ### To disable the warning: "To ensure optimal source control integration with Visual Studio…"  
   

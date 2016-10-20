@@ -1,7 +1,7 @@
 ---
-title: "How to: Access and Constrain the Current Selection"
+title: "How to: Access and Constrain the Current Selection | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""

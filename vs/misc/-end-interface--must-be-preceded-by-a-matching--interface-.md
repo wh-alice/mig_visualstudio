@@ -1,7 +1,7 @@
 ---
-title: "&#39;End Interface&#39; must be preceded by a matching &#39;Interface&#39;"
+title: "&#39;End Interface&#39; must be preceded by a matching &#39;Interface&#39; | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

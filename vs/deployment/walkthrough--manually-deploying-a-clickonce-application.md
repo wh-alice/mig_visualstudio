@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Manually Deploying a ClickOnce Application"
+title: "Walkthrough: Manually Deploying a ClickOnce Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,7 +1,7 @@
 ---
-title: "Add Existing Project Command"
+title: "Add Existing Project Command | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -54,7 +54,7 @@ File.AddExistingProject filename
  Auto completion tries to locate the correct path and file name as you type.  
   
 ## Example  
- This example adds the [!INCLUDE[vbprvb](../codequality/includes/vbprvb_md.md)] project, TestProject1, to the current solution.  
+ This example adds the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] project, TestProject1, to the current solution.  
   
 ```  
 >File.AddExistingProject "c:\visual studio projects\TestProject1.vbproj"  

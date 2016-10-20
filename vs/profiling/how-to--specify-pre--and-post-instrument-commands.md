@@ -1,7 +1,7 @@
 ---
-title: "How to: Specify Pre- and Post-Instrument Commands"
+title: "How to: Specify Pre- and Post-Instrument Commands | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -42,9 +42,9 @@ You can specify commands that run before or after the binaries in a performance 
   
  **Requirements**  
   
--   [!INCLUDE[vsUltLong](../codequality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../codequality/includes/vsprelong_md.md)], [!INCLUDE[vsPro](../codequality/includes/vspro_md.md)]  
+-   [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)], [!INCLUDE[vsPro](../code-quality/includes/vspro_md.md)]  
   
- The working directory in which the commands are executed depends on the operating systen  where you are running [!INCLUDE[vs_current_short](../codequality/includes/vs_current_short_md.md)] and on the target platform of the profiled application.  
+ The working directory in which the commands are executed depends on the operating systen  where you are running [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] and on the target platform of the profiled application.  
   
  **32-bit computers**  
   

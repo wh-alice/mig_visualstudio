@@ -1,7 +1,7 @@
 ---
-title: "How to: Profile JavaScript Code in Web Pages"
+title: "How to: Profile JavaScript Code in Web Pages | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,11 +34,11 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # How to: Profile JavaScript Code in Web Pages
-[!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Profiling Tools can collect performance data for JavaScript code that executes in an [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] Web application, an arbitrary Web page, or JavaScript application by using the instrumentation profiling method.  
+[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools can collect performance data for JavaScript code that executes in an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application, an arbitrary Web page, or JavaScript application by using the instrumentation profiling method.  
   
  **Requirements**  
   
--   [!INCLUDE[vsUltLong](../codequality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../codequality/includes/vsprelong_md.md)], [!INCLUDE[vsPro](../codequality/includes/vspro_md.md)]  
+-   [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)], [!INCLUDE[vsPro](../code-quality/includes/vspro_md.md)]  
   
 -   Internet Explorer 8 or later.  
   
@@ -51,15 +51,15 @@ translation.priority.mt:
   
  You can use the Profiling Wizard to create a performance session. Specify the instrumentation method and then specify the JavaScript profiling option on the Instrumentation page of the properties dialog box for the performance session.  
   
- When you specify JavaScript profiling, both the JavaScript code that executes in the browser and the [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] code that executes on the server are profiled.  
+ When you specify JavaScript profiling, both the JavaScript code that executes in the browser and the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] code that executes on the server are profiled.  
   
--   For an [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] Web application, both the JavaScript code that executes in the browser and the [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] code that executes on the server are profiled.  
+-   For an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application, both the JavaScript code that executes in the browser and the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] code that executes on the server are profiled.  
   
 -   For an arbitrary Web page, the JavaScript code that executes in the browser is profiled.  
   
 ### To profile JavaScript in an ASP.NET Web application project  
   
-1.  In [!INCLUDE[vsPreLong](../codequality/includes/vsprelong_md.md)], open the [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] Web project.  
+1.  In [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)], open the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web project.  
   
 2.  On the **Analyze** menu, click **Launch Performance Wizard**.  
   
@@ -77,7 +77,7 @@ translation.priority.mt:
   
 ### To profile JavaScript in individual Web pages or a JavaScript applications  
   
-1.  Open [!INCLUDE[vsPreShort](../codequality/includes/vspreshort_md.md)].  
+1.  Open [!INCLUDE[vsPreShort](../code-quality/includes/vspreshort_md.md)].  
   
 2.  On the **Analyze** menu, click **Launch Performance Wizard**.  
   

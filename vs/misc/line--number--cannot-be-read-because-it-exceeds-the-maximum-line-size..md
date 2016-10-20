@@ -1,7 +1,7 @@
 ---
-title: "Line &lt;number&gt; cannot be read because it exceeds the maximum line size."
+title: "Line &lt;number&gt; cannot be read because it exceeds the maximum line size. | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

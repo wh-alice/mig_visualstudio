@@ -1,7 +1,7 @@
 ---
-title: "FullClassName Element (Visual Studio Template Wizard Extension)"
+title: "FullClassName Element (Visual Studio Template Wizard Extension) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -70,7 +70,7 @@ The fully qualified name of the class that implements the `IWizard` interface.
  `FullClassName` is a required child element of `WizardExtension`.  
   
 ## Example  
- The following example illustrates the metadata for the standard project template for a [!INCLUDE[csprcs](../datatools/includes/csprcs_md.md)] Windows application.  
+ The following example illustrates the metadata for the standard project template for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] Windows application.  
   
 ```  
 <VSTemplate Version="3.0.0" Type="Item"  

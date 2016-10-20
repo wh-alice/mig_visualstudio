@@ -1,5 +1,5 @@
 ---
-title: "UML Class Diagrams: Guidelines"
+title: "UML Class Diagrams: Guidelines | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"

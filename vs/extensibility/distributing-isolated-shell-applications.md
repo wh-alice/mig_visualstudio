@@ -1,7 +1,7 @@
 ---
-title: "Distributing Isolated Shell Applications"
+title: "Distributing Isolated Shell Applications | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ You must install Visual Studio and the Visual Studio SDK in order to create an i
   
 |Name|Description|  
 |----------|-----------------|  
-|Visual Studio SDK|The SDK you must have to develop and test extensions of [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)]. You can also use the SDK to create your own instance of the Visual Studio isolated shell.<br /><br /> Visual Studio is a prerequisite for the SDK.|  
+|Visual Studio SDK|The SDK you must have to develop and test extensions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. You can also use the SDK to create your own instance of the Visual Studio isolated shell.<br /><br /> Visual Studio is a prerequisite for the SDK.|  
 |Microsoft Visual Studio Isolated Shell Redistributable|The redistributable that you include in your Setup program when you build a tools environment on the Visual Studio isolated shell. The isolated Shell redistributable package includes the .NET Framework 4.5.|  
   
 ## Creating an Installation Program for the Application  

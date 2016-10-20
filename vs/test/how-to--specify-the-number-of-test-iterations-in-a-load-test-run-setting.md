@@ -1,7 +1,7 @@
 ---
-title: "How to: Specify the Number of Test Iterations in a Load Test Run Setting"
+title: "How to: Specify the Number of Test Iterations in a Load Test Run Setting | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/03/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -30,7 +30,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Specify the Number of Test Iterations in a Load Test Run Setting
-After you create your load test with the **New Load Test Wizard**, you can use the **Load Test Editor** to change the scenarios properties to meet your testing needs and goals. [!INCLUDE[crdefault](../codequality/includes/crdefault_md.md)] [Creating load tests](../test_notintoc/creating-load-tests.md).  
+After you create your load test with the **New Load Test Wizard**, you can use the **Load Test Editor** to change the scenarios properties to meet your testing needs and goals. [!INCLUDE[crdefault](../code-quality/includes/crdefault_md.md)] [Creating load tests](../test_notintoc/creating-load-tests.md).  
   
  Using the **Load Test Editor**, you can edit the **Test Iterations** property of a run settings value in the Properties window. The **Test Iterations** property specifies the number of iterations to run on all the Web performance and unit tests in all the scenarios in a load test using the **Load Test Editor**.  
   

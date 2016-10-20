@@ -1,7 +1,7 @@
 ---
-title: "Performance Session Properties"
+title: "Performance Session Properties | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -38,7 +38,7 @@ A **Performance Session** enables you to configure settings that determine how t
   
  **Requirements**  
   
--   [!INCLUDE[vsUltLong](../codequality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../codequality/includes/vsprelong_md.md)], [!INCLUDE[vsPro](../codequality/includes/vspro_md.md)]  
+-   [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)], [!INCLUDE[vsPro](../code-quality/includes/vspro_md.md)]  
   
  You create a **Performance Session** by running the **Performance Wizard** or by manually creating a session. The **Performance Session** is displayed in the **Performance Explorer** after the **Performance Session** has been created.  
   
@@ -86,7 +86,7 @@ A **Performance Session** enables you to configure settings that determine how t
  For more information, see [Collecting tier interaction data](../profiling/collecting-tier-interaction-data.md)  
   
 ## Instrumentation  
- These settings enable you to collect performance data for JScript code in [!INCLUDE[vstecasp](../codequality/includes/vstecasp_md.md)] Web pages and specify any **Pre-instrument** and **Post-instrument** events that you want to occur before or after the instrumentation process.  
+ These settings enable you to collect performance data for JScript code in [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web pages and specify any **Pre-instrument** and **Post-instrument** events that you want to occur before or after the instrumentation process.  
   
  For more information, see:  
   
