@@ -1,5 +1,5 @@
 ---
-title: "Collect more diagnostic data in manual tests"
+title: "Collect more diagnostic data in manual tests | hehe"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Adding Visual Studio editor support for other languages"
+title: "Adding Visual Studio editor support for other languages | hehe"
 ms.custom: ""
 ms.date: "10/14/2016"
 ms.reviewer: ""

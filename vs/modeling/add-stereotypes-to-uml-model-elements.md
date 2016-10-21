@@ -1,5 +1,5 @@
 ---
-title: "Add stereotypes to UML model elements"
+title: "Add stereotypes to UML model elements | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

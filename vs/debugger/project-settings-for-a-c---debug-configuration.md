@@ -1,5 +1,5 @@
 ---
-title: "Project Settings for a C++ Debug Configuration"
+title: "Project Settings for a C++ Debug Configuration | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Creating a Multi-Instance Tool Window"
+title: "Creating a Multi-Instance Tool Window | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

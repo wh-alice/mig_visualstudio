@@ -1,5 +1,5 @@
 ---
-title: "Outlining and Hidden Text in a Legacy Language Service"
+title: "Outlining and Hidden Text in a Legacy Language Service | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

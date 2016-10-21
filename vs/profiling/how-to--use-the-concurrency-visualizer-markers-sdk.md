@@ -1,5 +1,5 @@
 ---
-title: "How To: Use the Concurrency Visualizer Markers SDK"
+title: "How To: Use the Concurrency Visualizer Markers SDK | hehe"
 ms.custom: ""
 ms.date: "10/17/2016"
 ms.prod: "visual-studio-dev14"

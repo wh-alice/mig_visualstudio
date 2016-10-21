@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Getting a List of Installed Code Snippets (Legacy Implementation)"
+title: "Walkthrough: Getting a List of Installed Code Snippets (Legacy Implementation) | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

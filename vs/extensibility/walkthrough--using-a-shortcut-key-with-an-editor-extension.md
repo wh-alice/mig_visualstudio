@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Using a Shortcut Key with an Editor Extension"
+title: "Walkthrough: Using a Shortcut Key with an Editor Extension | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

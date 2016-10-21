@@ -1,5 +1,5 @@
 ---
-title: "Visual C++ Structures in Class Designer"
+title: "Visual C++ Structures in Class Designer | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Type characters are not allowed in label identifiers"
+title: "Type characters are not allowed in label identifiers | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

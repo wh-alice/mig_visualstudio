@@ -1,5 +1,5 @@
 ---
-title: "CA2134: Methods must keep consistent transparency when overriding base methods"
+title: "CA2134: Methods must keep consistent transparency when overriding base methods | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

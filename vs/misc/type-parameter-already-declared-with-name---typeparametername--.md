@@ -1,5 +1,5 @@
 ---
-title: "Type parameter already declared with name &#39;&lt;typeparametername&gt;&#39;"
+title: "Type parameter already declared with name &#39;&lt;typeparametername&gt;&#39; | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

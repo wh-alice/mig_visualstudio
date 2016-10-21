@@ -1,5 +1,5 @@
 ---
-title: "Information for the type of &#39;&lt;typename&gt;&#39; has not been loaded into the runtime"
+title: "Information for the type of &#39;&lt;typename&gt;&#39; has not been loaded into the runtime | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Adding References Using NuGet Versus an Extension SDK"
+title: "Adding References Using NuGet Versus an Extension SDK | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

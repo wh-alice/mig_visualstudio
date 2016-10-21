@@ -1,5 +1,5 @@
 ---
-title: "Code generation, compilation, and naming conventions in Microsoft Fakes"
+title: "Code generation, compilation, and naming conventions in Microsoft Fakes | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

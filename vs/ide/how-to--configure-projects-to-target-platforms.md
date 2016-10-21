@@ -1,5 +1,5 @@
 ---
-title: "How to: Configure Projects to Target Platforms"
+title: "How to: Configure Projects to Target Platforms | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

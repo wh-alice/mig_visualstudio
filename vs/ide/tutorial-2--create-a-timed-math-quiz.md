@@ -1,5 +1,5 @@
 ---
-title: "Tutorial 2: Create a Timed Math Quiz"
+title: "Tutorial 2: Create a Timed Math Quiz | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

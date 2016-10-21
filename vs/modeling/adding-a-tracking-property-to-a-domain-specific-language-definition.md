@@ -1,5 +1,5 @@
 ---
-title: "Adding a Tracking Property to a Domain-Specific Language Definition"
+title: "Adding a Tracking Property to a Domain-Specific Language Definition | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-tfs-dev14"

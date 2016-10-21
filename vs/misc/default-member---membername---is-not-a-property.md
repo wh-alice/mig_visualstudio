@@ -1,5 +1,5 @@
 ---
-title: "Default member &#39;&lt;membername&gt;&#39; is not a property"
+title: "Default member &#39;&lt;membername&gt;&#39; is not a property | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

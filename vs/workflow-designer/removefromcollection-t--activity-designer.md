@@ -1,5 +1,5 @@
 ---
-title: "RemoveFromCollection&lt;T&gt; Activity Designer"
+title: "RemoveFromCollection&lt;T&gt; Activity Designer | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: ".net-framework-4.6"

@@ -1,5 +1,5 @@
 ---
-title: "How to: Add a Test Case to a Test Suite"
+title: "How to: Add a Test Case to a Test Suite | hehe"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

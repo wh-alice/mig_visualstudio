@@ -1,5 +1,5 @@
 ---
-title: "How to: Display WPF Trace Information"
+title: "How to: Display WPF Trace Information | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

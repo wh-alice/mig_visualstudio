@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio data tools for .NET"
+title: "Visual Studio data tools for .NET | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.reviewer: ""

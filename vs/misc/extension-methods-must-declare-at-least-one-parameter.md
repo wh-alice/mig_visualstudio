@@ -1,5 +1,5 @@
 ---
-title: "Extension methods must declare at least one parameter"
+title: "Extension methods must declare at least one parameter | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

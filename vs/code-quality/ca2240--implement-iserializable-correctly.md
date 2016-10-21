@@ -1,5 +1,5 @@
 ---
-title: "CA2240: Implement ISerializable correctly"
+title: "CA2240: Implement ISerializable correctly | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

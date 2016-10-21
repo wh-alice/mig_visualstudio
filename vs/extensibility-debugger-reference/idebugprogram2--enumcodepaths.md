@@ -1,5 +1,5 @@
 ---
-title: "IDebugProgram2::EnumCodePaths"
+title: "IDebugProgram2::EnumCodePaths | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

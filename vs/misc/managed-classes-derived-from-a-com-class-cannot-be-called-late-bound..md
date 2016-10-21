@@ -1,5 +1,5 @@
 ---
-title: "Managed classes derived from a COM class cannot be called late-bound."
+title: "Managed classes derived from a COM class cannot be called late-bound. | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

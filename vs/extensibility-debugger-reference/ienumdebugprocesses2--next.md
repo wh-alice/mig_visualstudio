@@ -1,5 +1,5 @@
 ---
-title: "IEnumDebugProcesses2::Next"
+title: "IEnumDebugProcesses2::Next | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

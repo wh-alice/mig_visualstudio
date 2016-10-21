@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Downloading Assemblies on Demand with the ClickOnce Deployment API"
+title: "Walkthrough: Downloading Assemblies on Demand with the ClickOnce Deployment API | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

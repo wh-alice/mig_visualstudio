@@ -1,5 +1,5 @@
 ---
-title: "Analyzing Load Test Results in the Graphs View of the Load Test Analyzer"
+title: "Analyzing Load Test Results in the Graphs View of the Load Test Analyzer | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

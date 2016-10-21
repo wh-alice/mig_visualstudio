@@ -1,5 +1,5 @@
 ---
-title: "Customizing window layouts in Visual Studio"
+title: "Customizing window layouts in Visual Studio | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

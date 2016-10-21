@@ -1,5 +1,5 @@
 ---
-title: "IDebugDisassemblyStream2::GetScope"
+title: "IDebugDisassemblyStream2::GetScope | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

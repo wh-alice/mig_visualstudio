@@ -1,5 +1,5 @@
 ---
-title: "Method cannot have both a ParamArray and Optional parameters"
+title: "Method cannot have both a ParamArray and Optional parameters | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

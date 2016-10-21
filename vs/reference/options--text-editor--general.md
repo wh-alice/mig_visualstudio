@@ -1,5 +1,5 @@
 ---
-title: "Options, Text Editor, General"
+title: "Options, Text Editor, General | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

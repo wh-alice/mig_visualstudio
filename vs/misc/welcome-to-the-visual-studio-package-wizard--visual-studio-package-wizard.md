@@ -1,5 +1,5 @@
 ---
-title: "Welcome to the Visual Studio Package Wizard, Visual Studio Package Wizard"
+title: "Welcome to the Visual Studio Package Wizard, Visual Studio Package Wizard | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

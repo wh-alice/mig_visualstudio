@@ -1,5 +1,5 @@
 ---
-title: "Events in interfaces cannot be declared &#39;&lt;implements&gt;&#39;"
+title: "Events in interfaces cannot be declared &#39;&lt;implements&gt;&#39; | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

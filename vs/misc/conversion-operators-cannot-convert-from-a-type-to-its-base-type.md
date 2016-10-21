@@ -1,5 +1,5 @@
 ---
-title: "Conversion operators cannot convert from a type to its base type"
+title: "Conversion operators cannot convert from a type to its base type | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

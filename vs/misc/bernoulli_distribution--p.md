@@ -1,5 +1,5 @@
 ---
-title: "bernoulli_distribution::p"
+title: "bernoulli_distribution::p | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

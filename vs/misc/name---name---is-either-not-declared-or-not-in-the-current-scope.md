@@ -1,5 +1,5 @@
 ---
-title: "Name &#39;&lt;name&gt;&#39; is either not declared or not in the current scope"
+title: "Name &#39;&lt;name&gt;&#39; is either not declared or not in the current scope | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

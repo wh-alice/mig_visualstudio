@@ -1,5 +1,5 @@
 ---
-title: "How to: Use the Animation Region of the Status Bar"
+title: "How to: Use the Animation Region of the Status Bar | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

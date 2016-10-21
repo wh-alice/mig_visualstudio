@@ -1,5 +1,5 @@
 ---
-title: "Support for Settings Categories"
+title: "Support for Settings Categories | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Customizing the Properties Window"
+title: "Customizing the Properties Window | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-tfs-dev14"

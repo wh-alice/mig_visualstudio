@@ -1,5 +1,5 @@
 ---
-title: "How to: Distribute Code Snippets"
+title: "How to: Distribute Code Snippets | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

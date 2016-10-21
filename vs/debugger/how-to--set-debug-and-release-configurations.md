@@ -1,5 +1,5 @@
 ---
-title: "How to: Set Debug and Release Configurations"
+title: "How to: Set Debug and Release Configurations | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

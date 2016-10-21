@@ -1,5 +1,5 @@
 ---
-title: "deque::insert (STL Samples)"
+title: "deque::insert (STL Samples) | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

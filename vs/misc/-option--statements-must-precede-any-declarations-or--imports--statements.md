@@ -1,5 +1,5 @@
 ---
-title: "&#39;Option&#39; statements must precede any declarations or &#39;Imports&#39; statements"
+title: "&#39;Option&#39; statements must precede any declarations or &#39;Imports&#39; statements | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

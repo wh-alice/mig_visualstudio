@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Exceptions: System.Security.SecurityException"
+title: "Troubleshooting Exceptions: System.Security.SecurityException | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

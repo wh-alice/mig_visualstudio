@@ -1,5 +1,5 @@
 ---
-title: "Automated Testing with Coded UI Tests"
+title: "Automated Testing with Coded UI Tests | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

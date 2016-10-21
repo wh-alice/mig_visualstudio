@@ -1,5 +1,5 @@
 ---
-title: "Supported Configurations and Platforms for Coded UI Tests and Action Recordings"
+title: "Supported Configurations and Platforms for Coded UI Tests and Action Recordings | hehe"
 ms.custom: ""
 ms.date: "2015-10-04"
 ms.prod: "visual-studio-dev14"

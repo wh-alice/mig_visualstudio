@@ -1,5 +1,5 @@
 ---
-title: "How to: Associate Delegates to Unmanaged Functions"
+title: "How to: Associate Delegates to Unmanaged Functions | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

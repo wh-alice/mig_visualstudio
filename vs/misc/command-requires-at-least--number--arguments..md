@@ -1,5 +1,5 @@
 ---
-title: "Command requires at least &lt;number&gt; arguments."
+title: "Command requires at least &lt;number&gt; arguments. | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

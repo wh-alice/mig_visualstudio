@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Capturing Graphics Information"
+title: "Walkthrough: Capturing Graphics Information | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

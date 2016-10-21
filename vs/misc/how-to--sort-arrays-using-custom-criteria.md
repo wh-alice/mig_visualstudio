@@ -1,5 +1,5 @@
 ---
-title: "How to: Sort Arrays Using Custom Criteria"
+title: "How to: Sort Arrays Using Custom Criteria | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

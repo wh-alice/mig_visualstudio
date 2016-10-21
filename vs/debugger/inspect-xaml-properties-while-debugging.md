@@ -1,5 +1,5 @@
 ---
-title: "Inspect XAML properties while debugging"
+title: "Inspect XAML properties while debugging | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

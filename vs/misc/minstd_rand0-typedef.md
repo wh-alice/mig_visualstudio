@@ -1,5 +1,5 @@
 ---
-title: "minstd_rand0 TypeDef"
+title: "minstd_rand0 TypeDef | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

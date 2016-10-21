@@ -1,5 +1,5 @@
 ---
-title: "Embedding a Diagram in a Windows Form"
+title: "Embedding a Diagram in a Windows Form | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-tfs-dev14"

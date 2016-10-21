@@ -1,5 +1,5 @@
 ---
-title: "Setting Up Test Controllers in Lab Environments"
+title: "Setting Up Test Controllers in Lab Environments | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

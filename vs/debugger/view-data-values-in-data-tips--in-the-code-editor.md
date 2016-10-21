@@ -1,5 +1,5 @@
 ---
-title: "View data values in Data Tips  in the code editor"
+title: "View data values in Data Tips  in the code editor | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

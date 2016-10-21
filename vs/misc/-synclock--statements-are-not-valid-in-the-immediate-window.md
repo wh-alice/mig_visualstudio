@@ -1,5 +1,5 @@
 ---
-title: "&#39;SyncLock&#39; statements are not valid in the Immediate window"
+title: "&#39;SyncLock&#39; statements are not valid in the Immediate window | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

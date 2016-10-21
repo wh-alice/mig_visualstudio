@@ -1,5 +1,5 @@
 ---
-title: "Legacy Interfaces in the Editor"
+title: "Legacy Interfaces in the Editor | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

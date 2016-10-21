@@ -1,5 +1,5 @@
 ---
-title: "Annotating Locking Behavior"
+title: "Annotating Locking Behavior | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

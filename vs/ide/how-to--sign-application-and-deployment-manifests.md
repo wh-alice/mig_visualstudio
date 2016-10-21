@@ -1,5 +1,5 @@
 ---
-title: "How to: Sign Application and Deployment Manifests"
+title: "How to: Sign Application and Deployment Manifests | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

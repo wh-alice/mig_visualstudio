@@ -1,5 +1,5 @@
 ---
-title: "How to: Select the Active Test Settings from Microsoft Visual Studio"
+title: "How to: Select the Active Test Settings from Microsoft Visual Studio | hehe"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "mersenne_twister_engine::seed"
+title: "mersenne_twister_engine::seed | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

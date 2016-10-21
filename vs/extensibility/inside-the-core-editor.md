@@ -1,5 +1,5 @@
 ---
-title: "Inside the Core Editor"
+title: "Inside the Core Editor | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

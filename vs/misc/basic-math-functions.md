@@ -1,5 +1,5 @@
 ---
-title: "Basic Math Functions"
+title: "Basic Math Functions | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

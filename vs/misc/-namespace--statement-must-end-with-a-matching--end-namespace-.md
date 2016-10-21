@@ -1,5 +1,5 @@
 ---
-title: "&#39;Namespace&#39; statement must end with a matching &#39;End Namespace&#39;"
+title: "&#39;Namespace&#39; statement must end with a matching &#39;End Namespace&#39; | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

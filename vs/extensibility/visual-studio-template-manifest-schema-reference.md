@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio Template Manifest Schema Reference"
+title: "Visual Studio Template Manifest Schema Reference | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.reviewer: ""

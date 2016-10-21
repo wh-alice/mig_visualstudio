@@ -1,5 +1,5 @@
 ---
-title: "rotate_copy (STL Samples)"
+title: "rotate_copy (STL Samples) | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

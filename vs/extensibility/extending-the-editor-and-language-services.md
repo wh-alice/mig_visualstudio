@@ -1,5 +1,5 @@
 ---
-title: "Extending the Editor and Language Services"
+title: "Extending the Editor and Language Services | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "UML Sequence Diagrams: Reference"
+title: "UML Sequence Diagrams: Reference | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

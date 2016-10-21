@@ -1,5 +1,5 @@
 ---
-title: "Diagnostic Messages in the Output Window"
+title: "Diagnostic Messages in the Output Window | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "How to: Locate and Organize Project and Item Templates"
+title: "How to: Locate and Organize Project and Item Templates | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

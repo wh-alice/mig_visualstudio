@@ -1,5 +1,5 @@
 ---
-title: "How to: Define Event Accessor Methods"
+title: "How to: Define Event Accessor Methods | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

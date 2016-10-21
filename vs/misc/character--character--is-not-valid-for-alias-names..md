@@ -1,5 +1,5 @@
 ---
-title: "Character &lt;character&gt; is not valid for alias names."
+title: "Character &lt;character&gt; is not valid for alias names. | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

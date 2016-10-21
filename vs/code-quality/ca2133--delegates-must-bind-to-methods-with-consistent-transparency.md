@@ -1,5 +1,5 @@
 ---
-title: "CA2133: Delegates must bind to methods with consistent transparency"
+title: "CA2133: Delegates must bind to methods with consistent transparency | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

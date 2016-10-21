@@ -1,5 +1,5 @@
 ---
-title: "Edit UML sequence diagrams by using the UML API"
+title: "Edit UML sequence diagrams by using the UML API | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

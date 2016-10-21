@@ -1,5 +1,5 @@
 ---
-title: "Events cannot have a return type"
+title: "Events cannot have a return type | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

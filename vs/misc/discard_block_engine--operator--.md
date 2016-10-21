@@ -1,5 +1,5 @@
 ---
-title: "discard_block_engine::operator()"
+title: "discard_block_engine::operator() | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

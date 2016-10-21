@@ -1,5 +1,5 @@
 ---
-title: "Type Visualizer and Custom Viewer"
+title: "Type Visualizer and Custom Viewer | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "How to: Add or Remove References By Using the Reference Manager"
+title: "How to: Add or Remove References By Using the Reference Manager | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

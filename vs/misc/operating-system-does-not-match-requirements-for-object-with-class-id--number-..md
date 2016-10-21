@@ -1,5 +1,5 @@
 ---
-title: "Operating system does not match requirements for object with class ID &lt;number&gt;."
+title: "Operating system does not match requirements for object with class ID &lt;number&gt;. | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

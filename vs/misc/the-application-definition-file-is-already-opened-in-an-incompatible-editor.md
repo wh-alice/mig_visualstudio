@@ -1,5 +1,5 @@
 ---
-title: "The application definition file is already opened in an incompatible editor"
+title: "The application definition file is already opened in an incompatible editor | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "VSIX Manifest Designer"
+title: "VSIX Manifest Designer | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

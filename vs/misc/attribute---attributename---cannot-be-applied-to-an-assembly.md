@@ -1,5 +1,5 @@
 ---
-title: "Attribute &#39;&lt;attributename&gt;&#39; cannot be applied to an assembly"
+title: "Attribute &#39;&lt;attributename&gt;&#39; cannot be applied to an assembly | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

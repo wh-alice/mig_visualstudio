@@ -1,5 +1,5 @@
 ---
-title: "Rename Refactoring (C#)"
+title: "Rename Refactoring (C#) | hehe"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Create a Simple Application with Visual C# or Visual Basic"
+title: "Walkthrough: Create a Simple Application with Visual C# or Visual Basic | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

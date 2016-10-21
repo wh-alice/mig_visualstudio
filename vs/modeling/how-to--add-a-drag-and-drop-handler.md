@@ -1,5 +1,5 @@
 ---
-title: "How to: Add a Drag-and-Drop Handler"
+title: "How to: Add a Drag-and-Drop Handler | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-tfs-dev14"

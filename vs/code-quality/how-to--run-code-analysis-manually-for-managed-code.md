@@ -1,5 +1,5 @@
 ---
-title: "How to: Run Code Analysis Manually for Managed Code"
+title: "How to: Run Code Analysis Manually for Managed Code | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

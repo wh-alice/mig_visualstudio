@@ -1,5 +1,5 @@
 ---
-title: "&#39;Using&#39; resource variable type can not be array type"
+title: "&#39;Using&#39; resource variable type can not be array type | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

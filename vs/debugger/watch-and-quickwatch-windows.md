@@ -1,5 +1,5 @@
 ---
-title: "Watch and QuickWatch Windows"
+title: "Watch and QuickWatch Windows | hehe"
 ms.custom: ""
 ms.date: "10/17/2016"
 ms.prod: "visual-studio-dev14"

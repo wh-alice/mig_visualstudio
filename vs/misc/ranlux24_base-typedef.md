@@ -1,5 +1,5 @@
 ---
-title: "ranlux24_base TypeDef"
+title: "ranlux24_base TypeDef | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

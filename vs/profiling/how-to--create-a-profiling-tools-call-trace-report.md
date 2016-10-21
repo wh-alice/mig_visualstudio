@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a Profiling Tools Call Trace Report"
+title: "How to: Create a Profiling Tools Call Trace Report | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

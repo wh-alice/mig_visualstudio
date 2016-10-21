@@ -1,5 +1,5 @@
 ---
-title: "CA2215: Dispose methods should call base class dispose"
+title: "CA2215: Dispose methods should call base class dispose | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

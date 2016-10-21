@@ -1,5 +1,5 @@
 ---
-title: "Debugging Preparation: Console Projects"
+title: "Debugging Preparation: Console Projects | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

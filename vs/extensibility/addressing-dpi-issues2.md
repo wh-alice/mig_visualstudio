@@ -1,5 +1,5 @@
 ---
-title: "Addressing DPI Issues2"
+title: "Addressing DPI Issues2 | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.reviewer: ""

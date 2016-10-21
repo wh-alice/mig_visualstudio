@@ -1,5 +1,5 @@
 ---
-title: "ParamArray parameter must be an array"
+title: "ParamArray parameter must be an array | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

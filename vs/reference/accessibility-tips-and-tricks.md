@@ -1,5 +1,5 @@
 ---
-title: "Accessibility Tips and Tricks"
+title: "Accessibility Tips and Tricks | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "CA2221: Finalizers should be protected"
+title: "CA2221: Finalizers should be protected | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "CA1409: Com visible types should be creatable"
+title: "CA1409: Com visible types should be creatable | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Determining the Default Namespace of a Project"
+title: "Determining the Default Namespace of a Project | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

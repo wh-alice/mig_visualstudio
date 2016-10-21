@@ -1,5 +1,5 @@
 ---
-title: "Implementing a Legacy Language Service1"
+title: "Implementing a Legacy Language Service1 | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

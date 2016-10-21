@@ -1,5 +1,5 @@
 ---
-title: "Variable declaration without an &#39;As&#39; clause; type of Object assumed"
+title: "Variable declaration without an &#39;As&#39; clause; type of Object assumed | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "How to: Edit or View Details of a Test Case"
+title: "How to: Edit or View Details of a Test Case | hehe"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

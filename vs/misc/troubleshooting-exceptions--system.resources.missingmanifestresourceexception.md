@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Exceptions: System.Resources.MissingManifestResourceException"
+title: "Troubleshooting Exceptions: System.Resources.MissingManifestResourceException | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

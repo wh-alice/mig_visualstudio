@@ -1,5 +1,5 @@
 ---
-title: "How to: Extend the Visual Studio Build Process"
+title: "How to: Extend the Visual Studio Build Process | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

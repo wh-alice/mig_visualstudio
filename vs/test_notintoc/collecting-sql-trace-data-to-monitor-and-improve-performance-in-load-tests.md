@@ -1,5 +1,5 @@
 ---
-title: "Collecting SQL Trace Data to Monitor and Improve Performance in Load Tests"
+title: "Collecting SQL Trace Data to Monitor and Improve Performance in Load Tests | hehe"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

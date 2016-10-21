@@ -1,5 +1,5 @@
 ---
-title: "Unable to create a .NET Runtime interface: &lt;error&gt;"
+title: "Unable to create a .NET Runtime interface: &lt;error&gt; | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

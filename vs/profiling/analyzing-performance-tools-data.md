@@ -1,5 +1,5 @@
 ---
-title: "Analyzing Performance Tools Data"
+title: "Analyzing Performance Tools Data | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

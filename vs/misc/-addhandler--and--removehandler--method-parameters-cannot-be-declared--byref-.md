@@ -1,5 +1,5 @@
 ---
-title: "&#39;AddHandler&#39; and &#39;RemoveHandler&#39; method parameters cannot be declared &#39;ByRef&#39;"
+title: "&#39;AddHandler&#39; and &#39;RemoveHandler&#39; method parameters cannot be declared &#39;ByRef&#39; | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

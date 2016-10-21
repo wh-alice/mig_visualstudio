@@ -1,5 +1,5 @@
 ---
-title: "IDebugSymbolProvider::GetClassTypeByName"
+title: "IDebugSymbolProvider::GetClassTypeByName | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

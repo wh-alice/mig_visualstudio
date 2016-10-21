@@ -1,5 +1,5 @@
 ---
-title: "Options Page, Fonts and Colors Node Properties"
+title: "Options Page, Fonts and Colors Node Properties | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

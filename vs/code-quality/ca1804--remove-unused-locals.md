@@ -1,5 +1,5 @@
 ---
-title: "CA1804: Remove unused locals"
+title: "CA1804: Remove unused locals | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

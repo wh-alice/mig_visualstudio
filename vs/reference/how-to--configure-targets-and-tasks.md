@@ -1,5 +1,5 @@
 ---
-title: "How to: Configure Targets and Tasks"
+title: "How to: Configure Targets and Tasks | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

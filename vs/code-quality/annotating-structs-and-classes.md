@@ -1,5 +1,5 @@
 ---
-title: "Annotating Structs and Classes"
+title: "Annotating Structs and Classes | hehe"
 ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"

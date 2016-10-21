@@ -1,5 +1,5 @@
 ---
-title: "Sample XSD Files"
+title: "Sample XSD Files | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

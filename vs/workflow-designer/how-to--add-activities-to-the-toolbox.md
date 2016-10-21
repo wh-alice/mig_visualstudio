@@ -1,5 +1,5 @@
 ---
-title: "How to: Add Activities to the Toolbox"
+title: "How to: Add Activities to the Toolbox | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: ".net-framework-4.6"

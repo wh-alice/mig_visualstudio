@@ -1,5 +1,5 @@
 ---
-title: "Text Template Utility Methods"
+title: "Text Template Utility Methods | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-tfs-dev14"

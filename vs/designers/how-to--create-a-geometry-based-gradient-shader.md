@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a Geometry-Based Gradient Shader"
+title: "How to: Create a Geometry-Based Gradient Shader | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

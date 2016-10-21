@@ -1,5 +1,5 @@
 ---
-title: "&lt;name&gt; is not a valid solution name."
+title: "&lt;name&gt; is not a valid solution name. | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

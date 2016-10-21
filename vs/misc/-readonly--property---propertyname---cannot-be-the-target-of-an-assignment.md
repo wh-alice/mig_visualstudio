@@ -1,5 +1,5 @@
 ---
-title: "&#39;ReadOnly&#39; property &#39;&lt;propertyname&gt;&#39; cannot be the target of an assignment"
+title: "&#39;ReadOnly&#39; property &#39;&lt;propertyname&gt;&#39; cannot be the target of an assignment | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

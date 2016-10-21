@@ -1,5 +1,5 @@
 ---
-title: "How to: Generate Registry Information for an Installer"
+title: "How to: Generate Registry Information for an Installer | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

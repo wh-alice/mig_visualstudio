@@ -1,5 +1,5 @@
 ---
-title: "Compilation failed: &lt;message&gt;"
+title: "Compilation failed: &lt;message&gt; | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Project Build Error PRJ0051"
+title: "Project Build Error PRJ0051 | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

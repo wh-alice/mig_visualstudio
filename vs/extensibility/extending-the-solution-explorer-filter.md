@@ -1,5 +1,5 @@
 ---
-title: "Extending the Solution Explorer Filter"
+title: "Extending the Solution Explorer Filter | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

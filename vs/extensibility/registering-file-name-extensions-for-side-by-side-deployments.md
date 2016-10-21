@@ -1,5 +1,5 @@
 ---
-title: "Registering File Name Extensions for Side-By-Side Deployments"
+title: "Registering File Name Extensions for Side-By-Side Deployments | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

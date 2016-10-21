@@ -1,5 +1,5 @@
 ---
-title: "Adding a Shortcut Menu in a Tool Window"
+title: "Adding a Shortcut Menu in a Tool Window | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

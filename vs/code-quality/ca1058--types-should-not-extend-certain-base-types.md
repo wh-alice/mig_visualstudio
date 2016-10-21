@@ -1,5 +1,5 @@
 ---
-title: "CA1058: Types should not extend certain base types"
+title: "CA1058: Types should not extend certain base types | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "CA2004: Remove calls to GC.KeepAlive"
+title: "CA2004: Remove calls to GC.KeepAlive | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

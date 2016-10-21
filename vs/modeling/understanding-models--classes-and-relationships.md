@@ -1,5 +1,5 @@
 ---
-title: "Understanding Models, Classes and Relationships"
+title: "Understanding Models, Classes and Relationships | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-tfs-dev14"

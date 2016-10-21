@@ -1,5 +1,5 @@
 ---
-title: "How to: Declare and Use Static Properties"
+title: "How to: Declare and Use Static Properties | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

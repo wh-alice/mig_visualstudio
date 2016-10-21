@@ -1,5 +1,5 @@
 ---
-title: "Installing Visual Studio &quot;15&quot; Preview 5"
+title: "Installing Visual Studio &quot;15&quot; Preview 5 | hehe"
 ms.custom: ""
 ms.date: "2016-10-20"
 ms.prod: "visual-studio-dev14"

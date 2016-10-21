@@ -1,5 +1,5 @@
 ---
-title: "Create a Windows Forms user control that supports complex data binding"
+title: "Create a Windows Forms user control that supports complex data binding | hehe"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"

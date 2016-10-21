@@ -1,5 +1,5 @@
 ---
-title: "Project-level conditional compilation constant is not valid: &lt;error&gt;"
+title: "Project-level conditional compilation constant is not valid: &lt;error&gt; | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

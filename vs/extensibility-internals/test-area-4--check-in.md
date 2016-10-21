@@ -1,5 +1,5 @@
 ---
-title: "Test Area 4: Check In"
+title: "Test Area 4: Check In | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

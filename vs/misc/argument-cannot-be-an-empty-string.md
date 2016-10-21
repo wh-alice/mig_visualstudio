@@ -1,5 +1,5 @@
 ---
-title: "Argument cannot be an empty string"
+title: "Argument cannot be an empty string | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

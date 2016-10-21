@@ -1,5 +1,5 @@
 ---
-title: "Debug Versions of Heap Allocation Functions"
+title: "Debug Versions of Heap Allocation Functions | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

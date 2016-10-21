@@ -1,5 +1,5 @@
 ---
-title: "How to: Submit a Bug Using Microsoft Visual Studio"
+title: "How to: Submit a Bug Using Microsoft Visual Studio | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Navigate a debugging session in Visual Studio (Xaml and C#)"
+title: "Navigate a debugging session in Visual Studio (Xaml and C#) | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

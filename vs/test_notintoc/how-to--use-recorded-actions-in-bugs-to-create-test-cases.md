@@ -1,5 +1,5 @@
 ---
-title: "How to: Use Recorded Actions in Bugs to Create Test Cases"
+title: "How to: Use Recorded Actions in Bugs to Create Test Cases | hehe"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

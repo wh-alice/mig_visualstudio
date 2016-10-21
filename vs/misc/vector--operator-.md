@@ -1,5 +1,5 @@
 ---
-title: "vector::operator&lt;"
+title: "vector::operator&lt; | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "How to: Break When an Exception is Thrown"
+title: "How to: Break When an Exception is Thrown | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

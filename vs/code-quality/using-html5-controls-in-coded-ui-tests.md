@@ -1,5 +1,5 @@
 ---
-title: "Using HTML5 Controls in Coded UI Tests"
+title: "Using HTML5 Controls in Coded UI Tests | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

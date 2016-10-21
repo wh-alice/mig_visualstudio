@@ -1,5 +1,5 @@
 ---
-title: "IDiaStackWalkFrame::get_registerValue"
+title: "IDiaStackWalkFrame::get_registerValue | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

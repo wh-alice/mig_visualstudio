@@ -1,5 +1,5 @@
 ---
-title: "Shared &#39;Sub New&#39; cannot have any parameters"
+title: "Shared &#39;Sub New&#39; cannot have any parameters | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

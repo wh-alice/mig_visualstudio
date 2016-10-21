@@ -1,5 +1,5 @@
 ---
-title: "CA2130: Security critical constants should be transparent"
+title: "CA2130: Security critical constants should be transparent | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

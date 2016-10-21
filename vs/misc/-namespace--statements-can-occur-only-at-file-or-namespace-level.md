@@ -1,5 +1,5 @@
 ---
-title: "&#39;Namespace&#39; statements can occur only at file or namespace level"
+title: "&#39;Namespace&#39; statements can occur only at file or namespace level | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

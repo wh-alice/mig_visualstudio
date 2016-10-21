@@ -1,5 +1,5 @@
 ---
-title: "BP_LOCATION_DATA_STRING"
+title: "BP_LOCATION_DATA_STRING | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

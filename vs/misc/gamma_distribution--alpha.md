@@ -1,5 +1,5 @@
 ---
-title: "gamma_distribution::alpha"
+title: "gamma_distribution::alpha | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

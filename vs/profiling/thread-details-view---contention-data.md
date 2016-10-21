@@ -1,5 +1,5 @@
 ---
-title: "Thread Details View - Contention Data"
+title: "Thread Details View - Contention Data | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

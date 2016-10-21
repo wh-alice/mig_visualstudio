@@ -1,5 +1,5 @@
 ---
-title: "&#39;End Class&#39; must be preceded by a matching &#39;Class&#39;"
+title: "&#39;End Class&#39; must be preceded by a matching &#39;Class&#39; | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

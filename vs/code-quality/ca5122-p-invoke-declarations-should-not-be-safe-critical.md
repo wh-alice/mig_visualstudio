@@ -1,5 +1,5 @@
 ---
-title: "CA5122 P-Invoke declarations should not be safe critical"
+title: "CA5122 P-Invoke declarations should not be safe critical | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

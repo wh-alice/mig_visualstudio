@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Generating Code by using Text Templates"
+title: "Walkthrough: Generating Code by using Text Templates | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-tfs-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "&#39;Variant&#39; is no longer a supported type; use the &#39;Object&#39; type instead"
+title: "&#39;Variant&#39; is no longer a supported type; use the &#39;Object&#39; type instead | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "&lt;type&gt; parameters cannot be declared &#39;ParamArray&#39;"
+title: "&lt;type&gt; parameters cannot be declared &#39;ParamArray&#39; | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Designing XAML in Visual Studio"
+title: "Designing XAML in Visual Studio | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

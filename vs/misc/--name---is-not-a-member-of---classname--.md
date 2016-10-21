@@ -1,5 +1,5 @@
 ---
-title: "&#39;&lt;name&gt;&#39; is not a member of &#39;&lt;classname&gt;&#39;"
+title: "&#39;&lt;name&gt;&#39; is not a member of &#39;&lt;classname&gt;&#39; | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

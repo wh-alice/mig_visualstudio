@@ -1,5 +1,5 @@
 ---
-title: "Globalization Rules rule set for managed code"
+title: "Globalization Rules rule set for managed code | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

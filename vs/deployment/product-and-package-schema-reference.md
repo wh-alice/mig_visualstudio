@@ -1,5 +1,5 @@
 ---
-title: "Product and Package Schema Reference"
+title: "Product and Package Schema Reference | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

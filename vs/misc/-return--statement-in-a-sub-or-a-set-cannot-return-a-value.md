@@ -1,5 +1,5 @@
 ---
-title: "&#39;Return&#39; statement in a Sub or a Set cannot return a value"
+title: "&#39;Return&#39; statement in a Sub or a Set cannot return a value | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

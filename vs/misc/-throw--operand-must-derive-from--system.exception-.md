@@ -1,5 +1,5 @@
 ---
-title: "&#39;Throw&#39; operand must derive from &#39;System.Exception&#39;"
+title: "&#39;Throw&#39; operand must derive from &#39;System.Exception&#39; | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

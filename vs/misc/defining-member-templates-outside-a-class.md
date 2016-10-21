@@ -1,5 +1,5 @@
 ---
-title: "Defining Member Templates Outside a Class"
+title: "Defining Member Templates Outside a Class | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

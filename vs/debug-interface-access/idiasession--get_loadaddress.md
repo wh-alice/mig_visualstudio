@@ -1,5 +1,5 @@
 ---
-title: "IDiaSession::get_loadAddress"
+title: "IDiaSession::get_loadAddress | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

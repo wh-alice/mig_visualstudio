@@ -1,5 +1,5 @@
 ---
-title: "The &#39;&lt;keyword&gt;&#39; keyword is used to overload inherited members; do not use the &#39;&lt;keyword&gt;&#39; keyword when overloading &#39;Sub New&#39;"
+title: "The &#39;&lt;keyword&gt;&#39; keyword is used to overload inherited members; do not use the &#39;&lt;keyword&gt;&#39; keyword when overloading &#39;Sub New&#39; | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

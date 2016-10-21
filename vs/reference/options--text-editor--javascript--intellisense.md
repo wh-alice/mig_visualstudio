@@ -1,5 +1,5 @@
 ---
-title: "Options, Text Editor, JavaScript, IntelliSense"
+title: "Options, Text Editor, JavaScript, IntelliSense | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

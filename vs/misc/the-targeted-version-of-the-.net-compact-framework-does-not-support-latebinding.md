@@ -1,5 +1,5 @@
 ---
-title: "The targeted version of the .NET Compact Framework does not support latebinding"
+title: "The targeted version of the .NET Compact Framework does not support latebinding | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

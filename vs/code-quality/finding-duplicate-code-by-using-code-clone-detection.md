@@ -1,5 +1,5 @@
 ---
-title: "Finding Duplicate Code by using Code Clone Detection"
+title: "Finding Duplicate Code by using Code Clone Detection | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

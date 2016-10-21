@@ -1,5 +1,5 @@
 ---
-title: "Getting Started with the VSIX Project Template"
+title: "Getting Started with the VSIX Project Template | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

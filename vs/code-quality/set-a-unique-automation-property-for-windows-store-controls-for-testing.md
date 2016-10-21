@@ -1,5 +1,5 @@
 ---
-title: "Set a Unique Automation Property for Windows Store Controls for Testing"
+title: "Set a Unique Automation Property for Windows Store Controls for Testing | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

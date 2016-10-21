@@ -1,5 +1,5 @@
 ---
-title: "Domain Property Value Change Handlers"
+title: "Domain Property Value Change Handlers | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-tfs-dev14"

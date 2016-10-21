@@ -1,5 +1,5 @@
 ---
-title: "How to: Extend the Domain-Specific Language Designer"
+title: "How to: Extend the Domain-Specific Language Designer | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-tfs-dev14"

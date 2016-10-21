@@ -1,5 +1,5 @@
 ---
-title: "Array modifiers cannot be specified on both a variable and its type"
+title: "Array modifiers cannot be specified on both a variable and its type | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

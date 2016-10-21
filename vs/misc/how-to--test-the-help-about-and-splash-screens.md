@@ -1,5 +1,5 @@
 ---
-title: "How to: Test the Help About and Splash Screens"
+title: "How to: Test the Help About and Splash Screens | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

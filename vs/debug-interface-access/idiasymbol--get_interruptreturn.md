@@ -1,5 +1,5 @@
 ---
-title: "IDiaSymbol::get_interruptReturn"
+title: "IDiaSymbol::get_interruptReturn | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

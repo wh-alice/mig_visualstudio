@@ -1,5 +1,5 @@
 ---
-title: "Run automated tests from the command line using tcm"
+title: "Run automated tests from the command line using tcm | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-tfs-dev14"

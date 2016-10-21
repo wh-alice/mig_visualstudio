@@ -1,5 +1,5 @@
 ---
-title: "Command-Line Arguments for the Help Content Manager"
+title: "Command-Line Arguments for the Help Content Manager | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

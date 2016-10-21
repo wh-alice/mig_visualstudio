@@ -1,5 +1,5 @@
 ---
-title: "Resolving Assemblies at Design Time"
+title: "Resolving Assemblies at Design Time | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

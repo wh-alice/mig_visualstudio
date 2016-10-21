@@ -1,5 +1,5 @@
 ---
-title: "basic_string::size and basic_string::resize"
+title: "basic_string::size and basic_string::resize | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Test Area 5: Change Source Control"
+title: "Test Area 5: Change Source Control | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

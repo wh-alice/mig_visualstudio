@@ -1,5 +1,5 @@
 ---
-title: "&#39;Custom&#39; modifier can only be used immediately before an &#39;Event&#39; declaration"
+title: "&#39;Custom&#39; modifier can only be used immediately before an &#39;Event&#39; declaration | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

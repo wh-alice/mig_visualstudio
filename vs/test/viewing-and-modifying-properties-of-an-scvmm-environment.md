@@ -1,5 +1,5 @@
 ---
-title: "Viewing and Modifying Properties of an SCVMM Environment"
+title: "Viewing and Modifying Properties of an SCVMM Environment | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "CA1014: Mark assemblies with CLSCompliantAttribute"
+title: "CA1014: Mark assemblies with CLSCompliantAttribute | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

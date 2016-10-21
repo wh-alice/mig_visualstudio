@@ -1,5 +1,5 @@
 ---
-title: "Define and install a modeling extension"
+title: "Define and install a modeling extension | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-tfs-dev14"

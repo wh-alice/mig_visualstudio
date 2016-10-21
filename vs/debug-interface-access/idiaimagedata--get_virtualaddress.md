@@ -1,5 +1,5 @@
 ---
-title: "IDiaImageData::get_virtualAddress"
+title: "IDiaImageData::get_virtualAddress | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

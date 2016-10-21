@@ -1,5 +1,5 @@
 ---
-title: "How to trigger suspend, resume, and background events for Windows Store apps in Visual Studio"
+title: "How to trigger suspend, resume, and background events for Windows Store apps in Visual Studio | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

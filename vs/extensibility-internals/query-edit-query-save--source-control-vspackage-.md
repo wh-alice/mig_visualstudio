@@ -1,5 +1,5 @@
 ---
-title: "Query Edit Query Save (Source Control VSPackage)"
+title: "Query Edit Query Save (Source Control VSPackage) | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Type parameter not allowed in &#39;Implements&#39; clause"
+title: "Type parameter not allowed in &#39;Implements&#39; clause | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

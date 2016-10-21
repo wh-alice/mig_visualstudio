@@ -1,5 +1,5 @@
 ---
-title: "How to: Publish a ClickOnce Application using the Publish Wizard"
+title: "How to: Publish a ClickOnce Application using the Publish Wizard | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

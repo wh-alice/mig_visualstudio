@@ -1,5 +1,5 @@
 ---
-title: "Syntax error in cast operator; two arguments separated by comma are required"
+title: "Syntax error in cast operator; two arguments separated by comma are required | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

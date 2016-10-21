@@ -1,5 +1,5 @@
 ---
-title: "The project &lt;name&gt; must be converted to the current project format."
+title: "The project &lt;name&gt; must be converted to the current project format. | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

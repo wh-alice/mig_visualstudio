@@ -1,5 +1,5 @@
 ---
-title: "CA2122: Do not indirectly expose methods with link demands"
+title: "CA2122: Do not indirectly expose methods with link demands | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Interaction Patterns for Visual Studio"
+title: "Interaction Patterns for Visual Studio | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

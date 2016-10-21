@@ -1,5 +1,5 @@
 ---
-title: "CA1404: Call GetLastError immediately after P-Invoke"
+title: "CA1404: Call GetLastError immediately after P-Invoke | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

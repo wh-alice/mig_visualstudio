@@ -1,5 +1,5 @@
 ---
-title: "UX Essentials for Visual Studio"
+title: "UX Essentials for Visual Studio | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

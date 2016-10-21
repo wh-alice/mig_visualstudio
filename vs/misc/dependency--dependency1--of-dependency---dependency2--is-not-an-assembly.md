@@ -1,5 +1,5 @@
 ---
-title: "Dependency &#39;dependency1&#39; of dependency &#39; dependency2&#39; is not an assembly"
+title: "Dependency &#39;dependency1&#39; of dependency &#39; dependency2&#39; is not an assembly | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

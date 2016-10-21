@@ -1,5 +1,5 @@
 ---
-title: "Creating an Extension with a Tool Window"
+title: "Creating an Extension with a Tool Window | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

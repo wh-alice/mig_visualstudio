@@ -1,5 +1,5 @@
 ---
-title: "CA1714: Flags enums should have plural names"
+title: "CA1714: Flags enums should have plural names | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

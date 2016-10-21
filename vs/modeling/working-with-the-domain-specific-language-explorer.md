@@ -1,5 +1,5 @@
 ---
-title: "Working with the Domain-Specific Language Explorer"
+title: "Working with the Domain-Specific Language Explorer | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

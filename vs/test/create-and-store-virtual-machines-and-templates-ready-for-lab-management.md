@@ -1,5 +1,5 @@
 ---
-title: "Create and Store Virtual Machines and Templates Ready for Lab Management"
+title: "Create and Store Virtual Machines and Templates Ready for Lab Management | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Setting a Background Image on a Diagram"
+title: "Setting a Background Image on a Diagram | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-tfs-dev14"

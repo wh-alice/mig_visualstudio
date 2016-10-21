@@ -1,5 +1,5 @@
 ---
-title: "QuickStart: Debug JavaScript using the console"
+title: "QuickStart: Debug JavaScript using the console | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

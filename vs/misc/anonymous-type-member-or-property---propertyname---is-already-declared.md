@@ -1,5 +1,5 @@
 ---
-title: "Anonymous type member or property &#39;&lt;propertyname&gt;&#39; is already declared"
+title: "Anonymous type member or property &#39;&lt;propertyname&gt;&#39; is already declared | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

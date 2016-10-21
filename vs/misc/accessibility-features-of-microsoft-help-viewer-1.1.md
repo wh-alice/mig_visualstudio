@@ -1,5 +1,5 @@
 ---
-title: "Accessibility Features of Microsoft Help Viewer 1.1"
+title: "Accessibility Features of Microsoft Help Viewer 1.1 | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

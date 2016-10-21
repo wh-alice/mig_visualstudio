@@ -1,5 +1,5 @@
 ---
-title: "What&#39;s new for design in Visual Studio"
+title: "What&#39;s new for design in Visual Studio | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "linear_congruential_engine::operator()"
+title: "linear_congruential_engine::operator() | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Parameter type of this unary operator must be the containing type &#39;&lt;typename&gt;&#39;"
+title: "Parameter type of this unary operator must be the containing type &#39;&lt;typename&gt;&#39; | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "How to: Debug with Code Center Premium Source"
+title: "How to: Debug with Code Center Premium Source | hehe"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

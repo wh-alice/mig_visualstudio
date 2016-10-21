@@ -1,5 +1,5 @@
 ---
-title: "How to: Set the ClickOnce Publish Version"
+title: "How to: Set the ClickOnce Publish Version | hehe"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
