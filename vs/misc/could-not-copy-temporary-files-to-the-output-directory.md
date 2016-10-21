@@ -1,7 +1,7 @@
 ---
-title: "Could not copy temporary files to the output directory | Microsoft Docs"
+title: "Could not copy temporary files to the output directory"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

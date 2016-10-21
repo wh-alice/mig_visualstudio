@@ -1,5 +1,5 @@
 ---
-title: "KeyBindings Element | Microsoft Docs"
+title: "KeyBindings Element"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -80,4 +80,4 @@ The KeyBindings element groups KeyBinding elements and other KeyBindings groupin
   
 ## See Also  
  [KeyBinding Element](../extensibility/keybinding-element.md)   
- [Visual Studio Command Table (.Vsct) Files](../extensibility/visual-studio-command-table--.vsct--files.md)
+ [Visual Studio Command Table (.Vsct) Files](../Topic/Visual%20Studio%20Command%20Table%20\(.Vsct\)%20Files.md)

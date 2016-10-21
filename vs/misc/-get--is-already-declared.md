@@ -1,5 +1,5 @@
 ---
-title: "&#39;Get&#39; is already declared | Microsoft Docs"
+title: "&#39;Get&#39; is already declared"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

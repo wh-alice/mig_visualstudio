@@ -1,5 +1,5 @@
 ---
-title: "Creating a Basic Project System, Part 1 | Microsoft Docs"
+title: "Creating a Basic Project System, Part 1"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -35,7 +35,7 @@ translation.priority.mt:
 # Creating a Basic Project System, Part 1
 In Visual Studio, projects are the containers that developers use to organize source code files and other assets. Projects appear as children of solutions in the **Solution Explorer**. Projects let you organize, build, debug, and deploy source code and create references to Web services, databases, and other resources.  
   
- Projects are defined in project files, for example a .csproj file for a Visual C# project. You can create your own project type that has your own project file name extension. For more information about project types, see [Project Types](../extensibility/project-types.md).  
+ Projects are defined in project files, for example a .csproj file for a Visual C# project. You can create your own project type that has your own project file name extension. For more information about project types, see [Project Types](../extensibility-internals/project-types.md).  
   
 > [!NOTE]
 >  If you need to extend Visual Studio with a custom project type, we strongly recommend leveraging the [Visual Studio Project System](https://github.com/Microsoft/VSProjectSystem) which has a number of advantages over building a project system from scratch:  
@@ -583,7 +583,7 @@ In Visual Studio, projects are the containers that developers use to organize so
      Notice that the template parameters $nameSpace$ and $className$ do not have new values. You will learn how to implement template parameter substitution in the next section.  
   
 ## Substituting Template Parameters  
- In an earlier section, you registered the project template with Visual Studio by using the `ProvideProjectFactory` attribute. Registering the path of a template folder in this manner lets you enable basic template parameter substitution by overriding and expanding the `ProjectNode.AddFileFromTemplate` class. For more information, see [New Project Generation: Under the Hood, Part Two](../extensibility/new-project-generation--under-the-hood--part-two.md).  
+ In an earlier section, you registered the project template with Visual Studio by using the `ProvideProjectFactory` attribute. Registering the path of a template folder in this manner lets you enable basic template parameter substitution by overriding and expanding the `ProjectNode.AddFileFromTemplate` class. For more information, see [New Project Generation: Under the Hood, Part Two](../extensibility-internals/new-project-generation--under-the-hood--part-two.md).  
   
  Now add replacement code to the `AddFileFromTemplate` class.  
   

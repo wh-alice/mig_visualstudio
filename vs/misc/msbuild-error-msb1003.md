@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Error MSB1003 | Microsoft Docs"
+title: "MSBuild Error MSB1003"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -36,7 +36,7 @@ translation.priority.mt:
 # MSBuild Error MSB1003
 **Specify a project or solution file. The current working directory does not contain a project or solution file.**  
   
- If a project or solution file is not specified on the command line, [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] searches the current working directory for a file that has a file extension that ends in "proj" or "sln" and uses that file. The current working directory does not contain a file that has a file extension that ends in "proj" or "sln".  
+ If a project or solution file is not specified on the command line, [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] searches the current working directory for a file that has a file extension that ends in "proj" or "sln" and uses that file. The current working directory does not contain a file that has a file extension that ends in "proj" or "sln".  
   
 ### To correct this error  
   

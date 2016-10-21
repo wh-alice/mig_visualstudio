@@ -1,5 +1,5 @@
 ---
-title: "Choosing a ClickOnce Update Strategy | Microsoft Docs"
+title: "Choosing a ClickOnce Update Strategy"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -47,7 +47,7 @@ translation.priority.ht:
 >  Application updates require network connectivity. If a network connection is not present, the application will run without checking for updates, regardless of the update strategy that you choose.  
   
 > [!NOTE]
->  In .NET Framework 2.0 and .NET Framework 3.0, any time your application checks for updates, before or after startup, or by using the <xref:System.Deployment.Application> APIs, you must set `deploymentProvider` in the deployment manifest. The `deploymentProvider` element corresponds in Visual Studio to the **Update location** field on the **Updates** dialog box of the **Publish** tab. This rule is relaxed in .NET Framework 3.5. For more information, see [Deploying ClickOnce Applications For Testing and Production Servers without Resigning](../deployment/deploying-clickonce-applications-for-testing-and-production-servers-without-resigning.md).  
+>  In .NET Framework 2.0 and .NET Framework 3.0, any time your application checks for updates, before or after startup, or by using the <xref:System.Deployment.Application> APIs, you must set `deploymentProvider` in the deployment manifest. The `deploymentProvider` element corresponds in Visual Studio to the **Update location** field on the **Updates** dialog box of the **Publish** tab. This rule is relaxed in .NET Framework 3.5. For more information, see [Deploying ClickOnce Applications For Testing and Production Servers without Resigning](../deployment/1218a98d-1ad5-4eef-95dd-0e0b3c44168c.md).  
   
 ## Checking for Updates After Application Startup  
  By using this strategy, the application will attempt to locate and read the deployment manifest file in the background while the application is running. If an update is available, the next time that the user runs the application, he will be prompted to download and install the update.  

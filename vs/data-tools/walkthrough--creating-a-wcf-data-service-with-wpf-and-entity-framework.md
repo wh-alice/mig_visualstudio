@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating a WCF Data Service with WPF and Entity Framework | Microsoft Docs"
+title: "Walkthrough: Creating a WCF Data Service with WPF and Entity Framework"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -123,11 +123,13 @@ This walkthrough demonstrates how to create a simple [!INCLUDE[ss_data_service](
   
 4.  In the **Code Editor**, locate the first `TODO:` comment and replace the code with the following:  
   
-     [!CODE [WCFDataServiceWalkthrough#1](../CodeSnippet/VS_Snippets_VBCSharp/wcfdataservicewalkthrough#1)]  
+     [!code[WCFDataServiceWalkthrough#1](../data-tools/codesnippet/VisualBasic/walkthrough--creating-a-wcf-data-service-with-wpf-and-entity-framework_1.vb)]
+[!code[WCFDataServiceWalkthrough#1](../data-tools/codesnippet/CSharp/walkthrough--creating-a-wcf-data-service-with-wpf-and-entity-framework_1.cs)]  
   
 5.  Replace the comments in the `InitializeService` event handler with the following code:  
   
-     [!CODE [WCFDataServiceWalkthrough#2](../CodeSnippet/VS_Snippets_VBCSharp/wcfdataservicewalkthrough#2)]  
+     [!code[WCFDataServiceWalkthrough#2](../data-tools/codesnippet/VisualBasic/walkthrough--creating-a-wcf-data-service-with-wpf-and-entity-framework_2.vb)]
+[!code[WCFDataServiceWalkthrough#2](../data-tools/codesnippet/CSharp/walkthrough--creating-a-wcf-data-service-with-wpf-and-entity-framework_2.cs)]  
   
 6.  On the menu bar, choose **Debug**, **Start Without Debugging** to run the service. A browser window opens and the XML schema for the service is displayed.  
   
@@ -283,5 +285,5 @@ This walkthrough demonstrates how to create a simple [!INCLUDE[ss_data_service](
 6.  In the text box, enter **London**, and then choose the button. Only the customers from London are displayed.  
   
 ## See Also  
- [Windows Communication Foundation Services and WCF Data Services in Visual Studio](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md)   
+ [Windows Communication Foundation Services and WCF Data Services in Visual Studio](../data-tools/d56f12cb-e139-4fec-b3e4-488383356642.md)   
  [How to: Add, Update, or Remove a WCF Data Service Reference](../data-tools/how-to--add--update--or-remove-a-wcf-data-service-reference.md)

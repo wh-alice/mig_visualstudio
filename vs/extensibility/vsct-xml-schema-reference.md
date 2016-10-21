@@ -1,5 +1,5 @@
 ---
-title: "VSCT XML Schema Reference | Microsoft Docs"
+title: "VSCT XML Schema Reference"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -86,5 +86,5 @@ Provides a table of Command Table Compiler schema elements, with allowed child e
  [Conditional Attributes](../extensibility/vsct-xml-schema-conditional-attributes.md)  
   
 ## See Also  
- [How VSPackages Add User Interface Elements](../extensibility/how-vspackages-add-user-interface-elements.md)   
- [Command Routing in VSPackages](../extensibility/command-routing-in-vspackages.md)
+ [How VSPackages Add User Interface Elements](../Topic/How%20VSPackages%20Add%20User%20Interface%20Elements.md)   
+ [Command Routing in VSPackages](../Topic/Command%20Routing%20in%20VSPackages.md)

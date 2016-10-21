@@ -1,5 +1,5 @@
 ---
-title: "Extern Element | Microsoft Docs"
+title: "Extern Element"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -83,6 +83,6 @@ Extern Element
 ```  
   
 ## See Also  
- [Visual Studio Command Table (.Vsct) Files](../extensibility/visual-studio-command-table--.vsct--files.md)   
- [How VSPackages Add User Interface Elements](../extensibility/how-vspackages-add-user-interface-elements.md)   
- [Commands, Menus, and Toolbars](../extensibility/commands--menus--and-toolbars.md)
+ [Visual Studio Command Table (.Vsct) Files](../Topic/Visual%20Studio%20Command%20Table%20\(.Vsct\)%20Files.md)   
+ [How VSPackages Add User Interface Elements](../Topic/How%20VSPackages%20Add%20User%20Interface%20Elements.md)   
+ [Commands, Menus, and Toolbars](../Topic/Commands,%20Menus,%20and%20Toolbars.md)

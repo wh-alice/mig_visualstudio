@@ -1,7 +1,7 @@
 ---
-title: "Creating and managing databases and data-tier applications in Visual Studio | Microsoft Docs"
+title: "Creating and managing databases and data-tier applications in Visual Studio"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

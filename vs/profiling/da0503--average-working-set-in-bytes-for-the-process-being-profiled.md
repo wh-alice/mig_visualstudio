@@ -1,5 +1,5 @@
 ---
-title: "DA0503: Average Working Set in Bytes for the Process being profiled | Microsoft Docs"
+title: "DA0503: Average Working Set in Bytes for the Process being profiled"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

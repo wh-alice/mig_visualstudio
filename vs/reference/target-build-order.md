@@ -1,5 +1,5 @@
 ---
-title: "Target Build Order | Microsoft Docs"
+title: "Target Build Order"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Security of Text Templates | Microsoft Docs"
+title: "Security of Text Templates"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

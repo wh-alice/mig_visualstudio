@@ -1,5 +1,5 @@
 ---
-title: "Attributes cannot be generics or types nested inside generics | Microsoft Docs"
+title: "Attributes cannot be generics or types nested inside generics"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

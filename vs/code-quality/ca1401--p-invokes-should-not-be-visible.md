@@ -1,5 +1,5 @@
 ---
-title: "CA1401: P-Invokes should not be visible | Microsoft Docs"
+title: "CA1401: P-Invokes should not be visible"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -58,4 +58,5 @@ translation.priority.mt:
 ## Example  
  The following example declares a method that violates this rule.  
   
- [!CODE [FxCop.Interoperability.DllImports#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Interoperability.DllImports#1)]
+ [!code[FxCop.Interoperability.DllImports#1](../code-quality/codesnippet/VisualBasic/ca1401--p-invokes-should-not-be-visible_1.vb)]
+[!code[FxCop.Interoperability.DllImports#1](../code-quality/codesnippet/CSharp/ca1401--p-invokes-should-not-be-visible_1.cs)]

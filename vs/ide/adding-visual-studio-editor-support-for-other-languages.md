@@ -1,5 +1,5 @@
 ---
-title: "Adding Visual Studio editor support for other languages | Microsoft Docs"
+title: "Adding Visual Studio editor support for other languages"
 ms.custom: ""
 ms.date: "10/14/2016"
 ms.reviewer: ""

@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Error MSB1008 | Microsoft Docs"
+title: "MSBuild Error MSB1008"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
@@ -36,7 +36,7 @@ translation.priority.mt:
 # MSBuild Error MSB1008
 **Only one project can be specified.**  
   
- [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] can build only one project.  
+ [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] can build only one project.  
   
 ### To correct this error  
   

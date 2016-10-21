@@ -1,5 +1,5 @@
 ---
-title: "CA1049: Types that own native resources should be disposable | Microsoft Docs"
+title: "CA1049: Types that own native resources should be disposable"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -60,7 +60,8 @@ translation.priority.mt:
 ## Example  
  The following example shows a type that implements <xref:System.IDisposable> to clean up an unmanaged resource.  
   
- [!CODE [FxCop.Design.UnmanagedResources#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Design.UnmanagedResources#1)]  
+ [!code[FxCop.Design.UnmanagedResources#1](../code-quality/codesnippet/CSharp/ca1049--types-that-own-native-resources-should-be-disposable_1.cs)]
+[!code[FxCop.Design.UnmanagedResources#1](../code-quality/codesnippet/VisualBasic/ca1049--types-that-own-native-resources-should-be-disposable_1.vb)]  
   
 ## Related Rules  
  [CA2115: Call GC.KeepAlive when using native resources](../code-quality/ca2115--call-gc.keepalive-when-using-native-resources.md)  

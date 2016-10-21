@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Error MSB1011 | Microsoft Docs"
+title: "MSBuild Error MSB1011"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -36,7 +36,7 @@ translation.priority.mt:
 # MSBuild Error MSB1011
 **Specify which project or solution file to use because this folder contains more than one project or solution file.**  
   
- If a project file is not specified at the command line, [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] searches the current working directory for a file that has a file extension that ends in "proj" or "sln" and uses that file. The current working directory contains more than one file that has a file extension that ends in "proj" or "sln".  
+ If a project file is not specified at the command line, [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] searches the current working directory for a file that has a file extension that ends in "proj" or "sln" and uses that file. The current working directory contains more than one file that has a file extension that ends in "proj" or "sln".  
   
 ### To correct this error  
   

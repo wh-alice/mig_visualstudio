@@ -1,7 +1,7 @@
 ---
-title: "Updating the User Interface | Microsoft Docs"
+title: "Updating the User Interface"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -64,5 +64,5 @@ After you implement a command, you can add code to update the user interface wit
          Notice that you can obtain the <xref:Microsoft.VisualStudio.Shell.Interop.IOleInPlaceComponentUIManager> interface by calling the `QueryInterface` method on an <xref:Microsoft.VisualStudio.Shell.Interop.IOleComponentUIManager> object or by obtaining the interface from the <xref:Microsoft.VisualStudio.Shell.Interop.SOleComponentUIManager> service.  
   
 ## See Also  
- [How VSPackages Add User Interface Elements](../extensibility/how-vspackages-add-user-interface-elements.md)   
- [Implementation](../extensibility/command-implementation.md)
+ [How VSPackages Add User Interface Elements](../Topic/How%20VSPackages%20Add%20User%20Interface%20Elements.md)   
+ [Implementation](../Topic/Command%20Implementation.md)

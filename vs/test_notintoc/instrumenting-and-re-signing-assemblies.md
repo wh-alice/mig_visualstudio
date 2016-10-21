@@ -1,5 +1,5 @@
 ---
-title: "Instrumenting and Re-Signing Assemblies | Microsoft Docs"
+title: "Instrumenting and Re-Signing Assemblies"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "CA2136: Members should not have conflicting transparency annotations | Microsoft Docs"
+title: "CA2136: Members should not have conflicting transparency annotations"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -58,4 +58,4 @@ translation.priority.ht:
 ## Example  
  In the following example, a method is marked with the <xref:System.Security.SecuritySafeCriticalAttribute> attribute and it is a member of a class that is marked with the <xref:System.Security.SecurityCriticalAttribute> attribute. The security safe attribute should be removed.  
   
- [!CODE [FxCop.Security.CA2136.TransparencyAnnotationsShouldNotConflict#1](../CodeSnippet/VS_Snippets_CodeAnalysis/fxcop.security.ca2136.transparencyannotationsshouldnotconflict#1)]
+ [!code[FxCop.Security.CA2136.TransparencyAnnotationsShouldNotConflict#1](../code-quality/codesnippet/CSharp/ca2136--members-should-not-have-conflicting-transparency-annotations_1.cs)]

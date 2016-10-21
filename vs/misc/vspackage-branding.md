@@ -1,7 +1,7 @@
 ---
-title: "VSPackage Branding | Microsoft Docs"
+title: "VSPackage Branding"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -56,5 +56,5 @@ VSPackages can display icons and textual information about products (together ca
  [VSPackage State](../misc/vspackage-state.md)  
  Lists common strategies for saving, restoring, and resetting the state of a VSPackage.  
   
- [VSPackages](../extensibility/vspackages.md)  
+ [VSPackages](../extensibility-internals/vspackages.md)  
  VSPackages extend the integrated development environment (IDE) by providing UI elements, services, projects, editors, and designers.

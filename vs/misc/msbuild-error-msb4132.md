@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Error MSB4132 | Microsoft Docs"
+title: "MSBuild Error MSB4132"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -34,7 +34,7 @@ translation.priority.mt:
 # MSBuild Error MSB4132
 **MSB4132: The tools version "'\<version>'" is unrecognized.**  
   
- [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] could find a Toolset that corresponds to the specified value of `ToolsVersion`.  
+ [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] could find a Toolset that corresponds to the specified value of `ToolsVersion`.  
   
 ### To correct this error  
   

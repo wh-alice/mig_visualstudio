@@ -1,5 +1,5 @@
 ---
-title: "Hiding Properties That Have Child Properties | Microsoft Docs"
+title: "Hiding Properties That Have Child Properties"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -47,4 +47,4 @@ You would want to hide properties that have child properties:
 2.  Set the `pfHide` parameter in <xref:Microsoft.VisualStudio.Shell.Interop.IVsPerPropertyBrowsing.HideProperty*> to `TRUE`.  
   
 ## See Also  
- [Properties Display Grid](../extensibility/properties-display-grid.md)
+ [Properties Display Grid](../extensibility-internals/properties-display-grid.md)

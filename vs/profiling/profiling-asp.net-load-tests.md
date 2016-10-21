@@ -1,5 +1,5 @@
 ---
-title: "Profiling ASP.NET Load Tests | Microsoft Docs"
+title: "Profiling ASP.NET Load Tests"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -34,7 +34,7 @@ You can collect profiling data from automated [!INCLUDE[TCMext](../code-quality/
   
  [(NIB) How to: Run a Performance Session on a Web Application from the Web Performance Test Editor](http://msdn.microsoft.com/en-us/d14e0a27-33cc-4e4e-8792-fe03e50d51e1)  
   
- [How to: Configure ASP.NET Profiler for Load Tests Using Test Settings in Visual Studio](../test/how-to--configure-asp.net-profiler-for-load-tests-using-test-settings-in-visual-studio.md)  
+ [How to: Configure ASP.NET Profiler for Load Tests Using Test Settings in Visual Studio](../test/6832fe39-04d5-4d94-8a18-3e2730bad423.md)  
   
  [Running System Tests Using Microsoft Visual Studio](../test/running-automated-tests-using-microsoft-visual-studio.md).  
   

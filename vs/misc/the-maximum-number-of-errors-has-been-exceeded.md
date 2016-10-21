@@ -1,12 +1,12 @@
 ---
-title: "The maximum number of errors has been exceeded | Microsoft Docs"
+title: "The maximum number of errors has been exceeded"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC2020"
 ms.assetid: 08694da7-9864-4da6-9513-3d40b9ba046d
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

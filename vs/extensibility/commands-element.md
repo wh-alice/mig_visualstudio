@@ -1,5 +1,5 @@
 ---
-title: "Commands Element | Microsoft Docs"
+title: "Commands Element"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -102,5 +102,5 @@ Represents the collection of commands on the VSPackage toolbar. The collection c
 ```  
   
 ## See Also  
- [How VSPackages Add User Interface Elements](../extensibility/how-vspackages-add-user-interface-elements.md)   
- [Commands, Menus, and Toolbars](../extensibility/commands--menus--and-toolbars.md)
+ [How VSPackages Add User Interface Elements](../Topic/How%20VSPackages%20Add%20User%20Interface%20Elements.md)   
+ [Commands, Menus, and Toolbars](../Topic/Commands,%20Menus,%20and%20Toolbars.md)

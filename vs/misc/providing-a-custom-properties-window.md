@@ -1,7 +1,7 @@
 ---
-title: "Providing a Custom Properties Window | Microsoft Docs"
+title: "Providing a Custom Properties Window"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -59,5 +59,5 @@ It is possible to provide your own **Properties** window for a given project sys
 -   You can obtain the active document window by calling <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.GetCurrentSelection*> through SVsMonitorSelection service. Set the parameter `elementid` to `SEID_WindowFrame`, taken from the <xref:Microsoft.VisualStudio.VSConstants.VSSELELEMID> enumeration.  
   
 ## See Also  
- [Extending Properties](../extensibility/extending-properties.md)   
- [Properties Window Fields and Interfaces](../extensibility/properties-window-fields-and-interfaces.md)
+ [Extending Properties](../extensibility-internals/extending-properties.md)   
+ [Properties Window Fields and Interfaces](../extensibility-internals/properties-window-fields-and-interfaces.md)

@@ -1,5 +1,5 @@
 ---
-title: "CA1406: Avoid Int64 arguments for Visual Basic 6 clients | Microsoft Docs"
+title: "CA1406: Avoid Int64 arguments for Visual Basic 6 clients"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -60,7 +60,8 @@ translation.priority.mt:
 ## Example  
  The following example shows a type that violates the rule.  
   
- [!CODE [FxCop.Interoperability.LongArgument#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Interoperability.LongArgument#1)]  
+ [!code[FxCop.Interoperability.LongArgument#1](../code-quality/codesnippet/CSharp/ca1406--avoid-int64-arguments-for-visual-basic-6-clients_1.cs)]
+[!code[FxCop.Interoperability.LongArgument#1](../code-quality/codesnippet/VisualBasic/ca1406--avoid-int64-arguments-for-visual-basic-6-clients_1.vb)]  
   
 ## Related Rules  
  [CA1413: Avoid non-public fields in COM visible value types](../code-quality/ca1413--avoid-non-public-fields-in-com-visible-value-types.md)  

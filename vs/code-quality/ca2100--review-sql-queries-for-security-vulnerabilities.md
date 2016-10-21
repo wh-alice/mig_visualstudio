@@ -1,5 +1,5 @@
 ---
-title: "CA2100: Review SQL queries for security vulnerabilities | Microsoft Docs"
+title: "CA2100: Review SQL queries for security vulnerabilities"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -93,7 +93,9 @@ string query = String.Format("SELECT TOP {0} FROM Table", x);
 ## Example  
  The following example shows a method, `UnsafeQuery`, that violates the rule and a method, `SaferQuery`, that satisfies the rule by using a parameterized command string.  
   
- [!CODE [FxCop.Security.ReviewSqlQueries#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Security.ReviewSqlQueries#1)]  
+ [!code[FxCop.Security.ReviewSqlQueries#1](../code-quality/codesnippet/VisualBasic/ca2100--review-sql-queries-for-security-vulnerabilities_1.vb)]
+[!code[FxCop.Security.ReviewSqlQueries#1](../code-quality/codesnippet/CSharp/ca2100--review-sql-queries-for-security-vulnerabilities_1.cs)]
+[!code[FxCop.Security.ReviewSqlQueries#1](../code-quality/codesnippet/CPP/ca2100--review-sql-queries-for-security-vulnerabilities_1.cpp)]  
   
 ## See Also  
  [Security Overview](../Topic/Security%20Overview2.md)

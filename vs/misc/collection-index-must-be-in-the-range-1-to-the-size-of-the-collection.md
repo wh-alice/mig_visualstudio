@@ -1,5 +1,5 @@
 ---
-title: "Collection index must be in the range 1 to the size of the collection | Microsoft Docs"
+title: "Collection index must be in the range 1 to the size of the collection"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

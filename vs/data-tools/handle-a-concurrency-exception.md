@@ -1,5 +1,5 @@
 ---
-title: "Handle a concurrency exception | Microsoft Docs"
+title: "Handle a concurrency exception"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
@@ -164,11 +164,13 @@ Concurrency exceptions (<xref:System.Data.DBConcurrencyException>) are raised wh
   
 1.  Add the following code below the `Form1_Load` method:  
   
-     [!CODE [VbRaddataConcurrency#1](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataConcurrency#1)]  
+     [!code[VbRaddataConcurrency#1](../data-tools/codesnippet/CSharp/handle-a-concurrency-exception_1.cs)]
+[!code[VbRaddataConcurrency#1](../data-tools/codesnippet/VisualBasic/handle-a-concurrency-exception_1.vb)]  
   
 2.  Replace the `CustomersBindingNavigatorSaveItem_Click` method to call the `UpdateDatabase` method so it looks like the following:  
   
-     [!CODE [VbRaddataConcurrency#2](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataConcurrency#2)]  
+     [!code[VbRaddataConcurrency#2](../data-tools/codesnippet/CSharp/handle-a-concurrency-exception_2.cs)]
+[!code[VbRaddataConcurrency#2](../data-tools/codesnippet/VisualBasic/handle-a-concurrency-exception_2.vb)]  
   
 ### Displaychoices to the user  
  The code you just wrote calls the `CreateMessage` procedure to display error information to the user. For this walkthrough, you use a message box to display the different versions of the record to the user.This enables the user to choose whether to overwrite the record with the changes or cancel the edit. Once the user selects an option (clicks a button) on the message box, the response is passed to the `ProcessDialogResult` method.  
@@ -177,7 +179,8 @@ Concurrency exceptions (<xref:System.Data.DBConcurrencyException>) are raised wh
   
 -   Create the message by adding the following code to the **Code Editor**. Enter this code below the `UpdateDatabase` method.  
   
-     [!CODE [VbRaddataConcurrency#4](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataConcurrency#4)]  
+     [!code[VbRaddataConcurrency#4](../data-tools/codesnippet/CSharp/handle-a-concurrency-exception_3.cs)]
+[!code[VbRaddataConcurrency#4](../data-tools/codesnippet/VisualBasic/handle-a-concurrency-exception_3.vb)]  
   
 ### Process the user's response  
  You  also need code to process the user's response to the message box. The options are either to overwrite the current record in the database with the proposed change, or abandon the local changes and refresh the data table with the record that's currently in the database. If the user chooses yes, the <xref:System.Data.DataTable.Merge*> method is called with the *preserveChanges* argument set to `true`. This causes the update attempt to be successful, because the original version of the record now matches the record in the database.  
@@ -186,7 +189,8 @@ Concurrency exceptions (<xref:System.Data.DBConcurrencyException>) are raised wh
   
 -   Add the following code below the code that was added in the previous section.  
   
-     [!CODE [VbRaddataConcurrency#3](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataConcurrency#3)]  
+     [!code[VbRaddataConcurrency#3](../data-tools/codesnippet/CSharp/handle-a-concurrency-exception_4.cs)]
+[!code[VbRaddataConcurrency#3](../data-tools/codesnippet/VisualBasic/handle-a-concurrency-exception_4.vb)]  
   
 ## Test the form  
  You can now test the form to make sure it behaves as expected. To simulate a concurrency violation you need to change data in the database after filling the NorthwindDataSet.  

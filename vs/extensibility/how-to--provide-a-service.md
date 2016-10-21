@@ -1,5 +1,5 @@
 ---
-title: "How to: Provide a Service | Microsoft Docs"
+title: "How to: Provide a Service"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -35,7 +35,7 @@ A VSPackage can provide services that other VSPackages can use. To provide a ser
   
  The <xref:Microsoft.VisualStudio.Shell.Package> class implements both <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider> and <xref:System.ComponentModel.Design.IServiceContainer>. <xref:System.ComponentModel.Design.IServiceContainer> contains callback methods that provide  services on demand.  
   
- For more information about services, see [Service Essentials](../extensibility/service-essentials.md) .  
+ For more information about services, see [Service Essentials](../extensibility-internals/service-essentials.md) .  
   
 > [!NOTE]
 >  When a VSPackage is about to be unloaded, Visual Studio waits until all requests for services that a VSPackage provides have been delivered. It does not allow new requests for these services. You should not explicitly call the <xref:Microsoft.VisualStudio.Shell.Interop.IProfferService.RevokeService*> method to revoke a service when unloading.  
@@ -154,4 +154,4 @@ A VSPackage can provide services that other VSPackages can use. To provide a ser
 ## See Also  
  [How to: Get a Service](../extensibility/how-to--get-a-service.md)   
  [Using and Providing Services](../extensibility/using-and-providing-services.md)   
- [Service Essentials](../extensibility/service-essentials.md)
+ [Service Essentials](../extensibility-internals/service-essentials.md)

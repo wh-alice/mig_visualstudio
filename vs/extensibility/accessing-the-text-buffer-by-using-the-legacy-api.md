@@ -1,5 +1,5 @@
 ---
-title: "Accessing the Text Buffer by Using the Legacy API | Microsoft Docs"
+title: "Accessing the Text Buffer by Using the Legacy API"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -41,7 +41,7 @@ Text buffer object
   
  Although either coordinate system works in the text buffer, it is optimized to use two-dimensional coordinates. A one-dimensional coordinate system can create performance overhead. Therefore, use the two-dimensional coordinate system whenever possible.  
   
- The text buffer's second responsibility is file persistence. To do this, the text buffer object implements <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistDocData2> and acts as the document data object component for project items and other environment components involved in persistence. For more information, see [Opening and Saving Project Items](../extensibility/opening-and-saving-project-items.md).  
+ The text buffer's second responsibility is file persistence. To do this, the text buffer object implements <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistDocData2> and acts as the document data object component for project items and other environment components involved in persistence. For more information, see [Opening and Saving Project Items](../extensibility-internals/opening-and-saving-project-items.md).  
   
 ## In This Section  
  [Changing View Settings by Using the Legacy API](../extensibility/changing-view-settings-by-using-the-legacy-api.md)  

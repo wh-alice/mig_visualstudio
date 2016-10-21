@@ -1,12 +1,12 @@
 ---
-title: "Internal compiler error: code generator received malformed input | Microsoft Docs"
+title: "Internal compiler error: code generator received malformed input"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30011"
 ms.assetid: 859bb8f7-869e-46f0-8017-c88cdf92f324
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

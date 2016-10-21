@@ -1,5 +1,5 @@
 ---
-title: "deque::operatorand deque::at | Microsoft Docs"
+title: "deque::operatorand deque::at"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

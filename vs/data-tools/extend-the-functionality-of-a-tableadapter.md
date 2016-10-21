@@ -1,5 +1,5 @@
 ---
-title: "Extend the functionality of a TableAdapter | Microsoft Docs"
+title: "Extend the functionality of a TableAdapter"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
@@ -58,7 +58,8 @@ You can extend the functionality of a TableAdapter by adding code to the TableAd
   
 4.  Replace the code with the correct namespace and partial class name for your project as follows:  
   
-     [!CODE [VbRaddataTableAdapters#2](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataTableAdapters#2)]  
+     [!code[VbRaddataTableAdapters#2](../data-tools/codesnippet/CSharp/extend-the-functionality-of-a-tableadapter_1.cs)]
+[!code[VbRaddataTableAdapters#2](../data-tools/codesnippet/VisualBasic/extend-the-functionality-of-a-tableadapter_1.vb)]  
   
 ## See Also  
  [Fill datasets by using TableAdapters](../data-tools/fill-datasets-by-using-tableadapters.md)

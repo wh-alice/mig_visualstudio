@@ -1,5 +1,5 @@
 ---
-title: "Target Element (MSBuild) | Microsoft Docs"
+title: "Target Element (MSBuild)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -40,7 +40,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Target Element (MSBuild)
-Contains a set of tasks for [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] to execute sequentially.  
+Contains a set of tasks for [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] to execute sequentially.  
   
  \<Project>  
  \<Target>  
@@ -87,7 +87,7 @@ Contains a set of tasks for [!INCLUDE[vstecmsbuild](../extensibility/includes/vs
   
 |Element|Description|  
 |-------------|-----------------|  
-|[Task](../reference/task-element--msbuild-.md)|Creates and executes an instance of an [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] task. There may be zero or more tasks in a target.|  
+|[Task](../reference/task-element--msbuild-.md)|Creates and executes an instance of an [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] task. There may be zero or more tasks in a target.|  
 |[PropertyGroup](../reference/propertygroup-element--msbuild-.md)|Contains a set of user-defined `Property` elements. Starting in the .NET Framework 3.5, a `Target` element may contain `PropertyGroup` elements.|  
 |[ItemGroup](../reference/itemgroup-element--msbuild-.md)|Contains a set of user-defined `Item` elements. Starting in the .NET Framework 3.5, a `Target` element may contain `ItemGroup` elements. For more information, see [Items](../reference/msbuild-items.md).|  
 |[OnError](../reference/onerror-element--msbuild-.md)|Causes one or more targets to execute if the `ContinueOnError` attribute is ErrorAndStop (or `false`) for a failed task. There may be zero or more `OnError` elements in a target. If `OnError` elements are present, they must be the last elements in the `Target` element.<br /><br /> For information about the `ContinueOnError` attribute, see [Task Element (MSBuild)](../reference/task-element--msbuild-.md).|  
@@ -96,10 +96,10 @@ Contains a set of tasks for [!INCLUDE[vstecmsbuild](../extensibility/includes/vs
   
 |Element|Description|  
 |-------------|-----------------|  
-|[Project](../reference/project-element--msbuild-.md)|Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] project file.|  
+|[Project](../reference/project-element--msbuild-.md)|Required root element of an [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] project file.|  
   
 ## Remarks  
- The first target to execute is specified at run time. Targets can have dependencies on other targets. For example, a target for deployment depends on a target for compilation. The [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] engine executes dependencies in the order in which they appear in the `DependsOnTargets` attribute, from left to right. For more information, see [Targets](../reference/msbuild-targets.md).  
+ The first target to execute is specified at run time. Targets can have dependencies on other targets. For example, a target for deployment depends on a target for compilation. The [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] engine executes dependencies in the order in which they appear in the `DependsOnTargets` attribute, from left to right. For more information, see [Targets](../reference/msbuild-targets.md).  
   
  A target is only executed once during a build, even if more than one target has a dependency on it.  
   

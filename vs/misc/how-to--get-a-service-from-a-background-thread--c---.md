@@ -1,5 +1,5 @@
 ---
-title: "How to: Get a Service from a Background Thread (C++) | Microsoft Docs"
+title: "How to: Get a Service from a Background Thread (C++)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -97,4 +97,4 @@ public:
   
 ## See Also  
  [Using and Providing Services](../extensibility/using-and-providing-services.md)   
- [Service Essentials](../extensibility/service-essentials.md)
+ [Service Essentials](../extensibility-internals/service-essentials.md)

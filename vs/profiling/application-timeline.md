@@ -1,5 +1,5 @@
 ---
-title: "Application Timeline | Microsoft Docs"
+title: "Application Timeline"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

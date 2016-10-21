@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio SDK | Microsoft Docs"
+title: "Visual Studio SDK"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -105,7 +105,7 @@ The Visual Studio SDK helps you extend Visual Studio features or integrate new f
  [Managing VSPackages](../extensibility/managing-vspackages.md)   
  [Visual Studio Isolated Shell](../extensibility/visual-studio-isolated-shell.md)   
  [Shipping Visual Studio Extensions](../extensibility/shipping-visual-studio-extensions.md)   
- [Inside the Visual Studio SDK](../extensibility/inside-the-visual-studio-sdk.md)   
+ [Inside the Visual Studio SDK](../Topic/Inside%20the%20Visual%20Studio%20SDK.md)   
  [Support for the Visual Studio SDK](../extensibility/support-for-the-visual-studio-sdk.md)   
  [Archive](../extensibility/archive.md)   
  [Visual Studio SDK Reference](../extensibility/visual-studio-sdk-reference.md)

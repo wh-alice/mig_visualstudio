@@ -1,5 +1,5 @@
 ---
-title: "How to: Get Back to the Function that Called MFC If Halted | Microsoft Docs"
+title: "How to: Get Back to the Function that Called MFC If Halted"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

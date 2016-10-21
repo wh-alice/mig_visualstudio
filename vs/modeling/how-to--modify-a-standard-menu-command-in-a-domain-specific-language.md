@@ -1,5 +1,5 @@
 ---
-title: "How to: Modify a Standard Menu Command in a Domain-Specific Language | Microsoft Docs"
+title: "How to: Modify a Standard Menu Command in a Domain-Specific Language"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -149,8 +149,8 @@ protected override void ProcessOnMenuDeleteCommand()
  [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)   
  [How to: Add a Command to the Shortcut Menu](../modeling/how-to--add-a-command-to-the-shortcut-menu.md)   
  [Walkthrough: Getting Information from a Selected Link](../misc/walkthrough--getting-information-from-a-selected-link.md)   
- [How VSPackages Add User Interface Elements](../extensibility/how-vspackages-add-user-interface-elements.md)   
- [Visual Studio Command Table (.Vsct) Files](../extensibility/visual-studio-command-table--.vsct--files.md)   
+ [How VSPackages Add User Interface Elements](../Topic/How%20VSPackages%20Add%20User%20Interface%20Elements.md)   
+ [Visual Studio Command Table (.Vsct) Files](../Topic/Visual%20Studio%20Command%20Table%20\(.Vsct\)%20Files.md)   
  [VSCT XML Schema Reference](../extensibility/vsct-xml-schema-reference.md)   
  [VMSDK – Circuit Diagrams sample. Extensive DSL Customization](http://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)   
  [Sample code: Circuit Diagrams](http://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)

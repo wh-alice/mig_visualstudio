@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Error MSB1025 | Microsoft Docs"
+title: "MSBuild Error MSB1025"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
@@ -35,7 +35,7 @@ translation.priority.ht:
 # MSBuild Error MSB1025
 **An internal failure occurred while running MSBuild.**  
   
- There has been an internal failure while attempting to run [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)].  
+ There has been an internal failure while attempting to run [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)].  
   
 ### To correct this error  
   

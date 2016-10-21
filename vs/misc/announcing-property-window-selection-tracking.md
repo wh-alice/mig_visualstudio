@@ -1,5 +1,5 @@
 ---
-title: "Announcing Property Window Selection Tracking | Microsoft Docs"
+title: "Announcing Property Window Selection Tracking"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -54,5 +54,5 @@ If you want to work with the **Properties** window or the **Property** pages, fo
      If you specify a multiple selection, then the **Properties** window finds the intersection between common properties for the objects. If you specify a single object selection, then the **Properties** window displays all of the properties for the one object.  
   
 ## See Also  
- [Extending Properties](../extensibility/extending-properties.md)   
- [Property Pages](../extensibility/property-pages.md)
+ [Extending Properties](../extensibility-internals/extending-properties.md)   
+ [Property Pages](../extensibility-internals/property-pages.md)

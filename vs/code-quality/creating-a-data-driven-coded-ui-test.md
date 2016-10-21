@@ -1,5 +1,5 @@
 ---
-title: "Creating a Data-Driven Coded UI Test | Microsoft Docs"
+title: "Creating a Data-Driven Coded UI Test"
 ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"

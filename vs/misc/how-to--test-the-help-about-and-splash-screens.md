@@ -1,7 +1,7 @@
 ---
-title: "How to: Test the Help About and Splash Screens | Microsoft Docs"
+title: "How to: Test the Help About and Splash Screens"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

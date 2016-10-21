@@ -1,5 +1,5 @@
 ---
-title: "List Call Stack Command | Microsoft Docs"
+title: "List Call Stack Command"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

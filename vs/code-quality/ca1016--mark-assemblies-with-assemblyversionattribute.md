@@ -1,5 +1,5 @@
 ---
-title: "CA1016: Mark assemblies with AssemblyVersionAttribute | Microsoft Docs"
+title: "CA1016: Mark assemblies with AssemblyVersionAttribute"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -68,7 +68,9 @@ translation.priority.mt:
 ## Example  
  The following example shows an assembly that has the <xref:System.Reflection.AssemblyVersionAttribute> attribute applied.  
   
- [!CODE [FxCop.Design.AssembliesVersion#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Design.AssembliesVersion#1)]  
+ [!code[FxCop.Design.AssembliesVersion#1](../code-quality/codesnippet/CSharp/ca1016--mark-assemblies-with-assemblyversionattribute_1.cs)]
+[!code[FxCop.Design.AssembliesVersion#1](../code-quality/codesnippet/VisualBasic/ca1016--mark-assemblies-with-assemblyversionattribute_1.vb)]
+[!code[FxCop.Design.AssembliesVersion#1](../code-quality/codesnippet/CPP/ca1016--mark-assemblies-with-assemblyversionattribute_1.cpp)]  
   
 ## See Also  
  [Assembly Versioning](../Topic/Assembly%20Versioning.md)   

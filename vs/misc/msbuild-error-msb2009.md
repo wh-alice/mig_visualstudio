@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB2009 | Microsoft Docs"
+title: "MSBuild Error MSB2009"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,7 +36,7 @@ translation.priority.mt:
 # MSBuild Error MSB2009
 **Attribute '\<attribute name>' of element '\<element name>' is not valid.**  
   
- The attribute name is not spelled correctly or is not recognized by [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)].  
+ The attribute name is not spelled correctly or is not recognized by [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)].  
   
 ### To correct this error  
   

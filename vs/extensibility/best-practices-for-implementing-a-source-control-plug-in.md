@@ -1,7 +1,7 @@
 ---
-title: "Best Practices for Implementing a Source Control Plug-in | Microsoft Docs"
+title: "Best Practices for Implementing a Source Control Plug-in"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -72,4 +72,4 @@ The following technical details can help you reliably implement a source control
   
 ## See Also  
  [Source Control Plug-ins](../extensibility/source-control-plug-ins.md)   
- [Creating a Source Control Plug-in](../extensibility/creating-a-source-control-plug-in.md)
+ [Creating a Source Control Plug-in](../extensibility-internals/creating-a-source-control-plug-in.md)

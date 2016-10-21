@@ -1,7 +1,7 @@
 ---
-title: "Saving Data in Project Files | Microsoft Docs"
+title: "Saving Data in Project Files"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -39,7 +39,7 @@ A project subtype can save and retrieve subtype-specific data in the project fil
   
 -   The <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment> is used to persist non-build related data in free-form XML. The methods provided by <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment> are called by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] whenever [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] needs to persist non-build related data in the project file.  
   
- For more information on how to persist build and non-build related data, see [Persisting Data in the MSBuild Project File](../extensibility/persisting-data-in-the-msbuild-project-file.md).  
+ For more information on how to persist build and non-build related data, see [Persisting Data in the MSBuild Project File](../extensibility-internals/persisting-data-in-the-msbuild-project-file.md).  
   
 ## Saving and retrieving build related data  
   
@@ -222,4 +222,4 @@ A project subtype can save and retrieve subtype-specific data in the project fil
 >  All code examples provided in this topic are parts of a larger example, [VSSDK Samples](../misc/vssdk-samples.md).  
   
 ## See Also  
- [Persisting Data in the MSBuild Project File](../extensibility/persisting-data-in-the-msbuild-project-file.md)
+ [Persisting Data in the MSBuild Project File](../extensibility-internals/persisting-data-in-the-msbuild-project-file.md)

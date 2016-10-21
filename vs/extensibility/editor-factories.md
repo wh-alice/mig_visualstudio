@@ -1,7 +1,7 @@
 ---
-title: "Editor Factories | Microsoft Docs"
+title: "Editor Factories"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,9 +35,10 @@ An editor factory creates editor objects and puts them in a window frame, known 
   
  You create an editor factory by implementing the <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory> interface. The following example illustrates how to implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory> to create an editor factory:  
   
- [!CODE [VSSDKEditorFactories#1](../CodeSnippet/VS_Snippets_VSSDK/vssdkeditorfactories#1)]  
+ [!code[VSSDKEditorFactories#1](../extensibility/codesnippet/VisualBasic/editor-factories_1.vb)]
+[!code[VSSDKEditorFactories#1](../extensibility/codesnippet/CSharp/editor-factories_1.cs)]  
   
- An editor is loaded the first time that you open a file type handled by that editor. You can choose to open either a specific editor or the default editor. If you select the default editor, the integrated development environment (IDE) determines the correct editor to open and then opens it. For more information, see [Determining Which Editor Opens a File in a Project](../extensibility/determining-which-editor-opens-a-file-in-a-project.md).  
+ An editor is loaded the first time that you open a file type handled by that editor. You can choose to open either a specific editor or the default editor. If you select the default editor, the integrated development environment (IDE) determines the correct editor to open and then opens it. For more information, see [Determining Which Editor Opens a File in a Project](../extensibility-internals/determining-which-editor-opens-a-file-in-a-project.md).  
   
 ## Registering Editor Factories  
  Before you can use an editor that you have created, you first must register information about it, including the file extensions it can handle.  
@@ -65,4 +66,4 @@ An editor factory creates editor objects and puts them in a window frame, known 
   
 ## See Also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory>   
- [Running Document Table](../extensibility/running-document-table.md)
+ [Running Document Table](../extensibility-internals/running-document-table.md)

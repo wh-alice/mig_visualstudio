@@ -1,5 +1,5 @@
 ---
-title: "CA1500: Variable names should not match field names | Microsoft Docs"
+title: "CA1500: Variable names should not match field names"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -58,4 +58,5 @@ translation.priority.mt:
 ## Example  
  The following example shows two violations of the rule.  
   
- [!CODE [FxCop.Maintainability.VarMatchesField#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Maintainability.VarMatchesField#1)]
+ [!code[FxCop.Maintainability.VarMatchesField#1](../code-quality/codesnippet/VisualBasic/ca1500--variable-names-should-not-match-field-names_1.vb)]
+[!code[FxCop.Maintainability.VarMatchesField#1](../code-quality/codesnippet/CSharp/ca1500--variable-names-should-not-match-field-names_1.cs)]

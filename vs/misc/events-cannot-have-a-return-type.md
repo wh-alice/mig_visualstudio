@@ -1,12 +1,12 @@
 ---
-title: "Events cannot have a return type | Microsoft Docs"
+title: "Events cannot have a return type"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30032"
 ms.assetid: 4cd3bffc-b5b2-4000-bfb9-7d6968e6fc62
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

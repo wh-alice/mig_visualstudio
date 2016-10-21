@@ -1,5 +1,5 @@
 ---
-title: "How to: Provide Custom Toolbox Items By Using Interop Assemblies | Microsoft Docs"
+title: "How to: Provide Custom Toolbox Items By Using Interop Assemblies"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

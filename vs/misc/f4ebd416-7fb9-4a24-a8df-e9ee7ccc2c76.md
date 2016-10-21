@@ -1,7 +1,7 @@
 ---
 title: "&#39;Structure&#39; constraint cannot be specified multiple times for the same type parameter"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

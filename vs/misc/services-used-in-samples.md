@@ -1,5 +1,5 @@
 ---
-title: "Services Used in Samples | Microsoft Docs"
+title: "Services Used in Samples"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -63,5 +63,5 @@ The samples included in the [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk
 |<xref:Microsoft.VisualStudio.Shell.Interop.SVsWindowFrame>|Reference.ToolWindow|  
   
 ## See Also  
- [List of Available Services](../extensibility/list-of-available-services.md)   
- [Service Essentials](../extensibility/service-essentials.md)
+ [List of Available Services](../extensibility-internals/list-of-available-services.md)   
+ [Service Essentials](../extensibility-internals/service-essentials.md)

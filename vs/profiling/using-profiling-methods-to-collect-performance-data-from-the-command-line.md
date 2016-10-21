@@ -1,7 +1,7 @@
 ---
-title: "Using Profiling Methods to Collect Performance Data from the Command Line | Microsoft Docs"
+title: "Using Profiling Methods to Collect Performance Data from the Command Line"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -82,7 +82,7 @@ Your choice of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profili
 |Task|Target application type|  
 |----------|-----------------------------|  
 |**Launch an application**|-   [Stand-Alone .NET Framework Applications](../profiling/3bc53041-91b7-4ad0-8413-f8bf2c4b3f5e.md)|  
-|**Attach to a running process**|-   [.NET Framework Stand-Alone Applications](../profiling/9a869fa4-3c98-4e08-b5d9-f43523059f0e.md)<br />-   [ASP.NET Web Applications](../profiling/d608f85a-41ae-4ca7-85e6-b96624dbc83c.md)<br />-   [.NET Services](../profiling/how-to--attach-the-profiler-to-a-.net-service-to-collect-memory-data-by-using-the-command-line.md)|  
+|**Attach to a running process**|-   [.NET Framework Stand-Alone Applications](../profiling/9a869fa4-3c98-4e08-b5d9-f43523059f0e.md)<br />-   [ASP.NET Web Applications](../profiling/d608f85a-41ae-4ca7-85e6-b96624dbc83c.md)<br />-   [.NET Services](../profiling/aeac39af-ad99-479f-aa36-4104356ca512.md)|  
 |**Instrument modules**|-   [.NET Framework Stand-Alone Components](../profiling/d09cc46a-70f5-48f9-aa24-89913e67b359.md)<br />-   [Statically Compiled ASP.NET Web Applications](../profiling/ea1dcb7c-1dc3-49ff-9418-8795b5b3d3bc.md)<br />-   [Dynamically Compiled ASP.NET Web Applications](../profiling/2cdd9903-39db-47e8-93dd-5e6a21bc3435.md)<br />-   [.NET Services](../profiling/2fa072fc-05fe-4420-99c0-51d2ea3ac4ce.md)|  
   
 ##  <a name="BKMK_Using_the_concurrency_method_to_collect_resource_contention_and_thread_activity_data"></a> Using the concurrency method to collect resource contention and thread activity data  
@@ -93,7 +93,7 @@ Your choice of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profili
 |Task|Target application type|  
 |----------|-----------------------------|  
 |**Launch an application**|-   [Stand-Alone .NET Framework Application](../profiling/17a48848-bd3e-44ef-9971-e39836ff1df2.md)<br />-   [Stand-Alone Native Application](../profiling/e5aed651-afed-4b70-9a7e-1a6032cc614f.md)|  
-|**Attach to a running process**|-   [.NET Framework Stand-Alone Application](../profiling/fdd41576-797e-4312-8520-fee7bb767e4a.md)<br />-   [Native Stand-Alone Application](../profiling/12d3e0f3-4b74-4e66-8fbf-8ac99bd4f91c.md)<br />-   [ASP.NET Web Application](../profiling/0e215fdd-55f8-43ef-9534-06542eefe223.md)<br />-   [.NET Service](../profiling/how-to--attach-the-profiler-to-a-.net-service-to-collect-concurrency-data-by-using-the-command-line.md)<br />-   [Native Service](../profiling/283a1ee1-b43e-4daf-95ae-1311925a42a8.md)|  
+|**Attach to a running process**|-   [.NET Framework Stand-Alone Application](../profiling/fdd41576-797e-4312-8520-fee7bb767e4a.md)<br />-   [Native Stand-Alone Application](../profiling/12d3e0f3-4b74-4e66-8fbf-8ac99bd4f91c.md)<br />-   [ASP.NET Web Application](../profiling/0e215fdd-55f8-43ef-9534-06542eefe223.md)<br />-   [.NET Service](../profiling/ffbdfe37-8325-44be-bd36-2c8aab2dec7b.md)<br />-   [Native Service](../profiling/283a1ee1-b43e-4daf-95ae-1311925a42a8.md)|  
   
 ##  <a name="BKMK_Adding_tier_interaction_data_to_a_profiling_run"></a> Adding tier interaction data to a profiling run  
  Adding tier interaction data to a profiling run requires specific procedures with the command line profiling tools. See [Collecting tier interaction data](../profiling/adding-tier-interaction-data-from-the-command-line.md)  

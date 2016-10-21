@@ -1,5 +1,5 @@
 ---
-title: "Compiler Warning (level 1) CS2023 | Microsoft Docs"
+title: "Compiler Warning (level 1) CS2023"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

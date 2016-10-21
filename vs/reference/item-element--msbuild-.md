@@ -1,5 +1,5 @@
 ---
-title: "Item Element (MSBuild) | Microsoft Docs"
+title: "Item Element (MSBuild)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -37,7 +37,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Item Element (MSBuild)
-Contains a user-defined item and its metadata. Every item that is used in a [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] project must be specified as a child of an `ItemGroup` element.  
+Contains a user-defined item and its metadata. Every item that is used in a [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] project must be specified as a child of an `ItemGroup` element.  
   
  \<Project>  
  \<ItemGroup>  
@@ -87,7 +87,7 @@ Contains a user-defined item and its metadata. Every item that is used in a [!IN
   
  Using the notation `@(`*myType*`)` enables a collection of items of type *myType* to be expanded into a semicolon-delimited list of strings, and passed to a parameter. If the parameter is of type `string`, then the value of the parameter is the list of elements, separated by semicolons. If the parameter is an array of strings (`string[]`), then each element is inserted into the array based on the location of the semicolons. If the task parameter is of type <xref:Microsoft.Build.Framework.ITaskItem>`[]`, then the value is the contents of the item collection together with any metadata attached. To delimit each item by using a character other than a semicolon, use the syntax `@(`*myType*`, '`*separator*`')`.  
   
- The [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] engine can evaluate wildcards such as `*` and `?` and recursive wildcards such as `/**/*.cs`. For more information, see [Items](../reference/msbuild-items.md).  
+ The [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] engine can evaluate wildcards such as `*` and `?` and recursive wildcards such as `/**/*.cs`. For more information, see [Items](../reference/msbuild-items.md).  
   
 ## Example  
  The following code example shows how to declare two items of type `CSFile`. The second declared item contains metadata that has `MyMetadata` set to `HelloWorld`.  

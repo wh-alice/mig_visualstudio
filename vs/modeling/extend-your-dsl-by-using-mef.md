@@ -1,7 +1,7 @@
 ---
-title: "Extend your DSL by using MEF | Microsoft Docs"
+title: "Extend your DSL by using MEF"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""

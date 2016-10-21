@@ -1,7 +1,7 @@
 ---
-title: "Managed VSPackages | Microsoft Docs"
+title: "Managed VSPackages"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,10 +32,10 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Managed VSPackages
-The following topics explain how to create a VSPackage. A VSPackage is a software module that extends the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) by providing user interface (UI) elements, services, projects, editors, and designers. For more information, see [VSPackages](../extensibility/vspackages.md).  
+The following topics explain how to create a VSPackage. A VSPackage is a software module that extends the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) by providing user interface (UI) elements, services, projects, editors, and designers. For more information, see [VSPackages](../extensibility-internals/vspackages.md).  
   
 ## In This Section  
- [Using Visual Studio Interop Assemblies](../extensibility/using-visual-studio-interop-assemblies.md)  
+ [Using Visual Studio Interop Assemblies](../Topic/Using%20Visual%20Studio%20Interop%20Assemblies.md)  
  Describes the function and location of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] interop assemblies and the namespaces they provide.  
   
  [HRESULT Information in Managed Code](../misc/hresult-information-in-managed-code.md)  
@@ -47,9 +47,9 @@ The following topics explain how to create a VSPackage. A VSPackage is a softwar
  [VSPackages and the Managed Package Framework](../misc/vspackages-and-the-managed-package-framework.md)  
  Describes and lists the managed package framework (MPF) class namespaces and DLL files and shows how to use them to create a VSPackage.  
   
- [Resources in VSPackages](../extensibility/resources-in-vspackages.md)  
+ [Resources in VSPackages](../extensibility-internals/resources-in-vspackages.md)  
  Describes the use of managed and unmanaged resources in managed VSPackages.  
   
 ## Related Sections  
- [VSSDK Utilities](../extensibility/vssdk-utilities.md)  
+ [VSSDK Utilities](../extensibility-internals/vssdk-utilities.md)  
  Presents a collection of VSPackage internals and advanced topics.

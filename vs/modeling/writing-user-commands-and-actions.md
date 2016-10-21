@@ -1,5 +1,5 @@
 ---
-title: "Writing User Commands and Actions | Microsoft Docs"
+title: "Writing User Commands and Actions"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

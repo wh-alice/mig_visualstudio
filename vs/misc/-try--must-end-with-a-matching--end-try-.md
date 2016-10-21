@@ -1,5 +1,5 @@
 ---
-title: "&#39;Try&#39; must end with a matching &#39;End Try&#39; | Microsoft Docs"
+title: "&#39;Try&#39; must end with a matching &#39;End Try&#39;"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "SCVMM (virtual) environments | Microsoft Docs"
+title: "SCVMM (virtual) environments"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Modifying the Isolated Shell By Using the .Pkgdef File | Microsoft Docs"
+title: "Modifying the Isolated Shell By Using the .Pkgdef File"
 ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
@@ -132,7 +132,7 @@ The .pkgdef file supports settings that you can use to customize an isolated she
 ## Package Menu Item Settings  
  The [$RootKey$\Menus] registry key defines UI resource files for the application.  
   
- Menu item values have the form "{*vsUiPackageGuid*}"=", *resourceId*, *versionNumber*", where *vsUiPackageGuid* is the GUID of the application UI package, *resourceId* is the resource identifier of the CTMENU resource that contains the UI elements, and *versionNumber* is a virtual version number for the CTMENU resource. For more information, see [Registering Interop Assembly Command Handlers](../extensibility/registering-interop-assembly-command-handlers.md).  
+ Menu item values have the form "{*vsUiPackageGuid*}"=", *resourceId*, *versionNumber*", where *vsUiPackageGuid* is the GUID of the application UI package, *resourceId* is the resource identifier of the CTMENU resource that contains the UI elements, and *versionNumber* is a virtual version number for the CTMENU resource. For more information, see [Registering Interop Assembly Command Handlers](../Topic/Registering%20Interop%20Assembly%20Command%20Handlers.md).  
   
  By default, a menu item entry is created in the .pkgdef file for the application UI package.  
   

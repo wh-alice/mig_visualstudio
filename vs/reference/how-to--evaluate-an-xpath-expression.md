@@ -1,5 +1,5 @@
 ---
-title: "How to: Evaluate an XPath Expression | Microsoft Docs"
+title: "How to: Evaluate an XPath Expression"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

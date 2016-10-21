@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Error MSB4136 | Microsoft Docs"
+title: "MSBuild Error MSB4136"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -34,7 +34,7 @@ translation.priority.mt:
 # MSBuild Error MSB4136
 **MSB4136: Error reading the configuration information.**  
   
- [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] received an error when it tried to read the Toolset information in the [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] configuration file (msbuild.exe.config).  
+ [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] received an error when it tried to read the Toolset information in the [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] configuration file (msbuild.exe.config).  
   
 ### To correct this error  
   

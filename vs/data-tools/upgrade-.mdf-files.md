@@ -1,5 +1,5 @@
 ---
-title: "Upgrade .mdf files | Microsoft Docs"
+title: "Upgrade .mdf files"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

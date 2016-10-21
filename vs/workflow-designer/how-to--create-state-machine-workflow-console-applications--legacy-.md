@@ -1,5 +1,5 @@
 ---
-title: "How to: Create State Machine Workflow Console Applications (Legacy) | Microsoft Docs"
+title: "How to: Create State Machine Workflow Console Applications (Legacy)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: ".net-framework-4.6"

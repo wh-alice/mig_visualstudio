@@ -1,5 +1,5 @@
 ---
-title: "Resources processor error-warning: &lt;reason&gt; | Microsoft Docs"
+title: "Resources processor error-warning: &lt;reason&gt;"
 ms.custom: ""
 ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"

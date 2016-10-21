@@ -1,12 +1,12 @@
 ---
-title: "Compilation failed: &lt;message&gt; | Microsoft Docs"
+title: "Compilation failed: &lt;message&gt;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC2010"
 ms.assetid: 6ab41c48-5a80-4e83-8b97-dc27dbe61ee2
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

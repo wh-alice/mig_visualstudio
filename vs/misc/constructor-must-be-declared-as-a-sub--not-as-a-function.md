@@ -1,5 +1,5 @@
 ---
-title: "Constructor must be declared as a Sub, not as a Function | Microsoft Docs"
+title: "Constructor must be declared as a Sub, not as a Function"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

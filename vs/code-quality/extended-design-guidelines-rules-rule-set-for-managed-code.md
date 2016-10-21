@@ -1,5 +1,5 @@
 ---
-title: "Extended Design Guidelines Rules rule set for managed code | Microsoft Docs"
+title: "Extended Design Guidelines Rules rule set for managed code"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -72,11 +72,11 @@ The Microsoft Extended Design Guideline Rules rule set expands on the basic desi
 |[CA2124](../code-quality/ca2124--wrap-vulnerable-finally-clauses-in-outer-try.md)|Wrap vulnerable finally clauses in outer try|  
 |[CA2126](../code-quality/ca2126--type-link-demands-require-inheritance-demands.md)|Type link demands require inheritance demands|  
 |[CA2131](../code-quality/ca2131--security-critical-types-may-not-participate-in-type-equivalence.md)|Security critical types may not participate in type equivalence|  
-|[CA2132](../code-quality/ca2132--default-constructors-must-be-at-least-as-critical-as-base-type-default-constructors.md)|Default constructors must be at least as critical as base type default constructors|  
+|[CA2132](../code-quality/e758afa1-8bde-442a-8a0a-bd1ea7b0ce4d.md)|Default constructors must be at least as critical as base type default constructors|  
 |[CA2133](../code-quality/ca2133--delegates-must-bind-to-methods-with-consistent-transparency.md)|Delegates must bind to methods with consistent transparency|  
 |[CA2134](../code-quality/ca2134--methods-must-keep-consistent-transparency-when-overriding-base-methods.md)|Methods must keep consistent transparency when overriding base methods|  
 |[CA2137](../code-quality/ca2137--transparent-methods-must-contain-only-verifiable-il.md)|Transparent methods must contain only verifiable IL|  
-|[CA2138](../code-quality/ca2138--transparent-methods-must-not-call-methods-with-the-suppressunmanagedcodesecurity-attribute.md)|Transparent methods must not call methods with the SuppressUnmanagedCodeSecurity attribute|  
+|[CA2138](../code-quality/a14c4d32-f079-4f3a-956c-a1657cde0f66.md)|Transparent methods must not call methods with the SuppressUnmanagedCodeSecurity attribute|  
 |[CA2140](../code-quality/ca2140--transparent-code-must-not-reference-security-critical-items.md)|Transparent code must not reference security critical items|  
 |[CA2141](../code-quality/ca2141-transparent-methods-must-not-satisfy-linkdemands.md)|Transparent methods must not satisfy LinkDemands|  
 |[CA2146](../code-quality/ca2146--types-must-be-at-least-as-critical-as-their-base-types-and-interfaces.md)|Types must be at least as critical as their base types and interfaces|  

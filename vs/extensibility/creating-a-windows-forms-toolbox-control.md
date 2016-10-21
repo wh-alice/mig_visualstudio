@@ -1,5 +1,5 @@
 ---
-title: "Creating a Windows Forms Toolbox Control | Microsoft Docs"
+title: "Creating a Windows Forms Toolbox Control"
 ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"

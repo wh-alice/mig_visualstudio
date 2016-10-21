@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Exceptions: Microsoft.Office.Tools.RangeNotOnWorksheetException | Microsoft Docs"
+title: "Troubleshooting Exceptions: Microsoft.Office.Tools.RangeNotOnWorksheetException"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

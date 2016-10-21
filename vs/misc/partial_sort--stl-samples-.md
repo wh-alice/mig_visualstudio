@@ -1,5 +1,5 @@
 ---
-title: "partial_sort (STL Samples) | Microsoft Docs"
+title: "partial_sort (STL Samples)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

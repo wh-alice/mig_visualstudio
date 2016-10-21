@@ -1,5 +1,5 @@
 ---
-title: "Step 6: Name Your Button Controls | Microsoft Docs"
+title: "Step 6: Name Your Button Controls"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -58,7 +58,8 @@ Form1.cs tab with Visual C# code
   
 4.  Focus on this part of the code. (Choose the **VB** tab below if you're using Visual Basic to view the Visual Basic version of the code.)  
   
-     [!CODE [VbExpressTutorial1Step6#1](../CodeSnippet/VS_Snippets_VBCSharp/vbexpresstutorial1step6#1)]  
+     [!code[VbExpressTutorial1Step6#1](../ide/codesnippet/VisualBasic/step-6--name-your-button-controls_1.vb)]
+[!code[VbExpressTutorial1Step6#1](../ide/codesnippet/CSharp/step-6--name-your-button-controls_1.cs)]  
   
      You are looking at code called `showButton_Click()`. The IDE added this to the form's code when you opened the code file for the **showButton** button. At design-time, when you open the code file for a control in a form, code is generated for the control if it doesn't already exist. This code, known as a *method*, runs when you run your program and choose the control - in this case, the **Show a picture** button.  
   
@@ -74,7 +75,8 @@ Form1.cs tab with Visual C# code
   
      The following shows the new code that you see in the code editor.  
   
-     [!CODE [VbExpressTutorial1Step6#2](../CodeSnippet/VS_Snippets_VBCSharp/vbexpresstutorial1step6#2)]  
+     [!code[VbExpressTutorial1Step6#2](../ide/codesnippet/VisualBasic/step-6--name-your-button-controls_2.vb)]
+[!code[VbExpressTutorial1Step6#2](../ide/codesnippet/CSharp/step-6--name-your-button-controls_2.cs)]  
   
      The five methods that you added are called *event handlers*, because your program calls them whenever an event (like a user choosing a button or selecting a box) happens.  
   
@@ -82,7 +84,7 @@ Form1.cs tab with Visual C# code
   
      After you add an event handler for a control, you can return to it at any time from Windows Forms Designer by double-clicking the control, or on the menu bar, choosing **View**, **Code**.  
   
-     Names are important when you build programs, and methods (including event handlers) can have any name that you want. When you add an event handler with the IDE, it creates a name based on the control's name and the event being handled. For example, the Click event for a button named **showButton** is called the `showButton_Click()` event handler method. Also, opening and closing parentheses () are usually added after the method name to indicate that methods are being discussed. If you decide you want to change a code variable name, right-click the variable in the code and then choose **Refactor**, **Rename**. All instances of that variable in the code are renamed. See [Rename Refactoring (C#)](../csharp/rename-refactoring--csharp-.md) or [Refactoring and Rename Dialog Box](../Topic/Refactoring%20and%20Rename%20Dialog%20Box%20\(Visual%20Basic\).md) for more information.  
+     Names are important when you build programs, and methods (including event handlers) can have any name that you want. When you add an event handler with the IDE, it creates a name based on the control's name and the event being handled. For example, the Click event for a button named **showButton** is called the `showButton_Click()` event handler method. Also, opening and closing parentheses () are usually added after the method name to indicate that methods are being discussed. If you decide you want to change a code variable name, right-click the variable in the code and then choose **Refactor**, **Rename**. All instances of that variable in the code are renamed. See [Rename Refactoring (C#)](../csharp-ide/rename-refactoring--csharp-.md) or [Refactoring and Rename Dialog Box](../Topic/Refactoring%20and%20Rename%20Dialog%20Box%20\(Visual%20Basic\).md) for more information.  
   
 ### To continue or review  
   

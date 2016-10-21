@@ -1,5 +1,5 @@
 ---
-title: "Creating a UI by using Blend for Visual Studio | Microsoft Docs"
+title: "Creating a UI by using Blend for Visual Studio"
 ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"

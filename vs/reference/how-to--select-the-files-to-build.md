@@ -1,5 +1,5 @@
 ---
-title: "How to: Select the Files to Build | Microsoft Docs"
+title: "How to: Select the Files to Build"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -38,7 +38,7 @@ When you build a project that contains several files, you can list each file sep
 ## Specifying Inputs  
  Items represent the inputs for a build. For more information on items, see [Items](../reference/msbuild-items.md).  
   
- To include files for a build, they must be included in an item list in the [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] project file. Multiple files can be added to item lists by either including the files individually or using wildcards to include many files at once.  
+ To include files for a build, they must be included in an item list in the [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] project file. Multiple files can be added to item lists by either including the files individually or using wildcards to include many files at once.  
   
 #### To declare items individually  
   
@@ -110,7 +110,7 @@ When you build a project that contains several files, you can list each file sep
      `<VBC Sources="@(VBFile)">...</VBC>`  
   
 > [!NOTE]
->  You must use wildcards with items to specifiy the inputs for a build; you cannot specify the inputs using the `Sources` attribute in [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] tasks such as [Csc](../reference/csc-task.md) or [Vbc](../reference/vbc-task.md). The following example is not valid in a project file:  
+>  You must use wildcards with items to specifiy the inputs for a build; you cannot specify the inputs using the `Sources` attribute in [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] tasks such as [Csc](../reference/csc-task.md) or [Vbc](../reference/vbc-task.md). The following example is not valid in a project file:  
 >   
 >  `<CSC Sources="*.cs">...</CSC>`  
   

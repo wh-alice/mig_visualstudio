@@ -1,7 +1,7 @@
 ---
-title: "Invoking the Visual Studio Debugger for Windows Workflow Foundation (Legacy) | Microsoft Docs"
+title: "Invoking the Visual Studio Debugger for Windows Workflow Foundation (Legacy)"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""

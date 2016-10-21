@@ -1,5 +1,5 @@
 ---
-title: "CA2123: Override link demands should be identical to base | Microsoft Docs"
+title: "CA2123: Override link demands should be identical to base"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -59,7 +59,7 @@ translation.priority.ht:
 ## Example  
  The following example shows various violations of this rule.  
   
- [!CODE [FxCop.Security.OverridesAndSecurity#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Security.OverridesAndSecurity#1)]  
+ [!code[FxCop.Security.OverridesAndSecurity#1](../code-quality/codesnippet/CSharp/ca2123--override-link-demands-should-be-identical-to-base_1.cs)]  
   
 ## See Also  
  [Secure Coding Guidelines](../Topic/Secure%20Coding%20Guidelines.md)   

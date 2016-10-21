@@ -1,5 +1,5 @@
 ---
-title: "Query datasets | Microsoft Docs"
+title: "Query datasets"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.reviewer: ""
@@ -35,7 +35,8 @@ To search for specific records in a dataset,  use the FindBy method on the DataT
   
      In the following example, the `CustomerID` column is the primary key of the `Customers` table. This means that the generated `FindBy` method is `FindByCustomerID`. The example shows how to assign a specific <xref:System.Data.DataRow> to a variable by using the generated `FindBy` method.  
   
-     [!CODE [VbRaddataEditing#18](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataEditing#18)]  
+     [!code[VbRaddataEditing#18](../data-tools/codesnippet/CSharp/query-datasets_1.cs)]
+[!code[VbRaddataEditing#18](../data-tools/codesnippet/VisualBasic/query-datasets_1.vb)]  
   
 #### To find a row in an untyped dataset with a primary key value  
   
@@ -43,7 +44,8 @@ To search for specific records in a dataset,  use the FindBy method on the DataT
   
      The following example shows how to declare a new row called `foundRow` and assign it the return value of the <xref:System.Data.DataRowCollection.Find*> method. If the primary key is found, the contents of column index 1 are displayed in a message box.  
   
-     [!CODE [VbRaddataEditing#19](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataEditing#19)]  
+     [!code[VbRaddataEditing#19](../data-tools/codesnippet/CSharp/query-datasets_2.cs)]
+[!code[VbRaddataEditing#19](../data-tools/codesnippet/VisualBasic/query-datasets_2.vb)]  
   
 ## Findrows by column values  
   
@@ -53,7 +55,8 @@ To search for specific records in a dataset,  use the FindBy method on the DataT
   
      The following example shows how to use the <xref:System.Data.DataTable.Select*> method of the <xref:System.Data.DataTable> to locate specific rows.  
   
-     [!CODE [VbRaddataEditing#20](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataEditing#20)]  
+     [!code[VbRaddataEditing#20](../data-tools/codesnippet/CSharp/query-datasets_3.cs)]
+[!code[VbRaddataEditing#20](../data-tools/codesnippet/VisualBasic/query-datasets_3.vb)]  
   
 ## Accessrelated records  
  When tables in a dataset are related, a <xref:System.Data.DataRelation> object can make  the related records available in another table. For example, a dataset containing `Customers` and `Orders` tables can be made available.  
@@ -79,10 +82,12 @@ To search for specific records in a dataset,  use the FindBy method on the DataT
   
 -   Call the <xref:System.Data.DataRow.GetChildRows*> method of a specific `Customers` data row, and return an array of rows from the `Orders` table:  
   
-     [!CODE [VbRaddataDatasets#6](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataDatasets#6)]  
+     [!code[VbRaddataDatasets#6](../data-tools/codesnippet/CSharp/query-datasets_4.cs)]
+[!code[VbRaddataDatasets#6](../data-tools/codesnippet/VisualBasic/query-datasets_4.vb)]  
   
 #### To return the parent record of a selected child record  
   
 -   Call the <xref:System.Data.DataRow.GetParentRow*> method of a specific `Orders` data row, and return a single row from the `Customers` table:  
   
-     [!CODE [VbRaddataDatasets#7](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataDatasets#7)]
+     [!code[VbRaddataDatasets#7](../data-tools/codesnippet/CSharp/query-datasets_5.cs)]
+[!code[VbRaddataDatasets#7](../data-tools/codesnippet/VisualBasic/query-datasets_5.vb)]

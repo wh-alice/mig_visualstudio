@@ -1,12 +1,12 @@
 ---
-title: "Option -win32manifest ignored | Microsoft Docs"
+title: "Option -win32manifest ignored"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC2034"
 ms.assetid: 8009553a-f6ba-4d2b-8ddd-8a9357bc928e
 caps.latest.revision: 5
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,7 +1,7 @@
 ---
-title: "Drop-down Bar | Microsoft Docs"
+title: "Drop-down Bar"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -62,4 +62,4 @@ Drop-down bar
   
 ## See Also  
  [Customizing Code Windows by Using the Legacy API](../extensibility/customizing-code-windows-by-using-the-legacy-api.md)   
- [Support for the Navigation Bar in a Legacy Language Service](../extensibility/support-for-the-navigation-bar-in-a-legacy-language-service.md)
+ [Support for the Navigation Bar in a Legacy Language Service](../extensibility-internals/support-for-the-navigation-bar-in-a-legacy-language-service.md)

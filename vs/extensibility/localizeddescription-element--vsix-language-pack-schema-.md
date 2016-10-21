@@ -1,5 +1,5 @@
 ---
-title: "LocalizedDescription Element (VSIX Language Pack Schema) | Microsoft Docs"
+title: "LocalizedDescription Element (VSIX Language Pack Schema)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

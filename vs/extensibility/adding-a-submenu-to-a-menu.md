@@ -1,5 +1,5 @@
 ---
-title: "Adding a Submenu to a Menu | Microsoft Docs"
+title: "Adding a Submenu to a Menu"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -169,4 +169,4 @@ This walkthrough builds on the demonstration in [Adding a Menu to the Visual Stu
   
 ## See Also  
  [Adding a Menu to the Visual Studio Menu Bar](../extensibility/adding-a-menu-to-the-visual-studio-menu-bar.md)   
- [Commands, Menus, and Toolbars](../extensibility/commands--menus--and-toolbars.md)
+ [Commands, Menus, and Toolbars](../Topic/Commands,%20Menus,%20and%20Toolbars.md)

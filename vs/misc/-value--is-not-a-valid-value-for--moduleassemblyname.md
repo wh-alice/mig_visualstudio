@@ -1,12 +1,12 @@
 ---
-title: "&lt;value&gt; is not a valid value for -moduleassemblyname | Microsoft Docs"
+title: "&lt;value&gt; is not a valid value for -moduleassemblyname"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC2031"
 ms.assetid: 20955791-5e61-462f-bc2e-220ef3365968
 caps.latest.revision: 2
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

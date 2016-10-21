@@ -1,5 +1,5 @@
 ---
-title: "Visual Basic Run-Time Messages | Microsoft Docs"
+title: "Visual Basic Run-Time Messages"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -61,7 +61,7 @@ This section contains the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.m
   
  [Application-defined or object-defined error](../misc/application-defined-or-object-defined-error.md)  
   
- [Argument '\<argument1>' must be less than or equal to the length of argument '\<argument2>'](../misc/argument---argument1---must-be-less-than-or-equal-to-the-length-of-argument---argument2--.md)  
+ [Argument '\<argument1>' must be less than or equal to the length of argument '\<argument2>'](../misc/10765f81-79c5-44c2-89c5-888253105b78.md)  
   
  [Argument '\<argumentname>' cannot be a multidimensional array](../misc/argument---argumentname---cannot-be-a-multidimensional-array.md)  
   
@@ -99,7 +99,7 @@ This section contains the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.m
   
  [Argument '\<argumentname>' must be within the range 1 to 255](../misc/argument---argumentname---must-be-within-the-range-1-to-255.md)  
   
- [Argument '\<argumentname1>' must be less than or equal the length of argument '\<argumentname2>'](../misc/argument---argumentname1---must-be-less-than-or-equal-the-length-of-argument---argumentname2--.md)  
+ [Argument '\<argumentname1>' must be less than or equal the length of argument '\<argumentname2>'](../misc/55a2401f-a44d-4671-b35e-878f48594162.md)  
   
  [Argument 'Access' is not valid. Valid values for Append mode are 'OpenAccess.Write' and 'OpenAccess.Default'](../misc/f584056e-5eb7-401f-b43d-d08252e66d1c.md)  
   
@@ -129,7 +129,7 @@ This section contains the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.m
   
  [Argument 'Period' must be less than or equal to argument 'Life'](../misc/argument--period--must-be-less-than-or-equal-to-argument--life-.md)  
   
- [Argument value '\<pathname>' contains characters that are not valid in a path name](../misc/argument-value---pathname---contains-characters-that-are-not-valid-in-a-path-name.md)  
+ [Argument value '\<pathname>' contains characters that are not valid in a path name](../misc/3e1c61b3-888e-4dc3-a02c-a2e023dd7a07.md)  
   
  [Arguments are not valid](../misc/arguments-are-not-valid.md)  
   
@@ -159,11 +159,11 @@ This section contains the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.m
   
  [Cannot calculate rate using the arguments provided](../misc/cannot-calculate-rate-using-the-arguments-provided.md)  
   
- [Cannot call friend function on object which is not an instance of defining class](../misc/cannot-call-friend-function-on-object-which-is-not-an-instance-of-defining-class.md)  
+ [Cannot call friend function on object which is not an instance of defining class](../misc/b9d821f0-8565-4f15-bb35-184789c69662.md)  
   
  [Cannot convert argument '\<argumentname>' of type '\<type1>' to type '\<type2>'](../misc/cannot-convert-argument---argumentname---of-type---type1---to-type---type2--.md)  
   
- [Cannot convert start value of type '\<type1>' and step value of type '\<type2>' to a common type](../misc/cannot-convert-start-value-of-type---type1---and-step-value-of-type---type2---to-a-common-type.md)  
+ [Cannot convert start value of type '\<type1>' and step value of type '\<type2>' to a common type](../misc/ce400fe1-5edd-4aee-94d8-530be03cfd9a.md)  
   
  [Cannot convert start value of type '\<type1>', limit value of '\<type2>' and step value of '\<type3>' to a common type](../misc/21c45bcf-539c-488a-9cae-221558c37146.md)  
   
@@ -185,7 +185,7 @@ This section contains the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.m
   
  [Cast from type '\<typename1>' to type '\<typename2>' is not valid](../misc/cast-from-type---typename1---to-type---typename2---is-not-valid.md)  
   
- [Class '\<classname>' does not implement the System.Collections.ICollection interface](../misc/class---classname---does-not-implement-the-system.collections.icollection-interface.md)  
+ [Class '\<classname>' does not implement the System.Collections.ICollection interface](../misc/cc73bbc6-a283-41e0-b750-61ef553e83b3.md)  
   
  [Class does not support Automation or does not support expected interface](../Topic/Class%20does%20not%20support%20Automation%20or%20does%20not%20support%20expected%20interface.md)  
   
@@ -231,7 +231,7 @@ This section contains the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.m
   
  [Error number must be within the range 0 and 65535](../misc/error-number-must-be-within-the-range-0-and-65535.md)  
   
- [Expression '\<name>' is not a procedure, but occurs as the target of a procedure call](../misc/expression---name---is-not-a-procedure--but-occurs-as-the-target-of-a-procedure-call.md)  
+ [Expression '\<name>' is not a procedure, but occurs as the target of a procedure call](../misc/59169d44-a279-4aca-8f14-fba8d69d8959.md)  
   
  [Expression too complex](../Topic/Expression%20too%20complex.md)  
   
@@ -251,7 +251,7 @@ This section contains the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.m
   
  [File format not valid](../misc/file-format-not-valid.md)  
   
- [File I/O of a structure with field '\<fieldname>' of type '\<typename>' is not valid](../misc/file-i-o-of-a-structure-with-field---fieldname---of-type---typename---is-not-valid.md)  
+ [File I/O of a structure with field '\<fieldname>' of type '\<typename>' is not valid](../misc/028e936f-6210-4290-adb2-46298e13e160.md)  
   
  [File I/O with type '\<typename>' is not valid](../misc/file-i-o-with-type---typename---is-not-valid.md)  
   
@@ -279,7 +279,7 @@ This section contains the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.m
   
  [Get not supported at run time](../misc/get-not-supported-at-run-time.md)  
   
- [Implicit reference to object under construction is not valid when calling another constructor](../misc/implicit-reference-to-object-under-construction-is-not-valid-when-calling-another-constructor.md)  
+ [Implicit reference to object under construction is not valid when calling another constructor](../misc/558a2beb-aa5d-41a8-8655-ad3d16ac8acd.md)  
   
  [Input past end of file](../Topic/Input%20past%20end%20of%20file.md)  
   
@@ -309,7 +309,7 @@ This section contains the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.m
   
  [Locale ID '\<name>' is not supported on this system](../misc/locale-id---name---is-not-supported-on-this-system.md)  
   
- [Loop control variable of type '\<typename>' does not implement the 'System.IComparable' interface](../misc/loop-control-variable-of-type---typename---does-not-implement-the--system.icomparable--interface.md)  
+ [Loop control variable of type '\<typename>' does not implement the 'System.IComparable' interface](../misc/8dba1270-380a-4f05-8bad-1031e6a9cc90.md)  
   
  [Managed classes derived from a COM class cannot be called late-bound.](../misc/managed-classes-derived-from-a-com-class-cannot-be-called-late-bound..md)  
   
@@ -335,7 +335,7 @@ This section contains the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.m
   
  [No accessible overloaded '\<methodname>' can be called with these arguments without a widening conversion: \<list>](../misc/5e74f5cf-80bd-4b48-b58a-465f981ec694.md)  
   
- [No accessible overloaded '\<methodname>' can be called with these arguments: \<list>](../misc/no-accessible-overloaded---methodname---can-be-called-with-these-arguments---list-.md)  
+ [No accessible overloaded '\<methodname>' can be called with these arguments: \<list>](../misc/78d4c7ed-5e18-47d4-948d-fa8b24e47214.md)  
   
  [No default member found for type '\<typename>'](../misc/no-default-member-found-for-type---typename--.md)  
   
@@ -453,7 +453,7 @@ This section contains the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.m
   
  [Specified registry key does not exist](../misc/specified-registry-key-does-not-exist.md)  
   
- [Specified registry key is not valid because it contains two or more consecutive backslashes](../misc/specified-registry-key-is-not-valid-because-it-contains-two-or-more-consecutive-backslashes.md)  
+ [Specified registry key is not valid because it contains two or more consecutive backslashes](../misc/0d78b6f7-5759-45b4-8c37-c6902ada76ff.md)  
   
  [Specified registry path does not start with a valid hive name](../misc/specified-registry-path-does-not-start-with-a-valid-hive-name.md)  
   
@@ -547,7 +547,7 @@ This section contains the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.m
   
  [Unable to sink events of object because the object is already firing events to the maximum number of event receivers it supports](../misc/e40b19a2-8100-43ff-a1a4-0ddee3cc7f9a.md)  
   
- [Unable to write to log file because writing to it would cause it to exceed MaximumSize value](../misc/unable-to-write-to-log-file-because-writing-to-it-would-cause-it-to-exceed-maximumsize-value.md)  
+ [Unable to write to log file because writing to it would cause it to exceed MaximumSize value](../misc/61747a9c-e460-424b-a365-73cdba9dd428.md)  
   
  [Unable to write to log file because writing to it would reduce free disk space below ReservedSpace value](../misc/95832e70-4ecc-47aa-90c1-f35c4d468151.md)  
   
@@ -555,7 +555,7 @@ This section contains the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.m
   
  [Use 'FilePutObject' instead of 'FilePut' when using argument of type 'Object'](../misc/use--fileputobject--instead-of--fileput--when-using-argument-of-type--object-.md)  
   
- [Use of Default Instance of a class in the class constructor could lead to infinite recursive call](../misc/use-of-default-instance-of-a-class-in-the-class-constructor-could-lead-to-infinite-recursive-call.md)  
+ [Use of Default Instance of a class in the class constructor could lead to infinite recursive call](../misc/9645b47f-7de5-46d0-bb45-d5fdaa8aaa2a.md)  
   
  [User interrupt occurred](../misc/user-interrupt-occurred.md)  
   
@@ -571,7 +571,7 @@ This section contains the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.m
   
  [You must specify a name](../misc/you-must-specify-a-name.md)  
   
- [You must specify a path that is under the current folder or one of its sub-folders](../misc/you-must-specify-a-path-that-is-under-the-current-folder-or-one-of-its-sub-folders.md)  
+ [You must specify a path that is under the current folder or one of its sub-folders](../misc/8717dabd-a9a7-4d4d-8b21-004b5ce7e652.md)  
   
 ## See Also  
  [NOTINBUILD How to: Get Information about Visual Basic Run-Time Errors](http://msdn.microsoft.com/en-us/22a7d0a6-b7d7-4c5d-971c-52ff0583c656)   

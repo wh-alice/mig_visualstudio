@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB2008 | Microsoft Docs"
+title: "MSBuild Error MSB2008"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,7 +36,7 @@ translation.priority.mt:
 # MSBuild Error MSB2008
 **The Visual Studio project system cannot convert "{0}" projects. It can only be used to convert C# and VB client projects.**  
   
- Only valid [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] and [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] projects can be converted using [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)].  
+ Only valid [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] and [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] projects can be converted using [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)].  
   
 ### To correct this error  
   

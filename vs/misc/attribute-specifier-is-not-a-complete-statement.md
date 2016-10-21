@@ -1,5 +1,5 @@
 ---
-title: "Attribute specifier is not a complete statement | Microsoft Docs"
+title: "Attribute specifier is not a complete statement"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

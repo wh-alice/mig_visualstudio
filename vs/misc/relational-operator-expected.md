@@ -1,5 +1,5 @@
 ---
-title: "Relational operator expected | Microsoft Docs"
+title: "Relational operator expected"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

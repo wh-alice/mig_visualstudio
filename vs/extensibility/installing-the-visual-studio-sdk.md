@@ -1,5 +1,5 @@
 ---
-title: "Installing the Visual Studio SDK | Microsoft Docs"
+title: "Installing the Visual Studio SDK"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

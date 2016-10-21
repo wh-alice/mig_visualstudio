@@ -1,5 +1,5 @@
 ---
-title: "DLL error. Could not create object with class ID &lt;number&gt;. | Microsoft Docs"
+title: "DLL error. Could not create object with class ID &lt;number&gt;."
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

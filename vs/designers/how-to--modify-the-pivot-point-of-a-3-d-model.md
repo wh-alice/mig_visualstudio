@@ -1,5 +1,5 @@
 ---
-title: "How to: Modify the Pivot Point of a 3-D Model | Microsoft Docs"
+title: "How to: Modify the Pivot Point of a 3-D Model"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

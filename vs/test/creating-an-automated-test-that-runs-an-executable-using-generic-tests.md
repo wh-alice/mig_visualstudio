@@ -1,5 +1,5 @@
 ---
-title: "Creating an Automated Test That Runs an Executable Using Generic Tests | Microsoft Docs"
+title: "Creating an Automated Test That Runs an Executable Using Generic Tests"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

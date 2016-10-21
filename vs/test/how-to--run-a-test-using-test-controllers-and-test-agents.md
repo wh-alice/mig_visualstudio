@@ -1,5 +1,5 @@
 ---
-title: "How to: Run a Test Using Test Controllers and Test Agents | Microsoft Docs"
+title: "How to: Run a Test Using Test Controllers and Test Agents"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -80,4 +80,4 @@ After you create a test and run the test and it passes, you might want to procee
   
 ## See Also  
  [How to: Run Tests from Microsoft Visual Studio](../test/how-to--run-tests-from-microsoft-visual-studio.md)   
- [How to: Run a Load Test Using Test Controllers and Test Agents Specified in a Test Setting](../test_notintoc/how-to--run-a-load-test-using-test-controllers-and-test-agents-specified-in-a-test-setting.md)
+ [How to: Run a Load Test Using Test Controllers and Test Agents Specified in a Test Setting](../test_notintoc/e08eb231-55b7-4d9c-9be5-4fe1051a12b7.md)

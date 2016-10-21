@@ -1,5 +1,5 @@
 ---
-title: "Define Element | Microsoft Docs"
+title: "Define Element"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -68,4 +68,4 @@ Defines a symbol name and value pair. This symbol can be evaluated by conditiona
 ```  
   
 ## See Also  
- [Visual Studio Command Table (.Vsct) Files](../extensibility/visual-studio-command-table--.vsct--files.md)
+ [Visual Studio Command Table (.Vsct) Files](../Topic/Visual%20Studio%20Command%20Table%20\(.Vsct\)%20Files.md)

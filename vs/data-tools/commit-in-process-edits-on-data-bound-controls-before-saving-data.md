@@ -1,5 +1,5 @@
 ---
-title: "Commit in-process edits on data-bound controls before saving data | Microsoft Docs"
+title: "Commit in-process edits on data-bound controls before saving data"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
@@ -55,11 +55,13 @@ When editing values in data-bound controls, users must navigate off the current 
   
 1.  Add the following code to the form that contains the <xref:System.Windows.Forms.BindingSource> components.  
   
-     [!CODE [VSProDataOrcasEndEditOnAll#1](../CodeSnippet/VS_Snippets_VBCSharp/VSProDataOrcasEndEditOnAll#1)]  
+     [!code[VSProDataOrcasEndEditOnAll#1](../data-tools/codesnippet/CSharp/commit-in-process-edits-on-data-bound-controls-before-saving-data_1.cs)]
+[!code[VSProDataOrcasEndEditOnAll#1](../data-tools/codesnippet/VisualBasic/commit-in-process-edits-on-data-bound-controls-before-saving-data_1.vb)]  
   
 2.  Add the following line of code immediately before any calls to save the form's data (the `TableAdapterManager.UpdateAll()` method):  
   
-     [!CODE [VSProDataOrcasEndEditOnAll#2](../CodeSnippet/VS_Snippets_VBCSharp/VSProDataOrcasEndEditOnAll#2)]  
+     [!code[VSProDataOrcasEndEditOnAll#2](../data-tools/codesnippet/CSharp/commit-in-process-edits-on-data-bound-controls-before-saving-data_2.cs)]
+[!code[VSProDataOrcasEndEditOnAll#2](../data-tools/codesnippet/VisualBasic/commit-in-process-edits-on-data-bound-controls-before-saving-data_2.vb)]  
   
 ## See Also  
  [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)   

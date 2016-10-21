@@ -1,5 +1,5 @@
 ---
-title: "Adding a Tool Window | Microsoft Docs"
+title: "Adding a Tool Window"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -290,4 +290,4 @@ public System.Windows.Controls.MediaElement MediaPlayer
      You should hear the chime sound.  
   
 ## See Also  
- [Commands, Menus, and Toolbars](../extensibility/commands--menus--and-toolbars.md)
+ [Commands, Menus, and Toolbars](../Topic/Commands,%20Menus,%20and%20Toolbars.md)

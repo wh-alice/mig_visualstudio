@@ -1,7 +1,7 @@
 ---
-title: "Adding and Removing Property Pages | Microsoft Docs"
+title: "Adding and Removing Property Pages"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -219,4 +219,4 @@ The Project Designer provides a centralized location for managing project proper
 >  All code examples provided in this topic are parts of a larger example, [VSSDK Samples](../misc/vssdk-samples.md).  
   
 ## See Also  
- [Project Subtypes](../extensibility/project-subtypes.md)
+ [Project Subtypes](../extensibility-internals/project-subtypes.md)

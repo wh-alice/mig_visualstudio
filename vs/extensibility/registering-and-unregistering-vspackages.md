@@ -1,5 +1,5 @@
 ---
-title: "Registering and Unregistering VSPackages | Microsoft Docs"
+title: "Registering and Unregistering VSPackages"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -35,7 +35,7 @@ translation.priority.mt:
 You use attributes to register a VSPackage, but  
   
 ## Registering a VSPackage  
- You can use attributes to control the registration of managed VSPackages. All registration information is contained in a .pkgdef file. For more information on file-based registration, see [CreatePkgDef Utility](../extensibility/createpkgdef-utility.md).  
+ You can use attributes to control the registration of managed VSPackages. All registration information is contained in a .pkgdef file. For more information on file-based registration, see [CreatePkgDef Utility](../extensibility-internals/createpkgdef-utility.md).  
   
  The following code shows how to use the standard registration attributes to register your VSPackage.  
   
@@ -62,4 +62,4 @@ public sealed class BasicPackage : Package
 ```  
   
 ## See Also  
- [VSPackages](../extensibility/vspackages.md)
+ [VSPackages](../extensibility-internals/vspackages.md)

@@ -1,5 +1,5 @@
 ---
-title: "Start Page Architecture | Microsoft Docs"
+title: "Start Page Architecture"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

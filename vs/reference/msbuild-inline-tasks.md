@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Inline Tasks | Microsoft Docs"
+title: "MSBuild Inline Tasks"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

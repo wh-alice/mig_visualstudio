@@ -1,7 +1,7 @@
 ---
-title: "Visual Studio Extensibility Architecture | Microsoft Docs"
+title: "Visual Studio Extensibility Architecture"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -37,7 +37,7 @@ The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated develop
 ## Extensibility Architecture  
  The following illustration shows the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] extensibility architecture. Note that the concept of software application is absent. Instead, the IDE hosts software components, called VSPackages, that provide application functionality. This functionality, in turn, is shared across the IDE as services. VSPackages offer services that they and other VSPackages use. The standard IDE also offers a broad range of services, such as <xref:Microsoft.VisualStudio.Shell.Interop.SVsUIShell>, which provide access to the IDE windowing functionality.  
   
- ![Environment Architecture graphic](../extensibility/media/environment.gif "environment")  
+ ![Environment Architecture graphic](../misc/media/environment.gif "environment")  
 Generalized view of the Visual Studio architecture  
   
  Notice that the relationship between VSPackages and services is bidirectional. Although VSPackages use services offered by others, they also can offer services of their own by using the <xref:Microsoft.VisualStudio.Shell.Interop.IProfferService> interface. This service-based architecture grew out of the Microsoft ActiveX Designer implementation, in which a service is a group of related interfaces that perform a task. From a strict COM viewpoint, all the interfaces of a particular service must be implemented in a single COM class.  
@@ -83,7 +83,7 @@ Generalized view of the Visual Studio architecture
 -   Providing extensions for built-in UI elements, such as task items, toolbox items, and the Options dialog box.  
   
 ## See Also  
- [Visual Studio Shell](../extensibility/visual-studio-shell.md)   
- [VSPackages](../extensibility/vspackages.md)   
+ [Visual Studio Shell](../Topic/Visual%20Studio%20Shell.md)   
+ [VSPackages](../extensibility-internals/vspackages.md)   
  [Using and Providing Services](../extensibility/using-and-providing-services.md)   
  [How to: Get a Service](../extensibility/how-to--get-a-service.md)

@@ -1,5 +1,5 @@
 ---
-title: "CommandPlacements Element | Microsoft Docs"
+title: "CommandPlacements Element"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -82,4 +82,4 @@ The CommandPlacements element groups CommandPlacement elements and other Command
   
 ## See Also  
  [CommandPlacement Element](../extensibility/commandplacement-element.md)   
- [Visual Studio Command Table (.Vsct) Files](../extensibility/visual-studio-command-table--.vsct--files.md)
+ [Visual Studio Command Table (.Vsct) Files](../Topic/Visual%20Studio%20Command%20Table%20\(.Vsct\)%20Files.md)

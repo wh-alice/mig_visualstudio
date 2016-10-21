@@ -1,7 +1,7 @@
 ---
-title: "Walkthrough: Creating a TableAdapter with Multiple Queries | Microsoft Docs"
+title: "Walkthrough: Creating a TableAdapter with Multiple Queries"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -155,7 +155,8 @@ In this walkthrough, you will create a TableAdapter in a dataset using the [Data
   
 4.  Replace the code in the `Form1_Load` event handler with the following to run the `FillByCity` query.  
   
-     [!CODE [VbRaddataTableAdapters#1](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataTableAdapters#1)]  
+     [!code[VbRaddataTableAdapters#1](../data-tools/codesnippet/VisualBasic/walkthrough--creating-a-tableadapter-with-multiple-queries_1.vb)]
+[!code[VbRaddataTableAdapters#1](../data-tools/codesnippet/CSharp/walkthrough--creating-a-tableadapter-with-multiple-queries_1.cs)]  
   
 ## Running the Application  
   

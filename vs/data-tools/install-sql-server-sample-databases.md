@@ -1,5 +1,5 @@
 ---
-title: "Install SQL Server sample databases | Microsoft Docs"
+title: "Install SQL Server sample databases"
 ms.custom: ""
 ms.date: "10/07/2016"
 ms.reviewer: ""

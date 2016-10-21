@@ -1,5 +1,5 @@
 ---
-title: "CA1814: Prefer jagged arrays over multidimensional | Microsoft Docs"
+title: "CA1814: Prefer jagged arrays over multidimensional"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -57,4 +57,5 @@ translation.priority.ht:
 ## Example  
  The following example shows declarations for jagged and multidimensional arrays.  
   
- [!CODE [FxCop.Performance.JaggedArrays#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Performance.JaggedArrays#1)]
+ [!code[FxCop.Performance.JaggedArrays#1](../code-quality/codesnippet/VisualBasic/ca1814--prefer-jagged-arrays-over-multidimensional_1.vb)]
+[!code[FxCop.Performance.JaggedArrays#1](../code-quality/codesnippet/CSharp/ca1814--prefer-jagged-arrays-over-multidimensional_1.cs)]

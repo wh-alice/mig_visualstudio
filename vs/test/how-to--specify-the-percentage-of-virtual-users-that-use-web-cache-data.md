@@ -1,5 +1,5 @@
 ---
-title: "How to: Specify the Percentage of Virtual Users that Use Web Cache Data | Microsoft Docs"
+title: "How to: Specify the Percentage of Virtual Users that Use Web Cache Data"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -64,7 +64,7 @@ After you create your load test with the **New Load Test Wizard**, you can chang
  [Editing Load Test Scenarios](../test/editing-load-test-scenarios-using-the-load-test-editor.md)   
  [Creating load tests](../test_notintoc/creating-load-tests.md)   
  [Creating Additional Scenarios for an Existing Load Test](../test_notintoc/creating-additional-scenarios-for-an-existing-load-test.md)   
- [Distributing Load Test Runs Across Multiple Test Machines Using Test Controllers and Test Agents](../test/distributing-load-test-runs-across-multiple-test-machines-using-test-controllers-and-test-agents.md)   
- [How to: Run a Load Test Using Test Controllers and Test Agents Specified in a Test Setting](../test_notintoc/how-to--run-a-load-test-using-test-controllers-and-test-agents-specified-in-a-test-setting.md)   
+ [Distributing Load Test Runs Across Multiple Test Machines Using Test Controllers and Test Agents](../test/6e67a587-8aad-48cc-a8c0-6d4b399f3731.md)   
+ [How to: Run a Load Test Using Test Controllers and Test Agents Specified in a Test Setting](../test_notintoc/e08eb231-55b7-4d9c-9be5-4fe1051a12b7.md)   
  [Load Test Scenario Properties](../test/load-test-scenario-properties.md)   
  [Editing Load Patterns to Model Virtual User Activities](../test/editing-load-patterns-to-model-virtual-user-activities.md)

@@ -1,5 +1,5 @@
 ---
-title: "Predicate Version of inplace_merge | Microsoft Docs"
+title: "Predicate Version of inplace_merge"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

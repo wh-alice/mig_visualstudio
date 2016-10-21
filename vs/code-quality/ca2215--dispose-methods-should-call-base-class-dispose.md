@@ -1,5 +1,5 @@
 ---
-title: "CA2215: Dispose methods should call base class dispose | Microsoft Docs"
+title: "CA2215: Dispose methods should call base class dispose"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -59,12 +59,12 @@ translation.priority.mt:
 ## Example  
  The following example shows a type `TypeA` that implements <xref:System.IDisposable>.  
   
- [!CODE [FxCop.Usage.IDisposablePattern#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Usage.IDisposablePattern#1)]  
+ [!code[FxCop.Usage.IDisposablePattern#1](../code-quality/codesnippet/CSharp/ca2215--dispose-methods-should-call-base-class-dispose_1.cs)]  
   
 ## Example  
  The following example shows a type `TypeB` that inherits from type `TypeA` and correctly calls its <xref:System.IDisposable.Dispose*> method.  
   
- [!CODE [FxCop.Usage.IDisposableBaseCalled#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Usage.IDisposableBaseCalled#1)]  
+ [!code[FxCop.Usage.IDisposableBaseCalled#1](../code-quality/codesnippet/VisualBasic/ca2215--dispose-methods-should-call-base-class-dispose_2.vb)]  
   
 ## See Also  
  <xref:System.IDisposable?displayProperty=fullName>   

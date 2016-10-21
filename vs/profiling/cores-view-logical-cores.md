@@ -1,5 +1,5 @@
 ---
-title: "Cores View Logical Cores | Microsoft Docs"
+title: "Cores View Logical Cores"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

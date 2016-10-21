@@ -1,5 +1,5 @@
 ---
-title: "How to: Create and Execute an SQL Statement that Returns a Single Value | Microsoft Docs"
+title: "How to: Create and Execute an SQL Statement that Returns a Single Value"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -99,7 +99,8 @@ To execute an SQL statement that returns a single value, you can run a TableAdap
   
 3.  You will likely need to assign the value returned by the query to a variable. TableAdapter queries that return a single value return a data type based on the query (as opposed to the `ExecuteScalar` method, which returns an object). For example, if your TableAdapter query selects a single column whose data type is an integer, then the return value of the query is an integer. If the column allows null values, the return value is one of the nullable types (for example, `Nullable(Of Integer)`). For more information on nullable types, see <xref:System.Nullable>. The complete code to declare an instance of a TableAdapter and execute a query should look similar to the following (this example assumes the return value is an integer; adjust your code according to the data type returned by your query):  
   
-     [!CODE [VbRaddataFillingAndExecuting#9](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataFillingAndExecuting#9)]  
+     [!code[VbRaddataFillingAndExecuting#9](../data-tools/codesnippet/CSharp/how-to--create-and-execute-an-sql-statement-that-returns-a-single-value_1.cs)]
+[!code[VbRaddataFillingAndExecuting#9](../data-tools/codesnippet/VisualBasic/how-to--create-and-execute-an-sql-statement-that-returns-a-single-value_1.vb)]  
   
 ## Executing SQL Statements that Return Single Values Using a Command Object  
  The following example shows how to create a command and execute an SQL statement that returns a single value. For information on setting and getting parameter values for a command, see [How to: Set and Get Parameters for Command Objects](../Topic/How%20to:%20Set%20and%20Get%20Parameters%20for%20Command%20Objects.md).  
@@ -116,7 +117,8 @@ To execute an SQL statement that returns a single value, you can run a TableAdap
   
 -   Add the following code to a method that you want to execute the code from. You return a single value by calling the `ExecuteScalar` method of a command (for example, <xref:System.Data.SqlClient.SqlCommand.ExecuteScalar*>). The data is returned in an <xref:System.Object>.  
   
-     [!CODE [VbRaddataFillingAndExecuting#10](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataFillingAndExecuting#10)]  
+     [!code[VbRaddataFillingAndExecuting#10](../data-tools/codesnippet/CSharp/how-to--create-and-execute-an-sql-statement-that-returns-a-single-value_2.cs)]
+[!code[VbRaddataFillingAndExecuting#10](../data-tools/codesnippet/VisualBasic/how-to--create-and-execute-an-sql-statement-that-returns-a-single-value_2.vb)]  
   
 ## .NET Framework Security  
  The application requires permission to access the database and execute the SQL statement.  

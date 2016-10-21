@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Reference | Microsoft Docs"
+title: "MSBuild Reference"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,23 +36,23 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # MSBuild Reference
-[!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] is the build system for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. The following links lead to topics that contain [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] reference information.  
+[!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] is the build system for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. The following links lead to topics that contain [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] reference information.  
   
 ## In This Section  
  [Project File Schema Reference](../reference/msbuild-project-file-schema-reference.md)  
- Describes the XML elements that make up the [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] file format.  
+ Describes the XML elements that make up the [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] file format.  
   
  [Task Reference](../reference/msbuild-task-reference.md)  
- Describes some of the typical tasks that are included with [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)].  
+ Describes some of the typical tasks that are included with [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)].  
   
  [Conditions](../reference/msbuild-conditions.md)  
- Describes the conditions that are available in [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] files.  
+ Describes the conditions that are available in [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] files.  
   
  [Conditional Constructs](../reference/msbuild-conditional-constructs.md)  
  Describes how to use the `Choose`, `When`, and `Otherwise` elements.  
   
  [MSBuild Reserved and Well-Known Properties](../reference/msbuild-reserved-and-well-known-properties.md)  
- Describes the [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] reserved properties.  
+ Describes the [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] reserved properties.  
   
  [Common MSBuild Project Properties](../reference/common-msbuild-project-properties.md)  
  Describes project properties that are common to all project types, and also properties that are often used by particular project types.  
@@ -61,10 +61,10 @@ translation.priority.ht:
  Describes project items that are common to all project types, and also items that are often used by particular project types.  
   
  [Command-Line Reference](../reference/msbuild-command-line-reference.md)  
- Describes the arguments and switches that can be used with [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)].exe.  
+ Describes the arguments and switches that can be used with [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)].exe.  
   
  [.Targets Files](../reference/msbuild-.targets-files.md)  
- Describes the .Targets file that is included in [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)].  
+ Describes the .Targets file that is included in [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)].  
   
  [Well-known Item Metadata](../reference/msbuild-well-known-item-metadata.md)  
  Lists the metadata that is created together with every item.  
@@ -73,17 +73,17 @@ translation.priority.ht:
  Explains the .rsp files that contain command-line switches.  
   
  [Additional Resources](../reference/additional-resources-for-msbuild.md)  
- Provides links to [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] Web sites and newsgroups.  
+ Provides links to [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] Web sites and newsgroups.  
   
  [WPF MSBuild Reference](../reference/wpf-msbuild-reference.md)  
- Contains an [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] targets and task reference for Windows Presentation Foundation (WPF).  
+ Contains an [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] targets and task reference for Windows Presentation Foundation (WPF).  
   
  [Special Characters to Escape](../reference/special-characters-to-escape.md)  
  Lists the characters that may have to be "escaped" to be interpreted correctly. An escape sequence is a series of characters that signifies that what follows is an alternative interpretation.  
   
 ## Related Sections  
  [MSBuild Overview  ](https://www.microsoftonedoc.com/#/organizations/e6f6a65cf14f462597b64ac058dbe1d0/projects/3fedad16-eaf1-41a6-8f96-0c1949c68f32/containers/a3daf831-1c5f-4bbe-964d-503870caf874/tocpaths/d920ff78-3d00-482b-80a5-743ae3c8ab10/locales/en-US)
- Introduces [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] and provides links to topics that explain how to use it to build projects.  
+ Introduces [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] and provides links to topics that explain how to use it to build projects.  
   
  <xref:Microsoft.Build.Conversion>  
  Contains the Conversion namespace reference  

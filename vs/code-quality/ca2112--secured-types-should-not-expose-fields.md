@@ -1,5 +1,5 @@
 ---
-title: "CA2112: Secured types should not expose fields | Microsoft Docs"
+title: "CA2112: Secured types should not expose fields"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -59,17 +59,17 @@ translation.priority.ht:
   
  The following library code violates the rule.  
   
- [!CODE [FxCop.Security.LinkDemandOnField#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Security.LinkDemandOnField#1)]  
+ [!code[FxCop.Security.LinkDemandOnField#1](../code-quality/codesnippet/CSharp/ca2112--secured-types-should-not-expose-fields_1.cs)]  
   
 ## Example  
  The application cannot create an instance because of the link demand that protects the secured type. The following class enables the application to obtain an instance of the secured type.  
   
- [!CODE [FxCop.Security.LDOnFieldsDistributor#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Security.LDOnFieldsDistributor#1)]  
+ [!code[FxCop.Security.LDOnFieldsDistributor#1](../code-quality/codesnippet/CSharp/ca2112--secured-types-should-not-expose-fields_2.cs)]  
   
 ## Example  
  The following application illustrates how, without permission to access a secured type's methods, code can access its fields.  
   
- [!CODE [FxCop.Security.TestLinkDemandOnFields#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Security.TestLinkDemandOnFields#1)]  
+ [!code[FxCop.Security.TestLinkDemandOnFields#1](../code-quality/codesnippet/CSharp/ca2112--secured-types-should-not-expose-fields_3.cs)]  
   
  This example produces the following output.  
   

@@ -1,5 +1,5 @@
 ---
-title: "Integral to Floating | Microsoft Docs"
+title: "Integral to Floating"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

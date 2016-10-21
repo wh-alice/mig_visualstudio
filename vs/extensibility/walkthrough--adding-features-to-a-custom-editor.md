@@ -1,7 +1,7 @@
 ---
-title: "Walkthrough: Adding Features to a Custom Editor | Microsoft Docs"
+title: "Walkthrough: Adding Features to a Custom Editor"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -132,7 +132,7 @@ After you create a custom editor, you can add more features to it.
   
 13. Expose an Automation Object Model from your editor by implementing the `IDispatch` interface.  
   
-     For more information, see [Contributing to the Automation Model](../extensibility/contributing-to-the-automation-model.md).  
+     For more information, see [Contributing to the Automation Model](../extensibility-internals/contributing-to-the-automation-model.md).  
   
 ## Robust Programming  
   
@@ -166,5 +166,5 @@ After you create a custom editor, you can add more features to it.
     -   `Window.Object`  
   
 ## See Also  
- [Contributing to the Automation Model](../extensibility/contributing-to-the-automation-model.md)   
+ [Contributing to the Automation Model](../extensibility-internals/contributing-to-the-automation-model.md)   
  [How to: Provide Context for Editors](../extensibility/how-to--provide-context-for-editors.md)

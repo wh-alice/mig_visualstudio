@@ -1,5 +1,5 @@
 ---
-title: "Unit Test Your Code | Microsoft Docs"
+title: "Unit Test Your Code"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -56,7 +56,7 @@ Unit tests give developers and testers a quick way to look for logic errors in t
 |-----------|-----------------------|  
 |**Quick starts and walkthroughs:** Use the following topics to learn unit testing in Visual Studio from code examples.|-   [Walkthrough: Creating and Running Unit Tests for Managed Code](../code-quality/walkthrough--creating-and-running-unit-tests-for-managed-code.md)<br />-   [Quick Start: Test Driven Development with Test Explorer](../code-quality/quick-start--test-driven-development-with-test-explorer.md)<br />-   [Adding unit tests to existing C++ applications](../code-quality/unit-testing-existing-c---applications-with-test-explorer.md)<br />-   [Unit testing native code with Test Explorer](http://msdn.microsoft.com/en-us/8a09d6d8-3613-49d8-9ffe-11375ac4736c)|  
 |**Unit testing with Test Explorer:** Learn how Test Explorer can help create more productive and efficient unit tests.|-   [Unit Test Basics](../code-quality/unit-test-basics.md)<br />-   [Create a unit test project](../code-quality/create-a-unit-test-project.md)<br />-   [Run unit tests with Test Explorer](../code-quality/run-unit-tests-with-test-explorer.md)<br />-   [Install third-party unit test frameworks](../code-quality/install-third-party-unit-test-frameworks.md)<br />-   [Upgrading Unit Tests from Visual Studio 2010](http://msdn.microsoft.com/en-us/9bb75856-f68a-4de2-a084-b08a947a1172)|  
-|**Unit testing managed code:**|-   [Writing Unit Tests for the .NET Framework with the Microsoft Unit Test Framework for Managed Code](../code-quality/writing-unit-tests-for-the-.net-framework-with-the-microsoft-unit-test-framework-for-managed-code.md)|  
+|**Unit testing managed code:**|-   [Writing Unit Tests for the .NET Framework with the Microsoft Unit Test Framework for Managed Code](../code-quality/fbeba971-c468-4429-8017-0f12ab55638c.md)|  
 |**Unit testing C++ code**|-   [Writing Unit tests for C/C++ with the Microsoft Unit Testing Framework for C++](../code-quality/writing-unit-tests-for-c-c---with-the-microsoft-unit-testing-framework-for-c--.md)|  
 |**Isolating unit tests**|-   [Isolating Code Under Test with Microsoft Fakes](../code-quality/isolating-code-under-test-with-microsoft-fakes.md)|  
 |**Use code coverage to identify what proportion of your project's code is being tested using unit tests:** Learn about the code coverage feature of [!INCLUDE[vsprvsts](../code-quality/includes/vsprvsts_md.md)] testing tools.|-   [Using Code Coverage to Determine How Much Code is being Tested](../code-quality/using-code-coverage-to-determine-how-much-code-is-being-tested.md)|  

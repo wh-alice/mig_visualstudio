@@ -1,5 +1,5 @@
 ---
-title: "How to run automated tests on multiple computers at the same time | Microsoft Docs"
+title: "How to run automated tests on multiple computers at the same time"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

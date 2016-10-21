@@ -1,5 +1,5 @@
 ---
-title: "This task requires additional rights | Microsoft Docs"
+title: "This task requires additional rights"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

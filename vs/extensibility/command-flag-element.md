@@ -1,5 +1,5 @@
 ---
-title: "Command Flag Element | Microsoft Docs"
+title: "Command Flag Element"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -89,4 +89,4 @@ Modifies its parent element.
 |[Menus Element](../extensibility/menus-element.md)|Defines all the menus that a VSPackage implements.|  
   
 ## See Also  
- [Visual Studio Command Table (.Vsct) Files](../extensibility/visual-studio-command-table--.vsct--files.md)
+ [Visual Studio Command Table (.Vsct) Files](../Topic/Visual%20Studio%20Command%20Table%20\(.Vsct\)%20Files.md)

@@ -1,7 +1,7 @@
 ---
-title: "Walkthrough: Debugging Rendering Errors Due to Shading | Microsoft Docs"
+title: "Walkthrough: Debugging Rendering Errors Due to Shading"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

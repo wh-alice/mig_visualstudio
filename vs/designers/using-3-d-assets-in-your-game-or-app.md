@@ -1,7 +1,7 @@
 ---
-title: "Using 3-D Assets in Your Game or App | Microsoft Docs"
+title: "Using 3-D Assets in Your Game or App"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

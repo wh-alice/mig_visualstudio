@@ -1,7 +1,7 @@
 ---
-title: "The Text Template Transformation Process | Microsoft Docs"
+title: "The Text Template Transformation Process"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""

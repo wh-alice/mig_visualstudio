@@ -1,5 +1,5 @@
 ---
-title: "Configuring Scenario Start Delays | Microsoft Docs"
+title: "Configuring Scenario Start Delays"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -104,6 +104,6 @@ Specify a delay before a scenario starts in a load test by using the Load Test E
 ## See Also  
  [Editing Load Test Scenarios](../test/editing-load-test-scenarios-using-the-load-test-editor.md)   
  [Step 2.0 - Creating and Changing a Scenario](../test_notintoc/creating-load-tests.md#CreatingLoadTestsUsingWizardStep2)   
- [Distributing Load Test Runs Across Multiple Test Machines Using Test Controllers and Test Agents](../test/distributing-load-test-runs-across-multiple-test-machines-using-test-controllers-and-test-agents.md)   
- [How to: Run a Load Test Using Test Controllers and Test Agents Specified in a Test Setting](../test_notintoc/how-to--run-a-load-test-using-test-controllers-and-test-agents-specified-in-a-test-setting.md)   
+ [Distributing Load Test Runs Across Multiple Test Machines Using Test Controllers and Test Agents](../test/6e67a587-8aad-48cc-a8c0-6d4b399f3731.md)   
+ [How to: Run a Load Test Using Test Controllers and Test Agents Specified in a Test Setting](../test_notintoc/e08eb231-55b7-4d9c-9be5-4fe1051a12b7.md)   
  [Load Test Scenario Properties](../test/load-test-scenario-properties.md)

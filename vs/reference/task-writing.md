@@ -1,5 +1,5 @@
 ---
-title: "Task Writing | Microsoft Docs"
+title: "Task Writing"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -33,7 +33,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Task Writing
-Tasks provide the code that runs during the build process. Tasks are contained in targets. A library of typical tasks is included with [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)], and you can also create your own tasks. For more information about the library of tasks that are included with [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)], see [Task Reference](../reference/msbuild-task-reference.md).  
+Tasks provide the code that runs during the build process. Tasks are contained in targets. A library of typical tasks is included with [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)], and you can also create your own tasks. For more information about the library of tasks that are included with [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)], see [Task Reference](../reference/msbuild-task-reference.md).  
   
 ## Tasks  
  Examples of tasks include [Copy](../reference/copy-task.md), which copies one or more files, [MakeDir](../reference/makedir-task.md), which creates a directory, and [Csc](../reference/csc-task.md), which compiles [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] source code files. Each task is implemented as a .NET class that implements the <xref:Microsoft.Build.Framework.ITask> interface, which is defined in the Microsoft.Build.Framework.dll assembly.  
@@ -73,7 +73,7 @@ namespace MyTasks
 </Project>  
 ```  
   
- When tasks run, they can also receive inputs from the project file if you create .NET properties on the task class. [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] sets these properties immediately before calling the task's `Execute` method. To create a string property, use task code such as:  
+ When tasks run, they can also receive inputs from the project file if you create .NET properties on the task class. [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] sets these properties immediately before calling the task's `Execute` method. To create a string property, use task code such as:  
   
 ```  
 using System;  
@@ -110,12 +110,12 @@ namespace MyTasks
 ```  
   
 ## Registering Tasks  
- If a project is going to run a task, [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] must know how to locate the assembly that contains the task class. Tasks are registered using the [UsingTask Element (MSBuild)](../reference/usingtask-element--msbuild-.md).  
+ If a project is going to run a task, [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] must know how to locate the assembly that contains the task class. Tasks are registered using the [UsingTask Element (MSBuild)](../reference/usingtask-element--msbuild-.md).  
   
- The [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] file Microsoft.Common.Tasks is a project file that contains a list of `UsingTask` elements that register all the tasks that are supplied with [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)]. This file is automatically included when building every project. If a task that is registered in Microsoft.Common.Tasks is also registered in the current project file, the current project file takes precedence; that is, you can override a default task with your own task that has the same name.  
+ The [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] file Microsoft.Common.Tasks is a project file that contains a list of `UsingTask` elements that register all the tasks that are supplied with [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)]. This file is automatically included when building every project. If a task that is registered in Microsoft.Common.Tasks is also registered in the current project file, the current project file takes precedence; that is, you can override a default task with your own task that has the same name.  
   
 > [!TIP]
->  You can see a list of the tasks that are supplied with [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] by viewing the contents of Microsoft.Common.Tasks.  
+>  You can see a list of the tasks that are supplied with [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] by viewing the contents of Microsoft.Common.Tasks.  
   
 ## Raising Events from a Task  
  If your task derives from the <xref:Microsoft.Build.Utilities.Task> helper class, you can use any of the following helper methods on the <xref:Microsoft.Build.Utilities.Task> class to raise events that will be caught and displayed by any registered loggers:  
@@ -258,7 +258,7 @@ namespace SimpleTask2
  This [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] class demonstrates a task that derives from the <xref:Microsoft.Build.Utilities.Task> helper class. It has a required string property, and raises an event that is displayed by all registered loggers.  
   
 ### Code  
- [!CODE [msbuild_SimpleTask3#1](../CodeSnippet/VS_Snippets_Misc/msbuild_SimpleTask3#1)]  
+ [!code[msbuild_SimpleTask3#1](../reference/codesnippet/CSharp/task-writing_1.cs)]  
   
 ## Example  
   

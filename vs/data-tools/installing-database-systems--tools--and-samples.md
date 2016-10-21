@@ -1,5 +1,5 @@
 ---
-title: "Installing database systems, tools, and samples | Microsoft Docs"
+title: "Installing database systems, tools, and samples"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"

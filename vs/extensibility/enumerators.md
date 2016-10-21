@@ -1,5 +1,5 @@
 ---
-title: "Enumerators | Microsoft Docs"
+title: "Enumerators"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -47,7 +47,7 @@ This section lists the enumerator data types in the Source Control Plug-in API t
  Contains named constant values that specify the state of a directory under source control.  
   
 ## Related Sections  
- [Creating a Source Control Plug-in](../extensibility/creating-a-source-control-plug-in.md)  
+ [Creating a Source Control Plug-in](../extensibility-internals/creating-a-source-control-plug-in.md)  
  Defines the Source Control Plug-in SDK and describes the included resources.  
   
  [SccGetCommandOptions](../extensibility/sccgetcommandoptions-function.md)  

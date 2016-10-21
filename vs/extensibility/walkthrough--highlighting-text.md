@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Highlighting Text | Microsoft Docs"
+title: "Walkthrough: Highlighting Text"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -212,7 +212,8 @@ You can add different visual effects to the editor by creating Managed Extensibi
   
 5.  You must also add a `TagsChanged` event that will be called by the update method.  
   
-     [!CODE [VSSDKHighlightWordTest#10](../CodeSnippet/VS_Snippets_VSSDK/vssdkhighlightwordtest#10)]  
+     [!code[VSSDKHighlightWordTest#10](../extensibility/codesnippet/CSharp/walkthrough--highlighting-text_1.cs)]
+[!code[VSSDKHighlightWordTest#10](../extensibility/codesnippet/VisualBasic/walkthrough--highlighting-text_1.vb)]  
   
 6.  The `UpdateAtCaretPosition()` method finds every word in the text buffer that is identical to the word where the cursor is positioned and constructs a list of <xref:Microsoft.VisualStudio.Text.SnapshotSpan> objects that correspond to the occurrences of the word. It then calls `SynchronousUpdate`, which raises the `TagsChanged` event.  
   

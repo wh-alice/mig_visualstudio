@@ -1,7 +1,7 @@
 ---
-title: "Working with 3-D Models | Microsoft Docs"
+title: "Working with 3-D Models"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

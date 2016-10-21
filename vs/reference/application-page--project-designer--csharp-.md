@@ -1,7 +1,7 @@
 ---
-title: "Application Page, Project Designer (C#) | Microsoft Docs"
+title: "Application Page, Project Designer (C#)"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

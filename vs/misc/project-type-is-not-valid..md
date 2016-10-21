@@ -1,5 +1,5 @@
 ---
-title: "Project type is not valid. | Microsoft Docs"
+title: "Project type is not valid."
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Creating Custom Project and Item Templates | Microsoft Docs"
+title: "Creating Custom Project and Item Templates"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Implementation Strategies | Microsoft Docs"
+title: "Implementation Strategies"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -50,16 +50,16 @@ You can extend Visual Studio with automation add-ins, VSPackages, Managed Extens
  [Extending Other Parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)  
  Discusses common UI application elements in Visual Studio, such as the Status and Output windows.  
   
- [Hierarchies in Visual Studio](../extensibility/hierarchies-in-visual-studio.md)  
+ [Hierarchies in Visual Studio](../extensibility-internals/hierarchies-in-visual-studio.md)  
  Gives an overview of Visual Studio hierarchies, which appear in the integrated development environment (IDE) as trees of nodes.  
   
- [Projects](../extensibility/projects.md)  
+ [Projects](../extensibility-internals/projects.md)  
  Provides an overview of project and solution classes.  
   
  [Editor and Language Service Extensions](../extensibility/editor-and-language-service-extensions.md)  
  Shows how to extend the code and text editor, and how to create custom editors and designers.  
   
- [Legacy Language Service Extensibility](../extensibility/legacy-language-service-extensibility.md)  
+ [Legacy Language Service Extensibility](../extensibility-internals/legacy-language-service-extensibility.md)  
  Shows how to create language services.  
   
  [Visual Studio SDK Reference](../extensibility/visual-studio-sdk-reference.md)  

@@ -1,5 +1,5 @@
 ---
-title: "Step 7: Add Multiplication and Division Problems | Microsoft Docs"
+title: "Step 7: Add Multiplication and Division Problems"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -36,21 +36,25 @@ In the seventh part of this tutorial, you'll add multiplication and division pro
   
 1.  Add four more integer variables to the form.  
   
-     [!CODE [VbExpressTutorial3Step7#15](../CodeSnippet/VS_Snippets_VBCSharp/vbexpresstutorial3step7#15)]  
+     [!code[VbExpressTutorial3Step7#15](../ide/codesnippet/VisualBasic/step-7--add-multiplication-and-division-problems_1.vb)]
+[!code[VbExpressTutorial3Step7#15](../ide/codesnippet/CSharp/step-7--add-multiplication-and-division-problems_1.cs)]  
   
 2.  As you did before, modify the `StartTheQuiz()` method to fill in random numbers for the multiplication and division problems.  
   
-     [!CODE [VbExpressTutorial3Step7#16](../CodeSnippet/VS_Snippets_VBCSharp/vbexpresstutorial3step7#16)]  
+     [!code[VbExpressTutorial3Step7#16](../ide/codesnippet/VisualBasic/step-7--add-multiplication-and-division-problems_2.vb)]
+[!code[VbExpressTutorial3Step7#16](../ide/codesnippet/CSharp/step-7--add-multiplication-and-division-problems_2.cs)]  
   
 3.  Modify the `CheckTheAnswer()` method so that it also checks the multiplication and division problems.  
   
-     [!CODE [VbExpressTutorial3Step7#17](../CodeSnippet/VS_Snippets_VBCSharp/vbexpresstutorial3step7#17)]  
+     [!code[VbExpressTutorial3Step7#17](../ide/codesnippet/VisualBasic/step-7--add-multiplication-and-division-problems_3.vb)]
+[!code[VbExpressTutorial3Step7#17](../ide/codesnippet/CSharp/step-7--add-multiplication-and-division-problems_3.cs)]  
   
      You can't easily enter the multiplication sign (×) and the division sign (÷) using the keyboard, so Visual C# and Visual Basic accept an asterisk (*) for multiplication and a slash mark (/) for division.  
   
 4.  Change the last part of the timer's Tick event handler so that it fills in the correct answer when time runs out.  
   
-     [!CODE [VbExpressTutorial3Step7#23](../CodeSnippet/VS_Snippets_VBCSharp/vbexpresstutorial3step7#23)]  
+     [!code[VbExpressTutorial3Step7#23](../ide/codesnippet/VisualBasic/step-7--add-multiplication-and-division-problems_4.vb)]
+[!code[VbExpressTutorial3Step7#23](../ide/codesnippet/CSharp/step-7--add-multiplication-and-division-problems_4.cs)]  
   
 5.  Save and run your program.  
   

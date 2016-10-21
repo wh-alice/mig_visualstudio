@@ -1,5 +1,5 @@
 ---
-title: "Specified event log does not exist on this machine | Microsoft Docs"
+title: "Specified event log does not exist on this machine"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

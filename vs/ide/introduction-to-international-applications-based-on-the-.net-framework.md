@@ -1,7 +1,7 @@
 ---
-title: "Introduction to International Applications Based on the .NET Framework | Microsoft Docs"
+title: "Introduction to International Applications Based on the .NET Framework"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

@@ -1,5 +1,5 @@
 ---
-title: "&#39;Catch&#39; block never reached, because &#39;&lt;name1&gt;&#39; inherits from &#39;&lt;name2&gt;&#39; | Microsoft Docs"
+title: "&#39;Catch&#39; block never reached, because &#39;&lt;name1&gt;&#39; inherits from &#39;&lt;name2&gt;&#39;"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Updating Property Values in the Properties Window | Microsoft Docs"
+title: "Updating Property Values in the Properties Window"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -61,4 +61,4 @@ There are two ways to keep the **Properties** window in sync with property value
   
 ## See Also  
  [Announcing Property Window Selection Tracking](../misc/announcing-property-window-selection-tracking.md)   
- [Extending Properties](../extensibility/extending-properties.md)
+ [Extending Properties](../extensibility-internals/extending-properties.md)

@@ -1,5 +1,5 @@
 ---
-title: "Adding a Most Recently Used List to a Submenu | Microsoft Docs"
+title: "Adding a Most Recently Used List to a Submenu"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -41,7 +41,7 @@ This walkthrough builds on the demonstrations in [Adding a Submenu to a Menu](..
   
  This walkthrough creates an MRU list of four items that change their order every time that one of them is selected (the selected item moves to the top of the list).  
   
- For more information about menus and .vsct files, see [Commands, Menus, and Toolbars](../extensibility/commands--menus--and-toolbars.md).  
+ For more information about menus and .vsct files, see [Commands, Menus, and Toolbars](../Topic/Commands,%20Menus,%20and%20Toolbars.md).  
   
 ## Prerequisites  
  To follow this walkthrough, you must install the Visual Studio SDK. For more information, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).  

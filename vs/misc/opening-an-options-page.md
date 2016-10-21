@@ -1,5 +1,5 @@
 ---
-title: "Opening an Options Page | Microsoft Docs"
+title: "Opening an Options Page"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -37,7 +37,7 @@ You can display an options page programmatically so that users of your package c
   
 ### To display a custom options page  
   
-1.  Create an options page. For more information, see [Creating Options Pages](../extensibility/creating-options-pages.md).  
+1.  Create an options page. For more information, see [Creating Options Pages](../extensibility-internals/creating-options-pages.md).  
   
 2.  Get the <xref:System.Type> of the options page by applying the `typeof` keyword to the name of the class that defines the options page.  
   
@@ -45,7 +45,8 @@ You can display an options page programmatically so that users of your package c
   
      The following example displays an options page named **HelloWorldOptions**.  
   
-     [!CODE [UI_UserSettings_ToolsOptionPages#5](../CodeSnippet/VS_Snippets_VSSDK/ui_usersettings_toolsoptionpages#5)]  
+     [!code[UI_UserSettings_ToolsOptionPages#5](../extensibility-internals/codesnippet/CSharp/opening-an-options-page_1.cs)]
+[!code[UI_UserSettings_ToolsOptionPages#5](../extensibility-internals/codesnippet/VisualBasic/opening-an-options-page_1.vb)]  
   
 ### To display an options page that is defined by Visual Studio  
   
@@ -59,4 +60,5 @@ You can display an options page programmatically so that users of your package c
   
      The following example displays the **General** tab of the **Text Editor** options page.  
   
-     [!CODE [UI_UserSettings_ToolsOptionPages#6](../CodeSnippet/VS_Snippets_VSSDK/ui_usersettings_toolsoptionpages#6)]
+     [!code[UI_UserSettings_ToolsOptionPages#6](../extensibility-internals/codesnippet/CSharp/opening-an-options-page_2.cs)]
+[!code[UI_UserSettings_ToolsOptionPages#6](../extensibility-internals/codesnippet/VisualBasic/opening-an-options-page_2.vb)]

@@ -1,7 +1,7 @@
 ---
-title: "&#39;#Region&#39; statement must end with a matching &#39;#End Region&#39; | Microsoft Docs"
+title: "&#39;#Region&#39; statement must end with a matching &#39;#End Region&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

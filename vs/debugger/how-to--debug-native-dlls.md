@@ -1,5 +1,5 @@
 ---
-title: "How to: Debug Native DLLs | Microsoft Docs"
+title: "How to: Debug Native DLLs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

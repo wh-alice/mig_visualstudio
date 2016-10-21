@@ -1,5 +1,5 @@
 ---
-title: "Using the C++ Core Guidelines checkers | Microsoft Docs"
+title: "Using the C++ Core Guidelines checkers"
 ms.custom: ""
 ms.date: "10/14/2016"
 ms.reviewer: ""

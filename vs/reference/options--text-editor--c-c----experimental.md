@@ -1,5 +1,5 @@
 ---
-title: "Options, Text Editor, C-C++, Experimental | Microsoft Docs"
+title: "Options, Text Editor, C-C++, Experimental"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.reviewer: ""

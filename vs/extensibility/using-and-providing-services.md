@@ -1,7 +1,7 @@
 ---
-title: "Using and Providing Services | Microsoft Docs"
+title: "Using and Providing Services"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -46,7 +46,7 @@ A service is a contract between two VSPackages. One VSPackage offers a specific 
 |<xref:Microsoft.VisualStudio.Shell.Interop.SVsSolution>|Provides basic solution-related functionality, such as the ability to enumerate projects, create new projects, and monitor project changes.|  
   
 ## In This Section  
- [Service Essentials](../extensibility/service-essentials.md)  
+ [Service Essentials](../extensibility-internals/service-essentials.md)  
  Presents the important elements of a Visual Studio service.  
   
  [How to: Get a Service](../extensibility/how-to--get-a-service.md)  

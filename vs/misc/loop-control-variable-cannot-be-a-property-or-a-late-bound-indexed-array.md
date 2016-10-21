@@ -1,12 +1,12 @@
 ---
-title: "Loop control variable cannot be a property or a late-bound indexed array | Microsoft Docs"
+title: "Loop control variable cannot be a property or a late-bound indexed array"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30039"
 ms.assetid: 63846449-b1df-4626-bf99-36fa9b187799
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

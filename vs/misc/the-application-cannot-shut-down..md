@@ -1,5 +1,5 @@
 ---
-title: "The application cannot shut down. | Microsoft Docs"
+title: "The application cannot shut down."
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

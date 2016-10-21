@@ -1,5 +1,5 @@
 ---
-title: "CA1708: Identifiers should differ by more than case | Microsoft Docs"
+title: "CA1708: Identifiers should differ by more than case"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -59,7 +59,7 @@ translation.priority.ht:
 ## Example of a Violation  
  The following example demonstrates a violation of this rule.  
   
- [!CODE [FxCop.Naming.IdentifiersShouldDifferByMoreThanCase#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Naming.IdentifiersShouldDifferByMoreThanCase#1)]  
+ [!code[FxCop.Naming.IdentifiersShouldDifferByMoreThanCase#1](../code-quality/codesnippet/CSharp/ca1708--identifiers-should-differ-by-more-than-case_1.cs)]  
   
 ## Related Rules  
  [CA1709: Identifiers should be cased correctly](../code-quality/ca1709--identifiers-should-be-cased-correctly.md)

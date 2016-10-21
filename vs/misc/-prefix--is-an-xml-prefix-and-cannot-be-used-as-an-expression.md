@@ -1,5 +1,5 @@
 ---
-title: "&#39;prefix&#39; is an XML prefix and cannot be used as an expression | Microsoft Docs"
+title: "&#39;prefix&#39; is an XML prefix and cannot be used as an expression"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

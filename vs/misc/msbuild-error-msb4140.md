@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Error MSB4140 | Microsoft Docs"
+title: "MSBuild Error MSB4140"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -34,7 +34,7 @@ translation.priority.mt:
 # MSBuild Error MSB4140
 **MSB4140: Default ToolsVersion is specified in neither the registry nor configuration file.**  
   
- The project does not specify a default `ToolsVersion` value. Therefore, [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] does not know which value to use.  
+ The project does not specify a default `ToolsVersion` value. Therefore, [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] does not know which value to use.  
   
 ### To correct this error  
   

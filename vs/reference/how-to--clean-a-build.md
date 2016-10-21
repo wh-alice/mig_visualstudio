@@ -1,5 +1,5 @@
 ---
-title: "How to: Clean a Build | Microsoft Docs"
+title: "How to: Clean a Build"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -34,7 +34,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Clean a Build
-When you clean a build, all intermediate and output files are deleted, leaving only the project and component files. From the project and component files, new instances of the intermediate and output files can then be built. The library of common tasks that is provided with [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] includes an [Exec](../reference/exec-task.md) task that you can use to run system commands. For more information on the library of tasks, see [Task Reference](../reference/msbuild-task-reference.md).  
+When you clean a build, all intermediate and output files are deleted, leaving only the project and component files. From the project and component files, new instances of the intermediate and output files can then be built. The library of common tasks that is provided with [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] includes an [Exec](../reference/exec-task.md) task that you can use to run system commands. For more information on the library of tasks, see [Task Reference](../reference/msbuild-task-reference.md).  
   
 ## Creating a Directory for Output Items  
  By default, the .exe file that is created when you compile a project is placed in the same directory as the project and source files. Typically, however, output items are created in a separate directory.  

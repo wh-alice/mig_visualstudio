@@ -1,5 +1,5 @@
 ---
-title: "Edit data in datasets | Microsoft Docs"
+title: "Edit data in datasets"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
@@ -45,18 +45,21 @@ You edit data in data tables much like you edit the data in a table in any datab
   
  If you don't know the index of the row you want to edit, use the `FindBy` method to search by the primary key:  
   
- [!CODE [VbRaddataEditing#3](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataEditing#3)]  
+ [!code[VbRaddataEditing#3](../data-tools/codesnippet/CSharp/edit-data-in-datasets_1.cs)]
+[!code[VbRaddataEditing#3](../data-tools/codesnippet/VisualBasic/edit-data-in-datasets_1.vb)]  
   
  If you know the row index, you can access and edits rows as follows:  
   
- [!CODE [VbRaddataEditing#5](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataEditing#5)]  
+ [!code[VbRaddataEditing#5](../data-tools/codesnippet/CSharp/edit-data-in-datasets_2.cs)]
+[!code[VbRaddataEditing#5](../data-tools/codesnippet/VisualBasic/edit-data-in-datasets_2.vb)]  
   
 ## To insert new rows into a dataset  
  Applications that use data-bound controls typically add new records through the **Add New** button on a [BindingNavigator Control](../Topic/BindingNavigator%20Control%20\(Windows%20Forms\).md).  
   
  To manually add new records to a dataset, create a new data row by calling the method on the DataTable. Then add the row to the <xref:System.Data.DataRow> collection (<xref:System.Data.DataTable.Rows*>) of the <xref:System.Data.DataTable>:  
   
- [!CODE [VbRaddataEditing#1](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataEditing#1)]  
+ [!code[VbRaddataEditing#1](../data-tools/codesnippet/CSharp/edit-data-in-datasets_3.cs)]
+[!code[VbRaddataEditing#1](../data-tools/codesnippet/VisualBasic/edit-data-in-datasets_3.vb)]  
   
  In order to retain the information that the dataset needs to send updates to the data source, use the <xref:System.Data.DataRow.Delete*> method to remove rows in a data table. For example, if your application uses a TableAdapter (or <xref:System.Data.Common.DataAdapter>), the TableAdapter's `Update` method deletes rows in the database that have a <xref:System.Data.DataRow.RowState*> of <xref:System.Data.DataRowState>.  
   
@@ -73,7 +76,8 @@ You edit data in data tables much like you edit the data in a table in any datab
   
      The following example shows how to call the <xref:System.Data.DataRow.Delete*> method to mark the first row in the `Customers` table as deleted:  
   
-     [!CODE [VbRaddataEditing#8](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataEditing#8)]  
+     [!code[VbRaddataEditing#8](../data-tools/codesnippet/CSharp/edit-data-in-datasets_4.cs)]
+[!code[VbRaddataEditing#8](../data-tools/codesnippet/VisualBasic/edit-data-in-datasets_4.vb)]  
   
 ## Determine if there are changed rows  
  When changes are made to records in a dataset, information about those changes is stored until you commit them. You commit the changes  when you call the `AcceptChanges` method of a dataset or data table, or when you call the `Update` method of a TableAdapter or data adapter.  
@@ -92,7 +96,8 @@ You edit data in data tables much like you edit the data in a table in any datab
   
      The following example shows how to check the return value from the <xref:System.Data.DataSet.HasChanges*> method to detect whether there are any changed rows in a dataset named `NorthwindDataset1`:  
   
-     [!CODE [VbRaddataEditing#12](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataEditing#12)]  
+     [!code[VbRaddataEditing#12](../data-tools/codesnippet/CSharp/edit-data-in-datasets_5.cs)]
+[!code[VbRaddataEditing#12](../data-tools/codesnippet/VisualBasic/edit-data-in-datasets_5.vb)]  
   
 ## Determine the type of changes  
  You can also check to see what type of changes were made in a dataset by passing a value from the <xref:System.Data.DataRowState> enumeration to the <xref:System.Data.DataSet.HasChanges*> method.  
@@ -103,7 +108,8 @@ You edit data in data tables much like you edit the data in a table in any datab
   
      The following example shows how to check a dataset named `NorthwindDataset1` to determine if any new rows have been added to it:  
   
-     [!CODE [VbRaddataEditing#13](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataEditing#13)]  
+     [!code[VbRaddataEditing#13](../data-tools/codesnippet/CSharp/edit-data-in-datasets_6.cs)]
+[!code[VbRaddataEditing#13](../data-tools/codesnippet/VisualBasic/edit-data-in-datasets_6.vb)]  
   
 ## To locate rows that have errors  
  When working with individual columns and rows of data, you might encounter errors. You can check the `HasErrors` property to determine if errors exist in a <xref:System.Data.DataSet>, <xref:System.Data.DataTable>, or <xref:System.Data.DataRow>.  
@@ -112,4 +118,5 @@ You edit data in data tables much like you edit the data in a table in any datab
   
 2.  If the `HasErrors` property is `true`, iterate through the collections of tables, and then the through the rows, to find the row with the error.  
   
-     [!CODE [VbRaddataEditing#23](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataEditing#23)]
+     [!code[VbRaddataEditing#23](../data-tools/codesnippet/CSharp/edit-data-in-datasets_7.cs)]
+[!code[VbRaddataEditing#23](../data-tools/codesnippet/VisualBasic/edit-data-in-datasets_7.vb)]

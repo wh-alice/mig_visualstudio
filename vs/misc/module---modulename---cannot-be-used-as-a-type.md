@@ -1,5 +1,5 @@
 ---
-title: "Module &#39;&lt;modulename&gt;&#39; cannot be used as a type | Microsoft Docs"
+title: "Module &#39;&lt;modulename&gt;&#39; cannot be used as a type"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Parallel Activity Designer | Microsoft Docs"
+title: "Parallel Activity Designer"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: ".net-framework-4.6"

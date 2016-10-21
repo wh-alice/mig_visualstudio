@@ -1,5 +1,5 @@
 ---
-title: "Bind objects in Visual Studio | Microsoft Docs"
+title: "Bind objects in Visual Studio"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
@@ -80,7 +80,8 @@ Visual Studio provides design-time tools for working with custom objects as the 
   
  The following example shows how to loop through the rows in a data table, and populate an object with data:  
   
- [!CODE [VbRaddataConnecting#4](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataConnecting#4)]  
+ [!code[VbRaddataConnecting#4](../data-tools/codesnippet/CSharp/bind-objects-in-visual-studio_1.cs)]
+[!code[VbRaddataConnecting#4](../data-tools/codesnippet/VisualBasic/bind-objects-in-visual-studio_1.vb)]  
   
 ### Create a typed collection of objects  
  You can create collection classes for your objects, or use the typed collections that are automatically provided by the [BindingSource Component](../Topic/BindingSource%20Component.md).  
@@ -94,7 +95,8 @@ Visual Studio provides design-time tools for working with custom objects as the 
   
  The following code shows how to create the class for a strongly-typed collection of `Order` objects:  
   
- [!CODE [VbRaddataConnecting#8](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataConnecting#8)]  
+ [!code[VbRaddataConnecting#8](../data-tools/codesnippet/CSharp/bind-objects-in-visual-studio_2.cs)]
+[!code[VbRaddataConnecting#8](../data-tools/codesnippet/VisualBasic/bind-objects-in-visual-studio_2.vb)]  
   
 ### Addobjects to a collection  
  You add objects to a collection by calling the `Add` method of your custom collection class or of the <xref:System.Windows.Forms.BindingSource>.  
@@ -108,14 +110,16 @@ Visual Studio provides design-time tools for working with custom objects as the 
   
  The following code shows how to add objects to the typed collection in a <xref:System.Windows.Forms.BindingSource>:  
   
- [!CODE [VbRaddataConnecting#5](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataConnecting#5)]  
+ [!code[VbRaddataConnecting#5](../data-tools/codesnippet/CSharp/bind-objects-in-visual-studio_3.cs)]
+[!code[VbRaddataConnecting#5](../data-tools/codesnippet/VisualBasic/bind-objects-in-visual-studio_3.vb)]  
   
  The following code shows how to add objects to a typed collection that inherits from <xref:System.ComponentModel.BindingList`1>:  
   
 > [!NOTE]
 >  In this example the `Orders` collection is a property of the `Customer` object.  
   
- [!CODE [VbRaddataConnecting#6](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataConnecting#6)]  
+ [!code[VbRaddataConnecting#6](../data-tools/codesnippet/CSharp/bind-objects-in-visual-studio_4.cs)]
+[!code[VbRaddataConnecting#6](../data-tools/codesnippet/VisualBasic/bind-objects-in-visual-studio_4.vb)]  
   
 ### Removeobjects from a collection  
  You remove objects from a collection by calling the `Remove` or `RemoveAt` method of your custom collection class or of <xref:System.Windows.Forms.BindingSource>.  
@@ -125,7 +129,8 @@ Visual Studio provides design-time tools for working with custom objects as the 
   
  The following code shows how to locate and remove objects from the typed collection in a <xref:System.Windows.Forms.BindingSource> with the <xref:System.Windows.Forms.BindingSource.RemoveAt*> method:  
   
- [!CODE [VbRaddataConnecting#7](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataConnecting#7)]  
+ [!code[VbRaddataConnecting#7](../data-tools/codesnippet/CSharp/bind-objects-in-visual-studio_5.cs)]
+[!code[VbRaddataConnecting#7](../data-tools/codesnippet/VisualBasic/bind-objects-in-visual-studio_5.vb)]  
   
 ### Displayobject data to users  
  To display the data in objects to users, create an object data source using the **Data Source Configuration** wizard, and then drag the entire object or individual properties onto your form from the **Data Sources** window.  
@@ -150,7 +155,8 @@ Visual Studio provides design-time tools for working with custom objects as the 
   
  The following example shows how to use the `TableAdapter.Insert` DBDirect method to add a new customer directly into the database:  
   
- [!CODE [VbRaddataSaving#23](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataSaving#23)]  
+ [!code[VbRaddataSaving#23](../data-tools/codesnippet/CSharp/bind-objects-in-visual-studio_6.cs)]
+[!code[VbRaddataSaving#23](../data-tools/codesnippet/VisualBasic/bind-objects-in-visual-studio_6.vb)]  
   
 ## See Also  
  [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)

@@ -1,5 +1,5 @@
 ---
-title: "How to: Add comments to a workflow in the Workflow Designer | Microsoft Docs"
+title: "How to: Add comments to a workflow in the Workflow Designer"
 ms.custom: ""
 ms.date: "10/13/2016"
 ms.prod: ".net-framework-4.6"
@@ -55,7 +55,7 @@ To facilitate creating larger, more complicated workflows, [!INCLUDE[net_v45](..
   
 3.  The item will show an annotation icon. Hovering over the annotation icon will display the text of the annotation.  
   
-     ![Sequence activity showing annotation](../debugger/annotation.md "Annotation")  
+     ![Sequence activity showing annotation](../debug-interface-access/annotation.md "Annotation")  
   
 ### Displaying an annotation in an activity's designer  
   

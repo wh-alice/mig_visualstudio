@@ -1,7 +1,7 @@
 ---
-title: "Font and Color Overview | Microsoft Docs"
+title: "Font and Color Overview"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -84,12 +84,12 @@ This topic discusses text font and color settings in the [!INCLUDE[vsprvs](../co
   
 -   The ability to both use built-in display items from the **Text EditorCategory** and to extend them.  
   
-     For more information, see [How to: Use Built-In Colorable Items](../extensibility/how-to--use-built-in-colorable-items.md) and [Custom Colorable Items](../extensibility/custom-colorable-items.md).  
+     For more information, see [How to: Use Built-In Colorable Items](../extensibility-internals/how-to--use-built-in-colorable-items.md) and [Custom Colorable Items](../extensibility-internals/custom-colorable-items.md).  
   
 -   Automatic persistence of the current state of both built-in and custom display items with the **Text Editor** category.  
   
- For more information on syntax coloring see [Syntax Coloring in a Legacy Language Service](../extensibility/syntax-coloring-in-a-legacy-language-service.md).  
+ For more information on syntax coloring see [Syntax Coloring in a Legacy Language Service](../extensibility-internals/syntax-coloring-in-a-legacy-language-service.md).  
   
 ## See Also  
  [Legacy Interfaces in the Editor](../extensibility/legacy-interfaces-in-the-editor.md)   
- [Syntax Coloring in a Legacy Language Service](../extensibility/syntax-coloring-in-a-legacy-language-service.md)
+ [Syntax Coloring in a Legacy Language Service](../extensibility-internals/syntax-coloring-in-a-legacy-language-service.md)

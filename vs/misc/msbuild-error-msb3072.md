@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Error MSB3072 | Microsoft Docs"
+title: "MSBuild Error MSB3072"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

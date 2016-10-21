@@ -1,7 +1,7 @@
 ---
-title: "How to: Create Menus, SubMenus, and Shortcut Menus | Microsoft Docs"
+title: "How to: Create Menus, SubMenus, and Shortcut Menus"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # How to: Create Menus, SubMenus, and Shortcut Menus
-To add a menu to the Visual Studio integrated development environment (IDE), a VSPackage must use the [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] architecture for command-group menus. A command-group menu enables the sharing of commands by components and the IDE. For more information about command-group menus, see [How VSPackages Add User Interface Elements](../extensibility/how-vspackages-add-user-interface-elements.md).  
+To add a menu to the Visual Studio integrated development environment (IDE), a VSPackage must use the [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] architecture for command-group menus. A command-group menu enables the sharing of commands by components and the IDE. For more information about command-group menus, see [How VSPackages Add User Interface Elements](../Topic/How%20VSPackages%20Add%20User%20Interface%20Elements.md).  
   
  In VSPackages, menus are defined in the [Menus](../extensibility/menus-element.md) section of a .vsct file. A .vsct file defines menus, toolbars, groups, and commands. A command is what a user clicks to perform a function. A group is a container for commands. A menu is a container for groups. To create a basic menu, you must create a menu, a command group, and at least one command.  
   
@@ -143,19 +143,19 @@ To add a menu to the Visual Studio integrated development environment (IDE), a V
   
 1.  Obtain the GUID:ID of the shortcut menu. By default, the package template creates a `GuidList` class in a PkgCmdID.cs file to hold the GUID of the command set. The template also creates a `PkgCmdIdList` class in a PkgCmdId.cs file to hold the integer ID values of commands that are declared in the template. Shortcut menus and any additional commands must be declared after the template is finished. The following example shows these declarations.  
   
-     [!CODE [TWShortcutMenu#12](../CodeSnippet/VS_Snippets_VSSDK/twshortcutmenu#12)]  
+     [!code[TWShortcutMenu#12](../misc/codesnippet/CSharp/how-to--create-menus--submenus--and-shortcut-menus_8.cs)]  
   
      This step can be omitted if the GUID and ID values will be used directly. However, we recommend that you set the values here for readability.  
   
 2.  Attach to an event handler. Typically, shortcut menus attach to the right-click of a control surface, as shown in the following example.  
   
-     [!CODE [TWShortcutMenu#43](../CodeSnippet/VS_Snippets_VSSDK/twshortcutmenu#43)]  
+     [!code[TWShortcutMenu#43](../misc/codesnippet/CSharp/how-to--create-menus--submenus--and-shortcut-menus_9.cs)]  
   
      The <xref:System.Windows.Forms.Control.PointToScreen*> method converts the click position, which is relative to the control, to a screen position. The <xref:Microsoft.VisualStudio.Shell.OleMenuCommandService.ShowContextMenu*> method displays the shortcut menu.  
   
      The file that contains the event handler must include the <xref:System.ComponentModel.Design> namespace to access the <xref:Microsoft.VisualStudio.Shell.OleMenuCommandService> class, and the <xref:Microsoft.VisualStudio.Shell> namespace to access the <xref:System.ComponentModel.Design.IMenuCommandService> interface.  
   
-     [!CODE [TWShortcutMenu#41](../CodeSnippet/VS_Snippets_VSSDK/twshortcutmenu#41)]  
+     [!code[TWShortcutMenu#41](../misc/codesnippet/CSharp/how-to--create-menus--submenus--and-shortcut-menus_10.cs)]  
   
 ## See Also  
  [MenuCommands Vs. OleMenuCommands](../misc/menucommands-vs.-olemenucommands.md)   

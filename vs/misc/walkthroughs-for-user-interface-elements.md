@@ -1,7 +1,7 @@
 ---
-title: "Walkthroughs for User Interface Elements | Microsoft Docs"
+title: "Walkthroughs for User Interface Elements"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -61,11 +61,11 @@ You can add menus and toolbars to many different user interface (UI) elements of
  Demonstrates how to add a context (that is, right-click) menu to a tool window. In this case, a gradient service tool window.  
   
 ## Related Sections  
- [Visual Studio Command Table (.Vsct) Files](../extensibility/visual-studio-command-table--.vsct--files.md)  
+ [Visual Studio Command Table (.Vsct) Files](../Topic/Visual%20Studio%20Command%20Table%20\(.Vsct\)%20Files.md)  
  Describes how to prepare a Visual Studio command table for your project.  
   
  [Walkthroughs for Customizing Visual Studio By Using VSPackages](../misc/walkthroughs-for-customizing-visual-studio-by-using-vspackages.md)  
  Introductory walkthroughs for adding UI elements to Visual Studio.  
   
- [Commands, Menus, and Toolbars](../extensibility/commands--menus--and-toolbars.md)  
+ [Commands, Menus, and Toolbars](../Topic/Commands,%20Menus,%20and%20Toolbars.md)  
  Explains how to create a UI that includes menus, toolbars, and command combo boxes.

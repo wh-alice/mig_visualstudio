@@ -1,7 +1,7 @@
 ---
-title: "Member &#39;&lt;membername&gt;&#39; cannot be found in class &#39;&lt;classname&gt;&#39; | Microsoft Docs"
+title: "Member &#39;&lt;membername&gt;&#39; cannot be found in class &#39;&lt;classname&gt;&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

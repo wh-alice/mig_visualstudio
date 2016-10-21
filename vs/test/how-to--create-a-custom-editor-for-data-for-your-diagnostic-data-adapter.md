@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a Custom Editor for Data for Your Diagnostic Data Adapter | Microsoft Docs"
+title: "How to: Create a Custom Editor for Data for Your Diagnostic Data Adapter"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -202,6 +202,6 @@ When you create a diagnostic data adapter, you might want to enable the user to 
  <xref:Microsoft.VisualStudio.TestTools.Execution.IDataCollectorConfigurationEditor>   
  <xref:Microsoft.VisualStudio.TestTools.Execution.DataCollectorConfigurationEditorAttribute>   
  <xref:Microsoft.VisualStudio.TestTools.Execution.DataCollectorConfigurationEditorAttribute>   
- [Creating a Diagnostic Data Adapter to Collect Custom Data or Affect a Test Machine](../test/creating-a-diagnostic-data-adapter-to-collect-custom-data-or-affect-a-test-machine.md)   
+ [Creating a Diagnostic Data Adapter to Collect Custom Data or Affect a Test Machine](../test/b0b53fae-7007-4ad9-a604-21685937622f.md)   
  [Setting Up Machines and Collecting Diagnostic Information Using Test Settings](../test/setting-up-machines-and-collecting-diagnostic-information-using-test-settings.md)   
  [Sample Project for Creating a Diagnostic Data Adapter](../test/sample-project-for-creating-a-diagnostic-data-adapter.md)

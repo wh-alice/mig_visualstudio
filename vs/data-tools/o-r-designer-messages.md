@@ -1,5 +1,5 @@
 ---
-title: "O-R Designer Messages | Microsoft Docs"
+title: "O-R Designer Messages"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -40,9 +40,9 @@ This topic lists the messages that you can encounter when you work with the O/R 
   
  [One or more selected database objects return a schema that does not match the schema of the target class](../data-tools/3794e88b-4d3d-4e7a-ade6-8208eabe3eae.md)  
   
- [One or more selected items contain a data type that is not supported by the designer](../data-tools/one-or-more-selected-items-contain-a-data-type-that-is-not-supported-by-the-designer.md)  
+ [One or more selected items contain a data type that is not supported by the designer](../data-tools/71dcd4f9-2946-42c5-9ce4-99c819ea2785.md)  
   
- [The connection property in the Application Settings file is missing or incorrect](../data-tools/the-connection-property-in-the-application-settings-file-is-missing-or-incorrect.md)  
+ [The connection property in the Application Settings file is missing or incorrect](../data-tools/77724510-ff59-4d43-b933-a0434e1ac597.md)  
   
  [The designer cannot be modified while debugging](../data-tools/the-designer-cannot-be-modified-while-debugging.md)  
   
@@ -58,7 +58,7 @@ This topic lists the messages that you can encounter when you work with the O/R 
   
  [This related method is the backing method for the following default insert, update, or delete methods](../data-tools/62afa6da-97cf-48b9-8de3-33e4d72a0377.md)  
   
- [Warning. Changes have been made to the Configure Behavior dialog box that have not been applied](../data-tools/warning.-changes-have-been-made-to-the-configure-behavior-dialog-box-that-have-not-been-applied.md)  
+ [Warning. Changes have been made to the Configure Behavior dialog box that have not been applied](../data-tools/ce5822dd-4f10-4c86-b707-7766837be216.md)  
   
  [You have selected a database object from an unsupported database provider](../data-tools/you-have-selected-a-database-object-from-an-unsupported-database-provider.md)  
   

@@ -1,7 +1,7 @@
 ---
-title: "Visual Studio Reference | Microsoft Docs"
+title: "Visual Studio Reference"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -68,7 +68,7 @@ This section includes user interface reference, language equivalents, and other 
  Contains language reference documentation.  
   
  [JScript Reference](http://msdn.microsoft.com/en-us/2e47f004-963c-4661-b887-a14e4660aadd)  
- Contains documents about the [!INCLUDE[jsprjscript](../debugger/includes/jsprjscript_md.md)] programming language. Includes properties, methods, objects, and functions, and other elements.  
+ Contains documents about the [!INCLUDE[jsprjscript](../debug-interface-access/includes/jsprjscript_md.md)] programming language. Includes properties, methods, objects, and functions, and other elements.  
   
  [.NET Framework Reference Information](../Topic/.NET%20Framework%20Reference%20Information%20\(Visual%20Basic\).md)  
  Contains documents about the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] class library, compiler and language reference, and also [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] syntax, XSD reference, and other topics.

@@ -1,5 +1,5 @@
 ---
-title: "Sorting, Filtering, and Grouping (XML Schema Explorer) | Microsoft Docs"
+title: "Sorting, Filtering, and Grouping (XML Schema Explorer)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

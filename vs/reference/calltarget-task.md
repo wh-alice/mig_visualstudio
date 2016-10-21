@@ -1,5 +1,5 @@
 ---
-title: "CallTarget Task | Microsoft Docs"
+title: "CallTarget Task"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -44,7 +44,7 @@ Invokes the specified targets within the project file.
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|`RunEachTargetSeparately`|Optional `Boolean` output parameter.<br /><br /> If `true`, the [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] engine is called once per target. If `false`, the [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] engine is called once to build all targets. The default value is `false`.|  
+|`RunEachTargetSeparately`|Optional `Boolean` output parameter.<br /><br /> If `true`, the [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] engine is called once per target. If `false`, the [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] engine is called once to build all targets. The default value is `false`.|  
 |`TargetOutputs`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Contains the outputs of all built targets.|  
 |`Targets`|Optional `String[]` parameter.<br /><br /> Specifies the target or targets to build.|  
 |`UseResultsCache`|Optional `Boolean` parameter.<br /><br /> If `true`, the cached result is returned if present.<br /><br /> **Note** When an MSBuild task is run, its output is cached in a scope (ProjectFileName, GlobalProperties)[TargetNames] as a list of build items.|  

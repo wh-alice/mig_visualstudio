@@ -1,5 +1,5 @@
 ---
-title: "How to: Install a Custom Diagnostic Data Adapter | Microsoft Docs"
+title: "How to: Install a Custom Diagnostic Data Adapter"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -72,6 +72,6 @@ If you have created a custom diagnostic data adapter, or you have been provided 
  [How to: Create a Diagnostic Data Adapter](../test/how-to--create-a-diagnostic-data-adapter.md)   
  [How to: Create a Custom Editor for Data for Your Diagnostic Data Adapter](../test/how-to--create-a-custom-editor-for-data-for-your-diagnostic-data-adapter.md)   
  [Sample Project for Creating a Diagnostic Data Adapter](../test/sample-project-for-creating-a-diagnostic-data-adapter.md)   
- [Creating a Diagnostic Data Adapter to Collect Custom Data or Affect a Test Machine](../test/creating-a-diagnostic-data-adapter-to-collect-custom-data-or-affect-a-test-machine.md)   
+ [Creating a Diagnostic Data Adapter to Collect Custom Data or Affect a Test Machine](../test/b0b53fae-7007-4ad9-a604-21685937622f.md)   
  [Setting Up Machines and Collecting Diagnostic Information Using Test Settings](../test/setting-up-machines-and-collecting-diagnostic-information-using-test-settings.md)   
  [Setting Up Machines and Collecting Diagnostic Information Using Test Settings](../test/setting-up-machines-and-collecting-diagnostic-information-using-test-settings.md)

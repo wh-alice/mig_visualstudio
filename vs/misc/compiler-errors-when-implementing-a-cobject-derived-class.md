@@ -1,5 +1,5 @@
 ---
-title: "Compiler Errors when Implementing a CObject-Derived Class | Microsoft Docs"
+title: "Compiler Errors when Implementing a CObject-Derived Class"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

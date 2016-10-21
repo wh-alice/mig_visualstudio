@@ -1,7 +1,7 @@
 ---
-title: "Semantics of the this Pointer in Value and Reference Types | Microsoft Docs"
+title: "Semantics of the this Pointer in Value and Reference Types"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

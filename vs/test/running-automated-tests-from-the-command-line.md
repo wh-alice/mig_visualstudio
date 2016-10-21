@@ -1,5 +1,5 @@
 ---
-title: "Running automated tests from the command line | Microsoft Docs"
+title: "Running automated tests from the command line"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

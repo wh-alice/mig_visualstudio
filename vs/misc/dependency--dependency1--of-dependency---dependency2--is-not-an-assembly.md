@@ -1,7 +1,7 @@
 ---
-title: "Dependency &#39;dependency1&#39; of dependency &#39; dependency2&#39; is not an assembly | Microsoft Docs"
+title: "Dependency &#39;dependency1&#39; of dependency &#39; dependency2&#39; is not an assembly"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

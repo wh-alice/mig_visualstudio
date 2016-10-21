@@ -1,5 +1,5 @@
 ---
-title: "Protected types can only be declared inside of a class | Microsoft Docs"
+title: "Protected types can only be declared inside of a class"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

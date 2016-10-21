@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting .NET Framework Targeting Errors | Microsoft Docs"
+title: "Troubleshooting .NET Framework Targeting Errors"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

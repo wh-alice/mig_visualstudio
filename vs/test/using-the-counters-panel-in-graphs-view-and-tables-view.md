@@ -1,5 +1,5 @@
 ---
-title: "Using the Counters Panel in Graphs View and Tables View | Microsoft Docs"
+title: "Using the Counters Panel in Graphs View and Tables View"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -29,7 +29,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Using the Counters Panel in Graphs View and Tables View
-The Counters panel is visible in the Graphs view and Tables view in the Load Test Analyzer while a load test is running, or when you are analyzing a load test result. For more information, see [Analyzing Load Test Results in the Graphs View](../test/analyzing-load-test-results-in-the-graphs-view-of-the-load-test-analyzer.md), [Analyzing Load Test Results and Errors in the Tables View](../test/analyzing-load-test-results-and-errors-in-the-tables-view-of-the-load-test-analyzer.md) and [How to: Access Load Test Results for Analysis](../test/how-to--access-load-test-results-for-analysis.md).  
+The Counters panel is visible in the Graphs view and Tables view in the Load Test Analyzer while a load test is running, or when you are analyzing a load test result. For more information, see [Analyzing Load Test Results in the Graphs View](../test/analyzing-load-test-results-in-the-graphs-view-of-the-load-test-analyzer.md), [Analyzing Load Test Results and Errors in the Tables View](../test/0a84bda3-6051-45eb-9c7f-d57419e1f97d.md) and [How to: Access Load Test Results for Analysis](../test/how-to--access-load-test-results-for-analysis.md).  
   
  The Counters panel displays a structured view of all the performance counters that have been collected during the load test. You can show or hide the counters panel by choosing **Show Counters Panel** on the load Test Analyzer toolbar.  
   
@@ -53,7 +53,7 @@ The Counters panel is visible in the Graphs view and Tables view in the Load Tes
   
          A scenario branch contains Web performance test nodes. The Web performance test nodes contain Pages, Requests, and Transaction nodes. Any leaf node in this structure is a performance counter that can be added to a graph.  
   
-    -   **Computers:** Contains all non-load test counter instances grouped by computer. The Computers branch contains a node for each computer that is associated with the load test controller specified in the Roles section of the currently selected test settings. For more information, see [Distributing Load Test Runs Across Multiple Test Machines Using Test Controllers and Test Agents](../test/distributing-load-test-runs-across-multiple-test-machines-using-test-controllers-and-test-agents.md).  
+    -   **Computers:** Contains all non-load test counter instances grouped by computer. The Computers branch contains a node for each computer that is associated with the load test controller specified in the Roles section of the currently selected test settings. For more information, see [Distributing Load Test Runs Across Multiple Test Machines Using Test Controllers and Test Agents](../test/6e67a587-8aad-48cc-a8c0-6d4b399f3731.md).  
   
          Each computer node contains a set of performance counter categories collected from that computer. Categories contain counters and counters contain performance counter instance names.  
   
@@ -70,7 +70,7 @@ The Counters panel is visible in the Graphs view and Tables view in the Load Tes
 |Tasks|Associated topics|  
 |-----------|-----------------------|  
 |**Add more performance counters to a graph in graph view:** In the Counters panel, you can add different kinds of data to a load test graph by adding more performance counters on the graph.|-   [How to: Add and Delete Counters on Graphs](../test/how-to--add-and-delete-counters-on-graphs-in-load-test-results.md)|  
-|**Analyze any thresholds you specified in the load test that were violated:** The Counters panel displays icons representing threshold violations that you can then add to tables and graphs for further analysis.|-   [How to: Analyze Threshold Violations Using the Counters Panel](../test/how-to--analyze-threshold-violations-using-the-counters-panel-in-load-test-analyzer.md)|  
+|**Analyze any thresholds you specified in the load test that were violated:** The Counters panel displays icons representing threshold violations that you can then add to tables and graphs for further analysis.|-   [How to: Analyze Threshold Violations Using the Counters Panel](../test/0126d7b7-0538-4ea9-9046-6556654b3b9d.md)|  
 |**Analyze any errors that were detected during the load test run:** The Counters panel includes an errors node that contains error categories and sub-categories such as HTTP errors that you can use to add errors to graphs for further analysis.|-   [How to: Analyze Errors Using the Counters Panel](../test/how-to--analyze-errors-using-the-counters-panel.md)|  
   
 ## Performance Counter Sampling Interval Considerations  
@@ -88,7 +88,7 @@ The Counters panel is visible in the Graphs view and Tables view in the Load Tes
 ## Considerations for including Timing Details to Collect Percentile Data  
  There is a property in the run settings in the Load Test Editor named **Timing Details Storage**. If **Timing Details Storage** property is enabled, then the time to execute each individual test, transaction, and page during the load test will be stored in the load test results repository. This allows for 90th and 95th percentile data to be shown in the Load Test Analyzer in the Tests, Transactions, and Pages tables.  
   
- There are two choices for enabling the **Timing Details Storage** property in the run settings properties:**StatisticsOnly** and **AllIndividualDetails**. With either option, all the individual tests, pages, and transactions are timed, and percentile data is calculated from the individual timing data. The difference is that with the **StatisticsOnly** option, as soon as the percentile data has been calculated, the individual timing data is deleted from the repository. This reduces the amount of space that is required in the repository when you use timing details. However, advanced users might want to process the timing detail data in other ways, by using SQL tools. If this is the case, the **AllIndividualDetails** option should be used so that the timing detail data is available for that processing. Additionally, if you set the property to **AllIndividualDetails**, then you can analyze the virtual user activity using the Virtual User Activity chart in the Load Test Analyzer after the load test is finished running. For more information, see [Analyzing Virtual User Activity in the Details View](../test/analyzing-load-test-virtual-user-activity-in-the-details-view-of-the-load-test-analyzer.md).  
+ There are two choices for enabling the **Timing Details Storage** property in the run settings properties:**StatisticsOnly** and **AllIndividualDetails**. With either option, all the individual tests, pages, and transactions are timed, and percentile data is calculated from the individual timing data. The difference is that with the **StatisticsOnly** option, as soon as the percentile data has been calculated, the individual timing data is deleted from the repository. This reduces the amount of space that is required in the repository when you use timing details. However, advanced users might want to process the timing detail data in other ways, by using SQL tools. If this is the case, the **AllIndividualDetails** option should be used so that the timing detail data is available for that processing. Additionally, if you set the property to **AllIndividualDetails**, then you can analyze the virtual user activity using the Virtual User Activity chart in the Load Test Analyzer after the load test is finished running. For more information, see [Analyzing Virtual User Activity in the Details View](../test/63f4bd42-3cfb-4eee-af68-e8334976539e.md).  
   
 > [!NOTE]
 >  In earlier versions of Visual Studio, including [!INCLUDE[vsprvsext](../test/includes/vsprvsext_md.md)] and [!INCLUDE[vs_orcas_long](../code-quality/includes/vs_orcas_long_md.md)], the **All Individual Details** setting for the **Timing Details Storage** property was available. However, there are two important differences. First, the **All Individual Details** setting was not the default setting. Second, the only way to access this information was by using SQL queries.  

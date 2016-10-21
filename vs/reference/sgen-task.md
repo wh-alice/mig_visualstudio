@@ -1,5 +1,5 @@
 ---
-title: "SGen Task | Microsoft Docs"
+title: "SGen Task"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -58,7 +58,7 @@ Creates an XML serialization assembly for types in the specified assembly. This 
 |`SerializationAssemblyName`|Optional `String` parameter.<br /><br /> Specifies the name of the generated serialization assembly.|  
 |`ShouldGenerateSerializer`|Required `Boolean` parameter.<br /><br /> If `true`, the SGen task should generate a serialization assembly.|  
 |`Timeout`|Optional `Int32` parameter.<br /><br /> Specifies the amount of time, in milliseconds, after which the task executable is terminated. The default value is `Int.MaxValue`, indicating that there is no time out period.|  
-|`ToolPath`|Optional `String` parameter.<br /><br /> Specifies the location from where the task will load the underlying executable file (sgen.exe). If this parameter is not specified, the task uses the SDK installation path corresponding to the version of the framework that is running [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)].|  
+|`ToolPath`|Optional `String` parameter.<br /><br /> Specifies the location from where the task will load the underlying executable file (sgen.exe). If this parameter is not specified, the task uses the SDK installation path corresponding to the version of the framework that is running [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)].|  
 |`Types`|Optional `String[]` parameter.<br /><br /> Gets or sets a list of specific Types to generate serialization code for. SGen will generate serialization code only for those types.|  
 |`UseProxyTypes`|Required `Boolean` parameter.<br /><br /> If `true`, the SGen task generates serialization code only for the XML Web service proxy types.|  
   

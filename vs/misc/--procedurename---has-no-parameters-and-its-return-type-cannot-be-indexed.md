@@ -1,5 +1,5 @@
 ---
-title: "&#39;&lt;procedurename&gt;&#39; has no parameters and its return type cannot be indexed | Microsoft Docs"
+title: "&#39;&lt;procedurename&gt;&#39; has no parameters and its return type cannot be indexed"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

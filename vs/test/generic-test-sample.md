@@ -1,7 +1,7 @@
 ---
-title: "Generic Test Sample | Microsoft Docs"
+title: "Generic Test Sample"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -41,7 +41,7 @@ The "EvenOdd" sample is a project that you can build into a simple program. You 
 ## Sample Code  
  The code for this sample is available here:  
   
- [!CODE [EvenOdd#1](../CodeSnippet/VS_Snippets_CodeAnalysis/EvenOdd#1)]  
+ [!code[EvenOdd#1](../test/codesnippet/CSharp/generic-test-sample_1.cs)]  
   
 ## Working with the Code  
  To work with this code, you first have to create a project for it in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Follow the steps in the "Prepare the Walkthrough" section in [Walkthrough: Creating and Running a Generic Test](../test/walkthrough--creating-and-running-a-generic-test.md).  

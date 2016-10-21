@@ -1,5 +1,5 @@
 ---
-title: "&#39;&gt;&#39; expected | Microsoft Docs"
+title: "&#39;(&#39; expected"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -10,12 +10,12 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
-  - "bc30636"
-  - "vbc30636"
+  - "bc30199"
+  - "vbc30199"
 helpviewer_keywords: 
-  - "BC30636"
-ms.assetid: 37d7115d-0fbf-4ac4-9065-b7580e116bdd
-caps.latest.revision: 10
+  - "BC30199"
+ms.assetid: 33de46cd-6e7a-4852-baab-dc0e195d9b09
+caps.latest.revision: 9
 ms.author: "billchi"
 manager: "douge"
 translation.priority.ht: 
@@ -34,16 +34,14 @@ translation.priority.mt:
   - "pt-br"
   - "tr-tr"
 ---
-# &#39;&gt;&#39; expected
-The syntax for the specified code is incorrect. This error often indicates that the closing angle bracket for an attribute or XML element literal is missing.  
+# &#39;(&#39; expected
+An argument list in a procedure call does not begin with an opening parenthesis (`(`) character.  
   
- **Error ID:** BC30636  
+ **Error ID:** BC30199  
   
 ### To correct this error  
   
--   Check the syntax for the code being used.  
+-   Add an opening parenthesis character to the beginning of the list.  
   
 ## See Also  
- [NOT IN BUILD: Attributes in Visual Basic](http://msdn.microsoft.com/en-us/620bfc0e-4582-4c8b-8432-ebc5c3dccc22)   
- [NotInBuild:Declaration Statements in Visual Basic](http://msdn.microsoft.com/en-us/81f3c398-f45c-4d95-80bf-aa39d1a0fb30)   
- [XML Literals](../Topic/XML%20Literals%20\(Visual%20Basic\).md)
+ [Procedure Parameters and Arguments](../Topic/Procedure%20Parameters%20and%20Arguments%20\(Visual%20Basic\).md)

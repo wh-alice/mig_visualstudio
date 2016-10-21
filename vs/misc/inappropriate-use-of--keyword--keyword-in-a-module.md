@@ -1,5 +1,5 @@
 ---
-title: "Inappropriate use of &lt;keyword&gt; keyword in a module | Microsoft Docs"
+title: "Inappropriate use of &lt;keyword&gt; keyword in a module"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,7 +1,7 @@
 ---
-title: "Options Pages | Microsoft Docs"
+title: "Options Pages"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -41,7 +41,7 @@ This content has been removed. For information about extending Tools Options pag
  [Creating Options Pages By Using Interop Assemblies](../misc/creating-options-pages-by-using-interop-assemblies.md)  
  Explains how an application can create and manage new **Tools Options** pages by using interop assemblies.  
   
- [Creating Options Pages](../extensibility/creating-options-pages.md)  
+ [Creating Options Pages](../extensibility-internals/creating-options-pages.md)  
  Explains how an application can create and manage new **Tools Options** pages by using the managed package framework.  
   
  [Creating Options Pages By Using Automation](../misc/creating-options-pages-by-using-automation.md)  

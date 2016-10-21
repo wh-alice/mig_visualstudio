@@ -1,5 +1,5 @@
 ---
-title: "CA2002: Do not lock on objects with weak identity | Microsoft Docs"
+title: "CA2002: Do not lock on objects with weak identity"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -77,7 +77,8 @@ translation.priority.mt:
 ## Example  
  The following example shows some object locks that violate the rule.  
   
- [!CODE [FxCop.Reliability.LockWeakObjects#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Reliability.LockWeakObjects#1)]  
+ [!code[FxCop.Reliability.LockWeakObjects#1](../code-quality/codesnippet/VisualBasic/ca2002--do-not-lock-on-objects-with-weak-identity_1.vb)]
+[!code[FxCop.Reliability.LockWeakObjects#1](../code-quality/codesnippet/CSharp/ca2002--do-not-lock-on-objects-with-weak-identity_1.cs)]  
   
 ## See Also  
  <xref:System.Threading.Monitor>   

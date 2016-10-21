@@ -1,5 +1,5 @@
 ---
-title: "Determining the Default Namespace of a Project | Microsoft Docs"
+title: "Determining the Default Namespace of a Project"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -48,6 +48,6 @@ rootNamespace.webReferenceFolder.containedFolder.containedFolder ...
 ```  
   
 ## See Also  
- [Implementing Single-File Generators](../extensibility/implementing-single-file-generators.md)   
- [Registering Single File Generators](../extensibility/registering-single-file-generators.md)   
- [Exposing Types to Visual Designers](../extensibility/exposing-types-to-visual-designers.md)
+ [Implementing Single-File Generators](../extensibility-internals/implementing-single-file-generators.md)   
+ [Registering Single File Generators](../extensibility-internals/registering-single-file-generators.md)   
+ [Exposing Types to Visual Designers](../extensibility-internals/exposing-types-to-visual-designers.md)

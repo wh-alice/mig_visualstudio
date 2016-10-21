@@ -1,5 +1,5 @@
 ---
-title: "How to: Create Inheritance Between Types (Class Designer) | Microsoft Docs"
+title: "How to: Create Inheritance Between Types (Class Designer)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

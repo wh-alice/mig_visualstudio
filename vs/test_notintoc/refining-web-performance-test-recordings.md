@@ -1,5 +1,5 @@
 ---
-title: "Refining web performance test recordings | Microsoft Docs"
+title: "Refining web performance test recordings"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

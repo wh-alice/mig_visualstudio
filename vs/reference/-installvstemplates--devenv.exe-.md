@@ -1,5 +1,5 @@
 ---
-title: "-InstallVSTemplates (devenv.exe) | Microsoft Docs"
+title: "-InstallVSTemplates (devenv.exe)"
 ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"

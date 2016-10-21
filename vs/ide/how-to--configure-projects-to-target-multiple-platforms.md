@@ -1,7 +1,7 @@
 ---
-title: "How to: Configure Projects to Target Multiple Platforms | Microsoft Docs"
+title: "How to: Configure Projects to Target Multiple Platforms"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ translation.priority.ht:
 [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] provides a way for a solution to target several different CPU architectures, or platforms, at once. The properties to set these are accessed through the **Configuration Manager** dialog box.  
   
 ## Targeting a Platform  
- The **Configuration Manager** dialog box allows you to create and set solution-level and project-level configurations and platforms. Each combination of solution-level configurations and targets can have a unique set of properties associated with it, allowing you to easily switch between, for example, a Release configuration that targets an [!INCLUDE[vcprx64](../extensibility/includes/vcprx64_md.md)] platform, a Release configuration that targets an x86 platform, and a Debug configuration that targets an x86 platform.  
+ The **Configuration Manager** dialog box allows you to create and set solution-level and project-level configurations and platforms. Each combination of solution-level configurations and targets can have a unique set of properties associated with it, allowing you to easily switch between, for example, a Release configuration that targets an [!INCLUDE[vcprx64](../extensibility-internals/includes/vcprx64_md.md)] platform, a Release configuration that targets an x86 platform, and a Debug configuration that targets an x86 platform.  
   
 #### To set your configuration to target a different platform  
   
@@ -71,7 +71,7 @@ translation.priority.ht:
   
 2.  Use the **Batch Build** window to build several solution configurations at once.  
   
- It is possible to have a solution-level platform set to, for example, [!INCLUDE[vcprx64](../extensibility/includes/vcprx64_md.md)], and have no projects within that solution targeting the same platform. It is also possible to have multiple projects in your solution, each targeting different platforms. It is recommended that if you have one of these situations, you create a new configuration with a descriptive name to avoid confusion.  
+ It is possible to have a solution-level platform set to, for example, [!INCLUDE[vcprx64](../extensibility-internals/includes/vcprx64_md.md)], and have no projects within that solution targeting the same platform. It is also possible to have multiple projects in your solution, each targeting different platforms. It is recommended that if you have one of these situations, you create a new configuration with a descriptive name to avoid confusion.  
   
 ## See Also  
  [How to: Create and Edit Configurations](../ide/how-to--create-and-edit-configurations.md)   

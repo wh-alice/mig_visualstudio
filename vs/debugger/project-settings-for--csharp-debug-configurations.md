@@ -1,7 +1,7 @@
 ---
-title: "Project Settings for  C# Debug Configurations | Microsoft Docs"
+title: "Project Settings for  C# Debug Configurations"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -46,7 +46,7 @@ translation.priority.ht:
 You can change the project settings for a C# debug configuration in the **Property Pages** window, as discussed in [Debug and Release Configurations](../debugger/how-to--set-debug-and-release-configurations.md). The following tables show where to find debugger-related settings in the **Property Pages** window.  
   
 > [!WARNING]
->  This topic does not apply to Windows Store apps. See [Start a debug session (VB, C#, C++ and XAML)](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio--vb--csharp--c---and-xaml-.md)  
+>  This topic does not apply to Windows Store apps. See [Start a debug session (VB, C#, C++ and XAML)](../debugger/66ec0e79-8261-4c19-a618-3fd1b3f71bbd.md)  
   
 ##  <a name="BKMK_Debug_tab"></a> Debug tab  
   

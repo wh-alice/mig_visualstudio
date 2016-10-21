@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Debugging a Text Template that Accesses a Model | Microsoft Docs"
+title: "Walkthrough: Debugging a Text Template that Accesses a Model"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Warning Task | Microsoft Docs"
+title: "Warning Task"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -49,10 +49,10 @@ Logs a warning during a build based on an evaluated conditional statement.
 |`Code`|Optional `String` parameter.<br /><br /> The warning code to associate with the warning.|  
 |`File`|Optional `String` parameter.<br /><br /> Specifies the relevant file, if any. If no file is provided, the file containing the Warning task is used.|  
 |`HelpKeyword`|Optional `String` parameter.<br /><br /> The Help keyword to associate with the warning.|  
-|`Text`|Optional `String` parameter.<br /><br /> The warning text that [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] logs if the `Condition` parameter evaluates to `true`.|  
+|`Text`|Optional `String` parameter.<br /><br /> The warning text that [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] logs if the `Condition` parameter evaluates to `true`.|  
   
 ## Remarks  
- The `Warning` task allows [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] projects to check for the presence of a required configuration or property before proceeding with the next build step.  
+ The `Warning` task allows [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] projects to check for the presence of a required configuration or property before proceeding with the next build step.  
   
  If the `Condition` parameter of the `Warning` task evaluates to `true`, the value of the `Text` parameter is logged and the build continues to execute. If a `Condition` parameter does not exisit, the warning text is logged. For more information on logging, see [Obtaining Build Logs](../reference/obtaining-build-logs-with-msbuild.md).  
   

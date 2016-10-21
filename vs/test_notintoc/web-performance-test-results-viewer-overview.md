@@ -1,5 +1,5 @@
 ---
-title: "Web Performance Test Results Viewer Overview | Microsoft Docs"
+title: "Web Performance Test Results Viewer Overview"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

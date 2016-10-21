@@ -1,5 +1,5 @@
 ---
-title: "Compiler Error CS1536 | Microsoft Docs"
+title: "Compiler Error CS1536"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

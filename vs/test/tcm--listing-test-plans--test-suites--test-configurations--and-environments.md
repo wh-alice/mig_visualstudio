@@ -1,7 +1,7 @@
 ---
-title: "tcm: Listing test plans, test suites, test configurations, and environments | Microsoft Docs"
+title: "tcm: Listing test plans, test suites, test configurations, and environments"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -111,4 +111,4 @@ tcm suites /list /planid:3 /collection:http://<Team Foundation Server Name>:8080
   
 ## See Also  
  [tcm: Running Tests from a Test Plan Using the Command Line Utility](../test/tcm--running-tests-from-a-test-plan-using-the-command-line-utility.md)   
- [Using tcm to import and run automated tests for a test plan from the command line](../test/using-tcm-to-import-and-run-automated-tests-for-a-test-plan-from-the-command-line.md)
+ [Using tcm to import and run automated tests for a test plan from the command line](../test/b45def12-0e67-4270-89ea-67c41bc188a7.md)

@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio Administrator Guide | Microsoft Docs"
+title: "Visual Studio Administrator Guide"
 ms.custom: ""
 ms.date: "2016-10-12"
 ms.prod: "visual-studio-dev14"
@@ -39,7 +39,7 @@ You can deploy Visual Studio on a network as long as each target computer meets 
  Note that installations from a network share “remember” the source location they came from. This means that a repair of a client machine might need to return to the network share that the client originally installed from. Choose your network location carefully so that it aligns to the lifetime you expect to have Visual Studio 2015 clients running in your organization.  
   
 ## Detection and Servicing Keys  
- You can use detection subkeys in the registry to determine whether a Visual Studio product is already installed on a computer. You would use these detection keys in an automated deployment to determine whether it was necessary to proceed with an installation.  See [Detecting System Requirements](../extensibility/detecting-system-requirements.md).  
+ You can use detection subkeys in the registry to determine whether a Visual Studio product is already installed on a computer. You would use these detection keys in an automated deployment to determine whether it was necessary to proceed with an installation.  See [Detecting System Requirements](../extensibility-internals/detecting-system-requirements.md).  
   
 ## Avoiding Reboots  
  You can reduce reboots by making sure that you meet the appropriate Visual Studio prerequisites before you deploy Visual Studio. For the .NET Framework, you might need to reboot computers that are running [!INCLUDE[win8](../code-quality/includes/win8_md.md)] if you deploy Visual Studio 2015 on them without first installing the .NET Framework 4.6.  

@@ -1,5 +1,5 @@
 ---
-title: "Type character &#39;&lt;charactername&gt;&#39; does not match declared data type &#39;&lt;type&gt;&#39; | Microsoft Docs"
+title: "Type character &#39;&lt;charactername&gt;&#39; does not match declared data type &#39;&lt;type&gt;&#39;"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

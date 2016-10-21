@@ -1,5 +1,5 @@
 ---
-title: "CA2134: Methods must keep consistent transparency when overriding base methods | Microsoft Docs"
+title: "CA2134: Methods must keep consistent transparency when overriding base methods"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -57,7 +57,7 @@ translation.priority.ht:
 ## Examples  
   
 ### Code  
- [!CODE [FxCop.Security.CA2134.MethodsMustOverrideWithConsistentTransparency#1](../CodeSnippet/VS_Snippets_CodeAnalysis/fxcop.security.ca2134.methodsmustoverridewithconsistenttransparency#1)]  
+ [!code[FxCop.Security.CA2134.MethodsMustOverrideWithConsistentTransparency#1](../code-quality/codesnippet/CSharp/ca2134--methods-must-keep-consistent-transparency-when-overriding-base-methods_1.cs)]  
   
 ## See Also  
  [Security-Transparent Code, Level 2](../Topic/Security-Transparent%20Code,%20Level%202.md)

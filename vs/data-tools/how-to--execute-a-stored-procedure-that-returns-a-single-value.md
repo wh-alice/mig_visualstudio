@@ -1,5 +1,5 @@
 ---
-title: "How to: Execute a Stored Procedure that Returns a Single Value | Microsoft Docs"
+title: "How to: Execute a Stored Procedure that Returns a Single Value"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -97,7 +97,8 @@ To execute a stored procedure that returns a single value, you can run TableAdap
   
      The complete code to declare an instance of the TableAdapter and execute the query should look similar to the following:  
   
-     [!CODE [VbRaddataFillingAndExecuting#9](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataFillingAndExecuting#9)]  
+     [!code[VbRaddataFillingAndExecuting#9](../data-tools/codesnippet/CSharp/how-to--execute-a-stored-procedure-that-returns-a-single-value_1.cs)]
+[!code[VbRaddataFillingAndExecuting#9](../data-tools/codesnippet/VisualBasic/how-to--execute-a-stored-procedure-that-returns-a-single-value_1.vb)]  
   
 ## Executing Stored Procedures that Return Single Values Using a Command Object  
  The following example shows how to create a command and execute a stored procedure that returns a single value. For information on setting and getting parameter values for a command, see [How to: Set and Get Parameters for Command Objects](../Topic/How%20to:%20Set%20and%20Get%20Parameters%20for%20Command%20Objects.md).  
@@ -114,7 +115,8 @@ To execute a stored procedure that returns a single value, you can run TableAdap
   
 -   Add the following code to a method that you want to execute the code from. You return single values by calling the `ExecuteScalar` method of a command (for example, <xref:System.Data.SqlClient.SqlCommand.ExecuteScalar*>). The data is returned in an `object`.  
   
-     [!CODE [VbRaddataFillingAndExecuting#14](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataFillingAndExecuting#14)]  
+     [!code[VbRaddataFillingAndExecuting#14](../data-tools/codesnippet/CSharp/how-to--execute-a-stored-procedure-that-returns-a-single-value_2.cs)]
+[!code[VbRaddataFillingAndExecuting#14](../data-tools/codesnippet/VisualBasic/how-to--execute-a-stored-procedure-that-returns-a-single-value_2.vb)]  
   
 ## See Also  
  <xref:System.Data.SqlClient.SqlCommand.ExecuteScalar*?displayProperty=fullName>   

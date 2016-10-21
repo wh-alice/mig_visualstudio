@@ -1,5 +1,5 @@
 ---
-title: "CA1413: Avoid non-public fields in COM visible value types | Microsoft Docs"
+title: "CA1413: Avoid non-public fields in COM visible value types"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -60,7 +60,8 @@ translation.priority.mt:
 ## Example  
  The following example shows a type that violates the rule.  
   
- [!CODE [FxCop.Interoperability.NonpublicField#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Interoperability.NonpublicField#1)]  
+ [!code[FxCop.Interoperability.NonpublicField#1](../code-quality/codesnippet/CSharp/ca1413--avoid-non-public-fields-in-com-visible-value-types_1.cs)]
+[!code[FxCop.Interoperability.NonpublicField#1](../code-quality/codesnippet/VisualBasic/ca1413--avoid-non-public-fields-in-com-visible-value-types_1.vb)]  
   
 ## Related Rules  
  [CA1407: Avoid static members in COM visible types](../code-quality/ca1407--avoid-static-members-in-com-visible-types.md)  

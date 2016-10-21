@@ -1,7 +1,7 @@
 ---
-title: "IDE Constants | Microsoft Docs"
+title: "IDE Constants"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -129,4 +129,4 @@ The <xref:Microsoft.VisualStudio.VSConstants> class provides constants that are 
 |<xref:Microsoft.VisualStudio.VSConstants.CPPM_SETMULTISELECT>|WM_USER + 1289|  
   
 ## See Also  
- [IDE-Defined Commands for Extending Project Systems](../extensibility/ide-defined-commands-for-extending-project-systems.md)
+ [IDE-Defined Commands for Extending Project Systems](../extensibility-internals/ide-defined-commands-for-extending-project-systems.md)

@@ -1,7 +1,7 @@
 ---
-title: "How to: Get a Service | Microsoft Docs"
+title: "How to: Get a Service"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -98,4 +98,4 @@ if (sp != null)
 ## See Also  
  [How to: Provide a Service](../extensibility/how-to--provide-a-service.md)   
  [Using and Providing Services](../extensibility/using-and-providing-services.md)   
- [Service Essentials](../extensibility/service-essentials.md)
+ [Service Essentials](../extensibility-internals/service-essentials.md)

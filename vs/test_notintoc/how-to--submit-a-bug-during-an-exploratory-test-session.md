@@ -1,5 +1,5 @@
 ---
-title: "How to: Submit a Bug during an Exploratory Test Session | Microsoft Docs"
+title: "How to: Submit a Bug during an Exploratory Test Session"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

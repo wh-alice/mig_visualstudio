@@ -1,5 +1,5 @@
 ---
-title: "Load Test Results Summary Overview | Microsoft Docs"
+title: "Load Test Results Summary Overview"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -86,15 +86,15 @@ Summary view in Load Test Analyzer
  The percentile value for **95% Page Time (sec)** report that 95% of the pages completed in less than this time in seconds.  
   
 ###  <a name="SlowestTests"></a> Key Statistic: Top 5 Slowest Tests  
- The slowest tests section contains the top 5 slowest tests in the load test. The name of the test and the average test time are displayed for each test. The tests are listed in descending order. You can choose the name of a test to open the **Tests** table and inspect more details for that test. For more information, see [Analyzing Load Test Results and Errors in the Tables View](../test/analyzing-load-test-results-and-errors-in-the-tables-view-of-the-load-test-analyzer.md).  
+ The slowest tests section contains the top 5 slowest tests in the load test. The name of the test and the average test time are displayed for each test. The tests are listed in descending order. You can choose the name of a test to open the **Tests** table and inspect more details for that test. For more information, see [Analyzing Load Test Results and Errors in the Tables View](../test/0a84bda3-6051-45eb-9c7f-d57419e1f97d.md).  
   
  The percentile value for **95% Test Time (sec)** report that 95% of the tests completed in less than this time in seconds.  
   
 ###  <a name="SlowestQueries"></a> Key Statistic: Top 5 Slowest SQL Operations  
- If SQL tracing is enabled in the load test, the slowest queries section contains the top 5 slowest queries in the load test. The name of the operation and the duration are displayed for each test. The duration is displayed in microseconds ([!INCLUDE[sqprsqlong](../debugger/includes/sqprsqlong_md.md)]) or milliseconds (SQL Server 2000 and earlier). The tests are listed in descending order by duration. You can choose the name of an operation to open the **SQL Trace** table and inspect more details for that operation. For more information, see [The SQL Trace Data Table](../test/analyzing-load-test-results-and-errors-in-the-tables-view-of-the-load-test-analyzer.md#AnalyzingLoadTestResultsErrorsTablesViewViewingTheSQLTraceDataTable).  
+ If SQL tracing is enabled in the load test, the slowest queries section contains the top 5 slowest queries in the load test. The name of the operation and the duration are displayed for each test. The duration is displayed in microseconds ([!INCLUDE[sqprsqlong](../debugger/includes/sqprsqlong_md.md)]) or milliseconds (SQL Server 2000 and earlier). The tests are listed in descending order by duration. You can choose the name of an operation to open the **SQL Trace** table and inspect more details for that operation. For more information, see [The SQL Trace Data Table](../test/0a84bda3-6051-45eb-9c7f-d57419e1f97d.md#AnalyzingLoadTestResultsErrorsTablesViewViewingTheSQLTraceDataTable).  
   
 ###  <a name="TestResults"></a> Test Results  
- The test results section contains a list of all the tests and scenarios in the load test. The name of the test, the scenario, the number of times it ran, the number of times it failed, and the average test time are displayed. You can choose the name of a test to open the **Tests** table and inspect more details for that test. For more information, see [Analyzing Load Test Results and Errors in the Tables View](../test/analyzing-load-test-results-and-errors-in-the-tables-view-of-the-load-test-analyzer.md).  
+ The test results section contains a list of all the tests and scenarios in the load test. The name of the test, the scenario, the number of times it ran, the number of times it failed, and the average test time are displayed. You can choose the name of a test to open the **Tests** table and inspect more details for that test. For more information, see [Analyzing Load Test Results and Errors in the Tables View](../test/0a84bda3-6051-45eb-9c7f-d57419e1f97d.md).  
   
 > [!NOTE]
 >  You can collapse and expand this section by choosing the arrow to the left of the section title.  
@@ -106,7 +106,7 @@ Summary view in Load Test Analyzer
 >  You can collapse and expand this section by choosing the arrow to the left of the section title.  
   
 ###  <a name="TransactionResults"></a> Transaction Results  
- The transaction results section contains a list of all the transactions in the load test. The name of the transaction, the scenario, the test, the response time, the elapsed time, and the count are displayed. You can choose the name of a transaction to open the **Transactions** table and inspect more details for that transaction. For more information, see [Analyzing Load Test Results and Errors in the Tables View](../test/analyzing-load-test-results-and-errors-in-the-tables-view-of-the-load-test-analyzer.md).  
+ The transaction results section contains a list of all the transactions in the load test. The name of the transaction, the scenario, the test, the response time, the elapsed time, and the count are displayed. You can choose the name of a transaction to open the **Transactions** table and inspect more details for that transaction. For more information, see [Analyzing Load Test Results and Errors in the Tables View](../test/0a84bda3-6051-45eb-9c7f-d57419e1f97d.md).  
   
 > [!NOTE]
 >  You can collapse and expand this section by choosing the arrow to the left of the section title.  
@@ -130,7 +130,7 @@ Summary view in Load Test Analyzer
 >  You can collapse and expand this section by choosing the arrow to the left of the section title.  
   
 ###  <a name="Errors"></a> Errors  
- The errors section contains a list of all the errors that occurred during the load test. The type and subtype of the error, the count, and the last message are displayed. You can choose an error to open the **Errors** table and inspect more details for that error. For more information, see [Analyzing Load Test Results and Errors in the Tables View](../test/analyzing-load-test-results-and-errors-in-the-tables-view-of-the-load-test-analyzer.md) and [How to: Analyze Errors Using the Counters Panel](../test/how-to--analyze-errors-using-the-counters-panel.md).  
+ The errors section contains a list of all the errors that occurred during the load test. The type and subtype of the error, the count, and the last message are displayed. You can choose an error to open the **Errors** table and inspect more details for that error. For more information, see [Analyzing Load Test Results and Errors in the Tables View](../test/0a84bda3-6051-45eb-9c7f-d57419e1f97d.md) and [How to: Analyze Errors Using the Counters Panel](../test/how-to--analyze-errors-using-the-counters-panel.md).  
   
 > [!NOTE]
 >  You can collapse and expand this section by choosing the arrow to the left of the section title.  

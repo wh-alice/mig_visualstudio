@@ -1,5 +1,5 @@
 ---
-title: "Warning: Script Debugging Disabled | Microsoft Docs"
+title: "Warning: Script Debugging Disabled"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

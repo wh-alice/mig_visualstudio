@@ -1,5 +1,5 @@
 ---
-title: "How to: Switch to a Different Team Project from Microsoft Test Manager | Microsoft Docs"
+title: "How to: Switch to a Different Team Project from Microsoft Test Manager"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Error Task | Microsoft Docs"
+title: "Error Task"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -50,10 +50,10 @@ Stops a build and logs an error based on an evaluated conditional statement.
 |`Code`|Optional `String` parameter.<br /><br /> The error code to associate with the error.|  
 |`File`|Optional `String` parameter.<br /><br /> The name of the file that contains the error. If no file name is provided, the file containing the Error task will be used.|  
 |`HelpKeyword`|Optional `String` parameter.<br /><br /> The Help keyword to associate with the error.|  
-|`Text`|Optional `String` parameter.<br /><br /> The error text that [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] logs if the `Condition` parameter evaluates to `true`.|  
+|`Text`|Optional `String` parameter.<br /><br /> The error text that [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] logs if the `Condition` parameter evaluates to `true`.|  
   
 ## Remarks  
- The `Error` task allows [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] projects issue error text to loggers and stop build execution.  
+ The `Error` task allows [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] projects issue error text to loggers and stop build execution.  
   
  If the `Condition` parameter evaluates to `true`, the build is stopped, and an error is logged. If a `Condition` parameter does not exist, the error is logged and build execution stops. For more information on logging, see [Obtaining Build Logs](../reference/obtaining-build-logs-with-msbuild.md).  
   

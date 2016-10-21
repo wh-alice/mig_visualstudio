@@ -1,12 +1,12 @@
 ---
-title: "&#39;End Sub&#39; expected | Microsoft Docs"
+title: "&#39;End Sub&#39; expected"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30026"
 ms.assetid: f60fa169-2e6b-4cf8-93dd-ce520a35b497
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

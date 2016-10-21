@@ -1,5 +1,5 @@
 ---
-title: "Error List Window | Microsoft Docs"
+title: "Error List Window"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Track your test results | Microsoft Docs"
+title: "Track your test results"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"

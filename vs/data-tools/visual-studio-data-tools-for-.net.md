@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio data tools for .NET | Microsoft Docs"
+title: "Visual Studio data tools for .NET"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.reviewer: ""
@@ -57,7 +57,7 @@ Visual Studio and the .NET Framework together provide extensive API and tooling 
   
 -   [Additional resources for troubleshooting data access errors](../data-tools/additional-resources-for-troubleshooting-data-access-errors.md)  
   
--   [Windows Communication Foundation Services and WCF Data Services in Visual Studio](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md)  
+-   [Windows Communication Foundation Services and WCF Data Services in Visual Studio](../data-tools/d56f12cb-e139-4fec-b3e4-488383356642.md)  
   
 -   [Creating and managing databases and data-tier applications in Visual Studio](../data-tools/creating-and-managing-databases-and-data-tier-applications-in-visual-studio.md)  
   

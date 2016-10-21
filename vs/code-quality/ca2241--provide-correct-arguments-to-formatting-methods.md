@@ -1,5 +1,5 @@
 ---
-title: "CA2241: Provide correct arguments to formatting methods | Microsoft Docs"
+title: "CA2241: Provide correct arguments to formatting methods"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -58,4 +58,5 @@ translation.priority.ht:
 ## Example  
  The following example shows two violations of the rule.  
   
- [!CODE [FxCop.Usage.FormattingArguments#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Usage.FormattingArguments#1)]
+ [!code[FxCop.Usage.FormattingArguments#1](../code-quality/codesnippet/VisualBasic/ca2241--provide-correct-arguments-to-formatting-methods_1.vb)]
+[!code[FxCop.Usage.FormattingArguments#1](../code-quality/codesnippet/CSharp/ca2241--provide-correct-arguments-to-formatting-methods_1.cs)]

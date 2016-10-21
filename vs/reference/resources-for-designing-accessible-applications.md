@@ -1,5 +1,5 @@
 ---
-title: "Resources for Designing Accessible Applications | Microsoft Docs"
+title: "Resources for Designing Accessible Applications"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

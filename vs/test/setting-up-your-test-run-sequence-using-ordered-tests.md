@@ -1,5 +1,5 @@
 ---
-title: "Setting Up Your Test Run Sequence Using Ordered Tests | Microsoft Docs"
+title: "Setting Up Your Test Run Sequence Using Ordered Tests"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

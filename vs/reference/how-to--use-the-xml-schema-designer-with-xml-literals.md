@@ -1,5 +1,5 @@
 ---
-title: "How to: Use the XML Schema Designer with XML Literals | Microsoft Docs"
+title: "How to: Use the XML Schema Designer with XML Literals"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

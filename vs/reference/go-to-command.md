@@ -1,5 +1,5 @@
 ---
-title: "Go To Command | Microsoft Docs"
+title: "Go To Command"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

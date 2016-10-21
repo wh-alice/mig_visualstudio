@@ -1,7 +1,7 @@
 ---
 title: "How to trigger suspend, resume, and background events for Windows Store apps in Visual Studio"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -136,7 +136,7 @@ When you are not debugging, Windows **Process Lifetime Management** (PLM) contro
 4.  Choose the **Diagnostic** log.  
   
 ## See Also  
- [Testing Store apps with Visual Studio](../codequality/testing-store-apps-with-visual-studio.md)   
+ [Testing Store apps with Visual Studio](../code-quality/testing-store-apps-with-visual-studio.md)   
  [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md)   
  [Application lifecycle](http://msdn.microsoft.com/en-us/53cdc987-c547-49d1-a5a4-fd3f96b2259d)   
  [Launching, resuming, and multitasking](http://msdn.microsoft.com/en-us/04307b1b-05af-46a6-b639-3f35e297f71b)

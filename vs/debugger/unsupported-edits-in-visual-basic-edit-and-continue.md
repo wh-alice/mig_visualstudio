@@ -1,5 +1,5 @@
 ---
-title: "Unsupported Edits in Visual Basic Edit and Continue | Microsoft Docs"
+title: "Unsupported Edits in Visual Basic Edit and Continue"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "CA1047: Do not declare protected members in sealed types | Microsoft Docs"
+title: "CA1047: Do not declare protected members in sealed types"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -60,4 +60,5 @@ translation.priority.mt:
 ## Example  
  The following example shows a type that violates this rule.  
   
- [!CODE [FxCop.Design.SealedNoProtected#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Design.SealedNoProtected#1)]
+ [!code[FxCop.Design.SealedNoProtected#1](../code-quality/codesnippet/VisualBasic/ca1047--do-not-declare-protected-members-in-sealed-types_1.vb)]
+[!code[FxCop.Design.SealedNoProtected#1](../code-quality/codesnippet/CSharp/ca1047--do-not-declare-protected-members-in-sealed-types_1.cs)]

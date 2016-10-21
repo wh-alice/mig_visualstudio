@@ -1,5 +1,5 @@
 ---
-title: "TaskBody Element (MSBuild) | Microsoft Docs"
+title: "TaskBody Element (MSBuild)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -68,7 +68,7 @@ Contains the data that is passed to a `UsingTask``TaskFactory`. For more informa
   
 |Element|Description|  
 |-------------|-----------------|  
-|[UsingTask](../reference/usingtask-element--msbuild-.md)|Provides a way to register tasks in [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)]. There may be zero or more `UsingTask` elements in a project.|  
+|[UsingTask](../reference/usingtask-element--msbuild-.md)|Provides a way to register tasks in [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)]. There may be zero or more `UsingTask` elements in a project.|  
   
 ## Example  
  The following example shows how to use the `TaskBody` element with an `Evaluate` attribute.  

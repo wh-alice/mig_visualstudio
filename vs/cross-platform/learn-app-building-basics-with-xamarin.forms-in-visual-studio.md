@@ -1,5 +1,5 @@
 ---
-title: "Learn app-building basics with Xamarin.Forms in Visual Studio | Microsoft Docs"
+title: "Learn app-building basics with Xamarin.Forms in Visual Studio"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.reviewer: ""

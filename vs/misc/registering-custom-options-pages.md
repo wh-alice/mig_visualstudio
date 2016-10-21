@@ -1,7 +1,7 @@
 ---
-title: "Registering Custom Options Pages | Microsoft Docs"
+title: "Registering Custom Options Pages"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -164,4 +164,4 @@ For a **Tools Options** page to be available to users and support automation, it
  [Creating Options Pages By Using Interop Assemblies](../misc/creating-options-pages-by-using-interop-assemblies.md)   
  [How to: Create Custom Options Pages](../Topic/How%20to:%20Create%20Custom%20Options%20Pages.md)   
  [Options Pages](../misc/options-pages.md)   
- [Automation Support for Options Pages](../extensibility/automation-support-for-options-pages.md)
+ [Automation Support for Options Pages](../extensibility-internals/automation-support-for-options-pages.md)

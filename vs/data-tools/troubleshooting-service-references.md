@@ -1,7 +1,7 @@
 ---
-title: "Troubleshooting Service References | Microsoft Docs"
+title: "Troubleshooting Service References"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -66,7 +66,7 @@ This topic lists common issues that may occur when you are working with [!INCLUD
     > [!NOTE]
     >  You should turn off NTLM authentication only for Web sites that exclusively contain WCF services. Security for WCF services is managed through the configuration in the web.config file. This makes NTLM authentication unnecessary.  
   
- For more information, see [Troubleshooting Exceptions: System.ServiceModel.Security.MessageSecurityException](../misc/troubleshooting-exceptions--system.servicemodel.security.messagesecurityexception.md).  
+ For more information, see [Troubleshooting Exceptions: System.ServiceModel.Security.MessageSecurityException](../misc/61ad69a1-ac50-49de-9a7c-8454a84ec5bd.md).  
   
 ## Access Level for Generated Classes Setting Has No Effect  
  Setting the **Access level for generated classes** option in the **Configure Service References** dialog box to **Internal** or **Friend** may not always work. Even though the option appears to be set in the dialog box, the resulting support classes will be generated with an access level of `Public`.  
@@ -110,4 +110,4 @@ This topic lists common issues that may occur when you are working with [!INCLUD
 4.  Click **OK** to close the **Internet Options** dialog box.  
   
 ## See Also  
- [Windows Communication Foundation Services and WCF Data Services in Visual Studio](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md)
+ [Windows Communication Foundation Services and WCF Data Services in Visual Studio](../data-tools/d56f12cb-e139-4fec-b3e4-488383356642.md)

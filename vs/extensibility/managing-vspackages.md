@@ -1,5 +1,5 @@
 ---
-title: "Managing VSPackages | Microsoft Docs"
+title: "Managing VSPackages"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -55,4 +55,4 @@ In most cases you don’t need to worry about managing VSPackages, since the pro
  Find out the techniques for troubleshooting VSPackages that don’t load or are experiencing errors: [Troubleshooting VSPackages](../extensibility/troubleshooting-vspackages.md)  
   
 ## See Also  
- [VSPackages](../extensibility/vspackages.md)
+ [VSPackages](../extensibility-internals/vspackages.md)

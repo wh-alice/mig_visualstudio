@@ -1,5 +1,5 @@
 ---
-title: "Graphics Pipeline Stages | Microsoft Docs"
+title: "Graphics Pipeline Stages"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

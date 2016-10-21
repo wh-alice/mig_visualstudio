@@ -1,5 +1,5 @@
 ---
-title: "How to: Export Graph View Data to Microsoft Excel | Microsoft Docs"
+title: "How to: Export Graph View Data to Microsoft Excel"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "How to: Execute a Stored Procedure that Returns No Value | Microsoft Docs"
+title: "How to: Execute a Stored Procedure that Returns No Value"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -95,7 +95,8 @@ To execute a stored procedure that returns no value, you can run a TableAdapter 
   
      The complete code to declare an instance of the TableAdapter and execute the query should look similar to the following:  
   
-     [!CODE [VbRaddataFillingAndExecuting#11](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataFillingAndExecuting#11)]  
+     [!code[VbRaddataFillingAndExecuting#11](../data-tools/codesnippet/CSharp/how-to--execute-a-stored-procedure-that-returns-no-value_1.cs)]
+[!code[VbRaddataFillingAndExecuting#11](../data-tools/codesnippet/VisualBasic/how-to--execute-a-stored-procedure-that-returns-no-value_1.vb)]  
   
 ## Executing Stored Procedures that Return No Value Using a Command Object  
  The following example shows how to create a command and execute a stored procedure that returns no value. For information on setting and getting parameter values for a command, see [How to: Set and Get Parameters for Command Objects](../Topic/How%20to:%20Set%20and%20Get%20Parameters%20for%20Command%20Objects.md).  
@@ -108,7 +109,8 @@ To execute a stored procedure that returns no value, you can run a TableAdapter 
   
 -   Add the following code to a method that you want to execute the stored procedure from. Call the `ExecuteNonQuery` method of a command to return no value (for example, <xref:System.Data.SqlClient.SqlCommand.ExecuteNonQuery*>).  
   
-     [!CODE [VbRaddataFillingAndExecuting#15](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataFillingAndExecuting#15)]  
+     [!code[VbRaddataFillingAndExecuting#15](../data-tools/codesnippet/CSharp/how-to--execute-a-stored-procedure-that-returns-no-value_2.cs)]
+[!code[VbRaddataFillingAndExecuting#15](../data-tools/codesnippet/VisualBasic/how-to--execute-a-stored-procedure-that-returns-no-value_2.vb)]  
   
 ## .NET Framework Security  
  The application requires permission to access the database and execute the SQL statement.  

@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Exceptions: System.DeploymentFramework.DependentPlatformMissingException"
 ms.custom: ""
-ms.date: "10/13/2016"
+ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,7 +32,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Troubleshooting Exceptions: System.DeploymentFramework.DependentPlatformMissingException
-A `T:System.DeploymentFramework.DependentPlatformMissingException` exception is thrown when an application depends on something not installed on this client. Possible causes include the wrong operating system or version of the [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] on the machine to which the application is being deployed.  
+A `T:System.DeploymentFramework.DependentPlatformMissingException` exception is thrown when an application depends on something not installed on this client. Possible causes include the wrong operating system or version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] on the machine to which the application is being deployed.  
   
 ## Associated Tips  
  **Check that all assemblies required by the application are installed on the target computer.**  

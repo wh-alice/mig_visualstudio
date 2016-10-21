@@ -1,5 +1,5 @@
 ---
-title: "Talk to Us | Microsoft Docs"
+title: "Talk to Us"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"

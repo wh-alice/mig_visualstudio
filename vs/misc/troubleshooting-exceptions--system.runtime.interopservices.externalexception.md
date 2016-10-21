@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Exceptions: System.Runtime.InteropServices.ExternalException | Microsoft Docs"
+title: "Troubleshooting Exceptions: System.Runtime.InteropServices.ExternalException"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

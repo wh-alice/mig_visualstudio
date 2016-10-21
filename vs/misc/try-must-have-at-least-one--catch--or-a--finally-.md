@@ -1,12 +1,12 @@
 ---
-title: "Try must have at least one &#39;Catch&#39; or a &#39;Finally&#39; | Microsoft Docs"
+title: "Try must have at least one &#39;Catch&#39; or a &#39;Finally&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30030"
 ms.assetid: d6eadd58-3788-42ae-8cc0-59aba86c7c0e
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,7 +1,7 @@
 ---
-title: "Breaking Changes in Visual C++ 2015 Update 2 | Microsoft Docs"
+title: "Breaking Changes in Visual C++ 2015 Update 2"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

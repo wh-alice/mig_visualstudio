@@ -1,5 +1,5 @@
 ---
-title: "Task Element (MSBuild) | Microsoft Docs"
+title: "Task Element (MSBuild)"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
@@ -37,7 +37,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Task Element (MSBuild)
-Creates and executes an instance of an [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] task. The element name is determined by the name of the task being created.  
+Creates and executes an instance of an [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] task. The element name is determined by the name of the task being created.  
   
  \<Project>  
  \<Target>  
@@ -73,10 +73,10 @@ Creates and executes an instance of an [!INCLUDE[vstecmsbuild](../extensibility/
   
 |Element|Description|  
 |-------------|-----------------|  
-|[Target](../reference/target-element--msbuild-.md)|Container element for [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] tasks.|  
+|[Target](../reference/target-element--msbuild-.md)|Container element for [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] tasks.|  
   
 ## Remarks  
- A `Task` element in an [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] project file creates an instance of a task, sets properties on it, and executes it. The `Output` element stores output parameters in properties or items to be used elsewhere in the project file.  
+ A `Task` element in an [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] project file creates an instance of a task, sets properties on it, and executes it. The `Output` element stores output parameters in properties or items to be used elsewhere in the project file.  
   
  If there are any [OnError](../reference/onerror-element--msbuild-.md) elements in the parent `Target` element of a task, they will still be evaluated if the task fails and `ContinueOnError` has a value of `false`. For more information on tasks, see [Tasks](../reference/msbuild-tasks.md).  
   

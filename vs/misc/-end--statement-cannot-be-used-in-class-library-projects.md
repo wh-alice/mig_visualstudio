@@ -1,5 +1,5 @@
 ---
-title: "&#39;End&#39; statement cannot be used in class library projects | Microsoft Docs"
+title: "&#39;End&#39; statement cannot be used in class library projects"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

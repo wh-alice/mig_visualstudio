@@ -1,5 +1,5 @@
 ---
-title: "CA1501: Avoid excessive inheritance | Microsoft Docs"
+title: "CA1501: Avoid excessive inheritance"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -58,4 +58,5 @@ translation.priority.mt:
 ## Example  
  The following example shows a type that violates the rule.  
   
- [!CODE [FxCop.Maintainability.ExcessiveInheritance#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Maintainability.ExcessiveInheritance#1)]
+ [!code[FxCop.Maintainability.ExcessiveInheritance#1](../code-quality/codesnippet/CSharp/ca1501--avoid-excessive-inheritance_1.cs)]
+[!code[FxCop.Maintainability.ExcessiveInheritance#1](../code-quality/codesnippet/VisualBasic/ca1501--avoid-excessive-inheritance_1.vb)]

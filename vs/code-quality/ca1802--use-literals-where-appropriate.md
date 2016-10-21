@@ -1,5 +1,5 @@
 ---
-title: "CA1802: Use Literals Where Appropriate | Microsoft Docs"
+title: "CA1802: Use Literals Where Appropriate"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -62,4 +62,5 @@ translation.priority.mt:
 ## Example  
  The following example shows a type, `UseReadOnly`, that violates the rule and a type, `UseConstant`, that satisfies the rule.  
   
- [!CODE [FxCop.Performance.UseLiterals#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Performance.UseLiterals#1)]
+ [!code[FxCop.Performance.UseLiterals#1](../code-quality/codesnippet/VisualBasic/ca1802--use-literals-where-appropriate_1.vb)]
+[!code[FxCop.Performance.UseLiterals#1](../code-quality/codesnippet/CSharp/ca1802--use-literals-where-appropriate_1.cs)]

@@ -1,5 +1,5 @@
 ---
-title: "How to: Manage Updates for a ClickOnce Application | Microsoft Docs"
+title: "How to: Manage Updates for a ClickOnce Application"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -114,7 +114,7 @@ translation.priority.ht:
   
 5.  In the **Update location** field, enter the update location with a fully qualified URL, using the format http://Hostname/ApplicationName, or a UNC path using the format \\\Server\ApplicationName, or click the **Browse** button to browse for the update location. The update location is where the application will look for an updated version of itself.  
   
-6.  Create a button, menu item, or other user interface item on a Windows Form that users will select to check for updates. From that item's event handler, call a method to check for and install updates. You can find an example of Visual Basic and Visual C# code for such a method in [How to: Check for Application Updates Programmatically Using the ClickOnce Deployment API](../deployment/how-to--check-for-application-updates-programmatically-using-the-clickonce-deployment-api.md).  
+6.  Create a button, menu item, or other user interface item on a Windows Form that users will select to check for updates. From that item's event handler, call a method to check for and install updates. You can find an example of Visual Basic and Visual C# code for such a method in [How to: Check for Application Updates Programmatically Using the ClickOnce Deployment API](../deployment/1a886310-67c8-44e5-a382-c2f0454f887d.md).  
   
 7.  Build your application.  
   
@@ -124,4 +124,4 @@ translation.priority.ht:
  [Choosing a ClickOnce Update Strategy](../deployment/choosing-a-clickonce-update-strategy.md)   
  [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)   
  [How to: Publish a ClickOnce Application using the Publish Wizard](../deployment/how-to--publish-a-clickonce-application-using-the-publish-wizard.md)   
- [How to: Check for Application Updates Programmatically Using the ClickOnce Deployment API](../deployment/how-to--check-for-application-updates-programmatically-using-the-clickonce-deployment-api.md)
+ [How to: Check for Application Updates Programmatically Using the ClickOnce Deployment API](../deployment/1a886310-67c8-44e5-a382-c2f0454f887d.md)

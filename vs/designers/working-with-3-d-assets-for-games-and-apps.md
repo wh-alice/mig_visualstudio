@@ -1,7 +1,7 @@
 ---
-title: "Working with 3-D Assets for Games and Apps | Microsoft Docs"
+title: "Working with 3-D Assets for Games and Apps"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

@@ -1,12 +1,12 @@
 ---
-title: "Cannot specify both -win32icon and -win32resource | Microsoft Docs"
+title: "Cannot specify both -win32icon and -win32resource"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC2023"
 ms.assetid: 60914807-1fde-4fef-9c6f-6f4a62527eed
 caps.latest.revision: 11
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

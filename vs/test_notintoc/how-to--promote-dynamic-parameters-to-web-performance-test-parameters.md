@@ -1,5 +1,5 @@
 ---
-title: "How to: Promote Dynamic Parameters to Web Performance Test Parameters | Microsoft Docs"
+title: "How to: Promote Dynamic Parameters to Web Performance Test Parameters"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

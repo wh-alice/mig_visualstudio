@@ -1,5 +1,5 @@
 ---
-title: "Creating a WPF Toolbox Control | Microsoft Docs"
+title: "Creating a WPF Toolbox Control"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -70,7 +70,7 @@ The WPF (Windows Presentation Framework) Toolbox Control template lets you creat
   
 1.  Open MyToolboxControl.xaml.cs in the code view.  
   
-2.  Find the MyToolboxControl class and rename it to TestControl. (The fastest way to do this is to rename the class, then select **Rename** from the context menu and complete the steps. (For more information about the **Rename** command, see [Rename Refactoring (C#)](../csharp/rename-refactoring--csharp-.md).)  
+2.  Find the MyToolboxControl class and rename it to TestControl. (The fastest way to do this is to rename the class, then select **Rename** from the context menu and complete the steps. (For more information about the **Rename** command, see [Rename Refactoring (C#)](../csharp-ide/rename-refactoring--csharp-.md).)  
   
 3.  Go to the `ProvideToolboxControl` attribute and change the value of the first parameter to **Test**. This is the name of the group that will contain the control in the **Toolbox**.  
   

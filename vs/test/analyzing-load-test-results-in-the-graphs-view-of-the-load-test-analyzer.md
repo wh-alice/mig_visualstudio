@@ -1,5 +1,5 @@
 ---
-title: "Analyzing Load Test Results in the Graphs View of the Load Test Analyzer | Microsoft Docs"
+title: "Analyzing Load Test Results in the Graphs View of the Load Test Analyzer"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -99,7 +99,7 @@ The results of a load test are displayed as data in several different panes.
 |**Export the performance counters data in the graph:** You can export the graph data to Microsoft Excel by using the Export Graph Data to Excel button on the Load Test Analyzer toolbar while you are in the Graphs view.|-   [How to: Export Graph View Data to Microsoft Excel](../test/how-to--export-graph-view-data-to-microsoft-excel.md)|  
   
 ## Related Tasks  
- [Analyzing Load Test Results and Errors in the Tables View](../test/analyzing-load-test-results-and-errors-in-the-tables-view-of-the-load-test-analyzer.md)  
+ [Analyzing Load Test Results and Errors in the Tables View](../test/0a84bda3-6051-45eb-9c7f-d57419e1f97d.md)  
   
  [Load Test Analyzer Overview](../test/load-test-analyzer-overview.md)  
   

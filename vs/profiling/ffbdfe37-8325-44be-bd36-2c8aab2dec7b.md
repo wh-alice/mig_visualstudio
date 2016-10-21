@@ -1,7 +1,7 @@
 ---
 title: "How to: Attach the Profiler to a .NET Service to Collect Concurrency Data by Using the Command Line"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -30,7 +30,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # How to: Attach the Profiler to a .NET Service to Collect Concurrency Data by Using the Command Line
-This topic describes how to use [!INCLUDE[vsprvs](../codequality/includes/vsprvs_md.md)] Profiling Tools command-line tools to attach the Profiler to a [!INCLUDE[dnprdnshort](../codequality/includes/dnprdnshort_md.md)] service and collect process and thread concurrency data using the sampling method.  
+This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to attach the Profiler to a [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] service and collect process and thread concurrency data using the sampling method.  
   
 > [!NOTE]
 >  Enhanced security features in Windows 8 and Windows Server 2012 required significant changes in the way the Visual Studio profiler collects data on these platforms. Windows Store apps also require new collection techniques. See [Performance Tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md).  

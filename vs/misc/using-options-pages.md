@@ -1,7 +1,7 @@
 ---
-title: "Using Options Pages | Microsoft Docs"
+title: "Using Options Pages"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -57,7 +57,8 @@ pServiceProvider->QueryService(SID_SDTE, IID__DTE, (LPVOID*)pDTE);
   
  To obtain a <xref:EnvDTE.DTE> object by using the Managed Package Framework (MPF), call the <xref:Microsoft.VisualStudio.Shell.Package.GetService*> method and provide a `serviceType` parameter of type <xref:Microsoft.VisualStudio.Shell.Interop.SDTE>.  
   
- [!CODE [UI_UserSettings_ToolsOptionPages#01](../CodeSnippet/VS_Snippets_VSSDK/ui_usersettings_toolsoptionpages#01)]  
+ [!code[UI_UserSettings_ToolsOptionPages#01](../extensibility-internals/codesnippet/CSharp/using-options-pages_1.cs)]
+[!code[UI_UserSettings_ToolsOptionPages#01](../extensibility-internals/codesnippet/VisualBasic/using-options-pages_1.vb)]  
   
  An **Options** page is specified by two identifiers. The first identifier is a string that indicates the folder that contains the **Options** page. The second identifier is a string that indicates the specific item in that folder. These are referred to as an **Options** page category and subcategory, or its topic and subtopic.  
   
@@ -76,7 +77,8 @@ hr = srpDTE->get_Properties("TextEditor", "Basic", &srpDTEPropertiesList);
   
  To obtain the properties by using the MPF, use the <xref:EnvDTE._DTE.Properties*> method.  
   
- [!CODE [UI_UserSettings_ToolsOptionPages#02](../CodeSnippet/VS_Snippets_VSSDK/ui_usersettings_toolsoptionpages#02)]  
+ [!code[UI_UserSettings_ToolsOptionPages#02](../extensibility-internals/codesnippet/CSharp/using-options-pages_2.cs)]
+[!code[UI_UserSettings_ToolsOptionPages#02](../extensibility-internals/codesnippet/VisualBasic/using-options-pages_2.vb)]  
   
  The <xref:EnvDTE.Properties.Item*> method returns individual settings from the <xref:EnvDTE.Properties> collection as a <xref:EnvDTE.Property> object.  
   
@@ -97,7 +99,8 @@ hr= srpProperty.set_Value(4);
   
  The following example demonstrates how to update the **Tab Size** setting by using the MPF.  
   
- [!CODE [UI_UserSettings_ToolsOptionPages#03](../CodeSnippet/VS_Snippets_VSSDK/ui_usersettings_toolsoptionpages#03)]  
+ [!code[UI_UserSettings_ToolsOptionPages#03](../extensibility-internals/codesnippet/CSharp/using-options-pages_3.cs)]
+[!code[UI_UserSettings_ToolsOptionPages#03](../extensibility-internals/codesnippet/VisualBasic/using-options-pages_3.vb)]  
   
  For more information, see [Controlling Options Settings](../Topic/Controlling%20Options%20Settings.md).  
   
@@ -110,7 +113,7 @@ hr= srpProperty.set_Value(4);
   
 ## See Also  
  [Creating Options Pages By Using Interop Assemblies](../misc/creating-options-pages-by-using-interop-assemblies.md)   
- [Creating Options Pages](../extensibility/creating-options-pages.md)   
+ [Creating Options Pages](../extensibility-internals/creating-options-pages.md)   
  [Creating Options Pages By Using Automation](../misc/creating-options-pages-by-using-automation.md)   
  [Controlling Options Settings](../Topic/Controlling%20Options%20Settings.md)   
  [Registering Custom Options Pages](../misc/registering-custom-options-pages.md)   

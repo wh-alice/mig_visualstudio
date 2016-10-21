@@ -1,5 +1,5 @@
 ---
-title: "GenerateBootstrapper Task | Microsoft Docs"
+title: "GenerateBootstrapper Task"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
@@ -89,7 +89,7 @@ Provides an automated way to detect, download, and install an application and it
     </BootstrapperItem>  
     ```  
   
-     The `Include` attribute is used to represent the name of a prerequisite which should be installed. The `ProductName` item metadata is optional, and will be used by the build engine as a user-friendly name in case the package cannot be found. These items are not required [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] input parameters unless no `ApplicationFile` is specified. You should include one item for every prerequisite which must be installed for your application.  
+     The `Include` attribute is used to represent the name of a prerequisite which should be installed. The `ProductName` item metadata is optional, and will be used by the build engine as a user-friendly name in case the package cannot be found. These items are not required [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] input parameters unless no `ApplicationFile` is specified. You should include one item for every prerequisite which must be installed for your application.  
   
      A build error will result if neither the `BootstrapperItems` nor the `ApplicationFile` parameter is specified.  
   

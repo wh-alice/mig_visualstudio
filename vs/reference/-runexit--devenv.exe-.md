@@ -1,5 +1,5 @@
 ---
-title: "-Runexit (devenv.exe) | Microsoft Docs"
+title: "-Runexit (devenv.exe)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

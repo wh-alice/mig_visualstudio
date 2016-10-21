@@ -1,5 +1,5 @@
 ---
-title: "No files found matching &#39;&lt;filename&gt;&#39; | Microsoft Docs"
+title: "No files found matching &#39;&lt;filename&gt;&#39;"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

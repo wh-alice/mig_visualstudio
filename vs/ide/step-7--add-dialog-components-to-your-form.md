@@ -1,5 +1,5 @@
 ---
-title: "Step 7: Add Dialog Components to Your Form | Microsoft Docs"
+title: "Step 7: Add Dialog Components to Your Form"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

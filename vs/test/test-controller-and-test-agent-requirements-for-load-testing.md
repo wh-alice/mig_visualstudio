@@ -1,5 +1,5 @@
 ---
-title: "Test Controller and Test Agent Requirements for Load Testing | Microsoft Docs"
+title: "Test Controller and Test Agent Requirements for Load Testing"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -47,7 +47,7 @@ Several test types including unit, web performance, load, and manual tests are i
 |N x 30 computers in the test environment. This includes agents and servers under test.|Test Controller|N 2.6 GHz processors|||  
   
 > [!NOTE]
->  The number of virtual users will vary widely from test to test. A key cause of this variance is variance in *think times*, or user delays. [!INCLUDE[crdefault](../code-quality/includes/crdefault_md.md)][Editing Think Times to Simulate Website Human Interaction Delays](../test/editing-think-times-to-simulate-website-human-interaction-delays-in-load-tests-scenarios.md). In a load test, Web tests are generally more efficient and generate more load than unit tests. The numbers in the preceding table are valid for running Web tests with 3-5 second think times on a typical Web application.  
+>  The number of virtual users will vary widely from test to test. A key cause of this variance is variance in *think times*, or user delays. [!INCLUDE[crdefault](../code-quality/includes/crdefault_md.md)][Editing Think Times to Simulate Website Human Interaction Delays](../test/8e03bee5-ab7b-4b40-9497-9dbe91ccb90e.md). In a load test, Web tests are generally more efficient and generate more load than unit tests. The numbers in the preceding table are valid for running Web tests with 3-5 second think times on a typical Web application.  
   
  The guidelines presented here are provided as general guidance for hardware planning. Test performance will vary greatly based on the amount of test data and the number of test agents. For test agents, the CPU speed and memory available will limit the test load. Test controllers need greater resources, depending on the number of test agents and the amount of data involved in the tests.  
   

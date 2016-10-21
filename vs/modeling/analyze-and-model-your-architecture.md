@@ -1,5 +1,5 @@
 ---
-title: "Analyze and model your architecture | Microsoft Docs"
+title: "Analyze and model your architecture"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

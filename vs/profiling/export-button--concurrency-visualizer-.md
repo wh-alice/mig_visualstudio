@@ -1,5 +1,5 @@
 ---
-title: "Export Button (Concurrency Visualizer) | Microsoft Docs"
+title: "Export Button (Concurrency Visualizer)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

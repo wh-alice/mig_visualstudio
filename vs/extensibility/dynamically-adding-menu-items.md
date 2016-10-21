@@ -1,5 +1,5 @@
 ---
-title: "Dynamically Adding Menu Items | Microsoft Docs"
+title: "Dynamically Adding Menu Items"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -39,7 +39,7 @@ You can add menu items at run time by specifying the `DynamicItemStart` command 
   
  This walkthrough shows how to set the startup project in a Visual Studio solution with a command on the **Solution Explorer** toolbar. It uses a menu controller that has a dynamic dropdown list of the projects in the active solution. To keep this command from appearing when no solution is open or when the open solution has only one project, the VSPackage is loaded only when a solution has multiple projects.  
   
- For more information about .vsct files, see [Visual Studio Command Table (.Vsct) Files](../extensibility/visual-studio-command-table--.vsct--files.md).  
+ For more information about .vsct files, see [Visual Studio Command Table (.Vsct) Files](../Topic/Visual%20Studio%20Command%20Table%20\(.Vsct\)%20Files.md).  
   
 ## Creating an Extension with a Menu Command  
   
@@ -370,5 +370,5 @@ public sealed class DynamicMenuItemsPackage : Package
 4.  When you close the solution, or open a solution that has only one project, the toolbar icon should disappear.  
   
 ## See Also  
- [Commands, Menus, and Toolbars](../extensibility/commands--menus--and-toolbars.md)   
- [How VSPackages Add User Interface Elements](../extensibility/how-vspackages-add-user-interface-elements.md)
+ [Commands, Menus, and Toolbars](../Topic/Commands,%20Menus,%20and%20Toolbars.md)   
+ [How VSPackages Add User Interface Elements](../Topic/How%20VSPackages%20Add%20User%20Interface%20Elements.md)

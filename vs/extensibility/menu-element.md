@@ -1,5 +1,5 @@
 ---
-title: "Menu Element | Microsoft Docs"
+title: "Menu Element"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -88,4 +88,4 @@ Defines one menu item. These are the six kinds of menus: Context, Menu, MenuCont
 ```  
   
 ## See Also  
- [Visual Studio Command Table (.Vsct) Files](../extensibility/visual-studio-command-table--.vsct--files.md)
+ [Visual Studio Command Table (.Vsct) Files](../Topic/Visual%20Studio%20Command%20Table%20\(.Vsct\)%20Files.md)

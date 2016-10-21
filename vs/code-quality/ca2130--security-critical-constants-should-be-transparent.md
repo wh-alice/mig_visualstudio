@@ -1,5 +1,5 @@
 ---
-title: "CA2130: Security critical constants should be transparent | Microsoft Docs"
+title: "CA2130: Security critical constants should be transparent"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -53,4 +53,4 @@ translation.priority.ht:
 ## Example  
  In the following examples, the enum value `EnumWithCriticalValues.CriticalEnumValue` and the constant `CriticalConstant` raise this warning. To fix the issues, remove the [`SecurityCritical`] attribute to make them security transparent.  
   
- [!CODE [FxCop.Security.CA2130.ConstantsShouldBeTransparent#1](../CodeSnippet/VS_Snippets_CodeAnalysis/fxcop.security.ca2130.constantsshouldbetransparent#1)]
+ [!code[FxCop.Security.CA2130.ConstantsShouldBeTransparent#1](../code-quality/codesnippet/CSharp/ca2130--security-critical-constants-should-be-transparent_1.cs)]

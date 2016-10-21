@@ -1,5 +1,5 @@
 ---
-title: "CA1050: Declare types in namespaces | Microsoft Docs"
+title: "CA1050: Declare types in namespaces"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -57,9 +57,11 @@ translation.priority.ht:
 ## Example  
  The following example shows a library that has a type incorrectly declared outside a namespace, and a type that has the same name declared in a namespace.  
   
- [!CODE [FxCop.Design.TypesLiveInNamespaces#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Design.TypesLiveInNamespaces#1)]  
+ [!code[FxCop.Design.TypesLiveInNamespaces#1](../code-quality/codesnippet/CSharp/ca1050--declare-types-in-namespaces_1.cs)]
+[!code[FxCop.Design.TypesLiveInNamespaces#1](../code-quality/codesnippet/VisualBasic/ca1050--declare-types-in-namespaces_1.vb)]  
   
 ## Example  
  The following application uses the library that was defined previously. Note that the type that is declared outside a namespace is created when the name `Test` is not qualified by a namespace. Note also that to access the `Test` type in `Goodspace`, the namespace name is required.  
   
- [!CODE [FxCop.Design.TestTypesLive#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Design.TestTypesLive#1)]
+ [!code[FxCop.Design.TestTypesLive#1](../code-quality/codesnippet/CSharp/ca1050--declare-types-in-namespaces_2.cs)]
+[!code[FxCop.Design.TestTypesLive#1](../code-quality/codesnippet/VisualBasic/ca1050--declare-types-in-namespaces_2.vb)]

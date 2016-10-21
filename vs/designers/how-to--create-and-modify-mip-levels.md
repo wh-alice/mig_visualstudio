@@ -1,5 +1,5 @@
 ---
-title: "How to: Create and Modify MIP Levels | Microsoft Docs"
+title: "How to: Create and Modify MIP Levels"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating a Margin Glyph | Microsoft Docs"
+title: "Walkthrough: Creating a Margin Glyph"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -53,27 +53,33 @@ You can customize the appearance of editor margins by using custom editor extens
   
 2.  Add the following using declarations.  
   
-     [!CODE [VSSDKTodoGlyphTest#1](../CodeSnippet/VS_Snippets_VSSDK/vssdktodoglyphtest#1)]  
+     [!code[VSSDKTodoGlyphTest#1](../extensibility/codesnippet/CSharp/walkthrough--creating-a-margin-glyph_1.cs)]
+[!code[VSSDKTodoGlyphTest#1](../extensibility/codesnippet/VisualBasic/walkthrough--creating-a-margin-glyph_1.vb)]  
   
 3.  Add a class named `TodoGlyphFactory` that implements <xref:Microsoft.VisualStudio.Text.Editor.IGlyphFactory>.  
   
-     [!CODE [VSSDKTodoGlyphTest#2](../CodeSnippet/VS_Snippets_VSSDK/vssdktodoglyphtest#2)]  
+     [!code[VSSDKTodoGlyphTest#2](../extensibility/codesnippet/CSharp/walkthrough--creating-a-margin-glyph_2.cs)]
+[!code[VSSDKTodoGlyphTest#2](../extensibility/codesnippet/VisualBasic/walkthrough--creating-a-margin-glyph_2.vb)]  
   
 4.  Add a private field that defines the dimensions of the glyph.  
   
-     [!CODE [VSSDKTodoGlyphTest#3](../CodeSnippet/VS_Snippets_VSSDK/vssdktodoglyphtest#3)]  
+     [!code[VSSDKTodoGlyphTest#3](../extensibility/codesnippet/CSharp/walkthrough--creating-a-margin-glyph_3.cs)]
+[!code[VSSDKTodoGlyphTest#3](../extensibility/codesnippet/VisualBasic/walkthrough--creating-a-margin-glyph_3.vb)]  
   
 5.  Implement `GenerateGlyph` by defining the glyph user interface (UI) element. `TodoTag` is defined later in this walkthrough.  
   
-     [!CODE [VSSDKTodoGlyphTest#4](../CodeSnippet/VS_Snippets_VSSDK/vssdktodoglyphtest#4)]  
+     [!code[VSSDKTodoGlyphTest#4](../extensibility/codesnippet/CSharp/walkthrough--creating-a-margin-glyph_4.cs)]
+[!code[VSSDKTodoGlyphTest#4](../extensibility/codesnippet/VisualBasic/walkthrough--creating-a-margin-glyph_4.vb)]  
   
 6.  Add a class named `TodoGlyphFactoryProvider` that implements <xref:Microsoft.VisualStudio.Text.Editor.IGlyphFactoryProvider>. Export this class with a <xref:Microsoft.VisualStudio.Utilities.NameAttribute> of "TodoGlyph", an <xref:Microsoft.VisualStudio.Utilities.OrderAttribute> of After VsTextMarker, a <xref:Microsoft.VisualStudio.Utilities.ContentTypeAttribute> of "code", and a <xref:Microsoft.VisualStudio.Text.Tagging.TagTypeAttribute> of TodoTag.  
   
-     [!CODE [VSSDKTodoGlyphTest#5](../CodeSnippet/VS_Snippets_VSSDK/vssdktodoglyphtest#5)]  
+     [!code[VSSDKTodoGlyphTest#5](../extensibility/codesnippet/CSharp/walkthrough--creating-a-margin-glyph_5.cs)]
+[!code[VSSDKTodoGlyphTest#5](../extensibility/codesnippet/VisualBasic/walkthrough--creating-a-margin-glyph_5.vb)]  
   
 7.  Implement the <xref:Microsoft.VisualStudio.Text.Editor.IGlyphFactoryProvider.GetGlyphFactory*> method by instantiating the `TodoGlyphFactory`.  
   
-     [!CODE [VSSDKTodoGlyphTest#6](../CodeSnippet/VS_Snippets_VSSDK/vssdktodoglyphtest#6)]  
+     [!code[VSSDKTodoGlyphTest#6](../extensibility/codesnippet/CSharp/walkthrough--creating-a-margin-glyph_6.cs)]
+[!code[VSSDKTodoGlyphTest#6](../extensibility/codesnippet/VisualBasic/walkthrough--creating-a-margin-glyph_6.vb)]  
   
 ## Defining a Todo Tag and Tagger  
  Define the relationship between the UI element that you defined in the previous steps and the indicator margin by creating a tag type and tagger, and exporting it by using a tagger provider.  
@@ -84,43 +90,53 @@ You can customize the appearance of editor margins by using custom editor extens
   
 2.  Add the following imports.  
   
-     [!CODE [VSSDKTodoGlyphTest#7](../CodeSnippet/VS_Snippets_VSSDK/vssdktodoglyphtest#7)]  
+     [!code[VSSDKTodoGlyphTest#7](../extensibility/codesnippet/CSharp/walkthrough--creating-a-margin-glyph_7.cs)]
+[!code[VSSDKTodoGlyphTest#7](../extensibility/codesnippet/VisualBasic/walkthrough--creating-a-margin-glyph_7.vb)]  
   
 3.  Add a class named `TodoTag`.  
   
-     [!CODE [VSSDKTodoGlyphTest#8](../CodeSnippet/VS_Snippets_VSSDK/vssdktodoglyphtest#8)]  
+     [!code[VSSDKTodoGlyphTest#8](../extensibility/codesnippet/CSharp/walkthrough--creating-a-margin-glyph_8.cs)]
+[!code[VSSDKTodoGlyphTest#8](../extensibility/codesnippet/VisualBasic/walkthrough--creating-a-margin-glyph_8.vb)]  
   
 4.  Modify the class named `TodoTagger` that implements <xref:Microsoft.VisualStudio.Text.Tagging.ITagger`1> of type `TodoTag`.  
   
-     [!CODE [VSSDKTodoGlyphTest#9](../CodeSnippet/VS_Snippets_VSSDK/vssdktodoglyphtest#9)]  
+     [!code[VSSDKTodoGlyphTest#9](../extensibility/codesnippet/CSharp/walkthrough--creating-a-margin-glyph_9.cs)]
+[!code[VSSDKTodoGlyphTest#9](../extensibility/codesnippet/VisualBasic/walkthrough--creating-a-margin-glyph_9.vb)]  
   
 5.  To the `TodoTagger` class, add private fields for an <xref:Microsoft.VisualStudio.Text.Classification.IClassifier> and for the text to find in the classification spans.  
   
-     [!CODE [VSSDKTodoGlyphTest#10](../CodeSnippet/VS_Snippets_VSSDK/vssdktodoglyphtest#10)]  
+     [!code[VSSDKTodoGlyphTest#10](../extensibility/codesnippet/CSharp/walkthrough--creating-a-margin-glyph_10.cs)]
+[!code[VSSDKTodoGlyphTest#10](../extensibility/codesnippet/VisualBasic/walkthrough--creating-a-margin-glyph_10.vb)]  
   
 6.  Add a constructor that sets the classifier.  
   
-     [!CODE [VSSDKTodoGlyphTest#11](../CodeSnippet/VS_Snippets_VSSDK/vssdktodoglyphtest#11)]  
+     [!code[VSSDKTodoGlyphTest#11](../extensibility/codesnippet/CSharp/walkthrough--creating-a-margin-glyph_11.cs)]
+[!code[VSSDKTodoGlyphTest#11](../extensibility/codesnippet/VisualBasic/walkthrough--creating-a-margin-glyph_11.vb)]  
   
 7.  Implement the <xref:Microsoft.VisualStudio.Text.Tagging.ITagger`1.GetTags*> method by finding all the classification spans whose names include the word "comment" and whose text includes the search text. Whenever the search text is found, yield back a new <xref:Microsoft.VisualStudio.Text.Tagging.TagSpan`1> of type `TodoTag`.  
   
-     [!CODE [VSSDKTodoGlyphTest#12](../CodeSnippet/VS_Snippets_VSSDK/vssdktodoglyphtest#12)]  
+     [!code[VSSDKTodoGlyphTest#12](../extensibility/codesnippet/CSharp/walkthrough--creating-a-margin-glyph_12.cs)]
+[!code[VSSDKTodoGlyphTest#12](../extensibility/codesnippet/VisualBasic/walkthrough--creating-a-margin-glyph_12.vb)]  
   
 8.  Declare a `TagsChanged` event.  
   
-     [!CODE [VSSDKTodoGlyphTest#13](../CodeSnippet/VS_Snippets_VSSDK/vssdktodoglyphtest#13)]  
+     [!code[VSSDKTodoGlyphTest#13](../extensibility/codesnippet/CSharp/walkthrough--creating-a-margin-glyph_13.cs)]
+[!code[VSSDKTodoGlyphTest#13](../extensibility/codesnippet/VisualBasic/walkthrough--creating-a-margin-glyph_13.vb)]  
   
 9. Add a class named `TodoTaggerProvider` that implements <xref:Microsoft.VisualStudio.Text.Tagging.ITaggerProvider>, and export it with a <xref:Microsoft.VisualStudio.Utilities.ContentTypeAttribute> of "code" and a <xref:Microsoft.VisualStudio.Text.Tagging.TagTypeAttribute> of TodoTag.  
   
-     [!CODE [VSSDKTodoGlyphTest#14](../CodeSnippet/VS_Snippets_VSSDK/vssdktodoglyphtest#14)]  
+     [!code[VSSDKTodoGlyphTest#14](../extensibility/codesnippet/CSharp/walkthrough--creating-a-margin-glyph_14.cs)]
+[!code[VSSDKTodoGlyphTest#14](../extensibility/codesnippet/VisualBasic/walkthrough--creating-a-margin-glyph_14.vb)]  
   
 10. Import the <xref:Microsoft.VisualStudio.Text.Classification.IClassifierAggregatorService>.  
   
-     [!CODE [VSSDKTodoGlyphTest#15](../CodeSnippet/VS_Snippets_VSSDK/vssdktodoglyphtest#15)]  
+     [!code[VSSDKTodoGlyphTest#15](../extensibility/codesnippet/CSharp/walkthrough--creating-a-margin-glyph_15.cs)]
+[!code[VSSDKTodoGlyphTest#15](../extensibility/codesnippet/VisualBasic/walkthrough--creating-a-margin-glyph_15.vb)]  
   
 11. Implement the <xref:Microsoft.VisualStudio.Text.Tagging.ITaggerProvider.CreateTagger*> method by instantiating the `TodoTagger`.  
   
-     [!CODE [VSSDKTodoGlyphTest#16](../CodeSnippet/VS_Snippets_VSSDK/vssdktodoglyphtest#16)]  
+     [!code[VSSDKTodoGlyphTest#16](../extensibility/codesnippet/CSharp/walkthrough--creating-a-margin-glyph_16.cs)]
+[!code[VSSDKTodoGlyphTest#16](../extensibility/codesnippet/VisualBasic/walkthrough--creating-a-margin-glyph_16.vb)]  
   
 ## Building and Testing the Code  
  To test this code, build the TodoGlyphTest solution and run it in the experimental instance.  

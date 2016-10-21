@@ -1,5 +1,5 @@
 ---
-title: "How to: Access Load Test Results for Analysis | Microsoft Docs"
+title: "How to: Access Load Test Results for Analysis"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -37,7 +37,7 @@ translation.priority.ht:
 # How to: Access Load Test Results for Analysis
 When you run a load test from the Load Test Editor, the load test results open automatically and the running load test is displayed in the Load Test Analyzer. When you run a load test from the command line, you must access the load test results manually. For more information about the different ways to run a load test, see [Running Load Tests](../test_notintoc/running-load-tests.md).  
   
- The load test result for the completed load test contains performance counter samples and error information that was collected periodically from the computers-under-test. A large number of performance counter samples can be collected over the course of a load test run. The amount of performance data that is collected depends on the length of the test run, the sampling interval, the number of computers under test, the number of counters being collected, the data collectors that are configured, and the logging levels. For a large load test, the amount of performance data that is collected can easily be several gigabytes. For more information, see [Distributing Load Test Runs Across Multiple Test Machines Using Test Controllers and Test Agents](../test/distributing-load-test-runs-across-multiple-test-machines-using-test-controllers-and-test-agents.md) and [Considerations for Load Testing](http://msdn.microsoft.com/en-us/e2985d15-60a7-4177-93b4-f986c2936337).  
+ The load test result for the completed load test contains performance counter samples and error information that was collected periodically from the computers-under-test. A large number of performance counter samples can be collected over the course of a load test run. The amount of performance data that is collected depends on the length of the test run, the sampling interval, the number of computers under test, the number of counters being collected, the data collectors that are configured, and the logging levels. For a large load test, the amount of performance data that is collected can easily be several gigabytes. For more information, see [Distributing Load Test Runs Across Multiple Test Machines Using Test Controllers and Test Agents](../test/6e67a587-8aad-48cc-a8c0-6d4b399f3731.md) and [Considerations for Load Testing](http://msdn.microsoft.com/en-us/e2985d15-60a7-4177-93b4-f986c2936337).  
   
  **Requirements**  
   

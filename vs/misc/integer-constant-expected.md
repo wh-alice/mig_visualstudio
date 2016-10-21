@@ -1,5 +1,5 @@
 ---
-title: "Integer constant expected | Microsoft Docs"
+title: "Integer constant expected"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

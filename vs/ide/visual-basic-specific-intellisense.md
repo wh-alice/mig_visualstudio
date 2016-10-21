@@ -1,5 +1,5 @@
 ---
-title: "Visual Basic-Specific IntelliSense | Microsoft Docs"
+title: "Visual Basic-Specific IntelliSense"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

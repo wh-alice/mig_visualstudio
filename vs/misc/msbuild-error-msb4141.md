@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Error MSB4141 | Microsoft Docs"
+title: "MSBuild Error MSB4141"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -38,7 +38,7 @@ translation.priority.mt:
   
 ### To correct this error  
   
--   Specify a valid value for `MSBuildToolsPath` when you define a custom Toolset in the registry or the [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] configuration file.  
+-   Specify a valid value for `MSBuildToolsPath` when you define a custom Toolset in the registry or the [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] configuration file.  
   
 ## See Also  
  [Standard and Custom Toolset Configurations](../reference/standard-and-custom-toolset-configurations.md)   

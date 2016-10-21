@@ -1,5 +1,5 @@
 ---
-title: "Instantiating the Core Editor By Using the Legacy API | Microsoft Docs"
+title: "Instantiating the Core Editor By Using the Legacy API"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -62,7 +62,7 @@ The editor is responsible for text editing functions such as insertion, deletion
   
 -   Either create your own shortcut keys, or use the system default by setting the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame> objects display properties. To do this, call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame.SetGuidProperty*> method with the <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID> property.  
   
-     To obtain and use non-standard shortcut keys, generate them using the .vsct file. For more information, see [Visual Studio Command Table (.Vsct) Files](../extensibility/visual-studio-command-table--.vsct--files.md).  
+     To obtain and use non-standard shortcut keys, generate them using the .vsct file. For more information, see [Visual Studio Command Table (.Vsct) Files](../Topic/Visual%20Studio%20Command%20Table%20\(.Vsct\)%20Files.md).  
   
 ## How to Use an Editor factory to Obtain the Core Editor  
  When implementing a core editor with an editor factory using the <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory.CreateEditorInstance*> method, follow all the steps outlined in the previous section to explicitly host an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindow> using an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer> document data object, in an <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame> object.  
@@ -79,5 +79,5 @@ The editor is responsible for text editing functions such as insertion, deletion
   
 ## See Also  
  [Inside the Core Editor](../extensibility/inside-the-core-editor.md)   
- [Opening and Saving Project Items](../extensibility/opening-and-saving-project-items.md)   
+ [Opening and Saving Project Items](../extensibility-internals/opening-and-saving-project-items.md)   
  [Walkthrough: Creating a Core Editor and Registering an Editor File Type](../extensibility/walkthrough--creating-a-core-editor-and-registering-an-editor-file-type.md)

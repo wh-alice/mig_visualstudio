@@ -1,5 +1,5 @@
 ---
-title: "Incremental Builds | Microsoft Docs"
+title: "Incremental Builds"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

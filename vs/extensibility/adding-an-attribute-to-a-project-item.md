@@ -1,5 +1,5 @@
 ---
-title: "Adding an Attribute to a Project Item | Microsoft Docs"
+title: "Adding an Attribute to a Project Item"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -60,4 +60,4 @@ The methods <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.G
     ```  
   
 ## See Also  
- [Persisting Data in the MSBuild Project File](../extensibility/persisting-data-in-the-msbuild-project-file.md)
+ [Persisting Data in the MSBuild Project File](../extensibility-internals/persisting-data-in-the-msbuild-project-file.md)

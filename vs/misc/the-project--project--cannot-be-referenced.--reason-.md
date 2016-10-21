@@ -1,5 +1,5 @@
 ---
-title: "The project &#39;project&#39; cannot be referenced. &lt;reason&gt; | Microsoft Docs"
+title: "The project &#39;project&#39; cannot be referenced. &lt;reason&gt;"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

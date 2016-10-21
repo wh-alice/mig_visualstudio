@@ -1,5 +1,5 @@
 ---
-title: "CA2105: Array fields should not be read only | Microsoft Docs"
+title: "CA2105: Array fields should not be read only"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -68,12 +68,12 @@ translation.priority.mt:
   
  The example class library appears in the following example.  
   
- [!CODE [FxCop.Security.ArrayFieldsNotReadOnly#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Security.ArrayFieldsNotReadOnly#1)]  
+ [!code[FxCop.Security.ArrayFieldsNotReadOnly#1](../code-quality/codesnippet/CSharp/ca2105--array-fields-should-not-be-read-only_1.cs)]  
   
 ## Example  
  The following code uses the example class library to illustrate read-only array security issues.  
   
- [!CODE [FxCop.Security.TestArrayFieldsRead#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Security.TestArrayFieldsRead#1)]  
+ [!code[FxCop.Security.TestArrayFieldsRead#1](../code-quality/codesnippet/CSharp/ca2105--array-fields-should-not-be-read-only_2.cs)]  
   
  The output from this example is:  
   

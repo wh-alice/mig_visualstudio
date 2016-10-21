@@ -1,5 +1,5 @@
 ---
-title: "How to: Use Rule-based UI Context for Visual Studio Extensions | Microsoft Docs"
+title: "How to: Use Rule-based UI Context for Visual Studio Extensions"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.reviewer: ""

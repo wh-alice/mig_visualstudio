@@ -1,5 +1,5 @@
 ---
-title: "UsingTask Element (MSBuild) | Microsoft Docs"
+title: "UsingTask Element (MSBuild)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -77,7 +77,7 @@ Maps the task that is referenced in a [Task](../reference/task-element--msbuild-
   
 |Element|Description|  
 |-------------|-----------------|  
-|[Project](../reference/project-element--msbuild-.md)|Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] project file.|  
+|[Project](../reference/project-element--msbuild-.md)|Required root element of an [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] project file.|  
   
 ## Remarks  
  Environment variables, command-line properties, and project-level properties can be referenced anywhere in the `UsingTask` element if it appears in the project file either explicitly or through an imported project file. For more information, see [Tasks](../reference/msbuild-tasks.md).  

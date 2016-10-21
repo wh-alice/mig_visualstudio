@@ -1,5 +1,5 @@
 ---
-title: "Debug Page, Project Designer | Microsoft Docs"
+title: "Debug Page, Project Designer"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -35,7 +35,7 @@ translation.priority.ht:
 ---
 # Debug Page, Project Designer
 > [!WARNING]
->  This topic does not apply to Windows Store apps. See [Start a debug session (VB, C#, C++ and XAML)](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio--vb--csharp--c---and-xaml-.md) in the Windows Dev Center.  
+>  This topic does not apply to Windows Store apps. See [Start a debug session (VB, C#, C++ and XAML)](../debugger/66ec0e79-8261-4c19-a618-3fd1b3f71bbd.md) in the Windows Dev Center.  
   
  Use the **Debug** page of the **Project Designer** to set properties for debugging behavior in a Visual Basic or C# project.  
   

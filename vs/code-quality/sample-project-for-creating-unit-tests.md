@@ -1,7 +1,7 @@
 ---
-title: "Sample Project for Creating Unit Tests | Microsoft Docs"
+title: "Sample Project for Creating Unit Tests"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

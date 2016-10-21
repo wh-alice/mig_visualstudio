@@ -1,5 +1,5 @@
 ---
-title: "Install a UML profile | Microsoft Docs"
+title: "Install a UML profile"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

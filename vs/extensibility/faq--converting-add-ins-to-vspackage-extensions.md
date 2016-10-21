@@ -1,5 +1,5 @@
 ---
-title: "FAQ: Converting Add-ins to VSPackage Extensions | Microsoft Docs"
+title: "FAQ: Converting Add-ins to VSPackage Extensions"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -160,7 +160,7 @@ Add-ins are now deprecated. To make a new Visual Studio extension, you need to c
 ## How do I change menu commands and toolbar buttons in my add-in to the VSPackage style?  
  VSPackage extensions use the .vsct file to create most of the menu commands, toolbars, toolbar buttons, and other UI. The **Custom Command** project item template gives you the option to create a command on the **Tools** menu. For more information, see [Creating an Extension with a Menu Command](../extensibility/creating-an-extension-with-a-menu-command.md).  
   
- For more information about .vsct files, see [How VSPackages Add User Interface Elements](../extensibility/how-vspackages-add-user-interface-elements.md). For walkthroughs that show how to use the .vsct file to add menu items, toolbars, and toolbar buttons, see [Extending Menus and Commands](../extensibility/extending-menus-and-commands.md).  
+ For more information about .vsct files, see [How VSPackages Add User Interface Elements](../Topic/How%20VSPackages%20Add%20User%20Interface%20Elements.md). For walkthroughs that show how to use the .vsct file to add menu items, toolbars, and toolbar buttons, see [Extending Menus and Commands](../extensibility/extending-menus-and-commands.md).  
   
 ## How do I add custom tool windows in the VSPackage way?  
  The Custom Tool Window project item template gives you the option to create a tool window. For more information about this project item template, see [Creating an Extension with a Tool Window](../extensibility/creating-an-extension-with-a-tool-window.md). For information about tool windows, see [Extending and Customizing Tool Windows](../extensibility/extending-and-customizing-tool-windows.md) and the articles under it, especially [Adding a Tool Window](../extensibility/adding-a-tool-window.md).  

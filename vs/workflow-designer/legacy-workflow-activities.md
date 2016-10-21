@@ -1,5 +1,5 @@
 ---
-title: "Legacy Workflow Activities | Microsoft Docs"
+title: "Legacy Workflow Activities"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: ".net-framework-4.6"
@@ -90,7 +90,7 @@ translation.priority.ht:
  [How to: Create a PolicyActivity Rule Set (Legacy)](../workflow-designer/how-to--create-a-policyactivity-rule-set--legacy-.md)  
  Shows the steps to create a PolicyActivity rule set.  
   
- [How to: Implement a WCF Contract Operation (Legacy)](../workflow-designer/how-to--implement-a-windows-communication-foundation-contract-operation--legacy-.md)  
+ [How to: Implement a WCF Contract Operation (Legacy)](../workflow-designer/d6aeb20e-fac8-4a9d-bd26-ae78bef96b41.md)  
  Shows the steps to implement a [!INCLUDE[indigo2](../workflow-designer/includes/indigo2_md.md)] contract operation.  
   
  [How to: Invoke a WCF Contract Operation (Legacy)](../workflow-designer/how-to--invoke-a-windows-communication-foundation-contract-operation--legacy-.md)  

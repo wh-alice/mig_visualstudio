@@ -1,5 +1,5 @@
 ---
-title: "How to: Set Debug and Release Configurations | Microsoft Docs"
+title: "How to: Set Debug and Release Configurations"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

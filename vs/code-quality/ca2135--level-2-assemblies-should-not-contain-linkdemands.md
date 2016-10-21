@@ -1,5 +1,5 @@
 ---
-title: "CA2135: Level 2 assemblies should not contain LinkDemands | Microsoft Docs"
+title: "CA2135: Level 2 assemblies should not contain LinkDemands"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -53,4 +53,4 @@ translation.priority.ht:
 ## Example  
  In the following example, the <xref:System.Security.Permissions.SecurityAction> should be removed and the method marked with the <xref:System.Security.SecurityCriticalAttribute> attribute.  
   
- [!CODE [FxCop.Security.CA2135.SecurityRuleSetLevel2MethodsShouldNotBeProtectedWithLinkDemands#1](../CodeSnippet/VS_Snippets_CodeAnalysis/fxcop.security.ca2135.securityrulesetlevel2methodsshouldnotbeprotectedwithlinkdemands#1)]
+ [!code[FxCop.Security.CA2135.SecurityRuleSetLevel2MethodsShouldNotBeProtectedWithLinkDemands#1](../code-quality/codesnippet/CSharp/ca2135--level-2-assemblies-should-not-contain-linkdemands_1.cs)]

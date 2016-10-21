@@ -1,5 +1,5 @@
 ---
-title: "How to: Create Toolbars for Tool Windows | Microsoft Docs"
+title: "How to: Create Toolbars for Tool Windows"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

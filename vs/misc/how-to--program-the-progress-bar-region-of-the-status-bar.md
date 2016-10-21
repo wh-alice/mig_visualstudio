@@ -1,7 +1,7 @@
 ---
-title: "How to: Program the Progress Bar Region of the Status Bar | Microsoft Docs"
+title: "How to: Program the Progress Bar Region of the Status Bar"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -46,7 +46,8 @@ The Progress Bar region of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs
 ## Example  
  This example demonstrates how to initialize and update the progress bar.  
   
- [!CODE [VSSDKProgressStatusBar#1](../CodeSnippet/VS_Snippets_VSSDK/vssdkprogressstatusbar#1)]  
+ [!code[VSSDKProgressStatusBar#1](../misc/codesnippet/CSharp/how-to--program-the-progress-bar-region-of-the-status-bar_1.cs)]
+[!code[VSSDKProgressStatusBar#1](../misc/codesnippet/VisualBasic/how-to--program-the-progress-bar-region-of-the-status-bar_1.vb)]  
   
  In the example, the code:  
   

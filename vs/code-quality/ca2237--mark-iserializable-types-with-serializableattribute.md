@@ -1,5 +1,5 @@
 ---
-title: "CA2237: Mark ISerializable types with SerializableAttribute | Microsoft Docs"
+title: "CA2237: Mark ISerializable types with SerializableAttribute"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -57,7 +57,8 @@ translation.priority.ht:
 ## Example  
  The following example shows a type that violates the rule. Uncomment the <xref:System.SerializableAttribute> attribute line to satisfy the rule.  
   
- [!CODE [FxCop.Usage.MarkSerializable#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Usage.MarkSerializable#1)]  
+ [!code[FxCop.Usage.MarkSerializable#1](../code-quality/codesnippet/VisualBasic/ca2237--mark-iserializable-types-with-serializableattribute_1.vb)]
+[!code[FxCop.Usage.MarkSerializable#1](../code-quality/codesnippet/CSharp/ca2237--mark-iserializable-types-with-serializableattribute_1.cs)]  
   
 ## Related Rules  
  [CA2236: Call base class methods on ISerializable types](../code-quality/ca2236--call-base-class-methods-on-iserializable-types.md)  

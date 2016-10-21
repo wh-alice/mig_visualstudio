@@ -1,7 +1,7 @@
 ---
-title: "VSPackage Essentials | Microsoft Docs"
+title: "VSPackage Essentials"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -38,4 +38,4 @@ VSPackages are software modules that make up and extend Visual Studio with UI el
  To use VSPackages, you need to install the Visual Studio SDK. To follow this walkthrough, you must install the Visual Studio SDK. For more information, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).  
   
 ## See Also  
- [VSPackages](../extensibility/vspackages.md)
+ [VSPackages](../extensibility-internals/vspackages.md)

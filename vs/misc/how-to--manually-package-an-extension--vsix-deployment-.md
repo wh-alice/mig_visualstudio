@@ -1,7 +1,7 @@
 ---
-title: "How to: Manually Package an Extension (VSIX Deployment) | Microsoft Docs"
+title: "How to: Manually Package an Extension (VSIX Deployment)"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

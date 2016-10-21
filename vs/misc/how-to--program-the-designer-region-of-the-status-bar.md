@@ -1,7 +1,7 @@
 ---
-title: "How to: Program the Designer Region of the Status Bar | Microsoft Docs"
+title: "How to: Program the Designer Region of the Status Bar"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -44,7 +44,8 @@ The Designer region of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.
 ## Example  
  This example demonstrates how to program the Designer region of the status bar.  
   
- [!CODE [VSSDKDesignerStatusBar#1](../CodeSnippet/VS_Snippets_VSSDK/vssdkdesignerstatusbar#1)]  
+ [!code[VSSDKDesignerStatusBar#1](../misc/codesnippet/VisualBasic/how-to--program-the-designer-region-of-the-status-bar_1.vb)]
+[!code[VSSDKDesignerStatusBar#1](../misc/codesnippet/CSharp/how-to--program-the-designer-region-of-the-status-bar_1.cs)]  
   
 ## See Also  
  [Extending the Status Bar](../extensibility/extending-the-status-bar.md)   

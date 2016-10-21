@@ -1,5 +1,5 @@
 ---
-title: "Step 10: Write Code for Additional Buttons and a Check Box | Microsoft Docs"
+title: "Step 10: Write Code for Additional Buttons and a Check Box"
 ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
@@ -43,7 +43,8 @@ Now you're ready to complete the other four methods. You could copy and paste th
   
 -   Add the following code to your Form1 code file (Form1.cs or Form1.vb). Choose the **VB** tab to view Visual Basic code.  
   
-     [!CODE [VbExpressTutorial1Step9_10#2](../CodeSnippet/VS_Snippets_VBCSharp/vbexpresstutorial1step9_10#2)]  
+     [!code[VbExpressTutorial1Step9_10#2](../ide/codesnippet/VisualBasic/step-10--write-code-for-additional-buttons-and-a-check-box_1.vb)]
+[!code[VbExpressTutorial1Step9_10#2](../ide/codesnippet/CSharp/step-10--write-code-for-additional-buttons-and-a-check-box_1.cs)]  
   
 ### To continue or review  
   

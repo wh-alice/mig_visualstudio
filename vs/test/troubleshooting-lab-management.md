@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Lab Management | Microsoft Docs"
+title: "Troubleshooting Lab Management"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -40,8 +40,8 @@ When you use Visual Studio Lab Management, you might encounter issues or error m
   
 |Tasks|Associated Topics|  
 |-----------|-----------------------|  
-|**Important:**  If your lab environment contains Windows XP machines, repairing the environment will fail. For information about repairing an environment that uses Windows XP machines, see [Configuring Lab Environments that Contain Windows XP or Windows Server 2003 Machines](../test/configuring-lab-environments-that-contain-windows-xp-or-windows-server-2003-machines.md). <br /><br /> **Repair a lab environment:** If you are unable to connect to your lab environment after you create it or make changes to it, you need to repair the environment.|[Repairing Lab Environments](../test/repairing-lab-environments.md)|  
-|**Configuring lab environments that contain Windows XP machines** If your lab environment contains Windows XP physical or virtual machines, you need to perform extra steps when you create and change certain settings your lab environment.|[Configuring Lab Environments that Contain Windows XP or Windows Server 2003 Machines](../test/configuring-lab-environments-that-contain-windows-xp-or-windows-server-2003-machines.md)|  
+|**Important:**  If your lab environment contains Windows XP machines, repairing the environment will fail. For information about repairing an environment that uses Windows XP machines, see [Configuring Lab Environments that Contain Windows XP or Windows Server 2003 Machines](../test/e646c59c-47e4-47a5-bf9f-67f375ad1915.md). <br /><br /> **Repair a lab environment:** If you are unable to connect to your lab environment after you create it or make changes to it, you need to repair the environment.|[Repairing Lab Environments](../test/repairing-lab-environments.md)|  
+|**Configuring lab environments that contain Windows XP machines** If your lab environment contains Windows XP physical or virtual machines, you need to perform extra steps when you create and change certain settings your lab environment.|[Configuring Lab Environments that Contain Windows XP or Windows Server 2003 Machines](../test/e646c59c-47e4-47a5-bf9f-67f375ad1915.md)|  
   
 ## See Also  
  [Using a Lab Environment for Your Application Lifecycle](../test/using-a-lab-environment-for-your-application-lifecycle.md)

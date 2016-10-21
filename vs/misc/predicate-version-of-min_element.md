@@ -1,5 +1,5 @@
 ---
-title: "Predicate Version of min_element | Microsoft Docs"
+title: "Predicate Version of min_element"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

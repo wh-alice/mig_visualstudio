@@ -1,5 +1,5 @@
 ---
-title: "How to: Build Specific Targets in Solutions By Using MSBuild.exe | Microsoft Docs"
+title: "How to: Build Specific Targets in Solutions By Using MSBuild.exe"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"

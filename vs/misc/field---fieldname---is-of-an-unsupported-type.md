@@ -1,7 +1,7 @@
 ---
-title: "Field &#39;&lt;fieldname&gt;&#39; is of an unsupported type | Microsoft Docs"
+title: "Field &#39;&lt;fieldname&gt;&#39; is of an unsupported type"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

@@ -1,5 +1,5 @@
 ---
-title: "KeyBinding Element | Microsoft Docs"
+title: "KeyBinding Element"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -85,4 +85,4 @@ The KeyBinding element specifies keyboard shortcuts for the commands.
   
 ## See Also  
  [KeyBindings Element](../extensibility/keybindings-element.md)   
- [Visual Studio Command Table (.Vsct) Files](../extensibility/visual-studio-command-table--.vsct--files.md)
+ [Visual Studio Command Table (.Vsct) Files](../Topic/Visual%20Studio%20Command%20Table%20\(.Vsct\)%20Files.md)

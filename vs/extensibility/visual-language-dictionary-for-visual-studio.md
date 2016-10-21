@@ -1,5 +1,5 @@
 ---
-title: "Visual Language Dictionary for Visual Studio | Microsoft Docs"
+title: "Visual Language Dictionary for Visual Studio"
 ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"

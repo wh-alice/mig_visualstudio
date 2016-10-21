@@ -1,5 +1,5 @@
 ---
-title: "CA1306: Set locale for data types | Microsoft Docs"
+title: "CA1306: Set locale for data types"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -58,7 +58,7 @@ translation.priority.mt:
 ## Example  
  The following example creates two <xref:System.Data.DataTable> instances.  
   
- [!CODE [FxCop.Globalization.DataTable#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Globalization.DataTable#1)]  
+ [!code[FxCop.Globalization.DataTable#1](../code-quality/codesnippet/CSharp/ca1306--set-locale-for-data-types_1.cs)]  
   
 ## See Also  
  <xref:System.Data.DataTable?displayProperty=fullName>   

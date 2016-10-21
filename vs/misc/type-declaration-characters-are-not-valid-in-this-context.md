@@ -1,5 +1,5 @@
 ---
-title: "Type declaration characters are not valid in this context | Microsoft Docs"
+title: "Type declaration characters are not valid in this context"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

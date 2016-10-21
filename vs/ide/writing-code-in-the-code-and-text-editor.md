@@ -1,5 +1,5 @@
 ---
-title: "Writing Code in the Code and Text Editor | Microsoft Docs"
+title: "Writing Code in the Code and Text Editor"
 ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"
@@ -176,7 +176,7 @@ The Visual Studio editor provides many features that make it easier for you to w
   
 -   [Visual Basic Settings](../Topic/Visual%20Basic%20Settings.md)  
   
--   [Using the Visual Studio Development Environment for C#](../csharp/using-the-visual-studio-development-environment-for-csharp.md)  
+-   [Using the Visual Studio Development Environment for C#](../csharp-ide/using-the-visual-studio-development-environment-for-csharp.md)  
   
 -   [Options, Text Editor, JavaScript, Formatting](../reference/options--text-editor--javascript--formatting.md)  
   

@@ -1,5 +1,5 @@
 ---
-title: "Message Task | Microsoft Docs"
+title: "Message Task"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -50,7 +50,7 @@ Logs a message during a build.
 |`Text`|Optional `String` parameter.<br /><br /> The error text to log.|  
   
 ## Remarks  
- The `Message` task allows [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] projects to issue messages to loggers at different steps in the build process.  
+ The `Message` task allows [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] projects to issue messages to loggers at different steps in the build process.  
   
  If the `Condition` parameter evaluates to `true`, the value of the `Text` parameter will be logged and the build will continue to execute. If a `Condition` parameter does not exist, the message text is logged. For more information on logging, see [Obtaining Build Logs](../reference/obtaining-build-logs-with-msbuild.md).  
   

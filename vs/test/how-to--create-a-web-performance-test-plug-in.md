@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a Web Performance Test Plug-In | Microsoft Docs"
+title: "How to: Create a Web Performance Test Plug-In"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"

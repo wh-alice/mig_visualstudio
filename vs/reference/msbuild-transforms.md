@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Transforms | Microsoft Docs"
+title: "MSBuild Transforms"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -32,7 +32,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # MSBuild Transforms
-A transform is a one-to-one conversion of one item list to another. In addition to enabling a project to convert item lists, a transform enables a target to identify a direct mapping between its inputs and outputs. This topic explains transforms and how [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] uses them to build projects more efficiently.  
+A transform is a one-to-one conversion of one item list to another. In addition to enabling a project to convert item lists, a transform enables a target to identify a direct mapping between its inputs and outputs. This topic explains transforms and how [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] uses them to build projects more efficiently.  
   
 ## Transform Modifiers  
  Transforms are not arbitrary, but are limited by special syntax in which all transform modifiers must be in the format %(*ItemMetaDataName*). Any item metadata can be used as a transform modifier. This includes the well-known item metadata that is assigned to every item when it is created. For a list of well-known item metadata, see [Well-known Item Metadata](../reference/msbuild-well-known-item-metadata.md).  
@@ -62,7 +62,7 @@ A transform is a one-to-one conversion of one item list to another. In addition 
  For example, if the items that are contained in the `RESXFile` item list are `Project1\Form1.resx`, `Project1\Form2.resx`, and `Project1\Form3.text`, the outputs in the transformed list will be `Toolset\Form1.resx`, `Toolset\Form2.resx`, and `Toolset\Form3.text`.  
   
 ## Dependency Analysis  
- Transforms guarantee a one-to-one mapping between the transformed item list and the original item list. Therefore, if a target creates outputs that are transforms of the inputs, [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] can analyze the timestamps of the inputs and outputs, and decide whether to skip, build, or partially rebuild a target.  
+ Transforms guarantee a one-to-one mapping between the transformed item list and the original item list. Therefore, if a target creates outputs that are transforms of the inputs, [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] can analyze the timestamps of the inputs and outputs, and decide whether to skip, build, or partially rebuild a target.  
   
  In the [Copy Task](../reference/copy-task.md) in the following example, every file in the `BuiltAssemblies` item list maps to a file in the destination folder of the task, specified by using a transform in the `Outputs` attribute. If a file in the `BuiltAssemblies` item list changes, the `Copy` task will be run only for the changed file and all other files will be skipped. For more information about dependency analysis and how to use transforms, see [How to: Build Incrementally](../reference/how-to--build-incrementally.md).  
   
@@ -81,7 +81,7 @@ A transform is a one-to-one conversion of one item list to another. In addition 
 ## Example  
   
 ### Description  
- The following example shows an [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] project file that uses transforms. This example assumes that there is just one .xsd file in the c:\sub0\sub1\sub2\sub3 directory, and that the working directory is c:\sub0.  
+ The following example shows an [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] project file that uses transforms. This example assumes that there is just one .xsd file in the c:\sub0\sub1\sub2\sub3 directory, and that the working directory is c:\sub0.  
   
 ### Code  
   

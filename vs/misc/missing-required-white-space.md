@@ -1,5 +1,5 @@
 ---
-title: "Missing required white space | Microsoft Docs"
+title: "Missing required white space"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Create UML modeling projects and diagrams | Microsoft Docs"
+title: "Create UML modeling projects and diagrams"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

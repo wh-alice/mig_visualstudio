@@ -1,5 +1,5 @@
 ---
-title: "CA2208: Instantiate argument exceptions correctly | Microsoft Docs"
+title: "CA2208: Instantiate argument exceptions correctly"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -79,9 +79,13 @@ translation.priority.ht:
 ## Example  
  The following example shows a constructor that incorrectly instantiates an instance of the ArgumentNullException type.  
   
- [!CODE [FxCop.Usage.InstantiateArgumentExceptionsCorrectly#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Usage.InstantiateArgumentExceptionsCorrectly#1)]  
+ [!code[FxCop.Usage.InstantiateArgumentExceptionsCorrectly#1](../code-quality/codesnippet/CPP/ca2208--instantiate-argument-exceptions-correctly_1.cpp)]
+[!code[FxCop.Usage.InstantiateArgumentExceptionsCorrectly#1](../code-quality/codesnippet/CSharp/ca2208--instantiate-argument-exceptions-correctly_1.cs)]
+[!code[FxCop.Usage.InstantiateArgumentExceptionsCorrectly#1](../code-quality/codesnippet/VisualBasic/ca2208--instantiate-argument-exceptions-correctly_1.vb)]  
   
 ## Example  
  The following example fixes the above violation by switching the constructor arguments.  
   
- [!CODE [FxCop.Usage.InstantiateArgumentExceptionsCorrectly#2](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Usage.InstantiateArgumentExceptionsCorrectly#2)]
+ [!code[FxCop.Usage.InstantiateArgumentExceptionsCorrectly#2](../code-quality/codesnippet/CPP/ca2208--instantiate-argument-exceptions-correctly_2.cpp)]
+[!code[FxCop.Usage.InstantiateArgumentExceptionsCorrectly#2](../code-quality/codesnippet/CSharp/ca2208--instantiate-argument-exceptions-correctly_2.cs)]
+[!code[FxCop.Usage.InstantiateArgumentExceptionsCorrectly#2](../code-quality/codesnippet/VisualBasic/ca2208--instantiate-argument-exceptions-correctly_2.vb)]

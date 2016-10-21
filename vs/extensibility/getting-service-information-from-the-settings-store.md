@@ -1,5 +1,5 @@
 ---
-title: "Getting Service Information from the Settings Store | Microsoft Docs"
+title: "Getting Service Information from the Settings Store"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

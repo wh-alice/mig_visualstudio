@@ -1,5 +1,5 @@
 ---
-title: "span::~span Destructor | Microsoft Docs"
+title: "span::~span Destructor"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"

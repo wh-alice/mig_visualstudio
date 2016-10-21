@@ -1,7 +1,7 @@
 ---
-title: "Using the Legacy Workflow Designer | Microsoft Docs"
+title: "Using the Legacy Workflow Designer"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""

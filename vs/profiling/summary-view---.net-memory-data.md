@@ -1,5 +1,5 @@
 ---
-title: "Summary View - .NET Memory Data | Microsoft Docs"
+title: "Summary View - .NET Memory Data"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

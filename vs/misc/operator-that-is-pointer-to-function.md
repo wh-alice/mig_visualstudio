@@ -1,5 +1,5 @@
 ---
-title: "Operator That is Pointer to Function | Microsoft Docs"
+title: "Operator That is Pointer to Function"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

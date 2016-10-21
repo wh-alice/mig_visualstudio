@@ -1,5 +1,5 @@
 ---
-title: "ParameterGroup Element | Microsoft Docs"
+title: "ParameterGroup Element"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -65,7 +65,7 @@ Contains an optional list of parameters that will be present on the task that is
   
 |Element|Description|  
 |-------------|-----------------|  
-|[UsingTask](../reference/usingtask-element--msbuild-.md)|Provides a way to register tasks in [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)]. There may be zero or more `UsingTask` elements in a project.|  
+|[UsingTask](../reference/usingtask-element--msbuild-.md)|Provides a way to register tasks in [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)]. There may be zero or more `UsingTask` elements in a project.|  
   
 ## Example  
  The following example shows how to use the `ParameterGroup` element.  

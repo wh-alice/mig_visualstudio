@@ -1,5 +1,5 @@
 ---
-title: "Walkthroughs for Customizing Visual Studio By Using VSPackages | Microsoft Docs"
+title: "Walkthroughs for Customizing Visual Studio By Using VSPackages"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -37,7 +37,7 @@ translation.priority.mt:
 # Walkthroughs for Customizing Visual Studio By Using VSPackages
 You can extend Visual Studio by creating VSPackages. These are the software modules that Visual Studio itself is made of. Tool windows, editors, services, and project types all are VSPackages. The Visual Studio SDK lets you create your own VSPackages.  
   
- The walkthroughs in this section teach how to create VSPackages, give them functionality, integrate them into Visual Studio, and distribute them to other users. For more information about VSPackages and what they can do, see the [Inside the Visual Studio SDK](../extensibility/inside-the-visual-studio-sdk.md).  
+ The walkthroughs in this section teach how to create VSPackages, give them functionality, integrate them into Visual Studio, and distribute them to other users. For more information about VSPackages and what they can do, see the [Inside the Visual Studio SDK](../Topic/Inside%20the%20Visual%20Studio%20SDK.md).  
   
 ## In This Section  
  [Creating an Extension with a Menu Command](../extensibility/creating-an-extension-with-a-menu-command.md)  
@@ -53,5 +53,5 @@ You can extend Visual Studio by creating VSPackages. These are the software modu
  [Introducing the Visual Studio SDK](../Topic/Introducing%20the%20Visual%20Studio%20SDK.md)  
  Provides an overview of the features and tools that are included in the Visual Studio SDK and how you can use them to extend Visual Studio.  
   
- [Inside the Visual Studio SDK](../extensibility/inside-the-visual-studio-sdk.md)  
+ [Inside the Visual Studio SDK](../Topic/Inside%20the%20Visual%20Studio%20SDK.md)  
  Describes how you can customize the different elements of the Visual Studio IDE.

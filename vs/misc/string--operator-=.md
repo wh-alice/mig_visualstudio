@@ -1,5 +1,5 @@
 ---
-title: "string::operator&lt;= | Microsoft Docs"
+title: "string::operator&gt;="
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 dev_langs: 
   - "C++"
-ms.assetid: 6a8ef99e-ae43-44d2-943d-2e3e52be2351
+ms.assetid: fc84ed6e-34ec-435e-afd5-c5125e896344
 caps.latest.revision: 7
 ms.author: "ghogen"
 manager: "douge"
@@ -30,7 +30,7 @@ translation.priority.mt:
   - "zh-cn"
   - "zh-tw"
 ---
-# string::operator&lt;=
+# string::operator&gt;=
 This content is no longer maintained.  
   
 ## Syntax  

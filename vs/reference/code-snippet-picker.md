@@ -1,7 +1,7 @@
 ---
-title: "Code Snippet Picker | Microsoft Docs"
+title: "Code Snippet Picker"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -47,7 +47,7 @@ The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Code Editor provid
   
 -   Visual F# - The **Code Snippet Picker** is not available.  
   
--   [!INCLUDE[jsprjscript](../debugger/includes/jsprjscript_md.md)] -- Right-click at the desired location in the Code Editor to display the Shortcut menu, and click **Insert Snippet** or **Surround With**.  
+-   [!INCLUDE[jsprjscript](../debug-interface-access/includes/jsprjscript_md.md)] -- Right-click at the desired location in the Code Editor to display the Shortcut menu, and click **Insert Snippet** or **Surround With**.  
   
 -   XML - Right-click at the desired location in the Code Editor to display the Shortcut menu, and click **Insert Snippet** or **Surround With**.  
   

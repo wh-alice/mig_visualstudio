@@ -1,5 +1,5 @@
 ---
-title: "Directly access the database with a TableAdapter | Microsoft Docs"
+title: "Directly access the database with a TableAdapter"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
@@ -59,7 +59,8 @@ In addition to the `InsertCommand`, `UpdateCommand`, and `DeleteCommand`, TableA
     > [!NOTE]
     >  If you do not have an instance available, instantiate the TableAdapter that you want to use.  
   
-     [!CODE [VbRaddataSaving#15](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataSaving#15)]  
+     [!code[VbRaddataSaving#15](../data-tools/codesnippet/VisualBasic/directly-access-the-database-with-a-tableadapter_1.vb)]
+[!code[VbRaddataSaving#15](../data-tools/codesnippet/CSharp/directly-access-the-database-with-a-tableadapter_1.cs)]  
   
 #### To update records directly in a database  
   
@@ -68,7 +69,8 @@ In addition to the `InsertCommand`, `UpdateCommand`, and `DeleteCommand`, TableA
     > [!NOTE]
     >  If you do not have an instance available, instantiate the TableAdapter that you want to use.  
   
-     [!CODE [VbRaddataSaving#18](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataSaving#18)]  
+     [!code[VbRaddataSaving#18](../data-tools/codesnippet/VisualBasic/directly-access-the-database-with-a-tableadapter_2.vb)]
+[!code[VbRaddataSaving#18](../data-tools/codesnippet/CSharp/directly-access-the-database-with-a-tableadapter_2.cs)]  
   
 #### To delete records directly from a database  
   
@@ -77,7 +79,8 @@ In addition to the `InsertCommand`, `UpdateCommand`, and `DeleteCommand`, TableA
     > [!NOTE]
     >  If you do not have an instance available, instantiate the TableAdapter that you want to use.  
   
-     [!CODE [VbRaddataSaving#21](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataSaving#21)]  
+     [!code[VbRaddataSaving#21](../data-tools/codesnippet/VisualBasic/directly-access-the-database-with-a-tableadapter_3.vb)]
+[!code[VbRaddataSaving#21](../data-tools/codesnippet/CSharp/directly-access-the-database-with-a-tableadapter_3.cs)]  
   
 ## See Also  
  [Fill datasets by using TableAdapters](../data-tools/fill-datasets-by-using-tableadapters.md)

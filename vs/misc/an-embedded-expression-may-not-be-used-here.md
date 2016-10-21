@@ -1,5 +1,5 @@
 ---
-title: "An embedded expression may not be used here | Microsoft Docs"
+title: "An embedded expression may not be used here"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

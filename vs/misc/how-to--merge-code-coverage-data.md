@@ -1,5 +1,5 @@
 ---
-title: "How to: Merge code coverage data | Microsoft Docs"
+title: "How to: Merge code coverage data"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

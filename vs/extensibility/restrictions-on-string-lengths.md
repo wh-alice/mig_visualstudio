@@ -1,5 +1,5 @@
 ---
-title: "Restrictions on String Lengths | Microsoft Docs"
+title: "Restrictions on String Lengths"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

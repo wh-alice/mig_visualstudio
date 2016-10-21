@@ -1,5 +1,5 @@
 ---
-title: "Extended Correctness Rules rule set for managed code | Microsoft Docs"
+title: "Extended Correctness Rules rule set for managed code"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -72,11 +72,11 @@ The Microsoft Extended Correctness Rules rule set maximizes the logic and framew
 |[CA2124](../code-quality/ca2124--wrap-vulnerable-finally-clauses-in-outer-try.md)|Wrap vulnerable finally clauses in outer try|  
 |[CA2126](../code-quality/ca2126--type-link-demands-require-inheritance-demands.md)|Type link demands require inheritance demands|  
 |[CA2131](../code-quality/ca2131--security-critical-types-may-not-participate-in-type-equivalence.md)|Security critical types may not participate in type equivalence|  
-|[CA2132](../code-quality/ca2132--default-constructors-must-be-at-least-as-critical-as-base-type-default-constructors.md)|Default constructors must be at least as critical as base type default constructors|  
+|[CA2132](../code-quality/e758afa1-8bde-442a-8a0a-bd1ea7b0ce4d.md)|Default constructors must be at least as critical as base type default constructors|  
 |[CA2133](../code-quality/ca2133--delegates-must-bind-to-methods-with-consistent-transparency.md)|Delegates must bind to methods with consistent transparency|  
 |[CA2134](../code-quality/ca2134--methods-must-keep-consistent-transparency-when-overriding-base-methods.md)|Methods must keep consistent transparency when overriding base methods|  
 |[CA2137](../code-quality/ca2137--transparent-methods-must-contain-only-verifiable-il.md)|Transparent methods must contain only verifiable IL|  
-|[CA2138](../code-quality/ca2138--transparent-methods-must-not-call-methods-with-the-suppressunmanagedcodesecurity-attribute.md)|Transparent methods must not call methods with the SuppressUnmanagedCodeSecurity attribute|  
+|[CA2138](../code-quality/a14c4d32-f079-4f3a-956c-a1657cde0f66.md)|Transparent methods must not call methods with the SuppressUnmanagedCodeSecurity attribute|  
 |[CA2140](../code-quality/ca2140--transparent-code-must-not-reference-security-critical-items.md)|Transparent code must not reference security critical items|  
 |[CA2141](../code-quality/ca2141-transparent-methods-must-not-satisfy-linkdemands.md)|Transparent methods must not satisfy LinkDemands|  
 |[CA2146](../code-quality/ca2146--types-must-be-at-least-as-critical-as-their-base-types-and-interfaces.md)|Types must be at least as critical as their base types and interfaces|  
@@ -150,11 +150,11 @@ The Microsoft Extended Correctness Rules rule set maximizes the logic and framew
 |[CA2003](../code-quality/ca2003--do-not-treat-fibers-as-threads.md)|Do not treat fibers as threads|  
 |[CA2135](../code-quality/ca2135--level-2-assemblies-should-not-contain-linkdemands.md)|Level 2 assemblies should not contain LinkDemands|  
 |[CA2136](../code-quality/ca2136--members-should-not-have-conflicting-transparency-annotations.md)|Members should not have conflicting transparency annotations|  
-|[CA2139](../code-quality/ca2139--transparent-methods-may-not-use-the-handleprocesscorruptingexceptions-attribute.md)|Transparent methods may not use the HandleProcessCorruptingExceptions attribute|  
+|[CA2139](../code-quality/45a0328a-add7-40f9-8934-dff59beb02b3.md)|Transparent methods may not use the HandleProcessCorruptingExceptions attribute|  
 |[CA2142](../code-quality/ca2142--transparent-code-should-not-be-protected-with-linkdemands.md)|Transparent code should not be protected with LinkDemands|  
 |[CA2143](../code-quality/ca2143--transparent-methods-should-not-use-security-demands.md)|Transparent methods should not use security demands|  
 |[CA2144](../code-quality/ca2144--transparent-code-should-not-load-assemblies-from-byte-arrays.md)|Transparent code should not load assemblies from byte arrays|  
-|[CA2145](../code-quality/ca2145--transparent-methods-should-not-be-decorated-with-the-suppressunmanagedcodesecurityattribute.md)|Transparent methods should not be decorated with the SuppressUnmanagedCodeSecurityAttribute|  
+|[CA2145](../code-quality/81970700-b438-4b3b-9239-16887e16f7b7.md)|Transparent methods should not be decorated with the SuppressUnmanagedCodeSecurityAttribute|  
 |[CA2204](../code-quality/ca2204--literals-should-be-spelled-correctly.md)|Literals should be spelled correctly|  
 |[CA2211](../code-quality/ca2211--non-constant-fields-should-not-be-visible.md)|Non-constant fields should not be visible|  
 |[CA2217](../code-quality/ca2217--do-not-mark-enums-with-flagsattribute.md)|Do not mark enums with FlagsAttribute|  

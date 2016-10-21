@@ -1,5 +1,5 @@
 ---
-title: "Debug HTML, CSS, and JavaScript sample code | Microsoft Docs"
+title: "Debug HTML, CSS, and JavaScript sample code"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

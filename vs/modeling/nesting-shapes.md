@@ -1,5 +1,5 @@
 ---
-title: "Nesting Shapes | Microsoft Docs"
+title: "Nesting Shapes"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

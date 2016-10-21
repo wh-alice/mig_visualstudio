@@ -1,5 +1,5 @@
 ---
-title: "DA0014: Extremely high rates of paging active memory to disk | Microsoft Docs"
+title: "DA0014: Extremely high rates of paging active memory to disk"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

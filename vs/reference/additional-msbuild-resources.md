@@ -1,5 +1,5 @@
 ---
-title: "Additional MSBuild Resources | Microsoft Docs"
+title: "Additional MSBuild Resources"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -627,7 +627,7 @@ If you are trying to solve a problem and cannot find the information you need in
 ## Community Forums  
  Forums let you interact with other developers, and also Microsoft employees. If you encounter an error that you cannot find a resolution for, you can post questions about the issue on a forum. You can also search the newsgroups to see whether others have posted about the same issue. You can access the Visual Studio MSBuild forum on the [MSDN Forums](http://go.microsoft.com/fwlink/?LinkId=48931) Web site.  
   
- You can access [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] community resources on the [Channel 9 MSBuild](http://channel9.msdn.com/) Web site.  
+ You can access [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] community resources on the [Channel 9 MSBuild](http://channel9.msdn.com/) Web site.  
   
 ## Product Support  
  If you still have questions after you try the other resources, you can contact Microsoft support services by visiting the [Microsoft Help and Support](http://go.microsoft.com/fwlink/?linkid=1782) Web site. For information about product support available in your area, see [Talk to Us](../ide/talk-to-us.md).  

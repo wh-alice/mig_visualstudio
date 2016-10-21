@@ -1,5 +1,5 @@
 ---
-title: "How to: Generate a Coded UI Test by Recording the Application Under Development | Microsoft Docs"
+title: "How to: Generate a Coded UI Test by Recording the Application Under Development"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

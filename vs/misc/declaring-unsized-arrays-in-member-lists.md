@@ -1,5 +1,5 @@
 ---
-title: "Declaring Unsized Arrays in Member Lists | Microsoft Docs"
+title: "Declaring Unsized Arrays in Member Lists"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

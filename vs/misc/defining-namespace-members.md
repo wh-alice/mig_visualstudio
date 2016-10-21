@@ -1,5 +1,5 @@
 ---
-title: "Defining namespace Members | Microsoft Docs"
+title: "Defining namespace Members"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

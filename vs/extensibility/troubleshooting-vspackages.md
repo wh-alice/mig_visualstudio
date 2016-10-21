@@ -1,7 +1,7 @@
 ---
-title: "Troubleshooting VSPackages | Microsoft Docs"
+title: "Troubleshooting VSPackages"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -137,4 +137,4 @@ Following are common problems that you might have with your VSPackage and tips t
  Make sure that the InprocServer32 entry has the correct path of the VSPackage dll.  
   
 ## See Also  
- [VSPackages](../extensibility/vspackages.md)
+ [VSPackages](../extensibility-internals/vspackages.md)

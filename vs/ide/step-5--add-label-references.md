@@ -1,5 +1,5 @@
 ---
-title: "Step 5: Add Label References | Microsoft Docs"
+title: "Step 5: Add Label References"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -35,7 +35,8 @@ The program needs to track which label controls the player chooses. Right now, t
   
 1.  Add label references to your form by using the following code.  
   
-     [!CODE [VbExpressTutorial4Step5#5](../CodeSnippet/VS_Snippets_VBCSharp/vbexpresstutorial4step5#5)]  
+     [!code[VbExpressTutorial4Step5#5](../ide/codesnippet/VisualBasic/step-5--add-label-references_1.vb)]
+[!code[VbExpressTutorial4Step5#5](../ide/codesnippet/CSharp/step-5--add-label-references_1.cs)]  
   
      These reference variables look similar to the statements you used earlier to add objects (like `Timer` objects, `List` objects, and `Random` objects) to your form. However, these statements don't cause two extra label controls to appear on the form because there's no `new` keyword used in either of the two statements. Without the `new` keyword, no object is created. That's why `firstClicked` and `secondClicked` are called reference variables: They just keep track (or, refer to) `Label` objects.  
   
@@ -43,7 +44,8 @@ The program needs to track which label controls the player chooses. Right now, t
   
 2.  Modify your Click event handler to use the new `firstClicked` reference variable. Remove the last statement in the `label_Click()` event handler method (`clickedLabel.ForeColor = Color.Black;`) and replace it with the `if` statement that follows. (Be sure you include the comment, and the whole `if` statement.)  
   
-     [!CODE [VbExpressTutorial4Step5#6](../CodeSnippet/VS_Snippets_VBCSharp/vbexpresstutorial4step5#6)]  
+     [!code[VbExpressTutorial4Step5#6](../ide/codesnippet/VisualBasic/step-5--add-label-references_2.vb)]
+[!code[VbExpressTutorial4Step5#6](../ide/codesnippet/CSharp/step-5--add-label-references_2.cs)]  
   
 3.  Save and run your program. Choose one of the label controls, and its icon appears.  
   

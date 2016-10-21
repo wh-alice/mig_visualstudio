@@ -1,5 +1,5 @@
 ---
-title: "Build Loggers | Microsoft Docs"
+title: "Build Loggers"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -46,22 +46,22 @@ Loggers provide a way for you to customize the output of your build and display 
 ## Registering for Events  
  The purpose of a logger is to gather information on build progress as it is reported by the build engine, and then report that information in a useful way. All loggers must override the <xref:Microsoft.Build.Utilities.Logger.Initialize*> method, which is where the logger registers for events. In this example, the logger registers for the <xref:Microsoft.Build.Framework.IEventSource.TargetStarted>, <xref:Microsoft.Build.Framework.IEventSource.ProjectStarted>, and <xref:Microsoft.Build.Framework.IEventSource.ProjectFinished> events.  
   
- [!CODE [msbuild_SimpleConsoleLogger#2](../CodeSnippet/VS_Snippets_Misc/msbuild_SimpleConsoleLogger#2)]  
+ [!code[msbuild_SimpleConsoleLogger#2](../reference/codesnippet/CSharp/build-loggers_1.cs)]  
   
 ## Responding to Events  
  Now that the logger is registered for specific events, it needs to handle those events when they occur. For the <xref:Microsoft.Build.Framework.IEventSource.ProjectStarted>, and <xref:Microsoft.Build.Framework.IEventSource.ProjectFinished> events, the logger simply writes a short phrase and the name of the project file involved in the event. All messages from the logger are written to the console window.  
   
- [!CODE [msbuild_SimpleConsoleLogger#3](../CodeSnippet/VS_Snippets_Misc/msbuild_SimpleConsoleLogger#3)]  
+ [!code[msbuild_SimpleConsoleLogger#3](../reference/codesnippet/CSharp/build-loggers_2.cs)]  
   
 ## Responding to Logger Verbosity Values  
  In some cases, you may want to only log information from an event if the MSBuild.exe **/verbosity** switch contains a certain value. In this example, the <xref:Microsoft.Build.Framework.IEventSource.TargetStarted> event handler only logs a message if the <xref:Microsoft.Build.Utilities.Logger.Verbosity*> property, which is set by the **/verbosity** switch, is equal to <xref:Microsoft.Build.Framework.LoggerVerbosity>`Detailed`.  
   
- [!CODE [msbuild_SimpleConsoleLogger#4](../CodeSnippet/VS_Snippets_Misc/msbuild_SimpleConsoleLogger#4)]  
+ [!code[msbuild_SimpleConsoleLogger#4](../reference/codesnippet/CSharp/build-loggers_3.cs)]  
   
 ## Specifying a Logger  
- Once the logger is compiled into an assembly, you need to tell [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] to use that logger during builds. This is done using the **/logger** switch with MSBuild.exe. For more information on the switches available for MSBuild.exe, see [Command-Line Reference](../reference/msbuild-command-line-reference.md).  
+ Once the logger is compiled into an assembly, you need to tell [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] to use that logger during builds. This is done using the **/logger** switch with MSBuild.exe. For more information on the switches available for MSBuild.exe, see [Command-Line Reference](../reference/msbuild-command-line-reference.md).  
   
- The following command line builds the project `MyProject.csproj` and uses the logger class implemented in `SimpleLogger.dll`. The **/nologo** switch hides the banner and copyright message and the **/noconsolelogger** switch disables the default [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] console logger.  
+ The following command line builds the project `MyProject.csproj` and uses the logger class implemented in `SimpleLogger.dll`. The **/nologo** switch hides the banner and copyright message and the **/noconsolelogger** switch disables the default [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] console logger.  
   
 ```  
 MSBuild /nologo /noconsolelogger /logger:SimpleLogger.dll  
@@ -79,7 +79,7 @@ MSBuild /nologo /noconsolelogger /logger:SimpleLogger.dll /verbosity:Detailed
  The following example contains the complete code for the logger.  
   
 ### Code  
- [!CODE [msbuild_SimpleConsoleLogger#1](../CodeSnippet/VS_Snippets_Misc/msbuild_SimpleConsoleLogger#1)]  
+ [!code[msbuild_SimpleConsoleLogger#1](../reference/codesnippet/CSharp/build-loggers_4.cs)]  
   
 ### Comments  
   
@@ -89,7 +89,7 @@ MSBuild /nologo /noconsolelogger /logger:SimpleLogger.dll /verbosity:Detailed
  The following example shows how to implement a logger that writes the log to a file rather than displaying it in the console window.  
   
 ### Code  
- [!CODE [msbuild_BasicLogger#1](../CodeSnippet/VS_Snippets_Misc/msbuild_BasicLogger#1)]  
+ [!code[msbuild_BasicLogger#1](../reference/codesnippet/CSharp/build-loggers_5.cs)]  
   
 ### Comments  
   

@@ -1,5 +1,5 @@
 ---
-title: "Division by zero. | Microsoft Docs"
+title: "Division by zero."
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

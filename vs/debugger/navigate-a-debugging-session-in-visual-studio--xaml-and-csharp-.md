@@ -1,5 +1,5 @@
 ---
-title: "Navigate a debugging session in Visual Studio (Xaml and C#) | Microsoft Docs"
+title: "Navigate a debugging session in Visual Studio (Xaml and C#)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -224,6 +224,6 @@ This quick start demonstrates how to navigate Visual Studio debug sessions and h
  **Stop debugging.** On the **Debug** menu, choose **Stop Debugging** (Keyboard: Shift+F5). This ends your debug session.  
   
 ## See Also  
- [Start a debug session (VB, C#, C++ and XAML)](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio--vb--csharp--c---and-xaml-.md)   
- [Trigger suspend, resume, and background events for Windows Store)](../debugger/how-to-trigger-suspend--resume--and-background-events-for-windows-store-apps-in-visual-studio.md)   
+ [Start a debug session (VB, C#, C++ and XAML)](../debugger/66ec0e79-8261-4c19-a618-3fd1b3f71bbd.md)   
+ [Trigger suspend, resume, and background events for Windows Store)](../debugger/824ff3ca-fedf-4cf5-b3e2-ac8dc82d40ac.md)   
  [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md)

@@ -1,5 +1,5 @@
 ---
-title: "Creating an Offline Installation of Visual Studio | Microsoft Docs"
+title: "Creating an Offline Installation of Visual Studio"
 ms.custom: ""
 ms.date: "2016-09-12"
 ms.prod: "visual-studio-dev14"

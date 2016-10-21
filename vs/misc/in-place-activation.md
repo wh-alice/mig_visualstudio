@@ -1,5 +1,5 @@
 ---
-title: "In-Place Activation | Microsoft Docs"
+title: "In-Place Activation"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

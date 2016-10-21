@@ -1,5 +1,5 @@
 ---
-title: "Verifying Subtypes of a Project at Run Time | Microsoft Docs"
+title: "Verifying Subtypes of a Project at Run Time"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -80,6 +80,6 @@ A VSPackage that depends on a custom project subtype should include logic to loo
     ```  
   
 ## See Also  
- [Project Subtypes](../extensibility/project-subtypes.md)   
- [Project Subtypes Design](../extensibility/project-subtypes-design.md)   
- [Properties and Methods Extended by Project Subtypes](../extensibility/properties-and-methods-extended-by-project-subtypes.md)
+ [Project Subtypes](../extensibility-internals/project-subtypes.md)   
+ [Project Subtypes Design](../extensibility-internals/project-subtypes-design.md)   
+ [Properties and Methods Extended by Project Subtypes](../extensibility-internals/properties-and-methods-extended-by-project-subtypes.md)

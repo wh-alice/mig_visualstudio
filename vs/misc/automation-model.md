@@ -1,7 +1,7 @@
 ---
-title: "Automation Model | Microsoft Docs"
+title: "Automation Model"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -40,8 +40,8 @@ The automation model provides an alternative to VSPackages for extending [!INCLU
   
  Add-ins and wizards use the automation model to control or extend the functionality of the IDE by using its automation interfaces. Typically, Microsoft includes many add-ins with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. You can use add-ins to integrate new commands on the toolbars and menus, to add tool windows, or to automate certain tasks that you perform regularly in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
- As a VSPackage developer, you should contribute to the automation model. For example, if you add a new language to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] by using the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] SDK, your language should provide a robust code model that extends the pre-existing one. For more information, see [Contributing to the Automation Model](../extensibility/contributing-to-the-automation-model.md).  
+ As a VSPackage developer, you should contribute to the automation model. For example, if you add a new language to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] by using the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] SDK, your language should provide a robust code model that extends the pre-existing one. For more information, see [Contributing to the Automation Model](../extensibility-internals/contributing-to-the-automation-model.md).  
   
 ## See Also  
- [VSPackages](../extensibility/vspackages.md)   
- [Contributing to the Automation Model](../extensibility/contributing-to-the-automation-model.md)
+ [VSPackages](../extensibility-internals/vspackages.md)   
+ [Contributing to the Automation Model](../extensibility-internals/contributing-to-the-automation-model.md)

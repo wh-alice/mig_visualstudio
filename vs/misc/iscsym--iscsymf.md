@@ -1,5 +1,5 @@
 ---
-title: "iscsym, iscsymf | Microsoft Docs"
+title: "iscsym, iscsymf"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

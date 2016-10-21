@@ -1,5 +1,5 @@
 ---
-title: "Performance test your app before release | Microsoft Docs"
+title: "Performance test your app before release"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"

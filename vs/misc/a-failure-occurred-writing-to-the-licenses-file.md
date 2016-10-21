@@ -1,5 +1,5 @@
 ---
-title: "A failure occurred writing to the licenses file | Microsoft Docs"
+title: "A failure occurred writing to the licenses file"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

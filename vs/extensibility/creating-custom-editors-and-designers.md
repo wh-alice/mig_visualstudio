@@ -1,7 +1,7 @@
 ---
-title: "Creating Custom Editors and Designers | Microsoft Docs"
+title: "Creating Custom Editors and Designers"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -105,7 +105,7 @@ The Visual Studio integrated development environment (IDE) can host different ty
  [Legacy Interfaces in the Editor](../extensibility/legacy-interfaces-in-the-editor.md)  
  Explains how to access the core editor by means of the legacy API.  
   
- [Developing a Legacy Language Service](../extensibility/developing-a-legacy-language-service.md)  
+ [Developing a Legacy Language Service](../extensibility-internals/developing-a-legacy-language-service.md)  
  Explains how to implement a language service.  
   
  [Extending Other Parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)  

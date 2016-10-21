@@ -1,5 +1,5 @@
 ---
-title: "CA1026: Default parameters should not be used | Microsoft Docs"
+title: "CA1026: Default parameters should not be used"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -59,7 +59,7 @@ translation.priority.ht:
 ## Example  
  The following example shows a method that uses default parameters, and the overloaded methods that provide an equivalent functionality.  
   
- [!CODE [FxCop.Design.DefaultParameters#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Design.DefaultParameters#1)]  
+ [!code[FxCop.Design.DefaultParameters#1](../code-quality/codesnippet/VisualBasic/ca1026--default-parameters-should-not-be-used_1.vb)]  
   
 ## Related Rules  
  [CA1025: Replace repetitive arguments with params array](../code-quality/ca1025--replace-repetitive-arguments-with-params-array.md)  

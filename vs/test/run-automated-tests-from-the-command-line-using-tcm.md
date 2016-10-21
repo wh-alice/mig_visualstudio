@@ -1,7 +1,7 @@
 ---
-title: "Run automated tests from the command line using tcm | Microsoft Docs"
+title: "Run automated tests from the command line using tcm"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""

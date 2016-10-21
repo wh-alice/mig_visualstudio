@@ -1,7 +1,7 @@
 ---
-title: "How to: Use safe_cast and User-Defined Conversions | Microsoft Docs"
+title: "How to: Use safe_cast and User-Defined Conversions"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

@@ -1,5 +1,5 @@
 ---
-title: "CA1062: Validate arguments of public methods | Microsoft Docs"
+title: "CA1062: Validate arguments of public methods"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -60,12 +60,16 @@ translation.priority.ht:
 ## Example  
  The following example shows a method that violates the rule and a method that satisfies the rule.  
   
- [!CODE [FxCop.Design.ValidateArguments#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Design.ValidateArguments#1)]  
+ [!code[FxCop.Design.ValidateArguments#1](../code-quality/codesnippet/CSharp/ca1062--validate-arguments-of-public-methods_1.cs)]
+[!code[FxCop.Design.ValidateArguments#1](../code-quality/codesnippet/CSharp/ca1062--validate-arguments-of-public-methods_1.cs)]
+[!code[FxCop.Design.ValidateArguments#1](../code-quality/codesnippet/VisualBasic/ca1062--validate-arguments-of-public-methods_1.vb)]  
   
 ## Example  
  In [!INCLUDE[vsprvslong](../code-quality/includes/vsprvslong_md.md)], this rule does not detect that parameters are being passed to another method that does the validation.  
   
- [!CODE [FxCop.Design.ValidateArguments#2](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Design.ValidateArguments#2)]  
+ [!code[FxCop.Design.ValidateArguments#2](../code-quality/codesnippet/CSharp/ca1062--validate-arguments-of-public-methods_2.cs)]
+[!code[FxCop.Design.ValidateArguments#2](../code-quality/codesnippet/CSharp/ca1062--validate-arguments-of-public-methods_2.cs)]
+[!code[FxCop.Design.ValidateArguments#2](../code-quality/codesnippet/VisualBasic/ca1062--validate-arguments-of-public-methods_2.vb)]  
   
 ## Example  
  Copy constructors that populate field or properties that are reference objects can also violate the CA1062 rule. The violation occurs because the copied object that is passed to the copy constructor might be `null` (`Nothing` in Visual Basic). To resolve the violation, use a static (Shared in Visual Basic) method to check that the copied object is not null.  

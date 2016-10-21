@@ -1,5 +1,5 @@
 ---
-title: "Extending Connected Services | Microsoft Docs"
+title: "Extending Connected Services"
 ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"

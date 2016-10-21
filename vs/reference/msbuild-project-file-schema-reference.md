@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Project File Schema Reference | Microsoft Docs"
+title: "MSBuild Project File Schema Reference"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
@@ -36,12 +36,12 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # MSBuild Project File Schema Reference
-Provides a table of all the [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] XML Schema elements with their available attributes and child elements.  
+Provides a table of all the [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] XML Schema elements with their available attributes and child elements.  
   
- [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] uses project files to instruct the build engine what to build and how to build it. [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] project files are XML files that adhere to the [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] XML schema. This section documents the XML schema definition (.xsd) file for [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)].  
+ [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] uses project files to instruct the build engine what to build and how to build it. [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] project files are XML files that adhere to the [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] XML schema. This section documents the XML schema definition (.xsd) file for [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)].  
   
 ## MSBuild XML Schema Elements  
- The following table lists all of the [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] XML schema elements along with their child elements and attributes.  
+ The following table lists all of the [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] XML schema elements along with their child elements and attributes.  
   
 |Element|Child Elements|Attributes|  
 |-------------|--------------------|----------------|  

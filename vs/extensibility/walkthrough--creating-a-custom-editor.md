@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating a Custom Editor | Microsoft Docs"
+title: "Walkthrough: Creating a Custom Editor"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -60,4 +60,4 @@ The VSPackage project template can create a simple custom editor in C++.  The VS
      The editor supports cut-and-paste, find-and-replace, and open-and-load operations.  
   
 ## See Also  
- [VSPackages](../extensibility/vspackages.md)
+ [VSPackages](../extensibility-internals/vspackages.md)

@@ -1,5 +1,5 @@
 ---
-title: "How to: Create Associations Between Types (Class Designer) | Microsoft Docs"
+title: "How to: Create Associations Between Types (Class Designer)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -67,4 +67,4 @@ Association lines in Class Designer show how classes in a diagram are related. A
      The name is updated in the **Class Details** window, on the association line, in the Properties window, and in code.  
   
 ## See Also  
- [How to: Change Between Member Notation and Association Notation (Class Designer)](../ide/how-to--change-between-member-notation-and-association-notation--class-designer-.md)
+ [How to: Change Between Member Notation and Association Notation (Class Designer)](../ide/65881c5a-d251-4a36-ad0d-73d088436092.md)

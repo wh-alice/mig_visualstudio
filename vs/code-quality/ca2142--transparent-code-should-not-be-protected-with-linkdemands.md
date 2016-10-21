@@ -1,5 +1,5 @@
 ---
-title: "CA2142: Transparent code should not be protected with LinkDemands | Microsoft Docs"
+title: "CA2142: Transparent code should not be protected with LinkDemands"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -53,6 +53,6 @@ translation.priority.ht:
 ## Example  
  In the following example, the rule fires on the method because the method is transparent and is marked with a LinkDemand <xref:System.Security.PermissionSet> that contains an <xref:System.Security.Permissions.SecurityAction>.  
   
- [!CODE [FxCop.Security.CA2142.TransparentMethodsShouldNotBeProtectedWithLinkDemands#1](../CodeSnippet/VS_Snippets_CodeAnalysis/fxcop.security.ca2142.transparentmethodsshouldnotbeprotectedwithlinkdemands#1)]  
+ [!code[FxCop.Security.CA2142.TransparentMethodsShouldNotBeProtectedWithLinkDemands#1](../code-quality/codesnippet/CSharp/ca2142--transparent-code-should-not-be-protected-with-linkdemands_1.cs)]  
   
  Do not suppress a warning from this rule.

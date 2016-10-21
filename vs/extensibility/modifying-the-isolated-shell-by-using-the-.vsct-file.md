@@ -1,5 +1,5 @@
 ---
-title: "Modifying the Isolated Shell By Using the .Vsct File | Microsoft Docs"
+title: "Modifying the Isolated Shell By Using the .Vsct File"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -65,7 +65,7 @@ The UI project for a Visual Studio isolated shell project contains a .vsct file 
   
  The AppIDCmdUsed.vsct file includes Visual Studio UI elements based on the symbols defined in the application .vsct file.  
   
- For more information, see [Designing XML Command Table (.Vsct) Files](../extensibility/designing-xml-command-table--.vsct--files.md) and the [VSCT XML Schema Reference](../extensibility/vsct-xml-schema-reference.md).  
+ For more information, see [Designing XML Command Table (.Vsct) Files](../Topic/Designing%20XML%20Command%20Table%20\(.Vsct\)%20Files.md) and the [VSCT XML Schema Reference](../extensibility/vsct-xml-schema-reference.md).  
   
 ## See Also  
  [Visual Studio Isolated Shell](../extensibility/visual-studio-isolated-shell.md)

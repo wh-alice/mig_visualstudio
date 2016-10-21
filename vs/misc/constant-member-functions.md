@@ -1,5 +1,5 @@
 ---
-title: "Constant Member Functions | Microsoft Docs"
+title: "Constant Member Functions"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

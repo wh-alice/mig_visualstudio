@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Error MSB1015 | Microsoft Docs"
+title: "MSBuild Error MSB1015"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -36,8 +36,8 @@ translation.priority.mt:
 # MSBuild Error MSB1015
 **MSBuild does not run on this version of the operating system. It is only supported on Windows 2000, Windows XP, and later versions.**  
   
- [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] is not supported on this version of the operating system.  
+ [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] is not supported on this version of the operating system.  
   
 ### To correct this error  
   
-1.  Install and run [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] on one of the supported versions of the operating system.
+1.  Install and run [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] on one of the supported versions of the operating system.

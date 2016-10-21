@@ -1,7 +1,7 @@
 ---
-title: "Attach to Running Processes with the Visual Studio Debugger | Microsoft Docs"
+title: "Attach to Running Processes with the Visual Studio Debugger"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -30,7 +30,7 @@ helpviewer_keywords:
   - "debugging [Visual Studio], attaching to processes"
   - "debugger, processes"
 ms.assetid: 27900e58-090c-4211-a309-b3e1496d5824
-caps.latest.revision: 51
+caps.latest.revision: 52
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -50,9 +50,9 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Attach to Running Processes with the Visual Studio Debugger
-When you run your app from Visual Studio (the source code is available), use the standard [F5 debugging experience](../debugger/getting-started-with-the-debugger.md) to debug your apps. In scenarios where the standard F5 debugging experience is not supported, you can instead attach the Visual Studio debugger to a process or to an app package. The exact procedure is different for different app types (see the table below).
+When you run your app from Visual Studio, use the standard [F5 debugging experience](../debugger/getting-started-with-the-debugger.md) to debug your apps. In scenarios where the standard F5 debugging experience is not supported, you can instead attach the Visual Studio debugger to a process or to an app package. The exact procedure is different for different app types (see the table below).
 
-Typically, you need to attach to a process when you want to attach the Visual Studio debugger to an app running on a remote device or remote server. However, you may also need to use this feature if you want to debug and don't have access to source code (such as testing scenarios), you want to debug multiple processes simultaneously, the app was not created in Visual Studio, or the debugger fails to attach using F5.
+Typically, you need to attach to a process when you want to attach the Visual Studio debugger to an app running on a remote device or remote server. However, you may also need to use this feature if you want to debug and don't have access to source code (some testing scenarios), you want to debug multiple processes simultaneously, the app was not created in Visual Studio, or the debugger fails to attach using F5.
 
 A few of the most common debugging scenarios are shown here. Where more instructions are available, we provide links.
 
@@ -60,7 +60,7 @@ A few of the most common debugging scenarios are shown here. Where more instruct
 |-|-|-|-|
 |Debug any supported app type on the local machine from Visual Studio|Standard F5 debugging|N/A|See [Getting started with the debugger](../debugger/getting-started-with-the-debugger.md)|
 |Remote debug ASP.NET 4 or 4.5 on an IIS server|Use remote tools and attach to process|w3wp.exe|See [Remote Debugging ASP.NET on a remote IIS computer](../debugger/remote-debugging-asp.net-on-a-remote-iis-7.5-computer.md)|
-|Remote debug ASP.NET Core on an IIS server|Use remote tools and attach to process|dnx.exe|For deployment, see [Publish to IIS](https://docs.asp.net/en/latest/publishing/iis.html). For debugging, see [Remote Debugging ASP.NET on a remote IIS computer](../debugger/remote-debugging-asp.net-on-a-remote-iis-7.5-computer.md)|
+|Remote debug ASP.NET Core on an IIS server|Use remote tools and attach to process|dnx.exe|For app deployment, see [Publish to IIS](https://docs.asp.net/en/latest/publishing/iis.html). For debugging, see [Remote Debugging ASP.NET on a remote IIS computer](../debugger/remote-debugging-asp.net-on-a-remote-iis-7.5-computer.md)|
 |Remote debug other supported app types on a remote server|Use remote tools and attach to process|various|See [Remote Debugging](../debugger/remote-debugging.md) and later sections in this topic|
 |Remote debug a Windows desktop app|Remote Tools and F5|N/A| See [Remote Debugging](../debugger/remote-debugging.md)|
 |Remote debug a Windows Universal (UWP) app|Debug installed app package|N/A|Use **Debug / Other Debug Targets / Debug Installed App Package** instead of **Attach to process**|
@@ -74,13 +74,13 @@ Not included in this list are other scenarios such as where you need to debug an
 > [!NOTE]
 >  For the debugger to attach to code written in C++, the code needs to emit `DebuggableAttribute`. You can add this to your code automatically by linking with the [/ASSEMBLYDEBUG](../Topic/-ASSEMBLYDEBUG%20\(Add%20DebuggableAttribute\).md) linker option.
 
-## What kind of debugging can I do?
+## What debugger features can I use?
 
-If the debugger can load the correct [symbol (.pbd) files](../debugger/specify-symbol--.pdb--and-source-files-in-the-visual-studio-debugger.md), you can use all the [standard debugger features](../debugger/getting-started-with-the-debugger.md) such as hitting breakpoints and using the Watch window. You can debug in Visual Studio with no access to the source if the correct symbol files are present with the app (by default, this requires a debug build). For more info, see [Specify Symbol and Source Files](../debugger/specify-symbol--.pdb--and-source-files-in-the-visual-studio-debugger.md)
+To use the full features of the Visual Studio debugger (like hitting breakpoints), the executable running on the remote machine must exactly match your local source and symbols (that is, the debugger can load the correct [symbol (.pbd) files](../debugger/specify-symbol--.pdb--and-source-files-in-the-visual-studio-debugger.md)). This will be the case if the compiled app binaries came from the same build. If you use **Attach to Process**, you must have a copy of the source code open in Visual Studio. (If you use remote tools and F5, or **Debug Installed App Package**, the correct source will already be open in Visual Studio.)
 
-For remote debugging, you also need to have a copy of the source code open in Visual Studio (again, the symbol files must match the binary exactly).
+In some scenarios, you can debug in Visual Studio with no access to the source if the correct symbol files are present with the app (by default, this requires a debug build). For more info, see [Specify Symbol and Source Files](../debugger/specify-symbol--.pdb--and-source-files-in-the-visual-studio-debugger.md).
 
-For Windows desktop apps, you can also debug the running app using the JIT debugger (Visual Studio opens and you break into app code after an error occurs). This also requires the correct symbol files.
+For Windows desktop apps, you can also debug the running app using the JIT debugger (Visual Studio opens and you break into app code after an error occurs).
 
 ##  <a name="BKMK_Attach_to_a_process_on_a_remote_computer"></a> Attach to a process on a remote computer  
  In order to attach to a process, you must know the name of the process. For ASP.NET apps that have been deployed to IIS, see [Remote Debugging ASP.NET on a remote IIS computer](../debugger/remote-debugging-asp.net-on-a-remote-iis-7.5-computer.md) or [Publish to IIS](https://docs.asp.net/en/latest/publishing/iis.html) for ASP.NET Core apps. For other apps, you may be able to find the name of the process in the Task Manager.

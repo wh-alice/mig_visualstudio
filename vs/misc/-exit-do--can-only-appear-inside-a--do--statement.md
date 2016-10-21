@@ -1,5 +1,5 @@
 ---
-title: "&#39;Exit Do&#39; can only appear inside a &#39;Do&#39; statement | Microsoft Docs"
+title: "&#39;Exit Do&#39; can only appear inside a &#39;Do&#39; statement"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating a WPF Toolbox Control | Microsoft Docs"
+title: "Walkthrough: Creating a WPF Toolbox Control"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -76,7 +76,7 @@ The WPF Toolbox Control template that is included in the Visual Studio SDK lets 
   
 5.  Edit the markup for the button and the two labels to resemble the following example.  
   
-     [!CODE [ToolboxControlWPF#11](../CodeSnippet/VS_Snippets_VSSDK/toolboxcontrolwpf#11)]  
+     [!code[ToolboxControlWPF#11](../misc/codesnippet/Xaml/walkthrough--creating-a-wpf-toolbox-control_1.xaml)]  
   
      The `Grid.Row` and `Grid.Column` attributes set the position of the elements on the grid. The `Grid.ColumnSpan` attribute on the button enables the first column to be resized independently of the width of the button.  
   
@@ -97,7 +97,7 @@ The WPF Toolbox Control template that is included in the Visual Studio SDK lets 
   
 3.  After the generated class, create a public class to define the data context.  
   
-     [!CODE [ToolboxControlWPF#01](../CodeSnippet/VS_Snippets_VSSDK/toolboxcontrolwpf#01)]  
+     [!code[ToolboxControlWPF#01](../misc/codesnippet/CSharp/walkthrough--creating-a-wpf-toolbox-control_2.cs)]  
   
      This class implements the <xref:System.ComponentModel.INotifyPropertyChanged> interface, which enables the XAML elements to bind to defined properties.  
   
@@ -107,11 +107,11 @@ The WPF Toolbox Control template that is included in the Visual Studio SDK lets 
   
 5.  After the event declaration, create the following private method to raise the event.  
   
-     [!CODE [ToolboxControlWPF#02](../CodeSnippet/VS_Snippets_VSSDK/toolboxcontrolwpf#02)]  
+     [!code[ToolboxControlWPF#02](../misc/codesnippet/CSharp/walkthrough--creating-a-wpf-toolbox-control_3.cs)]  
   
 6.  Create the following private fields and public properties to hold the values of the two labels in the control.  
   
-     [!CODE [ToolboxControlWPF#03](../CodeSnippet/VS_Snippets_VSSDK/toolboxcontrolwpf#03)]  
+     [!code[ToolboxControlWPF#03](../misc/codesnippet/CSharp/walkthrough--creating-a-wpf-toolbox-control_4.cs)]  
   
      Raising the `PropertyChanged` event causes the XAML binding to update the content of the bound controls. Setting the properties as `public` makes them available to the designer, but not to other programs unless they bind to this data context.  
   
@@ -125,29 +125,29 @@ The WPF Toolbox Control template that is included in the Visual Studio SDK lets 
   
      The following example shows the `ProvideToolboxControl` attribute and the adjusted class definition.  
   
-     [!CODE [ToolboxControlWPF#04](../CodeSnippet/VS_Snippets_VSSDK/toolboxcontrolwpf#04)]  
+     [!code[ToolboxControlWPF#04](../misc/codesnippet/CSharp/walkthrough--creating-a-wpf-toolbox-control_5.cs)]  
   
 3.  Create a private field to hold the data context for the control, and then in the constructor, assign the data context to the `MyDataModel` class, as shown in the following example.  
   
-     [!CODE [ToolboxControlWPF#05](../CodeSnippet/VS_Snippets_VSSDK/toolboxcontrolwpf#05)]  
+     [!code[ToolboxControlWPF#05](../misc/codesnippet/CSharp/walkthrough--creating-a-wpf-toolbox-control_6.cs)]  
   
 4.  Create the following public properties to mirror the `Text` and `Count` properties from the data context.  
   
-     [!CODE [ToolboxControlWPF#06](../CodeSnippet/VS_Snippets_VSSDK/toolboxcontrolwpf#06)]  
+     [!code[ToolboxControlWPF#06](../misc/codesnippet/CSharp/walkthrough--creating-a-wpf-toolbox-control_7.cs)]  
   
      These properties make the content from the data context available to any application that includes the control.  
   
 5.  Create the following public method to increment the counter, and an event to notify the hosting application.  
   
-     [!CODE [ToolboxControlWPF#07](../CodeSnippet/VS_Snippets_VSSDK/toolboxcontrolwpf#07)]  
+     [!code[ToolboxControlWPF#07](../misc/codesnippet/CSharp/walkthrough--creating-a-wpf-toolbox-control_8.cs)]  
   
 6.  Implement the click handler for the `Reset` button as follows.  
   
-     [!CODE [ToolboxControlWPF#08](../CodeSnippet/VS_Snippets_VSSDK/toolboxcontrolwpf#08)]  
+     [!code[ToolboxControlWPF#08](../misc/codesnippet/CSharp/walkthrough--creating-a-wpf-toolbox-control_9.cs)]  
   
 7.  Add the following public property to show or hide the `Reset` button.  
   
-     [!CODE [ToolboxControlWPF#09](../CodeSnippet/VS_Snippets_VSSDK/toolboxcontrolwpf#09)]  
+     [!code[ToolboxControlWPF#09](../misc/codesnippet/CSharp/walkthrough--creating-a-wpf-toolbox-control_10.cs)]  
   
 ## Testing the Control  
  To test a **Toolbox** control, first test it in the development environment and then test it in a hosting application.  
@@ -178,13 +178,13 @@ The WPF Toolbox Control template that is included in the Visual Studio SDK lets 
   
 8.  Implement the click handler to call the `Increment` method of the control.  
   
-     [!CODE [ToolboxControlWPF#21](../CodeSnippet/VS_Snippets_VSSDK/toolboxcontrolwpf#21)]  
+     [!code[ToolboxControlWPF#21](../misc/codesnippet/CSharp/walkthrough--creating-a-wpf-toolbox-control_11.cs)]  
   
 9. In the constructor function, after the call to `InitializeComponent`, type `counter1.Implemented +=`, and then press the TAB key twice to generate a handler for the `Counter.Incremented` event.  
   
 10. Implement the new handler as shown in the following example.  
   
-     [!CODE [ToolboxControlWPF#22](../CodeSnippet/VS_Snippets_VSSDK/toolboxcontrolwpf#22)]  
+     [!code[ToolboxControlWPF#22](../misc/codesnippet/CSharp/walkthrough--creating-a-wpf-toolbox-control_12.cs)]  
   
 11. Press F5.  
   

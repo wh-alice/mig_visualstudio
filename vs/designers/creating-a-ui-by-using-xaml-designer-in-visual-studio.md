@@ -1,5 +1,5 @@
 ---
-title: "Creating a UI by using XAML Designer in Visual Studio | Microsoft Docs"
+title: "Creating a UI by using XAML Designer in Visual Studio"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

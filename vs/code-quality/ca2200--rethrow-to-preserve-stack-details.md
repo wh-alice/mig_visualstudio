@@ -1,5 +1,5 @@
 ---
-title: "CA2200: Rethrow to preserve stack details | Microsoft Docs"
+title: "CA2200: Rethrow to preserve stack details"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -57,4 +57,5 @@ translation.priority.ht:
 ## Example  
  The following example shows a method, `CatchAndRethrowExplicitly`, which violates the rule and a method, `CatchAndRethrowImplicitly`, which satisfies the rule.  
   
- [!CODE [FxCop.Usage.Rethrow#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Usage.Rethrow#1)]
+ [!code[FxCop.Usage.Rethrow#1](../code-quality/codesnippet/CSharp/ca2200--rethrow-to-preserve-stack-details_1.cs)]
+[!code[FxCop.Usage.Rethrow#1](../code-quality/codesnippet/VisualBasic/ca2200--rethrow-to-preserve-stack-details_1.vb)]

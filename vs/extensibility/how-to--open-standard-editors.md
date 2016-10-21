@@ -1,5 +1,5 @@
 ---
-title: "How to: Open Standard Editors | Microsoft Docs"
+title: "How to: Open Standard Editors"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -64,7 +64,7 @@ When you open a standard editor, you let the IDE determine a standard editor for
   
 ## See Also  
  <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider>   
- [Opening and Saving Project Items](../extensibility/opening-and-saving-project-items.md)   
+ [Opening and Saving Project Items](../extensibility-internals/opening-and-saving-project-items.md)   
  [How to: Open Project-Specific Editors](../extensibility/how-to--open-project-specific-editors.md)   
  [How to: Open Editors for Open Documents](../extensibility/how-to--open-editors-for-open-documents.md)   
- [Displaying Files By Using the Open File Command](../extensibility/displaying-files-by-using-the-open-file-command.md)
+ [Displaying Files By Using the Open File Command](../extensibility-internals/displaying-files-by-using-the-open-file-command.md)

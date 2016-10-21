@@ -1,7 +1,7 @@
 ---
-title: "Modifying Visual Studio &quot;15&quot; Preview 5 | Microsoft Docs"
+title: "Modifying Visual Studio &quot;15&quot; Preview 5"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

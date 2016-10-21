@@ -1,5 +1,5 @@
 ---
-title: "Property Element (MSBuild) | Microsoft Docs"
+title: "Property Element (MSBuild)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -37,7 +37,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Property Element (MSBuild)
-Contains a user defined property name and value. Every property used in an [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] project must be specified as a child of a `PropertyGroup` element.  
+Contains a user defined property name and value. Every property used in an [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] project must be specified as a child of a `PropertyGroup` element.  
   
  \<Project>  
  \<PropertyGroup>  

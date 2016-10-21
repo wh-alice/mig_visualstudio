@@ -1,5 +1,5 @@
 ---
-title: "ToolTaskExtension Base Class | Microsoft Docs"
+title: "ToolTaskExtension Base Class"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -56,7 +56,7 @@ Many tasks inherit from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class
 |<xref:Microsoft.Build.Utilities.ToolTask.StandardOutputImportance*>|Optional `String` parameter.<br /><br /> Importance with which to log text from the standard out stream.|  
 |<xref:Microsoft.Build.Utilities.ToolTask.Timeout*>|Virtual optional `Int32` parameter.<br /><br /> Specifies the amount of time, in milliseconds, after which the task executable is terminated. The default value is `Int.MaxValue`, indicating that there is no time out period.Time-out is in milliseconds.|  
 |<xref:Microsoft.Build.Utilities.ToolTask.ToolExe*>|Virtual optional `string` parameter.<br /><br /> Projects may implement this to override a ToolName. Tasks may override this to preserve the ToolName.|  
-|<xref:Microsoft.Build.Utilities.ToolTask.ToolPath*>|Optional `string` parameter.<br /><br /> Specifies the location from where the task loads the underlying executable file. If this parameter is not specified, the task uses the SDK installation path that corresponds to the version of the framework that is running [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)].|  
+|<xref:Microsoft.Build.Utilities.ToolTask.ToolPath*>|Optional `string` parameter.<br /><br /> Specifies the location from where the task loads the underlying executable file. If this parameter is not specified, the task uses the SDK installation path that corresponds to the version of the framework that is running [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)].|  
 |<xref:Microsoft.Build.Utilities.ToolTask.UseCommandProcessor*>|Optional `bool` parameter.<br /><br /> When set to `true`, this task creates a batch file for the command line and executes it by using the command-processor instead of executing the command directly.|  
 |<xref:Microsoft.Build.Utilities.ToolTask.YieldDuringToolExecution*>|Optional `bool` parameter.<br /><br /> When set to `true`, this task yields the node when its task is executing.|  
   

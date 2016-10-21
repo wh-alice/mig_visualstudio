@@ -1,5 +1,5 @@
 ---
-title: "How to: Add a Command to the Shortcut Menu | Microsoft Docs"
+title: "How to: Add a Command to the Shortcut Menu"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -51,7 +51,7 @@ You can add menu commands to your domain-specific language (DSL) so that your us
   
  The file that you edit, Commands.vsct, imports definitions from several .h files, which are located in the directory *Visual Studio SDK install path*\VisualStudioIntegration\Common\Inc. It also includes GeneratedVsct.vsct, which is generated from your DSL definition.  
   
- For more information about .vsct files, see [Visual Studio Command Table (.Vsct) Files](../extensibility/visual-studio-command-table--.vsct--files.md).  
+ For more information about .vsct files, see [Visual Studio Command Table (.Vsct) Files](../Topic/Visual%20Studio%20Command%20Table%20\(.Vsct\)%20Files.md).  
   
 #### To add the command  
   

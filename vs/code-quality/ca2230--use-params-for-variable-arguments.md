@@ -1,5 +1,5 @@
 ---
-title: "CA2230: Use params for variable arguments | Microsoft Docs"
+title: "CA2230: Use params for variable arguments"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -59,7 +59,7 @@ translation.priority.ht:
 ## Example  
  The following example shows two methods, one that violates the rule and one that satisfies the rule.  
   
- [!CODE [FxCop.Usage.UseParams#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Usage.UseParams#1)]  
+ [!code[FxCop.Usage.UseParams#1](../code-quality/codesnippet/CSharp/ca2230--use-params-for-variable-arguments_1.cs)]  
   
 ## See Also  
  <xref:System.Reflection.CallingConventions?displayProperty=fullName>   

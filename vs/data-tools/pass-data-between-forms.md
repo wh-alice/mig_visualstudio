@@ -1,5 +1,5 @@
 ---
-title: "Pass data between forms | Microsoft Docs"
+title: "Pass data between forms"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
@@ -169,7 +169,8 @@ This walkthrough provides step-by-step instructions for passing data from one fo
   
 2.  Add the following code to **Form2** after the `Form2_Load` method:  
   
-     [!CODE [VbRaddataDisplaying#1](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataDisplaying#1)]  
+     [!code[VbRaddataDisplaying#1](../data-tools/codesnippet/VisualBasic/pass-data-between-forms_1.vb)]
+[!code[VbRaddataDisplaying#1](../data-tools/codesnippet/CSharp/pass-data-between-forms_1.cs)]  
   
 ## Create a method on Form1 to pass data and display Form2  
   
@@ -185,7 +186,8 @@ This walkthrough provides step-by-step instructions for passing data from one fo
   
 4.  Update the method definition to match the following sample:  
   
-     [!CODE [VbRaddataDisplaying#2](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataDisplaying#2)]  
+     [!code[VbRaddataDisplaying#2](../data-tools/codesnippet/CSharp/pass-data-between-forms_2.cs)]
+[!code[VbRaddataDisplaying#2](../data-tools/codesnippet/VisualBasic/pass-data-between-forms_2.vb)]  
   
 ## Run the Application  
   

@@ -1,5 +1,5 @@
 ---
-title: "CA2108: Review declarative security on value types | Microsoft Docs"
+title: "CA2108: Review declarative security on value types"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -57,12 +57,12 @@ translation.priority.ht:
 ## Example  
  The following example shows a library containing a value type that violates this rule. Note that the `StructureManager` type assumes that a caller that passes an instance of the value type has permission to create or access the instance.  
   
- [!CODE [FxCop.Security.DemandOnValueType#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Security.DemandOnValueType#1)]  
+ [!code[FxCop.Security.DemandOnValueType#1](../code-quality/codesnippet/CSharp/ca2108--review-declarative-security-on-value-types_1.cs)]  
   
 ## Example  
  The following application demonstrates the library's weakness.  
   
- [!CODE [FxCop.Security.TestDemandOnValueType#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Security.TestDemandOnValueType#1)]  
+ [!code[FxCop.Security.TestDemandOnValueType#1](../code-quality/codesnippet/CSharp/ca2108--review-declarative-security-on-value-types_2.cs)]  
   
  This example produces the following output.  
   

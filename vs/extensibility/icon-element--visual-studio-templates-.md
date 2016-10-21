@@ -1,5 +1,5 @@
 ---
-title: "Icon Element (Visual Studio Templates) | Microsoft Docs"
+title: "Icon Element (Visual Studio Templates)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

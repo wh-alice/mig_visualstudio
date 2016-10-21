@@ -1,5 +1,5 @@
 ---
-title: "Collecting Detailed Timing Data for Services by Using the Instrumentation Method from the Profiler Command Line | Microsoft Docs"
+title: "Collecting Detailed Timing Data for Services by Using the Instrumentation Method from the Profiler Command Line"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -45,15 +45,15 @@ This section describes the procedures and options for collecting detailed perfor
   
 |Task|Related Content|  
 |----------|---------------------|  
-|**Profile by using the sampling method**|-   [Collecting Application Statistics Using Sampling](../profiling/collecting-application-statistics-for-services-by-using-the-profiler-sampling-method.md)|  
-|**Profile.NET memory allocation and garbage collection**|-   [Collecting .NET Memory Data](../profiling/collecting-memory-data-from-.net-framework-services-by-using-the-profiler-command-line.md)|  
+|**Profile by using the sampling method**|-   [Collecting Application Statistics Using Sampling](../profiling/07840ab2-3a92-4744-ac87-48b19e0ceecd.md)|  
+|**Profile.NET memory allocation and garbage collection**|-   [Collecting .NET Memory Data](../profiling/b1361333-8a09-4a65-87a9-4ac94ceb2d9f.md)|  
 |**Profile resource contention and thread activity**|-   [Collecting Concurrency Data](../profiling/collecting-concurrency-data-for-a-service-by-using-the-profiler-command-line.md)|  
   
 ### Profiling by Using the Instrumentation Method  
   
 |Task|Related Content|  
 |----------|---------------------|  
-|**Profile stand-alone (client) applications**|-   [Collecting Detailed Timing Data Using Instrumentation](../profiling/collecting-detailed-timing-data-for-a-stand-alone-application-by-using-the-profiler-command-line.md)|  
+|**Profile stand-alone (client) applications**|-   [Collecting Detailed Timing Data Using Instrumentation](../profiling/4017d9d1-d609-4f41-8e4e-976abae746b3.md)|  
 |**Profile ASP.NET Web applications**|-   [Collecting Detailed Timing Data Using Instrumentation](../profiling/29f2fc55-aaf7-4e18-a672-8815455fba73.md)|  
   
 ### Analyzing Instrumentation Data Views and Reports  

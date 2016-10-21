@@ -1,7 +1,7 @@
 ---
-title: "Installing Visual Studio Versions Side-by-Side | Microsoft Docs"
+title: "Installing Visual Studio Versions Side-by-Side"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -62,7 +62,7 @@ You can install this version of Visual Studio on a computer that already has an 
     |Visual C#|[Application Page, Project Designer (C#)](../reference/application-page--project-designer--csharp-.md)|  
     |Visual F#|[Configuring Projects](../Topic/Configuring%20Projects%20\(F%23\).md)|  
     |C++|[How to: Modify the Target Framework and Platform Toolset](../Topic/How%20to:%20Modify%20the%20Target%20Framework%20and%20Platform%20Toolset.md)|  
-    |[!INCLUDE[jsprjscript](../debugger/includes/jsprjscript_md.md)]|[Running a JScript Application on a Previous Version of the Common Language Runtime](http://msdn.microsoft.com/en-us/bbea51b5-ac03-4e6c-b9a6-f487ef63eda5)|  
+    |[!INCLUDE[jsprjscript](../debug-interface-access/includes/jsprjscript_md.md)]|[Running a JScript Application on a Previous Version of the Common Language Runtime](http://msdn.microsoft.com/en-us/bbea51b5-ac03-4e6c-b9a6-f487ef63eda5)|  
   
 ## See Also  
  [Installing Visual Studio 2015](../install/installing-visual-studio-2015.md)   

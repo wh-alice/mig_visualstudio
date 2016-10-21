@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Conditions | Microsoft Docs"
+title: "MSBuild Conditions"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
@@ -37,7 +37,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # MSBuild Conditions
-[!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] supports a specific set of conditions that can be applied wherever a `Condition` attribute is allowed. The following table explains those conditions.  
+[!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] supports a specific set of conditions that can be applied wherever a `Condition` attribute is allowed. The following table explains those conditions.  
   
 |Condition|Description|  
 |---------------|-----------------|  

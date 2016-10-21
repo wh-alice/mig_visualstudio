@@ -1,5 +1,5 @@
 ---
-title: "CA2140: Transparent code must not reference security critical items | Microsoft Docs"
+title: "CA2140: Transparent code must not reference security critical items"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -81,7 +81,7 @@ translation.priority.ht:
 ## Example  
  In the following examples, a transparent method attempts to reference a security critical generic collection, a security critical field, and a security critical method.  
   
- [!CODE [FxCop.Security.CA2140.TransparentMethodsMustNotReferenceCriticalCode#1](../CodeSnippet/VS_Snippets_CodeAnalysis/fxcop.security.ca2140.transparentmethodsmustnotreferencecriticalcode#1)]  
+ [!code[FxCop.Security.CA2140.TransparentMethodsMustNotReferenceCriticalCode#1](../code-quality/codesnippet/CSharp/ca2140--transparent-code-must-not-reference-security-critical-items_1.cs)]  
   
 ## See Also  
  <xref:System.Security.SecurityTransparentAttribute>   

@@ -1,5 +1,5 @@
 ---
-title: "How to: View Data and Diagnostic Attachments Using the Load Test Analyzer | Microsoft Docs"
+title: "How to: View Data and Diagnostic Attachments Using the Load Test Analyzer"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -29,7 +29,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: View Data and Diagnostic Attachments Using the Load Test Analyzer
-Before you run a load test, you can select a test setting that specifies the diagnostic and data adapters that you want to use. After the load test is finished, you use the Load Test Analyzer to view the details for those diagnostic and data adapters while you analyze the results. See [Distributing Load Test Runs Across Multiple Test Machines Using Test Controllers and Test Agents](../test/distributing-load-test-runs-across-multiple-test-machines-using-test-controllers-and-test-agents.md).  
+Before you run a load test, you can select a test setting that specifies the diagnostic and data adapters that you want to use. After the load test is finished, you use the Load Test Analyzer to view the details for those diagnostic and data adapters while you analyze the results. See [Distributing Load Test Runs Across Multiple Test Machines Using Test Controllers and Test Agents](../test/6e67a587-8aad-48cc-a8c0-6d4b399f3731.md).  
   
  **Requirements**  
   

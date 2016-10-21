@@ -1,5 +1,5 @@
 ---
-title: "Analyzing Threshold Rule Violations in Load Tests Using the Load Test Analyzer | Microsoft Docs"
+title: "Analyzing Threshold Rule Violations in Load Tests Using the Load Test Analyzer"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -56,7 +56,7 @@ Threshold rules are associated with specific performance counters, and violation
 |Column|Description|Visible By Default|  
 |------------|-----------------|------------------------|  
 |Time|The time during the load test at which the violation occurred.|Yes|  
-|Computer|The name of the computer under test on which the violation occurred. **Note:**  This is important when you run load tests on rigs. For more information, see [Distributing Load Test Runs Across Multiple Test Machines Using Test Controllers and Test Agents](../test/distributing-load-test-runs-across-multiple-test-machines-using-test-controllers-and-test-agents.md).|Yes|  
+|Computer|The name of the computer under test on which the violation occurred. **Note:**  This is important when you run load tests on rigs. For more information, see [Distributing Load Test Runs Across Multiple Test Machines Using Test Controllers and Test Agents](../test/6e67a587-8aad-48cc-a8c0-6d4b399f3731.md).|Yes|  
 |Category|The category of the performance counter on which the violation occurred.|Yes|  
 |Counter|The name of the performance counter on which the violation occurred.|Yes|  
 |Instance|The performance counter instance on which the violation occurred.|Yes|  
@@ -65,7 +65,7 @@ Threshold rules are associated with specific performance counters, and violation
 > [!NOTE]
 >  You can sort the table by choosing the column headers.  
   
- For more information, see [Analyzing Load Test Results and Errors in the Tables View](../test/analyzing-load-test-results-and-errors-in-the-tables-view-of-the-load-test-analyzer.md).  
+ For more information, see [Analyzing Load Test Results and Errors in the Tables View](../test/0a84bda3-6051-45eb-9c7f-d57419e1f97d.md).  
   
 ##  <a name="CountersPanel"></a> Viewing Threshold Violations in the Counters Panel  
  You can view threshold violations in the **Counters** panel, in the tree that lists the performance counters for your load test. Icons in the **Counters** panel communicate threshold violations. The icon will be one of the following:  
@@ -96,4 +96,4 @@ Threshold rules are associated with specific performance counters, and violation
 ## See Also  
  [Specifying the Counter Sets and Threshold Rules for Computers in a Load Test](../test/specifying-the-counter-sets-and-threshold-rules-for-computers-in-a-load-test.md)   
  [Analyzing Load Test Results](../test/analyzing-load-test-results-using-the-load-test-analyzer.md)   
- [Analyzing Load Test Results and Errors in the Tables View](../test/analyzing-load-test-results-and-errors-in-the-tables-view-of-the-load-test-analyzer.md)
+ [Analyzing Load Test Results and Errors in the Tables View](../test/0a84bda3-6051-45eb-9c7f-d57419e1f97d.md)

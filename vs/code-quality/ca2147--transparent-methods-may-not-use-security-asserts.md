@@ -1,5 +1,5 @@
 ---
-title: "CA2147: Transparent methods may not use security asserts | Microsoft Docs"
+title: "CA2147: Transparent methods may not use security asserts"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -64,12 +64,12 @@ translation.priority.ht:
 ## Example  
  This code will fail if `SecurityTestClass` is transparent, when the `Assert` method throws a <xref:System.InvalidOperationException>.  
   
- [!CODE [FxCop.Security.CA2147.TransparentMethodsMustNotUseSecurityAsserts#1](../CodeSnippet/VS_Snippets_CodeAnalysis/fxcop.security.ca2147.transparentmethodsmustnotusesecurityasserts#1)]  
+ [!code[FxCop.Security.CA2147.TransparentMethodsMustNotUseSecurityAsserts#1](../code-quality/codesnippet/CSharp/ca2147--transparent-methods-may-not-use-security-asserts_1.cs)]  
   
 ## Example  
  One option is to code review the SecurityTransparentMethod method in the example below, and if the method is considered safe for elevation, mark SecurityTransparentMethod with secure-critical This requires that a detailed, complete, and error-free security audit must be performed on the method together with any call-outs that occur within the method under the Assert:  
   
- [!CODE [FxCop.Security.SecurityTransparentCode2#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Security.SecurityTransparentCode2#1)]  
+ [!code[FxCop.Security.SecurityTransparentCode2#1](../code-quality/codesnippet/CSharp/ca2147--transparent-methods-may-not-use-security-asserts_2.cs)]  
   
  Another option is to remove the Assert from the code, and let any subsequent file I/O permission demands flow beyond SecurityTransparentMethod to the caller. This enables security checks. In this case, no security audit is generally needed, because the permission demands will flow to the caller and/or the application domain. Permission demands are closely controlled through security policy, hosting environment, and code-source permission grants.  
   

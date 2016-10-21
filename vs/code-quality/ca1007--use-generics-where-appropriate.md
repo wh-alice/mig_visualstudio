@@ -1,5 +1,5 @@
 ---
-title: "CA1007: Use generics where appropriate | Microsoft Docs"
+title: "CA1007: Use generics where appropriate"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -57,7 +57,8 @@ translation.priority.ht:
 ## Example  
  The following example shows a general-purpose swap routine that is implemented as both nongeneric and generic methods. Note how efficiently the strings are swapped by using the generic method compared to the nongeneric method.  
   
- [!CODE [FxCop.Design.UseGenerics#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Design.UseGenerics#1)]  
+ [!code[FxCop.Design.UseGenerics#1](../code-quality/codesnippet/VisualBasic/ca1007--use-generics-where-appropriate_1.vb)]
+[!code[FxCop.Design.UseGenerics#1](../code-quality/codesnippet/CSharp/ca1007--use-generics-where-appropriate_1.cs)]  
   
 ## Related Rules  
  [CA1005: Avoid excessive parameters on generic types](../code-quality/ca1005--avoid-excessive-parameters-on-generic-types.md)  

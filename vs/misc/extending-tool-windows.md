@@ -1,5 +1,5 @@
 ---
-title: "Extending Tool Windows | Microsoft Docs"
+title: "Extending Tool Windows"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -55,5 +55,5 @@ Visual Studio tool windows are, in general, read-only windows that are not file-
   
 ## See Also  
  [Tool Windows](../misc/extending-tool-windows.md)   
- [Document Windows](../extensibility/document-windows.md)   
+ [Document Windows](../extensibility-internals/document-windows.md)   
  [Adding Search to a Tool Window](../extensibility/adding-search-to-a-tool-window.md)

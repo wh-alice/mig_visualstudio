@@ -1,5 +1,5 @@
 ---
-title: "&#39;MyClass&#39; cannot be used outside of a class | Microsoft Docs"
+title: "&#39;MyClass&#39; cannot be used outside of a class"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

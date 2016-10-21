@@ -1,5 +1,5 @@
 ---
-title: "User Accounts and Updates | Microsoft Docs"
+title: "User Accounts and Updates"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,12 +1,12 @@
 ---
-title: "Source file &lt;filename&gt; specified multiple times | Microsoft Docs"
+title: "Source file &lt;filename&gt; specified multiple times"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC2002"
 ms.assetid: 0e3ab493-bf7e-42bd-870a-d10846ce79ad
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

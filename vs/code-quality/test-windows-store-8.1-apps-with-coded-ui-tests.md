@@ -1,5 +1,5 @@
 ---
-title: "Test Windows Store 8.1 Apps with Coded UI Tests | Microsoft Docs"
+title: "Test Windows Store 8.1 Apps with Coded UI Tests"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Navigate and update layer models in program code | Microsoft Docs"
+title: "Navigate and update layer models in program code"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

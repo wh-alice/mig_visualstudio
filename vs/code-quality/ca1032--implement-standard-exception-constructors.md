@@ -1,5 +1,5 @@
 ---
-title: "CA1032: Implement standard exception constructors | Microsoft Docs"
+title: "CA1032: Implement standard exception constructors"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -68,4 +68,4 @@ translation.priority.mt:
 ## Example  
  The following example contains an exception type that violates this rule and an exception type that is correctly implemented.  
   
- [!CODE [FxCop.Design.ExceptionMultipleCtors#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Design.ExceptionMultipleCtors#1)]
+ [!code[FxCop.Design.ExceptionMultipleCtors#1](../code-quality/codesnippet/CSharp/ca1032--implement-standard-exception-constructors_1.cs)]

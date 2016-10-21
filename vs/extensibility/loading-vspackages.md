@@ -1,5 +1,5 @@
 ---
-title: "Loading VSPackages | Microsoft Docs"
+title: "Loading VSPackages"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -139,4 +139,4 @@ public override void Unregister(RegistrationContext context)
 ```  
   
 ## See Also  
- [VSPackages](../extensibility/vspackages.md)
+ [VSPackages](../extensibility-internals/vspackages.md)

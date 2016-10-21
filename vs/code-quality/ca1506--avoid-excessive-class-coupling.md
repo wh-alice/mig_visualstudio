@@ -1,5 +1,5 @@
 ---
-title: "CA1506: Avoid excessive class coupling | Microsoft Docs"
+title: "CA1506: Avoid excessive class coupling"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

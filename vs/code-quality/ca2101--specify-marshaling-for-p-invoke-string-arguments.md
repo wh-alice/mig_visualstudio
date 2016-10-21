@@ -1,5 +1,5 @@
 ---
-title: "CA2101: Specify marshaling for P-Invoke string arguments | Microsoft Docs"
+title: "CA2101: Specify marshaling for P-Invoke string arguments"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -60,4 +60,4 @@ translation.priority.mt:
 ## Example  
  The following example shows a method that violates this rule, and then shows how to fix the violation.  
   
- [!CODE [FxCop.Security.PinvokeAnsiUnicode#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Security.PinvokeAnsiUnicode#1)]
+ [!code[FxCop.Security.PinvokeAnsiUnicode#1](../code-quality/codesnippet/CSharp/ca2101--specify-marshaling-for-p-invoke-string-arguments_1.cs)]

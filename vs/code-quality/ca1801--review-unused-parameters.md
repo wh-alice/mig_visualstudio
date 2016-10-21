@@ -1,5 +1,5 @@
 ---
-title: "CA1801: Review unused parameters | Microsoft Docs"
+title: "CA1801: Review unused parameters"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -72,7 +72,7 @@ translation.priority.ht:
 ## Example  
  The following example shows two methods. One method violates the rule and the other method satisfies the rule.  
   
- [!CODE [FxCop.Usage.ReviewUnusedParameters#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Usage.ReviewUnusedParameters#1)]  
+ [!code[FxCop.Usage.ReviewUnusedParameters#1](../code-quality/codesnippet/CSharp/ca1801--review-unused-parameters_1.cs)]  
   
 ## Related Rules  
  [CA1811: Avoid uncalled private code](../code-quality/ca1811--avoid-uncalled-private-code.md)  

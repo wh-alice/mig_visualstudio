@@ -1,7 +1,7 @@
 ---
-title: "Creating an Options Page | Microsoft Docs"
+title: "Creating an Options Page"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -275,4 +275,4 @@ This walkthrough creates a simple Tools/Options page that uses a property grid t
      A message box displays the current value of `OptionInteger`.  
   
 ## See Also  
- [Options and Options Pages](../extensibility/options-and-options-pages.md)
+ [Options and Options Pages](../extensibility-internals/options-and-options-pages.md)

@@ -1,7 +1,7 @@
 ---
-title: "Basic Math Functions | Microsoft Docs"
+title: "Basic Math Functions"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

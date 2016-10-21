@@ -1,5 +1,5 @@
 ---
-title: "Choose Element (MSBuild) | Microsoft Docs"
+title: "Choose Element (MSBuild)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -77,7 +77,7 @@ Evaluates child elements to select one set of `ItemGroup` elements and/or `Prope
 |Element|Description|  
 |-------------|-----------------|  
 |[Otherwise](../reference/otherwise-element--msbuild-.md)|Specifies the block of code to execute if the conditions of all `When` elements evaluate to `false`.|  
-|[Project](../reference/project-element--msbuild-.md)|Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] project file.|  
+|[Project](../reference/project-element--msbuild-.md)|Required root element of an [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] project file.|  
 |[When](../reference/when-element--msbuild-.md)|Specifies a possible block of code for the `Choose` element to select.|  
   
 ## Remarks  

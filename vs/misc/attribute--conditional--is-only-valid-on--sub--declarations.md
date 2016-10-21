@@ -1,5 +1,5 @@
 ---
-title: "Attribute &#39;Conditional&#39; is only valid on &#39;Sub&#39; declarations | Microsoft Docs"
+title: "Attribute &#39;Conditional&#39; is only valid on &#39;Sub&#39; declarations"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,7 +1,7 @@
 ---
-title: "linear_congruential_engine::discard | Microsoft Docs"
+title: "linear_congruential_engine::discard"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

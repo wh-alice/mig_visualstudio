@@ -1,5 +1,5 @@
 ---
-title: "Save data from an object to a database | Microsoft Docs"
+title: "Save data from an object to a database"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
@@ -58,7 +58,8 @@ You can save data in objects to a database by passing the values from your objec
   
      The following example creates a new customer record in the `Customers` table by passing the values in the `currentCustomer` object to the `TableAdapter.Insert` method.  
   
-     [!CODE [VbRaddataSaving#23](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataSaving#23)]  
+     [!code[VbRaddataSaving#23](../data-tools/codesnippet/CSharp/save-data-from-an-object-to-a-database_1.cs)]
+[!code[VbRaddataSaving#23](../data-tools/codesnippet/VisualBasic/save-data-from-an-object-to-a-database_1.vb)]  
   
 ### To update existing records from an object to a database  
   
@@ -69,7 +70,8 @@ You can save data in objects to a database by passing the values from your objec
   
      The following example updates an existing record in the `Customers` table by passing the new and original values in the `Customer` object to the `TableAdapter.Update` method.  
   
-     [!CODE [VbRaddataSaving#24](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataSaving#24)]  
+     [!code[VbRaddataSaving#24](../data-tools/codesnippet/CSharp/save-data-from-an-object-to-a-database_2.cs)]
+[!code[VbRaddataSaving#24](../data-tools/codesnippet/VisualBasic/save-data-from-an-object-to-a-database_2.vb)]  
   
 ### To delete existing records from a database  
   
@@ -80,7 +82,8 @@ You can save data in objects to a database by passing the values from your objec
   
      The following example deletes a record from the `Customers` table by passing the original values in the `Customer` object to the `TableAdapter.Delete` method.  
   
-     [!CODE [VbRaddataSaving#25](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataSaving#25)]  
+     [!code[VbRaddataSaving#25](../data-tools/codesnippet/CSharp/save-data-from-an-object-to-a-database_3.cs)]
+[!code[VbRaddataSaving#25](../data-tools/codesnippet/VisualBasic/save-data-from-an-object-to-a-database_3.vb)]  
   
 ## .NET Framework Security  
  You must have permission to perform the selected INSERT, UPDATE, or DELETE on the table in the database.  

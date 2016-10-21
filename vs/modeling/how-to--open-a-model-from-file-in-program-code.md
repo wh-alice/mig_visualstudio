@@ -1,7 +1,7 @@
 ---
-title: "How to: Open a Model from File in Program Code | Microsoft Docs"
+title: "How to: Open a Model from File in Program Code"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""

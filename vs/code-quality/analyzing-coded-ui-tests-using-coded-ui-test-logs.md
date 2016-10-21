@@ -1,5 +1,5 @@
 ---
-title: "Analyzing Coded UI Tests Using Coded UI Test Logs | Microsoft Docs"
+title: "Analyzing Coded UI Tests Using Coded UI Test Logs"
 ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"

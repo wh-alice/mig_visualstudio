@@ -1,7 +1,7 @@
 ---
-title: "Debugging Managed Code | Microsoft Docs"
+title: "Debugging Managed Code"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -62,7 +62,7 @@ This section covers common debugging problems and techniques for managed applica
  [Mixed-Mode Debugging](../debugger/debugging-mixed-mode-applications.md)  
  Discusses debugging mixed-mode applications. This means any application that combines native code with managed code.  
   
- [Error: Debugging isn't possible because a kernel debugger is enabled on the system](../debugger/error--debugging-isn-t-possible-because-a-kernel-debugger-is-enabled-on-the-system.md)  
+ [Error: Debugging isn't possible because a kernel debugger is enabled on the system](../debugger/630a7abd-3303-4aaa-888a-6de3de14bc01.md)  
  Describes an error message that occurs if you try to debug managed code on a [!INCLUDE[win7](../code-quality/includes/win7_md.md)], [!INCLUDE[wiprlhext](../debugger/includes/wiprlhext_md.md)], [!INCLUDE[winxp](../code-quality/includes/winxp_md.md)], [!INCLUDE[Win2kFamily](../code-quality/includes/win2kfamily_md.md)], or Windows NT system that has been started in debug mode.  
   
  [JIT Optimization and Debugging](../debugger/jit-optimization-and-debugging.md)  

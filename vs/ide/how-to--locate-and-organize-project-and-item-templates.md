@@ -1,7 +1,7 @@
 ---
-title: "How to: Locate and Organize Project and Item Templates | Microsoft Docs"
+title: "How to: Locate and Organize Project and Item Templates"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

@@ -1,5 +1,5 @@
 ---
-title: "Unit Test Basics | Microsoft Docs"
+title: "Unit Test Basics"
 ms.custom: ""
 ms.date: "2016-01-07"
 ms.prod: "visual-studio-dev14"
@@ -200,7 +200,7 @@ public void Withdraw_AmountMoreThanBalance_Throws()
   
  For more information about the Microsoft Unit Testing Frameworks, see one of the following topics:  
   
--   [Writing Unit Tests for the .NET Framework with the Microsoft Unit Test Framework for Managed Code](../code-quality/writing-unit-tests-for-the-.net-framework-with-the-microsoft-unit-test-framework-for-managed-code.md)  
+-   [Writing Unit Tests for the .NET Framework with the Microsoft Unit Test Framework for Managed Code](../code-quality/fbeba971-c468-4429-8017-0f12ab55638c.md)  
   
 -   [Writing Unit tests for C/C++ with the Microsoft Unit Testing Framework for C++](../code-quality/writing-unit-tests-for-c-c---with-the-microsoft-unit-testing-framework-for-c--.md)  
   

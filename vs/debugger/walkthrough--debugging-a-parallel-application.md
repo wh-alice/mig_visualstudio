@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Debugging a Parallel Application | Microsoft Docs"
+title: "Walkthrough: Debugging a Parallel Application"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -83,7 +83,9 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
   
 5.  Paste the following code for your chosen language into the empty code file.  
   
- [!CODE [Debugger#1](../CodeSnippet/VS_Snippets_Misc/debugger#1)]  
+ [!code[Debugger#1](../debugger/codesnippet/CSharp/walkthrough--debugging-a-parallel-application_1.cs)]
+[!code[Debugger#1](../debugger/codesnippet/CPP/walkthrough--debugging-a-parallel-application_1.cpp)]
+[!code[Debugger#1](../debugger/codesnippet/VisualBasic/walkthrough--debugging-a-parallel-application_1.vb)]  
   
 1.  On the **File** menu, click **Save All**.  
   

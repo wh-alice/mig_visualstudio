@@ -1,5 +1,5 @@
 ---
-title: "How to: Display an Item List Separated with Commas | Microsoft Docs"
+title: "How to: Display an Item List Separated with Commas"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -32,10 +32,10 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Display an Item List Separated with Commas
-When you work with item lists in [!INCLUDE[vstecmsbuildengine](../reference/includes/vstecmsbuildengine_md.md)] ([!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)]), it is sometimes useful to display the contents of those item lists in a way that is easy to read. Or, you might have a task that takes a list of items separated with a special separator string. In both of these cases, you can specify a separator string for an item list.  
+When you work with item lists in [!INCLUDE[vstecmsbuildengine](../reference/includes/vstecmsbuildengine_md.md)] ([!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)]), it is sometimes useful to display the contents of those item lists in a way that is easy to read. Or, you might have a task that takes a list of items separated with a special separator string. In both of these cases, you can specify a separator string for an item list.  
   
 ## Separating Items in a List with Commas  
- By default, [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] uses semicolons to separate items in a list. For example, consider a `Message` element with the following value:  
+ By default, [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] uses semicolons to separate items in a list. For example, consider a `Message` element with the following value:  
   
  `<Message Text="This is my list of TXT files: @(TXTFile)"/>`  
   

@@ -1,5 +1,5 @@
 ---
-title: "CA1715: Identifiers should have correct prefix | Microsoft Docs"
+title: "CA1715: Identifiers should have correct prefix"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -68,22 +68,30 @@ translation.priority.mt:
 ## Example  
  **The following example shows an incorrectly named interface.**  
   
- [!CODE [FxCop.Naming.IdentifiersShouldHaveCorrectPrefix#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Naming.IdentifiersShouldHaveCorrectPrefix#1)]  
+ [!code[FxCop.Naming.IdentifiersShouldHaveCorrectPrefix#1](../code-quality/codesnippet/CPP/ca1715--identifiers-should-have-correct-prefix_1.cpp)]
+[!code[FxCop.Naming.IdentifiersShouldHaveCorrectPrefix#1](../code-quality/codesnippet/VisualBasic/ca1715--identifiers-should-have-correct-prefix_1.vb)]
+[!code[FxCop.Naming.IdentifiersShouldHaveCorrectPrefix#1](../code-quality/codesnippet/CSharp/ca1715--identifiers-should-have-correct-prefix_1.cs)]  
   
 ## Example  
  **The following example fixes the previous violation by prefixing the interface with 'I'.**  
   
- [!CODE [FxCop.Naming.IdentifiersShouldHaveCorrectPrefix2#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Naming.IdentifiersShouldHaveCorrectPrefix2#1)]  
+ [!code[FxCop.Naming.IdentifiersShouldHaveCorrectPrefix2#1](../code-quality/codesnippet/CSharp/ca1715--identifiers-should-have-correct-prefix_2.cs)]
+[!code[FxCop.Naming.IdentifiersShouldHaveCorrectPrefix2#1](../code-quality/codesnippet/CPP/ca1715--identifiers-should-have-correct-prefix_2.cpp)]
+[!code[FxCop.Naming.IdentifiersShouldHaveCorrectPrefix2#1](../code-quality/codesnippet/VisualBasic/ca1715--identifiers-should-have-correct-prefix_2.vb)]  
   
 ## Example  
  **The following example shows an incorrectly named generic type parameter.**  
   
- [!CODE [FxCop.Naming.IdentifiersShouldHaveCorrectPrefix3#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Naming.IdentifiersShouldHaveCorrectPrefix3#1)]  
+ [!code[FxCop.Naming.IdentifiersShouldHaveCorrectPrefix3#1](../code-quality/codesnippet/CPP/ca1715--identifiers-should-have-correct-prefix_3.cpp)]
+[!code[FxCop.Naming.IdentifiersShouldHaveCorrectPrefix3#1](../code-quality/codesnippet/VisualBasic/ca1715--identifiers-should-have-correct-prefix_3.vb)]
+[!code[FxCop.Naming.IdentifiersShouldHaveCorrectPrefix3#1](../code-quality/codesnippet/CSharp/ca1715--identifiers-should-have-correct-prefix_3.cs)]  
   
 ## Example  
  **The following example fixes the previous violation by prefixing the generic type parameter with 'T'.**  
   
- [!CODE [FxCop.Naming.IdentifiersShouldHaveCorrectPrefix4#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Naming.IdentifiersShouldHaveCorrectPrefix4#1)]  
+ [!code[FxCop.Naming.IdentifiersShouldHaveCorrectPrefix4#1](../code-quality/codesnippet/CPP/ca1715--identifiers-should-have-correct-prefix_4.cpp)]
+[!code[FxCop.Naming.IdentifiersShouldHaveCorrectPrefix4#1](../code-quality/codesnippet/CSharp/ca1715--identifiers-should-have-correct-prefix_4.cs)]
+[!code[FxCop.Naming.IdentifiersShouldHaveCorrectPrefix4#1](../code-quality/codesnippet/VisualBasic/ca1715--identifiers-should-have-correct-prefix_4.vb)]  
   
 ## Related Rules  
  [CA1722: Identifiers should not have incorrect prefix](../code-quality/ca1722--identifiers-should-not-have-incorrect-prefix.md)

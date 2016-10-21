@@ -1,5 +1,5 @@
 ---
-title: "CA2229: Implement serialization constructors | Microsoft Docs"
+title: "CA2229: Implement serialization constructors"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -63,7 +63,7 @@ translation.priority.ht:
 ## Example  
  The following example shows a type that satisfies the rule.  
   
- [!CODE [FxCop.Usage.ISerializableCtor#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Usage.ISerializableCtor#1)]  
+ [!code[FxCop.Usage.ISerializableCtor#1](../code-quality/codesnippet/CSharp/ca2229--implement-serialization-constructors_1.cs)]  
   
 ## Related Rules  
  [CA2237: Mark ISerializable types with SerializableAttribute](../code-quality/ca2237--mark-iserializable-types-with-serializableattribute.md)  

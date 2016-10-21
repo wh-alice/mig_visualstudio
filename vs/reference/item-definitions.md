@@ -1,5 +1,5 @@
 ---
-title: "Item Definitions | Microsoft Docs"
+title: "Item Definitions"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -31,7 +31,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Item Definitions
-[!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] 2.0 enables the static declaration of items in project files by using the [ItemGroup](../reference/itemgroup-element--msbuild-.md) element. However, metadata may be added only at the item level, even if the metadata is identical for all items. Starting in [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] 3.5, a project element named [ItemDefinitionGroup](../reference/itemdefinitiongroup-element--msbuild-.md) overcomes this limitation. *ItemDefinitionGroup* lets you define a set of item definitions, which add default metadata values to all items in the named item type.  
+[!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] 2.0 enables the static declaration of items in project files by using the [ItemGroup](../reference/itemgroup-element--msbuild-.md) element. However, metadata may be added only at the item level, even if the metadata is identical for all items. Starting in [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] 3.5, a project element named [ItemDefinitionGroup](../reference/itemdefinitiongroup-element--msbuild-.md) overcomes this limitation. *ItemDefinitionGroup* lets you define a set of item definitions, which add default metadata values to all items in the named item type.  
   
  The *ItemDefinitionGroup* element appears immediately after the [Project](../reference/project-element--msbuild-.md) element of the project file. Item definitions provide the following functionality:  
   
@@ -238,7 +238,7 @@ translation.priority.ht:
 </ItemDefinitionGroup>  
 ```  
   
- Beginning in [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] 3.5, ItemGroups can also be self\-referential. For example:  
+ Beginning in [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] 3.5, ItemGroups can also be self\-referential. For example:  
   
 ```  
 <ItemGroup>  

@@ -1,5 +1,5 @@
 ---
-title: "Code analysis rule set reference | Microsoft Docs"
+title: "Code analysis rule set reference"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

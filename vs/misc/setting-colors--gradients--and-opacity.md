@@ -1,5 +1,5 @@
 ---
-title: "Setting Colors, Gradients, and Opacity | Microsoft Docs"
+title: "Setting Colors, Gradients, and Opacity"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -85,7 +85,7 @@ All of the user interface (UI) elements in Visual Studio are created in Windows 
   
 2.  In the element definition, set one of the visual attributes of the element to a property of the `VsBrushes` class, as shown in the following example.  
   
-     [!CODE [TWShortcutMenu#32](../CodeSnippet/VS_Snippets_VSSDK/twshortcutmenu#32)]  
+     [!code[TWShortcutMenu#32](../misc/codesnippet/Xaml/setting-colors--gradients--and-opacity_1.xaml)]  
   
      Using the [DynamicResource](../Topic/DynamicResource%20Markup%20Extension.md) extension enables the value to change as required, for example, when a user changes the settings. You must use the [x:Static](../Topic/x:Static%20Markup%20Extension.md) extension because the `VsBrushes` class is not part of the default WPF namespace.  
   

@@ -1,7 +1,7 @@
 ---
-title: "Visual Studio IDE Concepts | Microsoft Docs"
+title: "Visual Studio IDE Concepts"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -44,7 +44,7 @@ The topics in this section describe the overall structure of [!INCLUDE[vsprvs](.
  [The Experimental Instance](../extensibility/the-experimental-instance.md)  
  Explains the experimental build of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. When you develop an application that might change [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], the [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] provides the experimental build for you to use instead of the released build.  
   
- [Visual Studio Shell](../extensibility/visual-studio-shell.md)  
+ [Visual Studio Shell](../Topic/Visual%20Studio%20Shell.md)  
  Describes the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE, which is the primary agent of integration in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
  [Visual Studio SDK and Automation](../Topic/Visual%20Studio%20SDK%20and%20Automation.md)  
@@ -54,5 +54,5 @@ The topics in this section describe the overall structure of [!INCLUDE[vsprvs](.
  Compares the different ways to write a VSPackage in managed code.  
   
 ## Related Sections  
- [VSSDK Utilities](../extensibility/vssdk-utilities.md)  
+ [VSSDK Utilities](../extensibility-internals/vssdk-utilities.md)  
  Describes [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and its IDE, and introduces strategies and techniques for extending the IDE.

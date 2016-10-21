@@ -1,5 +1,5 @@
 ---
-title: "Bind to an Activity&#39;s Property Dialog Box (Legacy) | Microsoft Docs"
+title: "Bind to an Activity&#39;s Property Dialog Box (Legacy)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: ".net-framework-4.6"

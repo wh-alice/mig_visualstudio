@@ -1,7 +1,7 @@
 ---
-title: "Providing a Language Service Context by Using the Legacy API | Microsoft Docs"
+title: "Providing a Language Service Context by Using the Legacy API"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -61,4 +61,4 @@ Context for a language service
  As you can see in the diagram, the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] core text editor has a context bag attached to it. This context bag points to three separate subcontext bags: language service, default editor, and text marker. The language service and text marker subcontext bags contain attributes and keywords for the language service if the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageContextProvider> interface is implemented, and text markers if the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerContextProvider> interface is implemented. If you do not implement either of these interfaces, then the editor provides context for the keyword at the cursor in the default editor subcontext bag.  
   
 ## Context Guidelines for Editors and Designers  
- Designers and editors must supply a general keyword for the editor or designer window. This is done so that a generic, but appropriate, Help topic will display for the designer or editor when a user presses F1. An editor must, in addition to this, supply the current keyword at the cursor or supply a key term based on the current selection. This is done to ensure that a Help topic for the text or UI element pointed to or selected displays when the user presses F1. A designer supplies context for an item selected in a designer, such as a button on a form. Editors and designers must also connect to a language service as outlined in [Legacy Language Service Essentials](../extensibility/legacy-language-service-essentials.md).
+ Designers and editors must supply a general keyword for the editor or designer window. This is done so that a generic, but appropriate, Help topic will display for the designer or editor when a user presses F1. An editor must, in addition to this, supply the current keyword at the cursor or supply a key term based on the current selection. This is done to ensure that a Help topic for the text or UI element pointed to or selected displays when the user presses F1. A designer supplies context for an item selected in a designer, such as a button on a form. Editors and designers must also connect to a language service as outlined in [Legacy Language Service Essentials](../extensibility-internals/legacy-language-service-essentials.md).

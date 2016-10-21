@@ -1,5 +1,5 @@
 ---
-title: "Method declaration statements must be the first on a logical line | Microsoft Docs"
+title: "Method declaration statements must be the first on a logical line"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

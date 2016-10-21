@@ -1,5 +1,5 @@
 ---
-title: "Load Test Run Settings Properties | Microsoft Docs"
+title: "Load Test Run Settings Properties"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -75,7 +75,7 @@ The run settings of a load test determine a variety of other settings, including
 |--------------|----------------|  
 |**Maximum Test Logs**|Specifies the maximum number of test logs to save for the load test. When the value entered for the maximum number of test logs is reached, the load test will stop collecting logs. Therefore, the logs will be collected at the beginning of the test, not the end. The load test will continue to run until it is completed.|  
 |**Save Log Frequency for Completed Tests**|Specifies the frequency at which the test log will be written. The number indicates that one out of every entered number of tests will be saved to the test log. For example, entering the value of ten specifies that the tenth, twentieth, thirtieth and so on will be written to the test log. Setting the value to 0 specifies that no test logs will be saved.<br /><br /> For more information, see [How to: Specify How Frequently Test Logs are Saved](../test/how-to--specify-how-frequently-test-logs-are-saved-using-the-load-test-editor.md)|  
-|**Save Log on Test Failure**|A Boolean value that determines whether if test logs are saved if a test fails in a load test. The default is `True`.<br /><br /> For more information, see [How to: Specify if Test Failures are Saved to Test Logs](../test/how-to--specify-if-test-failures-are-saved-to-test-logs-using-the-load-test-editor.md)|  
+|**Save Log on Test Failure**|A Boolean value that determines whether if test logs are saved if a test fails in a load test. The default is `True`.<br /><br /> For more information, see [How to: Specify if Test Failures are Saved to Test Logs](../test/08a7fe98-a7f7-4b8d-94a3-ec82b65a2aaf.md)|  
   
  For more information, see [Modifying Load Test Logging Settings](../test/modifying-load-test-logging-settings.md).  
   
@@ -84,7 +84,7 @@ The run settings of a load test determine a variety of other settings, including
 |Property|Definition|  
 |--------------|----------------|  
 |**Storage Type**|The way to store the performance counters that are obtained in a load test. The options are as follows:<br /><br /> -   **Database** - Requires an SQL database that has a **Load Test Results Store**.<br />-   **None**.|  
-|**Timing Details Storage**|This is used to determine which details will be stored in the **Load Test Results Store**. Three values are available:<br /><br /> -   **AllIndividualDetails** - Collect and store individual timing values for each test, transaction, and page that was run or issued during the load test in the **Load Test Results Store**. It is required if you intend to use the Virtual User Activity chart in the Load Test Analyzer.<br />     For more information, see [Analyzing Virtual User Activity in the Details View](../test/analyzing-load-test-virtual-user-activity-in-the-details-view-of-the-load-test-analyzer.md).<br />-   **None** - Do not collect any individual timing values. This is the default value for Visual Studio 2013 Update 4 and later releases.<br />-   **StatisticsOnly** - Collect and store only the statistics instead of storing the individual timing values for each test, transaction, and page that was executed or issued during the load test in the **Load Test Results Store**.<br /><br /> For more information, see [How to: Specify the Timing Details Storage Property](../test/how-to--specify-the-timing-details-storage-property-for-a-load-test-run-setting.md).|  
+|**Timing Details Storage**|This is used to determine which details will be stored in the **Load Test Results Store**. Three values are available:<br /><br /> -   **AllIndividualDetails** - Collect and store individual timing values for each test, transaction, and page that was run or issued during the load test in the **Load Test Results Store**. It is required if you intend to use the Virtual User Activity chart in the Load Test Analyzer.<br />     For more information, see [Analyzing Virtual User Activity in the Details View](../test/63f4bd42-3cfb-4eee-af68-e8334976539e.md).<br />-   **None** - Do not collect any individual timing values. This is the default value for Visual Studio 2013 Update 4 and later releases.<br />-   **StatisticsOnly** - Collect and store only the statistics instead of storing the individual timing values for each test, transaction, and page that was executed or issued during the load test in the **Load Test Results Store**.<br /><br /> For more information, see [How to: Specify the Timing Details Storage Property](../test/how-to--specify-the-timing-details-storage-property-for-a-load-test-run-setting.md).|  
   
 ##  <a name="LoadTestRunSettingProperties_SQLTracing"></a> SQL Tracing Properties  
   

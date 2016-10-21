@@ -1,5 +1,5 @@
 ---
-title: "CA1404: Call GetLastError immediately after P-Invoke | Microsoft Docs"
+title: "CA1404: Call GetLastError immediately after P-Invoke"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -68,7 +68,8 @@ translation.priority.mt:
 ## Example  
  The following example shows a method that violates the rule and a method that satisfies the rule.  
   
- [!CODE [FxCop.Interoperability.LastErrorPInvoke#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Interoperability.LastErrorPInvoke#1)]  
+ [!code[FxCop.Interoperability.LastErrorPInvoke#1](../code-quality/codesnippet/VisualBasic/ca1404--call-getlasterror-immediately-after-p-invoke_1.vb)]
+[!code[FxCop.Interoperability.LastErrorPInvoke#1](../code-quality/codesnippet/CSharp/ca1404--call-getlasterror-immediately-after-p-invoke_1.cs)]  
   
 ## Related Rules  
  [CA1060: Move P/Invokes to NativeMethods class](../code-quality/ca1060--move-p-invokes-to-nativemethods-class.md)  

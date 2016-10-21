@@ -1,5 +1,5 @@
 ---
-title: "Security, Versioning, and Manifest Issues in ClickOnce Deployments | Microsoft Docs"
+title: "Security, Versioning, and Manifest Issues in ClickOnce Deployments"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -53,7 +53,7 @@ There are a variety of issues with [!INCLUDE[ndptecclick](../deployment/includes
   
  In some cases, your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application may attempt to run with administrator permissions because of installer detection logic on [!INCLUDE[windowsver](../deployment/includes/windowsver_md.md)]. In this case, you can set the `requestedExecutionLevel` attribute in the application manifest to `asInvoker`. This will cause the application itself to run without elevation. [!INCLUDE[vs_orcas_long](../code-quality/includes/vs_orcas_long_md.md)] automatically adds this attribute to all application manifests.  
   
- If you are developing an application that requires administrator permissions for the entire lifetime of the application, you should consider deploying the application by using Windows Installer (MSI) technology instead. For more information, see [Windows Installer Basics](../extensibility/windows-installer-basics.md).  
+ If you are developing an application that requires administrator permissions for the entire lifetime of the application, you should consider deploying the application by using Windows Installer (MSI) technology instead. For more information, see [Windows Installer Basics](../extensibility-internals/windows-installer-basics.md).  
   
 ## Online Application Quotas and Partial Trust Applications  
  If your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application runs online instead of through an installation, it must fit within the quota set aside for online applications. Also, a network application that runs in partial trust, such as with a restricted set of security permissions, cannot be larger than half of the quota size.  

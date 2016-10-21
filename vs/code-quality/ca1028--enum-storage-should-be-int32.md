@@ -1,5 +1,5 @@
 ---
-title: "CA1028: Enum storage should be Int32 | Microsoft Docs"
+title: "CA1028: Enum storage should be Int32"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -60,7 +60,8 @@ translation.priority.ht:
  The following example shows two enumerations that do not use the recommended underlying data type.  
   
 ### Code  
- [!CODE [FxCop.Design.EnumIntegralType#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Design.EnumIntegralType#1)]  
+ [!code[FxCop.Design.EnumIntegralType#1](../code-quality/codesnippet/VisualBasic/ca1028--enum-storage-should-be-int32_1.vb)]
+[!code[FxCop.Design.EnumIntegralType#1](../code-quality/codesnippet/CSharp/ca1028--enum-storage-should-be-int32_1.cs)]  
   
 ## Example of How to Fix  
   
@@ -68,7 +69,8 @@ translation.priority.ht:
  The following example fixes the previous violation by changing the underlying data type to <xref:System.Int32>.  
   
 ### Code  
- [!CODE [FxCop.Design.EnumIntegralTypeFixed#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Design.EnumIntegralTypeFixed#1)]  
+ [!code[FxCop.Design.EnumIntegralTypeFixed#1](../code-quality/codesnippet/CSharp/ca1028--enum-storage-should-be-int32_2.cs)]
+[!code[FxCop.Design.EnumIntegralTypeFixed#1](../code-quality/codesnippet/VisualBasic/ca1028--enum-storage-should-be-int32_2.vb)]  
   
 ## Related Rules  
  [CA1008: Enums should have zero value](../code-quality/ca1008--enums-should-have-zero-value.md)  

@@ -1,5 +1,5 @@
 ---
-title: "Extending the Editor and Language Services | Microsoft Docs"
+title: "Extending the Editor and Language Services"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -50,7 +50,7 @@ You can add language service features (such as IntelliSense) to your own editor,
 |[Walkthrough: Creating a View Adornment, Commands, and Settings (Column Guides)](../extensibility/walkthrough--creating-a-view-adornment--commands--and-settings--column-guides-.md)|Walks through and explains building a view adornment that draws column gudie lines to help you keep code to a certain display width.  Also shows reading and writing settings as well as declaring and implementing commands that you can invoke from the Command Window.|  
 |[Editor Imports](../extensibility/editor-imports.md)|Lists the services that an extension can import.|  
 |[Adapting Legacy Code to the Editor](../extensibility/adapting-legacy-code-to-the-editor.md)|Explains different ways to adapt legacy code (pre-Visual Studio 2010) to extend the editor.|  
-|[Migrating a Legacy Language Service](../extensibility/migrating-a-legacy-language-service.md)|Explains how to migrate a VSPackage based language service.|  
+|[Migrating a Legacy Language Service](../extensibility-internals/migrating-a-legacy-language-service.md)|Explains how to migrate a VSPackage based language service.|  
 |[Walkthrough: Linking a Content Type to a File Name Extension](../extensibility/walkthrough--linking-a-content-type-to-a-file-name-extension.md)|Shows how to link a content type to a file name extension.|  
 |[Walkthrough: Creating a Margin Glyph](../extensibility/walkthrough--creating-a-margin-glyph.md)|Shows how to add an icon to a margin.|  
 |[Walkthrough: Highlighting Text](../extensibility/walkthrough--highlighting-text.md)|Shows how to use *tags* to highlight text.|  

@@ -1,5 +1,5 @@
 ---
-title: "Getting Started with Language Service and Editor Extensions | Microsoft Docs"
+title: "Getting Started with Language Service and Editor Extensions"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

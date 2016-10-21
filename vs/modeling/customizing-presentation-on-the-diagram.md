@@ -1,5 +1,5 @@
 ---
-title: "Customizing Presentation on the Diagram | Microsoft Docs"
+title: "Customizing Presentation on the Diagram"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

@@ -1,12 +1,12 @@
 ---
-title: "the value &#39;&lt;value&gt;&#39; is invalid for option &#39;&lt;optionname&gt;&#39; | Microsoft Docs"
+title: "the value &#39;&lt;value&gt;&#39; is invalid for option &#39;&lt;optionname&gt;&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC2014"
 ms.assetid: 4a16749d-acf5-4eac-bbed-2cc37936bcdc
 caps.latest.revision: 11
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

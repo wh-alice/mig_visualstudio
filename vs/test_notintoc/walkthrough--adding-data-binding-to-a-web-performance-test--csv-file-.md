@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Adding Data Binding to a Web Performance Test (CSV File) | Microsoft Docs"
+title: "Walkthrough: Adding Data Binding to a Web Performance Test (CSV File)"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

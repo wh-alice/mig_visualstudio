@@ -1,5 +1,5 @@
 ---
-title: "Compiler Error CS0273 | Microsoft Docs"
+title: "Compiler Error CS0273"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

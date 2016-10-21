@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Exceptions: Microsoft.VisualStudio.Tools.Applications.Runtime.NonCacheableTypeException | Microsoft Docs"
+title: "Troubleshooting Exceptions: Microsoft.VisualStudio.Tools.Applications.Runtime.NonCacheableTypeException"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

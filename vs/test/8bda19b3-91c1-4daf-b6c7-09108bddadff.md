@@ -1,5 +1,5 @@
 ---
-title: "How to: Analyze What Virtual Users Are Doing During a Load Test Using the Virtual User Activity Chart | Microsoft Docs"
+title: "How to: Analyze What Virtual Users Are Doing During a Load Test Using the Virtual User Activity Chart"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -113,11 +113,11 @@ View the virtual user activity that's associated with your load test by using th
     -   **Show results with errors** Displays results with errors that can assist in debugging.  
   
         > [!NOTE]
-        >  The list of error types that are listed under the **Show results with errors** node can be further investigated by choosing the Tables button in the Web Performance Test Results Viewer toolbar. [!INCLUDE[crdefault](../code-quality/includes/crdefault_md.md)] [Analyzing Load Test Results and Errors in the Tables View](../test/analyzing-load-test-results-and-errors-in-the-tables-view-of-the-load-test-analyzer.md).  
+        >  The list of error types that are listed under the **Show results with errors** node can be further investigated by choosing the Tables button in the Web Performance Test Results Viewer toolbar. [!INCLUDE[crdefault](../code-quality/includes/crdefault_md.md)] [Analyzing Load Test Results and Errors in the Tables View](../test/0a84bda3-6051-45eb-9c7f-d57419e1f97d.md).  
   
      The Virtual User Activity Chart updates accordingly.  
   
 ## See Also  
- [Analyzing Virtual User Activity in the Details View](../test/analyzing-load-test-virtual-user-activity-in-the-details-view-of-the-load-test-analyzer.md)   
+ [Analyzing Virtual User Activity in the Details View](../test/63f4bd42-3cfb-4eee-af68-e8334976539e.md)   
  [Load Test Analyzer Overview](../test/load-test-analyzer-overview.md)   
  [Walkthrough: Using the Virtual User Activity Chart to Isolate Issues](../test/walkthrough--using-the-virtual-user-activity-chart-to-isolate-issues.md)

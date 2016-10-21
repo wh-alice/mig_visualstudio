@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: My First WPF Desktop Application2 | Microsoft Docs"
+title: "Walkthrough: My First WPF Desktop Application2"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -987,5 +987,5 @@ translation.priority.mt:
 -   [Documents in WPF](https://msdn.microsoft.com/en-us/library/ms748388\(v=vs.100\).aspx)  
   
 ## See Also  
- [Walkthrough: Create a WPF Desktop Application connected to an Azure Mobile Service](../designers/walkthrough--create-a-wpf-desktop-application-connected-to-an-azure-mobile-service.md)   
+ [Walkthrough: Create a WPF Desktop Application connected to an Azure Mobile Service](../designers/8d42620f-553b-4b04-a38b-f6b306d73a50.md)   
  [Create Modern Desktop Applications with Windows Presentation Foundation](../designers/create-modern-desktop-applications-with-windows-presentation-foundation.md)

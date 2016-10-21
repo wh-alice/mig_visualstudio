@@ -1,5 +1,5 @@
 ---
-title: "CA1411: COM registration methods should not be visible | Microsoft Docs"
+title: "CA1411: COM registration methods should not be visible"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -58,7 +58,8 @@ translation.priority.mt:
 ## Example  
  The following example shows two methods that violate the rule.  
   
- [!CODE [FxCop.Interoperability.ComRegistration2#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Interoperability.ComRegistration2#1)]  
+ [!code[FxCop.Interoperability.ComRegistration2#1](../code-quality/codesnippet/CSharp/ca1411--com-registration-methods-should-not-be-visible_1.cs)]
+[!code[FxCop.Interoperability.ComRegistration2#1](../code-quality/codesnippet/VisualBasic/ca1411--com-registration-methods-should-not-be-visible_1.vb)]  
   
 ## Related Rules  
  [CA1410: COM registration methods should be matched](../code-quality/ca1410--com-registration-methods-should-be-matched.md)  

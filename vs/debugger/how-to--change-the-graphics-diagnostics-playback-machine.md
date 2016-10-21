@@ -1,5 +1,5 @@
 ---
-title: "How to: Change the Graphics Diagnostics Playback Machine | Microsoft Docs"
+title: "How to: Change the Graphics Diagnostics Playback Machine"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

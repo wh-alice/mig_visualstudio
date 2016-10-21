@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB2006 | Microsoft Docs"
+title: "MSBuild Error MSB2006"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,7 +36,7 @@ translation.priority.mt:
 # MSBuild Error MSB2006
 **The project file does not contain the root element \<{0}>.**  
   
- The root element name is not spelled correctly or is not recognized by [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)].  
+ The root element name is not spelled correctly or is not recognized by [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)].  
   
 ### To correct this error  
   

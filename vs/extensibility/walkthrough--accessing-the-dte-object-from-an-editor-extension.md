@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Accessing the DTE Object from an Editor Extension | Microsoft Docs"
+title: "Walkthrough: Accessing the DTE Object from an Editor Extension"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

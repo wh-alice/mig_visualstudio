@@ -1,7 +1,7 @@
 ---
-title: "CA1302: Do not hardcode locale specific strings | Microsoft Docs"
+title: "CA1302: Do not hardcode locale specific strings"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -60,7 +60,8 @@ translation.priority.mt:
 ## Example  
  The following example builds the path of the common application data folder, which generates three warnings from this rule. Next, the example retrieves the path by using the <xref:System.Environment.GetFolderPath*> method.  
   
- [!CODE [FxCop.Globalization.HardcodedLocaleStrings#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Globalization.HardcodedLocaleStrings#1)]  
+ [!code[FxCop.Globalization.HardcodedLocaleStrings#1](../code-quality/codesnippet/CSharp/ca1302--do-not-hardcode-locale-specific-strings_1.cs)]
+[!code[FxCop.Globalization.HardcodedLocaleStrings#1](../code-quality/codesnippet/VisualBasic/ca1302--do-not-hardcode-locale-specific-strings_1.vb)]  
   
 ## Related Rules  
  [CA1303: Do not pass literals as localized parameters](../code-quality/ca1303--do-not-pass-literals-as-localized-parameters.md)

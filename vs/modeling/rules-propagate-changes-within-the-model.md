@@ -1,5 +1,5 @@
 ---
-title: "Rules Propagate Changes Within the Model | Microsoft Docs"
+title: "Rules Propagate Changes Within the Model"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

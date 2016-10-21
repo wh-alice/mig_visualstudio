@@ -1,5 +1,5 @@
 ---
-title: "What&#39;s New in the XSLT Debugger | Microsoft Docs"
+title: "What&#39;s New in the XSLT Debugger"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Full width characters are not valid as XML delimiters | Microsoft Docs"
+title: "Full width characters are not valid as XML delimiters"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

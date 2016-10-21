@@ -1,5 +1,5 @@
 ---
-title: "CA2232: Mark Windows Forms entry points with STAThread | Microsoft Docs"
+title: "CA2232: Mark Windows Forms entry points with STAThread"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -60,4 +60,5 @@ translation.priority.ht:
 ## Example  
  The following examples demonstrate the correct usage of <xref:System.STAThreadAttribute>.  
   
- [!CODE [FxCop.Usage.StaThread#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Usage.StaThread#1)]
+ [!code[FxCop.Usage.StaThread#1](../code-quality/codesnippet/CSharp/ca2232--mark-windows-forms-entry-points-with-stathread_1.cs)]
+[!code[FxCop.Usage.StaThread#1](../code-quality/codesnippet/VisualBasic/ca2232--mark-windows-forms-entry-points-with-stathread_1.vb)]

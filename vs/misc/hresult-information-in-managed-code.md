@@ -1,7 +1,7 @@
 ---
-title: "HRESULT Information in Managed Code | Microsoft Docs"
+title: "HRESULT Information in Managed Code"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -60,11 +60,13 @@ The interaction between managed code and COM can cause problems when HRESULT ret
   
  For example, consider the following function call, in which <xref:Microsoft.VisualStudio.VSConstants.E_NOTIMPL> is an acceptable return value but any other HRESULT less than zero represents an error.  
   
- [!CODE [VSSDKHRESULTInformation#1](../CodeSnippet/VS_Snippets_VSSDK/vssdkhresultinformation#1)]  
+ [!code[VSSDKHRESULTInformation#1](../misc/codesnippet/VisualBasic/hresult-information-in-managed-code_1.vb)]
+[!code[VSSDKHRESULTInformation#1](../misc/codesnippet/CSharp/hresult-information-in-managed-code_1.cs)]  
   
  If there are more than one acceptable return values, additional HRESULT values can just be appended to the list in the call to <xref:Microsoft.VisualStudio.ErrorHandler.ThrowOnFailure*>.  
   
- [!CODE [VSSDKHRESULTInformation#2](../CodeSnippet/VS_Snippets_VSSDK/vssdkhresultinformation#2)]  
+ [!code[VSSDKHRESULTInformation#2](../misc/codesnippet/VisualBasic/hresult-information-in-managed-code_2.vb)]
+[!code[VSSDKHRESULTInformation#2](../misc/codesnippet/CSharp/hresult-information-in-managed-code_2.cs)]  
   
 ## Returning HRESULTS to COM from Managed Code  
  If no exception occurs, managed code returns <xref:Microsoft.VisualStudio.VSConstants.S_OK> to the COM function that called it. COM interop supports common exceptions that are strongly typed in managed code. For example, a method that receives an unacceptable `null` argument throws an <xref:System.ArgumentNullException>.  

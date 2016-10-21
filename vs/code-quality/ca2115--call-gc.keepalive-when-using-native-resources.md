@@ -1,5 +1,5 @@
 ---
-title: "CA2115: Call GC.KeepAlive when using native resources | Microsoft Docs"
+title: "CA2115: Call GC.KeepAlive when using native resources"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -69,7 +69,7 @@ translation.priority.mt:
 > [!NOTE]
 >  This example is pseudo-code Although the code compiles and runs, the warning is not fired because an unmanaged resource is not created or freed.  
   
- [!CODE [FxCop.Security.IntptrAndFinalize#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Security.IntptrAndFinalize#1)]  
+ [!code[FxCop.Security.IntptrAndFinalize#1](../code-quality/codesnippet/CSharp/ca2115--call-gc.keepalive-when-using-native-resources_1.cs)]  
   
 ## See Also  
  <xref:System.GC.KeepAlive*?displayProperty=fullName>   

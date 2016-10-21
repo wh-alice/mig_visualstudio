@@ -1,5 +1,5 @@
 ---
-title: "Logging in MSBuild | Microsoft Docs"
+title: "Logging in MSBuild"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -36,7 +36,7 @@ Logging provides a way for you to monitor the progress of a build. Logging captu
   
 ## In This Section  
  [Obtaining Build Logs](../reference/obtaining-build-logs-with-msbuild.md)  
- Describes the various aspects of logging in [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)].  
+ Describes the various aspects of logging in [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)].  
   
  [Build Loggers](../reference/build-loggers.md)  
  Outlines the steps required to create a single-processor logger.  

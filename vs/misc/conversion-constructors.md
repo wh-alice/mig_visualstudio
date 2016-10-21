@@ -1,5 +1,5 @@
 ---
-title: "Conversion Constructors | Microsoft Docs"
+title: "Conversion Constructors"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

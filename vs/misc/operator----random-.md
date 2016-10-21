@@ -1,7 +1,7 @@
 ---
-title: "operator&gt;&gt; &lt;random&gt; | Microsoft Docs"
+title: "operator&lt;&lt; &lt;random&gt;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -10,17 +10,17 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
-  - "std::tr1::operator>>"
-  - "std.tr1.operator>>"
-  - "random/std::tr1::operator>>"
-  - "operator>>"
+  - "std.tr1.operator<<"
+  - "random/std::tr1::operator<<"
+  - "std::tr1::operator<<"
+  - "operator<<"
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
-  - "operator>> operator"
-ms.assetid: 61909217-3ea9-4405-91f6-fee549a1e6ae
+  - "operator<< operator"
+ms.assetid: a2524f46-004f-4851-b35a-0701c131d3b6
 caps.latest.revision: 7
-ms.author: "ghogen"
+ms.author: "douge"
 manager: "douge"
 translation.priority.mt: 
   - "cs-cz"
@@ -37,7 +37,7 @@ translation.priority.mt:
   - "zh-cn"
   - "zh-tw"
 ---
-# operator&gt;&gt; &lt;random&gt;
+# operator&lt;&lt; &lt;random&gt;
 Topic deprecated, see [\<random>](../Topic/%3Crandom%3E.md).  
   
 ## Syntax

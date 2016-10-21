@@ -1,5 +1,5 @@
 ---
-title: "Statement does not declare a &#39;Get&#39; or &#39;Set&#39; method | Microsoft Docs"
+title: "Statement does not declare a &#39;Get&#39; or &#39;Set&#39; method"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Adding a Shortcut Menu in a Tool Window | Microsoft Docs"
+title: "Adding a Shortcut Menu in a Tool Window"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -290,5 +290,5 @@ This walkthrough puts a shortcut menu in a tool window. A shortcut menu is a men
 4.  Click a color on the shortcut menu. The tool window background color should be changed to the selected color.  
   
 ## See Also  
- [Commands, Menus, and Toolbars](../extensibility/commands--menus--and-toolbars.md)   
+ [Commands, Menus, and Toolbars](../Topic/Commands,%20Menus,%20and%20Toolbars.md)   
  [Using and Providing Services](../extensibility/using-and-providing-services.md)

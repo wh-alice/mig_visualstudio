@@ -1,5 +1,5 @@
 ---
-title: "CA2239: Provide deserialization methods for optional fields | Microsoft Docs"
+title: "CA2239: Provide deserialization methods for optional fields"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -57,7 +57,8 @@ translation.priority.ht:
 ## Example  
  The following example shows a type with an optional field and de-serialization event handling methods.  
   
- [!CODE [FxCop.Usage.OptionalFields#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Usage.OptionalFields#1)]  
+ [!code[FxCop.Usage.OptionalFields#1](../code-quality/codesnippet/CSharp/ca2239--provide-deserialization-methods-for-optional-fields_1.cs)]
+[!code[FxCop.Usage.OptionalFields#1](../code-quality/codesnippet/VisualBasic/ca2239--provide-deserialization-methods-for-optional-fields_1.vb)]  
   
 ## Related Rules  
  [CA2236: Call base class methods on ISerializable types](../code-quality/ca2236--call-base-class-methods-on-iserializable-types.md)  

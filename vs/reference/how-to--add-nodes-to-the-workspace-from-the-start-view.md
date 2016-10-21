@@ -1,5 +1,5 @@
 ---
-title: "How to: Add Nodes to the Workspace from the Start View | Microsoft Docs"
+title: "How to: Add Nodes to the Workspace from the Start View"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

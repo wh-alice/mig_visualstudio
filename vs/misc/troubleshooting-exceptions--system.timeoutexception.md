@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Exceptions: System.TimeoutException | Microsoft Docs"
+title: "Troubleshooting Exceptions: System.TimeoutException"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "CA2213: Disposable fields should be disposed | Microsoft Docs"
+title: "CA2213: Disposable fields should be disposed"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -57,12 +57,12 @@ translation.priority.ht:
 ## Example  
  The following example shows a type `TypeA` that implements <xref:System.IDisposable> (`FT` in the previosu discussion).  
   
- [!CODE [FxCop.Usage.IDisposablePattern#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Usage.IDisposablePattern#1)]  
+ [!code[FxCop.Usage.IDisposablePattern#1](../code-quality/codesnippet/CSharp/ca2213--disposable-fields-should-be-disposed_1.cs)]  
   
 ## Example  
  The following example shows a type `TypeB` that violates this rule by declaring a field `aFieldOfADisposableType` (`F` in the previous discussion) as a disposable type (`TypeA`) and not calling <xref:System.IDisposable.Dispose*> on the field. `TypeB` corresponds to `T` in the previous discussion.  
   
- [!CODE [FxCop.Usage.IDisposableFields#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Usage.IDisposableFields#1)]  
+ [!code[FxCop.Usage.IDisposableFields#1](../code-quality/codesnippet/CSharp/ca2213--disposable-fields-should-be-disposed_2.cs)]  
   
 ## See Also  
  <xref:System.IDisposable?displayProperty=fullName>   

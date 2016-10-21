@@ -1,5 +1,5 @@
 ---
-title: "CA2216: Disposable types should declare finalizer | Microsoft Docs"
+title: "CA2216: Disposable types should declare finalizer"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -63,7 +63,7 @@ translation.priority.ht:
 ## Example  
  The following example shows a type that violates this rule.  
   
- [!CODE [FxCop.Usage.DisposeNoFinalize#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Usage.DisposeNoFinalize#1)]  
+ [!code[FxCop.Usage.DisposeNoFinalize#1](../code-quality/codesnippet/CSharp/ca2216--disposable-types-should-declare-finalizer_1.cs)]  
   
 ## Related Rules  
  [CA2115: Call GC.KeepAlive when using native resources](../code-quality/ca2115--call-gc.keepalive-when-using-native-resources.md)  

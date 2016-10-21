@@ -1,5 +1,5 @@
 ---
-title: "-How to: Create an Action Recording for Shared Steps | Microsoft Docs"
+title: "-How to: Create an Action Recording for Shared Steps"
 ms.custom: ""
 ms.date: "10/01/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -176,6 +176,6 @@ While you run a manual test using [!INCLUDE[mtrlong](../code-quality/includes/mt
   
 ## See Also  
  [- How to: Play Back an Action Recording](../test_notintoc/--how-to--play-back-an-action-recording.md)   
- [How to: Include Recordings of the Screen and Voice During Tests Using Test Settings](../test/how-to--include-recordings-of-the-screen-and-voice-during-tests-using-test-settings.md)   
+ [How to: Include Recordings of the Screen and Voice During Tests Using Test Settings](../test/2cefe8c2-430a-4cb4-bbe0-f3edb2e5bc03.md)   
  [How to: Create an Action Recording for Shared Steps](../test_notintoc/-how-to--create-an-action-recording-for-shared-steps.md)   
  [Record and play back manual tests](../test/record-and-play-back-manual-tests.md)

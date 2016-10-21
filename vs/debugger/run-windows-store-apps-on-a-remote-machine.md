@@ -1,5 +1,5 @@
 ---
-title: "Run Windows Store apps on a remote machine | Microsoft Docs"
+title: "Run Windows Store apps on a remote machine"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

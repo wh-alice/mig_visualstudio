@@ -1,5 +1,5 @@
 ---
-title: "The value of &lt;argumentname&gt; must be greater than or equal to 1000 | Microsoft Docs"
+title: "The value of &lt;argumentname&gt; must be greater than or equal to 1000"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

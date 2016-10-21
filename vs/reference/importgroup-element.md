@@ -1,5 +1,5 @@
 ---
-title: "ImportGroup Element | Microsoft Docs"
+title: "ImportGroup Element"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -70,7 +70,7 @@ Contains a collection of `Import` elements that are grouped under an optional co
   
 |Element|Description|  
 |-------------|-----------------|  
-|[Project](../reference/project-element--msbuild-.md)|Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)] project file.|  
+|[Project](../reference/project-element--msbuild-.md)|Required root element of an [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] project file.|  
   
 ## Remarks  
   

@@ -1,5 +1,5 @@
 ---
-title: "Directed Graph Markup Language (DGML) reference | Microsoft Docs"
+title: "Directed Graph Markup Language (DGML) reference"
 ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-tfs-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Getting Started with WPF | Microsoft Docs"
+title: "Getting Started with WPF"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -36,7 +36,7 @@ Windows Presentation Foundation (WPF) is a UI framework that creates desktop cli
   
 |||  
 |-|-|  
-|I want to jump right in…|[Walkthrough: My First WPF Desktop Application](../designers/walkthrough--my-first-wpf-desktop-application2.md)<br /><br /> [Walkthrough: Create a WPF Desktop Application connected to an Azure Mobile Service](../designers/walkthrough--create-a-wpf-desktop-application-connected-to-an-azure-mobile-service.md)|  
+|I want to jump right in…|[Walkthrough: My First WPF Desktop Application](../designers/walkthrough--my-first-wpf-desktop-application2.md)<br /><br /> [Walkthrough: Create a WPF Desktop Application connected to an Azure Mobile Service](../designers/8d42620f-553b-4b04-a38b-f6b306d73a50.md)|  
 |How do I design the application UI?|[Designing XAML in Visual Studio and Blend for Visual Studio](../designers/designing-xaml-in-visual-studio.md)|  
 |New to .NET?|[Overview of the .NET Framework](https://msdn.microsoft.com/en-us/library/zw4w595w\(v=vs.140\).aspx)<br /><br /> [Application Essentials](../Topic/.NET%20Framework%20Application%20Essentials.md)<br /><br /> [Getting Started with Visual C# and Visual Basic](https://msdn.microsoft.com/en-us/library/dd492171\(v=vs.140\).aspx)|  
 |Tell me more about WPF…|[Introduction to WPF](../designers/introduction-to-wpf.md)<br /><br /> [XAML Overview (WPF)](https://msdn.microsoft.com/en-us/library/ms752059\(v=vs.100\).aspx)<br /><br /> [Controls](https://msdn.microsoft.com/en-us/library/bb613551\(v=vs.100\).aspx)<br /><br /> [Data Binding Overview](https://msdn.microsoft.com/en-us/library/ms752347\(v=vs.100\).aspx)<br /><br /> [WPF Data Binding with LINQ to XML](../designers/wpf-data-binding-with-linq-to-xml.md)|  

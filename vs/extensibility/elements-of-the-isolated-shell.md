@@ -1,5 +1,5 @@
 ---
-title: "Elements of the Isolated Shell | Microsoft Docs"
+title: "Elements of the Isolated Shell"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

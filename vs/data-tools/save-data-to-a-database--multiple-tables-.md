@@ -1,5 +1,5 @@
 ---
-title: "Save data to a database (multiple tables) | Microsoft Docs"
+title: "Save data to a database (multiple tables)"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
@@ -143,7 +143,8 @@ One of the most common scenarios in application development is to display data o
   
 2.  Replace the code in the event handler to call the `Update` methods of the related TableAdapters. The following code first creates three temporary data tables to hold the updated information for each <xref:System.Data.DataRowState> (<xref:System.Data.DataRowState>, <xref:System.Data.DataRowState>, and <xref:System.Data.DataRowState>). Then updates are run in the correct order. The code should look like the following:  
   
-     [!CODE [VbRaddataSaving#10](../CodeSnippet/VS_Snippets_VBCSharp/VbRaddataSaving#10)]  
+     [!code[VbRaddataSaving#10](../data-tools/codesnippet/VisualBasic/save-data-to-a-database--multiple-tables-_1.vb)]
+[!code[VbRaddataSaving#10](../data-tools/codesnippet/CSharp/save-data-to-a-database--multiple-tables-_1.cs)]  
   
 ## Test the application  
   

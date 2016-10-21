@@ -1,5 +1,5 @@
 ---
-title: "Reporting Load Tests Results for Test Comparisons or Trend Analysis | Microsoft Docs"
+title: "Reporting Load Tests Results for Test Comparisons or Trend Analysis"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -43,7 +43,7 @@ You can generate Microsoft Excel load test reports that are based on two or more
  Also, the spreadsheet file can be shared with stakeholders so that stakeholders do not have to connect to the database to see the report.  
   
 > [!NOTE]
->  If you add comments to a load test, they will appear in the Excel report. For more information, see [How to: Add Comments while Analyzing a Completed Load Test](../test/how-to--add-comments-while-analyzing-a-completed-load-test-using-the-load-test-analyzer.md) and [How to: Add a Comment to a Running Load Test Using the Load Test Analyzer](../test_notintoc/how-to--add-a-comment-to-a-running-load-test-using-the-load-test-analyzer.md).  
+>  If you add comments to a load test, they will appear in the Excel report. For more information, see [How to: Add Comments while Analyzing a Completed Load Test](../test/e6b68940-4fb6-4bd6-bcde-f6477adc7af9.md) and [How to: Add a Comment to a Running Load Test Using the Load Test Analyzer](../test_notintoc/how-to--add-a-comment-to-a-running-load-test-using-the-load-test-analyzer.md).  
   
 ## Tasks  
   

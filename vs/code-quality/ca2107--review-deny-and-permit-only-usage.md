@@ -1,5 +1,5 @@
 ---
-title: "CA2107: Review deny and permit only usage | Microsoft Docs"
+title: "CA2107: Review deny and permit only usage"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -74,12 +74,12 @@ translation.priority.mt:
   
  The following library contains a class that has two methods that are identical except for the security demands that protect them.  
   
- [!CODE [FxCop.Security.PermitAndDeny#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Security.PermitAndDeny#1)]  
+ [!code[FxCop.Security.PermitAndDeny#1](../code-quality/codesnippet/CSharp/ca2107--review-deny-and-permit-only-usage_1.cs)]  
   
 ## Example  
  The following application demonstrates the effects of Deny on the secured methods from the library.  
   
- [!CODE [FxCop.Security.TestPermitAndDeny#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Security.TestPermitAndDeny#1)]  
+ [!code[FxCop.Security.TestPermitAndDeny#1](../code-quality/codesnippet/CSharp/ca2107--review-deny-and-permit-only-usage_2.cs)]  
   
  This example produces the following output.  
   

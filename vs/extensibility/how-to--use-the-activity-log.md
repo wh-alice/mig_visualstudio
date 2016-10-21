@@ -1,5 +1,5 @@
 ---
-title: "How to: Use the Activity Log | Microsoft Docs"
+title: "How to: Use the Activity Log"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -74,4 +74,4 @@ VSPackages can write messages to the activity log. This feature is especially us
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsActivityLog>   
  <xref:Microsoft.VisualStudio.Shell.Interop.__ACTIVITYLOG_ENTRYTYPE>   
  [Troubleshooting VSPackages](../extensibility/troubleshooting-vspackages.md)   
- [VSPackages](../extensibility/vspackages.md)
+ [VSPackages](../extensibility-internals/vspackages.md)

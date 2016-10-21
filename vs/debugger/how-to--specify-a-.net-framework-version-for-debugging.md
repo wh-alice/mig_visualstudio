@@ -1,5 +1,5 @@
 ---
-title: "How to: Specify a .NET Framework Version For Debugging | Microsoft Docs"
+title: "How to: Specify a .NET Framework Version For Debugging"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "The property &lt;property name&gt; cannot be deleted | Microsoft Docs"
+title: "The property &lt;property name&gt; cannot be deleted"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -44,4 +44,4 @@ The property \<property name> cannot be deleted because it is set as the Discrim
 ## See Also  
  [How to: Configure inheritance by using the O/R Designer](../data-tools/how-to--configure-inheritance-by-using-the-o-r-designer.md)   
  [Data class inheritance (O/R Designer)](../data-tools/data-class-inheritance--o-r-designer-.md)   
- [Walkthrough: Creating LINQ to SQL Classes by Using Single-Table Inheritance (O/R Designer)](../data-tools/walkthrough--creating-linq-to-sql-classes-by-using-single-table-inheritance--o-r-designer-.md)
+ [Walkthrough: Creating LINQ to SQL Classes by Using Single-Table Inheritance (O/R Designer)](../data-tools/63bc6328-e0df-4655-9ce3-5ff74dbf69a4.md)

@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Displaying Matching Braces | Microsoft Docs"
+title: "Walkthrough: Displaying Matching Braces"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -55,39 +55,48 @@ You can implement language-based features such as brace matching by defining the
   
 2.  Import the following namespaces.  
   
-     [!CODE [VSSDKBraceMatchingTest#1](../CodeSnippet/VS_Snippets_VSSDK/vssdkbracematchingtest#1)]  
+     [!code[VSSDKBraceMatchingTest#1](../extensibility/codesnippet/CSharp/walkthrough--displaying-matching-braces_1.cs)]
+[!code[VSSDKBraceMatchingTest#1](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-matching-braces_1.vb)]  
   
 3.  Define a class `BraceMatchingTagger` that inherits from <xref:Microsoft.VisualStudio.Text.Tagging.ITagger`1> of type <xref:Microsoft.VisualStudio.Text.Tagging.TextMarkerTag>.  
   
-     [!CODE [VSSDKBraceMatchingTest#2](../CodeSnippet/VS_Snippets_VSSDK/vssdkbracematchingtest#2)]  
+     [!code[VSSDKBraceMatchingTest#2](../extensibility/codesnippet/CSharp/walkthrough--displaying-matching-braces_2.cs)]
+[!code[VSSDKBraceMatchingTest#2](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-matching-braces_2.vb)]  
   
 4.  Add properties for the text view, the source buffer, and the current snapshot point, and also a set of brace pairs.  
   
-     [!CODE [VSSDKBraceMatchingTest#3](../CodeSnippet/VS_Snippets_VSSDK/vssdkbracematchingtest#3)]  
+     [!code[VSSDKBraceMatchingTest#3](../extensibility/codesnippet/CSharp/walkthrough--displaying-matching-braces_3.cs)]
+[!code[VSSDKBraceMatchingTest#3](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-matching-braces_3.vb)]  
   
 5.  In the tagger constructor, set the properties and subscribe to the view change events <xref:Microsoft.VisualStudio.Text.Editor.ITextCaret.PositionChanged> and <xref:Microsoft.VisualStudio.Text.Editor.ITextView.LayoutChanged>. In this example, for illustrative purposes, the matching pairs are also defined in the constructor.  
   
-     [!CODE [VSSDKBraceMatchingTest#4](../CodeSnippet/VS_Snippets_VSSDK/vssdkbracematchingtest#4)]  
+     [!code[VSSDKBraceMatchingTest#4](../extensibility/codesnippet/CSharp/walkthrough--displaying-matching-braces_4.cs)]
+[!code[VSSDKBraceMatchingTest#4](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-matching-braces_4.vb)]  
   
 6.  As part of the <xref:Microsoft.VisualStudio.Text.Tagging.ITagger`1> implementation, declare a TagsChanged event.  
   
-     [!CODE [VSSDKBraceMatchingTest#5](../CodeSnippet/VS_Snippets_VSSDK/vssdkbracematchingtest#5)]  
+     [!code[VSSDKBraceMatchingTest#5](../extensibility/codesnippet/CSharp/walkthrough--displaying-matching-braces_5.cs)]
+[!code[VSSDKBraceMatchingTest#5](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-matching-braces_5.vb)]  
   
 7.  The event handlers update the current caret position of the `CurrentChar` property and raise the TagsChanged event.  
   
-     [!CODE [VSSDKBraceMatchingTest#6](../CodeSnippet/VS_Snippets_VSSDK/vssdkbracematchingtest#6)]  
+     [!code[VSSDKBraceMatchingTest#6](../extensibility/codesnippet/CSharp/walkthrough--displaying-matching-braces_6.cs)]
+[!code[VSSDKBraceMatchingTest#6](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-matching-braces_6.vb)]  
   
 8.  Implement the <xref:Microsoft.VisualStudio.Text.Tagging.ITagger`1.GetTags*> method to match braces either when the current character is an open brace or when the previous character is a close brace, as in Visual Studio. When the match is found, this method instantiates two tags, one for the open brace and one for the close brace.  
   
-     [!CODE [VSSDKBraceMatchingTest#7](../CodeSnippet/VS_Snippets_VSSDK/vssdkbracematchingtest#7)]  
+     [!code[VSSDKBraceMatchingTest#7](../extensibility/codesnippet/CSharp/walkthrough--displaying-matching-braces_7.cs)]
+[!code[VSSDKBraceMatchingTest#7](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-matching-braces_7.vb)]  
   
 9. The following private methods find the matching brace at any level of nesting. The first method finds the close character that matches the open character:  
   
-     [!CODE [VSSDKBraceMatchingTest#8](../CodeSnippet/VS_Snippets_VSSDK/vssdkbracematchingtest#8)]  
+     [!code[VSSDKBraceMatchingTest#8](../extensibility/codesnippet/CSharp/walkthrough--displaying-matching-braces_8.cs)]
+[!code[VSSDKBraceMatchingTest#8](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-matching-braces_8.vb)]  
   
 10. The following helper method finds the open character that matches a close character:  
   
-     [!CODE [VSSDKBraceMatchingTest#9](../CodeSnippet/VS_Snippets_VSSDK/vssdkbracematchingtest#9)]  
+     [!code[VSSDKBraceMatchingTest#9](../extensibility/codesnippet/CSharp/walkthrough--displaying-matching-braces_9.cs)]
+[!code[VSSDKBraceMatchingTest#9](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-matching-braces_9.vb)]  
   
 ## Implementing a Brace Matching Tagger Provider  
  In addition to implementing a tagger, you must also implement and export a tagger provider. In this case, the content type of the provider is "text". This means that brace matching will appear in all types of text files, but a fuller implementation would apply brace matching only to a specific content type.  
@@ -96,11 +105,13 @@ You can implement language-based features such as brace matching by defining the
   
 1.  Declare a tagger provider that inherits from <xref:Microsoft.VisualStudio.Text.Tagging.IViewTaggerProvider>, name it BraceMatchingTaggerProvider, and export it with a <xref:Microsoft.VisualStudio.Utilities.ContentTypeAttribute> of "text" and a <xref:Microsoft.VisualStudio.Text.Tagging.TagTypeAttribute> of <xref:Microsoft.VisualStudio.Text.Tagging.TextMarkerTag>.  
   
-     [!CODE [VSSDKBraceMatchingTest#10](../CodeSnippet/VS_Snippets_VSSDK/vssdkbracematchingtest#10)]  
+     [!code[VSSDKBraceMatchingTest#10](../extensibility/codesnippet/CSharp/walkthrough--displaying-matching-braces_10.cs)]
+[!code[VSSDKBraceMatchingTest#10](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-matching-braces_10.vb)]  
   
 2.  Implement the <xref:Microsoft.VisualStudio.Text.Tagging.IViewTaggerProvider.CreateTagger*> method to instantiate a BraceMatchingTagger.  
   
-     [!CODE [VSSDKBraceMatchingTest#11](../CodeSnippet/VS_Snippets_VSSDK/vssdkbracematchingtest#11)]  
+     [!code[VSSDKBraceMatchingTest#11](../extensibility/codesnippet/CSharp/walkthrough--displaying-matching-braces_11.cs)]
+[!code[VSSDKBraceMatchingTest#11](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-matching-braces_11.vb)]  
   
 ## Building and Testing the Code  
  To test this code, build the BraceMatchingTest solution and run it in the experimental instance.  

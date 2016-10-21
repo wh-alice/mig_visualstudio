@@ -1,5 +1,5 @@
 ---
-title: "CA1012: Abstract types should not have constructors | Microsoft Docs"
+title: "CA1012: Abstract types should not have constructors"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -57,9 +57,11 @@ translation.priority.mt:
 ## Example  
  The following example contains an abstract type that violates this rule.  
   
- [!CODE [FxCop.Design.AbstractTypeBad#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Design.AbstractTypeBad#1)]  
+ [!code[FxCop.Design.AbstractTypeBad#1](../code-quality/codesnippet/VisualBasic/ca1012--abstract-types-should-not-have-constructors_1.vb)]
+[!code[FxCop.Design.AbstractTypeBad#1](../code-quality/codesnippet/CSharp/ca1012--abstract-types-should-not-have-constructors_1.cs)]  
   
 ## Example  
  The following example fixes the previous violation by changing the accessibility of the constructor from `public` to `protected`.  
   
- [!CODE [FxCop.Design.AbstractTypeGood#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Design.AbstractTypeGood#1)]
+ [!code[FxCop.Design.AbstractTypeGood#1](../code-quality/codesnippet/CSharp/ca1012--abstract-types-should-not-have-constructors_2.cs)]
+[!code[FxCop.Design.AbstractTypeGood#1](../code-quality/codesnippet/VisualBasic/ca1012--abstract-types-should-not-have-constructors_2.vb)]

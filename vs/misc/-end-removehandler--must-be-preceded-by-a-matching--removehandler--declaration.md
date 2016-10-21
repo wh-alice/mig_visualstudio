@@ -1,5 +1,5 @@
 ---
-title: "&#39;End RemoveHandler&#39; must be preceded by a matching &#39;RemoveHandler&#39; declaration | Microsoft Docs"
+title: "&#39;End RemoveHandler&#39; must be preceded by a matching &#39;RemoveHandler&#39; declaration"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

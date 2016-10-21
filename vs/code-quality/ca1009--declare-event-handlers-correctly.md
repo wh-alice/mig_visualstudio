@@ -1,5 +1,5 @@
 ---
-title: "CA1009: Declare event handlers correctly | Microsoft Docs"
+title: "CA1009: Declare event handlers correctly"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -59,7 +59,9 @@ translation.priority.ht:
 ## Example  
  The following example shows a delegate that is suited to handling events. The methods that can be invoked by this event handler comply with the signature that is specified in the Design Guidelines. `AlarmEventHandler` is the type name of the delegate. `AlarmEventArgs` derives from the base class for event data, <xref:System.EventArgs>, and holds alarm event data.  
   
- [!CODE [FxCop.Design.EventsTwoParams#1](../CodeSnippet/VS_Snippets_CodeAnalysis/FxCop.Design.EventsTwoParams#1)]  
+ [!code[FxCop.Design.EventsTwoParams#1](../code-quality/codesnippet/CPP/ca1009--declare-event-handlers-correctly_1.cpp)]
+[!code[FxCop.Design.EventsTwoParams#1](../code-quality/codesnippet/CSharp/ca1009--declare-event-handlers-correctly_1.cs)]
+[!code[FxCop.Design.EventsTwoParams#1](../code-quality/codesnippet/VisualBasic/ca1009--declare-event-handlers-correctly_1.vb)]  
   
 ## Related Rules  
  [CA2109: Review visible event handlers](../code-quality/ca2109--review-visible-event-handlers.md)  

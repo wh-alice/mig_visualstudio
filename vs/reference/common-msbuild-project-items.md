@@ -1,7 +1,7 @@
 ---
-title: "Common MSBuild Project Items | Microsoft Docs"
+title: "Common MSBuild Project Items"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,7 +36,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Common MSBuild Project Items
-In [!INCLUDE[vstecmsbuild](../extensibility/includes/vstecmsbuild_md.md)], an item is a named reference to one or more files. Items contain metadata such as file names, paths, and version numbers. All project types in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] have several items in common. These items are defined in the file microsoft.build.commontypes.xsd.  
+In [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)], an item is a named reference to one or more files. Items contain metadata such as file names, paths, and version numbers. All project types in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] have several items in common. These items are defined in the file microsoft.build.commontypes.xsd.  
   
 ## Common Items  
  The following is a list of all the common project items.  

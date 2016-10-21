@@ -1,5 +1,5 @@
 ---
-title: "How to: View Web Page Response Time in a Load Test Using the Load Test Analyzer | Microsoft Docs"
+title: "How to: View Web Page Response Time in a Load Test Using the Load Test Analyzer"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -78,7 +78,7 @@ The time it takes for each Web page to load is known as *response time*. When yo
     |**Goal**|The page time goal. This is a constant value for the page. **Note:**  Page Time Goal is displayed only when the goal has been defined for the request in the Web performance test.|  
     |**% Meeting Goal**|The percent of the requests that were made for the Web page that met the response time goal.|  
   
- For more information, see [Analyzing Load Test Results and Errors in the Tables View](../test/analyzing-load-test-results-and-errors-in-the-tables-view-of-the-load-test-analyzer.md).  
+ For more information, see [Analyzing Load Test Results and Errors in the Tables View](../test/0a84bda3-6051-45eb-9c7f-d57419e1f97d.md).  
   
 ##  <a name="Graph"></a> Viewing Response Time Data in a Graph  
  You can also view response time data in a graph to see how it changes over time during your load test. This is especially useful if your load pattern increases as the test runs (for example, if you use the step load pattern). For more information, see [Editing Load Patterns to Model Virtual User Activities](../test/editing-load-patterns-to-model-virtual-user-activities.md).  
@@ -107,7 +107,7 @@ The time it takes for each Web page to load is known as *response time*. When yo
  For more information, see [Analyzing Load Test Results in the Graphs View](../test/analyzing-load-test-results-in-the-graphs-view-of-the-load-test-analyzer.md).  
   
 ## See Also  
- [Analyzing Load Test Results and Errors in the Tables View](../test/analyzing-load-test-results-and-errors-in-the-tables-view-of-the-load-test-analyzer.md)   
+ [Analyzing Load Test Results and Errors in the Tables View](../test/0a84bda3-6051-45eb-9c7f-d57419e1f97d.md)   
  [Load Test Analyzer Overview](../test/load-test-analyzer-overview.md)   
  [How to: Access Load Test Results for Analysis](../test/how-to--access-load-test-results-for-analysis.md)   
  [Analyzing Load Test Results](../test/analyzing-load-test-results-using-the-load-test-analyzer.md)
