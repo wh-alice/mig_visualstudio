@@ -1,5 +1,5 @@
 ---
-title: "Add custom controls to the Data Sources window | hehe"
+title: "Add custom controls to the Data Sources window"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"

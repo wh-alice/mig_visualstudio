@@ -1,5 +1,5 @@
 ---
-title: "Opening a Dynamic Tool Window | hehe"
+title: "Opening a Dynamic Tool Window"
 ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"

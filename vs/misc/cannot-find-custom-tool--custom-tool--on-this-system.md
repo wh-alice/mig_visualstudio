@@ -1,5 +1,5 @@
 ---
-title: "Cannot find custom tool &#39;custom tool&#39; on this system | hehe"
+title: "Cannot find custom tool &#39;custom tool&#39; on this system"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

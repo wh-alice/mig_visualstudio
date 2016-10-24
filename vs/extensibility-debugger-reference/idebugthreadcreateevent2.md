@@ -1,5 +1,5 @@
 ---
-title: "IDebugThreadCreateEvent2 | hehe"
+title: "IDebugThreadCreateEvent2"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

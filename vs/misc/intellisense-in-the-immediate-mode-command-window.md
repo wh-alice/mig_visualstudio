@@ -1,5 +1,5 @@
 ---
-title: "IntelliSense in the Immediate Mode Command Window | hehe"
+title: "IntelliSense in the Immediate Mode Command Window"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

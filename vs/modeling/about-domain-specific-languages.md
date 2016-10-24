@@ -1,7 +1,7 @@
 ---
-title: "About Domain-Specific Languages | hehe"
+title: "About Domain-Specific Languages"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 29e5b6f2-ece4-4f3b-ab08-5f957418702f
 caps.latest.revision: 26
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 ---
 # About Domain-Specific Languages
 Unlike a general-purpose language such as C# or UML, a domain-specific language (DSL) is designed to express statements in a particular problem space, or domain.  

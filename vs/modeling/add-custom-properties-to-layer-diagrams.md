@@ -1,7 +1,7 @@
 ---
-title: "Add custom properties to layer diagrams | hehe"
+title: "Add custom properties to layer diagrams"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 52b3ac25-d10b-4507-a1fe-209ccb4d2777
 caps.latest.revision: 21
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

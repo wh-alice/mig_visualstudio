@@ -1,7 +1,7 @@
 ---
-title: "Link a use case to documents and diagrams | hehe"
+title: "Link a use case to documents and diagrams"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 4c9ed205-9197-4ed5-b39d-ddfa24a0a421
 caps.latest.revision: 10
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

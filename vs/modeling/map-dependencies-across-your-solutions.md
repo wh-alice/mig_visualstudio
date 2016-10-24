@@ -1,7 +1,7 @@
 ---
-title: "Map dependencies across your solutions | hehe"
+title: "Map dependencies across your solutions"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -30,7 +30,7 @@ helpviewer_keywords:
 ms.assetid: e04850a2-17c5-459b-93ec-6c74143b3292
 caps.latest.revision: 243
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

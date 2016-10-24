@@ -1,5 +1,5 @@
 ---
-title: "Division by zero occurred while evaluating this expression | hehe"
+title: "Division by zero occurred while evaluating this expression"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

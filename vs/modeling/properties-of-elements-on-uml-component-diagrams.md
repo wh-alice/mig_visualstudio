@@ -1,7 +1,7 @@
 ---
-title: "Properties of elements on UML component diagrams | hehe"
+title: "Properties of elements on UML component diagrams"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: fa0a9460-6675-4642-aa00-50f8719a892d
 caps.latest.revision: 14
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

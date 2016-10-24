@@ -1,5 +1,5 @@
 ---
-title: "CA1821: Remove empty finalizers | hehe"
+title: "CA1821: Remove empty finalizers"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

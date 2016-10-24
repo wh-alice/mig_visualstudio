@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting IntelliSense in C++ Projects | hehe"
+title: "Troubleshooting IntelliSense in C++ Projects"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

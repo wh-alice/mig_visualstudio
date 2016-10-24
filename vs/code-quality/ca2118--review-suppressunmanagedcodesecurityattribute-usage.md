@@ -1,5 +1,5 @@
 ---
-title: "CA2118: Review SuppressUnmanagedCodeSecurityAttribute usage | hehe"
+title: "CA2118: Review SuppressUnmanagedCodeSecurityAttribute usage"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

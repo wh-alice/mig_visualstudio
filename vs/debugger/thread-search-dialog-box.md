@@ -1,5 +1,5 @@
 ---
-title: "Thread Search Dialog Box | hehe"
+title: "Thread Search Dialog Box"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

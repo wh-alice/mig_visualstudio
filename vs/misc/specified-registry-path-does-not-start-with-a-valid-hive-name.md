@@ -1,5 +1,5 @@
 ---
-title: "Specified registry path does not start with a valid hive name | hehe"
+title: "Specified registry path does not start with a valid hive name"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

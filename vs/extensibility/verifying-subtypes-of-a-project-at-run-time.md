@@ -1,7 +1,7 @@
 ---
-title: "Verifying Subtypes of a Project at Run Time | hehe"
+title: "Verifying Subtypes of a Project at Run Time"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

@@ -1,7 +1,7 @@
 ---
-title: "Adding a Tracking Property to a Domain-Specific Language Definition | hehe"
+title: "Adding a Tracking Property to a Domain-Specific Language Definition"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 4aa47777-de75-4897-a423-a3c4426b4125
 caps.latest.revision: 22
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 translation.priority.mt: 
   - "cs-cz"
   - "de-de"

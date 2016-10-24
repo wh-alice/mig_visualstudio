@@ -1,5 +1,5 @@
 ---
-title: "IPropertyProxyEESide::ResolveAssemblyRef | hehe"
+title: "IPropertyProxyEESide::ResolveAssemblyRef"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

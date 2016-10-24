@@ -1,7 +1,7 @@
 ---
-title: "Code Generation in a Build Process | hehe"
+title: "Code Generation in a Build Process"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/24/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 4da43429-2a11-4d7e-b2e0-9e4af7033b5a
 caps.latest.revision: 28
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

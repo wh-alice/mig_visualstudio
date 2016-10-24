@@ -1,5 +1,5 @@
 ---
-title: "&#39;AddHandler&#39; and &#39;RemoveHandler&#39; methods must have exactly one parameter | hehe"
+title: "&#39;AddHandler&#39; and &#39;RemoveHandler&#39; methods must have exactly one parameter"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

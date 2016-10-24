@@ -1,5 +1,5 @@
 ---
-title: "Only the first eight characters of a custom log name are significant | hehe"
+title: "Only the first eight characters of a custom log name are significant"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

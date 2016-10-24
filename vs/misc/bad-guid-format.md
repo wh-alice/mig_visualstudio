@@ -1,5 +1,5 @@
 ---
-title: "Bad GUID format | hehe"
+title: "Bad GUID format"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Accessibility Products and Services from Microsoft | hehe"
+title: "Accessibility Products and Services from Microsoft"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

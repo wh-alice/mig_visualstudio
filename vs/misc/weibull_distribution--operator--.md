@@ -1,5 +1,5 @@
 ---
-title: "weibull_distribution::operator() | hehe"
+title: "weibull_distribution::operator()"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

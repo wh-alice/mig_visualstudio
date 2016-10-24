@@ -1,5 +1,5 @@
 ---
-title: "How to: Profile JavaScript Code in Web Pages | hehe"
+title: "How to: Profile JavaScript Code in Web Pages"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

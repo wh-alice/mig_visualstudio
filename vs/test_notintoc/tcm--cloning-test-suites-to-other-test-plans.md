@@ -1,5 +1,5 @@
 ---
-title: "tcm: Cloning Test Suites to Other Test Plans | hehe"
+title: "tcm: Cloning Test Suites to Other Test Plans"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

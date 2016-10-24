@@ -1,5 +1,5 @@
 ---
-title: "CA1802: Use Literals Where Appropriate | hehe"
+title: "CA1802: Use Literals Where Appropriate"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

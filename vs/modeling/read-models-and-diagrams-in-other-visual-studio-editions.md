@@ -1,7 +1,7 @@
 ---
-title: "Read models and diagrams in other Visual Studio editions | hehe"
+title: "Read models and diagrams in other Visual Studio editions"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 46eee279-a9e4-4742-a024-5bd2cf032b86
 caps.latest.revision: 20
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

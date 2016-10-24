@@ -1,5 +1,5 @@
 ---
-title: "Function-Call Results | hehe"
+title: "Function-Call Results"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

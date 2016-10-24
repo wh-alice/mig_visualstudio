@@ -1,5 +1,5 @@
 ---
-title: "Web Site Support Attributes | hehe"
+title: "Web Site Support Attributes"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,7 +1,7 @@
 ---
-title: "Texture Nodes | hehe"
+title: "Texture Nodes"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b7df5ef3-dd4f-4964-9d96-34e0e180515e
 caps.latest.revision: 12
-ms.author: "mithom"
+ms.author: "brpeek"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"

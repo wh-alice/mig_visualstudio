@@ -1,5 +1,5 @@
 ---
-title: "&#39;ReDim&#39; Preserve operand cannot be Nothing | hehe"
+title: "&#39;ReDim&#39; Preserve operand cannot be Nothing"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

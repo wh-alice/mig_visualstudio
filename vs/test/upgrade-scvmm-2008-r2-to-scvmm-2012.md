@@ -1,7 +1,7 @@
 ---
-title: "Upgrade SCVMM 2008 R2 to SCVMM 2012 | hehe"
+title: "Upgrade SCVMM 2008 R2 to SCVMM 2012"
 ms.custom: ""
-ms.date: "10/03/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 5be92444-c701-43c7-8b2a-77df8e02bc27
 caps.latest.revision: 11
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

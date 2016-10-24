@@ -1,5 +1,5 @@
 ---
-title: "Compiler Warning (level 3) CS0168 | hehe"
+title: "Compiler Warning (level 3) CS0168"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

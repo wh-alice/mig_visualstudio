@@ -1,5 +1,5 @@
 ---
-title: "PeopleTrax Sample (Profiling Tools) | hehe"
+title: "PeopleTrax Sample (Profiling Tools)"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

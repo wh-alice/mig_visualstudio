@@ -1,5 +1,5 @@
 ---
-title: "Setup and install | hehe"
+title: "Setup and install"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.reviewer: ""

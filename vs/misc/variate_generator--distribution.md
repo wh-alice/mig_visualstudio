@@ -1,5 +1,5 @@
 ---
-title: "variate_generator::distribution | hehe"
+title: "variate_generator::distribution"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Editor Options, Visual Studio Package Wizard | hehe"
+title: "Editor Options, Visual Studio Package Wizard"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

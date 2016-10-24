@@ -1,7 +1,7 @@
 ---
-title: "Using 3-D Assets in Your Game or App | hehe"
+title: "Using 3-D Assets in Your Game or App"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,7 +18,7 @@ f1_keywords:
   - "VC.Project.ImageContentTask.GenerateMips"
 ms.assetid: ea587909-e434-46a8-abf8-9b3e95a58b4f
 caps.latest.revision: 17
-ms.author: "mithom"
+ms.author: "brpeek"
 manager: "ghogen"
 ---
 # Using 3-D Assets in Your Game or App

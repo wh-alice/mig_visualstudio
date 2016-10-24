@@ -1,5 +1,5 @@
 ---
-title: "IDebugDisassemblyStream2::GetCurrentLocation | hehe"
+title: "IDebugDisassemblyStream2::GetCurrentLocation"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

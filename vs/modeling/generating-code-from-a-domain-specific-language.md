@@ -1,7 +1,7 @@
 ---
-title: "Generating Code from a Domain-Specific Language | hehe"
+title: "Generating Code from a Domain-Specific Language"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: e3706cc9-2afd-456a-a879-68425a248ebc
 caps.latest.revision: 13
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 ---
 # Generating Code from a Domain-Specific Language
 Microsoft [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] provides a powerful way to generate code, documents, configuration files and other artifacts from data represented in models. Using [!INCLUDE[dsl](../modeling/includes/dsl_md.md)], you can create a set of classes that represent your data, and you can write your text templates in classes whose names and properties reflect that data.  

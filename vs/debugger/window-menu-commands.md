@@ -1,5 +1,5 @@
 ---
-title: "Window Menu Commands | hehe"
+title: "Window Menu Commands"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

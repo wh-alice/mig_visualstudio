@@ -1,7 +1,7 @@
 ---
-title: "Navigate and update layer models in program code | hehe"
+title: "Navigate and update layer models in program code"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: c60edc87-33ee-4964-a954-40069f9febf3
 caps.latest.revision: 20
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

@@ -1,5 +1,5 @@
 ---
-title: "TextFieldParser does not support comment tokens that contain whitespace | hehe"
+title: "TextFieldParser does not support comment tokens that contain whitespace"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "&#39;WriteOnly&#39; properties cannot have an access modifier on &#39;Set&#39; | hehe"
+title: "&#39;WriteOnly&#39; properties cannot have an access modifier on &#39;Set&#39;"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

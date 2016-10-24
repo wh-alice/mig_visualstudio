@@ -1,5 +1,5 @@
 ---
-title: "Could not obtain full operation system name due to internal error | hehe"
+title: "Could not obtain full operation system name due to internal error"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

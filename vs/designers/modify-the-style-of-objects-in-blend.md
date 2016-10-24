@@ -1,5 +1,5 @@
 ---
-title: "Modify the style of objects in Blend | hehe"
+title: "Modify the style of objects in Blend"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

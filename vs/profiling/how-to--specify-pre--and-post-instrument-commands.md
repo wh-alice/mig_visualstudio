@@ -1,5 +1,5 @@
 ---
-title: "How to: Specify Pre- and Post-Instrument Commands | hehe"
+title: "How to: Specify Pre- and Post-Instrument Commands"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

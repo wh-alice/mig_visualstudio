@@ -1,5 +1,5 @@
 ---
-title: "&#39;End Set&#39; must be the first statement on a line | hehe"
+title: "&#39;End Set&#39; must be the first statement on a line"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

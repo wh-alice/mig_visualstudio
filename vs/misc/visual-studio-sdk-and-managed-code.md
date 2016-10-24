@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio SDK and Managed Code | hehe"
+title: "Visual Studio SDK and Managed Code"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,7 +1,7 @@
 ---
-title: "How to: Model 3-D Terrain | hehe"
+title: "How to: Model 3-D Terrain"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f779b1fd-82a9-4a11-8ab7-c1c9caabc883
 caps.latest.revision: 17
-ms.author: "mithom"
+ms.author: "brpeek"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"

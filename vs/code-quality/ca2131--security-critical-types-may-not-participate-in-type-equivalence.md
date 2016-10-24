@@ -1,5 +1,5 @@
 ---
-title: "CA2131: Security critical types may not participate in type equivalence | hehe"
+title: "CA2131: Security critical types may not participate in type equivalence"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

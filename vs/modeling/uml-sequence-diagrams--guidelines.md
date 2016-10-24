@@ -1,7 +1,7 @@
 ---
-title: "UML Sequence Diagrams: Guidelines | hehe"
+title: "UML Sequence Diagrams: Guidelines"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,7 +24,7 @@ helpviewer_keywords:
 ms.assetid: 5990ef7c-ba60-4e20-a36d-e29c1fa6c8bb
 caps.latest.revision: 53
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

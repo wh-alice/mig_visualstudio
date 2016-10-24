@@ -1,7 +1,7 @@
 ---
-title: "Properties of Model Elements | hehe"
+title: "Properties of Model Elements"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 884d66aa-cb2d-4be0-ae45-8360a01f1c7d
 caps.latest.revision: 6
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 ---
 # Properties of Model Elements
 This section lists the properties that you see in the Properties window when you select an element in the DSL Definition diagram or in the DSL Explorer.  

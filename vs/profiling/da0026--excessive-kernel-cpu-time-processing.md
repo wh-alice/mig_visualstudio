@@ -1,5 +1,5 @@
 ---
-title: "DA0026: Excessive kernel CPU time processing | hehe"
+title: "DA0026: Excessive kernel CPU time processing"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

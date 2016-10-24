@@ -1,5 +1,5 @@
 ---
-title: "XML comment parameter must have a &#39;name&#39; attribute | hehe"
+title: "XML comment parameter must have a &#39;name&#39; attribute"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "binomial_distribution::p | hehe"
+title: "binomial_distribution::p"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

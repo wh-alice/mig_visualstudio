@@ -1,5 +1,5 @@
 ---
-title: "Label &#39;&lt;labelname&gt;&#39; is not defined | hehe"
+title: "Label &#39;&lt;labelname&gt;&#39; is not defined"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

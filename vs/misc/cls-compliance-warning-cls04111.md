@@ -1,5 +1,5 @@
 ---
-title: "CLS Compliance Warning CLS04111 | hehe"
+title: "CLS Compliance Warning CLS04111"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

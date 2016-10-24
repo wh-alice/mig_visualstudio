@@ -1,7 +1,7 @@
 ---
-title: "Math Nodes | hehe"
+title: "Math Nodes"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: adc225cc-1cf5-4f7c-9b00-e7ac8450b6b9
 caps.latest.revision: 10
-ms.author: "mithom"
+ms.author: "brpeek"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"

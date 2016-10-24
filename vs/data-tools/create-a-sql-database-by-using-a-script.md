@@ -1,5 +1,5 @@
 ---
-title: "Create a SQL database by using a script | hehe"
+title: "Create a SQL database by using a script"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

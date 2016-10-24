@@ -1,7 +1,7 @@
 ---
-title: "How to: Build the Same Source Files with Different Options | hehe"
+title: "How to: Build the Same Source Files with Different Options"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/24/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

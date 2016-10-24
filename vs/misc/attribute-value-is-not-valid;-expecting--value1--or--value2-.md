@@ -1,5 +1,5 @@
 ---
-title: "Attribute value is not valid; expecting &#39;value1&#39; or &#39;value2&#39; | hehe"
+title: "Attribute value is not valid; expecting &#39;value1&#39; or &#39;value2&#39;"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

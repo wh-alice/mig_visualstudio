@@ -1,5 +1,5 @@
 ---
-title: "VSTest.Console.exe command-line options | hehe"
+title: "VSTest.Console.exe command-line options"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"

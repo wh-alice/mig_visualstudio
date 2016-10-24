@@ -1,5 +1,5 @@
 ---
-title: "How to: Add a CSV File Data Source to a Web Performance Test | hehe"
+title: "How to: Add a CSV File Data Source to a Web Performance Test"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

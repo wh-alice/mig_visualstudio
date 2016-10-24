@@ -1,5 +1,5 @@
 ---
-title: "The custom tool &#39;custom tool&#39; failed. &lt;reason&gt; | hehe"
+title: "The custom tool &#39;custom tool&#39; failed. &lt;reason&gt;"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

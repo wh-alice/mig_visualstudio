@@ -1,5 +1,5 @@
 ---
-title: "No accessible &#39;&lt;procedurename&gt;&#39; is most specific: &lt;signaturelist&gt; | hehe"
+title: "No accessible &#39;&lt;procedurename&gt;&#39; is most specific: &lt;signaturelist&gt;"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

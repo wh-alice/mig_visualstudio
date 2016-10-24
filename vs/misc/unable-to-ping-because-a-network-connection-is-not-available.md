@@ -1,5 +1,5 @@
 ---
-title: "Unable to ping because a network connection is not available | hehe"
+title: "Unable to ping because a network connection is not available"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

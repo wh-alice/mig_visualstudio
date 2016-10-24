@@ -1,5 +1,5 @@
 ---
-title: "Bind WPF controls to data in Visual Studio1 | hehe"
+title: "Bind WPF controls to data in Visual Studio1"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

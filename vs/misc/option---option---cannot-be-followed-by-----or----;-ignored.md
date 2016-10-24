@@ -1,5 +1,5 @@
 ---
-title: "option &#39;&lt;option&gt;&#39; cannot be followed by &#39;+&#39; or &#39;-&#39;; ignored | hehe"
+title: "option &#39;&lt;option&gt;&#39; cannot be followed by &#39;+&#39; or &#39;-&#39;; ignored"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

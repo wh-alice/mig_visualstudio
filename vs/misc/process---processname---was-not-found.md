@@ -1,5 +1,5 @@
 ---
-title: "Process &#39;&lt;processname&gt;&#39; was not found | hehe"
+title: "Process &#39;&lt;processname&gt;&#39; was not found"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

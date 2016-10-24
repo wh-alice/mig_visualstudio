@@ -1,5 +1,5 @@
 ---
-title: "Bind Windows Forms controls to data | hehe"
+title: "Bind Windows Forms controls to data"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"

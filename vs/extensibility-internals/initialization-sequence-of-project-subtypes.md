@@ -1,5 +1,5 @@
 ---
-title: "Initialization Sequence of Project Subtypes | hehe"
+title: "Initialization Sequence of Project Subtypes"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

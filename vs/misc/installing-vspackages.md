@@ -1,5 +1,5 @@
 ---
-title: "Installing VSPackages | hehe"
+title: "Installing VSPackages"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

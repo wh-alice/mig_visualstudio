@@ -1,5 +1,5 @@
 ---
-title: "IDebugExpressionEvaluator3::Parse2 | hehe"
+title: "IDebugExpressionEvaluator3::Parse2"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

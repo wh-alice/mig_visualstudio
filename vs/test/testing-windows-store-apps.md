@@ -1,5 +1,5 @@
 ---
-title: "Testing Windows Store apps | hehe"
+title: "Testing Windows Store apps"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"

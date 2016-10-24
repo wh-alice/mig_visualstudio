@@ -1,5 +1,5 @@
 ---
-title: "Directory or file specified in Look In is not available or does not exist. | hehe"
+title: "Directory or file specified in Look In is not available or does not exist."
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

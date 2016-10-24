@@ -1,5 +1,5 @@
 ---
-title: "MSBuild .Targets Files | hehe"
+title: "MSBuild .Targets Files"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

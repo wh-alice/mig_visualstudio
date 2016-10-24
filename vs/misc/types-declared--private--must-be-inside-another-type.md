@@ -1,5 +1,5 @@
 ---
-title: "Types declared &#39;Private&#39; must be inside another type | hehe"
+title: "Types declared &#39;Private&#39; must be inside another type"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

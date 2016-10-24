@@ -1,5 +1,5 @@
 ---
-title: "Can&#39;t perform requested operation (Visual Basic) | hehe"
+title: "Can&#39;t perform requested operation (Visual Basic)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

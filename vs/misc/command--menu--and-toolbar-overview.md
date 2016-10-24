@@ -1,5 +1,5 @@
 ---
-title: "Command, Menu, and Toolbar Overview | hehe"
+title: "Command, Menu, and Toolbar Overview"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

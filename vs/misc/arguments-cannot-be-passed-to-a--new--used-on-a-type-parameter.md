@@ -1,5 +1,5 @@
 ---
-title: "Arguments cannot be passed to a &#39;New&#39; used on a type parameter | hehe"
+title: "Arguments cannot be passed to a &#39;New&#39; used on a type parameter"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

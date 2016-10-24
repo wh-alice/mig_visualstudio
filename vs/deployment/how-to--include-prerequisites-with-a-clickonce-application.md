@@ -1,5 +1,5 @@
 ---
-title: "How to: Include Prerequisites with a ClickOnce Application | hehe"
+title: "How to: Include Prerequisites with a ClickOnce Application"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

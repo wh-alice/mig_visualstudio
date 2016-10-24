@@ -1,5 +1,5 @@
 ---
-title: "CorrelatesOn Definition Dialog Box | hehe"
+title: "CorrelatesOn Definition Dialog Box"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: ".net-framework-4.6"

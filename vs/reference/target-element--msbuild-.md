@@ -1,5 +1,5 @@
 ---
-title: "Target Element (MSBuild) | hehe"
+title: "Target Element (MSBuild)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

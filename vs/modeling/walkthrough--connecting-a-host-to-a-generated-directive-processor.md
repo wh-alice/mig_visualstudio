@@ -1,7 +1,7 @@
 ---
-title: "Walkthrough: Connecting a Host to a Generated Directive Processor | hehe"
+title: "Walkthrough: Connecting a Host to a Generated Directive Processor"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 254540d9-90d6-42de-8c1c-068affd56e83
 caps.latest.revision: 47
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 translation.priority.mt: 
   - "cs-cz"
   - "pl-pl"

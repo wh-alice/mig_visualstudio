@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Special Characters | hehe"
+title: "MSBuild Special Characters"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "linear_congruential_engine::linear_congruential_engine | hehe"
+title: "linear_congruential_engine::linear_congruential_engine"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "&#39;End Sub&#39; expected | hehe"
+title: "&#39;End Sub&#39; expected"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

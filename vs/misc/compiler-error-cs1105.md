@@ -1,5 +1,5 @@
 ---
-title: "Compiler Error CS1105 | hehe"
+title: "Compiler Error CS1105"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

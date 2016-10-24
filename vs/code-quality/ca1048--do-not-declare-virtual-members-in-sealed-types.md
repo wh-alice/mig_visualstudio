@@ -1,5 +1,5 @@
 ---
-title: "CA1048: Do not declare virtual members in sealed types | hehe"
+title: "CA1048: Do not declare virtual members in sealed types"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

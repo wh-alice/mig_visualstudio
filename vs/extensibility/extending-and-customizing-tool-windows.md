@@ -1,5 +1,5 @@
 ---
-title: "Extending and Customizing Tool Windows | hehe"
+title: "Extending and Customizing Tool Windows"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

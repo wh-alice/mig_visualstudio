@@ -1,5 +1,5 @@
 ---
-title: "&#39;Sub&#39; or &#39;Function&#39; expected after &#39;Delegate&#39; | hehe"
+title: "&#39;Sub&#39; or &#39;Function&#39; expected after &#39;Delegate&#39;"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

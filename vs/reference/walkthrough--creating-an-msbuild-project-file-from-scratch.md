@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating an MSBuild Project File from Scratch | hehe"
+title: "Walkthrough: Creating an MSBuild Project File from Scratch"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"

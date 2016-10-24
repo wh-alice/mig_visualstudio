@@ -1,7 +1,7 @@
 ---
-title: "Accessing data in Visual Studio | hehe"
+title: "Accessing data in Visual Studio"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/23/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

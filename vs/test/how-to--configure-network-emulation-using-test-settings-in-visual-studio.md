@@ -1,5 +1,5 @@
 ---
-title: "How to: Configure Network Emulation Using Test Settings in Visual Studio | hehe"
+title: "How to: Configure Network Emulation Using Test Settings in Visual Studio"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"

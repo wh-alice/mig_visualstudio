@@ -1,5 +1,5 @@
 ---
-title: "IDiaSymbol::get_farReturn | hehe"
+title: "IDiaSymbol::get_farReturn"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

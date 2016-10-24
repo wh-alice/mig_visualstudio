@@ -1,5 +1,5 @@
 ---
-title: "CA1050: Declare types in namespaces | hehe"
+title: "CA1050: Declare types in namespaces"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

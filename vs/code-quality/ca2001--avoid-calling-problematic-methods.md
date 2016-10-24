@@ -1,5 +1,5 @@
 ---
-title: "CA2001: Avoid calling problematic methods | hehe"
+title: "CA2001: Avoid calling problematic methods"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

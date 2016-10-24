@@ -1,5 +1,5 @@
 ---
-title: "mersenne_twister_engine::discard | hehe"
+title: "mersenne_twister_engine::discard"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

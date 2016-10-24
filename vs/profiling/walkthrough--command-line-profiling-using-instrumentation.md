@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Command-Line Profiling Using Instrumentation | hehe"
+title: "Walkthrough: Command-Line Profiling Using Instrumentation"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Analyzing Code Coverage in Build Verification Tests | hehe"
+title: "Analyzing Code Coverage in Build Verification Tests"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

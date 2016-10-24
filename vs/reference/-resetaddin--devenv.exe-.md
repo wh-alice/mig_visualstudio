@@ -1,5 +1,5 @@
 ---
-title: "-ResetAddin (devenv.exe) | hehe"
+title: "-ResetAddin (devenv.exe)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

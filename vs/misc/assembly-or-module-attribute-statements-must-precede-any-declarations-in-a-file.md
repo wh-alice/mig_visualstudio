@@ -1,5 +1,5 @@
 ---
-title: "Assembly or Module attribute statements must precede any declarations in a file | hehe"
+title: "Assembly or Module attribute statements must precede any declarations in a file"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Number of indices is less than the number of dimensions of the indexed array | hehe"
+title: "Number of indices is less than the number of dimensions of the indexed array"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

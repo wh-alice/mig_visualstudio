@@ -1,5 +1,5 @@
 ---
-title: "IDiaSymbol::get_isSdl | hehe"
+title: "IDiaSymbol::get_isSdl"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

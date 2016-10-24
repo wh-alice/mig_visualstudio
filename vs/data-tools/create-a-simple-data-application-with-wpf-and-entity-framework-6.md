@@ -1,7 +1,7 @@
 ---
-title: "Create a simple data application with WPF and Entity Framework 6 | hehe"
+title: "Create a simple data application with WPF and Entity Framework 6"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -10,6 +10,7 @@ ms.topic: "article"
 ms.assetid: 65929fab-5d78-4e04-af1e-cf4957f230f6
 caps.latest.revision: 22
 ms.author: "mblome"
+manager: "ghogen"
 translation.priority.mt: 
   - "cs-cz"
   - "pl-pl"

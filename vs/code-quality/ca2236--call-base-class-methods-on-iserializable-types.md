@@ -1,5 +1,5 @@
 ---
-title: "CA2236: Call base class methods on ISerializable types | hehe"
+title: "CA2236: Call base class methods on ISerializable types"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "How to: Collect IntelliTrace Data to Help Debug Difficult Issues | hehe"
+title: "How to: Collect IntelliTrace Data to Help Debug Difficult Issues"
 ms.custom: ""
 ms.date: "10/13/2016"
 ms.prod: "visual-studio-tfs-dev14"

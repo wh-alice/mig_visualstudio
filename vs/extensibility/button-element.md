@@ -1,5 +1,5 @@
 ---
-title: "Button Element | hehe"
+title: "Button Element"
 ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"

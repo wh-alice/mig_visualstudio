@@ -1,7 +1,7 @@
 ---
-title: "Add stereotypes to UML model elements | hehe"
+title: "Add stereotypes to UML model elements"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 82545252-83ce-4e11-a419-61373be75d16
 caps.latest.revision: 15
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

@@ -1,7 +1,7 @@
 ---
-title: "Shader Designer Examples | hehe"
+title: "Shader Designer Examples"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f12f5dee-63ab-4376-9952-7f87f269e9c4
 caps.latest.revision: 9
-ms.author: "mithom"
+ms.author: "brpeek"
 manager: "ghogen"
 ---
 # Shader Designer Examples

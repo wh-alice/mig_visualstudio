@@ -1,5 +1,5 @@
 ---
-title: "Collecting Detailed Timing Data for Services by Using the Instrumentation Method from the Profiler Command Line | hehe"
+title: "Collecting Detailed Timing Data for Services by Using the Instrumentation Method from the Profiler Command Line"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

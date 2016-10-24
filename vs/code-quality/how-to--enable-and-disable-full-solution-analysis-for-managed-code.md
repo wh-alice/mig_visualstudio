@@ -1,5 +1,5 @@
 ---
-title: "How to: Enable and Disable Full Solution Analysis for Managed Code | hehe"
+title: "How to: Enable and Disable Full Solution Analysis for Managed Code"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

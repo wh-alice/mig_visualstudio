@@ -1,5 +1,5 @@
 ---
-title: "IDiaSession::get_globalScope | hehe"
+title: "IDiaSession::get_globalScope"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

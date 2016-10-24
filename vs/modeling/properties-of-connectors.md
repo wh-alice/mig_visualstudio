@@ -1,7 +1,7 @@
 ---
-title: "Properties of Connectors | hehe"
+title: "Properties of Connectors"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: b1f24e8d-cdd7-4a5d-af37-1038f43b45c7
 caps.latest.revision: 21
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 ---
 # Properties of Connectors
 Connectors represent domain relationships in a generated designer.  

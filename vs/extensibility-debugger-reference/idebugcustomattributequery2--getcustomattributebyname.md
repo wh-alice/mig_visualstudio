@@ -1,5 +1,5 @@
 ---
-title: "IDebugCustomAttributeQuery2::GetCustomAttributeByName | hehe"
+title: "IDebugCustomAttributeQuery2::GetCustomAttributeByName"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

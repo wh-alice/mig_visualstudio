@@ -1,7 +1,7 @@
 ---
-title: "Install And Configure Tools to Build using iOS | hehe"
+title: "Install And Configure Tools to Build using iOS"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -12,7 +12,7 @@ ms.topic: "article"
 dev_langs: 
   - "C++"
 ms.assetid: d0c311c9-9eb9-42c5-ba07-25604362cd28
-caps.latest.revision: 9
+caps.latest.revision: 11
 ms.author: "brpeek"
 manager: "ghogen"
 translation.priority.ht: 
@@ -35,7 +35,7 @@ translation.priority.mt:
 You can use Visual C++ for Cross-Platform Mobile Development to edit, debug and deploy iOS code to the iOS Simulator or to an iOS device, but because of licensing restrictions, the code must be built and run remotely on a Mac. To build and run iOS apps using Visual Studio, you need to set up and configure the remote agent, [vcremote](http://go.microsoft.com/fwlink/p/?LinkId=534988), on your Mac. The remote agent handles build requests from Visual Studio and runs the app on an iOS device connected to the Mac, or in the iOS Simulator on the Mac.  
   
 > [!NOTE]
->  For information on using cloud-hosted Mac services instead of a Mac, see [Build and Simulate iOS in the Cloud](../Topic/Build%20and%20Simulate%20iOS%20in%20the%20Cloud.md). The instructions are for building using Visual Studio Tools for Apache Cordova. To use the instructions to build using Visual C++ for Cross-Platform Mobile Development, substitute vcremote for vs-mda-remote.  
+>  For information on using cloud-hosted Mac services instead of a Mac, see [Build and Simulate iOS in the Cloud](https://taco.visualstudio.com/en-us/docs/build_ios_cloud/). The instructions are for building using Visual Studio Tools for Apache Cordova. To use the instructions to build using Visual C++ for Cross-Platform Mobile Development, substitute vcremote for vs-mda-remote.  
   
  Once you have installed the tools to build using iOS, refer to this topic for ways to quickly configure and update the remote agent for iOS development in Visual Studio and on your Mac.  
   
@@ -230,7 +230,7 @@ You can use Visual C++ for Cross-Platform Mobile Development to edit, debug and 
   
      `vcremote --secure false`  
   
-     When you use this option, uncheck the **Secure** checkbox and leave the **Pin** field blank when configuring the agent in Visual Studio.  
+     When you use this option, clear the **Secure** checkbox and leave the **Pin** field blank when configuring the agent in Visual Studio.  
   
 -   To specify a location for remote agent files, enter:  
   

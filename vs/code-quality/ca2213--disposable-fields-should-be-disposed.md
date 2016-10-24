@@ -1,5 +1,5 @@
 ---
-title: "CA2213: Disposable fields should be disposed | hehe"
+title: "CA2213: Disposable fields should be disposed"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

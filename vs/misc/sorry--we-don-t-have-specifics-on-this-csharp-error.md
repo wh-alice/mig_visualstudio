@@ -1,5 +1,5 @@
 ---
-title: "Sorry, we don&#39;t have specifics on this C# error | hehe"
+title: "Sorry, we don&#39;t have specifics on this C# error"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

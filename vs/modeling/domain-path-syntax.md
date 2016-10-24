@@ -1,7 +1,7 @@
 ---
-title: "Domain Path Syntax | hehe"
+title: "Domain Path Syntax"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 945994f9-72b9-42e0-81b2-e5fb3d0e282d
 caps.latest.revision: 25
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 ---
 # Domain Path Syntax
 DSL Definitions use an XPath-like syntax to locate specific elements in a model.  

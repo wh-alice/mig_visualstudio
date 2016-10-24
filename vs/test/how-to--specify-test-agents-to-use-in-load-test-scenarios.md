@@ -1,5 +1,5 @@
 ---
-title: "How to: Specify Test Agents to Use in Load Test Scenarios | hehe"
+title: "How to: Specify Test Agents to Use in Load Test Scenarios"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

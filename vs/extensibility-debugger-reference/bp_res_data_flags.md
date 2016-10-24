@@ -1,5 +1,5 @@
 ---
-title: "BP_RES_DATA_FLAGS | hehe"
+title: "BP_RES_DATA_FLAGS"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

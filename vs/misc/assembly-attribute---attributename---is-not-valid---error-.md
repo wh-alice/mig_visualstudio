@@ -1,5 +1,5 @@
 ---
-title: "Assembly attribute &#39;&lt;attributename&gt;&#39; is not valid: &lt;error&gt; | hehe"
+title: "Assembly attribute &#39;&lt;attributename&gt;&#39; is not valid: &lt;error&gt;"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

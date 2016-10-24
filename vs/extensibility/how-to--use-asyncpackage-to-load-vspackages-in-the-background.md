@@ -1,7 +1,7 @@
 ---
-title: "How to: Use AsyncPackage to Load VSPackages in the Background | hehe"
+title: "How to: Use AsyncPackage to Load VSPackages in the Background"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

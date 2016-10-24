@@ -1,5 +1,5 @@
 ---
-title: "Method &#39;&lt;methodname&gt;&#39; is already declared in interface &#39;&lt;interfacename&gt;&#39; | hehe"
+title: "Method &#39;&lt;methodname&gt;&#39; is already declared in interface &#39;&lt;interfacename&gt;&#39;"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

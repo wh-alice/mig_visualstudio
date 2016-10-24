@@ -1,5 +1,5 @@
 ---
-title: "How to: Associate Delegates to Members of a Value Class | hehe"
+title: "How to: Associate Delegates to Members of a Value Class"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Prerequisites Dialog Box | hehe"
+title: "Prerequisites Dialog Box"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

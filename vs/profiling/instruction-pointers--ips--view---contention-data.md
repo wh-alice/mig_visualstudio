@@ -1,5 +1,5 @@
 ---
-title: "Instruction Pointers (IPs) View - Contention Data | hehe"
+title: "Instruction Pointers (IPs) View - Contention Data"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

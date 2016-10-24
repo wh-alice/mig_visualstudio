@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Publishing a Web Control Project Template | hehe"
+title: "Walkthrough: Publishing a Web Control Project Template"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

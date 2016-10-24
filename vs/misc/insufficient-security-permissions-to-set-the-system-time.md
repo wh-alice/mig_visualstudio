@@ -1,5 +1,5 @@
 ---
-title: "Insufficient security permissions to set the system time | hehe"
+title: "Insufficient security permissions to set the system time"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

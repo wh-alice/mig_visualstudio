@@ -1,7 +1,7 @@
 ---
-title: "Share models and exporting diagrams | hehe"
+title: "Share models and exporting diagrams"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 22e47b4d-c185-478c-9535-56d292b45984
 caps.latest.revision: 14
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

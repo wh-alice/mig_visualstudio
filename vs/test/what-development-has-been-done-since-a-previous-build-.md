@@ -1,5 +1,5 @@
 ---
-title: "What development has been done since a previous build? | hehe"
+title: "What development has been done since a previous build?"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

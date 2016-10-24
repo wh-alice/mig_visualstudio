@@ -1,5 +1,5 @@
 ---
-title: "Themes, Workflow Designer, Options Dialog Box (Legacy) | hehe"
+title: "Themes, Workflow Designer, Options Dialog Box (Legacy)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: ".net-framework-4.6"

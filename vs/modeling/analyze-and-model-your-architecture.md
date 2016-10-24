@@ -1,7 +1,7 @@
 ---
-title: "Analyze and model your architecture | hehe"
+title: "Analyze and model your architecture"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ helpviewer_keywords:
 ms.assetid: c9f04cfa-72bd-419d-a952-616eed01472e
 caps.latest.revision: 127
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

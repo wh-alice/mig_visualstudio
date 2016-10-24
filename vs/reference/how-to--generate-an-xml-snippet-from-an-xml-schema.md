@@ -1,5 +1,5 @@
 ---
-title: "How to: Generate an XML Snippet From an XML Schema | hehe"
+title: "How to: Generate an XML Snippet From an XML Schema"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

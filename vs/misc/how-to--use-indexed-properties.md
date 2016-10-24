@@ -1,5 +1,5 @@
 ---
-title: "How to: Use Indexed Properties | hehe"
+title: "How to: Use Indexed Properties"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,7 +1,7 @@
 ---
-title: "Properties of Geometry Shapes | hehe"
+title: "Properties of Geometry Shapes"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 3993a23e-eab3-4ceb-b475-c395d5992bfc
 caps.latest.revision: 21
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 ---
 # Properties of Geometry Shapes
 You can use geometry shapes to specify how instances of domain classes are displayed in a domain-specific language. For more information, see [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md). For more information about how to use these properties, see [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md).  

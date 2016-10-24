@@ -1,7 +1,7 @@
 ---
-title: "Working with the Domain-Specific Language Explorer | hehe"
+title: "Working with the Domain-Specific Language Explorer"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: ca0e8550-bb55-4218-92e2-f79ab5308d4f
 caps.latest.revision: 11
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 ---
 # Working with the Domain-Specific Language Explorer
 The **DSL Explorer** displays several kinds of information in a tree view. For more information about most of the items in the DSL Explorer, see [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md).  

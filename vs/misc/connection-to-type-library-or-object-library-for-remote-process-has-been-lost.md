@@ -1,5 +1,5 @@
 ---
-title: "Connection to type library or object library for remote process has been lost | hehe"
+title: "Connection to type library or object library for remote process has been lost"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

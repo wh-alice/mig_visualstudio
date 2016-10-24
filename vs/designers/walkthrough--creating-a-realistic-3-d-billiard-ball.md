@@ -1,7 +1,7 @@
 ---
-title: "Walkthrough: Creating a Realistic 3-D Billiard Ball | hehe"
+title: "Walkthrough: Creating a Realistic 3-D Billiard Ball"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: af8eb0f3-bf6a-4d1c-ab47-dcd88ab04efa
 caps.latest.revision: 9
-ms.author: "mithom"
+ms.author: "brpeek"
 manager: "ghogen"
 ---
 # Walkthrough: Creating a Realistic 3-D Billiard Ball

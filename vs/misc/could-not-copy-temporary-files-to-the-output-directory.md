@@ -1,5 +1,5 @@
 ---
-title: "Could not copy temporary files to the output directory | hehe"
+title: "Could not copy temporary files to the output directory"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

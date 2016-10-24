@@ -1,5 +1,5 @@
 ---
-title: "&#39;=&#39; expected (Declaration) | hehe"
+title: "&#39;=&#39; expected (Declaration)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

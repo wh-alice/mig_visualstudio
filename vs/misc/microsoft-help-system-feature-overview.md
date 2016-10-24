@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Help System Feature Overview | hehe"
+title: "Microsoft Help System Feature Overview"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

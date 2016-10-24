@@ -1,5 +1,5 @@
 ---
-title: "Using Microsoft.VisualStudio.TestTools.UnitTesting Members in Unit Tests | hehe"
+title: "Using Microsoft.VisualStudio.TestTools.UnitTesting Members in Unit Tests"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

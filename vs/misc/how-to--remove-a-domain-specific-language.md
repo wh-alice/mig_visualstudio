@@ -1,5 +1,5 @@
 ---
-title: "How to: Remove a Domain-Specific Language | hehe"
+title: "How to: Remove a Domain-Specific Language"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,7 +1,7 @@
 ---
-title: "Working with Shaders | hehe"
+title: "Working with Shaders"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6b2ea1ed-b995-4e75-af19-c68fd37a3bc5
 caps.latest.revision: 8
-ms.author: "mithom"
+ms.author: "brpeek"
 manager: "ghogen"
 ---
 # Working with Shaders

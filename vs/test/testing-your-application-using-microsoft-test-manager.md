@@ -1,5 +1,5 @@
 ---
-title: "Testing your application using Microsoft Test Manager | hehe"
+title: "Testing your application using Microsoft Test Manager"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"

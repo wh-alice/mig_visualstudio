@@ -1,5 +1,5 @@
 ---
-title: "Using Coded UI Tests in Load Tests | hehe"
+title: "Using Coded UI Tests in Load Tests"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

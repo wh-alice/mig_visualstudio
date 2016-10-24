@@ -1,5 +1,5 @@
 ---
-title: "Properties declared &#39;ReadOnly&#39; cannot have a &#39;Set&#39; | hehe"
+title: "Properties declared &#39;ReadOnly&#39; cannot have a &#39;Set&#39;"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

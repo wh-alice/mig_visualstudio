@@ -1,5 +1,5 @@
 ---
-title: "Feedback to the User | hehe"
+title: "Feedback to the User"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

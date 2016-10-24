@@ -1,5 +1,5 @@
 ---
-title: "DA0024: Excessive GC CPU Time | hehe"
+title: "DA0024: Excessive GC CPU Time"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

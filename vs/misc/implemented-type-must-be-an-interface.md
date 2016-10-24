@@ -1,5 +1,5 @@
 ---
-title: "Implemented type must be an interface | hehe"
+title: "Implemented type must be an interface"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

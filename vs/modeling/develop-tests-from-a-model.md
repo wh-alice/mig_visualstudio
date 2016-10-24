@@ -1,7 +1,7 @@
 ---
-title: "Develop tests from a model | hehe"
+title: "Develop tests from a model"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 40f87192-ba85-4552-8804-314a678261ae
 caps.latest.revision: 20
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

@@ -1,7 +1,7 @@
 ---
-title: "Accessibility Tips and Tricks | hehe"
+title: "Accessibility Tips and Tricks"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/22/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -12,7 +12,7 @@ ms.topic: "article"
 helpviewer_keywords: 
   - "accessibility [Visual Studio]"
 ms.assetid: 6b491d88-f79e-4686-8841-857624bdcfda
-caps.latest.revision: 21
+caps.latest.revision: 22
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -37,7 +37,7 @@ translation.priority.ht:
 >  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## Save Your IDE Settings  
- You can customize your IDE experience by saving your window layout, keyboard mapping scheme, and other preferences for use on your current computer and on other computers. For more information, see [How to: Share Settings Between Computers](http://msdn.microsoft.com/en-us/1131fb10-35c1-42da-9cd8-91aa3235b882) and [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
+ You can customize your IDE experience by saving your window layout, keyboard mapping scheme, and other preferences. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## Common Windows Shortcut Key Combinations  
  You can use many of the standard Windows shortcut key combinations to perform tasks within [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Some of these shortcut key combinations include:  

@@ -1,5 +1,5 @@
 ---
-title: "Sample XSD File: Purchase Order Schema | hehe"
+title: "Sample XSD File: Purchase Order Schema"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

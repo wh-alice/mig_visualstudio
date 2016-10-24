@@ -1,5 +1,5 @@
 ---
-title: "Named arguments cannot match ParamArray parameters | hehe"
+title: "Named arguments cannot match ParamArray parameters"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

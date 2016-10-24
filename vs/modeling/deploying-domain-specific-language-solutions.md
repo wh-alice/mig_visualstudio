@@ -1,7 +1,7 @@
 ---
-title: "Deploying Domain-Specific Language Solutions | hehe"
+title: "Deploying Domain-Specific Language Solutions"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 160a9022-ab2f-47db-9d04-4c63fef0ee7d
 caps.latest.revision: 27
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 ---
 # Deploying Domain-Specific Language Solutions
 You can install a domain-specific language on your own computer or on other computers. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] must already be installed on the target computer.  

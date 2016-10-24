@@ -1,5 +1,5 @@
 ---
-title: "Directly access the database with a TableAdapter | hehe"
+title: "Directly access the database with a TableAdapter"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"

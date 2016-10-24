@@ -1,5 +1,5 @@
 ---
-title: "IDebugExpressionEvaluator2::SetCallback | hehe"
+title: "IDebugExpressionEvaluator2::SetCallback"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

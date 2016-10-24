@@ -1,5 +1,5 @@
 ---
-title: "We&#39;re sorry | hehe"
+title: "We&#39;re sorry"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Could not bind to dependency &#39;assembly&#39; | hehe"
+title: "Could not bind to dependency &#39;assembly&#39;"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

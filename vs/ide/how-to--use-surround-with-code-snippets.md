@@ -1,5 +1,5 @@
 ---
-title: "How to: Use Surround-with Code Snippets | hehe"
+title: "How to: Use Surround-with Code Snippets"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

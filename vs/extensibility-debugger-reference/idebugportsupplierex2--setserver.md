@@ -1,5 +1,5 @@
 ---
-title: "IDebugPortSupplierEx2::SetServer | hehe"
+title: "IDebugPortSupplierEx2::SetServer"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

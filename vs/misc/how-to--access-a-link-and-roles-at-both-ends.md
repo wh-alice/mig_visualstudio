@@ -1,5 +1,5 @@
 ---
-title: "How to: Access a Link and Roles at Both Ends | hehe"
+title: "How to: Access a Link and Roles at Both Ends"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

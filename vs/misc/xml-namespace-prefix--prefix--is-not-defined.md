@@ -1,5 +1,5 @@
 ---
-title: "XML namespace prefix &#39;prefix&#39; is not defined | hehe"
+title: "XML namespace prefix &#39;prefix&#39; is not defined"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,7 +1,7 @@
 ---
-title: "Image Editor | hehe"
+title: "Image Editor"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,7 +14,7 @@ f1_keywords:
   - "vs.graphics.imageeditor"
 ms.assetid: fc71d502-c548-4863-8afc-12a1d3ec90d4
 caps.latest.revision: 45
-ms.author: "mithom"
+ms.author: "brpeek"
 manager: "ghogen"
 ---
 # Image Editor

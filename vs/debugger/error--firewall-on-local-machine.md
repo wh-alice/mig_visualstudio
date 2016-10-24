@@ -1,5 +1,5 @@
 ---
-title: "Error: Firewall on Local Machine | hehe"
+title: "Error: Firewall on Local Machine"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

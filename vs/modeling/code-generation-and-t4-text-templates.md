@@ -1,7 +1,7 @@
 ---
-title: "Code Generation and T4 Text Templates | hehe"
+title: "Code Generation and T4 Text Templates"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,7 +20,7 @@ helpviewer_keywords:
 ms.assetid: 74a0a748-5b11-4999-8bea-49572967827d
 caps.latest.revision: 82
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,5 +1,5 @@
 ---
-title: "Error getting Codezone Community sites. | hehe"
+title: "Error getting Codezone Community sites."
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

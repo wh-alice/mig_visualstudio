@@ -1,7 +1,7 @@
 ---
-title: "Application Page, Project Designer (Visual Basic) | hehe"
+title: "Application Page, Project Designer (Visual Basic)"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/22/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "Project Designer, Application page"
   - "Application page in Project Designer"
 ms.assetid: 8cec9fea-cd92-47ff-88dd-7c928f0b4a74
-caps.latest.revision: 63
+caps.latest.revision: 64
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -121,7 +121,7 @@ Use the **Application** page of the Project Designer to specify a project's appl
  The following settings are available in the **Windows application framework properties** section. These options are available only if the **Enable application framework** check box is selected. The section following this one describes **Windows application framework properties** settings for Windows Presentation Foundation (WPF) Applications.  
   
  **Enable XP visual styles**  
- Enables or disables the Windows XP visual styles, also known as *Windows XP Themes*. Windows XP visual styles enable, for example, controls with rounded corners and dynamic colors. The default is enabled. For more information about Windows XP visual styles, see [Windows XP Features and Windows Forms Controls](http://msdn.microsoft.com/en-us/bc7fab94-fce9-4bf1-a8ad-a5837c91c3c0) and [How to: Enable Windows XP Visual Styles](http://msdn.microsoft.com/en-us/0a038ade-31cf-4e56-9cfe-7a1e6b83b57f).  
+ Enables or disables the Windows XP visual styles, also known as *Windows XP Themes*. Windows XP visual styles enable, for example, controls with rounded corners and dynamic colors. The default is enabled. For more information about Windows XP visual styles, see [Windows XP Features and Windows Forms Controls](http://msdn.microsoft.com/en-us/bc7fab94-fce9-4bf1-a8ad-a5837c91c3c0)).  
   
  **Make single instance application**  
  Select this check box to prevent users from running multiple instances of the application. The default setting for this check box is cleared. This setting allows multiple instances of the application to be run.  

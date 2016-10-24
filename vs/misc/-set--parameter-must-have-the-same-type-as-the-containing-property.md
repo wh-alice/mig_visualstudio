@@ -1,5 +1,5 @@
 ---
-title: "&#39;Set&#39; parameter must have the same type as the containing property | hehe"
+title: "&#39;Set&#39; parameter must have the same type as the containing property"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

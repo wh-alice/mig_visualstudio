@@ -1,5 +1,5 @@
 ---
-title: "How to: Create TableAdapter Queries | hehe"
+title: "How to: Create TableAdapter Queries"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

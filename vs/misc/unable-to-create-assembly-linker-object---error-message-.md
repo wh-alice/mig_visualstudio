@@ -1,5 +1,5 @@
 ---
-title: "Unable to create Assembly Linker object: &lt;error message&gt; | hehe"
+title: "Unable to create Assembly Linker object: &lt;error message&gt;"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

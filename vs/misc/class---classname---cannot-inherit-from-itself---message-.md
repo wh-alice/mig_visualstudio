@@ -1,5 +1,5 @@
 ---
-title: "Class &#39;&lt;classname&gt;&#39; cannot inherit from itself: &lt;message&gt; | hehe"
+title: "Class &#39;&lt;classname&gt;&#39; cannot inherit from itself: &lt;message&gt;"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

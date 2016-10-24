@@ -1,5 +1,5 @@
 ---
-title: "How to: Reference the Name or Location of the Project File | hehe"
+title: "How to: Reference the Name or Location of the Project File"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"

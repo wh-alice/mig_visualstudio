@@ -1,5 +1,5 @@
 ---
-title: "Putting a User Control in a Tool Window | hehe"
+title: "Putting a User Control in a Tool Window"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

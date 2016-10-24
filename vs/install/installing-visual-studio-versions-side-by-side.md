@@ -1,7 +1,7 @@
 ---
-title: "Installing Visual Studio Versions Side-by-Side | hehe"
+title: "Installing Visual Studio Versions Side-by-Side"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/22/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

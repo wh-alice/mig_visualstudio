@@ -1,7 +1,7 @@
 ---
-title: "Install Visual C++ for Cross-Platform Mobile Development | hehe"
+title: "Install Visual C++ for Cross-Platform Mobile Development"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -12,7 +12,7 @@ ms.topic: "article"
 dev_langs: 
   - "C++"
 ms.assetid: aaea6b8d-55eb-4427-8185-c050f855c257
-caps.latest.revision: 14
+caps.latest.revision: 15
 ms.author: "brpeek"
 manager: "ghogen"
 translation.priority.ht: 
@@ -32,7 +32,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Install Visual C++ for Cross-Platform Mobile Development
-[Visual C++ for Cross-Platform Mobile Development](http://go.microsoft.com/fwlink/p/?LinkId=536383) is an installable component of Visual Studio 2015. It includes cross-platform Visual Studio templates and installs the cross-platform tools and SDKs to get started quickly, without having to locate, download, and configure them yourself. You can use these tools in Visual Studio to easily create, edit, debug and test cross-platform projects. This topic describes how to install the tools and third-party software required to develop cross-platform apps using Visual Studio. For an overview of the component, see [Visual C++ Cross-Platform Mobile](https://www.visualstudio.com/explore/cplusplus-mdd-vs.aspx)  
+[Visual C++ for Cross-Platform Mobile Development](http://go.microsoft.com/fwlink/p/?LinkId=536383) is an installable component of Visual Studio 2015. It includes cross-platform Visual Studio templates and installs the cross-platform tools and SDKs to get started quickly, without having to locate, download, and configure them yourself. You can use these tools in Visual Studio to easily create, edit, debug and test cross-platform projects. This topic describes how to install the tools and third-party software required to develop cross-platform apps using Visual Studio. For an overview of the component, see [Visual C++ Cross-Platform Mobile](http://go.microsoft.com/fwlink/p/?LinkId=536387)  
   
  [Requirements](#Requirements)   
  [Get the tools](#GetTheTools)   

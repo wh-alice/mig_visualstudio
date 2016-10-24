@@ -1,5 +1,5 @@
 ---
-title: "Cannot convert &#39;type1&#39; to &#39;type2&#39; | hehe"
+title: "Cannot convert &#39;type1&#39; to &#39;type2&#39;"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

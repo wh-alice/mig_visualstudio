@@ -1,5 +1,5 @@
 ---
-title: "&#39;Implements&#39; is not valid on operator declaration | hehe"
+title: "&#39;Implements&#39; is not valid on operator declaration"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

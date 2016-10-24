@@ -1,7 +1,7 @@
 ---
-title: "How to: Migrate a Domain-Specific Language to a New Version | hehe"
+title: "How to: Migrate a Domain-Specific Language to a New Version"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 6a1ae073-443e-45ca-8bc9-9b944362b449
 caps.latest.revision: 14
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 ---
 # How to: Migrate a Domain-Specific Language to a New Version
 You can migrate projects that define and use domain-specific language to [!INCLUDE[vs2010](../code-quality/includes/vs2010_md.md)] from the version of [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] that was distributed with [!INCLUDE[vs_orcas_long](../code-quality/includes/vs_orcas_long_md.md)].  

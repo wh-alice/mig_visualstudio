@@ -1,5 +1,5 @@
 ---
-title: "How to: Specify an Alternate Location for Deployment Updates | hehe"
+title: "How to: Specify an Alternate Location for Deployment Updates"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

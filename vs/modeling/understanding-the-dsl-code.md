@@ -1,7 +1,7 @@
 ---
-title: "Understanding the DSL Code | hehe"
+title: "Understanding the DSL Code"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/24/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 8e5c10e4-6323-433e-b88a-5d3d92639030
 caps.latest.revision: 19
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 translation.priority.mt: 
   - "cs-cz"
   - "de-de"

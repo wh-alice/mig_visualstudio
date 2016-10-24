@@ -1,5 +1,5 @@
 ---
-title: "CA2205: Use managed equivalents of Win32 API | hehe"
+title: "CA2205: Use managed equivalents of Win32 API"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

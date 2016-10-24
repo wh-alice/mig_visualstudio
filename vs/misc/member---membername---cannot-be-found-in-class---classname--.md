@@ -1,5 +1,5 @@
 ---
-title: "Member &#39;&lt;membername&gt;&#39; cannot be found in class &#39;&lt;classname&gt;&#39; | hehe"
+title: "Member &#39;&lt;membername&gt;&#39; cannot be found in class &#39;&lt;classname&gt;&#39;"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

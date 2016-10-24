@@ -1,5 +1,5 @@
 ---
-title: "How to: Install a Specific Release of Visual Studio | hehe"
+title: "How to: Install a Specific Release of Visual Studio"
 ms.custom: ""
 ms.date: "2016-09-06"
 ms.prod: "visual-studio-dev14"

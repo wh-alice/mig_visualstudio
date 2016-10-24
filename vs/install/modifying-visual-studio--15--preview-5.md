@@ -1,7 +1,7 @@
 ---
-title: "Modifying Visual Studio &quot;15&quot; Preview 5 | hehe"
+title: "Modifying Visual Studio &quot;15&quot; Preview 5"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "modifying visual studio"
   - "changing visual studio"
 ms.assetid: 3399ea7b-a291-4a9e-80a1-b861a21afa1d
-caps.latest.revision: 8
+caps.latest.revision: 9
 ms.author: "tglee"
 manager: "ghogen"
 ---
@@ -49,7 +49,9 @@ Not only have we made is easier for you to personalize Visual Studio to match th
   
 5. After the new workloads and components are installed, click **Launch**.
 
- That's all there is to it!  
+ ## Modify individual components
+
+If you don’t want to use the handy Workloads feature to customize your Visual Studio installation, choose the **Individual Components** option from the Visual Studio Installer, select what you want, and then follow the prompts.  
   
 ## See Also  
 *  [Installing Visual Studio "15" Preview 5](../install/installing-visual-studio--15--preview-5.md)

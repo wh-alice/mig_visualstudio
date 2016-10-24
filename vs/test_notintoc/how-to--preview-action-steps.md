@@ -1,5 +1,5 @@
 ---
-title: "How to: Preview Action Steps | hehe"
+title: "How to: Preview Action Steps"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

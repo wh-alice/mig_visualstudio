@@ -1,7 +1,7 @@
 ---
-title: "Troubleshooting and Known Issues (Visual Studio Tools for Unity) | hehe"
+title: "Troubleshooting and Known Issues (Visual Studio Tools for Unity)"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8f5db192-8d78-4627-bd07-dbbc803ac554
 caps.latest.revision: 5
-ms.author: "mithom"
+ms.author: "ghogen"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

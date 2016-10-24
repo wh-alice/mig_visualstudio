@@ -1,7 +1,7 @@
 ---
-title: "Customizing Copy Behavior | hehe"
+title: "Customizing Copy Behavior"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 87fff01c-60ba-440a-b8a0-185edcef83ac
 caps.latest.revision: 16
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 ---
 # Customizing Copy Behavior
 In a domain-specific language (DSL) created with the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Visualization and Modeling SDK, you can alter what happens when the user copies and pastes elements.  

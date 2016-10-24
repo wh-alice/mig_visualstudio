@@ -1,5 +1,5 @@
 ---
-title: "The project file is missing the &#39;section&#39; section | hehe"
+title: "The project file is missing the &#39;section&#39; section"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

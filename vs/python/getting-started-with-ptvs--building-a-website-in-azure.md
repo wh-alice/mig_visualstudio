@@ -1,5 +1,5 @@
 ---
-title: "Getting Started with PTVS: Building a Website in Azure | hehe"
+title: "Getting Started with PTVS: Building a Website in Azure"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

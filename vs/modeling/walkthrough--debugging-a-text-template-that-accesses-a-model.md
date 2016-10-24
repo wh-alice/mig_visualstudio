@@ -1,7 +1,7 @@
 ---
-title: "Walkthrough: Debugging a Text Template that Accesses a Model | hehe"
+title: "Walkthrough: Debugging a Text Template that Accesses a Model"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: af46a7fe-6b98-4d3d-b816-0bbf8e81e220
 caps.latest.revision: 6
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 ---
 # Walkthrough: Debugging a Text Template that Accesses a Model
 When you modify or add text templates in a domain-specific language solution, you may get errors when the engine transforms the template to source code or when it compiles the generated code. The following walkthrough demonstrates some of the things you can do to debug a text template.  

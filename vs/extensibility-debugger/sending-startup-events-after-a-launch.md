@@ -1,5 +1,5 @@
 ---
-title: "Sending Startup Events After a Launch | hehe"
+title: "Sending Startup Events After a Launch"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

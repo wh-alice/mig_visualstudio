@@ -1,7 +1,7 @@
 ---
-title: "Customize Project Files Created by VSTU | hehe"
+title: "Customize Project Files Created by VSTU"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 60b8cc1d-cacc-404d-b768-77e81bc354f8
 caps.latest.revision: 2
-ms.author: "mithom"
+ms.author: "ghogen"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

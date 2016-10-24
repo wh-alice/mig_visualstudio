@@ -1,7 +1,7 @@
 ---
-title: "BoundsRules Constrain Shape Location and Size | hehe"
+title: "BoundsRules Constrain Shape Location and Size"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 4d08e541-fc67-4e68-bf31-30d346aa2aa0
 caps.latest.revision: 18
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 ---
 # BoundsRules Constrain Shape Location and Size
 A *Bounds Rule* is a class that defines limits on the size and location of a shape. It provides a method that is called repeatedly while a user is dragging a shape or the corners or sides of a shape.  

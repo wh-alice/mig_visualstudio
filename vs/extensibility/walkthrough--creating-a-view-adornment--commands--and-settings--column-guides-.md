@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating a View Adornment, Commands, and Settings (Column Guides) | hehe"
+title: "Walkthrough: Creating a View Adornment, Commands, and Settings (Column Guides)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Implementing Single-File Generators | hehe"
+title: "Implementing Single-File Generators"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

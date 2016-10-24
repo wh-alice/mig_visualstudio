@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Exceptions: System.Data.InRowChangingEventException | hehe"
+title: "Troubleshooting Exceptions: System.Data.InRowChangingEventException"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

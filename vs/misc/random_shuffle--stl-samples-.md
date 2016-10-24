@@ -1,5 +1,5 @@
 ---
-title: "random_shuffle (STL Samples) | hehe"
+title: "random_shuffle (STL Samples)"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

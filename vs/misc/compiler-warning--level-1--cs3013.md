@@ -1,5 +1,5 @@
 ---
-title: "Compiler Warning (level 1) CS3013 | hehe"
+title: "Compiler Warning (level 1) CS3013"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

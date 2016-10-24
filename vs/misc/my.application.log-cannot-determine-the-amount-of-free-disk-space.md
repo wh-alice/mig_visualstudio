@@ -1,5 +1,5 @@
 ---
-title: "My.Application.Log cannot determine the amount of free disk space | hehe"
+title: "My.Application.Log cannot determine the amount of free disk space"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

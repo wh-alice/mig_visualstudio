@@ -1,5 +1,5 @@
 ---
-title: "How to: Add Global Queries to a TableAdapter | hehe"
+title: "How to: Add Global Queries to a TableAdapter"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

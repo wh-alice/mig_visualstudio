@@ -1,7 +1,7 @@
 ---
-title: "Writing User Commands and Actions | hehe"
+title: "Writing User Commands and Actions"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: ba5ff03f-d2e3-4188-a706-3eb68ffb5f9e
 caps.latest.revision: 7
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 ---
 # Writing User Commands and Actions
 You can customize a domain-specific language by adding commands to the diagram, and by responding to gestures such as drag-and-drop, click, and double-click events.  

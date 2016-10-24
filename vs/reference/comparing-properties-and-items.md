@@ -1,5 +1,5 @@
 ---
-title: "Comparing Properties and Items | hehe"
+title: "Comparing Properties and Items"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

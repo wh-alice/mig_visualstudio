@@ -1,5 +1,5 @@
 ---
-title: "Event &#39;&lt;eventname&gt;&#39; cannot be found | hehe"
+title: "Event &#39;&lt;eventname&gt;&#39; cannot be found"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

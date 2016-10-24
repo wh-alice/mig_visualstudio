@@ -1,5 +1,5 @@
 ---
-title: "stack::top and stack::empty | hehe"
+title: "stack::top and stack::empty"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

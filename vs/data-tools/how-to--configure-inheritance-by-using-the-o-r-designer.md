@@ -1,5 +1,5 @@
 ---
-title: "How to: Configure inheritance by using the O-R Designer | hehe"
+title: "How to: Configure inheritance by using the O-R Designer"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

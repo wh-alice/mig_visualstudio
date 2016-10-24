@@ -1,7 +1,7 @@
 ---
-title: "What&#39;s new for testing tools in 2015 | hehe"
+title: "What&#39;s new for testing tools in 2015"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 31527496-7fe4-4e5f-822c-ab8f97aa8ae8
 caps.latest.revision: 16
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

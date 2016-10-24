@@ -1,5 +1,5 @@
 ---
-title: "Collecting Concurrency Data for a Service by Using the Profiler Command Line | hehe"
+title: "Collecting Concurrency Data for a Service by Using the Profiler Command Line"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

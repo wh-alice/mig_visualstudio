@@ -1,5 +1,5 @@
 ---
-title: "IDebugReference2::GetParent | hehe"
+title: "IDebugReference2::GetParent"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

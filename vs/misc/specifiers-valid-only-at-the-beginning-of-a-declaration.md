@@ -1,5 +1,5 @@
 ---
-title: "Specifiers valid only at the beginning of a declaration | hehe"
+title: "Specifiers valid only at the beginning of a declaration"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

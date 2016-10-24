@@ -1,5 +1,5 @@
 ---
-title: "How to: Specify Plot Options for Graphing Counters | hehe"
+title: "How to: Specify Plot Options for Graphing Counters"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

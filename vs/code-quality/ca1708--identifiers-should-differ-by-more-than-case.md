@@ -1,5 +1,5 @@
 ---
-title: "CA1708: Identifiers should differ by more than case | hehe"
+title: "CA1708: Identifiers should differ by more than case"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

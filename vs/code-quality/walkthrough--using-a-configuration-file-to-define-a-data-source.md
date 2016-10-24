@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Using a Configuration File to Define a Data Source | hehe"
+title: "Walkthrough: Using a Configuration File to Define a Data Source"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

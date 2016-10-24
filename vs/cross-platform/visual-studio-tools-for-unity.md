@@ -1,7 +1,7 @@
 ---
-title: "Visual Studio Tools for Unity | hehe"
+title: "Visual Studio Tools for Unity"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6cabc626-5310-4622-a743-210a9abb5535
 caps.latest.revision: 4
-ms.author: "mithom"
+ms.author: "ghogen"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

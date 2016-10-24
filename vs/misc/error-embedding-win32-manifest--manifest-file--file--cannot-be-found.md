@@ -1,5 +1,5 @@
 ---
-title: "Error embedding Win32 manifest: Manifest File &lt;file&gt; cannot be found | hehe"
+title: "Error embedding Win32 manifest: Manifest File &lt;file&gt; cannot be found"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

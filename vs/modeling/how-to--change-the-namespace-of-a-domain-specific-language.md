@@ -1,7 +1,7 @@
 ---
-title: "How to: Change the Namespace of a Domain-Specific Language | hehe"
+title: "How to: Change the Namespace of a Domain-Specific Language"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: f20c47e5-230d-4f0e-812f-5c6edb86866c
 caps.latest.revision: 19
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 ---
 # How to: Change the Namespace of a Domain-Specific Language
 You can change the namespace of a domain-specific language. You must make the change in the **DSL Explorer**, in the properties of the Dsl Package project, and in the assembly information.  

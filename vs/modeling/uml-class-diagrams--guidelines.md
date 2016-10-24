@@ -1,7 +1,7 @@
 ---
-title: "UML Class Diagrams: Guidelines | hehe"
+title: "UML Class Diagrams: Guidelines"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,7 +18,7 @@ helpviewer_keywords:
 ms.assetid: 94dbfd55-b300-4b49-9049-0831ed849486
 caps.latest.revision: 54
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

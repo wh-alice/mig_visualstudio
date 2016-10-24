@@ -1,5 +1,5 @@
 ---
-title: "IDebugFunctionObject2::CreateObject | hehe"
+title: "IDebugFunctionObject2::CreateObject"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

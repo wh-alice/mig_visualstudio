@@ -1,5 +1,5 @@
 ---
-title: "Using SAL Annotations to Reduce C-C++ Code Defects | hehe"
+title: "Using SAL Annotations to Reduce C-C++ Code Defects"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

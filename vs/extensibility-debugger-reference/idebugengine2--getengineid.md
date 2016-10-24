@@ -1,5 +1,5 @@
 ---
-title: "IDebugEngine2::GetEngineID | hehe"
+title: "IDebugEngine2::GetEngineID"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

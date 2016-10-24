@@ -1,7 +1,7 @@
 ---
-title: "Sync Changes Between XCode and Visual Studio | hehe"
+title: "Sync Changes Between XCode and Visual Studio"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

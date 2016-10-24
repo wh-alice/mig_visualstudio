@@ -1,5 +1,5 @@
 ---
-title: "Labels are not valid outside methods-multiline lambdas | hehe"
+title: "Labels are not valid outside methods-multiline lambdas"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "&#39;&lt;keyword&gt;&#39; is not valid within a Module | hehe"
+title: "&#39;&lt;keyword&gt;&#39; is not valid within a Module"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

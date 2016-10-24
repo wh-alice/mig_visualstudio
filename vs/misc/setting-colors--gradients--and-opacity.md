@@ -1,5 +1,5 @@
 ---
-title: "Setting Colors, Gradients, and Opacity | hehe"
+title: "Setting Colors, Gradients, and Opacity"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

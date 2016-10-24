@@ -1,7 +1,7 @@
 ---
-title: "Specifying File Handlers for File Name Extensions | hehe"
+title: "Specifying File Handlers for File Name Extensions"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

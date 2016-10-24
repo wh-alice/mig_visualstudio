@@ -1,5 +1,5 @@
 ---
-title: "Miscellaneous Files Project | hehe"
+title: "Miscellaneous Files Project"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Prefetch content for Windows Store apps | hehe"
+title: "Prefetch content for Windows Store apps"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

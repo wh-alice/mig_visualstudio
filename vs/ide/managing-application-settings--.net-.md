@@ -1,5 +1,5 @@
 ---
-title: "Managing Application Settings (.NET) | hehe"
+title: "Managing Application Settings (.NET)"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

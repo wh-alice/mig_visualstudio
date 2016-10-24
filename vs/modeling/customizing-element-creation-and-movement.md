@@ -1,7 +1,7 @@
 ---
-title: "Customizing Element Creation and Movement | hehe"
+title: "Customizing Element Creation and Movement"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: cbd28f15-dfd7-46bd-ab79-5430e3ed83c8
 caps.latest.revision: 36
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 ---
 # Customizing Element Creation and Movement
 You can allow an element to be dragged onto another, either from the toolbox or in a paste or move operation. You can have the moved elements linked to the target elements, using the relationships that you specify.  

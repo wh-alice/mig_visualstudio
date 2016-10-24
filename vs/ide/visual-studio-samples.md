@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio Samples | hehe"
+title: "Visual Studio Samples"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

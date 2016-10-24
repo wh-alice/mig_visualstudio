@@ -1,5 +1,5 @@
 ---
-title: "Subscribing to an Event | hehe"
+title: "Subscribing to an Event"
 ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"

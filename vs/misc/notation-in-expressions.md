@@ -1,5 +1,5 @@
 ---
-title: "Notation in Expressions | hehe"
+title: "Notation in Expressions"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,7 +1,7 @@
 ---
-title: "T4 Import Directive | hehe"
+title: "T4 Import Directive"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 713ca975-b9aa-4210-bf6d-b7660f5b193b
 caps.latest.revision: 3
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

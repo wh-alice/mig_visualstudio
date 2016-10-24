@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Error MSB8003 | hehe"
+title: "MSBuild Error MSB8003"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.reviewer: ""

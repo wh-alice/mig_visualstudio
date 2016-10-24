@@ -1,5 +1,5 @@
 ---
-title: "IDiaSymbol::get_nested | hehe"
+title: "IDiaSymbol::get_nested"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

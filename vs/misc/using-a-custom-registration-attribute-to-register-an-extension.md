@@ -1,5 +1,5 @@
 ---
-title: "Using a Custom Registration Attribute to Register an Extension | hehe"
+title: "Using a Custom Registration Attribute to Register an Extension"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

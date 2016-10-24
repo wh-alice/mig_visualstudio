@@ -1,5 +1,5 @@
 ---
-title: "&#39;&lt;method1&gt;&#39; cannot override &#39;&lt;method2&gt;&#39; because it is a &#39;Declare&#39; statement | hehe"
+title: "&#39;&lt;method1&gt;&#39; cannot override &#39;&lt;method2&gt;&#39; because it is a &#39;Declare&#39; statement"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

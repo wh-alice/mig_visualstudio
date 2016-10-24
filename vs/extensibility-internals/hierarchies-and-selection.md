@@ -1,5 +1,5 @@
 ---
-title: "Hierarchies and Selection | hehe"
+title: "Hierarchies and Selection"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

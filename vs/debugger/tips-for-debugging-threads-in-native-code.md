@@ -1,5 +1,5 @@
 ---
-title: "Tips for Debugging Threads in Native Code | hehe"
+title: "Tips for Debugging Threads in Native Code"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

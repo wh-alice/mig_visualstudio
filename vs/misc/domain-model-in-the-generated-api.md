@@ -1,5 +1,5 @@
 ---
-title: "Domain Model in the Generated API | hehe"
+title: "Domain Model in the Generated API"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Exceptions: System.Data.ConstraintException | hehe"
+title: "Troubleshooting Exceptions: System.Data.ConstraintException"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

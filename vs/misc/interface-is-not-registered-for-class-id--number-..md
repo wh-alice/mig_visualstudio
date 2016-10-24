@@ -1,5 +1,5 @@
 ---
-title: "Interface is not registered for class ID &lt;number&gt;. | hehe"
+title: "Interface is not registered for class ID &lt;number&gt;."
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

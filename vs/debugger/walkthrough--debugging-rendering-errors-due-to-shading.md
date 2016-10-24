@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Debugging Rendering Errors Due to Shading | hehe"
+title: "Walkthrough: Debugging Rendering Errors Due to Shading"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

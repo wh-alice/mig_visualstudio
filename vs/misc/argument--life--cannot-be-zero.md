@@ -1,5 +1,5 @@
 ---
-title: "Argument &#39;Life&#39; cannot be zero | hehe"
+title: "Argument &#39;Life&#39; cannot be zero"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

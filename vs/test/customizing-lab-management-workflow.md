@@ -1,5 +1,5 @@
 ---
-title: "Customizing lab management workflow | hehe"
+title: "Customizing lab management workflow"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-tfs-dev14"

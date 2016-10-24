@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Exceptions: System.Web.UI.ViewStateException | hehe"
+title: "Troubleshooting Exceptions: System.Web.UI.ViewStateException"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

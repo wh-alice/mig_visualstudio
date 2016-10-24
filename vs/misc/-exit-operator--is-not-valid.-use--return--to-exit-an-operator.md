@@ -1,5 +1,5 @@
 ---
-title: "&#39;Exit Operator&#39; is not valid. Use &#39;Return&#39; to exit an Operator | hehe"
+title: "&#39;Exit Operator&#39; is not valid. Use &#39;Return&#39; to exit an Operator"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

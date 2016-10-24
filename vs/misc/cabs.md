@@ -1,5 +1,5 @@
 ---
-title: "cabs | hehe"
+title: "cabs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

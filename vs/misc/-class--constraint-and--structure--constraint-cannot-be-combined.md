@@ -1,5 +1,5 @@
 ---
-title: "&#39;Class&#39; constraint and &#39;Structure&#39; constraint cannot be combined | hehe"
+title: "&#39;Class&#39; constraint and &#39;Structure&#39; constraint cannot be combined"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

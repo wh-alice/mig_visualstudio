@@ -1,5 +1,5 @@
 ---
-title: "How to: Start and Stop the Message Log Display | hehe"
+title: "How to: Start and Stop the Message Log Display"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,7 +1,7 @@
 ---
-title: "Working with 3-D Models | hehe"
+title: "Working with 3-D Models"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: fa035091-1354-4d1c-be44-4fb83860466f
 caps.latest.revision: 8
-ms.author: "mithom"
+ms.author: "brpeek"
 manager: "ghogen"
 ---
 # Working with 3-D Models

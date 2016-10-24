@@ -1,7 +1,7 @@
 ---
-title: "Properties of elements on UML activity diagrams | hehe"
+title: "Properties of elements on UML activity diagrams"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 9849d45e-65d5-46bd-a319-757e90b7c748
 caps.latest.revision: 17
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

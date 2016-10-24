@@ -1,7 +1,7 @@
 ---
-title: "Directed Graph Markup Language (DGML) reference | hehe"
+title: "Directed Graph Markup Language (DGML) reference"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -10,6 +10,7 @@ ms.topic: "article"
 ms.assetid: cc3e4ae7-60fa-4e22-9227-98020b480b73
 caps.latest.revision: 8
 ms.author: "ahomer"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

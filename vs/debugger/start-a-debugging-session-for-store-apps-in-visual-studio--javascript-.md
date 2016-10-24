@@ -1,5 +1,5 @@
 ---
-title: "Start a debugging session for Store Apps in Visual Studio (JavaScript) | hehe"
+title: "Start a debugging session for Store Apps in Visual Studio (JavaScript)"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

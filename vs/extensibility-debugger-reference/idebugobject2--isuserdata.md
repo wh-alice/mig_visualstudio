@@ -1,5 +1,5 @@
 ---
-title: "IDebugObject2::IsUserData | hehe"
+title: "IDebugObject2::IsUserData"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

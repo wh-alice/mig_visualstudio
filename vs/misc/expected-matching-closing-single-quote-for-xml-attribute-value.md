@@ -1,5 +1,5 @@
 ---
-title: "Expected matching closing single quote for XML attribute value | hehe"
+title: "Expected matching closing single quote for XML attribute value"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,7 +1,7 @@
 ---
-title: "Define packages and namespaces | hehe"
+title: "Define packages and namespaces"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 79147068-02d5-4b70-933d-f647c1da3829
 caps.latest.revision: 20
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

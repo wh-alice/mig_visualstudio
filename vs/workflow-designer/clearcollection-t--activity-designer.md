@@ -1,5 +1,5 @@
 ---
-title: "ClearCollection&lt;T&gt; Activity Designer | hehe"
+title: "ClearCollection&lt;T&gt; Activity Designer"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: ".net-framework-4.6"

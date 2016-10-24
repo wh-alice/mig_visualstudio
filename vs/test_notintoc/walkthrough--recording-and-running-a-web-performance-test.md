@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Recording and Running a Web Performance Test | hehe"
+title: "Walkthrough: Recording and Running a Web Performance Test"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

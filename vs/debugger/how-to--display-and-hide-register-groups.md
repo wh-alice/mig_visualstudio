@@ -1,5 +1,5 @@
 ---
-title: "How to: Display and Hide Register Groups | hehe"
+title: "How to: Display and Hide Register Groups"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

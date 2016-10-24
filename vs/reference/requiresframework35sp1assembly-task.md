@@ -1,5 +1,5 @@
 ---
-title: "RequiresFramework35SP1Assembly Task | hehe"
+title: "RequiresFramework35SP1Assembly Task"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

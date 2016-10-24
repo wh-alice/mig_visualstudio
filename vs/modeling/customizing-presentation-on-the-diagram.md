@@ -1,7 +1,7 @@
 ---
-title: "Customizing Presentation on the Diagram | hehe"
+title: "Customizing Presentation on the Diagram"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 259836b0-783c-46a0-b7c7-dc4b2f7b4a81
 caps.latest.revision: 31
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 ---
 # Customizing Presentation on the Diagram
 The diagram is the main presentation area of a domain-specific language designer. Usually, users will use the diagram to construct their models. You can customize the diagram as described in the following topics.  

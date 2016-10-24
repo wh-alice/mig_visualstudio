@@ -1,5 +1,5 @@
 ---
-title: "How to: Jump to Web Request from the Web Performance Test Playback | hehe"
+title: "How to: Jump to Web Request from the Web Performance Test Playback"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

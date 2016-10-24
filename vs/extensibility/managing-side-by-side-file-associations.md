@@ -1,5 +1,5 @@
 ---
-title: "Managing Side-by-Side File Associations | hehe"
+title: "Managing Side-by-Side File Associations"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

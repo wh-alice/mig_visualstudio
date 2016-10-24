@@ -1,5 +1,5 @@
 ---
-title: "Generate and run a coded web performance test | hehe"
+title: "Generate and run a coded web performance test"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"

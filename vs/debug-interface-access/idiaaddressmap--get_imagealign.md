@@ -1,5 +1,5 @@
 ---
-title: "IDiaAddressMap::get_imageAlign | hehe"
+title: "IDiaAddressMap::get_imageAlign"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Exceptions: System.IdentityModel.Tokens.SecurityTokenException | hehe"
+title: "Troubleshooting Exceptions: System.IdentityModel.Tokens.SecurityTokenException"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

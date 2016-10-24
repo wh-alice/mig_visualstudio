@@ -1,7 +1,7 @@
 ---
-title: "How to: Export a Texture that Contains Mipmaps | hehe"
+title: "How to: Export a Texture that Contains Mipmaps"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3d1ad14b-44fb-4cf0-a995-5e2f60026524
 caps.latest.revision: 7
-ms.author: "mithom"
+ms.author: "brpeek"
 manager: "ghogen"
 ---
 # How to: Export a Texture that Contains Mipmaps

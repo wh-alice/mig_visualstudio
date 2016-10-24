@@ -1,7 +1,7 @@
 ---
-title: "Programming Visual Studio Tools for Unity | hehe"
+title: "Programming Visual Studio Tools for Unity"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a5758cb0-e73b-45f5-8cae-c0eb40491026
 caps.latest.revision: 3
-ms.author: "mithom"
+ms.author: "ghogen"
 manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"

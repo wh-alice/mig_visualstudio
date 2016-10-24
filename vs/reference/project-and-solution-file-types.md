@@ -1,5 +1,5 @@
 ---
-title: "Project and Solution File Types | hehe"
+title: "Project and Solution File Types"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

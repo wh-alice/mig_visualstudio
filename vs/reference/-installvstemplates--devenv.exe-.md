@@ -1,7 +1,7 @@
 ---
-title: "-InstallVSTemplates (devenv.exe) | hehe"
+title: "-InstallVSTemplates (devenv.exe)"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/22/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "/InstallVSTemplates Devenv switch"
   - "InstallVSTemplates switch"
 ms.assetid: 1fb466f6-7955-4535-a840-d93eb8aaa492
-caps.latest.revision: 11
+caps.latest.revision: 12
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -48,5 +48,4 @@ devenv.exe /InstallVSTemplates
 ## Remarks  
   
 ## See Also  
- [NIB: Visual Studio Templates](http://msdn.microsoft.com/en-us/141fccaa-d68f-4155-822b-27f35dd94041)   
  [Devenv Command Line Switches](../reference/devenv-command-line-switches.md)

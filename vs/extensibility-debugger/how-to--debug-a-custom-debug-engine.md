@@ -1,5 +1,5 @@
 ---
-title: "How To: Debug a Custom Debug Engine | hehe"
+title: "How To: Debug a Custom Debug Engine"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

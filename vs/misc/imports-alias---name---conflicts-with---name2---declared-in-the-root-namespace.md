@@ -1,5 +1,5 @@
 ---
-title: "Imports alias &#39;&lt;name&gt;&#39; conflicts with &#39;&lt;name2&gt;&#39; declared in the root namespace | hehe"
+title: "Imports alias &#39;&lt;name&gt;&#39; conflicts with &#39;&lt;name2&gt;&#39; declared in the root namespace"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

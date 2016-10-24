@@ -1,5 +1,5 @@
 ---
-title: "Step 1: Create a Windows Forms Application Project | hehe"
+title: "Step 1: Create a Windows Forms Application Project"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

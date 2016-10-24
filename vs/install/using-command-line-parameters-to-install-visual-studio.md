@@ -1,5 +1,5 @@
 ---
-title: "Using Command-Line Parameters to Install Visual Studio | hehe"
+title: "Using Command-Line Parameters to Install Visual Studio"
 ms.custom: ""
 ms.date: "2016-09-06"
 ms.prod: "visual-studio-dev14"

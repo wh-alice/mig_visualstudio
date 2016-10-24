@@ -1,5 +1,5 @@
 ---
-title: "Error Codes | hehe"
+title: "Error Codes"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

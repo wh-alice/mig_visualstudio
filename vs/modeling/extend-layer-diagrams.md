@@ -1,7 +1,7 @@
 ---
-title: "Extend layer diagrams | hehe"
+title: "Extend layer diagrams"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 83fca301-b008-485a-87eb-218050e71451
 caps.latest.revision: 39
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

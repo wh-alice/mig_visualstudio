@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio Extensibility Architecture | hehe"
+title: "Visual Studio Extensibility Architecture"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

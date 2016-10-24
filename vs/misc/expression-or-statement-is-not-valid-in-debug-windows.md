@@ -1,5 +1,5 @@
 ---
-title: "Expression or statement is not valid in debug windows | hehe"
+title: "Expression or statement is not valid in debug windows"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

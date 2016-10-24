@@ -1,5 +1,5 @@
 ---
-title: "Options, Text Editor, C#, IntelliSense | hehe"
+title: "Options, Text Editor, C#, IntelliSense"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

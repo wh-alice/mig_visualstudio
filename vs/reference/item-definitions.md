@@ -1,5 +1,5 @@
 ---
-title: "Item Definitions | hehe"
+title: "Item Definitions"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

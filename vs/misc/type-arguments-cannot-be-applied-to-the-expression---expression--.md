@@ -1,5 +1,5 @@
 ---
-title: "Type arguments cannot be applied to the expression &#39;&lt;expression&gt;&#39; | hehe"
+title: "Type arguments cannot be applied to the expression &#39;&lt;expression&gt;&#39;"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

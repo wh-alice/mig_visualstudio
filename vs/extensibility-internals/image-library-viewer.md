@@ -1,5 +1,5 @@
 ---
-title: "Image Library Viewer | hehe"
+title: "Image Library Viewer"
 ms.custom: ""
 ms.date: "10/14/2016"
 ms.reviewer: ""

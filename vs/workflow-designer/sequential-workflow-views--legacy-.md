@@ -1,5 +1,5 @@
 ---
-title: "Sequential Workflow Views (Legacy) | hehe"
+title: "Sequential Workflow Views (Legacy)"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: ".net-framework-4.6"

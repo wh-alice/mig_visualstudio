@@ -1,7 +1,7 @@
 ---
-title: "Properties of Compartment Shapes | hehe"
+title: "Properties of Compartment Shapes"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 9a9e112d-210d-413b-a44f-0e976a4a78bc
 caps.latest.revision: 24
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 ---
 # Properties of Compartment Shapes
 Compartment shapes are one of the shapes you can use to display a domain class in a domain-specific language. You can expand and collapse the compartments.  

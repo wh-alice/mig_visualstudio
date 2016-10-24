@@ -1,5 +1,5 @@
 ---
-title: "CA1903: Use only API from targeted framework | hehe"
+title: "CA1903: Use only API from targeted framework"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

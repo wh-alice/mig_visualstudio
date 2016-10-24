@@ -1,5 +1,5 @@
 ---
-title: "Enabling Debug Features in Visual C++ (-D_DEBUG) | hehe"
+title: "Enabling Debug Features in Visual C++ (-D_DEBUG)"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

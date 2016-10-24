@@ -1,5 +1,5 @@
 ---
-title: "CA1002: Do not expose generic lists | hehe"
+title: "CA1002: Do not expose generic lists"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

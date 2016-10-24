@@ -1,5 +1,5 @@
 ---
-title: "for_each (STL Samples) | hehe"
+title: "for_each (STL Samples)"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "How to: Create File Associations For a ClickOnce Application | hehe"
+title: "How to: Create File Associations For a ClickOnce Application"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

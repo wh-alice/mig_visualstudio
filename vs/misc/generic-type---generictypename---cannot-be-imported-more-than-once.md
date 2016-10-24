@@ -1,5 +1,5 @@
 ---
-title: "Generic type &#39;&lt;generictypename&gt;&#39; cannot be imported more than once | hehe"
+title: "Generic type &#39;&lt;generictypename&gt;&#39; cannot be imported more than once"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

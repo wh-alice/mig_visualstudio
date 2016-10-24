@@ -1,5 +1,5 @@
 ---
-title: "Comment statements cannot be evaluated (Not in TOC) | hehe"
+title: "Comment statements cannot be evaluated (Not in TOC)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

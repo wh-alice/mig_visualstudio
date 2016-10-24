@@ -1,5 +1,5 @@
 ---
-title: "CA1814: Prefer jagged arrays over multidimensional | hehe"
+title: "CA1814: Prefer jagged arrays over multidimensional"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

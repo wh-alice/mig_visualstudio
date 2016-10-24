@@ -1,5 +1,5 @@
 ---
-title: "&#39;=&#39; expected (Let or Set assignment) | hehe"
+title: "&#39;=&#39; expected (Let or Set assignment)"
 ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"

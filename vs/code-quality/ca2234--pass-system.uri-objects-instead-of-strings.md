@@ -1,5 +1,5 @@
 ---
-title: "CA2234: Pass System.Uri objects instead of strings | hehe"
+title: "CA2234: Pass System.Uri objects instead of strings"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

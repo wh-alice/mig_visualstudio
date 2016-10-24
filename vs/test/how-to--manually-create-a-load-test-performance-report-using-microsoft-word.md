@@ -1,5 +1,5 @@
 ---
-title: "How to: Manually Create a Load Test Performance Report Using Microsoft Word | hehe"
+title: "How to: Manually Create a Load Test Performance Report Using Microsoft Word"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

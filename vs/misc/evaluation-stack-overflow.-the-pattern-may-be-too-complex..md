@@ -1,5 +1,5 @@
 ---
-title: "Evaluation stack overflow. The pattern may be too complex. | hehe"
+title: "Evaluation stack overflow. The pattern may be too complex."
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "IDebugEngineLaunch2::CanTerminateProcess | hehe"
+title: "IDebugEngineLaunch2::CanTerminateProcess"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

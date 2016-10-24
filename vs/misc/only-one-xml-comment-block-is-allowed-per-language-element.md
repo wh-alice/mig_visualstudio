@@ -1,5 +1,5 @@
 ---
-title: "Only one XML comment block is allowed per language element | hehe"
+title: "Only one XML comment block is allowed per language element"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

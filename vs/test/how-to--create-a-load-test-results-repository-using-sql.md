@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a Load Test Results Repository Using SQL | hehe"
+title: "How to: Create a Load Test Results Repository Using SQL"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"

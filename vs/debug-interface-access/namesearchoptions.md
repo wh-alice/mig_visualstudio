@@ -1,5 +1,5 @@
 ---
-title: "NameSearchOptions | hehe"
+title: "NameSearchOptions"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "CA1405: COM visible type base types should be COM visible | hehe"
+title: "CA1405: COM visible type base types should be COM visible"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

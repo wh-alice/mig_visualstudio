@@ -1,7 +1,7 @@
 ---
-title: "ClickOnce Deployment on Windows Vista | hehe"
+title: "ClickOnce Deployment on Windows Vista"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/22/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

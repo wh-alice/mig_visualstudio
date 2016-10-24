@@ -1,5 +1,5 @@
 ---
-title: "string::operator&lt;&lt; | hehe"
+title: "string::operator&lt;&lt;"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

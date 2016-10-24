@@ -1,7 +1,7 @@
 ---
-title: "Test Area 1: Add To-Open From Source Control | hehe"
+title: "Test Area 1: Add To-Open From Source Control"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

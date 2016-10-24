@@ -1,5 +1,5 @@
 ---
-title: "CONTEXT_COMPARE | hehe"
+title: "CONTEXT_COMPARE"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Application Lifecycle Management (ALM) with Xamarin apps | hehe"
+title: "Application Lifecycle Management (ALM) with Xamarin apps"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"

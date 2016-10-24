@@ -1,5 +1,5 @@
 ---
-title: "Remote Debugger Port Assignments | hehe"
+title: "Remote Debugger Port Assignments"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

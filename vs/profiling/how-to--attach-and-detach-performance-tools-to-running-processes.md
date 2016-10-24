@@ -1,5 +1,5 @@
 ---
-title: "How to: Attach and Detach Performance Tools to Running Processes | hehe"
+title: "How to: Attach and Detach Performance Tools to Running Processes"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

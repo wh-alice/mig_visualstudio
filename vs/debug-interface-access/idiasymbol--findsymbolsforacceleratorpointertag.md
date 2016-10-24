@@ -1,5 +1,5 @@
 ---
-title: "IDiaSymbol::findSymbolsForAcceleratorPointerTag | hehe"
+title: "IDiaSymbol::findSymbolsForAcceleratorPointerTag"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

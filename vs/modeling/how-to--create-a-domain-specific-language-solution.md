@@ -1,7 +1,7 @@
 ---
-title: "How to: Create a Domain-Specific Language Solution | hehe"
+title: "How to: Create a Domain-Specific Language Solution"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: e585b63b-34d2-405a-8d81-39ea22317975
 caps.latest.revision: 41
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 ---
 # How to: Create a Domain-Specific Language Solution
 A domain-specific language (DSL) is created by using a specialized [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution.  

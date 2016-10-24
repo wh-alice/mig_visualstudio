@@ -1,5 +1,5 @@
 ---
-title: "Registering Verbs for File Name Extensions | hehe"
+title: "Registering Verbs for File Name Extensions"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

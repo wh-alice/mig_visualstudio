@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio Workflow Windows (Legacy) | hehe"
+title: "Visual Studio Workflow Windows (Legacy)"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: ".net-framework-4.6"

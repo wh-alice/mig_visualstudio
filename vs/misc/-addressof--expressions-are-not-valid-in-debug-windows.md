@@ -1,5 +1,5 @@
 ---
-title: "&#39;AddressOf&#39; expressions are not valid in debug windows | hehe"
+title: "&#39;AddressOf&#39; expressions are not valid in debug windows"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

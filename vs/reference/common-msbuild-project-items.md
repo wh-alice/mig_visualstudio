@@ -1,5 +1,5 @@
 ---
-title: "Common MSBuild Project Items | hehe"
+title: "Common MSBuild Project Items"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

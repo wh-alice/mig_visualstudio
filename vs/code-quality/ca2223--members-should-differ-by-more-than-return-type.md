@@ -1,5 +1,5 @@
 ---
-title: "CA2223: Members should differ by more than return type | hehe"
+title: "CA2223: Members should differ by more than return type"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

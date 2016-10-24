@@ -1,7 +1,7 @@
 ---
-title: "Customizing the Model Explorer | hehe"
+title: "Customizing the Model Explorer"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: d2926444-9408-41d8-a27e-3fd0c416f9ac
 caps.latest.revision: 20
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 ---
 # Customizing the Model Explorer
 You can change the appearance and behavior of the explorer for your domain-specific language designer as follows:  

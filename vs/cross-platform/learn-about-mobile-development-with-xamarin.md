@@ -1,7 +1,7 @@
 ---
-title: "Learn about mobile development with Xamarin | hehe"
+title: "Learn about mobile development with Xamarin"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

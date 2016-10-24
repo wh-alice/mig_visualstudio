@@ -1,5 +1,5 @@
 ---
-title: "&#39;Char&#39; values cannot be converted to &#39;&lt;typename&gt;&#39; | hehe"
+title: "&#39;Char&#39; values cannot be converted to &#39;&lt;typename&gt;&#39;"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

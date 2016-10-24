@@ -1,5 +1,5 @@
 ---
-title: "Sample Excel Communicator Interface | hehe"
+title: "Sample Excel Communicator Interface"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Half-Quarter Texture Dimensions Variant | hehe"
+title: "Half-Quarter Texture Dimensions Variant"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

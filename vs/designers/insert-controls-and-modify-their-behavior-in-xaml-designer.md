@@ -1,7 +1,7 @@
 ---
-title: "Insert controls and modify their behavior in XAML Designer | hehe"
+title: "Insert controls and modify their behavior in XAML Designer"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

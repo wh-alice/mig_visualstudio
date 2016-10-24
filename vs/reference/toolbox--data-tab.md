@@ -1,5 +1,5 @@
 ---
-title: "Toolbox, Data Tab | hehe"
+title: "Toolbox, Data Tab"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

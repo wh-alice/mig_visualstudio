@@ -1,5 +1,5 @@
 ---
-title: "How to: Run a Load Test from the Command Line | hehe"
+title: "How to: Run a Load Test from the Command Line"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

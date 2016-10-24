@@ -1,5 +1,5 @@
 ---
-title: "Property &#39;&lt;propertyname&gt;&#39; is &#39;ReadOnly&#39; | hehe"
+title: "Property &#39;&lt;propertyname&gt;&#39; is &#39;ReadOnly&#39;"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

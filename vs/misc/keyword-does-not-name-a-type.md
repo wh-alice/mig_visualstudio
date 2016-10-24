@@ -1,5 +1,5 @@
 ---
-title: "Keyword does not name a type | hehe"
+title: "Keyword does not name a type"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

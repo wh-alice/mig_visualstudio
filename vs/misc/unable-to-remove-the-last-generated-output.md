@@ -1,5 +1,5 @@
 ---
-title: "Unable to remove the last generated output | hehe"
+title: "Unable to remove the last generated output"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

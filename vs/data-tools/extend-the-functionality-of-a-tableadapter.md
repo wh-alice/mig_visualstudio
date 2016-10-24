@@ -1,5 +1,5 @@
 ---
-title: "Extend the functionality of a TableAdapter | hehe"
+title: "Extend the functionality of a TableAdapter"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"

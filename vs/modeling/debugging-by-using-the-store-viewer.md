@@ -1,7 +1,7 @@
 ---
-title: "Debugging by Using the Store Viewer | hehe"
+title: "Debugging by Using the Store Viewer"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 0178db2e-ae99-4ed3-9b87-8620fa9fa8e4
 caps.latest.revision: 17
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 ---
 # Debugging by Using the Store Viewer
 With the Store Viewer, you can examine the state of a *store* used by [!INCLUDE[dsl](../modeling/includes/dsl_md.md)]. The Store Viewer displays all of the domain model elements that are in a specific store, along with element properties and links between elements.  

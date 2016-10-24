@@ -1,5 +1,5 @@
 ---
-title: "CA2225: Operator overloads have named alternates | hehe"
+title: "CA2225: Operator overloads have named alternates"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

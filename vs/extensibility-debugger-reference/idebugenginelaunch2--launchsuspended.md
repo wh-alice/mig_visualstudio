@@ -1,5 +1,5 @@
 ---
-title: "IDebugEngineLaunch2::LaunchSuspended | hehe"
+title: "IDebugEngineLaunch2::LaunchSuspended"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "How to: Create Test Configurations | hehe"
+title: "How to: Create Test Configurations"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "-Build (devenv.exe) | hehe"
+title: "-Build (devenv.exe)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "IDebugArrayObject2::GetBaseIndices | hehe"
+title: "IDebugArrayObject2::GetBaseIndices"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

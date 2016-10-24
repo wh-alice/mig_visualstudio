@@ -1,7 +1,7 @@
 ---
-title: "Change Log (Visual Studio Tools for Unity) | hehe"
+title: "Change Log (Visual Studio Tools for Unity)"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ea490b7e-fc0d-44b1-858a-a725ce20e396
 caps.latest.revision: 12
-ms.author: "mithom"
+ms.author: "ghogen"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"

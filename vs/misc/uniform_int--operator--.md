@@ -1,5 +1,5 @@
 ---
-title: "uniform_int::operator() | hehe"
+title: "uniform_int::operator()"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

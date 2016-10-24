@@ -1,5 +1,5 @@
 ---
-title: "How to: View Managed Code Defects | hehe"
+title: "How to: View Managed Code Defects"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

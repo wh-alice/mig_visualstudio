@@ -1,5 +1,5 @@
 ---
-title: "Vbc Task | hehe"
+title: "Vbc Task"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

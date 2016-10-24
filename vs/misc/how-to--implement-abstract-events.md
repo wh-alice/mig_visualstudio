@@ -1,5 +1,5 @@
 ---
-title: "How to: Implement Abstract Events | hehe"
+title: "How to: Implement Abstract Events"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

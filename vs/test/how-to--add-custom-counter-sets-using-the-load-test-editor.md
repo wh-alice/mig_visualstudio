@@ -1,5 +1,5 @@
 ---
-title: "How to: Add Custom Counter Sets Using the Load Test Editor | hehe"
+title: "How to: Add Custom Counter Sets Using the Load Test Editor"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

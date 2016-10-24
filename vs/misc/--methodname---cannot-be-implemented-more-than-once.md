@@ -1,5 +1,5 @@
 ---
-title: "&#39;&lt;methodname&gt;&#39; cannot be implemented more than once | hehe"
+title: "&#39;&lt;methodname&gt;&#39; cannot be implemented more than once"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

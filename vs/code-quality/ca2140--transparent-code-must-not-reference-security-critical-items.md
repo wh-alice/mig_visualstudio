@@ -1,5 +1,5 @@
 ---
-title: "CA2140: Transparent code must not reference security critical items | hehe"
+title: "CA2140: Transparent code must not reference security critical items"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

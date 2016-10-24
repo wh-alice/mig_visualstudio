@@ -1,5 +1,5 @@
 ---
-title: "Command &lt;name&gt; does not accept arguments or switches. | hehe"
+title: "Command &lt;name&gt; does not accept arguments or switches."
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

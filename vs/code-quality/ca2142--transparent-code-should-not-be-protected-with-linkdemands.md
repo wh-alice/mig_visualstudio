@@ -1,5 +1,5 @@
 ---
-title: "CA2142: Transparent code should not be protected with LinkDemands | hehe"
+title: "CA2142: Transparent code should not be protected with LinkDemands"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,7 +1,7 @@
 ---
-title: "CA3075: Insecure DTD Processing | hehe"
+title: "CA3075: Insecure DTD Processing"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 

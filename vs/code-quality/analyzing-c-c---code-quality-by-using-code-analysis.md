@@ -1,5 +1,5 @@
 ---
-title: "Analyzing C-C++ Code Quality by Using Code Analysis | hehe"
+title: "Analyzing C-C++ Code Quality by Using Code Analysis"
 ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"

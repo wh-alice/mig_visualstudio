@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Error MSB3177 | hehe"
+title: "MSBuild Error MSB3177"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

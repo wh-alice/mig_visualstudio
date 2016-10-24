@@ -1,14 +1,15 @@
 ---
-title: "Visual Studio Tools for Apache Cordova | hehe"
+title: "Visual Studio Tools for Apache Cordova"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 21dcf46e-5d6d-439c-90e3-3d678e50c5a6
 caps.latest.revision: 4
-ms.author: "normesta"
+ms.author: "ghogen"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

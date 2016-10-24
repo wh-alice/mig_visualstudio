@@ -1,5 +1,5 @@
 ---
-title: "&lt;Product&gt; Element (Bootstrapper) | hehe"
+title: "&lt;Product&gt; Element (Bootstrapper)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

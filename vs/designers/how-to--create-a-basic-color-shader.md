@@ -1,7 +1,7 @@
 ---
-title: "How to: Create a Basic Color Shader | hehe"
+title: "How to: Create a Basic Color Shader"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c301328a-079a-49e8-b688-4749c01657c0
 caps.latest.revision: 24
-ms.author: "mithom"
+ms.author: "brpeek"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"

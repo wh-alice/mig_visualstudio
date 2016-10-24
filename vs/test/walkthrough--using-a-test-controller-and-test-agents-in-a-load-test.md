@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Using a Test Controller and Test Agents in a Load Test | hehe"
+title: "Walkthrough: Using a Test Controller and Test Agents in a Load Test"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

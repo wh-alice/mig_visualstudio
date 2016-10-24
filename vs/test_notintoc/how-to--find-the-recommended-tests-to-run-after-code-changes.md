@@ -1,5 +1,5 @@
 ---
-title: "How to: Find the Recommended Tests to Run After Code Changes | hehe"
+title: "How to: Find the Recommended Tests to Run After Code Changes"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

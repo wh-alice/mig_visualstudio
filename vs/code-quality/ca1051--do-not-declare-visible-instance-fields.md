@@ -1,5 +1,5 @@
 ---
-title: "CA1051: Do not declare visible instance fields | hehe"
+title: "CA1051: Do not declare visible instance fields"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

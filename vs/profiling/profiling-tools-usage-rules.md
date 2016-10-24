@@ -1,5 +1,5 @@
 ---
-title: "Profiling Tools Usage Rules | hehe"
+title: "Profiling Tools Usage Rules"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

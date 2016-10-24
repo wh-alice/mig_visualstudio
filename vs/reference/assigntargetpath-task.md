@@ -1,7 +1,7 @@
 ---
-title: "AssignTargetPath Task | hehe"
+title: "AssignTargetPath Task"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/22/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

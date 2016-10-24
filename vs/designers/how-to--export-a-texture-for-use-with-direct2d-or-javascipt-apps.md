@@ -1,7 +1,7 @@
 ---
-title: "How to: Export a Texture for Use with Direct2D or Javascipt Apps | hehe"
+title: "How to: Export a Texture for Use with Direct2D or Javascipt Apps"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 241c25fe-764e-4e1b-ad32-b1377dcbb605
 caps.latest.revision: 11
-ms.author: "mithom"
+ms.author: "brpeek"
 manager: "ghogen"
 ---
 # How to: Export a Texture for Use with Direct2D or Javascipt Apps

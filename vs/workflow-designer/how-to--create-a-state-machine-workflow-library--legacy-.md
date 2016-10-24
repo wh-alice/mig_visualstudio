@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a State Machine Workflow Library (Legacy) | hehe"
+title: "How to: Create a State Machine Workflow Library (Legacy)"
 ms.custom: ""
 ms.date: "10/02/2016"
 ms.prod: ".net-framework-4.6"

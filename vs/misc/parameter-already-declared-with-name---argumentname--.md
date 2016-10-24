@@ -1,5 +1,5 @@
 ---
-title: "Parameter already declared with name &#39;&lt;argumentname&gt;&#39; | hehe"
+title: "Parameter already declared with name &#39;&lt;argumentname&gt;&#39;"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

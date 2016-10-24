@@ -1,7 +1,7 @@
 ---
-title: "Model Editor | hehe"
+title: "Model Editor"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,7 +14,7 @@ f1_keywords:
   - "vs.graphics.modelviewer"
 ms.assetid: 5edf1a30-9307-43c3-9b8b-831217be0104
 caps.latest.revision: 36
-ms.author: "mithom"
+ms.author: "brpeek"
 manager: "ghogen"
 ---
 # Model Editor

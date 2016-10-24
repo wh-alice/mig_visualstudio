@@ -1,7 +1,7 @@
 ---
-title: "CA3077: Insecure Processing in API Design, XML Document and XML Text Reader | hehe"
+title: "CA3077: Insecure Processing in API Design, XML Document and XML Text Reader"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 

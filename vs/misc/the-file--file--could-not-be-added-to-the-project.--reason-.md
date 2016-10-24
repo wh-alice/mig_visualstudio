@@ -1,5 +1,5 @@
 ---
-title: "The file &#39;file&#39; could not be added to the project. &lt;reason&gt; | hehe"
+title: "The file &#39;file&#39; could not be added to the project. &lt;reason&gt;"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

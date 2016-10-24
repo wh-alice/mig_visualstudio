@@ -1,5 +1,5 @@
 ---
-title: "&#39;:&#39; is not allowed | hehe"
+title: "&#39;:&#39; is not allowed"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

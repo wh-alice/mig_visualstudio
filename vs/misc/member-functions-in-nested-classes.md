@@ -1,5 +1,5 @@
 ---
-title: "Member Functions in Nested Classes | hehe"
+title: "Member Functions in Nested Classes"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

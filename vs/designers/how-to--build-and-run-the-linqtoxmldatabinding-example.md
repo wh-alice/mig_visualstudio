@@ -1,5 +1,5 @@
 ---
-title: "How to: Build and Run the LinqToXmlDataBinding Example | hehe"
+title: "How to: Build and Run the LinqToXmlDataBinding Example"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

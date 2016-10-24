@@ -1,5 +1,5 @@
 ---
-title: "IDebugBreakpointRequest2::GetRequestInfo | hehe"
+title: "IDebugBreakpointRequest2::GetRequestInfo"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

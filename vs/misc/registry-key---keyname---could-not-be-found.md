@@ -1,5 +1,5 @@
 ---
-title: "Registry key &#39;&lt;keyname&gt;&#39; could not be found | hehe"
+title: "Registry key &#39;&lt;keyname&gt;&#39; could not be found"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

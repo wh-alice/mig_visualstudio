@@ -1,7 +1,7 @@
 ---
-title: "Controlling Color, Line Style, and other Shape Properties | hehe"
+title: "Controlling Color, Line Style, and other Shape Properties"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: c06d0066-24aa-4c65-b91c-c2089b81ec8d
 caps.latest.revision: 2
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 translation.priority.mt: 
   - "cs-cz"
   - "de-de"

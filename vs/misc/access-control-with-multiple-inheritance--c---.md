@@ -1,5 +1,5 @@
 ---
-title: "Access Control with Multiple Inheritance (C++) | hehe"
+title: "Access Control with Multiple Inheritance (C++)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

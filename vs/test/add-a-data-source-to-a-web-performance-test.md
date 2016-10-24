@@ -1,5 +1,5 @@
 ---
-title: "Add a data source to a web performance test | hehe"
+title: "Add a data source to a web performance test"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"

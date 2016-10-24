@@ -1,5 +1,5 @@
 ---
-title: "You must specify a file name | hehe"
+title: "You must specify a file name"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

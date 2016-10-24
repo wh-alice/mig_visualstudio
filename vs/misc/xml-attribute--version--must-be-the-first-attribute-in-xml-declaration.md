@@ -1,5 +1,5 @@
 ---
-title: "XML attribute &#39;version&#39; must be the first attribute in XML declaration | hehe"
+title: "XML attribute &#39;version&#39; must be the first attribute in XML declaration"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

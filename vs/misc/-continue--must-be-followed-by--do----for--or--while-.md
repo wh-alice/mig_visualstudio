@@ -1,5 +1,5 @@
 ---
-title: "&#39;Continue&#39; must be followed by &#39;Do&#39;, &#39;For&#39; or &#39;While&#39; | hehe"
+title: "&#39;Continue&#39; must be followed by &#39;Do&#39;, &#39;For&#39; or &#39;While&#39;"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

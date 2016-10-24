@@ -1,5 +1,5 @@
 ---
-title: "Visualizing EventSource Events as Markers | hehe"
+title: "Visualizing EventSource Events as Markers"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

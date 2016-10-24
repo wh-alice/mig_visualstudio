@@ -1,5 +1,5 @@
 ---
-title: "JavaScript Console commands | hehe"
+title: "JavaScript Console commands"
 ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"

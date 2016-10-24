@@ -1,5 +1,5 @@
 ---
-title: "Constants must have a value | hehe"
+title: "Constants must have a value"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "DEBUG_CUSTOM_VIEWER | hehe"
+title: "DEBUG_CUSTOM_VIEWER"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

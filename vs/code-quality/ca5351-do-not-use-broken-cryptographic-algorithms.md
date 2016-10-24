@@ -1,5 +1,5 @@
 ---
-title: "CA5351 Do Not Use Broken Cryptographic Algorithms | hehe"
+title: "CA5351 Do Not Use Broken Cryptographic Algorithms"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.reviewer: ""

@@ -1,5 +1,5 @@
 ---
-title: "Saving Symbol Information with Performance Data Files | hehe"
+title: "Saving Symbol Information with Performance Data Files"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

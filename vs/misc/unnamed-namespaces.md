@@ -1,5 +1,5 @@
 ---
-title: "Unnamed Namespaces | hehe"
+title: "Unnamed Namespaces"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

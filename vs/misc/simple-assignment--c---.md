@@ -1,5 +1,5 @@
 ---
-title: "Simple Assignment (C++) | hehe"
+title: "Simple Assignment (C++)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Callback Functions Implemented by the IDE | hehe"
+title: "Callback Functions Implemented by the IDE"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

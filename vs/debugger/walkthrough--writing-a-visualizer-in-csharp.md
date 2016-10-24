@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Writing a Visualizer in C# | hehe"
+title: "Walkthrough: Writing a Visualizer in C#"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

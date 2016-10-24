@@ -1,7 +1,7 @@
 ---
-title: "How to: Collect Performance Data for a Web Site | hehe"
+title: "How to: Collect Performance Data for a Web Site"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

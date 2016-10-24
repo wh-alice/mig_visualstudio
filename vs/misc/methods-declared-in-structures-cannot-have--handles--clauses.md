@@ -1,5 +1,5 @@
 ---
-title: "Methods declared in structures cannot have &#39;Handles&#39; clauses | hehe"
+title: "Methods declared in structures cannot have &#39;Handles&#39; clauses"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

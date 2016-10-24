@@ -1,5 +1,5 @@
 ---
-title: "How to: Brand a VSPackage (C++) | hehe"
+title: "How to: Brand a VSPackage (C++)"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Required attribute &#39;version&#39; missing from XML declaration | hehe"
+title: "Required attribute &#39;version&#39; missing from XML declaration"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

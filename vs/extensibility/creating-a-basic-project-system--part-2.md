@@ -1,5 +1,5 @@
 ---
-title: "Creating a Basic Project System, Part 2 | hehe"
+title: "Creating a Basic Project System, Part 2"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

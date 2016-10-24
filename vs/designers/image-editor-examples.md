@@ -1,7 +1,7 @@
 ---
-title: "Image Editor Examples | hehe"
+title: "Image Editor Examples"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9f887976-25ae-4099-b987-87ea97f98c58
 caps.latest.revision: 18
-ms.author: "mithom"
+ms.author: "brpeek"
 manager: "ghogen"
 ---
 # Image Editor Examples

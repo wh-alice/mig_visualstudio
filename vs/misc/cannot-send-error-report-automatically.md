@@ -1,5 +1,5 @@
 ---
-title: "cannot send error report automatically | hehe"
+title: "cannot send error report automatically"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

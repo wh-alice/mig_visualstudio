@@ -1,5 +1,5 @@
 ---
-title: "Help Library Manager Administrator&#39;s Guide | hehe"
+title: "Help Library Manager Administrator&#39;s Guide"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

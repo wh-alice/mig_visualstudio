@@ -1,7 +1,7 @@
 ---
-title: "Multiple DSLs in One Solution | hehe"
+title: "Multiple DSLs in One Solution"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 7e668620-6217-4e87-aea7-e9036776c8e4
 caps.latest.revision: 3
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 ---
 # Multiple DSLs in One Solution
 You can package several DSLs as part of a single solution so that they are installed together.  

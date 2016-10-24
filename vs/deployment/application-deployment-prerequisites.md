@@ -1,5 +1,5 @@
 ---
-title: "Application Deployment Prerequisites | hehe"
+title: "Application Deployment Prerequisites"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,7 +1,7 @@
 ---
-title: "Model Editor Examples | hehe"
+title: "Model Editor Examples"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: dd0f4155-b4f9-4f16-b0fd-3f4cd4c80d5a
 caps.latest.revision: 11
-ms.author: "mithom"
+ms.author: "brpeek"
 manager: "ghogen"
 ---
 # Model Editor Examples

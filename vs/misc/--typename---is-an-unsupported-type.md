@@ -1,5 +1,5 @@
 ---
-title: "&#39;&lt;typename&gt;&#39; is an unsupported type | hehe"
+title: "&#39;&lt;typename&gt;&#39; is an unsupported type"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

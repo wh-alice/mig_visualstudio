@@ -1,7 +1,7 @@
 ---
-title: "Import an XCode Project | hehe"
+title: "Import an XCode Project"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

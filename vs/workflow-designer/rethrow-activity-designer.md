@@ -1,5 +1,5 @@
 ---
-title: "Rethrow Activity Designer | hehe"
+title: "Rethrow Activity Designer"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: ".net-framework-4.6"

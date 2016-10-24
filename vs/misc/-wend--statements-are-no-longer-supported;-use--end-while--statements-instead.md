@@ -1,5 +1,5 @@
 ---
-title: "&#39;Wend&#39; statements are no longer supported; use &#39;End While&#39; statements instead | hehe"
+title: "&#39;Wend&#39; statements are no longer supported; use &#39;End While&#39; statements instead"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

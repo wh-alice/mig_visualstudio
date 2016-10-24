@@ -1,5 +1,5 @@
 ---
-title: "How to: Open Standard Editors | hehe"
+title: "How to: Open Standard Editors"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

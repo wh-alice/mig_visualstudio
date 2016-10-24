@@ -1,7 +1,7 @@
 ---
-title: "Build an OpenGL ES Application on Android and iOS | hehe"
+title: "Build an OpenGL ES Application on Android and iOS"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

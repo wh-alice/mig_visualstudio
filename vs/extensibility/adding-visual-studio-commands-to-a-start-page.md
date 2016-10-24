@@ -1,5 +1,5 @@
 ---
-title: "Adding Visual Studio Commands to a Start Page | hehe"
+title: "Adding Visual Studio Commands to a Start Page"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

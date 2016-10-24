@@ -1,5 +1,5 @@
 ---
-title: "&#39;ReDim&#39; can only change the right-most dimension | hehe"
+title: "&#39;ReDim&#39; can only change the right-most dimension"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

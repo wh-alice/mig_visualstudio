@@ -1,5 +1,5 @@
 ---
-title: "Adding a Toolbar to a Tool Window | hehe"
+title: "Adding a Toolbar to a Tool Window"
 ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"

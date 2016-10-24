@@ -1,7 +1,7 @@
 ---
-title: "Supported Visual Studio Editions for Visualization &amp; Modeling SDK | hehe"
+title: "Supported Visual Studio Editions for Visualization &amp; Modeling SDK"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 7c313ba0-031d-45b8-8220-eead61754747
 caps.latest.revision: 27
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 translation.priority.mt: 
   - "cs-cz"
   - "de-de"

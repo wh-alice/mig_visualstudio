@@ -1,5 +1,5 @@
 ---
-title: "Channels (Threads View) | hehe"
+title: "Channels (Threads View)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

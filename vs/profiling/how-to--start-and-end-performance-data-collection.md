@@ -1,5 +1,5 @@
 ---
-title: "How to: Start and End Performance Data Collection | hehe"
+title: "How to: Start and End Performance Data Collection"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

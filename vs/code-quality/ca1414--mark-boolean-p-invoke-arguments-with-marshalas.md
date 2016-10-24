@@ -1,5 +1,5 @@
 ---
-title: "CA1414: Mark boolean P-Invoke arguments with MarshalAs | hehe"
+title: "CA1414: Mark boolean P-Invoke arguments with MarshalAs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

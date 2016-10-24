@@ -1,5 +1,5 @@
 ---
-title: "Extending User Settings and Options | hehe"
+title: "Extending User Settings and Options"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

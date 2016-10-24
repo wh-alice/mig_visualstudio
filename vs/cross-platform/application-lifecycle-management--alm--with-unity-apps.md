@@ -1,7 +1,7 @@
 ---
-title: "Application Lifecycle Management (ALM) with Unity Apps | hehe"
+title: "Application Lifecycle Management (ALM) with Unity Apps"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2dc61e63-9ba2-4c16-b1ad-f46249e576b6
 caps.latest.revision: 11
-ms.author: "kraigb"
+ms.author: "ghogen"
 manager: "ghogen"
 translation.priority.ht: 
   - "de-de"

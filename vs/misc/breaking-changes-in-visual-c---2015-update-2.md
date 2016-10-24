@@ -1,5 +1,5 @@
 ---
-title: "Breaking Changes in Visual C++ 2015 Update 2 | hehe"
+title: "Breaking Changes in Visual C++ 2015 Update 2"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.reviewer: ""

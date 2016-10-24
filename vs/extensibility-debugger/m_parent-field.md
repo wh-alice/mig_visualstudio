@@ -1,5 +1,5 @@
 ---
-title: "m_parent Field | hehe"
+title: "m_parent Field"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

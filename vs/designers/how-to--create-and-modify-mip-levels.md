@@ -1,7 +1,7 @@
 ---
-title: "How to: Create and Modify MIP Levels | hehe"
+title: "How to: Create and Modify MIP Levels"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f64d4369-2307-4175-a39a-2e45506f7fa1
 caps.latest.revision: 14
-ms.author: "mithom"
+ms.author: "brpeek"
 manager: "ghogen"
 ---
 # How to: Create and Modify MIP Levels

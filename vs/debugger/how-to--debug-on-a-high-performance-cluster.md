@@ -1,5 +1,5 @@
 ---
-title: "How to: Debug On a High-Performance Cluster | hehe"
+title: "How to: Debug On a High-Performance Cluster"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

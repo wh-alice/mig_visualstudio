@@ -1,5 +1,5 @@
 ---
-title: "Debugging and the Hosting Process | hehe"
+title: "Debugging and the Hosting Process"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

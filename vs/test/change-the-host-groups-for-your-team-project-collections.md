@@ -1,5 +1,5 @@
 ---
-title: "Change the Host Groups for Your Team Project Collections | hehe"
+title: "Change the Host Groups for Your Team Project Collections"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

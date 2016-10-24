@@ -1,5 +1,5 @@
 ---
-title: "Connecting to Data in Windows Forms Applications | hehe"
+title: "Connecting to Data in Windows Forms Applications"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

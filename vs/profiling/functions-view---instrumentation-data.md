@@ -1,5 +1,5 @@
 ---
-title: "Functions View - Instrumentation Data | hehe"
+title: "Functions View - Instrumentation Data"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,7 +1,7 @@
 ---
-title: "Map methods on the call stack while debugging in Visual Studio | hehe"
+title: "Map methods on the call stack while debugging in Visual Studio"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,7 +33,7 @@ helpviewer_keywords:
 ms.assetid: d6a72e5e-f88d-46fc-94a3-1789d34805ef
 caps.latest.revision: 39
 ms.author: "mikejo"
-manager: "ghogen"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

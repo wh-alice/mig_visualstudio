@@ -1,5 +1,5 @@
 ---
-title: "Wrong number of type arguments passed to method &#39;&lt;genericprocedurename&gt;&#39; | hehe"
+title: "Wrong number of type arguments passed to method &#39;&lt;genericprocedurename&gt;&#39;"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

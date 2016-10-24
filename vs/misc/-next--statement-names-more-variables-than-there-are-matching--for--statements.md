@@ -1,5 +1,5 @@
 ---
-title: "&#39;Next&#39; statement names more variables than there are matching &#39;For&#39; statements | hehe"
+title: "&#39;Next&#39; statement names more variables than there are matching &#39;For&#39; statements"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

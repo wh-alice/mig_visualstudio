@@ -1,5 +1,5 @@
 ---
-title: "Application Page, Project Designer (C#) | hehe"
+title: "Application Page, Project Designer (C#)"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

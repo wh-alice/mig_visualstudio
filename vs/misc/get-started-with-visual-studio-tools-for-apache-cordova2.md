@@ -1,5 +1,5 @@
 ---
-title: "Get started with Visual Studio Tools for Apache Cordova2 | hehe"
+title: "Get started with Visual Studio Tools for Apache Cordova2"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

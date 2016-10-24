@@ -1,7 +1,7 @@
 ---
-title: "Overview of Domain-Specific Language Tools | hehe"
+title: "Overview of Domain-Specific Language Tools"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 50d93ea2-8c88-4522-853b-40ab194953db
 caps.latest.revision: 54
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 ---
 # Overview of Domain-Specific Language Tools
 Domain-Specific Language Tools (DSL Tools), which are hosted in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], let you design a domain-specific language and then generate everything that users must have to create models that are based on the language.  

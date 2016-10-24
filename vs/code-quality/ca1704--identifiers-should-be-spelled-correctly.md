@@ -1,5 +1,5 @@
 ---
-title: "CA1704: Identifiers should be spelled correctly | hehe"
+title: "CA1704: Identifiers should be spelled correctly"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

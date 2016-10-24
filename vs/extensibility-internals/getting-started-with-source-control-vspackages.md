@@ -1,5 +1,5 @@
 ---
-title: "Getting Started with Source Control VSPackages | hehe"
+title: "Getting Started with Source Control VSPackages"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

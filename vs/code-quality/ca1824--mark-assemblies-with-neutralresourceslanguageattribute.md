@@ -1,5 +1,5 @@
 ---
-title: "CA1824: Mark assemblies with NeutralResourcesLanguageAttribute | hehe"
+title: "CA1824: Mark assemblies with NeutralResourcesLanguageAttribute"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

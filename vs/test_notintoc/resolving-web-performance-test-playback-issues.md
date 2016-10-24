@@ -1,5 +1,5 @@
 ---
-title: "Resolving web performance test playback issues | hehe"
+title: "Resolving web performance test playback issues"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

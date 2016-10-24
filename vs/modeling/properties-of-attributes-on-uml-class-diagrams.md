@@ -1,7 +1,7 @@
 ---
-title: "Properties of attributes on UML class diagrams | hehe"
+title: "Properties of attributes on UML class diagrams"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: ba01e064-7424-4e72-98fa-42fa1c30e153
 caps.latest.revision: 19
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

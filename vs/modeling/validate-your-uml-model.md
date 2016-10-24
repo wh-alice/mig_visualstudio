@@ -1,7 +1,7 @@
 ---
-title: "Validate your UML model | hehe"
+title: "Validate your UML model"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: deed5092-c11d-4431-a801-1e866a103075
 caps.latest.revision: 10
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

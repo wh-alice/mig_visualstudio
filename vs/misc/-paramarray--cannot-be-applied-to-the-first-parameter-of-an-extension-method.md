@@ -1,5 +1,5 @@
 ---
-title: "&#39;ParamArray&#39; cannot be applied to the first parameter of an extension method | hehe"
+title: "&#39;ParamArray&#39; cannot be applied to the first parameter of an extension method"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

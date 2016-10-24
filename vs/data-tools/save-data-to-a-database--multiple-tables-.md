@@ -1,5 +1,5 @@
 ---
-title: "Save data to a database (multiple tables) | hehe"
+title: "Save data to a database (multiple tables)"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"

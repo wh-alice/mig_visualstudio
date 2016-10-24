@@ -1,7 +1,7 @@
 ---
-title: "UML Use Case Diagrams: Reference | hehe"
+title: "UML Use Case Diagrams: Reference"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,7 +20,7 @@ helpviewer_keywords:
 ms.assetid: aa15772b-eb67-4366-b145-b559112817df
 caps.latest.revision: 33
 ms.author: "ahomer"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

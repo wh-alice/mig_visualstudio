@@ -1,5 +1,5 @@
 ---
-title: "Setting General Performance Session Options | hehe"
+title: "Setting General Performance Session Options"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

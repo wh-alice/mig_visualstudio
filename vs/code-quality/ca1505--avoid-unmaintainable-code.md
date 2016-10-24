@@ -1,5 +1,5 @@
 ---
-title: "CA1505: Avoid unmaintainable code | hehe"
+title: "CA1505: Avoid unmaintainable code"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

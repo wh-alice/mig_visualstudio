@@ -1,5 +1,5 @@
 ---
-title: "IDebugCoreServer3::GetServerFriendlyName | hehe"
+title: "IDebugCoreServer3::GetServerFriendlyName"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

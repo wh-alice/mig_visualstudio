@@ -1,5 +1,5 @@
 ---
-title: "How to: Add a Comment to a Running Load Test Using the Load Test Analyzer | hehe"
+title: "How to: Add a Comment to a Running Load Test Using the Load Test Analyzer"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

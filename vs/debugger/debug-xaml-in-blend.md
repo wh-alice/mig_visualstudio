@@ -1,5 +1,5 @@
 ---
-title: "Debug XAML in Blend | hehe"
+title: "Debug XAML in Blend"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

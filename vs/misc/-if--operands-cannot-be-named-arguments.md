@@ -1,5 +1,5 @@
 ---
-title: "&#39;If&#39; operands cannot be named arguments | hehe"
+title: "&#39;If&#39; operands cannot be named arguments"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Type constraint cannot be a &#39;NotInheritable&#39; class | hehe"
+title: "Type constraint cannot be a &#39;NotInheritable&#39; class"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

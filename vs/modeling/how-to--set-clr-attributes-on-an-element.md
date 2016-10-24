@@ -1,7 +1,7 @@
 ---
-title: "How to: Set CLR Attributes on an Element | hehe"
+title: "How to: Set CLR Attributes on an Element"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: b3db3c74-920c-4701-9544-6f75cbe8b7c9
 caps.latest.revision: 19
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 ---
 # How to: Set CLR Attributes on an Element
 Custom attributes are special attributes that can be added to domain elements, shapes, connectors, and diagrams. You can add any attribute that inherits from the `System.Attribute` class.  

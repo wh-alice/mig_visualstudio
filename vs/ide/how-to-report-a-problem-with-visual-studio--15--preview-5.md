@@ -1,5 +1,5 @@
 ---
-title: "How to Report a Problem with Visual Studio &quot;15&quot; Preview 5 | hehe"
+title: "How to Report a Problem with Visual Studio &quot;15&quot; Preview 5"
 ms.custom: ""
 ms.date: "2016-10-05"
 ms.prod: "visual-studio-dev14"
@@ -10,6 +10,7 @@ ms.topic: "article"
 ms.assetid: bee01179-cde5-4419-9095-190ee0ba5902
 caps.latest.revision: 4
 ms.author: "tglee"
+manager: "ghogen"
 robots: noindex,nofollow
 ---
 # How to Report a Problem with Visual Studio &quot;15&quot; Preview 5

@@ -1,5 +1,5 @@
 ---
-title: "Instance members and &#39;Me&#39; cannot be used in a query expression | hehe"
+title: "Instance members and &#39;Me&#39; cannot be used in a query expression"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

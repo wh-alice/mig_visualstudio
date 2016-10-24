@@ -1,5 +1,5 @@
 ---
-title: "Configure Lab Management for SCVMM environments | hehe"
+title: "Configure Lab Management for SCVMM environments"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-tfs-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "&#39;Set&#39; parameter cannot be declared &#39;&lt;specifier&gt;&#39; | hehe"
+title: "&#39;Set&#39; parameter cannot be declared &#39;&lt;specifier&gt;&#39;"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

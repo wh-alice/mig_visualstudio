@@ -1,5 +1,5 @@
 ---
-title: "Run a unit test as a 64-bit process | hehe"
+title: "Run a unit test as a 64-bit process"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

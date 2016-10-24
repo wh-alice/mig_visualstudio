@@ -1,5 +1,5 @@
 ---
-title: "How to: Set a Test Configuration To Be Inactive | hehe"
+title: "How to: Set a Test Configuration To Be Inactive"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

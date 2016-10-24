@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Exceptions: System.IO.Log.ReservationNotFoundException | hehe"
+title: "Troubleshooting Exceptions: System.IO.Log.ReservationNotFoundException"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Resolve Ambiguity Dialog Box | hehe"
+title: "Resolve Ambiguity Dialog Box"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

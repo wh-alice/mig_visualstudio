@@ -1,5 +1,5 @@
 ---
-title: "Unable to create temp file in path &#39;&lt;filename&gt;&#39;: &lt;error message&gt; | hehe"
+title: "Unable to create temp file in path &#39;&lt;filename&gt;&#39;: &lt;error message&gt;"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Using the Virtual User Activity Chart to Isolate Issues | hehe"
+title: "Walkthrough: Using the Virtual User Activity Chart to Isolate Issues"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

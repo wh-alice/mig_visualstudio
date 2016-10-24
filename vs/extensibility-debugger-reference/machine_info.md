@@ -1,5 +1,5 @@
 ---
-title: "MACHINE_INFO | hehe"
+title: "MACHINE_INFO"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

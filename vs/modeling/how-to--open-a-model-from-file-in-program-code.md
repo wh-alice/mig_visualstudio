@@ -1,7 +1,7 @@
 ---
-title: "How to: Open a Model from File in Program Code | hehe"
+title: "How to: Open a Model from File in Program Code"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: d7d68697-5418-4263-bdb2-48401924ea71
 caps.latest.revision: 8
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 ---
 # How to: Open a Model from File in Program Code
 You can open DSL models in any application.  

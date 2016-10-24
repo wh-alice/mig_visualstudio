@@ -1,5 +1,5 @@
 ---
-title: "How to: Specify 64-Bit Process Using Test Settings | hehe"
+title: "How to: Specify 64-Bit Process Using Test Settings"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

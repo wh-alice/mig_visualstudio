@@ -1,5 +1,5 @@
 ---
-title: "IDebugBinder3::GetExceptionObjectAndType | hehe"
+title: "IDebugBinder3::GetExceptionObjectAndType"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

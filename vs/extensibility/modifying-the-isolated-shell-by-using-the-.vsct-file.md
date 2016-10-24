@@ -1,5 +1,5 @@
 ---
-title: "Modifying the Isolated Shell By Using the .Vsct File | hehe"
+title: "Modifying the Isolated Shell By Using the .Vsct File"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

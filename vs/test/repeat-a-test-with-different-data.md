@@ -1,5 +1,5 @@
 ---
-title: "Repeat a test with different data | hehe"
+title: "Repeat a test with different data"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"

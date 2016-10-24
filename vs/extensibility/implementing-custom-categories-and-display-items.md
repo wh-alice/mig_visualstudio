@@ -1,5 +1,5 @@
 ---
-title: "Implementing Custom Categories and Display Items | hehe"
+title: "Implementing Custom Categories and Display Items"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

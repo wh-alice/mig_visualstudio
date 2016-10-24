@@ -1,7 +1,7 @@
 ---
-title: "Writing a T4 Text Template | hehe"
+title: "Writing a T4 Text Template"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 94328da7-953b-4e92-9587-648543d1f732
 caps.latest.revision: 43
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

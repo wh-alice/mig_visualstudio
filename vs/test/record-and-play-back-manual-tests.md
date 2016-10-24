@@ -1,7 +1,7 @@
 ---
-title: "Record and play back manual tests | hehe"
+title: "Record and play back manual tests"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,7 +19,7 @@ helpviewer_keywords:
 ms.assetid: 9792e72f-600e-441f-9d4e-6510e5965665
 caps.latest.revision: 34
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

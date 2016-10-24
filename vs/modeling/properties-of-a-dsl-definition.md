@@ -1,7 +1,7 @@
 ---
-title: "Properties of a DSL Definition | hehe"
+title: "Properties of a DSL Definition"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 38debcfe-e1a6-4a3f-9d69-3ab07520f2b6
 caps.latest.revision: 13
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 ---
 # Properties of a DSL Definition
 DslDefinition properties define *domain-specific language* definition properties such as version numbering. The DslDefinition properties appear in the **Properties** window when you click an open area of the diagram in the *Domain-Specific Language Designer*.  

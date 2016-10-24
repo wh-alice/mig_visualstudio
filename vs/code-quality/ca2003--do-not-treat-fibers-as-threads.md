@@ -1,5 +1,5 @@
 ---
-title: "CA2003: Do not treat fibers as threads | hehe"
+title: "CA2003: Do not treat fibers as threads"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

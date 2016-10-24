@@ -1,5 +1,5 @@
 ---
-title: "Implementing the IVsPackage Interface | hehe"
+title: "Implementing the IVsPackage Interface"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

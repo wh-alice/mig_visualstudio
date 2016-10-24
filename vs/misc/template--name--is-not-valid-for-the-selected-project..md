@@ -1,5 +1,5 @@
 ---
-title: "Template &lt;name&gt; is not valid for the selected project. | hehe"
+title: "Template &lt;name&gt; is not valid for the selected project."
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

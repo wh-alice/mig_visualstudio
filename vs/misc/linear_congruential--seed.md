@@ -1,5 +1,5 @@
 ---
-title: "linear_congruential::seed | hehe"
+title: "linear_congruential::seed"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

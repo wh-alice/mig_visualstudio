@@ -1,7 +1,7 @@
 ---
-title: "Support for Code Snippets in a Legacy Language Service | hehe"
+title: "Support for Code Snippets in a Legacy Language Service"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

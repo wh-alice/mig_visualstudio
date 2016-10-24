@@ -1,5 +1,5 @@
 ---
-title: "Names and Qualified Names | hehe"
+title: "Names and Qualified Names"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

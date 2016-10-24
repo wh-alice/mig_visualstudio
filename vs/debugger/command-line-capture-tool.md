@@ -1,5 +1,5 @@
 ---
-title: "Command-Line Capture Tool | hehe"
+title: "Command-Line Capture Tool"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

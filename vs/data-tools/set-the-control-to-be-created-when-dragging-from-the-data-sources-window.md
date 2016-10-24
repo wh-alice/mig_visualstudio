@@ -1,5 +1,5 @@
 ---
-title: "Set the control to be created when dragging from the Data Sources window | hehe"
+title: "Set the control to be created when dragging from the Data Sources window"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"

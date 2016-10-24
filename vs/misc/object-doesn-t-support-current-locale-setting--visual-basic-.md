@@ -1,5 +1,5 @@
 ---
-title: "Object doesn&#39;t support current locale setting (Visual Basic) | hehe"
+title: "Object doesn&#39;t support current locale setting (Visual Basic)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

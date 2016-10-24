@@ -1,5 +1,5 @@
 ---
-title: "IDebugProperty2::GetMemoryBytes | hehe"
+title: "IDebugProperty2::GetMemoryBytes"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

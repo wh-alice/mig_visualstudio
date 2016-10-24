@@ -1,5 +1,5 @@
 ---
-title: "Step 3: Assign a Random Icon to Each Label | hehe"
+title: "Step 3: Assign a Random Icon to Each Label"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

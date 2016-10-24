@@ -1,7 +1,7 @@
 ---
-title: "How to: Provide an Asynchronous Visual Studio Service | hehe"
+title: "How to: Provide an Asynchronous Visual Studio Service"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

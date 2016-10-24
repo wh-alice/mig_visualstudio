@@ -1,5 +1,5 @@
 ---
-title: "How to: Build Incrementally | hehe"
+title: "How to: Build Incrementally"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

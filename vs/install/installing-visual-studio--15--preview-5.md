@@ -1,7 +1,7 @@
 ---
-title: "Installing Visual Studio &quot;15&quot; Preview 5 | hehe"
+title: "Installing Visual Studio &quot;15&quot; Preview 5"
 ms.custom: ""
-ms.date: "2016-10-20"
+ms.date: "2016-10-21"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,7 +20,7 @@ helpviewer_keywords:
   - "Visual Studio setup"
   - "Visual Studio installer"
 ms.assetid: 8d4297e4-9f43-4f12-95ec-22e61154480e
-caps.latest.revision: 16
+caps.latest.revision: 17
 ms.author: "tglee"
 manager: "ghogen"
 ---
@@ -85,7 +85,7 @@ Welcome to a new way to install Visual Studio! In our newest version, we’ve ma
 
 ## Install individual components
 
-If you don’t want to use the handy Workloads feature to customize your Visual Studio installation, choose the **Individual Components** option from the Visual Studio Installer, select what you want, and follow the prompts.
+If you don’t want to use the handy Workloads feature to customize your Visual Studio installation, choose the **Individual Components** option from the Visual Studio Installer, select what you want, and then follow the prompts.
   
 ## See Also  
 * [Modifying Visual Studio "15" Preview 5](../install/modifying-visual-studio--15--preview-5.md)

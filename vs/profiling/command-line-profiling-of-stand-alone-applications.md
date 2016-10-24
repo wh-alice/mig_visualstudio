@@ -1,5 +1,5 @@
 ---
-title: "Command-Line Profiling of Stand-Alone Applications | hehe"
+title: "Command-Line Profiling of Stand-Alone Applications"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

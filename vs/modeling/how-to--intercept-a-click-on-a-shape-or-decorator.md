@@ -1,7 +1,7 @@
 ---
-title: "How to: Intercept a Click on a Shape or Decorator | hehe"
+title: "How to: Intercept a Click on a Shape or Decorator"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: e2bc3124-c0c0-4104-9779-a5bf565d7f51
 caps.latest.revision: 21
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 ---
 # How to: Intercept a Click on a Shape or Decorator
 The following procedures demonstrate how to intercept a click on a shape or an icon decorator. You can intercept clicks, double-clicks, drags, and other gestures, and make the element respond.  

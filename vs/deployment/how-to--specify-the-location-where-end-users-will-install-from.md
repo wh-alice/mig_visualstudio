@@ -1,5 +1,5 @@
 ---
-title: "How to: Specify the Location Where End Users Will Install From | hehe"
+title: "How to: Specify the Location Where End Users Will Install From"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

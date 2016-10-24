@@ -1,5 +1,5 @@
 ---
-title: "CA5350: Do Not Use Weak Cryptographic Algorithms | hehe"
+title: "CA5350: Do Not Use Weak Cryptographic Algorithms"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.reviewer: ""

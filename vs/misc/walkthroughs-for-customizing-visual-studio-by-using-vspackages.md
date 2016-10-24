@@ -1,5 +1,5 @@
 ---
-title: "Walkthroughs for Customizing Visual Studio By Using VSPackages | hehe"
+title: "Walkthroughs for Customizing Visual Studio By Using VSPackages"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

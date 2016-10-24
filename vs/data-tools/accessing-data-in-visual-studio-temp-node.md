@@ -1,5 +1,5 @@
 ---
-title: "Accessing Data in Visual Studio Temp Node | hehe"
+title: "Accessing Data in Visual Studio Temp Node"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.reviewer: ""

@@ -1,5 +1,5 @@
 ---
-title: "Compiler Warning (Level 2) CS1927 | hehe"
+title: "Compiler Warning (Level 2) CS1927"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

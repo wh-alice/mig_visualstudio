@@ -1,5 +1,5 @@
 ---
-title: "Array initializer has too few dimensions | hehe"
+title: "Array initializer has too few dimensions"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

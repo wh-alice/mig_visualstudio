@@ -1,5 +1,5 @@
 ---
-title: "How to: Examine System Code After an Exception | hehe"
+title: "How to: Examine System Code After an Exception"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Resource name &#39;&lt;resourcename&gt;&#39; cannot be used more than once | hehe"
+title: "Resource name &#39;&lt;resourcename&gt;&#39; cannot be used more than once"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

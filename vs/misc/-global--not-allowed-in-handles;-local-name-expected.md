@@ -1,5 +1,5 @@
 ---
-title: "&#39;Global&#39; not allowed in handles; local name expected | hehe"
+title: "&#39;Global&#39; not allowed in handles; local name expected"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

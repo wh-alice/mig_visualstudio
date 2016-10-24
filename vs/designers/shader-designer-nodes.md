@@ -1,7 +1,7 @@
 ---
-title: "Shader Designer Nodes | hehe"
+title: "Shader Designer Nodes"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f5192fbd-c78f-40a8-a4d4-443209610268
 caps.latest.revision: 6
-ms.author: "mithom"
+ms.author: "brpeek"
 manager: "ghogen"
 ---
 # Shader Designer Nodes

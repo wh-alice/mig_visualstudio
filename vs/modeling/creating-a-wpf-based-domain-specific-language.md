@@ -1,7 +1,7 @@
 ---
-title: "Creating a WPF-Based Domain-Specific Language | hehe"
+title: "Creating a WPF-Based Domain-Specific Language"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 917519ad-138f-4869-8158-243014c7ca1d
 caps.latest.revision: 6
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 ---
 # Creating a WPF-Based Domain-Specific Language
 You can create a domain-specific language that has a WPF designer instead of a graphical designer.  

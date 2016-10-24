@@ -1,5 +1,5 @@
 ---
-title: "New Project Generation: Under the Hood, Part Two | hehe"
+title: "New Project Generation: Under the Hood, Part Two"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

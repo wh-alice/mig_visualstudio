@@ -1,5 +1,5 @@
 ---
-title: "Solutions and Projects in Visual Studio | hehe"
+title: "Solutions and Projects in Visual Studio"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"

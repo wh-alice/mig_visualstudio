@@ -1,5 +1,5 @@
 ---
-title: "&#39;#ExternalSource&#39; directives cannot be nested | hehe"
+title: "&#39;#ExternalSource&#39; directives cannot be nested"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

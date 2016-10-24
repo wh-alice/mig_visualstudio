@@ -1,5 +1,5 @@
 ---
-title: "Just My Code (Threads View) | hehe"
+title: "Just My Code (Threads View)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

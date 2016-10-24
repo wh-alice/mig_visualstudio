@@ -1,5 +1,5 @@
 ---
-title: "Assembly &lt;assembly1&gt; references assembly &lt;assembly2&gt; | hehe"
+title: "Assembly &lt;assembly1&gt; references assembly &lt;assembly2&gt;"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

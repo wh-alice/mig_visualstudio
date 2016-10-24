@@ -1,5 +1,5 @@
 ---
-title: "How to: Select the Files to Build | hehe"
+title: "How to: Select the Files to Build"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

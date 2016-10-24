@@ -1,5 +1,5 @@
 ---
-title: "How to: Add a Web Recording to an Existing Web Performance Test | hehe"
+title: "How to: Add a Web Recording to an Existing Web Performance Test"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

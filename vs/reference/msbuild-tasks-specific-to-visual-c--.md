@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Tasks Specific to Visual C++ | hehe"
+title: "MSBuild Tasks Specific to Visual C++"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

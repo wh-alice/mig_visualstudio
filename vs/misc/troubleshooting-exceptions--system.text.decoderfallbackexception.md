@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Exceptions: System.Text.DecoderFallbackException | hehe"
+title: "Troubleshooting Exceptions: System.Text.DecoderFallbackException"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

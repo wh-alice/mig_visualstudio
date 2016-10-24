@@ -1,5 +1,5 @@
 ---
-title: "IDebugProcess2::GetServer | hehe"
+title: "IDebugProcess2::GetServer"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

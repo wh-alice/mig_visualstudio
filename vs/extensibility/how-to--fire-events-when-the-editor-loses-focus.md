@@ -1,5 +1,5 @@
 ---
-title: "How to: Fire Events When the Editor Loses Focus | hehe"
+title: "How to: Fire Events When the Editor Loses Focus"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

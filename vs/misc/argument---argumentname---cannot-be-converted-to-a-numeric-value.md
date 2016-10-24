@@ -1,5 +1,5 @@
 ---
-title: "Argument &#39;&lt;argumentname&gt;&#39; cannot be converted to a numeric value | hehe"
+title: "Argument &#39;&lt;argumentname&gt;&#39; cannot be converted to a numeric value"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

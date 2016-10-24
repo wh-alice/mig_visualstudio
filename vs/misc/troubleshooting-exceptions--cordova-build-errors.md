@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Exceptions: Cordova Build Errors | hehe"
+title: "Troubleshooting Exceptions: Cordova Build Errors"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.reviewer: ""

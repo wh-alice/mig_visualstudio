@@ -1,5 +1,5 @@
 ---
-title: "Code Coverage configuration using Test Settings is deprecated | hehe"
+title: "Code Coverage configuration using Test Settings is deprecated"
 ms.custom: ""
 ms.date: "10/01/2016"
 ms.prod: "visual-studio-tfs-dev14"

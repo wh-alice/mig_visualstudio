@@ -1,5 +1,5 @@
 ---
-title: "AD_PROCESS_ID_TYPE | hehe"
+title: "AD_PROCESS_ID_TYPE"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

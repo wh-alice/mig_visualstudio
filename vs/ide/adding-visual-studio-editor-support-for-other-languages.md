@@ -1,7 +1,7 @@
 ---
-title: "Adding Visual Studio editor support for other languages | hehe"
+title: "Adding Visual Studio editor support for other languages"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/21/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
 ms.assetid: d78c43ee-4ef2-42e5-984e-d137de4e7e92
 caps.latest.revision: 13
 ms.author: "kempb"
+manager: "ghogen"
 ---
 # Adding Visual Studio editor support for other languages
 Learn about how the Visual Studio editor supports reading and navigating through different computer languages and how you can add Visual Studio editor support for other languages.  

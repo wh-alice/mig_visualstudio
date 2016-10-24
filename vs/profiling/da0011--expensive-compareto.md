@@ -1,5 +1,5 @@
 ---
-title: "DA0011: Expensive CompareTo | hehe"
+title: "DA0011: Expensive CompareTo"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

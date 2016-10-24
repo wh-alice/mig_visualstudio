@@ -1,5 +1,5 @@
 ---
-title: "Filter and sort data in a Windows Forms application | hehe"
+title: "Filter and sort data in a Windows Forms application"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"

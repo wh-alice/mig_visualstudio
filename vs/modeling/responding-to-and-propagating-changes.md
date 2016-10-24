@@ -1,7 +1,7 @@
 ---
-title: "Responding to and Propagating Changes | hehe"
+title: "Responding to and Propagating Changes"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: fc2e9ac5-7a84-44ed-9945-94e45f89c227
 caps.latest.revision: 24
 ms.author: "awills"
-manager: "kamrani"
+manager: "douge"
 ---
 # Responding to and Propagating Changes
 When an element is created, deleted or updated, you can write code that propagates the change to other parts of the model, or to external resources such as files, databases, or other components.  

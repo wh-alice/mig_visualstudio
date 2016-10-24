@@ -1,5 +1,5 @@
 ---
-title: "Wizard Interface (IDTWizard) | hehe"
+title: "Wizard Interface (IDTWizard)"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

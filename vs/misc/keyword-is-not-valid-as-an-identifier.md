@@ -1,5 +1,5 @@
 ---
-title: "Keyword is not valid as an identifier | hehe"
+title: "Keyword is not valid as an identifier"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
