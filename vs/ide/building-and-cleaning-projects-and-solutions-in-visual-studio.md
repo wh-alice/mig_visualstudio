@@ -1,5 +1,5 @@
 ---
-title: "Building and Cleaning Projects and Solutions in Visual Studio"
+title: "Building and Cleaning Projects and Solutions in Visual Studio | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

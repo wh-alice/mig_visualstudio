@@ -1,5 +1,5 @@
 ---
-title: "ItemGroup Element (MSBuild)"
+title: "ItemGroup Element (MSBuild) | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

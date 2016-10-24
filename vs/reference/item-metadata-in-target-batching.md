@@ -1,5 +1,5 @@
 ---
-title: "Item Metadata in Target Batching"
+title: "Item Metadata in Target Batching | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

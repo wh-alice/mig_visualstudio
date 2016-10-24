@@ -1,5 +1,5 @@
 ---
-title: "Properties of Domain Relationships"
+title: "Properties of Domain Relationships | testtitle"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

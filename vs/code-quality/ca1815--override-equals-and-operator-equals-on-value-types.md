@@ -1,5 +1,5 @@
 ---
-title: "CA1815: Override equals and operator equals on value types"
+title: "CA1815: Override equals and operator equals on value types | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "ProjectCollection Element (Visual Studio Templates)"
+title: "ProjectCollection Element (Visual Studio Templates) | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

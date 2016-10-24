@@ -1,5 +1,5 @@
 ---
-title: "DA0005: Frequent GC2 collections"
+title: "DA0005: Frequent GC2 collections | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

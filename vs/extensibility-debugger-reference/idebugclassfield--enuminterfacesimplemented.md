@@ -1,5 +1,5 @@
 ---
-title: "IDebugClassField::EnumInterfacesImplemented"
+title: "IDebugClassField::EnumInterfacesImplemented | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

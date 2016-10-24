@@ -1,5 +1,5 @@
 ---
-title: "Public member &#39;&lt;membername&gt;&#39; on type &#39;&lt;typename&gt;&#39; not found"
+title: "Public member &#39;&lt;membername&gt;&#39; on type &#39;&lt;typename&gt;&#39; not found | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

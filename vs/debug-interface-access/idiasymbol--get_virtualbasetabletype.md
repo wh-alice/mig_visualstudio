@@ -1,5 +1,5 @@
 ---
-title: "IDiaSymbol::get_virtualBaseTableType"
+title: "IDiaSymbol::get_virtualBaseTableType | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

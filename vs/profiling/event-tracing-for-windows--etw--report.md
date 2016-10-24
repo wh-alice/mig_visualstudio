@@ -1,5 +1,5 @@
 ---
-title: "Event Tracing for Windows (ETW) Report"
+title: "Event Tracing for Windows (ETW) Report | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

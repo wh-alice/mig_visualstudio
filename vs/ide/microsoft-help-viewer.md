@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Help Viewer"
+title: "Microsoft Help Viewer | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

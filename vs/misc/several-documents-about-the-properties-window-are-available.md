@@ -1,5 +1,5 @@
 ---
-title: "Several Documents About the Properties Window Are Available"
+title: "Several Documents About the Properties Window Are Available | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

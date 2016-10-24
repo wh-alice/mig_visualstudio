@@ -1,5 +1,5 @@
 ---
-title: "Concurrency Namespace (Concurrency Visualizer)"
+title: "Concurrency Namespace (Concurrency Visualizer) | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

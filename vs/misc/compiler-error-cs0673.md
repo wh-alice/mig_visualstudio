@@ -1,5 +1,5 @@
 ---
-title: "Compiler Error CS0673"
+title: "Compiler Error CS0673 | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Language Service and Editor Extension Points"
+title: "Language Service and Editor Extension Points | testtitle"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

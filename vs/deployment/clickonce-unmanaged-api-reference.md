@@ -1,5 +1,5 @@
 ---
-title: "ClickOnce Unmanaged API Reference"
+title: "ClickOnce Unmanaged API Reference | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Best Practices for Implementing a Source Control Plug-in"
+title: "Best Practices for Implementing a Source Control Plug-in | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

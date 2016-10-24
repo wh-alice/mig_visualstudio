@@ -1,5 +1,5 @@
 ---
-title: "How to: Add Nodes to the Workspace from the XML Schema Explorer"
+title: "How to: Add Nodes to the Workspace from the XML Schema Explorer | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

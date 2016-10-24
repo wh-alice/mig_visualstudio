@@ -1,5 +1,5 @@
 ---
-title: "Extending Connected Services"
+title: "Extending Connected Services | testtitle"
 ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"

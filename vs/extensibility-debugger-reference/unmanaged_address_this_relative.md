@@ -1,5 +1,5 @@
 ---
-title: "UNMANAGED_ADDRESS_THIS_RELATIVE"
+title: "UNMANAGED_ADDRESS_THIS_RELATIVE | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Anonymous type member name must be preceded by a period"
+title: "Anonymous type member name must be preceded by a period | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

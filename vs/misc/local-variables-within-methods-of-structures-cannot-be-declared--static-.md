@@ -1,5 +1,5 @@
 ---
-title: "Local variables within methods of structures cannot be declared &#39;Static&#39;"
+title: "Local variables within methods of structures cannot be declared &#39;Static&#39; | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

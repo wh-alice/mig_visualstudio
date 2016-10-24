@@ -1,5 +1,5 @@
 ---
-title: "IDiaStackFrame::get_localsBase"
+title: "IDiaStackFrame::get_localsBase | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

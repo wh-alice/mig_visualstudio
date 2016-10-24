@@ -1,5 +1,5 @@
 ---
-title: "Managing Undo and Redo by Using the Legacy API"
+title: "Managing Undo and Redo by Using the Legacy API | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

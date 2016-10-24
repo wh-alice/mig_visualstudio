@@ -1,5 +1,5 @@
 ---
-title: "Cannot copy assembly &#39;assembly&#39; to file &#39;file&#39;. &lt;reason&gt;"
+title: "Cannot copy assembly &#39;assembly&#39; to file &#39;file&#39;. &lt;reason&gt; | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

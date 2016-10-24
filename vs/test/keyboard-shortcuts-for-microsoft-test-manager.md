@@ -1,5 +1,5 @@
 ---
-title: "Keyboard shortcuts for Microsoft Test Manager"
+title: "Keyboard shortcuts for Microsoft Test Manager | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

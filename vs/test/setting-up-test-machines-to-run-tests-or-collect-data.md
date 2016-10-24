@@ -1,5 +1,5 @@
 ---
-title: "Setting Up Test Machines to Run Tests or Collect Data"
+title: "Setting Up Test Machines to Run Tests or Collect Data | testtitle"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"

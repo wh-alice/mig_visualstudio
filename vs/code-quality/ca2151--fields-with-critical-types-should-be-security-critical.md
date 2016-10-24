@@ -1,5 +1,5 @@
 ---
-title: "CA2151: Fields with critical types should be security critical"
+title: "CA2151: Fields with critical types should be security critical | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Managing the Toolbox"
+title: "Managing the Toolbox | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

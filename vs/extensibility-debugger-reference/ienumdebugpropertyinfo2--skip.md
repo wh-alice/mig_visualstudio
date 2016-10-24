@@ -1,5 +1,5 @@
 ---
-title: "IEnumDebugPropertyInfo2::Skip"
+title: "IEnumDebugPropertyInfo2::Skip | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

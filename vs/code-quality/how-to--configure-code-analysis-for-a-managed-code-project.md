@@ -1,5 +1,5 @@
 ---
-title: "How to: Configure Code Analysis for a Managed Code Project"
+title: "How to: Configure Code Analysis for a Managed Code Project | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

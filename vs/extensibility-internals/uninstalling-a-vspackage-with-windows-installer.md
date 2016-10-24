@@ -1,5 +1,5 @@
 ---
-title: "Uninstalling a VSPackage With Windows Installer"
+title: "Uninstalling a VSPackage With Windows Installer | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

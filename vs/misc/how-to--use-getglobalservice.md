@@ -1,5 +1,5 @@
 ---
-title: "How to: Use GetGlobalService"
+title: "How to: Use GetGlobalService | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

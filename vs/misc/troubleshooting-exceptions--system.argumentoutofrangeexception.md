@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Exceptions: System.ArgumentOutOfRangeException"
+title: "Troubleshooting Exceptions: System.ArgumentOutOfRangeException | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

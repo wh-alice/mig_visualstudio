@@ -1,5 +1,5 @@
 ---
-title: "Top-level menu names cannot contain separators."
+title: "Top-level menu names cannot contain separators. | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

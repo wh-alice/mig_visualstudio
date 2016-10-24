@@ -1,5 +1,5 @@
 ---
-title: "Resource Compiler Warning RC4205"
+title: "Resource Compiler Warning RC4205 | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

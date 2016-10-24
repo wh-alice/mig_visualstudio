@@ -1,5 +1,5 @@
 ---
-title: "When a Breakpoint Binds or Becomes Unbound"
+title: "When a Breakpoint Binds or Becomes Unbound | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

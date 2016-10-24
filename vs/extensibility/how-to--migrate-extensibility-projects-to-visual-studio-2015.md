@@ -1,5 +1,5 @@
 ---
-title: "How to: Migrate Extensibility Projects to Visual Studio 2015"
+title: "How to: Migrate Extensibility Projects to Visual Studio 2015 | testtitle"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

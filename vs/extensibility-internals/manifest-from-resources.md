@@ -1,5 +1,5 @@
 ---
-title: "Manifest from Resources"
+title: "Manifest from Resources | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.reviewer: ""

@@ -1,5 +1,5 @@
 ---
-title: "shuffle_order_engine::discard"
+title: "shuffle_order_engine::discard | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

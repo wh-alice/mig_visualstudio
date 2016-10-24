@@ -1,5 +1,5 @@
 ---
-title: "METADATA_ADDRESS_FIELD"
+title: "METADATA_ADDRESS_FIELD | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

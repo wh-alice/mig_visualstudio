@@ -1,5 +1,5 @@
 ---
-title: "How to: Add a Test Suite to a Test Plan"
+title: "How to: Add a Test Suite to a Test Plan | testtitle"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

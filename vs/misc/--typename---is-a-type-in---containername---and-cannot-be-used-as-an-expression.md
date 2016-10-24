@@ -1,5 +1,5 @@
 ---
-title: "&#39;&lt;typename&gt;&#39; is a type in &#39;&lt;containername&gt;&#39; and cannot be used as an expression"
+title: "&#39;&lt;typename&gt;&#39; is a type in &#39;&lt;containername&gt;&#39; and cannot be used as an expression | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

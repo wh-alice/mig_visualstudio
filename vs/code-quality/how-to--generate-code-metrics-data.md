@@ -1,5 +1,5 @@
 ---
-title: "How to: Generate Code Metrics Data"
+title: "How to: Generate Code Metrics Data | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

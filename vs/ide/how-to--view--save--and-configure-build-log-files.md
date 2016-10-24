@@ -1,5 +1,5 @@
 ---
-title: "How to: View, Save, and Configure Build Log Files"
+title: "How to: View, Save, and Configure Build Log Files | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

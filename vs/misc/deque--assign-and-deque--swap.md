@@ -1,5 +1,5 @@
 ---
-title: "deque::assign and deque::swap"
+title: "deque::assign and deque::swap | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating and Running Unit Tests for Windows Store Apps"
+title: "Walkthrough: Creating and Running Unit Tests for Windows Store Apps | testtitle"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

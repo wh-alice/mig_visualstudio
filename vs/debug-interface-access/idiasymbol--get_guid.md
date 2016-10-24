@@ -1,5 +1,5 @@
 ---
-title: "IDiaSymbol::get_guid"
+title: "IDiaSymbol::get_guid | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

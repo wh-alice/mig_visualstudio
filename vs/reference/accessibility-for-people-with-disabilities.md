@@ -1,5 +1,5 @@
 ---
-title: "Accessibility for People with Disabilities"
+title: "Accessibility for People with Disabilities | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

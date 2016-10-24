@@ -1,5 +1,5 @@
 ---
-title: "CA2116: APTCA methods should only call APTCA methods"
+title: "CA2116: APTCA methods should only call APTCA methods | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Configure and administer Lab Management"
+title: "Configure and administer Lab Management | testtitle"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"

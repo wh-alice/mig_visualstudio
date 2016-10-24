@@ -1,5 +1,5 @@
 ---
-title: "Folder Element (Visual Studio Project Templates)"
+title: "Folder Element (Visual Studio Project Templates) | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

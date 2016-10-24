@@ -1,5 +1,5 @@
 ---
-title: "Using Rule Sets to Specify the C++ Rules to Run"
+title: "Using Rule Sets to Specify the C++ Rules to Run | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: using the command-line test utility"
+title: "Walkthrough: using the command-line test utility | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-tfs-dev14"

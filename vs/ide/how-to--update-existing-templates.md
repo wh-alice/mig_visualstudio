@@ -1,5 +1,5 @@
 ---
-title: "How to: Update Existing Templates"
+title: "How to: Update Existing Templates | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "How to: Add an Extraction Rule from the Web Performance Test Playback"
+title: "How to: Add an Extraction Rule from the Web Performance Test Playback | testtitle"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

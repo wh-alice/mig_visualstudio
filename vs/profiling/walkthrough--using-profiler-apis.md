@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Using Profiler APIs"
+title: "Walkthrough: Using Profiler APIs | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

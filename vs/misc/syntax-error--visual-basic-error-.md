@@ -1,5 +1,5 @@
 ---
-title: "Syntax error (Visual Basic Error)"
+title: "Syntax error (Visual Basic Error) | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

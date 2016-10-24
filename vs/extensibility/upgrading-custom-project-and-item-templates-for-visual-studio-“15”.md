@@ -1,5 +1,5 @@
 ---
-title: "Upgrading Custom Project and Item Templates for Visual Studio “15”"
+title: "Upgrading Custom Project and Item Templates for Visual Studio “15” | testtitle"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.reviewer: ""

@@ -1,5 +1,5 @@
 ---
-title: "How to: Assign Who Will Run the Tests in a Test Plan"
+title: "How to: Assign Who Will Run the Tests in a Test Plan | testtitle"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

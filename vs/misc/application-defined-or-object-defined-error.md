@@ -1,5 +1,5 @@
 ---
-title: "Application-defined or object-defined error"
+title: "Application-defined or object-defined error | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

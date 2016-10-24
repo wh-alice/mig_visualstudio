@@ -1,5 +1,5 @@
 ---
-title: "IDebugModule3::GetSymbolInfo"
+title: "IDebugModule3::GetSymbolInfo | testtitle"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

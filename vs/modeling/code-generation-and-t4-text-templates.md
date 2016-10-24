@@ -1,5 +1,5 @@
 ---
-title: "Code Generation and T4 Text Templates"
+title: "Code Generation and T4 Text Templates | testtitle"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "How to: Exclude Projects from a Build"
+title: "How to: Exclude Projects from a Build | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

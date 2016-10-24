@@ -1,5 +1,5 @@
 ---
-title: "ParamArray parameters must have an array type"
+title: "ParamArray parameters must have an array type | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

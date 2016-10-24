@@ -1,5 +1,5 @@
 ---
-title: "How to: Make Typedefs for Managed Arrays"
+title: "How to: Make Typedefs for Managed Arrays | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "tcm: Importing Automated Tests into Test Cases"
+title: "tcm: Importing Automated Tests into Test Cases | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-tfs-dev14"

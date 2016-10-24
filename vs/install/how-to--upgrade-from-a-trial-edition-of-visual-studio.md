@@ -1,5 +1,5 @@
 ---
-title: "How to: Upgrade from a Trial Edition of Visual Studio"
+title: "How to: Upgrade from a Trial Edition of Visual Studio | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

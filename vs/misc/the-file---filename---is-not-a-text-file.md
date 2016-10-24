@@ -1,5 +1,5 @@
 ---
-title: "The file &#39;&lt;filename&gt;&#39; is not a text file"
+title: "The file &#39;&lt;filename&gt;&#39; is not a text file | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

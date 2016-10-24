@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio Tools for Apache Cordova"
+title: "Visual Studio Tools for Apache Cordova | testtitle"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.reviewer: ""

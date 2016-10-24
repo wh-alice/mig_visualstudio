@@ -1,5 +1,5 @@
 ---
-title: "Adding a loop to a web performance test"
+title: "Adding a loop to a web performance test | testtitle"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

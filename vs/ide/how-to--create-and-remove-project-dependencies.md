@@ -1,5 +1,5 @@
 ---
-title: "How to: Create and Remove Project Dependencies"
+title: "How to: Create and Remove Project Dependencies | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Creating a WPF-Based Domain-Specific Language"
+title: "Creating a WPF-Based Domain-Specific Language | testtitle"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

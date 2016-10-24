@@ -1,5 +1,5 @@
 ---
-title: "Deploying COM Components with ClickOnce"
+title: "Deploying COM Components with ClickOnce | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

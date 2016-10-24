@@ -1,5 +1,5 @@
 ---
-title: "Run tests with your builds"
+title: "Run tests with your builds | testtitle"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"

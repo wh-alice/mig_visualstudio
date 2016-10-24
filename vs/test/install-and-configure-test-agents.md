@@ -1,5 +1,5 @@
 ---
-title: "Install and configure test agents"
+title: "Install and configure test agents | testtitle"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"

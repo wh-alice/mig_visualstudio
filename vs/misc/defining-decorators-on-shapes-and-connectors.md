@@ -1,5 +1,5 @@
 ---
-title: "Defining Decorators on Shapes and Connectors"
+title: "Defining Decorators on Shapes and Connectors | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

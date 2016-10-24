@@ -1,5 +1,5 @@
 ---
-title: "&lt;publisherIdentity&gt; Element (ClickOnce Deployment)"
+title: "&lt;publisherIdentity&gt; Element (ClickOnce Deployment) | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

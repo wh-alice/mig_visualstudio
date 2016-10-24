@@ -1,5 +1,5 @@
 ---
-title: "DA0018: 32-bit Application running at process managed memory limits"
+title: "DA0018: 32-bit Application running at process managed memory limits | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "How to: Hook Up Events By Using IntelliSense (C#)"
+title: "How to: Hook Up Events By Using IntelliSense (C#) | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

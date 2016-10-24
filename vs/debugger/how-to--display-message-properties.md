@@ -1,5 +1,5 @@
 ---
-title: "How to: Display Message Properties"
+title: "How to: Display Message Properties | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

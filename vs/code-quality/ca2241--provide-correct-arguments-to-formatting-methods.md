@@ -1,5 +1,5 @@
 ---
-title: "CA2241: Provide correct arguments to formatting methods"
+title: "CA2241: Provide correct arguments to formatting methods | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

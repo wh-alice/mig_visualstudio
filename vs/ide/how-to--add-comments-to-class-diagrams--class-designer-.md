@@ -1,5 +1,5 @@
 ---
-title: "How to: Add Comments to Class Diagrams (Class Designer)"
+title: "How to: Add Comments to Class Diagrams (Class Designer) | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

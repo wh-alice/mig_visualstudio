@@ -1,5 +1,5 @@
 ---
-title: "IDebugProgramProvider2::WatchForProviderEvents"
+title: "IDebugProgramProvider2::WatchForProviderEvents | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "ClickOnce and Authenticode"
+title: "ClickOnce and Authenticode | testtitle"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

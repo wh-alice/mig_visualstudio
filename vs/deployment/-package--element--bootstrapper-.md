@@ -1,5 +1,5 @@
 ---
-title: "&lt;Package&gt; Element (Bootstrapper)"
+title: "&lt;Package&gt; Element (Bootstrapper) | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

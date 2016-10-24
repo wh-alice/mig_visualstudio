@@ -1,5 +1,5 @@
 ---
-title: "&lt;summary&gt; (JavaScript)"
+title: "&lt;summary&gt; (JavaScript) | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

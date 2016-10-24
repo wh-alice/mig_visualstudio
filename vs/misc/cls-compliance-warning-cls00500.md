@@ -1,5 +1,5 @@
 ---
-title: "CLS Compliance Warning CLS00500"
+title: "CLS Compliance Warning CLS00500 | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

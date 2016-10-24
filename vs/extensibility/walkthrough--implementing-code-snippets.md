@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Implementing Code Snippets"
+title: "Walkthrough: Implementing Code Snippets | testtitle"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"

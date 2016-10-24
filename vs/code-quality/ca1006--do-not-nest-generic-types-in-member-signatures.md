@@ -1,5 +1,5 @@
 ---
-title: "CA1006: Do not nest generic types in member signatures"
+title: "CA1006: Do not nest generic types in member signatures | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

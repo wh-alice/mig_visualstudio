@@ -1,5 +1,5 @@
 ---
-title: "IDebugBinder3"
+title: "IDebugBinder3 | testtitle"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

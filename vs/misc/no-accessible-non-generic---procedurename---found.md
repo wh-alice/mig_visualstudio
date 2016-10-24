@@ -1,5 +1,5 @@
 ---
-title: "No accessible non-generic &#39;&lt;procedurename&gt;&#39; found"
+title: "No accessible non-generic &#39;&lt;procedurename&gt;&#39; found | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

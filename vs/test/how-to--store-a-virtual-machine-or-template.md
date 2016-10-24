@@ -1,5 +1,5 @@
 ---
-title: "How to: Store a Virtual Machine or Template"
+title: "How to: Store a Virtual Machine or Template | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

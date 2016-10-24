@@ -1,5 +1,5 @@
 ---
-title: "Accessing Local and Remote Data in ClickOnce Applications"
+title: "Accessing Local and Remote Data in ClickOnce Applications | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

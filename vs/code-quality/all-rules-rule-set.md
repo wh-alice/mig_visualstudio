@@ -1,5 +1,5 @@
 ---
-title: "All Rules rule set"
+title: "All Rules rule set | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

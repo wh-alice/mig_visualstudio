@@ -1,5 +1,5 @@
 ---
-title: "chi_squared_distribution::operator()"
+title: "chi_squared_distribution::operator() | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

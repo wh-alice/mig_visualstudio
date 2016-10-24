@@ -1,5 +1,5 @@
 ---
-title: "How to: Add a New Item to a Workflow Project (Legacy)"
+title: "How to: Add a New Item to a Workflow Project (Legacy) | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: ".net-framework-4.6"

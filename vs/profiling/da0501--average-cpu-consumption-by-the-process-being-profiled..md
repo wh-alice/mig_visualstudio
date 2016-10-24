@@ -1,5 +1,5 @@
 ---
-title: "DA0501: Average CPU consumption by the Process being profiled."
+title: "DA0501: Average CPU consumption by the Process being profiled. | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

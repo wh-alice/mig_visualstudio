@@ -1,5 +1,5 @@
 ---
-title: "&#39;Using&#39; operand of type &#39;&lt;typename&gt;&#39; must implement System.IDisposable"
+title: "&#39;Using&#39; operand of type &#39;&lt;typename&gt;&#39; must implement System.IDisposable | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

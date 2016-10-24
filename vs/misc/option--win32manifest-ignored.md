@@ -1,5 +1,5 @@
 ---
-title: "Option -win32manifest ignored"
+title: "Option -win32manifest ignored | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

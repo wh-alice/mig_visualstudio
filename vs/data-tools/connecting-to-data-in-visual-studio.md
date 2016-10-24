@@ -1,5 +1,5 @@
 ---
-title: "Connecting to Data in Visual Studio"
+title: "Connecting to Data in Visual Studio | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

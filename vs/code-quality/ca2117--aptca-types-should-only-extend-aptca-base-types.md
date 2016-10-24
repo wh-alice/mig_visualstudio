@@ -1,5 +1,5 @@
 ---
-title: "CA2117: APTCA types should only extend APTCA base types"
+title: "CA2117: APTCA types should only extend APTCA base types | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Adding Icons to Menu Commands"
+title: "Adding Icons to Menu Commands | testtitle"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

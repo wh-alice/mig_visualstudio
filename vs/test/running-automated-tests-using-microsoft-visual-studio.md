@@ -1,5 +1,5 @@
 ---
-title: "Running Automated Tests Using Microsoft Visual Studio"
+title: "Running Automated Tests Using Microsoft Visual Studio | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

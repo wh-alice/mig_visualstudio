@@ -1,5 +1,5 @@
 ---
-title: "How to: Provide Context for Editors"
+title: "How to: Provide Context for Editors | testtitle"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "ClickOnce Deployment Samples and Walkthroughs"
+title: "ClickOnce Deployment Samples and Walkthroughs | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

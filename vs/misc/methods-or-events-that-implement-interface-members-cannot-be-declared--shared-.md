@@ -1,5 +1,5 @@
 ---
-title: "Methods or events that implement interface members cannot be declared &#39;Shared&#39;"
+title: "Methods or events that implement interface members cannot be declared &#39;Shared&#39; | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

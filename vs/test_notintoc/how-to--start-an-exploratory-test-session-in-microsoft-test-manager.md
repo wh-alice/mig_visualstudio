@@ -1,5 +1,5 @@
 ---
-title: "How to: Start an Exploratory Test Session in Microsoft Test Manager"
+title: "How to: Start an Exploratory Test Session in Microsoft Test Manager | testtitle"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Strings Used as Keys for Finding a Source Control Plug-in"
+title: "Strings Used as Keys for Finding a Source Control Plug-in | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Visual C++ Code Snippets"
+title: "Visual C++ Code Snippets | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

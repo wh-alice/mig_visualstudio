@@ -1,5 +1,5 @@
 ---
-title: "IDiaSymbol::get_countLiveRanges"
+title: "IDiaSymbol::get_countLiveRanges | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

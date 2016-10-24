@@ -1,5 +1,5 @@
 ---
-title: "Resource Contentions View - Contention Data"
+title: "Resource Contentions View - Contention Data | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

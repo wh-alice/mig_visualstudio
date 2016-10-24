@@ -1,5 +1,5 @@
 ---
-title: "Deploy Windows Store apps from Visual Studio"
+title: "Deploy Windows Store apps from Visual Studio | testtitle"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

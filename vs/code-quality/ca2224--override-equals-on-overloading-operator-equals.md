@@ -1,5 +1,5 @@
 ---
-title: "CA2224: Override equals on overloading operator equals"
+title: "CA2224: Override equals on overloading operator equals | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

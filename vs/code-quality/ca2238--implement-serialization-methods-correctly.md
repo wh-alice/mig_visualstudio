@@ -1,5 +1,5 @@
 ---
-title: "CA2238: Implement serialization methods correctly"
+title: "CA2238: Implement serialization methods correctly | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

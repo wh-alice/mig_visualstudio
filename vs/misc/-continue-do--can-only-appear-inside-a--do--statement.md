@@ -1,5 +1,5 @@
 ---
-title: "&#39;Continue Do&#39; can only appear inside a &#39;Do&#39; statement"
+title: "&#39;Continue Do&#39; can only appear inside a &#39;Do&#39; statement | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

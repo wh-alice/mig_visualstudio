@@ -1,5 +1,5 @@
 ---
-title: "discard_block_engine::base"
+title: "discard_block_engine::base | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

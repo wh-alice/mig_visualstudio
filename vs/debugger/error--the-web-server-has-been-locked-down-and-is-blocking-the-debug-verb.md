@@ -1,5 +1,5 @@
 ---
-title: "Error: The Web Server Has Been Locked Down and Is Blocking the DEBUG Verb"
+title: "Error: The Web Server Has Been Locked Down and Is Blocking the DEBUG Verb | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

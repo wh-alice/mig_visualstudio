@@ -1,5 +1,5 @@
 ---
-title: "How to: Build the Same Source Files with Different Options"
+title: "How to: Build the Same Source Files with Different Options | testtitle"
 ms.custom: ""
 ms.date: "10/24/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Managing references in a project"
+title: "Managing references in a project | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

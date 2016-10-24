@@ -1,5 +1,5 @@
 ---
-title: "mersenne_twister::mersenne_twister"
+title: "mersenne_twister::mersenne_twister | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

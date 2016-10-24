@@ -1,5 +1,5 @@
 ---
-title: "Images and Icons for Visual Studio"
+title: "Images and Icons for Visual Studio | testtitle"
 ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"

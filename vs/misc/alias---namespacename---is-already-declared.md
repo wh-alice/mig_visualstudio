@@ -1,5 +1,5 @@
 ---
-title: "Alias &#39;&lt;namespacename&gt;&#39; is already declared"
+title: "Alias &#39;&lt;namespacename&gt;&#39; is already declared | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

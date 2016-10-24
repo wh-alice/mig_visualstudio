@@ -1,5 +1,5 @@
 ---
-title: "BoundsRules Constrain Shape Location and Size"
+title: "BoundsRules Constrain Shape Location and Size | testtitle"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

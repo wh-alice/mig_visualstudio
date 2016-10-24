@@ -1,5 +1,5 @@
 ---
-title: "How to: Change Fonts and Colors in the Editor"
+title: "How to: Change Fonts and Colors in the Editor | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

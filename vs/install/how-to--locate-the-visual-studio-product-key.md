@@ -1,5 +1,5 @@
 ---
-title: "How to: Locate the Visual Studio Product Key"
+title: "How to: Locate the Visual Studio Product Key | testtitle"
 ms.custom: ""
 ms.date: "2016-09-01"
 ms.prod: "visual-studio-dev14"

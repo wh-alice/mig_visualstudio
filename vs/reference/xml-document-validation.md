@@ -1,5 +1,5 @@
 ---
-title: "XML Document Validation"
+title: "XML Document Validation | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

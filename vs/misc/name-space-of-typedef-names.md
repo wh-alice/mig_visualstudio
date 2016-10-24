@@ -1,5 +1,5 @@
 ---
-title: "Name Space of typedef Names"
+title: "Name Space of typedef Names | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

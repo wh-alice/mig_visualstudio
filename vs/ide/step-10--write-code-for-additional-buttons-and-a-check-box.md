@@ -1,5 +1,5 @@
 ---
-title: "Step 10: Write Code for Additional Buttons and a Check Box"
+title: "Step 10: Write Code for Additional Buttons and a Check Box | testtitle"
 ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"

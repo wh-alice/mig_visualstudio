@@ -1,5 +1,5 @@
 ---
-title: "Argument &#39;&lt;argumentname&gt;&#39; must be within the range 0 to 99"
+title: "Argument &#39;&lt;argumentname&gt;&#39; must be within the range 0 to 99 | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

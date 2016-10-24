@@ -1,5 +1,5 @@
 ---
-title: "How to: Select a Build for Your Test Plan"
+title: "How to: Select a Build for Your Test Plan | testtitle"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

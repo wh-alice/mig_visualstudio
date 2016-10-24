@@ -1,5 +1,5 @@
 ---
-title: "Tips and Tricks for Visual Studio"
+title: "Tips and Tricks for Visual Studio | testtitle"
 ms.custom: ""
 ms.date: "10/22/2016"
 ms.prod: "visual-studio-dev14"

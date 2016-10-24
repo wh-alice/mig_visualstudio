@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a New Manual Test Case from an Exploratory Testing Session"
+title: "How to: Create a New Manual Test Case from an Exploratory Testing Session | testtitle"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

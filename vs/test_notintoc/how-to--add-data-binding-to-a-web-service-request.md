@@ -1,5 +1,5 @@
 ---
-title: "How to: Add Data Binding to a Web Service Request"
+title: "How to: Add Data Binding to a Web Service Request | testtitle"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

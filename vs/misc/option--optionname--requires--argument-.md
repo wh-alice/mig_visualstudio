@@ -1,5 +1,5 @@
 ---
-title: "Option &lt;optionname&gt; requires &lt;argument&gt;"
+title: "Option &lt;optionname&gt; requires &lt;argument&gt; | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

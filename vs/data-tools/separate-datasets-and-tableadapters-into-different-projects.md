@@ -1,5 +1,5 @@
 ---
-title: "Separate datasets and TableAdapters into different projects"
+title: "Separate datasets and TableAdapters into different projects | testtitle"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"

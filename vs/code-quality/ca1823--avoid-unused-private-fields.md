@@ -1,5 +1,5 @@
 ---
-title: "CA1823: Avoid unused private fields"
+title: "CA1823: Avoid unused private fields | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

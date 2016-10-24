@@ -1,5 +1,5 @@
 ---
-title: "Argument &#39;&lt;argumentname&gt;&#39; cannot be converted to type &#39;Date&#39;"
+title: "Argument &#39;&lt;argumentname&gt;&#39; cannot be converted to type &#39;Date&#39; | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

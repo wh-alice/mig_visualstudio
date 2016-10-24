@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Capturing Graphics Information Programmatically"
+title: "Walkthrough: Capturing Graphics Information Programmatically | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

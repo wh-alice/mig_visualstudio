@@ -1,5 +1,5 @@
 ---
-title: "How to: Delete a Test Configuration"
+title: "How to: Delete a Test Configuration | testtitle"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

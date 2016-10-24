@@ -1,5 +1,5 @@
 ---
-title: "IDebugEngine2::ContinueFromSynchronousEvent"
+title: "IDebugEngine2::ContinueFromSynchronousEvent | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

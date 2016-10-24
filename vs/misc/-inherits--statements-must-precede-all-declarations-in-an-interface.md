@@ -1,5 +1,5 @@
 ---
-title: "&#39;Inherits&#39; statements must precede all declarations in an interface"
+title: "&#39;Inherits&#39; statements must precede all declarations in an interface | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

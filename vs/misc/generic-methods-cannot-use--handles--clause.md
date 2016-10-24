@@ -1,5 +1,5 @@
 ---
-title: "Generic methods cannot use &#39;Handles&#39; clause"
+title: "Generic methods cannot use &#39;Handles&#39; clause | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

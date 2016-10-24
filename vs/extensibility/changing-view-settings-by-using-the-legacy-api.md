@@ -1,5 +1,5 @@
 ---
-title: "Changing View Settings by Using the Legacy API"
+title: "Changing View Settings by Using the Legacy API | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "CA2126: Type link demands require inheritance demands"
+title: "CA2126: Type link demands require inheritance demands | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

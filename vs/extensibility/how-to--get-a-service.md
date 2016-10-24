@@ -1,5 +1,5 @@
 ---
-title: "How to: Get a Service"
+title: "How to: Get a Service | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

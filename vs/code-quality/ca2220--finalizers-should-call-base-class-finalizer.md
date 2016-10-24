@@ -1,5 +1,5 @@
 ---
-title: "CA2220: Finalizers should call base class finalizer"
+title: "CA2220: Finalizers should call base class finalizer | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

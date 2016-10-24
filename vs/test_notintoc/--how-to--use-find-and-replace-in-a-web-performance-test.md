@@ -1,5 +1,5 @@
 ---
-title: "- How to: Use Find and Replace in a Web Performance Test"
+title: "- How to: Use Find and Replace in a Web Performance Test | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

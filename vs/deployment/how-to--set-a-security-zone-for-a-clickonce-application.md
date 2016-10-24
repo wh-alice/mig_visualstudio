@@ -1,5 +1,5 @@
 ---
-title: "How to: Set a Security Zone for a ClickOnce Application"
+title: "How to: Set a Security Zone for a ClickOnce Application | testtitle"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

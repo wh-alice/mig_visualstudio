@@ -1,5 +1,5 @@
 ---
-title: "IDiaSymbol::get_timeStamp"
+title: "IDiaSymbol::get_timeStamp | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

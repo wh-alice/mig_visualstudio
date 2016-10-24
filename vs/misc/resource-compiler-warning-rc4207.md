@@ -1,5 +1,5 @@
 ---
-title: "Resource Compiler Warning RC4207"
+title: "Resource Compiler Warning RC4207 | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

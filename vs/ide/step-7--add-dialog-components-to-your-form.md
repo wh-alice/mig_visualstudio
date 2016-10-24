@@ -1,5 +1,5 @@
 ---
-title: "Step 7: Add Dialog Components to Your Form"
+title: "Step 7: Add Dialog Components to Your Form | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

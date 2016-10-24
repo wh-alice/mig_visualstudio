@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Extending Managed VSPackages By Using Automation"
+title: "Walkthrough: Extending Managed VSPackages By Using Automation | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

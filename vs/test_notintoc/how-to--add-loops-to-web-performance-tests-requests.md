@@ -1,5 +1,5 @@
 ---
-title: "How to: Add Loops to Web Performance Tests Requests"
+title: "How to: Add Loops to Web Performance Tests Requests | testtitle"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

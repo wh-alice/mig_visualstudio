@@ -1,5 +1,5 @@
 ---
-title: "Support for the Navigation Bar in a Legacy Language Service"
+title: "Support for the Navigation Bar in a Legacy Language Service | testtitle"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

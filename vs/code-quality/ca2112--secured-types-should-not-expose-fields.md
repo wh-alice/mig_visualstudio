@@ -1,5 +1,5 @@
 ---
-title: "CA2112: Secured types should not expose fields"
+title: "CA2112: Secured types should not expose fields | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

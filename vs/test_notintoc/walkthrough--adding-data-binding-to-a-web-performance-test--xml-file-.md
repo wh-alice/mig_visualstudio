@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Adding Data Binding to a Web Performance Test (XML File)"
+title: "Walkthrough: Adding Data Binding to a Web Performance Test (XML File) | testtitle"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

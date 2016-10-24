@@ -1,5 +1,5 @@
 ---
-title: "checked_uninitialized_copy"
+title: "checked_uninitialized_copy | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

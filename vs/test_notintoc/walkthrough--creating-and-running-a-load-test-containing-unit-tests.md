@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating and Running a Load Test Containing Unit Tests"
+title: "Walkthrough: Creating and Running a Load Test Containing Unit Tests | testtitle"
 ms.custom: ""
 ms.date: "10/01/2016"
 ms.prod: "visual-studio-tfs-dev14"

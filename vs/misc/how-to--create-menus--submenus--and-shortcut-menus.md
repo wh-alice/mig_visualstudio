@@ -1,5 +1,5 @@
 ---
-title: "How to: Create Menus, SubMenus, and Shortcut Menus"
+title: "How to: Create Menus, SubMenus, and Shortcut Menus | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

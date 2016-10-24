@@ -1,5 +1,5 @@
 ---
-title: "Automation object does not have a default value"
+title: "Automation object does not have a default value | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

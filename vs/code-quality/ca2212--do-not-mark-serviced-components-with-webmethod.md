@@ -1,5 +1,5 @@
 ---
-title: "CA2212: Do not mark serviced components with WebMethod"
+title: "CA2212: Do not mark serviced components with WebMethod | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

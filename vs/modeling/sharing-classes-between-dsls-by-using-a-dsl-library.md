@@ -1,5 +1,5 @@
 ---
-title: "Sharing Classes between DSLs by using a DSL Library"
+title: "Sharing Classes between DSLs by using a DSL Library | testtitle"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

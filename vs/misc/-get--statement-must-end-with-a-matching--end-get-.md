@@ -1,5 +1,5 @@
 ---
-title: "&#39;Get&#39; statement must end with a matching &#39;End Get&#39;"
+title: "&#39;Get&#39; statement must end with a matching &#39;End Get&#39; | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

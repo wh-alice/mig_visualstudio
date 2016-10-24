@@ -1,5 +1,5 @@
 ---
-title: "CA1415: Declare P-Invokes correctly"
+title: "CA1415: Declare P-Invokes correctly | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

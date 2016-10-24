@@ -1,5 +1,5 @@
 ---
-title: "tcm: Listing test plans, test suites, test configurations, and environments"
+title: "tcm: Listing test plans, test suites, test configurations, and environments | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-tfs-dev14"

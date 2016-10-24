@@ -1,5 +1,5 @@
 ---
-title: "Creating an SCVMM Environment Using Stored Virtual Machines and Templates"
+title: "Creating an SCVMM Environment Using Stored Virtual Machines and Templates | testtitle"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"

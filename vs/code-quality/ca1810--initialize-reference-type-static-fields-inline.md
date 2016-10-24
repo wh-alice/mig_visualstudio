@@ -1,5 +1,5 @@
 ---
-title: "CA1810: Initialize reference type static fields inline"
+title: "CA1810: Initialize reference type static fields inline | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

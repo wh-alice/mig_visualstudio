@@ -1,5 +1,5 @@
 ---
-title: "Common Patterns for Poorly-Behaved Multithreaded Applications"
+title: "Common Patterns for Poorly-Behaved Multithreaded Applications | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

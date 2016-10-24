@@ -1,5 +1,5 @@
 ---
-title: "Collecting Thread and Process Concurrency Data"
+title: "Collecting Thread and Process Concurrency Data | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

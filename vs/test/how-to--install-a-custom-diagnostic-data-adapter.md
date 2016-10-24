@@ -1,5 +1,5 @@
 ---
-title: "How to: Install a Custom Diagnostic Data Adapter"
+title: "How to: Install a Custom Diagnostic Data Adapter | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

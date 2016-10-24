@@ -1,5 +1,5 @@
 ---
-title: "What&#39;s New in Visual Studio 2015"
+title: "What&#39;s New in Visual Studio 2015 | testtitle"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"

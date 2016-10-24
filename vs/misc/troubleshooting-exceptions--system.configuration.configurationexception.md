@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Exceptions: System.Configuration.ConfigurationException"
+title: "Troubleshooting Exceptions: System.Configuration.ConfigurationException | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

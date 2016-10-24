@@ -1,5 +1,5 @@
 ---
-title: "Modules cannot be generic"
+title: "Modules cannot be generic | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

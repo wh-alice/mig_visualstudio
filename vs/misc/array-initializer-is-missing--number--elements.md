@@ -1,5 +1,5 @@
 ---
-title: "Array initializer is missing &lt;number&gt; elements"
+title: "Array initializer is missing &lt;number&gt; elements | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

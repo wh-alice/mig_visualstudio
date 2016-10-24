@@ -1,5 +1,5 @@
 ---
-title: "Set Current Stack Frame Command"
+title: "Set Current Stack Frame Command | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

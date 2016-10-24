@@ -1,5 +1,5 @@
 ---
-title: "&lt;name&gt; is not valid editor for this file type."
+title: "&lt;name&gt; is not valid editor for this file type. | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Character sequence &#39;--&#39; is not allowed in an XML comment"
+title: "Character sequence &#39;--&#39; is not allowed in an XML comment | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

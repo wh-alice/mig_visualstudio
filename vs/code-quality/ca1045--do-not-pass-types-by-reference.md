@@ -1,5 +1,5 @@
 ---
-title: "CA1045: Do not pass types by reference"
+title: "CA1045: Do not pass types by reference | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

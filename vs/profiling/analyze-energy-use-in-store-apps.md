@@ -1,5 +1,5 @@
 ---
-title: "Analyze energy use in Store apps"
+title: "Analyze energy use in Store apps | testtitle"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

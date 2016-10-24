@@ -1,5 +1,5 @@
 ---
-title: "Registering Custom Options Pages"
+title: "Registering Custom Options Pages | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

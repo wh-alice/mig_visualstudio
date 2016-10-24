@@ -1,5 +1,5 @@
 ---
-title: "What&#39;s New in the Source Control Plug-in API Version 1.2"
+title: "What&#39;s New in the Source Control Plug-in API Version 1.2 | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

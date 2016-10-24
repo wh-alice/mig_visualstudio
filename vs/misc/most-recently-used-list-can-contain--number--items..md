@@ -1,5 +1,5 @@
 ---
-title: "Most recently used list can contain &lt;number&gt; items."
+title: "Most recently used list can contain &lt;number&gt; items. | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Using a Lab Environment for Your Application Lifecycle"
+title: "Using a Lab Environment for Your Application Lifecycle | testtitle"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Run unit tests for Store apps in Visual Studio"
+title: "Run unit tests for Store apps in Visual Studio | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

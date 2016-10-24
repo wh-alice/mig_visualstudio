@@ -1,5 +1,5 @@
 ---
-title: "Test Area 1: Add To-Open From Source Control"
+title: "Test Area 1: Add To-Open From Source Control | testtitle"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "UnregisterExtenderProvider() cannot be used to unregister an Extender Provider that was not registered through RegisterExtenderProvider()."
+title: "UnregisterExtenderProvider() cannot be used to unregister an Extender Provider that was not registered through RegisterExtenderProvider(). | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

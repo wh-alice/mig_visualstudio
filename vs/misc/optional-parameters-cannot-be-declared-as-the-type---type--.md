@@ -1,5 +1,5 @@
 ---
-title: "Optional parameters cannot be declared as the type &#39;&lt;type&gt;&#39;"
+title: "Optional parameters cannot be declared as the type &#39;&lt;type&gt;&#39; | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

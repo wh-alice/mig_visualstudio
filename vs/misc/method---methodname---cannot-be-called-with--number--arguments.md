@@ -1,5 +1,5 @@
 ---
-title: "Method &#39;&lt;methodname&gt;&#39; cannot be called with &lt;number&gt; arguments"
+title: "Method &#39;&lt;methodname&gt;&#39; cannot be called with &lt;number&gt; arguments | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

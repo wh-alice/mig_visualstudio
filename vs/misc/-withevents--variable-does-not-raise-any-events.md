@@ -1,5 +1,5 @@
 ---
-title: "&#39;WithEvents&#39; variable does not raise any events"
+title: "&#39;WithEvents&#39; variable does not raise any events | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

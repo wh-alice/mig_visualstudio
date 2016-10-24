@@ -1,5 +1,5 @@
 ---
-title: "IDebugCodeContext3::GetModule"
+title: "IDebugCodeContext3::GetModule | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Structure your modeling solution"
+title: "Structure your modeling solution | testtitle"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

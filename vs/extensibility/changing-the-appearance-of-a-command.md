@@ -1,5 +1,5 @@
 ---
-title: "Changing the Appearance of a Command"
+title: "Changing the Appearance of a Command | testtitle"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

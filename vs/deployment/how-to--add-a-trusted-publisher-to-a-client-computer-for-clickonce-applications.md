@@ -1,5 +1,5 @@
 ---
-title: "How to: Add a Trusted Publisher to a Client Computer for ClickOnce Applications"
+title: "How to: Add a Trusted Publisher to a Client Computer for ClickOnce Applications | testtitle"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

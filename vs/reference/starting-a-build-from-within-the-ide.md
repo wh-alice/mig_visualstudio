@@ -1,5 +1,5 @@
 ---
-title: "Starting a Build from within the IDE"
+title: "Starting a Build from within the IDE | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

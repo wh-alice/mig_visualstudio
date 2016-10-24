@@ -1,5 +1,5 @@
 ---
-title: "How to: Clean a Build"
+title: "How to: Clean a Build | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

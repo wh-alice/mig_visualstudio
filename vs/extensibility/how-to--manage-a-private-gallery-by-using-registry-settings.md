@@ -1,5 +1,5 @@
 ---
-title: "How to: Manage a Private Gallery By Using Registry Settings"
+title: "How to: Manage a Private Gallery By Using Registry Settings | testtitle"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

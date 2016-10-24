@@ -1,5 +1,5 @@
 ---
-title: "CA2102: Catch non-CLSCompliant exceptions in general handlers"
+title: "CA2102: Catch non-CLSCompliant exceptions in general handlers | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

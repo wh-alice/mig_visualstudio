@@ -1,5 +1,5 @@
 ---
-title: "piecewise_constant_distribution::densities"
+title: "piecewise_constant_distribution::densities | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

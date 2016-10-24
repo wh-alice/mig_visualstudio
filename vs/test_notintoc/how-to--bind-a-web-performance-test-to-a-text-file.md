@@ -1,5 +1,5 @@
 ---
-title: "How to: Bind a Web Performance Test to a Text File"
+title: "How to: Bind a Web Performance Test to a Text File | testtitle"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

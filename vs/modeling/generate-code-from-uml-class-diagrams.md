@@ -1,5 +1,5 @@
 ---
-title: "Generate code from UML class diagrams"
+title: "Generate code from UML class diagrams | testtitle"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

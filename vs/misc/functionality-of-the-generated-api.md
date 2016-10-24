@@ -1,5 +1,5 @@
 ---
-title: "Functionality of the Generated API"
+title: "Functionality of the Generated API | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

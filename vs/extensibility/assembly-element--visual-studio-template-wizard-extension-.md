@@ -1,5 +1,5 @@
 ---
-title: "Assembly Element (Visual Studio Template Wizard Extension)"
+title: "Assembly Element (Visual Studio Template Wizard Extension) | testtitle"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

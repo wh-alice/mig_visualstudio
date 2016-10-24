@@ -1,5 +1,5 @@
 ---
-title: "Strategies for Troubleshooting Test Controllers and Test Agents in Load Tests"
+title: "Strategies for Troubleshooting Test Controllers and Test Agents in Load Tests | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-tfs-dev14"

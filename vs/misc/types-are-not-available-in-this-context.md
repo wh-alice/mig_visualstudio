@@ -1,5 +1,5 @@
 ---
-title: "Types are not available in this context"
+title: "Types are not available in this context | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

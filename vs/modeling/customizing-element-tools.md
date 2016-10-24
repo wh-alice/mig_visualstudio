@@ -1,5 +1,5 @@
 ---
-title: "Customizing Element Tools"
+title: "Customizing Element Tools | testtitle"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

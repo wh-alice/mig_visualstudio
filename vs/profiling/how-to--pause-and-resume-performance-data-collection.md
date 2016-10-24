@@ -1,5 +1,5 @@
 ---
-title: "How to: Pause and Resume Performance Data Collection"
+title: "How to: Pause and Resume Performance Data Collection | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

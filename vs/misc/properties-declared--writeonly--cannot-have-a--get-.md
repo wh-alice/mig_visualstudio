@@ -1,5 +1,5 @@
 ---
-title: "Properties declared &#39;WriteOnly&#39; cannot have a &#39;Get&#39;"
+title: "Properties declared &#39;WriteOnly&#39; cannot have a &#39;Get&#39; | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "CA1057: String URI overloads call System.Uri overloads"
+title: "CA1057: String URI overloads call System.Uri overloads | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

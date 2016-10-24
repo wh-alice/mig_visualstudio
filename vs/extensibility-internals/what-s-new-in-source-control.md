@@ -1,5 +1,5 @@
 ---
-title: "What&#39;s New in Source Control"
+title: "What&#39;s New in Source Control | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

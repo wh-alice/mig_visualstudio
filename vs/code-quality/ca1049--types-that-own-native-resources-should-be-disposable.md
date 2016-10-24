@@ -1,5 +1,5 @@
 ---
-title: "CA1049: Types that own native resources should be disposable"
+title: "CA1049: Types that own native resources should be disposable | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "&lt;number&gt; power closure argument &#39;n&#39; must be from 1 to 256."
+title: "&lt;number&gt; power closure argument &#39;n&#39; must be from 1 to 256. | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

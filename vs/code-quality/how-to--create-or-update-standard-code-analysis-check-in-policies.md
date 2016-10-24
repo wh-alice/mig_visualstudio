@@ -1,5 +1,5 @@
 ---
-title: "How to: Create or Update Standard Code Analysis Check-in Policies"
+title: "How to: Create or Update Standard Code Analysis Check-in Policies | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

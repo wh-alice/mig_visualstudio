@@ -1,5 +1,5 @@
 ---
-title: "Working with 3-D Assets for Games and Apps"
+title: "Working with 3-D Assets for Games and Apps | testtitle"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

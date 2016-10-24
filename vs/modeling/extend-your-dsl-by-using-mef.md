@@ -1,5 +1,5 @@
 ---
-title: "Extend your DSL by using MEF"
+title: "Extend your DSL by using MEF | testtitle"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

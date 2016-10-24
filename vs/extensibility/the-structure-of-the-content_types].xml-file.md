@@ -1,5 +1,5 @@
 ---
-title: "The Structure of the Content_types].xml File"
+title: "The Structure of the Content_types].xml File | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

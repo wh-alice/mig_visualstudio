@@ -1,5 +1,5 @@
 ---
-title: "IDiaSymbol::get_classParentId"
+title: "IDiaSymbol::get_classParentId | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

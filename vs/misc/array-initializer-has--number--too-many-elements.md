@@ -1,5 +1,5 @@
 ---
-title: "Array initializer has &lt;number&gt; too many elements"
+title: "Array initializer has &lt;number&gt; too many elements | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

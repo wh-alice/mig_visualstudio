@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Exceptions: System.Windows.Xps.XpsException"
+title: "Troubleshooting Exceptions: System.Windows.Xps.XpsException | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

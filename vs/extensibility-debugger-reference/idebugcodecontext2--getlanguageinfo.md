@@ -1,5 +1,5 @@
 ---
-title: "IDebugCodeContext2::GetLanguageInfo"
+title: "IDebugCodeContext2::GetLanguageInfo | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

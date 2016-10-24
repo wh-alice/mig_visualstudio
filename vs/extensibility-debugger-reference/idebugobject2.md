@@ -1,5 +1,5 @@
 ---
-title: "IDebugObject2"
+title: "IDebugObject2 | testtitle"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

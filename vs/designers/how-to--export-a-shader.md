@@ -1,5 +1,5 @@
 ---
-title: "How to: Export a Shader"
+title: "How to: Export a Shader | testtitle"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

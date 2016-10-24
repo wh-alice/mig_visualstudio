@@ -1,5 +1,5 @@
 ---
-title: "Profiling and Windows Vista Security"
+title: "Profiling and Windows Vista Security | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

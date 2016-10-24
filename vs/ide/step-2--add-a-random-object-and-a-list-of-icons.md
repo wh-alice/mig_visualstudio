@@ -1,5 +1,5 @@
 ---
-title: "Step 2: Add a Random Object and a List of Icons"
+title: "Step 2: Add a Random Object and a List of Icons | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

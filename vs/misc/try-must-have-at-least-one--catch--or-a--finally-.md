@@ -1,5 +1,5 @@
 ---
-title: "Try must have at least one &#39;Catch&#39; or a &#39;Finally&#39;"
+title: "Try must have at least one &#39;Catch&#39; or a &#39;Finally&#39; | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

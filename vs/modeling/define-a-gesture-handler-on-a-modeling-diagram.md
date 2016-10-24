@@ -1,5 +1,5 @@
 ---
-title: "Define a gesture handler on a modeling diagram"
+title: "Define a gesture handler on a modeling diagram | testtitle"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Collecting Detailed Timing Data by Using Instrumentation"
+title: "Collecting Detailed Timing Data by Using Instrumentation | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

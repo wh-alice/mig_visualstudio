@@ -1,5 +1,5 @@
 ---
-title: "How to: Change the Testing State of Test Suites"
+title: "How to: Change the Testing State of Test Suites | testtitle"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

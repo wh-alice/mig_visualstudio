@@ -1,5 +1,5 @@
 ---
-title: "CA1065: Do not raise exceptions in unexpected locations"
+title: "CA1065: Do not raise exceptions in unexpected locations | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

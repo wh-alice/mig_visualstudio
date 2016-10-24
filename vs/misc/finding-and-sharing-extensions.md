@@ -1,5 +1,5 @@
 ---
-title: "Finding and Sharing Extensions"
+title: "Finding and Sharing Extensions | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

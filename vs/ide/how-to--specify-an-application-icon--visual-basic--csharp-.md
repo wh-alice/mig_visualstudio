@@ -1,5 +1,5 @@
 ---
-title: "How to: Specify an Application Icon (Visual Basic, C#)"
+title: "How to: Specify an Application Icon (Visual Basic, C#) | testtitle"
 ms.custom: ""
 ms.date: "10/22/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "CA1412: Mark ComSource Interfaces as IDispatch"
+title: "CA1412: Mark ComSource Interfaces as IDispatch | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

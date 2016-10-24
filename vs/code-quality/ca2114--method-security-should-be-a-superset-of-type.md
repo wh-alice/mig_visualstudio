@@ -1,5 +1,5 @@
 ---
-title: "CA2114: Method security should be a superset of type"
+title: "CA2114: Method security should be a superset of type | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

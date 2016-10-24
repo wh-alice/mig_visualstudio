@@ -1,5 +1,5 @@
 ---
-title: "Graphics Diagnostics Capture Methods"
+title: "Graphics Diagnostics Capture Methods | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "IDebugBinder3::FindAlias"
+title: "IDebugBinder3::FindAlias | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

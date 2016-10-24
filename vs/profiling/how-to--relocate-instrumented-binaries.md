@@ -1,5 +1,5 @@
 ---
-title: "How to: Relocate Instrumented Binaries"
+title: "How to: Relocate Instrumented Binaries | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

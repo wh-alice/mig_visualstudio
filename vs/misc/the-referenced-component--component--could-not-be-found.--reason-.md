@@ -1,5 +1,5 @@
 ---
-title: "The referenced component &#39;component&#39; could not be found. &lt;reason&gt;"
+title: "The referenced component &#39;component&#39; could not be found. &lt;reason&gt; | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

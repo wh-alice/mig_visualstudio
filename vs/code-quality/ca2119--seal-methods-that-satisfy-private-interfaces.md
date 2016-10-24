@@ -1,5 +1,5 @@
 ---
-title: "CA2119: Seal methods that satisfy private interfaces"
+title: "CA2119: Seal methods that satisfy private interfaces | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "stack::operator=="
+title: "stack::operator== | testtitle"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "How to: Install the Stand-Alone Profiler"
+title: "How to: Install the Stand-Alone Profiler | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

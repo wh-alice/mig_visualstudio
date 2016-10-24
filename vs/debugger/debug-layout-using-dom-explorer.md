@@ -1,5 +1,5 @@
 ---
-title: "Debug layout using DOM Explorer"
+title: "Debug layout using DOM Explorer | testtitle"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

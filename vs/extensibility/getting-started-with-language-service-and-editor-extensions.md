@@ -1,5 +1,5 @@
 ---
-title: "Getting Started with Language Service and Editor Extensions"
+title: "Getting Started with Language Service and Editor Extensions | testtitle"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"
