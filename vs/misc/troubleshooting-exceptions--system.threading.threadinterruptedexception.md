@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Exceptions: System.Threading.ThreadInterruptedException"
+title: "Troubleshooting Exceptions: System.Threading.ThreadInterruptedException | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "How to: Open Project-Specific Editors"
+title: "How to: Open Project-Specific Editors | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

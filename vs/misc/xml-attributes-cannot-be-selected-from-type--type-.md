@@ -1,5 +1,5 @@
 ---
-title: "XML attributes cannot be selected from type &#39;type&#39;"
+title: "XML attributes cannot be selected from type &#39;type&#39; | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

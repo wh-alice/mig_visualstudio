@@ -1,5 +1,5 @@
 ---
-title: "Project Settings for a Visual Basic Debug Configuration"
+title: "Project Settings for a Visual Basic Debug Configuration | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

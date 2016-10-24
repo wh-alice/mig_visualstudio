@@ -1,5 +1,5 @@
 ---
-title: "Package GUIDs of Visual Studio Features"
+title: "Package GUIDs of Visual Studio Features | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

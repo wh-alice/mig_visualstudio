@@ -1,5 +1,5 @@
 ---
-title: "Invoking Text Transformation in a VS Extension"
+title: "Invoking Text Transformation in a VS Extension | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

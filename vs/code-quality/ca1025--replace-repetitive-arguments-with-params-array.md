@@ -1,5 +1,5 @@
 ---
-title: "CA1025: Replace repetitive arguments with params array"
+title: "CA1025: Replace repetitive arguments with params array | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

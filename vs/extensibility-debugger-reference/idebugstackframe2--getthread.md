@@ -1,5 +1,5 @@
 ---
-title: "IDebugStackFrame2::GetThread"
+title: "IDebugStackFrame2::GetThread | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

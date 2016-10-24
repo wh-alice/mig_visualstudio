@@ -1,5 +1,5 @@
 ---
-title: "IDebugCodeContext2"
+title: "IDebugCodeContext2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

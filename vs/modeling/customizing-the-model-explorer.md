@@ -1,5 +1,5 @@
 ---
-title: "Customizing the Model Explorer"
+title: "Customizing the Model Explorer | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

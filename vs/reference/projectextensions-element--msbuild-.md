@@ -1,5 +1,5 @@
 ---
-title: "ProjectExtensions Element (MSBuild)"
+title: "ProjectExtensions Element (MSBuild) | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

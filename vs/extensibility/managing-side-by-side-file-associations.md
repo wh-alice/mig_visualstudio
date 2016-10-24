@@ -1,5 +1,5 @@
 ---
-title: "Managing Side-by-Side File Associations"
+title: "Managing Side-by-Side File Associations | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

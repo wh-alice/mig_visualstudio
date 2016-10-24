@@ -1,5 +1,5 @@
 ---
-title: "How to: Parameterize the URL for a Web Performance Tests Web Server"
+title: "How to: Parameterize the URL for a Web Performance Tests Web Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

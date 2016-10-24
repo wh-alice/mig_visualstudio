@@ -1,5 +1,5 @@
 ---
-title: "Operator &#39;&lt;operator&gt;&#39; must have a second parameter of type &#39;Integer&#39;"
+title: "Operator &#39;&lt;operator&gt;&#39; must have a second parameter of type &#39;Integer&#39; | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Link UML model updates by using transactions"
+title: "Link UML model updates by using transactions | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Getting Started with Visual Studio Graphics Diagnostics"
+title: "Getting Started with Visual Studio Graphics Diagnostics | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

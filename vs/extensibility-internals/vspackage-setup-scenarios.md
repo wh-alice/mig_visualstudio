@@ -1,5 +1,5 @@
 ---
-title: "VSPackage Setup Scenarios"
+title: "VSPackage Setup Scenarios | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

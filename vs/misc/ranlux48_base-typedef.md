@@ -1,5 +1,5 @@
 ---
-title: "ranlux48_base TypeDef"
+title: "ranlux48_base TypeDef | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

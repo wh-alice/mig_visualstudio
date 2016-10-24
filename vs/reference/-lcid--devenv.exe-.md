@@ -1,5 +1,5 @@
 ---
-title: "-LCID (devenv.exe)"
+title: "-LCID (devenv.exe) | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

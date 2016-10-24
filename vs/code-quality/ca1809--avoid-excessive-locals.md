@@ -1,5 +1,5 @@
 ---
-title: "CA1809: Avoid excessive locals"
+title: "CA1809: Avoid excessive locals | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

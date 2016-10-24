@@ -1,5 +1,5 @@
 ---
-title: "Server and Client Configuration Issues in ClickOnce Deployments"
+title: "Server and Client Configuration Issues in ClickOnce Deployments | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

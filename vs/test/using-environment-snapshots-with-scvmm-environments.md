@@ -1,5 +1,5 @@
 ---
-title: "Using Environment Snapshots with SCVMM Environments"
+title: "Using Environment Snapshots with SCVMM Environments | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

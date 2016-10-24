@@ -1,5 +1,5 @@
 ---
-title: "Starting to Develop Visual Studio Extensions"
+title: "Starting to Develop Visual Studio Extensions | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

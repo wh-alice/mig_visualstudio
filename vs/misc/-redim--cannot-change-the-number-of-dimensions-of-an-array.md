@@ -1,5 +1,5 @@
 ---
-title: "&#39;ReDim&#39; cannot change the number of dimensions of an array"
+title: "&#39;ReDim&#39; cannot change the number of dimensions of an array | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

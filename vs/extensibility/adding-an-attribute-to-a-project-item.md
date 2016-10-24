@@ -1,5 +1,5 @@
 ---
-title: "Adding an Attribute to a Project Item"
+title: "Adding an Attribute to a Project Item | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

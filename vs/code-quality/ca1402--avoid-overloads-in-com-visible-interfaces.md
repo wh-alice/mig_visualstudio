@@ -1,5 +1,5 @@
 ---
-title: "CA1402: Avoid overloads in COM visible interfaces"
+title: "CA1402: Avoid overloads in COM visible interfaces | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

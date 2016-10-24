@@ -1,5 +1,5 @@
 ---
-title: "Creating a Basic Project System, Part 2"
+title: "Creating a Basic Project System, Part 2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "How to: Upgrade Visual C++ Projects to Visual Studio 2015"
+title: "How to: Upgrade Visual C++ Projects to Visual Studio 2015 | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

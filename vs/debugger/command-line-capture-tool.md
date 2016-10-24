@@ -1,5 +1,5 @@
 ---
-title: "Command-Line Capture Tool"
+title: "Command-Line Capture Tool | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

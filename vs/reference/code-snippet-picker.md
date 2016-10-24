@@ -1,5 +1,5 @@
 ---
-title: "Code Snippet Picker"
+title: "Code Snippet Picker | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

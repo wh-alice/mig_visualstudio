@@ -1,5 +1,5 @@
 ---
-title: "Class &#39;&lt;classname&gt;&#39; cannot be indexed because it has no default property"
+title: "Class &#39;&lt;classname&gt;&#39; cannot be indexed because it has no default property | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Running Document Table"
+title: "Running Document Table | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

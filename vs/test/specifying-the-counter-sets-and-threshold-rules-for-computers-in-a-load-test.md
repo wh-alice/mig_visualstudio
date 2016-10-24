@@ -1,5 +1,5 @@
 ---
-title: "Specifying the Counter Sets and Threshold Rules for Computers in a Load Test"
+title: "Specifying the Counter Sets and Threshold Rules for Computers in a Load Test | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

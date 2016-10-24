@@ -1,5 +1,5 @@
 ---
-title: "How to: Convert Between Managed and Standard Enumerations"
+title: "How to: Convert Between Managed and Standard Enumerations | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

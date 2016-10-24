@@ -1,5 +1,5 @@
 ---
-title: "How to: Create Arrays of Managed Arrays (Jagged Arrays)"
+title: "How to: Create Arrays of Managed Arrays (Jagged Arrays) | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

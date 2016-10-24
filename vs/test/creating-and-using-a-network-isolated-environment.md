@@ -1,5 +1,5 @@
 ---
-title: "Creating and using a network isolated environment"
+title: "Creating and using a network isolated environment | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

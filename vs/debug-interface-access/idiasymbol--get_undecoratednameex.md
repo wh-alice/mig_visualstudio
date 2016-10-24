@@ -1,5 +1,5 @@
 ---
-title: "IDiaSymbol::get_undecoratedNameEx"
+title: "IDiaSymbol::get_undecoratedNameEx | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

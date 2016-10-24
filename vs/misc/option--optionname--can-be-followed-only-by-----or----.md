@@ -1,5 +1,5 @@
 ---
-title: "option &lt;optionname&gt; can be followed only by &#39;+&#39; or &#39;-&#39;"
+title: "option &lt;optionname&gt; can be followed only by &#39;+&#39; or &#39;-&#39; | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

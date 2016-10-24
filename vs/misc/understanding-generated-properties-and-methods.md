@@ -1,5 +1,5 @@
 ---
-title: "Understanding Generated Properties and Methods"
+title: "Understanding Generated Properties and Methods | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

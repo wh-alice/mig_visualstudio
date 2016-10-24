@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Configuring and Using a Custom Rule Set"
+title: "Walkthrough: Configuring and Using a Custom Rule Set | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

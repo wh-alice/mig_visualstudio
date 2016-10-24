@@ -1,5 +1,5 @@
 ---
-title: "CA1302: Do not hardcode locale specific strings"
+title: "CA1302: Do not hardcode locale specific strings | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

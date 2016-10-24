@@ -1,5 +1,5 @@
 ---
-title: "How to: Register a Library with the Object Manager"
+title: "How to: Register a Library with the Object Manager | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

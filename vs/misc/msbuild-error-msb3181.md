@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Error MSB3181"
+title: "MSBuild Error MSB3181 | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

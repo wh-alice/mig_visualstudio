@@ -1,5 +1,5 @@
 ---
-title: "Configuring Test Controllers and Test Agents for Load Testing"
+title: "Configuring Test Controllers and Test Agents for Load Testing | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"

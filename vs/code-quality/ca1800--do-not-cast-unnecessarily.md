@@ -1,5 +1,5 @@
 ---
-title: "CA1800: Do not cast unnecessarily"
+title: "CA1800: Do not cast unnecessarily | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

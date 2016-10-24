@@ -1,5 +1,5 @@
 ---
-title: "Add code to TableAdapters in n-tier applications"
+title: "Add code to TableAdapters in n-tier applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"

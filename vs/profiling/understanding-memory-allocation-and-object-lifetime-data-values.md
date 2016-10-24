@@ -1,5 +1,5 @@
 ---
-title: "Understanding Memory Allocation and Object Lifetime Data Values"
+title: "Understanding Memory Allocation and Object Lifetime Data Values | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

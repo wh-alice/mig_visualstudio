@@ -1,5 +1,5 @@
 ---
-title: "Options and Options Pages"
+title: "Options and Options Pages | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

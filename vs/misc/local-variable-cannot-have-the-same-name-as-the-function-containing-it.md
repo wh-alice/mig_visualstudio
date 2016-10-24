@@ -1,5 +1,5 @@
 ---
-title: "Local variable cannot have the same name as the function containing it"
+title: "Local variable cannot have the same name as the function containing it | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "IDiaSession::findInlineeLines"
+title: "IDiaSession::findInlineeLines | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

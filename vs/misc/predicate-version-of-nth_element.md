@@ -1,5 +1,5 @@
 ---
-title: "Predicate Version of nth_element"
+title: "Predicate Version of nth_element | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

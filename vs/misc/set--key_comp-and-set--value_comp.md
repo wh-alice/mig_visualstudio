@@ -1,5 +1,5 @@
 ---
-title: "set::key_comp and set::value_comp"
+title: "set::key_comp and set::value_comp | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

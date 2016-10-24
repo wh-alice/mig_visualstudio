@@ -1,5 +1,5 @@
 ---
-title: "Half-Quarter Texture Dimensions Variant"
+title: "Half-Quarter Texture Dimensions Variant | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

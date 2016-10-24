@@ -1,5 +1,5 @@
 ---
-title: "Items cannot be added to a project that is not available in Solution Explorer."
+title: "Items cannot be added to a project that is not available in Solution Explorer. | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

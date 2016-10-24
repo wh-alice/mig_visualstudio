@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating, Editing and Maintaining a Coded UI Test"
+title: "Walkthrough: Creating, Editing and Maintaining a Coded UI Test | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

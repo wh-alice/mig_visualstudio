@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio Extensibility Architecture"
+title: "Visual Studio Extensibility Architecture | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

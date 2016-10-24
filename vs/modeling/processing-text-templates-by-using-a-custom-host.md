@@ -1,5 +1,5 @@
 ---
-title: "Processing Text Templates by using a Custom Host"
+title: "Processing Text Templates by using a Custom Host | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

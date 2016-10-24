@@ -1,5 +1,5 @@
 ---
-title: "Creating Project Instances By Using Project Factories"
+title: "Creating Project Instances By Using Project Factories | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

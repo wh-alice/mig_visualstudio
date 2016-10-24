@@ -1,5 +1,5 @@
 ---
-title: "0x-2x-4x MSAA Variants"
+title: "0x-2x-4x MSAA Variants | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

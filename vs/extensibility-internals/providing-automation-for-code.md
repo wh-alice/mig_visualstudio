@@ -1,5 +1,5 @@
 ---
-title: "Providing Automation for Code"
+title: "Providing Automation for Code | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

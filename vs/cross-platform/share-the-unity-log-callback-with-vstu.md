@@ -1,5 +1,5 @@
 ---
-title: "Share the Unity Log Callback with VSTU"
+title: "Share the Unity Log Callback with VSTU | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

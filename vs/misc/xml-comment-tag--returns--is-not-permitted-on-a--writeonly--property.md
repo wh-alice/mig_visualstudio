@@ -1,5 +1,5 @@
 ---
-title: "XML comment tag &#39;returns&#39; is not permitted on a &#39;WriteOnly&#39; Property"
+title: "XML comment tag &#39;returns&#39; is not permitted on a &#39;WriteOnly&#39; Property | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

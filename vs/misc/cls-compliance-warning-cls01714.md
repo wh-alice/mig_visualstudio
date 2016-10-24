@@ -1,5 +1,5 @@
 ---
-title: "CLS Compliance Warning CLS01714"
+title: "CLS Compliance Warning CLS01714 | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

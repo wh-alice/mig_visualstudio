@@ -1,5 +1,5 @@
 ---
-title: "How to: Debug a ClickOnce Application with Restricted Permissions"
+title: "How to: Debug a ClickOnce Application with Restricted Permissions | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

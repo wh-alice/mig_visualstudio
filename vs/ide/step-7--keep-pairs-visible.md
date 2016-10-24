@@ -1,5 +1,5 @@
 ---
-title: "Step 7: Keep Pairs Visible"
+title: "Step 7: Keep Pairs Visible | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

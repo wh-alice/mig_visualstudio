@@ -1,5 +1,5 @@
 ---
-title: "Generate files from a UML model"
+title: "Generate files from a UML model | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

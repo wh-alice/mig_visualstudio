@@ -1,5 +1,5 @@
 ---
-title: "HTML UI responsiveness"
+title: "HTML UI responsiveness | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Properties of elements on UML use case diagrams"
+title: "Properties of elements on UML use case diagrams | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

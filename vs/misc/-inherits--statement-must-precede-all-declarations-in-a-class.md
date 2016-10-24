@@ -1,5 +1,5 @@
 ---
-title: "&#39;Inherits&#39; statement must precede all declarations in a class"
+title: "&#39;Inherits&#39; statement must precede all declarations in a class | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

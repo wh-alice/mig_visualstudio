@@ -1,5 +1,5 @@
 ---
-title: "How to: Debug COM Clients and Servers Using RPC Debugging"
+title: "How to: Debug COM Clients and Servers Using RPC Debugging | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

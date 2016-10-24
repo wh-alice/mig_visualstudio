@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Deploying a Domain-Specific Language"
+title: "Walkthrough: Deploying a Domain-Specific Language | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

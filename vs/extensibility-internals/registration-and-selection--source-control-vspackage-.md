@@ -1,5 +1,5 @@
 ---
-title: "Registration and Selection (Source Control VSPackage)"
+title: "Registration and Selection (Source Control VSPackage) | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

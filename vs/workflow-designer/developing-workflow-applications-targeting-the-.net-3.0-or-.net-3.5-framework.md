@@ -1,5 +1,5 @@
 ---
-title: "Developing Workflow Applications Targeting the .NET 3.0 or .NET 3.5 Framework"
+title: "Developing Workflow Applications Targeting the .NET 3.0 or .NET 3.5 Framework | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: ".net-framework-4.6"

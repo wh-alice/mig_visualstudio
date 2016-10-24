@@ -1,5 +1,5 @@
 ---
-title: "Update a UML model from a background thread"
+title: "Update a UML model from a background thread | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

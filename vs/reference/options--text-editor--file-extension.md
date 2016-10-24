@@ -1,5 +1,5 @@
 ---
-title: "Options, Text Editor, File Extension"
+title: "Options, Text Editor, File Extension | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

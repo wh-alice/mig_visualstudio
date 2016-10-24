@@ -1,5 +1,5 @@
 ---
-title: "Compiler Warning (level 2) CS1571"
+title: "Compiler Warning (level 2) CS1571 | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

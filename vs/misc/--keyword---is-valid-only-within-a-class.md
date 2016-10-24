@@ -1,5 +1,5 @@
 ---
-title: "&#39;&lt;keyword&gt;&#39; is valid only within a class"
+title: "&#39;&lt;keyword&gt;&#39; is valid only within a class | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

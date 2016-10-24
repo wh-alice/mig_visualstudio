@@ -1,5 +1,5 @@
 ---
-title: "Customizing T4 Text Transformation"
+title: "Customizing T4 Text Transformation | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

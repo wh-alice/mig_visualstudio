@@ -1,5 +1,5 @@
 ---
-title: "Destructors and Finalizers in Visual C++"
+title: "Destructors and Finalizers in Visual C++ | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

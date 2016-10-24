@@ -1,5 +1,5 @@
 ---
-title: "&#39;&lt;elementname&gt;&#39; is obsolete: &#39;&lt;errormessage&gt;&#39;"
+title: "&#39;&lt;elementname&gt;&#39; is obsolete: &#39;&lt;errormessage&gt;&#39; | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

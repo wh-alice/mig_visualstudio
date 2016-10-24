@@ -1,5 +1,5 @@
 ---
-title: "Browse and rearrange code maps"
+title: "Browse and rearrange code maps | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

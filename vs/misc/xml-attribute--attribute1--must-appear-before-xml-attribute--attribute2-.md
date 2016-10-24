@@ -1,5 +1,5 @@
 ---
-title: "XML attribute &#39;attribute1&#39; must appear before XML attribute &#39;attribute2&#39;"
+title: "XML attribute &#39;attribute1&#39; must appear before XML attribute &#39;attribute2&#39; | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

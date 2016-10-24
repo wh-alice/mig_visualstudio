@@ -1,5 +1,5 @@
 ---
-title: "operator&gt;&gt; &lt;random&gt;"
+title: "operator&gt;&gt; &lt;random&gt; | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

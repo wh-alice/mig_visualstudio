@@ -1,5 +1,5 @@
 ---
-title: "Arrays of type &#39;System.Void&#39; are not allowed in this expression"
+title: "Arrays of type &#39;System.Void&#39; are not allowed in this expression | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

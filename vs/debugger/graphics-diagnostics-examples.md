@@ -1,5 +1,5 @@
 ---
-title: "Graphics Diagnostics Examples"
+title: "Graphics Diagnostics Examples | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "How to: Get Involved in the Developer Community"
+title: "How to: Get Involved in the Developer Community | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

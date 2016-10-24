@@ -1,5 +1,5 @@
 ---
-title: "IDiaSymbol::get_isLTCG"
+title: "IDiaSymbol::get_isLTCG | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

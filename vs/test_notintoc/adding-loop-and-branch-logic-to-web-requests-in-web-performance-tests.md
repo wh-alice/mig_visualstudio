@@ -1,5 +1,5 @@
 ---
-title: "Adding Loop and Branch Logic to Web Requests in Web Performance Tests"
+title: "Adding Loop and Branch Logic to Web Requests in Web Performance Tests | Microsoft Docs"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

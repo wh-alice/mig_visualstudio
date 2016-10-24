@@ -1,5 +1,5 @@
 ---
-title: "CreateNewFolder Element (Visual Studio Templates)"
+title: "CreateNewFolder Element (Visual Studio Templates) | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

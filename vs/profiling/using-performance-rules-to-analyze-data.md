@@ -1,5 +1,5 @@
 ---
-title: "Using Performance Rules to Analyze Data"
+title: "Using Performance Rules to Analyze Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

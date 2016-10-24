@@ -1,5 +1,5 @@
 ---
-title: "Project Configuration for Managing Deployment"
+title: "Project Configuration for Managing Deployment | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Method arguments must be enclosed in parentheses"
+title: "Method arguments must be enclosed in parentheses | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

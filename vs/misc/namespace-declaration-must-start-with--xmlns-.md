@@ -1,5 +1,5 @@
 ---
-title: "Namespace declaration must start with &#39;xmlns&#39;"
+title: "Namespace declaration must start with &#39;xmlns&#39; | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

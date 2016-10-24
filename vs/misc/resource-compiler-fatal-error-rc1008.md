@@ -1,5 +1,5 @@
 ---
-title: "Resource Compiler Fatal Error RC1008"
+title: "Resource Compiler Fatal Error RC1008 | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

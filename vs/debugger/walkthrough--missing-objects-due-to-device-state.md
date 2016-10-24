@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Missing Objects Due to Device State"
+title: "Walkthrough: Missing Objects Due to Device State | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

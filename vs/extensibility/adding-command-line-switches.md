@@ -1,5 +1,5 @@
 ---
-title: "Adding Command-Line Switches"
+title: "Adding Command-Line Switches | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

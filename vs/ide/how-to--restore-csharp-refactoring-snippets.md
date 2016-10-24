@@ -1,5 +1,5 @@
 ---
-title: "How to: Restore C# Refactoring Snippets"
+title: "How to: Restore C# Refactoring Snippets | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

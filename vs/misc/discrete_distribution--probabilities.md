@@ -1,5 +1,5 @@
 ---
-title: "discrete_distribution::probabilities"
+title: "discrete_distribution::probabilities | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

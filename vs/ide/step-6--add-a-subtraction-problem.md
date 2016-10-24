@@ -1,5 +1,5 @@
 ---
-title: "Step 6: Add a Subtraction Problem"
+title: "Step 6: Add a Subtraction Problem | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

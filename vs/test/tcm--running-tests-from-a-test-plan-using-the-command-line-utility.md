@@ -1,5 +1,5 @@
 ---
-title: "tcm: Running Tests from a Test Plan Using the Command Line Utility"
+title: "tcm: Running Tests from a Test Plan Using the Command Line Utility | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-tfs-dev14"

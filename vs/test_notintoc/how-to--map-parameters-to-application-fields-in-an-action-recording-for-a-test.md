@@ -1,5 +1,5 @@
 ---
-title: "How to: Map Parameters to Application Fields in an Action Recording for a Test"
+title: "How to: Map Parameters to Application Fields in an Action Recording for a Test | Microsoft Docs"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

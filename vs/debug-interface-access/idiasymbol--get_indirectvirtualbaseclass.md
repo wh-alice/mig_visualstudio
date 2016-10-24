@@ -1,5 +1,5 @@
 ---
-title: "IDiaSymbol::get_indirectVirtualBaseClass"
+title: "IDiaSymbol::get_indirectVirtualBaseClass | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

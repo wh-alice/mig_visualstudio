@@ -1,5 +1,5 @@
 ---
-title: "&#39;Handles&#39; is not valid on operator declaration"
+title: "&#39;Handles&#39; is not valid on operator declaration | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

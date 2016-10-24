@@ -1,5 +1,5 @@
 ---
-title: "How to: Provide an Asynchronous Visual Studio Service"
+title: "How to: Provide an Asynchronous Visual Studio Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.reviewer: ""

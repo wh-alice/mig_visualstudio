@@ -1,5 +1,5 @@
 ---
-title: "Change the Library Share for Your Team Project Collections"
+title: "Change the Library Share for Your Team Project Collections | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

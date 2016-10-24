@@ -1,5 +1,5 @@
 ---
-title: "CA2232: Mark Windows Forms entry points with STAThread"
+title: "CA2232: Mark Windows Forms entry points with STAThread | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

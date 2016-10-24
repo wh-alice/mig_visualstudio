@@ -1,5 +1,5 @@
 ---
-title: "How to: Collect Event Tracing for Windows (ETW) Data"
+title: "How to: Collect Event Tracing for Windows (ETW) Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Adding Extensions to DSL Definitions"
+title: "Adding Extensions to DSL Definitions | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

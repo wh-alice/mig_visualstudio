@@ -1,5 +1,5 @@
 ---
-title: "CA2006: Use SafeHandle to encapsulate native resources"
+title: "CA2006: Use SafeHandle to encapsulate native resources | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

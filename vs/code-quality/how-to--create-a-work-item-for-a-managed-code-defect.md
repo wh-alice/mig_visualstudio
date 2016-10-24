@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a Work Item for a Managed Code Defect"
+title: "How to: Create a Work Item for a Managed Code Defect | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

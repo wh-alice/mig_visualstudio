@@ -1,5 +1,5 @@
 ---
-title: "How to: Execute an XSLT Transformation from the XML Editor"
+title: "How to: Execute an XSLT Transformation from the XML Editor | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

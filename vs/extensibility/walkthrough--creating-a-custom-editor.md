@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating a Custom Editor"
+title: "Walkthrough: Creating a Custom Editor | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

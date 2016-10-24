@@ -1,5 +1,5 @@
 ---
-title: "How to: Create an XML Schema from an XML Document"
+title: "How to: Create an XML Schema from an XML Document | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

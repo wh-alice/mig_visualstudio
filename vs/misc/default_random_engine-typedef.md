@@ -1,5 +1,5 @@
 ---
-title: "default_random_engine typedef"
+title: "default_random_engine typedef | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

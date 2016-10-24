@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Exceptions: System.MemberAccessException"
+title: "Troubleshooting Exceptions: System.MemberAccessException | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

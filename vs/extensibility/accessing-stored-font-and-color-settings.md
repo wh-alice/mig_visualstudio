@@ -1,5 +1,5 @@
 ---
-title: "Accessing Stored Font and Color Settings"
+title: "Accessing Stored Font and Color Settings | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

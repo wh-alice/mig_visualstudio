@@ -1,5 +1,5 @@
 ---
-title: "XML Tools in Visual Studio"
+title: "XML Tools in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

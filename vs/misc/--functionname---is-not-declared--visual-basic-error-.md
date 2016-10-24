@@ -1,5 +1,5 @@
 ---
-title: "&#39;&lt;functionname&gt;&#39; is not declared (Visual Basic Error)"
+title: "&#39;&lt;functionname&gt;&#39; is not declared (Visual Basic Error) | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "IDiaSymbol::get_offsetInUdt"
+title: "IDiaSymbol::get_offsetInUdt | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

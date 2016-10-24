@@ -1,5 +1,5 @@
 ---
-title: "Error: SQL Can&#39;t Find SSDEBUGPS"
+title: "Error: SQL Can&#39;t Find SSDEBUGPS | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

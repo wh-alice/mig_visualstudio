@@ -1,5 +1,5 @@
 ---
-title: "Conversion operators cannot convert from a type to the same type"
+title: "Conversion operators cannot convert from a type to the same type | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

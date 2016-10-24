@@ -1,5 +1,5 @@
 ---
-title: "How to: Disable the Hosting Process"
+title: "How to: Disable the Hosting Process | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

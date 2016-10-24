@@ -1,5 +1,5 @@
 ---
-title: "Path &#39;&lt;pathname&gt;&#39; not found"
+title: "Path &#39;&lt;pathname&gt;&#39; not found | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

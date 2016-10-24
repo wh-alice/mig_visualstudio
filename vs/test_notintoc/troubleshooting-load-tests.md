@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Load Tests"
+title: "Troubleshooting Load Tests | Microsoft Docs"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "How to: Include Recordings of the Screen and Voice During Tests Using Test Settings"
+title: "How to: Include Recordings of the Screen and Voice During Tests Using Test Settings | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"

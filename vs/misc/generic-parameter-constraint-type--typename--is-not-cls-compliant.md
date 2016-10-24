@@ -1,5 +1,5 @@
 ---
-title: "Generic parameter constraint type &lt;typename&gt; is not CLS-compliant"
+title: "Generic parameter constraint type &lt;typename&gt; is not CLS-compliant | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

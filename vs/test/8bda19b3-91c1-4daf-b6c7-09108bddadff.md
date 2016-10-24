@@ -1,5 +1,5 @@
 ---
-title: "How to: Analyze What Virtual Users Are Doing During a Load Test Using the Virtual User Activity Chart"
+title: "How to: Analyze What Virtual Users Are Doing During a Load Test Using the Virtual User Activity Chart | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

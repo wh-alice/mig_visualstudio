@@ -1,5 +1,5 @@
 ---
-title: "CA1305: Specify IFormatProvider"
+title: "CA1305: Specify IFormatProvider | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

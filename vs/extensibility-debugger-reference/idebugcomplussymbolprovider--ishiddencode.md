@@ -1,5 +1,5 @@
 ---
-title: "IDebugComPlusSymbolProvider::IsHiddenCode"
+title: "IDebugComPlusSymbolProvider::IsHiddenCode | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

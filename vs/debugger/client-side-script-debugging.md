@@ -1,5 +1,5 @@
 ---
-title: "Client-Side Script Debugging"
+title: "Client-Side Script Debugging | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

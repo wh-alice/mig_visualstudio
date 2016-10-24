@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Binding to data in XAML Designer"
+title: "Walkthrough: Binding to data in XAML Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

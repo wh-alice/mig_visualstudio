@@ -1,5 +1,5 @@
 ---
-title: "IDiaSymbol::get_access"
+title: "IDiaSymbol::get_access | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

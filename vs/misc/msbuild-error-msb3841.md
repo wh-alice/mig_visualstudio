@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Error MSB3841"
+title: "MSBuild Error MSB3841 | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

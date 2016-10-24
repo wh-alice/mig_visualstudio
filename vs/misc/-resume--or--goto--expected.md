@@ -1,5 +1,5 @@
 ---
-title: "&#39;Resume&#39; or &#39;GoTo&#39; expected"
+title: "&#39;Resume&#39; or &#39;GoTo&#39; expected | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

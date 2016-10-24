@@ -1,5 +1,5 @@
 ---
-title: "bernoulli_distribution::operator()"
+title: "bernoulli_distribution::operator() | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

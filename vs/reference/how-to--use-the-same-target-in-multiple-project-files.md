@@ -1,5 +1,5 @@
 ---
-title: "How to: Use the Same Target in Multiple Project Files"
+title: "How to: Use the Same Target in Multiple Project Files | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

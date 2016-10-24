@@ -1,5 +1,5 @@
 ---
-title: "How to: Troubleshoot Templates"
+title: "How to: Troubleshoot Templates | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

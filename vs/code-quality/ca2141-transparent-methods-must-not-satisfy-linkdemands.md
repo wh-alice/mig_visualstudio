@@ -1,5 +1,5 @@
 ---
-title: "CA2141:Transparent methods must not satisfy LinkDemands"
+title: "CA2141:Transparent methods must not satisfy LinkDemands | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

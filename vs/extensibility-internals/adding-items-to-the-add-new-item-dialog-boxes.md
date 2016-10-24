@@ -1,5 +1,5 @@
 ---
-title: "Adding Items to the Add New Item Dialog Boxes"
+title: "Adding Items to the Add New Item Dialog Boxes | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

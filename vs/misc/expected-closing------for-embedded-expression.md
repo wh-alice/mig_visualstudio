@@ -1,5 +1,5 @@
 ---
-title: "Expected closing &#39;%&gt;&#39; for embedded expression"
+title: "Expected closing &#39;%&gt;&#39; for embedded expression | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

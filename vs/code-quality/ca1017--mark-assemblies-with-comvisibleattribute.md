@@ -1,5 +1,5 @@
 ---
-title: "CA1017: Mark assemblies with ComVisibleAttribute"
+title: "CA1017: Mark assemblies with ComVisibleAttribute | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

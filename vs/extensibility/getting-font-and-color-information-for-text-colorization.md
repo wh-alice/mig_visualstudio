@@ -1,5 +1,5 @@
 ---
-title: "Getting Font and Color Information for Text Colorization"
+title: "Getting Font and Color Information for Text Colorization | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

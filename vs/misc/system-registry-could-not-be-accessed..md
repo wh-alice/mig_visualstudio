@@ -1,5 +1,5 @@
 ---
-title: "System registry could not be accessed."
+title: "System registry could not be accessed. | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

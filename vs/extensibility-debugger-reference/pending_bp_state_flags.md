@@ -1,5 +1,5 @@
 ---
-title: "PENDING_BP_STATE_FLAGS"
+title: "PENDING_BP_STATE_FLAGS | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

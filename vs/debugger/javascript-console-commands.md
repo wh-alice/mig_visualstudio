@@ -1,5 +1,5 @@
 ---
-title: "JavaScript Console commands"
+title: "JavaScript Console commands | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "PROGRAM_NODE_ARRAY"
+title: "PROGRAM_NODE_ARRAY | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

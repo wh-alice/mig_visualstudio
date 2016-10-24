@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Publishing a Visual Studio Extension"
+title: "Walkthrough: Publishing a Visual Studio Extension | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

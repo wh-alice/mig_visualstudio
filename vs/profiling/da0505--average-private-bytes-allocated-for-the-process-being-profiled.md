@@ -1,5 +1,5 @@
 ---
-title: "DA0505: Average Private Bytes allocated for the Process being profiled"
+title: "DA0505: Average Private Bytes allocated for the Process being profiled | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

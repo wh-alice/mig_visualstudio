@@ -1,5 +1,5 @@
 ---
-title: "Join the SCVMM server to another domain"
+title: "Join the SCVMM server to another domain | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

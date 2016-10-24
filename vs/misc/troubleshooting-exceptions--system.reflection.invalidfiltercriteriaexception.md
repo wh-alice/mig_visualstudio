@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Exceptions: System.Reflection.InvalidFilterCriteriaException"
+title: "Troubleshooting Exceptions: System.Reflection.InvalidFilterCriteriaException | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

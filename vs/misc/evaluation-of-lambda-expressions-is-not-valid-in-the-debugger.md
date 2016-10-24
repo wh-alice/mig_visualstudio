@@ -1,5 +1,5 @@
 ---
-title: "Evaluation of lambda expressions is not valid in the debugger"
+title: "Evaluation of lambda expressions is not valid in the debugger | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Pre-build Event-Post-build Event Command Line Dialog Box"
+title: "Pre-build Event-Post-build Event Command Line Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

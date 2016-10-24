@@ -1,5 +1,5 @@
 ---
-title: "Project Model Core Components"
+title: "Project Model Core Components | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Exceptions: System.Reflection.TargetException"
+title: "Troubleshooting Exceptions: System.Reflection.TargetException | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

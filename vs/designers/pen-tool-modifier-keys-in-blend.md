@@ -1,5 +1,5 @@
 ---
-title: "Pen tool modifier keys in Blend"
+title: "Pen tool modifier keys in Blend | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

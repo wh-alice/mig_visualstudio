@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio Isolated Shell"
+title: "Visual Studio Isolated Shell | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

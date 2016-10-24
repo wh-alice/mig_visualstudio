@@ -1,5 +1,5 @@
 ---
-title: "&#39;&lt;name1&gt;&#39; conflicts with a &lt;type&gt; by the same name defined in &#39;&lt;name2&gt;&#39;"
+title: "&#39;&lt;name1&gt;&#39; conflicts with a &lt;type&gt; by the same name defined in &#39;&lt;name2&gt;&#39; | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

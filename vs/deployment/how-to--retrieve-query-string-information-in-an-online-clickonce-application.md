@@ -1,5 +1,5 @@
 ---
-title: "How to: Retrieve Query String Information in an Online ClickOnce Application"
+title: "How to: Retrieve Query String Information in an Online ClickOnce Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating a Margin Glyph"
+title: "Walkthrough: Creating a Margin Glyph | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

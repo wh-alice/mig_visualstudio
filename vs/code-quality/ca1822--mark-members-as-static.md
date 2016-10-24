@@ -1,5 +1,5 @@
 ---
-title: "CA1822: Mark members as static"
+title: "CA1822: Mark members as static | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

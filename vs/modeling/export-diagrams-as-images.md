@@ -1,5 +1,5 @@
 ---
-title: "Export diagrams as images"
+title: "Export diagrams as images | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

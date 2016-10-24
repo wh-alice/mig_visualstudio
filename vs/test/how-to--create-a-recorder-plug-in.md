@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a Recorder Plug-In"
+title: "How to: Create a Recorder Plug-In | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

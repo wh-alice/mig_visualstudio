@@ -1,5 +1,5 @@
 ---
-title: "How to: Use safe_cast and Boxing"
+title: "How to: Use safe_cast and Boxing | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

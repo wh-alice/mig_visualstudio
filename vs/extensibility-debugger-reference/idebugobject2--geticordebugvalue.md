@@ -1,5 +1,5 @@
 ---
-title: "IDebugObject2::GetICorDebugValue"
+title: "IDebugObject2::GetICorDebugValue | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

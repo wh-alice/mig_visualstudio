@@ -1,5 +1,5 @@
 ---
-title: "How to: Submit a bug using the web portal"
+title: "How to: Submit a bug using the web portal | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"

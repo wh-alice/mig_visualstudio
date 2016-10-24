@@ -1,5 +1,5 @@
 ---
-title: "Using and Providing Services"
+title: "Using and Providing Services | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

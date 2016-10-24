@@ -1,5 +1,5 @@
 ---
-title: "How to: Deploy Files for Tests"
+title: "How to: Deploy Files for Tests | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"

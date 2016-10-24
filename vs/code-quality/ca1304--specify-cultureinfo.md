@@ -1,5 +1,5 @@
 ---
-title: "CA1304: Specify CultureInfo"
+title: "CA1304: Specify CultureInfo | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

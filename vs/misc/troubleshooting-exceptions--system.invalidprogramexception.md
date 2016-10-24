@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Exceptions: System.InvalidProgramException"
+title: "Troubleshooting Exceptions: System.InvalidProgramException | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

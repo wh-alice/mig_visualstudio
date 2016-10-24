@@ -1,5 +1,5 @@
 ---
-title: "Expand or change your virtual lab"
+title: "Expand or change your virtual lab | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-tfs-dev14"

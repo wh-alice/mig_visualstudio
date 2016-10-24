@@ -1,5 +1,5 @@
 ---
-title: "Operators must be declared &#39;Public&#39;"
+title: "Operators must be declared &#39;Public&#39; | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

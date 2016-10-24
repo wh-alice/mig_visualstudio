@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio Emulator for Android"
+title: "Visual Studio Emulator for Android | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

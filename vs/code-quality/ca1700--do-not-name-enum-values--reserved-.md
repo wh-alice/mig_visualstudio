@@ -1,5 +1,5 @@
 ---
-title: "CA1700: Do not name enum values &#39;Reserved&#39;"
+title: "CA1700: Do not name enum values &#39;Reserved&#39; | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Index &#39;&lt;indexnumber&gt;&#39; for dimension &#39;&lt;dimensionnumber&gt;&#39; is out of range"
+title: "Index &#39;&lt;indexnumber&gt;&#39; for dimension &#39;&lt;dimensionnumber&gt;&#39; is out of range | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

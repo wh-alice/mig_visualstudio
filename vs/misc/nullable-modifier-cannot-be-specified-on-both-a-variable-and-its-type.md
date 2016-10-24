@@ -1,5 +1,5 @@
 ---
-title: "Nullable modifier cannot be specified on both a variable and its type"
+title: "Nullable modifier cannot be specified on both a variable and its type | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

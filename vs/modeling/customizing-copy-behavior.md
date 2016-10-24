@@ -1,5 +1,5 @@
 ---
-title: "Customizing Copy Behavior"
+title: "Customizing Copy Behavior | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "How to: Install a Source Control Plug-in"
+title: "How to: Install a Source Control Plug-in | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

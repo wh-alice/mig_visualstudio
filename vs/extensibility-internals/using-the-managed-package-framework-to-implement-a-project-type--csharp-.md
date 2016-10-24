@@ -1,5 +1,5 @@
 ---
-title: "Using the Managed Package Framework to Implement a Project Type (C#)"
+title: "Using the Managed Package Framework to Implement a Project Type (C#) | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

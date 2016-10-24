@@ -1,5 +1,5 @@
 ---
-title: "WPF Data Binding Using LINQ to XML Example"
+title: "WPF Data Binding Using LINQ to XML Example | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "DEBUG_PROPERTY_INFO"
+title: "DEBUG_PROPERTY_INFO | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

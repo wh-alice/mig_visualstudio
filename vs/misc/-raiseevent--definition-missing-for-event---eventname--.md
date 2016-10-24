@@ -1,5 +1,5 @@
 ---
-title: "&#39;RaiseEvent&#39; definition missing for event &#39;&lt;eventname&gt;&#39;"
+title: "&#39;RaiseEvent&#39; definition missing for event &#39;&lt;eventname&gt;&#39; | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

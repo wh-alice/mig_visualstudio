@@ -1,5 +1,5 @@
 ---
-title: "Using Run-Time Checks Without the C Run-Time Library"
+title: "Using Run-Time Checks Without the C Run-Time Library | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

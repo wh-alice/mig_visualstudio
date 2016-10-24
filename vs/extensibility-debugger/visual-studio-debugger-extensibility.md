@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio Debugger Extensibility"
+title: "Visual Studio Debugger Extensibility | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

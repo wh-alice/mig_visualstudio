@@ -1,5 +1,5 @@
 ---
-title: "How to: Open a Model from File in Program Code"
+title: "How to: Open a Model from File in Program Code | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

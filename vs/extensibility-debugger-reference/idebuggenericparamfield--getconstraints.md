@@ -1,5 +1,5 @@
 ---
-title: "IDebugGenericParamField::GetConstraints"
+title: "IDebugGenericParamField::GetConstraints | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

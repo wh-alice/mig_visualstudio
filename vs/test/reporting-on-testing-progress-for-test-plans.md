@@ -1,5 +1,5 @@
 ---
-title: "Reporting on testing progress for test plans"
+title: "Reporting on testing progress for test plans | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-tfs-dev14"

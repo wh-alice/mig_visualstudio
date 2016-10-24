@@ -1,5 +1,5 @@
 ---
-title: "UML Activity Diagrams: Guidelines"
+title: "UML Activity Diagrams: Guidelines | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

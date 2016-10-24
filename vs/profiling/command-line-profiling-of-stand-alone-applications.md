@@ -1,5 +1,5 @@
 ---
-title: "Command-Line Profiling of Stand-Alone Applications"
+title: "Command-Line Profiling of Stand-Alone Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

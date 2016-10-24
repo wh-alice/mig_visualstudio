@@ -1,5 +1,5 @@
 ---
-title: "Accessibility Features of Visual Studio"
+title: "Accessibility Features of Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/22/2016"
 ms.prod: "visual-studio-dev14"

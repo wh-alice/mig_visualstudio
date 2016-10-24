@@ -1,5 +1,5 @@
 ---
-title: "CA1410: COM registration methods should be matched"
+title: "CA1410: COM registration methods should be matched | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

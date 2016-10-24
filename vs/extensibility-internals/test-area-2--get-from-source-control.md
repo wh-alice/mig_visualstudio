@@ -1,5 +1,5 @@
 ---
-title: "Test Area 2: Get From Source Control"
+title: "Test Area 2: Get From Source Control | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

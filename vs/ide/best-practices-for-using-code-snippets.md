@@ -1,5 +1,5 @@
 ---
-title: "Best Practices for Using Code Snippets"
+title: "Best Practices for Using Code Snippets | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

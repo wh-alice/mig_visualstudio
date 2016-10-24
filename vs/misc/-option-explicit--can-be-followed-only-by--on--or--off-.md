@@ -1,5 +1,5 @@
 ---
-title: "&#39;Option Explicit&#39; can be followed only by &#39;On&#39; or &#39;Off&#39;"
+title: "&#39;Option Explicit&#39; can be followed only by &#39;On&#39; or &#39;Off&#39; | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

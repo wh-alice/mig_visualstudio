@@ -1,5 +1,5 @@
 ---
-title: "Resource Compiler Fatal Error RW1021"
+title: "Resource Compiler Fatal Error RW1021 | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

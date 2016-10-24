@@ -1,5 +1,5 @@
 ---
-title: "Maximum number of warnings has been exceeded"
+title: "Maximum number of warnings has been exceeded | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "discard_block::operator()"
+title: "discard_block::operator() | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

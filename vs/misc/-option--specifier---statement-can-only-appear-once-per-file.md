@@ -1,5 +1,5 @@
 ---
-title: "&#39;Option &lt;specifier&gt;&#39; statement can only appear once per file"
+title: "&#39;Option &lt;specifier&gt;&#39; statement can only appear once per file | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

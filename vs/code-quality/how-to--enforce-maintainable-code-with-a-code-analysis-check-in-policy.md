@@ -1,5 +1,5 @@
 ---
-title: "How to: Enforce Maintainable Code with a Code Analysis Check-in Policy"
+title: "How to: Enforce Maintainable Code with a Code Analysis Check-in Policy | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

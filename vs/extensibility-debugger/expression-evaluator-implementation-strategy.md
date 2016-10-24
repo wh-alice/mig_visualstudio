@@ -1,5 +1,5 @@
 ---
-title: "Expression Evaluator Implementation Strategy"
+title: "Expression Evaluator Implementation Strategy | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

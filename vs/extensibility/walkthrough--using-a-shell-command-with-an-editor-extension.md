@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Using a Shell Command with an Editor Extension"
+title: "Walkthrough: Using a Shell Command with an Editor Extension | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

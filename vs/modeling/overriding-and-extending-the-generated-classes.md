@@ -1,5 +1,5 @@
 ---
-title: "Overriding and Extending the Generated Classes"
+title: "Overriding and Extending the Generated Classes | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

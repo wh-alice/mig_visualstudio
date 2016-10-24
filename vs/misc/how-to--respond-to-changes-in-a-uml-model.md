@@ -1,5 +1,5 @@
 ---
-title: "How to: Respond to Changes in a UML Model"
+title: "How to: Respond to Changes in a UML Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

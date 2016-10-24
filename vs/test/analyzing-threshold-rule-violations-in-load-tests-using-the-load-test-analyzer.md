@@ -1,5 +1,5 @@
 ---
-title: "Analyzing Threshold Rule Violations in Load Tests Using the Load Test Analyzer"
+title: "Analyzing Threshold Rule Violations in Load Tests Using the Load Test Analyzer | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

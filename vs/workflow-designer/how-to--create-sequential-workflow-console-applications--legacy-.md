@@ -1,5 +1,5 @@
 ---
-title: "How to: Create Sequential Workflow Console Applications (Legacy)"
+title: "How to: Create Sequential Workflow Console Applications (Legacy) | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: ".net-framework-4.6"

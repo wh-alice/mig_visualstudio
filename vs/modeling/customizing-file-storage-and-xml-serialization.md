@@ -1,5 +1,5 @@
 ---
-title: "Customizing File Storage and XML Serialization"
+title: "Customizing File Storage and XML Serialization | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

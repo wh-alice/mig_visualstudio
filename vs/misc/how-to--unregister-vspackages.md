@@ -1,5 +1,5 @@
 ---
-title: "How to: Unregister VSPackages"
+title: "How to: Unregister VSPackages | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

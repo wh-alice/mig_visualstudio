@@ -1,5 +1,5 @@
 ---
-title: "Array dimensions cannot have a negative size"
+title: "Array dimensions cannot have a negative size | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

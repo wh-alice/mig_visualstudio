@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio has encountered an unexpected error."
+title: "Visual Studio has encountered an unexpected error. | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

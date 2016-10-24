@@ -1,5 +1,5 @@
 ---
-title: "IDebugProgram2::CauseBreak"
+title: "IDebugProgram2::CauseBreak | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

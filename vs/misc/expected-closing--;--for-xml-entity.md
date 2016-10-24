@@ -1,5 +1,5 @@
 ---
-title: "Expected closing &#39;;&#39; for XML entity"
+title: "Expected closing &#39;;&#39; for XML entity | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

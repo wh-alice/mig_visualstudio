@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Exceptions: System.Net.Sockets.SocketException"
+title: "Troubleshooting Exceptions: System.Net.Sockets.SocketException | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

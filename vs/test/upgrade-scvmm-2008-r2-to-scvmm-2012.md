@@ -1,5 +1,5 @@
 ---
-title: "Upgrade SCVMM 2008 R2 to SCVMM 2012"
+title: "Upgrade SCVMM 2008 R2 to SCVMM 2012 | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

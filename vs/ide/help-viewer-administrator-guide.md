@@ -1,5 +1,5 @@
 ---
-title: "Help Viewer Administrator Guide"
+title: "Help Viewer Administrator Guide | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "ParamArray parameter must be a one-dimensional array"
+title: "ParamArray parameter must be a one-dimensional array | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

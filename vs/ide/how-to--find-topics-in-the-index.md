@@ -1,5 +1,5 @@
 ---
-title: "How to: Find Topics in the Index"
+title: "How to: Find Topics in the Index | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Exceptions: System.Runtime.Remoting.RemotingException"
+title: "Troubleshooting Exceptions: System.Runtime.Remoting.RemotingException | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "DBG_ATTRIB_FLAGS"
+title: "DBG_ATTRIB_FLAGS | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

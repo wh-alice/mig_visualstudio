@@ -1,5 +1,5 @@
 ---
-title: "m_stateFlags Field"
+title: "m_stateFlags Field | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

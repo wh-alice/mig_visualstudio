@@ -1,5 +1,5 @@
 ---
-title: "How to: Specify Which Files Are Published by ClickOnce"
+title: "How to: Specify Which Files Are Published by ClickOnce | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Define a custom modeling toolbox item"
+title: "Define a custom modeling toolbox item | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

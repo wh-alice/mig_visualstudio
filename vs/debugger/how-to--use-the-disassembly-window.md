@@ -1,5 +1,5 @@
 ---
-title: "How to: Use the Disassembly Window"
+title: "How to: Use the Disassembly Window | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

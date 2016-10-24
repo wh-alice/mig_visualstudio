@@ -1,5 +1,5 @@
 ---
-title: "Supplying Undo Support to Designers"
+title: "Supplying Undo Support to Designers | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

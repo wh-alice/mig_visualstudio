@@ -1,5 +1,5 @@
 ---
-title: "Viewing Types and Relationships (Class Designer)"
+title: "Viewing Types and Relationships (Class Designer) | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
