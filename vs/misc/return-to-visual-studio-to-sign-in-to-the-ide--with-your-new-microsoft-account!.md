@@ -1,5 +1,5 @@
 ---
-title: "Return to Visual Studio to sign in to the IDE  with your new Microsoft account! | Microsoft Docs"
+title: "Return to Visual Studio to sign in to the IDE  with your new Microsoft account!"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.reviewer: ""

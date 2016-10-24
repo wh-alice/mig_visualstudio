@@ -1,5 +1,5 @@
 ---
-title: "Range specified for &#39;Case&#39; statement is not valid | Microsoft Docs"
+title: "Range specified for &#39;Case&#39; statement is not valid"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

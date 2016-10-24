@@ -1,5 +1,5 @@
 ---
-title: "Specifying Custom Build Events in Visual Studio | Microsoft Docs"
+title: "Specifying Custom Build Events in Visual Studio"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

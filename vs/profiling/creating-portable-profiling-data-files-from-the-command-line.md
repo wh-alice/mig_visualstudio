@@ -1,5 +1,5 @@
 ---
-title: "Creating Portable Profiling Data Files from the Command Line | Microsoft Docs"
+title: "Creating Portable Profiling Data Files from the Command Line"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

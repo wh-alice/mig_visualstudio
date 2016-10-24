@@ -1,5 +1,5 @@
 ---
-title: "Create layer diagrams from your code | Microsoft Docs"
+title: "Create layer diagrams from your code"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

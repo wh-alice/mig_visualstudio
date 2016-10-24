@@ -1,5 +1,5 @@
 ---
-title: "CA2108: Review declarative security on value types | Microsoft Docs"
+title: "CA2108: Review declarative security on value types"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

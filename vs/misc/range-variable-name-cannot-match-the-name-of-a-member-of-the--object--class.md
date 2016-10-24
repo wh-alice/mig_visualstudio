@@ -1,5 +1,5 @@
 ---
-title: "Range variable name cannot match the name of a member of the &#39;Object&#39; class | Microsoft Docs"
+title: "Range variable name cannot match the name of a member of the &#39;Object&#39; class"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

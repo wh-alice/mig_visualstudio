@@ -1,5 +1,5 @@
 ---
-title: "Renaming Project Hierarchy Nodes (C++) | Microsoft Docs"
+title: "Renaming Project Hierarchy Nodes (C++)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

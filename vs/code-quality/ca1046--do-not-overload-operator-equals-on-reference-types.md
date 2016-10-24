@@ -1,5 +1,5 @@
 ---
-title: "CA1046: Do not overload operator equals on reference types | Microsoft Docs"
+title: "CA1046: Do not overload operator equals on reference types"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

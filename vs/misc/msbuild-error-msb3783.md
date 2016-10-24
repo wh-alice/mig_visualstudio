@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Error MSB3783 | Microsoft Docs"
+title: "MSBuild Error MSB3783"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

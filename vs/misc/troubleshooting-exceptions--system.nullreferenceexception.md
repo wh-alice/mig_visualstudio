@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Exceptions: System.NullReferenceException | Microsoft Docs"
+title: "Troubleshooting Exceptions: System.NullReferenceException"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

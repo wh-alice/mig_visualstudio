@@ -1,5 +1,5 @@
 ---
-title: "&#39;WithEvents&#39; variable does not raise any events | Microsoft Docs"
+title: "&#39;WithEvents&#39; variable does not raise any events"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

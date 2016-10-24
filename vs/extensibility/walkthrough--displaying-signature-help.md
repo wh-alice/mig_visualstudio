@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Displaying Signature Help | Microsoft Docs"
+title: "Walkthrough: Displaying Signature Help"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

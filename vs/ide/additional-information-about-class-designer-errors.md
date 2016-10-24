@@ -1,5 +1,5 @@
 ---
-title: "Additional Information About Class Designer Errors | Microsoft Docs"
+title: "Additional Information About Class Designer Errors"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "subtract_with_carry_01 Class | Microsoft Docs"
+title: "subtract_with_carry_01 Class"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

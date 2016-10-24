@@ -1,5 +1,5 @@
 ---
-title: "Application Lifecycle Management (ALM) with Unity Apps | Microsoft Docs"
+title: "Application Lifecycle Management (ALM) with Unity Apps"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

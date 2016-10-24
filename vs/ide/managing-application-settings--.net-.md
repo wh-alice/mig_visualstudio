@@ -1,5 +1,5 @@
 ---
-title: "Managing Application Settings (.NET) | Microsoft Docs"
+title: "Managing Application Settings (.NET)"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

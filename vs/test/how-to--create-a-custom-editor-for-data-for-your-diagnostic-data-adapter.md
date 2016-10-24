@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a Custom Editor for Data for Your Diagnostic Data Adapter | Microsoft Docs"
+title: "How to: Create a Custom Editor for Data for Your Diagnostic Data Adapter"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

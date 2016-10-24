@@ -1,5 +1,5 @@
 ---
-title: "CA2242: Test for NaN correctly | Microsoft Docs"
+title: "CA2242: Test for NaN correctly"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

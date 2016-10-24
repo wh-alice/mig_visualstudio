@@ -1,5 +1,5 @@
 ---
-title: "Accessibility Tips and Tricks | Microsoft Docs"
+title: "Accessibility Tips and Tricks"
 ms.custom: ""
 ms.date: "10/22/2016"
 ms.prod: "visual-studio-dev14"

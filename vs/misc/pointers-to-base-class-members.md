@@ -1,5 +1,5 @@
 ---
-title: "Pointers to Base-Class Members | Microsoft Docs"
+title: "Pointers to Base-Class Members"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

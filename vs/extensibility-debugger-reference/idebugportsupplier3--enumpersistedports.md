@@ -1,5 +1,5 @@
 ---
-title: "IDebugPortSupplier3::EnumPersistedPorts | Microsoft Docs"
+title: "IDebugPortSupplier3::EnumPersistedPorts"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

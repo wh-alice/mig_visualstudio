@@ -1,5 +1,5 @@
 ---
-title: "Creating a Workflow Project | Microsoft Docs"
+title: "Creating a Workflow Project"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: ".net-framework-4.6"

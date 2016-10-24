@@ -1,5 +1,5 @@
 ---
-title: "UML Component Diagrams: Guidelines | Microsoft Docs"
+title: "UML Component Diagrams: Guidelines"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

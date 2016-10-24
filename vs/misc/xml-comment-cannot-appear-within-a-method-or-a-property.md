@@ -1,5 +1,5 @@
 ---
-title: "XML comment cannot appear within a method or a property | Microsoft Docs"
+title: "XML comment cannot appear within a method or a property"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

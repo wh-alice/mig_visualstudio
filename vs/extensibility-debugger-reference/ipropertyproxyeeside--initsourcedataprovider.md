@@ -1,5 +1,5 @@
 ---
-title: "IPropertyProxyEESide::InitSourceDataProvider | Microsoft Docs"
+title: "IPropertyProxyEESide::InitSourceDataProvider"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

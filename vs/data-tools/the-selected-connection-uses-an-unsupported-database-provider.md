@@ -1,5 +1,5 @@
 ---
-title: "The selected connection uses an unsupported database provider | Microsoft Docs"
+title: "The selected connection uses an unsupported database provider"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

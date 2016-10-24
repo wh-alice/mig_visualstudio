@@ -1,5 +1,5 @@
 ---
-title: "Availability of Features in Visual Studio Versions | Microsoft Docs"
+title: "Availability of Features in Visual Studio Versions"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

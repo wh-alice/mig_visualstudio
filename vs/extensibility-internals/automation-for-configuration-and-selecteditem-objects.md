@@ -1,5 +1,5 @@
 ---
-title: "Automation for Configuration and SelectedItem Objects | Microsoft Docs"
+title: "Automation for Configuration and SelectedItem Objects"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

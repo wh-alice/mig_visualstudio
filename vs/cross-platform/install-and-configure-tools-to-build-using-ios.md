@@ -1,5 +1,5 @@
 ---
-title: "Install And Configure Tools to Build using iOS | Microsoft Docs"
+title: "Install And Configure Tools to Build using iOS"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

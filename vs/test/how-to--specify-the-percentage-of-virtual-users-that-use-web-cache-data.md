@@ -1,5 +1,5 @@
 ---
-title: "How to: Specify the Percentage of Virtual Users that Use Web Cache Data | Microsoft Docs"
+title: "How to: Specify the Percentage of Virtual Users that Use Web Cache Data"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "&#39;RemoveHandler&#39; definition missing for event &#39;&lt;eventname&gt;&#39; | Microsoft Docs"
+title: "&#39;RemoveHandler&#39; definition missing for event &#39;&lt;eventname&gt;&#39;"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Image Service Tools | Microsoft Docs"
+title: "Image Service Tools"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.reviewer: ""

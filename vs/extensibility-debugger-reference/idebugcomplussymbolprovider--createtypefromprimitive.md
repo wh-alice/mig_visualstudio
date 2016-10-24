@@ -1,5 +1,5 @@
 ---
-title: "IDebugComPlusSymbolProvider::CreateTypeFromPrimitive | Microsoft Docs"
+title: "IDebugComPlusSymbolProvider::CreateTypeFromPrimitive"
 ms.custom: ""
 ms.date: "10/17/2016"
 ms.prod: "visual-studio-dev14"

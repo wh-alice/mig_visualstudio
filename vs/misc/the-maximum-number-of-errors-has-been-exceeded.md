@@ -1,5 +1,5 @@
 ---
-title: "The maximum number of errors has been exceeded | Microsoft Docs"
+title: "The maximum number of errors has been exceeded"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

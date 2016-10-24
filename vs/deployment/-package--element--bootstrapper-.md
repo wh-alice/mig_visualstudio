@@ -1,5 +1,5 @@
 ---
-title: "&lt;Package&gt; Element (Bootstrapper) | Microsoft Docs"
+title: "&lt;Package&gt; Element (Bootstrapper)"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

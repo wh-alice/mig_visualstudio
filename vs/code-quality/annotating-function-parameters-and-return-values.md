@@ -1,5 +1,5 @@
 ---
-title: "Annotating Function Parameters and Return Values | Microsoft Docs"
+title: "Annotating Function Parameters and Return Values"
 ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"

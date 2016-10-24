@@ -1,5 +1,5 @@
 ---
-title: "advance (STL Samples) | Microsoft Docs"
+title: "advance (STL Samples)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

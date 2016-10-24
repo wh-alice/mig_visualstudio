@@ -1,5 +1,5 @@
 ---
-title: "Operators cannot be declared in Modules | Microsoft Docs"
+title: "Operators cannot be declared in Modules"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

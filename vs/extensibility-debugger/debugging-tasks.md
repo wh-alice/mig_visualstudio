@@ -1,5 +1,5 @@
 ---
-title: "Debugging Tasks | Microsoft Docs"
+title: "Debugging Tasks"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

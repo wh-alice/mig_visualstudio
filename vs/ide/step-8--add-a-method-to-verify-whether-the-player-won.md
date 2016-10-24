@@ -1,5 +1,5 @@
 ---
-title: "Step 8: Add a Method to Verify Whether the Player Won | Microsoft Docs"
+title: "Step 8: Add a Method to Verify Whether the Player Won"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

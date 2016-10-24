@@ -1,5 +1,5 @@
 ---
-title: "seed_seq::seed_seq | Microsoft Docs"
+title: "seed_seq::seed_seq"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

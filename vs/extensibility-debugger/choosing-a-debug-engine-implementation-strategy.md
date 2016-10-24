@@ -1,5 +1,5 @@
 ---
-title: "Choosing a Debug Engine Implementation Strategy | Microsoft Docs"
+title: "Choosing a Debug Engine Implementation Strategy"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

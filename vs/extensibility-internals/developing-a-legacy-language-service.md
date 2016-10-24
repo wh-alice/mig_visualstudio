@@ -1,5 +1,5 @@
 ---
-title: "Developing a Legacy Language Service | Microsoft Docs"
+title: "Developing a Legacy Language Service"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

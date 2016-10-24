@@ -1,5 +1,5 @@
 ---
-title: "How to: Export a Texture for Use with Direct2D or Javascipt Apps | Microsoft Docs"
+title: "How to: Export a Texture for Use with Direct2D or Javascipt Apps"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "CA2105: Array fields should not be read only | Microsoft Docs"
+title: "CA2105: Array fields should not be read only"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "CA2132: Default constructors must be at least as critical as base type default constructors | Microsoft Docs"
+title: "CA2132: Default constructors must be at least as critical as base type default constructors"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

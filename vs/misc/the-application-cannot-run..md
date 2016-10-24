@@ -1,5 +1,5 @@
 ---
-title: "The application cannot run. | Microsoft Docs"
+title: "The application cannot run."
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "ItemDefinitionGroup Element (MSBuild) | Microsoft Docs"
+title: "ItemDefinitionGroup Element (MSBuild)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

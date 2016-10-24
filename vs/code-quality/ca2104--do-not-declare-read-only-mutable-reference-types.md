@@ -1,5 +1,5 @@
 ---
-title: "CA2104: Do not declare read only mutable reference types | Microsoft Docs"
+title: "CA2104: Do not declare read only mutable reference types"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

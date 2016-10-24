@@ -1,5 +1,5 @@
 ---
-title: "VSIX Extension Schema 2.0 Reference | Microsoft Docs"
+title: "VSIX Extension Schema 2.0 Reference"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

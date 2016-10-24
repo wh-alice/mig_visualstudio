@@ -1,5 +1,5 @@
 ---
-title: "Key Expression Evaluator Interfaces | Microsoft Docs"
+title: "Key Expression Evaluator Interfaces"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "The Structure of the Content_types].xml File | Microsoft Docs"
+title: "The Structure of the Content_types].xml File"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

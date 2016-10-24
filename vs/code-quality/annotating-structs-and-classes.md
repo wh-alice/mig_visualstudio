@@ -1,5 +1,5 @@
 ---
-title: "Annotating Structs and Classes | Microsoft Docs"
+title: "Annotating Structs and Classes"
 ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "deque::assign and deque::swap | Microsoft Docs"
+title: "deque::assign and deque::swap"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

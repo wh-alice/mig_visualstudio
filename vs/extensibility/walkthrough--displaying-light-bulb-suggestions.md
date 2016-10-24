@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Displaying Light Bulb Suggestions | Microsoft Docs"
+title: "Walkthrough: Displaying Light Bulb Suggestions"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

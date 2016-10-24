@@ -1,5 +1,5 @@
 ---
-title: "Define packages and namespaces | Microsoft Docs"
+title: "Define packages and namespaces"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

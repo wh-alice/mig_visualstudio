@@ -1,5 +1,5 @@
 ---
-title: "Model your app&#39;s architecture | Microsoft Docs"
+title: "Model your app&#39;s architecture"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

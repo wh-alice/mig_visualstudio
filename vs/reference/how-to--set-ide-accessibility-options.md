@@ -1,5 +1,5 @@
 ---
-title: "How to: Set IDE Accessibility Options | Microsoft Docs"
+title: "How to: Set IDE Accessibility Options"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

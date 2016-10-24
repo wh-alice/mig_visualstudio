@@ -1,5 +1,5 @@
 ---
-title: "Error: Remote computer could not initiate DCOM communications | Microsoft Docs"
+title: "Error: Remote computer could not initiate DCOM communications"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

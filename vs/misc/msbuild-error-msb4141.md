@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Error MSB4141 | Microsoft Docs"
+title: "MSBuild Error MSB4141"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

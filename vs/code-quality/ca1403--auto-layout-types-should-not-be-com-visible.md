@@ -1,5 +1,5 @@
 ---
-title: "CA1403: Auto layout types should not be COM visible | Microsoft Docs"
+title: "CA1403: Auto layout types should not be COM visible"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "IDebugProgramNode2 | Microsoft Docs"
+title: "IDebugProgramNode2"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

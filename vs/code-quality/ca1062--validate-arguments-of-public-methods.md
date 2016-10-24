@@ -1,5 +1,5 @@
 ---
-title: "CA1062: Validate arguments of public methods | Microsoft Docs"
+title: "CA1062: Validate arguments of public methods"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "XML literal cannot appear here unless it is enclosed in parentheses | Microsoft Docs"
+title: "XML literal cannot appear here unless it is enclosed in parentheses"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

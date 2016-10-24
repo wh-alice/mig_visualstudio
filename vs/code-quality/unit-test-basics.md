@@ -1,5 +1,5 @@
 ---
-title: "Unit Test Basics | Microsoft Docs"
+title: "Unit Test Basics"
 ms.custom: ""
 ms.date: "2016-01-07"
 ms.prod: "visual-studio-dev14"

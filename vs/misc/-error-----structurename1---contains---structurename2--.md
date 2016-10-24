@@ -1,5 +1,5 @@
 ---
-title: "&lt;error&gt;: &#39;&lt;structurename1&gt;&#39; contains &#39;&lt;structurename2&gt;&#39; | Microsoft Docs"
+title: "&lt;error&gt;: &#39;&lt;structurename1&gt;&#39; contains &#39;&lt;structurename2&gt;&#39;"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

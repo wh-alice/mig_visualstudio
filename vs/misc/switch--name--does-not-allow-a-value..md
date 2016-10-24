@@ -1,5 +1,5 @@
 ---
-title: "Switch &lt;name&gt; does not allow a value. | Microsoft Docs"
+title: "Switch &lt;name&gt; does not allow a value."
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

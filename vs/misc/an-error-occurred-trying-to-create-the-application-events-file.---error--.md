@@ -1,5 +1,5 @@
 ---
-title: "An error occurred trying to create the application events file. &#39;&lt;error&gt;&#39; | Microsoft Docs"
+title: "An error occurred trying to create the application events file. &#39;&lt;error&gt;&#39;"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

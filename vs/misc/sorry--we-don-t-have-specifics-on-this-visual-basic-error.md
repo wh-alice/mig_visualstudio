@@ -1,5 +1,5 @@
 ---
-title: "Sorry, we don&#39;t have specifics on this Visual Basic error | Microsoft Docs"
+title: "Sorry, we don&#39;t have specifics on this Visual Basic error"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

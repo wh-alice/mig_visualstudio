@@ -1,5 +1,5 @@
 ---
-title: "The &lt;name&gt; switch requires a value. | Microsoft Docs"
+title: "The &lt;name&gt; switch requires a value."
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "How to: Connect to machines in a Lab Environment | Microsoft Docs"
+title: "How to: Connect to machines in a Lab Environment"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Isolated Shell Entry Point Parameters (C++) | Microsoft Docs"
+title: "Isolated Shell Entry Point Parameters (C++)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

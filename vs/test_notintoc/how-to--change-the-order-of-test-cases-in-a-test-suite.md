@@ -1,5 +1,5 @@
 ---
-title: "How to: Change the Order of Test Cases in a Test Suite | Microsoft Docs"
+title: "How to: Change the Order of Test Cases in a Test Suite"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

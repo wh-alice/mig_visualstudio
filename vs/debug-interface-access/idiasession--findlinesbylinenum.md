@@ -1,5 +1,5 @@
 ---
-title: "IDiaSession::findLinesByLinenum | Microsoft Docs"
+title: "IDiaSession::findLinesByLinenum"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

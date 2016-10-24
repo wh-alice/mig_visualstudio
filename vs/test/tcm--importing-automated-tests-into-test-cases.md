@@ -1,5 +1,5 @@
 ---
-title: "tcm: Importing Automated Tests into Test Cases | Microsoft Docs"
+title: "tcm: Importing Automated Tests into Test Cases"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-tfs-dev14"

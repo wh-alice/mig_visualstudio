@@ -1,5 +1,5 @@
 ---
-title: "Image Service and Catalog | Microsoft Docs"
+title: "Image Service and Catalog"
 ms.custom: ""
 ms.date: "10/24/2016"
 ms.reviewer: ""

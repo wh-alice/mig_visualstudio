@@ -1,5 +1,5 @@
 ---
-title: "Managing Exceptions with the Debugger | Microsoft Docs"
+title: "Managing Exceptions with the Debugger"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

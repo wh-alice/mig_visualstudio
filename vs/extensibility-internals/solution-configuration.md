@@ -1,5 +1,5 @@
 ---
-title: "Solution Configuration | Microsoft Docs"
+title: "Solution Configuration"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Creating a Software Development Kit | Microsoft Docs"
+title: "Creating a Software Development Kit"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

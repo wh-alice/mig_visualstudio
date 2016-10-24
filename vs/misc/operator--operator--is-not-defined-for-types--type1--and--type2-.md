@@ -1,5 +1,5 @@
 ---
-title: "Operator &#39;operator&#39; is not defined for types &#39;type1&#39; and &#39;type2&#39; | Microsoft Docs"
+title: "Operator &#39;operator&#39; is not defined for types &#39;type1&#39; and &#39;type2&#39;"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

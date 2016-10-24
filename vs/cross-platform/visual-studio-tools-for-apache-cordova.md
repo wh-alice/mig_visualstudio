@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio Tools for Apache Cordova | Microsoft Docs"
+title: "Visual Studio Tools for Apache Cordova"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.reviewer: ""

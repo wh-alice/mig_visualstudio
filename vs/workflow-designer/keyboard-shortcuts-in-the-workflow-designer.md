@@ -1,5 +1,5 @@
 ---
-title: "Keyboard Shortcuts in the Workflow Designer | Microsoft Docs"
+title: "Keyboard Shortcuts in the Workflow Designer"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: ".net-framework-4.6"

@@ -1,5 +1,5 @@
 ---
-title: "CA1054: URI parameters should not be strings | Microsoft Docs"
+title: "CA1054: URI parameters should not be strings"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

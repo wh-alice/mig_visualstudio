@@ -1,5 +1,5 @@
 ---
-title: "Shared colors | Microsoft Docs"
+title: "Shared colors"
 ms.custom: ""
 ms.date: "10/13/2016"
 ms.prod: "visual-studio-dev14"

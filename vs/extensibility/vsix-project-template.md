@@ -1,5 +1,5 @@
 ---
-title: "VSIX Project Template | Microsoft Docs"
+title: "VSIX Project Template"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

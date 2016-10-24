@@ -1,5 +1,5 @@
 ---
-title: "BP_LOCATION_CODE_ADDRESS | Microsoft Docs"
+title: "BP_LOCATION_CODE_ADDRESS"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

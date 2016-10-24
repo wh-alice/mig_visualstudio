@@ -1,5 +1,5 @@
 ---
-title: "IDebugProgram2::GetDebugProperty | Microsoft Docs"
+title: "IDebugProgram2::GetDebugProperty"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

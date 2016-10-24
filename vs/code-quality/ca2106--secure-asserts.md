@@ -1,5 +1,5 @@
 ---
-title: "CA2106: Secure asserts | Microsoft Docs"
+title: "CA2106: Secure asserts"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

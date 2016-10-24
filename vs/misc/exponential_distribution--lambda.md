@@ -1,5 +1,5 @@
 ---
-title: "exponential_distribution::lambda | Microsoft Docs"
+title: "exponential_distribution::lambda"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

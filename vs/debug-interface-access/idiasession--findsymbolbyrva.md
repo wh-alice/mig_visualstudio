@@ -1,5 +1,5 @@
 ---
-title: "IDiaSession::findSymbolByRVA | Microsoft Docs"
+title: "IDiaSession::findSymbolByRVA"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

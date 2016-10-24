@@ -1,5 +1,5 @@
 ---
-title: "Memory Usage | Microsoft Docs"
+title: "Memory Usage"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

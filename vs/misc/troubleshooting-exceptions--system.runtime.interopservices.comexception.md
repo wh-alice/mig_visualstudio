@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Exceptions: System.Runtime.InteropServices.COMException | Microsoft Docs"
+title: "Troubleshooting Exceptions: System.Runtime.InteropServices.COMException"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

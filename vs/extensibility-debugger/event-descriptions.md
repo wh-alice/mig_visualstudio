@@ -1,5 +1,5 @@
 ---
-title: "Event Descriptions | Microsoft Docs"
+title: "Event Descriptions"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

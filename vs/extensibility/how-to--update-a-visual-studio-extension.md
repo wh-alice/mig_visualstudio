@@ -1,5 +1,5 @@
 ---
-title: "How to: Update a Visual Studio Extension | Microsoft Docs"
+title: "How to: Update a Visual Studio Extension"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

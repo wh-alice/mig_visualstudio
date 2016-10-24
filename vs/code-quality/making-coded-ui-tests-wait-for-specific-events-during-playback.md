@@ -1,5 +1,5 @@
 ---
-title: "Making Coded UI Tests Wait For Specific Events During Playback | Microsoft Docs"
+title: "Making Coded UI Tests Wait For Specific Events During Playback"
 ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"

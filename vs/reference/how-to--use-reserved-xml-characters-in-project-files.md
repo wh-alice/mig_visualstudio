@@ -1,5 +1,5 @@
 ---
-title: "How to: Use Reserved XML Characters in Project Files | Microsoft Docs"
+title: "How to: Use Reserved XML Characters in Project Files"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Working with the Domain-Specific Language Explorer | Microsoft Docs"
+title: "Working with the Domain-Specific Language Explorer"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

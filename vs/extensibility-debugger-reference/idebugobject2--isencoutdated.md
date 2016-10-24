@@ -1,5 +1,5 @@
 ---
-title: "IDebugObject2::IsEncOutdated | Microsoft Docs"
+title: "IDebugObject2::IsEncOutdated"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

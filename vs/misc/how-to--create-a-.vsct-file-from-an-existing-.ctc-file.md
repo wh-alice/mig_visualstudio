@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a .Vsct File from an Existing .Ctc File | Microsoft Docs"
+title: "How to: Create a .Vsct File from an Existing .Ctc File"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Code Analysis for C-C++ Warnings | Microsoft Docs"
+title: "Code Analysis for C-C++ Warnings"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

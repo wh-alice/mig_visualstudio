@@ -1,5 +1,5 @@
 ---
-title: "Installing VSPackages With Windows Installer | Microsoft Docs"
+title: "Installing VSPackages With Windows Installer"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

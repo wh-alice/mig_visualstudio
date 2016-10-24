@@ -1,5 +1,5 @@
 ---
-title: "Creating a Windows Forms-Based Domain-Specific Language | Microsoft Docs"
+title: "Creating a Windows Forms-Based Domain-Specific Language"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

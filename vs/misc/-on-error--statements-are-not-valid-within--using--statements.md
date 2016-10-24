@@ -1,5 +1,5 @@
 ---
-title: "&#39;On Error&#39; statements are not valid within &#39;Using&#39; statements | Microsoft Docs"
+title: "&#39;On Error&#39; statements are not valid within &#39;Using&#39; statements"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

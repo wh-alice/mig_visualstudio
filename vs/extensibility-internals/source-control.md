@@ -1,5 +1,5 @@
 ---
-title: "Source Control | Microsoft Docs"
+title: "Source Control"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

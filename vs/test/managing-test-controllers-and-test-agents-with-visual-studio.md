@@ -1,5 +1,5 @@
 ---
-title: "Managing Test Controllers and Test Agents with Visual Studio | Microsoft Docs"
+title: "Managing Test Controllers and Test Agents with Visual Studio"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-tfs-dev14"

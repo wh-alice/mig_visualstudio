@@ -1,5 +1,5 @@
 ---
-title: "You must supply a title for this tool. | Microsoft Docs"
+title: "You must supply a title for this tool."
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

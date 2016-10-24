@@ -1,5 +1,5 @@
 ---
-title: "vector&lt;bool&gt;::reference::operator~ | Microsoft Docs"
+title: "vector&lt;bool&gt;::reference::operator~"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

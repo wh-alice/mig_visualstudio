@@ -1,5 +1,5 @@
 ---
-title: "Working with Visual C++ Code (Class Designer) | Microsoft Docs"
+title: "Working with Visual C++ Code (Class Designer)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "gamma_distribution::beta | Microsoft Docs"
+title: "gamma_distribution::beta"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

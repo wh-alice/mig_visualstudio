@@ -1,5 +1,5 @@
 ---
-title: "Compiler Error CS0737 | Microsoft Docs"
+title: "Compiler Error CS0737"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

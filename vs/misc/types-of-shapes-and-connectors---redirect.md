@@ -1,5 +1,5 @@
 ---
-title: "Types of Shapes and Connectors - redirect | Microsoft Docs"
+title: "Types of Shapes and Connectors - redirect"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

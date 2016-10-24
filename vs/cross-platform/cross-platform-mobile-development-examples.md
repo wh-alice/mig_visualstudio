@@ -1,5 +1,5 @@
 ---
-title: "Cross-Platform Mobile Development Examples | Microsoft Docs"
+title: "Cross-Platform Mobile Development Examples"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

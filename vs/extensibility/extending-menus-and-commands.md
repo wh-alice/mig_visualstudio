@@ -1,5 +1,5 @@
 ---
-title: "Extending Menus and Commands | Microsoft Docs"
+title: "Extending Menus and Commands"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

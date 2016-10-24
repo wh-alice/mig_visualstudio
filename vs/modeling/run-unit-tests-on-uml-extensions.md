@@ -1,5 +1,5 @@
 ---
-title: "Run unit tests on UML extensions | Microsoft Docs"
+title: "Run unit tests on UML extensions"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

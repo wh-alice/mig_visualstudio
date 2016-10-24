@@ -1,5 +1,5 @@
 ---
-title: "Text Template Control Blocks | Microsoft Docs"
+title: "Text Template Control Blocks"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

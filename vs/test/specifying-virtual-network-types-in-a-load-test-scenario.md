@@ -1,5 +1,5 @@
 ---
-title: "Specifying Virtual Network Types in a Load Test Scenario | Microsoft Docs"
+title: "Specifying Virtual Network Types in a Load Test Scenario"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

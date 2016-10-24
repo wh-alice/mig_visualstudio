@@ -1,5 +1,5 @@
 ---
-title: "The DslDefinition.dsl File | Microsoft Docs"
+title: "The DslDefinition.dsl File"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

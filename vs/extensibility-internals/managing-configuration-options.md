@@ -1,5 +1,5 @@
 ---
-title: "Managing Configuration Options | Microsoft Docs"
+title: "Managing Configuration Options"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

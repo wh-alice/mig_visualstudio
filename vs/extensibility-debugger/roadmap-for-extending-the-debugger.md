@@ -1,5 +1,5 @@
 ---
-title: "Roadmap for Extending the Debugger | Microsoft Docs"
+title: "Roadmap for Extending the Debugger"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

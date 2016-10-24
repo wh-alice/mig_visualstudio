@@ -1,5 +1,5 @@
 ---
-title: "&#39;Group&#39; or an identifier expected | Microsoft Docs"
+title: "&#39;Group&#39; or an identifier expected"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

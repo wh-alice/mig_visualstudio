@@ -1,5 +1,5 @@
 ---
-title: "Unable to include XML fragment &#39;&lt;elementpath&gt;&#39; of file &#39;&lt;commentfile&gt;&#39; | Microsoft Docs"
+title: "Unable to include XML fragment &#39;&lt;elementpath&gt;&#39; of file &#39;&lt;commentfile&gt;&#39;"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

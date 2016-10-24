@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating a WCF Data Service with WPF and Entity Framework | Microsoft Docs"
+title: "Walkthrough: Creating a WCF Data Service with WPF and Entity Framework"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

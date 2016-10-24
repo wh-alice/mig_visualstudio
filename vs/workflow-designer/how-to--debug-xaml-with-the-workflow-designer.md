@@ -1,5 +1,5 @@
 ---
-title: "How to: Debug XAML with the Workflow Designer | Microsoft Docs"
+title: "How to: Debug XAML with the Workflow Designer"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: ".net-framework-4.6"

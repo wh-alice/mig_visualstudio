@@ -1,5 +1,5 @@
 ---
-title: "DA0022: High rate of Gen 2 garbage collections | Microsoft Docs"
+title: "DA0022: High rate of Gen 2 garbage collections"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

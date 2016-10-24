@@ -1,5 +1,5 @@
 ---
-title: "Performance Report View Filter | Microsoft Docs"
+title: "Performance Report View Filter"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

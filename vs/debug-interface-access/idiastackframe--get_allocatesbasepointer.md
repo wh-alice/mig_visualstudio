@@ -1,5 +1,5 @@
 ---
-title: "IDiaStackFrame::get_allocatesBasePointer | Microsoft Docs"
+title: "IDiaStackFrame::get_allocatesBasePointer"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

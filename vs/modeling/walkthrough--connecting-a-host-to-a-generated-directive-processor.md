@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Connecting a Host to a Generated Directive Processor | Microsoft Docs"
+title: "Walkthrough: Connecting a Host to a Generated Directive Processor"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

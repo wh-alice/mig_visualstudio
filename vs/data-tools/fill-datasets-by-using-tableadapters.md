@@ -1,5 +1,5 @@
 ---
-title: "Fill datasets by using TableAdapters | Microsoft Docs"
+title: "Fill datasets by using TableAdapters"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

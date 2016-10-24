@@ -1,5 +1,5 @@
 ---
-title: "&lt;assemblyIdentity&gt; Element (ClickOnce Deployment) | Microsoft Docs"
+title: "&lt;assemblyIdentity&gt; Element (ClickOnce Deployment)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

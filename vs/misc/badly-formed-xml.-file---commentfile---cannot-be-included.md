@@ -1,5 +1,5 @@
 ---
-title: "Badly formed XML. File &#39;&lt;commentfile&gt;&#39; cannot be included | Microsoft Docs"
+title: "Badly formed XML. File &#39;&lt;commentfile&gt;&#39; cannot be included"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

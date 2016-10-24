@@ -1,5 +1,5 @@
 ---
-title: "&#39;Next&#39; must be preceded by a matching &#39;For&#39; | Microsoft Docs"
+title: "&#39;Next&#39; must be preceded by a matching &#39;For&#39;"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

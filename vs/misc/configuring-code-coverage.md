@@ -1,5 +1,5 @@
 ---
-title: "Configuring code coverage | Microsoft Docs"
+title: "Configuring code coverage"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

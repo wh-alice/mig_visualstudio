@@ -1,5 +1,5 @@
 ---
-title: "Specifying When and Where an Annotation Applies | Microsoft Docs"
+title: "Specifying When and Where an Annotation Applies"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

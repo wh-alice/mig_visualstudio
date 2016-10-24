@@ -1,5 +1,5 @@
 ---
-title: "Creating Solutions and Projects | Microsoft Docs"
+title: "Creating Solutions and Projects"
 ms.custom: ""
 ms.date: "10/24/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Compiler Warning (level 4) CS0402 | Microsoft Docs"
+title: "Compiler Warning (level 4) CS0402"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

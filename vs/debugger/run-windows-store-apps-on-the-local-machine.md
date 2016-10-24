@@ -1,5 +1,5 @@
 ---
-title: "Run Windows Store apps on the local machine | Microsoft Docs"
+title: "Run Windows Store apps on the local machine"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

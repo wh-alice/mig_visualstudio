@@ -1,5 +1,5 @@
 ---
-title: "Creating Reusable Groups of Buttons | Microsoft Docs"
+title: "Creating Reusable Groups of Buttons"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

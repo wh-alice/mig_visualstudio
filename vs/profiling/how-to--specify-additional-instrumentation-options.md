@@ -1,5 +1,5 @@
 ---
-title: "How to: Specify Additional Instrumentation Options | Microsoft Docs"
+title: "How to: Specify Additional Instrumentation Options"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

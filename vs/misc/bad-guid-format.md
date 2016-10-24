@@ -1,5 +1,5 @@
 ---
-title: "Bad GUID format | Microsoft Docs"
+title: "Bad GUID format"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

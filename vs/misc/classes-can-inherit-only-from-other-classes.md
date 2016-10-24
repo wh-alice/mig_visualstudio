@@ -1,5 +1,5 @@
 ---
-title: "Classes can inherit only from other classes | Microsoft Docs"
+title: "Classes can inherit only from other classes"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

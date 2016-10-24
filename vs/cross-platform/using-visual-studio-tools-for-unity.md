@@ -1,5 +1,5 @@
 ---
-title: "Using Visual Studio Tools for Unity | Microsoft Docs"
+title: "Using Visual Studio Tools for Unity"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

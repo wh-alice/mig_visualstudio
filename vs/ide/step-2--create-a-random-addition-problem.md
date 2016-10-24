@@ -1,5 +1,5 @@
 ---
-title: "Step 2: Create a Random Addition Problem | Microsoft Docs"
+title: "Step 2: Create a Random Addition Problem"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

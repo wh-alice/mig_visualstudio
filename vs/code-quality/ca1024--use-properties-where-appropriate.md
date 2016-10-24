@@ -1,5 +1,5 @@
 ---
-title: "CA1024: Use properties where appropriate | Microsoft Docs"
+title: "CA1024: Use properties where appropriate"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

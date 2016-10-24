@@ -1,5 +1,5 @@
 ---
-title: "Writing Multi-Processor-Aware Loggers | Microsoft Docs"
+title: "Writing Multi-Processor-Aware Loggers"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

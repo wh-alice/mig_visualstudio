@@ -1,5 +1,5 @@
 ---
-title: "Code Generation in a Build Process | Microsoft Docs"
+title: "Code Generation in a Build Process"
 ms.custom: ""
 ms.date: "10/24/2016"
 ms.prod: "visual-studio-tfs-dev14"

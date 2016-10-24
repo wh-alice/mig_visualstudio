@@ -1,5 +1,5 @@
 ---
-title: "xor_combine::base2_type | Microsoft Docs"
+title: "xor_combine::base2_type"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

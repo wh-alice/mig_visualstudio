@@ -1,5 +1,5 @@
 ---
-title: "Project Target Framework Not Installed Dialog Box | Microsoft Docs"
+title: "Project Target Framework Not Installed Dialog Box"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

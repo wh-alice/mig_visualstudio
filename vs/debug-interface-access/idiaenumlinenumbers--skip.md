@@ -1,5 +1,5 @@
 ---
-title: "IDiaEnumLineNumbers::Skip | Microsoft Docs"
+title: "IDiaEnumLineNumbers::Skip"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

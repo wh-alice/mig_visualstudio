@@ -1,5 +1,5 @@
 ---
-title: "Import and Export Settings Command | Microsoft Docs"
+title: "Import and Export Settings Command"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

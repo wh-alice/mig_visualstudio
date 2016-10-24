@@ -1,5 +1,5 @@
 ---
-title: "Reference (Programmatic Capture) | Microsoft Docs"
+title: "Reference (Programmatic Capture)"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

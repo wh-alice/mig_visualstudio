@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a Custom HTTP Body Editor for the Web Performance Test Editor | Microsoft Docs"
+title: "How to: Create a Custom HTTP Body Editor for the Web Performance Test Editor"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

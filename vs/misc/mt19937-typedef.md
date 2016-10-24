@@ -1,5 +1,5 @@
 ---
-title: "mt19937 TypeDef | Microsoft Docs"
+title: "mt19937 TypeDef"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

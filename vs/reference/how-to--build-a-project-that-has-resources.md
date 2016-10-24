@@ -1,5 +1,5 @@
 ---
-title: "How to: Build a Project That Has Resources | Microsoft Docs"
+title: "How to: Build a Project That Has Resources"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "CA1712: Do not prefix enum values with type name | Microsoft Docs"
+title: "CA1712: Do not prefix enum values with type name"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

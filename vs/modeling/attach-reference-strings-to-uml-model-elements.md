@@ -1,5 +1,5 @@
 ---
-title: "Attach reference strings to UML model elements | Microsoft Docs"
+title: "Attach reference strings to UML model elements"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

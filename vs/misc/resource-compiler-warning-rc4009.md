@@ -1,5 +1,5 @@
 ---
-title: "Resource Compiler Warning RC4009 | Microsoft Docs"
+title: "Resource Compiler Warning RC4009"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Analyze failed tests and track bugs | Microsoft Docs"
+title: "Analyze failed tests and track bugs"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"

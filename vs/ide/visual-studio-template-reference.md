@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio Template Reference | Microsoft Docs"
+title: "Visual Studio Template Reference"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

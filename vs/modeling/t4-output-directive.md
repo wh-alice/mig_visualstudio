@@ -1,5 +1,5 @@
 ---
-title: "T4 Output Directive | Microsoft Docs"
+title: "T4 Output Directive"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

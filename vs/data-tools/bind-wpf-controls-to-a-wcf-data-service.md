@@ -1,5 +1,5 @@
 ---
-title: "Bind WPF controls to a WCF data service | Microsoft Docs"
+title: "Bind WPF controls to a WCF data service"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

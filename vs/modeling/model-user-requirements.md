@@ -1,5 +1,5 @@
 ---
-title: "Model user requirements | Microsoft Docs"
+title: "Model user requirements"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

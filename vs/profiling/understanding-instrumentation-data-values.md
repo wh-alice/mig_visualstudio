@@ -1,5 +1,5 @@
 ---
-title: "Understanding Instrumentation Data Values | Microsoft Docs"
+title: "Understanding Instrumentation Data Values"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

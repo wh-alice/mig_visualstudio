@@ -1,5 +1,5 @@
 ---
-title: "The remote server machine does not exist or is unavailable (Visual Basic) | Microsoft Docs"
+title: "The remote server machine does not exist or is unavailable (Visual Basic)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Redeclaration of typedef Names | Microsoft Docs"
+title: "Redeclaration of typedef Names"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

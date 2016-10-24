@@ -1,5 +1,5 @@
 ---
-title: "No mouse wheel is present | Microsoft Docs"
+title: "No mouse wheel is present"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "IDiaSectionContrib::get_code16bit | Microsoft Docs"
+title: "IDiaSectionContrib::get_code16bit"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

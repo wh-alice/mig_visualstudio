@@ -1,5 +1,5 @@
 ---
-title: "Best Practices for Implementing a Source Control Plug-in | Microsoft Docs"
+title: "Best Practices for Implementing a Source Control Plug-in"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

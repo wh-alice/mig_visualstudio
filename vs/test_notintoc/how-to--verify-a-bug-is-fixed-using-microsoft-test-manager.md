@@ -1,5 +1,5 @@
 ---
-title: "How to: Verify a Bug is Fixed Using Microsoft Test Manager | Microsoft Docs"
+title: "How to: Verify a Bug is Fixed Using Microsoft Test Manager"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

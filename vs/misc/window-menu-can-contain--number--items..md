@@ -1,5 +1,5 @@
 ---
-title: "Window menu can contain &lt;number&gt; items. | Microsoft Docs"
+title: "Window menu can contain &lt;number&gt; items."
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

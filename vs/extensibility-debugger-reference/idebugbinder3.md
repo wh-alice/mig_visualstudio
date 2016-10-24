@@ -1,5 +1,5 @@
 ---
-title: "IDebugBinder3 | Microsoft Docs"
+title: "IDebugBinder3"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

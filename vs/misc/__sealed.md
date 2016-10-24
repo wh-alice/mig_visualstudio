@@ -1,5 +1,5 @@
 ---
-title: "__sealed | Microsoft Docs"
+title: "__sealed"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

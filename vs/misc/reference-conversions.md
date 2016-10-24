@@ -1,5 +1,5 @@
 ---
-title: "Reference Conversions | Microsoft Docs"
+title: "Reference Conversions"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

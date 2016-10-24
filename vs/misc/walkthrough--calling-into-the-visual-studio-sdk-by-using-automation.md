@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Calling into the Visual Studio SDK By Using Automation | Microsoft Docs"
+title: "Walkthrough: Calling into the Visual Studio SDK By Using Automation"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

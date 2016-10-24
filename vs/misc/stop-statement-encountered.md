@@ -1,5 +1,5 @@
 ---
-title: "Stop statement encountered | Microsoft Docs"
+title: "Stop statement encountered"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

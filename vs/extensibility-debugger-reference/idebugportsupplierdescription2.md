@@ -1,5 +1,5 @@
 ---
-title: "IDebugPortSupplierDescription2 | Microsoft Docs"
+title: "IDebugPortSupplierDescription2"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

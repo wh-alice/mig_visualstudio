@@ -1,5 +1,5 @@
 ---
-title: "How to: Configure Unit Tests to Target An Earlier Version of the .NET Framework | Microsoft Docs"
+title: "How to: Configure Unit Tests to Target An Earlier Version of the .NET Framework"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

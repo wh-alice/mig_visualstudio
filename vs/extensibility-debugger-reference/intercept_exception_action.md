@@ -1,5 +1,5 @@
 ---
-title: "INTERCEPT_EXCEPTION_ACTION | Microsoft Docs"
+title: "INTERCEPT_EXCEPTION_ACTION"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

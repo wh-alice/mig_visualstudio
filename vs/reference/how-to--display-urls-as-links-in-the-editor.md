@@ -1,5 +1,5 @@
 ---
-title: "How to: Display URLs as Links in the Editor | Microsoft Docs"
+title: "How to: Display URLs as Links in the Editor"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

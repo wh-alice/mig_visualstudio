@@ -1,5 +1,5 @@
 ---
-title: "Extender instance is no longer valid. | Microsoft Docs"
+title: "Extender instance is no longer valid."
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

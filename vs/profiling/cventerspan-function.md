@@ -1,5 +1,5 @@
 ---
-title: "CvEnterSpan Function | Microsoft Docs"
+title: "CvEnterSpan Function"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

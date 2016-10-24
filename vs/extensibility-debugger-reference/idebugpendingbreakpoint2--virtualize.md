@@ -1,5 +1,5 @@
 ---
-title: "IDebugPendingBreakpoint2::Virtualize | Microsoft Docs"
+title: "IDebugPendingBreakpoint2::Virtualize"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

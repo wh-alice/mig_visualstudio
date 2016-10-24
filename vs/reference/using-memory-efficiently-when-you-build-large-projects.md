@@ -1,5 +1,5 @@
 ---
-title: "Using Memory Efficiently When You Build Large Projects | Microsoft Docs"
+title: "Using Memory Efficiently When You Build Large Projects"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

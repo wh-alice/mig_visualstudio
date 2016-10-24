@@ -1,5 +1,5 @@
 ---
-title: "Testing SharePoint 2010 Applications with Coded UI Tests | Microsoft Docs"
+title: "Testing SharePoint 2010 Applications with Coded UI Tests"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

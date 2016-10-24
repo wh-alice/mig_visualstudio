@@ -1,5 +1,5 @@
 ---
-title: "Generating a Coded UI Test from an Existing Action Recording | Microsoft Docs"
+title: "Generating a Coded UI Test from an Existing Action Recording"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-tfs-dev14"

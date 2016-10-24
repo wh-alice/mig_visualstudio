@@ -1,5 +1,5 @@
 ---
-title: "Properties Window Buttons | Microsoft Docs"
+title: "Properties Window Buttons"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

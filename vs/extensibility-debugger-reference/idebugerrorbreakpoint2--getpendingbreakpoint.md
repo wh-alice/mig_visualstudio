@@ -1,5 +1,5 @@
 ---
-title: "IDebugErrorBreakpoint2::GetPendingBreakpoint | Microsoft Docs"
+title: "IDebugErrorBreakpoint2::GetPendingBreakpoint"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

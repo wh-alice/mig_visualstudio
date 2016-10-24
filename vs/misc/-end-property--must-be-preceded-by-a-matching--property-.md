@@ -1,5 +1,5 @@
 ---
-title: "&#39;End Property&#39; must be preceded by a matching &#39;Property&#39; | Microsoft Docs"
+title: "&#39;End Property&#39; must be preceded by a matching &#39;Property&#39;"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

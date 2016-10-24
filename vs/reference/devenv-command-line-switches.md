@@ -1,5 +1,5 @@
 ---
-title: "Devenv Command Line Switches | Microsoft Docs"
+title: "Devenv Command Line Switches"
 ms.custom: ""
 ms.date: "10/22/2016"
 ms.prod: "visual-studio-dev14"

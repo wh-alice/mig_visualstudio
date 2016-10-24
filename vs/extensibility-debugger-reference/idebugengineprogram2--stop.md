@@ -1,5 +1,5 @@
 ---
-title: "IDebugEngineProgram2::Stop | Microsoft Docs"
+title: "IDebugEngineProgram2::Stop"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

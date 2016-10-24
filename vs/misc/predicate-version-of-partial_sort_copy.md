@@ -1,5 +1,5 @@
 ---
-title: "Predicate Version of partial_sort_copy | Microsoft Docs"
+title: "Predicate Version of partial_sort_copy"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Debug CSS styles using DOM Explorer | Microsoft Docs"
+title: "Debug CSS styles using DOM Explorer"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

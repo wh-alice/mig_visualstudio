@@ -1,5 +1,5 @@
 ---
-title: "Const declaration cannot have an array initializer | Microsoft Docs"
+title: "Const declaration cannot have an array initializer"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

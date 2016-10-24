@@ -1,5 +1,5 @@
 ---
-title: "Events declared with an &#39;As&#39; clause must have a delegate type | Microsoft Docs"
+title: "Events declared with an &#39;As&#39; clause must have a delegate type"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

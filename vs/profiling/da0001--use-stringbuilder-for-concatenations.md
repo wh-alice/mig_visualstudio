@@ -1,5 +1,5 @@
 ---
-title: "DA0001: Use StringBuilder for concatenations | Microsoft Docs"
+title: "DA0001: Use StringBuilder for concatenations"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

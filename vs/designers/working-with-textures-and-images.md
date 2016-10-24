@@ -1,5 +1,5 @@
 ---
-title: "Working with Textures and Images | Microsoft Docs"
+title: "Working with Textures and Images"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

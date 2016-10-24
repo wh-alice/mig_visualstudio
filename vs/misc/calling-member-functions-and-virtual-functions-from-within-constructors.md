@@ -1,5 +1,5 @@
 ---
-title: "Calling Member Functions and Virtual Functions from Within Constructors | Microsoft Docs"
+title: "Calling Member Functions and Virtual Functions from Within Constructors"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

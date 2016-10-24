@@ -1,5 +1,5 @@
 ---
-title: "&#39;ReadOnly&#39; and &#39;WriteOnly&#39; cannot be combined | Microsoft Docs"
+title: "&#39;ReadOnly&#39; and &#39;WriteOnly&#39; cannot be combined"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

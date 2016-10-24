@@ -1,5 +1,5 @@
 ---
-title: "DA0506: Maximum Private Bytes allocated for the Process being profiled | Microsoft Docs"
+title: "DA0506: Maximum Private Bytes allocated for the Process being profiled"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

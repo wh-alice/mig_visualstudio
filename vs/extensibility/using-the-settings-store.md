@@ -1,5 +1,5 @@
 ---
-title: "Using the Settings Store | Microsoft Docs"
+title: "Using the Settings Store"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

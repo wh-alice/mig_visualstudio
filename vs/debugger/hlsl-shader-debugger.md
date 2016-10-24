@@ -1,5 +1,5 @@
 ---
-title: "HLSL Shader Debugger | Microsoft Docs"
+title: "HLSL Shader Debugger"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "How to: Add UI Controls and Validation Code Using the Coded UI Test Builder | Microsoft Docs"
+title: "How to: Add UI Controls and Validation Code Using the Coded UI Test Builder"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

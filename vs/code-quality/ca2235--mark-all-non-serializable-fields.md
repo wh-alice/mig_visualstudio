@@ -1,5 +1,5 @@
 ---
-title: "CA2235: Mark all non-serializable fields | Microsoft Docs"
+title: "CA2235: Mark all non-serializable fields"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

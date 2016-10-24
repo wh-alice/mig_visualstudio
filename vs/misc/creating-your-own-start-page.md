@@ -1,5 +1,5 @@
 ---
-title: "Creating Your Own Start Page | Microsoft Docs"
+title: "Creating Your Own Start Page"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

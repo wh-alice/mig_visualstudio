@@ -1,5 +1,5 @@
 ---
-title: "IDebugEngine2::SetLocale | Microsoft Docs"
+title: "IDebugEngine2::SetLocale"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

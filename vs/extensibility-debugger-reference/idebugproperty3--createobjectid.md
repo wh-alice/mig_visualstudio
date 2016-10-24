@@ -1,5 +1,5 @@
 ---
-title: "IDebugProperty3::CreateObjectID | Microsoft Docs"
+title: "IDebugProperty3::CreateObjectID"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

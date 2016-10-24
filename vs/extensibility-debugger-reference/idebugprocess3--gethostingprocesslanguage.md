@@ -1,5 +1,5 @@
 ---
-title: "IDebugProcess3::GetHostingProcessLanguage | Microsoft Docs"
+title: "IDebugProcess3::GetHostingProcessLanguage"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

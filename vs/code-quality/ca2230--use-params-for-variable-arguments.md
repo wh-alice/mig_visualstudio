@@ -1,5 +1,5 @@
 ---
-title: "CA2230: Use params for variable arguments | Microsoft Docs"
+title: "CA2230: Use params for variable arguments"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

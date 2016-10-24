@@ -1,5 +1,5 @@
 ---
-title: "CA1021: Avoid out parameters | Microsoft Docs"
+title: "CA1021: Avoid out parameters"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

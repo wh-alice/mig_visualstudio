@@ -1,5 +1,5 @@
 ---
-title: "Compiler Warning (level 1) CS3000 | Microsoft Docs"
+title: "Compiler Warning (level 1) CS3000"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

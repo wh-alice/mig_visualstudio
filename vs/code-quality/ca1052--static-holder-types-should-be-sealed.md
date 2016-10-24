@@ -1,5 +1,5 @@
 ---
-title: "CA1052: Static holder types should be sealed | Microsoft Docs"
+title: "CA1052: Static holder types should be sealed"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

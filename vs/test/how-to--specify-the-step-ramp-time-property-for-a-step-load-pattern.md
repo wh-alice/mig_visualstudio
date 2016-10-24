@@ -1,5 +1,5 @@
 ---
-title: "How to: Specify the Step Ramp Time Property for a Step Load Pattern | Microsoft Docs"
+title: "How to: Specify the Step Ramp Time Property for a Step Load Pattern"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

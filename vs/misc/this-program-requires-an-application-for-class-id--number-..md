@@ -1,5 +1,5 @@
 ---
-title: "This program requires an application for class ID &lt;number&gt;. | Microsoft Docs"
+title: "This program requires an application for class ID &lt;number&gt;."
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

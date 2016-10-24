@@ -1,5 +1,5 @@
 ---
-title: "&#39;WithEvents&#39; variables cannot be typed as arrays | Microsoft Docs"
+title: "&#39;WithEvents&#39; variables cannot be typed as arrays"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

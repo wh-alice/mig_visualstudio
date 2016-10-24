@@ -1,5 +1,5 @@
 ---
-title: "UML model element types | Microsoft Docs"
+title: "UML model element types"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

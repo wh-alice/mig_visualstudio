@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Using XSLT IntelliSense | Microsoft Docs"
+title: "Walkthrough: Using XSLT IntelliSense"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

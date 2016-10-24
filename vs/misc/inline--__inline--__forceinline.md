@@ -1,5 +1,5 @@
 ---
-title: "inline, __inline, __forceinline | Microsoft Docs"
+title: "inline, __inline, __forceinline"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

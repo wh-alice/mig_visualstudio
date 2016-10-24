@@ -1,5 +1,5 @@
 ---
-title: "Best Practices for Security in the Visual Studio SDK | Microsoft Docs"
+title: "Best Practices for Security in the Visual Studio SDK"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

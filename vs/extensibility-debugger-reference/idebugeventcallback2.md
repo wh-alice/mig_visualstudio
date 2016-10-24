@@ -1,5 +1,5 @@
 ---
-title: "IDebugEventCallback2 | Microsoft Docs"
+title: "IDebugEventCallback2"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

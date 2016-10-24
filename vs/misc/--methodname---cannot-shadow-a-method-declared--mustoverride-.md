@@ -1,5 +1,5 @@
 ---
-title: "&#39;&lt;methodname&gt;&#39; cannot shadow a method declared &#39;MustOverride&#39; | Microsoft Docs"
+title: "&#39;&lt;methodname&gt;&#39; cannot shadow a method declared &#39;MustOverride&#39;"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Creating an Options Page | Microsoft Docs"
+title: "Creating an Options Page"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

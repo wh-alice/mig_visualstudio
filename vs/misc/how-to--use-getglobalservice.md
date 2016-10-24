@@ -1,5 +1,5 @@
 ---
-title: "How to: Use GetGlobalService | Microsoft Docs"
+title: "How to: Use GetGlobalService"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

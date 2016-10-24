@@ -1,5 +1,5 @@
 ---
-title: "Creating Custom T4 Text Template Directive Processors | Microsoft Docs"
+title: "Creating Custom T4 Text Template Directive Processors"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

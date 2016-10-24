@@ -1,5 +1,5 @@
 ---
-title: "&lt;type&gt; &#39;&lt;typename&gt;&#39; shadows an overridable method in the base class | Microsoft Docs"
+title: "&lt;type&gt; &#39;&lt;typename&gt;&#39; shadows an overridable method in the base class"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

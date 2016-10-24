@@ -1,5 +1,5 @@
 ---
-title: "Visualizing and Viewing Data | Microsoft Docs"
+title: "Visualizing and Viewing Data"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

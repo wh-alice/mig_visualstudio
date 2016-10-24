@@ -1,5 +1,5 @@
 ---
-title: "Remote Debugging ASP.NET on a Remote IIS 7.5 Computer | Microsoft Docs"
+title: "Remote Debugging ASP.NET on a Remote IIS 7.5 Computer"
 ms.custom: ""
 ms.date: "10/17/2016"
 ms.prod: "visual-studio-dev14"

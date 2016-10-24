@@ -1,5 +1,5 @@
 ---
-title: "CA2200: Rethrow to preserve stack details | Microsoft Docs"
+title: "CA2200: Rethrow to preserve stack details"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

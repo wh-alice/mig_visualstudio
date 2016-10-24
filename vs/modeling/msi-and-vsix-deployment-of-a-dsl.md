@@ -1,5 +1,5 @@
 ---
-title: "MSI and VSIX Deployment of a DSL | Microsoft Docs"
+title: "MSI and VSIX Deployment of a DSL"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

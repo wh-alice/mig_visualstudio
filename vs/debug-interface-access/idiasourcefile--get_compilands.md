@@ -1,5 +1,5 @@
 ---
-title: "IDiaSourceFile::get_compilands | Microsoft Docs"
+title: "IDiaSourceFile::get_compilands"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

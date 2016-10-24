@@ -1,5 +1,5 @@
 ---
-title: "Removing Unused Usings | Microsoft Docs"
+title: "Removing Unused Usings"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "CA1303: Do not pass literals as localized parameters | Microsoft Docs"
+title: "CA1303: Do not pass literals as localized parameters"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

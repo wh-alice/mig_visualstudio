@@ -1,5 +1,5 @@
 ---
-title: "How to: Compose Delegates | Microsoft Docs"
+title: "How to: Compose Delegates"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

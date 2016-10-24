@@ -1,5 +1,5 @@
 ---
-title: "SYMBOL_SEARCH_INFO_FIELDS | Microsoft Docs"
+title: "SYMBOL_SEARCH_INFO_FIELDS"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

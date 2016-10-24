@@ -1,5 +1,5 @@
 ---
-title: "Opening and Saving Project Items | Microsoft Docs"
+title: "Opening and Saving Project Items"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

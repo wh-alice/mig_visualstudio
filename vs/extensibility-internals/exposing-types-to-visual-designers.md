@@ -1,5 +1,5 @@
 ---
-title: "Exposing Types to Visual Designers | Microsoft Docs"
+title: "Exposing Types to Visual Designers"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

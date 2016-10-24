@@ -1,5 +1,5 @@
 ---
-title: "VS Shell deployment | Microsoft Docs"
+title: "VS Shell deployment"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

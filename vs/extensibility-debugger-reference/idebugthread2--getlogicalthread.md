@@ -1,5 +1,5 @@
 ---
-title: "IDebugThread2::GetLogicalThread | Microsoft Docs"
+title: "IDebugThread2::GetLogicalThread"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

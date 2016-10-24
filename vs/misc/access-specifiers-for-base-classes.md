@@ -1,5 +1,5 @@
 ---
-title: "Access Specifiers for Base Classes | Microsoft Docs"
+title: "Access Specifiers for Base Classes"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

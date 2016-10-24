@@ -1,5 +1,5 @@
 ---
-title: "Prerequistes for Remote Debugging Web Applications | Microsoft Docs"
+title: "Prerequistes for Remote Debugging Web Applications"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

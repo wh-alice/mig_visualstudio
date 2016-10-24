@@ -1,5 +1,5 @@
 ---
-title: "Debugging by Using the Store Viewer | Microsoft Docs"
+title: "Debugging by Using the Store Viewer"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

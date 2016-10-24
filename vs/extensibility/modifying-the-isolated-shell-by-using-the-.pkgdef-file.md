@@ -1,5 +1,5 @@
 ---
-title: "Modifying the Isolated Shell By Using the .Pkgdef File | Microsoft Docs"
+title: "Modifying the Isolated Shell By Using the .Pkgdef File"
 ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"

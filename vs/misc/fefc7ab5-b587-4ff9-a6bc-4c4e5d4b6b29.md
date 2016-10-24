@@ -1,5 +1,5 @@
 ---
-title: "Option Strict On does not allow narrowing in implicit type conversions between method &#39;&lt;methodname&gt;&#39; and delegate &#39;&lt;delegatename&gt;&#39; | Microsoft Docs"
+title: "Option Strict On does not allow narrowing in implicit type conversions between method &#39;&lt;methodname&gt;&#39; and delegate &#39;&lt;delegatename&gt;&#39;"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

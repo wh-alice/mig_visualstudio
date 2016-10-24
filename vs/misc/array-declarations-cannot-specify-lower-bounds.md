@@ -1,5 +1,5 @@
 ---
-title: "Array declarations cannot specify lower bounds | Microsoft Docs"
+title: "Array declarations cannot specify lower bounds"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

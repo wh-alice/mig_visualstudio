@@ -1,5 +1,5 @@
 ---
-title: "Windows Tab, Window Properties Dialog Box | Microsoft Docs"
+title: "Windows Tab, Window Properties Dialog Box"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

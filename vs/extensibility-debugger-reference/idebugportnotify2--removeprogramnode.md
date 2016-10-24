@@ -1,5 +1,5 @@
 ---
-title: "IDebugPortNotify2::RemoveProgramNode | Microsoft Docs"
+title: "IDebugPortNotify2::RemoveProgramNode"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

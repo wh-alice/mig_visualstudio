@@ -1,5 +1,5 @@
 ---
-title: "ProvideDefaultName Element (Visual Studio Templates) | Microsoft Docs"
+title: "ProvideDefaultName Element (Visual Studio Templates)"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

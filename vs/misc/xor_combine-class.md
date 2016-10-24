@@ -1,5 +1,5 @@
 ---
-title: "xor_combine Class | Microsoft Docs"
+title: "xor_combine Class"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

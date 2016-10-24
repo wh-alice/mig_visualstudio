@@ -1,5 +1,5 @@
 ---
-title: "CA1044: Properties should not be write only | Microsoft Docs"
+title: "CA1044: Properties should not be write only"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

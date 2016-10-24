@@ -1,5 +1,5 @@
 ---
-title: "Project &lt;project1&gt; references project &lt;project2&gt; | Microsoft Docs"
+title: "Project &lt;project1&gt; references project &lt;project2&gt;"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

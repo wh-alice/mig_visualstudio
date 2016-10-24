@@ -1,5 +1,5 @@
 ---
-title: "How to: Manage Updates for a ClickOnce Application | Microsoft Docs"
+title: "How to: Manage Updates for a ClickOnce Application"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

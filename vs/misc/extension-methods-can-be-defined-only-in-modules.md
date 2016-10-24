@@ -1,5 +1,5 @@
 ---
-title: "Extension methods can be defined only in modules | Microsoft Docs"
+title: "Extension methods can be defined only in modules"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

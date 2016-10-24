@@ -1,5 +1,5 @@
 ---
-title: "Application did not register a class factory for class ID &lt;number&gt;. | Microsoft Docs"
+title: "Application did not register a class factory for class ID &lt;number&gt;."
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

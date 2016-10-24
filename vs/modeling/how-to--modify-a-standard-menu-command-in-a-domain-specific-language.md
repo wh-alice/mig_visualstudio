@@ -1,5 +1,5 @@
 ---
-title: "How to: Modify a Standard Menu Command in a Domain-Specific Language | Microsoft Docs"
+title: "How to: Modify a Standard Menu Command in a Domain-Specific Language"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

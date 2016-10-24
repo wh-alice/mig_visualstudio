@@ -1,5 +1,5 @@
 ---
-title: "Named arguments are not valid as array subscripts | Microsoft Docs"
+title: "Named arguments are not valid as array subscripts"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

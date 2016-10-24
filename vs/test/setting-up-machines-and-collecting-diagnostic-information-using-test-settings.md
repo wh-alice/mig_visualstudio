@@ -1,5 +1,5 @@
 ---
-title: "Setting Up Machines and Collecting Diagnostic Information Using Test Settings | Microsoft Docs"
+title: "Setting Up Machines and Collecting Diagnostic Information Using Test Settings"
 ms.custom: ""
 ms.date: "10/13/2016"
 ms.prod: "visual-studio-tfs-dev14"

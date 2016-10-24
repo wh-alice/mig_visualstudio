@@ -1,5 +1,5 @@
 ---
-title: "Defining Shapes and Connectors | Microsoft Docs"
+title: "Defining Shapes and Connectors"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "How to: Run Tests from Microsoft Visual Studio | Microsoft Docs"
+title: "How to: Run Tests from Microsoft Visual Studio"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-tfs-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Evaluation Context | Microsoft Docs"
+title: "Evaluation Context"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

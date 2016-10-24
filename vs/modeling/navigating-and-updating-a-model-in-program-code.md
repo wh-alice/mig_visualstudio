@@ -1,5 +1,5 @@
 ---
-title: "Navigating and Updating a Model in Program Code | Microsoft Docs"
+title: "Navigating and Updating a Model in Program Code"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Automated Testing with Coded UI Tests | Microsoft Docs"
+title: "Automated Testing with Coded UI Tests"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

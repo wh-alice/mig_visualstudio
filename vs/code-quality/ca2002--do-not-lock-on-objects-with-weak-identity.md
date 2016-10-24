@@ -1,5 +1,5 @@
 ---
-title: "CA2002: Do not lock on objects with weak identity | Microsoft Docs"
+title: "CA2002: Do not lock on objects with weak identity"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

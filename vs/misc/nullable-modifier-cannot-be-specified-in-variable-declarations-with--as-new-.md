@@ -1,5 +1,5 @@
 ---
-title: "Nullable modifier cannot be specified in variable declarations with &#39;As New&#39; | Microsoft Docs"
+title: "Nullable modifier cannot be specified in variable declarations with &#39;As New&#39;"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

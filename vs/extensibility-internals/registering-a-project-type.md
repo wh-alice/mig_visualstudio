@@ -1,5 +1,5 @@
 ---
-title: "Registering a Project Type | Microsoft Docs"
+title: "Registering a Project Type"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Set up environments for continuous testing with builds | Microsoft Docs"
+title: "Set up environments for continuous testing with builds"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

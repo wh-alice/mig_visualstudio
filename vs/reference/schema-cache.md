@@ -1,5 +1,5 @@
 ---
-title: "Schema Cache | Microsoft Docs"
+title: "Schema Cache"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

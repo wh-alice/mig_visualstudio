@@ -1,5 +1,5 @@
 ---
-title: "Porting, Migrating, and Upgrading Visual Studio Projects | Microsoft Docs"
+title: "Porting, Migrating, and Upgrading Visual Studio Projects"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Supporting Multiple Versions of Visual Studio | Microsoft Docs"
+title: "Supporting Multiple Versions of Visual Studio"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

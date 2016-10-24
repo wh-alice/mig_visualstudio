@@ -1,5 +1,5 @@
 ---
-title: "Working with the DSL Definition Diagram | Microsoft Docs"
+title: "Working with the DSL Definition Diagram"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

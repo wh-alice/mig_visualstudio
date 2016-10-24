@@ -1,5 +1,5 @@
 ---
-title: "Hierarchical Organization of Resources for Localization | Microsoft Docs"
+title: "Hierarchical Organization of Resources for Localization"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

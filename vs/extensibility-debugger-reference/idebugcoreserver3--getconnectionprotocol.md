@@ -1,5 +1,5 @@
 ---
-title: "IDebugCoreServer3::GetConnectionProtocol | Microsoft Docs"
+title: "IDebugCoreServer3::GetConnectionProtocol"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

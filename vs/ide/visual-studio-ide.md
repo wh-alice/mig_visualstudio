@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio IDE | Microsoft Docs"
+title: "Visual Studio IDE"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"

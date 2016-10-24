@@ -1,5 +1,5 @@
 ---
-title: "REFERENCE_COMPARE | Microsoft Docs"
+title: "REFERENCE_COMPARE"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

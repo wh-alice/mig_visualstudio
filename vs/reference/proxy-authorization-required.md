@@ -1,5 +1,5 @@
 ---
-title: "Proxy Authorization Required | Microsoft Docs"
+title: "Proxy Authorization Required"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

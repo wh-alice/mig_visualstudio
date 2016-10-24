@@ -1,5 +1,5 @@
 ---
-title: "Analyze the code quality of Store apps using Visual Studio static code analysis | Microsoft Docs"
+title: "Analyze the code quality of Store apps using Visual Studio static code analysis"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

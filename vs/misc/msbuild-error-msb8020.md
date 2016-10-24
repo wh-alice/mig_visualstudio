@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Error MSB8020 | Microsoft Docs"
+title: "MSBuild Error MSB8020"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.reviewer: ""

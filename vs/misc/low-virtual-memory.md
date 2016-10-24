@@ -1,5 +1,5 @@
 ---
-title: "Low Virtual Memory | Microsoft Docs"
+title: "Low Virtual Memory"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

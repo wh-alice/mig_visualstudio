@@ -1,5 +1,5 @@
 ---
-title: "Creating Options Pages By Using Automation | Microsoft Docs"
+title: "Creating Options Pages By Using Automation"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

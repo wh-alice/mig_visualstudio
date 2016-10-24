@@ -1,5 +1,5 @@
 ---
-title: "Content Definition Dialog Box | Microsoft Docs"
+title: "Content Definition Dialog Box"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: ".net-framework-4.6"

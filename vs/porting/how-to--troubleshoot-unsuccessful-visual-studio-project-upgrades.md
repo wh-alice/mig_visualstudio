@@ -1,5 +1,5 @@
 ---
-title: "How to: Troubleshoot Unsuccessful Visual Studio Project Upgrades | Microsoft Docs"
+title: "How to: Troubleshoot Unsuccessful Visual Studio Project Upgrades"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

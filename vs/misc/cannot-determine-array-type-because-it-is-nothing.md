@@ -1,5 +1,5 @@
 ---
-title: "Cannot determine array type because it is Nothing | Microsoft Docs"
+title: "Cannot determine array type because it is Nothing"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

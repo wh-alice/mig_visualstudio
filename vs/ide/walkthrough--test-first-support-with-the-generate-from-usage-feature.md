@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Test-First Support with the Generate From Usage Feature | Microsoft Docs"
+title: "Walkthrough: Test-First Support with the Generate From Usage Feature"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

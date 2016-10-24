@@ -1,5 +1,5 @@
 ---
-title: "CA1806: Do not ignore method results | Microsoft Docs"
+title: "CA1806: Do not ignore method results"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

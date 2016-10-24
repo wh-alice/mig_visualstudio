@@ -1,5 +1,5 @@
 ---
-title: "Enum types cannot be nullable | Microsoft Docs"
+title: "Enum types cannot be nullable"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

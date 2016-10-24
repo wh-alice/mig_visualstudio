@@ -1,5 +1,5 @@
 ---
-title: "Introduction to WPF | Microsoft Docs"
+title: "Introduction to WPF"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

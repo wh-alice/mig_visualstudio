@@ -1,5 +1,5 @@
 ---
-title: "IDebugDocumentContext2::GetSourceRange | Microsoft Docs"
+title: "IDebugDocumentContext2::GetSourceRange"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

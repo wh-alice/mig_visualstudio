@@ -1,5 +1,5 @@
 ---
-title: "How to: Target a Version of the .NET Framework | Microsoft Docs"
+title: "How to: Target a Version of the .NET Framework"
 ms.custom: ""
 ms.date: "10/22/2016"
 ms.prod: "visual-studio-dev14"

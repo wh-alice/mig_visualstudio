@@ -1,5 +1,5 @@
 ---
-title: "Filter Nodes | Microsoft Docs"
+title: "Filter Nodes"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

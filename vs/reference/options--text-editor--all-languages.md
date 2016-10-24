@@ -1,5 +1,5 @@
 ---
-title: "Options, Text Editor, All Languages | Microsoft Docs"
+title: "Options, Text Editor, All Languages"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

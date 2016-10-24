@@ -1,5 +1,5 @@
 ---
-title: "Application of Settings Across Multiple Project Connections | Microsoft Docs"
+title: "Application of Settings Across Multiple Project Connections"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

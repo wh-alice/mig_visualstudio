@@ -1,5 +1,5 @@
 ---
-title: "Addressing DPI Issues2 | Microsoft Docs"
+title: "Addressing DPI Issues2"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.reviewer: ""

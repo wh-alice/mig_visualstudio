@@ -1,5 +1,5 @@
 ---
-title: "CA2146: Types must be at least as critical as their base types and interfaces | Microsoft Docs"
+title: "CA2146: Types must be at least as critical as their base types and interfaces"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

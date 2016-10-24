@@ -1,5 +1,5 @@
 ---
-title: "Step 8: Write Code for the Show a Picture Button Event Handler | Microsoft Docs"
+title: "Step 8: Write Code for the Show a Picture Button Event Handler"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

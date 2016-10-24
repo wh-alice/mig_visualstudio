@@ -1,5 +1,5 @@
 ---
-title: "Error: Unable to connect to SQL Server on remote machine | Microsoft Docs"
+title: "Error: Unable to connect to SQL Server on remote machine"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

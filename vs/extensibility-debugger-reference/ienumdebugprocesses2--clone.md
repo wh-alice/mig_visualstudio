@@ -1,5 +1,5 @@
 ---
-title: "IEnumDebugProcesses2::Clone | Microsoft Docs"
+title: "IEnumDebugProcesses2::Clone"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

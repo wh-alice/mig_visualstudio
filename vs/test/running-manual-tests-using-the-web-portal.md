@@ -1,5 +1,5 @@
 ---
-title: "Running manual tests using the web portal | Microsoft Docs"
+title: "Running manual tests using the web portal"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"

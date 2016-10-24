@@ -1,5 +1,5 @@
 ---
-title: "Manifest from Resources | Microsoft Docs"
+title: "Manifest from Resources"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.reviewer: ""

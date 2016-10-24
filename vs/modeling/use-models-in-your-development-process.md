@@ -1,5 +1,5 @@
 ---
-title: "Use models in your development process | Microsoft Docs"
+title: "Use models in your development process"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

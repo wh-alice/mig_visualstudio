@@ -1,5 +1,5 @@
 ---
-title: "CA1813: Avoid unsealed attributes | Microsoft Docs"
+title: "CA1813: Avoid unsealed attributes"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

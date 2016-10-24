@@ -1,5 +1,5 @@
 ---
-title: "IDebugTypeFieldBuilder2::CreateArrayOfType | Microsoft Docs"
+title: "IDebugTypeFieldBuilder2::CreateArrayOfType"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

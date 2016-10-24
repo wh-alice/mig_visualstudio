@@ -1,5 +1,5 @@
 ---
-title: "The application definition file is already opened in an incompatible editor | Microsoft Docs"
+title: "The application definition file is already opened in an incompatible editor"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

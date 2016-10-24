@@ -1,5 +1,5 @@
 ---
-title: "Find in Files Command | Microsoft Docs"
+title: "Find in Files Command"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

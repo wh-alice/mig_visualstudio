@@ -1,5 +1,5 @@
 ---
-title: "Setting credentials on a web performance test | Microsoft Docs"
+title: "Setting credentials on a web performance test"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

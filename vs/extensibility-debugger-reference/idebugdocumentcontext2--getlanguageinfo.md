@@ -1,5 +1,5 @@
 ---
-title: "IDebugDocumentContext2::GetLanguageInfo | Microsoft Docs"
+title: "IDebugDocumentContext2::GetLanguageInfo"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

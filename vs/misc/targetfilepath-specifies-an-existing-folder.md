@@ -1,5 +1,5 @@
 ---
-title: "TargetFilePath specifies an existing folder | Microsoft Docs"
+title: "TargetFilePath specifies an existing folder"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

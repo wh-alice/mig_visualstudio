@@ -1,5 +1,5 @@
 ---
-title: "Identifier expected, preceded with a period | Microsoft Docs"
+title: "Identifier expected, preceded with a period"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

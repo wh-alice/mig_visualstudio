@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating a Custom Bootstrapper to Show a Privacy Prompt | Microsoft Docs"
+title: "Walkthrough: Creating a Custom Bootstrapper to Show a Privacy Prompt"
 ms.custom: ""
 ms.date: "10/22/2016"
 ms.prod: "visual-studio-dev14"

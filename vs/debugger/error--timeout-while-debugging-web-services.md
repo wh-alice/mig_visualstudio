@@ -1,5 +1,5 @@
 ---
-title: "Error: Timeout While Debugging Web Services | Microsoft Docs"
+title: "Error: Timeout While Debugging Web Services"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

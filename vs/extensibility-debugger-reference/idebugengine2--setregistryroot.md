@@ -1,5 +1,5 @@
 ---
-title: "IDebugEngine2::SetRegistryRoot | Microsoft Docs"
+title: "IDebugEngine2::SetRegistryRoot"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Command-Line test results | Microsoft Docs"
+title: "Command-Line test results"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-tfs-dev14"

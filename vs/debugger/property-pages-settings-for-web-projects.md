@@ -1,5 +1,5 @@
 ---
-title: "Property Pages Settings for Web Projects | Microsoft Docs"
+title: "Property Pages Settings for Web Projects"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

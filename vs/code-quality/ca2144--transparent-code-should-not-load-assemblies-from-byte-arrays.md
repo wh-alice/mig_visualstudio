@@ -1,5 +1,5 @@
 ---
-title: "CA2144: Transparent code should not load assemblies from byte arrays | Microsoft Docs"
+title: "CA2144: Transparent code should not load assemblies from byte arrays"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

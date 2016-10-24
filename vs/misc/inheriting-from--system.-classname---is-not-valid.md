@@ -1,5 +1,5 @@
 ---
-title: "Inheriting from &#39;System.&lt;classname&gt;&#39; is not valid | Microsoft Docs"
+title: "Inheriting from &#39;System.&lt;classname&gt;&#39; is not valid"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

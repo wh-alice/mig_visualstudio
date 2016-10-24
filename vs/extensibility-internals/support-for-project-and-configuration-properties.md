@@ -1,5 +1,5 @@
 ---
-title: "Support for Project and Configuration Properties | Microsoft Docs"
+title: "Support for Project and Configuration Properties"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

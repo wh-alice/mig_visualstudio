@@ -1,5 +1,5 @@
 ---
-title: "Step 9: Review, Comment, and Test Your Code | Microsoft Docs"
+title: "Step 9: Review, Comment, and Test Your Code"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "-Setup (devenv.exe) | Microsoft Docs"
+title: "-Setup (devenv.exe)"
 ms.custom: ""
 ms.date: "10/22/2016"
 ms.prod: "visual-studio-dev14"

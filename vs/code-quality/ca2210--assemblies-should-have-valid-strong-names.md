@@ -1,5 +1,5 @@
 ---
-title: "CA2210: Assemblies should have valid strong names | Microsoft Docs"
+title: "CA2210: Assemblies should have valid strong names"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

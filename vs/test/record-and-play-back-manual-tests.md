@@ -1,5 +1,5 @@
 ---
-title: "Record and play back manual tests | Microsoft Docs"
+title: "Record and play back manual tests"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

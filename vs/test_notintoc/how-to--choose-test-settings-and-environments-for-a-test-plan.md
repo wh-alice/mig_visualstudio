@@ -1,5 +1,5 @@
 ---
-title: "How to: Choose Test Settings and Environments for a Test Plan | Microsoft Docs"
+title: "How to: Choose Test Settings and Environments for a Test Plan"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

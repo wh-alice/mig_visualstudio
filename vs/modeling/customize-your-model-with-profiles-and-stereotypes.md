@@ -1,5 +1,5 @@
 ---
-title: "Customize your model with profiles and stereotypes | Microsoft Docs"
+title: "Customize your model with profiles and stereotypes"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

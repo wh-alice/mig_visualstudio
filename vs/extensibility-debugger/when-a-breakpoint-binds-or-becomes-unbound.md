@@ -1,5 +1,5 @@
 ---
-title: "When a Breakpoint Binds or Becomes Unbound | Microsoft Docs"
+title: "When a Breakpoint Binds or Becomes Unbound"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

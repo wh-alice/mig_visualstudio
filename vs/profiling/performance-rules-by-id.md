@@ -1,5 +1,5 @@
 ---
-title: "Performance Rules by ID | Microsoft Docs"
+title: "Performance Rules by ID"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

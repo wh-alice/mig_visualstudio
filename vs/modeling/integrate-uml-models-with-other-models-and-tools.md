@@ -1,5 +1,5 @@
 ---
-title: "Integrate UML models with other models and tools | Microsoft Docs"
+title: "Integrate UML models with other models and tools"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

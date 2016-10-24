@@ -1,5 +1,5 @@
 ---
-title: "IDiaSymbol::get_isOptimizedAway | Microsoft Docs"
+title: "IDiaSymbol::get_isOptimizedAway"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

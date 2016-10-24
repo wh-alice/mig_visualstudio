@@ -1,5 +1,5 @@
 ---
-title: "Learn about mobile development with Xamarin | Microsoft Docs"
+title: "Learn about mobile development with Xamarin"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.reviewer: ""

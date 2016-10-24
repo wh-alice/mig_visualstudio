@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Exceptions: System.Collections.Generic.KeyNotFoundException | Microsoft Docs"
+title: "Troubleshooting Exceptions: System.Collections.Generic.KeyNotFoundException"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

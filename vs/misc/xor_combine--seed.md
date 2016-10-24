@@ -1,5 +1,5 @@
 ---
-title: "xor_combine::seed | Microsoft Docs"
+title: "xor_combine::seed"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "IDiaDataSource::loadAndValidateDataFromPdb | Microsoft Docs"
+title: "IDiaDataSource::loadAndValidateDataFromPdb"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

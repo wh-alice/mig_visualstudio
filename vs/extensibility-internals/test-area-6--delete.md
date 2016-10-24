@@ -1,5 +1,5 @@
 ---
-title: "Test Area 6: Delete | Microsoft Docs"
+title: "Test Area 6: Delete"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Project Settings for a C++ Debug Configuration | Microsoft Docs"
+title: "Project Settings for a C++ Debug Configuration"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

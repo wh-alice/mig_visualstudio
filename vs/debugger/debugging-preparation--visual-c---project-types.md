@@ -1,5 +1,5 @@
 ---
-title: "Debugging Preparation: Visual C++ Project Types | Microsoft Docs"
+title: "Debugging Preparation: Visual C++ Project Types"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

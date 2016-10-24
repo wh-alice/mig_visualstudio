@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Exceptions: System.Data.NoNullAllowedException | Microsoft Docs"
+title: "Troubleshooting Exceptions: System.Data.NoNullAllowedException"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

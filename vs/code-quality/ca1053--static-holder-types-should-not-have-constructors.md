@@ -1,5 +1,5 @@
 ---
-title: "CA1053: Static holder types should not have constructors | Microsoft Docs"
+title: "CA1053: Static holder types should not have constructors"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

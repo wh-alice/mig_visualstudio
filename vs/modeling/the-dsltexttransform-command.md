@@ -1,5 +1,5 @@
 ---
-title: "The DslTextTransform Command | Microsoft Docs"
+title: "The DslTextTransform Command"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

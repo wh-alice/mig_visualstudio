@@ -1,5 +1,5 @@
 ---
-title: "Access Specifiers | Microsoft Docs"
+title: "Access Specifiers"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

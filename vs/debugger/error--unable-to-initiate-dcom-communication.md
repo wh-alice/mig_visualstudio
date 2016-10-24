@@ -1,5 +1,5 @@
 ---
-title: "Error: Unable to initiate DCOM communication | Microsoft Docs"
+title: "Error: Unable to initiate DCOM communication"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

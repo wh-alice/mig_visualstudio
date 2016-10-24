@@ -1,5 +1,5 @@
 ---
-title: "File already exists | Microsoft Docs"
+title: "File already exists"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

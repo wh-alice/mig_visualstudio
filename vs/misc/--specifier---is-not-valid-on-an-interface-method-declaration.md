@@ -1,5 +1,5 @@
 ---
-title: "&#39;&lt;specifier&gt;&#39; is not valid on an interface method declaration | Microsoft Docs"
+title: "&#39;&lt;specifier&gt;&#39; is not valid on an interface method declaration"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

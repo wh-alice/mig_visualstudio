@@ -1,5 +1,5 @@
 ---
-title: "IDebugProgram2::CanDetach | Microsoft Docs"
+title: "IDebugProgram2::CanDetach"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

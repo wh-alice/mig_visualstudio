@@ -1,5 +1,5 @@
 ---
-title: "Diagnose problems after deployment | Microsoft Docs"
+title: "Diagnose problems after deployment"
 ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"

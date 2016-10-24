@@ -1,5 +1,5 @@
 ---
-title: "Persisting the Property of a Project Item | Microsoft Docs"
+title: "Persisting the Property of a Project Item"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

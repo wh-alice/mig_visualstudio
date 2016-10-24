@@ -1,5 +1,5 @@
 ---
-title: "CA2000: Dispose objects before losing scope | Microsoft Docs"
+title: "CA2000: Dispose objects before losing scope"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

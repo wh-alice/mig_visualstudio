@@ -1,5 +1,5 @@
 ---
-title: "Installation and Deployment Frequently Asked Questions | Microsoft Docs"
+title: "Installation and Deployment Frequently Asked Questions"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

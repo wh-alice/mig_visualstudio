@@ -1,5 +1,5 @@
 ---
-title: "IDebugModuleLoadEvent2::GetModule | Microsoft Docs"
+title: "IDebugModuleLoadEvent2::GetModule"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

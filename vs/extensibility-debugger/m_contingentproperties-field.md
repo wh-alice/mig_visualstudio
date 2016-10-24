@@ -1,5 +1,5 @@
 ---
-title: "m_contingentProperties Field | Microsoft Docs"
+title: "m_contingentProperties Field"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

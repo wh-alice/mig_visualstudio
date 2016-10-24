@@ -1,5 +1,5 @@
 ---
-title: "IDiaSymbol::get_relativeVirtualAddress | Microsoft Docs"
+title: "IDiaSymbol::get_relativeVirtualAddress"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

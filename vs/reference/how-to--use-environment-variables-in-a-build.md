@@ -1,5 +1,5 @@
 ---
-title: "How to: Use Environment Variables in a Build | Microsoft Docs"
+title: "How to: Use Environment Variables in a Build"
 ms.custom: ""
 ms.date: "10/24/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Setting Up Test Controllers in Lab Environments | Microsoft Docs"
+title: "Setting Up Test Controllers in Lab Environments"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

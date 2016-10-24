@@ -1,5 +1,5 @@
 ---
-title: "IDebugProgramEngines2::SetEngine | Microsoft Docs"
+title: "IDebugProgramEngines2::SetEngine"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

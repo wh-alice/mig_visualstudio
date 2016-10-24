@@ -1,5 +1,5 @@
 ---
-title: "Services Used in Samples | Microsoft Docs"
+title: "Services Used in Samples"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

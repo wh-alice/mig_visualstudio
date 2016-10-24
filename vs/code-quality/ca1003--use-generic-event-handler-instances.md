@@ -1,5 +1,5 @@
 ---
-title: "CA1003: Use generic event handler instances | Microsoft Docs"
+title: "CA1003: Use generic event handler instances"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "IDebugBoundBreakpoint2::Delete | Microsoft Docs"
+title: "IDebugBoundBreakpoint2::Delete"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

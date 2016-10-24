@@ -1,5 +1,5 @@
 ---
-title: "- How to: Play Back an Action Recording | Microsoft Docs"
+title: "- How to: Play Back an Action Recording"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

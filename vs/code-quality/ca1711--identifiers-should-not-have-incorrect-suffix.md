@@ -1,5 +1,5 @@
 ---
-title: "CA1711: Identifiers should not have incorrect suffix | Microsoft Docs"
+title: "CA1711: Identifiers should not have incorrect suffix"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

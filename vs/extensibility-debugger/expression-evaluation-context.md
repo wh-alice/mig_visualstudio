@@ -1,5 +1,5 @@
 ---
-title: "Expression Evaluation Context | Microsoft Docs"
+title: "Expression Evaluation Context"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

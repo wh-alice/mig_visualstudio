@@ -1,5 +1,5 @@
 ---
-title: "Using the Task List | Microsoft Docs"
+title: "Using the Task List"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

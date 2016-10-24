@@ -1,5 +1,5 @@
 ---
-title: "Getting Started with Source Control Plug-ins | Microsoft Docs"
+title: "Getting Started with Source Control Plug-ins"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

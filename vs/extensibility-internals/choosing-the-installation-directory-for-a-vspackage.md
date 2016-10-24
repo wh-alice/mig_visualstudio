@@ -1,5 +1,5 @@
 ---
-title: "Choosing the Installation Directory for a VSPackage | Microsoft Docs"
+title: "Choosing the Installation Directory for a VSPackage"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

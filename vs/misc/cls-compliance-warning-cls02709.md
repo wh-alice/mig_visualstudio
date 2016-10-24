@@ -1,5 +1,5 @@
 ---
-title: "CLS Compliance Warning CLS02709 | Microsoft Docs"
+title: "CLS Compliance Warning CLS02709"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

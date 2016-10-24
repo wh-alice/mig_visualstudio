@@ -1,5 +1,5 @@
 ---
-title: "How to: Save Dataset Changes to a Database | Microsoft Docs"
+title: "How to: Save Dataset Changes to a Database"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

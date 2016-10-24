@@ -1,5 +1,5 @@
 ---
-title: "IDebugExpressionContext2::ParseText | Microsoft Docs"
+title: "IDebugExpressionContext2::ParseText"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

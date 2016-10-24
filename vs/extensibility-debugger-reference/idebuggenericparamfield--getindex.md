@@ -1,5 +1,5 @@
 ---
-title: "IDebugGenericParamField::GetIndex | Microsoft Docs"
+title: "IDebugGenericParamField::GetIndex"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

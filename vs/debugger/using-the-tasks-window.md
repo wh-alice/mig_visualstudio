@@ -1,5 +1,5 @@
 ---
-title: "Using the Tasks Window | Microsoft Docs"
+title: "Using the Tasks Window"
 ms.custom: ""
 ms.date: "10/24/2016"
 ms.prod: "visual-studio-dev14"

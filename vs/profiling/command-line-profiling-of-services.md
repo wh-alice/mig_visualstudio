@@ -1,5 +1,5 @@
 ---
-title: "Command-Line Profiling of Services | Microsoft Docs"
+title: "Command-Line Profiling of Services"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

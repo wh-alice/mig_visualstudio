@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio Graphics Diagnostics | Microsoft Docs"
+title: "Visual Studio Graphics Diagnostics"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

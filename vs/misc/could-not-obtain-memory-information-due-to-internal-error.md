@@ -1,5 +1,5 @@
 ---
-title: "Could not obtain memory information due to internal error | Microsoft Docs"
+title: "Could not obtain memory information due to internal error"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

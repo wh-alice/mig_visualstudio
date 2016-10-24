@@ -1,5 +1,5 @@
 ---
-title: "Unit testing Visual C# code in a Store app | Microsoft Docs"
+title: "Unit testing Visual C# code in a Store app"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

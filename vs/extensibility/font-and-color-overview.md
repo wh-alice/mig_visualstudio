@@ -1,5 +1,5 @@
 ---
-title: "Font and Color Overview | Microsoft Docs"
+title: "Font and Color Overview"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

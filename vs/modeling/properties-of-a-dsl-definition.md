@@ -1,5 +1,5 @@
 ---
-title: "Properties of a DSL Definition | Microsoft Docs"
+title: "Properties of a DSL Definition"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

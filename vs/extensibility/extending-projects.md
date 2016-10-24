@@ -1,5 +1,5 @@
 ---
-title: "Extending Projects | Microsoft Docs"
+title: "Extending Projects"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

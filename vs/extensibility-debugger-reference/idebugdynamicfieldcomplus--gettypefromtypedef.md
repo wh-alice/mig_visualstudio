@@ -1,5 +1,5 @@
 ---
-title: "IDebugDynamicFieldCOMPlus::GetTypeFromTypeDef | Microsoft Docs"
+title: "IDebugDynamicFieldCOMPlus::GetTypeFromTypeDef"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

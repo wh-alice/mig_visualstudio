@@ -1,5 +1,5 @@
 ---
-title: "IDebugProcess2::GetProcessId | Microsoft Docs"
+title: "IDebugProcess2::GetProcessId"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

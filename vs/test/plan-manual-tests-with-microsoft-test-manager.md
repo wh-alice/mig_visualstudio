@@ -1,5 +1,5 @@
 ---
-title: "Plan manual tests with Microsoft Test Manager | Microsoft Docs"
+title: "Plan manual tests with Microsoft Test Manager"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"

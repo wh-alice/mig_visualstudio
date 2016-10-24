@@ -1,5 +1,5 @@
 ---
-title: "Announcing Property Window Selection Tracking | Microsoft Docs"
+title: "Announcing Property Window Selection Tracking"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

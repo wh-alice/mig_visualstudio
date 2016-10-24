@@ -1,5 +1,5 @@
 ---
-title: "Character constant must contain exactly one character | Microsoft Docs"
+title: "Character constant must contain exactly one character"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "REFERENCE_TYPE | Microsoft Docs"
+title: "REFERENCE_TYPE"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

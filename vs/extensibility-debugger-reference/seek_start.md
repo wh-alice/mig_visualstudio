@@ -1,5 +1,5 @@
 ---
-title: "SEEK_START | Microsoft Docs"
+title: "SEEK_START"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
