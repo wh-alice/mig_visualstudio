@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB4143 | testtitle"
+title: "MSBuild Error MSB4143"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/24/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -41,6 +41,6 @@ translation.priority.mt:
 -   Make sure that the property follows the correct syntax to read a value from the registry. For example: `$(Registry:HKEY_LOCAL_MACHINE\Software\Microsoft\VisualStudio\8.0\MSBuild@MSBuildBinPath)`.  
   
 ## See Also
- [MSBuild Properties](../reference/msbuild-properties.md)  
- [Project Element (MSBuild)](../reference/project-element--msbuild-.md)   
- [Additional Resources](../reference/additional-msbuild-resources.md)
+ [MSBuild Properties](../msbuild/msbuild-properties.md)  
+ [Project Element (MSBuild)](../msbuild/project-element--msbuild-.md)   
+ [Additional Resources](../msbuild/additional-msbuild-resources.md)

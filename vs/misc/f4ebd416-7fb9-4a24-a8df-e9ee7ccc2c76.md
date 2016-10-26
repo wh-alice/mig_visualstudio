@@ -1,12 +1,12 @@
 ---
-title: "&#39;Structure&#39; constraint cannot be specified multiple times for the same type parameter | testtitle"
+title: "&#39;Structure&#39; constraint cannot be specified multiple times for the same type parameter"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC32102"
 ms.assetid: f4ebd416-7fb9-4a24-a8df-e9ee7ccc2c76
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

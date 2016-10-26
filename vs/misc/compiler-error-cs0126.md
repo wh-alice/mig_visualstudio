@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0126 | testtitle"
+title: "Compiler Error CS0126"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0126"
 ms.assetid: 15fb0f38-ac9d-4c09-a69f-398a4903d790
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

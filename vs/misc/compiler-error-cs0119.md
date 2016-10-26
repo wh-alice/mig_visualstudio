@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0119 | testtitle"
+title: "Compiler Error CS0119"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0119"
 ms.assetid: 048924f1-378f-4021-bd20-299d3218f810
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

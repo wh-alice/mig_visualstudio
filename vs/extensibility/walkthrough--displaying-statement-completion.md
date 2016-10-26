@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Displaying Statement Completion | testtitle"
+title: "Walkthrough: Displaying Statement Completion"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -73,38 +73,38 @@ You can implement language-based statement completion by defining the identifier
   
 2.  Add these imports:  
   
-     [!code[VSSDKCompletionTest#1](../extensibility/codesnippet/CSharp/walkthrough--displaying-statement-completion_1.cs)]
-[!code[VSSDKCompletionTest#1](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-statement-completion_1.vb)]  
+     [!code-cs[VSSDKCompletionTest#1](../extensibility/codesnippet/CSharp/walkthrough--displaying-statement-completion_1.cs)]
+     [!code-vb[VSSDKCompletionTest#1](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-statement-completion_1.vb)]  
   
 3.  Modify the class declaration for `TestCompletionSource` so that it implements <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionSource>:  
   
-     [!code[VSSDKCompletionTest#2](../extensibility/codesnippet/CSharp/walkthrough--displaying-statement-completion_2.cs)]
-[!code[VSSDKCompletionTest#2](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-statement-completion_2.vb)]  
+     [!code-cs[VSSDKCompletionTest#2](../extensibility/codesnippet/CSharp/walkthrough--displaying-statement-completion_2.cs)]
+     [!code-vb[VSSDKCompletionTest#2](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-statement-completion_2.vb)]  
   
 4.  Add private fields for the source provider, the text buffer, and a list of <xref:Microsoft.VisualStudio.Language.Intellisense.Completion> objects (which correspond to the identifiers that will participate in the completion session):  
   
-     [!code[VSSDKCompletionTest#3](../extensibility/codesnippet/CSharp/walkthrough--displaying-statement-completion_3.cs)]
-[!code[VSSDKCompletionTest#3](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-statement-completion_3.vb)]  
+     [!code-cs[VSSDKCompletionTest#3](../extensibility/codesnippet/CSharp/walkthrough--displaying-statement-completion_3.cs)]
+     [!code-vb[VSSDKCompletionTest#3](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-statement-completion_3.vb)]  
   
 5.  Add a constructor that sets the source provider and buffer. The `TestCompletionSourceProvider` class is defined in later steps:  
   
-     [!code[VSSDKCompletionTest#4](../extensibility/codesnippet/CSharp/walkthrough--displaying-statement-completion_4.cs)]
-[!code[VSSDKCompletionTest#4](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-statement-completion_4.vb)]  
+     [!code-cs[VSSDKCompletionTest#4](../extensibility/codesnippet/CSharp/walkthrough--displaying-statement-completion_4.cs)]
+     [!code-vb[VSSDKCompletionTest#4](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-statement-completion_4.vb)]  
   
 6.  Implement the <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionSource.AugmentCompletionSession*> method by adding a completion set that contains the completions you want to provide in the context. Each completion set contains a set of <xref:Microsoft.VisualStudio.Language.Intellisense.Completion> completions, and corresponds to a tab of the completion window. (In Visual Basic projects, the completion window tabs are named **Common** and **All**.) The FindTokenSpanAtPosition method is defined in the next step.  
   
-     [!code[VSSDKCompletionTest#5](../extensibility/codesnippet/CSharp/walkthrough--displaying-statement-completion_5.cs)]
-[!code[VSSDKCompletionTest#5](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-statement-completion_5.vb)]  
+     [!code-cs[VSSDKCompletionTest#5](../extensibility/codesnippet/CSharp/walkthrough--displaying-statement-completion_5.cs)]
+     [!code-vb[VSSDKCompletionTest#5](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-statement-completion_5.vb)]  
   
 7.  The following method is used to find the current word from the position of the cursor:  
   
-     [!code[VSSDKCompletionTest#6](../extensibility/codesnippet/CSharp/walkthrough--displaying-statement-completion_6.cs)]
-[!code[VSSDKCompletionTest#6](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-statement-completion_6.vb)]  
+     [!code-cs[VSSDKCompletionTest#6](../extensibility/codesnippet/CSharp/walkthrough--displaying-statement-completion_6.cs)]
+     [!code-vb[VSSDKCompletionTest#6](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-statement-completion_6.vb)]  
   
 8.  Implement the `Dispose()` method:  
   
-     [!code[VSSDKCompletionTest#7](../extensibility/codesnippet/CSharp/walkthrough--displaying-statement-completion_7.cs)]
-[!code[VSSDKCompletionTest#7](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-statement-completion_7.vb)]  
+     [!code-cs[VSSDKCompletionTest#7](../extensibility/codesnippet/CSharp/walkthrough--displaying-statement-completion_7.cs)]
+     [!code-vb[VSSDKCompletionTest#7](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-statement-completion_7.vb)]  
   
 ## Implementing the Completion Source Provider  
  The completion source provider is the MEF component part that instantiates the completion source.  
@@ -113,18 +113,18 @@ You can implement language-based statement completion by defining the identifier
   
 1.  Add a class named `TestCompletionSourceProvider` that implements <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionSourceProvider>. Export this class with a <xref:Microsoft.VisualStudio.Utilities.ContentTypeAttribute> of "plaintext" and a <xref:Microsoft.VisualStudio.Utilities.NameAttribute> of "test completion".  
   
-     [!code[VSSDKCompletionTest#8](../extensibility/codesnippet/CSharp/walkthrough--displaying-statement-completion_8.cs)]
-[!code[VSSDKCompletionTest#8](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-statement-completion_8.vb)]  
+     [!code-cs[VSSDKCompletionTest#8](../extensibility/codesnippet/CSharp/walkthrough--displaying-statement-completion_8.cs)]
+     [!code-vb[VSSDKCompletionTest#8](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-statement-completion_8.vb)]  
   
 2.  Import a <xref:Microsoft.VisualStudio.Text.Operations.ITextStructureNavigatorSelectorService>, which is used to find the current word in the completion source.  
   
-     [!code[VSSDKCompletionTest#9](../extensibility/codesnippet/CSharp/walkthrough--displaying-statement-completion_9.cs)]
-[!code[VSSDKCompletionTest#9](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-statement-completion_9.vb)]  
+     [!code-cs[VSSDKCompletionTest#9](../extensibility/codesnippet/CSharp/walkthrough--displaying-statement-completion_9.cs)]
+     [!code-vb[VSSDKCompletionTest#9](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-statement-completion_9.vb)]  
   
 3.  Implement the <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionSourceProvider.TryCreateCompletionSource*> method to instantiate the completion source.  
   
-     [!code[VSSDKCompletionTest#10](../extensibility/codesnippet/CSharp/walkthrough--displaying-statement-completion_10.cs)]
-[!code[VSSDKCompletionTest#10](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-statement-completion_10.vb)]  
+     [!code-cs[VSSDKCompletionTest#10](../extensibility/codesnippet/CSharp/walkthrough--displaying-statement-completion_10.cs)]
+     [!code-vb[VSSDKCompletionTest#10](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-statement-completion_10.vb)]  
   
 ## Implementing the Completion Command Handler Provider  
  The completion command handler provider is derived from a <xref:Microsoft.VisualStudio.Editor.IVsTextViewCreationListener>, which listens for a text view creation event and converts the view from an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView>—which enables the addition of the command to the command chain of the Visual Studio shell—to an <xref:Microsoft.VisualStudio.Text.Editor.ITextView>. Because this class is a MEF export, you can also use it to import the services that are required by the command handler itself.  
@@ -135,23 +135,23 @@ You can implement language-based statement completion by defining the identifier
   
 2.  Add these using statements:  
   
-     [!code[VSSDKCompletionTest#11](../extensibility/codesnippet/CSharp/walkthrough--displaying-statement-completion_11.cs)]
-[!code[VSSDKCompletionTest#11](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-statement-completion_11.vb)]  
+     [!code-cs[VSSDKCompletionTest#11](../extensibility/codesnippet/CSharp/walkthrough--displaying-statement-completion_11.cs)]
+     [!code-vb[VSSDKCompletionTest#11](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-statement-completion_11.vb)]  
   
 3.  Add a class named `TestCompletionHandlerProvider` that implements <xref:Microsoft.VisualStudio.Editor.IVsTextViewCreationListener>. Export this class with a <xref:Microsoft.VisualStudio.Utilities.NameAttribute> of "token completion handler", a <xref:Microsoft.VisualStudio.Utilities.ContentTypeAttribute> of "plaintext", and a <xref:Microsoft.VisualStudio.Text.Editor.TextViewRoleAttribute> of <xref:Microsoft.VisualStudio.Text.Editor.PredefinedTextViewRoles.Editable>.  
   
-     [!code[VSSDKCompletionTest#12](../extensibility/codesnippet/CSharp/walkthrough--displaying-statement-completion_12.cs)]
-[!code[VSSDKCompletionTest#12](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-statement-completion_12.vb)]  
+     [!code-cs[VSSDKCompletionTest#12](../extensibility/codesnippet/CSharp/walkthrough--displaying-statement-completion_12.cs)]
+     [!code-vb[VSSDKCompletionTest#12](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-statement-completion_12.vb)]  
   
 4.  Import the <xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService>, which enables conversion from a <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> to a <xref:Microsoft.VisualStudio.Text.Editor.ITextView>, a <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionBroker>, and a <xref:Microsoft.VisualStudio.Shell.SVsServiceProvider> that enables access to standard Visual Studio services.  
   
-     [!code[VSSDKCompletionTest#13](../extensibility/codesnippet/CSharp/walkthrough--displaying-statement-completion_13.cs)]
-[!code[VSSDKCompletionTest#13](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-statement-completion_13.vb)]  
+     [!code-cs[VSSDKCompletionTest#13](../extensibility/codesnippet/CSharp/walkthrough--displaying-statement-completion_13.cs)]
+     [!code-vb[VSSDKCompletionTest#13](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-statement-completion_13.vb)]  
   
 5.  Implement the <xref:Microsoft.VisualStudio.Editor.IVsTextViewCreationListener.VsTextViewCreated*> method to instantiate the command handler.  
   
-     [!code[VSSDKCompletionTest#14](../extensibility/codesnippet/CSharp/walkthrough--displaying-statement-completion_14.cs)]
-[!code[VSSDKCompletionTest#14](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-statement-completion_14.vb)]  
+     [!code-cs[VSSDKCompletionTest#14](../extensibility/codesnippet/CSharp/walkthrough--displaying-statement-completion_14.cs)]
+     [!code-vb[VSSDKCompletionTest#14](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-statement-completion_14.vb)]  
   
 ## Implementing the Completion Command Handler  
  Because statement completion is triggered by keystrokes, you must implement the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface to receive and process the keystrokes that trigger, commit, and dismiss the completion session.  
@@ -160,23 +160,23 @@ You can implement language-based statement completion by defining the identifier
   
 1.  Add a class named `TestCompletionCommandHandler` that implements <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>:  
   
-     [!code[VSSDKCompletionTest#15](../extensibility/codesnippet/CSharp/walkthrough--displaying-statement-completion_15.cs)]
-[!code[VSSDKCompletionTest#15](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-statement-completion_15.vb)]  
+     [!code-cs[VSSDKCompletionTest#15](../extensibility/codesnippet/CSharp/walkthrough--displaying-statement-completion_15.cs)]
+     [!code-vb[VSSDKCompletionTest#15](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-statement-completion_15.vb)]  
   
 2.  Add private fields for the next command handler (to which you pass the command), the text view, the command handler provider (which enables access to various services), and a completion session:  
   
-     [!code[VSSDKCompletionTest#16](../extensibility/codesnippet/CSharp/walkthrough--displaying-statement-completion_16.cs)]
-[!code[VSSDKCompletionTest#16](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-statement-completion_16.vb)]  
+     [!code-cs[VSSDKCompletionTest#16](../extensibility/codesnippet/CSharp/walkthrough--displaying-statement-completion_16.cs)]
+     [!code-vb[VSSDKCompletionTest#16](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-statement-completion_16.vb)]  
   
 3.  Add a constructor that sets the text view and the provider fields, and adds the command to the command chain:  
   
-     [!code[VSSDKCompletionTest#17](../extensibility/codesnippet/CSharp/walkthrough--displaying-statement-completion_17.cs)]
-[!code[VSSDKCompletionTest#17](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-statement-completion_17.vb)]  
+     [!code-cs[VSSDKCompletionTest#17](../extensibility/codesnippet/CSharp/walkthrough--displaying-statement-completion_17.cs)]
+     [!code-vb[VSSDKCompletionTest#17](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-statement-completion_17.vb)]  
   
 4.  Implement the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus*> method by passing the command along:  
   
-     [!code[VSSDKCompletionTest#18](../extensibility/codesnippet/CSharp/walkthrough--displaying-statement-completion_18.cs)]
-[!code[VSSDKCompletionTest#18](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-statement-completion_18.vb)]  
+     [!code-cs[VSSDKCompletionTest#18](../extensibility/codesnippet/CSharp/walkthrough--displaying-statement-completion_18.cs)]
+     [!code-vb[VSSDKCompletionTest#18](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-statement-completion_18.vb)]  
   
 5.  Implement the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.Exec*> method. When this method receives a keystroke, it must do one of these things:  
   
@@ -188,18 +188,18 @@ You can implement language-based statement completion by defining the identifier
   
      Because this method may display UI, call <xref:Microsoft.VisualStudio.Shell.VsShellUtilities.IsInAutomationFunction*> to make sure that it is not called in an automation context:  
   
-     [!code[VSSDKCompletionTest#19](../extensibility/codesnippet/CSharp/walkthrough--displaying-statement-completion_19.cs)]
-[!code[VSSDKCompletionTest#19](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-statement-completion_19.vb)]  
+     [!code-cs[VSSDKCompletionTest#19](../extensibility/codesnippet/CSharp/walkthrough--displaying-statement-completion_19.cs)]
+     [!code-vb[VSSDKCompletionTest#19](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-statement-completion_19.vb)]  
   
 6.  This code is a private method that triggers the completion session:  
   
-     [!code[VSSDKCompletionTest#20](../extensibility/codesnippet/CSharp/walkthrough--displaying-statement-completion_20.cs)]
-[!code[VSSDKCompletionTest#20](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-statement-completion_20.vb)]  
+     [!code-cs[VSSDKCompletionTest#20](../extensibility/codesnippet/CSharp/walkthrough--displaying-statement-completion_20.cs)]
+     [!code-vb[VSSDKCompletionTest#20](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-statement-completion_20.vb)]  
   
 7.  The next example is a private method that unsubscribes from the <xref:Microsoft.VisualStudio.Language.Intellisense.IIntellisenseSession.Dismissed> event:  
   
-     [!code[VSSDKCompletionTest#21](../extensibility/codesnippet/CSharp/walkthrough--displaying-statement-completion_21.cs)]
-[!code[VSSDKCompletionTest#21](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-statement-completion_21.vb)]  
+     [!code-cs[VSSDKCompletionTest#21](../extensibility/codesnippet/CSharp/walkthrough--displaying-statement-completion_21.cs)]
+     [!code-vb[VSSDKCompletionTest#21](../extensibility/codesnippet/VisualBasic/walkthrough--displaying-statement-completion_21.vb)]  
   
 ## Building and Testing the Code  
  To test this code, build the CompletionTest solution and run it in the experimental instance.  

@@ -1,5 +1,5 @@
 ---
-title: "CA1059: Members should not expose certain concrete types | testtitle"
+title: "CA1059: Members should not expose certain concrete types"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

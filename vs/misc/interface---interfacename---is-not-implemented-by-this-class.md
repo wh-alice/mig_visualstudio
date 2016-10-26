@@ -1,12 +1,12 @@
 ---
-title: "Interface &#39;&lt;interfacename&gt;&#39; is not implemented by this class | testtitle"
+title: "Interface &#39;&lt;interfacename&gt;&#39; is not implemented by this class"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC31035"
 ms.assetid: 99ddabb5-20e0-4cf6-a8d4-1ca91f3c7511
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

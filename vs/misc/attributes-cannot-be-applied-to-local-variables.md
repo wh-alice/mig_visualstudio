@@ -1,12 +1,12 @@
 ---
-title: "Attributes cannot be applied to local variables | testtitle"
+title: "Attributes cannot be applied to local variables"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30660"
 ms.assetid: f3af1843-bb80-4b6b-980a-5a233f9b1e33
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

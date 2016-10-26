@@ -1,5 +1,5 @@
 ---
-title: "IDebugCustomAttribute::GetAttributeBytes | testtitle"
+title: "IDebugCustomAttribute::GetAttributeBytes"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

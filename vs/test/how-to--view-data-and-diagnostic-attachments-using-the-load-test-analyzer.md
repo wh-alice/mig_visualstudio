@@ -1,5 +1,5 @@
 ---
-title: "How to: View Data and Diagnostic Attachments Using the Load Test Analyzer | testtitle"
+title: "How to: View Data and Diagnostic Attachments Using the Load Test Analyzer"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

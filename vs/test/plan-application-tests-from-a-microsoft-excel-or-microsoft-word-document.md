@@ -1,5 +1,5 @@
 ---
-title: "Plan application tests from a Microsoft Excel or Microsoft Word document | testtitle"
+title: "Plan application tests from a Microsoft Excel or Microsoft Word document"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"

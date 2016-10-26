@@ -1,5 +1,5 @@
 ---
-title: "How to: View, Save, and Configure Build Log Files | testtitle"
+title: "How to: View, Save, and Configure Build Log Files"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -31,7 +31,7 @@ translation.priority.ht:
 # How to: View, Save, and Configure Build Log Files
 After you build a project in the Visual Studio IDE, you can view information about that build in the **Output** window. By using this information, you can, for example, troubleshoot a build failure. For C++ projects, you can also view the same information in a .txt file that's created and saved automatically. For managed-code projects, you can copy and paste the information from the **Output** window into a .txt file and save it yourself. You can also use the IDE to specify what kinds of information you want to view about each build.  
   
- If you build any kind of project by using MSBuild, you can create a .txt file to save information about the build. For more information, see [Obtaining Build Logs](../reference/obtaining-build-logs-with-msbuild.md).  
+ If you build any kind of project by using MSBuild, you can create a .txt file to save information about the build. For more information, see [Obtaining Build Logs](../msbuild/obtaining-build-logs-with-msbuild.md).  
   
 ### To view the build log file for a C++ project  
   
@@ -61,12 +61,12 @@ After you build a project in the Visual Studio IDE, you can view information abo
     |Detailed|Displays a summary of the build; errors, warnings, and messages that are categorized as highly important; all of the steps of the build; and messages that are categorized as of normal importance.|  
     |Diagnostic|Displays all data that's available for the build. You can use this level of detail to help debug issues with custom build scripts and other build issues.|  
   
-     For more information, see [Options Dialog Box,  Projects and Solutions, Build and Run](../reference/options-dialog-box---projects-and-solutions--build-and-run.md) and <xref:Microsoft.Build.Framework.LoggerVerbosity>.  
+     For more information, see [Options Dialog Box,  Projects and Solutions, Build and Run](../ide-reference/options-dialog-box---projects-and-solutions--build-and-run.md) and <xref:Microsoft.Build.Framework.LoggerVerbosity>.  
   
     > [!IMPORTANT]
     >  You must rebuild the project for your changes to take effect in the **Output** window (all projects) and the *ProjectName*.txt file (C++ projects only).  
   
 ## See Also  
- [Obtaining Build Logs](../reference/obtaining-build-logs-with-msbuild.md)   
+ [Obtaining Build Logs](../msbuild/obtaining-build-logs-with-msbuild.md)   
  [Building and Cleaning Projects and Solutions in Visual Studio](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)   
  [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)

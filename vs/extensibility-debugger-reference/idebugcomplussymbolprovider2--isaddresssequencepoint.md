@@ -1,5 +1,5 @@
 ---
-title: "IDebugComPlusSymbolProvider2::IsAddressSequencePoint | testtitle"
+title: "IDebugComPlusSymbolProvider2::IsAddressSequencePoint"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

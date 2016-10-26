@@ -1,5 +1,5 @@
 ---
-title: "How to: Declare and Use Virtual Properties | testtitle"
+title: "How to: Declare and Use Virtual Properties"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

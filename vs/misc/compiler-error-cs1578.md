@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1578 | testtitle"
+title: "Compiler Error CS1578"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1578"
 ms.assetid: 8356cd33-5acc-4db7-8bbd-2d25f9d7728e
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

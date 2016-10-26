@@ -1,5 +1,5 @@
 ---
-title: "Customize Project Files Created by VSTU | testtitle"
+title: "Customize Project Files Created by VSTU"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

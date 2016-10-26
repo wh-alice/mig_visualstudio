@@ -1,5 +1,5 @@
 ---
-title: "CA1712: Do not prefix enum values with type name | testtitle"
+title: "CA1712: Do not prefix enum values with type name"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -60,9 +60,9 @@ translation.priority.mt:
 ## Example  
  The following example shows an incorrectly named enumeration followed by the corrected version.  
   
- [!code[FxCop.Naming.EnumValues#1](../code-quality/codesnippet/CSharp/ca1712--do-not-prefix-enum-values-with-type-name_1.cs)]
-[!code[FxCop.Naming.EnumValues#1](../code-quality/codesnippet/CPP/ca1712--do-not-prefix-enum-values-with-type-name_1.cpp)]
-[!code[FxCop.Naming.EnumValues#1](../code-quality/codesnippet/VisualBasic/ca1712--do-not-prefix-enum-values-with-type-name_1.vb)]  
+ [!code-cs[FxCop.Naming.EnumValues#1](../code-quality/codesnippet/CSharp/ca1712--do-not-prefix-enum-values-with-type-name_1.cs)]
+ [!code-cpp[FxCop.Naming.EnumValues#1](../code-quality/codesnippet/CPP/ca1712--do-not-prefix-enum-values-with-type-name_1.cpp)]
+ [!code-vb[FxCop.Naming.EnumValues#1](../code-quality/codesnippet/VisualBasic/ca1712--do-not-prefix-enum-values-with-type-name_1.vb)]  
   
 ## Related Rules  
  [CA1711: Identifiers should not have incorrect suffix](../code-quality/ca1711--identifiers-should-not-have-incorrect-suffix.md)  

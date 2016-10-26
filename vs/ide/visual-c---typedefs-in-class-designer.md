@@ -1,5 +1,5 @@
 ---
-title: "Visual C++ Typedefs in Class Designer | testtitle"
+title: "Visual C++ Typedefs in Class Designer"
 ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"

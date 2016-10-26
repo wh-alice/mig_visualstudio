@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Error MSB1006 | testtitle"
+title: "MSBuild Error MSB1006"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
@@ -43,5 +43,5 @@ translation.priority.mt:
 1.  Specify both the property name and the property value, for example, `/property:Configuration=Debug`.  
   
 ## See Also  
- [MSBuild Properties](../reference/msbuild-properties.md)  
- [Command-Line Reference](../reference/msbuild-command-line-reference.md)
+ [MSBuild Properties](../msbuild/msbuild-properties.md)  
+ [Command-Line Reference](../msbuild/msbuild-command-line-reference.md)

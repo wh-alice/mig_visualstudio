@@ -1,5 +1,5 @@
 ---
-title: "Local Data Overview | testtitle"
+title: "Local Data Overview"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"

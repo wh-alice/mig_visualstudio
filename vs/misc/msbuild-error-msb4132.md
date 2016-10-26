@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Error MSB4132 | testtitle"
+title: "MSBuild Error MSB4132"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -42,4 +42,4 @@ translation.priority.mt:
   
 ## See Also  
  <xref:Microsoft.Build.Tasks.MSBuild.ToolsVersion*>   
- [Additional Resources](../reference/additional-msbuild-resources.md)
+ [Additional Resources](../msbuild/additional-msbuild-resources.md)

@@ -1,12 +1,12 @@
 ---
-title: "Method &#39;&lt;methodname1&gt;&#39; must be declared &#39;Private&#39; in order to implement partial method &#39;&lt;methodname2&gt;&#39; | testtitle"
+title: "Method &#39;&lt;methodname1&gt;&#39; must be declared &#39;Private&#39; in order to implement partial method &#39;&lt;methodname2&gt;&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC31441"
 ms.assetid: 4d8d19ad-0c3b-4eba-ada8-2cfa6ae795c4
 caps.latest.revision: 5
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

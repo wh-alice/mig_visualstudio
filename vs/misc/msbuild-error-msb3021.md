@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Error MSB3021 | testtitle"
+title: "MSBuild Error MSB3021"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -43,5 +43,5 @@ translation.priority.mt:
 -   Check to see if the target file is locked (in use) by another application. Be sure you have permission to read the source file and to write the target file to the target folder. If the destination file path is extremely long, you may need to copy to a different location.  
   
 ## See Also  
- [Copy Task](../reference/copy-task.md)   
- [Tasks](../reference/msbuild-tasks.md)
+ [Copy Task](../msbuild/copy-task.md)   
+ [Tasks](../msbuild/msbuild-tasks.md)

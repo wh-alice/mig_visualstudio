@@ -1,20 +1,20 @@
 ---
-title: "Argument &#39;Per&#39; is not valid | testtitle"
+title: "Argument &#39;Per&#39; is not valid"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbrPPMT_PerGT0AndLTNPer"
 ms.assetid: 5f3fadba-d32c-4e52-b949-85a907e6c12f
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

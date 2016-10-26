@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 1) CS3004 | testtitle"
+title: "Compiler Warning (level 1) CS3004"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS3004"
 ms.assetid: 84aa3b44-42b7-4d31-82b8-386e56f88129
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

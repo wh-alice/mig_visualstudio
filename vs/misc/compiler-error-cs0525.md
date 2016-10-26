@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0525 | testtitle"
+title: "Compiler Error CS0525"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0525"
 ms.assetid: fcecfd4f-221f-41e6-a95c-1685be78926e
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

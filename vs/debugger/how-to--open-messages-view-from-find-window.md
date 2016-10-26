@@ -1,5 +1,5 @@
 ---
-title: "How to: Open Messages View from Find Window | testtitle"
+title: "How to: Open Messages View from Find Window"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

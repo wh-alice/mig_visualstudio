@@ -1,5 +1,5 @@
 ---
-title: "CA1815: Override equals and operator equals on value types | testtitle"
+title: "CA1815: Override equals and operator equals on value types"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -61,7 +61,7 @@ translation.priority.mt:
  The following example shows a structure (value type) that violates this rule.  
   
 ### Code  
- [!code[FxCop.Performance.OverrideEqualsViolation#1](../code-quality/codesnippet/CSharp/ca1815--override-equals-and-operator-equals-on-value-types_1.cs)]  
+ [!code-cs[FxCop.Performance.OverrideEqualsViolation#1](../code-quality/codesnippet/CSharp/ca1815--override-equals-and-operator-equals-on-value-types_1.cs)]  
   
 ## Example of How to Fix  
   
@@ -69,7 +69,7 @@ translation.priority.mt:
  The following example fixes the previous violation by overriding <xref:System.ValueType.Equals*?displayProperty=fullName> and implementing the equality operators (==, !=).  
   
 ### Code  
- [!code[FxCop.Performance.OverrideEqualsFixed#1](../code-quality/codesnippet/CSharp/ca1815--override-equals-and-operator-equals-on-value-types_2.cs)]  
+ [!code-cs[FxCop.Performance.OverrideEqualsFixed#1](../code-quality/codesnippet/CSharp/ca1815--override-equals-and-operator-equals-on-value-types_2.cs)]  
   
 ## Related Rules  
  [CA2224: Override equals on overloading operator equals](../code-quality/ca2224--override-equals-on-overloading-operator-equals.md)  

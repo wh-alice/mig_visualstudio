@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 1) CS3001 | testtitle"
+title: "Compiler Warning (level 1) CS3001"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS3001"
 ms.assetid: c4f3e247-5e47-4182-b415-c573fb1a152f
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

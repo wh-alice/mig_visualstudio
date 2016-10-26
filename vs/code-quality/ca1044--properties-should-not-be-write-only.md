@@ -1,5 +1,5 @@
 ---
-title: "CA1044: Properties should not be write only | testtitle"
+title: "CA1044: Properties should not be write only"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -57,5 +57,5 @@ translation.priority.ht:
 ## Example  
  In the following example, `BadClassWithWriteOnlyProperty` is a type with a write-only property. `GoodClassWithReadWriteProperty` contains the corrected code.  
   
- [!code[FxCop.Design.PropertiesNotWriteOnly#1](../code-quality/codesnippet/VisualBasic/ca1044--properties-should-not-be-write-only_1.vb)]
-[!code[FxCop.Design.PropertiesNotWriteOnly#1](../code-quality/codesnippet/CSharp/ca1044--properties-should-not-be-write-only_1.cs)]
+ [!code-vb[FxCop.Design.PropertiesNotWriteOnly#1](../code-quality/codesnippet/VisualBasic/ca1044--properties-should-not-be-write-only_1.vb)]
+ [!code-cs[FxCop.Design.PropertiesNotWriteOnly#1](../code-quality/codesnippet/CSharp/ca1044--properties-should-not-be-write-only_1.cs)]

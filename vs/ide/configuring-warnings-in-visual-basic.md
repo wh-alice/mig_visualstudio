@@ -1,5 +1,5 @@
 ---
-title: "Configuring Warnings in Visual Basic | testtitle"
+title: "Configuring Warnings in Visual Basic"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -135,5 +135,5 @@ The [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler includes 
  [Try...Catch...Finally Statement](../Topic/Try...Catch...Finally%20Statement%20\(Visual%20Basic\).md)   
  [/nowarn](../Topic/-nowarn.md)   
  [/warnaserror (Visual Basic)](../Topic/-warnaserror%20\(Visual%20Basic\).md)   
- [Compile Page, Project Designer (Visual Basic)](../reference/compile-page--project-designer--visual-basic-.md)   
+ [Compile Page, Project Designer (Visual Basic)](../ide-reference/compile-page--project-designer--visual-basic-.md)   
  [Compiler Warnings That Are Off by Default](../Topic/Compiler%20Warnings%20That%20Are%20Off%20by%20Default.md)

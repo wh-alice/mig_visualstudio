@@ -1,5 +1,5 @@
 ---
-title: "Mip-map Generation Variant | testtitle"
+title: "Mip-map Generation Variant"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

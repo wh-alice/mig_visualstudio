@@ -1,5 +1,5 @@
 ---
-title: "Dump File Summary Extensibility API | testtitle"
+title: "Dump File Summary Extensibility API"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1917 | testtitle"
+title: "Compiler Error CS1917"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1917"
 ms.assetid: 05688706-e4b4-4273-9244-48cce1f7f9b9
 caps.latest.revision: 6
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

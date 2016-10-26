@@ -1,5 +1,5 @@
 ---
-title: "Switch &lt;name&gt; does not allow a value. | testtitle"
+title: "Switch &lt;name&gt; does not allow a value."
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -40,4 +40,4 @@ This error generally occurs when a switch that does not allow a value is assigne
 1.  Re-enter the command, omitting a value for the switch.  
   
 ## See Also  
- [Visual Studio Commands](../reference/visual-studio-commands.md)
+ [Visual Studio Commands](../ide-reference/visual-studio-commands.md)

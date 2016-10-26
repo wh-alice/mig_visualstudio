@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1007 | testtitle"
+title: "Compiler Error CS1007"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1007"
 ms.assetid: b56ee2c6-8e79-4b9b-8c59-194bdb22bc3e
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

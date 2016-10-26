@@ -1,12 +1,12 @@
 ---
-title: "&#39;&lt;specifier&gt;&#39; is not valid on an interface method declaration | testtitle"
+title: "&#39;&lt;specifier&gt;&#39; is not valid on an interface method declaration"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30270"
 ms.assetid: 598f2944-3e5d-4686-b6f7-2b4bcaf5c211
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

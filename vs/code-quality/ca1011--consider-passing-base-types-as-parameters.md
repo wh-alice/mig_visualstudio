@@ -1,5 +1,5 @@
 ---
-title: "CA1011: Consider passing base types as parameters | testtitle"
+title: "CA1011: Consider passing base types as parameters"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -65,9 +65,9 @@ translation.priority.ht:
 ## Example  
  The following example shows a method, `ManipulateFileStream`, that can be used only with a <xref:System.IO.FileStream> object, which violates this rule. A second method, `ManipulateAnyStream`, satisfies the rule by replacing the <xref:System.IO.FileStream> parameter by using a <xref:System.IO.Stream>.  
   
- [!code[FxCop.Design.ConsiderPassingBaseTypes#1](../code-quality/codesnippet/CSharp/ca1011--consider-passing-base-types-as-parameters_1.cs)]
-[!code[FxCop.Design.ConsiderPassingBaseTypes#1](../code-quality/codesnippet/CPP/ca1011--consider-passing-base-types-as-parameters_1.cpp)]
-[!code[FxCop.Design.ConsiderPassingBaseTypes#1](../code-quality/codesnippet/VisualBasic/ca1011--consider-passing-base-types-as-parameters_1.vb)]  
+ [!code-cs[FxCop.Design.ConsiderPassingBaseTypes#1](../code-quality/codesnippet/CSharp/ca1011--consider-passing-base-types-as-parameters_1.cs)]
+ [!code-cpp[FxCop.Design.ConsiderPassingBaseTypes#1](../code-quality/codesnippet/CPP/ca1011--consider-passing-base-types-as-parameters_1.cpp)]
+ [!code-vb[FxCop.Design.ConsiderPassingBaseTypes#1](../code-quality/codesnippet/VisualBasic/ca1011--consider-passing-base-types-as-parameters_1.vb)]  
   
 ## Related Rules  
  [CA1059: Members should not expose certain concrete types](../code-quality/ca1059--members-should-not-expose-certain-concrete-types.md)

@@ -1,12 +1,12 @@
 ---
-title: "Type &#39;&lt;typename&gt;&#39; cannot inherit from a type nested within it | testtitle"
+title: "Type &#39;&lt;typename&gt;&#39; cannot inherit from a type nested within it"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30908"
 ms.assetid: bca164b2-a4a9-4ed4-9f71-a9a5a42f181a
 caps.latest.revision: 13
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

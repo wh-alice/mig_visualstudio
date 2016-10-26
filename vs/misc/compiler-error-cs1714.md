@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1714 | testtitle"
+title: "Compiler Error CS1714"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1714"
 ms.assetid: d6006107-fe10-4042-8c9b-589e2283f2b7
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

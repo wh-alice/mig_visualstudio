@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 2) CS1572 | testtitle"
+title: "Compiler Warning (level 2) CS1572"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1572"
 ms.assetid: 24bc8b96-29d2-4201-bc4e-6b9b5a4f5a1d
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

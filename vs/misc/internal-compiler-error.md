@@ -1,12 +1,12 @@
 ---
-title: "Internal compiler error | testtitle"
+title: "Internal compiler error"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30747"
 ms.assetid: aab4927d-2e2b-42a5-a31c-4d1d6e61216d
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0153 | testtitle"
+title: "Compiler Error CS0153"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0153"
 ms.assetid: 3a0791e9-0ab9-4eaa-a230-d39aabaa9d5d
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

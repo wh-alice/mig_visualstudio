@@ -1,5 +1,5 @@
 ---
-title: "Collecting tier interaction data | testtitle"
+title: "Collecting tier interaction data"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

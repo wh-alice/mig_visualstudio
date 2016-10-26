@@ -1,20 +1,20 @@
 ---
-title: "Type of argument &#39;&lt;argumentname&gt;&#39; is &#39;&lt;typename&gt;&#39;, which is not numeric | testtitle"
+title: "Type of argument &#39;&lt;argumentname&gt;&#39; is &#39;&lt;typename&gt;&#39;, which is not numeric"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbrArgument_NotNumericType2"
 ms.assetid: 6eca32a6-9a44-4f05-8791-abdb4cb316d2
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

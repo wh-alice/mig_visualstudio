@@ -1,12 +1,12 @@
 ---
-title: "&#39;&lt;name&gt;&#39; is ambiguous in the application objects &#39;&lt;list&gt;&#39; | testtitle"
+title: "&#39;&lt;name&gt;&#39; is ambiguous in the application objects &#39;&lt;list&gt;&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30563"
 ms.assetid: 965c1570-6297-47b5-b41e-e2dd68b034f0
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

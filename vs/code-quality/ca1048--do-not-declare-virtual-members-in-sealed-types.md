@@ -1,5 +1,5 @@
 ---
-title: "CA1048: Do not declare virtual members in sealed types | testtitle"
+title: "CA1048: Do not declare virtual members in sealed types"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -59,4 +59,4 @@ translation.priority.ht:
 ## Example  
  The following example shows a type that violates this rule.  
   
- [!code[FxCop.Design.SealedVirtual#1](../code-quality/codesnippet/CPP/ca1048--do-not-declare-virtual-members-in-sealed-types_1.cpp)]
+ [!code-cpp[FxCop.Design.SealedVirtual#1](../code-quality/codesnippet/CPP/ca1048--do-not-declare-virtual-members-in-sealed-types_1.cpp)]

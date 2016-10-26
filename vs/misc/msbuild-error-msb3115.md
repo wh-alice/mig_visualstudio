@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Error MSB3115 | testtitle"
+title: "MSBuild Error MSB3115"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

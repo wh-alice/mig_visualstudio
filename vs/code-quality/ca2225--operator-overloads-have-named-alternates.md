@@ -1,5 +1,5 @@
 ---
-title: "CA2225: Operator overloads have named alternates | testtitle"
+title: "CA2225: Operator overloads have named alternates"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -104,7 +104,7 @@ translation.priority.ht:
 ## Example  
  The following example defines a structure that violates this rule. To correct the example, add a public `Add(int x, int y)` method to the structure.  
   
- [!code[FxCop.Usage.OperatorOverloadsHaveNamedAlternates#1](../code-quality/codesnippet/CSharp/ca2225--operator-overloads-have-named-alternates_1.cs)]  
+ [!code-cs[FxCop.Usage.OperatorOverloadsHaveNamedAlternates#1](../code-quality/codesnippet/CSharp/ca2225--operator-overloads-have-named-alternates_1.cs)]  
   
 ## Related Rules  
  [CA1046: Do not overload operator equals on reference types](../code-quality/ca1046--do-not-overload-operator-equals-on-reference-types.md)  

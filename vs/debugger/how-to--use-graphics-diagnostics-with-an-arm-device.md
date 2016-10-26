@@ -1,5 +1,5 @@
 ---
-title: "How to: Use Graphics Diagnostics with an ARM Device | testtitle"
+title: "How to: Use Graphics Diagnostics with an ARM Device"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

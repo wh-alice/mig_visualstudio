@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0712 | testtitle"
+title: "Compiler Error CS0712"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0712"
 ms.assetid: cde64c0c-3953-4563-8c24-8b646230bbb8
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

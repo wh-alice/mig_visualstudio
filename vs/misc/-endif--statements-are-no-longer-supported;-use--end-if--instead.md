@@ -1,12 +1,12 @@
 ---
-title: "&#39;EndIf&#39; statements are no longer supported; use &#39;End If&#39; instead | testtitle"
+title: "&#39;EndIf&#39; statements are no longer supported; use &#39;End If&#39; instead"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30826"
 ms.assetid: c2a22a46-91f5-45bd-a525-235df1998f6f
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

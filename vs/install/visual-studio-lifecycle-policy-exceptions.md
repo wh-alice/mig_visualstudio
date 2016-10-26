@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio Lifecycle Policy Exceptions | testtitle"
+title: "Visual Studio Lifecycle Policy Exceptions"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

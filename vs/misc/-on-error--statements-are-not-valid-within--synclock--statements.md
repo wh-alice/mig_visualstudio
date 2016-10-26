@@ -1,12 +1,12 @@
 ---
-title: "&#39;On Error&#39; statements are not valid within &#39;SyncLock&#39; statements | testtitle"
+title: "&#39;On Error&#39; statements are not valid within &#39;SyncLock&#39; statements"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30752"
 ms.assetid: 5c726627-b0fc-4edf-bd29-a83a0009f44d
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

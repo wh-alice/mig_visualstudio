@@ -1,5 +1,5 @@
 ---
-title: "Load Test Analyzer Overview | testtitle"
+title: "Load Test Analyzer Overview"
 ms.custom: ""
 ms.date: "10/13/2016"
 ms.prod: "visual-studio-tfs-dev14"

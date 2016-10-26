@@ -1,12 +1,12 @@
 ---
-title: "&#39;End Property&#39; must be preceded by a matching &#39;Property&#39; | testtitle"
+title: "&#39;End Property&#39; must be preceded by a matching &#39;Property&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30431"
 ms.assetid: b1e02d97-b38a-4acf-b351-1726f17a0051
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

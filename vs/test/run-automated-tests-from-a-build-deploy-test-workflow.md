@@ -1,5 +1,5 @@
 ---
-title: "Run automated tests from a build-deploy-test workflow | testtitle"
+title: "Run automated tests from a build-deploy-test workflow"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

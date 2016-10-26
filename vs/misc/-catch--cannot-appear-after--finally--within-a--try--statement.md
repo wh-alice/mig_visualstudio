@@ -1,12 +1,12 @@
 ---
-title: "&#39;Catch&#39; cannot appear after &#39;Finally&#39; within a &#39;Try&#39; statement | testtitle"
+title: "&#39;Catch&#39; cannot appear after &#39;Finally&#39; within a &#39;Try&#39; statement"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30379"
 ms.assetid: 33d1278b-cf10-4c66-aaf8-08a4372f370b
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

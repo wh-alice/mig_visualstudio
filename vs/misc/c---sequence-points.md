@@ -1,5 +1,5 @@
 ---
-title: "C++ Sequence Points | testtitle"
+title: "C++ Sequence Points"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

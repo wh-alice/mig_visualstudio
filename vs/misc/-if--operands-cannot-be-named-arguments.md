@@ -1,12 +1,12 @@
 ---
-title: "&#39;If&#39; operands cannot be named arguments | testtitle"
+title: "&#39;If&#39; operands cannot be named arguments"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC33105"
 ms.assetid: 596baeb6-a44f-4d92-beb7-06624b60c00d
 caps.latest.revision: 6
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

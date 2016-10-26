@@ -1,5 +1,5 @@
 ---
-title: "marker_series::~marker_series Destructor | testtitle"
+title: "marker_series::~marker_series Destructor"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

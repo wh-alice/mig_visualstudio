@@ -1,5 +1,5 @@
 ---
-title: "Guidance for Creating and Managing SCVMM Environments | testtitle"
+title: "Guidance for Creating and Managing SCVMM Environments"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

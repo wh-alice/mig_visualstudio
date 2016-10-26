@@ -1,12 +1,12 @@
 ---
-title: "Friend declaration &lt;declaration&gt; is invalid and cannot be resolved | testtitle"
+title: "Friend declaration &lt;declaration&gt; is invalid and cannot be resolved"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC31537"
 ms.assetid: a5b88d90-ce11-44cb-8df2-457f661a553b
 caps.latest.revision: 4
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

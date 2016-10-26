@@ -1,7 +1,7 @@
 ---
-title: "Tool Window Display Configuration | testtitle"
+title: "Tool Window Display Configuration"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

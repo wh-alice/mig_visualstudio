@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0586 | testtitle"
+title: "Compiler Error CS0586"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0586"
 ms.assetid: cda1f0ea-8118-4da1-b37f-51be7da71cb8
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

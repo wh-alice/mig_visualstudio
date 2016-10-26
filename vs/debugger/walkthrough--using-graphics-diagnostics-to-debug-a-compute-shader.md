@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Using Graphics Diagnostics to Debug a Compute Shader | testtitle"
+title: "Walkthrough: Using Graphics Diagnostics to Debug a Compute Shader"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

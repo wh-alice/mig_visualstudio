@@ -1,12 +1,12 @@
 ---
-title: "&#39;Get&#39; statement must end with a matching &#39;End Get&#39; | testtitle"
+title: "&#39;Get&#39; statement must end with a matching &#39;End Get&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30631"
 ms.assetid: de7ca4a2-9951-4ac1-897a-aca78e89133f
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

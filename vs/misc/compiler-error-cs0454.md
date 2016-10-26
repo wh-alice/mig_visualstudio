@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0454 | testtitle"
+title: "Compiler Error CS0454"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0454"
 ms.assetid: 2c83bc5e-53bb-473e-92aa-5122dadd79d1
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

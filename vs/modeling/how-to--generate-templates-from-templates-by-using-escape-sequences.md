@@ -1,5 +1,5 @@
 ---
-title: "How to: Generate Templates from Templates By Using Escape Sequences | testtitle"
+title: "How to: Generate Templates from Templates By Using Escape Sequences"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

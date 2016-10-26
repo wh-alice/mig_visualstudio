@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Exceptions: System.IndexOutOfRangeException | testtitle"
+title: "Troubleshooting Exceptions: System.IndexOutOfRangeException"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

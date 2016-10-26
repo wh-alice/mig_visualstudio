@@ -1,5 +1,5 @@
 ---
-title: "Application Properties | testtitle"
+title: "Application Properties"
 ms.custom: ""
 ms.date: "10/22/2016"
 ms.prod: "visual-studio-dev14"
@@ -67,8 +67,8 @@ You can set general application properties for Visual Basic, C#, and F# applicat
  [How to: Specify an Application Icon (Visual Basic, C#)](../ide/how-to--specify-an-application-icon--visual-basic--csharp-.md)  
   
 ## See Also  
- [Application Page, Project Designer (Visual Basic)](../reference/application-page--project-designer--visual-basic-.md)   
- [Application Page, Project Designer (C#)](../reference/application-page--project-designer--csharp-.md)   
+ [Application Page, Project Designer (Visual Basic)](../ide-reference/application-page--project-designer--visual-basic-.md)   
+ [Application Page, Project Designer (C#)](../ide-reference/application-page--project-designer--csharp-.md)   
  [Introduction to the Project Designer](http://msdn.microsoft.com/en-us/898dd854-c98d-430c-ba1b-a913ce3c73d7)   
  [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)   
  [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)   

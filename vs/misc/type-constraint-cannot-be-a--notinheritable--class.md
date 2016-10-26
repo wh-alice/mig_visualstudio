@@ -1,12 +1,12 @@
 ---
-title: "Type constraint cannot be a &#39;NotInheritable&#39; class | testtitle"
+title: "Type constraint cannot be a &#39;NotInheritable&#39; class"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC32060"
 ms.assetid: f45cc0b6-7df1-462a-b3df-c526c143e16a
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

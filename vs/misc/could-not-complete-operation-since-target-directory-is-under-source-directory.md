@@ -1,20 +1,20 @@
 ---
-title: "Could not complete operation since target directory is under source directory | testtitle"
+title: "Could not complete operation since target directory is under source directory"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbrIO_CyclicOperation"
 ms.assetid: 850d3a24-5d51-4ac8-a912-630efcd75278
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

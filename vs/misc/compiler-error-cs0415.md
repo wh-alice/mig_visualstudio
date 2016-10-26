@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0415 | testtitle"
+title: "Compiler Error CS0415"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0415"
 ms.assetid: 1ed45b02-4568-4af4-b2a6-c8b01230d19a
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

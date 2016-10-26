@@ -1,12 +1,12 @@
 ---
-title: "Methods declared in structures cannot have &#39;Handles&#39; clauses | testtitle"
+title: "Methods declared in structures cannot have &#39;Handles&#39; clauses"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30728"
 ms.assetid: 64c70bb5-3696-4865-8194-328394c2b4b1
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

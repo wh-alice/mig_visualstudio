@@ -1,5 +1,5 @@
 ---
-title: "Domain Path Syntax | testtitle"
+title: "Domain Path Syntax"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

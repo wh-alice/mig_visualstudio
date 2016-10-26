@@ -1,5 +1,5 @@
 ---
-title: "How to: Use the Animation Region of the Status Bar | testtitle"
+title: "How to: Use the Animation Region of the Status Bar"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
@@ -46,8 +46,8 @@ The Animation region of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md
 ## Example  
  This example demonstrates how to run a built-in animation in the Animation region.  
   
- [!code[VSSDKAnimationStatusBar#1](../misc/codesnippet/CSharp/how-to--use-the-animation-region-of-the-status-bar_1.cs)]
-[!code[VSSDKAnimationStatusBar#1](../misc/codesnippet/VisualBasic/how-to--use-the-animation-region-of-the-status-bar_1.vb)]  
+ [!code-cs[VSSDKAnimationStatusBar#1](../misc/codesnippet/CSharp/how-to--use-the-animation-region-of-the-status-bar_1.cs)]
+ [!code-vb[VSSDKAnimationStatusBar#1](../misc/codesnippet/VisualBasic/how-to--use-the-animation-region-of-the-status-bar_1.vb)]  
   
 ## See Also  
  [Extending the Status Bar](../extensibility/extending-the-status-bar.md)   

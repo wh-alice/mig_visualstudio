@@ -1,12 +1,12 @@
 ---
-title: "Operators cannot be declared in Modules | testtitle"
+title: "Operators cannot be declared in Modules"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC33018"
 ms.assetid: 10a8fd2d-2af7-4f90-9f2a-50c07ebf7589
 caps.latest.revision: 11
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,12 +1,12 @@
 ---
-title: "Error embedding Win32 manifest: Manifest File &lt;file&gt; cannot be found | testtitle"
+title: "Error embedding Win32 manifest: Manifest File &lt;file&gt; cannot be found"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC31192"
 ms.assetid: 18c3bc29-b4e6-4e1b-89df-1b54bc12274f
 caps.latest.revision: 4
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

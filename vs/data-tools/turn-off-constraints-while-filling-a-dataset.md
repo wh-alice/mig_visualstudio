@@ -1,5 +1,5 @@
 ---
-title: "Turn off constraints while filling a dataset | testtitle"
+title: "Turn off constraints while filling a dataset"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
@@ -53,8 +53,8 @@ If a dataset contains constraints (such as foreign-key constraints),theycan rais
   
 -   The following example shows how to temporarily turn off constraint checking in a dataset:  
   
-     [!code[VbRaddataEditing#10](../data-tools/codesnippet/CSharp/turn-off-constraints-while-filling-a-dataset_1.cs)]
-[!code[VbRaddataEditing#10](../data-tools/codesnippet/VisualBasic/turn-off-constraints-while-filling-a-dataset_1.vb)]  
+     [!code-cs[VbRaddataEditing#10](../data-tools/codesnippet/CSharp/turn-off-constraints-while-filling-a-dataset_1.cs)]
+     [!code-vb[VbRaddataEditing#10](../data-tools/codesnippet/VisualBasic/turn-off-constraints-while-filling-a-dataset_1.vb)]  
   
 ### To suspend update constraints using the Dataset Designer  
   

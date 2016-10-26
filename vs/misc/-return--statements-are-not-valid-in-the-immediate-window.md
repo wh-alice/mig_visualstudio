@@ -1,12 +1,12 @@
 ---
-title: "&#39;Return&#39; statements are not valid in the Immediate window | testtitle"
+title: "&#39;Return&#39; statements are not valid in the Immediate window"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30147"
 ms.assetid: ed3647ce-1450-4c60-96c6-2bfe49cf62d5
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -44,4 +44,4 @@ The `Return` statement performs branching and is not permitted in a debugging co
 -   Do not issue a `Return` statement in the **Immediate** window.  
   
 ## See Also  
- [Immediate Window](../reference/immediate-window.md)
+ [Immediate Window](../ide-reference/immediate-window.md)

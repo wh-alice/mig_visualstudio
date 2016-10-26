@@ -1,5 +1,5 @@
 ---
-title: "CA1721: Property names should not match get methods | testtitle"
+title: "CA1721: Property names should not match get methods"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -63,8 +63,8 @@ translation.priority.mt:
 ## Example  
  The following example contains a method and property that violate this rule.  
   
- [!code[FxCop.Naming.GetMethod#1](../code-quality/codesnippet/CSharp/ca1721--property-names-should-not-match-get-methods_1.cs)]
-[!code[FxCop.Naming.GetMethod#1](../code-quality/codesnippet/VisualBasic/ca1721--property-names-should-not-match-get-methods_1.vb)]  
+ [!code-cs[FxCop.Naming.GetMethod#1](../code-quality/codesnippet/CSharp/ca1721--property-names-should-not-match-get-methods_1.cs)]
+ [!code-vb[FxCop.Naming.GetMethod#1](../code-quality/codesnippet/VisualBasic/ca1721--property-names-should-not-match-get-methods_1.vb)]  
   
 ## Related Rules  
  [CA1024: Use properties where appropriate](../code-quality/ca1024--use-properties-where-appropriate.md)

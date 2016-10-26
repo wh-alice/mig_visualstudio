@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0011 | testtitle"
+title: "Compiler Error CS0011"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0011"
 ms.assetid: 892553d7-a516-4631-84cd-94db5722c90d
 caps.latest.revision: 18
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

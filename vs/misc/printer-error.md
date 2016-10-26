@@ -1,20 +1,20 @@
 ---
-title: "Printer error | testtitle"
+title: "Printer error"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbrID482"
 ms.assetid: 0ce0c4b3-3604-4638-9363-6c9333d0cc9d
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

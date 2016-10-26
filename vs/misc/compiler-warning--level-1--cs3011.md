@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 1) CS3011 | testtitle"
+title: "Compiler Warning (level 1) CS3011"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS3011"
 ms.assetid: e27ce521-0147-488b-b4a1-1b6fb5168661
 caps.latest.revision: 11
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

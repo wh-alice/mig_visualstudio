@@ -1,12 +1,12 @@
 ---
-title: "Extension methods must declare at least one parameter | testtitle"
+title: "Extension methods must declare at least one parameter"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC36552"
 ms.assetid: a8cc8cdd-cdb5-42ca-b5a1-c9a71abd46eb
 caps.latest.revision: 15
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

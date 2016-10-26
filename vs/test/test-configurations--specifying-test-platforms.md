@@ -1,5 +1,5 @@
 ---
-title: "Test configurations: specifying test platforms | testtitle"
+title: "Test configurations: specifying test platforms"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"

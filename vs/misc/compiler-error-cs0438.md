@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0438 | testtitle"
+title: "Compiler Error CS0438"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0438"
 ms.assetid: 92c91ecb-8d6a-4850-84eb-c095c3c957f1
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

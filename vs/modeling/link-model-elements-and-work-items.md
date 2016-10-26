@@ -1,5 +1,5 @@
 ---
-title: "Link model elements and work items | testtitle"
+title: "Link model elements and work items"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

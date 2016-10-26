@@ -1,5 +1,5 @@
 ---
-title: "VSG_NODEFAULT_INSTANCE | testtitle"
+title: "VSG_NODEFAULT_INSTANCE"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

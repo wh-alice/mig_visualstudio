@@ -1,5 +1,5 @@
 ---
-title: "How to: Publish a Project That Has a Specific Locale | testtitle"
+title: "How to: Publish a Project That Has a Specific Locale"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

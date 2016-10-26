@@ -1,5 +1,5 @@
 ---
-title: "Collecting Application Statistics for Stand-Alone Applications by Using the Profiler Command Line | testtitle"
+title: "Collecting Application Statistics for Stand-Alone Applications by Using the Profiler Command Line"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

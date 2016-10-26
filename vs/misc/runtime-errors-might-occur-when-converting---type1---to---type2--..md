@@ -1,12 +1,12 @@
 ---
-title: "Runtime errors might occur when converting &#39;&lt;type1&gt;&#39; to &#39;&lt;type2&gt;&#39;. | testtitle"
+title: "Runtime errors might occur when converting &#39;&lt;type1&gt;&#39; to &#39;&lt;type2&gt;&#39;."
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC42322"
 ms.assetid: 6aabd280-b361-4a18-b743-2beeef90f978
 caps.latest.revision: 3
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

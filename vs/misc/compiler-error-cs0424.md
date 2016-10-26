@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0424 | testtitle"
+title: "Compiler Error CS0424"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0424"
 ms.assetid: 09ae482c-255a-4f99-8dc8-ba31c3ea8c71
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

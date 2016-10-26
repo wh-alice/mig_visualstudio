@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0452 | testtitle"
+title: "Compiler Error CS0452"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0452"
 ms.assetid: 50a87734-fe07-4bce-891d-a76e131db6cc
 caps.latest.revision: 12
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

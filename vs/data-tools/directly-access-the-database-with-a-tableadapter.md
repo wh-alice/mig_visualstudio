@@ -1,5 +1,5 @@
 ---
-title: "Directly access the database with a TableAdapter | testtitle"
+title: "Directly access the database with a TableAdapter"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
@@ -59,8 +59,8 @@ In addition to the `InsertCommand`, `UpdateCommand`, and `DeleteCommand`, TableA
     > [!NOTE]
     >  If you do not have an instance available, instantiate the TableAdapter that you want to use.  
   
-     [!code[VbRaddataSaving#15](../data-tools/codesnippet/VisualBasic/directly-access-the-database-with-a-tableadapter_1.vb)]
-[!code[VbRaddataSaving#15](../data-tools/codesnippet/CSharp/directly-access-the-database-with-a-tableadapter_1.cs)]  
+     [!code-vb[VbRaddataSaving#15](../data-tools/codesnippet/VisualBasic/directly-access-the-database-with-a-tableadapter_1.vb)]
+     [!code-cs[VbRaddataSaving#15](../data-tools/codesnippet/CSharp/directly-access-the-database-with-a-tableadapter_1.cs)]  
   
 #### To update records directly in a database  
   
@@ -69,8 +69,8 @@ In addition to the `InsertCommand`, `UpdateCommand`, and `DeleteCommand`, TableA
     > [!NOTE]
     >  If you do not have an instance available, instantiate the TableAdapter that you want to use.  
   
-     [!code[VbRaddataSaving#18](../data-tools/codesnippet/VisualBasic/directly-access-the-database-with-a-tableadapter_2.vb)]
-[!code[VbRaddataSaving#18](../data-tools/codesnippet/CSharp/directly-access-the-database-with-a-tableadapter_2.cs)]  
+     [!code-vb[VbRaddataSaving#18](../data-tools/codesnippet/VisualBasic/directly-access-the-database-with-a-tableadapter_2.vb)]
+     [!code-cs[VbRaddataSaving#18](../data-tools/codesnippet/CSharp/directly-access-the-database-with-a-tableadapter_2.cs)]  
   
 #### To delete records directly from a database  
   
@@ -79,8 +79,8 @@ In addition to the `InsertCommand`, `UpdateCommand`, and `DeleteCommand`, TableA
     > [!NOTE]
     >  If you do not have an instance available, instantiate the TableAdapter that you want to use.  
   
-     [!code[VbRaddataSaving#21](../data-tools/codesnippet/VisualBasic/directly-access-the-database-with-a-tableadapter_3.vb)]
-[!code[VbRaddataSaving#21](../data-tools/codesnippet/CSharp/directly-access-the-database-with-a-tableadapter_3.cs)]  
+     [!code-vb[VbRaddataSaving#21](../data-tools/codesnippet/VisualBasic/directly-access-the-database-with-a-tableadapter_3.vb)]
+     [!code-cs[VbRaddataSaving#21](../data-tools/codesnippet/CSharp/directly-access-the-database-with-a-tableadapter_3.cs)]  
   
 ## See Also  
  [Fill datasets by using TableAdapters](../data-tools/fill-datasets-by-using-tableadapters.md)

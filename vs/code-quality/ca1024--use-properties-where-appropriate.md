@@ -1,5 +1,5 @@
 ---
-title: "CA1024: Use properties where appropriate | testtitle"
+title: "CA1024: Use properties where appropriate"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -129,4 +129,4 @@ namespace Microsoft.Samples
 ## Example  
  The following example contains several methods that should be converted to properties, and several that should not because they do not behave like fields.  
   
- [!code[FxCop.Design.MethodsProperties#1](../code-quality/codesnippet/CSharp/ca1024--use-properties-where-appropriate_1.cs)]
+ [!code-cs[FxCop.Design.MethodsProperties#1](../code-quality/codesnippet/CSharp/ca1024--use-properties-where-appropriate_1.cs)]

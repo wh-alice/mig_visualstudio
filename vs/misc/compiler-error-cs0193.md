@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0193 | testtitle"
+title: "Compiler Error CS0193"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0193"
 ms.assetid: 7b60fd99-9eee-4d61-ad75-585a16e22e96
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

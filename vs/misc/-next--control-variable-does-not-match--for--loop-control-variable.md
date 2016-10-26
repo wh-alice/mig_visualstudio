@@ -1,12 +1,12 @@
 ---
-title: "&#39;Next&#39; control variable does not match &#39;For&#39; loop control variable | testtitle"
+title: "&#39;Next&#39; control variable does not match &#39;For&#39; loop control variable"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30976"
 ms.assetid: 87c2d464-43bf-426f-b78b-7bc07ba171e6
 caps.latest.revision: 4
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

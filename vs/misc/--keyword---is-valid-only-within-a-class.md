@@ -1,12 +1,12 @@
 ---
-title: "&#39;&lt;keyword&gt;&#39; is valid only within a class | testtitle"
+title: "&#39;&lt;keyword&gt;&#39; is valid only within a class"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC32002"
 ms.assetid: 773d8d50-abb8-4257-83a5-6e017c199d82
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

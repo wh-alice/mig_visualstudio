@@ -1,5 +1,5 @@
 ---
-title: "CA1003: Use generic event handler instances | testtitle"
+title: "CA1003: Use generic event handler instances"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -57,13 +57,13 @@ translation.priority.ht:
 ## Example  
  The following example shows a delegate that violates the rule. In the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] example, comments describe how to modify the example to satisfy the rule. For the C# example, an example follows that shows the modified code.  
   
- [!code[FxCop.Design.CustomEventHandler#1](../code-quality/codesnippet/VisualBasic/ca1003--use-generic-event-handler-instances_1.vb)]
-[!code[FxCop.Design.CustomEventHandler#1](../code-quality/codesnippet/CSharp/ca1003--use-generic-event-handler-instances_1.cs)]  
+ [!code-vb[FxCop.Design.CustomEventHandler#1](../code-quality/codesnippet/VisualBasic/ca1003--use-generic-event-handler-instances_1.vb)]
+ [!code-cs[FxCop.Design.CustomEventHandler#1](../code-quality/codesnippet/CSharp/ca1003--use-generic-event-handler-instances_1.cs)]  
   
 ## Example  
  The following example removes the delegate declaration from the previous example, which satisfies the rule, and replaces its use in the `ClassThatRaisesEvent` and `ClassThatHandlesEvent` methods by using the <xref:System.EventHandler`1?displayProperty=fullName> delegate.  
   
- [!code[FxCop.Design.GenericEventHandler#1](../code-quality/codesnippet/CSharp/ca1003--use-generic-event-handler-instances_2.cs)]  
+ [!code-cs[FxCop.Design.GenericEventHandler#1](../code-quality/codesnippet/CSharp/ca1003--use-generic-event-handler-instances_2.cs)]  
   
 ## Related Rules  
  [CA1005: Avoid excessive parameters on generic types](../code-quality/ca1005--avoid-excessive-parameters-on-generic-types.md)  

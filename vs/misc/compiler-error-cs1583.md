@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1583 | testtitle"
+title: "Compiler Error CS1583"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1583"
 ms.assetid: e8ae63bc-f1ef-47e0-be9f-8c49e65a9122
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -41,4 +41,4 @@ translation.priority.mt:
  This error occurs when you specify a filename with the [/win32res](../Topic/-win32res%20\(C%23%20Compiler%20Options\).md) compiler option that is not a valid or correctly formatted Win32 resource file. In Visual Studio, the filename is specified in the Application pane of the Project Designer.  
   
 ## See Also  
- [Application Page, Project Designer (C#)](../reference/application-page--project-designer--csharp-.md)
+ [Application Page, Project Designer (C#)](../ide-reference/application-page--project-designer--csharp-.md)

@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 3) CS1718 | testtitle"
+title: "Compiler Warning (level 3) CS1718"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1718"
 ms.assetid: 7c1c11fd-4f91-482d-b8f7-efe2a361634e
 caps.latest.revision: 11
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,12 +1,12 @@
 ---
-title: "&#39;&lt;specifier&gt;&#39; is not valid on a WithEvents declaration | testtitle"
+title: "&#39;&lt;specifier&gt;&#39; is not valid on a WithEvents declaration"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30234"
 ms.assetid: f7c9e2e4-d2f6-4bcf-bea9-a290c4c64804
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

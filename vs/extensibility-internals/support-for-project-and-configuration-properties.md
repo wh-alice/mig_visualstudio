@@ -1,7 +1,7 @@
 ---
-title: "Support for Project and Configuration Properties | testtitle"
+title: "Support for Project and Configuration Properties"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,7 +34,7 @@ translation.priority.mt:
 # Support for Project and Configuration Properties
 The **Properties** window in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) can display project and configuration properties. You can provide a property page for your own project type so that the user can set properties for your application.  
   
- By selecting a project node in **Solution Explorer** and then clicking **Properties** on the **Project** menu, you can open a dialog box that includes project and configuration properties. In [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] and [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)], and project types derived from these languages, this dialog box appears as a tabbed page in the [General, Environment, Options Dialog Box](../reference/general--environment--options-dialog-box.md). For more information, see [Not in Build: Walkthrough: Exposing Project and Configuration Properties (C#)](http://msdn.microsoft.com/en-us/d850d63b-25e2-4505-9f3d-eb038d7c1d0e).  
+ By selecting a project node in **Solution Explorer** and then clicking **Properties** on the **Project** menu, you can open a dialog box that includes project and configuration properties. In [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] and [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)], and project types derived from these languages, this dialog box appears as a tabbed page in the [General, Environment, Options Dialog Box](../ide-reference/general--environment--options-dialog-box.md). For more information, see [Not in Build: Walkthrough: Exposing Project and Configuration Properties (C#)](http://msdn.microsoft.com/en-us/d850d63b-25e2-4505-9f3d-eb038d7c1d0e).  
   
  The Managed Package Framework for Projects (MPFProj) provides helper classes for creating and managing new project system. You can find the source code and compilation instructions at [MPF for Projects - Visual Studio 2013](http://mpfproj12.codeplex.com/).  
   
@@ -83,8 +83,8 @@ The **Properties** window in the [!INCLUDE[vsprvs](../code-quality/includes/vspr
 ## ProvideObjectAttribute and Registry Path  
  Classes derived from `SettingsPage` are designed to be shared across VSPackages. To make it possible for a VSPackage to create a class derived from `SettingsPage`, add a `Microsoft.VisualStudio.Shell.ProvideObjectAttribute` to a class derived from `Microsoft.VisualStudio.Shell.Package`.  
   
- [!code[VSSDKSupportProjectConfigurationProperties#1](../extensibility-internals/codesnippet/CSharp/support-for-project-and-configuration-properties_1.cs)]
-[!code[VSSDKSupportProjectConfigurationProperties#1](../extensibility-internals/codesnippet/VisualBasic/support-for-project-and-configuration-properties_1.vb)]  
+ [!code-cs[VSSDKSupportProjectConfigurationProperties#1](../extensibility-internals/codesnippet/CSharp/support-for-project-and-configuration-properties_1.cs)]
+ [!code-vb[VSSDKSupportProjectConfigurationProperties#1](../extensibility-internals/codesnippet/VisualBasic/support-for-project-and-configuration-properties_1.vb)]  
   
  The VSPackage to which the attribute is attached is unimportant. When a VSPackage is registered with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], the class id (CLSID) of any object that can be created is registered so that a call to <xref:Microsoft.VisualStudio.Shell.Interop.ILocalRegistry.CreateInstance*> can create it.  
   
@@ -98,8 +98,8 @@ The **Properties** window in the [!INCLUDE[vsprvs](../code-quality/includes/vspr
   
  Consider the following code fragment:  
   
- [!code[VSSDKSupportProjectConfigurationProperties#2](../extensibility-internals/codesnippet/VisualBasic/support-for-project-and-configuration-properties_2.vb)]
-[!code[VSSDKSupportProjectConfigurationProperties#2](../extensibility-internals/codesnippet/CSharp/support-for-project-and-configuration-properties_2.cs)]  
+ [!code-vb[VSSDKSupportProjectConfigurationProperties#2](../extensibility-internals/codesnippet/VisualBasic/support-for-project-and-configuration-properties_2.vb)]
+ [!code-cs[VSSDKSupportProjectConfigurationProperties#2](../extensibility-internals/codesnippet/CSharp/support-for-project-and-configuration-properties_2.cs)]  
   
  The `MyConfigProp` configuration property appears on the configuration property page as **My Config Property** in the category, **My Category**. If the option is selected, the description, **My Description**, appears in the description panel.  
   

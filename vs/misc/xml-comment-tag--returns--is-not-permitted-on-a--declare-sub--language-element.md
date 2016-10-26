@@ -1,12 +1,12 @@
 ---
-title: "XML comment tag &#39;returns&#39; is not permitted on a &#39;declare sub&#39; language element | testtitle"
+title: "XML comment tag &#39;returns&#39; is not permitted on a &#39;declare sub&#39; language element"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC42315"
 ms.assetid: 55ba3e8a-ba7f-42e3-a4a7-b22844e72564
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

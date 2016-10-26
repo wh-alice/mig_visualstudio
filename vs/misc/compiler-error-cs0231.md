@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0231 | testtitle"
+title: "Compiler Error CS0231"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0231"
 ms.assetid: e5e6a8e1-6c9f-4a88-8935-7bedfba88f8c
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 1) CS1202 | testtitle"
+title: "Compiler Warning (level 1) CS1202"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1202"
 ms.assetid: bb8bd788-cb0f-4761-b0d3-ad083a93df51
 caps.latest.revision: 6
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

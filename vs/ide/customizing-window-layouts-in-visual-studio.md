@@ -1,5 +1,5 @@
 ---
-title: "Customizing window layouts in Visual Studio | testtitle"
+title: "Customizing window layouts in Visual Studio"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -117,7 +117,7 @@ In Visual Studio you can customize the position, size and behavior of windows to
  ![Auto hide](../ide/media/vs2015_auto_hide.png "vs2015_auto_hide")  
   
 > [!NOTE]
->  To set whether Auto Hide operates on tool windows individually or as docked groups, select or clear **Auto Hide button affects active tool windows only** in the **Options** dialog box. For more information, see [General, Environment, Options Dialog Box](../reference/general--environment--options-dialog-box.md).  
+>  To set whether Auto Hide operates on tool windows individually or as docked groups, select or clear **Auto Hide button affects active tool windows only** in the **Options** dialog box. For more information, see [General, Environment, Options Dialog Box](../ide-reference/general--environment--options-dialog-box.md).  
   
 > [!NOTE]
 >  Tool windows that have Auto Hide enabled may temporarily slide into view when the window has focus. To hide the window again, select an item outside of the current window. When the window loses focus, it slides back out of view.  

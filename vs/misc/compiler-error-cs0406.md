@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0406 | testtitle"
+title: "Compiler Error CS0406"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0406"
 ms.assetid: 9d69681c-e261-4e5e-9361-ea566de12f2e
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,12 +1,12 @@
 ---
-title: "&#39;Class&#39; constraint and a specific class type constraint cannot be combined | testtitle"
+title: "&#39;Class&#39; constraint and a specific class type constraint cannot be combined"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC32107"
 ms.assetid: 218a7f0c-dd4f-4086-a52c-e8d581377e8b
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

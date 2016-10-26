@@ -1,5 +1,5 @@
 ---
-title: "Working with Shaders | testtitle"
+title: "Working with Shaders"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

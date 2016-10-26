@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1577 | testtitle"
+title: "Compiler Error CS1577"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1577"
 ms.assetid: d48d05b6-2ec2-419d-a33f-26a94543b0af
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,5 +1,5 @@
 ---
-title: "How to: Build Multiple Configurations Simultaneously | testtitle"
+title: "How to: Build Multiple Configurations Simultaneously"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
@@ -51,4 +51,4 @@ You can build most types of projects with multiple, or even all, of their build 
 ## See Also  
  [How to: Create and Edit Configurations](../ide/how-to--create-and-edit-configurations.md)   
  [Understanding Build Configurations](../ide/understanding-build-configurations.md)   
- [Building Multiple Projects in Parallel](../reference/building-multiple-projects-in-parallel-with-msbuild.md)
+ [Building Multiple Projects in Parallel](../msbuild/building-multiple-projects-in-parallel-with-msbuild.md)

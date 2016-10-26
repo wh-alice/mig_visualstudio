@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0577 | testtitle"
+title: "Compiler Error CS0577"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0577"
 ms.assetid: 34f8f453-f016-4f2c-981a-0d61449cd74b
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

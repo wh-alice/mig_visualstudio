@@ -1,5 +1,5 @@
 ---
-title: "CA2238: Implement serialization methods correctly | testtitle"
+title: "CA2238: Implement serialization methods correctly"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -67,8 +67,8 @@ translation.priority.ht:
 ## Example  
  The following example shows correctly declared serialization event handlers.  
   
- [!code[FxCop.Usage.SerializationEventHandlers#1](../code-quality/codesnippet/VisualBasic/ca2238--implement-serialization-methods-correctly_1.vb)]
-[!code[FxCop.Usage.SerializationEventHandlers#1](../code-quality/codesnippet/CSharp/ca2238--implement-serialization-methods-correctly_1.cs)]  
+ [!code-vb[FxCop.Usage.SerializationEventHandlers#1](../code-quality/codesnippet/VisualBasic/ca2238--implement-serialization-methods-correctly_1.vb)]
+ [!code-cs[FxCop.Usage.SerializationEventHandlers#1](../code-quality/codesnippet/CSharp/ca2238--implement-serialization-methods-correctly_1.cs)]  
   
 ## Related Rules  
  [CA2236: Call base class methods on ISerializable types](../code-quality/ca2236--call-base-class-methods-on-iserializable-types.md)  

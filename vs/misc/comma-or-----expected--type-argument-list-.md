@@ -1,12 +1,12 @@
 ---
-title: "Comma or &#39;)&#39; expected (Type Argument List) | testtitle"
+title: "Comma or &#39;)&#39; expected (Type Argument List)"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC32094"
 ms.assetid: 8f8c6172-5131-4d71-9b1c-39d84d37eeb2
 caps.latest.revision: 11
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

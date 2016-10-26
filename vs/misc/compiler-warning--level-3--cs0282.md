@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 3) CS0282 | testtitle"
+title: "Compiler Warning (level 3) CS0282"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0282"
 ms.assetid: fd4cda5d-81c7-40e3-8424-c938b3447356
 caps.latest.revision: 14
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

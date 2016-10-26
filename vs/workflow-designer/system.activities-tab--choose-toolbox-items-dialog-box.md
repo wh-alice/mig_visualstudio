@@ -1,5 +1,5 @@
 ---
-title: "System.Activities Tab, Choose Toolbox Items Dialog Box | testtitle"
+title: "System.Activities Tab, Choose Toolbox Items Dialog Box"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: ".net-framework-4.6"

@@ -1,12 +1,12 @@
 ---
-title: "Using the iteration variable in a query expression may have unexpected results. | testtitle"
+title: "Using the iteration variable in a query expression may have unexpected results."
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC42327"
 ms.assetid: 5d550549-2f2b-4b53-94ca-6e13668c6d4c
 caps.latest.revision: 2
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

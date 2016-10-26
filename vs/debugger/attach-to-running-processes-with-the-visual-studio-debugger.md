@@ -1,5 +1,5 @@
 ---
-title: "Attach to Running Processes with the Visual Studio Debugger | testtitle"
+title: "Attach to Running Processes with the Visual Studio Debugger"
 ms.custom: ""
 ms.date: "10/24/2016"
 ms.prod: "visual-studio-dev14"

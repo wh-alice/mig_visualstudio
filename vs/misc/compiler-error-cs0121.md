@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0121 | testtitle"
+title: "Compiler Error CS0121"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0121"
 ms.assetid: 316cb77e-a500-4129-ae1b-e68b9188fd3e
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 ---
 # Compiler Error CS0121
 The call is ambiguous between the following methods or properties: 'method1' and 'method2'  

@@ -1,5 +1,5 @@
 ---
-title: "Controlling the Visibility of an Icon or Decorator | testtitle"
+title: "Controlling the Visibility of an Icon or Decorator"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

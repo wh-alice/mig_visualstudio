@@ -1,12 +1,12 @@
 ---
-title: "Comma or &#39;)&#39; expected (Procedure Parameter List) | testtitle"
+title: "Comma or &#39;)&#39; expected (Procedure Parameter List)"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30213"
 ms.assetid: 140b45e1-316d-460c-b7b7-95b092a98ceb
 caps.latest.revision: 6
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

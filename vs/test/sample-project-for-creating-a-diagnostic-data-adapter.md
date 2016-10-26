@@ -1,5 +1,5 @@
 ---
-title: "Sample Project for Creating a Diagnostic Data Adapter | testtitle"
+title: "Sample Project for Creating a Diagnostic Data Adapter"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

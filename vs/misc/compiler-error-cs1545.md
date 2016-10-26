@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1545 | testtitle"
+title: "Compiler Error CS1545"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1545"
 ms.assetid: 56c377b5-4cf1-4c7d-b51d-463bad78f3ef
 caps.latest.revision: 16
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

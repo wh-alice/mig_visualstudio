@@ -1,5 +1,5 @@
 ---
-title: "How to: Add Context Parameters to a Load Test Run Setting | testtitle"
+title: "How to: Add Context Parameters to a Load Test Run Setting"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1017 | testtitle"
+title: "Compiler Error CS1017"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1017"
 ms.assetid: e0902e8a-b042-4711-a8a6-83456a3f88cb
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,5 +1,5 @@
 ---
-title: "Validate code with layer diagrams | testtitle"
+title: "Validate code with layer diagrams"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -145,7 +145,7 @@ To make sure that code doesn't conflict with its design, validate your code with
         msbuild /p:ValidateArchitecture=true  
         ```  
   
-     Any errors that occur will be listed. For more information about [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)], see [MSBuild](../reference/msbuild1.md) and [MSBuild Task](../reference/msbuild-task.md).  
+     Any errors that occur will be listed. For more information about [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)], see [MSBuild](../msbuild/msbuild1.md) and [MSBuild Task](../msbuild/msbuild-task.md).  
   
  For more information about validation errors, see [Understand and resolve layer validation errors](#UnderstandingValidationErrors).  
   

@@ -1,12 +1,12 @@
 ---
-title: "&#39;Assembly&#39; or &#39;Module&#39; expected | testtitle"
+title: "&#39;Assembly&#39; or &#39;Module&#39; expected"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC32015"
 ms.assetid: 6e62fe8d-a875-4995-b6b2-443e75c65e85
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

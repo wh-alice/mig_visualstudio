@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Exceptions: System.Web.HttpCompileException | testtitle"
+title: "Troubleshooting Exceptions: System.Web.HttpCompileException"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

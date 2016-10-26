@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1925 | testtitle"
+title: "Compiler Error CS1925"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1925"
 ms.assetid: b60806a5-2ccf-47f5-873b-7ac2292fdb54
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

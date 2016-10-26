@@ -1,12 +1,12 @@
 ---
-title: "No accessible &#39;&lt;genericprocedurename&gt;&#39; accepts this number of type arguments | testtitle"
+title: "No accessible &#39;&lt;genericprocedurename&gt;&#39; accepts this number of type arguments"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC32118"
 ms.assetid: 4ee942ba-0fa1-4ec1-9c2c-a0c0dc3f1b17
 caps.latest.revision: 4
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

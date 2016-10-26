@@ -1,5 +1,5 @@
 ---
-title: "Configuring Ports for Test Controllers and Test Agents | testtitle"
+title: "Configuring Ports for Test Controllers and Test Agents"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

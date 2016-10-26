@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Error MSB8028 | testtitle"
+title: "MSBuild Error MSB8028"
 ms.custom: ""
 ms.date: "10/13/2016"
 ms.reviewer: ""

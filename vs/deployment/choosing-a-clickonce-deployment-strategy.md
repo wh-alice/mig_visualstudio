@@ -1,5 +1,5 @@
 ---
-title: "Choosing a ClickOnce Deployment Strategy | testtitle"
+title: "Choosing a ClickOnce Deployment Strategy"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

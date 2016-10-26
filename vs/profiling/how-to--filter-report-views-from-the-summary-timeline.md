@@ -1,5 +1,5 @@
 ---
-title: "How to: Filter Report Views from the Summary Timeline | testtitle"
+title: "How to: Filter Report Views from the Summary Timeline"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

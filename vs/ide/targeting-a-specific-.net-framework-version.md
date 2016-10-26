@@ -1,5 +1,5 @@
 ---
-title: "Targeting a Specific .NET Framework Version | testtitle"
+title: "Targeting a Specific .NET Framework Version"
 ms.custom: ""
 ms.date: "10/22/2016"
 ms.prod: "visual-studio-dev14"
@@ -49,10 +49,10 @@ In Visual Studio, you can specify the version or profile of the .NET Framework t
  [.NET Framework Multi-Targeting for ASP.NET Web Projects](../Topic/.NET%20Framework%20Multi-Targeting%20for%20ASP.NET%20Web%20Projects.md)  
  Explains how to use this version of Visual Studio to develop Web applications that run under earlier versions of the .NET Framework.  
   
- [Application Page, Project Designer (C#)](../reference/application-page--project-designer--csharp-.md)  
+ [Application Page, Project Designer (C#)](../ide-reference/application-page--project-designer--csharp-.md)  
  Describes the **Target Framework** control in the Project Designer for [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] projects.  
   
- [Application Page, Project Designer (Visual Basic)](../reference/application-page--project-designer--visual-basic-.md)  
+ [Application Page, Project Designer (Visual Basic)](../ide-reference/application-page--project-designer--visual-basic-.md)  
  Describes the **Target Framework** control in the Project Designer for [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] projects.  
   
  [How to: Modify the Target Framework and Platform Toolset](../Topic/How%20to:%20Modify%20the%20Target%20Framework%20and%20Platform%20Toolset.md)  

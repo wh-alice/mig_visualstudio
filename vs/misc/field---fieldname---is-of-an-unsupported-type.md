@@ -1,12 +1,12 @@
 ---
-title: "Field &#39;&lt;fieldname&gt;&#39; is of an unsupported type | testtitle"
+title: "Field &#39;&lt;fieldname&gt;&#39; is of an unsupported type"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30656"
 ms.assetid: 3c806df2-19f7-4f54-a72a-4043d2cdba9f
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

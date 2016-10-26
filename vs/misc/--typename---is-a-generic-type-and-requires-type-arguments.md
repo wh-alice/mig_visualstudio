@@ -1,12 +1,12 @@
 ---
-title: "&#39;&lt;typename&gt;&#39; is a generic type and requires type arguments | testtitle"
+title: "&#39;&lt;typename&gt;&#39; is a generic type and requires type arguments"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC32076"
 ms.assetid: 57f63727-c544-4012-8f03-5d77fbdd1135
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

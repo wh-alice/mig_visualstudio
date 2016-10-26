@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 2) CS1710 | testtitle"
+title: "Compiler Warning (level 2) CS1710"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1710"
 ms.assetid: 03c66a8d-30fc-4387-87f6-de759ec7ee88
 caps.latest.revision: 11
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

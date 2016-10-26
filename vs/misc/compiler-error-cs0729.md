@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0729 | testtitle"
+title: "Compiler Error CS0729"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0729"
 ms.assetid: e0421d06-e818-404f-af97-d101272f4d07
 caps.latest.revision: 6
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

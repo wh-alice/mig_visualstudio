@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1038 | testtitle"
+title: "Compiler Error CS1038"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1038"
 ms.assetid: 05c53ae9-2819-4771-aee8-3f2ff6bcf0b0
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

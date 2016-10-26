@@ -1,5 +1,5 @@
 ---
-title: "IDiaInjectedSource::get_objectFilename | testtitle"
+title: "IDiaInjectedSource::get_objectFilename"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

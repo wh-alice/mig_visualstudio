@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0313 | testtitle"
+title: "Compiler Error CS0313"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0313"
 ms.assetid: a0b0f2fb-e742-4df8-98bd-3bc068f0c71c
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

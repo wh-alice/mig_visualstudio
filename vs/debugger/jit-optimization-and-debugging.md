@@ -1,5 +1,5 @@
 ---
-title: "JIT Optimization and Debugging | testtitle"
+title: "JIT Optimization and Debugging"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

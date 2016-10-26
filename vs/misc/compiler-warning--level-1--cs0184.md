@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 1) CS0184 | testtitle"
+title: "Compiler Warning (level 1) CS0184"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0184"
 ms.assetid: 55e73f76-f502-4d15-88fc-bd5757b512a4
 caps.latest.revision: 6
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,12 +1,12 @@
 ---
-title: "Implicit variable &#39;&lt;variablename&gt;&#39; is invalid because of &#39;&lt;message&gt;&#39; | testtitle"
+title: "Implicit variable &#39;&lt;variablename&gt;&#39; is invalid because of &#39;&lt;message&gt;&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC36016"
 ms.assetid: 0b834480-7202-4d3c-a841-46b763c7ebf2
 caps.latest.revision: 11
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

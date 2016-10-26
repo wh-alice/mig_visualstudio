@@ -1,12 +1,12 @@
 ---
-title: "&#39;New&#39; constraint and &#39;Structure&#39; constraint cannot be combined | testtitle"
+title: "&#39;New&#39; constraint and &#39;Structure&#39; constraint cannot be combined"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC32103"
 ms.assetid: 5418b420-a014-4006-84aa-20ddac6739e6
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

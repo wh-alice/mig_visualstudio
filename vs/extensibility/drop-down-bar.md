@@ -1,5 +1,5 @@
 ---
-title: "Drop-down Bar | testtitle"
+title: "Drop-down Bar"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

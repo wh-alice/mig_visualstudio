@@ -1,5 +1,5 @@
 ---
-title: "Modifying Visual Studio &quot;15&quot; Preview 5 | testtitle"
+title: "Modifying Visual Studio &quot;15&quot; Preview 5"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

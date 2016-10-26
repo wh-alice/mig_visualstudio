@@ -1,5 +1,5 @@
 ---
-title: "Error getting information on languages supported by online search providers. | testtitle"
+title: "Error getting information on languages supported by online search providers."
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

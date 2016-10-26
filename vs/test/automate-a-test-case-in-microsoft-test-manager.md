@@ -1,5 +1,5 @@
 ---
-title: "Automate a test case in Microsoft Test Manager | testtitle"
+title: "Automate a test case in Microsoft Test Manager"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"

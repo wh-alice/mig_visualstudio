@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0070 | testtitle"
+title: "Compiler Error CS0070"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0070"
 ms.assetid: bb0de7c6-c734-4a8f-ab62-0a50eac2a91f
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

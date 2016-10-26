@@ -1,20 +1,20 @@
 ---
-title: "Argument &#39;&lt;argumentname&gt;&#39; must be greater than zero | testtitle"
+title: "Argument &#39;&lt;argumentname&gt;&#39; must be greater than zero"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbrArgument_GTZero1"
 ms.assetid: f9939fbd-6c4f-4871-9452-9ea0267e948e
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

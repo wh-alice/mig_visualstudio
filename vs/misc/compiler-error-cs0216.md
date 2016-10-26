@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0216 | testtitle"
+title: "Compiler Error CS0216"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0216"
 ms.assetid: afb3dd29-3eff-4b62-8267-eb726c2bcee4
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,20 +1,20 @@
 ---
-title: "VbStrConv.Wide and VbStrConv.Narrow are not applicable to the locale specified | testtitle"
+title: "VbStrConv.Wide and VbStrConv.Narrow are not applicable to the locale specified"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbrArgument_WideNarrowNotApplicable"
 ms.assetid: 5811098c-b124-4caf-8a2b-f81f12f1d5f5
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

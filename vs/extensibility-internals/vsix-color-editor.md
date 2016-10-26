@@ -1,5 +1,5 @@
 ---
-title: "VSIX Color Editor | testtitle"
+title: "VSIX Color Editor"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.reviewer: ""

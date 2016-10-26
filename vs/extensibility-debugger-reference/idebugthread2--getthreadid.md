@@ -1,5 +1,5 @@
 ---
-title: "IDebugThread2::GetThreadId | testtitle"
+title: "IDebugThread2::GetThreadId"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

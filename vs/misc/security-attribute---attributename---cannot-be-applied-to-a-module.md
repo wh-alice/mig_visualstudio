@@ -1,12 +1,12 @@
 ---
-title: "Security attribute &#39;&lt;attributename&gt;&#39; cannot be applied to a module | testtitle"
+title: "Security attribute &#39;&lt;attributename&gt;&#39; cannot be applied to a module"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30131"
 ms.assetid: d65822dc-1c6a-4af8-8b54-7eb0c6733091
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1657 | testtitle"
+title: "Compiler Error CS1657"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1657"
 ms.assetid: 6f0aeebe-5c90-4d5b-981c-1795d2e8fbb9
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

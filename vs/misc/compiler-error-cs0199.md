@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0199 | testtitle"
+title: "Compiler Error CS0199"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0199"
 ms.assetid: 9eede3f2-b55a-4b85-a05d-6bf177e1c602
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

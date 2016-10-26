@@ -1,5 +1,5 @@
 ---
-title: "API Reference for Modeling SDK for Visual Studio | testtitle"
+title: "API Reference for Modeling SDK for Visual Studio"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

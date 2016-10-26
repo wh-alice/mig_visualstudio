@@ -1,5 +1,5 @@
 ---
-title: "negative_binomial_distribution::param | testtitle"
+title: "negative_binomial_distribution::param"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

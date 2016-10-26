@@ -1,5 +1,5 @@
 ---
-title: "CA1031: Do not catch general exception types | testtitle"
+title: "CA1031: Do not catch general exception types"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -61,9 +61,9 @@ translation.priority.mt:
 ## Example  
  The following example shows a type that violates this rule and a type that correctly implements the `catch` block.  
   
- [!code[FxCop.Design.ExceptionAndSystemException#1](../code-quality/codesnippet/CPP/ca1031--do-not-catch-general-exception-types_1.cpp)]
-[!code[FxCop.Design.ExceptionAndSystemException#1](../code-quality/codesnippet/VisualBasic/ca1031--do-not-catch-general-exception-types_1.vb)]
-[!code[FxCop.Design.ExceptionAndSystemException#1](../code-quality/codesnippet/CSharp/ca1031--do-not-catch-general-exception-types_1.cs)]  
+ [!code-cpp[FxCop.Design.ExceptionAndSystemException#1](../code-quality/codesnippet/CPP/ca1031--do-not-catch-general-exception-types_1.cpp)]
+ [!code-vb[FxCop.Design.ExceptionAndSystemException#1](../code-quality/codesnippet/VisualBasic/ca1031--do-not-catch-general-exception-types_1.vb)]
+ [!code-cs[FxCop.Design.ExceptionAndSystemException#1](../code-quality/codesnippet/CSharp/ca1031--do-not-catch-general-exception-types_1.cs)]  
   
 ## Related Rules  
  [CA2200: Rethrow to preserve stack details](../code-quality/ca2200--rethrow-to-preserve-stack-details.md)

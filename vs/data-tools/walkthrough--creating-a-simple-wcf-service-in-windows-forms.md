@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating a simple WCF Service in Windows Forms | testtitle"
+title: "Walkthrough: Creating a simple WCF Service in Windows Forms"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -54,13 +54,13 @@ This walkthrough demonstrates how to create a simple [!INCLUDE[vsindigo](../data
   
      In **Solution Explorer**, double-click IService1.vb or IService1.cs and find the following line:  
   
-     [!code[WCFWalkthrough#4](../data-tools/codesnippet/CSharp/walkthrough--creating-a-simple-wcf-service-in-windows-forms_1.cs)]
-[!code[WCFWalkthrough#4](../data-tools/codesnippet/VisualBasic/walkthrough--creating-a-simple-wcf-service-in-windows-forms_1.vb)]  
+     [!code-cs[WCFWalkthrough#4](../data-tools/codesnippet/CSharp/walkthrough--creating-a-simple-wcf-service-in-windows-forms_1.cs)]
+     [!code-vb[WCFWalkthrough#4](../data-tools/codesnippet/VisualBasic/walkthrough--creating-a-simple-wcf-service-in-windows-forms_1.vb)]  
   
      Change the type for the `value` parameter to `String`:  
   
-     [!code[WCFWalkthrough#1](../data-tools/codesnippet/CSharp/walkthrough--creating-a-simple-wcf-service-in-windows-forms_2.cs)]
-[!code[WCFWalkthrough#1](../data-tools/codesnippet/VisualBasic/walkthrough--creating-a-simple-wcf-service-in-windows-forms_2.vb)]  
+     [!code-cs[WCFWalkthrough#1](../data-tools/codesnippet/CSharp/walkthrough--creating-a-simple-wcf-service-in-windows-forms_2.cs)]
+     [!code-vb[WCFWalkthrough#1](../data-tools/codesnippet/VisualBasic/walkthrough--creating-a-simple-wcf-service-in-windows-forms_2.vb)]  
   
      In the above code, note the `<OperationContract()>` or `[OperationContract]` attributes. These attributes are required for any method exposed by the service.  
   
@@ -68,13 +68,13 @@ This walkthrough demonstrates how to create a simple [!INCLUDE[vsindigo](../data
   
      In **Solution Explorer**, double-click Service1.vb or Service1.cs and find the following line:  
   
-     [!code[WCFWalkthrough#5](../data-tools/codesnippet/VisualBasic/walkthrough--creating-a-simple-wcf-service-in-windows-forms_3.vb)]
-[!code[WCFWalkthrough#5](../data-tools/codesnippet/CSharp/walkthrough--creating-a-simple-wcf-service-in-windows-forms_3.cs)]  
+     [!code-vb[WCFWalkthrough#5](../data-tools/codesnippet/VisualBasic/walkthrough--creating-a-simple-wcf-service-in-windows-forms_3.vb)]
+     [!code-cs[WCFWalkthrough#5](../data-tools/codesnippet/CSharp/walkthrough--creating-a-simple-wcf-service-in-windows-forms_3.cs)]  
   
      Change the type for the value parameter to `String`:  
   
-     [!code[WCFWalkthrough#2](../data-tools/codesnippet/CSharp/walkthrough--creating-a-simple-wcf-service-in-windows-forms_4.cs)]
-[!code[WCFWalkthrough#2](../data-tools/codesnippet/VisualBasic/walkthrough--creating-a-simple-wcf-service-in-windows-forms_4.vb)]  
+     [!code-cs[WCFWalkthrough#2](../data-tools/codesnippet/CSharp/walkthrough--creating-a-simple-wcf-service-in-windows-forms_4.cs)]
+     [!code-vb[WCFWalkthrough#2](../data-tools/codesnippet/VisualBasic/walkthrough--creating-a-simple-wcf-service-in-windows-forms_4.vb)]  
   
 ## Testing the Service  
   
@@ -126,8 +126,8 @@ This walkthrough demonstrates how to create a simple [!INCLUDE[vsindigo](../data
   
 3.  Double-click the `Button`, and add the following code in the `Click` event handler:  
   
-     [!code[WCFWalkthrough#3](../data-tools/codesnippet/CSharp/walkthrough--creating-a-simple-wcf-service-in-windows-forms_5.cs)]
-[!code[WCFWalkthrough#3](../data-tools/codesnippet/VisualBasic/walkthrough--creating-a-simple-wcf-service-in-windows-forms_5.vb)]  
+     [!code-cs[WCFWalkthrough#3](../data-tools/codesnippet/CSharp/walkthrough--creating-a-simple-wcf-service-in-windows-forms_5.cs)]
+     [!code-vb[WCFWalkthrough#3](../data-tools/codesnippet/VisualBasic/walkthrough--creating-a-simple-wcf-service-in-windows-forms_5.vb)]  
   
 4.  In **Solution Explorer**, right-click **WindowsApplication1** and click **Set as StartUp Project**.  
   

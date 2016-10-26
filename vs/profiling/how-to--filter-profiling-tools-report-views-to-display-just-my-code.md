@@ -1,5 +1,5 @@
 ---
-title: "How to: Filter Profiling Tools Report Views to Display Just My Code | testtitle"
+title: "How to: Filter Profiling Tools Report Views to Display Just My Code"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

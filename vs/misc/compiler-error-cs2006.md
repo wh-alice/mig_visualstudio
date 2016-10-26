@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS2006 | testtitle"
+title: "Compiler Error CS2006"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS2006"
 ms.assetid: 5eb51b1e-724f-4e90-9ca9-783c165e3198
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

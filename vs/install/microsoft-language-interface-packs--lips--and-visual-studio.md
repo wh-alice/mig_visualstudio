@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Language Interface Packs (LIPs) and Visual Studio | testtitle"
+title: "Microsoft Language Interface Packs (LIPs) and Visual Studio"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
@@ -110,7 +110,7 @@ By using a Windows Language Interface Pack (LIP), you can install a language ver
   
      To have the UI text in the IDE match the operating system display language setting, select **Same as Microsoft Windows**.  
   
- You can also use the devenv command to set the language that's used for UI. For more information, see [/LCID (devenv.exe)](../reference/-lcid--devenv.exe-.md).  
+ You can also use the devenv command to set the language that's used for UI. For more information, see [/LCID (devenv.exe)](../ide-reference/-lcid--devenv.exe-.md).  
   
 ## See Also  
- [International Settings, Environment, Options Dialog Box](../reference/international-settings--environment--options-dialog-box.md)
+ [International Settings, Environment, Options Dialog Box](../ide-reference/international-settings--environment--options-dialog-box.md)

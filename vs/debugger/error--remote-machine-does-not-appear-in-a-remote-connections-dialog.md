@@ -1,5 +1,5 @@
 ---
-title: "Error: Remote machine does not appear in a Remote Connections dialog | testtitle"
+title: "Error: Remote machine does not appear in a Remote Connections dialog"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Predicate Version of next_permutation | testtitle"
+title: "Predicate Version of next_permutation"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

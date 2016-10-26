@@ -1,5 +1,5 @@
 ---
-title: "CA2137: Transparent methods must contain only verifiable IL | testtitle"
+title: "CA2137: Transparent methods must contain only verifiable IL"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -55,4 +55,4 @@ translation.priority.ht:
 ## Example  
  The method in this example uses unverifiable code and should be marked with the <xref:System.Security.SecurityCriticalAttribute> or <xref:System.Security.SecuritySafeCriticalAttribute> attribute.  
   
- [!code[FxCop.Security.CA2137.TransparentMethodsMustBeVerifiable#1](../code-quality/codesnippet/CSharp/ca2137--transparent-methods-must-contain-only-verifiable-il_1.cs)]
+ [!code-cs[FxCop.Security.CA2137.TransparentMethodsMustBeVerifiable#1](../code-quality/codesnippet/CSharp/ca2137--transparent-methods-must-contain-only-verifiable-il_1.cs)]

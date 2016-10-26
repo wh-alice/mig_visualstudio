@@ -1,7 +1,7 @@
 ---
-title: "Designer Initialization and Metadata Configuration | testtitle"
+title: "Designer Initialization and Metadata Configuration"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

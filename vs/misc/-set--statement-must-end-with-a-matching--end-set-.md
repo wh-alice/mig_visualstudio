@@ -1,12 +1,12 @@
 ---
-title: "&#39;Set&#39; statement must end with a matching &#39;End Set&#39; | testtitle"
+title: "&#39;Set&#39; statement must end with a matching &#39;End Set&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30633"
 ms.assetid: 5041c365-87b0-4e98-9f43-181fde6f9650
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

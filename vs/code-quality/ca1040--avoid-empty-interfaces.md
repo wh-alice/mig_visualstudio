@@ -1,5 +1,5 @@
 ---
-title: "CA1040: Avoid empty interfaces | testtitle"
+title: "CA1040: Avoid empty interfaces"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -59,6 +59,6 @@ translation.priority.ht:
 ## Example  
  The following example shows an empty interface.  
   
- [!code[FxCop.Design.InterfacesNotEmpty#1](../code-quality/codesnippet/CSharp/ca1040--avoid-empty-interfaces_1.cs)]
-[!code[FxCop.Design.InterfacesNotEmpty#1](../code-quality/codesnippet/CPP/ca1040--avoid-empty-interfaces_1.cpp)]
-[!code[FxCop.Design.InterfacesNotEmpty#1](../code-quality/codesnippet/VisualBasic/ca1040--avoid-empty-interfaces_1.vb)]
+ [!code-cs[FxCop.Design.InterfacesNotEmpty#1](../code-quality/codesnippet/CSharp/ca1040--avoid-empty-interfaces_1.cs)]
+ [!code-cpp[FxCop.Design.InterfacesNotEmpty#1](../code-quality/codesnippet/CPP/ca1040--avoid-empty-interfaces_1.cpp)]
+ [!code-vb[FxCop.Design.InterfacesNotEmpty#1](../code-quality/codesnippet/VisualBasic/ca1040--avoid-empty-interfaces_1.vb)]

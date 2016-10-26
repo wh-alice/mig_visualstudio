@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0075 | testtitle"
+title: "Compiler Error CS0075"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0075"
 ms.assetid: 5084d260-705e-4ff5-8f7a-7f74052fcbbb
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

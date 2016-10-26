@@ -1,5 +1,5 @@
 ---
-title: "piecewise_linear_distribution::intervals | testtitle"
+title: "piecewise_linear_distribution::intervals"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

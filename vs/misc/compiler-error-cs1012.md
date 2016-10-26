@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1012 | testtitle"
+title: "Compiler Error CS1012"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1012"
 ms.assetid: 4acc5fe0-da47-4882-b7d8-557767d7cf03
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

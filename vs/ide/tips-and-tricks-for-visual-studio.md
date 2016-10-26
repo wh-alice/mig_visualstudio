@@ -1,5 +1,5 @@
 ---
-title: "Tips and Tricks for Visual Studio | testtitle"
+title: "Tips and Tricks for Visual Studio"
 ms.custom: ""
 ms.date: "10/22/2016"
 ms.prod: "visual-studio-dev14"
@@ -30,7 +30,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Tips and Tricks for Visual Studio
-You can navigate in [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md)] more easily by using the shortcuts in this topic. For more general information, see [\<PAVEOVER> Keyboard Shortcuts in Visual Studio](http://msdn.microsoft.com/en-us/2e15e27f-296b-4e9c-91e6-d91ea0110a67). For information about how to optimize Visual Studio for accessibility, see [Accessibility Tips and Tricks](../reference/accessibility-tips-and-tricks.md).  
+You can navigate in [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md)] more easily by using the shortcuts in this topic. For more general information, see [\<PAVEOVER> Keyboard Shortcuts in Visual Studio](http://msdn.microsoft.com/en-us/2e15e27f-296b-4e9c-91e6-d91ea0110a67). For information about how to optimize Visual Studio for accessibility, see [Accessibility Tips and Tricks](../ide-reference/accessibility-tips-and-tricks.md).  
   
 -   [Window Management](../ide/tips-and-tricks-for-visual-studio.md#BKMK_WindowMgmt)  
   

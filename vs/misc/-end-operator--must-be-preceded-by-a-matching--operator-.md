@@ -1,12 +1,12 @@
 ---
-title: "&#39;End Operator&#39; must be preceded by a matching &#39;Operator&#39; | testtitle"
+title: "&#39;End Operator&#39; must be preceded by a matching &#39;Operator&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC33007"
 ms.assetid: 57df3e01-0858-4cf7-9295-075a2c0c4bde
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

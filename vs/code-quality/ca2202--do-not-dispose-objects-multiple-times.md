@@ -1,5 +1,5 @@
 ---
-title: "CA2202: Do not dispose objects multiple times | testtitle"
+title: "CA2202: Do not dispose objects multiple times"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1629 | testtitle"
+title: "Compiler Error CS1629"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1629"
 ms.assetid: 907eae46-0265-4cd0-b27b-ff555d004259
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

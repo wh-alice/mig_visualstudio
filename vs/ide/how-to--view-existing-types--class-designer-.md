@@ -1,5 +1,5 @@
 ---
-title: "How to: View Existing Types (Class Designer) | testtitle"
+title: "How to: View Existing Types (Class Designer)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

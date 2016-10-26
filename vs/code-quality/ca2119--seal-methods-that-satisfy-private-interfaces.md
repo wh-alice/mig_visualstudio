@@ -1,5 +1,5 @@
 ---
-title: "CA2119: Seal methods that satisfy private interfaces | testtitle"
+title: "CA2119: Seal methods that satisfy private interfaces"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -67,16 +67,16 @@ translation.priority.ht:
 ## Example  
  The following example shows a type, `BaseImplementation`, that violates this rule.  
   
- [!code[FxCop.Security.SealMethods1#1](../code-quality/codesnippet/CPP/ca2119--seal-methods-that-satisfy-private-interfaces_1.cpp)]
-[!code[FxCop.Security.SealMethods1#1](../code-quality/codesnippet/CSharp/ca2119--seal-methods-that-satisfy-private-interfaces_1.cs)]
-[!code[FxCop.Security.SealMethods1#1](../code-quality/codesnippet/VisualBasic/ca2119--seal-methods-that-satisfy-private-interfaces_1.vb)]  
+ [!code-cpp[FxCop.Security.SealMethods1#1](../code-quality/codesnippet/CPP/ca2119--seal-methods-that-satisfy-private-interfaces_1.cpp)]
+ [!code-cs[FxCop.Security.SealMethods1#1](../code-quality/codesnippet/CSharp/ca2119--seal-methods-that-satisfy-private-interfaces_1.cs)]
+ [!code-vb[FxCop.Security.SealMethods1#1](../code-quality/codesnippet/VisualBasic/ca2119--seal-methods-that-satisfy-private-interfaces_1.vb)]  
   
 ## Example  
  The following example exploits the virtual method implementation of the previous example.  
   
- [!code[FxCop.Security.SealMethods2#1](../code-quality/codesnippet/CPP/ca2119--seal-methods-that-satisfy-private-interfaces_2.cpp)]
-[!code[FxCop.Security.SealMethods2#1](../code-quality/codesnippet/CSharp/ca2119--seal-methods-that-satisfy-private-interfaces_2.cs)]
-[!code[FxCop.Security.SealMethods2#1](../code-quality/codesnippet/VisualBasic/ca2119--seal-methods-that-satisfy-private-interfaces_2.vb)]  
+ [!code-cpp[FxCop.Security.SealMethods2#1](../code-quality/codesnippet/CPP/ca2119--seal-methods-that-satisfy-private-interfaces_2.cpp)]
+ [!code-cs[FxCop.Security.SealMethods2#1](../code-quality/codesnippet/CSharp/ca2119--seal-methods-that-satisfy-private-interfaces_2.cs)]
+ [!code-vb[FxCop.Security.SealMethods2#1](../code-quality/codesnippet/VisualBasic/ca2119--seal-methods-that-satisfy-private-interfaces_2.vb)]  
   
 ## See Also  
  [Interfaces](../Topic/Interfaces%20\(C%23%20Programming%20Guide\).md)   

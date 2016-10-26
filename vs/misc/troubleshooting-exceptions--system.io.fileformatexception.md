@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Exceptions: System.IO.FileFormatException | testtitle"
+title: "Troubleshooting Exceptions: System.IO.FileFormatException"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

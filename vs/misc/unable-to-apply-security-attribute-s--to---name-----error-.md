@@ -1,12 +1,12 @@
 ---
-title: "Unable to apply security attribute(s) to &#39;&lt;name&gt;&#39;: &lt;error&gt; | testtitle"
+title: "Unable to apply security attribute(s) to &#39;&lt;name&gt;&#39;: &lt;error&gt;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC31520"
 ms.assetid: caf7f45e-ef3e-4db4-80ba-6cc03416366f
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

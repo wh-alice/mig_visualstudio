@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 1) CS3017 | testtitle"
+title: "Compiler Warning (level 1) CS3017"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS3017"
 ms.assetid: 8e56b2f0-9caf-4c9a-98c2-d3ad0b70e767
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

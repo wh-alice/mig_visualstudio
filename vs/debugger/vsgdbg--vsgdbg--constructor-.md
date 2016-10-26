@@ -1,5 +1,5 @@
 ---
-title: "VsgDbg::VsgDbg (Constructor) | testtitle"
+title: "VsgDbg::VsgDbg (Constructor)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Creating a Software Development Kit | testtitle"
+title: "Creating a Software Development Kit"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
@@ -186,7 +186,7 @@ MoreInfo = “http://msdn.microsoft.com/MySDK”>
   
      WindowsAppContainer identifies projects for [!INCLUDE[win8_appname_long](../code-quality/includes/win8_appname_long_md.md)] apps.  
   
-8.  SupportPrefer32Bit: Supported values are “True” and “False”. The default is "True". If the value is set to “False”, MSBuild returns an error for [!INCLUDE[win8_appname_long](../code-quality/includes/win8_appname_long_md.md)] projects (or a warning for desktop projects) if the project that references the SDK has Prefer32Bit enabled. For more information about Prefer32Bit, see [Build Page, Project Designer (C#)](../reference/build-page--project-designer--csharp-.md) or [Compile Page, Project Designer (Visual Basic)](../reference/compile-page--project-designer--visual-basic-.md).  
+8.  SupportPrefer32Bit: Supported values are “True” and “False”. The default is "True". If the value is set to “False”, MSBuild returns an error for [!INCLUDE[win8_appname_long](../code-quality/includes/win8_appname_long_md.md)] projects (or a warning for desktop projects) if the project that references the SDK has Prefer32Bit enabled. For more information about Prefer32Bit, see [Build Page, Project Designer (C#)](../ide-reference/build-page--project-designer--csharp-.md) or [Compile Page, Project Designer (Visual Basic)](../ide-reference/compile-page--project-designer--visual-basic-.md).  
   
 9. SupportedArchitectures: a semi-colon delimited list of architectures that the SDK supports. MSBuild displays a warning if the targeted SDK architecture in the consuming project isn't supported. If this attribute isn't specified, MSBuild never displays this type of warning.  
   

@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0198 | testtitle"
+title: "Compiler Error CS0198"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0198"
 ms.assetid: 222c20f6-3f7f-4750-9f99-b5e6ae6c1271
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

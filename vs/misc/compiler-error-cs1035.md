@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1035 | testtitle"
+title: "Compiler Error CS1035"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1035"
 ms.assetid: 99125500-62de-421a-b12b-04311c8947c3
 caps.latest.revision: 6
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

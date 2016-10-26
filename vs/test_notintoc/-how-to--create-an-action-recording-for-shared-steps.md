@@ -1,5 +1,5 @@
 ---
-title: "-How to: Create an Action Recording for Shared Steps | testtitle"
+title: "-How to: Create an Action Recording for Shared Steps"
 ms.custom: ""
 ms.date: "10/01/2016"
 ms.prod: "visual-studio-tfs-dev14"

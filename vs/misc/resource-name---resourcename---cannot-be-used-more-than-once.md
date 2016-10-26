@@ -1,12 +1,12 @@
 ---
-title: "Resource name &#39;&lt;resourcename&gt;&#39; cannot be used more than once | testtitle"
+title: "Resource name &#39;&lt;resourcename&gt;&#39; cannot be used more than once"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC31502"
 ms.assetid: 1f49b1a0-be7e-4fbe-9af5-1bf627d77e4b
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

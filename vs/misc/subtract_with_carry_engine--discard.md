@@ -1,5 +1,5 @@
 ---
-title: "subtract_with_carry_engine::discard | testtitle"
+title: "subtract_with_carry_engine::discard"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

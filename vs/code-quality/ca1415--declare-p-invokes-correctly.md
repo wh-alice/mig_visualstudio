@@ -1,5 +1,5 @@
 ---
-title: "CA1415: Declare P-Invokes correctly | testtitle"
+title: "CA1415: Declare P-Invokes correctly"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -58,7 +58,7 @@ translation.priority.mt:
 ## Example  
  The following example shows platform invoke methods that violate the rule and satisfy the rule.  
   
- [!code[FxCop.Interoperability.DeclarePInvokes#1](../code-quality/codesnippet/CSharp/ca1415--declare-p-invokes-correctly_1.cs)]  
+ [!code-cs[FxCop.Interoperability.DeclarePInvokes#1](../code-quality/codesnippet/CSharp/ca1415--declare-p-invokes-correctly_1.cs)]  
   
 ## See Also  
  [Interoperating with Unmanaged Code](../Topic/Interoperating%20with%20Unmanaged%20Code.md)

@@ -1,12 +1,12 @@
 ---
-title: "Class &#39;&lt;classname&gt;&#39; cannot inherit from itself: &lt;message&gt; | testtitle"
+title: "Class &#39;&lt;classname&gt;&#39; cannot inherit from itself: &lt;message&gt;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30257"
 ms.assetid: 03e3034c-a0fa-4619-84b9-5bc9aa0dfe80
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

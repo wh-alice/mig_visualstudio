@@ -1,5 +1,5 @@
 ---
-title: "Accessing Models from Text Templates | testtitle"
+title: "Accessing Models from Text Templates"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

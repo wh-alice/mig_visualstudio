@@ -1,5 +1,5 @@
 ---
-title: "discrete_distribution::probabilities | testtitle"
+title: "discrete_distribution::probabilities"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

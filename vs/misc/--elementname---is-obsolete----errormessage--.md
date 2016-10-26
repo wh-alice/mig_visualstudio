@@ -1,12 +1,12 @@
 ---
-title: "&#39;&lt;elementname&gt;&#39; is obsolete: &#39;&lt;errormessage&gt;&#39; | testtitle"
+title: "&#39;&lt;elementname&gt;&#39; is obsolete: &#39;&lt;errormessage&gt;&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC40000"
 ms.assetid: dade0f57-eca1-4dd0-b978-020678838be6
 caps.latest.revision: 12
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

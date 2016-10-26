@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1954 | testtitle"
+title: "Compiler Error CS1954"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1954"
 ms.assetid: bdec399e-c43d-46d3-a01b-ef3572786fe5
 caps.latest.revision: 5
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

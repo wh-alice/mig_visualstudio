@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1902 | testtitle"
+title: "Compiler Error CS1902"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1902"
 ms.assetid: 120c5978-9ebc-4ec1-bcec-f840af6fdf5d
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,7 +1,7 @@
 ---
-title: "Debugging a Data-Bound ActiveX Control | testtitle"
+title: "Debugging a Data-Bound ActiveX Control"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/26/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

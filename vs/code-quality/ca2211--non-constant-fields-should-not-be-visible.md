@@ -1,5 +1,5 @@
 ---
-title: "CA2211: Non-constant fields should not be visible | testtitle"
+title: "CA2211: Non-constant fields should not be visible"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -57,5 +57,5 @@ translation.priority.ht:
 ## Example  
  The following example shows a type that violates this rule.  
   
- [!code[FxCop.Usage.AvoidStaticNonConstants#1](../code-quality/codesnippet/VisualBasic/ca2211--non-constant-fields-should-not-be-visible_1.vb)]
-[!code[FxCop.Usage.AvoidStaticNonConstants#1](../code-quality/codesnippet/CSharp/ca2211--non-constant-fields-should-not-be-visible_1.cs)]
+ [!code-vb[FxCop.Usage.AvoidStaticNonConstants#1](../code-quality/codesnippet/VisualBasic/ca2211--non-constant-fields-should-not-be-visible_1.vb)]
+ [!code-cs[FxCop.Usage.AvoidStaticNonConstants#1](../code-quality/codesnippet/CSharp/ca2211--non-constant-fields-should-not-be-visible_1.cs)]

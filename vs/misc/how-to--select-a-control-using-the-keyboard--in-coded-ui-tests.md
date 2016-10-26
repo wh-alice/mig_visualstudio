@@ -1,5 +1,5 @@
 ---
-title: "How to: Select a Control Using the Keyboard  in Coded UI Tests | testtitle"
+title: "How to: Select a Control Using the Keyboard  in Coded UI Tests"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

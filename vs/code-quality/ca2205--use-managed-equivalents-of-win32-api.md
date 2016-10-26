@@ -1,5 +1,5 @@
 ---
-title: "CA2205: Use managed equivalents of Win32 API | testtitle"
+title: "CA2205: Use managed equivalents of Win32 API"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -57,8 +57,8 @@ translation.priority.ht:
 ## Example  
  The following example shows a platform invoke method definition that violates the rule. In addition, the calls to the platform invoke method and the equivalent managed method are shown.  
   
- [!code[FxCop.Usage.ManagedEquivalents#1](../code-quality/codesnippet/CSharp/ca2205--use-managed-equivalents-of-win32-api_1.cs)]
-[!code[FxCop.Usage.ManagedEquivalents#1](../code-quality/codesnippet/VisualBasic/ca2205--use-managed-equivalents-of-win32-api_1.vb)]  
+ [!code-cs[FxCop.Usage.ManagedEquivalents#1](../code-quality/codesnippet/CSharp/ca2205--use-managed-equivalents-of-win32-api_1.cs)]
+ [!code-vb[FxCop.Usage.ManagedEquivalents#1](../code-quality/codesnippet/VisualBasic/ca2205--use-managed-equivalents-of-win32-api_1.vb)]  
   
 ## Related Rules  
  [CA1404: Call GetLastError immediately after P/Invoke](../code-quality/ca1404--call-getlasterror-immediately-after-p-invoke.md)  

@@ -1,5 +1,5 @@
 ---
-title: "Read models and diagrams in other Visual Studio editions | testtitle"
+title: "Read models and diagrams in other Visual Studio editions"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

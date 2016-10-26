@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Exceptions: System.Drawing.Printing.InvalidPrinterException | testtitle"
+title: "Troubleshooting Exceptions: System.Drawing.Printing.InvalidPrinterException"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Error MSB1025 | testtitle"
+title: "MSBuild Error MSB1025"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
@@ -44,5 +44,5 @@ translation.priority.ht:
 2.  Contact Microsoft Product Support Services and report the error.  
   
 ## See Also  
-[MSBuild](../reference/msbuild1.md)
+[MSBuild](../msbuild/msbuild1.md)
  [Talk to Us](../ide/talk-to-us.md)

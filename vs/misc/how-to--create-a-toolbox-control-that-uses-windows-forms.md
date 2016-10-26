@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a Toolbox Control That Uses Windows Forms | testtitle"
+title: "How to: Create a Toolbox Control That Uses Windows Forms"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -72,7 +72,7 @@ The Windows Forms Toolbox Control template that is included in the [!INCLUDE[vss
   
      The following example shows the `ProvideToolboxControl` attribute and the adjusted class definition for a control named `Counter` in the `General` item group.  
   
-     [!code[ToolboxControlWinForms#07](../misc/codesnippet/CSharp/how-to--create-a-toolbox-control-that-uses-windows-forms_1.cs)]  
+     [!code-cs[ToolboxControlWinForms#07](../misc/codesnippet/CSharp/how-to--create-a-toolbox-control-that-uses-windows-forms_1.cs)]  
   
 4.  Implement the properties, methods, and events for the control.  
   

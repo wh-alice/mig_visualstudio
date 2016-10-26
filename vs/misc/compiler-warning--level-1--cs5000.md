@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 1) CS5000 | testtitle"
+title: "Compiler Warning (level 1) CS5000"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS5000"
 ms.assetid: 8751c338-8cf4-41b3-9565-f65ffda4744a
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

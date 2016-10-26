@@ -1,5 +1,5 @@
 ---
-title: "Analyzing Load Test Results Using the Load Test Analyzer | testtitle"
+title: "Analyzing Load Test Results Using the Load Test Analyzer"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-tfs-dev14"

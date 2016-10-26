@@ -1,12 +1,12 @@
 ---
-title: "&#39;Variant&#39; is no longer a supported type; use the &#39;Object&#39; type instead | testtitle"
+title: "&#39;Variant&#39; is no longer a supported type; use the &#39;Object&#39; type instead"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30804"
 ms.assetid: 89835f93-6f51-4193-b2dd-1454b7094996
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

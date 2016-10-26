@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 2) CS0162 | testtitle"
+title: "Compiler Warning (level 2) CS0162"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0162"
 ms.assetid: 369b5b02-a9cc-404b-b758-4184285af2de
 caps.latest.revision: 6
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

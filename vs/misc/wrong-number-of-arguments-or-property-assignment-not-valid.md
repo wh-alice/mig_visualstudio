@@ -1,20 +1,20 @@
 ---
-title: "Wrong number of arguments or property assignment not valid | testtitle"
+title: "Wrong number of arguments or property assignment not valid"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbrID450"
 ms.assetid: 61700dd4-ebd0-4088-b439-2cd1ef9fc8f4
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

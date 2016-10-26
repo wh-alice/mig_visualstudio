@@ -1,5 +1,5 @@
 ---
-title: "Debugger Windows | testtitle"
+title: "Debugger Windows"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -37,7 +37,7 @@ You can open most debugger windows while you are debugging your program. To see 
 |**Window**|**Hotkey**|**See Topic**|  
 |Breakpoints|CTRL+ALT+B|[Using Breakpoints](../debugger/using-breakpoints.md)|  
 |Exception Settings|CTRL+ALT+E|[Managing Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md)|  
-|Output|CTRL+ALT+O|[Output Window](../reference/output-window.md)|  
+|Output|CTRL+ALT+O|[Output Window](../ide-reference/output-window.md)|  
 |GPU Threads|-|[How to: Use the GPU Threads Window](../debugger/how-to--use-the-gpu-threads-window.md)|  
 |Tasks|CTR:+SHIFT+D, K|[Using the Tasks Window](../debugger/using-the-tasks-window.md)|  
 |Parallel Stacks|CTR:+SHIFT+D, S|[Using the Parallel Stacks Window](../debugger/using-the-parallel-stacks-window.md)|  
@@ -46,7 +46,7 @@ You can open most debugger windows while you are debugging your program. To see 
 |QuickWatch|SHIFT+F9|[Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md)|  
 |Auto|CTRL+ALT+V, A|[Variable Windows](../Topic/Variable%20Windows.md)|  
 |Locals|CTRL+ALT+V, L|[Variable Windows](../Topic/Variable%20Windows.md)|  
-|Immediate|CTRL+ALT+I|[Immediate Window](../reference/immediate-window.md)|  
+|Immediate|CTRL+ALT+I|[Immediate Window](../ide-reference/immediate-window.md)|  
 |Python Debug Interactive|SHIFT+ALT+I|[Getting Started with PTVS: Interactive Python](../python/getting-started-with-ptvs--interactive-python.md)|  
 |JavaScript Console|CTRL+ALT+V, C|[QuickStart: Debug JavaScript](../debugger/quickstart--debug-javascript-using-the-console.md)|  
 |DOM Explorer|CTRL+ALT+V, D|[Debug layout using DOM Explorer](../debugger/debug-layout-using-dom-explorer.md)|  

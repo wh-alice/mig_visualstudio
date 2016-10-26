@@ -1,12 +1,12 @@
 ---
-title: "Member &#39;&lt;membername&gt;&#39; cannot be found in class &#39;&lt;classname&gt;&#39; | testtitle"
+title: "Member &#39;&lt;membername&gt;&#39; cannot be found in class &#39;&lt;classname&gt;&#39;"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC31097"
 ms.assetid: 855fa085-21ec-4547-93d5-d39cd5b7be8c
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

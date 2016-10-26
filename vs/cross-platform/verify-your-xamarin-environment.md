@@ -1,5 +1,5 @@
 ---
-title: "Verify your Xamarin environment | testtitle"
+title: "Verify your Xamarin environment"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.reviewer: ""

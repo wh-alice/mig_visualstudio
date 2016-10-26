@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0708 | testtitle"
+title: "Compiler Error CS0708"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0708"
 ms.assetid: 19e1907f-b78c-4c8b-b78c-eedfd57115f2
 caps.latest.revision: 6
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

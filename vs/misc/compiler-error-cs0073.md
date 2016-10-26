@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0073 | testtitle"
+title: "Compiler Error CS0073"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0073"
 ms.assetid: 579ae534-59ab-4fc5-ad7e-f87639f3f9cd
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

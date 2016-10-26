@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB4134 | testtitle"
+title: "MSBuild Error MSB4134"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/24/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -43,5 +43,5 @@ translation.priority.mt:
 ## See Also  
  <xref:Microsoft.Build.Utilities.Task.BuildEngine*>   
  <xref:Microsoft.Build.Utilities.Task.BuildEngine2*>   
- [Project Element (MSBuild)](../reference/project-element--msbuild-.md)   
- [Additional Resources](../reference/additional-msbuild-resources.md)
+ [Project Element (MSBuild)](../msbuild/project-element--msbuild-.md)   
+ [Additional Resources](../msbuild/additional-msbuild-resources.md)

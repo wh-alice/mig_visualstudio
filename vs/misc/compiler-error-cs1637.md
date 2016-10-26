@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1637 | testtitle"
+title: "Compiler Error CS1637"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1637"
 ms.assetid: 95aa82ab-bd52-4def-b5f3-d65e6dcb3855
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

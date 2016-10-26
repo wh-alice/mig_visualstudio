@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0179 | testtitle"
+title: "Compiler Error CS0179"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0179"
 ms.assetid: bef000ca-64d7-4809-b2a0-de6927b04b0d
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

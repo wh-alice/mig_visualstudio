@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 3) CS1717 | testtitle"
+title: "Compiler Warning (level 3) CS1717"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1717"
 ms.assetid: 5b150a2c-5d61-4cd8-b4d4-e6c2b93b52c6
 caps.latest.revision: 14
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

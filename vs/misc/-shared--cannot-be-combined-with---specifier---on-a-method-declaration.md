@@ -1,12 +1,12 @@
 ---
-title: "&#39;Shared&#39; cannot be combined with &#39;&lt;specifier&gt;&#39; on a method declaration | testtitle"
+title: "&#39;Shared&#39; cannot be combined with &#39;&lt;specifier&gt;&#39; on a method declaration"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30501"
 ms.assetid: 4ab9a918-31b3-4611-8d71-d3b6c3531d48
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,18 +1,18 @@
 ---
-title: "Only the first eight characters of a custom log name are significant | testtitle"
+title: "Only the first eight characters of a custom log name are significant"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: db2a0252-9ddd-4e93-a239-6a690cc09557
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

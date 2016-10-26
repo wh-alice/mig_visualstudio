@@ -1,7 +1,7 @@
 ---
-title: "Creating Project Instances By Using Project Factories | testtitle"
+title: "Creating Project Instances By Using Project Factories"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

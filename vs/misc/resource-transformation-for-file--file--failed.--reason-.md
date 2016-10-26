@@ -1,5 +1,5 @@
 ---
-title: "Resource transformation for file &#39;file&#39; failed. &lt;reason&gt; | testtitle"
+title: "Resource transformation for file &#39;file&#39; failed. &lt;reason&gt;"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

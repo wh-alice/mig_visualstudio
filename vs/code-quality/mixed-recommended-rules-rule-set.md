@@ -1,5 +1,5 @@
 ---
-title: "Mixed Recommended Rules rule set | testtitle"
+title: "Mixed Recommended Rules rule set"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

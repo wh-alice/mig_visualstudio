@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 2) CS3019 | testtitle"
+title: "Compiler Warning (level 2) CS3019"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS3019"
 ms.assetid: b41117cf-8956-4989-93fd-9903812e2d2f
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

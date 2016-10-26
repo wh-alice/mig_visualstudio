@@ -1,12 +1,12 @@
 ---
-title: "&#39;&lt;statementname&gt;&#39; statement requires an array | testtitle"
+title: "&#39;&lt;statementname&gt;&#39; statement requires an array"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30049"
 ms.assetid: 294ce09c-49f9-4f78-b0eb-8bae51ea9a1c
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0726 | testtitle"
+title: "Compiler Error CS0726"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0726"
 ms.assetid: 9ea5f004-cf25-4e6e-b9e5-6b53e4a7e1ab
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

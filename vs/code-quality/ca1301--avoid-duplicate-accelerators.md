@@ -1,5 +1,5 @@
 ---
-title: "CA1301: Avoid duplicate accelerators | testtitle"
+title: "CA1301: Avoid duplicate accelerators"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -60,7 +60,7 @@ translation.priority.mt:
 ## Example  
  The following example shows a minimal form that contains two controls that have identical access keys. The keys are stored in a resource file, which is not shown; however, their values appear in the commented out `checkBox.Text` lines. The behavior of duplicate accelerators can be examined by exchanging the `checkBox.Text` lines with their commented out counterparts. However, in this case, the example will not generate a warning from the rule.  
   
- [!code[FxCop.Globalization.AvoidDuplicateAccels#1](../code-quality/codesnippet/CSharp/ca1301--avoid-duplicate-accelerators_1.cs)]  
+ [!code-cs[FxCop.Globalization.AvoidDuplicateAccels#1](../code-quality/codesnippet/CSharp/ca1301--avoid-duplicate-accelerators_1.cs)]  
   
 ## See Also  
  <xref:System.Resources.ResourceManager?displayProperty=fullName>   

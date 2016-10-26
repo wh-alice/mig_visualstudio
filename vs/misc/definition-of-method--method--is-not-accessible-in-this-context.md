@@ -1,12 +1,12 @@
 ---
-title: "Definition of method &lt;method&gt; is not accessible in this context | testtitle"
+title: "Definition of method &lt;method&gt; is not accessible in this context"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC36594"
 ms.assetid: ee0f622a-e82f-4a79-ba78-354558e64dc4
 caps.latest.revision: 3
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

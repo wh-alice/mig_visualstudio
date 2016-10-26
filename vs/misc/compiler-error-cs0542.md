@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0542 | testtitle"
+title: "Compiler Error CS0542"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0542"
 ms.assetid: 68a89948-8b56-4cd5-95e2-0df7fcad50ac
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

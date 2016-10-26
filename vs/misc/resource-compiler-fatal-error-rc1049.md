@@ -1,5 +1,5 @@
 ---
-title: "Resource Compiler Fatal Error RC1049 | testtitle"
+title: "Resource Compiler Fatal Error RC1049"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

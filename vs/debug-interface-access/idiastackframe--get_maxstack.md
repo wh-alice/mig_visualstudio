@@ -1,5 +1,5 @@
 ---
-title: "IDiaStackFrame::get_maxStack | testtitle"
+title: "IDiaStackFrame::get_maxStack"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

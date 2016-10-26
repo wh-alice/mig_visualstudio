@@ -1,5 +1,5 @@
 ---
-title: "Opening an Options Page | testtitle"
+title: "Opening an Options Page"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -45,8 +45,8 @@ You can display an options page programmatically so that users of your package c
   
      The following example displays an options page named **HelloWorldOptions**.  
   
-     [!code[UI_UserSettings_ToolsOptionPages#5](../extensibility-internals/codesnippet/CSharp/opening-an-options-page_1.cs)]
-[!code[UI_UserSettings_ToolsOptionPages#5](../extensibility-internals/codesnippet/VisualBasic/opening-an-options-page_1.vb)]  
+     [!code-cs[UI_UserSettings_ToolsOptionPages#5](../extensibility-internals/codesnippet/CSharp/opening-an-options-page_1.cs)]
+     [!code-vb[UI_UserSettings_ToolsOptionPages#5](../extensibility-internals/codesnippet/VisualBasic/opening-an-options-page_1.vb)]  
   
 ### To display an options page that is defined by Visual Studio  
   
@@ -60,5 +60,5 @@ You can display an options page programmatically so that users of your package c
   
      The following example displays the **General** tab of the **Text Editor** options page.  
   
-     [!code[UI_UserSettings_ToolsOptionPages#6](../extensibility-internals/codesnippet/CSharp/opening-an-options-page_2.cs)]
-[!code[UI_UserSettings_ToolsOptionPages#6](../extensibility-internals/codesnippet/VisualBasic/opening-an-options-page_2.vb)]
+     [!code-cs[UI_UserSettings_ToolsOptionPages#6](../extensibility-internals/codesnippet/CSharp/opening-an-options-page_2.cs)]
+     [!code-vb[UI_UserSettings_ToolsOptionPages#6](../extensibility-internals/codesnippet/VisualBasic/opening-an-options-page_2.vb)]

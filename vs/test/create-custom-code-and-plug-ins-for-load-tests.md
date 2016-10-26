@@ -1,5 +1,5 @@
 ---
-title: "Create custom code and plug-ins for load tests | testtitle"
+title: "Create custom code and plug-ins for load tests"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

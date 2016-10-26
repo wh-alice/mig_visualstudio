@@ -1,5 +1,5 @@
 ---
-title: "Map methods on the call stack while debugging in Visual Studio | testtitle"
+title: "Map methods on the call stack while debugging in Visual Studio"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

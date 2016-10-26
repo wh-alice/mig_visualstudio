@@ -1,12 +1,12 @@
 ---
-title: "&#39;Default&#39; cannot be combined with &#39;&lt;specifier&gt;&#39; | testtitle"
+title: "&#39;Default&#39; cannot be combined with &#39;&lt;specifier&gt;&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30490"
 ms.assetid: fb29622c-a176-4185-94ae-2c1ca85adddb
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

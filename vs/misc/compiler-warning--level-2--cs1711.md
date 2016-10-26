@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 2) CS1711 | testtitle"
+title: "Compiler Warning (level 2) CS1711"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1711"
 ms.assetid: 0021275a-43eb-4295-929e-bb3283577a11
 caps.latest.revision: 12
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

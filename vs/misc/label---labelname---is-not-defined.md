@@ -1,12 +1,12 @@
 ---
-title: "Label &#39;&lt;labelname&gt;&#39; is not defined | testtitle"
+title: "Label &#39;&lt;labelname&gt;&#39; is not defined"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30132"
 ms.assetid: 3a7be2ea-7e10-4ac6-921a-d094b41e9142
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

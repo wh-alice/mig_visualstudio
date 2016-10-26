@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0678 | testtitle"
+title: "Compiler Error CS0678"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0678"
 ms.assetid: ca389fc9-da78-4e16-b68c-782f90b17c83
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

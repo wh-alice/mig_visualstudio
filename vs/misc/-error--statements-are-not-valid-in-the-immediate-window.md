@@ -1,12 +1,12 @@
 ---
-title: "&#39;Error&#39; statements are not valid in the Immediate window | testtitle"
+title: "&#39;Error&#39; statements are not valid in the Immediate window"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30724"
 ms.assetid: 121ba7a1-7702-49f8-bef2-5adc2d773b47
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

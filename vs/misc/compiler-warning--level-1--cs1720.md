@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 1) CS1720 | testtitle"
+title: "Compiler Warning (level 1) CS1720"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1720"
 ms.assetid: 97adc294-3a4c-4418-a4ed-ccff43125b62
 caps.latest.revision: 14
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,5 +1,5 @@
 ---
-title: "CA1810: Initialize reference type static fields inline | testtitle"
+title: "CA1810: Initialize reference type static fields inline"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -66,8 +66,8 @@ translation.priority.mt:
 ## Example  
  The following example shows a type, `StaticConstructor`, that violates the rule and a type, `NoStaticConstructor`, that replaces the static constructor with inline initialization to satisfy the rule.  
   
- [!code[FxCop.Performance.RefTypeStaticCtor#1](../code-quality/codesnippet/CSharp/ca1810--initialize-reference-type-static-fields-inline_1.cs)]
-[!code[FxCop.Performance.RefTypeStaticCtor#1](../code-quality/codesnippet/VisualBasic/ca1810--initialize-reference-type-static-fields-inline_1.vb)]  
+ [!code-cs[FxCop.Performance.RefTypeStaticCtor#1](../code-quality/codesnippet/CSharp/ca1810--initialize-reference-type-static-fields-inline_1.cs)]
+ [!code-vb[FxCop.Performance.RefTypeStaticCtor#1](../code-quality/codesnippet/VisualBasic/ca1810--initialize-reference-type-static-fields-inline_1.vb)]  
   
  Note the addition of the `beforefieldinit` flag on the MSIL definition for the `NoStaticConstructor` class.  
   

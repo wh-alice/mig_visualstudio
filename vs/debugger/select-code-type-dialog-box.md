@@ -1,5 +1,5 @@
 ---
-title: "Select Code Type Dialog Box | testtitle"
+title: "Select Code Type Dialog Box"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

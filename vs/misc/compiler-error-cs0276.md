@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0276 | testtitle"
+title: "Compiler Error CS0276"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0276"
 ms.assetid: 0c49017f-c7a9-42a5-9d0a-6f1d82142bd7
 caps.latest.revision: 11
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

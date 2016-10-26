@@ -1,12 +1,12 @@
 ---
-title: "Attribute constant &#39;&lt;constantname&gt;&#39; cannot be the target of an assignment | testtitle"
+title: "Attribute constant &#39;&lt;constantname&gt;&#39; cannot be the target of an assignment"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC31510"
 ms.assetid: 5459c531-3a4e-4e03-b185-9c5766254982
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

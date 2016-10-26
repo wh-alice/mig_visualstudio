@@ -1,5 +1,5 @@
 ---
-title: "Creating Manual Test Cases Using Microsoft Test Manager | testtitle"
+title: "Creating Manual Test Cases Using Microsoft Test Manager"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

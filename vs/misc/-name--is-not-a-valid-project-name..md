@@ -1,5 +1,5 @@
 ---
-title: "&lt;name&gt; is not a valid project name. | testtitle"
+title: "&lt;name&gt; is not a valid project name."
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -44,4 +44,4 @@ This error generally occurs when the `File.NewProject` command is issued from th
      Re-type the command, omitting the project name.  
   
 ## See Also  
- [Command Window](../reference/command-window.md)
+ [Command Window](../ide-reference/command-window.md)

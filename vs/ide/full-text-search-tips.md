@@ -1,5 +1,5 @@
 ---
-title: "Full-Text Search Tips | testtitle"
+title: "Full-Text Search Tips"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

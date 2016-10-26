@@ -1,12 +1,12 @@
 ---
-title: "XML comment tag &#39;include&#39; must have a &#39;&lt;attribute&gt;&#39; attribute | testtitle"
+title: "XML comment tag &#39;include&#39; must have a &#39;&lt;attribute&gt;&#39; attribute"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC42310"
 ms.assetid: b3c377d6-401a-477e-8f2d-b2881f2818a9
 caps.latest.revision: 11
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

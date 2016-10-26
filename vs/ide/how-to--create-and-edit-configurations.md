@@ -1,5 +1,5 @@
 ---
-title: "How to: Create and Edit Configurations | testtitle"
+title: "How to: Create and Edit Configurations"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

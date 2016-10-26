@@ -1,12 +1,12 @@
 ---
-title: "Comment statements cannot be evaluated (Not in TOC) | testtitle"
+title: "Comment statements cannot be evaluated (Not in TOC)"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30974"
 ms.assetid: bdfff760-1536-4dc5-8f81-68e6f8d2266c
 caps.latest.revision: 4
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -41,4 +41,4 @@ A comment statement has been entered in the Immediate Window during a debugging 
   
 ## See Also  
  [Debugging Your Visual Basic Application](../Topic/Debugging%20Your%20Visual%20Basic%20Application.md)   
- [Immediate Window](../reference/immediate-window.md)
+ [Immediate Window](../ide-reference/immediate-window.md)

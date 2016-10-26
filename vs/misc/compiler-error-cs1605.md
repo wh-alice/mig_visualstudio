@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1605 | testtitle"
+title: "Compiler Error CS1605"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1605"
 ms.assetid: a202d3a9-9777-4902-a7b9-1628640f9433
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,5 +1,5 @@
 ---
-title: "How to: Create TableAdapter Queries | testtitle"
+title: "How to: Create TableAdapter Queries"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -42,8 +42,8 @@ TableAdapter queries are SQL statements or stored procedures that your applicati
   
  Add as many queries to a TableAdapter as your application requires. TableAdapter queries appear as methods on a TableAdapter. When you create a query called `FillByCity` that takes a parameter representing the city value, the query is added to the TableAdapter. It is added as a typed method that takes the correct type of parameter as an argument — in this case a string representing the city value. You call the TableAdapter query just like any method on any object. For example, the following code executes the `FillByCity` query and fills the `Customers` table with all customers with a city value of `Seattle`:  
   
- [!code[VbRaddataTableAdapters#1](../data-tools/codesnippet/VisualBasic/how-to--create-tableadapter-queries_1.vb)]
-[!code[VbRaddataTableAdapters#1](../data-tools/codesnippet/CSharp/how-to--create-tableadapter-queries_1.cs)]  
+ [!code-vb[VbRaddataTableAdapters#1](../data-tools/codesnippet/VisualBasic/how-to--create-tableadapter-queries_1.vb)]
+ [!code-cs[VbRaddataTableAdapters#1](../data-tools/codesnippet/CSharp/how-to--create-tableadapter-queries_1.cs)]  
   
  TableAdapter queries can fill a data table (`Fill` and `FillBy` queries) or return new data tables populated with the data returned by the query (`GetData` and `GetDataBy` queries).  
   

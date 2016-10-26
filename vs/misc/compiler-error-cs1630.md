@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1630 | testtitle"
+title: "Compiler Error CS1630"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1630"
 ms.assetid: 15f39e1f-326b-4caf-9fb7-77ddd7851dcf
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

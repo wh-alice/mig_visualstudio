@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0715 | testtitle"
+title: "Compiler Error CS0715"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0715"
 ms.assetid: e3cd1e46-ccfa-4678-a2ed-69245f3558ba
 caps.latest.revision: 6
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

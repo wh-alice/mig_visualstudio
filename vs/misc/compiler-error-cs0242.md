@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0242 | testtitle"
+title: "Compiler Error CS0242"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0242"
 ms.assetid: bc86a5a4-89c1-4de4-a874-4dd4cbf592c2
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

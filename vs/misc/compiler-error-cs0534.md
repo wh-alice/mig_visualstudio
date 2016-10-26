@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0534 | testtitle"
+title: "Compiler Error CS0534"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0534"
 ms.assetid: 39fde9d1-3041-41fc-9dc2-43394c13c6c9
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

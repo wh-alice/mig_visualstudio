@@ -1,5 +1,5 @@
 ---
-title: "Coding a custom extraction rule for a web performance test | testtitle"
+title: "Coding a custom extraction rule for a web performance test"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Autoloading Toolbox Items | testtitle"
+title: "Walkthrough: Autoloading Toolbox Items"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
@@ -150,18 +150,18 @@ This walkthrough illustrates how a managed VSPackage can use reflection to autom
   
 3.  Double-click the button you just created. Doing this generates an event handler for the button's <xref:System.Windows.Forms.Control.Click> event. Update the event handler by using the following code:  
   
-     [!code[LoadToolboxMembers#01](../misc/codesnippet/CSharp/walkthrough--autoloading-toolbox-items_1.cs)]
-[!code[LoadToolboxMembers#01](../misc/codesnippet/VisualBasic/walkthrough--autoloading-toolbox-items_1.vb)]  
+     [!code-cs[LoadToolboxMembers#01](../misc/codesnippet/CSharp/walkthrough--autoloading-toolbox-items_1.cs)]
+     [!code-vb[LoadToolboxMembers#01](../misc/codesnippet/VisualBasic/walkthrough--autoloading-toolbox-items_1.vb)]  
   
 4.  Modify the constructor of the control to set the button text after the `InitializeComponent` method is called:  
   
-     [!code[LoadToolboxMembers#02](../misc/codesnippet/CSharp/walkthrough--autoloading-toolbox-items_2.cs)]
-[!code[LoadToolboxMembers#02](../misc/codesnippet/VisualBasic/walkthrough--autoloading-toolbox-items_2.vb)]  
+     [!code-cs[LoadToolboxMembers#02](../misc/codesnippet/CSharp/walkthrough--autoloading-toolbox-items_2.cs)]
+     [!code-vb[LoadToolboxMembers#02](../misc/codesnippet/VisualBasic/walkthrough--autoloading-toolbox-items_2.vb)]  
   
 5.  Add attributes to the file to enable the VSPackage to query the supplied <xref:System.Drawing.Design.ToolboxItem> class:  
   
-     [!code[LoadToolboxMembers#03](../misc/codesnippet/CSharp/walkthrough--autoloading-toolbox-items_3.cs)]
-[!code[LoadToolboxMembers#03](../misc/codesnippet/VisualBasic/walkthrough--autoloading-toolbox-items_3.vb)]  
+     [!code-cs[LoadToolboxMembers#03](../misc/codesnippet/CSharp/walkthrough--autoloading-toolbox-items_3.cs)]
+     [!code-vb[LoadToolboxMembers#03](../misc/codesnippet/VisualBasic/walkthrough--autoloading-toolbox-items_3.vb)]  
   
 6.  Save the file.  
   
@@ -173,8 +173,8 @@ This walkthrough illustrates how a managed VSPackage can use reflection to autom
   
 2.  Add `System.Drawing.Design` and `System.Globalization` to the namespaces that are used in the class.  
   
-     [!code[LoadToolboxMembers#04](../misc/codesnippet/CSharp/walkthrough--autoloading-toolbox-items_4.cs)]
-[!code[LoadToolboxMembers#04](../misc/codesnippet/VisualBasic/walkthrough--autoloading-toolbox-items_4.vb)]  
+     [!code-cs[LoadToolboxMembers#04](../misc/codesnippet/CSharp/walkthrough--autoloading-toolbox-items_4.cs)]
+     [!code-vb[LoadToolboxMembers#04](../misc/codesnippet/VisualBasic/walkthrough--autoloading-toolbox-items_4.vb)]  
   
 3.  Add a button and button click event handler and update the control's constructor just like you updated the first control.  
   
@@ -186,13 +186,13 @@ This walkthrough illustrates how a managed VSPackage can use reflection to autom
   
      Together with the previous changes, your second control class should resemble the following code. The symbol `Control2_ToolboxMenu` will be undefined until after the next step.  
   
-     [!code[LoadToolboxMembers#05](../misc/codesnippet/CSharp/walkthrough--autoloading-toolbox-items_5.cs)]
-[!code[LoadToolboxMembers#05](../misc/codesnippet/VisualBasic/walkthrough--autoloading-toolbox-items_5.vb)]  
+     [!code-cs[LoadToolboxMembers#05](../misc/codesnippet/CSharp/walkthrough--autoloading-toolbox-items_5.cs)]
+     [!code-vb[LoadToolboxMembers#05](../misc/codesnippet/VisualBasic/walkthrough--autoloading-toolbox-items_5.vb)]  
   
 5.  Create a class named `Control2_ToolboxItem`. This <xref:System.Drawing.Design.ToolboxItem> is constructed for the second control and added to the **Toolbox**. The class must have `SerializableAttribute` applied to it.  
   
-     [!code[LoadToolboxMembers#06](../misc/codesnippet/CSharp/walkthrough--autoloading-toolbox-items_6.cs)]
-[!code[LoadToolboxMembers#06](../misc/codesnippet/VisualBasic/walkthrough--autoloading-toolbox-items_6.vb)]  
+     [!code-cs[LoadToolboxMembers#06](../misc/codesnippet/CSharp/walkthrough--autoloading-toolbox-items_6.cs)]
+     [!code-vb[LoadToolboxMembers#06](../misc/codesnippet/VisualBasic/walkthrough--autoloading-toolbox-items_6.vb)]  
   
 6.  Save the file.  
   
@@ -248,8 +248,8 @@ This walkthrough illustrates how a managed VSPackage can use reflection to autom
   
     1.  Add the following namespace directives to the `LoadToolboxMembersPackage` class file.  
   
-         [!code[LoadToolboxMembers#07](../misc/codesnippet/CSharp/walkthrough--autoloading-toolbox-items_7.cs)]
-[!code[LoadToolboxMembers#07](../misc/codesnippet/VisualBasic/walkthrough--autoloading-toolbox-items_7.vb)]  
+         [!code-cs[LoadToolboxMembers#07](../misc/codesnippet/CSharp/walkthrough--autoloading-toolbox-items_7.cs)]
+         [!code-vb[LoadToolboxMembers#07](../misc/codesnippet/VisualBasic/walkthrough--autoloading-toolbox-items_7.vb)]  
   
     2.  Register the VSPackage as a <xref:System.Drawing.Design.ToolboxItem> class by adding an instance of <xref:Microsoft.VisualStudio.Shell.ProvideToolboxItemsAttribute>.  
   
@@ -264,8 +264,8 @@ This walkthrough illustrates how a managed VSPackage can use reflection to autom
   
      The result of this modification resembles the following code:  
   
-     [!code[LoadToolboxMembers#08](../misc/codesnippet/CSharp/walkthrough--autoloading-toolbox-items_8.cs)]
-[!code[LoadToolboxMembers#08](../misc/codesnippet/VisualBasic/walkthrough--autoloading-toolbox-items_8.vb)]  
+     [!code-cs[LoadToolboxMembers#08](../misc/codesnippet/CSharp/walkthrough--autoloading-toolbox-items_8.cs)]
+     [!code-vb[LoadToolboxMembers#08](../misc/codesnippet/VisualBasic/walkthrough--autoloading-toolbox-items_8.vb)]  
   
 3.  Expand the Package Members region to modify the `Initialize` method to do the following things:  
   
@@ -273,13 +273,13 @@ This walkthrough illustrates how a managed VSPackage can use reflection to autom
   
     -   Call the `CreateItemList` method to fill the <xref:System.Collections.ArrayList> object `ToolboxItemList`. The `ToolboxItemList` will contain a list of all the toolbox items that `LoadToolboxMembersPackage` manages.  
   
-     [!code[LoadToolboxMembers#09](../misc/codesnippet/CSharp/walkthrough--autoloading-toolbox-items_9.cs)]
-[!code[LoadToolboxMembers#09](../misc/codesnippet/VisualBasic/walkthrough--autoloading-toolbox-items_9.vb)]  
+     [!code-cs[LoadToolboxMembers#09](../misc/codesnippet/CSharp/walkthrough--autoloading-toolbox-items_9.cs)]
+     [!code-vb[LoadToolboxMembers#09](../misc/codesnippet/VisualBasic/walkthrough--autoloading-toolbox-items_9.vb)]  
   
 4.  Add two methods, `CreateItemList` and `CreateToolboxItem`, to construct, by using metadata, instances of the <xref:System.Drawing.Design.ToolboxItem> objects that are available in the `LoadToolboxMembers` assembly, as follows:  
   
-     [!code[LoadToolboxMembers#10](../misc/codesnippet/CSharp/walkthrough--autoloading-toolbox-items_10.cs)]
-[!code[LoadToolboxMembers#10](../misc/codesnippet/VisualBasic/walkthrough--autoloading-toolbox-items_10.vb)]  
+     [!code-cs[LoadToolboxMembers#10](../misc/codesnippet/CSharp/walkthrough--autoloading-toolbox-items_10.cs)]
+     [!code-vb[LoadToolboxMembers#10](../misc/codesnippet/VisualBasic/walkthrough--autoloading-toolbox-items_10.vb)]  
   
 5.  Implement the `OnRefreshToolbox` method to handle the <xref:Microsoft.VisualStudio.Shell.Package.ToolboxInitialized> and <xref:Microsoft.VisualStudio.Shell.Package.ToolboxUpgraded> events.  
   
@@ -291,8 +291,8 @@ This walkthrough illustrates how a managed VSPackage can use reflection to autom
   
     -   Sets the **Toolbox** active tab to the category tab for the VSProject.  
   
-     [!code[LoadToolboxMembers#11](../misc/codesnippet/CSharp/walkthrough--autoloading-toolbox-items_11.cs)]
-[!code[LoadToolboxMembers#11](../misc/codesnippet/VisualBasic/walkthrough--autoloading-toolbox-items_11.vb)]  
+     [!code-cs[LoadToolboxMembers#11](../misc/codesnippet/CSharp/walkthrough--autoloading-toolbox-items_11.cs)]
+     [!code-vb[LoadToolboxMembers#11](../misc/codesnippet/VisualBasic/walkthrough--autoloading-toolbox-items_11.vb)]  
   
     > [!NOTE]
     >  As an exercise, one could develop a mechanism for testing the version of the VSPackage or the items, and only update if the version of the VSPackage has changed, or if the version of the <xref:System.Drawing.Design.ToolboxItem> has changed.  
@@ -305,8 +305,8 @@ This walkthrough illustrates how a managed VSPackage can use reflection to autom
   
     1.  Replace the existing implementation of `MenuItemCallBack` with the following code:  
   
-         [!code[LoadToolboxMembers#12](../misc/codesnippet/CSharp/walkthrough--autoloading-toolbox-items_12.cs)]
-[!code[LoadToolboxMembers#12](../misc/codesnippet/VisualBasic/walkthrough--autoloading-toolbox-items_12.vb)]  
+         [!code-cs[LoadToolboxMembers#12](../misc/codesnippet/CSharp/walkthrough--autoloading-toolbox-items_12.cs)]
+         [!code-vb[LoadToolboxMembers#12](../misc/codesnippet/VisualBasic/walkthrough--autoloading-toolbox-items_12.vb)]  
   
 ## Building and Running the Solution  
  You can exercise the product of this walkthrough by using an instance of Visual Studio that is running in the experimental hive.  

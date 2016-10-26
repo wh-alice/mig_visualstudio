@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Error MSB3071 | testtitle"
+title: "MSBuild Error MSB3071"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -45,4 +45,4 @@ translation.priority.mt:
 -   Specify a local working directory before attempting this command again.  
   
 ## See Also  
- [Exec Task](../reference/exec-task.md)
+ [Exec Task](../msbuild/exec-task.md)

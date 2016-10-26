@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0202 | testtitle"
+title: "Compiler Error CS0202"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0202"
 ms.assetid: 7088850f-c206-4b95-9586-a0fa3d876c0c
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

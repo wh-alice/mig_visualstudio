@@ -1,5 +1,5 @@
 ---
-title: "Specifying Custom Build Events in Visual Studio | testtitle"
+title: "Specifying Custom Build Events in Visual Studio"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -42,7 +42,7 @@ By specifying a custom build event, you can automatically run commands before a 
 -   Visual C++--[Specifying Build Events](../Topic/Specifying%20Build%20Events.md).  
   
 ## Syntax  
- Build events follow the same syntax as DOS commands, but you can use macros to create build events more easily. For a list of available macros, see [Pre-build Event/Post-build Event Command Line Dialog Box](../reference/pre-build-event-post-build-event-command-line-dialog-box.md).  
+ Build events follow the same syntax as DOS commands, but you can use macros to create build events more easily. For a list of available macros, see [Pre-build Event/Post-build Event Command Line Dialog Box](../ide-reference/pre-build-event-post-build-event-command-line-dialog-box.md).  
   
  For best results, follow these formatting tips:  
   
@@ -67,6 +67,6 @@ By specifying a custom build event, you can automatically run commands before a 
   
 ## See Also  
  [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)   
- [Pre-build Event/Post-build Event Command Line Dialog Box](../reference/pre-build-event-post-build-event-command-line-dialog-box.md)   
- [MSBuild Special Characters](../reference/msbuild-special-characters.md)   
+ [Pre-build Event/Post-build Event Command Line Dialog Box](../ide-reference/pre-build-event-post-build-event-command-line-dialog-box.md)   
+ [MSBuild Special Characters](../msbuild/msbuild-special-characters.md)   
  [Walkthrough: Building an Application](../ide/walkthrough--building-an-application.md)

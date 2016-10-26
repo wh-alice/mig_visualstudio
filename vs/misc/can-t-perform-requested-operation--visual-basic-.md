@@ -1,20 +1,20 @@
 ---
-title: "Can&#39;t perform requested operation (Visual Basic) | testtitle"
+title: "Can&#39;t perform requested operation (Visual Basic)"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbrID17"
 ms.assetid: eeab237c-4110-4abd-b601-bbb025c5d204
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

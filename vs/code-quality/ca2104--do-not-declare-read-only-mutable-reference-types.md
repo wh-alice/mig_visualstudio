@@ -1,5 +1,5 @@
 ---
-title: "CA2104: Do not declare read only mutable reference types | testtitle"
+title: "CA2104: Do not declare read only mutable reference types"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -62,6 +62,6 @@ translation.priority.mt:
 ## Example  
  The following example shows a field declaration that causes a violation of this rule.  
   
- [!code[FxCop.Security.MutableReferenceTypes#1](../code-quality/codesnippet/CPP/ca2104--do-not-declare-read-only-mutable-reference-types_1.cpp)]
-[!code[FxCop.Security.MutableReferenceTypes#1](../code-quality/codesnippet/CSharp/ca2104--do-not-declare-read-only-mutable-reference-types_1.cs)]
-[!code[FxCop.Security.MutableReferenceTypes#1](../code-quality/codesnippet/VisualBasic/ca2104--do-not-declare-read-only-mutable-reference-types_1.vb)]
+ [!code-cpp[FxCop.Security.MutableReferenceTypes#1](../code-quality/codesnippet/CPP/ca2104--do-not-declare-read-only-mutable-reference-types_1.cpp)]
+ [!code-cs[FxCop.Security.MutableReferenceTypes#1](../code-quality/codesnippet/CSharp/ca2104--do-not-declare-read-only-mutable-reference-types_1.cs)]
+ [!code-vb[FxCop.Security.MutableReferenceTypes#1](../code-quality/codesnippet/VisualBasic/ca2104--do-not-declare-read-only-mutable-reference-types_1.vb)]

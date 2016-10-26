@@ -1,7 +1,7 @@
 ---
-title: "Add commands and gestures to layer diagrams | testtitle"
+title: "Add commands and gestures to layer diagrams"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""

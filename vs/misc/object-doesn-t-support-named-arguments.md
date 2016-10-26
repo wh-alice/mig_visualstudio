@@ -1,20 +1,20 @@
 ---
-title: "Object doesn&#39;t support named arguments | testtitle"
+title: "Object doesn&#39;t support named arguments"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbrID446"
 ms.assetid: f4812db8-e85d-4d5b-b7c9-d54a1f850034
 caps.latest.revision: 6
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,12 +1,12 @@
 ---
-title: "&#39;&lt;elementname&gt;&#39; is obsolete (Visual Basic Error) | testtitle"
+title: "&#39;&lt;elementname&gt;&#39; is obsolete (Visual Basic Error)"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC31075"
 ms.assetid: 614d36a1-2fba-4d03-963c-1565e88b08a6
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

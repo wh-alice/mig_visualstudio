@@ -1,5 +1,5 @@
 ---
-title: "Examining web performance test results | testtitle"
+title: "Examining web performance test results"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

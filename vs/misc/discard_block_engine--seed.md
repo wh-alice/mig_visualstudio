@@ -1,5 +1,5 @@
 ---
-title: "discard_block_engine::seed | testtitle"
+title: "discard_block_engine::seed"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

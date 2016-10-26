@@ -1,7 +1,7 @@
 ---
-title: "How to: Support Toolbox Drag-and-Drop Functionality | testtitle"
+title: "How to: Support Toolbox Drag-and-Drop Functionality"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/26/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

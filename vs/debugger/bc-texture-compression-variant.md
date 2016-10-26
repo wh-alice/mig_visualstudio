@@ -1,5 +1,5 @@
 ---
-title: "BC Texture Compression Variant | testtitle"
+title: "BC Texture Compression Variant"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

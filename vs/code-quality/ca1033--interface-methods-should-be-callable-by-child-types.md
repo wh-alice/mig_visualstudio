@@ -1,5 +1,5 @@
 ---
-title: "CA1033: Interface methods should be callable by child types | testtitle"
+title: "CA1033: Interface methods should be callable by child types"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -60,7 +60,7 @@ translation.priority.mt:
 ## Example  
  The following example shows a type, `ViolatingBase`, that violates the rule and a type, `FixedBase`, that shows a fix for the violation.  
   
- [!code[FxCop.Design.ExplicitMethodImplementations#1](../code-quality/codesnippet/CSharp/ca1033--interface-methods-should-be-callable-by-child-types_1.cs)]  
+ [!code-cs[FxCop.Design.ExplicitMethodImplementations#1](../code-quality/codesnippet/CSharp/ca1033--interface-methods-should-be-callable-by-child-types_1.cs)]  
   
 ## See Also  
  [Interfaces](../Topic/Interfaces%20\(C%23%20Programming%20Guide\).md)

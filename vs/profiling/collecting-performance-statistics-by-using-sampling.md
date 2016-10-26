@@ -1,5 +1,5 @@
 ---
-title: "Collecting Performance Statistics by Using Sampling | testtitle"
+title: "Collecting Performance Statistics by Using Sampling"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

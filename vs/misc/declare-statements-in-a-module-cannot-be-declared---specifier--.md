@@ -1,12 +1,12 @@
 ---
-title: "Declare statements in a Module cannot be declared &#39;&lt;specifier&gt;&#39; | testtitle"
+title: "Declare statements in a Module cannot be declared &#39;&lt;specifier&gt;&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30786"
 ms.assetid: 488b855f-72ea-414b-bffc-a5b63e97d289
 caps.latest.revision: 11
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

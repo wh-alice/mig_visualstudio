@@ -1,12 +1,12 @@
 ---
-title: "&#39;AddHandler&#39; declaration must end with a matching &#39;End AddHandler&#39; | testtitle"
+title: "&#39;AddHandler&#39; declaration must end with a matching &#39;End AddHandler&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC31115"
 ms.assetid: a0d9bb48-b17c-469b-9d60-b6ee7951444d
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

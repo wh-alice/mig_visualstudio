@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 1) CS0626 | testtitle"
+title: "Compiler Warning (level 1) CS0626"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0626"
 ms.assetid: 2cd5061c-80e7-48d3-8d14-be7fc642af94
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

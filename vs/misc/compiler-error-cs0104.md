@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0104 | testtitle"
+title: "Compiler Error CS0104"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0104"
 ms.assetid: 1a7e9ae8-308b-441b-ba85-fac974222875
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

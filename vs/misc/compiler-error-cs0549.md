@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0549 | testtitle"
+title: "Compiler Error CS0549"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0549"
 ms.assetid: ae965019-9dee-4f28-9e9a-6f379bd0d757
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

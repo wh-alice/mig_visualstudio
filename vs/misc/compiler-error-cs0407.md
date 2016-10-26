@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0407 | testtitle"
+title: "Compiler Error CS0407"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0407"
 ms.assetid: 59112fb9-4641-466e-b738-b3228539a09e
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

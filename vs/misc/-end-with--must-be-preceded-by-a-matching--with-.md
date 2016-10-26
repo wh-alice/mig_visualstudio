@@ -1,12 +1,12 @@
 ---
-title: "&#39;End With&#39; must be preceded by a matching &#39;With&#39; | testtitle"
+title: "&#39;End With&#39; must be preceded by a matching &#39;With&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30093"
 ms.assetid: b0f1f7d5-0c33-4b97-8043-f0f5b40ca5d7
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

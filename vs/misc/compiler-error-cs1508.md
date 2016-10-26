@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1508 | testtitle"
+title: "Compiler Error CS1508"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1508"
 ms.assetid: 979bc615-58ce-49f8-ba73-e6cf57c56418
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

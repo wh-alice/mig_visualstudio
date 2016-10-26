@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0457 | testtitle"
+title: "Compiler Error CS0457"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0457"
 ms.assetid: 5d5cf762-c817-4468-9455-59e966b8c140
 caps.latest.revision: 14
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

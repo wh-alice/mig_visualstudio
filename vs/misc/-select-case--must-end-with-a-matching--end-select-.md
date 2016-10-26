@@ -1,12 +1,12 @@
 ---
-title: "&#39;Select Case&#39; must end with a matching &#39;End Select&#39; | testtitle"
+title: "&#39;Select Case&#39; must end with a matching &#39;End Select&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30095"
 ms.assetid: f0809aa5-e6c9-43c9-9664-4ff02825c3d8
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

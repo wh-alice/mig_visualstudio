@@ -1,12 +1,12 @@
 ---
-title: "Anonymous type initializers are not valid in debug windows | testtitle"
+title: "Anonymous type initializers are not valid in debug windows"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC36577"
 ms.assetid: c16c5f56-fd41-4058-9d43-35e5c0f7bf03
 caps.latest.revision: 6
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

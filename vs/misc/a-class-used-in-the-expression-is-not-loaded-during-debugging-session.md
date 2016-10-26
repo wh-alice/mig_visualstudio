@@ -1,18 +1,18 @@
 ---
-title: "A class used in the expression is not loaded during debugging session | testtitle"
+title: "A class used in the expression is not loaded during debugging session"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c61ce85c-de0f-40bf-9442-fb61f2f3b0bf
 caps.latest.revision: 2
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

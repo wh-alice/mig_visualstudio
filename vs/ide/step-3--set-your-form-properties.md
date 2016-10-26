@@ -1,5 +1,5 @@
 ---
-title: "Step 3: Set Your Form Properties | testtitle"
+title: "Step 3: Set Your Form Properties"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1020 | testtitle"
+title: "Compiler Error CS1020"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1020"
 ms.assetid: e8860769-a847-4248-a37b-77a59863467c
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

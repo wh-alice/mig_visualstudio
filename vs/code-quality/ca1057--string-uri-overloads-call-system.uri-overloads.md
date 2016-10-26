@@ -1,5 +1,5 @@
 ---
-title: "CA1057: String URI overloads call System.Uri overloads | testtitle"
+title: "CA1057: String URI overloads call System.Uri overloads"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -58,9 +58,9 @@ translation.priority.mt:
 ## Example  
  The following example shows a correctly implemented string overload.  
   
- [!code[FxCop.Design.CallUriOverload#1](../code-quality/codesnippet/CSharp/ca1057--string-uri-overloads-call-system.uri-overloads_1.cs)]
-[!code[FxCop.Design.CallUriOverload#1](../code-quality/codesnippet/CPP/ca1057--string-uri-overloads-call-system.uri-overloads_1.cpp)]
-[!code[FxCop.Design.CallUriOverload#1](../code-quality/codesnippet/VisualBasic/ca1057--string-uri-overloads-call-system.uri-overloads_1.vb)]  
+ [!code-cs[FxCop.Design.CallUriOverload#1](../code-quality/codesnippet/CSharp/ca1057--string-uri-overloads-call-system.uri-overloads_1.cs)]
+ [!code-cpp[FxCop.Design.CallUriOverload#1](../code-quality/codesnippet/CPP/ca1057--string-uri-overloads-call-system.uri-overloads_1.cpp)]
+ [!code-vb[FxCop.Design.CallUriOverload#1](../code-quality/codesnippet/VisualBasic/ca1057--string-uri-overloads-call-system.uri-overloads_1.vb)]  
   
 ## Related Rules  
  [CA2234: Pass System.Uri objects instead of strings](../code-quality/ca2234--pass-system.uri-objects-instead-of-strings.md)  

@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0503 | testtitle"
+title: "Compiler Error CS0503"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0503"
 ms.assetid: 12a337c9-8c5d-473d-8ce6-057b2c7e7935
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

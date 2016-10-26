@@ -1,18 +1,18 @@
 ---
-title: "Registry key &#39;&lt;keyname&gt;&#39; could not be found | testtitle"
+title: "Registry key &#39;&lt;keyname&gt;&#39; could not be found"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ca4eb74f-8303-48fc-9ea8-d792fa4c810b
 caps.latest.revision: 6
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

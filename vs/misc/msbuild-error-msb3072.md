@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Error MSB3072 | testtitle"
+title: "MSBuild Error MSB3072"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -43,5 +43,5 @@ translation.priority.mt:
 1.  In the project file, specify the attribute `Command` for the `Exec` task.  
   
 ## See Also  
- [Exec Task](../reference/exec-task.md)   
- [Tasks](../reference/msbuild-tasks.md)
+ [Exec Task](../msbuild/exec-task.md)   
+ [Tasks](../msbuild/msbuild-tasks.md)

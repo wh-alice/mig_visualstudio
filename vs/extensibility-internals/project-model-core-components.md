@@ -1,5 +1,5 @@
 ---
-title: "Project Model Core Components | testtitle"
+title: "Project Model Core Components"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

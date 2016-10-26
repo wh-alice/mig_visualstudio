@@ -1,5 +1,5 @@
 ---
-title: "subtract_with_carry Class | testtitle"
+title: "subtract_with_carry Class"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

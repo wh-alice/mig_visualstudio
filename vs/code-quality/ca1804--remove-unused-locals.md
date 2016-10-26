@@ -1,5 +1,5 @@
 ---
-title: "CA1804: Remove unused locals | testtitle"
+title: "CA1804: Remove unused locals"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -58,8 +58,8 @@ translation.priority.mt:
 ## Example  
  The following example shows several unused local variables.  
   
- [!code[FxCop.Performance.UnusedLocals#1](../code-quality/codesnippet/VisualBasic/ca1804--remove-unused-locals_1.vb)]
-[!code[FxCop.Performance.UnusedLocals#1](../code-quality/codesnippet/CSharp/ca1804--remove-unused-locals_1.cs)]  
+ [!code-vb[FxCop.Performance.UnusedLocals#1](../code-quality/codesnippet/VisualBasic/ca1804--remove-unused-locals_1.vb)]
+ [!code-cs[FxCop.Performance.UnusedLocals#1](../code-quality/codesnippet/CSharp/ca1804--remove-unused-locals_1.cs)]  
   
 ## Related Rules  
  [CA1809: Avoid excessive locals](../code-quality/ca1809--avoid-excessive-locals.md)  

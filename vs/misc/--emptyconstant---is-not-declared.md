@@ -1,12 +1,12 @@
 ---
-title: "&#39;&lt;emptyconstant&gt;&#39; is not declared | testtitle"
+title: "&#39;&lt;emptyconstant&gt;&#39; is not declared"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30823"
 ms.assetid: 6e1b4f7f-e483-44c5-a550-ec152bfb7a55
 caps.latest.revision: 15
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 ---
 # &#39;&lt;emptyconstant&gt;&#39; is not declared
 '\<emptyconstant>' is not declared. Empty constant is no longer supported; use Nothing instead.  

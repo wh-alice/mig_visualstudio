@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB1039 | testtitle"
+title: "MSBuild Error MSB1039"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/24/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -41,6 +41,6 @@ translation.priority.mt:
 -   When you use the **/ToolsVersion** switch, make sure that you specify a valid, non-empty value for `ToolsVersion`.  
   
 ## See Also  
- [Toolset (ToolsVersion)](../reference/msbuild-toolset--toolsversion-.md)   
- [Project Element (MSBuild)](../reference/project-element--msbuild-.md)   
- [Additional Resources](../reference/additional-msbuild-resources.md)
+ [Toolset (ToolsVersion)](../msbuild/msbuild-toolset--toolsversion-.md)   
+ [Project Element (MSBuild)](../msbuild/project-element--msbuild-.md)   
+ [Additional Resources](../msbuild/additional-msbuild-resources.md)

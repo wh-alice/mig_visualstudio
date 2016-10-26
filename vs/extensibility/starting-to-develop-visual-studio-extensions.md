@@ -1,5 +1,5 @@
 ---
-title: "Starting to Develop Visual Studio Extensions | testtitle"
+title: "Starting to Develop Visual Studio Extensions"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -91,7 +91,7 @@ If you’ve never written a Visual Studio extension before, you probably have so
 -   Visual Studio isolated shell: [Walkthrough: Creating a Basic Isolated Shell Application](../extensibility/walkthrough--creating-a-basic-isolated-shell-application.md)  
   
 ## How do I get my extension to look like Visual Studio?  
- Get great tips for designing the UI for your extension in [Visual Studio User Experience Guidelines](../extensibility/visual-studio-user-experience-guidelines.md).  
+ Get great tips for designing the UI for your extension in [Visual Studio User Experience Guidelines](../extensibility-ux-guidelines/visual-studio-user-experience-guidelines.md).  
   
 ## Where can I find examples of VSSDK code?  
  Each of the links listed in the preceding section have step-by-step walkthroughs that show you how to implement specific features. You can also find open source VSSDK samples on GitHub at [Visual Studio Samples](https://aka.ms/vs2015sdksamples).  

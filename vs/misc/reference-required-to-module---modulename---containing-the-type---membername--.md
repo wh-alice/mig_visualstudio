@@ -1,12 +1,12 @@
 ---
-title: "Reference required to module &#39;&lt;modulename&gt;&#39; containing the type &#39;&lt;membername&gt;&#39; | testtitle"
+title: "Reference required to module &#39;&lt;modulename&gt;&#39; containing the type &#39;&lt;membername&gt;&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30653"
 ms.assetid: dad8a808-d7d3-4c80-91b1-458070dec63d
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

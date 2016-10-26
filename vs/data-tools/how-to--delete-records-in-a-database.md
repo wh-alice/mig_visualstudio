@@ -1,5 +1,5 @@
 ---
-title: "How to: Delete Records in a Database | testtitle"
+title: "How to: Delete Records in a Database"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -56,8 +56,8 @@ To delete records from a database, use the `TableAdapter.Update` method or the `
   
 -   Delete records from the desired <xref:System.Data.DataTable> by deleting <xref:System.Data.DataRow> objects from the table. For more information, see [How to: Delete Rows in a DataTable](../Topic/How%20to:%20Delete%20Rows%20in%20a%20DataTable.md). After the rows are deleted from the <xref:System.Data.DataTable>, call the `TableAdapter.Update` method. You can control the amount of data to update by passing in an entire <xref:System.Data.DataSet>, a <xref:System.Data.DataTable>, an array of <xref:System.Data.DataRow>s, or a single <xref:System.Data.DataRow>. The following code shows how to delete a record from a <xref:System.Data.DataTable> and then call the `TableAdapter.Update` method to communicate the change and delete the row from the database. (This example uses the Northwind database's `Region` table.)  
   
-     [!code[VbRaddataSaving#20](../data-tools/codesnippet/VisualBasic/how-to--delete-records-in-a-database_1.vb)]
-[!code[VbRaddataSaving#20](../data-tools/codesnippet/CSharp/how-to--delete-records-in-a-database_1.cs)]  
+     [!code-vb[VbRaddataSaving#20](../data-tools/codesnippet/VisualBasic/how-to--delete-records-in-a-database_1.vb)]
+     [!code-cs[VbRaddataSaving#20](../data-tools/codesnippet/CSharp/how-to--delete-records-in-a-database_1.cs)]  
   
  If your application uses objects to store the data in your application, you can use the TableAdapter's DBDirect methods to delete data directly from the database. Calling the `Delete` method removes records from the database based on the parameter values passed in.  
   
@@ -68,8 +68,8 @@ To delete records from a database, use the `TableAdapter.Update` method or the `
     > [!NOTE]
     >  If you do not have an instance available, instantiate the TableAdapter you want to use.  
   
-     [!code[VbRaddataSaving#21](../data-tools/codesnippet/VisualBasic/how-to--delete-records-in-a-database_2.vb)]
-[!code[VbRaddataSaving#21](../data-tools/codesnippet/CSharp/how-to--delete-records-in-a-database_2.cs)]  
+     [!code-vb[VbRaddataSaving#21](../data-tools/codesnippet/VisualBasic/how-to--delete-records-in-a-database_2.vb)]
+     [!code-cs[VbRaddataSaving#21](../data-tools/codesnippet/CSharp/how-to--delete-records-in-a-database_2.cs)]  
   
 ## Delete Records Using Command Objects  
  The following example deletes records directly from a database using command objects. For more information on using command objects to execute commands and stored procedures, see [Fetching Data into Your Application](../data-tools/fetching-data-into-your-application.md).  
@@ -78,8 +78,8 @@ To delete records from a database, use the `TableAdapter.Update` method or the `
   
 -   Create a new command object, set its `Connection`, `CommandType`, and `CommandText` properties. (This example uses the Northwind database's `Region` table.)  
   
-     [!code[VbRaddataSaving#22](../data-tools/codesnippet/VisualBasic/how-to--delete-records-in-a-database_3.vb)]
-[!code[VbRaddataSaving#22](../data-tools/codesnippet/CSharp/how-to--delete-records-in-a-database_3.cs)]  
+     [!code-vb[VbRaddataSaving#22](../data-tools/codesnippet/VisualBasic/how-to--delete-records-in-a-database_3.vb)]
+     [!code-cs[VbRaddataSaving#22](../data-tools/codesnippet/CSharp/how-to--delete-records-in-a-database_3.cs)]  
   
 ## .NET Framework Security  
  You must have access to the database you are trying to connect to, as well as permission to delete records from the desired table.  

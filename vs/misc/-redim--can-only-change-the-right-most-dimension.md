@@ -1,20 +1,20 @@
 ---
-title: "&#39;ReDim&#39; can only change the right-most dimension | testtitle"
+title: "&#39;ReDim&#39; can only change the right-most dimension"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbrArray_TypeMismatch"
 ms.assetid: d53cf41b-7a7a-466c-a29a-920d99698fa9
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

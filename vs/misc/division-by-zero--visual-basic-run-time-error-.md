@@ -1,20 +1,20 @@
 ---
-title: "Division by zero (Visual Basic Run-Time Error) | testtitle"
+title: "Division by zero (Visual Basic Run-Time Error)"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbrID11"
 ms.assetid: 5b9bc5d6-792e-48bc-a974-012e07ad95f3
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,5 +1,5 @@
 ---
-title: "Elements of the Isolated Shell | testtitle"
+title: "Elements of the Isolated Shell"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"
@@ -55,7 +55,7 @@ You can modify the registry settings, run-time settings, and application entry p
   
 2.  If neither the registry nor the entry point parameter specifies the value of a setting, then the default value for the setting is used.  
   
- When a user starts your application from the command line, all command-line switches are passed to the Visual Studio shell, which treats them in the same way that Devenv does. For more information about Devenv switches, see [Devenv Command Line Switches](../reference/devenv-command-line-switches.md) and [Devenv Command-Line Switches for VSPackage Development](../extensibility/devenv-command-line-switches-for-vspackage-development.md). For more information about how a package registers for command line switches, see [Adding Command-Line Switches](../extensibility/adding-command-line-switches.md).  
+ When a user starts your application from the command line, all command-line switches are passed to the Visual Studio shell, which treats them in the same way that Devenv does. For more information about Devenv switches, see [Devenv Command Line Switches](../ide-reference/devenv-command-line-switches.md) and [Devenv Command-Line Switches for VSPackage Development](../extensibility/devenv-command-line-switches-for-vspackage-development.md). For more information about how a package registers for command line switches, see [Adding Command-Line Switches](../extensibility/adding-command-line-switches.md).  
   
 ## The Start Entry Point  
  The Appenvstub.dll file contains entry points for accessing the isolated shell. When the application starts, it calls the Start entry point of Appenvstub.dll.  

@@ -1,5 +1,5 @@
 ---
-title: "New Project Generation: Under the Hood, Part Two | testtitle"
+title: "New Project Generation: Under the Hood, Part Two"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
@@ -168,4 +168,4 @@ namespace Simple
   
 ## See Also  
  [New Project Generation: Under the Hood, Part One](../extensibility-internals/new-project-generation--under-the-hood--part-one.md)  
- [MSBuild](../reference/msbuild1.md)
+ [MSBuild](../msbuild/msbuild1.md)

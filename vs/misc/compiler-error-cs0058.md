@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0058 | testtitle"
+title: "Compiler Error CS0058"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0058"
 ms.assetid: 9535da60-03b9-41ab-93e1-e57b6440fca9
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

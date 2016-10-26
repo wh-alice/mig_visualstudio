@@ -1,12 +1,12 @@
 ---
-title: "&#39;WithEvents&#39; variables must have an &#39;As&#39; clause | testtitle"
+title: "&#39;WithEvents&#39; variables must have an &#39;As&#39; clause"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30412"
 ms.assetid: 8c941523-8e5d-4bf0-8a52-772ecd5d5592
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,5 +1,5 @@
 ---
-title: "Standard stereotypes for UML models | testtitle"
+title: "Standard stereotypes for UML models"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

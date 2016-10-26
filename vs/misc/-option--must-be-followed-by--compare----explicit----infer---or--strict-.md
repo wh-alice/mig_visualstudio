@@ -1,12 +1,12 @@
 ---
-title: "&#39;Option&#39; must be followed by &#39;Compare&#39;, &#39;Explicit&#39;, &#39;Infer&#39;, or &#39;Strict&#39; | testtitle"
+title: "&#39;Option&#39; must be followed by &#39;Compare&#39;, &#39;Explicit&#39;, &#39;Infer&#39;, or &#39;Strict&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30206"
 ms.assetid: f9def54d-eb4c-4ab7-bb8f-53800b87be36
 caps.latest.revision: 16
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

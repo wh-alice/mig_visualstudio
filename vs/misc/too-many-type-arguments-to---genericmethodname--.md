@@ -1,12 +1,12 @@
 ---
-title: "Too many type arguments to &#39;&lt;genericMethodName&gt;&#39; | testtitle"
+title: "Too many type arguments to &#39;&lt;genericMethodName&gt;&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC32043"
 ms.assetid: c4d8f67a-4317-461a-9446-6717cfa1d888
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

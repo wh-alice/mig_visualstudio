@@ -1,18 +1,18 @@
 ---
-title: "Property &lt;propertyname&gt; cannot be set to an empty string or Nothing | testtitle"
+title: "Property &lt;propertyname&gt; cannot be set to an empty string or Nothing"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c4f6ceb2-cee0-4e79-9cc6-cb20276d24f8
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

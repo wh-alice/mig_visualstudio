@@ -1,5 +1,5 @@
 ---
-title: "FIELD_KIND_EX | testtitle"
+title: "FIELD_KIND_EX"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

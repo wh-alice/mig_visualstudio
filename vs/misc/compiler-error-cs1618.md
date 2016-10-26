@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1618 | testtitle"
+title: "Compiler Error CS1618"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1618"
 ms.assetid: e046d402-208e-48fd-8ff3-bb03044036c4
 caps.latest.revision: 6
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

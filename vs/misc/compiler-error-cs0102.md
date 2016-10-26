@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0102 | testtitle"
+title: "Compiler Error CS0102"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0102"
 ms.assetid: c9419779-649f-4c24-b0f3-f0a1be46659e
 caps.latest.revision: 11
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

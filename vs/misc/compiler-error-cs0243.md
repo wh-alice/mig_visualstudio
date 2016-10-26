@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0243 | testtitle"
+title: "Compiler Error CS0243"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0243"
 ms.assetid: 2506e4cb-dc26-46b4-a58c-ab6bf1601144
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

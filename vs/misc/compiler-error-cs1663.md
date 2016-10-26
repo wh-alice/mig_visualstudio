@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1663 | testtitle"
+title: "Compiler Error CS1663"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1663"
 ms.assetid: 013f36ac-8925-4cee-9008-54fa7ad1324b
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

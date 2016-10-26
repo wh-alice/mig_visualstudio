@@ -1,20 +1,20 @@
 ---
-title: "My.Application.Log cannot determine the amount of free disk space | testtitle"
+title: "My.Application.Log cannot determine the amount of free disk space"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbrApplicationLog_FreeSpaceError"
 ms.assetid: 7f0ce827-6afc-4d59-ac58-6729e1c01c4c
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,12 +1,12 @@
 ---
-title: "Value &#39;&lt;valuename1&gt;&#39; cannot be converted to &#39;&lt;valuename2&gt;&#39; | testtitle"
+title: "Value &#39;&lt;valuename1&gt;&#39; cannot be converted to &#39;&lt;valuename2&gt;&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30742"
 ms.assetid: f1a53307-eb64-4582-abcc-9c6bc24bdbf2
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

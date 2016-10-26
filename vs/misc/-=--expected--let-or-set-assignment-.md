@@ -1,12 +1,12 @@
 ---
-title: "&#39;=&#39; expected (Let or Set assignment) | testtitle"
+title: "&#39;=&#39; expected (Let or Set assignment)"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC32020"
 ms.assetid: 1b12f082-e502-4524-9326-b9b372670243
 caps.latest.revision: 12
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 ---
 # &#39;=&#39; expected (Let or Set assignment)
 A `Let` or `Set` assignment statement does not include an equal sign (`=`).  

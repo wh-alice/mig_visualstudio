@@ -1,5 +1,5 @@
 ---
-title: "How to: Brand a VSPackage (C# and Visual Basic) | testtitle"
+title: "How to: Brand a VSPackage (C# and Visual Basic)"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
@@ -49,8 +49,8 @@ To appear in the **About** dialog box and the splash screen, VSPackages must imp
   
 1.  Add the <xref:Microsoft.VisualStudio.Shell.InstalledProductRegistrationAttribute> attribute to the class that implements the VSPackage. This class must derive from both <xref:Microsoft.VisualStudio.Shell.Package> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsInstalledProduct>.  
   
-     [!code[VSSDKPackageSplashHelpAboutLoadKey#1](../misc/codesnippet/CSharp/how-to--brand-a-vspackage--csharp-and-visual-basic-_1.cs)]
-[!code[VSSDKPackageSplashHelpAboutLoadKey#1](../misc/codesnippet/VisualBasic/how-to--brand-a-vspackage--csharp-and-visual-basic-_1.vb)]  
+     [!code-cs[VSSDKPackageSplashHelpAboutLoadKey#1](../misc/codesnippet/CSharp/how-to--brand-a-vspackage--csharp-and-visual-basic-_1.cs)]
+     [!code-vb[VSSDKPackageSplashHelpAboutLoadKey#1](../misc/codesnippet/VisualBasic/how-to--brand-a-vspackage--csharp-and-visual-basic-_1.vb)]  
   
      The first argument, <xref:Microsoft.VisualStudio.Shell.InstalledProductRegistrationAttribute.UseInterface*>, of the <xref:Microsoft.VisualStudio.Shell.InstalledProductRegistrationAttribute> attribute tells [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to use <xref:Microsoft.VisualStudio.Shell.Interop.IVsInstalledProduct> to obtain product information, instead of the InstalledProducts registry key. The remaining arguments select string resources to display the product name, details, and ID, respectively. However, because the first argument is `true`, the remaining arguments are `null`.  
   
@@ -58,8 +58,8 @@ To appear in the **About** dialog box and the splash screen, VSPackages must imp
   
 3.  Implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsInstalledProduct> by using the following code.  
   
-     [!code[VSSDKPackageSplashHelpAboutLoadKey#2](../misc/codesnippet/CSharp/how-to--brand-a-vspackage--csharp-and-visual-basic-_2.cs)]
-[!code[VSSDKPackageSplashHelpAboutLoadKey#2](../misc/codesnippet/VisualBasic/how-to--brand-a-vspackage--csharp-and-visual-basic-_2.vb)]  
+     [!code-cs[VSSDKPackageSplashHelpAboutLoadKey#2](../misc/codesnippet/CSharp/how-to--brand-a-vspackage--csharp-and-visual-basic-_2.cs)]
+     [!code-vb[VSSDKPackageSplashHelpAboutLoadKey#2](../misc/codesnippet/VisualBasic/how-to--brand-a-vspackage--csharp-and-visual-basic-_2.vb)]  
   
      [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] calls these methods to obtain information for branding the VSPackage. The GetResourceString method is used to localize this information.  
   

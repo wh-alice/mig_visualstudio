@@ -1,12 +1,12 @@
 ---
-title: "&#39;ByRef&#39; parameter &#39;&lt;parametername&gt;&#39; cannot be used in a lambda expression | testtitle"
+title: "&#39;ByRef&#39; parameter &#39;&lt;parametername&gt;&#39; cannot be used in a lambda expression"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC36639"
 ms.assetid: 5913f9b6-2929-4c05-8dd1-00b10fcd5a83
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,5 +1,5 @@
 ---
-title: "Step 8: Write Code for the Show a Picture Button Event Handler | testtitle"
+title: "Step 8: Write Code for the Show a Picture Button Event Handler"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -106,8 +106,8 @@ Event icon
   
     9. Now add one more line of code. You can type it (or copy and paste it), but consider using IntelliSense to add it. The more familiar you are with IntelliSense, the more quickly you can write your own code. Your final `showButton_Click()` method looks like the following. (Choose the **VB** tab to view the Visual Basic version of the code.)  
   
-         [!code[VbExpressTutorial1Step8#1](../ide/codesnippet/CSharp/step-8--write-code-for-the-show-a-picture-button-event-handler_1.cs)]
-[!code[VbExpressTutorial1Step8#1](../ide/codesnippet/VisualBasic/step-8--write-code-for-the-show-a-picture-button-event-handler_1.vb)]  
+         [!code-cs[VbExpressTutorial1Step8#1](../ide/codesnippet/CSharp/step-8--write-code-for-the-show-a-picture-button-event-handler_1.cs)]
+         [!code-vb[VbExpressTutorial1Step8#1](../ide/codesnippet/VisualBasic/step-8--write-code-for-the-show-a-picture-button-event-handler_1.vb)]  
   
 ### To continue or review  
   

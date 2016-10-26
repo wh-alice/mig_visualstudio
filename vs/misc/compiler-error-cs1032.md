@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1032 | testtitle"
+title: "Compiler Error CS1032"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1032"
 ms.assetid: fe318a6c-4403-4b9b-b3d8-753ec31c00ff
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

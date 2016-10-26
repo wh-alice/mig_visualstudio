@@ -1,12 +1,12 @@
 ---
-title: "Members in a Structure cannot be declared &#39;&lt;specifier&gt;&#39; | testtitle"
+title: "Members in a Structure cannot be declared &#39;&lt;specifier&gt;&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30435"
 ms.assetid: a2af7276-7dad-4ac3-bb1d-059e16384b9a
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

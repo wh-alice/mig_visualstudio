@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio data tools for C++ | testtitle"
+title: "Visual Studio data tools for C++"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.reviewer: ""

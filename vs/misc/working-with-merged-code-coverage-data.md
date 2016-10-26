@@ -1,5 +1,5 @@
 ---
-title: "Working with merged code coverage data | testtitle"
+title: "Working with merged code coverage data"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

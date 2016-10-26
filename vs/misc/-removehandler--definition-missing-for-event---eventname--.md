@@ -1,12 +1,12 @@
 ---
-title: "&#39;RemoveHandler&#39; definition missing for event &#39;&lt;eventname&gt;&#39; | testtitle"
+title: "&#39;RemoveHandler&#39; definition missing for event &#39;&lt;eventname&gt;&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC31131"
 ms.assetid: 0ef68daf-b66e-4ecf-bf2c-dcacabd8aa3d
 caps.latest.revision: 6
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,5 +1,5 @@
 ---
-title: "How to: Specify Project Properties with Property Pages | testtitle"
+title: "How to: Specify Project Properties with Property Pages"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

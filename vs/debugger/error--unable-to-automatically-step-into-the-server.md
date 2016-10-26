@@ -1,5 +1,5 @@
 ---
-title: "Error: Unable to Automatically Step Into the Server | testtitle"
+title: "Error: Unable to Automatically Step Into the Server"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

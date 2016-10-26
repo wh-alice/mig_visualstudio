@@ -1,5 +1,5 @@
 ---
-title: "IDebugComPlusSymbolProvider2::LoadSymbolsFromStreamWithCorModule | testtitle"
+title: "IDebugComPlusSymbolProvider2::LoadSymbolsFromStreamWithCorModule"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"

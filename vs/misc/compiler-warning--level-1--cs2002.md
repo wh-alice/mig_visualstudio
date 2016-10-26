@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 1) CS2002 | testtitle"
+title: "Compiler Warning (level 1) CS2002"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS2002"
 ms.assetid: 4acd054e-d3fe-4be6-a660-53a0a5e8c6a4
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

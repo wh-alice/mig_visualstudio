@@ -1,12 +1,12 @@
 ---
-title: "Statements and labels are not valid between &#39;Select Case&#39; and first &#39;Case&#39; | testtitle"
+title: "Statements and labels are not valid between &#39;Select Case&#39; and first &#39;Case&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30058"
 ms.assetid: 399b4659-f7df-4377-80be-43019f1e6206
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

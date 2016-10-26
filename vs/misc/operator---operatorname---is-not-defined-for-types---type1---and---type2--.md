@@ -1,12 +1,12 @@
 ---
-title: "Operator &#39;&lt;operatorname&gt;&#39; is not defined for types &#39;&lt;type1&gt;&#39; and &#39;&lt;type2&gt;&#39; | testtitle"
+title: "Operator &#39;&lt;operatorname&gt;&#39; is not defined for types &#39;&lt;type1&gt;&#39; and &#39;&lt;type2&gt;&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30452"
 ms.assetid: a3ceed45-b918-4572-9379-cc90619bddab
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

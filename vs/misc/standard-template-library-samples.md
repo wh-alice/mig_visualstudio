@@ -1,5 +1,5 @@
 ---
-title: "Standard Template Library Samples | testtitle"
+title: "Standard Template Library Samples"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

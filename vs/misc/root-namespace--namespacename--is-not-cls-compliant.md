@@ -1,12 +1,12 @@
 ---
-title: "Root namespace &lt;namespacename&gt; is not CLS-compliant | testtitle"
+title: "Root namespace &lt;namespacename&gt; is not CLS-compliant"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC40038"
 ms.assetid: ec850295-b2fe-4f19-b808-d22fe0aaa32d
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,5 +1,5 @@
 ---
-title: "Adding and Removing Project Items | testtitle"
+title: "Adding and Removing Project Items"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

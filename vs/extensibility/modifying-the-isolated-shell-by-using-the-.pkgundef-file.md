@@ -1,5 +1,5 @@
 ---
-title: "Modifying the Isolated Shell By Using the .Pkgundef File | testtitle"
+title: "Modifying the Isolated Shell By Using the .Pkgundef File"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

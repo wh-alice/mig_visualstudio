@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0568 | testtitle"
+title: "Compiler Error CS0568"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0568"
 ms.assetid: dc9e1263-f58d-4c95-9165-27ba7757bc7b
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,12 +1,12 @@
 ---
-title: "Expression cannot be converted into an expression tree | testtitle"
+title: "Expression cannot be converted into an expression tree"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC36534"
 ms.assetid: c6ea9349-2b38-4345-9118-45cf184ab9ef
 caps.latest.revision: 5
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

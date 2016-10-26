@@ -1,7 +1,7 @@
 ---
-title: "Project Type Essentials | testtitle"
+title: "Project Type Essentials"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

@@ -1,5 +1,5 @@
 ---
-title: "CA1021: Avoid out parameters | testtitle"
+title: "CA1021: Avoid out parameters"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -65,22 +65,22 @@ translation.priority.ht:
 ## Example  
  The following library shows two implementations of a class that generates responses to the feedback of a user. The first implementation (`BadRefAndOut`) forces the library user to manage three return values. The second implementation (`RedesignedRefAndOut`) simplifies the user experience by returning an instance of a container class (`ReplyData`) that manages the data as a single unit.  
   
- [!code[FxCop.Design.NoRefOrOut#1](../code-quality/codesnippet/CSharp/ca1021--avoid-out-parameters_1.cs)]  
+ [!code-cs[FxCop.Design.NoRefOrOut#1](../code-quality/codesnippet/CSharp/ca1021--avoid-out-parameters_1.cs)]  
   
 ## Example  
  The following application illustrates the experience of the user. The call to the redesigned library (`UseTheSimplifiedClass` method) is more straightforward, and the information returned by the method is easily managed. The output from the two methods is identical.  
   
- [!code[FxCop.Design.TestNoRefOrOut#1](../code-quality/codesnippet/CSharp/ca1021--avoid-out-parameters_2.cs)]  
+ [!code-cs[FxCop.Design.TestNoRefOrOut#1](../code-quality/codesnippet/CSharp/ca1021--avoid-out-parameters_2.cs)]  
   
 ## Example  
  The following example library illustrates how `ref` parameters for reference types are used and shows a better way to implement this functionality.  
   
- [!code[FxCop.Design.RefByRefNo#1](../code-quality/codesnippet/CSharp/ca1021--avoid-out-parameters_3.cs)]  
+ [!code-cs[FxCop.Design.RefByRefNo#1](../code-quality/codesnippet/CSharp/ca1021--avoid-out-parameters_3.cs)]  
   
 ## Example  
  The following application calls each method in the library to demonstrate the behavior.  
   
- [!code[FxCop.Design.TestRefByRefNo#1](../code-quality/codesnippet/CSharp/ca1021--avoid-out-parameters_4.cs)]  
+ [!code-cs[FxCop.Design.TestRefByRefNo#1](../code-quality/codesnippet/CSharp/ca1021--avoid-out-parameters_4.cs)]  
   
  This example produces the following output.  
   
@@ -98,7 +98,7 @@ translation.priority.ht:
  Methods that implement the **Try\<Something>** pattern, such as <xref:System.Int32.TryParse*?displayProperty=fullName>, do not raise this violation. The following example shows a structure (value type) that implements the <xref:System.Int32.TryParse*?displayProperty=fullName> method.  
   
 ### Code  
- [!code[FxCop.Design.TryPattern#1](../code-quality/codesnippet/CSharp/ca1021--avoid-out-parameters_5.cs)]  
+ [!code-cs[FxCop.Design.TryPattern#1](../code-quality/codesnippet/CSharp/ca1021--avoid-out-parameters_5.cs)]  
   
 ## Related Rules  
  [CA1045: Do not pass types by reference](../code-quality/ca1045--do-not-pass-types-by-reference.md)

@@ -1,20 +1,20 @@
 ---
-title: "&#39;Finally&#39; statements are not valid in the Immediate window | testtitle"
+title: "&#39;Finally&#39; statements are not valid in the Immediate window"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
   - "BC30716"
 ms.assetid: 04ec9e29-b505-4b32-bce8-c952059368af
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

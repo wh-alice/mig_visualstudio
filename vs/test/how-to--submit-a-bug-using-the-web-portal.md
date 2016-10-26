@@ -1,5 +1,5 @@
 ---
-title: "How to: Submit a bug using the web portal | testtitle"
+title: "How to: Submit a bug using the web portal"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"

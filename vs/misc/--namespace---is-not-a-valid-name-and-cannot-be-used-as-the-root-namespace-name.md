@@ -1,12 +1,12 @@
 ---
-title: "&#39;&lt;namespace&gt;&#39; is not a valid name and cannot be used as the root namespace name | testtitle"
+title: "&#39;&lt;namespace&gt;&#39; is not a valid name and cannot be used as the root namespace name"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30113"
 ms.assetid: 932342a9-1b3f-4168-8de3-fcca3bf1e08e
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

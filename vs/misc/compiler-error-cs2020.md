@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS2020 | testtitle"
+title: "Compiler Error CS2020"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS2020"
 ms.assetid: b2db7a05-5965-4a9b-86c3-0c4792b29a6c
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

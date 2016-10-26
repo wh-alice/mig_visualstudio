@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0225 | testtitle"
+title: "Compiler Error CS0225"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0225"
 ms.assetid: 0b0cd72b-c47a-44d1-9b27-d1a1fad06807
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

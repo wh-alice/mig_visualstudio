@@ -1,5 +1,5 @@
 ---
-title: "Wizard file &lt;name&gt; format is not recognized. | testtitle"
+title: "Wizard file &lt;name&gt; format is not recognized."
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a Custom HTTP Body Editor for the Web Performance Test Editor | testtitle"
+title: "How to: Create a Custom HTTP Body Editor for the Web Performance Test Editor"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -328,7 +328,7 @@ private MessageEditorControl messageEditorControl
   
 -   Verify that the Targeted framework for the Windows Control Library project is .NET Framework 4.5. By default, Windows Control Library projects target the .NET Framework 4.5 Client framework which will not allow the inclusion of the Microsoft.VisualStudio.QualityTools.WebTestFramework reference.  
   
-     For more information, see [Application Page, Project Designer (C#)](../reference/application-page--project-designer--csharp-.md).  
+     For more information, see [Application Page, Project Designer (C#)](../ide-reference/application-page--project-designer--csharp-.md).  
   
 ## See Also  
  <xref:Microsoft.VisualStudio.TestTools.WebTesting.IStringHttpBodyEditorPlugin>   

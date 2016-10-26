@@ -1,5 +1,5 @@
 ---
-title: "DA0030: Gather Tier Interaction measurements for database projects | testtitle"
+title: "DA0030: Gather Tier Interaction measurements for database projects"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

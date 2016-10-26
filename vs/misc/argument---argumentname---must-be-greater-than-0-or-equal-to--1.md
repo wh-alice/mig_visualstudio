@@ -1,20 +1,20 @@
 ---
-title: "Argument &#39;&lt;argumentname&gt;&#39; must be greater than 0 or equal to -1 | testtitle"
+title: "Argument &#39;&lt;argumentname&gt;&#39; must be greater than 0 or equal to -1"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbrArgument_MinusOneOrGTZero1"
 ms.assetid: 22c6bf5f-5194-43ec-8a8c-88f781801927
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

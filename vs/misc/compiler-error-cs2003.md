@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS2003 | testtitle"
+title: "Compiler Error CS2003"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS2003"
 ms.assetid: 87ce44c8-ed0f-40d1-8c13-8edb998fabb8
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

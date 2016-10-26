@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 1) CS1574 | testtitle"
+title: "Compiler Warning (level 1) CS1574"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1574"
 ms.assetid: 4cd2b474-ab01-4397-aed7-63e5f0081649
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

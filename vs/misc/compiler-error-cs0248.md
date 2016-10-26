@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0248 | testtitle"
+title: "Compiler Error CS0248"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0248"
 ms.assetid: a7ddfd26-a836-47b8-b432-53876e06da31
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

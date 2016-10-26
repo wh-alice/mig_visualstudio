@@ -1,5 +1,5 @@
 ---
-title: "Analyzing Managed Code Quality by Using Code Analysis | testtitle"
+title: "Analyzing Managed Code Quality by Using Code Analysis"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

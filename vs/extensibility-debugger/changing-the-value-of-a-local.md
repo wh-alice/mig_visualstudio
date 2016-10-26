@@ -1,5 +1,5 @@
 ---
-title: "Changing the Value of a Local | testtitle"
+title: "Changing the Value of a Local"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

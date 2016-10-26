@@ -1,5 +1,5 @@
 ---
-title: "CA2122: Do not indirectly expose methods with link demands | testtitle"
+title: "CA2122: Do not indirectly expose methods with link demands"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -57,12 +57,12 @@ translation.priority.ht:
 ## Example  
  The following examples show a library that violates the rule, and an application that demonstrates the library's weakness. The sample library provides two methods that together violate the rule. The `EnvironmentSetting` method is secured by a link demand for unrestricted access to environment variables. The `DomainInformation` method makes no security demands of its callers before it calls `EnvironmentSetting`.  
   
- [!code[FxCop.Security.UnsecuredDoNotCall#1](../code-quality/codesnippet/CSharp/ca2122--do-not-indirectly-expose-methods-with-link-demands_1.cs)]  
+ [!code-cs[FxCop.Security.UnsecuredDoNotCall#1](../code-quality/codesnippet/CSharp/ca2122--do-not-indirectly-expose-methods-with-link-demands_1.cs)]  
   
 ## Example  
  The following application calls the unsecured library member.  
   
- [!code[FxCop.Security.TestUnsecuredDoNot1#1](../code-quality/codesnippet/CSharp/ca2122--do-not-indirectly-expose-methods-with-link-demands_2.cs)]  
+ [!code-cs[FxCop.Security.TestUnsecuredDoNot1#1](../code-quality/codesnippet/CSharp/ca2122--do-not-indirectly-expose-methods-with-link-demands_2.cs)]  
   
  This example produces the following output.  
   

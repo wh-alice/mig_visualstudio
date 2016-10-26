@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Error MSB1004 | testtitle"
+title: "MSBuild Error MSB1004"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -43,5 +43,5 @@ translation.priority.mt:
 1.  Specify a target or targets. You can use either a comma or a semicolon to separate a list of targets, for example, `/target:Clean;Compile`. Alternatively, you can repeat the switch, for example, `/t:Clean /t:``Compile`  
   
 ## See Also  
- [Targets](../reference/msbuild-targets.md)   
- [Command-Line Reference](../reference/msbuild-command-line-reference.md)
+ [Targets](../msbuild/msbuild-targets.md)   
+ [Command-Line Reference](../msbuild/msbuild-command-line-reference.md)

@@ -1,12 +1,12 @@
 ---
-title: "Off (Visual Basic) | testtitle"
+title: "Off (Visual Basic)"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "Off keyword"
 ms.assetid: e0b5aa68-bde1-4cdd-b9e4-152798ae1b8b
 caps.latest.revision: 11
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.mt: 
   - "cs-cz"
   - "de-de"

@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1552 | testtitle"
+title: "Compiler Error CS1552"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1552"
 ms.assetid: 647af14d-249e-4f69-80a8-2c0d77fbb244
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,5 +1,5 @@
 ---
-title: "Generate unit tests for your code with IntelliTest | testtitle"
+title: "Generate unit tests for your code with IntelliTest"
 ms.custom: ""
 ms.date: "2015-10-05"
 ms.prod: "visual-studio-dev14"

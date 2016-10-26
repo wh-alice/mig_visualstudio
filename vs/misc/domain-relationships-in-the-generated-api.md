@@ -1,5 +1,5 @@
 ---
-title: "Domain Relationships in the Generated API | testtitle"
+title: "Domain Relationships in the Generated API"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

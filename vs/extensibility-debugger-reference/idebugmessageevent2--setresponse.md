@@ -1,5 +1,5 @@
 ---
-title: "IDebugMessageEvent2::SetResponse | testtitle"
+title: "IDebugMessageEvent2::SetResponse"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

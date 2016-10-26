@@ -1,12 +1,12 @@
 ---
-title: "&#39;&lt;namespacename&gt;&#39; is ambiguous | testtitle"
+title: "&#39;&lt;namespacename&gt;&#39; is ambiguous"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30554"
 ms.assetid: f79778e7-a300-4eef-999f-c5cb22e0fbfa
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,5 +1,5 @@
 ---
-title: "CA2120: Secure serialization constructors | testtitle"
+title: "CA2120: Secure serialization constructors"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -57,7 +57,7 @@ translation.priority.ht:
 ## Example  
  The following example shows a type that violates the rule.  
   
- [!code[FxCop.Security.SerialCtors#1](../code-quality/codesnippet/CSharp/ca2120--secure-serialization-constructors_1.cs)]  
+ [!code-cs[FxCop.Security.SerialCtors#1](../code-quality/codesnippet/CSharp/ca2120--secure-serialization-constructors_1.cs)]  
   
 ## Related Rules  
  [CA2229: Implement serialization constructors](../code-quality/ca2229--implement-serialization-constructors.md)  

@@ -1,5 +1,5 @@
 ---
-title: "Adding validation and extraction rules to a web performance test | testtitle"
+title: "Adding validation and extraction rules to a web performance test"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

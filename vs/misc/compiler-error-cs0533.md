@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0533 | testtitle"
+title: "Compiler Error CS0533"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0533"
 ms.assetid: f8b38c5a-d365-4081-a101-6282bdd19069
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

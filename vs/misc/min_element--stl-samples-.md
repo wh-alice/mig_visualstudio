@@ -1,5 +1,5 @@
 ---
-title: "min_element (STL Samples) | testtitle"
+title: "min_element (STL Samples)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

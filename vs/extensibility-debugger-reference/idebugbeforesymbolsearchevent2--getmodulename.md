@@ -1,5 +1,5 @@
 ---
-title: "IDebugBeforeSymbolSearchEvent2::GetModuleName | testtitle"
+title: "IDebugBeforeSymbolSearchEvent2::GetModuleName"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

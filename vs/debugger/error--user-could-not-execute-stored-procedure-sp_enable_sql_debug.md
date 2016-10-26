@@ -1,5 +1,5 @@
 ---
-title: "Error: User Could Not Execute Stored Procedure sp_enable_sql_debug | testtitle"
+title: "Error: User Could Not Execute Stored Procedure sp_enable_sql_debug"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

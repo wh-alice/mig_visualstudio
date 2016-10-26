@@ -1,5 +1,5 @@
 ---
-title: "Create and configure datasets in Visual Studio | testtitle"
+title: "Create and configure datasets in Visual Studio"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"

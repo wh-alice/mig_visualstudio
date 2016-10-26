@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 1) CS0809 | testtitle"
+title: "Compiler Warning (level 1) CS0809"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0809"
 ms.assetid: 2c2f0248-ab3a-4cdc-a1b0-2f0e05eac4c9
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

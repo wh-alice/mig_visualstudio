@@ -1,5 +1,5 @@
 ---
-title: "CA1039: Lists are strongly typed | testtitle"
+title: "CA1039: Lists are strongly typed"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -73,7 +73,7 @@ translation.priority.ht:
 ## Example  
  In the following example, the type `YourType` extends <xref:System.Collections.CollectionBase?displayProperty=fullName>, as should all strongly typed collections. Note that <xref:System.Collections.CollectionBase> provides the explicit implementation of the <xref:System.Collections.IList> interface for you. Therefore, you must only provide the strongly typed members for <xref:System.Collections.IList> and <xref:System.Collections.ICollection>.  
   
- [!code[FxCop.Design.IListStrongTypes#1](../code-quality/codesnippet/CSharp/ca1039--lists-are-strongly-typed_1.cs)]  
+ [!code-cs[FxCop.Design.IListStrongTypes#1](../code-quality/codesnippet/CSharp/ca1039--lists-are-strongly-typed_1.cs)]  
   
 ## Related Rules  
  [CA1035: ICollection implementations have strongly typed members](../code-quality/ca1035--icollection-implementations-have-strongly-typed-members.md)  

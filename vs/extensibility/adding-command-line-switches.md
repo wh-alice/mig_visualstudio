@@ -1,5 +1,5 @@
 ---
-title: "Adding Command-Line Switches | testtitle"
+title: "Adding Command-Line Switches"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -90,6 +90,6 @@ cmdline.GetOption("MySwitch", out isPresent, out optionValue);
 ## See Also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsAppCommandLine>   
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.SetSite*>   
- [Devenv Command Line Switches](../reference/devenv-command-line-switches.md)   
+ [Devenv Command Line Switches](../ide-reference/devenv-command-line-switches.md)   
  [CreatePkgDef Utility](../extensibility-internals/createpkgdef-utility.md)   
  [.Pkgdef Files](../extensibility/modifying-the-isolated-shell-by-using-the-.pkgdef-file.md)

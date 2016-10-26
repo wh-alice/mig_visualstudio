@@ -1,5 +1,5 @@
 ---
-title: "CA2149: Transparent methods must not call into native code | testtitle"
+title: "CA2149: Transparent methods must not call into native code"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -51,4 +51,4 @@ translation.priority.ht:
  Do not suppress a warning from this rule.  
   
 ## Example  
- [!code[FxCop.Security.CA2149.TransparentMethodsMustNotCallNativeCode#1](../code-quality/codesnippet/CSharp/ca2149--transparent-methods-must-not-call-into-native-code_1.cs)]
+ [!code-cs[FxCop.Security.CA2149.TransparentMethodsMustNotCallNativeCode#1](../code-quality/codesnippet/CSharp/ca2149--transparent-methods-must-not-call-into-native-code_1.cs)]

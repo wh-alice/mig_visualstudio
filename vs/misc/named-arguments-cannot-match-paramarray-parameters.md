@@ -1,20 +1,20 @@
 ---
-title: "Named arguments cannot match ParamArray parameters | testtitle"
+title: "Named arguments cannot match ParamArray parameters"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbrNamedArgumentOnParamArray"
 ms.assetid: ba35fb86-329a-4ceb-864b-045c07661482
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

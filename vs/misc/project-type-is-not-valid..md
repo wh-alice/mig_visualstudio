@@ -1,5 +1,5 @@
 ---
-title: "Project type is not valid. | testtitle"
+title: "Project type is not valid."
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -40,4 +40,4 @@ This error generally occurs when an incorrect value was entered for the argument
 1.  Check the documentation for the correct syntax for the **Add New Project** command and try again.  
   
 ## See Also  
- [Visual Studio Commands](../reference/visual-studio-commands.md)
+ [Visual Studio Commands](../ide-reference/visual-studio-commands.md)

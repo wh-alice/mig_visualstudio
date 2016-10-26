@@ -1,5 +1,5 @@
 ---
-title: "CA2222: Do not decrease inherited member visibility | testtitle"
+title: "CA2222: Do not decrease inherited member visibility"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -57,5 +57,5 @@ translation.priority.ht:
 ## Example  
  The following example shows a type that violates this rule.  
   
- [!code[FxCop.Usage.InheritedPublic#1](../code-quality/codesnippet/VisualBasic/ca2222--do-not-decrease-inherited-member-visibility_1.vb)]
-[!code[FxCop.Usage.InheritedPublic#1](../code-quality/codesnippet/CSharp/ca2222--do-not-decrease-inherited-member-visibility_1.cs)]
+ [!code-vb[FxCop.Usage.InheritedPublic#1](../code-quality/codesnippet/VisualBasic/ca2222--do-not-decrease-inherited-member-visibility_1.vb)]
+ [!code-cs[FxCop.Usage.InheritedPublic#1](../code-quality/codesnippet/CSharp/ca2222--do-not-decrease-inherited-member-visibility_1.cs)]

@@ -1,5 +1,5 @@
 ---
-title: "CA1017: Mark assemblies with ComVisibleAttribute | testtitle"
+title: "CA1017: Mark assemblies with ComVisibleAttribute"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -58,9 +58,9 @@ translation.priority.mt:
 ## Example  
  The following example shows an assembly that has the <xref:System.Runtime.InteropServices.ComVisibleAttribute> attribute applied to prevent it from being visible to COM clients.  
   
- [!code[FxCop.Design.AssembliesCom#1](../code-quality/codesnippet/CPP/ca1017--mark-assemblies-with-comvisibleattribute_1.cpp)]
-[!code[FxCop.Design.AssembliesCom#1](../code-quality/codesnippet/VisualBasic/ca1017--mark-assemblies-with-comvisibleattribute_1.vb)]
-[!code[FxCop.Design.AssembliesCom#1](../code-quality/codesnippet/CSharp/ca1017--mark-assemblies-with-comvisibleattribute_1.cs)]  
+ [!code-cpp[FxCop.Design.AssembliesCom#1](../code-quality/codesnippet/CPP/ca1017--mark-assemblies-with-comvisibleattribute_1.cpp)]
+ [!code-vb[FxCop.Design.AssembliesCom#1](../code-quality/codesnippet/VisualBasic/ca1017--mark-assemblies-with-comvisibleattribute_1.vb)]
+ [!code-cs[FxCop.Design.AssembliesCom#1](../code-quality/codesnippet/CSharp/ca1017--mark-assemblies-with-comvisibleattribute_1.cs)]  
   
 ## See Also  
  [Interoperating with Unmanaged Code](../Topic/Interoperating%20with%20Unmanaged%20Code.md)   

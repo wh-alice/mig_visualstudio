@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0576 | testtitle"
+title: "Compiler Error CS0576"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0576"
 ms.assetid: c409f8ba-4a59-48d3-9bd8-4e9053219875
 caps.latest.revision: 13
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

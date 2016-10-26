@@ -1,12 +1,12 @@
 ---
-title: "Parameter &#39;&lt;parametername&gt;&#39; of &#39;&lt;methodname&gt;&#39; already has a matching argument | testtitle"
+title: "Parameter &#39;&lt;parametername&gt;&#39; of &#39;&lt;methodname&gt;&#39; already has a matching argument"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30274"
 ms.assetid: 5ce7ed2b-d3b3-409d-946a-65f4c9af986a
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

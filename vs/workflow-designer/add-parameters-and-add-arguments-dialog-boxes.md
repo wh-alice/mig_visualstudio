@@ -1,5 +1,5 @@
 ---
-title: "Add Parameters and Add Arguments Dialog Boxes | testtitle"
+title: "Add Parameters and Add Arguments Dialog Boxes"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: ".net-framework-4.6"

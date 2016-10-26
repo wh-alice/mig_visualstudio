@@ -1,5 +1,5 @@
 ---
-title: "CA1400: P-Invoke entry points should exist | testtitle"
+title: "CA1400: P-Invoke entry points should exist"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -58,7 +58,7 @@ translation.priority.mt:
 ## Example  
  The following example shows a type that violates the rule. No function that is named `DoSomethingUnmanaged` occurs in kernel32.dll.  
   
- [!code[FxCop.Interoperability.DLLExists#1](../code-quality/codesnippet/CSharp/ca1400--p-invoke-entry-points-should-exist_1.cs)]  
+ [!code-cs[FxCop.Interoperability.DLLExists#1](../code-quality/codesnippet/CSharp/ca1400--p-invoke-entry-points-should-exist_1.cs)]  
   
 ## See Also  
  <xref:System.Runtime.InteropServices.DllImportAttribute?displayProperty=fullName>

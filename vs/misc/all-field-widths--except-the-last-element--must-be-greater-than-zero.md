@@ -1,20 +1,20 @@
 ---
-title: "All field widths, except the last element, must be greater than zero | testtitle"
+title: "All field widths, except the last element, must be greater than zero"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbrTextFieldParser_FieldWidthsMustPositive"
 ms.assetid: 41d8c661-a749-4c89-be56-905c6e7c3c9d
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

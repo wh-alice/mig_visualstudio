@@ -1,20 +1,20 @@
 ---
-title: "Argument &#39;&lt;argumentname&gt;&#39; cannot be a multidimensional array | testtitle"
+title: "Argument &#39;&lt;argumentname&gt;&#39; cannot be a multidimensional array"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbrArgument_RankEQOne1"
 ms.assetid: 3b44521a-44e3-4cbe-9a99-1e0ac6ccf537
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

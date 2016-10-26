@@ -1,12 +1,12 @@
 ---
-title: "&#39;End Set&#39; must be preceded by a matching &#39;Set&#39; | testtitle"
+title: "&#39;End Set&#39; must be preceded by a matching &#39;Set&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30632"
 ms.assetid: 0c3dd065-566b-485c-9996-6177eb0fde39
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

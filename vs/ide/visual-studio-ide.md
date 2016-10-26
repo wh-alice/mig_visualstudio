@@ -1,7 +1,7 @@
 ---
-title: "Visual Studio IDE | testtitle"
+title: "Visual Studio IDE"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -65,7 +65,7 @@ Microsoft Visual Studio 2015 is a suite of tools for creating software, from the
  The notification icon in the upper right of the title bar tells you when updates are available for Visual Studio or any related components that you have installed. You can choose whether to dismiss or act on these notifications. For more information, see [Visual Studio Notifications](../ide/visual-studio-notifications.md).  
   
 ### Finding things and getting help  
- The [Quick Launch](../reference/quick-launch--environment--options-dialog-box.md) window shown below is a fast way to find Visual Studio commands, tools, features, and so on when you don't know the keyboard shortcut or menu location. Just type what you are looking for and Quick Launch will give you a link to it.  
+ The [Quick Launch](../ide-reference/quick-launch--environment--options-dialog-box.md) window shown below is a fast way to find Visual Studio commands, tools, features, and so on when you don't know the keyboard shortcut or menu location. Just type what you are looking for and Quick Launch will give you a link to it.  
   
  ![Quick Launch Results for 'new project'](../ide/media/productivity_quicklaunch.png "Productivity_QuickLaunch")  
   
@@ -98,7 +98,7 @@ Microsoft Visual Studio 2015 is a suite of tools for creating software, from the
  ![Visual Studio New Project Dialog](../ide/media/vs2015_newprojectdialog.png "VS2015_NewProjectDialog")  
   
 ## Designing the user interface  
- A designer is an intuitive tool that enables you to create a user interface without writing code. You can drag UI controls such as list boxes, calendars, and buttons from the [Toolbox](../reference/toolbox.md) window onto a design surface that represents the window or dialog box. You can resize and rearrange the elements without writing any code. Designers are included for any project type that has a user interface.  
+ A designer is an intuitive tool that enables you to create a user interface without writing code. You can drag UI controls such as list boxes, calendars, and buttons from the [Toolbox](../ide-reference/toolbox.md) window onto a design surface that represents the window or dialog box. You can resize and rearrange the elements without writing any code. Designers are included for any project type that has a user interface.  
   
  If your project has a XAML-based user interface, the default designer is Blend for Visual Studio, a sophisticated graphics tool that works seamlessly with Visual Studio.  
   
@@ -135,7 +135,7 @@ Microsoft Visual Studio 2015 is a suite of tools for creating software, from the
   
 4.  [Bookmarks](../ide/setting-bookmarks-in-code.md) enable you to navigate quickly to specific lines in files that you are actively working on.  
   
-5.  The [Call Hierarchy](../reference/call-hierarchy.md) window can be invoked in the text editor context menu to show the methods that call, and are called by, the method under the caret.  
+5.  The [Call Hierarchy](../ide-reference/call-hierarchy.md) window can be invoked in the text editor context menu to show the methods that call, and are called by, the method under the caret.  
   
 6.  **Code Lens** enables you to find references and changes to your code, linked bugs, work items, code reviews, and unit tests, all without leaving the editor. For more information, see [Find code changes and other history](../ide/find-code-changes-and-other-history-with-codelens.md).  
   
@@ -163,7 +163,7 @@ Microsoft Visual Studio 2015 is a suite of tools for creating software, from the
   
  The debugger itself has multiple windows that enable you to view and manipulate local variables, the call stack, and other aspects of the runtime environment. You can find these windows on the **Debug** menu.  
   
- The [Immediate Window](../reference/immediate-window.md) enables you to type in an expression and see its result immediately.  
+ The [Immediate Window](../ide-reference/immediate-window.md) enables you to type in an expression and see its result immediately.  
   
  The [IntelliTrace](http://msdn.microsoft.com/en-us/629e9660-c59a-446b-8c30-290059158f61) window records each method call and other events in a running .NET program and can help you to quickly locate where a problem originates.  
   
@@ -197,7 +197,7 @@ Microsoft Visual Studio 2015 is a suite of tools for creating software, from the
 ## Extending Visual Studio through the Visual Studio SDK  
  Visual Studio is an extensible platform. A Visual Studio extension is a custom tool that integrates with the IDE. You can add third-party extensions or create your own. For more information, see [Developing Visual Studio Extensions](../Topic/Developing%20Visual%20Studio%20Extensions.md).  
   
- The [Visual Studio User Experience Guidelines](../extensibility/visual-studio-user-experience-guidelines.md) are an essential reference for anyone writing extensions for Visual Studio. These platform-specific guidelines include information on dialog design, fonts, colors, icons, common controls, and other interaction patterns that will make your new feature integrate seamlessly with Visual Studio.  
+ The [Visual Studio User Experience Guidelines](../extensibility-ux-guidelines/visual-studio-user-experience-guidelines.md) are an essential reference for anyone writing extensions for Visual Studio. These platform-specific guidelines include information on dialog design, fonts, colors, icons, common controls, and other interaction patterns that will make your new feature integrate seamlessly with Visual Studio.  
   
 ## In this Guide  
   
@@ -212,7 +212,7 @@ Microsoft Visual Studio 2015 is a suite of tools for creating software, from the
 |[Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)|[Deploying Applications, Services, and Components](../deployment/deploying-applications--services--and-components.md)|  
 |[Visual Studio IDE 64-Bit Support](../ide/visual-studio-ide-64-bit-support.md)|[Security](../ide/security-in-visual-studio.md)|  
 |[Visual Studio Samples](../ide/visual-studio-samples.md)|[Microsoft Help Viewer](../ide/microsoft-help-viewer.md)|  
-|[Globalizing and Localizing Applications](../ide/globalizing-and-localizing-applications.md)|[Reference](../reference/visual-studio-reference.md)|  
+|[Globalizing and Localizing Applications](../ide/globalizing-and-localizing-applications.md)|[Reference](../ide-reference/visual-studio-reference.md)|  
   
 ## See Also  
  [Installing Visual Studio 2015](../install/installing-visual-studio-2015.md)   

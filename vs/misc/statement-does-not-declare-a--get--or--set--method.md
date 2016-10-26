@@ -1,12 +1,12 @@
 ---
-title: "Statement does not declare a &#39;Get&#39; or &#39;Set&#39; method | testtitle"
+title: "Statement does not declare a &#39;Get&#39; or &#39;Set&#39; method"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30576"
 ms.assetid: 0f5aabd8-7cd0-4eaa-ae92-67be260cf63e
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

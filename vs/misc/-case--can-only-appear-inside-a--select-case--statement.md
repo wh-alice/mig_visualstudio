@@ -1,12 +1,12 @@
 ---
-title: "&#39;Case&#39; can only appear inside a &#39;Select Case&#39; statement | testtitle"
+title: "&#39;Case&#39; can only appear inside a &#39;Select Case&#39; statement"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30072"
 ms.assetid: da808bc3-f154-444a-b547-3cf55beff8a9
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

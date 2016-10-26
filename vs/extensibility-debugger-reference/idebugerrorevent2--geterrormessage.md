@@ -1,5 +1,5 @@
 ---
-title: "IDebugErrorEvent2::GetErrorMessage | testtitle"
+title: "IDebugErrorEvent2::GetErrorMessage"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

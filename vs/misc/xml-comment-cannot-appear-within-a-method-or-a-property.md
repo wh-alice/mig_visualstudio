@@ -1,12 +1,12 @@
 ---
-title: "XML comment cannot appear within a method or a property | testtitle"
+title: "XML comment cannot appear within a method or a property"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC42303"
 ms.assetid: b09d3d91-395e-4c72-981e-e9f7d467e1f5
 caps.latest.revision: 15
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

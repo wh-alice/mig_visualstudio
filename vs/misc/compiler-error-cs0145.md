@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0145 | testtitle"
+title: "Compiler Error CS0145"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0145"
 ms.assetid: e5f9a90f-1700-4e6a-8f82-23d0c0287b85
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

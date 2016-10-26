@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 3) CS0067 | testtitle"
+title: "Compiler Warning (level 3) CS0067"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0067"
 ms.assetid: df75220b-0b93-45ec-8655-98d9333b0bb7
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

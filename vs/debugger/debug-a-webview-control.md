@@ -1,5 +1,5 @@
 ---
-title: "Debug a WebView control | testtitle"
+title: "Debug a WebView control"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

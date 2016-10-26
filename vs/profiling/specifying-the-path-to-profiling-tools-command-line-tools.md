@@ -1,5 +1,5 @@
 ---
-title: "Specifying the Path to Profiling Tools Command Line Tools | testtitle"
+title: "Specifying the Path to Profiling Tools Command Line Tools"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

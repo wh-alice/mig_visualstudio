@@ -1,5 +1,5 @@
 ---
-title: "CA1060: Move P-Invokes to NativeMethods class | testtitle"
+title: "CA1060: Move P-Invokes to NativeMethods class"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -71,8 +71,8 @@ translation.priority.ht:
 ## Example  
  The following example declares a method that violates this rule. To correct the violation, the **RemoveDirectory** P/Invoke should be moved to an appropriate class that is designed to hold only P/Invokes.  
   
- [!code[FxCop.Design.DllImportNativeMethods#1](../code-quality/codesnippet/VisualBasic/ca1060--move-p-invokes-to-nativemethods-class_1.vb)]
-[!code[FxCop.Design.DllImportNativeMethods#1](../code-quality/codesnippet/CSharp/ca1060--move-p-invokes-to-nativemethods-class_1.cs)]  
+ [!code-vb[FxCop.Design.DllImportNativeMethods#1](../code-quality/codesnippet/VisualBasic/ca1060--move-p-invokes-to-nativemethods-class_1.vb)]
+ [!code-cs[FxCop.Design.DllImportNativeMethods#1](../code-quality/codesnippet/CSharp/ca1060--move-p-invokes-to-nativemethods-class_1.cs)]  
   
 ## NativeMethods Example  
   
@@ -82,8 +82,8 @@ translation.priority.ht:
  The following example shows an **Interaction.Beep** method that wraps the **MessageBeep** function from user32.dll. The **MessageBeep** P/Invoke is put in the **NativeMethods** class.  
   
 ### Code  
- [!code[FxCop.Design.NativeMethods#1](../code-quality/codesnippet/CSharp/ca1060--move-p-invokes-to-nativemethods-class_2.cs)]
-[!code[FxCop.Design.NativeMethods#1](../code-quality/codesnippet/VisualBasic/ca1060--move-p-invokes-to-nativemethods-class_2.vb)]  
+ [!code-cs[FxCop.Design.NativeMethods#1](../code-quality/codesnippet/CSharp/ca1060--move-p-invokes-to-nativemethods-class_2.cs)]
+ [!code-vb[FxCop.Design.NativeMethods#1](../code-quality/codesnippet/VisualBasic/ca1060--move-p-invokes-to-nativemethods-class_2.vb)]  
   
 ## SafeNativeMethods Example  
   
@@ -93,8 +93,8 @@ translation.priority.ht:
  The following example shows an **Environment.TickCount** property that wraps the **GetTickCount** function from kernel32.dll.  
   
 ### Code  
- [!code[FxCop.Design.NativeMethodsSafe#1](../code-quality/codesnippet/VisualBasic/ca1060--move-p-invokes-to-nativemethods-class_3.vb)]
-[!code[FxCop.Design.NativeMethodsSafe#1](../code-quality/codesnippet/CSharp/ca1060--move-p-invokes-to-nativemethods-class_3.cs)]  
+ [!code-vb[FxCop.Design.NativeMethodsSafe#1](../code-quality/codesnippet/VisualBasic/ca1060--move-p-invokes-to-nativemethods-class_3.vb)]
+ [!code-cs[FxCop.Design.NativeMethodsSafe#1](../code-quality/codesnippet/CSharp/ca1060--move-p-invokes-to-nativemethods-class_3.cs)]  
   
 ## UnsafeNativeMethods Example  
   
@@ -104,8 +104,8 @@ translation.priority.ht:
  The following example shows a **Cursor.Hide** method that wraps the **ShowCursor** function from user32.dll.  
   
 ### Code  
- [!code[FxCop.Design.NativeMethodsUnsafe#1](../code-quality/codesnippet/VisualBasic/ca1060--move-p-invokes-to-nativemethods-class_4.vb)]
-[!code[FxCop.Design.NativeMethodsUnsafe#1](../code-quality/codesnippet/CSharp/ca1060--move-p-invokes-to-nativemethods-class_4.cs)]  
+ [!code-vb[FxCop.Design.NativeMethodsUnsafe#1](../code-quality/codesnippet/VisualBasic/ca1060--move-p-invokes-to-nativemethods-class_4.vb)]
+ [!code-cs[FxCop.Design.NativeMethodsUnsafe#1](../code-quality/codesnippet/CSharp/ca1060--move-p-invokes-to-nativemethods-class_4.cs)]  
   
 ## See Also  
  [Design Warnings](../code-quality/design-warnings.md)

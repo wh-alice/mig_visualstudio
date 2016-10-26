@@ -1,5 +1,5 @@
 ---
-title: "IDiaLineNumber::get_sourceFileId | testtitle"
+title: "IDiaLineNumber::get_sourceFileId"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

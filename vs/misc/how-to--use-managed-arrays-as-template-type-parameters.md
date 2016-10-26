@@ -1,5 +1,5 @@
 ---
-title: "How to: Use Managed Arrays as Template Type Parameters | testtitle"
+title: "How to: Use Managed Arrays as Template Type Parameters"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

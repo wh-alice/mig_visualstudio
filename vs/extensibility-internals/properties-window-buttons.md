@@ -1,5 +1,5 @@
 ---
-title: "Properties Window Buttons | testtitle"
+title: "Properties Window Buttons"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -31,7 +31,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Properties Window Buttons
-Depending on the development language and the product type, certain buttons are displayed by default on the toolbar for the **Properties** window. In all cases, the **Categorized**, **Alphabetized**, **Properties**, and **Property Pages** buttons are displayed. In Visual C# and Visual Basic, the **Events** button is also displayed. In certain Visual C++ projects, the **VC++ Messages** and the **VC Overrides** buttons are displayed. Additional buttons may be displayed for other project types. For more information about buttons in the **Properties** window, see [Properties Window](../reference/properties-window.md).  
+Depending on the development language and the product type, certain buttons are displayed by default on the toolbar for the **Properties** window. In all cases, the **Categorized**, **Alphabetized**, **Properties**, and **Property Pages** buttons are displayed. In Visual C# and Visual Basic, the **Events** button is also displayed. In certain Visual C++ projects, the **VC++ Messages** and the **VC Overrides** buttons are displayed. Additional buttons may be displayed for other project types. For more information about buttons in the **Properties** window, see [Properties Window](../ide-reference/properties-window.md).  
   
 ## Implementation of Properties Window Buttons  
  When you click the **Categorized** button, Visual Studio calls the <xref:Microsoft.VisualStudio.Shell.Interop.ICategorizeProperties> interface on the object that has focus to sort its properties by category. <xref:Microsoft.VisualStudio.Shell.Interop.ICategorizeProperties> is implemented on the `IDispatch` object that is presented to the **Properties** window.  

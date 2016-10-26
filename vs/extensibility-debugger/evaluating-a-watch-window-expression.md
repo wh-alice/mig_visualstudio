@@ -1,5 +1,5 @@
 ---
-title: "Evaluating a Watch Window Expression | testtitle"
+title: "Evaluating a Watch Window Expression"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

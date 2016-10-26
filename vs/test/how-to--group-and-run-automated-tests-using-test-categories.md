@@ -1,5 +1,5 @@
 ---
-title: "How to: Group and Run Automated Tests Using Test Categories | testtitle"
+title: "How to: Group and Run Automated Tests Using Test Categories"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-tfs-dev14"

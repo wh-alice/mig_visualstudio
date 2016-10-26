@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1912 | testtitle"
+title: "Compiler Error CS1912"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1912"
 ms.assetid: 6205420e-01b9-4470-89f9-5924f1e49108
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,12 +1,12 @@
 ---
-title: "Operator &#39;operator&#39; is not defined for types &#39;type1&#39; and &#39;type2&#39; | testtitle"
+title: "Operator &#39;operator&#39; is not defined for types &#39;type1&#39; and &#39;type2&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC31195"
 ms.assetid: f6739344-eb13-4cea-a6d3-2125b77ee562
 caps.latest.revision: 4
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

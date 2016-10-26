@@ -1,12 +1,12 @@
 ---
-title: "&#39;Let&#39; and &#39;Set&#39; assignment statements are no longer supported | testtitle"
+title: "&#39;Let&#39; and &#39;Set&#39; assignment statements are no longer supported"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30807"
 ms.assetid: 41345efa-0d9f-4dfa-b16c-0f649efe8e24
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

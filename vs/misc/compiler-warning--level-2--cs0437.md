@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 2) CS0437 | testtitle"
+title: "Compiler Warning (level 2) CS0437"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0437"
 ms.assetid: cba5c9b6-a0bc-4f19-b1f0-c1f66436ee91
 caps.latest.revision: 13
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

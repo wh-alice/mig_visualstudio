@@ -1,5 +1,5 @@
 ---
-title: "Deploy a layer model extension | testtitle"
+title: "Deploy a layer model extension"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

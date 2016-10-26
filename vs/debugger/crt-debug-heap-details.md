@@ -1,5 +1,5 @@
 ---
-title: "CRT Debug Heap Details | testtitle"
+title: "CRT Debug Heap Details"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

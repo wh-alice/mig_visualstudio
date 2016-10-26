@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1689 | testtitle"
+title: "Compiler Error CS1689"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1689"
 ms.assetid: 5fa6e845-40ef-4451-81ee-acbe2665527a
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

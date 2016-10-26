@@ -1,5 +1,5 @@
 ---
-title: "Editing Load Test Scenarios Using the Load Test Editor | testtitle"
+title: "Editing Load Test Scenarios Using the Load Test Editor"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"

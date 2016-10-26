@@ -1,5 +1,5 @@
 ---
-title: "CA1006: Do not nest generic types in member signatures | testtitle"
+title: "CA1006: Do not nest generic types in member signatures"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -57,8 +57,8 @@ translation.priority.ht:
 ## Example  
  The following example shows a method that violates the rule and the syntax that is required to call the violating method.  
   
- [!code[FxCop.Design.NestedGenerics#1](../code-quality/codesnippet/VisualBasic/ca1006--do-not-nest-generic-types-in-member-signatures_1.vb)]
-[!code[FxCop.Design.NestedGenerics#1](../code-quality/codesnippet/CSharp/ca1006--do-not-nest-generic-types-in-member-signatures_1.cs)]  
+ [!code-vb[FxCop.Design.NestedGenerics#1](../code-quality/codesnippet/VisualBasic/ca1006--do-not-nest-generic-types-in-member-signatures_1.vb)]
+ [!code-cs[FxCop.Design.NestedGenerics#1](../code-quality/codesnippet/CSharp/ca1006--do-not-nest-generic-types-in-member-signatures_1.cs)]  
   
 ## Related Rules  
  [CA1005: Avoid excessive parameters on generic types](../code-quality/ca1005--avoid-excessive-parameters-on-generic-types.md)  

@@ -1,12 +1,12 @@
 ---
-title: "&#39;&lt;member&gt;&#39; is already declared in this structure | testtitle"
+title: "&#39;&lt;member&gt;&#39; is already declared in this structure"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC31421"
 ms.assetid: 879b578c-7dcd-4669-91c4-bfc8de6d2efb
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

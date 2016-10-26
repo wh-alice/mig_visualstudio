@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1615 | testtitle"
+title: "Compiler Error CS1615"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1615"
 ms.assetid: 518bb07f-0e3a-4761-9931-66845eb5df1a
 caps.latest.revision: 6
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

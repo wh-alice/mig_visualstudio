@@ -1,5 +1,5 @@
 ---
-title: "CA2227: Collection properties should be read only | testtitle"
+title: "CA2227: Collection properties should be read only"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -59,9 +59,9 @@ translation.priority.ht:
 ## Example  
  The following example shows a type with a writable collection property and shows how the collection can be replaced directly. Additionally, the preferred manner of replacing a read-only collection property using `Clear` and `AddRange` methods is shown.  
   
- [!code[FxCop.Usage.PropertiesReturningCollections#1](../code-quality/codesnippet/CSharp/ca2227--collection-properties-should-be-read-only_1.cs)]
-[!code[FxCop.Usage.PropertiesReturningCollections#1](../code-quality/codesnippet/VisualBasic/ca2227--collection-properties-should-be-read-only_1.vb)]
-[!code[FxCop.Usage.PropertiesReturningCollections#1](../code-quality/codesnippet/CPP/ca2227--collection-properties-should-be-read-only_1.cpp)]  
+ [!code-cs[FxCop.Usage.PropertiesReturningCollections#1](../code-quality/codesnippet/CSharp/ca2227--collection-properties-should-be-read-only_1.cs)]
+ [!code-vb[FxCop.Usage.PropertiesReturningCollections#1](../code-quality/codesnippet/VisualBasic/ca2227--collection-properties-should-be-read-only_1.vb)]
+ [!code-cpp[FxCop.Usage.PropertiesReturningCollections#1](../code-quality/codesnippet/CPP/ca2227--collection-properties-should-be-read-only_1.cpp)]  
   
 ## Related Rules  
  [CA1819: Properties should not return arrays](../code-quality/ca1819--properties-should-not-return-arrays.md)

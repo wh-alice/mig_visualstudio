@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1509 | testtitle"
+title: "Compiler Error CS1509"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1509"
 ms.assetid: 51a475c3-f085-49cb-89b0-c6582b68653f
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

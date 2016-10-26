@@ -1,5 +1,5 @@
 ---
-title: "CA2102: Catch non-CLSCompliant exceptions in general handlers | testtitle"
+title: "CA2102: Catch non-CLSCompliant exceptions in general handlers"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -80,7 +80,7 @@ translation.priority.mt:
 ## Example  
  The following example shows a method that contains a general catch block that satisfies the rule.  
   
- [!code[FxCop.Security.CatchNonClsCompliantException#1](../code-quality/codesnippet/CSharp/ca2102--catch-non-clscompliant-exceptions-in-general-handlers_1.cs)]  
+ [!code-cs[FxCop.Security.CatchNonClsCompliantException#1](../code-quality/codesnippet/CSharp/ca2102--catch-non-clscompliant-exceptions-in-general-handlers_1.cs)]  
   
  Compile the previous examples as follows.  
   

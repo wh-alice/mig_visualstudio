@@ -1,5 +1,5 @@
 ---
-title: "HTML UI responsiveness | testtitle"
+title: "HTML UI responsiveness"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0255 | testtitle"
+title: "Compiler Error CS0255"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0255"
 ms.assetid: b45f5d5a-1923-4fe1-a858-e5ef5590a108
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

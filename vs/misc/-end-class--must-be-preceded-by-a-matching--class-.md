@@ -1,12 +1,12 @@
 ---
-title: "&#39;End Class&#39; must be preceded by a matching &#39;Class&#39; | testtitle"
+title: "&#39;End Class&#39; must be preceded by a matching &#39;Class&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30460"
 ms.assetid: 0e6989da-f281-4ac4-8579-b6d627be8de8
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

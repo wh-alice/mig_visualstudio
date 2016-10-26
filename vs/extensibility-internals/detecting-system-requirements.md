@@ -1,5 +1,5 @@
 ---
-title: "Detecting System Requirements | testtitle"
+title: "Detecting System Requirements"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

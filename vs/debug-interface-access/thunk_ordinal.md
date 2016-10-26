@@ -1,5 +1,5 @@
 ---
-title: "THUNK_ORDINAL | testtitle"
+title: "THUNK_ORDINAL"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

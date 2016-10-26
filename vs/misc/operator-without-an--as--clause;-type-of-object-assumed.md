@@ -1,12 +1,12 @@
 ---
-title: "Operator without an &#39;As&#39; clause; type of Object assumed | testtitle"
+title: "Operator without an &#39;As&#39; clause; type of Object assumed"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC41005"
 ms.assetid: 42be84ed-7aa6-4ac0-9dd4-663e90f13e09
 caps.latest.revision: 6
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

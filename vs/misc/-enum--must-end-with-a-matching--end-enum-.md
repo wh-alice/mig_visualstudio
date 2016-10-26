@@ -1,12 +1,12 @@
 ---
-title: "&#39;Enum&#39; must end with a matching &#39;End Enum&#39; | testtitle"
+title: "&#39;Enum&#39; must end with a matching &#39;End Enum&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30185"
 ms.assetid: 43dd759c-1207-4dcc-b2e2-478d91e6f2f8
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

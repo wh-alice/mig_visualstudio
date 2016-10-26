@@ -1,5 +1,5 @@
 ---
-title: "How to: Force a VSPackage to Load | testtitle"
+title: "How to: Force a VSPackage to Load"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -40,7 +40,7 @@ VSPackages are ordinarily loaded only when their accompanying functionality is r
   
 -   Insert this code into the <xref:Microsoft.VisualStudio.Shell.Package.Initialize*> method of the VSPackage that forces another VSPackage to load:  
   
-     [!code[ForceVSPackageLoad#01](../misc/codesnippet/CSharp/how-to--force-a-vspackage-to-load_1.cs)]  
+     [!code-cs[ForceVSPackageLoad#01](../misc/codesnippet/CSharp/how-to--force-a-vspackage-to-load_1.cs)]  
   
      When the VSPackage is initialized, it will force `PackageToBeLoaded` to load.  
   

@@ -1,5 +1,5 @@
 ---
-title: "Properties of Diagrams | testtitle"
+title: "Properties of Diagrams"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

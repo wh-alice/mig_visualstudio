@@ -1,5 +1,5 @@
 ---
-title: "Beginners Guide to Performance Profiling | testtitle"
+title: "Beginners Guide to Performance Profiling"
 ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"

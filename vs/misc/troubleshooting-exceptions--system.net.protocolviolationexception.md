@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Exceptions: System.Net.ProtocolViolationException | testtitle"
+title: "Troubleshooting Exceptions: System.Net.ProtocolViolationException"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

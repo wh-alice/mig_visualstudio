@@ -1,5 +1,5 @@
 ---
-title: "CA2242: Test for NaN correctly | testtitle"
+title: "CA2242: Test for NaN correctly"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -56,5 +56,5 @@ translation.priority.ht:
 ## Example  
  The following example shows two expressions that incorrectly test a value against <xref:System.Double.NaN?displayProperty=fullName> and an expression that correctly uses <xref:System.Double.IsNaN*?displayProperty=fullName> to test the value.  
   
- [!code[FxCop.Usage.TestForNaN#1](../code-quality/codesnippet/VisualBasic/ca2242--test-for-nan-correctly_1.vb)]
-[!code[FxCop.Usage.TestForNaN#1](../code-quality/codesnippet/CSharp/ca2242--test-for-nan-correctly_1.cs)]
+ [!code-vb[FxCop.Usage.TestForNaN#1](../code-quality/codesnippet/VisualBasic/ca2242--test-for-nan-correctly_1.vb)]
+ [!code-cs[FxCop.Usage.TestForNaN#1](../code-quality/codesnippet/CSharp/ca2242--test-for-nan-correctly_1.cs)]

@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio Multi-Targeting Overview | testtitle"
+title: "Visual Studio Multi-Targeting Overview"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
@@ -37,7 +37,7 @@ translation.priority.ht:
 In this version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], you can specify the version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] that is required for your application. Therefore, if you want to use this version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to continue to develop a project that you started in an earlier version, you do not have to change the framework target. You could also create a solution that contains projects that target different versions of the framework. Framework targeting also helps guarantee that the application uses only functionality that is available in the specified version of the framework.  
   
 > [!TIP]
->  You can also target applications for different platforms. For more information, see [Multitargeting](../reference/msbuild-multitargeting-overview.md)  
+>  You can also target applications for different platforms. For more information, see [Multitargeting](../msbuild/msbuild-multitargeting-overview.md)  
   
 ## Framework Targeting Features  
  Framework targeting includes the following features:  
@@ -83,12 +83,12 @@ In this version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], yo
   
  The **Add Reference** dialog box disables system assemblies that do not pertain to the target [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] version so that they cannot be added to a project inadvertently. (System assemblies are .dll files that are included in a [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] version.) References that belong to a framework version that is later than the targeted version will not resolve, and controls that depend on such a reference cannot be added. If you want to enable such a reference, reset the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] target of the project to one that includes the reference.  For more information, see [Introduction to the Project Designer](http://msdn.microsoft.com/en-us/898dd854-c98d-430c-ba1b-a913ce3c73d7).  
   
- For more information about assembly references, see [Resolving Assemblies at Design Time](../reference/resolving-assemblies-at-design-time.md).  
+ For more information about assembly references, see [Resolving Assemblies at Design Time](../msbuild/resolving-assemblies-at-design-time.md).  
   
 ## Enabling LINQ  
  When you target the .NET Framework 3.5 or later, a reference to System.Core and a project-level import for System.Linq (in Visual Basic only) are added automatically. If you want to use LINQ features, you must also turn Option Infer on (in Visual Basic only). The reference and import are removed automatically if you change the target to an earlier .NET Framework version. For more information, see [How to: Create a LINQ Project](../Topic/How%20to:%20Create%20a%20LINQ%20Project.md).  
   
 ## See Also  
- [Multitargeting](../reference/msbuild-multitargeting-overview.md)   
+ [Multitargeting](../msbuild/msbuild-multitargeting-overview.md)   
  [.NET Framework Multi-Targeting for ASP.NET Web Projects](../Topic/.NET%20Framework%20Multi-Targeting%20for%20ASP.NET%20Web%20Projects.md)   
  [Platform compatibility and system requirements](http://www.microsoft.com/visualstudio/eng/products/compatibility)

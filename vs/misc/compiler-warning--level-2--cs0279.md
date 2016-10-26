@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 2) CS0279 | testtitle"
+title: "Compiler Warning (level 2) CS0279"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0279"
 ms.assetid: 5e5faa8f-3d5b-4999-aa62-ff7f131a3e04
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

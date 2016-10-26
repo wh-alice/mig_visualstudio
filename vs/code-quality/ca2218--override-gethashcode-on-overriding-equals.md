@@ -1,5 +1,5 @@
 ---
-title: "CA2218: Override GetHashCode on overriding Equals | testtitle"
+title: "CA2218: Override GetHashCode on overriding Equals"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -78,13 +78,13 @@ translation.priority.ht:
  The following example shows a class (reference type) that violates this rule.  
   
 ### Code  
- [!code[FxCop.Usage.GetHashCodeErrorClass#1](../code-quality/codesnippet/CSharp/ca2218--override-gethashcode-on-overriding-equals_1.cs)]  
+ [!code-cs[FxCop.Usage.GetHashCodeErrorClass#1](../code-quality/codesnippet/CSharp/ca2218--override-gethashcode-on-overriding-equals_1.cs)]  
   
 ### Comments  
  The following example fixes the violation by overriding <xref:System.Object.GetHashCode>.  
   
 ### Code  
- [!code[FxCop.Usage.GetHashCodeFixedClass#1](../code-quality/codesnippet/CSharp/ca2218--override-gethashcode-on-overriding-equals_2.cs)]  
+ [!code-cs[FxCop.Usage.GetHashCodeFixedClass#1](../code-quality/codesnippet/CSharp/ca2218--override-gethashcode-on-overriding-equals_2.cs)]  
   
 ## Structure Example  
   
@@ -92,13 +92,13 @@ translation.priority.ht:
  The following example shows a structure (value type) that violates this rule.  
   
 ### Code  
- [!code[FxCop.Usage.GetHashCodeErrorStruct#1](../code-quality/codesnippet/CSharp/ca2218--override-gethashcode-on-overriding-equals_3.cs)]  
+ [!code-cs[FxCop.Usage.GetHashCodeErrorStruct#1](../code-quality/codesnippet/CSharp/ca2218--override-gethashcode-on-overriding-equals_3.cs)]  
   
 ### Comments  
  The following example fixes the violation by overriding <xref:System.Object.GetHashCode>.  
   
 ### Code  
- [!code[FxCop.Usage.GetHashCodeFixedStruct#1](../code-quality/codesnippet/CSharp/ca2218--override-gethashcode-on-overriding-equals_4.cs)]  
+ [!code-cs[FxCop.Usage.GetHashCodeFixedStruct#1](../code-quality/codesnippet/CSharp/ca2218--override-gethashcode-on-overriding-equals_4.cs)]  
   
 ## Related Rules  
  [CA1046: Do not overload operator equals on reference types](../code-quality/ca1046--do-not-overload-operator-equals-on-reference-types.md)  

@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0724 | testtitle"
+title: "Compiler Error CS0724"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0724"
 ms.assetid: bcdb2017-7a43-4242-b4e2-a1ae03d6d73f
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

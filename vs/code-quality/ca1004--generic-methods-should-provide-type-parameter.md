@@ -1,5 +1,5 @@
 ---
-title: "CA1004: Generic methods should provide type parameter | testtitle"
+title: "CA1004: Generic methods should provide type parameter"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -57,8 +57,8 @@ translation.priority.ht:
 ## Example  
  The following example shows the syntax for calling two generic methods. The type argument for `InferredTypeArgument` is inferred, and the type argument for `NotInferredTypeArgument` must be explicitly specified.  
   
- [!code[FxCop.Design.Inference#1](../code-quality/codesnippet/VisualBasic/ca1004--generic-methods-should-provide-type-parameter_1.vb)]
-[!code[FxCop.Design.Inference#1](../code-quality/codesnippet/CSharp/ca1004--generic-methods-should-provide-type-parameter_1.cs)]  
+ [!code-vb[FxCop.Design.Inference#1](../code-quality/codesnippet/VisualBasic/ca1004--generic-methods-should-provide-type-parameter_1.vb)]
+ [!code-cs[FxCop.Design.Inference#1](../code-quality/codesnippet/CSharp/ca1004--generic-methods-should-provide-type-parameter_1.cs)]  
   
 ## Related Rules  
  [CA1005: Avoid excessive parameters on generic types](../code-quality/ca1005--avoid-excessive-parameters-on-generic-types.md)  

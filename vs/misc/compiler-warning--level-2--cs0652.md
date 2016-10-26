@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 2) CS0652 | testtitle"
+title: "Compiler Warning (level 2) CS0652"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0652"
 ms.assetid: 1ec1cee6-858a-4104-aa15-2668723c6331
 caps.latest.revision: 6
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

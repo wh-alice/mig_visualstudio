@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Exceptions: System.ServiceModel.InvalidMessageContractException | testtitle"
+title: "Troubleshooting Exceptions: System.ServiceModel.InvalidMessageContractException"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

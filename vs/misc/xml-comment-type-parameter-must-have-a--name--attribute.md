@@ -1,12 +1,12 @@
 ---
-title: "XML comment type parameter must have a &#39;name&#39; attribute | testtitle"
+title: "XML comment type parameter must have a &#39;name&#39; attribute"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC42318"
 ms.assetid: 2c7a6340-46f0-4ace-a573-60ea7166707d
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

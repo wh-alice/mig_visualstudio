@@ -1,5 +1,5 @@
 ---
-title: "How to: Target a Version of the .NET Framework | testtitle"
+title: "How to: Target a Version of the .NET Framework"
 ms.custom: ""
 ms.date: "10/22/2016"
 ms.prod: "visual-studio-dev14"
@@ -88,13 +88,13 @@ This document describes how to target a version of the .NET Framework when you c
      The project unloads. When it reloads, it targets the .NET Framework version that you just chose.  
   
     > [!NOTE]
-    >  If your code contains references to a different version of the .NET Framework than the one that you targeted, error messages may appear when you compile or run the code. To resolve these errors, you must modify the references. See [Troubleshooting .NET Framework Targeting Errors](../reference/troubleshooting-.net-framework-targeting-errors.md).  
+    >  If your code contains references to a different version of the .NET Framework than the one that you targeted, error messages may appear when you compile or run the code. To resolve these errors, you must modify the references. See [Troubleshooting .NET Framework Targeting Errors](../msbuild/troubleshooting-.net-framework-targeting-errors.md).  
   
 ## See Also  
  [Visual Studio Multi-Targeting Overview](../ide/visual-studio-multi-targeting-overview.md)   
  [.NET Framework Multi-Targeting for ASP.NET Web Projects](../Topic/.NET%20Framework%20Multi-Targeting%20for%20ASP.NET%20Web%20Projects.md)   
- [Troubleshooting .NET Framework Targeting Errors](../reference/troubleshooting-.net-framework-targeting-errors.md)   
- [Application Page, Project Designer (C#)](../reference/application-page--project-designer--csharp-.md)   
- [Application Page, Project Designer (Visual Basic)](../reference/application-page--project-designer--visual-basic-.md)   
+ [Troubleshooting .NET Framework Targeting Errors](../msbuild/troubleshooting-.net-framework-targeting-errors.md)   
+ [Application Page, Project Designer (C#)](../ide-reference/application-page--project-designer--csharp-.md)   
+ [Application Page, Project Designer (Visual Basic)](../ide-reference/application-page--project-designer--visual-basic-.md)   
  [Configuring Projects](../Topic/Configuring%20Projects%20\(F%23\).md)   
  [How to: Modify the Target Framework and Platform Toolset](../Topic/How%20to:%20Modify%20the%20Target%20Framework%20and%20Platform%20Toolset.md)

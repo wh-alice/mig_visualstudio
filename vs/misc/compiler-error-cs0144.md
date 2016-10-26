@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0144 | testtitle"
+title: "Compiler Error CS0144"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0144"
 ms.assetid: 3904cab1-05bd-44ec-81d0-e36c5656f742
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,5 +1,5 @@
 ---
-title: "variate_generator Class | testtitle"
+title: "variate_generator Class"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,7 +1,7 @@
 ---
-title: "Devenv Command-Line Switches for VSPackage Development | testtitle"
+title: "Devenv Command-Line Switches for VSPackage Development"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -49,7 +49,7 @@ translation.priority.mt:
 -   Loading the IDE in specific configurations, all from outside the IDE. In addition, you can customize the IDE upon launch.  
   
 ## Guidelines for Switches  
- [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] documentation describes the user-level devenv command line switches. For more information, see [Devenv Command Line Switches](../reference/devenv-command-line-switches.md). Devenv also supports additional command-line switches that are useful with VSPackage development, deployment, and debugging.  
+ [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] documentation describes the user-level devenv command line switches. For more information, see [Devenv Command Line Switches](../ide-reference/devenv-command-line-switches.md). Devenv also supports additional command-line switches that are useful with VSPackage development, deployment, and debugging.  
   
 |Command-line switch|Description|  
 |--------------------------|-----------------|  
@@ -60,4 +60,4 @@ translation.priority.mt:
   
 ## See Also  
  [Adding Command-Line Switches](../extensibility/adding-command-line-switches.md)   
- [Devenv Command Line Switches](../reference/devenv-command-line-switches.md)
+ [Devenv Command Line Switches](../ide-reference/devenv-command-line-switches.md)

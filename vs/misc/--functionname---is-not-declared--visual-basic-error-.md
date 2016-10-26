@@ -1,12 +1,12 @@
 ---
-title: "&#39;&lt;functionname&gt;&#39; is not declared (Visual Basic Error) | testtitle"
+title: "&#39;&lt;functionname&gt;&#39; is not declared (Visual Basic Error)"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30815"
 ms.assetid: 3ae91dd4-567d-4101-951c-834be77c4f07
 caps.latest.revision: 11
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

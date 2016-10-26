@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0815 | testtitle"
+title: "Compiler Error CS0815"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0815"
 ms.assetid: 8f055d34-9ee4-482e-9e79-8b3698c55cb4
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

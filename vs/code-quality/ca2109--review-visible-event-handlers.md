@@ -1,5 +1,5 @@
 ---
-title: "CA2109: Review visible event handlers | testtitle"
+title: "CA2109: Review visible event handlers"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -71,7 +71,7 @@ translation.priority.ht:
 ## Example  
  The following code shows an event-handling method that can be misused by malicious code.  
   
- [!code[FxCop.Security.EventSecLib#1](../code-quality/codesnippet/CSharp/ca2109--review-visible-event-handlers_1.cs)]  
+ [!code-cs[FxCop.Security.EventSecLib#1](../code-quality/codesnippet/CSharp/ca2109--review-visible-event-handlers_1.cs)]  
   
 ## See Also  
  <xref:System.Security.CodeAccessPermission.Demand*?displayProperty=fullName>   

@@ -1,12 +1,12 @@
 ---
-title: "&#39;Char&#39; values cannot be converted to &#39;&lt;typename&gt;&#39; | testtitle"
+title: "&#39;Char&#39; values cannot be converted to &#39;&lt;typename&gt;&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC32006"
 ms.assetid: c033f65e-a315-47fc-be2e-ed371847a221
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

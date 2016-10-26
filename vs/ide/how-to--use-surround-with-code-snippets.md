@@ -1,5 +1,5 @@
 ---
-title: "How to: Use Surround-with Code Snippets | testtitle"
+title: "How to: Use Surround-with Code Snippets"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -70,4 +70,4 @@ The following procedures describe how to use surround-with code snippets. Surrou
   
 ## See Also  
  [Visual C# Code Snippets](../ide/visual-csharp-code-snippets.md)   
- [Code Snippet Picker](../reference/code-snippet-picker.md)
+ [Code Snippet Picker](../ide-reference/code-snippet-picker.md)

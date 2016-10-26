@@ -1,5 +1,5 @@
 ---
-title: "CA1403: Auto layout types should not be COM visible | testtitle"
+title: "CA1403: Auto layout types should not be COM visible"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -60,8 +60,8 @@ translation.priority.mt:
 ## Example  
  The following example shows a type that violates the rule and a type that satisfies the rule.  
   
- [!code[FxCop.Interoperability.AutoLayout#1](../code-quality/codesnippet/CSharp/ca1403--auto-layout-types-should-not-be-com-visible_1.cs)]
-[!code[FxCop.Interoperability.AutoLayout#1](../code-quality/codesnippet/VisualBasic/ca1403--auto-layout-types-should-not-be-com-visible_1.vb)]  
+ [!code-cs[FxCop.Interoperability.AutoLayout#1](../code-quality/codesnippet/CSharp/ca1403--auto-layout-types-should-not-be-com-visible_1.cs)]
+ [!code-vb[FxCop.Interoperability.AutoLayout#1](../code-quality/codesnippet/VisualBasic/ca1403--auto-layout-types-should-not-be-com-visible_1.vb)]  
   
 ## Related Rules  
  [CA1408: Do not use AutoDual ClassInterfaceType](../code-quality/ca1408--do-not-use-autodual-classinterfacetype.md)  

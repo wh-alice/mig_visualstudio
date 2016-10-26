@@ -1,5 +1,5 @@
 ---
-title: "Application Deployment Prerequisites | testtitle"
+title: "Application Deployment Prerequisites"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
@@ -42,7 +42,7 @@ translation.priority.ht:
 # Application Deployment Prerequisites
 To ensure that your application will install and run successfully, you must first ensure that all components upon which your application is dependent are already installed on the target computer. For example, most applications created by using [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] have a dependency on the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]; the correct version of the common language runtime must be present on the destination computer before the application is installed.  
   
- You can select these prerequisites in the **Prerequisites Dialog Box** and install the .NET Framework and other redistributables as a part of your installation. This practice is known as *bootstrapping*. Next, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] generates a Windows executable program named Setup.exe, also known as a *bootstrapper*. The bootstrapper is responsible for installing these prerequisites before your application runs. For more information about selecting these prerequisites, see [Prerequisites Dialog Box](../reference/prerequisites-dialog-box.md).  
+ You can select these prerequisites in the **Prerequisites Dialog Box** and install the .NET Framework and other redistributables as a part of your installation. This practice is known as *bootstrapping*. Next, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] generates a Windows executable program named Setup.exe, also known as a *bootstrapper*. The bootstrapper is responsible for installing these prerequisites before your application runs. For more information about selecting these prerequisites, see [Prerequisites Dialog Box](../ide-reference/prerequisites-dialog-box.md).  
   
  Each prerequisite is a bootstrapper package. A bootstrapper package is a group of directories and files that contain manifest files that describe how the prerequisite should be installed. If your application prerequisites are not listed in the **Prerequisite Dialog Box**, you can create custom bootstrapper packages and add them to Visual Studio. Then you can select the prerequisites in the **Prerequisites Dialog Box**. For more information, see [Creating Bootstrapper Packages](../deployment/creating-bootstrapper-packages.md).  
   
@@ -74,7 +74,7 @@ To ensure that your application will install and run successfully, you must firs
  If you generate the bootstrapper by using the ClickOnce Publish Wizard or the Publish Page in Visual Studio, the Setup.exe is automatically signed. However, if you want to use your customer's certificate to sign the bootstrapper, you can sign the file later.  
   
 ## Bootstrapping and MSBuild  
- If you do not use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], but compile your applications on the command line, you can create the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] bootstrapping application by using a Microsoft Build Engine (MSBuild) task. For more information, see [GenerateBootstrapper Task](../reference/generatebootstrapper-task.md).  
+ If you do not use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], but compile your applications on the command line, you can create the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] bootstrapping application by using a Microsoft Build Engine (MSBuild) task. For more information, see [GenerateBootstrapper Task](../msbuild/generatebootstrapper-task.md).  
   
  As an alternative to bootstrapping, you can pre-deploy components using an electronic software distribution system, such as Microsoft Systems Management Server (SMS).  
   

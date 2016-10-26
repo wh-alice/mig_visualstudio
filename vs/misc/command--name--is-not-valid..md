@@ -1,5 +1,5 @@
 ---
-title: "Command &lt;name&gt; is not valid. | testtitle"
+title: "Command &lt;name&gt; is not valid."
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -40,4 +40,4 @@ This error generally occurs when a command or alias of a command not recognized 
 1.  Re-enter the command name or choose a valid command name.  
   
 ## See Also  
- [Command Window](../reference/command-window.md)
+ [Command Window](../ide-reference/command-window.md)

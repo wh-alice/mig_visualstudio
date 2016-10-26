@@ -1,5 +1,5 @@
 ---
-title: "JavaScript IntelliSense | testtitle"
+title: "JavaScript IntelliSense"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
@@ -240,7 +240,7 @@ IntelliSense helps you write code faster and with fewer errors by providing info
   
 -   Generic, for other JavaScript project types.  
   
- In most scenarios, you don't have to modify reference groups. However, if you want to make changes, you can use configuration options for the JavaScript Code Editor to specify the files included in the reference groups. For instructions about using this feature, see [Options, Text Editor, JavaScript, IntelliSense](../reference/options--text-editor--javascript--intellisense.md).  
+ In most scenarios, you don't have to modify reference groups. However, if you want to make changes, you can use configuration options for the JavaScript Code Editor to specify the files included in the reference groups. For instructions about using this feature, see [Options, Text Editor, JavaScript, IntelliSense](../ide-reference/options--text-editor--javascript--intellisense.md).  
   
 > [!TIP]
 >  The IntelliSense references are typically used to provide IntelliSense support for global objects and for IntelliSense [extensions](#Extensibility). You can also use this feature for scripts that must be loaded at runtime using the script loader.  
@@ -251,7 +251,7 @@ IntelliSense helps you write code faster and with fewer errors by providing info
 > [!NOTE]
 >  Except for Web projects, this feature works only for JavaScript files that are opened outside the context of a project. For Web projects, remote files referenced in your project are downloaded by default.  
   
- For instructions about using this feature, see [Options, Text Editor, JavaScript, IntelliSense](../reference/options--text-editor--javascript--intellisense.md).  
+ For instructions about using this feature, see [Options, Text Editor, JavaScript, IntelliSense](../ide-reference/options--text-editor--javascript--intellisense.md).  
   
 > [!WARNING]
 >  If you enable this feature and you observe slower performance in the Code Editor, we recommend that you disable it.  

@@ -1,5 +1,5 @@
 ---
-title: "IDebugCoreServer2::GetMachineInfo | testtitle"
+title: "IDebugCoreServer2::GetMachineInfo"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

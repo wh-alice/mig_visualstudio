@@ -1,5 +1,5 @@
 ---
-title: "Browse and Select a .NET Type Dialog Box (Legacy) | testtitle"
+title: "Browse and Select a .NET Type Dialog Box (Legacy)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: ".net-framework-4.6"

@@ -1,5 +1,5 @@
 ---
-title: "Upgrading Coded UI Tests from Visual Studio 2010 | testtitle"
+title: "Upgrading Coded UI Tests from Visual Studio 2010"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

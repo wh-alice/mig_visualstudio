@@ -1,12 +1,12 @@
 ---
-title: "Access modifier can only be applied to either &#39;Get&#39; or Set&#39;, but not both | testtitle"
+title: "Access modifier can only be applied to either &#39;Get&#39; or Set&#39;, but not both"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC31101"
 ms.assetid: c2a0580c-ff2f-4cc9-9113-6e540f906eec
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,5 +1,5 @@
 ---
-title: "How to: Retrieve Query String Information in an Online ClickOnce Application | testtitle"
+title: "How to: Retrieve Query String Information in an Online ClickOnce Application"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"
@@ -62,8 +62,8 @@ The *query string* is the portion of a URL beginning with a question mark (?) th
   
 1.  Place the following code in your project. In order for this code to function, you will have to have a reference to System.Web and add `using` or `Imports` statements for System.Web, System.Collections.Specialized, and System.Deployment.Application.  
   
-     [!code[ClickOnceQueryString#1](../deployment/codesnippet/CSharp/how-to--retrieve-query-string-information-in-an-online-clickonce-application_1.cs)]
-[!code[ClickOnceQueryString#1](../deployment/codesnippet/VisualBasic/how-to--retrieve-query-string-information-in-an-online-clickonce-application_1.vb)]  
+     [!code-cs[ClickOnceQueryString#1](../deployment/codesnippet/CSharp/how-to--retrieve-query-string-information-in-an-online-clickonce-application_1.cs)]
+     [!code-vb[ClickOnceQueryString#1](../deployment/codesnippet/VisualBasic/how-to--retrieve-query-string-information-in-an-online-clickonce-application_1.vb)]  
   
 2.  Call the function defined previously to retrieve a <xref:System.Collections.DictionaryBase.Dictionary*> of the query string parameters, indexed by name.  
   

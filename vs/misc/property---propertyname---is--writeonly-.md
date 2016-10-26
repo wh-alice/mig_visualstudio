@@ -1,12 +1,12 @@
 ---
-title: "Property &#39;&lt;propertyname&gt;&#39; is &#39;WriteOnly&#39; | testtitle"
+title: "Property &#39;&lt;propertyname&gt;&#39; is &#39;WriteOnly&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30524"
 ms.assetid: 82249c64-df77-4890-8292-e4da707eca96
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

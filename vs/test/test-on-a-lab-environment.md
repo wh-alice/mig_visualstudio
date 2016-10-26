@@ -1,5 +1,5 @@
 ---
-title: "Test on a lab environment | testtitle"
+title: "Test on a lab environment"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

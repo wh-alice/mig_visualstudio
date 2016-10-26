@@ -1,12 +1,12 @@
 ---
-title: "&lt;type&gt; parameters cannot be declared &#39;Optional&#39; | testtitle"
+title: "&lt;type&gt; parameters cannot be declared &#39;Optional&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC33010"
 ms.assetid: ec4023e7-9ba6-4532-a6b9-4ae6b4f9063a
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

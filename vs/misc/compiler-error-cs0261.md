@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0261 | testtitle"
+title: "Compiler Error CS0261"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0261"
 ms.assetid: c2af7b31-4a48-457a-8d9b-0956dd0d46f9
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

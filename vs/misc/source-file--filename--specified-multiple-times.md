@@ -1,7 +1,7 @@
 ---
-title: "Source file &lt;filename&gt; specified multiple times | testtitle"
+title: "Source file &lt;filename&gt; specified multiple times"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

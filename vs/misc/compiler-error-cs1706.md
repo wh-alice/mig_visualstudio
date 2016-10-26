@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1706 | testtitle"
+title: "Compiler Error CS1706"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1706"
 ms.assetid: 8c589a49-3959-422e-ac18-65a2eaae3da0
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

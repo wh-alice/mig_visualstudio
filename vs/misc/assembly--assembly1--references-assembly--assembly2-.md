@@ -1,12 +1,12 @@
 ---
-title: "Assembly &lt;assembly1&gt; references assembly &lt;assembly2&gt; | testtitle"
+title: "Assembly &lt;assembly1&gt; references assembly &lt;assembly2&gt;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30963"
 ms.assetid: 9e1c8bb5-b690-458d-bb8b-f4a3c614d783
 caps.latest.revision: 2
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

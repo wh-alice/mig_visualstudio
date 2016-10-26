@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0182 | testtitle"
+title: "Compiler Error CS0182"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0182"
 ms.assetid: a9e97bb8-f06e-499f-aadf-26abc2082f98
 caps.latest.revision: 11
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,12 +1,12 @@
 ---
-title: "&#39;#Region&#39; statement must end with a matching &#39;#End Region&#39; | testtitle"
+title: "&#39;#Region&#39; statement must end with a matching &#39;#End Region&#39;"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30681"
 ms.assetid: 05a0402b-da68-4ab8-b6d6-940379bc5973
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

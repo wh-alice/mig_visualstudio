@@ -1,5 +1,5 @@
 ---
-title: "Combo Element | testtitle"
+title: "Combo Element"
 ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"

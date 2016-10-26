@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1673 | testtitle"
+title: "Compiler Error CS1673"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1673"
 ms.assetid: 5c7dd58b-dcbc-45c9-be36-7d15fafaa067
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1013 | testtitle"
+title: "Compiler Error CS1013"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1013"
 ms.assetid: e5b1d24d-e558-4f7c-b2b1-3a644710005d
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

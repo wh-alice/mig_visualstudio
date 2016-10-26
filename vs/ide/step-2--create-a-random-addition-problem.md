@@ -1,5 +1,5 @@
 ---
-title: "Step 2: Create a Random Addition Problem | testtitle"
+title: "Step 2: Create a Random Addition Problem"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -45,8 +45,8 @@ In the second part of this tutorial, you make the quiz challenging by adding mat
   
 3.  Create a `Random` object by adding a `new` statement near the top of the code, like the following.  
   
-     [!code[VbExpressTutorial3Step2#1](../ide/codesnippet/CSharp/step-2--create-a-random-addition-problem_1.cs)]
-[!code[VbExpressTutorial3Step2#1](../ide/codesnippet/VisualBasic/step-2--create-a-random-addition-problem_1.vb)]  
+     [!code-cs[VbExpressTutorial3Step2#1](../ide/codesnippet/CSharp/step-2--create-a-random-addition-problem_1.cs)]
+     [!code-vb[VbExpressTutorial3Step2#1](../ide/codesnippet/VisualBasic/step-2--create-a-random-addition-problem_1.vb)]  
   
      You've added a `Random` object to your form and named the object **randomizer**.  
   
@@ -61,13 +61,13 @@ In the second part of this tutorial, you make the quiz challenging by adding mat
   
      You use a similar syntax to add an integer variable as you did to add the `Random` object, as the following code shows.  
   
-     [!code[VbExpressTutorial3Step2#2](../ide/codesnippet/CSharp/step-2--create-a-random-addition-problem_2.cs)]
-[!code[VbExpressTutorial3Step2#2](../ide/codesnippet/VisualBasic/step-2--create-a-random-addition-problem_2.vb)]  
+     [!code-cs[VbExpressTutorial3Step2#2](../ide/codesnippet/CSharp/step-2--create-a-random-addition-problem_2.cs)]
+     [!code-vb[VbExpressTutorial3Step2#2](../ide/codesnippet/VisualBasic/step-2--create-a-random-addition-problem_2.vb)]  
   
 5.  Add a method that's named `StartTheQuiz()` and that uses the `Random` object's `Next()` method to show the random numbers in the labels. `StartTheQuiz()` will eventually fill in all of the problems and then start the timer, so add a comment. The function should look like the following.  
   
-     [!code[VbExpressTutorial3Step2#3](../ide/codesnippet/CSharp/step-2--create-a-random-addition-problem_3.cs)]
-[!code[VbExpressTutorial3Step2#3](../ide/codesnippet/VisualBasic/step-2--create-a-random-addition-problem_3.vb)]  
+     [!code-cs[VbExpressTutorial3Step2#3](../ide/codesnippet/CSharp/step-2--create-a-random-addition-problem_3.cs)]
+     [!code-vb[VbExpressTutorial3Step2#3](../ide/codesnippet/VisualBasic/step-2--create-a-random-addition-problem_3.vb)]  
   
      Notice that when you enter the dot (.) after **randomizer** in the code, an IntelliSense window opens and shows you all of the `Random` object's methods that you can call. For example, Intellisense lists the `Next()` method, as follows.  
   
@@ -81,8 +81,8 @@ Next method
   
      Take a closer look at these statements.  
   
-     [!code[VbExpressTutorial3Step2#18](../ide/codesnippet/CSharp/step-2--create-a-random-addition-problem_4.cs)]
-[!code[VbExpressTutorial3Step2#18](../ide/codesnippet/VisualBasic/step-2--create-a-random-addition-problem_4.vb)]  
+     [!code-cs[VbExpressTutorial3Step2#18](../ide/codesnippet/CSharp/step-2--create-a-random-addition-problem_4.cs)]
+     [!code-vb[VbExpressTutorial3Step2#18](../ide/codesnippet/VisualBasic/step-2--create-a-random-addition-problem_4.vb)]  
   
      The statements set the **Text** properties of **plusLeftLabel** and **plusRightLabel** so that they display the two random numbers. You must use the integer's `ToString()` method to convert the numbers to text. (In programming, string means text. Label controls display only text, not numbers.  
   
@@ -92,8 +92,8 @@ Next method
   
 7.  Add the following two statements.  
   
-     [!code[VbExpressTutorial3Step2#4](../ide/codesnippet/CSharp/step-2--create-a-random-addition-problem_5.cs)]
-[!code[VbExpressTutorial3Step2#4](../ide/codesnippet/VisualBasic/step-2--create-a-random-addition-problem_5.vb)]  
+     [!code-cs[VbExpressTutorial3Step2#4](../ide/codesnippet/CSharp/step-2--create-a-random-addition-problem_5.cs)]
+     [!code-vb[VbExpressTutorial3Step2#4](../ide/codesnippet/VisualBasic/step-2--create-a-random-addition-problem_5.vb)]  
   
      The first statement calls the new `StartTheQuiz()` method. The second statement sets the **Enabled** property of the **startButton** control to **False** so that the quiz taker can't choose the button during a quiz.  
   

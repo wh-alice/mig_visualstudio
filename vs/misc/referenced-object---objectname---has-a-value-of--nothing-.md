@@ -1,12 +1,12 @@
 ---
-title: "Referenced object &#39;&lt;objectname&gt;&#39; has a value of &#39;Nothing&#39; | testtitle"
+title: "Referenced object &#39;&lt;objectname&gt;&#39; has a value of &#39;Nothing&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30705"
 ms.assetid: 7c14aec2-26ef-429f-8412-9f9ec74529cb
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,12 +1,12 @@
 ---
-title: "Conversion operators must be declared either &#39;Widening&#39; or &#39;Narrowing&#39; | testtitle"
+title: "Conversion operators must be declared either &#39;Widening&#39; or &#39;Narrowing&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC33017"
 ms.assetid: 5972d955-ce1d-4348-a021-167eecb3a507
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

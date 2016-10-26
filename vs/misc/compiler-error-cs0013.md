@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0013 | testtitle"
+title: "Compiler Error CS0013"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0013"
 ms.assetid: 82d077e9-e9e8-49cf-838d-43ec040eb741
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

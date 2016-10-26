@@ -1,12 +1,12 @@
 ---
-title: "&#39;ParamArray&#39; cannot be applied to the first parameter of an extension method | testtitle"
+title: "&#39;ParamArray&#39; cannot be applied to the first parameter of an extension method"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC36554"
 ms.assetid: 0778a854-246f-4c2b-943d-ea8883b3aa6f
 caps.latest.revision: 11
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

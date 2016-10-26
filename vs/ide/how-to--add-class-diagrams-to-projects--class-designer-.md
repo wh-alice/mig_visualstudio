@@ -1,5 +1,5 @@
 ---
-title: "How to: Add Class Diagrams to Projects (Class Designer) | testtitle"
+title: "How to: Add Class Diagrams to Projects (Class Designer)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

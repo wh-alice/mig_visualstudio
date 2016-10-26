@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1686 | testtitle"
+title: "Compiler Error CS1686"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1686"
 ms.assetid: 46a9e82b-57f4-416d-8e49-242bfff5433a
 caps.latest.revision: 12
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

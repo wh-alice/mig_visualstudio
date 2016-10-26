@@ -1,5 +1,5 @@
 ---
-title: "CA2111: Pointers should not be visible | testtitle"
+title: "CA2111: Pointers should not be visible"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -59,7 +59,7 @@ translation.priority.ht:
 ## Example  
  The following code shows pointers that violate and satisfy the rule. Notice that the non-private pointers also violate the rule [CA1051: Do not declare visible instance fields](../code-quality/ca1051--do-not-declare-visible-instance-fields.md).  
   
- [!code[FxCop.Security.PointersArePrivate#1](../code-quality/codesnippet/CSharp/ca2111--pointers-should-not-be-visible_1.cs)]  
+ [!code-cs[FxCop.Security.PointersArePrivate#1](../code-quality/codesnippet/CSharp/ca2111--pointers-should-not-be-visible_1.cs)]  
   
 ## Related Rules  
  [CA2112: Secured types should not expose fields](../code-quality/ca2112--secured-types-should-not-expose-fields.md)  

@@ -1,5 +1,5 @@
 ---
-title: "Properties of Compartment Shapes | testtitle"
+title: "Properties of Compartment Shapes"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

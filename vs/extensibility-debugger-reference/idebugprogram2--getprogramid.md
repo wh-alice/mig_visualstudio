@@ -1,5 +1,5 @@
 ---
-title: "IDebugProgram2::GetProgramId | testtitle"
+title: "IDebugProgram2::GetProgramId"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

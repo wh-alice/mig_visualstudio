@@ -1,5 +1,5 @@
 ---
-title: "&lt;name&gt; is not valid editor for this file type. | testtitle"
+title: "&lt;name&gt; is not valid editor for this file type."
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -40,7 +40,7 @@ This error generally occurs when an incorrect value is entered for the /e:*edito
 1.  Check the documentation for the correct /e:*editorname* syntax and re-enter the command.  
   
 ## See Also  
- [New File Command](../reference/new-file-command.md)   
- [Open File Command](../reference/open-file-command.md)   
- [Add New Item Command](../reference/add-new-item-command.md)   
- [Add Existing Item Command](../reference/add-existing-item-command.md)
+ [New File Command](../ide-reference/new-file-command.md)   
+ [Open File Command](../ide-reference/open-file-command.md)   
+ [Add New Item Command](../ide-reference/add-new-item-command.md)   
+ [Add Existing Item Command](../ide-reference/add-existing-item-command.md)

@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0837 | testtitle"
+title: "Compiler Error CS0837"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0837"
 ms.assetid: cbde45dc-222c-4bfe-8814-856476319d37
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

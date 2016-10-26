@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0020 | testtitle"
+title: "Compiler Error CS0020"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0020"
 ms.assetid: 7a54db39-6530-4e34-aa17-a90f85223d08
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

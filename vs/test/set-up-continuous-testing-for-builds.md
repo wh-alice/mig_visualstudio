@@ -1,5 +1,5 @@
 ---
-title: "Set up continuous testing for builds | testtitle"
+title: "Set up continuous testing for builds"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"

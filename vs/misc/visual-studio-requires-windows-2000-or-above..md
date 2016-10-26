@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio requires Windows 2000 or above. | testtitle"
+title: "Visual Studio requires Windows 2000 or above."
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

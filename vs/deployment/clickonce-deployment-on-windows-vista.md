@@ -1,5 +1,5 @@
 ---
-title: "ClickOnce Deployment on Windows Vista | testtitle"
+title: "ClickOnce Deployment on Windows Vista"
 ms.custom: ""
 ms.date: "10/22/2016"
 ms.prod: "visual-studio-dev14"
@@ -56,12 +56,12 @@ Building applications in Visual Studio for User Account Control (UAC) on Windows
   
  Note that the method for configuring UAC manifest generation in the Visual Studio IDE differs depending on project type (Visual C# and Visual Basic).  
   
- For information about configuring Visual C# projects for manifest generation, see [Application Page, Project Designer (C#)](../reference/application-page--project-designer--csharp-.md).  
+ For information about configuring Visual C# projects for manifest generation, see [Application Page, Project Designer (C#)](../ide-reference/application-page--project-designer--csharp-.md).  
   
- For information about configuring Visual Basic projects for manifest generation, see [Application Page, Project Designer (Visual Basic)](../reference/application-page--project-designer--visual-basic-.md).  
+ For information about configuring Visual Basic projects for manifest generation, see [Application Page, Project Designer (Visual Basic)](../ide-reference/application-page--project-designer--visual-basic-.md).  
   
 ## See Also  
  [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)   
  [User Permissions and Visual Studio](http://msdn.microsoft.com/en-us/d5c55084-1e7b-4b61-b478-137db01c0fc0)   
- [Application Page, Project Designer (C#)](../reference/application-page--project-designer--csharp-.md)   
- [Application Page, Project Designer (Visual Basic)](../reference/application-page--project-designer--visual-basic-.md)
+ [Application Page, Project Designer (C#)](../ide-reference/application-page--project-designer--csharp-.md)   
+ [Application Page, Project Designer (Visual Basic)](../ide-reference/application-page--project-designer--visual-basic-.md)

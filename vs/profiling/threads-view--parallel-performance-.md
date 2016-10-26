@@ -1,5 +1,5 @@
 ---
-title: "Threads View (Parallel Performance) | testtitle"
+title: "Threads View (Parallel Performance)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

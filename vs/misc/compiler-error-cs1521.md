@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1521 | testtitle"
+title: "Compiler Error CS1521"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1521"
 ms.assetid: 9a482b33-24f2-4654-81b4-be40bf56d624
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

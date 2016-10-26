@@ -1,5 +1,5 @@
 ---
-title: "Sync Changes Between XCode and Visual Studio | testtitle"
+title: "Sync Changes Between XCode and Visual Studio"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.reviewer: ""

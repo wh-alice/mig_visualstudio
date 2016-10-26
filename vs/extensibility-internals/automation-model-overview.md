@@ -1,5 +1,5 @@
 ---
-title: "Automation Model Overview | testtitle"
+title: "Automation Model Overview"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

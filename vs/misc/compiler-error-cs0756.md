@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0756 | testtitle"
+title: "Compiler Error CS0756"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0756"
 ms.assetid: 847b20b0-bbf0-43a2-8728-4b54cb3d9cd6
 caps.latest.revision: 5
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

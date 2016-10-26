@@ -1,12 +1,12 @@
 ---
-title: "&#39;D&#39; can no longer be used to indicate an exponent, use &#39;E&#39; instead | testtitle"
+title: "&#39;D&#39; can no longer be used to indicate an exponent, use &#39;E&#39; instead"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30827"
 ms.assetid: 577f8c0b-9e8a-433f-b504-9ddaa936c250
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

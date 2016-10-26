@@ -1,7 +1,7 @@
 ---
-title: "Scenario: Change your design using visualization and modeling | testtitle"
+title: "Scenario: Change your design using visualization and modeling"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""

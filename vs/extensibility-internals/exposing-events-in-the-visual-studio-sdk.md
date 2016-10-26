@@ -1,7 +1,7 @@
 ---
-title: "Exposing Events in the Visual Studio SDK | testtitle"
+title: "Exposing Events in the Visual Studio SDK"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

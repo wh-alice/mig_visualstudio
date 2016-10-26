@@ -1,5 +1,5 @@
 ---
-title: "CA1408: Do not use AutoDual ClassInterfaceType | testtitle"
+title: "CA1408: Do not use AutoDual ClassInterfaceType"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -60,8 +60,8 @@ translation.priority.mt:
 ## Example  
  The following example shows a class that violates the rule and a re-declaration of the class to use an explicit interface.  
   
- [!code[FxCop.Interoperability.AutoDual#1](../code-quality/codesnippet/CSharp/ca1408--do-not-use-autodual-classinterfacetype_1.cs)]
-[!code[FxCop.Interoperability.AutoDual#1](../code-quality/codesnippet/VisualBasic/ca1408--do-not-use-autodual-classinterfacetype_1.vb)]  
+ [!code-cs[FxCop.Interoperability.AutoDual#1](../code-quality/codesnippet/CSharp/ca1408--do-not-use-autodual-classinterfacetype_1.cs)]
+ [!code-vb[FxCop.Interoperability.AutoDual#1](../code-quality/codesnippet/VisualBasic/ca1408--do-not-use-autodual-classinterfacetype_1.vb)]  
   
 ## Related Rules  
  [CA1403: Auto layout types should not be COM visible](../code-quality/ca1403--auto-layout-types-should-not-be-com-visible.md)  

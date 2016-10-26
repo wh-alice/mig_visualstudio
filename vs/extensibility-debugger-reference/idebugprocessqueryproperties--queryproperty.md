@@ -1,5 +1,5 @@
 ---
-title: "IDebugProcessQueryProperties::QueryProperty | testtitle"
+title: "IDebugProcessQueryProperties::QueryProperty"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

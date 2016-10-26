@@ -1,5 +1,5 @@
 ---
-title: "&lt;name&gt; is not a valid switch for this command. | testtitle"
+title: "&lt;name&gt; is not a valid switch for this command."
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -40,4 +40,4 @@ This error generally occurs when a incorrect switch or combination of single cha
 1.  Check the documentation for the correct syntax for the command and try again.  
   
 ## See Also  
- [Visual Studio Commands](../reference/visual-studio-commands.md)
+ [Visual Studio Commands](../ide-reference/visual-studio-commands.md)

@@ -1,5 +1,5 @@
 ---
-title: "API Reference for Testing Tools for Visual Studio ALM | testtitle"
+title: "API Reference for Testing Tools for Visual Studio ALM"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

@@ -1,12 +1,12 @@
 ---
-title: "Instance of restricted type &#39;&lt;typename&gt;&#39; cannot be used in a query expression | testtitle"
+title: "Instance of restricted type &#39;&lt;typename&gt;&#39; cannot be used in a query expression"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "bc36598"
 ms.assetid: a75642e4-5b5e-41dd-853c-c63d7eeca62e
 caps.latest.revision: 5
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,5 +1,5 @@
 ---
-title: "Code Generation in a Build Process | testtitle"
+title: "Code Generation in a Build Process"
 ms.custom: ""
 ms.date: "10/24/2016"
 ms.prod: "visual-studio-tfs-dev14"
@@ -216,7 +216,7 @@ $(IncludeFolders);$(MSBuildProjectDirectory)\Include;AnotherFolder;And\Another</
 ```  
   
 ##  <a name="parameters"></a> Pass build context data into the templates  
- You can set parameter values in the project file. For example, you can pass [build](../reference/msbuild-properties.md) properties and [environment variables](../reference/how-to--use-environment-variables-in-a-build.md):  
+ You can set parameter values in the project file. For example, you can pass [build](../msbuild/msbuild-properties.md) properties and [environment variables](../msbuild/how-to--use-environment-variables-in-a-build.md):  
   
 ```xml  
 <ItemGroup>  

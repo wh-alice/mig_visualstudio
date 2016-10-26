@@ -1,12 +1,12 @@
 ---
-title: "&#39;Namespace&#39; statements can occur only at file or namespace level | testtitle"
+title: "&#39;Namespace&#39; statements can occur only at file or namespace level"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30618"
 ms.assetid: bcd365a4-5d84-4c3c-83dc-40cb4c47f73b
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

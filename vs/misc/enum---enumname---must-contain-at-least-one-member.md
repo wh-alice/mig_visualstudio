@@ -1,12 +1,12 @@
 ---
-title: "Enum &#39;&lt;enumname&gt;&#39; must contain at least one member | testtitle"
+title: "Enum &#39;&lt;enumname&gt;&#39; must contain at least one member"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30280"
 ms.assetid: eece372a-f87f-4270-ba66-5ff68f0dfb5e
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

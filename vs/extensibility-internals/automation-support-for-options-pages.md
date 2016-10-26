@@ -1,7 +1,7 @@
 ---
-title: "Automation Support for Options Pages | testtitle"
+title: "Automation Support for Options Pages"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

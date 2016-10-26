@@ -1,5 +1,5 @@
 ---
-title: "IDiaSectionContrib::get_compilandId | testtitle"
+title: "IDiaSectionContrib::get_compilandId"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

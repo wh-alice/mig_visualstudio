@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0687 | testtitle"
+title: "Compiler Error CS0687"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0687"
 ms.assetid: b51c5e7c-f4de-4aa4-97b1-ebe220cd19b0
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,12 +1,12 @@
 ---
-title: "&#39;&lt;typename&gt;&#39; is a class type and cannot be used as an expression | testtitle"
+title: "&#39;&lt;typename&gt;&#39; is a class type and cannot be used as an expression"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30109"
 ms.assetid: 9845a592-2e1d-43fd-b88f-aa6d1b13b1f5
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

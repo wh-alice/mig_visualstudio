@@ -1,5 +1,5 @@
 ---
-title: "Customizing Tools and the Toolbox | testtitle"
+title: "Customizing Tools and the Toolbox"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

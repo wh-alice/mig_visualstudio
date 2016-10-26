@@ -1,5 +1,5 @@
 ---
-title: "Overview of the Domain-Specific Language Tools User Interface | testtitle"
+title: "Overview of the Domain-Specific Language Tools User Interface"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

@@ -1,12 +1,12 @@
 ---
-title: "&#39;#ExternalSource&#39; directives cannot be nested | testtitle"
+title: "&#39;#ExternalSource&#39; directives cannot be nested"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30580"
 ms.assetid: 56c6ef4b-28b1-4a62-8afa-d83a7742b507
 caps.latest.revision: 13
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

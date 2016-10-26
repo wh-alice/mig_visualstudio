@@ -1,12 +1,12 @@
 ---
-title: "&#39;&lt;modifier&gt;&#39; is not valid on an Interface declaration | testtitle"
+title: "&#39;&lt;modifier&gt;&#39; is not valid on an Interface declaration"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30397"
 ms.assetid: 9143dc87-c396-4ff9-9987-0b460ee32b38
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

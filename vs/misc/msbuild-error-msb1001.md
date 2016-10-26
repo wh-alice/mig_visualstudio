@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Error MSB1001 | testtitle"
+title: "MSBuild Error MSB1001"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -43,4 +43,4 @@ translation.priority.mt:
 1.  Check the spelling of the switch. To display the list of valid switches, type `msbuild /help`.  
   
 ## See Also  
- [Command-Line Reference](../reference/msbuild-command-line-reference.md)
+ [Command-Line Reference](../msbuild/msbuild-command-line-reference.md)

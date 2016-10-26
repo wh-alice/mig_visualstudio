@@ -1,12 +1,12 @@
 ---
-title: "XML namespace prefix &#39;prefix&#39; is already declared | testtitle"
+title: "XML namespace prefix &#39;prefix&#39; is already declared"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30573"
 ms.assetid: 7bdfe173-0632-4022-af91-9a87f6e2d65c
 caps.latest.revision: 4
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

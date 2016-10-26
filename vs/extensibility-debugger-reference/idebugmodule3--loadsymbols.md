@@ -1,5 +1,5 @@
 ---
-title: "IDebugModule3::LoadSymbols | testtitle"
+title: "IDebugModule3::LoadSymbols"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

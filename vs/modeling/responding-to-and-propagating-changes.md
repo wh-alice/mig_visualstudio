@@ -1,5 +1,5 @@
 ---
-title: "Responding to and Propagating Changes | testtitle"
+title: "Responding to and Propagating Changes"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

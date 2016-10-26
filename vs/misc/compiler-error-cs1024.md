@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1024 | testtitle"
+title: "Compiler Error CS1024"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1024"
 ms.assetid: 41f587cb-1958-4eb6-9f8d-c03500e55e21
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,5 +1,5 @@
 ---
-title: "IDebugProgram2::EnumThreads | testtitle"
+title: "IDebugProgram2::EnumThreads"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0035 | testtitle"
+title: "Compiler Error CS0035"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0035"
 ms.assetid: a622113e-98a4-4583-992c-1fb55139320a
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

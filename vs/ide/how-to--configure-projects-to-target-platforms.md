@@ -1,5 +1,5 @@
 ---
-title: "How to: Configure Projects to Target Platforms | testtitle"
+title: "How to: Configure Projects to Target Platforms"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
@@ -69,7 +69,7 @@ translation.priority.ht:
   
 -   For [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] projects, see [/platform (Visual Basic)](../Topic/-platform%20\(Visual%20Basic\).md).  
   
--   For [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] projects, see [Build Page, Project Designer (C#)](../reference/build-page--project-designer--csharp-.md).  
+-   For [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] projects, see [Build Page, Project Designer (C#)](../ide-reference/build-page--project-designer--csharp-.md).  
   
 -   For [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] projects, see [/clr (Common Language Runtime Compilation)](../Topic/-clr%20\(Common%20Language%20Runtime%20Compilation\).md).  
   

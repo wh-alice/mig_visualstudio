@@ -1,5 +1,5 @@
 ---
-title: "IDebugPort2::GetPortId | testtitle"
+title: "IDebugPort2::GetPortId"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "CA1052: Static holder types should be sealed | testtitle"
+title: "CA1052: Static holder types should be sealed"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -61,9 +61,9 @@ translation.priority.mt:
  The following example shows a type that violates the rule.  
   
 ### Code  
- [!code[FxCop.Design.StaticMembers#1](../code-quality/codesnippet/CSharp/ca1052--static-holder-types-should-be-sealed_1.cs)]
-[!code[FxCop.Design.StaticMembers#1](../code-quality/codesnippet/VisualBasic/ca1052--static-holder-types-should-be-sealed_1.vb)]
-[!code[FxCop.Design.StaticMembers#1](../code-quality/codesnippet/CPP/ca1052--static-holder-types-should-be-sealed_1.cpp)]  
+ [!code-cs[FxCop.Design.StaticMembers#1](../code-quality/codesnippet/CSharp/ca1052--static-holder-types-should-be-sealed_1.cs)]
+ [!code-vb[FxCop.Design.StaticMembers#1](../code-quality/codesnippet/VisualBasic/ca1052--static-holder-types-should-be-sealed_1.vb)]
+ [!code-cpp[FxCop.Design.StaticMembers#1](../code-quality/codesnippet/CPP/ca1052--static-holder-types-should-be-sealed_1.cpp)]  
   
 ## Fix with the Static Modifier  
   
@@ -71,7 +71,7 @@ translation.priority.mt:
  The following example shows how to fix a violation of this rule by marking the type with the `static` modifier.  
   
 ### Code  
- [!code[FxCop.Design.StaticMembersFixed#1](../code-quality/codesnippet/CSharp/ca1052--static-holder-types-should-be-sealed_2.cs)]  
+ [!code-cs[FxCop.Design.StaticMembersFixed#1](../code-quality/codesnippet/CSharp/ca1052--static-holder-types-should-be-sealed_2.cs)]  
   
 ## Related Rules  
  [CA1053: Static holder types should not have constructors](../code-quality/ca1053--static-holder-types-should-not-have-constructors.md)

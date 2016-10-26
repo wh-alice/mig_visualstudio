@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0409 | testtitle"
+title: "Compiler Error CS0409"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0409"
 ms.assetid: 23d86c13-7978-41b7-a087-ffcea52476fa
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

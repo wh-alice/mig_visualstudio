@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1646 | testtitle"
+title: "Compiler Error CS1646"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1646"
 ms.assetid: 5e4b0f1e-8de3-42b0-bde6-9f882677a409
 caps.latest.revision: 6
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

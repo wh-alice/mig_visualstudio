@@ -1,5 +1,5 @@
 ---
-title: "IDebugProperty3::GetStringChars | testtitle"
+title: "IDebugProperty3::GetStringChars"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

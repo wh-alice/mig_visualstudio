@@ -1,12 +1,12 @@
 ---
-title: "&#39;On Error&#39; statements are not valid in the Immediate window | testtitle"
+title: "&#39;On Error&#39; statements are not valid in the Immediate window"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30720"
 ms.assetid: d370a1db-2cd3-4e09-9db9-e03f31b083eb
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

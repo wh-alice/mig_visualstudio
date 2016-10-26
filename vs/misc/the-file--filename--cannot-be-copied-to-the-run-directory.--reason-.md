@@ -1,5 +1,5 @@
 ---
-title: "The file &#39;filename&#39; cannot be copied to the run directory. &lt;reason&gt; | testtitle"
+title: "The file &#39;filename&#39; cannot be copied to the run directory. &lt;reason&gt;"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,7 +1,7 @@
 ---
-title: "How to: Add a New Item to a Workflow Project | testtitle"
+title: "How to: Add a New Item to a Workflow Project"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/25/2016"
 ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""

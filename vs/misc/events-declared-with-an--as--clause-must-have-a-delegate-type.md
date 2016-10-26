@@ -1,12 +1,12 @@
 ---
-title: "Events declared with an &#39;As&#39; clause must have a delegate type | testtitle"
+title: "Events declared with an &#39;As&#39; clause must have a delegate type"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC31044"
 ms.assetid: d0e86fcc-c638-4945-aa6f-9826aa38b23d
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

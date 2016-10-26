@@ -1,5 +1,5 @@
 ---
-title: "IDiaLineNumber::get_columnNumber | testtitle"
+title: "IDiaLineNumber::get_columnNumber"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

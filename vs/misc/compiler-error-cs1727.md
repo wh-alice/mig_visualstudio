@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1727 | testtitle"
+title: "Compiler Error CS1727"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1727"
 ms.assetid: 66478a58-e0f6-4886-b940-5473ad485a01
 caps.latest.revision: 5
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

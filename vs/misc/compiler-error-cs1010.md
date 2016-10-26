@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1010 | testtitle"
+title: "Compiler Error CS1010"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1010"
 ms.assetid: 3d47277a-253f-464b-a603-e3b37e0e7b0d
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

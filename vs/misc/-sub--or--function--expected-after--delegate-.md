@@ -1,12 +1,12 @@
 ---
-title: "&#39;Sub&#39; or &#39;Function&#39; expected after &#39;Delegate&#39; | testtitle"
+title: "&#39;Sub&#39; or &#39;Function&#39; expected after &#39;Delegate&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30278"
 ms.assetid: fee206b9-8dc0-436f-9909-abd8c17957f8
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

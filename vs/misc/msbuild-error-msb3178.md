@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Error MSB3178 | testtitle"
+title: "MSBuild Error MSB3178"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -40,7 +40,7 @@ translation.priority.mt:
   
 ### To correct this error  
   
--   For more information about the cause and possible resolutions of an MSBuild error, see [Additional Resources](../reference/additional-msbuild-resources.md).  
+-   For more information about the cause and possible resolutions of an MSBuild error, see [Additional Resources](../msbuild/additional-msbuild-resources.md).  
   
 ## See Also  
  [\<PackageFiles> Element](../deployment/-packagefiles--element--bootstrapper-.md)

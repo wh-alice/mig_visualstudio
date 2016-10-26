@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0080 | testtitle"
+title: "Compiler Error CS0080"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0080"
 ms.assetid: 99035371-37d1-48b2-a8b9-e8a1ebd04f0f
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

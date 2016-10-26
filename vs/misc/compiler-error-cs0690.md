@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0690 | testtitle"
+title: "Compiler Error CS0690"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0690"
 ms.assetid: ade0ee45-bf5d-45bd-9aaf-55f3133b2f3e
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

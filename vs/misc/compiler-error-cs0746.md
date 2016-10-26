@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0746 | testtitle"
+title: "Compiler Error CS0746"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0746"
 ms.assetid: 36baf7f2-b092-422c-ab53-95154bfceb0a
 caps.latest.revision: 6
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

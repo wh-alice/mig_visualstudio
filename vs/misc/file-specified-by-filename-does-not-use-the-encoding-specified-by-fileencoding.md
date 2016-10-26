@@ -1,18 +1,18 @@
 ---
-title: "File specified by FileName does not use the encoding specified by FileEncoding | testtitle"
+title: "File specified by FileName does not use the encoding specified by FileEncoding"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2129f8df-96cd-4c2e-a4ca-f08a49f07d3f
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,7 +1,7 @@
 ---
-title: "Sorry, we don&#39;t have specifics on this C# error | testtitle"
+title: "Sorry, we don&#39;t have specifics on this C# error"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -886,8 +886,8 @@ helpviewer_keywords:
   - "errors [C#], additional information"
 ms.assetid: 48320e4a-6e17-45a6-9966-88c6ec89bd2f
 caps.latest.revision: 15
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"

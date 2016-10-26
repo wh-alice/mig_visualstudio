@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1594 | testtitle"
+title: "Compiler Error CS1594"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1594"
 ms.assetid: f949a992-27a3-470d-b512-e590e5170af3
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

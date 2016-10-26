@@ -1,5 +1,5 @@
 ---
-title: "ranlux3 TypeDef | testtitle"
+title: "ranlux3 TypeDef"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,12 +1,12 @@
 ---
-title: "Cannot create an instance of Module &#39;&lt;modulename&gt;&#39; | testtitle"
+title: "Cannot create an instance of Module &#39;&lt;modulename&gt;&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30166"
 ms.assetid: 40b9dbd3-9b57-450f-a631-b0ab06ca19c4
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

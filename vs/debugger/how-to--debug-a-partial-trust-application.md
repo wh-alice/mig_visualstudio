@@ -1,5 +1,5 @@
 ---
-title: "How to: Debug a Partial Trust Application | testtitle"
+title: "How to: Debug a Partial Trust Application"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

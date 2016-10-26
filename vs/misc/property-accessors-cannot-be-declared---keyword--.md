@@ -1,12 +1,12 @@
 ---
-title: "Property accessors cannot be declared &#39;&lt;keyword&gt;&#39; | testtitle"
+title: "Property accessors cannot be declared &#39;&lt;keyword&gt;&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC31099"
 ms.assetid: d6f3b989-39b9-4c47-995a-bd83ec03d7b8
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

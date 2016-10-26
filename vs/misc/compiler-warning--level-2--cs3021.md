@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 2) CS3021 | testtitle"
+title: "Compiler Warning (level 2) CS3021"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS3021"
 ms.assetid: 89f09e4d-65b0-4422-86ea-85c7e05ac29b
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

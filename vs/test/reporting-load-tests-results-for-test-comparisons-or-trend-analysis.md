@@ -1,5 +1,5 @@
 ---
-title: "Reporting Load Tests Results for Test Comparisons or Trend Analysis | testtitle"
+title: "Reporting Load Tests Results for Test Comparisons or Trend Analysis"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

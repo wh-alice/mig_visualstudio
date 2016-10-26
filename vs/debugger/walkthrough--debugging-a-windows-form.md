@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Debugging a Windows Form | testtitle"
+title: "Walkthrough: Debugging a Windows Form"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -79,7 +79,7 @@ A Windows Form is one of the most common managed applications. A Windows Form cr
   
 6.  On the **View** menu, select **Toolbox**.  
   
-     The Toolbox opens. For more information, see [Toolbox](../reference/toolbox.md).  
+     The Toolbox opens. For more information, see [Toolbox](../ide-reference/toolbox.md).  
   
 7.  In the Toolbox, click on the **Button** control and drag the control to the Form design surface. Drop the button on the form.  
   

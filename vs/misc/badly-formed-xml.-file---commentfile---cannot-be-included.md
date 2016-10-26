@@ -1,12 +1,12 @@
 ---
-title: "Badly formed XML. File &#39;&lt;commentfile&gt;&#39; cannot be included | testtitle"
+title: "Badly formed XML. File &#39;&lt;commentfile&gt;&#39; cannot be included"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC42321"
 ms.assetid: 96611980-2323-466c-82c3-8bb678290b68
 caps.latest.revision: 6
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

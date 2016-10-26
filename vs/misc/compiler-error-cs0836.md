@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0836 | testtitle"
+title: "Compiler Error CS0836"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0836"
 ms.assetid: 74a12271-1612-45aa-a398-7964e0269892
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

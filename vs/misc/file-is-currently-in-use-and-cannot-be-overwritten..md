@@ -1,5 +1,5 @@
 ---
-title: "File is currently in use and cannot be overwritten. | testtitle"
+title: "File is currently in use and cannot be overwritten."
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

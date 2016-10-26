@@ -1,12 +1,12 @@
 ---
-title: "&#39;Structure&#39; constraint and a specific class type constraint cannot be combined | testtitle"
+title: "&#39;Structure&#39; constraint and a specific class type constraint cannot be combined"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC32108"
 ms.assetid: de461824-5aec-48d1-967d-b0e0609a8ba6
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

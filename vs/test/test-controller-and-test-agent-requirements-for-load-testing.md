@@ -1,5 +1,5 @@
 ---
-title: "Test Controller and Test Agent Requirements for Load Testing | testtitle"
+title: "Test Controller and Test Agent Requirements for Load Testing"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

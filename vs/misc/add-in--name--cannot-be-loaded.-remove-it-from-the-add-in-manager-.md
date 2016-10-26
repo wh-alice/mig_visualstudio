@@ -1,5 +1,5 @@
 ---
-title: "Add-in &lt;name&gt; cannot be loaded. Remove it from the Add-in Manager? | testtitle"
+title: "Add-in &lt;name&gt; cannot be loaded. Remove it from the Add-in Manager?"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

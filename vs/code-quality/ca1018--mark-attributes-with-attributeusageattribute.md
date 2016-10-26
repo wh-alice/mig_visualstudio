@@ -1,5 +1,5 @@
 ---
-title: "CA1018: Mark attributes with AttributeUsageAttribute | testtitle"
+title: "CA1018: Mark attributes with AttributeUsageAttribute"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -60,8 +60,8 @@ translation.priority.mt:
 ## Example  
  The following example defines two attributes. `BadCodeMaintainerAttribute` incorrectly omits the <xref:System.AttributeUsageAttribute> statement, and `GoodCodeMaintainerAttribute` correctly implements the attribute that is described earlier in this section. Note that the property `DeveloperName` is required by the design rule [CA1019: Define accessors for attribute arguments](../code-quality/ca1019--define-accessors-for-attribute-arguments.md) and is included for completeness.  
   
- [!code[FxCop.Design.AttributeUsage#1](../code-quality/codesnippet/CSharp/ca1018--mark-attributes-with-attributeusageattribute_1.cs)]
-[!code[FxCop.Design.AttributeUsage#1](../code-quality/codesnippet/VisualBasic/ca1018--mark-attributes-with-attributeusageattribute_1.vb)]  
+ [!code-cs[FxCop.Design.AttributeUsage#1](../code-quality/codesnippet/CSharp/ca1018--mark-attributes-with-attributeusageattribute_1.cs)]
+ [!code-vb[FxCop.Design.AttributeUsage#1](../code-quality/codesnippet/VisualBasic/ca1018--mark-attributes-with-attributeusageattribute_1.vb)]  
   
 ## Related Rules  
  [CA1019: Define accessors for attribute arguments](../code-quality/ca1019--define-accessors-for-attribute-arguments.md)  

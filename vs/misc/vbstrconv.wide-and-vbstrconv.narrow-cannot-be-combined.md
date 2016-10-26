@@ -1,20 +1,20 @@
 ---
-title: "VbStrConv.Wide and VbStrConv.Narrow cannot be combined | testtitle"
+title: "VbStrConv.Wide and VbStrConv.Narrow cannot be combined"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbrArgument_IllegalWideNarrow"
 ms.assetid: a53b4e6a-36b1-4e36-b2c5-8196313ec599
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

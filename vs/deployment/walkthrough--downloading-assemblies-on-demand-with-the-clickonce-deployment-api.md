@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Downloading Assemblies on Demand with the ClickOnce Deployment API | testtitle"
+title: "Walkthrough: Downloading Assemblies on Demand with the ClickOnce Deployment API"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
@@ -67,8 +67,8 @@ By default, all of the assemblies included in a [!INCLUDE[ndptecclick](../deploy
   
 5.  Using Notepad or another text editor, define a class named `DynamicClass` with a single property named `Message`.  
   
-     [!code[ClickOnceLibrary#1](../deployment/codesnippet/VisualBasic/walkthrough--downloading-assemblies-on-demand-with-the-clickonce-deployment-api_1.vb)]
-[!code[ClickOnceLibrary#1](../deployment/codesnippet/CSharp/walkthrough--downloading-assemblies-on-demand-with-the-clickonce-deployment-api_1.cs)]  
+     [!code-vb[ClickOnceLibrary#1](../deployment/codesnippet/VisualBasic/walkthrough--downloading-assemblies-on-demand-with-the-clickonce-deployment-api_1.vb)]
+     [!code-cs[ClickOnceLibrary#1](../deployment/codesnippet/CSharp/walkthrough--downloading-assemblies-on-demand-with-the-clickonce-deployment-api_1.cs)]  
   
 6.  Save the text as a file named `ClickOnceLibrary.cs` or `ClickOnceLibrary.vb`, depending on the language you use, to the ClickOnceOnDemand directory.  
   
@@ -90,8 +90,8 @@ By default, all of the assemblies included in a [!INCLUDE[ndptecclick](../deploy
   
 9. Create a new file using your text editor and enter the following code. This code creates a Windows Forms application that downloads the ClickOnceLibrary assembly when it is required.  
   
-     [!code[ClickOnceOnDemandCmdLine#1](../deployment/codesnippet/CSharp/walkthrough--downloading-assemblies-on-demand-with-the-clickonce-deployment-api_2.cs)]
-[!code[ClickOnceOnDemandCmdLine#1](../deployment/codesnippet/VisualBasic/walkthrough--downloading-assemblies-on-demand-with-the-clickonce-deployment-api_2.vb)]  
+     [!code-cs[ClickOnceOnDemandCmdLine#1](../deployment/codesnippet/CSharp/walkthrough--downloading-assemblies-on-demand-with-the-clickonce-deployment-api_2.cs)]
+     [!code-vb[ClickOnceOnDemandCmdLine#1](../deployment/codesnippet/VisualBasic/walkthrough--downloading-assemblies-on-demand-with-the-clickonce-deployment-api_2.vb)]  
   
 10. In the code, locate the call to <xref:System.Reflection.Assembly.LoadFile*>.  
   

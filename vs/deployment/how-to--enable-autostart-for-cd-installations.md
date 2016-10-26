@@ -1,5 +1,5 @@
 ---
-title: "How to: Enable AutoStart for CD Installations | testtitle"
+title: "How to: Enable AutoStart for CD Installations"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

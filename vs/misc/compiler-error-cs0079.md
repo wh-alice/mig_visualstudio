@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0079 | testtitle"
+title: "Compiler Error CS0079"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0079"
 ms.assetid: 71c85883-b72f-402f-a828-18ca92976273
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,12 +1,12 @@
 ---
-title: "Anonymous type member or property &#39;&lt;propertyname&gt;&#39; is already declared | testtitle"
+title: "Anonymous type member or property &#39;&lt;propertyname&gt;&#39; is already declared"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC36547"
 ms.assetid: 4c60d24a-62d7-404a-bc35-d1a1d9c9f851
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

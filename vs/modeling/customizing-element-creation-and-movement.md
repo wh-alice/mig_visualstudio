@@ -1,5 +1,5 @@
 ---
-title: "Customizing Element Creation and Movement | testtitle"
+title: "Customizing Element Creation and Movement"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

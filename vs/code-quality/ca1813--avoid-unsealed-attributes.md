@@ -1,5 +1,5 @@
 ---
-title: "CA1813: Avoid unsealed attributes | testtitle"
+title: "CA1813: Avoid unsealed attributes"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -57,8 +57,8 @@ translation.priority.ht:
 ## Example  
  The following example shows a custom attribute that satisfies this rule.  
   
- [!code[FxCop.Performance.AttributesSealed#1](../code-quality/codesnippet/CSharp/ca1813--avoid-unsealed-attributes_1.cs)]
-[!code[FxCop.Performance.AttributesSealed#1](../code-quality/codesnippet/VisualBasic/ca1813--avoid-unsealed-attributes_1.vb)]  
+ [!code-cs[FxCop.Performance.AttributesSealed#1](../code-quality/codesnippet/CSharp/ca1813--avoid-unsealed-attributes_1.cs)]
+ [!code-vb[FxCop.Performance.AttributesSealed#1](../code-quality/codesnippet/VisualBasic/ca1813--avoid-unsealed-attributes_1.vb)]  
   
 ## Related Rules  
  [CA1019: Define accessors for attribute arguments](../code-quality/ca1019--define-accessors-for-attribute-arguments.md)  

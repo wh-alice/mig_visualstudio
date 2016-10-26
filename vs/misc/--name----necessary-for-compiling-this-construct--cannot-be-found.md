@@ -1,12 +1,12 @@
 ---
-title: "&#39;&lt;name&gt;&#39;, necessary for compiling this construct, cannot be found | testtitle"
+title: "&#39;&lt;name&gt;&#39;, necessary for compiling this construct, cannot be found"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30930"
 ms.assetid: 95d8380b-3d08-4898-819d-e8b9c85b3c83
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

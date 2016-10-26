@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0766 | testtitle"
+title: "Compiler Error CS0766"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0766"
 ms.assetid: 4574e30b-3e76-42cd-90e8-31c72126a08c
 caps.latest.revision: 4
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

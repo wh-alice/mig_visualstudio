@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 3) CS0693 | testtitle"
+title: "Compiler Warning (level 3) CS0693"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0693"
 ms.assetid: a3902336-49db-4808-b41f-8f0936bff53a
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

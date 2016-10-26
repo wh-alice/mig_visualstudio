@@ -1,5 +1,5 @@
 ---
-title: "CA1046: Do not overload operator equals on reference types | testtitle"
+title: "CA1046: Do not overload operator equals on reference types"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -57,12 +57,12 @@ translation.priority.ht:
 ## Example  
  The following example demonstrates the default behavior when comparing two references.  
   
- [!code[FxCop.Design.RefTypesNoEqualityOp#1](../code-quality/codesnippet/CSharp/ca1046--do-not-overload-operator-equals-on-reference-types_1.cs)]  
+ [!code-cs[FxCop.Design.RefTypesNoEqualityOp#1](../code-quality/codesnippet/CSharp/ca1046--do-not-overload-operator-equals-on-reference-types_1.cs)]  
   
 ## Example  
  The following application compares some references.  
   
- [!code[FxCop.Design.TestRefTypesNoEqualityOp#1](../code-quality/codesnippet/CSharp/ca1046--do-not-overload-operator-equals-on-reference-types_2.cs)]  
+ [!code-cs[FxCop.Design.TestRefTypesNoEqualityOp#1](../code-quality/codesnippet/CSharp/ca1046--do-not-overload-operator-equals-on-reference-types_2.cs)]  
   
  This example produces the following output.  
   

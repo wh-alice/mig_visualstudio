@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0835 | testtitle"
+title: "Compiler Error CS0835"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0835"
 ms.assetid: 593c26f6-6d82-49a6-8ace-4d29dd9f5fbe
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,5 +1,5 @@
 ---
-title: "CA2132: Default constructors must be at least as critical as base type default constructors | testtitle"
+title: "CA2132: Default constructors must be at least as critical as base type default constructors"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -56,6 +56,6 @@ translation.priority.ht:
  Do not suppress warnings from this rule. Violations of this rule by application code will result in the CoreCLR refusing to load the type with a <xref:System.TypeLoadException>.  
   
 ### Code  
- [!code[FxCop.Security.CA2132.DefaultConstructorsMustHaveConsistentTransparency#1](../code-quality/codesnippet/CSharp/e758afa1-8bde-442a-8a0a-bd1ea7b0ce4d_1.cs)]  
+ [!code-cs[FxCop.Security.CA2132.DefaultConstructorsMustHaveConsistentTransparency#1](../code-quality/codesnippet/CSharp/e758afa1-8bde-442a-8a0a-bd1ea7b0ce4d_1.cs)]  
   
 ### Comments

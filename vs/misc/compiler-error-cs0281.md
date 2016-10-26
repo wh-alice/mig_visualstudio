@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0281 | testtitle"
+title: "Compiler Error CS0281"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0281"
 ms.assetid: 3b886510-6e4d-45bc-b885-3ab7f6b6b2c6
 caps.latest.revision: 18
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

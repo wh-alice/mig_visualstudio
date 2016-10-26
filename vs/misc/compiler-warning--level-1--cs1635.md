@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 1) CS1635 | testtitle"
+title: "Compiler Warning (level 1) CS1635"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1635"
 ms.assetid: e1795880-f7ea-4dca-b15b-4ba549d7ed78
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

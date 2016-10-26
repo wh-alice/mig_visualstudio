@@ -1,12 +1,12 @@
 ---
-title: "Arguments cannot be passed to a &#39;New&#39; used on a type parameter | testtitle"
+title: "Arguments cannot be passed to a &#39;New&#39; used on a type parameter"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC32085"
 ms.assetid: a60bf62d-2b2e-4621-b8db-e67720b918fb
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

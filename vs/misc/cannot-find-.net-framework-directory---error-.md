@@ -1,12 +1,12 @@
 ---
-title: "Cannot find .NET Framework directory: &lt;error&gt; | testtitle"
+title: "Cannot find .NET Framework directory: &lt;error&gt;"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC31508"
 ms.assetid: d1571dd4-b57f-43b1-b296-22e9eb518fc0
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

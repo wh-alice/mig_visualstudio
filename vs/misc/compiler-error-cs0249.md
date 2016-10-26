@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0249 | testtitle"
+title: "Compiler Error CS0249"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0249"
 ms.assetid: 8bc3572f-d949-4867-b119-6527fb924a4a
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

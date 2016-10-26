@@ -1,5 +1,5 @@
 ---
-title: "Visual C++ Intellisense | testtitle"
+title: "Visual C++ Intellisense"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

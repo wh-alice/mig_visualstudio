@@ -1,5 +1,5 @@
 ---
-title: "Configure the Lab Service Account | testtitle"
+title: "Configure the Lab Service Account"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

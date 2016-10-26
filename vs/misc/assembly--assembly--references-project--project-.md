@@ -1,12 +1,12 @@
 ---
-title: "Assembly &lt;assembly&gt; references project &lt;project&gt; | testtitle"
+title: "Assembly &lt;assembly&gt; references project &lt;project&gt;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30964"
 ms.assetid: d084adff-d036-4664-8d81-e66c2dcb05f3
 caps.latest.revision: 2
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

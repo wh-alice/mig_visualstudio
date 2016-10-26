@@ -1,12 +1,12 @@
 ---
-title: "&#39;&lt;rsetstmt&gt;&#39; is not declared | testtitle"
+title: "&#39;&lt;rsetstmt&gt;&#39; is not declared"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30821"
 ms.assetid: 7936e3ef-7ac6-4a71-af55-acc2c5cd8754
 caps.latest.revision: 11
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

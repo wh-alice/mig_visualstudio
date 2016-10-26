@@ -1,12 +1,12 @@
 ---
-title: "&#39;For&#39; loop control variable cannot be of type &#39;&lt;type&gt;&#39; | testtitle"
+title: "&#39;For&#39; loop control variable cannot be of type &#39;&lt;type&gt;&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30337"
 ms.assetid: 988bba15-e9a2-4045-98a0-7f53c8b2c3e3
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,12 +1,12 @@
 ---
-title: "Interface &#39;&lt;interfacename&gt;&#39; can be implemented only once by this type | testtitle"
+title: "Interface &#39;&lt;interfacename&gt;&#39; can be implemented only once by this type"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC31033"
 ms.assetid: 473cc0bc-a9f0-4ae5-b421-5c08ea6bbc5e
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

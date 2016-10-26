@@ -1,20 +1,20 @@
 ---
-title: "Field &#39;&lt;fieldname&gt;&#39; of type &#39;&lt;typename&gt;&#39; is &#39;ReadOnly&#39; | testtitle"
+title: "Field &#39;&lt;fieldname&gt;&#39; of type &#39;&lt;typename&gt;&#39; is &#39;ReadOnly&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbrMissingMember_ReadOnlyField2"
 ms.assetid: fb51f54b-f12d-4aea-9a6e-6e070721c010
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,5 +1,5 @@
 ---
-title: "Using 3-D Assets in Your Game or App | testtitle"
+title: "Using 3-D Assets in Your Game or App"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

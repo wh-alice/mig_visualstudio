@@ -1,12 +1,12 @@
 ---
-title: "&#39;Continue&#39; statements are not valid in the Immediate window | testtitle"
+title: "&#39;Continue&#39; statements are not valid in the Immediate window"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30780"
 ms.assetid: 91f3b390-1180-415f-90e1-49c9547a00bd
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -45,5 +45,5 @@ translation.priority.mt:
   
 ## See Also  
  [Continue Statement](../Topic/Continue%20Statement%20\(Visual%20Basic\).md)   
- [Immediate Window](../reference/immediate-window.md)   
+ [Immediate Window](../ide-reference/immediate-window.md)   
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)

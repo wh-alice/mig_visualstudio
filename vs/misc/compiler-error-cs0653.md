@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0653 | testtitle"
+title: "Compiler Error CS0653"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0653"
 ms.assetid: c94043b9-b5d9-4294-921d-a4aead124d44
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

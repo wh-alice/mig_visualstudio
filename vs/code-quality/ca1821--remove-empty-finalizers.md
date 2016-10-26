@@ -1,5 +1,5 @@
 ---
-title: "CA1821: Remove empty finalizers | testtitle"
+title: "CA1821: Remove empty finalizers"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -57,4 +57,4 @@ translation.priority.mt:
 ## Example  
  The following example shows an empty finalizer that should be removed, a finalizer that should be enclosed in `#if DEBUG / #endif` directives, and a finalizer that uses the `#if DEBUG / #endif` directives correctly.  
   
- [!code[FxCop.Performance.RemoveEmptyFinalizers#1](../code-quality/codesnippet/CSharp/ca1821--remove-empty-finalizers_1.cs)]
+ [!code-cs[FxCop.Performance.RemoveEmptyFinalizers#1](../code-quality/codesnippet/CSharp/ca1821--remove-empty-finalizers_1.cs)]

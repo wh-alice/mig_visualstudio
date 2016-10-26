@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 1) CS1570 | testtitle"
+title: "Compiler Warning (level 1) CS1570"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1570"
 ms.assetid: a121d5c4-8b90-4cda-af5b-6ba8f23b2b1e
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

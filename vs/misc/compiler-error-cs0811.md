@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0811 | testtitle"
+title: "Compiler Error CS0811"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0811"
 ms.assetid: 99f81ad3-684f-47aa-adb8-360e24901454
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

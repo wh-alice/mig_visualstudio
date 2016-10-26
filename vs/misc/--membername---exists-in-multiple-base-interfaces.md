@@ -1,12 +1,12 @@
 ---
-title: "&#39;&lt;membername&gt;&#39; exists in multiple base interfaces | testtitle"
+title: "&#39;&lt;membername&gt;&#39; exists in multiple base interfaces"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC31040"
 ms.assetid: c1a80d64-3986-417f-af92-412183e490ad
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

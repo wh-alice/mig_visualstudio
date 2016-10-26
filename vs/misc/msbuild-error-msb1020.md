@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Error MSB1020 | testtitle"
+title: "MSBuild Error MSB1020"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
@@ -47,6 +47,6 @@ translation.priority.mt:
 -   Check that the path to the logger assembly is correct, or the logger can be loaded using only the assembly name provided.  
   
 ## See Also  
- [Command-Line Reference](../reference/msbuild-command-line-reference.md)   
- [Build Loggers](../reference/build-loggers.md)  
- [MSBuild](../reference/msbuild1.md)
+ [Command-Line Reference](../msbuild/msbuild-command-line-reference.md)   
+ [Build Loggers](../msbuild/build-loggers.md)  
+ [MSBuild](../msbuild/msbuild1.md)

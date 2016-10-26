@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating a Custom Bootstrapper to Show a Privacy Prompt | testtitle"
+title: "Walkthrough: Creating a Custom Bootstrapper to Show a Privacy Prompt"
 ms.custom: ""
 ms.date: "10/22/2016"
 ms.prod: "visual-studio-dev14"
@@ -92,32 +92,32 @@ You can configure ClickOnce applications to automatically update when assemblies
   
 18. In the Form1 code file, add the following code for the CheckedChanged event handler.  
   
-     [!code[ConsentDialog#1](../deployment/codesnippet/CSharp/walkthrough--creating-a-custom-bootstrapper-to-show-a-privacy-prompt_1.cs)]
-[!code[ConsentDialog#1](../deployment/codesnippet/VisualBasic/walkthrough--creating-a-custom-bootstrapper-to-show-a-privacy-prompt_1.vb)]  
+     [!code-cs[ConsentDialog#1](../deployment/codesnippet/CSharp/walkthrough--creating-a-custom-bootstrapper-to-show-a-privacy-prompt_1.cs)]
+     [!code-vb[ConsentDialog#1](../deployment/codesnippet/VisualBasic/walkthrough--creating-a-custom-bootstrapper-to-show-a-privacy-prompt_1.vb)]  
   
 19. Update the class constructor to disable the **Proceed** button by default.  
   
-     [!code[ConsentDialog#6](../deployment/codesnippet/CSharp/walkthrough--creating-a-custom-bootstrapper-to-show-a-privacy-prompt_2.cs)]
-[!code[ConsentDialog#6](../deployment/codesnippet/VisualBasic/walkthrough--creating-a-custom-bootstrapper-to-show-a-privacy-prompt_2.vb)]  
+     [!code-cs[ConsentDialog#6](../deployment/codesnippet/CSharp/walkthrough--creating-a-custom-bootstrapper-to-show-a-privacy-prompt_2.cs)]
+     [!code-vb[ConsentDialog#6](../deployment/codesnippet/VisualBasic/walkthrough--creating-a-custom-bootstrapper-to-show-a-privacy-prompt_2.vb)]  
   
 20. In the Form1 code file, add the following code for a Boolean variable to track if the end user has consented to online updates.  
   
-     [!code[ConsentDialog#3](../deployment/codesnippet/CSharp/walkthrough--creating-a-custom-bootstrapper-to-show-a-privacy-prompt_3.cs)]
-[!code[ConsentDialog#3](../deployment/codesnippet/VisualBasic/walkthrough--creating-a-custom-bootstrapper-to-show-a-privacy-prompt_3.vb)]  
+     [!code-cs[ConsentDialog#3](../deployment/codesnippet/CSharp/walkthrough--creating-a-custom-bootstrapper-to-show-a-privacy-prompt_3.cs)]
+     [!code-vb[ConsentDialog#3](../deployment/codesnippet/VisualBasic/walkthrough--creating-a-custom-bootstrapper-to-show-a-privacy-prompt_3.vb)]  
   
 21. In the designer, double-click the **Proceed** button to generate the Click event handler.  
   
 22. In the Form1 code file, add the following code to the Click event handler for the **Proceed** button.  
   
-     [!code[ConsentDialog#2](../deployment/codesnippet/CSharp/walkthrough--creating-a-custom-bootstrapper-to-show-a-privacy-prompt_4.cs)]
-[!code[ConsentDialog#2](../deployment/codesnippet/VisualBasic/walkthrough--creating-a-custom-bootstrapper-to-show-a-privacy-prompt_4.vb)]  
+     [!code-cs[ConsentDialog#2](../deployment/codesnippet/CSharp/walkthrough--creating-a-custom-bootstrapper-to-show-a-privacy-prompt_4.cs)]
+     [!code-vb[ConsentDialog#2](../deployment/codesnippet/VisualBasic/walkthrough--creating-a-custom-bootstrapper-to-show-a-privacy-prompt_4.vb)]  
   
 23. In the designer, double-click the **Cancel** button to generate the Click event handler.  
   
 24. In the Form1 code file, add the following code for the Click event handler for the **Cancel** button.  
   
-     [!code[ConsentDialog#4](../deployment/codesnippet/CSharp/walkthrough--creating-a-custom-bootstrapper-to-show-a-privacy-prompt_5.cs)]
-[!code[ConsentDialog#4](../deployment/codesnippet/VisualBasic/walkthrough--creating-a-custom-bootstrapper-to-show-a-privacy-prompt_5.vb)]  
+     [!code-cs[ConsentDialog#4](../deployment/codesnippet/CSharp/walkthrough--creating-a-custom-bootstrapper-to-show-a-privacy-prompt_5.cs)]
+     [!code-vb[ConsentDialog#4](../deployment/codesnippet/VisualBasic/walkthrough--creating-a-custom-bootstrapper-to-show-a-privacy-prompt_5.vb)]  
   
 25. Update the application to return an error if the end user does not consent to online updates.  
   
@@ -129,7 +129,7 @@ You can configure ClickOnce applications to automatically update when assemblies
   
     3.  In the Module1.vb code file, add the following code.  
   
-         [!code[ConsentDialog#7](../deployment/codesnippet/VisualBasic/walkthrough--creating-a-custom-bootstrapper-to-show-a-privacy-prompt_6.vb)]  
+         [!code-vb[ConsentDialog#7](../deployment/codesnippet/VisualBasic/walkthrough--creating-a-custom-bootstrapper-to-show-a-privacy-prompt_6.vb)]  
   
     4.  On the **Project** menu, click **ConsentDialog Properties**, and then click the **Application** tab.  
   
@@ -138,13 +138,13 @@ You can configure ClickOnce applications to automatically update when assemblies
     6.  In the **Startup object** drop-down menu, select **Module1**.  
   
         > [!NOTE]
-        >  Disabling the application framework disables features such as Windows XP visual styles, application events, splash screen, single instance application, and more. For more information, see [Application Page, Project Designer (Visual Basic)](../reference/application-page--project-designer--visual-basic-.md).  
+        >  Disabling the application framework disables features such as Windows XP visual styles, application events, splash screen, single instance application, and more. For more information, see [Application Page, Project Designer (Visual Basic)](../ide-reference/application-page--project-designer--visual-basic-.md).  
   
      For Visual C# developers only:  
   
      Open the Program.cs code file, and add the following code.  
   
-     [!code[ConsentDialog#5](../deployment/codesnippet/CSharp/walkthrough--creating-a-custom-bootstrapper-to-show-a-privacy-prompt_7.cs)]  
+     [!code-cs[ConsentDialog#5](../deployment/codesnippet/CSharp/walkthrough--creating-a-custom-bootstrapper-to-show-a-privacy-prompt_7.cs)]  
   
 26. On the **Build** menu, click **BuildSolution**.  
   

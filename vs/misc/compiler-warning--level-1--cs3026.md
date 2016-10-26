@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 1) CS3026 | testtitle"
+title: "Compiler Warning (level 1) CS3026"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS3026"
 ms.assetid: 6c57b2e3-3011-42db-b450-ce9e04c4b4ca
 caps.latest.revision: 5
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

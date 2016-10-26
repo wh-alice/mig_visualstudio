@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 1) CS1687 | testtitle"
+title: "Compiler Warning (level 1) CS1687"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1687"
 ms.assetid: f65d184f-fa1d-45d7-be7d-f439f67bace4
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

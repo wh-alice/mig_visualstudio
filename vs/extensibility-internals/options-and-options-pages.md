@@ -1,5 +1,5 @@
 ---
-title: "Options and Options Pages | testtitle"
+title: "Options and Options Pages"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"
@@ -47,8 +47,8 @@ Clicking **Options** on the **Tools** menu opens the **Options** dialog box. The
 ## Options Page Registry Path  
  By default, the registry path of the properties managed by an options page is determined by combining <xref:Microsoft.VisualStudio.Shell.Package.UserRegistryRoot*>, the word DialogPage, and the type name of the options page class. For example, an options page class might be defined as follows.  
   
- [!code[VSSDKSupportForOptionsPages#1](../extensibility-internals/codesnippet/CSharp/options-and-options-pages_1.cs)]
-[!code[VSSDKSupportForOptionsPages#1](../extensibility-internals/codesnippet/VisualBasic/options-and-options-pages_1.vb)]  
+ [!code-cs[VSSDKSupportForOptionsPages#1](../extensibility-internals/codesnippet/CSharp/options-and-options-pages_1.cs)]
+ [!code-vb[VSSDKSupportForOptionsPages#1](../extensibility-internals/codesnippet/VisualBasic/options-and-options-pages_1.vb)]  
   
  If the <xref:Microsoft.VisualStudio.Shell.Package.UserRegistryRoot*> is HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\8.0Exp, then the property name and value pairs are subkeys of HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\8.0Exp\DialogPage\Company.OptionsPage.OptionsPageGeneral.  
   
@@ -57,8 +57,8 @@ Clicking **Options** on the **Tools** menu opens the **Options** dialog box. The
 ## Tools/Options Page Attributes and Layout  
  The <xref:Microsoft.VisualStudio.Shell.ProvideOptionPageAttribute> attribute determines the grouping of custom options pages into categories in the navigation tree of the **Options** dialog box. The <xref:Microsoft.VisualStudio.Shell.ProvideOptionPageAttribute> attribute associates an options page with the VSPackage that provides the interface. Consider the following code fragment:  
   
- [!code[VSSDKSupportForOptionsPages#2](../extensibility-internals/codesnippet/CSharp/options-and-options-pages_2.cs)]
-[!code[VSSDKSupportForOptionsPages#2](../extensibility-internals/codesnippet/VisualBasic/options-and-options-pages_2.vb)]  
+ [!code-cs[VSSDKSupportForOptionsPages#2](../extensibility-internals/codesnippet/CSharp/options-and-options-pages_2.cs)]
+ [!code-vb[VSSDKSupportForOptionsPages#2](../extensibility-internals/codesnippet/VisualBasic/options-and-options-pages_2.vb)]  
   
  This declares that MyPackage provides two options pages, OptionsPageGeneral and OptionsPageCustom. In the **Options** dialog box, both options pages appear in the **My Option Pages** category as **General** and **Custom**, respectively.  
   
@@ -76,21 +76,21 @@ Clicking **Options** on the **Tools** menu opens the **Options** dialog box. The
   
  Consider the following code fragment:  
   
- [!code[VSSDKSupportForOptionsPages#3](../extensibility-internals/codesnippet/CSharp/options-and-options-pages_3.cs)]
-[!code[VSSDKSupportForOptionsPages#3](../extensibility-internals/codesnippet/VisualBasic/options-and-options-pages_3.vb)]  
+ [!code-cs[VSSDKSupportForOptionsPages#3](../extensibility-internals/codesnippet/CSharp/options-and-options-pages_3.cs)]
+ [!code-vb[VSSDKSupportForOptionsPages#3](../extensibility-internals/codesnippet/VisualBasic/options-and-options-pages_3.vb)]  
   
  The OptionInteger option appears on the options page as **Integer Option** in the **My Options** category. If the option is selected, the description, **My integer option**, appears in the description box.  
   
 ## Accessing Options Pages from Another VSPackage  
  A VSPackage that hosts and manages an options page can be programmatically accessed from another VSPackage by using the automation model. For example, in the following code a VSPackage is registered as hosting an option page.  
   
- [!code[VSSDKSupportForOptionsPages#4](../extensibility-internals/codesnippet/CSharp/options-and-options-pages_4.cs)]
-[!code[VSSDKSupportForOptionsPages#4](../extensibility-internals/codesnippet/VisualBasic/options-and-options-pages_4.vb)]  
+ [!code-cs[VSSDKSupportForOptionsPages#4](../extensibility-internals/codesnippet/CSharp/options-and-options-pages_4.cs)]
+ [!code-vb[VSSDKSupportForOptionsPages#4](../extensibility-internals/codesnippet/VisualBasic/options-and-options-pages_4.vb)]  
   
  The following code fragment gets the value of OptionInteger from MyOptionPage:  
   
- [!code[VSSDKSupportForOptionsPages#5](../extensibility-internals/codesnippet/CSharp/options-and-options-pages_5.cs)]
-[!code[VSSDKSupportForOptionsPages#5](../extensibility-internals/codesnippet/VisualBasic/options-and-options-pages_5.vb)]  
+ [!code-cs[VSSDKSupportForOptionsPages#5](../extensibility-internals/codesnippet/CSharp/options-and-options-pages_5.cs)]
+ [!code-vb[VSSDKSupportForOptionsPages#5](../extensibility-internals/codesnippet/VisualBasic/options-and-options-pages_5.vb)]  
   
  When the <xref:Microsoft.VisualStudio.Shell.ProvideOptionPageAttribute> attribute registers an options page, the page is registered under the AutomationProperties key if the `SupportsAutomation` argument of the attribute is `true`. Automation examines this registry entry to find the associated VSPackage, and automation then accesses the property through the hosted options page, in this case, My Grid Page.  
   

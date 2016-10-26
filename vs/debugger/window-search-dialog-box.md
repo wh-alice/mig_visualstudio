@@ -1,5 +1,5 @@
 ---
-title: "Window Search Dialog Box | testtitle"
+title: "Window Search Dialog Box"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

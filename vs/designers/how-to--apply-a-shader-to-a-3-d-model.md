@@ -1,5 +1,5 @@
 ---
-title: "How to: Apply a Shader to a 3-D Model | testtitle"
+title: "How to: Apply a Shader to a 3-D Model"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

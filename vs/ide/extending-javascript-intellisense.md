@@ -1,5 +1,5 @@
 ---
-title: "Extending JavaScript IntelliSense | testtitle"
+title: "Extending JavaScript IntelliSense"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -56,7 +56,7 @@ The JavaScript IntelliSense extensibility feature enables you to customize Intel
   
  If you want to use the extension for all your JavaScript project files, you might instead choose to add the extension to a reference group. There are several types of reference groups, either those that include implicit references and those that include dedicated worker references. To add an extension, you typically need to add the file as an implicit reference group, either **Implicit (Windows)**, **Implicit (Web)**. Implicit references are in scope for every .js file opened in the Code Editor. When you use this method, you need to add both the extension and the file that the extension is supplementing.  
   
- Use the **IntelliSense** page of the **Options** dialog box to add an extension as a reference group. You can access the **IntelliSense** page by choosing **Tools**, **Options** on the menu bar, and then choosing **Text Editor**, **JavaScript**, **IntelliSense**, **References**. For more information about reference groups, see [JavaScript IntelliSense](../ide/javascript-intellisense.md) and [Options, Text Editor, JavaScript, IntelliSense](../reference/options--text-editor--javascript--intellisense.md).  
+ Use the **IntelliSense** page of the **Options** dialog box to add an extension as a reference group. You can access the **IntelliSense** page by choosing **Tools**, **Options** on the menu bar, and then choosing **Text Editor**, **JavaScript**, **IntelliSense**, **References**. For more information about reference groups, see [JavaScript IntelliSense](../ide/javascript-intellisense.md) and [Options, Text Editor, JavaScript, IntelliSense](../ide-reference/options--text-editor--javascript--intellisense.md).  
   
  If you want to use the extension for a specific set of files, use a reference directive. When you use this method, you need to reference both the extension and the file the extension is supplementing. For information about using the reference directive, see [JavaScript IntelliSense](../ide/javascript-intellisense.md).  
   

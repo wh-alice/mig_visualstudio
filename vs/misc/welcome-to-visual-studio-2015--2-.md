@@ -1,7 +1,7 @@
 ---
-title: "Welcome to Visual Studio 2015 (2) | testtitle"
+title: "Welcome to Visual Studio 2015 (2)"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/25/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

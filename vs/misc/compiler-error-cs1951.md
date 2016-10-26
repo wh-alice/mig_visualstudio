@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1951 | testtitle"
+title: "Compiler Error CS1951"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1951"
 ms.assetid: 799ba212-a000-44d9-b7da-a8c00eae63fa
 caps.latest.revision: 5
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

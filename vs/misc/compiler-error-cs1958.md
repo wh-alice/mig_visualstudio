@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1958 | testtitle"
+title: "Compiler Error CS1958"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1958"
 ms.assetid: bb6f3bb2-ea93-4d2e-984c-da9c99f5653f
 caps.latest.revision: 5
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

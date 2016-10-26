@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0844 | testtitle"
+title: "Compiler Error CS0844"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0844"
 ms.assetid: ccf74e01-292a-42d0-897c-8add7aee2118
 caps.latest.revision: 5
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

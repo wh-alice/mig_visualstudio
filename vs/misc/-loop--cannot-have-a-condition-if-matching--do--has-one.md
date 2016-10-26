@@ -1,12 +1,12 @@
 ---
-title: "&#39;Loop&#39; cannot have a condition if matching &#39;Do&#39; has one | testtitle"
+title: "&#39;Loop&#39; cannot have a condition if matching &#39;Do&#39; has one"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30238"
 ms.assetid: 81513cb5-69e7-4d62-b33e-e54cb8c5e8bf
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

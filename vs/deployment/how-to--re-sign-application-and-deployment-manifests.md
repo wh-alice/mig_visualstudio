@@ -1,5 +1,5 @@
 ---
-title: "How to: Re-sign Application and Deployment Manifests | testtitle"
+title: "How to: Re-sign Application and Deployment Manifests"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

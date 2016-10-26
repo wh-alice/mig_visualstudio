@@ -1,5 +1,5 @@
 ---
-title: "IDiaAddressMap::get_addressMapEnabled | testtitle"
+title: "IDiaAddressMap::get_addressMapEnabled"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

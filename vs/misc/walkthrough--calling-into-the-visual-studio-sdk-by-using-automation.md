@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Calling into the Visual Studio SDK By Using Automation | testtitle"
+title: "Walkthrough: Calling into the Visual Studio SDK By Using Automation"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -65,8 +65,8 @@ This walkthrough illustrates how to create a Visual Studio add-in that consumes 
   
 1.  Open the file Connect.cs or Connect.vb and add these lines to the `using` (C#) or `Imports` (Visual Basic) statements:  
   
-     [!code[VSSDKAddin#1](../misc/codesnippet/CSharp/walkthrough--calling-into-the-visual-studio-sdk-by-using-automation_1.cs)]
-[!code[VSSDKAddin#1](../misc/codesnippet/VisualBasic/walkthrough--calling-into-the-visual-studio-sdk-by-using-automation_1.vb)]  
+     [!code-cs[VSSDKAddin#1](../misc/codesnippet/CSharp/walkthrough--calling-into-the-visual-studio-sdk-by-using-automation_1.cs)]
+     [!code-vb[VSSDKAddin#1](../misc/codesnippet/VisualBasic/walkthrough--calling-into-the-visual-studio-sdk-by-using-automation_1.vb)]  
   
 2.  Right-click the project node in **Solution Explorer** and add these .NET references:  
   
@@ -77,8 +77,8 @@ This walkthrough illustrates how to create a Visual Studio add-in that consumes 
   
 3.  Add these lines of code to the `if(commandName == "Addin.Connect.Addin")` or `If commandName = "Addin.Connect.Addin" Then` clause of the `Exec` method:  
   
-     [!code[VSSDKAddin#2](../misc/codesnippet/CSharp/walkthrough--calling-into-the-visual-studio-sdk-by-using-automation_2.cs)]
-[!code[VSSDKAddin#2](../misc/codesnippet/VisualBasic/walkthrough--calling-into-the-visual-studio-sdk-by-using-automation_2.vb)]  
+     [!code-cs[VSSDKAddin#2](../misc/codesnippet/CSharp/walkthrough--calling-into-the-visual-studio-sdk-by-using-automation_2.cs)]
+     [!code-vb[VSSDKAddin#2](../misc/codesnippet/VisualBasic/walkthrough--calling-into-the-visual-studio-sdk-by-using-automation_2.vb)]  
   
      This code casts the current application object (type `DTE2`) into an `IOleServiceProvider`, then calls `QueryService` to obtain the <xref:Microsoft.VisualStudio.Shell.Interop.SVsUIShell> service. This service provides an <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell> interface. The <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.ShowMessageBox*> method displays a message box when the add-in runs.  
   

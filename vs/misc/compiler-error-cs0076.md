@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0076 | testtitle"
+title: "Compiler Error CS0076"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0076"
 ms.assetid: 8b3e8674-8bfb-4be5-a466-cdf6134e3935
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

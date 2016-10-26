@@ -1,5 +1,5 @@
 ---
-title: "Getting Started with Python | testtitle"
+title: "Getting Started with Python"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"

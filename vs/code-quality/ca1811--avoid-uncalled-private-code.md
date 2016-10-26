@@ -1,5 +1,5 @@
 ---
-title: "CA1811: Avoid uncalled private code | testtitle"
+title: "CA1811: Avoid uncalled private code"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

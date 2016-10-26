@@ -1,5 +1,5 @@
 ---
-title: "CA1051: Do not declare visible instance fields | testtitle"
+title: "CA1051: Do not declare visible instance fields"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -60,7 +60,7 @@ translation.priority.mt:
 ## Example  
  The following example shows a type (`BadPublicInstanceFields`) that violates this rule. `GoodPublicInstanceFields` shows the corrected code.  
   
- [!code[FxCop.Design.TypesPublicInstanceFields#1](../code-quality/codesnippet/CSharp/ca1051--do-not-declare-visible-instance-fields_1.cs)]  
+ [!code-cs[FxCop.Design.TypesPublicInstanceFields#1](../code-quality/codesnippet/CSharp/ca1051--do-not-declare-visible-instance-fields_1.cs)]  
   
 ## Related Rules  
  [CA2112: Secured types should not expose fields](../code-quality/ca2112--secured-types-should-not-expose-fields.md)  

@@ -1,5 +1,5 @@
 ---
-title: "Version Compatibility for Code Analysis Check-In Policies | testtitle"
+title: "Version Compatibility for Code Analysis Check-In Policies"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

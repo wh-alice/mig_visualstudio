@@ -1,5 +1,5 @@
 ---
-title: "Mapping Shapes and Connectors - redirect | testtitle"
+title: "Mapping Shapes and Connectors - redirect"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0439 | testtitle"
+title: "Compiler Error CS0439"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0439"
 ms.assetid: 5cbac869-1b1b-45f9-98c8-38c17348035f
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

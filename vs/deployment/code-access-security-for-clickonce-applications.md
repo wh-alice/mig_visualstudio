@@ -1,5 +1,5 @@
 ---
-title: "Code Access Security for ClickOnce Applications | testtitle"
+title: "Code Access Security for ClickOnce Applications"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"
@@ -111,4 +111,4 @@ ClickOnce applications are based on the .NET Framework and are subject to code a
  [How to: Set Custom Permissions for a ClickOnce Application](../deployment/how-to--set-custom-permissions-for-a-clickonce-application.md)   
  [How to: Debug a ClickOnce Application with Restricted Permissions](../deployment/how-to--debug-a-clickonce-application-with-restricted-permissions.md)   
  [Trusted Application Deployment Overview](../deployment/trusted-application-deployment-overview.md)   
- [Security Page, Project Designer](../reference/security-page--project-designer.md)
+ [Security Page, Project Designer](../ide-reference/security-page--project-designer.md)

@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1910 | testtitle"
+title: "Compiler Error CS1910"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1910"
 ms.assetid: 0fef9727-e56f-451c-9255-ca4e5a26d7c6
 caps.latest.revision: 6
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

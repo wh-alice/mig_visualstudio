@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Error MSB2011 | testtitle"
+title: "MSBuild Error MSB2011"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
@@ -45,5 +45,5 @@ translation.priority.mt:
 -   Check whether the project file has been modified or corrupted. If it has been modified or corrupted, open the project in the version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] in which it was created, save it, and then attempt to convert it again.  
   
 ## See Also  
- [Project File Schema Reference](../reference/msbuild-project-file-schema-reference.md)   
- [Additional Resources](../reference/additional-msbuild-resources.md)
+ [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)   
+ [Additional Resources](../msbuild/additional-msbuild-resources.md)

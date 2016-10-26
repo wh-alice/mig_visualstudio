@@ -1,12 +1,12 @@
 ---
-title: "Attribute &#39;StructLayout&#39; cannot be applied to a generic type. | testtitle"
+title: "Attribute &#39;StructLayout&#39; cannot be applied to a generic type."
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30972"
 ms.assetid: 6718e327-6311-4f59-8029-4ae95f609b50
 caps.latest.revision: 2
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

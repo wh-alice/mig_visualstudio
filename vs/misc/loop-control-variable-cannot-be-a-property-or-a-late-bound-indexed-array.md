@@ -1,7 +1,7 @@
 ---
-title: "Loop control variable cannot be a property or a late-bound indexed array | testtitle"
+title: "Loop control variable cannot be a property or a late-bound indexed array"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

@@ -1,5 +1,5 @@
 ---
-title: "Using the IntelliTrace stand-alone collector | testtitle"
+title: "Using the IntelliTrace stand-alone collector"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

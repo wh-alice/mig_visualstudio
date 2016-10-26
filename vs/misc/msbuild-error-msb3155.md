@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Error MSB3155 | testtitle"
+title: "MSBuild Error MSB3155"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -47,5 +47,5 @@ translation.priority.ht:
 ## See Also  
  [Product and Package Schema Reference](../deployment/product-and-package-schema-reference.md)   
  [\<PackageFiles> Element](../deployment/-packagefiles--element--bootstrapper-.md)   
- [Prerequisites Dialog Box](../reference/prerequisites-dialog-box.md)   
+ [Prerequisites Dialog Box](../ide-reference/prerequisites-dialog-box.md)   
  [Creating Bootstrapper Packages](../deployment/creating-bootstrapper-packages.md)

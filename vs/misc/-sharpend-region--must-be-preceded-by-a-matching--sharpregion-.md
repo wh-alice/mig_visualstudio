@@ -1,12 +1,12 @@
 ---
-title: "&#39;#End Region&#39; must be preceded by a matching &#39;#Region&#39; | testtitle"
+title: "&#39;#End Region&#39; must be preceded by a matching &#39;#Region&#39;"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30680"
 ms.assetid: 1ea60620-c8dc-4957-8cf4-07b25d20da3b
 caps.latest.revision: 14
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

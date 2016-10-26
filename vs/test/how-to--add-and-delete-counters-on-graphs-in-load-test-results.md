@@ -1,5 +1,5 @@
 ---
-title: "How to: Add and Delete Counters on Graphs in Load Test Results | testtitle"
+title: "How to: Add and Delete Counters on Graphs in Load Test Results"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

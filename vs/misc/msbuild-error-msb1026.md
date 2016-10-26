@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Error MSB1026 | testtitle"
+title: "MSBuild Error MSB1026"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -43,4 +43,4 @@ translation.priority.mt:
 1.  Check that the schema file exists in the specified directory if you have specified the absolute or relative location of the schema file.  
   
 ## See Also  
- [Command-Line Reference](../reference/msbuild-command-line-reference.md)
+ [Command-Line Reference](../msbuild/msbuild-command-line-reference.md)

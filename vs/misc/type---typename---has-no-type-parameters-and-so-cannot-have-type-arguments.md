@@ -1,12 +1,12 @@
 ---
-title: "Type &#39;&lt;typename&gt;&#39; has no type parameters and so cannot have type arguments | testtitle"
+title: "Type &#39;&lt;typename&gt;&#39; has no type parameters and so cannot have type arguments"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC32045"
 ms.assetid: b86e784c-6718-4585-bd39-2f0982068828
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

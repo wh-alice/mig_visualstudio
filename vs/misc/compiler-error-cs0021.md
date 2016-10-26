@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0021 | testtitle"
+title: "Compiler Error CS0021"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0021"
 ms.assetid: 4eb5fa24-8261-4962-b36a-224be5074217
 caps.latest.revision: 14
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

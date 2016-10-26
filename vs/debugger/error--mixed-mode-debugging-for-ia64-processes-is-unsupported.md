@@ -1,5 +1,5 @@
 ---
-title: "Error: Mixed mode debugging for IA64 processes is unsupported | testtitle"
+title: "Error: Mixed mode debugging for IA64 processes is unsupported"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

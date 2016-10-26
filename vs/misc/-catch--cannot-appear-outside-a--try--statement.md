@@ -1,12 +1,12 @@
 ---
-title: "&#39;Catch&#39; cannot appear outside a &#39;Try&#39; statement | testtitle"
+title: "&#39;Catch&#39; cannot appear outside a &#39;Try&#39; statement"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30380"
 ms.assetid: 73ce950d-881f-4532-8024-40a4930abd32
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

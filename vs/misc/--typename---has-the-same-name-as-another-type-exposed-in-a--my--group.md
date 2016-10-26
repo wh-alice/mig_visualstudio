@@ -1,12 +1,12 @@
 ---
-title: "&#39;&lt;typename&gt;&#39; has the same name as another type exposed in a &#39;My&#39; group | testtitle"
+title: "&#39;&lt;typename&gt;&#39; has the same name as another type exposed in a &#39;My&#39; group"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC36015"
 ms.assetid: cd2286da-49be-461f-bec9-58e9c53e250b
 caps.latest.revision: 12
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

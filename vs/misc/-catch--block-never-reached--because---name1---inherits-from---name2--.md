@@ -1,12 +1,12 @@
 ---
-title: "&#39;Catch&#39; block never reached, because &#39;&lt;name1&gt;&#39; inherits from &#39;&lt;name2&gt;&#39; | testtitle"
+title: "&#39;Catch&#39; block never reached, because &#39;&lt;name1&gt;&#39; inherits from &#39;&lt;name2&gt;&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC42029"
 ms.assetid: 4bc84a84-ec7e-49db-8794-4fb71d36d5c0
 caps.latest.revision: 12
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

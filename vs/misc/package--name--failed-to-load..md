@@ -1,5 +1,5 @@
 ---
-title: "Package &lt;name&gt; failed to load. | testtitle"
+title: "Package &lt;name&gt; failed to load."
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

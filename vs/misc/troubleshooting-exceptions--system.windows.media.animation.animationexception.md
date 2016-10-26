@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Exceptions: System.Windows.Media.Animation.AnimationException | testtitle"
+title: "Troubleshooting Exceptions: System.Windows.Media.Animation.AnimationException"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Select Rule Set Dialog Box (Legacy) | testtitle"
+title: "Select Rule Set Dialog Box (Legacy)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: ".net-framework-4.6"

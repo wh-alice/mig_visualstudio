@@ -1,5 +1,5 @@
 ---
-title: "CA2131: Security critical types may not participate in type equivalence | testtitle"
+title: "CA2131: Security critical types may not participate in type equivalence"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -53,7 +53,7 @@ translation.priority.ht:
 ## Example  
  The following examples demonstrate an interface, a method, and a field that will cause this rule to fire.  
   
- [!code[FxCop.Security.CA2131.CriticalTypesMustNotParticipateInTypeEquivalence#1](../code-quality/codesnippet/CSharp/ca2131--security-critical-types-may-not-participate-in-type-equivalence_1.cs)]  
+ [!code-cs[FxCop.Security.CA2131.CriticalTypesMustNotParticipateInTypeEquivalence#1](../code-quality/codesnippet/CSharp/ca2131--security-critical-types-may-not-participate-in-type-equivalence_1.cs)]  
   
 ## See Also  
  [Security-Transparent Code, Level 2](../Topic/Security-Transparent%20Code,%20Level%202.md)

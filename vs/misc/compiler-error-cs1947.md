@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1947 | testtitle"
+title: "Compiler Error CS1947"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1947"
 ms.assetid: e2822fba-a176-4466-9cdc-63c44e22ebcb
 caps.latest.revision: 6
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

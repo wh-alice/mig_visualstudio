@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 4) CS0402 | testtitle"
+title: "Compiler Warning (level 4) CS0402"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0402"
 ms.assetid: 5a252c95-18c7-4569-bae0-e1f7b582cf6a
 caps.latest.revision: 6
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

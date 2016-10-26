@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0738 | testtitle"
+title: "Compiler Error CS0738"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0738"
 ms.assetid: 01ce94ee-2435-4326-befc-2b020c441a4f
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

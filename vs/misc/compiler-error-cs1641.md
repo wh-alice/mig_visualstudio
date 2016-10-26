@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1641 | testtitle"
+title: "Compiler Error CS1641"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1641"
 ms.assetid: ba6eab47-c28b-4531-b6a0-6d538b236d19
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

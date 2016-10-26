@@ -1,5 +1,5 @@
 ---
-title: "Color Theming Tools | testtitle"
+title: "Color Theming Tools"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.reviewer: ""

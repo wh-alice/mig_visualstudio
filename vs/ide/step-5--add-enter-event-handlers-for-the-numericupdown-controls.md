@@ -1,5 +1,5 @@
 ---
-title: "Step 5: Add Enter Event Handlers for the NumericUpDown Controls | testtitle"
+title: "Step 5: Add Enter Event Handlers for the NumericUpDown Controls"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -64,8 +64,8 @@ Properties dialog box
   
 3.  In the method for the **answer_Enter** event handler, add the following code.  
   
-     [!code[VbExpressTutorial3Step5_6#11](../ide/codesnippet/VisualBasic/step-5--add-enter-event-handlers-for-the-numericupdown-controls_1.vb)]
-[!code[VbExpressTutorial3Step5_6#11](../ide/codesnippet/CSharp/step-5--add-enter-event-handlers-for-the-numericupdown-controls_1.cs)]  
+     [!code-vb[VbExpressTutorial3Step5_6#11](../ide/codesnippet/VisualBasic/step-5--add-enter-event-handlers-for-the-numericupdown-controls_1.vb)]
+     [!code-cs[VbExpressTutorial3Step5_6#11](../ide/codesnippet/CSharp/step-5--add-enter-event-handlers-for-the-numericupdown-controls_1.cs)]  
   
      This code may look complex, but you can understand it if you look at it step by step. First, look at the top of the method: `object sender` in C# or `sender As System.Object` in Visual Basic. This parameter refers to the object whose event is firing, which is known as the sender. In this case, the sender object is the NumericUpDown control. So, in the first line of the method, you specify that the sender isn't just any generic object but specifically a NumericUpDown control. (Every NumericUpDown control is an object, but not every object is a NumericUpDown control.) The NumericUpDown control is named **answerBox** in this method, because it will be used for all of the NumericUpDown controls on the form, not just the sum NumericUpDown control. Because you declare the answerBox variable in this method, its scope applies only to this method. In other words, the variable can be used only within this method.  
   

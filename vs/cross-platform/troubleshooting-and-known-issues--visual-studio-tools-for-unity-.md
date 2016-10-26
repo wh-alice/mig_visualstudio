@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting and Known Issues (Visual Studio Tools for Unity) | testtitle"
+title: "Troubleshooting and Known Issues (Visual Studio Tools for Unity)"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

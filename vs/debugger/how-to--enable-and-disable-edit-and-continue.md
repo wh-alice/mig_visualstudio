@@ -1,5 +1,5 @@
 ---
-title: "How to: Enable and Disable Edit and Continue | testtitle"
+title: "How to: Enable and Disable Edit and Continue"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

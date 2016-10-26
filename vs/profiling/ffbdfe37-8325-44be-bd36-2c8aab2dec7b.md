@@ -1,7 +1,7 @@
 ---
-title: "How to: Attach the Profiler to a .NET Service to Collect Concurrency Data by Using the Command Line | testtitle"
+title: "How to: Attach the Profiler to a .NET Service to Collect Concurrency Data by Using the Command Line"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

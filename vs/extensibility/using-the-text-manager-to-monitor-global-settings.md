@@ -1,5 +1,5 @@
 ---
-title: "Using the Text Manager to Monitor Global Settings | testtitle"
+title: "Using the Text Manager to Monitor Global Settings"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

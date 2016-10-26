@@ -1,5 +1,5 @@
 ---
-title: "Publishing ClickOnce Applications | testtitle"
+title: "Publishing ClickOnce Applications"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -69,7 +69,7 @@ When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
 |[How to: Set the ClickOnce Publish Version](../deployment/how-to--set-the-clickonce-publish-version.md)|Describes how to set the ClickOnce **Publish Version** property, which determines whether or not the application that you are publishing will be treated as an update.|  
 |[How to: Automatically Increment the ClickOnce Publish Version](../deployment/how-to--automatically-increment-the-clickonce-publish-version.md)|Describes how to automatically increment the Revision number of the **PublishVersion** each time you publish the application.|  
   
- For more information, see [Publish Page, Project Designer](../reference/publish-page--project-designer.md)  
+ For more information, see [Publish Page, Project Designer](../ide-reference/publish-page--project-designer.md)  
   
 ### Application Files Dialog Box  
  This dialog box allows you to specify how the files in your project are categorized for publishing, dynamic downloading, and updating. It contains a grid that lists the project files that are not excluded by default, or that have a download group.  
@@ -77,7 +77,7 @@ When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
  To exclude files, mark files as data files or prerequisites, and create groups of files for conditional installation in the Visual Studio UI, see [How to: Specify Which Files Are Published by ClickOnce](../deployment/how-to--specify-which-files-are-published-by-clickonce.md). You can also mark data files by using the Mage.exe. For more information, see [How to: Include a Data File in a ClickOnce Application](../deployment/how-to--include-a-data-file-in-a-clickonce-application.md).  
   
 ### Prerequisites Dialog Box  
- This dialog box specifies which prerequisite components are installed, as well as how they are installed. For more information, see [How to: Install Prerequisites with a ClickOnce Application](../deployment/how-to--install-prerequisites-with-a-clickonce-application.md) and [Prerequisites Dialog Box](../reference/prerequisites-dialog-box.md).  
+ This dialog box specifies which prerequisite components are installed, as well as how they are installed. For more information, see [How to: Install Prerequisites with a ClickOnce Application](../deployment/how-to--install-prerequisites-with-a-clickonce-application.md) and [Prerequisites Dialog Box](../ide-reference/prerequisites-dialog-box.md).  
   
 ### Application Updates Dialog Box  
  This dialog box specifies how the application installation should check for updates. For more information, see [How to: Manage Updates for a ClickOnce Application](../deployment/how-to--manage-updates-for-a-clickonce-application.md).  

@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1938 | testtitle"
+title: "Compiler Error CS1938"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1938"
 ms.assetid: fc8de996-f7a1-46e8-b07b-aea520b391b9
 caps.latest.revision: 6
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

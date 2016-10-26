@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0305 | testtitle"
+title: "Compiler Error CS0305"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0305"
 ms.assetid: a862c484-01fe-4067-b0f4-15a618e7f8a1
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

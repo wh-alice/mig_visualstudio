@@ -1,5 +1,5 @@
 ---
-title: "How to: Submit a Bug Using Microsoft Test Manager | testtitle"
+title: "How to: Submit a Bug Using Microsoft Test Manager"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

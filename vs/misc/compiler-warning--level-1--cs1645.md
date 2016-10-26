@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 1) CS1645 | testtitle"
+title: "Compiler Warning (level 1) CS1645"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1645"
 ms.assetid: ea45fb20-b696-4d4e-b893-edde9d96bd3a
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

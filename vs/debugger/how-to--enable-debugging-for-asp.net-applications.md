@@ -1,5 +1,5 @@
 ---
-title: "How to: Enable Debugging for ASP.NET Applications | testtitle"
+title: "How to: Enable Debugging for ASP.NET Applications"
 ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"

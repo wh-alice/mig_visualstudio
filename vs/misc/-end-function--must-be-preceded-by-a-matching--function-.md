@@ -1,12 +1,12 @@
 ---
-title: "&#39;End Function&#39; must be preceded by a matching &#39;Function&#39; | testtitle"
+title: "&#39;End Function&#39; must be preceded by a matching &#39;Function&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30430"
 ms.assetid: de66a6b4-0321-45c2-aca0-87d2b4244b31
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

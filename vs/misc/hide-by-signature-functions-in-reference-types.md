@@ -1,5 +1,5 @@
 ---
-title: "Hide-by-Signature Functions in Reference Types | testtitle"
+title: "Hide-by-Signature Functions in Reference Types"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

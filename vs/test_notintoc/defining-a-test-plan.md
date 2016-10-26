@@ -1,5 +1,5 @@
 ---
-title: "Defining a Test Plan | testtitle"
+title: "Defining a Test Plan"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

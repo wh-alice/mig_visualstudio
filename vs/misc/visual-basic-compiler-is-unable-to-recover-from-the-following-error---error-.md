@@ -1,12 +1,12 @@
 ---
-title: "Visual Basic compiler is unable to recover from the following error: &lt;error&gt; | testtitle"
+title: "Visual Basic compiler is unable to recover from the following error: &lt;error&gt;"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC31021"
 ms.assetid: fe60ce69-859e-47a9-ad09-c31f56d774bc
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

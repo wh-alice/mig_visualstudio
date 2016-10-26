@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a Test-level Validation Rule for a Web Performance Test | testtitle"
+title: "How to: Create a Test-level Validation Rule for a Web Performance Test"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

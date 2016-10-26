@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1952 | testtitle"
+title: "Compiler Error CS1952"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1952"
 ms.assetid: 8c560bf9-df93-40f5-a3d8-c66b31cde08f
 caps.latest.revision: 5
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

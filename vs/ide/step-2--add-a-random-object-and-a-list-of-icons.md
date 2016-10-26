@@ -1,5 +1,5 @@
 ---
-title: "Step 2: Add a Random Object and a List of Icons | testtitle"
+title: "Step 2: Add a Random Object and a List of Icons"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -39,8 +39,8 @@ In this step, you create a set of matching symbols for the game. Each symbol is 
   
 2.  In the existing code, add the following code.  
   
-     [!code[VbExpressTutorial4Step2_3_4#1](../ide/codesnippet/CSharp/step-2--add-a-random-object-and-a-list-of-icons_1.cs)]
-[!code[VbExpressTutorial4Step2_3_4#1](../ide/codesnippet/VisualBasic/step-2--add-a-random-object-and-a-list-of-icons_1.vb)]  
+     [!code-cs[VbExpressTutorial4Step2_3_4#1](../ide/codesnippet/CSharp/step-2--add-a-random-object-and-a-list-of-icons_1.cs)]
+     [!code-vb[VbExpressTutorial4Step2_3_4#1](../ide/codesnippet/VisualBasic/step-2--add-a-random-object-and-a-list-of-icons_1.vb)]  
   
      If you're using Visual C#, be sure you put the code after the opening curly brace and just after the class declaration (`public partial class Form1 : Form`). If you're using Visual Basic, put the code right after the class declaration (`Public Class Form1`).  
   

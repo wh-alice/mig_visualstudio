@@ -1,5 +1,5 @@
 ---
-title: "IDebugProperty2::SetValueAsReference | testtitle"
+title: "IDebugProperty2::SetValueAsReference"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

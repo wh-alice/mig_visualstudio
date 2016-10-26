@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 1) CS0197 | testtitle"
+title: "Compiler Warning (level 1) CS0197"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0197"
 ms.assetid: 2b5b1b8d-ce13-4bd7-b80a-abb80e9f79ad
 caps.latest.revision: 17
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

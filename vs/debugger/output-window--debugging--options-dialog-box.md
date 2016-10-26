@@ -1,5 +1,5 @@
 ---
-title: "Output Window, Debugging, Options Dialog Box | testtitle"
+title: "Output Window, Debugging, Options Dialog Box"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -50,4 +50,4 @@ You can specify which types of debugging information appear in the **Output** wi
   
 ## See Also  
  [Debugging, Options Dialog Box](../debugger/debugging--options-dialog-box.md)   
- [Output Window](../reference/output-window.md)
+ [Output Window](../ide-reference/output-window.md)

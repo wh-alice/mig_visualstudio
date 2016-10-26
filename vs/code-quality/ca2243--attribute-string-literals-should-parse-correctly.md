@@ -1,5 +1,5 @@
 ---
-title: "CA2243: Attribute string literals should parse correctly | testtitle"
+title: "CA2243: Attribute string literals should parse correctly"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -61,7 +61,7 @@ translation.priority.ht:
 ## Example  
  The following example shows code for the AssemblyFileVersionAttribute that violates this rule.  
   
- [!code[FxCop.Usage.AttributeStringLiteralsShouldParseCorrectly#1](../code-quality/codesnippet/CSharp/ca2243--attribute-string-literals-should-parse-correctly_1.cs)]  
+ [!code-cs[FxCop.Usage.AttributeStringLiteralsShouldParseCorrectly#1](../code-quality/codesnippet/CSharp/ca2243--attribute-string-literals-should-parse-correctly_1.cs)]  
   
  The rule is triggered by the following:  
   

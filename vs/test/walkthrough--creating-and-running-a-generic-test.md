@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating and Running a Generic Test | testtitle"
+title: "Walkthrough: Creating and Running a Generic Test"
 ms.custom: ""
 ms.date: "10/03/2016"
 ms.prod: "visual-studio-tfs-dev14"

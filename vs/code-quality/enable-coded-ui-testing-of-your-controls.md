@@ -1,5 +1,5 @@
 ---
-title: "Enable Coded UI Testing of Your Controls | testtitle"
+title: "Enable Coded UI Testing of Your Controls"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

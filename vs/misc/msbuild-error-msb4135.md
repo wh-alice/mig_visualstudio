@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB4135 | testtitle"
+title: "MSBuild Error MSB4135"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/24/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -41,6 +41,6 @@ translation.priority.mt:
 -   If you have defined a custom Toolset in the registry, make sure that it is in valid registry format, that is has the correct `ToolsVersion` name and that the correct `MSBuildBinPath` or `MSBuildToolsPath` value.  
   
 ## See Also  
- [Standard and Custom Toolset Configurations](../reference/standard-and-custom-toolset-configurations.md)   
- [Project Element (MSBuild)](../reference/project-element--msbuild-.md)   
- [Additional Resources](../reference/additional-msbuild-resources.md)
+ [Standard and Custom Toolset Configurations](../msbuild/standard-and-custom-toolset-configurations.md)   
+ [Project Element (MSBuild)](../msbuild/project-element--msbuild-.md)   
+ [Additional Resources](../msbuild/additional-msbuild-resources.md)

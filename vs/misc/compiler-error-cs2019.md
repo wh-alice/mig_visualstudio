@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS2019 | testtitle"
+title: "Compiler Error CS2019"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS2019"
 ms.assetid: eafd2531-8b3a-499c-9e12-a605a011396f
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

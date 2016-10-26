@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Error MSB3116 | testtitle"
+title: "MSBuild Error MSB3116"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -45,4 +45,4 @@ translation.priority.mt:
 ## See Also  
  <xref:Microsoft.Build.Tasks.Deployment.ManifestUtilities.ApplicationManifest.HostInBrowser*>   
  <xref:Microsoft.Build.Tasks.Deployment.ManifestUtilities.DeployManifest.Install*>   
- [Publish Page, Project Designer](../reference/publish-page--project-designer.md)
+ [Publish Page, Project Designer](../ide-reference/publish-page--project-designer.md)

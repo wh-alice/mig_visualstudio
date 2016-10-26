@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Using the Debugger with Async Methods | testtitle"
+title: "Walkthrough: Using the Debugger with Async Methods"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -63,8 +63,8 @@ By using the Async feature, you can call into asynchronous methods without using
   
 1.  Create a console application, and then paste the following code into it:  
   
-     [!code[csAsyncDebugging#1](../misc/codesnippet/CSharp/walkthrough--using-the-debugger-with-async-methods_1.cs)]
-[!code[csAsyncDebugging#1](../misc/codesnippet/VisualBasic/walkthrough--using-the-debugger-with-async-methods_1.vb)]  
+     [!code-cs[csAsyncDebugging#1](../misc/codesnippet/CSharp/walkthrough--using-the-debugger-with-async-methods_1.cs)]
+     [!code-vb[csAsyncDebugging#1](../misc/codesnippet/VisualBasic/walkthrough--using-the-debugger-with-async-methods_1.vb)]  
   
 2.  Set debugging breakpoints on the three lines that end with a "set breakpoint" comment.  
   
@@ -85,8 +85,8 @@ By using the Async feature, you can call into asynchronous methods without using
 ### Obtaining and then awaiting a task  
  In the `ProcessAsync` method, the statement `Dim result = Await DoSomethingAsync()` (Visual Basic) or `var result = await DoSomethingAsync();` (C#) is a contraction of the following two statements:  
   
- [!code[csAsyncDebugging#2](../misc/codesnippet/CSharp/walkthrough--using-the-debugger-with-async-methods_2.cs)]
-[!code[csAsyncDebugging#2](../misc/codesnippet/VisualBasic/walkthrough--using-the-debugger-with-async-methods_2.vb)]  
+ [!code-cs[csAsyncDebugging#2](../misc/codesnippet/CSharp/walkthrough--using-the-debugger-with-async-methods_2.cs)]
+ [!code-vb[csAsyncDebugging#2](../misc/codesnippet/VisualBasic/walkthrough--using-the-debugger-with-async-methods_2.vb)]  
   
  The first line of code calls the async method and returns a task. That task is associated with the await operator in the next line of code. The await statement exits the method (`ProcessAsync`) and returns a different task. When the task that’s associated with the await operator is complete, code resumes in the method (`ProcessAsync`) after the await statement.  
   
@@ -99,8 +99,8 @@ By using the Async feature, you can call into asynchronous methods without using
   
 1.  Replace the code in the console application with the following code.  
   
-     [!code[csAsyncDebugging#3](../misc/codesnippet/CSharp/walkthrough--using-the-debugger-with-async-methods_3.cs)]
-[!code[csAsyncDebugging#3](../misc/codesnippet/VisualBasic/walkthrough--using-the-debugger-with-async-methods_3.vb)]  
+     [!code-cs[csAsyncDebugging#3](../misc/codesnippet/CSharp/walkthrough--using-the-debugger-with-async-methods_3.cs)]
+     [!code-vb[csAsyncDebugging#3](../misc/codesnippet/VisualBasic/walkthrough--using-the-debugger-with-async-methods_3.vb)]  
   
 2.  Choose the F11 key, or choose **Debug**, **Step Into** on the menu bar to start a demonstration of the `Step Into` command at a statement that contains an await operator.  
   
@@ -138,8 +138,8 @@ By using the Async feature, you can call into asynchronous methods without using
   
 11. In the `ProcessAsync` method, replace the await statement with the following code. The original await statement is a contraction of the following two statements.  
   
-     [!code[csAsyncDebugging#2](../misc/codesnippet/CSharp/walkthrough--using-the-debugger-with-async-methods_2.cs)]
-[!code[csAsyncDebugging#2](../misc/codesnippet/VisualBasic/walkthrough--using-the-debugger-with-async-methods_2.vb)]  
+     [!code-cs[csAsyncDebugging#2](../misc/codesnippet/CSharp/walkthrough--using-the-debugger-with-async-methods_2.cs)]
+     [!code-vb[csAsyncDebugging#2](../misc/codesnippet/VisualBasic/walkthrough--using-the-debugger-with-async-methods_2.vb)]  
   
 12. Choose the F11 key or choose **Debug**, **Step Into** on the menu bar multiple times to start execution and step through the code.  
   
@@ -150,8 +150,8 @@ By using the Async feature, you can call into asynchronous methods without using
   
 1.  Replace the code in the console application with the following code.  
   
-     [!code[csAsyncDebugging#4](../misc/codesnippet/CSharp/walkthrough--using-the-debugger-with-async-methods_4.cs)]
-[!code[csAsyncDebugging#4](../misc/codesnippet/VisualBasic/walkthrough--using-the-debugger-with-async-methods_4.vb)]  
+     [!code-cs[csAsyncDebugging#4](../misc/codesnippet/CSharp/walkthrough--using-the-debugger-with-async-methods_4.cs)]
+     [!code-vb[csAsyncDebugging#4](../misc/codesnippet/VisualBasic/walkthrough--using-the-debugger-with-async-methods_4.vb)]  
   
 2.  Set a breakpoint on the `Debug.WriteLine("before")` line in the `DoSomethingAsync` method.  
   

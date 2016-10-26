@@ -1,5 +1,5 @@
 ---
-title: "Customize code maps by editing the DGML files | testtitle"
+title: "Customize code maps by editing the DGML files"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

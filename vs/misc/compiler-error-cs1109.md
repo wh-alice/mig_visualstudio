@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1109 | testtitle"
+title: "Compiler Error CS1109"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1109"
 ms.assetid: bebe56b8-3831-4ebb-a49e-e0364b4c11a7
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

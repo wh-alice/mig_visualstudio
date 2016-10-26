@@ -1,5 +1,5 @@
 ---
-title: "CA2151: Fields with critical types should be security critical | testtitle"
+title: "CA2151: Fields with critical types should be security critical"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -90,6 +90,6 @@ translation.priority.ht:
  Do not suppress a warning from this rule.  
   
 ### Code  
- [!code[FxCop.Security.CA2145.TransparentMethodsShouldNotUseSuppressUnmanagedCodeSecurity#1](../code-quality/codesnippet/CSharp/ca2151--fields-with-critical-types-should-be-security-critical_1.cs)]  
+ [!code-cs[FxCop.Security.CA2145.TransparentMethodsShouldNotUseSuppressUnmanagedCodeSecurity#1](../code-quality/codesnippet/CSharp/ca2151--fields-with-critical-types-should-be-security-critical_1.cs)]  
   
 ### Comments

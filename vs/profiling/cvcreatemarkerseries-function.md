@@ -1,5 +1,5 @@
 ---
-title: "CvCreateMarkerSeries Function | testtitle"
+title: "CvCreateMarkerSeries Function"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

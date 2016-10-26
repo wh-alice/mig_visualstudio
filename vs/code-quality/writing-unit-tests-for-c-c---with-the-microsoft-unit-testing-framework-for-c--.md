@@ -1,5 +1,5 @@
 ---
-title: "Writing Unit tests for C-C++ with the Microsoft Unit Testing Framework for C++ | testtitle"
+title: "Writing Unit tests for C-C++ with the Microsoft Unit Testing Framework for C++"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,7 +1,7 @@
 ---
-title: "Command-Line Switches (Visual Studio SDK) | testtitle"
+title: "Command-Line Switches (Visual Studio SDK)"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -43,5 +43,5 @@ Devenv.exe, the executable that starts the [!INCLUDE[vsprvs](../code-quality/inc
  Describes how to implement, look for, and read user-entered command-line switches for your package.  
   
 ## Related Sections  
- [Devenv Command Line Switches](../reference/devenv-command-line-switches.md)  
+ [Devenv Command Line Switches](../ide-reference/devenv-command-line-switches.md)  
  Explains how Devenv lets you set various options for the IDE, and how you can compile, build, and debug projects from the command line. Additionally, there is information about the syntax of Devenv switches and a table of switches.

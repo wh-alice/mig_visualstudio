@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS2024 | testtitle"
+title: "Compiler Error CS2024"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS2024"
 ms.assetid: 65cf7419-a5a6-4128-88af-176dc8dba14f
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

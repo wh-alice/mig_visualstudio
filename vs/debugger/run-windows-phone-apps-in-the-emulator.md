@@ -1,5 +1,5 @@
 ---
-title: "Run Windows Phone apps in the emulator | testtitle"
+title: "Run Windows Phone apps in the emulator"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,7 +1,7 @@
 ---
-title: "Understanding Memory Allocation and Object Lifetime Data Values | testtitle"
+title: "Understanding Memory Allocation and Object Lifetime Data Values"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

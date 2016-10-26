@@ -1,5 +1,5 @@
 ---
-title: "More Debugging Features | testtitle"
+title: "More Debugging Features"
 ms.custom: ""
 ms.date: "10/14/2016"
 ms.prod: "visual-studio-dev14"

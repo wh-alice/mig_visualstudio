@@ -1,12 +1,12 @@
 ---
-title: "Assembly reference &#39;&lt;reference&gt;&#39; is invalid and cannot be resolved | testtitle"
+title: "Assembly reference &#39;&lt;reference&gt;&#39; is invalid and cannot be resolved"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC42207"
 ms.assetid: c6129559-7273-4abe-b2f1-deea05d242c9
 caps.latest.revision: 3
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 1) CS1695 | testtitle"
+title: "Compiler Warning (level 1) CS1695"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1695"
 ms.assetid: cc4e4d00-0618-400d-985b-90968e98772c
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

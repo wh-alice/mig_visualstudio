@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a Domain-Specific Language Solution | testtitle"
+title: "How to: Create a Domain-Specific Language Solution"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

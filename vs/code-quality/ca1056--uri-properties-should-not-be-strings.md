@@ -1,5 +1,5 @@
 ---
-title: "CA1056: URI properties should not be strings | testtitle"
+title: "CA1056: URI properties should not be strings"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -57,9 +57,9 @@ translation.priority.ht:
 ## Example  
  The following example shows a type, `ErrorProne`, that violates this rule, and a type, `SaferWay`, that satisfies the rule.  
   
- [!code[FxCop.Design.UriNotString#1](../code-quality/codesnippet/CSharp/ca1056--uri-properties-should-not-be-strings_1.cs)]
-[!code[FxCop.Design.UriNotString#1](../code-quality/codesnippet/VisualBasic/ca1056--uri-properties-should-not-be-strings_1.vb)]
-[!code[FxCop.Design.UriNotString#1](../code-quality/codesnippet/CPP/ca1056--uri-properties-should-not-be-strings_1.cpp)]  
+ [!code-cs[FxCop.Design.UriNotString#1](../code-quality/codesnippet/CSharp/ca1056--uri-properties-should-not-be-strings_1.cs)]
+ [!code-vb[FxCop.Design.UriNotString#1](../code-quality/codesnippet/VisualBasic/ca1056--uri-properties-should-not-be-strings_1.vb)]
+ [!code-cpp[FxCop.Design.UriNotString#1](../code-quality/codesnippet/CPP/ca1056--uri-properties-should-not-be-strings_1.cpp)]  
   
 ## Related Rules  
  [CA1054: URI parameters should not be strings](../code-quality/ca1054--uri-parameters-should-not-be-strings.md)  

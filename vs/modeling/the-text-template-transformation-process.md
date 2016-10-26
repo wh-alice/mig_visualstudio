@@ -1,5 +1,5 @@
 ---
-title: "The Text Template Transformation Process | testtitle"
+title: "The Text Template Transformation Process"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

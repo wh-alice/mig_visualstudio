@@ -1,5 +1,5 @@
 ---
-title: "mersenne_twister_engine::mersenne_twister_engine | testtitle"
+title: "mersenne_twister_engine::mersenne_twister_engine"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

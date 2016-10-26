@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0751 | testtitle"
+title: "Compiler Error CS0751"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0751"
 ms.assetid: 2ebaed5f-d3ca-452f-8fce-f3299b84360a
 caps.latest.revision: 5
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

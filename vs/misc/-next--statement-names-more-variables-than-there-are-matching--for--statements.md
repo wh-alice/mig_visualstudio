@@ -1,12 +1,12 @@
 ---
-title: "&#39;Next&#39; statement names more variables than there are matching &#39;For&#39; statements | testtitle"
+title: "&#39;Next&#39; statement names more variables than there are matching &#39;For&#39; statements"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC32037"
 ms.assetid: 7c97d835-1043-40ec-a645-63a053f5f916
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

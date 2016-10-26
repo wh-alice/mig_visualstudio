@@ -1,5 +1,5 @@
 ---
-title: "About Microsoft Spy++ | testtitle"
+title: "About Microsoft Spy++"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

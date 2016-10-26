@@ -1,5 +1,5 @@
 ---
-title: "CA1025: Replace repetitive arguments with params array | testtitle"
+title: "CA1025: Replace repetitive arguments with params array"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -58,4 +58,4 @@ translation.priority.mt:
 ## Example  
  The following example shows a type that violates this rule.  
   
- [!code[FxCop.Design.RepeatArgs#1](../code-quality/codesnippet/CSharp/ca1025--replace-repetitive-arguments-with-params-array_1.cs)]
+ [!code-cs[FxCop.Design.RepeatArgs#1](../code-quality/codesnippet/CSharp/ca1025--replace-repetitive-arguments-with-params-array_1.cs)]

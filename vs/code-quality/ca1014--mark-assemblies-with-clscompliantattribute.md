@@ -1,5 +1,5 @@
 ---
-title: "CA1014: Mark assemblies with CLSCompliantAttribute | testtitle"
+title: "CA1014: Mark assemblies with CLSCompliantAttribute"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -60,9 +60,9 @@ translation.priority.mt:
 ## Example  
  The following example shows an assembly that has the <xref:System.CLSCompliantAttribute?displayProperty=fullName> attribute applied that declares it CLS-compliant.  
   
- [!code[FxCop.Design.AssembliesCls#1](../code-quality/codesnippet/CSharp/ca1014--mark-assemblies-with-clscompliantattribute_1.cs)]
-[!code[FxCop.Design.AssembliesCls#1](../code-quality/codesnippet/CPP/ca1014--mark-assemblies-with-clscompliantattribute_1.cpp)]
-[!code[FxCop.Design.AssembliesCls#1](../code-quality/codesnippet/VisualBasic/ca1014--mark-assemblies-with-clscompliantattribute_1.vb)]  
+ [!code-cs[FxCop.Design.AssembliesCls#1](../code-quality/codesnippet/CSharp/ca1014--mark-assemblies-with-clscompliantattribute_1.cs)]
+ [!code-cpp[FxCop.Design.AssembliesCls#1](../code-quality/codesnippet/CPP/ca1014--mark-assemblies-with-clscompliantattribute_1.cpp)]
+ [!code-vb[FxCop.Design.AssembliesCls#1](../code-quality/codesnippet/VisualBasic/ca1014--mark-assemblies-with-clscompliantattribute_1.vb)]  
   
 ## See Also  
  <xref:System.CLSCompliantAttribute?displayProperty=fullName>   

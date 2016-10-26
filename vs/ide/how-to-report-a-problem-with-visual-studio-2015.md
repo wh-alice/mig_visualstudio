@@ -1,5 +1,5 @@
 ---
-title: "How to Report a Problem with Visual Studio 2015 | testtitle"
+title: "How to Report a Problem with Visual Studio 2015"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

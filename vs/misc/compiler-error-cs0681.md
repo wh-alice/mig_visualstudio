@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0681 | testtitle"
+title: "Compiler Error CS0681"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0681"
 ms.assetid: aa51ad94-df0a-481d-aaea-5b4291ebc41c
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,5 +1,5 @@
 ---
-title: "T4 CleanUpBehavior directive | testtitle"
+title: "T4 CleanUpBehavior directive"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

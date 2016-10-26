@@ -1,20 +1,20 @@
 ---
-title: "Argument &#39;&lt;argumentname&gt;&#39; cannot be converted to a numeric value | testtitle"
+title: "Argument &#39;&lt;argumentname&gt;&#39; cannot be converted to a numeric value"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbrArgumentNotNumeric1"
 ms.assetid: 1901c4d4-abbe-462f-a450-5d907d485e94
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

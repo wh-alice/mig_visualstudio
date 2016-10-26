@@ -1,12 +1,12 @@
 ---
-title: "&#39;&lt;specifier&gt;&#39; is not valid on an Enum declaration | testtitle"
+title: "&#39;&lt;specifier&gt;&#39; is not valid on an Enum declaration"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30396"
 ms.assetid: aea77b54-c237-4f04-854b-c282ef07c0c0
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

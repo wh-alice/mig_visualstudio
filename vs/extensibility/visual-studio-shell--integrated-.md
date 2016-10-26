@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio Shell (Integrated) | testtitle"
+title: "Visual Studio Shell (Integrated)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -74,7 +74,7 @@ The Visual Studio integrated shell includes the integrated development environme
  Although SCC integration is not a regular feature of the Pro edition of Visual Studio, SCC integration is provided in the integrated shell.  
   
 #### 4. Build Support  
- The integrated shell provides build support. You can find information about builds in the [MSBuild Reference](../reference/msbuild-reference.md).  
+ The integrated shell provides build support. You can find information about builds in the [MSBuild Reference](../msbuild/msbuild-reference.md).  
   
 ## Features Not Included in the Integrated Shell  
  The following is a list of features that are not included in the integrated shell:  

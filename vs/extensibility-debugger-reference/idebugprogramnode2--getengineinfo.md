@@ -1,5 +1,5 @@
 ---
-title: "IDebugProgramNode2::GetEngineInfo | testtitle"
+title: "IDebugProgramNode2::GetEngineInfo"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

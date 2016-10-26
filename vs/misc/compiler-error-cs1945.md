@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1945 | testtitle"
+title: "Compiler Error CS1945"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1945"
 ms.assetid: 787f61b0-4767-451c-8c78-8e456b5057eb
 caps.latest.revision: 5
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

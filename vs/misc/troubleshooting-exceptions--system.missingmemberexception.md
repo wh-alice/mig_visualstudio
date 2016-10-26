@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Exceptions: System.MissingMemberException | testtitle"
+title: "Troubleshooting Exceptions: System.MissingMemberException"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

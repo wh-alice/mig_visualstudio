@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1027 | testtitle"
+title: "Compiler Error CS1027"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1027"
 ms.assetid: a6657f0f-5664-47a5-95cf-803f5a0e0c90
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

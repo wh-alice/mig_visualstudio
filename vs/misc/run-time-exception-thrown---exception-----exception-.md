@@ -1,12 +1,12 @@
 ---
-title: "Run-time exception thrown: &lt;exception&gt; - &lt;exception&gt; | testtitle"
+title: "Run-time exception thrown: &lt;exception&gt; - &lt;exception&gt;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30703"
 ms.assetid: da1b82ed-c39f-476c-8ddf-4504f1c9fe66
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

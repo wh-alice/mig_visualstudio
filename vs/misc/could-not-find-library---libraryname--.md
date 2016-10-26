@@ -1,7 +1,7 @@
 ---
-title: "Could not find library &#39;&lt;libraryname&gt;&#39; | testtitle"
+title: "Could not find library &#39;&lt;libraryname&gt;&#39;"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

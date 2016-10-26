@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Exceptions: System.Data.OracleClient.OracleException | testtitle"
+title: "Troubleshooting Exceptions: System.Data.OracleClient.OracleException"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

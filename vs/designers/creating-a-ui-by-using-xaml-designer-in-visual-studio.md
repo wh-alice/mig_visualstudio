@@ -1,5 +1,5 @@
 ---
-title: "Creating a UI by using XAML Designer in Visual Studio | testtitle"
+title: "Creating a UI by using XAML Designer in Visual Studio"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

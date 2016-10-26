@@ -1,20 +1,20 @@
 ---
-title: "Argument &#39;&lt;argumentname&gt;&#39; must be within the range 0 to 99 | testtitle"
+title: "Argument &#39;&lt;argumentname&gt;&#39; must be within the range 0 to 99"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbrArgument_Range0to99_1"
 ms.assetid: d9d9a15e-c5ee-4104-9504-b48a4a191415
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

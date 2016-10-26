@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1503 | testtitle"
+title: "Compiler Error CS1503"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1503"
 ms.assetid: 65e4c63d-928d-49f5-8fac-8e113b07e128
 caps.latest.revision: 12
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

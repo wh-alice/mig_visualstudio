@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0674 | testtitle"
+title: "Compiler Error CS0674"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0674"
 ms.assetid: 9ebfac30-6de8-4503-b4f0-d79f7398e3d5
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

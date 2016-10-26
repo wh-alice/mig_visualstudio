@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 2) CS0436 | testtitle"
+title: "Compiler Warning (level 2) CS0436"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0436"
 ms.assetid: c4135d9d-3511-4bbc-9540-48c2091f869c
 caps.latest.revision: 13
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

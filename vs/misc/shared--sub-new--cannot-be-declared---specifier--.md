@@ -1,12 +1,12 @@
 ---
-title: "Shared &#39;Sub New&#39; cannot be declared &#39;&lt;specifier&gt;&#39; | testtitle"
+title: "Shared &#39;Sub New&#39; cannot be declared &#39;&lt;specifier&gt;&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30480"
 ms.assetid: 06781e13-121e-42d9-8a84-12fa46cbe05d
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

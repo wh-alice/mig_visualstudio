@@ -1,5 +1,5 @@
 ---
-title: "Using the Counters Panel in Graphs View and Tables View | testtitle"
+title: "Using the Counters Panel in Graphs View and Tables View"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

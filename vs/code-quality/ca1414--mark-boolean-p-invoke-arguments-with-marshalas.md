@@ -1,5 +1,5 @@
 ---
-title: "CA1414: Mark boolean P-Invoke arguments with MarshalAs | testtitle"
+title: "CA1414: Mark boolean P-Invoke arguments with MarshalAs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -60,9 +60,9 @@ translation.priority.mt:
 ## Example  
  The following example shows two platform invoke methods that are marked with the appropriate <xref:System.Runtime.InteropServices.MarshalAsAttribute> attributes.  
   
- [!code[FxCop.Interoperability.BoolMarshalAs#1](../code-quality/codesnippet/CSharp/ca1414--mark-boolean-p-invoke-arguments-with-marshalas_1.cs)]
-[!code[FxCop.Interoperability.BoolMarshalAs#1](../code-quality/codesnippet/VisualBasic/ca1414--mark-boolean-p-invoke-arguments-with-marshalas_1.vb)]
-[!code[FxCop.Interoperability.BoolMarshalAs#1](../code-quality/codesnippet/CPP/ca1414--mark-boolean-p-invoke-arguments-with-marshalas_1.cpp)]  
+ [!code-cs[FxCop.Interoperability.BoolMarshalAs#1](../code-quality/codesnippet/CSharp/ca1414--mark-boolean-p-invoke-arguments-with-marshalas_1.cs)]
+ [!code-vb[FxCop.Interoperability.BoolMarshalAs#1](../code-quality/codesnippet/VisualBasic/ca1414--mark-boolean-p-invoke-arguments-with-marshalas_1.vb)]
+ [!code-cpp[FxCop.Interoperability.BoolMarshalAs#1](../code-quality/codesnippet/CPP/ca1414--mark-boolean-p-invoke-arguments-with-marshalas_1.cpp)]  
   
 ## Related Rules  
  [CA1901: P/Invoke declarations should be portable](../code-quality/ca1901--p-invoke-declarations-should-be-portable.md)  

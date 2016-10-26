@@ -1,5 +1,5 @@
 ---
-title: "Properties of associations on UML class diagrams | testtitle"
+title: "Properties of associations on UML class diagrams"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

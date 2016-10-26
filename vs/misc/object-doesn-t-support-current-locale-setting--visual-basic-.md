@@ -1,20 +1,20 @@
 ---
-title: "Object doesn&#39;t support current locale setting (Visual Basic) | testtitle"
+title: "Object doesn&#39;t support current locale setting (Visual Basic)"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbrID447"
 ms.assetid: 580a26bc-479a-4569-9246-10dcf0251bcb
 caps.latest.revision: 14
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

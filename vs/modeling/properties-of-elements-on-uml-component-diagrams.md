@@ -1,5 +1,5 @@
 ---
-title: "Properties of elements on UML component diagrams | testtitle"
+title: "Properties of elements on UML component diagrams"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

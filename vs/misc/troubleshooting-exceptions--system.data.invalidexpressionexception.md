@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Exceptions: System.Data.InvalidExpressionException | testtitle"
+title: "Troubleshooting Exceptions: System.Data.InvalidExpressionException"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

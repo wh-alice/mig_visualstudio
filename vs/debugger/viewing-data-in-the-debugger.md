@@ -1,7 +1,7 @@
 ---
-title: "Viewing Data in the Debugger | testtitle"
+title: "Viewing Data in the Debugger"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -54,5 +54,5 @@ The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger provides 
   
 ## See Also  
  [Debugger Basics](../debugger/debugger-basics.md)   
- [Command Window](../reference/command-window.md)   
+ [Command Window](../ide-reference/command-window.md)   
  [Debugger Security](../debugger/debugger-security.md)

@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0529 | testtitle"
+title: "Compiler Error CS0529"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0529"
 ms.assetid: 61de8086-f991-455c-b009-bb8cd05f34bd
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

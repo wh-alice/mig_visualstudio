@@ -1,20 +1,20 @@
 ---
-title: "A delimiter cannot be Nothing or an empty String | testtitle"
+title: "A delimiter cannot be Nothing or an empty String"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbrTextFieldParser_DelimiterNothing"
 ms.assetid: 8885fcd1-c201-409d-9a32-6ff2b13c0c13
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

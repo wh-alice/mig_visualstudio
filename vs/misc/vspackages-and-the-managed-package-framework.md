@@ -1,5 +1,5 @@
 ---
-title: "VSPackages and the Managed Package Framework | testtitle"
+title: "VSPackages and the Managed Package Framework"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

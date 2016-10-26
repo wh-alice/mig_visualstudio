@@ -1,5 +1,5 @@
 ---
-title: "How to: Edit an Existing Test Setting for a Test Plan | testtitle"
+title: "How to: Edit an Existing Test Setting for a Test Plan"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

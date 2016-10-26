@@ -1,5 +1,5 @@
 ---
-title: "How to: Connect to the Northwind Database | testtitle"
+title: "How to: Connect to the Northwind Database"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

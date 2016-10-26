@@ -1,12 +1,12 @@
 ---
-title: "Operator &#39;&lt;operator&gt;&#39; must have one parameter | testtitle"
+title: "Operator &#39;&lt;operator&gt;&#39; must have one parameter"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC33014"
 ms.assetid: 512a5724-a6c5-4437-a608-7d6b10e68d49
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

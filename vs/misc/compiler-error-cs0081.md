@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0081 | testtitle"
+title: "Compiler Error CS0081"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0081"
 ms.assetid: a5649abc-89ea-4f64-8c3c-eb36df926561
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

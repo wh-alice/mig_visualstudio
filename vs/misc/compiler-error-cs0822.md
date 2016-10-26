@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0822 | testtitle"
+title: "Compiler Error CS0822"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0822"
 ms.assetid: 519091be-2332-4df4-acd9-e3b633966b3d
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

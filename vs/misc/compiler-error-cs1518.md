@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1518 | testtitle"
+title: "Compiler Error CS1518"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1518"
 ms.assetid: 26e0870d-fe91-4c66-b3f8-ed2b074c964e
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

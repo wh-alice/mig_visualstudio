@@ -1,5 +1,5 @@
 ---
-title: "Adding Visual Studio Commands to a Start Page | testtitle"
+title: "Adding Visual Studio Commands to a Start Page"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -62,7 +62,7 @@ xmlns:vscom="clr-namespace:Microsoft.VisualStudio.Shell;assembly=Microsoft.Visua
 > [!NOTE]
 >  The `x:` alias, which refers to the XAML schema, is required at the beginning of all commands.  
   
- You can set the value of the `Command` property to any command that can be accessed from the **Command** window. For a list of available commands, see [Visual Studio Command Aliases](../reference/visual-studio-command-aliases.md).  
+ You can set the value of the `Command` property to any command that can be accessed from the **Command** window. For a list of available commands, see [Visual Studio Command Aliases](../ide-reference/visual-studio-command-aliases.md).  
   
  If the command to add requires an additional parameter, you can add it to the value of the `CommandParameter` property. Separate parameters from commands by using spaces, as shown in the following example.  
   

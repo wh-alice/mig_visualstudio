@@ -1,12 +1,12 @@
 ---
-title: "Expected closing &#39;--&gt;&#39; for XML comment | testtitle"
+title: "Expected closing &#39;--&gt;&#39; for XML comment"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC31161"
 ms.assetid: 3473e80b-7e51-473b-b3ae-d6a87d61c2cb
 caps.latest.revision: 4
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

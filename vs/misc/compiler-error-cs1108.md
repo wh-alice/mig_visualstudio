@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1108 | testtitle"
+title: "Compiler Error CS1108"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1108"
 ms.assetid: 26e82d6a-6ebf-4beb-912e-1bcb86b668aa
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

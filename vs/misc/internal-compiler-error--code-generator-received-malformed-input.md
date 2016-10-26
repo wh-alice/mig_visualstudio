@@ -1,7 +1,7 @@
 ---
-title: "Internal compiler error: code generator received malformed input | testtitle"
+title: "Internal compiler error: code generator received malformed input"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

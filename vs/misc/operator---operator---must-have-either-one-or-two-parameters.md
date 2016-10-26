@@ -1,12 +1,12 @@
 ---
-title: "Operator &#39;&lt;operator&gt;&#39; must have either one or two parameters | testtitle"
+title: "Operator &#39;&lt;operator&gt;&#39; must have either one or two parameters"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC33016"
 ms.assetid: 70f43905-037e-4040-83c0-f39334b3e07a
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,5 +1,5 @@
 ---
-title: "How to: Search for a Specific Work Item Using Microsoft Test Manager | testtitle"
+title: "How to: Search for a Specific Work Item Using Microsoft Test Manager"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

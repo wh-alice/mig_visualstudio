@@ -1,5 +1,5 @@
 ---
-title: "How to: Change the State of Shared Steps to Closed | testtitle"
+title: "How to: Change the State of Shared Steps to Closed"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

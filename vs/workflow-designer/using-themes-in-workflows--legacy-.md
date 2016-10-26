@@ -1,5 +1,5 @@
 ---
-title: "Using Themes in Workflows (Legacy) | testtitle"
+title: "Using Themes in Workflows (Legacy)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: ".net-framework-4.6"

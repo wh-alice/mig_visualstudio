@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0557 | testtitle"
+title: "Compiler Error CS0557"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0557"
 ms.assetid: beca353e-4fea-4e4f-a48a-eddeebb153bb
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,5 +1,5 @@
 ---
-title: "Project Target Framework Not Installed Dialog Box | testtitle"
+title: "Project Target Framework Not Installed Dialog Box"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
@@ -60,5 +60,5 @@ You have opened a project which targets a framework that is not installed on you
   
 ## See Also  
  [How to: Target a Version of the .NET Framework](../ide/how-to--target-a-version-of-the-.net-framework.md)   
- [Troubleshooting .NET Framework Targeting Errors](../reference/troubleshooting-.net-framework-targeting-errors.md)   
+ [Troubleshooting .NET Framework Targeting Errors](../msbuild/troubleshooting-.net-framework-targeting-errors.md)   
  [Adding references](../Topic/Adding%20references%20in%20Visual%20C++%20projects.md)

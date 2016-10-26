@@ -1,12 +1,12 @@
 ---
-title: "Visual Basic Compiler Messages | testtitle"
+title: "Visual Basic Compiler Messages"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 helpviewer_keywords: 
@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "errors [Visual Basic], compiler"
 ms.assetid: d50addfb-0683-45e5-8c3c-69a2eb510a19
 caps.latest.revision: 14
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

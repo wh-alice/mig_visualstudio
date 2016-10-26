@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 4) CS1573 | testtitle"
+title: "Compiler Warning (level 4) CS1573"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1573"
 ms.assetid: 1b68cb1a-9bfd-4343-b9b6-8ce195af5e23
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

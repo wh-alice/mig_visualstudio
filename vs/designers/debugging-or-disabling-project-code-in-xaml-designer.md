@@ -1,5 +1,5 @@
 ---
-title: "Debugging or Disabling Project Code in XAML Designer | testtitle"
+title: "Debugging or Disabling Project Code in XAML Designer"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.reviewer: ""

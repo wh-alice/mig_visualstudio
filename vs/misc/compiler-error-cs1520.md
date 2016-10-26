@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1520 | testtitle"
+title: "Compiler Error CS1520"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1520"
 ms.assetid: 1aeeee83-52a6-45dc-b197-a9a6de3a220c
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

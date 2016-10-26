@@ -1,5 +1,5 @@
 ---
-title: "Import an XCode Project | testtitle"
+title: "Import an XCode Project"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.reviewer: ""

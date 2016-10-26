@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB4137 | testtitle"
+title: "MSBuild Error MSB4137"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/24/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -41,6 +41,6 @@ translation.priority.mt:
 -   Make sure that your Toolset definition does not contain invalid or empty property names or values.  
   
 ## See Also  
- [Overriding ToolsVersion Settings](../reference/overriding-toolsversion-settings.md)   
- [Project Element (MSBuild)](../reference/project-element--msbuild-.md)   
- [Additional Resources](../reference/additional-msbuild-resources.md)
+ [Overriding ToolsVersion Settings](../msbuild/overriding-toolsversion-settings.md)   
+ [Project Element (MSBuild)](../msbuild/project-element--msbuild-.md)   
+ [Additional Resources](../msbuild/additional-msbuild-resources.md)

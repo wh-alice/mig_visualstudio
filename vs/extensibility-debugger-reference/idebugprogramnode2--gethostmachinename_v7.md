@@ -1,5 +1,5 @@
 ---
-title: "IDebugProgramNode2::GetHostMachineName_V7 | testtitle"
+title: "IDebugProgramNode2::GetHostMachineName_V7"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

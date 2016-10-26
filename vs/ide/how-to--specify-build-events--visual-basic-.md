@@ -1,5 +1,5 @@
 ---
-title: "How to: Specify Build Events (Visual Basic) | testtitle"
+title: "How to: Specify Build Events (Visual Basic)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -176,7 +176,7 @@ Build events in Visual Basic can be used to run scripts, macros, or other action
   
 ## See Also  
  [Managing Compilation Properties](http://msdn.microsoft.com/en-us/94308881-f10f-4caf-a729-f1028e596a2c)   
- [Compile Page, Project Designer (Visual Basic)](../reference/compile-page--project-designer--visual-basic-.md)   
- [Publish Page, Project Designer](../reference/publish-page--project-designer.md)   
- [Pre-build Event/Post-build Event Command Line Dialog Box](../reference/pre-build-event-post-build-event-command-line-dialog-box.md)   
+ [Compile Page, Project Designer (Visual Basic)](../ide-reference/compile-page--project-designer--visual-basic-.md)   
+ [Publish Page, Project Designer](../ide-reference/publish-page--project-designer.md)   
+ [Pre-build Event/Post-build Event Command Line Dialog Box](../ide-reference/pre-build-event-post-build-event-command-line-dialog-box.md)   
  [How to: Specify Build Events (C#)](../ide/how-to--specify-build-events--csharp-.md)

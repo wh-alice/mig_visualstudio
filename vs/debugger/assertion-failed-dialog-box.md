@@ -1,5 +1,5 @@
 ---
-title: "Assertion Failed Dialog Box | testtitle"
+title: "Assertion Failed Dialog Box"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

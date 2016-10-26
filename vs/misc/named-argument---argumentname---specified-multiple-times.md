@@ -1,20 +1,20 @@
 ---
-title: "Named argument &#39;&lt;argumentname&gt;&#39; specified multiple times | testtitle"
+title: "Named argument &#39;&lt;argumentname&gt;&#39; specified multiple times"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbrNamedArgumentAlreadyUsed1"
 ms.assetid: a5113d23-ca66-4961-909f-74f97a0eaf87
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

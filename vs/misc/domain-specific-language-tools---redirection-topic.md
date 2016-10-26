@@ -1,5 +1,5 @@
 ---
-title: "Domain-Specific Language Tools - redirection topic | testtitle"
+title: "Domain-Specific Language Tools - redirection topic"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,20 +1,20 @@
 ---
-title: "Locale ID &#39;&lt;name&gt;&#39; is not supported on this system | testtitle"
+title: "Locale ID &#39;&lt;name&gt;&#39; is not supported on this system"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbrArgument_LCIDNotSupported1"
 ms.assetid: 62701434-0ac2-45b8-8b40-a9adc09ae6df
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

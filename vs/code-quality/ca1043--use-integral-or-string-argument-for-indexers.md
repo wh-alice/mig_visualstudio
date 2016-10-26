@@ -1,5 +1,5 @@
 ---
-title: "CA1043: Use integral or string argument for indexers | testtitle"
+title: "CA1043: Use integral or string argument for indexers"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -57,9 +57,9 @@ translation.priority.ht:
 ## Example  
  The following example shows an indexer that uses an <xref:System.Int32> index.  
   
- [!code[FxCop.Design.IntegralOrStringIndexers#1](../code-quality/codesnippet/CSharp/ca1043--use-integral-or-string-argument-for-indexers_1.cs)]
-[!code[FxCop.Design.IntegralOrStringIndexers#1](../code-quality/codesnippet/CPP/ca1043--use-integral-or-string-argument-for-indexers_1.cpp)]
-[!code[FxCop.Design.IntegralOrStringIndexers#1](../code-quality/codesnippet/VisualBasic/ca1043--use-integral-or-string-argument-for-indexers_1.vb)]  
+ [!code-cs[FxCop.Design.IntegralOrStringIndexers#1](../code-quality/codesnippet/CSharp/ca1043--use-integral-or-string-argument-for-indexers_1.cs)]
+ [!code-cpp[FxCop.Design.IntegralOrStringIndexers#1](../code-quality/codesnippet/CPP/ca1043--use-integral-or-string-argument-for-indexers_1.cpp)]
+ [!code-vb[FxCop.Design.IntegralOrStringIndexers#1](../code-quality/codesnippet/VisualBasic/ca1043--use-integral-or-string-argument-for-indexers_1.vb)]  
   
 ## Related Rules  
  [CA1023: Indexers should not be multidimensional](../code-quality/ca1023--indexers-should-not-be-multidimensional.md)  

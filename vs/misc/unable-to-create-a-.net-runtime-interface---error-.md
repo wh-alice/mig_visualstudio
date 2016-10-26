@@ -1,12 +1,12 @@
 ---
-title: "Unable to create a .NET Runtime interface: &lt;error&gt; | testtitle"
+title: "Unable to create a .NET Runtime interface: &lt;error&gt;"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC31024"
 ms.assetid: 9647a7f7-26a3-44b7-ae6a-0bc3324dd096
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

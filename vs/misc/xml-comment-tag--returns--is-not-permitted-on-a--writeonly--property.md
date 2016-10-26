@@ -1,12 +1,12 @@
 ---
-title: "XML comment tag &#39;returns&#39; is not permitted on a &#39;WriteOnly&#39; Property | testtitle"
+title: "XML comment tag &#39;returns&#39; is not permitted on a &#39;WriteOnly&#39; Property"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC42313"
 ms.assetid: 43dca605-187e-4b0b-b29f-5cc4dcdc5f9f
 caps.latest.revision: 12
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

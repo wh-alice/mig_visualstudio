@@ -1,5 +1,5 @@
 ---
-title: "IDebugDocumentTextEvents2::onUpdateDocumentAttributes | testtitle"
+title: "IDebugDocumentTextEvents2::onUpdateDocumentAttributes"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

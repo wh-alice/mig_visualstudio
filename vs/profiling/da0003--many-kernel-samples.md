@@ -1,5 +1,5 @@
 ---
-title: "DA0003: Many kernel samples | testtitle"
+title: "DA0003: Many kernel samples"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

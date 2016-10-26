@@ -1,12 +1,12 @@
 ---
-title: "&#39;Global&#39; must be followed by &#39;.&#39; and an identifier | testtitle"
+title: "&#39;Global&#39; must be followed by &#39;.&#39; and an identifier"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC36000"
 ms.assetid: 0007d7b4-54a2-4f09-904c-d5ad60a55f8e
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

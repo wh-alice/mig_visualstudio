@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Exceptions: System.Printing.PrintQueueException | testtitle"
+title: "Troubleshooting Exceptions: System.Printing.PrintQueueException"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

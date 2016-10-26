@@ -1,12 +1,12 @@
 ---
-title: "Type parameter with a &#39;Structure&#39; constraint cannot be used as a constraint | testtitle"
+title: "Type parameter with a &#39;Structure&#39; constraint cannot be used as a constraint"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC32114"
 ms.assetid: 442b2048-9dc4-4223-bcfc-4d96bf8d14de
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

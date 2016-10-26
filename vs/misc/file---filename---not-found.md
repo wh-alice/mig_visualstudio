@@ -1,20 +1,20 @@
 ---
-title: "File &#39;&lt;filename&gt;&#39; not found | testtitle"
+title: "File &#39;&lt;filename&gt;&#39; not found"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbrFileSystem_FileNotFound1"
 ms.assetid: b45bffc9-5b16-4b9b-a413-98a8d726e226
 caps.latest.revision: 6
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

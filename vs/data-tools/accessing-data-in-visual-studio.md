@@ -1,7 +1,7 @@
 ---
-title: "Accessing data in Visual Studio | testtitle"
+title: "Accessing data in Visual Studio"
 ms.custom: ""
-ms.date: "10/23/2016"
+ms.date: "10/24/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -162,7 +162,7 @@ In Visual Studio, you can create applications that connect to data in virtually 
  [LINQ (Language-Integrated Query)](../Topic/LINQ%20\(Language-Integrated%20Query\).md)  
  Describes the query capabilities built into C# and Visual Basic, and the common model for querying relational databases, XML documents, datasets, and in-memory collections.  
   
- [XML Tools in Visual Studio](../reference/xml-tools-in-visual-studio.md)  
+ [XML Tools in Visual Studio](../xml-tools/xml-tools-in-visual-studio.md)  
  Discusses working with XML data, debugging XSLT, .NET Framework XML features, and the architecture of XML Query.  
   
  [XML Documents and Data](../Topic/XML%20Documents%20and%20Data.md)  

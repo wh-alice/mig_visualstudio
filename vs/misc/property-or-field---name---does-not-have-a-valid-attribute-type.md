@@ -1,12 +1,12 @@
 ---
-title: "Property or field &#39;&lt;name&gt;&#39; does not have a valid attribute type | testtitle"
+title: "Property or field &#39;&lt;name&gt;&#39; does not have a valid attribute type"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30659"
 ms.assetid: aca34cd1-ea8a-4a29-9e36-a999dfe0742e
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

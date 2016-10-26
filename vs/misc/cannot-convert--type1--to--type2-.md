@@ -1,12 +1,12 @@
 ---
-title: "Cannot convert &#39;type1&#39; to &#39;type2&#39; | testtitle"
+title: "Cannot convert &#39;type1&#39; to &#39;type2&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC31193"
 ms.assetid: f25a9f5b-7741-4cd6-b85a-b19037ed8e49
 caps.latest.revision: 5
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

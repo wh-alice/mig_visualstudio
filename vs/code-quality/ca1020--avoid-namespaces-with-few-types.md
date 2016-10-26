@@ -1,5 +1,5 @@
 ---
-title: "CA1020: Avoid namespaces with few types | testtitle"
+title: "CA1020: Avoid namespaces with few types"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

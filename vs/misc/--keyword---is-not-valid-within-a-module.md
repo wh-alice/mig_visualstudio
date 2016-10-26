@@ -1,12 +1,12 @@
 ---
-title: "&#39;&lt;keyword&gt;&#39; is not valid within a Module | testtitle"
+title: "&#39;&lt;keyword&gt;&#39; is not valid within a Module"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC32001"
 ms.assetid: b00757ac-5652-460d-9d2c-11b264d7ec7f
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

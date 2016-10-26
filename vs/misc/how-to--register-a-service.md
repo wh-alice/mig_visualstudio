@@ -1,5 +1,5 @@
 ---
-title: "How to: Register a Service | testtitle"
+title: "How to: Register a Service"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -36,8 +36,8 @@ The managed package framework (MPF) provides attributes to control the registrat
 ## Example  
  The code that follows is from [VSSDK Samples](../misc/vssdk-samples.md).  
   
- [!code[VSSDKRegisterService#1](../misc/codesnippet/VisualBasic/how-to--register-a-service_1.vb)]
-[!code[VSSDKRegisterService#1](../misc/codesnippet/CSharp/how-to--register-a-service_1.cs)]  
+ [!code-vb[VSSDKRegisterService#1](../misc/codesnippet/VisualBasic/how-to--register-a-service_1.vb)]
+ [!code-cs[VSSDKRegisterService#1](../misc/codesnippet/CSharp/how-to--register-a-service_1.cs)]  
   
  The <xref:Microsoft.VisualStudio.Shell.ProvideServiceAttribute> registers the SMyGlobalService service with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. For more information about <xref:Microsoft.VisualStudio.Shell.DefaultRegistryRootAttribute> and <xref:Microsoft.VisualStudio.Shell.PackageRegistrationAttribute>, see [Registering and Unregistering VSPackages](../extensibility/registering-and-unregistering-vspackages.md).  
   
@@ -46,8 +46,8 @@ The managed package framework (MPF) provides attributes to control the registrat
 ## Robust Programming  
  To make it easier to recompile a service provider without changing the service client, or vice versa, you can define the service and its interfaces in a separate assembly module. The following code is from the IMyGlobalService.cs file in the Reference.Services (C#) sample.  
   
- [!code[VSSDKRegisterService#2](../misc/codesnippet/VisualBasic/how-to--register-a-service_2.vb)]
-[!code[VSSDKRegisterService#2](../misc/codesnippet/CSharp/how-to--register-a-service_2.cs)]  
+ [!code-vb[VSSDKRegisterService#2](../misc/codesnippet/VisualBasic/how-to--register-a-service_2.vb)]
+ [!code-cs[VSSDKRegisterService#2](../misc/codesnippet/CSharp/how-to--register-a-service_2.cs)]  
   
  The <xref:System.Runtime.InteropServices.ComVisibleAttribute> is required to obtain the interface from unmanaged code.  
   

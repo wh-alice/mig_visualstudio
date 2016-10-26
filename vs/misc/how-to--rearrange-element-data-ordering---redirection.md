@@ -1,5 +1,5 @@
 ---
-title: "How to: Rearrange Element Data Ordering - redirection | testtitle"
+title: "How to: Rearrange Element Data Ordering - redirection"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

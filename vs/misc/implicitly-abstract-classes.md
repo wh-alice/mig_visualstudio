@@ -1,5 +1,5 @@
 ---
-title: "Implicitly Abstract Classes | testtitle"
+title: "Implicitly Abstract Classes"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

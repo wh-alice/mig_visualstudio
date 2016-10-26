@@ -1,5 +1,5 @@
 ---
-title: "Run web performance tests from the command line | testtitle"
+title: "Run web performance tests from the command line"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

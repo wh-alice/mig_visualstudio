@@ -1,12 +1,12 @@
 ---
-title: "Local variable &#39;&lt;variablename&gt;&#39; cannot be referred to before it is declared | testtitle"
+title: "Local variable &#39;&lt;variablename&gt;&#39; cannot be referred to before it is declared"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC32000"
 ms.assetid: 81e2bbe3-8b8a-4bf7-b344-08489d50ef6e
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

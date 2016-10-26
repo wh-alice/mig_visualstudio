@@ -1,5 +1,5 @@
 ---
-title: "CA2141:Transparent methods must not satisfy LinkDemands | testtitle"
+title: "CA2141:Transparent methods must not satisfy LinkDemands"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -56,4 +56,4 @@ translation.priority.mt:
 ## Example  
  In this example, a transparent method attempts to call a method that has a LinkDemand. This rule will fire on this code.  
   
- [!code[FxCop.Security.CA2141.TransparentMethodsMustNotSatisfyLinkDemands#1](../code-quality/codesnippet/CSharp/ca2141-transparent-methods-must-not-satisfy-linkdemands_1.cs)]
+ [!code-cs[FxCop.Security.CA2141.TransparentMethodsMustNotSatisfyLinkDemands#1](../code-quality/codesnippet/CSharp/ca2141-transparent-methods-must-not-satisfy-linkdemands_1.cs)]

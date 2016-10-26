@@ -1,5 +1,5 @@
 ---
-title: "Adding a Submenu to a Menu | testtitle"
+title: "Adding a Submenu to a Menu"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1955 | testtitle"
+title: "Compiler Error CS1955"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1955"
 ms.assetid: 38a8542d-da53-4739-b807-46c8c077363c
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

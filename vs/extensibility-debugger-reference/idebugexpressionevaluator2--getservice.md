@@ -1,5 +1,5 @@
 ---
-title: "IDebugExpressionEvaluator2::GetService | testtitle"
+title: "IDebugExpressionEvaluator2::GetService"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

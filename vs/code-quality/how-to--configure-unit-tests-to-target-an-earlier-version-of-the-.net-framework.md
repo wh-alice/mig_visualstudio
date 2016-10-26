@@ -1,5 +1,5 @@
 ---
-title: "How to: Configure Unit Tests to Target An Earlier Version of the .NET Framework | testtitle"
+title: "How to: Configure Unit Tests to Target An Earlier Version of the .NET Framework"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -141,4 +141,4 @@ When you create a test project in Microsoft Visual Studio, the most recent versi
  [Creating and Running Unit Tests for Existing Code](http://msdn.microsoft.com/en-us/e8370b93-085b-41c9-8dec-655bd886f173)   
  [Create SharePoint Solutions](../Topic/Create%20SharePoint%20Solutions.md)   
  [Building and Debugging SharePoint Solutions](../Topic/Building%20and%20Debugging%20SharePoint%20Solutions.md)   
- [Advanced Compiler Settings Dialog Box (Visual Basic)](../reference/advanced-compiler-settings-dialog-box--visual-basic-.md)
+ [Advanced Compiler Settings Dialog Box (Visual Basic)](../ide-reference/advanced-compiler-settings-dialog-box--visual-basic-.md)

@@ -1,5 +1,5 @@
 ---
-title: "IDiaSession::symsAreEquiv | testtitle"
+title: "IDiaSession::symsAreEquiv"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

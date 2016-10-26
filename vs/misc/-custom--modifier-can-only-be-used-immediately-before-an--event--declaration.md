@@ -1,12 +1,12 @@
 ---
-title: "&#39;Custom&#39; modifier can only be used immediately before an &#39;Event&#39; declaration | testtitle"
+title: "&#39;Custom&#39; modifier can only be used immediately before an &#39;Event&#39; declaration"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC31140"
 ms.assetid: e516fb5d-b11b-483b-92d0-ac7064d1841d
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

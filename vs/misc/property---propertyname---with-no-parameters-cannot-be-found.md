@@ -1,12 +1,12 @@
 ---
-title: "Property &#39;&lt;propertyname&gt;&#39; with no parameters cannot be found | testtitle"
+title: "Property &#39;&lt;propertyname&gt;&#39; with no parameters cannot be found"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30658"
 ms.assetid: 225078d4-037c-44e0-8c98-08606ee2d28b
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 2) CS0114 | testtitle"
+title: "Compiler Warning (level 2) CS0114"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0114"
 ms.assetid: 9647772b-d581-4620-981e-f9c607d4a1af
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

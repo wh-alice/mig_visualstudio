@@ -1,5 +1,5 @@
 ---
-title: "Connect to data in an Access database (Windows Forms) | testtitle"
+title: "Connect to data in an Access database (Windows Forms)"
 ms.custom: ""
 ms.date: "10/07/2016"
 ms.prod: "visual-studio-dev14"

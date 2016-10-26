@@ -1,7 +1,7 @@
 ---
-title: "Define and install a modeling extension | testtitle"
+title: "Define and install a modeling extension"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""

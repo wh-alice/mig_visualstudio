@@ -1,5 +1,5 @@
 ---
-title: "Connect Microsoft Test Manager to your team project and test plan | testtitle"
+title: "Connect Microsoft Test Manager to your team project and test plan"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

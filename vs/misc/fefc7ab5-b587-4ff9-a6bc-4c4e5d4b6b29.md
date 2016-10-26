@@ -1,12 +1,12 @@
 ---
-title: "Option Strict On does not allow narrowing in implicit type conversions between method &#39;&lt;methodname&gt;&#39; and delegate &#39;&lt;delegatename&gt;&#39; | testtitle"
+title: "Option Strict On does not allow narrowing in implicit type conversions between method &#39;&lt;methodname&gt;&#39; and delegate &#39;&lt;delegatename&gt;&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC36663"
 ms.assetid: fefc7ab5-b587-4ff9-a6bc-4c4e5d4b6b29
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

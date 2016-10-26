@@ -1,12 +1,12 @@
 ---
-title: "&#39;&lt;mathfunction1&gt;&#39; is not declared | testtitle"
+title: "&#39;&lt;mathfunction1&gt;&#39; is not declared"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30819"
 ms.assetid: 4d30785f-a8fe-438a-846a-8e15ff3f49f5
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

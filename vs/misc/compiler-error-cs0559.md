@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0559 | testtitle"
+title: "Compiler Error CS0559"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0559"
 ms.assetid: 37122001-8a55-4cf5-873b-68997e196893
 caps.latest.revision: 11
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

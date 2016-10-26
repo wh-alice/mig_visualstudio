@@ -1,5 +1,5 @@
 ---
-title: "How to: Add or Remove Imported Namespaces (Visual Basic) | testtitle"
+title: "How to: Add or Remove Imported Namespaces (Visual Basic)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

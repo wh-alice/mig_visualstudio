@@ -1,5 +1,5 @@
 ---
-title: "IDebugFunctionObject2::CreateStringObjectWithLength | testtitle"
+title: "IDebugFunctionObject2::CreateStringObjectWithLength"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

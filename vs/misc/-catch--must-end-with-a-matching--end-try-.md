@@ -1,12 +1,12 @@
 ---
-title: "&#39;Catch&#39; must end with a matching &#39;End Try&#39; | testtitle"
+title: "&#39;Catch&#39; must end with a matching &#39;End Try&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30441"
 ms.assetid: 0e4756b4-1f29-4073-88c5-8f8c93ba6c9e
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

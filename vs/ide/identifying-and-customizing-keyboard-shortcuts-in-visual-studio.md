@@ -1,5 +1,5 @@
 ---
-title: "Identifying and Customizing Keyboard Shortcuts in Visual Studio | testtitle"
+title: "Identifying and Customizing Keyboard Shortcuts in Visual Studio"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -155,4 +155,4 @@ You can identify keyboard shortcuts for Visual Studio commands, customize those 
      ![Import only customized keyboard shortcuts](../ide/media/importshortcuts.png "ImportShortcuts")  
   
 ## See Also  
- [Accessibility Features of Visual Studio](../reference/accessibility-features-of-visual-studio.md)
+ [Accessibility Features of Visual Studio](../ide-reference/accessibility-features-of-visual-studio.md)

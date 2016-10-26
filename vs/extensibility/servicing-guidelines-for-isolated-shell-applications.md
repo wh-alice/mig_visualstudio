@@ -1,5 +1,5 @@
 ---
-title: "Servicing Guidelines for Isolated Shell Applications | testtitle"
+title: "Servicing Guidelines for Isolated Shell Applications"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"

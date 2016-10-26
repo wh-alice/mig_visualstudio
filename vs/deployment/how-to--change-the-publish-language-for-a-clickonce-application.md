@@ -1,5 +1,5 @@
 ---
-title: "How to: Change the Publish Language for a ClickOnce Application | testtitle"
+title: "How to: Change the Publish Language for a ClickOnce Application"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

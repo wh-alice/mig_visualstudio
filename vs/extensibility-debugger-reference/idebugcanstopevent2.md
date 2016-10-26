@@ -1,7 +1,7 @@
 ---
-title: "IDebugCanStopEvent2 | testtitle"
+title: "IDebugCanStopEvent2"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

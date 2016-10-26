@@ -1,7 +1,7 @@
 ---
-title: "The maximum number of errors has been exceeded | testtitle"
+title: "The maximum number of errors has been exceeded"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

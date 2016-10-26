@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0505 | testtitle"
+title: "Compiler Error CS0505"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0505"
 ms.assetid: e3cb9e33-7338-4869-859b-81d7439f0d23
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

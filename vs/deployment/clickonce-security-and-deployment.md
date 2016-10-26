@@ -1,5 +1,5 @@
 ---
-title: "ClickOnce Security and Deployment | testtitle"
+title: "ClickOnce Security and Deployment"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
@@ -106,13 +106,13 @@ translation.priority.ht:
   
 |Tool|Description|  
 |----------|-----------------|  
-|[Security Page, Project Designer](../reference/security-page--project-designer.md)|Signs the application and deployment manifests.|  
-|[Publish Page, Project Designer](../reference/publish-page--project-designer.md)|Generates and edits the application and deployment manifests for Visual Basic and Visual C# applications.|  
+|[Security Page, Project Designer](../ide-reference/security-page--project-designer.md)|Signs the application and deployment manifests.|  
+|[Publish Page, Project Designer](../ide-reference/publish-page--project-designer.md)|Generates and edits the application and deployment manifests for Visual Basic and Visual C# applications.|  
 |[Mage.exe (Manifest Generation and Editing Tool)](../Topic/Mage.exe%20\(Manifest%20Generation%20and%20Editing%20Tool\).md)|Generates the application and deployment manifests for Visual Basic, Visual C#, and Visual C++ applications.<br /><br /> Signs and re-signs the application and deployment manifests.<br /><br /> Can be run from batch scripts and the command prompt.|  
 |[MageUI.exe (Manifest Generation and Editing Tool, Graphical Client)](../Topic/MageUI.exe%20\(Manifest%20Generation%20and%20Editing%20Tool,%20Graphical%20Client\).md)|Generates and edits the application and deployment manifests.<br /><br /> Signs and re-signs the application and deployment manifests.|  
-|[GenerateApplicationManifest Task](../reference/generateapplicationmanifest-task.md)|Generates the application manifest.<br /><br /> Can be run from MSBuild. For more information, see [MSBuild Reference](../reference/msbuild-reference.md).|  
-|[GenerateDeploymentManifest Task](../reference/generatedeploymentmanifest-task.md)|Generates the deployment manifest.<br /><br /> Can be run from MSBuild. For more information, see [MSBuild Reference](../reference/msbuild-reference.md).|  
-|[SignFile Task](../reference/signfile-task.md)|Signs the application and deployment manifests.<br /><br /> Can be run from MSBuild. For more information, see [MSBuild Reference](../reference/msbuild-reference.md).|  
+|[GenerateApplicationManifest Task](../msbuild/generateapplicationmanifest-task.md)|Generates the application manifest.<br /><br /> Can be run from MSBuild. For more information, see [MSBuild Reference](../msbuild/msbuild-reference.md).|  
+|[GenerateDeploymentManifest Task](../msbuild/generatedeploymentmanifest-task.md)|Generates the deployment manifest.<br /><br /> Can be run from MSBuild. For more information, see [MSBuild Reference](../msbuild/msbuild-reference.md).|  
+|[SignFile Task](../msbuild/signfile-task.md)|Signs the application and deployment manifests.<br /><br /> Can be run from MSBuild. For more information, see [MSBuild Reference](../msbuild/msbuild-reference.md).|  
 |<xref:Microsoft.Build.Tasks.Deployment.ManifestUtilities>|Develop your own application to generate the application and deployment manifests.|  
   
  The following table shows the .NET Framework version required to support ClickOnce applications in these browsers.  

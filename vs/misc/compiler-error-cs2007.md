@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS2007 | testtitle"
+title: "Compiler Error CS2007"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS2007"
 ms.assetid: 9be20e8e-2424-4435-9371-778fb12823c0
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

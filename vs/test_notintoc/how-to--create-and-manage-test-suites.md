@@ -1,5 +1,5 @@
 ---
-title: "How to: Create and Manage Test Suites | testtitle"
+title: "How to: Create and Manage Test Suites"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

@@ -1,12 +1,12 @@
 ---
-title: "Parameter &#39;&lt;parametername&gt;&#39; already has a matching omitted argument | testtitle"
+title: "Parameter &#39;&lt;parametername&gt;&#39; already has a matching omitted argument"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC36566"
 ms.assetid: b37af6bc-abd0-4436-bf8a-a467e3603342
 caps.latest.revision: 6
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

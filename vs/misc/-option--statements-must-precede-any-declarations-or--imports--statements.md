@@ -1,12 +1,12 @@
 ---
-title: "&#39;Option&#39; statements must precede any declarations or &#39;Imports&#39; statements | testtitle"
+title: "&#39;Option&#39; statements must precede any declarations or &#39;Imports&#39; statements"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30627"
 ms.assetid: 2ce0fcf2-80f4-47d3-a394-44e0aed456db
 caps.latest.revision: 11
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

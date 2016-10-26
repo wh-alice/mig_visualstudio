@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0172 | testtitle"
+title: "Compiler Error CS0172"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0172"
 ms.assetid: 1272c575-3580-4897-95fb-83f45d7435ae
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

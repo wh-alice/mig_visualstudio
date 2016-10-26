@@ -1,12 +1,12 @@
 ---
-title: "&#39;Continue For&#39; can only appear inside a &#39;For&#39; statement | testtitle"
+title: "&#39;Continue For&#39; can only appear inside a &#39;For&#39; statement"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30783"
 ms.assetid: 70891018-27c8-4d36-b168-8cc7177d70cb
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,5 +1,5 @@
 ---
-title: "How to: Create and Run an Unattended Installation of Visual Studio | testtitle"
+title: "How to: Create and Run an Unattended Installation of Visual Studio"
 ms.custom: ""
 ms.date: "2016-09-06"
 ms.prod: "visual-studio-dev14"

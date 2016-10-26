@@ -1,5 +1,5 @@
 ---
-title: "Design-Time Code Generation by using T4 Text Templates | testtitle"
+title: "Design-Time Code Generation by using T4 Text Templates"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

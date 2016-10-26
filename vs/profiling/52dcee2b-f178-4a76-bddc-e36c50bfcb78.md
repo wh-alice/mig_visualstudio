@@ -1,7 +1,7 @@
 ---
-title: "How to: Launch a Stand-Alone Application with the Profiler and Collect Application Statistics by Using the Command Line | testtitle"
+title: "How to: Launch a Stand-Alone Application with the Profiler and Collect Application Statistics by Using the Command Line"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

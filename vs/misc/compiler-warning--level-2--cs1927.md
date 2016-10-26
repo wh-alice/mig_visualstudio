@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (Level 2) CS1927 | testtitle"
+title: "Compiler Warning (Level 2) CS1927"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1927"
 ms.assetid: 32b4e58f-668c-4596-9529-7f3a293ff4ac
 caps.latest.revision: 5
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

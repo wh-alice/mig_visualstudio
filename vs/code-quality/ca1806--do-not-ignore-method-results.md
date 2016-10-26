@@ -1,5 +1,5 @@
 ---
-title: "CA1806: Do not ignore method results | testtitle"
+title: "CA1806: Do not ignore method results"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -85,25 +85,25 @@ translation.priority.ht:
 > [!NOTE]
 >  This violation cannot be reproduced in Visual Basic.  
   
- [!code[FxCop.Usage.DoNotIgnoreMethodResults3#1](../code-quality/codesnippet/CSharp/ca1806--do-not-ignore-method-results_1.cs)]
-[!code[FxCop.Usage.DoNotIgnoreMethodResults3#1](../code-quality/codesnippet/VisualBasic/ca1806--do-not-ignore-method-results_1.vb)]
-[!code[FxCop.Usage.DoNotIgnoreMethodResults3#1](../code-quality/codesnippet/CPP/ca1806--do-not-ignore-method-results_1.cpp)]  
+ [!code-cs[FxCop.Usage.DoNotIgnoreMethodResults3#1](../code-quality/codesnippet/CSharp/ca1806--do-not-ignore-method-results_1.cs)]
+ [!code-vb[FxCop.Usage.DoNotIgnoreMethodResults3#1](../code-quality/codesnippet/VisualBasic/ca1806--do-not-ignore-method-results_1.vb)]
+ [!code-cpp[FxCop.Usage.DoNotIgnoreMethodResults3#1](../code-quality/codesnippet/CPP/ca1806--do-not-ignore-method-results_1.cpp)]  
   
 ## Example  
  The following example fixes the previous violation by removing the unnecessary creation of an object.  
   
- [!code[FxCop.Usage.DoNotIgnoreMethodResults4#1](../code-quality/codesnippet/CSharp/ca1806--do-not-ignore-method-results_2.cs)]
-[!code[FxCop.Usage.DoNotIgnoreMethodResults4#1](../code-quality/codesnippet/VisualBasic/ca1806--do-not-ignore-method-results_2.vb)]
-[!code[FxCop.Usage.DoNotIgnoreMethodResults4#1](../code-quality/codesnippet/CPP/ca1806--do-not-ignore-method-results_2.cpp)]  
+ [!code-cs[FxCop.Usage.DoNotIgnoreMethodResults4#1](../code-quality/codesnippet/CSharp/ca1806--do-not-ignore-method-results_2.cs)]
+ [!code-vb[FxCop.Usage.DoNotIgnoreMethodResults4#1](../code-quality/codesnippet/VisualBasic/ca1806--do-not-ignore-method-results_2.vb)]
+ [!code-cpp[FxCop.Usage.DoNotIgnoreMethodResults4#1](../code-quality/codesnippet/CPP/ca1806--do-not-ignore-method-results_2.cpp)]  
   
 ## Example  
  The following example shows a method that ignores the error code that the native method GetShortPathName returns.  
   
- [!code[FxCop.Usage.DoNotIgnoreMethodResults5#1](../code-quality/codesnippet/CPP/ca1806--do-not-ignore-method-results_3.cpp)]
-[!code[FxCop.Usage.DoNotIgnoreMethodResults5#1](../code-quality/codesnippet/CSharp/ca1806--do-not-ignore-method-results_3.cs)]  
+ [!code-cpp[FxCop.Usage.DoNotIgnoreMethodResults5#1](../code-quality/codesnippet/CPP/ca1806--do-not-ignore-method-results_3.cpp)]
+ [!code-cs[FxCop.Usage.DoNotIgnoreMethodResults5#1](../code-quality/codesnippet/CSharp/ca1806--do-not-ignore-method-results_3.cs)]  
   
 ## Example  
  The following example fixes the previous violation by checking the error code and throwing an exception when the call fails.  
   
- [!code[FxCop.Usage.DoNotIgnoreMethodResults6#1](../code-quality/codesnippet/CSharp/ca1806--do-not-ignore-method-results_4.cs)]
-[!code[FxCop.Usage.DoNotIgnoreMethodResults6#1](../code-quality/codesnippet/CPP/ca1806--do-not-ignore-method-results_4.cpp)]
+ [!code-cs[FxCop.Usage.DoNotIgnoreMethodResults6#1](../code-quality/codesnippet/CSharp/ca1806--do-not-ignore-method-results_4.cs)]
+ [!code-cpp[FxCop.Usage.DoNotIgnoreMethodResults6#1](../code-quality/codesnippet/CPP/ca1806--do-not-ignore-method-results_4.cpp)]

@@ -1,5 +1,5 @@
 ---
-title: "VSIX Color Compiler | testtitle"
+title: "VSIX Color Compiler"
 ms.custom: ""
 ms.date: "10/14/2016"
 ms.reviewer: ""

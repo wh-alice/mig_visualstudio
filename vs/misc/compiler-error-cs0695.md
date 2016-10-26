@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0695 | testtitle"
+title: "Compiler Error CS0695"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0695"
 ms.assetid: 05f6c8cf-6147-4ac7-84ea-e1f34f8ef9f7
 caps.latest.revision: 6
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

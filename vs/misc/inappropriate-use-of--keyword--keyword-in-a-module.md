@@ -1,12 +1,12 @@
 ---
-title: "Inappropriate use of &lt;keyword&gt; keyword in a module | testtitle"
+title: "Inappropriate use of &lt;keyword&gt; keyword in a module"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC42028"
 ms.assetid: a9bc1e9d-ba2c-4a71-b147-0fb66f670316
 caps.latest.revision: 12
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

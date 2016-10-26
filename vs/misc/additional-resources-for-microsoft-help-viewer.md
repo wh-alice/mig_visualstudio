@@ -1,5 +1,5 @@
 ---
-title: "Additional Resources for Microsoft Help Viewer | testtitle"
+title: "Additional Resources for Microsoft Help Viewer"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

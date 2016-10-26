@@ -1,20 +1,20 @@
 ---
-title: "Managed classes derived from a COM class cannot be called late-bound. | testtitle"
+title: "Managed classes derived from a COM class cannot be called late-bound."
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbrLateboundCallToInheritedComClass"
 ms.assetid: 7bc16e84-8d29-4f8e-bc4f-002c65c71099
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

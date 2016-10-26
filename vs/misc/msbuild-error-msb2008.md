@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Error MSB2008 | testtitle"
+title: "MSBuild Error MSB2008"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
@@ -45,4 +45,4 @@ translation.priority.mt:
 -   If the project is not a [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] or [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] project, use the appropriate tool to convert it.  
   
 ## See Also  
- [Additional Resources](../reference/additional-msbuild-resources.md)
+ [Additional Resources](../msbuild/additional-msbuild-resources.md)

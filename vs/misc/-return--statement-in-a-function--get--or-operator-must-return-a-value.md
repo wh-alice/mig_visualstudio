@@ -1,12 +1,12 @@
 ---
-title: "&#39;Return&#39; statement in a Function, Get, or Operator must return a value | testtitle"
+title: "&#39;Return&#39; statement in a Function, Get, or Operator must return a value"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30654"
 ms.assetid: af0fb1fc-1b2e-4cae-9768-10965cda5506
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

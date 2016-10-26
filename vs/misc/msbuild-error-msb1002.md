@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Error MSB1002 | testtitle"
+title: "MSBuild Error MSB1002"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -45,4 +45,4 @@ translation.priority.mt:
 -   Remove the colon after the name of the switch, that is, instead of typing `msbuild /<switch>:`, type `msbuild /<switch>`  
   
 ## See Also  
- [Command-Line Reference](../reference/msbuild-command-line-reference.md)
+ [Command-Line Reference](../msbuild/msbuild-command-line-reference.md)

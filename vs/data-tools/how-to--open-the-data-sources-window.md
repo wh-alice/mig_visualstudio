@@ -1,5 +1,5 @@
 ---
-title: "How to: Open the data sources window | testtitle"
+title: "How to: Open the data sources window"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

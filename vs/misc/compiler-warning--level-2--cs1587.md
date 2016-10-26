@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 2) CS1587 | testtitle"
+title: "Compiler Warning (level 2) CS1587"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1587"
 ms.assetid: b27c2009-d485-43fd-a649-fbc15570d256
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

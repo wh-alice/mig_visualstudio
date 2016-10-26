@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0265 | testtitle"
+title: "Compiler Error CS0265"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0265"
 ms.assetid: d43d19c2-8a66-4bb1-95a0-557b0a29bce1
 caps.latest.revision: 11
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

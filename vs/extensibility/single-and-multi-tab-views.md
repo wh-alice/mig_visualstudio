@@ -1,5 +1,5 @@
 ---
-title: "Single and Multi-tab Views | testtitle"
+title: "Single and Multi-tab Views"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,12 +1,12 @@
 ---
-title: "Range variable name cannot match the name of a member of the &#39;Object&#39; class | testtitle"
+title: "Range variable name cannot match the name of a member of the &#39;Object&#39; class"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC36606"
 ms.assetid: 964245e6-2601-4de6-8a51-25c0d9633418
 caps.latest.revision: 3
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

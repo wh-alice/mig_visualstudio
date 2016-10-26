@@ -1,5 +1,5 @@
 ---
-title: "DA0007: Avoid using exceptions for control flow | testtitle"
+title: "DA0007: Avoid using exceptions for control flow"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

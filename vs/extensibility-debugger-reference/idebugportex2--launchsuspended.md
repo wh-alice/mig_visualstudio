@@ -1,5 +1,5 @@
 ---
-title: "IDebugPortEx2::LaunchSuspended | testtitle"
+title: "IDebugPortEx2::LaunchSuspended"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

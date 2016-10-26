@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Error MSB3125 | testtitle"
+title: "MSBuild Error MSB3125"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -43,5 +43,5 @@ translation.priority.mt:
 -   Set the [\<entryPoint> Element](../deployment/-entrypoint--element--clickonce-application-.md) to a valid value. For more information, see [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md).  
   
 ## See Also  
- [Publish Page, Project Designer](../reference/publish-page--project-designer.md)   
+ [Publish Page, Project Designer](../ide-reference/publish-page--project-designer.md)   
  [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md)

@@ -1,5 +1,5 @@
 ---
-title: "Code Analysis for C-C++ Overview | testtitle"
+title: "Code Analysis for C-C++ Overview"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

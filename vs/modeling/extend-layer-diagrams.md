@@ -1,5 +1,5 @@
 ---
-title: "Extend layer diagrams | testtitle"
+title: "Extend layer diagrams"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

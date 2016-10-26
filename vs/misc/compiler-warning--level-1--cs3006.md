@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 1) CS3006 | testtitle"
+title: "Compiler Warning (level 1) CS3006"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS3006"
 ms.assetid: efbfd898-e46f-4c3d-91e2-e2da0056b016
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

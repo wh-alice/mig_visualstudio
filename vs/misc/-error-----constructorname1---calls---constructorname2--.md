@@ -1,12 +1,12 @@
 ---
-title: "&lt;error&gt;: &#39;&lt;constructorname1&gt;&#39; calls &#39;&lt;constructorname2&gt;&#39; | testtitle"
+title: "&lt;error&gt;: &#39;&lt;constructorname1&gt;&#39; calls &#39;&lt;constructorname2&gt;&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30297"
 ms.assetid: dfca67d7-f4d7-4451-a937-68f22b8527d5
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

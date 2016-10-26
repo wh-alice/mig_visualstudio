@@ -1,5 +1,5 @@
 ---
-title: "CA1410: COM registration methods should be matched | testtitle"
+title: "CA1410: COM registration methods should be matched"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -58,8 +58,8 @@ translation.priority.mt:
 ## Example  
  The following example shows a type that violates the rule. The commented code shows the fix for the violation.  
   
- [!code[FxCop.Interoperability.ComRegistration#1](../code-quality/codesnippet/CSharp/ca1410--com-registration-methods-should-be-matched_1.cs)]
-[!code[FxCop.Interoperability.ComRegistration#1](../code-quality/codesnippet/VisualBasic/ca1410--com-registration-methods-should-be-matched_1.vb)]  
+ [!code-cs[FxCop.Interoperability.ComRegistration#1](../code-quality/codesnippet/CSharp/ca1410--com-registration-methods-should-be-matched_1.cs)]
+ [!code-vb[FxCop.Interoperability.ComRegistration#1](../code-quality/codesnippet/VisualBasic/ca1410--com-registration-methods-should-be-matched_1.vb)]  
   
 ## Related Rules  
  [CA1411: COM registration methods should not be visible](../code-quality/ca1411--com-registration-methods-should-not-be-visible.md)  

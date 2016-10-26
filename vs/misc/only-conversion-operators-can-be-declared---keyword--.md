@@ -1,12 +1,12 @@
 ---
-title: "Only conversion operators can be declared &#39;&lt;keyword&gt;&#39; | testtitle"
+title: "Only conversion operators can be declared &#39;&lt;keyword&gt;&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC33019"
 ms.assetid: 946266fe-a909-41b1-aad4-f85dc8050b88
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

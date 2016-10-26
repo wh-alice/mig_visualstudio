@@ -1,12 +1,12 @@
 ---
-title: "Interface &#39;&lt;interfacename&gt;&#39; cannot inherit from itself: &lt;message&gt; | testtitle"
+title: "Interface &#39;&lt;interfacename&gt;&#39; cannot inherit from itself: &lt;message&gt;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30296"
 ms.assetid: a5bc1ae2-2083-4e26-b8a4-3c4dd951fd27
 caps.latest.revision: 11
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

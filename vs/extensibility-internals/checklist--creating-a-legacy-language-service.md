@@ -1,7 +1,7 @@
 ---
-title: "Checklist: Creating a Legacy Language Service | testtitle"
+title: "Checklist: Creating a Legacy Language Service"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

@@ -1,12 +1,12 @@
 ---
-title: "Parameter type of this unary operator must be the containing type &#39;&lt;typename&gt;&#39; | testtitle"
+title: "Parameter type of this unary operator must be the containing type &#39;&lt;typename&gt;&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC33020"
 ms.assetid: 9c2c2c5b-6f18-49d2-bd6e-e735a6bced77
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,5 +1,5 @@
 ---
-title: "What&#39;s New in the Visual Studio 2015 SDK | testtitle"
+title: "What&#39;s New in the Visual Studio 2015 SDK"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"
@@ -83,4 +83,4 @@ The Visual Studio SDK has the following new and updated features for Visual Stud
  Light bulbs are a new feature that ships with the VSSDK. They are icons used in the Visual Studio editor that expand to display a set of code refactoring actions or fixes for problems identified by the built-in code analyzers. For more information, see [Walkthrough: Displaying Light Bulb Suggestions](../extensibility/walkthrough--displaying-light-bulb-suggestions.md).  
   
 ## Updated User Experience Guidelines  
- Designing new extensions or features for Visual Studio? Check out the updated and expanded [Visual Studio User Experience Guidelines](../extensibility/visual-studio-user-experience-guidelines.md).  You’ll find the [color tokens](../extensibility/shared-colors-for-visual-studio.md), [font sizes](../extensibility/fonts-and-formatting-for-visual-studio.md), [dialog layout specifications](../extensibility/layout-for-visual-studio.md), and other guidance you need to seamlessly integrate your new UI with Visual Studio.
+ Designing new extensions or features for Visual Studio? Check out the updated and expanded [Visual Studio User Experience Guidelines](../extensibility-ux-guidelines/visual-studio-user-experience-guidelines.md).  You’ll find the [color tokens](../extensibility-ux-guidelines/shared-colors-for-visual-studio.md), [font sizes](../extensibility-ux-guidelines/fonts-and-formatting-for-visual-studio.md), [dialog layout specifications](../extensibility-ux-guidelines/layout-for-visual-studio.md), and other guidance you need to seamlessly integrate your new UI with Visual Studio.

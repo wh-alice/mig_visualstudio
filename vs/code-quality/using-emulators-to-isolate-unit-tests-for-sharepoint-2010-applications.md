@@ -1,5 +1,5 @@
 ---
-title: "Using emulators to isolate unit tests for Sharepoint 2010 applications | testtitle"
+title: "Using emulators to isolate unit tests for Sharepoint 2010 applications"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

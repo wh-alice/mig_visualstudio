@@ -1,5 +1,5 @@
 ---
-title: "CA2153: Avoid Handling Corrupted State Exceptions | testtitle"
+title: "CA2153: Avoid Handling Corrupted State Exceptions"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.reviewer: ""

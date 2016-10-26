@@ -1,7 +1,7 @@
 ---
-title: "option &lt;optionname&gt; can be followed only by &#39;+&#39; or &#39;-&#39; | testtitle"
+title: "option &lt;optionname&gt; can be followed only by &#39;+&#39; or &#39;-&#39;"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

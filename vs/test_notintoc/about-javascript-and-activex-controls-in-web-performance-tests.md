@@ -1,5 +1,5 @@
 ---
-title: "About JavaScript and ActiveX Controls in Web Performance Tests | testtitle"
+title: "About JavaScript and ActiveX Controls in Web Performance Tests"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

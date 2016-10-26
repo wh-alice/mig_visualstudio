@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0819 | testtitle"
+title: "Compiler Error CS0819"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0819"
 ms.assetid: a5369e03-eb7d-4c88-b390-51304bd8d1ae
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

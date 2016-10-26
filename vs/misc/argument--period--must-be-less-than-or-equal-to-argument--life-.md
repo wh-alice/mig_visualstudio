@@ -1,20 +1,20 @@
 ---
-title: "Argument &#39;Period&#39; must be less than or equal to argument &#39;Life&#39; | testtitle"
+title: "Argument &#39;Period&#39; must be less than or equal to argument &#39;Life&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbrFinancial_PeriodLELife"
 ms.assetid: dc575d41-b376-4b05-bbbe-6de1e98385f1
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

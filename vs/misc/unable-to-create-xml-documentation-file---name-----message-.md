@@ -1,12 +1,12 @@
 ---
-title: "Unable to create XML documentation file &#39;&lt;name&gt;&#39;: &lt;message&gt; | testtitle"
+title: "Unable to create XML documentation file &#39;&lt;name&gt;&#39;: &lt;message&gt;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC42311"
 ms.assetid: ecf238a0-902e-404a-bd9a-5f31e0c36fba
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

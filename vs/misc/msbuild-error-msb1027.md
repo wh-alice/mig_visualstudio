@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Error MSB1027 | testtitle"
+title: "MSBuild Error MSB1027"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -45,4 +45,4 @@ translation.priority.mt:
 -   Remove the **/noautoresponse** switch from the MSBuild.rsp response file.  
   
 ## See Also  
- [Command-Line Reference](../reference/msbuild-command-line-reference.md)
+ [Command-Line Reference](../msbuild/msbuild-command-line-reference.md)

@@ -1,5 +1,5 @@
 ---
-title: "System DLL &lt;name&gt; could not be loaded. | testtitle"
+title: "System DLL &lt;name&gt; could not be loaded."
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,12 +1,12 @@
 ---
-title: "Character &#39;character&#39; (0x&lt;hexadecimal&gt;) is not allowed in an XML name | testtitle"
+title: "Character &#39;character&#39; (0x&lt;hexadecimal&gt;) is not allowed in an XML name"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC31170"
 ms.assetid: 64ec4796-5f57-4fdd-baa3-ddeeaa3e8e68
 caps.latest.revision: 6
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

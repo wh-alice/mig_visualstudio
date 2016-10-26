@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1057 | testtitle"
+title: "Compiler Error CS1057"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1057"
 ms.assetid: 6f247cfd-6d26-43b8-98d9-0a6d7c115cad
 caps.latest.revision: 3
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

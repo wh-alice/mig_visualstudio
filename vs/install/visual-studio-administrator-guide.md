@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio Administrator Guide | testtitle"
+title: "Visual Studio Administrator Guide"
 ms.custom: ""
 ms.date: "2016-10-12"
 ms.prod: "visual-studio-dev14"

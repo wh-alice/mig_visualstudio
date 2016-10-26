@@ -1,5 +1,5 @@
 ---
-title: "How to: Capture a Screenshot during an Exploratory Test Session | testtitle"
+title: "How to: Capture a Screenshot during an Exploratory Test Session"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

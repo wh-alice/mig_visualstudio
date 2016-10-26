@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 1) CS3010 | testtitle"
+title: "Compiler Warning (level 1) CS3010"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS3010"
 ms.assetid: d57bd750-df15-4e6a-9579-66de8b276b7e
 caps.latest.revision: 12
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

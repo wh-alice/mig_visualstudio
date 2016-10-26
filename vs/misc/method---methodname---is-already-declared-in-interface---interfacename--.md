@@ -1,12 +1,12 @@
 ---
-title: "Method &#39;&lt;methodname&gt;&#39; is already declared in interface &#39;&lt;interfacename&gt;&#39; | testtitle"
+title: "Method &#39;&lt;methodname&gt;&#39; is already declared in interface &#39;&lt;interfacename&gt;&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30377"
 ms.assetid: 8949bb5e-f023-46d7-9303-1d3cdc6ec9de
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

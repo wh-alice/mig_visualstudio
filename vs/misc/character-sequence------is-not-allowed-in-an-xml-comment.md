@@ -1,12 +1,12 @@
 ---
-title: "Character sequence &#39;--&#39; is not allowed in an XML comment | testtitle"
+title: "Character sequence &#39;--&#39; is not allowed in an XML comment"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC31171"
 ms.assetid: 51d256c6-356e-4fbb-b36e-f9976f412307
 caps.latest.revision: 4
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,20 +1,20 @@
 ---
-title: "Argument &#39;Conversion&#39; is not valid | testtitle"
+title: "Argument &#39;Conversion&#39; is not valid"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbrArgument_InvalidVbStrConv"
 ms.assetid: a5497ad5-25be-4ac7-91fb-ad117d683efe
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

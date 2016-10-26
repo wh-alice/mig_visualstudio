@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS2008 | testtitle"
+title: "Compiler Error CS2008"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS2008"
 ms.assetid: 13a25a0a-0638-41b7-8b35-9b5d3013bb00
 caps.latest.revision: 6
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

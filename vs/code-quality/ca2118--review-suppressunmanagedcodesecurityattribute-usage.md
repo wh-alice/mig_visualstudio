@@ -1,5 +1,5 @@
 ---
-title: "CA2118: Review SuppressUnmanagedCodeSecurityAttribute usage | testtitle"
+title: "CA2118: Review SuppressUnmanagedCodeSecurityAttribute usage"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -69,17 +69,17 @@ translation.priority.ht:
 ## Example  
  The following example violates the rule.  
   
- [!code[FxCop.Security.TypesDoNotSuppress#1](../code-quality/codesnippet/CSharp/ca2118--review-suppressunmanagedcodesecurityattribute-usage_1.cs)]  
+ [!code-cs[FxCop.Security.TypesDoNotSuppress#1](../code-quality/codesnippet/CSharp/ca2118--review-suppressunmanagedcodesecurityattribute-usage_1.cs)]  
   
 ## Example  
  In the following example, the `DoWork` method provides a publicly accessible code path to the platform invocation method `FormatHardDisk`.  
   
- [!code[FxCop.Security.PInvokeAndSuppress#1](../code-quality/codesnippet/CSharp/ca2118--review-suppressunmanagedcodesecurityattribute-usage_2.cs)]  
+ [!code-cs[FxCop.Security.PInvokeAndSuppress#1](../code-quality/codesnippet/CSharp/ca2118--review-suppressunmanagedcodesecurityattribute-usage_2.cs)]  
   
 ## Example  
  In the following example, the public method `DoDangerousThing` causes a violation. To resolve the violation, `DoDangerousThing` should be made private, and access to it should be through a public method secured by a security demand, as illustrated by the `DoWork` method.  
   
- [!code[FxCop.Security.TypeInvokeAndSuppress#1](../code-quality/codesnippet/CSharp/ca2118--review-suppressunmanagedcodesecurityattribute-usage_3.cs)]  
+ [!code-cs[FxCop.Security.TypeInvokeAndSuppress#1](../code-quality/codesnippet/CSharp/ca2118--review-suppressunmanagedcodesecurityattribute-usage_3.cs)]  
   
 ## See Also  
  <xref:System.Security.SuppressUnmanagedCodeSecurityAttribute?displayProperty=fullName>   

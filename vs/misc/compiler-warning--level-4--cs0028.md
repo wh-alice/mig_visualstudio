@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 4) CS0028 | testtitle"
+title: "Compiler Warning (level 4) CS0028"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0028"
 ms.assetid: 47df919f-01fa-45ae-a4b7-912445e679e2
 caps.latest.revision: 15
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

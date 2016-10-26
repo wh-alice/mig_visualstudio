@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0648 | testtitle"
+title: "Compiler Error CS0648"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0648"
 ms.assetid: ec624fce-785c-4c08-9342-e1518d469ed8
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,12 +1,12 @@
 ---
-title: "Local variable &#39;&lt;variablename&gt;&#39; is already declared in the current block | testtitle"
+title: "Local variable &#39;&lt;variablename&gt;&#39; is already declared in the current block"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30288"
 ms.assetid: 99352028-6c60-4596-9ea8-cdae632fefb8
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

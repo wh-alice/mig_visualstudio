@@ -1,5 +1,5 @@
 ---
-title: "Using Options Pages | testtitle"
+title: "Using Options Pages"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
@@ -57,8 +57,8 @@ pServiceProvider->QueryService(SID_SDTE, IID__DTE, (LPVOID*)pDTE);
   
  To obtain a <xref:EnvDTE.DTE> object by using the Managed Package Framework (MPF), call the <xref:Microsoft.VisualStudio.Shell.Package.GetService*> method and provide a `serviceType` parameter of type <xref:Microsoft.VisualStudio.Shell.Interop.SDTE>.  
   
- [!code[UI_UserSettings_ToolsOptionPages#01](../extensibility-internals/codesnippet/CSharp/using-options-pages_1.cs)]
-[!code[UI_UserSettings_ToolsOptionPages#01](../extensibility-internals/codesnippet/VisualBasic/using-options-pages_1.vb)]  
+ [!code-cs[UI_UserSettings_ToolsOptionPages#01](../extensibility-internals/codesnippet/CSharp/using-options-pages_1.cs)]
+ [!code-vb[UI_UserSettings_ToolsOptionPages#01](../extensibility-internals/codesnippet/VisualBasic/using-options-pages_1.vb)]  
   
  An **Options** page is specified by two identifiers. The first identifier is a string that indicates the folder that contains the **Options** page. The second identifier is a string that indicates the specific item in that folder. These are referred to as an **Options** page category and subcategory, or its topic and subtopic.  
   
@@ -77,8 +77,8 @@ hr = srpDTE->get_Properties("TextEditor", "Basic", &srpDTEPropertiesList);
   
  To obtain the properties by using the MPF, use the <xref:EnvDTE._DTE.Properties*> method.  
   
- [!code[UI_UserSettings_ToolsOptionPages#02](../extensibility-internals/codesnippet/CSharp/using-options-pages_2.cs)]
-[!code[UI_UserSettings_ToolsOptionPages#02](../extensibility-internals/codesnippet/VisualBasic/using-options-pages_2.vb)]  
+ [!code-cs[UI_UserSettings_ToolsOptionPages#02](../extensibility-internals/codesnippet/CSharp/using-options-pages_2.cs)]
+ [!code-vb[UI_UserSettings_ToolsOptionPages#02](../extensibility-internals/codesnippet/VisualBasic/using-options-pages_2.vb)]  
   
  The <xref:EnvDTE.Properties.Item*> method returns individual settings from the <xref:EnvDTE.Properties> collection as a <xref:EnvDTE.Property> object.  
   
@@ -99,8 +99,8 @@ hr= srpProperty.set_Value(4);
   
  The following example demonstrates how to update the **Tab Size** setting by using the MPF.  
   
- [!code[UI_UserSettings_ToolsOptionPages#03](../extensibility-internals/codesnippet/CSharp/using-options-pages_3.cs)]
-[!code[UI_UserSettings_ToolsOptionPages#03](../extensibility-internals/codesnippet/VisualBasic/using-options-pages_3.vb)]  
+ [!code-cs[UI_UserSettings_ToolsOptionPages#03](../extensibility-internals/codesnippet/CSharp/using-options-pages_3.cs)]
+ [!code-vb[UI_UserSettings_ToolsOptionPages#03](../extensibility-internals/codesnippet/VisualBasic/using-options-pages_3.vb)]  
   
  For more information, see [Controlling Options Settings](../Topic/Controlling%20Options%20Settings.md).  
   

@@ -1,7 +1,7 @@
 ---
-title: "Working with Textures and Images | testtitle"
+title: "Working with Textures and Images"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "10/26/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

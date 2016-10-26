@@ -1,12 +1,12 @@
 ---
-title: "Constraint type &#39;&lt;typename&gt;&#39; already specified for this type parameter | testtitle"
+title: "Constraint type &#39;&lt;typename&gt;&#39; already specified for this type parameter"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC32071"
 ms.assetid: 6b0e85e9-3ac8-4181-97de-ca690b95a63c
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

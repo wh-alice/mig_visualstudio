@@ -1,5 +1,5 @@
 ---
-title: "CA1405: COM visible type base types should be COM visible | testtitle"
+title: "CA1405: COM visible type base types should be COM visible"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -58,8 +58,8 @@ translation.priority.mt:
 ## Example  
  The following example shows a type that violates the rule.  
   
- [!code[FxCop.Interoperability.ComBaseTypes#1](../code-quality/codesnippet/VisualBasic/ca1405--com-visible-type-base-types-should-be-com-visible_1.vb)]
-[!code[FxCop.Interoperability.ComBaseTypes#1](../code-quality/codesnippet/CSharp/ca1405--com-visible-type-base-types-should-be-com-visible_1.cs)]  
+ [!code-vb[FxCop.Interoperability.ComBaseTypes#1](../code-quality/codesnippet/VisualBasic/ca1405--com-visible-type-base-types-should-be-com-visible_1.vb)]
+ [!code-cs[FxCop.Interoperability.ComBaseTypes#1](../code-quality/codesnippet/CSharp/ca1405--com-visible-type-base-types-should-be-com-visible_1.cs)]  
   
 ## See Also  
  <xref:System.Runtime.InteropServices.ClassInterfaceAttribute?displayProperty=fullName>   

@@ -1,5 +1,5 @@
 ---
-title: "CA2235: Mark all non-serializable fields | testtitle"
+title: "CA2235: Mark all non-serializable fields"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -57,8 +57,8 @@ translation.priority.ht:
 ## Example  
  The following example shows a type that violates the rule and a type that satisfies the rule.  
   
- [!code[FxCop.Usage.MarkNonSerializable#1](../code-quality/codesnippet/CSharp/ca2235--mark-all-non-serializable-fields_1.cs)]
-[!code[FxCop.Usage.MarkNonSerializable#1](../code-quality/codesnippet/VisualBasic/ca2235--mark-all-non-serializable-fields_1.vb)]  
+ [!code-cs[FxCop.Usage.MarkNonSerializable#1](../code-quality/codesnippet/CSharp/ca2235--mark-all-non-serializable-fields_1.cs)]
+ [!code-vb[FxCop.Usage.MarkNonSerializable#1](../code-quality/codesnippet/VisualBasic/ca2235--mark-all-non-serializable-fields_1.vb)]  
   
 ## Related Rules  
  [CA2236: Call base class methods on ISerializable types](../code-quality/ca2236--call-base-class-methods-on-iserializable-types.md)  

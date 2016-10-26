@@ -1,5 +1,5 @@
 ---
-title: "unary_function&lt;&gt; Structure | testtitle"
+title: "unary_function&lt;&gt; Structure"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

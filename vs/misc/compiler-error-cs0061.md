@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0061 | testtitle"
+title: "Compiler Error CS0061"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0061"
 ms.assetid: 8dfc57a9-653d-4902-a88c-92032ba64024
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

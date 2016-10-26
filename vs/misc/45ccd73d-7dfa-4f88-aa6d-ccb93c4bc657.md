@@ -1,12 +1,12 @@
 ---
-title: "The targeted version of the .NET Compact Framework does not support latebound overload resolution | testtitle"
+title: "The targeted version of the .NET Compact Framework does not support latebound overload resolution"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30764"
 ms.assetid: 45ccd73d-7dfa-4f88-aa6d-ccb93c4bc657
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

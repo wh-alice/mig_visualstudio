@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0456 | testtitle"
+title: "Compiler Error CS0456"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0456"
 ms.assetid: d714ec06-a7f4-405e-bf32-423696848319
 caps.latest.revision: 14
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

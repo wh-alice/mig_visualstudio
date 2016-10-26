@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1103 | testtitle"
+title: "Compiler Error CS1103"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1103"
 ms.assetid: 513a26ea-9d66-4dc3-b3e6-d709c3089b1a
 caps.latest.revision: 6
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

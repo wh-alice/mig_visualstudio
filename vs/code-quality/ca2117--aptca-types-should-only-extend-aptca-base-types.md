@@ -1,5 +1,5 @@
 ---
-title: "CA2117: APTCA types should only extend APTCA base types | testtitle"
+title: "CA2117: APTCA types should only extend APTCA base types"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -73,17 +73,17 @@ translation.priority.ht:
 ## Example  
  The following example uses two assemblies and a test application to illustrate the security vulnerability detected by this rule. The first assembly does not have the APTCA attribute and should not be inheritable by partially trusted types (represented by `T2` in the previous discussion).  
   
- [!code[FxCop.Security.NoAptcaInherit#1](../code-quality/codesnippet/CSharp/ca2117--aptca-types-should-only-extend-aptca-base-types_1.cs)]  
+ [!code-cs[FxCop.Security.NoAptcaInherit#1](../code-quality/codesnippet/CSharp/ca2117--aptca-types-should-only-extend-aptca-base-types_1.cs)]  
   
 ## Example  
  The second assembly, represented by `T1` in the previous discussion, is fully trusted and allows partially trusted callers.  
   
- [!code[FxCop.Security.YesAptcaInherit#1](../code-quality/codesnippet/CSharp/ca2117--aptca-types-should-only-extend-aptca-base-types_2.cs)]  
+ [!code-cs[FxCop.Security.YesAptcaInherit#1](../code-quality/codesnippet/CSharp/ca2117--aptca-types-should-only-extend-aptca-base-types_2.cs)]  
   
 ## Example  
  The test type, represented by `X` in the previous discussion, is in a partially trusted assembly.  
   
- [!code[FxCop.Security.TestAptcaInherit#1](../code-quality/codesnippet/CSharp/ca2117--aptca-types-should-only-extend-aptca-base-types_3.cs)]  
+ [!code-cs[FxCop.Security.TestAptcaInherit#1](../code-quality/codesnippet/CSharp/ca2117--aptca-types-should-only-extend-aptca-base-types_3.cs)]  
   
  This example produces the following output.  
   

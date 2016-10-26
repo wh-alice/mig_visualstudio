@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 3) CS0659 | testtitle"
+title: "Compiler Warning (level 3) CS0659"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0659"
 ms.assetid: 63435ee6-c92f-4124-95d4-d8f4e5f0af80
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,12 +1,12 @@
 ---
-title: "Attribute &#39;Conditional&#39; is only valid on &#39;Sub&#39; declarations | testtitle"
+title: "Attribute &#39;Conditional&#39; is only valid on &#39;Sub&#39; declarations"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC41007"
 ms.assetid: 36554e18-dac6-4bed-bdd0-f0819a3a288e
 caps.latest.revision: 3
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

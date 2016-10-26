@@ -1,5 +1,5 @@
 ---
-title: "Accessing Visual Studio or other Hosts from a Text Template | testtitle"
+title: "Accessing Visual Studio or other Hosts from a Text Template"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

@@ -1,7 +1,7 @@
 ---
-title: "Codepage &#39;&lt;name&gt;&#39; is invalid or not installed | testtitle"
+title: "Codepage &#39;&lt;name&gt;&#39; is invalid or not installed"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

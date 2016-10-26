@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Error MSB3023 | testtitle"
+title: "MSBuild Error MSB3023"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -43,5 +43,5 @@ translation.priority.mt:
 -   Specify either `DestinationFiles`or`DestinationDirectory`for the `Copy` task.  
   
 ## See Also  
- [Copy Task](../reference/copy-task.md)   
- [Tasks](../reference/msbuild-tasks.md)
+ [Copy Task](../msbuild/copy-task.md)   
+ [Tasks](../msbuild/msbuild-tasks.md)

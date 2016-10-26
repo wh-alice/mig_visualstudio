@@ -1,5 +1,5 @@
 ---
-title: "linear_congruential::linear_congruential | testtitle"
+title: "linear_congruential::linear_congruential"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

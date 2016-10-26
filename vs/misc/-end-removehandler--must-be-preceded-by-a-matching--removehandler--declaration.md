@@ -1,12 +1,12 @@
 ---
-title: "&#39;End RemoveHandler&#39; must be preceded by a matching &#39;RemoveHandler&#39; declaration | testtitle"
+title: "&#39;End RemoveHandler&#39; must be preceded by a matching &#39;RemoveHandler&#39; declaration"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC31125"
 ms.assetid: 754a0017-ec55-4d62-a7bd-c84ece058455
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

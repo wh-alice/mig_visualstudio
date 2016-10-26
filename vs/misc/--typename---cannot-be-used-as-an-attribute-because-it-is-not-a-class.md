@@ -1,12 +1,12 @@
 ---
-title: "&#39;&lt;typename&gt;&#39; cannot be used as an attribute because it is not a class | testtitle"
+title: "&#39;&lt;typename&gt;&#39; cannot be used as an attribute because it is not a class"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC31503"
 ms.assetid: 9979f794-5d6d-4cc6-a2ec-303078626c0f
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

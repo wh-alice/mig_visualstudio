@@ -1,5 +1,5 @@
 ---
-title: "How to: Specify How Frequently Test Logs are Saved Using the Load Test Editor | testtitle"
+title: "How to: Specify How Frequently Test Logs are Saved Using the Load Test Editor"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

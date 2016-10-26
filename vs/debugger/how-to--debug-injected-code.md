@@ -1,5 +1,5 @@
 ---
-title: "How to: Debug Injected Code | testtitle"
+title: "How to: Debug Injected Code"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

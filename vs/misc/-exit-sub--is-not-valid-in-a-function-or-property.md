@@ -1,12 +1,12 @@
 ---
-title: "&#39;Exit Sub&#39; is not valid in a Function or Property | testtitle"
+title: "&#39;Exit Sub&#39; is not valid in a Function or Property"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30065"
 ms.assetid: d6426861-ba64-4dca-9100-262c6c058bd9
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

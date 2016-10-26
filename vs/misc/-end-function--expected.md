@@ -1,7 +1,7 @@
 ---
-title: "&#39;End Function&#39; expected | testtitle"
+title: "&#39;End Function&#39; expected"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

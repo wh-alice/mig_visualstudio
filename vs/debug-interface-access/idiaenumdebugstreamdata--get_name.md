@@ -1,5 +1,5 @@
 ---
-title: "IDiaEnumDebugStreamData::get_name | testtitle"
+title: "IDiaEnumDebugStreamData::get_name"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

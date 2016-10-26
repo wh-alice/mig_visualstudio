@@ -1,12 +1,12 @@
 ---
-title: "&#39;&lt;assemblyname&gt;&#39; is an assembly and cannot be referenced as a module | testtitle"
+title: "&#39;&lt;assemblyname&gt;&#39; is an assembly and cannot be referenced as a module"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC31077"
 ms.assetid: 9d0c8a3b-2609-44a6-a8d2-c9235264c123
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

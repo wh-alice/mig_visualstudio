@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio SDK | testtitle"
+title: "Visual Studio SDK"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-dev14"
@@ -60,7 +60,7 @@ The Visual Studio SDK helps you extend Visual Studio features or integrate new f
  The Visual Studio SDK has some new features, including light bulbs and new project items that allow you to create menu commands, tool windows, and editor extensions using a VSIX package. For more information, see [What's New in the Visual Studio 2015 SDK](../extensibility/what-s-new-in-the-visual-studio-2015-sdk.md).  
   
 ## Visual Studio User Experience Guidelines  
- Get great tips for designing the UI for your extension in [Visual Studio User Experience Guidelines](../extensibility/visual-studio-user-experience-guidelines.md).  
+ Get great tips for designing the UI for your extension in [Visual Studio User Experience Guidelines](../extensibility-ux-guidelines/visual-studio-user-experience-guidelines.md).  
   
  You can also learn how to make your extension look great on high DPI devices with our [Addressing DPI Issues](../extensibility/addressing-dpi-issues2.md) topic.  
   

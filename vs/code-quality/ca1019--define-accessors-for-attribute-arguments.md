@@ -1,5 +1,5 @@
 ---
-title: "CA1019: Define accessors for attribute arguments | testtitle"
+title: "CA1019: Define accessors for attribute arguments"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -65,8 +65,8 @@ translation.priority.mt:
  The following example shows two attributes that define a mandatory (positional) parameter. The first implementation of the attribute is incorrectly defined. The second implementation is correct.  
   
 ### Code  
- [!code[FxCop.Design.AttributeAccessors#1](../code-quality/codesnippet/CSharp/ca1019--define-accessors-for-attribute-arguments_1.cs)]
-[!code[FxCop.Design.AttributeAccessors#1](../code-quality/codesnippet/VisualBasic/ca1019--define-accessors-for-attribute-arguments_1.vb)]  
+ [!code-cs[FxCop.Design.AttributeAccessors#1](../code-quality/codesnippet/CSharp/ca1019--define-accessors-for-attribute-arguments_1.cs)]
+ [!code-vb[FxCop.Design.AttributeAccessors#1](../code-quality/codesnippet/VisualBasic/ca1019--define-accessors-for-attribute-arguments_1.vb)]  
   
 ## Positional and Named Arguments  
   
@@ -76,13 +76,13 @@ translation.priority.mt:
  The following example shows an implementation of an attribute that has both positional and named arguments.  
   
 ### Code  
- [!code[FxCop.Design.AttributeAccessorsNamed#1](../code-quality/codesnippet/CSharp/ca1019--define-accessors-for-attribute-arguments_2.cs)]  
+ [!code-cs[FxCop.Design.AttributeAccessorsNamed#1](../code-quality/codesnippet/CSharp/ca1019--define-accessors-for-attribute-arguments_2.cs)]  
   
 ### Comments  
  The following example shows how to apply the custom attribute to two properties.  
   
 ### Code  
- [!code[FxCop.Design.AttributeAccessorsNamedApplied#1](../code-quality/codesnippet/CSharp/ca1019--define-accessors-for-attribute-arguments_3.cs)]  
+ [!code-cs[FxCop.Design.AttributeAccessorsNamedApplied#1](../code-quality/codesnippet/CSharp/ca1019--define-accessors-for-attribute-arguments_3.cs)]  
   
 ## Related Rules  
  [CA1813: Avoid unsealed attributes](../code-quality/ca1813--avoid-unsealed-attributes.md)  

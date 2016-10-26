@@ -1,5 +1,5 @@
 ---
-title: "Edit and Continue Dialog Box (C++) | testtitle"
+title: "Edit and Continue Dialog Box (C++)"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

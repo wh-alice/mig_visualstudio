@@ -1,7 +1,7 @@
 ---
-title: "File &lt;filename&gt; could not be found | testtitle"
+title: "File &lt;filename&gt; could not be found"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

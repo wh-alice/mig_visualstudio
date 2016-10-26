@@ -1,5 +1,5 @@
 ---
-title: "CA1041: Provide ObsoleteAttribute message | testtitle"
+title: "CA1041: Provide ObsoleteAttribute message"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -58,9 +58,9 @@ translation.priority.mt:
 ## Example  
  The following example shows an obsolete member that has a correctly declared <xref:System.ObsoleteAttribute>.  
   
- [!code[FxCop.Design.ObsoleteAttributeOnMember#1](../code-quality/codesnippet/CPP/ca1041--provide-obsoleteattribute-message_1.cpp)]
-[!code[FxCop.Design.ObsoleteAttributeOnMember#1](../code-quality/codesnippet/CSharp/ca1041--provide-obsoleteattribute-message_1.cs)]
-[!code[FxCop.Design.ObsoleteAttributeOnMember#1](../code-quality/codesnippet/VisualBasic/ca1041--provide-obsoleteattribute-message_1.vb)]  
+ [!code-cpp[FxCop.Design.ObsoleteAttributeOnMember#1](../code-quality/codesnippet/CPP/ca1041--provide-obsoleteattribute-message_1.cpp)]
+ [!code-cs[FxCop.Design.ObsoleteAttributeOnMember#1](../code-quality/codesnippet/CSharp/ca1041--provide-obsoleteattribute-message_1.cs)]
+ [!code-vb[FxCop.Design.ObsoleteAttributeOnMember#1](../code-quality/codesnippet/VisualBasic/ca1041--provide-obsoleteattribute-message_1.vb)]  
   
 ## See Also  
  <xref:System.ObsoleteAttribute?displayProperty=fullName>

@@ -1,5 +1,5 @@
 ---
-title: "The &lt;name&gt; switch requires a value. | testtitle"
+title: "The &lt;name&gt; switch requires a value."
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -44,4 +44,4 @@ This error generally occurs when a switch is specified without a required value.
      Re-enter the command and omit the switch.  
   
 ## See Also  
- [Visual Studio Commands](../reference/visual-studio-commands.md)
+ [Visual Studio Commands](../ide-reference/visual-studio-commands.md)

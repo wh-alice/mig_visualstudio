@@ -1,12 +1,12 @@
 ---
-title: "Method in a structure cannot be declared &#39;Protected&#39; or &#39;Protected Friend&#39; | testtitle"
+title: "Method in a structure cannot be declared &#39;Protected&#39; or &#39;Protected Friend&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC31067"
 ms.assetid: 8f854f5f-99b1-40c9-8c21-e24712f37f71
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

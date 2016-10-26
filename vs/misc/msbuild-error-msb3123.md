@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Error MSB3123 | testtitle"
+title: "MSBuild Error MSB3123"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -43,5 +43,5 @@ translation.priority.mt:
 -   Limit the number of file associations to the specified number.  
   
 ## See Also  
- [Publish Page, Project Designer](../reference/publish-page--project-designer.md)   
+ [Publish Page, Project Designer](../ide-reference/publish-page--project-designer.md)   
  [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md)

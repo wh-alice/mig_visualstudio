@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Manually Deploying a ClickOnce Application | testtitle"
+title: "Walkthrough: Manually Deploying a ClickOnce Application"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
@@ -77,7 +77,7 @@ If you cannot use Visual Studio to deploy your [!INCLUDE[ndptecclick](../deploym
   
 -   Determine whether the application requires prerequisites on the client computer.  
   
-     [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications deployed from Visual Studio can include a prerequisite installation bootstrapper (setup.exe) with your deployment. This walkthrough creates the two manifests required for a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment. You can create a prerequisite bootstrapper by using the [GenerateBootstrapper Task](../reference/generatebootstrapper-task.md).  
+     [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications deployed from Visual Studio can include a prerequisite installation bootstrapper (setup.exe) with your deployment. This walkthrough creates the two manifests required for a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment. You can create a prerequisite bootstrapper by using the [GenerateBootstrapper Task](../msbuild/generatebootstrapper-task.md).  
   
 ### To deploy an application with the Mage.exe command-line tool  
   

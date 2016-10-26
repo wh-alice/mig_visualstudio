@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Error MSB1003 | testtitle"
+title: "MSBuild Error MSB1003"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -47,6 +47,6 @@ translation.priority.mt:
 -   If the project or solution file has a file extension that does not end in "proj", change the file extension so that it does end in "proj".  
   
 ## See Also  
- [Command-Line Reference](../reference/msbuild-command-line-reference.md)  
- [MSBuild](../reference/msbuild1.md)   
- [Project File Schema Reference](../reference/msbuild-project-file-schema-reference.md)
+ [Command-Line Reference](../msbuild/msbuild-command-line-reference.md)  
+ [MSBuild](../msbuild/msbuild1.md)   
+ [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)

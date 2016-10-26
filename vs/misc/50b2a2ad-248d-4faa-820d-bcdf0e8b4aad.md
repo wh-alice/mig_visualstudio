@@ -1,12 +1,12 @@
 ---
-title: "Nullable modifier cannot be used with a variable whose implicit type is &#39;Object&#39; | testtitle"
+title: "Nullable modifier cannot be used with a variable whose implicit type is &#39;Object&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC33112"
 ms.assetid: 50b2a2ad-248d-4faa-820d-bcdf0e8b4aad
 caps.latest.revision: 3
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

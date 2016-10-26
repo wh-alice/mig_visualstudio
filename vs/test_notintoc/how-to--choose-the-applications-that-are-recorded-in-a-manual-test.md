@@ -1,5 +1,5 @@
 ---
-title: "How to: Choose the applications that are recorded in a manual test | testtitle"
+title: "How to: Choose the applications that are recorded in a manual test"
 ms.custom: ""
 ms.date: "10/01/2016"
 ms.prod: "visual-studio-tfs-dev14"

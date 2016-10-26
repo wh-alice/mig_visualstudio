@@ -1,5 +1,5 @@
 ---
-title: "DA0004: High processor usage | testtitle"
+title: "DA0004: High processor usage"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

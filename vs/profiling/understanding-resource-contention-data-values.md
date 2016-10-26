@@ -1,5 +1,5 @@
 ---
-title: "Understanding Resource Contention Data Values | testtitle"
+title: "Understanding Resource Contention Data Values"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Creating deployment scripts for build-deploy-test workflows | testtitle"
+title: "Creating deployment scripts for build-deploy-test workflows"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

@@ -1,5 +1,5 @@
 ---
-title: "Event Handlers Propagate Changes Outside the Model | testtitle"
+title: "Event Handlers Propagate Changes Outside the Model"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

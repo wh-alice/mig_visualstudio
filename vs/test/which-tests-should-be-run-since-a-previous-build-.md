@@ -1,5 +1,5 @@
 ---
-title: "Which tests should be run since a previous build? | testtitle"
+title: "Which tests should be run since a previous build?"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

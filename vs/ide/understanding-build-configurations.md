@@ -1,5 +1,5 @@
 ---
-title: "Understanding Build Configurations | testtitle"
+title: "Understanding Build Configurations"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
@@ -99,4 +99,4 @@ You can store different configurations of solution and project properties to use
  [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)   
  [Solutions and Projects](../ide/solutions-and-projects-in-visual-studio.md)   
  [C/C++ Building Reference](../Topic/C-C++%20Building%20Reference.md)   
- [Devenv Command Line Switches](../reference/devenv-command-line-switches.md)
+ [Devenv Command Line Switches](../ide-reference/devenv-command-line-switches.md)

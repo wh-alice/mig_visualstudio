@@ -1,5 +1,5 @@
 ---
-title: "Uninstalling Visual Studio | testtitle"
+title: "Uninstalling Visual Studio"
 ms.custom: ""
 ms.date: "2016-05-05"
 ms.prod: "visual-studio-dev14"

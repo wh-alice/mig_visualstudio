@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 3) CS0414 | testtitle"
+title: "Compiler Warning (level 3) CS0414"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0414"
 ms.assetid: 6a0a80be-799b-4d9c-a7e0-6b91e9ce7be0
 caps.latest.revision: 11
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

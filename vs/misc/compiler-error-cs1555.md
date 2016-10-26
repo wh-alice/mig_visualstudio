@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1555 | testtitle"
+title: "Compiler Error CS1555"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1555"
 ms.assetid: 1919c8b8-d72c-44af-91d0-674ccde77c3f
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0617 | testtitle"
+title: "Compiler Error CS0617"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0617"
 ms.assetid: a4363709-9846-4cb8-8772-f5a3ea8555ca
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

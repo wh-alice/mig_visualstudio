@@ -1,12 +1,12 @@
 ---
-title: "Type parameter &#39;&lt;typeparametername&gt;&#39; cannot be inferred | testtitle"
+title: "Type parameter &#39;&lt;typeparametername&gt;&#39; cannot be inferred"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC36572"
 ms.assetid: 02264070-b055-4ab0-8d2a-eac4d90d9fdf
 caps.latest.revision: 4
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

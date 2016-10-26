@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 1) CS1723 | testtitle"
+title: "Compiler Warning (level 1) CS1723"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1723"
 ms.assetid: d359be86-7daf-4b59-99a3-10b072336bca
 caps.latest.revision: 5
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

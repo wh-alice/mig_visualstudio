@@ -1,12 +1,12 @@
 ---
-title: "&#39;&lt;modifier&gt;&#39; is not valid on a local constant declaration | testtitle"
+title: "&#39;&lt;modifier&gt;&#39; is not valid on a local constant declaration"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30246"
 ms.assetid: 1a4a8570-2f04-4a8f-a110-47d97448fb7a
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

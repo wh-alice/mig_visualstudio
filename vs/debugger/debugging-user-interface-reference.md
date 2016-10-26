@@ -1,5 +1,5 @@
 ---
-title: "Debugging User Interface Reference | testtitle"
+title: "Debugging User Interface Reference"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -60,4 +60,4 @@ You may encounter the following dialog boxes as you debug your application.
   
 ## See Also  
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)   
- [Command Window](../reference/command-window.md)
+ [Command Window](../ide-reference/command-window.md)

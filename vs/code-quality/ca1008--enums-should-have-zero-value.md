@@ -1,5 +1,5 @@
 ---
-title: "CA1008: Enums should have zero value | testtitle"
+title: "CA1008: Enums should have zero value"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -60,9 +60,9 @@ translation.priority.mt:
 ## Example  
  The following example shows two enumerations that satisfy the rule and an enumeration, `BadTraceOptions`, that violates the rule.  
   
- [!code[FxCop.Design.EnumsZeroValue#1](../code-quality/codesnippet/CPP/ca1008--enums-should-have-zero-value_1.cpp)]
-[!code[FxCop.Design.EnumsZeroValue#1](../code-quality/codesnippet/CSharp/ca1008--enums-should-have-zero-value_1.cs)]
-[!code[FxCop.Design.EnumsZeroValue#1](../code-quality/codesnippet/VisualBasic/ca1008--enums-should-have-zero-value_1.vb)]  
+ [!code-cpp[FxCop.Design.EnumsZeroValue#1](../code-quality/codesnippet/CPP/ca1008--enums-should-have-zero-value_1.cpp)]
+ [!code-cs[FxCop.Design.EnumsZeroValue#1](../code-quality/codesnippet/CSharp/ca1008--enums-should-have-zero-value_1.cs)]
+ [!code-vb[FxCop.Design.EnumsZeroValue#1](../code-quality/codesnippet/VisualBasic/ca1008--enums-should-have-zero-value_1.vb)]  
   
 ## Related Rules  
  [CA2217: Do not mark enums with FlagsAttribute](../code-quality/ca2217--do-not-mark-enums-with-flagsattribute.md)  

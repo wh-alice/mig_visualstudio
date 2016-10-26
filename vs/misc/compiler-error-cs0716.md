@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0716 | testtitle"
+title: "Compiler Error CS0716"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0716"
 ms.assetid: 806d25ef-f8a7-4c94-823e-e07904defcf4
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

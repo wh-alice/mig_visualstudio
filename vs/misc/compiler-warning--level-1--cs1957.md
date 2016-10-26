@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (Level 1) CS1957 | testtitle"
+title: "Compiler Warning (Level 1) CS1957"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1957"
 ms.assetid: a4823211-52ce-4ffa-b19b-ee874069409f
 caps.latest.revision: 5
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

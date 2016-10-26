@@ -1,5 +1,5 @@
 ---
-title: "CA2217: Do not mark enums with FlagsAttribute | testtitle"
+title: "CA2217: Do not mark enums with FlagsAttribute"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -57,16 +57,16 @@ translation.priority.ht:
 ## Example  
  The following example shows an enumeration, Color, that contains the value 3, which is neither a power of two, nor a combination of any of the defined values. The Color enumeration should not be marked with the <xref:System.FlagsAttribute>.  
   
- [!code[FxCop.Usage.EnumNoFlags#1](../code-quality/codesnippet/CPP/ca2217--do-not-mark-enums-with-flagsattribute_1.cpp)]
-[!code[FxCop.Usage.EnumNoFlags#1](../code-quality/codesnippet/CSharp/ca2217--do-not-mark-enums-with-flagsattribute_1.cs)]
-[!code[FxCop.Usage.EnumNoFlags#1](../code-quality/codesnippet/VisualBasic/ca2217--do-not-mark-enums-with-flagsattribute_1.vb)]  
+ [!code-cpp[FxCop.Usage.EnumNoFlags#1](../code-quality/codesnippet/CPP/ca2217--do-not-mark-enums-with-flagsattribute_1.cpp)]
+ [!code-cs[FxCop.Usage.EnumNoFlags#1](../code-quality/codesnippet/CSharp/ca2217--do-not-mark-enums-with-flagsattribute_1.cs)]
+ [!code-vb[FxCop.Usage.EnumNoFlags#1](../code-quality/codesnippet/VisualBasic/ca2217--do-not-mark-enums-with-flagsattribute_1.vb)]  
   
 ## Example  
  The following example shows an enumeration, Days, that meets the requirements for being marked with the System.FlagsAttribute.  
   
- [!code[FxCop.Usage.EnumNoFlags2#1](../code-quality/codesnippet/CPP/ca2217--do-not-mark-enums-with-flagsattribute_2.cpp)]
-[!code[FxCop.Usage.EnumNoFlags2#1](../code-quality/codesnippet/CSharp/ca2217--do-not-mark-enums-with-flagsattribute_2.cs)]
-[!code[FxCop.Usage.EnumNoFlags2#1](../code-quality/codesnippet/VisualBasic/ca2217--do-not-mark-enums-with-flagsattribute_2.vb)]  
+ [!code-cpp[FxCop.Usage.EnumNoFlags2#1](../code-quality/codesnippet/CPP/ca2217--do-not-mark-enums-with-flagsattribute_2.cpp)]
+ [!code-cs[FxCop.Usage.EnumNoFlags2#1](../code-quality/codesnippet/CSharp/ca2217--do-not-mark-enums-with-flagsattribute_2.cs)]
+ [!code-vb[FxCop.Usage.EnumNoFlags2#1](../code-quality/codesnippet/VisualBasic/ca2217--do-not-mark-enums-with-flagsattribute_2.vb)]  
   
 ## Related Rules  
  [CA1027: Mark enums with FlagsAttribute](../code-quality/ca1027--mark-enums-with-flagsattribute.md)  

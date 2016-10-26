@@ -1,5 +1,5 @@
 ---
-title: "Deploying an Isolated Shell-Based Application on a 64-Bit Operating System | testtitle"
+title: "Deploying an Isolated Shell-Based Application on a 64-Bit Operating System"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

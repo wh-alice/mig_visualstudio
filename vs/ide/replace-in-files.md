@@ -1,5 +1,5 @@
 ---
-title: "Replace in Files | testtitle"
+title: "Replace in Files"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -103,4 +103,4 @@ translation.priority.ht:
 ## See Also  
  [Finding and Replacing Text](../ide/finding-and-replacing-text.md)   
  [Find in Files](../ide/find-in-files.md)   
- [Visual Studio Commands](../reference/visual-studio-commands.md)
+ [Visual Studio Commands](../ide-reference/visual-studio-commands.md)

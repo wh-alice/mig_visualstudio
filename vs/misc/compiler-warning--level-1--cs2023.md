@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 1) CS2023 | testtitle"
+title: "Compiler Warning (level 1) CS2023"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS2023"
 ms.assetid: 2201fcbc-0eb6-4a1e-baa0-50c5968d1d92
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

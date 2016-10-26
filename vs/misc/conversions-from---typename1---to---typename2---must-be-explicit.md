@@ -1,12 +1,12 @@
 ---
-title: "Conversions from &#39;&lt;typename1&gt;&#39; to &#39;&lt;typename2&gt;&#39; must be explicit | testtitle"
+title: "Conversions from &#39;&lt;typename1&gt;&#39; to &#39;&lt;typename2&gt;&#39; must be explicit"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30664"
 ms.assetid: 84c0ece9-d5be-46de-b985-3ea010f3a181
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

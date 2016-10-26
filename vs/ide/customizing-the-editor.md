@@ -1,7 +1,7 @@
 ---
-title: "Customizing the Editor | testtitle"
+title: "Customizing the Editor"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,7 +32,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Customizing the Editor
-You can customize the formatting, tabs, fonts and colors, IntelliSense, and many other features of the editor in general or a specific language editor by changing options. For more information about these options, see [Text Editor Options Dialog Box](../reference/text-editor-options-dialog-box.md) or type `Editor` into **QuickLaunch**. You can also change how editor windows are displayed.  
+You can customize the formatting, tabs, fonts and colors, IntelliSense, and many other features of the editor in general or a specific language editor by changing options. For more information about these options, see [Text Editor Options Dialog Box](../ide-reference/text-editor-options-dialog-box.md) or type `Editor` into **QuickLaunch**. You can also change how editor windows are displayed.  
   
 ## In This Section  
  These topics explain how to adjust the appearance and behavior of the Text and Code editor.  
@@ -49,6 +49,6 @@ You can customize the formatting, tabs, fonts and colors, IntelliSense, and many
 ## See Also  
  [Writing Code](../ide/writing-code-in-the-code-and-text-editor.md)   
  [Setting Bookmarks in Code](../ide/setting-bookmarks-in-code.md)   
- [General, Environment, Options Dialog Box](../reference/general--environment--options-dialog-box.md)   
- [Documents, Environment, Options Dialog Box](../reference/documents--environment--options-dialog-box.md)   
- [Fonts and Colors, Environment, Options Dialog Box](../reference/fonts-and-colors--environment--options-dialog-box.md)
+ [General, Environment, Options Dialog Box](../ide-reference/general--environment--options-dialog-box.md)   
+ [Documents, Environment, Options Dialog Box](../ide-reference/documents--environment--options-dialog-box.md)   
+ [Fonts and Colors, Environment, Options Dialog Box](../ide-reference/fonts-and-colors--environment--options-dialog-box.md)

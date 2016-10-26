@@ -1,5 +1,5 @@
 ---
-title: "How to: Flag and Unflag Threads | testtitle"
+title: "How to: Flag and Unflag Threads"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

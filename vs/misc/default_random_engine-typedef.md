@@ -1,5 +1,5 @@
 ---
-title: "default_random_engine typedef | testtitle"
+title: "default_random_engine typedef"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

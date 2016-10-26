@@ -1,5 +1,5 @@
 ---
-title: "Several Documents About Solutions and Projects Are Available | testtitle"
+title: "Several Documents About Solutions and Projects Are Available"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1617 | testtitle"
+title: "Compiler Error CS1617"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1617"
 ms.assetid: fd3371ed-39eb-4d3d-b8f5-d96ac0c79398
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

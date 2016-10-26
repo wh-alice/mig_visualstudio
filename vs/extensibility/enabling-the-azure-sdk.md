@@ -1,5 +1,5 @@
 ---
-title: "Enabling the Azure SDK | testtitle"
+title: "Enabling the Azure SDK"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

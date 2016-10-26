@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0462 | testtitle"
+title: "Compiler Error CS0462"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0462"
 ms.assetid: 0732b12d-0f7a-47d5-bc54-8b6147d7249f
 caps.latest.revision: 16
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,5 +1,5 @@
 ---
-title: "CA1300: Specify MessageBoxOptions | testtitle"
+title: "CA1300: Specify MessageBoxOptions"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -58,8 +58,8 @@ translation.priority.mt:
 ## Example  
  The following example shows a method that displays a message box that has options that are appropriate for the reading order of the culture. A resource file, which is not shown, is required to build the example. Follow the comments in the example to build the example without a resource file and to test the right-to-left feature.  
   
- [!code[FxCop.Globalization.SpecifyMBOptions#1](../code-quality/codesnippet/VisualBasic/ca1300--specify-messageboxoptions_1.vb)]
-[!code[FxCop.Globalization.SpecifyMBOptions#1](../code-quality/codesnippet/CSharp/ca1300--specify-messageboxoptions_1.cs)]  
+ [!code-vb[FxCop.Globalization.SpecifyMBOptions#1](../code-quality/codesnippet/VisualBasic/ca1300--specify-messageboxoptions_1.vb)]
+ [!code-cs[FxCop.Globalization.SpecifyMBOptions#1](../code-quality/codesnippet/CSharp/ca1300--specify-messageboxoptions_1.cs)]  
   
 ## See Also  
  <xref:System.Resources.ResourceManager?displayProperty=fullName>   

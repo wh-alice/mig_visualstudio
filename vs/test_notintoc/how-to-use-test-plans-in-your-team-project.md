@@ -1,5 +1,5 @@
 ---
-title: "How to use test plans in your team project | testtitle"
+title: "How to use test plans in your team project"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

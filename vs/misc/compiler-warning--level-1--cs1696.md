@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 1) CS1696 | testtitle"
+title: "Compiler Warning (level 1) CS1696"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1696"
 ms.assetid: 69a45988-1aba-4a01-a84e-7ca59f8dde28
 caps.latest.revision: 11
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Error MSB1008 | testtitle"
+title: "MSBuild Error MSB1008"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
@@ -43,6 +43,6 @@ translation.priority.mt:
 1.  Specify only one project to build. If you want to build two projects, build one project then build the other project. For example, instead of typing `msbuild myapp1.proj myapp2.proj`, build the first project by typing `msbuild myapp1.proj`, and then, when that build is complete, build the second project by typing `msbuild myapp2.proj`.  
   
 ## See Also  
- [Command-Line Reference](../reference/msbuild-command-line-reference.md)   
- [MSBuild Task](../reference/msbuild-task.md)
- [MSBuild](../reference/msbuild1.md)
+ [Command-Line Reference](../msbuild/msbuild-command-line-reference.md)   
+ [MSBuild Task](../msbuild/msbuild-task.md)
+ [MSBuild](../msbuild/msbuild1.md)

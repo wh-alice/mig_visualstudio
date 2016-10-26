@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0554 | testtitle"
+title: "Compiler Error CS0554"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0554"
 ms.assetid: 884db4b2-3a69-4434-9a25-526f596e03c8
 caps.latest.revision: 6
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

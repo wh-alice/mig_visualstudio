@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 1) CS0824 | testtitle"
+title: "Compiler Warning (level 1) CS0824"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0824"
 ms.assetid: ad643bb7-51b2-455b-a9f3-2bd4588d2c5d
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

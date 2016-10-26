@@ -1,12 +1,12 @@
 ---
-title: "Class &#39;&lt;classname&gt;&#39; could not be created: &lt;error&gt; | testtitle"
+title: "Class &#39;&lt;classname&gt;&#39; could not be created: &lt;error&gt;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC32400"
 ms.assetid: b3e5e097-2973-44d1-9ffd-ef92c1877357
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,5 +1,5 @@
 ---
-title: "How to: Connect to Data in a Database | testtitle"
+title: "How to: Connect to Data in a Database"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

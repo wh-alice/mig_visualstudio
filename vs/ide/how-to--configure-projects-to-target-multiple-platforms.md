@@ -1,5 +1,5 @@
 ---
-title: "How to: Configure Projects to Target Multiple Platforms | testtitle"
+title: "How to: Configure Projects to Target Multiple Platforms"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"

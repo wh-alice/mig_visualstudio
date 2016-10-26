@@ -1,5 +1,5 @@
 ---
-title: "Subtraction of Pointer Types | testtitle"
+title: "Subtraction of Pointer Types"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

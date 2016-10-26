@@ -1,5 +1,5 @@
 ---
-title: "How to: Collect Data to Check Which Tests Should be Run After Code Changes | testtitle"
+title: "How to: Collect Data to Check Which Tests Should be Run After Code Changes"
 ms.custom: ""
 ms.date: "09/28/2016"
 ms.prod: "visual-studio-tfs-dev14"

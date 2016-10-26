@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0241 | testtitle"
+title: "Compiler Error CS0241"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "CS0241"
 ms.assetid: be31b194-3de5-4aab-b23a-6cf790f940ab
 caps.latest.revision: 10
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

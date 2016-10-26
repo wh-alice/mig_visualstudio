@@ -1,5 +1,5 @@
 ---
-title: "How to: Use the Load Test API | testtitle"
+title: "How to: Use the Load Test API"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

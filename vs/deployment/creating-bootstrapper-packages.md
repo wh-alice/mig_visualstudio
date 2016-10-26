@@ -1,5 +1,5 @@
 ---
-title: "Creating Bootstrapper Packages | testtitle"
+title: "Creating Bootstrapper Packages"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -107,7 +107,7 @@ HKLM\Software\Wow6432Node\Microsoft\GenericBootstrapper\11.0
   
  Each redistributable component appears in its own subfolder under the packages directory. The product manifest and redistributable files are put into this subfolder. Localized versions of the component and package manifests are put in subfolders named according to Culture Name.  
   
- After these files are copied into the bootstrapper folder, the bootstrapper package automatically appears in the Visual Studio prerequisites dialog box. If your custom bootstrapper package does not appear, close and then reopen the Prerequisites Dialog Box. For more information, see [Prerequisites Dialog Box](../reference/prerequisites-dialog-box.md).  
+ After these files are copied into the bootstrapper folder, the bootstrapper package automatically appears in the Visual Studio prerequisites dialog box. If your custom bootstrapper package does not appear, close and then reopen the Prerequisites Dialog Box. For more information, see [Prerequisites Dialog Box](../ide-reference/prerequisites-dialog-box.md).  
   
  The following table shows the properties that are automatically populated by the bootstrapper.  
   
@@ -137,6 +137,6 @@ HKLM\Software\Wow6432Node\Microsoft\GenericBootstrapper\11.0
   
 ## See Also  
  [How to: Install Prerequisites with a ClickOnce Application](../deployment/how-to--install-prerequisites-with-a-clickonce-application.md)   
- [Prerequisites Dialog Box](../reference/prerequisites-dialog-box.md)   
+ [Prerequisites Dialog Box](../ide-reference/prerequisites-dialog-box.md)   
  [Product and Package Schema Reference](../deployment/product-and-package-schema-reference.md)   
  [Use the Visual Studio 2005 Bootstrapper to Kick-Start Your Installation](http://go.microsoft.com/fwlink/?LinkId=107537)

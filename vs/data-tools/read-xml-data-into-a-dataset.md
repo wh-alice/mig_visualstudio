@@ -1,5 +1,5 @@
 ---
-title: "Read XML data into a dataset | testtitle"
+title: "Read XML data into a dataset"
 ms.custom: ""
 ms.date: "10/18/2016"
 ms.prod: "visual-studio-dev14"
@@ -190,7 +190,7 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
   
 1.  In **Solution Explorer**, select the source file for **Form1**, and then select the **View Designer** button on the **Solution Explorer** toolbar.  
   
-2.  From the [Toolbox, Data Tab](../reference/toolbox--data-tab.md), drag a **DataSet** onto **Form1**.  
+2.  From the [Toolbox, Data Tab](../ide-reference/toolbox--data-tab.md), drag a **DataSet** onto **Form1**.  
   
 3.  In the **Add Dataset** dialog box, select **Untyped dataset**, and then select**OK**.  
   
@@ -211,8 +211,8 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
   
 3.  Type the following code into the `ReadXmlButton_Click` event handler:  
   
-     [!code[VbRaddataFillingAndExecuting#2](../data-tools/codesnippet/CSharp/read-xml-data-into-a-dataset_1.cs)]
-[!code[VbRaddataFillingAndExecuting#2](../data-tools/codesnippet/VisualBasic/read-xml-data-into-a-dataset_1.vb)]  
+     [!code-cs[VbRaddataFillingAndExecuting#2](../data-tools/codesnippet/CSharp/read-xml-data-into-a-dataset_1.cs)]
+     [!code-vb[VbRaddataFillingAndExecuting#2](../data-tools/codesnippet/VisualBasic/read-xml-data-into-a-dataset_1.vb)]  
   
 4.  In the `ReadXMLButton_Click` event handler code, change the `filepath =` entry to the correct path.  
   
@@ -229,8 +229,8 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
   
 3.  Type the following code into the `ShowSchemaButton_Click` event handler.  
   
-     [!code[VbRaddataFillingAndExecuting#3](../data-tools/codesnippet/CSharp/read-xml-data-into-a-dataset_2.cs)]
-[!code[VbRaddataFillingAndExecuting#3](../data-tools/codesnippet/VisualBasic/read-xml-data-into-a-dataset_2.vb)]  
+     [!code-cs[VbRaddataFillingAndExecuting#3](../data-tools/codesnippet/CSharp/read-xml-data-into-a-dataset_2.cs)]
+     [!code-vb[VbRaddataFillingAndExecuting#3](../data-tools/codesnippet/VisualBasic/read-xml-data-into-a-dataset_2.vb)]  
   
 ## Test the form  
  You can now test the form to make sure it behaves as expected.  
@@ -258,4 +258,4 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
  [Data Walkthroughs](../Topic/Data%20Walkthroughs.md)   
  [Accessing data in Visual Studio](../data-tools/accessing-data-in-visual-studio.md)   
  [Preparing Your Application to Receive Data](../Topic/Preparing%20Your%20Application%20to%20Receive%20Data.md)   
- [XML Tools in Visual Studio](../reference/xml-tools-in-visual-studio.md)
+ [XML Tools in Visual Studio](../xml-tools/xml-tools-in-visual-studio.md)

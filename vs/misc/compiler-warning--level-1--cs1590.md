@@ -1,7 +1,7 @@
 ---
-title: "Compiler Warning (level 1) CS1590 | testtitle"
+title: "Compiler Warning (level 1) CS1590"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1590"
 ms.assetid: 0d6e5594-d6a6-43bf-8aa8-a452fa5748df
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

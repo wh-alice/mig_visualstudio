@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS0761 | testtitle"
+title: "Compiler Error CS0761"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS0761"
 ms.assetid: b16ac1df-0ddc-44d2-89f1-8d9c32af87ad
 caps.latest.revision: 5
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

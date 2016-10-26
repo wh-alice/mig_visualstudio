@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1613 | testtitle"
+title: "Compiler Error CS1613"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1613"
 ms.assetid: 9d7ea9c8-9953-459f-a3f0-c7e65d1b9f59
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

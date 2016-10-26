@@ -1,12 +1,12 @@
 ---
-title: "&#39;&lt;elementname&gt;&#39; is not a method parameter | testtitle"
+title: "&#39;&lt;elementname&gt;&#39; is not a method parameter"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC36568"
 ms.assetid: 3b40142f-b66f-4788-b156-cb97dfed45ee
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

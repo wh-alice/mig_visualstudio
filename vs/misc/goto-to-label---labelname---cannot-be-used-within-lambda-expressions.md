@@ -1,12 +1,12 @@
 ---
-title: "GoTo to label &#39;&lt;labelname&gt;&#39; cannot be used within lambda expressions | testtitle"
+title: "GoTo to label &#39;&lt;labelname&gt;&#39; cannot be used within lambda expressions"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC36597"
 ms.assetid: 83e11202-a889-45c8-9159-d22b99679c0c
 caps.latest.revision: 5
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

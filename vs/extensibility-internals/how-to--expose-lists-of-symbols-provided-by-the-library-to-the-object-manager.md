@@ -1,7 +1,7 @@
 ---
-title: "How to: Expose Lists of Symbols Provided by the Library to the Object Manager | testtitle"
+title: "How to: Expose Lists of Symbols Provided by the Library to the Object Manager"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

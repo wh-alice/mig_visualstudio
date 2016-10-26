@@ -1,5 +1,5 @@
 ---
-title: "How to: Find the Name of the ASP.NET Process | testtitle"
+title: "How to: Find the Name of the ASP.NET Process"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"

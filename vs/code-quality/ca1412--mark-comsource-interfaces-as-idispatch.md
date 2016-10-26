@@ -1,5 +1,5 @@
 ---
-title: "CA1412: Mark ComSource Interfaces as IDispatch | testtitle"
+title: "CA1412: Mark ComSource Interfaces as IDispatch"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -58,8 +58,8 @@ translation.priority.mt:
 ## Example  
  The following example shows a class where one of the interfaces violates the rule.  
   
- [!code[FxCop.Interoperability.MarkIDispatch#1](../code-quality/codesnippet/CSharp/ca1412--mark-comsource-interfaces-as-idispatch_1.cs)]
-[!code[FxCop.Interoperability.MarkIDispatch#1](../code-quality/codesnippet/VisualBasic/ca1412--mark-comsource-interfaces-as-idispatch_1.vb)]  
+ [!code-cs[FxCop.Interoperability.MarkIDispatch#1](../code-quality/codesnippet/CSharp/ca1412--mark-comsource-interfaces-as-idispatch_1.cs)]
+ [!code-vb[FxCop.Interoperability.MarkIDispatch#1](../code-quality/codesnippet/VisualBasic/ca1412--mark-comsource-interfaces-as-idispatch_1.vb)]  
   
 ## Related Rules  
  [CA1408: Do not use AutoDual ClassInterfaceType](../code-quality/ca1408--do-not-use-autodual-classinterfacetype.md)  

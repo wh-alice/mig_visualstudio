@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating a Multiple-Computer Build Environment | testtitle"
+title: "Walkthrough: Creating a Multiple-Computer Build Environment"
 ms.custom: ""
 ms.date: "10/20/2016"
 ms.prod: "visual-studio-dev14"
@@ -353,7 +353,7 @@ You can create a build environment within your organization by installing Visual
   
  **msbuild** *solution.sln*  
   
- For more information about how to use MSBuild on the command line, see [Command-Line Reference](../reference/msbuild-command-line-reference.md).  
+ For more information about how to use MSBuild on the command line, see [Command-Line Reference](../msbuild/msbuild-command-line-reference.md).  
   
 > [!NOTE]
 >  To build [!INCLUDE[vs_dev11_long](../code-quality/includes/vs_dev11_long_md.md)] projects, you must use the "v110" Platform Toolset. If you don't want to edit the [!INCLUDE[vs_dev11_long](../code-quality/includes/vs_dev11_long_md.md)] project files, you can set the Platform Toolset by using this command-line argument:  
@@ -435,4 +435,4 @@ You can create a build environment within your organization by installing Visual
   
 ## See Also  
  [Preparing a Test Machine To Run a Debug Executable](../Topic/Preparing%20a%20Test%20Machine%20To%20Run%20a%20Debug%20Executable.md)   
- [Command-Line Reference](../reference/msbuild-command-line-reference.md)
+ [Command-Line Reference](../msbuild/msbuild-command-line-reference.md)

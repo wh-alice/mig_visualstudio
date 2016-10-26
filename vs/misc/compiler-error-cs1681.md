@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1681 | testtitle"
+title: "Compiler Error CS1681"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1681"
 ms.assetid: 99934e15-1db8-4b71-9da8-a681a1d47407
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

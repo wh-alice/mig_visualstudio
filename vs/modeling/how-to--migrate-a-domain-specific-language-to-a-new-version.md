@@ -1,5 +1,5 @@
 ---
-title: "How to: Migrate a Domain-Specific Language to a New Version | testtitle"
+title: "How to: Migrate a Domain-Specific Language to a New Version"
 ms.custom: ""
 ms.date: "10/21/2016"
 ms.prod: "visual-studio-tfs-dev14"

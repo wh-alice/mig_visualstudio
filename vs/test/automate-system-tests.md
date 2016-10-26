@@ -1,5 +1,5 @@
 ---
-title: "Automate system tests | testtitle"
+title: "Automate system tests"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"

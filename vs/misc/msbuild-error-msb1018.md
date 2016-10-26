@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Error MSB1018 | testtitle"
+title: "MSBuild Error MSB1018"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -43,5 +43,5 @@ translation.priority.mt:
 1.  Check the spelling of the verbosity level. The available verbosity levels are: q[uiet], m[inimal], n[ormal], d[etailed], and diag[nostic], for example, `/verbosity:quiet`, `/verbosity:q`, or `/v:q`  
   
 ## See Also  
- [Command-Line Reference](../reference/msbuild-command-line-reference.md)   
- [Build Loggers](../reference/build-loggers.md)
+ [Command-Line Reference](../msbuild/msbuild-command-line-reference.md)   
+ [Build Loggers](../msbuild/build-loggers.md)

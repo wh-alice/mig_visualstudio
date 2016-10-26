@@ -1,7 +1,7 @@
 ---
-title: "Compiler Error CS1935 | testtitle"
+title: "Compiler Error CS1935"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CS1935"
 ms.assetid: d5dda801-fbf3-4340-bfe1-f9409f2d344d
 caps.latest.revision: 7
-ms.author: "billchi"
-manager: "douge"
+ms.author: "wiwagn"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

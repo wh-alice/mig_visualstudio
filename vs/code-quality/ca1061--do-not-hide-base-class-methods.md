@@ -1,5 +1,5 @@
 ---
-title: "CA1061: Do not hide base class methods | testtitle"
+title: "CA1061: Do not hide base class methods"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -57,4 +57,4 @@ translation.priority.ht:
 ## Example  
  The following example shows a method that violates the rule.  
   
- [!code[FxCop.Design.HideBaseMethod#1](../code-quality/codesnippet/CSharp/ca1061--do-not-hide-base-class-methods_1.cs)]
+ [!code-cs[FxCop.Design.HideBaseMethod#1](../code-quality/codesnippet/CSharp/ca1061--do-not-hide-base-class-methods_1.cs)]

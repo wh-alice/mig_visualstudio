@@ -1,12 +1,12 @@
 ---
-title: "&#39;End SyncLock&#39; must be preceded by a matching &#39;SyncLock&#39; | testtitle"
+title: "&#39;End SyncLock&#39; must be preceded by a matching &#39;SyncLock&#39;"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "BC30674"
 ms.assetid: 2d473b0b-ca9e-43b5-9bcb-b00766bc90a4
 caps.latest.revision: 8
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

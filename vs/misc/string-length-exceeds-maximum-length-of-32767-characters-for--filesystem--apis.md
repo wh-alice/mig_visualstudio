@@ -1,20 +1,20 @@
 ---
-title: "String length exceeds maximum length of 32767 characters for &#39;FileSystem&#39; APIs | testtitle"
+title: "String length exceeds maximum length of 32767 characters for &#39;FileSystem&#39; APIs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
   - "vbrFileIO_StringLengthExceeded"
 ms.assetid: 4044ae87-9984-400c-b247-20f9c1b1a0c0
 caps.latest.revision: 6
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,12 +1,12 @@
 ---
-title: "Sorry, we don&#39;t have specifics on this Visual Basic error | testtitle"
+title: "Sorry, we don&#39;t have specifics on this Visual Basic error"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -3055,8 +3055,8 @@ dev_langs:
   - "VB"
 ms.assetid: 0938efc2-e205-450b-9314-99951fcbd702
 caps.latest.revision: 21
-ms.author: "billchi"
-manager: "douge"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

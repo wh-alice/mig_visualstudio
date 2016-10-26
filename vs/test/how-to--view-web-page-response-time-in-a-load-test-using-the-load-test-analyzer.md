@@ -1,5 +1,5 @@
 ---
-title: "How to: View Web Page Response Time in a Load Test Using the Load Test Analyzer | testtitle"
+title: "How to: View Web Page Response Time in a Load Test Using the Load Test Analyzer"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-tfs-dev14"
