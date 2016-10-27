@@ -62,4 +62,4 @@ Drop-down bar
   
 ## See Also  
  [Customizing Code Windows by Using the Legacy API](../extensibility/customizing-code-windows-by-using-the-legacy-api.md)   
- [Support for the Navigation Bar in a Legacy Language Service](../extensibility-internals/support-for-the-navigation-bar-in-a-legacy-language-service.md)
+ [Support for the Navigation Bar in a Legacy Language Service](../extensibility/internals/support-for-the-navigation-bar-in-a-legacy-language-service.md)

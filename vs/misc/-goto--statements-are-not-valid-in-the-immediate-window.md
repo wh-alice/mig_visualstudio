@@ -44,4 +44,4 @@ The `GoTo` statement performs branching and is not permitted in a debugging cont
 -   Do not issue a `GoTo` statement in the **Immediate** window.  
   
 ## See Also  
- [Immediate Window](../ide-reference/immediate-window.md)
+ [Immediate Window](../ide/reference/immediate-window.md)

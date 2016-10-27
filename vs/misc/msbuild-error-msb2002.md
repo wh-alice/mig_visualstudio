@@ -41,4 +41,4 @@ translation.priority.ht:
   
 ## See Also  
  [Command-Line Reference](../msbuild/msbuild-command-line-reference.md)   
- [Devenv Command Line Switches](../ide-reference/devenv-command-line-switches.md)
+ [Devenv Command Line Switches](../ide/reference/devenv-command-line-switches.md)

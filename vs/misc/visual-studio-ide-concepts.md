@@ -54,5 +54,5 @@ The topics in this section describe the overall structure of [!INCLUDE[vsprvs](.
  Compares the different ways to write a VSPackage in managed code.  
   
 ## Related Sections  
- [VSSDK Utilities](../extensibility-internals/vssdk-utilities.md)  
+ [VSSDK Utilities](../extensibility/internals/vssdk-utilities.md)  
  Describes [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and its IDE, and introduces strategies and techniques for extending the IDE.

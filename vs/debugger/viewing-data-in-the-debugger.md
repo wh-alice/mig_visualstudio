@@ -54,5 +54,5 @@ The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger provides 
   
 ## See Also  
  [Debugger Basics](../debugger/debugger-basics.md)   
- [Command Window](../ide-reference/command-window.md)   
+ [Command Window](../ide/reference/command-window.md)   
  [Debugger Security](../debugger/debugger-security.md)

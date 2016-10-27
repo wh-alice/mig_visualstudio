@@ -32,4 +32,4 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # How to: Use UI Control Actions and Properties in Your Coded UI Tests
-The content of this topic has been consolidated with the parent page. See [Coding UI control actions and properties](../code-quality/use-ui-automation-to-test-your-code.md#actions).
+The content of this topic has been consolidated with the parent page. See [Coding UI control actions and properties](../test/use-ui-automation-to-test-your-code.md#actions).

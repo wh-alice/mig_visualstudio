@@ -35,7 +35,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Debug HTML, CSS, and JavaScript sample code
-![Applies to Windows and Windows Phone](../code-quality/media/windows_and_phone_content.png "windows_and_phone_content")  
+![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  
   
  The code in this topic is the sample file for [Quickstart: Debug HTML and CSS](../debugger/quickstart--debug-html-and-css.md). The errors present by design in the QuickStart are fixed in this version of the code.  
   

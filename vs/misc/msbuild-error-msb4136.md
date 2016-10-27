@@ -34,7 +34,7 @@ translation.priority.mt:
 # MSBuild Error MSB4136
 **MSB4136: Error reading the configuration information.**  
   
- [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] received an error when it tried to read the Toolset information in the [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] configuration file (msbuild.exe.config).  
+ [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] received an error when it tried to read the Toolset information in the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] configuration file (msbuild.exe.config).  
   
 ### To correct this error  
   

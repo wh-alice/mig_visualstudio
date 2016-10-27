@@ -56,5 +56,5 @@ You can use menu commands or keyboard shortcuts to convert the case of selected 
   
 ## See Also  
  [Customizing the Editor](../ide/customizing-the-editor.md)   
- [Text Editor Options Dialog Box](../ide-reference/text-editor-options-dialog-box.md)   
+ [Text Editor Options Dialog Box](../ide/reference/text-editor-options-dialog-box.md)   
  [Writing Code](../ide/writing-code-in-the-code-and-text-editor.md)

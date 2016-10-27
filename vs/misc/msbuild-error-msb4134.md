@@ -34,7 +34,7 @@ translation.priority.mt:
 # MSBuild Error MSB4134
 **MSB4134: DefaultToolsVersion cannot be set after a project has been loaded into the Engine.**  
   
- This error occurs when an attempt to change the value of `DefaultToolsVersion` is made after [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] already has built a project.  
+ This error occurs when an attempt to change the value of `DefaultToolsVersion` is made after [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] already has built a project.  
   
 ### To correct this error  
   

@@ -57,7 +57,7 @@ There are three main ways to change the set of activities that are displayed in 
 2.  After you have applied an expand all or collapse all state, you can click the **Restore** button that appears to go back to looking at the state previously applied to each activity.  
   
     > [!WARNING]
-    >  If an activity, such as <xref:System.Activities.Statements.Flowchart>, has opted out of expand in place, the functionality associated with the **Expand All** and **Collapse All** buttons is disabled on the **Flowchart** designer. [!INCLUDE[crabout](../code-quality/includes/crabout_md.md)] the **Flowchart** designer, see the [Flowchart](../workflow-designer/flowchart-activity-designer.md) topic.  
+    >  If an activity, such as <xref:System.Activities.Statements.Flowchart>, has opted out of expand in place, the functionality associated with the **Expand All** and **Collapse All** buttons is disabled on the **Flowchart** designer. [!INCLUDE[crabout](../test/includes/crabout_md.md)] the **Flowchart** designer, see the [Flowchart](../workflow-designer/flowchart-activity-designer.md) topic.  
   
     > [!WARNING]
     >  Expand all also has a special effect in **Switch** and **TryCatch** activity designers. When you click **Expand All**, all of the switch cases and all of the try/catch/finally blocks are displayed. Clicking **Restore** or **Collapse All** returns these designers to their default state, from which you can click an individual case/block to view its contents.

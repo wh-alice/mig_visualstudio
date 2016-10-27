@@ -42,5 +42,5 @@ translation.priority.ht:
 -   Check whether the project file has been modified or corrupted. If it has been modified or corrupted, open the project in the version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] in which it was created, save it, and then attempt to convert it again.  
   
 ## See Also  
- [Devenv Command Line Switches](../ide-reference/devenv-command-line-switches.md)   
+ [Devenv Command Line Switches](../ide/reference/devenv-command-line-switches.md)   
  [Command-Line Reference](../msbuild/msbuild-command-line-reference.md)

@@ -61,4 +61,4 @@ There are two ways to keep the **Properties** window in sync with property value
   
 ## See Also  
  [Announcing Property Window Selection Tracking](../misc/announcing-property-window-selection-tracking.md)   
- [Extending Properties](../extensibility-internals/extending-properties.md)
+ [Extending Properties](../extensibility/internals/extending-properties.md)

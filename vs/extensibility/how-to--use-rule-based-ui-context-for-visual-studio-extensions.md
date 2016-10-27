@@ -1,7 +1,7 @@
 ---
 title: "How to: Use Rule-based UI Context for Visual Studio Extensions"
 ms.custom: ""
-ms.date: "10/24/2016"
+ms.date: "10/26/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

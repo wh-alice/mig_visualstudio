@@ -50,4 +50,4 @@ You can specify which types of debugging information appear in the **Output** wi
   
 ## See Also  
  [Debugging, Options Dialog Box](../debugger/debugging--options-dialog-box.md)   
- [Output Window](../ide-reference/output-window.md)
+ [Output Window](../ide/reference/output-window.md)

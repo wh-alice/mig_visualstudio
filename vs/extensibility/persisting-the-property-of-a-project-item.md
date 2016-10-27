@@ -148,4 +148,4 @@ You may want to persist a property you add to a project item, such as the author
     ```  
   
 ## See Also  
- [Custom Tools](../extensibility-internals/custom-tools.md)
+ [Custom Tools](../extensibility/internals/custom-tools.md)

@@ -30,4 +30,4 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # How to: Generate a Coded UI Test by Recording the Application Under Development
-The content of this topic has been consolidated with the parent page. See [Creating Coded UI Tests](../code-quality/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITCreate).
+The content of this topic has been consolidated with the parent page. See [Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITCreate).

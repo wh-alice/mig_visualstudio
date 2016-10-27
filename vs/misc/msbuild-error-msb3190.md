@@ -47,7 +47,7 @@ translation.priority.mt:
   
 -   Generate an external UAC manifest (app.manifest) that specifies that the application run as the current user (`asInvoker`).  
   
-     In Visual C# projects, go to the **Application** page of the Project Designer and click **Properties\app.manifest** in the **Manifest** list. For more information, see [Application Page, Project Designer (C#)](../ide-reference/application-page--project-designer--csharp-.md).  
+     In Visual C# projects, go to the **Application** page of the Project Designer and click **Properties\app.manifest** in the **Manifest** list. For more information, see [Application Page, Project Designer (C#)](../ide/reference/application-page--project-designer--csharp-.md).  
   
      In Visual Basic projects, go to the **Application** page of the Project Designer and click the **View UAC Settings** button. This opens app.manifest for editing. Edit the following tag in the manifest to read as follows:  
   
@@ -55,11 +55,11 @@ translation.priority.mt:
     <requestedExecutionLevel level="asInvoker" />  
     ```  
   
-     For more information, see [Application Page, Project Designer (Visual Basic)](../ide-reference/application-page--project-designer--visual-basic-.md).  
+     For more information, see [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page--project-designer--visual-basic-.md).  
   
 -   For more information about how to generate a UAC manifest and specify the execution level, see [ClickOnce Deployment on Windows Vista](../deployment/clickonce-deployment-on-windows-vista.md).  
   
 ## See Also  
- [Application Page, Project Designer (C#)](../ide-reference/application-page--project-designer--csharp-.md)   
- [Application Page, Project Designer (Visual Basic)](../ide-reference/application-page--project-designer--visual-basic-.md)   
+ [Application Page, Project Designer (C#)](../ide/reference/application-page--project-designer--csharp-.md)   
+ [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page--project-designer--visual-basic-.md)   
  [ClickOnce Deployment on Windows Vista](../deployment/clickonce-deployment-on-windows-vista.md)

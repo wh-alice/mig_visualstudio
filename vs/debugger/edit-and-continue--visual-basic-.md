@@ -58,7 +58,7 @@ Edit and Continue is a feature for [!INCLUDE[vbprvb](../code-quality/includes/vb
  Explains how to apply code edits in Break mode.  
   
  [Unsupported Edits in Visual Basic Edit and Continue](../debugger/unsupported-edits-in-visual-basic-edit-and-continue.md)  
- Describes what types of edits cannot be performed in [!INCLUDE[vb_current_short](../code-quality/includes/vb_current_short_md.md)] Edit and Continue.  
+ Describes what types of edits cannot be performed in [!INCLUDE[vb_current_short](../debugger/includes/vb_current_short_md.md)] Edit and Continue.  
   
 ## Related Sections  
  [Edit and Continue](../debugger/edit-and-continue.md)  

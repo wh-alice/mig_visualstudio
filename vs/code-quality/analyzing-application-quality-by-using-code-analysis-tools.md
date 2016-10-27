@@ -64,5 +64,5 @@ translation.priority.ht:
  [Measuring Complexity and Maintainability of Managed Code](../code-quality/measuring-complexity-and-maintainability-of-managed-code.md)  
  Insert description here.  
   
- [Unit Test Your Code](../code-quality/unit-test-your-code.md)  
+ [Unit Test Your Code](../test/unit-test-your-code.md)  
  Insert description here.

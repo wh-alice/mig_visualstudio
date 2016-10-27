@@ -67,7 +67,7 @@ To access the **Just-In-Time** page, go to the **Tools** menu and click **Option
   
  **Just-In-Time debugging registration errors detected. To repair, enable Just-In-Time debugging or run Visual Studio repair.**  
   
- If you see either of these warnings, Just-In-Time debugging with [!INCLUDE[vs_dev11_long](../code-quality/includes/vs_dev11_long_md.md)] requires Administrator privileges until you have fixed the problem. If you try to enable just-as a non-administrator under these conditions, you will see the following error message:  
+ If you see either of these warnings, Just-In-Time debugging with [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)] requires Administrator privileges until you have fixed the problem. If you try to enable just-as a non-administrator under these conditions, you will see the following error message:  
   
  **Access is denied. Have an administrator enable Just-In-Time debugging, or repair your installation of Visual Studio.**  
   

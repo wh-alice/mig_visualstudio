@@ -35,7 +35,7 @@ translation.priority.mt:
 You use attributes to register a VSPackage, but  
   
 ## Registering a VSPackage  
- You can use attributes to control the registration of managed VSPackages. All registration information is contained in a .pkgdef file. For more information on file-based registration, see [CreatePkgDef Utility](../extensibility-internals/createpkgdef-utility.md).  
+ You can use attributes to control the registration of managed VSPackages. All registration information is contained in a .pkgdef file. For more information on file-based registration, see [CreatePkgDef Utility](../extensibility/internals/createpkgdef-utility.md).  
   
  The following code shows how to use the standard registration attributes to register your VSPackage.  
   
@@ -62,4 +62,4 @@ public sealed class BasicPackage : Package
 ```  
   
 ## See Also  
- [VSPackages](../extensibility-internals/vspackages.md)
+ [VSPackages](../extensibility/internals/vspackages.md)

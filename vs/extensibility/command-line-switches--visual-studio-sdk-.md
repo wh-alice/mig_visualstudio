@@ -43,5 +43,5 @@ Devenv.exe, the executable that starts the [!INCLUDE[vsprvs](../code-quality/inc
  Describes how to implement, look for, and read user-entered command-line switches for your package.  
   
 ## Related Sections  
- [Devenv Command Line Switches](../ide-reference/devenv-command-line-switches.md)  
+ [Devenv Command Line Switches](../ide/reference/devenv-command-line-switches.md)  
  Explains how Devenv lets you set various options for the IDE, and how you can compile, build, and debug projects from the command line. Additionally, there is information about the syntax of Devenv switches and a table of switches.

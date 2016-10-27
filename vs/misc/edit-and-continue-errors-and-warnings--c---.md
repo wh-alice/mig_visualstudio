@@ -59,9 +59,9 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Edit and Continue Errors and Warnings (C++)
-[!INCLUDE[cpp_current_short](../code-quality/includes/cpp_current_short_md.md)] Edit and Continue lets you stop program execution in Break mode, make changes to the executing code, and then resume program execution with the newly incorporated changes.  
+[!INCLUDE[cpp_current_short](../misc/includes/cpp_current_short_md.md)] Edit and Continue lets you stop program execution in Break mode, make changes to the executing code, and then resume program execution with the newly incorporated changes.  
   
- Declarative code edits that affect the public structure of a class are generally prohibited, and some edits that you might make to a method, property body, or private declarations within a class are not allowed. Whenever possible, Edit and Continue marks code that cannot be edited as light gray and displays an error message. For more information about unsupported edits in Edit and Continue for [!INCLUDE[cpp_current_short](../code-quality/includes/cpp_current_short_md.md)], see [Edit and Continue (Visual C++)](../debugger/edit-and-continue--visual-c---.md).  
+ Declarative code edits that affect the public structure of a class are generally prohibited, and some edits that you might make to a method, property body, or private declarations within a class are not allowed. Whenever possible, Edit and Continue marks code that cannot be edited as light gray and displays an error message. For more information about unsupported edits in Edit and Continue for [!INCLUDE[cpp_current_short](../misc/includes/cpp_current_short_md.md)], see [Edit and Continue (Visual C++)](../debugger/edit-and-continue--visual-c---.md).  
   
  Edit and Continue errors and warnings can be resolved in one of the following ways:  
   
@@ -70,7 +70,7 @@ translation.priority.ht:
 |Stop debugging, reapply your changes, and then resume debugging.|1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1010, 1013, 2003, 2005 For a list of the error and warning messages in this category, see [Restart Debugging Messages](../misc/edit-and-continue-errors-and-warnings--c---.md#BKMK_RestartDebuggingMessages).|  
 |On the **Edit** menu, choose **Undo** and then continue debugging with the unchanged code.<br /><br /> -Or-<br /><br /> Stop debugging, reapply your changes, and then resume debugging.|1009, 1011 For a list of the error and warning messages in this category, see [Undo or Stop Messages](../misc/edit-and-continue-errors-and-warnings--c---.md#BKMK_UndoOrStopMessages).|  
 |Continue debugging. Your changes will be ignored the first time the code is hit, but will be applied in subsequent calls.|2001, 2002, 2004. For a list of the error and warning messages in this category, see [Apply at Next Call Messages](../misc/edit-and-continue-errors-and-warnings--c---.md#BKMK_ApplyAtNextCallMessages).|  
-|Perform some other action, such as resetting breakpoints or rebuilding modules with the current version of [!INCLUDE[cpp_current_short](../code-quality/includes/cpp_current_short_md.md)].|2007, 2008. For a list of the error and warning messages in this category, see [Other Action Required Messages](../misc/edit-and-continue-errors-and-warnings--c---.md#BKMK_OtherActionRequiredMessages)|  
+|Perform some other action, such as resetting breakpoints or rebuilding modules with the current version of [!INCLUDE[cpp_current_short](../misc/includes/cpp_current_short_md.md)].|2007, 2008. For a list of the error and warning messages in this category, see [Other Action Required Messages](../misc/edit-and-continue-errors-and-warnings--c---.md#BKMK_OtherActionRequiredMessages)|  
   
 ##  <a name="BKMK_RestartDebuggingMessages"></a> Restart Debugging Messages  
  The following error messages must be resolved by stopping the current debugging session, reapplying the edits you made, and then restarting the debugging session.  

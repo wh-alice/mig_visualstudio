@@ -100,4 +100,4 @@ The Source Control Plug-in API provides the following functions, which must be i
   
 ## See Also  
  [Source Control Plug-ins](../extensibility/source-control-plug-ins.md)   
- [Creating a Source Control Plug-in](../extensibility-internals/creating-a-source-control-plug-in.md)
+ [Creating a Source Control Plug-in](../extensibility/internals/creating-a-source-control-plug-in.md)

@@ -134,4 +134,4 @@ The **Parallel Stacks** window is useful when you are debugging multithreaded ap
  [Parallel Programming](../Topic/Parallel%20Programming%20in%20the%20.NET%20Framework.md)   
  [Using the Tasks Window](../debugger/using-the-tasks-window.md)   
  [Walkthrough: Debugging a Parallel Application](../debugger/walkthrough--debugging-a-parallel-application.md)   
- [Task Class](../extensibility-debugger/task-class---internal-members.md)
+ [Task Class](../extensibility/debugger/task-class---internal-members.md)

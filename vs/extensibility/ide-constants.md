@@ -129,4 +129,4 @@ The <xref:Microsoft.VisualStudio.VSConstants> class provides constants that are 
 |<xref:Microsoft.VisualStudio.VSConstants.CPPM_SETMULTISELECT>|WM_USER + 1289|  
   
 ## See Also  
- [IDE-Defined Commands for Extending Project Systems](../extensibility-internals/ide-defined-commands-for-extending-project-systems.md)
+ [IDE-Defined Commands for Extending Project Systems](../extensibility/internals/ide-defined-commands-for-extending-project-systems.md)

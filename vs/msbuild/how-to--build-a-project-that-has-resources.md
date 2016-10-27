@@ -37,7 +37,7 @@ translation.priority.ht:
 If you are building localized versions of a project, all user interface elements must be separated into resource files for the different languages. If the project uses only strings, the resource files can use text files. Alternatively, you can use .resx files as the resource files.  
   
 ## Compiling Resources with MSBuild  
- The library of common tasks that is provided with [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] includes a `GenerateResource` task that you can use to compile resources in either .resx or text files. This task includes the `Sources` parameter to specify which resource files to compile and the `OutputResources` parameter to specify names for the output resource files. For more information on the `GenerateResource` task, see [GenerateResource Task](../msbuild/generateresource-task.md).  
+ The library of common tasks that is provided with [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] includes a `GenerateResource` task that you can use to compile resources in either .resx or text files. This task includes the `Sources` parameter to specify which resource files to compile and the `OutputResources` parameter to specify names for the output resource files. For more information on the `GenerateResource` task, see [GenerateResource Task](../msbuild/generateresource-task.md).  
   
 #### To compile resources with MSBuild  
   

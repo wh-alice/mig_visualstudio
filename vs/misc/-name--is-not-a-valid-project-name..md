@@ -44,4 +44,4 @@ This error generally occurs when the `File.NewProject` command is issued from th
      Re-type the command, omitting the project name.  
   
 ## See Also  
- [Command Window](../ide-reference/command-window.md)
+ [Command Window](../ide/reference/command-window.md)

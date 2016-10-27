@@ -125,7 +125,7 @@ In many application scenarios, you want to work with data that comes from more t
      A <xref:System.Windows.Forms.DataGridView> is added to the form, and a new <xref:System.Windows.Forms.BindingSource> (`OrdersBindingSource`) and TableAdapter (`OrdersTableAdapter`) are added to the component tray.  
   
     > [!NOTE]
-    >  Open the [Properties Window](../ide-reference/properties-window.md) and select the **OrdersBindingSource**. Inspect the <xref:System.Windows.Forms.BindingSource.DataSource*> and <xref:System.Windows.Forms.BindingSource.DataMember*> properties to see how binding is configured to display related records. The <xref:System.Windows.Forms.BindingSource.DataSource*> is set to the `CustomersBindingSource` (the parent table's <xref:System.Windows.Forms.BindingSource>), rather than the `Orders` table. The <xref:System.Windows.Forms.BindingSource.DataMember*> property is set to `FK_Orders_Customers`, which is the name of the <xref:System.Data.DataRelation> object that relates the tables together.  
+    >  Open the [Properties Window](../ide/reference/properties-window.md) and select the **OrdersBindingSource**. Inspect the <xref:System.Windows.Forms.BindingSource.DataSource*> and <xref:System.Windows.Forms.BindingSource.DataMember*> properties to see how binding is configured to display related records. The <xref:System.Windows.Forms.BindingSource.DataSource*> is set to the `CustomersBindingSource` (the parent table's <xref:System.Windows.Forms.BindingSource>), rather than the `Orders` table. The <xref:System.Windows.Forms.BindingSource.DataMember*> property is set to `FK_Orders_Customers`, which is the name of the <xref:System.Data.DataRelation> object that relates the tables together.  
   
 ## Testing the Application  
   

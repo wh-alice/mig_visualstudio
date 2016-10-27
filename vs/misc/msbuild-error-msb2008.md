@@ -36,7 +36,7 @@ translation.priority.mt:
 # MSBuild Error MSB2008
 **The Visual Studio project system cannot convert "{0}" projects. It can only be used to convert C# and VB client projects.**  
   
- Only valid [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] and [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] projects can be converted using [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)].  
+ Only valid [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] and [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] projects can be converted using [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)].  
   
 ### To correct this error  
   

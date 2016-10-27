@@ -74,4 +74,4 @@ VSPackages can write messages to the activity log. This feature is especially us
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsActivityLog>   
  <xref:Microsoft.VisualStudio.Shell.Interop.__ACTIVITYLOG_ENTRYTYPE>   
  [Troubleshooting VSPackages](../extensibility/troubleshooting-vspackages.md)   
- [VSPackages](../extensibility-internals/vspackages.md)
+ [VSPackages](../extensibility/internals/vspackages.md)

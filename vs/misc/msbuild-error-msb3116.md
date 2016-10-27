@@ -45,4 +45,4 @@ translation.priority.mt:
 ## See Also  
  <xref:Microsoft.Build.Tasks.Deployment.ManifestUtilities.ApplicationManifest.HostInBrowser*>   
  <xref:Microsoft.Build.Tasks.Deployment.ManifestUtilities.DeployManifest.Install*>   
- [Publish Page, Project Designer](../ide-reference/publish-page--project-designer.md)
+ [Publish Page, Project Designer](../ide/reference/publish-page--project-designer.md)

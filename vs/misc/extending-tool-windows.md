@@ -55,5 +55,5 @@ Visual Studio tool windows are, in general, read-only windows that are not file-
   
 ## See Also  
  [Tool Windows](../misc/extending-tool-windows.md)   
- [Document Windows](../extensibility-internals/document-windows.md)   
+ [Document Windows](../extensibility/internals/document-windows.md)   
  [Adding Search to a Tool Window](../extensibility/adding-search-to-a-tool-window.md)

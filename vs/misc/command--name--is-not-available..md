@@ -44,4 +44,4 @@ This error generally occurs when a command is entered in the **Command** window 
      Make a different selection for the command to operate on.  
   
 ## See Also  
- [Command Window](../ide-reference/command-window.md)
+ [Command Window](../ide/reference/command-window.md)

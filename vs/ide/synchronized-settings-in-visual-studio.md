@@ -54,7 +54,7 @@ When you use the same personalization account to sign in to Visual Studio on mul
   
 -   All settings on the XAML Designer options pages  
   
--   User-defined command aliases. For more information about how to define command aliases, see [Visual Studio Command Aliases](../ide-reference/visual-studio-command-aliases.md).  
+-   User-defined command aliases. For more information about how to define command aliases, see [Visual Studio Command Aliases](../ide/reference/visual-studio-command-aliases.md).  
   
 -   User-defined window layouts in **Window &#124; Manage Window Layouts** page  
   

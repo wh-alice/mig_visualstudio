@@ -232,7 +232,7 @@ IntelliSense helps you write code faster and with fewer errors by providing info
 ####  <a name="ReferenceGroups"></a> Reference Groups  
  You can use predefined reference groups to specify that particular IntelliSense .js files are in scope for different JavaScript projects. The following reference group types are available:  
   
--   Implicit (Windows), for [!INCLUDE[win8_appname_long](../code-quality/includes/win8_appname_long_md.md)] apps using JavaScript. Files included in this group are in scope for every .js file opened in the Code Editor for the project of the specified type.  
+-   Implicit (Windows), for [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps using JavaScript. Files included in this group are in scope for every .js file opened in the Code Editor for the project of the specified type.  
   
 -   Implicit (Web), for HTML5 projects. Files included in this group are in scope for every .js file opened in the Code Editor for these project types.  
   
@@ -240,7 +240,7 @@ IntelliSense helps you write code faster and with fewer errors by providing info
   
 -   Generic, for other JavaScript project types.  
   
- In most scenarios, you don't have to modify reference groups. However, if you want to make changes, you can use configuration options for the JavaScript Code Editor to specify the files included in the reference groups. For instructions about using this feature, see [Options, Text Editor, JavaScript, IntelliSense](../ide-reference/options--text-editor--javascript--intellisense.md).  
+ In most scenarios, you don't have to modify reference groups. However, if you want to make changes, you can use configuration options for the JavaScript Code Editor to specify the files included in the reference groups. For instructions about using this feature, see [Options, Text Editor, JavaScript, IntelliSense](../ide/reference/options--text-editor--javascript--intellisense.md).  
   
 > [!TIP]
 >  The IntelliSense references are typically used to provide IntelliSense support for global objects and for IntelliSense [extensions](#Extensibility). You can also use this feature for scripts that must be loaded at runtime using the script loader.  
@@ -251,7 +251,7 @@ IntelliSense helps you write code faster and with fewer errors by providing info
 > [!NOTE]
 >  Except for Web projects, this feature works only for JavaScript files that are opened outside the context of a project. For Web projects, remote files referenced in your project are downloaded by default.  
   
- For instructions about using this feature, see [Options, Text Editor, JavaScript, IntelliSense](../ide-reference/options--text-editor--javascript--intellisense.md).  
+ For instructions about using this feature, see [Options, Text Editor, JavaScript, IntelliSense](../ide/reference/options--text-editor--javascript--intellisense.md).  
   
 > [!WARNING]
 >  If you enable this feature and you observe slower performance in the Code Editor, we recommend that you disable it.  

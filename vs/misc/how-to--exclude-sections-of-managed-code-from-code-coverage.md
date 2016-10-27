@@ -33,4 +33,4 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # How to: Exclude sections of managed code from code coverage
-The material in this group of topics has been consolidated into [Using Code Coverage to Determine How Much Code is being Tested](../code-quality/using-code-coverage-to-determine-how-much-code-is-being-tested.md).
+The material in this group of topics has been consolidated into [Using Code Coverage to Determine How Much Code is being Tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md).

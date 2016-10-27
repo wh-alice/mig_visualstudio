@@ -34,11 +34,11 @@ translation.priority.mt:
 # MSBuild Error MSB4133
 **MSB4133: A default tools version "\<x.x.>" was specified, but its definition could not be found.**  
   
- [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] cannot find the Toolset that is defined in the project file as the `DefaultToolsVersion`.  
+ [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] cannot find the Toolset that is defined in the project file as the `DefaultToolsVersion`.  
   
 ### To correct this error  
   
--   Make sure that `DefaultToolsVersion` is specified correctly, and that this Toolset is defined either in the registry or in the [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] configuration file.  
+-   Make sure that `DefaultToolsVersion` is specified correctly, and that this Toolset is defined either in the registry or in the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] configuration file.  
   
 ## See Also  
  <xref:Microsoft.Build.BuildEngine.Toolset>   

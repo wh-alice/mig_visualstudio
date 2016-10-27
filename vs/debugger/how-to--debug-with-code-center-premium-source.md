@@ -37,7 +37,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Debug with Code Center Premium Source
-With the [!INCLUDE[vs_dev11_long](../code-quality/includes/vs_dev11_long_md.md)] debugger, you can debug secure shared source from Microsoft MSDN Code Center Premium.  
+With the [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)] debugger, you can debug secure shared source from Microsoft MSDN Code Center Premium.  
   
  This topic explains how to set up and debug Code Center Premium source code in Visual Studio.  
   

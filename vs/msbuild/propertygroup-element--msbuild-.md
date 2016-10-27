@@ -39,7 +39,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # PropertyGroup Element (MSBuild)
-Contains a set of user-defined [Property](../msbuild/property-element--msbuild-.md) elements. Every `Property` element used in an [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] project must be a child of a `PropertyGroup` element.  
+Contains a set of user-defined [Property](../msbuild/property-element--msbuild-.md) elements. Every `Property` element used in an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project must be a child of a `PropertyGroup` element.  
   
  \<Project>  
  \<PropertyGroup>  
@@ -72,7 +72,7 @@ Contains a set of user-defined [Property](../msbuild/property-element--msbuild-.
   
 |Element|Description|  
 |-------------|-----------------|  
-|[Project](../msbuild/project-element--msbuild-.md)|Required root element of an [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] project file.|  
+|[Project](../msbuild/project-element--msbuild-.md)|Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file.|  
   
 ## Example  
  The following code example shows how to set properties based on a condition. In this example, if the value of the `CompileConfig` property is `DEBUG`, the `Optimization`, `Obfuscate`, and `OutputPath` properties inside of the `PropertyGroup` element are set.  

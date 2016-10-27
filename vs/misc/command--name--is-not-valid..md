@@ -40,4 +40,4 @@ This error generally occurs when a command or alias of a command not recognized 
 1.  Re-enter the command name or choose a valid command name.  
   
 ## See Also  
- [Command Window](../ide-reference/command-window.md)
+ [Command Window](../ide/reference/command-window.md)

@@ -34,14 +34,14 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Extend the Visual Studio Build Process
-The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] build process is defined by a series of [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] .targets files that are imported into your project file. One of these imported files, Microsoft.Common.targets, can be extended to allow you to run custom tasks at several points in the build process. This topic explains two methods you can use to extend the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] build process:  
+The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] build process is defined by a series of [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] .targets files that are imported into your project file. One of these imported files, Microsoft.Common.targets, can be extended to allow you to run custom tasks at several points in the build process. This topic explains two methods you can use to extend the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] build process:  
   
 -   Overriding specific predefined targets defined in Microsoft.Common.targets.  
   
 -   Overriding the "DependsOn" properties defined in Microsoft.Common.targets.  
   
 ## Overriding Predefined Targets  
- The Microsoft.Common.targets file contains a set of predefined empty targets that are called before and after some of the major targets in the build process. For example, [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] calls the `BeforeBuild` target before the main `CoreBuild` target and the `AfterBuild` target after the `CoreBuild` target. By default, the empty targets in Microsoft.Common.targets do nothing, but you can override their default behavior by defining the targets you want in a project file that imports Microsoft.Common.targets. By doing this, you can use [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] tasks to give you more control over the build process.  
+ The Microsoft.Common.targets file contains a set of predefined empty targets that are called before and after some of the major targets in the build process. For example, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] calls the `BeforeBuild` target before the main `CoreBuild` target and the `AfterBuild` target after the `CoreBuild` target. By default, the empty targets in Microsoft.Common.targets do nothing, but you can override their default behavior by defining the targets you want in a project file that imports Microsoft.Common.targets. By doing this, you can use [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] tasks to give you more control over the build process.  
   
 #### To override a predefined target  
   
@@ -76,7 +76,7 @@ The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] build process is d
 |`BeforeResGen`, `AfterResGen`|Tasks inserted in one of these targets run before or after resources are generated.|  
   
 ## Overriding "DependsOn" Properties  
- Overriding predefined targets is an easy way to extend the build process, but, because [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] evaluates the definition of targets sequentially, there is no way to prevent another project that imports your project from overriding the targets you already have overridden. So, for example, the last `AfterBuild` target defined in the project file, after all other projects have been imported, will be the one that is used during the build.  
+ Overriding predefined targets is an easy way to extend the build process, but, because [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] evaluates the definition of targets sequentially, there is no way to prevent another project that imports your project from overriding the targets you already have overridden. So, for example, the last `AfterBuild` target defined in the project file, after all other projects have been imported, will be the one that is used during the build.  
   
  You can guard against unintended overrides of targets by overriding the "DependsOn" properties that are used in `DependsOnTargets` attributes throughout the Microsoft.Common.targets file. For example, the `Build` target contains a `DependsOnTargets` attribute value of `"$(BuildDependsOn)"`. Consider:  
   

@@ -40,4 +40,4 @@ The Windows List in the Window menu can only display up to twenty-four window na
 1.  Enter a number between one and twenty-four in the box.  
   
 ## See Also  
- [General, Environment, Options Dialog Box](../ide-reference/general--environment--options-dialog-box.md)
+ [General, Environment, Options Dialog Box](../ide/reference/general--environment--options-dialog-box.md)

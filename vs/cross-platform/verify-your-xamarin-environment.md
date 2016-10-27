@@ -1,13 +1,13 @@
 ---
 title: "Verify your Xamarin environment"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/27/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: fd39882e-06d1-4b39-80d2-4d07b6e4f8f5
-caps.latest.revision: 12
+caps.latest.revision: 13
 ms.author: "kraigb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -59,7 +59,7 @@ Once the installers have completed (see [Setup and install](../cross-platform/se
   
          ![Visual Studio Set as Startup project option](../cross-platform/media/crossplat-xamarin-verify-2.png "CrossPlat Xamarin Verify 2")  
   
-    -   Select an appropriate emulator based on your target Android version; if you have an Android development device attached to your machine, you will also see it listed here alongside the emulators:  
+    -   Select an appropriate emulator based on your target Android version; if you have an Android development device attached to your computer, you will also see it listed here alongside the emulators:  
   
         -   Windows 8+: select a **VS Emulator** target in Visual Studio’s debug drop-down as shown below and start the debugger by pressing **F5**. For more details, see [Introducing Visual Studio’s Emulator for Android](http://blogs.msdn.com/b/visualstudioalm/archive/2014/11/12/introducing-visual-studio-s-emulator-for-android.aspx) (Visual Studio ALM blog). If you encounter problems getting the emulator to work, see [Troubleshooting the Visual Studio Emulator for Android](../cross-platform/troubleshooting-the-visual-studio-emulator-for-android.md). You can also create new device profiles for the emulator by selecting **Tools > Visual Studio Emulator for Android...**.  
   
@@ -109,7 +109,7 @@ Once the installers have completed (see [Setup and install](../cross-platform/se
   
     5.  If you see an error saying "No installed provisioning profiles match the installed iOS signing keys, do the following:  
   
-        -   Check that your Apple Id account is added in Xcode on your Mac as described on [Adding Your Account to Xcode](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppStoreDistributionTutorial/AddingYourAccounttoXcode/AddingYourAccounttoXcode.html) (apple.com).  After adding your account, be sure to restart both Visual Studio and Xcode.  
+        -   Check that your Apple Id account is added in Xcode on your Mac as described on [Adding Your Account to Xcode](https://developer.apple.com/library/content/documentation/IDEs/Conceptual/AppStoreDistributionTutorial/AddingYourAccounttoXcode/AddingYourAccounttoXcode.html#//apple_ref/doc/uid/TP40013839-CH40-SW1) (apple.com).  After adding your account, be sure to restart both Visual Studio and Xcode.  
   
              ![CrossPlat Xamarin Verify 8](../cross-platform/media/crossplat-xamarin-verify-8.png "CrossPlat Xamarin Verify 8")  
   

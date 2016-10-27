@@ -65,7 +65,7 @@ Contains an optional list of parameters that will be present on the task that is
   
 |Element|Description|  
 |-------------|-----------------|  
-|[UsingTask](../msbuild/usingtask-element--msbuild-.md)|Provides a way to register tasks in [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)]. There may be zero or more `UsingTask` elements in a project.|  
+|[UsingTask](../msbuild/usingtask-element--msbuild-.md)|Provides a way to register tasks in [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]. There may be zero or more `UsingTask` elements in a project.|  
   
 ## Example  
  The following example shows how to use the `ParameterGroup` element.  

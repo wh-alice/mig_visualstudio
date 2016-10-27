@@ -32,10 +32,10 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # MSBuild Tasks
-A build platform needs the ability to execute any number of actions during the build process. [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] uses *tasks* to perform these actions. A task is a unit of executable code used by [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] to perform atomic build operations.  
+A build platform needs the ability to execute any number of actions during the build process. [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] uses *tasks* to perform these actions. A task is a unit of executable code used by [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] to perform atomic build operations.  
   
 ## Task Logic  
- The [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] XML project file format cannot fully execute build operations on its own, so task logic must be implemented outside of the project file.  
+ The [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] XML project file format cannot fully execute build operations on its own, so task logic must be implemented outside of the project file.  
   
  The execution logic of a task is implemented as a .NET class that implements the <xref:Microsoft.Build.Framework.ITask> interface, which is defined in the <xref:Microsoft.Build.Framework> namespace.  
   
@@ -44,11 +44,11 @@ A build platform needs the ability to execute any number of actions during the b
  You can write your own task by authoring a managed class that implements the <xref:Microsoft.Build.Framework.ITask> interface. For more information, see [Task Writing](../msbuild/task-writing.md).  
   
 ## Executing a Task from a Project File  
- Before executing a task in your project file, you must first map the type in the assembly that implements the task to the task name with the [UsingTask](../msbuild/usingtask-element--msbuild-.md) element. This lets [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] know where to look for the execution logic of your task when it finds it in your project file.  
+ Before executing a task in your project file, you must first map the type in the assembly that implements the task to the task name with the [UsingTask](../msbuild/usingtask-element--msbuild-.md) element. This lets [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] know where to look for the execution logic of your task when it finds it in your project file.  
   
- To execute a task in an [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] project file, create an element with the name of the task as a child of a `Target` element. If a task accepts parameters, these are passed as attributes of the element.  
+ To execute a task in an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file, create an element with the name of the task as a child of a `Target` element. If a task accepts parameters, these are passed as attributes of the element.  
   
- [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] item lists and properties can be used as parameters. For example, the following code calls the `MakeDir` task and sets the value of the `Directories` property of the `MakeDir` object equal to the value of the `BuildDir` property declared in the previous example.  
+ [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] item lists and properties can be used as parameters. For example, the following code calls the `MakeDir` task and sets the value of the `Directories` property of the `MakeDir` object equal to the value of the `BuildDir` property declared in the previous example.  
   
 ```  
 <Target Name="MakeBuildDirectory">  
@@ -72,10 +72,10 @@ A build platform needs the ability to execute any number of actions during the b
 ```  
   
 ## Included Tasks  
- [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] ships with many tasks such as [Copy](../msbuild/copy-task.md), which copies files, [MakeDir](../msbuild/makedir-task.md), which creates directories, and [Csc](../msbuild/csc-task.md), which compiles [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] source code files. For a complete list of available tasks and usage information, see [Task Reference](../msbuild/msbuild-task-reference.md).  
+ [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] ships with many tasks such as [Copy](../msbuild/copy-task.md), which copies files, [MakeDir](../msbuild/makedir-task.md), which creates directories, and [Csc](../msbuild/csc-task.md), which compiles [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] source code files. For a complete list of available tasks and usage information, see [Task Reference](../msbuild/msbuild-task-reference.md).  
   
 ## Overridden Tasks  
- [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] looks for tasks in several locations. The first location is in files with the extension .OverrideTasks stored in the .NET Framework directories. Tasks in these files override any other tasks with the same names, including tasks in the project file. The second location is in files with the extension .Tasks in the .NET Framework directories. If the task is not found in either of these locations, the task in the project file is used.  
+ [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] looks for tasks in several locations. The first location is in files with the extension .OverrideTasks stored in the .NET Framework directories. Tasks in these files override any other tasks with the same names, including tasks in the project file. The second location is in files with the extension .Tasks in the .NET Framework directories. If the task is not found in either of these locations, the task in the project file is used.  
   
 ## See Also  
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)   

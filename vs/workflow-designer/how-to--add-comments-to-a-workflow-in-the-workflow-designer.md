@@ -55,7 +55,7 @@ To facilitate creating larger, more complicated workflows, [!INCLUDE[net_v45](..
   
 3.  The item will show an annotation icon. Hovering over the annotation icon will display the text of the annotation.  
   
-     ![Sequence activity showing annotation](../debug-interface-access/annotation.md "Annotation")  
+     ![Sequence activity showing annotation](../debugger/debug-interface-access/annotation.md "Annotation")  
   
 ### Displaying an annotation in an activity's designer  
   

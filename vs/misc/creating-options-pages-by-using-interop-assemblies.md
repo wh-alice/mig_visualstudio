@@ -66,7 +66,7 @@ Managed VSPackages can use the COM-based interop assemblies of the [!INCLUDE[vsi
 ## See Also  
  [Extending the Visual Studio Environment](../Topic/Extending%20the%20Visual%20Studio%20Environment.md)   
  [Creating Registrar Scripts](../Topic/Creating%20Registrar%20Scripts.md)   
- [Automation Support for Options Pages](../extensibility-internals/automation-support-for-options-pages.md)   
+ [Automation Support for Options Pages](../extensibility/internals/automation-support-for-options-pages.md)   
  [Using Options Pages](../misc/using-options-pages.md)   
- [Creating Options Pages](../extensibility-internals/creating-options-pages.md)   
+ [Creating Options Pages](../extensibility/internals/creating-options-pages.md)   
  [Creating Options Pages By Using Automation](../misc/creating-options-pages-by-using-automation.md)

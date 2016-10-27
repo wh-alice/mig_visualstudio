@@ -30,13 +30,13 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Profiling ASP.NET Load Tests
-You can collect profiling data from automated [!INCLUDE[TCMext](../code-quality/includes/tcmext_md.md)] web tests that you run on ASP.NET Web sites projects. You can collect sampling and tier interaction data. For more information, see the following topics:  
+You can collect profiling data from automated [!INCLUDE[TCMext](../modeling/includes/tcmext_md.md)] web tests that you run on ASP.NET Web sites projects. You can collect sampling and tier interaction data. For more information, see the following topics:  
   
  [(NIB) How to: Run a Performance Session on a Web Application from the Web Performance Test Editor](http://msdn.microsoft.com/en-us/d14e0a27-33cc-4e4e-8792-fe03e50d51e1)  
   
- [How to: Configure ASP.NET Profiler for Load Tests Using Test Settings in Visual Studio](../test/6832fe39-04d5-4d94-8a18-3e2730bad423.md)  
+ [How to: Configure ASP.NET Profiler for Load Tests Using Test Settings in Visual Studio](../Topic/How%20to:%20Configure%20ASP.NET%20Profiler%20for%20Load%20Tests%20Using%20Test%20Settings%20in%20Visual%20Studio.md)  
   
- [Running System Tests Using Microsoft Visual Studio](../test/running-automated-tests-using-microsoft-visual-studio.md).  
+ [Running System Tests Using Microsoft Visual Studio](../Topic/Running%20Automated%20Tests%20Using%20Microsoft%20Visual%20Studio.md).  
   
 ## See Also  
  [Understanding Sampling Data Values](../profiling/understanding-sampling-data-values.md)   

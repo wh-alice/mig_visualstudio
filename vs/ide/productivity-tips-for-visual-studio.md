@@ -123,7 +123,7 @@ By following these tips, you can more quickly and efficiently write, navigate, a
   
 -   **Display only the errors you want to address**. If you choose the **Filter** button on the **Error List** toolbar, you can reduce the number of errors that appear in the **Error List** window. You can display only the errors in the files that are open in the editor, only the errors in the current file, or only the errors in the current project. You can also search within the Error List window to find specific errors.  
   
--   **Find dialog boxes, menu commands, and options**. In the [Quick Launch, Environment, Options Dialog Box](../ide-reference/quick-launch--environment--options-dialog-box.md) box, enter keywords or phrases for the items that you’re trying to find. For example, the following options appear if you enter `new project`:  
+-   **Find dialog boxes, menu commands, and options**. In the [Quick Launch, Environment, Options Dialog Box](../ide/reference/quick-launch--environment--options-dialog-box.md) box, enter keywords or phrases for the items that you’re trying to find. For example, the following options appear if you enter `new project`:  
   
      Figure 3: Quick Launch results list for `new project`  
   
@@ -150,9 +150,9 @@ By following these tips, you can more quickly and efficiently write, navigate, a
   
      To add a DataTip, the debugger must be in break mode. Place the cursor on the variable, and then choose the pin button on the DataTip that appears. When debugging is stopped, a blue pin icon appears in the source file next to the line of code that contains the variable. If you point to the blue pin, the value of the variable from the most recent debugging session appears.  
   
--   **Clear the Immediate window**. You can erase the contents of the [Immediate Window](../ide-reference/immediate-window.md) at design time by entering `>cls` or `>Edit.ClearAll`  
+-   **Clear the Immediate window**. You can erase the contents of the [Immediate Window](../ide/reference/immediate-window.md) at design time by entering `>cls` or `>Edit.ClearAll`  
   
-     For more information about additional commands, see [Visual Studio Command Aliases](../ide-reference/visual-studio-command-aliases.md).  
+     For more information about additional commands, see [Visual Studio Command Aliases](../ide/reference/visual-studio-command-aliases.md).  
   
 ##  <a name="BKMK_Managing"></a> Managing Files, Toolbars, and Windows  
  At any one time, you may be working in multiple code files and moving among several tool windows as you develop an application. You can keep organized by using the following tips.  
@@ -165,10 +165,10 @@ By following these tips, you can more quickly and efficiently write, navigate, a
   
      You can also manage files more easily by creating another instance of **Solution Explorer** and moving it to another monitor. To create another instance of **Solution Explorer**, open a shortcut menu in **Solution Explorer**, and then choose **New Solution Explorer View**.  
   
--   **Customize the fonts that appear in Visual Studio**. You can change the font face, size, and color that’s used for text in the IDE. For example, you can customize the color of specific code elements in the editor and the font face in tool windows or throughout the IDE. For more information, see [How to: Change Fonts and Colors](../ide/how-to--change-fonts-and-colors-in-visual-studio.md) and [How to: Change Fonts and Colors in the Editor](../ide-reference/how-to--change-fonts-and-colors-in-the-editor.md).  
+-   **Customize the fonts that appear in Visual Studio**. You can change the font face, size, and color that’s used for text in the IDE. For example, you can customize the color of specific code elements in the editor and the font face in tool windows or throughout the IDE. For more information, see [How to: Change Fonts and Colors](../ide/how-to--change-fonts-and-colors-in-visual-studio.md) and [How to: Change Fonts and Colors in the Editor](../ide/reference/how-to--change-fonts-and-colors-in-the-editor.md).  
   
 ## See Also  
  [Default Keyboard Shortcuts for Frequently Used Commands](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md)   
  [How to: Customize Menus and Toolbars](../ide/how-to--customize-menus-and-toolbars-in-visual-studio.md)   
  [Walkthrough: Create a Simple Application](../ide/walkthrough--create-a-simple-application-with-visual-csharp-or-visual-basic.md)   
- [Accessibility Tips and Tricks](../ide-reference/accessibility-tips-and-tricks.md)
+ [Accessibility Tips and Tricks](../ide/reference/accessibility-tips-and-tricks.md)

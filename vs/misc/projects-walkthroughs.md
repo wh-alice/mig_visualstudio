@@ -44,5 +44,5 @@ Visual Studio projects are the containers that developers use to organize source
  Shows how to build deploy and test a project type.  
   
 ## Related Sections  
- [VSSDK Utilities](../extensibility-internals/vssdk-utilities.md)  
+ [VSSDK Utilities](../extensibility/internals/vssdk-utilities.md)  
  Describes how you can customize elements of the Visual Studio integrated development environment (IDE).

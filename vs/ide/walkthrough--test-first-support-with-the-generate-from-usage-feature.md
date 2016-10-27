@@ -187,4 +187,4 @@ Test Results window
  [Generate From Usage](../misc/generate-from-usage.md)   
  [Writing Code](../ide/writing-code-in-the-code-and-text-editor.md)   
  [Using IntelliSense](../ide/using-intellisense.md)   
- [Unit Test Your Code](../code-quality/unit-test-your-code.md)
+ [Unit Test Your Code](../test/unit-test-your-code.md)

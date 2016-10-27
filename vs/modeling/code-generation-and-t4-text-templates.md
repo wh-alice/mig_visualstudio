@@ -69,7 +69,7 @@ string webResponseText = new MyTemplate().TransformText();
  For more information, see [Run-Time Text Generation with T4 Text Templates](../modeling/run-time-text-generation-with-t4-text-templates.md). For more information about the syntax of templates, see [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md).  
   
  **Design-time T4 text templates** are executed in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to define part of the source code and other resources of your application.  
- Typically you would use several templates that read the data in a single input file or database, and generate some of your `.cs`, `.vb`, or other source files. Each template generates one file. They are executed within [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] or [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)].  
+ Typically you would use several templates that read the data in a single input file or database, and generate some of your `.cs`, `.vb`, or other source files. Each template generates one file. They are executed within [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] or [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)].  
   
  For example, your input data could be an XML file of configuration data. Whenever you edit the XML file during development, the text templates would regenerate part of the application code. One of the templates could resemble the following example:  
   

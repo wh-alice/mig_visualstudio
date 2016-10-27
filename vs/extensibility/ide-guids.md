@@ -143,4 +143,4 @@ The <xref:Microsoft.VisualStudio.VSConstants> class publishes GUIDs of some part
 ## See Also  
  [COM Constants in Managed Code](../extensibility/com-constants-in-managed-code.md)   
  [IDE Constants](../extensibility/ide-constants.md)   
- [IDE-Defined Commands for Extending Project Systems](../extensibility-internals/ide-defined-commands-for-extending-project-systems.md)
+ [IDE-Defined Commands for Extending Project Systems](../extensibility/internals/ide-defined-commands-for-extending-project-systems.md)

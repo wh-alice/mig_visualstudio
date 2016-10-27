@@ -68,7 +68,7 @@ Visual Studio Environment SDK editors, including the core editor, use language s
 >  In addition to using a language service's colorizer, a VSPackage can choose to use the general-purpose Visual Studio Environment SDK text-coloring mechanism. For more information on this mechanism, see [Using Fonts and Colors](../extensibility/using-fonts-and-colors.md).  
   
 ## See Also  
- [Syntax Coloring in a Legacy Language Service](../extensibility-internals/syntax-coloring-in-a-legacy-language-service.md)   
- [Implementing Syntax Coloring](../extensibility-internals/implementing-syntax-coloring.md)   
- [How to: Use Built-In Colorable Items](../extensibility-internals/how-to--use-built-in-colorable-items.md)   
- [Custom Colorable Items](../extensibility-internals/custom-colorable-items.md)
+ [Syntax Coloring in a Legacy Language Service](../extensibility/internals/syntax-coloring-in-a-legacy-language-service.md)   
+ [Implementing Syntax Coloring](../extensibility/internals/implementing-syntax-coloring.md)   
+ [How to: Use Built-In Colorable Items](../extensibility/internals/how-to--use-built-in-colorable-items.md)   
+ [Custom Colorable Items](../extensibility/internals/custom-colorable-items.md)

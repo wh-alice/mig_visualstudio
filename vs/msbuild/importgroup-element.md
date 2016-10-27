@@ -70,7 +70,7 @@ Contains a collection of `Import` elements that are grouped under an optional co
   
 |Element|Description|  
 |-------------|-----------------|  
-|[Project](../msbuild/project-element--msbuild-.md)|Required root element of an [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] project file.|  
+|[Project](../msbuild/project-element--msbuild-.md)|Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file.|  
   
 ## Remarks  
   

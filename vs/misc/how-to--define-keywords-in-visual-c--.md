@@ -56,7 +56,7 @@ Keywords are predefined, reserved identifiers that have special meanings. They c
   
 5.  On the **Tools** menu, click **Options**. In the **Options** dialog box, click **Environment**, then click **Fonts and Colors**, and then in the **Display items:** list, click **C/C++ User Keywords**.  
   
-6.  Set the font and color properties of your user-defined keywords as described in [Fonts and Colors, Environment, Options Dialog Box](../ide-reference/fonts-and-colors--environment--options-dialog-box.md).  
+6.  Set the font and color properties of your user-defined keywords as described in [Fonts and Colors, Environment, Options Dialog Box](../ide/reference/fonts-and-colors--environment--options-dialog-box.md).  
   
  For more information, see [Keywords](../Topic/Keywords%20\(C++\).md).  
   

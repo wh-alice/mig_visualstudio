@@ -40,11 +40,11 @@ A project can be built to run on a *target framework*, which is a particular ver
   
 -   The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 3.0 (included in [!INCLUDE[wiprlhext](../debugger/includes/wiprlhext_md.md)])  
   
--   The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 3.5 (included in [!INCLUDE[vs_orcas_long](../code-quality/includes/vs_orcas_long_md.md)])  
+-   The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 3.5 (included in [!INCLUDE[vs_orcas_long](../debugger/includes/vs_orcas_long_md.md)])  
   
 -   The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 4 (included in Visual Studio 2010)  
   
--   The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 4.5 (included in [!INCLUDE[vs_dev11_long](../code-quality/includes/vs_dev11_long_md.md)])  
+-   The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 4.5 (included in [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)])  
   
 -   The [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] 4.5.1 (included in [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md)])  
   

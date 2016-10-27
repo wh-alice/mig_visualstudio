@@ -41,9 +41,9 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # QuickStart: Debug JavaScript using the console
-![Applies to Windows and Windows Phone](../code-quality/media/windows_and_phone_content.png "windows_and_phone_content")  
+![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  
   
- You can use the JavaScript Console window to interact with and debug Store apps built using JavaScript. These features are supported for [!INCLUDE[win8_appname_long](../code-quality/includes/win8_appname_long_md.md)] apps, Windows Phone Store apps, and apps created using Visual Studio Tools for Apache Cordova. For the console command reference, see [JavaScript Console commands](../debugger/javascript-console-commands.md).  
+ You can use the JavaScript Console window to interact with and debug Store apps built using JavaScript. These features are supported for [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps, Windows Phone Store apps, and apps created using Visual Studio Tools for Apache Cordova. For the console command reference, see [JavaScript Console commands](../debugger/javascript-console-commands.md).  
   
  The JavaScript Console window allows you to:  
   
@@ -280,11 +280,11 @@ translation.priority.mt:
 ##  <a name="BrowserSupport"></a> Browser and Platform Support  
  The JavaScript Console window is supported on the following platforms:  
   
--   [!INCLUDE[win8_appname_long](../code-quality/includes/win8_appname_long_md.md)] and Windows Phone Store apps using JavaScript and HTML  
+-   [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] and Windows Phone Store apps using JavaScript and HTML  
   
 -   Internet Explorer 11 running on [!INCLUDE[win81](../debugger/includes/win81_md.md)]  
   
--   Internet Explorer 10 running on [!INCLUDE[win8](../code-quality/includes/win8_md.md)]  
+-   Internet Explorer 10 running on [!INCLUDE[win8](../debugger/includes/win8_md.md)]  
   
 ## See Also  
  [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md)   

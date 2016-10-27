@@ -40,7 +40,7 @@ This error generally occurs when an incorrect value is entered for the /e:*edito
 1.  Check the documentation for the correct /e:*editorname* syntax and re-enter the command.  
   
 ## See Also  
- [New File Command](../ide-reference/new-file-command.md)   
- [Open File Command](../ide-reference/open-file-command.md)   
- [Add New Item Command](../ide-reference/add-new-item-command.md)   
- [Add Existing Item Command](../ide-reference/add-existing-item-command.md)
+ [New File Command](../ide/reference/new-file-command.md)   
+ [Open File Command](../ide/reference/open-file-command.md)   
+ [Add New Item Command](../ide/reference/add-new-item-command.md)   
+ [Add Existing Item Command](../ide/reference/add-existing-item-command.md)

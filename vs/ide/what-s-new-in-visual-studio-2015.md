@@ -153,7 +153,7 @@ Welcome to Visual Studio 2015, an integrated suite of developer productivity too
  PerfTips display the execution time of methods during debugging, enabling you to quickly spot bottlenecks without having to invoke the profiler. To get started, see [PerfTips: Performance Information at-a-glance while Debugging with Visual Studio](http://blogs.msdn.com/b/visualstudioalm/archive/2014/08/18/perftips-performance-information-at-a-glance-while-debugging-with-visual-studio.aspx)  
   
 ### Error List  
- The error list now supports filtering on any column. It also shows a live view of errors, warnings, and code analysis across your entire C# or Visual Basic solution as you type, even when a code change produces thousands of warnings. The new Error List is back-compatible with existing usage. For more information, see [Error List Window](../ide-reference/error-list-window.md).  
+ The error list now supports filtering on any column. It also shows a live view of errors, warnings, and code analysis across your entire C# or Visual Basic solution as you type, even when a code change produces thousands of warnings. The new Error List is back-compatible with existing usage. For more information, see [Error List Window](../ide/reference/error-list-window.md).  
   
 ### GPU Usage Tool  
  The GPU Usage Tool helps you collect and analyze GPU usage data in DirectX apps and games and troubleshoot whether performance bottlenecks are originating in the CPU or GPU. To get started with the tool, see the [Visual C++ team blog post](http://blogs.msdn.com/b/vcblog/archive/2014/09/05/gpu-usage-tool-in-visual-studio-2013-update-4-ctp1.aspx).  
@@ -281,7 +281,7 @@ Welcome to Visual Studio 2015, an integrated suite of developer productivity too
  [Build cross-platform apps with Apache Cordova](../Topic/Build%20cross-platform%20apps%20with%20Visual%20Studio%20Tools%20for%20Apache%20Cordova.md)   
  [Build apps with native UI using Xamarin in Visual Studio](../cross-platform/build-apps-with-native-ui-using-xamarin-in-visual-studio.md)   
  [Build cross-platform mobile apps with Visual C++](../misc/build-cross-platform-mobile-apps-with-visual-c--.md)   
- [Generate unit tests for your code with IntelliTest](../code-quality/generate-unit-tests-for-your-code-with-intellitest.md)   
+ [Generate unit tests for your code with IntelliTest](../test/generate-unit-tests-for-your-code-with-intellitest.md)   
  [Work with multiple user accounts](../ide/work-with-multiple-user-accounts.md)   
  [Create custom window layouts](../misc/create-custom-window-layouts.md)   
  [Perform quick actions with light bulbs](../ide/perform-quick-actions-with-light-bulbs.md)   

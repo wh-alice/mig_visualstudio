@@ -77,7 +77,7 @@ Maps the task that is referenced in a [Task](../msbuild/task-element--msbuild-.m
   
 |Element|Description|  
 |-------------|-----------------|  
-|[Project](../msbuild/project-element--msbuild-.md)|Required root element of an [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] project file.|  
+|[Project](../msbuild/project-element--msbuild-.md)|Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file.|  
   
 ## Remarks  
  Environment variables, command-line properties, and project-level properties can be referenced anywhere in the `UsingTask` element if it appears in the project file either explicitly or through an imported project file. For more information, see [Tasks](../msbuild/msbuild-tasks.md).  

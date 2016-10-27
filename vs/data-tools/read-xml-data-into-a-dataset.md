@@ -190,7 +190,7 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
   
 1.  In **Solution Explorer**, select the source file for **Form1**, and then select the **View Designer** button on the **Solution Explorer** toolbar.  
   
-2.  From the [Toolbox, Data Tab](../ide-reference/toolbox--data-tab.md), drag a **DataSet** onto **Form1**.  
+2.  From the [Toolbox, Data Tab](../ide/reference/toolbox--data-tab.md), drag a **DataSet** onto **Form1**.  
   
 3.  In the **Add Dataset** dialog box, select **Untyped dataset**, and then select**OK**.  
   

@@ -43,5 +43,5 @@ translation.priority.mt:
 -   Limit the number of file associations to the specified number.  
   
 ## See Also  
- [Publish Page, Project Designer](../ide-reference/publish-page--project-designer.md)   
+ [Publish Page, Project Designer](../ide/reference/publish-page--project-designer.md)   
  [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md)

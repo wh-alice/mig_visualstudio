@@ -57,4 +57,4 @@ Sometimes you may need to get a service from a tool window or control container 
 ## See Also  
  [How to: Troubleshoot Services](../extensibility/how-to--troubleshoot-services.md)   
  [Using and Providing Services](../extensibility/using-and-providing-services.md)   
- [Service Essentials](../extensibility-internals/service-essentials.md)
+ [Service Essentials](../extensibility/internals/service-essentials.md)

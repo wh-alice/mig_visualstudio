@@ -28,7 +28,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Run unit tests on UML extensions
-To help keep your code stable through successive changes, we recommend that you write unit tests and perform them as part of a regular build process. For more information, see [Unit Test Your Code](../code-quality/unit-test-your-code.md). To set up tests for Visual Studio modeling extensions, you need some key pieces of information. In summary:  
+To help keep your code stable through successive changes, we recommend that you write unit tests and perform them as part of a regular build process. For more information, see [Unit Test Your Code](../test/unit-test-your-code.md). To set up tests for Visual Studio modeling extensions, you need some key pieces of information. In summary:  
   
 -   [Setting up a Unit Test for VSIX Extensions](#Host)  
   
@@ -68,7 +68,7 @@ To help keep your code stable through successive changes, we recommend that you 
   
     1.  **A UML extension project.** Typically you create this by using the command, gesture, or validation project templates. For example, see [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md).  
   
-    2.  **A unit test project.** For more information, see [Unit Test Your Code](../code-quality/unit-test-your-code.md).  
+    2.  **A unit test project.** For more information, see [Unit Test Your Code](../test/unit-test-your-code.md).  
   
 2.  Create a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution that contains a UML modeling project. You will use this solution as the initial state of your tests. It should be separate from the solution in which you write the UML extension and its unit tests. For more information, see [Create UML modeling projects and diagrams](../modeling/create-uml-modeling-projects-and-diagrams.md).  
   

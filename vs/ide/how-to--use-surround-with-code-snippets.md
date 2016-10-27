@@ -70,4 +70,4 @@ The following procedures describe how to use surround-with code snippets. Surrou
   
 ## See Also  
  [Visual C# Code Snippets](../ide/visual-csharp-code-snippets.md)   
- [Code Snippet Picker](../ide-reference/code-snippet-picker.md)
+ [Code Snippet Picker](../ide/reference/code-snippet-picker.md)

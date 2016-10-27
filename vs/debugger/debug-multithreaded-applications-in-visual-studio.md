@@ -1,7 +1,7 @@
 ---
 title: "Debug Multithreaded Applications in Visual Studio"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "10/26/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -77,7 +77,7 @@ A thread is a sequence of instructions to which the operating system allocates p
  Give your thread a name that you view in the **Threads** window.  
   
  [Walkthrough: Debugging a Multithreaded Application](../debugger/walkthrough--debugging-a-multithreaded-application.md).  
- A guided tour of thread debugging features, with emphasis on features how to [!INCLUDE[vs_orcas_long](../code-quality/includes/vs_orcas_long_md.md)].  
+ A guided tour of thread debugging features, with emphasis on features how to [!INCLUDE[vs_orcas_long](../debugger/includes/vs_orcas_long_md.md)].  
   
  [How to: Debug On a High-Performance Cluster](../debugger/how-to--debug-on-a-high-performance-cluster.md)  
  Techniques for debugging an application that runs on a high-performance cluster.  

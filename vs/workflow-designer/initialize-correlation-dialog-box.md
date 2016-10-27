@@ -29,7 +29,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Initialize Correlation Dialog Box
-The **Initialize Correlation** dialog box is used in [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] to edit the <xref:System.ServiceModel.Activities.InitializeCorrelation.CorrelationData*> property of an <xref:System.ServiceModel.Activities.InitializeCorrelation> activity. [!INCLUDE[crdefault](../code-quality/includes/crdefault_md.md)] the [InitializeCorrelation](../workflow-designer/initializecorrelation-activity-designer.md) topic.  
+The **Initialize Correlation** dialog box is used in [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] to edit the <xref:System.ServiceModel.Activities.InitializeCorrelation.CorrelationData*> property of an <xref:System.ServiceModel.Activities.InitializeCorrelation> activity. [!INCLUDE[crdefault](../test/includes/crdefault_md.md)] the [InitializeCorrelation](../workflow-designer/initializecorrelation-activity-designer.md) topic.  
   
  The following table describes the user interface (UI) elements of the **Initialize Correlation** dialog box.  
   

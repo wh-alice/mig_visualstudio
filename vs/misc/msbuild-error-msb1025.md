@@ -35,7 +35,7 @@ translation.priority.ht:
 # MSBuild Error MSB1025
 **An internal failure occurred while running MSBuild.**  
   
- There has been an internal failure while attempting to run [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)].  
+ There has been an internal failure while attempting to run [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)].  
   
 ### To correct this error  
   

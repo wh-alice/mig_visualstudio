@@ -1,7 +1,7 @@
 ---
 title: "Application Lifecycle Management (ALM) with Unity Apps"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "10/26/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -10,7 +10,7 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2dc61e63-9ba2-4c16-b1ad-f46249e576b6
-caps.latest.revision: 11
+caps.latest.revision: 12
 ms.author: "ghogen"
 manager: "ghogen"
 translation.priority.ht: 
@@ -71,7 +71,7 @@ Developing apps for modern platforms involves many more activities than just wri
 |-------------|--------------------------|-------------------------|  
 |[Use Team Foundation Version Control](../Topic/Use%20Team%20Foundation%20Version%20Control.md) or Visual Studio Team Services|Yes|Unity projects are simply a collection of files that can be placed into version control systems like any other project, but there are a few special considerations described after this table.|  
 |[Getting started with Git in Team Services](../Topic/Use%20Visual%20Studio%20with%20Git.md)|Yes|See notes after the table.|  
-|[Code analysis/Improve code quality (references, suggested changes, etc.)](../code-quality/improve-code-quality.md)|Yes||  
+|[Code analysis/Improve code quality (references, suggested changes, etc.)](../Topic/Improve%20Code%20Quality.md)|Yes||  
 |[Find code changes and other history](../ide/find-code-changes-and-other-history-with-codelens.md)|Yes||  
 |[Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)|Yes||  
   
@@ -88,14 +88,14 @@ Developing apps for modern platforms involves many more activities than just wri
   
 |Feature|Supported with Unity|Additional Comments|  
 |-------------|--------------------------|-------------------------|  
-|On-premises TFS server|Possible|Unity projects are built through the Unity environment and not through the Visual Studio build system (building within the Visual Studio Tools for Unity will compile the scripts but not produce an executable). It is possible to [build Unity projects from the command line](http://docs.unity3d.com/Manual/CommandLineArguments.html) (Unity documentation), so it possible to configure an MSBuild process on a TFS server to execute the appropriate Unity commands, provided that Unity itself is installed on that machine.<br /><br /> Unity also offers [Unity Cloud Build](https://build.cloud.unity3d.com/landing/), which monitors a Git or SVN repository and runs periodic builds. At present it does not work with Team Foundation Version Control or Visual Studio Team Services.|  
-|On-premises build server linked to Visual Studio Team Services|Possible|Given the same conditions as above, it is further possible to direct builds triggered through Visual Studio Team Services to use an on-premises TFS machine.  See [Build server](../Topic/Deploy%20and%20configure%20a%20build%20server.md) for instructions.|  
+|On-premises TFS server|Possible|Unity projects are built through the Unity environment and not through the Visual Studio build system (building within the Visual Studio Tools for Unity will compile the scripts but not produce an executable). It is possible to [build Unity projects from the command line](http://docs.unity3d.com/Manual/CommandLineArguments.html) (Unity documentation), so it possible to configure an MSBuild process on a TFS server to execute the appropriate Unity commands, provided that Unity itself is installed on that computer.<br /><br /> Unity also offers [Unity Cloud Build](https://build.cloud.unity3d.com/landing/), which monitors a Git or SVN repository and runs periodic builds. At present it does not work with Team Foundation Version Control or Visual Studio Team Services.|  
+|On-premises build server linked to Visual Studio Team Services|Possible|Given the same conditions as above, it is further possible to direct builds triggered through Visual Studio Team Services to use an on-premises TFS computer.  See [Build server](../Topic/Deploy%20and%20configure%20a%20build%20server.md) for instructions.|  
 |Hosted controller service of Visual Studio Team Services|No|Unity builds are not presently supported.|  
 |Build definitions with pre- and post-scripts|Yes|A custom build definition that uses the Unity command line to run a build can also be configured for pre- and post-build scripts.|  
 |Continuous integration including gated check-ins|Yes|Gated check-ins for TFVC only as Git works on a pull-request model rather than check-ins.|  
   
 ## Testing  
- Reference link: **[Testing the application](../test/test-apps-early-and-often.md)**  
+ Reference link: **[Testing the application](../Topic/Test%20apps%20early%20and%20often.md)**  
   
 |Feature|Supported with Unity|Additional Comments|  
 |-------------|--------------------------|-------------------------|  
@@ -103,16 +103,16 @@ Developing apps for modern platforms involves many more activities than just wri
 |Manual testing|Yes||  
 |Test Manager (record and playback tests)|Windows devices and Android emulators only||  
 |Code coverage|n/a|Not applicable as unit testing happens within Unity and not Visual Studio, see below.|  
-|[Unit Test Your Code](../code-quality/unit-test-your-code.md)|Within Unity, but not Visual Studio|Unity provides its own unit test framework as part of [Unity Test Tools](https://www.assetstore.unity3d.com/en/#!/content/13802) (Unity Asset Store). Unit test results are reported within Unity and will not be surfaced within Visual Studio.|  
-|[Use UI Automation To Test Your Code](../code-quality/use-ui-automation-to-test-your-code.md)|No|Coded UI tests rely on readable controls in the app’s UI; Unity apps are graphical in nature and so content isn’t readable by the Coded UI test tools.|  
+|[Unit Test Your Code](../test/unit-test-your-code.md)|Within Unity, but not Visual Studio|Unity provides its own unit test framework as part of [Unity Test Tools](https://www.assetstore.unity3d.com/en/#!/content/13802) (Unity Asset Store). Unit test results are reported within Unity and will not be surfaced within Visual Studio.|  
+|[Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)|No|Coded UI tests rely on readable controls in the app’s UI; Unity apps are graphical in nature and so content isn’t readable by the Coded UI test tools.|  
   
 ## Improve code quality  
- Reference link: **[Improve Code Quality](../code-quality/improve-code-quality.md)**  
+ Reference link: **[Improve Code Quality](../Topic/Improve%20Code%20Quality.md)**  
   
 |Feature|Supported with Unity|Additional Comments|  
 |-------------|--------------------------|-------------------------|  
 |[Analyzing Managed Code Quality](../code-quality/analyzing-managed-code-quality-by-using-code-analysis.md)|Yes|Can analyze the C# script code within Visual Studio.|  
-|[Finding Duplicate Code by using Code Clone Detection](../code-quality/finding-duplicate-code-by-using-code-clone-detection.md)|Yes|Can analyze the C# script code within Visual Studio.|  
+|[Finding Duplicate Code by using Code Clone Detection](../Topic/Finding%20Duplicate%20Code%20by%20using%20Code%20Clone%20Detection.md)|Yes|Can analyze the C# script code within Visual Studio.|  
 |[Measuring Complexity and Maintainability of Managed Code](../code-quality/measuring-complexity-and-maintainability-of-managed-code.md)|Yes|Can analyze the C# script code within Visual Studio.|  
 |[Performance Explorer](../profiling/performance-explorer.md)|No|Use the [Unity Profiler](http://docs.unity3d.com/Manual/Profiler.html) (Unity website).|  
 |[Analyze .NET Framework memory issues](../misc/analyze-.net-framework-memory-issues.md)|No|Visual Studio tools do not have hooks into the Mono framework (as used by Unity) for profiling. Use the [Unity Profiler](http://docs.unity3d.com/Manual/Profiler.html) (Unity documentation).|  

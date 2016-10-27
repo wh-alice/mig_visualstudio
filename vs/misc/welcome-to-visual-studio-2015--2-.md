@@ -1,7 +1,7 @@
 ---
 title: "Welcome to Visual Studio 2015 (2)"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "10/26/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -72,7 +72,7 @@ caps.latest.revision: 5
  You can [build your app locally](../ide/compiling-and-building-in-visual-studio.md) and make sure that it works correctly. Then use the [debugging tools](../debugger/debugging-in-visual-studio.md) to fix any issues with your app. Or you can build projects on shared build servers or in the cloud. Automate your build process to build the code that the devs on your team have checked into version control. For example, you can build one or more projects nightly or every time that code is checked in.  
   
 ### Test your app  
- [Create unit tests](../code-quality/unit-test-your-code.md) to improve the quality of your app. These tests can be run every time you check in, and as part of your build.  
+ [Create unit tests](../test/unit-test-your-code.md) to improve the quality of your app. These tests can be run every time you check in, and as part of your build.  
   
  Plan, create and run manual and automated tests for your app. Test plans, suites, test cases and your test results are stored in the cloud with Visual Studio Team Services or on-premises with Team Foundation Server. Learn more about [testing the application](Title%20Changed%20Date%20Checked%20Out%20By%20Project%20Name%20TOC%20Bucket%20Name).  
   
@@ -105,7 +105,7 @@ caps.latest.revision: 5
   
 8.  [Visual C++](../Topic/Visual%20C++%20in%20Visual%20Studio%202015.md)  
   
-9. [JavaScript](../Topic/JavaScript%20in%20Visual%20Studio.md)  
+9. [JavaScript](../javascript/javascript-in-visual-studio.md)  
   
 10. [Python](../python/getting-started-with-python.md)  
   

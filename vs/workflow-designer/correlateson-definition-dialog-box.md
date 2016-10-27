@@ -29,7 +29,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # CorrelatesOn Definition Dialog Box
-The **CorrelatesOn** dialog box is used in [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] to edit the <xref:System.ServiceModel.Activities.Receive.CorrelatesOn*> property of a <xref:System.ServiceModel.Activities.Receive> activity. [!INCLUDE[crdefault](../code-quality/includes/crdefault_md.md)] the [Receive](../workflow-designer/receive-activity-designer.md) topic.  
+The **CorrelatesOn** dialog box is used in [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] to edit the <xref:System.ServiceModel.Activities.Receive.CorrelatesOn*> property of a <xref:System.ServiceModel.Activities.Receive> activity. [!INCLUDE[crdefault](../test/includes/crdefault_md.md)] the [Receive](../workflow-designer/receive-activity-designer.md) topic.  
   
  The correlation between <xref:System.ServiceModel.Activities.Receive> activities specifies how different service operations connect with each other in a workflow.  
   

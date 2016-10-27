@@ -35,7 +35,7 @@ Your editor can define new commands. Commands are typically displayed in a menu,
   
  For more information about defining commands and menus, see [Commands, Menus, and Toolbars](../Topic/Commands,%20Menus,%20and%20Toolbars.md).  
   
- A language service can control what context menus are shown in the editor, by intercepting the <xref:Microsoft.VisualStudio.VSConstants.VSStd2KCmdID> enumeration. Alternately, you can control the context menu on a per-marker basis. For more information see [Important Commands for Language Service Filters](../extensibility-internals/important-commands-for-language-service-filters.md).  
+ A language service can control what context menus are shown in the editor, by intercepting the <xref:Microsoft.VisualStudio.VSConstants.VSStd2KCmdID> enumeration. Alternately, you can control the context menu on a per-marker basis. For more information see [Important Commands for Language Service Filters](../extensibility/internals/important-commands-for-language-service-filters.md).  
   
 ## Adding Commands to the Editor Context Menu  
  To add a command to the context menu, you must first define a set of menu commands belonging to a specific group. The following example is taken from the .vsct file generated as a part of the walkthrough [Walkthrough: Adding Features to a Custom Editor](../extensibility/walkthrough--adding-features-to-a-custom-editor.md):  

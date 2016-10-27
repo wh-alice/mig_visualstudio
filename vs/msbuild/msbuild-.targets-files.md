@@ -37,7 +37,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # MSBuild .Targets Files
-[!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] includes several .targets files that contain items, properties, targets, and tasks for common scenarios. These files are automatically imported into most [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project files to simplify maintenance and readability.  
+[!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] includes several .targets files that contain items, properties, targets, and tasks for common scenarios. These files are automatically imported into most [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project files to simplify maintenance and readability.  
   
  Projects typically import one or more .targets files to define their build process. For example a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] project created by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] will import Microsoft.CSharp.targets which imports Microsoft.Common.targets. The [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] project itself will define the items and properties specific to that project, but the standard build rules for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] project are defined in the imported .targets files.  
   

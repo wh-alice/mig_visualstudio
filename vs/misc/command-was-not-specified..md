@@ -37,7 +37,7 @@ This error generally occurs when an empty string has been entered into the **Com
   
 ### To correct this error  
   
-1.  Enter a valid command. For more information, see [Visual Studio Commands](../ide-reference/visual-studio-commands.md).  
+1.  Enter a valid command. For more information, see [Visual Studio Commands](../ide/reference/visual-studio-commands.md).  
   
 ## See Also  
- [Command Window](../ide-reference/command-window.md)
+ [Command Window](../ide/reference/command-window.md)

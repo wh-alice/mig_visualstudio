@@ -1,7 +1,7 @@
 ---
 title: "Build apps with native UI using Xamarin in Visual Studio"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/27/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

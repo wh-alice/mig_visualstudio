@@ -111,4 +111,4 @@ ClickOnce applications are based on the .NET Framework and are subject to code a
  [How to: Set Custom Permissions for a ClickOnce Application](../deployment/how-to--set-custom-permissions-for-a-clickonce-application.md)   
  [How to: Debug a ClickOnce Application with Restricted Permissions](../deployment/how-to--debug-a-clickonce-application-with-restricted-permissions.md)   
  [Trusted Application Deployment Overview](../deployment/trusted-application-deployment-overview.md)   
- [Security Page, Project Designer](../ide-reference/security-page--project-designer.md)
+ [Security Page, Project Designer](../ide/reference/security-page--project-designer.md)

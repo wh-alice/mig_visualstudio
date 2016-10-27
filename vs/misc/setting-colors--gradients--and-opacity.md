@@ -33,7 +33,7 @@ translation.priority.mt:
 # Setting Colors, Gradients, and Opacity
 All of the user interface (UI) elements in Visual Studio are created in Windows Presentation Foundation (WPF). Therefore, when you create tool windows or other UI elements, you can apply colors, gradients, and opacity by setting the appropriate attributes on those elements. You can set these to specific values by using the **Properties** window, or you can query the integrated development environment (IDE) for system values. We recommend that you use system values when you want your extensions to resemble the rest of the IDE.  
   
- Windows Forms UI and native-code UI are still supported for backward compatibility. For information about how to set colors and gradients in non-WPF extensions, see the [!INCLUDE[vs_orcas_long](../code-quality/includes/vs_orcas_long_md.md)] documentation.  
+ Windows Forms UI and native-code UI are still supported for backward compatibility. For information about how to set colors and gradients in non-WPF extensions, see the [!INCLUDE[vs_orcas_long](../debugger/includes/vs_orcas_long_md.md)] documentation.  
   
 ## Setting Colors, Gradients, and Opacity  
  You can set change the appearance of most XAML elements by setting their `Background`, `Foreground`, `Opacity`, or other visual attributes. These attributes correspond to properties that take a <xref:System.Windows.Media.Brush?displayProperty=fullName> as a value.  

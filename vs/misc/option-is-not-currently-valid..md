@@ -37,7 +37,7 @@ This error generally occurs when an argument or switch for a command has been sp
   
 ### To correct this error  
   
-1.  Verify that the arguments and switches entered are currently available. For more information, see [Visual Studio Commands with Arguments](../ide-reference/visual-studio-commands.md).  
+1.  Verify that the arguments and switches entered are currently available. For more information, see [Visual Studio Commands with Arguments](../ide/reference/visual-studio-commands.md).  
   
 ## See Also  
- [Visual Studio Commands](../ide-reference/visual-studio-commands.md)
+ [Visual Studio Commands](../ide/reference/visual-studio-commands.md)

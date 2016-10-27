@@ -43,5 +43,5 @@ translation.priority.mt:
 -   Set the [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md)`extension` attribute to a value that does not contain more characters than the allowed limit for the target operating system.  
   
 ## See Also  
- [Publish Page, Project Designer](../ide-reference/publish-page--project-designer.md)   
+ [Publish Page, Project Designer](../ide/reference/publish-page--project-designer.md)   
  [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md)

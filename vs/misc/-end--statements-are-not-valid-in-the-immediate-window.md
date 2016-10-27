@@ -44,4 +44,4 @@ The `Stop` and `End` statements suspend execution and are not permitted in a deb
 -   Do not issue a `End` or `Stop` statement in the **Immediate** window.  
   
 ## See Also  
- [Immediate Window](../ide-reference/immediate-window.md)
+ [Immediate Window](../ide/reference/immediate-window.md)

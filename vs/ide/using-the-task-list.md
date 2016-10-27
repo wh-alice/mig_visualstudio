@@ -107,7 +107,7 @@ Use the **Task List** to track code comments that use tokens such as `TODO` and 
   
 2.  Open the **Environment** folder and then choose **Task List**.  
   
-     The [Task List, Environment, Options Dialog Box](../ide-reference/task-list--environment--options-dialog-box.md) is displayed.  
+     The [Task List, Environment, Options Dialog Box](../ide/reference/task-list--environment--options-dialog-box.md) is displayed.  
   
      ![Visual Studio Task List](../ide/media/vs2015_task_list_options.png "vs2015_task_list_options")  
   
@@ -138,4 +138,4 @@ Use the **Task List** to track code comments that use tokens such as `TODO` and 
      To navigate through the shortcuts in the code, choose a shortcut in the list, and then choose **Next Task** or **Previous Task** from the shortcut menu.  
   
 ## See Also  
- [Task List, Environment, Options Dialog Box](../ide-reference/task-list--environment--options-dialog-box.md)
+ [Task List, Environment, Options Dialog Box](../ide/reference/task-list--environment--options-dialog-box.md)

@@ -48,7 +48,7 @@ A text layer typically encapsulates some aspect of text layout. For example, a "
   
 -   A layer can affect only layers that are below it. It cannot affect the layers above it beyond originating standard events.  
   
--   In the editor, hidden text, synthetic text, and word wrap are implemented as layers. You can implement hidden and synthetic text without interacting directly with the layers. For more information, see [Outlining in a Legacy Language Service](../extensibility-internals/outlining-in-a-legacy-language-service.md) and <xref:Microsoft.VisualStudio.TextManager.Interop.IVsSyntheticTextSession>.  
+-   In the editor, hidden text, synthetic text, and word wrap are implemented as layers. You can implement hidden and synthetic text without interacting directly with the layers. For more information, see [Outlining in a Legacy Language Service](../extensibility/internals/outlining-in-a-legacy-language-service.md) and <xref:Microsoft.VisualStudio.TextManager.Interop.IVsSyntheticTextSession>.  
   
 -   Each text layer has its own local coordinate system that is exposed through the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextLayer> interface. The line-wrap layer, for example, might contain two lines while the underlying text buffer might contain only one line.  
   

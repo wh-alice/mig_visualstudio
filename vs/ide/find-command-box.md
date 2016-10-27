@@ -52,7 +52,7 @@ Find/Command Box
 >File.NewFile c:\temp\MyFile /t:"General\Text File"  
 ```  
   
- Alternatively, you can also use the Command window to enter and execute single or multiple commands. Some commands or aliases can be entered and executed by themselves; others have required arguments in their syntax. For a list of commands that have arguments, see [Visual Studio Commands](../ide-reference/visual-studio-commands.md).  
+ Alternatively, you can also use the Command window to enter and execute single or multiple commands. Some commands or aliases can be entered and executed by themselves; others have required arguments in their syntax. For a list of commands that have arguments, see [Visual Studio Commands](../ide/reference/visual-studio-commands.md).  
   
 ## Escape Characters  
  A caret (^) character in a command line means that the character immediately following it is interpreted literally, rather than as a control character. This can be used to embed straight quotation marks ("), spaces, leading slashes, carets, or any other literal characters in a parameter or switch value, with the exception of switch names. For example,  
@@ -64,5 +64,5 @@ Find/Command Box
  A caret functions the same whether it is inside or outside quotation marks. If a caret is the last character on the line, it is ignored.  
   
 ## See Also  
- [Command Window](../ide-reference/command-window.md)   
+ [Command Window](../ide/reference/command-window.md)   
  [Finding and Replacing Text](../ide/finding-and-replacing-text.md)

@@ -36,7 +36,7 @@ translation.priority.mt:
 # MSBuild Error MSB1008
 **Only one project can be specified.**  
   
- [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] can build only one project.  
+ [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] can build only one project.  
   
 ### To correct this error  
   

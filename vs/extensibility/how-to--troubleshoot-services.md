@@ -80,6 +80,6 @@ if (log == null) return;
      If a tool window hosts a user control or any other control container, the container will be sited by the Windows component model and will not have access to any [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] services. You can call <xref:Microsoft.VisualStudio.Shell.Package.GetGlobalService*> to get a VSPackage service provider from within a control container.  
   
 ## See Also  
- [List of Available Services](../extensibility-internals/list-of-available-services.md)   
+ [List of Available Services](../extensibility/internals/list-of-available-services.md)   
  [Using and Providing Services](../extensibility/using-and-providing-services.md)   
- [Service Essentials](../extensibility-internals/service-essentials.md)
+ [Service Essentials](../extensibility/internals/service-essentials.md)

@@ -85,11 +85,11 @@ translation.priority.mt:
 # Edit and Continue Errors and Warnings (C#)
 You have made an edit to a section of code that is not allowed in Visual C# Edit and Continue.  
   
- [!INCLUDE[csharp_current_short](../code-quality/includes/csharp_current_short_md.md)] Edit and Continue lets you stop program execution in Break mode, make changes to the executing code, and then resume program execution with the newly incorporated changes.  
+ [!INCLUDE[csharp_current_short](../misc/includes/csharp_current_short_md.md)] Edit and Continue lets you stop program execution in Break mode, make changes to the executing code, and then resume program execution with the newly incorporated changes.  
   
  Declarative code edits that affect the public structure of a class are generally prohibited, and some edits that you might make to a method, property body, or private declarations within a class are not allowed. Whenever possible, Edit and Continue marks code that cannot be edited as light gray and displays an error message.  
   
- For more information about supported edits in Edit and Continue for [!INCLUDE[csharp_current_short](../code-quality/includes/csharp_current_short_md.md)], see [Supported Code Changes (C#)](../debugger/supported-code-changes--csharp-.md). If you need more information about a specific error or warning, you can search or post on the MSDN [Visual C# IDE forum](http://go.microsoft.com/fwlink/?LinkId=214693).  
+ For more information about supported edits in Edit and Continue for [!INCLUDE[csharp_current_short](../misc/includes/csharp_current_short_md.md)], see [Supported Code Changes (C#)](../debugger/supported-code-changes--csharp-.md). If you need more information about a specific error or warning, you can search or post on the MSDN [Visual C# IDE forum](http://go.microsoft.com/fwlink/?LinkId=214693).  
   
 ### To correct this error  
   

@@ -44,5 +44,5 @@ The `SyncLock` statement synchronizes threads and is not permitted in a debuggin
 -   Do not issue a `SyncLock` statement in the **Immediate** window.  
   
 ## See Also  
- [Immediate Window](../ide-reference/immediate-window.md)   
+ [Immediate Window](../ide/reference/immediate-window.md)   
  [SyncLock Statement](../Topic/SyncLock%20Statement.md)

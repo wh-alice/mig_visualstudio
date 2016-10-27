@@ -34,7 +34,7 @@ translation.priority.mt:
 # MSBuild Error MSB4132
 **MSB4132: The tools version "'\<version>'" is unrecognized.**  
   
- [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] could find a Toolset that corresponds to the specified value of `ToolsVersion`.  
+ [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] could find a Toolset that corresponds to the specified value of `ToolsVersion`.  
   
 ### To correct this error  
   

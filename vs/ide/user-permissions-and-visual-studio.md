@@ -64,7 +64,7 @@ For reasons of security you should run Visual Studio as a normal user whenever p
 ## Running Visual Studio as an Administrator  
  You can launch Visual Studio with administrative permissions each time you start the IDE, or you can modify the application shortcut to always run with administrative permissions. For more information, see Windows Help.  
   
-#### To run Visual Studio with administrative permissions on [!INCLUDE[win8](../code-quality/includes/win8_md.md)], [!INCLUDE[win81](../debugger/includes/win81_md.md)], [!INCLUDE[winserver8](../debugger/includes/winserver8_md.md)], or [!INCLUDE[winblue_server_2](../ide/includes/winblue_server_2_md.md)]  
+#### To run Visual Studio with administrative permissions on [!INCLUDE[win8](../debugger/includes/win8_md.md)], [!INCLUDE[win81](../debugger/includes/win81_md.md)], [!INCLUDE[winserver8](../debugger/includes/winserver8_md.md)], or [!INCLUDE[winblue_server_2](../ide/includes/winblue_server_2_md.md)]  
   
 1.  On the **Start** screen, type **Visual Studio**. You should see the version or versions of Visual Studio you have installed.  
   
@@ -72,7 +72,7 @@ For reasons of security you should run Visual Studio as a normal user whenever p
   
      When Visual Studio starts, **(Administrator)** appears after the product name in the title bar.  
   
-#### To run Visual Studio with administrative permissions on [!INCLUDE[win7](../code-quality/includes/win7_md.md)] or [!INCLUDE[winsvr08_r2](../code-quality/includes/winsvr08_r2_md.md)]  
+#### To run Visual Studio with administrative permissions on [!INCLUDE[win7](../debugger/includes/win7_md.md)] or [!INCLUDE[winsvr08_r2](../debugger/includes/winsvr08_r2_md.md)]  
   
 1.  On the **Start** menu, choose **All Programs**.  
   

@@ -63,7 +63,7 @@ Many factors determine the set of persisted values, or state, of a [!INCLUDE[vsp
  [Support for State Persistence](../misc/support-for-state-persistence.md)  
  Lists common strategies for saving, restoring, and resetting the state of a VSPackage.  
   
- [Options and Options Pages](../extensibility-internals/options-and-options-pages.md)  
+ [Options and Options Pages](../extensibility/internals/options-and-options-pages.md)  
  Introduces general and custom Options pages and explains how to implement them.  
   
  [Creating an Options Page](../extensibility/creating-an-options-page.md)  
@@ -81,7 +81,7 @@ Many factors determine the set of persisted values, or state, of a [!INCLUDE[vsp
  [Exposing Properties to the Properties Window](../extensibility/exposing-properties-to-the-properties-window.md)  
  Explains how to expose the public properties of an object to the **Properties** window.  
   
- [Support for Project and Configuration Properties](../extensibility-internals/support-for-project-and-configuration-properties.md)  
+ [Support for Project and Configuration Properties](../extensibility/internals/support-for-project-and-configuration-properties.md)  
  Explains how to display and change project and configuration properties.  
   
  [Getting Project Properties](../extensibility/getting-project-properties.md)  
@@ -91,5 +91,5 @@ Many factors determine the set of persisted values, or state, of a [!INCLUDE[vsp
  Explains the Settings Store persistence mechanism and how to use it.  
   
 ## Related Sections  
- [VSPackages](../extensibility-internals/vspackages.md)  
+ [VSPackages](../extensibility/internals/vspackages.md)  
  Provides a general orientation to topics that explain how to create and use VSPackages.

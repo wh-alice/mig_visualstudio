@@ -41,7 +41,7 @@ The **InitializeCorrelation** activity designer is used to create and configure 
   
  The <xref:System.ServiceModel.Activities.CorrelationHandle> can be specifies in the **Correlation** field in **Properties** window on the **InitializeCorrelation** activity designer surface.  
   
- Clicking the ellipse button besides the **CorrelationData** field in **Properties** window or the “View …” hint text on **InitializeCorrelation** activity designer surface displays the **Initialize Correlation** dialog box in which you can specify the correlation handle and the key-value pairs used to initialize it. [!INCLUDE[crabout](../code-quality/includes/crabout_md.md)] using this dialog box, see the [Type Collection Editor Dialog Box](../workflow-designer/type-collection-editor-dialog-box.md) topic.  
+ Clicking the ellipse button besides the **CorrelationData** field in **Properties** window or the “View …” hint text on **InitializeCorrelation** activity designer surface displays the **Initialize Correlation** dialog box in which you can specify the correlation handle and the key-value pairs used to initialize it. [!INCLUDE[crabout](../test/includes/crabout_md.md)] using this dialog box, see the [Type Collection Editor Dialog Box](../workflow-designer/type-collection-editor-dialog-box.md) topic.  
   
 ### The InitializeCorrelation Properties  
  The following table shows the <xref:System.ServiceModel.Activities.InitializeCorrelation> properties and describes how they are used in the designer. These properties can be edited in **Properties** window or on [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] surface.  
@@ -50,7 +50,7 @@ The **InitializeCorrelation** activity designer is used to create and configure 
 |-------------------|--------------|-----------|  
 |<xref:System.Activities.Activity.DisplayName*>|False|The friendly name of the <xref:System.ServiceModel.Activities.InitializeCorrelation> activity. The default value is InitializeCorrelation.<br /><br /> Although the use of a non-default value for the friendly <xref:System.Activities.Activity.DisplayName*> is not strictly required, it is a best practice to use such a value.|  
 |<xref:System.ServiceModel.Activities.InitializeCorrelation.Correlation*>|False|The <xref:System.ServiceModel.Activities.CorrelationHandle> used to associate workflow activities in the correlation.|  
-|<xref:System.ServiceModel.Activities.InitializeCorrelation.CorrelationData*>|False|A dictionary of correlation data that relates messages to the workflow instance.<br /><br /> Use the **Initialize Correlation** dialog box to configure the <xref:System.ServiceModel.Activities.InitializeCorrelation.CorrelationData*>. [!INCLUDE[crabout](../code-quality/includes/crabout_md.md)] the use this dialog box, see the [Type Collection Editor Dialog Box](../workflow-designer/type-collection-editor-dialog-box.md) topic.|  
+|<xref:System.ServiceModel.Activities.InitializeCorrelation.CorrelationData*>|False|A dictionary of correlation data that relates messages to the workflow instance.<br /><br /> Use the **Initialize Correlation** dialog box to configure the <xref:System.ServiceModel.Activities.InitializeCorrelation.CorrelationData*>. [!INCLUDE[crabout](../test/includes/crabout_md.md)] the use this dialog box, see the [Type Collection Editor Dialog Box](../workflow-designer/type-collection-editor-dialog-box.md) topic.|  
   
 ## See Also  
  [CorrelationScope](../workflow-designer/correlationscope-activity-designer.md)   

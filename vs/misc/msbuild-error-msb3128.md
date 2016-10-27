@@ -47,4 +47,4 @@ translation.priority.mt:
 3.  Set the **Hash** value to **Include** for all files that are to be published.  
   
 ## See Also  
- [Publish Page, Project Designer](../ide-reference/publish-page--project-designer.md)
+ [Publish Page, Project Designer](../ide/reference/publish-page--project-designer.md)

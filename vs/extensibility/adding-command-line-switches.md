@@ -90,6 +90,6 @@ cmdline.GetOption("MySwitch", out isPresent, out optionValue);
 ## See Also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsAppCommandLine>   
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.SetSite*>   
- [Devenv Command Line Switches](../ide-reference/devenv-command-line-switches.md)   
- [CreatePkgDef Utility](../extensibility-internals/createpkgdef-utility.md)   
+ [Devenv Command Line Switches](../ide/reference/devenv-command-line-switches.md)   
+ [CreatePkgDef Utility](../extensibility/internals/createpkgdef-utility.md)   
  [.Pkgdef Files](../extensibility/modifying-the-isolated-shell-by-using-the-.pkgdef-file.md)

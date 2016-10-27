@@ -117,7 +117,7 @@ To make sure that code doesn't conflict with its design, validate your code with
   
 2.  Choose one of the following:  
   
-    -   To validate code against a specific modeling project in the solution, run [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] with the following custom property.  
+    -   To validate code against a specific modeling project in the solution, run [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] with the following custom property.  
   
         ```  
         msbuild <FilePath+ModelProjectFileName>.modelproj /p:ValidateArchitecture=true  
@@ -125,13 +125,13 @@ To make sure that code doesn't conflict with its design, validate your code with
   
          - or -  
   
-         Browse to the folder that contains the modeling project (.modelproj) file and the layer diagram and then run [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] with the following custom property:  
+         Browse to the folder that contains the modeling project (.modelproj) file and the layer diagram and then run [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] with the following custom property:  
   
         ```  
         msbuild /p:ValidateArchitecture=true   
         ```  
   
-    -   To validate code against all modeling projects in the solution, run [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] with the following custom property:  
+    -   To validate code against all modeling projects in the solution, run [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] with the following custom property:  
   
         ```  
         msbuild <FilePath+SolutionName>.sln /p:ValidateArchitecture=true   
@@ -139,13 +139,13 @@ To make sure that code doesn't conflict with its design, validate your code with
   
          - or -  
   
-         Browse to the solution folder, which must contain a modeling project that contains a layer diagram, and then run [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] with the following custom property:  
+         Browse to the solution folder, which must contain a modeling project that contains a layer diagram, and then run [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] with the following custom property:  
   
         ```  
         msbuild /p:ValidateArchitecture=true  
         ```  
   
-     Any errors that occur will be listed. For more information about [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)], see [MSBuild](../msbuild/msbuild1.md) and [MSBuild Task](../msbuild/msbuild-task.md).  
+     Any errors that occur will be listed. For more information about [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)], see [MSBuild](../msbuild/msbuild1.md) and [MSBuild Task](../msbuild/msbuild-task.md).  
   
  For more information about validation errors, see [Understand and resolve layer validation errors](#UnderstandingValidationErrors).  
   
@@ -203,7 +203,7 @@ To make sure that code doesn't conflict with its design, validate your code with
   
      `/p:ValidateArchitecture=true`  
   
- For more information about validation errors, see [Understand and resolve layer validation errors](#UnderstandingValidationErrors). For more information about [!INCLUDE[esprbuild](../code-quality/includes/esprbuild_md.md)], see:  
+ For more information about validation errors, see [Understand and resolve layer validation errors](#UnderstandingValidationErrors). For more information about [!INCLUDE[esprbuild](../modeling/includes/esprbuild_md.md)], see:  
   
 -   [Build the application](../Topic/Build%20the%20application.md)  
   

@@ -41,7 +41,7 @@ This content has been removed. For information about extending Tools Options pag
  [Creating Options Pages By Using Interop Assemblies](../misc/creating-options-pages-by-using-interop-assemblies.md)  
  Explains how an application can create and manage new **Tools Options** pages by using interop assemblies.  
   
- [Creating Options Pages](../extensibility-internals/creating-options-pages.md)  
+ [Creating Options Pages](../extensibility/internals/creating-options-pages.md)  
  Explains how an application can create and manage new **Tools Options** pages by using the managed package framework.  
   
  [Creating Options Pages By Using Automation](../misc/creating-options-pages-by-using-automation.md)  

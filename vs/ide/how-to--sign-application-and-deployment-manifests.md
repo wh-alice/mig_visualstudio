@@ -121,5 +121,5 @@ If you want to publish an application by using ClickOnce deployment, the applica
 ## See Also  
  [Strong-Named Assemblies](../Topic/Strong-Named%20Assemblies.md)   
  [How to: Create a Public-Private Key Pair](../Topic/How%20to:%20Create%20a%20Public-Private%20Key%20Pair.md)   
- [Signing Page, Project Designer](../ide-reference/signing-page--project-designer.md)   
+ [Signing Page, Project Designer](../ide/reference/signing-page--project-designer.md)   
  [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)

@@ -41,13 +41,13 @@ The hosting process is a feature in Visual Studio that improves debugging perfor
  The hosting process creates an application domain and associates the debugger with the application. Performing these tasks can introduce a noticeable delay between the time debugging is started and the time the application begins running. The hosting process helps increase performance by creating the application domain and associating the debugger in the background, and saving the application domain and debugger state between runs of the application. For more information on application domains, see [Application Domains](../Topic/Application%20Domains.md).  
   
 ## Partial Trust Debugging  
- An application can be specified as a partial trust application in the [Security page](../ide-reference/security-page--project-designer.md) of the **Project Designer**. Debugging a partial trust application requires special initialization of the application domain. This initialization is handled by the hosting process.  
+ An application can be specified as a partial trust application in the [Security page](../ide/reference/security-page--project-designer.md) of the **Project Designer**. Debugging a partial trust application requires special initialization of the application domain. This initialization is handled by the hosting process.  
   
 ## Design-Time Expression Evaluation  
- Design-time expression evaluation enables you to test code from the **Immediate** window without having to run the application. The hosting process executes this code during design time expression evaluation. For more information, see [Immediate Window](../ide-reference/immediate-window.md).  
+ Design-time expression evaluation enables you to test code from the **Immediate** window without having to run the application. The hosting process executes this code during design time expression evaluation. For more information, see [Immediate Window](../ide/reference/immediate-window.md).  
   
 ## See Also  
  [Debugging and the Hosting Process](../debugger/debugging-and-the-hosting-process.md)   
  [How to: Disable the Hosting Process](../ide/how-to--disable-the-hosting-process.md)   
- [Immediate Window](../ide-reference/immediate-window.md)   
+ [Immediate Window](../ide/reference/immediate-window.md)   
  [Application Domains](../Topic/Application%20Domains.md)

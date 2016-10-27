@@ -40,14 +40,14 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Visual Studio Integration (MSBuild)
-Visual Studio hosts [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] to load and build managed projects. Because [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] is responsible for the project, almost any project in the [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] format can be successfully used in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], even if the project was authored by a different tool and has a customized build process.  
+Visual Studio hosts [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] to load and build managed projects. Because [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] is responsible for the project, almost any project in the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] format can be successfully used in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], even if the project was authored by a different tool and has a customized build process.  
   
- This topic describes specific aspects of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]'s [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] hosting that should be considered when customizing projects and .targets files that you wish to load and build in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. These will help you make sure [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] features like IntelliSense and debugging work for your custom project.  
+ This topic describes specific aspects of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]'s [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] hosting that should be considered when customizing projects and .targets files that you wish to load and build in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. These will help you make sure [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] features like IntelliSense and debugging work for your custom project.  
   
  For information about C++ projects, see [Project Files](../Topic/Project%20Files.md).  
   
 ## Project File Name Extensions  
- MSBuild.exe recognizes any project file name extension matching the pattern .*proj. However, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] only recognizes a subset of these project file name extensions, which determine the language-specific project system that will load the project. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] does not have a language-neutral [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] based project system.  
+ MSBuild.exe recognizes any project file name extension matching the pattern .*proj. However, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] only recognizes a subset of these project file name extensions, which determine the language-specific project system that will load the project. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] does not have a language-neutral [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] based project system.  
   
  For example, the [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] project system loads .csproj files, but [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is not able to load a .xxproj file. A project file for source files in an arbitrary language must use the same extension as [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] or [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] project files to be loaded in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
@@ -55,7 +55,7 @@ Visual Studio hosts [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/
  Clicking the **Build** command in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] will execute the default target in the project. Often, this target is also named `Build`. Choosing the **Rebuild** or **Clean** command will attempt to execute a target of the same name in the project. Clicking **Publish** will execute a target named `PublishOnly` in the project.  
   
 ## Configurations and Platforms  
- Configurations are represented in [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] projects by properties grouped in a `PropertyGroup` element that contains a `Condition` attribute. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] looks at these conditions in order to create a list of project configurations and platforms to display. To successfully extract this list, the conditions must have a format similar to the following:  
+ Configurations are represented in [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] projects by properties grouped in a `PropertyGroup` element that contains a `Condition` attribute. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] looks at these conditions in order to create a list of project configurations and platforms to display. To successfully extract this list, the conditions must have a format similar to the following:  
   
 ```  
 Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' "  
@@ -96,7 +96,7 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
 -   The conditions listed in the "In-Process Compilers" section must be met.  
   
 ## Building Solutions  
- Within [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], the solution file and project build ordering are controlled by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] itself. When building a solution with msbuild.exe on the command line, [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] parses the solution file and orders the project builds. In both cases the projects are built individually in dependency order, and project to project references are not traversed. In contrast, when individual projects are built with msbuild.exe, project to project references are traversed.  
+ Within [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], the solution file and project build ordering are controlled by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] itself. When building a solution with msbuild.exe on the command line, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] parses the solution file and orders the project builds. In both cases the projects are built individually in dependency order, and project to project references are not traversed. In contrast, when individual projects are built with msbuild.exe, project to project references are traversed.  
   
  When building inside [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], the property `$(BuildingInsideVisualStudio)` is set to `true`. This can be used in your project or .targets files to cause the build to behave differently.  
   
@@ -128,7 +128,7 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
 ## Conditions on Items and Properties  
  During a build, all conditions are fully respected.  
   
- When determining property values to display, properties that [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] considers configuration dependent are evaluated differently than properties it considers configuration independent. For properties it considers configuration dependent, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] sets the `Configuration` and `Platform` properties appropriately and instructs [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] to re-evaluate the project. For properties it considers configuration independent, it is indeterminate how conditions will be evaluated.  
+ When determining property values to display, properties that [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] considers configuration dependent are evaluated differently than properties it considers configuration independent. For properties it considers configuration dependent, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] sets the `Configuration` and `Platform` properties appropriately and instructs [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] to re-evaluate the project. For properties it considers configuration independent, it is indeterminate how conditions will be evaluated.  
   
  Conditional expressions on items are always ignored for the purposes of deciding whether the item should be displayed in Solution Explorer.  
   
@@ -139,7 +139,7 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
  [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] attempts to execute targets with certain names when it loads a project. These targets include `Compile`, `ResolveAssemblyReferences`, `ResolveCOMReferences`, `GetFrameworkPaths`, and `CopyRunEnvironmentFiles`. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] runs these targets so that the compiler can be initialized to provide IntelliSense, the debugger can be initialized, and references displayed in Solution Explorer can be resolved. If these targets are not present, the project will load and build correctly but the design-time experience in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] will not be fully functional.  
   
 ##  <a name="BKMK_EditingProjects"></a> Editing Project Files in Visual Studio  
- To edit an [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] project directly, you can open the project file in the Visual Studio XML editor.  
+ To edit an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project directly, you can open the project file in the Visual Studio XML editor.  
   
 #### To unload and edit a project file in Visual Studio  
   
@@ -156,9 +156,9 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
 4.  In **Solution Explorer**, open the shortcut menu for the unavailable project, and then choose **Reload Project**.  
   
 ## IntelliSense and Validation  
- When using the XML editor to edit project files, IntelliSense and validation is driven by the [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] schema files. These are installed in the schema cache, which can be found in *\<Visual Studio installation directory>*\Xml\Schemas\1033\MSBuild.  
+ When using the XML editor to edit project files, IntelliSense and validation is driven by the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] schema files. These are installed in the schema cache, which can be found in *\<Visual Studio installation directory>*\Xml\Schemas\1033\MSBuild.  
   
- The core [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] types are defined in Microsoft.Build.Core.xsd and common types used by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] are defined in Microsoft.Build.CommonTypes.xsd. To customize the schemas so that you have IntelliSense and validation for custom item type names, properties, and tasks, you can either edit Microsoft.Build.xsd, or create your own schema that includes the CommonTypes or Core schemas. If you create your own schema you will have to direct the XML editor to find it using the **Properties** window.  
+ The core [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] types are defined in Microsoft.Build.Core.xsd and common types used by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] are defined in Microsoft.Build.CommonTypes.xsd. To customize the schemas so that you have IntelliSense and validation for custom item type names, properties, and tasks, you can either edit Microsoft.Build.xsd, or create your own schema that includes the CommonTypes or Core schemas. If you create your own schema you will have to direct the XML editor to find it using the **Properties** window.  
   
 ## Editing Loaded Project Files  
  [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] caches the content of project files and files imported by project files. If you edit a loaded project file, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] will automatically prompt you to reload the project so that the changes take effect. However if you edit a file imported by a loaded project, there will be no reload prompt and you must unload and reload the project manually to make the changes take effect.  

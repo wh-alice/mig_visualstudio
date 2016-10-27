@@ -47,7 +47,7 @@ translation.priority.mt:
 ## See Also  
  <xref:Microsoft.Build.Tasks.Deployment.ManifestUtilities.ApplicationManifest.HostInBrowser*>   
  <xref:Microsoft.Build.Tasks.GenerateApplicationManifest.TargetFrameworkVersion*>   
- [Publish Page, Project Designer](../ide-reference/publish-page--project-designer.md)   
+ [Publish Page, Project Designer](../ide/reference/publish-page--project-designer.md)   
  [\<PackageFiles> Element](../deployment/-packagefiles--element--bootstrapper-.md)   
  [MSBuild Error MSB3116](../misc/msbuild-error-msb3116.md)   
  [MSBuild Error MSB3117](../misc/msbuild-error-msb3117.md)   

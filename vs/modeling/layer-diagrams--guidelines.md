@@ -145,7 +145,7 @@ Describe your app's architecture at a high level by creating *layer diagrams* in
     -   Select one or more layers or dependencies, right-click, and then click **Properties**. In the **Properties** window, edit the **Color** property.  
   
 ##  <a name="Validate"></a> Validate the code against the diagram  
- When you have edited the diagram, you can validate it against the code manually at any time or automatically every time that you run a local build or [!INCLUDE[esprbuild](../code-quality/includes/esprbuild_md.md)].  
+ When you have edited the diagram, you can validate it against the code manually at any time or automatically every time that you run a local build or [!INCLUDE[esprbuild](../modeling/includes/esprbuild_md.md)].  
   
  See:  
   

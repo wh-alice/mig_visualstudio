@@ -35,7 +35,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Keyboard shortcuts (HTML and JavaScript)
-![Applies to Windows and Windows Phone](../code-quality/media/windows_and_phone_content.png "windows_and_phone_content")  
+![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  
   
  Keyboard shortcuts in Visual Studio for debugging Store apps using HTML and JavaScript.  
   

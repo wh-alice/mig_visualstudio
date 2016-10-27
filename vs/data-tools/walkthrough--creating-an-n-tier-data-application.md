@@ -61,7 +61,7 @@ translation.priority.ht:
   
 -   Write code to populate the data tables.  
   
- ![link to video](../code-quality/media/playvideo.gif "PlayVideo") For a video version of this topic, see [Video How to: Creating an N-Tier Data Application](http://go.microsoft.com/fwlink/?LinkId=115188).  
+ ![link to video](../data-tools/media/playvideo.gif "PlayVideo") For a video version of this topic, see [Video How to: Creating an N-Tier Data Application](http://go.microsoft.com/fwlink/?LinkId=115188).  
   
 ## Prerequisites  
  To complete this walkthrough, you need:  

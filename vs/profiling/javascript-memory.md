@@ -79,7 +79,7 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
  [Tips for identifying memory issues](#Tips)  
   
 ##  <a name="Run"></a> Run the JavaScript memory analyzer  
- You can use the memory analyzer when you have a working Windows Store app open in Visual Studio or installed on a computer that is running [!INCLUDE[win8](../code-quality/includes/win8_md.md)] or later.  
+ You can use the memory analyzer when you have a working Windows Store app open in Visual Studio or installed on a computer that is running [!INCLUDE[win8](../debugger/includes/win8_md.md)] or later.  
   
 #### To run the memory analyzer  
   

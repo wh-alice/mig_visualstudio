@@ -106,8 +106,8 @@ translation.priority.ht:
   
 |Tool|Description|  
 |----------|-----------------|  
-|[Security Page, Project Designer](../ide-reference/security-page--project-designer.md)|Signs the application and deployment manifests.|  
-|[Publish Page, Project Designer](../ide-reference/publish-page--project-designer.md)|Generates and edits the application and deployment manifests for Visual Basic and Visual C# applications.|  
+|[Security Page, Project Designer](../ide/reference/security-page--project-designer.md)|Signs the application and deployment manifests.|  
+|[Publish Page, Project Designer](../ide/reference/publish-page--project-designer.md)|Generates and edits the application and deployment manifests for Visual Basic and Visual C# applications.|  
 |[Mage.exe (Manifest Generation and Editing Tool)](../Topic/Mage.exe%20\(Manifest%20Generation%20and%20Editing%20Tool\).md)|Generates the application and deployment manifests for Visual Basic, Visual C#, and Visual C++ applications.<br /><br /> Signs and re-signs the application and deployment manifests.<br /><br /> Can be run from batch scripts and the command prompt.|  
 |[MageUI.exe (Manifest Generation and Editing Tool, Graphical Client)](../Topic/MageUI.exe%20\(Manifest%20Generation%20and%20Editing%20Tool,%20Graphical%20Client\).md)|Generates and edits the application and deployment manifests.<br /><br /> Signs and re-signs the application and deployment manifests.|  
 |[GenerateApplicationManifest Task](../msbuild/generateapplicationmanifest-task.md)|Generates the application manifest.<br /><br /> Can be run from MSBuild. For more information, see [MSBuild Reference](../msbuild/msbuild-reference.md).|  

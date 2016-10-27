@@ -193,7 +193,7 @@ Stay focused on your work while you find out what happened to your code - withou
   
 -   Visual C# .NET or Visual Basic .NET code  
   
--   A [unit test project](../code-quality/unit-test-your-code.md) that has unit tests for your application code  
+-   A [unit test project](../test/unit-test-your-code.md) that has unit tests for your application code  
   
 1.  Go to application code that has unit tests.  
   

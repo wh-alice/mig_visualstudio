@@ -188,7 +188,7 @@ You can create a web control project template to use as the basis for other web 
   
 1.  To open an experimental instance of Visual Studio, start the experimental instance.  
   
-    1.  In [!INCLUDE[win7](../code-quality/includes/win7_md.md)], use the **Start** menu (**Start/All Programs/Microsoft Visual Studio \<version> SDK/Tools/Start Experimental Instance of Microsoft Visual Studio \<version>**.  
+    1.  In [!INCLUDE[win7](../debugger/includes/win7_md.md)], use the **Start** menu (**Start/All Programs/Microsoft Visual Studio \<version> SDK/Tools/Start Experimental Instance of Microsoft Visual Studio \<version>**.  
   
     2.  In [!INCLUDE[win81](../debugger/includes/win81_md.md)], on the **Start** screen, type **Start Experimental Instance of Microsoft Visual Studio \<version>**.  
   

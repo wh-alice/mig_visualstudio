@@ -40,5 +40,5 @@ This error generally occurs when an incorrect character is entered as part of an
 1.  Re-enter the alias name, omitting the incorrect character.  
   
 ## See Also  
- [Alias Command](../ide-reference/alias-command.md)   
- [Visual Studio Command Aliases](../ide-reference/visual-studio-command-aliases.md)
+ [Alias Command](../ide/reference/alias-command.md)   
+ [Visual Studio Command Aliases](../ide/reference/visual-studio-command-aliases.md)

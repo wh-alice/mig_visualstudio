@@ -41,7 +41,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Debug CSS styles using DOM Explorer
-![Applies to Windows and Windows Phone](../code-quality/media/windows_and_phone_content.png "windows_and_phone_content")  
+![Applies to Windows and Windows Phone](../debugger/media/windows_and_phone_content.png "windows_and_phone_content")  
   
  When you're debugging Windows Store apps, Windows Phone Store apps, and apps created using Visual Studio Tools for Apache Cordova, you can view and change CSS rules for selected DOM elements and their child elements.  
   
@@ -62,14 +62,14 @@ translation.priority.mt:
 >  Changes you make to styles in the **Styles** and **Computed** tabs aren't permanent. They're lost when you stop debugging. To change source code and reload pages without stopping and restarting the debugger, refresh your app by using the  ![Refresh Windows app button](../debugger/media/js_refresh.png "JS_Refresh") button (**Refresh Windows app**) on the **Debug** toolbar (Windows Store and Windows Phone Store apps only). For more info, see [Refresh an app (JavaScript)](../debugger/refresh-an-app--javascript-.md).  
   
 ## Example of fixing a CSS rule  
- This example shows how to inspect CSS rules and debug a style issue. For this example, let's say that you want to change the color of a font used to display group titles in the [!INCLUDE[win8_appname_long](../code-quality/includes/win8_appname_long_md.md)] Split App template.  
+ This example shows how to inspect CSS rules and debug a style issue. For this example, let's say that you want to change the color of a font used to display group titles in the [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] Split App template.  
   
 > [!NOTE]
 >  This example shows a Windows Store app, but all the DOM Explorer features shown also apply to a Windows Phone Store app and, except for the Changes tab, an app created using Visual Studio Tools for Apache Cordova.  
   
 #### To view and change CSS rules  
   
-1.  In Visual Studio, create a [!INCLUDE[win8_appname_long](../code-quality/includes/win8_appname_long_md.md)] app using JavaScript and HTML in the Split App project template.  
+1.  In Visual Studio, create a [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] app using JavaScript and HTML in the Split App project template.  
   
 2.  In **Solution Explorer**, open items.css. (You can find items.css in the pages folder.)  
   

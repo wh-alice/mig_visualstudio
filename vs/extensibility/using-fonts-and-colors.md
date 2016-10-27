@@ -78,7 +78,7 @@ The [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] provides suppor
  Controls the caching of font and color settings.  
   
 ## Related Sections  
- [Developing a Legacy Language Service](../extensibility-internals/developing-a-legacy-language-service.md)  
+ [Developing a Legacy Language Service](../extensibility/internals/developing-a-legacy-language-service.md)  
  Discusses how VSPackages can use language services to customize the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] editor.  
   
  [Syntax Coloring in Custom Editors](../extensibility/syntax-coloring-in-custom-editors.md)  

@@ -68,7 +68,7 @@ Contains the data that is passed to a `UsingTask``TaskFactory`. For more informa
   
 |Element|Description|  
 |-------------|-----------------|  
-|[UsingTask](../msbuild/usingtask-element--msbuild-.md)|Provides a way to register tasks in [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)]. There may be zero or more `UsingTask` elements in a project.|  
+|[UsingTask](../msbuild/usingtask-element--msbuild-.md)|Provides a way to register tasks in [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]. There may be zero or more `UsingTask` elements in a project.|  
   
 ## Example  
  The following example shows how to use the `TaskBody` element with an `Evaluate` attribute.  

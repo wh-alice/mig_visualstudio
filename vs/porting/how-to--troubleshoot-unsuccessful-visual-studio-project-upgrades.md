@@ -68,5 +68,5 @@ Sometimes Visual Studio cannot fully convert a project from an earlier version o
  If you want your project to run in the upgraded [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] version, you must update the references for the project, and also update any `Imports` or `Using` statements that call the references. If your project loads in the IDE, you can update the references by using **Solution Explorer** or the **Reference Manager** dialog box.  
   
 ## See Also  
- [/Upgrade (devenv.exe)](../ide-reference/-upgrade--devenv.exe-.md)   
+ [/Upgrade (devenv.exe)](../ide/reference/-upgrade--devenv.exe-.md)   
  [Converting to ASP.NET 4](../Topic/Converting%20to%20ASP.NET%204.md)

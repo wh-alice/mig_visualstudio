@@ -62,7 +62,7 @@ This message appears when virtual memory is low and [!INCLUDE[vsprvs](../code-qu
   
 -   Running IntelliTrace on multiple projects.  
   
- If these measures don't prevent the error, you can increase your available address space on a system that's running [!INCLUDE[win7](../code-quality/includes/win7_md.md)] if you run bcedit.exe with the following syntax:  
+ If these measures don't prevent the error, you can increase your available address space on a system that's running [!INCLUDE[win7](../debugger/includes/win7_md.md)] if you run bcedit.exe with the following syntax:  
   
  **bcdedit /set IncreaseUserVa 3072**  
   
@@ -74,4 +74,4 @@ This message appears when virtual memory is low and [!INCLUDE[vsprvs](../code-qu
  Even after you increase your virtual memory allocation to 3 GB, this error might recur because any single application can still use only 2 GB of virtual memory. If this error continues to appear, reduce the size of your solution, and then restart [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. You can reduce your solution either by refactoring it to remove projects that are infrequently used or by unloading projects that aren’t needed. If the error occurs when you build your solution, try building it at a command prompt.  
   
 ## See Also  
- [Resources for Troubleshooting IDE Errors](../ide-reference/resources-for-troubleshooting-integrated-development-environment-errors.md)
+ [Resources for Troubleshooting IDE Errors](../ide/reference/resources-for-troubleshooting-integrated-development-environment-errors.md)

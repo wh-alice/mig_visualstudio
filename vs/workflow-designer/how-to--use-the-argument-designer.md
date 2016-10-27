@@ -30,11 +30,11 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Use the Argument Designer
-Compared to previous versions of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], the argument designer makes it easy to allow data to flow into and out of an activity. The designer is accessed by clicking the **Arguments** button in the lower-left corner of the design canvas. The designer contains a list of arguments that appear in a tabular form and can be sorted by each of the column headers, except for the **Default value** column. Each argument contains a name, in/out/in-out/property direction, type, and default expression value (if any). The name and the default expression value are editable text fields, and the type and direction are drop-downs. [!INCLUDE[crabout](../code-quality/includes/crabout_md.md)] arguments, see [Variables and Arguments](../Topic/Variables%20and%20Arguments.md).  
+Compared to previous versions of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], the argument designer makes it easy to allow data to flow into and out of an activity. The designer is accessed by clicking the **Arguments** button in the lower-left corner of the design canvas. The designer contains a list of arguments that appear in a tabular form and can be sorted by each of the column headers, except for the **Default value** column. Each argument contains a name, in/out/in-out/property direction, type, and default expression value (if any). The name and the default expression value are editable text fields, and the type and direction are drop-downs. [!INCLUDE[crabout](../test/includes/crabout_md.md)] arguments, see [Variables and Arguments](../Topic/Variables%20and%20Arguments.md).  
   
 ### To create a new argument  
   
-1.  Open a workflow or activity solution in [!INCLUDE[vs2010](../code-quality/includes/vs2010_md.md)].  
+1.  Open a workflow or activity solution in [!INCLUDE[vs2010](../modeling/includes/vs2010_md.md)].  
   
 2.  Open the arguments designer by clicking the **Arguments** button in the lower-left corner of the design canvas. The arguments designer appears.  
   

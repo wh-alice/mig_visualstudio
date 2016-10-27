@@ -45,5 +45,5 @@ translation.priority.mt:
   
 ## See Also  
  [Using Statement](../Topic/Using%20Statement%20\(Visual%20Basic\).md)   
- [Immediate Window](../ide-reference/immediate-window.md)   
+ [Immediate Window](../ide/reference/immediate-window.md)   
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)

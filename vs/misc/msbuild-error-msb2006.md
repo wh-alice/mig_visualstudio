@@ -36,7 +36,7 @@ translation.priority.mt:
 # MSBuild Error MSB2006
 **The project file does not contain the root element \<{0}>.**  
   
- The root element name is not spelled correctly or is not recognized by [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)].  
+ The root element name is not spelled correctly or is not recognized by [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)].  
   
 ### To correct this error  
   

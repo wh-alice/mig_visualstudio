@@ -30,7 +30,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Debugging Workflows with the Workflow Designer
-The [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] provides the ability to debug workflows and custom activities. The process and behavior are similar to that of the default [!INCLUDE[vs2010](../code-quality/includes/vs2010_md.md)] debugger. The topics in this section describe how to perform traditional debugging procedures as well as debugging XAML and expressions.  
+The [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)] provides the ability to debug workflows and custom activities. The process and behavior are similar to that of the default [!INCLUDE[vs2010](../modeling/includes/vs2010_md.md)] debugger. The topics in this section describe how to perform traditional debugging procedures as well as debugging XAML and expressions.  
   
 ## In This Section  
  [How to: Invoke the Workflow Debugger](../workflow-designer/how-to--invoke-the-workflow-debugger.md)  

@@ -60,4 +60,4 @@ The methods <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.G
     ```  
   
 ## See Also  
- [Persisting Data in the MSBuild Project File](../extensibility-internals/persisting-data-in-the-msbuild-project-file.md)
+ [Persisting Data in the MSBuild Project File](../extensibility/internals/persisting-data-in-the-msbuild-project-file.md)

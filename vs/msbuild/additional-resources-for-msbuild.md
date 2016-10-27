@@ -36,19 +36,19 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Additional Resources for MSBuild
-The following Web sites and forums can help you find answers to common questions when working with [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)].  
+The following Web sites and forums can help you find answers to common questions when working with [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)].  
   
 ## Microsoft Resources  
   
 ### On the Web  
  [MSBuild Channel 9 Web Site](http://go.microsoft.com/fwlink/?LinkId=243092)  
- Contains information about [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] and links to other [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] sites on the Web.  
+ Contains information about [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] and links to other [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] sites on the Web.  
   
  [MSBuild Team Blog](http://go.microsoft.com/fwlink/?LinkId=65846)  
- Contains information, links, and updates written by the [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] product team.  
+ Contains information, links, and updates written by the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] product team.  
   
  [Visual Studio MSBuild Forum](http://go.microsoft.com/fwlink/?LinkId=48931)  
- A community forum dedicated to [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)].  
+ A community forum dedicated to [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)].  
   
 ## See Also  
  [MSBuild](../msbuild/msbuild1.md)   

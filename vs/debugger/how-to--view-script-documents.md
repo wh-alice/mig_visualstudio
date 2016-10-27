@@ -38,7 +38,7 @@ translation.priority.ht:
 # How to: View Script Documents
 In earlier versions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], client-side script files generated from server-side script appeared in the Script Explorer window. The Script Explorer window was often hidden, so that the availability of client-side script was not always obvious.  
   
- In [!INCLUDE[vs_dev11_long](../code-quality/includes/vs_dev11_long_md.md)], client-side script files generated from server-side script appear in Solution Explorer, which is visible by default. The Script Explorer window has been eliminated.  
+ In [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)], client-side script files generated from server-side script appear in Solution Explorer, which is visible by default. The Script Explorer window has been eliminated.  
   
  Client-side script files are visible only when you are in debug mode or break mode. They appear in the **Script Documents** node.  
   

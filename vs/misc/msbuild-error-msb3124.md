@@ -43,5 +43,5 @@ translation.priority.mt:
 -   Remove [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md)`extension` attributes that are not unique. Each listed \<fileAssociation> element's extension attributes must be unique.  
   
 ## See Also  
- [Publish Page, Project Designer](../ide-reference/publish-page--project-designer.md)   
+ [Publish Page, Project Designer](../ide/reference/publish-page--project-designer.md)   
  [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md)

@@ -44,4 +44,4 @@ A service can be obtained from any program that has access to the [!INCLUDE[vspr
   
 ## See Also  
  [Using and Providing Services](../extensibility/using-and-providing-services.md)   
- [Service Essentials](../extensibility-internals/service-essentials.md)
+ [Service Essentials](../extensibility/internals/service-essentials.md)

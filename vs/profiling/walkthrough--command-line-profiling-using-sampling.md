@@ -48,7 +48,7 @@ This walkthrough demonstrates how to profile an application by using command-lin
   
 -   [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)], [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)], or [!INCLUDE[vsPro](../code-quality/includes/vspro_md.md)]  
   
--   Intermediate understanding of [!INCLUDE[csharp_current_short](../code-quality/includes/csharp_current_short_md.md)]  
+-   Intermediate understanding of [!INCLUDE[csharp_current_short](../misc/includes/csharp_current_short_md.md)]  
   
 -   Intermediate understanding of working with command line tools  
   

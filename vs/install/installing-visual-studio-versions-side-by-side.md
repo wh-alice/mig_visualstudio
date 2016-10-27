@@ -44,7 +44,7 @@ You can install this version of Visual Studio on a computer that already has an 
   
 -   If you try to use Visual Studio 2015 to open a solution that was created in [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md)] or an earlier version, you might need to modify your projects and files to be compatible with Visual Studio 2015. For more information, see  [Porting, Migrating, and Upgrading Visual Studio Projects](../porting/porting--migrating--and-upgrading-visual-studio-projects.md).  
   
--   If you uninstall a version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] on a computer that has more than one version installed, the file associations for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] are removed for all versions. You can remap these file associations by using the **Restore File Associations** button on the **Environment**, **General** page of the [Options](../ide-reference/general--environment--options-dialog-box.md) dialog box.  
+-   If you uninstall a version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] on a computer that has more than one version installed, the file associations for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] are removed for all versions. You can remap these file associations by using the **Restore File Associations** button on the **Environment**, **General** page of the [Options](../ide/reference/general--environment--options-dialog-box.md) dialog box.  
   
 -   Visual Studio doesn't automatically upgrade extensions because not all extensions are compatible. You must reinstall the extensions from the [Visual Studio Gallery](http://go.microsoft.com/fwlink/?LinkId=178891) or the software publisher.  
   
@@ -58,11 +58,11 @@ You can install this version of Visual Studio on a computer that already has an 
   
     |Language|Topic|  
     |--------------|-----------|  
-    |[!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]|[Application Page, Project Designer (Visual Basic)](../ide-reference/application-page--project-designer--visual-basic-.md)|  
-    |Visual C#|[Application Page, Project Designer (C#)](../ide-reference/application-page--project-designer--csharp-.md)|  
+    |[!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]|[Application Page, Project Designer (Visual Basic)](../ide/reference/application-page--project-designer--visual-basic-.md)|  
+    |Visual C#|[Application Page, Project Designer (C#)](../ide/reference/application-page--project-designer--csharp-.md)|  
     |Visual F#|[Configuring Projects](../Topic/Configuring%20Projects%20\(F%23\).md)|  
     |C++|[How to: Modify the Target Framework and Platform Toolset](../Topic/How%20to:%20Modify%20the%20Target%20Framework%20and%20Platform%20Toolset.md)|  
-    |[!INCLUDE[jsprjscript](../debug-interface-access/includes/jsprjscript_md.md)]|[Running a JScript Application on a Previous Version of the Common Language Runtime](http://msdn.microsoft.com/en-us/bbea51b5-ac03-4e6c-b9a6-f487ef63eda5)|  
+    |[!INCLUDE[jsprjscript](../debugger/debug-interface-access/includes/jsprjscript_md.md)]|[Running a JScript Application on a Previous Version of the Common Language Runtime](http://msdn.microsoft.com/en-us/bbea51b5-ac03-4e6c-b9a6-f487ef63eda5)|  
   
 ## See Also  
  [Installing Visual Studio 2015](../install/installing-visual-studio-2015.md)   

@@ -37,7 +37,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # MSBuild Conditions
-[!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] supports a specific set of conditions that can be applied wherever a `Condition` attribute is allowed. The following table explains those conditions.  
+[!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] supports a specific set of conditions that can be applied wherever a `Condition` attribute is allowed. The following table explains those conditions.  
   
 |Condition|Description|  
 |---------------|-----------------|  

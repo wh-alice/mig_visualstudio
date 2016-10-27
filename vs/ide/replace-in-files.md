@@ -103,4 +103,4 @@ translation.priority.ht:
 ## See Also  
  [Finding and Replacing Text](../ide/finding-and-replacing-text.md)   
  [Find in Files](../ide/find-in-files.md)   
- [Visual Studio Commands](../ide-reference/visual-studio-commands.md)
+ [Visual Studio Commands](../ide/reference/visual-studio-commands.md)

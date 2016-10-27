@@ -34,7 +34,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Extending User Settings and Options
-In Visual Studio there are two main ways to maintain user preferences. The **Tools / Options** pages allow users to set their own values for many different kinds of settings, both general and language-specific. User settings allow users to specify general Visual Studio configuration properties. For more information about options pages, see [Options and Options Pages](../extensibility-internals/options-and-options-pages.md). For more information about user settings, see [Support for User Settings](../Topic/Support%20for%20User%20Settings.md).  
+In Visual Studio there are two main ways to maintain user preferences. The **Tools / Options** pages allow users to set their own values for many different kinds of settings, both general and language-specific. User settings allow users to specify general Visual Studio configuration properties. For more information about options pages, see [Options and Options Pages](../extensibility/internals/options-and-options-pages.md). For more information about user settings, see [Support for User Settings](../Topic/Support%20for%20User%20Settings.md).  
   
  [Creating an Options Page](../extensibility/creating-an-options-page.md)  
  Explains how to create an options page.  

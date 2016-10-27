@@ -48,7 +48,7 @@ If you cannot use Visual Studio to deploy your [!INCLUDE[ndptecclick](../deploym
   
 -   Install Mage.exe and MageUI.exe.  
   
-     Mage.exe and MageUI.exe are part of the [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)]. You must either have the [!INCLUDE[winsdkshort](../debug-interface-access/includes/winsdkshort_md.md)] installed or the version of the [!INCLUDE[winsdkshort](../debug-interface-access/includes/winsdkshort_md.md)] included with Visual Studio. For more information, see [Windows SDK](http://go.microsoft.com/fwlink/?LinkId=158044) on MSDN.  
+     Mage.exe and MageUI.exe are part of the [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)]. You must either have the [!INCLUDE[winsdkshort](../debugger/debug-interface-access/includes/winsdkshort_md.md)] installed or the version of the [!INCLUDE[winsdkshort](../debugger/debug-interface-access/includes/winsdkshort_md.md)] included with Visual Studio. For more information, see [Windows SDK](http://go.microsoft.com/fwlink/?LinkId=158044) on MSDN.  
   
 -   Provide an application to deploy.  
   
@@ -90,7 +90,7 @@ If you cannot use Visual Studio to deploy your [!INCLUDE[ndptecclick](../deploym
   
 3.  Copy all of your application files to the version subdirectory, including executable files, assemblies, resources, and data files. If necessary, you can create additional subdirectories that contain additional files.  
   
-4.  Open the [!INCLUDE[winsdkshort](../debug-interface-access/includes/winsdkshort_md.md)] or Visual Studio command prompt and change to the version subdirectory.  
+4.  Open the [!INCLUDE[winsdkshort](../debugger/debug-interface-access/includes/winsdkshort_md.md)] or Visual Studio command prompt and change to the version subdirectory.  
   
 5.  Create the application manifest with a call to Mage.exe. The following statement creates an application manifest for code compiled to run on the Intel x86 processor.  
   

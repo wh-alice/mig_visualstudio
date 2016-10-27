@@ -45,4 +45,4 @@ Variable declarations cannot be used in the **Immediate** window.
   
 ## See Also  
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)   
- [Immediate Window](../ide-reference/immediate-window.md)
+ [Immediate Window](../ide/reference/immediate-window.md)

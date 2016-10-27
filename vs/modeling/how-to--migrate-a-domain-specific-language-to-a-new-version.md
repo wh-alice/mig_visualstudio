@@ -13,7 +13,7 @@ ms.author: "awills"
 manager: "douge"
 ---
 # How to: Migrate a Domain-Specific Language to a New Version
-You can migrate projects that define and use domain-specific language to [!INCLUDE[vs2010](../code-quality/includes/vs2010_md.md)] from the version of [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] that was distributed with [!INCLUDE[vs_orcas_long](../code-quality/includes/vs_orcas_long_md.md)].  
+You can migrate projects that define and use domain-specific language to [!INCLUDE[vs2010](../modeling/includes/vs2010_md.md)] from the version of [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] that was distributed with [!INCLUDE[vs_orcas_long](../debugger/includes/vs_orcas_long_md.md)].  
   
  A migration tool is provided as part of [!INCLUDE[vssdk_current_long](../misc/includes/vssdk_current_long_md.md)]. The tool converts [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] projects and solutions that use or define DSL Tools.  
   

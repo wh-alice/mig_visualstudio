@@ -72,5 +72,5 @@ This error occurs when you attempt to create a new file from the Command window,
 -   Enter the command with a new file name that does not contain the characters listed above.  
   
 ## See Also  
- [New File Command](../ide-reference/new-file-command.md)   
- [Visual Studio Commands](../ide-reference/visual-studio-commands.md)
+ [New File Command](../ide/reference/new-file-command.md)   
+ [Visual Studio Commands](../ide/reference/visual-studio-commands.md)

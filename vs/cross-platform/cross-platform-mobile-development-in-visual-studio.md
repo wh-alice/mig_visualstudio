@@ -1,7 +1,7 @@
 ---
 title: "Cross-Platform Mobile Development in Visual Studio"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/27/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -10,7 +10,7 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8202717a-e990-45cf-b092-438651ccb38a
-caps.latest.revision: 63
+caps.latest.revision: 64
 ms.author: "kraigb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -61,7 +61,7 @@ You can build apps for Android, iOS, and Windows devices by using Visual Studio.
 |[Learn about Xamarin in Visual Studio](http://www.visualstudio.com/explore/xamarin-vs) (VisualStudio.com)|  
 |[Visual Studio and Xamarin](../cross-platform/visual-studio-and-xamarin.md) (MSDN Library)|  
 |[Application Lifecycle Management (ALM) with Xamarin apps](../cross-platform/application-lifecycle-management--alm--with-xamarin-apps.md) (MSDN Library)|  
-|[Learn about universal Windows apps in Visual Studio](http://www.visualstudio.com/explore/universal-apps-vs) (VisualStudio.com)|  
+|[Learn about universal Windows apps in Visual Studio](https://www.visualstudio.com/vs/universal-windows-platform/) (VisualStudio.com)|  
 |[Learn about the similarities between Swift and C#](http://aka.ms/scposter) (download.microsoft.com)|  
 |[Learn about the Visual Studio Emulator for Android](http://www.visualstudio.com/explore/msft-android-emulator-vs) (VisualStudio.com)|  
   
@@ -156,7 +156,7 @@ You can build apps for Android, iOS, and Windows devices by using Visual Studio.
 |--------------------|  
 |[Download Visual Studio.](http://www.visualstudio.com/products/visual-studio-community-vs) (VisualStudio.com)|  
 |[Install the Visual C++ for Cross-Platform Mobile Development tools.](https://msdn.microsoft.com/library/dn872463\(v=vs.140\).aspx) (MSDN Library)|  
-|[Learn more about using C++ to target multiple platforms.](http://www.visualstudio.com/explore/cplusplus-mdd-vs.aspx) (VisualStudio.com)|  
+|[Learn more about using C++ to target multiple platforms.](https://www.visualstudio.com/vs/cplusplus-mdd/) (VisualStudio.com)|  
 |[Install what you need, and then create a native activity application for Android](https://msdn.microsoft.com/library/dn872463\(v=vs.140\).aspx) (MSDN Library)|  
 |[Learn about the Visual Studio Emulator for Android](http://www.visualstudio.com/explore/msft-android-emulator-vs) (VisualStudio.com)|  
 |[Learn more about sharing C++ code with Android and Windows apps](http://www.visualstudio.com/explore/cplusplus-mdd-vs.aspx) (VisualStudio.com)|  

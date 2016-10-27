@@ -49,7 +49,7 @@ You can display related data by dragging items that share the same main table no
  ![Data Sources Window showing relation](../data-tools/media/datasources2.gif "DataSources2")  
 Creating data-bound controls that display related records  
   
- ![link to video](../code-quality/media/playvideo.gif "PlayVideo") For a video version of this topic, see [How do I: Update Related Tables](http://go.microsoft.com/fwlink/?LinkId=143527).  
+ ![link to video](../data-tools/media/playvideo.gif "PlayVideo") For a video version of this topic, see [How do I: Update Related Tables](http://go.microsoft.com/fwlink/?LinkId=143527).  
   
 ### To create controls that display related records  
   

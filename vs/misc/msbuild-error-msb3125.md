@@ -43,5 +43,5 @@ translation.priority.mt:
 -   Set the [\<entryPoint> Element](../deployment/-entrypoint--element--clickonce-application-.md) to a valid value. For more information, see [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md).  
   
 ## See Also  
- [Publish Page, Project Designer](../ide-reference/publish-page--project-designer.md)   
+ [Publish Page, Project Designer](../ide/reference/publish-page--project-designer.md)   
  [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md)

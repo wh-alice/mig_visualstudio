@@ -370,7 +370,7 @@ Make sure that your software system meets users' needs by using the visualizatio
   
  See:  
   
--   [Testing the application](../test/test-apps-early-and-often.md)  
+-   [Testing the application](../Topic/Test%20apps%20early%20and%20often.md)  
   
 -   [Validate your system during development](../modeling/validate-your-system-during-development.md)  
   

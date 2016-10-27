@@ -49,4 +49,4 @@ VSPackages are ordinarily loaded only when their accompanying functionality is r
   
 ## See Also  
  [Managing VSPackages](../extensibility/managing-vspackages.md)   
- [VSPackages](../extensibility-internals/vspackages.md)
+ [VSPackages](../extensibility/internals/vspackages.md)

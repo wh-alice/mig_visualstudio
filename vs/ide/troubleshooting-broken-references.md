@@ -102,5 +102,5 @@ If your application attempts to use a broken reference, an exception error is ge
   
 ## See Also  
  [Introduction to the Project Designer](http://msdn.microsoft.com/en-us/898dd854-c98d-430c-ba1b-a913ce3c73d7)   
- [References Page, Project Designer (Visual Basic)](../ide-reference/references-page--project-designer--visual-basic-.md)   
+ [References Page, Project Designer (Visual Basic)](../ide/reference/references-page--project-designer--visual-basic-.md)   
  [NIB How to: Add or Remove References By Using the Add Reference Dialog Box](http://msdn.microsoft.com/en-us/3bd75d61-f00c-47c0-86a2-dd1f20e231c9)

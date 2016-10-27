@@ -96,7 +96,7 @@ _asm int 3
  [In this topic](#BKMK_In_this_topic)  
   
 ##  <a name="BKMK_The_TRACE_macro"></a> The TRACE macro  
- To display messages from your program in the debugger [Output window](../ide-reference/output-window.md), you can use the [ATLTRACE](../Topic/ATLTRACE%20\(ATL\).md) macro or the MFC [TRACE](../Topic/TRACE.md) macro. Like [assertions](../debugger/c-c---assertions.md), the trace macros are active only in the Debug version of your program and disappear when compiled in the Release version.  
+ To display messages from your program in the debugger [Output window](../ide/reference/output-window.md), you can use the [ATLTRACE](../Topic/ATLTRACE%20\(ATL\).md) macro or the MFC [TRACE](../Topic/TRACE.md) macro. Like [assertions](../debugger/c-c---assertions.md), the trace macros are active only in the Debug version of your program and disappear when compiled in the Release version.  
   
  The following examples show some of the ways you can use the **TRACE** macro. Like `printf`, the **TRACE** macro can handle a number of arguments.  
   
@@ -373,7 +373,7 @@ Phone #: 581-0215
  [In this topic](#BKMK_In_this_topic)  
   
 ####  <a name="BKMK_Customizing_object_dumps"></a> Customizing object dumps  
- When you derive a class from [CObject](../Topic/CObject%20Class.md), you can override the `Dump` member function to provide additional information when you use [DumpAllObjectsSince](../Topic/CMemoryState::DumpAllObjectsSince.md) to dump objects to the [Output window](../ide-reference/output-window.md).  
+ When you derive a class from [CObject](../Topic/CObject%20Class.md), you can override the `Dump` member function to provide additional information when you use [DumpAllObjectsSince](../Topic/CMemoryState::DumpAllObjectsSince.md) to dump objects to the [Output window](../ide/reference/output-window.md).  
   
  The `Dump` function writes a textual representation of the object's member variables to a dump context ([CDumpContext](../Topic/CDumpContext%20Class.md)). The dump context is similar to an I/O stream. You can use the append operator (**<<**) to send data to a `CDumpContext`.  
   

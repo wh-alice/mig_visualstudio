@@ -1,7 +1,7 @@
 ---
 title: "Registering Toolbox Support Features"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "10/27/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

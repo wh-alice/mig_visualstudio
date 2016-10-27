@@ -1,13 +1,13 @@
 ---
 title: "Setup, install, and verifications for Mac users"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "10/27/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 22725520-59ba-4f6f-80e4-097b1287a34b
-caps.latest.revision: 9
+caps.latest.revision: 10
 ms.author: "kraigb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -27,7 +27,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Setup, install, and verifications for Mac users
-This topic is meant for developers working primarily on a Mac who will optionally use Visual Studio inside a Windows virtual machine on the Mac. If you are a developer working primarily on a Windows machine and need to set up a secondary Mac for targeting iOS, see the main [Setup and install](../cross-platform/setup-and-install.md) topic.  
+This topic is meant for developers working primarily on a Mac who will optionally use Visual Studio inside a Windows virtual machine on the Mac. If you are a developer working primarily on a Windows computer and need to set up a secondary Mac for targeting iOS, see the main [Setup and install](../cross-platform/setup-and-install.md) topic.  
   
  To work with Xamarin on a Mac, you’ll need the following:  
   
@@ -59,7 +59,7 @@ This topic is meant for developers working primarily on a Mac who will optionall
   
 3.  Download and install Xamarin by following the instructions on [Installing and Configuring Xamarin.iOS](http://developer.xamarin.com/guides/ios/getting_started/installation/mac/) (xamarin.com).  
   
-4.  Once you’ve completed installing Xamarin on both the Windows and Mac machines, follow the instructions on [Connecting to the Mac using XMA](http://developer.xamarin.com/guides/ios/getting_started/installation/windows/#Connecting_to_the_Mac_Using_XMA) (xamarin.com) so that you can work with iOS and the Mac from Visual Studio on the Windows machine.  
+4.  Once you’ve completed installing Xamarin on both the Windows and Mac computers, follow the instructions on [Connecting to the Mac using XMA](http://developer.xamarin.com/guides/ios/getting_started/installation/windows/#Connecting_to_the_Mac_Using_XMA) (xamarin.com) so that you can work with iOS and the Mac from Visual Studio on the Windows computer.  
   
 ##  <a name="windows"></a> Windows setup inside Parallels (Visual Studio and Xamarin)  
   
@@ -69,13 +69,13 @@ This topic is meant for developers working primarily on a Mac who will optionall
   
      ![Choosing the Custom option in Visual Studio installation](../cross-platform/media/cross-plat-xamarin-setup-1.png "Cross-Plat Xamarin Setup 1")  
   
-3.  Check/uncheck the following boxes:  
+3.  Check/clear the following boxes:  
   
     1.  Check **Cross-Platform Mobile Development > C#/.NET (Xamarin)**. This will also automatically select various Android tools under Common Tools and Software Development Kits.  
   
          ![Select the Xamarin option under Cross&#45;Platform Mobile Development](../cross-platform/media/cross-plat-xamarin-setup-2.png "Cross-Plat Xamarin Setup 2")  
   
-    2.  Uncheck **Cross-Platform Mobile Development > Microsoft Visual Studio Emulator for Android**.  
+    2.  Clear **Cross-Platform Mobile Development > Microsoft Visual Studio Emulator for Android**.  
   
 4.  Click the Install button and let the process run. Again, this will take some time to complete, during which time you can continue with this topic and go through [Learn about mobile development with Xamarin](../cross-platform/learn-about-mobile-development-with-xamarin.md).  
   
@@ -86,7 +86,7 @@ This topic is meant for developers working primarily on a Mac who will optionall
     > [!NOTE]
     >  Be sure to update Xamarin to version 4.0.3.214 or higher to avoid issues with earlier Xamarin licenses.  If you attempt to check for updates and see an error about Microsoft build tools, see the thread on [Xamarin's forums](http://forums.xamarin.com/discussion/69015/xamarin-update-on-vs-2013-says-i-need-the-build-tools-for-vs-2015).
   
-6.  Once you’ve completed installing Xamarin on both the Windows and Mac machines, follow the instructions on [Connecting to the Mac using XMA](http://developer.xamarin.com/guides/ios/getting_started/installation/windows/#Connecting_to_the_Mac_Using_XMA) (xamarin.com) so that you can work with iOS from Visual Studio.  
+6.  Once you’ve completed installing Xamarin on both the Windows and Mac computers, follow the instructions on [Connecting to the Mac using XMA](http://developer.xamarin.com/guides/ios/getting_started/installation/windows/#Connecting_to_the_Mac_Using_XMA) (xamarin.com) so that you can work with iOS from Visual Studio.  
   
 ##  <a name="verify"></a> Verify your environment  
  Once the installers have completed, spend a few minutes to verify that everything is ready to experience Xamarin development.  

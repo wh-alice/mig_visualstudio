@@ -36,7 +36,7 @@ Logging provides a way for you to monitor the progress of a build. Logging captu
   
 ## In This Section  
  [Obtaining Build Logs](../msbuild/obtaining-build-logs-with-msbuild.md)  
- Describes the various aspects of logging in [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)].  
+ Describes the various aspects of logging in [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)].  
   
  [Build Loggers](../msbuild/build-loggers.md)  
  Outlines the steps required to create a single-processor logger.  

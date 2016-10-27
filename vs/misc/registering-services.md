@@ -63,4 +63,4 @@ regasm /tlb MyAssembly.dll
   
 ## See Also  
  [Using and Providing Services](../extensibility/using-and-providing-services.md)   
- [Service Essentials](../extensibility-internals/service-essentials.md)
+ [Service Essentials](../extensibility/internals/service-essentials.md)

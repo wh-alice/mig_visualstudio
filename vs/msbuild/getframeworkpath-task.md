@@ -54,7 +54,7 @@ Retrieves the path to the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdn
 |`Path`|Optional `String` output parameter.<br /><br /> Contains the path to the latest framework assemblies, if any are available. Otherwise returns `null`.|  
   
 ## Remarks  
- If several versions of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] are installed, this task returns the version that [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] is designed to run on.  
+ If several versions of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] are installed, this task returns the version that [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] is designed to run on.  
   
  In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../msbuild/taskextension-base-class.md).  
   

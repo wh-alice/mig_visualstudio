@@ -50,7 +50,7 @@ The **Extension Analyzer** captures and logs most common extension load failures
 >  You may receive a message asking you to turn on Fusion logging. To do so, select a location for the log files. You may be asked to restart all instances of Visual Studio before continuing.  
   
 ## Log Viewer  
- You can see logging messages with the **Extension Log Viewer** if you are running a project that has logging turned on (by adding /log to the command line arguments of your project). For more information, see [/Log (devenv.exe)](../ide-reference/-log--devenv.exe-.md). The **Extension Log Viewer** window displays the date, the listener, the entry type (type of message), the error type, class/interface information, and the log message. You can sort and filter the information.  
+ You can see logging messages with the **Extension Log Viewer** if you are running a project that has logging turned on (by adding /log to the command line arguments of your project). For more information, see [/Log (devenv.exe)](../ide/reference/-log--devenv.exe-.md). The **Extension Log Viewer** window displays the date, the listener, the entry type (type of message), the error type, class/interface information, and the log message. You can sort and filter the information.  
   
 ## Common Extension Loading Issues  
  Some of the typical reasons for an extension load failure in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] are:  

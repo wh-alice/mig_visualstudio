@@ -40,4 +40,4 @@ All VSPackages must implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVs
 >  Much of the unmanaged sample code in the Visual Studio Integration section of the [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] uses the Active Template Library (ATL). You do not need to use ATL to create VSPackages, but you must understand ATL to understand the sample code.  
   
 ## See Also  
- [VSPackages](../extensibility-internals/vspackages.md)
+ [VSPackages](../extensibility/internals/vspackages.md)

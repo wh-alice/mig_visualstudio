@@ -37,7 +37,7 @@ translation.priority.mt:
 # Extending Properties and the Property Window
 The **Properties** window is used to view and edit the design-time properties and events of selected objects.  
   
- When you select an object in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], the public properties of that object appear in the **Properties** window. For more information, see [Properties Window Overview](../extensibility-internals/properties-window-overview.md).  
+ When you select an object in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], the public properties of that object appear in the **Properties** window. For more information, see [Properties Window Overview](../extensibility/internals/properties-window-overview.md).  
   
 ## In This Section  
  [Exposing Properties to the Properties Window](../extensibility/exposing-properties-to-the-properties-window.md)  

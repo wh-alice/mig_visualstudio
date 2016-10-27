@@ -43,6 +43,6 @@ translation.priority.mt:
 -   Enable ClickOnce security settings and set the application to a full trust application. For more information, see [How to: Enable ClickOnce Security Settings](../deployment/how-to--enable-clickonce-security-settings.md).  
   
 ## See Also  
- [Publish Page, Project Designer](../ide-reference/publish-page--project-designer.md)   
+ [Publish Page, Project Designer](../ide/reference/publish-page--project-designer.md)   
  [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md)   
  [Code Access Security for ClickOnce Applications](../deployment/code-access-security-for-clickonce-applications.md)

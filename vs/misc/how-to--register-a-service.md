@@ -56,4 +56,4 @@ The managed package framework (MPF) provides attributes to control the registrat
   
 ## See Also  
  [Registering VSPackages](http://msdn.microsoft.com/en-us/31e6050f-1457-4849-944a-a3c36b76f3dd)   
- [Service Essentials](../extensibility-internals/service-essentials.md)
+ [Service Essentials](../extensibility/internals/service-essentials.md)

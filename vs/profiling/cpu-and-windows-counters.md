@@ -50,7 +50,7 @@ The Visual Studio Profiler enables you to collect performance data that was gene
 ## CPU Counters  
  CPU counters are a feature of the computer's CPU that store the count of hardware-related events.  When you collect CPU counter data by using the instrumentation profiling method, the data is appended to the data for functions and modules. You can collect multiple CPU counters using the instrumentation method. When you use the sampling method, you select one counter to use as the event to be sampled.  
   
- Performance counters are CPU-specific. Different models and versions of a CPU can have significantly different configuration settings to enable the same performance counter. [!INCLUDE[vs_dev11_long](../code-quality/includes/vs_dev11_long_md.md)] Profiler portable events decouple some common performance counters from specific processors and enable you to collect or sample generic performance events.  
+ Performance counters are CPU-specific. Different models and versions of a CPU can have significantly different configuration settings to enable the same performance counter. [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)] Profiler portable events decouple some common performance counters from specific processors and enable you to collect or sample generic performance events.  
   
  If you want to count a particular event when you use the profiler, for example, L2 cache misses, you can build a performance session around that event sender. You can do this on any CPU with an L2 cache. The performance session can be moved from platform to platform without modification.  
   
@@ -59,7 +59,7 @@ The Visual Studio Profiler enables you to collect performance data that was gene
 ## Portable and Platform events  
  Portable events are a group of CPU counters that are not specific to a specific processor. All other CPU counters are called platform events, and might not be supported on various platforms.  
   
- Counters for both portable and platform events are defined in .XML files, where specific values that are related to the counters are provided. There are multiple files for different CPUs, because data for Intel and AMD CPUs, for example, are different. The [!INCLUDE[vs_orcas_long](../code-quality/includes/vs_orcas_long_md.md)] Profiler uses this information to present appropriate counters, both portable and platform, to the user for performance measurement.  
+ Counters for both portable and platform events are defined in .XML files, where specific values that are related to the counters are provided. There are multiple files for different CPUs, because data for Intel and AMD CPUs, for example, are different. The [!INCLUDE[vs_orcas_long](../debugger/includes/vs_orcas_long_md.md)] Profiler uses this information to present appropriate counters, both portable and platform, to the user for performance measurement.  
   
 ### Portable Events  
  Portable events contain the following events:  

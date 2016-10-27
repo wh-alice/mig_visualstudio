@@ -197,7 +197,7 @@ ZipProjects:
   
 1.  Reset the Visual Studio SDK experimental instance.  
   
-     On [!INCLUDE[win7](../code-quality/includes/win7_md.md)]: On the Start menu, find the **Microsoft Visual Studio/Microsoft Visual Studio SDK/Tools** folder, and then select **Reset the Microsoft Visual Studio Experimental instance**.  
+     On [!INCLUDE[win7](../debugger/includes/win7_md.md)]: On the Start menu, find the **Microsoft Visual Studio/Microsoft Visual Studio SDK/Tools** folder, and then select **Reset the Microsoft Visual Studio Experimental instance**.  
   
      On later versions of Windows: On the Start screen, type **Reset the Microsoft Visual Studio \<version> Experimental Instance**.  
   

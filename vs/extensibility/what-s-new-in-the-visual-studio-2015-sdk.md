@@ -37,11 +37,11 @@ The Visual Studio SDK has the following new and updated features for Visual Stud
 ## VS 2015 SDK Update 1  
  Update 1 includes tools to help your extension work well with color themes and the Visual Studio image service.  
   
- These topics are under the [VSSDK Utilities](../extensibility-internals/vssdk-utilities.md) section:  
+ These topics are under the [VSSDK Utilities](../extensibility/internals/vssdk-utilities.md) section:  
   
--   The [Color Theming Tools](../extensibility-internals/color-theming-tools.md) help you create and edit custom colors for Visual Studio.  
+-   The [Color Theming Tools](../extensibility/internals/color-theming-tools.md) help you create and edit custom colors for Visual Studio.  
   
--   The [Image Service Tools](../extensibility-internals/image-service-tools.md) let you work with Visual Studio image manifest files.  
+-   The [Image Service Tools](../extensibility/internals/image-service-tools.md) let you work with Visual Studio image manifest files.  
   
 ## New Way to Add the Visual Studio SDK to Visual Studio  
  Starting in Visual Studio 2015, you don't need to download the Visual Studio SDK separately. Instead, you can install it as part of the normal installation process, or you can choose to install it later on. When you open or create  a VSIX solution, Visual Studio will ask you to install the Visual Studio Extensibility Tools. For more information, see [Installing the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).  
@@ -83,4 +83,4 @@ The Visual Studio SDK has the following new and updated features for Visual Stud
  Light bulbs are a new feature that ships with the VSSDK. They are icons used in the Visual Studio editor that expand to display a set of code refactoring actions or fixes for problems identified by the built-in code analyzers. For more information, see [Walkthrough: Displaying Light Bulb Suggestions](../extensibility/walkthrough--displaying-light-bulb-suggestions.md).  
   
 ## Updated User Experience Guidelines  
- Designing new extensions or features for Visual Studio? Check out the updated and expanded [Visual Studio User Experience Guidelines](../extensibility-ux-guidelines/visual-studio-user-experience-guidelines.md).  You’ll find the [color tokens](../extensibility-ux-guidelines/shared-colors-for-visual-studio.md), [font sizes](../extensibility-ux-guidelines/fonts-and-formatting-for-visual-studio.md), [dialog layout specifications](../extensibility-ux-guidelines/layout-for-visual-studio.md), and other guidance you need to seamlessly integrate your new UI with Visual Studio.
+ Designing new extensions or features for Visual Studio? Check out the updated and expanded [Visual Studio User Experience Guidelines](../extensibility/ux-guidelines/visual-studio-user-experience-guidelines.md).  You’ll find the [color tokens](../extensibility/ux-guidelines/shared-colors-for-visual-studio.md), [font sizes](../extensibility/ux-guidelines/fonts-and-formatting-for-visual-studio.md), [dialog layout specifications](../extensibility/ux-guidelines/layout-for-visual-studio.md), and other guidance you need to seamlessly integrate your new UI with Visual Studio.

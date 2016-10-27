@@ -116,7 +116,7 @@ translation.priority.mt:
  You can set the following deployment options on the Debug property page of the startup project.  
   
  **Allow Network Loopback**  
- For security reasons, a [!INCLUDE[win8_appname_long](../code-quality/includes/win8_appname_long_md.md)] app that is installed in the standard manner is not allowed to make network calls to the device it is installed on. By default, Visual Studio deployment creates an exemption from this rule for the deployed app. This exemption allows you to test communication procedures on a single machine. Before you submit your app to the [!INCLUDE[win8_appstore_long](../debugger/includes/win8_appstore_long_md.md)], you should test your app without the exemption.  
+ For security reasons, a [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] app that is installed in the standard manner is not allowed to make network calls to the device it is installed on. By default, Visual Studio deployment creates an exemption from this rule for the deployed app. This exemption allows you to test communication procedures on a single machine. Before you submit your app to the [!INCLUDE[win8_appstore_long](../debugger/includes/win8_appstore_long_md.md)], you should test your app without the exemption.  
   
  To remove the network loopback exemption from the app:  
   

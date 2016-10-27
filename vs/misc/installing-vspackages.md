@@ -38,7 +38,7 @@ This section discusses how to build and install VSPackages and how to support us
  [Supporting Multiple Versions of Visual Studio](../extensibility/supporting-multiple-versions-of-visual-studio.md)  
  Describes issues related to multiple versions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and your VSPackage during development and deployment to end users.  
   
- [Installing VSPackages With Windows Installer](../extensibility-internals/installing-vspackages-with-windows-installer.md)  
+ [Installing VSPackages With Windows Installer](../extensibility/internals/installing-vspackages-with-windows-installer.md)  
  Describes how to release your VSPackages as an installable product.  
   
 ## Related Sections  

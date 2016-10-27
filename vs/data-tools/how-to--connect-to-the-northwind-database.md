@@ -88,7 +88,7 @@ As you learn how to create database applications by using Visual Studio, you'll 
      A data connection to the Northwind database is added to **Server Explorer**/**Database Explorer**.  
   
 > [!NOTE]
->  [!INCLUDE[vs_dev11_long](../code-quality/includes/vs_dev11_long_md.md)] has changes that apply to the Northwind database file (.mdf). For information, see [How to: Install Sample Databases](../data-tools/how-to--install-sample-databases.md).  
+>  [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)] has changes that apply to the Northwind database file (.mdf). For information, see [How to: Install Sample Databases](../data-tools/how-to--install-sample-databases.md).  
   
 #### To create a data connection to the Northwind database—Access database file (.mdb or .accdb)  
   

@@ -1,7 +1,7 @@
 ---
 title: "Bessel Functions: _j0, _j1, _jn"
 ms.custom: ""
-ms.date: "10/23/2016"
+ms.date: "10/26/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

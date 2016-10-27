@@ -72,4 +72,4 @@ The following technical details can help you reliably implement a source control
   
 ## See Also  
  [Source Control Plug-ins](../extensibility/source-control-plug-ins.md)   
- [Creating a Source Control Plug-in](../extensibility-internals/creating-a-source-control-plug-in.md)
+ [Creating a Source Control Plug-in](../extensibility/internals/creating-a-source-control-plug-in.md)

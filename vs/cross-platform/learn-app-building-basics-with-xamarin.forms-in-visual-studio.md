@@ -1,13 +1,13 @@
 ---
 title: "Learn app-building basics with Xamarin.Forms in Visual Studio"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "10/27/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d22b5186-9e03-4e85-afc9-7cbe28522a6d
-caps.latest.revision: 10
+caps.latest.revision: 11
 ms.author: "kraigb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -407,7 +407,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
     }  
     ```  
   
-3.  Run the app on all three platforms—Android, iOS, and Windows Phone—by right-clicking the appropriate project, selecting Set as startup project, and starting the app either on a device or in the emulator or simulator. Enter a valid United States zip code (such as 60601) and press the Get Weather button to display weather data for that region as shown below. You’ll of course need to have Visual Studio connected to a Mac OS X machine on your network for the iOS project.  
+3.  Run the app on all three platforms—Android, iOS, and Windows Phone—by right-clicking the appropriate project, selecting Set as startup project, and starting the app either on a device or in the emulator or simulator. Enter a valid United States zip code (such as 60601) and press the Get Weather button to display weather data for that region as shown below. You’ll of course need to have Visual Studio connected to a Mac OS X computer on your network for the iOS project.  
   
      ![The Weather App sample on Android, iOS, and Windows Phone](../cross-platform/media/crossplat-xamarin-formsguide-1.png "CrossPlat Xamarin FormsGuide 1")  
   

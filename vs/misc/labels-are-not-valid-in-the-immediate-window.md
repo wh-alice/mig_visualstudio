@@ -44,5 +44,5 @@ Line labels enable branching and are not permitted in a debugging context.
 -   Do not enter a line label in the **Immediate** window.  
   
 ## See Also  
- [Immediate Window](../ide-reference/immediate-window.md)   
+ [Immediate Window](../ide/reference/immediate-window.md)   
  [How to: Label Statements](../Topic/How%20to:%20Label%20Statements%20\(Visual%20Basic\).md)

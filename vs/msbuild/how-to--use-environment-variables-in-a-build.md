@@ -36,7 +36,7 @@ translation.priority.ht:
 When you build projects, it is often necessary to set build options using information that is not in the project file or the files that comprise your project. This information is typically stored in environment variables.  
   
 ## Referencing Environment Variables  
- All environment variables are available to the [!INCLUDE[vstecmsbuildengine](../msbuild/includes/vstecmsbuildengine_md.md)] ([!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)]) project file as properties.  
+ All environment variables are available to the [!INCLUDE[vstecmsbuildengine](../msbuild/includes/vstecmsbuildengine_md.md)] ([!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]) project file as properties.  
   
 > [!NOTE]
 >  If the project file contains an explicit definition of a property that has the same name as an environment variable, the property in the project file overrides the value of the environment variable.  

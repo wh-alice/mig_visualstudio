@@ -61,5 +61,5 @@ The following strings are the keys for accessing the registry to find informatio
   
 ## See Also  
  [Source Control Plug-ins](../extensibility/source-control-plug-ins.md)   
- [How to: Install a Source Control Plug-in](../extensibility-internals/how-to--install-a-source-control-plug-in.md)   
+ [How to: Install a Source Control Plug-in](../extensibility/internals/how-to--install-a-source-control-plug-in.md)   
  [MSSCCPRJ.SCC File](../extensibility/mssccprj.scc-file.md)

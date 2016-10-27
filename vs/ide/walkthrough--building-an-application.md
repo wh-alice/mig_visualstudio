@@ -149,7 +149,7 @@ By completing this walkthrough, you’ll  become more familiar with several opti
   
      ![Build page, Project Designer](../ide/media/buildwalk_csharpsupresswarnings.png "BuildWalk_CsharpSupressWarnings")  
   
-     For more information, see [Build Page, Project Designer (C#)](../ide-reference/build-page--project-designer--csharp-.md).  
+     For more information, see [Build Page, Project Designer (C#)](../ide/reference/build-page--project-designer--csharp-.md).  
   
 4.  Build the solution.  
   
@@ -180,7 +180,7 @@ By completing this walkthrough, you’ll  become more familiar with several opti
  For more information, see [How to: Suppress Compiler Warnings](../ide/how-to--suppress-compiler-warnings.md).  
   
 ##  <a name="BKMK_outputdetails"></a> Display Additional Build Details in the Output Window  
- You can change how much information about the build process appears in the **Output** window. Build verbosity is usually set to Minimal, which means that the **Output** window displays only a summary of the build process along with any high priority warnings or errors. You can display more information about the build by using the [Options Dialog Box,  Projects and Solutions, Build and Run](../ide-reference/options-dialog-box---projects-and-solutions--build-and-run.md).  
+ You can change how much information about the build process appears in the **Output** window. Build verbosity is usually set to Minimal, which means that the **Output** window displays only a summary of the build process along with any high priority warnings or errors. You can display more information about the build by using the [Options Dialog Box,  Projects and Solutions, Build and Run](../ide/reference/options-dialog-box---projects-and-solutions--build-and-run.md).  
   
 > [!IMPORTANT]
 >  If you display more information, the build will take longer to complete.  

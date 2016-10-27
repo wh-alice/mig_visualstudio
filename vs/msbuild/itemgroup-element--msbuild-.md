@@ -40,7 +40,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # ItemGroup Element (MSBuild)
-Contains a set of user-defined [Item](../msbuild/item-element--msbuild-.md) elements. Every item used in a [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] project must be specified as a child of an `ItemGroup` element.  
+Contains a set of user-defined [Item](../msbuild/item-element--msbuild-.md) elements. Every item used in a [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project must be specified as a child of an `ItemGroup` element.  
   
  \<Project>  
  \<ItemGroup>  
@@ -73,7 +73,7 @@ Contains a set of user-defined [Item](../msbuild/item-element--msbuild-.md) elem
   
 |Element|Description|  
 |-------------|-----------------|  
-|[Project](../msbuild/project-element--msbuild-.md)|Required root element of an [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] project file.|  
+|[Project](../msbuild/project-element--msbuild-.md)|Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file.|  
 |[Target](../msbuild/target-element--msbuild-.md)|Starting with .NET Framework 3.5, the `ItemGroup` element can appear inside a `Target` element. For more information, see [Targets](../msbuild/msbuild-targets.md).|  
   
 ## Remarks  

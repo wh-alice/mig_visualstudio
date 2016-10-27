@@ -40,7 +40,7 @@ The process that renders or displays colorized text in user interface (UI) eleme
 >  When customizing the core editor (which supports the **Text EditorCategory**), it is strongly recommended that you use the coloring technology in the language service. For more information, see [Font and Color Overview](../extensibility/font-and-color-overview.md).  
   
 ## Getting Default Font and Color Information  
- All the **Fonts and Colors** settings of any window displaying text should be specified in the **Display Items** of one **Category**. For more information, see [Fonts and Colors, Environment, Options Dialog Box](../ide-reference/fonts-and-colors--environment--options-dialog-box.md).  
+ All the **Fonts and Colors** settings of any window displaying text should be specified in the **Display Items** of one **Category**. For more information, see [Fonts and Colors, Environment, Options Dialog Box](../ide/reference/fonts-and-colors--environment--options-dialog-box.md).  
   
  To colorize, a VSPackage must obtain current **Fonts and Colors** settings. A VSPackage can accomplish this in the following ways, depending on its needs:  
   

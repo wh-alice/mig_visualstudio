@@ -48,15 +48,15 @@ Different versions of Visual Studio can coexist on the same computer. VSPackages
   
     -   Program your VSPackage to adapt to the version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] in which it is running. Then, if queries for newer services fail, your VSPackage can offer other services that are supported in older versions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
--   Register your VSPackage appropriately. For more information, see [VSPackage Registration](../extensibility-internals/vspackage-registration.md) and [Managed VSPackage Registration](http://msdn.microsoft.com/en-us/f69e0ea3-6a92-4639-8ca9-4c9c210e58a1).  
+-   Register your VSPackage appropriately. For more information, see [VSPackage Registration](../extensibility/internals/vspackage-registration.md) and [Managed VSPackage Registration](http://msdn.microsoft.com/en-us/f69e0ea3-6a92-4639-8ca9-4c9c210e58a1).  
   
 -   Register file extensions appropriately. For more information, see [Registering File Name Extensions for Side-By-Side Deployments](../extensibility/registering-file-name-extensions-for-side-by-side-deployments.md).  
   
--   Create an installer that deploys your VSPackage for the appropriate versions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. For more information, see [Installing VSPackages With Windows Installer](../extensibility-internals/installing-vspackages-with-windows-installer.md) and [Component Management](../extensibility-internals/component-management.md).  
+-   Create an installer that deploys your VSPackage for the appropriate versions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. For more information, see [Installing VSPackages With Windows Installer](../extensibility/internals/installing-vspackages-with-windows-installer.md) and [Component Management](../extensibility/internals/component-management.md).  
   
--   Address the issue of registration collisions. For more information, see [VSPackage Registration](../extensibility-internals/vspackage-registration.md).  
+-   Address the issue of registration collisions. For more information, see [VSPackage Registration](../extensibility/internals/vspackage-registration.md).  
   
--   Ensure that both shared and versioned files respect reference counting to allow safe installation and removal of multiple versions. For more information, see [Component Management](../extensibility-internals/component-management.md).  
+-   Ensure that both shared and versioned files respect reference counting to allow safe installation and removal of multiple versions. For more information, see [Component Management](../extensibility/internals/component-management.md).  
   
 ## Versioned VSPackages  
  Under the versioned VSPackage strategy, you create one VSPackage for each version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] that you support. Doing this is appropriate when you expect to take advantage of services provided by later versions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], because each VSPackage can evolve without affecting the others. Nevertheless, the versioned strategy of creating multiple binaries, either from a single code base or from multiple independent code bases, might entail more initial development than the shared strategy. Also, additional setup work might be required because you must create either a separate setup for each version or a single setup that detects the versions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] that are installed and that your VSPackage supports.  
@@ -75,5 +75,5 @@ Different versions of Visual Studio can coexist on the same computer. VSPackages
  In addition to planning for binary compatibility for your VSPackage binaries, you also should consider solution and project file formats. If your VSPackage creates a new project type, you must decide whether it can run in just one version or in multiple versions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. For more information, see [Upgrading Custom Projects](../misc/upgrading-custom-projects.md).  
   
 ## See Also  
- [Installing VSPackages With Windows Installer](../extensibility-internals/installing-vspackages-with-windows-installer.md)   
- [Component Management](../extensibility-internals/component-management.md)
+ [Installing VSPackages With Windows Installer](../extensibility/internals/installing-vspackages-with-windows-installer.md)   
+ [Component Management](../extensibility/internals/component-management.md)

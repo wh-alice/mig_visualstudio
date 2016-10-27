@@ -66,6 +66,6 @@ Before a project opens a document window, the project first must determine wheth
 2.  If the document is not open, then complete the steps in [How to: Open Standard Editors](../extensibility/how-to--open-standard-editors.md).  
   
 ## See Also  
- [Opening and Saving Project Items](../extensibility-internals/opening-and-saving-project-items.md)   
+ [Opening and Saving Project Items](../extensibility/internals/opening-and-saving-project-items.md)   
  [How to: Open Project-Specific Editors](../extensibility/how-to--open-project-specific-editors.md)   
  [How to: Open Standard Editors](../extensibility/how-to--open-standard-editors.md)

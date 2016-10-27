@@ -41,4 +41,4 @@ Each tab on the Toolbox must have a unique name. This error generally occurs whe
   
 ## See Also  
  [How to: Manipulate Toolbox Tabs](http://msdn.microsoft.com/en-us/21285050-cadd-455a-b1f5-a2289a89c4db)   
- [Toolbox](../ide-reference/toolbox.md)
+ [Toolbox](../ide/reference/toolbox.md)

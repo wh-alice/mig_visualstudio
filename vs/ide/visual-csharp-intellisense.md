@@ -33,7 +33,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Visual C# IntelliSense
-Visual C# IntelliSense is available when coding in the editor, and while you debugging in the [Immediate Mode](../ide-reference/immediate-window.md) command window.  
+Visual C# IntelliSense is available when coding in the editor, and while you debugging in the [Immediate Mode](../ide/reference/immediate-window.md) command window.  
   
 ## Completion Lists  
  The IntelliSense completion lists in Visual C# contain tokens from List Members, Complete Word, and more. It provides quick access to:  

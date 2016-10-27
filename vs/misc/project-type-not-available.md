@@ -46,4 +46,4 @@ This dialog box appears with the error "The project \<project> cannot be opened 
   
 ## See Also  
  [Porting, Migrating, and Upgrading Visual Studio Projects](../porting/porting--migrating--and-upgrading-visual-studio-projects.md)   
- [Project Properties Reference](../ide-reference/project-properties-reference.md)
+ [Project Properties Reference](../ide/reference/project-properties-reference.md)

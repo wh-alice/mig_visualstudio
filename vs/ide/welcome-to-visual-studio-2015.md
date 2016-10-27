@@ -1,7 +1,7 @@
 ---
 title: "Welcome to Visual Studio 2015"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "10/26/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -95,9 +95,9 @@ Welcome to Visual Studio! We’ve got everything you need to create great apps f
  You can [build your app locally](../ide/compiling-and-building-in-visual-studio.md) and make sure that it works correctly. Then use the [debugging tools](../debugger/debugging-in-visual-studio.md) to fix any issues with your app. Or you can build projects on shared build servers or in the cloud. Automate your build process to build the code that the devs on your team have checked into version control. For example, you can build one or more projects nightly or every time that code is checked in.  
   
 ### Test your app  
- [Create unit tests](../code-quality/unit-test-your-code.md) to improve the quality of your app. These tests can be run every time you check in, and as part of your build.  
+ [Create unit tests](../test/unit-test-your-code.md) to improve the quality of your app. These tests can be run every time you check in, and as part of your build.  
   
- Plan, create and run manual and automated tests for your app. Test plans, suites, test cases and your test results are stored in the cloud with Visual Studio Team Services or on-premises with Team Foundation Server. Learn more about [testing the application](../code-quality/improve-code-quality.md).  
+ Plan, create and run manual and automated tests for your app. Test plans, suites, test cases and your test results are stored in the cloud with Visual Studio Team Services or on-premises with Team Foundation Server. Learn more about [testing the application](../Topic/Improve%20Code%20Quality.md).  
   
 ### Deliver your team’s code faster  
  Remove barriers between members of your team and improve collaboration. Go further and automate the release of your app to each stage in your development all the way to production. Monitor your app's performance and availability when live. Collect real-time usage data about how your customers are actually using your app. See [DevOps and Application Lifecycle Management](../Topic/DevOps%20and%20Application%20Lifecycle%20Management.md) for more details.  
@@ -130,7 +130,7 @@ Welcome to Visual Studio! We’ve got everything you need to create great apps f
   
 -   [Visual C++](../Topic/Visual%20C++%20in%20Visual%20Studio%202015.md)  
   
--   [JavaScript](../Topic/JavaScript%20in%20Visual%20Studio.md)  
+-   [JavaScript](../javascript/javascript-in-visual-studio.md)  
   
 -   [Python](../python/getting-started-with-python.md)  
   

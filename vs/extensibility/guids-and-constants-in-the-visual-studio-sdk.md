@@ -45,5 +45,5 @@ The <xref:Microsoft.VisualStudio.VSConstants> class provides access to a selecti
  [COM Constants in Managed Code](../extensibility/com-constants-in-managed-code.md)  
  Lists the standard COM constants available to managed code from the managed package framework (MPF).  
   
- [IDE-Defined Commands for Extending Project Systems](../extensibility-internals/ide-defined-commands-for-extending-project-systems.md)  
+ [IDE-Defined Commands for Extending Project Systems](../extensibility/internals/ide-defined-commands-for-extending-project-systems.md)  
  Lists different types of command items used for extending project systems.

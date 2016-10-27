@@ -30,4 +30,4 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # How to: Add UI Controls and Validation Code Using the Coded UI Test Builder
-The content of this topic has been consolidated with the parent page. See [Validating the properties of UI controls](../code-quality/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITGenerateAssertions).
+The content of this topic has been consolidated with the parent page. See [Validating the properties of UI controls](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITGenerateAssertions).

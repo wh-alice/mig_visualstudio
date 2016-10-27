@@ -101,7 +101,7 @@ You can customize Visual Studio not only by adding and removing toolbars and men
          You can also drag a toolbar by its left edge to move it anywhere in the main docking area.  
   
         > [!NOTE]
-        >  For more information about how to improve the usability and accessibility of toolbars, see [How to: Set IDE Accessibility Options](../ide-reference/how-to--set-ide-accessibility-options.md).  
+        >  For more information about how to improve the usability and accessibility of toolbars, see [How to: Set IDE Accessibility Options](../ide/reference/how-to--set-ide-accessibility-options.md).  
   
 ##  <a name="bkmk_customize"></a> Customizing a menu or a toolbar  
   

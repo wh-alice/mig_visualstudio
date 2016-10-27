@@ -32,10 +32,10 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Use the Same Target in Multiple Project Files
-If you have authored several [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] project files, you might have discovered that you need to use the same tasks and targets in different project files. Instead of including the complete description of those tasks or targets in every project file, you can save a target in a separate project file and then import that project into any other project that needs to use the target.  
+If you have authored several [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project files, you might have discovered that you need to use the same tasks and targets in different project files. Instead of including the complete description of those tasks or targets in every project file, you can save a target in a separate project file and then import that project into any other project that needs to use the target.  
   
 ## Using the Import Element  
- The `Import` element is used to insert one project file into another project file. The project file that is being imported must be a valid [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] project file and contain well-formed XML. The `Project` attribute specifies the path to the imported project file. For more information on the `Import` element, see [Import Element (MSBuild)](../msbuild/import-element--msbuild-.md).  
+ The `Import` element is used to insert one project file into another project file. The project file that is being imported must be a valid [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file and contain well-formed XML. The `Project` attribute specifies the path to the imported project file. For more information on the `Import` element, see [Import Element (MSBuild)](../msbuild/import-element--msbuild-.md).  
   
 #### To import a project  
   
@@ -48,7 +48,7 @@ If you have authored several [!INCLUDE[vstecmsbuild](../extensibility-internals/
 3.  Following the `Import` element, define all properties and items that must override default definitions of properties and items in the imported project.  
   
 ## Order of Evaluation  
- When [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] reaches an `Import` element, the imported project is effectively inserted into the importing project at the location of the `Import` element. Therefore, the location of the `Import` element can affect the values of properties and items. It is important to understand the properties and items that are set by the imported project, and the properties and items that the imported project uses.  
+ When [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] reaches an `Import` element, the imported project is effectively inserted into the importing project at the location of the `Import` element. Therefore, the location of the `Import` element can affect the values of properties and items. It is important to understand the properties and items that are set by the imported project, and the properties and items that the imported project uses.  
   
  When the project builds, all properties are evaluated first, followed by items. For example, the following XML defines the imported project file MyCommon.targets:  
   

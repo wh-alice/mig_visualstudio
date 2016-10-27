@@ -48,7 +48,7 @@ A [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] T4 text template usu
   
  Ignored for run-time (preprocessed) templates.  
   
- These options are applied when the template has been converted into [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] or [!INCLUDE[vb_current_short](../code-quality/includes/vb_current_short_md.md)], and the resulting code is compiled.  
+ These options are applied when the template has been converted into [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] or [!INCLUDE[vb_current_short](../debugger/includes/vb_current_short_md.md)], and the resulting code is compiled.  
   
 ## culture attribute  
  Example:  

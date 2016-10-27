@@ -33,7 +33,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Specify Which Target to Build First
-A project file can contain one or more `Target` elements that define how the project is built. The [!INCLUDE[vstecmsbuildengine](../msbuild/includes/vstecmsbuildengine_md.md)] ([!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)]) engine builds the first project it finds, and any dependencies, unless the project file contains a `DefaultTargets` attribute, an `InitialTargets` attribute, or a target is specified at the command line using the **/target** switch.  
+A project file can contain one or more `Target` elements that define how the project is built. The [!INCLUDE[vstecmsbuildengine](../msbuild/includes/vstecmsbuildengine_md.md)] ([!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]) engine builds the first project it finds, and any dependencies, unless the project file contains a `DefaultTargets` attribute, an `InitialTargets` attribute, or a target is specified at the command line using the **/target** switch.  
   
 ## Using the InitialTargets Attribute  
  The `InitialTargets` attribute of the `Project` element specifies a target that will run first, even if targets are specified on the command line or in the `DefaultTargets` attribute.  
@@ -53,7 +53,7 @@ A project file can contain one or more `Target` elements that define how the pro
      `<Project InitialTargets="Clean;Compile">`  
   
 ## Using the DefaultTargets Attribute  
- The `DefaultTargets` attribute of the `Project` element specifies which target or targets are built if a target is not specified explicitly on the command line. If targets are specified in both the `InitialTargets` and `DefaultTargets` attributes and no target is specified on the command line, [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] runs the targets specified in the `InitialTargets` attribute followed by the targets specified in the `DefaultTargets` attribute.  
+ The `DefaultTargets` attribute of the `Project` element specifies which target or targets are built if a target is not specified explicitly on the command line. If targets are specified in both the `InitialTargets` and `DefaultTargets` attributes and no target is specified on the command line, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] runs the targets specified in the `InitialTargets` attribute followed by the targets specified in the `DefaultTargets` attribute.  
   
 #### To specify one default target  
   

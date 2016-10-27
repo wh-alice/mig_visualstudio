@@ -53,5 +53,5 @@ The Running Document Table (RDT) maintains a count of open documents and any edi
  Many times a UI designer that modifies code files programmatically makes changes to more than one file. In such cases the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell2.SaveItemsViaDlg*> method handles the saving of one or more documents by means of the **Do you want to save changes to the following items?** dialog box.  
   
 ## See Also  
- [Running Document Table](../extensibility-internals/running-document-table.md)   
- [Persistence and the Running Document Table](../extensibility-internals/persistence-and-the-running-document-table.md)
+ [Running Document Table](../extensibility/internals/running-document-table.md)   
+ [Persistence and the Running Document Table](../extensibility/internals/persistence-and-the-running-document-table.md)

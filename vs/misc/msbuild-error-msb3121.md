@@ -43,5 +43,5 @@ translation.priority.mt:
 -   Set each [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md) attribute to a valid value.  
   
 ## See Also  
- [Publish Page, Project Designer](../ide-reference/publish-page--project-designer.md)   
+ [Publish Page, Project Designer](../ide/reference/publish-page--project-designer.md)   
  [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md)

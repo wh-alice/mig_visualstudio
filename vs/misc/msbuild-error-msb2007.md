@@ -36,7 +36,7 @@ translation.priority.mt:
 # MSBuild Error MSB2007
 **Visual Studio cannot find the project file "{0}".**  
   
- [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] could not find the specified project file.  
+ [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] could not find the specified project file.  
   
 ### To correct this error  
   

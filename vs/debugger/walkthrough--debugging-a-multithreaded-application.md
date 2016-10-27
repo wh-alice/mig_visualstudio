@@ -37,7 +37,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Walkthrough: Debugging a Multithreaded Application
-[!INCLUDE[vs_dev11_long](../code-quality/includes/vs_dev11_long_md.md)] provides an improved **Threads** window and other user interface improvements to make it easier to debug multithreaded applications. This walkthrough takes only a few minutes, but completing it will familiarize you with the new interface features for debugging multithreaded applications.  
+[!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)] provides an improved **Threads** window and other user interface improvements to make it easier to debug multithreaded applications. This walkthrough takes only a few minutes, but completing it will familiarize you with the new interface features for debugging multithreaded applications.  
   
  To begin this walkthrough, you need a multithreaded application project. Follow the steps listed here to create that project.  
   
@@ -123,7 +123,7 @@ Thread::Sleep(3000);
  ![Thread Marker](../debugger/media/threadmarker.gif "ThreadMarker")  
   
 ## Flagging and Unflagging Threads  
- In [!INCLUDE[vs_orcas_long](../code-quality/includes/vs_orcas_long_md.md)], you can flag threads that you want to give special attention. Flagging threads is a good way to keep track of important threads and ignore threads you do not care about.  
+ In [!INCLUDE[vs_orcas_long](../debugger/includes/vs_orcas_long_md.md)], you can flag threads that you want to give special attention. Flagging threads is a good way to keep track of important threads and ignore threads you do not care about.  
   
 #### To flag threads  
   

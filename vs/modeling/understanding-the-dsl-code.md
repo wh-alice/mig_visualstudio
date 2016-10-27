@@ -1,7 +1,7 @@
 ---
 title: "Understanding the DSL Code"
 ms.custom: ""
-ms.date: "10/24/2016"
+ms.date: "10/26/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""

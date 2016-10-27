@@ -35,7 +35,7 @@ translation.priority.ht:
 You can customize the color of the IDE frame and tool windows in Visual Studio in several ways.  
   
 > [!TIP]
->  For information about how to change the colors of the code editor, see [How to: Change Fonts and Colors in the Editor](../ide-reference/how-to--change-fonts-and-colors-in-the-editor.md).  
+>  For information about how to change the colors of the code editor, see [How to: Change Fonts and Colors in the Editor](../ide/reference/how-to--change-fonts-and-colors-in-the-editor.md).  
   
 ### Change the Color Theme of the IDE  
   
@@ -76,5 +76,5 @@ You can customize the color of the IDE frame and tool windows in Visual Studio i
 5.  In the **Size** list, choose a text size, and then choose the **OK** button.  
   
 ## See Also  
- [Accessibility Features of Visual Studio](../ide-reference/accessibility-features-of-visual-studio.md)   
- [How to: Change Fonts and Colors in the Editor](../ide-reference/how-to--change-fonts-and-colors-in-the-editor.md)
+ [Accessibility Features of Visual Studio](../ide/reference/accessibility-features-of-visual-studio.md)   
+ [How to: Change Fonts and Colors in the Editor](../ide/reference/how-to--change-fonts-and-colors-in-the-editor.md)

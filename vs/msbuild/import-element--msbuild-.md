@@ -69,21 +69,21 @@ Imports the contents of one project file into another project file.
   
 |Element|Description|  
 |-------------|-----------------|  
-|[Project](../msbuild/project-element--msbuild-.md)|Required root element of an [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] project file.|  
+|[Project](../msbuild/project-element--msbuild-.md)|Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file.|  
 |[ImportGroup](../msbuild/importgroup-element.md)|Contains a collection of `Import` elements grouped under an optional condition.|  
   
 ## Remarks  
  By using the `Import` element, you can reuse code that is common to many project files. This makes it easier to maintain the code because any updates you make to the shared code get propagated to all the projects that import it.  
   
- By convention, shared imported project files are saved as .targets files, but they are standard [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] project files. [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] does not prevent you from importing a project that has a different file name extension, but we recommend that you use the .targets extension for consistency.  
+ By convention, shared imported project files are saved as .targets files, but they are standard [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project files. [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] does not prevent you from importing a project that has a different file name extension, but we recommend that you use the .targets extension for consistency.  
   
  Relative paths in imported projects are interpreted relative to the directory of the importing project. Therefore, if a project file is imported into several project files in different locations, the relative paths in the imported project file will be interpreted differently for each imported project.  
   
- All [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] reserved properties that relate to the project file, for example, `MSBuildProjectDirectory` and `MSBuildProjectFile`, that are referenced in an imported project are assigned values based on the importing project file.  
+ All [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] reserved properties that relate to the project file, for example, `MSBuildProjectDirectory` and `MSBuildProjectFile`, that are referenced in an imported project are assigned values based on the importing project file.  
   
- If the imported project does not have a `DefaultTargets` attribute, imported projects are inspected in the order that they are imported, and the value of the first discovered `DefaultTargets` attribute is used. For example, if ProjectA imports ProjectB and ProjectC (in that order), and ProjectB imports ProjectD, [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] first looks for `DefaultTargets` specified on ProjectA, then ProjectB, then ProjectD, and finally ProjectC.  
+ If the imported project does not have a `DefaultTargets` attribute, imported projects are inspected in the order that they are imported, and the value of the first discovered `DefaultTargets` attribute is used. For example, if ProjectA imports ProjectB and ProjectC (in that order), and ProjectB imports ProjectD, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] first looks for `DefaultTargets` specified on ProjectA, then ProjectB, then ProjectD, and finally ProjectC.  
   
- The schema of an imported project is identical to that of a standard project. Although [!INCLUDE[vstecmsbuild](../extensibility-internals/includes/vstecmsbuild_md.md)] may be able to build an imported project, it is unlikely because an imported project typically does not contain information about which properties to set or the order in which to run targets. The imported project depends on the project into which it is imported to provide that information.  
+ The schema of an imported project is identical to that of a standard project. Although [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] may be able to build an imported project, it is unlikely because an imported project typically does not contain information about which properties to set or the order in which to run targets. The imported project depends on the project into which it is imported to provide that information.  
   
 > [!NOTE]
 >  While conditional import statements work in command-line MSBuilds, they do not work with MSBuild in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE). Conditional imports are evaluated by using the configuration and platform values that are set when the project is loaded. If changes are subsequently made that require a reevaluation of the conditionals in the project file, for example, changing the platform, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] reevaluates the conditions on properties and items, but not on imports. Because the import conditional is not reevaluated, the import is skipped.  

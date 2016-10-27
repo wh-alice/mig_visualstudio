@@ -83,7 +83,7 @@ By using a Windows Language Interface Pack (LIP), you can install a language ver
   
 ##### To correctly display characters that are not included in the current code page  
   
-1.  Click **Start**, click **Control Panel**, and then open **Regional and Language Options** (or **Region** in [!INCLUDE[win8](../code-quality/includes/win8_md.md)]).  
+1.  Click **Start**, click **Control Panel**, and then open **Regional and Language Options** (or **Region** in [!INCLUDE[win8](../debugger/includes/win8_md.md)]).  
   
     > [!NOTE]
     >  You must be an administrator on the computer to follow these steps.  
@@ -110,7 +110,7 @@ By using a Windows Language Interface Pack (LIP), you can install a language ver
   
      To have the UI text in the IDE match the operating system display language setting, select **Same as Microsoft Windows**.  
   
- You can also use the devenv command to set the language that's used for UI. For more information, see [/LCID (devenv.exe)](../ide-reference/-lcid--devenv.exe-.md).  
+ You can also use the devenv command to set the language that's used for UI. For more information, see [/LCID (devenv.exe)](../ide/reference/-lcid--devenv.exe-.md).  
   
 ## See Also  
- [International Settings, Environment, Options Dialog Box](../ide-reference/international-settings--environment--options-dialog-box.md)
+ [International Settings, Environment, Options Dialog Box](../ide/reference/international-settings--environment--options-dialog-box.md)
