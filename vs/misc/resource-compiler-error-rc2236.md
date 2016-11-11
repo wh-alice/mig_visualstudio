@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Error RC2236"
+title: "Resource Compiler Error RC2236 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC2236"
 ms.assetid: 5f97152f-2b39-49c3-bea9-393493352bb9
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

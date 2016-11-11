@@ -1,7 +1,7 @@
 ---
-title: "Memory Windows"
+title: "Memory Windows | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -29,6 +29,7 @@ helpviewer_keywords:
   - "buffers, viewing"
 ms.assetid: 7f7a0439-10e4-4966-bb2d-51f04cda4fe2
 caps.latest.revision: 32
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

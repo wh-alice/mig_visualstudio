@@ -1,7 +1,7 @@
 ---
-title: "Overview of the Domain-Specific Language Tools User Interface"
+title: "Overview of the Domain-Specific Language Tools User Interface | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "Domain-Specific Language Tools, user interface"
 ms.assetid: 81ae6b35-6819-41d0-953b-6b4ed81f9227
 caps.latest.revision: 25
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 ---

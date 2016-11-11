@@ -1,7 +1,7 @@
 ---
-title: "Clear Overridden Properties Dialog Box"
+title: "Clear Overridden Properties Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "Clear Overridden Properties dialog box"
 ms.assetid: 2ca129f7-05f0-40a1-b40a-a23cef1fd90a
 caps.latest.revision: 9
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -41,5 +42,5 @@ translation.priority.ht:
  When you add a user-defined property sheet (.props file) to a project configuration, that project configuration will inherit all of the properties defined in the property sheet by default. Use this dialog box to clear undesirable inherited properties for a project configuration.  
   
 ## See Also  
- [Property Sheets](../misc/property-sheets--c---.md)   
+ [Property Sheets](../misc/property-sheets-cpp.md)   
  [Property Inheritance](../misc/property-inheritance.md)

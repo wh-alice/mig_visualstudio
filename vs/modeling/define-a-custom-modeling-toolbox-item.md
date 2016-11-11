@@ -1,7 +1,7 @@
 ---
-title: "Define a custom modeling toolbox item"
+title: "Define a custom modeling toolbox item | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ helpviewer_keywords:
   - "UML - extending, customizing the toolbox"
 ms.assetid: a2463606-1100-40ac-97f3-5ba22ca47b7c
 caps.latest.revision: 31
+author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
 translation.priority.ht: 

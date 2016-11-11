@@ -1,7 +1,7 @@
 ---
-title: "Sample XSD Files"
+title: "Sample XSD Files | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6a3d0ab6-825e-42fa-8df0-37fbc5da9e73
 caps.latest.revision: 2
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -38,6 +39,6 @@ The following example files are used in the XSD Schema Designer documentation.
   
 |Topic|Description|  
 |-----------|-----------------|  
-|[Sample XSD File: Purchase Order Schema](../xml-tools/sample-xsd-file--purchase-order-schema.md)|An XSD document that contains a typical purchase order schema.|  
-|[Sample XSD File: Simple Schema](../xml-tools/sample-xsd-file--simple-schema.md)|An XSD document that contains a simple schema.|  
-|[Sample XSD File: Relationships](../xml-tools/sample-xsd-file--relationships.md)|An XSD document that contains a schema with relationships.|
+|[Sample XSD File: Purchase Order Schema](../xml-tools/sample-xsd-file-purchase-order-schema.md)|An XSD document that contains a typical purchase order schema.|  
+|[Sample XSD File: Simple Schema](../xml-tools/sample-xsd-file-simple-schema.md)|An XSD document that contains a simple schema.|  
+|[Sample XSD File: Relationships](../xml-tools/sample-xsd-file-relationships.md)|An XSD document that contains a schema with relationships.|

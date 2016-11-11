@@ -1,5 +1,5 @@
 ---
-title: "Editing Data in Your Application"
+title: "Editing Data in Your Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "applications [Visual Studio], data"
 ms.assetid: 87191abd-a7e7-4e2d-a010-902b7cbc91ef
 caps.latest.revision: 15
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 robots: noindex,nofollow

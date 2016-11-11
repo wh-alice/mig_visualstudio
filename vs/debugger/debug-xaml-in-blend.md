@@ -1,7 +1,7 @@
 ---
-title: "Debug XAML in Blend"
+title: "Debug XAML in Blend | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ dev_langs:
   - "C++"
 ms.assetid: 29a37182-2a2c-47e4-a4a9-2d5412738fed
 caps.latest.revision: 5
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

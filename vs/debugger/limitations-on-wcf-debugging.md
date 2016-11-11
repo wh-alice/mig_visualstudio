@@ -1,7 +1,7 @@
 ---
-title: "Limitations on WCF Debugging"
+title: "Limitations on WCF Debugging | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "WCF, debugging limitations"
 ms.assetid: 8e0333c4-1ddc-4abe-8f1c-d19bf6a2a07a
 caps.latest.revision: 30
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -87,11 +88,11 @@ There are three ways that you can begin debugging a WCF service:
     ```  
   
 ## Self-Hosting  
- A *self-hosted service* is a WCF service that does not run inside IIS, the WCF Service Host, or the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Development Server. For information about how to debug a self-hosted service, see [How to: Debug a Self-Hosted WCF Service](../debugger/how-to--debug-a-self-hosted-wcf-service.md).  
+ A *self-hosted service* is a WCF service that does not run inside IIS, the WCF Service Host, or the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Development Server. For information about how to debug a self-hosted service, see [How to: Debug a Self-Hosted WCF Service](../debugger/how-to-debug-a-self-hosted-wcf-service.md).  
   
 ## Self-Hosting  
  To enable debugging of [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 3.0 or 3.5 applications, [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 3.0 or 3.5 must be installed before [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)] is installed. If [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)] is installed before [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 3.0 or 3.5, an error occurs when you try to debug a [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 3.0 or 3.5 application. The error message is, "Unable to Automatically Step Into the Server." To fix this problem, use the Windows **Control Panel**, **Programs and Features** to repair your [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)] installation.  
   
 ## See Also  
  [Debugging WCF Services](../debugger/debugging-wcf-services.md)   
- [How to: Debug a Self-Hosted WCF Service](../debugger/how-to--debug-a-self-hosted-wcf-service.md)
+ [How to: Debug a Self-Hosted WCF Service](../debugger/how-to-debug-a-self-hosted-wcf-service.md)

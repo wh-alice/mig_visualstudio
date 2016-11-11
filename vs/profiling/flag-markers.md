@@ -1,7 +1,7 @@
 ---
-title: "Flag Markers"
+title: "Flag Markers | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ f1_keywords:
   - "vs.cv.markers.flag"
 ms.assetid: f3ec919e-63e5-484b-adbf-8f0e79342e75
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

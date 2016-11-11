@@ -1,7 +1,7 @@
 ---
-title: "Source Control VSPackage Features"
+title: "Source Control VSPackage Features | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,16 +34,16 @@ translation.priority.mt:
 This section describes the various features of a source control VSPackage. It outlines the registration and selection details for such a VSPackage, and discusses three of the main source control-related features: handling of Query-Edit Query-Save (QEQS) events, glyph replacement, and custom user interface (UI) for the source control functions.  
   
 ## In This Section  
- [Registration and Selection](../../extensibility/internals/registration-and-selection--source-control-vspackage-.md)  
+ [Registration and Selection](../../extensibility/internals/registration-and-selection-source-control-vspackage.md)  
  Describes the package registration and selection mechanisms.  
   
- [Query Edit Query Save](../../extensibility/internals/query-edit-query-save--source-control-vspackage-.md)  
+ [Query Edit Query Save](../../extensibility/internals/query-edit-query-save-source-control-vspackage.md)  
  Explains the role of Query-Edit Query-Save events and how they are handled by the source control VSPackage.  
   
- [Glyph Control](../../extensibility/internals/glyph-control--source-control-vspackage-.md)  
+ [Glyph Control](../../extensibility/internals/glyph-control-source-control-vspackage.md)  
  Describes the levels of glyph control and how to implement them.  
   
- [Custom User Interface](../../extensibility/internals/custom-user-interface--source-control-vspackage-.md)  
+ [Custom User Interface](../../extensibility/internals/custom-user-interface-source-control-vspackage.md)  
  Outlines the UI elements that a source control VSPackage can specify.  
   
 ## Related Sections  

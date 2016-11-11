@@ -1,7 +1,7 @@
 ---
-title: "Code Generation in a Build Process"
+title: "Code Generation in a Build Process | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/24/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "text templates, transforming by using msbuild"
 ms.assetid: 4da43429-2a11-4d7e-b2e0-9e4af7033b5a
 caps.latest.revision: 28
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 translation.priority.ht: 
@@ -216,7 +217,7 @@ $(IncludeFolders);$(MSBuildProjectDirectory)\Include;AnotherFolder;And\Another</
 ```  
   
 ##  <a name="parameters"></a> Pass build context data into the templates  
- You can set parameter values in the project file. For example, you can pass [build](../msbuild/msbuild-properties.md) properties and [environment variables](../msbuild/how-to--use-environment-variables-in-a-build.md):  
+ You can set parameter values in the project file. For example, you can pass [build](../msbuild/msbuild-properties.md) properties and [environment variables](../msbuild/how-to-use-environment-variables-in-a-build.md):  
   
 ```xml  
 <ItemGroup>  
@@ -236,7 +237,7 @@ The project folder is: <#= ProjectFolder #>
   
 ```  
   
- In a directive processor, you can call <xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost.ResolveParameterValue*>:  
+ In a directive processor, you can call <xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost.ResolveParameterValue%2A>:  
   
 ```c#  
 string value = Host.ResolveParameterValue("-", "-", "parameterName");  

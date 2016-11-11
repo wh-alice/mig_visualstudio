@@ -1,7 +1,7 @@
 ---
-title: "Explicit Qualification"
+title: "Explicit Qualification | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "explicit qualification"
 ms.assetid: a7bd2b54-0982-40cc-8e95-dfa417b76663
 caps.latest.revision: 6
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -35,4 +36,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Explicit Qualification
-This content has moved to [Namespaces](../Topic/Namespaces%20\(C++\).md).
+This content has moved to [Namespaces](/visual-cpp/cpp/namespaces-cpp).

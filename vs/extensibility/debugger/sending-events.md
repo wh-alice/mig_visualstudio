@@ -1,7 +1,7 @@
 ---
-title: "Sending Events"
+title: "Sending Events | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -41,10 +41,10 @@ The mechanism for communication between the debugger and the debug engine (DE) i
   
 -   The event type that indicates whether the event is synchronous or asynchronous.  
   
- All debug events are sent using the method [IDebugEventCallback2::Event](../../extensibility/debugger/reference/idebugeventcallback2--event.md).  
+ All debug events are sent using the method [IDebugEventCallback2::Event](../../extensibility/debugger/reference/idebugeventcallback2-event.md).  
   
 ## In This Section  
- [Event Sources](../../extensibility/debugger/event-sources--visual-studio-sdk-.md)  
+ [Event Sources](../../extensibility/debugger/event-sources-visual-studio-sdk.md)  
  Explains the two sources of events: the debug engine (DE) and the session debug manager (SDM).  
   
  [Supported Event Types](../../extensibility/debugger/supported-event-types.md)  

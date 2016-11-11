@@ -1,7 +1,7 @@
 ---
-title: "Supported Event Types"
+title: "Supported Event Types | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -39,19 +39,19 @@ Visual Studio debugging currently supports the following event types:
   
 -   Synchronous events  
   
-     Notify the SDM and IDE that the state of the application being debugged is changing. The only difference between these events and asynchronous events is that a reply is sent by means of the [ContinueFromSynchronousEvent](../../extensibility/debugger/reference/idebugengine2--continuefromsynchronousevent.md) method.  
+     Notify the SDM and IDE that the state of the application being debugged is changing. The only difference between these events and asynchronous events is that a reply is sent by means of the [ContinueFromSynchronousEvent](../../extensibility/debugger/reference/idebugengine2-continuefromsynchronousevent.md) method.  
   
      Sending a synchronous event is useful if you need your DE to continue processing after the IDE receives and processes the event.  
   
 -   Synchronous stopping events, or stopping events  
   
-     Notify the SDM and the IDE that the application being debugged has stopped executing code. When you send a stopping event by means of the method [Event](../../extensibility/debugger/reference/idebugeventcallback2--event.md), the [IDebugThread2](../../extensibility/debugger/reference/idebugthread2.md) parameter is required. Stopping events are continued by a call to the one of the following methods:  
+     Notify the SDM and the IDE that the application being debugged has stopped executing code. When you send a stopping event by means of the method [Event](../../extensibility/debugger/reference/idebugeventcallback2-event.md), the [IDebugThread2](../../extensibility/debugger/reference/idebugthread2.md) parameter is required. Stopping events are continued by a call to the one of the following methods:  
   
-    -   [Execute](../../extensibility/debugger/reference/idebugprogram2--execute.md)  
+    -   [Execute](../../extensibility/debugger/reference/idebugprogram2-execute.md)  
   
-    -   [Step](../../extensibility/debugger/reference/idebugprogram2--step.md)  
+    -   [Step](../../extensibility/debugger/reference/idebugprogram2-step.md)  
   
-    -   [Continue](../../extensibility/debugger/reference/idebugprogram2--continue.md)  
+    -   [Continue](../../extensibility/debugger/reference/idebugprogram2-continue.md)  
   
      The interfaces [IDebugBreakpointEvent2](../../extensibility/debugger/reference/idebugbreakpointevent2.md) and [IDebugExceptionEvent2](../../extensibility/debugger/reference/idebugexceptionevent2.md) are examples of stopping events.  
   

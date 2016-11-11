@@ -1,7 +1,7 @@
 ---
-title: "Domain Property Value Change Handlers"
+title: "Domain Property Value Change Handlers | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, overriding event handlers"
 ms.assetid: 96d8f392-045e-4bc5-b165-fbaa470a3e16
 caps.latest.revision: 24
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 ---
@@ -170,5 +171,5 @@ namespace msft.FieldChangeSample
 ```  
   
 ## See Also  
- <xref:Microsoft.VisualStudio.Modeling.DomainPropertyValueHandler`2.OnValueChanged*>   
- <xref:Microsoft.VisualStudio.Modeling.DomainPropertyValueHandler`2.OnValueChanging*>
+ <xref:Microsoft.VisualStudio.Modeling.DomainPropertyValueHandler%602.OnValueChanged%2A>   
+ <xref:Microsoft.VisualStudio.Modeling.DomainPropertyValueHandler%602.OnValueChanging%2A>

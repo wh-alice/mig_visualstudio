@@ -1,7 +1,7 @@
 ---
-title: "Dataset tools in Visual Studio"
+title: "Dataset tools in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -53,6 +53,7 @@ helpviewer_keywords:
   - "data adapters, populating datasets"
 ms.assetid: ee57f4f6-9fe1-4e0a-be9a-955c486ff427
 caps.latest.revision: 49
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 translation.priority.ht: 
@@ -109,4 +110,4 @@ translation.priority.mt:
  For information about converting datasets to and from XML, see [Read XML data into a dataset](../data-tools/read-xml-data-into-a-dataset.md) and [Save a dataset as XML](../data-tools/save-a-dataset-as-xml.md).  
   
 ## See Also  
- [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-.net.md)
+ [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md)

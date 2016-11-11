@@ -1,7 +1,7 @@
 ---
-title: "Annotating Structs and Classes"
+title: "Annotating Structs and Classes | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -26,8 +26,9 @@ f1_keywords:
   - "_Field_size_full_opt_"
 ms.assetid: b8278a4a-c86e-4845-aa2a-70da21a1dd52
 caps.latest.revision: 9
-ms.author: "susanno"
-manager: "douge"
+author: "corob-msft"
+ms.author: "corob"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -88,11 +89,11 @@ You can annotate struct and class members by using annotations that act like inv
     ```  
   
 ## See Also  
- [Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-c---code-defects.md)   
+ [Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)   
  [Understanding SAL](../code-quality/understanding-sal.md)   
  [Annotating Function Parameters and Return Values](../code-quality/annotating-function-parameters-and-return-values.md)   
  [Annotating Function Behavior](../code-quality/annotating-function-behavior.md)   
  [Annotating Locking Behavior](../code-quality/annotating-locking-behavior.md)   
  [Specifying When and Where an Annotation Applies](../code-quality/specifying-when-and-where-an-annotation-applies.md)   
  [Intrinsic Functions](../code-quality/intrinsic-functions.md)   
- [Best Practices and Examples](../code-quality/best-practices-and-examples--sal-.md)
+ [Best Practices and Examples](../code-quality/best-practices-and-examples-sal.md)

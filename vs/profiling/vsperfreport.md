@@ -1,7 +1,7 @@
 ---
-title: "VSPerfReport"
+title: "VSPerfReport | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "instrumentation, VSPerfReporttool"
 ms.assetid: dbfd8d91-4430-4b82-81b9-97ac61412a6c
 caps.latest.revision: 32
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -55,7 +56,7 @@ VSPerfReport [/U] /diff vspfilename1 vspfilename2 [/options]
  `vspfilename1 and vspfilename2` must be valid .vsp or .vsps files.  
   
 ## Symbol Files  
- To display symbol information such as function names and line numbers, VSPerfReport requires access to the symbol (.PDB) files of the profiled components and to Windows symbol files. For more information, see [How to: Specify Symbol File Locations from the Command Line](../profiling/how-to--specify-symbol-file-locations-from-the-command-line.md).  
+ To display symbol information such as function names and line numbers, VSPerfReport requires access to the symbol (.PDB) files of the profiled components and to Windows symbol files. For more information, see [How to: Specify Symbol File Locations from the Command Line](../profiling/how-to-specify-symbol-file-locations-from-the-command-line.md).  
   
 ## General Report Options  
  The following table describes the general report formatting options and the options that select the data to be reported.  

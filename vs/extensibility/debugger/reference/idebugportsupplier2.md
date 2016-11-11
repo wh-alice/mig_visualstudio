@@ -1,7 +1,7 @@
 ---
-title: "IDebugPortSupplier2"
+title: "IDebugPortSupplier2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -62,11 +62,11 @@ IDebugPortSupplier2 *GetPortSupplier(GUID *pPortSupplierGuid)
 }  
 ```  
   
- A call to [GetPortSupplier](../../../extensibility/debugger/reference/idebugcoreserver2--getportsupplier.md) returns this interface, representing the current port supplier being used by [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)].  
+ A call to [GetPortSupplier](../../../extensibility/debugger/reference/idebugcoreserver2-getportsupplier.md) returns this interface, representing the current port supplier being used by [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)].  
   
- [GetPortSupplier](../../../extensibility/debugger/reference/idebugport2--getportsupplier.md) returns this interface, representing the port supplier that created the port.  
+ [GetPortSupplier](../../../extensibility/debugger/reference/idebugport2-getportsupplier.md) returns this interface, representing the port supplier that created the port.  
   
- [IEnumDebugPortSuppliers2](../../../extensibility/debugger/reference/ienumdebugportsuppliers2.md) represents a list of `IDebugPortSupplier` interfaces (the `IEnumDebugPortSuppliers` interface is obtained from [EnumPortSuppliers](../../../extensibility/debugger/reference/idebugcoreserver2--enumportsuppliers.md), representing all of the port suppliers registered with [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)]).  
+ [IEnumDebugPortSuppliers2](../../../extensibility/debugger/reference/ienumdebugportsuppliers2.md) represents a list of `IDebugPortSupplier` interfaces (the `IEnumDebugPortSuppliers` interface is obtained from [EnumPortSuppliers](../../../extensibility/debugger/reference/idebugcoreserver2-enumportsuppliers.md), representing all of the port suppliers registered with [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)]).  
   
  A debug engine typically does not interact with a port supplier.  
   
@@ -75,13 +75,13 @@ IDebugPortSupplier2 *GetPortSupplier(GUID *pPortSupplierGuid)
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetPortSupplierName](../../../extensibility/debugger/reference/idebugportsupplier2--getportsuppliername.md)|Gets the port supplier name.|  
-|[GetPortSupplierId](../../../extensibility/debugger/reference/idebugportsupplier2--getportsupplierid.md)|Gets the port supplier identifier.|  
-|[GetPort](../../../extensibility/debugger/reference/idebugportsupplier2--getport.md)|Gets a port from a port supplier.|  
-|[EnumPorts](../../../extensibility/debugger/reference/idebugportsupplier2--enumports.md)|Enumerates the ports that already exist.|  
-|[CanAddPort](../../../extensibility/debugger/reference/idebugportsupplier2--canaddport.md)|Verifies that a port supplier supports adding new ports.|  
-|[AddPort](../../../extensibility/debugger/reference/idebugportsupplier2--addport.md)|Adds a port.|  
-|[RemovePort](../../../extensibility/debugger/reference/idebugportsupplier2--removeport.md)|Removes a port.|  
+|[GetPortSupplierName](../../../extensibility/debugger/reference/idebugportsupplier2-getportsuppliername.md)|Gets the port supplier name.|  
+|[GetPortSupplierId](../../../extensibility/debugger/reference/idebugportsupplier2-getportsupplierid.md)|Gets the port supplier identifier.|  
+|[GetPort](../../../extensibility/debugger/reference/idebugportsupplier2-getport.md)|Gets a port from a port supplier.|  
+|[EnumPorts](../../../extensibility/debugger/reference/idebugportsupplier2-enumports.md)|Enumerates the ports that already exist.|  
+|[CanAddPort](../../../extensibility/debugger/reference/idebugportsupplier2-canaddport.md)|Verifies that a port supplier supports adding new ports.|  
+|[AddPort](../../../extensibility/debugger/reference/idebugportsupplier2-addport.md)|Adds a port.|  
+|[RemovePort](../../../extensibility/debugger/reference/idebugportsupplier2-removeport.md)|Removes a port.|  
   
 ## Remarks  
  A port supplier can identify itself by name and ID, add and remove ports, and enumerate all ports that the port supplier provides.  
@@ -95,6 +95,6 @@ IDebugPortSupplier2 *GetPortSupplier(GUID *pPortSupplierGuid)
   
 ## See Also  
  [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)   
- [GetPortSupplier](../../../extensibility/debugger/reference/idebugport2--getportsupplier.md)   
- [GetPortSupplier](../../../extensibility/debugger/reference/idebugcoreserver2--getportsupplier.md)   
+ [GetPortSupplier](../../../extensibility/debugger/reference/idebugport2-getportsupplier.md)   
+ [GetPortSupplier](../../../extensibility/debugger/reference/idebugcoreserver2-getportsupplier.md)   
  [IEnumDebugPortSuppliers2](../../../extensibility/debugger/reference/ienumdebugportsuppliers2.md)

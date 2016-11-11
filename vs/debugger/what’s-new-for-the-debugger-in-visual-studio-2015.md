@@ -1,7 +1,7 @@
 ---
-title: "What’s New for the Debugger in Visual Studio 2015"
+title: "What’s New for the Debugger in Visual Studio 2015 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "what's new [Visual Studio], debugging"
 ms.assetid: 2aed9caa-2384-4e49-8595-82d8b06cf271
 caps.latest.revision: 81
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -45,9 +46,9 @@ For information about everything that’s new in Visual Studio 2015 Update 1 deb
  For information about everything that’s new in Visual Studio 2015 RTM debugging and diagnostics, see [Visual Studio 2015 Release Notes](https://www.visualstudio.com/news/vs2015-vs#debug).  
   
 ## Visual Studio 2015 Update 1 Changes  
- C++ Edit and Continue supports more features. For more information, see [Edit and Continue (Visual C++)](../debugger/edit-and-continue--visual-c---.md).  
+ C++ Edit and Continue supports more features. For more information, see [Edit and Continue (Visual C++)](../debugger/edit-and-continue-visual-cpp.md).  
   
- For debugging Visual C++ access violations, a new exception dialog specifies the pointer that caused the exception. For more information, please see [How Can I Debug an Access Violation?](../debugger/how-can-i-debug-an-access-violation-.md) and [Improvement to Debugging C++ Access Violations in Visual Studio 2015 Update 1](http://blogs.msdn.com/b/visualstudioalm/archive/2015/10/29/improvement-to-debugging-c-access-violations-in-visual-studio-2015-update-1.aspx)  
+ For debugging Visual C++ access violations, a new exception dialog specifies the pointer that caused the exception. For more information, please see [How Can I Debug an Access Violation?](../debugger/how-can-i-debug-an-access-violation-q.md) and [Improvement to Debugging C++ Access Violations in Visual Studio 2015 Update 1](http://blogs.msdn.com/b/visualstudioalm/archive/2015/10/29/improvement-to-debugging-c-access-violations-in-visual-studio-2015-update-1.aspx)  
   
 ## Visual Studio 2015 RTM Debugger UI and Hotkey Changes  
  There are significant UI changes in the Exceptions and Breakpoints UI.  

@@ -1,7 +1,7 @@
 ---
-title: "IPropertyProxyProvider"
+title: "IPropertyProxyProvider | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,17 +45,17 @@ IPropertyProxyProvider : IUnknown
  The expression evaluator (EE) implements this interface on the same object that implements the [IDebugProperty3](../../../extensibility/debugger/reference/idebugproperty3.md) interface as part of the EE's support of type visualizers.  
   
 ## Notes for Callers  
- Call [QueryInterface](../Topic/QueryInterface.md) on an `IDebugProperty3` interface to obtain this interface.  
+ Call [QueryInterface](/visual-cpp/atl/queryinterface) on an `IDebugProperty3` interface to obtain this interface.  
   
 ## Methods in Vtable order  
  The `IPropertyProxyProvider` interface implements the following method:  
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetPropertyProxy](../../../extensibility/debugger/reference/ipropertyproxyprovider--getpropertyproxy.md)|Retrieves a property proxy interface to view data on an object.|  
+|[GetPropertyProxy](../../../extensibility/debugger/reference/ipropertyproxyprovider-getpropertyproxy.md)|Retrieves a property proxy interface to view data on an object.|  
   
 ## Remarks  
- Although the EE implements this interface, the implementation of [GetPropertyProxy](../../../extensibility/debugger/reference/ipropertyproxyprovider--getpropertyproxy.md) is typically handled by [GetPropertyProxy](../../../extensibility/debugger/reference/ieevisualizerservice--getpropertyproxy.md). See [Visualizing and Viewing Data](../../../extensibility/debugger/visualizing-and-viewing-data.md) for details on obtaining the IEEVisualizerService interface.  
+ Although the EE implements this interface, the implementation of [GetPropertyProxy](../../../extensibility/debugger/reference/ipropertyproxyprovider-getpropertyproxy.md) is typically handled by [GetPropertyProxy](../../../extensibility/debugger/reference/ieevisualizerservice-getpropertyproxy.md). See [Visualizing and Viewing Data](../../../extensibility/debugger/visualizing-and-viewing-data.md) for details on obtaining the IEEVisualizerService interface.  
   
 ## Requirements  
  Header: msdbg.h  
@@ -66,6 +66,6 @@ IPropertyProxyProvider : IUnknown
   
 ## See Also  
  [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)   
- [GetPropertyProxy](../../../extensibility/debugger/reference/ieevisualizerservice--getpropertyproxy.md)   
+ [GetPropertyProxy](../../../extensibility/debugger/reference/ieevisualizerservice-getpropertyproxy.md)   
  [Type Visualizer and Custom Viewer](../../../extensibility/debugger/type-visualizer-and-custom-viewer.md)   
  [Visualizing and Viewing Data](../../../extensibility/debugger/visualizing-and-viewing-data.md)

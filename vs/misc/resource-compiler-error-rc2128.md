@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Error RC2128"
+title: "Resource Compiler Error RC2128 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC2128"
 ms.assetid: fa4bc46f-c9ee-4c0d-a57a-493a077f5963
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

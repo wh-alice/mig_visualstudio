@@ -1,7 +1,7 @@
 ---
-title: "Code Snippet Functions"
+title: "Code Snippet Functions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IntelliSense code snippets, functions"
 ms.assetid: c0a2bf21-8fa5-4457-9281-f599beb53e7d
 caps.latest.revision: 11
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
-title: "GetTaskSchedulersForDebugger Method"
+title: "GetTaskSchedulersForDebugger Method | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -52,4 +52,4 @@ Retrieves an array of all <xref:System.Threading.Tasks.TaskScheduler> objects th
  This method is not thread safe and should not be used concurrently with other instances of <xref:System.Threading.Tasks.TaskScheduler>. It should be called from a debugger only when the debugger has suspended all other threads.  
   
 ## See Also  
- [TaskScheduler Class](../../extensibility/debugger/taskscheduler-class---internal-members.md)
+ [TaskScheduler Class](../../extensibility/debugger/taskscheduler-class-internal-members.md)

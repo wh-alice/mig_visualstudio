@@ -1,7 +1,7 @@
 ---
-title: "Constant Nodes"
+title: "Constant Nodes | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2c798a50-a2d7-459b-9879-ad4ad8290c9b
 caps.latest.revision: 11
+author: "BrianPeek"
 ms.author: "brpeek"
 manager: "ghogen"
 translation.priority.ht: 

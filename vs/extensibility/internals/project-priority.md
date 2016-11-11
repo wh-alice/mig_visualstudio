@@ -1,7 +1,7 @@
 ---
-title: "Project Priority"
+title: "Project Priority | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ A project item usually is a member of only one project in the solution. Therefor
   
  The following list shows the project priority scheme:  
   
--   The IDE calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject2.IsDocumentInProject*> method for each project in the solution to determine whether the document is a member of that project.  
+-   The IDE calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject2.IsDocumentInProject%2A> method for each project in the solution to determine whether the document is a member of that project.  
   
 -   If the document is a member of the project, the project responds with a priority that the project assigns according to its handling of that document. For example, a language project responds with a high priority for its language source files but responds with a lower priority for an unrecognized file type that is not used as part of its build process.  
   
@@ -47,5 +47,5 @@ A project item usually is a member of only one project in the solution. Therefor
   
 ## See Also  
  [Miscellaneous Files Project](../../extensibility/internals/miscellaneous-files-project.md)   
- [How to: Open Editors for Open Documents](../../extensibility/how-to--open-editors-for-open-documents.md)   
+ [How to: Open Editors for Open Documents](../../extensibility/how-to-open-editors-for-open-documents.md)   
  [Adding Project and Project Item Templates](../../extensibility/internals/adding-project-and-project-item-templates.md)

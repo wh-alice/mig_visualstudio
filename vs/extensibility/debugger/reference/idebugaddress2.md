@@ -1,7 +1,7 @@
 ---
-title: "IDebugAddress2"
+title: "IDebugAddress2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,14 +45,14 @@ IDebugAddress2 : IDebugAddress
  A symbol provider implements this interface on the same object that implements the [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface. This interface provides access to the ID of the process that owns the object that is related to this address.  
   
 ## Notes for Callers  
- Use [QueryInterface](../Topic/QueryInterface.md) to obtain this interface from the [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.  
+ Use [QueryInterface](/visual-cpp/atl/queryinterface) to obtain this interface from the [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.  
   
 ## Methods in vtable Order  
  In addition to the methods inherited from the [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface, this interface implements the following method:  
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetProcessID](../../../extensibility/debugger/reference/idebugaddress2--getprocessid.md)|Retrieves the ID of the process that owns the object represented by this interface.|  
+|[GetProcessID](../../../extensibility/debugger/reference/idebugaddress2-getprocessid.md)|Retrieves the ID of the process that owns the object represented by this interface.|  
   
 ## Requirements  
  Header: sh.h  

@@ -1,7 +1,7 @@
 ---
-title: "VSCT XML Schema Conditional Attributes"
+title: "VSCT XML Schema Conditional Attributes | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -83,4 +83,4 @@ and !Defined(DEBUG)">
 ```  
   
 ## See Also  
- [Visual Studio Command Table (.Vsct) Files](../Topic/Visual%20Studio%20Command%20Table%20\(.Vsct\)%20Files.md)
+ [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

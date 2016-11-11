@@ -1,7 +1,7 @@
 ---
-title: "Universal Character Names"
+title: "Universal Character Names | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "universal character names"
 ms.assetid: 0b05bee9-d73e-47a5-8168-48389731f60f
 caps.latest.revision: 8
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 

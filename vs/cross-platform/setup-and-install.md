@@ -1,13 +1,14 @@
 ---
-title: "Setup and install"
+title: "Setup and install | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/27/2016"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2cfcad00-352c-4161-814c-f5ae32d8ada8
 caps.latest.revision: 16
+author: "kraigb"
 ms.author: "kraigb"
 manager: "ghogen"
 translation.priority.ht: 

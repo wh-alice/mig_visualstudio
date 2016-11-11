@@ -1,5 +1,5 @@
 ---
-title: "End of expression expected"
+title: "End of expression expected | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "BC30710"
 ms.assetid: 72b29abc-675b-4a68-a466-0dca5b09b9b3
 caps.latest.revision: 9
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 

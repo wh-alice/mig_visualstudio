@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB1016"
+title: "MSBuild Error MSB1016 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB1016"
 ms.assetid: 967a9757-0513-48ae-bf1d-b1b019993c70
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
-title: "IDebugProgramProvider2"
+title: "IDebugProgramProvider2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -51,10 +51,10 @@ IDebugProgramProvider2 : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetProviderProcessData](../../../extensibility/debugger/reference/idebugprogramprovider2--getproviderprocessdata.md)|Obtains information about programs running, filtered in a variety of ways.|  
-|[GetProviderProgramNode](../../../extensibility/debugger/reference/idebugprogramprovider2--getproviderprogramnode.md)|Gets a program node, given a specific process ID.|  
-|[WatchForProviderEvents](../../../extensibility/debugger/reference/idebugprogramprovider2--watchforproviderevents.md)|Establishes a callback to watch for provider events associated with specific kinds of processes.|  
-|[SetLocale](../../../extensibility/debugger/reference/idebugprogramprovider2--setlocale.md)|Establishes a locale for any language-specific resources needed by the DE.|  
+|[GetProviderProcessData](../../../extensibility/debugger/reference/idebugprogramprovider2-getproviderprocessdata.md)|Obtains information about programs running, filtered in a variety of ways.|  
+|[GetProviderProgramNode](../../../extensibility/debugger/reference/idebugprogramprovider2-getproviderprogramnode.md)|Gets a program node, given a specific process ID.|  
+|[WatchForProviderEvents](../../../extensibility/debugger/reference/idebugprogramprovider2-watchforproviderevents.md)|Establishes a callback to watch for provider events associated with specific kinds of processes.|  
+|[SetLocale](../../../extensibility/debugger/reference/idebugprogramprovider2-setlocale.md)|Establishes a locale for any language-specific resources needed by the DE.|  
   
 ## Remarks  
  Normally, a process uses this interface to find out about the programs running in that process.  

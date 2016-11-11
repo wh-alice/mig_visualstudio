@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB3119"
+title: "MSBuild Error MSB3119 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB3119"
 ms.assetid: 52d68b0e-01d4-436f-a96c-733fd20a8c04
 caps.latest.revision: 12
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -43,5 +44,5 @@ translation.priority.mt:
 -   Set the [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md)`extension` attribute to a value that starts with a period character (.), for example, ".doc".  
   
 ## See Also  
- [Publish Page, Project Designer](../ide/reference/publish-page--project-designer.md)   
+ [Publish Page, Project Designer](../ide/reference/publish-page-project-designer.md)   
  [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md)

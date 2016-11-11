@@ -1,7 +1,7 @@
 ---
-title: "Understanding Memory Allocation and Object Lifetime Data Values"
+title: "Understanding Memory Allocation and Object Lifetime Data Values | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "Profiling Tools, .NET memory method"
 ms.assetid: a22445b3-39a6-4919-8506-2b5b0ceaf77e
 caps.latest.revision: 11
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

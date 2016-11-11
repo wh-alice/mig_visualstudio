@@ -1,7 +1,7 @@
 ---
-title: "Visual Studio Architecture Tooling Guidance"
+title: "Visual Studio Architecture Tooling Guidance | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: fce6b398-935e-4241-bdf4-875d09ff57c7
 caps.latest.revision: 10
+author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
 translation.priority.ht: 

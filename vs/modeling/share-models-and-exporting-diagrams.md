@@ -1,7 +1,7 @@
 ---
-title: "Share models and exporting diagrams"
+title: "Share models and exporting diagrams | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "UML diagrams, saving"
 ms.assetid: 22e47b4d-c185-478c-9535-56d292b45984
 caps.latest.revision: 14
+author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
 translation.priority.ht: 

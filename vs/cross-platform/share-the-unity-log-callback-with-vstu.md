@@ -1,7 +1,7 @@
 ---
-title: "Share the Unity Log Callback with VSTU"
+title: "Share the Unity Log Callback with VSTU | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5d71f906-6e50-4399-b59b-d38c6dfef7ee
 caps.latest.revision: 2
+author: "ghogen"
 ms.author: "ghogen"
 manager: "ghogen"
 translation.priority.ht: 

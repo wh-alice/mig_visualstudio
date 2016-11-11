@@ -1,7 +1,7 @@
 ---
-title: "Visual Studio SDK"
+title: "Visual Studio SDK | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -88,8 +88,8 @@ The Visual Studio SDK helps you extend Visual Studio features or integrate new f
   
 ## See Also  
  [Creating an Extension with a Menu Command](../extensibility/creating-an-extension-with-a-menu-command.md)   
- [How to: Migrate Extensibility Projects to Visual Studio 2015](../extensibility/how-to--migrate-extensibility-projects-to-visual-studio-2015.md)   
- [FAQ: Converting Add-ins to VSPackage Extensions](../extensibility/faq--converting-add-ins-to-vspackage-extensions.md)   
+ [How to: Migrate Extensibility Projects to Visual Studio 2015](../extensibility/how-to-migrate-extensibility-projects-to-visual-studio-2015.md)   
+ [FAQ: Converting Add-ins to VSPackage Extensions](../extensibility/faq-converting-add-ins-to-vspackage-extensions.md)   
  [Managing Multiple Threads in Managed Code](../extensibility/managing-multiple-threads-in-managed-code.md)   
  [Extending Menus and Commands](../extensibility/extending-menus-and-commands.md)   
  [Adding Commands to Toolbars](../extensibility/adding-commands-to-toolbars.md)   
@@ -105,7 +105,7 @@ The Visual Studio SDK helps you extend Visual Studio features or integrate new f
  [Managing VSPackages](../extensibility/managing-vspackages.md)   
  [Visual Studio Isolated Shell](../extensibility/visual-studio-isolated-shell.md)   
  [Shipping Visual Studio Extensions](../extensibility/shipping-visual-studio-extensions.md)   
- [Inside the Visual Studio SDK](../Topic/Inside%20the%20Visual%20Studio%20SDK.md)   
+ [Inside the Visual Studio SDK](../extensibility/internals/inside-the-visual-studio-sdk.md)   
  [Support for the Visual Studio SDK](../extensibility/support-for-the-visual-studio-sdk.md)   
  [Archive](../extensibility/archive.md)   
  [Visual Studio SDK Reference](../extensibility/visual-studio-sdk-reference.md)

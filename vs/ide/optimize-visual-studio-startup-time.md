@@ -1,7 +1,7 @@
 ---
-title: "Optimize Visual Studio Startup Time"
+title: "Optimize Visual Studio Startup Time | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/26/2016"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "speed up start time [Visual Studio]"
 ms.assetid: d1508121-8499-4084-8eb5-fa89fa7b17d3
 caps.latest.revision: 4
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 ---

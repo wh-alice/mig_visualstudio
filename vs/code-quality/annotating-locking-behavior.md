@@ -1,7 +1,7 @@
 ---
-title: "Annotating Locking Behavior"
+title: "Annotating Locking Behavior | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,8 +35,9 @@ f1_keywords:
   - "_Lock_kind_event_"
 ms.assetid: 07769c25-9b97-4ab7-b175-d1c450308d7a
 caps.latest.revision: 9
-ms.author: "susanno"
-manager: "douge"
+author: "corob-msft"
+ms.author: "corob"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -120,12 +121,12 @@ To avoid concurrency bugs in your multithreaded program, always follow an approp
 |`_Write_guarded_by_(expr)`|Annotates a variable and indicates that whenever the variable is modified, the lock count of the lock object that's named by `expr` is at least one.|  
   
 ## See Also  
- [Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-c---code-defects.md)   
+ [Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)   
  [Understanding SAL](../code-quality/understanding-sal.md)   
  [Annotating Function Parameters and Return Values](../code-quality/annotating-function-parameters-and-return-values.md)   
  [Annotating Function Behavior](../code-quality/annotating-function-behavior.md)   
  [Annotating Structs and Classes](../code-quality/annotating-structs-and-classes.md)   
  [Specifying When and Where an Annotation Applies](../code-quality/specifying-when-and-where-an-annotation-applies.md)   
  [Intrinsic Functions](../code-quality/intrinsic-functions.md)   
- [Best Practices and Examples](../code-quality/best-practices-and-examples--sal-.md)   
+ [Best Practices and Examples](../code-quality/best-practices-and-examples-sal.md)   
  [Code Analysis Team Blog](http://go.microsoft.com/fwlink/p/?LinkId=251197)

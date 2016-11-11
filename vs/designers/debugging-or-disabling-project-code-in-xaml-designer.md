@@ -1,13 +1,14 @@
 ---
-title: "Debugging or Disabling Project Code in XAML Designer"
+title: "Debugging or Disabling Project Code in XAML Designer | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ac600581-8fc8-49e3-abdf-1569a3483d74
 caps.latest.revision: 5
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

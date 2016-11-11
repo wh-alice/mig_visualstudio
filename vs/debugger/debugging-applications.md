@@ -1,7 +1,7 @@
 ---
-title: "Debugging Applications"
+title: "Debugging Applications | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ dev_langs:
   - "C++"
 ms.assetid: f7f08402-610e-47f0-ba10-575dd395a0f0
 caps.latest.revision: 2
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

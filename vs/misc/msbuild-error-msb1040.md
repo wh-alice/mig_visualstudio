@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB1040"
+title: "MSBuild Error MSB1040 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/24/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "MSB1040"
 ms.assetid: d3ac2168-aa7a-4f30-ab05-89cb0b337aaf
 caps.latest.revision: 8
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -42,5 +43,5 @@ translation.priority.mt:
   
 ## See Also  
  [Overriding ToolsVersion Settings](../msbuild/overriding-toolsversion-settings.md)   
- [Project Element (MSBuild)](../msbuild/project-element--msbuild-.md)   
+ [Project Element (MSBuild)](../msbuild/project-element-msbuild.md)   
  [Additional Resources](../msbuild/additional-msbuild-resources.md)

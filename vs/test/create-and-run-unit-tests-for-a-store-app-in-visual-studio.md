@@ -1,7 +1,7 @@
 ---
-title: "Create and run unit tests for a Store app in Visual Studio"
+title: "Create and run unit tests for a Store app in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "unit tests"
 ms.assetid: d3de7b31-0262-4373-ba84-e74eda7651e4
 caps.latest.revision: 26
+author: "alexhomer1"
 ms.author: "ahomer"
 manager: "robinr"
 translation.priority.ht: 
@@ -45,6 +46,6 @@ The Visual Studio 2012 Express for Windows 8 unit test tools are designed to sup
 ## In this section  
  [Unit test C# code](../test/unit-testing-visual-csharp-code-in-a-store-app.md)  
   
- [Unit testing a C++ DLL](../test/unit-testing-a-visual-c---dll-for-store-apps.md)  
+ [Unit testing a C++ DLL](../test/unit-testing-a-visual-cpp-dll-for-store-apps.md)  
   
  [Run unit tests in Test Explorer](../test/run-unit-tests-for-store-apps-in-visual-studio.md)

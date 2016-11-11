@@ -1,7 +1,7 @@
 ---
-title: "ranlux24 TypeDef"
+title: "ranlux24 TypeDef | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "ranlux24 typedef"
 ms.assetid: 2a2c1fcf-8bf7-447e-8b1d-f78e7b6f02d7
 caps.latest.revision: 8
+author: "ghogen"
 ms.author: "ghogen"
 manager: "douge"
 translation.priority.mt: 

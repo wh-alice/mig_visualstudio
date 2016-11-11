@@ -1,7 +1,7 @@
 ---
-title: "IntelliSense Hosting"
+title: "IntelliSense Hosting | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -42,7 +42,7 @@ Visual Studio enables IntelliSense hosting. IntellSense hosting lets you provide
  Any UI component that hosts IntelliSense pop-up windows must support the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost> interface. The default core editor text view includes a stock <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost> interface implementation to retain the current IntelliSense functionality. For the most part, the methods of the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost> interface represent a subset of what is implemented on the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> interface. The subset includes IntelliSense UI handling, caret and selection manipulation, and simple text replacement functionality. In addition, the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost> interface enables separate IntelliSense "subject" and "context" so that IntelliSense can be provided for subjects that do not directly exist in the text buffer that is being used for context.  
   
 #### IVsIntellisenseHost.GetHostFlags  
- An <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost> interface provider must implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost.GetHostFlags*> method to enable a client to determine what type of IntelliSense features the host supports.  
+ An <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost> interface provider must implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost.GetHostFlags%2A> method to enable a client to determine what type of IntelliSense features the host supports.  
   
  The host flags, defined in [IntelliSenseHostFlags](../extensibility/intellisensehostflags.md), are summarized below.  
   

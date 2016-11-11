@@ -1,7 +1,7 @@
 ---
-title: "CommandPlacement Element"
+title: "CommandPlacement Element | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -81,4 +81,4 @@ The CommandPlacement element enables buttons, groups, and menus to be included i
   
 ## See Also  
  [CommandPlacements Element](../extensibility/commandplacements-element.md)   
- [Visual Studio Command Table (.Vsct) Files](../Topic/Visual%20Studio%20Command%20Table%20\(.Vsct\)%20Files.md)
+ [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

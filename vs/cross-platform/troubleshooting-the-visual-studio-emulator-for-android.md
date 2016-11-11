@@ -1,7 +1,7 @@
 ---
-title: "Troubleshooting the Visual Studio Emulator for Android"
+title: "Troubleshooting the Visual Studio Emulator for Android | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f3fb5df4-3aae-40e4-9450-bbe15b0c5af5
 caps.latest.revision: 23
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

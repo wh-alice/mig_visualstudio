@@ -1,7 +1,7 @@
 ---
-title: "Code Analysis Application Errors"
+title: "Code Analysis Application Errors | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "code analysis, policy errors"
 ms.assetid: d8fd9475-ac9b-4085-b5a3-b0c807922cac
 caps.latest.revision: 23
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

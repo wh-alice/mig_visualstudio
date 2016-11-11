@@ -1,7 +1,7 @@
 ---
-title: "Dominance"
+title: "Dominance | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,6 +23,7 @@ helpviewer_keywords:
   - "resolving names"
 ms.assetid: 52974d71-2bfb-4484-9adc-4c64ba6f1db8
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 

@@ -1,7 +1,7 @@
 ---
-title: "IDebugDynamicFieldCOMPlus"
+title: "IDebugDynamicFieldCOMPlus | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -44,8 +44,8 @@ IDebugDynamicFieldCOMPlus : IDebugDynamicField
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetTypeFromPrimitive](../../../extensibility/debugger/reference/idebugdynamicfieldcomplus--gettypefromprimitive.md)|Retrieves a type given its primitive type.|  
-|[GetTypeFromTypeDef](../../../extensibility/debugger/reference/idebugdynamicfieldcomplus--gettypefromtypedef.md)|Retrieves a type given its token.|  
+|[GetTypeFromPrimitive](../../../extensibility/debugger/reference/idebugdynamicfieldcomplus-gettypefromprimitive.md)|Retrieves a type given its primitive type.|  
+|[GetTypeFromTypeDef](../../../extensibility/debugger/reference/idebugdynamicfieldcomplus-gettypefromtypedef.md)|Retrieves a type given its token.|  
   
 ## Requirements  
  Header: Sh.h  

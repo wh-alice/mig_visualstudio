@@ -1,7 +1,7 @@
 ---
-title: "IDebugPrimitiveTypeField"
+title: "IDebugPrimitiveTypeField | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -44,7 +44,7 @@ IDebugPrimitiveTypeField : IDebugField
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetPrimitiveType](../../../extensibility/debugger/reference/idebugprimitivetypefield--getprimitivetype.md)|Retrieves the primitive type associated with this field.|  
+|[GetPrimitiveType](../../../extensibility/debugger/reference/idebugprimitivetypefield-getprimitivetype.md)|Retrieves the primitive type associated with this field.|  
   
 ## Requirements  
  Header: Sh.h  

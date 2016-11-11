@@ -1,7 +1,7 @@
 ---
-title: "Overview of Domain-Specific Language Tools"
+title: "Overview of Domain-Specific Language Tools | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ helpviewer_keywords:
   - "Domain-Specific Language"
 ms.assetid: 50d93ea2-8c88-4522-853b-40ab194953db
 caps.latest.revision: 54
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 ---
@@ -62,7 +63,7 @@ Domain-Specific Language Tools (DSL Tools), which are hosted in [!INCLUDE[vsprvs
 ## Validation in DSL Tools  
  Dsl provides one level of validation to make sure that the domain model meets the basic requirements for code generation. Typically, when you create your own domain-specific language, you would add your own validation to express your business logic rules. For more information about custom validation, see [Validation in a Domain-Specific Language](../modeling/validation-in-a-domain-specific-language.md).  
   
- We recommend that you validate your domain-specific language often when you are designing it. If your domain-specific language has validation errors, you cannot generate source code. The process of generating source code from the templates is performed by clicking **Transform All Templates** in the toolbar of Solution Explorer. Whenever you modify the language definition, also make sure to **Transform All Templates**. For more information, see [How to: Create a Domain-Specific Language Solution](../modeling/how-to--create-a-domain-specific-language-solution.md).  
+ We recommend that you validate your domain-specific language often when you are designing it. If your domain-specific language has validation errors, you cannot generate source code. The process of generating source code from the templates is performed by clicking **Transform All Templates** in the toolbar of Solution Explorer. Whenever you modify the language definition, also make sure to **Transform All Templates**. For more information, see [How to: Create a Domain-Specific Language Solution](../modeling/how-to-create-a-domain-specific-language-solution.md).  
   
 ## Customization of DSL Tools  
  You can provide additional code to refine the behavior of the model and to define constraints over your language. If required, you can make significant changes by modifying the text templates.  

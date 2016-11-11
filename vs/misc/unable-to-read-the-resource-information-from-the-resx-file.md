@@ -1,7 +1,7 @@
 ---
-title: "Unable to read the resource information from the resx file"
+title: "Unable to read the resource information from the resx file | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ f1_keywords:
   - "vs.tasklisterror.fail_reading_resx_file"
 ms.assetid: b61e42d0-c4aa-4575-bea4-6eccba0b69ed
 caps.latest.revision: 6
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

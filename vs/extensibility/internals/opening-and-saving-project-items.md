@@ -1,7 +1,7 @@
 ---
-title: "Opening and Saving Project Items"
+title: "Opening and Saving Project Items | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -42,13 +42,13 @@ When you add a new project type, you must manage the opening and saving of your 
  [Displaying Files By Using the Open With Command](../../extensibility/internals/displaying-files-by-using-the-open-with-command.md)  
  Provides a detailed, step-by-step explanation of how the IDE handles the **Open With** command, prompting the opening of a file that has some choice of standard editors.  
   
- [How to: Open Project-Specific Editors](../../extensibility/how-to--open-project-specific-editors.md)  
+ [How to: Open Project-Specific Editors](../../extensibility/how-to-open-project-specific-editors.md)  
  Provides step-by-step instructions for specifying that files of a particular type in your project should be opened by using a project-specific editor.  
   
- [How to: Open Standard Editors](../../extensibility/how-to--open-standard-editors.md)  
+ [How to: Open Standard Editors](../../extensibility/how-to-open-standard-editors.md)  
  Provides step-by-step instructions for specifying how to enable the IDE to open a standard editor for files in your project type.  
   
- [How to: Open Editors for Open Documents](../../extensibility/how-to--open-editors-for-open-documents.md)  
+ [How to: Open Editors for Open Documents](../../extensibility/how-to-open-editors-for-open-documents.md)  
  Provides step-by-step instructions to open a project-specific editor for an open file.  
   
  [Saving a Standard Document](../../extensibility/internals/saving-a-standard-document.md)  

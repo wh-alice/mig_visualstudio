@@ -1,7 +1,7 @@
 ---
-title: "IDebugTypeFieldBuilder2"
+title: "IDebugTypeFieldBuilder2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -47,7 +47,7 @@ IDebugTypeFieldBuilder2 : IDebugTypeFieldBuilder
   
 |Method|Description|  
 |------------|-----------------|  
-|[CreateArrayOfType](../../../extensibility/debugger/reference/idebugtypefieldbuilder2--createarrayoftype.md)|Creates an array of the specified type and size.|  
+|[CreateArrayOfType](../../../extensibility/debugger/reference/idebugtypefieldbuilder2-createarrayoftype.md)|Creates an array of the specified type and size.|  
   
 ## Requirements  
  Header: Sh.h  

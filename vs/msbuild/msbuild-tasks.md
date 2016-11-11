@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Tasks"
+title: "MSBuild Tasks | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "MSBuild, tasks"
 ms.assetid: 5d3cc4a7-e5db-4f73-b707-8b6882fddcf8
 caps.latest.revision: 18
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -39,12 +40,12 @@ A build platform needs the ability to execute any number of actions during the b
   
  The execution logic of a task is implemented as a .NET class that implements the <xref:Microsoft.Build.Framework.ITask> interface, which is defined in the <xref:Microsoft.Build.Framework> namespace.  
   
- The task class also defines the input and output parameters available to the task in the project file. All public settable non-static non-abstract properties exposed by the task class can be accessed in the project file by placing a corresponding attribute with the same name on the [Task](../msbuild/task-element--msbuild-.md) element.  
+ The task class also defines the input and output parameters available to the task in the project file. All public settable non-static non-abstract properties exposed by the task class can be accessed in the project file by placing a corresponding attribute with the same name on the [Task](../msbuild/task-element-msbuild.md) element.  
   
  You can write your own task by authoring a managed class that implements the <xref:Microsoft.Build.Framework.ITask> interface. For more information, see [Task Writing](../msbuild/task-writing.md).  
   
 ## Executing a Task from a Project File  
- Before executing a task in your project file, you must first map the type in the assembly that implements the task to the task name with the [UsingTask](../msbuild/usingtask-element--msbuild-.md) element. This lets [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] know where to look for the execution logic of your task when it finds it in your project file.  
+ Before executing a task in your project file, you must first map the type in the assembly that implements the task to the task name with the [UsingTask](../msbuild/usingtask-element-msbuild.md) element. This lets [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] know where to look for the execution logic of your task when it finds it in your project file.  
   
  To execute a task in an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file, create an element with the name of the task as a child of a `Target` element. If a task accepts parameters, these are passed as attributes of the element.  
   

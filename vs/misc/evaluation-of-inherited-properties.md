@@ -1,7 +1,7 @@
 ---
-title: "Evaluation of Inherited Properties"
+title: "Evaluation of Inherited Properties | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "inherited properties"
 ms.assetid: a718d6e0-083b-49d3-b7ad-8d3a43f88c36
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -33,4 +34,4 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Evaluation of Inherited Properties
-This content has been moved to [Working with Project Properties](../Topic/Working%20with%20Project%20Properties.md).
+This content has been moved to [Working with Project Properties](/visual-cpp/ide/working-with-project-properties).

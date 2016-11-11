@@ -1,7 +1,7 @@
 ---
-title: "Setting Language-Specific Editor Options"
+title: "Setting Language-Specific Editor Options | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "editor settings"
 ms.assetid: ba64d517-a60d-409b-9860-5d75065a5bb7
 caps.latest.revision: 16
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -36,22 +37,22 @@ translation.priority.ht:
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] offers a variety of Text Editor options that apply to specific programming languages.  
   
 ## In This Section  
- [Options, Text Editor, Basic (Visual Basic)](../../ide/reference/options--text-editor--basic--visual-basic-.md)  
+ [Options, Text Editor, Basic (Visual Basic)](../../ide/reference/options-text-editor-basic-visual-basic.md)  
  Describes settings for end constructs, code reformatting, outlining, and error correction suggestions, among others, for [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] code.  
   
- [Options, Text Editor, C/C++, Formatting](../../ide/reference/options--text-editor--c-c----formatting.md)  
+ [Options, Text Editor, C/C++, Formatting](../../ide/reference/options-text-editor-c-cpp-formatting.md)  
  Describes outlining, indenting, Quick Info, and other settings for C and C++ code.  
   
- [Options, Text Editor, C/C++, Advanced](../../ide/reference/options--text-editor--c-c----advanced.md)  
+ [Options, Text Editor, C/C++, Advanced](../../ide/reference/options-text-editor-c-cpp-advanced.md)  
  Describes settings for IntelliSense and database files when using C and C++.  
   
- [Options, Text Editor, C#, Formatting](../../ide/reference/options--text-editor--csharp--formatting.md)  
+ [Options, Text Editor, C#, Formatting](../../ide/reference/options-text-editor-csharp-formatting.md)  
  Describes settings for indenting, new line formatting, and wrapping text, among others, for C# and J#.  
   
- [Options, Text Editor, C#, Advanced](../../ide/reference/options--text-editor--csharp--advanced.md)  
+ [Options, Text Editor, C#, Advanced](../../ide/reference/options-text-editor-csharp-advanced.md)  
  Describes outlining, error identification, and XML documentation comment settings for C# and J#.  
   
- [Options, Text Editor, C#, IntelliSense](../../ide/reference/options--text-editor--csharp--intellisense.md)  
+ [Options, Text Editor, C#, IntelliSense](../../ide/reference/options-text-editor-csharp-intellisense.md)  
  Describes settings that specify how the IntelliSense completion list behaves when you work in C# and J# code.  
   
  [Validation, CSS, Text Editor, Options Dialog Box](../Topic/Validation,%20CSS,%20Text%20Editor,%20Options%20Dialog%20Box.md)  
@@ -60,7 +61,7 @@ translation.priority.ht:
  [Validation, HTML, Text Editor, Options Dialog Box](../Topic/Validation,%20HTML,%20Text%20Editor,%20Options%20Dialog%20Box.md)  
  Describes settings for checking HTML syntax based on the schema you select.  
   
- [Options, Text Editor, XAML, Formatting](../../ide/reference/options--text-editor--xaml--formatting.md)  
+ [Options, Text Editor, XAML, Formatting](../../ide/reference/options-text-editor-xaml-formatting.md)  
  Describes settings for element and attribute arrangement in XAML documents.  
   
 ## Related Sections  

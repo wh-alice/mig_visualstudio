@@ -1,7 +1,7 @@
 ---
-title: "COM Server and Container Debugging"
+title: "COM Server and Container Debugging | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,6 +24,7 @@ helpviewer_keywords:
   - "COM [Visual Studio], debugging"
 ms.assetid: b7ce8696-ebb8-4354-a767-f76b8ada4ac1
 caps.latest.revision: 20
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

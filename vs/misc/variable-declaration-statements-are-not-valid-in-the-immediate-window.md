@@ -1,5 +1,5 @@
 ---
-title: "Variable declaration statements are not valid in the Immediate window"
+title: "Variable declaration statements are not valid in the Immediate window | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "BC30709"
 ms.assetid: 6b095aa3-217c-434f-ae37-159016c321ca
 caps.latest.revision: 10
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 

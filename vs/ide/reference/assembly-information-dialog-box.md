@@ -1,7 +1,7 @@
 ---
-title: "Assembly Information Dialog Box"
+title: "Assembly Information Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/22/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Assembly Information dialog box"
 ms.assetid: 8f1f6449-e03d-4a5b-9076-d3b1f84ada48
 caps.latest.revision: 13
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -72,5 +73,5 @@ The **Assembly Information** dialog box is used to specify the values of the [!I
  Specifies whether types in the assembly will be available to COM. Corresponds to <xref:System.Runtime.InteropServices.ComVisibleAttribute>.  
   
 ## See Also  
- [Application Page, Project Designer (Visual Basic)](../../ide/reference/application-page--project-designer--visual-basic-.md)   
+ [Application Page, Project Designer (Visual Basic)](../../ide/reference/application-page-project-designer-visual-basic.md)   
  [Attributes](../Topic/Attributes%20\(C%23%20and%20Visual%20Basic\).md)

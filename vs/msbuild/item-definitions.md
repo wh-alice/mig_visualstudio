@@ -1,7 +1,7 @@
 ---
-title: "Item Definitions"
+title: "Item Definitions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/24/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "msbuild, item definitions"
 ms.assetid: 8e3dc223-f9e5-4974-aa0e-5dc7967419cb
 caps.latest.revision: 21
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -31,9 +32,9 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Item Definitions
-[!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 2.0 enables the static declaration of items in project files by using the [ItemGroup](../msbuild/itemgroup-element--msbuild-.md) element. However, metadata may be added only at the item level, even if the metadata is identical for all items. Starting in [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 3.5, a project element named [ItemDefinitionGroup](../msbuild/itemdefinitiongroup-element--msbuild-.md) overcomes this limitation. *ItemDefinitionGroup* lets you define a set of item definitions, which add default metadata values to all items in the named item type.  
+[!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 2.0 enables the static declaration of items in project files by using the [ItemGroup](../msbuild/itemgroup-element-msbuild.md) element. However, metadata may be added only at the item level, even if the metadata is identical for all items. Starting in [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 3.5, a project element named [ItemDefinitionGroup](../msbuild/itemdefinitiongroup-element-msbuild.md) overcomes this limitation. *ItemDefinitionGroup* lets you define a set of item definitions, which add default metadata values to all items in the named item type.  
   
- The *ItemDefinitionGroup* element appears immediately after the [Project](../msbuild/project-element--msbuild-.md) element of the project file. Item definitions provide the following functionality:  
+ The *ItemDefinitionGroup* element appears immediately after the [Project](../msbuild/project-element-msbuild.md) element of the project file. Item definitions provide the following functionality:  
   
 -   You can define global default metadata for items outside a target. That is, the same metadata applies to all items of the specified type.  
   

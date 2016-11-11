@@ -1,7 +1,7 @@
 ---
-title: "IDebugErrorBreakpointResolution2"
+title: "IDebugErrorBreakpointResolution2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,15 +45,15 @@ IDebugErrorBreakpointResolution2 : IUnknown
  A debug engine implements this interface as part of its support for breakpoints. This interface is used to report where a breakpoint failed to bind.  
   
 ## Notes for Callers  
- A call to [GetBreakpointResolution](../../../extensibility/debugger/reference/idebugerrorbreakpoint2--getbreakpointresolution.md) returns this interface to provide information about where the breakpoint failed to bind. The [GetErrorBreakpoint](../../../extensibility/debugger/reference/idebugbreakpointerrorevent2--geterrorbreakpoint.md) method obtains the [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebugerrorbreakpoint2.md) interface.  
+ A call to [GetBreakpointResolution](../../../extensibility/debugger/reference/idebugerrorbreakpoint2-getbreakpointresolution.md) returns this interface to provide information about where the breakpoint failed to bind. The [GetErrorBreakpoint](../../../extensibility/debugger/reference/idebugbreakpointerrorevent2-geterrorbreakpoint.md) method obtains the [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebugerrorbreakpoint2.md) interface.  
   
 ## Methods in Vtable Order  
  The following table shows the methods of `IDebugErrorBreakpointResolution2`.  
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetBreakpointType](../../../extensibility/debugger/reference/idebugerrorbreakpointresolution2--getbreakpointtype.md)|Gets the breakpoint type.|  
-|[GetResolutionInfo](../../../extensibility/debugger/reference/idebugerrorbreakpointresolution2--getresolutioninfo.md)|Gets the breakpoint resolution information.|  
+|[GetBreakpointType](../../../extensibility/debugger/reference/idebugerrorbreakpointresolution2-getbreakpointtype.md)|Gets the breakpoint type.|  
+|[GetResolutionInfo](../../../extensibility/debugger/reference/idebugerrorbreakpointresolution2-getresolutioninfo.md)|Gets the breakpoint resolution information.|  
   
 ## Requirements  
  Header: msdbg.h  
@@ -64,5 +64,5 @@ IDebugErrorBreakpointResolution2 : IUnknown
   
 ## See Also  
  [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebugerrorbreakpoint2.md)   
- [GetBreakpointResolution](../../../extensibility/debugger/reference/idebugerrorbreakpoint2--getbreakpointresolution.md)   
- [GetErrorBreakpoint](../../../extensibility/debugger/reference/idebugbreakpointerrorevent2--geterrorbreakpoint.md)
+ [GetBreakpointResolution](../../../extensibility/debugger/reference/idebugerrorbreakpoint2-getbreakpointresolution.md)   
+ [GetErrorBreakpoint](../../../extensibility/debugger/reference/idebugbreakpointerrorevent2-geterrorbreakpoint.md)

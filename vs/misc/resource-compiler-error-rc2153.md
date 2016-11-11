@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Error RC2153"
+title: "Resource Compiler Error RC2153 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC2153"
 ms.assetid: b44b5446-29c2-4fa7-a954-da61834082e1
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
-title: "namespace Declaration"
+title: "namespace Declaration | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "declarations [C++], namespaces"
 ms.assetid: 54f0afe6-ecc0-4ae1-98a9-733fc5c58fb7
 caps.latest.revision: 6
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -36,6 +37,6 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # namespace Declaration
-This content has moved to [Namespaces](../Topic/Namespaces%20\(C++\).md).  
+This content has moved to [Namespaces](/visual-cpp/cpp/namespaces-cpp).  
   
 ## Syntax

@@ -1,7 +1,7 @@
 ---
-title: "Developing a Legacy Language Service"
+title: "Developing a Legacy Language Service | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -60,7 +60,7 @@ This section links to topics that help you create a legacy language service.
  [Language Service Support for Debugging](../../extensibility/internals/language-service-support-for-debugging.md)  
  Describes how a language service can provide features to support a debugger.  
   
- [Checklist: Creating a Legacy Language Service](../../extensibility/internals/checklist--creating-a-legacy-language-service.md)  
+ [Checklist: Creating a Legacy Language Service](../../extensibility/internals/checklist-creating-a-legacy-language-service.md)  
  Provides step-by-step instructions for creating and integrating a language service for the core editor.  
   
 ## Related Sections  
@@ -73,8 +73,8 @@ This section links to topics that help you create a legacy language service.
  [Parameter Info in a Legacy Language Service](../../extensibility/internals/parameter-info-in-a-legacy-language-service1.md)  
  Describes how to provide method tips for overloaded functions and methods.  
   
- [How to: Provide Hidden Text Support in a Legacy Language Service](../../extensibility/internals/how-to--provide-hidden-text-support-in-a-legacy-language-service.md)  
+ [How to: Provide Hidden Text Support in a Legacy Language Service](../../extensibility/internals/how-to-provide-hidden-text-support-in-a-legacy-language-service.md)  
  Explains the purpose of a hidden text region and provides instructions about how to implement a hidden text region.  
   
- [How to: Provide Expanded Outlining Support in a Legacy Language Service](../../extensibility/internals/how-to--provide-expanded-outlining-support-in-a-legacy-language-service.md)  
+ [How to: Provide Expanded Outlining Support in a Legacy Language Service](../../extensibility/internals/how-to-provide-expanded-outlining-support-in-a-legacy-language-service.md)  
  Explains the two options that extend outlining support for your language beyond supporting the *Collapse to Definitions* command.

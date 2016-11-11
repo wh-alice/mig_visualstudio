@@ -1,7 +1,7 @@
 ---
-title: "Enhancing Code Quality with Team Project Check-in Policies"
+title: "Enhancing Code Quality with Team Project Check-in Policies | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "team-based development, enhancing code quality"
 ms.assetid: 0ab72c33-148a-4a8a-a7bf-046995514c84
 caps.latest.revision: 25
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

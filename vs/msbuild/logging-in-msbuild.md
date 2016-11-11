@@ -1,7 +1,7 @@
 ---
-title: "Logging in MSBuild"
+title: "Logging in MSBuild | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "msbuild, logging"
 ms.assetid: 9aea2e76-8f60-4234-913d-598e7bbad808
 caps.latest.revision: 11
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

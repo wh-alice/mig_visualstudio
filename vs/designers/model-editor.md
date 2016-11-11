@@ -1,7 +1,7 @@
 ---
-title: "Model Editor"
+title: "Model Editor | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,6 +14,7 @@ f1_keywords:
   - "vs.graphics.modelviewer"
 ms.assetid: 5edf1a30-9307-43c3-9b8b-831217be0104
 caps.latest.revision: 36
+author: "BrianPeek"
 ms.author: "brpeek"
 manager: "ghogen"
 ---
@@ -164,7 +165,7 @@ This document describes how to work with the [!INCLUDE[vsprvs](../code-quality/i
 ### Working with the pivot point  
  The pivot point of an object defines its center of rotation and scaling. You can change the pivot point of an object to change how it's affected by rotation and scaling transformations. On the **Model Editor Mode** toolbar, choose **Pivot Mode** to enable (or disabled) pivot mode. When pivot mode is enabled, a small axis indicator appears at the pivot point of the selected object. You can then use the **Translation** and **Rotation** tools to manipulate the pivot point.  
   
- For a demonstration that shows how to use the pivot point, see [How to: Modify the Pivot Point of a 3-D Model](../designers/how-to--modify-the-pivot-point-of-a-3-d-model.md).  
+ For a demonstration that shows how to use the pivot point, see [How to: Modify the Pivot Point of a 3-D Model](../designers/how-to-modify-the-pivot-point-of-a-3-d-model.md).  
   
 ### World and local modes  
  Translation and rotation can occur in either the local coordinate system (or *local frame-of-reference*) of the object, or in the coordinate system of the world (or the *world frame-of-reference*). The world frame-of-reference is independent of the rotation of the object. Local mode is the default. To enable (or disable) world mode, on the **Model Editor Mode** toolbar, choose the **WorldLocal** button.  
@@ -233,7 +234,7 @@ This document describes how to work with the [!INCLUDE[vsprvs](../code-quality/i
   
  To remove all materials from an object, on the **Model Editor** toolbar, choose **Scripts**, **Materials**, **Remove Materials**.  
   
- You can use the **Shader Designer** to create custom shader materials that you can apply to objects in your 3-D scene. For information about how to create custom shader materials, see [Shader Designer](../designers/shader-designer.md). For information about how to apply a custom shader material to an object, see [How to: Apply a Shader to a 3-D Model](../designers/how-to--apply-a-shader-to-a-3-d-model.md).  
+ You can use the **Shader Designer** to create custom shader materials that you can apply to objects in your 3-D scene. For information about how to create custom shader materials, see [Shader Designer](../designers/shader-designer.md). For information about how to apply a custom shader material to an object, see [How to: Apply a Shader to a 3-D Model](../designers/how-to-apply-a-shader-to-a-3-d-model.md).  
   
 ### Scene management  
  You can manage scenes as a hierarchy of objects. When multiple objects are arranged in a hierarchy, any translation, scale, or rotation of a parent node also affects its children. This is useful when you want to construct complex objects or scenes from more basic objects.  

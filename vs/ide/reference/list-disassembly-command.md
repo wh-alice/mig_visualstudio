@@ -1,7 +1,7 @@
 ---
-title: "List Disassembly Command"
+title: "List Disassembly Command | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "list disassembly command"
 ms.assetid: eb363e35-e86a-4121-966f-991210c27e2a
 caps.latest.revision: 13
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

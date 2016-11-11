@@ -1,7 +1,7 @@
 ---
-title: "Extending the Automation Model"
+title: "Extending the Automation Model | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,7 +33,7 @@ translation.priority.mt:
 # Extending the Automation Model
 This section discusses how the automation model and the VSPackage model represent a two-prong approach to extensibility in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] environment. Extensibility is the capacity to enhance and extend the functionality of the IDE. Automation, on the one hand, refers to user-created code and tools that automate tasks in the existing environment and programmatically drive the IDE. VSPackages, on the other hand, let you add new functionality to the environment.  
   
- It is possible to combine automation and VSPackages in an extensibility application. For an example, see [Walkthrough: Extending Managed VSPackages By Using Automation](../misc/walkthrough--extending-managed-vspackages-by-using-automation.md).  
+ It is possible to combine automation and VSPackages in an extensibility application. For an example, see [Walkthrough: Extending Managed VSPackages By Using Automation](../misc/walkthrough-extending-managed-vspackages-by-using-automation.md).  
   
  For an end-to-end sample of a language project system that supports the automation model, see the [VSSDK Samples](../misc/vssdk-samples.md).  
   

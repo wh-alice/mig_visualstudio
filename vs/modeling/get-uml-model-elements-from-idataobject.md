@@ -1,7 +1,7 @@
 ---
-title: "Get UML model elements from IDataObject"
+title: "Get UML model elements from IDataObject | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ helpviewer_keywords:
   - "UML API, copy and paste"
 ms.assetid: e0b9cec8-3b93-4a24-8bd3-3e086501d387
 caps.latest.revision: 18
+author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
 translation.priority.ht: 
@@ -86,7 +87,7 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
     }  
 ```  
   
- For more information about `ElementGroupPrototype` and the `Store` in which the UML modeling tools are implemented, see [Modeling SDK for Visual Studio - Domain-Specific Languages](../modeling/modeling-sdk-for-visual-studio---domain-specific-languages.md).  
+ For more information about `ElementGroupPrototype` and the `Store` in which the UML modeling tools are implemented, see [Modeling SDK for Visual Studio - Domain-Specific Languages](../modeling/modeling-sdk-for-visual-studio-domain-specific-languages.md).  
   
 ## See Also  
  [Programming with the UML API](../modeling/programming-with-the-uml-api.md)   

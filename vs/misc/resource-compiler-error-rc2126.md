@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Error RC2126"
+title: "Resource Compiler Error RC2126 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC2126"
 ms.assetid: 696a67c5-844b-4a89-998b-a2755f8b34ed
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

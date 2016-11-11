@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB1021"
+title: "MSBuild Error MSB1021 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB1021"
 ms.assetid: 1a240035-a58c-439b-8174-e04fa7e2c3fc
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

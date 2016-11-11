@@ -1,7 +1,7 @@
 ---
-title: "Extensibility in Visual Studio"
+title: "Extensibility in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,7 +36,7 @@ Visual Studio gives you a lot of extensibility options. You can create your own 
  Find out how to create, package, and deploy your own platform and extension SDKs: [Creating a Software Development Kit](../extensibility/creating-a-software-development-kit.md).  
   
 ## Roslyn Extensibility  
- Find out how to use Roslyn for extensibility: [.NET Compiler Platform ("Roslyn") Extensibility](../extensibility/.net-compiler-platform---roslyn---extensibility.md).  
+ Find out how to use Roslyn for extensibility: [.NET Compiler Platform ("Roslyn") Extensibility](../extensibility/dotnet-compiler-platform-roslyn-extensibility.md).  
   
 ## Azure SDK  
  Find out how to enable the Azure SDK: [Enabling the Azure SDK](../extensibility/enabling-the-azure-sdk.md).

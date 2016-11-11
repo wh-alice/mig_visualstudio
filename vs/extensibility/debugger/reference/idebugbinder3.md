@@ -1,7 +1,7 @@
 ---
-title: "IDebugBinder3"
+title: "IDebugBinder3 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -48,21 +48,21 @@ IDebugBinder3 : IDebugBinder
  A debug engine implements this interface to support aliases, custom visualizer services, and access to object type information.  
   
 ## Notes for Callers  
- An [IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md) interface obtains this interface by using [QueryInterface](../Topic/QueryInterface.md).  
+ An [IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md) interface obtains this interface by using [QueryInterface](/visual-cpp/atl/queryinterface).  
   
 ## Methods in Vtable order  
  In addition to the methods provided by the [IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md) interface, this interface implements the following:  
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetMemoryObject](../../../extensibility/debugger/reference/idebugbinder3--getmemoryobject.md)|Retrieves a memory object representing the memory to which this object is bound.|  
-|[GetExceptionObjectAndType](../../../extensibility/debugger/reference/idebugbinder3--getexceptionobjectandtype.md)|Retrieves the exception associated with this object (if any),|  
-|[FindAlias](../../../extensibility/debugger/reference/idebugbinder3--findalias.md)|Retrieves an alias given its name,|  
-|[GetAllAliases](../../../extensibility/debugger/reference/idebugbinder3--getallaliases.md)|Retrieves an array of all aliases for this object,|  
-|[GetTypeArgumentCount](../../../extensibility/debugger/reference/idebugbinder3--gettypeargumentcount.md)|Gets the number of argument types associated with this object,|  
-|[GetTypeArguments](../../../extensibility/debugger/reference/idebugbinder3--gettypearguments.md)|Retrieves a list of argument types associated with this object,|  
-|[GetEEService](../../../extensibility/debugger/reference/idebugbinder3--geteeservice.md)|Gets an interface to a visualizer service,|  
-|[GetMemoryContext64](../../../extensibility/debugger/reference/idebugbinder3--getmemorycontext64.md)|Converts either an object location or a 64-bit memory address to a memory context.|  
+|[GetMemoryObject](../../../extensibility/debugger/reference/idebugbinder3-getmemoryobject.md)|Retrieves a memory object representing the memory to which this object is bound.|  
+|[GetExceptionObjectAndType](../../../extensibility/debugger/reference/idebugbinder3-getexceptionobjectandtype.md)|Retrieves the exception associated with this object (if any),|  
+|[FindAlias](../../../extensibility/debugger/reference/idebugbinder3-findalias.md)|Retrieves an alias given its name,|  
+|[GetAllAliases](../../../extensibility/debugger/reference/idebugbinder3-getallaliases.md)|Retrieves an array of all aliases for this object,|  
+|[GetTypeArgumentCount](../../../extensibility/debugger/reference/idebugbinder3-gettypeargumentcount.md)|Gets the number of argument types associated with this object,|  
+|[GetTypeArguments](../../../extensibility/debugger/reference/idebugbinder3-gettypearguments.md)|Retrieves a list of argument types associated with this object,|  
+|[GetEEService](../../../extensibility/debugger/reference/idebugbinder3-geteeservice.md)|Gets an interface to a visualizer service,|  
+|[GetMemoryContext64](../../../extensibility/debugger/reference/idebugbinder3-getmemorycontext64.md)|Converts either an object location or a 64-bit memory address to a memory context.|  
   
 ## Requirements  
  Header: ee.h  

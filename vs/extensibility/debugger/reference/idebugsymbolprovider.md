@@ -1,7 +1,7 @@
 ---
-title: "IDebugSymbolProvider"
+title: "IDebugSymbolProvider | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -54,18 +54,18 @@ IDebugSymbolProvider : IUnknown
 |------------|-----------------|  
 |`Initialize`|Deprecated. Do not use.|  
 |`Uninitialize`|Deprecated. Do not use.|  
-|[GetContainerField](../../../extensibility/debugger/reference/idebugsymbolprovider--getcontainerfield.md)|Gets the field that contains the debug address.|  
+|[GetContainerField](../../../extensibility/debugger/reference/idebugsymbolprovider-getcontainerfield.md)|Gets the field that contains the debug address.|  
 |`GetField`|Deprecated. Do not use.|  
-|[GetAddressesFromPosition](../../../extensibility/debugger/reference/idebugsymbolprovider--getaddressesfromposition.md)|Maps a document position into an array of debug addresses.|  
-|[GetAddressesFromContext](../../../extensibility/debugger/reference/idebugsymbolprovider--getaddressesfromcontext.md)|Maps a document context into an array of debug addresses.|  
-|[GetContextFromAddress](../../../extensibility/debugger/reference/idebugsymbolprovider--getcontextfromaddress.md)|Maps a debug address into a document context.|  
-|[GetLanguage](../../../extensibility/debugger/reference/idebugsymbolprovider--getlanguage.md)|Gets the language used to compile the code at the debug address.|  
+|[GetAddressesFromPosition](../../../extensibility/debugger/reference/idebugsymbolprovider-getaddressesfromposition.md)|Maps a document position into an array of debug addresses.|  
+|[GetAddressesFromContext](../../../extensibility/debugger/reference/idebugsymbolprovider-getaddressesfromcontext.md)|Maps a document context into an array of debug addresses.|  
+|[GetContextFromAddress](../../../extensibility/debugger/reference/idebugsymbolprovider-getcontextfromaddress.md)|Maps a debug address into a document context.|  
+|[GetLanguage](../../../extensibility/debugger/reference/idebugsymbolprovider-getlanguage.md)|Gets the language used to compile the code at the debug address.|  
 |`GetGlobalContainer`|Deprecated. Do not use.|  
-|[GetMethodFieldsByName](../../../extensibility/debugger/reference/idebugsymbolprovider--getmethodfieldsbyname.md)|Gets the field representing a fully qualified method name.|  
-|[GetClassTypeByName](../../../extensibility/debugger/reference/idebugsymbolprovider--getclasstypebyname.md)|Gets the class field type representing a fully qualified class name.|  
-|[GetNamespacesUsedAtAddress](../../../extensibility/debugger/reference/idebugsymbolprovider--getnamespacesusedataddress.md)|Creates an enumerator for namespaces associated with the debug address.|  
-|[GetTypeByName](../../../extensibility/debugger/reference/idebugsymbolprovider--gettypebyname.md)|Maps a symbol name to a symbol type.|  
-|[GetNextAddress](../../../extensibility/debugger/reference/idebugsymbolprovider--getnextaddress.md)|Gets the debug address that follows a given debug address in a method.|  
+|[GetMethodFieldsByName](../../../extensibility/debugger/reference/idebugsymbolprovider-getmethodfieldsbyname.md)|Gets the field representing a fully qualified method name.|  
+|[GetClassTypeByName](../../../extensibility/debugger/reference/idebugsymbolprovider-getclasstypebyname.md)|Gets the class field type representing a fully qualified class name.|  
+|[GetNamespacesUsedAtAddress](../../../extensibility/debugger/reference/idebugsymbolprovider-getnamespacesusedataddress.md)|Creates an enumerator for namespaces associated with the debug address.|  
+|[GetTypeByName](../../../extensibility/debugger/reference/idebugsymbolprovider-gettypebyname.md)|Maps a symbol name to a symbol type.|  
+|[GetNextAddress](../../../extensibility/debugger/reference/idebugsymbolprovider-getnextaddress.md)|Gets the debug address that follows a given debug address in a method.|  
   
 ## Remarks  
  This interface maps document positions into debug addresses and vice versa.  

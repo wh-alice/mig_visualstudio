@@ -1,7 +1,7 @@
 ---
-title: "Constant Member Functions"
+title: "Constant Member Functions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "declaring constant member functions"
 ms.assetid: bf616445-7c0a-468e-9f86-6849ec5fc416
 caps.latest.revision: 8
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -36,4 +37,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Constant Member Functions
-This content has moved to [const](../Topic/const%20\(C++\).md).
+This content has moved to [const](/visual-cpp/cpp/const-cpp).

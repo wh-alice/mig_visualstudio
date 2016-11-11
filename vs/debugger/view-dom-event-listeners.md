@@ -1,7 +1,7 @@
 ---
-title: "View DOM event listeners"
+title: "View DOM event listeners | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "event listeners, viewing [Windows Store apps]"
 ms.assetid: d5b679e7-87dd-4cec-9176-883db6ff0781
 caps.latest.revision: 23
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -120,6 +121,6 @@ translation.priority.mt:
 -   Use the JavaScript memory analyzer to [JavaScript Memory](../profiling/javascript-memory.md) in your app. Event listeners that must be explicitly removed might appear as a memory leak.  
   
 ## See Also  
- [Quickstart: Debug HTML and CSS](../debugger/quickstart--debug-html-and-css.md)   
+ [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md)   
  [Debug CSS styles using DOM Explorer](../debugger/debug-css-styles-using-dom-explorer.md)   
  [Debug layout using DOM Explorer](../debugger/debug-layout-using-dom-explorer.md)

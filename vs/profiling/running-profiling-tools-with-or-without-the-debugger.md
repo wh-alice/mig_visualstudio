@@ -1,7 +1,7 @@
 ---
-title: "Running Profiling Tools With or Without the Debugger"
+title: "Running Profiling Tools With or Without the Debugger | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/17/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3fcdccad-c1bd-4c67-bcec-bf33a8fb5d63
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 ---

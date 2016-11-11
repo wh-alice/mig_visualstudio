@@ -1,7 +1,7 @@
 ---
-title: "N-Tier Data Applications Overview"
+title: "N-Tier Data Applications Overview | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "n-tier applications, about n-tier applications"
 ms.assetid: 1020581d-eaaa-41a2-aca4-bf4c212895f6
 caps.latest.revision: 26
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 translation.priority.ht: 
@@ -47,7 +48,7 @@ translation.priority.ht:
   
 -   The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md) provides settings to generate the DataContext and data classes into separate namespaces. This enables logical separation of the data access and data entity tiers.  
   
--   [LINQ to SQL](../Topic/LINQ%20to%20SQL.md) provides the <xref:System.Data.Linq.Table`1.Attach*> method that enables you to bring together the DataContext from different tiers in an application. For more information, see [N-Tier and Remote Applications with LINQ to SQL](../Topic/N-Tier%20and%20Remote%20Applications%20with%20LINQ%20to%20SQL.md).  
+-   [LINQ to SQL](../Topic/LINQ%20to%20SQL.md) provides the <xref:System.Data.Linq.Table%601.Attach%2A> method that enables you to bring together the DataContext from different tiers in an application. For more information, see [N-Tier and Remote Applications with LINQ to SQL](../Topic/N-Tier%20and%20Remote%20Applications%20with%20LINQ%20to%20SQL.md).  
   
 ## Presentation Tier  
  The *presentation tier* is the tier in which users interact with an application. It often contains additional application logic also. Typical presentation tier components include the following:  
@@ -56,7 +57,7 @@ translation.priority.ht:
   
 -   Object representations of data, such as [LINQ to SQL](../Topic/LINQ%20to%20SQL.md) entity classes for use in the presentation tier.  
   
- The presentation tier typically accesses the middle tier by using a service reference (for example, a [Windows Communication Foundation Services and WCF Data Services in Visual Studio](../data-tools/d56f12cb-e139-4fec-b3e4-488383356642.md) application). The presentation tier does not directly access the data tier. The presentation tier communicates with the data tier by way of the data access component in the middle tier.  
+ The presentation tier typically accesses the middle tier by using a service reference (for example, a [Windows Communication Foundation Services and WCF Data Services in Visual Studio](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md) application). The presentation tier does not directly access the data tier. The presentation tier communicates with the data tier by way of the data access component in the middle tier.  
   
 ## Middle Tier  
  The *middle tier* is the layer that the presentation tier and the data tier use to communicate with each other. Typical middle tier components include the following:  
@@ -93,15 +94,15 @@ Data tier
   
  [Separate datasets and TableAdapters into different projects](../data-tools/separate-datasets-and-tableadapters-into-different-projects.md)  
   
- [Walkthrough: Creating an N-Tier Data Application](../data-tools/walkthrough--creating-an-n-tier-data-application.md)  
+ [Walkthrough: Creating an N-Tier Data Application](../data-tools/walkthrough-creating-an-n-tier-data-application.md)  
   
  [Walkthrough: Adding Validation to an N-Tier Data Application](../Topic/Walkthrough:%20Adding%20Validation%20to%20an%20N-Tier%20Data%20Application.md)  
   
  [N-Tier and Remote Applications with LINQ to SQL](../Topic/N-Tier%20and%20Remote%20Applications%20with%20LINQ%20to%20SQL.md)  
   
 ## See Also  
- <xref:System.Data.Linq.ITable.Attach*>   
- [Walkthrough: Creating an N-Tier Data Application](../data-tools/walkthrough--creating-an-n-tier-data-application.md)   
+ <xref:System.Data.Linq.ITable.Attach%2A>   
+ [Walkthrough: Creating an N-Tier Data Application](../data-tools/walkthrough-creating-an-n-tier-data-application.md)   
  [Hierarchical update](../data-tools/hierarchical-update.md)   
  [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md)   
  [Accessing data in Visual Studio](../data-tools/accessing-data-in-visual-studio.md)

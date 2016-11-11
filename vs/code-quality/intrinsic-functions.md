@@ -1,7 +1,7 @@
 ---
-title: "Intrinsic Functions"
+title: "Intrinsic Functions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,9 @@ f1_keywords:
   - "_Inexpressible_"
 ms.assetid: adf29f8c-89fd-4a5e-9804-35ac83e1c457
 caps.latest.revision: 7
-ms.author: "douge"
-manager: "douge"
+author: "corob-msft"
+ms.author: "corob"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -57,15 +58,15 @@ An expression in SAL can be a C/C++ expression provided that it is an expression
 |Annotation|Description|  
 |----------------|-----------------|  
 |`_String_length_(param)`|`param` is the number of elements in the string up to but not including a null terminator. This annotation is reserved for string-of-character types.|  
-|`strlen(param)`|`param` is the number of elements in the string up to but not including a null terminator. This annotation is reserved for use on character arrays and resembles the C Runtime function [strlen()](../Topic/strlen,%20wcslen,%20_mbslen,%20_mbslen_l,%20_mbstrlen,%20_mbstrlen_l.md).|  
-|`wcslen(param)`|`param` is the number of elements in the string up to (but not including) a null terminator. This annotation is reserved for use on wide character arrays and resembles the C Runtime function [wcslen()](../Topic/strlen,%20wcslen,%20_mbslen,%20_mbslen_l,%20_mbstrlen,%20_mbstrlen_l.md).|  
+|`strlen(param)`|`param` is the number of elements in the string up to but not including a null terminator. This annotation is reserved for use on character arrays and resembles the C Runtime function [strlen()](/visual-cpp/c-runtime-library/reference/strlen-wcslen-mbslen-mbslen-l-mbstrlen-mbstrlen-l).|  
+|`wcslen(param)`|`param` is the number of elements in the string up to (but not including) a null terminator. This annotation is reserved for use on wide character arrays and resembles the C Runtime function [wcslen()](/visual-cpp/c-runtime-library/reference/strlen-wcslen-mbslen-mbslen-l-mbstrlen-mbstrlen-l).|  
   
 ## See Also  
- [Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-c---code-defects.md)   
+ [Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)   
  [Understanding SAL](../code-quality/understanding-sal.md)   
  [Annotating Function Parameters and Return Values](../code-quality/annotating-function-parameters-and-return-values.md)   
  [Annotating Function Behavior](../code-quality/annotating-function-behavior.md)   
  [Annotating Structs and Classes](../code-quality/annotating-structs-and-classes.md)   
  [Annotating Locking Behavior](../code-quality/annotating-locking-behavior.md)   
  [Specifying When and Where an Annotation Applies](../code-quality/specifying-when-and-where-an-annotation-applies.md)   
- [Best Practices and Examples](../code-quality/best-practices-and-examples--sal-.md)
+ [Best Practices and Examples](../code-quality/best-practices-and-examples-sal.md)

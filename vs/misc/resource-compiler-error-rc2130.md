@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Error RC2130"
+title: "Resource Compiler Error RC2130 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC2130"
 ms.assetid: b035dab0-4d43-4b5a-b10f-a16bdb06ea4c
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

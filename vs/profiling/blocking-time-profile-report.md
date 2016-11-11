@@ -1,7 +1,7 @@
 ---
-title: "Blocking Time Profile Report"
+title: "Blocking Time Profile Report | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Concurrency Visualizer, Blocking Time Profile Report"
 ms.assetid: 3bc45af0-3ba6-4fa3-a336-be8e9ae95107
 caps.latest.revision: 16
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -61,7 +62,7 @@ The Profile Reports provide aggregate blocking time data for call stacks that ar
  The Sleep report shows the calls that are responsible for blocking time that was attributed to time that was spent sleeping, and the aggregate blocking times of each call stack. For more information, see [Sleep Time](../profiling/sleep-time.md).  
   
 ### I/O  
- The I/O report shows the calls that are responsible for segments that are blocking on I/O, and the aggregate blocking times of each call stack. For more information, see [I/O Time (Threads View)](../profiling/i-o-time--threads-view-.md).  
+ The I/O report shows the calls that are responsible for segments that are blocking on I/O, and the aggregate blocking times of each call stack. For more information, see [I/O Time (Threads View)](../profiling/i-o-time-threads-view.md).  
   
 ### Memory Management  
  The Memory Management report shows the calls that are responsible for segments that are blocking on memory management operations, and the aggregate blocking times of each call stack. For more information, see [Memory Management Time](../profiling/memory-management-time.md).  
@@ -73,4 +74,4 @@ The Profile Reports provide aggregate blocking time data for call stacks that ar
  The UI Processing report shows the calls that are responsible for blocking segments that are blocking on UI processing blocks, and the aggregate blocking times of each call stack. For more information, see [UI Processing Time](../profiling/ui-processing-time.md).  
   
 ## See Also  
- [Threads View](../profiling/threads-view--parallel-performance-.md)
+ [Threads View](../profiling/threads-view-parallel-performance.md)

@@ -1,7 +1,7 @@
 ---
-title: "Getting Started with Debugging in Visual Studio 2015"
+title: "Getting Started with Debugging in Visual Studio 2015 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c3a14d28-d811-4ff3-bd09-21dce14025ca
 caps.latest.revision: 5
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

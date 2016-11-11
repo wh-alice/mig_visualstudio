@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Error RC2142"
+title: "Resource Compiler Error RC2142 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC2142"
 ms.assetid: 38d5d0d1-fcc5-4ef9-9770-4824f6edc501
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

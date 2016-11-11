@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Error RC2120"
+title: "Resource Compiler Error RC2120 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC2120"
 ms.assetid: 6e3f5e5f-5c79-4e5e-9114-dd155056d923
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

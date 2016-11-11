@@ -1,7 +1,7 @@
 ---
-title: "Domain Relationships in the Generated API"
+title: "Domain Relationships in the Generated API | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, domain relationships"
 ms.assetid: 71d018f8-19a7-44d0-bad3-665c883a9804
 caps.latest.revision: 18
+author: "alancameronwills"
 ms.author: "awills"
 manager: "kamrani"
 translation.priority.ht: 

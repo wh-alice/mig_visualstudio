@@ -1,5 +1,5 @@
 ---
-title: "Method call did not return a value"
+title: "Method call did not return a value | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "BC30723"
 ms.assetid: 9afb9ae0-2338-4b97-b09b-34aa745c64a4
 caps.latest.revision: 9
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 

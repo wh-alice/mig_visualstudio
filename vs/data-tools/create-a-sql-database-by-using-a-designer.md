@@ -1,7 +1,7 @@
 ---
-title: "Create a SQL database by using a designer"
+title: "Create a SQL database by using a designer | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,6 +24,7 @@ helpviewer_keywords:
   - "database files, creating"
 ms.assetid: 99c2b06f-47aa-414e-8057-a3453712fd23
 caps.latest.revision: 49
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 robots: noindex,nofollow

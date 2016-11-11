@@ -1,7 +1,7 @@
 ---
-title: "Ambiguities and Virtual Base Classes"
+title: "Ambiguities and Virtual Base Classes | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "virtual base classes, name ambiguities"
 ms.assetid: 6b27a375-066b-41b9-9b38-3744fd66c7a8
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 

@@ -1,7 +1,7 @@
 ---
-title: "Branding Overview"
+title: "Branding Overview | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -41,9 +41,9 @@ To show product information in the splash screen or **Help About** dialog box, y
   
 -   Implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsInstalledProduct>.  
   
- The managed package framework (MPF) provides the <xref:Microsoft.VisualStudio.Shell.InstalledProductRegistrationAttribute> attribute to control registration under the InstalledProducts registry key. For more information, see [How to: Brand a VSPackage (C# and Visual Basic)](../misc/how-to--brand-a-vspackage--csharp-and-visual-basic-.md).  
+ The managed package framework (MPF) provides the <xref:Microsoft.VisualStudio.Shell.InstalledProductRegistrationAttribute> attribute to control registration under the InstalledProducts registry key. For more information, see [How to: Brand a VSPackage (C# and Visual Basic)](../misc/how-to-brand-a-vspackage-csharp-and-visual-basic.md).  
   
- The Visual Studio Library provides the `IVsInstalledProductImpl` template class to create an implementation of <xref:Microsoft.VisualStudio.Shell.Interop.IVsInstalledProduct>. For more information, see [How to: Brand a VSPackage (C++)](../misc/how-to--brand-a-vspackage--c---.md).  
+ The Visual Studio Library provides the `IVsInstalledProductImpl` template class to create an implementation of <xref:Microsoft.VisualStudio.Shell.Interop.IVsInstalledProduct>. For more information, see [How to: Brand a VSPackage (C++)](../misc/how-to-brand-a-vspackage-cpp.md).  
   
  Implementing <xref:Microsoft.VisualStudio.Shell.Interop.IVsInstalledProduct> explicitly is more powerful than using the attribute or template.  
   

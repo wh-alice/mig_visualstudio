@@ -1,7 +1,7 @@
 ---
-title: "Annotating Function Behavior"
+title: "Annotating Function Behavior | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,8 +23,9 @@ f1_keywords:
   - "_Use_decl_annotations_"
 ms.assetid: c0aa268d-6fa3-4ced-a8c6-f7652b152e61
 caps.latest.revision: 11
-ms.author: "douge"
-manager: "douge"
+author: "corob-msft"
+ms.author: "corob"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -68,11 +69,11 @@ In addition to annotating [function parameters and return values](../code-qualit
 |`_Success_(expr)`|`expr` is an expression that yields an rvalue. When the `_Success_` annotation is present on a function declaration or definition, each annotation (`anno`) on the function and in post-condition behaves as if it were coded as `_When_(expr, anno)`. The `_Success_` annotation may be used only on a function, not on its parameters or return type. There can be at most one `_Success_` annotation on a function, and it cannot be in any `_When_`, `_At_`, or `_Group_`. For more information, see [Specifying When and Where an Annotation Applies](../code-quality/specifying-when-and-where-an-annotation-applies.md).|  
   
 ## See Also  
- [Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-c---code-defects.md)   
+ [Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)   
  [Understanding SAL](../code-quality/understanding-sal.md)   
  [Annotating Function Parameters and Return Values](../code-quality/annotating-function-parameters-and-return-values.md)   
  [Annotating Structs and Classes](../code-quality/annotating-structs-and-classes.md)   
  [Annotating Locking Behavior](../code-quality/annotating-locking-behavior.md)   
  [Specifying When and Where an Annotation Applies](../code-quality/specifying-when-and-where-an-annotation-applies.md)   
  [Intrinsic Functions](../code-quality/intrinsic-functions.md)   
- [Best Practices and Examples](../code-quality/best-practices-and-examples--sal-.md)
+ [Best Practices and Examples](../code-quality/best-practices-and-examples-sal.md)

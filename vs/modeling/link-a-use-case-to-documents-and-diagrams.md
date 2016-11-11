@@ -1,7 +1,7 @@
 ---
-title: "Link a use case to documents and diagrams"
+title: "Link a use case to documents and diagrams | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "use case diagrams"
 ms.assetid: 4c9ed205-9197-4ed5-b39d-ddfa24a0a421
 caps.latest.revision: 10
+author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
 translation.priority.ht: 
@@ -92,7 +93,7 @@ You can link a use case in a use case diagram to another diagram or document. Fo
     >  If you want to provide a file path, it is best to choose a file either in a common workspace (starting with '\\\\'), or a file within your Visual Studio solution. This ensures that the file path will remain valid on another team member's computer, or if the solution is moved. To add a document such as a Word document to your solution, right-click the solution in Solution Explorer, point to **Add** and then click **Existing Item**.  
   
 ## See Also  
- [UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams--reference.md)   
- [UML Use Case Diagrams: Guidelines](../modeling/uml-use-case-diagrams--guidelines.md)   
+ [UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams-reference.md)   
+ [UML Use Case Diagrams: Guidelines](../modeling/uml-use-case-diagrams-guidelines.md)   
  [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md)   
  [Create models for your app](../modeling/create-models-for-your-app.md)

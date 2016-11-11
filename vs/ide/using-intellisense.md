@@ -1,7 +1,7 @@
 ---
-title: "Using IntelliSense"
+title: "Using IntelliSense | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -27,6 +27,7 @@ helpviewer_keywords:
   - "List Members"
 ms.assetid: 9fdb489b-8b46-4b92-9ccc-c8f8cc184081
 caps.latest.revision: 29
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

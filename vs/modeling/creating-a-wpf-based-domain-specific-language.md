@@ -1,7 +1,7 @@
 ---
-title: "Creating a WPF-Based Domain-Specific Language"
+title: "Creating a WPF-Based Domain-Specific Language | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 917519ad-138f-4869-8158-243014c7ca1d
 caps.latest.revision: 6
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 ---

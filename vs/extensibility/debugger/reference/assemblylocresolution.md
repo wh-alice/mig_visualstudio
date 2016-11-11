@@ -1,7 +1,7 @@
 ---
-title: "ASSEMBLYLOCRESOLUTION"
+title: "ASSEMBLYLOCRESOLUTION | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -70,7 +70,7 @@ public enum enum_ASSEMBLYLOCRESOLUTION {
  Assembly is located in a remote directory.  
   
 ## Remarks  
- These values are returned by the [ResolveAssemblyRef](../../../extensibility/debugger/reference/ipropertyproxyeeside--resolveassemblyref.md) and [GetManagedViewerCreationData](../../../extensibility/debugger/reference/ipropertyproxyeeside--getmanagedviewercreationdata.md) methods.  
+ These values are returned by the [ResolveAssemblyRef](../../../extensibility/debugger/reference/ipropertyproxyeeside-resolveassemblyref.md) and [GetManagedViewerCreationData](../../../extensibility/debugger/reference/ipropertyproxyeeside-getmanagedviewercreationdata.md) methods.  
   
  These values can be combined with the `OR` operation.  
   
@@ -82,6 +82,6 @@ public enum enum_ASSEMBLYLOCRESOLUTION {
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll  
   
 ## See Also  
- [Enumerations](../../../extensibility/debugger/reference/enumerations--visual-studio-debugging-.md)   
- [ResolveAssemblyRef](../../../extensibility/debugger/reference/ipropertyproxyeeside--resolveassemblyref.md)   
- [GetManagedViewerCreationData](../../../extensibility/debugger/reference/ipropertyproxyeeside--getmanagedviewercreationdata.md)
+ [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)   
+ [ResolveAssemblyRef](../../../extensibility/debugger/reference/ipropertyproxyeeside-resolveassemblyref.md)   
+ [GetManagedViewerCreationData](../../../extensibility/debugger/reference/ipropertyproxyeeside-getmanagedviewercreationdata.md)

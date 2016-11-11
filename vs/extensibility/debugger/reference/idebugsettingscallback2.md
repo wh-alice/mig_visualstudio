@@ -1,7 +1,7 @@
 ---
-title: "IDebugSettingsCallback2"
+title: "IDebugSettingsCallback2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -47,15 +47,15 @@ IDebugSettingsCallback2D : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[EnumEEs](../../../extensibility/debugger/reference/idebugsettingscallback2--enumees.md)|Enumerates the available expression evaluators given the language and vendor identifiers.|  
-|[GetEELocalObject](../../../extensibility/debugger/reference/idebugsettingscallback2--geteelocalobject.md)|Retrieves a expression evaluator local object given the metric.|  
-|[GetEEMetricDword](../../../extensibility/debugger/reference/idebugsettingscallback2--geteemetricdword.md)|Retrieves a value that corresponds to the specified metric of the expression evaluator.|  
-|[GetEEMetricFile](../../../extensibility/debugger/reference/idebugsettingscallback2--geteemetricfile.md)|Retrieves the expression evaluator metric file given the name or the metric.|  
-|[GetEEMetricGuid](../../../extensibility/debugger/reference/idebugsettingscallback2--geteemetricguid.md)|Retrieves the unique identifier for a expression evaluator metric given its name.|  
-|[GetEEMetricString](../../../extensibility/debugger/reference/idebugsettingscallback2--geteemetricstring.md)|Retrieves the value string of an expression evaluator metric given its name.|  
-|[GetMetricDword](../../../extensibility/debugger/reference/idebugsettingscallback2--getmetricdword.md)|Retrieves the value of a metric given its name.|  
-|[GetMetricGuid](../../../extensibility/debugger/reference/idebugsettingscallback2--getmetricguid.md)|Retrieves the unique identifier of a metric given its name.|  
-|[GetMetricString](../../../extensibility/debugger/reference/idebugsettingscallback2--getmetricstring.md)|Retrieves the value string of the metric given its name.|  
+|[EnumEEs](../../../extensibility/debugger/reference/idebugsettingscallback2-enumees.md)|Enumerates the available expression evaluators given the language and vendor identifiers.|  
+|[GetEELocalObject](../../../extensibility/debugger/reference/idebugsettingscallback2-geteelocalobject.md)|Retrieves a expression evaluator local object given the metric.|  
+|[GetEEMetricDword](../../../extensibility/debugger/reference/idebugsettingscallback2-geteemetricdword.md)|Retrieves a value that corresponds to the specified metric of the expression evaluator.|  
+|[GetEEMetricFile](../../../extensibility/debugger/reference/idebugsettingscallback2-geteemetricfile.md)|Retrieves the expression evaluator metric file given the name or the metric.|  
+|[GetEEMetricGuid](../../../extensibility/debugger/reference/idebugsettingscallback2-geteemetricguid.md)|Retrieves the unique identifier for a expression evaluator metric given its name.|  
+|[GetEEMetricString](../../../extensibility/debugger/reference/idebugsettingscallback2-geteemetricstring.md)|Retrieves the value string of an expression evaluator metric given its name.|  
+|[GetMetricDword](../../../extensibility/debugger/reference/idebugsettingscallback2-getmetricdword.md)|Retrieves the value of a metric given its name.|  
+|[GetMetricGuid](../../../extensibility/debugger/reference/idebugsettingscallback2-getmetricguid.md)|Retrieves the unique identifier of a metric given its name.|  
+|[GetMetricString](../../../extensibility/debugger/reference/idebugsettingscallback2-getmetricstring.md)|Retrieves the value string of the metric given its name.|  
   
 ## Requirements  
  Header: Msdbg.h  

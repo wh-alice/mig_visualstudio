@@ -1,5 +1,5 @@
 ---
-title: "Saving Entity Data"
+title: "Saving Entity Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "data [Visual Studio], saving entities"
 ms.assetid: 116ed3ed-1271-4827-8528-1316ee0a8953
 caps.latest.revision: 4
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 robots: noindex,nofollow

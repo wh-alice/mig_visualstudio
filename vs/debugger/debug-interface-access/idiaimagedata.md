@@ -1,7 +1,7 @@
 ---
-title: "IDiaImageData"
+title: "IDiaImageData | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaImageData interface"
 ms.assetid: b696f350-fc08-4352-9287-a15e87512c1e
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -47,9 +48,9 @@ IDiaImageData : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[IDiaImageData::get_relativeVirtualAddress](../../debugger/debug-interface-access/idiaimagedata--get_relativevirtualaddress.md)|Retrieves the location in virtual memory of the module relative to the application.|  
-|[IDiaImageData::get_virtualAddress](../../debugger/debug-interface-access/idiaimagedata--get_virtualaddress.md)|Retrieves the location in virtual memory of the image.|  
-|[IDiaImageData::get_imageBase](../../debugger/debug-interface-access/idiaimagedata--get_imagebase.md)|Retrieves the memory location where the image should be based.|  
+|[IDiaImageData::get_relativeVirtualAddress](../../debugger/debug-interface-access/idiaimagedata-get-relativevirtualaddress.md)|Retrieves the location in virtual memory of the module relative to the application.|  
+|[IDiaImageData::get_virtualAddress](../../debugger/debug-interface-access/idiaimagedata-get-virtualaddress.md)|Retrieves the location in virtual memory of the image.|  
+|[IDiaImageData::get_imageBase](../../debugger/debug-interface-access/idiaimagedata-get-imagebase.md)|Retrieves the memory location where the image should be based.|  
   
 ## Remarks  
  Some debug streams (XDATA, PDATA) contain copies of data also stored in the image. These stream data objects can be queried for the `IDiaImageData` interface. See the "Notes for Callers" section in this topic for details.  
@@ -132,5 +133,5 @@ void ShowImageData(IDiaSession *pSession)
  DLL: msdia80.dll  
   
 ## See Also  
- [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces--debug-interface-access-sdk-.md)   
+ [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)   
  [IDiaEnumDebugStreamData](../../debugger/debug-interface-access/idiaenumdebugstreamdata.md)

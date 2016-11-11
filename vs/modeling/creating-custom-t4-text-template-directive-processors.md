@@ -1,7 +1,7 @@
 ---
-title: "Creating Custom T4 Text Template Directive Processors"
+title: "Creating Custom T4 Text Template Directive Processors | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ helpviewer_keywords:
   - "text templates, custom directive processors"
 ms.assetid: 422b47af-5441-4b02-b5ad-1b8b328457e3
 caps.latest.revision: 29
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 translation.priority.ht: 
@@ -71,11 +72,11 @@ The *text template transformation process* takes a *text template* file as the i
   
 -   `string GetClassCodeForProcessingRun()` - Return the code of methods, properties, and other declarations that the template code can use. The easiest way to do this is to build a string containing the C# or Visual Basic code. To make your directive processor capable of being called from a template that uses any CLR language, you can construct the statements as a CodeDom tree and then return the result of serializing the tree in the language used by the template.  
   
--   For more information, see [Walkthrough: Creating a Custom Directive Processor](../modeling/walkthrough--creating-a-custom-directive-processor.md).  
+-   For more information, see [Walkthrough: Creating a Custom Directive Processor](../modeling/walkthrough-creating-a-custom-directive-processor.md).  
   
 ## In This Section  
  [Deploying a Custom Directive Processor](../modeling/deploying-a-custom-directive-processor.md)  
  Explains how to register a custom directive processor.  
   
- [Walkthrough: Creating a Custom Directive Processor](../modeling/walkthrough--creating-a-custom-directive-processor.md)  
+ [Walkthrough: Creating a Custom Directive Processor](../modeling/walkthrough-creating-a-custom-directive-processor.md)  
  Describes how to create a custom directive processor, how to register and test the directive processor, and how to format the output file as HTML.

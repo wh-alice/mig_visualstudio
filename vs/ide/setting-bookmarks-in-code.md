@@ -1,7 +1,7 @@
 ---
-title: "Setting Bookmarks in Code"
+title: "Setting Bookmarks in Code | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ f1_keywords:
   - "VS.BookmarkWindow"
 ms.assetid: a752ed5f-5cf9-4bf2-865a-2131ca600ed5
 caps.latest.revision: 17
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

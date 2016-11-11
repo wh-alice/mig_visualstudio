@@ -1,7 +1,7 @@
 ---
-title: "Define and install a modeling extension"
+title: "Define and install a modeling extension | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "UML model, extending"
 ms.assetid: 82a58dc5-c7cf-4521-a6da-7ff09cd0de9d
 caps.latest.revision: 37
+author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
 translation.priority.ht: 

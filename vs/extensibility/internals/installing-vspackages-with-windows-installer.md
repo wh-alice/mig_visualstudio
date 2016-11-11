@@ -1,7 +1,7 @@
 ---
-title: "Installing VSPackages With Windows Installer"
+title: "Installing VSPackages With Windows Installer | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -61,7 +61,7 @@ Integrating your VSPackage into [!INCLUDE[vsprvs](../../code-quality/includes/vs
  [Deploying Project Types](../../extensibility/internals/deploying-project-types.md)  
  Discusses how to use the new project-type aggregator for managed-code project types.  
   
- [How to: Generate Registry Information for an Installer](../../extensibility/internals/how-to--generate-registry-information-for-an-installer.md)  
+ [How to: Generate Registry Information for an Installer](../../extensibility/internals/how-to-generate-registry-information-for-an-installer.md)  
  Explains how to use RegPkg.exe to generate a registration manifest for a managed VSPackage.  
   
  [Commands That Must Be Run After Installation](../../extensibility/internals/commands-that-must-be-run-after-installation.md)  

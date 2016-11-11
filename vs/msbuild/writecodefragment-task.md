@@ -1,7 +1,7 @@
 ---
-title: "WriteCodeFragment Task"
+title: "WriteCodeFragment Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "WriteCodeFragment task [MSBuild]"
 ms.assetid: 1d2514b4-5bef-43bb-bebe-496da8ef063c
 caps.latest.revision: 5
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

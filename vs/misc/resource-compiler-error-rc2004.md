@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Error RC2004"
+title: "Resource Compiler Error RC2004 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC2004"
 ms.assetid: 5c2dcfc8-cfd9-4d36-a773-4231759bb6c8
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

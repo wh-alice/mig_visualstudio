@@ -1,7 +1,7 @@
 ---
-title: "Initializing References"
+title: "Initializing References | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "references, initializing"
 ms.assetid: e114ee4b-2e1f-479e-9575-c78929a14c53
 caps.latest.revision: 8
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -35,4 +36,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Initializing References
-This content has moved to [Initializers](../Topic/Initializers.md)
+This content has moved to [Initializers](/visual-cpp/cpp/initializers)

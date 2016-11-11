@@ -1,7 +1,7 @@
 ---
-title: "CLS Compliance Warning CLS01201"
+title: "CLS Compliance Warning CLS01201 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CLS01201"
 ms.assetid: 8c3e6ce4-8ea5-487a-bbed-56a36eceb024
 caps.latest.revision: 10
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
-title: "Optional Comparison of Local Project Folder to Source Control Store"
+title: "Optional Comparison of Local Project Folder to Source Control Store | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -52,4 +52,4 @@ In Source control Plug-in API 1.2 the comparison between the local project folde
 >  This function uses the same command flags as [SccDiff](../../extensibility/sccdiff-function.md). As a source control plug-in provider, you may choose to not support the "quick diff" operation for directories.  
   
 ## See Also  
- [What's New in the Source Control Plug-in API Version 1.2](../../extensibility/internals/what-s-new-in-the-source-control-plug-in-api-version-1.2.md)
+ [What's New in the Source Control Plug-in API Version 1.2](../../extensibility/internals/what-s-new-in-the-source-control-plug-in-api-version-1-2.md)

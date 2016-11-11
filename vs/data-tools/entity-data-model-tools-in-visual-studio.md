@@ -1,7 +1,7 @@
 ---
-title: "Entity Data Model Tools in Visual Studio"
+title: "Entity Data Model Tools in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,6 +14,7 @@ dev_langs:
   - "aspx"
 ms.assetid: 1b06b573-84aa-4458-b3f5-e238df47bf45
 caps.latest.revision: 21
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 translation.priority.ht: 
@@ -68,4 +69,4 @@ Entity Framework is an object-relational mapping technology that enables .NET de
 |[ASP.NET 5 Application to New Database](https://docs.efproject.net/en/latest/platforms/aspnetcore/new-db.html)|Describes how to create a new ASP.NET 5 application by using Entity Framework 7.|  
   
 ## See Also  
- [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-.net.md)
+ [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md)

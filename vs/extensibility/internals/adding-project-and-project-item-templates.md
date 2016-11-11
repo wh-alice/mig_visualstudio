@@ -1,7 +1,7 @@
 ---
-title: "Adding Project and Project Item Templates"
+title: "Adding Project and Project Item Templates | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -63,10 +63,10 @@ When you create your own project types, you must provide support for adding new 
  Lists CATIDs for objects that are used to extend [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)], [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)], and [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] project systems.  
   
 ## Related Sections  
- [How to: Open Project-Specific Editors](../../extensibility/how-to--open-project-specific-editors.md)  
+ [How to: Open Project-Specific Editors](../../extensibility/how-to-open-project-specific-editors.md)  
  Provides step-by-step instructions for opening an item intrinsically bound to a specific editor for a project.  
   
- [How to: Open Standard Editors](../../extensibility/how-to--open-standard-editors.md)  
+ [How to: Open Standard Editors](../../extensibility/how-to-open-standard-editors.md)  
  Provides step-by-step instructions for opening a standard editor.  
   
  [Project Subtypes](../../extensibility/internals/project-subtypes.md)  

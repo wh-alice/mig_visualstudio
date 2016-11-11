@@ -1,7 +1,7 @@
 ---
-title: "IDebugEngine3"
+title: "IDebugEngine3 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -52,11 +52,11 @@ IDebugEngine3 : IDebugEngine2
   
 |Method|Description|  
 |------------|-----------------|  
-|[SetSymbolPath](../../../extensibility/debugger/reference/idebugengine3--setsymbolpath.md)|Sets the path or paths that the DE will use to search for debugging symbols.|  
-|[LoadSymbols](../../../extensibility/debugger/reference/idebugengine3--loadsymbols.md)|Loads the symbols for all modules that have not yet had their symbols loaded.|  
-|[SetJustMyCodeState](../../../extensibility/debugger/reference/idebugengine3--setjustmycodestate.md)|Tells the DE about the JustMyCode information.|  
-|[SetEngineGuid](../../../extensibility/debugger/reference/idebugengine3--setengineguid.md)|Sets the DE GUID from the metrics.|  
-|[SetAllExceptions](../../../extensibility/debugger/reference/idebugengine3--setallexceptions.md)|Set all exceptions currently outstanding to a specified state.|  
+|[SetSymbolPath](../../../extensibility/debugger/reference/idebugengine3-setsymbolpath.md)|Sets the path or paths that the DE will use to search for debugging symbols.|  
+|[LoadSymbols](../../../extensibility/debugger/reference/idebugengine3-loadsymbols.md)|Loads the symbols for all modules that have not yet had their symbols loaded.|  
+|[SetJustMyCodeState](../../../extensibility/debugger/reference/idebugengine3-setjustmycodestate.md)|Tells the DE about the JustMyCode information.|  
+|[SetEngineGuid](../../../extensibility/debugger/reference/idebugengine3-setengineguid.md)|Sets the DE GUID from the metrics.|  
+|[SetAllExceptions](../../../extensibility/debugger/reference/idebugengine3-setallexceptions.md)|Set all exceptions currently outstanding to a specified state.|  
   
 ## Requirements  
  Header: msdbg.h  

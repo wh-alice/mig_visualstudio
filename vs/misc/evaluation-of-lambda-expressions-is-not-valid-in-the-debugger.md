@@ -1,5 +1,5 @@
 ---
-title: "Evaluation of lambda expressions is not valid in the debugger"
+title: "Evaluation of lambda expressions is not valid in the debugger | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "BC36627"
 ms.assetid: c10fc492-9c2d-4150-9779-8234f57b6138
 caps.latest.revision: 4
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -44,6 +45,6 @@ A lambda expression has been entered in the **Watch** or **Immediate** window du
 -   Test lambda expressions in the Code Editor.  
   
 ## See Also  
- [Lambda Expressions](../Topic/Lambda%20Expressions%20\(Visual%20Basic\).md)   
+ [Lambda Expressions](/dotnet/visual-basic/language-reference/procedures/lambda-expressions)   
  [Closer Look: What If... Testing Code in the Immediate Window](http://msdn.microsoft.com/en-us/3613a627-09a4-44e1-9cc2-f2a29f4e0744)   
- [Debugging Your Visual Basic Application](../Topic/Debugging%20Your%20Visual%20Basic%20Application.md)
+ [Debugging Your Visual Basic Application](/dotnet/visual-basic/developing-apps/debugging)

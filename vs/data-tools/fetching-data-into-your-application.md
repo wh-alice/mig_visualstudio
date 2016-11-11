@@ -1,5 +1,5 @@
 ---
-title: "Fetching Data into Your Application"
+title: "Fetching Data into Your Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "data [Visual Studio], loading into applications"
 ms.assetid: f9d28e70-07ce-421f-be95-31507b4ba4c3
 caps.latest.revision: 15
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 robots: noindex,nofollow
@@ -45,4 +46,4 @@ Loading data into your application describes the process of fetching data from a
 |Term|Definition|  
 |----------|----------------|  
 |[Fill datasets by using TableAdapters](../data-tools/fill-datasets-by-using-tableadapters.md)|Describes how to load data into datasets, and how to execute stored procedures, and execute queries against a database.|  
-|[Working with a Conceptual Model](../data-tools/working-with-a-conceptual-model--wcf-data-services-.md)|Describes how to query data that is defined by a conceptual model by using LINQ and stored procedures.|
+|[Working with a Conceptual Model](../data-tools/working-with-a-conceptual-model-wcf-data-services.md)|Describes how to query data that is defined by a conceptual model by using LINQ and stored procedures.|

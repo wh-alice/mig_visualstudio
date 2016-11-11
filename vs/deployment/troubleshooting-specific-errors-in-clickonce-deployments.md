@@ -1,7 +1,7 @@
 ---
-title: "Troubleshooting Specific Errors in ClickOnce Deployments"
+title: "Troubleshooting Specific Errors in ClickOnce Deployments | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,6 +22,7 @@ helpviewer_keywords:
   - "ClickOnce deployment, troubleshooting"
 ms.assetid: 22dfe8f1-8271-4708-9c25-6bbb13920ac8
 caps.latest.revision: 13
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -118,7 +119,7 @@ This topic lists the following common errors that can occur when you deploy a [!
  Ensure that you have the Microsoft Visual Studio Web Authoring Component installed on the machine that you are publishing from. For Express users, this component is not installed by default. For more information, see [http://go.microsoft.com/fwlink/?LinkId=102310](http://go.microsoft.com/fwlink/?LinkId=102310).  
   
 #### Error Message: Could not find file 'Microsoft.Windows.Common-Controls, Version=6.0.0.0, Culture=*, PublicKeyToken=6595b64144ccf1df, ProcessorArchitecture=\*, Type=win32'  
- This error message appears when you attempt to publish a WPF application with visual styles enabled. To resolve this issue, see [How to: Publish a WPF Application with Visual Styles Enabled](../deployment/how-to--publish-a-wpf-application-with-visual-styles-enabled.md).  
+ This error message appears when you attempt to publish a WPF application with visual styles enabled. To resolve this issue, see [How to: Publish a WPF Application with Visual Styles Enabled](../deployment/how-to-publish-a-wpf-application-with-visual-styles-enabled.md).  
   
 ## Using Mage  
   

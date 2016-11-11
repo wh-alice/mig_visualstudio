@@ -1,7 +1,7 @@
 ---
-title: "Expressions in the Debugger"
+title: "Expressions in the Debugger | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -29,6 +29,7 @@ helpviewer_keywords:
   - "debugging [Visual Studio], variable evaluation"
 ms.assetid: 70f9b531-44c7-4d77-980d-5eddbf2bff41
 caps.latest.revision: 25
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -56,7 +57,7 @@ The Visual Studio debugger includes expression evaluators that work when you ent
  F# expressions are not recognized. If you are debugging F# code, you need to translate your expressions into C# syntax before entering the expressions into a debugger window or dialog box. When you translate expressions from F# to C#, be sure to remember that C# uses the `==` operator to test for equality, while F# uses the single `=`.  
   
 ## C++ Expressions  
- For information about using context operators with expressions in C++, see [Context Operator (C++)](../debugger/context-operator--c---.md).  
+ For information about using context operators with expressions in C++, see [Context Operator (C++)](../debugger/context-operator-cpp.md).  
   
 ### Unsupported Expressions in C++  
   
@@ -226,7 +227,7 @@ int main()
 -   Namespace or module level keywords, such as `End Sub` or `Module`.  
   
 ## See Also  
- [Format Specifiers in C++](../debugger/format-specifiers-in-c--.md)   
- [Context Operator (C++)](../debugger/context-operator--c---.md)   
+ [Format Specifiers in C++](../debugger/format-specifiers-in-cpp.md)   
+ [Context Operator (C++)](../debugger/context-operator-cpp.md)   
  [Format Specifiers in C#](../debugger/format-specifiers-in-csharp.md)   
  [Pseudovariables](../debugger/pseudovariables.md)

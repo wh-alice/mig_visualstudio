@@ -1,7 +1,7 @@
 ---
-title: "Member Naming Restrictions"
+title: "Member Naming Restrictions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "names [C++], restriction on member"
 ms.assetid: 823a292c-57cd-4fee-868b-b33474382218
 caps.latest.revision: 8
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -35,4 +36,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Member Naming Restrictions
-This content has moved to [Class Member Overview](../Topic/Class%20Member%20Overview.md).
+This content has moved to [Class Member Overview](/visual-cpp/cpp/class-member-overview).

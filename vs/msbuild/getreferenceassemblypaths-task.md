@@ -1,7 +1,7 @@
 ---
-title: "GetReferenceAssemblyPaths Task"
+title: "GetReferenceAssemblyPaths Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ dev_langs:
   - "jsharp"
 ms.assetid: 178ef49c-5dee-405b-a14b-a37f41dc0609
 caps.latest.revision: 4
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

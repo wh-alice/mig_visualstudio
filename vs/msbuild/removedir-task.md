@@ -1,7 +1,7 @@
 ---
-title: "RemoveDir Task"
+title: "RemoveDir Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "MSBuild, RemoveDir task"
 ms.assetid: 7ab214be-26b2-4bcd-9de8-c1b2091c0b74
 caps.latest.revision: 13
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

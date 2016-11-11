@@ -1,7 +1,7 @@
 ---
-title: "Visual Studio Tools for Unity"
+title: "Visual Studio Tools for Unity | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6cabc626-5310-4622-a743-210a9abb5535
 caps.latest.revision: 4
+author: "ghogen"
 ms.author: "ghogen"
 manager: "ghogen"
 translation.priority.ht: 
@@ -53,8 +54,8 @@ In this section, you'll learn about Visual Studio Tools for Unity, a free Visual
  [Programming Visual Studio Tools for Unity](../cross-platform/programming-visual-studio-tools-for-unity.md)  
  In this section, you'll find examples for using the Visual Studio Tools for Unity API.  
   
- [Troubleshooting and Known Issues](../cross-platform/troubleshooting-and-known-issues--visual-studio-tools-for-unity-.md)  
+ [Troubleshooting and Known Issues](../cross-platform/troubleshooting-and-known-issues-visual-studio-tools-for-unity.md)  
  In this section, you'll find solutions to common issues with Visual Studio Tools for Unity, descriptions of known issues, and learn how you can help improve Visual Studio Tools for Unity by reporting errors.  
   
- [Change Log](../cross-platform/change-log--visual-studio-tools-for-unity-.md)  
+ [Change Log](../cross-platform/change-log-visual-studio-tools-for-unity.md)  
  In this section, you'll learn about new features, bug fixes, and other changes in each version of Visual Studio Tools for Unity.

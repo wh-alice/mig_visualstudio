@@ -1,7 +1,7 @@
 ---
-title: "Set Current Process"
+title: "Set Current Process | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "Set Current Process command"
 ms.assetid: 1e016ebd-aadd-411f-a606-03bf69d3f8aa
 caps.latest.revision: 5
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

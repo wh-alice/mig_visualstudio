@@ -1,7 +1,7 @@
 ---
-title: "Edit UML models and diagrams"
+title: "Edit UML models and diagrams | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "UML, diagrams"
 ms.assetid: 87affd40-8127-4ee9-9d3a-ad977abe2ed6
 caps.latest.revision: 84
+author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
 translation.priority.ht: 
@@ -224,7 +225,7 @@ You can create and edit a UML model through the views provided by several differ
      A shape providing a view of the model element appears, which may be in addition to the views on other diagrams or on the same diagram.  
   
     > [!NOTE]
-    >  The effect is different when you drag a class or component onto a sequence diagram. In that case, a new lifeline is created whose type is that class or component. For more information, see [UML Sequence Diagrams: Guidelines](../modeling/uml-sequence-diagrams--guidelines.md).  
+    >  The effect is different when you drag a class or component onto a sequence diagram. In that case, a new lifeline is created whose type is that class or component. For more information, see [UML Sequence Diagrams: Guidelines](../modeling/uml-sequence-diagrams-guidelines.md).  
   
 #### To add a new view of a model element by using Paste Reference  
   

@@ -1,7 +1,7 @@
 ---
-title: "Text Template Control Blocks"
+title: "Text Template Control Blocks | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ helpviewer_keywords:
   - "text templates, template code"
 ms.assetid: bad198b9-57a4-4777-bd5b-ab6336c825f3
 caps.latest.revision: 32
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 translation.priority.ht: 

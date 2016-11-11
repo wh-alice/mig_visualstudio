@@ -1,7 +1,7 @@
 ---
-title: "Expression Evaluator"
+title: "Expression Evaluator | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,13 +36,13 @@ translation.priority.mt:
 Expression evaluators (EE) examine the syntax of a language to parse and evaluate variables and expressions at run time, allowing them to be viewed by the user when the IDE is in break mode.  
   
 ## Using Expression Evaluators  
- Expressions are created using the [ParseText](../../extensibility/debugger/reference/idebugexpressioncontext2--parsetext.md) method, as follows:  
+ Expressions are created using the [ParseText](../../extensibility/debugger/reference/idebugexpressioncontext2-parsetext.md) method, as follows:  
   
 1.  The debug engine (DE) implements the [IDebugExpressionContext2](../../extensibility/debugger/reference/idebugexpressioncontext2.md) interface.  
   
 2.  The debug package gets an `IDebugExpressionContext2` object from an [IDebugStackFrame2](../../extensibility/debugger/reference/idebugstackframe2.md) interface and then calls the `IDebugStackFrame2::ParseText` method on it to get an [IDebugExpression2](../../extensibility/debugger/reference/idebugexpression2.md) object.  
   
-3.  The debug package calls the [EvaluateSync](../../extensibility/debugger/reference/idebugexpression2--evaluatesync.md) method or the [EvaluateAsync](../../extensibility/debugger/reference/idebugexpression2--evaluateasync.md) method to get the value of the expression. `IDebugExpression2::EvaluateAsync` is called from the Command/Immediate window. All other UI components call `IDebugExpression2::EvaluateSync`.  
+3.  The debug package calls the [EvaluateSync](../../extensibility/debugger/reference/idebugexpression2-evaluatesync.md) method or the [EvaluateAsync](../../extensibility/debugger/reference/idebugexpression2-evaluateasync.md) method to get the value of the expression. `IDebugExpression2::EvaluateAsync` is called from the Command/Immediate window. All other UI components call `IDebugExpression2::EvaluateSync`.  
   
 4.  The result of expression evaluation is an [IDebugProperty2](../../extensibility/debugger/reference/idebugproperty2.md) object, which contains the name, type, and value of the result of the expression evaluation.  
   

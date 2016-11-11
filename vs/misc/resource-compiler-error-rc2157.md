@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Error RC2157"
+title: "Resource Compiler Error RC2157 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC2157"
 ms.assetid: 9bae0fed-d1a0-43d8-aa71-5fbea676d3c9
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

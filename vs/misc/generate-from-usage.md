@@ -1,7 +1,7 @@
 ---
-title: "Generate From Usage"
+title: "Generate From Usage | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,6 +22,7 @@ helpviewer_keywords:
   - "delegates, generating stubs"
 ms.assetid: 585a3fd5-516f-4166-9fd1-d406cbab369e
 caps.latest.revision: 67
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

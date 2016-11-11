@@ -1,7 +1,7 @@
 ---
-title: "XSD Task"
+title: "XSD Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,6 +23,7 @@ helpviewer_keywords:
   - "MSBuild (Visual C++), XSD task"
 ms.assetid: 15c99f5c-7124-4bbc-bc03-70c7bcce8893
 caps.latest.revision: 13
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

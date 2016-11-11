@@ -1,7 +1,7 @@
 ---
-title: "Debugging Windows Store and Windows Universal apps"
+title: "Debugging Windows Store and Windows Universal apps | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ dev_langs:
   - "C++"
 ms.assetid: dd1723b7-4a43-47aa-9acf-d44afce78154
 caps.latest.revision: 5
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
-title: "Creating a UI by using XAML Designer in Visual Studio"
+title: "Creating a UI by using XAML Designer in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ f1_keywords:
   - "VS.DocumentOutline"
 ms.assetid: c54969a7-d75a-4a35-9b37-af7a596a7c24
 caps.latest.revision: 29
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -177,4 +178,4 @@ The XAML Designer in Visual Studio provides a visual interface to help you desig
 ## See Also  
  [Working with elements in XAML Designer](../designers/working-with-elements-in-xaml-designer.md)   
  [How to create and apply a resource](../designers/how-to-create-and-apply-a-resource.md)   
- [Walkthrough: Binding to data in XAML Designer](../designers/walkthrough--binding-to-data-in-xaml-designer.md)
+ [Walkthrough: Binding to data in XAML Designer](../designers/walkthrough-binding-to-data-in-xaml-designer.md)

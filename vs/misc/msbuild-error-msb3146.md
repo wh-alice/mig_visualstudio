@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB3146"
+title: "MSBuild Error MSB3146 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB3146"
 ms.assetid: 717fd649-3024-427d-a068-cff8034ffc0a
 caps.latest.revision: 5
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

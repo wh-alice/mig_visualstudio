@@ -1,7 +1,7 @@
 ---
-title: "Replace in Files"
+title: "Replace in Files | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "Replace in Files tab, Find and Replace window"
 ms.assetid: ca361466-53bd-44db-a28a-3a74bc03b028
 caps.latest.revision: 29
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

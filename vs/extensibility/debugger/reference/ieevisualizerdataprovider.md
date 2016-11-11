@@ -1,7 +1,7 @@
 ---
-title: "IEEVisualizerDataProvider"
+title: "IEEVisualizerDataProvider | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -48,19 +48,19 @@ IEEVisualizerDataProvider : IUnknown
  The expression evaluator implements this interface to support modifying data on a property object through a type visualizer.  
   
 ## Notes for Callers  
- This interface is used in creating the [IEEVisualizerService](../../../extensibility/debugger/reference/ieevisualizerservice.md) object through a call to [CreateVisualizerService](../../../extensibility/debugger/reference/ieevisualizerserviceprovider--createvisualizerservice.md). See [Visualizing and Viewing Data](../../../extensibility/debugger/visualizing-and-viewing-data.md) for more details.  
+ This interface is used in creating the [IEEVisualizerService](../../../extensibility/debugger/reference/ieevisualizerservice.md) object through a call to [CreateVisualizerService](../../../extensibility/debugger/reference/ieevisualizerserviceprovider-createvisualizerservice.md). See [Visualizing and Viewing Data](../../../extensibility/debugger/visualizing-and-viewing-data.md) for more details.  
   
 ## Methods in Vtable order  
   
 |Method|Description|  
 |------------|-----------------|  
-|[CanSetObjectForVisualizer](../../../extensibility/debugger/reference/ieevisualizerdataprovider--cansetobjectforvisualizer.md)|Determines if it is possible to update the object (and subsequently, its value) that this visualizer is representing.|  
-|[GetNewObjectForVisualizer](../../../extensibility/debugger/reference/ieevisualizerdataprovider--getnewobjectforvisualizer.md)|Forces a re-evaluation of the object for this visualizer.|  
-|[GetObjectForVisualizer](../../../extensibility/debugger/reference/ieevisualizerdataprovider--getobjectforvisualizer.md)|Gets an existing object for this visualizer (no evaluation is done).|  
-|[SetObjectForVisualizer](../../../extensibility/debugger/reference/ieevisualizerdataprovider--setobjectforvisualizer.md)|Updates the object for this visualizer, thereby changing the value the visualizer presents.|  
+|[CanSetObjectForVisualizer](../../../extensibility/debugger/reference/ieevisualizerdataprovider-cansetobjectforvisualizer.md)|Determines if it is possible to update the object (and subsequently, its value) that this visualizer is representing.|  
+|[GetNewObjectForVisualizer](../../../extensibility/debugger/reference/ieevisualizerdataprovider-getnewobjectforvisualizer.md)|Forces a re-evaluation of the object for this visualizer.|  
+|[GetObjectForVisualizer](../../../extensibility/debugger/reference/ieevisualizerdataprovider-getobjectforvisualizer.md)|Gets an existing object for this visualizer (no evaluation is done).|  
+|[SetObjectForVisualizer](../../../extensibility/debugger/reference/ieevisualizerdataprovider-setobjectforvisualizer.md)|Updates the object for this visualizer, thereby changing the value the visualizer presents.|  
   
 ## Remarks  
- The visualizer service (as represented by the [IEEVisualizerService](../../../extensibility/debugger/reference/ieevisualizerservice.md) interface and returned by [CreateVisualizerService](../../../extensibility/debugger/reference/ieevisualizerserviceprovider--createvisualizerservice.md)) keeps a reference to the object implementing the `IEEVisualizerDataProvider` interface. As a result, the `IEEVisualizerDataProvider` interface should not be implemented on the same object that implements the [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) if that object maintains a reference to the `IEEVisualizerService` object: a circular reference results and a deadlock occurs when the objects are destroyed. The recommended approach is to implement `IEEVisualizerDataProvider` on a separate object to which the `IDebugProperty2` object delegates without calling `IUnknown::AddRef` on it.  
+ The visualizer service (as represented by the [IEEVisualizerService](../../../extensibility/debugger/reference/ieevisualizerservice.md) interface and returned by [CreateVisualizerService](../../../extensibility/debugger/reference/ieevisualizerserviceprovider-createvisualizerservice.md)) keeps a reference to the object implementing the `IEEVisualizerDataProvider` interface. As a result, the `IEEVisualizerDataProvider` interface should not be implemented on the same object that implements the [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) if that object maintains a reference to the `IEEVisualizerService` object: a circular reference results and a deadlock occurs when the objects are destroyed. The recommended approach is to implement `IEEVisualizerDataProvider` on a separate object to which the `IDebugProperty2` object delegates without calling `IUnknown::AddRef` on it.  
   
 ## Requirements  
  Header: ee.h  

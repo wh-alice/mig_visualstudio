@@ -1,7 +1,7 @@
 ---
-title: "SGen Task"
+title: "SGen Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "MSBuild, SGen task"
 ms.assetid: 22c5ade4-4159-4667-b891-0c1aa06f4df5
 caps.latest.revision: 11
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

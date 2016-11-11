@@ -1,7 +1,7 @@
 ---
-title: "Preparing Extensions for Windows Installer Deployment"
+title: "Preparing Extensions for Windows Installer Deployment | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -42,7 +42,7 @@ You cannot use a Windows Installer package (MSI) to deploy a VSIX package. Howev
   
 2.  Open the VSIX manifest in the code editor.  
   
-3.  Set the InstalledByMsi element of the VSIX manifest to `true`. For more information about the VSIX manifest, see [VSIX Extension Schema 2.0 Reference](../extensibility/vsix-extension-schema-2.0-reference.md).  
+3.  Set the InstalledByMsi element of the VSIX manifest to `true`. For more information about the VSIX manifest, see [VSIX Extension Schema 2.0 Reference](../extensibility/vsix-extension-schema-2-0-reference.md).  
   
      This prevents the VSIX installer from attempting to install the component.  
   

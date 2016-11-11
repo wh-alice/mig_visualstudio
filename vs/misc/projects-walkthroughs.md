@@ -1,7 +1,7 @@
 ---
-title: "Projects Walkthroughs"
+title: "Projects Walkthroughs | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -37,10 +37,10 @@ Visual Studio projects are the containers that developers use to organize source
  The walkthroughs in this section teach how to create and extend Visual Studio projects. For more information about Visual Studio projects and what they can do, see [Extending Projects](../extensibility/extending-projects.md).  
   
 ## In This Section  
- [Creating a Basic Project System, Part 1](../extensibility/creating-a-basic-project-system--part-1.md)  
+ [Creating a Basic Project System, Part 1](../extensibility/creating-a-basic-project-system-part-1.md)  
  Shows how to create a project type that includes a prototype template, a custom icon, and a basic project factory implementation.  
   
- [Creating a Basic Project System, Part 2](../extensibility/creating-a-basic-project-system--part-2.md)  
+ [Creating a Basic Project System, Part 2](../extensibility/creating-a-basic-project-system-part-2.md)  
  Shows how to build deploy and test a project type.  
   
 ## Related Sections  

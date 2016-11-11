@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB4142"
+title: "MSBuild Error MSB4142 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/24/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "MSB4142"
 ms.assetid: 56121c76-f952-43d1-ba23-1d1792fef0bc
 caps.latest.revision: 8
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -42,5 +43,5 @@ translation.priority.mt:
   
 ## See Also  
  [Standard and Custom Toolset Configurations](../msbuild/standard-and-custom-toolset-configurations.md)   
- [Project Element (MSBuild)](../msbuild/project-element--msbuild-.md)   
+ [Project Element (MSBuild)](../msbuild/project-element-msbuild.md)   
  [Additional Resources](../msbuild/additional-msbuild-resources.md)

@@ -1,7 +1,7 @@
 ---
-title: "Using the Profiling Tools From the Command-Line"
+title: "Using the Profiling Tools From the Command-Line | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "command line, tools"
 ms.assetid: 6593fa82-181e-4009-a0ed-02aa24c2c063
 caps.latest.revision: 35
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -45,10 +46,10 @@ You can use the command-line tools of [!INCLUDE[vsprvs](../code-quality/includes
   
 |Task|Related Content|  
 |----------|---------------------|  
-|**Set the location of symbols:** To display the names of functions and parameters, the profiler must have access to the symbol (.pdb) files of the profiled binaries. These files should include the symbol files for the Microsoft operating system and applications that you want to view in your analysis. You can use the public Microsoft symbol server to make sure that you have the correct .pdb files for the Microsoft binaries.|-   [How to: Specify Symbol File Locations from the Command Line](../profiling/how-to--specify-symbol-file-locations-from-the-command-line.md)|  
-|**Profile your application:** The command-line tools and options that you use to profile a target application depend on the type of the application, the profiling method, and whether the target is a managed or native application.|-   [Using Profiling Methods From the Command Line](../profiling/using-profiling-methods-to-collect-performance-data-from-the-command-line.md)<br />-   [Profiling Stand-Alone Applications](../profiling/command-line-profiling-of-stand-alone-applications.md)<br />-   [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-asp.net-web-applications.md)<br />-   [Profiling Services](../profiling/command-line-profiling-of-services.md)|  
+|**Set the location of symbols:** To display the names of functions and parameters, the profiler must have access to the symbol (.pdb) files of the profiled binaries. These files should include the symbol files for the Microsoft operating system and applications that you want to view in your analysis. You can use the public Microsoft symbol server to make sure that you have the correct .pdb files for the Microsoft binaries.|-   [How to: Specify Symbol File Locations from the Command Line](../profiling/how-to-specify-symbol-file-locations-from-the-command-line.md)|  
+|**Profile your application:** The command-line tools and options that you use to profile a target application depend on the type of the application, the profiling method, and whether the target is a managed or native application.|-   [Using Profiling Methods From the Command Line](../profiling/using-profiling-methods-to-collect-performance-data-from-the-command-line.md)<br />-   [Profiling Stand-Alone Applications](../profiling/command-line-profiling-of-stand-alone-applications.md)<br />-   [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)<br />-   [Profiling Services](../profiling/command-line-profiling-of-services.md)|  
 |**Create .xml and .csv reports:** Profiling at the command prompt creates data files that can be viewed in the interface for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. You can also generate .xml or comma-separated value (.csv) files of the data by using the VSPerfReport command-line tool.|-   [Creating Profiler Reports from the Command Line](../profiling/creating-profiler-reports-from-the-command-line.md)<br />-   [VSPerfReport](../profiling/vsperfreport.md)|  
-|**Profile code on computers without Visual Studio:** You can use the Profiling Tools stand-alone profiler to collect data for applications on computers that do not have [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] installed.|-   [How to: Install the Stand-Alone Profiler](../profiling/how-to--install-the-stand-alone-profiler.md)|  
+|**Profile code on computers without Visual Studio:** You can use the Profiling Tools stand-alone profiler to collect data for applications on computers that do not have [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] installed.|-   [How to: Install the Stand-Alone Profiler](../profiling/how-to-install-the-stand-alone-profiler.md)|  
   
 ## Reference  
  [Command-Line Profiling Tools Reference](../profiling/command-line-profiling-tools-reference.md)  

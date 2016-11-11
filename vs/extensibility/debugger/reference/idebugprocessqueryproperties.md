@@ -1,7 +1,7 @@
 ---
-title: "IDebugProcessQueryProperties"
+title: "IDebugProcessQueryProperties | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -47,8 +47,8 @@ IDebugProcessQueryProperties: IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[QueryProperty](../../../extensibility/debugger/reference/idebugprocessqueryproperties--queryproperty.md)|Queries for a property value.|  
-|[QueryProperties](../../../extensibility/debugger/reference/idebugprocessqueryproperties--queryproperties.md)|Queries for property values.|  
+|[QueryProperty](../../../extensibility/debugger/reference/idebugprocessqueryproperties-queryproperty.md)|Queries for a property value.|  
+|[QueryProperties](../../../extensibility/debugger/reference/idebugprocessqueryproperties-queryproperties.md)|Queries for property values.|  
   
 ## Remarks  
  This interface is seldom implemented.  

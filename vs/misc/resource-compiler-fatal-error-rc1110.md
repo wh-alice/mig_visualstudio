@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Fatal Error RC1110"
+title: "Resource Compiler Fatal Error RC1110 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC1110"
 ms.assetid: c1e1bbd2-8e5e-4c00-807d-740b4953df76
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

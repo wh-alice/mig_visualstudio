@@ -1,7 +1,7 @@
 ---
-title: "IDebugStackFrame3"
+title: "IDebugStackFrame3 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,20 +45,20 @@ IDebugStackFrame3 : IDebugStackFrame2
  The debug engine (DE) implements this interface on the same object that implements the [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md) interface to support intercepted exceptions.  
   
 ## Notes for Callers  
- Call [QueryInterface](../Topic/QueryInterface.md) on an `IDebugStackFrame2` interface to obtain this interface.  
+ Call [QueryInterface](/visual-cpp/atl/queryinterface) on an `IDebugStackFrame2` interface to obtain this interface.  
   
 ## Methods in Vtable Order  
  In addition to the methods inherited from [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md), `IDebugStackFrame3` exposes the following methods.  
   
 |Method|Description|  
 |------------|-----------------|  
-|[InterceptCurrentException](../../../extensibility/debugger/reference/idebugstackframe3--interceptcurrentexception.md)|Handles an exception for the current stack frame before any regular exception handling.|  
-|[GetUnwindCodeContext](../../../extensibility/debugger/reference/idebugstackframe3--getunwindcodecontext.md)|Returns a code context if a stack unwind were to occur.|  
+|[InterceptCurrentException](../../../extensibility/debugger/reference/idebugstackframe3-interceptcurrentexception.md)|Handles an exception for the current stack frame before any regular exception handling.|  
+|[GetUnwindCodeContext](../../../extensibility/debugger/reference/idebugstackframe3-getunwindcodecontext.md)|Returns a code context if a stack unwind were to occur.|  
   
 ## Remarks  
  An intercepted exception means that a debugger can process an exception before any normal exception handling routines are called by the run time. Intercepting an exception essentially means making the run time pretend that there is an exception handler present even when there is not.  
   
- [InterceptCurrentException](../../../extensibility/debugger/reference/idebugstackframe3--interceptcurrentexception.md) is called during all normal exception callback events (the only exception to this is if you are debugging mixed-mode code (managed and unmanaged code), in which case the exception cannot be intercepted during the last-chance callback). If the DE does not implement `IDebugStackFrame3`, or the DE returns an error from IDebugStackFrame3::`InterceptCurrentException` (such as `E_NOTIMPL`), then the debugger will handle the exception normally.  
+ [InterceptCurrentException](../../../extensibility/debugger/reference/idebugstackframe3-interceptcurrentexception.md) is called during all normal exception callback events (the only exception to this is if you are debugging mixed-mode code (managed and unmanaged code), in which case the exception cannot be intercepted during the last-chance callback). If the DE does not implement `IDebugStackFrame3`, or the DE returns an error from IDebugStackFrame3::`InterceptCurrentException` (such as `E_NOTIMPL`), then the debugger will handle the exception normally.  
   
  By intercepting an exception, the debugger can allow the user to make changes to the state of the program being debugged and then resume execution at the point where the exception was thrown.  
   

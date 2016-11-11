@@ -1,7 +1,7 @@
 ---
-title: "Standard and Custom Toolset Configurations"
+title: "Standard and Custom Toolset Configurations | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "MSBuild, msbuild.exe.config"
 ms.assetid: 15a048c8-5ad3-448e-b6e9-e3c5d7147ed2
 caps.latest.revision: 31
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -32,7 +33,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Standard and Custom Toolset Configurations
-An MSBuild Toolset contains references to tasks, targets, and tools that you can use to build an application project. MSBuild includes a standard Toolset, but you can also create custom Toolsets. For information about how to specify a Toolset, see [Toolset (ToolsVersion)](../msbuild/msbuild-toolset--toolsversion-.md)  
+An MSBuild Toolset contains references to tasks, targets, and tools that you can use to build an application project. MSBuild includes a standard Toolset, but you can also create custom Toolsets. For information about how to specify a Toolset, see [Toolset (ToolsVersion)](../msbuild/msbuild-toolset-toolsversion.md)  
   
 ## Standard Toolset Configurations  
  MSBuild 12.0 includes the following standard Toolsets:  
@@ -64,7 +65,7 @@ An MSBuild Toolset contains references to tasks, targets, and tools that you can
   
  If any properties are defined in both the base toolset and the selected sub-toolset, the property definitions in the sub-toolset are used. For example, the MSBuild 4.0 toolset defines `SDK40ToolsPath` to point to the 7.0A SDK, but the MSBuild 4.0\11.0 toolset defines the same property to point to the 8.0A SDK. If `VisualStudioVersion` is unset, `SDK40ToolsPath` would point to 7.0A, but if `VisualStudioVersion` is set to 11.0, the property would instead point to 8.0A.  
   
- The `VisualStudioVersion` build property indicates whether a sub-toolset becomes active. For example, a `VisualStudioVersion` value of "12.0" specifies the MSBuild 12.0 sub-toolset. For more information, see the Sub-toolsets section of [Toolset (ToolsVersion)](../msbuild/msbuild-toolset--toolsversion-.md).  
+ The `VisualStudioVersion` build property indicates whether a sub-toolset becomes active. For example, a `VisualStudioVersion` value of "12.0" specifies the MSBuild 12.0 sub-toolset. For more information, see the Sub-toolsets section of [Toolset (ToolsVersion)](../msbuild/msbuild-toolset-toolsversion.md).  
   
 > [!NOTE]
 >  We recommend that you avoid changing these settings. Nevertheless, you can add your own settings and define computer-wide custom toolset definitions, as the next section describes.  
@@ -112,4 +113,4 @@ An MSBuild Toolset contains references to tasks, targets, and tools that you can
  You can also add custom, ToolsVersion-specific properties to the configuration file by using the same syntax that you use to add the MSBuildToolsPath property. To make these custom properties available to the project file, use the same name as the name of the value that is specified in the configuration file. You may define toolsets but not sub-toolsets in the configuration file.  
   
 ## See Also  
- [Toolset (ToolsVersion)](../msbuild/msbuild-toolset--toolsversion-.md)
+ [Toolset (ToolsVersion)](../msbuild/msbuild-toolset-toolsversion.md)

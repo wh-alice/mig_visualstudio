@@ -1,7 +1,7 @@
 ---
-title: "Overriding ToolsVersion Settings"
+title: "Overriding ToolsVersion Settings | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/24/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "MSBuild, building solutions with"
 ms.assetid: ccd42c07-0fb6-4e8b-9ebb-a6a6db18aa2e
 caps.latest.revision: 24
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -120,7 +121,7 @@ msbuild.exe someproj.proj /tv:12.0 /p:Configuration=Debug
   
 5.  If the environment variable `MSBUILDLEGACYDEFAULTTOOLSVERSION` is set, or if `ToolsVersion` is not set, then the following steps are used:  
   
-    1.  The `ToolsVersion` attribute of the [Project](../msbuild/project-element--msbuild-.md) element of the project file. If this attribute doesn’t exist, it is assumed to be the current version.  
+    1.  The `ToolsVersion` attribute of the [Project](../msbuild/project-element-msbuild.md) element of the project file. If this attribute doesn’t exist, it is assumed to be the current version.  
   
     2.  The default tools version in the MSBuild.exe.config file.  
   
@@ -139,5 +140,5 @@ msbuild.exe someproj.proj /tv:12.0 /p:Configuration=Debug
 ## See Also  
  [Multitargeting](../msbuild/msbuild-multitargeting-overview.md)   
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)   
- [Toolset (ToolsVersion)](../msbuild/msbuild-toolset--toolsversion-.md)   
+ [Toolset (ToolsVersion)](../msbuild/msbuild-toolset-toolsversion.md)   
  [Standard and Custom Toolset Configurations](../msbuild/standard-and-custom-toolset-configurations.md)

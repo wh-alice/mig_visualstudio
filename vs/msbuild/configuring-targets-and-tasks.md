@@ -1,7 +1,7 @@
 ---
-title: "Configuring Targets and Tasks"
+title: "Configuring Targets and Tasks | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9aabe67a-1720-4bbf-80d3-822b3ccf75c0
 caps.latest.revision: 6
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -39,7 +40,7 @@ You can configure MSBuild targets and tasks to run out-of-process with MSBuild s
 ## Targets and Tasks  
  MSBuild runs certain build tasks out of process to target a larger set of contexts.  For example, a 32-bit MSBuild might run a build task in a 64-bit process to target a 64-bit computer. This is controlled by `UsingTask` arguments and `Task` parameters. The targets installed by the .NET Framework 4.5 set these arguments and parameters, and no changes are required to build applications for the various target contexts.  
   
- If you want to create your own target context, you must set these arguments and parameters appropriately. Look in the .NET Framework 4.5 Microsoft.Common.targets file and the Microsoft.Common.Tasks file for examples.  For information about how to create a custom task that can work with multiple target contexts, or how to modify existing tasks, see [How to: Configure Targets and Tasks](../msbuild/how-to--configure-targets-and-tasks.md).  
+ If you want to create your own target context, you must set these arguments and parameters appropriately. Look in the .NET Framework 4.5 Microsoft.Common.targets file and the Microsoft.Common.Tasks file for examples.  For information about how to create a custom task that can work with multiple target contexts, or how to modify existing tasks, see [How to: Configure Targets and Tasks](../msbuild/how-to-configure-targets-and-tasks.md).  
   
 ## See Also  
  [Multitargeting](../msbuild/msbuild-multitargeting-overview.md)

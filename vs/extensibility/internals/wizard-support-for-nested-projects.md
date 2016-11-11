@@ -1,7 +1,7 @@
 ---
-title: "Wizard Support for Nested Projects"
+title: "Wizard Support for Nested Projects | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -39,7 +39,7 @@ The IDE runs two wizards that the parent project for nested projects can impleme
   
  Similarly, a parent project's implementation of **AddItem** wizards returns a .vsz file that has a different set of context parameters.  
   
- For more information about wizards, see [Wizard (.Vsz) File](../../extensibility/internals/wizard--.vsz--file.md), [Context Parameters](../../extensibility/internals/context-parameters.md) and [Registering Project and Item Templates](../../extensibility/internals/registering-project-and-item-templates.md).  
+ For more information about wizards, see [Wizard (.Vsz) File](../../extensibility/internals/wizard-dot-vsz-file.md), [Context Parameters](../../extensibility/internals/context-parameters.md) and [Registering Project and Item Templates](../../extensibility/internals/registering-project-and-item-templates.md).  
   
 ## See Also  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy>   

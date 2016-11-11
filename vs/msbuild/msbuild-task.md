@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Task"
+title: "MSBuild Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "MSBuild, MSBuild task"
 ms.assetid: 76577f6c-7669-44ad-a840-363e37a04d34
 caps.latest.revision: 32
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

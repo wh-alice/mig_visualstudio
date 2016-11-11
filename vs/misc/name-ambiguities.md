@@ -1,7 +1,7 @@
 ---
-title: "Name Ambiguities"
+title: "Name Ambiguities | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,6 +24,7 @@ helpviewer_keywords:
   - "name ambiguity [C++]"
 ms.assetid: 962a8f27-5d3b-44f5-b1dd-b8a7b1f09e17
 caps.latest.revision: 8
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -42,4 +43,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Name Ambiguities
-This content has moved to [Multiple Base Classes](../Topic/Multiple%20Base%20Classes.md)
+This content has moved to [Multiple Base Classes](/visual-cpp/cpp/multiple-base-classes)

@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB3149"
+title: "MSBuild Error MSB3149 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB3149"
 ms.assetid: 63857405-d420-457d-9ba7-80e1a2a9dcb7
 caps.latest.revision: 5
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

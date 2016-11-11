@@ -1,7 +1,7 @@
 ---
-title: "Visual Studio Debugger Extensibility"
+title: "Visual Studio Debugger Extensibility | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -55,7 +55,7 @@ Visual Studio includes a fully interactive source code debugger, providing a pow
  [Choosing a Debug Engine Implementation Strategy](../../extensibility/debugger/choosing-a-debug-engine-implementation-strategy.md)  
  Discusses how to implement your DE.  
   
- [Reference](../../extensibility/debugger/reference/reference--visual-studio-debugging-apis-.md)  
+ [Reference](../../extensibility/debugger/reference/reference-visual-studio-debugging-apis.md)  
  Documents the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Debugging API.  
   
  [Samples](../../extensibility/debugger/visual-studio-debugging-samples.md)  

@@ -1,7 +1,7 @@
 ---
-title: "IDebugPortNotify2"
+title: "IDebugPortNotify2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,15 +45,15 @@ IDebugPortNotify2 : IUnknown
  A custom port supplier implements this interface to support adding and removing programs from the port. It is typically implemented on the same object that implements the [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md) interface.  
   
 ## Notes for Callers  
- A call to [QueryInterface](../Topic/QueryInterface.md) on the `IDebugPort2` interface returns this interface. Also, a call to [GetPortNotify](../../../extensibility/debugger/reference/idebugdefaultport2--getportnotify.md) returns this interface. A debug engine can see this interface as a parameter to [WatchForProviderEvents](../../../extensibility/debugger/reference/idebugprogramprovider2--watchforproviderevents.md).  
+ A call to [QueryInterface](/visual-cpp/atl/queryinterface) on the `IDebugPort2` interface returns this interface. Also, a call to [GetPortNotify](../../../extensibility/debugger/reference/idebugdefaultport2-getportnotify.md) returns this interface. A debug engine can see this interface as a parameter to [WatchForProviderEvents](../../../extensibility/debugger/reference/idebugprogramprovider2-watchforproviderevents.md).  
   
 ## Methods in Vtable Order  
  The following table shows the methods of `IDebugPortNotify2`.  
   
 |Method|Description|  
 |------------|-----------------|  
-|[AddProgramNode](../../../extensibility/debugger/reference/idebugportnotify2--addprogramnode.md)|Registers a program that can be debugged with the port it is running on.|  
-|[RemoveProgramNode](../../../extensibility/debugger/reference/idebugportnotify2--removeprogramnode.md)|Unregisters a program that can be debugged from the port it is running on.|  
+|[AddProgramNode](../../../extensibility/debugger/reference/idebugportnotify2-addprogramnode.md)|Registers a program that can be debugged with the port it is running on.|  
+|[RemoveProgramNode](../../../extensibility/debugger/reference/idebugportnotify2-removeprogramnode.md)|Unregisters a program that can be debugged from the port it is running on.|  
   
 ## Remarks  
  Unless a debug port has a way to know when programs are loaded or unloaded, a custom port supplier must implement this interface. All programs that are loaded for debugging through a particular port are tracked using this interface.  

@@ -1,7 +1,7 @@
 ---
-title: "Toolbox Walkthroughs"
+title: "Toolbox Walkthroughs | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,16 +35,16 @@ translation.priority.mt:
 This section contains several examples illustrating basic methods for adding and configuring **Toolbox** items.  
   
 ## In This Section  
- [Walkthrough: Creating a WPF Toolbox Control](../misc/walkthrough--creating-a-wpf-toolbox-control.md)  
+ [Walkthrough: Creating a WPF Toolbox Control](../misc/walkthrough-creating-a-wpf-toolbox-control.md)  
  Shows how to create a control and add it to the Toolbox by using the WPF Toolbox Control template.  
   
  [Creating a Windows Forms Toolbox Control](../extensibility/creating-a-windows-forms-toolbox-control.md)  
  Shows how to create a control and add it to the Toolbox by using the Windows Forms Toolbox Control template.  
   
- [Walkthrough: Autoloading Toolbox Items](../misc/walkthrough--autoloading-toolbox-items.md)  
+ [Walkthrough: Autoloading Toolbox Items](../misc/walkthrough-autoloading-toolbox-items.md)  
  Illustrates how a managed VSPackage can use reflection to automatically load all the <xref:System.Drawing.Design.ToolboxItem> items provided by its own assembly.  
   
- [Walkthrough: Customizing Toolbox Item Configuration Dynamically](../misc/walkthrough--customizing-toolbox-item-configuration-dynamically.md)  
+ [Walkthrough: Customizing Toolbox Item Configuration Dynamically](../misc/walkthrough-customizing-toolbox-item-configuration-dynamically.md)  
  Illustrates how a managed VSPackage can supply dynamic configuration support for the <xref:System.Drawing.Design.ToolboxItem> objects.  
   
 ## Related Sections  

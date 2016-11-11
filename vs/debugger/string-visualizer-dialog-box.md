@@ -1,7 +1,7 @@
 ---
-title: "String Visualizer Dialog Box"
+title: "String Visualizer Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -26,6 +26,7 @@ helpviewer_keywords:
   - "visualizers, string"
 ms.assetid: 080fd8f1-72b0-461f-8451-3c84d5dc51df
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

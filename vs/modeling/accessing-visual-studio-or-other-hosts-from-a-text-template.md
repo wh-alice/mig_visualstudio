@@ -1,7 +1,7 @@
 ---
-title: "Accessing Visual Studio or other Hosts from a Text Template"
+title: "Accessing Visual Studio or other Hosts from a Text Template | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a68886da-7416-4785-8145-3796bb382cba
 caps.latest.revision: 5
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 translation.priority.ht: 

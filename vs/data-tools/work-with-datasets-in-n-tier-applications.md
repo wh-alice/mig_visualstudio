@@ -1,7 +1,7 @@
 ---
-title: "Work with datasets in n-tier applications"
+title: "Work with datasets in n-tier applications | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,6 +25,7 @@ helpviewer_keywords:
   - "multiple tier applications"
 ms.assetid: f6ae2ee0-ea5f-4a79-8f4b-e21c115afb20
 caps.latest.revision: 22
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 translation.priority.ht: 
@@ -63,7 +64,7 @@ translation.priority.mt:
  [Add validation to an n-tier dataset](../data-tools/add-validation-to-an-n-tier-dataset.md)  
  Describes where to add code to perform validation on changing data.  
   
- [Walkthrough: Creating an N-Tier Data Application](../data-tools/walkthrough--creating-an-n-tier-data-application.md)  
+ [Walkthrough: Creating an N-Tier Data Application](../data-tools/walkthrough-creating-an-n-tier-data-application.md)  
  Provides step-by-step instructions for creating a typed dataset and separating the TableAdapter and dataset code into multiple projects.  
   
  [Walkthrough: Adding Validation to an N-Tier Data Application](../Topic/Walkthrough:%20Adding%20Validation%20to%20an%20N-Tier%20Data%20Application.md)  
@@ -72,7 +73,7 @@ translation.priority.mt:
 ## Reference  
  <xref:System.Data.DataSet>  
   
- <xref:System.Data.TypedTableBase`1>  
+ <xref:System.Data.TypedTableBase%601>  
   
 ## Related Sections  
  [N-Tier Data Applications Overview](../data-tools/n-tier-data-applications-overview.md)  

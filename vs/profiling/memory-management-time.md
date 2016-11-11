@@ -1,7 +1,7 @@
 ---
-title: "Memory Management Time"
+title: "Memory Management Time | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Concurrency Visualizer, Paging Time"
 ms.assetid: 67af3509-3a7d-435d-bc37-5262448da915
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -39,4 +40,4 @@ These segments in the timeline are associated with blocking times that are categ
  Examine the associated call stacks and profile reports to better understand the underlying reasons for blocks that are categorized as Memory Management.  
   
 ## See Also  
- [Threads View](../profiling/threads-view--parallel-performance-.md)
+ [Threads View](../profiling/threads-view-parallel-performance.md)

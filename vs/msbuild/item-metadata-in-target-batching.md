@@ -1,7 +1,7 @@
 ---
-title: "Item Metadata in Target Batching"
+title: "Item Metadata in Target Batching | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "target batching [MSBuild]"
 ms.assetid: f3cc4186-6a4c-4161-bbe5-1ec638b4925b
 caps.latest.revision: 6
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -79,7 +80,7 @@ translation.priority.ht:
 ```  
   
 ## See Also  
- [How to: Build Incrementally](../msbuild/how-to--build-incrementally.md)   
+ [How to: Build Incrementally](../msbuild/how-to-build-incrementally.md)   
  [Batching](../msbuild/msbuild-batching.md)   
- [Target Element (MSBuild)](../msbuild/target-element--msbuild-.md)   
+ [Target Element (MSBuild)](../msbuild/target-element-msbuild.md)   
  [Item Metadata in Task Batching](../msbuild/item-metadata-in-task-batching.md)

@@ -1,5 +1,5 @@
 ---
-title: "Class not registered on local machine"
+title: "Class not registered on local machine | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -13,6 +13,7 @@ f1_keywords:
   - "vbrID463"
 ms.assetid: 40c4c622-41d8-4005-9303-c30abe0707bb
 caps.latest.revision: 8
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -39,5 +40,5 @@ This error is usually encountered as a result of a corrupted file. You may need 
 -   Reinstall [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 ## See Also  
- [Error Types](../Topic/Error%20Types%20\(Visual%20Basic\).md)   
+ [Error Types](/dotnet/visual-basic/programming-guide/language-features/error-types)   
  [PAVEOVER Product Support and Accessibility](http://msdn.microsoft.com/en-us/14e1d293-7b6d-40a6-bf3e-a92f8ee6c88c)

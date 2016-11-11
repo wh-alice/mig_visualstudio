@@ -1,5 +1,5 @@
 ---
-title: "Assembly or Module attribute statements must precede any declarations in a file"
+title: "Assembly or Module attribute statements must precede any declarations in a file | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "BC30637"
 ms.assetid: 80242581-fa8a-4903-9395-6f7ad1610231
 caps.latest.revision: 7
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 

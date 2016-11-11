@@ -1,7 +1,7 @@
 ---
-title: "Could not instantiate the resource processor"
+title: "Could not instantiate the resource processor | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ f1_keywords:
   - "vs.tasklisterror.no_resx_generator"
 ms.assetid: 9a6e2fc6-cf16-462c-b5eb-883dcf4e5ce3
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

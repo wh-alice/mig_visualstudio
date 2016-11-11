@@ -1,7 +1,7 @@
 ---
-title: "IDebugFunctionObject2"
+title: "IDebugFunctionObject2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -59,9 +59,9 @@ IDebugFunctionObject2 : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[CreateObject](../../../extensibility/debugger/reference/idebugfunctionobject2--createobject.md)|Creates an object that uses a constructor given evaluation flag settings and a timeout value.|  
-|[CreateStringObjectWithLength](../../../extensibility/debugger/reference/idebugfunctionobject2--createstringobjectwithlength.md)|Creates a string object that has the specified length.|  
-|[Evaluate](../../../extensibility/debugger/reference/idebugfunctionobject2--evaluate.md)|Calls the function and returns the resulting value as an object.|  
+|[CreateObject](../../../extensibility/debugger/reference/idebugfunctionobject2-createobject.md)|Creates an object that uses a constructor given evaluation flag settings and a timeout value.|  
+|[CreateStringObjectWithLength](../../../extensibility/debugger/reference/idebugfunctionobject2-createstringobjectwithlength.md)|Creates a string object that has the specified length.|  
+|[Evaluate](../../../extensibility/debugger/reference/idebugfunctionobject2-evaluate.md)|Calls the function and returns the resulting value as an object.|  
   
 ## Requirements  
  Header: Ee.h  

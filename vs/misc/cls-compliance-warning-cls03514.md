@@ -1,7 +1,7 @@
 ---
-title: "CLS Compliance Warning CLS03514"
+title: "CLS Compliance Warning CLS03514 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CLS03514"
 ms.assetid: b2d326ce-8c1b-4351-80d1-ccd1818b1ea3
 caps.latest.revision: 9
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

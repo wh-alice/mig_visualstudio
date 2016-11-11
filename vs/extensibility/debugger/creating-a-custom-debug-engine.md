@@ -1,7 +1,7 @@
 ---
-title: "Creating a Custom Debug Engine"
+title: "Creating a Custom Debug Engine | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -71,7 +71,7 @@ A debug engine (DE) is a component that allows debugging of particular run-time 
  [Calling Debugger Events](../../extensibility/debugger/calling-debugger-events.md)  
  Documents the calling order of the events occurring in a debugging session.  
   
- [How To: Debug a Custom Debug Engine](../../extensibility/debugger/how-to--debug-a-custom-debug-engine.md)  
+ [How To: Debug a Custom Debug Engine](../../extensibility/debugger/how-to-debug-a-custom-debug-engine.md)  
  Explains how to debug a custom DE.  
   
 ## See Also  

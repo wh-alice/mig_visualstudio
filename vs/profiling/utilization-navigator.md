@@ -1,7 +1,7 @@
 ---
-title: "Utilization Navigator"
+title: "Utilization Navigator | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ f1_keywords:
   - "vs.cv.performance.utilizationnavigator"
 ms.assetid: 522a981a-37ef-4cdd-a04c-f1e7525a2aab
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

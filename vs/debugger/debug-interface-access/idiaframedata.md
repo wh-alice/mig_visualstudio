@@ -1,7 +1,7 @@
 ---
-title: "IDiaFrameData"
+title: "IDiaFrameData | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaFrameData interface"
 ms.assetid: 2f1b4986-341b-4641-89a4-226e261e9d93
 caps.latest.revision: 10
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -47,30 +48,30 @@ IDiaFrameData : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[IDiaFrameData::get_addressSection](../../debugger/debug-interface-access/idiaframedata--get_addresssection.md)|Retrieves the section part of the code address for the frame.|  
-|[IDiaFrameData::get_addressOffset](../../debugger/debug-interface-access/idiaframedata--get_addressoffset.md)|Retrieves the offset part of the code address for the frame.|  
-|[IDiaFrameData::get_relativeVirtualAddress](../../debugger/debug-interface-access/idiaframedata--get_relativevirtualaddress.md)|Retrieves the image relative virtual address (RVA) of the code for the frame.|  
-|[IDiaFrameData::get_virtualAddress](../../debugger/debug-interface-access/idiaframedata--get_virtualaddress.md)|Retrieves the virtual address (VA) of the code for the frame.|  
-|[IDiaFrameData::get_lengthBlock](../../debugger/debug-interface-access/idiaframedata--get_lengthblock.md)|Retrieves the length, in bytes, of the block of code described by the frame.|  
-|[IDiaFrameData::get_lengthLocals](../../debugger/debug-interface-access/idiaframedata--get_lengthlocals.md)|Retrieves the number of bytes of local variables pushed on the stack.|  
-|[IDiaFrameData::get_lengthParams](../../debugger/debug-interface-access/idiaframedata--get_lengthparams.md)|Retrieves the number of bytes of parameters pushed on the stack.|  
-|[IDiaFrameData::get_maxStack](../../debugger/debug-interface-access/idiaframedata--get_maxstack.md)|Retrieves the maximum number of bytes pushed on the stack in the frame.|  
-|[IDiaFrameData::get_lengthProlog](../../debugger/debug-interface-access/idiaframedata--get_lengthprolog.md)|Retrieves the number of bytes of prologue code in the block.|  
-|[IDiaFrameData::get_lengthSavedRegisters](../../debugger/debug-interface-access/idiaframedata--get_lengthsavedregisters.md)|Retrieves the number of bytes of saved registers pushed on the stack.|  
-|[IDiaFrameData::get_program](../../debugger/debug-interface-access/idiaframedata--get_program.md)|Retrieves the program string that is used to compute the register set before the call to the current function.|  
-|[IDiaFrameData::get_systemExceptionHandling](../../debugger/debug-interface-access/idiaframedata--get_systemexceptionhandling.md)|Retrieves a flag that indicates that system exception handling is in effect.|  
-|[IDiaFrameData::get_cplusplusExceptionHandling](../../debugger/debug-interface-access/idiaframedata--get_cplusplusexceptionhandling.md)|Retrieves a flag that indicates that C++ exception handling is in effect.|  
-|[IDiaFrameData::get_functionStart](../../debugger/debug-interface-access/idiaframedata--get_functionstart.md)|Retrieves a flag that indicates that the block contains the entry point of a function.|  
-|[IDiaFrameData::get_allocatesBasePointer](../../debugger/debug-interface-access/idiaframedata--get_allocatesbasepointer.md)|Retrieves a flag that indicates that the base pointer is allocated for code in this address range. This method is deprecated.|  
-|[IDiaFrameData::get_type](../../debugger/debug-interface-access/idiaframedata--get_type.md)|Retrieves the compiler-specific frame type.|  
-|[IDiaFrameData::get_functionParent](../../debugger/debug-interface-access/idiaframedata--get_functionparent.md)|Retrieves frame data interface for enclosing function.|  
-|[IDiaFrameData::execute](../../debugger/debug-interface-access/idiaframedata--execute.md)|Performs stack unwinding and returns the current state of registers in a stack walk frame interface.|  
+|[IDiaFrameData::get_addressSection](../../debugger/debug-interface-access/idiaframedata-get-addresssection.md)|Retrieves the section part of the code address for the frame.|  
+|[IDiaFrameData::get_addressOffset](../../debugger/debug-interface-access/idiaframedata-get-addressoffset.md)|Retrieves the offset part of the code address for the frame.|  
+|[IDiaFrameData::get_relativeVirtualAddress](../../debugger/debug-interface-access/idiaframedata-get-relativevirtualaddress.md)|Retrieves the image relative virtual address (RVA) of the code for the frame.|  
+|[IDiaFrameData::get_virtualAddress](../../debugger/debug-interface-access/idiaframedata-get-virtualaddress.md)|Retrieves the virtual address (VA) of the code for the frame.|  
+|[IDiaFrameData::get_lengthBlock](../../debugger/debug-interface-access/idiaframedata-get-lengthblock.md)|Retrieves the length, in bytes, of the block of code described by the frame.|  
+|[IDiaFrameData::get_lengthLocals](../../debugger/debug-interface-access/idiaframedata-get-lengthlocals.md)|Retrieves the number of bytes of local variables pushed on the stack.|  
+|[IDiaFrameData::get_lengthParams](../../debugger/debug-interface-access/idiaframedata-get-lengthparams.md)|Retrieves the number of bytes of parameters pushed on the stack.|  
+|[IDiaFrameData::get_maxStack](../../debugger/debug-interface-access/idiaframedata-get-maxstack.md)|Retrieves the maximum number of bytes pushed on the stack in the frame.|  
+|[IDiaFrameData::get_lengthProlog](../../debugger/debug-interface-access/idiaframedata-get-lengthprolog.md)|Retrieves the number of bytes of prologue code in the block.|  
+|[IDiaFrameData::get_lengthSavedRegisters](../../debugger/debug-interface-access/idiaframedata-get-lengthsavedregisters.md)|Retrieves the number of bytes of saved registers pushed on the stack.|  
+|[IDiaFrameData::get_program](../../debugger/debug-interface-access/idiaframedata-get-program.md)|Retrieves the program string that is used to compute the register set before the call to the current function.|  
+|[IDiaFrameData::get_systemExceptionHandling](../../debugger/debug-interface-access/idiaframedata-get-systemexceptionhandling.md)|Retrieves a flag that indicates that system exception handling is in effect.|  
+|[IDiaFrameData::get_cplusplusExceptionHandling](../../debugger/debug-interface-access/idiaframedata-get-cplusplusexceptionhandling.md)|Retrieves a flag that indicates that C++ exception handling is in effect.|  
+|[IDiaFrameData::get_functionStart](../../debugger/debug-interface-access/idiaframedata-get-functionstart.md)|Retrieves a flag that indicates that the block contains the entry point of a function.|  
+|[IDiaFrameData::get_allocatesBasePointer](../../debugger/debug-interface-access/idiaframedata-get-allocatesbasepointer.md)|Retrieves a flag that indicates that the base pointer is allocated for code in this address range. This method is deprecated.|  
+|[IDiaFrameData::get_type](../../debugger/debug-interface-access/idiaframedata-get-type.md)|Retrieves the compiler-specific frame type.|  
+|[IDiaFrameData::get_functionParent](../../debugger/debug-interface-access/idiaframedata-get-functionparent.md)|Retrieves frame data interface for enclosing function.|  
+|[IDiaFrameData::execute](../../debugger/debug-interface-access/idiaframedata-execute.md)|Performs stack unwinding and returns the current state of registers in a stack walk frame interface.|  
   
 ## Remarks  
  The details available for a frame are for execution points within the address range indicated by the address and block length.  
   
 ## Notes for Callers  
- Obtain this interface by calling the [IDiaEnumFrameData::Next](../../debugger/debug-interface-access/idiaenumframedata--next.md) or [IDiaEnumFrameData::Item](../../debugger/debug-interface-access/idiaenumframedata--item.md) methods. See the [IDiaEnumFrameData](../../debugger/debug-interface-access/idiaenumframedata.md) interface for details.  
+ Obtain this interface by calling the [IDiaEnumFrameData::Next](../../debugger/debug-interface-access/idiaenumframedata-next.md) or [IDiaEnumFrameData::Item](../../debugger/debug-interface-access/idiaenumframedata-item.md) methods. See the [IDiaEnumFrameData](../../debugger/debug-interface-access/idiaenumframedata.md) interface for details.  
   
 ## Example  
  This example prints out the properties of an `IDiaFrameData` object. See the [IDiaEnumFrameData](../../debugger/debug-interface-access/idiaenumframedata.md) interface for an example of how the `IDiaFrameData` interface is obtained.  
@@ -134,7 +135,7 @@ void PrintFrameData(IDiaFrameData* pFrameData){
  DLL: msdia80.dll  
   
 ## See Also  
- [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces--debug-interface-access-sdk-.md)   
+ [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)   
  [IDiaEnumFrameData](../../debugger/debug-interface-access/idiaenumframedata.md)   
- [IDiaEnumFrameData::Item](../../debugger/debug-interface-access/idiaenumframedata--item.md)   
- [IDiaEnumFrameData::Next](../../debugger/debug-interface-access/idiaenumframedata--next.md)
+ [IDiaEnumFrameData::Item](../../debugger/debug-interface-access/idiaenumframedata-item.md)   
+ [IDiaEnumFrameData::Next](../../debugger/debug-interface-access/idiaenumframedata-next.md)

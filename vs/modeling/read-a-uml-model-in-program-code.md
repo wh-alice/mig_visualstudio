@@ -1,7 +1,7 @@
 ---
-title: "Read a UML model in program code"
+title: "Read a UML model in program code | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ helpviewer_keywords:
   - "UML API, reading models"
 ms.assetid: 0f63105e-6079-498a-94f1-318c0f5f9621
 caps.latest.revision: 23
+author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
 translation.priority.ht: 

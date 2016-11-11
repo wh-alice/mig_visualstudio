@@ -1,7 +1,7 @@
 ---
-title: "Understanding Generated Properties and Methods"
+title: "Understanding Generated Properties and Methods | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, generated properties"
 ms.assetid: 991d0dd4-cead-404c-afbf-3a68269911cc
 caps.latest.revision: 19
+author: "alancameronwills"
 ms.author: "awills"
 manager: "kamrani"
 translation.priority.ht: 

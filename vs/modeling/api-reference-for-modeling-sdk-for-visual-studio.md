@@ -1,7 +1,7 @@
 ---
-title: "API Reference for Modeling SDK for Visual Studio"
+title: "API Reference for Modeling SDK for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 590c9a69-4e22-4841-bb23-f32e80ec1e76
 caps.latest.revision: 8
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 ---

@@ -1,7 +1,7 @@
 ---
-title: "Managed VSPackages"
+title: "Managed VSPackages | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ translation.priority.mt:
 The following topics explain how to create a VSPackage. A VSPackage is a software module that extends the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) by providing user interface (UI) elements, services, projects, editors, and designers. For more information, see [VSPackages](../extensibility/internals/vspackages.md).  
   
 ## In This Section  
- [Using Visual Studio Interop Assemblies](../Topic/Using%20Visual%20Studio%20Interop%20Assemblies.md)  
+ [Using Visual Studio Interop Assemblies](../extensibility/internals/using-visual-studio-interop-assemblies.md)  
  Describes the function and location of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] interop assemblies and the namespaces they provide.  
   
  [HRESULT Information in Managed Code](../misc/hresult-information-in-managed-code.md)  

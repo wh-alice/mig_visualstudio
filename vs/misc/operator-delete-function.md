@@ -1,7 +1,7 @@
 ---
-title: "operator delete Function"
+title: "operator delete Function | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "delete keyword [C++], function"
 ms.assetid: 52fbd8f6-8223-4a1b-900c-992119e024d3
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -39,6 +40,6 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # operator delete Function
-This content has moved to [new and delete Operators](../Topic/new%20and%20delete%20Operators.md)  
+This content has moved to [new and delete Operators](/visual-cpp/cpp/new-and-delete-operators)  
   
 ## Example

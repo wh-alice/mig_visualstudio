@@ -1,7 +1,7 @@
 ---
-title: "Programming with the UML API"
+title: "Programming with the UML API | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "UML model, extending"
 ms.assetid: c5937139-49d0-4439-8a9f-89f5e0474618
 caps.latest.revision: 19
+author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
-title: "Create and configure datasets in Visual Studio"
+title: "Create and configure datasets in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "datasets [Visual Basic], creating"
 ms.assetid: 58f33b43-24e1-43b1-b08b-b74329960bd6
 caps.latest.revision: 36
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 translation.priority.ht: 

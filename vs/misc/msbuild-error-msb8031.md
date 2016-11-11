@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB8031"
+title: "MSBuild Error MSB8031 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/26/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ f1_keywords:
   - "MSB8031"
 ms.assetid: ebfaca51-fd91-4b04-8194-b4fdededd5fe
 caps.latest.revision: 4
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -43,4 +44,4 @@ MSB8031
 1.  [Download the MBCS MFC DLL Add-on](http://go.microsoft.com/fwlink/?LinkId=299009) from the MSDN Download Center, or if it is practical to do so, convert your project to the UNICODE character set.  
   
 ## See Also  
- [MFC MBCS DLL Add-on](../Topic/MFC%20MBCS%20DLL%20Add-on.md)
+ [MFC MBCS DLL Add-on](/visual-cpp/mfc/mfc-mbcs-dll-add-on)

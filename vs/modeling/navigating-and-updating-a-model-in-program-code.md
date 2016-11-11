@@ -1,7 +1,7 @@
 ---
-title: "Navigating and Updating a Model in Program Code"
+title: "Navigating and Updating a Model in Program Code | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, programming domain models"
 ms.assetid: 1427ae91-be8a-4ce7-85df-00038faa2cbb
 caps.latest.revision: 26
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 translation.priority.mt: 
@@ -62,7 +63,7 @@ You can write code to create and delete model elements, set their properties, an
   
  [DocView and DocData](#docdata)  
   
- Shapes, Connectors and Diagrams, and their relationships to model elements are described in a separate topic. For more information, see [How to: Navigate and Update a Diagram](../misc/how-to--navigate-and-update-a-diagram.md).  
+ Shapes, Connectors and Diagrams, and their relationships to model elements are described in a separate topic. For more information, see [How to: Navigate and Update a Diagram](../misc/how-to-navigate-and-update-a-diagram.md).  
   
 ##  <a name="example"></a> An Example DSL Definition  
  This is the main part of DslDefinition.dsl for the examples in this topic:  
@@ -234,7 +235,7 @@ using (Transaction t =
   
 -   Set the properties of a new element, particularly the property for which `IsName` is true in the DslDefinition. This flag marks the property that serves to identify the element uniquely within its owner. In this case, the Name property has that flag.  
   
--   The DSL definition of this DSL must have been loaded into the Store. If you are writing an extension such as a menu command, this will typically be already true. In other cases, you can explicitly load the model into the Store, or use <xref:Microsoft.VisualStudio.Modeling.Integration.ModelBus> to load it. For more information, see [How to: Open a Model from File in Program Code](../modeling/how-to--open-a-model-from-file-in-program-code.md).  
+-   The DSL definition of this DSL must have been loaded into the Store. If you are writing an extension such as a menu command, this will typically be already true. In other cases, you can explicitly load the model into the Store, or use <xref:Microsoft.VisualStudio.Modeling.Integration.ModelBus> to load it. For more information, see [How to: Open a Model from File in Program Code](../modeling/how-to-open-a-model-from-file-in-program-code.md).  
   
  When you create an element in this way, a shape is automatically created (if the DSL has a diagram). It appears in an automatically assigned location, with default shape, color, and other features. If you want to control where and how the associated shape appears, see [Creating an Element and its Shape](#merge).  
   
@@ -457,15 +458,15 @@ FamilyTreeDiagram diagram =
   
  However, it is useful to make some explicit changes to shapes in properties that are independent of the model elements. For example, you could change these properties:  
   
--   <xref:Microsoft.VisualStudio.Modeling.Diagrams.NodeShape.Size*> - determines the height and width of the shape.  
+-   <xref:Microsoft.VisualStudio.Modeling.Diagrams.NodeShape.Size%2A> - determines the height and width of the shape.  
   
--   <xref:Microsoft.VisualStudio.Modeling.Diagrams.NodeShape.Location*> - position relative to the parent shape or diagram  
+-   <xref:Microsoft.VisualStudio.Modeling.Diagrams.NodeShape.Location%2A> - position relative to the parent shape or diagram  
   
--   <xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement.StyleSet*> - the set of pens and brushes used for drawing the shape or connector  
+-   <xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement.StyleSet%2A> - the set of pens and brushes used for drawing the shape or connector  
   
--   <xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement.Hide*> - makes the shape invisible  
+-   <xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement.Hide%2A> - makes the shape invisible  
   
--   <xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement.Show*> - makes the shape visible after a `Hide()`  
+-   <xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement.Show%2A> - makes the shape visible after a `Hide()`  
   
 ###  <a name="merge"></a> Creating an Element and its Shape  
  When you create an element and link it into the tree of embedding relationships, a shape is automatically created and associated with it. This is done by the "fixup" rules that execute at the end of the transaction. However, the shape will appear in an automatically-assigned location, and its shape, color and other features will have default values. To control how the shape is created, you can use the merge function. You must first add the elements you want to add into an ElementGroup, and then merge the group into the diagram.  
@@ -518,7 +519,7 @@ partial class MyDiagram
  You can also set the color and other exposed properties of connectors using this method.  
   
 ### Use Transactions  
- Shapes, connectors and diagrams are subtypes of <xref:Microsoft.VisualStudio.Modeling.ModelElement> and live in the Store. You must therefore make changes to them only inside a transaction. For more information, see [How to: Use Transactions to Update the Model](../modeling/how-to--use-transactions-to-update-the-model.md).  
+ Shapes, connectors and diagrams are subtypes of <xref:Microsoft.VisualStudio.Modeling.ModelElement> and live in the Store. You must therefore make changes to them only inside a transaction. For more information, see [How to: Use Transactions to Update the Model](../modeling/how-to-use-transactions-to-update-the-model.md).  
   
 ##  <a name="docdata"></a> Document View and Document Data  
  ![Class diagram of standard diagram types](../modeling/media/dsldiagramsanddocs.png "DSLDiagramsandDocs")  
@@ -530,6 +531,6 @@ partial class MyDiagram
  <xref:Microsoft.VisualStudio.Modeling.ModelElement>   
  [Validation in a Domain-Specific Language](../modeling/validation-in-a-domain-specific-language.md)   
  [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)   
- [How to: Use Transactions to Update the Model](../modeling/how-to--use-transactions-to-update-the-model.md)   
+ [How to: Use Transactions to Update the Model](../modeling/how-to-use-transactions-to-update-the-model.md)   
  [Integrating Models by using Visual Studio Modelbus](../modeling/integrating-models-by-using-visual-studio-modelbus.md)   
  [Responding to and Propagating Changes](../modeling/responding-to-and-propagating-changes.md)

@@ -1,7 +1,7 @@
 ---
-title: "THREADPROPERTIES"
+title: "THREADPROPERTIES | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -63,7 +63,7 @@ public struct THREADPROPERTIES { 
   
 ## Members  
  dwFields  
- A combination of flags from the [THREADPROPERTY_FIELDS](../../../extensibility/debugger/reference/threadproperty_fields.md) enumeration, describing which fields in this structure are valid.  
+ A combination of flags from the [THREADPROPERTY_FIELDS](../../../extensibility/debugger/reference/threadproperty-fields.md) enumeration, describing which fields in this structure are valid.  
   
  dwThreadId  
  The thread ID.  
@@ -84,7 +84,7 @@ public struct THREADPROPERTIES { 
  The thread location (usually the topmost stack frame), typically expressed as the name of the method where execution is currently halted.  
   
 ## Remarks  
- This structure is filled in by a call to the [GetThreadProperties](../../../extensibility/debugger/reference/idebugthread2--getthreadproperties.md) method. The information so returned is typically used in populating the **Threads** window.  
+ This structure is filled in by a call to the [GetThreadProperties](../../../extensibility/debugger/reference/idebugthread2-getthreadproperties.md) method. The information so returned is typically used in populating the **Threads** window.  
   
 ## Requirements  
  Header: msdbg.h  
@@ -95,6 +95,6 @@ public struct THREADPROPERTIES { 
   
 ## See Also  
  [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)   
- [GetThreadProperties](../../../extensibility/debugger/reference/idebugthread2--getthreadproperties.md)   
- [THREADPROPERTY_FIELDS](../../../extensibility/debugger/reference/threadproperty_fields.md)   
+ [GetThreadProperties](../../../extensibility/debugger/reference/idebugthread2-getthreadproperties.md)   
+ [THREADPROPERTY_FIELDS](../../../extensibility/debugger/reference/threadproperty-fields.md)   
  [THREADSTATE](../../../extensibility/debugger/reference/threadstate.md)

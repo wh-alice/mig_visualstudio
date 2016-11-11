@@ -1,7 +1,7 @@
 ---
-title: "Save data from an object to a database"
+title: "Save data from an object to a database | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "saving data"
 ms.assetid: efd6135a-40cf-4b0d-8f8b-41a5aaea7057
 caps.latest.revision: 9
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 translation.priority.ht: 

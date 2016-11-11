@@ -1,7 +1,7 @@
 ---
-title: "Browse and rearrange code maps"
+title: "Browse and rearrange code maps | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,6 +24,7 @@ helpviewer_keywords:
   - "dependency graphs, browsing"
 ms.assetid: 08f65f77-6ca7-4b25-b060-3f6c9f5847a4
 caps.latest.revision: 91
+author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
 translation.priority.ht: 
@@ -332,4 +333,4 @@ Rearrange items on code maps to make them easier to read and improve their perfo
  [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)   
  [Find potential problems using code map analyzers](../modeling/find-potential-problems-using-code-map-analyzers.md)   
  [Customize code maps by editing the DGML files](../modeling/customize-code-maps-by-editing-the-dgml-files.md)   
- [Directed Graph Markup Language (DGML) reference](../modeling/directed-graph-markup-language--dgml--reference.md)
+ [Directed Graph Markup Language (DGML) reference](../modeling/directed-graph-markup-language-dgml-reference.md)

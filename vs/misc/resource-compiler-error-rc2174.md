@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Error RC2174"
+title: "Resource Compiler Error RC2174 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC2174"
 ms.assetid: 38cce18c-3682-40d2-a03b-752f8efb07d2
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

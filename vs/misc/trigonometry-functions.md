@@ -1,7 +1,7 @@
 ---
-title: "Trigonometry Functions"
+title: "Trigonometry Functions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "trigonometry functions sample [STL]"
 ms.assetid: 2edf51f4-f86e-4a2b-89cf-8a2c9cb8d0c6
 caps.latest.revision: 7
+author: "ghogen"
 ms.author: "ghogen"
 manager: "douge"
 translation.priority.mt: 

@@ -1,7 +1,7 @@
 ---
-title: "Addition of Pointer Types"
+title: "Addition of Pointer Types | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "+ operator, pointer types"
 ms.assetid: 6da5757a-40a5-404f-81b1-677aa3dbdec6
 caps.latest.revision: 6
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 

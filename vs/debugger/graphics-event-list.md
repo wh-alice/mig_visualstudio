@@ -1,7 +1,7 @@
 ---
-title: "Graphics Event List"
+title: "Graphics Event List | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ f1_keywords:
   - "vs.graphics.eventlist"
 ms.assetid: a1252e19-b27d-4dc7-a16b-fdac894c1f0e
 caps.latest.revision: 20
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -113,4 +114,4 @@ Use the Graphics Event List in Visual Studio Graphics Analyzer to explore the Di
  You can use any of these APIs that your version of Direct3D supports—for example, if you are targeting the Direct3D 11.1 API, you can use either `SetMarker` or `D3DPerf_SetMarker` to create an event marker, but not `SetMarkerInt` because its only available in Direct3D 11.2—and you can even mix those that support different versions of Direct3D together in the same app.  
   
 ## See Also  
- [Walkthrough: Missing Objects Due to Device State](../debugger/walkthrough--missing-objects-due-to-device-state.md)
+ [Walkthrough: Missing Objects Due to Device State](../debugger/walkthrough-missing-objects-due-to-device-state.md)

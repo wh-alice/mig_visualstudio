@@ -1,5 +1,5 @@
 ---
-title: "Attribute specifier is not a complete statement"
+title: "Attribute specifier is not a complete statement | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "BC32035"
 ms.assetid: a0ddd673-4170-4bea-9c22-777d7bf21dfd
 caps.latest.revision: 10
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 

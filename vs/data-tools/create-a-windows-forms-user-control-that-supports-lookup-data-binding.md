@@ -1,7 +1,7 @@
 ---
-title: "Create a Windows Forms user control that supports lookup data binding"
+title: "Create a Windows Forms user control that supports lookup data binding | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "user controls [Visual Basic], creating"
 ms.assetid: c48b4d75-ccfc-4950-8b14-ff8adbfe4208
 caps.latest.revision: 14
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 translation.priority.ht: 

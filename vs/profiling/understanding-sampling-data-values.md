@@ -1,7 +1,7 @@
 ---
-title: "Understanding Sampling Data Values"
+title: "Understanding Sampling Data Values | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "Profiling Tools, sampling"
 ms.assetid: fad540a8-24b6-4ff9-91ce-e67e9a58399d
 caps.latest.revision: 22
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -64,5 +65,5 @@ The *sampling* profiling method of the [!INCLUDE[vsprvs](../code-quality/include
  The percentage of the total number of exclusive samples in the profiling run that are exclusive samples of the function or data range.  
   
 ## See Also  
- [How to: Choose Collection Methods](../profiling/how-to--choose-collection-methods.md)   
+ [How to: Choose Collection Methods](../profiling/how-to-choose-collection-methods.md)   
  [Analyzing Performance Tools Data](../profiling/analyzing-performance-tools-data.md)

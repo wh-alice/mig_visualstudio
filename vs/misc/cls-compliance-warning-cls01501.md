@@ -1,7 +1,7 @@
 ---
-title: "CLS Compliance Warning CLS01501"
+title: "CLS Compliance Warning CLS01501 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CLS01501"
 ms.assetid: 74361331-3773-48d5-8508-0113f5464a75
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 
@@ -49,4 +50,4 @@ translation.priority.mt:
         instance vararg void  .ctor() cil managed  
 ```  
   
- You can resolve CLS01501 by using a parameter array.  See [Variable Argument Lists (...) (C++/CLI)](../Topic/Variable%20Argument%20Lists%20\(...\)%20\(C++-CLI\).md) for more information.
+ You can resolve CLS01501 by using a parameter array.  See [Variable Argument Lists (...) (C++/CLI)](/visual-cpp/windows/variable-argument-lists-dot-dot-dot-cpp-cli) for more information.

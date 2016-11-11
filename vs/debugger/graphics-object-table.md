@@ -1,7 +1,7 @@
 ---
-title: "Graphics Object Table"
+title: "Graphics Object Table | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ f1_keywords:
   - "vs.graphics.bufferviewer"
 ms.assetid: f48f62d9-16ff-4a2e-8c01-5cbe99513788
 caps.latest.revision: 16
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -122,4 +123,4 @@ The Graphics Object Table in Visual Studio Graphics Analysis helps you understan
   
 ## See Also  
  [Graphics Diagnostics (Debugging DirectX Graphics)](../debugger/visual-studio-graphics-diagnostics.md)   
- [Walkthrough: Missing Objects Due to Device State](../debugger/walkthrough--missing-objects-due-to-device-state.md)
+ [Walkthrough: Missing Objects Due to Device State](../debugger/walkthrough-missing-objects-due-to-device-state.md)

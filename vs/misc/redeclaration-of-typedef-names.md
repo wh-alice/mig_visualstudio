@@ -1,7 +1,7 @@
 ---
-title: "Redeclaration of typedef Names"
+title: "Redeclaration of typedef Names | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "redeclaration of typedef names"
 ms.assetid: 57ec880a-52b3-4466-999c-8ded4fed9116
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 

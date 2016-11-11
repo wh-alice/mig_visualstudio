@@ -1,7 +1,7 @@
 ---
-title: "How to create and apply a resource"
+title: "How to create and apply a resource | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,6 +14,7 @@ f1_keywords:
   - "VS.XamlDesigner.EditResource"
 ms.assetid: 3ff4006d-659d-4073-9a41-06ff85e6cfdf
 caps.latest.revision: 13
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

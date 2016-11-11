@@ -1,7 +1,7 @@
 ---
-title: "Install And Configure Tools to Build using iOS"
+title: "Install And Configure Tools to Build using iOS | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ dev_langs:
   - "C++"
 ms.assetid: d0c311c9-9eb9-42c5-ba07-25604362cd28
 caps.latest.revision: 11
+author: "BrianPeek"
 ms.author: "brpeek"
 manager: "ghogen"
 translation.priority.ht: 
@@ -91,7 +92,7 @@ You can use Visual C++ for Cross-Platform Mobile Development to edit, debug and 
 ##  <a name="Install"></a> Install the remote agent for iOS  
  When you install Visual C++ for Cross-Platform Mobile Development, Visual Studio can communicate with [vcremote](http://go.microsoft.com/fwlink/p/?LinkId=534988), a remote agent running on your Mac to transfer files, build and run your iOS app, and send debugging commands.  
   
- Before you install the remote agent, make sure you have satisfied the [Prerequisites](#Prerequisites) and installed [Visual C++ for Cross-Platform Mobile Development](../cross-platform/install-visual-c---for-cross-platform-mobile-development.md#InstallTheTools).  
+ Before you install the remote agent, make sure you have satisfied the [Prerequisites](#Prerequisites) and installed [Visual C++ for Cross-Platform Mobile Development](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md#InstallTheTools).  
   
 ###  <a name="DownloadInstall"></a> To download and install the remote agent  
   
@@ -251,4 +252,4 @@ You can use Visual C++ for Cross-Platform Mobile Development to edit, debug and 
      where *config_file_path* is the path to a configuration file in JSON format. The startup options and their values must not include dashes.  
   
 ## See Also  
- [Install Visual C++ for Cross-Platform Mobile Development](../cross-platform/install-visual-c---for-cross-platform-mobile-development.md)
+ [Install Visual C++ for Cross-Platform Mobile Development](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md)

@@ -1,7 +1,7 @@
 ---
-title: "How delete Works"
+title: "How delete Works | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "delete keyword [C++], how delete works"
 ms.assetid: de316198-43f0-4ecb-b158-e9176e21694a
 caps.latest.revision: 9
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -33,7 +34,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # How delete Works
-This content has moved [delete Operator](../Topic/delete%20Operator%20\(C++\).md).  
+This content has moved [delete Operator](/visual-cpp/cpp/delete-operator-cpp).  
   
 ## See Also  
- [Expressions with Unary Operators](../Topic/Expressions%20with%20Unary%20Operators.md)
+ [Expressions with Unary Operators](/visual-cpp/cpp/expressions-with-unary-operators)

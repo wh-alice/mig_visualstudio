@@ -1,7 +1,7 @@
 ---
-title: "Replace In Files Command"
+title: "Replace In Files Command | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "ReplaceInFiles command"
 ms.assetid: f116066a-4f65-4f2c-94ef-12cbd8cfb598
 caps.latest.revision: 12
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

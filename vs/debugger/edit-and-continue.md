@@ -1,7 +1,7 @@
 ---
-title: "Edit and Continue"
+title: "Edit and Continue | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,6 +25,7 @@ helpviewer_keywords:
   - "debugger, tools for debugging"
 ms.assetid: 2cdd4531-7117-4221-a809-8447812de2a1
 caps.latest.revision: 24
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -49,19 +50,19 @@ Edit and Continue is a time-saving feature that enables you to make changes to y
   
  [How to: Apply Code Changes Explicitly](http://msdn.microsoft.com/en-us/89c4fce9-a3ef-432d-a840-67840b1c4be8)  
   
- [How to: Enable and Disable Edit and Continue](../debugger/how-to--enable-and-disable-edit-and-continue.md)  
+ [How to: Enable and Disable Edit and Continue](../debugger/how-to-enable-and-disable-edit-and-continue.md)  
   
- [How to: Stop Code Changes](../debugger/how-to--stop-code-changes.md)  
+ [How to: Stop Code Changes](../debugger/how-to-stop-code-changes.md)  
   
  [Point of Execution](http://msdn.microsoft.com/en-us/dd9855a7-b536-4e76-821f-27017829b996)  
   
- [Edit and Continue (Visual C++)](../debugger/edit-and-continue--visual-c---.md)  
+ [Edit and Continue (Visual C++)](../debugger/edit-and-continue-visual-cpp.md)  
   
- [Edit and Continue (Visual C#)](../debugger/edit-and-continue--visual-csharp-.md)  
+ [Edit and Continue (Visual C#)](../debugger/edit-and-continue-visual-csharp.md)  
   
- [Edit and Continue (Visual Basic)](../debugger/edit-and-continue--visual-basic-.md)  
+ [Edit and Continue (Visual Basic)](../debugger/edit-and-continue-visual-basic.md)  
   
- [Edit and Continue Not Supported for F#](../debugger/edit-and-continue-not-supported-for-fsharp.md)  
+ [Edit and Continue Not Supported for F#](../debugger/edit-and-continue-not-supported-for-f-hash.md)  
   
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   

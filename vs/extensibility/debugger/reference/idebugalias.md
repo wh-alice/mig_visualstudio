@@ -1,7 +1,7 @@
 ---
-title: "IDebugAlias"
+title: "IDebugAlias | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -48,17 +48,17 @@ IDebugAlias : IUnknown
  The expression evaluator (EE) implements this interface to support numerical aliases for variables.  
   
 ## Notes for Callers  
- [CreateAlias](../../../extensibility/debugger/reference/idebugobject2--createalias.md) creates an alias for a particular object. To search for aliases, use [FindAlias](../../../extensibility/debugger/reference/idebugbinder3--findalias.md) or [GetAllAliases](../../../extensibility/debugger/reference/idebugbinder3--getallaliases.md).  
+ [CreateAlias](../../../extensibility/debugger/reference/idebugobject2-createalias.md) creates an alias for a particular object. To search for aliases, use [FindAlias](../../../extensibility/debugger/reference/idebugbinder3-findalias.md) or [GetAllAliases](../../../extensibility/debugger/reference/idebugbinder3-getallaliases.md).  
   
 ## Methods in Vtable Order  
  The following methods are defined in the `IDebugAlias` interface.  
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetObject](../../../extensibility/debugger/reference/idebugalias--getobject.md)|Gets the object to which this alias refers.|  
-|[GetName](../../../extensibility/debugger/reference/idebugalias--getname.md)|Gets the alias name.|  
-|[GetICorDebugValue](../../../extensibility/debugger/reference/idebugalias--geticordebugvalue.md)|Retrieves an `ICorDebugValue` interface that provides access to managed code information about this object (managed code only).|  
-|[Dispose](../../../extensibility/debugger/reference/idebugalias--dispose.md)|Marks this alias as no longer being used.|  
+|[GetObject](../../../extensibility/debugger/reference/idebugalias-getobject.md)|Gets the object to which this alias refers.|  
+|[GetName](../../../extensibility/debugger/reference/idebugalias-getname.md)|Gets the alias name.|  
+|[GetICorDebugValue](../../../extensibility/debugger/reference/idebugalias-geticordebugvalue.md)|Retrieves an `ICorDebugValue` interface that provides access to managed code information about this object (managed code only).|  
+|[Dispose](../../../extensibility/debugger/reference/idebugalias-dispose.md)|Marks this alias as no longer being used.|  
   
 ## Remarks  
  An alias is a decimal number in string form followed by the # character, for example, 1001#.  
@@ -72,6 +72,6 @@ IDebugAlias : IUnknown
   
 ## See Also  
  [Expression Evaluation Interfaces](../../../extensibility/debugger/reference/expression-evaluation-interfaces.md)   
- [CreateAlias](../../../extensibility/debugger/reference/idebugobject2--createalias.md)   
- [FindAlias](../../../extensibility/debugger/reference/idebugbinder3--findalias.md)   
- [GetAllAliases](../../../extensibility/debugger/reference/idebugbinder3--getallaliases.md)
+ [CreateAlias](../../../extensibility/debugger/reference/idebugobject2-createalias.md)   
+ [FindAlias](../../../extensibility/debugger/reference/idebugbinder3-findalias.md)   
+ [GetAllAliases](../../../extensibility/debugger/reference/idebugbinder3-getallaliases.md)

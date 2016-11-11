@@ -1,7 +1,7 @@
 ---
-title: "XML Schemas Dialog Box"
+title: "XML Schemas Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0271fa26-2205-49bd-96e0-ae1441571808
 caps.latest.revision: 2
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -57,5 +58,5 @@ The **XML Schemas** dialog box is used to select which XML schema definition lan
   
 ## See Also  
  [XML Editor Components](../xml-tools/xml-editor-components.md)   
- [How to: Select the XML Schemas to Use](../xml-tools/how-to--select-the-xml-schemas-to-use.md)   
+ [How to: Select the XML Schemas to Use](../xml-tools/how-to-select-the-xml-schemas-to-use.md)   
  [Schema Cache](../xml-tools/schema-cache.md)

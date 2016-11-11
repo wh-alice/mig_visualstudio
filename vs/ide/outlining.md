@@ -1,7 +1,7 @@
 ---
-title: "Outlining"
+title: "Outlining | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "outlining code"
 ms.assetid: d1476758-9d35-4d74-b63c-310661932ecd
 caps.latest.revision: 34
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -62,4 +63,4 @@ You can choose to hide some code from view by collapsing a region of code so tha
 |Collapse Block:\<logical boundary>|(Visual C++) Collapses a region in the function containing the insertion point. For example, if the insertion point lies inside a loop, the loop is hidden.|  
 |Collapse All in: \<logical structures>|(Visual C++) Collapses all the structures inside the function.|  
   
- You can also use the Visual Studio SDK to define the text regions you want to expand or collapse. See [Walkthrough: Outlining](../extensibility/walkthrough--outlining.md).
+ You can also use the Visual Studio SDK to define the text regions you want to expand or collapse. See [Walkthrough: Outlining](../extensibility/walkthrough-outlining.md).

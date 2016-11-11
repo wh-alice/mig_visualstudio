@@ -1,7 +1,7 @@
 ---
-title: "Debugger Basics"
+title: "Debugger Basics | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "debugger, roadmap"
 ms.assetid: 4da42a10-384d-44d7-b4dc-032202ff784b
 caps.latest.revision: 27
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -63,7 +64,7 @@ The Visual Studio debugger allows you to observe the run-time behavior of your p
  [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)  
  Explains how to attach to a process that is already running.  
   
- [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol--.pdb--and-source-files-in-the-visual-studio-debugger.md)  
+ [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)  
  Explains how to specify symbol and source files for debugging.  
   
  [Debug 64-Bit Applications](../debugger/debug-64-bit-applications.md)  

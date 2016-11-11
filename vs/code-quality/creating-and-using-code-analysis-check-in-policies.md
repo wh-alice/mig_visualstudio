@@ -1,7 +1,7 @@
 ---
-title: "Creating and Using Code Analysis Check-In Policies"
+title: "Creating and Using Code Analysis Check-In Policies | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,8 +13,9 @@ helpviewer_keywords:
   - "code analysis, check-in policies"
 ms.assetid: 3fa5a849-e05f-4e31-8ba3-b014c889d94d
 caps.latest.revision: 39
-ms.author: "susanno"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"
@@ -41,7 +42,7 @@ When you use Team Foundation Version Control (TFVC), you can create a code analy
  You create code analysis check-in policies by using the Team Project Settings of [!INCLUDE[esprscc](../code-quality/includes/esprscc_md.md)]. Check-in policies are specified and enforced for a team project, but code analysis runs are configured and run for individual code projects on local development computers. This section describes how to specify code analysis check-in policies for a team project and how to implement custom code analysis policies for managed code.  
   
 ## In This Section  
- [How to: Create or Update Standard Code Analysis Check-in Policies](../code-quality/how-to--create-or-update-standard-code-analysis-check-in-policies.md)  
+ [How to: Create or Update Standard Code Analysis Check-in Policies](../code-quality/how-to-create-or-update-standard-code-analysis-check-in-policies.md)  
  Explains the steps that you use to set and modify a code analysis policy for a team project.  
   
  [Implementing Custom Check-in Policies for Managed Code](../code-quality/implementing-custom-code-analysis-check-in-policies-for-managed-code.md)  
@@ -50,7 +51,7 @@ When you use Team Foundation Version Control (TFVC), you can create a code analy
  [Version Compatibility for Code Analysis Check-In Policies](../code-quality/version-compatibility-for-code-analysis-check-in-policies.md)  
  Explains code analysis check-in compatibility issues between versions of [!INCLUDE[vstsLong](../code-quality/includes/vstslong_md.md)].  
   
- [How to: Customize the Code Analysis Dictionary](../code-quality/how-to--customize-the-code-analysis-dictionary.md)  
+ [How to: Customize the Code Analysis Dictionary](../code-quality/how-to-customize-the-code-analysis-dictionary.md)  
  Explains how to add words and tokens to the dictionary that is referenced in code analysis naming rules.  
   
 ## Related Sections  

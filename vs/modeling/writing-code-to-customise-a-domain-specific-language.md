@@ -1,7 +1,7 @@
 ---
-title: "Writing Code to Customise a Domain-Specific Language"
+title: "Writing Code to Customise a Domain-Specific Language | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, programming"
 ms.assetid: a4a17f5b-9c97-4575-b2d1-3182c1896b72
 caps.latest.revision: 29
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 translation.priority.mt: 
@@ -33,7 +34,7 @@ This section shows you how to use custom code to access, modify, or create a mod
   
  There are several contexts in which you can write code that works with a DSL:  
   
--   **Custom commands.** You can create a command that users can invoke by right-clicking on the diagram, and which can modify the model. For more information, see [How to: Add a Command to the Shortcut Menu](../modeling/how-to--add-a-command-to-the-shortcut-menu.md).  
+-   **Custom commands.** You can create a command that users can invoke by right-clicking on the diagram, and which can modify the model. For more information, see [How to: Add a Command to the Shortcut Menu](../modeling/how-to-add-a-command-to-the-shortcut-menu.md).  
   
 -   **Validation.** You can write code that verifies that the model is in a correct state. For more information, see [Validation in a Domain-Specific Language](../modeling/validation-in-a-domain-specific-language.md).  
   
@@ -41,7 +42,7 @@ This section shows you how to use custom code to access, modify, or create a mod
   
 -   **Text Transformation.** You can write text templates that contain code that accesses a model and generates a text file, for example to generate program code. For more information, see [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md).  
   
--   **Other Visual Studio extensions.** You can write separate VSIX extensions that read and modify models. For more information, see [How to: Open a Model from File in Program Code](../modeling/how-to--open-a-model-from-file-in-program-code.md)  
+-   **Other Visual Studio extensions.** You can write separate VSIX extensions that read and modify models. For more information, see [How to: Open a Model from File in Program Code](../modeling/how-to-open-a-model-from-file-in-program-code.md)  
   
  Instances of the classes that you define in DslDefinition.dsl are kept in a data structure called the *In-Memory Store* (IMS) or *Store*. The classes you define in a DSL always take a Store as an argument to the constructor. For example, if your DSL defines a class called Example:  
   

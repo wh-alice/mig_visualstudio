@@ -1,7 +1,7 @@
 ---
-title: "Debugger Project Settings"
+title: "Debugger Project Settings | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,6 +22,7 @@ helpviewer_keywords:
   - "debugging [Visual Studio], project settings"
 ms.assetid: 5e1b2a30-d2db-49e8-aba3-2d3a190eea80
 caps.latest.revision: 17
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -45,16 +46,16 @@ Certain project settings also affect debugging. These settings determine such th
  This section describes what options are available, and how to set them.  
   
 ## In This Section  
- [How to: Specify Debugger Settings](../debugger/how-to--specify-debugger-settings.md)  
+ [How to: Specify Debugger Settings](../debugger/how-to-specify-debugger-settings.md)  
  Describes debugger settings in the **Options** dialog box.  
   
- [How to: Set Debug and Release Configurations](../debugger/how-to--set-debug-and-release-configurations.md)  
+ [How to: Set Debug and Release Configurations](../debugger/how-to-set-debug-and-release-configurations.md)  
  Describes the **Debug** and **Release** settings, and how to switch between them.  
   
- [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-c---debug-configuration.md)  
+ [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)  
  Lists properties available in the **Property Pages** dialog box for C or C++ projects.  
   
- [Project Settings for  C# Debug Configurations](../debugger/project-settings-for--csharp-debug-configurations.md)  
+ [Project Settings for  C# Debug Configurations](../debugger/project-settings-for-csharp-debug-configurations.md)  
  Lists properties available in the **Property Pages** dialog box for C# projects.  
   
  [Property Pages Settings for Web Projects](../debugger/property-pages-settings-for-web-projects.md)  
@@ -64,7 +65,7 @@ Certain project settings also affect debugging. These settings determine such th
  Lists properties available in the **Property Pages** dialog box for [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] projects.  
   
 ## Related Sections  
- [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol--.pdb--and-source-files-in-the-visual-studio-debugger.md)  
+ [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)  
  Describes how the debugger uses symbol files and source files to display information for debugging.  
   
  [Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md)  

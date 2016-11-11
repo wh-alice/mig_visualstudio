@@ -1,7 +1,7 @@
 ---
-title: "Open a UML model by using the Visual Studio API"
+title: "Open a UML model by using the Visual Studio API | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ helpviewer_keywords:
   - "UML API, opening models in Visual Studio"
 ms.assetid: 38423682-f2a7-4d2a-a2cd-fd680e9b4b4d
 caps.latest.revision: 15
+author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
 translation.priority.ht: 

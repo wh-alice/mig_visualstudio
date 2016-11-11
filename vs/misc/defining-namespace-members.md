@@ -1,7 +1,7 @@
 ---
-title: "Defining namespace Members"
+title: "Defining namespace Members | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "defining namespace members"
 ms.assetid: 28828e00-e753-41bd-8bfe-7c030621308e
 caps.latest.revision: 6
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -34,4 +35,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Defining namespace Members
-This content has moved to [Namespaces](../Topic/Namespaces%20\(C++\).md).
+This content has moved to [Namespaces](/visual-cpp/cpp/namespaces-cpp).

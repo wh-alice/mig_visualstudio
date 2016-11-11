@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB2007"
+title: "MSBuild Error MSB2007 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB2007"
 ms.assetid: 1a50cdf2-4512-4189-aeed-9ec89b5481a8
 caps.latest.revision: 11
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

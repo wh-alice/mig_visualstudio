@@ -1,7 +1,7 @@
 ---
-title: "Setting a Background Image on a Diagram"
+title: "Setting a Background Image on a Diagram | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e334a24c-8521-4072-b50f-e59158dde145
 caps.latest.revision: 2
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 ---

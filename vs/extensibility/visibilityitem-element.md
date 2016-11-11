@@ -1,7 +1,7 @@
 ---
-title: "VisibilityItem Element"
+title: "VisibilityItem Element | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,9 +32,9 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # VisibilityItem Element
-The `VisibilityItem` element determines the static visibility of commands and toolbars. Every entry identifies a command or menu, and also an associated command UI context. Visual Studio detects commands, menus, and toolbars, and their visibility, without loading the VSPackages that define them. The IDE uses the <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.IsCmdUIContextActive*> method to determine whether a command UI context is active.  
+The `VisibilityItem` element determines the static visibility of commands and toolbars. Every entry identifies a command or menu, and also an associated command UI context. Visual Studio detects commands, menus, and toolbars, and their visibility, without loading the VSPackages that define them. The IDE uses the <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.IsCmdUIContextActive%2A> method to determine whether a command UI context is active.  
   
- After the VSPackage is loaded, Visual Studio expects command visibility to be determined by the VSPackage rather than the `VisibilityItem`. To determine your command's visibility, you can implement either the <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.BeforeQueryStatus> event handler or the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus*> method, depending on how you have implemented your command.  
+ After the VSPackage is loaded, Visual Studio expects command visibility to be determined by the VSPackage rather than the `VisibilityItem`. To determine your command's visibility, you can implement either the <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.BeforeQueryStatus> event handler or the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus%2A> method, depending on how you have implemented your command.  
   
  A command or menu that has a `VisibilityItem` element appears only when the associated context is active. You can associate a single command, menu, or toolbar with one or more command UI contexts by including an entry for each command-context combination. If a command or menu is associated with multiple command UI contexts, then the command or menu is visible when any one of the associated command UI contexts is active.  
   
@@ -83,10 +83,10 @@ The `VisibilityItem` element determines the static visibility of commands and to
 ```  
   
 ## See Also  
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.IsCmdUIContextActive*>   
+ <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.IsCmdUIContextActive%2A>   
  <xref:Microsoft.VisualStudio.Shell.OleMenuCommand.BeforeQueryStatus>   
  <xref:Microsoft.VisualStudio.VSConstants>   
  <xref:Microsoft.VisualStudio.Shell.Interop.UIContextGuids>   
  <xref:Microsoft.VisualStudio.Shell.Interop.UIContextGuids80>   
  [VisibilityConstraints Element](../extensibility/visibilityconstraints-element.md)   
- [Visual Studio Command Table (.Vsct) Files](../Topic/Visual%20Studio%20Command%20Table%20\(.Vsct\)%20Files.md)
+ [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

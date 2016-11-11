@@ -1,7 +1,7 @@
 ---
-title: "Alias Command"
+title: "Alias Command | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "alias command"
 ms.assetid: bdf857df-b5d5-450f-8c10-a6fd4dccc130
 caps.latest.revision: 12
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

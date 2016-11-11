@@ -1,7 +1,7 @@
 ---
-title: "Generating Code from a Domain-Specific Language"
+title: "Generating Code from a Domain-Specific Language | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e3706cc9-2afd-456a-a879-68425a248ebc
 caps.latest.revision: 13
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 ---
@@ -36,11 +37,11 @@ Microsoft [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] provides a powerful wa
   
  Provides basic information about referring to domain-specific language in text templates.  
   
- [Walkthrough: Debugging a Text Template that Accesses a Model](../modeling/walkthrough--debugging-a-text-template-that-accesses-a-model.md)  
+ [Walkthrough: Debugging a Text Template that Accesses a Model](../modeling/walkthrough-debugging-a-text-template-that-accesses-a-model.md)  
   
  Describes how to do troubleshooting and debugging on a text template that refers to a domain-specific language.  
   
- [Walkthrough: Connecting a Host to a Generated Directive Processor](../modeling/walkthrough--connecting-a-host-to-a-generated-directive-processor.md)  
+ [Walkthrough: Connecting a Host to a Generated Directive Processor](../modeling/walkthrough-connecting-a-host-to-a-generated-directive-processor.md)  
   
  Describes how to connect a custom host to a generated directive processor.  
   

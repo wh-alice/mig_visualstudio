@@ -1,7 +1,7 @@
 ---
-title: "Adding Items to the Add New Item Dialog Boxes"
+title: "Adding Items to the Add New Item Dialog Boxes | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -61,7 +61,7 @@ The process for adding items to the **Add New Item** dialog box starts with the 
   
  Typically, this folder will contain the template files for your project such as a template HTML or .cpp file, and any .vsz files for starting wizards. To control how the items are displayed, you can also include .vsdir files for localizing directory names and icons. The localized string is the caption that appears in the dialog box that represents this node in the Add New Item dialog tree.  
   
- However, you do not have to have everything in one .vsdir file. You can have one .vsdir file for every item in the directory. For more information, see [Wizard (.Vsz) File](../../extensibility/internals/wizard--.vsz--file.md) and [Template Directory Description (.Vsdir) Files](../../extensibility/internals/template-directory-description--.vsdir--files.md).  
+ However, you do not have to have everything in one .vsdir file. You can have one .vsdir file for every item in the directory. For more information, see [Wizard (.Vsz) File](../../extensibility/internals/wizard-dot-vsz-file.md) and [Template Directory Description (.Vsdir) Files](../../extensibility/internals/template-directory-description-dot-vsdir-files.md).  
   
 > [!NOTE]
 >  The .vsdir files in the template directories are optional. If you just want to put a project element in the directory and display it in the **Add New Item** dialog box, you can put that file in the templates directory specified in the TemplatesDir statement. The file will then be displayed in the right pane of the **Add New Item** dialog box for that project. However, if you want to display a localized caption for the file or an icon, you must include at least one .vsdir file in the templates directory.  
@@ -93,5 +93,5 @@ The process for adding items to the **Add New Item** dialog box starts with the 
  [Registering Project and Item Templates](../../extensibility/internals/registering-project-and-item-templates.md)   
  [CATIDs for Objects That Are Typically Used to Extend Projects](../../extensibility/internals/catids-for-objects-that-are-typically-used-to-extend-projects.md)   
  [Adding Project and Project Item Templates](../../extensibility/internals/adding-project-and-project-item-templates.md)   
- [Template Directory Description (.Vsdir) Files](../../extensibility/internals/template-directory-description--.vsdir--files.md)   
- [Wizard (.Vsz) File](../../extensibility/internals/wizard--.vsz--file.md)
+ [Template Directory Description (.Vsdir) Files](../../extensibility/internals/template-directory-description-dot-vsdir-files.md)   
+ [Wizard (.Vsz) File](../../extensibility/internals/wizard-dot-vsz-file.md)

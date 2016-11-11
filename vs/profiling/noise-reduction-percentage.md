@@ -1,7 +1,7 @@
 ---
-title: "Noise Reduction Percentage"
+title: "Noise Reduction Percentage | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Concurrency Visualizer, Noise Reduction Percentage"
 ms.assetid: 1c10cd4c-2fdd-48c9-b562-a334b3b2df6c
 caps.latest.revision: 6
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

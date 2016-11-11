@@ -1,7 +1,7 @@
 ---
-title: "FindAppConfigFile Task"
+title: "FindAppConfigFile Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "MSBuild, FindAppConfigFile task"
 ms.assetid: e292de3e-7482-4426-83ce-d921061808bf
 caps.latest.revision: 5
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

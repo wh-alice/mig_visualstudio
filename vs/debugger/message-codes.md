@@ -1,7 +1,7 @@
 ---
-title: "Message Codes"
+title: "Message Codes | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "message codes"
 ms.assetid: 9f91f4e2-c1f1-4349-9f11-2fbbf59654be
 caps.latest.revision: 4
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

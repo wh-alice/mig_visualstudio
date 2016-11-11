@@ -1,7 +1,7 @@
 ---
-title: "Pointers to Members and Virtual Functions"
+title: "Pointers to Members and Virtual Functions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "virtual functions, pointers to"
 ms.assetid: 46f85947-84eb-4415-8c50-1d8a6132de59
 caps.latest.revision: 8
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -35,7 +36,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Pointers to Members and Virtual Functions
-This content has moved to [Pointers to Members](../Topic/Pointers%20to%20Members.md)  
+This content has moved to [Pointers to Members](/visual-cpp/cpp/pointers-to-members)  
   
 ## Remarks  
   

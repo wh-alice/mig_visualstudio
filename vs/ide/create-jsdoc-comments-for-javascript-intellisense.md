@@ -1,7 +1,7 @@
 ---
-title: "Create JSDoc Comments for JavaScript IntelliSense"
+title: "Create JSDoc Comments for JavaScript IntelliSense | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a0dadc81-3755-4a47-bcee-c1010819ff2a
 caps.latest.revision: 4
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
-title: "Legacy Language Service Features2"
+title: "Legacy Language Service Features2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -54,7 +54,7 @@ The following topics list some of the legacy language service features you can p
  [Outlining and Hidden Text in a Legacy Language Service](../../extensibility/internals/outlining-and-hidden-text-in-a-legacy-language-service.md)  
  Explains how to implement outlining or hidden text.  
   
- [How to: Provide Expanded Outlining Support in a Legacy Language Service](../../extensibility/internals/how-to--provide-expanded-outlining-support-in-a-legacy-language-service.md)  
+ [How to: Provide Expanded Outlining Support in a Legacy Language Service](../../extensibility/internals/how-to-provide-expanded-outlining-support-in-a-legacy-language-service.md)  
  Explains some of the steps in implementing debugger support..  
   
 ## Related Sections

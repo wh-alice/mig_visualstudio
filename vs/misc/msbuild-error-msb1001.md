@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB1001"
+title: "MSBuild Error MSB1001 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB1001"
 ms.assetid: 23fc80ea-9a44-4d96-8de7-2453c70a6301
 caps.latest.revision: 9
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

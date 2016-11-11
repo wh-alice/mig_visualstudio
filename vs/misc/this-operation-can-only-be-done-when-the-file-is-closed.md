@@ -1,5 +1,5 @@
 ---
-title: "This operation can only be done when the File is closed"
+title: "This operation can only be done when the File is closed | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 79fe95ae-4aff-469f-beda-d5a85c91d421
 caps.latest.revision: 9
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -38,5 +39,5 @@ When a file is open, an attempt has been made to perform an operation that can o
   
 ## See Also  
  <xref:System.Security.Permissions.FileIOPermission>   
- <xref:Microsoft.VisualBasic.FileSystem.FileClose*>   
+ <xref:Microsoft.VisualBasic.FileSystem.FileClose%2A>   
  [How to: Get Information About a File in Visual Basic](http://msdn.microsoft.com/en-us/ca0720ec-f40e-4c11-9748-0ce1685c78f0)

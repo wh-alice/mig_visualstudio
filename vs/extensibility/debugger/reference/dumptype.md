@@ -1,7 +1,7 @@
 ---
-title: "DUMPTYPE"
+title: "DUMPTYPE | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -60,7 +60,7 @@ public enum enum_DUMPTYPE { 
  Specifies a large, complete dump.  
   
 ## Remarks  
- Passed as an argument to the [WriteDump](../../../extensibility/debugger/reference/idebugprogram2--writedump.md) method.  
+ Passed as an argument to the [WriteDump](../../../extensibility/debugger/reference/idebugprogram2-writedump.md) method.  
   
 ## Requirements  
  Header: msdbg.h  
@@ -70,5 +70,5 @@ public enum enum_DUMPTYPE { 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll  
   
 ## See Also  
- [Enumerations](../../../extensibility/debugger/reference/enumerations--visual-studio-debugging-.md)   
- [WriteDump](../../../extensibility/debugger/reference/idebugprogram2--writedump.md)
+ [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)   
+ [WriteDump](../../../extensibility/debugger/reference/idebugprogram2-writedump.md)

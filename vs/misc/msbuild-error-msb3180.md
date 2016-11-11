@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB3180"
+title: "MSBuild Error MSB3180 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB3180"
 ms.assetid: 98d8cb76-6176-4121-82ee-8a297d9deebc
 caps.latest.revision: 9
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -45,4 +46,4 @@ translation.priority.mt:
 -   Remove one of the duplicate COM references.  
   
 ## See Also  
- [\<PackageFiles> Element](../deployment/-packagefiles--element--bootstrapper-.md)
+ [\<PackageFiles> Element](../deployment/packagefiles-element-bootstrapper.md)

@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Error RC2021"
+title: "Resource Compiler Error RC2021 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC2021"
 ms.assetid: a7cf7e76-b4c5-4750-901f-954a8046c961
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

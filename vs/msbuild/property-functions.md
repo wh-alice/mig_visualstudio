@@ -1,7 +1,7 @@
 ---
-title: "Property Functions"
+title: "Property Functions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "MSBuild, property functions"
 ms.assetid: 2253956e-3ae0-4bdc-9d3a-4881dfae4ddb
 caps.latest.revision: 33
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

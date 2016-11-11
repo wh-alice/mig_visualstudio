@@ -1,7 +1,7 @@
 ---
-title: "Evaluating a Watch Expression"
+title: "Evaluating a Watch Expression | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ translation.priority.mt:
 > [!IMPORTANT]
 >  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
   
- When Visual Studio is ready to display the value of a watch expression, it calls [EvaluateSync](../../extensibility/debugger/reference/idebugexpression2--evaluatesync.md) which in turn calls [EvaluateSync](../../extensibility/debugger/reference/idebugparsedexpression--evaluatesync.md). This produces an [IDebugProperty2](../../extensibility/debugger/reference/idebugproperty2.md) object that contains the value and type of the expression.  
+ When Visual Studio is ready to display the value of a watch expression, it calls [EvaluateSync](../../extensibility/debugger/reference/idebugexpression2-evaluatesync.md) which in turn calls [EvaluateSync](../../extensibility/debugger/reference/idebugparsedexpression-evaluatesync.md). This produces an [IDebugProperty2](../../extensibility/debugger/reference/idebugproperty2.md) object that contains the value and type of the expression.  
   
  In this implementation of `IDebugParsedExpression::EvaluateSync`, the expression is parsed and evaluated at the same time. This implementation performs the following tasks:  
   

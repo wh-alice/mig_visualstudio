@@ -1,7 +1,7 @@
 ---
-title: "API Reference for UML Modeling Extensibility"
+title: "API Reference for UML Modeling Extensibility | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "UML model, API"
 ms.assetid: 2b2ffe93-c358-4d28-a5e5-3d0474629b58
 caps.latest.revision: 9
+author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
 translation.priority.ht: 

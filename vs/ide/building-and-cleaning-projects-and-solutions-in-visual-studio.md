@@ -1,7 +1,7 @@
 ---
-title: "Building and Cleaning Projects and Solutions in Visual Studio"
+title: "Building and Cleaning Projects and Solutions in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,6 +25,7 @@ helpviewer_keywords:
   - "builds [Visual Studio], preparing"
 ms.assetid: 710891fd-379e-42c2-a84b-44a7af694ca0
 caps.latest.revision: 35
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -44,7 +45,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Building and Cleaning Projects and Solutions in Visual Studio
-By using the procedures in this topic, you can build, rebuild, or clean all or some of the projects or project items in a solution. For a step-by-step tutorial, see [Walkthrough: Building an Application](../ide/walkthrough--building-an-application.md).  
+By using the procedures in this topic, you can build, rebuild, or clean all or some of the projects or project items in a solution. For a step-by-step tutorial, see [Walkthrough: Building an Application](../ide/walkthrough-building-an-application.md).  
   
 > [!NOTE]
 >  The UI in your edition of Visual Studio might differ from what this topic describes, depending on your active settings. To change your settings, open the **Tools** menu, and then choose **Import and Export Settings**. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
@@ -121,11 +122,11 @@ By using the procedures in this topic, you can build, rebuild, or clean all or s
     -   Choose the Ctrl + Break keys.  
   
 ## See Also  
- [How to: View, Save, and Configure Build Log Files](../ide/how-to--view--save--and-configure-build-log-files.md)   
+ [How to: View, Save, and Configure Build Log Files](../ide/how-to-view-save-and-configure-build-log-files.md)   
  [Obtaining Build Logs](../msbuild/obtaining-build-logs-with-msbuild.md)   
  [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)   
  [Understanding Build Configurations](../ide/understanding-build-configurations.md)   
  [Debug and Release Project Configurations](http://msdn.microsoft.com/en-us/0440b300-0614-4511-901a-105b771b236e)   
- [C/C++ Building Reference](../Topic/C-C++%20Building%20Reference.md)   
+ [C/C++ Building Reference](/visual-cpp/build/reference/c-cpp-building-reference)   
  [Devenv Command Line Switches](../ide/reference/devenv-command-line-switches.md)   
  [Solutions and Projects](../ide/solutions-and-projects-in-visual-studio.md)

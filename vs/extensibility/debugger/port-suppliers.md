@@ -1,7 +1,7 @@
 ---
-title: "Port Suppliers"
+title: "Port Suppliers | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -40,13 +40,13 @@ In terms of the debugger architecture, a **port supplier**:
   
 -   Can enumerate all the ports it has supplied to the server.  
   
--   Is represented by an [IDebugPortSupplier2](../../extensibility/debugger/reference/idebugportsupplier2.md) interface, which is registered with Visual Studio through the registry. This interface can be obtained by calling [GetPortSupplier](../../extensibility/debugger/reference/idebugcoreserver2--getportsupplier.md).  
+-   Is represented by an [IDebugPortSupplier2](../../extensibility/debugger/reference/idebugportsupplier2.md) interface, which is registered with Visual Studio through the registry. This interface can be obtained by calling [GetPortSupplier](../../extensibility/debugger/reference/idebugcoreserver2-getportsupplier.md).  
   
  [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] provides a default port supplier and a default port. If a custom port needs to be implemented, a custom port supplier also needs to be implemented to supply those custom ports.  
   
 ## See Also  
- [Servers](../../extensibility/debugger/servers--visual-studio-sdk-.md)   
+ [Servers](../../extensibility/debugger/servers-visual-studio-sdk.md)   
  [Ports](../../extensibility/debugger/ports.md)   
  [Debugger Concepts](../../extensibility/debugger/debugger-concepts.md)   
  [IDebugPortSupplier2](../../extensibility/debugger/reference/idebugportsupplier2.md)   
- [GetPortSupplier](../../extensibility/debugger/reference/idebugcoreserver2--getportsupplier.md)
+ [GetPortSupplier](../../extensibility/debugger/reference/idebugcoreserver2-getportsupplier.md)

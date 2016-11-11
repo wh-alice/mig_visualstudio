@@ -1,7 +1,7 @@
 ---
-title: "Understanding the DSL Code"
+title: "Understanding the DSL Code | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/26/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, generated code"
 ms.assetid: 8e5c10e4-6323-433e-b88a-5d3d92639030
 caps.latest.revision: 19
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 translation.priority.mt: 
@@ -143,7 +144,7 @@ A Domain-Specific Language (DSL) solution generates an API that you can use to r
 > [!NOTE]
 >  This is not the same as the root class of the model.  
   
- Copy and Delete Closures define what other elements should be included when an element is copied or deleted. You can control this behavior by setting the **Propagates Copy** and **Propagates Delete** properties of the roles at each side of every relationship. If you want the values to be determined dynamically, you can write code to override the methods of the Closure classes. For more information see [How to: Program Copy and Paste Behavior - redirect](../misc/how-to--program-copy-and-paste-behavior---redirect.md).  
+ Copy and Delete Closures define what other elements should be included when an element is copied or deleted. You can control this behavior by setting the **Propagates Copy** and **Propagates Delete** properties of the roles at each side of every relationship. If you want the values to be determined dynamically, you can write code to override the methods of the Closure classes. For more information see [How to: Program Copy and Paste Behavior - redirect](../misc/how-to-program-copy-and-paste-behavior-redirect.md).  
   
  `DomainModelResx.resx`  
   
@@ -358,6 +359,6 @@ explorerWindow.TreeContainer.ObjectModelBrowser.SelectedNode = treeNode;
   
 ## See Also  
  [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)   
- [Understanding Models, Classes and Relationships](../modeling/understanding-models--classes-and-relationships.md)   
+ [Understanding Models, Classes and Relationships](../modeling/understanding-models-classes-and-relationships.md)   
  [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md)   
  [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)

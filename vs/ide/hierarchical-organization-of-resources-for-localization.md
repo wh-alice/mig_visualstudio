@@ -1,7 +1,7 @@
 ---
-title: "Hierarchical Organization of Resources for Localization"
+title: "Hierarchical Organization of Resources for Localization | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "resource files, fallback processes"
 ms.assetid: dadf8f2c-f74c-44d7-bec0-a1e956d8d38d
 caps.latest.revision: 8
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

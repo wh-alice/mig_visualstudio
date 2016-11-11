@@ -1,7 +1,7 @@
 ---
-title: "STEPKIND"
+title: "STEPKIND | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -70,7 +70,7 @@ public enum enum_STEPKIND { 
  Steps backward into a function.  
   
 ## Remarks  
- Passed as an argument to the [Step](../../../extensibility/debugger/reference/idebugprocess3--step.md) method.  
+ Passed as an argument to the [Step](../../../extensibility/debugger/reference/idebugprocess3-step.md) method.  
   
 ## Requirements  
  Header: msdbg.h  
@@ -80,5 +80,5 @@ public enum enum_STEPKIND { 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll  
   
 ## See Also  
- [Enumerations](../../../extensibility/debugger/reference/enumerations--visual-studio-debugging-.md)   
- [Step](../../../extensibility/debugger/reference/idebugprocess3--step.md)
+ [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)   
+ [Step](../../../extensibility/debugger/reference/idebugprocess3-step.md)

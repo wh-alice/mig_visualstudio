@@ -1,7 +1,7 @@
 ---
-title: "IDebugEvent2"
+title: "IDebugEvent2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,14 +45,14 @@ IDebugEvent2 : IUnknown
  The debug engine (DE) and custom port supplier implement this interface on the same object as all other event interfaces.  
   
 ## Notes for Callers  
- Using the interface ID (IID) argument given to [Event](../../../extensibility/debugger/reference/idebugeventcallback2--event.md) or [Event](../../../extensibility/debugger/reference/idebugportevents2--event.md), the session debug manager (SDM) calls [QueryInterface](../Topic/QueryInterface.md) on the `IDebugEvent2` interface to obtain the appropriate event interface.  
+ Using the interface ID (IID) argument given to [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md) or [Event](../../../extensibility/debugger/reference/idebugportevents2-event.md), the session debug manager (SDM) calls [QueryInterface](/visual-cpp/atl/queryinterface) on the `IDebugEvent2` interface to obtain the appropriate event interface.  
   
 ## Methods in Vtable Order  
  The following table shows the methods of `IDebugEvent2`.  
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetAttributes](../../../extensibility/debugger/reference/idebugevent2--getattributes.md)|Gets the attributes for this debug event.|  
+|[GetAttributes](../../../extensibility/debugger/reference/idebugevent2-getattributes.md)|Gets the attributes for this debug event.|  
   
 ## Remarks  
  The more specific event interfaces, such as [IDebugBreakpointEvent2](../../../extensibility/debugger/reference/idebugbreakpointevent2.md), do not derive from the IDebugEvent2 interface but are instead implemented as a separate interface on the same object as `IDebugEvent2`.  
@@ -66,5 +66,5 @@ IDebugEvent2 : IUnknown
   
 ## See Also  
  [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)   
- [Event](../../../extensibility/debugger/reference/idebugportevents2--event.md)   
- [Event](../../../extensibility/debugger/reference/idebugeventcallback2--event.md)
+ [Event](../../../extensibility/debugger/reference/idebugportevents2-event.md)   
+ [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md)

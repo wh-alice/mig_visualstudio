@@ -1,7 +1,7 @@
 ---
-title: "using Keyword"
+title: "using Keyword | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ dev_langs:
   - "C++"
 ms.assetid: e008c57c-57d4-4b66-be50-3707a5c0754c
 caps.latest.revision: 4
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -38,8 +39,8 @@ The `using` keyword has many uses in C and C++, depending on context.
   
 ## Articles about the using keyword  
   
-1.  [using Declaration](../Topic/using%20Declaration.md)  
+1.  [using Declaration](/visual-cpp/cpp/using-declaration)  
   
-2.  [using Directive](../misc/using-directive--c---.md)  
+2.  [using Directive](../misc/using-directive-cpp.md)  
   
-3.  [Aliases and typedefs](../Topic/Aliases%20and%20typedefs%20\(C++\).md)
+3.  [Aliases and typedefs](/visual-cpp/cpp/aliases-and-typedefs-cpp)

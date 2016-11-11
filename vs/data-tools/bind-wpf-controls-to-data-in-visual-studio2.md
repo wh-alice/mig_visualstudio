@@ -1,7 +1,7 @@
 ---
-title: "Bind WPF controls to data in Visual Studio2"
+title: "Bind WPF controls to data in Visual Studio2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,6 +22,7 @@ helpviewer_keywords:
   - "data binding, WPF"
 ms.assetid: 00dd5147-db0b-4b59-8d6c-8229b09ca9dd
 caps.latest.revision: 26
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 translation.priority.ht: 
@@ -135,4 +136,4 @@ You can create data-bound [!INCLUDE[TLA#tla_titlewinclient](../data-tools/includ
  [Display related data in WPF applications](../data-tools/display-related-data-in-wpf-applications.md)   
  [Bind WPF controls to a dataset](../data-tools/bind-wpf-controls-to-a-dataset.md)   
  [Bind WPF controls to a WCF data service](../data-tools/bind-wpf-controls-to-a-wcf-data-service.md)   
- [Walkthrough: Displaying Related Data in a WPF Application](../data-tools/walkthrough--displaying-related-data-in-a-wpf-application.md)
+ [Walkthrough: Displaying Related Data in a WPF Application](../data-tools/walkthrough-displaying-related-data-in-a-wpf-application.md)

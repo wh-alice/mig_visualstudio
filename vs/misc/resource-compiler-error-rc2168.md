@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Error RC2168"
+title: "Resource Compiler Error RC2168 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC2168"
 ms.assetid: d27a39e8-12ae-4823-a63a-abb0c7bb345b
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

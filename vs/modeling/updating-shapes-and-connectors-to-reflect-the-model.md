@@ -1,7 +1,7 @@
 ---
-title: "Updating Shapes and Connectors to Reflect the Model"
+title: "Updating Shapes and Connectors to Reflect the Model | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 51eb2af9-00e7-4725-a87d-62fb4f39f444
 caps.latest.revision: 6
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 ---
@@ -26,7 +27,7 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
 ## Set Shape Map properties to control the visibility of a decorator  
  You can control the visibility of a decorator without writing program code, by configuring the mapping between the shape and the domain class in the DSL Definition. For more information, see the following topics:  
   
--   [How to: Control the Visibility of a Decorator -redirect](../misc/how-to--control-the-visibility-of-a-decorator--redirect.md)  
+-   [How to: Control the Visibility of a Decorator -redirect](../misc/how-to-control-the-visibility-of-a-decorator-redirect.md)  
   
 -   [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)  
   
@@ -112,7 +113,7 @@ partial class MyLanguageDiagram
 ##  <a name="OnAssociatedProperty"></a> Use AssociateValueWith() to update other features of a shape  
  For some features of a shape, such as whether it has a shadow, or the arrow style of a connector, there is no built-in method of exposing the feature as a domain property.  Changes to such features are not under the control of the transaction system. Therefore, it is not appropriate to update them using rules, because rules are not invoked when the user performs the Undo command.  
   
- Instead, you can update such features by using <xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement.OnAssociatedPropertyChanged*>. In the following example, the arrow style of a connector is controlled by a value of a domain property in the relationship that the connector displays:  
+ Instead, you can update such features by using <xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement.OnAssociatedPropertyChanged%2A>. In the following example, the arrow style of a connector is controlled by a value of a domain property in the relationship that the connector displays:  
   
 ```  
 public partial class ArrowConnector // My connector class.   

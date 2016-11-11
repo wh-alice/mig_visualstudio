@@ -1,7 +1,7 @@
 ---
-title: "Advanced Security Settings Dialog Box"
+title: "Advanced Security Settings Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "Advanced Security Settings dialog box"
 ms.assetid: 2e7aefe9-6d20-4f3e-b257-aee1ebcc6f5d
 caps.latest.revision: 17
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -57,4 +58,4 @@ This dialog box allows you to specify security settings related to debugging in 
  If you have to allow the application to access the Web site or server share corresponding to the **Installation URL** you specified on the **Publish** page, type that URL here. This option is available only when **Grant the application access to its site of origin** is selected.  
   
 ## See Also  
- [Security Page, Project Designer](../../ide/reference/security-page--project-designer.md)
+ [Security Page, Project Designer](../../ide/reference/security-page-project-designer.md)

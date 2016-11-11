@@ -1,7 +1,7 @@
 ---
-title: "IDiaEnumSymbols"
+title: "IDiaEnumSymbols | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaEnumSymbols interface"
 ms.assetid: 649f7bfd-86ac-49a5-8533-aff77e1bc62e
 caps.latest.revision: 13
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -47,13 +48,13 @@ IDiaEnumSymbols : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[IDiaEnumSymbols::get__NewEnum](../../debugger/debug-interface-access/idiaenumsymbols--get__newenum.md)|Retrieves the `IEnumVARIANT Interface` version of this enumerator.|  
-|[IDiaEnumSymbols::get_Count](../../debugger/debug-interface-access/idiaenumsymbols--get_count.md)|Retrieves the number of symbols.|  
-|[IDiaEnumSymbols::Item](../../debugger/debug-interface-access/idiaenumsymbols--item.md)|Retrieves a symbol by means of an index.|  
-|[IDiaEnumSymbols::Next](../../debugger/debug-interface-access/idiaenumsymbols--next.md)|Retrieves a specified number of symbols in the enumeration sequence.|  
-|[IDiaEnumSymbols::Skip](../../debugger/debug-interface-access/idiaenumsymbols--skip.md)|Skips a specified number of symbols in an enumeration sequence.|  
-|[IDiaEnumSymbols::Reset](../../debugger/debug-interface-access/idiaenumsymbols--reset.md)|Resets an enumeration sequence to the beginning.|  
-|[IDiaEnumSymbols::Clone](../../debugger/debug-interface-access/idiaenumsymbols--clone.md)|Creates an enumerator that contains the same enumeration state as the current enumerator.|  
+|[IDiaEnumSymbols::get__NewEnum](../../debugger/debug-interface-access/idiaenumsymbols-get-newenum.md)|Retrieves the `IEnumVARIANT Interface` version of this enumerator.|  
+|[IDiaEnumSymbols::get_Count](../../debugger/debug-interface-access/idiaenumsymbols-get-count.md)|Retrieves the number of symbols.|  
+|[IDiaEnumSymbols::Item](../../debugger/debug-interface-access/idiaenumsymbols-item.md)|Retrieves a symbol by means of an index.|  
+|[IDiaEnumSymbols::Next](../../debugger/debug-interface-access/idiaenumsymbols-next.md)|Retrieves a specified number of symbols in the enumeration sequence.|  
+|[IDiaEnumSymbols::Skip](../../debugger/debug-interface-access/idiaenumsymbols-skip.md)|Skips a specified number of symbols in an enumeration sequence.|  
+|[IDiaEnumSymbols::Reset](../../debugger/debug-interface-access/idiaenumsymbols-reset.md)|Resets an enumeration sequence to the beginning.|  
+|[IDiaEnumSymbols::Clone](../../debugger/debug-interface-access/idiaenumsymbols-clone.md)|Creates an enumerator that contains the same enumeration state as the current enumerator.|  
   
 ## Remarks  
  This interface provides symbols grouped by a specific type of symbol, for example, `SymTagUDT` (user-defined types) or `SymTagBaseClass`. To work with symbols grouped by address, use the [IDiaEnumSymbolsByAddr](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr.md) interface.  
@@ -61,11 +62,11 @@ IDiaEnumSymbols : IUnknown
 ## Notes for Callers  
  Obtain this interface by calling the following methods:  
   
--   [IDiaSession::findChildren](../../debugger/debug-interface-access/idiasession--findchildren.md)  
+-   [IDiaSession::findChildren](../../debugger/debug-interface-access/idiasession-findchildren.md)  
   
--   [IDiaSymbol::findChildren](../../debugger/debug-interface-access/idiasymbol--findchildren.md)  
+-   [IDiaSymbol::findChildren](../../debugger/debug-interface-access/idiasymbol-findchildren.md)  
   
--   [IDiaSourceFile::get_compilands](../../debugger/debug-interface-access/idiasourcefile--get_compilands.md)  
+-   [IDiaSourceFile::get_compilands](../../debugger/debug-interface-access/idiasourcefile-get-compilands.md)  
   
 ## Example  
  This example shows how to obtain the `IDiaEnumSymbols` interface and then use that enumeration to list user-defined types (UDTs).  
@@ -107,7 +108,7 @@ void ShowUDTs(IDiaSymbol *pGlobals)
  DLL: msdia80.dll  
   
 ## See Also  
- [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces--debug-interface-access-sdk-.md)   
- [IDiaSession::findChildren](../../debugger/debug-interface-access/idiasession--findchildren.md)   
- [IDiaSourceFile::get_compilands](../../debugger/debug-interface-access/idiasourcefile--get_compilands.md)   
- [IDiaSymbol::findChildren](../../debugger/debug-interface-access/idiasymbol--findchildren.md)
+ [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)   
+ [IDiaSession::findChildren](../../debugger/debug-interface-access/idiasession-findchildren.md)   
+ [IDiaSourceFile::get_compilands](../../debugger/debug-interface-access/idiasourcefile-get-compilands.md)   
+ [IDiaSymbol::findChildren](../../debugger/debug-interface-access/idiasymbol-findchildren.md)

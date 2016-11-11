@@ -1,7 +1,7 @@
 ---
-title: "Getting Started with Python"
+title: "Getting Started with Python | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 33f4f6fb-0ae4-4234-9df2-531f2d3af17f
 caps.latest.revision: 11
+author: "kraigb"
 ms.author: "kraigb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -96,9 +97,9 @@ In addition to all the Python data-scientist libraries, the Python Tools for Vis
 We recommend obtaining IPython and scientific computing libraries (matplotlib, scipy, numpy, etc.) from [University of California, Irvine](http://www.lfd.uci.edu/~gohlke/pythonlibs/#scipy-stack).  
   
 ## See Also  
- [Getting Started with PTVS: Setting up Visual Studio](../python/getting-started-with-ptvs--setting-up-visual-studio.md)   
- [Getting Started with PTVS: Start Coding (Projects)](../python/getting-started-with-ptvs--start-coding--projects-.md)   
- [Getting Started with PTVS: Editing Code](../python/getting-started-with-ptvs--editing-code.md)   
- [Getting Started with PTVS: Debugging](../python/getting-started-with-ptvs--debugging.md)   
- [Getting Started with PTVS: Interactive Python](../python/getting-started-with-ptvs--interactive-python.md)   
- [Getting Started with PTVS: Building a Website in Azure](../python/getting-started-with-ptvs--building-a-website-in-azure.md)
+ [Getting Started with PTVS: Setting up Visual Studio](../python/getting-started-with-ptvs-setting-up-visual-studio.md)   
+ [Getting Started with PTVS: Start Coding (Projects)](../python/getting-started-with-ptvs-start-coding-projects.md)   
+ [Getting Started with PTVS: Editing Code](../python/getting-started-with-ptvs-editing-code.md)   
+ [Getting Started with PTVS: Debugging](../python/getting-started-with-ptvs-debugging.md)   
+ [Getting Started with PTVS: Interactive Python](../python/getting-started-with-ptvs-interactive-python.md)   
+ [Getting Started with PTVS: Building a Website in Azure](../python/getting-started-with-ptvs-building-a-website-in-azure.md)

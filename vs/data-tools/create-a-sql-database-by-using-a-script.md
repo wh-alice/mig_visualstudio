@@ -1,7 +1,7 @@
 ---
-title: "Create a SQL database by using a script"
+title: "Create a SQL database by using a script | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,6 +14,7 @@ dev_langs:
   - "aspx"
 ms.assetid: 36f913c0-f5a7-4831-83a0-baba721ac95c
 caps.latest.revision: 14
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 translation.priority.ht: 
@@ -33,7 +34,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Create a SQL database by using a script
-In this walkthrough, you use Visual Studio to create a small database that contains the sample code for [Create a simple data application by using ADO.NET](../data-tools/create-a-simple-data-application-by-using-ado.net.md).  
+In this walkthrough, you use Visual Studio to create a small database that contains the sample code for [Create a simple data application by using ADO.NET](../data-tools/create-a-simple-data-application-by-using-adonet.md).  
   
  **In this topic**  
   

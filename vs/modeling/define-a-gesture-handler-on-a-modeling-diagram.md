@@ -1,7 +1,7 @@
 ---
-title: "Define a gesture handler on a modeling diagram"
+title: "Define a gesture handler on a modeling diagram | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "UML - extending, drag and drop"
 ms.assetid: e5e1d70a-3539-4321-a3b1-89e86e4d6430
 caps.latest.revision: 34
+author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
 translation.priority.ht: 

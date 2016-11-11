@@ -1,7 +1,7 @@
 ---
-title: "Service Essentials"
+title: "Service Essentials | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,7 +33,7 @@ translation.priority.mt:
 # Service Essentials
 A service is a contract between two VSPackages. One VSPackage provides a specific set of interfaces for another VSPackage to consume. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] is itself a collection of VSPackages that provides services to other VSPackages.  
   
- For example, you can use the SVsActivityLog service to obtain an IVsActivityLog interface, which you can use to write to the activity log. For more information, see [How to: Use the Activity Log](../../extensibility/how-to--use-the-activity-log.md).  
+ For example, you can use the SVsActivityLog service to obtain an IVsActivityLog interface, which you can use to write to the activity log. For more information, see [How to: Use the Activity Log](../../extensibility/how-to-use-the-activity-log.md).  
   
  [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] also provides some built-in services which are not registered. VSPackages can replace built-in or other services by providing a service override. Only one service override is permitted for any service.  
   
@@ -51,7 +51,7 @@ A service is a contract between two VSPackages. One VSPackage provides a specifi
   
 -   To support on-demand loading, a service provider registers its global services with [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. For more information, see [Registering Services](../../misc/registering-services.md).  
   
--   After you obtain a service, use [QueryInterface](../Topic/QueryInterface.md) (unmanaged code) or casting (managed code) to get the desired interface, for example:  
+-   After you obtain a service, use [QueryInterface](/visual-cpp/atl/queryinterface) (unmanaged code) or casting (managed code) to get the desired interface, for example:  
   
     ```vb#  
     TryCast(GetService(GetType(SVsActivityLog)), IVsActivityLog)  
@@ -68,10 +68,10 @@ A service is a contract between two VSPackages. One VSPackage provides a specifi
   
 -   VSPackages can be service providers for the objects they create. For example, a form might send a request for a color service to its frame, which might pass the request to [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].  
   
--   Managed objects that are deeply nested, or not sited at all, may call <xref:Microsoft.VisualStudio.Shell.Package.GetGlobalService*> for direct access to global services. For more information, see [How to: Use GetGlobalService](../../misc/how-to--use-getglobalservice.md).  
+-   Managed objects that are deeply nested, or not sited at all, may call <xref:Microsoft.VisualStudio.Shell.Package.GetGlobalService%2A> for direct access to global services. For more information, see [How to: Use GetGlobalService](../../misc/how-to-use-getglobalservice.md).  
   
 ## See Also  
  [List of Available Services](../../extensibility/internals/list-of-available-services.md)   
  [Using and Providing Services](../../extensibility/using-and-providing-services.md)   
- [Casting and Type Conversions](../Topic/Casting%20and%20Type%20Conversions%20\(C%23%20Programming%20Guide\).md)   
- [Casting](../Topic/Casting.md)
+ [Casting and Type Conversions](/dotnet/csharp/programming-guide/types/casting-and-type-conversions)   
+ [Casting](/visual-cpp/cpp/casting)

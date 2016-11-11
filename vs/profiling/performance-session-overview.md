@@ -1,7 +1,7 @@
 ---
-title: "Performance Session Overview"
+title: "Performance Session Overview | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "performance sessions"
 ms.assetid: 35752f95-a57a-4def-b64d-cf4899669e99
 caps.latest.revision: 35
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -88,5 +89,5 @@ This overview explains the basics of profiling. Developers who are new to perfor
  You can paste rows of any performance report view into e-mails and spreadsheets, and you can generate reports that contain the data for one or more views.  
   
 ## See Also  
- [Overviews](../profiling/overviews--performance-tools-.md)   
- [Walkthrough: Identifying Performance Problems](../profiling/walkthrough--identifying-performance-problems.md)
+ [Overviews](../profiling/overviews-performance-tools.md)   
+ [Walkthrough: Identifying Performance Problems](../profiling/walkthrough-identifying-performance-problems.md)

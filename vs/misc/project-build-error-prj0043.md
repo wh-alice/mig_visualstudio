@@ -1,7 +1,7 @@
 ---
-title: "Project Build Error PRJ0043"
+title: "Project Build Error PRJ0043 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "PRJ0043"
 ms.assetid: 4991bf2d-3981-4dbc-8563-069da3275a7f
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

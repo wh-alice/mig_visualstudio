@@ -1,5 +1,5 @@
 ---
-title: "Delegates cannot handle events"
+title: "Delegates cannot handle events | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "BC30019"
 ms.assetid: 7f0c7bb9-8e81-44bf-acc5-80d9785708aa
 caps.latest.revision: 8
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -45,6 +46,6 @@ A delegate is a reference type that points to a shared procedure or to an instan
   
 ## See Also  
  [NOT IN BUILD: Delegates and the AddressOf Operator](http://msdn.microsoft.com/en-us/7b2ed932-8598-4355-b2f7-5cedb23ee86f)   
- [Delegate Statement](../Topic/Delegate%20Statement.md)   
- [Handles](../Topic/Handles%20Clause%20\(Visual%20Basic\).md)   
- [Implements Statement](../Topic/Implements%20Statement.md)
+ [Delegate Statement](/dotnet/visual-basic/language-reference/statements/delegate-statement)   
+ [Handles](/dotnet/visual-basic/language-reference/statements/handles-clause)   
+ [Implements Statement](/dotnet/visual-basic/language-reference/statements/implements-statement)

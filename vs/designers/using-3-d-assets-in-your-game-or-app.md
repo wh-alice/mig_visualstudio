@@ -1,7 +1,7 @@
 ---
-title: "Using 3-D Assets in Your Game or App"
+title: "Using 3-D Assets in Your Game or App | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,6 +18,7 @@ f1_keywords:
   - "VC.Project.ImageContentTask.GenerateMips"
 ms.assetid: ea587909-e434-46a8-abf8-9b3e95a58b4f
 caps.latest.revision: 17
+author: "BrianPeek"
 ms.author: "brpeek"
 manager: "ghogen"
 ---
@@ -198,8 +199,8 @@ cbuffer MiscVars : register(b3)
   
 |Title|Description|  
 |-----------|-----------------|  
-|[How to: Export a Texture that Contains Mipmaps](../designers/how-to--export-a-texture-that-contains-mipmaps.md)|Describes how to use the Image Content Pipeline to export a texture that contains precomputed mipmaps.|  
-|[How to: Export a Texture that has Premultiplied Alpha](../designers/how-to--export-a-texture-that-has-premultiplied-alpha.md)|Describes how to use the Image Content Pipeline to export a texture that contains premultiplied alpha values.|  
-|[How to: Export a Texture for Use with Direct2D or Javascipt Apps](../designers/how-to--export-a-texture-for-use-with-direct2d-or-javascipt-apps.md)|Describes how to use the Image Content Pipeline to export a texture that can be used in a Direct2D or JavaScript app.|  
+|[How to: Export a Texture that Contains Mipmaps](../designers/how-to-export-a-texture-that-contains-mipmaps.md)|Describes how to use the Image Content Pipeline to export a texture that contains precomputed mipmaps.|  
+|[How to: Export a Texture that has Premultiplied Alpha](../designers/how-to-export-a-texture-that-has-premultiplied-alpha.md)|Describes how to use the Image Content Pipeline to export a texture that contains premultiplied alpha values.|  
+|[How to: Export a Texture for Use with Direct2D or Javascipt Apps](../designers/how-to-export-a-texture-for-use-with-direct2d-or-javascipt-apps.md)|Describes how to use the Image Content Pipeline to export a texture that can be used in a Direct2D or JavaScript app.|  
 |[Working with 3-D Assets for Games and Apps](../designers/working-with-3-d-assets-for-games-and-apps.md)|Describes the editing tools that Visual Studio provides for creating and manipulating 3-D assets, which include textures and images, 3-D models, and shaders.|  
-|[How to: Export a Shader](../designers/how-to--export-a-shader.md)|Describes how to export a shader from the Shader Designer.|
+|[How to: Export a Shader](../designers/how-to-export-a-shader.md)|Describes how to export a shader from the Shader Designer.|

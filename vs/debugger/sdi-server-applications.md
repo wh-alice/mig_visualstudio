@@ -1,7 +1,7 @@
 ---
-title: "SDI Server Applications"
+title: "SDI Server Applications | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "SDI server applications, debugging"
 ms.assetid: 09713718-1376-4753-b119-26f36639693e
 caps.latest.revision: 15
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -46,4 +47,4 @@ If you are debugging an SDI server application, you must specify `/Embedding` or
   
 ## See Also  
  [COM and ActiveX Debugging](../debugger/com-and-activex-debugging.md)   
- [How to: Debug COM Servers](../debugger/how-to--debug-com-servers.md)
+ [How to: Debug COM Servers](../debugger/how-to-debug-com-servers.md)

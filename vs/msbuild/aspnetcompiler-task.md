@@ -1,7 +1,7 @@
 ---
-title: "AspNetCompiler Task"
+title: "AspNetCompiler Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "AspNetCompiler task [MSBuild]"
 ms.assetid: f811c019-a67b-4d54-82e6-e29549496f6e
 caps.latest.revision: 11
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

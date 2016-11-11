@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB3144"
+title: "MSBuild Error MSB3144 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB3144"
 ms.assetid: 955e0db3-afe2-4c03-8e95-3419878374df
 caps.latest.revision: 5
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB3041"
+title: "MSBuild Error MSB3041 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB3041"
 ms.assetid: 1a745ed8-9b75-4be2-8a09-9ffec00455fe
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

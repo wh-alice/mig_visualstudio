@@ -1,7 +1,7 @@
 ---
-title: "Friend Functions"
+title: "Friend Functions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "member access, friend functions"
 ms.assetid: c211aa34-6ace-448a-b5d3-24ab9542352d
 caps.latest.revision: 8
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -34,6 +35,6 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Friend Functions
-This content has moved to [friend](../Topic/friend%20\(C++\).md).  
+This content has moved to [friend](/visual-cpp/cpp/friend-cpp).  
   
 ## Example

@@ -1,7 +1,7 @@
 ---
-title: "CommandTable Element"
+title: "CommandTable Element | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,7 +34,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # CommandTable Element
-CommandTable is the root element of the .vsct file. This is the file that defines the actual layout and type of the commands that a VSPackage provides to the IDE. Commands may include menu items, menus, toolbars, and combo boxes. For more information, see [Visual Studio Command Table (.Vsct) Files](../Topic/Visual%20Studio%20Command%20Table%20\(.Vsct\)%20Files.md).  
+CommandTable is the root element of the .vsct file. This is the file that defines the actual layout and type of the commands that a VSPackage provides to the IDE. Commands may include menu items, menus, toolbars, and combo boxes. For more information, see [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md).  
   
 ## Syntax  
   
@@ -83,4 +83,4 @@ CommandTable is the root element of the .vsct file. This is the file that define
 |None||  
   
 ## See Also  
- [Visual Studio Command Table (.Vsct) Files](../Topic/Visual%20Studio%20Command%20Table%20\(.Vsct\)%20Files.md)
+ [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

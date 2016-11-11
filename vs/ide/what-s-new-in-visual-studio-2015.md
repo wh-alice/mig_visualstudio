@@ -1,7 +1,7 @@
 ---
-title: "What&#39;s New in Visual Studio 2015"
+title: "What&#39;s New in Visual Studio 2015 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "what's new [Visual Studio]"
 ms.assetid: 7307e180-ba28-4774-8a43-cbb980085a71
 caps.latest.revision: 363
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -70,7 +71,7 @@ Welcome to Visual Studio 2015, an integrated suite of developer productivity too
 ### Cross-platform apps and libraries for native C++  
  C++ is a language available natively across most mobile devices. You can use it to write cross-platform shared code libraries that can be built for multiple mobile platform targets. You can even create whole mobile apps in C++. Visual C++ gives you the tools to edit, build, deploy, and debug your cross-platform code. In addition to templates for Windows apps, you can create projects from templates for Android Native Activity apps, iOS apps, or shared code library projects for multiple platforms that include Xamarin hybrid apps. Platform-specific IntelliSense enables you to explore APIs and generate correct code for Android, iOS, or Windows targets. You can configure your build for x86 or ARM native platforms, and deploy your code to an iOS simulator or to iOS devices on a network-attached Mac, to directly attached Android devices, or use the performant Microsoft Visual Studio Emulator for Android for testing. You can set breakpoints, watch variables, view the stack and step through C++ code in the Visual Studio debugger. You can share all except the most platform-specific code across multiple app platforms, and build for them all with one solution in Visual Studio.  
   
- To get started on cross-platform C++, see [Build cross-platform mobile apps with Visual C++](../misc/build-cross-platform-mobile-apps-with-visual-c--.md)  
+ To get started on cross-platform C++, see [Build cross-platform mobile apps with Visual C++](../misc/build-cross-platform-mobile-apps-with-visual-cpp.md)  
   
 ### Universal Windows apps for any Windows 10 device  
  With the Universal Windows Platform and our one Windows core, you can run the same app on any Windows 10 device from phones to desktops. Create these Universal Windows apps with Visual Studio 2015 and the Universal Windows App Development tools.  
@@ -88,7 +89,7 @@ Welcome to Visual Studio 2015, an integrated suite of developer productivity too
  Visual Studio 2015 continues to support classic desktop and Windows Store development. As Windows evolves, Visual Studio will evolve along with it.  In Visual Studio 2015, the libraries and languages for .NET as well as C++ have made significant advances that are applicable to all versions of Windows.  
   
 #### The .NET Framework  
- The Microsoft [!INCLUDE[net_v46](../ide/includes/net_v46_md.md)] offers about 150 new APIs and 50 updated APIs to enable more scenarios. For example, more collections now implement <xref:System.Collections.Generic.IReadOnlyCollection`1> making them easier to use. In addition, ASP.NET 5, mentioned previously, offers a lean .NET platform for building modern cloud-based apps.  
+ The Microsoft [!INCLUDE[net_v46](../ide/includes/net_v46_md.md)] offers about 150 new APIs and 50 updated APIs to enable more scenarios. For example, more collections now implement <xref:System.Collections.Generic.IReadOnlyCollection%601> making them easier to use. In addition, ASP.NET 5, mentioned previously, offers a lean .NET platform for building modern cloud-based apps.  
   
  Windows Store apps written in C# that target the .NET Framework can now take advantage of .NET Native, which compiles apps to native code rather than IL, and [!INCLUDE[net_v46](../ide/includes/net_v46_md.md)] also adds RyuJIT, a 64-bit Just-In-Time (JIT) compiler.  
   
@@ -101,7 +102,7 @@ Welcome to Visual Studio 2015, an integrated suite of developer productivity too
 #### C++  
  Visual C++ provides significant advances in C++11/14 language conformance, support for cross-platform mobile device development, support for resumable functions and await (currently planned for standardization in C++17), improvements and bug fixes in the C Runtime Library (CRT) and C++ standard library (STL) implementations, resizeable dialogs in MFC, new compiler optimizations, better build performance, new diagnostics capabilities and new productivity tools in the code editor.  
   
- For more information, see [What's New for Visual C++](../Topic/What's%20New%20for%20Visual%20C++%20in%20Visual%20Studio%202015.md) and the [Visual C++ Blog](http://blogs.msdn.com/b/vcblog/).  
+ For more information, see [What's New for Visual C++](/visual-cpp/top/what-s-new-for-visual-cpp-in-visual-studio-2015) and the [Visual C++ Blog](http://blogs.msdn.com/b/vcblog/).  
   
 ## Device Preview menu bar  
  In Universal Windows Platform projects, the device preview menu bar enables you to see how your XAML-based UI will render on various screen sizes.  
@@ -280,7 +281,7 @@ Welcome to Visual Studio 2015, an integrated suite of developer productivity too
 ## See Also  
  [Build cross-platform apps with Apache Cordova](../Topic/Build%20cross-platform%20apps%20with%20Visual%20Studio%20Tools%20for%20Apache%20Cordova.md)   
  [Build apps with native UI using Xamarin in Visual Studio](../cross-platform/build-apps-with-native-ui-using-xamarin-in-visual-studio.md)   
- [Build cross-platform mobile apps with Visual C++](../misc/build-cross-platform-mobile-apps-with-visual-c--.md)   
+ [Build cross-platform mobile apps with Visual C++](../misc/build-cross-platform-mobile-apps-with-visual-cpp.md)   
  [Generate unit tests for your code with IntelliTest](../test/generate-unit-tests-for-your-code-with-intellitest.md)   
  [Work with multiple user accounts](../ide/work-with-multiple-user-accounts.md)   
  [Create custom window layouts](../misc/create-custom-window-layouts.md)   

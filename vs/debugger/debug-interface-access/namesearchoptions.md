@@ -1,7 +1,7 @@
 ---
-title: "NameSearchOptions"
+title: "NameSearchOptions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "NameSearchOptions enumeration"
 ms.assetid: 67dfbede-2678-47df-b664-5c49841d0b9b
 caps.latest.revision: 15
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -78,17 +79,17 @@ enum NameSearchOptions { 
 ## Remarks  
  The values from this enumeration are passed to the following methods:  
   
--   [IDiaSession::findChildren](../../debugger/debug-interface-access/idiasession--findchildren.md)  
+-   [IDiaSession::findChildren](../../debugger/debug-interface-access/idiasession-findchildren.md)  
   
--   [IDiaSession::findFile](../../debugger/debug-interface-access/idiasession--findfile.md)  
+-   [IDiaSession::findFile](../../debugger/debug-interface-access/idiasession-findfile.md)  
   
--   [IDiaSymbol::findChildren](../../debugger/debug-interface-access/idiasymbol--findchildren.md)  
+-   [IDiaSymbol::findChildren](../../debugger/debug-interface-access/idiasymbol-findchildren.md)  
   
 ## Requirements  
  Header: dia2.h  
   
 ## See Also  
  [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)   
- [IDiaSession::findChildren](../../debugger/debug-interface-access/idiasession--findchildren.md)   
- [IDiaSession::findFile](../../debugger/debug-interface-access/idiasession--findfile.md)   
- [IDiaSymbol::findChildren](../../debugger/debug-interface-access/idiasymbol--findchildren.md)
+ [IDiaSession::findChildren](../../debugger/debug-interface-access/idiasession-findchildren.md)   
+ [IDiaSession::findFile](../../debugger/debug-interface-access/idiasession-findfile.md)   
+ [IDiaSymbol::findChildren](../../debugger/debug-interface-access/idiasymbol-findchildren.md)

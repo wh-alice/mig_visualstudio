@@ -1,7 +1,7 @@
 ---
-title: "Manage models and diagrams under version control"
+title: "Manage models and diagrams under version control | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ helpviewer_keywords:
   - "models, version control"
 ms.assetid: ca6443e3-6d11-4da8-aae7-ca7dcc410076
 caps.latest.revision: 30
+author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
 translation.priority.ht: 

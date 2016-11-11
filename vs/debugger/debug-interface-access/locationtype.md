@@ -1,7 +1,7 @@
 ---
-title: "LocationType"
+title: "LocationType | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "LocationType enumeration"
 ms.assetid: d3e1eedc-bfd3-4c91-881b-d69565138d0f
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -95,7 +96,7 @@ enum LocationType { 
 ## Remarks  
  The properties available to the [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) interface depend on the symbol's location within the image file. For more information, see [Symbol Locations](../../debugger/debug-interface-access/symbol-locations.md).  
   
- The values in this enumeration are returned by a call to the [IDiaSymbol::get_locationType](../../debugger/debug-interface-access/idiasymbol--get_locationtype.md) method.  
+ The values in this enumeration are returned by a call to the [IDiaSymbol::get_locationType](../../debugger/debug-interface-access/idiasymbol-get-locationtype.md) method.  
   
 ## Requirements  
  Header: cvconst.h  
@@ -103,5 +104,5 @@ enum LocationType { 
 ## See Also  
  [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)   
  [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)   
- [IDiaSymbol::get_locationType](../../debugger/debug-interface-access/idiasymbol--get_locationtype.md)   
+ [IDiaSymbol::get_locationType](../../debugger/debug-interface-access/idiasymbol-get-locationtype.md)   
  [Symbol Locations](../../debugger/debug-interface-access/symbol-locations.md)

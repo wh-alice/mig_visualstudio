@@ -1,7 +1,7 @@
 ---
-title: "Customizing Tools and the Toolbox"
+title: "Customizing Tools and the Toolbox | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, toolbox"
 ms.assetid: 2a0d03d7-ebc6-4458-b9f4-d2cb8418a62d
 caps.latest.revision: 26
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 ---
@@ -245,6 +246,6 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
 ## See Also  
  [Customizing Element Creation and Movement](../modeling/customizing-element-creation-and-movement.md)   
  [Customizing Copy Behavior](../modeling/customizing-copy-behavior.md)   
- [How to: Add a Drag-and-Drop Handler](../modeling/how-to--add-a-drag-and-drop-handler.md)   
+ [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md)   
  [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md)   
  [Circuit Diagrams sample DSL](http://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)

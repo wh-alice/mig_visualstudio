@@ -1,7 +1,7 @@
 ---
-title: "Ports"
+title: "Ports | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -40,14 +40,14 @@ In terms of the debugger architecture, a **port**:
   
 -   Can enumerate all processes running on the port and launch and terminate these processes.  
   
--   Is represented by an [IDebugPort2](../../extensibility/debugger/reference/idebugport2.md) interface, which is created by passing an [IDebugPortRequest2](../../extensibility/debugger/reference/idebugportrequest2.md) argument to [AddPort](../../extensibility/debugger/reference/idebugportsupplier2--addport.md).  
+-   Is represented by an [IDebugPort2](../../extensibility/debugger/reference/idebugport2.md) interface, which is created by passing an [IDebugPortRequest2](../../extensibility/debugger/reference/idebugportrequest2.md) argument to [AddPort](../../extensibility/debugger/reference/idebugportsupplier2-addport.md).  
   
  [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] supplies a default port that handles all Windows-based processes, native and managed. A custom port must be implemented for connections with external devices that are not Windows-based. To supply such custom ports, a custom port supplier also needs to be implemented.  
   
 ## See Also  
- [Servers](../../extensibility/debugger/servers--visual-studio-sdk-.md)   
+ [Servers](../../extensibility/debugger/servers-visual-studio-sdk.md)   
  [Processes](../../extensibility/debugger/processes.md)   
  [Debugger Concepts](../../extensibility/debugger/debugger-concepts.md)   
  [IDebugPort2](../../extensibility/debugger/reference/idebugport2.md)   
  [IDebugPortRequest2](../../extensibility/debugger/reference/idebugportrequest2.md)   
- [AddPort](../../extensibility/debugger/reference/idebugportsupplier2--addport.md)
+ [AddPort](../../extensibility/debugger/reference/idebugportsupplier2-addport.md)

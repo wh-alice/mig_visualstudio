@@ -1,7 +1,7 @@
 ---
-title: "Localizing Menu Commands"
+title: "Localizing Menu Commands | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -168,5 +168,5 @@ You can provide localized text for menu and toolbar commands by creating localiz
   
 ## See Also  
  [Extending Menus and Commands](../extensibility/extending-menus-and-commands.md)   
- [MenuCommands Vs. OleMenuCommands](../misc/menucommands-vs.-olemenucommands.md)   
+ [MenuCommands Vs. OleMenuCommands](../misc/menucommands-vs-olemenucommands.md)   
  [Globalization and Localization](../Topic/Globalizing%20and%20Localizing%20.NET%20Framework%20Applications.md)

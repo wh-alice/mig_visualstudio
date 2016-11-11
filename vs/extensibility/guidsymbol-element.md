@@ -1,7 +1,7 @@
 ---
-title: "GuidSymbol Element"
+title: "GuidSymbol Element | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -69,4 +69,4 @@ The `GuidSymbol` element contains the GUID of the GUID:ID pair that represents a
  Typically, a .vsct file contains three `GuidSymbol` elements in its `Symbols` section, one for the package itself, one for the command set (the collection of menus, groups, and commands that the package makes available), and one for the bitmaps that provide icons for buttons and other visual components. Every `IDSymbol` element in a given `GuidSymbol` element must have a unique `value`.However, `IDSymbol` elements that have identical values can exist in a package as long as they have different parents.  
   
 ## See Also  
- [Visual Studio Command Table (.Vsct) Files](../Topic/Visual%20Studio%20Command%20Table%20\(.Vsct\)%20Files.md)
+ [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

@@ -1,7 +1,7 @@
 ---
-title: "ranlux48 TypeDef"
+title: "ranlux48 TypeDef | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "ranlux48 typedef"
 ms.assetid: e7c0b096-2652-4e22-a71f-ab093cdad5ec
 caps.latest.revision: 8
+author: "ghogen"
 ms.author: "ghogen"
 manager: "douge"
 translation.priority.mt: 

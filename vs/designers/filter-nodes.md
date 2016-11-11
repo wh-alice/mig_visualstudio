@@ -1,7 +1,7 @@
 ---
-title: "Filter Nodes"
+title: "Filter Nodes | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f7cae2dc-e9a7-49d4-8be5-58b79868624e
 caps.latest.revision: 12
+author: "BrianPeek"
 ms.author: "brpeek"
 manager: "ghogen"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
-title: "Processing Text Templates by using a Custom Host"
+title: "Processing Text Templates by using a Custom Host | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "text templates, custom directive hosts"
 ms.assetid: affa3296-854d-47d6-9685-285f6d9ba5dc
 caps.latest.revision: 33
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 translation.priority.ht: 
@@ -61,7 +62,7 @@ string output = engine.ProcessTemplate(templateString, host);
  <xref:Microsoft.VisualStudio.TextTemplating.Engine?displayProperty=fullName> is defined in **Microsoft.VisualStudio.TextTemplating.\*.0.dll**, and <xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost> is defined in **Microsoft.VisualStudio.TextTemplating.Interfaces.\*.0.dll**.  
   
 ## In This Section  
- [Walkthrough: Creating a Custom Text Template Host](../modeling/walkthrough--creating-a-custom-text-template-host.md)  
+ [Walkthrough: Creating a Custom Text Template Host](../modeling/walkthrough-creating-a-custom-text-template-host.md)  
  Shows you how to create a custom text template host that makes the text template functionality available outside [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 ## Reference  

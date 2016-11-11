@@ -1,7 +1,7 @@
 ---
-title: "FRAMEINFO"
+title: "FRAMEINFO | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -75,7 +75,7 @@ public struct FRAMEINFO { 
   
 ## Members  
  m_dwValidFields  
- A combination of flags from the [FRAMEINFO_FLAGS](../../../extensibility/debugger/reference/frameinfo_flags.md) enumeration that specifies which fields are filled in.  
+ A combination of flags from the [FRAMEINFO_FLAGS](../../../extensibility/debugger/reference/frameinfo-flags.md) enumeration that specifies which fields are filled in.  
   
  m_bstrFuncName  
  The function name associated with the stack frame.  
@@ -114,7 +114,7 @@ public struct FRAMEINFO { 
  Non-zero (`TRUE`) if the stack frame is annotated by the session debug manager (SDM).  
   
 ## Remarks  
- This structure is passed to the [GetInfo](../../../extensibility/debugger/reference/idebugstackframe2--getinfo.md) method to be filled in. This structure is also contained in a list that is contained in the [IEnumDebugFrameInfo2](../../../extensibility/debugger/reference/ienumdebugframeinfo2.md) interface which, in turn, is returned from a call to the [EnumFrameInfo](../../../extensibility/debugger/reference/idebugthread2--enumframeinfo.md) method.  
+ This structure is passed to the [GetInfo](../../../extensibility/debugger/reference/idebugstackframe2-getinfo.md) method to be filled in. This structure is also contained in a list that is contained in the [IEnumDebugFrameInfo2](../../../extensibility/debugger/reference/ienumdebugframeinfo2.md) interface which, in turn, is returned from a call to the [EnumFrameInfo](../../../extensibility/debugger/reference/idebugthread2-enumframeinfo.md) method.  
   
 ## Requirements  
  Header: msdbg.h  
@@ -125,9 +125,9 @@ public struct FRAMEINFO { 
   
 ## See Also  
  [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)   
- [FRAMEINFO_FLAGS](../../../extensibility/debugger/reference/frameinfo_flags.md)   
+ [FRAMEINFO_FLAGS](../../../extensibility/debugger/reference/frameinfo-flags.md)   
  [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md)   
  [IDebugModule2](../../../extensibility/debugger/reference/idebugmodule2.md)   
- [GetInfo](../../../extensibility/debugger/reference/idebugstackframe2--getinfo.md)   
+ [GetInfo](../../../extensibility/debugger/reference/idebugstackframe2-getinfo.md)   
  [IEnumDebugFrameInfo2](../../../extensibility/debugger/reference/ienumdebugframeinfo2.md)   
- [EnumFrameInfo](../../../extensibility/debugger/reference/idebugthread2--enumframeinfo.md)
+ [EnumFrameInfo](../../../extensibility/debugger/reference/idebugthread2-enumframeinfo.md)

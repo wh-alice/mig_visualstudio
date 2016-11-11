@@ -1,7 +1,7 @@
 ---
-title: "Convert Dialog Box"
+title: "Convert Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "Convert dialog box"
 ms.assetid: 56f23ef7-17c4-4d76-9ead-982bbcd42061
 caps.latest.revision: 14
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -52,4 +53,4 @@ The **Convert** dialog box allows you to select a conversion tool to create a ne
   
 ## See Also  
  [NOTINBUILD - How to: Upgrade a Project from Visual Basic 6.0](http://msdn.microsoft.com/en-us/c0421e57-5bba-422e-934d-ec42ab9f2af9)   
- [Porting, Migrating, and Upgrading Visual Studio Projects](../../porting/porting--migrating--and-upgrading-visual-studio-projects.md)
+ [Porting, Migrating, and Upgrading Visual Studio Projects](../../porting/porting-migrating-and-upgrading-visual-studio-projects.md)

@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Warning RC4111"
+title: "Resource Compiler Warning RC4111 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC4111"
 ms.assetid: b7e46eb0-b318-4438-8e21-09c89a0e81b4
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

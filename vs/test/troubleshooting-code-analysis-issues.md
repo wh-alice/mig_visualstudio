@@ -1,7 +1,7 @@
 ---
-title: "Troubleshooting Code Analysis Issues"
+title: "Troubleshooting Code Analysis Issues | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 61c7e44d-2780-4df5-9bcb-49e40c1152fc
 caps.latest.revision: 5
+author: "erickson-doug"
 ms.author: "douge"
 manager: "douge"
 translation.priority.ht: 

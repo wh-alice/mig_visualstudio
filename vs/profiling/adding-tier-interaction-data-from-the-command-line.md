@@ -1,7 +1,7 @@
 ---
-title: "Adding tier interaction data from the command line"
+title: "Adding tier interaction data from the command line | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "profiling tools,tier interaction method"
 ms.assetid: 5a35647f-03f2-4555-8eeb-fda7e0080e67
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -151,7 +152,7 @@ Tier interaction profiling provides additional information about the execution t
   
  For more information, see one of the following topics:  
   
- [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-asp.net-web-applications.md)  
+ [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)  
   
  [Profiling Services](../profiling/command-line-profiling-of-services.md)  
   

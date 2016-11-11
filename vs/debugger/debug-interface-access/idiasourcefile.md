@@ -1,7 +1,7 @@
 ---
-title: "IDiaSourceFile"
+title: "IDiaSourceFile | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaSourceFile interface"
 ms.assetid: 6e9be757-797f-4960-ba62-c14092620bbd
 caps.latest.revision: 10
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -47,16 +48,16 @@ IDiaSourceFile : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[IDiaSourceFile::get_uniqueId](../../debugger/debug-interface-access/idiasourcefile--get_uniqueid.md)|Retrieves a simple integer key value that is unique for this image.|  
-|[IDiaSourceFile::get_fileName](../../debugger/debug-interface-access/idiasourcefile--get_filename.md)|Retrieves the source file name.|  
-|[IDiaSourceFile::get_checksumType](../../debugger/debug-interface-access/idiasourcefile--get_checksumtype.md)|Retrieves the checksum type.|  
-|[IDiaSourceFile::get_compilands](../../debugger/debug-interface-access/idiasourcefile--get_compilands.md)|Retrieves an enumerator of the compilands with line numbers referencing this file.|  
-|[IDiaSourceFile::get_checksum](../../debugger/debug-interface-access/idiasourcefile--get_checksum.md)|Retrieves the checksum bytes.|  
+|[IDiaSourceFile::get_uniqueId](../../debugger/debug-interface-access/idiasourcefile-get-uniqueid.md)|Retrieves a simple integer key value that is unique for this image.|  
+|[IDiaSourceFile::get_fileName](../../debugger/debug-interface-access/idiasourcefile-get-filename.md)|Retrieves the source file name.|  
+|[IDiaSourceFile::get_checksumType](../../debugger/debug-interface-access/idiasourcefile-get-checksumtype.md)|Retrieves the checksum type.|  
+|[IDiaSourceFile::get_compilands](../../debugger/debug-interface-access/idiasourcefile-get-compilands.md)|Retrieves an enumerator of the compilands with line numbers referencing this file.|  
+|[IDiaSourceFile::get_checksum](../../debugger/debug-interface-access/idiasourcefile-get-checksum.md)|Retrieves the checksum bytes.|  
   
 ## Remarks  
   
 ## Notes for Callers  
- Obtain this interface by calling the [IDiaEnumSourceFiles::Item](../../debugger/debug-interface-access/idiaenumsourcefiles--item.md) or [IDiaEnumSourceFiles::Next](../../debugger/debug-interface-access/idiaenumsourcefiles--next.md) methods. See the example for details.  
+ Obtain this interface by calling the [IDiaEnumSourceFiles::Item](../../debugger/debug-interface-access/idiaenumsourcefiles-item.md) or [IDiaEnumSourceFiles::Next](../../debugger/debug-interface-access/idiaenumsourcefiles-next.md) methods. See the example for details.  
   
 ## Example  
  This function displays the names of all source files contributing to the specified table.  
@@ -94,10 +95,10 @@ void ShowSourceFiles(IDiaTable *pTable)
  DLL: msdia80.dll  
   
 ## See Also  
- [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces--debug-interface-access-sdk-.md)   
- [IDiaEnumSourceFiles::Item](../../debugger/debug-interface-access/idiaenumsourcefiles--item.md)   
- [IDiaEnumSourceFiles::Next](../../debugger/debug-interface-access/idiaenumsourcefiles--next.md)   
- [IDiaLineNumber::get_sourceFile](../../debugger/debug-interface-access/idialinenumber--get_sourcefile.md)   
- [IDiaSession::findFileById](../../debugger/debug-interface-access/idiasession--findfilebyid.md)   
- [IDiaSession::findLines](../../debugger/debug-interface-access/idiasession--findlines.md)   
- [IDiaSession::findLinesByLinenum](../../debugger/debug-interface-access/idiasession--findlinesbylinenum.md)
+ [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)   
+ [IDiaEnumSourceFiles::Item](../../debugger/debug-interface-access/idiaenumsourcefiles-item.md)   
+ [IDiaEnumSourceFiles::Next](../../debugger/debug-interface-access/idiaenumsourcefiles-next.md)   
+ [IDiaLineNumber::get_sourceFile](../../debugger/debug-interface-access/idialinenumber-get-sourcefile.md)   
+ [IDiaSession::findFileById](../../debugger/debug-interface-access/idiasession-findfilebyid.md)   
+ [IDiaSession::findLines](../../debugger/debug-interface-access/idiasession-findlines.md)   
+ [IDiaSession::findLinesByLinenum](../../debugger/debug-interface-access/idiasession-findlinesbylinenum.md)

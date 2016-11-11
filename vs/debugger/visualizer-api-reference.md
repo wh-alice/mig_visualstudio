@@ -1,7 +1,7 @@
 ---
-title: "Visualizer API Reference"
+title: "Visualizer API Reference | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "visualizers, API reference"
 ms.assetid: b9ff4ed0-9e80-49df-9016-a81189319afd
 caps.latest.revision: 11
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -53,6 +54,6 @@ The Visualizer APIs are provided for users who want to write a visualizer for th
 -   <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource?displayProperty=fullName>  
   
 ## See Also  
- [Walkthrough: Writing a Visualizer in C#](../debugger/walkthrough--writing-a-visualizer-in-csharp.md)   
- [How to: Write a Visualizer](../debugger/how-to--write-a-visualizer.md)   
+ [Walkthrough: Writing a Visualizer in C#](../debugger/walkthrough-writing-a-visualizer-in-csharp.md)   
+ [How to: Write a Visualizer](../debugger/how-to-write-a-visualizer.md)   
  [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md)

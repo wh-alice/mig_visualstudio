@@ -1,7 +1,7 @@
 ---
-title: "WPF MSBuild Reference"
+title: "WPF MSBuild Reference | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "MSBuild [WPF]"
 ms.assetid: 94b12890-365d-479a-b239-71109fbcb462
 caps.latest.revision: 4
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -40,7 +41,7 @@ translation.priority.ht:
 Windows Presentation Foundation (WPF) extends Microsoft build engine (MSBuild) with additional build support, which is documented in this section.  
   
 ## In This Section  
- [.Targets Files](../msbuild/wpf-.targets-files.md)  
+ [.Targets Files](../msbuild/wpf-dot-targets-files.md)  
  Describes WPF .Targets files.  
   
  [Task Reference](../msbuild/wpf-msbuild-task-reference.md)  

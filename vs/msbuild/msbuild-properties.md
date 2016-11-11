@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Properties"
+title: "MSBuild Properties | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/24/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "MSBuild, properties"
 ms.assetid: 962912ac-8931-49bf-a88c-0200b6e37362
 caps.latest.revision: 32
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -34,7 +35,7 @@ translation.priority.ht:
 Properties are name-value pairs that can be used to configure builds. Properties are useful for passing values to tasks, evaluating conditions, and storing values that will be referenced throughout the project file.  
   
 ## Defining and Referencing Properties in a Project File  
- Properties are declared by creating an element that has the name of the property as a child of a [PropertyGroup](../msbuild/propertygroup-element--msbuild-.md) element. For example, the following XML creates a property named `BuildDir` that has a value of `Build`.  
+ Properties are declared by creating an element that has the name of the property as a child of a [PropertyGroup](../msbuild/propertygroup-element-msbuild.md) element. For example, the following XML creates a property named `BuildDir` that has a value of `Build`.  
   
 ```  
 <PropertyGroup>  
@@ -57,19 +58,19 @@ Properties are name-value pairs that can be used to configure builds. Properties
 ## Reserved Properties  
  MSBuild reserves some property names to store information about the project file and the MSBuild binaries. These properties are referenced by using the $ notation, just like any other property. For example, $(MSBuildProjectFile) returns the complete file name of the project file, including the file name extension.  
   
- For more information, see [How to: Reference the Name or Location of the Project File](../msbuild/how-to--reference-the-name-or-location-of-the-project-file.md) and [MSBuild Reserved and Well-Known Properties](../msbuild/msbuild-reserved-and-well-known-properties.md).  
+ For more information, see [How to: Reference the Name or Location of the Project File](../msbuild/how-to-reference-the-name-or-location-of-the-project-file.md) and [MSBuild Reserved and Well-Known Properties](../msbuild/msbuild-reserved-and-well-known-properties.md).  
   
 ## Environment Properties  
  You can reference environment variables in project files just as you reference reserved properties. For example, to use the `PATH` environment variable in your project file, use $(Path). If the project contains a property definition that has the same name as an environment property, the property in the project overrides the value of the environment variable.  
   
  Each MSBuild project has an isolated environment block: it only sees reads and writes to its own block.  MSBuild only reads environment variables when it initializes the property collection, before the project file is evaluated or built. After that, environment properties are static, that is, each spawned tool starts with the same names and values.  
   
- To get the current value of environment variables from within a spawned tool, use the [Property Functions](../msbuild/property-functions.md) System.Environment.GetEnvironmentVariable. The preferred method, however, is to use the task parameter <xref:Microsoft.Build.Utilities.ToolTask.EnvironmentVariables*>. Environment properties set in this string array can be passed to the spawned tool without affecting the system environment variables.  
+ To get the current value of environment variables from within a spawned tool, use the [Property Functions](../msbuild/property-functions.md) System.Environment.GetEnvironmentVariable. The preferred method, however, is to use the task parameter <xref:Microsoft.Build.Utilities.ToolTask.EnvironmentVariables%2A>. Environment properties set in this string array can be passed to the spawned tool without affecting the system environment variables.  
   
 > [!TIP]
 >  Not all environment variables are read in to become initial properties. Any environment variable whose name is not a valid MSBuild property names, such as "386", is ignored.  
   
- For more information, see [How to: Use Environment Variables in a Build](../msbuild/how-to--use-environment-variables-in-a-build.md).  
+ For more information, see [How to: Use Environment Variables in a Build](../msbuild/how-to-use-environment-variables-in-a-build.md).  
   
 ## Registry Properties  
  You can read system registry values by using the following syntax, where `Hive` is the registry hive (for example, HKEY_LOCAL_MACHINE ), `Key` is the key name, `SubKey` is the subkey name, and `Value` is the value of the subkey.  
@@ -105,7 +106,7 @@ msbuild.exe MyProj.proj /p:Configuration=DEBUG
   
  Global properties can also be set or modified for child projects in a multi-project build by using the `Properties` attribute of the MSBuild task. For more information, see [MSBuild Task](../msbuild/msbuild-task.md).  
   
- If you specify a property by using the `TreatAsLocalProperty` attribute in a project tag, that global property value doesn't override the property value that's set in the project file. For more information, see [Project Element (MSBuild)](../msbuild/project-element--msbuild-.md) and [How to: Build the Same Source Files with Different Options](../msbuild/how-to--build-the-same-source-files-with-different-options.md).  
+ If you specify a property by using the `TreatAsLocalProperty` attribute in a project tag, that global property value doesn't override the property value that's set in the project file. For more information, see [Project Element (MSBuild)](../msbuild/project-element-msbuild.md) and [How to: Build the Same Source Files with Different Options](../msbuild/how-to-build-the-same-source-files-with-different-options.md).  
   
 ## Property Functions  
  Starting in .NET Framework version 4, you can use property functions to evaluate your MSBuild scripts. You can read the system time, compare strings, match regular expressions, and perform many other actions within your build script without using MSBuild tasks.  
@@ -121,7 +122,7 @@ msbuild.exe MyProj.proj /p:Configuration=DEBUG
 ## Creating Properties During Execution  
  Properties positioned outside `Target` elements are assigned values during the evaluation phase of a build. During the subsequent execution phase, properties can be created or modified as follows:  
   
--   A property can be emitted by any task. To emit a property, the [Task](../msbuild/task-element--msbuild-.md) element must have a child [Output](../msbuild/output-element--msbuild-.md) element that has a `PropertyName` attribute.  
+-   A property can be emitted by any task. To emit a property, the [Task](../msbuild/task-element-msbuild.md) element must have a child [Output](../msbuild/output-element-msbuild.md) element that has a `PropertyName` attribute.  
   
 -   A property can be emitted by the [CreateProperty](../msbuild/createproperty-task.md) task. This usage is deprecated.  
   
@@ -152,8 +153,8 @@ msbuild.exe MyProj.proj /p:Configuration=DEBUG
 ## See Also  
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)  
  [MSBuild](../msbuild/msbuild1.md)  
- [How to: Use Environment Variables in a Build](../msbuild/how-to--use-environment-variables-in-a-build.md)   
- [How to: Reference the Name or Location of the Project File](../msbuild/how-to--reference-the-name-or-location-of-the-project-file.md)   
- [How to: Build the Same Source Files with Different Options](../msbuild/how-to--build-the-same-source-files-with-different-options.md)   
+ [How to: Use Environment Variables in a Build](../msbuild/how-to-use-environment-variables-in-a-build.md)   
+ [How to: Reference the Name or Location of the Project File](../msbuild/how-to-reference-the-name-or-location-of-the-project-file.md)   
+ [How to: Build the Same Source Files with Different Options](../msbuild/how-to-build-the-same-source-files-with-different-options.md)   
  [MSBuild Reserved and Well-Known Properties](../msbuild/msbuild-reserved-and-well-known-properties.md)   
- [Property Element (MSBuild)](../msbuild/property-element--msbuild-.md)
+ [Property Element (MSBuild)](../msbuild/property-element-msbuild.md)

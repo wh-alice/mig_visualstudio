@@ -1,7 +1,7 @@
 ---
-title: "EVENTATTRIBUTES"
+title: "EVENTATTRIBUTES | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -67,7 +67,7 @@ public enum enum_EVENTATTRIBUTES { 
  Indicates that the event is asynchronous and no reply to the event is needed.  
   
  EVENT_SYNCHRONOUS  
- Indicates that the event is synchronous; reply by means of [ContinueFromSynchronousEvent](../../../extensibility/debugger/reference/idebugengine2--continuefromsynchronousevent.md).  
+ Indicates that the event is synchronous; reply by means of [ContinueFromSynchronousEvent](../../../extensibility/debugger/reference/idebugengine2-continuefromsynchronousevent.md).  
   
  EVENT_STOPPING  
  Indicates that this is a stopping event. Must be combined with either `EVENT_ASYNCHRONOUS` or `EVENT_SYNCHRONOUS`.  
@@ -76,7 +76,7 @@ public enum enum_EVENTATTRIBUTES { 
  Indicates an asynchronous stopping event. There is currently no such event. This flag is only a placeholder.  
   
  EVENT_SYNC_STOP  
- Indicates a synchronous stopping event (a combination of `EVENT_SYNCHRONOUS` and `EVENT_STOPPING`). This value is used by a debug engine (DE) when it sends a stopping event. The reply is made by means of a call to [Execute](../../../extensibility/debugger/reference/idebugprogram2--execute.md), [Step](../../../extensibility/debugger/reference/idebugprogram2--step.md), or [Continue](../../../extensibility/debugger/reference/idebugprogram2--continue.md).  
+ Indicates a synchronous stopping event (a combination of `EVENT_SYNCHRONOUS` and `EVENT_STOPPING`). This value is used by a debug engine (DE) when it sends a stopping event. The reply is made by means of a call to [Execute](../../../extensibility/debugger/reference/idebugprogram2-execute.md), [Step](../../../extensibility/debugger/reference/idebugprogram2-step.md), or [Continue](../../../extensibility/debugger/reference/idebugprogram2-continue.md).  
   
  EVENT_IMMEDIATE  
  Indicates an event that is sent immediately and synchronously to the IDE. This flag is combined with other flags like `EVENT_ASYNCHRONOUS`, `EVENT_SYNCHRONOUS`, or `EVENT_SYNC_STOP` to indicate the type of event and the fact that the reply mechanism (if any) is known.  
@@ -85,7 +85,7 @@ public enum enum_EVENTATTRIBUTES { 
  The event is a result of expression evaluation.  
   
 ## Remarks  
- These values are passed in the `dwAttrib` parameter of the [Event](../../../extensibility/debugger/reference/idebugeventcallback2--event.md) method.  
+ These values are passed in the `dwAttrib` parameter of the [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md) method.  
   
  These values may be combined with a bitwise `OR`.  
   
@@ -97,6 +97,6 @@ public enum enum_EVENTATTRIBUTES { 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll  
   
 ## See Also  
- [Enumerations](../../../extensibility/debugger/reference/enumerations--visual-studio-debugging-.md)   
- [ContinueFromSynchronousEvent](../../../extensibility/debugger/reference/idebugengine2--continuefromsynchronousevent.md)   
- [Event](../../../extensibility/debugger/reference/idebugeventcallback2--event.md)
+ [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)   
+ [ContinueFromSynchronousEvent](../../../extensibility/debugger/reference/idebugengine2-continuefromsynchronousevent.md)   
+ [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md)

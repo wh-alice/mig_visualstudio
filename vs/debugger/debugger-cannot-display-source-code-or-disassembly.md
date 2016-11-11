@@ -1,7 +1,7 @@
 ---
-title: "Debugger Cannot Display Source Code or Disassembly"
+title: "Debugger Cannot Display Source Code or Disassembly | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "disassembly code, errors"
 ms.assetid: 112d3ea3-fdd2-4bce-92b4-167a76258934
 caps.latest.revision: 7
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
-title: "Properties of associations on UML class diagrams"
+title: "Properties of associations on UML class diagrams | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "UML, element properties"
 ms.assetid: f82bcd34-7903-4c00-8da1-613efa07d223
 caps.latest.revision: 24
+author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
 translation.priority.ht: 
@@ -73,8 +74,8 @@ In a UML class diagram, you can draw *associations* between any pair of types. A
 |**Visibility**|Public|Public - visible globally<br /><br /> Private - not visible outside the owning type<br /><br /> Protected - visible to types derived from the owner<br /><br /> Package - visible to other types within the same package.|  
   
 ## See Also  
- [UML Class Diagrams: Reference](../modeling/uml-class-diagrams--reference.md)   
+ [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)   
  [Properties of types on UML class diagrams](../modeling/properties-of-types-on-uml-class-diagrams.md)   
  [Properties of attributes on UML class diagrams](../modeling/properties-of-attributes-on-uml-class-diagrams.md)   
  [Properties of operations on UML class diagrams](../modeling/properties-of-operations-on-uml-class-diagrams.md)   
- [UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams--guidelines.md)
+ [UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams-guidelines.md)

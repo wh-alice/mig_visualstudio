@@ -1,7 +1,7 @@
 ---
-title: "Object Lifetime View"
+title: "Object Lifetime View | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "profiling tools, Lifetime view"
 ms.assetid: d0501fdd-4b3a-4e74-b6ac-51d950a2e15b
 caps.latest.revision: 24
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -85,4 +86,4 @@ The Object Lifetime view is available when **Also collect .NET object lifetime d
 |**Large Object Heap Bytes Collected**|The size, in bytes, of the instances of this type that were located in the large object heap and that were collected in the profiling run.|  
   
 ## See Also  
- [.NET Memory Data Views](../profiling/.net-memory-data-views.md)
+ [.NET Memory Data Views](../profiling/dotnet-memory-data-views.md)

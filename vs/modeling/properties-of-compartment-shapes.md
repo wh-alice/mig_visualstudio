@@ -1,7 +1,7 @@
 ---
-title: "Properties of Compartment Shapes"
+title: "Properties of Compartment Shapes | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, compartment shape"
 ms.assetid: 9a9e112d-210d-413b-a44f-0e976a4a78bc
 caps.latest.revision: 24
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 ---

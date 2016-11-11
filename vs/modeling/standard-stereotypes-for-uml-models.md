@@ -1,7 +1,7 @@
 ---
-title: "Standard stereotypes for UML models"
+title: "Standard stereotypes for UML models | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "UML diagrams, stereotypes"
 ms.assetid: 8a8c2321-1cae-4ba8-bb9e-23495c3404d8
 caps.latest.revision: 20
+author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
 translation.priority.ht: 

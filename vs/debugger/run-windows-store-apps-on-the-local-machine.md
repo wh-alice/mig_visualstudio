@@ -1,7 +1,7 @@
 ---
-title: "Run Windows Store apps on the local machine"
+title: "Run Windows Store apps on the local machine | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ dev_langs:
   - "C++"
 ms.assetid: e42a21a8-6423-4caf-b4dc-72b263e76019
 caps.latest.revision: 15
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

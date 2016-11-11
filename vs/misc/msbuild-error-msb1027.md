@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB1027"
+title: "MSBuild Error MSB1027 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB1027"
 ms.assetid: 2ef8d643-616c-4608-be76-5c2c8e18a9e7
 caps.latest.revision: 4
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

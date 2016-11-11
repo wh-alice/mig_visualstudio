@@ -1,5 +1,5 @@
 ---
-title: "Set not supported at run time"
+title: "Set not supported at run time | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -13,6 +13,7 @@ f1_keywords:
   - "vbrID382"
 ms.assetid: cb7285d3-778f-423d-a2be-88573be8ad48
 caps.latest.revision: 8
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 

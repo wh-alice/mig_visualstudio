@@ -1,7 +1,7 @@
 ---
-title: "Customizing the Properties Window"
+title: "Customizing the Properties Window | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, Properties window"
 ms.assetid: b6658de5-4e85-4628-93b2-5cc12f63d25b
 caps.latest.revision: 20
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 translation.priority.mt: 
@@ -174,9 +175,9 @@ You can customize the appearance and behavior of the properties window in your d
   
  You define an editor by writing a class that is derived from <xref:System.Drawing.Design.UITypeEditor>. Your class must override:  
   
--   <xref:System.Drawing.Design.UITypeEditor.EditValue*>, to interact with the user and update the property value.  
+-   <xref:System.Drawing.Design.UITypeEditor.EditValue%2A>, to interact with the user and update the property value.  
   
--   <xref:System.Drawing.Design.UITypeEditor.GetEditStyle*>, to specify whether your editor will open a dialog or provide a drop-down menu.  
+-   <xref:System.Drawing.Design.UITypeEditor.GetEditStyle%2A>, to specify whether your editor will open a dialog or provide a drop-down menu.  
   
  You can also provide a graphical representation of the property’s value that will be displayed in the property grid. To do this, override `GetPaintValueSupported`, and `PaintValue`.  For more information, see <xref:System.Drawing.Design.UITypeEditor>.  
   

@@ -1,7 +1,7 @@
 ---
-title: "Save data in a transaction"
+title: "Save data in a transaction | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "saving data"
 ms.assetid: 80260118-08bc-4b37-bfe5-9422ee7a1e4e
 caps.latest.revision: 15
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 translation.priority.ht: 
@@ -42,7 +43,7 @@ translation.priority.mt:
 This walkthrough demonstrates how to save data in a transaction by using the <xref:System.Transactions> namespace. This example uses the `Customers` and `Orders` tables from the Northwind sample database.  
   
 ## Prerequisites  
- This walkthrough requires access to the Northwind sample database. For information about setting up the Northwind sample database, see [How to: Install Sample Databases](../data-tools/how-to--install-sample-databases.md).  
+ This walkthrough requires access to the Northwind sample database. For information about setting up the Northwind sample database, see [How to: Install Sample Databases](../data-tools/how-to-install-sample-databases.md).  
   
 ## Create a Windows application  
  The first step is to create a **Windows Application**.  

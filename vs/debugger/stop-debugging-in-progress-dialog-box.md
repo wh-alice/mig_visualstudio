@@ -1,7 +1,7 @@
 ---
-title: "Stop Debugging In Progress Dialog Box"
+title: "Stop Debugging In Progress Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,6 +25,7 @@ helpviewer_keywords:
   - "Stop Debugging in Progress dialog box"
 ms.assetid: ed7ef49d-e25f-4a4d-9396-9bc7b4143117
 caps.latest.revision: 7
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

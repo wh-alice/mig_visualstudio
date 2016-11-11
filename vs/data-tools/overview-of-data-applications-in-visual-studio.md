@@ -1,5 +1,5 @@
 ---
-title: "Overview of Data Applications in Visual Studio"
+title: "Overview of Data Applications in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "data [Visual Studio], creating applications"
 ms.assetid: b5bd71f4-23d7-4d6e-91fe-5aa24d0d06d6
 caps.latest.revision: 18
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 robots: noindex,nofollow
@@ -50,7 +51,7 @@ This section provides information and preparatory instructions for working with 
  [Local Data Overview](../data-tools/local-data-overview.md)  
  Describes the features in Visual Studio that you can use to work with SQL Server Express and Access databases.  
   
- [How to: Manage Local Data Files in Your Project](../data-tools/how-to--manage-local-data-files-in-your-project.md)  
+ [How to: Manage Local Data Files in Your Project](../data-tools/how-to-manage-local-data-files-in-your-project.md)  
  Describes how local data files are managed in a project and how to change the default behavior.  
   
  [Bind objects in Visual Studio](../data-tools/bind-objects-in-visual-studio.md)  
@@ -59,7 +60,7 @@ This section provides information and preparatory instructions for working with 
  [Additional resources for troubleshooting data access errors](../data-tools/additional-resources-for-troubleshooting-data-access-errors.md)  
  Provides links to forums related to working with data in Visual Studio.  
   
- [Installing database systems, tools, and samples](../data-tools/installing-database-systems--tools--and-samples.md)  
+ [Installing database systems, tools, and samples](../data-tools/installing-database-systems-tools-and-samples.md)  
  Provides links for downloading sample databases and lists topics related to configuring sample databases for use in data walkthroughs.  
   
  [Samples and Walkthroughs](../data-tools/data-applications-samples-and-walkthroughs.md)  
@@ -99,5 +100,5 @@ This section provides information and preparatory instructions for working with 
  [ADO.NET](../Topic/ADO.NET.md)  
  Describes the ADO.NET classes, which expose data-access services to the .NET programmer.  
   
- [Data in Office Solutions](../Topic/Data%20in%20Office%20Solutions.md)  
+ [Data in Office Solutions](/office-dev/office-dev/data-in-office-solutions)  
  Provides links to topics that explain how data works in Office solutions. Includes information about schema-oriented programming, data caching, and server-side data access.

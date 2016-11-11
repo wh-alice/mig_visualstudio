@@ -1,7 +1,7 @@
 ---
-title: "Extending JavaScript IntelliSense"
+title: "Extending JavaScript IntelliSense | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "IntelliSense [JavaScript], extending"
 ms.assetid: 004e1ab6-bd7a-4327-9e01-89b9be96ba2f
 caps.latest.revision: 39
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -45,7 +46,7 @@ The JavaScript IntelliSense extensibility feature enables you to customize Intel
   
  ![Example of a Quick Info pop&#45;up box](../ide/media/js_intellisense_quickinfo.png "js_intellisense_quickinfo")  
   
- To further improve the developer experience, you might want to provide type information to developers in the pop-up box. You can provide type information by using JavaScript [XML Documentation Comments](../ide/xml-documentation-comments--javascript-.md) instead of standard comment tags. You add XML Documentation Comments by using triple-slash comment tags (///) and a defined set of XML elements.  
+ To further improve the developer experience, you might want to provide type information to developers in the pop-up box. You can provide type information by using JavaScript [XML Documentation Comments](../ide/xml-documentation-comments-javascript.md) instead of standard comment tags. You add XML Documentation Comments by using triple-slash comment tags (///) and a defined set of XML elements.  
   
  Alternatively, you can provide type information by using JavaScript IntelliSense extensibility. This feature enables you to customize IntelliSense results by creating JavaScript extensions and adding them to the script context. In the extension, which is a JavaScript file, you subscribe to events that are exposed by the `intellisense` object of the language service. JavaScript IntelliSense extensibility is the preferred solution for libraries if a behavior pattern in the library prevents the JavaScript language service from providing the desired level of IntelliSense support, and if an alternative to declarative XML Documentation Comments is also needed. By customizing the IntelliSense results, you can create a first-class IntelliSense experience, regardless of any behavioral patterns that might restrict the language service's default capabilities. For more information, see [Statement Completion for Identifiers](../ide/statement-completion-for-identifiers.md).  
   
@@ -56,7 +57,7 @@ The JavaScript IntelliSense extensibility feature enables you to customize Intel
   
  If you want to use the extension for all your JavaScript project files, you might instead choose to add the extension to a reference group. There are several types of reference groups, either those that include implicit references and those that include dedicated worker references. To add an extension, you typically need to add the file as an implicit reference group, either **Implicit (Windows)**, **Implicit (Web)**. Implicit references are in scope for every .js file opened in the Code Editor. When you use this method, you need to add both the extension and the file that the extension is supplementing.  
   
- Use the **IntelliSense** page of the **Options** dialog box to add an extension as a reference group. You can access the **IntelliSense** page by choosing **Tools**, **Options** on the menu bar, and then choosing **Text Editor**, **JavaScript**, **IntelliSense**, **References**. For more information about reference groups, see [JavaScript IntelliSense](../ide/javascript-intellisense.md) and [Options, Text Editor, JavaScript, IntelliSense](../ide/reference/options--text-editor--javascript--intellisense.md).  
+ Use the **IntelliSense** page of the **Options** dialog box to add an extension as a reference group. You can access the **IntelliSense** page by choosing **Tools**, **Options** on the menu bar, and then choosing **Text Editor**, **JavaScript**, **IntelliSense**, **References**. For more information about reference groups, see [JavaScript IntelliSense](../ide/javascript-intellisense.md) and [Options, Text Editor, JavaScript, IntelliSense](../ide/reference/options-text-editor-javascript-intellisense.md).  
   
  If you want to use the extension for a specific set of files, use a reference directive. When you use this method, you need to reference both the extension and the file the extension is supplementing. For information about using the reference directive, see [JavaScript IntelliSense](../ide/javascript-intellisense.md).  
   
@@ -170,7 +171,7 @@ intellisense.addEventListener('statementcompletion', function (event) {
   
 -   `functionName`. Read/write. Returns a string that contains the function name.  
   
--   `signatures`. Read/write. Gets or sets the array of function signatures. Each element in the array is a `signature` object. Some `signature` properties, such as `locid`, correspond to common [XML Documentation Comments](../ide/xml-documentation-comments--javascript-.md) attributes.  
+-   `signatures`. Read/write. Gets or sets the array of function signatures. Each element in the array is a `signature` object. Some `signature` properties, such as `locid`, correspond to common [XML Documentation Comments](../ide/xml-documentation-comments-javascript.md) attributes.  
   
      The members of the `signature` object include:  
   
@@ -184,7 +185,7 @@ intellisense.addEventListener('statementcompletion', function (event) {
   
     -   `externalid`. Read/write. Returns a string that represents the member ID of the function.  
   
-    -   `params`. Read/write. Gets or sets the array of parameters for the function. Each element in the parameters array is a `parameter` object that has properties that correspond to the following attributes of the [\<param>](../ide/-param---javascript-.md) element:  
+    -   `params`. Read/write. Gets or sets the array of parameters for the function. Each element in the parameters array is a `parameter` object that has properties that correspond to the following attributes of the [\<param>](../ide/param-javascript.md) element:  
   
         -   `name`. Read/write. Returns a string that represents the parameter name.  
   
@@ -198,7 +199,7 @@ intellisense.addEventListener('statementcompletion', function (event) {
   
         -   `optional`. Read/write. Returns a string that indicates whether the parameter is optional. `true` indicates that the parameter is optional; `false` indicates that it isn't.  
   
-    -   `returnValue`. Read/write. Gets or sets a return value object with properties that correspond to the following attributes of the [\<returns>](../ide/-returns---javascript-.md) element:  
+    -   `returnValue`. Read/write. Gets or sets a return value object with properties that correspond to the following attributes of the [\<returns>](../ide/returns-javascript.md) element:  
   
         -   `type`. Read/write. Returns a string that represents the return type.  
   
@@ -234,7 +235,7 @@ intellisense.addEventListener('statementcompletion', function (event) {
   
  Return value: `symbolHelp` object.  
   
- Some properties of the `symbolHelp` object, such as `locid`, correspond to common [XML Documentation Comments](../ide/xml-documentation-comments--javascript-.md) attributes.  
+ Some properties of the `symbolHelp` object, such as `locid`, correspond to common [XML Documentation Comments](../ide/xml-documentation-comments-javascript.md) attributes.  
   
  Following are the members of the `symbolHelp` object:  
   

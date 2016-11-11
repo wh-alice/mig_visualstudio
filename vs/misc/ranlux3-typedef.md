@@ -1,7 +1,7 @@
 ---
-title: "ranlux3 TypeDef"
+title: "ranlux3 TypeDef | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "ranlux3 class [TR1]"
 ms.assetid: fb7a6588-ffd7-4059-974d-0c6082933453
 caps.latest.revision: 10
+author: "erickson-doug"
 ms.author: "douge"
 manager: "douge"
 translation.priority.mt: 

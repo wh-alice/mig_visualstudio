@@ -1,7 +1,7 @@
 ---
-title: "Text Buffer Events in the Legacy API"
+title: "Text Buffer Events in the Legacy API | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,7 +33,7 @@ translation.priority.mt:
 # Text Buffer Events in the Legacy API
 The text buffer object emits several different events that allow you to respond to different situations.  
   
- When you are using the legacy API, you should implement the following interfaces in order to receive notification of changes to the text buffer. Expose the interfaces to the text buffer using the `IConnectionPointContainer` interface on the text buffer to receive notification of line changes from the buffer. For more information, see [How to: Register for Text Buffer Events with the Legacy API](../extensibility/how-to--register-for-text-buffer-events-with-the-legacy-api.md). In the case of `IVsTextStreamEvents` or `IVsTextLinesEvents` interfaces, changes are returned in either one- or two-dimensional coordinates, respectively.  
+ When you are using the legacy API, you should implement the following interfaces in order to receive notification of changes to the text buffer. Expose the interfaces to the text buffer using the `IConnectionPointContainer` interface on the text buffer to receive notification of line changes from the buffer. For more information, see [How to: Register for Text Buffer Events with the Legacy API](../extensibility/how-to-register-for-text-buffer-events-with-the-legacy-api.md). In the case of `IVsTextStreamEvents` or `IVsTextLinesEvents` interfaces, changes are returned in either one- or two-dimensional coordinates, respectively.  
   
 ## Text Buffer Interfaces  
  Following are the interfaces implemented by the text buffer object.  
@@ -64,4 +64,4 @@ The text buffer object emits several different events that allow you to respond 
   
 ## See Also  
  [Accessing the Text Buffer by Using the Legacy API](../extensibility/accessing-the-text-buffer-by-using-the-legacy-api.md)   
- [How to: Register for Text Buffer Events with the Legacy API](../extensibility/how-to--register-for-text-buffer-events-with-the-legacy-api.md)
+ [How to: Register for Text Buffer Events with the Legacy API](../extensibility/how-to-register-for-text-buffer-events-with-the-legacy-api.md)

@@ -1,7 +1,7 @@
 ---
-title: "Creating Data Applications"
+title: "Creating Data Applications | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "data [Visual Studio], creating applications"
 ms.assetid: ab334d5f-4f49-4346-bce0-3325d6130b3e
 caps.latest.revision: 41
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 robots: noindex,nofollow
@@ -72,16 +73,16 @@ The Data Cycle
   
  For more information on creating typed datasets in your application, see [Preparing Your Application to Receive Data](../Topic/Preparing%20Your%20Application%20to%20Receive%20Data.md). For additional information about using datasets in n-tier applications, see [Separate datasets and TableAdapters into different projects](../data-tools/separate-datasets-and-tableadapters-into-different-projects.md).  
   
- To learn how to create a dataset, complete the procedures in [Walkthrough: Creating a Dataset with the Dataset Designer](../data-tools/walkthrough--creating-a-dataset-with-the-dataset-designer.md).  
+ To learn how to create a dataset, complete the procedures in [Walkthrough: Creating a Dataset with the Dataset Designer](../data-tools/walkthrough-creating-a-dataset-with-the-dataset-designer.md).  
   
  To learn how to create [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] objects, complete the procedures in [Walkthrough: Creating LINQ to SQL Classes (O-R Designer)](../Topic/Walkthrough:%20Creating%20LINQ%20to%20SQL%20Classes%20\(O-R%20Designer\).md).  
   
 ## Fetching Data into Your Application  
- Whether your application uses a disconnected data model or not, you need to be able to fetch data into your application. You bring data into your application by executing queries or stored procedures against a database. Applications that store data in datasets execute queries and stored procedures by using `TableAdapter`s, whereas applications that store data in entities execute queries by using [LINQ to Entities](../Topic/LINQ%20to%20Entities.md) or by connecting entities directly to stored procedures. For more information about creating and editing queries that use TableAdapters, see [How to: Create TableAdapter Queries](../data-tools/how-to--create-tableadapter-queries.md) and [How to: Edit TableAdapter Queries](../data-tools/how-to--edit-tableadapter-queries.md).  
+ Whether your application uses a disconnected data model or not, you need to be able to fetch data into your application. You bring data into your application by executing queries or stored procedures against a database. Applications that store data in datasets execute queries and stored procedures by using `TableAdapter`s, whereas applications that store data in entities execute queries by using [LINQ to Entities](../Topic/LINQ%20to%20Entities.md) or by connecting entities directly to stored procedures. For more information about creating and editing queries that use TableAdapters, see [How to: Create TableAdapter Queries](../data-tools/how-to-create-tableadapter-queries.md) and [How to: Edit TableAdapter Queries](../data-tools/how-to-edit-tableadapter-queries.md).  
   
  For more information about loading data into datasets, and about executing queries and stored procedures, see [Fetching Data into Your Application](../data-tools/fetching-data-into-your-application.md).  
   
- To learn how to load data into a dataset, complete the procedures in [Walkthrough: Displaying Data on a Windows Form](../data-tools/walkthrough--displaying-data-on-a-windows-form.md) and examine the code in the form-load event handler.  
+ To learn how to load data into a dataset, complete the procedures in [Walkthrough: Displaying Data on a Windows Form](../data-tools/walkthrough-displaying-data-on-a-windows-form.md) and examine the code in the form-load event handler.  
   
  To learn how to load data into [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] objects, complete the procedures in [Walkthrough: Creating LINQ to SQL Classes (O-R Designer)](../Topic/Walkthrough:%20Creating%20LINQ%20to%20SQL%20Classes%20\(O-R%20Designer\).md).  
   
@@ -94,7 +95,7 @@ The Data Cycle
   
  To learn how to present data to users, complete the procedures in the following walkthroughs (paying particular attention to the process of dragging items from the **Data Sources** window):  
   
--   [Walkthrough: Displaying Data on a Windows Form](../data-tools/walkthrough--displaying-data-on-a-windows-form.md).  
+-   [Walkthrough: Displaying Data on a Windows Form](../data-tools/walkthrough-displaying-data-on-a-windows-form.md).  
   
 -   [Bind WPF controls to a WCF data service](../data-tools/bind-wpf-controls-to-a-wcf-data-service.md)  
   
@@ -113,7 +114,7 @@ The Data Cycle
  To learn how to add validation to a dataset that is separated into an n-tier application, see [Add validation to an n-tier dataset](../data-tools/add-validation-to-an-n-tier-dataset.md).  
   
 ## Saving Data  
- After making changes in your application (and validating those changes), you typically want to send the changes back to the database. Applications that store data in datasets typically use a TableAdapterManager to save data. For more information, see [TableAdapterManager Overview](../Topic/TableAdapterManager%20Overview.md). Entity Framework applications use the <xref:System.Data.Objects.ObjectContext.SaveChanges*> method to save data.  
+ After making changes in your application (and validating those changes), you typically want to send the changes back to the database. Applications that store data in datasets typically use a TableAdapterManager to save data. For more information, see [TableAdapterManager Overview](../Topic/TableAdapterManager%20Overview.md). Entity Framework applications use the <xref:System.Data.Objects.ObjectContext.SaveChanges%2A> method to save data.  
   
  For more information on sending updated data back to a database, see [Saving Data](../data-tools/saving-data.md).  
   

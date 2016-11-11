@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Error RC2106"
+title: "Resource Compiler Error RC2106 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC2106"
 ms.assetid: 39205e5b-17a2-44bd-9abd-1aa6adf9c94e
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
-title: "Miscellaneous Files"
+title: "Miscellaneous Files | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,6 +23,7 @@ helpviewer_keywords:
   - "files [Visual Studio], Miscellaneous Files folder"
 ms.assetid: 5b96640b-8efe-48a4-8d0a-1ae3f9587e44
 caps.latest.revision: 11
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -48,7 +49,7 @@ You might want to use the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_m
   
  ![Solutions Projects](../../ide/reference/media/projects_solutions_misc.gif "Projects_Solutions_Misc")  
   
- Solution Explorer can display a Miscellaneous Files folder for the files if the options for the folder are enabled. The options can be set from the [Documents, Environment, Options Dialog Box](../../ide/reference/documents--environment--options-dialog-box.md). After you close a miscellaneous file, it is not associated with any particular solution or project unless an option is enabled for that as well.  
+ Solution Explorer can display a Miscellaneous Files folder for the files if the options for the folder are enabled. The options can be set from the [Documents, Environment, Options Dialog Box](../../ide/reference/documents-environment-options-dialog-box.md). After you close a miscellaneous file, it is not associated with any particular solution or project unless an option is enabled for that as well.  
   
  The Miscellaneous Files folder represents the files as links. Although this folder is not part of a solution, when you open a solution, some or all of the miscellaneous files that were opened when the solution was last closed are re-opened, depending upon the settings for the folder.  
   
@@ -63,4 +64,4 @@ You might want to use the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_m
   
 ## See Also  
  [Solutions and Projects](../../ide/solutions-and-projects-in-visual-studio.md)   
- [Documents, Environment, Options Dialog Box](../../ide/reference/documents--environment--options-dialog-box.md)
+ [Documents, Environment, Options Dialog Box](../../ide/reference/documents-environment-options-dialog-box.md)

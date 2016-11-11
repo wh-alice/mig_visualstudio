@@ -1,7 +1,7 @@
 ---
-title: "Immediate Window"
+title: "Immediate Window | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "first-chance exception notifications"
 ms.assetid: d33e7937-73f3-4c69-9df0-777a8713c6f2
 caps.latest.revision: 24
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -84,7 +85,7 @@ The **Immediate** window is used to debug and evaluate expressions, execute stat
   
      The **Immediate** window will run `MyFunction` and display `4`.  
   
- If the function or subroutine contains a breakpoint, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] will break execution at the appropriate point. You can then use the debugger windows to examine your program state. For more information see [Walkthrough: Debugging at Design Time](../../debugger/walkthrough--debugging-at-design-time.md).  
+ If the function or subroutine contains a breakpoint, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] will break execution at the appropriate point. You can then use the debugger windows to examine your program state. For more information see [Walkthrough: Debugging at Design Time](../../debugger/walkthrough-debugging-at-design-time.md).  
   
  You cannot use design time expression evaluation in project types that require starting up an execution environment, including [!INCLUDE[trprVSTOshort](../../ide/reference/includes/trprvstoshort_md.md)] projects, Web projects, Smart Device projects, and SQL projects.  
   
@@ -137,6 +138,6 @@ The **Immediate** window is used to debug and evaluate expressions, execute stat
  [Command Window](../../ide/reference/command-window.md)   
  [Debugging in Visual Studio](../../debugger/debugging-in-visual-studio.md)   
  [Debugger Basics](../../debugger/debugger-basics.md)   
- [Walkthrough: Debugging at Design Time](../../debugger/walkthrough--debugging-at-design-time.md)   
+ [Walkthrough: Debugging at Design Time](../../debugger/walkthrough-debugging-at-design-time.md)   
  [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md)   
  [Using Regular Expressions in Visual Studio](../../ide/using-regular-expressions-in-visual-studio.md)

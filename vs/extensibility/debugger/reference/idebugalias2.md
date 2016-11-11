@@ -1,7 +1,7 @@
 ---
-title: "IDebugAlias2"
+title: "IDebugAlias2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -50,7 +50,7 @@ IDebugAlias2 : IDebugAlias
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetAppDomainId](../../../extensibility/debugger/reference/idebugalias2--getappdomainid.md)|Retrieves the identifier for the application domain.|  
+|[GetAppDomainId](../../../extensibility/debugger/reference/idebugalias2-getappdomainid.md)|Retrieves the identifier for the application domain.|  
   
 ## Remarks  
  An alias is a decimal number in string form followed by the # character, for example, 1001#.  

@@ -1,7 +1,7 @@
 ---
-title: "CvCreateMarkerSeriesWithCodePageA Function"
+title: "CvCreateMarkerSeriesWithCodePageA Function | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "CvCreateMarkerSeriesWithCodePageA method"
 ms.assetid: 3d7ed601-2222-4be9-a557-f217db008753
 caps.latest.revision: 3
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -67,4 +68,4 @@ HRESULT CvCreateMarkerSeriesWithCodePageA(
  **Header:** cvmarkers.h  
   
 ## See Also  
- [C++ Library Reference](../profiling/c---library-reference.md)
+ [C++ Library Reference](../profiling/cpp-library-reference.md)

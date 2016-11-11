@@ -1,7 +1,7 @@
 ---
-title: "Working with the Domain-Specific Language Explorer"
+title: "Working with the Domain-Specific Language Explorer | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ helpviewer_keywords:
   - "Domain-Specific Language Tools, DSL Explorer"
 ms.assetid: ca0e8550-bb55-4218-92e2-f79ab5308d4f
 caps.latest.revision: 11
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 ---
@@ -19,9 +20,9 @@ The **DSL Explorer** displays several kinds of information in a tree view. For m
   
  It has the following nodes:  
   
--   **Connection Builders**. A list of the connection builders in the model. For more information about connection builders, see [Customizing Link Creation - redirection](../misc/customizing-link-creation---redirection.md).  
+-   **Connection Builders**. A list of the connection builders in the model. For more information about connection builders, see [Customizing Link Creation - redirection](../misc/customizing-link-creation-redirection.md).  
   
--   **Connectors**. A list of the connector diagram elements in the model. For more information about connectors, see [Types of Shapes and Connectors - redirect](../misc/types-of-shapes-and-connectors---redirect.md).  
+-   **Connectors**. A list of the connector diagram elements in the model. For more information about connectors, see [Types of Shapes and Connectors - redirect](../misc/types-of-shapes-and-connectors-redirect.md).  
   
 -   **Diagram**. A set of properties that define the diagram, and lists of connector maps and shape maps.  
   

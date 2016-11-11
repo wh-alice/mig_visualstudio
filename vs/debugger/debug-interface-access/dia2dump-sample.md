@@ -1,7 +1,7 @@
 ---
-title: "Dia2dump Sample"
+title: "Dia2dump Sample | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "Dia2dump sample [DIA SDK]"
 ms.assetid: 492c0893-7043-452f-a020-890a47230d20
 caps.latest.revision: 12
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -62,5 +63,5 @@ The Dia2dump sample is installed with Visual Studio and contains the Dia2dump.cp
     ```  
   
 ## See Also  
- [Dia2dump.cpp Source File](../../debugger/debug-interface-access/dia2dump.cpp-source-file.md)   
- [How to: Troubleshoot Unsuccessful Visual Studio Project Upgrades](../../porting/how-to--troubleshoot-unsuccessful-visual-studio-project-upgrades.md)
+ [Dia2dump.cpp Source File](../../debugger/debug-interface-access/dia2dump-cpp-source-file.md)   
+ [How to: Troubleshoot Unsuccessful Visual Studio Project Upgrades](../../porting/how-to-troubleshoot-unsuccessful-visual-studio-project-upgrades.md)

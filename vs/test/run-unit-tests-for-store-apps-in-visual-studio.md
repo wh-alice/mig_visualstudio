@@ -1,7 +1,7 @@
 ---
-title: "Run unit tests for Store apps in Visual Studio"
+title: "Run unit tests for Store apps in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5a6f5b32-bfce-4a63-81e9-02d54c592539
 caps.latest.revision: 12
+author: "alexhomer1"
 ms.author: "ahomer"
 manager: "robinr"
 translation.priority.ht: 

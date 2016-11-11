@@ -1,7 +1,7 @@
 ---
-title: "IDebugBinder"
+title: "IDebugBinder | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -48,21 +48,21 @@ IDebugBinder : IUnknown
  This interface supports expression evaluation and must be implemented by the debug engine (DE).  
   
 ## Notes for Callers  
- This interface is used in the process of expression evaluation and is typically used in the implementation of [EvaluateSync](../../../extensibility/debugger/reference/idebugexpression2--evaluatesync.md) and [EvaluateAsync](../../../extensibility/debugger/reference/idebugexpression2--evaluateasync.md).  
+ This interface is used in the process of expression evaluation and is typically used in the implementation of [EvaluateSync](../../../extensibility/debugger/reference/idebugexpression2-evaluatesync.md) and [EvaluateAsync](../../../extensibility/debugger/reference/idebugexpression2-evaluateasync.md).  
   
 ## Methods in Vtable Order  
  The following table shows the methods of `IDebugBinder`.  
   
 |Method|Description|  
 |------------|-----------------|  
-|[Bind](../../../extensibility/debugger/reference/idebugbinder--bind.md)|Gets the memory context or object that contains the symbol's current value.|  
-|[ResolveRuntimeType](../../../extensibility/debugger/reference/idebugbinder--resolveruntimetype.md)|Determines the run-time type of an object.|  
-|[GetMemoryContext](../../../extensibility/debugger/reference/idebugbinder--getmemorycontext.md)|Converts an object location or memory address to a memory context.|  
-|[GetFunctionObject](../../../extensibility/debugger/reference/idebugbinder--getfunctionobject.md)|Gets an [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md) object used to create function parameters.|  
-|[ResolveDynamicType](../../../extensibility/debugger/reference/idebugbinder--resolvedynamictype.md)|Gets the exact type for a variable.|  
+|[Bind](../../../extensibility/debugger/reference/idebugbinder-bind.md)|Gets the memory context or object that contains the symbol's current value.|  
+|[ResolveRuntimeType](../../../extensibility/debugger/reference/idebugbinder-resolveruntimetype.md)|Determines the run-time type of an object.|  
+|[GetMemoryContext](../../../extensibility/debugger/reference/idebugbinder-getmemorycontext.md)|Converts an object location or memory address to a memory context.|  
+|[GetFunctionObject](../../../extensibility/debugger/reference/idebugbinder-getfunctionobject.md)|Gets an [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md) object used to create function parameters.|  
+|[ResolveDynamicType](../../../extensibility/debugger/reference/idebugbinder-resolvedynamictype.md)|Gets the exact type for a variable.|  
   
 ## Remarks  
- This interface returns objects that are used by the expression evaluator in parse trees. The expression evaluator parses an expression by using the symbol provider to convert the symbols in the expression to instances of [IDebugField](../../../extensibility/debugger/reference/idebugfield.md), which describe each symbol in terms of its type and location in the source code. The [Bind](../../../extensibility/debugger/reference/idebugbinder--bind.md) method converts `IDebugField` objects to [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) objects that connect or bind a symbol type to an actual value in memory. These `IDebugObject` objects are then stored in a parse tree for later evaluation.  
+ This interface returns objects that are used by the expression evaluator in parse trees. The expression evaluator parses an expression by using the symbol provider to convert the symbols in the expression to instances of [IDebugField](../../../extensibility/debugger/reference/idebugfield.md), which describe each symbol in terms of its type and location in the source code. The [Bind](../../../extensibility/debugger/reference/idebugbinder-bind.md) method converts `IDebugField` objects to [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) objects that connect or bind a symbol type to an actual value in memory. These `IDebugObject` objects are then stored in a parse tree for later evaluation.  
   
 ## Requirements  
  Header: ee.h  
@@ -73,6 +73,6 @@ IDebugBinder : IUnknown
   
 ## See Also  
  [Expression Evaluation Interfaces](../../../extensibility/debugger/reference/expression-evaluation-interfaces.md)   
- [EvaluateSync](../../../extensibility/debugger/reference/idebugexpression2--evaluatesync.md)   
- [EvaluateAsync](../../../extensibility/debugger/reference/idebugexpression2--evaluateasync.md)   
+ [EvaluateSync](../../../extensibility/debugger/reference/idebugexpression2-evaluatesync.md)   
+ [EvaluateAsync](../../../extensibility/debugger/reference/idebugexpression2-evaluateasync.md)   
  [IDebugFunctionObject](../../../extensibility/debugger/reference/idebugfunctionobject.md)

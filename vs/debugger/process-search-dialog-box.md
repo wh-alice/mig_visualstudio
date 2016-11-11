@@ -1,7 +1,7 @@
 ---
-title: "Process Search Dialog Box"
+title: "Process Search Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "Process Search"
 ms.assetid: 518e8153-eec2-4db9-a6f7-416ec11d8e09
 caps.latest.revision: 4
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -45,20 +46,20 @@ Use this dialog box to find and select the node for a specific process in [Proce
  The initial direction of the search.  
   
 ## Related Sections  
- [Searching for a Process in Processes View](../debugger/how-to--search-for-a-process-in-processes-view.md)  
+ [Searching for a Process in Processes View](../debugger/how-to-search-for-a-process-in-processes-view.md)  
  Explains how to find a specific process in Processes view.  
   
  [Processes View](../debugger/processes-view.md)  
  Displays a tree view of active processes.  
   
- [Spy++ Views](../debugger/spy---views.md)  
+ [Spy++ Views](../debugger/spy-increment-views.md)  
  Explains the Spy++ tree views of windows, messages, processes, and threads.  
   
- [Using Spy++](../debugger/using-spy--.md)  
+ [Using Spy++](../debugger/using-spy-increment.md)  
  Introduces the Spy++ tool and explains how it can be used.  
   
  [Process Properties Dialog Box](../debugger/process-properties-dialog-box.md)  
  Used to display the properties of a process selected in Processes view.  
   
- [Spy++ Reference](../debugger/spy---reference.md)  
+ [Spy++ Reference](../debugger/spy-increment-reference.md)  
  Includes sections describing each Spy++ menu and dialog box.

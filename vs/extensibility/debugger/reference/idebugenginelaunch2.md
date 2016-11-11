@@ -1,7 +1,7 @@
 ---
-title: "IDebugEngineLaunch2"
+title: "IDebugEngineLaunch2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -52,10 +52,10 @@ IDebugEngineLaunch2 : IDebugEngine2
   
 |Method|Description|  
 |------------|-----------------|  
-|[LaunchSuspended](../../../extensibility/debugger/reference/idebugenginelaunch2--launchsuspended.md)|Launches a process by means of the DE.|  
-|[ResumeProcess](../../../extensibility/debugger/reference/idebugenginelaunch2--resumeprocess.md)|Resumes process execution.|  
-|[CanTerminateProcess](../../../extensibility/debugger/reference/idebugenginelaunch2--canterminateprocess.md)|Determines if a process can be terminated.|  
-|[TerminateProcess](../../../extensibility/debugger/reference/idebugenginelaunch2--terminateprocess.md)|Terminates a process.|  
+|[LaunchSuspended](../../../extensibility/debugger/reference/idebugenginelaunch2-launchsuspended.md)|Launches a process by means of the DE.|  
+|[ResumeProcess](../../../extensibility/debugger/reference/idebugenginelaunch2-resumeprocess.md)|Resumes process execution.|  
+|[CanTerminateProcess](../../../extensibility/debugger/reference/idebugenginelaunch2-canterminateprocess.md)|Determines if a process can be terminated.|  
+|[TerminateProcess](../../../extensibility/debugger/reference/idebugenginelaunch2-terminateprocess.md)|Terminates a process.|  
   
 ## Requirements  
  Header: Msdbg.h  

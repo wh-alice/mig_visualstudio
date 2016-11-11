@@ -1,5 +1,5 @@
 ---
-title: "Run-time exception thrown"
+title: "Run-time exception thrown | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "BC30704"
 ms.assetid: 0491caed-92a6-408a-bb04-b181bf52239d
 caps.latest.revision: 8
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 

@@ -1,5 +1,5 @@
 ---
-title: "TargetFilePath specifies an existing folder"
+title: "TargetFilePath specifies an existing folder | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2334f49e-d080-4ee2-b036-f95c7f76c3ec
 caps.latest.revision: 9
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 

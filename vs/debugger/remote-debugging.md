@@ -1,7 +1,7 @@
 ---
-title: "Remote Debugging"
+title: "Remote Debugging | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "remote debugging, setup"
 ms.assetid: 5a94ad64-100d-43ca-9779-16cb5af86f97
 caps.latest.revision: 65
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -173,9 +174,9 @@ You can debug a Visual Studio application that has been deployed on a different 
  You can stop and start the remote debugger service from **Control Panel / Services**.  
 
 ## Remote debug an ASP.NET application  
- Deploying an ASP.NET application to a remote computer running IIS has different steps, depending on the operating system and version of IIS. For remote computers running Windows Server 2008 or Windows Server 2012 that have IIS 7.5 or later installed, please see [Remote Debugging ASP.NET on a Remote IIS Computer](../debugger/remote-debugging-asp.net-on-a-remote-iis-7.5-computer.md).
+ Deploying an ASP.NET application to a remote computer running IIS has different steps, depending on the operating system and version of IIS. For remote computers running Windows Server 2008 or Windows Server 2012 that have IIS 7.5 or later installed, please see [Remote Debugging ASP.NET on a Remote IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md).
  
- If you are debugging an ASP.NET Core app, please see [Publishing to IIS](https://docs.asp.net/en/latest/publishing/iis.html). Different steps are required to publish an ASP.NET Core on IIS. Once you publish an ASP.NET Core app successfully, you can remote debug it [just like other ASP.NET apps](../debugger/remote-debugging-asp.net-on-a-remote-iis-7.5-computer.md), except that the process you need to attach to is dnx.exe instead of w3wp.exe.
+ If you are debugging an ASP.NET Core app, please see [Publishing to IIS](https://docs.asp.net/en/latest/publishing/iis.html). Different steps are required to publish an ASP.NET Core on IIS. Once you publish an ASP.NET Core app successfully, you can remote debug it [just like other ASP.NET apps](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md), except that the process you need to attach to is dnx.exe instead of w3wp.exe.
 
 ## Remote debug a Visual C++ project  
  In the following procedure, the name and path of the project is C:\remotetemp\MyMfc, and the name of the remote computer is **MJO-DL**.  
@@ -297,5 +298,5 @@ You can debug a Visual Studio application that has been deployed on a different 
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)   
  [Configure the Windows Firewall for Remote Debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md)   
  [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md)   
- [Remote Debugging ASP.NET on a Remote IIS Computer](../debugger/remote-debugging-asp.net-on-a-remote-iis-7.5-computer.md)  
+ [Remote Debugging ASP.NET on a Remote IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)  
  [Remote Debugging Errors and Troubleshooting](../debugger/remote-debugging-errors-and-troubleshooting.md)

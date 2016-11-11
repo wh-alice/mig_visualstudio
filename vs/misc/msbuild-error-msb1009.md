@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB1009"
+title: "MSBuild Error MSB1009 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB1009"
 ms.assetid: 176d3a84-6a4a-4649-bbef-7c88ced815eb
 caps.latest.revision: 9
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

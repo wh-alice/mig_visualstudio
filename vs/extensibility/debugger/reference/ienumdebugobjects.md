@@ -1,7 +1,7 @@
 ---
-title: "IEnumDebugObjects"
+title: "IEnumDebugObjects | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,21 +45,21 @@ IEnumDebugObjects : IUnknown
 ```  
   
 ## Notes for Implementers  
- The expression evaluator implements this interface to provide sets of objects that implement the [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) interface. Note that this is not a standard COM enumeration due to the presence of the [GetCount](../../../extensibility/debugger/reference/ienumdebugobjects--getcount.md) method.  
+ The expression evaluator implements this interface to provide sets of objects that implement the [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) interface. Note that this is not a standard COM enumeration due to the presence of the [GetCount](../../../extensibility/debugger/reference/ienumdebugobjects-getcount.md) method.  
   
 ## Notes for Callers  
- [GetElements](../../../extensibility/debugger/reference/idebugarrayobject--getelements.md) returns this interface.  
+ [GetElements](../../../extensibility/debugger/reference/idebugarrayobject-getelements.md) returns this interface.  
   
 ## Methods in Vtable order  
  This interface implements the following methods.  
   
 |Method|Description|  
 |------------|-----------------|  
-|[Next](../../../extensibility/debugger/reference/ienumdebugobjects--next.md)|Retrieves the next set of [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) objects from the enumeration.|  
-|[Skip](../../../extensibility/debugger/reference/ienumdebugobjects--skip.md)|Skips a specified number of entries.|  
-|[Reset](../../../extensibility/debugger/reference/ienumdebugobjects--reset.md)|Resets the enumeration to the first entry.|  
-|[Clone](../../../extensibility/debugger/reference/ienumdebugobjects--clone.md)|Retrieves a copy of the current enumeration.|  
-|[GetCount](../../../extensibility/debugger/reference/ienumdebugobjects--getcount.md)|Retrieves the number of entries in the enumeration.|  
+|[Next](../../../extensibility/debugger/reference/ienumdebugobjects-next.md)|Retrieves the next set of [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) objects from the enumeration.|  
+|[Skip](../../../extensibility/debugger/reference/ienumdebugobjects-skip.md)|Skips a specified number of entries.|  
+|[Reset](../../../extensibility/debugger/reference/ienumdebugobjects-reset.md)|Resets the enumeration to the first entry.|  
+|[Clone](../../../extensibility/debugger/reference/ienumdebugobjects-clone.md)|Retrieves a copy of the current enumeration.|  
+|[GetCount](../../../extensibility/debugger/reference/ienumdebugobjects-getcount.md)|Retrieves the number of entries in the enumeration.|  
   
 ## Remarks  
  This interface allows a debug engine to enumerate over a set of objects in an array.  
@@ -73,4 +73,4 @@ IEnumDebugObjects : IUnknown
   
 ## See Also  
  [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md)   
- [GetElements](../../../extensibility/debugger/reference/idebugarrayobject--getelements.md)
+ [GetElements](../../../extensibility/debugger/reference/idebugarrayobject-getelements.md)

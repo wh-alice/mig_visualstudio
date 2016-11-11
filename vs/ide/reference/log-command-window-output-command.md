@@ -1,7 +1,7 @@
 ---
-title: "Log Command Window Output Command"
+title: "Log Command Window Output Command | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "View.LogCommandWindowOutput command"
 ms.assetid: d4ecec35-5af4-4954-8d60-2cd24583fbb4
 caps.latest.revision: 10
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB2005"
+title: "MSBuild Error MSB2005 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB2005"
 ms.assetid: 62db2963-3811-4a92-8f4d-ff9145cb53ef
 caps.latest.revision: 10
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
-title: "CLS Compliance Warning CLS03302"
+title: "CLS Compliance Warning CLS03302 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CLS03302"
 ms.assetid: 3b99e64b-d5cb-4eb8-81b5-fd96992f2c10
 caps.latest.revision: 7
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
-title: "IDebugIDECallback"
+title: "IDebugIDECallback | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -53,7 +53,7 @@ IDebugIDECallback : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[DisplayMessage](../../../extensibility/debugger/reference/idebugidecallback--displaymessage.md)|Sends the specified message string to the debugger's output window.|  
+|[DisplayMessage](../../../extensibility/debugger/reference/idebugidecallback-displaymessage.md)|Sends the specified message string to the debugger's output window.|  
   
 ## Requirements  
  Header: Ee.h  

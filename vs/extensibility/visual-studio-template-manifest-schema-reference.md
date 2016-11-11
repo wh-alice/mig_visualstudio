@@ -1,7 +1,7 @@
 ---
-title: "Visual Studio Template Manifest Schema Reference"
+title: "Visual Studio Template Manifest Schema Reference | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -61,7 +61,7 @@ This schema describes the format of the Visual Studio template manifest (.vstman
   
 -   **RelativePathOnDisk**:  The relative path of the template file on disk. This location also defines the placement of the template in the template tree shown in the **New Project** or **New Item** dialog. For templates deployed as a directory and individual files, this path refers to the directory containing the template files. For templates deployed as a .zip file, this path should be the path to the .zip file.  
   
--   **VSTemplateHeader** : A [TemplateData](../extensibility/templatedata-element--visual-studio-templates-.md) element that describes the header.  
+-   **VSTemplateHeader** : A [TemplateData](../extensibility/templatedata-element-visual-studio-templates.md) element that describes the header.  
   
 ### Parent Element  
  **VSTemplateManifest**  

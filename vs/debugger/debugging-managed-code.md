@@ -1,7 +1,7 @@
 ---
-title: "Debugging Managed Code"
+title: "Debugging Managed Code | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,6 +23,7 @@ helpviewer_keywords:
   - "managed code, debugging"
 ms.assetid: fa3aff01-c271-4aa7-b5b1-def560471c84
 caps.latest.revision: 34
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -53,16 +54,16 @@ This section covers common debugging problems and techniques for managed applica
  [Stop Statements in Visual Basic](../debugger/stop-statements-in-visual-basic.md)  
  Describes the `Stop` statement, which provides an alternative to setting a breakpoint. Example code is also provided, along with comparisons between the `Stop` statement and the `End` statement, as well as between `Stop` and the `Assert` statement.  
   
- [Walkthrough: Debugging a Windows Form](../debugger/walkthrough--debugging-a-windows-form.md)  
+ [Walkthrough: Debugging a Windows Form](../debugger/walkthrough-debugging-a-windows-form.md)  
  Gives step-by-step instructions for creating a Windows Form and debugging that form. A Windows Form, a standard component of a managed Windows application, is one of the most common managed applications. This walkthrough uses Visual C# and Visual Basic, but the techniques for creating a Windows form with C++ are generally similar.  
   
- [Debugging the OnStart Method](../debugger/how-to--debug-the-onstart-method.md)  
+ [Debugging the OnStart Method](../debugger/how-to-debug-the-onstart-method.md)  
  Provides code examples to allow you to debug the `OnStart` method of a managed Windows service. To debug the `OnStart` method of a Windows service, you must add a few lines of code to simulate the service.  
   
  [Mixed-Mode Debugging](../debugger/debugging-mixed-mode-applications.md)  
  Discusses debugging mixed-mode applications. This means any application that combines native code with managed code.  
   
- [Error: Debugging isn't possible because a kernel debugger is enabled on the system](../debugger/630a7abd-3303-4aaa-888a-6de3de14bc01.md)  
+ [Error: Debugging isn't possible because a kernel debugger is enabled on the system](../debugger/error-debugging-isn-t-possible-because-a-kernel-debugger-is-enabled-on-the-system.md)  
  Describes an error message that occurs if you try to debug managed code on a [!INCLUDE[win7](../debugger/includes/win7_md.md)], [!INCLUDE[wiprlhext](../debugger/includes/wiprlhext_md.md)], [!INCLUDE[winxp](../code-quality/includes/winxp_md.md)], [!INCLUDE[Win2kFamily](../code-quality/includes/win2kfamily_md.md)], or Windows NT system that has been started in debug mode.  
   
  [JIT Optimization and Debugging](../debugger/jit-optimization-and-debugging.md)  
@@ -71,7 +72,7 @@ This section covers common debugging problems and techniques for managed applica
  [Debugging LINQ and DLINQ](../debugger/debugging-linq.md)  
  Discusses techniques for debugging LINQ queries.  
   
- [Walkthrough: Debugging a Parallel Application](../debugger/walkthrough--debugging-a-parallel-application.md)  
+ [Walkthrough: Debugging a Parallel Application](../debugger/walkthrough-debugging-a-parallel-application.md)  
  Describes how to use the **Parallel Tasks** and **Parallel Stacks** tool windows to debug a parallel application.  
   
 ## Related Sections  
@@ -81,7 +82,7 @@ This section covers common debugging problems and techniques for managed applica
  [Tracing and Instrumenting Applications](../Topic/Tracing%20and%20Instrumenting%20Applications.md)  
  Describes tracing, a way for you to monitor the execution of your application while it is running, and instrumenting, which involves placing trace statements at strategic locations in your code. This topic also provides links to an introduction to instrumentation and tracing, trace switches, trace listeners, tracing code in an application, adding trace statements to application code, and compiling conditionally with <xref:System.Diagnostics.Debug> and <xref:System.Diagnostics.Trace>.  
   
- [/ASSEMBLYDEBUG](../Topic/-ASSEMBLYDEBUG%20\(Add%20DebuggableAttribute\).md)  
+ [/ASSEMBLYDEBUG](/visual-cpp/build/reference/assemblydebug-add-debuggableattribute)  
  Describes a linker option that adds <xref:System.Diagnostics.DebuggableAttribute> to code written with C++. This attribute is needed to use debugging features such as attach with C++.  
   
  [Debugging Windows Service Applications](../Topic/How%20to:%20Debug%20Windows%20Service%20Applications.md)  

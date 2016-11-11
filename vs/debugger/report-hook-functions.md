@@ -1,7 +1,7 @@
 ---
-title: "Report Hook Functions"
+title: "Report Hook Functions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -27,6 +27,7 @@ helpviewer_keywords:
   - "report hook functions"
 ms.assetid: 1854bca7-d7eb-4502-89bf-b1ee64cb50ef
 caps.latest.revision: 15
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -45,7 +46,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Report Hook Functions
-A report hook function, installed using [_CrtSetReportHook](../Topic/_CrtSetReportHook.md), is called every time [_CrtDbgReport](../Topic/_CrtDbgReport,%20_CrtDbgReportW.md) generates a debug report. You can use it, among other things, for filtering reports to focus on specific types of allocations. A report hook function should have a prototype like the following:  
+A report hook function, installed using [_CrtSetReportHook](/visual-cpp/c-runtime-library/reference/crtsetreporthook), is called every time [_CrtDbgReport](/visual-cpp/c-runtime-library/reference/crtdbgreport-crtdbgreportw) generates a debug report. You can use it, among other things, for filtering reports to focus on specific types of allocations. A report hook function should have a prototype like the following:  
   
 ```  
 int YourReportHook(int nRptType, char *szMsg, int *retVal);  

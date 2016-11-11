@@ -1,7 +1,7 @@
 ---
-title: "Generate and configure your app from models"
+title: "Generate and configure your app from models | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4dc8f572-a09e-4d19-a92d-f1df383e728b
 caps.latest.revision: 7
+author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
 translation.priority.ht: 
@@ -53,7 +54,7 @@ You can generate or configure parts of your application from a model. The model 
   
 -   [Read a UML model in program code](../modeling/read-a-uml-model-in-program-code.md)  
   
--   [How to: Open a Model from File in Program Code](../modeling/how-to--open-a-model-from-file-in-program-code.md)  
+-   [How to: Open a Model from File in Program Code](../modeling/how-to-open-a-model-from-file-in-program-code.md)  
   
  This method can also be applied incrementally, but there is more work at the beginning. You need to write the code that will read the model, and set up a framework that allows its values to be accessible to the variable parts. Making the variable parts generic is more expensive than code generation.  
   
@@ -90,5 +91,5 @@ You can generate or configure parts of your application from a model. The model 
  [Generate files from a UML model](../modeling/generate-files-from-a-uml-model.md)   
  [Read a UML model in program code](../modeling/read-a-uml-model-in-program-code.md)   
  [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)   
- [How to: Open a Model from File in Program Code](../modeling/how-to--open-a-model-from-file-in-program-code.md)   
+ [How to: Open a Model from File in Program Code](../modeling/how-to-open-a-model-from-file-in-program-code.md)   
  [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md)

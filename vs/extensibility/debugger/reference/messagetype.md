@@ -1,7 +1,7 @@
 ---
-title: "MESSAGETYPE"
+title: "MESSAGETYPE | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -80,7 +80,7 @@ public enum enum_MESSAGETYPE { 
  A mask value to isolate the reason for the message being shown.  
   
 ## Remarks  
- These values are returned from the [GetMessage](../../../extensibility/debugger/reference/idebugmessageevent2--getmessage.md) and [GetErrorMessage](../../../extensibility/debugger/reference/idebugerrorevent2--geterrormessage.md) methods.  
+ These values are returned from the [GetMessage](../../../extensibility/debugger/reference/idebugmessageevent2-getmessage.md) and [GetErrorMessage](../../../extensibility/debugger/reference/idebugerrorevent2-geterrormessage.md) methods.  
   
  One of the reason values can be combined with one of the output destination values using a bitwise `OR`.  
   
@@ -92,6 +92,6 @@ public enum enum_MESSAGETYPE { 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll  
   
 ## See Also  
- [Enumerations](../../../extensibility/debugger/reference/enumerations--visual-studio-debugging-.md)   
- [GetMessage](../../../extensibility/debugger/reference/idebugmessageevent2--getmessage.md)   
- [GetErrorMessage](../../../extensibility/debugger/reference/idebugerrorevent2--geterrormessage.md)
+ [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)   
+ [GetMessage](../../../extensibility/debugger/reference/idebugmessageevent2-getmessage.md)   
+ [GetErrorMessage](../../../extensibility/debugger/reference/idebugerrorevent2-geterrormessage.md)

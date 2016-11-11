@@ -1,7 +1,7 @@
 ---
-title: "Diagnostic Messages in the Output Window"
+title: "Diagnostic Messages in the Output Window | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,6 +31,7 @@ helpviewer_keywords:
   - "Debug class"
 ms.assetid: 386e9524-be17-4573-83fb-4f7c5cae0be0
 caps.latest.revision: 16
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -56,9 +57,9 @@ You can write run-time messages to the Output window using the Debug class or th
   
 -   Various `Write` methods, which output information without breaking execution. These methods replace the `Debug.Print` method used in previous versions of Visual Basic.  
   
--   <xref:System.Diagnostics.Debug.Assert*?displayProperty=fullName> and <xref:System.Diagnostics.Trace.Assert*?displayProperty=fullName> methods, which break execution and outputs information if a specified condition fails. By default, the `Assert` method displays the information in a dialog box. For more information, see [Assertions in Managed Code](../debugger/assertions-in-managed-code.md).  
+-   <xref:System.Diagnostics.Debug.Assert%2A?displayProperty=fullName> and <xref:System.Diagnostics.Trace.Assert%2A?displayProperty=fullName> methods, which break execution and outputs information if a specified condition fails. By default, the `Assert` method displays the information in a dialog box. For more information, see [Assertions in Managed Code](../debugger/assertions-in-managed-code.md).  
   
--   The <xref:System.Diagnostics.Debug.Fail*?displayProperty=fullName> and <xref:System.Diagnostics.Trace.Fail*?displayProperty=fullName> methods, which always breaks execution and outputs information. By default, the `Fail` methods display the information in a dialog box.  
+-   The <xref:System.Diagnostics.Debug.Fail%2A?displayProperty=fullName> and <xref:System.Diagnostics.Trace.Fail%2A?displayProperty=fullName> methods, which always breaks execution and outputs information. By default, the `Fail` methods display the information in a dialog box.  
   
  In addition to program out from your application, the **Output** window can display the information about:  
   
@@ -75,5 +76,5 @@ You can write run-time messages to the Output window using the Debug class or th
  [Output Window](../ide/reference/output-window.md)   
  [Tracing and Instrumenting Applications](../Topic/Tracing%20and%20Instrumenting%20Applications.md)   
  [Introduction to Instrumentation and Tracing](http://msdn.microsoft.com/en-us/e924e57c-33cf-4b0e-9e7f-a45d13e38f2c)   
- [C#, F#, and Visual Basic Project Types](../debugger/debugging-preparation--csharp--fsharp--and-visual-basic-project-types.md)   
+ [C#, F#, and Visual Basic Project Types](../debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)   
  [Debugging Managed Code](../debugger/debugging-managed-code.md)

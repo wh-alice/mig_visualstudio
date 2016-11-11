@@ -1,5 +1,5 @@
 ---
-title: "Only one XML comment block is allowed per language element"
+title: "Only one XML comment block is allowed per language element | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "BC42301"
 ms.assetid: 04c4b833-2001-420d-9f49-4048a3b04ee4
 caps.latest.revision: 9
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -45,4 +46,4 @@ More than one XML comment block has been applied to a language element.
   
 ## See Also  
  [How to: Create XML Documentation](../Topic/How%20to:%20Create%20XML%20Documentation%20in%20Visual%20Basic.md)   
- [Documenting Your Code with XML](../Topic/Documenting%20Your%20Code%20with%20XML%20\(Visual%20Basic\).md)
+ [Documenting Your Code with XML](/dotnet/visual-basic/programming-guide/program-structure/documenting-your-code-with-xml)

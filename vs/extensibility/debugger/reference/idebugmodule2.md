@@ -1,7 +1,7 @@
 ---
-title: "IDebugModule2"
+title: "IDebugModule2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,19 +45,19 @@ IDebugModule2 : IUnknown
  The debug engine (DE) implements this interface to represent a module and to provide access to information about that module.  
   
 ## Notes for Callers  
- A call to [GetModule](../../../extensibility/debugger/reference/idebugmoduleloadevent2--getmodule.md) returns this interface. The DE sends the [IDebugModuleLoadEvent2](../../../extensibility/debugger/reference/idebugmoduleloadevent2.md) interface to the session debug manager (SDM) using the [Event](../../../extensibility/debugger/reference/idebugeventcallback2--event.md) method.  
+ A call to [GetModule](../../../extensibility/debugger/reference/idebugmoduleloadevent2-getmodule.md) returns this interface. The DE sends the [IDebugModuleLoadEvent2](../../../extensibility/debugger/reference/idebugmoduleloadevent2.md) interface to the session debug manager (SDM) using the [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md) method.  
   
- This interface can also be returned in a [FRAMEINFO](../../../extensibility/debugger/reference/frameinfo.md) structure (which is returned by a call to [EnumFrameInfo](../../../extensibility/debugger/reference/idebugthread2--enumframeinfo.md)).  
+ This interface can also be returned in a [FRAMEINFO](../../../extensibility/debugger/reference/frameinfo.md) structure (which is returned by a call to [EnumFrameInfo](../../../extensibility/debugger/reference/idebugthread2-enumframeinfo.md)).  
   
- [Next](../../../extensibility/debugger/reference/ienumdebugmodules2--next.md) also returns this interface ([EnumModules](../../../extensibility/debugger/reference/idebugprogram2--enummodules.md) returns the [IEnumDebugModules2](../../../extensibility/debugger/reference/ienumdebugmodules2.md) interface).  
+ [Next](../../../extensibility/debugger/reference/ienumdebugmodules2-next.md) also returns this interface ([EnumModules](../../../extensibility/debugger/reference/idebugprogram2-enummodules.md) returns the [IEnumDebugModules2](../../../extensibility/debugger/reference/ienumdebugmodules2.md) interface).  
   
 ## Methods in Vtable Order  
  The following table shows the methods of `IDebugModule2`.  
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetInfo](../../../extensibility/debugger/reference/idebugmodule2--getinfo.md)|Gets the [MODULE_INFO](../../../extensibility/debugger/reference/module_info.md) that describes this module.|  
-|[ReloadSymbols_Deprecated](../../../extensibility/debugger/reference/idebugmodule2--reloadsymbols_deprecated.md)|OBSOLETE. DO NOT USE. Reloads the symbols for this module.|  
+|[GetInfo](../../../extensibility/debugger/reference/idebugmodule2-getinfo.md)|Gets the [MODULE_INFO](../../../extensibility/debugger/reference/module-info.md) that describes this module.|  
+|[ReloadSymbols_Deprecated](../../../extensibility/debugger/reference/idebugmodule2-reloadsymbols-deprecated.md)|OBSOLETE. DO NOT USE. Reloads the symbols for this module.|  
   
 ## Remarks  
  Module information can be displayed in the **Modules** window of the IDE.  
@@ -71,7 +71,7 @@ IDebugModule2 : IUnknown
   
 ## See Also  
  [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)   
- [MODULE_INFO](../../../extensibility/debugger/reference/module_info.md)   
- [GetModule](../../../extensibility/debugger/reference/idebugmoduleloadevent2--getmodule.md)   
+ [MODULE_INFO](../../../extensibility/debugger/reference/module-info.md)   
+ [GetModule](../../../extensibility/debugger/reference/idebugmoduleloadevent2-getmodule.md)   
  [FRAMEINFO](../../../extensibility/debugger/reference/frameinfo.md)   
  [IEnumDebugModules2](../../../extensibility/debugger/reference/ienumdebugmodules2.md)

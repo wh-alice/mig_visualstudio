@@ -1,7 +1,7 @@
 ---
-title: "CvWriteFlag Function"
+title: "CvWriteFlag Function | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "CvWriteFlagExVW method"
 ms.assetid: ee9da1e2-7b34-4cba-81e2-215d25d32e4d
 caps.latest.revision: 4
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -103,4 +104,4 @@ HRESULT CvWriteFlagExVA(
  **ANSI:**CvWriteFlagExA, CvWriteFlagExVA  
   
 ## See Also  
- [C++ Library Reference](../profiling/c---library-reference.md)
+ [C++ Library Reference](../profiling/cpp-library-reference.md)

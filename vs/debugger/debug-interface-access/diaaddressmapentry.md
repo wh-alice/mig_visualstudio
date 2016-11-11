@@ -1,7 +1,7 @@
 ---
-title: "DiaAddressMapEntry"
+title: "DiaAddressMapEntry | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "DiaAddressMapEntry enumeration"
 ms.assetid: 5d0ae226-981d-4541-a801-fc4993fe663b
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -63,11 +64,11 @@ struct DiaAddressMapEntry { 
   
 3.  Set `addrB = e.rvaTo + delta`.  
   
- An array of `DiaAddressMapEntry` structures is passed to the [IDiaAddressMap::set_addressMap](../../debugger/debug-interface-access/idiaaddressmap--set_addressmap.md) method.  
+ An array of `DiaAddressMapEntry` structures is passed to the [IDiaAddressMap::set_addressMap](../../debugger/debug-interface-access/idiaaddressmap-set-addressmap.md) method.  
   
 ## Requirements  
  Header: dia2.h  
   
 ## See Also  
  [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)   
- [IDiaAddressMap::set_addressMap](../../debugger/debug-interface-access/idiaaddressmap--set_addressmap.md)
+ [IDiaAddressMap::set_addressMap](../../debugger/debug-interface-access/idiaaddressmap-set-addressmap.md)

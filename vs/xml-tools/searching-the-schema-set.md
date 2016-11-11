@@ -1,7 +1,7 @@
 ---
-title: "Searching the Schema Set"
+title: "Searching the Schema Set | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ec1395e0-d03c-4130-810d-f2db656937bd
 caps.latest.revision: 3
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -49,7 +50,7 @@ The XML Schema Explorer enables you to search the schema set in the following wa
 -   The `namespace` attributes of import statements.  
   
 ## Schema Specific Search  
- The XML Schema Explorer also includes built-in searches that you can access by using the context menu of the XML Schema Explorer. For more information about available context menus, see [Context Menus](../xml-tools/context-menus--xml-schema-explorer-.md). You can also perform a schema-specific search from the Start View; for more information, see the "Schema Set Details" section in the [Start View](../xml-tools/start-view.md) topic.  
+ The XML Schema Explorer also includes built-in searches that you can access by using the context menu of the XML Schema Explorer. For more information about available context menus, see [Context Menus](../xml-tools/context-menus-xml-schema-explorer.md). You can also perform a schema-specific search from the Start View; for more information, see the "Schema Set Details" section in the [Start View](../xml-tools/start-view.md) topic.  
   
 ## Displaying and Navigating Search Results  
  After the search is finished, the summary results pane is added to the toolbar with the results of the search. The search results are also highlighted in the XML Schema Explorer and marked by ticks on the vertical scroll bar. You can navigate the search results by using the **Go To Next Search Result** and **Go To Previous Search Result** buttons on the summary results pane of the XML Schema Explorer toolbar; by using the keyboard keys F3 and Shift+F3; or by clicking the tick marks in the scroll bar.  

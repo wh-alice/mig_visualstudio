@@ -1,7 +1,7 @@
 ---
-title: "Installing an Isolated Shell Application"
+title: "Installing an Isolated Shell Application | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -380,4 +380,4 @@ dwResult = ExecCmd(boutiqueInstallCmd, FALSE);
 ```  
   
 ## See Also  
- [Walkthrough: Creating a Basic Isolated Shell Application](../extensibility/walkthrough--creating-a-basic-isolated-shell-application.md)
+ [Walkthrough: Creating a Basic Isolated Shell Application](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md)

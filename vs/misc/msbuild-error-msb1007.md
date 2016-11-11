@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB1007"
+title: "MSBuild Error MSB1007 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB1007"
 ms.assetid: bf45dbc3-50cd-488a-87df-9e647cd71f10
 caps.latest.revision: 11
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

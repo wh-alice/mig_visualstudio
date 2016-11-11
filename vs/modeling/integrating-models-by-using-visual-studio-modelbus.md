@@ -1,7 +1,7 @@
 ---
-title: "Integrating Models by using Visual Studio Modelbus"
+title: "Integrating Models by using Visual Studio Modelbus | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2ff722f3-21d6-44e2-9efd-f6694aee9987
 caps.latest.revision: 26
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 translation.priority.mt: 
@@ -36,7 +37,7 @@ translation.priority.mt:
   
  For additional information and sample code, see:  
   
--   [How to: Add a Drag-and-Drop Handler](../modeling/how-to--add-a-drag-and-drop-handler.md)  
+-   [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md)  
   
 -   [Modeling SDK for Visual Studio](http://www.microsoft.com/download/details.aspx?id=40754)  
   
@@ -518,7 +519,7 @@ private const string INVALID_REF_FORMAT =
 -   In **DslPackage\source.extention.tt**, `|ModelBusAdapter|` is added as a MEF Component.  
   
 ## See Also  
- [How to: Open a Model from File in Program Code](../modeling/how-to--open-a-model-from-file-in-program-code.md)   
+ [How to: Open a Model from File in Program Code](../modeling/how-to-open-a-model-from-file-in-program-code.md)   
  [Integrate UML models with other models and tools](../modeling/integrate-uml-models-with-other-models-and-tools.md)   
- [How to: Add a Drag-and-Drop Handler](../modeling/how-to--add-a-drag-and-drop-handler.md)   
+ [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md)   
  [Using Visual Studio ModelBus in a Text Template](../modeling/using-visual-studio-modelbus-in-a-text-template.md)

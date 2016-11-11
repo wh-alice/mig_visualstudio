@@ -1,7 +1,7 @@
 ---
-title: "IDebugFunctionObject"
+title: "IDebugFunctionObject | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -48,22 +48,22 @@ IDebugFunctionObject : IDebugObject
  An expression evaluator implements this interface to represent a function.  
   
 ## Notes for Callers  
- This interface is a specialization of the [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) interface and is obtained using [QueryInterface](../Topic/QueryInterface.md) on the `IDebugObject` interface.  
+ This interface is a specialization of the [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) interface and is obtained using [QueryInterface](/visual-cpp/atl/queryinterface) on the `IDebugObject` interface.  
   
 ## Methods in Vtable Order  
  In addition to the methods inherited from [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md), the `IDebugFunctionObject` interface exposes the following methods.  
   
 |Method|Description|  
 |------------|-----------------|  
-|[CreatePrimitiveObject](../../../extensibility/debugger/reference/idebugfunctionobject--createprimitiveobject.md)|Creates a primitive data object.|  
-|[CreateObject](../../../extensibility/debugger/reference/idebugfunctionobject--createobject.md)|Creates an object using a constructor.|  
-|[CreateObjectNoConstructor](../../../extensibility/debugger/reference/idebugfunctionobject--createobjectnoconstructor.md)|Creates an object with no constructor.|  
-|[CreateArrayObject](../../../extensibility/debugger/reference/idebugfunctionobject--createarrayobject.md)|Creates an array object.|  
-|[CreateStringObject](../../../extensibility/debugger/reference/idebugfunctionobject--createstringobject.md)|Creates a string object.|  
-|[Evaluate](../../../extensibility/debugger/reference/idebugfunctionobject--evaluate.md)|Calls the function and returns the resulting value as an object.|  
+|[CreatePrimitiveObject](../../../extensibility/debugger/reference/idebugfunctionobject-createprimitiveobject.md)|Creates a primitive data object.|  
+|[CreateObject](../../../extensibility/debugger/reference/idebugfunctionobject-createobject.md)|Creates an object using a constructor.|  
+|[CreateObjectNoConstructor](../../../extensibility/debugger/reference/idebugfunctionobject-createobjectnoconstructor.md)|Creates an object with no constructor.|  
+|[CreateArrayObject](../../../extensibility/debugger/reference/idebugfunctionobject-createarrayobject.md)|Creates an array object.|  
+|[CreateStringObject](../../../extensibility/debugger/reference/idebugfunctionobject-createstringobject.md)|Creates a string object.|  
+|[Evaluate](../../../extensibility/debugger/reference/idebugfunctionobject-evaluate.md)|Calls the function and returns the resulting value as an object.|  
   
 ## Remarks  
- This interface enables the expression evaluator to represent functions in a parse tree. The `Create` methods in this interface are used to construct objects representing the input parameters to the method. The function can then be executed by calling the [Evaluate](../../../extensibility/debugger/reference/idebugfunctionobject--evaluate.md) method, which returns an object representing the return value of the function.  
+ This interface enables the expression evaluator to represent functions in a parse tree. The `Create` methods in this interface are used to construct objects representing the input parameters to the method. The function can then be executed by calling the [Evaluate](../../../extensibility/debugger/reference/idebugfunctionobject-evaluate.md) method, which returns an object representing the return value of the function.  
   
 ## Requirements  
  Header: ee.h  

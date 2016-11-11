@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Error RC2159"
+title: "Resource Compiler Error RC2159 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC2159"
 ms.assetid: 4f4f1b54-5bb1-496f-9b96-b3e168ead2ba
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

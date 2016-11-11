@@ -1,7 +1,7 @@
 ---
-title: "Handling Insufficient Memory Conditions"
+title: "Handling Insufficient Memory Conditions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "handlers, setting"
 ms.assetid: 1b5ecc4a-9997-405a-9369-b754e7fbf2c1
 caps.latest.revision: 8
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -39,4 +40,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Handling Insufficient Memory Conditions
-This content has moved to [new and delete Operators](../Topic/new%20and%20delete%20Operators.md)
+This content has moved to [new and delete Operators](/visual-cpp/cpp/new-and-delete-operators)

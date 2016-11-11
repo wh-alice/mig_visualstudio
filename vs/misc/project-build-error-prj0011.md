@@ -1,7 +1,7 @@
 ---
-title: "Project Build Error PRJ0011"
+title: "Project Build Error PRJ0011 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "PRJ0011"
 ms.assetid: f9128293-67c2-469d-a111-9f92c65d652f
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

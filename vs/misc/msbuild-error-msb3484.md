@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB3484"
+title: "MSBuild Error MSB3484 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB3484"
 ms.assetid: f6eac56e-5357-4903-a2e0-20dd3a9c11bb
 caps.latest.revision: 5
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -43,4 +44,4 @@ translation.priority.mt:
 -   Make sure that you specify a valid file for signing.  
   
 ## See Also  
- [\<PackageFiles> Element](../deployment/-packagefiles--element--bootstrapper-.md)
+ [\<PackageFiles> Element](../deployment/packagefiles-element-bootstrapper.md)

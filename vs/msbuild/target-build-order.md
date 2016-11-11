@@ -1,7 +1,7 @@
 ---
-title: "Target Build Order"
+title: "Target Build Order | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/24/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "msbuild, build order"
 ms.assetid: f4a26339-9f9a-497a-9aa6-0797183d450d
 caps.latest.revision: 18
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -47,7 +48,7 @@ Targets must be ordered if the input to one target depends on the output of anot
  Targets may have a `Condition` attribute. If the specified condition evaluates to `false`, the target isn't executed and has no effect on the build. For more information about conditions, see [Conditions](../msbuild/msbuild-conditions.md).  
   
 ## Initial Targets  
- The `InitialTargets` attribute of the [Project](../msbuild/project-element--msbuild-.md) element specifies targets that will run first, even if targets are specified on the command line or in the `DefaultTargets` attribute. Initial targets are typically used for error checking.  
+ The `InitialTargets` attribute of the [Project](../msbuild/project-element-msbuild.md) element specifies targets that will run first, even if targets are specified on the command line or in the `DefaultTargets` attribute. Initial targets are typically used for error checking.  
   
  The value of the `InitialTargets` attribute can be a semicolon-delimited, ordered list of targets. The following example specifies that the `Warm` target runs, and then the `Eject` target runs.  
   
@@ -57,10 +58,10 @@ Targets must be ordered if the input to one target depends on the output of anot
   
  Imported projects may have their own `InitialTargets` attributes. All initial targets are aggregated together and run in order.  
   
- For more information, see [How to: Specify Which Target to Build First](../msbuild/how-to--specify-which-target-to-build-first.md).  
+ For more information, see [How to: Specify Which Target to Build First](../msbuild/how-to-specify-which-target-to-build-first.md).  
   
 ## Default Targets  
- The `DefaultTargets` attribute of the [Project](../msbuild/project-element--msbuild-.md) element specifies which target or targets are built if a target isn't specified explicitly in a command line.  
+ The `DefaultTargets` attribute of the [Project](../msbuild/project-element-msbuild.md) element specifies which target or targets are built if a target isn't specified explicitly in a command line.  
   
  The value of the `DefaultTargets` attribute can be a semicolon-delimited, ordered list of default targets. The following example specifies that the `Clean` target runs, and then the `Build` target runs.  
   
@@ -76,7 +77,7 @@ Targets must be ordered if the input to one target depends on the output of anot
   
  Imported projects may have their own `DefaultTargets` attributes. The first `DefaultTargets` attribute encountered determines which default targets will run.  
   
- For more information, see [How to: Specify Which Target to Build First](../msbuild/how-to--specify-which-target-to-build-first.md).  
+ For more information, see [How to: Specify Which Target to Build First](../msbuild/how-to-specify-which-target-to-build-first.md).  
   
 ## First Target  
  If there are no initial targets, default targets, or command-line targets, then MSBuild runs the first target it encounters in the project file or any imported project files.  

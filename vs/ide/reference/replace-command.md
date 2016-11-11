@@ -1,7 +1,7 @@
 ---
-title: "Replace Command"
+title: "Replace Command | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "Replace command"
 ms.assetid: a15767f1-5a3d-44f5-8c77-7b0f1157f340
 caps.latest.revision: 13
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

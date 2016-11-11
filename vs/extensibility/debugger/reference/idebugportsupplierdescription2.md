@@ -1,7 +1,7 @@
 ---
-title: "IDebugPortSupplierDescription2"
+title: "IDebugPortSupplierDescription2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -47,7 +47,7 @@ IDebugPortSupplierDescription2 : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetDescription](../../../extensibility/debugger/reference/idebugportsupplierdescription2--getdescription.md)|Retrieves the description and description metadata for the port supplier.|  
+|[GetDescription](../../../extensibility/debugger/reference/idebugportsupplierdescription2-getdescription.md)|Retrieves the description and description metadata for the port supplier.|  
   
 ## Requirements  
  Header: Msdbg.h  

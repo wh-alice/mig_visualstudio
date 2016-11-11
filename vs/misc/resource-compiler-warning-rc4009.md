@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Warning RC4009"
+title: "Resource Compiler Warning RC4009 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC4009"
 ms.assetid: c6ab836c-73da-4d55-8777-66cbcf9561c5
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

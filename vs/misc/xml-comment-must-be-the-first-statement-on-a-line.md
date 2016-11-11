@@ -1,5 +1,5 @@
 ---
-title: "XML comment must be the first statement on a line"
+title: "XML comment must be the first statement on a line | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "BC42302"
 ms.assetid: c3344328-adef-4c3d-b75e-e8a9e450e67c
 caps.latest.revision: 11
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -46,5 +47,5 @@ XML comment must be the first statement on a line. XML comment will be ignored.
 -   Move the XML comment to a new line.  
   
 ## See Also  
- [XML Comment Tags](../Topic/Recommended%20XML%20Tags%20for%20Documentation%20Comments%20\(Visual%20Basic\).md)   
- [Documenting Your Code with XML](../Topic/Documenting%20Your%20Code%20with%20XML%20\(Visual%20Basic\).md)
+ [XML Comment Tags](/dotnet/visual-basic/language-reference/xmldoc/recommended-xml-tags-for-documentation-comments)   
+ [Documenting Your Code with XML](/dotnet/visual-basic/programming-guide/program-structure/documenting-your-code-with-xml)

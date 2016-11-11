@@ -1,7 +1,7 @@
 ---
-title: "Debugger Concepts"
+title: "Debugger Concepts | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -37,7 +37,7 @@ To build on the Visual Studio debug package, you need to be familiar with the ar
  [Debug Session](../../extensibility/debugger/debug-session.md)  
  Explains the role of a session in the debugging architecture.  
   
- [Servers](../../extensibility/debugger/servers--visual-studio-sdk-.md)  
+ [Servers](../../extensibility/debugger/servers-visual-studio-sdk.md)  
  Defines what a server is in terms of debugging architecture, in both abstract and physical terms.  
   
  [Port Suppliers](../../extensibility/debugger/port-suppliers.md)  
@@ -64,7 +64,7 @@ To build on the Visual Studio debug package, you need to be familiar with the ar
  [Modules](../../extensibility/debugger/modules.md)  
  Defines a module, in terms of debugging architecture, as a physical container of code, such as an executable file or a DLL.  
   
- [Breakpoints](../../extensibility/debugger/breakpoints--visual-studio-sdk-.md)  
+ [Breakpoints](../../extensibility/debugger/breakpoints-visual-studio-sdk.md)  
  Defines the three types of breakpoints—pending, bound, and error—in terms of debugging architecture.  
   
 ## Related Sections  

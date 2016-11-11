@@ -1,7 +1,7 @@
 ---
-title: "Debug 64-Bit Applications"
+title: "Debug 64-Bit Applications | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "64-bit debugging"
 ms.assetid: db648e5f-6375-4e2d-aa98-eb7261958927
 caps.latest.revision: 32
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -51,7 +52,7 @@ You can debug a 64-bit application that is running on the local computer or on a
   
 1.  Create a Visual Studio solution, for example a C# console application.  
   
-2.  Set the configuration to 64-bit using the Configuration Manager. For more information, see [How to: Configure Projects to Target Platforms](../ide/how-to--configure-projects-to-target-platforms.md).  
+2.  Set the configuration to 64-bit using the Configuration Manager. For more information, see [How to: Configure Projects to Target Platforms](../ide/how-to-configure-projects-to-target-platforms.md).  
   
 3.  At this point the 64-bit version of the remote debugger (msvsmon.exe) starts. It runs as long as the solution with the 64-bit configuration is open.  
   
@@ -68,7 +69,7 @@ You can debug a 64-bit application that is running on the local computer or on a
   
 ## See Also  
  [64-bit Applications](../Topic/64-bit%20Applications.md)   
- [Configuring Programs for 64-Bit](../Topic/Configuring%20Programs%20for%2064-Bit%20\(Visual%20C++\).md)   
+ [Configuring Programs for 64-Bit](/visual-cpp/build/configuring-programs-for-64-bit-visual-cpp)   
  [Visual Studio IDE 64-Bit Support](../ide/visual-studio-ide-64-bit-support.md)   
  [Using Dump Files](../debugger/using-dump-files.md)   
  [Remote Debugging](../debugger/remote-debugging.md)

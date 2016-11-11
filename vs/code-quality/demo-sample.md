@@ -1,7 +1,7 @@
 ---
-title: "Demo Sample"
+title: "Demo Sample | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,8 +14,9 @@ helpviewer_keywords:
   - "code analysis, samples"
 ms.assetid: 09e1b9f7-5916-4ed6-a001-5c2d7e710682
 caps.latest.revision: 21
-ms.author: "douge"
-manager: "douge"
+author: "corob-msft"
+ms.author: "corob"
+manager: "ghogen"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"
@@ -32,7 +33,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Demo Sample
-This following procedures show you how to create the sample for [Walkthrough: Analyzing C/C++ Code for Defects](../code-quality/walkthrough--analyzing-c-c---code-for-defects.md). The procedures create:  
+This following procedures show you how to create the sample for [Walkthrough: Analyzing C/C++ Code for Defects](../code-quality/walkthrough-analyzing-c-cpp-code-for-defects.md). The procedures create:  
   
 -   A [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution named CppDemo.  
   

@@ -1,7 +1,7 @@
 ---
-title: "IDebugProgramPublisher2"
+title: "IDebugProgramPublisher2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -52,11 +52,11 @@ IDebugProgramPublisher2 : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[PublishProgramNode](../../../extensibility/debugger/reference/idebugprogrampublisher2--publishprogramnode.md)|Makes a program node available to DEs and the session debug manager (SDM).|  
-|[UnpublishProgramNode](../../../extensibility/debugger/reference/idebugprogrampublisher2--unpublishprogramnode.md)|Removes a program node so that it is no longer available.|  
-|[PublishProgram](../../../extensibility/debugger/reference/idebugprogrampublisher2--publishprogram.md)|Makes a program available to DEs and the SDM.|  
-|[UnpublishProgram](../../../extensibility/debugger/reference/idebugprogrampublisher2--unpublishprogram.md)|Removes a program so it is no longer available.|  
-|[SetDebuggerPresent](../../../extensibility/debugger/reference/idebugprogrampublisher2--setdebuggerpresent.md)|Sets a flag indicating that a debugger is present.|  
+|[PublishProgramNode](../../../extensibility/debugger/reference/idebugprogrampublisher2-publishprogramnode.md)|Makes a program node available to DEs and the session debug manager (SDM).|  
+|[UnpublishProgramNode](../../../extensibility/debugger/reference/idebugprogrampublisher2-unpublishprogramnode.md)|Removes a program node so that it is no longer available.|  
+|[PublishProgram](../../../extensibility/debugger/reference/idebugprogrampublisher2-publishprogram.md)|Makes a program available to DEs and the SDM.|  
+|[UnpublishProgram](../../../extensibility/debugger/reference/idebugprogrampublisher2-unpublishprogram.md)|Removes a program so it is no longer available.|  
+|[SetDebuggerPresent](../../../extensibility/debugger/reference/idebugprogrampublisher2-setdebuggerpresent.md)|Sets a flag indicating that a debugger is present.|  
   
 ## Remarks  
  This interface makes programs and program nodes available (that is, "publishes" them) for use by DEs and the session debug manager (SDM). To access published programs and program nodes, use the [IDebugProgramProvider2](../../../extensibility/debugger/reference/idebugprogramprovider2.md) interface. This is the only way Visual Studio can recognize that a program is being debugged.  

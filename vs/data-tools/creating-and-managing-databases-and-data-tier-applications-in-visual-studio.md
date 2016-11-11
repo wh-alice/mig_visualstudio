@@ -1,7 +1,7 @@
 ---
-title: "Creating and managing databases and data-tier applications in Visual Studio"
+title: "Creating and managing databases and data-tier applications in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "managing change, database servers"
 ms.assetid: 40b51f5a-d52c-44ac-8f84-037a0917af33
 caps.latest.revision: 37
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 translation.priority.ht: 
@@ -49,4 +50,4 @@ translation.priority.mt:
 |**Prototyping, verifying test results, and modifying database scripts and objects:** You can use the [!INCLUDE[tsql](../data-tools/includes/tsql_md.md)] editor to perform any one of these common tasks.|-   [Query and Text Editors (SQL Server Management Studio)](http://go.microsoft.com/fwlink/?LinkId=227327) (Microsoft web site)|  
   
 ## See Also  
- [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-.net.md)
+ [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md)

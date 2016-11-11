@@ -1,7 +1,7 @@
 ---
-title: "Source Control Plug-ins"
+title: "Source Control Plug-ins | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -55,7 +55,7 @@ The Source Control Plug-in SDK reference section contains the complete interface
  [Strings Used as Keys for Finding a Source Control Plug-in](../extensibility/strings-used-as-keys-for-finding-a-source-control-plug-in.md)  
  Describes keys for accessing the registry to find the source control plug-in.  
   
- [MSSCCPRJ.SCC File](../extensibility/mssccprj.scc-file.md)  
+ [MSSCCPRJ.SCC File](../extensibility/mssccprj-scc-file.md)  
  Describes a client-side file that contains information opaque to the IDE, but that is used by the source control plug-in to locate the solution or project in version control.  
   
  [Best Practices for Implementing a Source Control Plug-in](../extensibility/best-practices-for-implementing-a-source-control-plug-in.md)  
@@ -67,7 +67,7 @@ The Source Control Plug-in SDK reference section contains the complete interface
  [Glossary](../extensibility/source-control-plug-in-glossary.md)  
  Provides helpful terms and their definitions for reading the Source Control Plug-in SDK documentation.  
   
- [How to: Turn Off Compatibility Warnings for Source Control Plug-ins](../extensibility/how-to--turn-off-compatibility-warnings-for-source-control-plug-ins.md)  
+ [How to: Turn Off Compatibility Warnings for Source Control Plug-ins](../extensibility/how-to-turn-off-compatibility-warnings-for-source-control-plug-ins.md)  
  Describes how to disable warnings.  
   
 ## Related Sections  

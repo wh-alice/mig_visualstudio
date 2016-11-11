@@ -1,7 +1,7 @@
 ---
-title: "Customizing and Extending a Domain-Specific Language"
+title: "Customizing and Extending a Domain-Specific Language | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ helpviewer_keywords:
   - "Domain-Specific Language Tools, creating solutions"
 ms.assetid: b155eb79-4e0a-4a99-a6f2-ca4f811fb5ca
 caps.latest.revision: 48
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 translation.priority.mt: 
@@ -58,13 +59,13 @@ Visual Studio Modeling and Visualization SDK (VMSDK) provides several levels at 
 |Preserve shape layout and appearance on copy and drag-drop.|Add the shapes and connectors to the copied `ElementGroupPrototype`. The most convenient method to override is `ElementOperations.CreateElementGroupPrototype()`<br /><br /> See [Customizing Copy Behavior](../modeling/customizing-copy-behavior.md).|  
 |Paste shapes in a chosen location, such as the current cursor position.|Override `ClipboardCommandSet.ProcessOnCopy()` to use the location-specific version of `ElementOperations.Merge().` See [Customizing Copy Behavior](../modeling/customizing-copy-behavior.md).|  
 |Create additional links on paste|Override ClipboardCommandSet.ProcessOnPasteCommand()|  
-|Enable drag and drop from this diagram, other DSLs or UML diagrams and Windows elements|See [How to: Add a Drag-and-Drop Handler](../modeling/how-to--add-a-drag-and-drop-handler.md)|  
+|Enable drag and drop from this diagram, other DSLs or UML diagrams and Windows elements|See [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md)|  
 |Allow a shape or tool to be dragged onto a child shape, such as a port, as if it were dragged onto the parent.|Define an Element Merge Directive on the target object class, to forward the dropped object to the parent. See [Customizing Element Creation and Movement](../modeling/customizing-element-creation-and-movement.md).|  
 |Allow a shape or tool to be dragged onto a shape and have additional links or objects created. For example, to allow a comment to be dropped onto an item to which it is to be linked.|Define an Element Merge Directive on the target domain class, and define the links to be generated. In complex cases, you can add custom code. See [Customizing Element Creation and Movement](../modeling/customizing-element-creation-and-movement.md).|  
 |Create a group of elements with one tool. For example, a component with a fixed set of ports.|Override the toolbox initialization method in ToolboxHelper.cs. Create an Element Group Prototype (EGP) containing the elements and their relationship links. See [Customizing Tools and the Toolbox](../modeling/customizing-tools-and-the-toolbox.md).<br /><br /> Either include the principal and port shapes in the EGP, or define BoundsRules to position the port shapes when the EGP is instantiated. See [BoundsRules Constrain Shape Location and Size](../modeling/boundsrules-constrain-shape-location-and-size.md).|  
 |Use one connection tool to instantiate several types of relationship.|Add Link Connect Directives (LCD) to the Connection Builder that is invoked by the tool. The LCDs determine the type of the relationship from the types of the two elements. To make this depend on the states of the elements, you can add custom code. See [Customizing Tools and the Toolbox](../modeling/customizing-tools-and-the-toolbox.md).|  
 |Sticky tools – the user can double-click any tool to create many shapes or connectors in succession.|In DSL Explorer, select the `Editor` node. In the Properties window, set **Uses Sticky Toolbox Items**.|  
-|Define menu commands|See [How to: Modify a Standard Menu Command](../modeling/how-to--modify-a-standard-menu-command-in-a-domain-specific-language.md)|  
+|Define menu commands|See [How to: Modify a Standard Menu Command](../modeling/how-to-modify-a-standard-menu-command-in-a-domain-specific-language.md)|  
 |Constrain the model with validation rules|See [Validation in a Domain-Specific Language](../modeling/validation-in-a-domain-specific-language.md)|  
 |Generate code, configuration files, or documents from a DSL.|[Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)|  
 |Customize how models are saved to file.|See [Customizing File Storage and XML Serialization](../modeling/customizing-file-storage-and-xml-serialization.md)|  
@@ -76,4 +77,4 @@ Visual Studio Modeling and Visualization SDK (VMSDK) provides several levels at 
 ## See Also  
  [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)   
  [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)   
- [Modeling SDK for Visual Studio - Domain-Specific Languages](../modeling/modeling-sdk-for-visual-studio---domain-specific-languages.md)
+ [Modeling SDK for Visual Studio - Domain-Specific Languages](../modeling/modeling-sdk-for-visual-studio-domain-specific-languages.md)

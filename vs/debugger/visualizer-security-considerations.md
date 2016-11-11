@@ -1,7 +1,7 @@
 ---
-title: "Visualizer Security Considerations"
+title: "Visualizer Security Considerations | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "security [Visual Studio], visualizers"
 ms.assetid: cdd86bd5-b729-409b-a7c6-374efa091eb1
 caps.latest.revision: 22
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -52,6 +53,6 @@ Writing a Visualizer involves possible security threats. No known exploit curren
   
 ## See Also  
  [Visualizer Architecture](../debugger/visualizer-architecture.md)   
- [How to: Write a Visualizer](../debugger/how-to--write-a-visualizer.md)   
+ [How to: Write a Visualizer](../debugger/how-to-write-a-visualizer.md)   
  [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md)   
  [Viewing Data in the Debugger](../debugger/viewing-data-in-the-debugger.md)

@@ -1,7 +1,7 @@
 ---
-title: "Legacy Workflow Activities"
+title: "Legacy Workflow Activities | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "workflow activities"
 ms.assetid: 4af7a06b-1e82-43c8-aec8-0dc5fb63d08a
 caps.latest.revision: 8
+author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
 translation.priority.ht: 
@@ -78,22 +79,22 @@ translation.priority.ht:
  [!INCLUDE[crabout](../test/includes/crabout_md.md)] how to create custom activities, see [Developing Custom Activities](http://go.microsoft.com/fwlink?LinkID=65023) and [Using the Legacy Activity Designer](../workflow-designer/using-the-legacy-activity-designer.md).  
   
 ## In This Section  
- [Activity Views (Legacy)](../workflow-designer/activity-views--legacy-.md)  
+ [Activity Views (Legacy)](../workflow-designer/activity-views-legacy.md)  
  Describes the different design views of activities.  
   
- [How to: Add Activities to the Toolbox (Legacy)](../workflow-designer/how-to--add-activities-to-the-toolbox--legacy-.md)  
+ [How to: Add Activities to the Toolbox (Legacy)](../workflow-designer/how-to-add-activities-to-the-toolbox-legacy.md)  
  Shows how to add activities to the toolbox.  
   
- [How to: Create a Declarative Rule Condition (Legacy)](../workflow-designer/how-to--create-a-declarative-rule-condition--legacy-.md)  
+ [How to: Create a Declarative Rule Condition (Legacy)](../workflow-designer/how-to-create-a-declarative-rule-condition-legacy.md)  
  Shows the steps to create a declarative rule condition.  
   
- [How to: Create a PolicyActivity Rule Set (Legacy)](../workflow-designer/how-to--create-a-policyactivity-rule-set--legacy-.md)  
+ [How to: Create a PolicyActivity Rule Set (Legacy)](../workflow-designer/how-to-create-a-policyactivity-rule-set-legacy.md)  
  Shows the steps to create a PolicyActivity rule set.  
   
- [How to: Implement a WCF Contract Operation (Legacy)](../workflow-designer/d6aeb20e-fac8-4a9d-bd26-ae78bef96b41.md)  
+ [How to: Implement a WCF Contract Operation (Legacy)](../workflow-designer/how-to-implement-a-windows-communication-foundation-contract-operation-legacy.md)  
  Shows the steps to implement a [!INCLUDE[indigo2](../workflow-designer/includes/indigo2_md.md)] contract operation.  
   
- [How to: Invoke a WCF Contract Operation (Legacy)](../workflow-designer/how-to--invoke-a-windows-communication-foundation-contract-operation--legacy-.md)  
+ [How to: Invoke a WCF Contract Operation (Legacy)](../workflow-designer/how-to-invoke-a-windows-communication-foundation-contract-operation-legacy.md)  
  Shows the steps to invoke a [!INCLUDE[indigo2](../workflow-designer/includes/indigo2_md.md)] contract operation.  
   
 ## See Also  

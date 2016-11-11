@@ -1,7 +1,7 @@
 ---
-title: "Finding and Replacing Text"
+title: "Finding and Replacing Text | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -39,6 +39,7 @@ helpviewer_keywords:
   - "replacing text"
 ms.assetid: a62545c3-1570-4d12-99fb-a82607eb35a1
 caps.latest.revision: 31
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

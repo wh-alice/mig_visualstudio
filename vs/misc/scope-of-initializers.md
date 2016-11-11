@@ -1,7 +1,7 @@
 ---
-title: "Scope of Initializers"
+title: "Scope of Initializers | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "initializers, scope"
 ms.assetid: 7d196b17-2fb6-47df-9fe2-a4660b4f2ab1
 caps.latest.revision: 8
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 

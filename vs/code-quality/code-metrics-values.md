@@ -1,7 +1,7 @@
 ---
-title: "Code Metrics Values"
+title: "Code Metrics Values | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "measure code quality"
 ms.assetid: bc38831e-2083-4ea4-8527-ee41499a342f
 caps.latest.revision: 20
+author: "erickson-doug"
 ms.author: "douge"
 manager: "douge"
 translation.priority.ht: 

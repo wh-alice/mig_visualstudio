@@ -1,7 +1,7 @@
 ---
-title: "Debugging Mixed-Mode Applications"
+title: "Debugging Mixed-Mode Applications | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -27,6 +27,7 @@ helpviewer_keywords:
   - "mixed-mode debugging, call stack"
 ms.assetid: 60e34477-ae4e-48c7-9093-3e37f72e1bc3
 caps.latest.revision: 19
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

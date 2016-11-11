@@ -1,7 +1,7 @@
 ---
-title: "Understanding Instrumentation Data Values"
+title: "Understanding Instrumentation Data Values | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "instrumentation profiling method"
 ms.assetid: 2cf94cf9-c317-4a52-bf00-670f1262165e
 caps.latest.revision: 29
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -111,4 +112,4 @@ The *instrumentation* profiling method of the [!INCLUDE[vsprvs](../code-quality/
   
 ## See Also  
  [Analyzing Performance Tools Data](../profiling/analyzing-performance-tools-data.md)   
- [How to: Choose Collection Methods](../profiling/how-to--choose-collection-methods.md)
+ [How to: Choose Collection Methods](../profiling/how-to-choose-collection-methods.md)

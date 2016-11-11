@@ -1,7 +1,7 @@
 ---
-title: "IDebugPortEvents2"
+title: "IDebugPortEvents2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,14 +45,14 @@ IDebugPortEvents2 : IUnknown
  Visual Studio typically implements this interface to receive notifications about program creation and destruction. A debug engine can also implement this interface to listen for such port events.  
   
 ## Notes for Callers  
- All [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md) interfaces can be queried for an <xref:System.Runtime.InteropServices.ComTypes.IConnectionPointContainer> interface. Then the <xref:System.Runtime.InteropServices.ComTypes.IConnectionPointContainer.FindConnectionPoint*> method for `IDebugPortEvents2` is called in the <xref:System.Runtime.InteropServices.ComTypes.IConnectionPointContainer> interface to get an <xref:System.Runtime.InteropServices.ComTypes.IConnectionPoint> interface. Finally, the <xref:System.Runtime.InteropServices.ComTypes.IConnectionPoint.Advise*> method in the <xref:System.Runtime.InteropServices.ComTypes.IConnectionPoint> interface is called to send the events through the [Event](../../../extensibility/debugger/reference/idebugportevents2--event.md) method.  
+ All [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md) interfaces can be queried for an <xref:System.Runtime.InteropServices.ComTypes.IConnectionPointContainer> interface. Then the <xref:System.Runtime.InteropServices.ComTypes.IConnectionPointContainer.FindConnectionPoint%2A> method for `IDebugPortEvents2` is called in the <xref:System.Runtime.InteropServices.ComTypes.IConnectionPointContainer> interface to get an <xref:System.Runtime.InteropServices.ComTypes.IConnectionPoint> interface. Finally, the <xref:System.Runtime.InteropServices.ComTypes.IConnectionPoint.Advise%2A> method in the <xref:System.Runtime.InteropServices.ComTypes.IConnectionPoint> interface is called to send the events through the [Event](../../../extensibility/debugger/reference/idebugportevents2-event.md) method.  
   
 ## Methods in Vtable Order  
  The following table shows the method of `IDebugPortEvents2`.  
   
 |Method|Description|  
 |------------|-----------------|  
-|[Event](../../../extensibility/debugger/reference/idebugportevents2--event.md)|Sends events that describe the creation and destruction of processes and programs on the port.|  
+|[Event](../../../extensibility/debugger/reference/idebugportevents2-event.md)|Sends events that describe the creation and destruction of processes and programs on the port.|  
   
 ## Remarks  
  `IDebugPortEvents2` is also used by the SDM to debug programs that run in a process that is already being debugged.  

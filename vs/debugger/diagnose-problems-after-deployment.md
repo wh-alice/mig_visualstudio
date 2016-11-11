@@ -1,7 +1,7 @@
 ---
-title: "Diagnose problems after deployment"
+title: "Diagnose problems after deployment | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a3463eab-a352-4d17-8551-adbaad526db0
 caps.latest.revision: 60
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

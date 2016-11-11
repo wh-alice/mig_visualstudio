@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Items"
+title: "MSBuild Items | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "MSBuild, Items"
 ms.assetid: d762eff4-c92a-4b5f-a944-1ca30aa22319
 caps.latest.revision: 35
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -68,7 +69,7 @@ MSBuild items are inputs into the build system, and they typically represent fil
     -   [KeepDuplicates Attribute](#BKMK_KeepDuplicates)  
   
 ##  <a name="BKMK_Creating1"></a> Creating Items in a Project File  
- You declare items in the project file as child elements of an [ItemGroup](../msbuild/itemgroup-element--msbuild-.md) element. The name of the child element is the type of the item. The `Include` attribute of the element specifies the items (files) to be included with that item type. For example, the following XML creates an item type that’s named `Compile`, which includes two files.  
+ You declare items in the project file as child elements of an [ItemGroup](../msbuild/itemgroup-element-msbuild.md) element. The name of the child element is the type of the item. The `Include` attribute of the element specifies the items (files) to be included with that item type. For example, the following XML creates an item type that’s named `Compile`, which includes two files.  
   
 ```  
 <ItemGroup>  
@@ -88,18 +89,18 @@ MSBuild items are inputs into the build system, and they typically represent fil
 ```  
   
 ##  <a name="BKMK_Creating2"></a> Creating Items During Execution  
- Items that are outside [Target](../msbuild/target-element--msbuild-.md) elements are assigned values during the evaluation phase of a build. During the subsequent execution phase, items can be created or modified in the following ways:  
+ Items that are outside [Target](../msbuild/target-element-msbuild.md) elements are assigned values during the evaluation phase of a build. During the subsequent execution phase, items can be created or modified in the following ways:  
   
--   Any task can emit an item. To emit an item, the [Task](../msbuild/task-element--msbuild-.md) element must have a child [Output](../msbuild/output-element--msbuild-.md) element that has an `ItemName` attribute.  
+-   Any task can emit an item. To emit an item, the [Task](../msbuild/task-element-msbuild.md) element must have a child [Output](../msbuild/output-element-msbuild.md) element that has an `ItemName` attribute.  
   
 -   The [CreateItem](../msbuild/createitem-task.md) task can emit an item. This usage is deprecated.  
   
--   Starting in the .NET Framework 3.5, `Target` elements may contain [ItemGroup](../msbuild/itemgroup-element--msbuild-.md) elements that may contain item elements.  
+-   Starting in the .NET Framework 3.5, `Target` elements may contain [ItemGroup](../msbuild/itemgroup-element-msbuild.md) elements that may contain item elements.  
   
 ##  <a name="BKMK_ReferencingItems"></a> Referencing Items in a Project File  
- To reference item types throughout the project file, you use the syntax @(`ItemType`). For example, you would reference the item type in the previous example by using `@(Compile)`. By using this syntax, you can pass items to tasks by specifying the item type as a parameter of that task. For more information, see [How to: Select the Files to Build](../msbuild/how-to--select-the-files-to-build.md).  
+ To reference item types throughout the project file, you use the syntax @(`ItemType`). For example, you would reference the item type in the previous example by using `@(Compile)`. By using this syntax, you can pass items to tasks by specifying the item type as a parameter of that task. For more information, see [How to: Select the Files to Build](../msbuild/how-to-select-the-files-to-build.md).  
   
- By default, the items of an item type are separated by semicolons (;) when it’s expanded. You can use the syntax @(*ItemType*, '*separator*') to specify a separator other than the default. For more information, see [How to: Display an Item List Separated with Commas](../msbuild/how-to--display-an-item-list-separated-with-commas.md).  
+ By default, the items of an item type are separated by semicolons (;) when it’s expanded. You can use the syntax @(*ItemType*, '*separator*') to specify a separator other than the default. For more information, see [How to: Display an Item List Separated with Commas](../msbuild/how-to-display-an-item-list-separated-with-commas.md).  
   
 ##  <a name="BKMK_Wildcards"></a> Using Wildcards to Specify Items  
  You can use the **, \*, and ? wildcard characters to specify a group of files as inputs for a build instead of listing each file separately.  
@@ -122,7 +123,7 @@ MSBuild items are inputs into the build system, and they typically represent fil
 <VBFile Include="D:/**/*.vb"/>  
 ```  
   
- For more information about wildcard characters, see [How to: Select the Files to Build](../msbuild/how-to--select-the-files-to-build.md).  
+ For more information about wildcard characters, see [How to: Select the Files to Build](../msbuild/how-to-select-the-files-to-build.md).  
   
 ##  <a name="BKMK_ExcludeAttribute"></a> Using the Exclude Attribute  
  Item elements can contain the `Exclude` attribute, which excludes specific items (files) from the item type. The `Exclude` attribute is typically used together with wildcard characters. For example, the following XML adds every .cs file in the directory to the CSFile item type, except the `DoNotBuild.cs` file.  
@@ -140,7 +141,7 @@ MSBuild items are inputs into the build system, and they typically represent fil
 <Compile Include="*.res" Exclude="Form1.cs">  
 ```  
   
- For more information, see [How to: Exclude Files from the Build](../msbuild/how-to--exclude-files-from-the-build.md).  
+ For more information, see [How to: Exclude Files from the Build](../msbuild/how-to-exclude-files-from-the-build.md).  
   
 ##  <a name="BKMK_ItemMetadata"></a> Item Metadata  
  Items may contain metadata in addition to the information in the `Include` and `Exclude` attributes. This metadata can be used by tasks that require more information about the items or to batch tasks and targets. For more information, see [Batching](../msbuild/msbuild-batching.md).  
@@ -200,7 +201,7 @@ MSBuild items are inputs into the build system, and they typically represent fil
  For more information, see [Transforms](../msbuild/msbuild-transforms.md).  
   
 ##  <a name="BKMK_ItemDefinitions"></a> Item Definitions  
- Starting in the .NET Framework 3.5, you can add default metadata to any item type by using the [ItemDefinitionGroup element](../msbuild/itemdefinitiongroup-element--msbuild-.md). Like well-known metadata, the default metadata is associated with all items of the item type that you specify. You can explicitly override default metadata in an item definition. For example, the following XML gives the `Compile` items "one.cs" and "three.cs" the metadata `BuildDay` with the value "Monday". The code gives the item "two.cs" the metadata `BuildDay` with the value "Tuesday".  
+ Starting in the .NET Framework 3.5, you can add default metadata to any item type by using the [ItemDefinitionGroup element](../msbuild/itemdefinitiongroup-element-msbuild.md). Like well-known metadata, the default metadata is associated with all items of the item type that you specify. You can explicitly override default metadata in an item definition. For example, the following XML gives the `Compile` items "one.cs" and "three.cs" the metadata `BuildDay` with the value "Monday". The code gives the item "two.cs" the metadata `BuildDay` with the value "Tuesday".  
   
 ```  
 <ItemDefinitionGroup>  
@@ -219,7 +220,7 @@ MSBuild items are inputs into the build system, and they typically represent fil
  For more information, see [Item Definitions](../msbuild/item-definitions.md).  
   
 ##  <a name="BKMK_AttributesWithinTargets"></a> Attributes for Items in an ItemGroup of a Target  
- Starting in the .NET Framework 3.5, `Target` elements may contain [ItemGroup](../msbuild/itemgroup-element--msbuild-.md) elements that may contain item elements. The attributes in this section are valid when they are specified for an item in an `ItemGroup` that's in a `Target`.  
+ Starting in the .NET Framework 3.5, `Target` elements may contain [ItemGroup](../msbuild/itemgroup-element-msbuild.md) elements that may contain item elements. The attributes in this section are valid when they are specified for an item in an `ItemGroup` that's in a `Target`.  
   
 ###  <a name="BKMK_RemoveAttribute"></a> Remove Attribute  
  Items in an `ItemGroup` of a target may contain the `Remove` attribute, which removes specific items (files) from the item type. This attribute was introduced in the .NET Framework 3.5.  
@@ -367,9 +368,9 @@ Output:
 ## See Also  
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)  
  [MSBuild](../msbuild/msbuild1.md)   
- [How to: Select the Files to Build](../msbuild/how-to--select-the-files-to-build.md)   
- [How to: Exclude Files from the Build](../msbuild/how-to--exclude-files-from-the-build.md)   
- [How to: Display an Item List Separated with Commas](../msbuild/how-to--display-an-item-list-separated-with-commas.md)   
+ [How to: Select the Files to Build](../msbuild/how-to-select-the-files-to-build.md)   
+ [How to: Exclude Files from the Build](../msbuild/how-to-exclude-files-from-the-build.md)   
+ [How to: Display an Item List Separated with Commas](../msbuild/how-to-display-an-item-list-separated-with-commas.md)   
  [Item Definitions](../msbuild/item-definitions.md)   
  [Batching](../msbuild/msbuild-batching.md)   
- [Item Element (MSBuild)](../msbuild/item-element--msbuild-.md)
+ [Item Element (MSBuild)](../msbuild/item-element-msbuild.md)

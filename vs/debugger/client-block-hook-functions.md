@@ -1,7 +1,7 @@
 ---
-title: "Client Block Hook Functions"
+title: "Client Block Hook Functions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,6 +25,7 @@ helpviewer_keywords:
   - "hooks, client block"
 ms.assetid: f21c197e-565d-4e3f-9b27-4c018c9b87fc
 caps.latest.revision: 15
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -52,7 +53,7 @@ void YourClientDump(void *, size_t)
   
  In other words, your hook function should accept a **void** pointer to the beginning of the allocation block, together with a **size_t** type value indicating the size of the allocation, and return `void`. Other than that, its contents are up to you.  
   
- Once you have installed your hook function using [_CrtSetDumpClient](../Topic/_CrtSetDumpClient.md), it will be called every time a `_CLIENT_BLOCK` block is dumped. You can then use [_CrtReportBlockType](../Topic/_CrtReportBlockType.md) to get information on the type or subtype of dumped blocks.  
+ Once you have installed your hook function using [_CrtSetDumpClient](/visual-cpp/c-runtime-library/reference/crtsetdumpclient), it will be called every time a `_CLIENT_BLOCK` block is dumped. You can then use [_CrtReportBlockType](/visual-cpp/c-runtime-library/reference/crtreportblocktype) to get information on the type or subtype of dumped blocks.  
   
  The pointer to your function that you pass to `_CrtSetDumpClient` is of type **_CRT_DUMP_CLIENT**, as defined in CRTDBG.H:  
   
@@ -64,4 +65,4 @@ typedef void (__cdecl *_CRT_DUMP_CLIENT)
 ## See Also  
  [Debug Hook Function Writing](../debugger/debug-hook-function-writing.md)   
  [crt_dbg2 Sample](http://msdn.microsoft.com/en-us/21e1346a-6a17-4f57-b275-c76813089167)   
- [_CrtReportBlockType](../Topic/_CrtReportBlockType.md)
+ [_CrtReportBlockType](/visual-cpp/c-runtime-library/reference/crtreportblocktype)

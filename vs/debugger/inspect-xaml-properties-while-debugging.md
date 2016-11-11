@@ -1,7 +1,7 @@
 ---
-title: "Inspect XAML properties while debugging"
+title: "Inspect XAML properties while debugging | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ dev_langs:
   - "C++"
 ms.assetid: 390edde4-7b8d-4c89-8d69-55106b7e6b11
 caps.latest.revision: 3
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

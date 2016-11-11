@@ -1,5 +1,5 @@
 ---
-title: "Unable to access member"
+title: "Unable to access member | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "BC30749"
 ms.assetid: 14b1cfce-ee09-4d82-8166-1721eac5d715
 caps.latest.revision: 9
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 

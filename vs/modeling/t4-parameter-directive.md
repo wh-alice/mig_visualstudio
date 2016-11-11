@@ -1,7 +1,7 @@
 ---
-title: "T4 Parameter Directive"
+title: "T4 Parameter Directive | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1d590387-1d9d-40a5-a72c-65fae7a8bdf3
 caps.latest.revision: 3
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 translation.priority.ht: 

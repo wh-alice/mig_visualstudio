@@ -1,7 +1,7 @@
 ---
-title: "Working with Textures and Images"
+title: "Working with Textures and Images | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/26/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b9fbc8fa-66d1-4055-8460-24d8b8fbe43e
 caps.latest.revision: 10
+author: "BrianPeek"
 ms.author: "brpeek"
 manager: "ghogen"
 translation.priority.ht: 
@@ -33,7 +34,7 @@ translation.priority.mt:
 You can use the Image Editor in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to create and modify textures and images. The Image Editor supports rich texture and image formats like those that are used in DirectX app development.  
   
 > [!NOTE]
->  The Image Editor doesn't support low-color images like icons or cursors. To create or modify those kinds of images, use the [Image Editor for Icons](../Topic/Image%20Editor%20for%20Icons.md).  
+>  The Image Editor doesn't support low-color images like icons or cursors. To create or modify those kinds of images, use the [Image Editor for Icons](/visual-cpp/windows/image-editor-for-icons).  
   
 ## Textures and images  
  Textures and images are, at a basic level, just tables of data that are used to provide visual detail in graphics apps. The kind of detail that a texture or image provides depends on how it's used, but color samples, alpha (transparency) values, surface normals, and height values are common examples. The primary difference between a texture and an image is that a texture is meant to be used together with a representation of shape—typically a 3-D model—to express a complete object or scene, but an image is typically a stand-alone representation of the object or scene.  

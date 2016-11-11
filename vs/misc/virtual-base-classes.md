@@ -1,7 +1,7 @@
 ---
-title: "Virtual Base Classes"
+title: "Virtual Base Classes | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "virtual base classes"
 ms.assetid: 0aa93b06-8f43-49f2-9c1d-bc3df582c048
 caps.latest.revision: 8
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -37,4 +38,4 @@ translation.priority.mt:
 ---
 # Virtual Base Classes
 ## See Also  
- [Multiple Base Classes](../Topic/Multiple%20Base%20Classes.md)
+ [Multiple Base Classes](/visual-cpp/cpp/multiple-base-classes)

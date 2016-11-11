@@ -1,5 +1,5 @@
 ---
-title: "Classes can inherit only from other classes"
+title: "Classes can inherit only from other classes | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "BC30258"
 ms.assetid: cc07e7cd-b4a9-41a4-b1ac-2ef28162a1dd
 caps.latest.revision: 8
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -44,4 +45,4 @@ An `Inherits` statement specifies a type other than a class as its base type.
 -   Change the base type to a class that is already defined.  
   
 ## See Also  
- [Inheritance Basics](../Topic/Inheritance%20Basics%20\(Visual%20Basic\).md)
+ [Inheritance Basics](/dotnet/visual-basic/programming-guide/language-features/objects-and-classes/inheritance-basics)

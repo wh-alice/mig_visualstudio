@@ -1,7 +1,7 @@
 ---
-title: "When Breakpoint Is Hit Dialog Box"
+title: "When Breakpoint Is Hit Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,6 +23,7 @@ dev_langs:
   - "C++"
 ms.assetid: 476e3d98-cf35-4338-b124-cd0f3010d854
 caps.latest.revision: 11
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

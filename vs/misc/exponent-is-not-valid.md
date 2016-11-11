@@ -1,5 +1,5 @@
 ---
-title: "Exponent is not valid"
+title: "Exponent is not valid | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "BC30495"
 ms.assetid: 03053858-255d-4609-af1d-7aa5a7338914
 caps.latest.revision: 8
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 

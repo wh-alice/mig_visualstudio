@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Warning RC4207"
+title: "Resource Compiler Warning RC4207 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC4207"
 ms.assetid: ee0e1d5a-8a89-4a42-b5e8-ac80cc295a3c
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

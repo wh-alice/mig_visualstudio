@@ -1,7 +1,7 @@
 ---
-title: "Filtered Completion Lists in Visual Basic"
+title: "Filtered Completion Lists in Visual Basic | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IntelliSense [Visual Basic], filtered completion lists"
 ms.assetid: c9e3b223-8ac2-4a2a-b8c2-91786d2a73e2
 caps.latest.revision: 8
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

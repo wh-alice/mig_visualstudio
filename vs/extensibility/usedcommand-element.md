@@ -1,7 +1,7 @@
 ---
-title: "UsedCommand Element"
+title: "UsedCommand Element | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -78,4 +78,4 @@ Enables a VSPackage to access a command that is defined in another .vsct file. F
   
 ## See Also  
  [UsedCommands Element](../extensibility/usedcommands-element.md)   
- [Visual Studio Command Table (.Vsct) Files](../Topic/Visual%20Studio%20Command%20Table%20\(.Vsct\)%20Files.md)
+ [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

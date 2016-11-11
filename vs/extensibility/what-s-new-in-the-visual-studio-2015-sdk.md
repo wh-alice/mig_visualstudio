@@ -1,7 +1,7 @@
 ---
-title: "What&#39;s New in the Visual Studio 2015 SDK"
+title: "What&#39;s New in the Visual Studio 2015 SDK | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -75,12 +75,12 @@ The Visual Studio SDK has the following new and updated features for Visual Stud
 > [!NOTE]
 >  You can continue to use the VS SDK installed reference assemblies with your projects (located under \<Visual Studio Install Location>\ VSSDK\VisualStudioIntegration\Common\Assemblies) and existing extensibility projects do not need to be upgraded to use NuGet packages.  The project **References / Add Reference** dialog continues to use the VS SDK installed reference assemblies.  
 >   
->  If you’d like to modify your existing projects to use NuGet, see [How to: Migrate VSPackages to Visual Studio 2015](../extensibility/how-to--migrate-extensibility-projects-to-visual-studio-2015.md) which has a section on updating extensibility projects to NuGet packages.  
+>  If you’d like to modify your existing projects to use NuGet, see [How to: Migrate VSPackages to Visual Studio 2015](../extensibility/how-to-migrate-extensibility-projects-to-visual-studio-2015.md) which has a section on updating extensibility projects to NuGet packages.  
   
 ## Light Bulbs  
  One of the most exciting new ways of writing extension code is provided by the Roslyn project. For more information, see [Roslyn](https://github.com/dotnet/Roslyn).  
   
- Light bulbs are a new feature that ships with the VSSDK. They are icons used in the Visual Studio editor that expand to display a set of code refactoring actions or fixes for problems identified by the built-in code analyzers. For more information, see [Walkthrough: Displaying Light Bulb Suggestions](../extensibility/walkthrough--displaying-light-bulb-suggestions.md).  
+ Light bulbs are a new feature that ships with the VSSDK. They are icons used in the Visual Studio editor that expand to display a set of code refactoring actions or fixes for problems identified by the built-in code analyzers. For more information, see [Walkthrough: Displaying Light Bulb Suggestions](../extensibility/walkthrough-displaying-light-bulb-suggestions.md).  
   
 ## Updated User Experience Guidelines  
  Designing new extensions or features for Visual Studio? Check out the updated and expanded [Visual Studio User Experience Guidelines](../extensibility/ux-guidelines/visual-studio-user-experience-guidelines.md).  You’ll find the [color tokens](../extensibility/ux-guidelines/shared-colors-for-visual-studio.md), [font sizes](../extensibility/ux-guidelines/fonts-and-formatting-for-visual-studio.md), [dialog layout specifications](../extensibility/ux-guidelines/layout-for-visual-studio.md), and other guidance you need to seamlessly integrate your new UI with Visual Studio.

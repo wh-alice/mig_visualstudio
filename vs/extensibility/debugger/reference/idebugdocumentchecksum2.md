@@ -1,7 +1,7 @@
 ---
-title: "IDebugDocumentChecksum2"
+title: "IDebugDocumentChecksum2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -47,7 +47,7 @@ IDebugDocumentChecksum2 : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetChecksumAndAlgorithmId](../../../extensibility/debugger/reference/idebugdocumentchecksum2--getchecksumandalgorithmid.md)|Retrieves the document checksum and algorithm identifier given the maximum number of bytes to use.|  
+|[GetChecksumAndAlgorithmId](../../../extensibility/debugger/reference/idebugdocumentchecksum2-getchecksumandalgorithmid.md)|Retrieves the document checksum and algorithm identifier given the maximum number of bytes to use.|  
   
 ## Requirements  
  Header: Msdbg.h  

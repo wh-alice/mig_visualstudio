@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Fatal Error RW1021"
+title: "Resource Compiler Fatal Error RW1021 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RW1021"
 ms.assetid: 5ac47848-2b82-46f4-bbf1-8051b154fc34
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

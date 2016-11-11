@@ -1,7 +1,7 @@
 ---
-title: "Creating a UI by using Blend for Visual Studio"
+title: "Creating a UI by using Blend for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ f1_keywords:
   - "Blend.Start.Dev12"
 ms.assetid: efd12263-cc2d-4081-a2bb-9a2cc17c442c
 caps.latest.revision: 31
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

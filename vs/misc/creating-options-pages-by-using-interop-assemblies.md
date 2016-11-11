@@ -1,7 +1,7 @@
 ---
-title: "Creating Options Pages By Using Interop Assemblies"
+title: "Creating Options Pages By Using Interop Assemblies | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -46,7 +46,7 @@ Managed VSPackages can use the COM-based interop assemblies of the [!INCLUDE[vsi
 ## Making Tools Options Pages Available to the IDE  
  In addition to implementing a user control, VSPackages must make that control available to the IDE.  
   
- This is done through the implementation of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetPropertyPage*> method, which returns a <xref:Microsoft.VisualStudio.Shell.Interop.VSPROPSHEETPAGE> structure based on the GUID passed.  
+ This is done through the implementation of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetPropertyPage%2A> method, which returns a <xref:Microsoft.VisualStudio.Shell.Interop.VSPROPSHEETPAGE> structure based on the GUID passed.  
   
  The IDE uses the <xref:Microsoft.VisualStudio.Shell.Interop.VSPROPSHEETPAGE> structure to set the characteristics of a **Properties** page.  
   
@@ -61,11 +61,11 @@ Managed VSPackages can use the COM-based interop assemblies of the [!INCLUDE[vsi
 ## Registering a Tools Options Page  
  You can register a **Tools Options** page by creating an entry in the following registry location: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<Version>*\ToolsOptionsPages, where *\<Version>* is the version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], such as 8.0.  
   
- To register the page, you can either manually edit the registry or use a registry script (.rgs file). For more information, see [Creating Registrar Scripts](../Topic/Creating%20Registrar%20Scripts.md).  
+ To register the page, you can either manually edit the registry or use a registry script (.rgs file). For more information, see [Creating Registrar Scripts](/visual-cpp/atl/creating-registrar-scripts).  
   
 ## See Also  
  [Extending the Visual Studio Environment](../Topic/Extending%20the%20Visual%20Studio%20Environment.md)   
- [Creating Registrar Scripts](../Topic/Creating%20Registrar%20Scripts.md)   
+ [Creating Registrar Scripts](/visual-cpp/atl/creating-registrar-scripts)   
  [Automation Support for Options Pages](../extensibility/internals/automation-support-for-options-pages.md)   
  [Using Options Pages](../misc/using-options-pages.md)   
  [Creating Options Pages](../extensibility/internals/creating-options-pages.md)   

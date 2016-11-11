@@ -1,7 +1,7 @@
 ---
-title: "Source Control Integration Overview"
+title: "Source Control Integration Overview | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,7 +45,7 @@ This section compares the two ways to integrate into Visual Studio source contro
   
 1.  Create a DLL that implements the functions specified in [Source Control Plug-ins](../../extensibility/source-control-plug-ins.md).  
   
-2.  Register the DLL by making the appropriate registry entries (described in [How to: Install a Source Control Plug-in](../../extensibility/internals/how-to--install-a-source-control-plug-in.md)).  
+2.  Register the DLL by making the appropriate registry entries (described in [How to: Install a Source Control Plug-in](../../extensibility/internals/how-to-install-a-source-control-plug-in.md)).  
   
 3.  Create a helper UI and display when prompted by the Source Control Adapter Package (the Visual Studio component that handles source control functionality via source control plug-ins)  
   

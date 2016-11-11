@@ -1,7 +1,7 @@
 ---
-title: "Cross-Platform Mobile Development Examples"
+title: "Cross-Platform Mobile Development Examples | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ dev_langs:
   - "C++"
 ms.assetid: bc384c12-fccc-45d7-9fb9-b90d536aa663
 caps.latest.revision: 3
+author: "BrianPeek"
 ms.author: "brpeek"
 manager: "ghogen"
 translation.priority.ht: 

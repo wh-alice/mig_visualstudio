@@ -1,7 +1,7 @@
 ---
-title: "Properties of Domain Properties"
+title: "Properties of Domain Properties | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, domain properties"
 ms.assetid: a9471562-d6f2-46bf-9872-e0d66ba03150
 caps.latest.revision: 24
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 ---

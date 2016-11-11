@@ -1,7 +1,7 @@
 ---
-title: "Program Control"
+title: "Program Control | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -53,11 +53,11 @@ In Visual Studio debugging, all of the following stepping and continuing routine
   
 |Method|Description|  
 |------------|-----------------|  
-|[IDebugProgram2::Execute](../../extensibility/debugger/reference/idebugprogram2--execute.md)|Continues running all threads contained by a program from a stopped state. Required for execution control.|  
-|[IDebugProgram2::Continue](../../extensibility/debugger/reference/idebugprogram2--continue.md)|Continues running all threads contained by a program from a stopped state. Required for execution control.|  
-|[IDebugProgram2::Step](../../extensibility/debugger/reference/idebugprogram2--step.md)|Performs a step on the given thread. Continues running all other threads contained by the program. Required for execution control.|  
+|[IDebugProgram2::Execute](../../extensibility/debugger/reference/idebugprogram2-execute.md)|Continues running all threads contained by a program from a stopped state. Required for execution control.|  
+|[IDebugProgram2::Continue](../../extensibility/debugger/reference/idebugprogram2-continue.md)|Continues running all threads contained by a program from a stopped state. Required for execution control.|  
+|[IDebugProgram2::Step](../../extensibility/debugger/reference/idebugprogram2-step.md)|Performs a step on the given thread. Continues running all other threads contained by the program. Required for execution control.|  
   
- For multithreaded programs, you must also implement the [IDebugProgram2::EnumThreads](../../extensibility/debugger/reference/idebugprogram2--enumthreads.md) method and all the methods of the [IEnumDebugThreads2](../../extensibility/debugger/reference/ienumdebugthreads2.md) interface.  
+ For multithreaded programs, you must also implement the [IDebugProgram2::EnumThreads](../../extensibility/debugger/reference/idebugprogram2-enumthreads.md) method and all the methods of the [IEnumDebugThreads2](../../extensibility/debugger/reference/ienumdebugthreads2.md) interface.  
   
 ## See Also  
  [Execution Control and State Evaluation](../../extensibility/debugger/execution-control-and-state-evaluation.md)

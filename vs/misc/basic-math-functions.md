@@ -1,7 +1,7 @@
 ---
-title: "Basic Math Functions"
+title: "Basic Math Functions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/26/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "math functions, samples [C++]"
 ms.assetid: a9c29333-6bc6-4090-8d59-426ba2364549
 caps.latest.revision: 10
+author: "ghogen"
 ms.author: "ghogen"
 manager: "douge"
 translation.priority.mt: 

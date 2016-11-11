@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB3162"
+title: "MSBuild Error MSB3162 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB3162"
 ms.assetid: 35189e5d-c065-4d57-bf78-6433771a5063
 caps.latest.revision: 4
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

@@ -1,5 +1,5 @@
 ---
-title: "Data User Interface Elements"
+title: "Data User Interface Elements | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -41,6 +41,7 @@ helpviewer_keywords:
   - "data [Visual Studio], dialog boxes"
 ms.assetid: 90943baf-5bd1-4eef-927f-f82485979fde
 caps.latest.revision: 18
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 robots: noindex,nofollow

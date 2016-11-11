@@ -1,7 +1,7 @@
 ---
-title: "Add validation to an n-tier dataset"
+title: "Add validation to an n-tier dataset | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "validating n-tier data applications"
 ms.assetid: 34ce4db6-09bb-4b46-b435-b2514aac52d3
 caps.latest.revision: 23
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 translation.priority.ht: 
@@ -39,7 +40,7 @@ translation.priority.mt:
 # Add validation to an n-tier dataset
 Adding validation to a dataset that is separated into an n-tier solution is basically the same as adding validation to a single-file dataset (a dataset in a single project). The suggested location for performing validation on data is during the <xref:System.Data.DataTable.ColumnChanging> and/or <xref:System.Data.DataTable.RowChanging> events of a data table.  
   
- The [Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md) provides the functionality to create partial classes to which you can add user code to column- and row- changing events of the data tables in the dataset. For more information about adding code to a dataset in an n-tier solution, see [Add code to datasets in n-tier applications](../data-tools/add-code-to-datasets-in-n-tier-applications.md), and [Add code to TableAdapters in n-tier applications](../data-tools/add-code-to-tableadapters-in-n-tier-applications.md). For more information about partial classes, see [How to: Split a Class into Partial Classes (Class Designer)](../ide/how-to--split-a-class-into-partial-classes--class-designer-.md) or [Partial Classes and Methods](../Topic/Partial%20Classes%20and%20Methods%20\(C%23%20Programming%20Guide\).md).  
+ The [Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md) provides the functionality to create partial classes to which you can add user code to column- and row- changing events of the data tables in the dataset. For more information about adding code to a dataset in an n-tier solution, see [Add code to datasets in n-tier applications](../data-tools/add-code-to-datasets-in-n-tier-applications.md), and [Add code to TableAdapters in n-tier applications](../data-tools/add-code-to-tableadapters-in-n-tier-applications.md). For more information about partial classes, see [How to: Split a Class into Partial Classes (Class Designer)](../ide/how-to-split-a-class-into-partial-classes-class-designer.md) or [Partial Classes and Methods](/dotnet/csharp/programming-guide/classes-and-structs/partial-classes-and-methods).  
   
 > [!NOTE]
 >  When you separate datasets from TableAdapters (by setting the **DataSet Project** property), existing partial dataset classes in the project won't be moved automatically. Existing dataset partial classes must be moved manually to the dataset project.  
@@ -72,7 +73,7 @@ End Sub
 2.  Double-click the column you want to validate. This action creates the <xref:System.Data.DataTable.ColumnChanging> event handler.  
   
     > [!NOTE]
-    >  The Dataset Designer does not automatically create an event handler for the C# event. The code that's necessary to handle the event in C# is included in the next section. `SampleColumnChangingEvent` is created and then hooked up to the <xref:System.Data.DataTable.ColumnChanging> event in the <xref:System.Data.DataTable.EndInit*> method.  
+    >  The Dataset Designer does not automatically create an event handler for the C# event. The code that's necessary to handle the event in C# is included in the next section. `SampleColumnChangingEvent` is created and then hooked up to the <xref:System.Data.DataTable.ColumnChanging> event in the <xref:System.Data.DataTable.EndInit%2A> method.  
   
 3.  Add code to verify that `e.ProposedValue` contains data that meets the requirements of your application. If the proposed value is unacceptable, set the column to indicate that it contains an error.  
   
@@ -186,5 +187,5 @@ End Sub
   
 ## See Also  
  [N-Tier Data Applications Overview](../data-tools/n-tier-data-applications-overview.md)   
- [Walkthrough: Creating an N-Tier Data Application](../data-tools/walkthrough--creating-an-n-tier-data-application.md)   
+ [Walkthrough: Creating an N-Tier Data Application](../data-tools/walkthrough-creating-an-n-tier-data-application.md)   
  [Validate data in datasets](../data-tools/validate-data-in-datasets.md)

@@ -1,7 +1,7 @@
 ---
-title: "Initializing Base Classes"
+title: "Initializing Base Classes | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "base classes, initializing"
 ms.assetid: 4069c3f4-a729-49c1-ae71-40dd87112df4
 caps.latest.revision: 8
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 

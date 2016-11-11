@@ -1,7 +1,7 @@
 ---
-title: "IDebugBreakpointRequest2"
+title: "IDebugBreakpointRequest2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,18 +45,18 @@ IDebugBreakpointRequest2 : IUnknown
  The session debug manager (SDM) typically implements this interface.  
   
 ## Notes for Callers  
- The debug engine (DE) receives this interface through a call to [CreatePendingBreakpoint](../../../extensibility/debugger/reference/idebugengine2--creatependingbreakpoint.md) in order to create a pending breakpoint. A call to [GetBreakpointRequest](../../../extensibility/debugger/reference/idebugpendingbreakpoint2--getbreakpointrequest.md) can retrieve this interface from the DE.  
+ The debug engine (DE) receives this interface through a call to [CreatePendingBreakpoint](../../../extensibility/debugger/reference/idebugengine2-creatependingbreakpoint.md) in order to create a pending breakpoint. A call to [GetBreakpointRequest](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-getbreakpointrequest.md) can retrieve this interface from the DE.  
   
 ## Methods in Vtable Order  
  The following table shows the methods of `IDebugBreakpointRequest2`.  
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetLocationType](../../../extensibility/debugger/reference/idebugbreakpointrequest2--getlocationtype.md)|Gets the breakpoint location type of this breakpoint request.|  
-|[GetRequestInfo](../../../extensibility/debugger/reference/idebugbreakpointrequest2--getrequestinfo.md)|Gets the breakpoint request information that describes this breakpoint request.|  
+|[GetLocationType](../../../extensibility/debugger/reference/idebugbreakpointrequest2-getlocationtype.md)|Gets the breakpoint location type of this breakpoint request.|  
+|[GetRequestInfo](../../../extensibility/debugger/reference/idebugbreakpointrequest2-getrequestinfo.md)|Gets the breakpoint request information that describes this breakpoint request.|  
   
 ## Remarks  
- After the program being debugged has been loaded, a call to [Bind](../../../extensibility/debugger/reference/idebugpendingbreakpoint2--bind.md) binds a pending breakpoint to the requested location in the program.  
+ After the program being debugged has been loaded, a call to [Bind](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-bind.md) binds a pending breakpoint to the requested location in the program.  
   
 ## Requirements  
  Header: msdbg.h  
@@ -66,6 +66,6 @@ IDebugBreakpointRequest2 : IUnknown
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll  
   
 ## See Also  
- [CreatePendingBreakpoint](../../../extensibility/debugger/reference/idebugengine2--creatependingbreakpoint.md)   
- [GetBreakpointRequest](../../../extensibility/debugger/reference/idebugpendingbreakpoint2--getbreakpointrequest.md)   
- [Bind](../../../extensibility/debugger/reference/idebugpendingbreakpoint2--bind.md)
+ [CreatePendingBreakpoint](../../../extensibility/debugger/reference/idebugengine2-creatependingbreakpoint.md)   
+ [GetBreakpointRequest](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-getbreakpointrequest.md)   
+ [Bind](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-bind.md)

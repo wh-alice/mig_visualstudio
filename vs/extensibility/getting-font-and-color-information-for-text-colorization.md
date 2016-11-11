@@ -1,7 +1,7 @@
 ---
-title: "Getting Font and Color Information for Text Colorization"
+title: "Getting Font and Color Information for Text Colorization | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/26/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -40,7 +40,7 @@ The process that renders or displays colorized text in user interface (UI) eleme
 >  When customizing the core editor (which supports the **Text EditorCategory**), it is strongly recommended that you use the coloring technology in the language service. For more information, see [Font and Color Overview](../extensibility/font-and-color-overview.md).  
   
 ## Getting Default Font and Color Information  
- All the **Fonts and Colors** settings of any window displaying text should be specified in the **Display Items** of one **Category**. For more information, see [Fonts and Colors, Environment, Options Dialog Box](../ide/reference/fonts-and-colors--environment--options-dialog-box.md).  
+ All the **Fonts and Colors** settings of any window displaying text should be specified in the **Display Items** of one **Category**. For more information, see [Fonts and Colors, Environment, Options Dialog Box](../ide/reference/fonts-and-colors-environment-options-dialog-box.md).  
   
  To colorize, a VSPackage must obtain current **Fonts and Colors** settings. A VSPackage can accomplish this in the following ways, depending on its needs:  
   
@@ -58,5 +58,5 @@ The process that renders or displays colorized text in user interface (UI) eleme
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaultsProvider>   
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaults>   
  [Using Fonts and Text](../Topic/Using%20Fonts%20and%20Text.md)   
- [Working with Color](../Topic/Working%20with%20Color%20\(Image%20Editor%20for%20Icons\).md)   
+ [Working with Color](/visual-cpp/windows/working-with-color-image-editor-for-icons)   
  [GDI (graphics device interface)](http://msdn.microsoft.com/en-us/7e1d4540-bb2e-4257-8eee-eee376acba83)

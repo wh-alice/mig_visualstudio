@@ -1,7 +1,7 @@
 ---
-title: "IDebugExpressionEvaluationCompleteEvent2"
+title: "IDebugExpressionEvaluationCompleteEvent2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -42,7 +42,7 @@ IDebugExpressionEvaluationCompleteEvent2 : IUnknown
 ```  
   
 ## Notes for Implementers  
- The DE implements this interface to report completion of an expression evaluation started by a call to [EvaluateAsync](../../../extensibility/debugger/reference/idebugexpression2--evaluateasync.md). The [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md) interface must be implemented on the same object as this interface. The SDM uses [QueryInterface](../Topic/QueryInterface.md) to access the `IDebugEvent2` interface.  
+ The DE implements this interface to report completion of an expression evaluation started by a call to [EvaluateAsync](../../../extensibility/debugger/reference/idebugexpression2-evaluateasync.md). The [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md) interface must be implemented on the same object as this interface. The SDM uses [QueryInterface](/visual-cpp/atl/queryinterface) to access the `IDebugEvent2` interface.  
   
 ## Notes for Callers  
  The DE creates and sends this event object to report the completion of an expression evaluation. The event is sent by using the [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) callback function that is supplied by the SDM when it attached to the program being debugged.  
@@ -52,13 +52,13 @@ IDebugExpressionEvaluationCompleteEvent2 : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetExpression](../../../extensibility/debugger/reference/idebugexpressionevaluationcompleteevent2--getexpression.md)|Gets the original expression.|  
-|[GetResult](../../../extensibility/debugger/reference/idebugexpressionevaluationcompleteevent2--getresult.md)|Gets the result of expression evaluation.|  
+|[GetExpression](../../../extensibility/debugger/reference/idebugexpressionevaluationcompleteevent2-getexpression.md)|Gets the original expression.|  
+|[GetResult](../../../extensibility/debugger/reference/idebugexpressionevaluationcompleteevent2-getresult.md)|Gets the result of expression evaluation.|  
   
 ## Remarks  
  The DE must send this event, whether the evaluation was successful or not.  
   
- If the evaluation was not successful, the `DEBUG_PROPINFO_VALUE` and `DEBUG_PROPINFO_ATTRIB` flags will not be set in the [DEBUG_PROPERTY_INFO](../../../extensibility/debugger/reference/debug_property_info.md) structure that is returned by [GetPropertyInfo](../../../extensibility/debugger/reference/idebugproperty2--getpropertyinfo.md) (the [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) object is created by the DE and returned in the `IDebugExpressionEvaluationCompleteEvent2` event if the evaluation failed).  
+ If the evaluation was not successful, the `DEBUG_PROPINFO_VALUE` and `DEBUG_PROPINFO_ATTRIB` flags will not be set in the [DEBUG_PROPERTY_INFO](../../../extensibility/debugger/reference/debug-property-info.md) structure that is returned by [GetPropertyInfo](../../../extensibility/debugger/reference/idebugproperty2-getpropertyinfo.md) (the [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) object is created by the DE and returned in the `IDebugExpressionEvaluationCompleteEvent2` event if the evaluation failed).  
   
 ## Requirements  
  Header: msdbg.h  
@@ -70,5 +70,5 @@ IDebugExpressionEvaluationCompleteEvent2 : IUnknown
 ## See Also  
  [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md)   
  [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md)   
- [EvaluateAsync](../../../extensibility/debugger/reference/idebugexpression2--evaluateasync.md)   
+ [EvaluateAsync](../../../extensibility/debugger/reference/idebugexpression2-evaluateasync.md)   
  [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)

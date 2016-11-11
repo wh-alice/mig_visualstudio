@@ -1,7 +1,7 @@
 ---
-title: "Visual Studio Package Load Keys"
+title: "Visual Studio Package Load Keys | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, deployment"
 ms.assetid: 42ff5f84-cd37-477e-8682-5ac0edd02ac6
 caps.latest.revision: 17
+author: "alancameronwills"
 ms.author: "awills"
 manager: "kamrani"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
-title: "Limitations on Script Debugging"
+title: "Limitations on Script Debugging | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "breakpoint mapping, limitations"
 ms.assetid: 280eead5-693c-47af-967f-dfe9d23f84db
 caps.latest.revision: 22
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB4137"
+title: "MSBuild Error MSB4137 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/24/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "MSB4137"
 ms.assetid: 9091be37-96a0-419c-b75d-30825b47c734
 caps.latest.revision: 9
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -42,5 +43,5 @@ translation.priority.mt:
   
 ## See Also  
  [Overriding ToolsVersion Settings](../msbuild/overriding-toolsversion-settings.md)   
- [Project Element (MSBuild)](../msbuild/project-element--msbuild-.md)   
+ [Project Element (MSBuild)](../msbuild/project-element-msbuild.md)   
  [Additional Resources](../msbuild/additional-msbuild-resources.md)

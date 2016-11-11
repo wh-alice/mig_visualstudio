@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Error RC2140"
+title: "Resource Compiler Error RC2140 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC2140"
 ms.assetid: 9c3f982c-193c-44a2-8a41-e81aefbaa213
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

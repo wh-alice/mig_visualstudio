@@ -1,7 +1,7 @@
 ---
-title: "IDiaStackWalker"
+title: "IDiaStackWalker | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaStackWalker interface"
 ms.assetid: 4a61a22a-9cf8-4ea1-9e6e-b42f96872d40
 caps.latest.revision: 10
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -47,8 +48,8 @@ IDiaStackWalker: IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[IDiaStackWalker::getEnumFrames](../../debugger/debug-interface-access/idiastackwalker--getenumframes.md)|Retrieves a stack frame enumerator for x86 platforms.|  
-|[IDiaStackWalker::getEnumFrames2](../../debugger/debug-interface-access/idiastackwalker--getenumframes2.md)|Retrieves a stack frame enumerator for a specific platform type.|  
+|[IDiaStackWalker::getEnumFrames](../../debugger/debug-interface-access/idiastackwalker-getenumframes.md)|Retrieves a stack frame enumerator for x86 platforms.|  
+|[IDiaStackWalker::getEnumFrames2](../../debugger/debug-interface-access/idiastackwalker-getenumframes2.md)|Retrieves a stack frame enumerator for a specific platform type.|  
   
 ## Remarks  
  This interface is used to obtain a list of stack frames for a loaded module. Each of the methods is passed an [IDiaStackWalkHelper](../../debugger/debug-interface-access/idiastackwalkhelper.md) object (implemented by the client application) which provides the necessary information to create the list of stack frames.  
@@ -81,5 +82,5 @@ if (FAILED(hr))
  DLL: msdia80.dll  
   
 ## See Also  
- [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces--debug-interface-access-sdk-.md)   
+ [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)   
  [IDiaStackWalkHelper](../../debugger/debug-interface-access/idiastackwalkhelper.md)

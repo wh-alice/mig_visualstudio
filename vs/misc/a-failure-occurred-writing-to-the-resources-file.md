@@ -1,7 +1,7 @@
 ---
-title: "A failure occurred writing to the resources file"
+title: "A failure occurred writing to the resources file | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ f1_keywords:
   - "vs.tasklisterror.fail_writing_resources_file"
 ms.assetid: bfff0629-eb29-4226-b0d7-ea02bf086dad
 caps.latest.revision: 6
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

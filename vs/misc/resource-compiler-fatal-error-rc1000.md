@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Fatal Error RC1000"
+title: "Resource Compiler Fatal Error RC1000 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC1000"
 ms.assetid: 4e0daaec-a4d1-4750-975a-43dcea1baf5c
 caps.latest.revision: 8
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

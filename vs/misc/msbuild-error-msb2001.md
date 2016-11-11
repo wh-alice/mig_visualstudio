@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB2001"
+title: "MSBuild Error MSB2001 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB2001"
 ms.assetid: af3f4154-7ef3-4903-bde9-b18a66392622
 caps.latest.revision: 12
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

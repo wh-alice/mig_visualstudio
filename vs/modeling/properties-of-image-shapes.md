@@ -1,7 +1,7 @@
 ---
-title: "Properties of Image Shapes"
+title: "Properties of Image Shapes | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, image shape"
 ms.assetid: 9ce00ccd-07f2-4640-ac96-2a60481d0d72
 caps.latest.revision: 25
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 ---

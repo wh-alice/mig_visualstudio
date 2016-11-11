@@ -1,7 +1,7 @@
 ---
-title: "Create models for your app"
+title: "Create models for your app | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -39,6 +39,7 @@ helpviewer_keywords:
   - "UML diagrams"
 ms.assetid: b69d9d91-c7e7-4dee-8eb6-706076eecb85
 caps.latest.revision: 58
+author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
 translation.priority.ht: 
@@ -65,11 +66,11 @@ Modeling diagrams help you understand, clarify, and communicate ideas about your
   
 |**Diagram**|**Shows**|  
 |-----------------|---------------|  
-|[UML Activity Diagrams: Reference](../modeling/uml-activity-diagrams--reference.md)|Flow of work between actions and participants in a business process|  
-|[UML Component Diagrams: Reference](../modeling/uml-component-diagrams--reference.md)|Components of a system, their interfaces, ports, and relationships|  
-|[UML Class Diagrams: Reference](../modeling/uml-class-diagrams--reference.md)|Types that are used to store and exchange data in the system and their relationships|  
-|[UML Sequence Diagrams: Reference](../modeling/uml-sequence-diagrams--reference.md)|Sequences of interactions between objects, components, systems, or actors|  
-|[UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams--reference.md)|User goals and tasks that a system supports|  
+|[UML Activity Diagrams: Reference](../modeling/uml-activity-diagrams-reference.md)|Flow of work between actions and participants in a business process|  
+|[UML Component Diagrams: Reference](../modeling/uml-component-diagrams-reference.md)|Components of a system, their interfaces, ports, and relationships|  
+|[UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)|Types that are used to store and exchange data in the system and their relationships|  
+|[UML Sequence Diagrams: Reference](../modeling/uml-sequence-diagrams-reference.md)|Sequences of interactions between objects, components, systems, or actors|  
+|[UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams-reference.md)|User goals and tasks that a system supports|  
   
  To see which versions of Visual Studio support each type of diagram, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
   
@@ -77,9 +78,9 @@ Modeling diagrams help you understand, clarify, and communicate ideas about your
   
 |**Diagram**|**Shows**|  
 |-----------------|---------------|  
-|[Layer Diagrams: Guidelines](../modeling/layer-diagrams--guidelines.md)<br /><br /> [Layer Diagrams: Reference](../modeling/layer-diagrams--reference.md)|High-level architecture of the system|  
+|[Layer Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)<br /><br /> [Layer Diagrams: Reference](../modeling/layer-diagrams-reference.md)|High-level architecture of the system|  
 |Code maps<br /><br /> [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)<br /><br /> [Find potential problems using code map analyzers](../modeling/find-potential-problems-using-code-map-analyzers.md)|Dependencies and other relationships in existing code|  
-|Code-generated class diagrams<br /><br /> [Working with Class Diagrams (Class Designer)](../ide/working-with-class-diagrams--class-designer-.md)|Types and their relationships in .NET code|  
+|Code-generated class diagrams<br /><br /> [Working with Class Diagrams (Class Designer)](../ide/working-with-class-diagrams-class-designer.md)|Types and their relationships in .NET code|  
   
 ## Common Tasks  
   

@@ -1,7 +1,7 @@
 ---
-title: "Visual Studio Lifecycle Policy Exceptions"
+title: "Visual Studio Lifecycle Policy Exceptions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c238489d-6181-42c6-aa60-f75d0889dc68
 caps.latest.revision: 3
+author: "TerryGLee"
 ms.author: "tglee"
 manager: "ghogen"
 translation.priority.ht: 

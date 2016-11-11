@@ -1,7 +1,7 @@
 ---
-title: "List Source Command"
+title: "List Source Command | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "ListSource command"
 ms.assetid: e45f08d2-f4a3-49c3-9452-aa60508e2f74
 caps.latest.revision: 6
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

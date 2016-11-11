@@ -1,7 +1,7 @@
 ---
-title: "Using the Legacy Activity Designer"
+title: "Using the Legacy Activity Designer | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "activities, creating custom"
 ms.assetid: 2fea8a05-6e58-423d-94bf-a822b15ffb80
 caps.latest.revision: 5
+author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
 translation.priority.ht: 
@@ -51,7 +52,7 @@ This topic describes how to use the activity designer in the legacy [!INCLUDE[wf
   
 3.  Type an activity name or keep the default name, and then click **Add**.  
   
- You can also create a set of custom activities by creating a new project of type **Workflow Activity Library**. For more information about this project type, see [How to: Create a Workflow Activity Library (Legacy)](../workflow-designer/how-to--create-a-workflow-activity-library--legacy-.md).  
+ You can also create a set of custom activities by creating a new project of type **Workflow Activity Library**. For more information about this project type, see [How to: Create a Workflow Activity Library (Legacy)](../workflow-designer/how-to-create-a-workflow-activity-library-legacy.md).  
   
 ## Configuring an Activity  
  While the Activity Designer is active, you can use the property browser to configure the properties listed in the following table.  
@@ -59,7 +60,7 @@ This topic describes how to use the activity designer in the legacy [!INCLUDE[wf
 |Property|Comments|  
 |--------------|--------------|  
 |**Name**|Name of the activity.|  
-|**Base Class**|Base class that the activity derives from. The default base class is [SequenceActivity](http://go.microsoft.com/fwlink?LinkID=65020). In the **Properties** window, click the **Base Class** ellipses **[…]** to select another base class in the [Browse and Select a .NET Type Dialog Box (Legacy)](../workflow-designer/browse-and-select-a-.net-type-dialog-box--legacy-.md).|  
+|**Base Class**|Base class that the activity derives from. The default base class is [SequenceActivity](http://go.microsoft.com/fwlink?LinkID=65020). In the **Properties** window, click the **Base Class** ellipses **[…]** to select another base class in the [Browse and Select a .NET Type Dialog Box (Legacy)](../workflow-designer/browse-and-select-a-dotnet-type-dialog-box-legacy.md).|  
 |**Description**|User-defined description of the activity.|  
 |**Enabled**|Set to **True** by default to enable activity execution and validation. Set to **False** to disable activity execution and validation. For information about activity execution and validation, see [Developing Workflow Activities](http://go.microsoft.com/fwlink?LinkID=65024).|  
   
@@ -71,5 +72,5 @@ This topic describes how to use the activity designer in the legacy [!INCLUDE[wf
  [Creating Custom Activities](http://go.microsoft.com/fwlink?LinkID=65021)   
  [Legacy Workflow Activities](../workflow-designer/legacy-workflow-activities.md)   
  [Custom Activities Samples](http://go.microsoft.com/fwlink?LinkID=65022)   
- [How to: Create a Workflow Activity Library (Legacy)](../workflow-designer/how-to--create-a-workflow-activity-library--legacy-.md)   
+ [How to: Create a Workflow Activity Library (Legacy)](../workflow-designer/how-to-create-a-workflow-activity-library-legacy.md)   
  [Using the Legacy Workflow Designer](../workflow-designer/using-the-legacy-workflow-designer.md)

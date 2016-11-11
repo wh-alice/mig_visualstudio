@@ -1,7 +1,7 @@
 ---
-title: "DslSetup Schema Description"
+title: "DslSetup Schema Description | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, DslSetup schema"
 ms.assetid: 0e4f8539-f9d5-49cf-b7db-01efbd03da18
 caps.latest.revision: 23
+author: "alancameronwills"
 ms.author: "awills"
 manager: "kamrani"
 translation.priority.ht: 

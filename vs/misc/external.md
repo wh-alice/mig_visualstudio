@@ -1,7 +1,7 @@
 ---
-title: "External"
+title: "External | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "external variables"
 ms.assetid: e35291d9-d605-4133-be7a-b7efedd45be8
 caps.latest.revision: 8
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -37,4 +38,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # External
-This content has moved to [Storage classes](../Topic/Storage%20classes%20\(C++\).md).
+This content has moved to [Storage classes](/visual-cpp/cpp/storage-classes-cpp).

@@ -1,7 +1,7 @@
 ---
-title: "Using saved IntelliTrace data"
+title: "Using saved IntelliTrace data | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,6 +18,7 @@ helpviewer_keywords:
   - ".iTrace files"
 ms.assetid: 9f2cce86-345a-4e22-84ba-91542d81e67a
 caps.latest.revision: 106
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -41,7 +42,7 @@ Go to specific points in your application's execution when you start debugging f
   
  Make sure that you have:  
   
--   Matching source files and symbol (.pdb) files for your application code. Otherwise, Visual Studio can't resolve the source locations and shows the message "Symbols not found." See [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol--.pdb--and-source-files-in-the-visual-studio-debugger.md) and [Diagnose problems after deployment](../debugger/diagnose-problems-after-deployment.md).  
+-   Matching source files and symbol (.pdb) files for your application code. Otherwise, Visual Studio can't resolve the source locations and shows the message "Symbols not found." See [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md) and [Diagnose problems after deployment](../debugger/diagnose-problems-after-deployment.md).  
   
 -   Visual Studio Enterprise (but not Professional or Community editions) on your development computer or another computer to open .iTrace files  
   
@@ -50,7 +51,7 @@ Go to specific points in your application's execution when you start debugging f
     |**Source**|**See**|  
     |----------------|-------------|  
     |An IntelliTrace session in Visual Studio Enterprise (but not Professional or Community editions)|[IntelliTrace Features](../debugger/intellitrace-features.md)|  
-    |A test session in Microsoft Test Manager. This attaches an .iTrace file to a Team Foundation Server work item.|[Collect more diagnostic data in manual tests](../Topic/Collect%20more%20diagnostic%20data%20in%20manual%20tests.md)|  
+    |A test session in Microsoft Test Manager. This attaches an .iTrace file to a Team Foundation Server work item.|[Collect more diagnostic data in manual tests](/devops-test-docs/test/collect-more-diagnostic-data-in-manual-tests)|  
     |Microsoft Monitoring Agent, either alone or with System Center 2012 R2 Operations Manager, for ASP.NET web apps and SharePoint applications running in deployment|-   [Diagnose problems after deployment](../debugger/diagnose-problems-after-deployment.md)<br />-   [What's New for System Center 2012 R2 Operations Manager](http://technet.microsoft.com/library/dn249700.aspx)|  
   
 ##  <a name="GetStarted"></a> What do you want to do?  
@@ -276,7 +277,7 @@ Go to specific points in your application's execution when you start debugging f
   
  [IntelliTrace Features](../debugger/intellitrace-features.md)  
   
- [Collect more diagnostic data in manual tests](../Topic/Collect%20more%20diagnostic%20data%20in%20manual%20tests.md)  
+ [Collect more diagnostic data in manual tests](/devops-test-docs/test/collect-more-diagnostic-data-in-manual-tests)  
   
  [IntelliTrace](../debugger/intellitrace.md)  
   

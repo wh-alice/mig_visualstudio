@@ -1,7 +1,7 @@
 ---
-title: "Could not copy built outputs to the Web"
+title: "Could not copy built outputs to the Web | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ f1_keywords:
   - "vs.tasklisterror.cantcopyoutputstoweb"
 ms.assetid: 59cf714b-cf7d-4df9-81ae-d3254969d5bc
 caps.latest.revision: 8
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
-title: "Visualizing EventSource Events as Markers"
+title: "Visualizing EventSource Events as Markers | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3a10022a-5c37-48b1-a833-dd35902176b6
 caps.latest.revision: 10
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -30,7 +31,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Visualizing EventSource Events as Markers
-The Concurrency Visualizer can display EventSource events as markers, and you can control how the markers are displayed. To view the EventSource markers, register the ETW provider GUID by using the [Advanced Settings](../profiling/advanced-settings-dialog-box--concurrency-visualizer-.md) dialog box. The Concurrency Visualizer has default conventions to represent EventSource events as [Flag Markers](../profiling/flag-markers.md), [Span Markers](../profiling/span-markers.md), and [Message Markers](../profiling/message-markers.md). You can customize how EventSource events are displayed by adding custom fields to the events. For more information about markers, see [Concurrency Visualizer Markers](../profiling/concurrency-visualizer-markers.md). For more information about EventSource events, see <xref:System.Diagnostics.Tracing>.  
+The Concurrency Visualizer can display EventSource events as markers, and you can control how the markers are displayed. To view the EventSource markers, register the ETW provider GUID by using the [Advanced Settings](../profiling/advanced-settings-dialog-box-concurrency-visualizer.md) dialog box. The Concurrency Visualizer has default conventions to represent EventSource events as [Flag Markers](../profiling/flag-markers.md), [Span Markers](../profiling/span-markers.md), and [Message Markers](../profiling/message-markers.md). You can customize how EventSource events are displayed by adding custom fields to the events. For more information about markers, see [Concurrency Visualizer Markers](../profiling/concurrency-visualizer-markers.md). For more information about EventSource events, see <xref:System.Diagnostics.Tracing>.  
   
 ## Default Visualization of EventSource Events  
  By default, the Concurrency Visualizer uses the following conventions to represent EventSource events.  
@@ -102,7 +103,7 @@ The Concurrency Visualizer can display EventSource events as markers, and you ca
  Use the `cvTextW` field, a string, to control the description that the Concurrency Visualizer gives to an EventSource event.  
   
 ### SpanID  
- Use the cvSpanId field, an int, to match pairs of events. The value for each pair of start/stop events that represent a span must be unique. Typically for concurrent code, this requires the use of synchronization primitives such as <xref:System.Threading.Interlocked.Exchange*> to ensure that the key (the value that's used for CvSpanID) is correct.  
+ Use the cvSpanId field, an int, to match pairs of events. The value for each pair of start/stop events that represent a span must be unique. Typically for concurrent code, this requires the use of synchronization primitives such as <xref:System.Threading.Interlocked.Exchange%2A> to ensure that the key (the value that's used for CvSpanID) is correct.  
   
 > [!NOTE]
 >  The use of SpanID to nest spans, allow them to partially overlap on the same thread, or allow them to start on one thread and end on another is not supported.  

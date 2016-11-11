@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Batching"
+title: "MSBuild Batching | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "MSBuild, batching"
 ms.assetid: d35c085b-27b8-49d7-b6f8-8f2f3a0eec38
 caps.latest.revision: 9
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -102,7 +103,7 @@ translation.priority.ht:
   
  `$([System.IO.Path]::Combine($(RootPath),%(Compile.Identity)))`  
   
- uses <xref:System.IO.Path.Combine*> to combine a root folder path with a Compile item path.  
+ uses <xref:System.IO.Path.Combine%2A> to combine a root folder path with a Compile item path.  
   
  Property functions may not appear within metadata values.  For example,  
   
@@ -113,7 +114,7 @@ translation.priority.ht:
  For more information about property functions, see [Property Functions](../msbuild/property-functions.md).  
   
 ## See Also  
- [ItemMetadata Element (MSBuild)](../msbuild/itemmetadata-element--msbuild-.md)   
+ [ItemMetadata Element (MSBuild)](../msbuild/itemmetadata-element-msbuild.md)   
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)   
  [Advanced Concepts](../msbuild/msbuild-advanced-concepts.md)

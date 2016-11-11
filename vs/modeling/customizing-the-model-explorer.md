@@ -1,7 +1,7 @@
 ---
-title: "Customizing the Model Explorer"
+title: "Customizing the Model Explorer | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "Domain-Specific Language Tools, Domain-Specific Language Explorer"
 ms.assetid: d2926444-9408-41d8-a27e-3fd0c416f9ac
 caps.latest.revision: 20
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 ---

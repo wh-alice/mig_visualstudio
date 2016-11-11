@@ -1,7 +1,7 @@
 ---
-title: "Working with 3-D Models"
+title: "Working with 3-D Models | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: fa035091-1354-4d1c-be44-4fb83860466f
 caps.latest.revision: 8
+author: "BrianPeek"
 ms.author: "brpeek"
 manager: "ghogen"
 ---

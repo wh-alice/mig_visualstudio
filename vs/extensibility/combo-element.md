@@ -1,7 +1,7 @@
 ---
-title: "Combo Element"
+title: "Combo Element | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -97,4 +97,4 @@ Defines commands that appear in a combo box. There are four kinds of combo boxes
 ```  
   
 ## See Also  
- [Visual Studio Command Table (.Vsct) Files](../Topic/Visual%20Studio%20Command%20Table%20\(.Vsct\)%20Files.md)
+ [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

@@ -1,7 +1,7 @@
 ---
-title: "Debug Multiple Processes"
+title: "Debug Multiple Processes | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,6 +22,7 @@ dev_langs:
   - "C++"
 ms.assetid: bde37134-66af-4273-b02e-05b3370c31ab
 caps.latest.revision: 16
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -63,9 +64,9 @@ Here’s how to start debugging processes, switch between processes, break and c
  ![Back to top](../debugger/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
 ##  <a name="BKMK_Find_the_source_and_symbol___pdb__files"></a> Find the source and symbol (.pdb) files  
- To navigate the source code of a process, the debugger needs access to the source files and symbol files of the process. See [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol--.pdb--and-source-files-in-the-visual-studio-debugger.md).  
+ To navigate the source code of a process, the debugger needs access to the source files and symbol files of the process. See [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).  
   
- If you can’t access the files for a process, you can navigate by using the Disassemby window. See [How to: Use the Disassembly Window](../debugger/how-to--use-the-disassembly-window.md)  
+ If you can’t access the files for a process, you can navigate by using the Disassemby window. See [How to: Use the Disassembly Window](../debugger/how-to-use-the-disassembly-window.md)  
   
  ![Back to top](../debugger/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
@@ -230,7 +231,7 @@ Here’s how to start debugging processes, switch between processes, break and c
  ![Back to top](../debugger/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
 ## See Also  
- [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol--.pdb--and-source-files-in-the-visual-studio-debugger.md)   
+ [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)   
  [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)   
  [Navigating through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md)   
  [Just-In-Time Debugging](../debugger/just-in-time-debugging-in-visual-studio.md)   

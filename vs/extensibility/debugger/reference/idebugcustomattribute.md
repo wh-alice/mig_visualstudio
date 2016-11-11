@@ -1,7 +1,7 @@
 ---
-title: "IDebugCustomAttribute"
+title: "IDebugCustomAttribute | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,17 +45,17 @@ IDebugCustomAttribute : IUnknown
  A symbol provider implements this interface in order to support custom attributes associated with a symbol. It is typically implemented on its own object.  
   
 ## Notes for Callers  
- A call to [Next](../../../extensibility/debugger/reference/ienumdebugcustomattributes--next.md) returns this interface. A call to the [EnumCustomAttributes](../../../extensibility/debugger/reference/idebugcustomattributequery2--enumcustomattributes.md) method returns the [IEnumDebugCustomAttributes](../../../extensibility/debugger/reference/ienumdebugcustomattributes.md) interface.  
+ A call to [Next](../../../extensibility/debugger/reference/ienumdebugcustomattributes-next.md) returns this interface. A call to the [EnumCustomAttributes](../../../extensibility/debugger/reference/idebugcustomattributequery2-enumcustomattributes.md) method returns the [IEnumDebugCustomAttributes](../../../extensibility/debugger/reference/ienumdebugcustomattributes.md) interface.  
   
 ## Methods in Vtable Order  
  The following table shows the methods of `IDebugCustomAttribute`.  
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetParentField](../../../extensibility/debugger/reference/idebugcustomattribute--getparentfield.md)|Gets the field to which the current attribute is attached.|  
-|[GetAttributeTypeField](../../../extensibility/debugger/reference/idebugcustomattribute--getattributetypefield.md)|Gets the custom attribute class type.|  
-|[GetName](../../../extensibility/debugger/reference/idebugcustomattribute--getname.md)|Gets the name of the custom attribute.|  
-|[GetAttributeBytes](../../../extensibility/debugger/reference/idebugcustomattribute--getattributebytes.md)|Gets the attribute information as a blob of bytes.|  
+|[GetParentField](../../../extensibility/debugger/reference/idebugcustomattribute-getparentfield.md)|Gets the field to which the current attribute is attached.|  
+|[GetAttributeTypeField](../../../extensibility/debugger/reference/idebugcustomattribute-getattributetypefield.md)|Gets the custom attribute class type.|  
+|[GetName](../../../extensibility/debugger/reference/idebugcustomattribute-getname.md)|Gets the name of the custom attribute.|  
+|[GetAttributeBytes](../../../extensibility/debugger/reference/idebugcustomattribute-getattributebytes.md)|Gets the attribute information as a blob of bytes.|  
   
 ## Remarks  
  A custom attribute is a structure for C# that supplies custom metadata associated with a particular class or method.  

@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Error RC2139"
+title: "Resource Compiler Error RC2139 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC2139"
 ms.assetid: 6e4fdb5d-099b-4c92-a2d1-73967fbc94d5
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

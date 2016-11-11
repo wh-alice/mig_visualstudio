@@ -1,7 +1,7 @@
 ---
-title: "IEnumDebugBoundBreakpoints2"
+title: "IEnumDebugBoundBreakpoints2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -47,22 +47,22 @@ IEnumDebugBoundBreakpoints2 : IUnknown
 ## Notes for Callers  
  Visual Studio calls:  
   
--   [EnumBreakpoints](../../../extensibility/debugger/reference/idebugbreakpointevent2--enumbreakpoints.md) to obtain this interface representing a list of all breakpoints that were triggered.  
+-   [EnumBreakpoints](../../../extensibility/debugger/reference/idebugbreakpointevent2-enumbreakpoints.md) to obtain this interface representing a list of all breakpoints that were triggered.  
   
--   [EnumBoundBreakpoints](../../../extensibility/debugger/reference/idebugbreakpointboundevent2--enumboundbreakpoints.md) to obtain this interface representing a list of all breakpoints that were bound.  
+-   [EnumBoundBreakpoints](../../../extensibility/debugger/reference/idebugbreakpointboundevent2-enumboundbreakpoints.md) to obtain this interface representing a list of all breakpoints that were bound.  
   
--   [EnumBoundBreakpoints](../../../extensibility/debugger/reference/idebugpendingbreakpoint2--enumboundbreakpoints.md) to obtain this interface representing a list of all breakpoints bound to that pending breakpoint.  
+-   [EnumBoundBreakpoints](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-enumboundbreakpoints.md) to obtain this interface representing a list of all breakpoints bound to that pending breakpoint.  
   
 ## Methods in Vtable Order  
  The following table shows the methods of `IEnumDebugBoundBreakpoints2`.  
   
 |Method|Description|  
 |------------|-----------------|  
-|[Next](../../../extensibility/debugger/reference/ienumdebugboundbreakpoints2--next.md)|Retrieves a specified number of bound breakpoints in an enumeration sequence.|  
-|[Skip](../../../extensibility/debugger/reference/ienumdebugboundbreakpoints2--skip.md)|Skips a specified number of bound breakpoints in an enumeration sequence.|  
-|[Reset](../../../extensibility/debugger/reference/ienumdebugboundbreakpoints2--reset.md)|Resets an enumeration sequence to the beginning.|  
-|[Clone](../../../extensibility/debugger/reference/ienumdebugboundbreakpoints2--clone.md)|Creates an enumerator that contains the same enumeration state as the current enumerator.|  
-|[GetCount](../../../extensibility/debugger/reference/ienumdebugboundbreakpoints2--getcount.md)|Gets the number of bound breakpoints in an enumerator.|  
+|[Next](../../../extensibility/debugger/reference/ienumdebugboundbreakpoints2-next.md)|Retrieves a specified number of bound breakpoints in an enumeration sequence.|  
+|[Skip](../../../extensibility/debugger/reference/ienumdebugboundbreakpoints2-skip.md)|Skips a specified number of bound breakpoints in an enumeration sequence.|  
+|[Reset](../../../extensibility/debugger/reference/ienumdebugboundbreakpoints2-reset.md)|Resets an enumeration sequence to the beginning.|  
+|[Clone](../../../extensibility/debugger/reference/ienumdebugboundbreakpoints2-clone.md)|Creates an enumerator that contains the same enumeration state as the current enumerator.|  
+|[GetCount](../../../extensibility/debugger/reference/ienumdebugboundbreakpoints2-getcount.md)|Gets the number of bound breakpoints in an enumerator.|  
   
 ## Remarks  
  Visual Studio uses the bound breakpoints represented by this interface to update the display of breakpoints in the IDE.  
@@ -76,6 +76,6 @@ IEnumDebugBoundBreakpoints2 : IUnknown
   
 ## See Also  
  [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)   
- [EnumBoundBreakpoints](../../../extensibility/debugger/reference/idebugbreakpointboundevent2--enumboundbreakpoints.md)   
- [EnumBoundBreakpoints](../../../extensibility/debugger/reference/idebugpendingbreakpoint2--enumboundbreakpoints.md)   
- [EnumBoundBreakpoints](../../../extensibility/debugger/reference/idebugpendingbreakpoint2--enumboundbreakpoints.md)
+ [EnumBoundBreakpoints](../../../extensibility/debugger/reference/idebugbreakpointboundevent2-enumboundbreakpoints.md)   
+ [EnumBoundBreakpoints](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-enumboundbreakpoints.md)   
+ [EnumBoundBreakpoints](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-enumboundbreakpoints.md)

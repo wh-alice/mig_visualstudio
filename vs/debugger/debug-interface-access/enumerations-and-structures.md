@@ -1,7 +1,7 @@
 ---
-title: "Enumerations and Structures"
+title: "Enumerations and Structures | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "DIA SDK, structures"
 ms.assetid: d17eed2d-d8fd-4a47-82d3-8125c0624010
 caps.latest.revision: 11
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -45,19 +46,19 @@ These are the enumerations and structures used by the DIA SDK.
  [BasicType Enumeration](../../debugger/debug-interface-access/basictype.md)  
  Specifies the symbol's basic type.  
   
- [CV_access_e Enumeration](../../debugger/debug-interface-access/cv_access_e.md)  
+ [CV_access_e Enumeration](../../debugger/debug-interface-access/cv-access-e.md)  
  Specifies the scope of visibility (access level) of member functions and variables.  
   
- [CV_call_e Enumeration](../../debugger/debug-interface-access/cv_call_e.md)  
+ [CV_call_e Enumeration](../../debugger/debug-interface-access/cv-call-e.md)  
  Specifies the calling convention for a function.  
   
- [CV_CFL_LANG Enumeration](../../debugger/debug-interface-access/cv_cfl_lang.md)  
+ [CV_CFL_LANG Enumeration](../../debugger/debug-interface-access/cv-cfl-lang.md)  
  Specifies the source code language of the application or linked module.  
   
- [CV_CPU_TYPE_e Enumeration](../../debugger/debug-interface-access/cv_cpu_type_e.md)  
+ [CV_CPU_TYPE_e Enumeration](../../debugger/debug-interface-access/cv-cpu-type-e.md)  
  Specifies the target processor.  
   
- [CV_HREG_e Enumeration](../../debugger/debug-interface-access/cv_hreg_e.md)  
+ [CV_HREG_e Enumeration](../../debugger/debug-interface-access/cv-hreg-e.md)  
  Specifies a target register.  
   
  [DataKind Enumeration](../../debugger/debug-interface-access/datakind.md)  
@@ -78,7 +79,7 @@ These are the enumerations and structures used by the DIA SDK.
  [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md)  
  Specifies the type of symbol.  
   
- [THUNK_ORDINAL Enumeration](../../debugger/debug-interface-access/thunk_ordinal.md)  
+ [THUNK_ORDINAL Enumeration](../../debugger/debug-interface-access/thunk-ordinal.md)  
  Designates thunk types.  
   
  [UdtKind Enumeration](../../debugger/debug-interface-access/udtkind.md)  
@@ -89,10 +90,10 @@ These are the enumerations and structures used by the DIA SDK.
  Describes an entry in an address map.  
   
 ## Related Sections  
- [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces--debug-interface-access-sdk-.md)  
+ [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)  
  Specifies the interfaces provided by the DIA SDK.  
   
- [Constants (Debug Interface Access SDK)](../../debugger/debug-interface-access/constants--debug-interface-access-sdk-.md)  
+ [Constants (Debug Interface Access SDK)](../../debugger/debug-interface-access/constants-debug-interface-access-sdk.md)  
  Specifies the constants that are available in the DIA SDK.  
   
 ## See Also  

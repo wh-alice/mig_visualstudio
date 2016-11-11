@@ -1,7 +1,7 @@
 ---
-title: "Add Existing Item Command"
+title: "Add Existing Item Command | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "Add Existing Item command"
 ms.assetid: 41f56131-d4c7-4f81-83b7-bdac713ea870
 caps.latest.revision: 13
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

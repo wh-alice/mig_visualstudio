@@ -1,7 +1,7 @@
 ---
-title: "Creating Project Types"
+title: "Creating Project Types | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -38,7 +38,7 @@ You can extend [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] by c
  [Project Type Design Decisions](../../extensibility/internals/project-type-design-decisions.md)  
  Discusses the item, project file persistence, and commitment mechanic design decisions that you have to make before creating a new project type.  
   
- [Checklist: Creating New Project Types](../../extensibility/internals/checklist--creating-new-project-types.md)  
+ [Checklist: Creating New Project Types](../../extensibility/internals/checklist-creating-new-project-types.md)  
  Provides an overview of the steps that you must follow to create a new project type that supports programming tasks as editing code and compiling, building, debugging, and deploying applications in your project.  
   
  [Creating Project Instances By Using Project Factories](../../extensibility/internals/creating-project-instances-by-using-project-factories.md)  

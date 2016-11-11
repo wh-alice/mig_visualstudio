@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Fatal Error RC1206"
+title: "Resource Compiler Fatal Error RC1206 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC1206"
 ms.assetid: e019ee60-d8da-4fd4-8c20-924aa874851f
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

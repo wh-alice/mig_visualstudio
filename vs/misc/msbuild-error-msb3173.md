@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB3173"
+title: "MSBuild Error MSB3173 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB3173"
 ms.assetid: f8e33ae5-3e69-445e-b3a0-6cd76d1d8063
 caps.latest.revision: 6
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -43,4 +44,4 @@ translation.priority.mt:
 -   For more information about the cause and possible resolutions of an MSBuild error, see [Additional Resources](../msbuild/additional-msbuild-resources.md).  
   
 ## See Also  
- [\<PackageFiles> Element](../deployment/-packagefiles--element--bootstrapper-.md)
+ [\<PackageFiles> Element](../deployment/packagefiles-element-bootstrapper.md)

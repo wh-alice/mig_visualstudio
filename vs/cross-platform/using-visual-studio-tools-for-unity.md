@@ -1,7 +1,7 @@
 ---
-title: "Using Visual Studio Tools for Unity"
+title: "Using Visual Studio Tools for Unity | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e67ec9a2-a449-413e-8930-9a471bd43a06
 caps.latest.revision: 5
+author: "ghogen"
 ms.author: "ghogen"
 manager: "ghogen"
 translation.priority.ht: 

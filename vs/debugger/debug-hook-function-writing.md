@@ -1,7 +1,7 @@
 ---
-title: "Debug Hook Function Writing"
+title: "Debug Hook Function Writing | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,6 +25,7 @@ helpviewer_keywords:
   - "debugging [CRT], debug hook functions"
 ms.assetid: 5510635f-cf69-4907-b72d-ae27af1f19af
 caps.latest.revision: 14
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

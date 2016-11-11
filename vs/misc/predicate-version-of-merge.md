@@ -1,7 +1,7 @@
 ---
-title: "Predicate Version of merge"
+title: "Predicate Version of merge | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "merge method"
 ms.assetid: dba6eec5-7fda-4aca-8158-0db809e69547
 caps.latest.revision: 7
+author: "erickson-doug"
 ms.author: "douge"
 manager: "douge"
 translation.priority.mt: 

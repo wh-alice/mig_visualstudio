@@ -1,7 +1,7 @@
 ---
-title: "IDebugProgramCreateEvent2"
+title: "IDebugProgramCreateEvent2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -48,7 +48,7 @@ IDebugProgramCreateEvent2 : IUnknown
  The DE or the custom port supplier creates and sends this event object to report the creation of a program. The DE sends this event by using the [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) callback function that is supplied by the SDM when it attached to the program being debugged. The custom port supplier sends this event using the [IDebugPortEvents2](../../../extensibility/debugger/reference/idebugportevents2.md) interface.  
   
 ## Remarks  
- The DE or custom port supplier publishes a new [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) interface by calling [PublishProgramNode](../../../extensibility/debugger/reference/idebugprogrampublisher2--publishprogramnode.md).  
+ The DE or custom port supplier publishes a new [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) interface by calling [PublishProgramNode](../../../extensibility/debugger/reference/idebugprogrampublisher2-publishprogramnode.md).  
   
 ## Requirements  
  Header: msdbg.h  

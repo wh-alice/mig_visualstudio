@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Error RC2105"
+title: "Resource Compiler Error RC2105 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC2105"
 ms.assetid: 6e2a43c6-07eb-474b-a96a-749e642ab9fd
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

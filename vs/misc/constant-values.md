@@ -1,7 +1,7 @@
 ---
-title: "Constant Values"
+title: "Constant Values | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "values, constant"
 ms.assetid: f611ec88-e2a2-4075-bc72-8da81bacbbd1
 caps.latest.revision: 8
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -34,4 +35,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Constant Values
-This content has moved to [const](../Topic/const%20\(C++\).md).
+This content has moved to [const](/visual-cpp/cpp/const-cpp).

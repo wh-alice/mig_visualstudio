@@ -1,7 +1,7 @@
 ---
-title: "IDebugBeforeSymbolSearchEvent2"
+title: "IDebugBeforeSymbolSearchEvent2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -50,7 +50,7 @@ IDebugBeforeSymbolSearchEvent2 : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetModuleName](../../../extensibility/debugger/reference/idebugbeforesymbolsearchevent2--getmodulename.md)|Retrieves the name of the module currently being debugged.|  
+|[GetModuleName](../../../extensibility/debugger/reference/idebugbeforesymbolsearchevent2-getmodulename.md)|Retrieves the name of the module currently being debugged.|  
   
 ## Requirements  
  Header: Msdbg.h  

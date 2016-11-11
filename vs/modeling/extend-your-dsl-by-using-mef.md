@@ -1,7 +1,7 @@
 ---
-title: "Extend your DSL by using MEF"
+title: "Extend your DSL by using MEF | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3e7be79a-53ab-4d79-863a-bef8d27839bd
 caps.latest.revision: 14
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 ---
@@ -241,7 +242,7 @@ namespace MyMefExtension
 ### Gesture Handlers  
  A gesture handler can deal with objects dragged onto the diagram from anywhere, inside or outside [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. The following example lets the user drag files from Windows Explorer onto the diagram. It creates elements that contain the file names.  
   
- You can write handlers to deal with drags from other DSL models and UML models. For more information, see [How to: Add a Drag-and-Drop Handler](../modeling/how-to--add-a-drag-and-drop-handler.md).  
+ You can write handlers to deal with drags from other DSL models and UML models. For more information, see [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md).  
   
 ```  
   
@@ -371,5 +372,5 @@ namespace MefExtension
 ## See Also  
  [Shipping Visual Studio Extensions](../extensibility/shipping-visual-studio-extensions.md)   
  [Managed Extensibility Framework (MEF)](../Topic/Managed%20Extensibility%20Framework%20\(MEF\).md)   
- [How to: Add a Drag-and-Drop Handler](../modeling/how-to--add-a-drag-and-drop-handler.md)   
+ [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md)   
  [Validation in a Domain-Specific Language](../modeling/validation-in-a-domain-specific-language.md)

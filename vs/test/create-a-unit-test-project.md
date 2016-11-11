@@ -1,7 +1,7 @@
 ---
-title: "Create a unit test project"
+title: "Create a unit test project | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,7 +33,7 @@ translation.priority.mt:
 Unit tests often mirror the structure of the code under test. For example, a unit test project would be created for each code project in the product. The test project can be in the same solution as the production code, or it can be in a separate solution. You can have multiple unit test projects in a solution.  
   
 > [!NOTE]
->  The location of unit tests for native code and the test project structure can be different than the structure that is described in this topic. For more information, see [Adding unit tests to existing C++ applications](../test/unit-testing-existing-c---applications-with-test-explorer.md).  
+>  The location of unit tests for native code and the test project structure can be different than the structure that is described in this topic. For more information, see [Adding unit tests to existing C++ applications](../test/unit-testing-existing-cpp-applications-with-test-explorer.md).  
   
 ## To create a unit test project:  
   
@@ -58,9 +58,9 @@ Unit tests often mirror the structure of the code under test. For example, a uni
   
  See one of the following sections:  
   
--   [Writing Unit Tests for the .NET Framework with the Microsoft Unit Test Framework for Managed Code](../test/fbeba971-c468-4429-8017-0f12ab55638c.md)  
+-   [Writing Unit Tests for the .NET Framework with the Microsoft Unit Test Framework for Managed Code](../test/writing-unit-tests-for-the-dotnet-framework-with-the-microsoft-unit-test-framework-for-managed-code.md)  
   
--   [Writing Unit tests for C/C++ with the Microsoft Unit Testing Framework for C++](../test/writing-unit-tests-for-c-c---with-the-microsoft-unit-testing-framework-for-c--.md)  
+-   [Writing Unit tests for C/C++ with the Microsoft Unit Testing Framework for C++](../test/writing-unit-tests-for-c-cpp-with-the-microsoft-unit-testing-framework-for-cpp.md)  
   
  **Running unit tests**  
   

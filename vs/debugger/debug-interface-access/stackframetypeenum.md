@@ -1,7 +1,7 @@
 ---
-title: "StackFrameTypeEnum"
+title: "StackFrameTypeEnum | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "StackFrameTypeEnum enumeration"
 ms.assetid: 61e40163-eee0-4c1f-af47-cef3771bdc41
 caps.latest.revision: 7
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -69,11 +70,11 @@ enum StackFrameTypeEnum {
  Frame that does not have any debug info.  
   
 ## Remarks  
- The values in this enumeration are returned by a call to the [IDiaStackFrame::get_type](../../debugger/debug-interface-access/idiastackframe--get_type.md) method.  
+ The values in this enumeration are returned by a call to the [IDiaStackFrame::get_type](../../debugger/debug-interface-access/idiastackframe-get-type.md) method.  
   
 ## Requirements  
  Header: cvconst.h  
   
 ## See Also  
  [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)   
- [IDiaStackFrame::get_type](../../debugger/debug-interface-access/idiastackframe--get_type.md)
+ [IDiaStackFrame::get_type](../../debugger/debug-interface-access/idiastackframe-get-type.md)

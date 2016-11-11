@@ -1,7 +1,7 @@
 ---
-title: "The DslTextTransform Command"
+title: "The DslTextTransform Command | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, commands"
 ms.assetid: 7d025d0b-6543-4a49-9f6b-8b8cfcad77ee
 caps.latest.revision: 30
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 ---

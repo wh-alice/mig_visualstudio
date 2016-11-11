@@ -1,7 +1,7 @@
 ---
-title: "Launching the Debugger"
+title: "Launching the Debugger | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -38,7 +38,7 @@ Launching the debugger requires sending the correct sequence of methods and even
   
 1.  The session debug manager (SDM) is called by choosing the **Debug** menu, and then choosing **Start**. See [Launching a Program](../../extensibility/debugger/launching-a-program.md) for more information.  
   
-2.  The SDM calls [OnAttach](../../extensibility/debugger/reference/idebugprogramnodeattach2--onattach.md) method .  
+2.  The SDM calls [OnAttach](../../extensibility/debugger/reference/idebugprogramnodeattach2-onattach.md) method .  
   
 3.  Based on the debug engine (DE) process model, the `IDebugProgramNodeAttach2::OnAttach` method returns one of the following methods, which determines what happens next.  
   
@@ -48,11 +48,11 @@ Launching the debugger requires sending the correct sequence of methods and even
   
      If `S_OK` is returned, the DE is to be loaded in-process of the SDM. The SDM then performs the following tasks:  
   
-    1.  Calls [GetEngineInfo](../../extensibility/debugger/reference/idebugprogramnode2--getengineinfo.md) to get the engine information of the DE.  
+    1.  Calls [GetEngineInfo](../../extensibility/debugger/reference/idebugprogramnode2-getengineinfo.md) to get the engine information of the DE.  
   
     2.  Co-creates the DE.  
   
-    3.  Calls [Attach](../../extensibility/debugger/reference/idebugengine2--attach.md).  
+    3.  Calls [Attach](../../extensibility/debugger/reference/idebugengine2-attach.md).  
   
 4.  The DE sends an [IDebugEngineCreateEvent2](../../extensibility/debugger/reference/idebugenginecreateevent2.md) to the SDM with an `EVENT_SYNC` attribute.  
   

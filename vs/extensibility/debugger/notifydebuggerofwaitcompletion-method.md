@@ -1,7 +1,7 @@
 ---
-title: "NotifyDebuggerOfWaitCompletion Method"
+title: "NotifyDebuggerOfWaitCompletion Method | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -49,4 +49,4 @@ private void NotifyDebuggerOfWaitCompletion()
 ## Requirements  
   
 ## See Also  
- [Task Class](../../extensibility/debugger/task-class---internal-members.md)
+ [Task Class](../../extensibility/debugger/task-class-internal-members.md)

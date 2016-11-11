@@ -1,7 +1,7 @@
 ---
-title: "GlobalOn and GlobalOff"
+title: "GlobalOn and GlobalOff | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 24b0ed68-d19e-473e-9af3-252c11d82bcf
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -97,5 +98,5 @@ VSPerfCmd /Shutdown
 ## See Also  
  [VSPerfCmd](../profiling/vsperfcmd.md)   
  [Profiling Stand-Alone Applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
- [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-asp.net-web-applications.md)   
+ [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
  [Profiling Services](../profiling/command-line-profiling-of-services.md)

@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Error RC2133"
+title: "Resource Compiler Error RC2133 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC2133"
 ms.assetid: 4bfba579-8ce5-4658-911c-4cebfa67861e
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

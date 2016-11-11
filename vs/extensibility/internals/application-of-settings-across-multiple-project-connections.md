@@ -1,7 +1,7 @@
 ---
-title: "Application of Settings Across Multiple Project Connections"
+title: "Application of Settings Across Multiple Project Connections | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -48,4 +48,4 @@ A source control plug-in built using the Source Control Plug-in API 1.2, can use
  The `SCCBeginBatch` function starts a group of source control operations. `SccEndBatch` closes the group. The groups may not be nested.  
   
 ## See Also  
- [What's New in the Source Control Plug-in API Version 1.2](../../extensibility/internals/what-s-new-in-the-source-control-plug-in-api-version-1.2.md)
+ [What's New in the Source Control Plug-in API Version 1.2](../../extensibility/internals/what-s-new-in-the-source-control-plug-in-api-version-1-2.md)

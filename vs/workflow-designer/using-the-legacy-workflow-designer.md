@@ -1,7 +1,7 @@
 ---
-title: "Using the Legacy Workflow Designer"
+title: "Using the Legacy Workflow Designer | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ helpviewer_keywords:
   - "Visual Studio 2005 Extensions for Windows Workflow Foundation, about"
 ms.assetid: 7af53077-afd7-465f-9c1d-b387e9d4f216
 caps.latest.revision: 10
+author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
 translation.priority.ht: 
@@ -29,9 +30,9 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Using the Legacy Workflow Designer
-The legacy [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] provided by [!INCLUDE[vs2010](../modeling/includes/vs2010_md.md)] can be used to target the [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] or the [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)].  
+The legacy [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] provided by [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)] can be used to target the [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] or the [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)].  
   
- It is accessed by selecting either the **.NET Framework 3.0** option or the **.NET Framework 3.5** option in the drop down list at the top of the **New Project** window. The default option in [!INCLUDE[vs2010](../modeling/includes/vs2010_md.md)] is **.NET Framework 4** which is used to create [!INCLUDE[wf](../workflow-designer/includes/wf_md.md)] applications that target the [!INCLUDE[netfx40_short](../workflow-designer/includes/netfx40_short_md.md)].  
+ It is accessed by selecting either the **.NET Framework 3.0** option or the **.NET Framework 3.5** option in the drop down list at the top of the **New Project** window. The default option in [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)] is **.NET Framework 4** which is used to create [!INCLUDE[wf](../workflow-designer/includes/wf_md.md)] applications that target the [!INCLUDE[netfx40_short](../workflow-designer/includes/netfx40_short_md.md)].  
   
  The [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] provides a way to graphically create [!INCLUDE[wf](../workflow-designer/includes/wf_md.md)] applications using the familiar [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] user interface. [!INCLUDE[wf](../workflow-designer/includes/wf_md.md)] applications are composed of workflow process steps called activities. To create a workflow, compose activities on the design surface by dragging their respective activity designers from **Toolbox** onto the design surface.  
   
@@ -47,15 +48,15 @@ The legacy [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] provided b
 |Smart Tags|Activities that are not completely configured or not validly configured are marked with an exclamation point icon. You can click the icon and see a drop-down list of configuration needs that exist on the activity. You can then use the **Properties** window to configure the activity appropriately. When all properties are valid for the activity, the exclamation point icon disappears.|  
   
 ## In This Section  
- [Visual Studio Workflow Windows (Legacy)](../workflow-designer/visual-studio-workflow-windows--legacy-.md)  
+ [Visual Studio Workflow Windows (Legacy)](../workflow-designer/visual-studio-workflow-windows-legacy.md)  
   
  [Creating Legacy Workflow Projects](../workflow-designer/creating-legacy-workflow-projects.md)  
   
- [Sequential Workflow Views (Legacy)](../workflow-designer/sequential-workflow-views--legacy-.md)  
+ [Sequential Workflow Views (Legacy)](../workflow-designer/sequential-workflow-views-legacy.md)  
   
  [Legacy Workflow Activities](../workflow-designer/legacy-workflow-activities.md)  
   
- [Using Themes in Workflows (Legacy)](../workflow-designer/using-themes-in-workflows--legacy-.md)  
+ [Using Themes in Workflows (Legacy)](../workflow-designer/using-themes-in-workflows-legacy.md)  
   
  [Using the Legacy State Machine Workflow Designer](../workflow-designer/using-the-legacy-state-machine-workflow-designer.md)  
   

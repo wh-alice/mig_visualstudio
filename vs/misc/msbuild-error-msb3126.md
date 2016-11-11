@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB3126"
+title: "MSBuild Error MSB3126 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB3126"
 ms.assetid: 0c92cbb6-9100-4433-8113-f2f3a1432243
 caps.latest.revision: 8
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -40,8 +41,8 @@ translation.priority.mt:
   
 ### To correct this error  
   
--   Set the **Install Mode and Settings** to **The application is available offline as well (launchable from Start menu)**. For more information, see [How to: Specify the ClickOnce Offline or Online Install Mode](../deployment/how-to--specify-the-clickonce-offline-or-online-install-mode.md).  
+-   Set the **Install Mode and Settings** to **The application is available offline as well (launchable from Start menu)**. For more information, see [How to: Specify the ClickOnce Offline or Online Install Mode](../deployment/how-to-specify-the-clickonce-offline-or-online-install-mode.md).  
   
 ## See Also  
- [Publish Page, Project Designer](../ide/reference/publish-page--project-designer.md)   
+ [Publish Page, Project Designer](../ide/reference/publish-page-project-designer.md)   
  [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md)

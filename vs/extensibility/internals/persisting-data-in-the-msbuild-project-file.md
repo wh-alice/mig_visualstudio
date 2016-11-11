@@ -1,7 +1,7 @@
 ---
-title: "Persisting Data in the MSBuild Project File"
+title: "Persisting Data in the MSBuild Project File | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -60,7 +60,7 @@ A project subtype may need to persist subtype-specific data into the project fil
   
 1.  Call `QueryInterface` on <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage> of the project subtype.  
   
-2.  Call <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.RemoveProperty*> with `pszPropName` set to the property you want to remove.  
+2.  Call <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.RemoveProperty%2A> with `pszPropName` set to the property you want to remove.  
   
 ### Persisting Non-Build Related Information  
  Persistence of data in project files that does not matter to build is handled through <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment>.  

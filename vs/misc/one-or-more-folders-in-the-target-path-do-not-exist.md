@@ -1,5 +1,5 @@
 ---
-title: "One or more folders in the target path do not exist"
+title: "One or more folders in the target path do not exist | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b33b00f6-0eb6-47fa-a639-269f97e790cd
 caps.latest.revision: 7
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 

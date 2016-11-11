@@ -1,5 +1,5 @@
 ---
-title: "Evaluation of expression or statement stopped"
+title: "Evaluation of expression or statement stopped | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "BC30721"
 ms.assetid: a61fb5ee-bd7d-4fc3-a01b-ab30d31cebe6
 caps.latest.revision: 9
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 

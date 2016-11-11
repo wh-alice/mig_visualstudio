@@ -1,7 +1,7 @@
 ---
-title: "Core Interfaces"
+title: "Core Interfaces | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -283,8 +283,8 @@ The following interfaces are the core interfaces for extending debugger by using
 |[IDebugPropertyCreateEvent2](../../../extensibility/debugger/reference/idebugpropertycreateevent2.md)|DE|Sent by the DE when a new property (represented by the [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) interface) has been created.|  
 |[IDebugPropertyDestroyEvent2](../../../extensibility/debugger/reference/idebugpropertydestroyevent2.md)|DE|Sent by the DE when a property has been destroyed.|  
 |[IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)|DE|Represents a reference to a property which can exist outside any particular stack frame.|  
-|[IEnumDebugPropertyInfo2](../../../extensibility/debugger/reference/ienumdebugpropertyinfo2.md)|DE|Represents an enumeration over a set of [DEBUG_PROPERTY_INFO](../../../extensibility/debugger/reference/debug_property_info.md) structures which describe variables, registers, parameters, and expressions.|  
-|[IEnumDebugReferenceInfo2](../../../extensibility/debugger/reference/ienumdebugreferenceinfo2.md)|DE|Represents an enumeration over a set of [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug_reference_info.md) structures.|  
+|[IEnumDebugPropertyInfo2](../../../extensibility/debugger/reference/ienumdebugpropertyinfo2.md)|DE|Represents an enumeration over a set of [DEBUG_PROPERTY_INFO](../../../extensibility/debugger/reference/debug-property-info.md) structures which describe variables, registers, parameters, and expressions.|  
+|[IEnumDebugReferenceInfo2](../../../extensibility/debugger/reference/ienumdebugreferenceinfo2.md)|DE|Represents an enumeration over a set of [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-reference-info.md) structures.|  
   
 ##  <a name="StackFrames"></a> Stack Frames  
  These interfaces represent a stack frame, a context in which a breakpoint or exception has occurred.  
@@ -293,7 +293,7 @@ The following interfaces are the core interfaces for extending debugger by using
 |---------------|--------------------|-----------------|  
 |[IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md)|DE|Represents a context in which a breakpoint or exception has occurred.|  
 |[IDebugStackFrame3](../../../extensibility/debugger/reference/idebugstackframe3.md)|DE|Represents an [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md) which can handle intercepted exceptions.|  
-|[IEnumCodePaths2](../../../extensibility/debugger/reference/ienumcodepaths2.md)|DE|Represents an enumeration over the set of [CODE_PATH](../../../extensibility/debugger/reference/code_path.md) structures which specify the function call sequence used to arrive at a particular stack frame.|  
+|[IEnumCodePaths2](../../../extensibility/debugger/reference/ienumcodepaths2.md)|DE|Represents an enumeration over the set of [CODE_PATH](../../../extensibility/debugger/reference/code-path.md) structures which specify the function call sequence used to arrive at a particular stack frame.|  
 |[IEnumDebugFrameInfo2](../../../extensibility/debugger/reference/ienumdebugframeinfo2.md)|DE|Represents an enumeration over a set of [FRAMEINFO](../../../extensibility/debugger/reference/frameinfo.md) structures, which describe stack frames.|  
   
 ##  <a name="Threads"></a> Threads  
@@ -317,5 +317,5 @@ The following interfaces are the core interfaces for extending debugger by using
 |[IPropertyProxyProvider](../../../extensibility/debugger/reference/ipropertyproxyprovider.md)|EE|Represents a  property that provides access to [IPropertyProxyEESide](../../../extensibility/debugger/reference/ipropertyproxyeeside.md) implementations.|  
   
 ## See Also  
- [API Reference](../../../extensibility/debugger/reference/api-reference--visual-studio-debugging-.md)   
+ [API Reference](../../../extensibility/debugger/reference/api-reference-visual-studio-debugging.md)   
  [Creating a Custom Debug Engine](../../../extensibility/debugger/creating-a-custom-debug-engine.md)

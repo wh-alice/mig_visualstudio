@@ -1,7 +1,7 @@
 ---
-title: "Delete Task"
+title: "Delete Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "MSBuild, Delete task"
 ms.assetid: 916bb2e3-3017-4828-ae27-c0b5c99bbb48
 caps.latest.revision: 16
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

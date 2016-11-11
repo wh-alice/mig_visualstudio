@@ -1,7 +1,7 @@
 ---
-title: "Invalid assembly strong name or name not specified"
+title: "Invalid assembly strong name or name not specified | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ f1_keywords:
   - "vs.tasklisterror.invalid_strong_name"
 ms.assetid: cb02b69d-09a9-478f-914c-fbdc420e973d
 caps.latest.revision: 6
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

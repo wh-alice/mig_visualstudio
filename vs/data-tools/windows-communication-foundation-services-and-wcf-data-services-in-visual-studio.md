@@ -1,7 +1,7 @@
 ---
 title: "Windows Communication Foundation Services and WCF Data Services in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,6 +33,7 @@ helpviewer_keywords:
   - "service method, called asynchronously[Visual Studio]"
 ms.assetid: d56f12cb-e139-4fec-b3e4-488383356642
 caps.latest.revision: 26
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 translation.priority.ht: 
@@ -66,9 +67,11 @@ Visual Studio provides tools for working with Windows Communication Foundation (
 #### WCF Service  
  A WCF service is based on an interface that defines a contract between the service and the client. It is marked with a <xref:System.ServiceModel.ServiceContractAttribute> attribute, as shown in the following code:  
   
- [!CODE [WCFWalkthrough#6](../CodeSnippet/VS_Snippets_VBCSharp/wcfwalkthrough#6)]  
+ [!code-cs[WCFWalkthrough#6](../data-tools/codesnippet/CSharp/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio_1.cs)]
+ [!code-vb[WCFWalkthrough#6](../data-tools/codesnippet/VisualBasic/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio_1.vb)]  
   
- [!CODE [WCFWalkthrough#1](../CodeSnippet/VS_Snippets_VBCSharp/wcfwalkthrough#1)]  
+ [!code-cs[WCFWalkthrough#1](../data-tools/codesnippet/CSharp/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio_2.cs)]
+ [!code-vb[WCFWalkthrough#1](../data-tools/codesnippet/VisualBasic/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio_2.vb)]  
   
  You define functions or methods that are exposed by a WCF service by marking them with a <xref:System.ServiceModel.OperationContractAttribute> attribute. In addition, you can expose serialized data by marking a composite type with a <xref:System.Runtime.Serialization.DataContractAttribute> attribute. This enables data binding in a client.  
   
@@ -85,10 +88,11 @@ Visual Studio provides tools for working with Windows Communication Foundation (
   
  After a WCF client has been created, you reference the service in your code just as you would any other object. For example, to call the `GetData` method shown earlier, you would write code that resembles the following:  
   
- [!CODE [WCFWalkthrough#3](../CodeSnippet/VS_Snippets_VBCSharp/wcfwalkthrough#3)]  
+ [!code-cs[WCFWalkthrough#3](../data-tools/codesnippet/CSharp/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio_3.cs)]
+ [!code-vb[WCFWalkthrough#3](../data-tools/codesnippet/VisualBasic/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio_3.vb)]  
   
 ## WCF Tools in Visual Studio  
- [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] provides tools to help you create both WCF services and WCF clients. For a walkthrough that demonstrates the tools, see [Walkthrough: Creating a simple WCF Service in Windows Forms](../data-tools/walkthrough--creating-a-simple-wcf-service-in-windows-forms.md).  
+ [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] provides tools to help you create both WCF services and WCF clients. For a walkthrough that demonstrates the tools, see [Walkthrough: Creating a simple WCF Service in Windows Forms](../data-tools/walkthrough-creating-a-simple-wcf-service-in-windows-forms.md).  
   
 ### Creating and Testing WCF Services  
  You can use the WCF [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] templates as a foundation to quickly create your own service. You can then use WCF Service Auto Host and WCF Test Client to debug and test the service. These tools together provide a fast and convenient debug and testing cycle, and eliminate the requirement to commit to a hosting model at an early stage.  
@@ -240,15 +244,15 @@ Visual Studio provides tools for working with Windows Communication Foundation (
   
 |Title|Description|  
 |-----------|-----------------|  
-|[Walkthrough: Creating a simple WCF Service in Windows Forms](../data-tools/walkthrough--creating-a-simple-wcf-service-in-windows-forms.md)|Provides a step-by-step demonstration of creating and using WCF services in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].|  
-|[Walkthrough: Creating a WCF Data Service with WPF and Entity Framework](../data-tools/walkthrough--creating-a-wcf-data-service-with-wpf-and-entity-framework.md)|Provides a step-by-step demonstration of how to create and use [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)] in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].|  
+|[Walkthrough: Creating a simple WCF Service in Windows Forms](../data-tools/walkthrough-creating-a-simple-wcf-service-in-windows-forms.md)|Provides a step-by-step demonstration of creating and using WCF services in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].|  
+|[Walkthrough: Creating a WCF Data Service with WPF and Entity Framework](../data-tools/walkthrough-creating-a-wcf-data-service-with-wpf-and-entity-framework.md)|Provides a step-by-step demonstration of how to create and use [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)] in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].|  
 |[Using the WCF Development Tools](../Topic/Using%20the%20WCF%20Development%20Tools.md)|Discusses how to create and test WCF services in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].|  
 |[How to: Add, Update, or Remove a Service Reference](../Topic/How%20to:%20Add,%20Update,%20or%20Remove%20a%20Service%20Reference.md)|Describes how to add, update, or remove WCF services from a project.|  
-|[How to: Add, Update, or Remove a WCF Data Service Reference](../data-tools/how-to--add--update--or-remove-a-wcf-data-service-reference.md)|Discusses how to reference and use [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)] in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].|  
+|[How to: Add, Update, or Remove a WCF Data Service Reference](../data-tools/how-to-add-update-or-remove-a-wcf-data-service-reference.md)|Discusses how to reference and use [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)] in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].|  
 |[Troubleshooting Service References](../data-tools/troubleshooting-service-references.md)|Presents some common errors that can occur with service references and how to prevent them.|  
 |[Debugging WCF Services](../debugger/debugging-wcf-services.md)|Describes common debugging problems and techniques you might encounter when debugging WCF services.|  
 |[Windows Communication Foundation Authentication Service Overview](../Topic/Windows%20Communication%20Foundation%20Authentication%20Service%20Overview.md)|Describes how to use WCF to provide a role service for a Web site.|  
-|[Walkthrough: Creating an N-Tier Data Application](../data-tools/walkthrough--creating-an-n-tier-data-application.md)|Provides step-by-step instructions for creating a typed dataset and separating the TableAdapter and dataset code into multiple projects.|  
+|[Walkthrough: Creating an N-Tier Data Application](../data-tools/walkthrough-creating-an-n-tier-data-application.md)|Provides step-by-step instructions for creating a typed dataset and separating the TableAdapter and dataset code into multiple projects.|  
 |[Configure Service Reference Dialog Box](../data-tools/configure-service-reference-dialog-box.md)|Describes the user interface elements of the **Configure Service Reference** dialog box.|  
   
 ## Reference  
@@ -257,4 +261,4 @@ Visual Studio provides tools for working with Windows Communication Foundation (
  <xref:System.Data.Services>  
   
 ## See Also  
- [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-.net.md)
+ [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md)

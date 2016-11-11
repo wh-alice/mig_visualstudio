@@ -1,7 +1,7 @@
 ---
-title: "XML Snippets"
+title: "XML Snippets | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 348dbf64-3f09-4fff-b47a-a7ecdf3221cc
 caps.latest.revision: 2
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -50,17 +51,17 @@ The XML Editor offers a feature, called *XML snippets*, that allows you to build
   
  You can insert snippets in two ways. The **Insert Snippet** command inserts the XML snippet at the cursor position. The **Surround With** command wraps the XML snippet around the selected text. Both commands are available either from the **IntelliSense** submenu under the **Edit** menu, or from the editor shortcut menu.  
   
- For more information, see [How to: Use XML Snippets](../xml-tools/how-to--use-xml-snippets.md).  
+ For more information, see [How to: Use XML Snippets](../xml-tools/how-to-use-xml-snippets.md).  
   
 ## Schema-Generated XML Snippets  
  The XML editor also has the ability to generate an XML snippet from an XML Schema. This feature allows you to populate an element with XML elements generated from the schema information for that element.  
   
- For more information, see [How to: Generate an XML Snippet From an XML Schema](../xml-tools/how-to--generate-an-xml-snippet-from-an-xml-schema.md).  
+ For more information, see [How to: Generate an XML Snippet From an XML Schema](../xml-tools/how-to-generate-an-xml-snippet-from-an-xml-schema.md).  
   
 ## Create New XML Snippets  
  In addition to the snippets that are included with [!INCLUDE[msCoName](../xml-tools/includes/msconame_md.md)] Visual Studio by default you can also create and use your own XML snippets.  
   
- For more information, see [How to: Create XML Snippets](../xml-tools/how-to--create-xml-snippets.md).  
+ For more information, see [How to: Create XML Snippets](../xml-tools/how-to-create-xml-snippets.md).  
   
 ## See Also  
  [XML Editor](../xml-tools/xml-editor.md)

@@ -1,7 +1,7 @@
 ---
-title: "IDebugPortSupplierEx2"
+title: "IDebugPortSupplierEx2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -47,7 +47,7 @@ IDebugPortSupplierEx2 : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[SetServer](../../../extensibility/debugger/reference/idebugportsupplierex2--setserver.md)|Sets the core server for the port supplier.|  
+|[SetServer](../../../extensibility/debugger/reference/idebugportsupplierex2-setserver.md)|Sets the core server for the port supplier.|  
   
 ## Requirements  
  Header: Portpriv.h  

@@ -1,7 +1,7 @@
 ---
-title: "AssignTargetPath Task"
+title: "AssignTargetPath Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/22/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ dev_langs:
   - "jsharp"
 ms.assetid: 0e830e31-3bcf-4259-b2a8-a5df49b92d51
 caps.latest.revision: 4
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

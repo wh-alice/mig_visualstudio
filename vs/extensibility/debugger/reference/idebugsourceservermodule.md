@@ -1,7 +1,7 @@
 ---
-title: "IDebugSourceServerModule"
+title: "IDebugSourceServerModule | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -47,7 +47,7 @@ IDebugSourceServerModule : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetSourceServerData](../../../extensibility/debugger/reference/idebugsourceservermodule--getsourceserverdata.md)|Retrieves an array of source server information.|  
+|[GetSourceServerData](../../../extensibility/debugger/reference/idebugsourceservermodule-getsourceserverdata.md)|Retrieves an array of source server information.|  
   
 ## Requirements  
  Header: Msdbg.h  

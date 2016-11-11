@@ -1,7 +1,7 @@
 ---
-title: "XML Schema Explorer"
+title: "XML Schema Explorer | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2fc39e98-b194-456b-a452-cfafb0a52d66
 caps.latest.revision: 3
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -41,7 +42,7 @@ The XML Schema Explorer is integrated with Microsoft Visual Studio and the XML E
   
 -   Add the search results to the Graph View or Content Modle View  
   
--   Sort the tree by document order, type, or name. For more information, see [Sorting, Filtering, and Grouping](../xml-tools/sorting--filtering--and-grouping--xml-schema-explorer-.md).  
+-   Sort the tree by document order, type, or name. For more information, see [Sorting, Filtering, and Grouping](../xml-tools/sorting-filtering-and-grouping-xml-schema-explorer.md).  
   
 -   Open the XML Editor and jump to code locations in the XSD file. For more information, see [Integration with XML Editor](../xml-tools/integration-with-xml-editor.md).  
   
@@ -94,11 +95,11 @@ The XML Schema Explorer is integrated with Microsoft Visual Studio and the XML E
   
 -   [Searching the Schema Set](../xml-tools/searching-the-schema-set.md)  
   
--   [Sorting, Filtering, and Grouping](../xml-tools/sorting--filtering--and-grouping--xml-schema-explorer-.md)  
+-   [Sorting, Filtering, and Grouping](../xml-tools/sorting-filtering-and-grouping-xml-schema-explorer.md)  
   
--   [Context Menus](../xml-tools/context-menus--xml-schema-explorer-.md)  
+-   [Context Menus](../xml-tools/context-menus-xml-schema-explorer.md)  
   
 -   [Integration of XML Literals with XML Schema Explorer](../xml-tools/integration-of-xml-literals-with-xml-schema-explorer.md)  
   
 ## See Also  
- [How to: Add Nodes to the Workspace from the XML Schema Explorer](../xml-tools/how-to--add-nodes-to-the-workspace-from-the-xml-schema-explorer.md)
+ [How to: Add Nodes to the Workspace from the XML Schema Explorer](../xml-tools/how-to-add-nodes-to-the-workspace-from-the-xml-schema-explorer.md)

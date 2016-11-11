@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB1008"
+title: "MSBuild Error MSB1008 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB1008"
 ms.assetid: 16012f0d-b2d7-424c-9fa0-067e4df1b3e7
 caps.latest.revision: 13
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

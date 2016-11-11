@@ -1,7 +1,7 @@
 ---
-title: "MSI and VSIX Deployment of a DSL"
+title: "MSI and VSIX Deployment of a DSL | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6ce16f06-1978-4e19-8cdc-441ee65a3fb2
 caps.latest.revision: 2
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 translation.priority.mt: 
@@ -41,7 +42,7 @@ You can install a domain-specific language on your own computer or on other comp
   
 2.  Copy the **.vsix** file to the target computer on which you want to install the DSL. This can be your own computer or another one.  
   
-    -   The target computer must have one of the editions of [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] that supports DSLs at run time. For more information, see [Supported Visual Studio Editions for Visualization & Modeling SDK](../modeling/supported-visual-studio-editions-for-visualization---modeling-sdk.md).  
+    -   The target computer must have one of the editions of [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] that supports DSLs at run time. For more information, see [Supported Visual Studio Editions for Visualization & Modeling SDK](../modeling/supported-visual-studio-editions-for-visualization-amp-modeling-sdk.md).  
   
     -   The target computer must have one of the editions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] specified in **DslPackage\source.extensions.manifest**.  
   
@@ -68,7 +69,7 @@ You can install a domain-specific language on your own computer or on other comp
 ##  <a name="msi"></a> Deploying a DSL in an MSI  
  By defining an MSI (Windows Installer) file for your DSL, you can allow users to open DSL files from Windows Explorer. You can also associate an icon and short description with your file name extension. In addition, the MSI can install an XSD that can be used to validate DSL files. If you want, you can add other components into the MSI that will be installed at the same time.  
   
- For more information about MSI files and other deployment options, see [Deploying Applications, Services, and Components](../deployment/deploying-applications--services--and-components.md).  
+ For more information about MSI files and other deployment options, see [Deploying Applications, Services, and Components](../deployment/deploying-applications-services-and-components.md).  
   
  To build an MSI, you add a Setup project to your [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution. The easiest method of creating a Setup project is to use the CreateMsiSetupProject.tt template, which you can download from the [VMSDK site](http://go.microsoft.com/fwlink/?LinkID=186128).  
   

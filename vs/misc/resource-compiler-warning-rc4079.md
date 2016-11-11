@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Warning RC4079"
+title: "Resource Compiler Warning RC4079 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC4079"
 ms.assetid: 34dd9b65-d166-452a-9567-af6bbee172b0
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

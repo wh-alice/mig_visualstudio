@@ -1,7 +1,7 @@
 ---
-title: "STEPUNIT"
+title: "STEPUNIT | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -65,7 +65,7 @@ enum enum_STEPUNIT { 
  Steps by instruction.  
   
 ## Remarks  
- Passed as an argument to the [Step](../../../extensibility/debugger/reference/idebugprocess3--step.md) method.  
+ Passed as an argument to the [Step](../../../extensibility/debugger/reference/idebugprocess3-step.md) method.  
   
 ## Requirements  
  Header: msdbg.h  
@@ -75,5 +75,5 @@ enum enum_STEPUNIT { 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll  
   
 ## See Also  
- [Enumerations](../../../extensibility/debugger/reference/enumerations--visual-studio-debugging-.md)   
- [Step](../../../extensibility/debugger/reference/idebugprocess3--step.md)
+ [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)   
+ [Step](../../../extensibility/debugger/reference/idebugprocess3-step.md)

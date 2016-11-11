@@ -1,7 +1,7 @@
 ---
-title: "Localizing Applications"
+title: "Localizing Applications | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "localization [.NET Framework], applications"
 ms.assetid: 879c20e0-8301-4f44-b520-97283848c965
 caps.latest.revision: 10
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -51,7 +52,7 @@ translation.priority.ht:
  Introduces the <xref:System.Resources.NeutralResourcesLanguageAttribute> class, which specifies the culture of the resources included in an application's main assembly.  
   
 ## Related Sections  
- [Introduction to International Applications Based on the .NET Framework](../ide/introduction-to-international-applications-based-on-the-.net-framework.md)  
+ [Introduction to International Applications Based on the .NET Framework](../ide/introduction-to-international-applications-based-on-the-dotnet-framework.md)  
  Discusses the concepts related to developing software for an international market using Visual Basic or Visual C#.  
   
  [Globalizing Windows Forms](../Topic/Globalizing%20Windows%20Forms.md)  

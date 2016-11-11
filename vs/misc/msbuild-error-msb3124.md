@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB3124"
+title: "MSBuild Error MSB3124 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB3124"
 ms.assetid: d8365103-aa9d-400e-9c24-0a43e2bfbd14
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -43,5 +44,5 @@ translation.priority.mt:
 -   Remove [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md)`extension` attributes that are not unique. Each listed \<fileAssociation> element's extension attributes must be unique.  
   
 ## See Also  
- [Publish Page, Project Designer](../ide/reference/publish-page--project-designer.md)   
+ [Publish Page, Project Designer](../ide/reference/publish-page-project-designer.md)   
  [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md)

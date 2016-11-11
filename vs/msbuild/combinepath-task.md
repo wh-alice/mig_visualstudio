@@ -1,7 +1,7 @@
 ---
-title: "CombinePath Task"
+title: "CombinePath Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "CombinePath task [MSBuild]"
 ms.assetid: c20edbf4-3d4f-4f66-b1d5-753a0d858ed8
 caps.latest.revision: 7
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

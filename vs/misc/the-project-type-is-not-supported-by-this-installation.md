@@ -1,7 +1,7 @@
 ---
-title: "The project type is not supported by this installation"
+title: "The project type is not supported by this installation | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ f1_keywords:
   - "vs.projectflavornotavailable"
 ms.assetid: 50e92aff-3ce9-4600-94af-4a16e9dffc90
 caps.latest.revision: 14
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -49,4 +50,4 @@ This error occurs when you try to open a type of project that requires a softwar
   
 ## See Also  
  [What's New in Visual Studio 2015](../ide/what-s-new-in-visual-studio-2015.md)   
- [Porting, Migrating, and Upgrading Visual Studio Projects](../porting/porting--migrating--and-upgrading-visual-studio-projects.md)
+ [Porting, Migrating, and Upgrading Visual Studio Projects](../porting/porting-migrating-and-upgrading-visual-studio-projects.md)

@@ -1,7 +1,7 @@
 ---
-title: "Using DebuggerTypeProxy Attribute"
+title: "Using DebuggerTypeProxy Attribute | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "DebuggerTypeProxy attribute"
 ms.assetid: 943f3bb1-993e-4800-a47e-0af78b063014
 caps.latest.revision: 24
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -67,7 +68,7 @@ translation.priority.ht:
   
  If you use a generic type as a target in `DebuggerTypeProxy`, you must use this syntax. The `DebuggerTypeProxy` mechanism infers the type parameters for you.  
   
- For more information on open and closed types in C# see the [C# Language Specification](../Topic/C%23%20Language%20Specification.md), section 20.5.2 Open and closed types.  
+ For more information on open and closed types in C# see the [C# Language Specification](/dotnet/csharp/language-reference/language-specification), section 20.5.2 Open and closed types.  
   
  Visual Basic does not have open type syntax, so you cannot do the same thing in Visual Basic. Instead, you must use a string representation of the open type name.  
   
@@ -75,5 +76,5 @@ translation.priority.ht:
   
 ## See Also  
  [Using the DebuggerDisplay Attribute](../debugger/using-the-debuggerdisplay-attribute.md)   
- [Create custom views of .managed objects](../debugger/create-custom-views-of-.managed-objects.md)   
+ [Create custom views of .managed objects](../debugger/create-custom-views-of-dot-managed-objects.md)   
  [Enhancing Debugging with the Debugger Display Attributes](../Topic/Enhancing%20Debugging%20with%20the%20Debugger%20Display%20Attributes.md)

@@ -1,7 +1,7 @@
 ---
-title: "IntelliTrace"
+title: "IntelliTrace | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,6 +24,7 @@ helpviewer_keywords:
   - "IntelliTrace, debugging after a crash"
 ms.assetid: 486bfec2-39bd-4d78-892a-42352128ee52
 caps.latest.revision: 135
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -57,8 +58,8 @@ You can spend less time debugging your application when you use IntelliTrace to 
   
 |||  
 |-|-|  
-|**Debug my application with IntelliTrace:**<br /><br /> -   Show me past events.<br />-   Show me call information with past events.<br />-   Save my IntelliTrace session.<br />-   Control the data that IntelliTrace collects.|-   [Walkthrough: Using IntelliTrace](../debugger/walkthrough--using-intellitrace.md)<br />     [IntelliTrace Features](../debugger/intellitrace-features.md)<br />-   [Configure IntelliTrace](http://msdn.microsoft.com/en-us/7657ecab-e07e-4b1b-872d-f05d966be37e)<br />-   [Historical Debugging](../debugger/historical-debugging.md)|  
-|**Collect IntelliTrace data during a test session in Test Manager**|-   [Collect more diagnostic data in manual tests](../Topic/Collect%20more%20diagnostic%20data%20in%20manual%20tests.md)|  
+|**Debug my application with IntelliTrace:**<br /><br /> -   Show me past events.<br />-   Show me call information with past events.<br />-   Save my IntelliTrace session.<br />-   Control the data that IntelliTrace collects.|-   [Walkthrough: Using IntelliTrace](../debugger/walkthrough-using-intellitrace.md)<br />     [IntelliTrace Features](../debugger/intellitrace-features.md)<br />-   [Configure IntelliTrace](http://msdn.microsoft.com/en-us/7657ecab-e07e-4b1b-872d-f05d966be37e)<br />-   [Historical Debugging](../debugger/historical-debugging.md)|  
+|**Collect IntelliTrace data during a test session in Test Manager**|-   [Collect more diagnostic data in manual tests](/devops-test-docs/test/collect-more-diagnostic-data-in-manual-tests)|  
 |**Collect IntelliTrace data from deployed applications**|-   [Using the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md)|  
 |**Start debugging from an IntelliTrace log file (.iTrace file).**|-   [Using saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md)|  
   
@@ -100,7 +101,7 @@ You can spend less time debugging your application when you use IntelliTrace to 
   
 -   Your application crashes on a test computer but runs successfully on a development computer.  
   
-     You can collect IntelliTrace data from Microsoft Test Manager, save the data to an .iTrace file, and attach this file to a Team Foundation Server work item for later investigation. See [Collect more diagnostic data in manual tests](../Topic/Collect%20more%20diagnostic%20data%20in%20manual%20tests.md) and [Using saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md).  
+     You can collect IntelliTrace data from Microsoft Test Manager, save the data to an .iTrace file, and attach this file to a Team Foundation Server work item for later investigation. See [Collect more diagnostic data in manual tests](/devops-test-docs/test/collect-more-diagnostic-data-in-manual-tests) and [Using saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md).  
   
 -   A bug or crash happens in a deployed application.  
   
@@ -188,7 +189,7 @@ You can spend less time debugging your application when you use IntelliTrace to 
   
  [Configure IntelliTrace](http://msdn.microsoft.com/en-us/7657ecab-e07e-4b1b-872d-f05d966be37e)  
   
- [Including Diagnostic Trace Data with Bugs that are Difficult to Reproduce](../Topic/Including%20Diagnostic%20Trace%20Data%20with%20Bugs%20that%20are%20Difficult%20to%20Reproduce.md)  
+ [Including Diagnostic Trace Data with Bugs that are Difficult to Reproduce](/devops-test-docs/test_notintoc/including-diagnostic-trace-data-with-bugs-that-are-difficult-to-reproduce)  
   
  [Diagnose problems after deployment](../debugger/diagnose-problems-after-deployment.md)  
   

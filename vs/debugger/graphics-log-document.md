@@ -1,7 +1,7 @@
 ---
-title: "Graphics Log Document"
+title: "Graphics Log Document | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ f1_keywords:
   - "vs.graphics.vsglog"
 ms.assetid: 6ccb1269-d55f-49c4-920d-baedf7de2888
 caps.latest.revision: 31
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -55,7 +56,7 @@ The Graphics Log document is the record of graphics events that occurred while y
 ## Playback machine  
  Also displayed in the upper-right corner of the **Frame List** is the **Playback Machine**. The playback machine is a machine or device that is used to play back graphics events from a graphics log file during a later graphics diagnostics session. By using a different device instead of your development machine to play back captured events, you can more accurately reproduce the execution environment in which the problem occurs—for example, you can use a machine that has different graphics hardware or drivers than the ones that your development machine uses, or other kinds of devices, such as an ARM-based Windows RT tablet or Windows Phone device.  
   
- For information about how to specify a playback machine, see [How to: Change the Graphics Diagnostics Playback Machine](../debugger/how-to--change-the-graphics-diagnostics-playback-machine.md).  
+ For information about how to specify a playback machine, see [How to: Change the Graphics Diagnostics Playback Machine](../debugger/how-to-change-the-graphics-diagnostics-playback-machine.md).  
   
 ## Graphics log summary information  
  When a graphics log file is the active document, the **Properties** window displays information about the environment that hosted the Graphics Diagnostics capture session. Several categories of information are displayed.  
@@ -125,5 +126,5 @@ The Graphics Log document is the record of graphics events that occurred while y
 |**Size**|The size of the graphics log document.|  
   
 ## See Also  
- [Walkthrough: Missing Objects Due to Vertex Shading](../debugger/walkthrough--missing-objects-due-to-vertex-shading.md)   
- [Walkthrough: Debugging Rendering Errors Due to Shading](../debugger/walkthrough--debugging-rendering-errors-due-to-shading.md)
+ [Walkthrough: Missing Objects Due to Vertex Shading](../debugger/walkthrough-missing-objects-due-to-vertex-shading.md)   
+ [Walkthrough: Debugging Rendering Errors Due to Shading](../debugger/walkthrough-debugging-rendering-errors-due-to-shading.md)

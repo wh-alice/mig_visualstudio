@@ -1,7 +1,7 @@
 ---
-title: "Error List Window"
+title: "Error List Window | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "errors [Visual Studio], Error List window"
 ms.assetid: b7f6d45a-733b-4ad8-bc2f-737a37509e56
 caps.latest.revision: 32
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

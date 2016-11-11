@@ -1,5 +1,5 @@
 ---
-title: "Project has been closed"
+title: "Project has been closed | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "BC32301"
 ms.assetid: cc865b5c-8782-4228-ac51-df4bc4648245
 caps.latest.revision: 8
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 

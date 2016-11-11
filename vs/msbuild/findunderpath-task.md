@@ -1,7 +1,7 @@
 ---
-title: "FindUnderPath Task"
+title: "FindUnderPath Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "FindUnderPath task [MSBuild]"
 ms.assetid: 3c6d58b0-36e8-47aa-bfca-b73dd2045d91
 caps.latest.revision: 9
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

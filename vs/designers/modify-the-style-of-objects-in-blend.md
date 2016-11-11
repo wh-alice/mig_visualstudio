@@ -1,7 +1,7 @@
 ---
-title: "Modify the style of objects in Blend"
+title: "Modify the style of objects in Blend | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 31192d2c-5b84-41bc-94c0-898638c170bd
 caps.latest.revision: 12
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

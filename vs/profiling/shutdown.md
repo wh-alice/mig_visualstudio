@@ -1,7 +1,7 @@
 ---
-title: "Shutdown"
+title: "Shutdown | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a1e37500-4ad1-4670-9737-3d9a20536386
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -48,5 +49,5 @@ VSPerfCmd.exe /Shutdown[:Timeout]
 ## See Also  
  [VSPerfCmd](../profiling/vsperfcmd.md)   
  [Profiling Stand-Alone Applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
- [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-asp.net-web-applications.md)   
+ [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
  [Profiling Services](../profiling/command-line-profiling-of-services.md)

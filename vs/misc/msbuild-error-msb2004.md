@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB2004"
+title: "MSBuild Error MSB2004 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB2004"
 ms.assetid: ae426d42-7a97-44b6-b0df-12fdef7d0ee7
 caps.latest.revision: 11
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

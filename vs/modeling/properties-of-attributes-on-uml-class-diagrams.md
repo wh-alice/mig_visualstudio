@@ -1,7 +1,7 @@
 ---
-title: "Properties of attributes on UML class diagrams"
+title: "Properties of attributes on UML class diagrams | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "UML, element properties"
 ms.assetid: ba01e064-7424-4e72-98fa-42fa1c30e153
 caps.latest.revision: 19
+author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
 translation.priority.ht: 
@@ -77,8 +78,8 @@ On a UML class diagram, you can add *attributes* to classes and interfaces. An a
 |**Is Unique**|False|If true, there are no duplicate values in the collection. For **Multiplicity** of more than 1.|  
   
 ## See Also  
- [UML Class Diagrams: Reference](../modeling/uml-class-diagrams--reference.md)   
+ [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)   
  [Properties of types on UML class diagrams](../modeling/properties-of-types-on-uml-class-diagrams.md)   
  [Properties of operations on UML class diagrams](../modeling/properties-of-operations-on-uml-class-diagrams.md)   
- [UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams--guidelines.md)   
- [UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams--guidelines.md)
+ [UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams-guidelines.md)   
+ [UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams-guidelines.md)

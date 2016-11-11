@@ -1,7 +1,7 @@
 ---
-title: "IDebugPointerObject3"
+title: "IDebugPointerObject3 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -50,7 +50,7 @@ IDebugPointerObject3 : IDebugPointerObject
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetPointerAddress](../../../extensibility/debugger/reference/idebugpointerobject3--getpointeraddress.md)|Retrieves the address of pointer.|  
+|[GetPointerAddress](../../../extensibility/debugger/reference/idebugpointerobject3-getpointeraddress.md)|Retrieves the address of pointer.|  
   
 ## Requirements  
  Header: Ee.h  

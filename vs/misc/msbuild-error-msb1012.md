@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB1012"
+title: "MSBuild Error MSB1012 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB1012"
 ms.assetid: 6e09e21d-9f64-4a8c-adec-f8efb28b7ac2
 caps.latest.revision: 10
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

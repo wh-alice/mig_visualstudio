@@ -1,7 +1,7 @@
 ---
-title: "ranlux4 TypeDef"
+title: "ranlux4 TypeDef | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "ranlux4 class [TR1]"
 ms.assetid: 6f198955-79d0-4065-ac2c-0f0dd1e9a06d
 caps.latest.revision: 10
+author: "erickson-doug"
 ms.author: "douge"
 manager: "douge"
 translation.priority.mt: 

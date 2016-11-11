@@ -1,7 +1,7 @@
 ---
-title: "Unit testing Visual C# code in a Store app"
+title: "Unit testing Visual C# code in a Store app | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 23cb0d82-0451-464e-98ea-fa66e7010ead
 caps.latest.revision: 19
+author: "alexhomer1"
 ms.author: "ahomer"
 manager: "robinr"
 translation.priority.ht: 
@@ -105,7 +106,7 @@ This topic describes one way to create unit tests for a Visual C# class in a Win
   
          When the tests are run, an instance of each test class is created. The test methods are called in an unspecified order.  
   
-    3.  You can define special methods that are invoked before and after each module, class, or method. For more information, see [Using Microsoft.VisualStudio.TestTools.UnitTesting Members in Unit Tests](../test/using-microsoft.visualstudio.testtools.unittesting-members-in-unit-tests.md) in the MSDN Library.  
+    3.  You can define special methods that are invoked before and after each module, class, or method. For more information, see [Using Microsoft.VisualStudio.TestTools.UnitTesting Members in Unit Tests](../test/using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md) in the MSDN Library.  
   
 ##  <a name="BKMK_Verify_that_the_tests_run_in_Test_Explorer"></a> Verify that the tests run in Test Explorer  
   

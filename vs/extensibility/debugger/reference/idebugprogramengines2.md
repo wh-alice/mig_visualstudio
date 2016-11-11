@@ -1,7 +1,7 @@
 ---
-title: "IDebugProgramEngines2"
+title: "IDebugProgramEngines2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,18 +45,18 @@ IDebugProgramEngines2 : IUnknown
  A DE or a custom port supplier implements this interface on the same object that implements [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) to support establishing a specific DE to use for a particular program.  
   
 ## Notes for Callers  
- Call [QueryInterface](../Topic/QueryInterface.md) on an `IDebugProgramNode2` interface to obtain this interface.  
+ Call [QueryInterface](/visual-cpp/atl/queryinterface) on an `IDebugProgramNode2` interface to obtain this interface.  
   
 ## Methods in Vtable Order  
  The following table shows the methods of `IDebugProgramEngines2`.  
   
 |Method|Description|  
 |------------|-----------------|  
-|[EnumPossibleEngines](../../../extensibility/debugger/reference/idebugprogramengines2--enumpossibleengines.md)|Indicates all the possible DEs that can debug this program.|  
-|[SetEngine](../../../extensibility/debugger/reference/idebugprogramengines2--setengine.md)|Selects the DE to use for debugging this program.|  
+|[EnumPossibleEngines](../../../extensibility/debugger/reference/idebugprogramengines2-enumpossibleengines.md)|Indicates all the possible DEs that can debug this program.|  
+|[SetEngine](../../../extensibility/debugger/reference/idebugprogramengines2-setengine.md)|Selects the DE to use for debugging this program.|  
   
 ## Remarks  
- Once a DE is chosen by the user, that choice is registered with the program node by calling [SetEngine](../../../extensibility/debugger/reference/idebugprogramengines2--setengine.md). The selected engine becomes the engine returned by [GetEngineInfo](../../../extensibility/debugger/reference/idebugprogramnode2--getengineinfo.md).  
+ Once a DE is chosen by the user, that choice is registered with the program node by calling [SetEngine](../../../extensibility/debugger/reference/idebugprogramengines2-setengine.md). The selected engine becomes the engine returned by [GetEngineInfo](../../../extensibility/debugger/reference/idebugprogramnode2-getengineinfo.md).  
   
 ## Requirements  
  Header: msdbg.h  
@@ -68,4 +68,4 @@ IDebugProgramEngines2 : IUnknown
 ## See Also  
  [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)   
  [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md)   
- [GetEngineInfo](../../../extensibility/debugger/reference/idebugprogramnode2--getengineinfo.md)
+ [GetEngineInfo](../../../extensibility/debugger/reference/idebugprogramnode2-getengineinfo.md)

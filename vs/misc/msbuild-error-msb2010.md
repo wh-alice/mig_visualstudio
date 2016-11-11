@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB2010"
+title: "MSBuild Error MSB2010 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB2010"
 ms.assetid: 925cc6a7-1410-42c7-9c23-7d1797a705d9
 caps.latest.revision: 11
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

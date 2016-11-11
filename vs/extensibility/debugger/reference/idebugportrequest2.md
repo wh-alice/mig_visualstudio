@@ -1,7 +1,7 @@
 ---
-title: "IDebugPortRequest2"
+title: "IDebugPortRequest2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,14 +45,14 @@ IDebugPortRequest2 : IUnknown
  Visual Studio typically implements this interface in the process of getting a debug port from a port supplier.  
   
 ## Notes for Callers  
- This interface is passed into [AddPort](../../../extensibility/debugger/reference/idebugportsupplier2--addport.md) to create a debug port. A call to [GetPortRequest](../../../extensibility/debugger/reference/idebugport2--getportrequest.md) returns this interface, representing the request used to create the port in the first place.  
+ This interface is passed into [AddPort](../../../extensibility/debugger/reference/idebugportsupplier2-addport.md) to create a debug port. A call to [GetPortRequest](../../../extensibility/debugger/reference/idebugport2-getportrequest.md) returns this interface, representing the request used to create the port in the first place.  
   
 ## Methods in Vtable Order  
  The following table shows the methods of `IDebugPortRequest2`.  
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetPortName](../../../extensibility/debugger/reference/idebugportrequest2--getportname.md)|Gets the name of the port to create.|  
+|[GetPortName](../../../extensibility/debugger/reference/idebugportrequest2-getportname.md)|Gets the name of the port to create.|  
   
 ## Remarks  
  A debug engine typically does not interact with a port supplier and will have no use for this interface.  
@@ -66,5 +66,5 @@ IDebugPortRequest2 : IUnknown
   
 ## See Also  
  [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)   
- [AddPort](../../../extensibility/debugger/reference/idebugportsupplier2--addport.md)   
- [GetPortRequest](../../../extensibility/debugger/reference/idebugport2--getportrequest.md)
+ [AddPort](../../../extensibility/debugger/reference/idebugportsupplier2-addport.md)   
+ [GetPortRequest](../../../extensibility/debugger/reference/idebugport2-getportrequest.md)

@@ -1,7 +1,7 @@
 ---
-title: "Measure Mode On-Off"
+title: "Measure Mode On-Off | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Concurrency Visualizer, Measure Mode On/Off"
 ms.assetid: fbd99736-9ea8-47d2-af51-7e3a4e9c29c1
 caps.latest.revision: 7
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -39,5 +40,5 @@ By using this tool, you can precisely measure a length of time in the timeline. 
   
 ## See Also  
  [Manage Channels](../profiling/manage-channels.md)   
- [Zoom Control (Threads View)](../profiling/zoom-control--threads-view-.md)   
- [Threads View](../profiling/threads-view--parallel-performance-.md)
+ [Zoom Control (Threads View)](../profiling/zoom-control-threads-view.md)   
+ [Threads View](../profiling/threads-view-parallel-performance.md)

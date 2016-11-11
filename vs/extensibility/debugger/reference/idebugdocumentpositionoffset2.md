@@ -1,7 +1,7 @@
 ---
-title: "IDebugDocumentPositionOffset2"
+title: "IDebugDocumentPositionOffset2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -47,10 +47,10 @@ IDebugDocumentPositionOffset2 : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetRange](../../../extensibility/debugger/reference/idebugdocumentpositionoffset2--getrange.md)|Retrieves the range for the current document position.|  
+|[GetRange](../../../extensibility/debugger/reference/idebugdocumentpositionoffset2-getrange.md)|Retrieves the range for the current document position.|  
   
 ## Remarks  
- This returns the same information as [GetRange](../../../extensibility/debugger/reference/idebugdocumentposition2--getrange.md) but in `char` offsets from the beginning of the document. This presents the document like it would exist on a disk, that is, a one-dimensional array of characters, instead of the line and column information that is ordinarily returned.  
+ This returns the same information as [GetRange](../../../extensibility/debugger/reference/idebugdocumentposition2-getrange.md) but in `char` offsets from the beginning of the document. This presents the document like it would exist on a disk, that is, a one-dimensional array of characters, instead of the line and column information that is ordinarily returned.  
   
 ## Requirements  
  Header: Msdbg.h  

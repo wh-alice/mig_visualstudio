@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB3141"
+title: "MSBuild Error MSB3141 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "MSB3141"
 ms.assetid: f32ce5fd-bb82-4a8b-aebe-61efef89cdc1
 caps.latest.revision: 6
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -44,4 +45,4 @@ translation.priority.mt:
 -   Download the package file for which the information is missing and copy it into the bootstrapper cache.  
   
 ## See Also  
- [\<PackageFiles> Element](../deployment/-packagefiles--element--bootstrapper-.md)
+ [\<PackageFiles> Element](../deployment/packagefiles-element-bootstrapper.md)

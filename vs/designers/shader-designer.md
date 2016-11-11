@@ -1,7 +1,7 @@
 ---
-title: "Shader Designer"
+title: "Shader Designer | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,6 +14,7 @@ f1_keywords:
   - "vs.graphics.shaderdesigner"
 ms.assetid: 5db09a16-b82c-4ba3-8ec9-630cdc109397
 caps.latest.revision: 32
+author: "BrianPeek"
 ms.author: "brpeek"
 manager: "ghogen"
 translation.priority.ht: 
@@ -92,7 +93,7 @@ This document describes how to work with the [!INCLUDE[vsprvs](../code-quality/i
 |**Preview with plane**|When enabled, a model of a plane is used to preview the shader. Only one preview shape at a time can be enabled.|  
 |**Toolbox**|Alternately shows or hides the **Toolbox**.|  
 |**Properties**|Alternatively shows or hides the **Properties** window.|  
-|**Advanced**|Contains advanced commands and options.<br /><br /> **Export**: Enables the export of a shader in several formats.<br /><br /> **Export As**: Exports the shader as either HLSL source code or as compiled shader bytecode. For more information about how to export shaders, see [How to: Export a Shader](../designers/how-to--export-a-shader.md).<br /><br /> **Graphics Engines**: Enables the selection of the renderer that is used to display the design surface.<br /><br /> **Render with D3D11**: Uses Direct3D 11 to render the Shader Designer design surface.<br /><br /> **Render with D3D11WARP**: Uses Direct3D 11 Windows Advanced Rasterization Platform (WARP) to render the Shader Designer design surface.<br /><br /> **View**: Enables the selection of additional information about the Shader Designer.<br /><br /> **Frame Rate**: When enabled, displays the current frame rate in the upper-right corner of the design surface. The frame rate is the number of frames that are drawn per second.  This option is useful when you enable the **Real-Time Rendering Mode** option.|  
+|**Advanced**|Contains advanced commands and options.<br /><br /> **Export**: Enables the export of a shader in several formats.<br /><br /> **Export As**: Exports the shader as either HLSL source code or as compiled shader bytecode. For more information about how to export shaders, see [How to: Export a Shader](../designers/how-to-export-a-shader.md).<br /><br /> **Graphics Engines**: Enables the selection of the renderer that is used to display the design surface.<br /><br /> **Render with D3D11**: Uses Direct3D 11 to render the Shader Designer design surface.<br /><br /> **Render with D3D11WARP**: Uses Direct3D 11 Windows Advanced Rasterization Platform (WARP) to render the Shader Designer design surface.<br /><br /> **View**: Enables the selection of additional information about the Shader Designer.<br /><br /> **Frame Rate**: When enabled, displays the current frame rate in the upper-right corner of the design surface. The frame rate is the number of frames that are drawn per second.  This option is useful when you enable the **Real-Time Rendering Mode** option.|  
   
 > [!TIP]
 >  You can choose the **Advanced** button to run the last command again.  
@@ -165,7 +166,7 @@ This document describes how to work with the [!INCLUDE[vsprvs](../code-quality/i
   
  You can export shaders as HLSL source code or as compiled shader bytecode. HLSL source code is exported to a text file that has an .hlsl file name extension. Shader bytecode can be exported either to a raw binary file that has a .cso file name extension, or to a C++ header (.h) file that encodes the shader bytecode into an array.  
   
- For more information about how to export shaders, see [How to: Export a Shader](../designers/how-to--export-a-shader.md).  
+ For more information about how to export shaders, see [How to: Export a Shader](../designers/how-to-export-a-shader.md).  
   
 ## Keyboard shortcuts  
   

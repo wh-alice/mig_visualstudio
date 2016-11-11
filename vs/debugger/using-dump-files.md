@@ -1,7 +1,7 @@
 ---
-title: "Using Dump Files"
+title: "Using Dump Files | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -27,6 +27,7 @@ helpviewer_keywords:
   - "dumps"
 ms.assetid: b71be6dc-57e0-4730-99d2-b540a0863e49
 caps.latest.revision: 53
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -144,11 +145,11 @@ Dump files with or without heaps; create a dump file; open a dump file; find the
   
  **Using the No Binary / Symbol / Source pages**  
   
- If Visual Studio can’t find the files needed to debug a module in the dump, it displays an appropriate page (**No Binary Found**, **No Symbols Found**, or **No Source Found**). These pages provide detailed information about the cause of the issue and provide action links that can help you identify the correct location of the files. See [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol--.pdb--and-source-files-in-the-visual-studio-debugger.md).  
+ If Visual Studio can’t find the files needed to debug a module in the dump, it displays an appropriate page (**No Binary Found**, **No Symbols Found**, or **No Source Found**). These pages provide detailed information about the cause of the issue and provide action links that can help you identify the correct location of the files. See [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).  
   
  ![Back to top](../debugger/media/pcs_backtotop.png "PCS_BackToTop") [Contents](#BKMK_Contents)  
   
 ## See Also  
  [Just-In-Time Debugging](../debugger/just-in-time-debugging-in-visual-studio.md)   
- [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol--.pdb--and-source-files-in-the-visual-studio-debugger.md)   
+ [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)   
  [IntelliTrace](../debugger/intellitrace.md)

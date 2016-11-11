@@ -1,7 +1,7 @@
 ---
-title: "Performance Tools on Windows 8 and Windows Server 2012 applications"
+title: "Performance Tools on Windows 8 and Windows Server 2012 applications | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a704215d-d252-4087-921b-ac81ebe2a9c9
 caps.latest.revision: 15
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

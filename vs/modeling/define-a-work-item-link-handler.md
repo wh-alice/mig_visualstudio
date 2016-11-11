@@ -1,7 +1,7 @@
 ---
-title: "Define a work item link handler"
+title: "Define a work item link handler | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ helpviewer_keywords:
   - "UML API"
 ms.assetid: d52e0bbf-0166-4bb4-a2e3-cefed6188875
 caps.latest.revision: 19
+author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
-title: "Compiling and Building in Visual Studio"
+title: "Compiling and Building in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "custom build steps, types of builds"
 ms.assetid: c7958821-285f-4e28-9e7a-b5d8b40336a1
 caps.latest.revision: 28
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -34,7 +35,7 @@ translation.priority.ht:
 # Compiling and Building in Visual Studio
 You can use Visual Studio to build applications and to create assemblies and executable programs at frequent intervals during a development cycle. By building your code often, you can identify compile-time errors, such as incorrect syntax, misspelled keywords, and type mismatches, earlier. You can also detect and correct run-time errors, such as logic errors and semantic errors, by frequently building and running debug versions of the code.  
   
- When you have fully developed and sufficiently debugged a project or solution, you can compile its components in a Release build. By default, a Release build is optimized and designed to be smaller and run faster than a debug version. For more information, see [Walkthrough: Building an Application](../ide/walkthrough--building-an-application.md).  
+ When you have fully developed and sufficiently debugged a project or solution, you can compile its components in a Release build. By default, a Release build is optimized and designed to be smaller and run faster than a debug version. For more information, see [Walkthrough: Building an Application](../ide/walkthrough-building-an-application.md).  
   
 ## Choosing a Build Method  
  You can build an application by using the default build options in the IDE, at a command prompt, or by using Team Foundation Build. Each of these options use MSBuild as the underlying technology, and each approach has specific benefits, as the following table shows.  
@@ -50,21 +51,21 @@ You can use Visual Studio to build applications and to create assemblies and exe
   
  From within the IDE, you can perform the following additional tasks:  
   
--   [Change the build output directory](../ide/how-to--change-the-build-output-directory.md).  
+-   [Change the build output directory](../ide/how-to-change-the-build-output-directory.md).  
   
--   [Identify projects that are dependent on the output from another project in order to build correctly](../ide/how-to--create-and-remove-project-dependencies.md).  
+-   [Identify projects that are dependent on the output from another project in order to build correctly](../ide/how-to-create-and-remove-project-dependencies.md).  
   
--   [Change the amount of information included in the build log or Output window for builds](../ide/how-to--view--save--and-configure-build-log-files.md).  
+-   [Change the amount of information included in the build log or Output window for builds](../ide/how-to-view-save-and-configure-build-log-files.md).  
   
--   [Hide specific compiler warnings for Visual C#, Visual C++, or Visual Basic](../ide/how-to--suppress-compiler-warnings.md).  
+-   [Hide specific compiler warnings for Visual C#, Visual C++, or Visual Basic](../ide/how-to-suppress-compiler-warnings.md).  
   
 -   [Specify custom pre-compile and post-compile actions for a build](../ide/specifying-custom-build-events-in-visual-studio.md).  
   
 -   Improve build performance by using parallel builds. For more information, see [Building Multiple Projects in Parallel](../msbuild/building-multiple-projects-in-parallel-with-msbuild.md) or the blog post [Tuning C++ build parallelism](http://blogs.msdn.com/b/msbuild/archive/2010/03/08/tuning-c-build-parallelism-in-vs2010.aspx).  
   
 ## See Also  
- [Walkthrough: Building an Application](../ide/walkthrough--building-an-application.md)   
+ [Walkthrough: Building an Application](../ide/walkthrough-building-an-application.md)   
  [Understanding Build Configurations](../ide/understanding-build-configurations.md)   
  [Understanding Build Platforms](../ide/understanding-build-platforms.md)   
  [Building (Compiling) Web Site Projects](../Topic/Building%20\(Compiling\)%20Web%20Site%20Projects.md)   
- [How to: Create and Remove Project Dependencies](../ide/how-to--create-and-remove-project-dependencies.md)
+ [How to: Create and Remove Project Dependencies](../ide/how-to-create-and-remove-project-dependencies.md)

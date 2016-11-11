@@ -1,7 +1,7 @@
 ---
-title: "Accessing data in Visual Studio"
+title: "Accessing data in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/26/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "ADO.NET, data access"
 ms.assetid: 9812a6d5-23d2-4427-8b98-70a2abfec3bc
 caps.latest.revision: 100
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 robots: noindex,nofollow
@@ -76,7 +77,7 @@ In Visual Studio, you can create applications that connect to data in virtually 
   
  And more...  
   
- Many database vendors and third parties support Visual Studio integration by NuGet packages. You can explore the offerings on nuget.org or through the NuGet Package Manager in Visual Studio (**Tools** > **NuGet Package Manager** > **Manage NuGet Packages for Solution**). Other database products integrate with Visual Studio as an extension.   You can browse these offerings in the Visual Studio Gallery by navigating to **Tools** > **Extensions and Updates** and then selecting **Online** in the left pane of the dialog box.  For more information, see [Installing database systems, tools, and samples](../data-tools/installing-database-systems--tools--and-samples.md).  
+ Many database vendors and third parties support Visual Studio integration by NuGet packages. You can explore the offerings on nuget.org or through the NuGet Package Manager in Visual Studio (**Tools** > **NuGet Package Manager** > **Manage NuGet Packages for Solution**). Other database products integrate with Visual Studio as an extension.   You can browse these offerings in the Visual Studio Gallery by navigating to **Tools** > **Extensions and Updates** and then selecting **Online** in the left pane of the dialog box.  For more information, see [Installing database systems, tools, and samples](../data-tools/installing-database-systems-tools-and-samples.md).  
   
 > [!NOTE]
 >  Extended support for SQL Server 2005 ended on April 12, 2016.   There is no guarantee that data tools in Visual Studio 2015 and later will continue to work with SQL Server 2005 after this date. For more information, see the [end-of-support announcement for SQL Server 2005](https://www.microsoft.com/en-us/server-cloud/products/sql-server-2005/).  
@@ -128,7 +129,7 @@ In Visual Studio, you can create applications that connect to data in virtually 
  Install  [Python Tools for Visual Studio](http://microsoft.github.io/PTVS/) along with your favorite Python framework to create CPython or IronPython (.NET)  applications.  The Python Tools for Visual Studio website has several tutorials on connecting to data, including [Django and SQL Database on Azure](https://github.com/Microsoft/PTVS/wiki/Django-and-SQL-Database-on-Azure), [Django and MySQL on Azure](https://github.com/Microsoft/PTVS/wiki/Django-and-MySQL-on-Azure) and [Bottle and MongoDB on Azure](https://github.com/Microsoft/PTVS/wiki/Bottle-and-MongoDB-on-Azure).  
   
 ## In this section  
- [Installing database systems, tools, and samples](../data-tools/installing-database-systems--tools--and-samples.md)  
+ [Installing database systems, tools, and samples](../data-tools/installing-database-systems-tools-and-samples.md)  
  Discusses how to obtain database products and the Visual Studio extensions or drivers that support them, and where to find sample databases for experimentation and learning purposes.  
   
  [Visual Studio data tools for .NET](http://msdn.microsoft.com/en-us/6b145922-2f00-47db-befc-bf351b4809a1)  
@@ -156,7 +157,7 @@ In Visual Studio, you can create applications that connect to data in virtually 
  [WCF Data Services 4.5](../Topic/WCF%20Data%20Services%204.5.md)  
  Describes how to use [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)] to deploy data services on the web or an intranet that implement the [Open Data Protocol (OData)](http://go.microsoft.com/fwlink/?LinkID=182204).  
   
- [Data in Office Solutions](../Topic/Data%20in%20Office%20Solutions.md)  
+ [Data in Office Solutions](/office-dev/office-dev/data-in-office-solutions)  
  Contains links to topics that explain how data works in Office solutions. This includes information about schema-oriented programming, data caching, and server-side data access.  
   
  [LINQ (Language-Integrated Query)](../Topic/LINQ%20\(Language-Integrated%20Query\).md)  

@@ -1,7 +1,7 @@
 ---
-title: "Project Target Framework Not Installed Dialog Box"
+title: "Project Target Framework Not Installed Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ f1_keywords:
   - "vs.TargetFrameworkNotFound"
 ms.assetid: 64ce8743-d5bd-447e-ba10-54b2aafe109e
 caps.latest.revision: 13
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -59,6 +60,6 @@ You have opened a project which targets a framework that is not installed on you
  Leaves the project unloaded from the solution. You can later install the desired Framework and then reload the project.  
   
 ## See Also  
- [How to: Target a Version of the .NET Framework](../ide/how-to--target-a-version-of-the-.net-framework.md)   
- [Troubleshooting .NET Framework Targeting Errors](../msbuild/troubleshooting-.net-framework-targeting-errors.md)   
- [Adding references](../Topic/Adding%20references%20in%20Visual%20C++%20projects.md)
+ [How to: Target a Version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md)   
+ [Troubleshooting .NET Framework Targeting Errors](../msbuild/troubleshooting-dotnet-framework-targeting-errors.md)   
+ [Adding references](/visual-cpp/ide/adding-references-in-visual-cpp-projects)

@@ -1,7 +1,7 @@
 ---
-title: "Solutions"
+title: "Solutions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -39,8 +39,8 @@ A solution is a grouping of one or more projects that work together to create an
  Discusses the types of solution files included in a solution, and the process that occurs when a solution is opened.  
   
 ## Related Sections  
- [Solution (.Sln) File](../../extensibility/internals/solution--.sln--file.md)  
+ [Solution (.Sln) File](../../extensibility/internals/solution-dot-sln-file.md)  
  Explains the structure of a .sln file.  
   
- [Solution User Options (.Suo) File](../../extensibility/internals/solution-user-options--.suo--file.md)  
+ [Solution User Options (.Suo) File](../../extensibility/internals/solution-user-options-dot-suo-file.md)  
  Explains the .suo file.

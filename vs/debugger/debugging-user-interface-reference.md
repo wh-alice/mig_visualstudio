@@ -1,7 +1,7 @@
 ---
-title: "Debugging User Interface Reference"
+title: "Debugging User Interface Reference | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,6 +24,7 @@ helpviewer_keywords:
   - "debugger, user interface reference"
 ms.assetid: 57f1cad8-c908-42bf-8ec5-6eb567df08e9
 caps.latest.revision: 10
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -48,9 +49,9 @@ You may encounter the following dialog boxes as you debug your application.
   
 -   [Choose Breakpoints Dialog Box](../debugger/choose-breakpoints-dialog-box.md)  
   
--   [Debug Source Files, Common Properties, Solution Property Pages Dialog Box](../debugger/debug-source-files--common-properties--solution-property-pages-dialog-box.md)  
+-   [Debug Source Files, Common Properties, Solution Property Pages Dialog Box](../debugger/debug-source-files-common-properties-solution-property-pages-dialog-box.md)  
   
--   [Debugging, Options Dialog Box](../debugger/debugging--options-dialog-box.md)  
+-   [Debugging, Options Dialog Box](../debugger/debugging-options-dialog-box.md)  
   
 -   [Edit and Continue Dialog Box](../debugger/edit-and-continue-dialog-box.md)  
   

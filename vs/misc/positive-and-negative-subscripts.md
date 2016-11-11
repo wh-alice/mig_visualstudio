@@ -1,7 +1,7 @@
 ---
-title: "Positive and Negative Subscripts"
+title: "Positive and Negative Subscripts | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "subscript operator, positive and negative"
 ms.assetid: e96e0b69-4465-4e86-8a80-896775d734c6
 caps.latest.revision: 9
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 

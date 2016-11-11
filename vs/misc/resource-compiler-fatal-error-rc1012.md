@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Fatal Error RC1012"
+title: "Resource Compiler Fatal Error RC1012 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC1012"
 ms.assetid: e880c307-1105-46d4-8869-7804411ee20a
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

@@ -1,5 +1,5 @@
 ---
-title: "Visual Basic Compiler Messages"
+title: "Visual Basic Compiler Messages | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "errors [Visual Basic], compiler"
 ms.assetid: d50addfb-0683-45e5-8c3c-69a2eb510a19
 caps.latest.revision: 14
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 

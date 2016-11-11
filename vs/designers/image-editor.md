@@ -1,7 +1,7 @@
 ---
-title: "Image Editor"
+title: "Image Editor | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,6 +14,7 @@ f1_keywords:
   - "vs.graphics.imageeditor"
 ms.assetid: fc71d502-c548-4863-8afc-12a1d3ec90d4
 caps.latest.revision: 45
+author: "BrianPeek"
 ms.author: "brpeek"
 manager: "ghogen"
 ---
@@ -132,7 +133,7 @@ This document describes how to work with the [!INCLUDE[vsprvs](../code-quality/i
 |**Trim**|Trims the image to the active selection.|  
   
 ### Working with MIP levels  
- Some image formats—for example, DirectDraw Surface (.dds)—support MIP levels for texture-space Level-of-Detail (LOD). For information about how to generate and work with MIP levels, see [How to: Create and Modify MIP Levels](../designers/how-to--create-and-modify-mip-levels.md)  
+ Some image formats—for example, DirectDraw Surface (.dds)—support MIP levels for texture-space Level-of-Detail (LOD). For information about how to generate and work with MIP levels, see [How to: Create and Modify MIP Levels](../designers/how-to-create-and-modify-mip-levels.md)  
   
 ### Working with transparency  
  Some image formats—for example, DirectDraw Surface (.dds)—support transparency. There are several ways that transparency can be used, depending on the tool that you are using. To specify the level of transparency for a color selection, in the **Properties** window, set the **A** (alpha) component of the color selection. Here's how different kinds of tools control how transparency is applied:  

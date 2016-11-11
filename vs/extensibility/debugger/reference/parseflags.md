@@ -1,7 +1,7 @@
 ---
-title: "PARSEFLAGS"
+title: "PARSEFLAGS | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -65,7 +65,7 @@ public enum enum_PARSEFLAGS { 
  Indicates that the expression is being parsed during design time (that is, when a designer is open).  
   
 ## Remarks  
- Passed as a parameter to the [ParseText](../../../extensibility/debugger/reference/idebugexpressioncontext2--parsetext.md) and [Parse](../../../extensibility/debugger/reference/idebugexpressionevaluator--parse.md) methods.  
+ Passed as a parameter to the [ParseText](../../../extensibility/debugger/reference/idebugexpressioncontext2-parsetext.md) and [Parse](../../../extensibility/debugger/reference/idebugexpressionevaluator-parse.md) methods.  
   
 ## Requirements  
  Header: msdbg.h  
@@ -75,6 +75,6 @@ public enum enum_PARSEFLAGS { 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll  
   
 ## See Also  
- [Enumerations](../../../extensibility/debugger/reference/enumerations--visual-studio-debugging-.md)   
- [ParseText](../../../extensibility/debugger/reference/idebugexpressioncontext2--parsetext.md)   
- [Parse](../../../extensibility/debugger/reference/idebugexpressionevaluator--parse.md)
+ [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)   
+ [ParseText](../../../extensibility/debugger/reference/idebugexpressioncontext2-parsetext.md)   
+ [Parse](../../../extensibility/debugger/reference/idebugexpressionevaluator-parse.md)

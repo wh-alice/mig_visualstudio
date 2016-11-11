@@ -1,7 +1,7 @@
 ---
-title: "Troubleshooting VSPackages"
+title: "Troubleshooting VSPackages | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -63,7 +63,7 @@ Following are common problems that you might have with your VSPackage and tips t
   
 5.  Examine the activity log.  
   
-     For more information, see [How to: Use the Activity Log](../extensibility/how-to--use-the-activity-log.md).  
+     For more information, see [How to: Use the Activity Log](../extensibility/how-to-use-the-activity-log.md).  
   
 6.  For more information about exceptions thrown by the IDE, click **Exceptions** on the **Debug** menu to enable the exceptions. In the **Exceptions** dialog box select the types of exceptions about which you want more information.  
   
@@ -102,7 +102,7 @@ Following are common problems that you might have with your VSPackage and tips t
   
 2.  Use the activity log.  
   
-     Trace VSPackage behavior by writing information to the activity log at key points. This technique is especially useful when you run a VSPackage in a retail environment. For more information, see [How to: Use the Activity Log](../extensibility/how-to--use-the-activity-log.md).  
+     Trace VSPackage behavior by writing information to the activity log at key points. This technique is especially useful when you run a VSPackage in a retail environment. For more information, see [How to: Use the Activity Log](../extensibility/how-to-use-the-activity-log.md).  
   
 3.  Use public symbols.  
   

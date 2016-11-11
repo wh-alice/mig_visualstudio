@@ -1,7 +1,7 @@
 ---
-title: "Symbol Provider Interfaces"
+title: "Symbol Provider Interfaces | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -72,4 +72,4 @@ The following are the Symbol Handling Interfaces for the [!INCLUDE[vsipsdk](../.
 |[IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md)|SP|Represents a collection of [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) objects.|  
   
 ## See Also  
- [API Reference](../../../extensibility/debugger/reference/api-reference--visual-studio-debugging-.md)
+ [API Reference](../../../extensibility/debugger/reference/api-reference-visual-studio-debugging.md)

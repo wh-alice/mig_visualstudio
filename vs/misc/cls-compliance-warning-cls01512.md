@@ -1,7 +1,7 @@
 ---
-title: "CLS Compliance Warning CLS01512"
+title: "CLS Compliance Warning CLS01512 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CLS01512"
 ms.assetid: 15822eb3-43b1-4d58-a22d-9532e5820008
 caps.latest.revision: 7
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
-title: "IDebugExpressionEvaluator2"
+title: "IDebugExpressionEvaluator2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -50,12 +50,12 @@ IDebugExpressionEvaluator2 : IDebugExpressionEvaluator
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetService](../../../extensibility/debugger/reference/idebugexpressionevaluator2--getservice.md)|Retrieves a service object given its unique identifier.|  
-|[PreloadModules](../../../extensibility/debugger/reference/idebugexpressionevaluator2--preloadmodules.md)|Preloads the modules designated by the specified symbol provider.|  
-|[SetCallback](../../../extensibility/debugger/reference/idebugexpressionevaluator2--setcallback.md)|Enables the expression evaluator (EE) to specify the callback interface the debugger engine (DE) will use to read metric settings.|  
-|[SetCorPath](../../../extensibility/debugger/reference/idebugexpressionevaluator2--setcorpath.md)|Sets the path to the common language runtime (CLR) loaded in the debugger.|  
-|[SetIDebugIDECallback](../../../extensibility/debugger/reference/idebugexpressionevaluator2--setidebugidecallback.md)|Enables a debug engine to pass a callback to the expression evaluator during initialization.|  
-|[Terminate](../../../extensibility/debugger/reference/idebugexpressionevaluator2--terminate.md)|Stops and cleans up the expression evaluator.|  
+|[GetService](../../../extensibility/debugger/reference/idebugexpressionevaluator2-getservice.md)|Retrieves a service object given its unique identifier.|  
+|[PreloadModules](../../../extensibility/debugger/reference/idebugexpressionevaluator2-preloadmodules.md)|Preloads the modules designated by the specified symbol provider.|  
+|[SetCallback](../../../extensibility/debugger/reference/idebugexpressionevaluator2-setcallback.md)|Enables the expression evaluator (EE) to specify the callback interface the debugger engine (DE) will use to read metric settings.|  
+|[SetCorPath](../../../extensibility/debugger/reference/idebugexpressionevaluator2-setcorpath.md)|Sets the path to the common language runtime (CLR) loaded in the debugger.|  
+|[SetIDebugIDECallback](../../../extensibility/debugger/reference/idebugexpressionevaluator2-setidebugidecallback.md)|Enables a debug engine to pass a callback to the expression evaluator during initialization.|  
+|[Terminate](../../../extensibility/debugger/reference/idebugexpressionevaluator2-terminate.md)|Stops and cleans up the expression evaluator.|  
   
 ## Requirements  
  Header: Ee.h  

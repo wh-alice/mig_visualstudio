@@ -1,7 +1,7 @@
 ---
-title: "Using MSBuild"
+title: "Using MSBuild | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -38,7 +38,7 @@ MSBuild supplies a well-defined, extensible XML format for creating project file
  For an end-to-end sample of a language project system based on MSBuild, see the IronPython Sample Deep Dive in the[VSSDK Samples](../../misc/vssdk-samples.md).  
   
 ## General MSBuild Considerations  
- MSBuild project files, for example, [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] .csproj and [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] .vbproj files, contain data that is used at build time, but also can contain data that is used at design time. Build-time data is stored using MSBuild primitives, including [Item Element (MSBuild)](../../msbuild/item-element--msbuild-.md) and [Property Element (MSBuild)](../../msbuild/property-element--msbuild-.md). Design-time data, which is data specific to the project type and any related project subtypes, is stored in free-form XML reserved for it.  
+ MSBuild project files, for example, [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] .csproj and [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] .vbproj files, contain data that is used at build time, but also can contain data that is used at design time. Build-time data is stored using MSBuild primitives, including [Item Element (MSBuild)](../../msbuild/item-element-msbuild.md) and [Property Element (MSBuild)](../../msbuild/property-element-msbuild.md). Design-time data, which is data specific to the project type and any related project subtypes, is stored in free-form XML reserved for it.  
   
  MSBuild does not have native support for configuration objects, but does provide conditional attributes for specifying configuration-specific data. For example:  
   

@@ -1,7 +1,7 @@
 ---
-title: "IDebugPortSupplierLocale2"
+title: "IDebugPortSupplierLocale2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -47,7 +47,7 @@ IDebugPortSupplierLocale2 : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[SetLocale](../../../extensibility/debugger/reference/idebugportsupplierlocale2--setlocale.md)|Sets the locale for the port supplier.|  
+|[SetLocale](../../../extensibility/debugger/reference/idebugportsupplierlocale2-setlocale.md)|Sets the locale for the port supplier.|  
   
 ## Requirements  
  Header: Portpriv.h  

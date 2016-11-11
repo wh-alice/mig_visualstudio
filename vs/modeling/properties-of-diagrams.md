@@ -1,7 +1,7 @@
 ---
-title: "Properties of Diagrams"
+title: "Properties of Diagrams | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, diagram"
 ms.assetid: 00bba4b8-6aa6-4027-96cb-4f4c41a77d3c
 caps.latest.revision: 25
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 ---

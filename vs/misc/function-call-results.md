@@ -1,7 +1,7 @@
 ---
-title: "Function-Call Results"
+title: "Function-Call Results | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "function calls, results"
 ms.assetid: ad67f8f5-48f1-4dfc-a783-307c2652d417
 caps.latest.revision: 6
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 

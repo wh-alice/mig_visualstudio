@@ -1,7 +1,7 @@
 ---
-title: "Project Build Error PRJ0038"
+title: "Project Build Error PRJ0038 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "PRJ0038"
 ms.assetid: 6a042623-fee8-4bae-b34c-e420190fd7b4
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

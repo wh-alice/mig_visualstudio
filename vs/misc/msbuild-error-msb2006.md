@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB2006"
+title: "MSBuild Error MSB2006 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB2006"
 ms.assetid: 89dc1b89-1621-46bc-9fe6-6d98cbcbebc8
 caps.latest.revision: 11
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

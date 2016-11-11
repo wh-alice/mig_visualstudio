@@ -1,7 +1,7 @@
 ---
-title: "User Permissions and Visual Studio"
+title: "User Permissions and Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "permissions"
 ms.assetid: 70485ed7-6342-41bf-8250-7a6826e21b98
 caps.latest.revision: 14
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -43,23 +44,23 @@ For reasons of security you should run Visual Studio as a normal user whenever p
   
 |Area|Task|For more information|  
 |----------|----------|--------------------------|  
-|Installation|Installing Visual Studio.|[Installing Visual Studio 2015](../install/installing-visual-studio-2015.md)|  
-||Upgrading from a trial edition of Visual Studio.|[How to: Upgrade from a Trial Edition of Visual Studio](../install/how-to--upgrade-from-a-trial-edition-of-visual-studio.md)|  
+|Installation|Installing Visual Studio.|[Installing Visual Studio 2015](../Topic/Installing%20Visual%20Studio%202015.md)|  
+||Upgrading from a trial edition of Visual Studio.|[How to: Upgrade from a Trial Edition of Visual Studio](../install/how-to-upgrade-from-a-trial-edition-of-visual-studio.md)|  
 ||Installing, updating, or removing local Help content.|[Install and Manage Local Content](../ide/install-and-manage-local-content.md)|  
-|Application types|Developing solutions for SharePoint 2010.|[Requirements for Developing SharePoint Solutions](../Topic/Requirements%20for%20Developing%20SharePoint%20Solutions.md)|  
+|Application types|Developing solutions for SharePoint 2010.|[Requirements for Developing SharePoint Solutions](/office-dev/office-dev/requirements-for-developing-sharepoint-solutions)|  
 ||Acquiring a developer license for [!INCLUDE[win8_appstore_long](../debugger/includes/win8_appstore_long_md.md)].|[Get a developer license (Windows Store apps)](http://go.microsoft.com/fwlink/?LinkID=241313)|  
 |Toolbox|Adding classic COM controls to the **Toolbox**.|[Using the Toolbox](../ide/using-the-toolbox.md)|  
 |Add-ins|Installing and using add-ins that were written by using classic COM in the IDE.|[Creating Add-ins and Wizards](../Topic/Creating%20Add-ins%20and%20Wizards.md)|  
-|Building|Using post-build events that register a component.|[Understanding Custom Build Steps and Build Events](../Topic/Understanding%20Custom%20Build%20Steps%20and%20Build%20Events.md)|  
-||Including a registration step when you build C++ projects.|[Understanding Custom Build Steps and Build Events](../Topic/Understanding%20Custom%20Build%20Steps%20and%20Build%20Events.md)|  
+|Building|Using post-build events that register a component.|[Understanding Custom Build Steps and Build Events](/visual-cpp/ide/understanding-custom-build-steps-and-build-events)|  
+||Including a registration step when you build C++ projects.|[Understanding Custom Build Steps and Build Events](/visual-cpp/ide/understanding-custom-build-steps-and-build-events)|  
 |Debugging|Debugging applications that run with elevated permissions.|[Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)|  
-||Debugging applications that a run under a different user account, such as ASP.NET websites.|[Debugging ASP.NET and AJAX Applications](../debugger/debugging-asp.net-and-ajax-applications.md)|  
+||Debugging applications that a run under a different user account, such as ASP.NET websites.|[Debugging ASP.NET and AJAX Applications](../debugger/debugging-aspnet-and-ajax-applications.md)|  
 ||Debugging in Zone for XAML Browser Applications (XBAP).|[WPF Host (PresentationHost.exe)](../Topic/WPF%20Host%20\(PresentationHost.exe\).md)|  
 ||Using the emulator to debug cloud service projects for Microsoft Azure.|[Debugging a Cloud Service in Visual Studio](http://go.microsoft.com/fwlink/?LinkId=266725)|  
 ||Configuring a firewall for remote debugging.|[Set Up the Remote Tools on the Device](../Topic/Set%20Up%20the%20Remote%20Tools%20on%20the%20Device.md)|  
 |Performance tools|Profiling an application.|[Beginners Guide to Performance Profiling](../profiling/beginners-guide-to-performance-profiling.md)|  
 |Deployment|Deploying a web application to Internet Information Services (IIS) on a local computer.|[Deploying an ASP.NET Web Application to a Hosting Provider using Visual Studio or Visual Web Developer: Deploying to IIS as a Test Environment](http://go.microsoft.com/fwlink/?LinkId=266478)|  
-|Providing feedback to Microsoft|Changing how you participate in the Visual Studio Customer Experience Program.|[How to: Send Feedback](../misc/how-to--send-feedback-about-visual-studio.md)|  
+|Providing feedback to Microsoft|Changing how you participate in the Visual Studio Customer Experience Program.|[How to: Send Feedback](../misc/how-to-send-feedback-about-visual-studio.md)|  
   
 ## Running Visual Studio as an Administrator  
  You can launch Visual Studio with administrative permissions each time you start the IDE, or you can modify the application shortcut to always run with administrative permissions. For more information, see Windows Help.  
@@ -81,5 +82,5 @@ For reasons of security you should run Visual Studio as a normal user whenever p
      When Visual Studio starts, **(Administrator)** appears after the product name in the title bar.  
   
 ## See Also  
- [Porting, Migrating, and Upgrading Visual Studio Projects](../porting/porting--migrating--and-upgrading-visual-studio-projects.md)   
- [Installing Visual Studio 2015](../install/installing-visual-studio-2015.md)
+ [Porting, Migrating, and Upgrading Visual Studio Projects](../porting/porting-migrating-and-upgrading-visual-studio-projects.md)   
+ [Installing Visual Studio 2015](../Topic/Installing%20Visual%20Studio%202015.md)

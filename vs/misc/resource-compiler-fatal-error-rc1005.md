@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Fatal Error RC1005"
+title: "Resource Compiler Fatal Error RC1005 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC1005"
 ms.assetid: 895b14b1-b281-42d3-a572-d224f5a1d89d
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

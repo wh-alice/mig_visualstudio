@@ -1,7 +1,7 @@
 ---
-title: "Initialization Order of Bases and Members"
+title: "Initialization Order of Bases and Members | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "member object initialization"
 ms.assetid: bd85eb83-7993-4dec-91af-acbf93d4db43
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 

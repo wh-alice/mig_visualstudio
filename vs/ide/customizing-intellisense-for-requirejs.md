@@ -1,7 +1,7 @@
 ---
-title: "Customizing IntelliSense for RequireJS"
+title: "Customizing IntelliSense for RequireJS | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2be07ef8-9c08-444b-a21a-22a4fe6386a3
 caps.latest.revision: 2
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

@@ -1,5 +1,5 @@
 ---
-title: "Constant expression is required"
+title: "Constant expression is required | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "BC30059"
 ms.assetid: fdd5e7bb-6370-4a63-bbb6-23b15badb4c8
 caps.latest.revision: 7
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -46,5 +47,5 @@ A `Const` statement does not properly initialize a constant, or an array declara
 2.  If the declaration specifies an array, check to see if a variable is being used to specify the number of elements. If so, replace the variable with a constant expression.  
   
 ## See Also  
- [Const Statement](../Topic/Const%20Statement%20\(Visual%20Basic\).md)   
+ [Const Statement](/dotnet/visual-basic/language-reference/statements/const-statement)   
  [NOTINBUILD  an Array Variable](http://msdn.microsoft.com/en-us/c2da78bd-6928-46ba-805f-44f819dfaf93)

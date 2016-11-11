@@ -1,7 +1,7 @@
 ---
-title: "Securing Applications"
+title: "Securing Applications | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "application design, securability"
 ms.assetid: 7d32c4cf-8bec-4307-a2a8-42f0ceddf3eb
 caps.latest.revision: 20
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -37,7 +38,7 @@ While most applications possess common security challenges, each application dom
 ## General Security Considerations  
  Each language has its own security considerations and challenges.  
   
- [Security Best Practices](../Topic/Security%20Best%20Practices%20for%20C++.md)  
+ [Security Best Practices](/visual-cpp/top/security-best-practices-for-cpp)  
  Provides information on security features and practices available when working in Visual C++.  
   
  [NOT IN BUILD: Security and Programming (C# and Visual Basic)](http://msdn.microsoft.com/en-us/227e2863-cf09-4c28-9611-bcd82be5e994)  

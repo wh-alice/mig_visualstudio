@@ -1,5 +1,5 @@
 ---
-title: "Stop request is pending"
+title: "Stop request is pending | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "BC30946"
 ms.assetid: 560ab468-d8cf-4e9c-ae13-57a55e83d2b1
 caps.latest.revision: 8
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 

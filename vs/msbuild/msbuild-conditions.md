@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Conditions"
+title: "MSBuild Conditions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "conditions [MSBuild]"
 ms.assetid: 9d7aa308-b667-48ed-b4c9-a61e49eb0a85
 caps.latest.revision: 14
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -55,4 +56,4 @@ translation.priority.ht:
 ## See Also  
  [MSBuild Reference](../msbuild/msbuild-reference.md)   
  [Conditional Constructs](../msbuild/msbuild-conditional-constructs.md)   
- [Walkthrough: Creating an MSBuild Project File from Scratch](../msbuild/walkthrough--creating-an-msbuild-project-file-from-scratch.md)
+ [Walkthrough: Creating an MSBuild Project File from Scratch](../msbuild/walkthrough-creating-an-msbuild-project-file-from-scratch.md)

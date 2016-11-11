@@ -1,7 +1,7 @@
 ---
-title: "Select Code Type Dialog Box"
+title: "Select Code Type Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -27,6 +27,7 @@ helpviewer_keywords:
   - "debugging engine selection dialog box"
 ms.assetid: 932269fe-94e3-43cb-8931-078f31afd177
 caps.latest.revision: 10
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

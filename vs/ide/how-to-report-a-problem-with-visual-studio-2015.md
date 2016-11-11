@@ -1,7 +1,7 @@
 ---
-title: "How to Report a Problem with Visual Studio 2015"
+title: "How to Report a Problem with Visual Studio 2015 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 24ecb76e-b7ad-432d-88ab-d9849963465d
 caps.latest.revision: 9
+author: "TerryGLee"
 ms.author: "tglee"
 manager: "ghogen"
 translation.priority.ht: 

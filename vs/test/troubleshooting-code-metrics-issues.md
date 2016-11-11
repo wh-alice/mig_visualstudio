@@ -1,7 +1,7 @@
 ---
-title: "Troubleshooting Code Metrics Issues"
+title: "Troubleshooting Code Metrics Issues | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f2fdb995-4888-4246-85dc-7bacadd45968
 caps.latest.revision: 4
+author: "erickson-doug"
 ms.author: "douge"
 manager: "douge"
 translation.priority.ht: 

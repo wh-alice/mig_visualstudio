@@ -1,7 +1,7 @@
 ---
-title: "Go To Command"
+title: "Go To Command | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "Go To command"
 ms.assetid: 201e1dd2-6701-467d-8cc1-faec2ef20511
 caps.latest.revision: 10
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

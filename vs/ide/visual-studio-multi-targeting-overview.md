@@ -1,7 +1,7 @@
 ---
-title: "Visual Studio Multi-Targeting Overview"
+title: "Visual Studio Multi-Targeting Overview | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "multitargeting [Visual Studio]"
 ms.assetid: b1702c33-0672-4ebc-b779-2b324d6ea880
 caps.latest.revision: 36
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -70,7 +71,7 @@ In this version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], yo
 >  Framework targeting does not guarantee that your application will run correctly. You must test your application to make sure it runs against the targeted version. You cannot target framework versions that are earlier than the .NET Framework 2.0.  
   
 ## Selecting a Target Framework Version  
- When you create a project, select the target [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] version in the **New Project** dialog box. The list of available project templates is filtered based on the selection. In an existing project, you can change the target [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] version in the project properties dialog box. For more information, see [How to: Target a Version of the .NET Framework](../ide/how-to--target-a-version-of-the-.net-framework.md).  
+ When you create a project, select the target [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] version in the **New Project** dialog box. The list of available project templates is filtered based on the selection. In an existing project, you can change the target [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] version in the project properties dialog box. For more information, see [How to: Target a Version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md).  
   
 > [!NOTE]
 >  In Express editions of Visual Studio, you cannot set the target framework in the **New Project** dialog box.  

@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB3175"
+title: "MSBuild Error MSB3175 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB3175"
 ms.assetid: c157e934-e4e6-43d9-abdf-cb4fb03be494
 caps.latest.revision: 6
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -39,4 +40,4 @@ translation.priority.mt:
  This warning is generated when the build process does not recognize the value of various enumeration-based task item properties such as `AssemblyType`, `DependencyType`, `FileType`, or `TargetZone`. Applies to both application manifests and deployment manifests.  
   
 ## See Also  
- [\<PackageFiles> Element](../deployment/-packagefiles--element--bootstrapper-.md)
+ [\<PackageFiles> Element](../deployment/packagefiles-element-bootstrapper.md)

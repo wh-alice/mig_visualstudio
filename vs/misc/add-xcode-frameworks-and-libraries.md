@@ -1,13 +1,14 @@
 ---
-title: "Add XCode Frameworks and Libraries"
+title: "Add XCode Frameworks and Libraries | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 29810067-2261-4b99-aa57-4ed59b972a76
 caps.latest.revision: 2
+author: "BrianPeek"
 ms.author: "brpeek"
 manager: "ghogen"
 ---

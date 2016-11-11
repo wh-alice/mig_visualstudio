@@ -1,7 +1,7 @@
 ---
-title: "IDebugObject"
+title: "IDebugObject | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -48,23 +48,23 @@ IDebugObject : IUnknown
  An expression evaluator implements this interface to represent an object.  
   
 ## Notes for Callers  
- This interface is the base class for all objects that the expression evaluator uses in parsed expressions. It is returned by a call to the [Bind](../../../extensibility/debugger/reference/idebugbinder--bind.md) method. [QueryInterface](../Topic/QueryInterface.md) obtains the more specialized interfaces from this interface.  
+ This interface is the base class for all objects that the expression evaluator uses in parsed expressions. It is returned by a call to the [Bind](../../../extensibility/debugger/reference/idebugbinder-bind.md) method. [QueryInterface](/visual-cpp/atl/queryinterface) obtains the more specialized interfaces from this interface.  
   
 ## Methods in Vtable Order  
  The following table shows the methods of `IDebugObject`.  
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetSize](../../../extensibility/debugger/reference/idebugobject--getsize.md)|Gets the size of the object.|  
-|[GetValue](../../../extensibility/debugger/reference/idebugobject--getvalue.md)|Gets the value of the object as a consecutive series of bytes.|  
-|[SetValue](../../../extensibility/debugger/reference/idebugobject--setvalue.md)|Sets the value of the object from a consecutive series of bytes.|  
-|[SetReferenceValue](../../../extensibility/debugger/reference/idebugobject--setreferencevalue.md)|Sets the reference value of this object.|  
-|[GetMemoryContext](../../../extensibility/debugger/reference/idebugobject--getmemorycontext.md)|Gets the memory context that represents the address of the value of the object.|  
-|[GetManagedDebugObject](../../../extensibility/debugger/reference/idebugobject--getmanageddebugobject.md)|Creates a copy of the managed object in the address space of the debug engine.|  
-|[IsNullReference](../../../extensibility/debugger/reference/idebugobject--isnullreference.md)|Tests whether this object is a null reference.|  
-|[IsEqual](../../../extensibility/debugger/reference/idebugobject--isequal.md)|Compares an object to this one.|  
-|[IsReadOnly](../../../extensibility/debugger/reference/idebugobject--isreadonly.md)|Determines if this object is read-only.|  
-|[IsProxy](../../../extensibility/debugger/reference/idebugobject--isproxy.md)|Determines if the object is a transparent proxy.|  
+|[GetSize](../../../extensibility/debugger/reference/idebugobject-getsize.md)|Gets the size of the object.|  
+|[GetValue](../../../extensibility/debugger/reference/idebugobject-getvalue.md)|Gets the value of the object as a consecutive series of bytes.|  
+|[SetValue](../../../extensibility/debugger/reference/idebugobject-setvalue.md)|Sets the value of the object from a consecutive series of bytes.|  
+|[SetReferenceValue](../../../extensibility/debugger/reference/idebugobject-setreferencevalue.md)|Sets the reference value of this object.|  
+|[GetMemoryContext](../../../extensibility/debugger/reference/idebugobject-getmemorycontext.md)|Gets the memory context that represents the address of the value of the object.|  
+|[GetManagedDebugObject](../../../extensibility/debugger/reference/idebugobject-getmanageddebugobject.md)|Creates a copy of the managed object in the address space of the debug engine.|  
+|[IsNullReference](../../../extensibility/debugger/reference/idebugobject-isnullreference.md)|Tests whether this object is a null reference.|  
+|[IsEqual](../../../extensibility/debugger/reference/idebugobject-isequal.md)|Compares an object to this one.|  
+|[IsReadOnly](../../../extensibility/debugger/reference/idebugobject-isreadonly.md)|Determines if this object is read-only.|  
+|[IsProxy](../../../extensibility/debugger/reference/idebugobject-isproxy.md)|Determines if the object is a transparent proxy.|  
   
 ## Remarks  
  The expression evaluator uses this interface as the base class to represent objects in a parse tree.  
@@ -78,5 +78,5 @@ IDebugObject : IUnknown
   
 ## See Also  
  [Expression Evaluation Interfaces](../../../extensibility/debugger/reference/expression-evaluation-interfaces.md)   
- [GetElement](../../../extensibility/debugger/reference/idebugarrayobject--getelement.md)   
- [Bind](../../../extensibility/debugger/reference/idebugbinder--bind.md)
+ [GetElement](../../../extensibility/debugger/reference/idebugarrayobject-getelement.md)   
+ [Bind](../../../extensibility/debugger/reference/idebugbinder-bind.md)

@@ -1,5 +1,5 @@
 ---
-title: "Unit Test Basics"
+title: "Unit Test Basics | Microsoft Docs"
 ms.custom: ""
 ms.date: "2016-01-07"
 ms.prod: "visual-studio-dev14"
@@ -57,9 +57,9 @@ Check that your code is working as expected by creating and running unit tests. 
 ###  <a name="BKMK_Quick_starts"></a> Quick starts  
  For an introduction to unit testing that takes you directly into coding, see one of these topics:  
   
--   [Walkthrough: Creating and Running Unit Tests for Managed Code](../test/walkthrough--creating-and-running-unit-tests-for-managed-code.md)  
+-   [Walkthrough: Creating and Running Unit Tests for Managed Code](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md)  
   
--   [Quick Start: Test Driven Development with Test Explorer](../test/quick-start--test-driven-development-with-test-explorer.md)  
+-   [Quick Start: Test Driven Development with Test Explorer](../test/quick-start-test-driven-development-with-test-explorer.md)  
   
 -   [Unit testing native code with Test Explorer](http://msdn.microsoft.com/en-us/8a09d6d8-3613-49d8-9ffe-11375ac4736c)  
   
@@ -200,9 +200,9 @@ public void Withdraw_AmountMoreThanBalance_Throws()
   
  For more information about the Microsoft Unit Testing Frameworks, see one of the following topics:  
   
--   [Writing Unit Tests for the .NET Framework with the Microsoft Unit Test Framework for Managed Code](../test/fbeba971-c468-4429-8017-0f12ab55638c.md)  
+-   [Writing Unit Tests for the .NET Framework with the Microsoft Unit Test Framework for Managed Code](../test/writing-unit-tests-for-the-dotnet-framework-with-the-microsoft-unit-test-framework-for-managed-code.md)  
   
--   [Writing Unit tests for C/C++ with the Microsoft Unit Testing Framework for C++](../test/writing-unit-tests-for-c-c---with-the-microsoft-unit-testing-framework-for-c--.md)  
+-   [Writing Unit tests for C/C++ with the Microsoft Unit Testing Framework for C++](../test/writing-unit-tests-for-c-cpp-with-the-microsoft-unit-testing-framework-for-cpp.md)  
   
 ## Set timeouts for unit tests  
  To set a timeout on an individual test method:  
@@ -319,7 +319,7 @@ public void AddIntegerHelper_DataDrivenValues_AllShouldPass()
   
  The attributed method runs once for each row in the table. Test Explorer reports a test failure for the method if any of the iterations fail. The test results detail pane for the method shows you the pass/fail status method for each row of data.  
   
- Learn more about [data-driven unit tests](../test/how-to--create-a-data-driven-unit-test.md).  
+ Learn more about [data-driven unit tests](../test/how-to-create-a-data-driven-unit-test.md).  
   
  **Q: Can I view how much of my code is tested by my unit tests?**  
   

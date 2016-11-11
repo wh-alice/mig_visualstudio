@@ -1,7 +1,7 @@
 ---
-title: "Connecting to Data in Windows Forms Applications"
+title: "Connecting to Data in Windows Forms Applications | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -38,6 +38,7 @@ helpviewer_keywords:
   - "database connections [Visual Studio], ADO.NET"
 ms.assetid: 184cbd0d-3b26-418d-a11c-f9f8f004fbff
 caps.latest.revision: 31
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 robots: noindex,nofollow
@@ -73,13 +74,13 @@ translation.priority.ht:
   
 -   [Walkthrough: Connecting to Data in a Database (Windows Forms)](../Topic/Walkthrough:%20Connecting%20to%20Data%20in%20a%20Database%20\(Windows%20Forms\).md)  
   
--   [Walkthrough: Connecting to Data in a Local Database File (Windows Forms)](../data-tools/walkthrough--connecting-to-data-in-a-local-database-file--windows-forms-.md)  
+-   [Walkthrough: Connecting to Data in a Local Database File (Windows Forms)](../data-tools/walkthrough-connecting-to-data-in-a-local-database-file-windows-forms.md)  
   
 -   [Walkthrough: Connecting to Data in a Web Service (Windows Forms)](../Topic/Walkthrough:%20Connecting%20to%20Data%20in%20a%20Web%20Service%20\(Windows%20Forms\).md)  
   
 -   [Walkthrough: Connecting to Data in Objects (Windows Forms)](../Topic/Walkthrough:%20Connecting%20to%20Data%20in%20Objects%20\(Windows%20Forms\).md)  
   
--   [Connect to data in an Access database (Windows Forms)](../data-tools/connect-to-data-in-an-access-database--windows-forms-.md)  
+-   [Connect to data in an Access database (Windows Forms)](../data-tools/connect-to-data-in-an-access-database-windows-forms.md)  
   
 ## Creating Connections  
  In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], connections are configured using the **Add/Modify Connection** dialog box. The **Add Connection** dialog box appears when you’re editing or creating connections within one of the data wizards or [Server Explorer/Database Explorer](../Topic/Server%20Explorer.md) or when you’re editing connection properties in the **Properties** window.  
@@ -88,9 +89,9 @@ translation.priority.ht:
   
 |Action|Description|  
 |------------|-----------------|  
-|Run the [Data Source Configuration Wizard](../data-tools/media/data-source-configuration-wizard.png).|Connections are configured when the database path is chosen in the **Data Source Configuration Wizard**. For more information, see [How to: Connect to Data in a Database](../data-tools/how-to--connect-to-data-in-a-database.md).|  
+|Run the [Data Source Configuration Wizard](../data-tools/media/data-source-configuration-wizard.png).|Connections are configured when the database path is chosen in the **Data Source Configuration Wizard**. For more information, see [How to: Connect to Data in a Database](../data-tools/how-to-connect-to-data-in-a-database.md).|  
 |Run the [TableAdapter Configuration Wizard](../Topic/TableAdapter%20Configuration%20Wizard.md).|Connections are created within the **TableAdapter Configuration Wizard**. For more information, see [Create and configure TableAdapters](../data-tools/create-and-configure-tableadapters.md).|  
-|Run the [Editing TableAdapters](../data-tools/editing-tableadapters.md).|Connections are created within the **TableAdapter Query Configuration Wizard**. For more information, see [How to: Create TableAdapter Queries](../data-tools/how-to--create-tableadapter-queries.md).|  
+|Run the [Editing TableAdapters](../data-tools/editing-tableadapters.md).|Connections are created within the **TableAdapter Query Configuration Wizard**. For more information, see [How to: Create TableAdapter Queries](../data-tools/how-to-create-tableadapter-queries.md).|  
 |Drag items from the [Data Sources Window](../Topic/Data%20Sources%20Window.md) onto a form or the [Component Designer](../Topic/Component%20Designer.md).|Connection objects are created when you drag items from the **Data Sources** window onto the **Windows Forms Designer** or **Component Designer**. For more information, see [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md).|  
 |Add new data connections to [Server Explorer/Database Explorer](../Topic/Server%20Explorer.md).|Data connections in **Server Explorer/Database Explorer** appear in the list of available connections within the data wizards|  
   
@@ -126,7 +127,7 @@ translation.priority.ht:
   
 ## See Also  
  [Connecting to Data in Visual Studio](../data-tools/connecting-to-data-in-visual-studio.md)   
- [How to: Connect to Data in a Database](../data-tools/how-to--connect-to-data-in-a-database.md)   
+ [How to: Connect to Data in a Database](../data-tools/how-to-connect-to-data-in-a-database.md)   
  [Walkthrough: Connecting to Data in a Database (Windows Forms)](../Topic/Walkthrough:%20Connecting%20to%20Data%20in%20a%20Database%20\(Windows%20Forms\).md)   
  [ASP.NET Data Access Content Map](http://msdn.microsoft.com/en-us/f9219396-a0fa-481f-894d-e3d9c67d64f2)   
  [Preparing Your Application to Receive Data](../Topic/Preparing%20Your%20Application%20to%20Receive%20Data.md)   

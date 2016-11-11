@@ -1,7 +1,7 @@
 ---
-title: "Deploying Domain-Specific Language Solutions"
+title: "Deploying Domain-Specific Language Solutions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, deployment"
 ms.assetid: 160a9022-ab2f-47db-9d04-4c63fef0ee7d
 caps.latest.revision: 27
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 ---

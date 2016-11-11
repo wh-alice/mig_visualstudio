@@ -1,7 +1,7 @@
 ---
-title: "Explicit Destructor Calls"
+title: "Explicit Destructor Calls | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "explicit destructor calls"
 ms.assetid: 82986464-6824-4159-9d65-8c825cf4c9bb
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -35,4 +36,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Explicit Destructor Calls
-This content has moved to  [Destructors](../Topic/Destructors%20\(C++\).md)
+This content has moved to  [Destructors](/visual-cpp/cpp/destructors-cpp)

@@ -1,7 +1,7 @@
 ---
-title: "Images and Icons for Visual Studio"
+title: "Images and Icons for Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -10,7 +10,7 @@ ms.technology:
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f410325e-9cf2-4f39-b6d7-b672121c2691
-caps.latest.revision: 10
+caps.latest.revision: 11
 ms.author: "gregvanl"
 manager: "ghogen"
 translation.priority.mt: 
@@ -320,8 +320,8 @@ translation.priority.mt:
 |Usage|Name|Value (Light theme)|Swatch|Example|  
 |-----------|----------|---------------------------|------------|-------------|  
 |Background/Dark|VS BG|424242 / 66,66,66|![Swatch 424242](../../extensibility/ux-guidelines/media/0405_424242.png "0405_424242")|![Base palette example](../../extensibility/ux-guidelines/media/0405-02_basepaletteexample.png "0405-02_BasePaletteExample")|  
-|Foreground/Light|VS FG|F0EFF1 / 240,239,241|![Swatch F0EFF1](../../extensibility/ux-guidelines/media/0405_f0eff1.png "0405_F0EFF1")|  
-|Outline|VS Out|F6F6F6 / 246,246,246|![Swatch F6F6F6](../../extensibility/ux-guidelines/media/0405_f6f6f6.png "0405_F6F6F6")|  
+|Foreground/Light|VS FG|F0EFF1 / 240,239,241|![Swatch F0EFF1](../../extensibility/ux-guidelines/media/0405_f0eff1.png "0405_F0EFF1")||  
+|Outline|VS Out|F6F6F6 / 246,246,246|![Swatch F6F6F6](../../extensibility/ux-guidelines/media/0405_f6f6f6.png "0405_F6F6F6")||  
   
  In addition to the base colors, each icon may contain one additional color from the extended palette.  
   

@@ -1,7 +1,7 @@
 ---
-title: "Troubleshoot extensions for layer diagrams"
+title: "Troubleshoot extensions for layer diagrams | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "layer diagrams, troubleshooting extensions"
 ms.assetid: 1fda4f8a-38b8-482b-87b8-eade1a4e5662
 caps.latest.revision: 25
+author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
 translation.priority.ht: 

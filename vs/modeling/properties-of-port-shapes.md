@@ -1,7 +1,7 @@
 ---
-title: "Properties of Port Shapes"
+title: "Properties of Port Shapes | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, port shape"
 ms.assetid: 9d69c4c1-4f72-4876-96b6-9b846e0495a4
 caps.latest.revision: 21
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 ---

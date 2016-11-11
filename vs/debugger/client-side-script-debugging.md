@@ -1,7 +1,7 @@
 ---
-title: "Client-Side Script Debugging"
+title: "Client-Side Script Debugging | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "client-side scripts, debugging"
 ms.assetid: bb668527-2288-47bd-a6c8-cecbad76dde2
 caps.latest.revision: 30
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -41,7 +42,7 @@ translation.priority.mt:
 The Visual Studio  debugger provides a comprehensive debugging environment for finding and correcting errors in client-side scripts in ASP.NET pages.  
   
 ## Opening Script Documents  
- You can see lists of server-side and client-side script documents in the **Solution Explorer** to view . You can open any script document from **Solution Explorer**. For more information, see [How to: View Script Documents](../debugger/how-to--view-script-documents.md).  
+ You can see lists of server-side and client-side script documents in the **Solution Explorer** to view . You can open any script document from **Solution Explorer**. For more information, see [How to: View Script Documents](../debugger/how-to-view-script-documents.md).  
   
 ## Breakpoint Mapping  
  In Visual Studio, you cannot directly debug server-side code, but you can set a breakpoint in a server-side file. Visual Studio automatically maps the breakpoint to a corresponding location in the client-side file and creates a mapped breakpoint in the client-side code.  
@@ -49,7 +50,7 @@ The Visual Studio  debugger provides a comprehensive debugging environment for f
 ## Manually or Automatically Attaching to Script  
  To begin debugging script in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], the debugger must attach to the script you want to debug. This can happen manually or automatically.  
   
- You can manually attach by using the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger interface to choose a running script process you want to attach to. For more information, see [How to: Attach to Script](../debugger/how-to--attach-to-script.md).  
+ You can manually attach by using the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger interface to choose a running script process you want to attach to. For more information, see [How to: Attach to Script](../debugger/how-to-attach-to-script.md).  
   
  The debugger automatically attaches to script when one of the following things occurs:  
   
@@ -74,7 +75,7 @@ The Visual Studio  debugger provides a comprehensive debugging environment for f
  [Debugging and Tracing Ajax Applications Overview](../Topic/Debugging%20and%20Tracing%20Ajax%20Applications%20Overview.md).  
   
 ## See Also  
- [Debugging ASP.NET and AJAX Applications](../debugger/debugging-asp.net-and-ajax-applications.md)   
+ [Debugging ASP.NET and AJAX Applications](../debugger/debugging-aspnet-and-ajax-applications.md)   
  [Limitations on Script Debugging](../debugger/limitations-on-script-debugging.md)   
  [Variable Windows](../Topic/Variable%20Windows.md)   
  [Immediate Window](../ide/reference/immediate-window.md)   

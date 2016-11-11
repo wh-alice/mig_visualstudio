@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB3022"
+title: "MSBuild Error MSB3022 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB3022"
 ms.assetid: 74ebcced-8a56-4502-8fef-43d36c79a640
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

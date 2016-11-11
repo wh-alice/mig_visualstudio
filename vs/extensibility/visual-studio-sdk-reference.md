@@ -1,7 +1,7 @@
 ---
-title: "Visual Studio SDK Reference"
+title: "Visual Studio SDK Reference | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -251,7 +251,7 @@ This section contains information about Visual Studio namespaces, related namesp
  [Source Control Plug-ins](../extensibility/source-control-plug-ins.md)  
  Links to topics for the Source Control Plug-in API.  
   
- [Command-Line Switches](../extensibility/command-line-switches--visual-studio-sdk-.md)  
+ [Command-Line Switches](../extensibility/command-line-switches-visual-studio-sdk.md)  
  Links to topics that discuss how developers can automate several tasks from the command line.  
   
  [Error Handling and Return Values](../extensibility/error-handling-and-return-values.md)  

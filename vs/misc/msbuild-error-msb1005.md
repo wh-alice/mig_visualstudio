@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB1005"
+title: "MSBuild Error MSB1005 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/24/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB1005"
 ms.assetid: cf4e8503-46fb-4c1e-a1ca-aa344276ebb0
 caps.latest.revision: 14
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

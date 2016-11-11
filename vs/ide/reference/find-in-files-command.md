@@ -1,7 +1,7 @@
 ---
-title: "Find in Files Command"
+title: "Find in Files Command | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "find in files command"
 ms.assetid: 2fc78bfe-b339-4599-97f9-4cafd8a194d9
 caps.latest.revision: 11
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

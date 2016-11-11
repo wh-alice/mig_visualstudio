@@ -1,7 +1,7 @@
 ---
-title: "UpdateManifest Task"
+title: "UpdateManifest Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "UpdateManifest task [MSBuild]"
 ms.assetid: 1291fd33-b89e-4e15-8fb1-69f9625cf2d2
 caps.latest.revision: 4
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

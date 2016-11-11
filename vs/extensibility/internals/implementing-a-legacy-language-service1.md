@@ -1,7 +1,7 @@
 ---
-title: "Implementing a Legacy Language Service1"
+title: "Implementing a Legacy Language Service1 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -51,10 +51,10 @@ You can use classes in the managed package framework (MPF) to implement a legacy
  [Legacy Language Service Parser and Scanner](../../extensibility/internals/legacy-language-service-parser-and-scanner.md)  
  Describes the two parsers that are required to implement all the features of a language service by using the MPF.  
   
- [Walkthrough: Creating a Legacy Language Service](../../extensibility/internals/walkthrough--creating-a-legacy-language-service.md)  
+ [Walkthrough: Creating a Legacy Language Service](../../extensibility/internals/walkthrough-creating-a-legacy-language-service.md)  
  Provides the basic steps that are required to implement an MPF language service in a VSPackage.  
   
- [Walkthrough: Getting a List of Installed Code Snippets (Legacy Implementation)](../../extensibility/internals/walkthrough--getting-a-list-of-installed-code-snippets--legacy-implementation-.md)  
+ [Walkthrough: Getting a List of Installed Code Snippets (Legacy Implementation)](../../extensibility/internals/walkthrough-getting-a-list-of-installed-code-snippets-legacy-implementation.md)  
  Demonstrates the techniques of retrieving a list of installed code snippets.  
   
  [Legacy Language Service Features](../../extensibility/internals/legacy-language-service-features1.md)  

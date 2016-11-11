@@ -1,7 +1,7 @@
 ---
-title: "Bitmap Element"
+title: "Bitmap Element | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -71,4 +71,4 @@ Defines a bitmap. The bitmap is loaded either from a resource or from a file.
 ```  
   
 ## See Also  
- [Visual Studio Command Table (.Vsct) Files](../Topic/Visual%20Studio%20Command%20Table%20\(.Vsct\)%20Files.md)
+ [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

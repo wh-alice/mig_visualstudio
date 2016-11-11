@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Warning RC4206"
+title: "Resource Compiler Warning RC4206 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC4206"
 ms.assetid: 5765b25b-80a0-469f-97da-5298b6b1036a
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
-title: "Flowchart Activity Designers"
+title: "Flowchart Activity Designers | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""
@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "reference"
 ms.assetid: 8b7b4aa6-d27d-45c8-87c2-641440d38afc
 caps.latest.revision: 4
+author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
 translation.priority.ht: 
@@ -34,7 +35,7 @@ translation.priority.ht:
  **Used to create workflows that define and manage complex flow controls.**  [FlowDecision](../workflow-designer/flowdecision-activity-designer.md)  
  Provides a branch for the flow of control into one of two alternatives based on whether a specified condition is satisfied.  
   
- [FlowSwitch\<T>](../workflow-designer/flowswitch-t--activity-designer.md)  
+ [FlowSwitch\<T>](../workflow-designer/flowswitch-t-activity-designer.md)  
  Provides branching for the flow of control based on match criterion when more than two alternative branches are required.  
   
 ## Reference  
@@ -44,7 +45,7 @@ translation.priority.ht:
   
  <xref:System.Activities.Statements.FlowDecision>  
   
- <xref:System.Activities.Statements.FlowSwitch`1>  
+ <xref:System.Activities.Statements.FlowSwitch%601>  
   
 ## Related Sections  
  For other types of activity designers, see the following topics.  

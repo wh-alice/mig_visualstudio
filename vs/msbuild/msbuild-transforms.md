@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Transforms"
+title: "MSBuild Transforms | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "transforms [MSBuild]"
 ms.assetid: d0bcfc3c-14fa-455e-805c-63ccffa4a3bf
 caps.latest.revision: 13
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -64,7 +65,7 @@ A transform is a one-to-one conversion of one item list to another. In addition 
 ## Dependency Analysis  
  Transforms guarantee a one-to-one mapping between the transformed item list and the original item list. Therefore, if a target creates outputs that are transforms of the inputs, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] can analyze the timestamps of the inputs and outputs, and decide whether to skip, build, or partially rebuild a target.  
   
- In the [Copy Task](../msbuild/copy-task.md) in the following example, every file in the `BuiltAssemblies` item list maps to a file in the destination folder of the task, specified by using a transform in the `Outputs` attribute. If a file in the `BuiltAssemblies` item list changes, the `Copy` task will be run only for the changed file and all other files will be skipped. For more information about dependency analysis and how to use transforms, see [How to: Build Incrementally](../msbuild/how-to--build-incrementally.md).  
+ In the [Copy Task](../msbuild/copy-task.md) in the following example, every file in the `BuiltAssemblies` item list maps to a file in the destination folder of the task, specified by using a transform in the `Outputs` attribute. If a file in the `BuiltAssemblies` item list changes, the `Copy` task will be run only for the changed file and all other files will be skipped. For more information about dependency analysis and how to use transforms, see [How to: Build Incrementally](../msbuild/how-to-build-incrementally.md).  
   
 ```  
 <Target Name="CopyOutputs"  
@@ -121,4 +122,4 @@ extension: .xsd
 ## See Also  
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)   
- [How to: Build Incrementally](../msbuild/how-to--build-incrementally.md)
+ [How to: Build Incrementally](../msbuild/how-to-build-incrementally.md)

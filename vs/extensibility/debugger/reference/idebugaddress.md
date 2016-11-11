@@ -1,7 +1,7 @@
 ---
-title: "IDebugAddress"
+title: "IDebugAddress | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -52,7 +52,7 @@ IDebugAddress : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetAddress](../../../extensibility/debugger/reference/idebugaddress--getaddress.md)|Retrieves a [DEBUG_ADDRESS](../../../extensibility/debugger/reference/debug_address.md) structure describing an object and its location.|  
+|[GetAddress](../../../extensibility/debugger/reference/idebugaddress-getaddress.md)|Retrieves a [DEBUG_ADDRESS](../../../extensibility/debugger/reference/debug-address.md) structure describing an object and its location.|  
   
 ## Remarks  
  The symbol provider returns this interface to represent an object and its location within a particular scope (for example, function, method, or class). This interface is returned from and passed to various methods of the symbol provider and expression evaluator. Normally, the symbol provider is the only entity that needs to interpret the contents of this interface.  
@@ -66,4 +66,4 @@ IDebugAddress : IUnknown
   
 ## See Also  
  [Symbol Provider Interfaces](../../../extensibility/debugger/reference/symbol-provider-interfaces.md)   
- [DEBUG_ADDRESS](../../../extensibility/debugger/reference/debug_address.md)
+ [DEBUG_ADDRESS](../../../extensibility/debugger/reference/debug-address.md)

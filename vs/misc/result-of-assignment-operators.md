@@ -1,7 +1,7 @@
 ---
-title: "Result of Assignment Operators"
+title: "Result of Assignment Operators | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "assignment operators, results of"
 ms.assetid: a6135e34-4fce-4c79-87b6-b6447db3507e
 caps.latest.revision: 6
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -34,4 +35,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Result of Assignment Operators
-This content has moved [Assignment Operators](../Topic/Assignment%20Operators.md).
+This content has moved [Assignment Operators](/visual-cpp/cpp/assignment-operators).

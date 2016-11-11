@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Best Practices"
+title: "MSBuild Best Practices | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "MSBuild, best practices"
 ms.assetid: 90ef8693-e921-410a-a377-fe4d13f58c48
 caps.latest.revision: 5
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

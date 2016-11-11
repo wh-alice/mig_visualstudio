@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Error RC2118"
+title: "Resource Compiler Error RC2118 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC2118"
 ms.assetid: d71b8ddf-0595-4eda-bd3d-132188999d57
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
-title: "Pass data between forms"
+title: "Pass data between forms | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "Windows Forms, walkthroughs"
 ms.assetid: 78bf038b-9296-4fbf-b0e8-d881d1aff0df
 caps.latest.revision: 14
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 translation.priority.ht: 
@@ -63,7 +64,7 @@ This walkthrough provides step-by-step instructions for passing data from one fo
 ## Prerequisites  
  In order to complete this walkthrough, you need:  
   
--   Access to the Northwind sample database. For more information, see [How to: Install Sample Databases](../data-tools/how-to--install-sample-databases.md).  
+-   Access to the Northwind sample database. For more information, see [How to: Install Sample Databases](../data-tools/how-to-install-sample-databases.md).  
   
 ## Create the Windows Application  
   

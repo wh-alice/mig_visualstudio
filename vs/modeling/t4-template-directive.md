@@ -1,7 +1,7 @@
 ---
-title: "T4 Template Directive"
+title: "T4 Template Directive | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2b0a8e04-6fee-4c6c-b086-e49fc728a3ed
 caps.latest.revision: 10
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 translation.priority.ht: 
@@ -44,7 +45,7 @@ A [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] T4 text template usu
  `compilerOptions="optimize+"`  
   
  Valid values:  
- Any valid compiler options. For more information, see [C# Compiler Options Listed by Category](../Topic/C%23%20Compiler%20Options%20Listed%20by%20Category.md) and [Visual Basic Compiler Options Listed by Category](../Topic/Visual%20Basic%20Compiler%20Options%20Listed%20by%20Category.md).  
+ Any valid compiler options. For more information, see [C# Compiler Options Listed by Category](/dotnet/csharp/language-reference/compiler-options/listed-by-category) and [Visual Basic Compiler Options Listed by Category](/dotnet/visual-basic/reference/command-line-compiler/compiler-options-listed-by-category).  
   
  Ignored for run-time (preprocessed) templates.  
   

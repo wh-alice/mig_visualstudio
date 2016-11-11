@@ -1,7 +1,7 @@
 ---
-title: "ClickOnce Cache Overview"
+title: "ClickOnce Cache Overview | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "ClickOnce deployment, cache"
 ms.assetid: e379921e-9ef1-4326-bbf3-53ba67925526
 caps.latest.revision: 12
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 

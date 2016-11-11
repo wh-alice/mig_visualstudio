@@ -1,7 +1,7 @@
 ---
-title: "SuspendTracking"
+title: "SuspendTracking | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "SuspendTracking"
 ms.assetid: f5e06e5a-8083-444c-99c1-07ba834226b5
 caps.latest.revision: 3
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

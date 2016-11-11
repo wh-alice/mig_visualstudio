@@ -1,7 +1,7 @@
 ---
-title: "Code Snippet Picker"
+title: "Code Snippet Picker | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "code snippets, Code Snippet Picker"
 ms.assetid: f0862d48-fbbc-4cfe-b228-24492d5c89c4
 caps.latest.revision: 25
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -55,7 +56,7 @@ The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Code Editor pro
   
 -   SQL - Right-click at the desired location in the Code Editor to display the Shortcut menu, and click **Insert Snippet**.  
   
- In most Visual Studio development languages, you can use the **Code Snippets Manager** to add folders to the **Folder List** that the **Code Snippet Picker** scans for XML snippet files. You can also create your own snippets to add to the list. For more information, see [Walkthrough: Creating a Code Snippet](../../ide/walkthrough--creating-a-code-snippet.md).  
+ In most Visual Studio development languages, you can use the **Code Snippets Manager** to add folders to the **Folder List** that the **Code Snippet Picker** scans for XML snippet files. You can also create your own snippets to add to the list. For more information, see [Walkthrough: Creating a Code Snippet](../../ide/walkthrough-creating-a-code-snippet.md).  
   
 ## UIElement List  
  Item Name  
@@ -66,6 +67,6 @@ The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Code Editor pro
   
 ## See Also  
  [Best Practices for Using Code Snippets](../../ide/best-practices-for-using-code-snippets.md)   
- [Visual Basic IntelliSense Code Snippets](../Topic/Visual%20Basic%20IntelliSense%20Code%20Snippets.md)   
+ [Visual Basic IntelliSense Code Snippets](/dotnet/visual-basic/developing-apps/using-ide/intellisense-code-snippets)   
  [Setting Bookmarks in Code](../../ide/setting-bookmarks-in-code.md)   
- [How to: Use Surround-with Code Snippets](../../ide/how-to--use-surround-with-code-snippets.md)
+ [How to: Use Surround-with Code Snippets](../../ide/how-to-use-surround-with-code-snippets.md)

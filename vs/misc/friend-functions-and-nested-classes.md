@@ -1,7 +1,7 @@
 ---
-title: "Friend Functions and Nested Classes"
+title: "Friend Functions and Nested Classes | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "classes [C++], nested"
 ms.assetid: 9df91072-ed8c-4e87-a5f7-33f2541acba3
 caps.latest.revision: 8
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -35,4 +36,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Friend Functions and Nested Classes
-This content has moved to [Nested Class Declarations](../Topic/Nested%20Class%20Declarations.md) .
+This content has moved to [Nested Class Declarations](/visual-cpp/cpp/nested-class-declarations) .

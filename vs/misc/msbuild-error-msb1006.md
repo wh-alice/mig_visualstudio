@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB1006"
+title: "MSBuild Error MSB1006 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB1006"
 ms.assetid: 6d97d164-66f1-47bf-9cd9-7422a6c0dbb3
 caps.latest.revision: 12
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

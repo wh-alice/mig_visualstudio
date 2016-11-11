@@ -1,7 +1,7 @@
 ---
-title: "Customizing Element Creation and Movement"
+title: "Customizing Element Creation and Movement | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, element merge directives"
 ms.assetid: cbd28f15-dfd7-46bd-ab79-5430e3ed83c8
 caps.latest.revision: 36
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 ---

@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB3111"
+title: "MSBuild Error MSB3111 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB3111"
 ms.assetid: f01286a1-ba27-4733-a431-35ffe9a31356
 caps.latest.revision: 5
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

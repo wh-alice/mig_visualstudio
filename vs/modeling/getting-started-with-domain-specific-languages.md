@@ -1,7 +1,7 @@
 ---
-title: "Getting Started with Domain-Specific Languages"
+title: "Getting Started with Domain-Specific Languages | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 024392a2-2c04-404f-a27b-7273553c3b60
 caps.latest.revision: 16
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 translation.priority.mt: 
@@ -382,7 +383,7 @@ This topic explains the basic concepts in defining and using a domain-specific l
 ## Validation and Commands  
  You could develop this DSL further by adding validation constraints. These constraints are methods that you can define, that make sure that the model is in a correct state. For example, you could define a constraint to make sure that the birth date of a child is later than that of its parents. The validation feature displays a warning if the DSL user tries to save a model that breaks any of the constraints. For more information, see [Validation in a Domain-Specific Language](../modeling/validation-in-a-domain-specific-language.md).  
   
- You can also define menu commands that the user can invoke. Commands can modify the model. They can also interact with other models in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and with external resources. For more information, see [How to: Modify a Standard Menu Command](../modeling/how-to--modify-a-standard-menu-command-in-a-domain-specific-language.md).  
+ You can also define menu commands that the user can invoke. Commands can modify the model. They can also interact with other models in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and with external resources. For more information, see [How to: Modify a Standard Menu Command](../modeling/how-to-modify-a-standard-menu-command-in-a-domain-specific-language.md).  
   
 ## Deploying the DSL  
  To allow other users to use the domain-specific language, you distribute a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Extension (VSIX) file. This is created when you build the DSL solution.  
@@ -407,6 +408,6 @@ This topic explains the basic concepts in defining and using a domain-specific l
 2.  Rebuild any experimental DSLs or other experimental [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] extensions that you still want to use.  
   
 ## See Also  
- [Understanding Models, Classes and Relationships](../modeling/understanding-models--classes-and-relationships.md)   
+ [Understanding Models, Classes and Relationships](../modeling/understanding-models-classes-and-relationships.md)   
  [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)   
  [Visualizaton and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=186128)

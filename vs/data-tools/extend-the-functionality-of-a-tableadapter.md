@@ -1,7 +1,7 @@
 ---
-title: "Extend the functionality of a TableAdapter"
+title: "Extend the functionality of a TableAdapter | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "TableAdapters, adding functionality"
 ms.assetid: 418249c8-c7f3-47ef-a94c-744cb6fe6aaf
 caps.latest.revision: 11
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 translation.priority.ht: 
@@ -41,7 +42,7 @@ You can extend the functionality of a TableAdapter by adding code to the TableAd
   
  The code that defines a TableAdapter is regenerated when any changes are made to the TableAdapter in the **Dataset Designer**, or when a wizard  modifies the configuration of a TableAdapter. To prevent your code from being deleted during the regeneration of a TableAdapter, add code to the TableAdapter's partial class file.  
   
- Partial classes allow code for a specific class to be divided among multiple physical files. For more information, see [Partial](../Topic/Partial%20\(Visual%20Basic\).md) or [partial (Type)](../Topic/partial%20\(Type\)%20\(C%23%20Reference\).md).  
+ Partial classes allow code for a specific class to be divided among multiple physical files. For more information, see [Partial](/dotnet/visual-basic/language-reference/modifiers/partial) or [partial (Type)](/dotnet/csharp/language-reference/keywords/partial-type).  
   
 ## Locate TableAdapters in code  
  While TableAdapters are designed with the **Dataset Designer**, the TableAdapter classes that are generated are not  nested classes of <xref:System.Data.DataSet>. TableAdapters are located in a namespace based on the name of the TableAdapter's associated dataset. For example, if your application contains a dataset named `HRDataSet`, the TableAdapters would be located in the `HRDataSetTableAdapters` namespace. (The naming convention follows this pattern: *DatasetName* + `TableAdapters`).  

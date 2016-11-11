@@ -1,7 +1,7 @@
 ---
-title: "Error Task"
+title: "Error Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "MSBuild, Error task"
 ms.assetid: e96a90ee-a8ae-4e5b-8ef2-b5cf5fedd8b2
 caps.latest.revision: 20
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

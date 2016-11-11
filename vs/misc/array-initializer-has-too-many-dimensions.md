@@ -1,5 +1,5 @@
 ---
-title: "Array initializer has too many dimensions"
+title: "Array initializer has too many dimensions | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "BC30566"
 ms.assetid: bcc30743-3ab9-4cd6-8481-e1a1e800d8de
 caps.latest.revision: 9
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 

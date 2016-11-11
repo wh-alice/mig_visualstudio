@@ -1,7 +1,7 @@
 ---
-title: "COM Debugging Tools"
+title: "COM Debugging Tools | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,6 +24,7 @@ helpviewer_keywords:
   - "debugging [C++], COM"
 ms.assetid: 4296ad30-6952-46cb-b002-6b34eee1993a
 caps.latest.revision: 18
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -45,7 +46,7 @@ translation.priority.ht:
 This topic lists tools that can help you test and inspect COM programs.  
   
  OLE/COM Object Viewer  
- OLEVIEW displays the ActiveX and OLE objects installed on your computer and the interfaces they support. It also allows you to edit the registry and look at type libraries. For more information, see [Using the OLE/COM Object Viewer](../Topic/Using%20the%20OLE-COM%20Object%20Viewer.md).  
+ OLEVIEW displays the ActiveX and OLE objects installed on your computer and the interfaces they support. It also allows you to edit the registry and look at type libraries. For more information, see [Using the OLE/COM Object Viewer](/visual-cpp/data/ado-rdo/using-the-ole-com-object-viewer).  
   
  Microsoft Foundation Class Samples  
  The MFC ActiveX samples OCLIENT and SUPERPAD are also available to test your applications against. Full source code for these samples is included.  

@@ -1,7 +1,7 @@
 ---
-title: "Ellipses and Default Arguments"
+title: "Ellipses and Default Arguments | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "ellipses (...), default arguments"
 ms.assetid: 39681b23-3412-47af-8ada-c7e977952c25
 caps.latest.revision: 9
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -37,4 +38,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Ellipses and Default Arguments
-This content has moved [Postfix Expressions](../Topic/Postfix%20Expressions.md)
+This content has moved [Postfix Expressions](/visual-cpp/cpp/postfix-expressions)

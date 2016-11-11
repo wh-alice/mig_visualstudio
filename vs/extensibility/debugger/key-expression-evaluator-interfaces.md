@@ -1,7 +1,7 @@
 ---
-title: "Key Expression Evaluator Interfaces"
+title: "Key Expression Evaluator Interfaces | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -41,11 +41,11 @@ translation.priority.mt:
   
 -   [IDebugAddress](../../extensibility/debugger/reference/idebugaddress.md)  
   
-     Has a single method, [GetAddress](../../extensibility/debugger/reference/idebugaddress--getaddress.md), which gets a data structure that represents the current point of execution. This data structure is one of the three arguments that the debug engine (DE) passes to the [EvaluateSync](../../extensibility/debugger/reference/idebugparsedexpression--evaluatesync.md) method to evaluate an expression. This interface is typically implemented by the symbol provider.  
+     Has a single method, [GetAddress](../../extensibility/debugger/reference/idebugaddress-getaddress.md), which gets a data structure that represents the current point of execution. This data structure is one of the three arguments that the debug engine (DE) passes to the [EvaluateSync](../../extensibility/debugger/reference/idebugparsedexpression-evaluatesync.md) method to evaluate an expression. This interface is typically implemented by the symbol provider.  
   
 -   [IDebugBinder](../../extensibility/debugger/reference/idebugbinder.md)  
   
-     Has the [Bind](../../extensibility/debugger/reference/idebugbinder--bind.md) method, which gets the memory area that contains the current value of a symbol. Given both the containing method, represented by an [IDebugObject](../../extensibility/debugger/reference/idebugobject.md) object, and the symbol itself, represented by an [IDebugField](../../extensibility/debugger/reference/idebugfield.md) object, `IDebugBinder::Bind` returns the value of the symbol. `IDebugBinder` is typically implemented by the DE.  
+     Has the [Bind](../../extensibility/debugger/reference/idebugbinder-bind.md) method, which gets the memory area that contains the current value of a symbol. Given both the containing method, represented by an [IDebugObject](../../extensibility/debugger/reference/idebugobject.md) object, and the symbol itself, represented by an [IDebugField](../../extensibility/debugger/reference/idebugfield.md) object, `IDebugBinder::Bind` returns the value of the symbol. `IDebugBinder` is typically implemented by the DE.  
   
 -   [IDebugField](../../extensibility/debugger/reference/idebugfield.md)  
   
@@ -55,15 +55,15 @@ translation.priority.mt:
   
 -   [IDebugObject](../../extensibility/debugger/reference/idebugobject.md)  
   
-     Represents the actual bits of the run-time value of a symbol. [Bind](../../extensibility/debugger/reference/idebugbinder--bind.md) takes an [IDebugField](../../extensibility/debugger/reference/idebugfield.md) object, which represents a symbol, and returns an [IDebugObject](../../extensibility/debugger/reference/idebugobject.md) object. The [GetValue](../../extensibility/debugger/reference/idebugobject--getvalue.md) method returns the value of the symbol in a memory buffer. A DE typically implements this interface to represent the value of a property in memory.  
+     Represents the actual bits of the run-time value of a symbol. [Bind](../../extensibility/debugger/reference/idebugbinder-bind.md) takes an [IDebugField](../../extensibility/debugger/reference/idebugfield.md) object, which represents a symbol, and returns an [IDebugObject](../../extensibility/debugger/reference/idebugobject.md) object. The [GetValue](../../extensibility/debugger/reference/idebugobject-getvalue.md) method returns the value of the symbol in a memory buffer. A DE typically implements this interface to represent the value of a property in memory.  
   
 -   [IDebugExpressionEvaluator](../../extensibility/debugger/reference/idebugexpressionevaluator.md)  
   
-     This interface represents the expression evaluator itself. The key method is [Parse](../../extensibility/debugger/reference/idebugexpressionevaluator--parse.md), which returns an [IDebugParsedExpression](../../extensibility/debugger/reference/idebugparsedexpression.md) interface.  
+     This interface represents the expression evaluator itself. The key method is [Parse](../../extensibility/debugger/reference/idebugexpressionevaluator-parse.md), which returns an [IDebugParsedExpression](../../extensibility/debugger/reference/idebugparsedexpression.md) interface.  
   
 -   [IDebugParsedExpression](../../extensibility/debugger/reference/idebugparsedexpression.md)  
   
-     This interface represents a parsed expression ready to be evaluated. The key method is [EvaluateSync](../../extensibility/debugger/reference/idebugparsedexpression--evaluatesync.md) which returns an IDebugProperty2 representing the value and type of the expression.  
+     This interface represents a parsed expression ready to be evaluated. The key method is [EvaluateSync](../../extensibility/debugger/reference/idebugparsedexpression-evaluatesync.md) which returns an IDebugProperty2 representing the value and type of the expression.  
   
 -   [IDebugProperty2](../../extensibility/debugger/reference/idebugproperty2.md)  
   

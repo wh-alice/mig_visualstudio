@@ -1,7 +1,7 @@
 ---
-title: "StopProfile"
+title: "StopProfile | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "StopProfile"
 ms.assetid: be75b03c-7af5-4abe-a54a-6ee5479ad877
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -83,7 +84,7 @@ PROFILE_COMMAND_STATUS PROFILERAPI StopProfile(
  Import library: VSPerf.lib  
   
 ## Example  
- The following example illustrates the StopProfile method. The example assumes that a call to the StartProfile method has been made for the same thread or process identified by [PROFILE_CURRENTID](../profiling/profile_currentid.md).  
+ The following example illustrates the StopProfile method. The example assumes that a call to the StartProfile method has been made for the same thread or process identified by [PROFILE_CURRENTID](../profiling/profile-currentid.md).  
   
 ```  
 void ExerciseStopProfile()  
@@ -120,4 +121,4 @@ void ExerciseStopProfile()
 ```  
   
 ## See Also  
- [Visual Studio Profiler API Reference (Native)](../profiling/visual-studio-profiler-api-reference--native-.md)
+ [Visual Studio Profiler API Reference (Native)](../profiling/visual-studio-profiler-api-reference-native.md)

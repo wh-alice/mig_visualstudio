@@ -1,7 +1,7 @@
 ---
-title: "Accessibility Products and Services from Microsoft"
+title: "Accessibility Products and Services from Microsoft | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "recorded documentation"
 ms.assetid: ef3c6247-9f59-4ef4-aa8b-a8922b3e0943
 caps.latest.revision: 14
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

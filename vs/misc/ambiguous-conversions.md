@@ -1,7 +1,7 @@
 ---
-title: "Ambiguous Conversions"
+title: "Ambiguous Conversions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "converting pointers, to class types"
 ms.assetid: f7ea64dd-744a-4b04-a9ff-274a16e82538
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 

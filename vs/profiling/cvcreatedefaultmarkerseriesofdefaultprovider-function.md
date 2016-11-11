@@ -1,7 +1,7 @@
 ---
-title: "CvCreateDefaultMarkerSeriesOfDefaultProvider Function"
+title: "CvCreateDefaultMarkerSeriesOfDefaultProvider Function | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "CvCreateDefaultMarkerSeriesOfDefaultProvider method"
 ms.assetid: 24eb80f8-8fca-4c47-93b5-bb1eb8ffdffd
 caps.latest.revision: 2
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -59,4 +60,4 @@ HRESULT CvCreateDefaultMarkerSeriesOfDefaultProvider(
  **Header:** cvmarkers.h  
   
 ## See Also  
- [C++ Library Reference](../profiling/c---library-reference.md)
+ [C++ Library Reference](../profiling/cpp-library-reference.md)

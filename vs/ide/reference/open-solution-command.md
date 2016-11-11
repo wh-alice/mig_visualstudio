@@ -1,7 +1,7 @@
 ---
-title: "Open Solution Command"
+title: "Open Solution Command | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "File.OpenSolution command"
 ms.assetid: 61de76c8-69d7-4cdb-b605-e132f45d05d9
 caps.latest.revision: 10
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

@@ -1,5 +1,5 @@
 ---
-title: "Editing TableAdapters"
+title: "Editing TableAdapters | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -22,6 +22,7 @@ helpviewer_keywords:
   - "data [Visual Studio], table adapter queries"
 ms.assetid: 8c06b306-24d0-4521-948d-07e3b7badd95
 caps.latest.revision: 24
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 robots: noindex,nofollow
@@ -54,7 +55,7 @@ Sometimes you might want to change the schema of the adapter's table. To do this
   
 1.  Open your dataset in the **Dataset Designer**.  
   
-2.  If you are creating a new query, drag a **Query** object from the **DataSet** tab of the **Toolbox** onto a <xref:System.Data.DataTable>, or select **Add Query** from the TableAdapter's shortcut menu. You can also drag a **Query** object onto an empty area of the **Dataset Designer**, which creates a TableAdapter without an associated <xref:System.Data.DataTable>. These queries are limited to returning single values (scalar), or executing UPDATE, INSERT, or DELETE commands against the database. For more information, see [How to: Add Global Queries to a TableAdapter](../data-tools/how-to--add-global-queries-to-a-tableadapter.md).  
+2.  If you are creating a new query, drag a **Query** object from the **DataSet** tab of the **Toolbox** onto a <xref:System.Data.DataTable>, or select **Add Query** from the TableAdapter's shortcut menu. You can also drag a **Query** object onto an empty area of the **Dataset Designer**, which creates a TableAdapter without an associated <xref:System.Data.DataTable>. These queries are limited to returning single values (scalar), or executing UPDATE, INSERT, or DELETE commands against the database. For more information, see [How to: Add Global Queries to a TableAdapter](../data-tools/how-to-add-global-queries-to-a-tableadapter.md).  
   
 3.  On the **Choose Your Data Connection** page select or create the connection the query will use.  
   
@@ -174,7 +175,7 @@ Sometimes you might want to change the schema of the adapter's table. To do this
   
 ## See Also  
  [TableAdapter Overview](../data-tools/tableadapter-overview.md)   
- [How to: Edit TableAdapter Queries](../data-tools/how-to--edit-tableadapter-queries.md)   
+ [How to: Edit TableAdapter Queries](../data-tools/how-to-edit-tableadapter-queries.md)   
  [Data Walkthroughs](../Topic/Data%20Walkthroughs.md)   
  [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)   
  [Overview of Data Applications in Visual Studio](../data-tools/overview-of-data-applications-in-visual-studio.md)   

@@ -1,7 +1,7 @@
 ---
-title: "Formal and Actual Arguments"
+title: "Formal and Actual Arguments | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "arguments [C++]"
 ms.assetid: 9411e303-697e-472a-b0dd-4b81e89d0513
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -38,4 +39,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Formal and Actual Arguments
-This content has moved [Postfix Expressions](../Topic/Postfix%20Expressions.md).
+This content has moved [Postfix Expressions](/visual-cpp/cpp/postfix-expressions).

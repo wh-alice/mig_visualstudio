@@ -1,7 +1,7 @@
 ---
-title: "Viewing the Structure of Code"
+title: "Viewing the Structure of Code | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -30,6 +30,7 @@ helpviewer_keywords:
   - "object browser"
 ms.assetid: e6064f58-5ad9-4f05-8c3f-12e994b6583f
 caps.latest.revision: 28
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
-title: "Mip-map Generation Variant"
+title: "Mip-map Generation Variant | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3b4b3583-0b01-4f5d-aacb-3f96d19111d9
 caps.latest.revision: 6
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

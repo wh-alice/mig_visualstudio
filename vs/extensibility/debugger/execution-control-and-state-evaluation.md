@@ -1,7 +1,7 @@
 ---
-title: "Execution Control and State Evaluation"
+title: "Execution Control and State Evaluation | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/17/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -44,7 +44,7 @@ Debugging an application requires implementing such execution control features a
  [Call Stack Evaluation](../../extensibility/debugger/call-stack-evaluation.md)  
  Discusses implementation of the methods that allow viewing of the stack frames of the call stack during break mode.  
   
- [Expression Evaluation](../../extensibility/debugger/expression-evaluation--visual-studio-debugging-sdk-.md)  
+ [Expression Evaluation](../../extensibility/debugger/expression-evaluation-visual-studio-debugging-sdk.md)  
  Explains how the debug engine (DE), expression evaluation (EE), and session debug manager are involved in the parsing and evaluation of an expression entered into one of the windows of the IDE.  
   
  [Control Events](../../extensibility/debugger/control-events.md)  

@@ -1,7 +1,7 @@
 ---
-title: "Solutions and Projects in Visual Studio"
+title: "Solutions and Projects in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -52,6 +52,7 @@ helpviewer_keywords:
   - "miscellaneous files"
 ms.assetid: aeaf56cb-c2dd-47f6-b012-23b84b7a7254
 caps.latest.revision: 35
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -107,9 +108,9 @@ When you create an app, application, website, Web App, script, plug-in, etc in V
   
 -   [Managing Assembly and Manifest Signing](../ide/managing-assembly-and-manifest-signing.md)  
   
--   [How to: Specify an Application Icon (Visual Basic, C#)](../ide/how-to--specify-an-application-icon--visual-basic--csharp-.md)  
+-   [How to: Specify an Application Icon (Visual Basic, C#)](../ide/how-to-specify-an-application-icon-visual-basic-csharp.md)  
   
--   [Targeting a Specific .NET Framework Version](../ide/targeting-a-specific-.net-framework-version.md)  
+-   [Targeting a Specific .NET Framework Version](../ide/targeting-a-specific-dotnet-framework-version.md)  
   
 -   [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)  
   

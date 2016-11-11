@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB2009"
+title: "MSBuild Error MSB2009 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB2009"
 ms.assetid: 34fd83b4-dead-49e5-b1ee-b23dc5a95244
 caps.latest.revision: 10
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

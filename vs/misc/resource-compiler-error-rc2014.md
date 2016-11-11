@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Error RC2014"
+title: "Resource Compiler Error RC2014 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC2014"
 ms.assetid: db978311-b531-4666-975c-bbb7e32531c5
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
-title: "Symbols Element"
+title: "Symbols Element | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,7 +34,7 @@ translation.priority.mt:
 # Symbols Element
 Defines GUIDs and IDs that are used by other VSCT elements. For unmanaged code, this information typically comes from the header files that are specified by [Extern Element](../extensibility/extern-element.md). Managed code uses the child elements of the Symbols element to define this information.  
   
- If you create a .vsct file from an existing .cto file, the symbols will be generated as children of the Symbols element. For more information, see [How to: Create a .Vsct File from an Existing .Cto File](../misc/how-to--create-a-.vsct-file-from-an-existing-.cto-file.md).  
+ If you create a .vsct file from an existing .cto file, the symbols will be generated as children of the Symbols element. For more information, see [How to: Create a .Vsct File from an Existing .Cto File](../misc/how-to-create-a-dot-vsct-file-from-an-existing-dot-cto-file.md).  
   
  The Symbols element should not be confused with the [Define Element](../extensibility/define-element.md), which defines name-value pairs for use by the preprocessor.  
   
@@ -83,4 +83,4 @@ Defines GUIDs and IDs that are used by other VSCT elements. For unmanaged code, 
 ```  
   
 ## See Also  
- [Visual Studio Command Table (.Vsct) Files](../Topic/Visual%20Studio%20Command%20Table%20\(.Vsct\)%20Files.md)
+ [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

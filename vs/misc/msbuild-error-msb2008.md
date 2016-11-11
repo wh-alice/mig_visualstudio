@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB2008"
+title: "MSBuild Error MSB2008 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB2008"
 ms.assetid: 3c2afda0-a116-4b2f-af0c-c0f0d1541325
 caps.latest.revision: 13
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

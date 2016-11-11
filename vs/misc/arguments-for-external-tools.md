@@ -1,7 +1,7 @@
 ---
-title: "Arguments for External Tools"
+title: "Arguments for External Tools | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "arguments, for external tools"
 ms.assetid: 578e7f8d-7296-45b5-a120-02630d4ec051
 caps.latest.revision: 18
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 

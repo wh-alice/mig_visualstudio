@@ -1,7 +1,7 @@
 ---
-title: "AtlTraceSaveSettings"
+title: "AtlTraceSaveSettings | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "AtlTraceSaveSettings function"
 ms.assetid: b9faca8f-94ec-4af3-9007-2955b1453a2a
 caps.latest.revision: 9
+author: "ghogen"
 ms.author: "ghogen"
 manager: "douge"
 translation.priority.mt: 

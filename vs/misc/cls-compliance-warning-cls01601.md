@@ -1,7 +1,7 @@
 ---
-title: "CLS Compliance Warning CLS01601"
+title: "CLS Compliance Warning CLS01601 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CLS01601"
 ms.assetid: fa162fc6-a0fd-4a0f-a201-4f166304d057
 caps.latest.revision: 9
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

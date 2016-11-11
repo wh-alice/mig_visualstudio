@@ -1,7 +1,7 @@
 ---
-title: "IDebugExtendedField"
+title: "IDebugExtendedField | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -44,8 +44,8 @@ IDebugExtendedField : IDebugField
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetExtendedKind](../../../extensibility/debugger/reference/idebugextendedfield--getextendedkind.md)|Retrieves the specified extended field kind.|  
-|[IsClosedType](../../../extensibility/debugger/reference/idebugextendedfield--isclosedtype.md)|Determines if the field represents a closed type.|  
+|[GetExtendedKind](../../../extensibility/debugger/reference/idebugextendedfield-getextendedkind.md)|Retrieves the specified extended field kind.|  
+|[IsClosedType](../../../extensibility/debugger/reference/idebugextendedfield-isclosedtype.md)|Determines if the field represents a closed type.|  
   
 ## Requirements  
  Header: Sh.h  

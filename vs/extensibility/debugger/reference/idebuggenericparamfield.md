@@ -1,7 +1,7 @@
 ---
-title: "IDebugGenericParamField"
+title: "IDebugGenericParamField | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -47,12 +47,12 @@ IDebugGenericParamField : IDebugField
   
 |Method|Description|  
 |------------|-----------------|  
-|[ConstraintCount](../../../extensibility/debugger/reference/idebuggenericparamfield--constraintcount.md)|Returns the number of constraints that are associated with this generic parameter.|  
-|[GetConstraints](../../../extensibility/debugger/reference/idebuggenericparamfield--getconstraints.md)|Retrieves the constraints that are associated with this generic parameter.|  
-|[GetFlags](../../../extensibility/debugger/reference/idebuggenericparamfield--getflags.md)|Retrieves the flags for this generic parameter.|  
-|[GetIndex](../../../extensibility/debugger/reference/idebuggenericparamfield--getindex.md)|Retrieves the index of this generic parameter.|  
-|[GetNameOfFormalParam](../../../extensibility/debugger/reference/idebuggenericparamfield--getnameofformalparam.md)|Retrieves the name of this generic parameter.|  
-|[GetOwner](../../../extensibility/debugger/reference/idebuggenericparamfield--getowner.md)|Retrieves the type or method owner of this generic parameter.|  
+|[ConstraintCount](../../../extensibility/debugger/reference/idebuggenericparamfield-constraintcount.md)|Returns the number of constraints that are associated with this generic parameter.|  
+|[GetConstraints](../../../extensibility/debugger/reference/idebuggenericparamfield-getconstraints.md)|Retrieves the constraints that are associated with this generic parameter.|  
+|[GetFlags](../../../extensibility/debugger/reference/idebuggenericparamfield-getflags.md)|Retrieves the flags for this generic parameter.|  
+|[GetIndex](../../../extensibility/debugger/reference/idebuggenericparamfield-getindex.md)|Retrieves the index of this generic parameter.|  
+|[GetNameOfFormalParam](../../../extensibility/debugger/reference/idebuggenericparamfield-getnameofformalparam.md)|Retrieves the name of this generic parameter.|  
+|[GetOwner](../../../extensibility/debugger/reference/idebuggenericparamfield-getowner.md)|Retrieves the type or method owner of this generic parameter.|  
   
 ## Requirements  
  Header: Sh.h  

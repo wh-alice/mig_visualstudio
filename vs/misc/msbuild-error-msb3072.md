@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB3072"
+title: "MSBuild Error MSB3072 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB3072"
 ms.assetid: c8468e1c-d8c7-441c-b274-123ac856f147
 caps.latest.revision: 6
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

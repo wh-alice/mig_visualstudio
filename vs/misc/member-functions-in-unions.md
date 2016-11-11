@@ -1,7 +1,7 @@
 ---
-title: "Member Functions in Unions"
+title: "Member Functions in Unions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "inheritance, keywords"
 ms.assetid: 05fa6e1e-9a45-4280-ac4a-a88a4fba733c
 caps.latest.revision: 9
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -36,4 +37,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Member Functions in Unions
-This content has moved to [Unions](../Topic/Unions.md)
+This content has moved to [Unions](/visual-cpp/cpp/unions)

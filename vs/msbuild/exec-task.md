@@ -1,7 +1,7 @@
 ---
-title: "Exec Task"
+title: "Exec Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "MSBuild, Exec task"
 ms.assetid: c9b7525a-b1c9-40fc-8bce-77a5b8f960d8
 caps.latest.revision: 20
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

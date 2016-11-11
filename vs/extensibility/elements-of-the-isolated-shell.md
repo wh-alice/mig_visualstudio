@@ -1,7 +1,7 @@
 ---
-title: "Elements of the Isolated Shell"
+title: "Elements of the Isolated Shell | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -60,23 +60,23 @@ You can modify the registry settings, run-time settings, and application entry p
 ## The Start Entry Point  
  The Appenvstub.dll file contains entry points for accessing the isolated shell. When the application starts, it calls the Start entry point of Appenvstub.dll.  
   
- You can change the behavior of the application by changing the value of the last parameter that is passed to the Start entry point. For more information, see [Isolated Shell Entry Point Parameters (C++)](../extensibility/isolated-shell-entry-point-parameters--c---.md).  
+ You can change the behavior of the application by changing the value of the last parameter that is passed to the Start entry point. For more information, see [Isolated Shell Entry Point Parameters (C++)](../extensibility/isolated-shell-entry-point-parameters-cpp.md).  
   
 ## The .Vsct File  
- The .vsct file lets you specify which standard Visual Studio UI elements are available in the application. For more information, see [.Vsct Files](../extensibility/modifying-the-isolated-shell-by-using-the-.vsct-file.md).  
+ The .vsct file lets you specify which standard Visual Studio UI elements are available in the application. For more information, see [.Vsct Files](../extensibility/modifying-the-isolated-shell-by-using-the-dot-vsct-file.md).  
   
 ## The .Pkgundef File  
- When the application is installed on a computer on which Visual Studio is already installed, a copy of the Visual Studio registry entries is made for the application. By default, the application uses VSPackages that are already installed on the computer. The .pkgundef file lets you exclude registry entries in order to remove specific elements of the Visual Studio shell or extensions from the application. For more information, see [.Pkgundef Files](../extensibility/modifying-the-isolated-shell-by-using-the-.pkgundef-file.md).  
+ When the application is installed on a computer on which Visual Studio is already installed, a copy of the Visual Studio registry entries is made for the application. By default, the application uses VSPackages that are already installed on the computer. The .pkgundef file lets you exclude registry entries in order to remove specific elements of the Visual Studio shell or extensions from the application. For more information, see [.Pkgundef Files](../extensibility/modifying-the-isolated-shell-by-using-the-dot-pkgundef-file.md).  
   
- The .pkgundef file lets you exclude registry entries in order to remove specific elements of the Visual Studio shell or extensions from the application. For more information, see [.Pkgundef Files](../extensibility/modifying-the-isolated-shell-by-using-the-.pkgundef-file.md).  
+ The .pkgundef file lets you exclude registry entries in order to remove specific elements of the Visual Studio shell or extensions from the application. For more information, see [.Pkgundef Files](../extensibility/modifying-the-isolated-shell-by-using-the-dot-pkgundef-file.md).  
   
  The set of package GUIDs that you can exclude are listed in [Package GUIDs of Visual Studio Features](../extensibility/package-guids-of-visual-studio-features.md).  
   
 ## The .Pkgdef File  
- The .pkgdef file lets you define registry entries for the application that are set when the application is installed. For a description of the .pkgdef file and a list of registry entries that the Visual Studio shell uses, see [.Pkgdef Files](../extensibility/modifying-the-isolated-shell-by-using-the-.pkgdef-file.md).  
+ The .pkgdef file lets you define registry entries for the application that are set when the application is installed. For a description of the .pkgdef file and a list of registry entries that the Visual Studio shell uses, see [.Pkgdef Files](../extensibility/modifying-the-isolated-shell-by-using-the-dot-pkgdef-file.md).  
   
 ## Substitution Strings  
- The substitution strings used in the .pkgdef and .pkgundef files are listed in [Substitution Strings Used in .Pkgdef and .Pkgundef Files](../extensibility/substitution-strings-used-in-.pkgdef-and-.pkgundef-files.md).  
+ The substitution strings used in the .pkgdef and .pkgundef files are listed in [Substitution Strings Used in .Pkgdef and .Pkgundef Files](../extensibility/substitution-strings-used-in-dot-pkgdef-and-dot-pkgundef-files.md).  
   
 ## Other Settings  
  If your isolated shell application depends on Microsoft.VisualStudio.GraphModel.dll, you need to add the following binding redirect to your Isolated Shell application’s .config file:  

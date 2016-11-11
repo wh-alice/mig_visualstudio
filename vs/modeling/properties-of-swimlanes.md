@@ -1,7 +1,7 @@
 ---
-title: "Properties of Swimlanes"
+title: "Properties of Swimlanes | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, swimlane"
 ms.assetid: 47edbc2d-09e4-48ac-b4d1-5268a06a27e6
 caps.latest.revision: 24
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 ---

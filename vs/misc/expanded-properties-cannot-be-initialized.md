@@ -1,5 +1,5 @@
 ---
-title: "Expanded properties cannot be initialized"
+title: "Expanded properties cannot be initialized | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "BC36714"
 ms.assetid: ba9408f3-e606-4749-8372-987999f405f5
 caps.latest.revision: 4
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -76,6 +77,6 @@ End Class
 ```  
   
 ## See Also  
- [Auto-Implemented Properties](../Topic/Auto-Implemented%20Properties%20\(Visual%20Basic\).md)   
+ [Auto-Implemented Properties](/dotnet/visual-basic/language-reference/procedures/auto-implemented-properties)   
  [How to: Create a Property](../Topic/How%20to:%20Create%20a%20Property%20\(Visual%20Basic\).md)   
- [Property Procedures](../Topic/Property%20Procedures%20\(Visual%20Basic\).md)
+ [Property Procedures](/dotnet/visual-basic/language-reference/procedures/property-procedures)

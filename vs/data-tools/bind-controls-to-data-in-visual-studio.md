@@ -1,7 +1,7 @@
 ---
-title: "Bind controls to data in Visual Studio"
+title: "Bind controls to data in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "dislaying data"
 ms.assetid: be8b6623-86a6-493e-ab7a-050de4661fd6
 caps.latest.revision: 40
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 translation.priority.ht: 
@@ -80,5 +81,5 @@ You can display data to users of your application by binding data to controls. Y
 |Customize captions for controls.|[Customize how Visual Studio creates captions for data-bound controls](../data-tools/customize-how-visual-studio-creates-captions-for-data-bound-controls.md)|  
   
 ## See Also  
- [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-.net.md)   
+ [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md)   
  [Windows Forms Data Binding](../Topic/Windows%20Forms%20Data%20Binding.md)

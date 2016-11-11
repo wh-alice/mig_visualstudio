@@ -1,7 +1,7 @@
 ---
-title: "Add commands and gestures to layer diagrams"
+title: "Add commands and gestures to layer diagrams | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "layer diagrams, adding custom gestures"
 ms.assetid: ac9c417b-0b40-4a90-86f5-ee3cbdce030b
 caps.latest.revision: 38
+author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
 translation.priority.ht: 

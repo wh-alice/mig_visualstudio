@@ -1,7 +1,7 @@
 ---
-title: "This task requires additional rights"
+title: "This task requires additional rights | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ f1_keywords:
   - "vs.UACDialog"
 ms.assetid: a03d3509-5e6e-411a-9aec-0766d7ee3a0e
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

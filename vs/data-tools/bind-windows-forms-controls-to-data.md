@@ -1,7 +1,7 @@
 ---
-title: "Bind Windows Forms controls to data"
+title: "Bind Windows Forms controls to data | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "data [Windows Forms], displaying"
 ms.assetid: 0163a34a-38cb-40b9-8f38-3058a90caf21
 caps.latest.revision: 28
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 translation.priority.ht: 

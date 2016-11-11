@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Warning RC4000"
+title: "Resource Compiler Warning RC4000 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC4000"
 ms.assetid: 1b87ddb4-2760-409c-b680-8a11bc52a42d
 caps.latest.revision: 8
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

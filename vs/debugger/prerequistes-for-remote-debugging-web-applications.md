@@ -1,7 +1,7 @@
 ---
-title: "Prerequistes for Remote Debugging Web Applications"
+title: "Prerequistes for Remote Debugging Web Applications | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "remote servers, debugging Web applications"
 ms.assetid: 1cd777b5-6d20-4ca6-a0df-51653b118469
 caps.latest.revision: 27
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -42,8 +43,8 @@ With the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger, you
   
 -   [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] remote debugging components must be installed on the server you want to debug. For more information, see [Setting Up Remote Debugging](../Topic/Set%20Up%20the%20Remote%20Tools%20on%20the%20Device.md).  
   
--   By default, the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] worker process runs as an ASPNET user process. As a result, you must have Administrator privileges on the computer where [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] runs to debug it. The name of the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] worker process varies by debug scenario and version of IIS. For more information, see [How to: Find the Name of the ASP.NET Process](../debugger/how-to--find-the-name-of-the-asp.net-process.md).  
+-   By default, the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] worker process runs as an ASPNET user process. As a result, you must have Administrator privileges on the computer where [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] runs to debug it. The name of the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] worker process varies by debug scenario and version of IIS. For more information, see [How to: Find the Name of the ASP.NET Process](../debugger/how-to-find-the-name-of-the-aspnet-process.md).  
   
 ## See Also  
- [Debugging ASP.NET and AJAX Applications](../debugger/debugging-asp.net-and-ajax-applications.md)   
- [System Requirements](../debugger/asp.net-debugging--system-requirements.md)
+ [Debugging ASP.NET and AJAX Applications](../debugger/debugging-aspnet-and-ajax-applications.md)   
+ [System Requirements](../debugger/aspnet-debugging-system-requirements.md)

@@ -1,7 +1,7 @@
 ---
-title: "CvReleaseMarkerSeries Function"
+title: "CvReleaseMarkerSeries Function | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "CvReleaseMarkerSeries method"
 ms.assetid: 3b4711ee-e534-411d-9128-f69cd7932a48
 caps.latest.revision: 3
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -55,4 +56,4 @@ HRESULT CvReleaseMarkerSeries(
  **Header:** cvmarkers.h  
   
 ## See Also  
- [C++ Library Reference](../profiling/c---library-reference.md)
+ [C++ Library Reference](../profiling/cpp-library-reference.md)

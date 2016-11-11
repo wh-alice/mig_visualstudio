@@ -1,7 +1,7 @@
 ---
-title: "Resources for Designing Accessible Applications"
+title: "Resources for Designing Accessible Applications | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "accessibility, Web applications"
 ms.assetid: 426bf023-bb34-43c4-9edb-c307191c8170
 caps.latest.revision: 15
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
-title: "List Threads Command"
+title: "List Threads Command | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "Debug.ListThreads command"
 ms.assetid: 34b665c0-d46f-4c1a-a066-b678eba5ac54
 caps.latest.revision: 11
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

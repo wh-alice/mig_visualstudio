@@ -1,7 +1,7 @@
 ---
-title: "Create a simple data application with WPF and Entity Framework 6"
+title: "Create a simple data application with WPF and Entity Framework 6 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 65929fab-5d78-4e04-af1e-cf4957f230f6
 caps.latest.revision: 22
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 translation.priority.mt: 
@@ -69,9 +70,9 @@ This walkthough shows how to create a basic "forms over data" application in Vis
   
 6.  The .tt files are general-purpose and we need to tweak one of them to work with WPF databinding, which requires ObservableCollections.  In Solution Explorer, expand the Northwind_model node until you find Northwind_model.tt. (Make sure you are **not** in the *.Context .tt file which is directly below the .edmx file).  
   
-    -   Replace the two occurrences of <xref:System.Collections.ICollection> with <xref:System.Collections.ObjectModel.ObservableCollection`1>.  
+    -   Replace the two occurrences of <xref:System.Collections.ICollection> with <xref:System.Collections.ObjectModel.ObservableCollection%601>.  
   
-    -   Replace the first occurrence of <xref:System.Collections.Generic.HashSet`1> with <xref:System.Collections.ObjectModel.ObservableCollection`1> around line 51. Do not replace the second occurrence of HashSet  
+    -   Replace the first occurrence of <xref:System.Collections.Generic.HashSet%601> with <xref:System.Collections.ObjectModel.ObservableCollection%601> around line 51. Do not replace the second occurrence of HashSet  
   
     -   Replace the only occurrence of <xref:System.Collections.Generic> (around line 334) with <xref:System.Collections.ObjectModel>.  
   
@@ -652,4 +653,4 @@ This walkthough shows how to create a basic "forms over data" application in Vis
 3.  Press **F5**. You should see your data, and the navigation buttons should work as expected. Click on "Commit" to add a new customer or order to the model after you have entered the data.  Click on "Cancel" to back out of a new Customer or New Order form without saving. You can make edits to existing Customers and Orders directly in the text boxes, and those changes will be written to the model automatically.  
   
 ## See Also  
- [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-.net.md) [Entity Framework Documentation](https://msdn.microsoft.com/en-us/data/ee712907.aspx)
+ [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md) [Entity Framework Documentation](https://msdn.microsoft.com/en-us/data/ee712907.aspx)

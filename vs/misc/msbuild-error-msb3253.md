@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB3253"
+title: "MSBuild Error MSB3253 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/24/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "MSB3253"
 ms.assetid: d4b5eb5b-703b-4b80-aa5d-6c70ff9fe84d
 caps.latest.revision: 11
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -44,9 +45,9 @@ translation.priority.mt:
   
 ### To correct this error  
   
--   Either remove the specified assembly reference from the project, or target the full [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] instead of the [!INCLUDE[net_client_v35_long](../misc/includes/net_client_v35_long_md.md)] subset library. For information about how to target the full [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], see [How to: Target a Version of the .NET Framework](../ide/how-to--target-a-version-of-the-.net-framework.md).  
+-   Either remove the specified assembly reference from the project, or target the full [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] instead of the [!INCLUDE[net_client_v35_long](../misc/includes/net_client_v35_long_md.md)] subset library. For information about how to target the full [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], see [How to: Target a Version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md).  
   
 ## See Also  
  [Target Framework and Target Platform](../msbuild/msbuild-target-framework-and-target-platform.md)   
- [Project Element (MSBuild)](../msbuild/project-element--msbuild-.md)   
+ [Project Element (MSBuild)](../msbuild/project-element-msbuild.md)   
  [Additional Resources](../msbuild/additional-msbuild-resources.md)

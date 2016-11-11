@@ -1,7 +1,7 @@
 ---
-title: "Caller-Callee View"
+title: "Caller-Callee View | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "Caller/Callee view"
 ms.assetid: d3511bcf-cce0-4cbe-aecb-b94c7c80ad1b
 caps.latest.revision: 32
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -49,11 +50,11 @@ The Caller/Callee view displays profiling information for a selected function an
   
  You can select a different function to be the Current Function in the middle part of the Report view by double-clicking any one of the functions that are listed in the other two parts of the view. The Report view is updated automatically to reflect the changes.  
   
- You can sort the data by clicking column names. Additional columns can be added to the Caller/Callee view. For more information, see [How to: Customize Report View Columns](../profiling/how-to--customize-report-view-columns.md).  
+ You can sort the data by clicking column names. Additional columns can be added to the Caller/Callee view. For more information, see [How to: Customize Report View Columns](../profiling/how-to-customize-report-view-columns.md).  
   
 ## See Also  
- [Caller / Callee View - Sampling Data](../profiling/caller---callee-view---sampling-data.md)   
- [Caller/Callee View - Instrumentation Data](../profiling/caller-callee-view---instrumentation-data.md)   
- [Caller/Callee View - NET Memory Instrumentation Data](../profiling/caller-callee-view---net-memory-instrumentation-data.md)   
- [Caller/Callee View - .NET Memory Sampling Data](../profiling/caller-callee-view---.net-memory-sampling-data.md)   
- [Caller / Callee View -  Contention Data](../profiling/caller---callee-view----contention-data.md)
+ [Caller / Callee View - Sampling Data](../profiling/caller-callee-view-sampling-data.md)   
+ [Caller/Callee View - Instrumentation Data](../profiling/caller-callee-view-instrumentation-data.md)   
+ [Caller/Callee View - NET Memory Instrumentation Data](../profiling/caller-callee-view-net-memory-instrumentation-data.md)   
+ [Caller/Callee View - .NET Memory Sampling Data](../profiling/caller-callee-view-dotnet-memory-sampling-data.md)   
+ [Caller / Callee View -  Contention Data](../profiling/caller-callee-view-contention-data.md)

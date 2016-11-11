@@ -1,5 +1,5 @@
 ---
-title: "Expression is not a method"
+title: "Expression is not a method | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "BC30454"
 ms.assetid: 4480968a-1364-480a-b33c-c65458acbc07
 caps.latest.revision: 8
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 

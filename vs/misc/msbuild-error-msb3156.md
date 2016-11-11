@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB3156"
+title: "MSBuild Error MSB3156 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB3156"
 ms.assetid: 98b1bd42-9efe-44a2-8a43-476edc03590d
 caps.latest.revision: 6
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -44,4 +45,4 @@ translation.priority.mt:
   
 ## See Also  
  [Product and Package Schema Reference](../deployment/product-and-package-schema-reference.md)   
- [\<PackageFiles> Element](../deployment/-packagefiles--element--bootstrapper-.md)
+ [\<PackageFiles> Element](../deployment/packagefiles-element-bootstrapper.md)

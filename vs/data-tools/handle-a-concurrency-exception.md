@@ -1,7 +1,7 @@
 ---
-title: "Handle a concurrency exception"
+title: "Handle a concurrency exception | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "concurrency control, walkthroughs"
 ms.assetid: 73ee9759-0a90-48a9-bf7b-9d6fc17bff93
 caps.latest.revision: 23
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 translation.priority.ht: 
@@ -61,7 +62,7 @@ Concurrency exceptions (<xref:System.Data.DBConcurrencyException>) are raised wh
 ## Prerequisites  
  In order to complete this walkthrough, you need:  
   
--   Access to the Northwind sample database with permission to perform updates. For more information, see [How to: Install Sample Databases](../data-tools/how-to--install-sample-databases.md).  
+-   Access to the Northwind sample database with permission to perform updates. For more information, see [How to: Install Sample Databases](../data-tools/how-to-install-sample-databases.md).  
   
 > [!NOTE]
 >  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or the edition that you're using. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
@@ -183,7 +184,7 @@ Concurrency exceptions (<xref:System.Data.DBConcurrencyException>) are raised wh
      [!code-vb[VbRaddataConcurrency#4](../data-tools/codesnippet/VisualBasic/handle-a-concurrency-exception_3.vb)]  
   
 ### Process the user's response  
- You  also need code to process the user's response to the message box. The options are either to overwrite the current record in the database with the proposed change, or abandon the local changes and refresh the data table with the record that's currently in the database. If the user chooses yes, the <xref:System.Data.DataTable.Merge*> method is called with the *preserveChanges* argument set to `true`. This causes the update attempt to be successful, because the original version of the record now matches the record in the database.  
+ You  also need code to process the user's response to the message box. The options are either to overwrite the current record in the database with the proposed change, or abandon the local changes and refresh the data table with the record that's currently in the database. If the user chooses yes, the <xref:System.Data.DataTable.Merge%2A> method is called with the *preserveChanges* argument set to `true`. This causes the update attempt to be successful, because the original version of the record now matches the record in the database.  
   
 ##### To process the user input from the message box  
   

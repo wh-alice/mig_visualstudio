@@ -1,7 +1,7 @@
 ---
-title: "Edit UML sequence diagrams by using the UML API"
+title: "Edit UML sequence diagrams by using the UML API | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ helpviewer_keywords:
   - "UML activity diagrams, programming"
 ms.assetid: 8cdd0203-85ef-4c62-9abc-da4cb26fa504
 caps.latest.revision: 25
+author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
 translation.priority.ht: 

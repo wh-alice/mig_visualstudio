@@ -1,7 +1,7 @@
 ---
-title: "Kinds of Windows"
+title: "Kinds of Windows | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,6 +24,7 @@ helpviewer_keywords:
   - "tool windows"
 ms.assetid: 31b6ff46-8820-40ff-92ab-561d90e89ec6
 caps.latest.revision: 20
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 

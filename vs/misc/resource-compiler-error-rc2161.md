@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Error RC2161"
+title: "Resource Compiler Error RC2161 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC2161"
 ms.assetid: 5f39ca57-937e-492e-9701-1e3cee7af0f2
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

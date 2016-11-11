@@ -1,7 +1,7 @@
 ---
-title: "Server and Client Configuration Issues in ClickOnce Deployments"
+title: "Server and Client Configuration Issues in ClickOnce Deployments | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "Windows applications, ClickOnce deployments"
 ms.assetid: 929e5fcc-dd56-409c-bb57-00bd9549b20b
 caps.latest.revision: 33
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 

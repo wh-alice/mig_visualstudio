@@ -1,5 +1,5 @@
 ---
-title: "Loop statements are not valid in the Immediate window"
+title: "Loop statements are not valid in the Immediate window | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "BC30708"
 ms.assetid: d4342b05-aef8-4163-8009-d77047d942ec
 caps.latest.revision: 11
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 

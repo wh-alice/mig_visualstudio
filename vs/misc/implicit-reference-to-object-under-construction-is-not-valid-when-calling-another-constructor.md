@@ -1,12 +1,12 @@
 ---
 title: "Implicit reference to object under construction is not valid when calling another constructor | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC31096"
 ms.assetid: 558a2beb-aa5d-41a8-8655-ad3d16ac8acd
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

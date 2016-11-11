@@ -1,7 +1,7 @@
 ---
-title: "How new Works"
+title: "How new Works | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "new keyword [C++], allocating storage"
 ms.assetid: c9e95f98-bd01-4769-8c0a-6ec06e55d28f
 caps.latest.revision: 9
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -33,4 +34,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # How new Works
-This content has moved [new Operator](../Topic/new%20Operator%20\(C++\).md).
+This content has moved [new Operator](/visual-cpp/cpp/new-operator-cpp).

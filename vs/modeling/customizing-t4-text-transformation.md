@@ -1,7 +1,7 @@
 ---
-title: "Customizing T4 Text Transformation"
+title: "Customizing T4 Text Transformation | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "text templates, custom hosts"
 ms.assetid: 62cd9a3c-a6e1-4b29-93f5-f2a0cf47dc92
 caps.latest.revision: 28
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 translation.priority.ht: 

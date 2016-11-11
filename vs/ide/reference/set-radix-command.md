@@ -1,7 +1,7 @@
 ---
-title: "Set Radix Command"
+title: "Set Radix Command | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "Debug.SetRadix command"
 ms.assetid: 6ffd1554-7530-4da4-b5f5-e276a5034f3b
 caps.latest.revision: 11
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

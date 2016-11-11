@@ -1,7 +1,7 @@
 ---
-title: "IDebugPortPicker"
+title: "IDebugPortPicker | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -47,8 +47,8 @@ IDebugPortPicker : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[DisplayPortPicker](../../../extensibility/debugger/reference/idebugportpicker--displayportpicker.md)|Displays the specified dialog box that allows the user to select a port.|  
-|[SetSite](../../../extensibility/debugger/reference/idebugportpicker--setsite.md)|Sets the service provider.|  
+|[DisplayPortPicker](../../../extensibility/debugger/reference/idebugportpicker-displayportpicker.md)|Displays the specified dialog box that allows the user to select a port.|  
+|[SetSite](../../../extensibility/debugger/reference/idebugportpicker-setsite.md)|Sets the service provider.|  
   
 ## Requirements  
  Header: Msdbg.h  

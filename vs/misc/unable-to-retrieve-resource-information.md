@@ -1,7 +1,7 @@
 ---
-title: "Unable to retrieve resource information"
+title: "Unable to retrieve resource information | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ f1_keywords:
   - "vs.tasklisterror.resx_scan_failed"
 ms.assetid: e4389ff0-eb64-4c31-b32f-5216c73fadfb
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

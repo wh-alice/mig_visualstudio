@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB3783"
+title: "MSBuild Error MSB3783 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ f1_keywords:
   - "MSBuild.ResolveSDKReference.MaxPlatformVersionLessThanTargetPlatformVersion"
 ms.assetid: 847fc96e-73d3-4aa5-927a-ef8cebc8d3f6
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

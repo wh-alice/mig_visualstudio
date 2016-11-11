@@ -1,5 +1,5 @@
 ---
-title: "Specifiers and attributes are not valid on this statement"
+title: "Specifiers and attributes are not valid on this statement | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "BC30193"
 ms.assetid: 1d2bbe33-7920-438a-90b1-c01363772877
 caps.latest.revision: 8
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 

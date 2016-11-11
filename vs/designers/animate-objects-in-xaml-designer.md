@@ -1,7 +1,7 @@
 ---
-title: "Animate objects in XAML Designer"
+title: "Animate objects in XAML Designer | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: fb88fa26-e835-47f5-9771-2f279441c83c
 caps.latest.revision: 9
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

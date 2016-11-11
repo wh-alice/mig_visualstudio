@@ -1,7 +1,7 @@
 ---
-title: "Access Specifiers for Base Classes"
+title: "Access Specifiers for Base Classes | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "public keyword [C++], member access"
 ms.assetid: 50b61ce4-68bb-4648-9133-5a288bee6737
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -38,4 +39,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Access Specifiers for Base Classes
-This content has moved to [Member Access Control (C++)](../Topic/Member%20Access%20Control%20\(C++\).md)
+This content has moved to [Member Access Control (C++)](/visual-cpp/cpp/member-access-control-cpp)

@@ -1,7 +1,7 @@
 ---
-title: "Message Markers"
+title: "Message Markers | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ f1_keywords:
   - "vs.cv.markers.message"
 ms.assetid: 721f40ca-5af2-4a01-b8b6-2b90f6cb7f89
 caps.latest.revision: 13
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

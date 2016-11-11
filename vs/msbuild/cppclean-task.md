@@ -1,7 +1,7 @@
 ---
-title: "CPPClean Task"
+title: "CPPClean Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,6 +22,7 @@ helpviewer_keywords:
   - "CPPClean task (MSBuild (Visual C++))"
 ms.assetid: b62a482e-8fb5-4999-b50b-6605a078e291
 caps.latest.revision: 5
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

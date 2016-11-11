@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Warning RC4204"
+title: "Resource Compiler Warning RC4204 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC4204"
 ms.assetid: f9a83b3c-d696-4b38-9576-945d1f6d0063
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

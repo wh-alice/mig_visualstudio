@@ -1,7 +1,7 @@
 ---
-title: "Overriding and Extending the Generated Classes"
+title: "Overriding and Extending the Generated Classes | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, providing overridable classes"
 ms.assetid: 30baa60d-a8ea-4611-96c1-8fcc3317cf21
 caps.latest.revision: 15
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 ---
@@ -82,6 +83,6 @@ Your DSL Definition is a platform on which you can build a powerful set of tools
 ### .NET Events  
  You can subscribe to some events on shapes. For example, you can listen for mouse-clicks on a shape. You have to write code that subscribes to the event for each object. This code can be written in an override of InitializeInstanceResources().  
   
- Some events are generated on ShapeFields, which are used to draw decorators on a shape. For an example, see [How to: Intercept a Click on a Shape or Decorator](../modeling/how-to--intercept-a-click-on-a-shape-or-decorator.md).  
+ Some events are generated on ShapeFields, which are used to draw decorators on a shape. For an example, see [How to: Intercept a Click on a Shape or Decorator](../modeling/how-to-intercept-a-click-on-a-shape-or-decorator.md).  
   
  These events usually do not occur inside a transaction. You should create a transaction if you want to make changes in the store.

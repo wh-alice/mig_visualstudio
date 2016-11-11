@@ -1,7 +1,7 @@
 ---
-title: "Template Parameters"
+title: "Template Parameters | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "item templates, parameters"
 ms.assetid: 1b567143-08c6-4d7a-b484-49f0671754fe
 caps.latest.revision: 24
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -82,7 +83,7 @@ By using parameters in your templates, you can replace the values of key portion
 |`year`|The current year in the format YYYY.|  
   
 ## Custom Template Parameters  
- You can specify your own template parameters and values, in addition to the default reserved template parameters that are used during parameter replacement.For more information, see [CustomParameters Element (Visual Studio Templates)](../extensibility/customparameters-element--visual-studio-templates-.md)  
+ You can specify your own template parameters and values, in addition to the default reserved template parameters that are used during parameter replacement.For more information, see [CustomParameters Element (Visual Studio Templates)](../extensibility/customparameters-element-visual-studio-templates.md)  
   
 ## Example: Replacing Files Names  
  You can specify variable file names for project items by using a parameter with the `TargetFileName` attribute. For example, you could specify that the .exe file use the project name, specified by `$projectname$`, as the file name.  

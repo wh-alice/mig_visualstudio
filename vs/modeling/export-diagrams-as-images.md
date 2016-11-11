@@ -1,7 +1,7 @@
 ---
-title: "Export diagrams as images"
+title: "Export diagrams as images | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "UML diagrams, saving"
 ms.assetid: 0df68943-4c60-4f00-b1e8-b1cdee13762e
 caps.latest.revision: 15
+author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
 translation.priority.ht: 

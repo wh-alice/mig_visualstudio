@@ -1,7 +1,7 @@
 ---
-title: "Version Numbers for Main and Localized Satellite Assemblies"
+title: "Version Numbers for Main and Localized Satellite Assemblies | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "versioning, assemblies"
 ms.assetid: 5489aea1-57b4-4561-9bb4-24d490269602
 caps.latest.revision: 12
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

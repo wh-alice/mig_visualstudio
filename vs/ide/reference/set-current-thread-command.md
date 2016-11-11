@@ -1,7 +1,7 @@
 ---
-title: "Set Current Thread Command"
+title: "Set Current Thread Command | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "Debug.SetCurrentThread command"
 ms.assetid: 9917ed1d-6c30-4d94-b2f0-69acce74f1b2
 caps.latest.revision: 11
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

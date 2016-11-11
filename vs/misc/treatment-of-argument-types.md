@@ -1,7 +1,7 @@
 ---
-title: "Treatment of Argument Types"
+title: "Treatment of Argument Types | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "const types in arguments"
 ms.assetid: ba24c8cb-73bf-4617-b8e0-6902fc083b74
 caps.latest.revision: 8
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -36,4 +37,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Treatment of Argument Types
-This content has moved [Postfix Expressions](../Topic/Postfix%20Expressions.md).
+This content has moved [Postfix Expressions](/visual-cpp/cpp/postfix-expressions).

@@ -1,7 +1,7 @@
 ---
-title: "Troubleshooting the Help Viewer"
+title: "Troubleshooting the Help Viewer | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "Help Viewer 2.0, troubleshooting"
 ms.assetid: 461a4553-064a-4142-a2d2-058658b9ba12
 caps.latest.revision: 13
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

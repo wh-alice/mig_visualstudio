@@ -1,7 +1,7 @@
 ---
-title: "IDebugExpressionEvaluator"
+title: "IDebugExpressionEvaluator | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -55,16 +55,16 @@ IDebugExpressionEvaluator : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[Parse](../../../extensibility/debugger/reference/idebugexpressionevaluator--parse.md)|Converts an expression string to a parsed expression.|  
-|[GetMethodProperty](../../../extensibility/debugger/reference/idebugexpressionevaluator--getmethodproperty.md)|Gets the local variables, arguments, and other properties of a method.|  
-|[GetMethodLocationProperty](../../../extensibility/debugger/reference/idebugexpressionevaluator--getmethodlocationproperty.md)|Converts a method location and offset into a memory address.|  
-|[SetLocale](../../../extensibility/debugger/reference/idebugexpressionevaluator--setlocale.md)|Determines which language to use to create printable results.|  
-|[SetRegistryRoot](../../../extensibility/debugger/reference/idebugexpressionevaluator--setregistryroot.md)|Sets the registry root. Used for side-by-side debugging.|  
+|[Parse](../../../extensibility/debugger/reference/idebugexpressionevaluator-parse.md)|Converts an expression string to a parsed expression.|  
+|[GetMethodProperty](../../../extensibility/debugger/reference/idebugexpressionevaluator-getmethodproperty.md)|Gets the local variables, arguments, and other properties of a method.|  
+|[GetMethodLocationProperty](../../../extensibility/debugger/reference/idebugexpressionevaluator-getmethodlocationproperty.md)|Converts a method location and offset into a memory address.|  
+|[SetLocale](../../../extensibility/debugger/reference/idebugexpressionevaluator-setlocale.md)|Determines which language to use to create printable results.|  
+|[SetRegistryRoot](../../../extensibility/debugger/reference/idebugexpressionevaluator-setregistryroot.md)|Sets the registry root. Used for side-by-side debugging.|  
   
 ## Remarks  
- In a typical situation, the debug engine (DE) instantiates the expression evaluator (EE) as a result of a call to [ParseText](../../../extensibility/debugger/reference/idebugexpressioncontext2--parsetext.md). Because the DE knows the language and vendor of the EE it wants to use, the DE gets the EE's CLSID from the registry (the [SDK Helpers for Debugging](../../../extensibility/debugger/reference/sdk-helpers-for-debugging.md) function, `GetEEMetric`, helps with this retrieval).  
+ In a typical situation, the debug engine (DE) instantiates the expression evaluator (EE) as a result of a call to [ParseText](../../../extensibility/debugger/reference/idebugexpressioncontext2-parsetext.md). Because the DE knows the language and vendor of the EE it wants to use, the DE gets the EE's CLSID from the registry (the [SDK Helpers for Debugging](../../../extensibility/debugger/reference/sdk-helpers-for-debugging.md) function, `GetEEMetric`, helps with this retrieval).  
   
- After the EE is instantiated, the DE calls [Parse](../../../extensibility/debugger/reference/idebugexpressionevaluator--parse.md) to parse the expression and store it in an [IDebugParsedExpression](../../../extensibility/debugger/reference/idebugparsedexpression.md) object. Later, a call to [EvaluateSync](../../../extensibility/debugger/reference/idebugparsedexpression--evaluatesync.md) evaluates the expression.  
+ After the EE is instantiated, the DE calls [Parse](../../../extensibility/debugger/reference/idebugexpressionevaluator-parse.md) to parse the expression and store it in an [IDebugParsedExpression](../../../extensibility/debugger/reference/idebugparsedexpression.md) object. Later, a call to [EvaluateSync](../../../extensibility/debugger/reference/idebugparsedexpression-evaluatesync.md) evaluates the expression.  
   
 ## Requirements  
  Header: ee.h  
@@ -117,7 +117,7 @@ IDebugExpressionEvaluator GetExpressionEvaluator(IDebugSymbolProvider pSymbolPro
   
 ## See Also  
  [Expression Evaluation Interfaces](../../../extensibility/debugger/reference/expression-evaluation-interfaces.md)   
- [ParseText](../../../extensibility/debugger/reference/idebugexpressioncontext2--parsetext.md)   
+ [ParseText](../../../extensibility/debugger/reference/idebugexpressioncontext2-parsetext.md)   
  [IDebugParsedExpression](../../../extensibility/debugger/reference/idebugparsedexpression.md)   
- [EvaluateSync](../../../extensibility/debugger/reference/idebugparsedexpression--evaluatesync.md)   
+ [EvaluateSync](../../../extensibility/debugger/reference/idebugparsedexpression-evaluatesync.md)   
  [SDK Helpers for Debugging](../../../extensibility/debugger/reference/sdk-helpers-for-debugging.md)

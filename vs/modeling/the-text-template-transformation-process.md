@@ -1,7 +1,7 @@
 ---
-title: "The Text Template Transformation Process"
+title: "The Text Template Transformation Process | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ helpviewer_keywords:
   - "text templates, transformation process"
 ms.assetid: 80b3f0e0-49e7-4865-a1ac-dba068abe96b
 caps.latest.revision: 30
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 translation.priority.ht: 

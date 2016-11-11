@@ -1,7 +1,7 @@
 ---
-title: "Comparing Performance Data Files"
+title: "Comparing Performance Data Files | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "profiling tools reports, comparing"
 ms.assetid: e6fda144-f21d-4912-9d16-1b8d3555a210
 caps.latest.revision: 12
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -46,4 +47,4 @@ Profiling Tools data files comparison functionality allows you to select two rep
  A threshold can be set to reduce noise and filter out any data in the comparison table view of the rows that have not changed by a specified amount.  
   
 ## In This Section  
- [How to: Compare Performance Data Files](../profiling/how-to--compare-performance-data-files.md)
+ [How to: Compare Performance Data Files](../profiling/how-to-compare-performance-data-files.md)

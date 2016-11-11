@@ -1,7 +1,7 @@
 ---
-title: "Cores View Zoom Tool"
+title: "Cores View Zoom Tool | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Concurrency Visualizer, Cores View Zoom Tool"
 ms.assetid: f7d48602-ba32-4487-b51a-89e596124108
 caps.latest.revision: 5
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

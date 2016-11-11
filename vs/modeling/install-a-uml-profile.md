@@ -1,7 +1,7 @@
 ---
-title: "Install a UML profile"
+title: "Install a UML profile | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ helpviewer_keywords:
   - "UML - extending, profiles"
 ms.assetid: 586f9ba5-4d01-4a1d-b001-32e2efaa4f24
 caps.latest.revision: 11
+author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
 translation.priority.ht: 

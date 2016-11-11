@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB1002"
+title: "MSBuild Error MSB1002 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB1002"
 ms.assetid: 798c9690-6d99-4f21-a491-ab44d3f3c552
 caps.latest.revision: 10
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

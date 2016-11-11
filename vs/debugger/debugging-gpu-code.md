@@ -1,7 +1,7 @@
 ---
-title: "Debugging GPU Code"
+title: "Debugging GPU Code | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/26/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ dev_langs:
   - "C++"
 ms.assetid: c7e77a5a-cb57-4b11-9187-ecc89acc8775
 caps.latest.revision: 20
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -66,25 +67,25 @@ You can debug C++ code that is running on the graphics processing unit (GPU). GP
   
 -   [Using the Tasks Window](../debugger/using-the-tasks-window.md)  
   
--   [How to: Use the Parallel Watch Window](../debugger/how-to--use-the-parallel-watch-window.md)  
+-   [How to: Use the Parallel Watch Window](../debugger/how-to-use-the-parallel-watch-window.md)  
   
 -   [Debug Threads and Processes](../debugger/debug-threads-and-processes.md) (Debug Location toolbar)  
   
--   [How to: Use the GPU Threads Window](../debugger/how-to--use-the-gpu-threads-window.md)  
+-   [How to: Use the GPU Threads Window](../debugger/how-to-use-the-gpu-threads-window.md)  
   
 ## Data Synchronization Exceptions  
- The debugger can identify several data synchronization conditions during execution. When a condition is detected, the debugger enters the break state. You have two options—**Break** or **Continue**. By using the **Exceptions** dialog box, you can configure whether the debugger detects these conditions and also which conditions it will break for. For more information, see [Managing Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md). You can also use the **Options** dialog box to specify that the debugger should ignore exceptions if the data that's written doesn’t change the value of the data. For more information, see [General, Debugging, Options Dialog Box](../debugger/general--debugging--options-dialog-box.md).  
+ The debugger can identify several data synchronization conditions during execution. When a condition is detected, the debugger enters the break state. You have two options—**Break** or **Continue**. By using the **Exceptions** dialog box, you can configure whether the debugger detects these conditions and also which conditions it will break for. For more information, see [Managing Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md). You can also use the **Options** dialog box to specify that the debugger should ignore exceptions if the data that's written doesn’t change the value of the data. For more information, see [General, Debugging, Options Dialog Box](../debugger/general-debugging-options-dialog-box.md).  
   
 ## Troubleshooting  
   
 ### Specifying an accelerator  
- Breakpoints in GPU code are only hit if the code is running on the [accelerator::direct3d_ref](../Topic/accelerator::direct3d_ref%20Data%20Member.md) (REF) accelerator. If you do not specify an accelerator in your code, the REF accelerator is automatically selected as the **Debugging Accelerator Type** in the project properties. If your code explicitly selects an accelerator, then the REF accelerator will not be used during debugging and the breakpoints will not be hit unless your GPU hardware has debugging support. You can remedy this by writing your code so that it uses the REF accelerator during debugging. For more information, see project properties and [Using accelerator and accelerator_view Objects](../Topic/Using%20accelerator%20and%20accelerator_view%20Objects.md) and [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-c---debug-configuration.md).  
+ Breakpoints in GPU code are only hit if the code is running on the [accelerator::direct3d_ref](../Topic/accelerator::direct3d_ref%20Data%20Member.md) (REF) accelerator. If you do not specify an accelerator in your code, the REF accelerator is automatically selected as the **Debugging Accelerator Type** in the project properties. If your code explicitly selects an accelerator, then the REF accelerator will not be used during debugging and the breakpoints will not be hit unless your GPU hardware has debugging support. You can remedy this by writing your code so that it uses the REF accelerator during debugging. For more information, see project properties and [Using accelerator and accelerator_view Objects](/visual-cpp/parallel/amp/using-accelerator-and-accelerator-view-objects) and [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md).  
   
 ### Conditional Breakpoints  
  Conditional breakpoints in GPU code are supported, but not every expression can be evaluated on the device. When an expression can't be evaluated on the device, it is evaluated on the debugger. The debugger is likely to run more slowly than the device.  
   
 ### Error: There is a configuration issue with the selected Debugging Accelerator Type.  
- This error happens when there is an inconsistency between the project settings and the configuration of the PC that you are debugging on. For more information, see [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-c---debug-configuration.md).  
+ This error happens when there is an inconsistency between the project settings and the configuration of the PC that you are debugging on. For more information, see [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md).  
   
 ### Error: The debug driver for the selected Debugging Accelerator Type is not installed on the target machine.  
  This error happens if you are debugging on a remote PC. The debugger cannot determine until run time whether the drivers are installed on the remote PC. The drivers are available from the manufacturer of the graphics card.  
@@ -94,5 +95,5 @@ You can debug C++ code that is running on the graphics processing unit (GPU). GP
   
 ## See Also  
  [Walkthrough: Debugging a C++ AMP Application](../Topic/Walkthrough:%20Debugging%20a%20C++%20AMP%20Application.md)   
- [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-c---debug-configuration.md)   
+ [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)   
  [Start GPU Debugging in Visual Studio](http://go.microsoft.com/fwlink/p/?LinkId=255381)

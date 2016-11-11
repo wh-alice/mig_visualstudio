@@ -1,7 +1,7 @@
 ---
-title: "Project Type Essentials"
+title: "Project Type Essentials | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ translation.priority.mt:
   
  If you just want to add custom commands, editors, or tool windows to [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], you can do so without creating a new project type. For more information, see the following topics:  
   
--   [Commands, Menus, and Toolbars](../Topic/Commands,%20Menus,%20and%20Toolbars.md)  
+-   [Commands, Menus, and Toolbars](../../extensibility/internals/commands-menus-and-toolbars.md)  
   
 -   [Editor and Language Service Extensions](../../extensibility/editor-and-language-service-extensions.md)  
   
@@ -63,7 +63,7 @@ translation.priority.mt:
   
 -   For more information about the capabilities of project types, see the following:  
   
--   Project types are objects in a VSPackage that implement the set of interfaces [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] expects. If you are using C# to develop a project type, the Managed Package Framework project classes implement the necessary interfaces for you and let you inherit that implementation. For more information, see [Using the Managed Package Framework to Implement a Project Type (C#)](../../extensibility/internals/using-the-managed-package-framework-to-implement-a-project-type--csharp-.md).  
+-   Project types are objects in a VSPackage that implement the set of interfaces [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] expects. If you are using C# to develop a project type, the Managed Package Framework project classes implement the necessary interfaces for you and let you inherit that implementation. For more information, see [Using the Managed Package Framework to Implement a Project Type (C#)](../../extensibility/internals/using-the-managed-package-framework-to-implement-a-project-type-csharp.md).  
   
 -   For C++ developers, the classes in the HierUtil library work in a similar manner. For more information, see [Not in Build: Using HierUtil7 Project Classes to Implement a Project Type (C++)](http://msdn.microsoft.com/en-us/a5c16a09-94a2-46ef-87b5-35b815e2f346).  
   

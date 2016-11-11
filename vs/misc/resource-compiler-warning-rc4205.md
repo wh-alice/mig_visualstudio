@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Warning RC4205"
+title: "Resource Compiler Warning RC4205 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC4205"
 ms.assetid: c75ff78a-ca8f-4ce7-b567-d2b42bf8dcb1
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

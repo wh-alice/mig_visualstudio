@@ -1,7 +1,7 @@
 ---
-title: "Workflow Designer UI Help"
+title: "Workflow Designer UI Help | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""
@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "Workflow Designer [WFD], user interface help"
 ms.assetid: f7afc443-7c7f-4b0f-9517-c58070a640de
 caps.latest.revision: 5
+author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
 translation.priority.ht: 
@@ -30,12 +31,12 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Workflow Designer UI Help
-This section contains the context-sensitive Help topics for [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)]. When working in [!INCLUDE[vs2010](../modeling/includes/vs2010_md.md)], you can access these topics from the user interface by pressing **F1** when a [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] dialog box is open.  
+This section contains the context-sensitive Help topics for [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_md.md)]. When working in [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)], you can access these topics from the user interface by pressing **F1** when a [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] dialog box is open.  
   
  This section also contains several topics concerned with navigation and error messages.  
   
 ## In This Section  
- [Browse and Select a .NET Type Dialog Box](../workflow-designer/browse-and-select-a-.net-type-dialog-box.md)  
+ [Browse and Select a .NET Type Dialog Box](../workflow-designer/browse-and-select-a-dotnet-type-dialog-box.md)  
   
  [CorrelatesOn Definition Dialog Box](../workflow-designer/correlateson-definition-dialog-box.md)  
   
@@ -49,7 +50,7 @@ This section contains the context-sensitive Help topics for [!INCLUDE[wfd1](../w
   
  [Initialize Correlation Dialog Box](../workflow-designer/initialize-correlation-dialog-box.md)  
   
- [System.Activities Tab, Choose Toolbox Items Dialog Box](../workflow-designer/system.activities-tab--choose-toolbox-items-dialog-box.md)  
+ [System.Activities Tab, Choose Toolbox Items Dialog Box](../workflow-designer/system-activities-tab-choose-toolbox-items-dialog-box.md)  
   
  [Workflow Designer Shell Features](../workflow-designer/workflow-designer-shell-features.md)  
   

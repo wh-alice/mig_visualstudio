@@ -1,7 +1,7 @@
 ---
-title: "Using Text Markers with the Legacy API"
+title: "Using Text Markers with the Legacy API | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,16 +36,16 @@ A text marker is a floating range of text in a buffer that can affect the displa
  Because of the performance overhead associated with text markers, do not create many markers for your text buffers. Each marker is updated every time that a user edits the buffer contents.  
   
 > [!NOTE]
->  Users can change the color of a visible marker type but not its shape and style. For more information, see [Fonts and Colors, Environment, Options Dialog Box](../ide/reference/fonts-and-colors--environment--options-dialog-box.md).  
+>  Users can change the color of a visible marker type but not its shape and style. For more information, see [Fonts and Colors, Environment, Options Dialog Box](../ide/reference/fonts-and-colors-environment-options-dialog-box.md).  
   
 ## Related Topics  
   
 |Title|Description|  
 |-----------|-----------------|  
-|[How to: Add Standard Text Markers](../extensibility/how-to--add-standard-text-markers.md)|Describes how to add a standard text marker type provided by the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] core editor to a text view.|  
-|[How to: Implement Error Markers](../extensibility/how-to--implement-error-markers.md)|Describes how to implement an instance of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] marker that is used to indicate errors by using red wavy underlines.|  
-|[How to: Create Custom Text Markers](../extensibility/how-to--create-custom-text-markers.md)|Describes how to create and add a custom text marker type to a text view.|  
-|[How to: Use Text Markers](../extensibility/how-to--use-text-markers.md)|Explains how to add text markers.|  
+|[How to: Add Standard Text Markers](../extensibility/how-to-add-standard-text-markers.md)|Describes how to add a standard text marker type provided by the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] core editor to a text view.|  
+|[How to: Implement Error Markers](../extensibility/how-to-implement-error-markers.md)|Describes how to implement an instance of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] marker that is used to indicate errors by using red wavy underlines.|  
+|[How to: Create Custom Text Markers](../extensibility/how-to-create-custom-text-markers.md)|Describes how to create and add a custom text marker type to a text view.|  
+|[How to: Use Text Markers](../extensibility/how-to-use-text-markers.md)|Explains how to add text markers.|  
 |[Inside the Core Editor](../extensibility/inside-the-core-editor.md)|Describes the features of the core editor and provides details about how to customize the core editor.|  
 |[Editor Features](http://msdn.microsoft.com/en-us/bdac940d-1f14-4019-a01f-fd0bb3dc7198)|Describes the features available in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] core editor.|  
   

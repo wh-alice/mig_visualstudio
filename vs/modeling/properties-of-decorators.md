@@ -1,7 +1,7 @@
 ---
-title: "Properties of Decorators"
+title: "Properties of Decorators | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, decorators"
 ms.assetid: f6322fe5-dc08-4d32-a6b3-0bd18879136d
 caps.latest.revision: 23
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 ---

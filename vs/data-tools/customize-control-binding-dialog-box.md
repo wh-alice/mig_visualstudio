@@ -1,5 +1,5 @@
 ---
-title: "Customize Control Binding Dialog Box"
+title: "Customize Control Binding Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "Customize Control Binding dialog box"
 ms.assetid: abcc0be3-a18e-4f47-b354-d6b0c618e087
 caps.latest.revision: 9
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 robots: noindex,nofollow

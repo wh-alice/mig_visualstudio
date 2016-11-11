@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Fatal Error RC1049"
+title: "Resource Compiler Fatal Error RC1049 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC1049"
 ms.assetid: 04d7a4a4-ca43-4ce0-9aec-8bc2a2e23500
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

@@ -1,5 +1,5 @@
 ---
-title: "Internal compiler error"
+title: "Internal compiler error | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "BC30747"
 ms.assetid: aab4927d-2e2b-42a5-a31c-4d1d6e61216d
 caps.latest.revision: 9
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 

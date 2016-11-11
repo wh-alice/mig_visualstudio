@@ -1,7 +1,7 @@
 ---
-title: "FormatUrl Task"
+title: "FormatUrl Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "FormatUrl task [MSBuild]"
 ms.assetid: 81114b67-520f-43b5-8891-224f68a78516
 caps.latest.revision: 5
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

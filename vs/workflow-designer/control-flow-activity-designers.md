@@ -1,7 +1,7 @@
 ---
-title: "Control Flow Activity Designers"
+title: "Control Flow Activity Designers | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""
@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "reference"
 ms.assetid: ba74af23-5398-4e62-bd90-c50612e3bfef
 caps.latest.revision: 7
+author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
 translation.priority.ht: 
@@ -42,7 +43,7 @@ translation.priority.ht:
  [Parallel](../workflow-designer/parallel-activity-designer.md)  
  Executes a collection of child activities concurrently.  
   
- [ParallelForEach\<T>](../workflow-designer/parallelforeach-t--activity-designer.md)  
+ [ParallelForEach\<T>](../workflow-designer/parallelforeach-t-activity-designer.md)  
  Enumerates the elements of a collection and executes an embedded statement for each element of the collection in parallel  
   
  [Pick](../workflow-designer/pick-activity-designer.md)  
@@ -65,13 +66,13 @@ translation.priority.ht:
   
  <xref:System.Activities.Statements.DoWhile>  
   
- <xref:System.Activities.Statements.ForEach`1>  
+ <xref:System.Activities.Statements.ForEach%601>  
   
  <xref:System.Activities.Statements.If>  
   
  <xref:System.Activities.Statements.Parallel>  
   
- <xref:System.Activities.Statements.ParallelForEach`1>  
+ <xref:System.Activities.Statements.ParallelForEach%601>  
   
  <xref:System.Activities.Statements.Pick>  
   
@@ -79,7 +80,7 @@ translation.priority.ht:
   
  <xref:System.Activities.Statements.Sequence>  
   
- <xref:System.Activities.Statements.Switch`1>  
+ <xref:System.Activities.Statements.Switch%601>  
   
  <xref:System.Activities.Statements.While>  
   

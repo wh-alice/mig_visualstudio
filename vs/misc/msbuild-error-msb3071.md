@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB3071"
+title: "MSBuild Error MSB3071 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB3071"
 ms.assetid: 8afbc6ec-e399-4f06-a30b-f33c87642ef7
 caps.latest.revision: 8
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

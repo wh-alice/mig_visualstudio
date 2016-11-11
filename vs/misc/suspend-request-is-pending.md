@@ -1,5 +1,5 @@
 ---
-title: "Suspend request is pending"
+title: "Suspend request is pending | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "BC30947"
 ms.assetid: 6bc4df1b-e833-47c7-9568-9ced67a2af5d
 caps.latest.revision: 8
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
-title: "Saving Symbol Information with Performance Data Files"
+title: "Saving Symbol Information with Performance Data Files | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "profiling tools, packsymbols"
 ms.assetid: 8b802505-e94d-4ee0-83e4-fdd790a332c1
 caps.latest.revision: 13
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -77,5 +78,5 @@ If you are using the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] i
   
 ## See Also  
  [Saving and Exporting Performance Tools Data](../profiling/saving-and-exporting-performance-tools-data.md)   
- [How to: Reference Windows Symbol Information](../profiling/how-to--reference-windows-symbol-information.md)   
+ [How to: Reference Windows Symbol Information](../profiling/how-to-reference-windows-symbol-information.md)   
  [VSPerfReport](../profiling/vsperfreport.md)

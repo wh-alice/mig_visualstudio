@@ -1,7 +1,7 @@
 ---
-title: "Writing Code in the Code and Text Editor"
+title: "Writing Code in the Code and Text Editor | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -62,6 +62,7 @@ helpviewer_keywords:
   - "code"
 ms.assetid: cb53ab9a-5b76-4759-b9e8-7bf32298ecbe
 caps.latest.revision: 44
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -96,7 +97,7 @@ The Visual Studio editor provides many features that make it easier for you to w
 
 |||  
 |-|-|  
-|Syntax Coloring|Some syntax elements of code and markup files are colored differently to distinguish them. For example, keywords (such as `using` in C# and `Imports` in Visual Basic) are one color, but types (such as `Console` and `Uri`) are another color. Other syntax elements are also colorized, such as string literals and comments. C++ uses color to differentiate among types, enumerations, and macros, among other tokens.<br /><br /> You can see the default color for each type, and you can change the color for any specific syntax element in the [Fonts and Colors, Environment, Options Dialog Box](../ide/reference/fonts-and-colors--environment--options-dialog-box.md), which you can open from the **Tools** menu.|  
+|Syntax Coloring|Some syntax elements of code and markup files are colored differently to distinguish them. For example, keywords (such as `using` in C# and `Imports` in Visual Basic) are one color, but types (such as `Console` and `Uri`) are another color. Other syntax elements are also colorized, such as string literals and comments. C++ uses color to differentiate among types, enumerations, and macros, among other tokens.<br /><br /> You can see the default color for each type, and you can change the color for any specific syntax element in the [Fonts and Colors, Environment, Options Dialog Box](../ide/reference/fonts-and-colors-environment-options-dialog-box.md), which you can open from the **Tools** menu.|  
 |Error and Warning Marks|As you add code and build your solution, you may see (a) different-colored wavy underlines (known as squiggles) or (b) light bulbs appearing in your code. Red squiggles denote syntax errors, blue denotes compiler errors, green denotes warnings, and purple denotes other types of errors. [Light bulbs](../ide/perform-quick-actions-with-light-bulbs.md) suggest fixes for problems and make it easy to apply the fix.<br /><br /> You can see the default color for each error and warning squiggle in the **Tools/Options/Environment/Fonts and Colors** dialog box. Look for **Syntax Error**, **Compiler Error**, **Warning**, and **Other Error**.|  
 |Brace Matching|When the insertion point is placed on an open brace in a code file, both it and the closing brace are highlighted. This feature gives you immediate feedback on misplaced or missing braces. You can turn brace matching on or off with the **Automatic Delimiter Highlighting** setting (**Tools/Options/Text Editor**). You can change the highlight color in the **Fonts and Colors** setting (**Tools/Options/Environment**). Look for **Brace Matching (Highlight)** or **Brace Matching (Rectangle)**.|  
 |Line Numbers|Line numbers can be displayed in the left margin of the code window. They are not displayed by default. You can turn this option on in the **Text Editor All Languages** settings (**Tools/Options/Text Editor/All Languages**). You can display line numbers for individual programming languages by changing the settings for those languages (**Tools/Options/Text Editor/\<language>**). For line numbers to print, you must select Include line numbers in the **Print** dialog box.|  
@@ -134,7 +135,7 @@ The Visual Studio editor provides many features that make it easier for you to w
 
  ![Forward and back navigation buttons](../ide/media/vs2015_nav_buttons.png "VS2015_Nav_buttons")  
 
- You can also use the enhanced scroll bar in a code window to get a bird’s-eye view of your code. In map mode, you can see previews of the code when you move the cursor up and down the scroll bar, For more information, see [How to: Track Your Code by Customizing the Scrollbar](../ide/how-to--track-your-code-by-customizing-the-scrollbar.md).  
+ You can also use the enhanced scroll bar in a code window to get a bird’s-eye view of your code. In map mode, you can see previews of the code when you move the cursor up and down the scroll bar, For more information, see [How to: Track Your Code by Customizing the Scrollbar](../ide/how-to-track-your-code-by-customizing-the-scrollbar.md).  
 
  The following commands are code-specific navigation methods:  
 
@@ -144,7 +145,7 @@ The Visual Studio editor provides many features that make it easier for you to w
 |Navigate To|(**Edit/Navigate To** or CTRL + ,): Finds a symbol or file in the active solution. It helps you pick a good set of matching results from a query. You can search for keywords that are contained in a symbol by using camel casing and underscore characters to divide the symbol into keywords.|  
 |Find All References|(context menu): Finds all the references to the selected element in the solution.|  
 |Go To Definition|(context menu or F12): Finds the definition of the selected element.|  
-|Peek Definition|(context menu or Alt+F12): Finds the definition of the selected element and displays it in a popup window. For more information, see [How to: View and Edit Code by Using Peek Definition (Alt+F12)](../ide/how-to--view-and-edit-code-by-using-peek-definition--alt-f12-.md).|  
+|Peek Definition|(context menu or Alt+F12): Finds the definition of the selected element and displays it in a popup window. For more information, see [How to: View and Edit Code by Using Peek Definition (Alt+F12)](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md).|  
 |Next Method, Previous Method|(**Edit/Next Method, Previous Method**) In Visual Basic code files, use these commands to move the insertion point to different methods.|  
 |Reference Highlighting|When you click a symbol in the source code, all instances of that symbol are highlighted in the document. The highlighted symbols may include declarations and references, and many other symbols that **Find All References** would return. These include the names of classes, objects, variables, methods, and properties. In Visual Basic code, keywords for many control structures are also highlighted. To move to the next or the previous highlighted symbol, press CTRL+SHIFT+DOWN ARROW or CTRL+SHIFT+UP ARROW. You can change the highlighting color in **Tools/Options/Environment/Fonts and Colors/Highlighted Reference.**|  
 |Find code-related info|You can find info about specific code, like changes and who made those changes, references, bugs, work items, code reviews, and unit test status when you use CodeLens in the code editor. CodeLens works like a heads-up display when you use Visual Studio Enterprise with Team Foundation Server. See [Find code changes and other history](../ide/find-code-changes-and-other-history-with-codelens.md).|  
@@ -201,11 +202,11 @@ This feature is particularly helpful if your code has long names.
 
  For information about language-specific editor options, see the following:  
 
--   [Visual Basic Settings](../Topic/Visual%20Basic%20Settings.md)  
+-   [Visual Basic Settings](/dotnet/visual-basic/developing-apps/using-ide/settings)  
 
 -   [Using the Visual Studio Development Environment for C#](../csharp-ide/using-the-visual-studio-development-environment-for-csharp.md)  
 
--   [Options, Text Editor, JavaScript, Formatting](../ide/reference/options--text-editor--javascript--formatting.md)  
+-   [Options, Text Editor, JavaScript, Formatting](../ide/reference/options-text-editor-javascript-formatting.md)  
 
 ## In this section  
 
@@ -223,9 +224,9 @@ This feature is particularly helpful if your code has long names.
 
 -   [Customizing the Editor](../ide/customizing-the-editor.md)  
 
--   [How to: Track Your Code by Customizing the Scrollbar](../ide/how-to--track-your-code-by-customizing-the-scrollbar.md)  
+-   [How to: Track Your Code by Customizing the Scrollbar](../ide/how-to-track-your-code-by-customizing-the-scrollbar.md)  
 
--   [How to: View and Edit Code by Using Peek Definition (Alt+F12)](../ide/how-to--view-and-edit-code-by-using-peek-definition--alt-f12-.md)  
+-   [How to: View and Edit Code by Using Peek Definition (Alt+F12)](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md)  
 
 -   [Perform quick actions with light bulbs](../ide/perform-quick-actions-with-light-bulbs.md)  
 

@@ -1,7 +1,7 @@
 ---
-title: "Properties of Model Elements"
+title: "Properties of Model Elements | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 884d66aa-cb2d-4be0-ae45-8360a01f1c7d
 caps.latest.revision: 6
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 ---

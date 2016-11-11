@@ -1,7 +1,7 @@
 ---
-title: "IDebugProgramDestroyEventFlags2"
+title: "IDebugProgramDestroyEventFlags2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -47,7 +47,7 @@ IDebugProgramDestroyEventFlags2 : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetFlags](../../../extensibility/debugger/reference/idebugprogramdestroyeventflags2--getflags.md)|Retrieves the program destroy flags.|  
+|[GetFlags](../../../extensibility/debugger/reference/idebugprogramdestroyeventflags2-getflags.md)|Retrieves the program destroy flags.|  
   
 ## Remarks  
  The default behavior of the [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] UI is to go back to design mode after all programs have sent a program destroy event. This interface enables a debug engine to change that behavior.  

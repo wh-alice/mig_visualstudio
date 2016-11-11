@@ -1,7 +1,7 @@
 ---
-title: "Pre-build Event-Post-build Event Command Line Dialog Box"
+title: "Pre-build Event-Post-build Event Command Line Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,6 +36,7 @@ helpviewer_keywords:
   - "build events, macros"
 ms.assetid: d49b2c57-24bf-4fb2-8351-5c4b6cca938f
 caps.latest.revision: 13
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -55,7 +56,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Pre-build Event/Post-build Event Command Line Dialog Box
-You can type pre- or post-build events for the [Build Events Page, Project Designer (C#)](../../ide/reference/build-events-page--project-designer--csharp-.md) directly in the edit box, or you can select pre- and post-build macros from a list of available macros.  
+You can type pre- or post-build events for the [Build Events Page, Project Designer (C#)](../../ide/reference/build-events-page-project-designer-csharp.md) directly in the edit box, or you can select pre- and post-build macros from a list of available macros.  
   
 > [!NOTE]
 >  Pre-build events do not run if the project is up to date and no build is triggered.  
@@ -103,6 +104,6 @@ You can type pre- or post-build events for the [Build Events Page, Project Desig
   
 ## See Also  
  [Specifying Custom Build Events in Visual Studio](../../ide/specifying-custom-build-events-in-visual-studio.md)   
- [Build Events Page, Project Designer (C#)](../../ide/reference/build-events-page--project-designer--csharp-.md)   
- [How to: Specify Build Events (Visual Basic)](../../ide/how-to--specify-build-events--visual-basic-.md)   
- [How to: Specify Build Events (C#)](../../ide/how-to--specify-build-events--csharp-.md)
+ [Build Events Page, Project Designer (C#)](../../ide/reference/build-events-page-project-designer-csharp.md)   
+ [How to: Specify Build Events (Visual Basic)](../../ide/how-to-specify-build-events-visual-basic.md)   
+ [How to: Specify Build Events (C#)](../../ide/how-to-specify-build-events-csharp.md)

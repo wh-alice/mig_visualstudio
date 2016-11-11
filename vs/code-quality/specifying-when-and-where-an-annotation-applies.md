@@ -1,7 +1,7 @@
 ---
-title: "Specifying When and Where an Annotation Applies"
+title: "Specifying When and Where an Annotation Applies | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,8 +16,9 @@ f1_keywords:
   - "_At_buffer_"
 ms.assetid: 8e4f4f9c-5dfa-4835-87df-ecd1698fc650
 caps.latest.revision: 7
-ms.author: "susanno"
-manager: "douge"
+author: "corob-msft"
+ms.author: "corob"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -48,11 +49,11 @@ When an annotation is conditional, it may require other annotations to specify t
 |`_When_(expr, anno-list)`|`expr` is an expression that can be converted to `bool`. When it is non-zero (`true`), the annotations that are specified in `anno-list` are considered applicable.<br /><br /> By default, for each annotation in `anno-list`, `expr` is interpreted as using the input values if the annotation is a precondition, and as using the output values if the annotation is a post-condition. To override the default, you can use the `_Old_` intrinsic when you evaluate a post-condition to indicate that input values should be used. **Note:**  Different annotations might be enabled as a consequence of using `_When_` if a mutable value—for example, `*pLength`—is involved because the evaluated result of `expr` in precondition may differ from its evaluated result in post-condition.|  
   
 ## See Also  
- [Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-c---code-defects.md)   
+ [Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)   
  [Understanding SAL](../code-quality/understanding-sal.md)   
  [Annotating Function Parameters and Return Values](../code-quality/annotating-function-parameters-and-return-values.md)   
  [Annotating Function Behavior](../code-quality/annotating-function-behavior.md)   
  [Annotating Structs and Classes](../code-quality/annotating-structs-and-classes.md)   
  [Annotating Locking Behavior](../code-quality/annotating-locking-behavior.md)   
  [Intrinsic Functions](../code-quality/intrinsic-functions.md)   
- [Best Practices and Examples](../code-quality/best-practices-and-examples--sal-.md)
+ [Best Practices and Examples](../code-quality/best-practices-and-examples-sal.md)

@@ -1,7 +1,7 @@
 ---
-title: "IDebugGenericFieldInstance"
+title: "IDebugGenericFieldInstance | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -44,8 +44,8 @@ IDebugGenericFieldInstance : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetTypeArguments](../../../extensibility/debugger/reference/idebuggenericfieldinstance--gettypearguments.md)|Retrieves the type parameter arguments for this instance.|  
-|[TypeArgumentCount](../../../extensibility/debugger/reference/idebuggenericfieldinstance--typeargumentcount.md)|Returns the number of type parameter arguments for this instance.|  
+|[GetTypeArguments](../../../extensibility/debugger/reference/idebuggenericfieldinstance-gettypearguments.md)|Retrieves the type parameter arguments for this instance.|  
+|[TypeArgumentCount](../../../extensibility/debugger/reference/idebuggenericfieldinstance-typeargumentcount.md)|Returns the number of type parameter arguments for this instance.|  
   
 ## Requirements  
  Header: Sh.h  

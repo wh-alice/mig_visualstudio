@@ -1,7 +1,7 @@
 ---
-title: "IDebugBreakpointChecksumRequest2"
+title: "IDebugBreakpointChecksumRequest2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -47,8 +47,8 @@ IDebugBreakpointChecksumRequest2 : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetChecksum](../../../extensibility/debugger/reference/idebugbreakpointchecksumrequest2--getchecksum.md)|Retrieves the document checksum for a breakpoint request given the unique identifier of the checksum algorithm to use.|  
-|[IsChecksumEnabled](../../../extensibility/debugger/reference/idebugbreakpointchecksumrequest2--ischecksumenabled.md)|Determines if the checksum is enabled for this document.|  
+|[GetChecksum](../../../extensibility/debugger/reference/idebugbreakpointchecksumrequest2-getchecksum.md)|Retrieves the document checksum for a breakpoint request given the unique identifier of the checksum algorithm to use.|  
+|[IsChecksumEnabled](../../../extensibility/debugger/reference/idebugbreakpointchecksumrequest2-ischecksumenabled.md)|Determines if the checksum is enabled for this document.|  
   
 ## Requirements  
  Header: Msdbg.h  

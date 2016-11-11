@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Error RC2102"
+title: "Resource Compiler Error RC2102 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC2102"
 ms.assetid: 52cfe46f-e8ff-437d-a45d-3cc4400ed1f1
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

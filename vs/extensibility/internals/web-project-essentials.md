@@ -1,7 +1,7 @@
 ---
-title: "Web Project Essentials"
+title: "Web Project Essentials | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -60,9 +60,9 @@ Web projects create Web applications. You can use a Web project to create a Web 
   
 -   In addition, Web pages can have any number of client-side scripting blocks written in any scripting language.  
   
--   A Web site project system is implemented by adding project and item templates and registration to the [!INCLUDE[vwprvw](../Token/vwprvw_md.md)] project.  
+-   A Web site project system is implemented by adding project and item templates and registration to the [!INCLUDE[vwprvw](../../extensibility/internals/includes/vwprvw_md.md)] project.  
   
--   A WAP system is implemented as a project subtype, also called a project flavor. The [!INCLUDE[vwprvw](../Token/vwprvw_md.md)] project is flavored by the WAP subtype to create the WAP system. For more information on project subtypes, see [Project Subtypes](../../extensibility/internals/project-subtypes.md).  
+-   A WAP system is implemented as a project subtype, also called a project flavor. The [!INCLUDE[vwprvw](../../extensibility/internals/includes/vwprvw_md.md)] project is flavored by the WAP subtype to create the WAP system. For more information on project subtypes, see [Project Subtypes](../../extensibility/internals/project-subtypes.md).  
   
 -   A smart Web page combines HTML with a server-side programming language. The server-side language is called the contained language. To support a contained language, the Web project system must implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsContainedLanguage> family of interfaces.  
   

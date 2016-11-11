@@ -1,7 +1,7 @@
 ---
-title: "Availability of Features in Visual Studio Versions"
+title: "Availability of Features in Visual Studio Versions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "Visual Studio, availability of features"
 ms.assetid: cb2728da-7705-4dea-a1c3-12a0388cb652
 caps.latest.revision: 18
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

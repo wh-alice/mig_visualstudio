@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Error RC2018"
+title: "Resource Compiler Error RC2018 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC2018"
 ms.assetid: e0ab68b6-52af-4af1-938c-3510445faa75
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

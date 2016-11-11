@@ -1,7 +1,7 @@
 ---
-title: "Create elements and relationships in UML models"
+title: "Create elements and relationships in UML models | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ helpviewer_keywords:
   - "UML API"
 ms.assetid: cae81d32-8cc7-4f7c-9f00-20119952bc51
 caps.latest.revision: 15
+author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
 translation.priority.ht: 

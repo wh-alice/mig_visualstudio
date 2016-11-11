@@ -1,7 +1,7 @@
 ---
-title: "Using Destructors"
+title: "Using Destructors | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "destroying objects, destructors"
 ms.assetid: 70bc6cff-efae-4b3f-9fb6-25b517341168
 caps.latest.revision: 8
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -35,4 +36,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Using Destructors
-This content has moved to  [Destructors](../Topic/Destructors%20\(C++\).md).
+This content has moved to  [Destructors](/visual-cpp/cpp/destructors-cpp).

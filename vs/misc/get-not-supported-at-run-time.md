@@ -1,5 +1,5 @@
 ---
-title: "Get not supported at run time"
+title: "Get not supported at run time | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -13,6 +13,7 @@ f1_keywords:
   - "vbrID393"
 ms.assetid: b527c5a8-3f24-42e9-871f-e6305c9f514b
 caps.latest.revision: 9
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
-title: "Localizing VSIX Packages"
+title: "Localizing VSIX Packages | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -58,7 +58,7 @@ You can localize a VSIX package by creating an Extension.vsixlangpack file for e
 >  The VSIX-supported project templates in the [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] generate a VSIX manifest and name it source.extension.vsixmanifest. When Visual Studio builds the project, it copies the content of that file into Extension.VsixManifest in the VSIX package.  
   
 ## The Extension.vsixlangpack File  
- The Extension.vsixlangpack file follows the [VSIX Language Pack Schema](../extensibility/vsx-language-pack-schema-reference.md). This schema has a [VSIXLanguagePack](../extensibility/vsixlanguagepack-element--vsix-language-pack-schema-.md) root element, and these four child elements: [LocalizedName](../extensibility/localizedname-element--vsix-language-pack-schema-.md), [LocalizedDescription](../extensibility/localizeddescription-element--vsix-language-pack-schema-.md), [MoreInfoURL](../extensibility/moreinfourl-element--vsix-language-pack-schema-.md), and [License](../extensibility/license-element--vsix-language-pack-schema-.md). These child elements correspond to the `Name`, `Description`, `MoreInfoURL`, and `License` child elements of the `Identifier` element of the Extension.vsixmanifest file.  
+ The Extension.vsixlangpack file follows the [VSIX Language Pack Schema](../extensibility/vsx-language-pack-schema-reference.md). This schema has a [VSIXLanguagePack](../extensibility/vsixlanguagepack-element-vsix-language-pack-schema.md) root element, and these four child elements: [LocalizedName](../extensibility/localizedname-element-vsix-language-pack-schema.md), [LocalizedDescription](../extensibility/localizeddescription-element-vsix-language-pack-schema.md), [MoreInfoURL](../extensibility/moreinfourl-element-vsix-language-pack-schema.md), and [License](../extensibility/license-element-vsix-language-pack-schema.md). These child elements correspond to the `Name`, `Description`, `MoreInfoURL`, and `License` child elements of the `Identifier` element of the Extension.vsixmanifest file.  
   
  When you create a vsixlangpack file, you must set the `Include in Vsix` property to `true`. Otherwise, the localized installation text will be ignored.  
   
@@ -104,6 +104,6 @@ You can localize a VSIX package by creating an Extension.vsixlangpack file for e
 ```  
   
 ## See Also  
- [VSIX LanguagePack Element](../extensibility/vsixlanguagepack-element--vsix-language-pack-schema-.md)   
+ [VSIX LanguagePack Element](../extensibility/vsixlanguagepack-element-vsix-language-pack-schema.md)   
  [Anatomy of a VSIX Package](../extensibility/anatomy-of-a-vsix-package.md)   
  [VSIX Project Template](../extensibility/vsix-project-template.md)

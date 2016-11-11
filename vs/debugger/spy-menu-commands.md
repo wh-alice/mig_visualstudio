@@ -1,7 +1,7 @@
 ---
-title: "Spy Menu Commands"
+title: "Spy Menu Commands | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "Spy menu commands"
 ms.assetid: 802549be-dbd8-4df0-a18b-971900eaa769
 caps.latest.revision: 4
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

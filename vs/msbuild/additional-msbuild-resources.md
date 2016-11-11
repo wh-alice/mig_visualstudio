@@ -1,7 +1,7 @@
 ---
-title: "Additional MSBuild Resources"
+title: "Additional MSBuild Resources | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -601,6 +601,7 @@ helpviewer_keywords:
   - "MSB3284"
 ms.assetid: 29dd85ee-1530-43c1-b085-bb2330ac5a48
 caps.latest.revision: 17
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -633,4 +634,4 @@ If you are trying to solve a problem and cannot find the information you need in
  If you still have questions after you try the other resources, you can contact Microsoft support services by visiting the [Microsoft Help and Support](http://go.microsoft.com/fwlink/?linkid=1782) Web site. For information about product support available in your area, see [Talk to Us](../ide/talk-to-us.md).  
   
 ## See Also  
- [Troubleshooting .NET Framework Targeting Errors](../msbuild/troubleshooting-.net-framework-targeting-errors.md)
+ [Troubleshooting .NET Framework Targeting Errors](../msbuild/troubleshooting-dotnet-framework-targeting-errors.md)

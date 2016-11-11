@@ -1,5 +1,5 @@
 ---
-title: "Method arguments must be enclosed in parentheses"
+title: "Method arguments must be enclosed in parentheses | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "BC30800"
 ms.assetid: ecdec760-8b51-474f-acad-17cf8059d83b
 caps.latest.revision: 8
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -49,4 +50,4 @@ The rules governing procedure calls are simpler in newer versions of [!INCLUDE[v
   
 ## See Also  
  [Procedure Calling Sequence Changes in Visual Basic](http://msdn.microsoft.com/en-us/4ef1eea6-36cb-4b97-a31b-9ba65e46a9fd)   
- [Procedure Parameters and Arguments](../Topic/Procedure%20Parameters%20and%20Arguments%20\(Visual%20Basic\).md)
+ [Procedure Parameters and Arguments](/dotnet/visual-basic/language-reference/procedures/procedure-parameters-and-arguments)

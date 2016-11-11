@@ -1,7 +1,7 @@
 ---
-title: "Programs"
+title: "Programs | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -42,7 +42,7 @@ In terms of the debugger architecture, a **program**:
   
 -   Can enumerate all its threads. A program can also supply its own disassembly stream, and can enumerate all the code contexts of a given document position.  
   
--   Is represented by an [IDebugProgram2](../../extensibility/debugger/reference/idebugprogram2.md) interface, created before the program is attached, or as part of the attach process, depending on the implementation. When a port enumerates the programs of a process, each program is created in accordance with a corresponding [IDebugProgramNode2](../../extensibility/debugger/reference/idebugprogramnode2.md) interface passed as an argument to [AddProgramNode](../../extensibility/debugger/reference/idebugportnotify2--addprogramnode.md). While debug engines also create `IDebugProgram2` interfaces to represent programs, these programs are not created in accordance with a program node. The `IDebugProgramNode2` interfaces created by a DE are used for actual debugging, while those created by a port are used only for discovering which programs are running in a process.  
+-   Is represented by an [IDebugProgram2](../../extensibility/debugger/reference/idebugprogram2.md) interface, created before the program is attached, or as part of the attach process, depending on the implementation. When a port enumerates the programs of a process, each program is created in accordance with a corresponding [IDebugProgramNode2](../../extensibility/debugger/reference/idebugprogramnode2.md) interface passed as an argument to [AddProgramNode](../../extensibility/debugger/reference/idebugportnotify2-addprogramnode.md). While debug engines also create `IDebugProgram2` interfaces to represent programs, these programs are not created in accordance with a program node. The `IDebugProgramNode2` interfaces created by a DE are used for actual debugging, while those created by a port are used only for discovering which programs are running in a process.  
   
 ## See Also  
  [Processes](../../extensibility/debugger/processes.md)   
@@ -54,4 +54,4 @@ In terms of the debugger architecture, a **program**:
  [Code Context](../../extensibility/debugger/code-context.md)   
  [IDebugProgram2](../../extensibility/debugger/reference/idebugprogram2.md)   
  [IDebugProgramNode2](../../extensibility/debugger/reference/idebugprogramnode2.md)   
- [AddProgramNode](../../extensibility/debugger/reference/idebugportnotify2--addprogramnode.md)
+ [AddProgramNode](../../extensibility/debugger/reference/idebugportnotify2-addprogramnode.md)

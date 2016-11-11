@@ -1,7 +1,7 @@
 ---
-title: "Editing XSLT Style Sheets"
+title: "Editing XSLT Style Sheets | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 080bed0f-0ca9-4be7-aecd-6bdaebc04007
 caps.latest.revision: 2
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -44,7 +45,7 @@ The XML Editor can also be used to edit XSLT style sheets. You can take advantag
  Code in script blocks is supported by the XSLT debugger so you can set breakpoints and step through the script block code.  
   
  **View XSLT output**  
- You can execute an XSL transformation and view the output from the XML Editor. For more information, see [How to: Execute an XSLT Transformation from the XML Editor](../xml-tools/how-to--execute-an-xslt-transformation-from-the-xml-editor.md).  
+ You can execute an XSL transformation and view the output from the XML Editor. For more information, see [How to: Execute an XSLT Transformation from the XML Editor](../xml-tools/how-to-execute-an-xslt-transformation-from-the-xml-editor.md).  
   
  **Debug XSLT**  
  You can launch the XSLT debugger from an XSLT file in the XML Editor. The debugger supports setting breakpoints in the XSLT file, viewing XSLT execution state, and so on. Hovering over an XSLT variable brings up a ToolTip with the value of the variable. The debugger can be used to debug a style sheet, or to debug a compiled XSL transformation invoked from another application. For more information, see [Debugging XSLT](../xml-tools/debugging-xslt.md).  

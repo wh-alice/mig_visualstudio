@@ -1,7 +1,7 @@
 ---
-title: "Deploying Custom Start Pages"
+title: "Deploying Custom Start Pages | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -52,7 +52,7 @@ You can deploy custom Start Pages by using VSIX deployment or by copying the fil
   
 -   By adding your custom Start Page files to an empty VSIX Project. For more information, see [VSIX Project Template](../extensibility/vsix-project-template.md).  
   
--   By manually creating a .vsix file. For more information, see [How to: Manually Package an Extension (VSIX Deployment)](../misc/how-to--manually-package-an-extension--vsix-deployment-.md).  
+-   By manually creating a .vsix file. For more information, see [How to: Manually Package an Extension (VSIX Deployment)](../misc/how-to-manually-package-an-extension-vsix-deployment.md).  
   
  For Visual Studio to recognize a Start Page, the `Content Element` of the VSIX Manifest must contain a `CustomExtension Element` that has the `Type` attribute set to `"StartPage"`. A Start Page extension that has been installed by using VSIX deployment appears in the **Customize Start Page** list on the **Startup** options page as **[Installed Extension]** *Extension Name*.  
   

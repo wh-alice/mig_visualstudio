@@ -1,7 +1,7 @@
 ---
-title: "Creating Your Own Start Page"
+title: "Creating Your Own Start Page | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,7 +45,7 @@ You can create a custom Start Page either by using the Start Page Project Templa
 1.  Download and install the [Start Page project template](http://go.microsoft.com/fwlink/?LinkId=186204) from Visual Studio Gallery.  
   
     > [!WARNING]
-    >  At this time the Visual Studio 2010 Start Page project template has not been upgraded. For information about how to upgrade this template, see [How to: Upgrade a Visual Studio Custom Start Page](../misc/how-to--upgrade-a-visual-studio-custom-start-page.md).  
+    >  At this time the Visual Studio 2010 Start Page project template has not been upgraded. For information about how to upgrade this template, see [How to: Upgrade a Visual Studio Custom Start Page](../misc/how-to-upgrade-a-visual-studio-custom-start-page.md).  
   
 2.  After you have installed the template, create a new start page project with it.  
   
@@ -101,4 +101,4 @@ You can create a custom Start Page either by using the Start Page Project Templa
   
 ## See Also  
  [Customizing the Start Page](../ide/customizing-the-start-page-for-visual-studio.md)   
- [Walkthrough: Adding Custom XAML to the Start Page](../extensibility/walkthrough--adding-custom-xaml-to-the-start-page.md)
+ [Walkthrough: Adding Custom XAML to the Start Page](../extensibility/walkthrough-adding-custom-xaml-to-the-start-page.md)

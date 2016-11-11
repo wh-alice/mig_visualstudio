@@ -1,7 +1,7 @@
 ---
-title: "Implementing GetMethodProperty"
+title: "Implementing GetMethodProperty | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,11 +35,11 @@ translation.priority.mt:
 > [!IMPORTANT]
 >  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
   
- Visual Studio calls the debug engine's (DE) [GetDebugProperty](../../extensibility/debugger/reference/idebugstackframe2--getdebugproperty.md), which in turn calls [GetMethodProperty](../../extensibility/debugger/reference/idebugexpressionevaluator--getmethodproperty.md) to obtain information about the current method on the stack frame.  
+ Visual Studio calls the debug engine's (DE) [GetDebugProperty](../../extensibility/debugger/reference/idebugstackframe2-getdebugproperty.md), which in turn calls [GetMethodProperty](../../extensibility/debugger/reference/idebugexpressionevaluator-getmethodproperty.md) to obtain information about the current method on the stack frame.  
   
  This implementation of `IDebugExpressionEvaluator::GetMethodProperty` performs the following tasks:  
   
-1.  Calls [GetContainerField](../../extensibility/debugger/reference/idebugsymbolprovider--getcontainerfield.md), passing in the [IDebugAddress](../../extensibility/debugger/reference/idebugaddress.md) object. The symbol provider (SP) returns an [IDebugContainerField](../../extensibility/debugger/reference/idebugcontainerfield.md) representing the method that contains the specified address.  
+1.  Calls [GetContainerField](../../extensibility/debugger/reference/idebugsymbolprovider-getcontainerfield.md), passing in the [IDebugAddress](../../extensibility/debugger/reference/idebugaddress.md) object. The symbol provider (SP) returns an [IDebugContainerField](../../extensibility/debugger/reference/idebugcontainerfield.md) representing the method that contains the specified address.  
   
 2.  Obtains the [IDebugMethodField](../../extensibility/debugger/reference/idebugmethodfield.md) from the `IDebugContainerField`.  
   

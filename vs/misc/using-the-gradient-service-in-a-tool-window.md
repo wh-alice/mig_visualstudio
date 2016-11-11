@@ -1,7 +1,7 @@
 ---
-title: "Using the Gradient Service in a Tool Window"
+title: "Using the Gradient Service in a Tool Window | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -34,9 +34,9 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Using the Gradient Service in a Tool Window
-Because [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] tool windows are built with Windows Presentation Foundation (WPF), you do not have to call the gradient service in code. Instead, in the designer that represents the tool window surface, select the `StackPanel` element, and then, in the **Properties** window, modify the **Background** property to set the gradient. For more information, see [Setting Colors, Gradients, and Opacity](../misc/setting-colors--gradients--and-opacity.md).  
+Because [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] tool windows are built with Windows Presentation Foundation (WPF), you do not have to call the gradient service in code. Instead, in the designer that represents the tool window surface, select the `StackPanel` element, and then, in the **Properties** window, modify the **Background** property to set the gradient. For more information, see [Setting Colors, Gradients, and Opacity](../misc/setting-colors-gradients-and-opacity.md).  
   
 ## See Also  
  [NOT IN BUILD: Tool Window Walkthroughs](http://msdn.microsoft.com/en-us/ecffc579-0e96-48ad-90f3-01a3d80f3ce5)   
  [Extending Tool Windows](../misc/extending-tool-windows.md)   
- [Setting Colors, Gradients, and Opacity](../misc/setting-colors--gradients--and-opacity.md)
+ [Setting Colors, Gradients, and Opacity](../misc/setting-colors-gradients-and-opacity.md)

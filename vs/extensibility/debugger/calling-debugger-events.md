@@ -1,7 +1,7 @@
 ---
-title: "Calling Debugger Events"
+title: "Calling Debugger Events | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -58,7 +58,7 @@ Events in debugging sessions occur in a specific order.
   
 11. [Expression evaluation in break mode](../../extensibility/debugger/expression-evaluation-in-break-mode.md)  
   
-12. [Exception handling](../../extensibility/debugger/exception-handling--visual-studio-sdk-.md)  
+12. [Exception handling](../../extensibility/debugger/exception-handling-visual-studio-sdk.md)  
   
 ## See Also  
  [Creating a Custom Debug Engine](../../extensibility/debugger/creating-a-custom-debug-engine.md)

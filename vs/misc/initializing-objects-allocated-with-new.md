@@ -1,7 +1,7 @@
 ---
-title: "Initializing Objects Allocated with new"
+title: "Initializing Objects Allocated with new | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "objects [C++], initializing"
 ms.assetid: 8d14d502-a3c5-48ad-b29c-1b3cd3644a5b
 caps.latest.revision: 6
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -35,4 +36,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Initializing Objects Allocated with new
-This content has moved [new Operator](../Topic/new%20Operator%20\(C++\).md).
+This content has moved [new Operator](/visual-cpp/cpp/new-operator-cpp).

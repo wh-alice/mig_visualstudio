@@ -1,5 +1,5 @@
 ---
-title: "Expression cannot be converted into an expression tree"
+title: "Expression cannot be converted into an expression tree | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "BC36534"
 ms.assetid: c6ea9349-2b38-4345-9118-45cf184ab9ef
 caps.latest.revision: 5
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 

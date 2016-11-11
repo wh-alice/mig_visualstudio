@@ -1,7 +1,7 @@
 ---
-title: "Rules Propagate Changes Within the Model"
+title: "Rules Propagate Changes Within the Model | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, rules"
 ms.assetid: 1690a38a-c8f5-4bc6-aab9-015771ec6647
 caps.latest.revision: 30
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 translation.priority.mt: 

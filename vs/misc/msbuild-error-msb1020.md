@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB1020"
+title: "MSBuild Error MSB1020 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB1020"
 ms.assetid: 75fcb139-0c45-4bf1-a176-60bfb9d1baa4
 caps.latest.revision: 12
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
-title: "Synchronized Settings in Visual Studio"
+title: "Synchronized Settings in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Environment.RoamingSettings"
 ms.assetid: a3d2ea29-be5d-4012-9820-44b06adbb7dd
 caps.latest.revision: 10
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

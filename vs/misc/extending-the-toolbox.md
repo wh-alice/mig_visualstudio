@@ -1,7 +1,7 @@
 ---
-title: "Extending the Toolbox"
+title: "Extending the Toolbox | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -41,7 +41,7 @@ The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] **Toolbox** provid
 -   A VSPackage can be a target or consumer of existing **Toolbox** functionality, supporting the drag-and-drop operations and configuring the **Toolbox**'s appearance.  
   
 ## In This Section  
- [How to: Create a Toolbox Control That Uses Windows Forms](../misc/how-to--create-a-toolbox-control-that-uses-windows-forms.md)  
+ [How to: Create a Toolbox Control That Uses Windows Forms](../misc/how-to-create-a-toolbox-control-that-uses-windows-forms.md)  
  Describes out to create a Toolbox control by using the Windows Forms Toolbox Control template.  
   
  [Creating a WPF Toolbox Control](../extensibility/creating-a-wpf-toolbox-control.md)  

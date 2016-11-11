@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB1026"
+title: "MSBuild Error MSB1026 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB1026"
 ms.assetid: 0caa6bd7-a13f-4c2b-97ae-cee5b100f318
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

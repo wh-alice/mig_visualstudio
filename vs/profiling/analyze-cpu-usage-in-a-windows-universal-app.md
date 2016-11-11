@@ -1,7 +1,7 @@
 ---
-title: "Analyze CPU Usage in a Windows Universal App"
+title: "Analyze CPU Usage in a Windows Universal App | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ dev_langs:
   - "C++"
 ms.assetid: c122b08e-e3bf-43e6-bd6c-e776e178fd9a
 caps.latest.revision: 16
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 robots: noindex,nofollow

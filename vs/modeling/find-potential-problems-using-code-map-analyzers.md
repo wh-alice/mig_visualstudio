@@ -1,7 +1,7 @@
 ---
-title: "Find potential problems using code map analyzers"
+title: "Find potential problems using code map analyzers | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "graph documents, analyzing"
 ms.assetid: 9dd799a7-f7eb-42ff-8612-b19dde7ff4eb
 caps.latest.revision: 11
+author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
 translation.priority.ht: 

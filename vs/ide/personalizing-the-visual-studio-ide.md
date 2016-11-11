@@ -1,7 +1,7 @@
 ---
-title: "Personalizing the Visual Studio IDE"
+title: "Personalizing the Visual Studio IDE | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c2fec4ce-3885-4c4c-ace2-14c197e11079
 caps.latest.revision: 3
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -49,10 +50,10 @@ This section describes how to personalize Visual Studio in various ways to best 
  To create a custom start page for you and your team, see [Customizing the Start Page](../ide/customizing-the-start-page-for-visual-studio.md)  
   
 ### Environment color themes  
- To change the color theme between light, dark and blue, type environment in **QuickLaunch** and choose **Environment &#124; General**. To change colorization options in the editor, type `environment` in **QuickLaunch** and choose **Environment &#124; Fonts and Colors**. see also [How to: Change Fonts and Colors](../ide/how-to--change-fonts-and-colors-in-visual-studio.md).  
+ To change the color theme between light, dark and blue, type environment in **QuickLaunch** and choose **Environment &#124; General**. To change colorization options in the editor, type `environment` in **QuickLaunch** and choose **Environment &#124; Fonts and Colors**. see also [How to: Change Fonts and Colors](../ide/how-to-change-fonts-and-colors-in-visual-studio.md).  
   
 ### Menus and toolbars  
- To add or remove menu or toolbar items, see [How to: Customize Menus and Toolbars](../ide/how-to--customize-menus-and-toolbars-in-visual-studio.md).  
+ To add or remove menu or toolbar items, see [How to: Customize Menus and Toolbars](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md).  
   
 ### Main menu casing  
  Due to popular demand, you can change the main menu casing between **Title Case** and **ALL CAPS** by typing `environment` in **QuickLaunch** and choosing **Environment &#124; General**.  

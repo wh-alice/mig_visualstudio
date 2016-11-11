@@ -1,7 +1,7 @@
 ---
-title: "Rapid Web Site Profiling with VSPerfASPNETCmd"
+title: "Rapid Web Site Profiling with VSPerfASPNETCmd | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "VSPerfASPNETCmd"
 ms.assetid: 9a9d62a6-549a-45ac-a948-76eb98586ac5
 caps.latest.revision: 16
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -33,7 +34,7 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Rapid Web Site Profiling with VSPerfASPNETCmd
-The **VSPerfASPNETCmd** command line tool enables you to easily profile [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web applications. In comparison to the [VSPerfCmd](../profiling/vsperfcmd.md) command line tool, options are reduced, no environment variables have to be set, and rebooting the computer is not required. Using **VSPerfASPNETCmd** is the preferred method for profiling with the standalone profiler. For more information, see [How to: Install the Stand-Alone Profiler](../profiling/how-to--install-the-stand-alone-profiler.md).  
+The **VSPerfASPNETCmd** command line tool enables you to easily profile [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web applications. In comparison to the [VSPerfCmd](../profiling/vsperfcmd.md) command line tool, options are reduced, no environment variables have to be set, and rebooting the computer is not required. Using **VSPerfASPNETCmd** is the preferred method for profiling with the standalone profiler. For more information, see [How to: Install the Stand-Alone Profiler](../profiling/how-to-install-the-stand-alone-profiler.md).  
   
 > [!NOTE]
 >  Enhanced security features in Windows 8 and Windows Server 2012 required significant changes in the way the Visual Studio profiler collects data on these platforms. Windows Store apps also require new collection techniques. See [Performance Tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md).  

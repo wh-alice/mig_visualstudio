@@ -1,7 +1,7 @@
 ---
-title: "Accessing Models from Text Templates"
+title: "Accessing Models from Text Templates | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ helpviewer_keywords:
   - "text templates, accessing models"
 ms.assetid: cf65395a-0ca3-4826-89c7-b1869562685c
 caps.latest.revision: 33
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 ---
@@ -141,7 +142,7 @@ For Each element As ExampleElement In Me.WorkModel.Elements
   
  To load the file, the most effective method is by using [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] ModelBus. In a typical scenario, your text template will use a DSL-specific directive to load the first model in the usual way. That model would contain ModelBus References to another model. You can use ModelBus to open the referenced model and access a particular element. For more information, see [Using Visual Studio ModelBus in a Text Template](../modeling/using-visual-studio-modelbus-in-a-text-template.md).  
   
- In a less usual scenario, you might want to open a model file for which you have only a filename, and which might not be in the current [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project. In this case, you can open the file by using the technique described in [How to: Open a Model from File in Program Code](../modeling/how-to--open-a-model-from-file-in-program-code.md).  
+ In a less usual scenario, you might want to open a model file for which you have only a filename, and which might not be in the current [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project. In this case, you can open the file by using the technique described in [How to: Open a Model from File in Program Code](../modeling/how-to-open-a-model-from-file-in-program-code.md).  
   
 ## Generating multiple files from a template  
  If you want to generate a several files – for example, to generate a separate file for each element in a model, there are several possible approaches. By default, only one file is produced from each template file.  

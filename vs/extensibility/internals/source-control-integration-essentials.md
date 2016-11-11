@@ -1,7 +1,7 @@
 ---
-title: "Source Control Integration Essentials"
+title: "Source Control Integration Essentials | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -42,7 +42,7 @@ translation.priority.mt:
   
 1.  Create a DLL that implements the functions specified in [Source Control Plug-ins](../../extensibility/source-control-plug-ins.md).  
   
-2.  Register the DLL by making the appropriate registry entries, as described in [How to: Install a Source Control Plug-in](../../extensibility/internals/how-to--install-a-source-control-plug-in.md).  
+2.  Register the DLL by making the appropriate registry entries, as described in [How to: Install a Source Control Plug-in](../../extensibility/internals/how-to-install-a-source-control-plug-in.md).  
   
 3.  Create a helper UI and display it when prompted by the Source Control Adapter Package (the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] component that handles source control functionality through source control plug-ins).  
   
@@ -53,13 +53,13 @@ translation.priority.mt:
   
  To implement a source control VSPackage, you must:  
   
-1.  Create and register your own source control VSPackage, as described in [Registration and Selection](../../extensibility/internals/registration-and-selection--source-control-vspackage-.md).  
+1.  Create and register your own source control VSPackage, as described in [Registration and Selection](../../extensibility/internals/registration-and-selection-source-control-vspackage.md).  
   
-2.  Replace the default source control UI with your custom UI. See [Custom User Interface](../../extensibility/internals/custom-user-interface--source-control-vspackage-.md).  
+2.  Replace the default source control UI with your custom UI. See [Custom User Interface](../../extensibility/internals/custom-user-interface-source-control-vspackage.md).  
   
-3.  Specify glyphs to be used, and handle **Solution Explorer** glyph events. See [Glyph Control](../../extensibility/internals/glyph-control--source-control-vspackage-.md).  
+3.  Specify glyphs to be used, and handle **Solution Explorer** glyph events. See [Glyph Control](../../extensibility/internals/glyph-control-source-control-vspackage.md).  
   
-4.  Handle Query Edit and Query Save events, as shown in [Query Edit Query Save](../../extensibility/internals/query-edit-query-save--source-control-vspackage-.md).  
+4.  Handle Query Edit and Query Save events, as shown in [Query Edit Query Save](../../extensibility/internals/query-edit-query-save-source-control-vspackage.md).  
   
  For more information, see [Creating a Source Control VSPackage](../../extensibility/internals/creating-a-source-control-vspackage.md).  
   

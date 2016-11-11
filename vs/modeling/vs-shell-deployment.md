@@ -1,7 +1,7 @@
 ---
-title: "VS Shell deployment"
+title: "VS Shell deployment | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: be8f2ffe-a322-4ac0-9c9e-873bd28e5d5e
 caps.latest.revision: 2
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 ---

@@ -1,7 +1,7 @@
 ---
-title: "Event Handlers Propagate Changes Outside the Model"
+title: "Event Handlers Propagate Changes Outside the Model | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, events"
 ms.assetid: 0ac8d1e4-239f-4370-ba1d-3769bb38b8a5
 caps.latest.revision: 18
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 ---

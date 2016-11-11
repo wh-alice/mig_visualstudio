@@ -1,7 +1,7 @@
 ---
-title: "Managing Exceptions with the Debugger"
+title: "Managing Exceptions with the Debugger | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,6 +35,7 @@ helpviewer_keywords:
   - "exceptions, debugging"
 ms.assetid: 43a77fa8-37d0-4c98-a334-0134dbca4ece
 caps.latest.revision: 35
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -194,8 +195,8 @@ public class GenericException<T> : Exception
   
 ## See Also  
  [Continuing Execution After an Exception](../debugger/continuing-execution-after-an-exception.md)   
- [How to: Examine System Code After an Exception](../debugger/how-to--examine-system-code-after-an-exception.md)   
- [How to: Use Native Run-Time Checks](../debugger/how-to--use-native-run-time-checks.md)   
+ [How to: Examine System Code After an Exception](../debugger/how-to-examine-system-code-after-an-exception.md)   
+ [How to: Use Native Run-Time Checks](../debugger/how-to-use-native-run-time-checks.md)   
  [Using Run-Time Checks Without the C Run-Time Library](../debugger/using-run-time-checks-without-the-c-run-time-library.md)   
  [Exception Assistant](../Topic/Exception%20Assistant.md)   
  [Debugger Basics](../debugger/debugger-basics.md)

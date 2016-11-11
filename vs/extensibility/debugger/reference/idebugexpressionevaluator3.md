@@ -1,7 +1,7 @@
 ---
-title: "IDebugExpressionEvaluator3"
+title: "IDebugExpressionEvaluator3 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -50,7 +50,7 @@ IDebugExpressionEvaluator3 : IDebugExpressionEvaluator2
   
 |Method|Description|  
 |------------|-----------------|  
-|[Parse2](../../../extensibility/debugger/reference/idebugexpressionevaluator3--parse2.md)|Converts an expression string to a parsed expression given the symbol provider and the address of the evaluating frame.|  
+|[Parse2](../../../extensibility/debugger/reference/idebugexpressionevaluator3-parse2.md)|Converts an expression string to a parsed expression given the symbol provider and the address of the evaluating frame.|  
   
 ## Requirements  
  Header: Ee.h  

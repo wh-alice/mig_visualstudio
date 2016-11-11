@@ -1,7 +1,7 @@
 ---
-title: "Debugging Web Applications"
+title: "Debugging Web Applications | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "ASP.NET Web pages, debugging"
 ms.assetid: a096a90d-6d0d-4752-9fb5-417635ccab3e
 caps.latest.revision: 24
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -42,7 +43,7 @@ translation.priority.ht:
 This section explains how to debug several types of Web applications.  
   
 ## In This Section  
- [How to: Debug Web Applications](../debugger/how-to--debug-web-applications.md)  
+ [How to: Debug Web Applications](../debugger/how-to-debug-web-applications.md)  
  Describes how to debug an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] project still under development.  
   
  [Debugging Deployed Web Applications](../debugger/debugging-deployed-web-applications.md)  
@@ -51,14 +52,14 @@ This section explains how to debug several types of Web applications.
  [Client-Side Script Debugging](../debugger/client-side-script-debugging.md)  
  Discusses testing scripts and client-side scripts in [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] pages.  
   
- [Walkthrough: Debugging a Web Form](../debugger/walkthrough--debugging-a-web-form.md)  
+ [Walkthrough: Debugging a Web Form](../debugger/walkthrough-debugging-a-web-form.md)  
  Illustrates how to debug an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application.  
   
- [How to: Debug ASP.NET Exceptions](../debugger/how-to--debug-asp.net-exceptions.md)  
+ [How to: Debug ASP.NET Exceptions](../debugger/how-to-debug-aspnet-exceptions.md)  
  Explains how to deal with exceptions that occur while you debug [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] applications.  
   
 ## Related Sections  
- [Preparing to Debug ASP.NET](../debugger/preparing-to-debug-asp.net.md)  
+ [Preparing to Debug ASP.NET](../debugger/preparing-to-debug-aspnet.md)  
  Describes the steps that are required to enable debugging of [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] applications.  
   
  [Debugging Deployed Web Applications](../debugger/debugging-deployed-web-applications.md)  

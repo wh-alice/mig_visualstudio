@@ -1,5 +1,5 @@
 ---
-title: "Array exceeds the limit of 32 dimensions"
+title: "Array exceeds the limit of 32 dimensions | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "BC30052"
 ms.assetid: 5ee0d2cb-14e2-4a0f-b758-f987a3f9eb73
 caps.latest.revision: 8
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -44,4 +45,4 @@ Arrays cannot have more than 32 dimensions.
 -   Reduce the number of dimensions in the declaration of the array.  
   
 ## See Also  
- [Arrays](../Topic/Arrays%20in%20Visual%20Basic.md)
+ [Arrays](/dotnet/visual-basic/programming-guide/language-features/arrays/index)

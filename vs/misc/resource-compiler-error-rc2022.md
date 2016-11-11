@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Error RC2022"
+title: "Resource Compiler Error RC2022 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC2022"
 ms.assetid: 547332ed-8767-4ff3-8148-80b3cfe2e50e
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

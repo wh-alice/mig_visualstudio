@@ -1,7 +1,7 @@
 ---
-title: "Window Menu Commands"
+title: "Window Menu Commands | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "Window menu commands"
 ms.assetid: 9b5f1b5f-fd42-4de5-a3e1-d8e7e2e8cf1a
 caps.latest.revision: 3
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

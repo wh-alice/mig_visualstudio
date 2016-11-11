@@ -1,7 +1,7 @@
 ---
-title: "IDebugCustomAttributeQuery"
+title: "IDebugCustomAttributeQuery | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -44,8 +44,8 @@ IDebugCustomAttributeQuery : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetCustomAttributeByName](../../../extensibility/debugger/reference/idebugcustomattributequery--getcustomattributebyname.md)|Retrieves a custom attribute given its name.|  
-|[IsCustomAttributeDefined](../../../extensibility/debugger/reference/idebugcustomattributequery--iscustomattributedefined.md)|Determines in the specified custom attribute is defined.|  
+|[GetCustomAttributeByName](../../../extensibility/debugger/reference/idebugcustomattributequery-getcustomattributebyname.md)|Retrieves a custom attribute given its name.|  
+|[IsCustomAttributeDefined](../../../extensibility/debugger/reference/idebugcustomattributequery-iscustomattributedefined.md)|Determines in the specified custom attribute is defined.|  
   
 ## Requirements  
  Header: Sh.h  

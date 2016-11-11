@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB3152"
+title: "MSBuild Error MSB3152 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB3152"
 ms.assetid: 5a3859d4-4107-4e46-bb42-04de92b551de
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

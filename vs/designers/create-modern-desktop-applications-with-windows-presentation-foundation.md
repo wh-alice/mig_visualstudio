@@ -1,7 +1,7 @@
 ---
-title: "Create Modern Desktop Applications with Windows Presentation Foundation"
+title: "Create Modern Desktop Applications with Windows Presentation Foundation | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8d6c7295-ff64-4681-b01c-5056e8504569
 caps.latest.revision: 3
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

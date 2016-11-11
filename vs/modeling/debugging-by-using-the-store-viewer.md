@@ -1,7 +1,7 @@
 ---
-title: "Debugging by Using the Store Viewer"
+title: "Debugging by Using the Store Viewer | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, store"
 ms.assetid: 0178db2e-ae99-4ed3-9b87-8620fa9fa8e4
 caps.latest.revision: 17
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 ---

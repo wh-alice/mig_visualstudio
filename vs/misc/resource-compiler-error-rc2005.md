@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Error RC2005"
+title: "Resource Compiler Error RC2005 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC2005"
 ms.assetid: c4c4af1d-2c1a-485d-9e37-a056350bfa12
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

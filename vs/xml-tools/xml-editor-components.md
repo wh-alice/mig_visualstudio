@@ -1,7 +1,7 @@
 ---
-title: "XML Editor Components"
+title: "XML Editor Components | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 417ec1ca-e2fa-4496-87cb-ac04c9f26741
 caps.latest.revision: 3
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -32,13 +33,13 @@ translation.priority.ht:
 This section discusses the XML Editor windows and dialog boxes. Because the XML Editor is based on the Text Editor, some of the integrated development environment (IDE) is configured using the general Text Editor settings.  
   
 ## In This Section  
- [Miscellaneous, XML, Text Editor, Options Dialog Box](../xml-tools/miscellaneous--xml--text-editor--options-dialog-box.md)  
+ [Miscellaneous, XML, Text Editor, Options Dialog Box](../xml-tools/miscellaneous-xml-text-editor-options-dialog-box.md)  
  Discusses the auto-completion and schema settings for the XML Editor.  
   
- [XML Document Properties, Properties Window](../xml-tools/xml-document-properties--properties-window.md)  
+ [XML Document Properties, Properties Window](../xml-tools/xml-document-properties-properties-window.md)  
  Describes the basic document information that is available.  
   
- [Formatting, XML, Text Editor, Options Dialog Box](../xml-tools/formatting--xml--text-editor--options-dialog-box.md)  
+ [Formatting, XML, Text Editor, Options Dialog Box](../xml-tools/formatting-xml-text-editor-options-dialog-box.md)  
  Discusses the settings that control how attributes are formatted, how to handle mixed content, and so on.  
   
  [XML Schemas Dialog Box](../xml-tools/xml-schemas-dialog-box.md)  

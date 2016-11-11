@@ -1,7 +1,7 @@
 ---
-title: "Names and Qualified Names"
+title: "Names and Qualified Names | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "names [C++], order of compiler search"
 ms.assetid: 4b7d6cf7-48c9-44eb-853f-ada26059d993
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -37,4 +38,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Names and Qualified Names
-Content has moved to  [Summary of Scope Rules](../Topic/Summary%20of%20Scope%20Rules.md).
+Content has moved to  [Summary of Scope Rules](/visual-cpp/cpp/summary-of-scope-rules).

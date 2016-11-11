@@ -1,7 +1,7 @@
 ---
 title: "At least one configuration was not loaded because it does not have a configuration name attribute | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ f1_keywords:
   - "vs.tasklisterror.projfile_nameless_config"
 ms.assetid: 711f7253-308b-44e0-b8bc-ca5c16536a2c
 caps.latest.revision: 8
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -47,5 +48,5 @@ Each `<Config>` section in a .csproj or .vbproj file must have a Name attribute 
      A typical configuration name is `Debug` or `Release`.  
   
 ## See Also  
- [Project Files](../Topic/Project%20Files.md)   
+ [Project Files](/visual-cpp/ide/project-files)   
  [NIB: Project Properties (Visual Studio)](http://msdn.microsoft.com/en-us/eb4c97ed-f667-4850-98d0-6e2a4d21bbca)

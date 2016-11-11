@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Task Reference"
+title: "MSBuild Task Reference | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "MSBuild, tasks"
 ms.assetid: b3144b27-a426-4259-b8ae-5f7991b202b6
 caps.latest.revision: 32
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -36,14 +37,14 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # MSBuild Task Reference
-Tasks provide the code that runs during the build process. The tasks in the following list are included with [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]. When [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] is installed, additional tasks are available that are used to build [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] projects. For more information, see [Visual C++ Tasks](../msbuild/msbuild-tasks-specific-to-visual-c--.md).  
+Tasks provide the code that runs during the build process. The tasks in the following list are included with [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]. When [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] is installed, additional tasks are available that are used to build [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] projects. For more information, see [Visual C++ Tasks](../msbuild/msbuild-tasks-specific-to-visual-cpp.md).  
   
  In addition to the parameters listed in the topics in this section, each task also has the following parameters:  
   
 |Parameter|Description|  
 |---------------|-----------------|  
 |`Condition`|Optional `String` parameter.<br /><br /> A `Boolean` expression that the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] engine uses to determine whether this task will be executed. For information about the conditions that are supported by [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)], see [Conditions](../msbuild/msbuild-conditions.md).|  
-|`ContinueOnError`|Optional parameter. Can contain one of the following values:<br /><br /> -   **WarnAndContinue** or **true**. When a task fails, subsequent tasks in the [Target](../msbuild/target-element--msbuild-.md) element and the build continue to execute, and all errors from the task are treated as warnings.<br />-   **ErrorAndContinue**. When a task fails, subsequent tasks in the `Target` element and the build continue to execute, and all errors from the task are treated as errors.<br />-   **ErrorAndStop** or **false** (default). When a task fails, the remaining tasks in the `Target` element and the build aren't executed, and the entire `Target` element and the build is considered to have failed.<br /><br /> Versions of the .NET Framework before 4.5 supported only the `true` and `false` values.<br /><br /> For more information, see [How to: Ignore Errors in Tasks](../msbuild/how-to--ignore-errors-in-tasks.md).|  
+|`ContinueOnError`|Optional parameter. Can contain one of the following values:<br /><br /> -   **WarnAndContinue** or **true**. When a task fails, subsequent tasks in the [Target](../msbuild/target-element-msbuild.md) element and the build continue to execute, and all errors from the task are treated as warnings.<br />-   **ErrorAndContinue**. When a task fails, subsequent tasks in the `Target` element and the build continue to execute, and all errors from the task are treated as errors.<br />-   **ErrorAndStop** or **false** (default). When a task fails, the remaining tasks in the `Target` element and the build aren't executed, and the entire `Target` element and the build is considered to have failed.<br /><br /> Versions of the .NET Framework before 4.5 supported only the `true` and `false` values.<br /><br /> For more information, see [How to: Ignore Errors in Tasks](../msbuild/how-to-ignore-errors-in-tasks.md).|  
   
 ## In This Section  
  [Task Base Class](../msbuild/task-base-class.md)  
@@ -55,7 +56,7 @@ Tasks provide the code that runs during the build process. The tasks in the foll
  [ToolTaskExtension Base Class](../msbuild/tooltaskextension-base-class.md)  
  Adds several parameters to the tasks that derive from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class.  
   
- [AL (Assembly Linker) Task](../msbuild/al--assembly-linker--task.md)  
+ [AL (Assembly Linker) Task](../msbuild/al-assembly-linker-task.md)  
  Creates an assembly with a manifest from one or more files that are either modules or resource files.  
   
  [AspNetCompiler Task](../msbuild/aspnetcompiler-task.md)  

@@ -1,7 +1,7 @@
 ---
-title: "GetAssemblyIdentity Task"
+title: "GetAssemblyIdentity Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "GetAssemblyIdentity task [MSBuild]"
 ms.assetid: a977e072-37ad-4941-84a6-32a4483be55d
 caps.latest.revision: 8
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

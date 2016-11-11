@@ -1,7 +1,7 @@
 ---
-title: "Analyzing Application Quality by Using Code Analysis Tools"
+title: "Analyzing Application Quality by Using Code Analysis Tools | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,8 +17,9 @@ helpviewer_keywords:
   - "team-based development, analyzing application quality"
 ms.assetid: 21680516-ddb5-446d-90d4-19d94f6ec699
 caps.latest.revision: 24
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"
@@ -39,7 +40,7 @@ translation.priority.ht:
  [Analyzing Managed Code Quality](../code-quality/analyzing-managed-code-quality-by-using-code-analysis.md)  
  Visual Studio code analysis for managed code provides information about managed assemblies, such as violations of the programming and design rules set forth in the Microsoft .NET Framework Design Guidelines. Warning messages identify any relevant programming and design issues and, when it is possible, supply information about how to fix the problem.  
   
- [Analyzing C/C++ Code Quality by Using Code Analysis](../code-quality/analyzing-c-c---code-quality-by-using-code-analysis.md)  
+ [Analyzing C/C++ Code Quality by Using Code Analysis](../code-quality/analyzing-c-cpp-code-quality-by-using-code-analysis.md)  
  The C/C++ Code Analysis tool provides information to developers about possible defects in their C/C++ source code. Common coding errors reported by the tool include buffer overruns, un-initialized memory, null pointer dereferences, and memory and resource leaks.  
   
  [Using Rule Sets to Group Code Analysis Rules](../code-quality/using-rule-sets-to-group-code-analysis-rules.md)  

@@ -1,7 +1,7 @@
 ---
-title: "XML Schema Designer Workspace"
+title: "XML Schema Designer Workspace | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 588fa495-fe7f-4b16-8a9f-6b6b8d2d502a
 caps.latest.revision: 2
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -40,7 +41,7 @@ The XML Schema Designer (XSD Designer) is a graphical tool that helps you explor
   
 -   Drag and drop global nodes, file nodes, and namespace nodes from the XML Schema Explorer onto any of the three views. For more information, see the "Dragging and Dropping Nodes" section in [XML Schema Explorer](../xml-tools/xml-schema-explorer.md).  
   
--   Use the context menu in the XML Schema Explorer. For more information, see [Context Menus](../xml-tools/context-menus--xml-schema-explorer-.md).  
+-   Use the context menu in the XML Schema Explorer. For more information, see [Context Menus](../xml-tools/context-menus-xml-schema-explorer.md).  
   
 -   Perform a search in the XSD Explorer and click the **Add highlighted nodes to Workspace** button on the summary results pane. For more information, see [Searching the Schema Set](../xml-tools/searching-the-schema-set.md).  
   

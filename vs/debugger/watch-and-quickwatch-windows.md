@@ -1,7 +1,7 @@
 ---
-title: "Watch and QuickWatch Windows"
+title: "Watch and QuickWatch Windows | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/17/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -26,6 +26,7 @@ helpviewer_keywords:
   - "debugging [Visual Studio], expression evaluation"
 ms.assetid: d5c18377-2a0e-4819-a645-407e24ccc58c
 caps.latest.revision: 45
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

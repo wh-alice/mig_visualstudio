@@ -1,7 +1,7 @@
 ---
-title: "Services Used in Samples"
+title: "Services Used in Samples | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -40,7 +40,7 @@ The samples included in the [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk
 |Service|Sample|  
 |-------------|------------|  
 |<xref:Microsoft.VisualStudio.Shell.Interop.SLocalRegistry>|BscEdit, ProjectSubtype|  
-|<xref:Microsoft.VisualStudio.Shell.Interop.SVsActivityLog>|[How to: Use the Activity Log](../extensibility/how-to--use-the-activity-log.md)|  
+|<xref:Microsoft.VisualStudio.Shell.Interop.SVsActivityLog>|[How to: Use the Activity Log](../extensibility/how-to-use-the-activity-log.md)|  
 |<xref:Microsoft.VisualStudio.Shell.Interop.SVsAddProjectItemDlg>|BscPrj, FigPkg|  
 |<xref:Microsoft.VisualStudio.Shell.Interop.SVsCreateAggregateProject>|BscPrj|  
 |<xref:Microsoft.VisualStudio.Shell.Interop.SVsFileChange>|Deprecated. Use <xref:Microsoft.VisualStudio.Shell.Interop.SVsFileChangeEx> instead.|  

@@ -1,7 +1,7 @@
 ---
-title: "ShowWebBrowser Command"
+title: "ShowWebBrowser Command | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "View.ShowWebBrowser command"
 ms.assetid: c6a4fbd6-8e9d-45cc-8b2f-93990d065e78
 caps.latest.revision: 11
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

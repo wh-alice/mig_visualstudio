@@ -1,7 +1,7 @@
 ---
-title: "Debugging Web Applications and Script"
+title: "Debugging Web Applications and Script | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,6 +24,7 @@ helpviewer_keywords:
   - "applications [Visual Studio], debugging"
 ms.assetid: 6968625d-9783-4ad6-8bf5-eb85b548844c
 caps.latest.revision: 32
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -47,17 +48,17 @@ Table legend:
  This section describes common debugging techniques for Web applications. For more information, see [Debugger Basics](../debugger/debugger-basics.md).  
   
 ## In This Section  
- [Debugging ASP.NET and AJAX Applications](../debugger/debugging-asp.net-and-ajax-applications.md)  
+ [Debugging ASP.NET and AJAX Applications](../debugger/debugging-aspnet-and-ajax-applications.md)  
  Provides prerequisites and instructions for how to debug a [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] application during development or after deployment.  
   
- [Debugging Web Applications: Errors and Troubleshooting](../debugger/debugging-web-applications--errors-and-troubleshooting.md)  
+ [Debugging Web Applications: Errors and Troubleshooting](../debugger/debugging-web-applications-errors-and-troubleshooting.md)  
  Lists errors that you might experience while you debug Web applications and suggests fixes.  
   
- [Walkthrough: Debugging a Parallel Application](../debugger/walkthrough--debugging-a-parallel-application.md)  
+ [Walkthrough: Debugging a Parallel Application](../debugger/walkthrough-debugging-a-parallel-application.md)  
  Describes how to use the **Parallel Tasks** and **Parallel Stacks** tool windows to debug a parallel application.  
   
 ## Related Sections  
- [ASP.NET Web Applications](../debugger/debugging-preparation--asp.net-web-applications.md)  
+ [ASP.NET Web Applications](../debugger/debugging-preparation-aspnet-web-applications.md)  
  Describes the default project settings and behavior of [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application projects, steps for debugging, and changing the default Debug configuration.  
   
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)  

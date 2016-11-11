@@ -1,7 +1,7 @@
 ---
-title: "IDebugArrayObject2"
+title: "IDebugArrayObject2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -50,8 +50,8 @@ IDebugArrayObject2 : IDebugArrayObject
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetBaseIndices](../../../extensibility/debugger/reference/idebugarrayobject2--getbaseindices.md)|Retrieves the base indices (lower bounds) for each index given the number of dimensions in the array.|  
-|[HasBaseIndices](../../../extensibility/debugger/reference/idebugarrayobject2--hasbaseindices.md)|Determines if the array has base indices (lower bounds) defined.|  
+|[GetBaseIndices](../../../extensibility/debugger/reference/idebugarrayobject2-getbaseindices.md)|Retrieves the base indices (lower bounds) for each index given the number of dimensions in the array.|  
+|[HasBaseIndices](../../../extensibility/debugger/reference/idebugarrayobject2-hasbaseindices.md)|Determines if the array has base indices (lower bounds) defined.|  
   
 ## Remarks  
  An expression evaluator uses this interface to represent managed arrays in a parse tree.  

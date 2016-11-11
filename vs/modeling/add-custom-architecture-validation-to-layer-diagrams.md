@@ -1,7 +1,7 @@
 ---
-title: "Add custom architecture validation to layer diagrams"
+title: "Add custom architecture validation to layer diagrams | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ helpviewer_keywords:
   - "layer diagrams, adding custom validation"
 ms.assetid: fed7bc08-295a-46d6-9fd8-fb537f1f75f1
 caps.latest.revision: 42
+author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
 translation.priority.ht: 
@@ -224,7 +225,7 @@ In Visual Studio, users can validate the source code in a project against a laye
  Always start the experimental instance by pressing CTRL+F5 (**Start without Debugging**).  
   
 ### Deploying a Validation Extension  
- To install your validation extension on a computer on which a suitable version of Visual Studio is installed, open the VSIX file on the target computer. To install on a computer on which [!INCLUDE[esprbuild](../modeling/includes/esprbuild_md.md)] is installed, you must manually extract the VSIX contents into an Extensions folder. For more information, see [Deploy a layer model extension](../modeling/deploy-a-layer-model-extension.md).  
+ To install your validation extension on a computer on which a suitable version of Visual Studio is installed, open the VSIX file on the target computer. To install on a computer on which [!INCLUDE[esprbuild](../misc/includes/esprbuild_md.md)] is installed, you must manually extract the VSIX contents into an Extensions folder. For more information, see [Deploy a layer model extension](../modeling/deploy-a-layer-model-extension.md).  
   
 ##  <a name="example"></a> Example code  
   

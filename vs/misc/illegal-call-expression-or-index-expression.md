@@ -1,5 +1,5 @@
 ---
-title: "Illegal call expression or index expression"
+title: "Illegal call expression or index expression | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "BC32303"
 ms.assetid: eed6a16e-4a44-4f72-b1de-d4212940da37
 caps.latest.revision: 10
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 

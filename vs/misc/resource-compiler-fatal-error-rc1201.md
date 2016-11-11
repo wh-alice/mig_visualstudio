@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Fatal Error RC1201"
+title: "Resource Compiler Fatal Error RC1201 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC1201"
 ms.assetid: 1f5a4d81-f53a-4ae0-ab29-87e795d3217f
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

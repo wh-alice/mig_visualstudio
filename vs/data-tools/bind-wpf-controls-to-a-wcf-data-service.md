@@ -1,7 +1,7 @@
 ---
-title: "Bind WPF controls to a WCF data service"
+title: "Bind WPF controls to a WCF data service | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "WPF Designer, data binding"
 ms.assetid: 8823537c-82f0-41f7-bf30-705f0e5e59fd
 caps.latest.revision: 40
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 translation.priority.ht: 
@@ -92,7 +93,7 @@ In this walkthrough, you will create a WPF application that contains data-bound 
 6.  In **Solution Explorer**, right-click **Default.aspx** and select **Delete**. This file is not necessary in this walkthrough.  
   
 ## Create an Entity Data Model for the service  
- To expose data to an application by using a [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)], you must define a data model for the service. The [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)] supports two types of data models: Entity Data Models, and custom data models that are defined by using common language runtime (CLR) objects that implement the <xref:System.Linq.IQueryable`1> interface. In this walkthrough, you create an Entity Data Model for the data model.  
+ To expose data to an application by using a [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)], you must define a data model for the service. The [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)] supports two types of data models: Entity Data Models, and custom data models that are defined by using common language runtime (CLR) objects that implement the <xref:System.Linq.IQueryable%601> interface. In this walkthrough, you create an Entity Data Model for the data model.  
   
 #### To create an Entity Data Model  
   
@@ -141,7 +142,7 @@ In this walkthrough, you will create a WPF application that contains data-bound 
      [!code-cs[Data_WPFWCF#1](../data-tools/codesnippet/CSharp/bind-wpf-controls-to-a-wcf-data-service_1.cs)]
      [!code-vb[Data_WPFWCF#1](../data-tools/codesnippet/VisualBasic/bind-wpf-controls-to-a-wcf-data-service_1.vb)]  
   
-     This code updates the `AdventureWorksService` class, so that it derives from a <xref:System.Data.Services.DataService`1> that operates on the `AdventureWorksLTEntities` object context class in your Entity Data Model. It also updates the `InitializeService` method to allow clients of the service full read/write access to the `SalesOrderHeader` entity.  
+     This code updates the `AdventureWorksService` class, so that it derives from a <xref:System.Data.Services.DataService%601> that operates on the `AdventureWorksLTEntities` object context class in your Entity Data Model. It also updates the `InitializeService` method to allow clients of the service full read/write access to the `SalesOrderHeader` entity.  
   
 2.  Build the project, and verify that it builds without errors.  
   
@@ -329,7 +330,7 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
 -   Learn how to use the **Data Sources** window in Visual Studio to bind WPF controls to other types of data sources. For more information, see [Bind WPF controls to a dataset](../data-tools/bind-wpf-controls-to-a-dataset.md).  
   
--   Learn how to use the **Data Sources** window in Visual Studio to display related data (that is, data in a parent-child relationship) in WPF controls. For more information, see [Walkthrough: Displaying Related Data in a WPF Application](../data-tools/walkthrough--displaying-related-data-in-a-wpf-application.md).  
+-   Learn how to use the **Data Sources** window in Visual Studio to display related data (that is, data in a parent-child relationship) in WPF controls. For more information, see [Walkthrough: Displaying Related Data in a WPF Application](../data-tools/walkthrough-displaying-related-data-in-a-wpf-application.md).  
   
 ## See Also  
  [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md)   

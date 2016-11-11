@@ -1,7 +1,7 @@
 ---
-title: "Signing in to Visual Studio"
+title: "Signing in to Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b9531c25-e4cf-43ae-b331-a9f31a8cd171
 caps.latest.revision: 30
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

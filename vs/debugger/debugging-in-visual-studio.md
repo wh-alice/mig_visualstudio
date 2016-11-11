@@ -1,7 +1,7 @@
 ---
-title: "Debugging in Visual Studio"
+title: "Debugging in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/17/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "debugger"
 ms.assetid: 590f152d-31e2-4e13-b808-a1b13e421483
 caps.latest.revision: 51
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

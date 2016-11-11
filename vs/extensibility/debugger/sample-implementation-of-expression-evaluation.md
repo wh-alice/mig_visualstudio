@@ -1,7 +1,7 @@
 ---
-title: "Sample Implementation of Expression Evaluation"
+title: "Sample Implementation of Expression Evaluation | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,7 +36,7 @@ translation.priority.mt:
 > [!IMPORTANT]
 >  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
   
- For a **Watch** window expression, Visual Studio calls [ParseText](../../extensibility/debugger/reference/idebugexpressioncontext2--parsetext.md) to produce an [IDebugExpression2](../../extensibility/debugger/reference/idebugexpression2.md) object. `IDebugExpressionContext2::ParseText` instantiates an expression evaluator (EE) and calls [Parse](../../extensibility/debugger/reference/idebugexpressionevaluator--parse.md) to obtain an [IDebugParsedExpression](../../extensibility/debugger/reference/idebugparsedexpression.md) object.  
+ For a **Watch** window expression, Visual Studio calls [ParseText](../../extensibility/debugger/reference/idebugexpressioncontext2-parsetext.md) to produce an [IDebugExpression2](../../extensibility/debugger/reference/idebugexpression2.md) object. `IDebugExpressionContext2::ParseText` instantiates an expression evaluator (EE) and calls [Parse](../../extensibility/debugger/reference/idebugexpressionevaluator-parse.md) to obtain an [IDebugParsedExpression](../../extensibility/debugger/reference/idebugparsedexpression.md) object.  
   
  This implementation of `IDebugExpressionEvaluator::Parse` performs the following tasks:  
   
@@ -50,7 +50,7 @@ translation.priority.mt:
 >  In the examples that follow and in the MyCEE sample, the expression evaluator does not separate the parsing from the evaluation.  
   
 ## Managed Code  
- This is an implementation of `IDebugExpressionEvaluator::Parse` in managed code. Note that this version of the method defers the parsing to [EvaluateSync](../../extensibility/debugger/reference/idebugparsedexpression--evaluatesync.md) as the code for parsing also evaluates at the same time (see [Evaluating a Watch Expression](../../extensibility/debugger/evaluating-a-watch-expression.md)).  
+ This is an implementation of `IDebugExpressionEvaluator::Parse` in managed code. Note that this version of the method defers the parsing to [EvaluateSync](../../extensibility/debugger/reference/idebugparsedexpression-evaluatesync.md) as the code for parsing also evaluates at the same time (see [Evaluating a Watch Expression](../../extensibility/debugger/evaluating-a-watch-expression.md)).  
   
 ```c#  
 namespace EEMC  
@@ -77,7 +77,7 @@ namespace EEMC
 ```  
   
 ## Unmanaged Code  
- This is an implementation of `IDebugExpressionEvaluator::Parse` in unmanaged code. This method calls a helper function, `Parse`, to parse the expression and check for errors but this method ignores the resulting value. The formal evaluation is deferred to [EvaluateSync](../../extensibility/debugger/reference/idebugparsedexpression--evaluatesync.md) where the expression is parsed while it is evaluated (see [Evaluating a Watch Expression](../../extensibility/debugger/evaluating-a-watch-expression.md)).  
+ This is an implementation of `IDebugExpressionEvaluator::Parse` in unmanaged code. This method calls a helper function, `Parse`, to parse the expression and check for errors but this method ignores the resulting value. The formal evaluation is deferred to [EvaluateSync](../../extensibility/debugger/reference/idebugparsedexpression-evaluatesync.md) where the expression is parsed while it is evaluated (see [Evaluating a Watch Expression](../../extensibility/debugger/evaluating-a-watch-expression.md)).  
   
 ```cpp#  
 STDMETHODIMP CExpressionEvaluator::Parse(  

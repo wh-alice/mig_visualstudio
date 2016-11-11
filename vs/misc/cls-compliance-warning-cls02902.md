@@ -1,7 +1,7 @@
 ---
-title: "CLS Compliance Warning CLS02902"
+title: "CLS Compliance Warning CLS02902 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CLS02902"
 ms.assetid: 028c91fc-d3bb-4c97-92e6-159b5d663fc2
 caps.latest.revision: 7
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

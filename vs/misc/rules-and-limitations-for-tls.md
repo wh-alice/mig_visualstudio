@@ -1,7 +1,7 @@
 ---
-title: "Rules and Limitations for TLS"
+title: "Rules and Limitations for TLS | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "Thread Local Storage [C++]"
 ms.assetid: 8a084477-c35e-4e13-b11f-bc7e07b9b998
 caps.latest.revision: 10
+author: "erickson-doug"
 ms.author: "douge"
 manager: "douge"
 translation.priority.ht: 
@@ -39,4 +40,4 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Rules and Limitations for TLS
-This content has moved to [Thread Local Storage (TLS)](../Topic/Thread%20Local%20Storage%20\(TLS\).md)
+This content has moved to [Thread Local Storage (TLS)](/visual-cpp/parallel/multithreading/thread-local-storage-tls)

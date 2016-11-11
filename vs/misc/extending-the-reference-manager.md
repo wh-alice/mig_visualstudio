@@ -1,7 +1,7 @@
 ---
-title: "Extending the Reference Manager"
+title: "Extending the Reference Manager | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -156,4 +156,4 @@ m_bstrStartBrowse);
 ```  
   
 ## See Also  
- [How to: Add or Remove References By Using the Reference Manager](../ide/how-to--add-or-remove-references-by-using-the-reference-manager.md)
+ [How to: Add or Remove References By Using the Reference Manager](../ide/how-to-add-or-remove-references-by-using-the-reference-manager.md)

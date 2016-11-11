@@ -1,7 +1,7 @@
 ---
-title: "DisassemblyData"
+title: "DisassemblyData | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -75,7 +75,7 @@ public struct DisassemblyData { 
   
 ## Members  
  `dwFields`  
- The [DISASSEMBLY_STREAM_FIELDS](../../../extensibility/debugger/reference/disassembly_stream_fields.md) constant that specifies which fields are filled out.  
+ The [DISASSEMBLY_STREAM_FIELDS](../../../extensibility/debugger/reference/disassembly-stream-fields.md) constant that specifies which fields are filled out.  
   
  `bstrAddress`  
  The address as an offset from some starting point (usually the beginning of the associated function).  
@@ -96,15 +96,15 @@ public struct DisassemblyData { 
  The code location identifier for this disassembled line. If the code context address of one line is greater than the code context address of another, then the disassembled code location identifier of the first will also be greater than the code location identifier of the second.  
   
  `posBeg`  
- The [TEXT_POSITION](../../../extensibility/debugger/reference/text_position.md) that corresponds to the position in a document where the disassembly data begins.  
+ The [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) that corresponds to the position in a document where the disassembly data begins.  
   
  `posEnd`  
- The [TEXT_POSITION](../../../extensibility/debugger/reference/text_position.md) that corresponds to the position in a document where the disassembly data ends.  
+ The [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) that corresponds to the position in a document where the disassembly data ends.  
   
  `bstrDocumentUrl`  
  For text documents that can be represented as file names, the `bstrDocumentUrl` field is filled in with the file name where the source can be found, using the format `file://file name`.  
   
- For text documents that cannot be represented as file names, `bstrDocumentUrl` is a unique identifier for the document, and the debug engine must implement the [GetDocument](../../../extensibility/debugger/reference/idebugdisassemblystream2--getdocument.md) method.  
+ For text documents that cannot be represented as file names, `bstrDocumentUrl` is a unique identifier for the document, and the debug engine must implement the [GetDocument](../../../extensibility/debugger/reference/idebugdisassemblystream2-getdocument.md) method.  
   
  This field can also contain additional information about checksums. See Remarks for details.  
   
@@ -112,12 +112,12 @@ public struct DisassemblyData { 
  The number of bytes the instruction is from the beginning of the code line.  
   
  `dwFlags`  
- The [DISASSEMBLY_FLAGS](../../../extensibility/debugger/reference/disassembly_flags.md) constant that specifies which flags are active.  
+ The [DISASSEMBLY_FLAGS](../../../extensibility/debugger/reference/disassembly-flags.md) constant that specifies which flags are active.  
   
 ## Remarks  
- Each `DisassemblyData` structure describes one instruction of disassembly. An array of these structures is returned from the [Read](../../../extensibility/debugger/reference/idebugdisassemblystream2--read.md) method.  
+ Each `DisassemblyData` structure describes one instruction of disassembly. An array of these structures is returned from the [Read](../../../extensibility/debugger/reference/idebugdisassemblystream2-read.md) method.  
   
- The [TEXT_POSITION](../../../extensibility/debugger/reference/text_position.md) structure is used for text-based documents only. The source code range for this instruction is filled out only for the first instruction generated from a statement or line, for example, when `dwByteOffset == 0`.  
+ The [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md) structure is used for text-based documents only. The source code range for this instruction is filled out only for the first instruction generated from a statement or line, for example, when `dwByteOffset == 0`.  
   
  For documents that are non-textual, a document context can be obtained from the code, and the `bstrDocumentUrl` field should be a null value. If the `bstrDocumentUrl` field is the same as the `bstrDocumentUrl` field in the previous `DisassemblyData` array element, then set the `bstrDocumentUrl` to a null value.  
   
@@ -237,9 +237,9 @@ namespace MyNamespace
   
 ## See Also  
  [Structures and Unions](../../../extensibility/debugger/reference/structures-and-unions.md)   
- [Read](../../../extensibility/debugger/reference/idebugdisassemblystream2--read.md)   
- [DISASSEMBLY_STREAM_FIELDS](../../../extensibility/debugger/reference/disassembly_stream_fields.md)   
+ [Read](../../../extensibility/debugger/reference/idebugdisassemblystream2-read.md)   
+ [DISASSEMBLY_STREAM_FIELDS](../../../extensibility/debugger/reference/disassembly-stream-fields.md)   
  [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md)   
  [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md)   
- [TEXT_POSITION](../../../extensibility/debugger/reference/text_position.md)   
- [DISASSEMBLY_FLAGS](../../../extensibility/debugger/reference/disassembly_flags.md)
+ [TEXT_POSITION](../../../extensibility/debugger/reference/text-position.md)   
+ [DISASSEMBLY_FLAGS](../../../extensibility/debugger/reference/disassembly-flags.md)

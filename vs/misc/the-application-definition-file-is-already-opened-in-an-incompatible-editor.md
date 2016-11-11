@@ -1,7 +1,7 @@
 ---
-title: "The application definition file is already opened in an incompatible editor"
+title: "The application definition file is already opened in an incompatible editor | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "msbuild, errors"
 ms.assetid: c5bde1ec-f410-4143-ba30-767b272b7ccb
 caps.latest.revision: 5
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -48,5 +49,5 @@ translation.priority.mt:
   
 ## See Also  
  [Additional Resources](../msbuild/additional-msbuild-resources.md)   
- [There was an error trying to open or create the application definition file for this project. '\<error>'](../misc/ca2f2204-acfc-4fc6-8306-4dfd96ec507f.md)   
- [An error occurred trying to create the application events file. '\<error>'](../misc/an-error-occurred-trying-to-create-the-application-events-file.---error--.md)
+ [There was an error trying to open or create the application definition file for this project. '\<error>'](../misc/there-was-an-error-trying-to-open-or-create-the-application-definition-file-for-this-project-error.md)   
+ [An error occurred trying to create the application events file. '\<error>'](../misc/an-error-occurred-trying-to-create-the-application-events-file-error.md)

@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Warning RC4203"
+title: "Resource Compiler Warning RC4203 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC4203"
 ms.assetid: f0547f65-3f6e-4105-86a0-69e66c2dfdae
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

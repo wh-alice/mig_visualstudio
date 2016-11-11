@@ -1,5 +1,5 @@
 ---
-title: "No input sources specified"
+title: "No input sources specified | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "BC2008"
 ms.assetid: a919c834-d1ff-4c6f-85ed-b11c662c918d
 caps.latest.revision: 9
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 

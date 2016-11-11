@@ -1,7 +1,7 @@
 ---
-title: "Navigate and update layer models in program code"
+title: "Navigate and update layer models in program code | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "layer models, updating in program code"
 ms.assetid: c60edc87-33ee-4964-a954-40069f9febf3
 caps.latest.revision: 20
+author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
 translation.priority.ht: 
@@ -30,7 +31,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Navigate and update layer models in program code
-This topic describes the elements and relationships in layer models, which you can navigate and update by using program code. For more information about layer diagrams from the user's point of view, see [Layer Diagrams: Reference](../modeling/layer-diagrams--reference.md) and [Layer Diagrams: Guidelines](../modeling/layer-diagrams--guidelines.md).  
+This topic describes the elements and relationships in layer models, which you can navigate and update by using program code. For more information about layer diagrams from the user's point of view, see [Layer Diagrams: Reference](../modeling/layer-diagrams-reference.md) and [Layer Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md).  
   
  The <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer> model described in this topic is a façade on a more general <xref:Microsoft.VisualStudio.GraphModel> model. If you are writing a [menu command or gesture extension](../modeling/add-commands-and-gestures-to-layer-diagrams.md), use the `Layer` model. If you are writing a [layer validation extension](../modeling/add-custom-architecture-validation-to-layer-diagrams.md), it is easier to use the `GraphModel`.  
   
@@ -105,7 +106,7 @@ IEnumerable<ILayerComment> comments =
   
  <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer.ILayerArtifactReference>. The Categories property indicates what kind of artifact is referenced, such as a class, executable file, or assembly. Categories determines how the Identifier identifies the target artifact.  
   
- <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer.ArtifactReferenceExtensions.CreateArtifactReferenceAsync*> creates an artifact reference from an <xref:EnvDTE.Project> or <xref:EnvDTE.ProjectItem>. This is an asynchronous operation. Therefore, you usually provide a callback that is called when the creation is complete.  
+ <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.Layer.ArtifactReferenceExtensions.CreateArtifactReferenceAsync%2A> creates an artifact reference from an <xref:EnvDTE.Project> or <xref:EnvDTE.ProjectItem>. This is an asynchronous operation. Therefore, you usually provide a callback that is called when the creation is complete.  
   
  Layer Artifact References should not be confused with Artifacts in use case diagrams.  
   
@@ -139,6 +140,6 @@ public void ... (...)
  [Add commands and gestures to layer diagrams](../modeling/add-commands-and-gestures-to-layer-diagrams.md)   
  [Add custom architecture validation to layer diagrams](../modeling/add-custom-architecture-validation-to-layer-diagrams.md)   
  [Add custom properties to layer diagrams](../modeling/add-custom-properties-to-layer-diagrams.md)   
- [Layer Diagrams: Reference](../modeling/layer-diagrams--reference.md)   
- [Layer Diagrams: Guidelines](../modeling/layer-diagrams--guidelines.md)   
+ [Layer Diagrams: Reference](../modeling/layer-diagrams-reference.md)   
+ [Layer Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)   
  [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md)

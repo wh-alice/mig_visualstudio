@@ -1,7 +1,7 @@
 ---
-title: "JavaScript IntelliSense"
+title: "JavaScript IntelliSense | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -28,6 +28,7 @@ helpviewer_keywords:
   - "XML documentation comments [JavaScript]"
 ms.assetid: af1a3171-c9d8-45a3-9c96-a763e3b163ef
 caps.latest.revision: 63
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -240,7 +241,7 @@ IntelliSense helps you write code faster and with fewer errors by providing info
   
 -   Generic, for other JavaScript project types.  
   
- In most scenarios, you don't have to modify reference groups. However, if you want to make changes, you can use configuration options for the JavaScript Code Editor to specify the files included in the reference groups. For instructions about using this feature, see [Options, Text Editor, JavaScript, IntelliSense](../ide/reference/options--text-editor--javascript--intellisense.md).  
+ In most scenarios, you don't have to modify reference groups. However, if you want to make changes, you can use configuration options for the JavaScript Code Editor to specify the files included in the reference groups. For instructions about using this feature, see [Options, Text Editor, JavaScript, IntelliSense](../ide/reference/options-text-editor-javascript-intellisense.md).  
   
 > [!TIP]
 >  The IntelliSense references are typically used to provide IntelliSense support for global objects and for IntelliSense [extensions](#Extensibility). You can also use this feature for scripts that must be loaded at runtime using the script loader.  
@@ -251,13 +252,13 @@ IntelliSense helps you write code faster and with fewer errors by providing info
 > [!NOTE]
 >  Except for Web projects, this feature works only for JavaScript files that are opened outside the context of a project. For Web projects, remote files referenced in your project are downloaded by default.  
   
- For instructions about using this feature, see [Options, Text Editor, JavaScript, IntelliSense](../ide/reference/options--text-editor--javascript--intellisense.md).  
+ For instructions about using this feature, see [Options, Text Editor, JavaScript, IntelliSense](../ide/reference/options-text-editor-javascript-intellisense.md).  
   
 > [!WARNING]
 >  If you enable this feature and you observe slower performance in the Code Editor, we recommend that you disable it.  
   
 ###  <a name="XMLDocComments"></a> XML Documentation Comments  
- XML documentation comments are text descriptions of code elements that you add to script. These text descriptions are displayed in IntelliSense when you reference the commented script. For example, you can provide information about a function's parameters and return value. XML documentation comments are available only from referenced files, assemblies, and services. For more information, see [XML Documentation Comments](../ide/xml-documentation-comments--javascript-.md) and [Create XML Documentation Comments](../ide/create-xml-documentation-comments-for-javascript-intellisense.md).  
+ XML documentation comments are text descriptions of code elements that you add to script. These text descriptions are displayed in IntelliSense when you reference the commented script. For example, you can provide information about a function's parameters and return value. XML documentation comments are available only from referenced files, assemblies, and services. For more information, see [XML Documentation Comments](../ide/xml-documentation-comments-javascript.md) and [Create XML Documentation Comments](../ide/create-xml-documentation-comments-for-javascript-intellisense.md).  
   
  IntelliSense can display XML documentation comments in the following scenarios:  
   
@@ -292,7 +293,7 @@ IntelliSense helps you write code faster and with fewer errors by providing info
  [Create XML Documentation Comments](../ide/create-xml-documentation-comments-for-javascript-intellisense.md)   
  [Extending JavaScript IntelliSense](../ide/extending-javascript-intellisense.md)   
  [Statement Completion for Identifiers](../ide/statement-completion-for-identifiers.md)   
- [XML Documentation Comments](../ide/xml-documentation-comments--javascript-.md)   
+ [XML Documentation Comments](../ide/xml-documentation-comments-javascript.md)   
  [About the DHTML Object Model](http://go.microsoft.com/fwlink/?LinkID=92344)   
  [List Members](http://msdn.microsoft.com/en-us/1b9cc469-9cd4-4d42-9999-1f9479635ff8)   
  [SRC Attribute &#124; src Property](http://go.microsoft.com/fwlink/?LinkId=92345)

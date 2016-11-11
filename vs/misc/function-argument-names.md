@@ -1,7 +1,7 @@
 ---
-title: "Function Argument Names"
+title: "Function Argument Names | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "function parameters [C++]"
 ms.assetid: 74fd27e1-4fb0-4eb3-98d3-fcd1f6b4f73d
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -38,4 +39,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Function Argument Names
-Content has moved to  [Summary of Scope Rules](../Topic/Summary%20of%20Scope%20Rules.md).
+Content has moved to  [Summary of Scope Rules](/visual-cpp/cpp/summary-of-scope-rules).

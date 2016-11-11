@@ -1,7 +1,7 @@
 ---
-title: "New File Command"
+title: "New File Command | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "New File command"
 ms.assetid: 767868d6-a525-425b-a43b-2198f636ab6b
 caps.latest.revision: 12
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

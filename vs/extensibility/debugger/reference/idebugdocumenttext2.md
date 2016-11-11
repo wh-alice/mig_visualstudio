@@ -1,7 +1,7 @@
 ---
-title: "IDebugDocumentText2"
+title: "IDebugDocumentText2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -52,8 +52,8 @@ IDebugDocumentText2 : IDebugDocument2
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetSize](../../../extensibility/debugger/reference/idebugdocumenttext2--getsize.md)|Retrieves the size of the text at this position in the document.|  
-|[GetText](../../../extensibility/debugger/reference/idebugdocumenttext2--gettext.md)|Retrieves the text from the specified position in the document.|  
+|[GetSize](../../../extensibility/debugger/reference/idebugdocumenttext2-getsize.md)|Retrieves the size of the text at this position in the document.|  
+|[GetText](../../../extensibility/debugger/reference/idebugdocumenttext2-gettext.md)|Retrieves the text from the specified position in the document.|  
   
 ## Remarks  
  An object that implements this interface must also implement the <xref:System.Runtime.InteropServices.ComTypes.IConnectionPointContainer> interface, which supplies the <xref:System.Runtime.InteropServices.ComTypes.IConnectionPoint> interface for an [IDebugDocumentTextEvents2](../../../extensibility/debugger/reference/idebugdocumenttextevents2.md) object.  

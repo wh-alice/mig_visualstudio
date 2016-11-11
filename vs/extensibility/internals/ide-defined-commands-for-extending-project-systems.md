@@ -1,7 +1,7 @@
 ---
-title: "IDE-Defined Commands for Extending Project Systems"
+title: "IDE-Defined Commands for Extending Project Systems | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -83,6 +83,6 @@ When you want to extend project systems, you can use commands and command groups
 |IDG_VS_CTXT_PROJECT_PROPERTIES|Commands that provide access to the **Project Properties** dialog box.|  
   
 ## See Also  
- [How VSPackages Add User Interface Elements](../Topic/How%20VSPackages%20Add%20User%20Interface%20Elements.md)   
- [MenuCommands Vs. OleMenuCommands](../../misc/menucommands-vs.-olemenucommands.md)   
+ [How VSPackages Add User Interface Elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
+ [MenuCommands Vs. OleMenuCommands](../../misc/menucommands-vs-olemenucommands.md)   
  [Creating Reusable Groups of Buttons](../../extensibility/creating-reusable-groups-of-buttons.md)

@@ -1,7 +1,7 @@
 ---
-title: "Property Sheet Example"
+title: "Property Sheet Example | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "property sheets, example"
 ms.assetid: a8fcb3a7-6642-4631-b37d-bbe3040cc4f0
 caps.latest.revision: 13
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -33,4 +34,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Property Sheet Example
-This content has been moved to [Working with Project Properties](../Topic/Working%20with%20Project%20Properties.md).
+This content has been moved to [Working with Project Properties](/visual-cpp/ide/working-with-project-properties).

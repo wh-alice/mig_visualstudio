@@ -1,7 +1,7 @@
 ---
-title: "Restrictions"
+title: "Restrictions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "arrays [C++], declaring"
 ms.assetid: ca74a0b7-3ffb-4cec-916a-91c9d7a6776e
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 

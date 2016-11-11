@@ -1,7 +1,7 @@
 ---
-title: "BasicType"
+title: "BasicType | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "BasicType enumeration"
 ms.assetid: 19ae53ba-cd6e-47b6-9f94-27ae663ce955
 caps.latest.revision: 7
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -117,12 +118,12 @@ enum BasicType { 
  Basic type is an `HRESULT`.  
   
 ## Remarks  
- The values in this enumeration are returned by the [IDiaSymbol::get_baseType](../../debugger/debug-interface-access/idiasymbol--get_basetype.md) method.  
+ The values in this enumeration are returned by the [IDiaSymbol::get_baseType](../../debugger/debug-interface-access/idiasymbol-get-basetype.md) method.  
   
 ## Requirements  
  Header: cvconst.h  
   
 ## See Also  
  [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)   
- [IDiaSymbol::get_baseType](../../debugger/debug-interface-access/idiasymbol--get_basetype.md)   
- [IDiaSymbol::get_length](../../debugger/debug-interface-access/idiasymbol--get_length.md)
+ [IDiaSymbol::get_baseType](../../debugger/debug-interface-access/idiasymbol-get-basetype.md)   
+ [IDiaSymbol::get_length](../../debugger/debug-interface-access/idiasymbol-get-length.md)

@@ -1,7 +1,7 @@
 ---
-title: "Directly access the database with a TableAdapter"
+title: "Directly access the database with a TableAdapter | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -26,6 +26,7 @@ helpviewer_keywords:
   - "TableAdapters"
 ms.assetid: 012c5924-91f7-4790-b2a6-f51402b7014b
 caps.latest.revision: 12
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 translation.priority.ht: 

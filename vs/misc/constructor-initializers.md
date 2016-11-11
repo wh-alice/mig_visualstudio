@@ -1,7 +1,7 @@
 ---
-title: "Constructor Initializers"
+title: "Constructor Initializers | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "initializers, constructor initializer scope"
 ms.assetid: 68c5d523-e661-4d2f-aa35-f5b189f6dd35
 caps.latest.revision: 8
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -34,4 +35,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Constructor Initializers
-Content has moved to  [Summary of Scope Rules](../Topic/Summary%20of%20Scope%20Rules.md).
+Content has moved to  [Summary of Scope Rules](/visual-cpp/cpp/summary-of-scope-rules).

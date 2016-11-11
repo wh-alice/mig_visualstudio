@@ -1,7 +1,7 @@
 ---
-title: "Processes"
+title: "Processes | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -43,9 +43,9 @@ In terms of the debugger architecture, a **process**:
   
 -   Can create one or more programs, terminate any of the programs it creates, or cause a program to stop.  
   
--   Is represented by an [IDebugProcess2](../../extensibility/debugger/reference/idebugprocess2.md) interface, which is created when the process is launched. A process is launched by either the session debug manager (SDM) or [LaunchSuspended](../../extensibility/debugger/reference/idebugenginelaunch2--launchsuspended.md).  
+-   Is represented by an [IDebugProcess2](../../extensibility/debugger/reference/idebugprocess2.md) interface, which is created when the process is launched. A process is launched by either the session debug manager (SDM) or [LaunchSuspended](../../extensibility/debugger/reference/idebugenginelaunch2-launchsuspended.md).  
   
- The debug package can attach a debug engine (DE) to a process by calling [Attach](../../extensibility/debugger/reference/idebugprocess2--attach.md). This means that the DE attaches to all possible programs running in the process that it can handle. For example, if the common language runtime DE attaches to a process, it attaches only to programs that are running managed code.  
+ The debug package can attach a debug engine (DE) to a process by calling [Attach](../../extensibility/debugger/reference/idebugprocess2-attach.md). This means that the DE attaches to all possible programs running in the process that it can handle. For example, if the common language runtime DE attaches to a process, it attaches only to programs that are running managed code.  
   
 ## See Also  
  [Programs](../../extensibility/debugger/programs.md)   
@@ -54,5 +54,5 @@ In terms of the debugger architecture, a **process**:
  [Debug Package](../../extensibility/debugger/debug-package.md)   
  [Debug Engine](../../extensibility/debugger/debug-engine.md)   
  [IDebugProcess2](../../extensibility/debugger/reference/idebugprocess2.md)   
- [LaunchSuspended](../../extensibility/debugger/reference/idebugenginelaunch2--launchsuspended.md)   
- [Attach](../../extensibility/debugger/reference/idebugprocess2--attach.md)
+ [LaunchSuspended](../../extensibility/debugger/reference/idebugenginelaunch2-launchsuspended.md)   
+ [Attach](../../extensibility/debugger/reference/idebugprocess2-attach.md)

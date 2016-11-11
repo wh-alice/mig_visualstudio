@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB3023"
+title: "MSBuild Error MSB3023 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB3023"
 ms.assetid: 3505ad1e-d54f-4cb4-a299-ac03684cb391
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

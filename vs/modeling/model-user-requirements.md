@@ -1,7 +1,7 @@
 ---
-title: "Model user requirements"
+title: "Model user requirements | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "UML, modeling requirements"
 ms.assetid: 359900f8-6d69-493d-bfdf-2c9069c74a26
 caps.latest.revision: 28
+author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
 translation.priority.ht: 
@@ -98,8 +99,8 @@ Visual Studio helps you understand, discuss, and communicate your users' needs b
   
 |To learn about|Read|  
 |--------------------|----------|  
-|More detailed information about how to create use cases|[UML Use Case Diagrams: Guidelines](../modeling/uml-use-case-diagrams--guidelines.md)|  
-|Elements on a use case diagram|[UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams--reference.md)|  
+|More detailed information about how to create use cases|[UML Use Case Diagrams: Guidelines](../modeling/uml-use-case-diagrams-guidelines.md)|  
+|Elements on a use case diagram|[UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams-reference.md)|  
 |How to develop code from use cases|[Model your app's architecture](../modeling/model-your-app-s-architecture.md)|  
   
 ##  <a name="RequirementsClasses"></a> Defining Terms Used to Describe Requirements  
@@ -143,8 +144,8 @@ Visual Studio helps you understand, discuss, and communicate your users' needs b
   
 |To learn about|Read|  
 |--------------------|----------|  
-|More detailed information about finding requirements classes|[UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams--guidelines.md)|  
-|Elements on a conceptual class diagram|[UML Class Diagrams: Reference](../modeling/uml-class-diagrams--reference.md)|  
+|More detailed information about finding requirements classes|[UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams-guidelines.md)|  
+|Elements on a conceptual class diagram|[UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)|  
 |How to develop code from conceptual classes|[Model your app's architecture](../modeling/model-your-app-s-architecture.md)|  
   
  In a conceptual class diagram, it is typically not useful to place arrows on the associations to represent navigability. This is because the diagram does not represent an implementation. The associations represent relationships between real-world objects. The following [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Extension make non-directional arrows the default: [Sample: UML Domain Modeling features](http://go.microsoft.com/fwlink/?LinkId=213849).  
@@ -166,8 +167,8 @@ Visual Studio helps you understand, discuss, and communicate your users' needs b
   
 |To learn about|Read|  
 |--------------------|----------|  
-|More detailed information about finding and recording static business rules|[UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams--guidelines.md)|  
-|Elements on a conceptual class diagram|[UML Class Diagrams: Reference](../modeling/uml-class-diagrams--reference.md)|  
+|More detailed information about finding and recording static business rules|[UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams-guidelines.md)|  
+|Elements on a conceptual class diagram|[UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)|  
 |How to develop code that adheres to business rules|[Model your app's architecture](../modeling/model-your-app-s-architecture.md)|  
   
 ##  <a name="QoSRequirements"></a> Describing Quality of Service Requirements  
@@ -212,8 +213,8 @@ Visual Studio helps you understand, discuss, and communicate your users' needs b
   
 |To learn about|Read|  
 |--------------------|----------|  
-|More information about how to define business work flows|[UML Activity Diagrams: Guidelines](../modeling/uml-activity-diagrams--guidelines.md)|  
-|Elements on an activity diagram|[UML Activity Diagrams: Reference](../modeling/uml-activity-diagrams--reference.md)|  
+|More information about how to define business work flows|[UML Activity Diagrams: Guidelines](../modeling/uml-activity-diagrams-guidelines.md)|  
+|Elements on an activity diagram|[UML Activity Diagrams: Reference](../modeling/uml-activity-diagrams-reference.md)|  
 |How to develop code from activity diagrams|[Model your app's architecture](../modeling/model-your-app-s-architecture.md)|  
   
 ##  <a name="Sequences"></a> Showing interactions between users and your system  
@@ -229,8 +230,8 @@ Visual Studio helps you understand, discuss, and communicate your users' needs b
   
 |To learn about|Read|  
 |--------------------|----------|  
-|More information about how to define interactions|[UML Sequence Diagrams: Guidelines](../modeling/uml-sequence-diagrams--guidelines.md)|  
-|Elements on an sequence diagram|[UML Sequence Diagrams: Reference](../modeling/uml-sequence-diagrams--reference.md)|  
+|More information about how to define interactions|[UML Sequence Diagrams: Guidelines](../modeling/uml-sequence-diagrams-guidelines.md)|  
+|Elements on an sequence diagram|[UML Sequence Diagrams: Reference](../modeling/uml-sequence-diagrams-reference.md)|  
 |How to develop code from sequence diagrams|[Model your app's architecture](../modeling/model-your-app-s-architecture.md)|  
   
 ## Using a Model to Reduce Inconsistencies  

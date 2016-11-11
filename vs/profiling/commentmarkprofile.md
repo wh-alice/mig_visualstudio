@@ -1,7 +1,7 @@
 ---
-title: "CommentMarkProfile"
+title: "CommentMarkProfile | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "CommentMarkProfileA"
 ms.assetid: 33ccff45-c33a-4672-b41f-5b317b848cd1
 caps.latest.revision: 11
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -123,4 +124,4 @@ void ExerciseCommentMarkProfile()
 ```  
   
 ## See Also  
- [Visual Studio Profiler API Reference (Native)](../profiling/visual-studio-profiler-api-reference--native-.md)
+ [Visual Studio Profiler API Reference (Native)](../profiling/visual-studio-profiler-api-reference-native.md)

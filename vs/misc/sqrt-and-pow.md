@@ -1,7 +1,7 @@
 ---
-title: "sqrt and pow"
+title: "sqrt and pow | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "pow function"
 ms.assetid: 28f5e231-9e2a-4a08-a24d-00735a8ee0e3
 caps.latest.revision: 7
+author: "erickson-doug"
 ms.author: "douge"
 manager: "douge"
 translation.priority.mt: 

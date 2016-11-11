@@ -1,7 +1,7 @@
 ---
-title: "XML Editor IntelliSense Features"
+title: "XML Editor IntelliSense Features | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2b26f214-cc3a-46bf-b260-14eb8e599182
 caps.latest.revision: 2
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -55,7 +56,7 @@ The XML Editor provides full IntelliSense features comparable to other language 
   
 -   Parameter names for a given named template.  
   
- For more information, see [Walkthrough: Using XSLT IntelliSense](../xml-tools/walkthrough--using-xslt-intellisense.md) topic.  
+ For more information, see [Walkthrough: Using XSLT IntelliSense](../xml-tools/walkthrough-using-xslt-intellisense.md) topic.  
   
 ## Auto-Completion  
  The XML editor also makes editing XML easier by filling in required XML syntax for you. For example, if you type the following start tag:  
@@ -131,4 +132,4 @@ The XML Editor provides full IntelliSense features comparable to other language 
 ## See Also  
  [XML Editor](../xml-tools/xml-editor.md)   
  [Using IntelliSense](../ide/using-intellisense.md)   
- [Walkthrough: Using XSLT IntelliSense](../xml-tools/walkthrough--using-xslt-intellisense.md)
+ [Walkthrough: Using XSLT IntelliSense](../xml-tools/walkthrough-using-xslt-intellisense.md)

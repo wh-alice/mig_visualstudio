@@ -1,7 +1,7 @@
 ---
-title: "IDiaEnumStackFrames"
+title: "IDiaEnumStackFrames | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaEnumStackFrames interface"
 ms.assetid: 3d1e8403-c9fc-42ff-ae35-0ab9a5ed2ad7
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -40,13 +41,13 @@ Enumerates the various stack frames available.
   
 |Method|Description|  
 |------------|-----------------|  
-|[IDiaEnumStackFrames::Next](../../debugger/debug-interface-access/idiaenumstackframes--next.md)|Retrieves a specified number of stack frame elements from the enumeration sequence.|  
-|[IDiaEnumStackFrames::Reset](../../debugger/debug-interface-access/idiaenumstackframes--reset.md)|Resets an enumeration sequence to the beginning.|  
+|[IDiaEnumStackFrames::Next](../../debugger/debug-interface-access/idiaenumstackframes-next.md)|Retrieves a specified number of stack frame elements from the enumeration sequence.|  
+|[IDiaEnumStackFrames::Reset](../../debugger/debug-interface-access/idiaenumstackframes-reset.md)|Resets an enumeration sequence to the beginning.|  
   
 ## Remarks  
   
 ## Notes for Callers  
- Obtain this interface by calling the [IDiaStackWalker::getEnumFrames](../../debugger/debug-interface-access/idiastackwalker--getenumframes.md) or [IDiaStackWalker::getEnumFrames2](../../debugger/debug-interface-access/idiastackwalker--getenumframes2.md) methods.  
+ Obtain this interface by calling the [IDiaStackWalker::getEnumFrames](../../debugger/debug-interface-access/idiastackwalker-getenumframes.md) or [IDiaStackWalker::getEnumFrames2](../../debugger/debug-interface-access/idiastackwalker-getenumframes2.md) methods.  
   
 ## Example  
  This example shows how to obtain and use the `IDiaEnumStackFrames` interface. See the [IDiaStackFrame](../../debugger/debug-interface-access/idiastackframe.md) interface for an implementation of the `PrintStackFrame` function.  
@@ -84,7 +85,7 @@ void DumpStackFrames(IDiaStackWalker*     pStackWalker,
  DLL: msdia80.dll  
   
 ## See Also  
- [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces--debug-interface-access-sdk-.md)   
+ [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)   
  [IDiaStackWalkFrame](../../debugger/debug-interface-access/idiastackwalkframe.md)   
- [IDiaStackWalker::getEnumFrames2](../../debugger/debug-interface-access/idiastackwalker--getenumframes2.md)   
- [IDiaStackWalker::getEnumFrames](../../debugger/debug-interface-access/idiastackwalker--getenumframes.md)
+ [IDiaStackWalker::getEnumFrames2](../../debugger/debug-interface-access/idiastackwalker-getenumframes2.md)   
+ [IDiaStackWalker::getEnumFrames](../../debugger/debug-interface-access/idiastackwalker-getenumframes.md)

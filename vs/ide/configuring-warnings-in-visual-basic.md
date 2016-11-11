@@ -1,7 +1,7 @@
 ---
-title: "Configuring Warnings in Visual Basic"
+title: "Configuring Warnings in Visual Basic | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "warnings, configuring"
 ms.assetid: 99cf4781-bd4d-47b4-91b9-217933509f82
 caps.latest.revision: 35
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -131,9 +132,9 @@ The [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler includes 
   
 ## See Also  
  [Exception Assistant Dialog Box](../debugger/exception-assistant-dialog-box.md)   
- [Error Types](../Topic/Error%20Types%20\(Visual%20Basic\).md)   
- [Try...Catch...Finally Statement](../Topic/Try...Catch...Finally%20Statement%20\(Visual%20Basic\).md)   
- [/nowarn](../Topic/-nowarn.md)   
- [/warnaserror (Visual Basic)](../Topic/-warnaserror%20\(Visual%20Basic\).md)   
- [Compile Page, Project Designer (Visual Basic)](../ide/reference/compile-page--project-designer--visual-basic-.md)   
- [Compiler Warnings That Are Off by Default](../Topic/Compiler%20Warnings%20That%20Are%20Off%20by%20Default.md)
+ [Error Types](/dotnet/visual-basic/programming-guide/language-features/error-types)   
+ [Try...Catch...Finally Statement](/dotnet/visual-basic/language-reference/statements/try-catch-finally-statement)   
+ [/nowarn](/dotnet/visual-basic/reference/command-line-compiler/nowarn)   
+ [/warnaserror (Visual Basic)](/dotnet/visual-basic/reference/command-line-compiler/warnaserror)   
+ [Compile Page, Project Designer (Visual Basic)](../ide/reference/compile-page-project-designer-visual-basic.md)   
+ [Compiler Warnings That Are Off by Default](/visual-cpp/preprocessor/compiler-warnings-that-are-off-by-default)

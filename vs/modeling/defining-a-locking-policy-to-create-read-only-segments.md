@@ -1,7 +1,7 @@
 ---
-title: "Defining a Locking Policy to Create Read-Only Segments"
+title: "Defining a Locking Policy to Create Read-Only Segments | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: fa549c71-2bf6-4b08-b7b2-7756dd6f1dc8
 caps.latest.revision: 12
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 translation.priority.mt: 

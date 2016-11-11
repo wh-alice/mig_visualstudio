@@ -1,7 +1,7 @@
 ---
-title: "AtlTraceLoadSettings"
+title: "AtlTraceLoadSettings | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "AtlTraceLoadSettings function"
 ms.assetid: 22e14418-1c47-4e45-8a01-da3ccc6f438e
 caps.latest.revision: 9
+author: "ghogen"
 ms.author: "ghogen"
 manager: "douge"
 translation.priority.mt: 

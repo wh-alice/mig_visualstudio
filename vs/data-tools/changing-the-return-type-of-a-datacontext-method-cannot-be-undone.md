@@ -1,7 +1,7 @@
 ---
-title: "Changing the return type of a DataContext method cannot be undone"
+title: "Changing the return type of a DataContext method cannot be undone | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 76b161fc-5075-4192-8d94-f15b02e199e9
 caps.latest.revision: 3
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 translation.priority.ht: 
@@ -50,6 +51,6 @@ Changing the return type of a DataContext method cannot be undone. To revert bac
   
 ## See Also  
  [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   
- [DataContext Methods (O/R Designer)](../data-tools/datacontext-methods--o-r-designer-.md)   
- [How to: Create DataContext methods mapped to stored procedures and functions (O/R Designer)](../data-tools/e7ca32f1-50b3-48af-ad92-ceafd749296a.md)   
+ [DataContext Methods (O/R Designer)](../data-tools/datacontext-methods-o-r-designer.md)   
+ [How to: Create DataContext methods mapped to stored procedures and functions (O/R Designer)](../data-tools/how-to-create-datacontext-methods-mapped-to-stored-procedures-and-functions-o-r-designer.md)   
  [LINQ to SQL](../Topic/LINQ%20to%20SQL.md)

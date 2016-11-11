@@ -1,7 +1,7 @@
 ---
-title: "Declaring Functions That Take No Arguments"
+title: "Declaring Functions That Take No Arguments | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "declaring functions, functions that take no arguments"
 ms.assetid: 83a640a7-6ee9-4c1c-a41f-821dfda8bc0f
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -35,4 +36,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Declaring Functions That Take No Arguments
-This content has moved to [Functions (C++)](../Topic/Functions%20\(C++\).md)
+This content has moved to [Functions (C++)](/visual-cpp/cpp/functions-cpp)

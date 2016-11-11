@@ -1,7 +1,7 @@
 ---
-title: "Implementing Custom Code Analysis Check-in Policies for Managed Code"
+title: "Implementing Custom Code Analysis Check-in Policies for Managed Code | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,8 +15,9 @@ f1_keywords:
   - "vs.code.analysis.policyeditor"
 ms.assetid: fd029003-5671-4b24-8b6f-032e0a98b2e8
 caps.latest.revision: 21
-ms.author: "susanno"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

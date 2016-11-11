@@ -1,7 +1,7 @@
 ---
-title: "Evaluating Locals"
+title: "Evaluating Locals | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ translation.priority.mt:
 > [!IMPORTANT]
 >  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
   
- [GetPropertyInfo](../../extensibility/debugger/reference/idebugproperty2--getpropertyinfo.md) is called to obtain the value of a local, as well as the local's name and type. Since the value of a local is dependent on the current state of the program, the local's value must be obtained from memory. The [IDebugBinder](../../extensibility/debugger/reference/idebugbinder.md) object is used to bind the [IDebugField](../../extensibility/debugger/reference/idebugfield.md) object representing the local to the appropriate location in memory containing the value. This location in memory is represented by an [IDebugObject](../../extensibility/debugger/reference/idebugobject.md) object.  
+ [GetPropertyInfo](../../extensibility/debugger/reference/idebugproperty2-getpropertyinfo.md) is called to obtain the value of a local, as well as the local's name and type. Since the value of a local is dependent on the current state of the program, the local's value must be obtained from memory. The [IDebugBinder](../../extensibility/debugger/reference/idebugbinder.md) object is used to bind the [IDebugField](../../extensibility/debugger/reference/idebugfield.md) object representing the local to the appropriate location in memory containing the value. This location in memory is represented by an [IDebugObject](../../extensibility/debugger/reference/idebugobject.md) object.  
   
  This functionality of retrieving the value of a local is encapsulated in a helper function that performs the following tasks:  
   

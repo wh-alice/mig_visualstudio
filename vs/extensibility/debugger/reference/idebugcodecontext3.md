@@ -1,7 +1,7 @@
 ---
-title: "IDebugCodeContext3"
+title: "IDebugCodeContext3 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -47,8 +47,8 @@ IDebugCodeContext3 : IDebugCodeContext2
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetModule](../../../extensibility/debugger/reference/idebugcodecontext3--getmodule.md)|Retrieves a reference to the interface of the debug module.|  
-|[GetProcess](../../../extensibility/debugger/reference/idebugcodecontext3--getprocess.md)|Retrieves a reference to the interface of the debug process.|  
+|[GetModule](../../../extensibility/debugger/reference/idebugcodecontext3-getmodule.md)|Retrieves a reference to the interface of the debug module.|  
+|[GetProcess](../../../extensibility/debugger/reference/idebugcodecontext3-getprocess.md)|Retrieves a reference to the interface of the debug process.|  
   
 ## Remarks  
  This is an optional interface which generally does not have to be implemented.  

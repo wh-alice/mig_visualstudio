@@ -1,7 +1,7 @@
 ---
-title: "Debugging DLL Projects"
+title: "Debugging DLL Projects | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "debugging [Visual Studio], DLLs"
 ms.assetid: 433cab30-d191-460b-96f7-90d2530ca243
 caps.latest.revision: 38
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -50,13 +51,13 @@ The following templates create DLLs:
   
 -   (C# and Visual Basic): Web Control Library  
   
-     For more information, see [Web Control Library (Managed Code)](../debugger/web-control-library--managed-code-.md).  
+     For more information, see [Web Control Library (Managed Code)](../debugger/web-control-library-managed-code.md).  
   
 -   (C++): MFC ActiveX Control and MFC Smart Device ActiveX Control  
   
      ActiveX controls are controls that can be downloaded over the Internet onto a client computer, and displayed and activated on Web pages.  
   
-     Debugging ActiveX controls is similar to debugging other kinds of controls because they cannot be run as stand-alone, but must be embedded in an HTML Web page. For more information, see [How to: Debug an ActiveX Control](../debugger/how-to--debug-an-activex-control.md).  
+     Debugging ActiveX controls is similar to debugging other kinds of controls because they cannot be run as stand-alone, but must be embedded in an HTML Web page. For more information, see [How to: Debug an ActiveX Control](../debugger/how-to-debug-an-activex-control.md).  
   
 -   (C++): MFC Smart Device DLL  
   
@@ -64,9 +65,9 @@ The following templates create DLLs:
   
  This section also contains information about the following topics:  
   
--   [How to: Debug from a DLL Project](../debugger/how-to--debug-from-a-dll-project.md)  
+-   [How to: Debug from a DLL Project](../debugger/how-to-debug-from-a-dll-project.md)  
   
--   [How to: Debug in Mixed Mode](../debugger/how-to--debug-in-mixed-mode.md)  
+-   [How to: Debug in Mixed Mode](../debugger/how-to-debug-in-mixed-mode.md)  
   
  This topic contains the following sections, which provide considerations about how to prepare to debug class libraries:  
   
@@ -85,18 +86,18 @@ The following templates create DLLs:
 -   [The Immediate Window](#vxtskdebuggingdllprojectstheimmediatewindow)  
   
 ##  <a name="vxtskdebuggingdllprojectsbuildingadebugversion"></a> Building a Debug Version  
- No matter how you start debugging, make sure that you build the Debug version of the DLL first and make sure that the Debug version is in the location where the application expects to find it. This may seem obvious, but if you forget this step, the application might find a different version of the DLL and load it. The program will then continue to run, while you wonder why your breakpoint was never hit. When you are debugging, you can verify which DLLs your program has loaded by opening the debugger's **Modules** window. The **Modules** window lists each DLL or EXE loaded in the process you are debugging. For more information, see [How to: Use the Modules Window](../debugger/how-to--use-the-modules-window.md).  
+ No matter how you start debugging, make sure that you build the Debug version of the DLL first and make sure that the Debug version is in the location where the application expects to find it. This may seem obvious, but if you forget this step, the application might find a different version of the DLL and load it. The program will then continue to run, while you wonder why your breakpoint was never hit. When you are debugging, you can verify which DLLs your program has loaded by opening the debugger's **Modules** window. The **Modules** window lists each DLL or EXE loaded in the process you are debugging. For more information, see [How to: Use the Modules Window](../debugger/how-to-use-the-modules-window.md).  
   
- For the debugger to attach to code written in C++, the code must emit `DebuggableAttribute`. You can add this to your code automatically by linking with the [/ASSEMBLYDEBUG](../Topic/-ASSEMBLYDEBUG%20\(Add%20DebuggableAttribute\).md) linker option.  
+ For the debugger to attach to code written in C++, the code must emit `DebuggableAttribute`. You can add this to your code automatically by linking with the [/ASSEMBLYDEBUG](/visual-cpp/build/reference/assemblydebug-add-debuggableattribute) linker option.  
   
 ##  <a name="vxtskdebuggingdllprojectsmixedmodedebugging"></a> Mixed-Mode Debugging  
- The calling application that calls your DLL can be written in managed code or native code. If your managed DLL is called by native code and you want to debug both, managed and native debuggers must both be enabled. You can select this in the **\<Project>Property Pages** dialog box or window. How you do this depends on whether you start debugging from the DLL project or the calling application project. For more information, see [How to: Debug in Mixed Mode](../debugger/how-to--debug-in-mixed-mode.md).  
+ The calling application that calls your DLL can be written in managed code or native code. If your managed DLL is called by native code and you want to debug both, managed and native debuggers must both be enabled. You can select this in the **\<Project>Property Pages** dialog box or window. How you do this depends on whether you start debugging from the DLL project or the calling application project. For more information, see [How to: Debug in Mixed Mode](../debugger/how-to-debug-in-mixed-mode.md).  
   
 ##  <a name="vxtskdebuggingdllprojectschangingdefaultconfigurations"></a> Changing Default Configurations  
- When you create a console application project with the project template, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] automatically creates required settings for the Debug and Release configurations. If necessary, you can change those settings. For more information, see [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-c---debug-configuration.md), [Project Settings for  C# Debug Configurations](../debugger/project-settings-for--csharp-debug-configurations.md), [Project Settings for a Visual Basic Debug Configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md), and [How to: Set Debug and Release Configurations](../debugger/how-to--set-debug-and-release-configurations.md).  
+ When you create a console application project with the project template, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] automatically creates required settings for the Debug and Release configurations. If necessary, you can change those settings. For more information, see [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md), [Project Settings for  C# Debug Configurations](../debugger/project-settings-for-csharp-debug-configurations.md), [Project Settings for a Visual Basic Debug Configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md), and [How to: Set Debug and Release Configurations](../debugger/how-to-set-debug-and-release-configurations.md).  
   
 ##  <a name="vxtskdebuggingdllprojectswaystodebugthedll"></a> Ways to Debug the DLL  
- Each of the projects in this section creates a DLL. You cannot run a DLL directly; it must be called by an application, usually an EXE. For more information, see [Creating and Managing Visual C++ Projects](../Topic/Creating%20and%20Managing%20Visual%20C++%20Projects.md). The calling application might fit any one of the following criteria:  
+ Each of the projects in this section creates a DLL. You cannot run a DLL directly; it must be called by an application, usually an EXE. For more information, see [Creating and Managing Visual C++ Projects](/visual-cpp/ide/creating-and-managing-visual-cpp-projects). The calling application might fit any one of the following criteria:  
   
 -   An application built in another project in the same [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution that contains the class library.  
   
@@ -113,7 +114,7 @@ The following templates create DLLs:
   
 -   If the calling application is an existing program already deployed on a test or production computer and is already running you can attach to it. Use this method if the DLL is a control hosted by Internet Explorer, or a control on a Web page. For more information, see [How to: Attach to a Running Process](http://msdn.microsoft.com/en-us/636d0a52-4bfd-48d2-89ad-d7b9ca4dc4f4).  
   
--   You can debug it from the DLL project. For more information, see [How to: Debug from a DLL Project](../debugger/how-to--debug-from-a-dll-project.md).  
+-   You can debug it from the DLL project. For more information, see [How to: Debug from a DLL Project](../debugger/how-to-debug-from-a-dll-project.md).  
   
 -   You can debug it from the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] **Immediate** window. In this case, the **Immediate** window plays the role of the application.  
   
@@ -155,9 +156,9 @@ The following templates create DLLs:
   
 ## See Also  
  [Debugging Managed Code](../debugger/debugging-managed-code.md)   
- [Visual C++ Project Types](../debugger/debugging-preparation--visual-c---project-types.md)   
- [C#, F#, and Visual Basic Project Types](../debugger/debugging-preparation--csharp--fsharp--and-visual-basic-project-types.md)   
- [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-c---debug-configuration.md)   
- [Project Settings for  C# Debug Configurations](../debugger/project-settings-for--csharp-debug-configurations.md)   
+ [Visual C++ Project Types](../debugger/debugging-preparation-visual-cpp-project-types.md)   
+ [C#, F#, and Visual Basic Project Types](../debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)   
+ [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)   
+ [Project Settings for  C# Debug Configurations](../debugger/project-settings-for-csharp-debug-configurations.md)   
  [Project Settings for a Visual Basic Debug Configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md)   
  [Debugger Security](../debugger/debugger-security.md)

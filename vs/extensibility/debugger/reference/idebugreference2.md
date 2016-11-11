@@ -1,7 +1,7 @@
 ---
-title: "IDebugReference2"
+title: "IDebugReference2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -48,24 +48,24 @@ IDebugReference2 : IUnknown
  The DE implements this interface to represent a reference to a particular kind of value. For example, the value could be a numerical value as a result of an expression evaluation, a memory context used for displaying memory, or a list of registers and their values.  
   
 ## Notes for Callers  
- Call [GetReference](../../../extensibility/debugger/reference/idebugproperty2--getreference.md) to obtain this interface. [GetParent](../../../extensibility/debugger/reference/idebugreference2--getparent.md) and [GetDerivedMostReference](../../../extensibility/debugger/reference/idebugreference2--getderivedmostreference.md) also return this interface.  
+ Call [GetReference](../../../extensibility/debugger/reference/idebugproperty2-getreference.md) to obtain this interface. [GetParent](../../../extensibility/debugger/reference/idebugreference2-getparent.md) and [GetDerivedMostReference](../../../extensibility/debugger/reference/idebugreference2-getderivedmostreference.md) also return this interface.  
   
 ## Methods in Vtable Order  
  The following table shows the methods of `IDebugReference2`.  
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetReferenceInfo](../../../extensibility/debugger/reference/idebugreference2--getreferenceinfo.md)|Gets the [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug_reference_info.md) structure that describes this reference.|  
-|[SetValueAsString](../../../extensibility/debugger/reference/idebugreference2--setvalueasstring.md)|Sets the value of this reference from a string.|  
-|[SetValueAsReference](../../../extensibility/debugger/reference/idebugreference2--setvalueasreference.md)|Sets the value of this reference from another reference.|  
-|[EnumChildren](../../../extensibility/debugger/reference/idebugreference2--enumchildren.md)|Enumerates the children of this reference.|  
-|[GetParent](../../../extensibility/debugger/reference/idebugreference2--getparent.md)|Gets the parent of this reference.|  
-|[GetDerivedMostReference](../../../extensibility/debugger/reference/idebugreference2--getderivedmostreference.md)|Gets the most-derived reference of this reference.|  
-|[GetMemoryBytes](../../../extensibility/debugger/reference/idebugreference2--getmemorybytes.md)|Gets the memory bytes to which this reference refers.|  
-|[GetMemoryContext](../../../extensibility/debugger/reference/idebugreference2--getmemorycontext.md)|Gets a memory context for this reference.|  
-|[GetSize](../../../extensibility/debugger/reference/idebugreference2--getsize.md)|Gets the size, in bytes, of this reference.|  
-|[SetReferenceType](../../../extensibility/debugger/reference/idebugreference2--setreferencetype.md)|Sets this reference type.|  
-|[Compare](../../../extensibility/debugger/reference/idebugreference2--compare.md)|Compares this reference with another.|  
+|[GetReferenceInfo](../../../extensibility/debugger/reference/idebugreference2-getreferenceinfo.md)|Gets the [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-reference-info.md) structure that describes this reference.|  
+|[SetValueAsString](../../../extensibility/debugger/reference/idebugreference2-setvalueasstring.md)|Sets the value of this reference from a string.|  
+|[SetValueAsReference](../../../extensibility/debugger/reference/idebugreference2-setvalueasreference.md)|Sets the value of this reference from another reference.|  
+|[EnumChildren](../../../extensibility/debugger/reference/idebugreference2-enumchildren.md)|Enumerates the children of this reference.|  
+|[GetParent](../../../extensibility/debugger/reference/idebugreference2-getparent.md)|Gets the parent of this reference.|  
+|[GetDerivedMostReference](../../../extensibility/debugger/reference/idebugreference2-getderivedmostreference.md)|Gets the most-derived reference of this reference.|  
+|[GetMemoryBytes](../../../extensibility/debugger/reference/idebugreference2-getmemorybytes.md)|Gets the memory bytes to which this reference refers.|  
+|[GetMemoryContext](../../../extensibility/debugger/reference/idebugreference2-getmemorycontext.md)|Gets a memory context for this reference.|  
+|[GetSize](../../../extensibility/debugger/reference/idebugreference2-getsize.md)|Gets the size, in bytes, of this reference.|  
+|[SetReferenceType](../../../extensibility/debugger/reference/idebugreference2-setreferencetype.md)|Sets this reference type.|  
+|[Compare](../../../extensibility/debugger/reference/idebugreference2-compare.md)|Compares this reference with another.|  
   
 ## Remarks  
   
@@ -87,6 +87,6 @@ IDebugReference2 : IUnknown
   
 ## See Also  
  [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)   
- [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug_reference_info.md)   
+ [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-reference-info.md)   
  [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)   
- [GetReference](../../../extensibility/debugger/reference/idebugproperty2--getreference.md)
+ [GetReference](../../../extensibility/debugger/reference/idebugproperty2-getreference.md)

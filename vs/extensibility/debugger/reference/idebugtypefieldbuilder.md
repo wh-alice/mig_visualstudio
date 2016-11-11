@@ -1,7 +1,7 @@
 ---
-title: "IDebugTypeFieldBuilder"
+title: "IDebugTypeFieldBuilder | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -47,8 +47,8 @@ IDebugTypeFieldBuilder : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[CreatePrimitive](../../../extensibility/debugger/reference/idebugtypefieldbuilder--createprimitive.md)|Creates an object that represents a primitive type.|  
-|[CreatePointerToType](../../../extensibility/debugger/reference/idebugtypefieldbuilder--createpointertotype.md)|Creates a pointer to the specified type.|  
+|[CreatePrimitive](../../../extensibility/debugger/reference/idebugtypefieldbuilder-createprimitive.md)|Creates an object that represents a primitive type.|  
+|[CreatePointerToType](../../../extensibility/debugger/reference/idebugtypefieldbuilder-createpointertotype.md)|Creates a pointer to the specified type.|  
   
 ## Requirements  
  Header: Sh.h  

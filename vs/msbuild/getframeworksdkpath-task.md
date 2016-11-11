@@ -1,7 +1,7 @@
 ---
-title: "GetFrameworkSdkPath Task"
+title: "GetFrameworkSdkPath Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "MSBuild, GetFrameworkSdkPath task"
 ms.assetid: 2ef82b98-02b6-40cf-a9b5-f0e882fb5064
 caps.latest.revision: 10
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

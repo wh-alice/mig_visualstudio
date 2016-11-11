@@ -1,7 +1,7 @@
 ---
-title: "Measuring Complexity and Maintainability of Managed Code"
+title: "Measuring Complexity and Maintainability of Managed Code | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "complexity managed code"
 ms.assetid: 952b6f2e-584f-4c97-a5ba-42d7bd47a576
 caps.latest.revision: 14
+author: "erickson-doug"
 ms.author: "douge"
 manager: "douge"
 translation.priority.ht: 
@@ -49,7 +50,7 @@ The increased complexity of modern software applications also increases the diff
 ## In This Section  
  [Code Metrics Values](../code-quality/code-metrics-values.md)  
   
- [How to: Generate Code Metrics Data](../code-quality/how-to--generate-code-metrics-data.md)  
+ [How to: Generate Code Metrics Data](../code-quality/how-to-generate-code-metrics-data.md)  
   
  [Working with Code Metrics Data](../code-quality/working-with-code-metrics-data.md)  
   

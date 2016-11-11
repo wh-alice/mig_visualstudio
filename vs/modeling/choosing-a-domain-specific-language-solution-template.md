@@ -1,7 +1,7 @@
 ---
-title: "Choosing a Domain-Specific Language Solution Template"
+title: "Choosing a Domain-Specific Language Solution Template | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ helpviewer_keywords:
   - "Domain-Specific Language Tools, solution templates"
 ms.assetid: 9c05955f-1548-4df6-b09b-4b348823c237
 caps.latest.revision: 24
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 ---

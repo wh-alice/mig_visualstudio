@@ -1,5 +1,5 @@
 ---
-title: "Data Applications Samples"
+title: "Data Applications Samples | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "data, samples"
 ms.assetid: 4e591600-fd59-48b1-8d96-3fcaae9df56f
 caps.latest.revision: 10
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 robots: noindex,nofollow

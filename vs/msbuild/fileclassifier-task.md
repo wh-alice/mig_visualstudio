@@ -1,7 +1,7 @@
 ---
-title: "FileClassifier Task"
+title: "FileClassifier Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "FileClassifier task [WPF MSBuild]"
 ms.assetid: 14e03310-fcc0-4bb2-a84d-cda12be66367
 caps.latest.revision: 7
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

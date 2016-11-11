@@ -1,7 +1,7 @@
 ---
-title: "IDebugProcessSecurity"
+title: "IDebugProcessSecurity | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -44,8 +44,8 @@ IDebugProcessSecurity : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetUserName](../../../extensibility/debugger/reference/idebugprocesssecurity--getusername.md)|Gets the user name from the port supplier.|  
-|[QueryCanSafelyAttach](../../../extensibility/debugger/reference/idebugprocesssecurity--querycansafelyattach.md)|Warns a user that attaching to the debugging process is unsafe.|  
+|[GetUserName](../../../extensibility/debugger/reference/idebugprocesssecurity-getusername.md)|Gets the user name from the port supplier.|  
+|[QueryCanSafelyAttach](../../../extensibility/debugger/reference/idebugprocesssecurity-querycansafelyattach.md)|Warns a user that attaching to the debugging process is unsafe.|  
   
 ## Remarks  
  Implement this interface to show a warning and allow the user to cancel if the process to which you are attaching can be considered unsafe.  

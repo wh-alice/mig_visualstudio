@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Error RC2235"
+title: "Resource Compiler Error RC2235 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC2235"
 ms.assetid: 06afcfc3-0e7c-45d3-bc5d-37b5c10f2ddd
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

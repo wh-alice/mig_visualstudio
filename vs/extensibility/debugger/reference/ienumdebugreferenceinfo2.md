@@ -1,7 +1,7 @@
 ---
-title: "IEnumDebugReferenceInfo2"
+title: "IEnumDebugReferenceInfo2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,7 +33,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # IEnumDebugReferenceInfo2
-This interface enumerates [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug_reference_info.md) structures.  
+This interface enumerates [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-reference-info.md) structures.  
   
 ## Syntax  
   
@@ -45,18 +45,18 @@ IEnumDebugReferenceInfo2 : IUnknown
  The debug engine (DE) implements this interface as part of its support for references to objects in memory. This interface must be implemented only if references are supported.  
   
 ## Notes for Callers  
- Visual Studio calls [EnumChildren](../../../extensibility/debugger/reference/idebugreference2--enumchildren.md) to obtain this interface.  
+ Visual Studio calls [EnumChildren](../../../extensibility/debugger/reference/idebugreference2-enumchildren.md) to obtain this interface.  
   
 ## Methods in Vtable Order  
  The following table shows the methods of `IEnumDebugReferenceInfo2`.  
   
 |Method|Description|  
 |------------|-----------------|  
-|[Next](../../../extensibility/debugger/reference/ienumdebugreferenceinfo2--next.md)|Retrieves a specified number of [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug_reference_info.md) structures in an enumeration sequence.|  
-|[Skip](../../../extensibility/debugger/reference/ienumdebugreferenceinfo2--skip.md)|Skips a specified number of [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug_reference_info.md) structures in the enumeration sequence.|  
-|[Reset](../../../extensibility/debugger/reference/ienumdebugreferenceinfo2--reset.md)|Resets an enumeration sequence to the beginning.|  
-|[Clone](../../../extensibility/debugger/reference/ienumdebugreferenceinfo2--clone.md)|Creates an enumerator that contains the same enumeration state as the current enumerator.|  
-|[GetCount](../../../extensibility/debugger/reference/ienumdebugreferenceinfo2--getcount.md)|Gets the number of [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug_reference_info.md) structures in an enumerator.|  
+|[Next](../../../extensibility/debugger/reference/ienumdebugreferenceinfo2-next.md)|Retrieves a specified number of [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-reference-info.md) structures in an enumeration sequence.|  
+|[Skip](../../../extensibility/debugger/reference/ienumdebugreferenceinfo2-skip.md)|Skips a specified number of [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-reference-info.md) structures in the enumeration sequence.|  
+|[Reset](../../../extensibility/debugger/reference/ienumdebugreferenceinfo2-reset.md)|Resets an enumeration sequence to the beginning.|  
+|[Clone](../../../extensibility/debugger/reference/ienumdebugreferenceinfo2-clone.md)|Creates an enumerator that contains the same enumeration state as the current enumerator.|  
+|[GetCount](../../../extensibility/debugger/reference/ienumdebugreferenceinfo2-getcount.md)|Gets the number of [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-reference-info.md) structures in an enumerator.|  
   
 ## Remarks  
  A reference is essentially a type and an address, whereas a property is a name, type, and address. A reference persists as long as the object referred to exists in memory. See [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) for more details.  
@@ -70,6 +70,6 @@ IEnumDebugReferenceInfo2 : IUnknown
   
 ## See Also  
  [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)   
- [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug_reference_info.md)   
+ [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-reference-info.md)   
  [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md)   
- [EnumChildren](../../../extensibility/debugger/reference/idebugreference2--enumchildren.md)
+ [EnumChildren](../../../extensibility/debugger/reference/idebugreference2-enumchildren.md)

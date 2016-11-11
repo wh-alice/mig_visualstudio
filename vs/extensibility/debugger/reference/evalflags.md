@@ -1,7 +1,7 @@
 ---
-title: "EVALFLAGS"
+title: "EVALFLAGS | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -85,7 +85,7 @@ public enum enum_EVALFLAGS {
  Flag to indicate that events that occur during the expression evaluation should not be sent to the session debug manager (SDM) or to the IDE.  
   
 ## Remarks  
- These flags are passed as an argument to the [EvaluateAsync](../../../extensibility/debugger/reference/idebugexpression2--evaluateasync.md) and [EvaluateSync](../../../extensibility/debugger/reference/idebugexpression2--evaluatesync.md) methods.  
+ These flags are passed as an argument to the [EvaluateAsync](../../../extensibility/debugger/reference/idebugexpression2-evaluateasync.md) and [EvaluateSync](../../../extensibility/debugger/reference/idebugexpression2-evaluatesync.md) methods.  
   
  These flags may be combined with a bitwise OR.  
   
@@ -97,6 +97,6 @@ public enum enum_EVALFLAGS {
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll  
   
 ## See Also  
- [Enumerations](../../../extensibility/debugger/reference/enumerations--visual-studio-debugging-.md)   
- [EvaluateAsync](../../../extensibility/debugger/reference/idebugexpression2--evaluateasync.md)   
- [EvaluateSync](../../../extensibility/debugger/reference/idebugexpression2--evaluatesync.md)
+ [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)   
+ [EvaluateAsync](../../../extensibility/debugger/reference/idebugexpression2-evaluateasync.md)   
+ [EvaluateSync](../../../extensibility/debugger/reference/idebugexpression2-evaluatesync.md)

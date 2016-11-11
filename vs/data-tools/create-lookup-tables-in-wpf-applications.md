@@ -1,7 +1,7 @@
 ---
-title: "Create lookup tables in WPF applications"
+title: "Create lookup tables in WPF applications | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,6 +22,7 @@ helpviewer_keywords:
   - "data binding, WPF"
 ms.assetid: 56a1fbff-c7e8-4187-a1c1-ffd17024bc1b
 caps.latest.revision: 16
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 translation.priority.ht: 
@@ -49,9 +50,9 @@ The term *lookup table* (sometimes called a *lookup binding*) describes a contro
   
 1.  Add one of the following types of data sources with related data to your project:  
   
-    -   Dataset or Entity Data Model. For more information, see [How to: Connect to Data in a Database](../data-tools/how-to--connect-to-data-in-a-database.md).  
+    -   Dataset or Entity Data Model. For more information, see [How to: Connect to Data in a Database](../data-tools/how-to-connect-to-data-in-a-database.md).  
   
-    -   WCF Data Service, WCF service or Web service. For more information, see [How to: Connect to Data in a Service](../data-tools/how-to--connect-to-data-in-a-service.md).  
+    -   WCF Data Service, WCF service or Web service. For more information, see [How to: Connect to Data in a Service](../data-tools/how-to-connect-to-data-in-a-service.md).  
   
     -   Objects. For more information, see [How to: Connect to Data in Objects](../Topic/How%20to:%20Connect%20to%20Data%20in%20Objects.md).  
   
@@ -99,13 +100,13 @@ The term *lookup table* (sometimes called a *lookup binding*) describes a contro
   
     |Property|Explanation of setting|  
     |--------------|----------------------------|  
-    |<xref:System.Windows.Controls.ItemsControl.ItemsSource*>|This property specifies the collection or binding that is used to get the data that is displayed in the control. Visual Studio sets this property to the <xref:System.Windows.Data.CollectionViewSource> for the parent data you dragged to the control.|  
-    |<xref:System.Windows.Controls.ItemsControl.DisplayMemberPath*>|This property specifies the path of the data item that is displayed in the control. Visual Studio sets this property to the first column or property in the parent data, after the primary key, that has a string data type.<br /><br /> If you want to display a different column or property in the parent data, change this property to the path of a different property.|  
-    |<xref:System.Windows.Controls.Primitives.Selector.SelectedValue*>|Visual Studio binds this property to the column or property of the child data that you dragged to the designer. This is the foreign key to the parent data.|  
-    |<xref:System.Windows.Controls.Primitives.Selector.SelectedValuePath*>|Visual Studio sets this property to the path of the column or property of the child data that is the foreign key to the parent data.|  
+    |<xref:System.Windows.Controls.ItemsControl.ItemsSource%2A>|This property specifies the collection or binding that is used to get the data that is displayed in the control. Visual Studio sets this property to the <xref:System.Windows.Data.CollectionViewSource> for the parent data you dragged to the control.|  
+    |<xref:System.Windows.Controls.ItemsControl.DisplayMemberPath%2A>|This property specifies the path of the data item that is displayed in the control. Visual Studio sets this property to the first column or property in the parent data, after the primary key, that has a string data type.<br /><br /> If you want to display a different column or property in the parent data, change this property to the path of a different property.|  
+    |<xref:System.Windows.Controls.Primitives.Selector.SelectedValue%2A>|Visual Studio binds this property to the column or property of the child data that you dragged to the designer. This is the foreign key to the parent data.|  
+    |<xref:System.Windows.Controls.Primitives.Selector.SelectedValuePath%2A>|Visual Studio sets this property to the path of the column or property of the child data that is the foreign key to the parent data.|  
   
 ## See Also  
  [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio1.md)   
  [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio2.md)   
  [Display related data in WPF applications](../data-tools/display-related-data-in-wpf-applications.md)   
- [Walkthrough: Displaying Related Data in a WPF Application](../data-tools/walkthrough--displaying-related-data-in-a-wpf-application.md)
+ [Walkthrough: Displaying Related Data in a WPF Application](../data-tools/walkthrough-displaying-related-data-in-a-wpf-application.md)

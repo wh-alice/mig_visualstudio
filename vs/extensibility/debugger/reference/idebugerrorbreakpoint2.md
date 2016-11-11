@@ -1,7 +1,7 @@
 ---
-title: "IDebugErrorBreakpoint2"
+title: "IDebugErrorBreakpoint2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,15 +45,15 @@ IDebugErrorBreakpoint2 : IUnknown
  A debug engine implements this interface as part of its support for breakpoints. This interface is used to report problems with binding a breakpoint.  
   
 ## Notes for Callers  
- A call to [GetErrorBreakpoint](../../../extensibility/debugger/reference/idebugbreakpointerrorevent2--geterrorbreakpoint.md) obtains this interface. This interface can also be returned (as part of a list represented by an [IEnumDebugErrorBreakpoints2](../../../extensibility/debugger/reference/ienumdebugerrorbreakpoints2.md) interface) by a call to [CanBind](../../../extensibility/debugger/reference/idebugpendingbreakpoint2--canbind.md) or [EnumErrorBreakpoints](../../../extensibility/debugger/reference/idebugpendingbreakpoint2--enumerrorbreakpoints.md).  
+ A call to [GetErrorBreakpoint](../../../extensibility/debugger/reference/idebugbreakpointerrorevent2-geterrorbreakpoint.md) obtains this interface. This interface can also be returned (as part of a list represented by an [IEnumDebugErrorBreakpoints2](../../../extensibility/debugger/reference/ienumdebugerrorbreakpoints2.md) interface) by a call to [CanBind](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-canbind.md) or [EnumErrorBreakpoints](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-enumerrorbreakpoints.md).  
   
 ## Methods in Vtable Order  
  The following table shows the methods of `IDebugErrorBreakpoint2`.  
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetPendingBreakpoint](../../../extensibility/debugger/reference/idebugerrorbreakpoint2--getpendingbreakpoint.md)|Gets the pending breakpoint that caused the error.|  
-|[GetBreakpointResolution](../../../extensibility/debugger/reference/idebugerrorbreakpoint2--getbreakpointresolution.md)|Gets the breakpoint error resolution that describes the error.|  
+|[GetPendingBreakpoint](../../../extensibility/debugger/reference/idebugerrorbreakpoint2-getpendingbreakpoint.md)|Gets the pending breakpoint that caused the error.|  
+|[GetBreakpointResolution](../../../extensibility/debugger/reference/idebugerrorbreakpoint2-getbreakpointresolution.md)|Gets the breakpoint error resolution that describes the error.|  
   
 ## Requirements  
  Header: msdbg.h  
@@ -64,8 +64,8 @@ IDebugErrorBreakpoint2 : IUnknown
   
 ## See Also  
  [IDebugBreakpointErrorEvent2](../../../extensibility/debugger/reference/idebugbreakpointerrorevent2.md)   
- [GetErrorBreakpoint](../../../extensibility/debugger/reference/idebugbreakpointerrorevent2--geterrorbreakpoint.md)   
+ [GetErrorBreakpoint](../../../extensibility/debugger/reference/idebugbreakpointerrorevent2-geterrorbreakpoint.md)   
  [IEnumDebugErrorBreakpoints2](../../../extensibility/debugger/reference/ienumdebugerrorbreakpoints2.md)   
- [Next](../../../extensibility/debugger/reference/ienumdebugerrorbreakpoints2--next.md)   
+ [Next](../../../extensibility/debugger/reference/ienumdebugerrorbreakpoints2-next.md)   
  [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)   
  [IDebugErrorBreakpointResolution2](../../../extensibility/debugger/reference/idebugerrorbreakpointresolution2.md)

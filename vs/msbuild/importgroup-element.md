@@ -1,7 +1,7 @@
 ---
-title: "ImportGroup Element"
+title: "ImportGroup Element | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/24/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "ImportGroup element [MSBuild]"
 ms.assetid: dac3fa2d-6678-4017-af35-93686f53f302
 caps.latest.revision: 4
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -37,7 +38,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # ImportGroup Element
-Contains a collection of `Import` elements that are grouped under an optional condition. For more information, see [Import Element (MSBuild)](../msbuild/import-element--msbuild-.md).  
+Contains a collection of `Import` elements that are grouped under an optional condition. For more information, see [Import Element (MSBuild)](../msbuild/import-element-msbuild.md).  
   
  \<Project>  
  \<ImportGroup>  
@@ -64,13 +65,13 @@ Contains a collection of `Import` elements that are grouped under an optional co
   
 |Element|Description|  
 |-------------|-----------------|  
-|[Import](../msbuild/import-element--msbuild-.md)|Imports the contents of one project file into another project file.|  
+|[Import](../msbuild/import-element-msbuild.md)|Imports the contents of one project file into another project file.|  
   
 ### Parent Elements  
   
 |Element|Description|  
 |-------------|-----------------|  
-|[Project](../msbuild/project-element--msbuild-.md)|Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file.|  
+|[Project](../msbuild/project-element-msbuild.md)|Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file.|  
   
 ## Remarks  
   

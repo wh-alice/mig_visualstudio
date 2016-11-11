@@ -1,7 +1,7 @@
 ---
-title: "Buttons Element"
+title: "Buttons Element | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -80,5 +80,5 @@ Groups [Button](../extensibility/button-element.md) elements, which represent in
 ```  
   
 ## See Also  
- [How VSPackages Add User Interface Elements](../Topic/How%20VSPackages%20Add%20User%20Interface%20Elements.md)   
- [Commands, Menus, and Toolbars](../Topic/Commands,%20Menus,%20and%20Toolbars.md)
+ [How VSPackages Add User Interface Elements](../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
+ [Commands, Menus, and Toolbars](../extensibility/internals/commands-menus-and-toolbars.md)

@@ -1,7 +1,7 @@
 ---
-title: "Ambiguous Expressions"
+title: "Ambiguous Expressions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "ambiguous expressions"
 ms.assetid: d166c5ea-744b-46ed-92d2-41008452f6ca
 caps.latest.revision: 6
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -34,4 +35,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Ambiguous Expressions
-This content has moved [Semantics of Expressions](../Topic/Semantics%20of%20Expressions.md)
+This content has moved [Semantics of Expressions](/visual-cpp/cpp/semantics-of-expressions)

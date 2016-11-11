@@ -1,7 +1,7 @@
 ---
-title: "Changing the Appearance of a Command"
+title: "Changing the Appearance of a Command | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -98,7 +98,7 @@ You can provide feedback to your user by changing the appearance of a command. F
 8.  On the **Tools** menu you should now see **New Text**. Click **New Text**. The command should now be grayed out.  
   
 ## See Also  
- [Commands, Menus, and Toolbars](../Topic/Commands,%20Menus,%20and%20Toolbars.md)   
- [How VSPackages Add User Interface Elements](../Topic/How%20VSPackages%20Add%20User%20Interface%20Elements.md)   
+ [Commands, Menus, and Toolbars](../extensibility/internals/commands-menus-and-toolbars.md)   
+ [How VSPackages Add User Interface Elements](../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
  [Extending Menus and Commands](../extensibility/extending-menus-and-commands.md)   
- [Visual Studio Command Table (.Vsct) Files](../Topic/Visual%20Studio%20Command%20Table%20\(.Vsct\)%20Files.md)
+ [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

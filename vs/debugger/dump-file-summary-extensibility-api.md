@@ -1,7 +1,7 @@
 ---
-title: "Dump File Summary Extensibility API"
+title: "Dump File Summary Extensibility API | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ dev_langs:
   - "C++"
 ms.assetid: bf008cdc-03f8-496b-868d-4c2644f1d7ee
 caps.latest.revision: 4
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
-title: "Set Current Stack Frame Command"
+title: "Set Current Stack Frame Command | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "Debug.SetCurrentStackFrame command"
 ms.assetid: 3dcf52c0-6781-4598-bac2-0094dce67c20
 caps.latest.revision: 11
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

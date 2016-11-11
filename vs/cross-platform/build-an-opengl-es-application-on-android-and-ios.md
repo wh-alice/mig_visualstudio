@@ -1,7 +1,7 @@
 ---
-title: "Build an OpenGL ES Application on Android and iOS"
+title: "Build an OpenGL ES Application on Android and iOS | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ dev_langs:
   - "C++"
 ms.assetid: 76a67886-df57-4a81-accb-2e3c2eaf607b
 caps.latest.revision: 5
+author: "BrianPeek"
 ms.author: "brpeek"
 manager: "ghogen"
 translation.priority.ht: 
@@ -41,7 +42,7 @@ When you install the Visual C++ for Cross-Platform Mobile Development option, yo
  [Customize your apps](#Customize)  
   
 ##  <a name="req"></a> Requirements  
- Before you can create an OpenGL ES app for iOS and Android, you must make sure you've met all system requirements. You must install the Visual C++ for Cross-Platform Mobile Development option in Visual Studio 2015. Make sure that the required third-party tools and SDKs are included in the installation, and that the Visual Studio Emulator for Android is installed. For more information and detailed instructions, see [Install Visual C++ for Cross-Platform Mobile Development](../cross-platform/install-visual-c---for-cross-platform-mobile-development.md). To build and test the iOS app, you'll need a Mac computer, set up according to the installation instructions. For more information about how to set up for iOS development, see [Install And Configure Tools to Build using iOS](../cross-platform/install-and-configure-tools-to-build-using-ios.md)  
+ Before you can create an OpenGL ES app for iOS and Android, you must make sure you've met all system requirements. You must install the Visual C++ for Cross-Platform Mobile Development option in Visual Studio 2015. Make sure that the required third-party tools and SDKs are included in the installation, and that the Visual Studio Emulator for Android is installed. For more information and detailed instructions, see [Install Visual C++ for Cross-Platform Mobile Development](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md). To build and test the iOS app, you'll need a Mac computer, set up according to the installation instructions. For more information about how to set up for iOS development, see [Install And Configure Tools to Build using iOS](../cross-platform/install-and-configure-tools-to-build-using-ios.md)  
   
 ##  <a name="Create"></a> Create a new OpenGLES Application project  
  In this tutorial, you first create a new OpenGL ES Application project and then build and run the default app in the Visual Studio Emulator for Android. Next you build the app for iOS and run the app in the iOS Simulator.  

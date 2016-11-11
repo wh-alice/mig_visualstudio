@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB1004"
+title: "MSBuild Error MSB1004 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB1004"
 ms.assetid: aed36761-ab07-486c-b5eb-48ccb1c387dd
 caps.latest.revision: 12
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

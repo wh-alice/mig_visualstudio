@@ -1,12 +1,12 @@
 ---
 title: "Type parameters or types constructed with type parameters are not allowed in attribute arguments | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 
-  - "devlang-csharp"
+  - "devlang-visual-basic"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 f1_keywords: 
@@ -16,8 +16,9 @@ helpviewer_keywords:
   - "BC32079"
 ms.assetid: 93eb59bd-e7db-4f73-a37f-405a83df48c1
 caps.latest.revision: 9
-ms.author: "billchi"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -62,5 +63,5 @@ An attribute is applied using an argument that is either a type parameter or is 
 ## See Also  
  <xref:System.Attribute>   
  [NOT IN BUILD: Attributes Overview in Visual Basic](http://msdn.microsoft.com/en-us/0d0cff64-892d-4f57-83bd-bef388553d4f)   
- [Generic Types in Visual Basic](../Topic/Generic%20Types%20in%20Visual%20Basic%20\(Visual%20Basic\).md)   
- [Type List](../Topic/Type%20List%20\(Visual%20Basic\).md)
+ [Generic Types in Visual Basic](/dotnet/visual-basic/programming-guide/language-features/data-types/generic-types)   
+ [Type List](/dotnet/visual-basic/language-reference/statements/type-list)

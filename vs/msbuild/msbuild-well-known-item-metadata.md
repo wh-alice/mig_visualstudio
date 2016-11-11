@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Well-known Item Metadata"
+title: "MSBuild Well-known Item Metadata | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "MSBuild, well-known item metadata"
 ms.assetid: b5e791b5-c68f-4978-ad8a-9247d03bb6c0
 caps.latest.revision: 12
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -53,7 +54,7 @@ The following table describes the metadata assigned to every item upon creation.
 |%(Extension)|Contains the file name extension of the item. For example:<br /><br /> `.cs`|  
 |%(RelativeDir)|Contains the path specified in the `Include` attribute, up to the final backslash (\\). For example:<br /><br /> `Source\`|  
 |%(Directory)|Contains the directory of the item, without the root directory. For example:<br /><br /> `MyProject\Source\`|  
-|%(RecursiveDir)|If the `Include` attribute contains the wildcard \*\*, this metadata specifies the part of the path that replaces the wildcard. For more information on wildcards, see [How to: Select the Files to Build](../msbuild/how-to--select-the-files-to-build.md).<br /><br /> If the folder *C:\MySolution\MyProject\Source\\* contains the file Program.cs, and if the project file contains this item:<br /><br /> `<ItemGroup>`<br /><br /> `<MyItem Include="C:\**\Program.cs" />`<br /><br /> `</ItemGroup>`<br /><br /> then the value of `%(MyItem.RecursiveDir)` would be *MySolution\MyProject\Source\\*.|  
+|%(RecursiveDir)|If the `Include` attribute contains the wildcard \*\*, this metadata specifies the part of the path that replaces the wildcard. For more information on wildcards, see [How to: Select the Files to Build](../msbuild/how-to-select-the-files-to-build.md).<br /><br /> If the folder *C:\MySolution\MyProject\Source\\* contains the file Program.cs, and if the project file contains this item:<br /><br /> `<ItemGroup>`<br /><br /> `<MyItem Include="C:\**\Program.cs" />`<br /><br /> `</ItemGroup>`<br /><br /> then the value of `%(MyItem.RecursiveDir)` would be *MySolution\MyProject\Source\\*.|  
 |%(Identity)|The item specified in the `Include` attribute.. For example:<br /><br /> `Source\Program.cs`|  
 |%(ModifiedTime)|Contains the timestamp from the last time the item was modified. For example:<br /><br /> `2004-07-01 00:21:31.5073316`|  
 |%(CreatedTime)|Contains the timestamp from when the item was created. For example:<br /><br /> `2004-06-25 09:26:45.8237425`|  

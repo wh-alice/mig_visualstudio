@@ -1,7 +1,7 @@
 ---
-title: "Expression Evaluation Interfaces"
+title: "Expression Evaluation Interfaces | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -73,6 +73,6 @@ translation.priority.mt:
 |[IEnumDebugObjects](../../../extensibility/debugger/reference/ienumdebugobjects.md)|EE|Represents a collection of [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) objects.|  
   
 ## See Also  
- [API Reference](../../../extensibility/debugger/reference/api-reference--visual-studio-debugging-.md)   
+ [API Reference](../../../extensibility/debugger/reference/api-reference-visual-studio-debugging.md)   
  [Writing a CLR Expression Evaluator](../../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)   
  [Type Visualizer and Custom Viewer](../../../extensibility/debugger/type-visualizer-and-custom-viewer.md)

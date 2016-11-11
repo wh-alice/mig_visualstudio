@@ -1,7 +1,7 @@
 ---
-title: "Using Fonts and Colors"
+title: "Using Fonts and Colors | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -52,7 +52,7 @@ The [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] provides suppor
   
  This approach requires a VSPackage to implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaultsProvider> interface and related interfaces.  
   
- [How to: Access the Built-in Fonts and Color Scheme](../extensibility/how-to--access-the-built-in-fonts-and-color-scheme.md)  
+ [How to: Access the Built-in Fonts and Color Scheme](../extensibility/how-to-access-the-built-in-fonts-and-color-scheme.md)  
  Discusses how to define and register a category by using built-in fonts and colors, and initiate the use of system-provided fonts and colors.  
   
 ## Reference  

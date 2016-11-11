@@ -1,7 +1,7 @@
 ---
-title: "Link UML model updates by using transactions"
+title: "Link UML model updates by using transactions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ helpviewer_keywords:
   - "UML API, transactions"
 ms.assetid: a1df6c38-a3d1-4a3f-82bc-c8f363ab916e
 caps.latest.revision: 16
+author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
 translation.priority.ht: 

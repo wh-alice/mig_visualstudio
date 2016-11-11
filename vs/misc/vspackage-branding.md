@@ -1,7 +1,7 @@
 ---
-title: "VSPackage Branding"
+title: "VSPackage Branding | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -37,13 +37,13 @@ VSPackages can display icons and textual information about products (together ca
  [Branding Overview](../misc/branding-overview.md)  
  Discusses several approaches to creating splash screen and **Help About** logos.  
   
- [How to: Brand a VSPackage (C# and Visual Basic)](../misc/how-to--brand-a-vspackage--csharp-and-visual-basic-.md)  
+ [How to: Brand a VSPackage (C# and Visual Basic)](../misc/how-to-brand-a-vspackage-csharp-and-visual-basic.md)  
  Explains how to brand a managed VSPackage.  
   
- [How to: Brand a VSPackage (C++)](../misc/how-to--brand-a-vspackage--c---.md)  
+ [How to: Brand a VSPackage (C++)](../misc/how-to-brand-a-vspackage-cpp.md)  
  Explains how to brand an unmanaged VSPackage.  
   
- [How to: Test the Help About and Splash Screens](../misc/how-to--test-the-help-about-and-splash-screens.md)  
+ [How to: Test the Help About and Splash Screens](../misc/how-to-test-the-help-about-and-splash-screens.md)  
  Explains how to test the help about and splash screens.  
   
 ## Related Sections  

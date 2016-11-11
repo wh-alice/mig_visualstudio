@@ -1,7 +1,7 @@
 ---
-title: "Use models in your development process"
+title: "Use models in your development process | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "UML, using models"
 ms.assetid: a33ac8fc-4ba0-4850-b71b-014dc8674e54
 caps.latest.revision: 29
+author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
 translation.priority.ht: 
@@ -96,7 +97,7 @@ In Visual Studio, you can use a model to help you understand and change a system
   
 -   Near the end of each iteration, hold a requirements workshop to define in detail the requirements or user stories that will be developed in the next iteration. Invite users and business stakeholders who can decide priorities, as well as developers and system testers. Allow three hours to define requirements for a 2-week iteration.  
   
--   The objective of the workshop is for everyone to agree what will be accomplished by the end of the next iteration. Use models as one of the tools to help clarify the requirements. The output of the workshop is an iteration backlog: that is, a list of development tasks in [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)] and test suites in [!INCLUDE[TCMext](../modeling/includes/tcmext_md.md)].  
+-   The objective of the workshop is for everyone to agree what will be accomplished by the end of the next iteration. Use models as one of the tools to help clarify the requirements. The output of the workshop is an iteration backlog: that is, a list of development tasks in [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)] and test suites in [!INCLUDE[TCMext](../misc/includes/tcmext_md.md)].  
   
 -   In the requirements workshop, discuss the design only insofar as you need to determine estimates for the development tasks. Otherwise, keep discussion to system behavior that users can experience directly. Keep the requirements model separate from the architectural model.  
   
@@ -109,7 +110,7 @@ In Visual Studio, you can use a model to help you understand and change a system
   
 -   Use cases. You can link a use case to the development tasks that will implement it.  
   
--   Use case extensions. If only one aspect of a use case will be implemented in an iteration, you can separate it into a base use case together with one or more extensions. The extensions are use cases linked to the base case with the «extend» relationship. For more information about use case extension, see [UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams--reference.md).  
+-   Use case extensions. If only one aspect of a use case will be implemented in an iteration, you can separate it into a base use case together with one or more extensions. The extensions are use cases linked to the base case with the «extend» relationship. For more information about use case extension, see [UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams-reference.md).  
   
 -   Comments describing business rules or quality of service requirements. For more information, see [Model user requirements](../modeling/model-user-requirements.md).  
   

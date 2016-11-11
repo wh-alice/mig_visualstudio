@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Warning RC4413"
+title: "Resource Compiler Warning RC4413 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC4413"
 ms.assetid: 110cb27a-795c-4019-aff7-5a3943cb0b7d
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

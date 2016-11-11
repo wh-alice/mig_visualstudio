@@ -1,7 +1,7 @@
 ---
-title: "Attach to Running Processes with the Visual Studio Debugger"
+title: "Attach to Running Processes with the Visual Studio Debugger | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/26/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -31,6 +31,7 @@ helpviewer_keywords:
   - "debugger, processes"
 ms.assetid: 27900e58-090c-4211-a309-b3e1496d5824
 caps.latest.revision: 53
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -59,31 +60,31 @@ To help you identify whether you need to attach to a process for your scenario, 
 |Scenario|Debug Method|Process Name|Note and Links|
 |-|-|-|-|
 |Debug any supported app type on the local machine by starting it from Visual Studio|Standard F5 debugging|N/A|See [Getting started with the debugger](../debugger/getting-started-with-the-debugger.md)|
-|Remote debug ASP.NET 4 or 4.5 on an IIS server|Use remote tools and attach to process|w3wp.exe|See [Remote Debugging ASP.NET on a remote IIS computer](../debugger/remote-debugging-asp.net-on-a-remote-iis-7.5-computer.md)|
-|Remote debug ASP.NET Core on an IIS server|Use remote tools and attach to process|dnx.exe|For app deployment, see [Publish to IIS](https://docs.asp.net/en/latest/publishing/iis.html). For debugging, see [Remote Debugging ASP.NET on a remote IIS computer](../debugger/remote-debugging-asp.net-on-a-remote-iis-7.5-computer.md)|
+|Remote debug ASP.NET 4 or 4.5 on an IIS server|Use remote tools and attach to process|w3wp.exe|See [Remote Debugging ASP.NET on a remote IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)|
+|Remote debug ASP.NET Core on an IIS server|Use remote tools and attach to process|dnx.exe|For app deployment, see [Publish to IIS](https://docs.asp.net/en/latest/publishing/iis.html). For debugging, see [Remote Debugging ASP.NET on a remote IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)|
 |Debug other supported app types on a server process|Use remote tools (if server is remote) and attach to process|iexplore.exe or other processes|If necessary, use Task Manager to help identify the process. See [Remote Debugging](../debugger/remote-debugging.md) and later sections in this topic|
 |Remote debug a Windows desktop app|Remote Tools and F5|N/A| See [Remote Debugging](../debugger/remote-debugging.md)|
 |Remote debug a Windows Universal (UWP), OneCore, HoloLens, or IoT app|Debug installed app package|N/A|Use **Debug / Other Debug Targets / Debug Installed App Package** instead of **Attach to process**|
 |Debug a Windows Universal (UWP), OneCore, HoloLens, or IoT app that you didn't start from Visual Studio|Debug installed app package|N/A|Use **Debug / Other Debug Targets / Debug Installed App Package** instead of **Attach to process**|
   
 > [!WARNING]
->  To attach to a Windows Universal app that is written in JavaScript, you must first enable debugging for the app. See [Attach the debugger](../debugger/start-a-debugging-session-for-store-apps-in-visual-studio--javascript-.md#BKMK_Attach_the_debugger) in the Windows Dev Center.  
+>  To attach to a Windows Universal app that is written in JavaScript, you must first enable debugging for the app. See [Attach the debugger](../debugger/start-a-debugging-session-for-store-apps-in-visual-studio-javascript.md#BKMK_Attach_the_debugger) in the Windows Dev Center.  
   
 > [!NOTE]
->  For the debugger to attach to code written in C++, the code needs to emit `DebuggableAttribute`. You can add this to your code automatically by linking with the [/ASSEMBLYDEBUG](../Topic/-ASSEMBLYDEBUG%20\(Add%20DebuggableAttribute\).md) linker option.
+>  For the debugger to attach to code written in C++, the code needs to emit `DebuggableAttribute`. You can add this to your code automatically by linking with the [/ASSEMBLYDEBUG](/visual-cpp/build/reference/assemblydebug-add-debuggableattribute) linker option.
 
 ## What debugger features can I use?
 
-To use the full features of the Visual Studio debugger (like hitting breakpoints), the executable must exactly match your local source and symbols (that is, the debugger must be able to load the correct [symbol (.pbd) files](../debugger/specify-symbol--.pdb--and-source-files-in-the-visual-studio-debugger.md)). By default, this requires a debug build.
+To use the full features of the Visual Studio debugger (like hitting breakpoints), the executable must exactly match your local source and symbols (that is, the debugger must be able to load the correct [symbol (.pbd) files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)). By default, this requires a debug build.
 
 For remote debugging scenarios, you must have either the source code a copy of the source code already open in Visual Studio. The compiled app binaries on the remote machine must come from the same build as on the local machine.
 
-In some local debugging scenarios, you can debug in Visual Studio with no access to the source if the correct symbol files are present with the app (by default, this requires a debug build). For more info, see [Specify Symbol and Source Files](../debugger/specify-symbol--.pdb--and-source-files-in-the-visual-studio-debugger.md).
+In some local debugging scenarios, you can debug in Visual Studio with no access to the source if the correct symbol files are present with the app (by default, this requires a debug build). For more info, see [Specify Symbol and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).
 
 For Windows desktop apps, you can also debug the running app using the JIT debugger (Visual Studio opens and you break into app code after an error occurs).
 
 ##  <a name="BKMK_Attach_to_a_process_on_a_remote_computer"></a> Attach to a process on a remote computer  
- In order to attach to a process, you must know the name of the process. For ASP.NET apps that have been deployed to IIS, see [Remote Debugging ASP.NET on a remote IIS computer](../debugger/remote-debugging-asp.net-on-a-remote-iis-7.5-computer.md) or [Publish to IIS](https://docs.asp.net/en/latest/publishing/iis.html) for ASP.NET Core apps. For other apps, you may be able to find the name of the process in the Task Manager.
+ In order to attach to a process, you must know the name of the process. For ASP.NET apps that have been deployed to IIS, see [Remote Debugging ASP.NET on a remote IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md) or [Publish to IIS](https://docs.asp.net/en/latest/publishing/iis.html) for ASP.NET Core apps. For other apps, you may be able to find the name of the process in the Task Manager.
   
  When you use the **Attach to Process** dialog box, you can select another computer that has been set up for remote debugging. For more information, see [Remote Debugging](../Topic/Set%20Up%20the%20Remote%20Tools%20on%20the%20Device.md). When you have selected a remote computer, you can view a list of available processes running on that computer and attach to one or more of the processes for debugging.
   
@@ -142,7 +143,7 @@ For Windows desktop apps, you can also debug the running app using the JIT debug
 
 You can be attached to multiple programs when you are debugging, but only one program is active in the debugger at any time. You can set the active program in the **Debug Location** toolbar or the **Processes** window. For more information, see [How to: Set the Current Program](http://msdn.microsoft.com/en-us/7e1d7fa5-0e40-44cf-8c41-d3dba31c969e).  
   
-If you try to attach to a process owned by an untrusted user account, a security warning dialog box confirmation will appear. For more information see [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](../debugger/52246c1e-a371-40a0-b756-a435cc51876f.md).  
+If you try to attach to a process owned by an untrusted user account, a security warning dialog box confirmation will appear. For more information see [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](../debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user-can-be-dangerous-if-the-following-information-looks-suspicious-or-you-are-unsure-do-not-attach-to-this-process.md).  
   
 In some cases, when you debug in a Remote Desktop (Terminal Services) session, the **Available Processes** list will not display all available processes. If you are running Visual Studio as a user who has a limited user account, the **Available Processes** list will not show processes that are running in Session 0, which is used for services and other server processes, including w3wp.exe. You can solve the problem by running [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] under an administrator account or by running [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] from the server console instead of a Terminal Services session. If neither of those workarounds is possible, a third option is to attach to the process by running `vsjitdebugger.exe -p` *ProcessId* from the Windows command line. You can determine the process id using tlist.exe. To obtain tlist.exe, download and install Debugging Tools for Windows, available at  [WDK and WinDbg downloads](http://go.microsoft.com/fwlink/?LinkId=168279).
   

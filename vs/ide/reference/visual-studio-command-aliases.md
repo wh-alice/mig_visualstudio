@@ -1,7 +1,7 @@
 ---
-title: "Visual Studio Command Aliases"
+title: "Visual Studio Command Aliases | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "command aliases"
 ms.assetid: de8bb378-8c1c-4087-a9a5-537fa8314c19
 caps.latest.revision: 17
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

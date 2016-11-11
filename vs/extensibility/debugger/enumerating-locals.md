@@ -1,7 +1,7 @@
 ---
-title: "Enumerating Locals"
+title: "Enumerating Locals | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ translation.priority.mt:
 > [!IMPORTANT]
 >  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
   
- When Visual Studio is ready to populate the **Locals** window, it calls [EnumChildren](../../extensibility/debugger/reference/idebugproperty2--enumchildren.md) on the [IDebugProperty2](../../extensibility/debugger/reference/idebugproperty2.md) object returned from [GetMethodProperty](../../extensibility/debugger/reference/idebugexpressionevaluator--getmethodproperty.md) (see [Implementing GetMethodProperty](../../extensibility/debugger/implementing-getmethodproperty.md)). `IDebugProperty2::EnumChildren` returns an [IEnumDebugPropertyInfo2](../../extensibility/debugger/reference/ienumdebugpropertyinfo2.md) object.  
+ When Visual Studio is ready to populate the **Locals** window, it calls [EnumChildren](../../extensibility/debugger/reference/idebugproperty2-enumchildren.md) on the [IDebugProperty2](../../extensibility/debugger/reference/idebugproperty2.md) object returned from [GetMethodProperty](../../extensibility/debugger/reference/idebugexpressionevaluator-getmethodproperty.md) (see [Implementing GetMethodProperty](../../extensibility/debugger/implementing-getmethodproperty.md)). `IDebugProperty2::EnumChildren` returns an [IEnumDebugPropertyInfo2](../../extensibility/debugger/reference/ienumdebugpropertyinfo2.md) object.  
   
  This implementation of `IDebugProperty2::EnumChildren` performs the following tasks:  
   
@@ -43,9 +43,9 @@ translation.priority.mt:
   
 2.  Uses the `guidFilter` argument to determine which method to call on the [IDebugMethodField](../../extensibility/debugger/reference/idebugmethodfield.md) object. If `guidFilter` equals:  
   
-    1.  `guidFilterLocals`, call [EnumLocals](../../extensibility/debugger/reference/idebugmethodfield--enumlocals.md) to obtain an [IEnumDebugFields](../../extensibility/debugger/reference/ienumdebugfields.md) object.  
+    1.  `guidFilterLocals`, call [EnumLocals](../../extensibility/debugger/reference/idebugmethodfield-enumlocals.md) to obtain an [IEnumDebugFields](../../extensibility/debugger/reference/ienumdebugfields.md) object.  
   
-    2.  `guidFilterArgs`, call [EnumArguments](../../extensibility/debugger/reference/idebugmethodfield--enumarguments.md) to obtain an `IEnumDebugFields` object.  
+    2.  `guidFilterArgs`, call [EnumArguments](../../extensibility/debugger/reference/idebugmethodfield-enumarguments.md) to obtain an `IEnumDebugFields` object.  
   
     3.  `guidFilterLocalsPlusArgs`, synthesize an enumeration that combines the results from `IDebugMethodField::EnumLocals` and `IDebugMethodField::EnumArguments`. This synthesis is represented by the class `CEnumMethodField`.  
   

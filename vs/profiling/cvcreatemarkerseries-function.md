@@ -1,7 +1,7 @@
 ---
-title: "CvCreateMarkerSeries Function"
+title: "CvCreateMarkerSeries Function | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CvCreateMarkerSeriesW method"
 ms.assetid: e280530b-137a-43a7-8643-aa514ab86ed7
 caps.latest.revision: 3
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -73,4 +74,4 @@ _Check_return_ HRESULT CvCreateMarkerSeriesA(
  **ANSI:** CvCreateMarkerSeriesA  
   
 ## See Also  
- [C++ Library Reference](../profiling/c---library-reference.md)
+ [C++ Library Reference](../profiling/cpp-library-reference.md)

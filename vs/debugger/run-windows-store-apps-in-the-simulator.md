@@ -1,7 +1,7 @@
 ---
-title: "Run Windows Store apps in the simulator"
+title: "Run Windows Store apps in the simulator | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ dev_langs:
   - "C++"
 ms.assetid: 81b69bf8-ec87-4bb6-9ad4-1fa7b7802d16
 caps.latest.revision: 42
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

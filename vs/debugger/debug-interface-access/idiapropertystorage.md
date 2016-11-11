@@ -1,7 +1,7 @@
 ---
-title: "IDiaPropertyStorage"
+title: "IDiaPropertyStorage | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaPropertyStorage interface"
 ms.assetid: d3197a38-5973-4e56-873e-4f1b84c3f674
 caps.latest.revision: 10
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -47,14 +48,14 @@ IDiaPropertyStorage : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[IDiaPropertyStorage::Enum](../../debugger/debug-interface-access/idiapropertystorage--enum.md)|Gets a pointer to an enumerator for properties within this set.|  
-|[IDiaPropertyStorage::ReadBOOL](../../debugger/debug-interface-access/idiapropertystorage--readbool.md)|Reads `BOOL` values in a property set.|  
-|[IDiaPropertyStorage::ReadBSTR](../../debugger/debug-interface-access/idiapropertystorage--readbstr.md)|Reads `BSTR` values in a property set.|  
-|[IDiaPropertyStorage::ReadDWORD](../../debugger/debug-interface-access/idiapropertystorage--readdword.md)|Reads `DWORD` values in a property set.|  
-|[IDiaPropertyStorage::ReadLONG](../../debugger/debug-interface-access/idiapropertystorage--readlong.md)|Reads `LONG` values in a property set.|  
-|[IDiaPropertyStorage::ReadMultiple](../../debugger/debug-interface-access/idiapropertystorage--readmultiple.md)|Reads property values in a property set.|  
-|[IDiaPropertyStorage::ReadPropertyNames](../../debugger/debug-interface-access/idiapropertystorage--readpropertynames.md)|Gets corresponding string names for given property identifiers.|  
-|[IDiaPropertyStorage::ReadULONGLONG](../../debugger/debug-interface-access/idiapropertystorage--readulonglong.md)|Reads `ULONGLONG` values in a property set.|  
+|[IDiaPropertyStorage::Enum](../../debugger/debug-interface-access/idiapropertystorage-enum.md)|Gets a pointer to an enumerator for properties within this set.|  
+|[IDiaPropertyStorage::ReadBOOL](../../debugger/debug-interface-access/idiapropertystorage-readbool.md)|Reads `BOOL` values in a property set.|  
+|[IDiaPropertyStorage::ReadBSTR](../../debugger/debug-interface-access/idiapropertystorage-readbstr.md)|Reads `BSTR` values in a property set.|  
+|[IDiaPropertyStorage::ReadDWORD](../../debugger/debug-interface-access/idiapropertystorage-readdword.md)|Reads `DWORD` values in a property set.|  
+|[IDiaPropertyStorage::ReadLONG](../../debugger/debug-interface-access/idiapropertystorage-readlong.md)|Reads `LONG` values in a property set.|  
+|[IDiaPropertyStorage::ReadMultiple](../../debugger/debug-interface-access/idiapropertystorage-readmultiple.md)|Reads property values in a property set.|  
+|[IDiaPropertyStorage::ReadPropertyNames](../../debugger/debug-interface-access/idiapropertystorage-readpropertynames.md)|Gets corresponding string names for given property identifiers.|  
+|[IDiaPropertyStorage::ReadULONGLONG](../../debugger/debug-interface-access/idiapropertystorage-readulonglong.md)|Reads `ULONGLONG` values in a property set.|  
   
 ## Remarks  
  Each property within a property set is identified by a property identifier (ID), a four-byte `ULONG` value unique to that set. The properties exposed through the `IDiaPropertyStorage` interface correspond to the properties available in the parent interface. For example, the properties of the [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) interface can be accessed by name through the `IDiaPropertyStorage` interface (note, however, that even though the property may be accessible, it does not mean the property is valid for a particular `IDiaSymbol` object).  
@@ -141,8 +142,8 @@ void PrintPropertyStorage(IDiaPropertyStorage* pPropertyStorage)
  DLL: msdia80.dll  
   
 ## See Also  
- [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces--debug-interface-access-sdk-.md)   
- [IDiaSession::getEnumTables](../../debugger/debug-interface-access/idiasession--getenumtables.md)   
+ [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)   
+ [IDiaSession::getEnumTables](../../debugger/debug-interface-access/idiasession-getenumtables.md)   
  [IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md)   
  [IDiaSegment](../../debugger/debug-interface-access/idiasegment.md)   
  [IDiaInjectedSource](../../debugger/debug-interface-access/idiainjectedsource.md)   

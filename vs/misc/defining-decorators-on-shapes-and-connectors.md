@@ -1,7 +1,7 @@
 ---
-title: "Defining Decorators on Shapes and Connectors"
+title: "Defining Decorators on Shapes and Connectors | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, decorators"
 ms.assetid: 602f35e2-3572-4ecb-ba1c-9e9364f5ca5b
 caps.latest.revision: 24
+author: "alancameronwills"
 ms.author: "awills"
 manager: "kamrani"
 translation.priority.ht: 

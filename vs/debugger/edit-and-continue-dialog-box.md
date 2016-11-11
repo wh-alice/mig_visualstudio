@@ -1,7 +1,7 @@
 ---
-title: "Edit and Continue Dialog Box"
+title: "Edit and Continue Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,6 +22,7 @@ helpviewer_keywords:
   - "Edit and Continue dialog box"
 ms.assetid: 4390c09c-fc73-4cc3-ab8e-6f07a7d70be2
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

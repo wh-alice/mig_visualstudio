@@ -1,7 +1,7 @@
 ---
-title: "IEnumDebugErrorBreakpoints2"
+title: "IEnumDebugErrorBreakpoints2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,18 +45,18 @@ IEnumDebugErrorBreakpoints2 : IUnknown
  The debug engine (DE) implements this interface as part of its support for breakpoints.  
   
 ## Notes for Callers  
- Visual Studio calls [CanBind](../../../extensibility/debugger/reference/idebugpendingbreakpoint2--canbind.md) to obtain this interface representing a list of breakpoints that cannot be bound, or [EnumErrorBreakpoints](../../../extensibility/debugger/reference/idebugpendingbreakpoint2--enumerrorbreakpoints.md) to obtain this interface representing a list of breakpoints that were not bound.  
+ Visual Studio calls [CanBind](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-canbind.md) to obtain this interface representing a list of breakpoints that cannot be bound, or [EnumErrorBreakpoints](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-enumerrorbreakpoints.md) to obtain this interface representing a list of breakpoints that were not bound.  
   
 ## Methods in Vtable Order  
  The following table shows the methods of `IEnumDebugErrorBreakpoints2`.  
   
 |Method|Description|  
 |------------|-----------------|  
-|[Next](../../../extensibility/debugger/reference/ienumdebugerrorbreakpoints2--next.md)|Retrieves a specified number of error breakpoints in an enumeration sequence.|  
-|[Skip](../../../extensibility/debugger/reference/ienumdebugerrorbreakpoints2--skip.md)|Skips a specified number of error breakpoints in an enumeration sequence.|  
-|[Reset](../../../extensibility/debugger/reference/ienumdebugerrorbreakpoints2--reset.md)|Resets an enumeration sequence to the beginning.|  
-|[Clone](../../../extensibility/debugger/reference/ienumdebugerrorbreakpoints2--clone.md)|Creates an enumerator that contains the same enumeration state as the current enumerator.|  
-|[GetCount](../../../extensibility/debugger/reference/ienumdebugerrorbreakpoints2--getcount.md)|Gets the number of error breakpoints in an enumerator.|  
+|[Next](../../../extensibility/debugger/reference/ienumdebugerrorbreakpoints2-next.md)|Retrieves a specified number of error breakpoints in an enumeration sequence.|  
+|[Skip](../../../extensibility/debugger/reference/ienumdebugerrorbreakpoints2-skip.md)|Skips a specified number of error breakpoints in an enumeration sequence.|  
+|[Reset](../../../extensibility/debugger/reference/ienumdebugerrorbreakpoints2-reset.md)|Resets an enumeration sequence to the beginning.|  
+|[Clone](../../../extensibility/debugger/reference/ienumdebugerrorbreakpoints2-clone.md)|Creates an enumerator that contains the same enumeration state as the current enumerator.|  
+|[GetCount](../../../extensibility/debugger/reference/ienumdebugerrorbreakpoints2-getcount.md)|Gets the number of error breakpoints in an enumerator.|  
   
 ## Remarks  
  This interface holds a list of [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebugerrorbreakpoint2.md) interfaces, each of which describes a breakpoint that could not be bound and why it could not be bound. Visual Studio uses the `IEnumDebugErrorBreakpoint2` interface to update the breakpoints shown in the IDE.  
@@ -70,6 +70,6 @@ IEnumDebugErrorBreakpoints2 : IUnknown
   
 ## See Also  
  [Core Interfaces](../../../extensibility/debugger/reference/core-interfaces.md)   
- [CanBind](../../../extensibility/debugger/reference/idebugpendingbreakpoint2--canbind.md)   
- [EnumErrorBreakpoints](../../../extensibility/debugger/reference/idebugpendingbreakpoint2--enumerrorbreakpoints.md)   
+ [CanBind](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-canbind.md)   
+ [EnumErrorBreakpoints](../../../extensibility/debugger/reference/idebugpendingbreakpoint2-enumerrorbreakpoints.md)   
  [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebugerrorbreakpoint2.md)

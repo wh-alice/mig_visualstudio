@@ -1,7 +1,7 @@
 ---
-title: "Creating Project and Item Templates"
+title: "Creating Project and Item Templates | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "templates [Visual Studio], about templates"
 ms.assetid: a6ce501a-699b-4e3e-ade8-c81895645c20
 caps.latest.revision: 9
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -45,7 +46,7 @@ translation.priority.ht:
   
  These templates provide a starting point for users to begin creating projects or expanding current projects. Project templates provide the files that are required for a particular project type, include standard assembly references, and set default project properties and compiler options. Item templates can range in complexity from just one empty file that has the correct file name extension to a multi-file item that contains, for example, source code files that have stub code, designer information files, and embedded resources.  
   
- In addition to the installed templates in the **New Project** and **Add New Item** dialog boxes, you can author your own templates or download and use templates created by the community. For more information, see [How to: Create Project Templates](../ide/how-to--create-project-templates.md) and [How to: Create Item Templates](../ide/how-to--create-item-templates.md).  
+ In addition to the installed templates in the **New Project** and **Add New Item** dialog boxes, you can author your own templates or download and use templates created by the community. For more information, see [How to: Create Project Templates](../ide/how-to-create-project-templates.md) and [How to: Create Item Templates](../ide/how-to-create-item-templates.md).  
   
 ## Contents of a Template  
  All project and item templates, whether installed together with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] or created by you, function by using the same principles and have similar contents. All templates contain the following items:  
@@ -54,14 +55,14 @@ translation.priority.ht:
   
 -   One .vstemplate file. This file contains the metadata that provides [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] the information it needs to display the template in the **New Project** and **Add New Item** dialog boxes and create a project or item from the template. For more information about .vstemplate files, see [Template Parameters](../ide/template-parameters.md).  
   
- When these files are compressed into a .zip file and put in the correct folder, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] automatically displays them. Project templates appear in the **My Templates** section of the **New Project** dialog boxes, and item templates appear in the **Add New Item** dialog boxes. For more information about template folders, see [How to: Locate and Organize Templates](../ide/how-to--locate-and-organize-project-and-item-templates.md).  
+ When these files are compressed into a .zip file and put in the correct folder, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] automatically displays them. Project templates appear in the **My Templates** section of the **New Project** dialog boxes, and item templates appear in the **Add New Item** dialog boxes. For more information about template folders, see [How to: Locate and Organize Templates](../ide/how-to-locate-and-organize-project-and-item-templates.md).  
   
 ## Starter Kits  
- Starter Kits are enhanced templates that can be shared with other members of the community. A Starter Kit includes code samples that compile, documentation, and other resources to help users learn new tools and programming techniques while they build useful, real-world applications. The basic contents and procedures for Starter Kits are identical to those for templates. For more information, see [How to: Create Starter Kits](../ide/how-to--create-starter-kits.md).  
+ Starter Kits are enhanced templates that can be shared with other members of the community. A Starter Kit includes code samples that compile, documentation, and other resources to help users learn new tools and programming techniques while they build useful, real-world applications. The basic contents and procedures for Starter Kits are identical to those for templates. For more information, see [How to: Create Starter Kits](../ide/how-to-create-starter-kits.md).  
   
 ## See Also  
- [How to: Create Project Templates](../ide/how-to--create-project-templates.md)   
- [How to: Create Item Templates](../ide/how-to--create-item-templates.md)   
+ [How to: Create Project Templates](../ide/how-to-create-project-templates.md)   
+ [How to: Create Item Templates](../ide/how-to-create-item-templates.md)   
  [Template Parameters](../ide/template-parameters.md)   
  [Customizing Templates](../ide/customizing-project-and-item-templates.md)   
- [How to: Create Starter Kits](../ide/how-to--create-starter-kits.md)
+ [How to: Create Starter Kits](../ide/how-to-create-starter-kits.md)

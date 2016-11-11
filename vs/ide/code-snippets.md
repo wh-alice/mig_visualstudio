@@ -1,7 +1,7 @@
 ---
-title: "Code Snippets"
+title: "Code Snippets | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "code snippets"
 ms.assetid: 85976ad9-4c9a-4e7b-896e-66ec6f955199
 caps.latest.revision: 13
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -96,10 +97,10 @@ End Property
  You can add and remove snippet directories with the **Add** and **Remove** buttons in the **Code Snippets Manager** dialog. To add individual code snippets, use the **Import** button.  
   
 ## See Also  
- [Walkthrough: Creating a Code Snippet](../ide/walkthrough--creating-a-code-snippet.md)   
- [How to: Distribute Code Snippets](../ide/how-to--distribute-code-snippets.md)   
+ [Walkthrough: Creating a Code Snippet](../ide/walkthrough-creating-a-code-snippet.md)   
+ [How to: Distribute Code Snippets](../ide/how-to-distribute-code-snippets.md)   
  [Best Practices for Using Code Snippets](../ide/best-practices-for-using-code-snippets.md)   
  [Troubleshooting Snippets](../ide/troubleshooting-snippets.md)   
  [Visual C# Code Snippets](../ide/visual-csharp-code-snippets.md)   
- [Visual C++ Code Snippets](../ide/visual-c---code-snippets.md)   
+ [Visual C++ Code Snippets](../ide/visual-cpp-code-snippets.md)   
  [Code Snippets Schema Reference](../ide/code-snippets-schema-reference.md)

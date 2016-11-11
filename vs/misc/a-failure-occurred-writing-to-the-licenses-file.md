@@ -1,7 +1,7 @@
 ---
-title: "A failure occurred writing to the licenses file"
+title: "A failure occurred writing to the licenses file | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ f1_keywords:
   - "vs.tasklisterror.fail_writing_licenses_file"
 ms.assetid: 7ea1e2ac-fc94-4d53-8ce9-2ae31bcba85d
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

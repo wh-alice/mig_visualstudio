@@ -1,7 +1,7 @@
 ---
-title: "How to Define a Domain-Specific Language"
+title: "How to Define a Domain-Specific Language | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, domain properties"
 ms.assetid: d1772463-0eb1-40a5-b7c0-9a008bc76760
 caps.latest.revision: 43
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 translation.priority.mt: 
@@ -605,7 +606,7 @@ To define a domain-specific language (DSL), you create a [!INCLUDE[vsprvs](../co
   
  You should therefore be aware that when you change some relationships in your DSL Definition, it is not unusual for errors to be reported either when you save the definition, or when you Transform All Templates. Most of these errors are easy to fix. Double-click the error report to see the location of the error.  
   
- See also [How to: Change the Namespace of a Domain-Specific Language](../modeling/how-to--change-the-namespace-of-a-domain-specific-language.md).  
+ See also [How to: Change the Namespace of a Domain-Specific Language](../modeling/how-to-change-the-namespace-of-a-domain-specific-language.md).  
   
 ##  <a name="trouble"></a> Troubleshooting  
  The following table lists some of the most common problems that are encountered when you design a DSL, together with suggestions for their solution. More advice is available on the [Visualization Tools Extensibililty Forum](http://go.microsoft.com/fwlink/?LinkId=186074).  
@@ -618,7 +619,7 @@ To define a domain-specific language (DSL), you create a [!INCLUDE[vsprvs](../co
 |I created a domain class, but I can't create instances in the language explorer.|Every domain class except the root must be the target of an embedding relationship.|  
 |In the explorer for my DSL, elements are shown only with their type names.|In the DSL Definition, select a domain property of the class and in the Properties window, set **Is Element Name** to true.|  
 |My DSL always opens in the XML editor.|This can happen because of an error while the file was being read. However, even after you fix that error, you must explicitly reset the editor to be your DSL designer.<br /><br /> Right-click the project item, click **Open With** and select *YourLanguage***Designer (Default)**.|  
-|The toolbox of my DSL does not appear after I changed the assembly names.|Inspect and update **DslPackage\GeneratedCode\Package.tt** For more information, see [How to: Change the Namespace of a Domain-Specific Language](../modeling/how-to--change-the-namespace-of-a-domain-specific-language.md).|  
+|The toolbox of my DSL does not appear after I changed the assembly names.|Inspect and update **DslPackage\GeneratedCode\Package.tt** For more information, see [How to: Change the Namespace of a Domain-Specific Language](../modeling/how-to-change-the-namespace-of-a-domain-specific-language.md).|  
 |The toolbox of my DSL does not appear, but I have not changed the assembly name.<br /><br /> Or, a message box appears reporting the failure to load an extension.|Reset the experimental instance, and rebuild your solution.<br /><br /> 1.  At the Windows Start menu, under **All Programs**, expand [!INCLUDE[vssdk_current_long](../misc/includes/vssdk_current_long_md.md)], then **Tools**, and then click **Reset the Microsoft Visual Studio Experimental Instance**.<br />2.  On the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]**Build** menu, click **Rebuild Solution**.|  
   
 ## See Also  

@@ -1,7 +1,7 @@
 ---
-title: "Overview of Overloading"
+title: "Overview of Overloading | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "operator overloading, about operator overloading"
 ms.assetid: cd012dd4-607c-4f8e-bd2e-2bd506ac81ea
 caps.latest.revision: 8
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -57,4 +58,4 @@ int main()
  In the first function call, where the maximum value of two variables of type `int` is being requested, the function `max( int, int )` is called. However, in the second function call, the arguments are of type `double`, so the function `max( double, double )` is called.  
   
 ## See Also  
- [Overloading  (C++)](../misc/overloading---c---.md)
+ [Overloading  (C++)](../misc/overloading-cpp.md)

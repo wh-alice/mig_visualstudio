@@ -1,7 +1,7 @@
 ---
-title: "Understanding Performance Collection Methods"
+title: "Understanding Performance Collection Methods | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Profiling Tools, profiling methods"
 ms.assetid: ea4881fd-bd04-4875-9b7b-28490d6706f9
 caps.latest.revision: 20
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -125,9 +126,9 @@ The Visual Studio Profiling Tools provide five methods that you can use to colle
   
  [Understanding Memory Allocation and Object Lifetime Data Values](../profiling/understanding-memory-allocation-and-object-lifetime-data-values.md)  
   
- [Collecting .NET Memory Allocation and Lifetime Data](../profiling/collecting-.net-memory-allocation-and-lifetime-data.md)  
+ [Collecting .NET Memory Allocation and Lifetime Data](../profiling/collecting-dotnet-memory-allocation-and-lifetime-data.md)  
   
- [.NET Memory Data Views](../profiling/.net-memory-data-views.md)  
+ [.NET Memory Data Views](../profiling/dotnet-memory-data-views.md)  
   
 ##  <a name="tier_interaction"></a> Tier Interaction  
  Tier-interaction profiling adds information to a profiling data file about synchronous [!INCLUDE[vstecado](../data-tools/includes/vstecado_md.md)] calls between an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] page or other application and a [!INCLUDE[ssNoVersion](../data-tools/includes/ssnoversion_md.md)] database. Data includes the number and time of calls, and the maximum and minimum times. Tier-interaction data can be added to profiling data that is collected with the sampling, instrumentation, .NET memory, or concurrency methods.  
@@ -140,5 +141,5 @@ Tier interaction data that is collected by Profiling Tools
  [Tier Interaction Views](../profiling/tier-interaction-views.md)  
   
 ## See Also  
- [How to: Collect Performance Data for a Web Site](../profiling/how-to--collect-performance-data-for-a-web-site.md)   
+ [How to: Collect Performance Data for a Web Site](../profiling/how-to-collect-performance-data-for-a-web-site.md)   
  [Beginners Guide to Performance Profiling](../profiling/beginners-guide-to-performance-profiling.md)

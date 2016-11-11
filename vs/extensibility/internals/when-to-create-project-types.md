@@ -1,7 +1,7 @@
 ---
-title: "When to Create Project Types"
+title: "When to Create Project Types | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -72,5 +72,5 @@ Creating a new project type provides a basis for customizing [!INCLUDE[vsprvs](.
   
 ## See Also  
  [Document Windows and Editors](http://msdn.microsoft.com/en-us/603625e1-62b6-413a-bc44-089346e166bc)   
- [Checklist: Creating New Project Types](../../extensibility/internals/checklist--creating-new-project-types.md)   
+ [Checklist: Creating New Project Types](../../extensibility/internals/checklist-creating-new-project-types.md)   
  [Hierarchies in Visual Studio](../../extensibility/internals/hierarchies-in-visual-studio.md)

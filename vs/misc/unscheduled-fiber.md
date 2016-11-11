@@ -1,5 +1,5 @@
 ---
-title: "Unscheduled Fiber"
+title: "Unscheduled Fiber | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "BC30948"
 ms.assetid: 982bf6d2-ce62-4451-8a23-82dacf8ee100
 caps.latest.revision: 8
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 

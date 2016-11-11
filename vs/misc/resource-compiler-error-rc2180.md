@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Error RC2180"
+title: "Resource Compiler Error RC2180 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC2180"
 ms.assetid: 6d296138-7989-491e-a45b-6c3a4743116a
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

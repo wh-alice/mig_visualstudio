@@ -1,7 +1,7 @@
 ---
-title: "Failed to generate resource files"
+title: "Failed to generate resource files | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ f1_keywords:
   - "vs.tasklisterror.resource_prep_failed"
 ms.assetid: 81ffe283-0782-4559-8dcd-edfec7d6fc8b
 caps.latest.revision: 6
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

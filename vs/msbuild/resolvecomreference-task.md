@@ -1,7 +1,7 @@
 ---
-title: "ResolveComReference Task"
+title: "ResolveComReference Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "ResolveCOMReference task [MSBuild]"
 ms.assetid: c9bf5fcf-6453-40ea-b50f-a212adc3e9b5
 caps.latest.revision: 26
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
-title: "Anonymous Unions"
+title: "Anonymous Unions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "unions [C++], anonymous"
 ms.assetid: 36da2365-06a0-4e22-9665-e89eb28358ad
 caps.latest.revision: 10
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -34,6 +35,6 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Anonymous Unions
-This content has moved to [Unions](../Topic/Unions.md)  
+This content has moved to [Unions](/visual-cpp/cpp/unions)  
   
 ## Syntax

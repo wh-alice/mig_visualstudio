@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Error RC2146"
+title: "Resource Compiler Error RC2146 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC2146"
 ms.assetid: 194680d1-f7fc-4d52-9156-ea3deff4b474
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

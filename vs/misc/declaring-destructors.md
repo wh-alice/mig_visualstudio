@@ -1,7 +1,7 @@
 ---
-title: "Declaring Destructors"
+title: "Declaring Destructors | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "declarations, destructors"
 ms.assetid: c83cbd34-5787-4d92-9447-0df521d1d681
 caps.latest.revision: 8
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -35,7 +36,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Declaring Destructors
-This content has moved to [Destructors](../Topic/Destructors%20\(C++\).md).  
+This content has moved to [Destructors](/visual-cpp/cpp/destructors-cpp).  
   
 ## Syntax  
   

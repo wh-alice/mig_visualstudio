@@ -1,5 +1,5 @@
 ---
-title: "TableAdapter Overview"
+title: "TableAdapter Overview | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/25/2016"
 ms.prod: "visual-studio-dev14"
@@ -29,6 +29,7 @@ helpviewer_keywords:
   - "table adapters"
 ms.assetid: a87c46a0-52ab-432a-a864-9ba55069f9eb
 caps.latest.revision: 40
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 robots: noindex,nofollow
@@ -67,7 +68,7 @@ TableAdapters are designer-generated components that connect to a database, exec
 ## TableAdapter Queries  
  ![TableAdapter with multiple queries](../data-tools/media/tableadapter.gif "TableAdapter")  
   
- TableAdapters can contain multiple queries to fill their associated data tables. You can define as many queries for a TableAdapter as your application requires, as long as each query returns data that conforms to the same schema as its associated data table. This enables loading of data that satisfies differing criteria. For example, if your application contains a table of customers, you can create a query that fills the table with every customer whose name begins with a certain letter, and another query that fills the table with all customers located in the same state. To fill a `Customers` table with customers in a given state you can create a `FillByState` query that takes a parameter for the state value: `SELECT * FROM Customers WHERE State = @State`. You execute the query by calling the `FillByState` method and passing in the parameter value like this: `CustomerTableAdapter.FillByState("WA")`. For more information, see [How to: Create TableAdapter Queries](../data-tools/how-to--create-tableadapter-queries.md).  
+ TableAdapters can contain multiple queries to fill their associated data tables. You can define as many queries for a TableAdapter as your application requires, as long as each query returns data that conforms to the same schema as its associated data table. This enables loading of data that satisfies differing criteria. For example, if your application contains a table of customers, you can create a query that fills the table with every customer whose name begins with a certain letter, and another query that fills the table with all customers located in the same state. To fill a `Customers` table with customers in a given state you can create a `FillByState` query that takes a parameter for the state value: `SELECT * FROM Customers WHERE State = @State`. You execute the query by calling the `FillByState` method and passing in the parameter value like this: `CustomerTableAdapter.FillByState("WA")`. For more information, see [How to: Create TableAdapter Queries](../data-tools/how-to-create-tableadapter-queries.md).  
   
  In addition to queries that return data of the same schema as the TableAdapter's data table, you can add queries that return scalar (single) values. For example, creating a query that returns a count of customers (`SELECT Count(*) From Customers`) is valid for a `CustomersTableAdapter` even though the data returned does not conform to the table's schema.  
   
@@ -84,7 +85,7 @@ TableAdapters are designer-generated components that connect to a database, exec
   
 |Member|Description|  
 |------------|-----------------|  
-|`TableAdapter.Fill`|Populates the TableAdapter's associated data table with the results of the TableAdapter's SELECT command. For more information, see [How to: Fill a dataset with data](../data-tools/how-to--fill-a-dataset-with-data.md).|  
+|`TableAdapter.Fill`|Populates the TableAdapter's associated data table with the results of the TableAdapter's SELECT command. For more information, see [How to: Fill a dataset with data](../data-tools/how-to-fill-a-dataset-with-data.md).|  
 |`TableAdapter.Update`|Sends changes back to the database and returns an integer representing the number of rows affected by the update. For more information, see [Update data by using a TableAdapter](../data-tools/update-data-by-using-a-tableadapter.md).|  
 |`TableAdapter.GetData`|Returns a new <xref:System.Data.DataTable> filled with data.|  
 |`TableAdapter.Insert`|Creates a new row in the data table. For more information, see [How to: Add Rows to a DataTable](../Topic/How%20to:%20Add%20Rows%20to%20a%20DataTable.md).|  
@@ -104,11 +105,11 @@ TableAdapters are designer-generated components that connect to a database, exec
  If you do not want to create these direct methods, set the TableAdapter's **GenerateDbDirectMethods** property to `false` (in the **Properties** window). Additional queries added to the TableAdapter are standalone queries — they do not generate these methods.  
   
 ## TableAdapter Support for Nullable Types  
- The TableAdapters support nullable types `Nullable(Of T)` and `T?`. For more information on nullable types in Visual Basic, see [Nullable Value Types](../Topic/Nullable%20Value%20Types%20\(Visual%20Basic\).md). For more information on nullable types in C#, see [Using Nullable Types](../Topic/Using%20Nullable%20Types%20\(C%23%20Programming%20Guide\).md).  
+ The TableAdapters support nullable types `Nullable(Of T)` and `T?`. For more information on nullable types in Visual Basic, see [Nullable Value Types](/dotnet/visual-basic/programming-guide/language-features/data-types/nullable-value-types). For more information on nullable types in C#, see [Using Nullable Types](/dotnet/csharp/programming-guide/nullable-types/using-nullable-types).  
   
 ## See Also  
  [Data Walkthroughs](../Topic/Data%20Walkthroughs.md)   
- [How to: Connect to Data in a Database](../data-tools/how-to--connect-to-data-in-a-database.md)   
+ [How to: Connect to Data in a Database](../data-tools/how-to-connect-to-data-in-a-database.md)   
  [Walkthrough: Connecting to Data in a Database (Windows Forms)](../Topic/Walkthrough:%20Connecting%20to%20Data%20in%20a%20Database%20\(Windows%20Forms\).md)   
  [Preparing Your Application to Receive Data](../Topic/Preparing%20Your%20Application%20to%20Receive%20Data.md)   
  [Fetching Data into Your Application](../data-tools/fetching-data-into-your-application.md)   

@@ -1,7 +1,7 @@
 ---
-title: "Implementing Type Visualizers and Custom Viewers"
+title: "Implementing Type Visualizers and Custom Viewers | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -40,7 +40,7 @@ translation.priority.mt:
 ## Discussion  
   
 ### Type Visualizers  
- Visual Studio asks for a list of type visualizers and custom viewers for every object to be displayed in a watch window. An expression evaluator (EE) supplies such a list for every type for which it wants to support type visualizers and custom viewers. Calls to [GetCustomViewerCount](../../extensibility/debugger/reference/idebugproperty3--getcustomviewercount.md) and [GetCustomViewerList](../../extensibility/debugger/reference/idebugproperty3--getcustomviewerlist.md) start the whole process of accessing type visualizers and custom viewers (see [Visualizing and Viewing Data](../../extensibility/debugger/visualizing-and-viewing-data.md) for details on the calling sequence).  
+ Visual Studio asks for a list of type visualizers and custom viewers for every object to be displayed in a watch window. An expression evaluator (EE) supplies such a list for every type for which it wants to support type visualizers and custom viewers. Calls to [GetCustomViewerCount](../../extensibility/debugger/reference/idebugproperty3-getcustomviewercount.md) and [GetCustomViewerList](../../extensibility/debugger/reference/idebugproperty3-getcustomviewerlist.md) start the whole process of accessing type visualizers and custom viewers (see [Visualizing and Viewing Data](../../extensibility/debugger/visualizing-and-viewing-data.md) for details on the calling sequence).  
   
 ### Custom Viewers  
  Custom viewers are implemented in the EE for a specific data type and are represented by the [IDebugCustomViewer](../../extensibility/debugger/reference/idebugcustomviewer.md) interface. A custom viewer is not as flexible as a type visualizer, since it is available only when the EE that implements that particular custom viewer is executing. Implementing a custom viewer is simpler than implementing support for type visualizers. However, supporting type visualizers gives maximum flexibility to the end user for visualizing his or her data. The remainder of this discussion concerns only type visualizers.  

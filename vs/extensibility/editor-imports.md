@@ -1,7 +1,7 @@
 ---
-title: "Editor Imports"
+title: "Editor Imports | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -55,19 +55,19 @@ internal IEditorOptionsFactoryService m_editorOptions = null;
   
  For more examples of using imports, see the following walkthroughs:  
   
- [Walkthrough: Creating a Margin Glyph](../extensibility/walkthrough--creating-a-margin-glyph.md)  
+ [Walkthrough: Creating a Margin Glyph](../extensibility/walkthrough-creating-a-margin-glyph.md)  
   
- [Walkthrough: Customizing the Text View](../extensibility/walkthrough--customizing-the-text-view.md)  
+ [Walkthrough: Customizing the Text View](../extensibility/walkthrough-customizing-the-text-view.md)  
   
- [Walkthrough: Highlighting Text](../extensibility/walkthrough--highlighting-text.md)  
+ [Walkthrough: Highlighting Text](../extensibility/walkthrough-highlighting-text.md)  
   
- [Walkthrough: Displaying QuickInfo Tooltips](../extensibility/walkthrough--displaying-quickinfo-tooltips.md)  
+ [Walkthrough: Displaying QuickInfo Tooltips](../extensibility/walkthrough-displaying-quickinfo-tooltips.md)  
   
- [Walkthrough: Displaying Signature Help](../extensibility/walkthrough--displaying-signature-help.md)  
+ [Walkthrough: Displaying Signature Help](../extensibility/walkthrough-displaying-signature-help.md)  
   
- [Walkthrough: Displaying Statement Completion](../extensibility/walkthrough--displaying-statement-completion.md)  
+ [Walkthrough: Displaying Statement Completion](../extensibility/walkthrough-displaying-statement-completion.md)  
   
- [Walkthrough: Displaying SmartTags](../misc/walkthrough--displaying-smarttags.md)  
+ [Walkthrough: Displaying SmartTags](../misc/walkthrough-displaying-smarttags.md)  
   
 ## Importing the Service Provider  
  You can also import a <xref:Microsoft.VisualStudio.Shell.SVsServiceProvider> (found in the assembly Microsoft.VisualStudio.Shell.Immutable.10.0) in the same way to get access to Visual Studio services:  
@@ -77,7 +77,7 @@ internal IEditorOptionsFactoryService m_editorOptions = null;
 internal SVsServiceProvider ServiceProvider = null;   
 ```  
   
- See [Walkthrough: Accessing the DTE Object from an Editor Extension](../extensibility/walkthrough--accessing-the-dte-object-from-an-editor-extension.md) for more information.  
+ See [Walkthrough: Accessing the DTE Object from an Editor Extension](../extensibility/walkthrough-accessing-the-dte-object-from-an-editor-extension.md) for more information.  
   
 ## Services  
  Editor services are generally single entities that provide a service and are shared across multiple components.  
@@ -91,7 +91,7 @@ internal SVsServiceProvider ServiceProvider = null;
 |<xref:Microsoft.VisualStudio.Text.IncrementalSearch.IIncrementalSearchFactoryService>|An <xref:Microsoft.VisualStudio.Text.IncrementalSearch.IIncrementalSearch> object for a given text view.|  
 |<xref:Microsoft.VisualStudio.Text.ITextBufferFactoryService>|An <xref:Microsoft.VisualStudio.Text.ITextBuffer>.|  
 |<xref:Microsoft.VisualStudio.Text.ITextDocumentFactoryService>|An <xref:Microsoft.VisualStudio.Text.ITextDocument>.|  
-|<xref:Microsoft.VisualStudio.Text.Differencing.IDifferenceService>|An <xref:Microsoft.VisualStudio.Text.Differencing.IDifferenceCollection`1> of differences.|  
+|<xref:Microsoft.VisualStudio.Text.Differencing.IDifferenceService>|An <xref:Microsoft.VisualStudio.Text.Differencing.IDifferenceCollection%601> of differences.|  
 |<xref:Microsoft.VisualStudio.Text.Differencing.IHierarchicalStringDifferenceService>|An <xref:Microsoft.VisualStudio.Text.Differencing.IHierarchicalDifferenceCollection> of differences.|  
 |<xref:Microsoft.VisualStudio.Text.Projection.IProjectionBufferFactoryService>|An <xref:Microsoft.VisualStudio.Text.Projection.IProjectionBuffer> or an <xref:Microsoft.VisualStudio.Text.Projection.IElisionBuffer>.|  
 |<xref:Microsoft.VisualStudio.Text.Projection.IBufferGraphFactoryService>|An <xref:Microsoft.VisualStudio.Text.Projection.IBufferGraph> for a set of <xref:Microsoft.VisualStudio.Text.ITextBuffer> objects.|  
@@ -100,8 +100,8 @@ internal SVsServiceProvider ServiceProvider = null;
 |<xref:Microsoft.VisualStudio.Text.Classification.IClassificationFormatMapService>|An <xref:Microsoft.VisualStudio.Text.Classification.IClassificationFormatMap> for a <xref:Microsoft.VisualStudio.Text.Editor.ITextView>.|  
 |<xref:Microsoft.VisualStudio.Text.Classification.IEditorFormatMapService>|An <xref:Microsoft.VisualStudio.Text.Classification.IEditorFormatMap> for a <xref:Microsoft.VisualStudio.Text.Editor.ITextView>.|  
 |<xref:Microsoft.VisualStudio.Text.Classification.IClassificationTypeRegistryService>|Maintains the collection of <xref:Microsoft.VisualStudio.Text.Classification.IClassificationType> objects.|  
-|<xref:Microsoft.VisualStudio.Text.Tagging.IBufferTagAggregatorFactoryService>|An <xref:Microsoft.VisualStudio.Text.Tagging.ITagAggregator`1> for a text buffer.|  
-|<xref:Microsoft.VisualStudio.Text.Tagging.IViewTagAggregatorFactoryService>|An <xref:Microsoft.VisualStudio.Text.Tagging.ITagAggregator`1> for a text view.|  
+|<xref:Microsoft.VisualStudio.Text.Tagging.IBufferTagAggregatorFactoryService>|An <xref:Microsoft.VisualStudio.Text.Tagging.ITagAggregator%601> for a text buffer.|  
+|<xref:Microsoft.VisualStudio.Text.Tagging.IViewTagAggregatorFactoryService>|An <xref:Microsoft.VisualStudio.Text.Tagging.ITagAggregator%601> for a text view.|  
 |<xref:Microsoft.VisualStudio.Text.Editor.IEditorOptionsFactoryService>|The <xref:Microsoft.VisualStudio.Text.Editor.IEditorOptions> for the specified scope.|  
 |<xref:Microsoft.VisualStudio.Text.Editor.IScrollMapFactoryService>|An <xref:Microsoft.VisualStudio.Text.Editor.IScrollMap> for a text view.|  
 |<xref:Microsoft.VisualStudio.Text.Editor.ISmartIndentationService>|An <xref:Microsoft.VisualStudio.Text.Editor.ISmartIndent> for a <xref:Microsoft.VisualStudio.Text.Editor.ITextView>.|  
@@ -126,8 +126,8 @@ internal SVsServiceProvider ServiceProvider = null;
   
 |Import|Provides|  
 |------------|--------------|  
-|<xref:Microsoft.VisualStudio.Text.Adornments.IErrorProviderFactory>|A <xref:Microsoft.VisualStudio.Text.Tagging.SimpleTagger`1> of type <xref:Microsoft.VisualStudio.Text.Tagging.ErrorTag>) for the given buffer.|  
-|<xref:Microsoft.VisualStudio.Text.Adornments.ITextMarkerProviderFactory>|A text marker tagger (a <xref:Microsoft.VisualStudio.Text.Tagging.SimpleTagger`1> of type <xref:Microsoft.VisualStudio.Text.Tagging.TextMarkerTag>).|  
+|<xref:Microsoft.VisualStudio.Text.Adornments.IErrorProviderFactory>|A <xref:Microsoft.VisualStudio.Text.Tagging.SimpleTagger%601> of type <xref:Microsoft.VisualStudio.Text.Tagging.ErrorTag>) for the given buffer.|  
+|<xref:Microsoft.VisualStudio.Text.Adornments.ITextMarkerProviderFactory>|A text marker tagger (a <xref:Microsoft.VisualStudio.Text.Tagging.SimpleTagger%601> of type <xref:Microsoft.VisualStudio.Text.Tagging.TextMarkerTag>).|  
 |<xref:Microsoft.VisualStudio.Text.Adornments.IToolTipProviderFactory>|An <xref:Microsoft.VisualStudio.Text.Adornments.IToolTipProvider> for a given <xref:Microsoft.VisualStudio.Text.Editor.ITextView>.|  
 |<xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionBroker>|An <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionSession>.|  
 |<xref:Microsoft.VisualStudio.Language.Intellisense.IQuickInfoBroker>|An <xref:Microsoft.VisualStudio.Language.Intellisense.IQuickInfoSession>.|  

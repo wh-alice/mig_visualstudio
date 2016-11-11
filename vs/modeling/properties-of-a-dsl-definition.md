@@ -1,7 +1,7 @@
 ---
-title: "Properties of a DSL Definition"
+title: "Properties of a DSL Definition | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, definition file"
 ms.assetid: 38debcfe-e1a6-4a3f-9d69-3ab07520f2b6
 caps.latest.revision: 13
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 ---

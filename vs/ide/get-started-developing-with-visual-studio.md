@@ -1,7 +1,7 @@
 ---
-title: "Get Started Developing with Visual Studio"
+title: "Get Started Developing with Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/27/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "Visual Studio, getting started"
 ms.assetid: 041ef726-f117-4a91-9c18-fef043bf2529
 caps.latest.revision: 65
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -77,5 +78,5 @@ Welcome to Visual Studio! After you have [downloaded](http://www.visualstudio.co
 |||  
 |-|-|  
 |[Getting Started with Visual C# and Visual Basic](../ide/getting-started-with-visual-csharp-and-visual-basic.md)|[Writing JavaScript Code](http://msdn.microsoft.com/library/cte3c772\(v=vs.94\).aspx)|  
-|[Visual C++ for Cross-Platform Mobile Development](../cross-platform/visual-c---for-cross-platform-mobile-development.md)|[Introduction to Functional Programming with F#](http://msdn.microsoft.com/library/vstudio/dd233147.aspx)|  
-|[Getting Started with C++](../ide/getting-started-with-c---in-visual-studio.md)|[Getting Started with Debugging in Visual Studio 2015](../ide/getting-started-with-debugging-in-visual-studio-2015.md)|
+|[Visual C++ for Cross-Platform Mobile Development](../cross-platform/visual-cpp-for-cross-platform-mobile-development.md)|[Introduction to Functional Programming with F#](http://msdn.microsoft.com/library/vstudio/dd233147.aspx)|  
+|[Getting Started with C++](../ide/getting-started-with-cpp-in-visual-studio.md)|[Getting Started with Debugging in Visual Studio 2015](../ide/getting-started-with-debugging-in-visual-studio-2015.md)|

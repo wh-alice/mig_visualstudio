@@ -1,7 +1,7 @@
 ---
-title: "Customizing File Storage and XML Serialization"
+title: "Customizing File Storage and XML Serialization | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, serialization"
 ms.assetid: 76c53ef1-e3b9-45da-b425-1bddb3c01395
 caps.latest.revision: 17
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 ---

@@ -1,7 +1,7 @@
 ---
-title: "A failure occurred while attempting to start the compilation"
+title: "A failure occurred while attempting to start the compilation | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ f1_keywords:
   - "vs.tasklisterror.fail_starting_compiler"
 ms.assetid: a5b5b758-4da4-43cb-bfd7-55bd2741d26b
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Error RC2134"
+title: "Resource Compiler Error RC2134 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC2134"
 ms.assetid: 7c4a0410-35b3-450d-bbb9-597bbefc2858
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

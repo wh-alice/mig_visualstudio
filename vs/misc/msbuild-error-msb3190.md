@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB3190"
+title: "MSBuild Error MSB3190 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/22/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB3190"
 ms.assetid: 45b45688-9345-45db-adc8-3e200f1c17eb
 caps.latest.revision: 9
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -47,7 +48,7 @@ translation.priority.mt:
   
 -   Generate an external UAC manifest (app.manifest) that specifies that the application run as the current user (`asInvoker`).  
   
-     In Visual C# projects, go to the **Application** page of the Project Designer and click **Properties\app.manifest** in the **Manifest** list. For more information, see [Application Page, Project Designer (C#)](../ide/reference/application-page--project-designer--csharp-.md).  
+     In Visual C# projects, go to the **Application** page of the Project Designer and click **Properties\app.manifest** in the **Manifest** list. For more information, see [Application Page, Project Designer (C#)](../ide/reference/application-page-project-designer-csharp.md).  
   
      In Visual Basic projects, go to the **Application** page of the Project Designer and click the **View UAC Settings** button. This opens app.manifest for editing. Edit the following tag in the manifest to read as follows:  
   
@@ -55,11 +56,11 @@ translation.priority.mt:
     <requestedExecutionLevel level="asInvoker" />  
     ```  
   
-     For more information, see [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page--project-designer--visual-basic-.md).  
+     For more information, see [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md).  
   
 -   For more information about how to generate a UAC manifest and specify the execution level, see [ClickOnce Deployment on Windows Vista](../deployment/clickonce-deployment-on-windows-vista.md).  
   
 ## See Also  
- [Application Page, Project Designer (C#)](../ide/reference/application-page--project-designer--csharp-.md)   
- [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page--project-designer--visual-basic-.md)   
+ [Application Page, Project Designer (C#)](../ide/reference/application-page-project-designer-csharp.md)   
+ [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md)   
  [ClickOnce Deployment on Windows Vista](../deployment/clickonce-deployment-on-windows-vista.md)

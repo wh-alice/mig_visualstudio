@@ -1,7 +1,7 @@
 ---
-title: "Validation in a Domain-Specific Language"
+title: "Validation in a Domain-Specific Language | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, validation"
 ms.assetid: 65b93df8-af3c-462b-904c-60292f8ed381
 caps.latest.revision: 33
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 translation.priority.mt: 
@@ -226,7 +227,7 @@ partial class MyLanguageCommandSet
   
 ```  
   
- For more information, see [How to: Add a Command to the Shortcut Menu](../modeling/how-to--add-a-command-to-the-shortcut-menu.md).  
+ For more information, see [How to: Add a Command to the Shortcut Menu](../modeling/how-to-add-a-command-to-the-shortcut-menu.md).  
   
  You can also create a separate validation controller, and manage the errors yourself. For example:  
   

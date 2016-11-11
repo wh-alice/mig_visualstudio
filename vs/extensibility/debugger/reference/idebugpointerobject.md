@@ -1,7 +1,7 @@
 ---
-title: "IDebugPointerObject"
+title: "IDebugPointerObject | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -48,16 +48,16 @@ IDebugPointerObject : IDebugObject
  The expression evaluator implements this interface to represent a pointer object.  
   
 ## Notes for Callers  
- The [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) interface can obtain this interface by using [QueryInterface](../Topic/QueryInterface.md) if the `IDebugObject` represents a pointer.  
+ The [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) interface can obtain this interface by using [QueryInterface](/visual-cpp/atl/queryinterface) if the `IDebugObject` represents a pointer.  
   
 ## Methods in Vtable Order  
  In addition to the methods inherited from [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md), the `IDebugPointerObject` interface exposes the following methods.  
   
 |Method|Description|  
 |------------|-----------------|  
-|[Dereference](../../../extensibility/debugger/reference/idebugpointerobject--dereference.md)|Gets the object to which the interface points.|  
-|[GetBytes](../../../extensibility/debugger/reference/idebugpointerobject--getbytes.md)|Gets the value to which the interface points as a series of consecutive bytes.|  
-|[SetBytes](../../../extensibility/debugger/reference/idebugpointerobject--setbytes.md)|Sets the value to which the interface points from a series of consecutive bytes.|  
+|[Dereference](../../../extensibility/debugger/reference/idebugpointerobject-dereference.md)|Gets the object to which the interface points.|  
+|[GetBytes](../../../extensibility/debugger/reference/idebugpointerobject-getbytes.md)|Gets the value to which the interface points as a series of consecutive bytes.|  
+|[SetBytes](../../../extensibility/debugger/reference/idebugpointerobject-setbytes.md)|Sets the value to which the interface points from a series of consecutive bytes.|  
   
 ## Remarks  
  An expression evaluator uses this interface to represent a pointer in a parse tree.  

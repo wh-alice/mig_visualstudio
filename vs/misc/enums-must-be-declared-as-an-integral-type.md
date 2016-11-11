@@ -1,5 +1,5 @@
 ---
-title: "Enums must be declared as an integral type"
+title: "Enums must be declared as an integral type | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "BC30650"
 ms.assetid: 566aa501-d283-4c1f-b494-3bc5fbe80e04
 caps.latest.revision: 10
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -44,5 +45,5 @@ The only valid types you can use in enumerations are `SByte`, `Byte`, `Short`, `
 -   Specify a data type of `SByte`, `Byte`, `Short`, `UShort`, `Integer`, `UInteger`, `Long`, or `ULong`.  
   
 ## See Also  
- [Data Types](../Topic/Data%20Type%20Summary%20\(Visual%20Basic\).md)   
- [Enum Statement](../Topic/Enum%20Statement%20\(Visual%20Basic\).md)
+ [Data Types](/dotnet/visual-basic/language-reference/data-types/data-type-summary)   
+ [Enum Statement](/dotnet/visual-basic/language-reference/statements/enum-statement)

@@ -1,7 +1,7 @@
 ---
-title: "Deploy Windows Store apps from Visual Studio"
+title: "Deploy Windows Store apps from Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ dev_langs:
   - "C++"
 ms.assetid: ef3a0f36-bfc9-4ca0-aa61-18261f619bff
 caps.latest.revision: 14
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

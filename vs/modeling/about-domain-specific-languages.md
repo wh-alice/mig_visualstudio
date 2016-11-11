@@ -1,7 +1,7 @@
 ---
-title: "About Domain-Specific Languages"
+title: "About Domain-Specific Languages | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ helpviewer_keywords:
   - "Domain-Specific Language"
 ms.assetid: 29e5b6f2-ece4-4f3b-ab08-5f957418702f
 caps.latest.revision: 26
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 ---

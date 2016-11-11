@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Error RC2117"
+title: "Resource Compiler Error RC2117 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC2117"
 ms.assetid: 95d09a84-84b3-4484-ab5c-09a19f5d9aae
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

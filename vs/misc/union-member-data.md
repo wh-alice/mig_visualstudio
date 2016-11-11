@@ -1,7 +1,7 @@
 ---
-title: "Union Member Data"
+title: "Union Member Data | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "members, union"
 ms.assetid: 5010facf-c237-4495-b892-178e0944fff4
 caps.latest.revision: 8
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -35,4 +36,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Union Member Data
-This content has moved to [Unions](../Topic/Unions.md).
+This content has moved to [Unions](/visual-cpp/cpp/unions).

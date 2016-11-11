@@ -1,7 +1,7 @@
 ---
-title: "Order of Evaluation"
+title: "Order of Evaluation | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "expressions [C++], evaluation order"
 ms.assetid: 5e3b1106-922b-4a22-abf2-e14336945bc4
 caps.latest.revision: 6
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -37,4 +38,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Order of Evaluation
-This content has moved [Semantics of Expressions](../Topic/Semantics%20of%20Expressions.md)
+This content has moved [Semantics of Expressions](/visual-cpp/cpp/semantics-of-expressions)

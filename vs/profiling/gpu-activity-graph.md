@@ -1,7 +1,7 @@
 ---
-title: "GPU Activity Graph"
+title: "GPU Activity Graph | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ f1_keywords:
   - "vs.cv.cpu.graph.gpu"
 ms.assetid: d7c769af-95fb-49a3-b5ab-deafecee46fa
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

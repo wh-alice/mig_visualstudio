@@ -1,7 +1,7 @@
 ---
-title: "Create parameterized TableAdapter queries"
+title: "Create parameterized TableAdapter queries | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "queries [Visual Studio], TableAdapters"
 ms.assetid: 104d1d19-b5a9-4071-b81e-1b3af08e9c7b
 caps.latest.revision: 20
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 translation.priority.ht: 
@@ -58,7 +59,7 @@ A parameterized query returns data that meets the conditions of a WHERE clause w
   
      -or-  
   
--   Add a query to an existing TableAdapter, adding a WHERE clause with the desired parameters to the SQL statement. For more information, See [How to: Create TableAdapter Queries](../data-tools/how-to--create-tableadapter-queries.md).  
+-   Add a query to an existing TableAdapter, adding a WHERE clause with the desired parameters to the SQL statement. For more information, See [How to: Create TableAdapter Queries](../data-tools/how-to-create-tableadapter-queries.md).  
   
 #### To create a parameterized query while designing a data-bound form  
   

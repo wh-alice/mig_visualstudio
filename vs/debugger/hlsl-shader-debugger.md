@@ -1,7 +1,7 @@
 ---
-title: "HLSL Shader Debugger"
+title: "HLSL Shader Debugger | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ f1_keywords:
   - "vs.graphics.shaderviewer"
 ms.assetid: 4ccec541-3c49-42bd-972a-686eb3a88fbc
 caps.latest.revision: 18
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -86,6 +87,6 @@ The HLSL debugger in Visual Studio Graphics Analyzer helps you understand how yo
  For examples about how to use the HLSL Debugger to debug shader errors, see [Examples](../debugger/graphics-diagnostics-examples.md) or the walkthroughs linked to in the See Also section.  
   
 ## See Also  
- [Walkthrough: Missing Objects Due to Vertex Shading](../debugger/walkthrough--missing-objects-due-to-vertex-shading.md)   
- [Walkthrough: Debugging Rendering Errors Due to Shading](../debugger/walkthrough--debugging-rendering-errors-due-to-shading.md)   
- [Walkthrough: Using Graphics Diagnostics to Debug a Compute Shader](../debugger/walkthrough--using-graphics-diagnostics-to-debug-a-compute-shader.md)
+ [Walkthrough: Missing Objects Due to Vertex Shading](../debugger/walkthrough-missing-objects-due-to-vertex-shading.md)   
+ [Walkthrough: Debugging Rendering Errors Due to Shading](../debugger/walkthrough-debugging-rendering-errors-due-to-shading.md)   
+ [Walkthrough: Using Graphics Diagnostics to Debug a Compute Shader](../debugger/walkthrough-using-graphics-diagnostics-to-debug-a-compute-shader.md)

@@ -1,7 +1,7 @@
 ---
-title: "Overview of Derived Classes"
+title: "Overview of Derived Classes | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "inheritance, about inheritance"
 ms.assetid: 5df2231b-f7ac-4107-ba15-dd1388b5a185
 caps.latest.revision: 8
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -36,4 +37,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Overview of Derived Classes
-This content has moved to  [Inheritance](../Topic/Inheritance%20%20\(C++\).md)
+This content has moved to  [Inheritance](/visual-cpp/cpp/inheritance-cpp)

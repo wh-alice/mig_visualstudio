@@ -1,5 +1,5 @@
 ---
-title: "Syntax error in conditional compilation expression"
+title: "Syntax error in conditional compilation expression | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "BC31427"
 ms.assetid: 5da3e4ec-5c20-4559-a68b-487884f20598
 caps.latest.revision: 7
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 

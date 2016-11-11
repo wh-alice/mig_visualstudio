@@ -1,7 +1,7 @@
 ---
-title: "Registering the Program"
+title: "Registering the Program | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -42,7 +42,7 @@ After the debug engine has acquired a port, represented by an [IDebugPort2](../.
   
 #### To register your program  
   
-1.  Call the [AddProgramNode](../../extensibility/debugger/reference/idebugportnotify2--addprogramnode.md) method implemented by the port.  
+1.  Call the [AddProgramNode](../../extensibility/debugger/reference/idebugportnotify2-addprogramnode.md) method implemented by the port.  
   
      `IDebugPortNotify2::AddProgramNode` requires a pointer to an [IDebugProgramNode2](../../extensibility/debugger/reference/idebugprogramnode2.md) interface.  
   

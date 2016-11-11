@@ -1,7 +1,7 @@
 ---
-title: "Map methods on the call stack while debugging in Visual Studio"
+title: "Map methods on the call stack while debugging in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -32,6 +32,7 @@ helpviewer_keywords:
   - "debugging [Visual Studio], visualizing the call stack"
 ms.assetid: d6a72e5e-f88d-46fc-94a3-1789d34805ef
 caps.latest.revision: 39
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "douge"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
-title: "Navigate relationships with the UML API"
+title: "Navigate relationships with the UML API | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ helpviewer_keywords:
   - "UML API"
 ms.assetid: a4d11d45-b8c0-40f9-a597-363f07659610
 caps.latest.revision: 13
+author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
 translation.priority.ht: 

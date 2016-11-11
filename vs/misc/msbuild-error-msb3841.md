@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB3841"
+title: "MSBuild Error MSB3841 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ f1_keywords:
   - "MSBuild.ResolveSDKReference.InvalidDependencyInPlatform"
 ms.assetid: 80ed22a1-bd62-4ace-892f-6b6009dff8e5
 caps.latest.revision: 9
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
-title: "Creating Custom Project and Item Templates"
+title: "Creating Custom Project and Item Templates | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,7 +45,7 @@ The Visual Studio SDK includes project templates that create a custom project te
   
 2.  Add and remove items from the project as required for your project. Do not remove the editable project file, the AssemblyInfo file, or the .vstemplate file.  
   
-3.  Update the .vstemplate file to reflect any additions and deletions. The [Project](../extensibility/project-element--visual-studio-templates-.md) element must contain a [ProjectItem](../extensibility/projectitem-element--visual-studio-item-templates-.md) element for each file to be included in the template.  
+3.  Update the .vstemplate file to reflect any additions and deletions. The [Project](../extensibility/project-element-visual-studio-templates.md) element must contain a [ProjectItem](../extensibility/projectitem-element-visual-studio-item-templates.md) element for each file to be included in the template.  
   
 4.  Modify your code files and other user-facing content, and add appropriate parameter substitutions.  
   
@@ -63,7 +63,7 @@ The Visual Studio SDK includes project templates that create a custom project te
   
 2.  Add and remove items from the project as required for your project.  
   
-3.  Update the .vstemplate file to reflect any additions and deletions. The [Project](../extensibility/project-element--visual-studio-templates-.md) element must contain a [ProjectItem](../extensibility/projectitem-element--visual-studio-item-templates-.md) element for each file to be included in the template.  
+3.  Update the .vstemplate file to reflect any additions and deletions. The [Project](../extensibility/project-element-visual-studio-templates.md) element must contain a [ProjectItem](../extensibility/projectitem-element-visual-studio-item-templates.md) element for each file to be included in the template.  
   
 4.  Modify your code files and other user-facing content, and add appropriate parameter substitutions.  
   

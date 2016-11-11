@@ -1,7 +1,7 @@
 ---
-title: "Providing a Language Service Context by Using the Legacy API"
+title: "Providing a Language Service Context by Using the Legacy API | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,7 +33,7 @@ translation.priority.mt:
 # Providing a Language Service Context by Using the Legacy API
 There are two options for a language service to provide user context using the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] core editor: provide text marker context, or provide all user context. The differences between each are outlined here.  
   
- For more information on providing context to a language service that is connected to your own editor, see [How to: Provide Context for Editors](../extensibility/how-to--provide-context-for-editors.md).  
+ For more information on providing context to a language service that is connected to your own editor, see [How to: Provide Context for Editors](../extensibility/how-to-provide-context-for-editors.md).  
   
 ## Provide Text Marker Context to the Editor  
  To provide context for compiler errors indicated by text markers in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] core editor, implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerContextProvider> interface. In this scenario, the language service provides context only when the cursor is on a text marker. This allows the editor to provide the keyword at the cursor to the **Dynamic Help** window with no attributes.  
@@ -41,7 +41,7 @@ There are two options for a language service to provide user context using the [
 ## Provide All User Context to the Editor  
  If you are creating a language service and are using the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] core editor, then you can implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageContextProvider> interface to provide context for your language service.  
   
- For the implementation of `IVsLanguageContextProvider`, a context bag (collection) is attached to the editor, which is responsible for updating the context bag. When the **Dynamic Help** window calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.Update*> interface on this context bag at idle time, the context bag queries the editor for an update. The editor then notifies the language service that it should update the editor, and passes a pointer to the context bag. This is done by calling the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageContextProvider.UpdateLanguageContext*> method from the editor to the language service. Using the pointer to the context bag, the language service can now add and remove attributes and keywords. For more information, see <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageContextProvider>.  
+ For the implementation of `IVsLanguageContextProvider`, a context bag (collection) is attached to the editor, which is responsible for updating the context bag. When the **Dynamic Help** window calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.Update%2A> interface on this context bag at idle time, the context bag queries the editor for an update. The editor then notifies the language service that it should update the editor, and passes a pointer to the context bag. This is done by calling the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageContextProvider.UpdateLanguageContext%2A> method from the editor to the language service. Using the pointer to the context bag, the language service can now add and remove attributes and keywords. For more information, see <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageContextProvider>.  
   
  There are two different ways to implement `IVsLanguageContextProvider`:  
   

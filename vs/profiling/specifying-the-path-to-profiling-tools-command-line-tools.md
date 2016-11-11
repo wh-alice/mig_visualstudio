@@ -1,7 +1,7 @@
 ---
-title: "Specifying the Path to Profiling Tools Command Line Tools"
+title: "Specifying the Path to Profiling Tools Command Line Tools | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7047bf18-5779-4f6e-872c-66e2fc47c969
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

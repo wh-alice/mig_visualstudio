@@ -1,5 +1,5 @@
 ---
-title: "Unable to evaluate expression"
+title: "Unable to evaluate expression | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "BC30707"
 ms.assetid: 135f382a-9961-4721-925a-a5a98648095c
 caps.latest.revision: 8
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB3127"
+title: "MSBuild Error MSB3127 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB3127"
 ms.assetid: 161eea9a-332f-463e-a49e-d4030e937d52
 caps.latest.revision: 8
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -40,7 +41,7 @@ translation.priority.mt:
   
 ### To correct this error  
   
--   Add the icon file to the current project and include it in the required download group. For more information, see [How to: Specify Which Files Are Published by ClickOnce](../deployment/how-to--specify-which-files-are-published-by-clickonce.md).  
+-   Add the icon file to the current project and include it in the required download group. For more information, see [How to: Specify Which Files Are Published by ClickOnce](../deployment/how-to-specify-which-files-are-published-by-clickonce.md).  
   
 ## See Also  
- [Publish Page, Project Designer](../ide/reference/publish-page--project-designer.md)
+ [Publish Page, Project Designer](../ide/reference/publish-page-project-designer.md)

@@ -1,7 +1,7 @@
 ---
-title: "Logical Operators"
+title: "Logical Operators | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "logical operators, C++"
 ms.assetid: e148bd43-5649-43ea-903d-75df6699b53a
 caps.latest.revision: 10
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 

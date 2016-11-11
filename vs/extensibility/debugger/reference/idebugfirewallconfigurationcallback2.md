@@ -1,7 +1,7 @@
 ---
-title: "IDebugFirewallConfigurationCallback2"
+title: "IDebugFirewallConfigurationCallback2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -47,7 +47,7 @@ IDebugFirewallConfigurationCallback2 : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[EnsureDCOMUnblocked](../../../extensibility/debugger/reference/idebugfirewallconfigurationcallback2--ensuredcomunblocked.md)|Requests that the firewall not block remote debugging.|  
+|[EnsureDCOMUnblocked](../../../extensibility/debugger/reference/idebugfirewallconfigurationcallback2-ensuredcomunblocked.md)|Requests that the firewall not block remote debugging.|  
   
 ## Requirements  
  Header: Msdbg.h  

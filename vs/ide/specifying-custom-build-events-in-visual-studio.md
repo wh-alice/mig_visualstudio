@@ -1,7 +1,7 @@
 ---
-title: "Specifying Custom Build Events in Visual Studio"
+title: "Specifying Custom Build Events in Visual Studio | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "build events, customizing"
 ms.assetid: 69e935a5-e208-4bcd-865c-3e5f9b047ca8
 caps.latest.revision: 13
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -35,11 +36,11 @@ By specifying a custom build event, you can automatically run commands before a 
   
  For specific information about the programming language that you’re using, see the following topics:  
   
--   Visual Basic--[How to: Specify Build Events (Visual Basic)](../ide/how-to--specify-build-events--visual-basic-.md).  
+-   Visual Basic--[How to: Specify Build Events (Visual Basic)](../ide/how-to-specify-build-events-visual-basic.md).  
   
--   Visual C# and F#--[How to: Specify Build Events (C#)](../ide/how-to--specify-build-events--csharp-.md).  
+-   Visual C# and F#--[How to: Specify Build Events (C#)](../ide/how-to-specify-build-events-csharp.md).  
   
--   Visual C++--[Specifying Build Events](../Topic/Specifying%20Build%20Events.md).  
+-   Visual C++--[Specifying Build Events](/visual-cpp/ide/specifying-build-events).  
   
 ## Syntax  
  Build events follow the same syntax as DOS commands, but you can use macros to create build events more easily. For a list of available macros, see [Pre-build Event/Post-build Event Command Line Dialog Box](../ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md).  
@@ -69,4 +70,4 @@ By specifying a custom build event, you can automatically run commands before a 
  [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)   
  [Pre-build Event/Post-build Event Command Line Dialog Box](../ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md)   
  [MSBuild Special Characters](../msbuild/msbuild-special-characters.md)   
- [Walkthrough: Building an Application](../ide/walkthrough--building-an-application.md)
+ [Walkthrough: Building an Application](../ide/walkthrough-building-an-application.md)

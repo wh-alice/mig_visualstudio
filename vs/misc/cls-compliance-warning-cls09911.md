@@ -1,7 +1,7 @@
 ---
-title: "CLS Compliance Warning CLS09911"
+title: "CLS Compliance Warning CLS09911 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CLS09911"
 ms.assetid: 8cc0b0c0-a823-4392-9bf9-4d12242ef451
 caps.latest.revision: 8
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 
@@ -38,7 +39,7 @@ translation.priority.mt:
 # CLS Compliance Warning CLS09911
 Generic types are not CLS-compliant  
   
- A CLS-compliant type cannot also be a generic type.  For more information about generics in Visual C++, see [Support for Generics in C++](../Topic/Generics%20%20\(C++%20Component%20Extensions\).md).  
+ A CLS-compliant type cannot also be a generic type.  For more information about generics in Visual C++, see [Support for Generics in C++](/visual-cpp/windows/generics-cpp-component-extensions).  
   
  For more information Common Language Subset (CLS) compliance checking, see [CLS Compliant Assemblies](http://msdn.microsoft.com/en-us/3320b57e-ea55-4697-a17d-f509a36a3c93).  
   

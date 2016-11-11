@@ -1,7 +1,7 @@
 ---
-title: "IDebugDocument2"
+title: "IDebugDocument2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -52,8 +52,8 @@ IDebugDocument2 : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetName](../../../extensibility/debugger/reference/idebugdocument2--getname.md)|Gets the name of the document in one of several forms.|  
-|[GetDocumentClassID](../../../extensibility/debugger/reference/idebugdocument2--getdocumentclassid.md)|Gets the class identifier of the document.|  
+|[GetName](../../../extensibility/debugger/reference/idebugdocument2-getname.md)|Gets the name of the document in one of several forms.|  
+|[GetDocumentClassID](../../../extensibility/debugger/reference/idebugdocument2-getdocumentclassid.md)|Gets the class identifier of the document.|  
   
 ## Remarks  
  This interface is implemented only when the DE supplies the source code. For example, when you are debugging script on an HTML page, the DE supplies the source code because the source is downloaded or generated dynamically and does not exist as a disk file. When debugging traditional languages, such as C++, this interface does not need to be implemented.  
@@ -66,8 +66,8 @@ IDebugDocument2 : IUnknown
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll  
   
 ## See Also  
- [IsPositionInDocument](../../../extensibility/debugger/reference/idebugdocumentposition2--ispositionindocument.md)   
- [GetDocument](../../../extensibility/debugger/reference/idebugactivatedocumentevent2--getdocument.md)   
- [GetDocument](../../../extensibility/debugger/reference/idebugdocumentcontext2--getdocument.md)   
- [GetDocument](../../../extensibility/debugger/reference/idebugdocumentposition2--getdocument.md)   
- [GetDocument](../../../extensibility/debugger/reference/idebugdisassemblystream2--getdocument.md)
+ [IsPositionInDocument](../../../extensibility/debugger/reference/idebugdocumentposition2-ispositionindocument.md)   
+ [GetDocument](../../../extensibility/debugger/reference/idebugactivatedocumentevent2-getdocument.md)   
+ [GetDocument](../../../extensibility/debugger/reference/idebugdocumentcontext2-getdocument.md)   
+ [GetDocument](../../../extensibility/debugger/reference/idebugdocumentposition2-getdocument.md)   
+ [GetDocument](../../../extensibility/debugger/reference/idebugdisassemblystream2-getdocument.md)

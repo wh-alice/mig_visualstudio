@@ -1,7 +1,7 @@
 ---
-title: "CLS Compliance Warning CLS00911"
+title: "CLS Compliance Warning CLS00911 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CLS00911"
 ms.assetid: d1a4721a-a3a6-4de0-bc14-a0b3c5e6dd78
 caps.latest.revision: 7
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

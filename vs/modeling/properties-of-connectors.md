@@ -1,7 +1,7 @@
 ---
-title: "Properties of Connectors"
+title: "Properties of Connectors | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, connectors"
 ms.assetid: b1f24e8d-cdd7-4a5d-af37-1038f43b45c7
 caps.latest.revision: 21
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 ---

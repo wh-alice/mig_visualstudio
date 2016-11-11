@@ -1,7 +1,7 @@
 ---
-title: "Nesting Shapes"
+title: "Nesting Shapes | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 53066a5d-5b0c-4f60-adf1-60ac81cb9ab1
 caps.latest.revision: 2
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 translation.priority.mt: 

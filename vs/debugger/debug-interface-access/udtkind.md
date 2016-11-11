@@ -1,7 +1,7 @@
 ---
-title: "UdtKind"
+title: "UdtKind | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "UdtKind enumeration"
 ms.assetid: 400b59b9-373c-42cb-aae1-570494214328
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -61,11 +62,11 @@ enum UdtKind { 
  UDT is an interface.  
   
 ## Remarks  
- The values in this enumeration are returned by the [IDiaSymbol::get_udtKind](../../debugger/debug-interface-access/idiasymbol--get_udtkind.md) method.  
+ The values in this enumeration are returned by the [IDiaSymbol::get_udtKind](../../debugger/debug-interface-access/idiasymbol-get-udtkind.md) method.  
   
 ## Requirements  
  Header: cvconst.h  
   
 ## See Also  
  [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)   
- [IDiaSymbol::get_udtKind](../../debugger/debug-interface-access/idiasymbol--get_udtkind.md)
+ [IDiaSymbol::get_udtKind](../../debugger/debug-interface-access/idiasymbol-get-udtkind.md)

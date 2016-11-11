@@ -1,7 +1,7 @@
 ---
-title: "Initializing Member Objects"
+title: "Initializing Member Objects | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "member object initialization"
 ms.assetid: ce6b1115-f3f9-4dad-bc03-fb5eea69a21e
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 

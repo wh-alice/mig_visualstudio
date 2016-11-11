@@ -1,7 +1,7 @@
 ---
-title: "Understanding SAL"
+title: "Understanding SAL | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,8 +11,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a94d6907-55f2-4874-9571-51d52d6edcfd
 caps.latest.revision: 18
-ms.author: "douge"
-manager: "douge"
+author: "corob-msft"
+ms.author: "corob"
+manager: "ghogen"
 translation.priority.ht: 
   - "de-de"
   - "es-es"
@@ -423,10 +424,10 @@ bool GetValue(_Out_ int *pInt, bool flag)
  [Code Analysis Team Blog](http://go.microsoft.com/fwlink/p/?LinkId=251197)  
   
 ## See Also  
- [Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-c---code-defects.md)   
+ [Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)   
  [Annotating Function Parameters and Return Values](../code-quality/annotating-function-parameters-and-return-values.md)   
  [Annotating Function Behavior](../code-quality/annotating-function-behavior.md)   
  [Annotating Structs and Classes](../code-quality/annotating-structs-and-classes.md)   
  [Annotating Locking Behavior](../code-quality/annotating-locking-behavior.md)   
  [Specifying When and Where an Annotation Applies](../code-quality/specifying-when-and-where-an-annotation-applies.md)   
- [Best Practices and Examples](../code-quality/best-practices-and-examples--sal-.md)
+ [Best Practices and Examples](../code-quality/best-practices-and-examples-sal.md)

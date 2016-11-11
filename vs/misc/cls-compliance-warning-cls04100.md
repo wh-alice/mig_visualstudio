@@ -1,7 +1,7 @@
 ---
-title: "CLS Compliance Warning CLS04100"
+title: "CLS Compliance Warning CLS04100 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CLS04100"
 ms.assetid: a77cb26c-2546-473b-90da-41775289fc04
 caps.latest.revision: 7
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

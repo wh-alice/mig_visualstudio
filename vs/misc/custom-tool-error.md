@@ -1,7 +1,7 @@
 ---
-title: "Custom Tool Error"
+title: "Custom Tool Error | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ f1_keywords:
   - "vs.tasklisterror.generator_task"
 ms.assetid: 67d8c5a1-803e-4451-a94c-8513ec0b1a63
 caps.latest.revision: 6
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
-title: "GenerateDeploymentManifest Task"
+title: "GenerateDeploymentManifest Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "GenerateDeploymentManifest task [MSBuild]"
 ms.assetid: 0734ebda-734d-49c4-9642-8d9d919d45fd
 caps.latest.revision: 27
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

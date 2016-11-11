@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Error RC2176"
+title: "Resource Compiler Error RC2176 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC2176"
 ms.assetid: 74a07893-abf9-4ef9-8a6a-0218b2b7b017
 caps.latest.revision: 5
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

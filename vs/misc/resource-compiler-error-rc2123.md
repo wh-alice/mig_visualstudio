@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Error RC2123"
+title: "Resource Compiler Error RC2123 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC2123"
 ms.assetid: 693973be-8892-49f2-ac1c-dc2e770a0af0
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

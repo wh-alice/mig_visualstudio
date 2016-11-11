@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB3186"
+title: "MSBuild Error MSB3186 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB3186"
 ms.assetid: 1219fef4-9114-401c-875b-1dc69697fd9f
 caps.latest.revision: 5
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -39,4 +40,4 @@ translation.priority.mt:
  This error is generated when the build process cannot infer an assembly name for the application or deployment manifest. The assembly name is not given explicitly; there is no identity in the base manifest, and the entry point identity is not specified either.  
   
 ## See Also  
- [\<PackageFiles> Element](../deployment/-packagefiles--element--bootstrapper-.md)
+ [\<PackageFiles> Element](../deployment/packagefiles-element-bootstrapper.md)

@@ -1,7 +1,7 @@
 ---
-title: "Performance Explorer Window"
+title: "Performance Explorer Window | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "performance tools, Performance Explorer"
 ms.assetid: cb6a6efc-93a5-49a2-8d03-6969b5f3b6d7
 caps.latest.revision: 20
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -66,6 +67,6 @@ The **Performance Explorer** window in the [!INCLUDE[vsprvs](../code-quality/inc
 -   **Reports** - Displays the names of profiler data files that are generated for the session. Right-click **Reports** to add an existing report or compare two profiler data files. Right-click a report name to open, remove, or export a profiler data file.  
   
 ## See Also  
- [Overviews](../profiling/overviews--performance-tools-.md)   
+ [Overviews](../profiling/overviews-performance-tools.md)   
  [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)   
  [Controlling Data Collection](../profiling/controlling-data-collection.md)

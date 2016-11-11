@@ -1,7 +1,7 @@
 ---
-title: "Class Member Functions and Classes as Friends"
+title: "Class Member Functions and Classes as Friends | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,6 +22,7 @@ helpviewer_keywords:
   - "functions [C++], friend"
 ms.assetid: d003945d-2503-4096-9a74-6f80c31addfc
 caps.latest.revision: 9
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -40,4 +41,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Class Member Functions and Classes as Friends
-This content has moved to [friend](../Topic/friend%20\(C++\).md) .
+This content has moved to [friend](/visual-cpp/cpp/friend-cpp) .

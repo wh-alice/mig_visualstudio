@@ -1,7 +1,7 @@
 ---
-title: "IDebugField"
+title: "IDebugField | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,22 +45,22 @@ IDebugField : IUnknown
  A symbol provider implements this interface as the base class for all fields.  
   
 ## Notes for Callers  
- This interface is the base class for all fields. Based on the return value of [GetKind](../../../extensibility/debugger/reference/idebugfield--getkind.md), this interface may return more specialized interfaces by using [QueryInterface](../Topic/QueryInterface.md). In addition, many interfaces return `IDebugField` objects from various methods.  
+ This interface is the base class for all fields. Based on the return value of [GetKind](../../../extensibility/debugger/reference/idebugfield-getkind.md), this interface may return more specialized interfaces by using [QueryInterface](/visual-cpp/atl/queryinterface). In addition, many interfaces return `IDebugField` objects from various methods.  
   
 ## Methods in Vtable Order  
  The following table shows the methods of `IDebugField`.  
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetInfo](../../../extensibility/debugger/reference/idebugfield--getinfo.md)|Gets displayable information about the symbol or type.|  
-|[GetKind](../../../extensibility/debugger/reference/idebugfield--getkind.md)|Gets the kind of field.|  
-|[GetType](../../../extensibility/debugger/reference/idebugfield--gettype.md)|Gets the type of field.|  
-|[GetContainer](../../../extensibility/debugger/reference/idebugfield--getcontainer.md)|Gets the container of the field.|  
-|[GetAddress](../../../extensibility/debugger/reference/idebugfield--getaddress.md)|Gets the address of the field.|  
-|[GetSize](../../../extensibility/debugger/reference/idebugfield--getsize.md)|Gets the size of a field, in bytes.|  
-|[GetExtendedInfo](../../../extensibility/debugger/reference/idebugfield--getextendedinfo.md)|Gets extended information about a field.|  
-|[Equal](../../../extensibility/debugger/reference/idebugfield--equal.md)|Compares two fields.|  
-|[GetTypeInfo](../../../extensibility/debugger/reference/idebugfield--gettypeinfo.md)|Gets type-independent information about the symbol or type.|  
+|[GetInfo](../../../extensibility/debugger/reference/idebugfield-getinfo.md)|Gets displayable information about the symbol or type.|  
+|[GetKind](../../../extensibility/debugger/reference/idebugfield-getkind.md)|Gets the kind of field.|  
+|[GetType](../../../extensibility/debugger/reference/idebugfield-gettype.md)|Gets the type of field.|  
+|[GetContainer](../../../extensibility/debugger/reference/idebugfield-getcontainer.md)|Gets the container of the field.|  
+|[GetAddress](../../../extensibility/debugger/reference/idebugfield-getaddress.md)|Gets the address of the field.|  
+|[GetSize](../../../extensibility/debugger/reference/idebugfield-getsize.md)|Gets the size of a field, in bytes.|  
+|[GetExtendedInfo](../../../extensibility/debugger/reference/idebugfield-getextendedinfo.md)|Gets extended information about a field.|  
+|[Equal](../../../extensibility/debugger/reference/idebugfield-equal.md)|Compares two fields.|  
+|[GetTypeInfo](../../../extensibility/debugger/reference/idebugfield-gettypeinfo.md)|Gets type-independent information about the symbol or type.|  
   
 ## Remarks  
  A type is equivalent to a C language `typedef`.  
@@ -73,7 +73,7 @@ weather sunny;
 weather stormy;  
 ```  
   
- Whether a field represents a symbol or type can be determined by calling [GetKind](../../../extensibility/debugger/reference/idebugfield--getkind.md) and examining the [FIELD_KIND](../../../extensibility/debugger/reference/field_kind.md) result. If the `FIELD_KIND_TYPE` bit is set, the field is a type, and if the `FIELD_KIND_SYMBOL` bit is set, it is a symbol.  
+ Whether a field represents a symbol or type can be determined by calling [GetKind](../../../extensibility/debugger/reference/idebugfield-getkind.md) and examining the [FIELD_KIND](../../../extensibility/debugger/reference/field-kind.md) result. If the `FIELD_KIND_TYPE` bit is set, the field is a type, and if the `FIELD_KIND_SYMBOL` bit is set, it is a symbol.  
   
 ## Requirements  
  Header: sh.h  

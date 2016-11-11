@@ -1,7 +1,7 @@
 ---
-title: "Controlling Access to Class Members"
+title: "Controlling Access to Class Members | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "public keyword [C++], member access"
 ms.assetid: c0bae0d9-a3d0-4b72-9b87-220a01fdad52
 caps.latest.revision: 6
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -39,4 +40,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Controlling Access to Class Members
-This content has moved to [Member Access Control](../Topic/Member%20Access%20Control%20\(C++\).md)
+This content has moved to [Member Access Control](/visual-cpp/cpp/member-access-control-cpp)

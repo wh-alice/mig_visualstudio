@@ -1,7 +1,7 @@
 ---
-title: "Class Hierarchy of Symbol Types"
+title: "Class Hierarchy of Symbol Types | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "symbols [DIA SDK], class hierarchies"
 ms.assetid: 0ccd6990-4654-44cd-a6f3-bdd82fe90f6c
 caps.latest.revision: 10
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -41,13 +42,13 @@ The following table describes the symbol types in the class hierarchy.
 |Symbol type|Description|  
 |-----------------|-----------------|  
 |[UDT](../../debugger/debug-interface-access/udt.md)|Symbol used to represent each class, structure, and union.|  
-|[Enum (Debug Interface Access SDK)](../../debugger/debug-interface-access/enum--debug-interface-access-sdk-.md)|Symbol for enumerated types.|  
+|[Enum (Debug Interface Access SDK)](../../debugger/debug-interface-access/enum-debug-interface-access-sdk.md)|Symbol for enumerated types.|  
 |[PointerType](../../debugger/debug-interface-access/pointertype.md)|Symbol for pointer types.|  
 |[ArrayType](../../debugger/debug-interface-access/arraytype.md)|Symbol for array types.|  
 |[BaseType](../../debugger/debug-interface-access/basetype.md)|Symbol for base types|  
-|[Typedef (Debug Interface Access SDK)](../../debugger/debug-interface-access/typedef--debug-interface-access-sdk-.md)|Symbol that introduces names for other types.|  
+|[Typedef (Debug Interface Access SDK)](../../debugger/debug-interface-access/typedef-debug-interface-access-sdk.md)|Symbol that introduces names for other types.|  
 |[BaseClass](../../debugger/debug-interface-access/baseclass.md)|Symbol used for each base class of a user-defined type (UDT).|  
-|[Friend (Debug Interface Access SDK)](../../debugger/debug-interface-access/friend--debug-interface-access-sdk-.md)|Symbol for friend classes and friend functions.|  
+|[Friend (Debug Interface Access SDK)](../../debugger/debug-interface-access/friend-debug-interface-access-sdk.md)|Symbol for friend classes and friend functions.|  
 |[FunctionType](../../debugger/debug-interface-access/functiontype.md)|Symbol for each unique function signature.|  
 |[FunctionArgType](../../debugger/debug-interface-access/functionargtype.md)|Symbol for each parameter to a function.|  
 |[VTableShape](../../debugger/debug-interface-access/vtableshape.md)|Symbol for the size of the virtual table.|  
@@ -60,6 +61,6 @@ The following table describes the symbol types in the class hierarchy.
 >  Each symbol can have properties that hold information about the symbol, as well as references to other symbols. These properties are listed in the individual symbol topics.  
   
 ## See Also  
- [CV_access_e Enumeration](../../debugger/debug-interface-access/cv_access_e.md)   
+ [CV_access_e Enumeration](../../debugger/debug-interface-access/cv-access-e.md)   
  [Lexical Hierarchy of Symbol Types](../../debugger/debug-interface-access/lexical-hierarchy-of-symbol-types.md)   
  [Symbols and Symbol Tags](../../debugger/debug-interface-access/symbols-and-symbol-tags.md)

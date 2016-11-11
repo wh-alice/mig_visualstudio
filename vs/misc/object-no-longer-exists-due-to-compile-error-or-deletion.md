@@ -1,5 +1,5 @@
 ---
-title: "Object no longer exists due to compile error or deletion"
+title: "Object no longer exists due to compile error or deletion | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "BC32300"
 ms.assetid: b18a7a05-a9dd-4d0a-bed5-d5398894dc96
 caps.latest.revision: 8
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 

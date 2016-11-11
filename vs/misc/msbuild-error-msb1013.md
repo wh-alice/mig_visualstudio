@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB1013"
+title: "MSBuild Error MSB1013 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB1013"
 ms.assetid: 3e85c710-99e6-4141-b058-63a144a06454
 caps.latest.revision: 11
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

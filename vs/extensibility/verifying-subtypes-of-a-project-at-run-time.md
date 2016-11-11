@@ -1,7 +1,7 @@
 ---
-title: "Verifying Subtypes of a Project at Run Time"
+title: "Verifying Subtypes of a Project at Run Time | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -61,7 +61,7 @@ A VSPackage that depends on a custom project subtype should include logic to loo
   
     ```  
   
-3.  Get the list of project type GUIDs by invoking the <xref:Microsoft.VisualStudio.Shell.Flavor.IVsAggregatableProjectCorrected.GetAggregateProjectTypeGuids*>.  
+3.  Get the list of project type GUIDs by invoking the <xref:Microsoft.VisualStudio.Shell.Flavor.IVsAggregatableProjectCorrected.GetAggregateProjectTypeGuids%2A>.  
   
     ```  
     string projTypeGuids = AP.GetAggregateProjectTypeGuids().ToUpper();  

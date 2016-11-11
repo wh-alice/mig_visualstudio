@@ -1,7 +1,7 @@
 ---
-title: "IDebugModOpt"
+title: "IDebugModOpt | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -47,7 +47,7 @@ IDebugModOpt : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetModOpts](../../../extensibility/debugger/reference/idebugmodopt--getmodopts.md)|Retrieves a list of optional modifiers.|  
+|[GetModOpts](../../../extensibility/debugger/reference/idebugmodopt-getmodopts.md)|Retrieves a list of optional modifiers.|  
   
 ## Requirements  
  Header: Sh.h  

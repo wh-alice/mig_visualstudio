@@ -1,5 +1,5 @@
 ---
-title: "Expression or statement is not valid in debug windows"
+title: "Expression or statement is not valid in debug windows | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "BC30706"
 ms.assetid: 229bb582-d962-4385-97e7-120dcf5d8991
 caps.latest.revision: 7
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -44,5 +45,5 @@ translation.priority.mt:
 1.  Remove `Try...Catch...Finally` statements from debugging code.  
   
 ## See Also  
- [Try...Catch...Finally Statement](../Topic/Try...Catch...Finally%20Statement%20\(Visual%20Basic\).md)   
+ [Try...Catch...Finally Statement](/dotnet/visual-basic/language-reference/statements/try-catch-finally-statement)   
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)

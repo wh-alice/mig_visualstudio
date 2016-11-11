@@ -1,7 +1,7 @@
 ---
-title: "Structure your modeling solution"
+title: "Structure your modeling solution | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2ba70ba4-2cea-4e01-93c2-055903d59470
 caps.latest.revision: 14
+author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
 translation.priority.ht: 

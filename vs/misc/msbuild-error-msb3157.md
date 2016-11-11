@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB3157"
+title: "MSBuild Error MSB3157 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "MSB3157"
 ms.assetid: ccfcbea4-eb9b-42ae-9908-47079ecc84a7
 caps.latest.revision: 6
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -44,4 +45,4 @@ translation.priority.mt:
 -   Provide the appropriate package manifest file.  
   
 ## See Also  
- [\<PackageFiles> Element](../deployment/-packagefiles--element--bootstrapper-.md)
+ [\<PackageFiles> Element](../deployment/packagefiles-element-bootstrapper.md)

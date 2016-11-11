@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB3061"
+title: "MSBuild Error MSB3061 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB3061"
 ms.assetid: d6ffb152-780b-4111-b0fa-e523d6cdcd35
 caps.latest.revision: 8
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

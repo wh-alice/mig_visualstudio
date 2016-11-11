@@ -1,7 +1,7 @@
 ---
-title: "Argument Type Differences"
+title: "Argument Type Differences | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "argument types [C++]"
 ms.assetid: 36da8101-3942-4170-a97e-96875b80560e
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -37,4 +38,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Argument Type Differences
-This content has moved to [Function Overloading](../Topic/Function%20Overloading.md)
+This content has moved to [Function Overloading](/visual-cpp/cpp/function-overloading)

@@ -1,7 +1,7 @@
 ---
-title: "Properties of Geometry Shapes"
+title: "Properties of Geometry Shapes | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, geometry shape"
 ms.assetid: 3993a23e-eab3-4ceb-b475-c395d5992bfc
 caps.latest.revision: 21
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 ---

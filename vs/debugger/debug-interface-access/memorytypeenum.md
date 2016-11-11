@@ -1,7 +1,7 @@
 ---
-title: "MemoryTypeEnum"
+title: "MemoryTypeEnum | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MemoryTypeEnum enumeration"
 ms.assetid: 8778c047-edeb-4495-8f9f-3f8bbb297099
 caps.latest.revision: 7
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -61,11 +62,11 @@ enum MemoryTypeEnum {
  Accesses any kind of memory.  
   
 ## Remarks  
- The values in this enumeration are passed to the [IDiaStackWalkHelper::readMemory](../../debugger/debug-interface-access/idiastackwalkhelper--readmemory.md) method to limit access to different types of memory.  
+ The values in this enumeration are passed to the [IDiaStackWalkHelper::readMemory](../../debugger/debug-interface-access/idiastackwalkhelper-readmemory.md) method to limit access to different types of memory.  
   
 ## Requirements  
  Header: cvconst.h  
   
 ## See Also  
  [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)   
- [IDiaStackWalkHelper::readMemory](../../debugger/debug-interface-access/idiastackwalkhelper--readmemory.md)
+ [IDiaStackWalkHelper::readMemory](../../debugger/debug-interface-access/idiastackwalkhelper-readmemory.md)

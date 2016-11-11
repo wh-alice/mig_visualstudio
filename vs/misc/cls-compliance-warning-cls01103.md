@@ -1,7 +1,7 @@
 ---
-title: "CLS Compliance Warning CLS01103"
+title: "CLS Compliance Warning CLS01103 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CLS01103"
 ms.assetid: 0d0aebaa-441a-4dc0-9745-8de3a551204b
 caps.latest.revision: 8
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

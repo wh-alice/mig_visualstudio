@@ -1,7 +1,7 @@
 ---
-title: "Predicate Versions of heap"
+title: "Predicate Versions of heap | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "heap functions"
 ms.assetid: c9388493-331e-426f-8052-06d19b229b05
 caps.latest.revision: 7
+author: "erickson-doug"
 ms.author: "douge"
 manager: "douge"
 translation.priority.mt: 

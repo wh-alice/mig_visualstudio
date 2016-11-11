@@ -1,7 +1,7 @@
 ---
-title: "Code Generation and T4 Text Templates"
+title: "Code Generation and T4 Text Templates | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "generating code"
 ms.assetid: 74a0a748-5b11-4999-8bea-49572967827d
 caps.latest.revision: 82
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 translation.priority.ht: 
@@ -121,7 +122,7 @@ namespace Fabrikam.FirstJob
  [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md)  
  The syntax of a text template file.  
   
- [Walkthrough: Generating Code by using Text Templates](../modeling/walkthrough--generating-code-by-using-text-templates.md)  
+ [Walkthrough: Generating Code by using Text Templates](../modeling/walkthrough-generating-code-by-using-text-templates.md)  
  A demonstration of one way to use code generation.  
   
  [Debugging a T4 Text Template](../modeling/debugging-a-t4-text-template.md)  

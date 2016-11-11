@@ -1,13 +1,14 @@
 ---
-title: "Verify your Xamarin environment"
+title: "Verify your Xamarin environment | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/27/2016"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: fd39882e-06d1-4b39-80d2-4d07b6e4f8f5
 caps.latest.revision: 13
+author: "kraigb"
 ms.author: "kraigb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -31,7 +32,7 @@ Once the installers have completed (see [Setup and install](../cross-platform/se
   
  Once you have completed these verifications, you can do either or both of the following walkthroughs:  
   
--   [Learn app-building basics with Xamarin.Forms in Visual Studio](../cross-platform/learn-app-building-basics-with-xamarin.forms-in-visual-studio.md)  
+-   [Learn app-building basics with Xamarin.Forms in Visual Studio](../cross-platform/learn-app-building-basics-with-xamarin-forms-in-visual-studio.md)  
   
 -   [Build apps with native UI using Xamarin in Visual Studio](../cross-platform/build-apps-with-native-ui-using-xamarin-in-visual-studio.md)  
   

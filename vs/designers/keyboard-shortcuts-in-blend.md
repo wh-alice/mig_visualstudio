@@ -1,7 +1,7 @@
 ---
-title: "Keyboard shortcuts in Blend"
+title: "Keyboard shortcuts in Blend | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3a1b6830-30c2-4a36-bd14-6961f5edf9cb
 caps.latest.revision: 5
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
-title: "Contributing to the Automation Model"
+title: "Contributing to the Automation Model | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -59,7 +59,7 @@ Visual Studio provides a set of automation interfaces for customizing the enviro
  [Providing Automation for Code](../../extensibility/internals/providing-automation-for-code.md)  
  Explains that creating an automation model for your code is not required. However, a link is provided in this topic that provides insightful information into code models.  
   
- [How to: Provide Automation for Windows](../../extensibility/internals/how-to--provide-automation-for-windows.md)  
+ [How to: Provide Automation for Windows](../../extensibility/internals/how-to-provide-automation-for-windows.md)  
  Explains that providing automation is a good idea whenever you want to make automation objects available on a window, and the environment does not already provide a ready-made automation object. Discusses automation for tool windows and document windows.  
   
  [Using the Automation Model](../../extensibility/internals/using-the-automation-model.md)  
@@ -69,7 +69,7 @@ Visual Studio provides a set of automation interfaces for customizing the enviro
  Provides information about automation for Configuration Options and automation for Selected Items.  
   
 ## Reference  
- <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetAutomationObject*>  
+ <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetAutomationObject%2A>  
  Provides a code sample that shows how a VSPackage participates in the DTE automation object model. Lists parameters, return values, and selected remarks.  
   
 ## Related Sections

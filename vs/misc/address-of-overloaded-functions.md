@@ -1,7 +1,7 @@
 ---
-title: "Address of Overloaded Functions"
+title: "Address of Overloaded Functions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "this pointer, overloaded functions"
 ms.assetid: e7913e65-a295-445d-b2b0-1e60f8dfbc54
 caps.latest.revision: 8
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -66,4 +67,4 @@ int (*pFunc) ( int, int ) = Func;
  Note that although a nonmember function, `Func`, was used in the preceding example, the same rules are applied when taking the address of overloaded member functions.  
   
 ## See Also  
- [Overloading  (C++)](../misc/overloading---c---.md)
+ [Overloading  (C++)](../misc/overloading-cpp.md)

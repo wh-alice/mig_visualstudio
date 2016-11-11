@@ -1,7 +1,7 @@
 ---
-title: "Project Build Error PRJ0051"
+title: "Project Build Error PRJ0051 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "PRJ0051"
 ms.assetid: ab3bb250-dc9b-412a-b8b0-b7203b8cfcaa
 caps.latest.revision: 3
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

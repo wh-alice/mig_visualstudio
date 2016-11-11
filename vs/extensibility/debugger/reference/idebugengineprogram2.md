@@ -1,7 +1,7 @@
 ---
-title: "IDebugEngineProgram2"
+title: "IDebugEngineProgram2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,19 +45,19 @@ IDebugEngineProgram2 : IUnknown
  A debug engine implements this interface to support simultaneous debugging of multiple threads. This interface is implemented on the same object that implements the [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) interface.  
   
 ## Notes for Callers  
- Use [QueryInterface](../Topic/QueryInterface.md) to obtain this interface from an `IDebugProgram2` interface.  
+ Use [QueryInterface](/visual-cpp/atl/queryinterface) to obtain this interface from an `IDebugProgram2` interface.  
   
 ## Methods in Vtable Order  
  The following table shows the methods of `IDebugEngineProgram2`.  
   
 |Method|Description|  
 |------------|-----------------|  
-|[Stop](../../../extensibility/debugger/reference/idebugengineprogram2--stop.md)|Stops all threads running in this program.|  
-|[WatchForThreadStep](../../../extensibility/debugger/reference/idebugengineprogram2--watchforthreadstep.md)|Watches for execution (or stop watching for execution) to occur on the given thread.|  
-|[WatchForExpressionEvaluationOnThread](../../../extensibility/debugger/reference/idebugengineprogram2--watchforexpressionevaluationonthread.md)|Allows (or disallows) expression evaluation to occur on the given thread, even if the program is stopped.|  
+|[Stop](../../../extensibility/debugger/reference/idebugengineprogram2-stop.md)|Stops all threads running in this program.|  
+|[WatchForThreadStep](../../../extensibility/debugger/reference/idebugengineprogram2-watchforthreadstep.md)|Watches for execution (or stop watching for execution) to occur on the given thread.|  
+|[WatchForExpressionEvaluationOnThread](../../../extensibility/debugger/reference/idebugengineprogram2-watchforexpressionevaluationonthread.md)|Allows (or disallows) expression evaluation to occur on the given thread, even if the program is stopped.|  
   
 ## Remarks  
- Visual Studio calls this interface in response to an [IDebugProgramCreateEvent2](../../../extensibility/debugger/reference/idebugprogramcreateevent2.md) event and to set the "Watch for Thread Step" and "Watch for Expression Evaluation on Thread" states of the program. [Stop](../../../extensibility/debugger/reference/idebugengineprogram2--stop.md) is called whenever the program is to be stopped; this method gives the program a chance to terminate all threads.  
+ Visual Studio calls this interface in response to an [IDebugProgramCreateEvent2](../../../extensibility/debugger/reference/idebugprogramcreateevent2.md) event and to set the "Watch for Thread Step" and "Watch for Expression Evaluation on Thread" states of the program. [Stop](../../../extensibility/debugger/reference/idebugengineprogram2-stop.md) is called whenever the program is to be stopped; this method gives the program a chance to terminate all threads.  
   
 ## Requirements  
  Header: msdbg.h  

@@ -1,7 +1,7 @@
 ---
-title: "List Registers Command"
+title: "List Registers Command | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "ListRegisters command"
 ms.assetid: 19a9d789-f6c9-46b3-b1f6-4934fc33e055
 caps.latest.revision: 7
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -76,5 +77,5 @@ r /Display Flags
   
 ## See Also  
  [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)   
- [Debugging Basics: Registers Window](../../debugger/debugging-basics--registers-window.md)   
- [How to: Use the Registers Window](../../debugger/how-to--use-the-registers-window.md)
+ [Debugging Basics: Registers Window](../../debugger/debugging-basics-registers-window.md)   
+ [How to: Use the Registers Window](../../debugger/how-to-use-the-registers-window.md)

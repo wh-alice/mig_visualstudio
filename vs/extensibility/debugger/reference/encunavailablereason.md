@@ -1,7 +1,7 @@
 ---
-title: "EncUnavailableReason"
+title: "EncUnavailableReason | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -85,7 +85,7 @@ public enum EncUnavailableReason {
  Edit and Continue is not available while processing 64-bit Windows code.  
   
 ## Remarks  
- This enumeration is for internal use only by [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)]. The [GetENCAvailableState](../../../extensibility/debugger/reference/idebugprocess3--getencavailablestate.md) and [DisableENC](../../../extensibility/debugger/reference/idebugprocess3--disableenc.md) methods as implemented by a custom port supplier should always return `E_NOTIMPL`.  
+ This enumeration is for internal use only by [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)]. The [GetENCAvailableState](../../../extensibility/debugger/reference/idebugprocess3-getencavailablestate.md) and [DisableENC](../../../extensibility/debugger/reference/idebugprocess3-disableenc.md) methods as implemented by a custom port supplier should always return `E_NOTIMPL`.  
   
 ## Requirements  
  Header: msdbg.idl  
@@ -95,6 +95,6 @@ public enum EncUnavailableReason {
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll  
   
 ## See Also  
- [Enumerations](../../../extensibility/debugger/reference/enumerations--visual-studio-debugging-.md)   
- [DisableENC](../../../extensibility/debugger/reference/idebugprocess3--disableenc.md)   
- [GetENCAvailableState](../../../extensibility/debugger/reference/idebugprocess3--getencavailablestate.md)
+ [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)   
+ [DisableENC](../../../extensibility/debugger/reference/idebugprocess3-disableenc.md)   
+ [GetENCAvailableState](../../../extensibility/debugger/reference/idebugprocess3-getencavailablestate.md)

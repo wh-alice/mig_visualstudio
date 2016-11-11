@@ -1,7 +1,7 @@
 ---
-title: "API Reference for T4 Text Templates"
+title: "API Reference for T4 Text Templates | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 63279da9-69ac-49ad-ac7d-43957c45e0ce
 caps.latest.revision: 6
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 translation.priority.ht: 

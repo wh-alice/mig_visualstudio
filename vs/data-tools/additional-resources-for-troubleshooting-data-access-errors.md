@@ -1,7 +1,7 @@
 ---
-title: "Additional resources for troubleshooting data access errors"
+title: "Additional resources for troubleshooting data access errors | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -230,6 +230,7 @@ helpviewer_keywords:
   - "datasets [Visual Basic], troubleshooting"
 ms.assetid: 357c9f0a-9d59-4db4-9b7c-b96cad839961
 caps.latest.revision: 29
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 robots: noindex,nofollow
@@ -276,4 +277,4 @@ You can find assistance with troubleshooting errors and warnings in the Microsof
  For information about how to troubleshoot connectivity to SQL Server, see [How to Troubleshoot Connecting to the SQL Server Database Engine](http://go.microsoft.com/fwlink/?LinkID=246151).  
   
 ## See Also  
- [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-.net.md)
+ [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md)

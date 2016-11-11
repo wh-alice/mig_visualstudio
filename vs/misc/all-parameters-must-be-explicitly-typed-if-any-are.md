@@ -1,5 +1,5 @@
 ---
-title: "All parameters must be explicitly typed if any are"
+title: "All parameters must be explicitly typed if any are | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "BC30529"
 ms.assetid: 5d271ef4-c1a8-4400-822b-e9686720ff64
 caps.latest.revision: 7
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 

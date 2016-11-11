@@ -1,7 +1,7 @@
 ---
-title: "Name Space of typedef Names"
+title: "Name Space of typedef Names | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "names [C++], declared using typedef"
 ms.assetid: 2ded9412-b881-4fbf-a4ad-08aef6005b18
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 

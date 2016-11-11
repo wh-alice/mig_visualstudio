@@ -1,7 +1,7 @@
 ---
-title: "Add new data sources"
+title: "Add new data sources | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "data sources"
 ms.assetid: ed28c625-bb89-4037-bfde-cfa435d182a2
 caps.latest.revision: 56
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 translation.priority.ht: 
@@ -88,7 +89,7 @@ In the context of .NET data tools in Visual Studio, the term *data source* refer
   
 -   WCF Data Services. For more information, see [Overview](../Topic/WCF%20Data%20Services%20Overview.md).  
   
--   WCF data services. For more information, see [Windows Communication Foundation Services and WCF Data Services in Visual Studio](../data-tools/d56f12cb-e139-4fec-b3e4-488383356642.md).  
+-   WCF data services. For more information, see [Windows Communication Foundation Services and WCF Data Services in Visual Studio](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md).  
   
 -   Web services.  
   
@@ -112,4 +113,4 @@ In the context of .NET data tools in Visual Studio, the term *data source* refer
  You can create a data source from a SharePoint list by running the **Data Source Configuration Wizard** and selecting the **SharePoint** data-source type. SharePoint exposes data through [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)], so creating a SharePoint data source is the same as creating a data source from a service. Selecting the **SharePoint** item in the **Data Source Configuration Wizard** opens the **Add Service Reference** dialog box, where you connect to the SharePoint data service by pointing to the SharePoint server.  This requires the SharePoint SDK.  
   
 ## See Also  
- [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-.net.md)
+ [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md)

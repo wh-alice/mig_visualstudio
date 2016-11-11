@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB1011"
+title: "MSBuild Error MSB1011 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB1011"
 ms.assetid: f3cb16e5-288c-4dba-941f-a0ed3bf92db7
 caps.latest.revision: 11
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

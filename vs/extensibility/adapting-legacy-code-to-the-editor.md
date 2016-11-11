@@ -1,7 +1,7 @@
 ---
-title: "Adapting Legacy Code to the Editor"
+title: "Adapting Legacy Code to the Editor | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -53,23 +53,23 @@ internal IVsEditorAdaptersFactoryService editorFactory;
   
 |Method|Conversion|  
 |------------|----------------|  
-|<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService.GetBufferAdapter*>|Converts an <xref:Microsoft.VisualStudio.Text.ITextBuffer> to an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer>.|  
-|<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService.GetDataBuffer*>|Converts an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer> to an <xref:Microsoft.VisualStudio.Text.ITextBuffer>.|  
-|<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService.GetDocumentBuffer*>|Converts an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer> to an <xref:Microsoft.VisualStudio.Text.ITextBuffer>.|  
-|<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService.GetViewAdapter*>|Converts an <xref:Microsoft.VisualStudio.Text.Editor.ITextView> to an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView>.|  
-|<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService.GetWpfTextView*>|Converts an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> to an <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextView>.|  
+|<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService.GetBufferAdapter%2A>|Converts an <xref:Microsoft.VisualStudio.Text.ITextBuffer> to an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer>.|  
+|<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService.GetDataBuffer%2A>|Converts an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer> to an <xref:Microsoft.VisualStudio.Text.ITextBuffer>.|  
+|<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService.GetDocumentBuffer%2A>|Converts an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer> to an <xref:Microsoft.VisualStudio.Text.ITextBuffer>.|  
+|<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService.GetViewAdapter%2A>|Converts an <xref:Microsoft.VisualStudio.Text.Editor.ITextView> to an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView>.|  
+|<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService.GetWpfTextView%2A>|Converts an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> to an <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextView>.|  
   
 ## Creating Adapters  
  Use the following methods to create adapters for legacy interfaces.  
   
 |Method|Conversion|  
 |------------|----------------|  
-|<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService.CreateVsCodeWindowAdapter*>|Creates an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindow>.|  
-|<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService.CreateVsTextBufferAdapter*>|Creates an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer> for a specified <xref:Microsoft.VisualStudio.Utilities.IContentType>.|  
-|<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService.CreateVsTextBufferAdapter*>|Creates an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer>.|  
-|<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService.CreateVsTextBufferCoordinatorAdapter*>|Creates an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBufferCoordinator>.|  
-|<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService.CreateVsTextViewAdapter*>|Creates an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> for an <xref:Microsoft.VisualStudio.Text.Editor.ITextViewRoleSet>.|  
-|<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService.CreateVsTextViewAdapter*>|Creates an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView>.|  
+|<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService.CreateVsCodeWindowAdapter%2A>|Creates an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindow>.|  
+|<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService.CreateVsTextBufferAdapter%2A>|Creates an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer> for a specified <xref:Microsoft.VisualStudio.Utilities.IContentType>.|  
+|<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService.CreateVsTextBufferAdapter%2A>|Creates an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer>.|  
+|<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService.CreateVsTextBufferCoordinatorAdapter%2A>|Creates an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBufferCoordinator>.|  
+|<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService.CreateVsTextViewAdapter%2A>|Creates an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> for an <xref:Microsoft.VisualStudio.Text.Editor.ITextViewRoleSet>.|  
+|<xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService.CreateVsTextViewAdapter%2A>|Creates an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView>.|  
   
 ## Creating Adapters in Unmanaged Code  
  All adapter classes are registered to be local co-creatable, and can be instantiated by using the `VsLocalCreateInstance()` function.  

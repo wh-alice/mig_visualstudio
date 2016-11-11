@@ -1,7 +1,7 @@
 ---
-title: "IDebugGenericFieldDefinition"
+title: "IDebugGenericFieldDefinition | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -44,9 +44,9 @@ IDebugGenericFieldDefinition : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[ConstructInstantiation](../../../extensibility/debugger/reference/idebuggenericfielddefinition--constructinstantiation.md)|Constructs a field instance given an array of type arguments.|  
-|[GetFormalTypeParams](../../../extensibility/debugger/reference/idebuggenericfielddefinition--getformaltypeparams.md)|Retrieves the type parameters given the number of parameters.|  
-|[TypeParamCount](../../../extensibility/debugger/reference/idebuggenericfielddefinition--typeparamcount.md)|Retrieves the number of type parameters associated with the generic field.|  
+|[ConstructInstantiation](../../../extensibility/debugger/reference/idebuggenericfielddefinition-constructinstantiation.md)|Constructs a field instance given an array of type arguments.|  
+|[GetFormalTypeParams](../../../extensibility/debugger/reference/idebuggenericfielddefinition-getformaltypeparams.md)|Retrieves the type parameters given the number of parameters.|  
+|[TypeParamCount](../../../extensibility/debugger/reference/idebuggenericfielddefinition-typeparamcount.md)|Retrieves the number of type parameters associated with the generic field.|  
   
 ## Requirements  
  Header: Sh.h  

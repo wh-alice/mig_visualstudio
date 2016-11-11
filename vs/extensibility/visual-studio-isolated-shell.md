@@ -1,7 +1,7 @@
 ---
-title: "Visual Studio Isolated Shell"
+title: "Visual Studio Isolated Shell | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,7 +45,7 @@ The Visual Studio isolated shell allows you to create stand-alone applications t
 >  Before you can access the isolated shell redistributable package, you will be asked to fill out a brief customer survey.  After filling out the survey, you’ll be directed to a Visual Studio Connect page with redistributable package download links.  You can find the download links on subsequent visits to the Visual Studio Connect site under the **PROGRAMS &#124; VISUAL STUDIO 2015 INTEGRATED AND ISOLATED SHELL** tab.  
   
 > [!NOTE]
->  For more information about how to deploy an isolated shell-based application, see [Walkthrough: Creating a Basic Isolated Shell Application](../extensibility/walkthrough--creating-a-basic-isolated-shell-application.md).  
+>  For more information about how to deploy an isolated shell-based application, see [Walkthrough: Creating a Basic Isolated Shell Application](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md).  
   
 ## Working with the isolated shell  
  A Visual Studio isolated shell application has full access to Visual Studio services and supports special customization and branding. There are several ways you can customize an isolated shell application:  
@@ -75,4 +75,4 @@ The Visual Studio isolated shell allows you to create stand-alone applications t
 |Extensibility|Consumes VSPackages and MEF components|  
   
 ## See Also  
- [Shell (Isolated or Integrated)](../extensibility/shell--isolated-or-integrated-.md)
+ [Shell (Isolated or Integrated)](../extensibility/shell-isolated-or-integrated.md)

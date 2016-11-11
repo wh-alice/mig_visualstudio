@@ -1,7 +1,7 @@
 ---
-title: "Adding a Tracking Property to a Domain-Specific Language Definition"
+title: "Adding a Tracking Property to a Domain-Specific Language Definition | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "walkthroughs [Domain-Specific Language Tools]"
 ms.assetid: 4aa47777-de75-4897-a423-a3c4426b4125
 caps.latest.revision: 22
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 translation.priority.mt: 
@@ -151,7 +152,7 @@ This walkthrough shows how to add a tracking property to a domain model.
   
 1.  On the **Solution Explorer** toolbar, click **Transform All Templates**.  
   
-2.  The system regenerates the code for the solution, and saves DslDefinition.dsl. For information about the XML format of definition files, see [The DslDefinition.dsl File](../modeling/the-dsldefinition.dsl-file.md).  
+2.  The system regenerates the code for the solution, and saves DslDefinition.dsl. For information about the XML format of definition files, see [The DslDefinition.dsl File](../modeling/the-dsldefinition-dsl-file.md).  
   
 ## Creating Files for Custom Code  
  When you transform all templates, the system generates the source code that defines your domain-specific language in the Dsl and DslPackage projects. So that you can avoid interfering with the generated text, write your custom code in files that are distinct from the generated code files.  
@@ -771,5 +772,5 @@ This walkthrough shows how to add a tracking property to a domain model.
  <xref:Microsoft.VisualStudio.Modeling.Design.TrackingPropertyDescriptor>   
  <xref:Microsoft.VisualStudio.Modeling.Design.ElementTypeDescriptor>   
  [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)   
- [How to: Create a Domain-Specific Language Solution](../modeling/how-to--create-a-domain-specific-language-solution.md)   
- [Walkthrough: Customizing the Domain-Specific Language Definition](../misc/walkthrough--customizing-the-domain-specific-language-definition.md)
+ [How to: Create a Domain-Specific Language Solution](../modeling/how-to-create-a-domain-specific-language-solution.md)   
+ [Walkthrough: Customizing the Domain-Specific Language Definition](../misc/walkthrough-customizing-the-domain-specific-language-definition.md)

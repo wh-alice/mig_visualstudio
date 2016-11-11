@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Error RC2110"
+title: "Resource Compiler Error RC2110 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC2110"
 ms.assetid: 1d5eab8c-c49f-4090-a42e-a0ec49111888
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
-title: "Metadata as Source"
+title: "Metadata as Source | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "metadata as source [C#]"
 ms.assetid: 4945a07f-b3be-4f05-a587-fc29058aa8fa
 caps.latest.revision: 14
+author: "BillWagner"
 ms.author: "wiwagn"
 manager: "wpickett"
 translation.priority.ht: 

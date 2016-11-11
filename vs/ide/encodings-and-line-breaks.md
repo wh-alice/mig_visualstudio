@@ -1,7 +1,7 @@
 ---
-title: "Encodings and Line Breaks"
+title: "Encodings and Line Breaks | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "Visual Studio, line break characters"
 ms.assetid: 8f9b3ffc-7b8d-44f4-87cb-dc29105be12d
 caps.latest.revision: 8
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

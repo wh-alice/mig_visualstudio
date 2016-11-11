@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB1019"
+title: "MSBuild Error MSB1019 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB1019"
 ms.assetid: 5d0169f7-f878-433a-ac30-d9d6010130af
 caps.latest.revision: 7
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

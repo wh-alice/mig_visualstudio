@@ -1,7 +1,7 @@
 ---
-title: "MarkupCompilePass1 Task"
+title: "MarkupCompilePass1 Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "MarkupCompilePass1 task [WPF MSBuild], converting XAML to binary format"
 ms.assetid: 693d6945-fd6f-4698-8f64-9dfcb71052d3
 caps.latest.revision: 8
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

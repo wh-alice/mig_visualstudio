@@ -1,7 +1,7 @@
 ---
-title: "Obtaining Build Logs with MSBuild"
+title: "Obtaining Build Logs with MSBuild | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "logging [MSBuild]"
 ms.assetid: 6ba9a754-9cc0-4fed-9fc8-4dcd3926a031
 caps.latest.revision: 27
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -36,7 +37,7 @@ translation.priority.mt:
 By using switches with MSBuild, you can specify how much build data you want to review and whether you want to save build data to one or more files. You can also specify a custom logger to collect build data. For information about MSBuild command-line switches that this topic doesn't cover, see [Command-Line Reference](../msbuild/msbuild-command-line-reference.md).  
   
 > [!NOTE]
->  If you build projects by using the Visual Studio IDE, you can troubleshoot those builds by reviewing build logs. For more information, see [How to: View, Save, and Configure Build Log Files](../ide/how-to--view--save--and-configure-build-log-files.md).  
+>  If you build projects by using the Visual Studio IDE, you can troubleshoot those builds by reviewing build logs. For more information, see [How to: View, Save, and Configure Build Log Files](../ide/how-to-view-save-and-configure-build-log-files.md).  
   
 ## Setting the level of detail  
  When you build a project by using MSBuild without specifying a level of detail, the following information appears in the output log:  

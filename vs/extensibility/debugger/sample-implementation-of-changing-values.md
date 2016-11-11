@@ -1,7 +1,7 @@
 ---
-title: "Sample Implementation of Changing Values"
+title: "Sample Implementation of Changing Values | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ translation.priority.mt:
 > [!IMPORTANT]
 >  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
   
- Every local displayed in the **Locals** window has an [IDebugProperty2](../../extensibility/debugger/reference/idebugproperty2.md) object associated with it. This `IDebugProperty2` object contains the local's name, value, and type. When a user changes the value of a local, Visual Studio calls [SetValueAsString](../../extensibility/debugger/reference/idebugproperty2--setvalueasstring.md) to update the value of the local in memory. In this example, the local is represented by the `CFieldProperty` class that implements the `IDebugProperty2` interface.  
+ Every local displayed in the **Locals** window has an [IDebugProperty2](../../extensibility/debugger/reference/idebugproperty2.md) object associated with it. This `IDebugProperty2` object contains the local's name, value, and type. When a user changes the value of a local, Visual Studio calls [SetValueAsString](../../extensibility/debugger/reference/idebugproperty2-setvalueasstring.md) to update the value of the local in memory. In this example, the local is represented by the `CFieldProperty` class that implements the `IDebugProperty2` interface.  
   
 > [!NOTE]
 >  For **Watch** and **QuickWatch** expressions, the value being changed is represented by the `CValueProperty` class in the MyCEE sample. However, the implementation of `IDebugProperty2::SetValueAsString` is the same as shown here.  
@@ -48,7 +48,7 @@ translation.priority.mt:
   
 3.  Converts the value to a series of bytes.  
   
-4.  Calls [SetValue](../../extensibility/debugger/reference/idebugobject--setvalue.md) to store the bytes in memory.  
+4.  Calls [SetValue](../../extensibility/debugger/reference/idebugobject-setvalue.md) to store the bytes in memory.  
   
 ## Managed Code  
  This is an implementation of `IDebugProperty2::SetValueAsString` in managed code.  

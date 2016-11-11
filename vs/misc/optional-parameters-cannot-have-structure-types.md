@@ -1,5 +1,5 @@
 ---
-title: "Optional parameters cannot have structure types"
+title: "Optional parameters cannot have structure types | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "BC31405"
 ms.assetid: 95bdf451-c9b5-4b00-9c38-7c1cad103d43
 caps.latest.revision: 8
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -46,5 +47,5 @@ Optional parameters cannot be structure types.
 2.  Declare a static class member to take the place of a structure.  
   
 ## See Also  
- [Structures](../Topic/Structures%20\(Visual%20Basic\).md)   
- [Static](../Topic/Static%20\(Visual%20Basic\).md)
+ [Structures](/dotnet/visual-basic/programming-guide/language-features/data-types/structures)   
+ [Static](/dotnet/visual-basic/language-reference/modifiers/static)

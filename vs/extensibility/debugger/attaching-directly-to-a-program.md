@@ -1,7 +1,7 @@
 ---
-title: "Attaching Directly to a Program"
+title: "Attaching Directly to a Program | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,11 +45,11 @@ Users who want to debug programs in a process that is already running typically 
   
  The debug package starts a debug session and passes the list of DEs to it. The debug session in turn passes this list, along with a callback function, to the selected process, and then asks the process to enumerate its running programs.  
   
- Programmatically, in response to the user request, the debug package instantiates the session debug manager (SDM) and passes the list of selected DEs to it. Along with the list, the debug package passes the SDM an [IDebugEventCallback2](../../extensibility/debugger/reference/idebugeventcallback2.md) interface. The debug package passes the list of DEs to the selected process by calling [IDebugProcess2::Attach](../../extensibility/debugger/reference/idebugprocess2--attach.md). The SDM then calls [IDebugProcess2::EnumPrograms](../../extensibility/debugger/reference/idebugprocess2--enumprograms.md) on the port to enumerate the programs running in the process.  
+ Programmatically, in response to the user request, the debug package instantiates the session debug manager (SDM) and passes the list of selected DEs to it. Along with the list, the debug package passes the SDM an [IDebugEventCallback2](../../extensibility/debugger/reference/idebugeventcallback2.md) interface. The debug package passes the list of DEs to the selected process by calling [IDebugProcess2::Attach](../../extensibility/debugger/reference/idebugprocess2-attach.md). The SDM then calls [IDebugProcess2::EnumPrograms](../../extensibility/debugger/reference/idebugprocess2-enumprograms.md) on the port to enumerate the programs running in the process.  
   
  From this point on, each debug engine is attached to a program exactly as detailed in [Attaching After a Launch](../../extensibility/debugger/attaching-after-a-launch.md), with two exceptions.  
   
- For efficiency, DEs that are implemented to share an address space with the SDM are grouped so that each DE has a set of programs it will attach to. In this case, [IDebugProcess2](../../extensibility/debugger/reference/idebugprocess2.md) calls [IDebugEngine2::Attach](../../extensibility/debugger/reference/idebugengine2--attach.md) and passes it an array of programs to attach to.  
+ For efficiency, DEs that are implemented to share an address space with the SDM are grouped so that each DE has a set of programs it will attach to. In this case, [IDebugProcess2](../../extensibility/debugger/reference/idebugprocess2.md) calls [IDebugEngine2::Attach](../../extensibility/debugger/reference/idebugengine2-attach.md) and passes it an array of programs to attach to.  
   
  The second exception is that the startup events sent by a DE attaching to a program that is already running do not typically include the entry point event.  
   

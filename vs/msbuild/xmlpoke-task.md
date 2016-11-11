@@ -1,7 +1,7 @@
 ---
-title: "XmlPoke Task"
+title: "XmlPoke Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "MSBuild, XmlPoke task"
 ms.assetid: 6ba1953c-be3b-4df8-8561-e133408f8270
 caps.latest.revision: 4
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

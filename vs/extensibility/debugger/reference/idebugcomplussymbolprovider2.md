@@ -1,7 +1,7 @@
 ---
-title: "IDebugComPlusSymbolProvider2"
+title: "IDebugComPlusSymbolProvider2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -44,13 +44,13 @@ IDebugComPlusSymbolProvider2 : IDebugComPlusSymbolProvider
   
 |Method|Description|  
 |------------|-----------------|  
-|[FunctionHasLineInfo](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2--functionhaslineinfo.md)|Determines if the specified method has line information.|  
-|[GetTypesByName](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2--gettypesbyname.md)|Retrieves a type given its name.|  
-|[GetTypeFromToken](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2--gettypefromtoken.md)|Retrieves a type given its token.|  
-|[IsAddressSequencePoint](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2--isaddresssequencepoint.md)|Determines if the specified debug address is a sequence point.|  
-|[LoadSymbolsFromCallback](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2--loadsymbolsfromcallback.md)|Loads debug symbols using the specified callback method.|  
-|[LoadSymbolsFromStreamWithCorModule](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2--loadsymbolsfromstreamwithcormodule.md)|Load debug symbols from a data stream given the **ICorDebugModule** object.|  
-|[LoadSymbolsWithCorModule](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2--loadsymbolswithcormodule.md)|Loads debug symbols given the **ICorDebugModule** object.|  
+|[FunctionHasLineInfo](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2-functionhaslineinfo.md)|Determines if the specified method has line information.|  
+|[GetTypesByName](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2-gettypesbyname.md)|Retrieves a type given its name.|  
+|[GetTypeFromToken](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2-gettypefromtoken.md)|Retrieves a type given its token.|  
+|[IsAddressSequencePoint](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2-isaddresssequencepoint.md)|Determines if the specified debug address is a sequence point.|  
+|[LoadSymbolsFromCallback](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2-loadsymbolsfromcallback.md)|Loads debug symbols using the specified callback method.|  
+|[LoadSymbolsFromStreamWithCorModule](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2-loadsymbolsfromstreamwithcormodule.md)|Load debug symbols from a data stream given the **ICorDebugModule** object.|  
+|[LoadSymbolsWithCorModule](../../../extensibility/debugger/reference/idebugcomplussymbolprovider2-loadsymbolswithcormodule.md)|Loads debug symbols given the **ICorDebugModule** object.|  
   
 ## Requirements  
  Header: Sh.h  

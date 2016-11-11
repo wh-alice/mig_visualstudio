@@ -1,7 +1,7 @@
 ---
-title: "Using the Legacy State Machine Workflow Designer"
+title: "Using the Legacy State Machine Workflow Designer | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "StateInitializationActivity activity"
 ms.assetid: 2cd21123-35c2-4eaf-82f6-86fce7a8f04d
 caps.latest.revision: 5
+author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
 translation.priority.ht: 
@@ -36,7 +37,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Using the Legacy State Machine Workflow Designer
-When you are creating a new state machine workflow project in [!INCLUDE[vs2010](../modeling/includes/vs2010_md.md)] that targets either the [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] or the [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)], you can choose to use either the **State Machine Workflow Console Application** or the **State Machine Workflow Library** legacy project template. If you choose one of these state machine project templates, the state machine designer is presented as the legacy workflow designer user interface. For information about the legacy state machine project templates, see [How to: Create State Machine Workflow Console Applications (Legacy)](../workflow-designer/how-to--create-state-machine-workflow-console-applications--legacy-.md) and [How to: Create a State Machine Workflow Library (Legacy)](../workflow-designer/how-to--create-a-state-machine-workflow-library--legacy-.md).  
+When you are creating a new state machine workflow project in [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)] that targets either the [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] or the [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)], you can choose to use either the **State Machine Workflow Console Application** or the **State Machine Workflow Library** legacy project template. If you choose one of these state machine project templates, the state machine designer is presented as the legacy workflow designer user interface. For information about the legacy state machine project templates, see [How to: Create State Machine Workflow Console Applications (Legacy)](../workflow-designer/how-to-create-state-machine-workflow-console-applications-legacy.md) and [How to: Create a State Machine Workflow Library (Legacy)](../workflow-designer/how-to-create-a-state-machine-workflow-library-legacy.md).  
   
  A state machine workflow consists of a set of states. One state is denoted as an initial state. Each state can receive a certain set of events. Based on an event, a transition can be made to another state. The state machine workflow can have a final state. When a transition is made to the final state, the workflow finishes.  
   
@@ -68,8 +69,8 @@ When you are creating a new state machine workflow project in [!INCLUDE[vs2010](
 >  To open the **Document Outline** window, on the **View** menu, point to **Other Windows**, and then select **Document Outline**.  
   
 ## See Also  
- [How to: Create State Machine Workflow Console Applications (Legacy)](../workflow-designer/how-to--create-state-machine-workflow-console-applications--legacy-.md)   
- [How to: Create a State Machine Workflow Library (Legacy)](../workflow-designer/how-to--create-a-state-machine-workflow-library--legacy-.md)   
+ [How to: Create State Machine Workflow Console Applications (Legacy)](../workflow-designer/how-to-create-state-machine-workflow-console-applications-legacy.md)   
+ [How to: Create a State Machine Workflow Library (Legacy)](../workflow-designer/how-to-create-a-state-machine-workflow-library-legacy.md)   
  [State Machine Workflows](http://go.microsoft.com/fwlink?LinkID=65016)   
  [Using the StateActivity Activity](http://go.microsoft.com/fwlink?LinkID=65083)   
  [Using the StateInitializationActivity Activity](http://go.microsoft.com/fwlink?LinkID=65006)   

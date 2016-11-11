@@ -1,7 +1,7 @@
 ---
-title: "BoundsRules Constrain Shape Location and Size"
+title: "BoundsRules Constrain Shape Location and Size | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, events"
 ms.assetid: 4d08e541-fc67-4e68-bf31-30d346aa2aa0
 caps.latest.revision: 18
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 ---

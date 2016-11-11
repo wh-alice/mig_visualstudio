@@ -1,7 +1,7 @@
 ---
-title: "Create UML modeling projects and diagrams"
+title: "Create UML modeling projects and diagrams | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,6 +25,7 @@ helpviewer_keywords:
   - "projects, modeling"
 ms.assetid: c178b04b-4fd2-4bed-97e3-d793dae8649c
 caps.latest.revision: 48
+author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
-title: "HTML UI responsiveness"
+title: "HTML UI responsiveness | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,6 +22,7 @@ helpviewer_keywords:
   - "profiler, JavaScript [Windows Store apps]"
 ms.assetid: da13070a-ba40-47dd-a846-ad72eed70d0b
 caps.latest.revision: 47
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -85,7 +86,7 @@ This topic describes how to isolate performance problems in your apps using the 
 6.  To stop profiling the app and view data that the profiler gathered, choose **Stop collection**.  
   
 ##  <a name="IsolateAnIssue"></a> Isolate an issue  
- The following section provides suggestions to help you isolate performance problems. For a step-by-step explanation of how to identify and fix performance issues by using a sample performance testing app, see [Walkthrough: Improving UI responsiveness (HTML)](../profiling/walkthrough--improving-ui-responsiveness--html-.md).  
+ The following section provides suggestions to help you isolate performance problems. For a step-by-step explanation of how to identify and fix performance issues by using a sample performance testing app, see [Walkthrough: Improving UI responsiveness (HTML)](../profiling/walkthrough-improving-ui-responsiveness-html.md).  
   
 ###  <a name="Workflow"></a> Isolate a UI responsiveness problem  
  These steps provide a suggested workflow that might help you use the UI Responsiveness Profiler more effectively:  

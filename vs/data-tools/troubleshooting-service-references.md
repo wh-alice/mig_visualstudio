@@ -1,7 +1,7 @@
 ---
-title: "Troubleshooting Service References"
+title: "Troubleshooting Service References | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "WCF services, troubleshooting"
 ms.assetid: 3b531120-1325-4734-90c6-6e6113bd12ac
 caps.latest.revision: 22
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 translation.priority.ht: 
@@ -39,7 +40,7 @@ translation.priority.mt:
 This topic lists common issues that may occur when you are working with [!INCLUDE[vsindigo](../data-tools/includes/vsindigo_md.md)] or [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)] references in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 ## Error Returning Data from a Service  
- When you return a `DataSet` or `DataTable` from a service, you may receive a "The maximum size quota for incoming messages has been exceeded" exception. By default, the `MaxReceivedMessageSize` property for some bindings is set to a relatively small value to limit exposure to denial-of-service attacks. You can increase this value to prevent the exception. For more information, see <xref:System.ServiceModel.BasicHttpBinding.MaxReceivedMessageSize*>.  
+ When you return a `DataSet` or `DataTable` from a service, you may receive a "The maximum size quota for incoming messages has been exceeded" exception. By default, the `MaxReceivedMessageSize` property for some bindings is set to a relatively small value to limit exposure to denial-of-service attacks. You can increase this value to prevent the exception. For more information, see <xref:System.ServiceModel.BasicHttpBinding.MaxReceivedMessageSize%2A>.  
   
  To fix this error:  
   
@@ -66,7 +67,7 @@ This topic lists common issues that may occur when you are working with [!INCLUD
     > [!NOTE]
     >  You should turn off NTLM authentication only for Web sites that exclusively contain WCF services. Security for WCF services is managed through the configuration in the web.config file. This makes NTLM authentication unnecessary.  
   
- For more information, see [Troubleshooting Exceptions: System.ServiceModel.Security.MessageSecurityException](../misc/61ad69a1-ac50-49de-9a7c-8454a84ec5bd.md).  
+ For more information, see [Troubleshooting Exceptions: System.ServiceModel.Security.MessageSecurityException](../misc/troubleshooting-exceptions-system-servicemodel-security-messagesecurityexception.md).  
   
 ## Access Level for Generated Classes Setting Has No Effect  
  Setting the **Access level for generated classes** option in the **Configure Service References** dialog box to **Internal** or **Friend** may not always work. Even though the option appears to be set in the dialog box, the resulting support classes will be generated with an access level of `Public`.  
@@ -90,7 +91,7 @@ This topic lists common issues that may occur when you are working with [!INCLUD
   
 4.  Load the WCF service project. For more information, see [NIB How to: Create Multi-Project Solutions](http://msdn.microsoft.com/en-us/02ecd6dd-0114-46fe-b335-ba9c5e3020d6).  
   
-5.  In the **Configuration Manager** dialog box, set the **Active solution configuration** to **Debug**. For more information, see [How to: Create and Edit Configurations](../ide/how-to--create-and-edit-configurations.md).  
+5.  In the **Configuration Manager** dialog box, set the **Active solution configuration** to **Debug**. For more information, see [How to: Create and Edit Configurations](../ide/how-to-create-and-edit-configurations.md).  
   
 6.  In **Solution Explorer**, select the WCF service project.  
   
@@ -110,4 +111,4 @@ This topic lists common issues that may occur when you are working with [!INCLUD
 4.  Click **OK** to close the **Internet Options** dialog box.  
   
 ## See Also  
- [Windows Communication Foundation Services and WCF Data Services in Visual Studio](../data-tools/d56f12cb-e139-4fec-b3e4-488383356642.md)
+ [Windows Communication Foundation Services and WCF Data Services in Visual Studio](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md)

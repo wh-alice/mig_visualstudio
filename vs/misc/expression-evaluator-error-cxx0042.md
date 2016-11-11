@@ -1,7 +1,7 @@
 ---
-title: "Expression Evaluator Error CXX0042"
+title: "Expression Evaluator Error CXX0042 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "CXX0042"
 ms.assetid: 951c7734-71b0-4ac8-b5a6-50d9f97595d8
 caps.latest.revision: 8
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

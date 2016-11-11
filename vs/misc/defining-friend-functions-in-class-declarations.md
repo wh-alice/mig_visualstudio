@@ -1,7 +1,7 @@
 ---
-title: "Defining Friend Functions in Class Declarations"
+title: "Defining Friend Functions in Class Declarations | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "declaring functions, friend declarations"
 ms.assetid: a3936c66-d00d-4e41-8651-68106a9a8e05
 caps.latest.revision: 6
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -34,4 +35,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Defining Friend Functions in Class Declarations
-This content has moved to [friend](../Topic/friend%20\(C++\).md).
+This content has moved to [friend](/visual-cpp/cpp/friend-cpp).

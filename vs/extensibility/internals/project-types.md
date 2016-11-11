@@ -1,7 +1,7 @@
 ---
-title: "Project Types"
+title: "Project Types | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -47,7 +47,7 @@ translation.priority.mt:
  [Adding Web Services to Project Systems](../../misc/adding-web-services-to-project-systems.md)  
  Shows how to integrate Web services into your VSPackage project system.  
   
- [Renaming Project Hierarchy Nodes (C++)](../../misc/renaming-project-hierarchy-nodes--c---.md)  
+ [Renaming Project Hierarchy Nodes (C++)](../../misc/renaming-project-hierarchy-nodes-cpp.md)  
  Shows how to rename a project folder hierarchy node.  
   
  [Adding Project and Project Item Templates](../../extensibility/internals/adding-project-and-project-item-templates.md)  

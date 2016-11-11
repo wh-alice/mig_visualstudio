@@ -1,7 +1,7 @@
 ---
-title: "IDebugParsedExpression"
+title: "IDebugParsedExpression | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -48,17 +48,17 @@ IDebugParsedExpression : IUnknown
  An expression evaluator implements this interface to represent a parsed expression that is ready for evaluation.  
   
 ## Notes for Callers  
- A call to [Parse](../../../extensibility/debugger/reference/idebugexpressionevaluator--parse.md) returns this interface.  
+ A call to [Parse](../../../extensibility/debugger/reference/idebugexpressionevaluator-parse.md) returns this interface.  
   
 ## Methods in Vtable Order  
  The following table shows the method of `IDebugParsedExpression`.  
   
 |Method|Description|  
 |------------|-----------------|  
-|[EvaluateSync](../../../extensibility/debugger/reference/idebugparsedexpression--evaluatesync.md)|Evaluates the parsed expression.|  
+|[EvaluateSync](../../../extensibility/debugger/reference/idebugparsedexpression-evaluatesync.md)|Evaluates the parsed expression.|  
   
 ## Remarks  
- When the caller is ready to evaluate the expression, it calls [EvaluateSync](../../../extensibility/debugger/reference/idebugparsedexpression--evaluatesync.md) to return an [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) that contains the result of the evaluation. This two-part approach to evaluation, parsing then evaluating, enables the parsed expression to be evaluated multiple times, bypassing the time-consuming process of parsing the expression.  
+ When the caller is ready to evaluate the expression, it calls [EvaluateSync](../../../extensibility/debugger/reference/idebugparsedexpression-evaluatesync.md) to return an [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) that contains the result of the evaluation. This two-part approach to evaluation, parsing then evaluating, enables the parsed expression to be evaluated multiple times, bypassing the time-consuming process of parsing the expression.  
   
 ## Requirements  
  Header: ee.h  
@@ -68,6 +68,6 @@ IDebugParsedExpression : IUnknown
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll  
   
 ## See Also  
- [Parse](../../../extensibility/debugger/reference/idebugexpressionevaluator--parse.md)   
- [EvaluateSync](../../../extensibility/debugger/reference/idebugparsedexpression--evaluatesync.md)   
+ [Parse](../../../extensibility/debugger/reference/idebugexpressionevaluator-parse.md)   
+ [EvaluateSync](../../../extensibility/debugger/reference/idebugparsedexpression-evaluatesync.md)   
  [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md)

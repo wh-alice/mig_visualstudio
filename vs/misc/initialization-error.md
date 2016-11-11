@@ -1,5 +1,5 @@
 ---
-title: "Initialization error"
+title: "Initialization error | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "BC2000"
 ms.assetid: 82fdab51-eee0-488b-9f7e-a5c0c5c182ab
 caps.latest.revision: 10
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -44,4 +45,4 @@ An error occurred while initializing the program. This may be a result of cancel
 -   Reattempt the installation.  
   
 ## See Also  
- [Error Types](../Topic/Error%20Types%20\(Visual%20Basic\).md)
+ [Error Types](/dotnet/visual-basic/programming-guide/language-features/error-types)

@@ -1,7 +1,7 @@
 ---
-title: "Generate code from UML class diagrams"
+title: "Generate code from UML class diagrams | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "UML diagrams, generating code"
 ms.assetid: 2790e64d-7728-4c2e-a4dd-4131e795f730
 caps.latest.revision: 51
+author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
 translation.priority.ht: 
@@ -44,9 +45,9 @@ To generate Visual C# .NET code from UML class diagrams in Visual Studio, use th
   
  For more information about UML class diagrams in Visual Studio, see the following topics:  
   
--   [UML Class Diagrams: Reference](../modeling/uml-class-diagrams--reference.md)  
+-   [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)  
   
--   [UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams--guidelines.md)  
+-   [UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams-guidelines.md)  
   
  To see which versions of Visual Studio support UML class diagrams, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).  
   
@@ -243,6 +244,6 @@ To generate Visual C# .NET code from UML class diagrams in Visual Studio, use th
 -   `<#= Expressions #>` are evaluated and converted to strings.  
   
 ## See Also  
- [UML Class Diagrams: Reference](../modeling/uml-class-diagrams--reference.md)   
- [UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams--guidelines.md)   
+ [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)   
+ [UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams-guidelines.md)   
  [Generate files from a UML model](../modeling/generate-files-from-a-uml-model.md)

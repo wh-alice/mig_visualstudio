@@ -1,7 +1,7 @@
 ---
-title: "Visual Studio IDE 64-Bit Support"
+title: "Visual Studio IDE 64-Bit Support | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "64-bit programming [C++]"
 ms.assetid: b08ff3ad-c6fd-468f-94d5-01a61aab6833
 caps.latest.revision: 11
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -45,7 +46,7 @@ translation.priority.ht:
 ## Configuring projects as 64-bit applications  
  The following topics discuss configuring projects to be built to 64-bit applications.  
   
--   [How to: Configure Projects to Target Platforms](../ide/how-to--configure-projects-to-target-platforms.md)  
+-   [How to: Configure Projects to Target Platforms](../ide/how-to-configure-projects-to-target-platforms.md)  
   
 ## Debugging a 64-bit application  
  Edit and Continue does not work when [!INCLUDE[vsprvslong](../code-quality/includes/vsprvslong_md.md)] is running on a 64-bit Windows operating system. The following topics discuss debugging 64-bit applications.  
@@ -57,4 +58,4 @@ translation.priority.ht:
 -   [Using Dump Files](../debugger/using-dump-files.md)  
   
 ## See Also  
- [How to: Configure Projects to Target Platforms](../ide/how-to--configure-projects-to-target-platforms.md)
+ [How to: Configure Projects to Target Platforms](../ide/how-to-configure-projects-to-target-platforms.md)

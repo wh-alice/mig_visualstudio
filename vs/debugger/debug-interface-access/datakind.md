@@ -1,7 +1,7 @@
 ---
-title: "DataKind"
+title: "DataKind | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "DataKind enumeration"
 ms.assetid: b64be708-22d6-4360-99e7-8f4e6b196de7
 caps.latest.revision: 8
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -85,11 +86,11 @@ enum DataKind { 
  Data item is a constant value.  
   
 ## Remarks  
- The values in this enumeration are returned by the [IDiaSymbol::get_dataKind](../../debugger/debug-interface-access/idiasymbol--get_datakind.md) method.  
+ The values in this enumeration are returned by the [IDiaSymbol::get_dataKind](../../debugger/debug-interface-access/idiasymbol-get-datakind.md) method.  
   
 ## Requirements  
  Header: cvconst.h  
   
 ## See Also  
  [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)   
- [IDiaSymbol::get_dataKind](../../debugger/debug-interface-access/idiasymbol--get_datakind.md)
+ [IDiaSymbol::get_dataKind](../../debugger/debug-interface-access/idiasymbol-get-datakind.md)

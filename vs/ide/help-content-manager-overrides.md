@@ -1,7 +1,7 @@
 ---
-title: "Help Content Manager Overrides"
+title: "Help Content Manager Overrides | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 95fe6396-276b-4ee5-b03d-faacec42765f
 caps.latest.revision: 9
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

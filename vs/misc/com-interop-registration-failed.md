@@ -1,7 +1,7 @@
 ---
-title: "COM Interop registration failed"
+title: "COM Interop registration failed | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ f1_keywords:
   - "vs.tasklisterror.cannot_register_com2"
 ms.assetid: d1b81f8e-66d7-4cfc-96ff-f1436a8f854a
 caps.latest.revision: 9
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -54,4 +55,4 @@ There is a failure in the registration of an assembly that exposes functionality
 -   Make sure that you are logged on as an Administrator or as a member of a group that has permission to access the registry.  
   
 ## See Also  
- [COM Interoperability in .NET Framework Applications](../Topic/COM%20Interoperability%20in%20.NET%20Framework%20Applications%20\(Visual%20Basic\).md)
+ [COM Interoperability in .NET Framework Applications](/dotnet/visual-basic/programming-guide/com-interop/com-interoperability-in-net-framework-applications)

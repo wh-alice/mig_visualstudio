@@ -1,7 +1,7 @@
 ---
-title: "Creating a Data-Driven Coded UI Test"
+title: "Creating a Data-Driven Coded UI Test | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -256,7 +256,7 @@ public void DataDrivingDemo_MyTestMethod(int x, int y)
   
 ```  
   
- For more information, see [Use Data-driven coded UI tests on Windows Phone apps](../test/test-windows-phone-8.1-apps-with-coded-ui-tests.md#TestingPhoneAppsCodedUI_DataDriven).  
+ For more information, see [Use Data-driven coded UI tests on Windows Phone apps](../test/test-windows-phone-8-1-apps-with-coded-ui-tests.md#TestingPhoneAppsCodedUI_DataDriven).  
   
 ### Q: Why can’t I modify the code in the UIMap.Designer file?  
  **A:** Any code changes you make in the UIMapDesigner.cs file will be overwritten every time you generate code using the UIMap - Coded UI Test Builder. In this sample, and in most cases, the code changes needed to enable a test to use a data source can be made to the test's source code file (that is, CodedUITest1.cs).  

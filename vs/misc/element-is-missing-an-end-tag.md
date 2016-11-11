@@ -1,5 +1,5 @@
 ---
-title: "Element is missing an end tag"
+title: "Element is missing an end tag | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "BC31151"
 ms.assetid: 00e258a6-5a57-4f3d-827b-52b128cc4b08
 caps.latest.revision: 4
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -44,5 +45,5 @@ An XML element literal is missing an XML end tag or an empty tag identifier '/' 
 -   Add the end tag for the XML tag, or add an empty tag identifier '/' to the XML tag.  
   
 ## See Also  
- [XML Literals](../Topic/XML%20Literals%20\(Visual%20Basic\).md)   
- [XML](../Topic/XML%20in%20Visual%20Basic.md)
+ [XML Literals](/dotnet/visual-basic/language-reference/xml-literals/index)   
+ [XML](/dotnet/visual-basic/programming-guide/language-features/xml/index)

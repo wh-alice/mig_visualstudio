@@ -1,7 +1,7 @@
 ---
-title: "SDK Helpers for Debugging"
+title: "SDK Helpers for Debugging | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -431,11 +431,11 @@ HRESULT EnumMetricSections(
 |*[exception]*|A name for an exception: for example, **_com_error** or **Control-Break**. These names are also used to identify a particular exception to the user.|  
   
 ## Requirements  
- These files are located in the [!INCLUDE[vs_dev10_ext](../Token/vs_dev10_ext_md.md)] SDK installation directory (by default, *[drive]*\Program Files\Microsoft Visual Studio 2010 SDK\\).  
+ These files are located in the [!INCLUDE[vs_dev10_ext](../../../extensibility/debugger/reference/includes/vs_dev10_ext_md.md)] SDK installation directory (by default, *[drive]*\Program Files\Microsoft Visual Studio 2010 SDK\\).  
   
  Header: includes\dbgmetric.h  
   
  Library: libs\ad2de.lib, libs\dbgmetric.lib  
   
 ## See Also  
- [API Reference](../../../extensibility/debugger/reference/api-reference--visual-studio-debugging-.md)
+ [API Reference](../../../extensibility/debugger/reference/api-reference-visual-studio-debugging.md)

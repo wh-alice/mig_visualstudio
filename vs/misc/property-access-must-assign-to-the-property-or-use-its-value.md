@@ -1,5 +1,5 @@
 ---
-title: "Property access must assign to the property or use its value"
+title: "Property access must assign to the property or use its value | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -15,7 +15,8 @@ f1_keywords:
 helpviewer_keywords: 
   - "BC30545"
 ms.assetid: df271c05-1e7a-44e8-bf53-79f06ef916ab
-caps.latest.revision: 10
+caps.latest.revision: 11
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -35,24 +36,18 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Property access must assign to the property or use its value
-You have tried to access a property without assigning to it or using its value. The following code provides an example:  
-  
- [!CODE [VbVbalrErrorSamples#1](VbVbalrErrorSamples#1)]  
+You have tried to access a property without assigning to it or using its value.
   
  **Error ID:** BC30545  
   
 ### To correct this error  
   
--   Assign a value to the property, as shown in the following example:  
-  
-     [!CODE [VbVbalrErrorSamples#3](VbVbalrErrorSamples#3)]  
+-   Assign a value to the property.  
   
      \- or -  
   
--   Use the value of the property, as shown in the following example:  
-  
-     [!CODE [VbVbalrErrorSamples#2](VbVbalrErrorSamples#2)]  
+-   Use the value of the property.  
   
 ## See Also  
- [Property Procedures](../Topic/Property%20Procedures%20\(Visual%20Basic\).md)   
- [Assignment Operators](../Topic/Assignment%20Operators%20\(Visual%20Basic\).md)
+ [Property Procedures](/dotnet/visual-basic/language-reference/procedures/property-procedures)   
+ [Assignment Operators](/dotnet/visual-basic/language-reference/operators/assignment-operators)

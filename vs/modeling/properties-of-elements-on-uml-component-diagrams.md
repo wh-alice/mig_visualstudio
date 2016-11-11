@@ -1,7 +1,7 @@
 ---
-title: "Properties of elements on UML component diagrams"
+title: "Properties of elements on UML component diagrams | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "UML, element properties"
 ms.assetid: fa0a9460-6675-4642-aa00-50f8719a892d
 caps.latest.revision: 14
+author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
 translation.priority.ht: 
@@ -35,7 +36,7 @@ translation.priority.ht:
 In a UML component diagram, each element on the diagram has properties. To see the properties of an element, right-click the element on the diagram or in **UML Model Explorer** and then click **Properties**. The properties appear in the **Properties** window.  
   
 > [!NOTE]
->  This topic is about the properties of elements in UML Component Diagrams. For more information about how to read UML Component Diagrams, see [UML Component Diagrams: Reference](../modeling/uml-component-diagrams--reference.md). For more information about how to draw UML Component Diagrams, see [UML Component Diagrams: Guidelines](../modeling/uml-component-diagrams--guidelines.md).  
+>  This topic is about the properties of elements in UML Component Diagrams. For more information about how to read UML Component Diagrams, see [UML Component Diagrams: Reference](../modeling/uml-component-diagrams-reference.md). For more information about how to draw UML Component Diagrams, see [UML Component Diagrams: Guidelines](../modeling/uml-component-diagrams-guidelines.md).  
   
 ## Properties of Elements  
   
@@ -56,5 +57,5 @@ In a UML component diagram, each element on the diagram has properties. To see t
 |**LinkedPackage**|Model|Diagram|The default namespace for elements added to this diagram.|  
   
 ## See Also  
- [UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams--reference.md)   
- [UML Use Case Diagrams: Guidelines](../modeling/uml-use-case-diagrams--guidelines.md)
+ [UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams-reference.md)   
+ [UML Use Case Diagrams: Guidelines](../modeling/uml-use-case-diagrams-guidelines.md)

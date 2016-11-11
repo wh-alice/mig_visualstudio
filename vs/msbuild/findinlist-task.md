@@ -1,7 +1,7 @@
 ---
-title: "FindInList Task"
+title: "FindInList Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "MSBuild, FindInList task"
 ms.assetid: d49b9f84-52a2-4242-9269-b741a7a7e9f7
 caps.latest.revision: 7
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

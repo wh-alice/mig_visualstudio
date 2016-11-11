@@ -1,7 +1,7 @@
 ---
-title: "Toggle Breakpoint Command"
+title: "Toggle Breakpoint Command | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "Toggle Breakpoint command"
 ms.assetid: d50dfadb-ce79-4d5e-9c09-1cfddd57876d
 caps.latest.revision: 11
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

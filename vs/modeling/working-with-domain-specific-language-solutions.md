@@ -1,7 +1,7 @@
 ---
-title: "Working with Domain-Specific Language Solutions"
+title: "Working with Domain-Specific Language Solutions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3db02722-5fd5-437f-a789-9acaaa809de8
 caps.latest.revision: 6
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 ---
@@ -28,7 +29,7 @@ A domain-specific language (DSL) is created using a [!INCLUDE[vsprvs](../code-qu
  [Choosing a Domain-Specific Language Solution Template](../modeling/choosing-a-domain-specific-language-solution-template.md)  
  Explains how to choose a template to start your DSL project.  
   
- [How to: Create a Domain-Specific Language Solution](../modeling/how-to--create-a-domain-specific-language-solution.md)  
+ [How to: Create a Domain-Specific Language Solution](../modeling/how-to-create-a-domain-specific-language-solution.md)  
  Describes the steps to set up a DSL.  
   
  [Working with the DSL Definition Diagram](../modeling/working-with-the-dsl-definition-diagram.md)  
@@ -37,10 +38,10 @@ A domain-specific language (DSL) is created using a [!INCLUDE[vsprvs](../code-qu
  [Working with the Domain-Specific Language Explorer](../modeling/working-with-the-domain-specific-language-explorer.md)  
  Explains the content of the explorer  
   
- [How to: Change the Namespace of a Domain-Specific Language](../modeling/how-to--change-the-namespace-of-a-domain-specific-language.md)  
+ [How to: Change the Namespace of a Domain-Specific Language](../modeling/how-to-change-the-namespace-of-a-domain-specific-language.md)  
  The code you generate from a DSL has a namespace that you set when you initiate your solution, but you can change it afterwards.  
   
- [How to: Extend the Domain-Specific Language Designer](../modeling/how-to--extend-the-domain-specific-language-designer.md)  
+ [How to: Extend the Domain-Specific Language Designer](../modeling/how-to-extend-the-domain-specific-language-designer.md)  
  You can customize the DSL Designer with menu commands.  
   
  [How to Automate Transform All Templates](http://msdn.microsoft.com/en-us/b63cfe20-fe5e-47cc-9506-59b29bca768a)  

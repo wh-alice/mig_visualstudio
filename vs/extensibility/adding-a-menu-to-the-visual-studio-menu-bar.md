@@ -1,7 +1,7 @@
 ---
-title: "Adding a Menu to the Visual Studio Menu Bar"
+title: "Adding a Menu to the Visual Studio Menu Bar | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -36,7 +36,7 @@ This walkthrough shows how to add a menu to the menu bar of the Visual Studio in
   
  Before adding a new menu to the Visual Studio menu bar, consider whether your commands should be placed within an existing menu. For more information about command placement, see [Menus and Commands for Visual Studio](../extensibility/ux-guidelines/menus-and-commands-for-visual-studio.md).  
   
- Menus are declared in the .vsct file of the project. For more information about menus and .vsct files, see [Commands, Menus, and Toolbars](../Topic/Commands,%20Menus,%20and%20Toolbars.md).  
+ Menus are declared in the .vsct file of the project. For more information about menus and .vsct files, see [Commands, Menus, and Toolbars](../extensibility/internals/commands-menus-and-toolbars.md).  
   
  By completing this walkthrough, you can create a menu named **TestMenu** that contains one command.  
   
@@ -107,4 +107,4 @@ This walkthrough shows how to add a menu to the menu bar of the Visual Studio in
      A message box should appear and display the message "TestCommand Package Inside TopLevelMenu.TestCommand.MenuItemCallback()". This indicates that the new command works.  
   
 ## See Also  
- [Commands, Menus, and Toolbars](../Topic/Commands,%20Menus,%20and%20Toolbars.md)
+ [Commands, Menus, and Toolbars](../extensibility/internals/commands-menus-and-toolbars.md)

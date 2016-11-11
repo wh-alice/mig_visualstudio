@@ -1,7 +1,7 @@
 ---
-title: "IDebugQueryEngine2"
+title: "IDebugQueryEngine2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,14 +45,14 @@ IDebugQueryEngine2 : IUnknown
  The DE implements this interface on the objects that implement the most common DE interfaces (such as [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md), [IDebugThread2](../../../extensibility/debugger/reference/idebugthread2.md), and [IDebugStackFrame2](../../../extensibility/debugger/reference/idebugstackframe2.md)) in order to allow access to the [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md) interface of the DE itself.  
   
 ## Notes for Callers  
- Call [QueryInterface](../Topic/QueryInterface.md) on a typical DE interface to obtain this interface.  
+ Call [QueryInterface](/visual-cpp/atl/queryinterface) on a typical DE interface to obtain this interface.  
   
 ## Methods in Vtable Order  
  The following table shows the methods of `IDebugQueryEngine2`.  
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetEngineInterface](../../../extensibility/debugger/reference/idebugqueryengine2--getengineinterface.md)|Gets a custom debug engine (DE) interface.|  
+|[GetEngineInterface](../../../extensibility/debugger/reference/idebugqueryengine2-getengineinterface.md)|Gets a custom debug engine (DE) interface.|  
   
 ## Remarks  
  This interface is typically implemented in the object that implements the [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) interface in order to support causality-ordered stepping through functions; that is, when the debugger is stepping out of a function, the next function to execute may not be the previous function on the stack but a function in another thread altogether. For a definition of "causality," see the [Visual Studio Debugger Glossary](../../../extensibility/debugger/reference/visual-studio-debugger-glossary.md).  

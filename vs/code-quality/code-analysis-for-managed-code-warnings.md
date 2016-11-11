@@ -1,7 +1,7 @@
 ---
-title: "Code Analysis for Managed Code Warnings"
+title: "Code Analysis for Managed Code Warnings | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,8 +18,9 @@ helpviewer_keywords:
   - "code analysis,managed code"
 ms.assetid: 3c2741ff-0d3a-42e6-acd5-d42310bd03c4
 caps.latest.revision: 20
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

@@ -1,7 +1,7 @@
 ---
-title: "CLS Compliance Warning CLS03603"
+title: "CLS Compliance Warning CLS03603 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CLS03603"
 ms.assetid: 8bd74395-6b44-427d-8fe0-648dd946e6d2
 caps.latest.revision: 8
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

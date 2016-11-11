@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Fatal Error RC1013"
+title: "Resource Compiler Fatal Error RC1013 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC1013"
 ms.assetid: d2c02dc5-4f97-4d6f-a3ec-da7c59fed867
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

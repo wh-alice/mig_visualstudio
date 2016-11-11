@@ -1,7 +1,7 @@
 ---
-title: "Add custom properties to layer diagrams"
+title: "Add custom properties to layer diagrams | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ helpviewer_keywords:
   - "layer diagrams, adding custom properties"
 ms.assetid: 52b3ac25-d10b-4507-a1fe-209ccb4d2777
 caps.latest.revision: 21
+author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
 translation.priority.ht: 

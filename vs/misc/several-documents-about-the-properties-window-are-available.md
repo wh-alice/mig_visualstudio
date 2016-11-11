@@ -1,7 +1,7 @@
 ---
-title: "Several Documents About the Properties Window Are Available"
+title: "Several Documents About the Properties Window Are Available | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ f1_keywords:
   - "vs.properties"
 ms.assetid: 403bb58f-395a-45db-a7d6-07480d17914c
 caps.latest.revision: 8
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

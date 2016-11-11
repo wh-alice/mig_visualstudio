@@ -1,7 +1,7 @@
 ---
-title: "Warning Task"
+title: "Warning Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "MSBuild, Warning task"
 ms.assetid: 96ba5507-8b43-4f54-a1d7-9b15644dd56c
 caps.latest.revision: 18
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
-title: "Designing DataTables"
+title: "Designing DataTables | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,6 +22,7 @@ helpviewer_keywords:
   - "DataTable objects"
 ms.assetid: 17014125-ab28-45ec-8789-01b6fc9a8e6a
 caps.latest.revision: 14
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 robots: noindex,nofollow
@@ -49,13 +50,13 @@ translation.priority.ht:
 >  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
 ## In This Section  
- [How to: Create Data Tables](../data-tools/how-to--create-data-tables.md)  
+ [How to: Create Data Tables](../data-tools/how-to-create-data-tables.md)  
  Provides the steps to create a new <xref:System.Data.DataTable> with the **Dataset Designer**.  
   
  [How to: Add Columns to a DataTable](../Topic/How%20to:%20Add%20Columns%20to%20a%20DataTable.md)  
  Provides the steps to create a new <xref:System.Data.DataColumn> in an existing <xref:System.Data.DataTable>.  
   
- [Walkthrough: Creating a DataTable in the Dataset Designer](../data-tools/walkthrough--creating-a-datatable-in-the-dataset-designer.md)  
+ [Walkthrough: Creating a DataTable in the Dataset Designer](../data-tools/walkthrough-creating-a-datatable-in-the-dataset-designer.md)  
  Provides step-by-step instructions for creating a <xref:System.Data.DataTable> and defining the <xref:System.Data.DataColumn>s that make up its structure.  
   
 ## Reference  

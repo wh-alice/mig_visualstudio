@@ -1,7 +1,7 @@
 ---
-title: "Projects"
+title: "Projects | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -47,12 +47,12 @@ In Visual Studio, projects are the containers that developers use to organize so
  [Web Projects](../../extensibility/internals/web-projects.md)  
  Explains Web project, which in turn create Web applications.  
   
- [New Project Generation: Under the Hood, Part One](../../extensibility/internals/new-project-generation--under-the-hood--part-one.md) and [New Project Generation: Under the Hood, Part Two](../../extensibility/internals/new-project-generation--under-the-hood--part-two.md)  
+ [New Project Generation: Under the Hood, Part One](../../extensibility/internals/new-project-generation-under-the-hood-part-one.md) and [New Project Generation: Under the Hood, Part Two](../../extensibility/internals/new-project-generation-under-the-hood-part-two.md)  
  Explains what actually occurs when you create a new project.  
   
  [VSSDK Samples](../../misc/vssdk-samples.md)  
  Describes the samples in the VSSDK that deal with projects and solutions.  
   
 ## Related Sections  
- [Inside the Visual Studio SDK](../Topic/Inside%20the%20Visual%20Studio%20SDK.md)  
+ [Inside the Visual Studio SDK](../../extensibility/internals/inside-the-visual-studio-sdk.md)  
  Explain different aspects of Visual Studio extensibility.

@@ -1,7 +1,7 @@
 ---
-title: "Unable to Open Linked File"
+title: "Unable to Open Linked File | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ f1_keywords:
   - "vs.tasklisterror.missinglinkfile"
 ms.assetid: 3757cbf1-157f-4e08-a660-c0fb8c94c9bd
 caps.latest.revision: 6
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

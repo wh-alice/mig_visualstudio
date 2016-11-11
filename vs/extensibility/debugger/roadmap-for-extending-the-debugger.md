@@ -1,7 +1,7 @@
 ---
-title: "Roadmap for Extending the Debugger"
+title: "Roadmap for Extending the Debugger | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -42,7 +42,7 @@ This documentation provides guide and reference information for extending the [!
   
 -   Produces Microsoft intermediate language (MSIL) output, you can debug programs with the managed code debug engine DE, which is also integrated into [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. Thus, you need only implement an expression evaluator. A sample expression evaluator is provided for you. For more information, see the following topics:  
   
-     [Expression Evaluation](../../extensibility/debugger/expression-evaluation--visual-studio-debugging-sdk-.md)  
+     [Expression Evaluation](../../extensibility/debugger/expression-evaluation-visual-studio-debugging-sdk.md)  
   
      [Evaluating Expressions](../../extensibility/debugger/evaluating-expressions.md)  
   

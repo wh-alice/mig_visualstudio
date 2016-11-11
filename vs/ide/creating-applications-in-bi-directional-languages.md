@@ -1,7 +1,7 @@
 ---
-title: "Creating Applications in Bi-directional Languages"
+title: "Creating Applications in Bi-directional Languages | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Arabic language, creating applications"
 ms.assetid: b56f9795-ed8d-4452-9d49-8ca0b0145d86
 caps.latest.revision: 10
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -53,7 +54,7 @@ You can use Visual Studio to create applications that correctly display text in 
   
 -   **Object names** You can use bi-directional languages to assign names to solutions, projects, files, folders, and so on. In code, you can use bi-directional languages for the names of variables, classes, object, attributes, metadata, and other elements.  
   
--   **File encoding** You can save and open files with a language-specific or Unicode encoding. For more information, see [How to: Save and Open Files with Encoding](../ide/how-to--save-and-open-files-with-encoding.md).  
+-   **File encoding** You can save and open files with a language-specific or Unicode encoding. For more information, see [How to: Save and Open Files with Encoding](../ide/how-to-save-and-open-files-with-encoding.md).  
   
 ## Features with Limited or No Support  
  Other features common to bi-directional language applications are not fully supported in Visual Studio, or in some cases, not at all. These include:  

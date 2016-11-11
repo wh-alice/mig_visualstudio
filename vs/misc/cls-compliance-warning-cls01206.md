@@ -1,7 +1,7 @@
 ---
-title: "CLS Compliance Warning CLS01206"
+title: "CLS Compliance Warning CLS01206 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CLS01206"
 ms.assetid: e72f2293-874b-406c-9f22-92aeb64ac732
 caps.latest.revision: 10
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

@@ -1,5 +1,5 @@
 ---
-title: "Parameter cannot have the same name as its defining function"
+title: "Parameter cannot have the same name as its defining function | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "BC30530"
 ms.assetid: 8d3129c7-88c7-4f56-848f-1f867007a7ec
 caps.latest.revision: 8
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 

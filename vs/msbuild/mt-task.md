@@ -1,7 +1,7 @@
 ---
-title: "MT Task"
+title: "MT Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -27,6 +27,7 @@ helpviewer_keywords:
   - "MT task (MSBuild (Visual C++))"
 ms.assetid: bb94913c-1042-4968-9f08-b394518e899f
 caps.latest.revision: 6
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

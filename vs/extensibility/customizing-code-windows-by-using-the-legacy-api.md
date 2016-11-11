@@ -1,7 +1,7 @@
 ---
-title: "Customizing Code Windows by Using the Legacy API"
+title: "Customizing Code Windows by Using the Legacy API | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -40,16 +40,16 @@ A code window is a document window object that supports one or more text views. 
  ![CodeWindow graphic](../extensibility/media/vscodewindow.gif "vscodewindow")  
 Code window  
   
- The language service implements the code window manager and is responsible for managing adornments, such as a drop-down bar. The code window calls the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindowManager.AddAdornments*> method during code window initialization. When this call is made, the language service can add a drop-down bar or a button bar (<xref:Microsoft.VisualStudio.TextManager.Interop.IVsButtonBarClient>) to the code window.  
+ The language service implements the code window manager and is responsible for managing adornments, such as a drop-down bar. The code window calls the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindowManager.AddAdornments%2A> method during code window initialization. When this call is made, the language service can add a drop-down bar or a button bar (<xref:Microsoft.VisualStudio.TextManager.Interop.IVsButtonBarClient>) to the code window.  
   
 ## In This Section  
  `Customizing Code Windows by Using the Legacy API`  
  Explains how to customize code windows using the legacy API.  
   
- [How to: Host An Editor in Another Editor](../extensibility/how-to--host-an-editor-in-another-editor.md)  
+ [How to: Host An Editor in Another Editor](../extensibility/how-to-host-an-editor-in-another-editor.md)  
  Explains how to host a second editor inside an editor window.  
   
- [How to: Fire Events When the Editor Loses Focus](../extensibility/how-to--fire-events-when-the-editor-loses-focus.md)  
+ [How to: Fire Events When the Editor Loses Focus](../extensibility/how-to-fire-events-when-the-editor-loses-focus.md)  
  Explains how to attach a document view to a document data object.  
   
 ## See Also  

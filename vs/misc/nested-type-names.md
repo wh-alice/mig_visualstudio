@@ -1,7 +1,7 @@
 ---
-title: "Nested Type Names"
+title: "Nested Type Names | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -24,6 +24,7 @@ helpviewer_keywords:
   - "anonymous class types"
 ms.assetid: 8faafeaf-797a-48f9-a546-c61e05b12b15
 caps.latest.revision: 6
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 

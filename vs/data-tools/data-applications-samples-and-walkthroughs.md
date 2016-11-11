@@ -1,5 +1,5 @@
 ---
-title: "Data Applications Samples and Walkthroughs"
+title: "Data Applications Samples and Walkthroughs | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/19/2016"
 ms.prod: "visual-studio-dev14"
@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "data, samples and walkthroughs"
 ms.assetid: 4a11401c-69b8-44e1-a01b-e0cef3223df4
 caps.latest.revision: 4
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 robots: noindex,nofollow

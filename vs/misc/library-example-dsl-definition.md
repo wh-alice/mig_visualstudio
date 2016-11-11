@@ -1,7 +1,7 @@
 ---
-title: "Library Example Dsl Definition"
+title: "Library Example Dsl Definition | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, Library sample"
 ms.assetid: 2e33ba7f-2cae-464c-8e91-e13d97427da0
 caps.latest.revision: 24
+author: "alancameronwills"
 ms.author: "awills"
 manager: "kamrani"
 translation.priority.ht: 

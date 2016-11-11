@@ -1,7 +1,7 @@
 ---
-title: "IDiaInjectedSource"
+title: "IDiaInjectedSource | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "IDiaInjectedSource interface"
 ms.assetid: 75192c5c-812d-4675-9dc5-4c2cff3ba503
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -47,19 +48,19 @@ IDiaInjectedSource : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[IDiaInjectedSource::get_crc](../../debugger/debug-interface-access/idiainjectedsource--get_crc.md)|Retrieves a cyclic redundancy check (CRC) calculated from the bytes of the source code.|  
-|[IDiaInjectedSource::get_length](../../debugger/debug-interface-access/idiainjectedsource--get_length.md)|Retrieves the number of bytes of code.|  
-|[IDiaInjectedSource::get_filename](../../debugger/debug-interface-access/idiainjectedsource--get_filename.md)|Retrieves the file name for the source.|  
-|[IDiaInjectedSource::get_objectFilename](../../debugger/debug-interface-access/idiainjectedsource--get_objectfilename.md)|Retrieves the object file name to which the source was compiled.|  
-|[IDiaInjectedSource::get_virtualFilename](../../debugger/debug-interface-access/idiainjectedsource--get_virtualfilename.md)|Retrieves the name given to non-file source code; that is, code that was injected.|  
-|[IDiaInjectedSource::get_sourceCompression](../../debugger/debug-interface-access/idiainjectedsource--get_sourcecompression.md)|Retrieves the indicator of the source compression used.|  
-|[IDiaInjectedSource::get_source](../../debugger/debug-interface-access/idiainjectedsource--get_source.md)|Retrieves the source code bytes.|  
+|[IDiaInjectedSource::get_crc](../../debugger/debug-interface-access/idiainjectedsource-get-crc.md)|Retrieves a cyclic redundancy check (CRC) calculated from the bytes of the source code.|  
+|[IDiaInjectedSource::get_length](../../debugger/debug-interface-access/idiainjectedsource-get-length.md)|Retrieves the number of bytes of code.|  
+|[IDiaInjectedSource::get_filename](../../debugger/debug-interface-access/idiainjectedsource-get-filename.md)|Retrieves the file name for the source.|  
+|[IDiaInjectedSource::get_objectFilename](../../debugger/debug-interface-access/idiainjectedsource-get-objectfilename.md)|Retrieves the object file name to which the source was compiled.|  
+|[IDiaInjectedSource::get_virtualFilename](../../debugger/debug-interface-access/idiainjectedsource-get-virtualfilename.md)|Retrieves the name given to non-file source code; that is, code that was injected.|  
+|[IDiaInjectedSource::get_sourceCompression](../../debugger/debug-interface-access/idiainjectedsource-get-sourcecompression.md)|Retrieves the indicator of the source compression used.|  
+|[IDiaInjectedSource::get_source](../../debugger/debug-interface-access/idiainjectedsource-get-source.md)|Retrieves the source code bytes.|  
   
 ## Remarks  
  Injected source is text that is injected during compilation. This does not mean the preprocessor `#include` used in C++.  
   
 ## Notes for Callers  
- Obtain this interface by calling the [IDiaEnumInjectedSources::Item](../../debugger/debug-interface-access/idiaenuminjectedsources--item.md) or [IDiaEnumInjectedSources::Next](../../debugger/debug-interface-access/idiaenuminjectedsources--next.md) methods. See the [IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md) interface for an example of obtaining the `IDiaInjectedSource` interface.  
+ Obtain this interface by calling the [IDiaEnumInjectedSources::Item](../../debugger/debug-interface-access/idiaenuminjectedsources-item.md) or [IDiaEnumInjectedSources::Next](../../debugger/debug-interface-access/idiaenuminjectedsources-next.md) methods. See the [IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md) interface for an example of obtaining the `IDiaInjectedSource` interface.  
   
 ## Example  
  This example displays the data available from the `IDiaInjectedSource` interface. For an alternative approach using the [IDiaPropertyStorage](../../debugger/debug-interface-access/idiapropertystorage.md) interface, see the example in the [IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md) interface.  
@@ -134,7 +135,7 @@ void PrintInjectedSource(IDiaInjectedSource* pSource)
  DLL: msdia80.dll  
   
 ## See Also  
- [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces--debug-interface-access-sdk-.md)   
- [IDiaEnumInjectedSources::Item](../../debugger/debug-interface-access/idiaenuminjectedsources--item.md)   
- [IDiaEnumInjectedSources::Next](../../debugger/debug-interface-access/idiaenuminjectedsources--next.md)   
+ [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)   
+ [IDiaEnumInjectedSources::Item](../../debugger/debug-interface-access/idiaenuminjectedsources-item.md)   
+ [IDiaEnumInjectedSources::Next](../../debugger/debug-interface-access/idiaenuminjectedsources-next.md)   
  [IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md)

@@ -1,7 +1,7 @@
 ---
-title: "Restrictions on Overloaded Functions"
+title: "Restrictions on Overloaded Functions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "function overloading, restrictions"
 ms.assetid: afc5f987-675a-4311-9b42-881555940de7
 caps.latest.revision: 6
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -37,4 +38,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Restrictions on Overloaded Functions
-This content has moved to [Function Overloading](../Topic/Function%20Overloading.md)
+This content has moved to [Function Overloading](/visual-cpp/cpp/function-overloading)

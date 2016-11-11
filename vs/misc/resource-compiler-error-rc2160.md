@@ -1,7 +1,7 @@
 ---
-title: "Resource Compiler Error RC2160"
+title: "Resource Compiler Error RC2160 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "RC2160"
 ms.assetid: 001aa713-b2ca-4e56-b12f-15a8789aea7c
 caps.latest.revision: 6
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

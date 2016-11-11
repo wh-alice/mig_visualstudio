@@ -1,7 +1,7 @@
 ---
-title: "API Reference for IntelliTrace Extensibility"
+title: "API Reference for IntelliTrace Extensibility | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "IntelliTrace, API reference"
 ms.assetid: 46e6c648-293b-45c2-a29e-cca9c36cd865
 caps.latest.revision: 7
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

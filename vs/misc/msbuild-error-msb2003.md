@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB2003"
+title: "MSBuild Error MSB2003 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB2003"
 ms.assetid: 2686117d-acc6-4222-93cd-2354cd3e1134
 caps.latest.revision: 14
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

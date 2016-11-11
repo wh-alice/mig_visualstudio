@@ -1,7 +1,7 @@
 ---
-title: "Providing Automation for VSPackages"
+title: "Providing Automation for VSPackages | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -46,7 +46,7 @@ There are two main ways to provide automation for your VSPackages: by implementi
  The event architecture of the environment offers another place for you to append your own VSPackage-specific objects. For example, by creating your own unique event objects, you can extend the environment's event model for projects. You might want to provide your own events when a new item is added to your own project type. For more information, see [Exposing Events](../../extensibility/internals/exposing-events-in-the-visual-studio-sdk.md).  
   
 #### Window Objects  
- Windows can pass back a VSPackage-specific automation object back to the environment when called. You implement an object that is derived from <xref:Microsoft.VisualStudio.Shell.Interop.IVsExtensibleObject>, <xref:EnvDTE.IExtensibleObject> or `IDispatch` that hands back properties, extending the window object in which it is sited. For example, you can use this approach to provide automation for a control sited in a window frame. The semantics of this object and any other objects that it might extend are yours to design. For more information, see [How to: Provide Automation for Windows](../../extensibility/internals/how-to--provide-automation-for-windows.md).  
+ Windows can pass back a VSPackage-specific automation object back to the environment when called. You implement an object that is derived from <xref:Microsoft.VisualStudio.Shell.Interop.IVsExtensibleObject>, <xref:EnvDTE.IExtensibleObject> or `IDispatch` that hands back properties, extending the window object in which it is sited. For example, you can use this approach to provide automation for a control sited in a window frame. The semantics of this object and any other objects that it might extend are yours to design. For more information, see [How to: Provide Automation for Windows](../../extensibility/internals/how-to-provide-automation-for-windows.md).  
   
 #### Options pages on the Tools menu  
  You can create pages to extend the Tools, Options automation model through implementing pages and adding information to the registry to create your own options. Your pages can then be called through the environment object model like any other options pages. If the design of the feature you are adding to the environment through VSPackages requires options pages, then you should add the automation support as well. For more information, see [Automation Support for Options Pages](../../extensibility/internals/automation-support-for-options-pages.md).  

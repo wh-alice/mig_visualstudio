@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Reference"
+title: "MSBuild Reference | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/24/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "MSBuild, reference"
 ms.assetid: 093395e1-70da-4f74-b34d-046c5e2b32e8
 caps.latest.revision: 22
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -63,7 +64,7 @@ translation.priority.ht:
  [Command-Line Reference](../msbuild/msbuild-command-line-reference.md)  
  Describes the arguments and switches that can be used with [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)].exe.  
   
- [.Targets Files](../msbuild/msbuild-.targets-files.md)  
+ [.Targets Files](../msbuild/msbuild-dot-targets-files.md)  
  Describes the .Targets file that is included in [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)].  
   
  [Well-known Item Metadata](../msbuild/msbuild-well-known-item-metadata.md)  

@@ -1,5 +1,5 @@
 ---
-title: "Attributes cannot be applied to local variables"
+title: "Attributes cannot be applied to local variables | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "BC30660"
 ms.assetid: f3af1843-bb80-4b6b-980a-5a233f9b1e33
 caps.latest.revision: 8
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 

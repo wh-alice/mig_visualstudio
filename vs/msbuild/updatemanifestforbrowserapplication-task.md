@@ -1,7 +1,7 @@
 ---
-title: "UpdateManifestForBrowserApplication Task"
+title: "UpdateManifestForBrowserApplication Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "UpdateManifestForBrowserApplication task [WPF MSBuild], parameters"
 ms.assetid: 653339f7-654b-4d64-a26a-5c9f27036895
 caps.latest.revision: 8
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -67,7 +68,7 @@ The <xref:Microsoft.Build.Tasks.Windows.UpdateManifestForBrowserApplication> tas
 />  
 ```  
   
- The <xref:Microsoft.Build.Tasks.Windows.UpdateManifestForBrowserApplication> task is run when an [!INCLUDE[TLA2#tla_xbap](../Token/TLA2%23tla_xbap_md.md)] project is built in order to add the `<hostInBrowser />` element.  
+ The <xref:Microsoft.Build.Tasks.Windows.UpdateManifestForBrowserApplication> task is run when an [!INCLUDE[TLA2#tla_xbap](../msbuild/includes/tla2sharptla_xbap_md.md)] project is built in order to add the `<hostInBrowser />` element.  
   
 ## Example  
  The following example shows how to ensure that the `<hostInBrowser />` element is included in an application manifest file.  

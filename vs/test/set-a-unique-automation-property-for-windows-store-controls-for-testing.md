@@ -1,7 +1,7 @@
 ---
-title: "Set a Unique Automation Property for Windows Store Controls for Testing"
+title: "Set a Unique Automation Property for Windows Store Controls for Testing | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -214,4 +214,4 @@ private void CreateCheckBox(string txt, StackPanel panel)
 ```  
   
 ## See Also  
- [Test Windows Store 8.1 Apps with Coded UI Tests](../test/test-windows-store-8.1-apps-with-coded-ui-tests.md)
+ [Test Windows Store 8.1 Apps with Coded UI Tests](../test/test-windows-store-8-1-apps-with-coded-ui-tests.md)

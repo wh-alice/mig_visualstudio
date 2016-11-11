@@ -1,7 +1,7 @@
 ---
-title: "IDebugProviderProgramNode2"
+title: "IDebugProviderProgramNode2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -45,14 +45,14 @@ IDebugProviderProgramNode2 : IUnknown
  The debug engine (DE) implements this interface on the same object that implements [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) to support marshaling interfaces across process boundaries.  
   
 ## Notes for Callers  
- Call [QueryInterface](../Topic/QueryInterface.md) on an `IDebugProgramNode2` interface to obtain this interface. If this interface cannot be obtained, the DE does not support marshaling of interfaces.  
+ Call [QueryInterface](/visual-cpp/atl/queryinterface) on an `IDebugProgramNode2` interface to obtain this interface. If this interface cannot be obtained, the DE does not support marshaling of interfaces.  
   
 ## Methods in Vtable order  
  This interface implements the following method:  
   
 |Method|Description|  
 |------------|-----------------|  
-|[UnmarshalDebuggeeInterface](../../../extensibility/debugger/reference/idebugproviderprogramnode2--unmarshaldebuggeeinterface.md)|Gets a specified interface across process boundaries.|  
+|[UnmarshalDebuggeeInterface](../../../extensibility/debugger/reference/idebugproviderprogramnode2-unmarshaldebuggeeinterface.md)|Gets a specified interface across process boundaries.|  
   
 ## Remarks  
  This interface is implemented when the DE runs in a separate process space from the program being debugged: for example, when the DE is running in the Visual Studio process space instead of the process space of the program being debugged.  

@@ -1,7 +1,7 @@
 ---
-title: "Neutral Resources Languages for Localization"
+title: "Neutral Resources Languages for Localization | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "neutral resources"
 ms.assetid: ef064995-3b84-4698-a708-9689b7723533
 caps.latest.revision: 8
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -53,7 +54,7 @@ The <xref:System.Resources.NeutralResourcesLanguageAttribute> class specifies th
   
 ## See Also  
  <xref:System.Resources.ResourceManager>   
- [Introduction to International Applications Based on the .NET Framework](../ide/introduction-to-international-applications-based-on-the-.net-framework.md)   
+ [Introduction to International Applications Based on the .NET Framework](../ide/introduction-to-international-applications-based-on-the-dotnet-framework.md)   
  [Hierarchical Organization of Resources for Localization](../ide/hierarchical-organization-of-resources-for-localization.md)   
  [Localizing Applications](../ide/localizing-applications.md)   
  [Globalizing and Localizing Applications](../ide/globalizing-and-localizing-applications.md)

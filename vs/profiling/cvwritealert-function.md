@@ -1,7 +1,7 @@
 ---
-title: "CvWriteAlert Function"
+title: "CvWriteAlert Function | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "CvWriteAlertW method"
 ms.assetid: 937aa9d6-278a-4df3-bef7-151441df16d5
 caps.latest.revision: 4
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -89,4 +90,4 @@ HRESULT CvWriteAlertVA(
  **ANSI:** CvWriteAlertA, CvWriteAlertVA  
   
 ## See Also  
- [C++ Library Reference](../profiling/c---library-reference.md)
+ [C++ Library Reference](../profiling/cpp-library-reference.md)

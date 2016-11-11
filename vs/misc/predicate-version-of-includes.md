@@ -1,7 +1,7 @@
 ---
-title: "Predicate Version of includes"
+title: "Predicate Version of includes | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "includes method"
 ms.assetid: c6a557fc-3ef2-4143-ba58-cb6a7e680fb6
 caps.latest.revision: 7
+author: "ghogen"
 ms.author: "ghogen"
 manager: "douge"
 translation.priority.mt: 

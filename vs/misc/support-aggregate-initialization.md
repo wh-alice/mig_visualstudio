@@ -1,7 +1,7 @@
 ---
-title: "Support Aggregate Initialization"
+title: "Support Aggregate Initialization | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ dev_langs:
   - "C++"
 ms.assetid: 31863e2b-3e54-49f4-9bb4-8ef11888d1b8
 caps.latest.revision: 6
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -31,4 +32,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Support Aggregate Initialization
-This content has been removed. For information about initialization, see [Initializers](../Topic/Initializers.md).
+This content has been removed. For information about initialization, see [Initializers](/visual-cpp/cpp/initializers).

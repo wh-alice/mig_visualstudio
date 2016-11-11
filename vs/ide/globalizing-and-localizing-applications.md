@@ -1,7 +1,7 @@
 ---
-title: "Globalizing and Localizing Applications"
+title: "Globalizing and Localizing Applications | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "international applications [Visual Studio]"
 ms.assetid: 4d9815ae-3e80-4b4d-933d-f8309aee18d5
 caps.latest.revision: 18
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -41,7 +42,7 @@ If you plan on distributing your application to an international audience, you'l
  Visual Studio was designed from the start to make developing for an international audience easy by taking advantage of services built into the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]. The following pages will help introduce you to the internationalization features built into Visual Studio.  
   
 ## In This Section  
- [Introduction to International Applications Based on the .NET Framework](../ide/introduction-to-international-applications-based-on-the-.net-framework.md)  
+ [Introduction to International Applications Based on the .NET Framework](../ide/introduction-to-international-applications-based-on-the-dotnet-framework.md)  
  Introduces the concepts related to developing software for an international market using Visual Studio and the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)].  
   
  [Localizing Applications](../ide/localizing-applications.md)  

@@ -1,7 +1,7 @@
 ---
-title: "List Modules Command"
+title: "List Modules Command | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "list modules command"
 ms.assetid: 3cb73774-6ac0-43b2-b781-75ed47175bfd
 caps.latest.revision: 6
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -85,4 +86,4 @@ Debug.ListModules /Address:yes /Name:yes /Order:no /Path:no /Process:no /SymbolF
 ## See Also  
  [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)   
  [Command Window](../../ide/reference/command-window.md)   
- [How to: Use the Modules Window](../../debugger/how-to--use-the-modules-window.md)
+ [How to: Use the Modules Window](../../debugger/how-to-use-the-modules-window.md)

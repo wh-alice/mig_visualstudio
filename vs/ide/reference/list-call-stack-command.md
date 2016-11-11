@@ -1,7 +1,7 @@
 ---
-title: "List Call Stack Command"
+title: "List Call Stack Command | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "Debug.ListCallStack command"
 ms.assetid: a8b20bf2-81d2-4069-aea8-23e6b15b4347
 caps.latest.revision: 12
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

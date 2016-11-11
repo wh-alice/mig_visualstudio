@@ -1,7 +1,7 @@
 ---
-title: "Understanding Build Configurations"
+title: "Understanding Build Configurations | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -28,6 +28,7 @@ helpviewer_keywords:
   - "solutions [Visual Studio], build configuration"
 ms.assetid: 934c727d-3a22-429c-bd13-3552cecf2e24
 caps.latest.revision: 21
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -49,9 +50,9 @@ translation.priority.ht:
 You can store different configurations of solution and project properties to use in different kinds of builds. To create, select, modify, or delete a configuration, you can use the **Configuration Manager**. To open it, on the menu bar, choose **Build**, **Configuration Manager**, or just type **Configuration** in the **Quick Launch** box. You can also use the **Solution Configurations** list on the **Standard** toolbar to select a configuration or open the **Configuration Manager**.  
   
 > [!NOTE]
->  If you can't find solution configuration settings on the toolbar and can't access the **Configuration Manager**, [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] development settings may be applied. For more information, see [How to: Manage Configurations with Visual Basic Developer Settings Applied](../ide/eaea6e0b-6c61-4869-8d63-d372c745a23c.md).  
+>  If you can't find solution configuration settings on the toolbar and can't access the **Configuration Manager**, [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] development settings may be applied. For more information, see [How to: Manage Configurations with Visual Basic Developer Settings Applied](../ide/how-to-manage-build-configurations-with-visual-basic-developer-settings-applied.md).  
   
- By default, Debug and Release configurations are included in projects that are created by using [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] templates. A Debug configuration supports the debugging of an app, and a Release configuration builds a version of the app that can be deployed. For more information, see [How to: Set Debug and Release Configurations](../debugger/how-to--set-debug-and-release-configurations.md). You can also create custom solution configurations and project configurations. For more information, see [How to: Create and Edit Configurations](../ide/how-to--create-and-edit-configurations.md).  
+ By default, Debug and Release configurations are included in projects that are created by using [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] templates. A Debug configuration supports the debugging of an app, and a Release configuration builds a version of the app that can be deployed. For more information, see [How to: Set Debug and Release Configurations](../debugger/how-to-set-debug-and-release-configurations.md). You can also create custom solution configurations and project configurations. For more information, see [How to: Create and Edit Configurations](../ide/how-to-create-and-edit-configurations.md).  
   
 ## Solution Configurations  
  A solution configuration specifies how projects in the solution are to be built and deployed. To modify a solution configuration or define a new one, in the **Configuration Manager**, under **Active solution configuration**, choose **Edit** or **New**.  
@@ -95,8 +96,8 @@ You can store different configurations of solution and project properties to use
 -   If a project supports multiple platforms, a solution configuration is either found or added for each supported platform. The name of each solution configuration includes both the project configuration name and the platform name, and has the form *\<project configuration name> \<platform name>*.  
   
 ## See Also  
- [Walkthrough: Building an Application](../ide/walkthrough--building-an-application.md)   
+ [Walkthrough: Building an Application](../ide/walkthrough-building-an-application.md)   
  [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)   
  [Solutions and Projects](../ide/solutions-and-projects-in-visual-studio.md)   
- [C/C++ Building Reference](../Topic/C-C++%20Building%20Reference.md)   
+ [C/C++ Building Reference](/visual-cpp/build/reference/c-cpp-building-reference)   
  [Devenv Command Line Switches](../ide/reference/devenv-command-line-switches.md)

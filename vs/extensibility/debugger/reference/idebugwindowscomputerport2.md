@@ -1,7 +1,7 @@
 ---
-title: "IDebugWindowsComputerPort2"
+title: "IDebugWindowsComputerPort2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -47,7 +47,7 @@ IDebugWindowsComputerPort2 : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetComputerInfo](../../../extensibility/debugger/reference/idebugwindowscomputerport2--getcomputerinfo.md)|Retrieves information about the computer on which the debugger in running.|  
+|[GetComputerInfo](../../../extensibility/debugger/reference/idebugwindowscomputerport2-getcomputerinfo.md)|Retrieves information about the computer on which the debugger in running.|  
   
 ## Requirements  
  Header: Msdbg.h  

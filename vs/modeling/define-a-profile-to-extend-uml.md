@@ -1,7 +1,7 @@
 ---
-title: "Define a profile to extend UML"
+title: "Define a profile to extend UML | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "UML, profiles"
 ms.assetid: 776589cb-f89d-48d5-aafa-04a4c074b0d6
 caps.latest.revision: 42
+author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
 translation.priority.ht: 

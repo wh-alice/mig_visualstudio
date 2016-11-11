@@ -1,7 +1,7 @@
 ---
-title: "Save data with the TableAdapter DBDirect methods"
+title: "Save data with the TableAdapter DBDirect methods | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "data [Visual Studio], TableAdapter"
 ms.assetid: 74a6773b-37e1-4d96-a39c-63ee0abf49b1
 caps.latest.revision: 14
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 translation.priority.ht: 
@@ -55,7 +56,7 @@ This walkthrough provides detailed instructions for running SQL statements direc
 ## Prerequisites  
  In order to complete this walkthrough, you will need:  
   
--   Access to the Northwind sample database. For more information, see [How to: Install Sample Databases](../data-tools/how-to--install-sample-databases.md).  
+-   Access to the Northwind sample database. For more information, see [How to: Install Sample Databases](../data-tools/how-to-install-sample-databases.md).  
   
 ## Create a Windows application  
  The first step is to create a **Windows Application**.  
@@ -71,7 +72,7 @@ This walkthrough provides detailed instructions for running SQL statements direc
      The **TableAdapterDbDirectMethodsWalkthrough** project is created and added to **Solution Explorer**.  
   
 ## Create a data source from your database  
- This step uses the **Data Source Configuration Wizard** to create a data source based on the `Region` table in the Northwind sample database. You must have access to the Northwind sample database to create the connection. For information about setting up the Northwind sample database, see [How to: Install Sample Databases](../data-tools/how-to--install-sample-databases.md).  
+ This step uses the **Data Source Configuration Wizard** to create a data source based on the `Region` table in the Northwind sample database. You must have access to the Northwind sample database to create the connection. For information about setting up the Northwind sample database, see [How to: Install Sample Databases](../data-tools/how-to-install-sample-databases.md).  
   
 #### To create the data source  
   
@@ -164,7 +165,7 @@ This walkthrough provides detailed instructions for running SQL statements direc
   
 -   Adding search functionality to the form. For more information, see [How to: Add a Parameterized Query to a Windows Forms Application](../Topic/How%20to:%20Add%20a%20Parameterized%20Query%20to%20a%20Windows%20Forms%20Application.md).  
   
--   Adding additional tables to the dataset by selecting **Configure DataSet with Wizard** from within the **Data Sources** window. You can add controls that display related data by dragging the related nodes onto the form. For more information, see [How to: Display Related Data in a Windows Forms Application](../data-tools/how-to--display-related-data-in-a-windows-forms-application.md).  
+-   Adding additional tables to the dataset by selecting **Configure DataSet with Wizard** from within the **Data Sources** window. You can add controls that display related data by dragging the related nodes onto the form. For more information, see [How to: Display Related Data in a Windows Forms Application](../data-tools/how-to-display-related-data-in-a-windows-forms-application.md).  
   
 ## See Also  
  [Save data back to the database](../data-tools/save-data-back-to-the-database.md)

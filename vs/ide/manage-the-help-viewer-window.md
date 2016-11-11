@@ -1,7 +1,7 @@
 ---
-title: "Manage the Help Viewer Window"
+title: "Manage the Help Viewer Window | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "Help Viewer 2.0, restoring the default window layout"
 ms.assetid: 98625016-acce-46c9-9b5a-2107d2939a5e
 caps.latest.revision: 7
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

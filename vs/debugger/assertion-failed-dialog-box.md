@@ -1,7 +1,7 @@
 ---
-title: "Assertion Failed Dialog Box"
+title: "Assertion Failed Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -23,6 +23,7 @@ helpviewer_keywords:
   - "Assertion Failed dialog box"
 ms.assetid: 64af5bed-e38b-420f-b9ce-d64f35100aae
 caps.latest.revision: 7
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -50,4 +51,4 @@ An assertion statement specifies a condition that you expect to hold true at som
 |Abort|Halt execution of the program and end the debugging session.|  
   
 ## See Also  
- [C/C++ Assertions](../debugger/c-c---assertions.md)
+ [C/C++ Assertions](../debugger/c-cpp-assertions.md)

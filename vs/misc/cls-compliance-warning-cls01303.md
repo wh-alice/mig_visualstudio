@@ -1,7 +1,7 @@
 ---
-title: "CLS Compliance Warning CLS01303"
+title: "CLS Compliance Warning CLS01303 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CLS01303"
 ms.assetid: a8aa0cda-a2dd-41da-bcc2-53221207ea70
 caps.latest.revision: 7
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
-title: "Separate datasets and TableAdapters into different projects"
+title: "Separate datasets and TableAdapters into different projects | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "n-tier applications, separating Datasets and TableAdapters"
 ms.assetid: f66a3940-6227-46af-a930-9177f425f4fd
 caps.latest.revision: 18
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 translation.priority.ht: 
@@ -76,7 +77,7 @@ Typed datasets have been enhanced so that the [TableAdapters](../Topic/TableAdap
   
 ## See Also  
  [N-Tier Data Applications Overview](../data-tools/n-tier-data-applications-overview.md)   
- [Walkthrough: Creating an N-Tier Data Application](../data-tools/walkthrough--creating-an-n-tier-data-application.md)   
+ [Walkthrough: Creating an N-Tier Data Application](../data-tools/walkthrough-creating-an-n-tier-data-application.md)   
  [Hierarchical update](../data-tools/hierarchical-update.md)   
  [Accessing data in Visual Studio](../data-tools/accessing-data-in-visual-studio.md)   
  [ADO.NET](../Topic/ADO.NET.md)

@@ -1,7 +1,7 @@
 ---
-title: "Code analysis rule set reference"
+title: "Code analysis rule set reference | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,8 +13,9 @@ helpviewer_keywords:
   - "code analysis, rule sets"
 ms.assetid: 5874e854-e298-4d2e-bbe4-95e899d22587
 caps.latest.revision: 43
-ms.author: "douge"
-manager: "douge"
+author: "stevehoag"
+ms.author: "shoag"
+manager: "wpickett"
 translation.priority.ht: 
   - "de-de"
   - "es-es"

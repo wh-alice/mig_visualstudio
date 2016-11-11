@@ -1,5 +1,5 @@
 ---
-title: "Object created by Edit and Continue is not yet available for evaluation"
+title: "Object created by Edit and Continue is not yet available for evaluation | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "BC30958"
 ms.assetid: 9b01c510-2d2c-4890-a98c-36c0c8423949
 caps.latest.revision: 7
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 

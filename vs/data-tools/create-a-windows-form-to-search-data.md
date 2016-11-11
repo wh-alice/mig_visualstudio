@@ -1,7 +1,7 @@
 ---
-title: "Create a Windows Form to search data"
+title: "Create a Windows Form to search data | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -20,6 +20,7 @@ helpviewer_keywords:
   - "data [Visual Studio], searching"
 ms.assetid: 65ca79a9-7458-466c-af55-978cd24c549e
 caps.latest.revision: 28
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 translation.priority.ht: 
@@ -157,7 +158,7 @@ A common application scenario is to display selected data on a form. For example
 ## Next Steps  
  Depending on your application requirements, there are several steps you may want to perform after creating a parameterized form. Some enhancements you could make to this walkthrough include:  
   
--   Adding controls that display related data. For more information, see [How to: Display Related Data in a Windows Forms Application](../data-tools/how-to--display-related-data-in-a-windows-forms-application.md).  
+-   Adding controls that display related data. For more information, see [How to: Display Related Data in a Windows Forms Application](../data-tools/how-to-display-related-data-in-a-windows-forms-application.md).  
   
 -   Editing the dataset to add or remove database objects. For more information, see [Create and configure datasets](../data-tools/create-and-configure-datasets-in-visual-studio.md).  
   

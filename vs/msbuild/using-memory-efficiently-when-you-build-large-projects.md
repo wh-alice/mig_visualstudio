@@ -1,7 +1,7 @@
 ---
-title: "Using Memory Efficiently When You Build Large Projects"
+title: "Using Memory Efficiently When You Build Large Projects | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "caching (MSBuild)"
 ms.assetid: 853a21ed-69f7-4817-af00-57f73e2c74b5
 caps.latest.revision: 11
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

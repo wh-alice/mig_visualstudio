@@ -1,7 +1,7 @@
 ---
-title: "Low Virtual Memory"
+title: "Low Virtual Memory | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: aec803b1-9d76-46bb-8f14-8c63d80112a5
 caps.latest.revision: 13
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

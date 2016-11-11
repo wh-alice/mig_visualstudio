@@ -1,5 +1,5 @@
 ---
-title: "User interrupt occurred"
+title: "User interrupt occurred | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -13,6 +13,7 @@ f1_keywords:
   - "vbrID18"
 ms.assetid: 3a1f1297-f3d9-46db-a956-058a1d272047
 caps.latest.revision: 7
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -39,4 +40,4 @@ A user pressed CTRL+BREAK or another interrupt key.
 -   Retry the operation.  
   
 ## See Also  
- [Error Types](../Topic/Error%20Types%20\(Visual%20Basic\).md)
+ [Error Types](/dotnet/visual-basic/programming-guide/language-features/error-types)

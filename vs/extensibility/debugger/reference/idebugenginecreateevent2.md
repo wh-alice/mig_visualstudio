@@ -1,7 +1,7 @@
 ---
-title: "IDebugEngineCreateEvent2"
+title: "IDebugEngineCreateEvent2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -52,7 +52,7 @@ IDebugEngineCreateEvent2 : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetEngine](../../../extensibility/debugger/reference/idebugenginecreateevent2--getengine.md)|Retrieves the object that represents the newly created debug engine (DE).|  
+|[GetEngine](../../../extensibility/debugger/reference/idebugenginecreateevent2-getengine.md)|Retrieves the object that represents the newly created debug engine (DE).|  
   
 ## Requirements  
  Header: msdbg.h  

@@ -1,7 +1,7 @@
 ---
-title: "Graphics Diagnostics Capture Methods"
+title: "Graphics Diagnostics Capture Methods | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -46,4 +46,4 @@ Insert introduction here.
   
 ## See Also  
  [Capturing Graphics Information](../debugger/capturing-graphics-information.md)   
- [Walkthrough: Capturing Graphics Information](../debugger/walkthrough--capturing-graphics-information.md)
+ [Walkthrough: Capturing Graphics Information](../debugger/walkthrough-capturing-graphics-information.md)

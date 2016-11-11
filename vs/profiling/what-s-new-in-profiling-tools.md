@@ -1,7 +1,7 @@
 ---
-title: "What&#39;s New in Profiling Tools"
+title: "What&#39;s New in Profiling Tools | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "what's new"
 ms.assetid: d4736cc8-8961-4089-be9e-d5190ce8353c
 caps.latest.revision: 42
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

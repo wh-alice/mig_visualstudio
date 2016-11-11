@@ -1,7 +1,7 @@
 ---
-title: "Analyzing Coded UI Tests Using Coded UI Test Logs"
+title: "Analyzing Coded UI Tests Using Coded UI Test Logs | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/14/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -73,7 +73,7 @@ Coded UI test logs filter and record important information about your coded UI t
   
 -   Enable logging from the test code itself  
   
-    -   <xref:Microsoft.VisualStudio.TestTools.UITesting.PlaybackSettings.LoggerOverrideState*> = HtmlLoggerState.AllActionSnapshot;  
+    -   <xref:Microsoft.VisualStudio.TestTools.UITesting.PlaybackSettings.LoggerOverrideState%2A> = HtmlLoggerState.AllActionSnapshot;  
   
 ### Step 2: Run your coded UI test and view the log  
  When you run a coded UI test with the modifications to the **QTAgent32.exe.config** file in place, you will see there is an output link in the Test Explorer results. Log files are produced not only when your test fails, but also for successful tests when the trace level is set to “verbose.”  

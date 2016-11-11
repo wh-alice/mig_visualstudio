@@ -1,7 +1,7 @@
 ---
-title: "Programming Visual Studio Tools for Unity"
+title: "Programming Visual Studio Tools for Unity | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a5758cb0-e73b-45f5-8cae-c0eb40491026
 caps.latest.revision: 3
+author: "ghogen"
 ms.author: "ghogen"
 manager: "ghogen"
 translation.priority.ht: 

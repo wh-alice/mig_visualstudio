@@ -1,7 +1,7 @@
 ---
-title: "CLS Compliance Warning CLS02809"
+title: "CLS Compliance Warning CLS02809 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "CLS02809"
 ms.assetid: a6e7b8e5-1587-437e-9d07-8a32fc5c4842
 caps.latest.revision: 7
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

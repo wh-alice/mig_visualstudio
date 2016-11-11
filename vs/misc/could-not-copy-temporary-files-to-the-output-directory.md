@@ -1,7 +1,7 @@
 ---
-title: "Could not copy temporary files to the output directory"
+title: "Could not copy temporary files to the output directory | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ f1_keywords:
   - "vs.tasklisterror.cannot_copy_to_run_dir"
 ms.assetid: b8b54984-74c9-4b9b-8164-d0d13c141055
 caps.latest.revision: 12
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
-title: "IDebugEngine2"
+title: "IDebugEngine2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -52,19 +52,19 @@ IDebugEngine2 : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[EnumPrograms](../../../extensibility/debugger/reference/idebugengine2--enumprograms.md)|Creates an enumerator for all the programs being debugged by a DE.|  
-|[Attach](../../../extensibility/debugger/reference/idebugengine2--attach.md)|Attaches a DE to a program.|  
-|[CreatePendingBreakpoint](../../../extensibility/debugger/reference/idebugengine2--creatependingbreakpoint.md)|Creates a pending breakpoint in the DE.|  
-|[SetException](../../../extensibility/debugger/reference/idebugengine2--setexception.md)|Specifies how the DE should handle a given exception.|  
-|[RemoveSetException](../../../extensibility/debugger/reference/idebugengine2--removesetexception.md)|Removes the specified exception so it is no longer handled by the debug engine.|  
-|[RemoveAllSetExceptions](../../../extensibility/debugger/reference/idebugengine2--removeallsetexceptions.md)|Removes the list of exceptions the IDE has set for a particular run-time architecture or language.|  
-|[GetEngineID](../../../extensibility/debugger/reference/idebugengine2--getengineid.md)|Gets the GUID of the DE.|  
-|[DestroyProgram](../../../extensibility/debugger/reference/idebugengine2--destroyprogram.md)|Informs a DE that the program specified has been atypically terminated and that the DE should clean up all references to the program and send a program destroy event.|  
-|[ContinueFromSynchronousEvent](../../../extensibility/debugger/reference/idebugengine2--continuefromsynchronousevent.md)|Called by the SDM to indicate that a synchronous debug event, previously sent by the DE to the SDM, was received and processed.|  
-|[SetLocale](../../../extensibility/debugger/reference/idebugengine2--setlocale.md)|Sets the locale of the DE.|  
-|[SetRegistryRoot](../../../extensibility/debugger/reference/idebugengine2--setregistryroot.md)|Sets the registry root currently in use by the DE.|  
-|[SetMetric](../../../extensibility/debugger/reference/idebugengine2--setmetric.md)|Sets a metric.|  
-|[CauseBreak](../../../extensibility/debugger/reference/idebugengine2--causebreak.md)|Requests that all programs being debugged by this DE stop execution the next time one of their threads attempts to run.|  
+|[EnumPrograms](../../../extensibility/debugger/reference/idebugengine2-enumprograms.md)|Creates an enumerator for all the programs being debugged by a DE.|  
+|[Attach](../../../extensibility/debugger/reference/idebugengine2-attach.md)|Attaches a DE to a program.|  
+|[CreatePendingBreakpoint](../../../extensibility/debugger/reference/idebugengine2-creatependingbreakpoint.md)|Creates a pending breakpoint in the DE.|  
+|[SetException](../../../extensibility/debugger/reference/idebugengine2-setexception.md)|Specifies how the DE should handle a given exception.|  
+|[RemoveSetException](../../../extensibility/debugger/reference/idebugengine2-removesetexception.md)|Removes the specified exception so it is no longer handled by the debug engine.|  
+|[RemoveAllSetExceptions](../../../extensibility/debugger/reference/idebugengine2-removeallsetexceptions.md)|Removes the list of exceptions the IDE has set for a particular run-time architecture or language.|  
+|[GetEngineID](../../../extensibility/debugger/reference/idebugengine2-getengineid.md)|Gets the GUID of the DE.|  
+|[DestroyProgram](../../../extensibility/debugger/reference/idebugengine2-destroyprogram.md)|Informs a DE that the program specified has been atypically terminated and that the DE should clean up all references to the program and send a program destroy event.|  
+|[ContinueFromSynchronousEvent](../../../extensibility/debugger/reference/idebugengine2-continuefromsynchronousevent.md)|Called by the SDM to indicate that a synchronous debug event, previously sent by the DE to the SDM, was received and processed.|  
+|[SetLocale](../../../extensibility/debugger/reference/idebugengine2-setlocale.md)|Sets the locale of the DE.|  
+|[SetRegistryRoot](../../../extensibility/debugger/reference/idebugengine2-setregistryroot.md)|Sets the registry root currently in use by the DE.|  
+|[SetMetric](../../../extensibility/debugger/reference/idebugengine2-setmetric.md)|Sets a metric.|  
+|[CauseBreak](../../../extensibility/debugger/reference/idebugengine2-causebreak.md)|Requests that all programs being debugged by this DE stop execution the next time one of their threads attempts to run.|  
   
 ## Requirements  
  Header: Msdbg.h  
@@ -74,5 +74,5 @@ IDebugEngine2 : IUnknown
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll  
   
 ## See Also  
- [Event](../../../extensibility/debugger/reference/idebugeventcallback2--event.md)   
- [GetEngine](../../../extensibility/debugger/reference/idebugenginecreateevent2--getengine.md)
+ [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md)   
+ [GetEngine](../../../extensibility/debugger/reference/idebugenginecreateevent2-getengine.md)

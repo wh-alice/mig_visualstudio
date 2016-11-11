@@ -1,7 +1,7 @@
 ---
-title: "Call Hierarchy"
+title: "Call Hierarchy | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Call Hierarchy"
 ms.assetid: c55bda01-d7de-4823-8f9a-1bcc37dbb74a
 caps.latest.revision: 40
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

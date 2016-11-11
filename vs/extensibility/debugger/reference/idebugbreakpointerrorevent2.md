@@ -1,7 +1,7 @@
 ---
-title: "IDebugBreakpointErrorEvent2"
+title: "IDebugBreakpointErrorEvent2 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/25/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -42,7 +42,7 @@ IDebugBreakpointErrorEvent2 : IUnknown
 ```  
   
 ## Notes for Implementers  
- The DE implements this interface as part of its support for breakpoints. The [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md) interface must be implemented on the same object as this interface (the SDM uses [QueryInterface](../Topic/QueryInterface.md) to access the `IDebugEvent2` interface).  
+ The DE implements this interface as part of its support for breakpoints. The [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md) interface must be implemented on the same object as this interface (the SDM uses [QueryInterface](/visual-cpp/atl/queryinterface) to access the `IDebugEvent2` interface).  
   
 ## Notes for Callers  
  The DE creates and sends this event object when a pending breakpoint cannot be bound to the program being debugged. The event is sent by using the [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) callback function supplied by the SDM when it attached to the program being debugged.  
@@ -52,7 +52,7 @@ IDebugBreakpointErrorEvent2 : IUnknown
   
 |Method|Description|  
 |------------|-----------------|  
-|[GetErrorBreakpoint](../../../extensibility/debugger/reference/idebugbreakpointerrorevent2--geterrorbreakpoint.md)|Gets the [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebugerrorbreakpoint2.md) interface that describes the warning or error.|  
+|[GetErrorBreakpoint](../../../extensibility/debugger/reference/idebugbreakpointerrorevent2-geterrorbreakpoint.md)|Gets the [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebugerrorbreakpoint2.md) interface that describes the warning or error.|  
   
 ## Remarks  
  Whenever a breakpoint is bound, an event is sent to the SDM. If the breakpoint cannot be bound, an `IDebugBreakpointErrorEvent2` is sent; otherwise, an [IDebugBreakpointBoundEvent2](../../../extensibility/debugger/reference/idebugbreakpointboundevent2.md) is sent.  

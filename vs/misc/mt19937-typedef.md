@@ -1,7 +1,7 @@
 ---
-title: "mt19937 TypeDef"
+title: "mt19937 TypeDef | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "mt19937 class [TR1]"
 ms.assetid: c6d1994f-2dc8-4477-aad9-e13ec89807e7
 caps.latest.revision: 12
+author: "ghogen"
 ms.author: "ghogen"
 manager: "douge"
 translation.priority.mt: 

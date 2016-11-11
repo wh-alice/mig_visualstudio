@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB3142"
+title: "MSBuild Error MSB3142 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "MSB3142"
 ms.assetid: acca7437-6c72-446c-a6b5-a1c051b6855f
 caps.latest.revision: 6
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 

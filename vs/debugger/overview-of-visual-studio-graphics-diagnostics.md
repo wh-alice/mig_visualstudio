@@ -1,7 +1,7 @@
 ---
-title: "Overview of Visual Studio Graphics Diagnostics"
+title: "Overview of Visual Studio Graphics Diagnostics | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ddd429d9-ac70-4ac4-9e69-299c6ea2df09
 caps.latest.revision: 29
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 

@@ -1,7 +1,7 @@
 ---
-title: "Program Nodes"
+title: "Program Nodes | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -40,7 +40,7 @@ In terms of the debugger architecture, a **program node**:
   
 -   Can identify itself and the process it is running in, and can be attached to, be detached from, and describe the debug engine (DE) that created it, if any.  
   
--   Is represented by an [IDebugProgramNode2](../../extensibility/debugger/reference/idebugprogramnode2.md) interface, typically created by a DE or port. Program nodes are added to a port by calling [AddProgramNode](../../extensibility/debugger/reference/idebugportnotify2--addprogramnode.md). When a program node is added to a port, it is added to the process containing the program that this program node represents.  
+-   Is represented by an [IDebugProgramNode2](../../extensibility/debugger/reference/idebugprogramnode2.md) interface, typically created by a DE or port. Program nodes are added to a port by calling [AddProgramNode](../../extensibility/debugger/reference/idebugportnotify2-addprogramnode.md). When a program node is added to a port, it is added to the process containing the program that this program node represents.  
   
  Sometime after a debug session is started, depending on the implementation of the debug package, program nodes are used to create corresponding programs. When a process is queried for its programs, the programs are enumerated, one for each program node.  
   
@@ -52,4 +52,4 @@ In terms of the debugger architecture, a **program node**:
  [Debug Engine](../../extensibility/debugger/debug-engine.md)   
  [Debugger Concepts](../../extensibility/debugger/debugger-concepts.md)   
  [IDebugProgramNode2](../../extensibility/debugger/reference/idebugprogramnode2.md)   
- [AddProgramNode](../../extensibility/debugger/reference/idebugportnotify2--addprogramnode.md)
+ [AddProgramNode](../../extensibility/debugger/reference/idebugportnotify2-addprogramnode.md)

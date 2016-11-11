@@ -1,7 +1,7 @@
 ---
-title: "Manage Channels"
+title: "Manage Channels | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Concurrency Visualizer, Manage Channels"
 ms.assetid: 507b06e9-bb56-4a72-8fd5-f91f958da6fc
 caps.latest.revision: 13
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -73,6 +74,6 @@ In the **Threads View** in the Concurrency Visualizer, you can organize the chan
  If a trace contains marker events, you can use this command to group marker channels under the thread that generated the marker events.  The disk channels are moved to the top of the channel list and GPU channels are moved to the bottom.  
   
 ## See Also  
- [Zoom Control (Threads View)](../profiling/zoom-control--threads-view-.md)   
+ [Zoom Control (Threads View)](../profiling/zoom-control-threads-view.md)   
  [Measure Mode On/Off](../profiling/measure-mode-on-off.md)   
- [Threads View](../profiling/threads-view--parallel-performance-.md)
+ [Threads View](../profiling/threads-view-parallel-performance.md)

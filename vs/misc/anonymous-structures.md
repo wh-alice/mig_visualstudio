@@ -1,7 +1,7 @@
 ---
-title: "Anonymous Structures"
+title: "Anonymous Structures | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "structures [C++], anonymous"
 ms.assetid: bf40613f-2105-435a-b2d6-c9f31d072f6d
 caps.latest.revision: 9
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -34,4 +35,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Anonymous Structures
-This content has moved to [Anonymous Class Types](../Topic/Anonymous%20Class%20Types.md)
+This content has moved to [Anonymous Class Types](/visual-cpp/cpp/anonymous-class-types)

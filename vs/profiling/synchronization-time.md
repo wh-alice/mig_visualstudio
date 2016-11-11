@@ -1,7 +1,7 @@
 ---
-title: "Synchronization Time"
+title: "Synchronization Time | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "Concurrency Visualizer, Synchronization Time"
 ms.assetid: affa04cc-8bba-4848-9301-b19846d3c2cb
 caps.latest.revision: 6
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -42,4 +43,4 @@ These segments in the timeline are associated with blocking times that are categ
  To understand the underlying cause for a thread blocking event, carefully examine the blocking call stacks and profile reports.  
   
 ## See Also  
- [Threads View](../profiling/threads-view--parallel-performance-.md)
+ [Threads View](../profiling/threads-view-parallel-performance.md)

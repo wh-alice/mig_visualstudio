@@ -1,7 +1,7 @@
 ---
-title: "Validate your UML model"
+title: "Validate your UML model | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -12,6 +12,7 @@ helpviewer_keywords:
   - "UML, validation"
 ms.assetid: deed5092-c11d-4431-a801-1e866a103075
 caps.latest.revision: 10
+author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
 translation.priority.ht: 

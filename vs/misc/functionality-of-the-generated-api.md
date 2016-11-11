@@ -1,7 +1,7 @@
 ---
-title: "Functionality of the Generated API"
+title: "Functionality of the Generated API | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "Domain-Specific Language, generated code"
 ms.assetid: 2c5505da-deaa-4dd1-9ea8-e22025b04bc3
 caps.latest.revision: 16
+author: "alancameronwills"
 ms.author: "awills"
 manager: "kamrani"
 translation.priority.ht: 

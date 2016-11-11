@@ -1,7 +1,7 @@
 ---
-title: "Property Manager"
+title: "Property Manager | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "Property Manager"
 ms.assetid: 067d34d1-4ab0-46ed-ae50-17175eabfafc
 caps.latest.revision: 8
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -35,6 +36,6 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Property Manager
-This content has been moved to [Working with Project Properties](../Topic/Working%20with%20Project%20Properties.md).  
+This content has been moved to [Working with Project Properties](/visual-cpp/ide/working-with-project-properties).  
   
 ## UIElement List

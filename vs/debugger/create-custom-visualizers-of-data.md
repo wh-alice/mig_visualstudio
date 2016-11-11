@@ -1,7 +1,7 @@
 ---
-title: "Create Custom Visualizers of Data"
+title: "Create Custom Visualizers of Data | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,6 +25,7 @@ helpviewer_keywords:
   - "visualizers"
 ms.assetid: c24c006f-f2ac-429f-89db-677fc0c6e1ea
 caps.latest.revision: 28
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -58,13 +59,13 @@ Visualizers are components of the [!INCLUDE[vs_current_short](../code-quality/in
 >  Debugger visualizers require greater privileges than are allowed by a partial trust application. As a result, visualizers do not load when you are stopped in code with partial trust. To debug using a visualizer, you must run the code with full trust.  
   
 ## In This Section  
- [How to: Write a Visualizer](../debugger/how-to--write-a-visualizer.md)  
+ [How to: Write a Visualizer](../debugger/how-to-write-a-visualizer.md)  
   
- [Walkthrough: Writing a Visualizer in C#](../debugger/walkthrough--writing-a-visualizer-in-csharp.md)  
+ [Walkthrough: Writing a Visualizer in C#](../debugger/walkthrough-writing-a-visualizer-in-csharp.md)  
   
- [How to: Install a Visualizer](../debugger/how-to--install-a-visualizer.md)  
+ [How to: Install a Visualizer](../debugger/how-to-install-a-visualizer.md)  
   
- [How to: Test and Debug a Visualizer](../debugger/how-to--test-and-debug-a-visualizer.md)  
+ [How to: Test and Debug a Visualizer](../debugger/how-to-test-and-debug-a-visualizer.md)  
   
  [Visualizer API Reference](../debugger/visualizer-api-reference.md)  
   

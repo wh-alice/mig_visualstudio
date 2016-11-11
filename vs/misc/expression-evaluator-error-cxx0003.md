@@ -1,7 +1,7 @@
 ---
-title: "Expression Evaluator Error CXX0003"
+title: "Expression Evaluator Error CXX0003 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "CXX0003"
 ms.assetid: 776dfdf8-e367-4dc8-8fd5-1ff0dd287152
 caps.latest.revision: 8
+author: "corob-msft"
 ms.author: "corob"
 manager: "douge"
 translation.priority.ht: 

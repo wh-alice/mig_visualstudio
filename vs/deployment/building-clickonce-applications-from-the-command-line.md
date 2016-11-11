@@ -1,7 +1,7 @@
 ---
-title: "Building ClickOnce Applications from the Command Line"
+title: "Building ClickOnce Applications from the Command Line | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "publishing, ClickOnce"
 ms.assetid: d9bc6212-c584-4f72-88c9-9a4b998c555e
 caps.latest.revision: 23
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -48,7 +49,7 @@ In [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)]
   
  The `/target:publish` command tells MSBuild to invoke the publish target. The publish target depends on the build target. This means that the publish operation is a superset of the build operation. For example, if you made a change to one of your Visual Basic or C# source files, the corresponding assembly would automatically be rebuilt by the publish operation.  
   
- For information on generating a full [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment using the Mage.exe command-line tool to create your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] manifest, see [Walkthrough: Manually Deploying a ClickOnce Application](../deployment/walkthrough--manually-deploying-a-clickonce-application.md).  
+ For information on generating a full [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment using the Mage.exe command-line tool to create your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] manifest, see [Walkthrough: Manually Deploying a ClickOnce Application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md).  
   
 ## Creating and Building a Basic ClickOnce Application Using MSBuild  
   
@@ -182,4 +183,4 @@ msbuild /target:publish /property:BootstrapperEnabled=false
  <xref:Microsoft.Build.Tasks.GenerateApplicationManifest>   
  <xref:Microsoft.Build.Tasks.GenerateDeploymentManifest>   
  [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)   
- [Walkthrough: Manually Deploying a ClickOnce Application](../deployment/walkthrough--manually-deploying-a-clickonce-application.md)
+ [Walkthrough: Manually Deploying a ClickOnce Application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)

@@ -1,7 +1,7 @@
 ---
-title: "namespace Alias"
+title: "namespace Alias | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "aliases [C++], namespace"
 ms.assetid: 8ee87fea-b2d4-465e-82b1-3e7b81cc9e46
 caps.latest.revision: 6
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -34,6 +35,6 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # namespace Alias
-This content has moved to [Namespaces](../Topic/Namespaces%20\(C++\).md).  
+This content has moved to [Namespaces](/visual-cpp/cpp/namespaces-cpp).  
   
 ## Syntax

@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Conditional Constructs"
+title: "MSBuild Conditional Constructs | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -25,6 +25,7 @@ helpviewer_keywords:
   - "When Element [MSBuild]"
 ms.assetid: dd54258e-f4fb-448f-9da4-d1817e0cbaf2
 caps.latest.revision: 9
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -43,7 +44,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # MSBuild Conditional Constructs
-[!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] provides a mechanism for either/or processing with the [Choose](../msbuild/choose-element--msbuild-.md), [When](../msbuild/when-element--msbuild-.md), and [Otherwise](../msbuild/otherwise-element--msbuild-.md) elements.  
+[!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] provides a mechanism for either/or processing with the [Choose](../msbuild/choose-element-msbuild.md), [When](../msbuild/when-element-msbuild.md), and [Otherwise](../msbuild/otherwise-element-msbuild.md) elements.  
   
 ## Using the Choose Element  
  The `Choose` element contains a series of `When` elements with `Condition` attributes that are tested in order from top to bottom until one evaluates to `true`. If more than one `When` element evaluates to `true`, only the first one is used. An `Otherwise` element, if present, will be evaluated if no condition on a `When` element evaluates to `true`.  
@@ -90,7 +91,7 @@ translation.priority.ht:
 ```  
   
 ## See Also  
- [Choose Element (MSBuild)](../msbuild/choose-element--msbuild-.md)   
- [When Element (MSBuild)](../msbuild/when-element--msbuild-.md)   
- [Otherwise Element (MSBuild)](../msbuild/otherwise-element--msbuild-.md)   
+ [Choose Element (MSBuild)](../msbuild/choose-element-msbuild.md)   
+ [When Element (MSBuild)](../msbuild/when-element-msbuild.md)   
+ [Otherwise Element (MSBuild)](../msbuild/otherwise-element-msbuild.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)

@@ -1,7 +1,7 @@
 ---
-title: "Create a Windows Forms user control that supports complex data binding"
+title: "Create a Windows Forms user control that supports complex data binding | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "user controls [Visual Studio], complex data binding"
 ms.assetid: c8f29c2b-b49b-4618-88aa-33b6105880b5
 caps.latest.revision: 13
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 translation.priority.ht: 
@@ -70,7 +71,7 @@ When displaying data on forms in Windows applications, you can choose existing c
 ## Prerequisites  
  In order to complete this walkthrough, you will need:  
   
--   Access to the Northwind sample database. For more information, see [How to: Install Sample Databases](../data-tools/how-to--install-sample-databases.md).  
+-   Access to the Northwind sample database. For more information, see [How to: Install Sample Databases](../data-tools/how-to-install-sample-databases.md).  
   
 ## Create a Windows Application  
  The first step is to create a **Windows Application**.  

@@ -1,7 +1,7 @@
 ---
-title: "Graphics Event Call Stack"
+title: "Graphics Event Call Stack | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ f1_keywords:
   - "vs.graphics.callstack"
 ms.assetid: 8a30168d-8b39-4de1-b094-c7356ba101a3
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -55,4 +56,4 @@ The Graphics Event Call Stack in Visual Studio Graphics Analyzer helps you map t
  To understand the selected graphics event, you might need information about the Direct3D objects that are associated with it. The **Graphics Event Call Stack** window provides links to this information.  
   
 ## See Also  
- [Walkthrough: Missing Objects Due to Vertex Shading](../debugger/walkthrough--missing-objects-due-to-vertex-shading.md)
+ [Walkthrough: Missing Objects Due to Vertex Shading](../debugger/walkthrough-missing-objects-due-to-vertex-shading.md)

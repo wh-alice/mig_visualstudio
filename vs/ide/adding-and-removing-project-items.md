@@ -1,7 +1,7 @@
 ---
-title: "Adding and Removing Project Items"
+title: "Adding and Removing Project Items | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,6 +14,7 @@ f1_keywords:
   - "vs.addexistingproject"
 ms.assetid: 4b6db52f-4352-4313-8f4f-50a451fd12f7
 caps.latest.revision: 3
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

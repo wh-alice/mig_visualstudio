@@ -1,7 +1,7 @@
 ---
-title: "Extend UML models and diagrams"
+title: "Extend UML models and diagrams | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "UML model, extending"
 ms.assetid: b5bfa61e-ea59-4c3b-b5af-53475d7d13cd
 caps.latest.revision: 37
+author: "alexhomer1"
 ms.author: "ahomer"
 manager: "douge"
 translation.priority.ht: 
@@ -87,7 +88,7 @@ This topic summarizes the different ways in which you can extend the UML modelin
   
  Fabrikam’s developers create code that automatically sets the color of an element dependent on its stereotype. This makes it easy for users to distinguish the different roles played by elements in the models.  
   
- For more information, see [How to: Respond to Changes in a UML Model](../misc/how-to--respond-to-changes-in-a-uml-model.md).  
+ For more information, see [How to: Respond to Changes in a UML Model](../misc/how-to-respond-to-changes-in-a-uml-model.md).  
   
 ## Model Bus  
  Model Bus allows you to access a diagram or model from another diagram or from another [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] Extension. Among other things, this allows you to spread information across more than one model, so that several people can work on the combined model at the same time.  
@@ -118,7 +119,7 @@ This topic summarizes the different ways in which you can extend the UML modelin
  For more information, see [Read a UML model in program code](../modeling/read-a-uml-model-in-program-code.md).  
   
 ## Domain-Specific Languages  
- Where you frequently use a particular type of model, it can be useful to create a domain-specific language. This can be made to fit your business needs more closely than a UML model, but requires more effort to build it and maintain it. For more information, see [Modeling SDK for Visual Studio - Domain-Specific Languages](../modeling/modeling-sdk-for-visual-studio---domain-specific-languages.md).  
+ Where you frequently use a particular type of model, it can be useful to create a domain-specific language. This can be made to fit your business needs more closely than a UML model, but requires more effort to build it and maintain it. For more information, see [Modeling SDK for Visual Studio - Domain-Specific Languages](../modeling/modeling-sdk-for-visual-studio-domain-specific-languages.md).  
   
 ## External Resources  
   

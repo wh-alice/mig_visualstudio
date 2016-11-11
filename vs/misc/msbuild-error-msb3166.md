@@ -1,7 +1,7 @@
 ---
-title: "MSBuild Error MSB3166"
+title: "MSBuild Error MSB3166 | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "MSB3166"
 ms.assetid: f5dff83a-1e41-4c92-a137-89b7e9f3cd93
 caps.latest.revision: 5
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.ht: 
@@ -48,4 +49,4 @@ translation.priority.mt:
 -   Copy the required files to the appropriate location.  
   
 ## See Also  
- [\<PackageFiles> Element](../deployment/-packagefiles--element--bootstrapper-.md)
+ [\<PackageFiles> Element](../deployment/packagefiles-element-bootstrapper.md)

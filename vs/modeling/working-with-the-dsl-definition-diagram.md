@@ -1,7 +1,7 @@
 ---
-title: "Working with the DSL Definition Diagram"
+title: "Working with the DSL Definition Diagram | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "Domain-Specific Language Tools, Bring Tree Here"
 ms.assetid: 1a4c7a58-e134-438e-848e-efd98f92bf10
 caps.latest.revision: 21
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 ---

@@ -1,7 +1,7 @@
 ---
-title: "Local Data Overview"
+title: "Local Data Overview | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/18/2016"
+ms.date: "11/02/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -26,6 +26,7 @@ helpviewer_keywords:
   - "data [Visual Studio], local"
 ms.assetid: d6afa5ac-2bb8-49f2-a50e-f71f611ed506
 caps.latest.revision: 71
+author: "mikeblome"
 ms.author: "mblome"
 manager: "ghogen"
 robots: noindex,nofollow
@@ -71,14 +72,14 @@ When developing data applications, it is usually best to use a local copy of a d
 |Topic|Description|  
 |-----------|-----------------|  
 |[Create a SQL database by using a designer](../data-tools/create-a-sql-database-by-using-a-designer.md)|Provides step-by-step instructions for creating a local database file that you can use to test data features and build applications.|  
-|[Walkthrough: Connecting to Data in a Local Database File (Windows Forms)](../data-tools/walkthrough--connecting-to-data-in-a-local-database-file--windows-forms-.md)|Provides step-by-step instructions for connecting to a SQL Server Express LocalDB database while you create a simple Windows application.|  
-|[Connect to data in an Access database (Windows Forms)](../data-tools/connect-to-data-in-an-access-database--windows-forms-.md)|Provides step-by-step instructions for connecting to a Microsoft Access database.|  
-|[How to: Connect to the Northwind Database](../data-tools/how-to--connect-to-the-northwind-database.md)|Provides instructions for connecting to the Northwind sample database in [!INCLUDE[ssNoVersion](../data-tools/includes/ssnoversion_md.md)], SQL Server Compact, SQL Server Express, and Access.|  
+|[Walkthrough: Connecting to Data in a Local Database File (Windows Forms)](../data-tools/walkthrough-connecting-to-data-in-a-local-database-file-windows-forms.md)|Provides step-by-step instructions for connecting to a SQL Server Express LocalDB database while you create a simple Windows application.|  
+|[Connect to data in an Access database (Windows Forms)](../data-tools/connect-to-data-in-an-access-database-windows-forms.md)|Provides step-by-step instructions for connecting to a Microsoft Access database.|  
+|[How to: Connect to the Northwind Database](../data-tools/how-to-connect-to-the-northwind-database.md)|Provides instructions for connecting to the Northwind sample database in [!INCLUDE[ssNoVersion](../data-tools/includes/ssnoversion_md.md)], SQL Server Compact, SQL Server Express, and Access.|  
   
 ## Use the connection string  
  This is the simplest approach and is a good choice when your application only reads from the database, and when using third-party databases. The database file can be located anywhere on the local machine that your application has permission to access, and that the database system supports.  
   
-1.  (Optional) Create a new connection as described in [Add new connections](../data-tools/add-new-connections.md). For third party databases, and .mdf files for which you already know the connection string and will not be doing databinding or using a data source such as Entity Framework classes or datasets, this step is not necessary. Just use the connection string to connect to the local file. For .mdf files, see [Upgrade .mdf files](../data-tools/upgrade-.mdf-files.md) and [Establishing the Connection](https://msdn.microsoft.com/en-us/library/ms254507.aspx).  
+1.  (Optional) Create a new connection as described in [Add new connections](../data-tools/add-new-connections.md). For third party databases, and .mdf files for which you already know the connection string and will not be doing databinding or using a data source such as Entity Framework classes or datasets, this step is not necessary. Just use the connection string to connect to the local file. For .mdf files, see [Upgrade .mdf files](../data-tools/upgrade-dot-mdf-files.md) and [Establishing the Connection](https://msdn.microsoft.com/en-us/library/ms254507.aspx).  
   
 2.  (Optional) If you are using datasets, Entity Framework or LINQ to SQL, then create the data source by using the Data Source Configuration Wizard. For more information, see [Add new data sources](../data-tools/add-new-data-sources.md).  
   
@@ -115,10 +116,10 @@ When developing data applications, it is usually best to use a local copy of a d
   
 |Issue|Explanation|  
 |-----------|-----------------|  
-|Every time I test my application and modify data, my changes are gone the next time I run my application.|The value of the **Copy to Output Directory** property is **Copy if newer** or **Copy always**. The database in your output folder (the database that’s being modified when you test your application) is overwritten every time that you build your project. For more information, see [How to: Manage Local Data Files in Your Project](../data-tools/how-to--manage-local-data-files-in-your-project.md).|  
+|Every time I test my application and modify data, my changes are gone the next time I run my application.|The value of the **Copy to Output Directory** property is **Copy if newer** or **Copy always**. The database in your output folder (the database that’s being modified when you test your application) is overwritten every time that you build your project. For more information, see [How to: Manage Local Data Files in Your Project](../data-tools/how-to-manage-local-data-files-in-your-project.md).|  
 |A message appears, saying that the data file is locked.|Access (.mdb files): Verify that the file isn’t open in another program, such as Access.<br /><br /> SQL Server Express (.mdf files): SQL Express locks the data file if you try to copy, move, or rename it outside the Visual Studio IDE.|  
 |Access is denied when more than one user tries to access the same database at the same time.|Visual Studio takes advantage of *user instances*, which is a feature of SQL Server Express that creates a separate instance of SQL Server for each user. After one user accesses the file, any subsequent users can’t connect. This issue can occur if, for example, you try to run a web application in ASP.NET Development Server and Internet Information Services (IIS) at the same time, because IIS typically runs under a different account.|  
   
 ## See Also  
- [Walkthrough: Connecting to Data in a Local Database File (Windows Forms)](../data-tools/walkthrough--connecting-to-data-in-a-local-database-file--windows-forms-.md)   
- [Connect to data in an Access database (Windows Forms)](../data-tools/connect-to-data-in-an-access-database--windows-forms-.md)
+ [Walkthrough: Connecting to Data in a Local Database File (Windows Forms)](../data-tools/walkthrough-connecting-to-data-in-a-local-database-file-windows-forms.md)   
+ [Connect to data in an Access database (Windows Forms)](../data-tools/connect-to-data-in-an-access-database-windows-forms.md)

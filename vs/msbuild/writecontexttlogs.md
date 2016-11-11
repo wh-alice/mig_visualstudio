@@ -1,7 +1,7 @@
 ---
-title: "WriteContextTLogs"
+title: "WriteContextTLogs | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -18,6 +18,7 @@ helpviewer_keywords:
   - "WriteContextTLogs"
 ms.assetid: ffc6c7be-3f22-4624-9ffc-0122fe72b6ec
 caps.latest.revision: 5
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

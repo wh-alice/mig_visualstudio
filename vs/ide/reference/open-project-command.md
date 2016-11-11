@@ -1,7 +1,7 @@
 ---
-title: "Open Project Command"
+title: "Open Project Command | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -17,6 +17,7 @@ helpviewer_keywords:
   - "Open Project command"
 ms.assetid: baa85f86-041b-49f4-9ced-0c397dc180e1
 caps.latest.revision: 11
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

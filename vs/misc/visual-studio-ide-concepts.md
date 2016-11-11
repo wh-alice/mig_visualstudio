@@ -1,7 +1,7 @@
 ---
-title: "Visual Studio IDE Concepts"
+title: "Visual Studio IDE Concepts | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -44,7 +44,7 @@ The topics in this section describe the overall structure of [!INCLUDE[vsprvs](.
  [The Experimental Instance](../extensibility/the-experimental-instance.md)  
  Explains the experimental build of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. When you develop an application that might change [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], the [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] provides the experimental build for you to use instead of the released build.  
   
- [Visual Studio Shell](../Topic/Visual%20Studio%20Shell.md)  
+ [Visual Studio Shell](../extensibility/internals/visual-studio-shell.md)  
  Describes the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE, which is the primary agent of integration in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
  [Visual Studio SDK and Automation](../Topic/Visual%20Studio%20SDK%20and%20Automation.md)  

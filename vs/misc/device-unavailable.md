@@ -1,5 +1,5 @@
 ---
-title: "Device unavailable"
+title: "Device unavailable | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -13,6 +13,7 @@ f1_keywords:
   - "vbrID68"
 ms.assetid: 9a89beda-140e-4b32-8d0a-2dc598ef279a
 caps.latest.revision: 7
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -41,4 +42,4 @@ Either you have lost your network connection, or the device that you are trying 
 2.  Reconnect to the network and try again.  
   
 ## See Also  
- [Error Types](../Topic/Error%20Types%20\(Visual%20Basic\).md)
+ [Error Types](/dotnet/visual-basic/programming-guide/language-features/error-types)

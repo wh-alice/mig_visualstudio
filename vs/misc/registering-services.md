@@ -1,7 +1,7 @@
 ---
-title: "Registering Services"
+title: "Registering Services | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -33,7 +33,7 @@ translation.priority.mt:
 # Registering Services
 To support on-demand loading, a service provider must register its global services with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
- During development, managed service providers register services and service overrides by adding attributes to the source code for packages, and then building the packages in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE. This runs the RegPkg.exe utility on the resulting assembly, registering the package and preparing it for deployment. For more information, see [How to: Register a Service](../misc/how-to--register-a-service.md).  
+ During development, managed service providers register services and service overrides by adding attributes to the source code for packages, and then building the packages in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE. This runs the RegPkg.exe utility on the resulting assembly, registering the package and preparing it for deployment. For more information, see [How to: Register a Service](../misc/how-to-register-a-service.md).  
   
  Unmanaged service providers must register the services they provide with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] in the services section or the service overrides section of the system registry. The following .reg file fragment shows how the service, SVsTextManager, might be registered:  
   

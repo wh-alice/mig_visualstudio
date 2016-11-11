@@ -1,7 +1,7 @@
 ---
-title: "Understanding Resource Contention Data Values"
+title: "Understanding Resource Contention Data Values | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "Profiling Tools, concurrency method"
 ms.assetid: 071c0f0f-1eba-4dc8-ae87-0810e4086dd0
 caps.latest.revision: 9
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -47,8 +48,8 @@ Resource contention profiling collects detailed call stack information each time
   
  Resource contention report views also include timeline graphs that show the individual contention events over time and show the call stacks that created the particular event. For more information, see one of the following topics:  
   
--   [Thread Details View](../profiling/thread-details-view---contention-data.md)  
+-   [Thread Details View](../profiling/thread-details-view-contention-data.md)  
   
--   [Resource Details View](../profiling/resource-details-view---contention-data.md)  
+-   [Resource Details View](../profiling/resource-details-view-contention-data.md)  
   
  For more information about the second mode of concurrency profiling, see [Concurrency Visualizer](../profiling/concurrency-visualizer.md).

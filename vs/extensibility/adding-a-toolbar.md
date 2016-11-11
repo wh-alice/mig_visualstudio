@@ -1,7 +1,7 @@
 ---
-title: "Adding a Toolbar"
+title: "Adding a Toolbar | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -38,7 +38,7 @@ This walkthrough shows how to add a toolbar to the Visual Studio IDE.
   
  In addition, users can add commands to a toolbar or remove them from it by using the **Customize** dialog box. Typically, toolbars in VSPackages are user-customizable. The IDE handles all customization, and the VSPackage responds to commands. The VSPackage does not have to know where a command is physically located.  
   
- For more information about menus, see [Commands, Menus, and Toolbars](../Topic/Commands,%20Menus,%20and%20Toolbars.md).  
+ For more information about menus, see [Commands, Menus, and Toolbars](../extensibility/internals/commands-menus-and-toolbars.md).  
   
 ## Prerequisites  
  Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Installing the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).  
@@ -103,4 +103,4 @@ This walkthrough shows how to add a toolbar to the Visual Studio IDE.
 7.  You should now see your toolbar as an icon to the right of the Find in Files icon. When you click the icon, you should see a message box that says **ToolbarTestCommandPackage. Inside IDEToolbar.ToolbarTestCommand.MenuItemCallback()**.  
   
 ## See Also  
- [Commands, Menus, and Toolbars](../Topic/Commands,%20Menus,%20and%20Toolbars.md)
+ [Commands, Menus, and Toolbars](../extensibility/internals/commands-menus-and-toolbars.md)

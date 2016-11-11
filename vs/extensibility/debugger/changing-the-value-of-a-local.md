@@ -1,7 +1,7 @@
 ---
-title: "Changing the Value of a Local"
+title: "Changing the Value of a Local | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -39,7 +39,7 @@ translation.priority.mt:
   
  This is an overview of the process of changing the value of a local:  
   
-1.  After the user enters the new value, Visual Studio calls [SetValueAsString](../../extensibility/debugger/reference/idebugproperty2--setvalueasstring.md) on the [IDebugProperty2](../../extensibility/debugger/reference/idebugproperty2.md) object associated with the local.  
+1.  After the user enters the new value, Visual Studio calls [SetValueAsString](../../extensibility/debugger/reference/idebugproperty2-setvalueasstring.md) on the [IDebugProperty2](../../extensibility/debugger/reference/idebugproperty2.md) object associated with the local.  
   
 2.  `IDebugProperty2::SetValueAsString` performs the following tasks:  
   
@@ -49,7 +49,7 @@ translation.priority.mt:
   
     3.  Converts the value to a series of bytes.  
   
-    4.  Calls [SetValue](../../extensibility/debugger/reference/idebugobject--setvalue.md) to put the value's bytes into memory so the program being debugged can access them.  
+    4.  Calls [SetValue](../../extensibility/debugger/reference/idebugobject-setvalue.md) to put the value's bytes into memory so the program being debugged can access them.  
   
 3.  Visual Studio refreshes the **Locals** display (see [Displaying Locals](../../extensibility/debugger/displaying-locals.md) for details).  
   

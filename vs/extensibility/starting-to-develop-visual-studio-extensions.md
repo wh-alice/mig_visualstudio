@@ -1,7 +1,7 @@
 ---
-title: "Starting to Develop Visual Studio Extensions"
+title: "Starting to Develop Visual Studio Extensions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -88,7 +88,7 @@ If you’ve never written a Visual Studio extension before, you probably have so
   
 -   VSIX project template: [Getting Started with the VSIX Project Template](../extensibility/getting-started-with-the-vsix-project-template.md)  
   
--   Visual Studio isolated shell: [Walkthrough: Creating a Basic Isolated Shell Application](../extensibility/walkthrough--creating-a-basic-isolated-shell-application.md)  
+-   Visual Studio isolated shell: [Walkthrough: Creating a Basic Isolated Shell Application](../extensibility/walkthrough-creating-a-basic-isolated-shell-application.md)  
   
 ## How do I get my extension to look like Visual Studio?  
  Get great tips for designing the UI for your extension in [Visual Studio User Experience Guidelines](../extensibility/ux-guidelines/visual-studio-user-experience-guidelines.md).  
@@ -99,4 +99,4 @@ If you’ve never written a Visual Studio extension before, you probably have so
 ## How can I distribute my extension?  
  You can install your extension on another computer or send it to your friends as a .vsix file, which you install by double-clicking it. You can find out more about VSIX packages at [Shipping Visual Studio Extensions](../extensibility/shipping-visual-studio-extensions.md).  
   
- You can also publish your extension on the Visual Studio Gallery, which makes it visible to large numbers of Visual Studio customers. For an example of packaging an extension for the Gallery, see [Walkthrough: Publishing a Visual Studio Extension](../extensibility/walkthrough--publishing-a-visual-studio-extension.md). For more information about what you need to do to publish on the Gallery, see [Products and Extensions for Visual Studio](https://visualstudiogallery.msdn.microsoft.com/).
+ You can also publish your extension on the Visual Studio Gallery, which makes it visible to large numbers of Visual Studio customers. For an example of packaging an extension for the Gallery, see [Walkthrough: Publishing a Visual Studio Extension](../extensibility/walkthrough-publishing-a-visual-studio-extension.md). For more information about what you need to do to publish on the Gallery, see [Products and Extensions for Visual Studio](https://visualstudiogallery.msdn.microsoft.com/).

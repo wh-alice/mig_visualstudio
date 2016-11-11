@@ -1,7 +1,7 @@
 ---
-title: "Introduction to WPF"
+title: "Introduction to WPF | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b8d7cf43-d1f2-4f3d-adb0-4f3a6428edc0
 caps.latest.revision: 5
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -71,7 +72,7 @@ Windows Presentation Foundation (WPF) lets you create desktop client application
 </Window>  
 ```  
   
- Specifically, this XAML defines a window and a button by using the `Window` and `Button` elements, respectively. Each element is configured with attributes, such as the `Window` element's `Title` attribute to specify the window's title-bar text. At run time, WPF converts the elements and attributes that are defined in markup to instances of WPF classes. For example, the `Window` element is converted to an instance of the <xref:System.Windows.Window> class whose <xref:System.Windows.Window.Title*> property is the value of the `Title` attribute.  
+ Specifically, this XAML defines a window and a button by using the `Window` and `Button` elements, respectively. Each element is configured with attributes, such as the `Window` element's `Title` attribute to specify the window's title-bar text. At run time, WPF converts the elements and attributes that are defined in markup to instances of WPF classes. For example, the `Window` element is converted to an instance of the <xref:System.Windows.Window> class whose <xref:System.Windows.Window.Title%2A> property is the value of the `Title` attribute.  
   
  The following figure shows the user interface (UI) that is defined by the XAML in the previous example.  
   
@@ -148,7 +149,7 @@ End Namespace
   
 ```  
   
- In this example, the code-behind implements a class that derives from the <xref:System.Windows.Window> class. The `x:Class` attribute is used to associate the markup with the code-behind class. `InitializeComponent` is called from the code-behind class's constructor to merge the UI that is defined in markup with the code-behind class. (`InitializeComponent` is generated for you when your application is built, which is why you don't need to implement it manually.) The combination of `x:Class` and `InitializeComponent` ensure that your implementation is correctly initialized whenever it is created. The code-behind class also implements an event handler for the button's <xref:System.Windows.Controls.Primitives.ButtonBase.Click> event. When the button is clicked, the event handler shows a message box by calling the <xref:System.Windows.MessageBox.Show*?displayProperty=fullName> method.  
+ In this example, the code-behind implements a class that derives from the <xref:System.Windows.Window> class. The `x:Class` attribute is used to associate the markup with the code-behind class. `InitializeComponent` is called from the code-behind class's constructor to merge the UI that is defined in markup with the code-behind class. (`InitializeComponent` is generated for you when your application is built, which is why you don't need to implement it manually.) The combination of `x:Class` and `InitializeComponent` ensure that your implementation is correctly initialized whenever it is created. The code-behind class also implements an event handler for the button's <xref:System.Windows.Controls.Primitives.ButtonBase.Click> event. When the button is clicked, the event handler shows a message box by calling the <xref:System.Windows.MessageBox.Show%2A?displayProperty=fullName> method.  
   
  The following figure shows the result when the button is clicked.  
   
@@ -216,7 +217,7 @@ End Namespace
   
  [!code-xml[IntroToWPFSnippets#LayoutMARKUP](../designers/codesnippet/Xaml/introduction-to-wpf_1.xaml)]  
   
- The <xref:System.Windows.Controls.DockPanel> allows the child <xref:System.Windows.Controls.TextBox> controls to tell it how to arrange them. To do this, the <xref:System.Windows.Controls.DockPanel> implements a <xref:System.Windows.Controls.DockPanel.Dock*> property that is exposed to the child controls to allow each of them to specify a dock style.  
+ The <xref:System.Windows.Controls.DockPanel> allows the child <xref:System.Windows.Controls.TextBox> controls to tell it how to arrange them. To do this, the <xref:System.Windows.Controls.DockPanel> implements a <xref:System.Windows.Controls.DockPanel.Dock%2A> property that is exposed to the child controls to allow each of them to specify a dock style.  
   
 > [!NOTE]
 >  A property that is implemented by a parent control for use by child controls is a WPF construct called an [attached property](https://msdn.microsoft.com/en-us/library/ms749011\(v=vs.100\).aspx).  
@@ -250,7 +251,7 @@ End Namespace
  [!code-vb[SimpleDataBindingSnippets#DataBindingCODEBEHIND](../designers/codesnippet/VisualBasic/introduction-to-wpf_6.vb)]
  [!code-cs[SimpleDataBindingSnippets#DataBindingCODEBEHIND](../designers/codesnippet/CSharp/introduction-to-wpf_6.cs)]  
   
- In this example, the `Person` class is instantiated in code-behind and is set as the data context for the `DataBindingWindow`. In markup, the <xref:System.Windows.Controls.TextBox.Text*> property of the <xref:System.Windows.Controls.TextBox> is bound to the `Person.Name` property (using the "`{Binding ... }`" XAML syntax). This XAML tells WPF to bind the <xref:System.Windows.Controls.TextBox> control to the `Person` object that is stored in the <xref:System.Windows.FrameworkElement.DataContext*> property of the window.  
+ In this example, the `Person` class is instantiated in code-behind and is set as the data context for the `DataBindingWindow`. In markup, the <xref:System.Windows.Controls.TextBox.Text%2A> property of the <xref:System.Windows.Controls.TextBox> is bound to the `Person.Name` property (using the "`{Binding ... }`" XAML syntax). This XAML tells WPF to bind the <xref:System.Windows.Controls.TextBox> control to the `Person` object that is stored in the <xref:System.Windows.FrameworkElement.DataContext%2A> property of the window.  
   
  The WPF data binding engine provides additional support that includes validation, sorting, filtering, and grouping. Furthermore, data binding supports the use of data templates to create custom user interface for bound data when the user interface displayed by the standard WPF controls is not appropriate.  
   
@@ -365,7 +366,7 @@ End Namespace
  For this reason, WPF provides a variety of mechanisms for creating unique user experiences, including a rich content model for controls, triggers, control and data templates, styles, user interface resources, and themes and skins.  
   
 ### Content Model  
- The main purpose of a majority of the WPF controls is to display content. In WPF, the type and number of items that can constitute the content of a control is referred to as the control's *content model*. Some controls can contain a single item and type of content; for example, the content of a <xref:System.Windows.Controls.TextBox> is a string value that is assigned to the <xref:System.Windows.Controls.TextBox.Text*> property. The following example sets the content of a <xref:System.Windows.Controls.TextBox>.  
+ The main purpose of a majority of the WPF controls is to display content. In WPF, the type and number of items that can constitute the content of a control is referred to as the control's *content model*. Some controls can contain a single item and type of content; for example, the content of a <xref:System.Windows.Controls.TextBox> is a string value that is assigned to the <xref:System.Windows.Controls.TextBox.Text%2A> property. The following example sets the content of a <xref:System.Windows.Controls.TextBox>.  
   
  [!code-xml[IntroToWPFSnippets#TextBoxContentMARKUP1](../designers/codesnippet/Xaml/introduction-to-wpf_10.xaml)]  
 [!code-xml[IntroToWPFSnippets#TextBoxContentMARKUP2](../designers/codesnippet/Xaml/introduction-to-wpf_11.xaml)]  
@@ -375,7 +376,7 @@ End Namespace
   
  ![A TextBox control that contains text](../designers/media/wpfintrofigure21.png "WPFIntroFigure21")  
   
- Other controls, however, can contain multiple items of different types of content; the content of a <xref:System.Windows.Controls.Button>, specified by the <xref:System.Windows.Controls.ContentControl.Content*> property, can contain a variety of items including layout controls, text, images, and shapes. The following example shows a <xref:System.Windows.Controls.Button> with content that includes a <xref:System.Windows.Controls.DockPanel>, a <xref:System.Windows.Controls.Label>, a <xref:System.Windows.Controls.Border>, and a <xref:System.Windows.Controls.MediaElement>.  
+ Other controls, however, can contain multiple items of different types of content; the content of a <xref:System.Windows.Controls.Button>, specified by the <xref:System.Windows.Controls.ContentControl.Content%2A> property, can contain a variety of items including layout controls, text, images, and shapes. The following example shows a <xref:System.Windows.Controls.Button> with content that includes a <xref:System.Windows.Controls.DockPanel>, a <xref:System.Windows.Controls.Label>, a <xref:System.Windows.Controls.Border>, and a <xref:System.Windows.Controls.MediaElement>.  
   
  [!code-xml[IntroToWPFSnippets#ButtonContentMARKUP1](../designers/codesnippet/Xaml/introduction-to-wpf_13.xaml)]  
 [!code-xml[IntroToWPFSnippets#ButtonContentMARKUP2](../designers/codesnippet/Xaml/introduction-to-wpf_14.xaml)]  
@@ -391,7 +392,7 @@ End Namespace
  Although the main purpose of XAML markup is to implement an application's appearance, you can also use XAML to implement some aspects of an application's behavior. One example is the use of triggers to change an application's appearance based on user interactions. For more information, see [Styling and Templating](https://msdn.microsoft.com/en-us/library/ms745683\(v=vs.100\).aspx).  
   
 ### Control Templates  
- The default user interfaces for WPF controls are typically constructed from other controls and shapes. For example, a <xref:System.Windows.Controls.Button> is composed of both <xref:Microsoft.Windows.Themes.ButtonChrome> and <xref:System.Windows.Controls.ContentPresenter> controls. The <xref:Microsoft.Windows.Themes.ButtonChrome> provides the standard button appearance, while the <xref:System.Windows.Controls.ContentPresenter> displays the button's content, as specified by the <xref:System.Windows.Controls.ContentControl.Content*> property.  
+ The default user interfaces for WPF controls are typically constructed from other controls and shapes. For example, a <xref:System.Windows.Controls.Button> is composed of both <xref:Microsoft.Windows.Themes.ButtonChrome> and <xref:System.Windows.Controls.ContentPresenter> controls. The <xref:Microsoft.Windows.Themes.ButtonChrome> provides the standard button appearance, while the <xref:System.Windows.Controls.ContentPresenter> displays the button's content, as specified by the <xref:System.Windows.Controls.ContentControl.Content%2A> property.  
   
  Sometimes the default appearance of a control may be incongruent with the overall appearance of an application. In this case, you can use a <xref:System.Windows.Controls.ControlTemplate> to change the appearance of the control's user interface without changing its content and behavior.  
   
@@ -411,7 +412,7 @@ End Namespace
   
  ![A list box with the default appearance](../designers/media/wpfintrofigure18.png "WPFIntroFigure18")  
   
- The default appearance is what you would expect from a <xref:System.Windows.Controls.ListBox>. However, the default appearance of each task contains only the task name. To show the task name, description, and priority, the default appearance of the <xref:System.Windows.Controls.ListBox> control's bound list items must be changed by using a <xref:System.Windows.DataTemplate>. The following XAML defines such a <xref:System.Windows.DataTemplate>, which is applied to each task by using the <xref:System.Windows.Controls.ItemsControl.ItemTemplate*> attribute.  
+ The default appearance is what you would expect from a <xref:System.Windows.Controls.ListBox>. However, the default appearance of each task contains only the task name. To show the task name, description, and priority, the default appearance of the <xref:System.Windows.Controls.ListBox> control's bound list items must be changed by using a <xref:System.Windows.DataTemplate>. The following XAML defines such a <xref:System.Windows.DataTemplate>, which is applied to each task by using the <xref:System.Windows.Controls.ItemsControl.ItemTemplate%2A> attribute.  
   
  [!code-xml[IntroToWPFSnippets#DataTemplateMARKUP1](../designers/codesnippet/Xaml/introduction-to-wpf_18.xaml)]  
 [!code-xml[IntroToWPFSnippets#DataTemplateMARKUP2](../designers/codesnippet/Xaml/introduction-to-wpf_19.xaml)]  
@@ -451,11 +452,11 @@ End Namespace
   
  This example implements a background color resource by using the `Window.Resources` property element. This resource is available to all children of the <xref:System.Windows.Window>. There are a variety of resource scopes, including the following, listed in the order in which they are resolved:  
   
-1.  An individual control (using the inherited <xref:System.Windows.FrameworkElement.Resources*?displayProperty=fullName> property).  
+1.  An individual control (using the inherited <xref:System.Windows.FrameworkElement.Resources%2A?displayProperty=fullName> property).  
   
-2.  A <xref:System.Windows.Window> or a <xref:System.Windows.Controls.Page> (also using the inherited <xref:System.Windows.FrameworkElement.Resources*?displayProperty=fullName> property).  
+2.  A <xref:System.Windows.Window> or a <xref:System.Windows.Controls.Page> (also using the inherited <xref:System.Windows.FrameworkElement.Resources%2A?displayProperty=fullName> property).  
   
-3.  An <xref:System.Windows.Application> (using the <xref:System.Windows.Application.Resources*?displayProperty=fullName> property).  
+3.  An <xref:System.Windows.Application> (using the <xref:System.Windows.Application.Resources%2A?displayProperty=fullName> property).  
   
  The variety of scopes gives you flexibility with respect to the way in which you define and share your resources.  
   
@@ -496,7 +497,7 @@ End Namespace
  [!code-vb[IntroToWPFSnippets#UserControlCODEBEHIND1](../designers/codesnippet/VisualBasic/introduction-to-wpf_34.vb)]  
 [!code-cs[IntroToWPFSnippets#UserControlCODEBEHIND2](../designers/codesnippet/CSharp/introduction-to-wpf_35.cs)]
 [!code-vb[IntroToWPFSnippets#UserControlCODEBEHIND2](../designers/codesnippet/VisualBasic/introduction-to-wpf_35.vb)]  
-[!CODE [IntroToWPFSnippets#UserControlCODEBEHIND3](../CodeSnippet/VS_Snippets_Wpf/IntroToWPFSnippets#usercontrolcodebehind3)]  
+<!--FIXME [!CODE [IntroToWPFSnippets#UserControlCODEBEHIND3](../CodeSnippet/VS_Snippets_Wpf/IntroToWPFSnippets#usercontrolcodebehind3)] --> 
   
  The next example illustrates the XAML that is required to incorporate the user control into a <xref:System.Windows.Window>.  
   

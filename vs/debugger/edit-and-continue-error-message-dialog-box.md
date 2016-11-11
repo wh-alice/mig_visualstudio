@@ -1,7 +1,7 @@
 ---
-title: "Edit and Continue Error Message Dialog Box"
+title: "Edit and Continue Error Message Dialog Box | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "Edit and Continue Error Message dialog box"
 ms.assetid: f98c91c0-447a-4533-85b6-87170a0dc4c3
 caps.latest.revision: 12
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -70,4 +71,4 @@ This dialog box appears when you are debugging in a language that supports Edit 
  Exit the dialog box and cancel the immediately preceding edit attempt.  
   
 ## See Also  
- [Supported Code Changes (C++)](../debugger/supported-code-changes--c---.md)
+ [Supported Code Changes (C++)](../debugger/supported-code-changes-cpp.md)

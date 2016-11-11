@@ -1,7 +1,7 @@
 ---
-title: "GenerateApplicationManifest Task"
+title: "GenerateApplicationManifest Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -22,6 +22,7 @@ helpviewer_keywords:
   - "GenerateApplicationManifest task [MSBuild]"
 ms.assetid: a494102b-0cb2-4755-8e2a-d2c0f39fac1d
 caps.latest.revision: 24
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

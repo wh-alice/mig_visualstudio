@@ -1,7 +1,7 @@
 ---
-title: "CreateItem Task"
+title: "CreateItem Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,6 +21,7 @@ helpviewer_keywords:
   - "MSBuild, CreateItem task"
 ms.assetid: c4311f38-979e-4324-b524-9e8c1cbdc41a
 caps.latest.revision: 15
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -42,15 +43,15 @@ translation.priority.ht:
 Populates item collections with the input items. This allows items to be copied from one list to another.  
   
 > [!NOTE]
->  This task is deprecated. Starting with .NET Framework 3.5, item groups may be placed within [Target](../msbuild/target-element--msbuild-.md) elements. For more information, see [Items](../msbuild/msbuild-items.md).  
+>  This task is deprecated. Starting with .NET Framework 3.5, item groups may be placed within [Target](../msbuild/target-element-msbuild.md) elements. For more information, see [Items](../msbuild/msbuild-items.md).  
   
 ## Attributes  
  The following table describes the parameters of the `CreateItem` task.  
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|`AdditionalMetadata`|Optional `String` array parameter.<br /><br /> Specifies additional metadata to attach to the output items.  Specify the metadata name and value for the item with the following syntax:<br /><br /> *MetadataName* `=` *MetadataValue*<br /><br /> Multiple metadata name/value pairs should be separated with a semicolon. If either the name or the value contains a semicolon or any other special characters, they must be escaped. For more information, see [How to: Escape Special Characters in MSBuild](../msbuild/how-to--escape-special-characters-in-msbuild.md).|  
-|`Exclude`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Specifies the items to exclude from the output item collection. This parameter can contain wildcard specifications. For more information, see [Items](../msbuild/msbuild-items.md) and [How to: Exclude Files from the Build](../msbuild/how-to--exclude-files-from-the-build.md).|  
+|`AdditionalMetadata`|Optional `String` array parameter.<br /><br /> Specifies additional metadata to attach to the output items.  Specify the metadata name and value for the item with the following syntax:<br /><br /> *MetadataName* `=` *MetadataValue*<br /><br /> Multiple metadata name/value pairs should be separated with a semicolon. If either the name or the value contains a semicolon or any other special characters, they must be escaped. For more information, see [How to: Escape Special Characters in MSBuild](../msbuild/how-to-escape-special-characters-in-msbuild.md).|  
+|`Exclude`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Specifies the items to exclude from the output item collection. This parameter can contain wildcard specifications. For more information, see [Items](../msbuild/msbuild-items.md) and [How to: Exclude Files from the Build](../msbuild/how-to-exclude-files-from-the-build.md).|  
 |`Include`|Required <xref:Microsoft.Build.Framework.ITaskItem>`[]`parameter.<br /><br /> Specifies the items to include in the output item collection. This parameter can contain wildcard specifications.|  
 |`PreserveExistingMetadata`|Optional `Boolean` parameter.<br /><br /> If `True`, only apply the additional metadata if they do not already exist.|  
   

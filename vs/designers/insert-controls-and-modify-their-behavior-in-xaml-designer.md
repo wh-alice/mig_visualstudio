@@ -1,7 +1,7 @@
 ---
-title: "Insert controls and modify their behavior in XAML Designer"
+title: "Insert controls and modify their behavior in XAML Designer | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a80fff74-bf01-41c9-ab85-ada7a873c3a9
 caps.latest.revision: 15
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 

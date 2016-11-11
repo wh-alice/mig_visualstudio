@@ -1,7 +1,7 @@
 ---
-title: "Special Characters to Escape"
+title: "Special Characters to Escape | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -19,6 +19,7 @@ helpviewer_keywords:
   - "msbuild, special characters to escape"
 ms.assetid: 5b5172c3-41e4-4f38-a16f-2aeac831a5fc
 caps.latest.revision: 8
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -56,5 +57,5 @@ Special characters must be escaped only if they have special meaning in the cont
 |*|Asterisk, a wildcard character when describing a file spec in an item's Include/Exclude section.|  
   
 ## See Also  
- [How to: Escape Special Characters in MSBuild](../msbuild/how-to--escape-special-characters-in-msbuild.md)   
+ [How to: Escape Special Characters in MSBuild](../msbuild/how-to-escape-special-characters-in-msbuild.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)

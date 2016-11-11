@@ -1,7 +1,7 @@
 ---
-title: "Debugging Legacy Workflows"
+title: "Debugging Legacy Workflows | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/20/2016"
+ms.date: "11/04/2016"
 ms.prod: ".net-framework-4.6"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,6 +13,7 @@ helpviewer_keywords:
   - "debugging workflows"
 ms.assetid: e6097b47-760a-4b30-a92c-ae70cdbda49f
 caps.latest.revision: 8
+author: "ErikRe"
 ms.author: "erikre"
 manager: "erikre"
 translation.priority.ht: 
@@ -68,16 +69,16 @@ If you are using the legacy [!INCLUDE[wfd1](../workflow-designer/includes/wfd1_m
 -   Mixed-mode debugging.  
   
 ## In This Section  
- [Invoking the Visual Studio Debugger for Windows Workflow Foundation (Legacy)](../workflow-designer/invoking-the-visual-studio-debugger-for-windows-workflow-foundation--legacy-.md)  
+ [Invoking the Visual Studio Debugger for Windows Workflow Foundation (Legacy)](../workflow-designer/invoking-the-visual-studio-debugger-for-windows-workflow-foundation-legacy.md)  
   
- [Disabling the Visual Studio Debugger for Windows Workflow Foundation (Legacy)](../workflow-designer/disabling-the-visual-studio-debugger-for-windows-workflow-foundation--legacy-.md)  
+ [Disabling the Visual Studio Debugger for Windows Workflow Foundation (Legacy)](../workflow-designer/disabling-the-visual-studio-debugger-for-windows-workflow-foundation-legacy.md)  
   
- [How to: Debug ASP.NET-Based Workflows (Legacy)](../workflow-designer/how-to--debug-asp.net-based-workflows--legacy-.md)  
+ [How to: Debug ASP.NET-Based Workflows (Legacy)](../workflow-designer/how-to-debug-aspnet-based-workflows-legacy.md)  
   
- [How to: Set Breakpoints in Workflows (Legacy)](../workflow-designer/how-to--set-breakpoints-in-workflows--legacy-.md)  
+ [How to: Set Breakpoints in Workflows (Legacy)](../workflow-designer/how-to-set-breakpoints-in-workflows-legacy.md)  
   
- [Debugging Workflows from a Remote Computer (Legacy)](../workflow-designer/debugging-workflows-from-a-remote-computer--legacy-.md)  
+ [Debugging Workflows from a Remote Computer (Legacy)](../workflow-designer/debugging-workflows-from-a-remote-computer-legacy.md)  
   
- [Debug Stepping Options (Legacy)](../workflow-designer/debug-stepping-options--legacy-.md)  
+ [Debug Stepping Options (Legacy)](../workflow-designer/debug-stepping-options-legacy.md)  
   
- [How to: Change the Debug Stepping Option (Legacy)](../workflow-designer/how-to--change-the-debug-stepping-option--legacy-.md)
+ [How to: Change the Debug Stepping Option (Legacy)](../workflow-designer/how-to-change-the-debug-stepping-option-legacy.md)

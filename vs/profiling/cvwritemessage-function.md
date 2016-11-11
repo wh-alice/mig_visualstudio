@@ -1,7 +1,7 @@
 ---
-title: "CvWriteMessage Function"
+title: "CvWriteMessage Function | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -29,6 +29,7 @@ helpviewer_keywords:
   - "CvWriteMessageExA method"
 ms.assetid: e20ae7be-bfa7-437a-b8c1-fa0f1baa7f83
 caps.latest.revision: 3
+author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 translation.priority.ht: 
@@ -133,4 +134,4 @@ HRESULT CvWriteMessageExVA(
  **ANSI:** CvWriteMessageA, CvWriteMessageVA, CvWriteMessageExA, CvWriteMessageExVA  
   
 ## See Also  
- [C++ Library Reference](../profiling/c---library-reference.md)
+ [C++ Library Reference](../profiling/cpp-library-reference.md)

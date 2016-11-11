@@ -1,7 +1,7 @@
 ---
-title: "XAttribute Class Dynamic Properties"
+title: "XAttribute Class Dynamic Properties | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,6 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7394cef0-55e9-4e90-bc2e-118ed4b78fb0
 caps.latest.revision: 2
+author: "kempb"
 ms.author: "kempb"
 manager: "ghogen"
 translation.priority.ht: 
@@ -35,7 +36,7 @@ This section describes the dynamic properties of the <xref:System.Xml.Linq.XAttr
   
 |Topic|Description|  
 |-----------|-----------------|  
-|[Value](../designers/value--xattribute-dynamic-property-.md)|Gets or sets the value of the XML attribute.|  
+|[Value](../designers/value-xattribute-dynamic-property.md)|Gets or sets the value of the XML attribute.|  
   
 ## See Also  
  <xref:System.Xml.Linq.XAttribute?displayProperty=fullName>   

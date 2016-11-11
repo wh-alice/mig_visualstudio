@@ -1,7 +1,7 @@
 ---
-title: "Evaluation Context"
+title: "Evaluation Context | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -35,7 +35,7 @@ translation.priority.mt:
 > [!IMPORTANT]
 >  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
   
- When the debug engine (DE) calls the expression evaluator (EE), three arguments passed to [EvaluateSync](../../extensibility/debugger/reference/idebugparsedexpression--evaluatesync.md) determine the context for finding and evaluating symbols, as shown in the following table.  
+ When the debug engine (DE) calls the expression evaluator (EE), three arguments passed to [EvaluateSync](../../extensibility/debugger/reference/idebugparsedexpression-evaluatesync.md) determine the context for finding and evaluating symbols, as shown in the following table.  
   
 ## Arguments  
   
@@ -50,7 +50,7 @@ translation.priority.mt:
 ## See Also  
  [Key Expression Evaluator Interfaces](../../extensibility/debugger/key-expression-evaluator-interfaces.md)   
  [Displaying Locals](../../extensibility/debugger/displaying-locals.md)   
- [EvaluateSync](../../extensibility/debugger/reference/idebugparsedexpression--evaluatesync.md)   
+ [EvaluateSync](../../extensibility/debugger/reference/idebugparsedexpression-evaluatesync.md)   
  [IDebugProperty2](../../extensibility/debugger/reference/idebugproperty2.md)   
  [IDebugSymbolProvider](../../extensibility/debugger/reference/idebugsymbolprovider.md)   
  [IDebugAddress](../../extensibility/debugger/reference/idebugaddress.md)   

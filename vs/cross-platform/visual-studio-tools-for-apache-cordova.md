@@ -1,13 +1,14 @@
 ---
-title: "Visual Studio Tools for Apache Cordova"
+title: "Visual Studio Tools for Apache Cordova | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 21dcf46e-5d6d-439c-90e3-3d678e50c5a6
 caps.latest.revision: 4
+author: "ghogen"
 ms.author: "ghogen"
 manager: "ghogen"
 translation.priority.ht: 

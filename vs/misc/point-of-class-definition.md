@@ -1,7 +1,7 @@
 ---
-title: "Point of Class Definition"
+title: "Point of Class Definition | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,6 +15,7 @@ helpviewer_keywords:
   - "point of class definition"
 ms.assetid: 26563ca4-c487-48eb-9221-9cb8698e3286
 caps.latest.revision: 6
+author: "mikeblome"
 ms.author: "mblome"
 manager: "douge"
 translation.priority.mt: 
@@ -33,4 +34,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Point of Class Definition
-This content has moved to [Classes and Structs](../Topic/Classes%20and%20Structs%20\(C++\).md)
+This content has moved to [Classes and Structs](/visual-cpp/cpp/classes-and-structs-cpp)

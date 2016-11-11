@@ -1,7 +1,7 @@
 ---
-title: "Creating a Custom Start Page"
+title: "Creating a Custom Start Page | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/19/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -97,8 +97,8 @@ If you cannot create a custom Start Page by using the Start Page project templat
 -   After you have tested your Start Page and found it to be stable, use the **Customize Start Page** option in the **Options** dialog box to select it as the start page in the primary instance of Visual Studio  
   
 ## See Also  
- [Walkthrough: Adding Custom XAML to the Start Page](../extensibility/walkthrough--adding-custom-xaml-to-the-start-page.md)   
+ [Walkthrough: Adding Custom XAML to the Start Page](../extensibility/walkthrough-adding-custom-xaml-to-the-start-page.md)   
  [Adding User Control to the Start Page](../extensibility/adding-user-control-to-the-start-page.md)   
  [Adding Visual Studio Commands to a Start Page](../extensibility/adding-visual-studio-commands-to-a-start-page.md)   
- [Walkthrough: Saving User Settings on a Start Page](../extensibility/walkthrough--saving-user-settings-on-a-start-page.md)   
+ [Walkthrough: Saving User Settings on a Start Page](../extensibility/walkthrough-saving-user-settings-on-a-start-page.md)   
  [Deploying Custom Start Pages](../extensibility/deploying-custom-start-pages.md)

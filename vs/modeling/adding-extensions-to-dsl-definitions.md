@@ -1,7 +1,7 @@
 ---
-title: "Adding Extensions to DSL Definitions"
+title: "Adding Extensions to DSL Definitions | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/21/2016"
+ms.date: "11/04/2016"
 ms.prod: "visual-studio-tfs-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 07e133be-92ab-4936-a02b-45d2012bd0a6
 caps.latest.revision: 6
+author: "alancameronwills"
 ms.author: "awills"
 manager: "douge"
 ---

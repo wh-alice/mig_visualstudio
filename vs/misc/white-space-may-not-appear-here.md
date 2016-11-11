@@ -1,5 +1,5 @@
 ---
-title: "White space may not appear here"
+title: "White space may not appear here | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "BC31177"
 ms.assetid: e23d46b8-acf7-42c7-8625-b35f29d02189
 caps.latest.revision: 4
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -44,5 +45,5 @@ A space or spaces are included in the name of an XML element literal.
 -   Remove the space or spaces from the name of the XML element literal.  
   
 ## See Also  
- [XML Literals](../Topic/XML%20Literals%20\(Visual%20Basic\).md)   
- [XML](../Topic/XML%20in%20Visual%20Basic.md)
+ [XML Literals](/dotnet/visual-basic/language-reference/xml-literals/index)   
+ [XML](/dotnet/visual-basic/programming-guide/language-features/xml/index)

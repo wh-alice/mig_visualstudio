@@ -1,5 +1,5 @@
 ---
-title: "Conversion operators cannot convert from a base type"
+title: "Conversion operators cannot convert from a base type | Microsoft Docs"
 ms.custom: ""
 ms.date: "2015-07-20"
 ms.prod: "visual-studio-dev14"
@@ -16,6 +16,7 @@ helpviewer_keywords:
   - "BC33030"
 ms.assetid: b19800ab-6a32-473f-b7ee-7de584e4ccae
 caps.latest.revision: 9
+author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -48,7 +49,7 @@ A conversion operator is declared with a parameter type from which the return ty
 -   Remove this operator definition entirely. It is already predefined.  
   
 ## See Also  
- [Operator Procedures](../Topic/Operator%20Procedures%20\(Visual%20Basic\).md)   
- [Operator Statement](../Topic/Operator%20Statement.md)   
+ [Operator Procedures](/dotnet/visual-basic/language-reference/procedures/operator-procedures)   
+ [Operator Statement](/dotnet/visual-basic/language-reference/statements/operator-statement)   
  [How to: Define an Operator](../Topic/How%20to:%20Define%20an%20Operator%20\(Visual%20Basic\).md)   
  [How to: Define a Conversion Operator](../Topic/How%20to:%20Define%20a%20Conversion%20Operator%20\(Visual%20Basic\).md)
