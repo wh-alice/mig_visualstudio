@@ -47,7 +47,7 @@ In Visual Studio, you can specify the version or profile of the .NET Framework t
  Details how to specify a particular [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] for your Visual Basic, Visual C# or Visual F# project.  
   
 ## Related Sections  
- [.NET Framework Multi-Targeting for ASP.NET Web Projects](../Topic/.NET%20Framework%20Multi-Targeting%20for%20ASP.NET%20Web%20Projects.md)  
+ [.NET Framework Multi-Targeting for ASP.NET Web Projects](http://msdn.microsoft.com/en-us/Library/8b8145a9-62f6-4fc4-8a83-47b0487cbe76)  
  Explains how to use this version of Visual Studio to develop Web applications that run under earlier versions of the .NET Framework.  
   
  [Application Page, Project Designer (C#)](../ide/reference/application-page-project-designer-csharp.md)  

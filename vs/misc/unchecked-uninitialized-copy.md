@@ -38,7 +38,7 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # unchecked_uninitialized_copy
-Same as [uninitialized_copy](../Topic/uninitialized_copy.md) but allows the use of an unchecked iterator as output iterator when _SECURE_SCL=1 is defined. This function is defined in the [stdext Namespace](/visual-cpp/standard-library/stdext-namespace) namespace.  
+Same as [uninitialized_copy](http://msdn.microsoft.com/en-us/Library/23a09cb8-4116-475e-b0bb-5d3e7daca5aa) but allows the use of an unchecked iterator as output iterator when _SECURE_SCL=1 is defined. This function is defined in the [stdext Namespace](/visual-cpp/standard-library/stdext-namespace) namespace.  
   
 > [!NOTE]
 >  This algorithm is a Microsoft extension to the Standard C++ Library. Code implemented using this algorithm will not be portable.  
@@ -79,7 +79,7 @@ template<class InputIterator, class ForwardIterator, class Allocator>
  A forward iterator addressing the position one past the final element in the destination range that is receiving the copy.  
   
 ## Remarks  
- See [uninitialized_copy](../Topic/uninitialized_copy.md) for a code sample.  
+ See [uninitialized_copy](http://msdn.microsoft.com/en-us/Library/23a09cb8-4116-475e-b0bb-5d3e7daca5aa) for a code sample.  
   
  For more information on checked iterators, see [Checked Iterators](/visual-cpp/standard-library/checked-iterators).  
   

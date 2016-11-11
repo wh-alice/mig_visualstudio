@@ -76,4 +76,4 @@ translation.priority.ht:
   
 ## See Also  
  <xref:System.Object.Equals%2A?displayProperty=fullName>   
- [Equality Operators](../Topic/Equality%20Operators.md)
+ [Equality Operators](http://msdn.microsoft.com/en-us/Library/bc496a91-fefb-4ce0-ab4c-61f09964119a)

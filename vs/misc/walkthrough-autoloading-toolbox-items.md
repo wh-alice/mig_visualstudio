@@ -58,7 +58,7 @@ This walkthrough illustrates how a managed VSPackage can use reflection to autom
 6.  Implement a command on the VSPackage to force re-initialization of the **Toolbox**.  
   
 ## Prerequisites  
- To follow this walkthrough, you must install the Visual Studio SDK. For more information, see [Extending Visual Studio Overview](../Topic/Extending%20Visual%20Studio%20Overview.md).  
+ To follow this walkthrough, you must install the Visual Studio SDK. For more information, see [Extending Visual Studio Overview](http://msdn.microsoft.com/en-us/Library/3e9078d7-2763-4cc4-8e20-fac69d747f59).  
   
 ## Locations for the Visual Studio Package Project Template  
  The Visual Studio Package project template can be found in three different locations in the **New Project** dialog:  
@@ -132,7 +132,7 @@ This walkthrough illustrates how a managed VSPackage can use reflection to autom
 3.  Close the experimental version of [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)].  
   
 ## Creating a Toolbox Control  
- In this section, you create and register a user control, `Control1`, that declares an associated default **Toolbox** item. For more information about how to author Windows Form controls and the <xref:System.Drawing.Design.ToolboxItem> class, see [Developing Windows Forms Controls at Design Time](../Topic/Developing%20Windows%20Forms%20Controls%20at%20Design%20Time.md).  
+ In this section, you create and register a user control, `Control1`, that declares an associated default **Toolbox** item. For more information about how to author Windows Form controls and the <xref:System.Drawing.Design.ToolboxItem> class, see [Developing Windows Forms Controls at Design Time](http://msdn.microsoft.com/en-us/Library/e5a8e088-7ec8-4fd9-bcb3-9078fd134829).  
   
 #### To create a Toolbox control that will be used with a default ToolboxItem  
   

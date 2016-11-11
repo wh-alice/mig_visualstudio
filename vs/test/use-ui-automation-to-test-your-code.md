@@ -463,7 +463,7 @@ Mouse.Hover(uIItem1Text, new Point(87, 9));
   
 -   [How to: Configure and Run Scheduled Tests After Building Your Application](http://msdn.microsoft.com/en-us/32acfeb1-b1aa-4afb-8cfe-cc209e6183fd)  
   
--   [Run tests in your build process](../Topic/Run%20tests%20in%20your%20build%20process.md)  
+-   [Run tests in your build process](http://msdn.microsoft.com/en-us/Library/d05743a1-c5cf-447e-bed9-bed3cb595e38)  
   
 -   [Running automated tests from the command line](/devops-test-docs/test/running-automated-tests-from-the-command-line)  
   
@@ -497,7 +497,7 @@ Mouse.Hover(uIItem1Text, new Point(87, 9));
 ## See Also  
  <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap>   
  <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert>   
- [Improve Code Quality](../Topic/Improve%20Code%20Quality.md)   
+ [Improve Code Quality](http://msdn.microsoft.com/en-us/Library/73baa961-c21f-43fe-bb92-3f59ae9b5945)   
  [Walkthrough: Creating, Editing and Maintaining a Coded UI Test](../test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md)   
  [Anatomy of a Coded UI Test](../test/anatomy-of-a-coded-ui-test.md)   
  [Best Practices for Coded UI Tests](../test/best-practices-for-coded-ui-tests.md)   

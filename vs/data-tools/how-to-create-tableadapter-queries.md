@@ -69,7 +69,7 @@ TableAdapter queries are SQL statements or stored procedures that your applicati
 4.  Complete the wizard; the query is added to the TableAdapter.  
   
 ## Create a Query Directly on a Form in Your Windows Application  
- If you have an instance of a TableAdapter on your form you can add a query using the [Search Criteria Builder Dialog Box](../Topic/Search%20Criteria%20Builder%20Dialog%20Box.md), which adds a <xref:System.Windows.Forms.ToolStrip> control to the form that accepts any input parameters required by the query, as well as a button to run the query.  
+ If you have an instance of a TableAdapter on your form you can add a query using the [Search Criteria Builder Dialog Box](http://msdn.microsoft.com/en-us/Library/0b306b92-f35e-45ef-a4be-3f653cd00c3d), which adds a <xref:System.Windows.Forms.ToolStrip> control to the form that accepts any input parameters required by the query, as well as a button to run the query.  
   
 #### To add a query to a TableAdapter using the Search Criteria dialog box  
   
@@ -77,7 +77,7 @@ TableAdapter queries are SQL statements or stored procedures that your applicati
   
 2.  Click the TableAdapter's smart tag, and choose **Add Query**.  
   
-3.  Complete the dialog box and the query is added to the TableAdapter. For more information, see [Search Criteria Builder Dialog Box](../Topic/Search%20Criteria%20Builder%20Dialog%20Box.md).  
+3.  Complete the dialog box and the query is added to the TableAdapter. For more information, see [Search Criteria Builder Dialog Box](http://msdn.microsoft.com/en-us/Library/0b306b92-f35e-45ef-a4be-3f653cd00c3d).  
   
 ## See Also  
  [TableAdapter Overview](../data-tools/tableadapter-overview.md)   
@@ -85,7 +85,7 @@ TableAdapter queries are SQL statements or stored procedures that your applicati
  [Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md)   
  [Add new data sources](../data-tools/add-new-data-sources.md)   
  [How to: Connect to Data in a Database](../data-tools/how-to-connect-to-data-in-a-database.md)   
- [Validating Data](../Topic/Validating%20Data.md)   
+ [Validating Data](http://msdn.microsoft.com/en-us/Library/b3a9ee4e-5d4d-4411-9c56-c811f2b4ee7e)   
  [How to: Navigate Data with the Windows Forms BindingNavigator Control](../Topic/How%20to:%20Navigate%20Data%20with%20the%20Windows%20Forms%20BindingNavigator%20Control.md)   
  [Walkthrough: Displaying Data on a Windows Form](../data-tools/walkthrough-displaying-data-on-a-windows-form.md)   
  [Walkthrough: Creating a TableAdapter with Multiple Queries](../data-tools/walkthrough-creating-a-tableadapter-with-multiple-queries.md)

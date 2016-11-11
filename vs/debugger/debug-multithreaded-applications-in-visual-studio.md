@@ -107,10 +107,10 @@ A thread is a sequence of instructions to which the operating system allocates p
   
 -   Tracepoints enable you to trace execution of your program without breaking. This can be useful for studying problems such as deadlocks.  
   
- [Threading](../Topic/Managed%20Threading.md)  
+ [Threading](http://msdn.microsoft.com/en-us/Library/7b46a7d9-c6f1-46d1-a947-ae97471bba87)  
  Threading concepts in [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] programming, including example code.  
   
- [Multithreading in Components](../Topic/Multithreading%20in%20Components.md)  
+ [Multithreading in Components](http://msdn.microsoft.com/en-us/Library/2fc31e68-fb71-4544-b654-0ce720478779)  
  How to use multithreading in [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] components.  
   
  [Multithreading Support for Older Code (Visual C++)](/visual-cpp/parallel/multithreading/multithreading-support-for-older-code-visual-cpp)  

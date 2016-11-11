@@ -104,7 +104,7 @@ Validating data is the process of confirming that the values being entered into 
   
 -   Reject the proposed value by setting the column error (<xref:System.Data.DataRow.SetColumnError%2A>) from within the column-changing event handler.  
   
--   Optionally use an <xref:System.Windows.Forms.ErrorProvider> control to display an error message to the user. For more information, see [ErrorProvider Component](../Topic/ErrorProvider%20Component%20\(Windows%20Forms\).md).  
+-   Optionally use an <xref:System.Windows.Forms.ErrorProvider> control to display an error message to the user. For more information, see [ErrorProvider Component](http://msdn.microsoft.com/en-us/Library/c0f2e231-c5c9-413d-a507-75af2db499b6).  
   
  Validation can also be performed during the <xref:System.Data.DataTable.RowChanging> event. For more information, see [How to: Validate Data During Row Changes](../Topic/How%20to:%20Validate%20Data%20During%20Row%20Changes.md).  
   

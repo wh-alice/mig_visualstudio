@@ -110,4 +110,4 @@ Manipulation of the metadata and filter attributes associated with a designer or
  <xref:Microsoft.VisualStudio.Shell.Design.DesignSurfaceExtension>   
  <xref:Microsoft.VisualStudio.Shell.Design.DesignSurfaceExtensionAttribute>   
  <xref:System.ComponentModel.ToolboxItemFilterType>   
- [Extending Design-Time Support](../Topic/Extending%20Design-Time%20Support.md)
+ [Extending Design-Time Support](http://msdn.microsoft.com/en-us/Library/d6ac8a6a-42fd-4bc8-bf33-b212811297e2)

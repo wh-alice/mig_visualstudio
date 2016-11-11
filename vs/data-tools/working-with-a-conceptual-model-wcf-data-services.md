@@ -64,4 +64,4 @@ When you use a conceptual model to describe the data in a database, you can quer
   
 ## See Also  
  [Windows Communication Foundation Services and WCF Data Services in Visual Studio](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md)   
- [Querying the Data Service](../Topic/Querying%20the%20Data%20Service%20\(WCF%20Data%20Services\).md)
+ [Querying the Data Service](http://msdn.microsoft.com/en-us/Library/823e9444-27aa-4f1f-be8e-0486d67f54c0)

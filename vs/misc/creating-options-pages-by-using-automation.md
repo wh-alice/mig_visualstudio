@@ -91,7 +91,7 @@ Managed VSPackages can use automation to extend the [!INCLUDE[vsprvs](../code-qu
 >  The IDE's **Fonts and Colors** page is an example of a **Tools Options** page that does not support automation, but provides access to the **Tools Options** page through its own API. For more information, see [Using Fonts and Colors](../extensibility/using-fonts-and-colors.md).  
   
 ## See Also  
- [Extending the Visual Studio Environment](../Topic/Extending%20the%20Visual%20Studio%20Environment.md)   
+ [Extending the Visual Studio Environment](http://msdn.microsoft.com/en-us/Library/4173a963-7ac7-4966-9bb7-e28a9d9f6792)   
  [Creating Options Pages By Using Interop Assemblies](../misc/creating-options-pages-by-using-interop-assemblies.md)   
  [Creating Options Pages](../extensibility/internals/creating-options-pages.md)   
  [How to: Create Custom Options Pages](../Topic/How%20to:%20Create%20Custom%20Options%20Pages.md)   

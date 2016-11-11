@@ -129,7 +129,7 @@ End Function
   
 ## See Also  
  [Debugging SQL](http://msdn.microsoft.com/en-us/f27c17e6-1d90-49f2-9fc0-d02e6a27f109)   
- [Side Effects and Expressions](../Topic/Side%20Effects%20and%20Expressions.md)   
+ [Side Effects and Expressions](http://msdn.microsoft.com/en-us/Library/e1f8a6ea-9e19-481d-b6bd-df120ad3bf4e)   
  [Managing Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md)   
  [Introduction to LINQ Queries (C#)](/dotnet/csharp/programming-guide/concepts/linq/introduction-to-linq-queries)   
  [Introduction to LINQ in Visual Basic](/dotnet/visual-basic/programming-guide/language-features/linq/introduction-to-linq)

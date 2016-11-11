@@ -75,13 +75,13 @@ The**Dataset Designer** is a set of visual tools that you can use to create and 
 |TableAdapter|Contains a collection of data commands and a data connection that are used to communicate with the underlying database and populate a data table. For more information, see [TableAdapter Overview](../data-tools/tableadapter-overview.md) and [Create and configure TableAdapters](../data-tools/create-and-configure-tableadapters.md).|  
 |Query|TableAdapter queries are strongly typed methods that execute SQL statements and stored procedures. Running a TableAdapter query populates a data table with data or performs other database tasks. For more information, see [How to: Create TableAdapter Queries](../data-tools/how-to-create-tableadapter-queries.md). Dragging a query onto a table adds the query to that table, whereas dragging a query onto an empty area of the **Dataset Designer** creates a global query. For more information, see [How to: Add Global Queries to a TableAdapter](../data-tools/how-to-add-global-queries-to-a-tableadapter.md).|  
 |<xref:System.Data.DataTable>|Represents an in-memory collection of the rows returned from a database.|  
-|Relation (<xref:System.Data.DataRelation>)|Represents a parent-child relationship between two <xref:System.Data.DataTable>s. For more information, see [Introduction to DataRelation Objects](../Topic/Introduction%20to%20DataRelation%20Objects.md) and [Walkthrough: Creating a Relationship between Data Tables](../Topic/Walkthrough:%20Creating%20a%20Relationship%20between%20Data%20Tables.md).|  
+|Relation (<xref:System.Data.DataRelation>)|Represents a parent-child relationship between two <xref:System.Data.DataTable>s. For more information, see [Introduction to DataRelation Objects](http://msdn.microsoft.com/en-us/Library/89d8a881-8265-41f2-a88b-61311ab06192) and [Walkthrough: Creating a Relationship between Data Tables](../Topic/Walkthrough:%20Creating%20a%20Relationship%20between%20Data%20Tables.md).|  
   
 > [!NOTE]
 >  The **Dataset Designer** connects to an underlying database only when a dataset is created; the designer doesn't automatically detect subsequent changes to the database. To refresh an existing .xsd, re-run the **Configuration Wizard**. If the table relations have changed, remove and re-add the relevant tables to the .xsd.  
   
 ## LINQ to Dataset  
- [!INCLUDE[linq_dataset](../data-tools/includes/linq_dataset_md.md)] enables [LINQ (Language-Integrated Query)](../Topic/LINQ%20\(Language-Integrated%20Query\).md) over data in a <xref:System.Data.DataSet> object. For more information, see [LINQ to DataSet](../Topic/LINQ%20to%20DataSet.md).  
+ [!INCLUDE[linq_dataset](../data-tools/includes/linq_dataset_md.md)] enables [LINQ (Language-Integrated Query)](http://msdn.microsoft.com/en-us/Library/a73c4aec-5d15-4e98-b962-1274021ea93d) over data in a <xref:System.Data.DataSet> object. For more information, see [LINQ to DataSet](http://msdn.microsoft.com/en-us/Library/743e3755-3ecb-45a2-8d9b-9ed41f0dcf17).  
   
 ## See Also  
  [Walkthrough: Creating a Dataset with the Dataset Designer](../data-tools/walkthrough-creating-a-dataset-with-the-dataset-designer.md)   
@@ -89,10 +89,10 @@ The**Dataset Designer** is a set of visual tools that you can use to create and 
  [Walkthrough: Creating a DataTable in the Dataset Designer](../data-tools/walkthrough-creating-a-datatable-in-the-dataset-designer.md)   
  [Walkthrough: Creating a Relationship between Data Tables](../Topic/Walkthrough:%20Creating%20a%20Relationship%20between%20Data%20Tables.md)   
  [Walkthrough: Displaying Data on a Windows Form](../data-tools/walkthrough-displaying-data-on-a-windows-form.md)   
- [Data Sources Window](../Topic/Data%20Sources%20Window.md)   
+ [Data Sources Window](http://msdn.microsoft.com/en-us/Library/0d20f699-cc95-45b3-8ecb-c7edf1f67992)   
  [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md)   
- [Preparing Your Application to Receive Data](../Topic/Preparing%20Your%20Application%20to%20Receive%20Data.md)   
+ [Preparing Your Application to Receive Data](http://msdn.microsoft.com/en-us/Library/c17bdb7e-c234-4f2f-9582-5e55c27356ad)   
  [Fetching Data into Your Application](../data-tools/fetching-data-into-your-application.md)   
  [Editing Data in Your Application](../data-tools/editing-data-in-your-application.md)   
- [Validating Data](../Topic/Validating%20Data.md)   
+ [Validating Data](http://msdn.microsoft.com/en-us/Library/b3a9ee4e-5d4d-4411-9c56-c811f2b4ee7e)   
  [Saving Data](../data-tools/saving-data.md)

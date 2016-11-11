@@ -57,4 +57,4 @@ A <xref:System.Runtime.InteropServices.COMException> exception is thrown when an
 ## See Also  
  <xref:System.Runtime.InteropServices.COMException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)   
- [Handling COM Interop Exceptions](../Topic/Handling%20COM%20Interop%20Exceptions.md)
+ [Handling COM Interop Exceptions](http://msdn.microsoft.com/en-us/Library/e6104aa8-8e5f-4069-b864-def85579c96c)

@@ -39,4 +39,4 @@ The exception that is thrown when a name conflict occurs while generating a stro
 ## See Also  
  <xref:System.Data.Design.TypedDataSetGeneratorException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)   
- [Preparing Your Application to Receive Data](../Topic/Preparing%20Your%20Application%20to%20Receive%20Data.md)
+ [Preparing Your Application to Receive Data](http://msdn.microsoft.com/en-us/Library/c17bdb7e-c234-4f2f-9582-5e55c27356ad)

@@ -65,7 +65,7 @@ In this walkthrough, you will create a WPF application that contains data-bound 
   
 -   Working with the WPF Designer. For more information, see [WPF and Silverlight Designer Overview](http://msdn.microsoft.com/en-us/570b7a5c-0c86-4326-a371-c9b63378fc62).  
   
--   WPF data binding. For more information, see [Data Binding Overview](../Topic/Data%20Binding%20Overview.md).  
+-   WPF data binding. For more information, see [Data Binding Overview](http://msdn.microsoft.com/en-us/Library/c707c95f-7811-401d-956e-2fffd019a211).  
   
 ## Create the project  
  Create a new WPF project. The project will display product records.  
@@ -236,7 +236,7 @@ In this walkthrough, you will create a WPF application that contains data-bound 
      [!code-vb[Data_WPFDATASET#4](../data-tools/codesnippet/VisualBasic/bind-wpf-controls-to-a-dataset_4.vb)]  
   
     > [!NOTE]
-    >  This example uses the `Save` method of the `TableAdapter` to save the changes. This is appropriate in this walkthrough, because only one data table is being changed. If you need to save changes to multiple data tables, you can alternatively use the `UpdateAll` method of the `TableAdapterManager` that Visual Studio generates with your dataset. For more information, see [TableAdapterManager Overview](../Topic/TableAdapterManager%20Overview.md).  
+    >  This example uses the `Save` method of the `TableAdapter` to save the changes. This is appropriate in this walkthrough, because only one data table is being changed. If you need to save changes to multiple data tables, you can alternatively use the `UpdateAll` method of the `TableAdapterManager` that Visual Studio generates with your dataset. For more information, see [TableAdapterManager Overview](http://msdn.microsoft.com/en-us/Library/33076d42-6b41-491a-ac11-6c6339aea650).  
   
 ## Test the application  
  Build and run the application. Verify that you can view and update product records.  
@@ -271,4 +271,4 @@ In this walkthrough, you will create a WPF application that contains data-bound 
  [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio2.md)   
  [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md)   
  [WPF and Silverlight Designer Overview](http://msdn.microsoft.com/en-us/570b7a5c-0c86-4326-a371-c9b63378fc62)   
- [Data Binding Overview](../Topic/Data%20Binding%20Overview.md)
+ [Data Binding Overview](http://msdn.microsoft.com/en-us/Library/c707c95f-7811-401d-956e-2fffd019a211)

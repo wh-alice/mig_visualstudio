@@ -79,7 +79,7 @@ This section covers common debugging problems and techniques for managed applica
  [IntelliTrace](../debugger/intellitrace.md)  
  Find bugs faster and easier by recording your app's execution history with IntelliTrace. Step backward and forward through recorded events and calls to examine your app's state at key points in time. Debug your code without setting lots of breakpoints or restarting your app as frequently. Requires Visual Studio Ultimate.  
   
- [Tracing and Instrumenting Applications](../Topic/Tracing%20and%20Instrumenting%20Applications.md)  
+ [Tracing and Instrumenting Applications](http://msdn.microsoft.com/en-us/Library/773b6fc4-9013-4322-b728-5dec7a72e743)  
  Describes tracing, a way for you to monitor the execution of your application while it is running, and instrumenting, which involves placing trace statements at strategic locations in your code. This topic also provides links to an introduction to instrumentation and tracing, trace switches, trace listeners, tracing code in an application, adding trace statements to application code, and compiling conditionally with <xref:System.Diagnostics.Debug> and <xref:System.Diagnostics.Trace>.  
   
  [/ASSEMBLYDEBUG](/visual-cpp/build/reference/assemblydebug-add-debuggableattribute)  
@@ -88,7 +88,7 @@ This section covers common debugging problems and techniques for managed applica
  [Debugging Windows Service Applications](../Topic/How%20to:%20Debug%20Windows%20Service%20Applications.md)  
  Provides considerations for debugging Windows service applications, including setting up, attaching to the process, debugging the code in the service's `OnStart` method and the code in the Main method, setting breakpoints, and using the Services Control Manager to start, stop, pause, and continue your service.  
   
- [Debugging and Profiling](../Topic/Debugging,%20Tracing,%20and%20Profiling.md)  
+ [Debugging and Profiling](http://msdn.microsoft.com/en-us/Library/4a04863e-2475-46f4-bc3f-3c11510c2a4b)  
  Discusses debugging .NET Framework applications and the configuration requirements.  
   
  [Debugging Script and Web Applications](../debugger/debugging-web-applications-and-script.md)  

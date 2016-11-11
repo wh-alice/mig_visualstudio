@@ -112,4 +112,4 @@ This topic describes the debugger windows and dialog boxes. It only discusses th
 ## See Also  
  [Debugging XSLT](../xml-tools/debugging-xslt.md)   
  [Debugger Basics](../debugger/debugger-basics.md)   
- [Variable Windows](../Topic/Variable%20Windows.md)
+ [Variable Windows](http://msdn.microsoft.com/en-us/Library/ce0a67f6-2502-4b7a-ba45-cc32f8aeba3e)

@@ -41,7 +41,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Walkthrough: Displaying Data on a Windows Form
-One of the most common scenarios in application development is to display data on a form in a Windows-based application. You can display data on a form by dragging items from the [Data Sources Window](../Topic/Data%20Sources%20Window.md) onto the form. This walkthrough creates a simple form that displays data from a single table in several individual controls. This example uses the `Customers` table from the Northwind sample database.  
+One of the most common scenarios in application development is to display data on a form in a Windows-based application. You can display data on a form by dragging items from the [Data Sources Window](http://msdn.microsoft.com/en-us/Library/0d20f699-cc95-45b3-8ecb-c7edf1f67992) onto the form. This walkthrough creates a simple form that displays data from a single table in several individual controls. This example uses the `Customers` table from the Northwind sample database.  
   
  Tasks illustrated in this walkthrough include:  
   
@@ -67,7 +67,7 @@ One of the most common scenarios in application development is to display data o
   
 2.  Name the project `DisplayingDataonaWindowsForm`.  
   
-3.  Select **Windows Application** and click **OK**. For more information, see [Client Applications](../Topic/Developing%20Client%20Applications%20with%20the%20.NET%20Framework.md).  
+3.  Select **Windows Application** and click **OK**. For more information, see [Client Applications](http://msdn.microsoft.com/en-us/Library/2dfb50b7-5af2-4e12-9bbb-c5ade0e39a68).  
   
      The **DisplayingDataonaWindowsForm** project is created and added to **Solution Explorer**.  
   
@@ -138,7 +138,7 @@ One of the most common scenarios in application development is to display data o
 -   Adding the `Orders` table to the dataset by selecting **Configure DataSet with Wizard** from within the **Data Sources** window. Then you can add controls that display related data by dragging the **Orders** node (the one below the **Fax** column within the **Customers** table) onto the form. For more information, see [How to: Display Related Data in a Windows Forms Application](../data-tools/how-to-display-related-data-in-a-windows-forms-application.md).  
   
 ## See Also  
- [Data Walkthroughs](../Topic/Data%20Walkthroughs.md)   
+ [Data Walkthroughs](http://msdn.microsoft.com/en-us/Library/15a88fb8-3bee-4962-914d-7a1f8bd40ec4)   
  [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)   
  [Add new data sources](../data-tools/add-new-data-sources.md)   
  [TableAdapter Overview](../data-tools/tableadapter-overview.md)

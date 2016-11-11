@@ -40,7 +40,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # How to: Connect to Data in a Database
-You can use Visual Studio to connect your application to a database. After creating the data connection, Visual Studio generates a data model that your application uses to interact with the data in the database. The objects in the data model appear in the [Data Sources Window](../Topic/Data%20Sources%20Window.md). You can then create data-bound controls by dragging items from the **Data Sources Window** to a design surface. For more information, see [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md).  
+You can use Visual Studio to connect your application to a database. After creating the data connection, Visual Studio generates a data model that your application uses to interact with the data in the database. The objects in the data model appear in the [Data Sources Window](http://msdn.microsoft.com/en-us/Library/0d20f699-cc95-45b3-8ecb-c7edf1f67992). You can then create data-bound controls by dragging items from the **Data Sources Window** to a design surface. For more information, see [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md).  
   
  This topic provides instructions for connecting to a database and creating the following types of data models:  
   
@@ -83,10 +83,10 @@ You can use Visual Studio to connect your application to a database. After creat
     > [!NOTE]
     >  If the **Data Sources** window is not open, click **Show Data Sources** on the **Data** menu to open the window.  
   
-9. You can now drag items from the **Data Sources** window to the WPF designer, the Windows Forms designer, or the [Component Designer](../Topic/Component%20Designer.md) to create data-bound controls. For more information, see [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md).  
+9. You can now drag items from the **Data Sources** window to the WPF designer, the Windows Forms designer, or the [Component Designer](http://msdn.microsoft.com/en-us/Library/61a3a450-5b15-465e-bd9a-72a6c8c2b282) to create data-bound controls. For more information, see [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md).  
   
 ##  <a name="edm"></a> Connecting to Database and Creating an Entity Data Model  
- When you create an Entity Data Model that is based on a database, Visual Studio creates a set of classes that represent a programmable view of the data. For more information about Entity Data Models and the ADO.NET Entity Framework, see [Entity Framework Overview](../Topic/Entity%20Framework%20Overview.md).  
+ When you create an Entity Data Model that is based on a database, Visual Studio creates a set of classes that represent a programmable view of the data. For more information about Entity Data Models and the ADO.NET Entity Framework, see [Entity Framework Overview](http://msdn.microsoft.com/en-us/Library/a2166b3d-d8ba-4a0a-8552-6ba1e3eaaee0).  
   
  After you create an Entity Data Model, you can create data-bound WPF controls by dragging entity objects from the Data Sources window to the WPF designer.  
   
@@ -134,11 +134,11 @@ You can use Visual Studio to connect your application to a database. After creat
 5.  Complete the remaining steps in the **Data Source Configuration Wizard** or the **Entity Data Model Wizard**.  
   
 ## .NET Framework Security  
- Storing sensitive information (such as a password) can affect the security of your application. Using Windows Authentication (also known as integrated security) is a more secure way to control access to a database. For more information, see [Protecting Connection Information](../Topic/Protecting%20Connection%20Information.md).  
+ Storing sensitive information (such as a password) can affect the security of your application. Using Windows Authentication (also known as integrated security) is a more secure way to control access to a database. For more information, see [Protecting Connection Information](http://msdn.microsoft.com/en-us/Library/1471f580-bcd4-4046-bdaf-d2541ecda2f4).  
   
 ## See Also  
  [Add new data sources](../data-tools/add-new-data-sources.md)   
- [Data Walkthroughs](../Topic/Data%20Walkthroughs.md)   
+ [Data Walkthroughs](http://msdn.microsoft.com/en-us/Library/15a88fb8-3bee-4962-914d-7a1f8bd40ec4)   
  [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)   
  [Connecting to Data in Visual Studio](../data-tools/connecting-to-data-in-visual-studio.md)   
- [Connecting to a Data Source](../Topic/Connecting%20to%20a%20Data%20Source%20in%20ADO.NET.md)
+ [Connecting to a Data Source](http://msdn.microsoft.com/en-us/Library/9abc3f92-1be3-4e1a-b360-762dc689650e)

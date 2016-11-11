@@ -46,4 +46,4 @@ When you create, update, or delete entities that connect to a database through W
 |[How to: Execute Asynchronous Data Service Queries](../Topic/How%20to:%20Execute%20Asynchronous%20Data%20Service%20Queries%20\(WCF%20Data%20Services\).md)|Shows how to asynchronously save changes through a data service.|  
   
 ## See Also  
- [Updating the Data Service](../Topic/Updating%20the%20Data%20Service%20\(WCF%20Data%20Services\).md)
+ [Updating the Data Service](http://msdn.microsoft.com/en-us/Library/00d993be-ffed-4dea-baf7-6eea982cdb54)

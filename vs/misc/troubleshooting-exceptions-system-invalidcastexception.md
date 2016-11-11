@@ -59,5 +59,5 @@ An <xref:System.InvalidCastException> exception is thrown when a failure occurs 
  <xref:System.InvalidCastException>   
  [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)   
  [How to: Convert an Object to Another Type in Visual Basic](../Topic/How%20to:%20Convert%20an%20Object%20to%20Another%20Type%20in%20Visual%20Basic.md)   
- [Converting Strings to .NET Framework Data Types](../Topic/Converting%20Strings%20to%20.NET%20Framework%20Data%20Types.md)   
+ [Converting Strings to .NET Framework Data Types](http://msdn.microsoft.com/en-us/Library/65455ef3-9120-412c-819b-d0f59f88ac09)   
  [How to: Implement User-Defined Conversions Between Structs](../Topic/How%20to:%20Implement%20User-Defined%20Conversions%20Between%20Structs%20\(C%23%20Programming%20Guide\).md)

@@ -93,9 +93,9 @@ This document describes how to target a version of the .NET Framework when you c
   
 ## See Also  
  [Visual Studio Multi-Targeting Overview](../ide/visual-studio-multi-targeting-overview.md)   
- [.NET Framework Multi-Targeting for ASP.NET Web Projects](../Topic/.NET%20Framework%20Multi-Targeting%20for%20ASP.NET%20Web%20Projects.md)   
+ [.NET Framework Multi-Targeting for ASP.NET Web Projects](http://msdn.microsoft.com/en-us/Library/8b8145a9-62f6-4fc4-8a83-47b0487cbe76)   
  [Troubleshooting .NET Framework Targeting Errors](../msbuild/troubleshooting-dotnet-framework-targeting-errors.md)   
  [Application Page, Project Designer (C#)](../ide/reference/application-page-project-designer-csharp.md)   
  [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md)   
- [Configuring Projects](../Topic/Configuring%20Projects%20\(F%23\).md)   
+ [Configuring Projects](http://msdn.microsoft.com/en-us/Library/a1489abb-6294-4f8f-b71f-2cb126393526)   
  [How to: Modify the Target Framework and Platform Toolset](../Topic/How%20to:%20Modify%20the%20Target%20Framework%20and%20Platform%20Toolset.md)

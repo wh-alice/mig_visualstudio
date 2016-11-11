@@ -38,7 +38,7 @@ You can extend Visual Studio with automation add-ins, VSPackages, Managed Extens
  Simple extensions can add tool windows or send information to Visual Studio UI elements, such as the status bar or output window. More complex applications can be written as Visual Studio hierarchies, such as the Server Explorer. Still more power can be obtained by implementing a project, editor, or designer. For example, [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] and [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] are themselves implemented as language services.  
   
 ## Related Sections  
- [Visual Studio SDK and Automation](../Topic/Visual%20Studio%20SDK%20and%20Automation.md)  
+ [Visual Studio SDK and Automation](http://msdn.microsoft.com/en-us/Library/918cf97f-53f4-4fb5-8639-88f0b2852846)  
  Discusses using automation, VSPackages, or a combination to create Visual Studio extensibility applications.  
   
  [Visual Studio SDK and Managed Code](../misc/visual-studio-sdk-and-managed-code.md)  

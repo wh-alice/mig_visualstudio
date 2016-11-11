@@ -37,7 +37,7 @@ translation.priority.ht:
 # Services Page, Project Designer
 Client application services provide simplified access to [!INCLUDE[ajax_current_short](../../ide/reference/includes/ajax_current_short_md.md)] login, roles, and profile services from Windows Forms and Windows Presentation Foundation (WPF) applications. You can use the **Services** page of the **Project Designer** to enable and configure client application services for your project.  
   
- With client application services, you can use a centralized server to authenticate users, determine each user's assigned role or roles, and store per-user application settings that you can share across the network. For more information, see [Client Application Services](../Topic/Client%20Application%20Services.md).  
+ With client application services, you can use a centralized server to authenticate users, determine each user's assigned role or roles, and store per-user application settings that you can share across the network. For more information, see [Client Application Services](http://msdn.microsoft.com/en-us/Library/1487d8df-089e-4f21-abfb-a791a652b58e).  
   
  To access the **Services** page, select a project node in **Solution Explorer**, and then click **Properties** on the **Project** menu. When the **Project Designer** appears, click the **Services** tab.  
   
@@ -67,7 +67,7 @@ Client application services provide simplified access to [!INCLUDE[ajax_current_
  Used only with forms authentication. Specifies the location of the authentication service.  
   
  **Optional: Credentials provider**  
- Used only with forms authentication. Indicates the <xref:System.Web.ClientServices.Providers.IClientFormsAuthenticationCredentialsProvider> implementation that the authentication service will use to display a login dialog box when your application calls the `static`<xref:System.Web.Security.Membership.ValidateUser%2A?displayProperty=fullName> method and passes empty strings or `null` for the parameters. If you leave this box blank, you must pass a valid user name and password to the <xref:System.Web.Security.Membership.ValidateUser%2A?displayProperty=fullName> method. You must specify the credentials provider as an assembly-qualified type name. For more information, see <xref:System.Type.AssemblyQualifiedName%2A?displayProperty=fullName> and [Assembly Names](../Topic/Assembly%20Names.md). In its simplest form, an assembly-qualified type name looks similar to the following example: `MyNamespace.MyLoginClass, MyAssembly`  
+ Used only with forms authentication. Indicates the <xref:System.Web.ClientServices.Providers.IClientFormsAuthenticationCredentialsProvider> implementation that the authentication service will use to display a login dialog box when your application calls the `static`<xref:System.Web.Security.Membership.ValidateUser%2A?displayProperty=fullName> method and passes empty strings or `null` for the parameters. If you leave this box blank, you must pass a valid user name and password to the <xref:System.Web.Security.Membership.ValidateUser%2A?displayProperty=fullName> method. You must specify the credentials provider as an assembly-qualified type name. For more information, see <xref:System.Type.AssemblyQualifiedName%2A?displayProperty=fullName> and [Assembly Names](http://msdn.microsoft.com/en-us/Library/8f8c2c90-f15d-400e-87e7-a757e4f04d0e). In its simplest form, an assembly-qualified type name looks similar to the following example: `MyNamespace.MyLoginClass, MyAssembly`  
   
  **Roles service location**  
  Specifies the location of the roles service.  
@@ -79,7 +79,7 @@ Client application services provide simplified access to [!INCLUDE[ajax_current_
  Opens the [Advanced Settings for Services Dialog Box](../../ide/reference/advanced-settings-for-services-dialog-box.md), which you can use to override default behavior. For example, you can use this dialog box to specify a database for offline storage instead of using the local file system. For more information, see [Advanced Settings for Services Dialog Box](../../ide/reference/advanced-settings-for-services-dialog-box.md).  
   
 ## See Also  
- [Client Application Services](../Topic/Client%20Application%20Services.md)   
+ [Client Application Services](http://msdn.microsoft.com/en-us/Library/1487d8df-089e-4f21-abfb-a791a652b58e)   
  [Advanced Settings for Services Dialog Box](../../ide/reference/advanced-settings-for-services-dialog-box.md)   
  [How to: Configure Client Application Services](../Topic/How%20to:%20Configure%20Client%20Application%20Services.md)   
  [Compile Page, Project Designer (Visual Basic)](../../ide/reference/compile-page-project-designer-visual-basic.md)   

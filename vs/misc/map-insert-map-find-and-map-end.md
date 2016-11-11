@@ -34,6 +34,6 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # map::insert, map::find, and map::end
-Topic deprecated, see [Welcome Back to C++](/visual-cpp/cpp/welcome-back-to-cpp-modern-cpp), [map::insert](../Topic/map::insert.md), [map::find](../Topic/map::find.md), and [map::end](../Topic/map::end.md).  
+Topic deprecated, see [Welcome Back to C++](/visual-cpp/cpp/welcome-back-to-cpp-modern-cpp), [map::insert](../Topic/map::insert.md), [map::find](../Topic/map::find.md), and [map::end](http://msdn.microsoft.com/en-us/Library/90e02cf5-1d69-42c8-a1e1-9875a4523f76).  
   
 ## Syntax
