@@ -35,7 +35,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Quick Watch Command
-Displays the selected or specified text in the Expression field of the [QuickWatch Dialog Box](../Topic/How%20to:%20Use%20the%20QuickWatch%20Dialog%20Box.md). You can use this dialog box to calculate the current value of a variable or expression recognized by the debugger, or the contents of a register. In addition, you can change the value of any non-const variable or the contents of any register.  
+Displays the selected or specified text in the Expression field of the [QuickWatch Dialog Box](http://msdn.microsoft.com/en-us/Library/ffaee1dd-e5ce-4ef2-9401-d28329398867). You can use this dialog box to calculate the current value of a variable or expression recognized by the debugger, or the contents of a register. In addition, you can change the value of any non-const variable or the contents of any register.  
   
 ## Syntax  
   
@@ -57,7 +57,7 @@ Debug.QuickWatchq [text]
 ```  
   
 ## See Also  
- [How to: Use the QuickWatch Dialog Box](../Topic/How%20to:%20Use%20the%20QuickWatch%20Dialog%20Box.md)   
+ [How to: Use the QuickWatch Dialog Box](http://msdn.microsoft.com/en-us/Library/ffaee1dd-e5ce-4ef2-9401-d28329398867)   
  [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)   
  [Command Window](../../ide/reference/command-window.md)   
  [Find/Command Box](../../ide/find-command-box.md)   

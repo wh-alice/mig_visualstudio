@@ -52,7 +52,7 @@ You can install this version of Visual Studio on a computer that already has an 
   
 ## .NET Framework Versions and Side-by-Side Installations  
   
--   Visual Basic, Visual C#, and Visual F# projects use the **Target Framework** option in the **Project Designer** to specify which version of the .NET Framework a project uses. For a C++ project, you can manually change the target framework by modifying the .vcxproj file. For more information, see [Version Compatibility](../Topic/Version%20Compatibility%20in%20the%20.NET%20Framework.md).  
+-   Visual Basic, Visual C#, and Visual F# projects use the **Target Framework** option in the **Project Designer** to specify which version of the .NET Framework a project uses. For a C++ project, you can manually change the target framework by modifying the .vcxproj file. For more information, see [Version Compatibility](http://msdn.microsoft.com/en-us/Library/2f25e522-456a-48c3-8a53-e5f39275649f).  
   
      When you create a project, you can specify which version of the .NET Framework the project targets in the **.NET Framework** list in the **New Project** dialog box.  
   
@@ -62,8 +62,8 @@ You can install this version of Visual Studio on a computer that already has an 
     |--------------|-----------|  
     |[!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]|[Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md)|  
     |Visual C#|[Application Page, Project Designer (C#)](../ide/reference/application-page-project-designer-csharp.md)|  
-    |Visual F#|[Configuring Projects](../Topic/Configuring%20Projects%20\(F%23\).md)|  
-    |C++|[How to: Modify the Target Framework and Platform Toolset](../Topic/How%20to:%20Modify%20the%20Target%20Framework%20and%20Platform%20Toolset.md)|  
+    |Visual F#|[Configuring Projects](http://msdn.microsoft.com/en-us/Library/a1489abb-6294-4f8f-b71f-2cb126393526)|  
+    |C++|[How to: Modify the Target Framework and Platform Toolset](http://msdn.microsoft.com/en-us/Library/031b1d54-e6e1-4da7-9868-3e75a87d9ffe)|  
     |[!INCLUDE[jsprjscript](../debugger/debug-interface-access/includes/jsprjscript_md.md)]|[Running a JScript Application on a Previous Version of the Common Language Runtime](http://msdn.microsoft.com/en-us/bbea51b5-ac03-4e6c-b9a6-f487ef63eda5)|  
   
 ## See Also  

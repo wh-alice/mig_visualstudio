@@ -35,4 +35,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Comparing Pointers Using Relational Operators
-This content has moved [Relational Operators: \<, >, \<=, and >=](../Topic/Relational%20Operators:%20%3C,%20%3E,%20%3C=,%20and%20%3E=.md)
+This content has moved [Relational Operators: \<, >, \<=, and >=](http://msdn.microsoft.com/en-us/Library/d346b53d-f14d-4962-984f-89d39a17ca0f)

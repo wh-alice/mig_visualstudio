@@ -55,7 +55,7 @@ To delete records from a database, use the `TableAdapter.Update` method or the `
   
 #### To delete records from a database using the TableAdapter.Update method  
   
--   Delete records from the desired <xref:System.Data.DataTable> by deleting <xref:System.Data.DataRow> objects from the table. For more information, see [How to: Delete Rows in a DataTable](../Topic/How%20to:%20Delete%20Rows%20in%20a%20DataTable.md). After the rows are deleted from the <xref:System.Data.DataTable>, call the `TableAdapter.Update` method. You can control the amount of data to update by passing in an entire <xref:System.Data.DataSet>, a <xref:System.Data.DataTable>, an array of <xref:System.Data.DataRow>s, or a single <xref:System.Data.DataRow>. The following code shows how to delete a record from a <xref:System.Data.DataTable> and then call the `TableAdapter.Update` method to communicate the change and delete the row from the database. (This example uses the Northwind database's `Region` table.)  
+-   Delete records from the desired <xref:System.Data.DataTable> by deleting <xref:System.Data.DataRow> objects from the table. For more information, see [How to: Delete Rows in a DataTable](http://msdn.microsoft.com/en-us/Library/add481e5-08c7-4923-9276-f036ae29d31e). After the rows are deleted from the <xref:System.Data.DataTable>, call the `TableAdapter.Update` method. You can control the amount of data to update by passing in an entire <xref:System.Data.DataSet>, a <xref:System.Data.DataTable>, an array of <xref:System.Data.DataRow>s, or a single <xref:System.Data.DataRow>. The following code shows how to delete a record from a <xref:System.Data.DataTable> and then call the `TableAdapter.Update` method to communicate the change and delete the row from the database. (This example uses the Northwind database's `Region` table.)  
   
      [!code-vb[VbRaddataSaving#20](../data-tools/codesnippet/VisualBasic/how-to-delete-records-in-a-database_1.vb)]
      [!code-cs[VbRaddataSaving#20](../data-tools/codesnippet/CSharp/how-to-delete-records-in-a-database_1.cs)]  
@@ -92,9 +92,9 @@ To delete records from a database, use the `TableAdapter.Update` method or the `
  [Save data from an object to a database](../data-tools/save-data-from-an-object-to-a-database.md)   
  [Overview of Data Applications in Visual Studio](../data-tools/overview-of-data-applications-in-visual-studio.md)   
  [Connecting to Data in Visual Studio](../data-tools/connecting-to-data-in-visual-studio.md)   
- [Preparing Your Application to Receive Data](../Topic/Preparing%20Your%20Application%20to%20Receive%20Data.md)   
+ [Preparing Your Application to Receive Data](http://msdn.microsoft.com/en-us/Library/c17bdb7e-c234-4f2f-9582-5e55c27356ad)   
  [Fetching Data into Your Application](../data-tools/fetching-data-into-your-application.md)   
  [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)   
  [Editing Data in Your Application](../data-tools/editing-data-in-your-application.md)   
- [Validating Data](../Topic/Validating%20Data.md)   
+ [Validating Data](http://msdn.microsoft.com/en-us/Library/b3a9ee4e-5d4d-4411-9c56-c811f2b4ee7e)   
  [Saving Data](../data-tools/saving-data.md)

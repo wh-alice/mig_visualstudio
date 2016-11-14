@@ -80,8 +80,8 @@ You can extend the functionality of a dataset by creating a partial class file f
 ## See Also  
  [N-Tier Data Applications Overview](../data-tools/n-tier-data-applications-overview.md)   
  [Add code to TableAdapters in n-tier applications](../data-tools/add-code-to-tableadapters-in-n-tier-applications.md)   
- [TableAdapters](../Topic/TableAdapters.md)   
- [TableAdapterManager Overview](../Topic/TableAdapterManager%20Overview.md)   
- [Hierarchical Update Overview](../Topic/Hierarchical%20Update%20Overview.md)   
+ [TableAdapters](http://msdn.microsoft.com/en-us/Library/09416de9-134c-4dc7-8262-6c8d81e3f364)   
+ [TableAdapterManager Overview](http://msdn.microsoft.com/en-us/Library/33076d42-6b41-491a-ac11-6c6339aea650)   
+ [Hierarchical Update Overview](http://msdn.microsoft.com/en-us/Library/c4f8e8b9-e4a5-4a02-8462-d03d1e8222d6)   
  [Creating Data Applications](../data-tools/creating-data-applications.md)   
  [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md)

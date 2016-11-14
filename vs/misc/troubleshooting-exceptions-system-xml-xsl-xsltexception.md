@@ -40,4 +40,4 @@ The exception that is thrown when an error occurs while processing an Extensible
   
 ## See Also  
  <xref:System.Xml.Xsl.XsltException>   
- [Use the Exception Assistant](../Topic/How%20to:%20Use%20the%20Exception%20Assistant.md)
+ [Use the Exception Assistant](http://msdn.microsoft.com/en-us/Library/e0a78c50-7318-4d54-af51-40c00aea8711)

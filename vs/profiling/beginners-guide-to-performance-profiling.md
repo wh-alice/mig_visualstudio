@@ -41,7 +41,7 @@ You can use Visual Studio Profiling Tools to analyze performance issues in your 
   
 When the debugger pauses, the **CPU Usage** tool collects information about the functions that are executing in your application. The tool lists the functions that were performing work, and provides a timeline graph you can use to focus on specific segments of the sampling session.
 
-The Diagnostic hub offers you a lot of other options to run and manage your diagnostics session. If **CPU Usage** does not give you the data that you need, other profiling tools provide different kinds of information that might be helpful to you. For more information about these other methods, see [Profiling Tools](../Topic/Profiling%20Tools.md). You can also analyze CPU usage by attaching to a running app, or start an app that is installed from the Windows Store. For more information, see [Run profiling tools without debugging](../Topic/Run%20profiling%20tools%20without%20debugging.md).
+The Diagnostic hub offers you a lot of other options to run and manage your diagnostics session. If **CPU Usage** does not give you the data that you need, other profiling tools provide different kinds of information that might be helpful to you. For more information about these other methods, see [Profiling Tools](http://msdn.microsoft.com/en-us/Library/0fb6cd5d-e16a-4526-84a5-19e63c625bc5). You can also analyze CPU usage by attaching to a running app, or start an app that is installed from the Windows Store. For more information, see [Run profiling tools without debugging](http://msdn.microsoft.com/en-us/Library/e97ce1a4-62d6-4b8e-a2f7-61576437ff01).
   
 ##  <a name="BKMK_Quick_start__Collect_diagnostic_data"></a> Step 1: Collect profiling data 
   
@@ -49,7 +49,7 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
   
 2.  The **Diagnostic Tools** window appears automatically unless you have turned it off. To bring up the window again, click **Debug / Windows / Show Diagnostic Tools**.
 
-3.  You can choose whether to see **CPU Usage**, [Memory Usage](../Topic/Memory%20Usage.md), or both, with the **Select Tools** setting on the toolbar. If you are running Visual Studio Enterprise,  you can also enable or disable IntelliTrace in **Tools / Options / IntelliTrace**.
+3.  You can choose whether to see **CPU Usage**, [Memory Usage](http://msdn.microsoft.com/en-us/Library/bbb58d6c-3362-4ca3-8e87-64b2d4415bf6), or both, with the **Select Tools** setting on the toolbar. If you are running Visual Studio Enterprise,  you can also enable or disable IntelliTrace in **Tools / Options / IntelliTrace**.
 
      ![Show Diagnostics Tools](../profiling/media/DiagToolsSelectTool.png "DiagToolsSelectTool")
 
@@ -145,7 +145,7 @@ Be aware that many external code call chains are deeply nested, so that the widt
 Use the search box to find a node that you are looking for, then use the horizontal scroll bar to bring the data into view.
 
 > [!TIP]
->  If you profile external code that calls Windows functions, you should make sure that you have the most current .pdb files. Without these files, your report views will list Windows function names that are cryptic and difficult to understand. For more information about how to make sure that you have the files you need, see [How to: Reference Windows Symbol Information](../Topic/How%20to:%20Reference%20Windows%20Symbol%20Information.md).
+>  If you profile external code that calls Windows functions, you should make sure that you have the most current .pdb files. Without these files, your report views will list Windows function names that are cryptic and difficult to understand. For more information about how to make sure that you have the files you need, see [How to: Reference Windows Symbol Information](http://msdn.microsoft.com/en-us/Library/b7c67318-6be2-4b1e-a161-077b1f4a7c30).
 
 ## View Asynchronous functions
 
@@ -156,6 +156,6 @@ When the compiler encounters an asynchronous method, it creates a hidden class t
 The first node under **[External Code]** is a compiler-generated method of the state machine class. 
   
 ## See Also  
- [Performance Explorer](../Topic/Performance%20Explorer.md)   
- [Getting Started](../Topic/Getting%20Started%20with%20Performance%20Tools.md)   
- [Overviews](../Topic/Overviews%20\(Performance%20Tools\).md)
+ [Performance Explorer](http://msdn.microsoft.com/en-us/Library/df52b717-a55d-4b1d-8c2e-d5a6a38042f4)   
+ [Getting Started](http://msdn.microsoft.com/en-us/Library/02085214-a8e4-40fd-9b26-32391a7a7082)   
+ [Overviews](http://msdn.microsoft.com/en-us/Library/b877802d-c736-4047-821a-bd7733fff6de)

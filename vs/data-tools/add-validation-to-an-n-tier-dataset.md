@@ -68,7 +68,7 @@ End Sub
   
 #### To add validation during changes to individual column values  
   
-1.  Open the dataset in the [Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md) by double-clicking the **.xsd** file in **Solution Explorer**. For more information, see [How to: Open a Dataset in the Dataset Designer](../Topic/How%20to:%20Open%20a%20Dataset%20in%20the%20Dataset%20Designer.md).  
+1.  Open the dataset in the [Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md) by double-clicking the **.xsd** file in **Solution Explorer**. For more information, see [How to: Open a Dataset in the Dataset Designer](http://msdn.microsoft.com/en-us/Library/36fc266f-365b-42cb-aebb-c993dc2c47c3).  
   
 2.  Double-click the column you want to validate. This action creates the <xref:System.Data.DataTable.ColumnChanging> event handler.  
   
@@ -127,7 +127,7 @@ End Sub
   
 #### To add validation during changes to whole rows  
   
-1.  Open the dataset in the [Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md) by double-clicking the **.xsd** file in **Solution Explorer**. For more information, see [How to: Open a Dataset in the Dataset Designer](../Topic/How%20to:%20Open%20a%20Dataset%20in%20the%20Dataset%20Designer.md).  
+1.  Open the dataset in the [Creating and Editing Typed Datasets](../data-tools/creating-and-editing-typed-datasets.md) by double-clicking the **.xsd** file in **Solution Explorer**. For more information, see [How to: Open a Dataset in the Dataset Designer](http://msdn.microsoft.com/en-us/Library/36fc266f-365b-42cb-aebb-c993dc2c47c3).  
   
 2.  Double-click the title bar of the data table on the designer.  
   

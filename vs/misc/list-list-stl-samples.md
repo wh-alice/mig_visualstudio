@@ -34,6 +34,6 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # list::list (STL Samples)
-Topic deprecated, see [Welcome Back to C++](/visual-cpp/cpp/welcome-back-to-cpp-modern-cpp) and [list::list](../Topic/list::list.md).  
+Topic deprecated, see [Welcome Back to C++](/visual-cpp/cpp/welcome-back-to-cpp-modern-cpp) and [list::list](http://msdn.microsoft.com/en-us/Library/415ff234-ff4e-4236-a7fe-0aa1ec7300a2).  
   
 ## Syntax

@@ -34,4 +34,4 @@ translation.priority.mt:
   - "zh-tw"
 ---
 # Defining Member Templates Outside a Class
-This content has been removed. For information about defining member templates outside a class, see [Member Function Templates](/visual-cpp/cpp/member-function-templates) and [Nested Class Templates](../Topic/Nested%20Class%20Templates.md).
+This content has been removed. For information about defining member templates outside a class, see [Member Function Templates](/visual-cpp/cpp/member-function-templates) and [Nested Class Templates](http://msdn.microsoft.com/en-us/Library/b3b53e03-950d-4699-b07b-41219dbc2d9f).

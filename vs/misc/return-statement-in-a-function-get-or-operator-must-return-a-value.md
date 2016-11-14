@@ -48,4 +48,4 @@ translation.priority.mt:
   
 ## See Also  
  [Return Statement](/dotnet/visual-basic/language-reference/statements/return-statement)   
- [End \<keyword> Statement](../Topic/End%20%3Ckeyword%3E%20Statement%20\(Visual%20Basic\).md)
+ [End \<keyword> Statement](http://msdn.microsoft.com/en-us/Library/42d6e088-ab0f-4cda-88e8-fdce3e5fcf4f)

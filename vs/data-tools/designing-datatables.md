@@ -42,7 +42,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Designing DataTables
-[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] provides design-time tools for creating and editing data tables (**DataTable**). For an overview of what a **DataTable** is, see [DataTables](../Topic/DataTables.md).  
+[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] provides design-time tools for creating and editing data tables (**DataTable**). For an overview of what a **DataTable** is, see [DataTables](http://msdn.microsoft.com/en-us/Library/52ff0e32-3e5a-41de-9a3b-7b04ea52b83e).  
   
  The following topics explain how to create data tables, add them to typed datasets using the **Dataset Designer**, and create and edit the data columns (**DataColumn**) that define them.  
   
@@ -53,7 +53,7 @@ translation.priority.ht:
  [How to: Create Data Tables](../data-tools/how-to-create-data-tables.md)  
  Provides the steps to create a new <xref:System.Data.DataTable> with the **Dataset Designer**.  
   
- [How to: Add Columns to a DataTable](../Topic/How%20to:%20Add%20Columns%20to%20a%20DataTable.md)  
+ [How to: Add Columns to a DataTable](http://msdn.microsoft.com/en-us/Library/8ca21f77-b99a-47a7-a656-7cfd7a1bd9df)  
  Provides the steps to create a new <xref:System.Data.DataColumn> in an existing <xref:System.Data.DataTable>.  
   
  [Walkthrough: Creating a DataTable in the Dataset Designer](../data-tools/walkthrough-creating-a-datatable-in-the-dataset-designer.md)  
@@ -73,16 +73,16 @@ translation.priority.ht:
  Represents a parent/child relationship between two <xref:System.Data.DataTable> objects.  
   
 ## Related Sections  
- [DataTables](../Topic/DataTables.md)  
+ [DataTables](http://msdn.microsoft.com/en-us/Library/52ff0e32-3e5a-41de-9a3b-7b04ea52b83e)  
  Describes how to create and customize `DataTable` objects.  
   
- [TableAdapters](../Topic/TableAdapters.md)  
+ [TableAdapters](http://msdn.microsoft.com/en-us/Library/09416de9-134c-4dc7-8262-6c8d81e3f364)  
  Provides links to topics that explain how to create and edit TableAdapters with design time tools.  
   
  [Connecting to Data in Visual Studio](../data-tools/connecting-to-data-in-visual-studio.md)  
  Provides links to topics that explain the different ways to connect to data in Visual Studio.  
   
- [Preparing Your Application to Receive Data](../Topic/Preparing%20Your%20Application%20to%20Receive%20Data.md)  
+ [Preparing Your Application to Receive Data](http://msdn.microsoft.com/en-us/Library/c17bdb7e-c234-4f2f-9582-5e55c27356ad)  
  Provides links to topics explaining what datasets are, how to create new datasets, and how to create and edit the individual objects they are made of.  
   
  [Fetching Data into Your Application](../data-tools/fetching-data-into-your-application.md)  
@@ -94,7 +94,7 @@ translation.priority.ht:
  [Editing Data in Your Application](../data-tools/editing-data-in-your-application.md)  
  Provides links to topics that explain working with the data in a dataset.  
   
- [Validating Data](../Topic/Validating%20Data.md)  
+ [Validating Data](http://msdn.microsoft.com/en-us/Library/b3a9ee4e-5d4d-4411-9c56-c811f2b4ee7e)  
  Provides links to topics explaining where to put code to validate data.  
   
  [Saving Data](../data-tools/saving-data.md)  

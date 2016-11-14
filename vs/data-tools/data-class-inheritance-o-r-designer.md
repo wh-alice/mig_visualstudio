@@ -54,6 +54,6 @@ Like other objects, [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.m
   
 ## See Also  
  [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)   
- [Walkthrough: Creating LINQ to SQL Classes (O-R Designer)](../Topic/Walkthrough:%20Creating%20LINQ%20to%20SQL%20Classes%20\(O-R%20Designer\).md)   
+ [Walkthrough: Creating LINQ to SQL Classes (O-R Designer)](http://msdn.microsoft.com/en-us/Library/35aad4a4-2e8a-46e2-ae09-5fbfd333c233)   
  [Walkthrough: Creating LINQ to SQL Classes by Using Single-Table Inheritance (O/R Designer)](../data-tools/walkthrough-creating-linq-to-sql-classes-by-using-single-table-inheritance-o-r-designer.md)   
- [Getting Started](../Topic/Getting%20Started.md)
+ [Getting Started](http://msdn.microsoft.com/en-us/Library/db8a557a-fef8-4f4f-bb91-8cff7250ee25)
