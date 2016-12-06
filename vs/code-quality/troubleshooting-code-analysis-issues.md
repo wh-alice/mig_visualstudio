@@ -1,7 +1,7 @@
 ---
-title: "Troubleshooting Code Analysis Issues | Microsoft Docs"
+title: "Troubleshooting Code Analysis Issues"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "11/17/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,7 +11,6 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 61c7e44d-2780-4df5-9bcb-49e40c1152fc
 caps.latest.revision: 5
-author: "erickson-doug"
 ms.author: "douge"
 manager: "douge"
 translation.priority.ht: 
@@ -30,6 +29,8 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Troubleshooting Code Analysis Issues
+[!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
+
 This topic contains troubleshooting information for the following Visual Studio code analysis issues.  
   
 -   [Changes in a Visual Studio 2010 Rule Set Are Not Reflected in Previous Visual Studio Versions](#ChildRuleSetChangesInPreviousVersions)  

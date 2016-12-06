@@ -1,7 +1,7 @@
 ---
-title: "Native Minimum Rules rule set | Microsoft Docs"
+title: "Native Minimum Rules rule set"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "12/05/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,7 +11,6 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2d898bc4-fba5-472e-8f09-b0c6b511c5a3
 caps.latest.revision: 3
-author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -31,6 +30,8 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Native Minimum Rules rule set
+[!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
+
 The Microsoft Native Minimum Rules focus on the most critical problems in your native code, including potential security holes and  application crashes. You should include this rule set in any custom rule set you create for your native projects.  
   
 |Rule|Description|  

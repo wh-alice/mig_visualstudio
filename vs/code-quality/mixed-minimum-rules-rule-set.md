@@ -1,7 +1,7 @@
 ---
-title: "Mixed Minimum Rules rule set | Microsoft Docs"
+title: "Mixed Minimum Rules rule set"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "12/05/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,7 +11,6 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: bc8df61c-19af-40ab-a871-315807e5f4bf
 caps.latest.revision: 4
-author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -31,6 +30,8 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Mixed Minimum Rules rule set
+[!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
+
 The Microsoft Mixed Minimum Rules focus on the most critical problems in your C++ projects that support the Common Language Runtime, including potential security holes and application crashes. You should include this rule set in any custom rule set you create for your C++ projects that support the Common Language Runtime.  
   
 |Rule|Description|  
@@ -171,7 +172,7 @@ The Microsoft Mixed Minimum Rules focus on the most critical problems in your C+
 |[C28305](../code-quality/c28305.md)|An error while parsing a token was discovered.|  
 |[C28350](../code-quality/c28350.md)|The annotation describes a situation that is not conditionally applicable.|  
 |[C28351](../code-quality/c28351.md)|The annotation describes where a dynamic value (a variable) cannot be used in the condition.|  
-|[CA1001](../code-quality/ca1001-types-that-own-disposable-fields-should-be-disposable.md)|Types that own disposable fields should be disposable|  
-|[CA1821](../code-quality/ca1821-remove-empty-finalizers.md)|Remove empty finalizers|  
-|[CA2213](../code-quality/ca2213-disposable-fields-should-be-disposed.md)|Disposable fields should be disposed|  
-|[CA2231](../code-quality/ca2231-overload-operator-equals-on-overriding-valuetype-equals.md)|Overload operator equals on overriding ValueType.Equals|
+|[CA1001](../code-quality/ca1001--types-that-own-disposable-fields-should-be-disposable.md)|Types that own disposable fields should be disposable|  
+|[CA1821](../code-quality/ca1821--remove-empty-finalizers.md)|Remove empty finalizers|  
+|[CA2213](../code-quality/ca2213--disposable-fields-should-be-disposed.md)|Disposable fields should be disposed|  
+|[CA2231](../code-quality/ca2231--overload-operator-equals-on-overriding-valuetype.equals.md)|Overload operator equals on overriding ValueType.Equals|

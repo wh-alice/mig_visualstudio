@@ -1,7 +1,7 @@
 ---
-title: "Specifying When and Where an Annotation Applies | Microsoft Docs"
+title: "Specifying When and Where an Annotation Applies"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "12/05/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,7 +16,6 @@ f1_keywords:
   - "_At_buffer_"
 ms.assetid: 8e4f4f9c-5dfa-4835-87df-ecd1698fc650
 caps.latest.revision: 7
-author: "corob-msft"
 ms.author: "corob"
 manager: "ghogen"
 translation.priority.ht: 
@@ -36,6 +35,8 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Specifying When and Where an Annotation Applies
+[!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
+
 When an annotation is conditional, it may require other annotations to specify that to the analyzer.  For example, if a function has a variable that can be either synchronous or asynchronous, the function behaves as follows: In the synchronous case it always eventually succeeds, but in the asynchronous case it reports an error if it can’t succeed immediately. When the function is called synchronously, checking the result value provides no value to the code analyzer because it would not have returned.  However, when the function is called asynchronously and the function result is not checked, a serious error could occur. This example illustrates a situation in which you could use the `_When_` annotation—described later in this article—to enable checking.  
   
 ## Structural Annotations  
@@ -49,11 +50,11 @@ When an annotation is conditional, it may require other annotations to specify t
 |`_When_(expr, anno-list)`|`expr` is an expression that can be converted to `bool`. When it is non-zero (`true`), the annotations that are specified in `anno-list` are considered applicable.<br /><br /> By default, for each annotation in `anno-list`, `expr` is interpreted as using the input values if the annotation is a precondition, and as using the output values if the annotation is a post-condition. To override the default, you can use the `_Old_` intrinsic when you evaluate a post-condition to indicate that input values should be used. **Note:**  Different annotations might be enabled as a consequence of using `_When_` if a mutable value—for example, `*pLength`—is involved because the evaluated result of `expr` in precondition may differ from its evaluated result in post-condition.|  
   
 ## See Also  
- [Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)   
+ [Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-c---code-defects.md)   
  [Understanding SAL](../code-quality/understanding-sal.md)   
  [Annotating Function Parameters and Return Values](../code-quality/annotating-function-parameters-and-return-values.md)   
  [Annotating Function Behavior](../code-quality/annotating-function-behavior.md)   
  [Annotating Structs and Classes](../code-quality/annotating-structs-and-classes.md)   
  [Annotating Locking Behavior](../code-quality/annotating-locking-behavior.md)   
  [Intrinsic Functions](../code-quality/intrinsic-functions.md)   
- [Best Practices and Examples](../code-quality/best-practices-and-examples-sal.md)
+ [Best Practices and Examples](../code-quality/best-practices-and-examples--sal-.md)

@@ -1,7 +1,7 @@
 ---
-title: "Implementing Custom Code Analysis Check-in Policies for Managed Code | Microsoft Docs"
+title: "Implementing Custom Code Analysis Check-in Policies for Managed Code"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "12/05/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,7 +15,6 @@ f1_keywords:
   - "vs.code.analysis.policyeditor"
 ms.assetid: fd029003-5671-4b24-8b6f-032e0a98b2e8
 caps.latest.revision: 21
-author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -35,6 +34,8 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Implementing Custom Code Analysis Check-in Policies for Managed Code
+[!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
+
 A code analysis check-in policy specifies a set of rules that members of a team project must run on source code before it is checked in to version control. Microsoft provides a set of standard *rule sets* that group code analysis rules into functional areas. *Custom check-in policy rule sets* specify a set of code analysis rules that are specific to a team project. A rule set is stored in a .ruleset file.  
   
  Check-in policies are set at the team project level and specified by the location of a .ruleset file in the version control tree. There are no restrictions on the version control location of the team policy custom rule set.  
@@ -73,7 +74,7 @@ A code analysis check-in policy specifies a set of rules that members of a team 
   
 1.  In **Source Control Explorer**, right-click the new folder, and then click **Add Items to Folder**.  
   
-     For more information, see [Use version control](../Topic/Use%20version%20control.md).  
+     For more information, see [Use version control](http://msdn.microsoft.com/library/33267cee-fe5f-4aa3-b2cd-6d22ceace314).  
   
 2.  Click the rule set file that you created, and then click **Finish**.  
   

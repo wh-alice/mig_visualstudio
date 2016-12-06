@@ -1,7 +1,7 @@
 ---
-title: "Code Metrics Values | Microsoft Docs"
+title: "Code Metrics Values"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "12/05/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,7 +15,6 @@ helpviewer_keywords:
   - "measure code quality"
 ms.assetid: bc38831e-2083-4ea4-8527-ee41499a342f
 caps.latest.revision: 20
-author: "erickson-doug"
 ms.author: "douge"
 manager: "douge"
 translation.priority.ht: 
@@ -35,6 +34,8 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Code Metrics Values
+[!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
+
 Code metrics is a set of software measures that provide developers better insight into the code they are developing. By taking advantage of code metrics, developers can understand which types and/or methods should be reworked or more thoroughly tested. Development teams can identify potential risks, understand the current state of a project, and track progress during software development.  
   
 ## Software Measurements  

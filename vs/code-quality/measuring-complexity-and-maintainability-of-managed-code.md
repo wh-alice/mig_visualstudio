@@ -1,7 +1,7 @@
 ---
-title: "Measuring Complexity and Maintainability of Managed Code | Microsoft Docs"
+title: "Measuring Complexity and Maintainability of Managed Code"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "12/05/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -21,7 +21,6 @@ helpviewer_keywords:
   - "complexity managed code"
 ms.assetid: 952b6f2e-584f-4c97-a5ba-42d7bd47a576
 caps.latest.revision: 14
-author: "erickson-doug"
 ms.author: "douge"
 manager: "douge"
 translation.priority.ht: 
@@ -41,6 +40,8 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Measuring Complexity and Maintainability of Managed Code
+[!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
+
 The increased complexity of modern software applications also increases the difficulty of making the code reliable and maintainable. In recent years, many software measures, known as code metrics, have been developed that can help developers understand where their code needs rework or increased testing.  
   
  Developers can use [!INCLUDE[vsprvsts](../code-quality/includes/vsprvsts_md.md)] to generate code metrics data that measure the complexity and maintainability of their managed code. Code metrics data can be generated for an entire solution or a single project.  
@@ -50,7 +51,7 @@ The increased complexity of modern software applications also increases the diff
 ## In This Section  
  [Code Metrics Values](../code-quality/code-metrics-values.md)  
   
- [How to: Generate Code Metrics Data](../code-quality/how-to-generate-code-metrics-data.md)  
+ [How to: Generate Code Metrics Data](../code-quality/how-to--generate-code-metrics-data.md)  
   
  [Working with Code Metrics Data](../code-quality/working-with-code-metrics-data.md)  
   

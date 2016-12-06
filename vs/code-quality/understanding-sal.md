@@ -1,7 +1,7 @@
 ---
-title: "Understanding SAL | Microsoft Docs"
+title: "Understanding SAL"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "12/05/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,7 +11,6 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a94d6907-55f2-4874-9571-51d52d6edcfd
 caps.latest.revision: 18
-author: "corob-msft"
 ms.author: "corob"
 manager: "ghogen"
 translation.priority.ht: 
@@ -31,6 +30,8 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Understanding SAL
+[!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
+
 The Microsoft source-code annotation language (SAL) provides a set of annotations that you can use to describe how a function uses its parameters, the assumptions that it makes about them, and the guarantees that it makes when it finishes. The annotations are defined in the header file `<sal.h>`. Visual Studio code analysis for C++ uses SAL annotations to modify its analysis of functions. For more information about SAL 2.0 for Windows driver development, see [SAL 2.0 Annotations for Windows Drivers](http://go.microsoft.com/fwlink/?LinkId=250979).  
   
  Natively, C and C++ provide only limited ways for developers to consistently express intent and invariance. By using SAL annotations, you can describe your functions in greater detail so that developers who are consuming them can better understand how to use them.  
@@ -424,10 +425,10 @@ bool GetValue(_Out_ int *pInt, bool flag)
  [Code Analysis Team Blog](http://go.microsoft.com/fwlink/p/?LinkId=251197)  
   
 ## See Also  
- [Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)   
+ [Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-c---code-defects.md)   
  [Annotating Function Parameters and Return Values](../code-quality/annotating-function-parameters-and-return-values.md)   
  [Annotating Function Behavior](../code-quality/annotating-function-behavior.md)   
  [Annotating Structs and Classes](../code-quality/annotating-structs-and-classes.md)   
  [Annotating Locking Behavior](../code-quality/annotating-locking-behavior.md)   
  [Specifying When and Where an Annotation Applies](../code-quality/specifying-when-and-where-an-annotation-applies.md)   
- [Best Practices and Examples](../code-quality/best-practices-and-examples-sal.md)
+ [Best Practices and Examples](../code-quality/best-practices-and-examples--sal-.md)

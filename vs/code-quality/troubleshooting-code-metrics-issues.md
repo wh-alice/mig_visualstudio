@@ -1,7 +1,7 @@
 ---
-title: "Troubleshooting Code Metrics Issues | Microsoft Docs"
+title: "Troubleshooting Code Metrics Issues"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "11/16/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,7 +11,6 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f2fdb995-4888-4246-85dc-7bacadd45968
 caps.latest.revision: 4
-author: "erickson-doug"
 ms.author: "douge"
 manager: "douge"
 translation.priority.ht: 
@@ -30,6 +29,8 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Troubleshooting Code Metrics Issues
+[!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
+
 You might encounter some of the following issues when you collect code metrics:  
   
 -   [Changes in Visual Studio 2010 code complexity calculations](#Changes_in_Visual_Studio_2010_code_complexity_calculations)  

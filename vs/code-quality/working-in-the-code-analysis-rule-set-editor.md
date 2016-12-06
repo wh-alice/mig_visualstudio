@@ -1,7 +1,7 @@
 ---
-title: "Working in the Code Analysis Rule Set Editor | Microsoft Docs"
+title: "Working in the Code Analysis Rule Set Editor"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "12/05/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,7 +13,6 @@ f1_keywords:
   - "vs.codeanalysis.ruleseteditor"
 ms.assetid: 370c97bf-bb29-4b2f-b9ae-ba125bce7b2d
 caps.latest.revision: 12
-author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -33,6 +32,8 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Working in the Code Analysis Rule Set Editor
+[!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
+
 The Code Analysis rule set editor enables you to specify the rules that are included in a custom rule set and to specify the action. You can also specify the action to take when code analysis encounters a violation of the rule.  
   
 |Action|Description|  

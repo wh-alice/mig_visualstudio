@@ -1,7 +1,7 @@
 ---
-title: "Code Analysis Policy Errors | Microsoft Docs"
+title: "Code Analysis Policy Errors"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "12/05/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -15,7 +15,6 @@ helpviewer_keywords:
   - "policy errors, code analysis"
 ms.assetid: d1f221cd-68c0-4277-9397-b76ad0dbae77
 caps.latest.revision: 19
-author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -35,6 +34,8 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Code Analysis Policy Errors
+[!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
+
 The following errors occur if the code analysis policy is not satisfied at check-in:  
   
  **The Code Analysis settings for one or more projects are not compatible with Code Analysis policy.**  

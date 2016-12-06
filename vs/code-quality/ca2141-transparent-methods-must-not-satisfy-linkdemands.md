@@ -1,7 +1,7 @@
 ---
-title: "CA2141:Transparent methods must not satisfy LinkDemands | Microsoft Docs"
+title: "CA2141:Transparent methods must not satisfy LinkDemands"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "12/05/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,7 +13,6 @@ f1_keywords:
   - "CA2141"
 ms.assetid: 2957f5f7-c511-4180-ba80-752034f10a77
 caps.latest.revision: 14
-author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -33,6 +32,8 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # CA2141:Transparent methods must not satisfy LinkDemands
+[!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
+
 |||  
 |-|-|  
 |TypeName|TransparentMethodsMustNotSatisfyLinkDemands|  

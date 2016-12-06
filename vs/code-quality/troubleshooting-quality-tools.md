@@ -1,7 +1,7 @@
 ---
-title: "Troubleshooting Quality Tools | Microsoft Docs"
+title: "Troubleshooting Quality Tools"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "11/17/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,7 +13,6 @@ helpviewer_keywords:
   - "Visual Studio ALM, developing the application"
 ms.assetid: 535b9e67-ce9e-4a3e-8d28-9365f257036e
 caps.latest.revision: 17
-author: "erickson-doug"
 ms.author: "douge"
 manager: "douge"
 translation.priority.ht: 
@@ -32,6 +31,8 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Troubleshooting Quality Tools
+[!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
+
 If you experience issues when you run Visual Studio quality tools, the topics in this section can help you diagnose and correct the problem.  
   
 ## In this section  

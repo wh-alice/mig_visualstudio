@@ -1,7 +1,7 @@
 ---
-title: "Code analysis rule set reference | Microsoft Docs"
+title: "Code analysis rule set reference"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "12/05/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -13,7 +13,6 @@ helpviewer_keywords:
   - "code analysis, rule sets"
 ms.assetid: 5874e854-e298-4d2e-bbe4-95e899d22587
 caps.latest.revision: 43
-author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -33,6 +32,8 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Code analysis rule set reference
+[!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
+
 When you configure code analysis for managed code projects in [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)], [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)], or [!INCLUDE[vsPro](../code-quality/includes/vspro_md.md)]you are presented with a list of built-in *rule sets*. You can either use one of the standar rule sets, or you can customize a  rule set to fit your project requirements.  
   
 ## Available Rule Sets  

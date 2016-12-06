@@ -1,7 +1,7 @@
 ---
-title: "Native Recommended Rules rule set | Microsoft Docs"
+title: "Native Recommended Rules rule set"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "12/05/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -11,7 +11,6 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8d845b5a-1b75-4e9d-861a-7c59cb7752af
 caps.latest.revision: 3
-author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -31,6 +30,8 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Native Recommended Rules rule set
+[!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
+
 The Native Recommended Rules focus on the most critical and common problems in your native code, including potential security holes and application crashes.  You should include this rule set in any custom rule set you create for your native projects.  This ruleset is designed to work with Visual Studio Professional edition and higher.  
   
 |Rule|Description|  

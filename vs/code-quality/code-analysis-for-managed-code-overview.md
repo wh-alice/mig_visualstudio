@@ -1,7 +1,7 @@
 ---
-title: "Code Analysis for Managed Code Overview | Microsoft Docs"
+title: "Code Analysis for Managed Code Overview"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "12/05/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -16,7 +16,6 @@ helpviewer_keywords:
   - "managed code, code analysis"
 ms.assetid: 12ec0dab-46a4-43d8-984a-440730ef37a9
 caps.latest.revision: 35
-author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -36,6 +35,8 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Code Analysis for Managed Code Overview
+[!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
+
 Code analysis for managed code analyzes managed assemblies and reports information about the assemblies, such as violations of the programming and design rules set forth in the Microsoft .NET Framework Design Guidelines.  
   
  The analysis tool represents the checks it performs during an analysis as warning messages. Warning messages identify any relevant programming and design issues and, when it is possible, supply information about how to fix the problem.  
@@ -43,9 +44,9 @@ Code analysis for managed code analyzes managed assemblies and reports informati
 ## IDE (integrated development environment) Integration  
  As a developer, you can run code analysis on your project automatically or you can run it manually.  
   
- To run code analysis each time that you build a project, you select **Enable Code Analysis on Build (defines CODE_ANALYSIS constant)** on the project's Property Page. For more information, see [How to: Enable and Disable Automatic Code Analysis](../code-quality/how-to-enable-and-disable-automatic-code-analysis-for-managed-code.md).  
+ To run code analysis each time that you build a project, you select **Enable Code Analysis on Build (defines CODE_ANALYSIS constant)** on the project's Property Page. For more information, see [How to: Enable and Disable Automatic Code Analysis](../code-quality/how-to--enable-and-disable-automatic-code-analysis-for-managed-code.md).  
   
- To run code analysis manually on a project, on the **Analyze** menu, click **Run Code Analysis on***ProjectName*. For more information, see [How to: Enable and Disable Automatic Code Analysis](../code-quality/how-to-enable-and-disable-automatic-code-analysis-for-managed-code.md).  
+ To run code analysis manually on a project, on the **Analyze** menu, click **Run Code Analysis on***ProjectName*. For more information, see [How to: Enable and Disable Automatic Code Analysis](../code-quality/how-to--enable-and-disable-automatic-code-analysis-for-managed-code.md).  
   
 ## Rule Sets  
  Code analysis rules for managed code are grouped into *rule sets*. You can use one of the Microsoft standard rule sets, or you can create a custom rule set to fulfill a specific need. For more information, see [Using Rule Sets to Group Code Analysis Rules](../code-quality/using-rule-sets-to-group-code-analysis-rules.md).  
@@ -81,4 +82,4 @@ Code analysis for managed code analyzes managed assemblies and reports informati
   
 ## See Also  
  [Using Rule Sets to Group Code Analysis Rules](../code-quality/using-rule-sets-to-group-code-analysis-rules.md)   
- [How to: Enable and Disable Automatic Code Analysis](../code-quality/how-to-enable-and-disable-automatic-code-analysis-for-managed-code.md)
+ [How to: Enable and Disable Automatic Code Analysis](../code-quality/how-to--enable-and-disable-automatic-code-analysis-for-managed-code.md)

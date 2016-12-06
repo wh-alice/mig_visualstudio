@@ -1,7 +1,7 @@
 ---
-title: "Version Compatibility for Code Analysis Check-In Policies | Microsoft Docs"
+title: "Version Compatibility for Code Analysis Check-In Policies"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "12/05/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,7 +14,6 @@ helpviewer_keywords:
   - "check-in policies, version compatibility for code analysis"
 ms.assetid: 1af376e3-3be7-4445-803b-76a858567a5b
 caps.latest.revision: 15
-author: "stevehoag"
 ms.author: "shoag"
 manager: "wpickett"
 translation.priority.ht: 
@@ -33,6 +32,8 @@ translation.priority.ht:
   - "zh-tw"
 ---
 # Version Compatibility for Code Analysis Check-In Policies
+[!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
+
 If you must evaluate and author code analysis check-in policies using different versions of [!INCLUDE[esprtfc](../code-quality/includes/esprtfc_md.md)], you must know the differences in how [!INCLUDE[vstsTfsOrcasLong](../code-quality/includes/vststfsorcaslong_md.md)] and [!INCLUDE[vstsTfsRosarioShort](../code-quality/includes/vststfsrosarioshort_md.md)] evaluate check-in policies.  
   
 ## Version Compatibility for Evaluating Check-In Policies  

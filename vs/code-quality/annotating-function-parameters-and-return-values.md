@@ -1,7 +1,7 @@
 ---
-title: "Annotating Function Parameters and Return Values | Microsoft Docs"
+title: "Annotating Function Parameters and Return Values"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "12/05/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -128,7 +128,6 @@ f1_keywords:
   - "_Ret_null_"
 ms.assetid: 82826a3d-0c81-421c-8ffe-4072555dca3a
 caps.latest.revision: 15
-author: "corob-msft"
 ms.author: "corob"
 manager: "ghogen"
 translation.priority.ht: 
@@ -148,6 +147,8 @@ translation.priority.mt:
   - "tr-tr"
 ---
 # Annotating Function Parameters and Return Values
+[!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
+
 This article describes typical uses of annotations for simple function parameters—scalars, and pointers to structures and classes—and most kinds of buffers.  This article also shows common usage patterns for annotations. For additional annotations that are related to functions, see [Annotating Function Behavior](../code-quality/annotating-function-behavior.md)  
   
 ## Pointer Parameters  
@@ -508,11 +509,11 @@ This article describes typical uses of annotations for simple function parameter
  [Code Analysis Team Blog](http://go.microsoft.com/fwlink/?LinkId=251197)  
   
 ## See Also  
- [Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)   
+ [Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-c---code-defects.md)   
  [Understanding SAL](../code-quality/understanding-sal.md)   
  [Annotating Function Behavior](../code-quality/annotating-function-behavior.md)   
  [Annotating Structs and Classes](../code-quality/annotating-structs-and-classes.md)   
  [Annotating Locking Behavior](../code-quality/annotating-locking-behavior.md)   
  [Specifying When and Where an Annotation Applies](../code-quality/specifying-when-and-where-an-annotation-applies.md)   
  [Intrinsic Functions](../code-quality/intrinsic-functions.md)   
- [Best Practices and Examples](../code-quality/best-practices-and-examples-sal.md)
+ [Best Practices and Examples](../code-quality/best-practices-and-examples--sal-.md)
