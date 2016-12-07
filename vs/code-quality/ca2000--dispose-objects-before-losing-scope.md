@@ -1,7 +1,7 @@
 ---
 title: "CA2000: Dispose objects before losing scope"
 ms.custom: ""
-ms.date: "12/05/2016"
+ms.date: "12/07/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -111,4 +111,4 @@ translation.priority.ht:
   
 ## See Also  
  <xref:System.IDisposable>   
- [Dispose Pattern](../Topic/Dispose%20Pattern.md)
+ [Dispose Pattern](http://msdn.microsoft.com/library/31a6c13b-d6a2-492b-9a9f-e5238c983bcb)

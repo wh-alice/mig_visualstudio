@@ -1,7 +1,7 @@
 ---
 title: "Code Analysis for C-C++ Warnings"
 ms.custom: ""
-ms.date: "12/05/2016"
+ms.date: "12/07/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -41,7 +41,7 @@ translation.priority.ht:
 # Code Analysis for C/C++ Warnings
 [!INCLUDE[vs2017banner](../code-quality/includes/vs2017banner.md)]
 
-This section lists C/C++ Code Analysis warnings. For information about Code Analysis, see [/analyze (Code Analysis)](../Topic/-analyze%20\(Code%20Analysis\).md) and [Quick Start: Code Analysis for C/C++](../code-quality/quick-start--code-analysis-for-c-c--.md).  
+This section lists C/C++ Code Analysis warnings. For information about Code Analysis, see [/analyze (Code Analysis)](http://msdn.microsoft.com/library/81da536a-e030-4bd4-be18-383927597d08) and [Quick Start: Code Analysis for C/C++](../code-quality/quick-start--code-analysis-for-c-c--.md).  
   
 ## See Also  
  [Guidelines for Writing Secure Code](http://msdn.microsoft.com/en-us/9892fd19-45cd-44b6-9fa8-10f1b5cb6ea4)   

@@ -1,7 +1,7 @@
 ---
 title: "CA2106: Secure asserts"
 ms.custom: ""
-ms.date: "12/05/2016"
+ms.date: "12/07/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -59,4 +59,4 @@ translation.priority.mt:
   
 ## See Also  
  <xref:System.Security.CodeAccessPermission.Assert%2A?displayProperty=fullName>   
- [Secure Coding Guidelines](../Topic/Secure%20Coding%20Guidelines.md)
+ [Secure Coding Guidelines](http://msdn.microsoft.com/library/4f882d94-262b-4494-b0a6-ba9ba1f5f177)

@@ -1,7 +1,7 @@
 ---
 title: "CA1300: Specify MessageBoxOptions"
 ms.custom: ""
-ms.date: "12/05/2016"
+ms.date: "12/07/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -65,4 +65,4 @@ translation.priority.mt:
   
 ## See Also  
  <xref:System.Resources.ResourceManager?displayProperty=fullName>   
- [Resources in Desktop Apps](../Topic/Resources%20in%20Desktop%20Apps.md)
+ [Resources in Desktop Apps](http://msdn.microsoft.com/library/8ad495d4-2941-40cf-bf64-e82e85825890)

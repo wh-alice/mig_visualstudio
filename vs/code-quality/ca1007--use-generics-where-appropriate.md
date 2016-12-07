@@ -1,7 +1,7 @@
 ---
 title: "CA1007: Use generics where appropriate"
 ms.custom: ""
-ms.date: "12/05/2016"
+ms.date: "12/07/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -78,4 +78,4 @@ translation.priority.ht:
  [CA1003: Use generic event handler instances](../code-quality/ca1003--use-generic-event-handler-instances.md)  
   
 ## See Also  
- [Generics](../Topic/Generics%20\(C%23%20Programming%20Guide\).md)
+ [Generics](http://msdn.microsoft.com/library/75ea8509-a4ea-4e7a-a2b3-cf72482e9282)

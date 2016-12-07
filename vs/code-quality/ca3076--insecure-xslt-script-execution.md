@@ -1,7 +1,7 @@
 ---
 title: "CA3076: Insecure XSLT Script Execution"
 ms.custom: ""
-ms.date: "12/05/2016"
+ms.date: "12/07/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.technology: 

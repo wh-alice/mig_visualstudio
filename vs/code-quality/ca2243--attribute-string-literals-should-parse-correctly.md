@@ -1,7 +1,7 @@
 ---
 title: "CA2243: Attribute string literals should parse correctly"
 ms.custom: ""
-ms.date: "12/05/2016"
+ms.date: "12/07/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

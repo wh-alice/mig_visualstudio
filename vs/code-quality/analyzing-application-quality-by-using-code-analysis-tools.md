@@ -1,7 +1,7 @@
 ---
 title: "Analyzing Application Quality by Using Code Analysis Tools"
 ms.custom: ""
-ms.date: "12/05/2016"
+ms.date: "12/07/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -66,5 +66,5 @@ translation.priority.ht:
  [Measuring Complexity and Maintainability of Managed Code](../code-quality/measuring-complexity-and-maintainability-of-managed-code.md)  
  Insert description here.  
   
- [Unit Test Your Code](../Topic/Unit%20Test%20Your%20Code.md)  
+ [Unit Test Your Code](http://msdn.microsoft.com/library/c191de3e-3f3b-471e-b828-29ec24e80e2c)  
  Insert description here.

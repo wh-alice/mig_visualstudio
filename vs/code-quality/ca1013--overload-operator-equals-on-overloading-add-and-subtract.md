@@ -1,7 +1,7 @@
 ---
 title: "CA1013: Overload operator equals on overloading add and subtract"
 ms.custom: ""
-ms.date: "12/05/2016"
+ms.date: "12/07/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -95,4 +95,4 @@ return left.Equals(right);
 **Bad type:  {2,2} {9,9} are equal? No**  
 **Good type: {3,3} {9,9} are == ?   No**   
 ## See Also  
- [Equality Operators](../Topic/Equality%20Operators.md)
+ [Equality Operators](http://msdn.microsoft.com/library/bc496a91-fefb-4ce0-ab4c-61f09964119a)

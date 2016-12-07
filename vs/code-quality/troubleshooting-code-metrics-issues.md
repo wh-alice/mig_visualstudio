@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Code Metrics Issues"
 ms.custom: ""
-ms.date: "11/16/2016"
+ms.date: "12/07/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

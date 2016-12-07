@@ -1,7 +1,7 @@
 ---
 title: "Creating and Using Code Analysis Check-In Policies"
 ms.custom: ""
-ms.date: "12/05/2016"
+ms.date: "12/07/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -56,6 +56,6 @@ When you use Team Foundation Version Control (TFVC), you can create a code analy
  Explains how to add words and tokens to the dictionary that is referenced in code analysis naming rules.  
   
 ## Related Sections  
- [Set and Enforce Quality Gates](../Topic/Set%20and%20Enforce%20Quality%20Gates.md)  
+ [Set and Enforce Quality Gates](http://msdn.microsoft.com/library/bdc5666e-6cf0-45b2-a0a1-133c3f61e852)  
   
  [Enhancing Code Quality with Team Project Check-in Policies](../code-quality/enhancing-code-quality-with-team-project-check-in-policies.md)

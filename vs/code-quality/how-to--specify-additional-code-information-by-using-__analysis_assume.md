@@ -1,7 +1,7 @@
 ---
 title: "How to: Specify Additional Code Information by Using __analysis_assume"
 ms.custom: ""
-ms.date: "12/05/2016"
+ms.date: "12/07/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -71,4 +71,4 @@ void test( )
 ```  
   
 ## See Also  
- [__assume](../Topic/__assume.md)
+ [__assume](http://msdn.microsoft.com/library/d8565123-b132-44b1-8235-5a8c8bff85a7)

@@ -1,7 +1,7 @@
 ---
 title: "Using the C++ Core Guidelines checkers"
 ms.custom: ""
-ms.date: "12/05/2016"
+ms.date: "12/07/2016"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

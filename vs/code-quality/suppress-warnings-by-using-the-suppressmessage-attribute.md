@@ -1,7 +1,7 @@
 ---
 title: "Suppress Warnings By Using the SuppressMessage Attribute"
 ms.custom: ""
-ms.date: "12/05/2016"
+ms.date: "12/07/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

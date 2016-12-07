@@ -1,7 +1,7 @@
 ---
 title: "CA2230: Use params for variable arguments"
 ms.custom: ""
-ms.date: "12/05/2016"
+ms.date: "12/07/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -53,7 +53,7 @@ translation.priority.ht:
  In C#, the `VarArgs` calling convention is used when a method's parameter list ends with the `__arglist` keyword. Visual Basic does not support the `VarArgs` calling convention, and Visual C++  allows its use only in unmanaged code that uses the ellipse `...` notation.  
   
 ## How to Fix Violations  
- To fix a violation of this rule in C#, use the [params](../Topic/params%20\(C%23%20Reference\).md) keyword instead of `__arglist`.  
+ To fix a violation of this rule in C#, use the [params](http://msdn.microsoft.com/library/1690815e-b52b-4967-8380-5780aff08012) keyword instead of `__arglist`.  
   
 ## When to Suppress Warnings  
  Do not suppress a warning from this rule.  
@@ -65,4 +65,4 @@ translation.priority.ht:
   
 ## See Also  
  <xref:System.Reflection.CallingConventions?displayProperty=fullName>   
- [Language Independence and Language-Independent Components](../Topic/Language%20Independence%20and%20Language-Independent%20Components.md)
+ [Language Independence and Language-Independent Components](http://msdn.microsoft.com/library/4f0b77d0-4844-464f-af73-6e06bedeafc6)

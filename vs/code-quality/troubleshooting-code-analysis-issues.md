@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting Code Analysis Issues"
 ms.custom: ""
-ms.date: "11/17/2016"
+ms.date: "12/07/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""

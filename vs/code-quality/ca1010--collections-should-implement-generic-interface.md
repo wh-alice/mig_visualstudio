@@ -1,7 +1,7 @@
 ---
 title: "CA1010: Collections should implement generic interface"
 ms.custom: ""
-ms.date: "12/05/2016"
+ms.date: "12/07/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -115,4 +115,4 @@ translation.priority.mt:
  [CA1007: Use generics where appropriate](../code-quality/ca1007--use-generics-where-appropriate.md)  
   
 ## See Also  
- [Generics](../Topic/Generics%20\(C%23%20Programming%20Guide\).md)
+ [Generics](http://msdn.microsoft.com/library/75ea8509-a4ea-4e7a-a2b3-cf72482e9282)

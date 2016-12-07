@@ -1,7 +1,7 @@
 ---
 title: "Code Analysis for C-C++ Overview"
 ms.custom: ""
-ms.date: "12/05/2016"
+ms.date: "12/07/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -59,7 +59,7 @@ The C/C++ Code Analysis tool provides information to developers about possible d
  You might want to require that all source code check-ins satisfy certain policies. In particular, you want to make sure that analysis was run as a step of the most recent local build. For more information about enabling a code analysis check-in policy, see [Creating and Using Code Analysis Check-In Policies](../code-quality/creating-and-using-code-analysis-check-in-policies.md)  
   
 ## Team Build Integration  
- You can use the integrated features of the build system to run code analysis tool as a step of the [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] build process. For more information, see [Build the application](../Topic/Build%20the%20application.md).  
+ You can use the integrated features of the build system to run code analysis tool as a step of the [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] build process. For more information, see [Build the application](http://msdn.microsoft.com/library/a971b0f9-7c28-479d-a37b-8fd7e27ef692).  
   
 ## Command-line support  
  In addition to the full integration within the development environment, developers can also use the analysis tool from the command line, as shown in the following example:  

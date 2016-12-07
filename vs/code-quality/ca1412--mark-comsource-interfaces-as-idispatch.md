@@ -1,7 +1,7 @@
 ---
 title: "CA1412: Mark ComSource Interfaces as IDispatch"
 ms.custom: ""
-ms.date: "12/05/2016"
+ms.date: "12/07/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -68,4 +68,4 @@ translation.priority.mt:
   
 ## See Also  
  [How to: Raise Events Handled by a COM Sink](http://msdn.microsoft.com/en-us/7c9944b2-e951-4c3e-a0a1-59b2ae37d7fd)   
- [Interoperating with Unmanaged Code](../Topic/Interoperating%20with%20Unmanaged%20Code.md)
+ [Interoperating with Unmanaged Code](http://msdn.microsoft.com/library/ccb68ce7-b0e9-4ffb-839d-03b1cd2c1258)

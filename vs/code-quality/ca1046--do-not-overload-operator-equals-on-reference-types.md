@@ -1,7 +1,7 @@
 ---
 title: "CA1046: Do not overload operator equals on reference types"
 ms.custom: ""
-ms.date: "12/05/2016"
+ms.date: "12/07/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -77,4 +77,4 @@ translation.priority.ht:
   
 ## See Also  
  <xref:System.Object.Equals%2A?displayProperty=fullName>   
- [Equality Operators](../Topic/Equality%20Operators.md)
+ [Equality Operators](http://msdn.microsoft.com/library/bc496a91-fefb-4ce0-ab4c-61f09964119a)

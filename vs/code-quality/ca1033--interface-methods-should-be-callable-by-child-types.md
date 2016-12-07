@@ -1,7 +1,7 @@
 ---
 title: "CA1033: Interface methods should be callable by child types"
 ms.custom: ""
-ms.date: "12/05/2016"
+ms.date: "12/07/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -65,4 +65,4 @@ translation.priority.mt:
  [!code-cs[FxCop.Design.ExplicitMethodImplementations#1](../code-quality/codesnippet/CSharp/ca1033--interface-methods-should-be-callable-by-child-types_1.cs)]  
   
 ## See Also  
- [Interfaces](../Topic/Interfaces%20\(C%23%20Programming%20Guide\).md)
+ [Interfaces](http://msdn.microsoft.com/library/2feda177-ce11-432d-81b4-d50f5f35fd37)

@@ -1,7 +1,7 @@
 ---
 title: "CA1903: Use only API from targeted framework"
 ms.custom: ""
-ms.date: "12/05/2016"
+ms.date: "12/07/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -60,7 +60,7 @@ translation.priority.ht:
 |.NET Framework 3.5|.NET Framework 3.5 SP1|  
 |.NET Framework 4|N/A|  
   
- To change a project's target framework, see [Targeting a Specific .NET Framework Version](../Topic/Targeting%20a%20Specific%20.NET%20Framework%20Version.md).  
+ To change a project's target framework, see [Targeting a Specific .NET Framework Version](http://msdn.microsoft.com/library/91e77ad4-4da3-419d-85fb-9036f0e5c330).  
   
 ## How to Fix Violations  
  To remove the dependency on the service pack, remove all usages of the new member or type. If this is a deliberate dependency, either suppress the warning or turn this rule off.  
@@ -80,4 +80,4 @@ translation.priority.ht:
   
 ## See Also  
  [Portability Warnings](../code-quality/portability-warnings.md)   
- [Targeting a Specific .NET Framework Version](../Topic/Targeting%20a%20Specific%20.NET%20Framework%20Version.md)
+ [Targeting a Specific .NET Framework Version](http://msdn.microsoft.com/library/91e77ad4-4da3-419d-85fb-9036f0e5c330)

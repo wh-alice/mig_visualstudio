@@ -1,7 +1,7 @@
 ---
 title: "CA2002: Do not lock on objects with weak identity"
 ms.custom: ""
-ms.date: "12/05/2016"
+ms.date: "12/07/2016"
 ms.prod: "visual-studio-dev14"
 ms.reviewer: ""
 ms.suite: ""
@@ -85,5 +85,5 @@ translation.priority.mt:
 ## See Also  
  <xref:System.Threading.Monitor>   
  <xref:System.AppDomain>   
- [lock Statement](../Topic/lock%20Statement%20\(C%23%20Reference\).md)   
- [SyncLock Statement](../Topic/SyncLock%20Statement.md)
+ [lock Statement](http://msdn.microsoft.com/library/656da1a4-707e-4ef6-9c6e-6d13b646af42)   
+ [SyncLock Statement](http://msdn.microsoft.com/library/14501703-298f-4d43-b139-c4b6366af176)
