@@ -66,4 +66,4 @@ translation.priority.mt:
   
 ## See Also  
  <xref:System.Resources.ResourceManager?displayProperty=fullName>   
- [Resources in Desktop Apps](http://msdn.microsoft.com/library/8ad495d4-2941-40cf-bf64-e82e85825890)
+ [Resources in Desktop Apps](../Topic/Resources%20in%20Desktop%20Apps.md)

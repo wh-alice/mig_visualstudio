@@ -68,4 +68,4 @@ translation.priority.ht:
   
 ## See Also  
  <xref:System.IDisposable?displayProperty=fullName>   
- [Dispose Pattern](http://msdn.microsoft.com/library/31a6c13b-d6a2-492b-9a9f-e5238c983bcb)
+ [Dispose Pattern](../Topic/Dispose%20Pattern.md)
